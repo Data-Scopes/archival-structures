@@ -54,6 +54,7 @@ def extract_file_info(inv_num_file: dict):
     files = []
     file_ids = []
     file_dates = []
+    mets_file = None
 
     if 'file' in inv_num_file:
         file_list = None
@@ -82,7 +83,16 @@ def extract_file_info(inv_num_file: dict):
                 if 'date' in unit_date:
                     file_dates.append(unit_date['date'])
 
-    return files, file_ids, file_dates
+            if 'dao' in file and file['dao'] is not None:
+                dao = None
+                if isinstance(file['dao'], list) and isinstance(file['dao'][0], dict):
+                    dao = file['dao'][0]
+                elif isinstance(file['dao'], dict):
+                    dao = file['dao']
+                if 'role' in dao and dao['role'] == 'METS' and 'href' in dao:
+                    mets_file = dao['href']
+
+    return files, file_ids, file_dates, mets_file
 
 
 def extract_inv_num_file_info(inv_num_file, max_subseries_depth: int = None):
@@ -90,11 +100,14 @@ def extract_inv_num_file_info(inv_num_file, max_subseries_depth: int = None):
     series = [inv_num_file['series']['title']]
     subseries = extract_subseries_info(inv_num_file)
     filegroups, filegroup_ids = extract_filegroup_info(inv_num_file)
-    files, file_ids, file_dates = extract_file_info(inv_num_file)
+    files, file_ids, file_dates, mets_file = extract_file_info(inv_num_file)
 
     if len(filegroups) == 0:
         filegroups = [None]
         filegroup_ids = [None]
+    elif len(filegroups) > 1:
+        filegroups = filegroups[:1]
+        filegroup_ids = filegroup_ids[:1]
 
     subseries = subseries[:max_subseries_depth]
     if len(subseries) < max_subseries_depth:
@@ -103,7 +116,8 @@ def extract_inv_num_file_info(inv_num_file, max_subseries_depth: int = None):
     file_string = files[0] if len(files) > 0 else None
     file_date = file_dates[0] if len(file_dates) > 0 else None
 
-    row = series + subseries + filegroups + filegroup_ids + [file_string, file_date, unit['unitid']]
+    row = series + subseries + filegroups + filegroup_ids
+    row += [file_string, file_date, unit['unitid'], mets_file]
     return row
 
 
@@ -134,7 +148,8 @@ def get_inventory_info(ead_file, max_subseries_depth: int = 2):
         'inventory_range',
         'file',
         'unitdate',
-        'inventory_num'
+        'inventory_num',
+        'mets_file'
     ]
 
     return pd.DataFrame(rows, columns=columns)
