@@ -6,6 +6,18 @@ from typing import Dict, Generator, List, Union
 
 import pandas as pd
 
+from archival_structures.parsers.read import read_ead
+
+
+def has_inv_num(inf, inv_num):
+    if 'file' not in inf:
+        return False
+    if 'unitid' not in inf['file']:
+        return False
+    if 'unitid' not in inf['file']['unitid'][0]:
+        return False
+    return inf['file']['unitid'][0]['unitid'] == inv_num
+
 
 def unit_has_inv_num_unitid(unit: dict):
     return re.match(r"\d+", unit['unitid'])
@@ -127,10 +139,12 @@ def get_inventory_files_info(files_info):
     return [fi for fi in unit_files if file_has_inv_num_unitid(fi['file'])]
 
 
-def get_inventory_info(ead_file, max_subseries_depth: int = 2):
-    rep_ead = read_ead_file(ead_file)
+def get_inventory_info(ead_file: str = None, ead_string: str = None, max_subseries_depth: int = 2):
+    rep_ead = read_ead(ead_file=ead_file, ead_string=ead_string)
     rep_dsc = get_desc(rep_ead)
+    print(f"rep_dsc: {len(rep_dsc)}")
     files_info = get_files_info(rep_dsc)
+    print(f"files_info: {len(files_info)}")
     inv_files_info = get_inventory_files_info(files_info)
 
     rows = []
@@ -236,7 +250,27 @@ def parse_did(did: ET.Element, tree_level: int = 0) -> Dict[str, any]:
         if child.tag == 'unittitle':
             if child.find('unitdate') is not None:
                 unitdate = child.find('unitdate')
-                did_info[child.tag] = unitdate.text
+                did_info['unittitle'] = None
+                if unitdate.text is not None:
+                    unit_title = unitdate.text.strip()
+                    if unitdate.tail is not None:
+                        did_info['unittitle'] = f"{unit_title}{unitdate.tail.strip()}"
+                if child.text is not None:
+                    if did_info['unittitle'] is None:
+                        did_info['unittitle'] = child.text.strip()
+                    else:
+                        did_info['unittitle'] = f"{child.text.strip()}{did_info['unittitle']}"
+                if child.text is not None and unitdate.text is not None:
+                    # print(f"unitdate.text: #{unitdate.text}#")
+                    # print(f"child.text: #{child.text.strip()}#")
+                    # print(f"did_info['unittitle']: #{did_info[child.tag]}#")
+                    pass
+                # if did_info['unittitle'] and '1680' in did_info['unittitle']:
+                #     print(f"unitid: #{did_info['unitid']}#")
+                #     print(f"unitdate.text: #{unitdate.text}#, unitdate.tail: #{unitdate.tail.strip()}#")
+                #     print(f"child.text: #{child.text.strip()}#")
+                #     print(f"did_info['unittitle']: #{did_info[child.tag]}#")
+
                 did_info['unitdate'] = {'date': unitdate.text}
                 did_info['unitdate'].update(unitdate.attrib)
             else:
@@ -474,6 +508,10 @@ def parse_file(file, subseries_info, tree_level: int = 0, debug: int = 0):
         if child.tag == 'did':
             did_info = parse_did(child, tree_level=tree_level+1)
             file_info['file']['title'] = did_info['unittitle']
+            if did_info['unittitle'] and '1680' in did_info['unittitle'] and 'unitid' in did_info and '11161' in did_info['unitid'][0]['unitid']:
+
+                print(f'\nchild: {child}\n')
+                print(f'\ndid_info: {did_info}\n')
             if tree_level <= 4 and debug > 0:
                 print(f"{'  ' * tree_level}parse_file - tree_level {tree_level} "
                       f"- file title: {did_info['unittitle']}")
@@ -572,8 +610,3 @@ def get_desc(root: ET.Element) -> Union[ET.Element, None]:
                     return child
     return None
 
-
-def read_ead_file(ead_file: str) -> ET:
-    tree = ET.parse(ead_file)
-    root = tree.getroot()
-    return root
