@@ -6,9 +6,14 @@
 
 import os
 from pathlib import Path
+from typing import List, Tuple
 
 import cv2
 import numpy as np
+import pagexml.model.physical_document_model as pdm
+from PIL import Image
+
+from archival_structures.image.image_base import Scan, Box, ImageSelection, Thumbnail, load_thumbnail, make_selection
 
 
 def make_thumbnail_filename(image_filepath: Path, thumb_dir: Path,
@@ -45,3 +50,52 @@ def select_image_region(im: np.array, x: int, y: int, w: int = None, h: int = No
 def make_image_thumbnail(image_fp: Path, thumb_fp: Path, thumb_width: int = 300):
     thumb = resize_image(image_fp, thumb_width=thumb_width)
     cv2.imwrite(str(thumb_fp), thumb)
+
+
+def select_scan_region_from_thumbnail(region: pdm.PageXMLRegion, thumbnail: Thumbnail,
+                                      scan: pdm.PageXMLScan, resize: Tuple[int, int] = None):
+    """For a given PageXML scan, a region in that scan and a thumbnail of the scan, return the thumbnail selection
+    corresponding to the region."""
+    if scan is not None:
+        scan_size = Scan(scan.coords.width, scan.coords.height)
+    elif 'scan_width' in region.metadata and 'scan_height' in region.metadata:
+        scan_size = Scan(region.metadata['scan_width'], region.metadata['scan_height'])
+    else:
+        raise ValueError("scan must be given if region does not have 'scan_width' and 'scan_height' in metadata")
+
+    region_box = Box.from_json(region.coords.box)
+    if region_box.x < 0:
+        region_box.x = 0
+    if region_box.y < 0:
+        region_box.y = 0
+    selection = ImageSelection(scan_size, region_box, thumbnail)
+    region_image = selection.cropped
+    if resize is not None:
+        try:
+            region_image = cv2.resize(region_image, resize)
+        except BaseException:
+            print(f"region: {region.id}")
+            print(f"region_image.shape: {region_image.shape}\tresize: {resize}")
+            raise
+    return region_image
+
+
+def select_scan_regions_from_thumbnail(scan: pdm.PageXMLScan, thumb_path: Path,
+                                       resize: Tuple[int, int] = None, as_array: bool = True):
+    """Each scan has one thumbnail and multiple regions. This function selects the regions from the scan in
+    the corresponding thumbnail. """
+    thumbnail = load_thumbnail(thumb_path, as_array=as_array)
+
+    region_images = []
+    for region in scan.regions:
+        region_image = select_scan_region_from_thumbnail(scan, region, thumbnail, resize=resize)
+        region_images.append(region_image)
+    return region_images
+
+
+def merge_region_images_to_1d_pixels(region_images: List[np.array]):
+    """Merge a list of region images into a single 1D pixel array. Image regions have different shapes, thus
+    are merged into a single list of pixels."""
+    # step 1: reshape each image to one dimension
+    images_1d = [im.reshape((im.shape[0] * im.shape[1], im.shape[2])) for im in region_images]
+    return np.concatenate(images_1d)
