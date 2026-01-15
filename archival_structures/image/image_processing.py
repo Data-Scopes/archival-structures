@@ -71,6 +71,11 @@ def select_scan_region_from_thumbnail(region: pdm.PageXMLRegion, thumbnail: Thum
     selection = ImageSelection(scan_size, region_box, thumbnail)
     region_image = selection.cropped
     if resize is not None:
+        region_w, region_h = region_image.shape[:2]
+        if resize[0] > region_w:
+            resize = (region_w, resize[1])
+        if resize[1] > region_h:
+            resize = (resize[0], region_h)
         try:
             region_image = cv2.resize(region_image, resize)
         except BaseException:
