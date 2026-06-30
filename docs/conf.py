@@ -14,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 project = "archival-structures"
 copyright = "2026, Marijn Koolen"
 author = "Marijn Koolen"
-release = "0.1.0"
+release = "0.2.0"
 
 # -- General configuration ----------------------------------------------------
 

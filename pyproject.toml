@@ -1,6 +1,6 @@
 [project]
 name = "archival-structures"
-version = "0.1.0"
+version = "0.2.0"
 description = "A Python package for analysing and restructuring the output of Automatic Text Recognition (ATR) pipelines."
 authors = [
     {name = "Marijn Koolen",email = "marijn.koolen@gmail.com"}
