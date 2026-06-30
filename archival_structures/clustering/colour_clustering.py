@@ -24,10 +24,16 @@ using HDBSCAN, and provides UMAP projections for visualisation.
 
 Dependencies
 ------------
+
+::
+
     pip install pagexml-tools scikit-learn scikit-image hdbscan umap-learn opencv-python
 
 Usage
 -----
+
+::
+
     pairs = [
         {"image_path": "path/to/image.jpg", "pagexml_path": "path/to/page.xml"},
         ...
@@ -144,13 +150,14 @@ def build_masks(
     """
     Build a background mask and a raw text-region mask from a PageXMLScan.
 
-    Background mask  = pixels that lie outside every TextRegion polygon.
-    Text-region mask   = pixels that lie inside any TextRegion polygon
-                         but outside any TextLine polygon.
-    Text-line mask   = pixels that lie inside any TextLine polygon.
-                       Ink vs paper separation is done downstream (see
-                       `extract_ink_pixels`) so that the inverted-page case
-                       can be handled correctly.
+    Background mask: pixels that lie outside every TextRegion polygon.
+
+    Text-region mask: pixels that lie inside any TextRegion polygon but outside any TextLine
+    polygon.
+
+    Text-line mask: pixels that lie inside any TextLine polygon. Ink vs paper separation is
+    done downstream (see `extract_ink_pixels`) so that the inverted-page case can be handled
+    correctly.
 
     Parameters
     ----------

@@ -27,27 +27,31 @@ def get_height_profile(scans: List[pdm], interval_width: int = 5, doc_indent: in
     beyond the first and/or last text character. By indenting the lines, it is measurable
     that the sets of lines have non-overlapping centres.
 
-       ------
-            ------
-       ------
-            ------
-       ------
-            ------
-       ------
-            ------
+    ::
+
+           ------
+                ------
+           ------
+                ------
+           ------
+                ------
+           ------
+                ------
 
     In the above example, there are two sets of lines, forming two separate columns. By
     indenting the lines at both ends, the two columns become horizontally separated, making
     them splittable.
 
-        ----
-             ----
-        ----
-             ----
-        ----
-             ----
-        ----
-             ----
+    ::
+
+            ----
+                 ----
+            ----
+                 ----
+            ----
+                 ----
+            ----
+                 ----
 
     :param scans: a list of PageXMLScan objects
     :param interval_width: the interval at which to measure the height profile (default is 5,
