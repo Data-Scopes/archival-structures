@@ -1,18 +1,21 @@
 # Datasets and ground-truth annotation
 
 {mod}`archival_structures.datasets.annotations` defines the ground-truth label schema for the
-text-analysis tasks: {class}`~archival_structures.datasets.annotations.OpeningLabel` (task 1),
-a free-text page-layout label (task 2), per-line type labels (task 3), and
-{class}`~archival_structures.datasets.annotations.Element`/
-{class}`~archival_structures.datasets.annotations.ElementSpan` for cross-page document elements
-(task 4). Labels are plain JSON, one file per scan (or per inventory number for elements),
-referencing PageXML ids rather than re-encoding coordinates, so they stay valid however the
-underlying scan/thumbnail files are organised on disk.
+text-analysis tasks: {class}`~archival_structures.datasets.annotations.OpeningLabel` (task 1,
+unchanged -- a precise, numeric split coordinate rather than a tag), and three levels of tagged
+content -- `ScanAnnotation.tags` (whole scan), `.pages` (verso/recto of a two-page opening),
+`.lines`/`.regions` (task 3, individual lines and zones) -- using the tag vocabulary described
+in [Vocabulary](vocabulary.md). {class}`~archival_structures.datasets.annotations.Element`/
+{class}`~archival_structures.datasets.annotations.ElementSpan` cover cross-page document
+elements (task 4). Labels are plain JSON, one file per scan (or per inventory number for
+elements), referencing PageXML ids rather than re-encoding coordinates where possible, so they
+stay valid however the underlying scan/thumbnail files are organised on disk.
 
 The [scan annotation](notebooks/annotate-scans) demo notebook is an ipywidgets-based app
 (built on {mod}`archival_structures.image.image_drawing`) for producing this ground truth
-interactively: step through an inventory number's scans, label each one's opening/page-layout/
-line-type properties, and save.
+interactively. **Note:** the notebook currently still targets the pre-vocabulary schema
+(a single free-text `page_layout` string and one label per line) and needs updating to the
+tag-based fields described above before it's usable again.
 
 Two other tools have produced labels for the same scans in different, incompatible formats.
 {func}`~archival_structures.datasets.annotations.import_bulk_image_labels` and

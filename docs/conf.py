@@ -45,6 +45,10 @@ napoleon_numpy_docstring = True
 napoleon_use_param = True
 napoleon_use_rtype = False
 
+# lets `[text](other-page.md#some-heading)`-style links resolve against auto-generated heading
+# anchors in other pages, not just headings with an explicit `(target)=` label
+myst_heading_anchors = 3
+
 autodoc_member_order = "bysource"
 autodoc_typehints = "description"
 autodoc_default_options = {

@@ -6,11 +6,11 @@ from unittest import TestCase
 import pagexml.model.physical_document_model as pdm
 
 from archival_structures.datasets.annotations import (
-    Element, ElementSpan, OpeningLabel, ScanAnnotation,
-    elements_path, import_bulk_image_labels, load_elements, load_line_labels,
-    load_opening_labels, load_page_layout_labels, load_scan_annotation,
-    migrate_legacy_region_annotations, new_scan_annotation, parse_thumb_path,
-    save_elements, save_scan_annotation, scan_annotation_path,
+    Element, ElementSpan, OpeningLabel, RegionTag, ScanAnnotation,
+    elements_path, import_bulk_image_labels, load_elements, load_line_tags,
+    load_opening_labels, load_page_tags, load_region_tags, load_scan_annotation,
+    load_scan_tags, migrate_legacy_region_annotations, new_scan_annotation,
+    parse_thumb_path, save_elements, save_scan_annotation, scan_annotation_path,
 )
 
 
@@ -64,11 +64,16 @@ class TestAnnotations(TestCase):
         scan = make_scan_with_lines('scan1', ['l1', 'l2', 'l3'])
         annotation = new_scan_annotation(scan)
         self.assertEqual('scan1', annotation.scan_id)
-        self.assertEqual({'l1': None, 'l2': None, 'l3': None}, annotation.lines)
+        self.assertEqual({'l1': [], 'l2': [], 'l3': []}, annotation.lines)
 
     def test_scan_annotation_round_trip(self):
-        annotation = ScanAnnotation(scan_id='scan1', opening=OpeningLabel(is_opening=True, separation_x=100.5),
-                                    page_layout='two_column_body', lines={'l1': 'body', 'l2': None})
+        annotation = ScanAnnotation(
+            scan_id='scan1', opening=OpeningLabel(is_opening=True, separation_x=100.5),
+            tags=['carrier:opening'],
+            pages={'verso': ['generic:running_text'], 'recto': ['generic:running_text', 'doctype:deed']},
+            lines={'l1': ['generic:closing'], 'l2': []},
+            regions=[RegionTag(tags=['generic:table'], box={'x': 1.0, 'y': 2.0, 'w': 3.0, 'h': 4.0})],
+        )
         path = scan_annotation_path('archive', 'inv', 'inv_1', 'scan1', annotations_dir=self.annotations_dir)
         save_scan_annotation(annotation, path)
         loaded = load_scan_annotation(path)
@@ -85,10 +90,14 @@ class TestAnnotations(TestCase):
         self.assertEqual(elements, loaded)
 
     def test_dataframe_loaders_collect_across_files(self):
-        ann1 = ScanAnnotation(scan_id='scan1', opening=OpeningLabel(is_opening=True, separation_x=50),
-                              page_layout='layout_a', lines={'l1': 'body', 'l2': 'closing'})
+        ann1 = ScanAnnotation(
+            scan_id='scan1', opening=OpeningLabel(is_opening=True, separation_x=50),
+            tags=['generic:table'], pages={'verso': ['generic:running_text']},
+            lines={'l1': ['generic:closing'], 'l2': ['generic:closing', 'doctype:deed:closing']},
+            regions=[RegionTag(tags=['generic:marginalia'], element_id='r1')],
+        )
         ann2 = ScanAnnotation(scan_id='scan2', opening=OpeningLabel(is_opening=False),
-                              page_layout='layout_b', lines={'l3': None})
+                              tags=['generic:cover'], lines={'l3': []})
         save_scan_annotation(ann1, scan_annotation_path('archive', 'inv', 'inv_1', 'scan1',
                                                          annotations_dir=self.annotations_dir))
         save_scan_annotation(ann2, scan_annotation_path('archive', 'inv', 'inv_1', 'scan2',
@@ -99,13 +108,22 @@ class TestAnnotations(TestCase):
         self.assertTrue(opening_df.set_index('scan_id').loc['scan1', 'is_opening'])
         self.assertFalse(opening_df.set_index('scan_id').loc['scan2', 'is_opening'])
 
-        layout_df = load_page_layout_labels(self.annotations_dir)
-        self.assertEqual({'layout_a', 'layout_b'}, set(layout_df['page_layout']))
+        scan_tags_df = load_scan_tags(self.annotations_dir)
+        self.assertEqual({'generic:table', 'generic:cover'}, set(scan_tags_df['tag']))
 
-        line_df = load_line_labels(self.annotations_dir)
-        # only labelled lines (not None) should appear
-        self.assertEqual(2, len(line_df))
-        self.assertNotIn('l3', set(line_df['line_id']))
+        page_tags_df = load_page_tags(self.annotations_dir)
+        self.assertEqual(1, len(page_tags_df))
+        self.assertEqual('verso', page_tags_df.iloc[0]['side'])
+
+        line_tags_df = load_line_tags(self.annotations_dir)
+        # 'l3' has no tags, so it shouldn't contribute any rows
+        self.assertEqual(3, len(line_tags_df))
+        self.assertNotIn('l3', set(line_tags_df['line_id']))
+
+        region_tags_df = load_region_tags(self.annotations_dir)
+        self.assertEqual(1, len(region_tags_df))
+        self.assertEqual('generic:marginalia', region_tags_df.iloc[0]['tag'])
+        self.assertEqual('r1', region_tags_df.iloc[0]['element_id'])
 
 
 class TestParseThumbPath(TestCase):
@@ -140,14 +158,14 @@ class TestImportBulkImageLabels(TestCase):
         })
         counts = import_bulk_image_labels(self.labels_path, annotations_dir=self.annotations_dir)
         self.assertEqual(1, counts['opening_set'])
-        self.assertEqual(1, counts['page_layout_set'])
+        self.assertEqual(1, counts['tags_added'])
 
         path = scan_annotation_path('NL-HaNA', 'NL-HaNA_2.10.50', 'NL-HaNA_2.10.50_1',
                                     'NL-HaNA_2.10.50_1_0001.jpg', annotations_dir=self.annotations_dir)
         annotation = load_scan_annotation(path)
         self.assertTrue(annotation.opening.is_opening)
         self.assertIsNone(annotation.opening.separation_x)
-        self.assertEqual('table', annotation.page_layout)
+        self.assertEqual(['generic:table'], annotation.tags)
 
     def test_opening_tag_absence_sets_is_opening_false(self):
         self._write_labels({
@@ -158,7 +176,7 @@ class TestImportBulkImageLabels(TestCase):
                                     'NL-HaNA_2.10.50_1_0002.jpg', annotations_dir=self.annotations_dir)
         annotation = load_scan_annotation(path)
         self.assertFalse(annotation.opening.is_opening)
-        self.assertEqual('book_cover', annotation.page_layout)
+        self.assertEqual(['generic:cover'], annotation.tags)
 
     def test_does_not_overwrite_existing_opening(self):
         scan_id = 'NL-HaNA_2.10.50_1_0003.jpg'
@@ -173,18 +191,31 @@ class TestImportBulkImageLabels(TestCase):
         annotation = load_scan_annotation(path)
         self.assertFalse(annotation.opening.is_opening)  # untouched, not flipped to True
 
-    def test_ambiguous_page_layout_tags_are_skipped_not_guessed(self):
+    def test_multiple_mapped_labels_all_get_added_as_tags(self):
+        # unlike the old single page_layout string, multiple co-occurring tags are fine now
         self._write_labels({
             'data/thumbs/NL-HaNA/NL-HaNA_2.10.50/1/NL-HaNA_2.10.50_1_0004.jpg': ['table', 'title_page'],
         })
         counts = import_bulk_image_labels(self.labels_path, annotations_dir=self.annotations_dir)
-        self.assertEqual(1, counts['skipped_ambiguous'])
-        self.assertEqual(0, counts['page_layout_set'])
+        self.assertEqual(2, counts['tags_added'])
 
         path = scan_annotation_path('NL-HaNA', 'NL-HaNA_2.10.50', 'NL-HaNA_2.10.50_1',
                                     'NL-HaNA_2.10.50_1_0004.jpg', annotations_dir=self.annotations_dir)
         annotation = load_scan_annotation(path)
-        self.assertIsNone(annotation.page_layout)
+        self.assertEqual({'generic:table', 'generic:title_page'}, set(annotation.tags))
+
+    def test_does_not_add_duplicate_tags(self):
+        scan_id = 'NL-HaNA_2.10.50_1_0005.jpg'
+        path = scan_annotation_path('NL-HaNA', 'NL-HaNA_2.10.50', 'NL-HaNA_2.10.50_1', scan_id,
+                                    annotations_dir=self.annotations_dir)
+        save_scan_annotation(ScanAnnotation(scan_id=scan_id, tags=['generic:table']), path)
+
+        self._write_labels({f'data/thumbs/NL-HaNA/NL-HaNA_2.10.50/1/{scan_id}': ['table']})
+        counts = import_bulk_image_labels(self.labels_path, annotations_dir=self.annotations_dir)
+
+        self.assertEqual(0, counts['tags_added'])
+        annotation = load_scan_annotation(path)
+        self.assertEqual(['generic:table'], annotation.tags)
 
 
 class TestMigrateLegacyRegionAnnotations(TestCase):
@@ -205,16 +236,14 @@ class TestMigrateLegacyRegionAnnotations(TestCase):
             json.dump(regions, fh)
         return path
 
-    def test_migrates_overlapping_lines_and_skips_low_overlap(self):
+    def test_migrates_regions_with_mapped_tags(self):
         write_pagexml(self.pagexml_dir / 'archive' / 'inv' / 'inv_1' / 'scan1.xml', 'scan1.jpg',
-                      1000, 1000, [
-                          ('l1', 0, 0, 500, 100),    # fully inside the marginalium region
-                          ('l2', 0, 100, 500, 100),  # fully inside the marginalium region
-                          ('l3', 900, 900, 100, 100),  # outside the region entirely
-                      ])
+                      1000, 1000, [('l1', 0, 0, 500, 100)])
         path = self._write_legacy_file('scan1.png', [
             {'thumb_box': {'x': 0, 'y': 0, 'w': 10, 'h': 10, 'label': 'marginalium'},
              'orig_box': {'x': 0, 'y': 0, 'w': 500, 'h': 200, 'label': 'marginalium'}},
+            {'thumb_box': {'x': 0, 'y': 0, 'w': 10, 'h': 10, 'label': 'closing'},
+             'orig_box': {'x': 0, 'y': 200, 'w': 500, 'h': 100, 'label': 'closing'}},
         ])
 
         counts = migrate_legacy_region_annotations(annotations_dir=self.annotations_dir,
@@ -222,12 +251,28 @@ class TestMigrateLegacyRegionAnnotations(TestCase):
 
         self.assertEqual(1, counts['files_seen'])
         self.assertEqual(1, counts['files_migrated'])
-        self.assertEqual(2, counts['lines_labelled'])
+        self.assertEqual(2, counts['regions_migrated'])
 
         annotation = load_scan_annotation(path)
-        self.assertEqual('marginalium', annotation.lines['l1'])
-        self.assertEqual('marginalium', annotation.lines['l2'])
-        self.assertIsNone(annotation.lines['l3'])
+        self.assertEqual(2, len(annotation.regions))
+        tags = sorted(r.tags[0] for r in annotation.regions)
+        self.assertEqual(['generic:closing', 'generic:marginalia'], tags)
+        # the original PageXML-derived line skeleton is still preserved
+        self.assertEqual({'l1': []}, annotation.lines)
+
+    def test_unmapped_label_preserved_under_legacy_doctype(self):
+        write_pagexml(self.pagexml_dir / 'archive' / 'inv' / 'inv_1' / 'scan1.xml', 'scan1.jpg',
+                      1000, 1000, [('l1', 0, 0, 500, 100)])
+        path = self._write_legacy_file('scan1.png', [
+            {'thumb_box': {'x': 0, 'y': 0, 'w': 10, 'h': 10, 'label': 'other'},
+             'orig_box': {'x': 0, 'y': 0, 'w': 500, 'h': 100, 'label': 'other'}},
+        ])
+
+        migrate_legacy_region_annotations(annotations_dir=self.annotations_dir,
+                                          pagexml_dir=self.pagexml_dir)
+
+        annotation = load_scan_annotation(path)
+        self.assertEqual(['doctype:legacy:other'], annotation.regions[0].tags)
 
     def test_preserves_original_as_legacy_backup(self):
         write_pagexml(self.pagexml_dir / 'archive' / 'inv' / 'inv_1' / 'scan1.xml', 'scan1.jpg',
@@ -260,11 +305,11 @@ class TestMigrateLegacyRegionAnnotations(TestCase):
     def test_already_migrated_files_are_left_alone(self):
         path = scan_annotation_path('archive', 'inv', 'inv_1', 'scan1.jpg',
                                     annotations_dir=self.annotations_dir)
-        save_scan_annotation(ScanAnnotation(scan_id='scan1.jpg', lines={'l1': 'body'}), path)
+        save_scan_annotation(ScanAnnotation(scan_id='scan1.jpg', lines={'l1': ['generic:running_text']}), path)
 
         counts = migrate_legacy_region_annotations(annotations_dir=self.annotations_dir,
                                                     pagexml_dir=self.pagexml_dir)
 
         self.assertEqual(0, counts['files_seen'])
         annotation = load_scan_annotation(path)
-        self.assertEqual({'l1': 'body'}, annotation.lines)
+        self.assertEqual({'l1': ['generic:running_text']}, annotation.lines)

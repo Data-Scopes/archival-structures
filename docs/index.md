@@ -42,6 +42,7 @@ text_analysis_pipeline
 colour_and_ink
 coordinate_bridging
 datasets_and_annotation
+vocabulary
 ead_mets_parsing
 findings
 ```

@@ -116,25 +116,26 @@ filenames where the real PageXML `scan_id` is `.jpg`.
 {func}`~archival_structures.datasets.annotations.import_bulk_image_labels` bridges the bulk
 tagger's labels in: 2892 real labels (`book_opening`/`table`/`title_page`/`book_cover` for
 `NL-HaNA_2.10.50`) were imported by treating `book_opening` as `OpeningLabel.is_opening` and
-the remaining three (which never co-occur with each other in practice, confirmed against the
-real label co-occurrence counts) as `page_layout`. `separation_x` is left unset -- the bulk
-tagger has no spatial annotation, only whole-image tags.
+mapping the remaining three onto `generic:table`/`generic:title_page`/`generic:cover` tags
+(see [Vocabulary](vocabulary.md)) added to `ScanAnnotation.tags`. `separation_x` is left unset
+-- the bulk tagger has no spatial annotation, only whole-image tags.
 
 {func}`~archival_structures.datasets.annotations.migrate_legacy_region_annotations` converts
-the older region-drawing tool's files in place: each region marks a whole zone (e.g. a
-multi-line marginal-note column), so every PageXML line whose own box is at least
-half-covered by a region gets that region's label written to `ScanAnnotation.lines`, recovering
-4027 real line-type labels (`closing`, `marginalium`, `table`, `body`, ...) across 73 scans that
+the older region-drawing tool's files in place: each region keeps its own box and gets a
+mapped tag (`marginalium` -> `generic:marginalia`, `closing` -> `generic:closing`, etc.;
+labels with no mapping are preserved verbatim as `doctype:legacy:<label>` rather than dropped)
+as a `ScanAnnotation.regions` entry, recovering 4027 real region tags across 73 scans that
 were otherwise crashing `load_scan_annotation` (a JSON list isn't a dict, so
 `ScanAnnotation.from_dict` raised `AttributeError` as soon as anything scanned the whole
 `annotations/` tree). The original file content is preserved as `legacy-<original filename>`
-before being overwritten, since the box-overlap matching is a heuristic, not a guarantee.
+before being overwritten.
 
-Both functions follow the same conservative merge policy: never overwrite a field already set
-on an existing saved `ScanAnnotation`, only fill in `opening`/`page_layout`/`lines` entries that
-are currently unset. There's no way to tell an auto-suggested value from a human-confirmed one
-once saved (the notebook pre-fills `opening` with a `get_opening_features` suggestion before any
-review), so anything already on disk is treated as authoritative.
+`import_bulk_image_labels` never overwrites `opening` if already set on an existing saved
+`ScanAnnotation` -- there's no way to tell an auto-suggested value from a human-confirmed one
+once saved (the notebook pre-fills `opening` with a `get_opening_features` suggestion before
+any review), so anything already on disk is treated as authoritative. Tags themselves don't
+need the same guard: since `ScanAnnotation.tags` is multi-valued, adding a tag is never
+destructive -- it's simply appended if not already present.
 
 ## Working with real archival image data
 
