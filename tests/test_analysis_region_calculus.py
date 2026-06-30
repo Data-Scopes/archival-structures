@@ -67,6 +67,15 @@ class TestRegionCalculus(TestCase):
         relation = rcc.get_vertical_region_relation(self.region1, self.region5, debug=1)
         self.assertEqual('EQ', relation)
 
+    def test_vertical_disconnected_with_horizontal_overlap(self):
+        # same x-range (so horizontally "connected"), but far apart vertically -- regression
+        # test for a bug where the vertical relation's DC/EC decision incorrectly used
+        # horizontal left/right coordinates instead of the actual vertical top/bottom
+        top_region = pdm.PageXMLRegion(coords=pdm.Coords.coords_from_box_params(x=100, y=0, w=100, h=50))
+        bottom_region = pdm.PageXMLRegion(coords=pdm.Coords.coords_from_box_params(x=100, y=1000, w=100, h=50))
+        relation = rcc.get_vertical_region_relation(top_region, bottom_region, max_diff=10, debug=1)
+        self.assertEqual('DC', relation)
+
 
 class TestThickRegionCalculus(TestCase):
 

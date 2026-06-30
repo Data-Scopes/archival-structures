@@ -1,182 +1,42 @@
-import json
+"""Building and converting `archival_structures.model.image` coordinate-space selections.
+
+`make_selection`/`make_selection_from_row` are the entry points for constructing an
+`ImageCanvasSelection` (scan + selection box + thumbnail), from which `Transform`-based
+conversions between scan/thumbnail/canvas coordinate spaces follow (see `model.image`).
+`thumb_box_to_scan_box`/`scan_box_to_thumb_box` are thin convenience wrappers around those
+transforms; `load_thumbnail` loads the actual thumbnail image (PIL or numpy array).
+"""
+
 import os
 from dataclasses import dataclass
-from io import BytesIO
 from pathlib import Path
-from typing import Dict, Union
+from typing import Dict, Tuple, Union
 
 import numpy as np
 import cv2
-import ipywidgets as widgets
 from PIL import Image
 
-
-@dataclass
-class Box:
-
-    x: Union[int, float]
-    y: Union[int, float]
-    w: Union[int, float]
-    h: Union[int, float]
-    label: str = None
-
-    @staticmethod
-    def from_json(json_data: Dict):
-        return Box(json_data['x'], json_data['y'], json_data['w'], json_data['h'])
-
-
-@dataclass
-class Scan:
-
-    width: int
-    height: int
-
-@dataclass
-class ScanSelection:
-
-    scan: Scan
-    selection_box: Box
-
-
-@dataclass
-class Thumbnail:
-
-    filename: str
-    filepath: str
-    width: int
-    height: int
-    image: Image.Image
-
-
-@dataclass
-class ThumbnailArray:
-
-    filename: str
-    filepath: str
-    width: int
-    height: int
-    image: Union[np.ndarray, Image.Image, cv2.UMat]
-
-
-@dataclass
-class ThumbnailSelection:
-
-    thumbnail: Thumbnail
-    selection_box: Box
-
-
-@dataclass
-class ImageSelection:
-
-    scan: Scan
-    selection_box: Box
-    thumbnail: Thumbnail
-
-    @property
-    def sel_width_scale(self):
-        return self.scan.width / self.selection_box.w
-
-    @property
-    def sel_height_scale(self):
-        return self.scan.height / self.selection_box.h
-
-    @property
-    def thumb_width_scale(self):
-        return self.scan.width / self.thumbnail.width
-
-    @property
-    def thumb_height_scale(self):
-        return self.scan.height / self.thumbnail.height
-
-    @property
-    def sel_thumb_width_scale(self):
-        return self.thumb_width_scale / self.sel_width_scale
-
-    @property
-    def sel_thumb_height_scale(self):
-        return self.thumb_height_scale / self.sel_height_scale
-
-    @property
-    def thumb_sel_width(self):
-        return self.selection_box.w * self.thumbnail.width / self.scan.width
-
-    @property
-    def image_sel_height(self):
-        return self.selection_box.h * self.thumbnail.height / self.scan.height
-
-    @property
-    def thumb_selection_box(self):
-        return Box(self.selection_box.x / self.thumb_width_scale, self.selection_box.y / self.thumb_height_scale,
-                   self.selection_box.w / self.thumb_width_scale, self.selection_box.h / self.thumb_width_scale)
-
-    @property
-    def cropped(self):
-        thumb_box = self.thumb_selection_box
-        left, right = thumb_box.x, thumb_box.x + thumb_box.w
-        top, bottom = thumb_box.y, thumb_box.y + thumb_box.h
-        if isinstance(self.thumbnail, ThumbnailArray):
-            return self.thumbnail.image[int(left):int(right), int(top):int(bottom)]
-        else:
-            return self.thumbnail.image.crop((left, top, right, bottom))
-
-
-@dataclass
-class ImageCanvasSelection(ImageSelection):
-
-    canvas_width: Union[int, float]
-
-    @property
-    def canvas_height(self):
-        # self.image_sel_width
-        aspect_ratio = self.scan.width / self.scan.height
-        return self.image_sel_height * (self.canvas_width / self.thumb_sel_width)
-
-    @property
-    def canvas_width_scale(self):
-        return self.canvas_width / self.thumbnail.width
-
-    @property
-    def canvas_height_scale(self):
-        return self.canvas_height / self.thumbnail.height
+import archival_structures.utils.image_utils as im_utils
+from archival_structures.model.image import ImageCanvasSelection, Box, Scan, ImageSelection, Thumbnail, ThumbnailArray
 
 
 def thumb_box_to_scan_box(image_sel: ImageCanvasSelection, thumb_box: Box) -> Box:
-    scan_sel_box = Box(
-        thumb_box.x * (image_sel.sel_thumb_width_scale / image_sel.canvas_width_scale),
-        thumb_box.y * (image_sel.sel_thumb_height_scale / image_sel.canvas_height_scale),
-        thumb_box.w * (image_sel.sel_thumb_width_scale / image_sel.canvas_width_scale),
-        thumb_box.h * (image_sel.sel_thumb_height_scale / image_sel.canvas_height_scale),
-        )
-    scan_box = Box(
-        scan_sel_box.x + image_sel.selection_box.x,
-        scan_sel_box.y + image_sel.selection_box.y,
-        scan_sel_box.w,
-        scan_sel_box.h,
-        thumb_box.label,
-        )
-    return scan_box
+    """Convert a box drawn on `image_sel`'s canvas into scan-space coordinates."""
+    return image_sel.canvas_to_scan.apply(thumb_box)
 
 
-def scan_box_to_thumb_box(image_sel: ImageCanvasSelection, scan_box: Box):
-    scan_sel_box = Box(
-        scan_box.x - image_sel.selection_box.x,
-        scan_box.y - image_sel.selection_box.y,
-        scan_box.w,
-        scan_box.h,
-        )
-    thumb_box = Box(
-        scan_sel_box.x / (image_sel.sel_thumb_width_scale / image_sel.canvas_width_scale),
-        scan_sel_box.y / (image_sel.sel_thumb_height_scale / image_sel.canvas_height_scale),
-        scan_sel_box.w / (image_sel.sel_thumb_width_scale / image_sel.canvas_width_scale),
-        scan_sel_box.h / (image_sel.sel_thumb_height_scale / image_sel.canvas_height_scale),
-        scan_box.label
-    )
-    return thumb_box
+def scan_box_to_thumb_box(image_sel: ImageCanvasSelection, scan_box: Box) -> Box:
+    """Convert a scan-space box into `image_sel`'s canvas coordinates."""
+    return image_sel.scan_to_canvas.apply(scan_box)
 
 
 def make_selection(scan_width: int, scan_height: int, thumb_path: str,
                    width: int = None, height: int = None,
                    x: int = 0, y: int = 0, canvas_width: Union[int, float] = 300, as_array: bool = False):
+    """Build an `ImageCanvasSelection` for a scan of size `scan_width` x `scan_height`, whose
+    thumbnail is loaded from `thumb_path`. `(x, y, width, height)` define the selection box in
+    scan-space (the full scan if `width`/`height` aren't given); `canvas_width` is the display
+    width the selection is fit to (see `ImageCanvasSelection.thumb_to_canvas`)."""
     if width is None:
         width = scan_width
     if height is None:
@@ -189,6 +49,9 @@ def make_selection(scan_width: int, scan_height: int, thumb_path: str,
 
 def make_selection_from_row(row: Dict[str, any], canvas_width: Union[int, float] = 300,
                             as_array: bool = False) -> ImageSelection:
+    """`make_selection`, reading its arguments from a dict-like `row` (e.g. a DataFrame row)
+    with `scan_width`/`scan_height`/`filepath` keys and optional `x`/`y`/`width`/`height` keys
+    (selecting the full scan if the latter are absent)."""
     x = row['x'] if 'x' in row else 0
     y = row['y'] if 'y' in row else 0
     width = row['width'] if 'width' in row else row['scan_width']
@@ -197,14 +60,8 @@ def make_selection_from_row(row: Dict[str, any], canvas_width: Union[int, float]
                           width, height, x, y, canvas_width=canvas_width, as_array=as_array)
 
 
-def cropped_image_to_widgets_image(image_sel: ImageSelection):
-    img_bytes = BytesIO()
-    cropped_img = image_sel.cropped
-    cropped_img.save(img_bytes, format='PNG')
-    return widgets.Image(value=img_bytes.getvalue())
-
-
 def get_image_size(img_path: str):
+    """`(width, height)` of the image at `img_path`, via PIL."""
     im = Image.open(img_path)
     return im.size
 
@@ -220,19 +77,58 @@ def boxes_overlap(box1: Box, box2: Box) -> bool:
     return overlap_x > 0 and overlap_y > 0
 
 
-def load_thumbnail(thumb_path: Union[str, Path], as_array: bool = False) -> Union[Thumbnail, ThumbnailArray]:
+def clamp_box(box: Box, width: Union[int, float], height: Union[int, float]) -> Box:
+    """Clamp `box` so it stays within a `width` x `height` rectangle anchored at the origin."""
+    x = max(box.x, 0)
+    y = max(box.y, 0)
+    w = min(box.w, width - x)
+    h = min(box.h, height - y)
+    return Box(x, y, w, h, box.label)
+
+
+def resize_thumbnail(image: Union[np.ndarray, Image.Image, cv2.UMat], width: int, height: int) -> Union[np.ndarray, Image.Image, cv2.UMat]:
+    """Resize an image to the given width and height."""
+    if isinstance(image, np.ndarray):
+        return cv2.resize(image, (width, height))
+    elif isinstance(image, Image.Image):
+        return image.resize((width, height))
+    elif isinstance(image, cv2.UMat):
+        return cv2.resize(image, (width, height))
+    else:
+        raise TypeError(f"Unsupported image type: {type(image)}")
+
+
+def compute_resize_width_height(image_width: int, image_height: int, max_pixels: int) -> Tuple[int, int]:
+    """Compute the width and height of the resized image to fit the maximum number of pixels."""
+    if image_width * image_height < max_pixels:
+        return image_width, image_height
+    resize_ratio = np.sqrt(max_pixels / (image_width * image_height))
+    return int(image_width * resize_ratio), int(image_height * resize_ratio)
+
+
+def load_thumbnail(thumb_path: Union[str, Path], as_array: bool = False, max_pixels: int = None) -> Union[Thumbnail, ThumbnailArray]:
     """
     Load a thumbnail from the given path and return a Thumbnail object.
+
+    :param thumb_path: Path to the thumbnail
+    :param as_array: If True, return a numpy array instead of a Thumbnail object.
+    :param max_pixels: Resize the thumbnail to have at most this number of pixels
+                       (width times height), while preserving the aspect ratio.
     """
     thumb_file = os.path.split(thumb_path)[-1]
     if as_array:
-        image = cv2.imread(thumb_path)
-        image_width, image_height = image.shape[:2]
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+        image = im_utils.load_image(thumb_path)
+        image_height, image_width = image.shape[:2]
+        if max_pixels is not None:
+            image_width, image_height = compute_resize_width_height(image_width, image_height, max_pixels)
+            image = cv2.resize(image, (image_width, image_height), interpolation=cv2.INTER_AREA)
         return ThumbnailArray(thumb_file, thumb_path, image_width, image_height, image)
     else:
         image = Image.open(thumb_path)
         image_width, image_height = image.size
+        if max_pixels is not None:
+            image_width, image_height = compute_resize_width_height(image_width, image_height, max_pixels)
+            image = image.resize((image_width, image_height))
         return Thumbnail(thumb_file, thumb_path, image_width, image_height, image)
 
 

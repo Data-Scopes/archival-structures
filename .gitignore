@@ -1,3 +1,6 @@
+# macOS
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +175,46 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project-specific
+# -----------------
+# Other dependency-management lockfiles -- Poetry (poetry.lock) is this project's actual,
+# configured tool; these are leftovers from earlier experiments.
+Pipfile
+Pipfile.lock
+uv.lock
+
+# IDE/tool config, not part of the package
+.idea/
+.claude/
+
+# data/ holds the full archival dataset (15GB+) this package was developed against -- only the
+# small subset actually needed by notebooks/demo/ is committed, via explicit `git add -f`.
+data/
+
+# A separate, in-progress embeddings/VLM/active-learning subsystem (492MB) -- not part of this
+# release; see docs/findings.md.
+archival_structures/stream_analysis/
+
+# Scratch/exploratory notebooks and scripts accumulated during development, not part of the
+# polished package or its notebooks/demo/ -- kept local rather than published.
+/demo/
+/ground_truth/
+/images/
+/resources/
+/scripts/
+/notebooks/*
+!/notebooks/demo/
+/archival_structures/clustering/docs/
+/Untitled.ipynb
+/make_iventory_paragraphs.py
+/inventory_scans_statistics.ipynb
+/test_clustering_big_archives.py
+
+# Within notebooks/demo/: a different, unrelated tensorflow/easyocr-based clustering approach
+# and its large generated outputs, plus a bare-title notebook with no content -- excluded from
+# the curated demo set (see README.md/docs/index.md).
+/notebooks/demo/resnet_clustering.ipynb
+/notebooks/demo/resnet_features-*.npy
+/notebooks/demo/ocr_results/
+/notebooks/demo/demonstrating-analysis-of-archival-structures.ipynb

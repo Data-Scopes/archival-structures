@@ -1,3 +1,11 @@
+"""Height-profile analysis of scans along the X-axis.
+
+`get_height_profile` and `get_separation_point` are the building blocks behind
+`archival_structures.analysis.opening_detection`'s per-scan gap heuristic: a column of
+near-zero line height running down a scan signals either a gap between columns on one page, or
+the gutter between two pages of a book opening.
+"""
+
 from collections import defaultdict, Counter
 from typing import Dict, List
 

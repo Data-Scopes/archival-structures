@@ -1,3 +1,21 @@
+"""Parsing EAD (Encoded Archival Description) finding-aid XML into a flat per-file table.
+
+An EAD `<dsc>` (description of subordinate components) is a tree of nested `<c level="...">`
+elements (`series` > `subseries` > `subseries`(nested) > `otherlevel`/`filegrp` >
+`file`), each with a `<did>` (descriptive identification) carrying its title/id/date/physical
+description. The `parse_*` functions walk this tree recursively, each level copying its parent
+context (`series`/`subseries`/`filegroup` info) forward so that by the time a `file`-level `<c>`
+is reached, `parse_file` can assemble one self-contained dict with the file's own metadata plus
+its full series/subseries/filegroup ancestry. `get_inventory_info` is the top-level entry point,
+turning a full EAD document into a `pandas.DataFrame` with one row per file that has an
+inventory-number-shaped `unitid` (`unit_has_inv_num_unitid`).
+
+This parser was written against real Dutch national/city archive EAD exports and is tolerant
+of (rather than validating against) the EAD schema -- unrecognised child tags generally raise
+`ValueError` so a new EAD structural variant surfaces as an error rather than silently losing
+data.
+"""
+
 import re
 import xml.etree.ElementTree as ET
 import copy
@@ -10,6 +28,8 @@ from archival_structures.parsers.read import read_ead
 
 
 def has_inv_num(inf, inv_num):
+    """True if `inf` (a `file_info` dict from `parse_file`) has a `file.unitid[0].unitid`
+    equal to `inv_num`."""
     if 'file' not in inf:
         return False
     if 'unitid' not in inf['file']:
@@ -20,14 +40,18 @@ def has_inv_num(inf, inv_num):
 
 
 def unit_has_inv_num_unitid(unit: dict):
+    """True if `unit` (one entry of a `did.unitid` list) looks like an inventory number, i.e.
+    its `unitid` text starts with a digit."""
     return re.match(r"\d+", unit['unitid'])
 
 
 def file_has_inv_num_unitid(file: dict):
+    """True if any of `file`'s `unitid` entries is inventory-number-shaped."""
     return any(unit_has_inv_num_unitid(unit) for unit in file['unitid'])
 
 
 def get_inv_num_unit(file: dict):
+    """The first inventory-number-shaped `unitid` entry of `file`, or `None`."""
     for unit in file['unitid']:
         if unit_has_inv_num_unitid(unit):
             return unit
@@ -35,6 +59,7 @@ def get_inv_num_unit(file: dict):
 
 
 def extract_filegroup_info(inv_num_file: dict):
+    """Titles and ids of `inv_num_file`'s `filegroup` ancestry (if any), as parallel lists."""
     filegroups = []
     filegroup_ids = []
 
@@ -51,6 +76,7 @@ def extract_filegroup_info(inv_num_file: dict):
 
 
 def extract_subseries_info(inv_num_file: dict):
+    """Titles of `inv_num_file`'s `subseries` ancestry (if any), as a list."""
     subseries = []
     if 'subseries' in inv_num_file:
         if isinstance(inv_num_file['subseries'], list):
@@ -63,6 +89,9 @@ def extract_subseries_info(inv_num_file: dict):
 
 
 def extract_file_info(inv_num_file: dict):
+    """Titles, ids, dates of `inv_num_file`'s `file` entries (as parallel lists), plus the
+    METS file reference (`dao.href`) of the first `dao` with `role='METS'`, if any. Returns
+    `(files, file_ids, file_dates, mets_file)`."""
     files = []
     file_ids = []
     file_dates = []
@@ -108,6 +137,10 @@ def extract_file_info(inv_num_file: dict):
 
 
 def extract_inv_num_file_info(inv_num_file, max_subseries_depth: int = None):
+    """Flatten `inv_num_file` (a `parse_file`-produced dict with an inventory-number-shaped
+    `unitid`) into one row: `[series, *subseries (padded/truncated to max_subseries_depth),
+    filegroup, filegroup_id, file_title, file_date, inventory_num, mets_file]` -- matching the
+    column order `get_inventory_info` builds its DataFrame with."""
     unit = get_inv_num_unit(inv_num_file['file'])
     series = [inv_num_file['series']['title']]
     subseries = extract_subseries_info(inv_num_file)
@@ -134,12 +167,18 @@ def extract_inv_num_file_info(inv_num_file, max_subseries_depth: int = None):
 
 
 def get_inventory_files_info(files_info):
+    """Filter `files_info` (from `get_files_info`) down to entries that are files with an
+    inventory-number-shaped `unitid`."""
     file_files = [fi for fi in files_info if 'file' in fi]
     unit_files = [fi for fi in file_files if 'unitid' in fi['file']]
     return [fi for fi in unit_files if file_has_inv_num_unitid(fi['file'])]
 
 
 def get_inventory_info(ead_file: str = None, ead_string: str = None, max_subseries_depth: int = 2):
+    """Top-level entry point: parse the EAD document at `ead_file` (or from `ead_string`) and
+    return a `pandas.DataFrame` with one row per file that has an inventory-number-shaped
+    `unitid`, with columns `series`, `subseries_1..max_subseries_depth`, `filegroup`,
+    `inventory_range` (the filegroup id), `file`, `unitdate`, `inventory_num`, `mets_file`."""
     rep_ead = read_ead(ead_file=ead_file, ead_string=ead_string)
     rep_dsc = get_desc(rep_ead)
     print(f"rep_dsc: {len(rep_dsc)}")
@@ -170,6 +209,8 @@ def get_inventory_info(ead_file: str = None, ead_string: str = None, max_subseri
 
 
 def parse_other(other: ET.Element, tree_level: int = 0):
+    """Parse a free-text EAD element (`odd`/`otherfindaid`/`scopecontent`/...) that only
+    contains `<p>`/`<list>` children, into `{'p': '<concatenated text>'}`."""
     other_info = {}
     for child in other:
         if child.tag == 'p':
@@ -182,6 +223,8 @@ def parse_other(other: ET.Element, tree_level: int = 0):
 
 
 def parse_odd(odd: ET.Element, tree_level: int = 0) -> Dict[str, any]:
+    """Parse an EAD `<odd>` (other descriptive data) element's `<p>` children into
+    `{'p': '<text>'}`."""
     odd_info = {}
     for child in odd:
         if child.tag == 'p':
@@ -196,6 +239,7 @@ def parse_odd(odd: ET.Element, tree_level: int = 0) -> Dict[str, any]:
 
 
 def parse_otherfindaid(otherfindaid: ET.Element, tree_level: int = 0) -> Dict[str, any]:
+    """Parse an EAD `<otherfindaid>` element's `<p>` children into `{'p': '<text>'}`."""
     otherfindaid_info = {}
     for child in otherfindaid:
         if child.tag == 'p':
@@ -206,6 +250,8 @@ def parse_otherfindaid(otherfindaid: ET.Element, tree_level: int = 0) -> Dict[st
 
 
 def parse_access(access: ET.Element, tree_level: int = 0) -> Dict[str, any]:
+    """Parse an EAD `<controlaccess>` element's `<genreform>` child into a dict of its text
+    plus attributes."""
     access_info = {}
     for child in access:
         if child.tag == 'genreform':
@@ -219,6 +265,9 @@ def parse_access(access: ET.Element, tree_level: int = 0) -> Dict[str, any]:
 
 
 def parse_physdesc(physdesc: ET.Element, tree_level: int = 0) -> Dict[str, any]:
+    """Parse an EAD `<physdesc>` (physical description) element into a dict with `extent`
+    (from the element's own text, if present) and `extent`/`physfacet` child values plus their
+    attributes."""
     physical_info = {}
     # print('PHYSDESC:', physdesc.text)
     if physdesc.text != '':
@@ -233,6 +282,11 @@ def parse_physdesc(physdesc: ET.Element, tree_level: int = 0) -> Dict[str, any]:
 
 
 def parse_did(did: ET.Element, tree_level: int = 0) -> Dict[str, any]:
+    """Parse an EAD `<did>` (descriptive identification) element -- the metadata block present
+    at every level (series/subseries/file/...) -- into a dict with `unitid` (list of dicts,
+    one per `<unitid>` child with its attributes), `unitdate`, `unittitle` (handling the case
+    where the title embeds a nested `<unitdate>`), `physdesc`, and `dao` (digital object
+    reference, if present)."""
     did_info = {
         'unitid': [],
         'unitdate': None,
@@ -291,18 +345,27 @@ def parse_did(did: ET.Element, tree_level: int = 0) -> Dict[str, any]:
 
 
 def get_series(dsc: ET.Element) -> Generator[ET.Element, None, None]:
+    """Yield `dsc`'s direct `<c level="series">` children."""
     for child in dsc:
         if child.tag == 'c' and child.attrib['level'] == 'series':
             yield child
 
 
 def get_subseries_titles(file_info: Dict[str, any]) -> List[str]:
+    """Titles of `file_info`'s `subseries` ancestry list, if any."""
     if isinstance(file_info, list):
         print(f"get_subseries_titles- file_info is of type list:\n", file_info)
     return [sub['title'] for sub in file_info['subseries']] if 'subseries' in file_info else []
 
 
 def get_subsubseries_titles(file_info: Dict[str, any]) -> List[str]:
+    """Titles of `file_info`'s subseries entries that are themselves marked as having a
+    `'subsubseries'` key.
+
+    Note: `parse_subseries` never actually sets a `'subsubseries'` key on the dicts it appends
+    to `subseries` (only `'title'`/`'id'`), so this currently always returns an empty list in
+    practice. Documented as observed (used by `get_series_files`) rather than silently
+    corrected."""
     if isinstance(file_info, list):
         print(f"get_subsubseries_titles- file_info is of type list:\n", file_info)
     if 'subseries' in file_info:
@@ -312,6 +375,10 @@ def get_subsubseries_titles(file_info: Dict[str, any]) -> List[str]:
 
 
 def parse_series(series: ET.Element, tree_level: int = 0, debug: int = 0):
+    """Recursively parse a `<c level="series">` element: its own `<did>` becomes
+    `series_info['series']`, then every descendant `file`/`subseries`/`filegroup`/nested
+    `series` is parsed (carrying `series_info` forward) and flattened into a single list of
+    per-file info dicts."""
     series_info = {
         'series': {}
     }
@@ -373,6 +440,10 @@ def parse_series(series: ET.Element, tree_level: int = 0, debug: int = 0):
 
 
 def parse_subseries(subseries, series_info, tree_level: int = 0, debug: int = 0):
+    """Recursively parse a `<c level="subseries">` element, extending `series_info` (deep-
+    copied, not mutated) with this subseries' own title/id appended to its `subseries` list,
+    then parsing every descendant `file`/`filegroup`/nested `subseries` the same way
+    `parse_series` does. Returns a flat list of per-file info dicts."""
     subseries_info = copy.deepcopy(series_info)
     if 'subseries' not in subseries_info:
         subseries_info['subseries'] = []
@@ -454,6 +525,9 @@ def parse_subseries(subseries, series_info, tree_level: int = 0, debug: int = 0)
 
 
 def parse_filegroup(filegroup, subseries_info, tree_level: int = 0, debug: int = 0):
+    """Recursively parse a `<c level="otherlevel" otherlevel="filegrp">` element, extending
+    `subseries_info` (deep-copied) with this filegroup's own title/id, then parsing every
+    descendant `file`/nested `filegroup`. Returns a flat list of per-file info dicts."""
     filegroup_info = copy.deepcopy(subseries_info)
     files_info = []
     for child in filegroup:
@@ -488,7 +562,13 @@ def parse_filegroup(filegroup, subseries_info, tree_level: int = 0, debug: int =
     return files_info
 
 
-def parse_file(file, subseries_info, tree_level: int = 0, debug: int = 0):
+def parse_file(file, subseries_info, tree_level: int = 0, debug: int = 0) -> Dict[str, any]:
+    """Parse a `<c level="file">` element into a self-contained dict: its ancestor
+    `series`/`subseries`/`filegroup` context (copied from `subseries_info`) plus its own
+    `<did>` metadata under `file_info['file']` -- `title`, `unitid` list, and, depending on
+    each `unitid`'s `type` attribute, `id` (`type='ABS'`), `handle` (`type='handle'`),
+    `identifier`/`identifier_text` (untyped with an `identifier` attribute), or `extra_id`
+    (untyped, no `identifier` attribute)."""
     # print('file.attrib:', file.attrib)
     file_info = {'file': {}}
     # print('subseries_info:', subseries_info)
@@ -555,6 +635,8 @@ def parse_file(file, subseries_info, tree_level: int = 0, debug: int = 0):
 
 
 def get_files_info(dsc: ET.Element):
+    """Parse every series under `dsc` (`get_series` + `parse_series`) into one flat list of
+    per-file info dicts."""
     files_info = []
     for series in get_series(dsc):
         series_files_info = parse_series(series)
@@ -567,6 +649,9 @@ def get_files_info(dsc: ET.Element):
 
 
 def get_series_files(dsc: ET.Element):
+    """File ids under `dsc` (`get_files_info`), grouped by their series/subseries/subsubseries
+    title. Returns `(series_files, subseries_files, subsubseries_files)`, each a `dict[str,
+    list[str]]` (the latter currently always empty, see `get_subsubseries_titles`)."""
     files_info = get_files_info(dsc)
     print(f"get_series_files -  number of files_info elements:", len(files_info))
     series_files = defaultdict(list)
@@ -602,6 +687,8 @@ def get_series_files(dsc: ET.Element):
 
 
 def get_desc(root: ET.Element) -> Union[ET.Element, None]:
+    """The EAD document's `<archdesc><dsc>` element (description of subordinate components),
+    or `None` if not found."""
     for root_child in root:
         if root_child.tag == 'archdesc':
             archdesc = root_child

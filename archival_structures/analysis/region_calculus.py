@@ -1,7 +1,19 @@
+"""Region Connection Calculus (RCC-8) relations between PageXML regions.
+
+Classifies the spatial relation between two regions along one axis at a time (horizontal or
+vertical) into one of the 8 RCC-8 relations: ``DC`` (disconnected), ``EC`` (externally
+connected), ``PO`` (partial overlap), ``EQ`` (equal), ``TPP``/``TPPi`` (tangential proper
+part / inverse), ``NTPP``/``NTPPi`` (non-tangential proper part / inverse). `max_diff` lets
+boundaries that are close but not pixel-identical (common with PageXML coordinates) still
+count as touching/equal.
+"""
+
 import pagexml.model.physical_document_model as pdm
 
 
-def get_start_end_overlap(start1: int, start2: int, end1: int, end2: int):
+def get_start_end_overlap(start1: int, start2: int, end1: int, end2: int) -> int:
+    """Length of the overlap between intervals `(start1, end1)` and `(start2, end2)`, or 0
+    if they don't overlap."""
     max_start = max(start1, start2)
     min_end = min(end1, end2)
     return max(0, min_end - max_start)
@@ -27,7 +39,7 @@ def get_start_end_relation(region1: pdm.PageXMLDoc, region2: pdm.PageXMLDoc,
     overlap = get_start_end_overlap(start1, start2, end1, end2)
     if debug > 0:
         print(f"region_calculus.get_start_end_relation - overlap: {overlap}")
-    if overlap >= min(region1.coords.width, region2.coords.width):
+    if overlap > 0 and overlap >= min(end1 - start1, end2 - start2) - max_diff:
         # full overlap -> equal (EQ) or proper part (PP)
         start_diff = start1 - start2
         end_diff = end1 - end2
@@ -44,8 +56,8 @@ def get_start_end_relation(region1: pdm.PageXMLDoc, region2: pdm.PageXMLDoc,
     elif overlap > max_diff:
         return 'PO'
     else:
-        max_start = max(region1.coords.left, region2.coords.left)
-        min_end = min(region1.coords.right, region2.coords.right)
+        max_start = max(start1, start2)
+        min_end = min(end1, end2)
         if max_start - min_end <= max_diff:
             return 'EC'
         else:
@@ -54,6 +66,7 @@ def get_start_end_relation(region1: pdm.PageXMLDoc, region2: pdm.PageXMLDoc,
 
 def get_horizontal_region_relation(region1: pdm.PageXMLDoc, region2: pdm.PageXMLDoc,
                                    max_diff: int = 0, debug: int = 0) -> str:
+    """RCC-8 relation between `region1` and `region2`'s horizontal extents (left/right)."""
     relation = get_start_end_relation(region1, region2, max_diff=max_diff,
                                       start1=region1.coords.left, start2=region2.coords.left,
                                       end1=region1.coords.right, end2=region2.coords.right, debug=debug)
@@ -62,6 +75,7 @@ def get_horizontal_region_relation(region1: pdm.PageXMLDoc, region2: pdm.PageXML
 
 def get_vertical_region_relation(region1: pdm.PageXMLDoc, region2: pdm.PageXMLDoc,
                                  max_diff: int = 0, debug: int = 0) -> str:
+    """RCC-8 relation between `region1` and `region2`'s vertical extents (top/bottom)."""
     return get_start_end_relation(region1, region2, max_diff=max_diff,
                                   start1=region1.coords.top, start2=region2.coords.top,
                                   end1=region1.coords.bottom, end2=region2.coords.bottom, debug=debug)

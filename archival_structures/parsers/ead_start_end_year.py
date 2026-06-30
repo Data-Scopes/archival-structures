@@ -1,3 +1,10 @@
+"""Extract per-inventory-number start/end years from an EAD file, as a CSV + JSON export.
+
+A standalone, lxml-based alternative to `archival_structures.parsers.ead_parser`'s full tree
+walk -- only looks at `<c level="file">` elements' `unitid`/`unittitle`/`unitdate` directly,
+specifically for the begin/end year of each inventory number's date range.
+"""
+
 import json
 
 from lxml import etree
@@ -5,6 +12,10 @@ import pandas as pd
 
 
 def extract_dates(input_file: str, output_base_name: str):
+    """Parse the EAD file at `input_file`, extract each `<c level="file">`'s inventory number,
+    title, handle, and date range (begin/end year, via `get_begin_end_year`), and write the
+    result to `<output_base_name>.csv` (tab-separated) and `<output_base_name>.json` (keyed by
+    inventory number)."""
     data = []
     data_json = dict()
 
@@ -56,6 +67,10 @@ def extract_dates(input_file: str, output_base_name: str):
 
 
 def get_begin_end_year(date):
+    """`(begin_year, end_year)` parsed from an EAD `normal`-attribute date string: a
+    `YYYY-MM-DD/YYYY-MM-DD`-style range, a bare `YYYY` (single year, used for both), or a
+    `YYYY-MM`/`YYYY-MM-DD` single date (year used for both). `("", "")` if `date` is empty or
+    in an unrecognised format."""
     if "/" in date:
         date_begin, date_end = date.split("/")
 

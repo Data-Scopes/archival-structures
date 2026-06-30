@@ -1,3 +1,11 @@
+"""Reading-order adjacency between PageXML text lines.
+
+`get_neighbouring_line_pairs` groups lines into horizontal rows and pairs each line with its
+immediate left/right/above/below neighbour (or `None` at a row/column edge), giving the
+correct top-to-bottom, column-aware reading order that raw region order doesn't guarantee --
+used by `archival_structures.analysis.sequence_patterns` to build a corpus-wide line sequence.
+"""
+
 from collections import defaultdict
 from typing import List, Tuple, Union
 
@@ -6,6 +14,8 @@ from pagexml.helper.pagexml_helper import horizontally_group_lines
 
 
 class LineNeighbourHood:
+    """Index of each line's nearest neighbour in each of the four directions
+    (`above`/`below`/`left`/`right`), built from `get_neighbouring_line_pairs`."""
 
     def __init__(self, lines: List[pdm.PageXMLTextLine] = None, max_vertical_dist: int = None):
         self.above = defaultdict(list)
@@ -25,6 +35,8 @@ class LineNeighbourHood:
             self.add_lines(lines, max_vertical_dist=max_vertical_dist)
 
     def add_lines(self, lines: List[pdm.PageXMLTextLine], max_vertical_dist: int = None):
+        """Index `lines`' neighbour relations into this `LineNeighbourHood` (in addition to
+        any lines already added)."""
         line_pairs = get_neighbouring_line_pairs(lines, max_vertical_dist=max_vertical_dist)
         self.lines_pairs.extend(line_pairs)
         for l1, l2, rel in line_pairs:
@@ -37,24 +49,35 @@ class LineNeighbourHood:
                 #       f"{'None' if l2 is None else l2.id: >6} - {rel}")
 
     def get_rel_neighbour(self, line: pdm.PageXMLTextLine, rel: str):
+        """`line`'s neighbours in direction `rel` (one of `'above'`/`'below'`/`'left'`/
+        `'right'`)."""
         if line in self.has_rel_neighbour[line][rel]:
             return self.has_rel_neighbour[line][rel]
 
     def left(self, line: pdm.PageXMLTextLine):
+        """`line`'s left neighbour(s), if any."""
         return self.get_rel_neighbour(line, 'left')
 
     def right(self, line: pdm.PageXMLTextLine):
+        """`line`'s right neighbour(s), if any."""
         return self.get_rel_neighbour(line, 'right')
 
     def top(self, line: pdm.PageXMLTextLine):
+        """`line`'s neighbour(s) above, if any."""
         return self.get_rel_neighbour(line, 'top')
 
     def bottom(self, line: pdm.PageXMLTextLine):
+        """`line`'s neighbour(s) below, if any."""
         return self.get_rel_neighbour(line, 'bottom')
 
 
 def get_neighbouring_line_pairs(lines: List[pdm.PageXMLTextLine], max_vertical_dist: int = None,
-                                debug: int = 0):
+                                debug: int = 0) -> List[Tuple[Union[None, pdm.PageXMLTextLine],
+                                                              Union[None, pdm.PageXMLTextLine], str]]:
+    """For each line in `lines`, find its immediate left/right neighbour within its horizontal
+    row (`horizontally_group_lines`) and its immediate above/below neighbour in the adjacent
+    row. Returns one `(line, neighbour, direction)` triple per line per direction, with
+    `neighbour=None` at a row/column edge or when `max_vertical_dist` is exceeded."""
     grouped_lines = horizontally_group_lines(lines)
     if debug > 0:
         print(f'number of lines: {len(lines)}')

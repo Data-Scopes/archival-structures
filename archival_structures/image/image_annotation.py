@@ -1,3 +1,8 @@
+"""An ipywidgets-based paginated image-tagging tool for Jupyter notebooks: free-text and
+predefined-dropdown tags per image, persisted to a TSV (`filename`, comma-separated `tags`
+columns), with filtering by tagged/untagged status.
+"""
+
 import pandas as pd
 import ipywidgets as widgets
 from IPython.display import display, clear_output
@@ -5,6 +10,10 @@ import os
 
 
 class ImageTagger:
+    """Paginated image-tagging grid: each cell shows an image, its current tags, a free-text
+    + Enter input, a predefined-tag dropdown with an Add button, and Undo/Clear buttons. Tags
+    are persisted to `output_file` (a TSV) after every change. Call `.display()` to render."""
+
     def __init__(self, df, image_dir, output_file='image_tags.tsv',
                  predefined_tags=None, rows=5, cols=3, show_warnings: bool = False):
         self.df = df
@@ -135,20 +144,24 @@ class ImageTagger:
 
         # Handlers
         def on_sub(sender):
+            """Add the free-text input's value as a tag (on Enter) and clear the input."""
             if sender.value.strip():
                 self._update_tsv(fname, sender.value.strip())
                 tags_display.value = self._get_html_tags(fname)
                 sender.value = ""
 
         def on_add(b):
+            """Add the dropdown's selected predefined tag."""
             self._update_tsv(fname, drop.value)
             tags_display.value = self._get_html_tags(fname)
 
         def on_undo(b):
+            """Remove the most recently added tag."""
             self._update_tsv(fname, "", action='undo')
             tags_display.value = self._get_html_tags(fname)
 
         def on_clear(b):
+            """Remove all tags for this image."""
             self._update_tsv(fname, "", action='clear')
             tags_display.value = self._get_html_tags(fname)
 
@@ -169,6 +182,8 @@ class ImageTagger:
                 f"border:1px solid #ddd; padding:2px;'><b>Tags:</b> {tags}</div>")
 
     def display(self):
+        """Render the filter dropdown, navigation controls, and the first page of the
+        tagging grid."""
         prev_btn = widgets.Button(description="Previous", icon="arrow-left")
         next_btn = widgets.Button(description="Next", icon="arrow-right")
 

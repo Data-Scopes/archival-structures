@@ -1,3 +1,14 @@
+"""Grid-based page-layout fingerprinting.
+
+Each page in a `doc_set` is rasterised onto a shared `unit_size`-pixel grid (one cell is "on"
+wherever a text line falls), then `GridPattern` slides a small `pattern_size` x `pattern_size`
+window across that grid and counts how often each local on/off pattern occurs, both
+per-document and corpus-wide. The resulting per-document TF-IDF vector (`GridPattern.tfidf`)
+is a layout fingerprint that `archival_structures.analysis.page_layout_clustering` clusters
+with HDBSCAN -- two pages with a similar arrangement of text lines get similar fingerprints,
+regardless of the actual text content.
+"""
+
 import pickle
 import time
 from collections import Counter, defaultdict
@@ -10,8 +21,10 @@ from numpy.lib.stride_tricks import sliding_window_view
 
 
 def get_doc_set_grid_points(doc_set: Union[List[pdm.PageXMLRegion], Set[pdm.PageXMLRegion]],
-                            unit_size: int):
-
+                            unit_size: int) -> dict[tuple[int, int], int]:
+    """All `(x, y)` grid coordinates (spaced `unit_size` pixels apart) covering the largest
+    page in `doc_set`, mapped to a dense integer index -- the shared coordinate system every
+    page in the set is rasterised onto."""
     max_x, max_y = get_interpolated_max_x_y(doc_set, unit_size=unit_size)
     grid_points = [(x, y) for x in range(0, max_x, unit_size) for y in range(0, max_y, unit_size)]
     print("done setting base grid points")
@@ -20,7 +33,8 @@ def get_doc_set_grid_points(doc_set: Union[List[pdm.PageXMLRegion], Set[pdm.Page
 
 
 def get_interpolated_max_x_y(doc_set: Union[List[pdm.PageXMLRegion], Set[pdm.PageXMLRegion]],
-                             unit_size: int = 50):
+                             unit_size: int = 50) -> tuple[int, int]:
+    """The largest page width/height in `doc_set`, rounded to the nearest `unit_size`."""
     max_x = max(page.coords.right for page in doc_set)
     max_y = max(page.coords.bottom for page in doc_set)
 
@@ -29,7 +43,9 @@ def get_interpolated_max_x_y(doc_set: Union[List[pdm.PageXMLRegion], Set[pdm.Pag
     return max_x, max_y
 
 
-def doc_grid_points_to_vectors(doc_grid_points: np.array):
+def doc_grid_points_to_vectors(doc_grid_points: np.array) -> np.array:
+    """Flatten a `(num_docs, range_x, range_y)` grid-point array into `(num_docs, range_x *
+    range_y)`, one row per document."""
     dims = doc_grid_points.shape
     if len(dims) != 3:
         raise IndexError(f"invalid shape for doc_grid_pionts: {dims}, must be a 3D array.")
@@ -37,6 +53,8 @@ def doc_grid_points_to_vectors(doc_grid_points: np.array):
 
 
 def time_step(start, prev_step):
+    """Print elapsed time since `prev_step` and since `start`, returning the current time
+    (for chaining: `step = time_step(start, step)`)."""
     curr_step = time.time()
     took = curr_step - prev_step
     total = curr_step - start
@@ -45,6 +63,9 @@ def time_step(start, prev_step):
 
 
 def get_line_grid_left_right(line: pdm.PageXMLTextLine, unit_size: int = 50, indent: int = 0):
+    """`line`'s left/right extent (from its baseline if available, else its coordinates),
+    snapped to the nearest `unit_size` grid line. `indent` shifts the snapped boundary inward
+    on both sides before rounding."""
     if line.baseline is not None and line.baseline.points is not None:
         left = line.baseline.left
         right = line.baseline.right
@@ -68,6 +89,9 @@ def get_line_grid_left_right(line: pdm.PageXMLTextLine, unit_size: int = 50, ind
 
 
 def get_line_grid_top_bottom(line: pdm.PageXMLTextLine, unit_size: int = 50):
+    """`line`'s top/bottom extent (from its baseline and x-height if available, else a
+    margin-trimmed fraction of its bounding box), snapped to the nearest `unit_size` grid
+    line."""
     if line.baseline is not None and line.baseline.points is not None:
         if line.xheight is not None:
             top = line.baseline.top - line.xheight
@@ -90,7 +114,10 @@ def get_line_grid_top_bottom(line: pdm.PageXMLTextLine, unit_size: int = 50):
 
 
 def get_line_grid_points(doc_set: Union[List[pdm.PageXMLRegion], Set[pdm.PageXMLRegion]],
-                         unit_size: int = 50, indent: int = 0):
+                         unit_size: int = 50, indent: int = 0) -> np.array:
+    """Rasterise every document in `doc_set` onto a shared `unit_size`-pixel grid: a
+    `(num_docs, range_x, range_y)` array where a cell is 1.0 wherever any text line's
+    (snapped) bounding box falls, 0.0 elsewhere."""
     max_x, max_y = get_interpolated_max_x_y(doc_set, unit_size=unit_size)
     range_x, range_y = int(max_x / unit_size), int(max_y / unit_size)
 
@@ -109,7 +136,10 @@ def get_line_grid_points(doc_set: Union[List[pdm.PageXMLRegion], Set[pdm.PageXML
 
 
 def get_region_grid_points(doc_set: Union[List[pdm.PageXMLRegion], Set[pdm.PageXMLRegion]],
-                           unit_size: int = 50):
+                           unit_size: int = 50) -> np.array:
+    """Like `get_line_grid_points`, but rasterised from text *region* bounding boxes rather
+    than individual lines -- coarser, since region detection tends to merge visually distinct
+    elements (prefer `get_line_grid_points` for layout fingerprinting)."""
     positions = ['left', 'top', 'right', 'bottom']
     max_x, max_y = get_interpolated_max_x_y(doc_set, unit_size=unit_size)
     range_x, range_y = int(max_x / unit_size), int(max_y / unit_size)
@@ -130,6 +160,11 @@ def get_region_grid_points(doc_set: Union[List[pdm.PageXMLRegion], Set[pdm.PageX
 
 
 class GridPattern:
+    """Per-document layout fingerprints, built by rasterising each document's text lines onto
+    a shared grid (`get_line_grid_points`) and counting local `pattern_size` x `pattern_size`
+    on/off patterns across that grid, both per-document and corpus-wide. `self.tfidf` (shape
+    `(num_docs, vocab_size)`) is the resulting fingerprint matrix, suitable for clustering or
+    nearest-neighbour search; `self.doc_pfidf(doc_id)` looks up one document's row by id."""
 
     def __init__(self, doc_set: Union[List[pdm.PageXMLRegion], Set[pdm.PageXMLRegion]],
                  unit_size: int = 50, pattern_size: int = 3):
@@ -158,11 +193,14 @@ class GridPattern:
         time_step(start, step)
 
     def doc_pf(self, doc_id):
+        """Raw local-pattern frequency counter (`Counter`) for the document with id `doc_id`."""
         if doc_id not in self.id2idx:
             raise KeyError(f"unknown doc_id {doc_id}")
         return self.doc_pattern_freq[self.id2idx[doc_id]]
 
     def doc_pfidf(self, doc_id):
+        """TF-IDF layout-fingerprint vector (shape `(vocab_size,)`) for the document with id
+        `doc_id` -- a row of `self.tfidf`."""
         if doc_id not in self.id2idx:
             raise KeyError(f"unknown doc_id {doc_id}")
         return self.tfidf[self.id2idx[doc_id]]
@@ -204,11 +242,13 @@ class GridPattern:
         return tf_idf
 
     def save(self, filename: str):
+        """Pickle this `GridPattern` to `filename`."""
         with open(filename, 'wb') as fh:
             pickle.dump(self, fh)
 
     @staticmethod
-    def load(filename: str):
+    def load(filename: str) -> 'GridPattern':
+        """Load a `GridPattern` previously written with `save`."""
         with open(filename, 'rb') as fh:
             grid_pattern = pickle.load(fh)
         return grid_pattern

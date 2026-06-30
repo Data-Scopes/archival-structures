@@ -1,3 +1,14 @@
+"""Allen Interval Algebra relations between PageXML regions (lines/regions treated as 1D
+horizontal intervals).
+
+`get_allen_interval` classifies a pair of regions into one of the 13 base Allen relations
+(e.g. ``before``, ``meets``, ``overlaps``, ``equal``). `get_extended_allen_interval` further
+splits the asymmetric ``overlaps``/``contains``/``starts``/``finishes`` relations by how much
+of each region is covered (``m`` = most, ``l`` = least), giving the finer-grained
+`EXTENDED_ALLEN_INTERVALS` vocabulary -- useful for distinguishing e.g. a small marginal
+annotation overlapping a body-text line from two lines of comparable width overlapping evenly.
+"""
+
 from collections import Counter
 
 import pagexml.model.physical_document_model as pdm
@@ -23,6 +34,10 @@ EXTENDED_ALLEN_INTERVALS = {
 
 
 def get_doc_allen_interval_profile(doc: pdm.PageXMLRegion, use_extended: bool = True):
+    """Frequency count of Allen interval relations between consecutive horizontally-grouped
+    lines of `doc` (each line compared against the previous and next group), giving a profile
+    of how `doc`'s lines relate to their immediate neighbours. Uses
+    `get_extended_allen_interval` if `use_extended`, else the base `get_allen_interval`."""
     interval_func = get_extended_allen_interval if use_extended else get_allen_interval
     hor_group_lines = horizontal_group_lines(doc.get_lines())
     prev_group = None
@@ -37,12 +52,17 @@ def get_doc_allen_interval_profile(doc: pdm.PageXMLRegion, use_extended: bool = 
     return ai_freq
 
 
-def get_normalised_diff(x: int, y: int, max_diff: int = 0):
+def get_normalised_diff(x: int, y: int, max_diff: int = 0) -> int:
+    """`x - y`, snapped to 0 if the difference is within `max_diff` (treats near-identical
+    boundaries as exactly aligned)."""
     diff = x - y
     return 0 if abs(diff) <= max_diff else diff
 
 
-def determine_overlap_relation(region1: pdm.PageXMLDoc, region2: pdm.PageXMLDoc):
+def determine_overlap_relation(region1: pdm.PageXMLDoc, region2: pdm.PageXMLDoc) -> tuple[str | None, str | None]:
+    """For each region, whether the horizontal overlap with the other covers at least half
+    of its own width (``'m'``, most) or less (``'l'``, least). Returns `(None, None)` if the
+    regions don't overlap horizontally at all."""
     overlap = pdm.get_horizontal_overlap(region1, region2)
     if overlap == 0:
         return None, None
@@ -52,6 +72,10 @@ def determine_overlap_relation(region1: pdm.PageXMLDoc, region2: pdm.PageXMLDoc)
 
 
 def get_normalised_region_diffs(region1: pdm.PageXMLDoc, region2: pdm.PageXMLDoc) -> tuple[int, int, int, int]:
+    """Left/right boundary differences between `region1` and `region2` (left-vs-left,
+    left-vs-right, right-vs-left, right-vs-right), using baselines if both regions have one,
+    else bounding boxes. These four values are what `get_allen_interval`/
+    `get_extended_allen_interval` branch on to determine the interval relation."""
     if pdm.has_baseline(region1) and pdm.has_baseline(region2):
         # only use baseline when both have them, otherwise, use bounding boxes
         coords1 = region1.baseline

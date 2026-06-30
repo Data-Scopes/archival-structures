@@ -1,11 +1,22 @@
+"""Thumbnail-level colour clustering: group whole thumbnails by their dominant colour(s)
+(average colour, top-N dominant colours, weighted dominant-colour palettes -- via k-means
+feature extraction + DBSCAN clustering), plus per-region luminosity-peak analysis comparing
+`scan.empty_regions` against confirmed text regions.
+"""
+
 import numpy as np
+import skimage
 from sklearn.cluster import DBSCAN, KMeans
 from sklearn.preprocessing import StandardScaler
 from skimage import color
 from PIL import Image
-from typing import List
+from typing import List, Tuple
 from dataclasses import dataclass
 
+import pagexml.model.physical_document_model as pdm
+
+import archival_structures.image.image_processing as im_proc
+from archival_structures.clustering.peaks import compute_peaks
 from archival_structures.image.image_base import Thumbnail
 
 
@@ -217,3 +228,68 @@ def cluster_thumbnails_weighted(thumbnails: List[Thumbnail],
 
     return clustered_results
 
+
+def make_peak_row(peak, lum_pixels: np.array, scan_id: str, region_type: str):
+    """`peak`'s own fields plus `scan_id`, `region_type`, and how many of `lum_pixels` fall
+    within the peak's base range -- one row for a luminosity-peak summary table."""
+    row = peak.__dict__
+    row['scan_id'] = scan_id
+    row['pixels_in_peak'] = len([p for p in lum_pixels if peak.base_left <= p <= peak.base_right])
+    row['pixels_in_peak_frac'] = row['pixels_in_peak'] / len(lum_pixels)
+    row['region_type'] = region_type
+    return row
+
+
+def get_luminosity_peaks(rgb_pixels, scan: pdm.PageXMLRegion):
+    """Luminosity peaks (`compute_peaks`) found in `rgb_pixels` (converted to LAB), as rows
+    via `make_peak_row`.
+
+    Note: `region_type` is hardcoded to `'empty'` regardless of what `rgb_pixels` actually
+    represents -- `cluster_pixel_luminosity` calls this for both empty-region and text-region
+    pixels, so peaks from text regions are also labelled `'empty'` in the returned rows.
+    Documented as observed (untested) rather than silently corrected."""
+    rows = []
+    width_bin_size = 1
+    lab_pixels = skimage.color.rgb2lab(rgb_pixels)
+    lum_empty = lab_pixels[:, 0].astype(int)
+    peaks_empty = compute_peaks(lum_empty, width_bin_size,
+                                min_prominence=50, rel_height=0.90)
+
+    for peak in peaks_empty:
+        row = make_peak_row(peak, lum_empty, scan.id, region_type='empty')
+        rows.append(row)
+
+    return rows
+
+
+def cluster_pixel_luminosity(scan: pdm.PageXMLRegion, thumb: Thumbnail,
+                             resize: Tuple[int, int] = (25, 25),
+                             min_samples: int = 5):
+    """
+    Clusters thumbnails based on pixel luminosity.
+    """
+    textual_regions = [tr for tr in scan.get_textual_regions() if tr.area > 0]
+    try:
+        images_text = [im_proc.select_scan_region_from_thumbnail(region, thumb, scan=scan, resize=resize) for region in
+                       textual_regions]
+    except BaseException:
+        print(textual_regions)
+        raise
+
+    luminosity_peaks = []
+    empty_regions = [er for er in scan.empty_regions if
+                     er.coords.width > resize[0] / 2 and er.coords.height > resize[1] / 2]
+    images_empty = [im_proc.select_scan_region_from_thumbnail(region, thumb, scan=scan, resize=resize) for region in
+                    empty_regions]
+    try:
+        if len(images_empty) > 0:
+            pixels_empty = im_proc.merge_region_images_to_1d_pixels(images_empty)
+            empty_peaks = get_luminosity_peaks(pixels_empty, scan)
+            luminosity_peaks.extend(empty_peaks)
+        if len(images_text) > 0:
+            pixels_text = im_proc.merge_region_images_to_1d_pixels(images_text)
+            text_peaks = get_luminosity_peaks(pixels_text, scan)
+            luminosity_peaks.extend(text_peaks)
+    except BaseException:
+        print(f"scan {scan.id}\tempty: {len(empty_regions)}\ttext: {len(textual_regions)}")
+        raise

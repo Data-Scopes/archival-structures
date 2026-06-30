@@ -8,8 +8,7 @@ import archival_structures.image.image_base as im_base
 class TestSelection(unittest.TestCase):
 
     def setUp(self) -> None:
-        self.image_file = 'data/thumbs/NL-AsnDA_0114.11/1/NL-AsnDA_0114.11_1_0002.png'
-        self.image_file = 'data/thumbs/NL-AsnDA_0114.11/NL-AsnDA_0114.11_1/thumb-width_300-scan-NL-AsnDA_0114.11_1_0002.jp2.png'
+        self.image_file = 'data/thumbs/NL-AsnDA/NL-AsnDA_0114.11/NL-AsnDA_0114.11_1/thumb-width_300-scan-NL-AsnDA_0114.11_1_0002.jp2.png'
         self.im = Image.open(self.image_file)
         self.im_w, self.im_h = self.im.size
         self.scan_width = 4904
@@ -52,7 +51,10 @@ class TestSelection(unittest.TestCase):
         self.row['x'], self.row['y'] = self.page_recto['x'], self.page_recto['y']
         self.row['width'], self.row['height'] = self.page_recto['width'], self.page_recto['height']
         selection = im_base.make_selection_from_row(self.row)
-        self.assertEqual(self.page_recto['x'] / selection.thumb_width_scale, selection.thumb_selection_box.x)
+        # thumb_selection_box rounds to the nearest whole thumbnail pixel, so compare against
+        # the same rounding rather than the unrounded scan-space division.
+        expected_x = round(self.page_recto['x'] / selection.thumb_width_scale)
+        self.assertEqual(expected_x, selection.thumb_selection_box.x)
 
     def test_scan_to_thumb_to_scan_box(self):
         self.row['x'], self.row['y'] = self.page_recto['x'], self.page_recto['y']
