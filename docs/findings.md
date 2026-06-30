@@ -97,6 +97,45 @@ binary ink/paper split
 shading alone doesn't. Found a genuine, visually-confirmed multi-colour example (black type +
 red handwritten annotation) as the top-ranked candidate on the first 50-scan random sample.
 
+## Reconciling annotation formats
+
+**Three different tools have produced ground-truth-shaped labels for the same scans, in three
+incompatible formats, two of them coincidentally sharing one file-path convention.**
+{class}`~archival_structures.datasets.annotations.ScanAnnotation` (used by the
+[scan annotation](notebooks/annotate-scans) notebook) keys by PageXML `scan_id` and writes to
+`annotations-<scan_id>.json`. `archival_structures.stream_analysis.groundtruth
+.interactive_annotation` (a bulk image tagger, outside this package's published scope) keys by
+thumbnail *path* instead and writes `{image_path: [label, ...]}` JSON elsewhere entirely. The
+older `image_drawing.ThumbnailSelectionTagger` region-drawing tool predates `ScanAnnotation` but
+writes to the *same* `annotations-<name>.json` path convention, with a completely different
+shape (a JSON list of `{thumb_box, orig_box}` region dicts, not a `ScanAnnotation` dict) -- 73
+real files for `NL-AsnDA_0114.11_1` existed in exactly this older format, only not *yet*
+colliding with `ScanAnnotation` because the older tool happened to use `.png`-suffixed
+filenames where the real PageXML `scan_id` is `.jpg`.
+
+{func}`~archival_structures.datasets.annotations.import_bulk_image_labels` bridges the bulk
+tagger's labels in: 2892 real labels (`book_opening`/`table`/`title_page`/`book_cover` for
+`NL-HaNA_2.10.50`) were imported by treating `book_opening` as `OpeningLabel.is_opening` and
+the remaining three (which never co-occur with each other in practice, confirmed against the
+real label co-occurrence counts) as `page_layout`. `separation_x` is left unset -- the bulk
+tagger has no spatial annotation, only whole-image tags.
+
+{func}`~archival_structures.datasets.annotations.migrate_legacy_region_annotations` converts
+the older region-drawing tool's files in place: each region marks a whole zone (e.g. a
+multi-line marginal-note column), so every PageXML line whose own box is at least
+half-covered by a region gets that region's label written to `ScanAnnotation.lines`, recovering
+4027 real line-type labels (`closing`, `marginalium`, `table`, `body`, ...) across 73 scans that
+were otherwise crashing `load_scan_annotation` (a JSON list isn't a dict, so
+`ScanAnnotation.from_dict` raised `AttributeError` as soon as anything scanned the whole
+`annotations/` tree). The original file content is preserved as `legacy-<original filename>`
+before being overwritten, since the box-overlap matching is a heuristic, not a guarantee.
+
+Both functions follow the same conservative merge policy: never overwrite a field already set
+on an existing saved `ScanAnnotation`, only fill in `opening`/`page_layout`/`lines` entries that
+are currently unset. There's no way to tell an auto-suggested value from a human-confirmed one
+once saved (the notebook pre-fills `opening` with a `get_opening_features` suggestion before any
+review), so anything already on disk is treated as authoritative.
+
 ## Working with real archival image data
 
 **Thumbnail filename conventions vary per archive with no single lookup strategy.** Observed

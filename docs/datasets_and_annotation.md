@@ -14,6 +14,12 @@ The [scan annotation](notebooks/annotate-scans) demo notebook is an ipywidgets-b
 interactively: step through an inventory number's scans, label each one's opening/page-layout/
 line-type properties, and save.
 
+Two other tools have produced labels for the same scans in different, incompatible formats.
+{func}`~archival_structures.datasets.annotations.import_bulk_image_labels` and
+{func}`~archival_structures.datasets.annotations.migrate_legacy_region_annotations` bridge
+them into this module's `ScanAnnotation` ground truth -- see
+[Findings](findings.md#reconciling-annotation-formats) for what each one does and why.
+
 {mod}`archival_structures.datasets.images_transcriptions` holds this package's own test-fixture
 data (paths into `data/`, plus hand-picked image/PageXML pairs with known properties used as
 small real-data regression checks across the test suite).
