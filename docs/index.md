@@ -29,7 +29,7 @@ make html
 
 The demo notebooks below need real PageXML/thumbnail data that isn't committed to the repo --
 download `demo-data.zip` from the
-[latest release](https://github.com/marijnkoolen/archival-structures/releases) and extract it at
+[latest release](https://github.com/Data-Scopes/archival-structures/releases) and extract it at
 the repository root (`unzip demo-data.zip -d .`) before running them.
 
 ## Contents

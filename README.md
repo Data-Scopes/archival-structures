@@ -84,7 +84,7 @@ All in [`notebooks/demo/`](notebooks/demo/):
 
 The notebooks above need real PageXML/thumbnail data (~341MB across 7 inventory numbers) that
 isn't committed to this repo -- only the package code is. Download `demo-data.zip` from the
-[latest release](https://github.com/marijnkoolen/archival-structures/releases) and extract it at
+[latest release](https://github.com/Data-Scopes/archival-structures/releases) and extract it at
 the repository root:
 
 ```bash
