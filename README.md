@@ -60,6 +60,9 @@ All in [`notebooks/demo/`](notebooks/demo/):
 
 - [`annotate-scans.ipynb`](notebooks/demo/annotate-scans.ipynb) -- ipywidgets ground-truth
   annotation app.
+- [`bulk-tag-annotation-demo.ipynb`](notebooks/demo/bulk-tag-annotation-demo.ipynb) -- tagging
+  many scans at once by cluster, with a structured namespace/type/subtype tag builder instead
+  of free text.
 - [`inventory-structure-demo.ipynb`](notebooks/demo/inventory-structure-demo.ipynb) --
   classifying a whole inventory number as a book of openings vs a mixed folder.
 - [`opening-detection-demo.ipynb`](notebooks/demo/opening-detection-demo.ipynb) -- per-scan

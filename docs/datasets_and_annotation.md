@@ -23,12 +23,24 @@ Two other tools have produced labels for the same scans in different, incompatib
 them into this module's `ScanAnnotation` ground truth -- see
 [Findings](findings.md#reconciling-annotation-formats) for what each one does and why.
 
+{mod}`archival_structures.datasets.bulk_tagging` is a third way to produce `ScanAnnotation.tags`:
+a paginated, checkbox-selectable grid (like the bulk image tagger above, but writing structured
+tags straight into `ScanAnnotation` rather than free text into an intermediate format) for
+tagging many scans at once by cluster -- see the
+[bulk-tag annotation](notebooks/bulk-tag-annotation-demo) demo notebook. It has no dependency on
+any particular clustering pipeline, just a plain list of image paths (e.g. one cluster's members
+from {func}`~archival_structures.analysis.page_layout_clustering.cluster_page_layouts`, as the
+demo notebook uses, or from an external pipeline).
+
 {mod}`archival_structures.datasets.images_transcriptions` holds this package's own test-fixture
 data (paths into `data/`, plus hand-picked image/PageXML pairs with known properties used as
 small real-data regression checks across the test suite).
 
 ```{eval-rst}
 .. automodule:: archival_structures.datasets.annotations
+   :members:
+
+.. automodule:: archival_structures.datasets.bulk_tagging
    :members:
 
 .. automodule:: archival_structures.datasets.images_transcriptions

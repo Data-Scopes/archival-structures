@@ -61,4 +61,5 @@ notebooks/sequence-patterns-demo
 notebooks/pagexml-image-region-linking
 notebooks/pagexml-image-multicolour-explorer
 notebooks/annotate-scans
+notebooks/bulk-tag-annotation-demo
 ```
