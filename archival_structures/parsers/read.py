@@ -1,15 +1,17 @@
-"""Loading EAD/METS XML documents (`xml.etree.ElementTree`-based) for
-`archival_structures.parsers.ead_parser`/`mets_parser`.
+"""Loading EAD/METS XML documents for `archival_structures.parsers.ead_parser`/`mets_parser`.
 
-`EADReader` (at the bottom of this file) is a separate, unfinished EAD-reading class written
-against a BeautifulSoup-style API (`.attrs`, `.find_all`, `.name`) rather than
-`xml.etree.ElementTree`'s (`.attrib`, `.findall`, `.tag`) -- the only XML library actually used
-elsewhere in this module. Calling its methods on an `ET.Element` (e.g. the result of
-`read_ead`) raises `AttributeError` as soon as any of those BeautifulSoup-only attributes are
-accessed. It is referenced from one notebook (`notebooks/download_thumbnails.ipynb`) but has no
-tests; `archival_structures.parsers.ead_parser`'s `parse_*` functions are the working,
-`ET`-based EAD-parsing path. Documented as observed (describing apparent intent) rather than
-silently fixed or removed.
+`read_xml`/`read_ead`/`read_mets` below use `xml.etree.ElementTree`, and their output is what
+`ead_parser`'s `parse_*` functions expect -- that's the package's working, tested EAD-parsing
+path.
+
+`EADReader` (at the bottom of this file) is a separate, parallel EAD reader written against a
+BeautifulSoup `Tag` API (`.attrs`, `.find_all`, `.name`) instead. It is *not* a broken attempt
+at the same thing as the functions above -- it's deliberately BS4-based, because its one real
+caller (`notebooks/download_thumbnails.ipynb`, untracked/scratch) builds its own BeautifulSoup
+tree directly from an OAI-EAD API response (`BeautifulSoup(response.text, features='xml')`)
+rather than going through this module's `read_ead`. Passing `EADReader` an `ET.Element` (e.g.
+`read_ead`'s output) does not work -- the two readers expect different element types and are
+not interchangeable. No tests.
 """
 
 import xml.etree.ElementTree as ET
@@ -54,8 +56,8 @@ def read_mets(mets_file: str = None, mets_string: str = None) -> ET:
 
 
 class EADReader:
-    """An alternative EAD reader (see this module's docstring for why it's currently
-    non-functional against `ET.Element` input)."""
+    """A BeautifulSoup-based EAD reader, separate from and not interchangeable with this
+    module's `ET.Element`-based `read_ead`/`parse_*` path (see this module's docstring)."""
 
     @staticmethod
     def is_file(c):

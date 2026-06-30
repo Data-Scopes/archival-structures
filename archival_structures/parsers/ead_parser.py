@@ -359,17 +359,16 @@ def get_subseries_titles(file_info: Dict[str, any]) -> List[str]:
 
 
 def get_subsubseries_titles(file_info: Dict[str, any]) -> List[str]:
-    """Titles of `file_info`'s subseries entries that are themselves marked as having a
-    `'subsubseries'` key.
+    """Titles of `file_info`'s subseries ancestry beyond the top-level subseries.
 
-    Note: `parse_subseries` never actually sets a `'subsubseries'` key on the dicts it appends
-    to `subseries` (only `'title'`/`'id'`), so this currently always returns an empty list in
-    practice. Documented as observed (used by `get_series_files`) rather than silently
-    corrected."""
+    `parse_subseries` recurses into nested `<c level="subseries">` elements and appends each
+    level's `{'title', 'id'}` dict to the same flat `subseries` list, in nesting order -- the
+    first entry is the top-level subseries (what `get_subseries_titles` reports), so any
+    further entries are genuine deeper subsubseries levels."""
     if isinstance(file_info, list):
         print(f"get_subsubseries_titles- file_info is of type list:\n", file_info)
     if 'subseries' in file_info:
-        return [sub['title'] for sub in file_info['subseries'] if 'subsubseries' in sub]
+        return [sub['title'] for sub in file_info['subseries'][1:]]
     else:
         return []
 
@@ -650,8 +649,8 @@ def get_files_info(dsc: ET.Element):
 
 def get_series_files(dsc: ET.Element):
     """File ids under `dsc` (`get_files_info`), grouped by their series/subseries/subsubseries
-    title. Returns `(series_files, subseries_files, subsubseries_files)`, each a `dict[str,
-    list[str]]` (the latter currently always empty, see `get_subsubseries_titles`)."""
+    title. Returns `(series_files, subseries_files, subsubseries_files)`, each a
+    `dict[str, list[str]]`."""
     files_info = get_files_info(dsc)
     print(f"get_series_files -  number of files_info elements:", len(files_info))
     series_files = defaultdict(list)

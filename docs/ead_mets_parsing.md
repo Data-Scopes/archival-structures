@@ -15,8 +15,9 @@ sequence. {mod}`archival_structures.parsers.ead_start_end_year` is a standalone,
 lxml-based script for extracting just the start/end year of each inventory number's date range.
 {mod}`archival_structures.parsers.read` provides the underlying XML loading
 (`xml.etree.ElementTree`-based) -- note that the `EADReader` class at the bottom of that module
-is written against a different (BeautifulSoup-style) API than the rest of the module uses and is
-currently non-functional; see its docstring.
+is a separate, BeautifulSoup-based reader for a different caller (a scratch notebook that builds
+its own BS4 tree), not interchangeable with the `ET.Element`-based functions above it; see its
+docstring.
 
 {class}`archival_structures.model.inventory_number.InventoryNumber` parses and sorts archival
 inventory numbers in natural archival order (e.g. `42` before `42A` before `43`).

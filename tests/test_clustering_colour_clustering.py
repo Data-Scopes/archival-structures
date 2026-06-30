@@ -5,7 +5,7 @@ import pagexml.model.physical_document_model as pdm
 
 from archival_structures.clustering.colour_clustering import (
     extract_ink_pixels, find_ink_like_classes, find_ink_luminosity_class,
-    find_missing_text_candidates, score_multi_colour_text,
+    find_missing_text_candidates, map_bg_ratio, score_multi_colour_text,
 )
 
 
@@ -124,6 +124,21 @@ class TestExtractInkPixels(TestCase):
         self.assertGreater(ink_mask.sum(), 0)
         # the sticker block must not be classified as ink
         self.assertFalse(ink_mask[15:25, 15:25].any())
+
+
+class TestMapBgRatio(TestCase):
+
+    def test_ratio_much_above_one_is_background(self):
+        # colour is far more common in the background than in text lines
+        self.assertEqual('bg', map_bg_ratio(10.0, min_ratio=3.0))
+
+    def test_ratio_much_below_one_is_text_line(self):
+        # colour is far more common in text lines than in the background
+        self.assertEqual('tl', map_bg_ratio(0.1, min_ratio=3.0))
+
+    def test_ratio_close_to_one_is_unknown(self):
+        # roughly equally common in both -- not clearly background or ink
+        self.assertEqual('unk', map_bg_ratio(1.0, min_ratio=3.0))
 
 
 class TestFindMissingTextCandidates(TestCase):

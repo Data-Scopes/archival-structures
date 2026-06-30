@@ -130,27 +130,38 @@ own Python requirement, not the project's, making the actual cause (the project'
 being unrealistically high) easy to miss. Fix: narrow `requires-python` to `>=3.11,<3.15`,
 matching what the heaviest dependency can actually support.
 
-## Known rough edges, documented rather than silently fixed
+## Rough edges found while documenting, since fixed
 
 A handful of latent bugs/dead-code paths were found while writing docstrings for existing,
-untested code paths. Each is documented in place (see the linked source) rather than silently
-"corrected", since the actual intended behaviour wasn't always certain:
+untested code paths -- each was first documented in place rather than silently "corrected"
+(the intended behaviour wasn't always obvious from the surrounding code alone), then fixed once
+a repo-wide grep confirmed no caller depended on the old (broken) behaviour:
 
-- {meth}`archival_structures.analysis.neighbourhood_analysis.LineNeighbourHood.top`/
-  {meth}`~archival_structures.analysis.neighbourhood_analysis.LineNeighbourHood.bottom` use
-  relation keys (`'top'`/`'bottom'`) that don't match what the rest of the class actually stores
-  (`'above'`/`'below'`) -- these two methods are dead/always-`None`. Untested.
-- {func}`archival_structures.token_analysis.tokens_are_running_text` returns `True` when
-  *fewer* than `min_tokens` tokens are content words -- reads backwards from the name.
+- {meth}`archival_structures.analysis.neighbourhood_analysis.LineNeighbourHood.get_rel_neighbour`
+  checked whether a line was a member of its *own* neighbour list (always false) instead of
+  returning the actual neighbours, so `left()`/`right()`/`top()`/`bottom()` always returned
+  `None`. `top()`/`bottom()` also used relation keys (`'top'`/`'bottom'`) that didn't match what
+  the rest of the class stores (`'above'`/`'below'`). Both fixed; the never-populated
+  `self.above`/`.below`/`.left`/`.right` attributes (separate from the real state in
+  `has_rel_neighbour`) were removed.
+- {func}`archival_structures.analysis.token_analysis.tokens_are_running_text` returned `True`
+  when *fewer* than `min_tokens` tokens were content words -- read backwards from the name.
+  Flipped to return `True` when *enough* tokens are content words.
 - {func}`archival_structures.clustering.colour_clustering.map_bg_ratio`'s `'unk'`/`'bg'`
-  branches read as if swapped relative to what the label names suggest.
-- {func}`archival_structures.clustering.image_clustering.get_luminosity_peaks` hardcodes
-  `region_type='empty'` regardless of what pixels it's actually given, so text-region peaks get
-  mislabelled `'empty'` too.
-- {func}`archival_structures.parsers.ead_parser.get_subsubseries_titles` checks for a
-  `'subsubseries'` key that `parse_subseries` never actually sets, so it currently always
-  returns an empty list.
-- {class}`archival_structures.parsers.read.EADReader` is written against a BeautifulSoup-style
-  API (`.attrs`, `.find_all`, `.name`) rather than this module's actual `xml.etree.ElementTree`
-  (`.attrib`, `.findall`, `.tag`) -- non-functional against real input, referenced from one
-  notebook, no tests.
+  branches were swapped relative to what the label names mean (`'bg'` is now returned for
+  colours much more common in the background, `'unk'` for the ambiguous middle case).
+- {func}`archival_structures.clustering.image_clustering.get_luminosity_peaks` hardcoded
+  `region_type='empty'` regardless of what pixels it was given, so text-region peaks were
+  mislabelled `'empty'` too. Now takes `region_type` as a parameter, passed through correctly by
+  its caller (`cluster_pixel_luminosity`) for both the empty- and text-region pixel sets.
+- {func}`archival_structures.parsers.ead_parser.get_subsubseries_titles` checked for a
+  `'subsubseries'` key that `parse_subseries` never actually sets, so it always returned an
+  empty list. Fixed to use the actual shape `parse_subseries` builds: nested `<c
+  level="subseries">` elements get appended to the same flat `subseries` list in nesting order,
+  so genuine subsubseries titles are everything after the first (top-level) entry.
+- {class}`archival_structures.parsers.read.EADReader` turned out not to be a bug at all --
+  earlier documentation wrongly assumed it would be called with this module's own
+  `ET.Element`-based `read_ead()` output. Its one real caller (a scratch notebook) instead
+  builds its own `BeautifulSoup` tree directly from an OAI-EAD API response, which is exactly
+  what `EADReader`'s BS4-style API expects. Corrected the docs to say so instead of "fixing"
+  working code.

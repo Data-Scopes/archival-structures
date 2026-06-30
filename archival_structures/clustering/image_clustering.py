@@ -240,23 +240,18 @@ def make_peak_row(peak, lum_pixels: np.array, scan_id: str, region_type: str):
     return row
 
 
-def get_luminosity_peaks(rgb_pixels, scan: pdm.PageXMLRegion):
+def get_luminosity_peaks(rgb_pixels, scan: pdm.PageXMLRegion, region_type: str = 'empty'):
     """Luminosity peaks (`compute_peaks`) found in `rgb_pixels` (converted to LAB), as rows
-    via `make_peak_row`.
-
-    Note: `region_type` is hardcoded to `'empty'` regardless of what `rgb_pixels` actually
-    represents -- `cluster_pixel_luminosity` calls this for both empty-region and text-region
-    pixels, so peaks from text regions are also labelled `'empty'` in the returned rows.
-    Documented as observed (untested) rather than silently corrected."""
+    via `make_peak_row`, labelled with `region_type`."""
     rows = []
     width_bin_size = 1
     lab_pixels = skimage.color.rgb2lab(rgb_pixels)
-    lum_empty = lab_pixels[:, 0].astype(int)
-    peaks_empty = compute_peaks(lum_empty, width_bin_size,
-                                min_prominence=50, rel_height=0.90)
+    lum_values = lab_pixels[:, 0].astype(int)
+    peaks = compute_peaks(lum_values, width_bin_size,
+                          min_prominence=50, rel_height=0.90)
 
-    for peak in peaks_empty:
-        row = make_peak_row(peak, lum_empty, scan.id, region_type='empty')
+    for peak in peaks:
+        row = make_peak_row(peak, lum_values, scan.id, region_type=region_type)
         rows.append(row)
 
     return rows
@@ -284,11 +279,11 @@ def cluster_pixel_luminosity(scan: pdm.PageXMLRegion, thumb: Thumbnail,
     try:
         if len(images_empty) > 0:
             pixels_empty = im_proc.merge_region_images_to_1d_pixels(images_empty)
-            empty_peaks = get_luminosity_peaks(pixels_empty, scan)
+            empty_peaks = get_luminosity_peaks(pixels_empty, scan, region_type='empty')
             luminosity_peaks.extend(empty_peaks)
         if len(images_text) > 0:
             pixels_text = im_proc.merge_region_images_to_1d_pixels(images_text)
-            text_peaks = get_luminosity_peaks(pixels_text, scan)
+            text_peaks = get_luminosity_peaks(pixels_text, scan, region_type='text')
             luminosity_peaks.extend(text_peaks)
     except BaseException:
         print(f"scan {scan.id}\tempty: {len(empty_regions)}\ttext: {len(textual_regions)}")

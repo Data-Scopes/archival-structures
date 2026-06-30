@@ -606,19 +606,16 @@ def determine_number_of_colours(image_lab: np.ndarray, rng: np.random.Generator 
 
 def map_bg_ratio(ratio: float, min_ratio: float = 3.0) -> str:
     """Classify a k-means colour cluster from its background-fraction / text-line-fraction
-    ratio (`bg_frac / tl_frac`, as computed in `classify_dominant_colours`): `'unk'` if `ratio`
-    exceeds `min_ratio`, `'tl'` if it's below `1/min_ratio`, else `'bg'`.
-
-    Note: as written this labels colours that are much *more* common in the background as
-    `'unk'` and colours roughly equally common in both as `'bg'`, which reads as if the `'unk'`
-    and `'bg'` branches are swapped relative to what the label names suggest. Documented as
-    observed (untested, not used elsewhere in this codebase) rather than silently corrected."""
+    ratio (`bg_frac / tl_frac`, as computed in `classify_dominant_colours`): `'bg'` if `ratio`
+    exceeds `min_ratio` (much more common in the background), `'tl'` if it's below
+    `1/min_ratio` (much more common in text lines), else `'unk'` (roughly equally common in
+    both, so not clearly either)."""
     if ratio > min_ratio:
-        return 'unk'
+        return 'bg'
     elif ratio < (1/min_ratio):
         return 'tl'
     else:
-        return 'bg'
+        return 'unk'
 
 
 def classify_dominant_colours(image_lab: np.ndarray, scan: pdm.PageXMLScan, n_colours: int) -> pd.DataFrame:
