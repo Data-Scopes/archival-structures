@@ -188,9 +188,13 @@ uv.lock
 .idea/
 .claude/
 
-# data/ holds the full archival dataset (15GB+) this package was developed against -- only the
-# small subset actually needed by notebooks/demo/ is committed, via explicit `git add -f`.
+# data/ holds the full archival dataset (15GB+) this package was developed against. The small
+# subset actually needed by notebooks/demo/ (~341MB) isn't committed either -- it's distributed
+# as a GitHub Release asset instead (see README.md and archival-structures-demo-data.zip below).
 data/
+
+# Built locally for attaching to a GitHub Release -- see README.md's "Demo data" section.
+/archival-structures-demo-data.zip
 
 # A separate, in-progress embeddings/VLM/active-learning subsystem (492MB) -- not part of this
 # release; see docs/findings.md.

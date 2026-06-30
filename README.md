@@ -80,6 +80,20 @@ All in [`notebooks/demo/`](notebooks/demo/):
   recurring n-gram patterns and cross-page document elements, comparing the table register
   against the notary deeds.
 
+### Demo data
+
+The notebooks above need real PageXML/thumbnail data (~341MB across 7 inventory numbers) that
+isn't committed to this repo -- only the package code is. Download `demo-data.zip` from the
+[latest release](https://github.com/marijnkoolen/archival-structures/releases) and extract it at
+the repository root:
+
+```bash
+unzip demo-data.zip -d .
+```
+
+This recreates `data/PageXML/`, `data/thumbs/`, and `data/annotations/` with exactly the
+inventory numbers the demo notebooks reference, so they run unchanged once extracted.
+
 ## Installation
 
 ```bash
