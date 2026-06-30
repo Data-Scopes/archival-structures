@@ -20,7 +20,10 @@ independent images -- so the analysis is built up in layers:
    classify a whole inventory number as a *book of openings* versus a *mixed* folder/booklet.
 2. **Page-layout clustering** (`archival_structures.analysis.page_layout_clustering`) -- cluster
    whole pages by the spatial arrangement of their text lines, via a grid-pattern TF-IDF
-   fingerprint.
+   fingerprint. A complementary fingerprint, `archival_structures.analysis.relational_patterns`
+   (clustered by `relational_layout_clustering`), instead encodes each line's own type and its
+   RCC-8 spatial relation to its immediate below/right neighbour -- relational line-neighbourhood
+   patterns a pixel-pattern fingerprint can't represent.
 3. **Line clustering** (`archival_structures.analysis.line_clustering`) -- cluster individual
    text lines by indentation/width/height into a vocabulary of recurring line types (body text,
    closing lines, marginalia, ...).
@@ -82,6 +85,9 @@ All in [`notebooks/demo/`](notebooks/demo/):
 - [`page-layout-clustering-demo.ipynb`](notebooks/demo/page-layout-clustering-demo.ipynb) and
   [`page-layout-clustering-table-vs-deeds-demo.ipynb`](notebooks/demo/page-layout-clustering-table-vs-deeds-demo.ipynb)
   -- clustering pages by text-line layout, and the same table-vs-deeds comparison.
+- [`relational-layout-clustering-table-vs-deeds-demo.ipynb`](notebooks/demo/relational-layout-clustering-table-vs-deeds-demo.ipynb)
+  -- clustering pages by line-type-and-neighbour-relation fingerprint instead of raw geometry,
+  compared against the geometric clustering above.
 - [`pagexml-image-region-linking.ipynb`](notebooks/demo/pagexml-image-region-linking.ipynb) --
   drawing PageXML regions on a thumbnail, and converting a manually-drawn selection back into a
   new PageXML region.

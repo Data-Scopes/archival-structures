@@ -74,3 +74,40 @@ class TestNeighbourhoodLines(unittest.TestCase):
     def test_bottom_returns_below_neighbour(self):
         nh = na.LineNeighbourHood(self.region2.lines)
         self.assertEqual([self.line5], nh.bottom(self.line2))
+
+
+class TestLineVerticalGap(unittest.TestCase):
+    """Regression tests for the `pdm.vertical_distance` bug: for baseline-bearing lines it
+    returns `abs(bottom1 - bottom2)` unconditionally, without checking whether the lines'
+    vertical extents actually overlap. With slanted (non-flat) baselines whose y-ranges overlap,
+    this reports a nonzero "gap" for lines that don't actually have one.  `line_vertical_gap`
+    must compute the real (overlap-aware) gap instead."""
+
+    def test_gap_is_zero_for_overlapping_slanted_baselines(self):
+        # baseline1 spans y in [100, 140], baseline2 spans y in [120, 160] -- these ranges
+        # overlap, so the real vertical gap is 0.
+        baseline1 = pdm.Baseline([(100, 100), (500, 140)])
+        baseline2 = pdm.Baseline([(100, 160), (500, 120)])
+        line1 = pdm.PageXMLTextLine(doc_id='l1', coords=pdm.Coords.coords_from_box_params(100, 90, 400, 60),
+                                    baseline=baseline1)
+        line2 = pdm.PageXMLTextLine(doc_id='l2', coords=pdm.Coords.coords_from_box_params(100, 110, 400, 60),
+                                    baseline=baseline2)
+
+        self.assertEqual(0, na.line_vertical_gap(line1, line2))
+        # confirm this is a genuine regression test: the upstream library function disagrees,
+        # reporting the buggy baseline-bottom-to-baseline-bottom offset (20) instead of 0.
+        self.assertEqual(20, pdm.vertical_distance(line1, line2))
+
+    def test_max_vertical_dist_filters_baseline_bearing_lines_correctly(self):
+        # two rows, ~200px apart (top-to-bottom gap), each line has a flat baseline
+        baseline1 = pdm.Baseline([(100, 115), (500, 115)])
+        baseline2 = pdm.Baseline([(100, 335), (500, 335)])
+        line1 = pdm.PageXMLTextLine(doc_id='l1', coords=pdm.Coords.coords_from_box_params(100, 100, 400, 20),
+                                    baseline=baseline1)
+        line2 = pdm.PageXMLTextLine(doc_id='l2', coords=pdm.Coords.coords_from_box_params(100, 320, 400, 20),
+                                    baseline=baseline2)
+
+        # the real gap (220px) exceeds this threshold, so line1/line2 must NOT be neighbours
+        nh = na.LineNeighbourHood([line1, line2], max_vertical_dist=50)
+        self.assertIsNone(nh.bottom(line1))
+        self.assertIsNone(nh.top(line2))

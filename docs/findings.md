@@ -36,6 +36,54 @@ clusters spanning both verso and recto sides from not-at-all to 30/32.
 degenerates to all-noise on zero-line pages** -- an empty page's all-zero grid pollutes the
 global pattern vocabulary. Filter out pages with no lines before clustering.
 
+**`PageXMLTextRegion` granularity varies by archive, so empirical adjacency thresholds can't be
+scoped to "lines within the same region".**
+{func}`~archival_structures.analysis.relational_patterns.derive_max_vertical_dist` was originally
+scoped to lines within the same `TextRegion` (a region's own lines are known, by PageXML's own
+structure, to belong together). On `NL-HaNA_2.10.50_1`, every `TextRegion` in the real ATR output
+contains exactly one line (a region per table cell), so no within-region adjacent pair ever
+exists -- the function raised `ValueError` outright on real data despite working fine on every
+synthetic test fixture, which all used multi-line regions.
+{func}`~archival_structures.analysis.relational_patterns.corpus_adjacent_line_vertical_gaps` now
+pools over each whole page's lines instead, still only counting genuine, unambiguous
+vertical-adjacency pairs (`get_neighbouring_line_pairs`'s `'below'` relation requires direct
+horizontal overlap, not just page proximity) -- works for both corpora without depending on a
+region granularity that isn't guaranteed.
+
+**Relational line-neighbourhood clustering
+({mod}`archival_structures.analysis.relational_patterns`,
+{mod}`archival_structures.analysis.relational_layout_clustering`) is a genuinely complementary
+signal to {class}`~archival_structures.analysis.grid_analysis.GridPattern`, not a strict
+improvement.** Validated on both `NL-HaNA_2.10.50_1` and `NL-AsnDA_0114.11_1` (see the
+[relational layout clustering](notebooks/relational-layout-clustering-table-vs-deeds-demo) demo
+notebook): on the table register, where `GridPattern` finds almost no structure (81% noise), the
+relational fingerprint finds far more (7% noise) -- but its clusters don't track verso/recto
+symmetry at all (0/48 same-cluster pairs), consistent with that register's two opening-halves
+genuinely differing. On the notary deeds, where `GridPattern` already works very well (39% noise,
+96% verso/recto symmetry), the relational fingerprint does *worse* on both counts (65% noise, 33%
+symmetry on a small surviving sample) -- its symbol vocabulary is large relative to corpus size
+there (320 symbols over 125 pages, built from a 27-cluster line-type vocabulary with 16% noise),
+making the resulting TF-IDF vectors sparser than `GridPattern`'s own (421 patterns, same pages).
+Not evidence the relational signal is uninformative on a corpus geometry already handles well --
+more likely that the line-type vocabulary feeding it (a generic HDBSCAN run) and HDBSCAN's own
+clustering parameters both need corpus-specific tuning before the relational fingerprint can
+compete with how well geometry alone already does there.
+
+**The relational symbols are legible, once you look at the actual lines behind them, and they
+recur across both corpora.** Cropping the page thumbnail around the `(line, neighbour)` pair
+behind each cluster's top distinctive symbol (see the same demo notebook) surfaces three
+recurring patterns rather than noise: a *row-label-vs-data-column* pattern (`right:DC` between
+two different line-clusters, e.g. `'Generaal en Chef'` disconnected from `'met L. Mo. Schip
+Amsterdam'` on the same row of the table register -- and the table register surfaces *several
+distinct instances* of this pattern as separate relational clusters, which `GridPattern`, with no
+notion of column identity, can't distinguish); a *paragraph-wrap* pattern (`below:PO` with the
+*same* line-cluster on both sides, e.g. `'Gervol onslagen als resident'` continuing into `'der
+preangee Regentschappen'`) -- the wrapped-sentence pattern the relational extension was
+originally motivated by; and a *marginal-annotation-vs-body-text* pattern in the notary deeds
+(a short marginal note such as `'4test R Cuetoneel'` sitting `right:DC`/`below:PO` next to a
+number-bearing body line). This is independent evidence the relational fingerprint is reading
+real document structure, not an artefact of TF-IDF on an arbitrary symbol vocabulary.
+
 ## Sequence-pattern mining
 
 **`detect_cross_page_continuation`'s distance thresholds need to scale with the scan's actual
@@ -199,6 +247,18 @@ a repo-wide grep confirmed no caller depended on the old (broken) behaviour:
   empty list. Fixed to use the actual shape `parse_subseries` builds: nested `<c
   level="subseries">` elements get appended to the same flat `subseries` list in nesting order,
   so genuine subsubseries titles are everything after the first (top-level) entry.
+- `pagexml.model.physical_document_model.vertical_distance` (the external `pagexml-tools`
+  dependency, not this repo) mismeasures the gap between baseline-bearing lines: it takes a
+  `hasattr(doc, 'baseline')` branch that's true for essentially every `PageXMLTextLine` (the
+  attribute exists, as `None`, even without real baseline data) and returns
+  `abs(bottom1 - bottom2)` -- a baseline-to-baseline offset -- without checking whether the
+  lines' vertical extents actually overlap, rather than an overlap-aware gap.
+  {func}`archival_structures.analysis.neighbourhood_analysis.get_neighbouring_line_pairs` called
+  this directly to apply `max_vertical_dist`, so `LineNeighbourHood`'s distance filter was itself
+  unreliable for real (baseline-bearing) ATR output. Routed around locally (not fixed upstream)
+  via {func}`~archival_structures.analysis.neighbourhood_analysis.line_vertical_gap`, which always
+  computes the real top/bottom gap; a regression test with slanted, overlapping baselines
+  reproduces the upstream bug's wrong (nonzero) answer alongside the corrected (zero) one.
 - {class}`archival_structures.parsers.read.EADReader` turned out not to be a bug at all --
   earlier documentation wrongly assumed it would be called with this module's own
   `ET.Element`-based `read_ead()` output. Its one real caller (a scratch notebook) instead

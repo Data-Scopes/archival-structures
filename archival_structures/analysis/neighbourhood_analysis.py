@@ -67,6 +67,31 @@ class LineNeighbourHood:
         return self.get_rel_neighbour(line, 'below')
 
 
+def line_vertical_gap(line1: pdm.PageXMLTextLine, line2: pdm.PageXMLTextLine) -> int:
+    """The vertical gap between `line1` and `line2` (0 if they vertically overlap), using each
+    line's baseline extent if available, else its coordinates' bounding box.
+
+    `pagexml.model.physical_document_model.vertical_distance` mismeasures this for
+    baseline-bearing lines -- it takes a `hasattr(doc, 'baseline')` branch that's true for
+    essentially every `PageXMLTextLine` (the attribute exists, as `None`, even without real
+    baseline data) and returns `abs(bottom1 - bottom2)` (a baseline-to-baseline offset) instead
+    of an actual gap. This function always computes the real top/bottom gap instead."""
+    if line1.baseline is not None and line1.baseline.points is not None:
+        top1, bottom1 = line1.baseline.top, line1.baseline.bottom
+    else:
+        top1, bottom1 = line1.coords.top, line1.coords.bottom
+    if line2.baseline is not None and line2.baseline.points is not None:
+        top2, bottom2 = line2.baseline.top, line2.baseline.bottom
+    else:
+        top2, bottom2 = line2.coords.top, line2.coords.bottom
+    if bottom1 < top2:
+        return top2 - bottom1
+    elif top1 > bottom2:
+        return top1 - bottom2
+    else:
+        return 0
+
+
 def get_neighbouring_line_pairs(lines: List[pdm.PageXMLTextLine], max_vertical_dist: int = None,
                                 debug: int = 0) -> List[Tuple[Union[None, pdm.PageXMLTextLine],
                                                               Union[None, pdm.PageXMLTextLine], str]]:
@@ -104,7 +129,7 @@ def get_neighbouring_line_pairs(lines: List[pdm.PageXMLTextLine], max_vertical_d
             for next_line in next_group:
                 if not next_line.is_below(curr_line, direct_only=True):
                     continue
-                vdist = pdm.vertical_distance(curr_line, next_line)
+                vdist = line_vertical_gap(curr_line, next_line)
                 if max_vertical_dist is not None and vdist > max_vertical_dist:
                     line_pairs.append((curr_line, None, 'below'))
                     line_pairs.append((next_line, None, 'above'))

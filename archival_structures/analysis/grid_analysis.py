@@ -159,6 +159,35 @@ def get_region_grid_points(doc_set: Union[List[pdm.PageXMLRegion], Set[pdm.PageX
     return doc_grid_points
 
 
+def compute_pattern_tfidf(doc_pattern_freq: defaultdict, pattern_doc_freq: Counter, vocab: dict,
+                          num_docs: int, vocab_size: int) -> tuple:
+    """TF-IDF over per-document pattern-frequency counters, shared between `GridPattern` and
+    `archival_structures.analysis.relational_patterns.RelationalPattern` -- they differ only in
+    what a "pattern" is (a 3x3 pixel micro-pattern vs. a relational `(cluster, relation,
+    cluster)` symbol); the TF-IDF math over per-document frequency counters is identical.
+
+    :param doc_pattern_freq: per-document pattern frequency, `{doc_index: Counter}`
+    :param pattern_doc_freq: corpus-wide document frequency per pattern, `{pattern: num_docs}`
+    :param vocab: `{pattern: vocab_index}`
+    :param num_docs: total number of documents
+    :param vocab_size: total number of distinct patterns (`len(vocab)`)
+    :return: `(tf, tfidf)`, each shape `(num_docs, vocab_size)`
+    """
+    tf = np.zeros((num_docs, vocab_size))
+    tfidf = np.zeros((num_docs, vocab_size))
+    for di in doc_pattern_freq:
+        doc_length = sum(doc_pattern_freq[di].values())
+        for pattern, count in doc_pattern_freq[di].most_common():
+            prob_tf = count / doc_length
+            log_tf = 1 + np.log(count)
+            df = pattern_doc_freq[pattern]
+            idf = np.log(num_docs / df)
+            pattern_idx = vocab[pattern]
+            tf[di][pattern_idx] = prob_tf
+            tfidf[di][pattern_idx] = log_tf * idf
+    return tf, tfidf
+
+
 class GridPattern:
     """Per-document layout fingerprints, built by rasterising each document's text lines onto
     a shared grid (`get_line_grid_points`) and counting local `pattern_size` x `pattern_size`
@@ -220,24 +249,8 @@ class GridPattern:
         print(f"done computing patterns, {len(self.coll_pattern_freq)} distinct patterns")
 
     def _compute_pattern_tfidf(self):
-        self.tf = np.zeros((self.num_docs, self.vocab_size))
-        tf_idf = np.zeros((self.num_docs, self.vocab_size))
-        for di in self.doc_pattern_freq:
-            doc_length = sum(self.doc_pattern_freq[di].values())
-            tf_idf[di] = np.zeros(self.vocab_size)
-            for pattern, tf in self.doc_pattern_freq[di].most_common():
-                prob_tf = tf / doc_length
-                log_tf = 1 + np.log(tf)
-                cf = self.coll_pattern_freq[pattern]
-                df = self.pattern_doc_freq[pattern]
-                # idf = np.log((self.num_docs - df) / df)
-                idf = np.log(self.num_docs / df)
-                if idf < 0.0:
-                    print(tf, cf, df, self.num_docs, self.num_docs - df + 1, idf)
-                pattern_idx = self.vocab[pattern]
-                self.tf[di][pattern_idx] = prob_tf
-                tf_idf[di][pattern_idx] = log_tf * idf
-
+        self.tf, tf_idf = compute_pattern_tfidf(self.doc_pattern_freq, self.pattern_doc_freq,
+                                                self.vocab, self.num_docs, self.vocab_size)
         print("done computing tf-idf of patterns")
         return tf_idf
 
