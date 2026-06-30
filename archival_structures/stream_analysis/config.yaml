@@ -1,0 +1,54 @@
+images:
+  input_dir: "data/images"           # path to your image folder
+  extensions: ["jp2", "jpg", "jpeg", "png", "tif", "tiff"]
+  batch_size: 32                     # images per batch for embedding extraction
+
+embeddings:
+  model: "dinov2"                    # "clip" or "dinov2" (dinov2 is better for visual similarity)
+  clip_model: "openai/clip-vit-base-patch32"
+  dinov2_model: "facebook/dinov2-base"
+  cache_file: "outputs/embeddings.npy"
+  image_ids_file: "outputs/image_ids.json"
+
+layout:
+  cache_file: "outputs/layout_features.json"
+
+clustering:
+  combine_layout_features: true     # whether to append layout features to embeddings before clustering
+  layout_weight: 0.2                # weight of layout features relative to embeddings
+  umap:
+    n_neighbors: 15
+    min_dist: 0.1
+    n_components: 2
+    metric: "cosine"
+    random_state: 42
+  hdbscan:
+    min_cluster_size: 10            # raise for fewer, larger clusters
+    min_samples: 5
+    metric: "euclidean"
+  results_file: "outputs/clustering_results.json"
+
+vlm_tagging:
+  provider: "anthropic"             # only "anthropic" supported currently
+  model: "claude-haiku-4-5"
+  sample_size: 500                  # number of images to tag
+  results_file: "outputs/vlm_tags.json"
+  batch_size: 1                     # images per API call (keep at 1 for reliability)
+
+visualization:
+  output_dir: "outputs/visualizations"
+  cluster_grid_n: 9                 # images shown per cluster in grid (perfect square recommended)
+  umap_point_size: 3
+  umap_alpha: 0.6
+
+groundtruth:
+  samples_per_cluster: 30          # images sampled per cluster for annotation
+  output_dir: "outputs/groundtruth"
+  label_file: "outputs/groundtruth/labels.json"  # where you save annotations
+  label_studio_export: "outputs/groundtruth/label_studio_import.json"
+
+active_learning:
+  batch_size: 20                    # images to suggest per active learning round
+  model: "logistic_regression"      # classifier on top of embeddings
+  uncertainty_strategy: "margin"    # "margin" or "entropy"
+  suggestions_file: "outputs/groundtruth/active_learning_suggestions.json"

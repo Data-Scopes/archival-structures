@@ -196,9 +196,14 @@ data/
 # Built locally for attaching to a GitHub Release -- see README.md's "Demo data" section.
 /archival-structures-demo-data.zip
 
-# A separate, in-progress embeddings/VLM/active-learning subsystem (492MB) -- not part of this
-# release; see docs/findings.md.
-archival_structures/stream_analysis/
+# An embeddings/VLM/active-learning subsystem -- the code is tracked, but its runtime data and
+# cached outputs aren't: data/ (434MB of images) is already covered by the blanket data/ rule
+# above (gitignore's unanchored `data/` matches at any depth); outputs/ (58MB of cached
+# embeddings/clustering/VLM-tag results, regenerable by re-running the pipeline) needs its own
+# rule since "outputs" isn't otherwise reserved. claude_doc_analysis.ipynb is ad-hoc local
+# analysis of those outputs, not part of the published notebooks/demo/ set.
+archival_structures/stream_analysis/outputs/
+archival_structures/stream_analysis/claude_doc_analysis.ipynb
 
 # Scratch/exploratory notebooks and scripts accumulated during development, not part of the
 # polished package or its notebooks/demo/ -- kept local rather than published.
@@ -206,7 +211,8 @@ archival_structures/stream_analysis/
 /ground_truth/
 /images/
 /resources/
-/scripts/
+/scripts/*
+!/scripts/analyse_documents.py
 /notebooks/*
 !/notebooks/demo/
 /archival_structures/clustering/docs/

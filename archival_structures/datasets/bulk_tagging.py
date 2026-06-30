@@ -4,13 +4,14 @@
 image's `ScanAnnotation.tags` -- no separate import step.
 
 This module has no dependency on any particular clustering pipeline, only on a plain
-`image_ids: list[str]` (e.g. one cluster's members, however you got there). If you cluster
-scans by visual/layout similarity in-package (e.g.
+`image_ids: list[str]` (e.g. one cluster's members, however you got there) -- deliberately, so
+it works the same way whether you cluster scans by visual/layout similarity in-package (e.g.
 `archival_structures.analysis.page_layout_clustering.cluster_page_layouts`, which returns a
-`pandas.Series` of cluster labels indexed by scan id), pull a cluster's scan ids out and map
-them to thumbnail paths yourself; if you cluster via
-`archival_structures.stream_analysis` (outside this package's published scope), likewise pull
-a cluster's image ids out via its own `get_cluster_members` and pass them straight in:
+`pandas.Series` of cluster labels indexed by scan id) or via
+`archival_structures.stream_analysis` (see `docs/stream_analysis.md`), which has its own,
+unrelated `get_cluster_members`:
+
+::
 
     image_ids = get_cluster_members(clustering)[cluster_id]
     annotate_image_grid_with_tags(image_ids)

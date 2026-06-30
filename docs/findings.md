@@ -103,9 +103,9 @@ red handwritten annotation) as the top-ranked candidate on the first 50-scan ran
 incompatible formats, two of them coincidentally sharing one file-path convention.**
 {class}`~archival_structures.datasets.annotations.ScanAnnotation` (used by the
 [scan annotation](notebooks/annotate-scans) notebook) keys by PageXML `scan_id` and writes to
-`annotations-<scan_id>.json`. `archival_structures.stream_analysis.groundtruth
-.interactive_annotation` (a bulk image tagger, outside this package's published scope) keys by
-thumbnail *path* instead and writes `{image_path: [label, ...]}` JSON elsewhere entirely. The
+`annotations-<scan_id>.json`. {mod}`archival_structures.stream_analysis.groundtruth.interactive_annotation`
+(a bulk image tagger, see [Stream analysis](stream_analysis.md)) keys by thumbnail *path*
+instead and writes `{image_path: [label, ...]}` JSON elsewhere entirely. The
 older `image_drawing.ThumbnailSelectionTagger` region-drawing tool predates `ScanAnnotation` but
 writes to the *same* `annotations-<name>.json` path convention, with a completely different
 shape (a JSON list of `{thumb_box, orig_box}` region dicts, not a `ScanAnnotation` dict) -- 73

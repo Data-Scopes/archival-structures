@@ -43,8 +43,16 @@ Alongside the text-analysis pipeline:
   thumbnail's, and a canvas rendering of a selection, via an affine `Transform`; converting
   between PageXML `Coords` and this package's own `Box` type; ipywidgets-based interactive
   region drawing/tagging.
-- **Ground-truth annotation** (`archival_structures.datasets.annotations`) -- a JSON schema for
-  labelling scans/lines/cross-page elements, plus an ipywidgets notebook app for producing it.
+- **Ground-truth annotation** (`archival_structures.datasets.annotations`) -- a multi-level
+  `namespace:type(:subtype)?(#N)?` tag vocabulary (see
+  [`docs/vocabulary.md`](docs/vocabulary.md)) for labelling scans/pages/lines/cross-page
+  elements, plus ipywidgets notebook apps for producing it one scan
+  (`archival_structures.datasets.annotations`) or one cluster
+  (`archival_structures.datasets.bulk_tagging`) at a time.
+- **Stream analysis** (`archival_structures.stream_analysis`) -- a separate concern from the
+  PageXML pipeline: embeddings + UMAP/HDBSCAN clustering, layout features, optional VLM tagging,
+  and active-learning ground-truth creation for a plain directory of document images (no PageXML
+  required) -- see [`docs/stream_analysis.md`](docs/stream_analysis.md).
 - **EAD/METS parsing** (`archival_structures.parsers`) -- a separate concern from the
   PageXML/image pipeline: parsing the archival finding-aid metadata (series/subseries/file
   structure, page manifests) that describes an archive's holdings.
@@ -82,6 +90,10 @@ All in [`notebooks/demo/`](notebooks/demo/):
 - [`sequence-patterns-demo.ipynb`](notebooks/demo/sequence-patterns-demo.ipynb) -- mining
   recurring n-gram patterns and cross-page document elements, comparing the table register
   against the notary deeds.
+- [`stream-analysis-overview-demo.ipynb`](notebooks/demo/stream-analysis-overview-demo.ipynb)
+  and [`stream-analysis-groundtruth-demo.ipynb`](notebooks/demo/stream-analysis-groundtruth-demo.ipynb)
+  -- embeddings + clustering, optional VLM tagging, and active-learning ground-truth creation
+  for a plain directory of document images (no PageXML required).
 
 ### Demo data
 

@@ -44,6 +44,7 @@ coordinate_bridging
 datasets_and_annotation
 vocabulary
 ead_mets_parsing
+stream_analysis
 findings
 ```
 
@@ -62,4 +63,6 @@ notebooks/pagexml-image-region-linking
 notebooks/pagexml-image-multicolour-explorer
 notebooks/annotate-scans
 notebooks/bulk-tag-annotation-demo
+notebooks/stream-analysis-overview-demo
+notebooks/stream-analysis-groundtruth-demo
 ```
