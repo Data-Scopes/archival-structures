@@ -56,3 +56,14 @@ class TestTokenAnalyser(TestCase):
         ncw = list(self.non_content_words)[0]
         is_content = token_analysis.token_is_punct(ncw)
         self.assertEqual(False, is_content)
+
+    def test_running_text_with_enough_content_words(self):
+        tokens = [token_analysis.Token('bicycle', [], is_content=True),
+                  token_analysis.Token('repaired', [], is_content=True),
+                  token_analysis.Token('the', [], is_content=False)]
+        self.assertEqual(True, token_analysis.tokens_are_running_text(tokens, min_tokens=2))
+
+    def test_running_text_with_too_few_content_words(self):
+        tokens = [token_analysis.Token('the', [], is_content=False),
+                  token_analysis.Token('bicycle', [], is_content=True)]
+        self.assertEqual(False, token_analysis.tokens_are_running_text(tokens, min_tokens=2))

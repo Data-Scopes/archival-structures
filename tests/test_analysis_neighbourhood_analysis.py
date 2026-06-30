@@ -58,3 +58,19 @@ class TestNeighbourhoodLines(unittest.TestCase):
             for ri, rel in enumerate(['above', 'below', 'left', 'right']):
                 with self.subTest(f"{li}-{ri}",):
                     self.assertEqual(True, len(nh.has_rel_neighbour[l1][rel]) > 0)
+
+    def test_right_returns_actual_neighbour(self):
+        nh = na.LineNeighbourHood(self.region2.lines)
+        self.assertEqual([self.line3], nh.right(self.line2))
+
+    def test_left_returns_none_at_row_edge(self):
+        nh = na.LineNeighbourHood(self.region2.lines)
+        self.assertIsNone(nh.left(self.line2))
+
+    def test_top_returns_above_neighbour(self):
+        nh = na.LineNeighbourHood(self.region2.lines)
+        self.assertEqual([self.line1], nh.top(self.line2))
+
+    def test_bottom_returns_below_neighbour(self):
+        nh = na.LineNeighbourHood(self.region2.lines)
+        self.assertEqual([self.line5], nh.bottom(self.line2))

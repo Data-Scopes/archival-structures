@@ -73,9 +73,7 @@ class Token:
 
 
 def tokens_are_running_text(tokens: List[Token], min_tokens: int = 2) -> bool:
-    """True if `tokens` has at least `min_tokens` tokens, but fewer than `min_tokens` of them
-    are flagged `is_content` (e.g. a short label or a list of names/numbers, as opposed to
-    flowing prose dense with content words)."""
-    if len(tokens) < min_tokens:
-        return False
-    return len([token for token in tokens if token.is_content]) < min_tokens
+    """True if at least `min_tokens` of `tokens` are flagged `is_content`, i.e. `tokens` reads
+    as flowing prose dense with content words, as opposed to a short label or a list of
+    names/numbers."""
+    return len([token for token in tokens if token.is_content]) >= min_tokens

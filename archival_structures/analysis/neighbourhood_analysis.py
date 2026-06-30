@@ -18,10 +18,6 @@ class LineNeighbourHood:
     (`above`/`below`/`left`/`right`), built from `get_neighbouring_line_pairs`."""
 
     def __init__(self, lines: List[pdm.PageXMLTextLine] = None, max_vertical_dist: int = None):
-        self.above = defaultdict(list)
-        self.below = defaultdict(list)
-        self.left = defaultdict(list)
-        self.right = defaultdict(list)
         self.lines_pairs = []
         self.has_rel_neighbour = defaultdict(lambda: defaultdict(list))
         self.rel_neighbours = {
@@ -50,9 +46,9 @@ class LineNeighbourHood:
 
     def get_rel_neighbour(self, line: pdm.PageXMLTextLine, rel: str):
         """`line`'s neighbours in direction `rel` (one of `'above'`/`'below'`/`'left'`/
-        `'right'`)."""
-        if line in self.has_rel_neighbour[line][rel]:
-            return self.has_rel_neighbour[line][rel]
+        `'right'`), or `None` if `line` has no neighbour in that direction."""
+        neighbours = [n for n in self.has_rel_neighbour[line][rel] if n is not None]
+        return neighbours if neighbours else None
 
     def left(self, line: pdm.PageXMLTextLine):
         """`line`'s left neighbour(s), if any."""
@@ -64,11 +60,11 @@ class LineNeighbourHood:
 
     def top(self, line: pdm.PageXMLTextLine):
         """`line`'s neighbour(s) above, if any."""
-        return self.get_rel_neighbour(line, 'top')
+        return self.get_rel_neighbour(line, 'above')
 
     def bottom(self, line: pdm.PageXMLTextLine):
         """`line`'s neighbour(s) below, if any."""
-        return self.get_rel_neighbour(line, 'bottom')
+        return self.get_rel_neighbour(line, 'below')
 
 
 def get_neighbouring_line_pairs(lines: List[pdm.PageXMLTextLine], max_vertical_dist: int = None,
