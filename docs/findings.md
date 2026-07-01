@@ -120,15 +120,30 @@ HDBSCAN finds 15 clusters from those 177 regions (33% noise), consistent with th
 structural whitespace contexts (full blank halves, top-of-page header areas, deed-separator
 strips of varying heights, etc.).
 
-**NL-AsnDA's blank-recto convention accounts for 19% empty pages; NL-HaNA's blanks are
-concentrated in the front matter (9%).** Across 20 scans (39 pages) of `NL-AsnDA_0114.11_1`,
-6 pages are entirely blank (15%), fitting the pattern where each deed's opening has one half
-left blank. Across 30 scans (~53 pages) of `NL-HaNA_2.10.50_1`, 5 pages are empty (9%),
-all in the front matter (cover, title page, flyleaves). This structural difference directly
-affects which sequence position has boundary significance: for the deeds, every other page
-opening boundary is an empty-page boundary; for the table register, empty pages only mark the
-transition from front matter to content. See the
+**NL-AsnDA's blank-recto convention accounts for 21% empty pages; NL-HaNA has 12 empty pages
+in 517, only visible as recurring section dividers when enough scans are loaded.** Across 300
+scans (599 pages) of `NL-AsnDA_0114.11_1`, 127 pages (21%) are entirely blank, with one
+blank recto half per two-page opening throughout. Across 300 scans (517 pages) of
+`NL-HaNA_2.10.50_1`, 12 pages (2%) are empty: 5 in the front matter and 7 recurring
+*section dividers* spread through the register. With only 30 scans these 7 interior empty
+pages are invisible (too few to sample the interior). At 300 scans the recurring pattern
+becomes clear: a blank verso half followed by a sparse-header recto (~12 lines), then a
+return to standard dense table pages. See the
 [boundary detection across pages](notebooks/boundary-across-pages-demo) demo notebook.
+
+**`GridPattern` degenerates on dense table registers; DINOv2 + transcript features recover
+the structure.** On `NL-HaNA_2.10.50_1`, `GridPattern` produces 84% noise (8 layout
+clusters from 505 pages, all tiny) because virtually every table page has the same dense
+grid. Combining DINOv2 CLS embeddings (PCA-50) with simple transcript features (normalised
+line count, region count, verso/recto indicator) at equal weight (0.5 / 0.5) reduces noise
+to 3% and gives a 4-cluster solution: cluster 0 (recto halves, 216 pages), cluster 1
+(single-page full scans, 77 pages), cluster 2 (section-boundary pages: 9 empty + 3 sparse
+headers, 12 pages), and cluster 3 (verso halves, 195 pages). Every one of the 12 empty pages
+is immediately followed by a cluster 0 page (12/12), confirming a clean and recurring
+section-boundary structure. DINOv2 groups the blank verso pages and the sparse section-header
+recto pages together in cluster 2 because both look visually similar (mostly blank); this is
+a feature rather than a bug -- it naturally identifies the full *boundary unit* (blank + header)
+as a single cluster.
 
 **Boundary-affinity analysis on NL-AsnDA surfaces 'Eerste blad' and deed-type labels as
 within-page structural markers.** With a 5% minimum-height filter (focusing on structural gaps
