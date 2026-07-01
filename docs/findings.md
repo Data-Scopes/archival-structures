@@ -159,6 +159,43 @@ adjacent to structural whitespace have no spatial overlap with their nearest nei
 *are* the boundary). See the
 [boundary detection within pages](notebooks/boundary-within-pages-demo) demo notebook.
 
+## Full-text page detection from text-extent margins
+
+**The full-text page fraction alone cannot separate all table registers from running-text books,
+but two line-uniformity features close the gap completely.** Across six inventories
+(`estimate_stable_margins` + `classify_corpus_text_extents` from
+{mod}`archival_structures.analysis.text_extent`, 10th-percentile stable margin, ±5% tolerance):
+
+| Inventory | Type | Full-text % | mean_width | equal_frac |
+|-----|-----|------|------|------|
+| NL-HaNA_1.01.02_11182  | running text (letters) | 97% | 0.280 | 0.392 |
+| NL-HaNA_1.01.02_11281  | running text (letters) | 98% | 0.275 | 0.401 |
+| NL-AsnDA_0114.11_1     | running text (deeds)   | 90% | 0.236 | 0.306 |
+| NL-HaNA_2.10.50_85     | table register         | 69% | 0.150 | 0.139 |
+| NL-HaNA_2.10.50_1      | table register         | 67% | 0.164 | 0.143 |
+| NL-HaNA_2.10.50_619    | table register         | 21% | 0.092 | 0.107 |
+
+The full-text fraction alone is not sufficient: the two densest table registers (_1, _85)
+reach 67-69%, overlapping with the notary deeds (90%).  Two additional features separate them
+completely with no overlap:
+
+* **`mean_width`** (mean relative line width): table-register pages have narrow lines
+  (0.09--0.16) because each PageXML line wraps a single table cell entry (a date, a name,
+  a number); running-text pages have wide lines (0.24--0.28) spanning the full column.
+
+* **`equal_frac`** (fraction of consecutive row-group pairs with Allen-``equal`` horizontal
+  extent, within 2% tolerance): table cells share a left-column boundary but have variable
+  right extents (depending on cell content), giving 0.10--0.14.  Running-text lines
+  consistently span the full column width from line to line, giving 0.31--0.40.
+
+**`early_end` pages are document-boundary markers in running-text inventories.** In the two
+letter-copy books (11182, 11281), nearly all non-full-text pages are `early_end` (22 and 18
+respectively, out of ~750--1100 non-empty pages) -- likely the last page of each letter where
+text ends before filling the column.  In the notary deeds (AsnDA), the 28 `early_end` pages
+similarly mark deed endings.
+
+See the [full-text page detection](notebooks/full-text-page-detection-demo) demo notebook.
+
 ## Sequence-pattern mining
 
 **`detect_cross_page_continuation`'s distance thresholds need to scale with the scan's actual

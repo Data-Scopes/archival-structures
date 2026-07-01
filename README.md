@@ -31,6 +31,11 @@ independent images -- so the analysis is built up in layers:
    - **Cross-page boundaries** (`archival_structures.analysis.boundary_detection`) -- detects
      blank or near-blank pages in the page sequence, and identifies which page-layout clusters
      systematically appear before or after them.
+   - **Text-extent margins** (`archival_structures.analysis.text_extent`) -- measures how far
+     from each page edge the first and last transcribed lines sit (relative top, bottom, left,
+     right margins); classifies each page as `full_text`, `late_start`, `early_end`, or `short`;
+     and characterises each inventory by its full-text page fraction -- a lightweight signal for
+     distinguishing running-text books from sparse table registers or mixed-document archives.
 3. **Line clustering** (`archival_structures.analysis.line_clustering`) -- cluster individual
    text lines by indentation/width/height into a vocabulary of recurring line types (body text,
    closing lines, marginalia, ...).
@@ -105,6 +110,10 @@ All in [`notebooks/demo/`](notebooks/demo/):
   which page-layout clusters appear near blank pages in the page sequence -- the across-page
   boundary markers; contrasts the table register's front-matter blanks against the notary deeds'
   regular blank-recto convention.
+- [`full-text-page-detection-demo.ipynb`](notebooks/demo/full-text-page-detection-demo.ipynb) --
+  detecting full-text pages from top/bottom text-extent margins; comparing six inventories
+  (three HaNA table registers, two HaNA letter-copy books, one notary-deeds book) by their
+  full-text page fraction, margin distribution, and line-width/equal-extent features.
 - [`pagexml-image-region-linking.ipynb`](notebooks/demo/pagexml-image-region-linking.ipynb) --
   drawing PageXML regions on a thumbnail, and converting a manually-drawn selection back into a
   new PageXML region.

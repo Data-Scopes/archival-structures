@@ -47,6 +47,20 @@ transcriptions as a structured corpus:
    [boundary detection across pages](notebooks/boundary-across-pages-demo) demo notebook, which
    contrasts the table register's front-matter blanks with the notary deeds' regular blank-recto
    convention.
+
+   {mod}`archival_structures.analysis.text_extent` measures the *vertical extent* of each page's
+   text using four relative margins (top, bottom, left, right).  `compute_corpus_text_extents`
+   builds a DataFrame of these margins for all non-empty pages; `estimate_stable_margins` finds
+   the typical minimum margin via a low percentile; and `classify_corpus_text_extents` labels
+   each page as `full_text`, `late_start`, `early_end`, or `short` depending on how far its
+   margins deviate from the stable reference.  This supports **Task 1** in the overall analysis
+   pipeline: detecting which pages in an inventory have a full column of running text, and
+   characterising each inventory by its *full-text page fraction* -- a signal that distinguishes
+   running-text books (high fraction) from sparse table registers or mixed-document books (low
+   fraction). See the
+   [full-text page detection](notebooks/full-text-page-detection-demo) demo notebook, which
+   compares six inventories: three HaNA table registers, two HaNA letter-copy books, and one
+   notary-deeds book.
 3. **Line clustering** ({mod}`archival_structures.analysis.line_clustering`, with a
    peak-detection alternative from {mod}`archival_structures.clustering.peaks`) -- cluster
    individual text lines by indentation/width/height into a vocabulary of recurring line types
@@ -100,6 +114,9 @@ clustering above.
    :members:
 
 .. automodule:: archival_structures.analysis.boundary_detection
+   :members:
+
+.. automodule:: archival_structures.analysis.text_extent
    :members:
 
 .. automodule:: archival_structures.analysis.line_clustering
