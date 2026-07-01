@@ -24,6 +24,13 @@ independent images -- so the analysis is built up in layers:
    (clustered by `relational_layout_clustering`), instead encodes each line's own type and its
    RCC-8 spatial relation to its immediate below/right neighbour -- relational line-neighbourhood
    patterns a pixel-pattern fingerprint can't represent.
+   - **Structural whitespace** (`archival_structures.analysis.empty_regions`) -- detects and
+     clusters significant whitespace regions within pages (computed geometrically, not from
+     PageXML region markup) and scores which relational patterns are over-represented adjacent
+     to those whitespace boundaries.
+   - **Cross-page boundaries** (`archival_structures.analysis.boundary_detection`) -- detects
+     blank or near-blank pages in the page sequence, and identifies which page-layout clusters
+     systematically appear before or after them.
 3. **Line clustering** (`archival_structures.analysis.line_clustering`) -- cluster individual
    text lines by indentation/width/height into a vocabulary of recurring line types (body text,
    closing lines, marginalia, ...).
@@ -88,6 +95,16 @@ All in [`notebooks/demo/`](notebooks/demo/):
 - [`relational-layout-clustering-table-vs-deeds-demo.ipynb`](notebooks/demo/relational-layout-clustering-table-vs-deeds-demo.ipynb)
   -- clustering pages by line-type-and-neighbour-relation fingerprint instead of raw geometry,
   compared against the geometric clustering above.
+- [`empty-region-clustering-demo.ipynb`](notebooks/demo/empty-region-clustering-demo.ipynb) --
+  detecting and clustering significant whitespace regions within pages; contrasting the tiny
+  inter-cell gaps in a table register against the structural blank areas in notary deed pages.
+- [`boundary-within-pages-demo.ipynb`](notebooks/demo/boundary-within-pages-demo.ipynb) --
+  which relational line-neighbourhood patterns (RCC-8 symbols) are over-represented immediately
+  adjacent to significant whitespace regions -- the within-page boundary markers.
+- [`boundary-across-pages-demo.ipynb`](notebooks/demo/boundary-across-pages-demo.ipynb) --
+  which page-layout clusters appear near blank pages in the page sequence -- the across-page
+  boundary markers; contrasts the table register's front-matter blanks against the notary deeds'
+  regular blank-recto convention.
 - [`pagexml-image-region-linking.ipynb`](notebooks/demo/pagexml-image-region-linking.ipynb) --
   drawing PageXML regions on a thumbnail, and converting a manually-drawn selection back into a
   new PageXML region.

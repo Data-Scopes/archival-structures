@@ -84,6 +84,66 @@ originally motivated by; and a *marginal-annotation-vs-body-text* pattern in the
 number-bearing body line). This is independent evidence the relational fingerprint is reading
 real document structure, not an artefact of TF-IDF on an arbitrary symbol vocabulary.
 
+## Structural whitespace and boundary detection
+
+**`make_empty_regions` is O(n²) in the number of PageXML text regions per page, but
+pre-grouping regions into vertical blocks reduces this to near-constant.**
+`pagexml.helper.spatial_helper.make_empty_regions` uses an iterative BFS/DFS carving algorithm:
+each candidate whitespace rectangle is split on the first overlapping text region, producing
+2-4 new candidates, until no text region overlaps remain. For `NL-AsnDA_0114.11_1` (notary deeds,
+0-6 text regions per page) the function completes in < 0.1 s per page. For `NL-HaNA_2.10.50_1`
+(table register, where every individual table cell is a separate `PageXMLTextRegion`),
+scan 0005 with 77 regions takes 1.1 s and scan 0006 with 218 regions takes up to 800 s
+(over 13 minutes) for a single page.
+{func}`~archival_structures.analysis.empty_regions.group_regions_into_blocks` resolves this:
+when a page has more than 20 text regions, `compute_page_empty_regions` first merges them into
+vertical blocks (sorted by top coordinate; a new block starts when the gap exceeds
+`0.7 × min_rel_height × page_height`). Scan 0006's 218 regions collapse to 2 blocks;
+`make_empty_regions` on those 2 blocks completes in < 0.001 s -- a 734,000× speedup.
+The key invariant: any vertical gap large enough to survive the minimum-size filter
+(`≥ min_rel_height × page_height`) is wider than the grouping threshold
+(`0.7 × min_rel_height × page_height`), so no significant gap is collapsed by the merge.
+Across 15 HaNA pages the grouped corpus extraction completes in 0.02 s (0.002 s/page),
+making full-corpus whitespace analysis practical even for densely-structured documents.
+
+**After minimum-size filtering (rel_h ≥ 3%, rel_w ≥ 5%), the table register has structural
+whitespace but not content-boundary signals.** With the grouping optimisation, `NL-HaNA_2.10.50_1`
+yields 93 significant empty regions across 15 pages (6.2 per page), located predominantly at
+`top` (34), `left` (27), `right` (16), and `bottom` (16). These correspond to consistent
+structural margins (header area, column gutters) rather than content-boundary indicators --
+the table's row structure does not produce mid-page gaps large enough to flag. In contrast,
+`NL-AsnDA_0114.11_1` produces 177 significant empty regions across 39 pages (4.5 per page)
+that reflect genuine document structure: predominantly `top`-located (73) and `bottom`-located
+(48) regions in pages with deed-separator gaps, and `left`-located (43) regions in the blank
+verso/recto halves that the notarial blank-recto convention creates (see next finding).
+HDBSCAN finds 15 clusters from those 177 regions (33% noise), consistent with the variety of
+structural whitespace contexts (full blank halves, top-of-page header areas, deed-separator
+strips of varying heights, etc.).
+
+**NL-AsnDA's blank-recto convention accounts for 19% empty pages; NL-HaNA's blanks are
+concentrated in the front matter (9%).** Across 20 scans (39 pages) of `NL-AsnDA_0114.11_1`,
+6 pages are entirely blank (15%), fitting the pattern where each deed's opening has one half
+left blank. Across 30 scans (~53 pages) of `NL-HaNA_2.10.50_1`, 5 pages are empty (9%),
+all in the front matter (cover, title page, flyleaves). This structural difference directly
+affects which sequence position has boundary significance: for the deeds, every other page
+opening boundary is an empty-page boundary; for the table register, empty pages only mark the
+transition from front matter to content. See the
+[boundary detection across pages](notebooks/boundary-across-pages-demo) demo notebook.
+
+**Boundary-affinity analysis on NL-AsnDA surfaces 'Eerste blad' and deed-type labels as
+within-page structural markers.** With a 5% minimum-height filter (focusing on structural gaps
+between deed blocks, not individual-line spacing), `find_boundary_adjacent_symbols` identifies
+127 boundary-adjacent relational symbols across 31 pages. The top-affinity symbols are
+`(cluster -1, right, DC, cluster 33)` (affinity = 3.0, meaning it appears at whitespace
+boundaries 3× more than in the corpus overall) and `(cluster 3, right, DC, cluster 8)` (affinity
+1.5). The adjacent lines whose text is most diagnostic include `'Eerste blad'` (Dutch: 'first
+page/leaf', a section label placed before a major boundary) and `'Trransport'` (OCR for
+'Transport', the deed-type label at the start of a new deed block). The `DC` (Disconnected)
+relation dominates high-affinity symbols, consistent with the intuition that lines immediately
+adjacent to structural whitespace have no spatial overlap with their nearest neighbours (they
+*are* the boundary). See the
+[boundary detection within pages](notebooks/boundary-within-pages-demo) demo notebook.
+
 ## Sequence-pattern mining
 
 **`detect_cross_page_continuation`'s distance thresholds need to scale with the scan's actual

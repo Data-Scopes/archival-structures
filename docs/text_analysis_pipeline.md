@@ -26,6 +26,27 @@ transcriptions as a structured corpus:
    demo notebook, which finds this fingerprint picks up structure the pixel-pattern one misses on
    a table register, but is noisier than the pixel-pattern fingerprint on a corpus (notary deeds)
    it already handles well -- a genuinely complementary view, not a strict improvement.
+
+   **Structural whitespace and boundary detection:**
+   {mod}`archival_structures.analysis.empty_regions` extends the analysis to the *absence* of
+   text. `compute_page_empty_regions` geometrically computes whitespace rectangles within each
+   page and filters them by minimum relative size; `cluster_empty_regions` groups them by shape
+   and position; `find_boundary_adjacent_symbols` connects them to the relational-pattern layer
+   by computing the RCC-8 symbols for lines immediately adjacent to each significant whitespace
+   region; and `boundary_symbol_scores` ranks symbols by how often they appear at these
+   boundaries relative to their corpus-wide frequency. See the
+   [empty region clustering](notebooks/empty-region-clustering-demo) and
+   [boundary detection within pages](notebooks/boundary-within-pages-demo) demo notebooks.
+
+   {mod}`archival_structures.analysis.boundary_detection` works at the page-sequence level:
+   `is_empty_page` detects blank or near-blank pages; `build_page_sequence` assembles the
+   ordered page sequence with cluster labels and empty-page flags; and
+   `empty_page_neighbor_clusters`/`empty_page_transitions` summarise which page-layout clusters
+   appear near empty pages -- answering "which layout cluster typically ends or begins a document
+   section?" See the
+   [boundary detection across pages](notebooks/boundary-across-pages-demo) demo notebook, which
+   contrasts the table register's front-matter blanks with the notary deeds' regular blank-recto
+   convention.
 3. **Line clustering** ({mod}`archival_structures.analysis.line_clustering`, with a
    peak-detection alternative from {mod}`archival_structures.clustering.peaks`) -- cluster
    individual text lines by indentation/width/height into a vocabulary of recurring line types
@@ -73,6 +94,12 @@ clustering above.
    :members:
 
 .. automodule:: archival_structures.analysis.relational_layout_clustering
+   :members:
+
+.. automodule:: archival_structures.analysis.empty_regions
+   :members:
+
+.. automodule:: archival_structures.analysis.boundary_detection
    :members:
 
 .. automodule:: archival_structures.analysis.line_clustering

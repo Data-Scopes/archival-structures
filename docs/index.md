@@ -59,6 +59,9 @@ notebooks/line-clustering-table-vs-deeds-demo
 notebooks/page-layout-clustering-demo
 notebooks/page-layout-clustering-table-vs-deeds-demo
 notebooks/relational-layout-clustering-table-vs-deeds-demo
+notebooks/empty-region-clustering-demo
+notebooks/boundary-within-pages-demo
+notebooks/boundary-across-pages-demo
 notebooks/sequence-patterns-demo
 notebooks/pagexml-image-region-linking
 notebooks/pagexml-image-multicolour-explorer
