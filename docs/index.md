@@ -45,6 +45,7 @@ datasets_and_annotation
 vocabulary
 ead_mets_parsing
 stream_analysis
+ground_truth_format
 findings
 ```
 

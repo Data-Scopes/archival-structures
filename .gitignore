@@ -213,6 +213,7 @@ archival_structures/stream_analysis/claude_doc_analysis.ipynb
 /resources/
 /scripts/*
 !/scripts/analyse_documents.py
+!/scripts/convert_resolution_metadata.py
 /notebooks/*
 !/notebooks/demo/
 /archival_structures/clustering/docs/
