@@ -70,4 +70,5 @@ notebooks/annotate-scans
 notebooks/bulk-tag-annotation-demo
 notebooks/stream-analysis-overview-demo
 notebooks/stream-analysis-groundtruth-demo
+notebooks/subsequence-detection-demo
 ```

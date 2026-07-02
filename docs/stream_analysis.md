@@ -37,6 +37,28 @@ names are coincidental.
 
 See the [overview demo](notebooks/stream-analysis-overview-demo) notebook for a full run.
 
+### Subsequence detection (`archival_structures.stream_analysis.overview.subsequence_detection`)
+
+Once DINOv2 embeddings have been extracted for a heterogeneous inventory, the
+adjacent cosine similarity between consecutive scans is a strong signal for
+visual transitions between document types.  This submodule provides:
+
+- `compute_adjacent_similarities` -- cosine similarity between each consecutive embedding pair.
+- `suggest_threshold` -- data-adaptive threshold (percentile of the similarity distribution).
+- `detect_boundaries_threshold` -- groups below-threshold positions and picks the local
+  minimum from each group as the precise boundary.
+- `detect_boundaries_changepoint` -- alternative using *ruptures* Pelt change-point detection
+  (optional dependency).
+- `score_all_segments` / `detect_book_like_subsequences` -- score each resulting segment for
+  visual homogeneity (`mean_similarity`, `min_similarity`, `first_last_similarity`) and
+  optionally for HDBSCAN cluster entropy and opening consistency; flags segments as
+  `is_book_like` when they exceed configurable thresholds.
+
+See the [subsequence detection demo](notebooks/subsequence-detection-demo) notebook for a
+worked example on `NL-AsdSAA_89_3.1` (1035 scans, mixed document types), which validates
+the detection against a known book-like run (scans 8–18) and identifies several other
+book-like candidates in the same inventory.
+
 ## Part 2: Ground truth (`archival_structures.stream_analysis.groundtruth`)
 
 Builds on Part 1's cached outputs:
@@ -88,6 +110,9 @@ rather not do in a notebook (e.g. on a remote machine).
    :members:
 
 .. automodule:: archival_structures.stream_analysis.overview.pipeline
+   :members:
+
+.. automodule:: archival_structures.stream_analysis.overview.subsequence_detection
    :members:
 
 .. automodule:: archival_structures.stream_analysis.groundtruth.stratified_sampling

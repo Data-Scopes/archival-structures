@@ -1,4 +1,14 @@
 from archival_structures.stream_analysis.config import AnalysisConfig
+from archival_structures.stream_analysis.overview.subsequence_detection import (
+    compute_adjacent_similarities,
+    suggest_threshold,
+    detect_boundaries_threshold,
+    detect_boundaries_changepoint,
+    boundaries_to_segments,
+    score_segment,
+    score_all_segments,
+    detect_book_like_subsequences,
+)
 from archival_structures.stream_analysis.overview.pipeline import (
     run_overview,
     cluster_inventories,
@@ -25,6 +35,14 @@ from archival_structures.stream_analysis.groundtruth.interactive_annotation impo
 
 __all__ = [
     "AnalysisConfig",
+    "compute_adjacent_similarities",
+    "suggest_threshold",
+    "detect_boundaries_threshold",
+    "detect_boundaries_changepoint",
+    "boundaries_to_segments",
+    "score_segment",
+    "score_all_segments",
+    "detect_book_like_subsequences",
     "run_overview",
     "cluster_inventories",
     "load_combined_inventories",

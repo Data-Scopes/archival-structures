@@ -68,6 +68,11 @@ Alongside the text-analysis pipeline:
   PageXML pipeline: embeddings + UMAP/HDBSCAN clustering, layout features, optional VLM tagging,
   and active-learning ground-truth creation for a plain directory of document images (no PageXML
   required) -- see [`docs/stream_analysis.md`](docs/stream_analysis.md).
+  - **Subsequence detection** (`archival_structures.stream_analysis.overview.subsequence_detection`)
+    -- detects visually homogeneous (book-like) subsequences within a heterogeneous scan sequence
+    using adjacent cosine similarity between DINOv2 embeddings; threshold-based and optional
+    change-point (ruptures) boundary detection; scores each segment by mean similarity, cluster
+    entropy, and optional opening consistency.
 - **EAD/METS parsing** (`archival_structures.parsers`) -- a separate concern from the
   PageXML/image pipeline: parsing the archival finding-aid metadata (series/subseries/file
   structure, page manifests) that describes an archive's holdings.
@@ -126,6 +131,10 @@ All in [`notebooks/demo/`](notebooks/demo/):
   and [`stream-analysis-groundtruth-demo.ipynb`](notebooks/demo/stream-analysis-groundtruth-demo.ipynb)
   -- embeddings + clustering, optional VLM tagging, and active-learning ground-truth creation
   for a plain directory of document images (no PageXML required).
+- [`subsequence-detection-demo.ipynb`](notebooks/demo/subsequence-detection-demo.ipynb) --
+  detecting book-like subsequences within a heterogeneous scan sequence (`NL-AsdSAA_89_3.1`)
+  using adjacent DINOv2 cosine similarity; validates against a known book run and identifies
+  additional candidates.
 
 ### Demo data
 
