@@ -37,6 +37,30 @@ names are coincidental.
 
 See the [overview demo](notebooks/stream-analysis-overview-demo) notebook for a full run.
 
+### Sequence pattern analysis (`archival_structures.stream_analysis.sequence_analysis`)
+
+Once pages or scans have been assigned to clusters -- by any method -- the *sequence* of
+cluster labels encodes the archive's structural rhythm.  This module provides label-agnostic
+tools:
+
+- `run_length_encode` / `merge_short_runs` -- group consecutive equal labels into runs;
+  absorb short isolated runs into their longer neighbours.
+- `ngram_counts` / `find_frequent_ngrams` -- find page-level cluster n-grams that repeat
+  above a frequency threshold.
+- `find_tandem_repeats` -- detect consecutive repetitions of a cluster sub-sequence (e.g.
+  the 2-gram ``(1, 0)`` repeated 12 times signals a regular two-page document unit).
+- `label_transition_matrix` -- which cluster typically follows which; useful for spotting
+  structural connectors vs. self-looping runs.
+- `coarsen_by_hierarchy` -- remap fine-grained HDBSCAN labels to coarser groups by
+  agglomerative clustering on cluster centroids; helps when many small visual clusters
+  encode the same structural page type.
+
+See the [cluster sequence analysis demo](notebooks/cluster-sequence-analysis-demo) notebook
+(NL-HaNA_2.10.50_1 and NL-AsnDA_0114.11_1) and the
+[resolution sequence demo](notebooks/resolution-cluster-sequence-demo) notebook
+(NL-HaNA_1.01.02 inventories 3771–3823) for worked examples with both visual (DINOv2)
+and layout (text-line geometry) cluster sequences.
+
 ### Subsequence detection (`archival_structures.stream_analysis.overview.subsequence_detection`)
 
 Once DINOv2 embeddings have been extracted for a heterogeneous inventory, the
@@ -110,6 +134,9 @@ rather not do in a notebook (e.g. on a remote machine).
    :members:
 
 .. automodule:: archival_structures.stream_analysis.overview.pipeline
+   :members:
+
+.. automodule:: archival_structures.stream_analysis.sequence_analysis
    :members:
 
 .. automodule:: archival_structures.stream_analysis.overview.subsequence_detection

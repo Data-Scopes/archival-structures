@@ -1,4 +1,13 @@
 from archival_structures.stream_analysis.config import AnalysisConfig
+from archival_structures.stream_analysis.sequence_analysis import (
+    run_length_encode,
+    merge_short_runs,
+    ngram_counts,
+    find_frequent_ngrams,
+    find_tandem_repeats,
+    label_transition_matrix,
+    coarsen_by_hierarchy,
+)
 from archival_structures.stream_analysis.overview.subsequence_detection import (
     compute_adjacent_similarities,
     suggest_threshold,
@@ -35,6 +44,13 @@ from archival_structures.stream_analysis.groundtruth.interactive_annotation impo
 
 __all__ = [
     "AnalysisConfig",
+    "run_length_encode",
+    "merge_short_runs",
+    "ngram_counts",
+    "find_frequent_ngrams",
+    "find_tandem_repeats",
+    "label_transition_matrix",
+    "coarsen_by_hierarchy",
     "compute_adjacent_similarities",
     "suggest_threshold",
     "detect_boundaries_threshold",

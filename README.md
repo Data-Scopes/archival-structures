@@ -68,6 +68,10 @@ Alongside the text-analysis pipeline:
   PageXML pipeline: embeddings + UMAP/HDBSCAN clustering, layout features, optional VLM tagging,
   and active-learning ground-truth creation for a plain directory of document images (no PageXML
   required) -- see [`docs/stream_analysis.md`](docs/stream_analysis.md).
+  - **Sequence pattern analysis** (`archival_structures.stream_analysis.sequence_analysis`)
+    -- label-agnostic tools for analysing ordered sequences of cluster labels (from visual
+    or layout clustering): run-length encoding and noise-run merging, cluster n-gram mining,
+    tandem repeat detection (recurring cluster sub-sequences), and transition matrices.
   - **Subsequence detection** (`archival_structures.stream_analysis.overview.subsequence_detection`)
     -- detects visually homogeneous (book-like) subsequences within a heterogeneous scan sequence
     using adjacent cosine similarity between DINOv2 embeddings; threshold-based and optional
@@ -135,6 +139,14 @@ All in [`notebooks/demo/`](notebooks/demo/):
   detecting book-like subsequences within a heterogeneous scan sequence (`NL-AsdSAA_89_3.1`)
   using adjacent DINOv2 cosine similarity; validates against a known book run and identifies
   additional candidates.
+- [`cluster-sequence-analysis-demo.ipynb`](notebooks/demo/cluster-sequence-analysis-demo.ipynb) --
+  sequence pattern analysis of cluster label sequences for `NL-HaNA_2.10.50_1` (visual and
+  layout clustering) and `NL-AsnDA_0114.11_1` (layout clustering); demonstrates
+  `run_length_encode`, `find_tandem_repeats`, `find_frequent_ngrams`, and `label_transition_matrix`.
+- [`resolution-cluster-sequence-demo.ipynb`](notebooks/demo/resolution-cluster-sequence-demo.ipynb) --
+  layout cluster sequence analysis for six resolution-book inventories from `NL-HaNA_1.01.02`
+  (3771–3823); discovers candidate section boundaries from cluster sequence patterns without
+  using the available ground-truth section metadata.
 
 ### Demo data
 
