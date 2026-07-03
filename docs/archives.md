@@ -36,7 +36,16 @@ Archive web page: https://www.nationaalarchief.nl/onderzoeken/archief/1.01.02
 
 EAD: https://nationaalarchief.nl/onderzoeken/archief/1.01.02/download/xml
 
-- A
+- I. Resoluties van de Staten-Generaal
+    - A De Ordinaris Resoluties.
+        - 6. De gedrukte resoluties van de Staten-Generaal
+            - 3760-3864 --- Gedrukte registers van de ordinaris resoluties
+                - 3771 1716 https://nationaalarchief.nl/onderzoeken/archief/1.01.02/invnr/@3771/file/NL-HaNA_1.01.02_3771_0001 (... scans, dates: 1716 - 1716)
+                - 3772 1717 https://nationaalarchief.nl/onderzoeken/archief/1.01.02/invnr/@3772/file/NL-HaNA_1.01.02_3772_0001 (... scans, dates: 1717 - 1717)
+                - 3773 1718 https://nationaalarchief.nl/onderzoeken/archief/1.01.02/invnr/@3773/file/NL-HaNA_1.01.02_3773_0001 (... scans, dates: 1718 - 1718)
+                - 3821 1766 https://nationaalarchief.nl/onderzoeken/archief/1.01.02/invnr/@3821/file/NL-HaNA_1.01.02_3821_0001 (... scans, dates: 1766 - 1766)
+                - 3822 1767 https://nationaalarchief.nl/onderzoeken/archief/1.01.02/invnr/@3822/file/NL-HaNA_1.01.02_3822_0001 (... scans, dates: 1767 - 1767)
+                - 3823 1768 https://nationaalarchief.nl/onderzoeken/archief/1.01.02/invnr/@3823/file/NL-HaNA_1.01.02_3823_0001 (... scans, dates: 1768 - 1768)
 
 The PageXML files have been created by the NWO-funded project REPBULIC (2019-2024) and are reused with permission. Ground truth information for boundary segmentation are derived from the corpus resolutions available in this Zenodo repository: https://zenodo.org/records/17301352.
 
