@@ -51,27 +51,39 @@ findings
 
 ```{toctree}
 :maxdepth: 1
-:caption: Demo notebooks
+:caption: Notebooks — page & scan analysis
 
-notebooks/inventory-structure-demo
-notebooks/opening-detection-demo
-notebooks/line-clustering-demo
-notebooks/line-clustering-table-vs-deeds-demo
-notebooks/page-layout-clustering-demo
-notebooks/page-layout-clustering-table-vs-deeds-demo
-notebooks/relational-layout-clustering-table-vs-deeds-demo
-notebooks/empty-region-clustering-demo
-notebooks/boundary-within-pages-demo
-notebooks/boundary-across-pages-demo
-notebooks/full-text-page-detection-demo
-notebooks/sequence-patterns-demo
-notebooks/pagexml-image-region-linking
-notebooks/pagexml-image-multicolour-explorer
-notebooks/annotate-scans
-notebooks/bulk-tag-annotation-demo
-notebooks/stream-analysis-overview-demo
-notebooks/stream-analysis-groundtruth-demo
-notebooks/subsequence-detection-demo
-notebooks/cluster-sequence-analysis-demo
-notebooks/resolution-cluster-sequence-demo
+notebooks/page-analysis/opening-detection-demo
+notebooks/page-analysis/full-text-page-detection-demo
+notebooks/page-analysis/empty-region-clustering-demo
+notebooks/page-analysis/boundary-within-pages-demo
+notebooks/page-analysis/line-clustering-demo
+notebooks/page-analysis/line-clustering-table-vs-deeds-demo
+notebooks/page-analysis/page-layout-clustering-demo
+notebooks/page-analysis/page-layout-clustering-table-vs-deeds-demo
+notebooks/page-analysis/relational-layout-clustering-table-vs-deeds-demo
+notebooks/page-analysis/pagexml-image-region-linking
+notebooks/page-analysis/pagexml-image-multicolour-explorer
+```
+
+```{toctree}
+:maxdepth: 1
+:caption: Notebooks — sequence & stream analysis
+
+notebooks/sequence-analysis/inventory-structure-demo
+notebooks/sequence-analysis/boundary-across-pages-demo
+notebooks/sequence-analysis/sequence-analysis-overview-demo
+notebooks/sequence-analysis/sequence-patterns-demo
+notebooks/sequence-analysis/subsequence-detection-demo
+notebooks/sequence-analysis/cluster-sequence-analysis-demo
+notebooks/sequence-analysis/resolution-cluster-sequence-demo
+```
+
+```{toctree}
+:maxdepth: 1
+:caption: Notebooks — annotation
+
+notebooks/annotation/annotate-scans
+notebooks/annotation/bulk-tag-annotation-demo
+notebooks/annotation/sequence-analysis-groundtruth-demo
 ```
