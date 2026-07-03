@@ -46,6 +46,7 @@ vocabulary
 ead_mets_parsing
 stream_analysis
 ground_truth_format
+archives
 findings
 ```
 
