@@ -38,6 +38,7 @@ the repository root (`unzip demo-data.zip -d .`) before running them.
 :maxdepth: 2
 :caption: Guides
 
+introduction
 text_analysis_pipeline
 colour_and_ink
 coordinate_bridging
