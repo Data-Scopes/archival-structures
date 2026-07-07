@@ -6,7 +6,7 @@ the thumbnail has yet another. {class}`archival_structures.model.image.Transform
 mapping between any two of these spaces; {class}`~archival_structures.model.image.ImageSelection`
 and {class}`~archival_structures.model.image.ImageCanvasSelection` compute the right `Transform`
 for a given scan+thumbnail(+canvas) combination so call sites never re-derive the scaling math
-themselves. See the [region-linking](notebooks/pagexml-image-region-linking) demo notebook for
+themselves. See the [region-linking](notebooks/page-analysis/pagexml-image-region-linking) demo notebook for
 both directions: drawing PageXML regions on a thumbnail, and converting a manually-drawn
 thumbnail selection back into scan-space coordinates to attach as a new PageXML region.
 
@@ -15,7 +15,7 @@ this package's own `Box` type. {mod}`archival_structures.image.image_base` build
 `ImageSelection`s and loads thumbnails. {mod}`archival_structures.image.image_drawing` and
 {mod}`archival_structures.image.image_annotation` are ipywidgets-based interactive
 tools for drawing/tagging directly on thumbnails in a notebook (see the
-[scan annotation](notebooks/annotate-scans) demo notebook, which builds the ground-truth
+[scan annotation](notebooks/annotation/annotate-scans) demo notebook, which builds the ground-truth
 annotation data described in [Datasets and annotation](datasets_and_annotation.md)).
 {mod}`archival_structures.image.image_processing` handles region extraction/clamping and
 thumbnail-file generation/layout. {mod}`archival_structures.image.crop_borders` is a standalone

@@ -55,7 +55,7 @@ region granularity that isn't guaranteed.
 {mod}`archival_structures.analysis.relational_layout_clustering`) is a genuinely complementary
 signal to {class}`~archival_structures.analysis.grid_analysis.GridPattern`, not a strict
 improvement.** Validated on both `NL-HaNA_2.10.50_1` and `NL-AsnDA_0114.11_1` (see the
-[relational layout clustering](notebooks/relational-layout-clustering-table-vs-deeds-demo) demo
+[relational layout clustering](notebooks/page-analysis/relational-layout-clustering-table-vs-deeds-demo) demo
 notebook): on the table register, where `GridPattern` finds almost no structure (81% noise), the
 relational fingerprint finds far more (7% noise) -- but its clusters don't track verso/recto
 symmetry at all (0/48 same-cluster pairs), consistent with that register's two opening-halves
@@ -129,7 +129,7 @@ blank recto half per two-page opening throughout. Across 300 scans (517 pages) o
 pages are invisible (too few to sample the interior). At 300 scans the recurring pattern
 becomes clear: a blank verso half followed by a sparse-header recto (~12 lines), then a
 return to standard dense table pages. See the
-[boundary detection across pages](notebooks/boundary-across-pages-demo) demo notebook.
+[boundary detection across pages](notebooks/sequence-analysis/boundary-across-pages-demo) demo notebook.
 
 **`GridPattern` degenerates on dense table registers; DINOv2 + transcript features recover
 the structure.** On `NL-HaNA_2.10.50_1`, `GridPattern` produces 84% noise (8 layout
@@ -157,7 +157,7 @@ page/leaf', a section label placed before a major boundary) and `'Trransport'` (
 relation dominates high-affinity symbols, consistent with the intuition that lines immediately
 adjacent to structural whitespace have no spatial overlap with their nearest neighbours (they
 *are* the boundary). See the
-[boundary detection within pages](notebooks/boundary-within-pages-demo) demo notebook.
+[boundary detection within pages](notebooks/page-analysis/boundary-within-pages-demo) demo notebook.
 
 ## Full-text page detection from text-extent margins
 
@@ -194,7 +194,7 @@ respectively, out of ~750--1100 non-empty pages) -- likely the last page of each
 text ends before filling the column.  In the notary deeds (AsnDA), the 28 `early_end` pages
 similarly mark deed endings.
 
-See the [full-text page detection](notebooks/full-text-page-detection-demo) demo notebook.
+See the [full-text page detection](notebooks/page-analysis/full-text-page-detection-demo) demo notebook.
 
 ## Sequence-pattern mining
 
@@ -262,7 +262,7 @@ red handwritten annotation) as the top-ranked candidate on the first 50-scan ran
 **Three different tools have produced ground-truth-shaped labels for the same scans, in three
 incompatible formats, two of them coincidentally sharing one file-path convention.**
 {class}`~archival_structures.datasets.annotations.ScanAnnotation` (used by the
-[scan annotation](notebooks/annotate-scans) notebook) keys by PageXML `scan_id` and writes to
+[scan annotation](notebooks/annotation/annotate-scans) notebook) keys by PageXML `scan_id` and writes to
 `annotations-<scan_id>.json`. {mod}`archival_structures.stream_analysis.groundtruth.interactive_annotation`
 (a bulk image tagger, see [Stream analysis](stream_analysis.md)) keys by thumbnail *path*
 instead and writes `{image_path: [label, ...]}` JSON elsewhere entirely. The
@@ -318,7 +318,7 @@ consumer should round-trip-tolerant for rather than assume exactness.
 just a swallowed `DeprecationWarning`) in favour of a single `overflow` property -- a
 fixed-height scrollable widget container built with the old property names looks fine in code
 but squishes/overlaps its children at render time instead of scrolling, since it never actually
-got scrolling behaviour. Fixed in the [scan annotation](notebooks/annotate-scans) notebook.
+got scrolling behaviour. Fixed in the [scan annotation](notebooks/annotation/annotate-scans) notebook.
 
 **A `requires-python` upper bound of `<4.0` is a problem when a dependency caps out much lower.**
 `torch`'s `triton` dependency only supports Python `<3.15`, but this project declared

@@ -11,7 +11,7 @@ elements (task 4). Labels are plain JSON, one file per scan (or per inventory nu
 elements), referencing PageXML ids rather than re-encoding coordinates where possible, so they
 stay valid however the underlying scan/thumbnail files are organised on disk.
 
-The [scan annotation](notebooks/annotate-scans) demo notebook is an ipywidgets-based app
+The [scan annotation](notebooks/annotation/annotate-scans) demo notebook is an ipywidgets-based app
 (built on {mod}`archival_structures.image.image_drawing`) for producing this ground truth
 interactively. **Note:** the notebook currently still targets the pre-vocabulary schema
 (a single free-text `page_layout` string and one label per line) and needs updating to the
@@ -27,7 +27,7 @@ them into this module's `ScanAnnotation` ground truth -- see
 a paginated, checkbox-selectable grid (like the bulk image tagger above, but writing structured
 tags straight into `ScanAnnotation` rather than free text into an intermediate format) for
 tagging many scans at once by cluster -- see the
-[bulk-tag annotation](notebooks/bulk-tag-annotation-demo) demo notebook. It has no dependency on
+[bulk-tag annotation](notebooks/annotation/bulk-tag-annotation-demo) demo notebook. It has no dependency on
 any particular clustering pipeline, just a plain list of image paths (e.g. one cluster's members
 from {func}`~archival_structures.analysis.page_layout_clustering.cluster_page_layouts`, as the
 demo notebook uses, or from an external pipeline).

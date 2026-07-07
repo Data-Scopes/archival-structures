@@ -15,13 +15,13 @@ package, covering three related problems:
   writer or stage of an administrative process), using the standard deviation of LAB chroma
   among ink pixels -- not the number of multiotsu luminosity classes, which turned out not to
   discriminate (see [Findings](findings.md)). The
-  [multi-colour explorer](notebooks/pagexml-image-multicolour-explorer) demo notebook screens a
+  [multi-colour explorer](notebooks/page-analysis/pagexml-image-multicolour-explorer) demo notebook screens a
   sample of scans and lets you inspect the top candidates.
 - **Missing-transcription detection**: {func}`~archival_structures.clustering.colour_clustering.find_missing_text_candidates`
   flags a PageXML scan's untranscribed `empty_regions` whose pixels look like genuine ink rather
   than blank paper, comparing each candidate against the page's own background ink-fraction
   baseline. Also demonstrated in the
-  [multi-colour explorer](notebooks/pagexml-image-multicolour-explorer) notebook.
+  [multi-colour explorer](notebooks/page-analysis/pagexml-image-multicolour-explorer) notebook.
 
 ## Related/superseded modules
 

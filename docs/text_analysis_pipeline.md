@@ -6,12 +6,12 @@ transcriptions as a structured corpus:
 1. **Opening detection and splitting** ({mod}`archival_structures.analysis.opening_detection`) --
    decide whether a scan is a two-page spread, split it into independent verso/recto pages, and
    classify a whole inventory number as a *book of openings* versus a *mixed* folder/booklet.
-   See the [opening detection](notebooks/opening-detection-demo) and
-   [inventory structure](notebooks/inventory-structure-demo) demo notebooks.
+   See the [opening detection](notebooks/page-analysis/opening-detection-demo) and
+   [inventory structure](notebooks/sequence-analysis/inventory-structure-demo) demo notebooks.
 2. **Page-layout clustering** ({mod}`archival_structures.analysis.page_layout_clustering`,
    built on {mod}`archival_structures.analysis.grid_analysis`) -- cluster whole pages by the
    spatial arrangement of their text lines, via a grid-pattern TF-IDF fingerprint. See the
-   [page-layout clustering](notebooks/page-layout-clustering-demo) demo notebook.
+   [page-layout clustering](notebooks/page-analysis/page-layout-clustering-demo) demo notebook.
 
    A complementary fingerprint, {mod}`archival_structures.analysis.relational_patterns`
    (clustered by {mod}`archival_structures.analysis.relational_layout_clustering`), encodes line
@@ -22,7 +22,7 @@ transcriptions as a structured corpus:
    than raw pixel geometry. The neighbourhood distance threshold is derived empirically per
    corpus (`relational_patterns.derive_max_vertical_dist`) from the corpus's own adjacent-line
    gap distribution. See the
-   [relational layout clustering](notebooks/relational-layout-clustering-table-vs-deeds-demo)
+   [relational layout clustering](notebooks/page-analysis/relational-layout-clustering-table-vs-deeds-demo)
    demo notebook, which finds this fingerprint picks up structure the pixel-pattern one misses on
    a table register, but is noisier than the pixel-pattern fingerprint on a corpus (notary deeds)
    it already handles well -- a genuinely complementary view, not a strict improvement.
@@ -35,8 +35,8 @@ transcriptions as a structured corpus:
    by computing the RCC-8 symbols for lines immediately adjacent to each significant whitespace
    region; and `boundary_symbol_scores` ranks symbols by how often they appear at these
    boundaries relative to their corpus-wide frequency. See the
-   [empty region clustering](notebooks/empty-region-clustering-demo) and
-   [boundary detection within pages](notebooks/boundary-within-pages-demo) demo notebooks.
+   [empty region clustering](notebooks/page-analysis/empty-region-clustering-demo) and
+   [boundary detection within pages](notebooks/page-analysis/boundary-within-pages-demo) demo notebooks.
 
    {mod}`archival_structures.analysis.boundary_detection` works at the page-sequence level:
    `is_empty_page` detects blank or near-blank pages; `build_page_sequence` assembles the
@@ -44,7 +44,7 @@ transcriptions as a structured corpus:
    `empty_page_neighbor_clusters`/`empty_page_transitions` summarise which page-layout clusters
    appear near empty pages -- answering "which layout cluster typically ends or begins a document
    section?" See the
-   [boundary detection across pages](notebooks/boundary-across-pages-demo) demo notebook, which
+   [boundary detection across pages](notebooks/sequence-analysis/boundary-across-pages-demo) demo notebook, which
    contrasts the table register's front-matter blanks with the notary deeds' regular blank-recto
    convention.
 
@@ -58,20 +58,20 @@ transcriptions as a structured corpus:
    characterising each inventory by its *full-text page fraction* -- a signal that distinguishes
    running-text books (high fraction) from sparse table registers or mixed-document books (low
    fraction). See the
-   [full-text page detection](notebooks/full-text-page-detection-demo) demo notebook, which
+   [full-text page detection](notebooks/page-analysis/full-text-page-detection-demo) demo notebook, which
    compares six inventories: three HaNA table registers, two HaNA letter-copy books, and one
    notary-deeds book.
 3. **Line clustering** ({mod}`archival_structures.analysis.line_clustering`, with a
    peak-detection alternative from {mod}`archival_structures.clustering.peaks`) -- cluster
    individual text lines by indentation/width/height into a vocabulary of recurring line types
    (body text, closing lines, marginalia, ...). See the
-   [line clustering](notebooks/line-clustering-demo) demo notebook.
+   [line clustering](notebooks/page-analysis/line-clustering-demo) demo notebook.
 4. **Sequence-pattern mining** ({mod}`archival_structures.analysis.sequence_patterns`, using
    {mod}`archival_structures.analysis.region_calculus` and
    {mod}`archival_structures.analysis.allen_interval` for spatial relations) -- order lines into
    a corpus-wide reading sequence and segment it into document elements, including elements that
    span a page break. See the
-   [sequence-pattern mining](notebooks/sequence-patterns-demo) demo notebook, which compares the
+   [sequence-pattern mining](notebooks/sequence-analysis/sequence-patterns-demo) demo notebook, which compares the
    table register against the notary deeds: the deeds show genuine cross-page continuations of
    legal boilerplate, the table's rows don't.
 
@@ -81,8 +81,8 @@ scans conflates the left and right page's geometry into one coordinate frame. Se
 
 Two notebooks compare how task 2 and task 3's clusters behave differently across two structurally
 different kinds of inventory -- a table-like register versus notary deeds:
-[line clustering](notebooks/line-clustering-table-vs-deeds-demo) and
-[page-layout clustering](notebooks/page-layout-clustering-table-vs-deeds-demo).
+[line clustering](notebooks/page-analysis/line-clustering-table-vs-deeds-demo) and
+[page-layout clustering](notebooks/page-analysis/page-layout-clustering-table-vs-deeds-demo).
 
 ## Supporting modules
 
