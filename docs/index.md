@@ -88,4 +88,5 @@ notebooks/sequence-analysis/resolution-cluster-sequence-demo
 notebooks/annotation/annotate-scans
 notebooks/annotation/bulk-tag-annotation-demo
 notebooks/annotation/sequence-analysis-groundtruth-demo
+notebooks/annotation/cluster-neighbourhood-exploration-demo
 ```

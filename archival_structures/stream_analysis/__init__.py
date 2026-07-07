@@ -31,6 +31,14 @@ from archival_structures.stream_analysis.overview.clustering import (
     load_cluster_hierarchy,
     cluster_label_map,
 )
+from archival_structures.stream_analysis.overview.cluster_neighbourhood import (
+    get_cluster_tree_maps,
+    nearest_cluster_branches,
+    cluster_centroids,
+    rank_by_centroid_distance,
+    describe_cluster_neighbourhood,
+    format_cluster_neighbourhood,
+)
 from archival_structures.stream_analysis.groundtruth.pipeline import (
     run_export,
     run_active_learning,
@@ -68,6 +76,12 @@ __all__ = [
     "save_cluster_hierarchy",
     "load_cluster_hierarchy",
     "cluster_label_map",
+    "get_cluster_tree_maps",
+    "nearest_cluster_branches",
+    "cluster_centroids",
+    "rank_by_centroid_distance",
+    "describe_cluster_neighbourhood",
+    "format_cluster_neighbourhood",
     "run_export",
     "run_active_learning",
     "annotate_image_grid",

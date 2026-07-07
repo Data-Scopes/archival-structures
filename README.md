@@ -127,6 +127,13 @@ pattern analysis can then run on the visual cluster labels rather than layout la
 access to the same sequence-level insights from images alone.
 `archival_structures.stream_analysis`
 
+**Cluster neighbourhood exploration** — a single document type is often split across several
+HDBSCAN clusters. Walk the HDBSCAN condensed tree from a query cluster to find the nearest
+sibling cluster(s) or branch by merge distance, ranking same-branch clusters by centroid
+distance when the tree alone can't tell them apart -- so a bulk-tagging session can extend past
+one cluster into its neighbourhood before stopping.
+`archival_structures.stream_analysis.overview.cluster_neighbourhood`
+
 **Subsequence detection** — detects visually homogeneous (book-like) sub-runs within a
 heterogeneous scan sequence using adjacent cosine similarity between DINOv2 embeddings; useful
 for identifying bound volumes within a mixed folder archive.
@@ -221,6 +228,10 @@ Organised into three groups under [`notebooks/demo/`](notebooks/demo/):
 - [`bulk-tag-annotation-demo.ipynb`](notebooks/demo/annotation/bulk-tag-annotation-demo.ipynb) --
   tagging many scans at once by cluster, with a structured namespace/type/subtype tag builder
   instead of free text.
+- [`cluster-neighbourhood-exploration-demo.ipynb`](notebooks/demo/annotation/cluster-neighbourhood-exploration-demo.ipynb) --
+  walking the HDBSCAN condensed tree from a query cluster to find nearby clusters/branches
+  containing the same document type, on `NL-HaNA_2.10.50_1` (scan level) and
+  `NL-AsnDA_0114.11_1` (page level, deliberately fragmented into 17 clusters).
 
 ### Demo data
 

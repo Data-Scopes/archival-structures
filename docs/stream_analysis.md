@@ -35,7 +35,24 @@ names are coincidental.
 5. **Visualisations** ({mod}`~archival_structures.stream_analysis.overview.visualization`) --
    UMAP scatter plot, per-cluster image grids, layout feature distributions, VLM tag summaries.
 
-See the [overview demo](notebooks/stream-analysis-overview-demo) notebook for a full run.
+See the [overview demo](notebooks/sequence-analysis/sequence-analysis-overview-demo) notebook for a full run.
+
+### Cluster neighbourhood exploration (`archival_structures.stream_analysis.overview.cluster_neighbourhood`)
+
+A single document type is often split across several HDBSCAN clusters rather than landing
+cleanly in one -- especially when its pages vary in density in the embedding space. Rather than
+an ad hoc distance in the raw feature space, {func}`~archival_structures.stream_analysis.nearest_cluster_branches`
+walks the HDBSCAN condensed tree from a query cluster and reports the nearest sibling branch(es)
+by tree distance, together with how many currently-reported clusters fall inside each branch. A
+branch is often a single cluster, but can be a whole subtree containing several clusters that
+split apart again *after* separating from the query -- the tree alone can't tell those apart, so
+{func}`~archival_structures.stream_analysis.rank_by_centroid_distance` (bundled by
+{func}`~archival_structures.stream_analysis.describe_cluster_neighbourhood`) breaks the tie
+using Euclidean centroid distance in embedding space.
+
+See the [cluster neighbourhood exploration demo](notebooks/annotation/cluster-neighbourhood-exploration-demo)
+notebook (`NL-HaNA_2.10.50_1` and a deliberately fragmented `NL-AsnDA_0114.11_1` clustering) for a
+worked example that extends a bulk-annotation session from one cluster into its neighbourhood.
 
 ### Sequence pattern analysis (`archival_structures.stream_analysis.sequence_analysis`)
 
@@ -55,9 +72,9 @@ tools:
   agglomerative clustering on cluster centroids; helps when many small visual clusters
   encode the same structural page type.
 
-See the [cluster sequence analysis demo](notebooks/cluster-sequence-analysis-demo) notebook
+See the [cluster sequence analysis demo](notebooks/sequence-analysis/cluster-sequence-analysis-demo) notebook
 (NL-HaNA_2.10.50_1 and NL-AsnDA_0114.11_1) and the
-[resolution sequence demo](notebooks/resolution-cluster-sequence-demo) notebook
+[resolution sequence demo](notebooks/sequence-analysis/resolution-cluster-sequence-demo) notebook
 (NL-HaNA_1.01.02 inventories 3771–3823) for worked examples with both visual (DINOv2)
 and layout (text-line geometry) cluster sequences.
 
@@ -78,7 +95,7 @@ visual transitions between document types.  This submodule provides:
   optionally for HDBSCAN cluster entropy and opening consistency; flags segments as
   `is_book_like` when they exceed configurable thresholds.
 
-See the [subsequence detection demo](notebooks/subsequence-detection-demo) notebook for a
+See the [subsequence detection demo](notebooks/sequence-analysis/subsequence-detection-demo) notebook for a
 worked example on `NL-AsdSAA_89_3.1` (1035 scans, mixed document types), which validates
 the detection against a known book-like run (scans 8–18) and identifies several other
 book-like candidates in the same inventory.
@@ -105,7 +122,7 @@ Builds on Part 1's cached outputs:
   {mod}`archival_structures.datasets.bulk_tagging`, which this module doesn't depend on, by
   design -- it takes a plain list of image paths regardless of where they came from.)
 
-See the [ground truth demo](notebooks/stream-analysis-groundtruth-demo) notebook -- note that
+See the [ground truth demo](notebooks/annotation/sequence-analysis-groundtruth-demo) notebook -- note that
 its active-learning step needs real manual annotation in Label Studio first, so it reports what's
 missing rather than failing if you run it without having annotated anything yet.
 
@@ -125,6 +142,9 @@ rather not do in a notebook (e.g. on a remote machine).
    :members:
 
 .. automodule:: archival_structures.stream_analysis.overview.clustering
+   :members:
+
+.. automodule:: archival_structures.stream_analysis.overview.cluster_neighbourhood
    :members:
 
 .. automodule:: archival_structures.stream_analysis.overview.vlm_tagging
