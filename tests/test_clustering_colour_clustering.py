@@ -125,6 +125,25 @@ class TestExtractInkPixels(TestCase):
         # the sticker block must not be classified as ink
         self.assertFalse(ink_mask[15:25, 15:25].any())
 
+    def test_ink_mask_unions_two_distinct_ink_colours(self):
+        """extract_ink_pixels should keep every ink-like luminosity class, not just the single
+        best one -- two differently-coloured inks that both fragment into many small components
+        should both end up in the mask, unlike the single-class find_ink_luminosity_class."""
+        h, w = 100, 100
+        l_channel = make_luminosity_grid(h, w, paper_l=90.0)
+        scatter_small_dark_pixels(l_channel, (2, 48), (2, 98), step=3, value=15.0)
+        scatter_small_dark_pixels(l_channel, (52, 98), (2, 98), step=3, value=50.0)
+
+        image_lab = np.zeros((h, w, 3))
+        image_lab[:, :, 0] = l_channel
+        textline_mask = np.ones((h, w), dtype=bool)
+
+        ink_mask = extract_ink_pixels(image_lab, textline_mask, n_classes=3)
+
+        self.assertTrue(ink_mask[2:48, 2:98:3].any())
+        self.assertTrue(ink_mask[52:98, 2:98:3].any())
+        self.assertTrue(np.all(np.isin(l_channel[ink_mask], [15.0, 50.0])))
+
 
 class TestMapBgRatio(TestCase):
 
@@ -189,3 +208,46 @@ class TestFindMissingTextCandidates(TestCase):
             self.image_lab, self.scan, textline_mask=self.textline_mask, bg_mask=self.bg_mask,
             n_classes=2)
         self.assertEqual([], candidates)
+
+
+class TestFindMissingTextCandidatesMultiClass(TestCase):
+    """A missed-transcription region in a colour that isn't the page's single dominant ink
+    class should still be flagged, as long as it matches *some* ink-like luminosity class
+    fit on the confirmed text lines."""
+
+    def setUp(self) -> None:
+        self.h, self.w = 100, 100
+        self.l_channel = make_luminosity_grid(self.h, self.w, paper_l=90.0)
+
+        # confirmed text-line area (rows 0-39): two distinct ink colours scattered together
+        self.textline_mask = np.zeros((self.h, self.w), dtype=bool)
+        self.textline_mask[0:40, :] = True
+        scatter_small_dark_pixels(self.l_channel, (2, 18), (2, 38), step=3, value=15.0)
+        scatter_small_dark_pixels(self.l_channel, (22, 38), (2, 38), step=3, value=50.0)
+
+        # empty region: only the secondary (less common) ink colour -- should still be flagged
+        scatter_small_dark_pixels(self.l_channel, (42, 68), (2, 98), step=3, value=50.0)
+
+        self.image_lab = np.zeros((self.h, self.w, 3))
+        self.image_lab[:, :, 0] = self.l_channel
+
+        self.scan = pdm.PageXMLScan(doc_id='s1',
+                                    coords=pdm.Coords.coords_from_box_params(0, 0, self.w, self.h))
+        self.er_secondary_ink = pdm.PageXMLRegion(
+            doc_id='er_secondary_ink', doc_type='empty_region',
+            coords=pdm.Coords.coords_from_box_params(0, 40, self.w, 30))
+        self.er_blank = pdm.PageXMLRegion(
+            doc_id='er_blank', doc_type='empty_region',
+            coords=pdm.Coords.coords_from_box_params(0, 70, self.w, 30))
+        self.scan.empty_regions = [self.er_secondary_ink, self.er_blank]
+        self.bg_mask = np.zeros((self.h, self.w), dtype=bool)
+        self.bg_mask[40:100, :] = True
+
+    def test_flags_region_matching_secondary_ink_class(self):
+        candidates = find_missing_text_candidates(
+            self.image_lab, self.scan, textline_mask=self.textline_mask, bg_mask=self.bg_mask,
+            n_classes=3)
+
+        flagged_ids = {c["region_id"] for c in candidates}
+        self.assertIn("er_secondary_ink", flagged_ids)
+        self.assertNotIn("er_blank", flagged_ids)

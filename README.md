@@ -139,10 +139,12 @@ heterogeneous scan sequence using adjacent cosine similarity between DINOv2 embe
 for identifying bound volumes within a mixed folder archive.
 `archival_structures.stream_analysis.subsequence_detection`
 
-**Ink colour, multi-colour text, and missing transcriptions** — robust ink/paper separation,
-screening pages for more than one ink colour, and flagging page regions that look like genuine
-ink but carry no transcription.
-`archival_structures.clustering.colour_clustering`
+**Ink colour, multi-colour text, and missing transcriptions** — robust ink/paper separation via
+multiotsu thresholding plus connected-component shape, screening pages for more than one ink
+colour, and flagging page regions that look like genuine ink but carry no transcription. The
+same technique works from PageXML text-line masks or directly from a whole image with no
+transcription at all — the latter feeds the content-density features in `extract_layout_features`.
+`archival_structures.clustering.ink_luminosity`, `archival_structures.clustering.colour_clustering`
 
 **Ground-truth annotation** — a structured tag vocabulary and ipywidgets notebook apps for
 labelling scans one at a time or one cluster at a time; and a YAML-based ground truth format for

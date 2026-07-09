@@ -4,7 +4,7 @@ Layout feature extraction that works at thumbnail resolution.
 Because OCR/HTR is unreliable at low resolution, we extract structural
 and statistical features instead:
 
-  - Ink density       : fraction of dark pixels (overall content density)
+  - Ink density       : fraction of ink-like pixels (overall content density)
   - Text density      : count of small connected components per area
                         (text = many small blobs; photos = few large ones)
   - Estimated lines   : peaks in the horizontal projection profile
@@ -18,6 +18,27 @@ and statistical features instead:
 
 All features are scale-invariant or explicitly normalised, so they are
 comparable across images of different thumbnail sizes.
+
+Ink pixels are found with the same multiotsu + connected-component-shape technique as
+`archival_structures.clustering.ink_luminosity` (originally built for PageXML text-line
+masks): fit multiotsu luminosity thresholds and keep whichever class(es) fragment into many
+small components -- the signature of genuine ink, as opposed to a large uniform region of
+paper, a glued-on sheet, or a scan border. Nothing in that technique is PageXML-specific --
+`pixel_mask` is just a boolean array -- so here it is applied to the *whole image*, since no
+transcription is available to restrict the fit to. Every ink-like class is unioned into the
+ink mask (not just the single best one), so pages with genuinely multi-coloured text are not
+under-counted -- `n_ink_luminosity_classes` and `ink_chroma_spread` surface that directly as
+features. This replaces an earlier single-threshold (adaptive Gaussian) binarisation, which
+had no way to tell ink apart from a uniform bright/dark artefact by shape.
+
+`_INK_N_CLASSES`/`_INK_MIN_DENSITY` were validated against `NL-AsdSAA_89_3.1` (heterogeneous
+document types, layouts, and -- often within a single scan -- multiple ink colours) and
+`NL-HaNA_2.10.50_1` (stable ink colour but variable paper tone, including scans with a
+lighter sheet glued on top): the density threshold used for PageXML text-line masks (0.15)
+turned out too strict for a whole-image mask at typical thumbnail resolution, where ink
+components alias into fewer, larger blobs than on a mask already restricted to text pixels;
+0.02 cleanly separated ink-like classes (which sat at 0.03-0.28 across both corpora) from
+paper/border classes (which sat at 0.000-0.005) without ever falling back to an empty mask.
 """
 
 import json
@@ -26,11 +47,17 @@ from pathlib import Path
 
 import cv2
 import numpy as np
+from skimage.color import rgb2lab
 from tqdm import tqdm
 
+from archival_structures.clustering.ink_luminosity import classify_by_luminosity, find_ink_like_classes
 from archival_structures.stream_analysis.utils.image_loader import collect_image_paths
 
 logger = logging.getLogger(__name__)
+
+# See the module docstring for how these were chosen.
+_INK_N_CLASSES = 4
+_INK_MIN_DENSITY = 0.02
 
 
 # ---------------------------------------------------------------------------
@@ -68,15 +95,35 @@ def extract_layout_features(img_array: np.ndarray) -> dict:
     # --- Aspect ratio & size --------------------------------------------------
     aspect_ratio = round(w / h, 4)
 
-    # --- Binarisation ---------------------------------------------------------
-    # Adaptive threshold handles uneven lighting (common in scans)
-    block = max(11, (min(h, w) // 10) | 1)   # must be odd
-    binary = cv2.adaptiveThreshold(
-        gray, 255,
-        cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
-        cv2.THRESH_BINARY_INV,
-        block, 4
-    )
+    # --- Ink detection (multiotsu + connected-component shape) ---------------
+    # See the module docstring for why this replaced single-threshold binarisation.
+    if is_color_input:
+        image_lab = rgb2lab(img_array.astype(np.float32) / 255.0)
+    else:
+        image_lab = rgb2lab(np.stack([img_array] * 3, axis=-1).astype(np.float32) / 255.0)
+    l_channel = image_lab[:, :, 0]
+    whole_image_mask = np.ones((h, w), dtype=bool)
+
+    fit = find_ink_like_classes(l_channel, whole_image_mask, n_classes=_INK_N_CLASSES,
+                                min_small_component_density=_INK_MIN_DENSITY)
+    ink_mask = np.zeros((h, w), dtype=bool)
+    n_ink_luminosity_classes = 0
+    ink_chroma_spread = 0.0
+    if fit is not None:
+        thresholds, ink_like_scores = fit
+        n_ink_luminosity_classes = len(ink_like_scores)
+        if ink_like_scores:
+            ink_class_ids = {s["class_id"] for s in ink_like_scores}
+            class_ids = classify_by_luminosity(l_channel, whole_image_mask, thresholds)
+            ink_mask[whole_image_mask] = np.isin(class_ids, list(ink_class_ids))
+            # Chroma spread among ink pixels: different ink colours (not just anti-aliasing
+            # shades of one ink) separate in the LAB a/b plane -- see
+            # archival_structures.clustering.ink_luminosity.score_multi_colour_text.
+            a_std = float(image_lab[:, :, 1][ink_mask].std())
+            b_std = float(image_lab[:, :, 2][ink_mask].std())
+            ink_chroma_spread = float(np.hypot(a_std, b_std))
+
+    binary = (ink_mask.astype(np.uint8)) * 255
 
     # --- Ink density ----------------------------------------------------------
     ink_density = float(binary.sum() / (h * w * 255))
@@ -172,6 +219,8 @@ def extract_layout_features(img_array: np.ndarray) -> dict:
         "text_density": text_density,          # text-like components per 1k px
         "text_component_count": text_component_count,
         "large_component_count": large_component_count,
+        "n_ink_luminosity_classes": n_ink_luminosity_classes,
+        "ink_chroma_spread": round(ink_chroma_spread, 4),
         # Text layout
         "estimated_line_count": estimated_line_count,
         "line_coverage": line_coverage,        # 0–1: fraction of rows with content
@@ -239,6 +288,7 @@ def layout_features_to_matrix(
     numeric_keys = [
         "aspect_ratio", "is_grayscale", "mean_brightness", "colourfulness",
         "ink_density", "text_density", "text_component_count", "large_component_count",
+        "n_ink_luminosity_classes", "ink_chroma_spread",
         "estimated_line_count", "line_coverage", "num_column_blocks",
         "has_ruled_lines", "has_vertical_lines", "has_table_structure",
         "local_variance_norm",
