@@ -257,6 +257,35 @@ binary ink/paper split
 shading alone doesn't. Found a genuine, visually-confirmed multi-colour example (black type +
 red handwritten annotation) as the top-ranked candidate on the first 50-scan random sample.
 
+## Ink density from images alone (no PageXML)
+
+**The multiotsu ink-like density threshold needs to be an order of magnitude lower for a
+whole-image mask than for a PageXML text-line mask.** The value validated for text-line masks
+(0.15, see the multi-colour text detection finding above) left
+{func}`~archival_structures.stream_analysis.overview.layout_analysis.extract_layout_features`
+finding *zero* ink-like classes on 10 of 15 sampled `NL-HaNA_2.10.50_1` thumbnails when applied
+to a whole-image mask instead. The mechanism: a whole-image mask is dominated by background/paper
+pixels far more than a mask already restricted to confirmed text, and at typical thumbnail
+resolution individual ink strokes alias into fewer, larger connected components relative to the
+class's own pixel count -- so the same many-small-components signature structurally reads lower
+even for genuine ink, not because the ink itself is less "ink-like". Validated on
+`NL-AsdSAA_89_3.1` (heterogeneous document types/layouts, often multiple ink colours per scan)
+and `NL-HaNA_2.10.50_1` (stable ink colour, variable paper tone including scans with a lighter
+sheet glued on top): across both corpora, genuine ink-like classes sat at 0.03-0.28 density,
+paper/border classes at 0.000-0.005 -- a threshold of 0.02 cleanly separates them without ever
+falling back to an empty mask on either corpus.
+
+**Pure-image multi-colour-text screening (no PageXML) agrees with PageXML-anchored screening,
+but only moderately.** Screening the same 50-scan random sample of `NL-AsdSAA_89_3.1` both ways
+-- {func}`~archival_structures.clustering.colour_clustering.score_multi_colour_text` on a
+PageXML text-line mask vs. `extract_layout_features`'s `ink_chroma_spread` on the whole image --
+gives Spearman ≈0.65 between the two `ink_chroma_spread` rankings, with 8 of the top 15
+candidates shared between them. Useful as a triage signal when no transcription is available at
+all, but not a substitute for the PageXML-anchored version when a transcription exists: restricting
+the fit to confirmed text pixels gives it a cleaner signal, undiluted by background/paper pixels.
+See the [multi-colour explorer](notebooks/page-analysis/pagexml-image-multicolour-explorer) demo
+notebook's pure-image comparison section.
+
 ## Reconciling annotation formats
 
 **Three different tools have produced ground-truth-shaped labels for the same scans, in three
