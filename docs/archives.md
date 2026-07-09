@@ -2,10 +2,10 @@
 
 For the demonstration notebooks, we use the following archival series and inventories:
 
-### Stadsarchief Amsterdam:
+## Stadsarchief Amsterdam:
 
 
-#### 89 Archief van de Vereeniging Tentoonstelling De Vrouw
+### 89 Archief van de Vereeniging Tentoonstelling De Vrouw
 
 Archive web page: https://archief.amsterdam/inventarissen/details/89
 
@@ -28,9 +28,9 @@ EAD: https://archief.amsterdam/archives/xml/89.ead.xml
 
 The scans and PageXML were created by Stadsarchief Amsterdam and are used in the demonstrations with permission.
 
-### National Archief
+## National Archief
 
-#### 1.01.02 Inventaris van het archief van de Staten-Generaal, (1431) 1576-1796
+### 1.01.02 Inventaris van het archief van de Staten-Generaal, (1431) 1576-1796
 
 Archive web page: https://www.nationaalarchief.nl/onderzoeken/archief/1.01.02
 
@@ -52,7 +52,7 @@ The PageXML files have been created by the NWO-funded project REPBULIC (2019-202
 Image thumbnails were downloaded using the OAI-PMH service (https://service.archief.nl/gaf/oai/!open_oai.OAIHandler) of the National Archives. For explanation and example usage, see: https://nationaalarchief.nl/onderzoeken/open-data/archiefinventarissen-digitale-objecten-en-scans-van-archieven.
 
 
-#### 1.05.06 Inventaris van de Collectie Verspreide West-Indische stukken, 1614-1875
+### 1.05.06 Inventaris van de Collectie Verspreide West-Indische stukken, 1614-1875
 
 Archive web page: https://www.nationaalarchief.nl/onderzoeken/archief/1.05.06
 
@@ -74,7 +74,7 @@ The PageXML files have been created by the National Archives of the Netherlands 
 
 Image thumbnails were downloaded using the OAI-PMH service (https://service.archief.nl/gaf/oai/!open_oai.OAIHandler) of the National Archives. For explanation and example usage, see: https://nationaalarchief.nl/onderzoeken/open-data/archiefinventarissen-digitale-objecten-en-scans-van-archieven.
 
-#### 2.10.50 Inventaris van het archief van het Ministerie van Koloniën: stamboeken en pensioenregisters van het leger in Oost-Indië (KNIL) en van de troepenmacht in West-Indië, 1815-1951 (1954)
+### 2.10.50 Inventaris van het archief van het Ministerie van Koloniën: stamboeken en pensioenregisters van het leger in Oost-Indië (KNIL) en van de troepenmacht in West-Indië, 1815-1951 (1954)
 
 Archive web page: https://www.nationaalarchief.nl/onderzoeken/archief/2.10.50
 
@@ -92,9 +92,9 @@ The PageXML files have been created by the National Archives of the Netherlands 
 Image thumbnails were downloaded using the OAI-PMH service (https://service.archief.nl/gaf/oai/!open_oai.OAIHandler) of the National Archives. For explanation and example usage, see: https://nationaalarchief.nl/onderzoeken/open-data/archiefinventarissen-digitale-objecten-en-scans-van-archieven.
 
 
-### Drents Archief
+## Drents Archief
 
-#### 114 Inleiding Notarissen Drenthe
+### 114 Inleiding Notarissen Drenthe
 
 Archive web page: https://www.drentsarchief.nl/onderzoeken/archiefstukken?mivast=34&mizig=210&miadt=34&micode=0114&miview=inv2#inv3t1
 
