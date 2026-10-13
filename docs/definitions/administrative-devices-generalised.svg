@@ -1,0 +1,85 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="arrowBlue2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2c5f7c"/>
+    </marker>
+    <marker id="arrowGrey2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b6558"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="700" fill="#fbf9f4"/>
+
+  <text x="500" y="36" font-size="22" font-weight="bold" fill="#3a3a34" text-anchor="middle">Internal Structure of a Structured Register</text>
+  <text x="500" y="58" font-size="13.5" fill="#6a6a60" text-anchor="middle" font-style="italic">the recurring pattern behind a resolutions book, a notarial protocol, or any serial administrative volume</text>
+
+  <!-- LEFT: volume-level structure -->
+  <text x="190" y="94" font-size="15" font-weight="bold" fill="#1d3f52" text-anchor="middle">THE VOLUME</text>
+
+  <rect x="70" y="110" width="240" height="56" rx="8" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="190" y="134" font-size="14" text-anchor="middle" fill="#1d3f52" font-weight="bold">Front matter</text>
+  <text x="190" y="152" font-size="11.5" text-anchor="middle" fill="#274a5c">title page, dedication</text>
+
+  <rect x="70" y="196" width="240" height="56" rx="8" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="190" y="220" font-size="14" text-anchor="middle" fill="#1d3f52" font-weight="bold">Index</text>
+  <text x="190" y="238" font-size="11.5" text-anchor="middle" fill="#274a5c">internal finding aid, own pagination</text>
+
+  <rect x="70" y="282" width="240" height="76" rx="8" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="2.2"/>
+  <text x="190" y="308" font-size="14" text-anchor="middle" fill="#1d3f52" font-weight="bold">Main sequence</text>
+  <text x="190" y="326" font-size="11.5" text-anchor="middle" fill="#274a5c">repeating dated units,</text>
+  <text x="190" y="342" font-size="11.5" text-anchor="middle" fill="#274a5c">one after another</text>
+
+  <line x1="190" y1="166" x2="190" y2="194" stroke="#2c5f7c" stroke-width="2" marker-end="url(#arrowBlue2)"/>
+  <line x1="190" y1="252" x2="190" y2="280" stroke="#2c5f7c" stroke-width="2" marker-end="url(#arrowBlue2)"/>
+
+  <!-- bracket / zoom connector to right panel -->
+  <path d="M 310 320 C 380 320, 380 320, 420 320" fill="none" stroke="#6b6558" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrowGrey2)"/>
+  <text x="365" y="308" font-size="11" fill="#6a6a60" text-anchor="middle" font-style="italic">one unit,</text>
+  <text x="365" y="336" font-size="11" fill="#6a6a60" text-anchor="middle" font-style="italic">expanded</text>
+
+  <!-- RIGHT: one unit of the main sequence -->
+  <rect x="430" y="90" width="500" height="420" rx="10" fill="#ecf3ec" stroke="#3a6b4a" stroke-width="1.5"/>
+  <text x="680" y="116" font-size="15" font-weight="bold" fill="#254a30" text-anchor="middle">ONE UNIT OF THE MAIN SEQUENCE</text>
+
+  <rect x="455" y="134" width="450" height="50" rx="7" fill="#eaf2f6" stroke="#2c5fd6" stroke-width="2"/>
+  <text x="680" y="155" font-size="13.5" text-anchor="middle" fill="#1d3f52" font-weight="bold">Opening / dateline</text>
+  <text x="680" y="172" font-size="11" text-anchor="middle" fill="#274a5c">the unit's own place in a chronological (or numerical) sequence</text>
+
+  <rect x="455" y="196" width="450" height="50" rx="7" fill="#f4efe3" stroke="#8a6d3b" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="680" y="217" font-size="13.5" text-anchor="middle" fill="#5c481f" font-weight="bold">Attendance / presence list</text>
+  <text x="680" y="234" font-size="11" text-anchor="middle" fill="#6b5228">optional — present only for some unit types</text>
+
+  <rect x="455" y="258" width="450" height="46" rx="7" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.8"/>
+  <text x="680" y="277" font-size="13" text-anchor="middle" fill="#5c1f1f" font-weight="bold">Entry 1</text>
+  <text x="680" y="293" font-size="10.5" text-anchor="middle" fill="#6b2828">a resolution, a deed, a letter — one document each</text>
+
+  <rect x="455" y="312" width="450" height="34" rx="7" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.8"/>
+  <text x="680" y="333" font-size="13" text-anchor="middle" fill="#5c1f1f" font-weight="bold">Entry 2</text>
+
+  <rect x="455" y="354" width="450" height="34" rx="7" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.8"/>
+  <text x="680" y="375" font-size="13" text-anchor="middle" fill="#5c1f1f" font-weight="bold">Entry …</text>
+
+  <line x1="680" y1="184" x2="680" y2="194" stroke="#6b6558" stroke-width="1.6"/>
+  <line x1="680" y1="246" x2="680" y2="256" stroke="#6b6558" stroke-width="1.6"/>
+  <line x1="680" y1="304" x2="680" y2="310" stroke="#6b6558" stroke-width="1.6"/>
+  <line x1="680" y1="346" x2="680" y2="352" stroke="#6b6558" stroke-width="1.6"/>
+
+  <text x="680" y="405" font-size="11" fill="#3a6b4a" text-anchor="middle" font-style="italic">next unit follows immediately below — the pattern repeats for the length of the volume</text>
+
+  <!-- examples strip -->
+  <rect x="70" y="415" width="240" height="180" rx="8" fill="#fdf6ea" stroke="#c0733a" stroke-width="1.5"/>
+  <text x="190" y="440" font-size="13.5" font-weight="bold" fill="#8a4a1f" text-anchor="middle">Same pattern, different fillings</text>
+  <text x="90" y="463" font-size="11.5" fill="#4a4438">Resolutions book: unit = day's</text>
+  <text x="90" y="479" font-size="11.5" fill="#4a4438">session, entries = resolutions</text>
+  <text x="90" y="503" font-size="11.5" fill="#4a4438">Notarial protocol: unit = act,</text>
+  <text x="90" y="519" font-size="11.5" fill="#4a4438">entries = clauses/parties</text>
+  <text x="90" y="543" font-size="11.5" fill="#4a4438">Correspondence register:</text>
+  <text x="90" y="559" font-size="11.5" fill="#4a4438">unit = date received,</text>
+  <text x="90" y="575" font-size="11.5" fill="#4a4438">entries = individual letters</text>
+
+  <!-- bottom note box -->
+  <rect x="30" y="615" width="940" height="70" rx="8" fill="#fdf6ea" stroke="#c0733a" stroke-width="1.5"/>
+  <text x="50" y="638" font-size="13.5" font-weight="bold" fill="#8a4a1f">Why this generalises</text>
+  <text x="50" y="658" font-size="12" fill="#4a4438">The index is a retrieval device keyed independently of the volume's own order (glossary §3); the dateline restores a chronological</text>
+  <text x="50" y="674" font-size="12" fill="#4a4438">ordering principle (§3); each entry is a "Document" (§2) nested inside the volume's own container hierarchy (§1).</text>
+</svg>

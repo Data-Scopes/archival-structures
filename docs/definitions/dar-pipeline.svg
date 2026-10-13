@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1200 620" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="arrowGrey3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b6558"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="620" fill="#fbf9f4"/>
+
+  <text x="600" y="36" font-size="23" font-weight="bold" fill="#3a3a34" text-anchor="middle">The Document Analysis and Recognition (DAR) Pipeline</text>
+  <text x="600" y="58" font-size="13.5" fill="#6a6a60" text-anchor="middle" font-style="italic">from a page image to a machine-readable logical structure</text>
+
+  <!-- 5 stage boxes -->
+  <!-- Stage 1 -->
+  <rect x="20" y="100" width="205" height="180" rx="10" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="122" y="126" font-size="14.5" font-weight="bold" fill="#1d3f52" text-anchor="middle">1. Page image</text>
+  <text x="38" y="152" font-size="11.5" fill="#274a5c">A scanned or</text>
+  <text x="38" y="168" font-size="11.5" fill="#274a5c">photographed page --</text>
+  <text x="38" y="184" font-size="11.5" fill="#274a5c">pixels only, no</text>
+  <text x="38" y="200" font-size="11.5" fill="#274a5c">structure yet.</text>
+
+  <!-- Stage 2 -->
+  <rect x="245" y="100" width="235" height="180" rx="10" fill="#eef0e4" stroke="#7a7a3b" stroke-width="1.5"/>
+  <text x="362" y="126" font-size="14.5" font-weight="bold" fill="#4a4a1f" text-anchor="middle">2. Physical layout analysis</text>
+  <text x="263" y="150" font-size="11" fill="#565628">Segment into zones on</text>
+  <text x="263" y="165" font-size="11" fill="#565628">visual evidence alone --</text>
+  <text x="263" y="180" font-size="11" fill="#565628">whitespace, connected</text>
+  <text x="263" y="195" font-size="11" fill="#565628">components, pixel density.</text>
+  <text x="263" y="220" font-size="10" fill="#8a6d1f" font-style="italic">top-down: recursive X-Y cut</text>
+  <text x="263" y="235" font-size="10" fill="#8a6d1f" font-style="italic">bottom-up: docstrum</text>
+
+  <!-- Stage 3 -->
+  <rect x="500" y="100" width="215" height="180" rx="10" fill="#ecf3ec" stroke="#3a6b4a" stroke-width="1.5"/>
+  <text x="607" y="126" font-size="14.5" font-weight="bold" fill="#254a30" text-anchor="middle">3. Zone classification</text>
+  <text x="518" y="152" font-size="11.5" fill="#2c5535">Label each zone by</text>
+  <text x="518" y="168" font-size="11.5" fill="#2c5535">content type: text,</text>
+  <text x="518" y="184" font-size="11.5" fill="#2c5535">image, table, separator,</text>
+  <text x="518" y="200" font-size="11.5" fill="#2c5535">noise.</text>
+
+  <!-- Stage 4 -->
+  <rect x="735" y="100" width="225" height="180" rx="10" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.5"/>
+  <text x="847" y="126" font-size="14.5" font-weight="bold" fill="#5c1f1f" text-anchor="middle">4. Logical layout analysis</text>
+  <text x="753" y="150" font-size="11" fill="#6b2828">Assign each zone a</text>
+  <text x="753" y="165" font-size="11" fill="#6b2828">semantic role (title, body,</text>
+  <text x="753" y="180" font-size="11" fill="#6b2828">footnote, marginal note)</text>
+  <text x="753" y="195" font-size="11" fill="#6b2828">and a reading order.</text>
+
+  <!-- Stage 5 -->
+  <rect x="980" y="100" width="200" height="180" rx="10" fill="#f4efe3" stroke="#8a6d3b" stroke-width="1.5"/>
+  <text x="1080" y="126" font-size="14.5" font-weight="bold" fill="#5c481f" text-anchor="middle">5. Document structure</text>
+  <text x="998" y="150" font-size="11" fill="#6b5228">Zones nested into</text>
+  <text x="998" y="165" font-size="11" fill="#6b5228">sections and documents;</text>
+  <text x="998" y="180" font-size="11" fill="#6b5228">recorded in a ground-truth</text>
+  <text x="998" y="195" font-size="11" fill="#6b5228">format (PAGE, ALTO).</text>
+
+  <!-- arrows -->
+  <line x1="225" y1="190" x2="243" y2="190" stroke="#6b6558" stroke-width="2.5" marker-end="url(#arrowGrey3)"/>
+  <line x1="480" y1="190" x2="498" y2="190" stroke="#6b6558" stroke-width="2.5" marker-end="url(#arrowGrey3)"/>
+  <line x1="715" y1="190" x2="733" y2="190" stroke="#6b6558" stroke-width="2.5" marker-end="url(#arrowGrey3)"/>
+  <line x1="960" y1="190" x2="978" y2="190" stroke="#6b6558" stroke-width="2.5" marker-end="url(#arrowGrey3)"/>
+
+  <!-- mapping back to glossary sections -->
+  <rect x="20" y="320" width="1160" height="140" rx="8" fill="#fdf6ea" stroke="#c0733a" stroke-width="1.5"/>
+  <text x="40" y="345" font-size="14" font-weight="bold" fill="#8a4a1f">Same distinction, DAR's own vocabulary</text>
+  <text x="40" y="368" font-size="12.5" fill="#4a4438">Physical layout analysis (2) operationalises Mise-en-page (glossary &#167;1) and the "layout" half of Logical structure vs.</text>
+  <text x="40" y="386" font-size="12.5" fill="#4a4438">Layout structure (&#167;2) as an algorithm. Logical layout analysis (4) operationalises that same pair's "logical" half, plus</text>
+  <text x="40" y="404" font-size="12.5" fill="#4a4438">Reading order (&#167;2). Document structure (5) is the Container hierarchy (&#167;2) made explicit -- the same nesting an EAD or</text>
+  <text x="40" y="422" font-size="12.5" fill="#4a4438">METS finding aid (&#167;4) records from the outside, here produced from the inside, out of pixels.</text>
+  <text x="40" y="446" font-size="11.5" fill="#8a6d1f" font-style="italic">Historical Document Analysis (HDA) is this pipeline applied where every stage's assumptions get stress-tested: non-standard layouts, degraded supports, historical scripts.</text>
+
+  <!-- bottom core claim -->
+  <rect x="20" y="480" width="1160" height="120" rx="8" fill="#fdf6ea" stroke="#c0733a" stroke-width="1.5"/>
+  <text x="40" y="505" font-size="14" font-weight="bold" fill="#8a4a1f">The core claim</text>
+  <text x="40" y="528" font-size="12.5" fill="#4a4438">Stage 2 already commits to a segmentation before stage 4 knows what any zone means -- a wrong cut at stage 2</text>
+  <text x="40" y="546" font-size="12.5" fill="#4a4438">(a table row read as running text; a marginal gloss merged into the body) cannot be fixed downstream by better</text>
+  <text x="40" y="564" font-size="12.5" fill="#4a4438">semantic labelling. This is exactly why the thumbnail-scale boxes drawn on this project's own real examples follow</text>
+  <text x="40" y="582" font-size="12.5" fill="#4a4438">the physical structure so closely: physical layout analysis is where the pipeline's information bottleneck sits.</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg viewBox="0 0 1000 760" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="1000" height="760" fill="#fbf9f4"/>
+
+  <text x="500" y="38" font-size="24" font-weight="bold" fill="#3a3a34" text-anchor="middle">Devices Creators Use to Organise &amp; Aid Retrieval</text>
+  <text x="500" y="60" font-size="14" fill="#6a6a60" text-anchor="middle" font-style="italic">grouped by the function they perform</text>
+
+  <!-- 4 function quadrants -->
+  <!-- Quadrant 1: Orientation on the page -->
+  <rect x="40" y="90" width="440" height="230" rx="10" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="60" y="118" font-size="16" font-weight="bold" fill="#1d3f52">Orientation on the page</text>
+  <text x="60" y="146" font-size="13.5" fill="#274a5c">• Running head / running title — repeated</text>
+  <text x="76" y="164" font-size="13.5" fill="#274a5c">  header naming chapter/section</text>
+  <text x="60" y="188" font-size="13.5" fill="#274a5c">• Rubrication — coloured/highlighted</text>
+  <text x="76" y="206" font-size="13.5" fill="#274a5c">  headings signalling structure</text>
+  <text x="60" y="230" font-size="13.5" fill="#274a5c">• Marginalia / gloss — notes in the</text>
+  <text x="76" y="248" font-size="13.5" fill="#274a5c">  margin, authorial or later reader's</text>
+  <text x="60" y="272" font-size="13.5" fill="#274a5c">• Mise-en-page — column grid, ruling,</text>
+  <text x="76" y="290" font-size="13.5" fill="#274a5c">  margins guiding the eye</text>
+
+  <!-- Quadrant 2: Location & citation -->
+  <rect x="520" y="90" width="440" height="230" rx="10" fill="#ecf3ec" stroke="#3a6b4a" stroke-width="1.5"/>
+  <text x="540" y="118" font-size="16" font-weight="bold" fill="#254a30">Location &amp; citation</text>
+  <text x="540" y="146" font-size="13.5" fill="#2c5535">• Foliation / pagination — sequential</text>
+  <text x="556" y="164" font-size="13.5" fill="#2c5535">  numbering enabling precise reference</text>
+  <text x="540" y="188" font-size="13.5" fill="#2c5535">• Signature marks — letters/numbers</text>
+  <text x="556" y="206" font-size="13.5" fill="#2c5535">  marking quire order</text>
+  <text x="540" y="230" font-size="13.5" fill="#2c5535">• Catchwords — first word of next page</text>
+  <text x="556" y="248" font-size="13.5" fill="#2c5535">  printed at the foot of the current one</text>
+  <text x="540" y="272" font-size="13.5" fill="#2c5535">• Tab / thumb index — physical cut-in</text>
+  <text x="556" y="290" font-size="13.5" fill="#2c5535">  tabs for direct section access</text>
+
+  <!-- Quadrant 3: Cross-document navigation -->
+  <rect x="40" y="340" width="440" height="230" rx="10" fill="#f4efe3" stroke="#8a6d3b" stroke-width="1.5"/>
+  <text x="60" y="368" font-size="16" font-weight="bold" fill="#5c481f">Cross-document navigation</text>
+  <text x="60" y="396" font-size="13.5" fill="#6b5228">• Table of contents — structural map</text>
+  <text x="76" y="414" font-size="13.5" fill="#6b5228">  in reading (sequential) order</text>
+  <text x="60" y="438" font-size="13.5" fill="#6b5228">• Index — access by an independent</text>
+  <text x="76" y="456" font-size="13.5" fill="#6b5228">  key (subject/name), not document order</text>
+  <text x="60" y="480" font-size="13.5" fill="#6b5228">• Cross-reference ("see also") — explicit</text>
+  <text x="76" y="498" font-size="13.5" fill="#6b5228">  pointer to a related location elsewhere</text>
+  <text x="60" y="522" font-size="13.5" fill="#6b5228">• Apparatus criticus — links between</text>
+  <text x="76" y="540" font-size="13.5" fill="#6b5228">  variant readings/versions of a text</text>
+
+  <!-- Quadrant 4: Provenance & production -->
+  <rect x="520" y="340" width="440" height="230" rx="10" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.5"/>
+  <text x="540" y="368" font-size="16" font-weight="bold" fill="#5c1f1f">Provenance &amp; production</text>
+  <text x="540" y="396" font-size="13.5" fill="#6b2828">• Colophon — scribe, date, place stated</text>
+  <text x="556" y="414" font-size="13.5" fill="#6b2828">  at the end of the work</text>
+  <text x="540" y="438" font-size="13.5" fill="#6b2828">• Incipit / explicit — opening/closing</text>
+  <text x="556" y="456" font-size="13.5" fill="#6b2828">  words used as identifiers pre-title-page</text>
+  <text x="540" y="480" font-size="13.5" fill="#6b2828">• Watermark — support identifying mark</text>
+  <text x="556" y="498" font-size="13.5" fill="#6b2828">  used for dating/provenance</text>
+  <text x="540" y="522" font-size="13.5" fill="#6b2828">• Paratext (Genette) — umbrella term for</text>
+  <text x="556" y="540" font-size="13.5" fill="#6b2828">  all of the above, "around" the text</text>
+
+  <!-- Ordering principles strip -->
+  <rect x="40" y="600" width="920" height="130" rx="10" fill="#fdf6ea" stroke="#c0733a" stroke-width="1.5"/>
+  <text x="60" y="628" font-size="16" font-weight="bold" fill="#8a4a1f">Ordering principles — the sort key any of the devices above can use</text>
+
+  <g font-size="13" fill="#5c481f">
+    <rect x="60" y="646" width="130" height="34" rx="16" fill="#fceedb" stroke="#c0733a"/>
+    <text x="125" y="668" text-anchor="middle">Alphabetical</text>
+
+    <rect x="205" y="646" width="130" height="34" rx="16" fill="#fceedb" stroke="#c0733a"/>
+    <text x="270" y="668" text-anchor="middle">Chronological</text>
+
+    <rect x="350" y="646" width="120" height="34" rx="16" fill="#fceedb" stroke="#c0733a"/>
+    <text x="410" y="668" text-anchor="middle">Numerical</text>
+
+    <rect x="485" y="646" width="140" height="34" rx="16" fill="#fceedb" stroke="#c0733a"/>
+    <text x="555" y="668" text-anchor="middle">Geographical</text>
+
+    <rect x="640" y="646" width="180" height="34" rx="16" fill="#fceedb" stroke="#c0733a"/>
+    <text x="730" y="668" text-anchor="middle">Systematic / topical</text>
+
+    <rect x="835" y="646" width="145" height="34" rx="16" fill="#fceedb" stroke="#c0733a"/>
+    <text x="907" y="668" text-anchor="middle" font-size="12">Hierarchical / importance</text>
+  </g>
+  <text x="60" y="702" font-size="13" fill="#4a4438">e.g. an index can be alphabetical; a chronicle is chronological; a filing series can be numerical</text>
+  <text x="60" y="720" font-size="13" fill="#4a4438">or geographical; a table of contents is usually hierarchical/by importance rather than alphabetical.</text>
+</svg>

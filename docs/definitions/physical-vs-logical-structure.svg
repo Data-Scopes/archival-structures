@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1000 780" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2c5f7c"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3a6b4a"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="780" fill="#fbf9f4"/>
+
+  <!-- Titles -->
+  <text x="240" y="40" font-size="24" font-weight="bold" fill="#2c5f7c" text-anchor="middle">PHYSICAL STRUCTURE</text>
+  <text x="240" y="62" font-size="14" fill="#5a5a52" text-anchor="middle" font-style="italic">the container / carrier</text>
+
+  <text x="760" y="40" font-size="24" font-weight="bold" fill="#3a6b4a" text-anchor="middle">LOGICAL STRUCTURE</text>
+  <text x="760" y="62" font-size="14" fill="#5a5a52" text-anchor="middle" font-style="italic">the meaning / content</text>
+
+  <!-- vertical divider -->
+  <line x1="500" y1="20" x2="500" y2="740" stroke="#d8d2c2" stroke-width="2" stroke-dasharray="2,6"/>
+
+  <!-- PHYSICAL COLUMN boxes -->
+  <!-- Archive -->
+  <rect x="120" y="90" width="240" height="46" rx="6" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="240" y="118" font-size="17" text-anchor="middle" fill="#1d3f52">Archive</text>
+
+  <!-- Box -->
+  <rect x="120" y="180" width="240" height="46" rx="6" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="240" y="208" font-size="17" text-anchor="middle" fill="#1d3f52">Box</text>
+
+  <!-- Folder -->
+  <rect x="120" y="270" width="240" height="46" rx="6" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="240" y="298" font-size="17" text-anchor="middle" fill="#1d3f52">Folder</text>
+
+  <!-- Item / Book -->
+  <rect x="120" y="360" width="240" height="46" rx="6" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="240" y="388" font-size="17" text-anchor="middle" fill="#1d3f52">Item / Book / Volume</text>
+
+  <!-- Page -->
+  <rect x="120" y="450" width="240" height="46" rx="6" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="240" y="478" font-size="17" text-anchor="middle" fill="#1d3f52">Page (recto/verso)</text>
+
+  <!-- Column -->
+  <rect x="120" y="540" width="240" height="46" rx="6" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="240" y="568" font-size="17" text-anchor="middle" fill="#1d3f52">Column / Line</text>
+
+  <!-- arrows physical -->
+  <line x1="240" y1="136" x2="240" y2="178" stroke="#2c5f7c" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="240" y1="226" x2="240" y2="268" stroke="#2c5f7c" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="240" y1="316" x2="240" y2="358" stroke="#2c5f7c" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="240" y1="406" x2="240" y2="448" stroke="#2c5f7c" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="240" y1="496" x2="240" y2="538" stroke="#2c5f7c" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- LOGICAL COLUMN boxes -->
+  <rect x="640" y="90" width="240" height="46" rx="6" fill="#ecf3ec" stroke="#3a6b4a" stroke-width="1.5"/>
+  <text x="760" y="118" font-size="17" text-anchor="middle" fill="#254a30">Collection</text>
+
+  <rect x="640" y="180" width="240" height="46" rx="6" fill="#ecf3ec" stroke="#3a6b4a" stroke-width="1.5"/>
+  <text x="760" y="208" font-size="17" text-anchor="middle" fill="#254a30">Document</text>
+
+  <rect x="640" y="270" width="240" height="46" rx="6" fill="#ecf3ec" stroke="#3a6b4a" stroke-width="1.5"/>
+  <text x="760" y="298" font-size="17" text-anchor="middle" fill="#254a30">Section / Chapter</text>
+
+  <rect x="640" y="360" width="240" height="46" rx="6" fill="#ecf3ec" stroke="#3a6b4a" stroke-width="1.5"/>
+  <text x="760" y="388" font-size="17" text-anchor="middle" fill="#254a30">Paragraph</text>
+
+  <!-- siblings: list/table/figure -->
+  <rect x="600" y="450" width="110" height="42" rx="6" fill="#f4efe3" stroke="#8a6d3b" stroke-width="1.3"/>
+  <text x="655" y="476" font-size="14" text-anchor="middle" fill="#5c481f">List</text>
+
+  <rect x="720" y="450" width="110" height="42" rx="6" fill="#f4efe3" stroke="#8a6d3b" stroke-width="1.3"/>
+  <text x="775" y="476" font-size="14" text-anchor="middle" fill="#5c481f">Table</text>
+
+  <rect x="840" y="450" width="120" height="42" rx="6" fill="#f4efe3" stroke="#8a6d3b" stroke-width="1.3"/>
+  <text x="900" y="476" font-size="14" text-anchor="middle" fill="#5c481f">Figure</text>
+
+  <!-- arrows logical -->
+  <line x1="760" y1="136" x2="760" y2="178" stroke="#3a6b4a" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <line x1="760" y1="226" x2="760" y2="268" stroke="#3a6b4a" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <line x1="760" y1="316" x2="760" y2="358" stroke="#3a6b4a" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <line x1="720" y1="406" x2="655" y2="448" stroke="#3a6b4a" stroke-width="1.6" marker-end="url(#arrowGreen)"/>
+  <line x1="760" y1="406" x2="775" y2="448" stroke="#3a6b4a" stroke-width="1.6" marker-end="url(#arrowGreen)"/>
+  <line x1="800" y1="406" x2="895" y2="448" stroke="#3a6b4a" stroke-width="1.6" marker-end="url(#arrowGreen)"/>
+
+  <!-- CROSS-LINKS showing misalignment -->
+  <line x1="360" y1="383" x2="640" y2="203" stroke="#c0733a" stroke-width="1.6" stroke-dasharray="6,5"/>
+  <line x1="360" y1="383" x2="640" y2="383" stroke="#c0733a" stroke-width="1.6" stroke-dasharray="6,5"/>
+  <line x1="360" y1="473" x2="640" y2="383" stroke="#c0733a" stroke-width="1.6" stroke-dasharray="6,5"/>
+  <line x1="360" y1="473" x2="600" y2="465" stroke="#c0733a" stroke-width="1.6" stroke-dasharray="6,5"/>
+  <line x1="360" y1="563" x2="720" y2="383" stroke="#c0733a" stroke-width="1.6" stroke-dasharray="6,5"/>
+
+  <!-- legend / explanatory box -->
+  <rect x="130" y="630" width="740" height="120" rx="8" fill="#fdf6ea" stroke="#c0733a" stroke-width="1.5"/>
+  <text x="150" y="656" font-size="15" font-weight="bold" fill="#8a4a1f">Why the two hierarchies don't line up 1:1</text>
+  <text x="150" y="680" font-size="13.5" fill="#4a4438">• One document can span several folders/boxes; one folder can hold parts of several documents.</text>
+  <text x="150" y="700" font-size="13.5" fill="#4a4438">• One page can contain fragments of two paragraphs; one paragraph can cross a page or column break.</text>
+  <text x="150" y="720" font-size="13.5" fill="#4a4438">• Digitisation must explicitly re-connect logical units across physical breaks (dashed lines above)</text>
+  <text x="150" y="738" font-size="13.5" fill="#4a4438">   — this re-linking is the core operationalisation problem.</text>
+</svg>

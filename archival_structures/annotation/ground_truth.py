@@ -52,6 +52,13 @@ _GroundTruthDumper.add_representer(_FlowDict, _flow_dict_representer)
 # Data classes
 # ---------------------------------------------------------------------------
 
+# A layer without recorded provenance is assumed to be manual and complete.
+DEFAULT_PROVENANCE: dict[str, Any] = {'method': 'manual', 'coverage': 'complete'}
+
+_KNOWN_TOP_LEVEL_KEYS = (
+    'inventory_id', 'ead_ref', 'document_type', 'provenance', 'scans', 'layers',
+)
+
 @dataclass
 class Span:
     """A single physical location on a scan.
@@ -146,6 +153,16 @@ class InventoryGroundTruth:
         ``"section"``, ``"title_page"``, ``"session"``, ``"attendance_list"``,
         ``"resolution"``.  Only layers that have at least one annotation need
         to be present.
+    provenance:
+        Optional, free-form provenance per layer, keyed by layer name, e.g.
+        ``{"document": {"source": "doi:10.34894/SRDMFU", "coverage": "partial"}}``.
+        Recommended keys are ``source``, ``method``, ``parameters``,
+        ``confidence`` and ``coverage`` (see ``docs/ground_truth_format.md``);
+        none is required and unknown keys are kept.  An element can override
+        its layer's provenance with a ``provenance`` entry in its metadata.
+    extra:
+        Unrecognised top-level keys, kept so that reading and writing a file
+        does not lose information added by newer converters.
     """
 
     inventory_id: str
@@ -153,6 +170,12 @@ class InventoryGroundTruth:
     document_type: str
     scans: dict[str, dict[str, int]] = field(default_factory=dict)
     layers: dict[str, list[AnnotationElement]] = field(default_factory=dict)
+    provenance: dict[str, dict[str, Any]] = field(default_factory=dict)
+    extra: dict[str, Any] = field(default_factory=dict)
+
+    def layer_provenance(self, layer: str) -> dict[str, Any]:
+        """Return *layer*'s provenance, defaulting to manual and complete."""
+        return {**DEFAULT_PROVENANCE, **self.provenance.get(layer, {})}
 
     def as_dict(self) -> dict[str, Any]:
         d: dict[str, Any] = {
@@ -160,6 +183,9 @@ class InventoryGroundTruth:
             'ead_ref': self.ead_ref,
             'document_type': self.document_type,
         }
+        d.update(self.extra)
+        if self.provenance:
+            d['provenance'] = self.provenance
         if self.scans:
             d['scans'] = self.scans
         d['layers'] = {
@@ -226,4 +252,6 @@ def read_ground_truth(path: Path) -> InventoryGroundTruth:
         document_type=data['document_type'],
         scans=scans,
         layers=layers,
+        provenance=data.get('provenance') or {},
+        extra={k: v for k, v in data.items() if k not in _KNOWN_TOP_LEVEL_KEYS},
     )

@@ -70,11 +70,19 @@ def get_begin_end_year(date):
     """`(begin_year, end_year)` parsed from an EAD `normal`-attribute date string: a
     `YYYY-MM-DD/YYYY-MM-DD`-style range, a bare `YYYY` (single year, used for both), or a
     `YYYY-MM`/`YYYY-MM-DD` single date (year used for both). `("", "")` if `date` is empty or
-    in an unrecognised format."""
-    if "/" in date:
-        date_begin, date_end = date.split("/")
+    in an unrecognised format.
 
-        return date_begin[:4], date_end[:4]
+    A `normal` attribute can also list more than two dates rather than a single range -- e.g.
+    `"1610/1625/1643"` for "1610, 1625 en 1643" (three discrete years, not a span) -- found by
+    running this against the wider EAD parser corpus (the 2025-03-18 export of
+    `NL-HaNA_1.01.02`, now `superseded/NL-HaNA_1.01.02-2025-03-18.xml`). The first and last
+    parts are taken as `begin`/`end`, which is exact for the two-part range case and a reasonable
+    span for a discrete list; splitting on `"/"` and unpacking exactly two values used to raise
+    `ValueError` on the three-part case instead.
+    """
+    if "/" in date:
+        parts = date.split("/")
+        return parts[0][:4], parts[-1][:4]
     elif len(date) == 4:
         return date, date
     elif len(date) == 7 or len(date) == 10:

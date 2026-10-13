@@ -1,0 +1,155 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="arrowGreyH" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b6558"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="800" fill="#fbf9f4"/>
+
+  <text x="600" y="34" font-size="22" font-weight="bold" fill="#3a3a34" text-anchor="middle">How the Digitisation Pipeline Follows the Physical Structure</text>
+  <text x="600" y="56" font-size="13.5" fill="#6a6a60" text-anchor="middle" font-style="italic">the archive's own container hierarchy shapes how digitised output is grouped -- and where it stops grouping</text>
+
+  <text x="310" y="82" font-size="14" font-weight="bold" fill="#1d3f52" text-anchor="middle">ARCHIVAL DESCRIPTION -- container hierarchy (&#167;1)</text>
+  <text x="970" y="82" font-size="14" font-weight="bold" fill="#5c1f1f" text-anchor="middle">DIGITISATION OUTPUT -- per file (&#167;4)</text>
+
+  <line x1="780" y1="95" x2="780" y2="610" stroke="#a39c8c" stroke-width="1.3" stroke-dasharray="4,4"/>
+
+  <!-- ===================== LEFT: hierarchy tree ===================== -->
+
+  <!-- Archive -->
+  <rect x="20" y="330" width="90" height="36" rx="8" fill="#ecf3ec" stroke="#3a6b4a" stroke-width="1.5"/>
+  <text x="65" y="352" font-size="12.5" font-weight="bold" fill="#254a30" text-anchor="middle">Archive</text>
+
+  <!-- Series -->
+  <rect x="160" y="175" width="110" height="34" rx="8" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="215" y="196" font-size="12" font-weight="bold" fill="#1d3f52" text-anchor="middle">Series 1</text>
+  <rect x="160" y="495" width="110" height="34" rx="8" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="215" y="516" font-size="12" font-weight="bold" fill="#1d3f52" text-anchor="middle">Series 2</text>
+
+  <path d="M110,348 C140,348 140,192 160,192" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+  <path d="M110,348 C140,348 140,512 160,512" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+
+  <!-- Subseries -->
+  <rect x="310" y="135" width="125" height="34" rx="8" fill="#d7e6ee" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="372" y="156" font-size="11.5" font-weight="bold" fill="#1d3f52" text-anchor="middle">Subseries 1.1</text>
+  <rect x="310" y="215" width="125" height="34" rx="8" fill="#d7e6ee" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="372" y="236" font-size="11.5" font-weight="bold" fill="#1d3f52" text-anchor="middle">Subseries 1.2</text>
+  <rect x="310" y="455" width="125" height="34" rx="8" fill="#d7e6ee" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="372" y="476" font-size="11.5" font-weight="bold" fill="#1d3f52" text-anchor="middle">Subseries 2.1</text>
+  <rect x="310" y="560" width="125" height="34" rx="8" fill="#d7e6ee" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="372" y="581" font-size="11.5" font-weight="bold" fill="#1d3f52" text-anchor="middle">Subseries 2.2</text>
+
+  <path d="M270,192 C290,192 290,152 310,152" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+  <path d="M270,192 C290,192 290,232 310,232" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+  <path d="M270,512 C290,512 290,472 310,472" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+  <path d="M270,512 C290,512 290,577 310,577" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+
+  <!-- Subsubseries -->
+  <rect x="470" y="440" width="140" height="34" rx="8" fill="#c7dbe6" stroke="#1d3f52" stroke-width="1.5"/>
+  <text x="540" y="461" font-size="11" font-weight="bold" fill="#12303f" text-anchor="middle">Subsubseries 2.1.1</text>
+  <path d="M435,472 C450,472 450,457 470,457" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+  <text x="372" y="503" font-size="10" font-style="italic" fill="#8a8272" text-anchor="middle">Subsubseries 2.1.2 …</text>
+
+  <!-- Files under Subseries 1.1 -->
+  <rect x="470" y="110" width="90" height="30" rx="7" fill="#f4efe3" stroke="#8a6d3b" stroke-width="1.4"/>
+  <text x="515" y="130" font-size="11.5" font-weight="bold" fill="#5c481f" text-anchor="middle">File 1</text>
+  <rect x="470" y="150" width="90" height="30" rx="7" fill="#f4efe3" stroke="#8a6d3b" stroke-width="1.4"/>
+  <text x="515" y="170" font-size="11.5" font-weight="bold" fill="#5c481f" text-anchor="middle">File 2</text>
+  <path d="M435,152 C450,152 450,125 470,125" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+  <path d="M435,152 C450,152 450,165 470,165" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+  <text x="515" y="196" font-size="10" font-style="italic" fill="#8a8272" text-anchor="middle">File 3, File 4 …</text>
+
+  <!-- Files under Subseries 1.2 -->
+  <rect x="470" y="225" width="90" height="30" rx="7" fill="#f4efe3" stroke="#8a6d3b" stroke-width="1.4"/>
+  <text x="515" y="245" font-size="11.5" font-weight="bold" fill="#5c481f" text-anchor="middle">File 5</text>
+  <path d="M435,232 C450,232 450,240 470,240" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+  <text x="515" y="271" font-size="10" font-style="italic" fill="#8a8272" text-anchor="middle">File 6, 7, 8 …</text>
+
+  <!-- File under Subsubseries 2.1.1 -->
+  <rect x="660" y="440" width="90" height="32" rx="7" fill="#f4efe3" stroke="#8a6d3b" stroke-width="1.4"/>
+  <text x="705" y="461" font-size="11.5" font-weight="bold" fill="#5c481f" text-anchor="middle">File 9</text>
+  <path d="M610,457 C635,457 635,456 660,456" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+  <text x="705" y="488" font-size="10" font-style="italic" fill="#8a8272" text-anchor="middle">File 10, File 11 …</text>
+
+  <!-- Files under Subseries 2.2 -->
+  <rect x="470" y="565" width="90" height="30" rx="7" fill="#f4efe3" stroke="#8a6d3b" stroke-width="1.4"/>
+  <text x="515" y="585" font-size="11.5" font-weight="bold" fill="#5c481f" text-anchor="middle">File 15</text>
+  <path d="M435,577 C450,577 450,580 470,580" fill="none" stroke="#9a9488" stroke-width="1.4"/>
+  <text x="515" y="611" font-size="10" font-style="italic" fill="#8a8272" text-anchor="middle">File 16, 17 …</text>
+
+  <!-- ===================== RIGHT: digitisation output ===================== -->
+
+  <!-- Fan-out A: File 1 -->
+  <path d="M560,125 C680,125 680,140 800,140" fill="none" stroke="#6b6558" stroke-width="1.8" stroke-dasharray="6,4" marker-end="url(#arrowGreyH)"/>
+  <text x="690" y="118" font-size="10.5" fill="#6a6a60" text-anchor="middle" font-style="italic">one file,</text>
+  <text x="690" y="147" font-size="10.5" fill="#6a6a60" text-anchor="middle" font-style="italic">expanded</text>
+
+  <text x="990" y="112" font-size="11.5" font-style="italic" fill="#6a6a60" text-anchor="middle">File 1 &#8594; flat image / transcription run</text>
+
+  <g font-size="10.5" font-weight="bold">
+    <rect x="800" y="125" width="115" height="24" rx="6" fill="#eef0e4" stroke="#7a7a3b" stroke-width="1.3"/>
+    <text x="857" y="141" fill="#4a4a1f" text-anchor="middle">img 1_001</text>
+    <rect x="955" y="125" width="130" height="24" rx="6" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.3"/>
+    <text x="1020" y="141" fill="#5c1f1f" text-anchor="middle">transcr. 1_001</text>
+    <line x1="915" y1="137" x2="955" y2="137" stroke="#6b6558" stroke-width="1.2"/>
+
+    <rect x="800" y="150" width="115" height="24" rx="6" fill="#eef0e4" stroke="#7a7a3b" stroke-width="1.3"/>
+    <text x="857" y="166" fill="#4a4a1f" text-anchor="middle">img 1_002</text>
+    <rect x="955" y="150" width="130" height="24" rx="6" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.3"/>
+    <text x="1020" y="166" fill="#5c1f1f" text-anchor="middle">transcr. 1_002</text>
+    <line x1="915" y1="162" x2="955" y2="162" stroke="#6b6558" stroke-width="1.2"/>
+
+    <rect x="800" y="175" width="115" height="24" rx="6" fill="#eef0e4" stroke="#7a7a3b" stroke-width="1.3"/>
+    <text x="857" y="191" fill="#4a4a1f" text-anchor="middle">img 1_…</text>
+    <rect x="955" y="175" width="130" height="24" rx="6" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.3"/>
+    <text x="1020" y="191" fill="#5c1f1f" text-anchor="middle">transcr. 1_…</text>
+    <line x1="915" y1="187" x2="955" y2="187" stroke="#6b6558" stroke-width="1.2"/>
+
+    <rect x="800" y="200" width="115" height="24" rx="6" fill="#eef0e4" stroke="#7a7a3b" stroke-width="1.3"/>
+    <text x="857" y="216" fill="#4a4a1f" text-anchor="middle">img 1_N</text>
+    <rect x="955" y="200" width="130" height="24" rx="6" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.3"/>
+    <text x="1020" y="216" fill="#5c1f1f" text-anchor="middle">transcr. 1_N</text>
+    <line x1="915" y1="212" x2="955" y2="212" stroke="#6b6558" stroke-width="1.2"/>
+  </g>
+
+  <!-- Fan-out B: File 9 -->
+  <path d="M750,456 C775,456 775,425 800,425" fill="none" stroke="#6b6558" stroke-width="1.8" stroke-dasharray="6,4" marker-end="url(#arrowGreyH)"/>
+
+  <text x="990" y="400" font-size="11.5" font-style="italic" fill="#6a6a60" text-anchor="middle">File 9 &#8594; flat image / transcription run</text>
+
+  <g font-size="10.5" font-weight="bold">
+    <rect x="800" y="413" width="115" height="24" rx="6" fill="#eef0e4" stroke="#7a7a3b" stroke-width="1.3"/>
+    <text x="857" y="429" fill="#4a4a1f" text-anchor="middle">img 9_001</text>
+    <rect x="955" y="413" width="130" height="24" rx="6" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.3"/>
+    <text x="1020" y="429" fill="#5c1f1f" text-anchor="middle">transcr. 9_001</text>
+    <line x1="915" y1="425" x2="955" y2="425" stroke="#6b6558" stroke-width="1.2"/>
+
+    <rect x="800" y="438" width="115" height="24" rx="6" fill="#eef0e4" stroke="#7a7a3b" stroke-width="1.3"/>
+    <text x="857" y="454" fill="#4a4a1f" text-anchor="middle">img 9_002</text>
+    <rect x="955" y="438" width="130" height="24" rx="6" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.3"/>
+    <text x="1020" y="454" fill="#5c1f1f" text-anchor="middle">transcr. 9_002</text>
+    <line x1="915" y1="450" x2="955" y2="450" stroke="#6b6558" stroke-width="1.2"/>
+
+    <rect x="800" y="463" width="115" height="24" rx="6" fill="#eef0e4" stroke="#7a7a3b" stroke-width="1.3"/>
+    <text x="857" y="479" fill="#4a4a1f" text-anchor="middle">img 9_…</text>
+    <rect x="955" y="463" width="130" height="24" rx="6" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.3"/>
+    <text x="1020" y="479" fill="#5c1f1f" text-anchor="middle">transcr. 9_…</text>
+    <line x1="915" y1="475" x2="955" y2="475" stroke="#6b6558" stroke-width="1.2"/>
+
+    <rect x="800" y="488" width="115" height="24" rx="6" fill="#eef0e4" stroke="#7a7a3b" stroke-width="1.3"/>
+    <text x="857" y="504" fill="#4a4a1f" text-anchor="middle">img 9_N</text>
+    <rect x="955" y="488" width="130" height="24" rx="6" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.3"/>
+    <text x="1020" y="504" fill="#5c1f1f" text-anchor="middle">transcr. 9_N</text>
+    <line x1="915" y1="500" x2="955" y2="500" stroke="#6b6558" stroke-width="1.2"/>
+  </g>
+
+  <!-- ===================== bottom note box ===================== -->
+  <rect x="20" y="630" width="1160" height="145" rx="8" fill="#fdf6ea" stroke="#c0733a" stroke-width="1.5"/>
+  <text x="40" y="655" font-size="14" font-weight="bold" fill="#8a4a1f">Where the hierarchy stops</text>
+  <text x="40" y="678" font-size="12.5" fill="#4a4438">Fonds, series and file (&#167;1) are containers the archive's own arrangement defines, and the pipeline reproduces exactly this</text>
+  <text x="40" y="696" font-size="12.5" fill="#4a4438">much of it: each file gets its own numbered run of images and transcriptions (&#167;4: digital surrogate, OCR/HTR). But a file may</text>
+  <text x="40" y="714" font-size="12.5" fill="#4a4438">bundle several Documents (&#167;2) -- loose correspondence, a bound volume with its own index and a run of entries -- and nothing</text>
+  <text x="40" y="732" font-size="12.5" fill="#4a4438">in "img N_001 … N" marks where one Document ends and the next begins.</text>
+  <text x="40" y="756" font-size="11.5" fill="#8a6d1f" font-style="italic">That gap is exactly what the NL-AsdSAA 89.14 worked example above, and document segmentation (&#167;6), exist to close.</text>
+</svg>

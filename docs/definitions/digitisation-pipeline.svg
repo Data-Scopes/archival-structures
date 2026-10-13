@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1050 520" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="arrowGrey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b6558"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1050" height="520" fill="#fbf9f4"/>
+
+  <text x="525" y="38" font-size="24" font-weight="bold" fill="#3a3a34" text-anchor="middle">The Digitisation Pipeline</text>
+  <text x="525" y="60" font-size="14" fill="#6a6a60" text-anchor="middle" font-style="italic">from physical object to operational, navigable structure</text>
+
+  <!-- Stage boxes, 4 across -->
+  <!-- Stage 1: Physical object -->
+  <rect x="30" y="110" width="220" height="150" rx="10" fill="#eaf2f6" stroke="#2c5f7c" stroke-width="1.5"/>
+  <text x="140" y="138" font-size="16" font-weight="bold" fill="#1d3f52" text-anchor="middle">1. Physical object</text>
+  <text x="50" y="164" font-size="12.5" fill="#274a5c">Box, folder, book, page,</text>
+  <text x="50" y="182" font-size="12.5" fill="#274a5c">column, marginalia — the</text>
+  <text x="50" y="200" font-size="12.5" fill="#274a5c">material carrier and its</text>
+  <text x="50" y="218" font-size="12.5" fill="#274a5c">arrangement in space</text>
+  <text x="50" y="242" font-size="12" fill="#5a7f92" font-style="italic">(archival / codicological layer)</text>
+
+  <!-- Stage 2: Digital surrogate -->
+  <rect x="280" y="110" width="220" height="150" rx="10" fill="#eef0e4" stroke="#7a7a3b" stroke-width="1.5"/>
+  <text x="390" y="138" font-size="16" font-weight="bold" fill="#4a4a1f" text-anchor="middle">2. Digital surrogate</text>
+  <text x="300" y="164" font-size="12.5" fill="#565628">Scan / photograph of each</text>
+  <text x="300" y="182" font-size="12.5" fill="#565628">page; OCR or HTR extracts</text>
+  <text x="300" y="200" font-size="12.5" fill="#565628">raw text — still a faithful</text>
+  <text x="300" y="218" font-size="12.5" fill="#565628">image-and-text copy, not</text>
+  <text x="300" y="236" font-size="12.5" fill="#565628">yet structured</text>
+
+  <!-- Stage 3: Structural encoding -->
+  <rect x="530" y="110" width="220" height="150" rx="10" fill="#ecf3ec" stroke="#3a6b4a" stroke-width="1.5"/>
+  <text x="640" y="138" font-size="16" font-weight="bold" fill="#254a30" text-anchor="middle">3. Structural encoding</text>
+  <text x="550" y="164" font-size="12.5" fill="#2c5535">Markup (TEI/XML) tags</text>
+  <text x="550" y="182" font-size="12.5" fill="#2c5535">documents, sections,</text>
+  <text x="550" y="200" font-size="12.5" fill="#2c5535">paragraphs, tables, lists;</text>
+  <text x="550" y="218" font-size="12.5" fill="#2c5535">EAD/METS record the</text>
+  <text x="550" y="236" font-size="12.5" fill="#2c5535">hierarchy and provenance</text>
+
+  <!-- Stage 4: Operational interface -->
+  <rect x="780" y="110" width="240" height="150" rx="10" fill="#f6ecec" stroke="#8a3b3b" stroke-width="1.5"/>
+  <text x="900" y="138" font-size="16" font-weight="bold" fill="#5c1f1f" text-anchor="middle">4. Navigable interface</text>
+  <text x="800" y="164" font-size="12.5" fill="#6b2828">Search, browse by index/TOC,</text>
+  <text x="800" y="182" font-size="12.5" fill="#6b2828">follow cross-references,</text>
+  <text x="800" y="200" font-size="12.5" fill="#6b2828">jump to a specific paragraph</text>
+  <text x="800" y="218" font-size="12.5" fill="#6b2828">or table — logical structure</text>
+  <text x="800" y="236" font-size="12.5" fill="#6b2828">is now operational</text>
+
+  <!-- arrows between stages -->
+  <line x1="250" y1="185" x2="278" y2="185" stroke="#6b6558" stroke-width="2.5" marker-end="url(#arrowGrey)"/>
+  <line x1="500" y1="185" x2="528" y2="185" stroke="#6b6558" stroke-width="2.5" marker-end="url(#arrowGrey)"/>
+  <line x1="750" y1="185" x2="778" y2="185" stroke="#6b6558" stroke-width="2.5" marker-end="url(#arrowGrey)"/>
+
+  <!-- what gets added at each step, below -->
+  <text x="264" y="290" font-size="12" fill="#8a4a1f" text-anchor="middle" font-weight="bold">+ imaging, OCR/HTR</text>
+  <text x="514" y="290" font-size="12" fill="#8a4a1f" text-anchor="middle" font-weight="bold">+ markup, hierarchy,</text>
+  <text x="514" y="306" font-size="12" fill="#8a4a1f" text-anchor="middle" font-weight="bold">metadata</text>
+  <text x="764" y="290" font-size="12" fill="#8a4a1f" text-anchor="middle" font-weight="bold">+ indexing, linking,</text>
+  <text x="764" y="306" font-size="12" fill="#8a4a1f" text-anchor="middle" font-weight="bold">retrieval logic</text>
+
+  <!-- feedback loop: finding devices inform encoding -->
+  <path d="M 900 260 C 900 340, 390 380, 390 262" fill="none" stroke="#c0733a" stroke-width="1.8" stroke-dasharray="6,5" marker-end="url(#arrowGrey)"/>
+  <text x="640" y="365" font-size="13" fill="#8a4a1f" text-anchor="middle" font-style="italic">Original finding devices (indexes, TOCs, marginalia, ordering</text>
+  <text x="640" y="383" font-size="13" fill="#8a4a1f" text-anchor="middle" font-style="italic">principles) are the model for what the digital structure should reproduce</text>
+
+  <!-- bottom note box -->
+  <rect x="30" y="415" width="990" height="80" rx="8" fill="#fdf6ea" stroke="#c0733a" stroke-width="1.5"/>
+  <text x="50" y="440" font-size="14" font-weight="bold" fill="#8a4a1f">The core claim of the pipeline</text>
+  <text x="50" y="462" font-size="13" fill="#4a4438">Digitisation alone (stage 2) only copies the physical form. The logical structure only becomes "operationalised and</text>
+  <text x="50" y="480" font-size="13" fill="#4a4438">navigable" once stages 3–4 explicitly encode the intellectual hierarchy and rebuild the retrieval devices the original creator relied on.</text>
+</svg>

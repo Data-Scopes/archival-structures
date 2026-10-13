@@ -214,6 +214,8 @@ archival_structures/stream_analysis/claude_doc_analysis.ipynb
 /scripts/*
 !/scripts/analyse_documents.py
 !/scripts/convert_resolution_metadata.py
+!/scripts/simulate_corruption.py
+!/scripts/convert_generale_missiven.py
 /notebooks/*
 !/notebooks/demo/
 /archival_structures/clustering/docs/

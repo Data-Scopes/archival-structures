@@ -1445,6 +1445,25 @@ numpy = "*"
 pillow = ">=6.0"
 
 [[package]]
+name = "ipyevents"
+version = "2.0.4"
+description = "A custom widget for returning mouse and keyboard events to Python"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "ipyevents-2.0.4-py3-none-any.whl", hash = "sha256:e532e05b037f70373850723f483d2830cb8a633e5aa19637ee9e7adaf41421f1"},
+    {file = "ipyevents-2.0.4.tar.gz", hash = "sha256:bd8c66a9ff26f481494cda1ec1d979722ca9eba19f8ef52538c7cc2db2a1a139"},
+]
+
+[package.dependencies]
+ipywidgets = ">=7.6.0"
+
+[package.extras]
+docs = ["jupyterlab (>=3)", "nbsphinx", "sphinx"]
+test = ["nbval", "pytest", "pytest-cov"]
+
+[[package]]
 name = "ipython"
 version = "9.15.0"
 description = "IPython: Productive Interactive Computing"
@@ -5935,4 +5954,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<3.15"
-content-hash = "427552f1e33cbd413d58c47944371937ee46edbea1faca62a2dbd3f9b857783d"
+content-hash = "59ea4edfe5c2c809e8168d10d20f2dfdefadf3793bdb947e38d60c0569074901"

@@ -39,6 +39,7 @@ the repository root (`unzip demo-data.zip -d .`) before running them.
 :caption: Guides
 
 introduction
+definitions/index
 text_analysis_pipeline
 colour_and_ink
 coordinate_bridging
@@ -49,6 +50,20 @@ stream_analysis
 ground_truth_format
 archives
 findings
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Challenges catalog
+
+challenges/index
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Work in progress
+
+ead_parser/index
 ```
 
 ```{toctree}

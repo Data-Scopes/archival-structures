@@ -119,6 +119,98 @@ def _resize_keep_aspect(im: npt.NDArray, *, width: int | None = None, height: in
     return cv2.resize(im, (new_w, new_h), interpolation=interp)
 
 
+def _wrap_text_to_width(text: str, font: int, font_scale: float, thickness: int, max_width: int) -> list[str]:
+    """Greedily word-wrap `text` into lines that fit within `max_width` pixels for the given
+    font settings. A single word wider than `max_width` on its own is hard-broken by
+    character so it can never overflow past `max_width`."""
+    words = text.split()
+    if not words:
+        return [""]
+
+    lines: list[str] = []
+    current = words[0]
+    for word in words[1:]:
+        candidate = f"{current} {word}"
+        (w, _), _ = cv2.getTextSize(candidate, font, font_scale, thickness)
+        if w <= max_width:
+            current = candidate
+        else:
+            lines.append(current)
+            current = word
+    lines.append(current)
+
+    wrapped: list[str] = []
+    for line in lines:
+        (w, _), _ = cv2.getTextSize(line, font, font_scale, thickness)
+        if w <= max_width:
+            wrapped.append(line)
+            continue
+        chunk = ""
+        for ch in line:
+            candidate = chunk + ch
+            (w, _), _ = cv2.getTextSize(candidate, font, font_scale, thickness)
+            if w <= max_width or not chunk:
+                chunk = candidate
+            else:
+                wrapped.append(chunk)
+                chunk = ch
+        if chunk:
+            wrapped.append(chunk)
+    return wrapped
+
+
+def _truncate_lines(lines: list[str], max_lines: int, font: int, font_scale: float,
+                    thickness: int, max_width: int) -> list[str]:
+    """Cap `lines` to `max_lines`, trimming the last kept line and appending an ellipsis if
+    content had to be cut off, so it still fits within `max_width`."""
+    if len(lines) <= max_lines:
+        return lines
+    kept = lines[:max_lines]
+    last = kept[-1]
+    while True:
+        # cv2's Hershey fonts have no Unicode glyphs (e.g. "…" renders as "???"), so use ASCII.
+        candidate = last.rstrip() + "..."
+        (w, _), _ = cv2.getTextSize(candidate, font, font_scale, thickness)
+        if w <= max_width or len(last) <= 1:
+            kept[-1] = candidate
+            return kept
+        last = last[:-1]
+
+
+def _prepare_label_lines(text: str, font: int, font_scale: float, thickness: int,
+                         max_width: int, max_lines: int) -> list[str]:
+    """Word-wrap `text` to `max_width` and cap it to `max_lines` (see `_wrap_text_to_width`/
+    `_truncate_lines`) -- keeps long labels from spilling into neighbouring cells."""
+    lines = _wrap_text_to_width(text, font, font_scale, thickness, max_width)
+    return _truncate_lines(lines, max_lines, font, font_scale, thickness, max_width)
+
+
+def _text_line_height(font: int, font_scale: float, thickness: int) -> int:
+    (_, text_h), baseline = cv2.getTextSize("Ag", font, font_scale, thickness)
+    return text_h + baseline
+
+
+def _validate_group_row(group: Sequence[int], ncols: int, group_idx: int) -> tuple[int, int, int]:
+    """Check that `group` (a subsequence of image indices) falls within a single grid row
+    given `ncols`, and return `(row, min_col, max_col)`.
+
+    Raises ValueError if the group would span more than one row -- a bounding box can't be
+    drawn around images split across rows. Callers hitting this should either reorder
+    `image_files`, choose an `ncols` under which the group fits on one row, or pass
+    `ncols=len(image_files)` to lay everything out in a single row."""
+    rows = {idx // ncols for idx in group}
+    if len(rows) > 1:
+        raise ValueError(
+            f"groups[{group_idx}] = {list(group)} spans multiple rows for ncols={ncols}. "
+            "Each group must fall within a single row -- reorder image_files, pick an ncols "
+            "under which the group fits on one row, or pass ncols=len(image_files) for a "
+            "single-row layout."
+        )
+    row = rows.pop()
+    cols = [idx % ncols for idx in group]
+    return row, min(cols), max(cols)
+
+
 def make_thumbnail_matrix(
         image_files: Sequence[str | Path],
         *,
@@ -129,12 +221,38 @@ def make_thumbnail_matrix(
         gap: int = 10,                         # gap between cells
         bg_color_bgr: tuple[int, int, int] = (245, 245, 245),
         align: Literal["center", "topleft"] = "center",
+        labels: Sequence[str] | None = None,
+        label_font_scale: float = 0.5,
+        label_color_bgr: tuple[int, int, int] = (20, 20, 20),
+        label_thickness: int = 1,
+        label_max_lines: int = 2,
+        label_top_pad: int = 6,
+        label_line_gap: int = 4,
+        groups: Sequence[Sequence[int]] | None = None,
+        group_colors_bgr: Sequence[tuple[int, int, int]] = ((0, 0, 255),),
+        group_box_thickness: int = 2,
+        group_box_margin: int = 4,
+        group_labels: Sequence[str] | None = None,
+        group_label_font_scale: float = 0.6,
+        group_label_color_bgr: tuple[int, int, int] = (20, 20, 20),
+        group_label_thickness: int = 2,
+        group_label_max_lines: int = 2,
 ) -> np.ndarray:
     """
     Returns a single BGR image (OpenCV format) with thumbnails laid out in a grid.
 
     - unify="height": every thumb is resized to `cell_size` pixels high, variable width.
     - unify="width": every thumb is resized to `cell_size` pixels wide, variable height.
+    - labels: one label per image in `image_files`, drawn centered below each thumbnail.
+      Long labels are word-wrapped (up to `label_max_lines`) rather than overflowing into
+      neighbouring cells; anything cut off beyond that is ellipsised.
+    - groups: each element is a sequence of indices into `image_files` that belong together;
+      a bounding box (colour cycling through `group_colors_bgr`) is drawn around each group.
+      Every group must fall within a single grid row (see `_validate_group_row`).
+    - group_labels: one label per group (requires `groups`), drawn centered below each
+      group's bounding box and wrapped to the full width of that box -- use this for a
+      single document-level label shared by a whole group, separate from any per-image
+      `labels`.
     """
     if ncols <= 0:
         raise ValueError("ncols must be > 0")
@@ -142,6 +260,21 @@ def make_thumbnail_matrix(
         raise ValueError("cell_size must be > 0")
     if pad < 0 or gap < 0:
         raise ValueError("pad and gap must be >= 0")
+    if labels is not None and len(labels) != len(image_files):
+        raise ValueError(f"labels ({len(labels)}) must match image_files ({len(image_files)}) in length")
+    if groups is not None and 2 * group_box_margin + group_box_thickness > gap:
+        raise ValueError(
+            f"gap ({gap}) is too small for group_box_margin ({group_box_margin}) and "
+            f"group_box_thickness ({group_box_thickness}); increase gap or shrink these so "
+            "boxes for adjacent groups don't overlap neighbouring cells."
+        )
+    if group_labels is not None:
+        if groups is None:
+            raise ValueError("group_labels requires groups")
+        if len(group_labels) != len(groups):
+            raise ValueError(f"group_labels ({len(group_labels)}) must match groups ({len(groups)}) in length")
+
+    font = cv2.FONT_HERSHEY_SIMPLEX
 
     # 1) Load + resize thumbnails
     thumbs: list[np.ndarray] = []
@@ -159,26 +292,72 @@ def make_thumbnail_matrix(
 
     # 2) Compute per-cell dimensions (we use a fixed cell size so the grid is clean)
     cell_w = max(t.shape[1] for t in thumbs) + 2 * pad
-    cell_h = max(t.shape[0] for t in thumbs) + 2 * pad
+    thumb_area_h = max(t.shape[0] for t in thumbs) + 2 * pad
+
+    # 2a) Word-wrap per-image labels to the cell width up front, so the label band is sized
+    # to fit exactly the number of lines actually needed (capped at label_max_lines).
+    label_lines_per_image: list[list[str]] | None = None
+    label_line_h = 0
+    label_band_h = 0
+    if labels is not None:
+        text_max_width = max(1, cell_w - 2 * label_top_pad)
+        label_lines_per_image = [
+            _prepare_label_lines(str(lbl), font, label_font_scale, label_thickness,
+                                 text_max_width, label_max_lines)
+            for lbl in labels
+        ]
+        label_line_h = _text_line_height(font, label_font_scale, label_thickness) + label_line_gap
+        max_lines_used = max(len(lines) for lines in label_lines_per_image)
+        label_band_h = label_top_pad + max_lines_used * label_line_h
+
+    cell_h = thumb_area_h + label_band_h
 
     n = len(thumbs)
     nrows = int(np.ceil(n / ncols))
 
-    out_w = ncols * cell_w + (ncols - 1) * gap
-    out_h = nrows * cell_h + (nrows - 1) * gap
+    # Extra border so group boxes on edge cells aren't clipped by the canvas.
+    border = (group_box_margin + group_box_thickness) if groups is not None else 0
+
+    # 2b) Work out each group's row/column span and, if group_labels are given, word-wrap
+    # them to that group's own pixel width and size a shared band for the tallest one.
+    group_spans: list[tuple[int, int, int]] | None = None
+    group_label_lines: list[list[str]] | None = None
+    group_label_line_h = 0
+    group_label_band_h = 0
+    if groups is not None:
+        group_spans = [_validate_group_row(group, ncols, gi) for gi, group in enumerate(groups)]
+        if group_labels is not None:
+            group_label_lines = []
+            for (row, min_col, max_col), text in zip(group_spans, group_labels):
+                span_w = (max_col - min_col + 1) * cell_w + (max_col - min_col) * gap
+                text_max_width = max(1, span_w - 2 * label_top_pad)
+                group_label_lines.append(
+                    _prepare_label_lines(str(text), font, group_label_font_scale,
+                                         group_label_thickness, text_max_width, group_label_max_lines)
+                )
+            group_label_line_h = _text_line_height(font, group_label_font_scale, group_label_thickness) + label_line_gap
+            max_glines_used = max(len(lines) for lines in group_label_lines)
+            group_label_band_h = group_box_margin + label_top_pad + max_glines_used * group_label_line_h
+
+    row_block_h = cell_h + group_label_band_h
+
+    out_w = ncols * cell_w + (ncols - 1) * gap + 2 * border
+    out_h = nrows * row_block_h + (nrows - 1) * gap + 2 * border
 
     canvas = np.full((out_h, out_w, 3), bg_color_bgr, dtype=np.uint8)
 
-    # 3) Paste each thumb into its cell
+    # 3) Paste each thumb (+ optional label) into its cell
+    cell_origins: list[tuple[int, int]] = []
     for idx, thumb in enumerate(thumbs):
         r, c = divmod(idx, ncols)
 
-        x0 = c * (cell_w + gap)
-        y0 = r * (cell_h + gap)
+        x0 = border + c * (cell_w + gap)
+        y0 = border + r * (row_block_h + gap)
+        cell_origins.append((x0, y0))
 
         if align == "center":
             dx = (cell_w - thumb.shape[1]) // 2
-            dy = (cell_h - thumb.shape[0]) // 2
+            dy = (thumb_area_h - thumb.shape[0]) // 2
         elif align == "topleft":
             dx = pad
             dy = pad
@@ -190,6 +369,41 @@ def make_thumbnail_matrix(
 
         canvas[y : y + thumb.shape[0], x : x + thumb.shape[1]] = thumb
 
+        if label_lines_per_image is not None:
+            for li, line in enumerate(label_lines_per_image[idx]):
+                (text_w, text_h), _ = cv2.getTextSize(line, font, label_font_scale, label_thickness)
+                text_x = x0 + max(0, (cell_w - text_w) // 2)
+                text_y = y0 + thumb_area_h + label_top_pad + li * label_line_h + text_h
+                cv2.putText(canvas, line, (text_x, text_y), font, label_font_scale,
+                           label_color_bgr, label_thickness, cv2.LINE_AA)
+
+    # 4) Draw group bounding boxes + group labels
+    if groups is not None:
+        for group_idx, (row, min_col, max_col) in enumerate(group_spans):
+            x_start, y_start = cell_origins[row * ncols + min_col]
+            x_end, y_end = cell_origins[row * ncols + max_col]
+            x_end += cell_w
+            y_end += cell_h
+
+            colour = group_colors_bgr[group_idx % len(group_colors_bgr)]
+            cv2.rectangle(
+                canvas,
+                (x_start - group_box_margin, y_start - group_box_margin),
+                (x_end + group_box_margin, y_end + group_box_margin),
+                colour,
+                group_box_thickness,
+            )
+
+            if group_label_lines is not None:
+                span_w = x_end - x_start
+                text_top = y_end + group_box_margin + label_top_pad
+                for li, line in enumerate(group_label_lines[group_idx]):
+                    (text_w, text_h), _ = cv2.getTextSize(line, font, group_label_font_scale, group_label_thickness)
+                    text_x = x_start + max(0, (span_w - text_w) // 2)
+                    text_y = text_top + li * group_label_line_h + text_h
+                    cv2.putText(canvas, line, (text_x, text_y), font, group_label_font_scale,
+                               group_label_color_bgr, group_label_thickness, cv2.LINE_AA)
+
     return canvas
 
 
@@ -200,6 +414,10 @@ def save_thumbnail_matrix(
         ncols: int,
         unify: Literal["height", "width"] = "height",
         cell_size: int = 160,
+        labels: Sequence[str] | None = None,
+        groups: Sequence[Sequence[int]] | None = None,
+        group_colors_bgr: Sequence[tuple[int, int, int]] = ((0, 0, 255),),
+        group_labels: Sequence[str] | None = None,
 ) -> None:
     """Build a thumbnail grid (`make_thumbnail_matrix`) from `image_files` and write it to
     `out_file`."""
@@ -208,6 +426,10 @@ def save_thumbnail_matrix(
         ncols=ncols,
         unify=unify,
         cell_size=cell_size,
+        labels=labels,
+        groups=groups,
+        group_colors_bgr=group_colors_bgr,
+        group_labels=group_labels,
     )
     ok = cv2.imwrite(str(out_file), grid)
     if not ok:

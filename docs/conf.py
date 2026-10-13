@@ -81,6 +81,16 @@ intersphinx_mapping = {
 # nbsphinx: render the demo notebooks directly from notebooks/demo/ rather than copying them
 nbsphinx_execute = "never"  # the notebooks need real data/a kernel; render saved outputs as-is
 
+# `sphinx-build -t ead_parser <files...>` (docs/Makefile's `ead-parser` target) builds just the
+# EAD-parser working docs. nbsphinx registers an `html-collect-pages` handler that expects
+# every notebook it knows about to have been written to the output tree, so it errors out on a
+# partial build -- drop it, and the notebooks with it, for this subset.
+if tags.has("ead_parser"):  # noqa: F821 -- `tags` is injected by Sphinx
+    extensions.remove("nbsphinx")
+    exclude_patterns += ["notebooks/**", "**.ipynb"]
+    # index.md's notebook toctrees then point at excluded documents, which is expected here
+    suppress_warnings = ["toc.excluded"]
+
 # -- Options for HTML output --------------------------------------------------
 
 html_theme = "furo"

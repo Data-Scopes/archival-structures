@@ -605,7 +605,7 @@ def parse_file(file, subseries_info, tree_level: int = 0, debug: int = 0) -> Dic
                 elif 'type' not in unitid and 'identifier' in unitid:
                     file_info['file']['identifier'] = unitid['identifier']
                     file_info['file']['identifier_text'] = unitid['unitid']
-                elif 'type' in unitid and unitid['type'] in {'handle', 'blank', 'obsolete'}:
+                elif 'type' in unitid and unitid['type'] in {'handle', 'blank', 'obsolete', 'urn:uuid'}:
                     continue
                 elif 'type' not in unitid:
                     file_info['file']['extra_id'] = unitid['unitid']

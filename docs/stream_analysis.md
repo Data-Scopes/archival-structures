@@ -121,6 +121,15 @@ Builds on Part 1's cached outputs:
   the structured `namespace:type(:subtype)?(#N)?` vocabulary instead of free text, see
   {mod}`archival_structures.datasets.bulk_tagging`, which this module doesn't depend on, by
   design -- it takes a plain list of image paths regardless of where they came from.)
+- **Sequential boundary annotation** ({mod}`~archival_structures.stream_analysis.groundtruth.boundary_annotation`)
+  -- a different task from the checkbox grid above: rather than labelling an unordered cluster,
+  this scrolls through a page stream *in order* and marks, for every adjacent pair, whether a
+  document boundary falls between them -- the ground truth for
+  [document segmentation's Framing B](challenges/document_segmentation.md#framing-b-pairwise-same-document-adjacency)
+  (see [Page order problems](challenges/page_order_problems.md) and
+  [the simulation harness](challenges/simulation_harness.md) for how that ground truth gets used
+  once annotated). `to_inventory_ground_truth` converts a completed pass straight into an
+  {class}`~archival_structures.annotation.ground_truth.InventoryGroundTruth` `"document"` layer.
 
 See the [ground truth demo](notebooks/annotation/sequence-analysis-groundtruth-demo) notebook -- note that
 its active-learning step needs real manual annotation in Label Studio first, so it reports what's
@@ -175,6 +184,9 @@ rather not do in a notebook (e.g. on a remote machine).
    :members:
 
 .. automodule:: archival_structures.stream_analysis.groundtruth.interactive_annotation
+   :members:
+
+.. automodule:: archival_structures.stream_analysis.groundtruth.boundary_annotation
    :members:
 
 .. automodule:: archival_structures.stream_analysis.utils.image_loader

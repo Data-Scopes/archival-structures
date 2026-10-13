@@ -45,9 +45,10 @@ def get_struct_map(mets: ET.Element):
     for div in divs:
         for fptr in div.findall(f'.//{METS_NS}fptr'):
             if 'FILEID' not in fptr.attrib:
-                raise ValueError(f"mets_parser.get_struct_map - no FILEID in fptr object\n"
-                               f"fptr: {fptr.attrib}\n\n"
-                               f"div: {div.text}\n\n")
+                continue
+                # raise ValueError(f"mets_parser.get_struct_map - no FILEID in fptr object\n"
+                #                f"fptr: {fptr.attrib}\n\n"
+                #                f"div: {div.text}\n\n")
             file_id = fptr.attrib['FILEID']
             struct_map[file_id] = {k: v for k, v in div.attrib.items()}
     return struct_map

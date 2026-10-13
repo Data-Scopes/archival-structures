@@ -112,6 +112,43 @@ two separate elements, each with their own span list.
 
 ---
 
+## Provenance and coverage (open by design)
+
+*Decision 2026-10-13.* The set of tasks, archives and approaches is still growing, so the
+format deliberately does not fix a closed vocabulary for provenance. Layers converted from other
+sources are not all human-validated: some are aligned from an external index, and some come
+from a model and were later checked. A file may therefore carry an optional, free-form
+top-level `provenance` mapping keyed by layer name. An element can override its layer's entry
+with a `provenance` key of its own:
+
+```yaml
+provenance:
+  document:
+    source: doi:10.34894/SRDMFU
+    method: aligned_from_index
+    coverage: partial
+```
+
+Recommended keys, none of them required:
+
+| key | meaning |
+|---|---|
+| `source` | dataset or annotation effort, with version or DOI (e.g. `doi:10.34894/SRDMFU`) |
+| `method` | how elements were produced, e.g. `manual`, `model_verified`, `aligned_from_index`, `silver` |
+| `parameters` | free-form record of settings used by a non-manual method |
+| `confidence` | number or label, if the method yields one |
+| `coverage` | `complete` (every unit of this type in the inventory is annotated) or `partial` (only some, e.g. only the *Generale Missiven* in a VOC volume). Partial layers support recall but **not** precision measurement |
+
+Unknown keys, inside `provenance` and at top level, are preserved on read and write
+(`InventoryGroundTruth.provenance` and `.extra`). A layer without `provenance` is assumed to be
+manual and complete; `InventoryGroundTruth.layer_provenance(layer)` applies that default.
+
+The `section` layer below is a *volume section*: a run of pages grouped by type within an
+inventory file. "Section" is ambiguous across levels; see the glossary entry in
+[concepts](definitions/concepts-physical-to-logical-structure.md).
+
+---
+
 ## Layer reference (resolution books)
 
 | layer | `type` values | key metadata fields |
