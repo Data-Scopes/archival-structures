@@ -207,6 +207,7 @@ archival_structures/stream_analysis/claude_doc_analysis.ipynb
 
 # Scratch/exploratory notebooks and scripts accumulated during development, not part of the
 # polished package or its notebooks/demo/ -- kept local rather than published.
+download_thumbnails.py
 /demo/
 /ground_truth/
 /images/
