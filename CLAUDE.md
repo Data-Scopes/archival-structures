@@ -17,6 +17,9 @@ This file is loaded automatically. Do not restate it back to the user.
 ## Repo hygiene
 
 - **Never `git commit`.** The user reviews and stages everything themselves.
+- Releases are made by the user with `make bump-patch|bump-minor|bump-major` and
+  `make release[-push|-github]` (`scripts/release.py`). Sessions may run `make version` and
+  `make check-tags`, never the release targets.
 - `chmod g+w` every file and directory you create; the user needs write access to them too.
 - Check write access to a directory **before** running code that writes there. If it is
   missing, ask the user to update permissions. Do not use a workaround.
