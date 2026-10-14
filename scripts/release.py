@@ -185,8 +185,10 @@ def cmd_release(args: argparse.Namespace) -> int:
         raise ReleaseError(f'tag {tag} already exists; bump the version first')
     if tags and parse_version(version) <= parse_version(tags[0][len(TAG_PREFIX):]):
         raise ReleaseError(f'{version} is not above the latest tag {tags[0]}; bump first')
-    dirty = [line for line in git('status', '--porcelain', '--untracked-files=no').splitlines()
-             if line[3:] != 'pyproject.toml']
+    # file names only: git() strips its output, which would eat the leading space of the
+    # first `git status --porcelain` line (' M pyproject.toml') and break column slicing
+    dirty = [path for path in git('diff', '--name-only', 'HEAD').splitlines()
+             if path != 'pyproject.toml']
     if dirty:
         raise ReleaseError('uncommitted changes to tracked files (commit or stash them first):\n'
                            + '\n'.join(dirty))
