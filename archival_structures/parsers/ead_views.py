@@ -55,6 +55,8 @@ def _row_from_component(component: EADComponent, max_ancestry: int, finding_aid:
     date = parse_unitdate(component)
     digital = summarise_digitisation(component)
     row = {
+        "node_id": component.node_id(finding_aid.default_archive_id),
+        "persistent_id": component.persistent_id,
         "path": " > ".join(t for t in _ancestor_titles(component) if t),
         "level": component.level,
         "title": component.title,
@@ -79,7 +81,7 @@ def _ancestor_columns(max_ancestry: int) -> List[str]:
 def _frame_from_components(components: List[EADComponent], finding_aid: EADFindingAid) -> pd.DataFrame:
     max_ancestry = max((len(c.ancestors()) for c in components), default=0)
     rows = [_row_from_component(c, max_ancestry, finding_aid) for c in components]
-    columns = (["path"] + _ancestor_columns(max_ancestry) +
+    columns = (["node_id", "persistent_id", "path"] + _ancestor_columns(max_ancestry) +
                ["level", "title", "inventory_number", "inventory_number_rule", "unitdate",
                 "year_begin", "year_end", "digitisation_mechanisms", "n_scans_known",
                 "citation"])
@@ -120,10 +122,10 @@ def unit_of_description_frame(finding_aid: EADFindingAid) -> pd.DataFrame:
     before that stopped being true rather than after.
     """
     resolved = [c for c in finding_aid.walk() if identify_inventory_number(c)]
-    resolved_ids = {id(c) for c in resolved}
+    resolved_set = set(resolved)
 
     def has_resolved_descendant(component: EADComponent) -> bool:
-        return any(id(descendant) in resolved_ids
+        return any(descendant in resolved_set
                   for descendant in component.walk() if descendant is not component)
 
     rows_components = [c for c in resolved if not has_resolved_descendant(c)]

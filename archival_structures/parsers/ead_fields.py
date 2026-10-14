@@ -41,6 +41,7 @@ from archival_structures.model.inventory_number import (
 )
 from archival_structures.parsers.ead_harvest import local_name
 from archival_structures.parsers.ead_start_end_year import get_begin_end_year
+from archival_structures.parsers.ead_text import element_text
 
 if TYPE_CHECKING:
     from archival_structures.parsers.ead_tree import EADComponent, UnitID
@@ -275,7 +276,7 @@ def parse_physdesc(component: "EADComponent") -> Optional[PhysDesc]:
                 extent = text
             elif name == "physfacet":
                 physfacet = text
-    raw_text = " ".join("".join(element.itertext()).split()) or None
+    raw_text = element_text(element) or None
     return PhysDesc(extent=extent, physfacet=physfacet, raw_text=raw_text)
 
 

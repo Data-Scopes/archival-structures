@@ -49,8 +49,16 @@ from archival_structures.parsers.ead_harvest import (
     local_name,
     normalise_level,
 )
+from archival_structures.parsers.ead_text import element_text
 
 logger = logging.getLogger(__name__)
+
+
+def make_node_id(archive_id: str, index_path: Tuple[int, ...]) -> str:
+    """`f"{archive_id}:{'.'.join(map(str, index_path))}"`; `archive_id` must not contain ':'."""
+    if ":" in archive_id:
+        raise ValueError(f"archive_id must not contain ':': {archive_id!r}")
+    return f"{archive_id}:{'.'.join(map(str, index_path))}"
 
 
 @dataclass
@@ -79,9 +87,20 @@ class UnitID:
         return f"UnitID({', '.join(bits)})"
 
 
-@dataclass
+@dataclass(eq=False)
 class EADComponent:
     """One EAD component (`<c>` or `<c01>`..`<c12>`), whatever its `@level` is or isn't.
+
+    Three different notions of "the same component", deliberately kept apart:
+
+    - **identity** -- the same Python object. `==` and `hash()` are identity-based
+      (`eq=False`), so components work as set members and dict keys. Two parses of the same
+      file give components that are *not* `==`.
+    - **node id** -- the same *position* in one finding aid: `node_id(archive_id)` is
+      `"<archive_id>:<index_path joined by '.'>"`, e.g. `"1.01.02:0.3.12"`. Stable across
+      re-parses of the same input; not comparable across different exports of an archive.
+    - **persistent id** -- the same *archival unit* across exports: `persistent_id`, the value
+      of `<unitid type="urn:uuid">` where the source provides one, else `None`.
 
     Deliberately has no level-specific fields or methods: nothing here branches on `level`
     being `"series"` versus `"file"` versus an unrecognised `otherlevel` value, because Step 2
@@ -129,6 +148,29 @@ class EADComponent:
     @property
     def depth(self) -> int:
         return len(self.index_path)
+
+    @property
+    def persistent_id(self) -> Optional[str]:
+        """The value of the first non-empty `<unitid type="urn:uuid">`, else None."""
+        for unitid in self.unitids:
+            if unitid.value and (unitid.type or "").strip().lower() == "urn:uuid":
+                return unitid.value.strip()
+        return None
+
+    def node_id(self, archive_id: str) -> str:
+        """Position-based id `"<archive_id>:<i>.<j>..."` (see the class docstring)."""
+        return make_node_id(archive_id, self.index_path)
+
+    def parent_id(self, archive_id: str) -> Optional[str]:
+        """`node_id` of the parent, or None for a root component."""
+        if len(self.index_path) <= 1:
+            return None
+        return make_node_id(archive_id, self.index_path[:-1])
+
+    def ancestor_ids(self, archive_id: str) -> List[str]:
+        """`node_id`s of the ancestors, root first, not including this component."""
+        return [make_node_id(archive_id, self.index_path[:n])
+                for n in range(1, len(self.index_path))]
 
     def unitid_values(self) -> List[str]:
         """Non-empty `<unitid>` text values, in document order."""
@@ -189,6 +231,17 @@ class EADFindingAid:
         for root in self.roots:
             yield from root.walk()
 
+    @property
+    def default_archive_id(self) -> str:
+        """`eadid` (e.g. "1.01.02"), falling back to the file stem; ':' replaced by '_'."""
+        return (self.eadid or self.path.stem).replace(":", "_")
+
+    def iter_node_ids(self, archive_id: Optional[str] = None) -> Iterator[Tuple[str, EADComponent]]:
+        """`(node_id, component)` for every component, pre-order."""
+        archive_id = self.default_archive_id if archive_id is None else archive_id
+        for component in self.walk():
+            yield component.node_id(archive_id), component
+
     def components_at(self, level: str) -> List[EADComponent]:
         return [c for c in self.walk() if c.level == level]
 
@@ -211,12 +264,12 @@ def _find_did(element) -> Optional[etree._Element]:
 def _text_of(element) -> Optional[str]:
     """An element's full text content, whitespace-normalised (handles e.g. an embedded
     `<unitdate>` inside `<unittitle>` -- Step 0 found the legacy parser's bespoke handling of
-    this buggy; a plain `itertext()` join sidesteps that class of bug rather than repeating it).
+    this buggy; a raw walk sidesteps that class of bug rather than repeating it; `<lb/>` becomes a space,
+    see `ead_text.element_text`).
     """
     if element is None:
         return None
-    text = " ".join("".join(element.itertext()).split())
-    return text or None
+    return element_text(element) or None
 
 
 def _build_unitid(element) -> UnitID:

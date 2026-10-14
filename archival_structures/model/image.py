@@ -7,12 +7,15 @@ scan+thumbnail(+canvas) combination so call sites never re-derive the scaling ma
 `Box` is the plain rectangle type these transforms operate on.
 """
 
+from __future__ import annotations
+
 import numpy as np
 from dataclasses import dataclass
-from typing import Dict, Union
+from typing import TYPE_CHECKING, Dict, Union
 
-import cv2
-from PIL import Image
+if TYPE_CHECKING:  # type-only: keep cv2/PIL (the [vision] extra) out of the core import path
+    import cv2
+    from PIL import Image
 
 
 @dataclass
