@@ -5,7 +5,7 @@
 
 - **Updated:** 2026-10-14, by the phase review (Opus)
 - **State:** done (reviewed: accept with follow-ups, [REVIEW](REVIEW.md))
-- **Released in:** not yet; recommended **v0.7.0**
+- **Released in:** v0.7.0
 
 ## Steps
 

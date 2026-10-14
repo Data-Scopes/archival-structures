@@ -4,7 +4,7 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
-## Unreleased (after v0.6.0)
+## v0.7.0 (2026-10-14)
 
 ### Phase 03 review fix: `intra_document_swap` provenance (bug fix)
 
