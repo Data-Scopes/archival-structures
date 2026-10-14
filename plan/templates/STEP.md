@@ -51,7 +51,12 @@ to change, and why.>
   with an explicit output path into the scratchpad, never with its default. When a script's
   default output path is a module constant that another script patches, resolve it at call
   time. (Phase 03: F03-09.7, a stored CSV overwritten through a default bound at definition
-  time.)
+  time.) When an A/B run loads a saved copy of an original module, set its `__file__` to the
+  real module path if it derives paths from `__file__` (phase 04, step 12b).
+- An error-analysis sample ("read 30 differing cases") says what to do if there are fewer:
+  "all of them, if any".
+- When steps run in parallel, shared files (changelog, report, `STATUS.md`, `PROGRESS.md`) are
+  edited only with Edit, never by a scripted read-modify-write, so a concurrent edit isn't lost.
 
 ## Tests
 

@@ -4,6 +4,71 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.8.0 (2026-10-14)
+
+### Step 12: page numbering and GLOBALISE loader (C11)
+
+- New module `archival_structures.analysis.page_numbering` (additive; numpy and pandas only):
+  `AlignmentConfig(mode, runs, extrap, dup_first)`, `CONFIDENCE_BANDS`,
+  `longest_increasing_chain`, `main_chain`, `numbering_restarts`, `numbering_mode`,
+  `interpolate_folio_to_scan`, `confidence_band`, `align_documents`,
+  `align_all(..., *, inventory_column="inventory_number")` (no `n_sections` column; raises
+  `ValueError` on a non-unique index), `anchors_array`, `page_number_anchors` (anchors from a
+  text-layer region table).
+- New module `archival_structures.datasets.globalise_index`: `GLOBALISE_INDEX_COLUMNS`,
+  `load_globalise_index(path, inventories=None, columns=...)`.
+- Output equals NLP's `globalise_alignment` for 6/6 configs over the whole index.
+- **NLP (step 12b):** `Config` -> `AlignmentConfig`, `load_index` -> `load_globalise_index`,
+  `lis_indices`/`main_chain`/`extra_runs`/`numbering_mode`/`_interp`/`_band`/`align_inventory`/
+  `align_all` -> the names above (the shim adds back `n_sections`), `scan_no` -> `scan_number`.
+- **NLP switched (step 12b, 2026-10-14):** `startpage/globalise_alignment.py` is now a shim over these
+  modules; the 9 CSVs and manifest of `scripts/build_globalise_alignment.py` are byte-identical to the
+  stored ones and to a run of the original module (`scripts/verify_as_globalise_alignment.py`).
+
+### Step 11: scan-id helpers (C13)
+
+- New module `archival_structures.model.scan_id` (additive, nothing existing changes):
+  `ScanId` (frozen, ordered dataclass: `institution`, `archive`, `inventory`, `number`, `ext`;
+  `prefix`, `from_prefix`, `format(*, digits=4, ext=None)`, `with_number`,
+  `parse(scan_id, *, digits=4, prefix=None)`, `try_parse`), `InvalidScanIdError`,
+  `scan_number(scan_id, *, digits=None)`, `parse_doc_id(doc_id, *, marker="-text_region-")`,
+  constants `NA_INSTITUTION`, `DEFAULT_DIGITS`.
+- **LotA:** `archival_language/ead/adapters.py` now imports `ScanId` and `_BaseAdapter.scan_id` /
+  `parse_scan_id` delegate to it; same signatures and results (`.jpg` ids still give `None`).
+- NLP: `globalise_alignment.scan_no` now delegates to `scan_number` (step 12b); it rejects ids that
+  do not follow `NL-HaNA_<archive>_<inv>_<NNNN>`; none of 64,505 anchor, 269,383 spine and 21,623
+  annotation rows is rejected.
+
+### Step 10: sequence decoders (C9)
+
+- New package `archival_structures.stream_analysis.decoding`, ported from NLP's
+  `startpage/semi_markov.py`, `crf_sequence.py`, `bilstm_sequence.py` and the generic parts of
+  `scripts/train_multitask_crf.py` / `train_semi_markov_duration.py`. Not exported from
+  `stream_analysis`. `semi_markov` names (`EPS`, `fit_lognormal_duration`, `log_duration_pmf`,
+  `decode_semi_markov`) import eagerly (numpy + scipy); `crf` (`NEG_INF`, `CRFSequence`,
+  `LinearChainCRF`, `start_score_from_emissions`, `collapsed_start_f1`, `viterbi_start_f1`,
+  `train_crf`, `decode_core`) and `bilstm` (`BiLSTMTagger`) resolve lazily, so importing the
+  package never imports torch.
+- Differences from the NLP originals: `decode_semi_markov` returns `list[bool]` (NLP: 0/1
+  ints) and raises `ValueError` for `max_duration < 1` or a `log_pmf` shorter than
+  `max_duration`; `log_duration_pmf` raises `ValueError` (NLP: `assert`) when there is no
+  mass; `_lognormal_cdf` uses `scipy.special.ndtr` (bit-identical to `norm.cdf`);
+  `start_score_from_emissions(model, features, start_states=(0,))`, `collapsed_start_f1` and
+  `train_crf(..., n_states=3, start_states=(0,), seed=0, *, lr, max_epochs, patience)` take
+  state ids instead of NLP's constants and string labels; `decode_core` returns bool labels.
+  `START/INSIDE/END` stay in NLP. Same weights and F1 as NLP for the same seed (see report).
+- `scipy>=1.10` is now a core dependency in `pyproject.toml` (`poetry.lock` not regenerated).
+- **Affected sibling imports:** NLP's `startpage.semi_markov`, `crf_sequence`,
+  `bilstm_sequence` and the scripts' training loop (step 10b, below; the shim converts the bool
+  output back to 0/1).
+- **NLP switched (step 10b):** `src/startpage/semi_markov.py`, `crf_sequence.py` and
+  `bilstm_sequence.py` re-export from AS; `scripts/train_crf_sequence.py` (`dev_f1`, `train_crf`),
+  `scripts/train_multitask_crf.py` (`collapsed_f1`, `dev_f1`, `train_crf`, `decode_sequences`) and
+  `scripts/train_semi_markov_duration.py` (`start_score_from_emissions`) delegate to
+  `viterbi_start_f1`, `collapsed_start_f1`, `train_crf`, `decode_core` and
+  `start_score_from_emissions`. Stored NLP outputs reproduce byte for byte
+  (`scripts/verify_as_decoders.py`). NLP names and signatures are unchanged.
+
 ## v0.7.0 (2026-10-14)
 
 ### Phase 03 review fix: `intra_document_swap` provenance (bug fix)

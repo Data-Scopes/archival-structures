@@ -6132,4 +6132,4 @@ vision = ["hdbscan", "opencv-python", "pillow", "ruptures", "scikit-image", "sci
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<3.15"
-content-hash = "c7f4014caf5215bbcf24e3a16c8dcd454e90e80cf823ed1b7f7387bd22bb8bf3"
+content-hash = "2f7d02a3ce1dfdcb2f6589b4f260ca3583bbb13ee888fb1a1871d080eb34c125"
