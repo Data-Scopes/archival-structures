@@ -341,6 +341,64 @@ integer pixel, so width-based and height-based scale factors diverge slightly (b
 observed cases) -- expected and inherent, not a bug, but something a coordinate-transform
 consumer should round-trip-tolerant for rather than assume exactness.
 
+## EAD finding aids
+
+These come from phase 02 (LotA moving its EAD logic into AS). The full evidence is in
+`reports/phase-02-ead-for-lota.md`; the IDs in brackets are its finding IDs.
+
+**An archive's own id is often not its `<eadid>`, so pass `archive_id` to the frame builders.**
+{func}`~archival_structures.parsers.ead_views.unit_of_description_frame` and
+{func}`~archival_structures.parsers.ead_views.to_frame` prefix `node_id` with
+`finding_aid.default_archive_id` unless given `archive_id`. In 7 of LotA's 9 archives the two
+differ: LotA's `NL-AsdSAA_89` has eadid `89`, and `GB-3624_oh` has `gb3624-oh`. Without the
+argument, the frame's node ids don't join to the caller's own ids (F02-03b.2).
+
+**A handle is not evidence that scans exist.**
+{attr}`~archival_structures.parsers.ead_digital.DigitisationSummary.is_digitised` is True for
+any of the four mechanisms, including a bare handle. The Nationaal Archief assigns a handle to
+every inventory number, so on SG (`NL-HaNA_1.01.02`) `is_digitised` is true for 17,936 of 17,937
+units, but only 10,857 (60.5%) have a `<dao>`. Use
+{meth}`~archival_structures.parsers.ead_digital.DigitisationSummary.has_evidence` with the
+mechanisms that count as evidence for that archive (`{"dao"}` for the NA). The 7,079 SG units
+with a handle but no `<dao>` come in whole series, e.g. 4,012 of 4,468 in series 5.2, against 55
+of 3,847 in the resolutions. That fits series not yet scanned rather than scattered missing
+`<dao>`s. In `NL-ZlCO_0266`, 338 of 386 units have only a handle (F02-04.2, F02-R.3).
+
+**Scope notes point into other archives; never join such a reference to the current
+inventory.** 91 SG and VOC scope notes name another archive's code before the inventory number.
+83 point to Aanwinsten (`Zie Aanwinsten, 1.11.01.01, inv.nr. 687`), but there are also
+`2.01.27.01`, `1.01.02` and `1.10.110`.
+{class}`~archival_structures.parsers.ead_scope_notes.ScopeReference` carries the code in
+`target_archive`, so `inv.nr. 687` there must not be read as VOC's own 687 (F02-05.1, F02-05.5).
+`target_archive` is None both when no code is written and when the code equals the
+`archive_id` passed in, by plain string comparison. Pass the bare NA code (`1.04.02`), not a
+prefixed id (`NL-HaNA_1.04.02`), or a note naming its own archive will look cross-archive
+(F02-R.6). Notes without an `inv.nr.` cue (`zie Aanwinsten, 1.11.01.01 (1893 29r)`) yield no
+reference at all (F02-05.6).
+
+**Structural `<unitdate>` excision is exact, and its markers live in the text walk, not the
+tree.** {func}`~archival_structures.parsers.ead_fields.split_unittitle_dates` brackets each
+direct `<unitdate>` child with control characters during the text walk. lxml rejects control
+characters in element text, so they cannot be put into a copied tree (F02-P.3). On all 40,207
+titles of SG, VOC and `NL-HaNA_2.10.01` with a `<unitdate>` child, every span reproduces the
+child's text exactly, and no title has a `<unitdate>` deeper than a direct child (F02-R.5).
+Searching for the date string instead would be wrong: in 6,263 VOC titles the same date string
+also occurs as plain text (`1699 1699`) (F02-06.4).
+
+**Cutting the date often leaves a stray separator in the title prose.** After excision,
+`prose` ends in `,`, `;` or `:` in 10,004 of 22,197 SG titles (45%), typically `..., aan
+griffier Fagel,` from `..., aan griffier Fagel, 1690 april 18`; 119 SG titles contain `, ,`
+(`Brieven van ..., , , en`). VOC has 56 and `NL-HaNA_2.10.01` has 4. Strip trailing separators
+if the prose feeds a tokeniser or an n-gram count (F02-R.4, F02-06.5).
+
+**A line break before a quote adds no space, and in this corpus that costs nothing.**
+{func}`~archival_structures.parsers.ead_text.element_text` drops the `<lb/>` space before
+`. , ; : ! ? ) ]` and before the quotes `'`, `"`, `’`, `”`, so `1674<lb/>'` is `1674'`.
+The trade-off is that an ASCII quote that *opens* a quotation after a line break loses its space
+(`a<lb/>"b"` gives `a"b"`). Across LotA's 9 archives' titles and the SG and VOC scope notes, the
+quote rule changed exactly 3 SG titles, all closing quotes, so the trade-off has no instance
+there (F02-03c.4, F02-R.7).
+
 ## Tooling
 
 **ipywidgets v8 silently drops the old `overflow_x`/`overflow_y` Layout properties** (no error,

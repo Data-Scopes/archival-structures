@@ -48,14 +48,15 @@ def _ancestor_titles(component: EADComponent) -> List[Optional[str]]:
     return [a.title for a in component.ancestors()]
 
 
-def _row_from_component(component: EADComponent, max_ancestry: int, finding_aid: EADFindingAid) -> dict:
+def _row_from_component(component: EADComponent, max_ancestry: int, finding_aid: EADFindingAid,
+                        archive_id: str) -> dict:
     ancestors = _ancestor_titles(component)
     ancestors = ancestors + [None] * (max_ancestry - len(ancestors))
     inventory = identify_inventory_number(component)
     date = parse_unitdate(component)
     digital = summarise_digitisation(component)
     row = {
-        "node_id": component.node_id(finding_aid.default_archive_id),
+        "node_id": component.node_id(archive_id),
         "persistent_id": component.persistent_id,
         "path": " > ".join(t for t in _ancestor_titles(component) if t),
         "level": component.level,
@@ -78,9 +79,12 @@ def _ancestor_columns(max_ancestry: int) -> List[str]:
     return [f"ancestor_{i}" for i in range(1, max_ancestry + 1)]
 
 
-def _frame_from_components(components: List[EADComponent], finding_aid: EADFindingAid) -> pd.DataFrame:
+def _frame_from_components(components: List[EADComponent], finding_aid: EADFindingAid,
+                           archive_id: Optional[str] = None) -> pd.DataFrame:
+    if archive_id is None:
+        archive_id = finding_aid.default_archive_id
     max_ancestry = max((len(c.ancestors()) for c in components), default=0)
-    rows = [_row_from_component(c, max_ancestry, finding_aid) for c in components]
+    rows = [_row_from_component(c, max_ancestry, finding_aid, archive_id) for c in components]
     columns = (["node_id", "persistent_id", "path"] + _ancestor_columns(max_ancestry) +
                ["level", "title", "inventory_number", "inventory_number_rule", "unitdate",
                 "year_begin", "year_end", "digitisation_mechanisms", "n_scans_known",
@@ -88,7 +92,8 @@ def _frame_from_components(components: List[EADComponent], finding_aid: EADFindi
     return pd.DataFrame(rows, columns=columns)
 
 
-def to_frame(finding_aid: EADFindingAid, level: str) -> pd.DataFrame:
+def to_frame(finding_aid: EADFindingAid, level: str,
+             archive_id: Optional[str] = None) -> pd.DataFrame:
     """One row per component at `level` (a normalised level string -- `"file"`, `"item"`, an
     `"otherlevel:<value>"`, or `"(none)"`), with dynamically-sized ancestor-title columns.
 
@@ -96,12 +101,17 @@ def to_frame(finding_aid: EADFindingAid, level: str) -> pd.DataFrame:
     `unit_of_description_frame`'s job. `to_frame` is for when the caller already knows which
     level they want (e.g. Step 5's `level="asset"`-shaped question, or comparing one named level
     across finding aids that do share a convention).
+
+    `archive_id` is the prefix of the `node_id` column (`make_node_id(archive_id, index_path)`).
+    `None` means `finding_aid.default_archive_id`; pass the caller's own id when it differs from
+    the EAD's `<eadid>` (e.g. LotA's `NL-AsdSAA_89` for eadid `89`).
     """
     components = [c for c in finding_aid.walk() if c.level == level]
-    return _frame_from_components(components, finding_aid)
+    return _frame_from_components(components, finding_aid, archive_id)
 
 
-def unit_of_description_frame(finding_aid: EADFindingAid) -> pd.DataFrame:
+def unit_of_description_frame(finding_aid: EADFindingAid,
+                              archive_id: Optional[str] = None) -> pd.DataFrame:
     """One row per component that is *the* thing being described -- identified functionally, by
     carrying a resolved inventory number, not by its `@level` name.
 
@@ -120,6 +130,9 @@ def unit_of_description_frame(finding_aid: EADFindingAid) -> pd.DataFrame:
     *ancestor* instead of resolved *descendant* -- the wrong direction, silently correct only
     because no real finding aid currently has a resolved series with a resolved child. Fixed
     before that stopped being true rather than after.
+
+    `archive_id` is the prefix of the `node_id` column, as in `to_frame`: `None` means
+    `finding_aid.default_archive_id`.
     """
     resolved = [c for c in finding_aid.walk() if identify_inventory_number(c)]
     resolved_set = set(resolved)
@@ -129,7 +142,7 @@ def unit_of_description_frame(finding_aid: EADFindingAid) -> pd.DataFrame:
                   for descendant in component.walk() if descendant is not component)
 
     rows_components = [c for c in resolved if not has_resolved_descendant(c)]
-    return _frame_from_components(rows_components, finding_aid)
+    return _frame_from_components(rows_components, finding_aid, archive_id)
 
 
 # ---------------------------------------------------------------------------------------------

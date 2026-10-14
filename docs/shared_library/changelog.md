@@ -4,7 +4,97 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
-## Unreleased (after v0.4.1)
+## Unreleased (after v0.5.0)
+
+### Step 6: `split_unittitle_dates` (C4); LotA `lb_adjusted` retired
+
+- New function `archival_structures.parsers.ead_fields.split_unittitle_dates(unittitle_element)
+  -> (prose, spans)`: one span per direct `<unitdate>` child (`None` for an empty one), into
+  `element_text(unittitle_element)`; `prose` is that text with the spans cut out. Purely
+  additive in AS.
+- `parsers/ead_text.py` gets a private hook (`_SPAN_START`, `_SPAN_END`, `_raw_marked_text`; the
+  `<lb/>` no-space-before regex ignores the markers). `element_text` and `raw_element_text` are
+  unchanged.
+- **LotA imports changed:** `facets/title_norm.py` calls `ead_fields.split_unittitle_dates`. Deleted
+  there: `_structural_date_spans`, `_structural_text_and_prose`, `_collapse_with_map`,
+  `_unitdate_children`, `_retag_ranges`, the sentinel constants and the regex fallback
+  (`date_locator == "fallback"` can no longer occur). **Removed:** `NormalisedTitle.lb_adjusted`,
+  the `lb_adjusted` column of `title_frame` / `*-normalised-titles.tsv.gz`, and the census column
+  `n_lb_adjusted` (`cli/normalise_titles.py`). All other title columns and census cells are
+  unchanged on the 9 archives (0 changed cells).
+
+### Step 5: scope-note parser (C3) with cross-archive references
+
+- New module `archival_structures.parsers.ead_scope_notes`: `ScopeNote`, `ScopeReference`,
+  `ShapeRule`, `NA_SHAPE_RULES`, `classify_shape(text, tags, rules=NA_SHAPE_RULES)`,
+  `ReferencePatterns`, `NA_REFERENCE_PATTERNS`, `descendant_tags`, `LB_TAG`,
+  `parse_scope_notes(component, archive_id, *, source_path, tags, shape_rules, patterns)`,
+  `iter_scope_notes(finding_aid, ...)` and `scope_notes_frame(finding_aid, ...)`. Purely
+  additive in AS.
+- `ScopeReference` gains `target_archive: str | None` (None = the current archive). The NA
+  inventory pattern reads an optional archive code before the cue (`Zie Aanwinsten, 1.11.01.01,
+  inv.nr. 687`), and the number list stops before an archive code that starts a new reference.
+  **Behaviour change vs LotA's old parser:** such references now carry `target_archive` and must
+  not be joined to the current archive's inventory.
+- `target_archive` is also None when the written code *equals* the `archive_id` passed in
+  (string equality). That holds for LotA's SG and VOC, whose ids are the bare NA codes
+  `1.01.02`/`1.04.02`. A caller whose id carries a prefix (e.g. `NL-HaNA_2.10.01`) would see its
+  own code as a target (phase-02 review, F02-R.6).
+- `_segments` applies the `element_text` rule: a `<lb/>` directly before punctuation adds no
+  space (`Eems<lb/>. Met` is `Eems. Met`). The AS copy differs from LotA's old `_segments` only
+  here; SG and VOC `segments` are unchanged (0 cells).
+- **LotA imports changed:** `ead/scopecontent.py` (`ScopeNote`, `ScopeReference`, and
+  `parse_scope_notes` as `_parse_component`), `ead/scopecontent_survey.py` (`LB_TAG`,
+  `NA_SHAPE_RULES`, `ShapeRule`, `classify_shape`, `descendant_tags`; `SHAPE_RULES` kept as an
+  alias), `cli/parse_scopecontent.py` (appends `:{target_archive}` to a serialised reference
+  only when it is set). On SG + VOC only the `references` column changes: 91 cells, all gained a
+  suffix.
+
+### Step 3c follow-up: `element_text` drops the `<lb/>` space before quotes
+
+- `ead_text.element_text` / `raw_element_text`: a `<lb/>` directly before `'`, `"`, `\u2019` or
+  `\u201d` now contributes nothing, like the existing `. , ; : ! ? ) ]` set (`1674<lb/>'` is
+  `1674'`, not `1674 '`). Behaviour change, no signature change. Trade-off (user decision,
+  2026-10-14): an ASCII quote that *opens* a quotation after a line break (`a<lb/>"b"`) now loses
+  its space (`a"b"`).
+- **Affected LotA imports:** `facets/title_norm.py`, `ead/scopecontent.py`,
+  `ead/scopecontent_survey.py` (all via `element_text`/`raw_element_text`). Across the SG and
+  VOC titles, 3 SG titles change (`1.01.02:5.2.0.4.2.69`, `5.2.4.85`, `5.2.4.186`); the 7 other
+  archives and all scope notes are unchanged.
+
+### Step 4: `DigitisationSummary.has_evidence(mechanisms)` (C5)
+
+- Added `ead_digital.MECHANISM_NAMES` (`("dao", "daogrp", "assets", "handle")`) and
+  `DigitisationSummary.has_evidence(mechanisms)`: True if the component carries any of the
+  given mechanisms. A bare `str` raises `TypeError`; names outside `MECHANISM_NAMES` raise
+  `ValueError`; an empty collection gives False. Backwards compatible: purely additive.
+- `is_digitised` is unchanged (handle-inclusive); its docstring now warns that a handle is
+  not evidence that scans exist.
+- **Sibling code changed in the same step (LotA):** `ead/digitisation.py` and
+  `corpus/coverage.py` delete their private `_has_evidence` helpers and call
+  `summary.has_evidence(...)`; `NodeDigitisation` gains a last field `summary`
+  (`compare=False`, `repr=False`).
+
+### Step 3b: `archive_id` on the EAD frame builders; LotA uses AS node ids
+
+- `ead_views.to_frame(finding_aid, level, archive_id=None)` and
+  `ead_views.unit_of_description_frame(finding_aid, archive_id=None)` take an optional
+  `archive_id`, the prefix of the `node_id` column. `None` means
+  `finding_aid.default_archive_id`, so the default frames are unchanged. A caller passes its
+  own id when it differs from the EAD's `<eadid>`. In 7 of LotA's 9 archives it differs: e.g.
+  LotA `NL-AsdSAA_89` has eadid `89`, and `GB-3624_oh` has `gb3624-oh`.
+- **Sibling code changed in the same step (LotA):**
+  - `ead/hierarchy.py`: `_node_id` is deleted and replaced by `EADComponent.node_id`. The
+    node index is keyed by the component itself, not `id(component)`. `frame()` takes the AS
+    `node_id` column (built with `archive_id=self.archive_id`) instead of joining on `citation`.
+  - `model/node.py`: `ArchiveNode.parent_id`/`ancestor_ids` use `make_node_id`.
+  - No LotA output changes. Across all 9 archives, node ids and `frame()` rows and columns are
+    identical. Details are in LotA `STATUS.md` (2026-10-14, AS step 3b).
+
+## v0.5.0 (2026-10-14)
+
+Steps 1–3 (heading added by the phase-02 review; the release was tagged with these entries still
+under *Unreleased*).
 
 ### Step 2: EAD text across `<lb/>` (C1)
 

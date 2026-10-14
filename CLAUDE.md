@@ -62,6 +62,12 @@ This file is loaded automatically. Do not restate it back to the user.
   - models fit on the corpus whose training split does not nest in the evaluation split;
   - features computed from ground truth, such as distance to the previous start;
   - normalisation statistics fitted using labels.
+- **Opus plans and reviews, Sonnet implements.** Work runs as phases of steps under `plan/`
+  (protocol in `plan/README.md`, prompts in `plan/PROMPTS.md`). Each step and each review is a
+  new session. Phase planning and phase review use Opus. Implementation steps use Sonnet, so
+  every step brief must be complete enough to implement without exploring the code base. This
+  includes subagents: an implementing subagent gets `model: "sonnet"` and a self-contained
+  prompt.
 - "Section" is ambiguous across levels. Always qualify it (e.g. *volume section*,
   *within-document section*) or name its type; see the glossary in `docs/definitions/`.
 

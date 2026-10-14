@@ -13,7 +13,10 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 
 from archival_structures.model.inventory_number import InventoryNumber
+from lxml import etree
+
 from archival_structures.parsers import ead_fields, ead_tree
+from archival_structures.parsers.ead_text import element_text
 
 
 def _component(xml: str) -> ead_tree.EADComponent:
@@ -303,6 +306,123 @@ class TestControlAccess(unittest.TestCase):
     def test_no_controlaccess_returns_empty_list(self):
         component = _component('<c level="file"><did><unittitle/></did></c>')
         self.assertEqual([], ead_fields.parse_controlaccess(component))
+
+
+_EAD_DIR = Path(__file__).resolve().parent.parent / "data" / "metadata" / "eads"
+_REAL_SG = _EAD_DIR / "NL-HaNA_1.01.02.xml"
+_REAL_VOC = _EAD_DIR / "NL-HaNA_1.04.02.xml"
+
+
+def _split(xml: str):
+    el = etree.fromstring(xml)
+    text = element_text(el)
+    prose, spans = ead_fields.split_unittitle_dates(el)
+    return text, prose, spans
+
+
+def _cut(text, spans):
+    return [text[s:e] if (s, e) != (None, None) else None for s, e in (sp or (None, None) for sp in spans)]
+
+
+class TestSplitUnittitleDates(unittest.TestCase):
+
+    def test_lb_and_unitdate(self):
+        text, prose, spans = _split(
+            '<unittitle>Brief van de <lb/>derde<unitdate normal="1650-09">September 1650'
+            '</unitdate> daarna</unittitle>'
+        )
+        self.assertEqual(["September 1650"], _cut(text, spans))
+        self.assertNotIn("September", prose)
+        self.assertNotIn("1650", prose)
+
+    def test_repeated_year_located_structurally(self):
+        text, prose, spans = _split(
+            '<unittitle>1768. Eerste boek, eerste deel <unitdate normal="1768">1768</unitdate>'
+            '</unittitle>'
+        )
+        self.assertEqual(text.rindex("1768"), spans[0][0])
+        self.assertTrue(prose.startswith("1768."))
+
+    def test_double_space_in_date(self):
+        text, prose, spans = _split(
+            '<unittitle>Stukken <unitdate normal="1576-10/1577-05">1576 oktober 1 - 1577 mei  18'
+            '</unitdate> ontvangen</unittitle>'
+        )
+        s, e = spans[0]
+        self.assertEqual("1576 oktober 1 - 1577 mei 18", " ".join(text[s:e].split()))
+        self.assertEqual("Stukken ontvangen", prose)
+
+    def test_two_children(self):
+        text, prose, spans = _split(
+            '<unittitle>Brief <unitdate normal="1600">1600</unitdate> en '
+            '<unitdate normal="1601">1601 mei</unitdate> klaar</unittitle>'
+        )
+        self.assertEqual(["1600", "1601 mei"], _cut(text, spans))
+        self.assertEqual("Brief en klaar", prose)
+
+    def test_unitdate_without_attributes(self):
+        _text, prose, _spans = _split("<unittitle>Brief <unitdate>1600</unitdate> klaar</unittitle>")
+        self.assertEqual("Brief klaar", prose)
+
+    def test_lb_inside_unitdate(self):
+        text, _prose, spans = _split(
+            "<unittitle>Akte <unitdate>1 maart<lb/>1700</unitdate> ok</unittitle>"
+        )
+        self.assertEqual(["1 maart 1700"], _cut(text, spans))
+
+    def test_lb_before_punctuation_after_unitdate(self):
+        text, prose, spans = _split(
+            "<unittitle>Brief <unitdate>1600<lb/></unitdate>. Klaar</unittitle>"
+        )
+        self.assertEqual("Brief 1600. Klaar", text)
+        self.assertEqual(["1600"], _cut(text, spans))
+        self.assertEqual("Brief . Klaar", prose)
+
+    def test_empty_unitdate_gives_none(self):
+        _text, prose, spans = _split("<unittitle>Brief <unitdate/> klaar</unittitle>")
+        self.assertEqual([None], spans)
+        self.assertEqual("Brief klaar", prose)
+
+    def test_no_unitdate(self):
+        text, prose, spans = _split("<unittitle>Brief <emph>klaar</emph></unittitle>")
+        self.assertEqual([], spans)
+        self.assertEqual(text, prose)
+
+    def test_glued_unitdate(self):
+        _text, prose, spans = _split(
+            "<unittitle>derden<unitdate>September</unitdate></unittitle>"
+        )
+        self.assertEqual([(6, 15)], spans)
+        self.assertEqual("derden", prose)
+
+    @unittest.skipUnless(_REAL_SG.exists() and _REAL_VOC.exists(), "real SG/VOC EADs not staged")
+    def test_real_titles_invariant(self):
+        expected = {"SG": (22197, 7, 680), "VOC": (14505, 7, 194)}
+        for name, path in (("SG", _REAL_SG), ("VOC", _REAL_VOC)):
+            fa = ead_tree.parse_ead(path)
+            n = n_none = n_multi = 0
+            for _nid, component in fa.iter_node_ids():
+                el = component.unittitle_element
+                if el is None:
+                    continue
+                children = [
+                    c for c in el if isinstance(c.tag, str) and ead_fields.local_name(c.tag) == "unitdate"
+                ]
+                if not children:
+                    continue
+                text = element_text(el)
+                self.assertEqual(component.title, text)
+                _prose, spans = ead_fields.split_unittitle_dates(el)
+                self.assertEqual(len(children), len(spans))
+                n += 1
+                n_multi += len(children) >= 2
+                for child, span in zip(children, spans):
+                    if span is None:
+                        n_none += 1
+                        self.assertEqual("", element_text(child))
+                    else:
+                        self.assertEqual(element_text(child), text[span[0]:span[1]])
+            self.assertEqual(expected[name], (n, n_none, n_multi), name)
 
 
 if __name__ == "__main__":

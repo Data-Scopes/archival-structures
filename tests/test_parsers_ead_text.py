@@ -44,6 +44,14 @@ def test_lb_before_punctuation_is_dropped():
     assert element_text(_el("<t>a<lb/>(b)</t>")) == "a (b)"
 
 
+def test_lb_before_quote_is_dropped():
+    assert element_text(_el("<t>Dec 1674<lb/>'</t>")) == "Dec 1674'"
+    assert element_text(_el("<t>[...]<lb/>'.</t>")) == "[...]'."
+    assert element_text(_el('<t>liversatien"<lb/>\'</t>')) == 'liversatien"\''
+    assert element_text(_el("<t>a<lb/>\u201d b</t>")) == "a\u201d b"
+    assert element_text(_el("<t>a<lb/>\u2018b</t>")) == "a \u2018b"
+
+
 def test_comment_and_pi_contribute_only_tail():
     assert element_text(_el("<t>a<!-- x -->b<?pi y?> c</t>")) == "ab c"
 

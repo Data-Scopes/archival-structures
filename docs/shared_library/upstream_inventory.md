@@ -531,6 +531,8 @@ where noted: 4–6 follow 2; 8 and 9 follow 7. Steps 14–15 need step 13.
    passed by path, not copied into tests.
 9. **D9.** Move the oracle baseline into AS, **clearly labelled as an oracle** (it uses each
    inventory's own start rate, so it is not a legitimate predictor).
+10. **LotA `lb_adjusted`** (asked after step 2): retire the column. After C1 it is always False.
+    It is removed in step 6 (`plan/phase-02-ead-for-lota/`).
 
 ### SG paragraph TSV decisions (audit questions, 2026-10-14)
 

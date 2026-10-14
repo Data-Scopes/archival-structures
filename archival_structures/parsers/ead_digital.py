@@ -27,7 +27,7 @@ inventory number's real page count.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional
+from typing import Collection, Dict, List, Optional, Tuple
 
 from archival_structures.parsers.ead_harvest import local_name
 
@@ -206,6 +206,9 @@ def parse_handle_urls(component) -> List[str]:
 # Unified summary
 # ---------------------------------------------------------------------------------------------
 
+MECHANISM_NAMES: Tuple[str, ...] = ("dao", "daogrp", "assets", "handle")
+
+
 @dataclass
 class DigitisationSummary:
     """Every digitisation link `component` has, whichever of the four mechanisms it uses (a
@@ -232,7 +235,28 @@ class DigitisationSummary:
 
     @property
     def is_digitised(self) -> bool:
+        """True if any of the four mechanisms is present, **including a bare handle**. A handle
+        is not evidence that scans exist (the Nationaal Archief assigns one to every inventory
+        number); use `has_evidence` with the archive's declared mechanisms for that."""
         return bool(self.mechanisms)
+
+    def has_evidence(self, mechanisms: Collection[str]) -> bool:
+        """Whether this component carries any of `mechanisms`, the mechanisms that the archive
+        declares as evidence that scans exist (e.g. `{"dao"}` for the Nationaal Archief, where
+        every inventory number has a handle whether or not it is digitised).
+        An empty `mechanisms` gives False."""
+        if isinstance(mechanisms, str):
+            raise TypeError(
+                f"mechanisms must be a collection of names, not a string: {mechanisms!r}"
+            )
+        names = set(mechanisms)
+        unknown = names.difference(MECHANISM_NAMES)
+        if unknown:
+            raise ValueError(
+                f"unknown digitisation mechanism(s) {sorted(unknown)}; "
+                f"expected names from {MECHANISM_NAMES}"
+            )
+        return not names.isdisjoint(self.mechanisms)
 
     @property
     def n_scans_known(self) -> Optional[int]:

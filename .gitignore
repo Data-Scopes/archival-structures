@@ -233,3 +233,6 @@ download_thumbnails.py
 /notebooks/demo/resnet_features-*.npy
 /notebooks/demo/ocr_results/
 /notebooks/demo/demonstrating-analysis-of-archival-structures.ipynb
+
+# Reports (pandoc output)
+reports/_build/

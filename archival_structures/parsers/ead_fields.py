@@ -33,7 +33,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass, field
-from typing import TYPE_CHECKING, Dict, List, Optional
+from typing import TYPE_CHECKING, Dict, List, Optional, Tuple
 
 from archival_structures.model.inventory_number import (
     InvalidInventoryNumberError,
@@ -41,7 +41,12 @@ from archival_structures.model.inventory_number import (
 )
 from archival_structures.parsers.ead_harvest import local_name
 from archival_structures.parsers.ead_start_end_year import get_begin_end_year
-from archival_structures.parsers.ead_text import element_text
+from archival_structures.parsers.ead_text import (
+    _SPAN_END,
+    _SPAN_START,
+    _raw_marked_text,
+    element_text,
+)
 
 if TYPE_CHECKING:
     from archival_structures.parsers.ead_tree import EADComponent, UnitID
@@ -244,6 +249,69 @@ def parse_unitdate(component: "EADComponent") -> Optional[UnitDate]:
             if isinstance(child.tag, str) and local_name(child.tag) == "unitdate":
                 return _build_unitdate(child, "unittitle")
     return None
+
+
+def _collapse_with_map(raw: str) -> Tuple[str, List[int]]:
+    """`" ".join(raw.split())` plus, for every non-space raw index, its index in the result
+    (`-1` for a space)."""
+    out: List[str] = []
+    index_map = [-1] * len(raw)
+    pending_space = False
+    for i, ch in enumerate(raw):
+        if ch.isspace():
+            pending_space = True
+            continue
+        if pending_space and out:
+            out.append(" ")
+        pending_space = False
+        out.append(ch)
+        index_map[i] = len(out) - 1
+    return "".join(out), index_map
+
+
+def split_unittitle_dates(unittitle_element) -> Tuple[str, List[Optional[Tuple[int, int]]]]:
+    """Cut the structurally marked dates out of a `<unittitle>`: `(prose, spans)`.
+
+    With `text = element_text(unittitle_element)`, `spans` has one entry per *direct*
+    `<unitdate>` child, in document order: `(s, e)` with `text[s:e] == element_text(child)`, or
+    `None` for a child with no non-space text. `prose` is `text` with each non-`None` span
+    replaced by one space and whitespace collapsed (so two punctuation marks around a cut date
+    never glue). With no such child, `spans == []` and `prose == text`.
+
+    The spans come from one walk of the tree with the children bracketed by markers, then the
+    same whitespace collapse that builds `element_text`; the date is never searched for in the
+    text, so repeated or oddly spaced date strings cannot be confused.
+    """
+    children = [
+        child
+        for child in unittitle_element
+        if isinstance(child.tag, str) and local_name(child.tag) == "unitdate"
+    ]
+    marked = _raw_marked_text(unittitle_element, children)
+    raw_chars: List[str] = []
+    raw_spans: List[Tuple[int, int]] = []  # in document order of the *start* marker
+    open_at: List[int] = []  # stack of indices into raw_spans
+    for ch in marked:
+        if ch == _SPAN_START:
+            open_at.append(len(raw_spans))
+            raw_spans.append((len(raw_chars), -1))
+        elif ch == _SPAN_END:
+            idx = open_at.pop()
+            raw_spans[idx] = (raw_spans[idx][0], len(raw_chars))
+        else:
+            raw_chars.append(ch)
+    collapsed, index_map = _collapse_with_map("".join(raw_chars))
+    assert collapsed == element_text(unittitle_element)
+    assert len(raw_spans) == len(children)
+
+    spans: List[Optional[Tuple[int, int]]] = []
+    for a, b in raw_spans:
+        mapped = [index_map[i] for i in range(a, b) if index_map[i] != -1]
+        spans.append((mapped[0], mapped[-1] + 1) if mapped else None)
+    prose = collapsed
+    for span in sorted((s for s in spans if s is not None), reverse=True):
+        prose = prose[: span[0]] + " " + prose[span[1] :]
+    return " ".join(prose.split()), spans
 
 
 # ---------------------------------------------------------------------------------------------

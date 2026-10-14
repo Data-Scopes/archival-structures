@@ -10,12 +10,14 @@
 #   make release-dry-run          print the release steps without running them
 #   make test                     run the test suite
 #   make docs                     build the Sphinx docs
+#   make reports                  build reports/*.md to HTML in reports/_build/ (needs pandoc)
+#   make reports-open             ... and open the reports index in a browser
 
 PYTHON ?= .venv/bin/python
 RELEASE = $(PYTHON) scripts/release.py
 
 .PHONY: version check-tags bump bump-patch bump-minor bump-major release release-push \
-	release-github release-dry-run test docs
+	release-github release-dry-run test docs reports reports-open
 
 version:
 	@$(RELEASE) version
@@ -47,3 +49,24 @@ test:
 
 docs:
 	$(MAKE) -C docs html
+
+REPORTS_DIR   = reports
+REPORTS_BUILD = $(REPORTS_DIR)/_build
+
+reports:
+	@command -v pandoc >/dev/null 2>&1 || { echo "pandoc not found (brew install pandoc)"; exit 2; }
+	@mkdir -p $(REPORTS_BUILD)
+	@set -e; for f in $(REPORTS_DIR)/*.md; do \
+	  n=$$(basename "$$f" .md); \
+	  pandoc "$$f" --from gfm --to html5 --standalone --toc --toc-depth=3 \
+	    --metadata pagetitle="$$n" \
+	    --lua-filter $(REPORTS_DIR)/_tools/md-links.lua \
+	    --css $(REPORTS_DIR)/_tools/report.css --embed-resources \
+	    --resource-path=.:$(REPORTS_DIR) --fail-if-warnings \
+	    -o $(REPORTS_BUILD)/$$n.html; \
+	  echo "  $(REPORTS_BUILD)/$$n.html"; \
+	done
+	@chmod -R g+w $(REPORTS_BUILD)
+
+reports-open: reports
+	open $(REPORTS_BUILD)/index.html

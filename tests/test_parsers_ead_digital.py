@@ -193,5 +193,40 @@ class TestSummary(unittest.TestCase):
         self.assertIsNone(ead_digital.summarise_digitisation(component).n_scans_known)
 
 
+class TestHasEvidence(unittest.TestCase):
+
+    _DAO = ('<c level="file"><did><unittitle/>'
+            '<dao role="METS" href="https://service.archief.nl/x"/></did></c>')
+    _HANDLE = ('<c level="file"><did><unitid>1</unitid>'
+               '<unitid audience="internal" type="handle">'
+               'https://hetutrechtsarchief.nl/collectie/x</unitid>'
+               '<unittitle/></did></c>')
+
+    def test_dao_is_evidence_when_declared(self):
+        summary = ead_digital.summarise_digitisation(_component(self._DAO))
+        self.assertTrue(summary.has_evidence({"dao"}))
+        self.assertFalse(summary.has_evidence({"daogrp"}))
+
+    def test_handle_only_is_not_evidence_for_dao_archive(self):
+        summary = ead_digital.summarise_digitisation(_component(self._HANDLE))
+        self.assertTrue(summary.is_digitised)
+        self.assertFalse(summary.has_evidence({"dao"}))
+        self.assertTrue(summary.has_evidence({"handle"}))
+
+    def test_empty_declaration_is_never_evidence(self):
+        summary = ead_digital.summarise_digitisation(_component(self._DAO))
+        self.assertFalse(summary.has_evidence(()))
+
+    def test_unknown_mechanism_name_raises(self):
+        summary = ead_digital.summarise_digitisation(_component(self._DAO))
+        with self.assertRaises(ValueError):
+            summary.has_evidence({"doa"})
+
+    def test_bare_string_raises(self):
+        summary = ead_digital.summarise_digitisation(_component(self._DAO))
+        with self.assertRaises(TypeError):
+            summary.has_evidence("dao")
+
+
 if __name__ == "__main__":
     unittest.main()

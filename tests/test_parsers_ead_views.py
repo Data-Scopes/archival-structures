@@ -138,6 +138,26 @@ class TestUnitOfDescriptionFrame(unittest.TestCase):
         self.assertEqual("A file", frame.iloc[0]["title"])
 
 
+class TestFrameArchiveId(unittest.TestCase):
+
+    def test_archive_id_override_prefixes_node_id(self):
+        finding_aid = ead_tree.parse_ead_string(NO_FILE_LEVEL_EAD)
+        default = ead_views.unit_of_description_frame(finding_aid)
+        overridden = ead_views.unit_of_description_frame(finding_aid, archive_id="X")
+        self.assertEqual(2, len(overridden))
+        self.assertTrue(all(node_id.startswith("X:") for node_id in overridden["node_id"]))
+        self.assertEqual([n.partition(":")[2] for n in default["node_id"]],
+                         [n.partition(":")[2] for n in overridden["node_id"]])
+
+    def test_default_archive_id_unchanged(self):
+        finding_aid = ead_tree.parse_ead_string(NO_FILE_LEVEL_EAD)
+        frame = ead_views.unit_of_description_frame(finding_aid)
+        by_citation = {c.cite(finding_aid.path): c for c in finding_aid.walk()}
+        components = [by_citation[citation] for citation in frame["citation"]]
+        self.assertEqual([c.node_id(finding_aid.default_archive_id) for c in components],
+                         list(frame["node_id"]))
+
+
 class TestLegacyCompatibleFrame(unittest.TestCase):
 
     def test_column_order_matches_get_inventory_info_exactly(self):
