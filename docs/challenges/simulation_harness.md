@@ -178,6 +178,12 @@ Tied to the two segmentation framings in
   Framing-B prediction that gets every single pairwise label exactly right still scores ARI < 1.0,
   because the pairwise-correct grouping still splits one document's pages into two separate
   groups -- exactly the failure mode that example describes.
+- **Floors**: `start_classification_floors(observed, provenance, canonical)` scores the trivial
+  Framing-A baselines (majority, every-k, length prior, and an explicitly labelled ORACLE
+  every-k that uses the stream's own start rate) against `observed_start_labels` with the full
+  segmentation metric suite, so a classifier's number can be read against what no information
+  buys. Without a `train_start_rate` the rate comes from the stream itself
+  (`rate_from_eval_labels=True`), which makes every-k and the length prior rate-oracles too.
 
 ### 6. Code location
 

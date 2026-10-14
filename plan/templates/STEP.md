@@ -46,6 +46,12 @@ to change, and why.>
 - <What not to build, and where it already exists.>
 - <Interfaces that must not change.>
 - Never `git commit`; never bump the version; `chmod g+w` new files.
+- **Protected outputs** (stored results a step reproduces, caches): name them here. Hash them
+  (sha256 and mtime) before the first run and check after every run. Run any sibling script
+  with an explicit output path into the scratchpad, never with its default. When a script's
+  default output path is a module constant that another script patches, resolve it at call
+  time. (Phase 03: F03-09.7, a stored CSV overwritten through a default bound at definition
+  time.)
 
 ## Tests
 

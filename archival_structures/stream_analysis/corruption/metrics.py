@@ -29,6 +29,11 @@ from archival_structures.stream_analysis.corruption.canonical_stream import (
     document_blocks,
 )
 from archival_structures.stream_analysis.corruption.operators import ProvenanceEntry
+from archival_structures.stream_analysis.evaluation import segmentation as _segmentation
+from archival_structures.stream_analysis.evaluation.segmentation import (
+    default_k,
+    page_level_counts,
+)
 
 
 @dataclass(frozen=True)
@@ -48,14 +53,7 @@ def _prf1(tp: int, fp: int, fn: int) -> PRF1:
 
 
 def _score_binary(true_labels: list[bool], predicted_labels: list[bool]) -> PRF1:
-    if len(true_labels) != len(predicted_labels):
-        raise ValueError(
-            f'true_labels ({len(true_labels)}) and predicted_labels '
-            f'({len(predicted_labels)}) must be the same length'
-        )
-    tp = sum(t and p for t, p in zip(true_labels, predicted_labels))
-    fp = sum((not t) and p for t, p in zip(true_labels, predicted_labels))
-    fn = sum(t and (not p) for t, p in zip(true_labels, predicted_labels))
+    tp, fp, fn = page_level_counts(true_labels, predicted_labels)
     return _prf1(tp, fp, fn)
 
 
@@ -102,11 +100,12 @@ def score_start_classification(
     return _score_binary(true_labels, predicted_labels)
 
 
-def _to_gaps(start_labels: list[bool]) -> list[bool]:
-    """Per-position start labels (length n) to per-gap boundary indicators (length n-1):
-    `gaps[i]` is True iff there's a document boundary between position i and i+1, i.e. iff
-    position i+1 is a start position."""
-    return [start_labels[i + 1] for i in range(len(start_labels) - 1)]
+def start_classification_floors(observed, provenance, canonical, **kwargs):
+    """Framing-A floors for one corrupted stream: baseline_floors({"stream": observed_start_labels(...)}, **kwargs)."""
+    from archival_structures.stream_analysis.evaluation.baselines import baseline_floors
+
+    return baseline_floors({"stream": observed_start_labels(observed, provenance, canonical)},
+                           **kwargs)
 
 
 def window_diff(
@@ -119,8 +118,11 @@ def window_diff(
     plus one full false negative.
 
     `k` defaults to half the mean true segment length (the choice used in the original paper),
-    rounded to at least 1. Raises `ValueError` if the two label lists differ in length, or if
-    there are fewer than 2 positions (no gaps to compare) or `k` exceeds the number of gaps.
+    rounded to at least 1. This is a strict wrapper: it raises `ValueError` if the two label
+    lists differ in length, if there are fewer than 2 positions (no gaps to compare), or if `k`
+    is outside 1..number of gaps. Labels must be `bool` (`TypeError` otherwise). See
+    `archival_structures.stream_analysis.evaluation.segmentation.window_diff` for NaN and
+    window-clipping semantics.
     """
     n = len(true_labels)
     if len(predicted_labels) != n:
@@ -131,23 +133,12 @@ def window_diff(
     if n < 2:
         raise ValueError('need at least 2 positions to define any gaps')
 
-    true_gaps = _to_gaps(true_labels)
-    pred_gaps = _to_gaps(predicted_labels)
-    n_gaps = len(true_gaps)
-
+    n_gaps = n - 1
     if k is None:
-        n_boundaries = sum(true_gaps)
-        n_segments = n_boundaries + 1
-        k = max(1, round(n_gaps / (2 * n_segments)))
+        k = default_k(true_labels, "gaps")
     if not (1 <= k <= n_gaps):
         raise ValueError(f'window size k={k} must be between 1 and the number of gaps ({n_gaps})')
-
-    n_windows = n_gaps - k + 1
-    errors = sum(
-        sum(true_gaps[i:i + k]) != sum(pred_gaps[i:i + k])
-        for i in range(n_windows)
-    )
-    return errors / n_windows
+    return _segmentation.window_diff(true_labels, predicted_labels, k=k)
 
 
 # ---------------------------------------------------------------------------

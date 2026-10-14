@@ -65,8 +65,11 @@ def intra_document_swap(
             continue
         i, j = rng.sample(range(start, end), 2)
         stream[i], stream[j] = stream[j], stream[i]
-        provenance[i] = _tag(provenance[i], 'intra_document_swap')
-        provenance[j] = _tag(provenance[j], 'intra_document_swap')
+        # provenance travels with its unit, so position k keeps describing stream[k]
+        provenance[i], provenance[j] = (
+            _tag(provenance[j], 'intra_document_swap'),
+            _tag(provenance[i], 'intra_document_swap'),
+        )
     return stream, provenance
 
 

@@ -4,7 +4,87 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
-## Unreleased (after v0.5.0)
+## Unreleased (after v0.6.0)
+
+### Phase 03 review fix: `intra_document_swap` provenance (bug fix)
+
+- `corruption.operators.intra_document_swap` swapped the two units but left their provenance
+  entries in place, so `provenance[k]` no longer described `observed[k]` and
+  `observed_start_labels` did not follow a moved start page. The entries now move with their
+  units. `swap_and_insertion` inherited the bug and is fixed with it. The other operators were
+  already correct. For the same seed the corrupted stream is unchanged; only the provenance
+  differs. **Corrupted-stream YAMLs written with `intra_document_swap` or `swap_and_insertion`
+  before this fix carry wrong provenance and should be regenerated.** New test:
+  `test_provenance_points_at_the_unit_in_its_position` checks all four operators, 5 seeds each.
+- **Affected sibling imports:** none (no sibling uses the corruption operators).
+
+### Step 7: segmentation evaluation suite (C6)
+
+- New package `archival_structures.stream_analysis.evaluation` (`segmentation`, `aggregate`),
+  ported from NLP's `startpage/evaluation.py`; import from the package, not from
+  `stream_analysis` (no lazy export, because `window_diff` clashes with the corruption one).
+  Labels are `bool` (`check_labels` raises `TypeError` otherwise). `default_k(labels,
+  convention="gaps"|"pages")`; `pk`/`window_diff`/`evaluate_all` take `k=None, *,
+  k_convention="gaps"`. NLP's numbers need `k_convention="pages"`. Length mismatches raise
+  `ValueError`; `WindowClippedWarning` is emitted once per call when k is clipped.
+  `build_eval_frame(..., sequences, sep="/")` renames `scanname` to `page_id`, takes
+  `{inventory: [page_id, ...]}` and raises on duplicate scan ids.
+- **Behaviour change in `corruption.metrics`:** `score_start_classification`,
+  `score_same_document_pairs` and `window_diff` now raise `TypeError` on non-bool labels.
+  `window_diff` keeps its strict `ValueError` contract; values are unchanged. `_to_gaps` removed
+  (private).
+- **Affected sibling imports:** none yet. NLP's `startpage.evaluation` becomes a shim in step 07b
+  (string labels, `scanname` column, tuple-shaped `full_sequences`, `k_convention="pages"`).
+- **Step 07b (NLP, no AS change):** NLP's `startpage.evaluation` is now a shim over this package.
+  It keeps 17 names: `START`, `build_eval_frame`, `page_level_prf`, `page_level_prf_with_counts`,
+  `iter_contiguous_runs`, `tolerance_prf`, `default_k`, `pk`, `window_diff`, `segment_exact_match`,
+  `PerInventoryResult`, `per_inventory`, `start_rate_calibration`, `bootstrap_ci`,
+  `bootstrap_pooled_f1`, `evaluate_all`, `format_report` (plus private `_tolerance_prf_runs`). It
+  converts string labels to bool, extracts page ids from tuple-shaped `full_sequences`, renames
+  `page_id` back to `scanname`, and passes `k_convention="pages"` explicitly (D3). The 21 NLP
+  importers are unchanged; `scripts/verify_as_evaluation_shim.py` shows the stored numbers are
+  reproduced exactly.
+
+### Step 8: chunk splits and validators (C7)
+
+- New module `archival_structures.stream_analysis.evaluation.splits` (also re-exported from
+  `evaluation`). Ported verbatim from NLP's `long_subsequence_chunk_split.py`: `Page`,
+  `Document`, `Chunk`, `SubSequence`, `LongSequenceSplit`, `parse_documents`,
+  `partition_file_into_chunks`, `assign_splits_and_pad_context`,
+  `build_archival_dataset_splits`, `build_subsequences`, `validate_subsequences`. `print`
+  became `logging` (`info` for stats, `warning` for the duplicate NOTE); P2 edge behaviour
+  (10-slot striding, greedy rebalance) is unchanged and documented.
+- New: `pages_from_starts`, `build_long_sequence_split(archival_files, *, ...)`,
+  `build_inventory_held_out(sequences, held_out=None, seed=0, n_held_out=5)`, `core_rows`,
+  `eval_scan_ids`, `SplitValidationError` (an `AssertionError`), `check_no_duplicate_page_ids`,
+  `check_no_document_crosses_partitions`, `check_context_not_scored`, `check_split_coverage`,
+  `check_nested_split`.
+- **Affected sibling imports (NLP):** `startpage/long_subsequence_chunk_split.py` re-exports the
+  AS names and keeps `TRAIN_FRAC`, `DEV_FRAC` and `build_long_sequence_chunk_split` (same
+  signature; the VOC end-id rule is replaced by page adjacency, identical on all 22
+  inventories); `startpage/splits.py` private helpers (`_check_duplicate_page_ids`,
+  `_assert_no_document_split_across_splits`, `_validate_split`, `_select_held_out` returns
+  `None` for seed >= 1, `_build_inventory_held_out`) call AS. All seven cached split CSVs
+  rebuild byte-identically (`scripts/verify_as_splits.py`). NLP's stdout lines "Total Chunks
+  Generated", "Split Distribution" and the duplicate/gap NOTEs now go to `logging`.
+
+### Step 9: trivial baselines (C8)
+
+- New module `archival_structures.stream_analysis.evaluation.baselines` (re-exported from
+  `evaluation`): `majority`, `every_k`, `length_prior`, `oracle_every_k_own_rate` (an ORACLE,
+  not a legitimate predictor), `train_start_rate`, `BaselineRun`, `baseline_suite`,
+  `baseline_floors`. Bool predictions; `length_prior` reproduces NLP's `default_rng` loop seed
+  for seed.
+- New: `evaluation.aggregate.flatten_metrics(results)` (NLP's 23 metric columns, verbatim) and
+  `corruption.start_classification_floors(observed, provenance, canonical, **kwargs)`
+  (re-exported from `corruption`; imports `baselines` lazily).
+- **Affected sibling imports (NLP):** `scripts/run_trivial_baselines.py` imports
+  `baseline_suite`, `eval_scan_ids`, `flatten_metrics`, `train_start_rate` from AS, drops its
+  local copies and gains `--out PATH`. It reproduces the stored CSV in 344 of 360 cells (16
+  random bootstrap cells excluded). `scripts/verify_as_evaluation_shim.py` now takes the
+  pre-refactor helpers from `output/as-phase-03-originals/run_trivial_baselines.py`.
+
+## v0.6.0 (2026-10-14)
 
 ### Step 6: `split_unittitle_dates` (C4); LotA `lb_adjusted` retired
 

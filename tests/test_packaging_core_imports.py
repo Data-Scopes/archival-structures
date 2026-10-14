@@ -43,7 +43,8 @@ def test_core_modules_import_without_extras():
         import archival_structures.model as model
 
         names = ["archival_structures.annotation.ground_truth",
-                 "archival_structures.stream_analysis.corruption"]
+                 "archival_structures.stream_analysis.corruption",
+                 "archival_structures.stream_analysis.evaluation"]
         for pkg in (parsers, model):
             names += [m.name for m in pkgutil.iter_modules(pkg.__path__, pkg.__name__ + ".")]
         assert len(names) > 8, names

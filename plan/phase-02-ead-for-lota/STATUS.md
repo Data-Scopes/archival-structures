@@ -2,7 +2,7 @@
 
 - **Updated:** 2026-10-14, by the phase review (Opus 5.5)
 - **State:** done (reviewed: accept with follow-ups; no review-fixes step)
-- **Released in:** not yet. Recommended: **v0.6.0** (`make bump-minor`, then a release target)
+- **Released in:** v0.6.0
 
 ## Steps
 

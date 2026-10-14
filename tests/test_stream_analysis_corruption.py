@@ -1,6 +1,8 @@
 import random
 from pathlib import Path
 
+import pytest
+
 from archival_structures.annotation.ground_truth import (
     AnnotationElement,
     InventoryGroundTruth,
@@ -11,6 +13,7 @@ from archival_structures.stream_analysis.corruption.canonical_stream import (
     StreamUnit,
     extract_canonical_stream,
 )
+from archival_structures.stream_analysis.corruption.metrics import observed_start_labels
 from archival_structures.stream_analysis.corruption.operators import (
     document_level_swap,
     foreign_document_insertion,
@@ -147,6 +150,50 @@ class TestIntraDocumentSwap:
         )
         assert observed != stream
         assert any(p.events for p in out_provenance)
+
+    def test_start_label_follows_a_moved_start_page(self):
+        # one 6-page document; at rate 1 two of its pages swap. Framing-A ground truth must
+        # follow the canonical start page (d0_p0) to wherever it now sits.
+        stream = _make_stream(6)
+        provenance = initial_provenance(stream)
+        for seed in range(20):
+            observed, out_provenance = intra_document_swap(
+                stream, provenance, rate=1.0, rng=random.Random(seed),
+            )
+            if observed[0] != stream[0]:
+                break
+        else:
+            raise AssertionError('no seed in 0..19 moved the start page')
+        labels = observed_start_labels(observed, out_provenance, stream)
+        assert labels == [u.scan_id == 'd0_p0.jpg' for u in observed]
+        assert labels[0] is False
+
+
+def _apply(operator: str, stream, provenance, rng):
+    if operator == 'swap_and_insertion':
+        return swap_and_insertion(stream, provenance, 1.0, 1.0, rng)
+    fn = {
+        'intra_document_swap': intra_document_swap,
+        'foreign_document_insertion': foreign_document_insertion,
+        'document_level_swap': document_level_swap,
+    }[operator]
+    return fn(stream, provenance, 1.0, rng)
+
+
+@pytest.mark.parametrize('operator', [
+    'intra_document_swap', 'foreign_document_insertion', 'swap_and_insertion',
+    'document_level_swap',
+])
+@pytest.mark.parametrize('seed', range(5))
+def test_provenance_points_at_the_unit_in_its_position(operator, seed):
+    """Every operator: provenance[k] describes observed[k], i.e.
+    canonical[provenance[k].canonical_index] is the unit now at position k."""
+    canonical = _make_stream(4, 3, 5, 2, 6)
+    observed, provenance = _apply(
+        operator, canonical, initial_provenance(canonical), random.Random(seed),
+    )
+    assert len(provenance) == len(observed) == len(canonical)
+    assert [canonical[p.canonical_index] for p in provenance] == observed
 
 
 class TestForeignDocumentInsertion:
