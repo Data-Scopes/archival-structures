@@ -399,6 +399,73 @@ The trade-off is that an ASCII quote that *opens* a quotation after a line break
 quote rule changed exactly 3 SG titles, all closing quotes, so the trade-off has no instance
 there (F02-03c.4, F02-R.7).
 
+## Sequence decoding, scan ids and page numbering
+
+These come from phase 04 (NLP's decoders and folio alignment, and the scan-id parsing of LotA
+and NLP, moving into AS). The full evidence is in
+`reports/phase-04-decoders-and-page-numbering.md`; the IDs in brackets are its finding IDs. The
+VOC numbers are for `NL-HaNA_1.04.02`.
+
+**A semi-Markov decoder is only as good as the start scores it gets, and emission-only CRF
+scores are a poor input on unseen inventories.** `decode_semi_markov` in
+`stream_analysis.decoding.semi_markov` adds a lognormal segment-length prior to per-page start
+scores. Fed `start_score_from_emissions` from a 3-state CRF, it matches the plain CRF on
+long-chunk dev (F1 0.783 against 0.781; F04-10b.2). On the inventory-held-out test split it
+halves F1 (0.168 against 0.352), because it predicts 1.0–4.5% starts against 11.7% true, with
+segments up to the 250-page cap (F04-P.3, F04-10b.3). The prior is not at fault: its fitted
+median (3) matches the gold medians (2–3). The cause is the input. A start at page *i* pays
+off only when its score is above roughly 1 nat. On held-out inventories the emission-only score
+is negative at most gold starts (median −0.65, 22% above 0, against +4.63 and 84% on long-chunk
+dev), and it is the same on the held-out *training* inventories, so this is not a
+generalisation gap. The CRF finds those starts through its END → START transition, which the
+emission-only score leaves out (F04-R.1). Feed the decoder start scores that include the
+transitions, such as the CRF's posterior start marginals. That has not been measured yet.
+
+**With a flat duration prior, ties put forced starts late.** With equal scores and
+`max_duration=3`, a 10-page sequence decodes into segments of lengths [1, 3, 3, 3]: each
+position keeps the longest segment that ends there (F04-10.5). Expect this whenever the scores
+carry no information, e.g. on blank stretches.
+
+**Reproducing a decoder exactly needs the same normal CDF.** `log_duration_pmf` uses
+`scipy.special.ndtr`, which equals `scipy.stats.norm.cdf` bit for bit. An `erfc`-based
+replacement shifts 18 of 500 log-pmf values by up to 6e-13, enough to change a byte comparison
+of stored outputs (F04-P.4).
+
+**The Nationaal Archief scan-id grammar holds without exception on VOC, but scan numbers don't
+start at 1.** `ScanId.parse` (`model.scan_id`) parses all 21,623 ground-truth rows and all
+162,468 distinct ids in 254 sampled text-layer inventories (every suffixed one plus 200
+numeric ones), always with the inventory of the file they came from (F04-11.1, F04-11.2).
+Suffixed inventories (`4848A`, `2352A`–`E`) carry the suffix in their scan ids too. The first
+scan is often `0002`, `0003` or `0007` (`1604B` starts at 0007), so don't treat scan number − 1
+as a position in the inventory (F04-11.3). `InventoryNumber` sorts all 6,914 VOC inventories
+in the same order as NLP's regex sort keys; 54 of them have a suffix (`A`–`E`, `I`, `II`)
+(F04-P.5).
+
+**Page-number anchors can be read straight from a region table.** `page_number_anchors`
+(`analysis.page_numbering`) takes the last non-empty `page-number` region per scan and keeps it
+if it is all digits. On the VOC text layer this gives the same anchors as NLP's mined CSV in 466
+of 467 inventories (64,505 pairs; one extra pair, on a scan outside NLP's scan spine). The
+alignment accuracy on the 22 annotated inventories is identical (F04-12.2, F04-12.3). Document
+order works as well as reading order here: 3,946 scans have several page-number regions, and
+"last wins" in document order agrees with the reading-order value on all of them. A third of the
+scans with a page-number region (32,508 of 97,014) end in a region that isn't all digits and
+give no anchor. A pattern that tolerates a trailing `.` or `:` could add anchors, but this has
+not been measured (F04-12.4).
+
+**How well folio references locate documents.** On the 22 annotated VOC inventories (1,496
+documents), the baseline alignment finds the exact scan for 61.9% of documents and comes within
+±2 scans for 93.0%. The chosen configuration (numbering-mode detection, extrapolation, first
+duplicate wins) reaches 77.9% exact and 94.8% within ±2 (F04-12.3). The `confidence` column
+is informative but not a guarantee: 42 of 1,281 `high` documents (3.3%) are more than 2 scans
+off, from misread digits in the anchors, non-linear numbering or noisy chains (F04-12.6). All
+`chain+extrapolated` rows are `low` (F04-12b.3).
+
+**The alignment keeps NLP's quirks on purpose, and they are visible in the output.** The
+longest increasing chain is strict and a later duplicate wins. Rounding is Python's banker's
+rounding (`round(12.5) == 12`). `max_scan=0` or `None` means no upper clamp. A row clamped only
+at the inventory end still gets the `+extrapolated` suffix. Fixing any of these would change
+NLP's published numbers, so each would need its own measured change (F04-12.5).
+
 ## Tooling
 
 **ipywidgets v8 silently drops the old `overflow_x`/`overflow_y` Layout properties** (no error,

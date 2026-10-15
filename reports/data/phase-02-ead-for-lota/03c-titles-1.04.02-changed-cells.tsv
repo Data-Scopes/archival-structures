@@ -1,0 +1,11 @@
+node_id	column	old	new
+1.04.02:0.4.4.0.1.2139	original	1768. Eerste boek: Batavia, eerstedeel 1768	1768. Eerste boek: Batavia, eerste deel 1768
+1.04.02:0.4.4.0.1.2489	original	1780. Achtste boek: Bengalen, tweededeel 1780	1780. Achtste boek: Bengalen, tweede deel 1780
+1.04.02:0.4.4.0.1.2139	date_span_start	39.0	40.0
+1.04.02:0.4.4.0.1.2489	date_span_start	41.0	42.0
+1.04.02:0.4.4.0.1.2139	date_span_end	43.0	44.0
+1.04.02:0.4.4.0.1.2489	date_span_end	45.0	46.0
+1.04.02:0.4.4.0.1.2139	date_spans	39:43	40:44
+1.04.02:0.4.4.0.1.2489	date_spans	41:45	42:46
+1.04.02:0.4.4.0.1.2139	lb_adjusted	True	False
+1.04.02:0.4.4.0.1.2489	lb_adjusted	True	False

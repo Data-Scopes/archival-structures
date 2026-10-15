@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+  <Metadata><Creator>AS test fixture</Creator><Created>2026-10-14T00:00:00</Created><LastChange>2026-10-14T00:00:00</LastChange></Metadata>
+  <Page imageFilename="NL-HaNA_1.04.02_9999A_0003.jpg" imageWidth="1000" imageHeight="1500">
+    <TextRegion id="n1" custom="structure {type:paragraph;}">
+      <Coords points="10,10 990,10 990,300 10,300"/>
+      <TextRegion id="n1a"><Coords points="20,20 200,20 200,60 20,60"/>
+        <TextLine id="n1al1"><Coords points="20,20 200,20 200,60 20,60"/><TextEquiv><Unicode>nested</Unicode></TextEquiv></TextLine>
+      </TextRegion>
+    </TextRegion>
+  </Page>
+</PcGts>

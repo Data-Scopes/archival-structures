@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+  <Metadata><Creator>AS test fixture</Creator><Created>2026-10-14T00:00:00</Created><LastChange>2026-10-14T00:00:00</LastChange></Metadata>
+  <Page imageFilename="NL-HaNA_1.04.02_9998_0004.jpg" imageWidth="1000" imageHeight="1500">
+    <TextRegion id="m1" custom="structure {type:marginalia;}">
+      <Coords points="10,10 300,10 300,100 10,100"/>
+      <TextLine id="m1l1"><Coords points="10,10 300,10 300,50 10,50"/><TextEquiv><Unicode>misfiled scan</Unicode></TextEquiv></TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

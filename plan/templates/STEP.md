@@ -57,6 +57,11 @@ to change, and why.>
   "all of them, if any".
 - When steps run in parallel, shared files (changelog, report, `STATUS.md`, `PROGRESS.md`) are
   edited only with Edit, never by a scripted read-modify-write, so a concurrent edit isn't lost.
+- Agent shell (phase 05): install with `.venv/bin/python -m pip` (there is no `.venv/bin/pip`)
+  and `chmod g+w` what it installs. `nohup`/`&` fail, so run long jobs in the foreground.
+  `rm -rf` is denied, so give every scratch run its own new directory.
+- A pin change greps AS's tests for the upstream behaviour it changes. (Phase 05: a test pinned
+  pagexml-tools 0.8.1's `vertical_distance` bug.)
 
 ## Tests
 
@@ -67,7 +72,9 @@ to change, and why.>
 
 ## Acceptance criteria
 
-1. <Concrete, with numbers.>
+1. <Concrete, with numbers. For each file comparison, say how it is compared: bytes,
+   decompressed text, or JSON without named keys. Run every acceptance query once at planning
+   time on the full data, not on a sample (phase 05: 98 irregular scan ids).>
 2. Full AS suite green, and the sibling suite green.
 
 The user decides when the step is done.

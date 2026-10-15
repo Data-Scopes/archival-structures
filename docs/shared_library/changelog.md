@@ -4,6 +4,105 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.9.0 (2026-10-15)
+
+### Step 13: pagexml-tools 0.9.0
+
+- Dependency pins only; no public function changes. `pagexml-tools (>=0.9.0,<1.0.0)` (was
+  `>=0.8.0`) and `fuzzy-search (>=3.0.0,<4.0.0)` (was `>=2.5.0`). 0.9.0 imports
+  `fuzzy_search.analysis.similarity`, which exists only in fuzzy-search 3.x, so AS can no longer
+  run on fuzzy-search 2.x.
+- Affected sibling imports: none changed. NLP's `voc_text_layer` and LotA's `derive_voc`
+  import `pagexml.helper.pagexml_helper`, which now imports in both (their editable checkout is
+  at the 0.9.0 release); their dist-info metadata still says 0.8.0.
+- Output of the text layer is unchanged (157/157 against NLP's `voc_text_layer_v1`).
+- Behaviour that the new floor forces on any caller of pagexml-tools (reviewed in phase 05):
+  `pagexml.model.physical_document_model.vertical_distance` no longer returns the
+  baseline-bottom offset for baseline-bearing lines (AS's `line_vertical_gap` was already
+  correct; one AS test that pinned the old value now asserts 0), and `column_parser`'s derived
+  columns now wrap their lines in a `PageXMLTextRegion`. AS calls neither.
+- `text_layer.provenance.MIN_PAGEXML_TOOLS` is `(0, 9, 0)` (step 15r), matching the pin.
+
+### Step 14: text-layer I/O and word-break detector (C14)
+
+- New package `archival_structures.text_layer` (additive; no pagexml or pandas import at module level).
+  - `text_layer.io`: `SANITISE_PATTERN`, `sanitise`, `format_box`, `write_tsv_gz`, `read_tsv_gz`,
+    `write_text_atomic`, `write_json_atomic`, `write_plain_tsv`, `discover_inventories`,
+    `input_bytes`, `iter_pagexml`, `read_region_lines(layer_root, inv)`,
+    `inventory_sort_key` (via `InventoryNumber`, non-numbers last).
+  - `text_layer.word_breaks`: `DEFAULT_WORD_BREAK_RULE`, `SANITY_IN`, `SANITY_OUT`,
+    `word_break_stats(regions, inventory_number)`, `inventory_word_break_stats`,
+    `WORD_BREAK_STATS_COLUMNS`, `format_stat`, `write_word_break_stats_part`, `pooled_stats`,
+    `rule_passes`, `decide_word_breaks`, `read_word_break_sets`, and the helpers
+    `is_candidate_char`, `char_label`, `mid_line_vocabulary`, `ends_attached`,
+    `strip_leading_marks`, `joined_word`, `first_non_wbc`.
+- Output equals NLP's `voc_text_layer` on v1: decision files, stats file and 52/52 stats parts
+  byte-identical; sort order equal on 6,914 names.
+- **NLP (switched in step 15b; old names kept by the shim):** `inventory_wbc_stats(inv, out_root)` ->
+  `inventory_word_break_stats(inv, layer_root)`, `wbc_stats_part` -> `write_word_break_stats_part`,
+  `decide_wbc` -> `decide_word_breaks`, `load_wbc_sets` -> `read_word_break_sets`,
+  `WBC_RULE` -> `DEFAULT_WORD_BREAK_RULE`, `WBC_STATS_COLUMNS` -> `WORD_BREAK_STATS_COLUMNS`,
+  `_fmt` -> `format_stat`.
+
+### Step 15: text-layer library (C15)
+
+- New modules in `archival_structures.text_layer` (additive; pagexml is imported inside functions,
+  no pagexml or pandas import at module level):
+  - `extract`: `LINES_COLUMNS`, `META_COLUMNS`, `DEFAULT_UNTAGGED_TAG`, `ROW_ORDER_STATEMENT`,
+    `iter_text_regions`, `region_tag_of(region, counts, untagged_tag=...)`,
+    `scan_id_matches(scan_id, inv, prefix=None)`,
+    `extract_inventory(inv, source, out_root, *, untagged_tag=..., scan_id_prefix=None)`.
+  - `join`: `REGION_COLUMNS`, `EVENT_COLUMNS`, `SPEC_GUARDS`, `ALL_GUARDS`, `library_join`,
+    `classify_boundary`, `join_region`, `join_vocabulary`, `join_inventory(inv, out_root, wbcs,
+    write_events=False)`.
+  - `provenance`: `MIN_PAGEXML_TOOLS`, `package_info`, `pagexml_tools_info`, `check_min_version`,
+    `check_pagexml_tools_version`.
+  - `presets`: `LayerPreset`, `VOC_V1`, `PRESETS`, `predict_seconds(xml_bytes, stage, fit)`,
+    `predict_wall(per_inventory_xml_bytes, workers, fit, stages=...)`. VOC constants live only here.
+- Output equals NLP's `voc_text_layer` on the 22-inventory reference (157/157 files identical) and
+  on 20 more local inventories (140/140 equal against a copy of the original module).
+- **Behaviour differences from NLP's module:** the scan-id check is `scan_id_matches` (parses with `ScanId(digits=None)`, so any scan-number width and a checked prefix; ids that do not parse, such as `..._1186_0571A.jpg` and `..._9817_P01.jpg`, fall back to NLP's `_{inv}_` substring test); the untagged tag, the scan-id
+  prefix and the throughput fit are arguments instead of module constants.
+- **NLP (switched in step 15b; old names kept by the shim):** `extract_inventory(inv, source, out)` ->
+  `extract_inventory(..., untagged_tag=VOC_V1.untagged_tag, scan_id_prefix=VOC_V1.scan_id_prefix)`,
+  `UNTAGGED_TAG` -> `DEFAULT_UNTAGGED_TAG`, `THROUGHPUT_FIT`/`OUTPUT_BYTES_PER_XML_BYTE` ->
+  `VOC_V1.throughput_fit`/`.output_bytes_per_xml_byte`, `predict_seconds(b, stage)` ->
+  `predict_seconds(b, stage, fit)`, `predict_wall(b, w, stages)` -> `predict_wall(b, w, fit, stages)`,
+  `pagexml_tools_info`, `check_pagexml_tools_version` from `text_layer.provenance`.
+- **NLP switched (step 15b, 2026-10-14):** `src/startpage/voc_text_layer.py` is a shim over
+  `archival_structures.text_layer.{io,word_breaks,extract,join,provenance,presets}` (all 62
+  top-level names kept; `decide_wbc`, `predict_seconds`, `predict_wall`, `extract_inventory` are
+  thin wrappers passing `VOC_V1` values), and `scripts/build_voc_text_layer.py` is a wrapper around
+  `text_layer.build.main`. `scripts/validate_voc_text_layer.py` and `tests/test_voc_text_layer.py`
+  are unchanged and pass. New `scripts/verify_as_text_layer.py` in NLP. No AS signature changed.
+
+### Step 15c: text-layer driver and CLI
+
+- New (additive): `archival_structures.text_layer.build` (`main(argv=None) -> int`, `Run`, `STAGES`,
+  `STATUS_COLUMNS`, `select_inventories`, `run_pool`, `stage_extract`, `stage_wbc`, `stage_join`,
+  `estimate`) and the console script `as-build-text-layer` (same flags as NLP's
+  `scripts/build_voc_text_layer.py`, plus `--preset`, default `voc_v1`; the layer directory is
+  `<out-dir>/<preset name>/`). `archival_structures.text_layer.compare` (`TSV_KINDS`, `JSON_KINDS`,
+  `RUN_FILES`, `compare_layers`, `compare_run_files`, `summarise`, `main`). Neither imports pagexml
+  at module level; `compare` imports pandas lazily.
+- **Behaviour differences from NLP's script:** `FORCE` global is `Run.force` and `is_done(status,
+  inv, stage, force)`; each manifest stage entry gains `archival_structures` and `preset`, and its
+  `git_head` is archival-structures' HEAD, not the calling project's.
+- **NLP (switched in step 15b; old names kept by the shim):** `scripts/build_voc_text_layer.py` becomes a wrapper around
+  `archival_structures.text_layer.build.main`; `vtl.wbc_stats_part` ->
+  `word_breaks.write_word_break_stats_part`, `vtl.decide_wbc` -> `word_breaks.decide_word_breaks`,
+  `vtl.load_wbc_sets` -> `word_breaks.read_word_break_sets`, `vtl.WBC_STATS_COLUMNS` ->
+  `word_breaks.WORD_BREAK_STATS_COLUMNS`, `vtl._fmt` -> `word_breaks.format_stat`.
+
+### Step 15r: phase 05 review fixes
+
+- `analysis.sequence_patterns.segment_into_elements` now also treats NaN/`pd.NA` labels as
+  unlabelled (pandas 3 stores a `None` in a str Series as NaN). Behaviour under pandas 2 is unchanged.
+- `text_layer.provenance.MIN_PAGEXML_TOOLS` is `(0, 9, 0)`, so `as-build-text-layer` and NLP's
+  `build_voc_text_layer.py` refuse to run when the pagexml-tools metadata is older than 0.9.0.
+- Affected sibling imports: NLP `startpage.voc_text_layer.MIN_PAGEXML_TOOLS` and
+  `check_pagexml_tools_version` (re-exported by the shim).
+
 ## v0.8.0 (2026-10-14)
 
 ### Step 12: page numbering and GLOBALISE loader (C11)

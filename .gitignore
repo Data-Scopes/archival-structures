@@ -192,6 +192,8 @@ uv.lock
 # subset actually needed by notebooks/demo/ (~341MB) isn't committed either -- it's distributed
 # as a GitHub Release asset instead (see README.md and archival-structures-demo-data.zip below).
 data/
+# ...but the reports' small reproduction scripts and tables are part of reports/ (plan/README.md)
+!reports/data/
 
 # Built locally for attaching to a GitHub Release -- see README.md's "Demo data" section.
 /archival-structures-demo-data.zip

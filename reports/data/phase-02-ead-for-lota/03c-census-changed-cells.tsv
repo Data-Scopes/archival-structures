@@ -1,0 +1,5 @@
+archive_id	column	old	new
+1.01.02	n_lb_adjusted	21	0
+1.04.02	n_lb_adjusted	2	0
+1.01.02	n_tokens_total	390362	390356
+1.01.02	n_tokens_punct	70399	70393

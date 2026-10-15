@@ -94,9 +94,9 @@ class TestLineVerticalGap(unittest.TestCase):
                                     baseline=baseline2)
 
         self.assertEqual(0, na.line_vertical_gap(line1, line2))
-        # confirm this is a genuine regression test: the upstream library function disagrees,
-        # reporting the buggy baseline-bottom-to-baseline-bottom offset (20) instead of 0.
-        self.assertEqual(20, pdm.vertical_distance(line1, line2))
+        # pagexml-tools <= 0.8.1 disagreed here, reporting the buggy baseline-bottom-to-
+        # baseline-bottom offset (20) instead of 0. Fixed upstream in 0.9.0 (7b2b721, step 13).
+        self.assertEqual(0, pdm.vertical_distance(line1, line2))
 
     def test_max_vertical_dist_filters_baseline_bearing_lines_correctly(self):
         # two rows, ~200px apart (top-to-bottom gap), each line has a flat baseline

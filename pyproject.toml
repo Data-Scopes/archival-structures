@@ -21,10 +21,10 @@ classifiers = [
     "Topic :: Text Processing :: Linguistic",
 ]
 dependencies = [
-    "pagexml-tools (>=0.8.0, <1.0.0)",
+    "pagexml-tools (>=0.9.0,<1.0.0)",
     "numpy>=2.3.5,<3.0.0",
     "lxml (>=5.3.0,<7.0.0)",
-    "fuzzy-search (>=2.5.0,<4.0.0)",
+    "fuzzy-search (>=3.0.0,<4.0.0)",
     "pandas (>=2.3.3,<4.0.0)",
     "orjson>=3.11.7",
     "scikit-learn>=1.8",
@@ -80,6 +80,9 @@ all = [
     "seaborn>=0.13.0",
     "anthropic>=0.40.0",
 ]
+
+[project.scripts]
+as-build-text-layer = "archival_structures.text_layer.build:main"
 
 [project.urls]
 Homepage = "https://github.com/Data-Scopes/archival-structures"

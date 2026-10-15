@@ -127,6 +127,18 @@ class TestSegmentIntoElements(TestCase):
         self.assertEqual(['l0'], elements[0].spans[0].line_ids)
         self.assertEqual(['l2'], elements[1].spans[0].line_ids)
 
+    def test_nan_labels_break_a_run(self):
+        lines = [make_line(f'l{i}', 100, 50 + i * 40) for i in range(3)]
+        scan = make_scan('inv_0001', lines)
+        clusters = pd.Series(['body', float('nan'), 'body'], dtype=object,
+                             index=pd.MultiIndex.from_tuples([('inv_0001', 'l0'), ('inv_0001', 'l1'),
+                                                              ('inv_0001', 'l2')]))
+        sequence = build_line_sequence([scan], clusters)
+        elements = segment_into_elements(sequence, [scan])
+        self.assertEqual(2, len(elements))
+        self.assertEqual(['l0'], elements[0].spans[0].line_ids)
+        self.assertEqual(['l2'], elements[1].spans[0].line_ids)
+
     def test_merges_genuine_cross_page_continuation_into_one_element(self):
         body_lines_1 = [make_line(f's1-l{i}', 100, 50 + i * 100) for i in range(3)]
         closing_1 = make_line('s1-closing', 110, 950, w=200)

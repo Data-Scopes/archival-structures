@@ -71,11 +71,12 @@ def line_vertical_gap(line1: pdm.PageXMLTextLine, line2: pdm.PageXMLTextLine) ->
     """The vertical gap between `line1` and `line2` (0 if they vertically overlap), using each
     line's baseline extent if available, else its coordinates' bounding box.
 
-    `pagexml.model.physical_document_model.vertical_distance` mismeasures this for
-    baseline-bearing lines -- it takes a `hasattr(doc, 'baseline')` branch that's true for
+    In pagexml-tools <= 0.8.1, `pagexml.model.physical_document_model.vertical_distance`
+    mismeasures this for baseline-bearing lines -- it takes a `hasattr(doc, 'baseline')` branch that's true for
     essentially every `PageXMLTextLine` (the attribute exists, as `None`, even without real
     baseline data) and returns `abs(bottom1 - bottom2)` (a baseline-to-baseline offset) instead
-    of an actual gap. This function always computes the real top/bottom gap instead."""
+    of an actual gap. This function always computes the real top/bottom gap instead. (Fixed
+    upstream in pagexml-tools 0.9.0, which AS now requires; kept for its explicit semantics.)"""
     if line1.baseline is not None and line1.baseline.points is not None:
         top1, bottom1 = line1.baseline.top, line1.baseline.bottom
     else:

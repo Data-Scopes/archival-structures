@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 from archival_structures.datasets.globalise_index import (
     GLOBALISE_INDEX_COLUMNS, load_globalise_index)
@@ -26,7 +27,8 @@ def test_load_all(tmp_path):
     assert df.folio_start.iloc[0] == 10 and np.isnan(df.folio_start.iloc[1])
     assert np.isnan(df.year_earliest.iloc[2])
     assert df.tanap_id.iloc[0] == "123" and df.tanap_id.iloc[1] == "45"
-    assert df.inventory_number.dtype == object and df.inventory_number.iloc[0] == "1000"
+    assert pd.api.types.is_string_dtype(df.inventory_number)  # object (pandas 2) or str (pandas 3)
+    assert df.inventory_number.iloc[0] == "1000"
     assert df.globalise_id.iloc[0] == "1"
 
 

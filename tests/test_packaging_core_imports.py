@@ -48,13 +48,37 @@ def test_core_modules_import_without_extras():
                  "archival_structures.stream_analysis.decoding",
                  "archival_structures.stream_analysis.decoding.semi_markov",
                  "archival_structures.analysis.page_numbering",
-                 "archival_structures.datasets.globalise_index"]
+                 "archival_structures.datasets.globalise_index",
+                 "archival_structures.text_layer.io",
+                 "archival_structures.text_layer.word_breaks",
+                 "archival_structures.text_layer.extract",
+                 "archival_structures.text_layer.join",
+                 "archival_structures.text_layer.provenance",
+                 "archival_structures.text_layer.presets",
+                 "archival_structures.text_layer.build",
+                 "archival_structures.text_layer.compare"]
         for pkg in (parsers, model):
             names += [m.name for m in pkgutil.iter_modules(pkg.__path__, pkg.__name__ + ".")]
         assert len(names) > 8, names
         for name in names:
             importlib.import_module(name)
         print("imported", len(names))
+    """)
+    assert result.returncode == 0, result.stderr
+
+
+def test_text_layer_modules_do_not_import_pagexml():
+    result = run_blocked("""
+        import archival_structures.text_layer.io
+        import archival_structures.text_layer.word_breaks
+        import archival_structures.text_layer.extract
+        import archival_structures.text_layer.join
+        import archival_structures.text_layer.provenance
+        import archival_structures.text_layer.presets
+        import archival_structures.text_layer.build
+        import archival_structures.text_layer.compare
+        assert "pagexml" not in sys.modules
+        assert "pandas" not in sys.modules
     """)
     assert result.returncode == 0, result.stderr
 

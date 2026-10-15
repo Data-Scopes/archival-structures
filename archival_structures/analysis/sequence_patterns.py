@@ -147,11 +147,21 @@ def detect_cross_page_continuation(scan_a: pdm.PageXMLScan, line_a: pdm.PageXMLT
     return vertical_relation != 'DC' and horizontal_relation != 'DC'
 
 
+def _is_unlabelled(label) -> bool:
+    """No cluster label: None, a pandas missing value (NaN/pd.NA; pandas 3 stores a None in a
+    str Series as NaN) or HDBSCAN noise -1."""
+    if label is None or label is pd.NA:
+        return True
+    if isinstance(label, float) and label != label:  # NaN (np.float64 is a float subclass)
+        return True
+    return label == -1
+
+
 def segment_into_elements(line_sequence: List[LineEvent], scans: List[pdm.PageXMLScan],
                           max_vertical_gap: int = 150, max_horizontal_diff: int = 100) -> List[Element]:
     """Run-length-segment `line_sequence` into `Element`s: contiguous runs of lines sharing the
-    same cluster label. Lines with no label (`None` or HDBSCAN noise `-1`) end the current run
-    and are not part of any element.
+    same cluster label. Lines with no label (`None`, NaN/`pd.NA`, or HDBSCAN noise `-1`) end the
+    current run and are not part of any element.
 
     A run that spans a scan boundary is only kept as a single `Element` (with one `ElementSpan`
     per scan it touches) if `detect_cross_page_continuation` confirms the boundary lines are
@@ -184,7 +194,7 @@ def segment_into_elements(line_sequence: List[LineEvent], scans: List[pdm.PageXM
 
     for event in line_sequence:
         label = event.cluster
-        if label is None or label == -1:
+        if _is_unlabelled(label):
             flush_run()
             current_run = []
             current_label = None
