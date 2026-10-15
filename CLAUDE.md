@@ -71,6 +71,43 @@ This file is loaded automatically. Do not restate it back to the user.
 - "Section" is ambiguous across levels. Always qualify it (e.g. *volume section*,
   *within-document section*) or name its type; see the glossary in `docs/definitions/`.
 
+## When something is left for the user
+
+Never leave a user action as prose in the chat ("you may want to…", "if it
+matters…", "worth checking…"). Every item that needs the user — a decision,
+a command, a file edit, a confirmation — takes one of three forms:
+
+- **Run** — a copy-pasteable command, with the directory it runs in.
+- **Edit** — the file path, the location (section heading or line), and the
+  exact text to add or replace.
+- **Decide** — an entry in `docs/USER_ACTIONS.md` (format below); give its
+  ID in the chat.
+
+Each item also says **what happens if the user does nothing** and **what it
+blocks** ("nothing" is a valid answer). End any message that leaves items
+open with a short **For you** list of the items and their IDs.
+
+### `docs/USER_ACTIONS.md`
+
+The user answers here, not in the chat. One entry per item:
+
+    ### UA-NNN <short title> (YYYY-MM-DD, from <step or session>)
+    - **Action:** what to do, in Run / Edit / Decide form
+    - **Options:** (a) … (b) … — recommended: …
+    - **Default if unanswered:** …
+    - **Blocks:** …
+    - **Response:**
+
+- At the start of a session, run `grep -n -A1 '^### UA-\|Response:'
+  docs/USER_ACTIONS.md` rather than reading the whole file.
+- Act on every item whose **Response** is filled in and touches your task.
+  Record the outcome where it belongs (plan, step file, `PROGRESS.md`). Then
+  move the entry to `docs/USER_ACTIONS_resolved.md` with the date and what
+  was done.
+- Never fill in a **Response** yourself. Number IDs sequentially and never
+  reuse one.
+- Keep `docs/USER_ACTIONS.md` to open items only, so it stays cheap to read.
+
 ## Token discipline
 
 - Never read large data files into context. Use pandas with explicit `usecols` and print
