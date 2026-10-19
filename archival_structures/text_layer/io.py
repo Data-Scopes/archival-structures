@@ -10,6 +10,7 @@ import io
 import json
 import os
 import re
+import tarfile
 import zipfile
 from collections import defaultdict
 from pathlib import Path
@@ -129,33 +130,80 @@ def _is_pagexml_member(name):
     return name.endswith(".xml") and not base.startswith(".") and "__MACOSX" not in name
 
 
+def _is_tar(source):
+    return source.name.endswith((".tar.gz", ".tgz"))
+
+
+def _is_resource_fork(name):
+    return "__MACOSX/" in name or name.rsplit("/", 1)[-1].startswith("._")
+
+
 def input_bytes(source):
     """(stored_bytes, xml_bytes): bytes on disk and uncompressed PageXML bytes.
 
-    Cheap: reads a zip's central directory only, never parses.
+    Cheap for a zip: reads its central directory only, never parses. A .tar.gz has
+    to be decompressed to be sized.
     """
     source = Path(source)
     if source.suffix == ".zip":
         with zipfile.ZipFile(source) as zf:
             xml = sum(i.file_size for i in zf.infolist() if _is_pagexml_member(i.filename))
         return source.stat().st_size, xml
+    if _is_tar(source):
+        with tarfile.open(source, "r:gz") as tf:
+            xml = sum(m.size for m in tf if m.isfile() and _is_pagexml_member(m.name))
+        return source.stat().st_size, xml
     xml = sum(p.stat().st_size for p in source.rglob("*.xml") if _is_pagexml_member(str(p)))
     return xml, xml
 
 
-def iter_pagexml(source):
-    """Yield (member_name, bytes) for each PageXML file, sorted by file name."""
+def iter_pagexml(source, *, skip_resource_forks: bool = False):
+    """Yield (member_name, bytes) for each PageXML file, sorted by file name.
+
+    Sources: a .zip, a .tar.gz/.tgz, or a directory searched recursively. The default
+    filter (`_is_pagexml_member`) already ignores dot-files and `__MACOSX`; with
+    `skip_resource_forks=True` AppleDouble `._*` members and `__MACOSX/` paths are in
+    addition excluded explicitly (a no-op today, kept as a guard for v2 presets).
+    """
     source = Path(source)
+
+    def wanted(name):
+        return _is_pagexml_member(name) and not (skip_resource_forks and _is_resource_fork(name))
+
     if source.suffix == ".zip":
         with zipfile.ZipFile(source) as zf:
-            names = sorted((n for n in zf.namelist() if _is_pagexml_member(n)),
+            names = sorted((n for n in zf.namelist() if wanted(n)),
                            key=lambda n: n.rsplit("/", 1)[-1])
             for name in names:
                 yield name, zf.read(name)
+    elif _is_tar(source):
+        with tarfile.open(source, "r:gz") as tf:
+            members = sorted((m for m in tf if m.isfile() and wanted(m.name)),
+                             key=lambda m: m.name.rsplit("/", 1)[-1])
+            for member in members:
+                yield member.name, tf.extractfile(member).read()
     else:
         for path in sorted(source.rglob("*.xml"), key=lambda p: p.name):
-            if _is_pagexml_member(str(path)):
+            if wanted(str(path)):
                 yield str(path), path.read_bytes()
+
+
+def discover_inventories_v2(pagexml_dir, pattern):
+    """{inv: Path} for every entry (file or directory) of `pagexml_dir` whose name
+    `fullmatch`es `pattern`, a regex with a named group `inv`. Sorted like v1; dot-files
+    are ignored. If an inventory has several entries, a file (archive) wins over a dir."""
+    regex = re.compile(pattern)
+    found = {}
+    for entry in sorted(Path(pagexml_dir).iterdir()):
+        if entry.name.startswith("."):
+            continue
+        match = regex.fullmatch(entry.name)
+        if not match:
+            continue
+        inv = match.group("inv")
+        if inv not in found or entry.is_file():
+            found[inv] = entry
+    return dict(sorted(found.items(), key=lambda kv: inventory_sort_key(kv[0])))
 
 
 def read_region_lines(layer_root, inv):

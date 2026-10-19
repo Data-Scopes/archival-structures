@@ -26,6 +26,8 @@ This file is loaded automatically. Do not restate it back to the user.
 - **Never access external drives**, not even with read-only commands, and keep their paths out
   of subagent prompts. If an input is not available locally, say exactly which files to stage
   and stop.
+- Source data shared between projects lives in /Users/Shared/claude_projects/data_scopes/shared-data/ 
+  (rules in its README); stage it by symlinking it under data/.
 
 ## Environment
 

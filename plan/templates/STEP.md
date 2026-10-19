@@ -62,6 +62,12 @@ to change, and why.>
   `rm -rf` is denied, so give every scratch run its own new directory.
 - A pin change greps AS's tests for the upstream behaviour it changes. (Phase 05: a test pinned
   pagexml-tools 0.8.1's `vertical_distance` bug.)
+- A port brief says that the planner **ran** the original once under the current pins, not
+  only imported it. (Phase 06: republic's splitter imported cleanly but raised on every page
+  under pagexml-tools ≥ 0.8.)
+- Every expectation about the data in a brief ("near 0", "about 900 px") says whether it was
+  measured (give the number and the inventories) or not. (Phase 06: hand candidate rates were
+  expected near 0 and came out at 40–87%.)
 
 ## Tests
 
@@ -84,7 +90,9 @@ The user decides when the step is done.
 <Which individual outputs to read (how many, and which kind), and what to look for. For
 example: diff old and new sibling output, and read every changed row up to 30, then a random
 sample of 30. Name the categories to classify cases into, if they are known in advance, and the
-findings the step is expected to produce (e.g. "the new Aanwinsten count").>
+findings the step is expected to produce (e.g. "the new Aanwinsten count"). A hand-read
+precision bar comes with the rule for judging ambiguous cases, e.g. a historical compound
+written as one word (phase 06, step 15f).>
 
 Write the error analysis into the phase report (see *When done*), not into `PROGRESS.md`.
 

@@ -1,0 +1,151 @@
+sample	case	scan	verdict	note
+merges	hand 1	3772_0074	furniture	
+merges	hand 2	3349_0474	ambiguous	
+merges	hand 3	11281_0530	furniture	
+merges	hand 4	3350_0420	furniture	
+merges	hand 5	3771_0021	right	
+merges	hand 6	3773_0006	ambiguous	
+merges	hand 7	3349_0662	wrong:margin-interleaved	
+merges	hand 8	3351_0047	wrong:two-columns	
+merges	hand 9	3771_0010	right	
+merges	hand 10	3823_0053	wrong:margin-interleaved	
+merges	hand 11	3773_0007	right	
+merges	hand 12	3353_0246	furniture	
+merges	hand 13	3822_0069	wrong:margin-interleaved	
+merges	hand 14	11281_0174	right	
+merges	hand 15	3822_0389	furniture	
+merges	hand 16	3773_0420	right	
+merges	hand 17	3823_0342	furniture	
+merges	hand 18	3773_0151	furniture	
+merges	hand 19	3822_0154	furniture	
+merges	hand 20	3772_0428	furniture	
+merges	hand 21	3772_0050	right	
+merges	hand 22	3822_0370	furniture	
+merges	hand 23	3821_0220	right	
+merges	hand 24	3772_0312	right	
+merges	hand 25	3821_0067	wrong:margin-interleaved	
+merges	hand 26	11281_0467	furniture	
+merges	hand 27	11182_0281	right	
+merges	hand 28	3772_0494	furniture	
+merges	hand 29	11281_1062	furniture	
+merges	hand 30	11281_0092	furniture	
+merges	455index 1	455_0003	wrong:two-columns	two-column member already in input
+merges	455index 2	455_0004	wrong:two-columns	two-column member already in input
+merges	455index 3	455_0004	wrong:two-columns	two-column member already in input
+merges	print 1	455_0341	wrong:two-columns	two-column member already in input
+merges	print 2	455_0027	wrong:two-columns	two-column member already in input
+merges	print 3	456_0682	wrong:two-columns	two-column member already in input
+merges	print 4	455_0066	wrong:two-columns	two-column member already in input
+merges	print 5	455_0264	wrong:two-columns	two-column member already in input
+merges	print 6	455_0387	wrong:two-columns	two-column member already in input
+merges	print 7	455_0037	furniture	
+merges	print 8	455_0096	wrong:two-columns	two-column member already in input
+merges	print 9	455_0245	wrong:two-columns	two-column member already in input
+merges	print 10	455_0595	furniture	
+merges	print 11	455_0388	wrong:two-columns	two-column member already in input
+merges	print 12	455_0197	wrong:two-columns	two-column member already in input
+merges	print 13	455_0546	wrong:two-columns	two-column member already in input
+merges	print 14	456_0263	furniture	
+merges	print 15	455_0575	wrong:two-columns	two-column member already in input
+merges	print 16	455_0454	wrong:two-columns	two-column member already in input
+merges	print 17	455_0641	wrong:two-columns	two-column member already in input
+merges	print 18	455_0425	wrong:two-columns	two-column member already in input
+merges	print 19	455_0558	wrong:two-columns	two-column member already in input
+merges	print 20	455_0372	wrong:two-columns	two-column member already in input
+merges	print 21	455_0337	wrong:two-columns	two-column member already in input
+merges	print 22	455_0575	wrong:two-columns	two-column member already in input
+merges	print 23	455_0506	wrong:two-columns	two-column member already in input
+merges	print 24	455_0363	wrong:two-columns	two-column member already in input
+merges	print 25	455_0493	right	
+merges	print 26	456_0586	wrong:two-columns	two-column member already in input
+merges	print 27	455_0691	wrong:two-columns	two-column member already in input
+pageside	1	3350_0625	cut off a margin column	
+pageside	2	3349_0353	cut off a margin column	
+pageside	3	3349_0653	cut off a margin column	
+pageside	4	3350_0275	gutter right	
+pageside	5	3350_0825	cut off a margin column	
+pageside	6	3349_0398	gutter right	
+pageside	7	3349_0790	cut off a margin column	
+pageside	8	3350_0252	gutter right	
+pageside	9	11182_0709	gutter right	
+pageside	10	3350_0836	gutter right	
+pageside	11	3350_0131	gutter right	
+pageside	12	11182_0306	gutter right	
+pageside	13	11281_0734	gutter right	
+pageside	14	11182_0538	gutter right	
+pageside	15	3352_0801	gutter right	
+pageside	16	11281_0100	gutter right	
+pageside	17	3352_0495	gutter right	
+pageside	18	11182_0368	gutter right	
+pageside	19	3350_0770	cut off a margin column	
+pageside	20	3350_0609	cut off a margin column	
+pageside	21	11182_0524	gutter right	
+pageside	22	11182_0016	cut off a margin column	
+pageside	23	3350_0728	cut off a margin column	
+pageside	24	3353_0255	cut off a margin column	
+pageside	25	11281_0301	gutter right	
+pageside	26	3350_0794	cut off a margin column	
+pageside	27	11281_0705	gutter right	
+pageside	28	11281_0292	undecided	
+pageside	29	11281_0923	gutter right	
+pageside	30	3349_0954	gutter right	
+mincov	1	3350_0295	cut off a margin column	
+mincov	2	3349_0135	gutter right	
+mincov	3	11182_0125	gutter right	
+mincov	4	3349_0285	gutter right	
+mincov	5	3350_0061	gutter right	
+mincov	6	3350_0419	gutter right	
+mincov	7	3349_0164	gutter right	
+mincov	8	3349_0397	gutter right	
+mincov	9	3349_0937	gutter right	
+mincov	10	3352_0113	gutter right	
+mincov	11	3350_0422	cut off a margin column	
+mincov	12	3349_0758	gutter right	
+mincov	13	3350_0828	gutter right	
+mincov	14	3353_0294	gutter right	
+mincov	15	3351_0135	gutter right	
+mincov	16	3350_0593	cut off a margin column	
+mincov	17	3352_0282	gutter right	
+mincov	18	3350_0520	gutter right	
+mincov	19	3350_0856	gutter missed by a whole page	
+mincov	20	3350_0377	gutter right	
+mincov	21	3350_0285	gutter right	
+mincov	22	3351_0109	gutter right	
+mincov	23	3350_0727	gutter right	
+mincov	24	3350_0356	gutter right	
+mincov	25	3350_0695	gutter right	
+mincov	26	3353_0856	gutter right	
+mincov	27	3352_0510	gutter right	
+mincov	28	3350_0388	gutter right	
+mincov	29	11281_0219	gutter right	
+mincov	30	3353_0193	gutter right	
+roles	1	3352_0174	margin=1	verso
+roles	2	3349_0117	margin=2	recto
+roles	3	3772_0445	page_number=1,header=1	recto
+roles	4	3823_0159	page_number=1,header=1	recto
+roles	5	3349_0378	margin=2	recto
+roles	6	3350_0661	margin=1	verso
+roles	7	456_0299	catch_word=2	recto
+roles	8	3352_0480	margin=2	recto
+roles	9	3349_0175	margin=1	verso
+roles	10	3349_0551	margin=2,main_wrongly_extra=1	recto
+roles	11	11281_1081	margin=1	recto
+roles	12	11182_0607	margin=1	recto
+roles	13	3822_0165	page_number=1,header=1	recto
+roles	14	3350_0536	margin=2	recto
+roles	15	11281_0740	margin=1	verso
+roles	16	3822_0275	page_number=1,header=1	recto
+roles	17	3353_0723	margin=1	verso
+roles	18	3352_0486	margin=3	verso
+roles	19	3350_0202	margin=2,noise=1	verso
+roles	20	3353_0431	margin=2	verso
+roles	21	3771_0551	page_number=1,main_wrongly_extra=2	recto
+roles	22	3822_0385	header=2,page_number=1	verso
+roles	23	3353_0603	margin=3	recto
+roles	24	3352_0887	header=1,margin=2	recto
+roles	25	3354_0058	main_wrongly_extra=1	recto
+roles	26	3352_0720	margin=5	verso
+roles	27	3353_0494	margin=2	verso
+roles	28	3352_0381	margin=2	verso
+roles	29	11281_0753	page_number=1	recto
+roles	30	3352_0149	margin=1	recto

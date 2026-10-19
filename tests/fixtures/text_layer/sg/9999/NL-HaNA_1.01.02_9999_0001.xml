@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+  <Metadata><Creator>AS test fixture</Creator><Created>2026-10-17T00:00:00</Created><LastChange>2026-10-17T00:00:00</LastChange></Metadata>
+  <Page imageFilename="NL-HaNA_1.01.02_9999_0001.jpg" imageWidth="2000" imageHeight="1000">
+    <TextRegion id="r1" custom="readingOrder {index:1;} structure {type:Text;}">
+      <Coords points="100,100 900,100 900,400 100,400"/>
+      <TextLine id="r1l1"><Coords points="100,100 900,100 900,200 100,200"/><Baseline points="100,190 500,185 900,190"/><Word id="r1l1w1"><Coords points="100,100 400,100 400,200 100,200"/><TextEquiv><Unicode>Eerste</Unicode></TextEquiv></Word><Word id="r1l1w2"><Coords points="450,100 900,100 900,200 450,200"/><TextEquiv><Unicode>regel</Unicode></TextEquiv></Word><TextEquiv conf="0.9876543"><Unicode>Eerste regel</Unicode></TextEquiv></TextLine>
+      <TextLine id="r1l2"><Coords points="100,210 900,210 900,300 100,300"/><Baseline points="100,290 900,290"/><Word id="r1l2w1"><Coords points="100,210 500,210 500,300 100,300"/><TextEquiv><Unicode>tweede</Unicode></TextEquiv></Word><TextEquiv conf="0.5"><Unicode>tweede„</Unicode></TextEquiv></TextLine>
+      <TextLine id="r1l3"><Coords points="100,310 900,310 900,400 100,400"/><Baseline points="100,390 900,390"/><Word id="r1l3w1"><Coords points="100,310 500,310 500,400 100,400"/><TextEquiv><Unicode>derde</Unicode></TextEquiv></Word><TextEquiv conf="1"><Unicode>derde</Unicode></TextEquiv></TextLine>
+    </TextRegion>
+    <TextRegion id="r2">
+      <Coords points="1100,100 1900,100 1900,400 1100,400"/>
+      <TextLine id="r2l1"><Coords points="1100,100 1900,100 1900,200 1100,200"/><Word id="r2l1w1"><Coords points="1100,100 1500,100 1500,200 1100,200"/><TextEquiv><Unicode>rechts</Unicode></TextEquiv></Word><TextEquiv><Unicode>rechts</Unicode></TextEquiv></TextLine>
+    </TextRegion>
+    <TextRegion id="r3" custom="structure {type:Text;}">
+      <Coords points="100,600 900,600 900,700 100,700"/>
+    </TextRegion>
+  </Page>
+</PcGts>

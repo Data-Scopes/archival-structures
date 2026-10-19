@@ -17,6 +17,7 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Topic :: Scientific/Engineering :: Image Recognition",
     "Topic :: Text Processing :: Linguistic",
 ]
@@ -30,6 +31,7 @@ dependencies = [
     "scikit-learn>=1.8",
     "scipy>=1.10",
     "tqdm>=4.65.0",
+    "nltk (>=3.9)",
     "pyyaml>=6.0",
 ]
 

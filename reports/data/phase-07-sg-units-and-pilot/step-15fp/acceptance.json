@@ -1,0 +1,804 @@
+{
+ "11182": {
+  "change": {
+   "merged": 181,
+   "merged+split": 1,
+   "split_at_gutter": 17,
+   "unchanged": 5082
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 44261,
+   "main": 2982391
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 0.9406548431105047,
+  "extra_regions": 1379,
+  "gutter_rel": 0.5575,
+  "lines_in": 57713,
+  "lines_out": 57713,
+  "lines_page_differs": 237,
+  "lines_single": 5,
+  "main_char_share": 0.9853762507219198,
+  "main_regions": 3902,
+  "max_merge_passes": 2,
+  "n_gutter_splits": 9,
+  "n_lines_crossing": 406,
+  "n_merges": 182,
+  "n_regions_in": 5473,
+  "n_regions_out": 5281,
+  "n_scans": 755,
+  "n_scans_with_gap": 555,
+  "page_mode": {
+   "opening": 753,
+   "single": 2
+  },
+  "pages_with_extra": 708,
+  "pages_with_text": 1466,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 159,
+  "scans_page_differs": 122,
+  "scans_pair_linehull": 141,
+  "scans_pair_regionbox": 141,
+  "scans_pair_regions_overlap_hull": 159,
+  "scans_with_lines": 749,
+  "split_method": {
+   "gap": 555,
+   "min_coverage": 193,
+   "none": 7
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 5121
+ },
+ "11281": {
+  "change": {
+   "merged": 550,
+   "split_at_gutter": 82,
+   "unchanged": 6759
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 49684,
+   "main": 2758556
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 0.8093935248518012,
+  "extra_regions": 1775,
+  "gutter_rel": 0.55228,
+  "lines_in": 78109,
+  "lines_out": 78109,
+  "lines_page_differs": 411,
+  "lines_single": 0,
+  "main_char_share": 0.9823077799618266,
+  "main_regions": 5616,
+  "max_merge_passes": 1,
+  "n_gutter_splits": 41,
+  "n_lines_crossing": 741,
+  "n_merges": 550,
+  "n_regions_in": 7914,
+  "n_regions_out": 7391,
+  "n_scans": 1139,
+  "n_scans_with_gap": 770,
+  "page_mode": {
+   "opening": 1137,
+   "single": 2
+  },
+  "pages_with_extra": 1146,
+  "pages_with_text": 2193,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 308,
+  "scans_page_differs": 271,
+  "scans_pair_linehull": 495,
+  "scans_pair_regionbox": 495,
+  "scans_pair_regions_overlap_hull": 509,
+  "scans_with_lines": 1119,
+  "split_method": {
+   "gap": 770,
+   "min_coverage": 349,
+   "none": 20
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 6780
+ },
+ "3349": {
+  "change": {
+   "merged": 101,
+   "split_at_gutter": 18,
+   "unchanged": 11859
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 68154,
+   "main": 3638545
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 2.7647673810768425,
+  "extra_regions": 5289,
+  "gutter_rel": 0.53561,
+  "lines_in": 92152,
+  "lines_out": 92152,
+  "lines_page_differs": 426,
+  "lines_single": 0,
+  "main_char_share": 0.981613289884072,
+  "main_regions": 6689,
+  "max_merge_passes": 3,
+  "n_gutter_splits": 9,
+  "n_lines_crossing": 1087,
+  "n_merges": 101,
+  "n_regions_in": 12093,
+  "n_regions_out": 11978,
+  "n_scans": 963,
+  "n_scans_with_gap": 337,
+  "page_mode": {
+   "opening": 961,
+   "single": 2
+  },
+  "pages_with_extra": 1605,
+  "pages_with_text": 1913,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 510,
+  "scans_page_differs": 164,
+  "scans_pair_linehull": 88,
+  "scans_pair_regionbox": 88,
+  "scans_pair_regions_overlap_hull": 92,
+  "scans_with_lines": 957,
+  "split_method": {
+   "gap": 337,
+   "min_coverage": 620,
+   "none": 6
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 11887
+ },
+ "3350": {
+  "change": {
+   "merged": 98,
+   "merged+split": 9,
+   "split_at_gutter": 161,
+   "unchanged": 9393
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 49812,
+   "main": 3423129
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 2.1267685342388227,
+  "extra_regions": 3758,
+  "gutter_rel": 0.48649,
+  "lines_in": 84789,
+  "lines_out": 84789,
+  "lines_page_differs": 1996,
+  "lines_single": 0,
+  "main_char_share": 0.985657113092333,
+  "main_regions": 5903,
+  "max_merge_passes": 2,
+  "n_gutter_splits": 85,
+  "n_lines_crossing": 2567,
+  "n_merges": 107,
+  "n_regions_in": 9710,
+  "n_regions_out": 9661,
+  "n_scans": 894,
+  "n_scans_with_gap": 63,
+  "page_mode": {
+   "opening": 892,
+   "single": 2
+  },
+  "pages_with_extra": 1305,
+  "pages_with_text": 1767,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 780,
+  "scans_page_differs": 363,
+  "scans_pair_linehull": 98,
+  "scans_pair_regionbox": 98,
+  "scans_pair_regions_overlap_hull": 100,
+  "scans_with_lines": 887,
+  "split_method": {
+   "gap": 64,
+   "min_coverage": 823,
+   "none": 7
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 9414
+ },
+ "3351": {
+  "change": {
+   "merged": 112,
+   "unchanged": 3882
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 23433,
+   "main": 436929
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 2.0469208211143695,
+  "extra_regions": 698,
+  "gutter_rel": 0.4358,
+  "lines_in": 12598,
+  "lines_out": 12598,
+  "lines_page_differs": 2,
+  "lines_single": 4,
+  "main_char_share": 0.949098752720685,
+  "main_regions": 3296,
+  "max_merge_passes": 3,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 33,
+  "n_merges": 112,
+  "n_regions_in": 4144,
+  "n_regions_out": 3994,
+  "n_scans": 219,
+  "n_scans_with_gap": 173,
+  "page_mode": {
+   "opening": 217,
+   "single": 2
+  },
+  "pages_with_extra": 234,
+  "pages_with_text": 341,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 25,
+  "scans_page_differs": 2,
+  "scans_pair_linehull": 78,
+  "scans_pair_regionbox": 78,
+  "scans_pair_regions_overlap_hull": 80,
+  "scans_with_lines": 201,
+  "split_method": {
+   "gap": 173,
+   "min_coverage": 25,
+   "none": 21
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 3886
+ },
+ "3352": {
+  "change": {
+   "merged": 105,
+   "split_at_gutter": 4,
+   "unchanged": 10922
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 55340,
+   "main": 3740327
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 2.182574645129711,
+  "extra_regions": 4459,
+  "gutter_rel": 0.52268,
+  "lines_in": 96844,
+  "lines_out": 96844,
+  "lines_page_differs": 107,
+  "lines_single": 0,
+  "main_char_share": 0.9854202173162188,
+  "main_regions": 6572,
+  "max_merge_passes": 2,
+  "n_gutter_splits": 2,
+  "n_lines_crossing": 426,
+  "n_merges": 105,
+  "n_regions_in": 11152,
+  "n_regions_out": 11031,
+  "n_scans": 1028,
+  "n_scans_with_gap": 660,
+  "page_mode": {
+   "opening": 1026,
+   "single": 2
+  },
+  "pages_with_extra": 1678,
+  "pages_with_text": 2043,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 250,
+  "scans_page_differs": 88,
+  "scans_pair_linehull": 101,
+  "scans_pair_regionbox": 101,
+  "scans_pair_regions_overlap_hull": 102,
+  "scans_with_lines": 1023,
+  "split_method": {
+   "gap": 660,
+   "min_coverage": 363,
+   "none": 5
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 10945
+ },
+ "3353": {
+  "change": {
+   "merged": 101,
+   "split_at_gutter": 2,
+   "unchanged": 10385
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 51867,
+   "main": 3273916
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 2.225082146768894,
+  "extra_regions": 4063,
+  "gutter_rel": 0.51123,
+  "lines_in": 85134,
+  "lines_out": 85134,
+  "lines_page_differs": 49,
+  "lines_single": 0,
+  "main_char_share": 0.9844045748023849,
+  "main_regions": 6425,
+  "max_merge_passes": 2,
+  "n_gutter_splits": 1,
+  "n_lines_crossing": 350,
+  "n_merges": 101,
+  "n_regions_in": 10600,
+  "n_regions_out": 10488,
+  "n_scans": 922,
+  "n_scans_with_gap": 635,
+  "page_mode": {
+   "opening": 920,
+   "single": 2
+  },
+  "pages_with_extra": 1534,
+  "pages_with_text": 1826,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 194,
+  "scans_page_differs": 24,
+  "scans_pair_linehull": 88,
+  "scans_pair_regionbox": 88,
+  "scans_pair_regions_overlap_hull": 94,
+  "scans_with_lines": 914,
+  "split_method": {
+   "gap": 635,
+   "min_coverage": 279,
+   "none": 8
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 10396
+ },
+ "3354": {
+  "change": {
+   "merged": 61,
+   "split_at_gutter": 2,
+   "unchanged": 3628
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 21324,
+   "main": 371952
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 2.2138364779874213,
+  "extra_regions": 704,
+  "gutter_rel": 0.48726,
+  "lines_in": 11161,
+  "lines_out": 11161,
+  "lines_page_differs": 0,
+  "lines_single": 2,
+  "main_char_share": 0.9457785372105086,
+  "main_regions": 2987,
+  "max_merge_passes": 3,
+  "n_gutter_splits": 1,
+  "n_lines_crossing": 4,
+  "n_merges": 61,
+  "n_regions_in": 3775,
+  "n_regions_out": 3691,
+  "n_scans": 217,
+  "n_scans_with_gap": 186,
+  "page_mode": {
+   "opening": 215,
+   "single": 2
+  },
+  "pages_with_extra": 242,
+  "pages_with_text": 318,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 3,
+  "scans_page_differs": 0,
+  "scans_pair_linehull": 45,
+  "scans_pair_regionbox": 45,
+  "scans_pair_regions_overlap_hull": 46,
+  "scans_with_lines": 190,
+  "split_method": {
+   "gap": 186,
+   "min_coverage": 3,
+   "none": 28
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 3630
+ },
+ "3771": {
+  "change": {
+   "merged": 205,
+   "unchanged": 11269
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 27560,
+   "main": 5055672
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 2.827616534740545,
+  "extra_regions": 3215,
+  "gutter_rel": 0.5,
+  "lines_in": 139321,
+  "lines_out": 139321,
+  "lines_page_differs": 0,
+  "lines_single": 2,
+  "main_char_share": 0.9945782525763136,
+  "main_regions": 8259,
+  "max_merge_passes": 2,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 205,
+  "n_regions_in": 11696,
+  "n_regions_out": 11474,
+  "n_scans": 579,
+  "n_scans_with_gap": 572,
+  "page_mode": {
+   "opening": 577,
+   "single": 2
+  },
+  "pages_with_extra": 1092,
+  "pages_with_text": 1137,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 0,
+  "scans_page_differs": 0,
+  "scans_pair_linehull": 124,
+  "scans_pair_regionbox": 124,
+  "scans_pair_regions_overlap_hull": 152,
+  "scans_with_lines": 573,
+  "split_method": {
+   "gap": 572,
+   "none": 7
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 11467
+ },
+ "3772": {
+  "change": {
+   "merged": 186,
+   "unchanged": 11050
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 23773,
+   "main": 5129472
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 2.3356105892399657,
+  "extra_regions": 2735,
+  "gutter_rel": 0.49968,
+  "lines_in": 143929,
+  "lines_out": 143929,
+  "lines_page_differs": 0,
+  "lines_single": 0,
+  "main_char_share": 0.995386790265163,
+  "main_regions": 8501,
+  "max_merge_passes": 2,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 186,
+  "n_regions_in": 11435,
+  "n_regions_out": 11236,
+  "n_scans": 595,
+  "n_scans_with_gap": 587,
+  "page_mode": {
+   "opening": 593,
+   "single": 2
+  },
+  "pages_with_extra": 1137,
+  "pages_with_text": 1171,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 0,
+  "scans_page_differs": 0,
+  "scans_pair_linehull": 115,
+  "scans_pair_regionbox": 115,
+  "scans_pair_regions_overlap_hull": 143,
+  "scans_with_lines": 587,
+  "split_method": {
+   "gap": 587,
+   "none": 8
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 11185
+ },
+ "3773": {
+  "change": {
+   "merged": 226,
+   "unchanged": 11183
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 24836,
+   "main": 5221016
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 2.317235636969192,
+  "extra_regions": 2783,
+  "gutter_rel": 0.50181,
+  "lines_in": 147639,
+  "lines_out": 147639,
+  "lines_page_differs": 0,
+  "lines_single": 0,
+  "main_char_share": 0.9952655927006709,
+  "main_regions": 8626,
+  "max_merge_passes": 2,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 226,
+  "n_regions_in": 11649,
+  "n_regions_out": 11409,
+  "n_scans": 608,
+  "n_scans_with_gap": 603,
+  "page_mode": {
+   "opening": 606,
+   "single": 2
+  },
+  "pages_with_extra": 1159,
+  "pages_with_text": 1201,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 0,
+  "scans_page_differs": 0,
+  "scans_pair_linehull": 127,
+  "scans_pair_regionbox": 127,
+  "scans_pair_regions_overlap_hull": 171,
+  "scans_with_lines": 603,
+  "split_method": {
+   "gap": 603,
+   "none": 5
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 11307
+ },
+ "3821": {
+  "change": {
+   "merged": 122,
+   "unchanged": 17162
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 67505,
+   "main": 3303820
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 11.78316032295271,
+  "extra_regions": 10216,
+  "gutter_rel": 0.49882,
+  "lines_in": 119045,
+  "lines_out": 119045,
+  "lines_page_differs": 0,
+  "lines_single": 2,
+  "main_char_share": 0.9799767153863836,
+  "main_regions": 7068,
+  "max_merge_passes": 3,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 122,
+  "n_regions_in": 17447,
+  "n_regions_out": 17284,
+  "n_scans": 440,
+  "n_scans_with_gap": 434,
+  "page_mode": {
+   "opening": 438,
+   "single": 2
+  },
+  "pages_with_extra": 857,
+  "pages_with_text": 867,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 0,
+  "scans_page_differs": 0,
+  "scans_pair_linehull": 96,
+  "scans_pair_regionbox": 96,
+  "scans_pair_regions_overlap_hull": 103,
+  "scans_with_lines": 435,
+  "split_method": {
+   "gap": 434,
+   "none": 6
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 17747
+ },
+ "3822": {
+  "change": {
+   "merged": 148,
+   "unchanged": 17045
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 65356,
+   "main": 3495817
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 10.903930131004367,
+  "extra_regions": 9988,
+  "gutter_rel": 0.49897,
+  "lines_in": 124679,
+  "lines_out": 124679,
+  "lines_page_differs": 0,
+  "lines_single": 6,
+  "main_char_share": 0.9816476200398014,
+  "main_regions": 7205,
+  "max_merge_passes": 3,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 148,
+  "n_regions_in": 17383,
+  "n_regions_out": 17193,
+  "n_scans": 463,
+  "n_scans_with_gap": 458,
+  "page_mode": {
+   "opening": 461,
+   "single": 2
+  },
+  "pages_with_extra": 909,
+  "pages_with_text": 916,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 0,
+  "scans_page_differs": 0,
+  "scans_pair_linehull": 101,
+  "scans_pair_regionbox": 101,
+  "scans_pair_regions_overlap_hull": 118,
+  "scans_with_lines": 460,
+  "split_method": {
+   "gap": 458,
+   "none": 5
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 17779
+ },
+ "3823": {
+  "change": {
+   "merged": 171,
+   "unchanged": 16396
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 64889,
+   "main": 3291036
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 11.392857142857142,
+  "extra_regions": 9889,
+  "gutter_rel": 0.49775,
+  "lines_in": 121664,
+  "lines_out": 121664,
+  "lines_page_differs": 0,
+  "lines_single": 0,
+  "main_char_share": 0.9806643473855942,
+  "main_regions": 6678,
+  "max_merge_passes": 3,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 171,
+  "n_regions_in": 16775,
+  "n_regions_out": 16567,
+  "n_scans": 442,
+  "n_scans_with_gap": 436,
+  "page_mode": {
+   "opening": 440,
+   "single": 2
+  },
+  "pages_with_extra": 850,
+  "pages_with_text": 868,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 0,
+  "scans_page_differs": 0,
+  "scans_pair_linehull": 137,
+  "scans_pair_regionbox": 137,
+  "scans_pair_regions_overlap_hull": 149,
+  "scans_with_lines": 436,
+  "split_method": {
+   "gap": 436,
+   "none": 6
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 17246
+ },
+ "455": {
+  "change": {
+   "merged": 1784,
+   "unchanged": 1169
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 18372,
+   "main": 7277778
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 0.576437587657784,
+  "extra_regions": 822,
+  "gutter_rel": 0.50011,
+  "lines_in": 173515,
+  "lines_out": 173515,
+  "lines_page_differs": 1,
+  "lines_single": 0,
+  "main_char_share": 0.9974819596636583,
+  "main_regions": 2131,
+  "max_merge_passes": 5,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 1784,
+  "n_regions_in": 9343,
+  "n_regions_out": 2953,
+  "n_scans": 721,
+  "n_scans_with_gap": 715,
+  "page_mode": {
+   "opening": 719,
+   "single": 2
+  },
+  "pages_with_extra": 438,
+  "pages_with_text": 1426,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 0,
+  "scans_page_differs": 1,
+  "scans_pair_linehull": 711,
+  "scans_pair_regionbox": 704,
+  "scans_pair_regions_overlap_hull": 711,
+  "scans_with_lines": 715,
+  "split_method": {
+   "gap": 715,
+   "none": 6
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 131920
+ },
+ "456": {
+  "change": {
+   "merged": 385,
+   "split_at_gutter": 2,
+   "unchanged": 2042
+  },
+  "chars": {
+   "empty": 0,
+   "extra": 15358,
+   "main": 7288645
+  },
+  "conservation_ok": true,
+  "dup_layout_region_ids": 0,
+  "extra_per_page": 0.39307958477508653,
+  "extra_regions": 568,
+  "gutter_rel": 0.50202,
+  "lines_in": 175474,
+  "lines_out": 175474,
+  "lines_page_differs": 0,
+  "lines_single": 2,
+  "main_char_share": 0.9978973174025257,
+  "main_regions": 1861,
+  "max_merge_passes": 3,
+  "n_gutter_splits": 1,
+  "n_lines_crossing": 0,
+  "n_merges": 385,
+  "n_regions_in": 3009,
+  "n_regions_out": 2429,
+  "n_scans": 730,
+  "n_scans_with_gap": 725,
+  "page_mode": {
+   "opening": 728,
+   "single": 2
+  },
+  "pages_with_extra": 218,
+  "pages_with_text": 1445,
+  "post_overlap_pairs": 0,
+  "scans_crossing": 0,
+  "scans_page_differs": 0,
+  "scans_pair_linehull": 320,
+  "scans_pair_regionbox": 320,
+  "scans_pair_regions_overlap_hull": 323,
+  "scans_with_lines": 727,
+  "split_method": {
+   "gap": 725,
+   "none": 5
+  },
+  "unchanged_id_mismatch": 0,
+  "unchanged_rows": 2132
+ }
+}

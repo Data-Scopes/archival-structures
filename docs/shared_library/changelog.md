@@ -4,6 +4,82 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.10.0 (2026-10-19)
+
+### Step 15fp: page layout
+
+Additive; existing stages and their output are unchanged. No sibling import changes.
+
+- New module `analysis.page_structure` (pdm objects, no text-layer imports): `LayoutParams`,
+  `get_overlapping_region_sets`, `merge_regions`, `merge_overlapping_text_regions`, `fit_gutter`,
+  `find_separation_x`, `split_scan_into_pages`, `group_regions_into_columns`,
+  `assign_column_roles`, plus the helpers `region_box_id`, `hull_coords`, `is_opening`,
+  `region_chars`. Ports republic's overlapping-region merge (made deterministic, repeated to a
+  fixed point) and its column criterion.
+- New module `text_layer.layout`: `layout_inventory(inv, layer_root, params)`, `layout_scan`
+  and the column lists `LAYOUT_SCAN_COLUMNS`, `LAYOUT_REGION_COLUMNS`, `LAYOUT_LINE_COLUMNS`.
+- `as-build-text-layer`: new v2 stage `--stage layout` (`--layout-params`; `--pagexml-dir` not
+  needed). Writes `layout/{scans,regions,lines}/<inv>.tsv.gz`, `layout/stats.json` and
+  `layout/params.json`; not part of `--stage all`. Schemas in `docs/text_layer.md`.
+
+### Step 15fr: phase 06 review fixes
+
+- `text_layer.line_split.derive_split_params` has a new keyword `merged_width_factor`, default
+  **1.19** (was a fixed 1.22). The `sg_1.10.94_v2` line tables change: more lines are split
+  (counts in the phase-06 report, addendum 15fr). No sibling import changes.
+- `manifest.json` of every layer (also `voc_v1`) has a new key `format_version` (1 or 2), since
+  step 15d. The `voc_v1` tables are unchanged.
+- Step 15e also made these names public: `SplitModel`, `SplitHook`, `fit_split_model_from_rows`,
+  `read_line_rows`, `is_candidate_row`, `training_docs_from_lines`.
+
+### Step 15f: glued-word repair
+
+Backwards compatible; `voc_v1` output is byte-identical (`TOTAL 157 / 157`). No sibling import
+changes.
+
+- New module `text_layer.word_split`: `WordSplitParams`, `token_core`, `build_vocabulary`,
+  `is_candidate`, `segment`, `maybe_segment`, `repair_line`, `apply_word_split`. Only inserts spaces.
+- `text_layer.presets.LayerPreset`: new fields `word_split` (default `"off"`) and
+  `word_split_params`. Both SG presets carry the dev-chosen parameters and stay `"off"`: hand-read
+  precision of real repairs was 0.62 (print) and 0.16 (hand), under the 0.90 bar.
+- `as-build-text-layer`: new v2 stage `--stage wordfix` (`--word-vocab`, `--word-params`;
+  `--pagexml-dir` not needed for it). `--stage all` runs it after extract only when
+  `preset.word_split == "on"`, so default output is unchanged.
+
+### Step 15e: merged-line splitter
+
+All additions are backwards compatible; `voc_v1` output is byte-identical (checked:
+`TOTAL 157 / 157`). No sibling import changes. New core dependency: `nltk (>=3.9)`.
+
+- New module `text_layer.line_split`: verbatim port of republic-project's
+  `long_line_splitter.py` (one crash fix, see its docstring) and an adapter:
+  `SplitParams`, `derive_split_params`, `train_bigram_finder`, `make_pmi_scorer`,
+  `merged_line_candidates`, `fit_split_model`, `make_split_hook`, `extract_inventory_v2_split`.
+  The module imports pagexml at module level; `text_layer/__init__` does not import it.
+- `text_layer.presets.LayerPreset`: new field `split_region_tags` (default `()`);
+  `SG_PRINT_V2` sets it to `("index", "resolution", "untagged", "Text")`.
+- `as-build-text-layer --preset sg_1.10.94_v2` now splits merged lines during extract and
+  writes `split_model/` and `split_stats/`; the v2 line tables of print inventories change
+  (halves `<id>_L`/`<id>_R`, `column`, `edit_flags`, `split_from` filled). `sg_1.01.02_v2` output
+  is unchanged.
+
+### Step 15d: text layer v2 extract
+
+All additions are backwards compatible; `voc_v1` output is byte-identical (checked:
+`TOTAL 157 / 157` on the 22 NLP inventories). No sibling import changes.
+
+- `text_layer.io.iter_pagexml(source, *, skip_resource_forks=False)`: new `.tar.gz`/`.tgz`
+  sources; the keyword is new and the default keeps the old behaviour. `input_bytes` also
+  accepts `.tar.gz`/`.tgz`. New `discover_inventories_v2(pagexml_dir, pattern)`.
+- `text_layer.presets.LayerPreset`: new fields `format_version`, `archive_id`, `source_pattern`,
+  `skip_resource_forks`, `merged_line_split` (defaults leave `VOC_V1` unchanged); new presets
+  `sg_1.01.02_v2` and `sg_1.10.94_v2` in `PRESETS`.
+- New module `text_layer.extract_v2`: `extract_inventory_v2`, `extract_scan_v2`,
+  `legacy_doc_id`, `legacy_region_text`, `SCAN_COLUMNS_V2`, `REGION_COLUMNS_V2`,
+  `LINE_COLUMNS_V2`.
+- `as-build-text-layer` with a v2 preset runs `extract` only (`--stage all` = extract);
+  `--stage wbc|join` exits with status 2.
+
 ## v0.9.0 (2026-10-15)
 
 ### Step 13: pagexml-tools 0.9.0

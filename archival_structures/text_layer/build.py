@@ -70,6 +70,11 @@ Send back:
   * O/<preset name>/{regions/, lines/} to wherever the shared layer lives
     (the user decides). regions_meta/ is an intermediate and can stay behind.
 
+v2 presets only: `--stage layout` (step 15fp) reads scans/, regions_meta/ and lines/ of an
+existing layer and writes O/<preset name>/layout/ (page split, region merge, columns, roles; see
+`archival_structures.text_layer.layout`). Like `--stage wordfix`, it needs no --pagexml-dir and is
+not part of `--stage all`. Run it on a copy of the layer.
+
 Smoke test (local, before anything larger):
 
     as-build-text-layer --pagexml-dir pagexml --out-dir output/smoke \
@@ -90,7 +95,9 @@ from pathlib import Path
 from archival_structures.text_layer.extract import (
     LINES_COLUMNS, META_COLUMNS, ROW_ORDER_STATEMENT, extract_inventory)
 from archival_structures.text_layer.io import (
-    discover_inventories, input_bytes, inventory_sort_key, write_json_atomic, write_plain_tsv)
+    discover_inventories, discover_inventories_v2, input_bytes, inventory_sort_key, write_json_atomic, write_plain_tsv)
+from archival_structures.text_layer.extract_v2 import (
+    LINE_COLUMNS_V2, REGION_COLUMNS_V2, SCAN_COLUMNS_V2, extract_inventory_v2)
 from archival_structures.text_layer.join import ALL_GUARDS, REGION_COLUMNS, join_inventory
 from archival_structures.text_layer.presets import PRESETS, predict_seconds, predict_wall
 from archival_structures.text_layer.provenance import (
@@ -155,7 +162,14 @@ class Run:
             "format": "tab-separated, UTF-8, header row, csv.QUOTE_NONE; tabs/CR/LF inside text "
                       "sanitised to one space each (counts in extract_stats/ and join_stats/)",
             "untagged_region_tag": self.preset.untagged_tag,
+            "format_version": self.preset.format_version,
         })
+        if self.preset.format_version == 2:
+            manifest["columns"] = {"scans": SCAN_COLUMNS_V2, "regions_meta": REGION_COLUMNS_V2,
+                                   "lines": LINE_COLUMNS_V2}
+            manifest["row_order"] = ("Rows are in PageXML document order (scans sorted by file "
+                                     "name, regions depth-first, lines in XML order); reading-order "
+                                     "indices are columns.")
         manifest.setdefault("stages", {})[stage] = {
             "finished_utc": now(),
             "git_head": info.get("git_head", ""),
@@ -172,7 +186,11 @@ class Run:
 
 
 def select_inventories(args):
-    available = discover_inventories(args.pagexml_dir)
+    preset = PRESETS[args.preset]
+    if preset.format_version == 2:
+        available = discover_inventories_v2(args.pagexml_dir, preset.source_pattern)
+    else:
+        available = discover_inventories(args.pagexml_dir)
     wanted = None
     if args.inventories:
         wanted = [s.strip() for s in args.inventories.split(",") if s.strip()]
@@ -252,10 +270,113 @@ def stage_extract(run, inventories, sizes):
             todo.append((inv, (inv, str(source), str(run.root))))
     run.log(f"[extract] {len(inventories) - len(todo)} already done, {len(todo)} to do")
     todo.sort(key=lambda t: -sizes[t[0]][1])
-    failures = run_pool(run, functools.partial(
-        extract_inventory, untagged_tag=run.preset.untagged_tag,
-        scan_id_prefix=run.preset.scan_id_prefix), todo, sizes, "extract")
+    if run.preset.format_version == 2:
+        todo = [(inv, fargs + (run.preset,)) for inv, fargs in todo]
+        if run.preset.merged_line_split == "on":
+            from archival_structures.text_layer.line_split import extract_inventory_v2_split
+            func = extract_inventory_v2_split
+        else:
+            func = extract_inventory_v2
+    else:
+        func = functools.partial(
+            extract_inventory, untagged_tag=run.preset.untagged_tag,
+            scan_id_prefix=run.preset.scan_id_prefix)
+    failures = run_pool(run, func, todo, sizes, "extract")
     run.update_manifest("extract", {"n_inventories": len(inventories), "failed": failures})
+    return failures
+
+
+def stage_wordfix(run, inventories, sizes):
+    """v2 stage (step 15f): glued-word repair of lines/<inv>.lines.tsv.gz, in place and idempotent
+    (`text` is recomputed from `text_raw`; earlier `wordsplit:*` flags are replaced)."""
+    import collections
+    from archival_structures.text_layer.io import read_tsv_gz, write_tsv_gz
+    from archival_structures.text_layer.word_split import (
+        WordSplitParams, apply_word_split, build_vocabulary, token_core)
+    preset = run.preset
+    params = WordSplitParams(**dict(preset.word_split_params or {}))
+    if run.args.word_params:
+        params = WordSplitParams(**json.loads(run.args.word_params))
+    out = run.root / "word_split"
+    out.mkdir(parents=True, exist_ok=True)
+    lines_dir = run.root / "lines"
+    invs = [inv for inv in inventories if (lines_dir / f"{inv}.lines.tsv.gz").exists()]
+    missing = [inv for inv in inventories if inv not in set(invs)]
+    if missing:
+        sys.exit(f"stage wordfix: no lines table for {missing[:5]}; run extract first")
+    if run.args.word_vocab:
+        vocab = collections.Counter()
+        for row in read_tsv_gz(run.args.word_vocab):
+            vocab[row["word"]] = int(row["count"])
+    else:
+        vocab = build_vocabulary(row["text_raw"] for inv in invs
+                                 for row in read_tsv_gz(lines_dir / f"{inv}.lines.tsv.gz"))
+    write_tsv_gz(out / "vocab.tsv.gz", ["word", "count"],
+                 sorted(vocab.items(), key=lambda kv: (-kv[1], kv[0])))
+    write_json_atomic(out / "params.json", {**params.to_dict(), "vocab_types": len(vocab),
+                                            "vocab_tokens": sum(vocab.values()),
+                                            "vocab_source": str(run.args.word_vocab or "selected inventories")})
+
+    def long_tokens(text):
+        return sum(len(token_core(t)[1]) >= 18 for t in text.split(" "))
+
+    failures, stats = [], {}
+    for inv in invs:
+        path = lines_dir / f"{inv}.lines.tsv.gz"
+        rows = list(read_tsv_gz(path))
+        edits = []
+        new = apply_word_split(rows, vocab, params, edits)
+        header = list(rows[0].keys()) if rows else LINE_COLUMNS_V2
+        changed = sum(a["text"] != a["text_raw"] for a in new)
+        stats[inv] = {
+            "lines": len(rows), "lines_changed": changed, "tokens_split": len(edits),
+            "long_tokens_before": sum(long_tokens(r["text_raw"]) for r in rows),
+            "long_tokens_after": sum(long_tokens(r["text"]) for r in new)}
+        write_tsv_gz(path, header, ([r[c] for c in header] for r in new))
+        write_tsv_gz(out / "edits" / f"{inv}.tsv.gz",
+                     ["line_id", "token_index", "original", "replacement"], edits)
+        run.log(f"[wordfix] {inv} {stats[inv]}")
+    write_json_atomic(out / "stats.json", stats)
+    run.update_manifest("wordfix", {"n_inventories": len(invs), "word_split_params": params.to_dict()})
+    return failures
+
+
+def stage_layout(run, inventories, sizes):
+    """v2 stage (step 15fp): page layout tables under layout/; the input tables are only read."""
+    from archival_structures.analysis.page_structure import LayoutParams
+    from archival_structures.text_layer.layout import layout_inventory
+    params = LayoutParams(**json.loads(run.args.layout_params)) if run.args.layout_params else LayoutParams()
+    needed = ("scans/{}.scans.tsv.gz", "regions_meta/{}.tsv.gz", "lines/{}.lines.tsv.gz")
+    missing = [inv for inv in inventories
+               if not all((run.root / n.format(inv)).exists() for n in needed)]
+    if missing:
+        sys.exit(f"stage layout: no scans/regions_meta/lines tables for {missing[:5]}; run extract first")
+    out = run.root / "layout"
+    out.mkdir(parents=True, exist_ok=True)
+    write_json_atomic(out / "params.json", params.to_dict())
+    stats_path = out / "stats.json"
+    stats = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
+    failures = []
+    for inv in inventories:
+        start = time.monotonic()
+        try:
+            stats[inv] = layout_inventory(inv, run.root, params)
+        except Exception as exc:  # noqa: BLE001 -- record and continue
+            failures.append(inv)
+            run.record({"inventory_number": inv, "stage": "layout", "status": "failed",
+                        "error": "".join(traceback.format_exception_only(type(exc), exc))}, sizes)
+            run.log(f"[layout] FAILED {inv}: {exc!r}")
+            continue
+        run.record({"inventory_number": inv, "stage": "layout", "status": "done",
+                    "n_rows": stats[inv]["n_regions_out"], "n_lines": stats[inv]["n_lines"],
+                    "n_scans": stats[inv]["n_scans"], "seconds": round(time.monotonic() - start, 3)},
+                   sizes)
+        run.log(f"[layout] {inv} regions {stats[inv]['n_regions_in']} -> "
+                f"{stats[inv]['n_regions_out']} merges={stats[inv]['n_merges']} "
+                f"gutter_splits={stats[inv]['n_gutter_splits']} gutter_rel={stats[inv]['gutter_rel']}")
+    write_json_atomic(stats_path, dict(sorted(stats.items(), key=lambda kv: inventory_sort_key(kv[0]))))
+    run.update_manifest("layout", {"n_inventories": len(inventories), "failed": failures,
+                                   "layout_params": params.to_dict()})
     return failures
 
 
@@ -386,12 +507,13 @@ def estimate(inventories, sizes, workers, preset):
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0],
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--pagexml-dir", required=True, type=Path)
+    parser.add_argument("--pagexml-dir", type=Path, default=None,
+                        help="required except for --stage wordfix and --stage layout")
     parser.add_argument("--out-dir", required=True, type=Path)
     parser.add_argument("--preset", choices=sorted(PRESETS), default="voc_v1",
                         help="layer preset: output directory name, untagged-region tag, scan-id "
                              "prefix and throughput fit")
-    parser.add_argument("--stage", choices=STAGES + ("all",), default="all")
+    parser.add_argument("--stage", choices=STAGES + ("wordfix", "layout", "all"), default="all")
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--inventories", help="comma-separated inventory numbers (str, e.g. 1539,9626A)")
     group.add_argument("--inventories-file", help="file with one inventory number per line")
@@ -410,10 +532,36 @@ def main(argv=None):
     parser.add_argument("--write-events", action="store_true",
                         help="stage join: also write join_events/<inv>.tsv.gz (guard firings, "
                              "merges, diagnostics) for error analysis")
+    parser.add_argument("--word-vocab", default=None,
+                        help="stage wordfix: vocab.tsv.gz (word, count) instead of building one")
+    parser.add_argument("--word-params", default=None,
+                        help="stage wordfix: JSON WordSplitParams overriding the preset's")
+    parser.add_argument("--layout-params", default=None,
+                        help="stage layout: JSON LayoutParams overriding the defaults")
     args = parser.parse_args(argv)
+    if args.pagexml_dir is None and args.stage not in ("wordfix", "layout"):
+        parser.error("--pagexml-dir is required")
+    if args.stage in ("wordfix", "layout") and PRESETS[args.preset].format_version != 2:
+        parser.error(f"--stage {args.stage} needs a v2 preset")
+    if PRESETS[args.preset].format_version == 2 and args.stage in ("wbc", "join"):
+        print(f"stage {args.stage} is not available for v2 presets yet (phase 07)",
+              file=sys.stderr)
+        return 2
 
-    inventories = select_inventories(args)
-    sizes = {inv: input_bytes(src) for inv, src in inventories.items()}
+    if args.stage in ("wordfix", "layout"):
+        lines_dir = Path(args.out_dir) / PRESETS[args.preset].name / "lines"
+        found = sorted((p.name[:-len(".lines.tsv.gz")] for p in lines_dir.glob("*.lines.tsv.gz")),
+                       key=inventory_sort_key)
+        wanted = None
+        if args.inventories:
+            wanted = [s.strip() for s in args.inventories.split(",") if s.strip()]
+        elif args.inventories_file:
+            wanted = [s.strip() for s in Path(args.inventories_file).read_text().split() if s.strip()]
+        inventories = {inv: lines_dir / f"{inv}.lines.tsv.gz" for inv in (wanted or found)}
+        sizes = {}
+    else:
+        inventories = select_inventories(args)
+        sizes = {inv: input_bytes(src) for inv, src in inventories.items()}
     if args.estimate:
         estimate(inventories, sizes, args.workers, PRESETS[args.preset])
         return 0
@@ -421,10 +569,17 @@ def main(argv=None):
     run = Run(args, PRESETS[args.preset])
     run.log(f"start stage={args.stage} inventories={len(inventories)} workers={args.workers} "
             f"pagexml-tools={version}")
-    stages = STAGES if args.stage == "all" else (args.stage,)
+    preset = PRESETS[args.preset]
+    if preset.format_version == 2:
+        stages = ("extract",) if args.stage in ("all", "extract") else (args.stage,)
+        if args.stage == "all" and preset.word_split == "on":
+            stages += ("wordfix",)
+    else:
+        stages = STAGES if args.stage == "all" else (args.stage,)
     failures = []
     for stage in stages:
-        failures += {"extract": stage_extract, "wbc": stage_wbc, "join": stage_join}[stage](
+        failures += {"extract": stage_extract, "wbc": stage_wbc, "join": stage_join,
+                     "wordfix": stage_wordfix, "layout": stage_layout}[stage](
             run, inventories, sizes) or []
     run.log(f"end stage={args.stage} failures={len(failures)}")
     return 1 if failures else 0
