@@ -1,0 +1,745 @@
+{
+ "11182": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 5307,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 236,
+  "c34_scans_page_differs": 119,
+  "c3_sep_or_method_differs": 701,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 262,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 77,
+   "guard": 17
+  },
+  "change": {
+   "merged": 95,
+   "split_at_gutter": 10,
+   "unchanged": 5268
+  },
+  "extra_per_page": 1.0020463847203274,
+  "extra_regions": 1469,
+  "gutter_rule": "main_edge",
+  "lines_in": 57713,
+  "lines_out": 57713,
+  "main_char_share": 0.9853204134469374,
+  "n_column_splits": 0,
+  "n_furniture": 262,
+  "n_guard_blocked": 20,
+  "n_gutter_splits": 5,
+  "n_lines_crossing": 2064,
+  "n_merges": 95,
+  "n_regions_in": 5473,
+  "n_regions_out": 5373,
+  "pages_with_text": 1466,
+  "split_method": {
+   "gap": 46,
+   "main_edge": 701,
+   "min_coverage": 1,
+   "none": 7
+  }
+ },
+ "11281": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 7709,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 268,
+  "c34_scans_page_differs": 135,
+  "c3_sep_or_method_differs": 1068,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 1022,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 452,
+   "guard": 6
+  },
+  "change": {
+   "merged": 104,
+   "split_at_gutter": 32,
+   "unchanged": 7688
+  },
+  "extra_per_page": 1.0068399452804377,
+  "extra_regions": 2208,
+  "gutter_rule": "main_edge",
+  "lines_in": 78109,
+  "lines_out": 78109,
+  "main_char_share": 0.9817301940005128,
+  "n_column_splits": 0,
+  "n_furniture": 1022,
+  "n_guard_blocked": 8,
+  "n_gutter_splits": 16,
+  "n_lines_crossing": 3607,
+  "n_merges": 104,
+  "n_regions_in": 7914,
+  "n_regions_out": 7824,
+  "pages_with_text": 2193,
+  "split_method": {
+   "gap": 48,
+   "main_edge": 1068,
+   "min_coverage": 3,
+   "none": 20
+  }
+ },
+ "3349": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 12019,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 343,
+  "c34_scans_page_differs": 105,
+  "c3_sep_or_method_differs": 951,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 572,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 33,
+   "guard": 33
+  },
+  "change": {
+   "merged": 46,
+   "split_at_gutter": 6,
+   "unchanged": 11991
+  },
+  "extra_per_page": 2.797699947726085,
+  "extra_regions": 5352,
+  "gutter_rule": "main_edge",
+  "lines_in": 92152,
+  "lines_out": 92152,
+  "main_char_share": 0.9814587049015849,
+  "n_column_splits": 0,
+  "n_furniture": 572,
+  "n_guard_blocked": 34,
+  "n_gutter_splits": 3,
+  "n_lines_crossing": 3659,
+  "n_merges": 46,
+  "n_regions_in": 12093,
+  "n_regions_out": 12043,
+  "pages_with_text": 1913,
+  "split_method": {
+   "gap": 6,
+   "main_edge": 951,
+   "none": 6
+  }
+ },
+ "3350": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 9609,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 1615,
+  "c34_scans_page_differs": 215,
+  "c3_sep_or_method_differs": 879,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 244,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 35,
+   "guard": 31
+  },
+  "change": {
+   "merged": 48,
+   "merged+split_at_gutter": 1,
+   "split_at_gutter": 33,
+   "unchanged": 9588
+  },
+  "extra_per_page": 2.1508474576271186,
+  "extra_regions": 3807,
+  "gutter_rule": "main_edge",
+  "lines_in": 84789,
+  "lines_out": 84789,
+  "main_char_share": 0.9856533698672105,
+  "n_column_splits": 0,
+  "n_furniture": 244,
+  "n_guard_blocked": 35,
+  "n_gutter_splits": 17,
+  "n_lines_crossing": 5013,
+  "n_merges": 49,
+  "n_regions_in": 9710,
+  "n_regions_out": 9670,
+  "pages_with_text": 1770,
+  "split_method": {
+   "gap": 6,
+   "main_edge": 879,
+   "min_coverage": 2,
+   "none": 7
+  }
+ },
+ "3351": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 3962,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 4,
+  "c34_scans_page_differs": 4,
+  "c3_sep_or_method_differs": 79,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 267,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 37,
+   "guard": 5
+  },
+  "change": {
+   "merged": 79,
+   "split_at_gutter": 2,
+   "unchanged": 3958
+  },
+  "extra_per_page": 2.187683284457478,
+  "extra_regions": 746,
+  "gutter_rule": "main_edge",
+  "lines_in": 12598,
+  "lines_out": 12598,
+  "main_char_share": 0.948012650913846,
+  "n_column_splits": 0,
+  "n_furniture": 267,
+  "n_guard_blocked": 9,
+  "n_gutter_splits": 1,
+  "n_lines_crossing": 175,
+  "n_merges": 79,
+  "n_regions_in": 4144,
+  "n_regions_out": 4039,
+  "pages_with_text": 341,
+  "split_method": {
+   "gap": 119,
+   "main_edge": 79,
+   "none": 21
+  }
+ },
+ "3352": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 11057,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 14,
+  "c34_scans_page_differs": 9,
+  "c3_sep_or_method_differs": 1012,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 475,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 31,
+   "guard": 28
+  },
+  "change": {
+   "merged": 55,
+   "unchanged": 11034
+  },
+  "extra_per_page": 2.2104747919725893,
+  "extra_regions": 4516,
+  "gutter_rule": "main_edge",
+  "lines_in": 96844,
+  "lines_out": 96844,
+  "main_char_share": 0.9852847997466585,
+  "n_column_splits": 0,
+  "n_furniture": 475,
+  "n_guard_blocked": 29,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 3206,
+  "n_merges": 55,
+  "n_regions_in": 11152,
+  "n_regions_out": 11089,
+  "pages_with_text": 2043,
+  "split_method": {
+   "gap": 11,
+   "main_edge": 1012,
+   "none": 5
+  }
+ },
+ "3353": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 10489,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 52,
+  "c34_scans_page_differs": 15,
+  "c3_sep_or_method_differs": 905,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 278,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 27,
+   "guard": 22
+  },
+  "change": {
+   "merged": 59,
+   "unchanged": 10478
+  },
+  "extra_per_page": 2.251916757940854,
+  "extra_regions": 4112,
+  "gutter_rule": "main_edge",
+  "lines_in": 85134,
+  "lines_out": 85134,
+  "main_char_share": 0.9842996371080134,
+  "n_column_splits": 0,
+  "n_furniture": 278,
+  "n_guard_blocked": 22,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 2825,
+  "n_merges": 59,
+  "n_regions_in": 10600,
+  "n_regions_out": 10537,
+  "pages_with_text": 1826,
+  "split_method": {
+   "gap": 9,
+   "main_edge": 905,
+   "none": 8
+  }
+ },
+ "3354": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 3675,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 0,
+  "c34_scans_page_differs": 0,
+  "c3_sep_or_method_differs": 0,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 258,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 21,
+   "guard": 2
+  },
+  "change": {
+   "merged": 41,
+   "split_at_gutter": 2,
+   "unchanged": 3673
+  },
+  "extra_per_page": 2.2767295597484276,
+  "extra_regions": 724,
+  "gutter_rule": "gap",
+  "lines_in": 11161,
+  "lines_out": 11161,
+  "main_char_share": 0.9463837101679228,
+  "n_column_splits": 0,
+  "n_furniture": 258,
+  "n_guard_blocked": 2,
+  "n_gutter_splits": 1,
+  "n_lines_crossing": 4,
+  "n_merges": 41,
+  "n_regions_in": 3775,
+  "n_regions_out": 3716,
+  "pages_with_text": 318,
+  "split_method": {
+   "gap": 186,
+   "min_coverage": 3,
+   "none": 28
+  }
+ },
+ "3771": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 11792,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 0,
+  "c34_scans_page_differs": 0,
+  "c3_sep_or_method_differs": 0,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 2386,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 166,
+   "guard": 3
+  },
+  "change": {
+   "merged": 49,
+   "unchanged": 11594
+  },
+  "extra_per_page": 2.9718557607739666,
+  "extra_regions": 3379,
+  "gutter_rule": "gap",
+  "lines_in": 139321,
+  "lines_out": 139321,
+  "main_char_share": 0.9943890029020906,
+  "n_column_splits": 0,
+  "n_furniture": 2386,
+  "n_guard_blocked": 4,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 49,
+  "n_regions_in": 11696,
+  "n_regions_out": 11643,
+  "pages_with_text": 1137,
+  "split_method": {
+   "gap": 572,
+   "none": 7
+  }
+ },
+ "3772": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 11450,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 0,
+  "c34_scans_page_differs": 0,
+  "c3_sep_or_method_differs": 0,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 2269,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 130,
+   "guard": 2
+  },
+  "change": {
+   "merged": 59,
+   "unchanged": 11315
+  },
+  "extra_per_page": 2.4508966695132366,
+  "extra_regions": 2870,
+  "gutter_rule": "gap",
+  "lines_in": 143929,
+  "lines_out": 143929,
+  "main_char_share": 0.9952311601718917,
+  "n_column_splits": 0,
+  "n_furniture": 2269,
+  "n_guard_blocked": 2,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 59,
+  "n_regions_in": 11435,
+  "n_regions_out": 11374,
+  "pages_with_text": 1171,
+  "split_method": {
+   "gap": 587,
+   "none": 8
+  }
+ },
+ "3773": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 11656,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 0,
+  "c34_scans_page_differs": 0,
+  "c3_sep_or_method_differs": 0,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 2338,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 175,
+   "guard": 1
+  },
+  "change": {
+   "merged": 58,
+   "unchanged": 11532
+  },
+  "extra_per_page": 2.462947543713572,
+  "extra_regions": 2958,
+  "gutter_rule": "gap",
+  "lines_in": 147639,
+  "lines_out": 147639,
+  "main_char_share": 0.9950589532453451,
+  "n_column_splits": 0,
+  "n_furniture": 2338,
+  "n_guard_blocked": 1,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 58,
+  "n_regions_in": 11649,
+  "n_regions_out": 11590,
+  "pages_with_text": 1201,
+  "split_method": {
+   "gap": 603,
+   "none": 5
+  }
+ },
+ "3821": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 17926,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 0,
+  "c34_scans_page_differs": 0,
+  "c3_sep_or_method_differs": 0,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 6154,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 86,
+   "guard": 11
+  },
+  "change": {
+   "merged": 44,
+   "unchanged": 17341
+  },
+  "extra_per_page": 11.898500576701268,
+  "extra_regions": 10316,
+  "gutter_rule": "gap",
+  "lines_in": 119045,
+  "lines_out": 119045,
+  "main_char_share": 0.9798174308320913,
+  "n_column_splits": 0,
+  "n_furniture": 6154,
+  "n_guard_blocked": 13,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 44,
+  "n_regions_in": 17447,
+  "n_regions_out": 17385,
+  "pages_with_text": 867,
+  "split_method": {
+   "gap": 434,
+   "none": 6
+  }
+ },
+ "3822": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 18019,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 0,
+  "c34_scans_page_differs": 0,
+  "c3_sep_or_method_differs": 0,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 5787,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 109,
+   "guard": 16
+  },
+  "change": {
+   "merged": 44,
+   "unchanged": 17285
+  },
+  "extra_per_page": 11.046943231441048,
+  "extra_regions": 10119,
+  "gutter_rule": "gap",
+  "lines_in": 124679,
+  "lines_out": 124679,
+  "main_char_share": 0.9813429451475679,
+  "n_column_splits": 0,
+  "n_furniture": 5787,
+  "n_guard_blocked": 16,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 44,
+  "n_regions_in": 17383,
+  "n_regions_out": 17329,
+  "pages_with_text": 916,
+  "split_method": {
+   "gap": 458,
+   "none": 5
+  }
+ },
+ "3823": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 17498,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 0,
+  "c34_scans_page_differs": 0,
+  "c3_sep_or_method_differs": 0,
+  "c6_regions_with_both_columns": 0,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 5594,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 103,
+   "guard": 28
+  },
+  "change": {
+   "merged": 61,
+   "unchanged": 16648
+  },
+  "extra_per_page": 11.55299539170507,
+  "extra_regions": 10028,
+  "gutter_rule": "gap",
+  "lines_in": 121664,
+  "lines_out": 121664,
+  "main_char_share": 0.9804444378226569,
+  "n_column_splits": 0,
+  "n_furniture": 5594,
+  "n_guard_blocked": 32,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 61,
+  "n_regions_in": 16775,
+  "n_regions_out": 16709,
+  "pages_with_text": 868,
+  "split_method": {
+   "gap": 436,
+   "none": 6
+  }
+ },
+ "455": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 135569,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 0,
+  "c34_scans_page_differs": 0,
+  "c3_sep_or_method_differs": 0,
+  "c6_regions_with_both_columns": 36,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 2872,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 1695,
+   "guard": 768
+  },
+  "change": {
+   "merged": 354,
+   "merged+split_at_column": 1430,
+   "split_at_column": 2140,
+   "unchanged": 4818
+  },
+  "extra_per_page": 2.699859747545582,
+  "extra_regions": 3850,
+  "gutter_rule": "gap",
+  "lines_in": 173515,
+  "lines_out": 173515,
+  "main_char_share": 0.996739650363548,
+  "n_column_splits": 2171,
+  "n_furniture": 2872,
+  "n_guard_blocked": 1333,
+  "n_gutter_splits": 0,
+  "n_lines_crossing": 0,
+  "n_merges": 1784,
+  "n_regions_in": 9343,
+  "n_regions_out": 8742,
+  "pages_with_text": 1426,
+  "split_method": {
+   "gap": 715,
+   "none": 6
+  }
+ },
+ "456": {
+  "c1_conservation_ok": true,
+  "c1_dup_layout_region_ids": 0,
+  "c1_unchanged_id_mismatch": 0,
+  "c1_unchanged_rows": 1231,
+  "c2_regression_equal": {
+   "lines": true,
+   "regions": true,
+   "scans": true
+  },
+  "c34_lines_page_differs": 0,
+  "c34_scans_page_differs": 0,
+  "c3_sep_or_method_differs": 0,
+  "c6_regions_with_both_columns": 109,
+  "c7_furniture_merged": 0,
+  "c7_furniture_regions": 746,
+  "c7_residual_other": [],
+  "c7_residual_pairs": {
+   "furniture": 223,
+   "guard": 636
+  },
+  "change": {
+   "merged": 3,
+   "merged+split_at_column": 202,
+   "split_at_column": 3843,
+   "split_at_gutter": 2,
+   "unchanged": 1141
+  },
+  "extra_per_page": 1.0193771626297579,
+  "extra_regions": 1473,
+  "gutter_rule": "gap",
+  "lines_in": 175474,
+  "lines_out": 175474,
+  "main_char_share": 0.998265060953562,
+  "n_column_splits": 1802,
+  "n_furniture": 746,
+  "n_guard_blocked": 714,
+  "n_gutter_splits": 1,
+  "n_lines_crossing": 0,
+  "n_merges": 205,
+  "n_regions_in": 3009,
+  "n_regions_out": 5191,
+  "pages_with_text": 1445,
+  "split_method": {
+   "gap": 725,
+   "none": 5
+  }
+ }
+}

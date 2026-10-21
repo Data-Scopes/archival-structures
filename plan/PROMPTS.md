@@ -15,7 +15,8 @@ change the first task to "create `plan/phase-NN-<slug>/` from `plan/templates/` 
 ```
 Plan phase <NN> (<title>) of AS. Don't implement anything.
 
-Read, in this order: plan/README.md, plan/PLAN.md, plan/phase-<NN>-<slug>/PLAN.md and STATUS.md,
+Read, in this order: plan/README.md, plan/PLAN.md, plan/CONTEXT.md,
+plan/phase-<NN>-<slug>/PLAN.md and STATUS.md,
 then only the source sections that PLAN.md lists under "Sources" (use offset/limit).
 
 Then:
@@ -88,7 +89,8 @@ blocks list). Review the code, not the log.
    don't edit that file unless I say so.
 6. If there are defects, write step-<SS>r-review-fixes.md for a Sonnet session. Don't fix them
    yourself unless a fix is a one-liner.
-7. Fill in the PLAN.md hand-off, update the row in plan/PLAN.md, overwrite STATUS.md, and tell
+7. Fill in the PLAN.md hand-off, update the row in plan/PLAN.md, update plan/CONTEXT.md (the
+   pipeline as it now is, accepted deviations, follow-ups, brief defects), overwrite STATUS.md, and tell
    me what to release (the version and its contents) and which phase to plan next.
 
 <Optional: "Pay particular attention to …".>

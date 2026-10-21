@@ -122,11 +122,43 @@ def first_non_wbc(text, wbcs):
     return stripped[:1]
 
 
-def word_break_stats(regions, inventory_number):
+def robust_counts(lines, chars):
+    """{c: n} occurrences of each `c` in `chars` that a ``„``-robust frequency leaves out (F05-R.4):
+    (a) part of a run of `c` at the start of a line, or (b) between two digits, ignoring adjacent
+    `c` (money notation ``8835„5``). Each occurrence is counted once."""
+    chars = set(chars)
+    out = {c: 0 for c in chars}
+    for text in lines:
+        if not text or not any(c in chars for c in text):
+            continue
+        lead = {}
+        for c in chars:
+            n = 0
+            while n < len(text) and text[n] == c:
+                n += 1
+            lead[c] = n
+        for i, c in enumerate(text):
+            if c not in chars:
+                continue
+            if i < lead[c]:
+                out[c] += 1
+                continue
+            j, k = i - 1, i + 1
+            while j >= 0 and text[j] == c:
+                j -= 1
+            while k < len(text) and text[k] == c:
+                k += 1
+            if j >= 0 and k < len(text) and text[j].isdigit() and text[k].isdigit():
+                out[c] += 1
+    return out
+
+
+def word_break_stats(regions, inventory_number, robust=False):
     """Per-candidate statistics for one inventory.
 
     `regions` is an iterable of per-region line-text sequences (walked twice, so it is
-    materialised first). Returns (rows, info)."""
+    materialised first). With `robust=True` each row also has `all_freq_robust` and
+    `end_rel_frac_robust` (see `robust_counts`; v2 only, v1 never passes it). Returns (rows, info)."""
     from pagexml.analysis.text_stats import LineCharAnalyser
 
     inv = inventory_number
@@ -174,6 +206,7 @@ def word_break_stats(regions, inventory_number):
             first = text[0]
             if first in cand_set and prev is not None and prev[-1] not in cand_set:
                 per[first]["n_start_only"] += 1
+    excluded = robust_counts(all_lines, cand_set) if robust else {}
     rows = []
     for c in candidates:
         counter = per[c]
@@ -198,6 +231,11 @@ def word_break_stats(regions, inventory_number):
             "n_start_only": counter["n_start_only"],
             "n_digit_both_sides": counter["n_digit_both_sides"],
         })
+        if robust:
+            all_r = all_f - excluded[c]
+            rows[-1]["all_freq_robust"] = all_r
+            rows[-1]["end_rel_frac_robust"] = ((end_f / total_end) / (all_r / total_all)
+                                               if total_end and all_r and total_all else 0.0)
     return rows, {"n_lines": len(all_lines), "n_chars": total_all,
                   "seconds": round(time.monotonic() - start, 3)}
 

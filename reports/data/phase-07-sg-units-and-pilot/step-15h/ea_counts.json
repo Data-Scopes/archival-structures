@@ -1,0 +1,46 @@
+{
+ "hand_trimmed_total": 21523,
+ "test_fp": 7502,
+ "test_fn": 6847,
+ "test_per_inventory": {
+  "455": {
+   "tp": 5998,
+   "fp": 2153,
+   "fn": 1051,
+   "p": 0.736,
+   "r": 0.851,
+   "f1": 0.789
+  },
+  "456": {
+   "tp": 10571,
+   "fp": 5349,
+   "fn": 5796,
+   "p": 0.664,
+   "r": 0.646,
+   "f1": 0.655
+  }
+ },
+ "print_short_main_units": {
+  "455": {
+   "one_segment_main_units": 9335,
+   "main_units_le6_chars": 841
+  },
+  "456": {
+   "one_segment_main_units": 7804,
+   "main_units_le6_chars": 1398
+  }
+ },
+ "changed_regions_total": 6391,
+ "changed_by_inv": {
+  "3349": 3,
+  "3350": 15,
+  "3351": 1,
+  "3354": 1,
+  "11182": 4,
+  "11281": 13,
+  "455": 4500,
+  "456": 1854
+ },
+ "unmatched_455": 7,
+ "unmatched_456": 23
+}

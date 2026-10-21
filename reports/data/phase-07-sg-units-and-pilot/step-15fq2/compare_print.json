@@ -1,0 +1,69 @@
+{
+ "455": {
+  "change_pairs": {
+   "main_text->marginalia": 45,
+   "marginalia->page_number": 1,
+   "other->marginalia": 6,
+   "other->page_number": 1
+  },
+  "key_only_a": 0,
+  "key_only_b": 1,
+  "method_changed": 54,
+  "region_changed": 2537,
+  "type_changed": 53,
+  "types_a": {
+   "catch_word": 1151,
+   "date_header": 1657,
+   "main_text": 166896,
+   "marginalia": 1848,
+   "other": 542,
+   "page_number": 1469,
+   "running_header": 54,
+   "signature_mark": 28
+  },
+  "types_b": {
+   "catch_word": 1151,
+   "date_header": 1657,
+   "main_text": 166851,
+   "marginalia": 1899,
+   "other": 535,
+   "page_number": 1471,
+   "running_header": 54,
+   "signature_mark": 28
+  }
+ },
+ "456": {
+  "change_pairs": {
+   "main_text->marginalia": 2,
+   "marginalia->main_text": 103,
+   "marginalia->other": 1
+  },
+  "key_only_a": 9,
+  "key_only_b": 1,
+  "method_changed": 107,
+  "region_changed": 12349,
+  "type_changed": 106,
+  "types_a": {
+   "catch_word": 1161,
+   "date_header": 1748,
+   "index": 120,
+   "main_text": 168789,
+   "marginalia": 967,
+   "other": 304,
+   "page_number": 1589,
+   "running_header": 14,
+   "signature_mark": 127
+  },
+  "types_b": {
+   "catch_word": 1161,
+   "date_header": 1748,
+   "index": 120,
+   "main_text": 168890,
+   "marginalia": 857,
+   "other": 305,
+   "page_number": 1589,
+   "running_header": 14,
+   "signature_mark": 127
+  }
+ }
+}

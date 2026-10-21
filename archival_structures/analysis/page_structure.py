@@ -35,9 +35,10 @@ No text-layer imports: ``archival_structures.text_layer.layout`` adapts table ro
 
 import copy
 import dataclasses
+import re
 import statistics
 from itertools import combinations
-from typing import Callable, Dict, List, Optional, Sequence, Tuple
+from typing import Callable, Collection, Dict, List, Optional, Sequence, Set, Tuple
 
 import numpy as np
 import pagexml.model.physical_document_model as pdm
@@ -57,9 +58,40 @@ class LayoutParams:
     min_gap_px: int = 20
     gutter_window_frac: float = 0.15
     portrait_ratio: float = 1.0   # a scan is an opening iff page_w > portrait_ratio * page_h
+    # step 15fq
+    gutter_rule: str = "auto"          # "gap" (15fp) | "main_edge" | "auto"
+    gap_share_min: float = 0.95        # auto: "gap" if n_scans_with_gap / n_openings_with_lines >= this
+    long_line_frac: float = 0.6        # a line is long if w/page_w >= long_line_frac * med_w_rel
+    min_long_lines: int = 5            # per side, else fall back to the gap rule
+    edge_quantile: float = 0.95
+    split_on_line_field: str = "column"   # "" = off
+    furniture_patterns: tuple = ()     # regexes (re.IGNORECASE, fullmatch on the stripped joined text)
+    furniture_max_lines: int = 2
+    furniture_max_chars: int = 30
+    catchword_band: float = 0.04       # 0 = off
+    interleave_guard: bool = True
+    interleave_width_frac: float = 0.5
+    merge: bool = True                 # False = no merging at all
+    # step 15fq2
+    column_merge_guard: bool = True    # never merge regions whose lines carry different non-empty
+                                       # values of ``split_on_line_field``
 
     def to_dict(self):
-        return dataclasses.asdict(self)
+        d = dataclasses.asdict(self)
+        d["furniture_patterns"] = list(self.furniture_patterns)
+        return d
+
+    @classmethod
+    def from_dict(cls, d):
+        d = dict(d)
+        if "furniture_patterns" in d:
+            d["furniture_patterns"] = tuple(d["furniture_patterns"])
+        return cls(**d)
+
+
+LEGACY_15FP = LayoutParams(gutter_rule="gap", split_on_line_field="", furniture_patterns=(),
+                           catchword_band=0.0, interleave_guard=False,
+                           column_merge_guard=False)
 
 
 def region_box_id(scan_id: str, coords: pdm.Coords) -> str:
@@ -103,18 +135,88 @@ def _new_region(lines, metadata, types=(), id_fn=region_box_id) -> pdm.PageXMLTe
 
 # --- merge ----------------------------------------------------------------------------------
 
+def _guard_blocks(a, b, width_frac: float) -> bool:
+    """Interleave guard: True if one region (S) has only lines narrower than ``width_frac`` times
+    the median line width of the other (L), and S's line y-range lies strictly inside L's."""
+    for s_reg, l_reg in ((a, b), (b, a)):
+        if not s_reg.lines or not l_reg.lines:
+            continue
+        med = statistics.median(line.coords.w for line in l_reg.lines)
+        if not all(line.coords.w < width_frac * med for line in s_reg.lines):
+            continue
+        s_top = min(line.coords.y for line in s_reg.lines)
+        s_bottom = max(line.coords.y + line.coords.h for line in s_reg.lines)
+        l_top = min(line.coords.y for line in l_reg.lines)
+        l_bottom = max(line.coords.y + line.coords.h for line in l_reg.lines)
+        if s_top > l_top and s_bottom < l_bottom:
+            return True
+    return False
+
+
 def get_overlapping_region_sets(regions: Sequence[pdm.PageXMLTextRegion],
-                                overlap_threshold: float = 0.5) -> List[List[pdm.PageXMLTextRegion]]:
+                                overlap_threshold: float = 0.5, *,
+                                exclude: Collection[str] = (),
+                                guard_width_frac: Optional[float] = None,
+                                blocked: Optional[Dict[Tuple[str, str], None]] = None,
+                                column_field: str = "",
+                                column_blocked: Optional[Dict[Tuple[str, str], None]] = None
+                                ) -> List[List[pdm.PageXMLTextRegion]]:
     """Connected components of the ``regions_overlap`` graph (port of republic's
     ``get_overlapping_text_regions`` + ``merge_overlapping_sets``), made deterministic: sets
     are ordered by their first member in input order, members keep input order. Every region
-    is in exactly one set; singletons included."""
+    is in exactly one set; singletons included.
+
+    Regions whose id is in ``exclude`` take no part (always singletons). With
+    ``guard_width_frac`` set, an overlapping pair is not linked when ``_guard_blocks`` says so;
+    such pairs are added to ``blocked`` (a dict used as an ordered set, keyed by id pair).
+
+    With ``column_field`` set, two components whose lines carry, together, more than one distinct
+    non-empty value of that line metadata field are never joined (union-find over the edges in
+    ``combinations`` order; a ``''`` value conflicts with nothing). Skipped edges are added to
+    ``column_blocked``."""
     n = len(regions)
+    excluded = set(exclude)
     neighbours = [[] for _ in range(n)]
+    edges = []
     for i, j in combinations(range(n), 2):
+        if regions[i].id in excluded or regions[j].id in excluded:
+            continue
         if regions_overlap(regions[i], regions[j], threshold=overlap_threshold):
+            if guard_width_frac is not None and _guard_blocks(regions[i], regions[j],
+                                                              guard_width_frac):
+                if blocked is not None:
+                    blocked[(regions[i].id, regions[j].id)] = None
+                continue
             neighbours[i].append(j)
             neighbours[j].append(i)
+            edges.append((i, j))
+    if column_field:
+        parent = list(range(n))
+        vals = [{v for v in ((l.metadata or {}).get(column_field, "") for l in r.lines) if v}
+                for r in regions]
+
+        def find(x):
+            while parent[x] != x:
+                parent[x] = parent[parent[x]]
+                x = parent[x]
+            return x
+
+        for i, j in edges:
+            ri, rj = find(i), find(j)
+            if ri == rj:
+                continue
+            if len(vals[ri] | vals[rj]) > 1:
+                if column_blocked is not None:
+                    column_blocked[(regions[i].id, regions[j].id)] = None
+                continue
+            parent[rj] = ri
+            vals[ri] = vals[ri] | vals[rj]
+        groups = {}
+        for i in range(n):
+            groups.setdefault(find(i), []).append(i)
+        sets = [[regions[i] for i in g] for g in sorted(groups.values(), key=lambda g: g[0])]
+        assert sum(len(g) for g in sets) == n
+        return sets
     seen = [False] * n
     sets = []
     for start in range(n):
@@ -169,19 +271,79 @@ def merge_regions(regions: Sequence[pdm.PageXMLTextRegion], *, union_keys: Tuple
 def merge_overlapping_text_regions(regions: Sequence[pdm.PageXMLTextRegion],
                                    params: LayoutParams = LayoutParams(), *,
                                    union_keys: Tuple[str, ...] = (),
-                                   id_fn: Callable = region_box_id) -> Tuple[List, int]:
+                                   id_fn: Callable = region_box_id,
+                                   exclude: Collection[str] = (),
+                                   blocked: Optional[Dict[Tuple[str, str], None]] = None,
+                                   column_blocked: Optional[Dict[Tuple[str, str], None]] = None
+                                   ) -> Tuple[List, int]:
     """Merge overlapping regions until no pair overlaps (a merged hull can newly overlap a third
     region). A merged region takes the place of its first member. Regions not in any merge are
-    returned as the same objects, ids unchanged. Returns (regions, number of passes that merged)."""
+    returned as the same objects, ids unchanged. Returns (regions, number of passes that merged).
+    ``exclude`` (region ids) and the interleave guard (``params.interleave_guard``) keep regions
+    out of merges; ``blocked`` collects the guard-blocked id pairs. The column guard
+    (``params.column_merge_guard``, on ``params.split_on_line_field``) keeps regions with different
+    non-empty column values apart; ``column_blocked`` collects those id pairs."""
     current = list(regions)
     passes = 0
+    guard = params.interleave_width_frac if params.interleave_guard else None
+    column_field = params.split_on_line_field if params.column_merge_guard else ""
     while True:
-        sets = get_overlapping_region_sets(current, params.overlap_threshold)
+        sets = get_overlapping_region_sets(current, params.overlap_threshold, exclude=exclude,
+                                           guard_width_frac=guard, blocked=blocked,
+                                           column_field=column_field, column_blocked=column_blocked)
         if all(len(s) == 1 for s in sets):
             return current, passes
         passes += 1
         current = [s[0] if len(s) == 1 else merge_regions(s, union_keys=union_keys, id_fn=id_fn)
                    for s in sets]
+
+
+# --- column split on a line field, furniture -----------------------------------------------
+
+def split_regions_on_line_field(regions: Sequence[pdm.PageXMLTextRegion], field: str, *,
+                                id_fn: Callable = region_box_id
+                                ) -> Tuple[List[pdm.PageXMLTextRegion], int]:
+    """Split each region into one region per value of ``line.metadata[field]`` (missing = '').
+    A region with one value is returned as the same object. Otherwise the groups are ordered by
+    first occurrence, lines keep their order, coords are the hull, and
+    ``metadata["column_split_from"] = [original id]``. Returns (regions, number of regions split)."""
+    out, n_splits = [], 0
+    for region in regions:
+        groups: Dict[str, list] = {}
+        for line in region.lines:
+            groups.setdefault((line.metadata or {}).get(field, ""), []).append(line)
+        if len(groups) <= 1:
+            out.append(region)
+            continue
+        n_splits += 1
+        for lines in groups.values():
+            metadata = copy.deepcopy(region.metadata or {})
+            metadata["column_split_from"] = [region.id]
+            out.append(_new_region(lines, metadata, sorted(region.types), id_fn))
+    return out, n_splits
+
+
+def furniture_region_ids(regions: Sequence[pdm.PageXMLTextRegion], page_text_bottom: float,
+                         page_h: float, params: LayoutParams = LayoutParams()) -> Set[str]:
+    """Ids of page furniture: regions with at most ``furniture_max_lines`` lines and
+    ``furniture_max_chars`` characters (joined with spaces, stripped) whose text fullmatches one
+    of ``furniture_patterns`` (IGNORECASE), or catch words: one line, one token of at most 15
+    characters, box top at or below ``page_text_bottom - catchword_band * page_h``."""
+    patterns = [re.compile(p, re.IGNORECASE) for p in params.furniture_patterns]
+    found = set()
+    for region in regions:
+        if not region.lines or len(region.lines) > params.furniture_max_lines:
+            continue
+        text = " ".join((line.text or "") for line in region.lines).strip()
+        if len(text) > params.furniture_max_chars:
+            continue
+        if any(p.fullmatch(text) for p in patterns):
+            found.add(region.id)
+        elif (params.catchword_band > 0 and len(region.lines) == 1 and len(text.split()) == 1
+              and len(text) <= 15
+              and region.lines[0].coords.y >= page_text_bottom - params.catchword_band * page_h):
+            found.add(region.id)
+    return found
 
 
 # --- page split -----------------------------------------------------------------------------
@@ -226,12 +388,66 @@ def fit_gutter(scans: Sequence[Tuple[int, Sequence[Tuple[int, int]]]],
     return (statistics.median(rel) if rel else 0.5), len(rel)
 
 
+def inventory_line_width_rel(scans: Sequence[Tuple[int, Sequence[Tuple[int, int]]]]) -> float:
+    """Median of line width / page_w over all lines of the landscape scans (same input as
+    ``fit_gutter``); 0.0 if there are none."""
+    rel = [w / page_w for page_w, boxes in scans if page_w for _, w in boxes]
+    return float(statistics.median(rel)) if rel else 0.0
+
+
+def choose_gutter_rule(n_scans_with_gap: int, n_openings_with_lines: int,
+                       params: LayoutParams = LayoutParams()) -> str:
+    """``gap`` or ``main_edge``. Under ``auto``: ``gap`` if the share of openings with a gap in
+    the gutter window is at least ``gap_share_min`` (or there are no openings), else ``main_edge``."""
+    if params.gutter_rule != "auto":
+        return params.gutter_rule
+    if n_openings_with_lines <= 0:
+        return "gap"
+    share = n_scans_with_gap / n_openings_with_lines
+    return "gap" if share >= params.gap_share_min else "main_edge"
+
+
+def find_main_edge_x(lines_xw: Sequence[Tuple[int, int]], page_w: int, gutter_rel: float,
+                     med_w_rel: float, params: LayoutParams = LayoutParams()) -> Optional[float]:
+    """Separation from the main text of both pages: the smaller of the verso long lines' right
+    edge (``edge_quantile``) and the recto long lines' left edge (1 - ``edge_quantile``).
+    Long = ``w/page_w >= long_line_frac·med_w_rel``; verso/recto by box centre against
+    ``gutter_rel·page_w``. None if either side has fewer than ``min_long_lines`` long lines or
+    the result is further than ``gutter_window_frac·page_w`` from the gutter."""
+    c0 = gutter_rel * page_w
+    min_w = params.long_line_frac * med_w_rel * page_w
+    verso_right, recto_left = [], []
+    for x, w in lines_xw:
+        if w < min_w:
+            continue
+        if x + w / 2 < c0:
+            verso_right.append(x + w)
+        else:
+            recto_left.append(x)
+    if len(verso_right) < params.min_long_lines or len(recto_left) < params.min_long_lines:
+        return None
+    se = min(float(np.quantile(verso_right, params.edge_quantile)),
+             float(np.quantile(recto_left, 1 - params.edge_quantile)))
+    if abs(se - c0) > params.gutter_window_frac * page_w:
+        return None
+    return se
+
+
 def find_separation_x(boxes: Sequence[Tuple[int, int]], page_w: int, gutter_rel: float,
-                      params: LayoutParams = LayoutParams()) -> Tuple[float, str]:
-    """The x that separates verso from recto, and how it was found. ``gap``: the centre of the
+                      params: LayoutParams = LayoutParams(), *, rule: str = "gap",
+                      lines_xw: Optional[Sequence[Tuple[int, int]]] = None,
+                      med_w_rel: Optional[float] = None) -> Tuple[float, str]:
+    """The x that separates verso from recto, and how it was found. ``main_edge`` (only with
+    ``rule="main_edge"`` and a result from ``find_main_edge_x``): the edge of the two pages' main
+    text. ``gap``: the centre of the
     zero-coverage gap (≥ min_gap_px, clipped to the window) nearest ``gutter_rel·page_w``,
     within ±gutter_window_frac·page_w. ``min_coverage``: else the x of minimum coverage in that
     window, the one nearest the gutter on ties."""
+    if rule == "main_edge" and med_w_rel:
+        se = find_main_edge_x(boxes if lines_xw is None else lines_xw, page_w, gutter_rel,
+                              med_w_rel, params)
+        if se is not None:
+            return se, "main_edge"
     centre = gutter_rel * page_w
     lo = int(round(centre - params.gutter_window_frac * page_w))
     hi = int(round(centre + params.gutter_window_frac * page_w)) + 1

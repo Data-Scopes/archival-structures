@@ -1,0 +1,163 @@
+{
+ "3349": {
+  "a": {
+   "merges": 8936,
+   "lower": 8783,
+   "lower_share": 0.9829,
+   "by_break_char": {
+    "„": 8661,
+    "=": 275
+   }
+  },
+  "b": {
+   "merges": 8660,
+   "lower": 8576,
+   "lower_share": 0.9903,
+   "by_break_char": {
+    "„": 8660
+   }
+  },
+  "removed": 276,
+  "eq_a": 275,
+  "eq_b": 0
+ },
+ "3350": {
+  "a": {
+   "merges": 7704,
+   "lower": 7549,
+   "lower_share": 0.9799,
+   "by_break_char": {
+    "„": 7479,
+    "=": 225
+   }
+  },
+  "b": {
+   "merges": 7478,
+   "lower": 7376,
+   "lower_share": 0.9864,
+   "by_break_char": {
+    "„": 7478
+   }
+  },
+  "removed": 226,
+  "eq_a": 225,
+  "eq_b": 0
+ },
+ "3351": {
+  "a": {
+   "merges": 174,
+   "lower": 164,
+   "lower_share": 0.9425,
+   "by_break_char": {
+    "„": 171,
+    "=": 3
+   }
+  },
+  "b": {
+   "merges": 171,
+   "lower": 161,
+   "lower_share": 0.9415,
+   "by_break_char": {
+    "„": 171
+   }
+  },
+  "removed": 3,
+  "eq_a": 3,
+  "eq_b": 0
+ },
+ "3352": {
+  "a": {
+   "merges": 9972,
+   "lower": 9477,
+   "lower_share": 0.9504,
+   "by_break_char": {
+    "„": 9640,
+    "=": 330,
+    "-": 2
+   }
+  },
+  "b": {
+   "merges": 9972,
+   "lower": 9477,
+   "lower_share": 0.9504,
+   "by_break_char": {
+    "„": 9640,
+    "=": 330,
+    "-": 2
+   }
+  },
+  "removed": 0,
+  "eq_a": 330,
+  "eq_b": 330
+ },
+ "3353": {
+  "a": {
+   "merges": 8127,
+   "lower": 7955,
+   "lower_share": 0.9788,
+   "by_break_char": {
+    "„": 7808,
+    "=": 318,
+    "-": 1
+   }
+  },
+  "b": {
+   "merges": 7809,
+   "lower": 7724,
+   "lower_share": 0.9891,
+   "by_break_char": {
+    "„": 7808,
+    "-": 1
+   }
+  },
+  "removed": 318,
+  "eq_a": 318,
+  "eq_b": 0
+ },
+ "3354": {
+  "a": {
+   "merges": 126,
+   "lower": 122,
+   "lower_share": 0.9683,
+   "by_break_char": {
+    "„": 126
+   }
+  },
+  "b": {
+   "merges": 126,
+   "lower": 121,
+   "lower_share": 0.9603,
+   "by_break_char": {
+    "„": 126
+   }
+  },
+  "removed": 0,
+  "eq_a": 0,
+  "eq_b": 0
+ },
+ "TOTAL_3349_3350_3353": {
+  "removed": 820,
+  "a": {
+   "merges": 24767,
+   "lower": 24287,
+   "lower_share": 0.9806
+  },
+  "b": {
+   "merges": 23947,
+   "lower": 23676,
+   "lower_share": 0.9887
+  }
+ },
+ "TOTAL_hand_tar": {
+  "a": {
+   "merges": 59806,
+   "lower": 58337,
+   "lower_share": 0.9754
+  },
+  "b": {
+   "merges": 58163,
+   "lower": 57111,
+   "lower_share": 0.9819
+  }
+ }
+}

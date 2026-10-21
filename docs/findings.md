@@ -466,6 +466,50 @@ rounding (`round(12.5) == 12`). `max_scan=0` or `None` means no upper clamp. A r
 at the inventory end still gets the `+extrapolated` suffix. Fixing any of these would change
 NLP's published numbers, so each would need its own measured change (F04-12.5).
 
+## States General PageXML and the v2 text layer
+
+These come from phase 06 (`text_layer` v2 for the States General, hand `NL-HaNA_1.01.02` and
+print `NL-HaNA_1.10.94` 455/456). The full evidence is in
+`reports/phase-06-text-layer-v2-sg.md`; the IDs in brackets are its finding IDs.
+
+**The legacy SG region `doc_id`s and texts can be reproduced exactly from the PageXML.** The
+`doc_id` is `f"{scan_id}-text_region-{x}-{y}-{w}-{h}"`, with the box taken from the region
+`Coords` in PageXML pixels (no rescale) and regions walked recursively. The text is
+pagexml-tools' line join with the old word-break characters `['-', '„']`. The v2 extract
+(`text_layer.extract_v2.legacy_doc_id`) matches the legacy TSVs on 151,246 of 151,246 rows in
+14 inventories, both `doc_id` and text (F06-15d.1). So a regenerated layer can keep the keys that
+LotA's gold files join on.
+
+**In print 455, region polygons don't bound their lines: use line boxes.** In 14 hand
+inventories and print 456, every line box lies within its region box (5 px tolerance). In 455,
+67.3% of the lines (109,071) extend beyond their region polygon, mostly by less than 30 px
+horizontally (F06-15d.3). Any crop, overlap test or column assignment on 455 should use the hull
+of the line boxes, not the region `Coords`.
+
+**pagexml-tools ≥ 0.8 breaks REPUBLIC's merged-line splitter; AS's port carries the fix.**
+Republic's `long_line_splitter` imports cleanly but raises `IndexError` on every page under
+pagexml-tools ≥ 0.8.0, because `get_all_text_regions` no longer looks into columns. The AS port
+(`text_layer.line_split`) has the fix built in and matches the original (with the 0.7.x
+behaviour restored) on 2,856 of 2,856 REPUBLIC resolution pages. HTR text with a double space
+where two columns meet (115 lines in 455 + 456) also raised `ValueError` until the text was
+normalised first (F06-15e.6). Run a ported original once under the current pins, not only import
+it.
+
+**Synthetic glued-word precision says little about real repairs in historical Dutch.** A
+unigram segmenter fitted on the corpus's own lines reached a boundary precision of 0.984 (print)
+and 0.9995 (hand) on synthetic glued pairs and triples (F06-15f.1). On 50 real repairs read per
+side, only 31 were correct in print (0.62) and 8 in hand (0.16), both under the 0.90 bar fixed in
+advance, so repair stays off (F06-15f.2). The errors are genuine words broken at a frequent
+prefix or suffix: `verlatende` → `verlaten de`, `voorquam`, `overlast`, and in hand `-en`, `-de`,
+`op`, `voor`, `aen` + stem. A training-vocabulary unigram model cannot tell `opstellen` from
+`op stellen`, and period spellings such as `vandenselven` are one word (F06-15f.4, F06-R.5).
+Evaluate a segmenter on read real repairs, not on synthetic glue.
+
+**PageXML `Word` elements don't restore lost spaces.** In the SG PageXML, the `Word` texts joined
+with single spaces equal the line text in 455 for 33,659 of 33,660 lines, and in 3349 for 14,324
+of 14,324 (F06-P.2). Where the HTR glued two words, the `Word` elements are glued too, so
+whitespace repair needs text segmentation.
+
 ## Tooling
 
 **ipywidgets v8 silently drops the old `overflow_x`/`overflow_y` Layout properties** (no error,

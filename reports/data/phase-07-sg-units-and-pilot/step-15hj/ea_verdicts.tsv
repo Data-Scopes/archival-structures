@@ -1,0 +1,131 @@
+section	item	verdict	category
+merge_hand	3821 allegeert, tegen dusda-' | 'nige voorlieninge	ok	genuine word break, joined word correct
+merge_hand	3350 aer stijle voort gepro„' | 'cedeert te werden	ok	genuine word break, joined word correct
+merge_hand	3823  Hof dien das den klei-' | 'nen kouw voor vee	ok	genuine word break, joined word correct
+merge_hand	3773 zynde, aan hem in reke-' | 'ninge gevalideert	ok	genuine word break, joined word correct
+merge_hand	3353  volgende de voorz: me„' | 'morie hier na gei	ok	genuine word break, joined word correct
+merge_hand	3773 burgh te mogen vertrec-' | 'ken.'	ok	genuine word break, joined word correct
+merge_hand	3771 en werden versoght als-' | 'noch de noodige v	ok	genuine word break, joined word correct
+merge_hand	3772 edanckt werden mits de-' | 'sen.'	ok	genuine word break, joined word correct
+merge_hand	3772 artieren deses Fursten-' | 'doms ende Graafsc	ok	genuine word break, joined word correct
+merge_hand	3773  den Grave van Albemar-' | "le tot Gouverneur	ok	genuine word break, joined word correct
+merge_hand	3771 oorsorge sullen overne-' | 'men voor de getro	ok	genuine word break, joined word correct
+merge_hand	3773 Londen den ses en twin-' | 'tighsten deser lo	ok	genuine word break, joined word correct
+merge_hand	3771 n de voorschreve Missi-' | 've gemeldt.'	ok	genuine word break, joined word correct
+merge_hand	3773 trent de liquidatie we-' | 'gens die negotiat	ok	genuine word break, joined word correct
+merge_hand	3771 sidien, door de Provin-' | 'cien jaerlijcks w	ok	genuine word break, joined word correct
+merge_print	455 jsbert van Hemert, Wil-' | 'sem Ras, Gijsbert	ok	genuine word break, joined word correct
+merge_print	455  Cavallerye, is navoor-' | 'gaende deliberati	ok	genuine word break, joined word correct
+merge_print	456 ces, pour visiter, exa-' | 'is miner e faire 	ok	genuine word break, joined word correct (OCR noise in the joined word)
+merge_print	455 eputeerden tot de saec.' | 'ken van de Zee, o	ok	genuine word break, joined word correct (OCR noise in the joined word)
+merge_print	455 n van desen Staet, hou.' | 'dende, dat hy Sup	ok	genuine word break, joined word correct (OCR noise in the joined word)
+merge_print	455  midts desen te surche-' | 'ren voor den tijd	ok	genuine word break, joined word correct
+merge_print	455 Glaude Gustery, geboor-' | 'tigh uyt Switserl	ok	genuine word break, joined word correct
+merge_print	455 Placaten niet geconsen-' | 'Jteert.'	ok	genuine word break, joined word correct (OCR noise in the joined word)
+merge_print	455 t een Paport in behoor-' | 'lijcke forma sal 	ok	genuine word break, joined word correct
+merge_print	456 eelandt hebben de voor-' | 'schreve Missive c	ok	genuine word break, joined word correct
+merge_print	456 n de Convoyen en Licen-' | 'ten, om daer over	ok	genuine word break, joined word correct
+merge_print	455 escheert, doende denbe-' | 'hoorlijcken Eed.'	ok	genuine word break, joined word correct
+merge_print	455 n Lande, en dat de Hee-' | 'ren Staten van Vr	ok	genuine word break, joined word correct
+merge_print	455 rt in behoorlijcke for-' | 'ma sal werden ged	ok	genuine word break, joined word correct
+merge_print	455 e ende sincere genegen-' | 'heydt tothooghstg	ok	genuine word break, joined word correct
+guarded	11281 0, ende andere van 700:' | 'bij haer, off hae	ok	guard right: not a word break
+guarded	3822  Jast, waar van de 000.' | 'rige Commandeurs 	wrong	guard wrong: genuine break with OCR-garbled letters (digit for letter)
+guarded	3821 s den 26 Augusti 1sbu0-' | 'A M'	ok	guard right: not a word break
+guarded	3822 'sijnen kotten een 48.' | 'sittentie mooren 	ok	guard right: not a word break
+guarded	3823 5 Mog. Jurisdictie, a5-' | 'tervolgens den Ee	wrong	guard wrong: genuine break with OCR-garbled letters (digit for letter)
+guarded	3771 'mer, gelijcke -' | '25-0 0'	ok	guard right: not a word break
+guarded	3822 'res door den 4800.' | 'caat Fiscaat van 	wrong	guard wrong: genuine break with OCR-garbled letters (digit for letter)
+guarded	3823 dewelke reeds met eeni-' | '93'	doubtful	unclear
+guarded	3823 'Admiraliteiten 101 na-' | '1ig1'	doubtful	unclear
+guarded	3823 teuren soigneuselyk ob-' | '2en sergeeren, en	doubtful	unclear
+guarded	3822 oekende naar 4005. M05.' | 'approbatie en per	ok	guard right: not a word break
+guarded	455 e Resolutie van den 29.' | 'der voorlede Maen	ok	guard right: not a word break
+guarded	3822 '1767.' | 'PRAESIDE,'	ok	guard right: not a word break
+guarded	3823 'het Collateraal a1-' | 'daar, mooge werde	wrong	guard wrong: genuine break with OCR-garbled letters (digit for letter)
+guarded	3822 Heeren Brantsen, en a2.' | 'dere naar Hoos Mo	wrong	guard wrong: genuine break with OCR-garbled letters (digit for letter)
+guarded	3822 'Millive van den Con„' | '101 de Hochepied 	wrong	guard wrong: genuine break with OCR-garbled letters (digit for letter)
+guarded	3822 ert, dat naar 41005 M0.' | 'sende aan hun gel	ok	guard right: not a word break
+guarded	3823 'sien: Commiss.-' | 'Rapport en geappr	ok	guard right: not a word break
+guarded	3822 '1767.' | 'Nihil actum est.'	ok	guard right: not a word break
+guarded	3822 'reis na Mosco 100.' | 'betext vier duise	ok	guard right: not a word break
+merge_upper_digit	3822 iensten waar te neemen.' | 'WAAR op gedeliber	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	456 sich wederom by een na-' | 'Donauw hadden der	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	3822  geleesen het schrifte-' | 'Llijk Rapport van	ok	genuine break, OCR upper-case letter
+merge_upper_digit	456 e ende toereyckende or-' | 'Baron van dres ge	doubtful	unclear
+merge_upper_digit	3352 aen des Generaliteijts=' | 'Reeckenkamer, om 	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	456 Gruben, gegageerde Cor-' | 'Hoogh Mo. nets te	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	456 Comptoiren mogen passe-' | 'Op de Requeste va	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	3822 , houdende advertentie.' | 'WAAR op geen reso	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	456 orsieninge gedoen moge-' | 'Ontfangen een Mis	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	456 n Staet in wesen te be-' | 'Dat haer Hoogh Mo	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	456 gende het selve afgewe-' | 'Is ter Vergaderin	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	456  andere haer Hoogh Mog-' | 'Gedeputeerden tot	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	455  van PrinsFredrick Hen-' | 'Jdrick, beyde hoo	ok	genuine break, OCR upper-case letter
+merge_upper_digit	455 ais en Vcousehadden ge-' | 'Jaccordeert gehad	ok	genuine break, OCR upper-case letter
+merge_upper_digit	3822 ullen noodis oordeeten.' | 'Een wyders aan de	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	3350 quo habebatur Loot pro„' | 'Lont, peo denuo V	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	3823  's Lands geregtigheid-" | 'En sal het voorsc	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	3822 'rytsche-' | 'Neder-'	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	3771 'Paerden der Chur-' | 'Saxische Cavaller	wrong	wrong merge: sentence/paragraph start or hyphenated compound after the break char
+merge_upper_digit	456 r ter Vergaderinge rap-' | 'Mor-port te doen.	ok	genuine break, OCR upper-case letter (OCR noise in the joined word)
+char_.455	455 prejuditie ende nadeel.' | 'lae Rumonde wierd	wrong	wrong: '.' ends a sentence or abbreviation
+char_.455	455  ende desen Staet, vol.' | 'gens het geconven	ok	'.' is the OCR reading of a hyphen
+char_.455	455 echten van het Fort St.' | 'Maria aen den Ont	wrong	wrong: '.' ends a sentence or abbreviation
+char_.455	455 'Le Baronde Bochmer.' | 'Waer op gedeliber	wrong	wrong: '.' ends a sentence or abbreviation
+char_.455	455 t van State, by haer E.' | 'selfs te nominere	wrong	wrong: '.' ends a sentence or abbreviation
+char_.455	455 rdre van haer Hoogh Mo.' | 'gende waren vertr	ok	'.' is the OCR reading of a hyphen
+char_.455	455 van Dirck vander Helck.' | 'Koopman tot Rotte	wrong	wrong: '.' ends a sentence or abbreviation
+char_.455	455 eropgedelibereert zijn.' | 'de, is goedtgevon	ok	'.' is the OCR reading of a hyphen
+char_.455	455 edeputeerden tot de Mi.' | 'litaire saecken, 	ok	'.' is the OCR reading of a hyphen
+char_.455	455  om alle verdere onder.' | 'nemingen van den 	ok	'.' is the OCR reading of a hyphen
+char_.455	455 r, houdende dat hy Sup.' | 'pliant, in gevolg	ok	'.' is the OCR reading of a hyphen
+char_.455	455 n van den Suppliant ge.' | 'pleeght, en soo v	ok	'.' is the OCR reading of a hyphen
+char_.455	455 erde advertentie, enon.' | 'der anderen, dat 	ok	'.' is the OCR reading of a hyphen
+char_.455	455 deputeerden van de Pro.' | 'vincie van Zeelan	ok	'.' is the OCR reading of a hyphen
+char_.455	455  selver ordinaris Gede.' | 'puteerden, en son	ok	'.' is the OCR reading of a hyphen
+char_.455	455 examinatie vande selve.' | 'enPartyen wederzy	wrong	wrong: '.' ends a sentence or abbreviation
+char_.455	455 n bevinden te behooren.' | 'Waerop gedelibere	wrong	wrong: '.' ends a sentence or abbreviation
+char_.455	455 te sal werden versoght.' | 'deselve versoght 	wrong	wrong: '.' ends a sentence or abbreviation
+char_.455	455 voorden loopenden jare.' | 'sondereenige demi	wrong	wrong: '.' ends a sentence or abbreviation
+char_.455	455 ive van den viee Hoogh.' | 'schout de Quade, 	ok	'.' is the OCR reading of a hyphen
+char_.3822	3822 en Juny leeventien hon.' | 'derd drie tot het	ok	'.' is the OCR reading of a hyphen
+char_.3822	3822 '41005 Mogende.' | 'WAAR op gedeliber	wrong	wrong: '.' ends a sentence or abbreviation
+char_.3822	3822 ckeren tot Kell, Branc.' | 'sen.'	ok	'.' is the OCR reading of a hyphen
+char_.3822	3822 'Can, van Lynden, Bout.' | 'Van Grovestins, B	wrong	wrong: '.' ends a sentence or abbreviation
+char_.3822	3822 aplaaken volgens de 5e.' | 'melde Certepartye	wrong	wrong: '.' ends a sentence or abbreviation
+char_.3822	3822 'werden toegesonden.' | 'Geaccordeert'	wrong	wrong: '.' ends a sentence or abbreviation
+char_.3822	3822 voor hanne 12. en Opse.' | 'reetenen tragtend	doubtful	unclear
+char_.3822	3822 n sijn Hoogheid een 5e.' | 'lutkige en voorsp	ok	'.' is the OCR reading of a hyphen (OCR noise in the joined word)
+char_.3822	3822 eederom moge worden 5e.' | 'continueert en ge	ok	'.' is the OCR reading of a hyphen (OCR noise in the joined word)
+char_.3822	3822 'Relolutie van Zeeland.' | 'ten einde de beta	wrong	wrong: '.' ends a sentence or abbreviation
+char_:11281	11281  R: V: Iddekinge lager:' | ':stond Terordonna	doubtful	both-ends fix on 'lager:' + ':stond'
+char_:11281	11281 lijck als daerbij nage:' | 'sien werden, de r	ok	':' is the scribe's hyphen
+char_:11281	11281 ck aenloopt tegen U ho:' | 'mogende resolutie	ok	':' is the scribe's hyphen
+char_:11281	11281 egtaeatigheijt onweder:' | 'spreeckelijck is;	ok	':' is the scribe's hyphen
+char_:11281	11281 t de la part de la gar:' | ':nisn ace que le 	ok	':' is the scribe's hyphen
+char_:11281	11281 en, als sonder 't welc:" | 'ke de saecken nie	ok	':' is the scribe's hyphen
+char_:11281	11281 en, U hooghmogende dos:' | 'wegen vreendelijc	ok	':' is the scribe's hyphen
+char_:11281	11281 de van Braband geadmit:' | 'teert, residerend	ok	':' is the scribe's hyphen
+char_:11281	11281 ssement, en horta memo:' | 'tie, sijn opgeste	ok	':' is the scribe's hyphen
+char_:11281	11281 heert J: Ghijselin, la:' | 'gerstond Terordon	ok	':' is the scribe's hyphen
+char_=	3352 het maecken van Sterck=' | ',waater is verbru	ok	genuine break (OCR noise in the joined word)
+char_=	3352 om de paerden en Muijl=' | 'Esels daer toe no	wrong	wrong: hyphenated compound loses its hyphen
+char_=	11182 u'il n‛eutpas de ja re=" | ',mis les titres p	doubtful	unclear
+char_=	11182  sous pretexte d'ij re=" | 'couvres des somme	ok	genuine break
+char_=	11182 vsocht, om de vs. Vrij=' | 'bieven te willen 	ok	genuine break
+char_=	3352 epescheert, om vijffen=' | 'twintigh paerden 	ok	genuine break
+char_=	3823 deputeerden uit de Pro=' | 'vincie van Gelder	ok	genuine break
+char_=	11182  extraordinaire das Re=' | 'cresailles, contr	ok	genuine break
+char_=	11182  ou ne scauroit en dou=' | ',ter; des gens a 	ok	genuine break (OCR noise in the joined word)
+char_=	3352 e werden; Ende is dien=' | 'onvermindert goet	wrong	wrong: hyphenated compound loses its hyphen
+print_unit_ends_dash	455 ...n gisteren genomen, zijn ge- (1 segs)	listed	for 15i: unit ends mid-word, continuation is in another unit
+print_unit_ends_dash	455 ...ercken, en alhier ter Verga- (5 segs)	listed	for 15i: unit ends mid-word, continuation is in another unit
+print_unit_ends_dash	456 ...eledene schade door het ver- (20 segs)	listed	for 15i: unit ends mid-word, continuation is in another unit
+print_unit_ends_dash	456 ...PRAESIDE,- (1 segs)	listed	for 15i: unit ends mid-word, continuation is in another unit
+print_unit_ends_dash	455 ...otte, en Compagnie, Koopluy- (2 segs)	listed	for 15i: unit ends mid-word, continuation is in another unit
+print_unit_ends_dash	456 ...t dat haer Hoogh Mogende ge- (2 segs)	listed	for 15i: unit ends mid-word, continuation is in another unit
+print_unit_ends_dash	455 ...orgaende Staten en Represen- (10 segs)	listed	for 15i: unit ends mid-word, continuation is in another unit
+print_unit_ends_dash	456 ...oey, Raedt-Pensionaris Heyn- (1 segs)	listed	for 15i: unit ends mid-word, continuation is in another unit
+print_unit_ends_dash	456 ...envolgende het selve afgewe- (12 segs)	listed	for 15i: unit ends mid-word, continuation is in another unit
+print_unit_ends_dash	456 ...n, die effective in de voor- (16 segs)	listed	for 15i: unit ends mid-word, continuation is in another unit

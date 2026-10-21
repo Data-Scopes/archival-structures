@@ -209,17 +209,16 @@ def test_presets_voc_unchanged():
     assert (SG_PRINT_V2.merged_line_split, SG_PRINT_V2.scan_id_prefix) == ("on", "NL-HaNA_1.10.94")
 
 
-def test_build_v2_cli_extract_and_refuses_join(sources, tmp_path, capsys):
+def test_build_v2_cli_all_runs_the_chain(sources, tmp_path):
     root, _, _, _ = sources
     out = tmp_path / "out"
     args = ["--pagexml-dir", str(root), "--out-dir", str(out), "--preset", "sg_1.01.02_v2"]
     assert build.main(args + ["--stage", "all", "--workers", "1"]) == 0
     layer = out / "NL-HaNA_1.01.02_text_layer_v2"
     assert (layer / "scans" / "9999.scans.tsv.gz").exists()
-    assert not (layer / "regions").exists()
+    assert not (layer / "regions").exists()   # v1 output; v2 has join/ instead
+    assert (layer / "join" / "units" / "9999.tsv.gz").exists()
     import json
     manifest = json.loads((layer / "manifest.json").read_text())
     assert manifest["layer"] == "NL-HaNA_1.01.02_text_layer_v2" and manifest["format_version"] == 2
-    for stage in ("wbc", "join"):
-        assert build.main(args + ["--stage", stage]) == 2
-        assert f"stage {stage} is not available for v2 presets yet (phase 07)" in capsys.readouterr().err
+    assert {"extract", "layout", "types", "units", "wbc", "join"} <= set(manifest["stages"])

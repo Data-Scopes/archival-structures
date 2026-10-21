@@ -1,0 +1,123 @@
+=== stratum 0 (10969 candidates)
+3349 NL-HaNA_1.01.02_3349_0870 line_2a4bd89d-911e-4db9-9ca6-2f1c8e8f8e70 x=1355 w=1540 y=2653
+  b: [marginalia/margin_prefix: Praeside] | [main_text/default: d'Heer van Wellandt]
+  c: [main_text/default: Praeside d'Heer van Wellandt]
+3350 NL-HaNA_1.01.02_3350_0472 b7d23882-9751-4cd1-89bb-2b64c236b8d0 x=1150 w=1389 y=1452
+  b: [marginalia/margin_prefix: Magt. van 't' guar,] | [main_text/default: regenten vande drie Steden des Nijmeegehen gue]
+  c: [main_text/default: Magt. van 't' guar, regenten vande drie Steden des Nijmeegehen gue]
+3349 NL-HaNA_1.01.02_3349_0156 line_78cceab1-d3a6-4014-ae7e-7a2d9cc4a5a8 x=3089 w=606 y=3740
+  b: [marginalia/margin_prefix: Trouppes tot Zas] | [marginalia/extra_role: van]
+  c: [marginalia/extra_role: Trouppes tot Zas van]
+3353 NL-HaNA_1.01.02_3353_0596 line_1fb9deb7-52fc-44f0-aa70-41bec085134b x=2592 w=445 y=1485
+  b: [marginalia/margin_prefix: Guarnisoen] | [marginalia/extra_role: van]
+  c: [marginalia/extra_role: Guarnisoen van]
+3352 NL-HaNA_1.01.02_3352_0625 line_09dc5533-c613-4884-b113-fa8c82d8596f x=3354 w=1833 y=285
+  b: [marginalia/margin_prefix: Ham, met] | [main_text/default: een extrs: Gedepde. uijt de provintie]
+  c: [main_text/default: Ham, met een extrs: Gedepde. uijt de provintie]
+3350 NL-HaNA_1.01.02_3350_0172 ca8acd98-3b5e-4635-ad87-5270fad9c4b1 x=1262 w=1548 y=3760
+  b: [marginalia/margin_prefix: 520.] | [main_text/default: monte les 42. jours a..]
+  c: [main_text/default: 520. monte les 42. jours a..]
+3349 NL-HaNA_1.01.02_3349_0743 line_02cb2290-a993-4e0f-a2dd-7c912e3630d4 x=3345 w=2237 y=3529
+  b: [marginalia/margin_prefix: Hogenhoeck,] | [main_text/default: Heemskerck, Bors van Waveren,]
+  c: [main_text/default: Hogenhoeck, Heemskerck, Bors van Waveren,]
+3353 NL-HaNA_1.01.02_3353_0828 fdfb48a3-3ce8-40b0-9e55-fd522e257809 x=592 w=2138 y=654
+  b: [marginalia/margin_prefix: Wellandt,] | [main_text/default: Renswoude, Velthuijsen, met een extrs:]
+  c: [main_text/default: Wellandt, Renswoude, Velthuijsen, met een extrs:]
+3352 NL-HaNA_1.01.02_3352_0038 line_5fa3b390-dd5c-4f1f-b053-01be5313221a x=3205 w=1500 y=1251
+  b: [marginalia/margin_prefix: Gedepde.] | [main_text/default: uijt de provintie van Utrecht,]
+  c: [main_text/default: Gedepde. uijt de provintie van Utrecht,]
+3349 NL-HaNA_1.01.02_3349_0522 line_65997857-a2de-4cc9-903c-c0d3678063f2 x=1096 w=893 y=2292
+  b: [marginalia/margin_prefix: Lemker,] | [main_text/default: Bentheim,]
+  c: [main_text/default: Lemker, Bentheim,]
+=== stratum 1 (2884 candidates)
+3773 NL-HaNA_1.01.02_3773_0155 c373c786-a369-4cb6-85bd-881a58a68b8c x=2416 w=361 y=2363
+  b: [marginalia/margin_prefix: dont les] | [marginalia/page_margin: revenus]
+  c: [marginalia/page_margin: dont les revenus]
+3773 NL-HaNA_1.01.02_3773_0435 line_553d525a-afbe-4e65-8eb7-f6ec8c33983c x=1291 w=241 y=3158
+  b: [marginalia/margin_prefix: is] | [main_text/default: gevallen.]
+  c: [main_text/default: is gevallen.]
+3771 NL-HaNA_1.01.02_3771_0283 line_330f0f0c-e13b-4568-8c5a-8dda49aa80f2 x=253 w=890 y=2858
+  b: [marginalia/margin_prefix: lijcks] | [main_text/default: voor een Secretaris te mogen declare-]
+  c: [main_text/default: lijcks voor een Secretaris te mogen declare-]
+3821 NL-HaNA_1.01.02_3821_0096 line_1c4930dd-c51c-46b3-868e-100a1a6f95d3 x=2425 w=861 y=1108
+  b: [marginalia/margin_prefix: voldoenins] | [main_text/default: van de oude pretensien, door de]
+  c: [main_text/default: voldoenins van de oude pretensien, door de]
+3823 NL-HaNA_1.01.02_3823_0072 line_8d93d4ea-94d7-4ddf-ba79-5270e9c355d6 x=491 w=622 y=2000
+  b: [marginalia/margin_prefix: Sickinghe,] | [main_text/default: Weegens Stad en Lan]
+  c: [main_text/default: Sickinghe, Weegens Stad en Lan]
+3773 NL-HaNA_1.01.02_3773_0011 line_6784fdcb-dfa8-4a04-aca6-ebe95d38bf20 x=1344 w=896 y=2805
+  b: [marginalia/margin_prefix: Commissien] | [main_text/default: van retorsie voor Vernier Danc-]
+  c: [main_text/default: Commissien van retorsie voor Vernier Danc-]
+3822 NL-HaNA_1.01.02_3822_0385 line_6407a927-f209-44c1-97b9-0f12a64b0e8f x=1296 w=864 y=3190
+  b: [marginalia/margin_prefix: deelen,] | [main_text/default: om boven en behalven den rece]
+  c: [main_text/default: deelen, om boven en behalven den rece]
+3823 NL-HaNA_1.01.02_3823_0395 c4bfe6d6-5d2a-41bd-bf3e-eab698e5f676 x=1337 w=895 y=1775
+  b: [marginalia/margin_prefix: 1645] | [main_text/default: ten 19. soo in voors suppletie van de]
+  c: [main_text/default: 1645 ten 19. soo in voors suppletie van de]
+3821 NL-HaNA_1.01.02_3821_0430 line_3ba338d4-9f77-4235-b4f9-d60a864d9a6f x=297 w=508 y=3262
+  b: [marginalia/margin_prefix: ken na] | [main_text/default: insinuatie deele.]
+  c: [main_text/default: ken na insinuatie deele.]
+3771 NL-HaNA_1.01.02_3771_0283 dce7ac4b-40f4-4df2-bbd9-43b2a21e38bd x=264 w=899 y=2428
+  b: [marginalia/margin_prefix: houdende] | [main_text/default: advertentie. WAER op geen]
+  c: [main_text/default: houdende advertentie. WAER op geen]
+=== stratum 2 (4699 candidates)
+11182 NL-HaNA_1.01.02_11182_0054 line_9fe2e813-d363-4433-8e93-3c1be4ee17cd x=433 w=506 y=1350
+  b: [marginalia/margin_prefix: desdits alliez au] | [main_text/default: prejudiae.]
+  c: [main_text/default: desdits alliez au prejudiae.]
+11281 NL-HaNA_1.01.02_11281_0161 line_6059e66e-b510-4558-93eb-ad76776f4d6a x=3136 w=1181 y=635
+  b: [marginalia/margin_prefix: welderom] | [marginalia/extra_role: rakende M: Michiels.]
+  c: [marginalia/extra_role: welderom rakende M: Michiels.]
+11281 NL-HaNA_1.01.02_11281_0285 d4646371-ee16-4844-973d-90e4c72f8ce5 x=3022 w=1067 y=1564
+  b: [marginalia/margin_prefix: ommelanden,] | [marginalia/extra_role: tusschen de]
+  c: [marginalia/extra_role: ommelanden, tusschen de]
+11281 NL-HaNA_1.01.02_11281_0804 line_4c796b19-f96f-4201-9ad2-b86d7543f3de x=2443 w=693 y=1573
+  b: [marginalia/margin_prefix: Rec: 14. Februarij] | [marginalia/extra_role: 1718.]
+  c: [marginalia/extra_role: Rec: 14. Februarij 1718.]
+11182 NL-HaNA_1.01.02_11182_0622 line_9c5fbea6-7bd4-4157-bcbc-bc19e965fb79 x=438 w=584 y=2733
+  b: [marginalia/margin_prefix: rec: 24 Meij] | [marginalia/extra_role: 1607.]
+  c: [marginalia/extra_role: rec: 24 Meij 1607.]
+11182 NL-HaNA_1.01.02_11182_0600 line_3b934bbb-5d9e-4202-bffc-e9c329890dbe x=803 w=1636 y=1162
+  b: [marginalia/margin_prefix: Mijn] | [main_text/default: Heeren; het schijnt, dat het aennaderen vanden heer]
+  c: [main_text/default: Mijn Heeren; het schijnt, dat het aennaderen vanden heer]
+11182 NL-HaNA_1.01.02_11182_0329 line_7a8f3752-4b4a-45e1-85d1-2f3fdc239802 x=3008 w=849 y=1147
+  b: [marginalia/margin_prefix: present de] | [marginalia/extra_role: heeren Raden]
+  c: [marginalia/extra_role: present de heeren Raden]
+456 NL-HaNA_1.10.94_456_0013 c55f50f2-eaf9-4208-8466-de20e6e6923d x=2570 w=375 y=1829
+  b: [marginalia/margin_prefix: pages ter Zee] | [marginalia/page_margin: op]
+  c: [marginalia/page_margin: pages ter Zee op]
+456 NL-HaNA_1.10.94_456_0571 line_912d4612-532b-43f5-86fd-a9febe4e7a1d x=3232 w=936 y=3172
+  b: [marginalia/margin_prefix: konnen] | [main_text/default: begeven. Waer op gedelibereerdt zijn-]
+  c: [main_text/default: konnen begeven. Waer op gedelibereerdt zijn-]
+11182 NL-HaNA_1.01.02_11182_0210 line_5669cf55-39e8-486b-ae58-adc027a80db4 x=2873 w=863 y=844
+  b: [marginalia/margin_prefix: Generaliteijts] | [marginalia/extra_role: Reeckencamer.]
+  c: [marginalia/extra_role: Generaliteijts Reeckencamer.]
+=== 15g right cut 3353_0318 x=827 w=1890
+  b: [marginalia/rule:margin_prefix: Praside] | [main_text/rule:default: d'Heer van Kersbergen, 1704,]
+  c: [main_text/rule:default: Praside d'Heer van Kersbergen, 1704,]
+=== 15g right cut 3353_0318 x=924 w=2193
+  b: [marginalia/rule:margin_prefix: Prasentibus] | [main_text/rule:default: d'Heeren van Essen, Ham, met enige]
+  c: [main_text/rule:default: Prasentibus d'Heeren van Essen, Ham, met enige]
+=== 15g right cut 3353_0318 x=1120 w=1870
+  b: [marginalia/rule:margin_prefix: extrs:] | [main_text/rule:default: Gedepden uijt de prove. van Gelderlant,]
+  c: [main_text/rule:default: extrs: Gedepden uijt de prove. van Gelderlant,]
+=== 15g right cut 3353_0318 x=880 w=2115
+  b: [marginalia/rule:margin_prefix: vande Lier,] | [main_text/rule:default: Heemskerck, Kerchem, Meerens,]
+  c: [main_text/rule:default: vande Lier, Heemskerck, Kerchem, Meerens,]
+=== 15g right cut 3353_0318 x=1019 w=1204
+  b: [marginalia/rule:margin_prefix: Raadt] | [main_text/rule:default: Pensr. Heinsius,]
+  c: [main_text/rule:default: Raadt Pensr. Heinsius,]
+=== 15g right cut 3353_0318 x=840 w=1985
+  b: [marginalia/rule:margin_prefix: Twee extrs:] | [main_text/rule:default: Gedepden. uijt de prove. van Utrecht,]
+  c: [main_text/rule:default: Twee extrs: Gedepden. uijt de prove. van Utrecht,]
+=== 15g right cut 3353_0318 x=851 w=1163
+  b: [marginalia/rule:margin_prefix: vander] | [main_text/rule:default: Waeijen, Du Tour,]
+  c: [main_text/rule:default: vander Waeijen, Du Tour,]
+=== 15g right cut 3353_0318 x=840 w=1524
+  b: [marginalia/rule:margin_prefix: Zallick,] | [main_text/rule:default: Steenbergen, Roelinck,]
+  c: [main_text/rule:default: Zallick, Steenbergen, Roelinck,]
+=== 15g right cut 3353_0318 x=1205 w=1894
+  b: [marginalia/rule:margin_prefix: De] | [main_text/rule:default: resolutien gisteren genomen sijn gelesen ende]
+  c: [main_text/rule:default: De resolutien gisteren genomen sijn gelesen ende]
+=== 15g right cut 3349_0380 x=1042 w=2289
+  b: [marginalia/rule:margin_prefix: Magt. van Herstal] | [main_text/rule:default: ende Ingezetenen van Herstal en wanderen, houdende]
+  c: [main_text/rule:default: Magt. van Herstal ende Ingezetenen van Herstal en wanderen, houdende]

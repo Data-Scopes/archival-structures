@@ -4,6 +4,110 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.11.0 (2026-10-21)
+
+### Step 15i2: hand_tar WBC pin without =
+
+Preset data only; no signature change, no sibling import changes. `SG_HAND_V2.wbc_pinned` adds `-„` for
+3349, 3350, 3351, 3353 and 3354 (UA-011 b); other inventories and `SG_PRINT_V2` are unchanged. A rebuilt
+hand layer has fewer `=` merges in 3349, 3350 and 3353 (`join/` differs there only).
+
+### Step 15hj2: pinned WBC sets
+
+Additive; v1 output is byte-identical (`TOTAL 157 / 157`). No sibling import changes.
+
+- `LayerPreset.wbc_pinned: Optional[Mapping[str, str]] = None` (`{"default": chars, "<inv>": chars}`);
+  `SG_HAND_V2` pins `-=„` (11281: `-:=„`), `SG_PRINT_V2` pins `-=„`.
+- `build.decide_v2` applies the pin (`mode = pinned`, `corpus_default.json` gets `pinned`,
+  `derived_default_set`, `pooled_rule_sanity_pass`; `sanity_pass` is checked on the pinned default set);
+  the manifest `wbc` entry gets `pinned`. With `wbc_pinned=None` all output is unchanged.
+
+### Step 15hj: v2 word breaks and join
+
+Additive; v1 output is byte-identical (`TOTAL 157 / 157` on the 22 VOC inventories). No sibling import
+changes. **Behaviour changes of the driver:** `--stage wbc` exits for a strict subset of the layer's
+inventories unless `--allow-subset-wbc` (v1 and v2); `manifest.json` gets a `history` entry when a stage
+is rerun; a v2 `--stage all` now runs extract (+ wordfix) -> layout -> types -> units -> wbc -> join, and
+`wbc`/`join` no longer exit with status 2 for v2 presets.
+
+- New module `text_layer/join_v2.py`: `join_unit(texts, wbcs, guards, both_ends_fix) -> (text, spans,
+  boundaries)`, `read_unit_texts`, `write_word_break_stats_part_v2`, `join_inventory_v2`, the column lists.
+- `text_layer/word_breaks.py`: `robust_counts(lines, chars)`; `word_break_stats(..., robust=False)`.
+- `LayerPreset`: `word_break_rule`, `word_break_stat`, `wbc_sanity_in`, `wbc_sanity_out`
+  (SG presets: `wbc_sanity_in=()`).
+
+### Step 15fq: layout fixes
+
+Additive in code; no sibling import changes (the 15fp layout stage has no sibling user yet).
+The **default behaviour of the layout stage changes**: use `LEGACY_15FP` (as `--layout-params`
+JSON) to reproduce the 15fp tables on the 15fp columns.
+
+- `analysis.page_structure`: `LayoutParams` has 13 new fields (`gutter_rule`, `gap_share_min`,
+  `long_line_frac`, `min_long_lines`, `edge_quantile`, `split_on_line_field`,
+  `furniture_patterns`, `furniture_max_lines`, `furniture_max_chars`, `catchword_band`,
+  `interleave_guard`, `interleave_width_frac`, `merge`), `LayoutParams.from_dict`, and the
+  constant `LEGACY_15FP`. New functions `inventory_line_width_rel`, `choose_gutter_rule`,
+  `find_main_edge_x`, `split_regions_on_line_field`, `furniture_region_ids`.
+  `find_separation_x(..., *, rule="gap", lines_xw=None, med_w_rel=None)` (default unchanged);
+  `get_overlapping_region_sets(..., *, exclude, guard_width_frac, blocked)` and
+  `merge_overlapping_text_regions(..., *, exclude, blocked)` (defaults unchanged, but the
+  default `LayoutParams` now has the interleave guard on).
+- `text_layer.layout`: `layout_scan(..., *, gutter_rule, med_w_rel, blocked_out)`; new table
+  columns (scans: `gutter_rule, n_column_splits, n_furniture, n_guard_blocked`; regions:
+  `furniture, column_value`); `change` gains `split_at_column`, and 15fp's `merged+split` is
+  now `merged+split_at_gutter`.
+- `text_layer.presets.LayerPreset.layout_params`; the SG presets set the furniture patterns, and
+  `sg_1.01.02_v2` sets `merge=False` (hand merge precision 0.52 in the 15fq error analysis).
+  `--stage layout` merges preset and `--layout-params` (the latter wins).
+
+### Step 15g: line and region types
+
+Additive; no sibling import changes (the types stage has no sibling user yet).
+
+- New module `text_layer/types.py`: `TypeParams` (frozen dataclass, `to_dict`, `from_dict`),
+  `TYPES`, `TYPE_SEGMENT_COLUMNS`, `TYPE_REGION_COLUMNS`, `segment_page`, `type_inventory`.
+- `text_layer.presets.LayerPreset.types_params` (default `None`); the SG presets set the type
+  patterns (`SG_TYPE_PATTERNS`), the print preset also `column_override=True`.
+- `text_layer.build`: `--stage types` (v2 presets only, not part of `all`) and `--types-params`.
+  Tables: `types/segments/<inv>.tsv.gz`, `types/regions/<inv>.tsv.gz`, `types/stats.json`,
+  `types/params.json`.
+
+### Step 15fq2: column merge guard
+
+Additive in code; no sibling import changes (`grep -rn page_structure` over the siblings'
+`*.py` finds nothing). The **default behaviour of the print layout output changes**: regions
+whose lines carry different non-empty `column` values are never merged (`LEGACY_15FP` has the
+guard off).
+
+- `analysis.page_structure`: `LayoutParams.column_merge_guard: bool = True`;
+  `get_overlapping_region_sets(..., column_field="", column_blocked=None)` and
+  `merge_overlapping_text_regions(..., column_blocked=None)` (defaults unchanged).
+- `text_layer.layout`: scans table column `n_column_blocked` (appended last); summed in
+  `layout/stats.json`; `column_merge_guard` appears in `layout/params.json`.
+
+### Step 15g2: margin cut month-only
+
+Additive in code; the **default types output changes**. No sibling imports affected.
+
+- `text_layer.types.TypeParams.margin_cut: str = "month_only"` (`"all"` = step 15g, `"off"`).
+  Under the default, a `rule:margin_prefix` cut is made only when the prefix fullmatches
+  `month_only`; other lines stay whole (18,552 lines in the 16 SG inventories; 423 month cuts
+  remain). The field appears in `types/params.json`.
+
+
+### Step 15h: units and doc_id mapping
+
+Additive; no sibling import changes (the units stage has no sibling user yet).
+
+- New module `text_layer/units.py`: `UnitParams` (frozen dataclass, `to_dict`, `from_dict`),
+  `split_region`, `build_units_page`, `paragraph_features`, `cues_fired`, `doc_id_map_rows`,
+  `republic_crosswalk`, `unit_inventory`, the table column lists.
+- `text_layer.presets.LayerPreset.unit_params` (default `None`); `SG_PRINT_V2` sets
+  `SG_PRINT_UNIT_PARAMS` (`indent_frac=0.5, short_frac=0.1`).
+- `text_layer.build`: `--stage units` (v2 presets only, not part of `all`), `--unit-params`,
+  `--republic-dir`. Tables: `units/{units,segments,doc_id_map,republic_lines}/<inv>.tsv.gz`,
+  `units/stats.json`, `units/params.json`.
+
 ## v0.10.0 (2026-10-19)
 
 ### Step 15fp: page layout

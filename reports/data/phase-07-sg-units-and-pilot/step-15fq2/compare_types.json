@@ -1,0 +1,482 @@
+{
+ "11182": {
+  "regions_equal": true,
+  "regions_rows_a": 5477,
+  "regions_rows_b": 5477,
+  "segments_equal": true,
+  "segments_rows_a": 59716,
+  "segments_rows_b": 59716,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 15,
+   "date_header": 73,
+   "index": 299,
+   "main_text": 54234,
+   "marginalia": 4276,
+   "other": 98,
+   "page_number": 689,
+   "running_header": 32
+  },
+  "types_b": {
+   "catch_word": 15,
+   "date_header": 73,
+   "index": 299,
+   "main_text": 54234,
+   "marginalia": 4276,
+   "other": 98,
+   "page_number": 689,
+   "running_header": 32
+  }
+ },
+ "11281": {
+  "regions_equal": true,
+  "regions_rows_a": 7930,
+  "regions_rows_b": 7930,
+  "segments_equal": true,
+  "segments_rows_a": 80463,
+  "segments_rows_b": 80463,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 920,
+   "date_header": 185,
+   "index": 164,
+   "main_text": 72709,
+   "marginalia": 5321,
+   "other": 144,
+   "page_number": 988,
+   "running_header": 32
+  },
+  "types_b": {
+   "catch_word": 920,
+   "date_header": 185,
+   "index": 164,
+   "main_text": 72709,
+   "marginalia": 5321,
+   "other": 144,
+   "page_number": 988,
+   "running_header": 32
+  }
+ },
+ "3349": {
+  "regions_equal": true,
+  "regions_rows_a": 12096,
+  "regions_rows_b": 12096,
+  "segments_equal": true,
+  "segments_rows_a": 95304,
+  "segments_rows_b": 95304,
+  "type_col": "line_type",
+  "types_a": {
+   "date_header": 837,
+   "index": 1546,
+   "main_text": 82404,
+   "marginalia": 9711,
+   "other": 49,
+   "page_number": 746,
+   "running_header": 11
+  },
+  "types_b": {
+   "date_header": 837,
+   "index": 1546,
+   "main_text": 82404,
+   "marginalia": 9711,
+   "other": 49,
+   "page_number": 746,
+   "running_header": 11
+  }
+ },
+ "3350": {
+  "regions_equal": true,
+  "regions_rows_a": 9727,
+  "regions_rows_b": 9727,
+  "segments_equal": true,
+  "segments_rows_a": 88492,
+  "segments_rows_b": 88492,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 3,
+   "date_header": 636,
+   "index": 1063,
+   "main_text": 77141,
+   "marginalia": 8782,
+   "other": 46,
+   "page_number": 814,
+   "running_header": 7
+  },
+  "types_b": {
+   "catch_word": 3,
+   "date_header": 636,
+   "index": 1063,
+   "main_text": 77141,
+   "marginalia": 8782,
+   "other": 46,
+   "page_number": 814,
+   "running_header": 7
+  }
+ },
+ "3351": {
+  "regions_equal": true,
+  "regions_rows_a": 4145,
+  "regions_rows_b": 4145,
+  "segments_equal": true,
+  "segments_rows_a": 12955,
+  "segments_rows_b": 12955,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 7,
+   "date_header": 200,
+   "index": 14,
+   "main_text": 11039,
+   "marginalia": 1373,
+   "other": 14,
+   "page_number": 308
+  },
+  "types_b": {
+   "catch_word": 7,
+   "date_header": 200,
+   "index": 14,
+   "main_text": 11039,
+   "marginalia": 1373,
+   "other": 14,
+   "page_number": 308
+  }
+ },
+ "3352": {
+  "regions_equal": true,
+  "regions_rows_a": 11152,
+  "regions_rows_b": 11152,
+  "segments_equal": true,
+  "segments_rows_a": 100329,
+  "segments_rows_b": 100329,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 16,
+   "date_header": 839,
+   "index": 1753,
+   "main_text": 87949,
+   "marginalia": 8826,
+   "other": 62,
+   "page_number": 876,
+   "running_header": 8
+  },
+  "types_b": {
+   "catch_word": 16,
+   "date_header": 839,
+   "index": 1753,
+   "main_text": 87949,
+   "marginalia": 8826,
+   "other": 62,
+   "page_number": 876,
+   "running_header": 8
+  }
+ },
+ "3353": {
+  "regions_equal": true,
+  "regions_rows_a": 10600,
+  "regions_rows_b": 10600,
+  "segments_equal": true,
+  "segments_rows_a": 88381,
+  "segments_rows_b": 88381,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 5,
+   "date_header": 753,
+   "index": 1408,
+   "main_text": 77207,
+   "marginalia": 8250,
+   "other": 49,
+   "page_number": 703,
+   "running_header": 6
+  },
+  "types_b": {
+   "catch_word": 5,
+   "date_header": 753,
+   "index": 1408,
+   "main_text": 77207,
+   "marginalia": 8250,
+   "other": 49,
+   "page_number": 703,
+   "running_header": 6
+  }
+ },
+ "3354": {
+  "regions_equal": true,
+  "regions_rows_a": 3775,
+  "regions_rows_b": 3775,
+  "segments_equal": true,
+  "segments_rows_a": 11418,
+  "segments_rows_b": 11418,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 7,
+   "date_header": 209,
+   "index": 3,
+   "main_text": 9841,
+   "marginalia": 1075,
+   "other": 13,
+   "page_number": 268,
+   "running_header": 2
+  },
+  "types_b": {
+   "catch_word": 7,
+   "date_header": 209,
+   "index": 3,
+   "main_text": 9841,
+   "marginalia": 1075,
+   "other": 13,
+   "page_number": 268,
+   "running_header": 2
+  }
+ },
+ "3771": {
+  "regions_equal": true,
+  "regions_rows_a": 11696,
+  "regions_rows_b": 11696,
+  "segments_equal": true,
+  "segments_rows_a": 136881,
+  "segments_rows_b": 136881,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 999,
+   "date_header": 1480,
+   "index": 1521,
+   "main_text": 128257,
+   "marginalia": 1781,
+   "other": 497,
+   "page_number": 1281,
+   "running_header": 979,
+   "signature_mark": 86
+  },
+  "types_b": {
+   "catch_word": 999,
+   "date_header": 1480,
+   "index": 1521,
+   "main_text": 128257,
+   "marginalia": 1781,
+   "other": 497,
+   "page_number": 1281,
+   "running_header": 979,
+   "signature_mark": 86
+  }
+ },
+ "3772": {
+  "regions_equal": true,
+  "regions_rows_a": 11435,
+  "regions_rows_b": 11435,
+  "segments_equal": true,
+  "segments_rows_a": 141735,
+  "segments_rows_b": 141735,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 1052,
+   "date_header": 1546,
+   "main_text": 134905,
+   "marginalia": 1356,
+   "other": 506,
+   "page_number": 1217,
+   "running_header": 1067,
+   "signature_mark": 86
+  },
+  "types_b": {
+   "catch_word": 1052,
+   "date_header": 1546,
+   "main_text": 134905,
+   "marginalia": 1356,
+   "other": 506,
+   "page_number": 1217,
+   "running_header": 1067,
+   "signature_mark": 86
+  }
+ },
+ "3773": {
+  "regions_equal": true,
+  "regions_rows_a": 11649,
+  "regions_rows_b": 11649,
+  "segments_equal": true,
+  "segments_rows_a": 145812,
+  "segments_rows_b": 145812,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 1011,
+   "date_header": 1571,
+   "index": 7,
+   "main_text": 138381,
+   "marginalia": 1961,
+   "other": 470,
+   "page_number": 1228,
+   "running_header": 1089,
+   "signature_mark": 94
+  },
+  "types_b": {
+   "catch_word": 1011,
+   "date_header": 1571,
+   "index": 7,
+   "main_text": 138381,
+   "marginalia": 1961,
+   "other": 470,
+   "page_number": 1228,
+   "running_header": 1089,
+   "signature_mark": 94
+  }
+ },
+ "3821": {
+  "regions_equal": true,
+  "regions_rows_a": 17447,
+  "regions_rows_b": 17447,
+  "segments_equal": true,
+  "segments_rows_a": 117168,
+  "segments_rows_b": 117168,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 604,
+   "date_header": 2934,
+   "index": 3808,
+   "main_text": 99059,
+   "marginalia": 8784,
+   "other": 244,
+   "page_number": 945,
+   "running_header": 676,
+   "signature_mark": 114
+  },
+  "types_b": {
+   "catch_word": 604,
+   "date_header": 2934,
+   "index": 3808,
+   "main_text": 99059,
+   "marginalia": 8784,
+   "other": 244,
+   "page_number": 945,
+   "running_header": 676,
+   "signature_mark": 114
+  }
+ },
+ "3822": {
+  "regions_equal": true,
+  "regions_rows_a": 17383,
+  "regions_rows_b": 17383,
+  "segments_equal": true,
+  "segments_rows_a": 122507,
+  "segments_rows_b": 122507,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 667,
+   "date_header": 2878,
+   "index": 3280,
+   "main_text": 104386,
+   "marginalia": 9125,
+   "other": 286,
+   "page_number": 1026,
+   "running_header": 752,
+   "signature_mark": 107
+  },
+  "types_b": {
+   "catch_word": 667,
+   "date_header": 2878,
+   "index": 3280,
+   "main_text": 104386,
+   "marginalia": 9125,
+   "other": 286,
+   "page_number": 1026,
+   "running_header": 752,
+   "signature_mark": 107
+  }
+ },
+ "3823": {
+  "regions_equal": true,
+  "regions_rows_a": 16775,
+  "regions_rows_b": 16775,
+  "segments_equal": true,
+  "segments_rows_a": 118917,
+  "segments_rows_b": 118917,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 595,
+   "date_header": 2729,
+   "index": 3459,
+   "main_text": 100444,
+   "marginalia": 9558,
+   "other": 364,
+   "page_number": 983,
+   "running_header": 652,
+   "signature_mark": 133
+  },
+  "types_b": {
+   "catch_word": 595,
+   "date_header": 2729,
+   "index": 3459,
+   "main_text": 100444,
+   "marginalia": 9558,
+   "other": 364,
+   "page_number": 983,
+   "running_header": 652,
+   "signature_mark": 133
+  }
+ },
+ "455": {
+  "regions_equal": false,
+  "regions_rows_a": 8651,
+  "regions_rows_b": 8696,
+  "regions_rows_only_a": 37,
+  "regions_rows_only_b": 82,
+  "segments_equal": false,
+  "segments_rows_a": 173645,
+  "segments_rows_b": 173646,
+  "segments_rows_only_a": 2540,
+  "segments_rows_only_b": 2541,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 1151,
+   "date_header": 1657,
+   "main_text": 166896,
+   "marginalia": 1848,
+   "other": 542,
+   "page_number": 1469,
+   "running_header": 54,
+   "signature_mark": 28
+  },
+  "types_b": {
+   "catch_word": 1151,
+   "date_header": 1657,
+   "main_text": 166851,
+   "marginalia": 1899,
+   "other": 535,
+   "page_number": 1471,
+   "running_header": 54,
+   "signature_mark": 28
+  }
+ },
+ "456": {
+  "regions_equal": false,
+  "regions_rows_a": 4610,
+  "regions_rows_b": 4723,
+  "regions_rows_only_a": 121,
+  "regions_rows_only_b": 234,
+  "segments_equal": false,
+  "segments_rows_a": 174819,
+  "segments_rows_b": 174811,
+  "segments_rows_only_a": 12462,
+  "segments_rows_only_b": 12454,
+  "type_col": "line_type",
+  "types_a": {
+   "catch_word": 1161,
+   "date_header": 1748,
+   "index": 120,
+   "main_text": 168789,
+   "marginalia": 967,
+   "other": 304,
+   "page_number": 1589,
+   "running_header": 14,
+   "signature_mark": 127
+  },
+  "types_b": {
+   "catch_word": 1161,
+   "date_header": 1748,
+   "index": 120,
+   "main_text": 168890,
+   "marginalia": 857,
+   "other": 305,
+   "page_number": 1589,
+   "running_header": 14,
+   "signature_mark": 127
+  }
+ }
+}

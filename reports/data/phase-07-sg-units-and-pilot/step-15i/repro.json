@@ -1,0 +1,146 @@
+{
+ "equal": 222,
+ "differ": [
+  "3349:extract_stats.json",
+  "3350:extract_stats.json",
+  "3351:extract_stats.json",
+  "3352:extract_stats.json",
+  "3353:extract_stats.json",
+  "3354:extract_stats.json",
+  "3771:scans",
+  "3771:extract_stats.json",
+  "3772:scans",
+  "3772:extract_stats.json",
+  "3773:scans",
+  "3773:extract_stats.json",
+  "3821:scans",
+  "3821:extract_stats.json",
+  "3822:scans",
+  "3822:extract_stats.json",
+  "3823:scans",
+  "3823:extract_stats.json",
+  "11182:scans",
+  "11182:extract_stats.json",
+  "11281:scans",
+  "11281:extract_stats.json"
+ ],
+ "missing": [],
+ "wbc_columns": [
+  "inventory_number",
+  "n_lines",
+  "mode",
+  "wbc_set",
+  "differs_from_default",
+  "char_status"
+ ],
+ "wbc_diff": {
+  "3349": {
+   "new": {
+    "inventory_number": "3349",
+    "n_lines": "82404",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": "):derived_out/pinned_out ,:derived_out/pinned_out -:default/pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:derived_out/pinned_in \u201e:derived_in/pinned_in"
+   },
+   "old": {
+    "inventory_number": "3349",
+    "n_lines": "82404",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": "):derived_out/pinned_out ,:derived_out/pinned_out -:pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:derived_out/pinned_in \u201e:derived_in/pinned_in"
+   }
+  },
+  "3350": {
+   "new": {
+    "inventory_number": "3350",
+    "n_lines": "77141",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": ",:derived_out/pinned_out -:default/pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:derived_out/pinned_in \u201e:derived_in/pinned_in"
+   },
+   "old": {
+    "inventory_number": "3350",
+    "n_lines": "77141",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": ",:derived_out/pinned_out -:pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:derived_out/pinned_in \u201e:derived_in/pinned_in"
+   }
+  },
+  "3351": {
+   "new": {
+    "inventory_number": "3351",
+    "n_lines": "11039",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": ",:derived_out/pinned_out -:default/pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:default/pinned_in \u201e:derived_out/pinned_in"
+   },
+   "old": {
+    "inventory_number": "3351",
+    "n_lines": "11039",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": ",:derived_out/pinned_out -:pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:pinned_in \u201e:derived_out/pinned_in"
+   }
+  },
+  "3352": {
+   "new": {
+    "inventory_number": "3352",
+    "n_lines": "87949",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": "):derived_out/pinned_out ,:derived_out/pinned_out -:default/pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:derived_in/pinned_in \u201e:derived_in/pinned_in"
+   },
+   "old": {
+    "inventory_number": "3352",
+    "n_lines": "87949",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": "):derived_out/pinned_out ,:derived_out/pinned_out -:pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:derived_in/pinned_in \u201e:derived_in/pinned_in"
+   }
+  },
+  "3353": {
+   "new": {
+    "inventory_number": "3353",
+    "n_lines": "77207",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": "):derived_out/pinned_out ,:derived_out/pinned_out -:default/pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:derived_out/pinned_in \u201e:derived_in/pinned_in"
+   },
+   "old": {
+    "inventory_number": "3353",
+    "n_lines": "77207",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": "):derived_out/pinned_out ,:derived_out/pinned_out -:pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:derived_out/pinned_in \u201e:derived_in/pinned_in"
+   }
+  },
+  "3354": {
+   "new": {
+    "inventory_number": "3354",
+    "n_lines": "9841",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": ",:derived_out/pinned_out -:default/pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:default/pinned_in \u201e:derived_out/pinned_in"
+   },
+   "old": {
+    "inventory_number": "3354",
+    "n_lines": "9841",
+    "mode": "pinned",
+    "wbc_set": "-=\u201e",
+    "differs_from_default": "False",
+    "char_status": ",:derived_out/pinned_out -:pinned_in .:derived_out/pinned_out ::derived_out/pinned_out ;:derived_out/pinned_out =:pinned_in \u201e:derived_out/pinned_in"
+   }
+  }
+ }
+}

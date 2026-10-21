@@ -99,12 +99,14 @@ from archival_structures.text_layer.io import (
 from archival_structures.text_layer.extract_v2 import (
     LINE_COLUMNS_V2, REGION_COLUMNS_V2, SCAN_COLUMNS_V2, extract_inventory_v2)
 from archival_structures.text_layer.join import ALL_GUARDS, REGION_COLUMNS, join_inventory
+from archival_structures.text_layer.join_v2 import (
+    WORD_BREAK_STATS_COLUMNS_V2, join_inventory_v2, write_word_break_stats_part_v2)
 from archival_structures.text_layer.presets import PRESETS, predict_seconds, predict_wall
 from archival_structures.text_layer.provenance import (
     check_pagexml_tools_version, package_info, pagexml_tools_info)
 from archival_structures.text_layer.word_breaks import (
-    WORD_BREAK_STATS_COLUMNS, decide_word_breaks, format_stat, pooled_stats,
-    read_word_break_sets, write_word_break_stats_part)
+    DEFAULT_WORD_BREAK_RULE, WORD_BREAK_STATS_COLUMNS, char_label, decide_word_breaks, format_stat,
+    pooled_stats, read_word_break_sets, write_word_break_stats_part)
 
 STAGES = ("extract", "wbc", "join")
 STATUS_COLUMNS = ["inventory_number", "stage", "status", "n_rows", "n_lines", "n_scans",
@@ -170,6 +172,9 @@ class Run:
             manifest["row_order"] = ("Rows are in PageXML document order (scans sorted by file "
                                      "name, regions depth-first, lines in XML order); reading-order "
                                      "indices are columns.")
+        previous = manifest.get("stages", {}).get(stage)
+        if previous is not None:
+            manifest.setdefault("history", {}).setdefault(stage, []).append(previous)
         manifest.setdefault("stages", {})[stage] = {
             "finished_utc": now(),
             "git_head": info.get("git_head", ""),
@@ -345,7 +350,8 @@ def stage_layout(run, inventories, sizes):
     """v2 stage (step 15fp): page layout tables under layout/; the input tables are only read."""
     from archival_structures.analysis.page_structure import LayoutParams
     from archival_structures.text_layer.layout import layout_inventory
-    params = LayoutParams(**json.loads(run.args.layout_params)) if run.args.layout_params else LayoutParams()
+    cli = json.loads(run.args.layout_params) if run.args.layout_params else {}
+    params = LayoutParams.from_dict({**(run.preset.layout_params or {}), **cli})
     needed = ("scans/{}.scans.tsv.gz", "regions_meta/{}.tsv.gz", "lines/{}.lines.tsv.gz")
     missing = [inv for inv in inventories
                if not all((run.root / n.format(inv)).exists() for n in needed)]
@@ -380,6 +386,87 @@ def stage_layout(run, inventories, sizes):
     return failures
 
 
+def stage_types(run, inventories, sizes):
+    """v2 stage (step 15g): line-segment and region types under types/; inputs are only read."""
+    from archival_structures.text_layer.types import TypeParams, type_inventory
+    cli = json.loads(run.args.types_params) if run.args.types_params else {}
+    params = TypeParams.from_dict({**(run.preset.types_params or {}), **cli})
+    needed = ("scans/{}.scans.tsv.gz", "lines/{}.lines.tsv.gz", "layout/lines/{}.tsv.gz",
+              "layout/regions/{}.tsv.gz")
+    missing = [inv for inv in inventories
+               if not all((run.root / n.format(inv)).exists() for n in needed)]
+    if missing:
+        sys.exit(f"stage types: no scans/lines/layout tables for {missing[:5]}; run layout first")
+    out = run.root / "types"
+    out.mkdir(parents=True, exist_ok=True)
+    write_json_atomic(out / "params.json", params.to_dict())
+    stats_path = out / "stats.json"
+    stats = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
+    failures = []
+    for inv in inventories:
+        start = time.monotonic()
+        try:
+            stats[inv] = type_inventory(inv, run.root, params)
+        except Exception as exc:  # noqa: BLE001 -- record and continue
+            failures.append(inv)
+            run.record({"inventory_number": inv, "stage": "types", "status": "failed",
+                        "error": "".join(traceback.format_exception_only(type(exc), exc))}, sizes)
+            run.log(f"[types] FAILED {inv}: {exc!r}")
+            continue
+        run.record({"inventory_number": inv, "stage": "types", "status": "done",
+                    "n_rows": stats[inv]["n_segments"], "n_lines": stats[inv]["n_lines"],
+                    "seconds": round(time.monotonic() - start, 3)}, sizes)
+        run.log(f"[types] {inv} segments {stats[inv]['n_segments']} "
+                f"types={stats[inv]['segments_per_type']} splits={stats[inv]['splits_per_rule']}")
+    write_json_atomic(stats_path, dict(sorted(stats.items(), key=lambda kv: inventory_sort_key(kv[0]))))
+    run.update_manifest("types", {"n_inventories": len(inventories), "failed": failures,
+                                  "types_params": params.to_dict()})
+    return failures
+
+
+def stage_units(run, inventories, sizes):
+    """v2 stage (step 15h): units, reading order, doc_id map and REPUBLIC crosswalk under units/;
+    inputs are only read."""
+    from archival_structures.text_layer.units import (
+        REPUBLIC_PARAGRAPHS_DIR, UnitParams, unit_inventory)
+    cli = json.loads(run.args.unit_params) if run.args.unit_params else {}
+    params = UnitParams.from_dict({**(run.preset.unit_params or {}), **cli})
+    print_mode = run.preset.merged_line_split == "on"
+    republic_dir = Path(run.args.republic_dir) if run.args.republic_dir else REPUBLIC_PARAGRAPHS_DIR
+    needed = ("scans/{}.scans.tsv.gz", "regions_meta/{}.tsv.gz", "lines/{}.lines.tsv.gz",
+              "layout/lines/{}.tsv.gz", "layout/regions/{}.tsv.gz", "types/segments/{}.tsv.gz")
+    missing = [inv for inv in inventories
+               if not all((run.root / n.format(inv)).exists() for n in needed)]
+    if missing:
+        sys.exit(f"stage units: no scans/lines/layout/types tables for {missing[:5]}; run types first")
+    out = run.root / "units"
+    out.mkdir(parents=True, exist_ok=True)
+    write_json_atomic(out / "params.json", params.to_dict())
+    stats_path = out / "stats.json"
+    stats = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
+    failures = []
+    for inv in inventories:
+        start = time.monotonic()
+        try:
+            stats[inv] = unit_inventory(inv, run.root, params, print_mode=print_mode,
+                                        republic_path=republic_dir / f"paragraphs-{inv}.tsv.gz")
+        except Exception as exc:  # noqa: BLE001 -- record and continue
+            failures.append(inv)
+            run.record({"inventory_number": inv, "stage": "units", "status": "failed",
+                        "error": "".join(traceback.format_exception_only(type(exc), exc))}, sizes)
+            run.log(f"[units] FAILED {inv}: {exc!r}")
+            continue
+        run.record({"inventory_number": inv, "stage": "units", "status": "done",
+                    "n_rows": stats[inv]["n_units"], "n_lines": 0,
+                    "seconds": round(time.monotonic() - start, 3)}, sizes)
+        run.log(f"[units] {inv} units {stats[inv]['n_units']} per_type={stats[inv]['units_per_type']} "
+                f"status={stats[inv]['old_status']} collisions={stats[inv]['n_id_collisions']}")
+    write_json_atomic(stats_path, dict(sorted(stats.items(), key=lambda kv: inventory_sort_key(kv[0]))))
+    run.update_manifest("units", {"n_inventories": len(inventories), "failed": failures,
+                                  "unit_params": params.to_dict()})
+    return failures
+
+
 def extracted(run, inventories):
     status = run.status()
     done = [inv for inv in inventories if recorded_done(status, inv, "extract")]
@@ -390,16 +477,41 @@ def extracted(run, inventories):
     return done, missing
 
 
+def layer_inventories(run):
+    """Inventories that have a lines table in the layer (what a full wbc run covers)."""
+    lines_dir = run.root / "lines"
+    return {p.name[:-len(".lines.tsv.gz")] for p in lines_dir.glob("*.lines.tsv.gz")}
+
+
 def stage_wbc(run, inventories, sizes):
     import pandas as pd
 
-    done, missing = extracted(run, inventories)
+    v2 = run.preset.format_version == 2
+    in_layer = layer_inventories(run)
+    if set(inventories) < in_layer and not run.args.allow_subset_wbc:
+        sys.exit(f"stage wbc: this run covers {len(inventories)} of the {len(in_layer)} inventories "
+                 f"in the layer, and wbc/ (stats, corpus default, per-inventory sets) would be "
+                 f"overwritten from the subset. Run all of them, or pass --allow-subset-wbc")
+    if v2:
+        needed = ("lines/{}.lines.tsv.gz", "types/segments/{}.tsv.gz", "units/units/{}.tsv.gz",
+                  "units/segments/{}.tsv.gz")
+        absent = [inv for inv in inventories
+                  if not all((run.root / n.format(inv)).exists() for n in needed)]
+        if absent:
+            sys.exit(f"stage wbc: no lines/types/units tables for {absent[:5]}; run units first")
+        done, missing = list(inventories), []
+        worker = functools.partial(write_word_break_stats_part_v2, robust=True)
+        columns = WORD_BREAK_STATS_COLUMNS_V2
+    else:
+        done, missing = extracted(run, inventories)
+        worker = write_word_break_stats_part
+        columns = WORD_BREAK_STATS_COLUMNS
     status = run.status()
     todo = [(inv, (inv, str(run.root))) for inv in done
             if not (is_done(status, inv, "wbc", run.force) and (run.root / "wbc" / "parts" / f"{inv}.tsv").exists())]
-    todo.sort(key=lambda t: -sizes[t[0]][1])
+    todo.sort(key=lambda t: -sizes[t[0]][1] if t[0] in sizes else 0)
     run.log(f"[wbc] {len(done) - len(todo)} stats parts already done, {len(todo)} to do")
-    failures = run_pool(run, write_word_break_stats_part, todo, sizes, "wbc")
+    failures = run_pool(run, worker, todo, sizes, "wbc")
     if failures:
         sys.exit(f"[wbc] stats failed for {failures}; fix and rerun")
 
@@ -408,8 +520,8 @@ def stage_wbc(run, inventories, sizes):
                          na_values=[])
              for inv in done]
     stats = pd.concat(parts, ignore_index=True)
-    write_plain_tsv(run.root / "wbc" / "wbc_stats.tsv", WORD_BREAK_STATS_COLUMNS,
-                        [[format_stat(v) for v in row] for row in stats[WORD_BREAK_STATS_COLUMNS].itertuples(index=False)])
+    write_plain_tsv(run.root / "wbc" / "wbc_stats.tsv", columns,
+                        [[format_stat(v) for v in row] for row in stats[columns].itertuples(index=False)])
 
     pooled = pooled_stats(stats)
     cols = ["char_name", "n_inventories", "end_freq", "end_rel_frac", "start_rel_frac",
@@ -423,7 +535,10 @@ def stage_wbc(run, inventories, sizes):
         return []
 
     inventory_lines = {inv: _nonempty_lines(stats, inv) for inv in done}
-    per_inventory, corpus = decide_word_breaks(stats, inventory_lines)
+    if v2:
+        per_inventory, corpus = decide_v2(run, stats, inventory_lines)
+    else:
+        per_inventory, corpus = decide_word_breaks(stats, inventory_lines)
     corpus["allow_partial"] = bool(missing)
     corpus["n_inventories_missing_extract"] = len(missing)
     write_json_atomic(run.root / "wbc" / "corpus_default.json", corpus)
@@ -433,14 +548,80 @@ def stage_wbc(run, inventories, sizes):
     n_diff = sum(r["differs_from_default"] for r in per_inventory)
     run.log(f"[wbc] corpus default {corpus['default_set']} (pooled rule {corpus['pooled_rule_set']}), "
             f"sanity_pass={corpus['sanity_pass']}, {n_diff}/{len(per_inventory)} inventories differ")
+    extra = ({"word_break_stat": run.preset.word_break_stat, "pinned": bool(run.preset.wbc_pinned)}
+             if v2 else {})
     run.update_manifest("wbc", {"n_inventories": len(done), "allow_partial": bool(missing),
                                 "missing_extract": missing[:100],
                                 "default_set": corpus["default_set"],
                                 "pooled_rule_set": corpus["pooled_rule_set"],
-                                "sanity_pass": corpus["sanity_pass"]})
+                                "sanity_pass": corpus["sanity_pass"], **extra})
     if not corpus["sanity_pass"]:
         run.log("[wbc] SANITY ANCHORS FAILED -- stop and ask before joining")
     return []
+
+
+def decide_v2(run, stats, inventory_lines):
+    """v2 decision (step 15hj): the preset's rule, sanity anchors and statistic. Also writes both
+    variants' per-inventory sets (wbc/wbc_per_inventory_{default,robust}.tsv) for comparison."""
+    preset = run.preset
+    rule = dict(preset.word_break_rule or DEFAULT_WORD_BREAK_RULE)
+    cols = ["inventory_number", "n_lines", "mode", "wbc_set", "differs_from_default", "char_status"]
+    results = {}
+    for name in ("default", "robust"):
+        frame = stats
+        if name == "robust":
+            frame = stats.copy()
+            frame["all_freq"] = stats["all_freq_robust"]
+            frame["end_rel_frac"] = stats["end_rel_frac_robust"]
+        results[name] = decide_word_breaks(frame, inventory_lines, rule,
+                                           sanity_in=list(preset.wbc_sanity_in),
+                                           sanity_out=list(preset.wbc_sanity_out))
+        write_plain_tsv(run.root / "wbc" / f"wbc_per_inventory_{name}.tsv", cols,
+                        [[r[c] for c in cols] for r in results[name][0]])
+        write_json_atomic(run.root / "wbc" / f"corpus_default_{name}.json", results[name][1])
+    if preset.word_break_stat not in results:
+        sys.exit(f"unknown word_break_stat {preset.word_break_stat!r}")
+    rows, corpus = results[preset.word_break_stat]
+    if preset.wbc_pinned:
+        rows, corpus = _apply_pinned(rows, corpus, preset)
+    return rows, corpus
+
+
+def _apply_pinned(rows, corpus, preset):
+    """Step 15hj2 (UA-010 (c)): replace the derived sets by the preset's pinned sets."""
+    pinned = dict(preset.wbc_pinned)
+    default = "".join(sorted(pinned["default"]))
+    new_rows = []
+    for r in rows:
+        chosen = "".join(sorted(pinned.get(r["inventory_number"], pinned["default"])))
+        derived = set(r["wbc_set"])
+        status = {}
+        for item in r["char_status"].split(" "):
+            if item:
+                c, _, st = item.rpartition(":")
+                status[c] = st
+        parts = []
+        for c in sorted(set(status) | derived | set(chosen)):
+            tags = [status[c]] if c in status else []
+            if c in chosen:
+                tags.append("pinned_in")
+            else:
+                tags.append("pinned_out")
+            parts.append(f"{c}:{'/'.join(tags)}")
+        new_rows.append({**r, "mode": "pinned", "wbc_set": chosen,
+                         "differs_from_default": sorted(chosen) != sorted(default),
+                         "char_status": " ".join(parts)})
+    new = dict(corpus)
+    chars = sorted(default)
+    new["derived_default_set"] = corpus["default_set"]
+    new["pooled_rule_sanity_pass"] = corpus["sanity_pass"]
+    new["default_set"] = chars
+    new["default_set_names"] = [char_label(c) for c in chars]
+    new["pinned"] = pinned
+    new["sanity_pass"] = (all(c in chars for c in corpus["sanity_in"])
+                          and not any(c in chars for c in corpus["sanity_out"]))
+    new["rule_text"] = corpus["rule_text"] + " Sets pinned by the preset (wbc_pinned)."
+    return new_rows, new
 
 
 def _nonempty_lines(stats, inv):
@@ -451,7 +632,8 @@ def _nonempty_lines(stats, inv):
 
 
 def stage_join(run, inventories, sizes):
-    done, missing = extracted(run, inventories)
+    v2 = run.preset.format_version == 2
+    done, missing = (list(inventories), []) if v2 else extracted(run, inventories)
     if not (run.root / "wbc" / "wbc_per_inventory.tsv").exists():
         sys.exit("stage 2 (wbc) has not been run")
     sets, default_set = read_word_break_sets(run.root)
@@ -467,18 +649,24 @@ def stage_join(run, inventories, sizes):
                 sys.exit(f"{inv} has no WBC decision; rerun --stage wbc or pass --allow-partial")
             sets[inv] = default_set
         wbcs = sets[inv]
-        stats_path = run.root / "join_stats" / f"{inv}.json"
+        if v2:
+            stats_path = run.root / "join" / "stats" / f"{inv}.json"
+            out_path = run.root / "join" / "units" / f"{inv}.tsv.gz"
+        else:
+            stats_path = run.root / "join_stats" / f"{inv}.json"
+            out_path = run.root / "regions" / f"{inv}.tsv.gz"
         previous = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
         current = (is_done(status, inv, "join", run.force)
-                   and (run.root / "regions" / f"{inv}.tsv.gz").exists()
+                   and out_path.exists()
                    and previous.get("wbc_set") == "".join(sorted(wbcs))
                    and previous.get("guards") == list(ALL_GUARDS))
         if not current:
-            todo.append((inv, (inv, str(run.root), wbcs, run.args.write_events)))
-    todo.sort(key=lambda t: -sizes[t[0]][1])
+            todo.append((inv, (inv, str(run.root), wbcs) if v2
+                         else (inv, str(run.root), wbcs, run.args.write_events)))
+    todo.sort(key=lambda t: -sizes[t[0]][1] if t[0] in sizes else 0)
     run.log(f"[join] {len(done) - len(todo)} already done with the current WBC set and guards, "
             f"{len(todo)} to do")
-    failures = run_pool(run, join_inventory, todo, sizes, "join")
+    failures = run_pool(run, join_inventory_v2 if v2 else join_inventory, todo, sizes, "join")
     run.update_manifest("join", {"n_inventories": len(done), "allow_partial": bool(missing),
                                  "failed": failures, "write_events": run.args.write_events,
                                  "ignore_sanity": run.args.ignore_sanity})
@@ -508,12 +696,12 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0],
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--pagexml-dir", type=Path, default=None,
-                        help="required except for --stage wordfix and --stage layout")
+                        help="required except for --stage wordfix, layout, types and units")
     parser.add_argument("--out-dir", required=True, type=Path)
     parser.add_argument("--preset", choices=sorted(PRESETS), default="voc_v1",
                         help="layer preset: output directory name, untagged-region tag, scan-id "
                              "prefix and throughput fit")
-    parser.add_argument("--stage", choices=STAGES + ("wordfix", "layout", "all"), default="all")
+    parser.add_argument("--stage", choices=STAGES + ("wordfix", "layout", "types", "units", "all"), default="all")
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--inventories", help="comma-separated inventory numbers (str, e.g. 1539,9626A)")
     group.add_argument("--inventories-file", help="file with one inventory number per line")
@@ -523,6 +711,9 @@ def main(argv=None):
                         help="print predicted wall time from input bytes; parses nothing")
     parser.add_argument("--allow-partial", action="store_true",
                         help="let wbc/join run although extract is not done everywhere (recorded)")
+    parser.add_argument("--allow-subset-wbc", action="store_true",
+                        help="stage wbc: run although the inventories are a strict subset of those in "
+                             "the layer (wbc/ is then rewritten from the subset)")
     parser.add_argument("--ignore-sanity", action="store_true",
                         help="stage join: run although the WBC sanity anchors failed (recorded)")
     parser.add_argument("--force", action="store_true",
@@ -538,17 +729,23 @@ def main(argv=None):
                         help="stage wordfix: JSON WordSplitParams overriding the preset's")
     parser.add_argument("--layout-params", default=None,
                         help="stage layout: JSON LayoutParams overriding the defaults")
+    parser.add_argument("--types-params", default=None,
+                        help="stage types: JSON TypeParams overriding the preset's")
+    parser.add_argument("--unit-params", default=None,
+                        help="stage units: JSON UnitParams overriding the preset's")
+    parser.add_argument("--republic-dir", default=None,
+                        help="stage units (print): directory with REPUBLIC paragraphs-<inv>.tsv.gz "
+                             "for the line-id crosswalk (default: LotA's data/paragraphs)")
     args = parser.parse_args(argv)
-    if args.pagexml_dir is None and args.stage not in ("wordfix", "layout"):
+    if args.pagexml_dir is None and args.stage not in ("wordfix", "layout", "types", "units") + (
+            ("wbc", "join") if PRESETS[args.preset].format_version == 2 else ()):
         parser.error("--pagexml-dir is required")
-    if args.stage in ("wordfix", "layout") and PRESETS[args.preset].format_version != 2:
+    if args.stage in ("wordfix", "layout", "types", "units") and PRESETS[args.preset].format_version != 2:
         parser.error(f"--stage {args.stage} needs a v2 preset")
-    if PRESETS[args.preset].format_version == 2 and args.stage in ("wbc", "join"):
-        print(f"stage {args.stage} is not available for v2 presets yet (phase 07)",
-              file=sys.stderr)
-        return 2
+    v2_preset = PRESETS[args.preset].format_version == 2
+    local_stages = ("wordfix", "layout", "types", "units") + (("wbc", "join") if v2_preset else ())
 
-    if args.stage in ("wordfix", "layout"):
+    if args.stage in local_stages:
         lines_dir = Path(args.out_dir) / PRESETS[args.preset].name / "lines"
         found = sorted((p.name[:-len(".lines.tsv.gz")] for p in lines_dir.glob("*.lines.tsv.gz")),
                        key=inventory_sort_key)
@@ -572,14 +769,17 @@ def main(argv=None):
     preset = PRESETS[args.preset]
     if preset.format_version == 2:
         stages = ("extract",) if args.stage in ("all", "extract") else (args.stage,)
-        if args.stage == "all" and preset.word_split == "on":
-            stages += ("wordfix",)
+        if args.stage == "all":
+            if preset.word_split == "on":
+                stages += ("wordfix",)
+            stages += ("layout", "types", "units", "wbc", "join")
     else:
         stages = STAGES if args.stage == "all" else (args.stage,)
     failures = []
     for stage in stages:
         failures += {"extract": stage_extract, "wbc": stage_wbc, "join": stage_join,
-                     "wordfix": stage_wordfix, "layout": stage_layout}[stage](
+                     "wordfix": stage_wordfix, "layout": stage_layout,
+                     "types": stage_types, "units": stage_units}[stage](
             run, inventories, sizes) or []
     run.log(f"end stage={args.stage} failures={len(failures)}")
     return 1 if failures else 0

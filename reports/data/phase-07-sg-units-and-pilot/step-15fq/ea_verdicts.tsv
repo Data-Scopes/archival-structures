@@ -1,0 +1,197 @@
+sample	case	scan	verdict	note
+merges	hand 1	3771_0574	ambiguous	noise fragments
+merges	hand 2	3773_0528	wrong:fragment-order	row fragment sorted before its line
+merges	hand 3	3821_0008	right	surname prefix beside surname
+merges	hand 4	3354_0033	wrong:two-columns	left and right entry columns interleaved
+merges	hand 5	3772_0550	right	list numerals beside names
+merges	hand 6	3353_0013	right	index entries
+merges	hand 7	3773_0294	wrong:fragment-order	'tentie.' after 'WAAR op geen resolutie is'
+merges	hand 8	3349_0021	right	index entries
+merges	hand 9	3772_0476	right	'vertentie.' completes 'ad-'
+merges	hand 10	11182_0286	ambiguous	left title block and right address block interleaved
+merges	hand 11	11281_0121	right	signature under text
+merges	hand 12	3353_0318	right	heading and first resolution line
+merges	hand 13	3353_0024	wrong:margin-interleaved	'paspoorten inde provincien' entries interleaved with the right-hand names
+merges	hand 14	11182_0084	right	heading 'Reponse' after text
+merges	hand 15	3353_0009	right	'Holland 74' completes the row
+merges	hand 16	3349_0038	ambiguous	'den' above 'Heeren Gedepute'
+merges	hand 17	3354_0126	wrong:two-columns	right-column entry first, then left-column entries
+merges	hand 18	3354_0135	wrong:two-columns	both entry columns interleaved
+merges	hand 19	3771_0320	right	'atte-' completes the row
+merges	hand 20	11182_0363	ambiguous	margin label 'Litt: B.' between two blocks
+merges	hand 21	3351_0139	wrong:two-columns	both entry columns interleaved
+merges	hand 22	11281_0433	right	signature
+merges	hand 23	3823_0340	ambiguous	'al0o1-' fragment
+merges	hand 24	3354_0163	wrong:two-columns	right-column entry between left-column entries
+merges	hand 25	3349_0413	ambiguous	'nes' beyond the line end
+merges	hand 26	11281_0895	right	signature and place/date
+merges	hand 27	3352_1000	wrong:fragment-order	'de' sorted before the line it ends
+merges	hand 28	3823_0343	ambiguous	'de Thulemeyer.' above noise
+merges	hand 29	3353_0214	wrong:fragment-order	'den' sorted before the first line
+merges	hand 30	3349_0356	wrong:fragment-order	'den.' sorted before the first line
+merges	print 1	455_0310	right	single column, y-sorted lines of two source regions
+merges	print 2	455_0396	right	single column, y-sorted lines of two source regions
+merges	print 3	455_0401	right	single column, y-sorted lines of two source regions
+merges	print 4	455_0257	right	single column, y-sorted lines of two source regions
+merges	print 5	455_0350	right	single column, y-sorted lines of two source regions
+merges	print 6	455_0204	right	single column, y-sorted lines of two source regions
+merges	print 7	455_0376	right	single column, y-sorted lines of two source regions
+merges	print 8	455_0011	right	single column, y-sorted lines of two source regions
+merges	print 9	455_0345	wrong:page-number-absorbed	'1 673 )' joined into column 2 (not matched by the pattern)
+merges	print 10	456_0098	wrong:two-columns	one source region, both columns merged again
+merges	print 11	455_0531	right	single column, y-sorted lines of two source regions
+merges	print 12	455_0582	right	single column, y-sorted lines of two source regions
+merges	print 13	455_0237	right	single column, y-sorted lines of two source regions
+merges	print 14	455_0215	right	single column, y-sorted lines of two source regions
+merges	print 15	455_0516	right	single column, y-sorted lines of two source regions
+merges	print 16	455_0199	right	single column, y-sorted lines of two source regions
+merges	print 17	455_0014	right	single column, y-sorted lines of two source regions
+merges	print 18	455_0266	right	single column, y-sorted lines of two source regions
+merges	print 19	455_0270	right	single column, y-sorted lines of two source regions
+merges	print 20	455_0686	right	single column, y-sorted lines of two source regions
+merges	print 21	455_0291	right	single column, y-sorted lines of two source regions
+merges	print 22	455_0538	right	single column, y-sorted lines of two source regions
+merges	print 23	455_0133	right	single column, y-sorted lines of two source regions
+merges	print 24	455_0615	right	single column, y-sorted lines of two source regions
+merges	print 25	455_0489	right	single column, y-sorted lines of two source regions
+merges	print 26	455_0274	right	single column, y-sorted lines of two source regions
+merges	print 27	455_0023	right	single column, y-sorted lines of two source regions
+merges	print 28	455_0659	right	single column, y-sorted lines of two source regions
+merges	print 29	455_0198	right	single column, y-sorted lines of two source regions
+merges	print 30	455_0489	right	single column, y-sorted lines of two source regions
+pagesplit	diff 1	3350_0455	right	moved lines are recto margin notes or recto text
+pagesplit	diff 2	3350_0681	right	moved lines are recto margin notes or recto text
+pagesplit	diff 3	3350_0710	right	moved lines are recto margin notes or recto text
+pagesplit	diff 4	3350_0209	right	moved lines are recto margin notes or recto text
+pagesplit	diff 5	3350_0587	right	moved lines are recto margin notes or recto text
+pagesplit	diff 6	3350_0153	right	moved lines are recto margin notes or recto text
+pagesplit	diff 7	3350_0635	right	moved lines are recto margin notes or recto text
+pagesplit	diff 8	3349_0087	right	moved lines are recto margin notes or recto text
+pagesplit	diff 9	3350_0567	right	moved lines are recto margin notes or recto text
+pagesplit	diff 10	3350_0192	right	moved lines are recto margin notes or recto text
+pagesplit	diff 11	3350_0171	right	moved lines are recto margin notes or recto text
+pagesplit	diff 12	3353_0209	right	moved lines are recto margin notes or recto text
+pagesplit	diff 13	3350_0113	right	moved lines are recto margin notes or recto text
+pagesplit	diff 14	3349_0161	right	moved lines are recto margin notes or recto text
+pagesplit	diff 15	3350_0232	right	moved lines are recto margin notes or recto text
+pagesplit	diff 16	3350_0237	right	moved lines are recto margin notes or recto text
+pagesplit	diff 17	3350_0298	right	moved lines are recto margin notes or recto text
+pagesplit	diff 18	3349_0788	right	moved lines are recto margin notes or recto text
+pagesplit	diff 19	3351_0063	right	moved lines are recto margin notes or recto text
+pagesplit	diff 20	3350_0244	right	moved lines are recto margin notes or recto text
+pagesplit	diff 21	11182_0617	right	moved lines are recto margin notes or recto text
+pagesplit	diff 22	11281_0111	right	moved lines are recto margin notes or recto text
+pagesplit	diff 23	11281_0146	right	moved lines are recto margin notes or recto text
+pagesplit	diff 24	11182_0460	right	moved lines are recto margin notes or recto text
+pagesplit	diff 25	11182_0712	right	moved lines are recto margin notes or recto text
+pagesplit	diff 26	11182_0342	right	moved lines are recto margin notes or recto text
+pagesplit	diff 27	11281_0029	right	moved lines are recto margin notes or recto text
+pagesplit	diff 28	11182_0037	right	moved lines are recto margin notes or recto text
+pagesplit	diff 29	11182_0710	right	moved lines are recto margin notes or recto text
+pagesplit	diff 30	11281_0927	right	moved lines are recto margin notes or recto text
+pagesplit	same 1	3353_0448	right	no verso/recto cut-off visible
+pagesplit	same 2	11182_0556	right	no verso/recto cut-off visible
+pagesplit	same 3	11182_0665	right	no verso/recto cut-off visible
+pagesplit	same 4	3352_0813	right	no verso/recto cut-off visible
+pagesplit	same 5	3353_0908	right	no verso/recto cut-off visible
+pagesplit	same 6	3352_0323	right	no verso/recto cut-off visible
+pagesplit	same 7	11182_0325	right	no verso/recto cut-off visible
+pagesplit	same 8	3349_0058	right	no verso/recto cut-off visible
+pagesplit	same 9	3353_0846	right	no verso/recto cut-off visible
+pagesplit	same 10	3352_0597	right	no verso/recto cut-off visible
+pagesplit	same 11	3352_0417	right	no verso/recto cut-off visible
+pagesplit	same 12	3352_0287	right	no verso/recto cut-off visible
+pagesplit	same 13	3349_0095	right	no verso/recto cut-off visible
+pagesplit	same 14	3352_0911	right	no verso/recto cut-off visible
+pagesplit	same 15	3352_0956	right	no verso/recto cut-off visible
+pagesplit	same 16	3353_0222	right	no verso/recto cut-off visible
+pagesplit	same 17	3350_0435	right	no verso/recto cut-off visible
+pagesplit	same 18	3352_1022	right	no verso/recto cut-off visible
+pagesplit	same 19	3349_0204	right	no verso/recto cut-off visible
+pagesplit	same 20	3352_0269	right	no verso/recto cut-off visible
+devscans	dev 11182_0709	11182_0709	15fp verdict overturned	'D.' recto margin (verso margin 'C. 2.' on the left)
+devscans	dev 11182_0306	11182_0306	15fp verdict overturned	'admt. amsterdm.' recto margin
+devscans	dev 11182_0538	11182_0538	15fp verdict overturned	'Sbosch. 2.' recto margin
+devscans	dev 11182_0524	11182_0524	15fp verdict overturned	'R: v. Brab: 6' recto margin (0.50-0.567; recto text from 0.595)
+devscans	dev 11281_0923	11281_0923	15fp verdict overturned	3 recto margin notes
+devscans	dev 11281_0292	11281_0292	15fp verdict overturned	'6.1.' recto margin
+furniture	furn 1	3821_0060	margin item kept separate (right)	'191'
+furniture	furn 2	3822_0014	margin item kept separate (right)	'151'
+furniture	furn 3	3822_0020	margin item kept separate (right)	'645'
+furniture	furn 4	3821_0014	true furniture	'1766.'
+furniture	furn 5	3821_0178	true furniture	'( 186 )'
+furniture	furn 6	3773_0209	true furniture	'( 345 )'
+furniture	furn 7	3821_0360	true furniture	'( 548 )'
+furniture	furn 8	3349_0396	true furniture	'10. Maart.'
+furniture	furn 9	3821_0136	true furniture	'Den 25 February'
+furniture	furn 10	455_0127	true furniture	'( 239 )'
+furniture	furn 11	3823_0023	margin item kept separate (right)	'27 Dec.'
+furniture	furn 12	3823_0058	margin item kept separate (right)	'8 Sept.'
+furniture	furn 13	3773_0484	true furniture	'( 888 )'
+furniture	furn 14	3773_0297	true furniture	'(, 519 )'
+furniture	furn 15	3823_0009	margin item kept separate (right)	'277'
+furniture	furn 16	3773_0171	true furniture	'( 269 )'
+furniture	furn 17	3349_0652	true furniture	'30. April'
+furniture	furn 18	3821_0021	margin item kept separate (right)	'13 Juny'
+furniture	furn 19	3821_0024	margin item kept separate (right)	'1'
+furniture	furn 20	11281_0244	true furniture	'235.'
+furniture	furn 21	3821_0044	margin item kept separate (right)	'227'
+furniture	furn 22	3823_0028	true furniture	'1768'
+furniture	furn 23	3772_0080	true furniture	'1717.'
+furniture	furn 24	3823_0078	margin item kept separate (right)	'44'
+furniture	furn 25	3822_0274	true furniture	'( 385 )'
+furniture	furn 26	3821_0029	margin item kept separate (right)	'195'
+furniture	furn 27	3350_0292	true furniture	'255.'
+furniture	furn 28	3823_0338	true furniture	'Den 22 September'
+furniture	furn 29	3773_0155	true furniture	'1718.'
+furniture	furn 30	3822_0280	true furniture	'1767'
+colsplit	colsplit 1	455_0618	pure	
+colsplit	colsplit 2	456_0079	pure	
+colsplit	colsplit 3	456_0094	pure	running-head line out of y order
+colsplit	colsplit 4	455_0492	pure	
+colsplit	colsplit 5	455_0712	pure	
+colsplit	colsplit 6	455_0398	pure	
+colsplit	colsplit 7	456_0045	noise part	single line with empty text, colval ''
+colsplit	colsplit 8	455_0020	pure	
+colsplit	colsplit 9	455_0699	pure	
+colsplit	colsplit 10	456_0639	noise part	single line with empty text, colval ''
+colsplit	colsplit 11	456_0357	pure	
+colsplit	colsplit 12	456_0435	pure	
+colsplit	colsplit 13	455_0449	pure	
+colsplit	colsplit 14	455_0416	pure	
+colsplit	colsplit 15	456_0321	pure	
+colsplit	colsplit 16	455_0391	pure	running-head line out of y order
+colsplit	colsplit 17	455_0028	pure	
+colsplit	colsplit 18	455_0511	pure	lone one-line region
+colsplit	colsplit 19	455_0520	pure	running-head line out of y order
+colsplit	colsplit 20	456_0581	not pure	both columns (merged again)
+guard	guard hand 1	3353_0474	ambiguous	'den'
+guard	guard hand 2	3821_0362	ambiguous	'vroors'
+guard	guard hand 3	3822_0025	right	margin 'April'
+guard	guard hand 4	3352_0436	ambiguous	'den'
+guard	guard hand 5	3771_0460	wrong	'tie.'/'len.' line-end fragments
+guard	guard hand 6	3351_0112	ambiguous	'Saken.' and '.'
+guard	guard hand 7	3821_0059	right	noise 'daen12'
+guard	guard hand 8	3349_0102	right	margin summary notes
+guard	guard hand 9	3771_0331	right	noise '1A'
+guard	guard hand 10	11182_0467	ambiguous	'den'
+guard	guard hand 11	3352_0299	ambiguous	'den'
+guard	guard hand 12	3352_0013	right	noise 'i'
+guard	guard hand 13	11182_0308	right	heading 'Bijsage.'
+guard	guard hand 14	3351_0023	ambiguous	'Raadt van'
+guard	guard hand 15	3349_0153	right	label 'Con: van Denemarken'
+guard	guard print 1	455_0621	wrong	'den.' continues the sentence
+guard	guard print 2	456_0111	right	empty-text noise
+guard	guard print 3	456_0130	right	empty-text noise
+guard	guard print 4	455_0482	wrong	'len.' completes 'geval-'
+guard	guard print 5	456_0013	right	empty-text noise
+guard	guard print 6	455_0389	right	page number '1 760)'
+guard	guard print 7	456_0081	right	empty-text noise
+guard	guard print 8	455_0016	ambiguous	'e'
+guard	guard print 9	455_0711	wrong	'reert.' continuation
+guard	guard print 10	456_0444	right	empty-text noise
+guard	guard print 11	456_0529	right	empty-text noise
+guard	guard print 12	455_0438	right	empty-text noise
+guard	guard print 13	455_0405	ambiguous	'Signé,'
+guard	guard print 14	456_0405	right	empty-text noise
+guard	guard print 15	455_0380	wrong	'doen.' completes the sentence

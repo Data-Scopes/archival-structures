@@ -1,0 +1,52 @@
+row_no	predicted	reason
+241	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+8	persists_glue	line-end break "rem." + "boursement" (or "geresu- meertende") stays unmerged: "." is not a break char, and the glue persists
+83	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+260	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+190	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+287	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+109	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+69	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+91	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+203	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+216	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+133	needs_realignment	print line-end hyphen now merged (vrykosten) but hand still has "vrij kost" + "en"; the old pair no longer exists
+228	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+284	fixed	print unit now ends at "advetentie: Waerop geen resolutie is gevallen."; the paragraph is no longer over-long
+173	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+264	persists_htr_ocr	stray OCR character or mis-read letters persist in the new text (laranVcon / vanJder)
+12	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+185	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+39	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+250	unclear	two columns (Dutch + French) still interleaved in one main_text unit in hand (unit 0) and print; column merge persists
+134	fixed	hand furniture/marginalia now in their own units (date_header, page_number); the old contiguous string no longer exists
+238	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+44	needs_realignment	token spans differ in extent between hand and print (contexts aligned); text unchanged, LotA must re-align
+207	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+153	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+236	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+290	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+140	persists_glue	line-end break "rem." + "boursement" (or "geresu- meertende") stays unmerged: "." is not a break char, and the glue persists
+6	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+229	fixed	print stray line "nnekon-" is now its own unit, no longer joined to "Waerop gedelibereerdt zijnde,"
+178	persists_glue	print glue persists although the line-end hyphen is now merged (e.g. toegesondengeworden, / procedureninstate ensurcheantie.)
+48	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+92	needs_realignment	token spans differ in extent between hand and print (contexts aligned); text unchanged, LotA must re-align
+31	persists_glue	print glue persists although the line-end hyphen is now merged (e.g. toegesondengeworden, / procedureninstate ensurcheantie.)
+50	fixed	hand furniture/marginalia now in their own units (date_header, page_number); the old contiguous string no longer exists
+26	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+40	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+9	fixed	hand furniture/marginalia now in their own units (date_header, page_number); the old contiguous string no longer exists
+23	persists_htr_ocr	stray OCR character or mis-read letters persist in the new text (laranVcon / vanJder)
+196	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+35	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+152	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+2	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+13	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+15	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+54	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+80	fixed	hand furniture/marginalia now in their own units (date_header, page_number); the old contiguous string no longer exists
+227	persists_htr_ocr	character-level HTR/OCR error persists; both token strings found unchanged
+179	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+299	persists_glue	whitespace missing in print (or hand) text; both token strings found unchanged; repair is off (UA-003)
+188	needs_realignment	print reading order changed ("daed in behoorlijcke forma" now precedes "torsijne narichtinge."); re-align

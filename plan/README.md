@@ -10,6 +10,8 @@ session reads only what it needs.
 plan/
   README.md          this file: the protocol, and the rules every session follows
   PLAN.md            phase index: one row per phase, with status. Short
+  CONTEXT.md         standing context for planning and review: the pipeline as it is now,
+                     accepted deviations, recurring brief defects. Updated by each phase review
   PROMPTS.md         template prompts for planning, implementation and review sessions
   templates/         skeletons for the per-phase files
   phase-NN-slug/
@@ -44,9 +46,9 @@ inventory doesn't have gets a letter suffix, e.g. `step-03b-…` or `step-06r-re
 
 | Session | Model | Reads | Writes |
 |---|---|---|---|
-| **Phase planning** | Opus | `plan/PLAN.md`, the phase `PLAN.md` and `STATUS.md`, the source sections the phase `PLAN.md` names, and the current code (via an Explore subagent) | step briefs, phase `PLAN.md`, `STATUS.md`, a `PROGRESS.md` block, and the report skeleton `reports/phase-NN-slug.md` (from `templates/REPORT.md`, status *draft*) |
+| **Phase planning** | Opus | `plan/PLAN.md`, `plan/CONTEXT.md`, the phase `PLAN.md` and `STATUS.md`, the source sections the phase `PLAN.md` names, and the current code (via an Explore subagent) | step briefs, phase `PLAN.md`, `STATUS.md`, a `PROGRESS.md` block, and the report skeleton `reports/phase-NN-slug.md` (from `templates/REPORT.md`, status *draft*) |
 | **Step implementation** | Sonnet | the phase `STATUS.md` and its own step brief; **nothing else unless the brief names it** | code and tests, **its section of the phase report** (results, error analysis, draft findings), a `PROGRESS.md` block, `STATUS.md`, the changelog entry |
-| **Phase review** | Opus | the phase `PLAN.md`, `STATUS.md` and `PROGRESS.md`, the phase report, the diff, and the code | `REVIEW.md`, the report's *Summary*, *Review* and *Follow-ups* sections, finding statuses, the phase's rows in `reports/index.md`, a review-fixes brief if needed, `plan/PLAN.md`, `STATUS.md` |
+| **Phase review** | Opus | the phase `PLAN.md`, `STATUS.md` and `PROGRESS.md`, the phase report, the diff, and the code | `REVIEW.md`, the report's *Summary*, *Review* and *Follow-ups* sections, finding statuses, the phase's rows in `reports/index.md`, a review-fixes brief if needed, `plan/PLAN.md`, `plan/CONTEXT.md` (accepted deviations, follow-ups), `STATUS.md` |
 | **Status check** (optional) | Haiku or Sonnet | `plan/PLAN.md` and the phase `STATUS.md` files | nothing |
 
 Implementation steps run on Sonnet, so **a step brief must be complete**. It gives exact file
@@ -62,6 +64,7 @@ These keep fresh sessions cheap. Split a file before it goes over its budget.
 | File | Budget | When it gets too long |
 |---|---|---|
 | `plan/PLAN.md` | ~80 lines | move detail into the phase `PLAN.md` |
+| `plan/CONTEXT.md` | ~150 lines | drop what no later phase needs; history is in `PROGRESS.md` |
 | phase `PLAN.md` | ~200 lines | the phase is too big; split it |
 | `STATUS.md` | 40 lines | overwrite it; history belongs in `PROGRESS.md` |
 | `PROGRESS.md` block | ~40 lines per session | put results tables and the error analysis in the phase report and link to its section |

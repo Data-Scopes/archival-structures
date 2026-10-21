@@ -110,3 +110,31 @@ def test_help_lists_preset():
     with pytest.raises(SystemExit) as exc:
         build.main(["--help"])
     assert exc.value.code == 0
+
+
+def test_subset_guard(pagexml_dir, tmp_path):
+    out = tmp_path / "out"
+    run(pagexml_dir, out, "--stage", "extract")           # layer with 9999A and 9999B
+    with pytest.raises(SystemExit) as exc:
+        run(pagexml_dir, out, "--stage", "wbc", "--inventories", "9999A")
+    assert "--allow-subset-wbc" in str(exc.value.code)
+    assert not (out / "voc_text_layer_v1" / "wbc" / "wbc_per_inventory.tsv").exists()
+    assert run(pagexml_dir, out, "--stage", "wbc", "--inventories", "9999A", "--allow-subset-wbc") == 0
+    assert (out / "voc_text_layer_v1" / "wbc" / "wbc_per_inventory.tsv").exists()
+    assert run(pagexml_dir, out, "--stage", "wbc") == 0    # a full run is unchanged
+
+
+def test_manifest_history(pagexml_dir, tmp_path):
+    out = tmp_path / "out"
+    path = out / "voc_text_layer_v1" / "manifest.json"
+    run(pagexml_dir, out, "--inventories", "9999A", "--ignore-sanity")
+    first = json.loads(path.read_text(encoding="utf-8"))
+    assert "history" not in first
+    run(pagexml_dir, out, "--inventories", "9999A", "--ignore-sanity", "--force")
+    second = json.loads(path.read_text(encoding="utf-8"))
+    assert set(second["history"]) == {"extract", "wbc", "join"}
+    assert second["history"]["extract"] == [first["stages"]["extract"]]
+    run(pagexml_dir, out, "--inventories", "9999A", "--ignore-sanity", "--force")
+    third = json.loads(path.read_text(encoding="utf-8"))
+    assert [h["finished_utc"] for h in third["history"]["wbc"]][0] == first["stages"]["wbc"]["finished_utc"]
+    assert len(third["history"]["wbc"]) == 2

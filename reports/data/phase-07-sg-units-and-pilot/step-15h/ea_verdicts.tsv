@@ -1,0 +1,121 @@
+section	item	verdict	category
+hand_trimmed	3771 NA_1.01.02_3771_0170-text_region-331-331-895-178	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3353 1.01.02_3353_0204-text_region-781-1357-2313-2600	ok	margin note split into two 1-line marginalia units (a main line between them)
+hand_trimmed	3821 A_1.01.02_3821_0134-text_region-1311-332-878-432	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3772 A_1.01.02_3772_0571-text_region-1364-355-845-401	doubtful	year token '1717.' typed running_header mid-region cuts main into 1+6 segments
+hand_trimmed	3771 A_1.01.02_3771_0536-text_region-3534-355-901-872	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3771 A_1.01.02_3771_0270-text_region-3565-315-890-684	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3822 _1.01.02_3822_0036-text_region-1969-2017-177-122	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	11281 .01.02_11281_0243-text_region-3586-2198-1801-719	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3822 _1.01.02_3822_0063-text_region-557-1938-619-1508	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3771 _1.01.02_3771_0180-text_region-3461-2578-894-283	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3821 A_1.01.02_3821_0409-text_region-3540-293-785-691	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3772 _1.01.02_3772_0326-text_region-3503-2150-626-251	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3821 1.01.02_3821_0231-text_region-1292-1173-884-1269	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3772 A_1.01.02_3772_0130-text_region-2500-401-902-892	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3771 _1.01.02_3771_0260-text_region-2601-332-920-2990	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3772 _1.01.02_3772_0062-text_region-3629-3137-805-204	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3353 _1.01.02_3353_0047-text_region-2923-189-2029-340	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3772 NA_1.01.02_3772_0507-text_region-282-327-909-414	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3822 A_1.01.02_3822_0306-text_region-357-1135-662-305	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3771 NA_1.01.02_3771_0125-text_region-307-337-909-865	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3771 _1.01.02_3771_0504-text_region-3603-836-914-2585	unread	pulled-out segments beyond the 16 shown
+hand_trimmed	3771 A_1.01.02_3771_0086-text_region-3568-954-849-469	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3771 1.01.02_3771_0523-text_region-3512-2070-933-1243	unread	pulled-out segments beyond the 16 shown
+hand_trimmed	3771 1.01.02_3771_0283-text_region-3531-1597-947-1845	unread	pulled-out segments beyond the 16 shown
+hand_trimmed	3773 A_1.01.02_3773_0186-text_region-3364-363-905-939	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3823 _1.01.02_3823_0241-text_region-1333-281-899-2590	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3822 _1.01.02_3822_0166-text_region-2416-290-893-2969	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3771 _1.01.02_3771_0294-text_region-1257-338-905-1231	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3822 A_1.01.02_3822_0061-text_region-608-1138-597-487	ok	pulled-out units are furniture/margin/other and main reads as one text
+hand_trimmed	3771 _1.01.02_3771_0388-text_region-3627-2614-846-639	ok	pulled-out units are furniture/margin/other and main reads as one text
+print_fp	FP 456_0504 indent=7.324 short=0.857 gap=-0.859 hdr=0	cue_wrong	fragment/reading-order noise
+print_fp	FP 456_0040 indent=0.226 short=0.182 gap=-0.714 hdr=0	cue_wrong	presence-list short lines (REPUBLIC joins)
+print_fp	FP 456_0011 indent=11.228 short=0.524 gap=-0.756 hdr=0	cue_plausible	French fragment at indent 11; REPUBLIC does not cut
+print_fp	FP 455_0029 indent=1.431 short=-0.035 gap=-0.525 hdr=0	cue_wrong	continuation line flagged by indent (>=0.5 line heights)
+print_fp	FP 456_0083 indent=0.171 short=-0.02 gap=-0.317 hdr=1	cue_wrong	header cue across a page break, text continues
+print_fp	FP 456_0143 indent=-0.212 short=0.576 gap=-0.152 hdr=0	cue_wrong	presence-list short lines (REPUBLIC joins)
+print_fp	FP 455_0595 indent=0.823 short=0.007 gap=-0.266 hdr=0	cue_wrong	continuation line flagged by indent (>=0.5 line heights)
+print_fp	FP 456_0559 indent=1.477 short=0.786 gap=1.423 hdr=1	cue_right	header cue; REPUBLIC paragraph starts at the (non-main) date_header, reference artifact
+print_fp	FP 456_0515 indent=1.836 short=0.006 gap=-0.418 hdr=0	cue_wrong	continuation line flagged by indent (>=0.5 line heights)
+print_fp	FP 456_0144 indent=4.253 short=-0.001 gap=-0.304 hdr=0	cue_wrong	noise line (OCR junk indent)
+print_fp	FP 456_0287 indent=0.02 short=0.762 gap=-0.098 hdr=0	cue_wrong	presence-list short lines (REPUBLIC joins)
+print_fp	FP 456_0086 indent=0.5 short=-0.178 gap=-0.435 hdr=0	cue_wrong	continuation line flagged by indent (>=0.5 line heights)
+print_fp	FP 456_0361 indent=-0.057 short=0.999 gap=-0.865 hdr=0	cue_wrong	column fragment before continuation
+print_fp	FP 456_0335 indent=2.162 short=-0.011 gap=-0.824 hdr=0	cue_wrong	continuation line flagged by indent (>=0.5 line heights)
+print_fp	FP 456_0275 indent=6.973 short=0.004 gap=-0.616 hdr=0	cue_plausible	drop-capital start, REPUBLIC does not cut
+print_fp	FP 456_0013 indent=5.128 short=0.537 gap=-0.459 hdr=0	cue_wrong	noise line (OCR junk indent)
+print_fp	FP 456_0616 indent=0.035 short=0.823 gap=0.012 hdr=0	cue_wrong	noise line (OCR junk indent)
+print_fp	FP 456_0012 indent=-1.153 short=0.688 gap=-0.194 hdr=0	cue_wrong	noise line (OCR junk indent)
+print_fp	FP 456_0368 indent=0.122 short=0.195 gap=-0.512 hdr=0	cue_wrong	presence-list short lines (REPUBLIC joins)
+print_fp	FP 456_0494 indent=0.592 short=0.002 gap=0.645 hdr=0	cue_wrong	continuation line flagged by indent (>=0.5 line heights)
+print_fn	FN 456_0197 indent=0.0 short=0.0 gap=-0.446 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0456 indent=0.193 short=-0.018 gap=-0.568 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 455_0643 indent=0.3 short=0.009 gap=-0.287 hdr=0	cue_miss	real paragraph start without indent/short previous line
+print_fn	FN 456_0176 indent=0.28 short=-0.006 gap=-0.121 hdr=0	cue_miss	real paragraph start without indent/short previous line
+print_fn	FN 456_0378 indent=-0.049 short=0.008 gap=-0.254 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0474 indent=0.4 short=-0.017 gap=-0.343 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0405 indent=0.014 short=-0.012 gap=-0.428 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0025 indent=-0.118 short=0.015 gap=-0.447 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0400 indent=0.247 short=0.019 gap=-0.151 hdr=0	cue_miss	real paragraph start without indent/short previous line
+print_fn	FN 456_0571 indent=-0.011 short=0.012 gap=-0.522 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0680 indent=0.027 short=-0.005 gap=-2.162 hdr=0	cue_miss	real paragraph start without indent/short previous line
+print_fn	FN 456_0526 indent=-0.12 short=0.001 gap=-0.41 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0679 indent=0.0 short=-0.008 gap=-0.292 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0040 indent=0.013 short=-0.004 gap=-0.325 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0070 indent=0.015 short=0.004 gap=-0.324 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0093 indent=0.072 short=0.006 gap=-0.116 hdr=0	cue_miss	real paragraph start without indent/short previous line
+print_fn	FN 456_0540 indent=0.038 short=-0.003 gap=-0.382 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0574 indent=0.0 short=0.001 gap=-0.37 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+print_fn	FN 456_0693 indent=-0.041 short=0.0 gap=-0.178 hdr=0	cue_miss	real paragraph start without indent/short previous line
+print_fn	FN 456_0334 indent=0.0 short=0.012 gap=-0.625 hdr=0	republic_wrong	REPUBLIC cuts mid-sentence (lowercase/mid-word continuation)
+changed_region	455 A_1.10.94_455_0177-text_region-3327-366-896-2939	text recoverable via doc_id_map	split across paragraphs/header
+changed_region	455 NA_1.10.94_455_0509-text_region-450-534-890-2779	text recoverable via doc_id_map	split across paragraphs/header
+changed_region	455 NA_1.10.94_455_0653-text_region-484-358-886-1236	text recoverable via doc_id_map	interleaved two columns
+changed_region	455 _1.10.94_455_0606-text_region-2447-322-1826-2959	text recoverable via doc_id_map	interleaved two columns
+changed_region	456 _1.10.94_456_0068-text_region-2488-289-1883-2262	text recoverable via doc_id_map	interleaved two columns
+changed_region	455 A_1.10.94_455_0139-text_region-2619-806-688-2383	text recoverable via doc_id_map	single line absorbed in another region
+changed_region	456 A_1.10.94_456_0485-text_region-3778-3216-139-105	text recoverable via doc_id_map	single line absorbed in another region
+changed_region	455 A_1.10.94_455_0270-text_region-3263-302-914-2945	text recoverable via doc_id_map	split across paragraphs/header
+changed_region	456 _1.10.94_456_0111-text_region-2438-2990-1835-292	text recoverable via doc_id_map	interleaved two columns
+changed_region	455 A_1.10.94_455_0335-text_region-1370-322-846-2888	text recoverable via doc_id_map	interleaved two columns
+changed_region	455 NA_1.10.94_455_0686-text_region-684-2656-630-606	text recoverable via doc_id_map	single line absorbed in another region
+changed_region	455 A_1.10.94_455_0428-text_region-1328-342-882-2920	text recoverable via doc_id_map	interleaved two columns
+changed_region	456 aNA_1.10.94_456_0330-text_region-3956-304-296-91	text recoverable via doc_id_map	single line absorbed in another region
+changed_region	455 aNA_1.10.94_455_0702-text_region-514-328-740-122	text recoverable via doc_id_map	split across paragraphs/header
+changed_region	455 NA_1.10.94_455_0586-text_region-434-348-902-2773	text recoverable via doc_id_map	split across paragraphs/header
+changed_region	455 A_1.10.94_455_0124-text_region-3642-2808-504-100	text recoverable via doc_id_map	single line absorbed in another region
+changed_region	455 _1.10.94_455_0620-text_region-3347-2096-886-1210	text recoverable via doc_id_map	split across paragraphs/header
+changed_region	455 _1.10.94_455_0197-text_region-2392-360-1788-2940	text recoverable via doc_id_map	interleaved two columns
+changed_region	455 _1.10.94_455_0599-text_region-2440-274-1818-2979	text recoverable via doc_id_map	interleaved two columns
+changed_region	455 A_1.10.94_455_0203-text_region-610-1154-710-2055	text recoverable via doc_id_map	split across paragraphs/header
+crosswalk_unmatched	A_1.10.94_455_0018-line-3457-3109-876-97 box=[3457, 3109, 876, 97]; nearest ours: (342	unmatched	same line, box offset > 5px or REPUBLIC cuts one of our lines in two
+crosswalk_unmatched	_1.10.94_455_0018-line-3455-3150-877-111 box=[3455, 3150, 877, 111]; nearest ours: (34	unmatched	same line, box offset > 5px or REPUBLIC cuts one of our lines in two
+crosswalk_unmatched	NA_1.10.94_455_0026-line-3362-322-887-96 box=[3362, 322, 887, 96]; nearest ours: (3360	unmatched	no counterpart (different line segmentation)
+crosswalk_unmatched	NA_1.10.94_455_0039-line-1354-766-280-68 box=[1354, 766, 280, 68]; nearest ours: (1356	unmatched	small fragment box, IoU < 0.5 with our split half
+crosswalk_unmatched	NA_1.10.94_455_0065-line-721-301-650-113 box=[721, 301, 650, 113]; nearest ours: (721,	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	NA_1.10.94_455_0065-line-1391-293-854-81 box=[1391, 293, 854, 81]; nearest ours: (1329	unmatched	no counterpart (different line segmentation)
+crosswalk_unmatched	NA_1.10.94_455_0474-line-438-401-857-103 box=[438, 401, 857, 103]; nearest ours: (438,	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	A_1.10.94_456_0060-line-3013-2574-364-76 box=[3013, 2574, 364, 76]; nearest ours: (301	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	A_1.10.94_456_0108-line-1057-1783-308-59 box=[1057, 1783, 308, 59]; nearest ours: (105	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	_1.10.94_456_0141-line-2498-2425-1838-82 box=[2498, 2425, 1838, 82]; nearest ours: (25	unmatched	REPUBLIC line unsplit or split offset by >5px in y; our halves out of tolerance
+crosswalk_unmatched	A_1.10.94_456_0154-line-3328-2410-266-84 box=[3328, 2410, 266, 84]; nearest ours: (334	unmatched	small fragment box, IoU < 0.5 with our split half
+crosswalk_unmatched	aNA_1.10.94_456_0161-line-815-720-529-85 box=[815, 720, 529, 85]; nearest ours: (815,6	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	NA_1.10.94_456_0161-line-860-770-484-101 box=[860, 770, 484, 101]; nearest ours: (860,	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	A_1.10.94_456_0204-line-491-1309-1835-66 box=[491, 1309, 1835, 66]; nearest ours: (507	unmatched	REPUBLIC line unsplit or split offset by >5px in y; our halves out of tolerance
+crosswalk_unmatched	A_1.10.94_456_0218-line-2454-2891-877-82 box=[2454, 2891, 877, 82]; nearest ours: (245	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	_1.10.94_456_0218-line-3336-2932-909-100 box=[3336, 2932, 909, 100]; nearest ours: (33	unmatched	REPUBLIC line unsplit or split offset by >5px in y; our halves out of tolerance
+crosswalk_unmatched	A_1.10.94_456_0250-line-1059-2492-233-24 box=[1059, 2492, 233, 24]; nearest ours: (105	unmatched	small fragment box, IoU < 0.5 with our split half
+crosswalk_unmatched	A_1.10.94_456_0288-line-2589-997-850-121 box=[2589, 997, 850, 121]; nearest ours: (258	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	_1.10.94_456_0288-line-3459-1001-912-125 box=[3459, 1001, 912, 125]; nearest ours: (34	unmatched	same line, box offset > 5px or REPUBLIC cuts one of our lines in two
+crosswalk_unmatched	_1.10.94_456_0321-line-3392-2447-909-140 box=[3392, 2447, 909, 140]; nearest ours: (33	unmatched	same line, box offset > 5px or REPUBLIC cuts one of our lines in two
+crosswalk_unmatched	aNA_1.10.94_456_0329-line-908-930-384-60 box=[908, 930, 384, 60]; nearest ours: (908,9	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	_1.10.94_456_0360-line-3363-3090-894-147 box=[3363, 3090, 894, 147]; nearest ours: (33	unmatched	same line, box offset > 5px or REPUBLIC cuts one of our lines in two
+crosswalk_unmatched	A_1.10.94_456_0532-line-1154-3050-249-80 box=[1154, 3050, 249, 80]; nearest ours: (115	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	A_1.10.94_456_0532-line-1423-3050-861-76 box=[1423, 3050, 861, 76]; nearest ours: (135	unmatched	same line, box offset > 5px or REPUBLIC cuts one of our lines in two
+crosswalk_unmatched	A_1.10.94_456_0559-line-452-2614-1785-89 box=[452, 2614, 1785, 89]; nearest ours: (468	unmatched	REPUBLIC line unsplit or split offset by >5px in y; our halves out of tolerance
+crosswalk_unmatched	aNA_1.10.94_456_0570-line-958-491-380-57 box=[958, 491, 380, 57]; nearest ours: (958,4	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	NA_1.10.94_456_0572-line-1001-901-365-45 box=[1001, 901, 365, 45]; nearest ours: (1001	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	A_1.10.94_456_0657-line-1048-1707-294-57 box=[1048, 1707, 294, 57]; nearest ours: (104	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	NA_1.10.94_456_0683-line-1067-822-320-57 box=[1067, 822, 320, 57]; nearest ours: (1067	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it
+crosswalk_unmatched	A_1.10.94_456_0157-line-1046-1868-276-61 box=[1046, 1868, 276, 61]; nearest ours: (104	unmatched	ours line unsplit; REPUBLIC id is a left/right fragment of it

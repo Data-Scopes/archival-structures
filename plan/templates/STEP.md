@@ -47,7 +47,10 @@ to change, and why.>
 - <Interfaces that must not change.>
 - Never `git commit`; never bump the version; `chmod g+w` new files.
 - **Protected outputs** (stored results a step reproduces, caches): name them here. Hash them
-  (sha256 and mtime) before the first run and check after every run. Run any sibling script
+  before the first run and check after every run, and **name the method**: the script to copy
+  (for text layers `reports/data/phase-07-sg-units-and-pilot/step-15i2/protect.py`, format
+  `size=N mtime path`, plus sha256 of the source archives) and its skip list (phase 07: six
+  briefs left this out and each session re-invented it). Run any sibling script
   with an explicit output path into the scratchpad, never with its default. When a script's
   default output path is a module constant that another script patches, resolve it at call
   time. (Phase 03: F03-09.7, a stored CSV overwritten through a default bound at definition

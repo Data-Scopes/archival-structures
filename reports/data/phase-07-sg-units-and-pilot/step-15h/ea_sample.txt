@@ -1,0 +1,925 @@
+=== 1 HAND TRIMMED (30)
+--- 3771 NA_1.01.02_3771_0170-text_region-331-331-895-178
+   U0 date_head Den 9. April.
+   U1* main_text gearresteert zyn de depesches daer uyt resul-
+   U1* main_text terende.
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=2
+--- 3353 1.01.02_3353_0204-text_region-781-1357-2313-2600
+   U0* main_text Ontfangen een missive van S: Pallant, Raad
+   U0* main_text Hof van Roermont en momboir des Overquartiers van Gelderlant,
+   U0* main_text ges: tot Roermonde den 29. der voorleden maent,
+   U0* main_text houdende dat hij uijt haer Ho:Mog: resolutie vanden
+   U1 marginali Confliet van
+   U0* main_text 18. daer te vooren genomen, inde sake vande
+   U2 marginali jurisdictie.
+   U0* main_text Erfgenamen van Wijnant Neijnants tegens
+   U0* main_text Arnoldus Costerius, Scholtis der Stadt Weert,
+   U0* main_text hadde gesien, dat deselve gelieft hadden de voorz:
+   U0* main_text partijen te versenden voor commissarissen vanden
+   U0* main_text rade van Brabant, om door deselve tot een be„
+   U0* main_text tamelijck accord geinduceert te werden, dat mits
+   U0* main_text de Hoogheijt van het voorz: Overquartier bijde
+   U0* main_text voorz: sake soude konnen werden verkort,
+   U0* main_text hij van sijn devoir hadde geacht bij missive
+   ... 16 more segments
+   U0*: main_text hand:region n_seg=30
+   U1: marginalia hand:run n_seg=1
+   U2: marginalia hand:run n_seg=1
+--- 3821 A_1.01.02_3821_0134-text_region-1311-332-878-432
+   U0 running_h 1766
+   U1* main_text duuren, voor hem en Famille met Domelti
+   U1* main_text quen eene aansienlyke depense veroorlaakte,
+   U1* main_text die des te meer vermeerdert was geworden,
+   U1* main_text door dien men het Swart in een excellive
+   U1* main_text hooge prys gehouden had, om dat men
+   U1* main_text geen toevoer van buiten by de Zee nad
+   U1* main_text konnen erlangen.
+   U0: running_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=7
+--- 3772 A_1.01.02_3772_0571-text_region-1364-355-845-401
+   U0 main_text Taats van Amerongen, van Renswoude, U.
+   U1 running_h 1717.
+   U2* main_text bingh.
+   U2* main_text van Vegelin, met een extraordinaris Ge-
+   U2* main_text deputeerde uyt de Provincie van Vries
+   U2* main_text landt.
+   U2* main_text Isselmuden.
+   U2* main_text Iddekinge.
+   U0: main_text hand:region_cut_at_header n_seg=1
+   U1: running_header hand:run n_seg=1
+   U2*: main_text hand:region_cut_at_header n_seg=6
+--- 3771 A_1.01.02_3771_0536-text_region-3534-355-901-872
+   U0 date_head Den 2. December
+   U1* main_text tye soude willen stellen; versoeckende derhal-
+   U1* main_text ven, om redenen in de voorschreve Requeste
+   U1* main_text geallegeert, haer Hoogh Mog. authorisatie,
+   U1* main_text omme het voorschreve Proces voor den Raedt
+   U1* main_text van Brabandt tegens den voornoemden Wil-
+   U1* main_text lem de Haes te mogen defenderen ende ver-
+   U1* main_text volgen. WAER op gedelibereert
+   U1* main_text zynde, is goedtgevonden ende verstaen, dat
+   U1* main_text aen de Supplianten sal werden gepermitteert,
+   U1* main_text soo als aen haer gepermitteert werdt mits de-
+   U1* main_text len, omme de voorgemelde proceduyren te
+   U1* main_text mogen vervolgen, mits dat by uytslagh van
+   U1* main_text de saeck bevonden werdende, dat sy de selve
+   U1* main_text sonder genoeghsaem fondament hebben ge-
+   U1* main_text voerdt, sy in haer privé in de kosten sullen
+   ... 1 more segments
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=16
+--- 3771 A_1.01.02_3771_0270-text_region-3565-315-890-684
+   U0 date_head Den 10. Junii.
+   U1* main_text Mogende voorgedragen en bekent gemaeckt;
+   U1* main_text dat den Secretaris van wylen den Heere van
+   U1* main_text Haersolte, in sijn leven haer Hoogh Mogende
+   U1* main_text extraordinaris Envoyé aen verscheyde Horen,
+   U1* main_text hem kennisse hadde gegeven, dat hy onder sigh
+   U1* main_text hadde verscheyde Stucken en Papieren, door
+   U1* main_text den Heere van Haersolte geduyrende sijne de-
+   U1* main_text putatie ontfangen. WAER op gedeli-
+   U1* main_text bereert zynde, is goetgevonden ende verstaen,
+   U1* main_text dat de voorschreve Stucken ter Griffie ge-
+   U1* main_text bracht, ende aldaer geseponeert sullen wer-
+   U1* main_text den.
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=12
+--- 3822 _1.01.02_3822_0036-text_region-1969-2017-177-122
+   U0* date_head 27 Mey
+   U1 marginali 5 1u0y
+   U0*: date_header hand:run n_seg=1
+   U1: marginalia hand:run n_seg=1
+--- 11281 .01.02_11281_0243-text_region-3586-2198-1801-719
+   U0* main_text den ophef van des verpondingen voordit jaer,
+   U0* main_text en het betalen van drie paeijen vanden
+   U0* main_text vierhendertsten penningh, met renuntiatie
+   U0* main_text ande pretensie vande heeren vande Stad,
+   U0* main_text van twee verpondingen, en eenpaeij vanden
+   U0* main_text 400en penning van het voorleden jaer.
+   U1 other     2.
+   U0*: main_text hand:region n_seg=6
+   U1: other hand:run n_seg=1
+--- 3822 _1.01.02_3822_0063-text_region-557-1938-619-1508
+   U0 main_text Requette van Heere om
+   U0 main_text Mandament van 4p.
+   U0 main_text pel van seekere Sen-
+   U0 main_text tevtie door den Raad
+   U0 main_text van Staaten ten na
+   U0 main_text deelen van hem ge
+   U0 main_text weelen, in de Pro.
+   U0 main_text celle doo1 den T01
+   U0 main_text tenaar van den groote
+   U0 main_text Brabandsche swyeen
+   U0 main_text de Landtol teegens
+   U0 main_text hem geentameert:
+   U1 date_head 25 Juny
+   U2* main_text Commiss
+   U2* main_text htem van een tweede
+   U2* main_text Sententie over gely-
+   ... 34 more segments
+   U0: main_text hand:region_cut_at_header n_seg=12
+   U1: date_header hand:run n_seg=1
+   U2*: main_text hand:region_cut_at_header n_seg=27
+--- 3771 _1.01.02_3771_0180-text_region-3461-2578-894-283
+   U0* main_text E Resolutien, gisteren geno-
+   U0* main_text men, zijn gelesen ende geresu-
+   U1 other     4
+   U0* main_text meert, gelijck oock geresumeert en
+   U0* main_text gearresteert zyn de depesches daer uyt resul-
+   U0* main_text terende.
+   U0*: main_text hand:region n_seg=5
+   U1: other hand:run n_seg=1
+--- 3821 A_1.01.02_3821_0409-text_region-3540-293-785-691
+   U0 date_head Den 1 December
+   U1* main_text antwoorden na Vlieder goedvinden, en
+   U1* main_text wy sullen ons gedraagen na Vlieder
+   U1* main_text antwoord: en ik sal, s00 6od wil, a1s
+   U1* main_text wy ter tegenwoordigheid van onsen Heck
+   U1* main_text den Keyser sullen koomen, booven het
+   U1* main_text geen Gylieden denken kont, de poli-
+   U1* main_text tellen en het goede aan my beweesen
+   U1* main_text verheffen.
+   U1* main_text Geschreeven Vrydas den neegentien
+   U1* main_text den van Ejumadi de tweede des jaars
+   U1* main_text elf honderd tagtis.
+   U1* main_text Was geteekent.
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=12
+--- 3772 _1.01.02_3772_0326-text_region-3503-2150-626-251
+   U0 date_head Luna den 5. Julii
+   U1* main_text 1717.
+   U1* main_text PRAESIDE,
+   U1* main_text Den Heere Coninck.
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=3
+--- 3821 1.01.02_3821_0231-text_region-1292-1173-884-1269
+   U0* main_text En Heer d'Ablains, Ciessenburgh, ter
+   U0* main_text Vergaderinge praelideerende, heete
+   U1 other     4
+   U0* main_text aan haar Hoo5 Mogende voorgedraa-
+   U0* main_text sen en bekend gemaakt, dat geinformeert
+   U0* main_text was, dat sijn Hoogheid den Heere Prince
+   U0* main_text van Orange en Nallau voorneemens was
+   U0* main_text eerstdaags een keer te doen na Zeeland, in
+   U0* main_text bedenken geevende, of naar H0o5 Mogen
+   U0* main_text de niet een Commissie souden decerneeren,
+   U0* main_text om sijn Hoogheid te gaan valediceeren.
+   U0* main_text WAAk op gedelibereert zynde, is goed
+   U0* main_text gevonden en verstaan, dat een Commissie
+   U0* main_text ten voorschreeven einde sal worden gede
+   U0* main_text cerneert, en dat tot het bekleeden van dien
+   U0* main_text sullen worden verloot en gecommitteert, soo
+   ... 10 more segments
+   U0*: main_text hand:region n_seg=25
+   U1: other hand:run n_seg=1
+--- 3772 A_1.01.02_3772_0130-text_region-2500-401-902-892
+   U0 running_h 1717.
+   U1* main_text van de voorschreve somme by negotiatie in
+   U1* main_text verscheyde termynen hadden betaalt twee hon-
+   U1* main_text dert duysent, twee hondert vyftigh duysent,
+   U1* main_text ende laatstelijck hondert duysent guldens, soo
+   U1* main_text dat op de voorschreve somme niet meer re-
+   U1* main_text steerde te betalen als de somme van drie en
+   U1* main_text tachtigh duysent drie hondert drie en dertigh
+   U1* main_text guldens, versoeckende dat haar Hoogh Mo-
+   U1* main_text gende het voorschreve restant van gemelde
+   U1* main_text subsidie mede geliefden te doen negotieren en
+   U1* main_text betalen.
+   U1* main_text Waar op gedelibereert zynde, is goetge-
+   U1* main_text vonden ende verstaan, dat de sake ter Gene-
+   U1* main_text raliteyt daar heenen sal werden gedirigeert,
+   U1* main_text dat aan gemelden Heere Grave van Tarouca
+   ... 2 more segments
+   U0: running_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=17
+--- 3771 _1.01.02_3771_0260-text_region-2601-332-920-2990
+   U0 running_h 1716.
+   U1* main_text tantie, ende op verreeckeningh van Pieter
+   U1* main_text Hohmann in Leypsigh, in goeden ganghba-
+   U1* main_text ren gelde, na der vereenighde Nederlanden
+   U1* main_text waerdye, betaelde, ende over sulcks wel ont-
+   U1* main_text fangene somme der viermael hondert duysent
+   U1* main_text guldens Hollandts, oock mede wederom in
+   U1* main_text goeden ganghbaren gelde, als vooren staet,
+   U1* main_text soo wel aen capitael, als interesten, willen
+   U1* main_text restitueren, en afsossen, ende sullen de inte-
+   U1* main_text resten daer van na advenant der vyf per cent
+   U1* main_text in het jaer, van halve jaer tot halve jaer, na-
+   U1* main_text mentlijck t'elckens in de betalinghs weeck van
+   U1* main_text de Leypsiger Paesch- en St. Michiels Missen,
+   U1* main_text ende wel Donderdaeghs ter gewoonlijcker be-
+   U1* main_text talinghs tijdt stiptelijck betalen, ende de selve
+   ... 45 more segments
+   U0: running_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=60
+--- 3772 _1.01.02_3772_0062-text_region-3629-3137-805-204
+   U0* main_text Ntfangen een Missive van den Resident
+   U0* main_text de Bie, geschreven te St. Pietersburgh
+   U0* main_text den eersten deser loopende maandt,
+   U1 catch_wor hou-
+   U0*: main_text hand:region n_seg=3
+   U1: catch_word hand:run n_seg=1
+--- 3353 _1.01.02_3353_0047-text_region-2923-189-2029-340
+   U0 date_head 2. Julij
+   U1* main_text nomineren, te visiteren, examineren, 12.
+   U1* main_text ende van alles alhier ter vergade.
+   U1* main_text rapport te doen.
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=3
+--- 3772 NA_1.01.02_3772_0507-text_region-282-327-909-414
+   U0 date_head Den 4. November.
+   U1* main_text andere haar Hoogh Mogende Gedeputeer-
+   U1* main_text den tot de saken van de Finantie, om met en
+   U1* main_text nevens eenige Heeren Gecommitteerden uyt
+   U1* main_text den Raadt van State, by haar E. selfs te
+   U1* main_text nomineren, te visiteren, examineren, ende
+   U1* main_text van alles alhier ter Vergaderinge rapport te
+   U1* main_text doen.
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=7
+--- 3822 A_1.01.02_3822_0306-text_region-357-1135-662-305
+   U0 date_head Veneris den 27 July
+   U1* main_text 1767.
+   U1* main_text PRAESIDE,
+   U1* main_text Den Heere van Wassenaer.
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=3
+--- 3771 NA_1.01.02_3771_0125-text_region-307-337-909-865
+   U0 date_head Den 10. Maert.
+   U1* main_text voorschreve gelieven te sien, hoe nodigh het
+   U1* main_text was, dat met meerder ernst ende applicatie ge-
+   U1* main_text dacht wierde op middelen om de geringe Mi-
+   U1* main_text litie, die den Staet op de been hadde, te hou-
+   U1* main_text den op een completer ende egaler voet als
+   U1* main_text tegenwoordigh geschiede. WAER
+   U1* main_text op gedelibereert zynde, is goetgevonden ende
+   U1* main_text verstaen, dat Copie van de voorsz Missive
+   U1* main_text gestelt sal werden in handen van de Heeren
+   U1* main_text van Broeckhuysen, ende andere haer Hoogh
+   U1* main_text Mog. Gedeputeerden tot de militaire saecken,
+   U1* main_text om met en nevens eenige Heeren Gecommit-
+   U1* main_text teerden uyt den Raedt van State, by haer
+   U1* main_text E. selfs te nomineren, te visiteren, exa-
+   U1* main_text mineren, ende van alles alhier ter Vergade-
+   ... 1 more segments
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=16
+--- 3771 _1.01.02_3771_0504-text_region-3603-836-914-2585
+   U0* main_text Ntfangen een Missive van den Ontfan-
+   U0* main_text ger 's Gravesande, geschreven te 's Her-
+   U0* main_text togenbosch den achtsten deser loopende
+   U0* main_text maendt, houdende, in gevolge ende tot vol-
+   U0* main_text doeninge van haer Hoogh Mogende Resolutie
+   U0* main_text van den achtsten October daer te vooren, des
+   U0* main_text selfs bericht ende advis op de Missive van den
+   U0* main_text Grave van Maldegem, waer by den selven te
+   U0* main_text kennen gaf, dat volgens twee respective Con-
+   U0* main_text ventien ofte Contracten door des selfs overle-
+   U0* main_text den Vader met haer Hoogh Mogende ge-
+   U0* main_text maeckt, op den sestienden September sestien
+   U0* main_text hondert seven en vyftigh een van de naeste
+   U0* main_text gequalificeertste Vrienden der Testatrice, Hes-
+   U0* main_text ter van Grinsven, geen Ambacht doende,
+   U0* main_text soude wesen Administrateur ende Regent van
+   ... 38 more segments
+   U0*: main_text hand:region n_seg=52
+--- 3771 A_1.01.02_3771_0086-text_region-3568-954-849-469
+   U0 date_head Martis den 18. Februarii
+   U1* main_text 1716.
+   U1* main_text PRAESIDE,
+   U1* main_text Den Heere van Iddekinge.
+   U1* main_text PRAESENTIBUS,
+   U1* main_text De Heeren van Welderen, van Broeckhuy
+   U1* main_text sen, Ham, met twee extraordinaris Ge-
+   U1* main_text deputeerden uyt de Provincie van Gelder-
+   U1* main_text landt.
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=8
+--- 3771 1.01.02_3771_0523-text_region-3512-2070-933-1243
+   U0* main_text IS ter Vergaderinge gelesen de Requeste
+   U0* main_text oan de Directeuren van den Levantschen
+   U0* main_text Handel ende Navigatie in de Middelandt
+   U0* main_text sche Zee, houdende, dat de vyfjarige diensten
+   U0* main_text als Predicant by Petrus Harene, by den Am-
+   U0* main_text bassadeur Coljer, residerende te Constantino-
+   U0* main_text polen, sedert een geruymen tydt al was vol-
+   U0* main_text trocken, ende den selve sijne dimissie iterati-
+   U0* main_text ve malen versocht hebbende, de voornoemde
+   U0* main_text Directeuren selfs, op het versoeck van haer
+   U0* main_text Hoogh Mogende voornoemden Ambassadeur,
+   U0* main_text op nieuws bedacht waren geweest, ende om-
+   U0* main_text gesien hadden naer een bequaem Persoon,
+   U0* main_text om den dienst in de Geresormeerde Gemeen
+   U0* main_text te aldaer als Predicant in plaets van den voor-
+   U0* main_text noemden Harene waer te nemen; dat sich
+   ... 9 more segments
+   U0*: main_text hand:region n_seg=24
+--- 3771 1.01.02_3771_0283-text_region-3531-1597-947-1845
+   U0* main_text Y resumptie gedelibereert zynde eerstelijck
+   U0* main_text op een Missive van den Heere van Rip-
+   U0* main_text perda, haer Hoogh Mogende extraordi-
+   U0* main_text naris Ambassadeur aen het Hof van sijne Maje-
+   U0* main_text steyt den Koningh van Spaigne, geschreven te
+   U0* main_text Madrid den dertighsten Maert laetstleden, heb-
+   U0* main_text bende tot Bylage Copie van een Reglement van
+   U0* main_text commercie, in September van den jare seven
+   U0* main_text tien hondert tusschen de Magistraet der Stadt
+   U0* main_text St. Andera ende verscheyde Engelsche Koop-
+   U0* main_text luyden aldaer gearresteert en vastgestelt.
+   U0* main_text Ende ten anderen nogh op een Missive van
+   U0* main_text gemelden Heere van Ripperda, geschreven te
+   U0* main_text Madrid den sesden April laetstleden, en gead-
+   U0* main_text dresseert aen den Griffier Fagel, houdende ad-
+   U0* main_text vertentie van de devoiren by hem aengewendt,
+   ... 22 more segments
+   U0*: main_text hand:region n_seg=37
+--- 3773 A_1.01.02_3773_0186-text_region-3364-363-905-939
+   U0* main_text Y resumptie gedelibereert zynde op de
+   U0* main_text Missive van den Brigadier Ripperda,
+   U1 other     B
+   U0* main_text Commandeur van het Kasteel van Na-
+   U0* main_text men, geschreven op het Kasteel van Na-
+   U0* main_text men den drie en twintighsten der voorlede
+   U0* main_text maandt, versoeckende andermaal, dat den
+   U0* main_text Commandeur, Major ende Ondermajor van
+   U0* main_text het Kasteel van Namen, de vryheydt van
+   U0* main_text Accynsen en Imposten, op Wyn, Brande-
+   U0* main_text wyn, Bier, &c. voor hare consumptie
+   U0* main_text moghten behouden, als mede voor het Gar-
+   U0* main_text nisoen, gelyck sulcks te vooren was ge-
+   U0* main_text weest, blyckende uyt de Bylagen nevens de
+   U0* main_text voorschreve Missive gevoeght.
+   U0* main_text IS
+   ... 5 more segments
+   U0*: main_text hand:region n_seg=20
+   U1: other hand:run n_seg=1
+--- 3823 _1.01.02_3823_0241-text_region-1333-281-899-2590
+   U0 running_h 1768
+   U1* main_text nen dat ook door het geadviseerde der Hee
+   U1* main_text ren Gedeputeerden van Holland en Welt
+   U1* main_text vriesland (die voor den Heer weegens Zee
+   U1* main_text land geproponeert hebben gestemd) gebit-
+   U1* main_text tykt is geworden.
+   U1* main_text De Heeren Gedeputeerden van de Pro
+   U1* main_text vincie van Zeeland konnen niet atzyn te
+   U1* main_text verklaaren, dat sy deele merkelyke misag-
+   U1* main_text tins conlidereeren aan de Heeren Staaten
+   U1* main_text hunne Principaaten directelyk te 292 aan.
+   U1* main_text gedaan, en daarom lis niet hebben mogen
+   U1* main_text inlaaten in eenige schikkins of lootins aan
+   U1* main_text hun iterativelyk voorgellaagen, als waar
+   U1* main_text door de praeeminentien van haare Provin
+   U1* main_text cie (die de eer heett de derde in rans in
+   ... 36 more segments
+   U0: running_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=51
+--- 3822 _1.01.02_3822_0166-text_region-2416-290-893-2969
+   U0 running_h 1767
+   U1* main_text halven op dien pretensen Burgerbriet van
+   U1* main_text Ruremonde geenen vrydom op de voor
+   U1* main_text noemde Stads 101 hadden willen nos in
+   U1* main_text conscientie konnen laaten genieten, ten 29
+   U1* main_text den selve hun alvoorens soude hebben ge
+   U1* main_text toond alsulken Burgerbriet, inhoudende de
+   U1* main_text gerequireerde alsentialia, welke sy hem by
+   U1* main_text Memorie al over jaar en das hadden ter
+   U1* main_text hand gesteid, en welk hy ook hadde aan-
+   U1* main_text genoomen te doen, en oversutts op den
+   U1* main_text tesden daar te vooren met sijne Scheepen
+   U1* main_text op de gemelde Stads Tol gekoomen zynde,
+   U1* main_text laaten consigneeren de gerexticheid van dien,
+   U1* main_text tot 198 en wyten den selve eenen Burger.
+   U1* main_text brief, soo als gerequireert wierd, soude ver
+   ... 44 more segments
+   U0: running_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=59
+--- 3771 _1.01.02_3771_0294-text_region-1257-338-905-1231
+   U0 running_h 1716.
+   U1* main_text seventigh guldens vyf stuyvers voor gedaen ver-
+   U1* main_text schot, te samen vyftien hondert acht en twin-
+   U1* main_text tigh guldens vyf stuyvers, ende dat daer toe
+   U1* main_text Ordonnantie geslagen moge werden, uyt een
+   U1* main_text ander fonds als dat van de generale collecte,
+   U1* main_text alsoo den Suppliant daer uyt geen penningen
+   U1* main_text meer konde bekomen, nadien daer van geen
+   U1* main_text penningen meer in casse waren. WAER
+   U1* main_text op gedelibereert zynde, is goetgevonden en-
+   U1* main_text de verstaen, dat aen den Suppliant eens voor
+   U1* main_text al tot extinctie van alle sijne pretensien sal wer-
+   U1* main_text den toegeleght, soo als hem toegeleght werdt
+   U1* main_text mits desen, duysent guldens eens, te beta-
+   U1* main_text len uyt de post van de secrete diensten, op
+   U1* main_text den Staet van oorlogh staende, daer van den
+   ... 9 more segments
+   U0: running_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=24
+--- 3822 A_1.01.02_3822_0061-text_region-608-1138-597-487
+   U0 marginali Mandament van revi
+   U0 marginali sie verleent
+   U1 date_head 11 Mey
+   U2* marginali Missive van Couver
+   U2* marginali neur en Raaden der
+   U2* marginali Colonie van Zuri
+   U2* marginali name, met de Stnk
+   U2* marginali ren det procelle 105
+   U2* marginali schen naar en Rovert
+   U2* marginali geenameert: Ter
+   U2* marginali Griffie geleponeert 9 Dec.
+   U0: marginalia hand:run n_seg=2
+   U1: date_header hand:run n_seg=1
+   U2*: marginalia hand:run n_seg=8
+--- 3771 _1.01.02_3771_0388-text_region-3627-2614-846-639
+   U0 date_head Luna den 10. Augusti
+   U1* main_text 1716.
+   U1* main_text PRAESIDE,
+   U1* main_text Den Heere van Renswoude.
+   U1* main_text PRAESENTIBUS,
+   U1* main_text De Heeren van Broeckhuysen, Ham.
+   U1* main_text Van Sterrenburgh, Fabricius, de Neyn, Raedt
+   U1* main_text pensionaris Heinsius.
+   U1* main_text Coninck.
+   U1* main_text Sminia.
+   U1* main_text Isselmuden, Rouse.
+   U1* main_text Tamminga.
+   U0: date_header hand:run n_seg=1
+   U1*: main_text hand:region n_seg=11
+=== 2a PRINT FALSE POSITIVES (20, test)
+--- FP 456_0504 indent=7.324 short=0.857 gap=-0.859 hdr=0
+   prev: den.
+   cur : ResddMas geschreven tot Franckfort den
+--- FP 456_0040 indent=0.226 short=0.182 gap=-0.714 hdr=0
+   prev: PRAESIDE,
+   cur : De Heer Gockinga.
+--- FP 456_0011 indent=11.228 short=0.524 gap=-0.756 hdr=0
+   prev: daer uyt resulterende.
+   cur : core la destinée
+--- FP 455_0029 indent=1.431 short=-0.035 gap=-0.525 hdr=0
+   prev: met een extraordinaris Gedeputeerde uyt de
+   cur : Provincie van Gelderlandt.
+--- FP 456_0083 indent=0.171 short=-0.02 gap=-0.317 hdr=1
+   prev: interesseerden aen de goederen, geladen in 't Schip
+   cur : de Geertruyd, Schipper Klaas Janssen Kroctjes,
+--- FP 456_0143 indent=-0.212 short=0.576 gap=-0.152 hdr=0
+   prev: Mulert, Lemker.
+   cur : Gockinga.
+--- FP 455_0595 indent=0.823 short=0.007 gap=-0.266 hdr=0
+   prev: E Sr. Beauvoir Joualier de Sa Majesté etant
+   cur : EEnvoyéexpressement d' Angleterre pourvoir &
+--- FP 456_0559 indent=1.477 short=0.786 gap=1.423 hdr=1
+   prev: te surneeen.
+   cur : PRAESIDE,
+--- FP 456_0515 indent=1.836 short=0.006 gap=-0.418 hdr=0
+   prev: waer in de gemeene bevangenen
+   cur : sullen werden verdeelt.
+--- FP 456_0144 indent=4.253 short=-0.001 gap=-0.304 hdr=0
+   prev: gelevert, volgende de voorschreve Memorie
+   cur : 16103
+--- FP 456_0287 indent=0.02 short=0.762 gap=-0.098 hdr=0
+   prev: Tour.
+   cur : Zallick
+--- FP 456_0086 indent=0.5 short=-0.178 gap=-0.435 hdr=0
+   prev: dinaris Gedeputeerde uyt de Provincie van Zee-
+   cur : landt.
+--- FP 456_0361 indent=-0.057 short=0.999 gap=-0.865 hdr=0
+   prev: ders uyt
+   cur : Hollandt, Zeelandt en West-Vrieslandt
+--- FP 456_0335 indent=2.162 short=-0.011 gap=-0.824 hdr=0
+   prev: DE Resolutien gisteren genomen zijn gelesen
+   cur : en gearresteert zijn de Depesches daer uyt
+--- FP 456_0275 indent=6.973 short=0.004 gap=-0.616 hdr=0
+   prev: Mogende der selver advis daer op te laten toeko.
+   cur : W verstaen, dat twee Commissien van
+--- FP 456_0013 indent=5.128 short=0.537 gap=-0.459 hdr=0
+   prev: die vmn maer een
+   cur : werden gemenageert en sproken is,
+--- FP 456_0616 indent=0.035 short=0.823 gap=0.012 hdr=0
+   prev: doers
+   cur : 446, 49
+--- FP 456_0012 indent=-1.153 short=0.688 gap=-0.194 hdr=0
+   prev: 111
+   cur : Dat de Guarde di
+--- FP 456_0368 indent=0.122 short=0.195 gap=-0.512 hdr=0
+   prev: PRAESENTIBUS,
+   cur : De Heeren van Gent, van Essen, Ham.
+--- FP 456_0494 indent=0.592 short=0.002 gap=0.645 hdr=0
+   prev: chocquer les interests de Vos Hautes
+   cur : se donne des peines continuelles icy pour
+=== 2b PRINT FALSE NEGATIVES (20, test)
+--- FN 456_0197 indent=0.0 short=0.0 gap=-0.446 hdr=0
+   prev: ut cuneta discordiis civilibus fessa
+   cur : sub imperiumeorum, aut istius, quemido tur.
+--- FN 456_0456 indent=0.193 short=-0.018 gap=-0.568 hdr=0
+   prev: Gedeputeerden tot de Militaire saecken, om te vi-
+   cur : siterenexamineren, en van alles alhier ter Vergade-
+--- FN 455_0643 indent=0.3 short=0.009 gap=-0.287 hdr=0
+   prev: van Landau: Waerop geen Resolutie is geval-
+   cur : Op de Memorie van den Heere Stanhope, ex-
+--- FN 456_0176 indent=0.28 short=-0.006 gap=-0.121 hdr=0
+   prev: pescheert, om van Brussel na Maestright te mogen
+   cur : Is ter Vergaderinge gelesen de Requeste van
+--- FN 456_0378 indent=-0.049 short=0.008 gap=-0.254 hdr=0
+   prev: Pasport in behoorlijcke sorma sal werden gedepe-
+   cur : scheert, om vyf duysendt Klingen met het eerste
+--- FN 456_0474 indent=0.4 short=-0.017 gap=-0.343 hdr=0
+   prev: haer Hoogh Mogende meermaels voorgedrogen,
+   cur : die haer Hoogh Mogende oock hadden beweeght
+--- FN 456_0405 indent=0.014 short=-0.012 gap=-0.428 hdr=0
+   prev: Princenbergh den Suppliant aengedaen, aen haer danckt, ende
+   cur : Hoogh Mogende soude gebleken wesen, den Sup-teert.
+--- FN 456_0025 indent=-0.118 short=0.015 gap=-0.447 hdr=0
+   prev: selven aengeschreven op het ernstigste aen het Dom-
+   cur : Capittel van Keulen, en daer het meer van vrucht sal sen.
+--- FN 456_0400 indent=0.247 short=0.019 gap=-0.151 hdr=0
+   prev: op het Pasport sal moeten werden aengeteye
+   cur : Ontfangen een Missive van den Raedt van State,
+--- FN 456_0571 indent=-0.011 short=0.012 gap=-0.522 hdr=0
+   prev: Requeste van den Suppliant, dat haer Hoogh Mo-
+   cur : voorgende geliefden aen hem Suppliant te accorderen,
+--- FN 456_0680 indent=0.027 short=-0.005 gap=-2.162 hdr=0
+   prev: tesen en geresumeert, gelijck oock gere
+   cur : DE Resolutien eergisteren genomen zijn ge-
+--- FN 456_0526 indent=-0.12 short=0.001 gap=-0.41 hdr=0
+   prev: nir, que de son costé elle y a exactement
+   cur : satisfait, tant a legard de la ratification
+--- FN 456_0679 indent=0.0 short=-0.008 gap=-0.292 hdr=0
+   prev: den ende verstaen, dat Copie van de voorschreve
+   cur : Requeste gesonden sal werden aen den Quartier-
+--- FN 456_0040 indent=0.013 short=-0.004 gap=-0.325 hdr=0
+   prev: verstaen, dat Copye van de voorschreve Memo.
+   cur : rie gesonden sal werden aen het Collegie ter Ad-
+--- FN 456_0070 indent=0.015 short=0.004 gap=-0.324 hdr=0
+   prev: justitie te administreren. Waer op gedelibereert
+   cur : zijnde is goetgevonden en verstaen, dat Copye van
+--- FN 456_0093 indent=0.072 short=0.006 gap=-0.116 hdr=0
+   prev: wyse, sige ende redelijcken voet gereguleert moge wer-
+   cur : By resumptie gedelibereerdt zijnde op het rap-
+--- FN 456_0540 indent=0.038 short=-0.003 gap=-0.382 hdr=0
+   prev: dot ende kracksinnigh was geweest, dat moeste
+   cur : werden gellooren, sonder eenige apparentie van ren.
+--- FN 456_0574 indent=0.0 short=0.001 gap=-0.37 hdr=0
+   prev: voorschreve Requeste geexprimeert, dat haer
+   cur : Hoogh Mogende geliefden op het advis van 's Lants
+--- FN 456_0693 indent=-0.041 short=0.0 gap=-0.178 hdr=0
+   prev: Hoogh Mogende te verwellekomen en te felicite-
+   cur : Is naer voorgaende deliberatie goedtgevonden
+--- FN 456_0334 indent=0.0 short=0.012 gap=-0.625 hdr=0
+   prev: dat voor den voorschreven Sergeant en twaelf Man
+   cur : een Patent sal werden gedepescheert om na Vlaen-
+=== 3 CHANGED REGIONS (20)
+--- 455 A_1.10.94_455_0177-text_region-3327-366-896-2939
+   U0 main_text Den 27. Maers.
+   U0 main_text Vwelijcksraedt wisten tot hare levensmiddelen, en
+   U0 main_text Jnoch het aldermeest, om Voeder voor hare Paer-
+   U0 main_text den en Beesten tebekomen, het welcke sy Sop-
+   U0 main_text Jplianten genoodtsaeckt waren te moeten halen tot
+   U0 main_text Waalwijck, Cappel, &e. endatmet eenigekosten
+   U0 main_text Jvan certificatien ende Pasport; versoeckende, om
+   U0 main_text Vredenen inde voorschreve Requeste geëxprimeert.
+   U0 main_text Jdat haer Hoogh Mogende geliefden de Supplianten
+   U0 main_text Vin het halen van de gerequireerde Certificatien te
+   U0 main_text Jeximeren van het Kleyn Zegel, en verders aende
+   U0 main_text YSecretarissen van de Dorpen, midtsgadersde Ont-
+   U0 main_text Vfangers en Commisen van de Convoyen en Lieen.
+   U0 main_text Vvoor kleyne munitées van Hooy, Haver en Stroo
+   U0 main_text voorschreve Reqneste gesonden sal werden aen het
+   U0 main_text VCollegie ter Admiraliteyt op de Maze, om aen
+   ... 30 more segments
+   U0: main_text print:region_start n_seg=23
+   map: part->-text_region-2410-328-958-2899 (1 seg); part->7-text_region-2410-373-901-225 (1 seg); part->-text_region-3299-331-927-1115 (18 seg); part->-text_region-3299-331-929-2963 (17 seg)
+--- 455 NA_1.10.94_455_0509-text_region-450-534-890-2779
+   U0 main_text tweeextraordinaris Gedeputeerden uyt de Pro.
+   U1 main_text Vande Lier, Heemskerck, Kerckheim, Bors
+   U2 main_text van Waveren, Raedt-Pensionaris Heyn.
+   U3 main_text Odijck Becker, van Hecke.
+   U4 main_text Bergesteyn, Domburgh.
+   U5 main_text Sloet, Lemker, Bentheim, met eenextraord.
+   U6 main_text naris Gedeputeerde uyt de Provincie van Over-
+   U7 main_text Tssel.
+   U8 main_text Gockinga, Steenhuysen.
+   U9 main_text DE Resolutien gisteren genomen, zijn ge-
+   U10 main_text lesen en geresumeert, gelijck oock gere.
+   U11 main_text sumeert en gearresteert zijn de Depesches
+   U12 main_text de Nalatenschap van sijne Majesteyt van Groot
+   U12 main_text Brittannien, glorieuser gedachtenisse, om aen
+   U12 main_text haer Hoogh Mogende der selver advis daer op te
+   U13 other     7
+   ... 3 more segments
+   U0: main_text print:indent n_seg=1
+   U1: main_text print:indent+short_prev n_seg=1
+   U2: main_text print:indent n_seg=1
+   U3: main_text print:indent+short_prev n_seg=1
+   U4: main_text print:indent+short_prev n_seg=1
+   U5: main_text print:indent+short_prev n_seg=1
+   U6: main_text print:indent n_seg=1
+   U7: main_text print:indent n_seg=1
+   U8: main_text print:indent+short_prev n_seg=1
+   U9: main_text print:short_prev n_seg=1
+   U10: main_text print:indent n_seg=1
+   U11: main_text print:indent n_seg=2
+   U12: main_text print:indent n_seg=18
+   U13: other print:run n_seg=1
+   map: part->9-text_region-1126-3219-148-38 (1 seg); part->9-text_region-427-342-952-2998 (4 seg); part->9-text_region-434-1365-907-149 (1 seg); part->9-text_region-434-1835-925-558 (1 seg)
+--- 455 NA_1.10.94_455_0653-text_region-484-358-886-1236
+   U0 main_text terhanden gestelt, versoeckende derhalven temo.
+   U0 main_text door dien den uytvoer van Paerden dagelijks stont in
+   U1 main_text te brengen.
+   U0 main_text te continueren. Waerop gedelibereert zynde, is
+   U0 main_text goetgevonden en verstaen, dat Copye van de voor-
+   U2 main_text Ontfangen een Missive van de Heeren Staten
+   U0 main_text voer van Paerden, of cenige andere ordres waren
+   U1 main_text Heeren Gedeputeerden van de andere Provincien,
+   U0 main_text gen weten hoe hy sigh dien-aengaende tot meesten
+   U1 main_text palen dien aengaende mede op het spoedighste uyt
+   U0 main_text dienst van den Lande soude hebben te gedragen,
+   U1 main_text te wercken enalhier ter Vergaderinge teopenenen
+   U2 main_text van de Provincie van Vrieslandt, geschreven tot
+   U0 main_text schreve Missive gesteldt sal werden in handen
+   U3 main_text twintigstendeser, houdende in gevolgeen totvol.
+   U0 main_text Placaten wegens het weder openstellen van deruyt-, den
+   ... 3 more segments
+   U0: main_text print:region_start n_seg=14
+   U1: main_text print:region_start n_seg=6
+   U2: main_text print:indent+short_prev n_seg=44
+   U3: main_text print:short_prev n_seg=21
+   map: part->3-text_region-1366-357-902-315 (5 seg); part->-text_region-1374-650-894-1029 (2 seg); part->3-text_region-458-357-939-2824 (2 seg); part->53-text_region-472-357-925-699 (10 seg)
+--- 455 _1.10.94_455_0606-text_region-2447-322-1826-2959
+   U0 page_numb ( 1195 )
+   U1 date_head Den 6. November.
+   U2 main_text selve daer nevens aengeschreven soodanige ordres
+   U3 main_text (bevindinge van saken alsnoch consorm net versoeck
+   U2 main_text testellenen die voorsieninge te doen, dat devoor-
+   U3 main_text by voorgaende Requeste gedaen te disponeren, en
+   U2 main_text schreve gedistilleerde Wateren onverhindert ende
+   U3 main_text het voorschreve Schip en Ladinge kost enschade
+   U2 main_text sonder eenige molestatie op het Zas van Gentmo.
+   U3 main_text Jloos te ontslaen, en tegen den Opbrengersoo het
+   U2 main_text gen passeren, ten ware het gemelde Collegie ter
+   U3 main_text Jbehoort te doen procederen. Waer op gedelibe.
+   U2 main_text Admiraliteyt eenige redenen hadde ter contrarie,
+   U3 main_text reert zijnde, is goetgevonden ende verstaen, dat
+   U2 main_text en in allen geval nemende daer omtrent de noodige
+   U3 main_text Copye van de voorschreve Requeste en Contra-
+   ... 106 more segments
+   U0: page_number print:run n_seg=1
+   U1: date_header print:run n_seg=1
+   U2: main_text print:region_start n_seg=8
+   U3: main_text print:region_start n_seg=15
+   map: part->-text_region-2426-2290-905-964 (19 seg); part->-text_region-2426-322-942-2932 (33 seg); part->6-text_region-2461-322-907-405 (8 seg); part->text_region-3278-280-1015-2987 (31 seg)
+--- 456 _1.10.94_456_0068-text_region-2488-289-1883-2262
+   U0 main_text Waer op gedelibereerdt zijnde, is goedtgevon-
+   U1 main_text uytvoeren, vry en sonder betalinge van 's Landts
+   U2 page_numb ( 121 )
+   U0 main_text den ende verstaen, dat Copye van het voorschreve
+   U1 main_text gerechtigheyt, mits dat het jaer, hayr en teec-
+   U3 date_head Den 7. Februarii.
+   U0 main_text consent gesonden sal werden aen den Raedt van
+   U4 main_text Sta-ken van de voorschreve Paerden op het eerste
+   U0 main_text te, om te strecken tot der selver naerightinge;
+   U4 main_text Comptoir op het Pasport sal moeten werden aenge-
+   U0 main_text ende werden de Heeren Gedeputeerden van de tekent.
+   U0 main_text andere Provincien, welckers consenten noch
+   U4 main_text Op de Requeste van Johan Contier, Major van
+   U0 main_text niet ingebraght zijn, midts desen versoght die
+   U4 main_text (het Regiment van den Generael Major Scheerin en
+   U0 main_text van de Heeren Staten hare Principalen mede
+   ... 71 more segments
+   U0: main_text print:region_start n_seg=11
+   U1: main_text print:region_start n_seg=2
+   U2: page_number print:run n_seg=1
+   U3: date_header print:run n_seg=1
+   U4: main_text print:header n_seg=18
+   map: part->-text_region-2488-1777-941-475 (9 seg); part->text_region-2488-289-1112-2214 (11 seg); part->-text_region-2495-1674-921-113 (1 seg); part->-text_region-2496-853-1072-532 (10 seg)
+--- 455 A_1.10.94_455_0139-text_region-2619-806-688-2383
+   U0 main_text Provincie van Zeeland hebbenverklaert hieropon-
+   U0: main_text print:short_prev n_seg=39
+   map: part->-text_region-2418-274-908-2877 (1 seg)
+--- 456 A_1.10.94_456_0485-text_region-3778-3216-139-105
+   U0 main_text 10 P
+   U0: main_text print:indent+short_prev n_seg=1
+   map: part->-text_region-3778-3216-140-105 (1 seg)
+--- 455 A_1.10.94_455_0270-text_region-3263-302-914-2945
+   U0 date_head Den 10. Mey.
+   U1 main_text Vgent daer in ten spoedighsten derwaerts te senden;
+   U1 main_text Jlen werden gesonden om de Noordtomtrent Hit.
+   U1 main_text landt, om de gemeene interessen aldaer waerte ne
+   U1 main_text men; endedatde overige Schepenvan deextraor-
+   U1 main_text dinaris Equipagesullen werden geëmployeertvoor
+   U1 main_text Duynkorcken, en tot beveylinge van de Kusten
+   U1 main_text en Zeegaten deser Landen. DeHeerenGedepu.
+   U1 main_text teerden van de Provincie van Zeelandt hebben in de
+   U1 main_text bovenstaende conclusie niet geconsenteert, maer
+   U1 main_text de sake overgenomen, om inden haren te commu-
+   U1 main_text nieeren.
+   U2 date_head Veneris den 11. Mey 1703.
+   U3 main_text PRAESIDE,
+   U4 main_text DeHeer van Zallick.
+   U5 main_text PRAESENTIBUS,
+   ... 37 more segments
+   U0: date_header print:run n_seg=1
+   U1: main_text print:region_start n_seg=16
+   U2: date_header print:run n_seg=1
+   U3: main_text print:indent+short_prev+header n_seg=1
+   U4: main_text print:short_prev n_seg=1
+   U5: main_text print:indent+short_prev n_seg=1
+   map: part->0-text_region-2370-343-906-531 (1 seg); part->-text_region-3244-282-938-2987 (12 seg); part->-text_region-3258-2420-920-215 (4 seg); part->-text_region-3259-2809-923-261 (5 seg)
+--- 456 _1.10.94_456_0111-text_region-2438-2990-1835-292
+   U0 main_text De voorschreve Over-kerckenraedt sal
+   U1 main_text op alle kercke en de verdere annexe Gebouwen, sullen aen
+   U0 main_text Geestelijcke Goederen nauwkeurigh acht geven,
+   U1 main_text de gereformeerde wederom werden ingeruymt tot
+   U0 main_text ten eynde daer van niets veralieneert, noch tot den
+   U1 main_text gereformeerden Godsdienst en andere gebruyc-
+   U0 main_text eenigh ander gebruyck besteedt werde, als
+   U1 main_text te nut-sken, ende in specie het tweede Passorye-Huys al-
+   U2 page_numb 36
+   U3 main_text 180e1
+   U0: main_text print:region n_seg=4
+   U1: main_text print:region_start n_seg=4
+   U2: page_number print:run n_seg=1
+   U3: main_text print:indent n_seg=1
+   map: part->-text_region-2438-2990-918-253 (4 seg); part->-text_region-3368-3006-905-276 (4 seg); part->1-text_region-3782-3219-130-63 (1 seg); part->1-text_region-4136-3206-125-55 (1 seg)
+--- 455 A_1.10.94_455_0335-text_region-1370-322-846-2888
+   U0 main_text een Schip van vierensestigh ende Capiteyn vander
+   U0 main_text Potmeteen Schip voerende twee en vijftigh stue-
+   U0 main_text ken Kanon; dat hy Lieutenant Admiraelindatge-
+   U0 main_text Copye van de voorschreve Missive gesteldt sal
+   U0 main_text werden in handen van de Heeren van Gent, ende
+   U0 main_text Vsaecken vande Zee, om te visiteren, examineren
+   U0 main_text ende van alles alhier ter Vergaderinge rapport e
+   U0 main_text doen.
+   U1 main_text Is ter Vergaderinge gelesen de Requeste van
+   U1 main_text Johan Fredrick Bachmanen Balthazar vander Meu
+   U1 main_text len, als Vooghden over de Kinderen van wijlen
+   U1 main_text Willem Bedlo, mitsgaders nochdenselven vander
+   U0 main_text geraken, wesende den Capiteyn van Convent met
+   U0 main_text reert zijnde, is goetgevonden ende verstaen, da
+   U2 main_text vette Beesten en Schapen na het Leger te mogen
+   U0 main_text andere haer Hoogh Mogende Gedeputeerdentorde
+   ... 2 more segments
+   U0: main_text print:region_start n_seg=52
+   U1: main_text print:indent+short_prev n_seg=5
+   U2: main_text print:short_prev n_seg=10
+   map: part->-text_region-1319-377-905-2810 (11 seg); part->-text_region-1349-2897-875-290 (5 seg); part->-text_region-431-1488-939-1702 (1 seg); part->5-text_region-453-2964-909-226 (1 seg)
+--- 455 NA_1.10.94_455_0686-text_region-684-2656-630-606
+   U0 main_text sal mogen distribueren ende in Reeckeninge bren-
+   U0: main_text print:indent+short_prev n_seg=21
+   map: part->-text_region-410-2189-920-1050 (1 seg)
+--- 455 A_1.10.94_455_0428-text_region-1328-342-882-2920
+   U0 main_text van de Heeren Staten sijne Principalen gelast te zijn
+   U0 main_text hoogh-gemelde Heeren Staten, om daerop nader
+   U0 main_text ordresen last te ontfangen, en over sulcks ten dien
+   U0 main_text eyndede voorschreve sakeoverte nemenendecon
+   U1 main_text verzeylen by de Schepen vande groote Visscherye
+   U1 main_text endedeselvete helpenprotegerenendeconvoyeren
+   U1 main_text ende sal Extract van dese haer Hoogh Mogende
+   U1 main_text Resolutie gesonden werden aen het Collegie ter
+   U1 main_text deputeerde vande Provincie van Zeelant heeft ver-
+   U1 main_text klaert de voorschreve sake over te nemen, eninde
+   U2 main_text Ontfangen een Missive van het Collegieter Ad-
+   U2 main_text miraliteytop de Maze, geschreventot Rotterdam
+   U2 main_text den eersten deser, houdenne responsive op haer
+   U2 main_text Hoogh Mogende nadere Missive ende Resolutie
+   U2 main_text van den seven en twintighsten der voorlede Maent.
+   U2 main_text genomen op het subject van de tweede Requeste
+   ... 27 more segments
+   U0: main_text print:region_start n_seg=9
+   U1: main_text print:short_prev n_seg=16
+   U2: main_text print:short_prev n_seg=21
+   map: part->8-text_region-1292-327-899-477 (4 seg); part->-text_region-1292-327-937-2941 (20 seg); part->8-text_region-1317-760-884-820 (12 seg); part->-text_region-1357-2520-872-748 (6 seg)
+--- 456 aNA_1.10.94_456_0330-text_region-3956-304-296-91
+   U0 main_text Den 7. Jutbiio
+   U0: main_text print:region n_seg=9
+   map: part->0-text_region-3308-304-947-534 (1 seg)
+--- 455 aNA_1.10.94_455_0702-text_region-514-328-740-122
+   U0 date_head Den 22. December.
+   U1 main_text haer Hoogh Mogende gepresenteert, by of van
+   U2 main_text Jtannien; versoeckende, om redenen in de voorsz
+   U0: date_header print:run n_seg=1
+   U1: main_text print:region n_seg=1
+   U2: main_text print:region n_seg=1
+   map: part->02-text_region-1420-351-883-73 (1 seg); part->702-text_region-493-310-357-74 (1 seg); part->02-text_region-493-310-907-122 (1 seg)
+--- 455 NA_1.10.94_455_0586-text_region-434-348-902-2773
+   U0 main_text te doen.
+   U1 main_text Is ter Vergaderinge gelesen de Memorie van
+   U1 main_text den Heere Baron de Mean, afgesonden van den
+   U1 main_text Keyserlijcken Raedtgestelt tot de regeringe vanhet
+   U1 main_text Prinsdom van Luyck, versoeckende eenighafslagh
+   U1 main_text in de somme dewelcke het Landt van Luyckaen-
+   U1 main_text genomen hadde tesurneren, omde grooteschade
+   U1 main_text by het selve geleden, volgende de voorschreve Me.
+   U1 main_text morie hier nageinsereert.
+   U2 main_text Hauts & Puissants Seigneurs.
+   U3 main_text E sousigné Envoyé du Conseil Imperial establi
+   U3 main_text L dans la Principauté de Liege par sa Maj. Impe.
+   U4 main_text riale pour la regence d'icelle, apré avoir assure
+   U4 main_text Vos Hautes Puissan es de treshumble respects de ses
+   U4 main_text principaux & des siens en particulier, a l‛honneur
+   U4 main_text de leur remonstrer treshumblement que la licence du
+   ... 37 more segments
+   U0: main_text print:region_start n_seg=2
+   U1: main_text print:indent+short_prev n_seg=8
+   U2: main_text print:indent+short_prev n_seg=1
+   U3: main_text print:indent+short_prev n_seg=2
+   U4: main_text print:indent n_seg=40
+   map: part->6-text_region-417-279-934-2903 (40 seg); part->86-text_region-420-364-901-123 (1 seg); part->86-text_region-421-461-930-439 (8 seg); part->86-text_region-422-279-327-113 (1 seg)
+--- 455 A_1.10.94_455_0124-text_region-3642-2808-504-100
+   U0 main_text ende van alles alhier ter Vergaderinge rapport te
+   U0: main_text print:indent n_seg=38
+   map: part->-text_region-3333-363-939-2913 (1 seg)
+--- 455 _1.10.94_455_0620-text_region-3347-2096-886-1210
+   U0 main_text Staet in Lissabon te toucheren, en de West-Indi-
+   U0 main_text sche Compagniedeswegens te dedommageren, en
+   U0 main_text alhier daer voorte voldoen, geconvenieert, datde
+   U1 main_text naden aen haer Hoogh Mogende te betslen, of te-
+   U0 main_text voorsz West-Indische Compagnie aen den Staet sal
+   U0: main_text print:region n_seg=4
+   U1: main_text print:region n_seg=1
+   map: part->-text_region-2424-3154-899-154 (1 seg); part->-text_region-3329-3052-913-248 (4 seg)
+--- 455 _1.10.94_455_0197-text_region-2392-360-1788-2940
+   U0 page_numb 377)
+   U1 main_text van daer was gereverteert in de Provincie van Hol-
+   U2 main_text d' Angleterre a ordre de supplier Vos Hautes Puissan-
+   U1 main_text landt, namentlijck tot Rotterdam, van waer hy
+   U2 main_text ces, qu'illeur plaise d'accorder au Sr. John Hud.
+   U1 main_text sich geerne soude begeven na Brugge voornoemt;
+   U2 main_text son Directeurs desdts Hospitaux un ordre addresse
+   U1 main_text versoeckende derhalven, dat haer Hoogh Mogen.
+   U2 main_text aux Magistrats ou Gouverneurs des Places Frontie-
+   U1 main_text degeliefden aen den Suppliant ten fine voorschre-
+   U2 main_text resa ce qu'ils ayent a luy procurer les Logemens ne-
+   U1 main_text ven te verleeren der selver Pasport. Waeropge.
+   U2 main_text cessaires pour l‛'establissement desdits Hospitaux toutes
+   U1 main_text delibereertzijnde, is goetgevonden ende verstaen,
+   U2 main_text fois & quantes qu'il s'addressera a eux & que la nee
+   U1 main_text dat in het voorschreve versoeck niet kan werden
+   ... 94 more segments
+   U0: page_number print:run n_seg=1
+   U1: main_text print:region_start n_seg=10
+   U2: main_text print:region_start n_seg=10
+   map: part->-text_region-2375-2521-879-450 (9 seg); part->-text_region-2375-361-902-2923 (18 seg); part->7-text_region-2376-844-888-843 (17 seg); part->7-text_region-2377-361-900-517 (10 seg)
+--- 455 _1.10.94_455_0599-text_region-2440-274-1818-2979
+   U0 page_numb ( 1181 )
+   U1 date_head Den 3. November.
+   U2 main_text hope moghte hebben insgelijcks van des
+   U3 main_text Vyandts soeck niet kan werden getreden, en werdt dienvol-
+   U2 main_text zydete werden geremitteert volgensderselvertoe-
+   U3 main_text gende het selveafgewesen
+   U2 main_text segginge aen de Supplianten gedaen van de Con
+   U2 main_text tributien des selven Jaers. Waer op gedelibe.
+   U2 main_text reertzijnde, is goedtgevonden ende verslaen, dat
+   U4 date_head Sabbathi den 3. November 1703.
+   U2 main_text Copye van de voorsz Requeste gesonden sal wer-
+   U5 main_text PRAESIDE,
+   U2 main_text den aen den Raedt van State, om aen haer Hoogh
+   U6 main_text DeHeervan Odick.
+   U2 main_text Mogende der selver advis daer op te laten toeko-
+   U7 main_text PRAESENTIBUS,
+   ... 104 more segments
+   U0: page_number print:run n_seg=1
+   U1: date_header print:run n_seg=1
+   U2: main_text print:region_start n_seg=9
+   U3: main_text print:region_start n_seg=2
+   U4: date_header print:run n_seg=1
+   U5: main_text print:indent+short_prev+header n_seg=1
+   U6: main_text print:indent+short_prev n_seg=1
+   U7: main_text print:indent+short_prev n_seg=1
+   map: part->-text_region-2436-2473-902-789 (15 seg); part->text_region-2436-252-1011-3010 (20 seg); part->9-text_region-2437-300-904-460 (9 seg); part->9-text_region-2438-732-902-816 (16 seg)
+--- 455 A_1.10.94_455_0203-text_region-610-1154-710-2055
+   U0 main_text getreden, ende werdt dienvolgende het selve afge-
+   U1 main_text dat haer Hoogh Mog. eenmael geliefden ressexie te
+   U1 main_text nemenop sijne gedanediensten en instantien, ende
+   U0: main_text print:indent+short_prev n_seg=12
+   U1: main_text print:indent+short_prev n_seg=19
+   map: part->3-text_region-385-316-942-2924 (2 seg); part->3-text_region-397-1164-917-621 (1 seg)
+=== 4 CROSSWALK UNMATCHED
+--- A_1.10.94_455_0018-line-3457-3109-876-97 box=[3457, 3109, 876, 97]; nearest ours: (3426,3082,906,78) blank=False 'verstaen, dat de respective Collegien t~' split=False
+--- _1.10.94_455_0018-line-3455-3150-877-111 box=[3455, 3150, 877, 111]; nearest ours: (3426,3082,906,78) blank=False 'verstaen, dat de respective Collegien t~' split=False
+--- NA_1.10.94_455_0026-line-3362-322-887-96 box=[3362, 322, 887, 96]; nearest ours: (3360,396,884,83) blank=False 'len werden op den' split=True
+--- NA_1.10.94_455_0039-line-1354-766-280-68 box=[1354, 766, 280, 68]; nearest ours: (1356,773,938,105) blank=False 'Is ter-Vergaderinge gelesen de Requeste~' split=True
+--- NA_1.10.94_455_0065-line-721-301-650-113 box=[721, 301, 650, 113]; nearest ours: (721,293,1524,121) blank=False 'Extract uyt het Resolutie- moghten werd~' split=False
+--- NA_1.10.94_455_0065-line-1391-293-854-81 box=[1391, 293, 854, 81]; nearest ours: (1329,347,914,83) blank=False 'Jvan de respective Bondtgenoten, ende v~' split=False
+--- NA_1.10.94_455_0474-line-438-401-857-103 box=[438, 401, 857, 103]; nearest ours: (438,401,1759,103) blank=False 'Is ter Vergaderinge gelesen de Requeste~' split=False
+--- A_1.10.94_456_0060-line-3013-2574-364-76 box=[3013, 2574, 364, 76]; nearest ours: (3013,2574,1313,82) blank=False 'benevens de Acte van waerschouwinge, ra~' split=False
+--- A_1.10.94_456_0108-line-1057-1783-308-59 box=[1057, 1783, 308, 59]; nearest ours: (1057,1768,1264,74) blank=False 'aen de Commandanten Hetzler en Steinkal~' split=False
+--- _1.10.94_456_0141-line-2498-2425-1838-82 box=[2498, 2425, 1838, 82]; nearest ours: (2514,2455,905,83) blank=False 'O deser Provincie ter Generaliteyt aen' split=True
+--- A_1.10.94_456_0154-line-3328-2410-266-84 box=[3328, 2410, 266, 84]; nearest ours: (3349,2386,245,81) blank=False 'port te doen-' split=True
+--- aNA_1.10.94_456_0161-line-815-720-529-85 box=[815, 720, 529, 85]; nearest ours: (815,696,1463,109) blank=False 'arena1 gebrgd ot hobsadtl Corps. 3. ni ~' split=False
+--- NA_1.10.94_456_0161-line-860-770-484-101 box=[860, 770, 484, 101]; nearest ours: (860,749,1420,122) blank=False '00 d abdrs Arares seloignees & tellemen~' split=False
+--- A_1.10.94_456_0204-line-491-1309-1835-66 box=[491, 1309, 1835, 66]; nearest ours: (507,1340,908,67) blank=False 'suppletie van het Gedese over de' split=True
+--- A_1.10.94_456_0218-line-2454-2891-877-82 box=[2454, 2891, 877, 82]; nearest ours: (2454,2891,1585,89) blank=False 'En ten vierden, dat de Princen, waer va~' split=False
+--- _1.10.94_456_0218-line-3336-2932-909-100 box=[3336, 2932, 909, 100]; nearest ours: (3351,2981,890,97) blank=False 'seer spaersaem te wesen in het geven va~' split=True
+--- A_1.10.94_456_0250-line-1059-2492-233-24 box=[1059, 2492, 233, 24]; nearest ours: (1059,2463,255,61) blank=False 'ende sonder eenige molestatie op der' split=True
+--- A_1.10.94_456_0288-line-2589-997-850-121 box=[2589, 997, 850, 121]; nearest ours: (2589,997,1782,129) blank=False 'Aeerrima Czarea Sua Majestati Dom. schr~' split=False
+--- _1.10.94_456_0288-line-3459-1001-912-125 box=[3459, 1001, 912, 125]; nearest ours: (3432,989,943,93) blank=False 'liefden te doen examineren, ende de voor' split=False
+--- _1.10.94_456_0321-line-3392-2447-909-140 box=[3392, 2447, 909, 140]; nearest ours: (3376,2430,932,80) blank=False 'van den Suppliant protongatie van Octro~' split=False
+--- aNA_1.10.94_456_0329-line-908-930-384-60 box=[908, 930, 384, 60]; nearest ours: (908,918,1319,87) blank=False 'zijnde, is goedgevonden ende verstaen, ~' split=False
+--- _1.10.94_456_0360-line-3363-3090-894-147 box=[3363, 3090, 894, 147]; nearest ours: (3334,3072,927,84) blank=False 'van de Provincie van Hollandt, het welc~' split=False
+--- A_1.10.94_456_0532-line-1154-3050-249-80 box=[1154, 3050, 249, 80]; nearest ours: (1154,3050,1130,80) blank=False 'addenden den Koningh van Spaigne, Karel~' split=False
+--- A_1.10.94_456_0532-line-1423-3050-861-76 box=[1423, 3050, 861, 76]; nearest ours: (1358,3102,930,92) blank=False 'tot Rotterdam, breeder onder de Notulen~' split=False
+--- A_1.10.94_456_0559-line-452-2614-1785-89 box=[452, 2614, 1785, 89]; nearest ours: (468,2665,908,68) blank=False 'haer Hoogh Mogendemmeent de Missveer va~' split=True
+--- aNA_1.10.94_456_0570-line-958-491-380-57 box=[958, 491, 380, 57]; nearest ours: (958,481,1296,67) blank=False 'behoorlijcker tijdt hadden ontfangen en~' split=False
+--- NA_1.10.94_456_0572-line-1001-901-365-45 box=[1001, 901, 365, 45]; nearest ours: (1001,867,1277,79) blank=False 'Wwerp, na het welcke de voorschreve one~' split=False
+--- A_1.10.94_456_0657-line-1048-1707-294-57 box=[1048, 1707, 294, 57]; nearest ours: (1048,1700,1212,68) blank=False 'M gebvel vande gefurneerde Leger-wagens~' split=False
+--- NA_1.10.94_456_0683-line-1067-822-320-57 box=[1067, 822, 320, 57]; nearest ours: (1067,822,1231,73) blank=False 'betalinge te ontgaen, geensints over ee~' split=False
+--- A_1.10.94_456_0157-line-1046-1868-276-61 box=[1046, 1868, 276, 61]; nearest ours: (1046,1852,1211,85) blank=False 'oo Ontfangen een Missive van de Hooghsc~' split=False

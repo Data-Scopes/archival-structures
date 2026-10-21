@@ -22,6 +22,16 @@ class LayerPreset:
     split_region_tags: tuple = ()          # region tags whose lines take part in the split
     word_split: str = "off"                # "on": step 15f glued-word repair (stage wordfix)
     word_split_params: Optional[Mapping] = None   # WordSplitParams fields
+    layout_params: Optional[Mapping] = None       # LayoutParams fields (stage layout, step 15fq)
+    types_params: Optional[Mapping] = None        # TypeParams fields (stage types, step 15g)
+    unit_params: Optional[Mapping] = None         # UnitParams fields (stage units, step 15h)
+    # step 15hj: word-break decision (stage wbc); the defaults equal the v1 constants
+    word_break_rule: Optional[Mapping] = None     # None = word_breaks.DEFAULT_WORD_BREAK_RULE
+    word_break_stat: str = "default"              # "robust": end_rel_frac from the "„"-robust frequency
+    wbc_sanity_in: tuple = ("¬",)                 # chars that must be word breaks on pooled counts
+    wbc_sanity_out: tuple = (":", ".")            # chars that must not be
+    # step 15hj2: pinned sets {"default": chars, "<inv>": chars}; None = derive with the rule
+    wbc_pinned: Optional[Mapping[str, str]] = None
 
 
 # seconds = intercept + slope * uncompressed PageXML bytes, per inventory and
@@ -50,6 +60,37 @@ def _sg_source_pattern(archive):
             r"(?:-pagexml)?(?:\.zip|\.tar\.gz|\.tgz)?")
 
 
+_MONTHS = (r"(jan|feb|febr|maa|maart|mart|apr|april|mei|mey|meij|jun|junij|jul|julij|aug|augti|"
+           r"sep|sept|oct|okt|nov|dec)")
+SG_FURNITURE_PATTERNS = (
+    r"\W*(fol\.?|pag\.?|p\.)?\s*\d{1,4}\s*\W*",                          # page number "( 93", "383."
+    r"\W*(den\s+)?\d{1,2}\s*\.?\s*" + _MONTHS + r"\w*\.?\W*(\d{4}\W*)?",   # "Den 26. Maart.", "1. Meij"
+    r"\W*1[67]\d\d\W*",                                                    # running year "1717."
+)
+SG_LAYOUT_PARAMS = {"furniture_patterns": SG_FURNITURE_PATTERNS}
+# Step 15fq: hand merge precision 12/23 (0.52) < 0.90 in the error analysis, so the hand layer
+# runs without region merges (the brief's fallback); print keeps them (28/30).
+SG_HAND_LAYOUT_PARAMS = {**SG_LAYOUT_PARAMS, "merge": False}
+
+# Step 15g: type patterns (see docs/text_layer.md, Type tables).
+_TYPE_MONTHS = (r"(jan|feb|febr|maa|maart|maert|mart|apr|april|mei|mey|meij|jun|junij|jul|julij|aug|augti|"
+                r"augt|sep|sept|oct|okt|nov|dec)")
+_TYPE_WEEKDAY = (r"((lun|maen|maan|mart|dins|merc|woens|jov|donder|vene|vry|vrid|sabb|sat|zat|domin|"
+                 r"solis|sond|zond)\w*\.?,?\s+)?")
+SG_TYPE_PATTERNS = {
+    "pn_line": r"\W*(fol\.?|pag\.?|p\.)?\s*\(?\s*\d{1,4}\s*[.)]?\W*",
+    "pn_suffix": r"\s\(?\s*(\d{1,4})\s*[.)]?\s*$",
+    "date_line": (r"\W*" + _TYPE_WEEKDAY + r"(den\s+)?\d{1,2}\s*[.:]?\s*" + _TYPE_MONTHS
+                  + r"\w*\s*[.:,]?\W*(1[67]\d\d\W*)?"),
+    "date_prefix": (r"\W*(den\s+)?\d{1,2}\s*[.:]?\s*" + _TYPE_MONTHS + r"\w*\s*[.:]?(?=\s+\S)"),
+    "month_only": r"\W*\d{0,2}\s*[.:]?\s*" + _TYPE_MONTHS + r"\w*\s*[.:]?\W*",
+    "year_line": r"\W*1[67]\d\d\W*",
+    "signature": r"[A-Z]{1,3}\s*\d{0,2}|\d\s*[A-Z]{1,3}",
+}
+SG_HAND_TYPES_PARAMS = dict(SG_TYPE_PATTERNS)
+SG_PRINT_TYPES_PARAMS = {**SG_TYPE_PATTERNS, "column_override": True}   # F06-15e.8
+
+
 SG_HAND_V2 = LayerPreset(
     name="NL-HaNA_1.01.02_text_layer_v2",
     untagged_tag="untagged",
@@ -62,7 +103,18 @@ SG_HAND_V2 = LayerPreset(
     merged_line_split="off",
     word_split="off",
     word_split_params={"min_token_len": 8, "min_part_count": 20, "split_penalty": 0},
+    layout_params=SG_HAND_LAYOUT_PARAMS,
+    types_params=SG_HAND_TYPES_PARAMS,
+    wbc_sanity_in=(),
+    # UA-011 (b), F07-15hj2: `=` is dropped in the hand_tar inventories whose derived set lacks it
+    # (3349, 3350, 3351, 3353, 3354); 3352 derived `=„` and keeps the default.
+    wbc_pinned={"default": "-=„", "11281": "-:=„", "3349": "-„", "3350": "-„", "3351": "-„",
+                "3353": "-„", "3354": "-„"},
 )
+
+# Step 15h: paragraph cues fitted on the dev split (455, even scans) against REPUBLIC paragraphs;
+# dev F1 0.784, test F1 0.698 (reported once). See reports/phase-07-sg-units-and-pilot.md.
+SG_PRINT_UNIT_PARAMS = {"indent_frac": 0.5, "short_frac": 0.1, "gap_factor": None}
 
 SG_PRINT_V2 = LayerPreset(
     name="NL-HaNA_1.10.94_text_layer_v2",
@@ -77,6 +129,11 @@ SG_PRINT_V2 = LayerPreset(
     split_region_tags=("index", "resolution", "untagged", "Text"),
     word_split="off",
     word_split_params={"min_token_len": 8, "min_part_count": 20, "split_penalty": 0},
+    layout_params=SG_LAYOUT_PARAMS,
+    types_params=SG_PRINT_TYPES_PARAMS,
+    unit_params=SG_PRINT_UNIT_PARAMS,
+    wbc_sanity_in=(),
+    wbc_pinned={"default": "-=„"},
 )
 
 PRESETS = {"voc_v1": VOC_V1, "sg_1.01.02_v2": SG_HAND_V2, "sg_1.10.94_v2": SG_PRINT_V2}

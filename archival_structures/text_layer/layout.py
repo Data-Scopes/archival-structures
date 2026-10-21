@@ -1,4 +1,4 @@
-"""Layout stage of the v2 text layer (step 15fp): rows ↔ pdm adapter and the ``layout/`` tables.
+"""Layout stage of the v2 text layer (steps 15fp, 15fq): rows ↔ pdm adapter and the ``layout/`` tables.
 
 Reads ``scans/``, ``regions_meta/`` and ``lines/`` of one inventory (never rewritten), runs
 ``archival_structures.analysis.page_structure`` per scan, and writes
@@ -9,7 +9,7 @@ Reads ``scans/``, ``regions_meta/`` and ``lines/`` of one inventory (never rewri
 
 Region coords are the hull of the line boxes, not the ``regions_meta`` box (F06-15d.3); the
 ``regions_meta`` box only gives the id of an unchanged region. Schemas: ``docs/text_layer.md``,
-*Layout tables (step 15fp)*.
+*Layout tables (steps 15fp, 15fq)*.
 """
 
 import time
@@ -20,24 +20,27 @@ import pagexml.model.physical_document_model as pdm
 from pagexml.model.coords import Baseline
 
 from archival_structures.analysis.page_structure import (
-    PAGE_SINGLE, LayoutParams, assign_column_roles, find_separation_x, fit_gutter,
-    group_regions_into_columns, hull_coords, is_opening, merge_overlapping_text_regions,
+    PAGE_SINGLE, LayoutParams, assign_column_roles, choose_gutter_rule, find_separation_x,
+    fit_gutter, furniture_region_ids, group_regions_into_columns, hull_coords,
+    inventory_line_width_rel, is_opening, merge_overlapping_text_regions, split_regions_on_line_field,
     split_scan_into_pages)
 from archival_structures.text_layer.extract_v2 import legacy_doc_id
 from archival_structures.text_layer.io import read_tsv_gz, write_tsv_gz
 
 LAYOUT_SCAN_COLUMNS = [
     "scan_id", "page_mode", "separation_x", "split_method", "n_lines_crossing", "n_regions_in",
-    "n_regions_out", "n_merges", "n_gutter_splits"]
+    "n_regions_out", "n_merges", "n_gutter_splits", "gutter_rule", "n_column_splits",
+    "n_furniture", "n_guard_blocked", "n_column_blocked"]
 LAYOUT_REGION_COLUMNS = [
     "scan_id", "page", "layout_region_id", "x", "y", "w", "h", "layout_column", "layout_role",
-    "n_lines", "source_region_ids", "change"]
+    "n_lines", "source_region_ids", "change", "furniture", "column_value"]
 LAYOUT_LINE_COLUMNS = [
     "scan_id", "line_id", "region_id", "page", "layout_region_id", "layout_line_idx",
     "layout_column", "layout_role"]
 STAT_KEYS = ("n_scans", "n_openings", "n_single", "n_lines", "n_lines_crossing",
              "n_scans_crossing", "n_regions_in", "n_regions_out", "n_regions_empty", "n_merges",
-             "n_gutter_splits", "max_merge_passes")
+             "n_gutter_splits", "max_merge_passes", "n_column_splits", "n_furniture",
+             "n_guard_blocked", "n_column_blocked")
 UNION_KEYS = ("source_region_ids",)
 
 
@@ -54,7 +57,8 @@ def _line(row):
     x, y, w, h = (int(row[k]) for k in ("x", "y", "w", "h"))
     points = _parse_points(row["baseline"])
     return pdm.PageXMLTextLine(
-        doc_id=row["line_id"], metadata={"scan_id": row["scan_id"], "line_id": row["line_id"]},
+        doc_id=row["line_id"], metadata={"scan_id": row["scan_id"], "line_id": row["line_id"],
+                  "column": row.get("column") or ""},
         coords=pdm.Coords.coords_from_box_params(x, y, w, h),
         baseline=Baseline(points) if points else None, text=row["text"])
 
@@ -72,14 +76,22 @@ def _page_coords(page_name, separation_x, page_w, page_h):
 
 
 def _change(region):
-    merged = bool(region.metadata.get("merged_from"))
-    split = bool(region.metadata.get("split_from"))
-    return {(False, False): "unchanged", (True, False): "merged", (False, True): "split_at_gutter",
-            (True, True): "merged+split"}[(merged, split)]
+    """``unchanged`` or the ``+``-join of ``merged``, ``split_at_gutter``, ``split_at_column``."""
+    parts = [name for key, name in (("merged_from", "merged"), ("split_from", "split_at_gutter"),
+                                    ("column_split_from", "split_at_column"))
+             if region.metadata.get(key)]
+    return "+".join(parts) or "unchanged"
 
 
-def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params):
-    """One scan → (scan row, region rows, {line_id: line row}, n merge passes)."""
+def _column_value(region):
+    values = {(line.metadata or {}).get("column", "") for line in region.lines}
+    return values.pop() if len(values) == 1 else ""
+
+
+def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params, *,
+                gutter_rule="gap", med_w_rel=None, blocked_out=None):
+    """One scan → (scan row, region rows, {line_id: line row}, n merge passes). ``blocked_out``,
+    if a list, receives (page, id_a, id_b) for every guard-blocked pair."""
     scan_id = scan_row["scan_id"]
     page_w = int(scan_row["page_w"] or 0)
     page_h = int(scan_row["page_h"] or 0)
@@ -106,17 +118,34 @@ def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params):
         separation_x, method = gutter_rel * page_w, "none"
     else:
         boxes = [(l.coords.x, l.coords.w) for l in all_lines]
-        separation_x, method = find_separation_x(boxes, page_w, gutter_rel, params)
+        separation_x, method = find_separation_x(boxes, page_w, gutter_rel, params,
+                                                 rule=gutter_rule, med_w_rel=med_w_rel)
     pages, n_splits = split_scan_into_pages(regions, separation_x if opening else None,
                                              id_fn=_region_id)
     crossing = 0 if not opening else sum(
         l.coords.x <= separation_x <= l.coords.x + l.coords.w for l in all_lines)
 
     out_regions, line_out, n_merges, passes = [], {}, 0, 0
-    n_out = 0
+    n_out = n_column_splits = n_furniture = n_blocked = n_col_blocked = 0
     for page_name, page_regions in pages.items():
-        merged, n_passes = merge_overlapping_text_regions(page_regions, params,
-                                                           union_keys=UNION_KEYS, id_fn=_region_id)
+        if params.split_on_line_field:
+            page_regions, n_cs = split_regions_on_line_field(
+                page_regions, params.split_on_line_field, id_fn=_region_id)
+            n_column_splits += n_cs
+        bottom = max((l.coords.y + l.coords.h for r in page_regions for l in r.lines), default=0)
+        furniture = furniture_region_ids(page_regions, bottom, page_h, params)
+        n_furniture += len(furniture)
+        if params.merge:
+            blocked, col_blocked = {}, {}
+            merged, n_passes = merge_overlapping_text_regions(
+                page_regions, params, union_keys=UNION_KEYS, id_fn=_region_id,
+                exclude=furniture, blocked=blocked, column_blocked=col_blocked)
+            n_blocked += len(blocked)
+            n_col_blocked += len(col_blocked)
+            if blocked_out is not None:
+                blocked_out += [(page_name, a, b) for a, b in blocked]
+        else:
+            merged, n_passes = list(page_regions), 0
         passes = max(passes, n_passes)
         columns = group_regions_into_columns(merged, params, column_id_prefix=f"{scan_id}-{page_name}")
         assign_column_roles(columns, params, page_id=f"{scan_id}-{page_name}",
@@ -126,7 +155,7 @@ def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params):
         for region in ordered:
             change = _change(region)
             sources = sorted(region.metadata["source_region_ids"], key=order.__getitem__)
-            n_merges += change in ("merged", "merged+split")
+            n_merges += "merged" in change.split("+")
             n_out += 1
             box = region.coords
             if change == "unchanged":
@@ -136,7 +165,8 @@ def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params):
                 "x": box.x, "y": box.y, "w": box.w, "h": box.h,
                 "layout_column": region.metadata["layout_column"],
                 "layout_role": region.metadata["layout_role"], "n_lines": len(region.lines),
-                "source_region_ids": " ".join(sources), "change": change})
+                "source_region_ids": " ".join(sources), "change": change,
+                "furniture": int(region.id in furniture), "column_value": _column_value(region)})
             for i, line in enumerate(region.lines):
                 line_out[line.id] = {
                     "page": page_name, "layout_region_id": region.id, "layout_line_idx": i,
@@ -151,7 +181,8 @@ def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params):
             "scan_id": scan_id, "page": page_name, "layout_region_id": r["region_id"],
             "x": r["x"], "y": r["y"], "w": r["w"], "h": r["h"], "layout_column": "",
             "layout_role": "empty", "n_lines": len(lines_by_region.get(r["region_id"], [])),
-            "source_region_ids": r["region_id"], "change": "unchanged"})
+            "source_region_ids": r["region_id"], "change": "unchanged", "furniture": 0,
+            "column_value": ""})
         for i, l in enumerate(sorted(lines_by_region.get(r["region_id"], []),
                                      key=lambda l: int(l["line_idx"]))):
             line_out[l["line_id"]] = {
@@ -161,7 +192,10 @@ def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params):
         "scan_id": scan_id, "page_mode": "opening" if opening else "single",
         "separation_x": "" if separation_x is None else f"{separation_x:g}",
         "split_method": method, "n_lines_crossing": crossing, "n_regions_in": len(regions),
-        "n_regions_out": n_out, "n_merges": n_merges, "n_gutter_splits": n_splits}
+        "n_regions_out": n_out, "n_merges": n_merges, "n_gutter_splits": n_splits,
+        "gutter_rule": gutter_rule, "n_column_splits": n_column_splits,
+        "n_furniture": n_furniture, "n_guard_blocked": n_blocked,
+        "n_column_blocked": n_col_blocked}
     return scan_out, out_regions, line_out, passes
 
 
@@ -186,12 +220,16 @@ def layout_inventory(inv, layer_root, params: LayoutParams = LayoutParams()) -> 
                      if r["region_id"] in nonempty for l in lines_by_region[r["region_id"]]]
             landscape.append((int(s["page_w"]), boxes))
     gutter_rel, n_with_gap = fit_gutter(landscape, params)
+    n_with_lines = sum(bool(boxes) for _, boxes in landscape)
+    gutter_rule = choose_gutter_rule(n_with_gap, n_with_lines, params)
+    med_w_rel = inventory_line_width_rel(landscape)
 
     scan_out, region_out, line_map = [], [], {}
     passes = 0
     for s in scans:
         s_row, r_rows, l_map, n_passes = layout_scan(
-            s, regions_by_scan[s["scan_id"]], lines_by_region, gutter_rel, params)
+            s, regions_by_scan[s["scan_id"]], lines_by_region, gutter_rel, params,
+            gutter_rule=gutter_rule, med_w_rel=med_w_rel)
         scan_out.append(s_row)
         region_out += r_rows
         for line_id, v in l_map.items():
@@ -213,7 +251,8 @@ def layout_inventory(inv, layer_root, params: LayoutParams = LayoutParams()) -> 
 
     sums = Counter()
     for r in scan_out:
-        for k in ("n_lines_crossing", "n_regions_in", "n_regions_out", "n_merges", "n_gutter_splits"):
+        for k in ("n_lines_crossing", "n_regions_in", "n_regions_out", "n_merges", "n_gutter_splits",
+                  "n_column_splits", "n_furniture", "n_guard_blocked", "n_column_blocked"):
             sums[k] += r[k]
     roles = Counter(r["layout_role"] for r in region_out)
     stats = {
@@ -225,7 +264,11 @@ def layout_inventory(inv, layer_root, params: LayoutParams = LayoutParams()) -> 
         "n_regions_empty": roles["empty"],
         "max_merge_passes": passes,
         **{k: sums[k] for k in ("n_lines_crossing", "n_regions_in", "n_regions_out", "n_merges",
-                                "n_gutter_splits")},
+                                "n_gutter_splits", "n_column_splits", "n_furniture",
+                                "n_guard_blocked", "n_column_blocked")},
+        "gutter_rule": gutter_rule,
+        "med_w_rel": round(med_w_rel, 5),
+        "n_openings_with_lines": n_with_lines,
         "split_method": dict(sorted(Counter(r["split_method"] for r in scan_out).items())),
         "layout_role": dict(sorted(roles.items())),
         "gutter_rel": round(gutter_rel, 5),

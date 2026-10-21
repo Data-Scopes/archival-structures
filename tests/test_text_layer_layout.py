@@ -1,5 +1,6 @@
 """Tests for the v2 text-layer layout stage (step 15fp). Fixture: tests/fixtures/text_layer/sg/9999."""
 
+import gzip
 import json
 from pathlib import Path
 
@@ -62,8 +63,36 @@ def test_build_stage_layout(tmp_path):
     stats = json.loads((root / "layout" / "stats.json").read_text())
     params = json.loads((root / "layout" / "params.json").read_text())
     assert set(stats) == {"9999"} and params["overlap_threshold"] == 0.5
+    assert params["column_merge_guard"] is True and stats["9999"]["n_column_blocked"] == 0
+    header = gzip.open(root / "layout" / "scans" / "9999.tsv.gz", "rt").readline().split()
+    assert header[-1] == "n_column_blocked"
     manifest = json.loads((root / "manifest.json").read_text())
     assert "layout" in manifest["stages"]
     first = (root / "layout" / "regions" / "9999.tsv.gz").read_bytes()
     assert build.main(args) == 0
     assert (root / "layout" / "regions" / "9999.tsv.gz").read_bytes() == first
+
+
+def test_preset_layout_params_and_cli_override(tmp_path):
+    root = _layer(tmp_path)
+    args = ["--out-dir", str(tmp_path), "--preset", "sg_1.01.02_v2", "--stage", "layout"]
+    assert build.main(args) == 0
+    params = json.loads((root / "layout" / "params.json").read_text())
+    assert params["furniture_patterns"] == list(PRESET.layout_params["furniture_patterns"])
+    assert params["merge"] is False and params["interleave_guard"] is True   # hand: merges off (15fq)
+    assert PRESETS["sg_1.10.94_v2"].layout_params.get("merge", True) is True
+    assert build.main(args + ["--layout-params", '{"merge": true, "furniture_patterns": []}']) == 0
+    params = json.loads((root / "layout" / "params.json").read_text())
+    assert params["merge"] is True and params["furniture_patterns"] == []
+
+
+def test_legacy_matches_default_on_fixture(tmp_path):
+    from archival_structures.analysis.page_structure import LEGACY_15FP, LayoutParams
+    root = _layer(tmp_path)
+    tables = {}
+    for name, params in (("default", LayoutParams()), ("legacy", LEGACY_15FP)):
+        layout_inventory("9999", root, params)
+        tables[name] = {t: list(read_tsv_gz(root / "layout" / t / "9999.tsv.gz"))
+                        for t in ("scans", "regions", "lines")}
+    assert tables["default"] == tables["legacy"]       # the fixture has no 15fq-specific case
+    assert all(r["furniture"] == "0" for r in tables["legacy"]["regions"])

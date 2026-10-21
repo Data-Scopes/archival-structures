@@ -1,0 +1,148 @@
+{
+ "print_equal_bytes": null,
+ "hand": {
+  "3349": {
+   "n_equal": 13,
+   "differ": [
+    "join/segments/3349.tsv.gz",
+    "join/stats/3349.json",
+    "join/units/3349.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3350": {
+   "n_equal": 13,
+   "differ": [
+    "join/segments/3350.tsv.gz",
+    "join/stats/3350.json",
+    "join/units/3350.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3351": {
+   "n_equal": 13,
+   "differ": [
+    "join/segments/3351.tsv.gz",
+    "join/stats/3351.json",
+    "join/units/3351.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3352": {
+   "n_equal": 16,
+   "differ": [],
+   "missing": []
+  },
+  "3353": {
+   "n_equal": 13,
+   "differ": [
+    "join/segments/3353.tsv.gz",
+    "join/stats/3353.json",
+    "join/units/3353.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3354": {
+   "n_equal": 13,
+   "differ": [
+    "join/segments/3354.tsv.gz",
+    "join/stats/3354.json",
+    "join/units/3354.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3771": {
+   "n_equal": 16,
+   "differ": [],
+   "missing": []
+  },
+  "3772": {
+   "n_equal": 16,
+   "differ": [],
+   "missing": []
+  },
+  "3773": {
+   "n_equal": 16,
+   "differ": [],
+   "missing": []
+  },
+  "3821": {
+   "n_equal": 16,
+   "differ": [],
+   "missing": []
+  },
+  "3822": {
+   "n_equal": 16,
+   "differ": [],
+   "missing": []
+  },
+  "3823": {
+   "n_equal": 16,
+   "differ": [],
+   "missing": []
+  },
+  "11182": {
+   "n_equal": 16,
+   "differ": [],
+   "missing": []
+  },
+  "11281": {
+   "n_equal": 16,
+   "differ": [],
+   "missing": []
+  }
+ },
+ "other_files": {
+  "n_equal": 8,
+  "differ": [
+   "layout/stats.json",
+   "manifest.json",
+   "progress.log",
+   "status.tsv",
+   "types/stats.json",
+   "units/stats.json",
+   "wbc/corpus_default.json",
+   "wbc/wbc_per_inventory.tsv"
+  ],
+  "missing": []
+ },
+ "print": {
+  "files_a": 54,
+  "files_b": 54,
+  "equal_bytes": 54,
+  "differ": []
+ },
+ "wbc_sets_b": {
+  "3349": "-„",
+  "3350": "-„",
+  "3351": "-„",
+  "3352": "-=„",
+  "3353": "-„",
+  "3354": "-„",
+  "3771": "-=„",
+  "3772": "-=„",
+  "3773": "-=„",
+  "3821": "-=„",
+  "3822": "-=„",
+  "3823": "-=„",
+  "11182": "-=„",
+  "11281": "-:=„"
+ },
+ "wbc_sets_a": {
+  "3349": "-=„",
+  "3350": "-=„",
+  "3351": "-=„",
+  "3352": "-=„",
+  "3353": "-=„",
+  "3354": "-=„",
+  "3771": "-=„",
+  "3772": "-=„",
+  "3773": "-=„",
+  "3821": "-=„",
+  "3822": "-=„",
+  "3823": "-=„",
+  "11182": "-=„",
+  "11281": "-:=„"
+ },
+ "sanity_pass": true
+}

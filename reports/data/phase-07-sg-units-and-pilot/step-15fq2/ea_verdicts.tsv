@@ -1,0 +1,33 @@
+sample	inv	scan	verdict	note
+mixed	455	NL-HaNA_1.10.94_455_0027	ambiguous	bottom 4-line col-1 piece (heading + start of next item) stays a separate region; col 2 split in two blocks; no cut mid-sentence
+mixed	455	NL-HaNA_1.10.94_455_0039	right	column-pure pieces 59(2') + 56(1)
+mixed	455	NL-HaNA_1.10.94_455_0065	right	column-pure pieces 19(1) + 17(2)
+mixed	455	NL-HaNA_1.10.94_455_0222	right	column-pure pieces 73(1) + 29(2)
+mixed	455	NL-HaNA_1.10.94_455_0272	right	column-pure pieces 59(1) + 1(2); single page-number line (opposite column label) now its own region
+mixed	455	NL-HaNA_1.10.94_455_0293	right	column-pure pieces 56(1) + 1(2); single page-number line (opposite column label) now its own region
+mixed	455	NL-HaNA_1.10.94_455_0328	right	column-pure pieces 61(1) + 1(2); single page-number line (opposite column label) now its own region
+mixed	455	NL-HaNA_1.10.94_455_0426	right	column-pure pieces 59(2) + 1(1); single page-number line (opposite column label) now its own region
+mixed	455	NL-HaNA_1.10.94_455_0501	right	column-pure pieces 30(2) + 1(1); single page-number line (opposite column label) now its own region
+mixed	455	NL-HaNA_1.10.94_455_0507	right	column-pure pieces 61(1) + 1(2); single page-number line (opposite column label) now its own region
+mixed	455	NL-HaNA_1.10.94_455_0524	right	column-pure pieces 47(1) + 1(2); single page-number line (opposite column label) now its own region
+mixed	455	NL-HaNA_1.10.94_455_0563	right	column-pure pieces 1(2) + 58(1); single page-number line (opposite column label) now its own region
+mixed	455	NL-HaNA_1.10.94_455_0574	right	column-pure pieces 61(1) + 1(2); single page-number line (opposite column label) now its own region
+mixed	455	NL-HaNA_1.10.94_455_0603	right	column-pure pieces 61(1) + 1(2); single page-number line (opposite column label) now its own region
+mixed	455	NL-HaNA_1.10.94_455_0628	right	column-pure pieces 55(2) + 1(1); single page-number line (opposite column label) now its own region
+mixed	456	NL-HaNA_1.10.94_456_0004	ambiguous	title page: 3 col-1 lines (wide, OCR garbage) apart from 9 col-2 lines; no real columns
+mixed	456	NL-HaNA_1.10.94_456_0013	right	column-pure pieces 84(1) + 83(2)
+mixed	456	NL-HaNA_1.10.94_456_0058	right	column-pure pieces 63(1) + 63(2)
+mixed	456	NL-HaNA_1.10.94_456_0076	ambiguous	garbled OCR page; col-2 region holds "" lines among col-2; col-1 pieces separate
+mixed	456	NL-HaNA_1.10.94_456_0122	right	column-pure pieces 62(1) + 61(2)
+mixed	456	NL-HaNA_1.10.94_456_0175	right	column-pure pieces 63(1) + 61(2)
+mixed	456	NL-HaNA_1.10.94_456_0271	right	column-pure pieces 62(1) + 61(2)
+mixed	456	NL-HaNA_1.10.94_456_0311	right	column-pure pieces 62(1) + 63(2)
+mixed	456	NL-HaNA_1.10.94_456_0315	right	column-pure pieces 60(1) + 61(2)
+mixed	456	NL-HaNA_1.10.94_456_0451	right	column-pure pieces 63(1) + 59(2)
+mixed	456	NL-HaNA_1.10.94_456_0560	right	column-pure pieces 62(1) + 61(2)
+mixed	456	NL-HaNA_1.10.94_456_0628	right	column-pure pieces 62(1) + 60(2)
+mixed	456	NL-HaNA_1.10.94_456_0641	right	column-pure pieces 64(1) + 60(2)
+mixed	456	NL-HaNA_1.10.94_456_0662	right	column-pure pieces 63(1') + 61(2); 2 trailing empty-text lines stay with col 1
+mixed	456	NL-HaNA_1.10.94_456_0663	right	column-pure pieces 63(2) + 60(1)
+fq-wrong	455	NL-HaNA_1.10.94_455_0345	fixed	'1 673 )' now its own region (col 1 label), col 2 region has 61 pure lines
+fq-wrong	456	NL-HaNA_1.10.94_456_0098	fixed	122-line two-column region now two pure regions (61 + 61)

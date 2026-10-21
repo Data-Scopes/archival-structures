@@ -1,0 +1,2322 @@
+{
+ "ua008": {
+  "455": {
+   "n_mixed_regions": 36,
+   "region_type": {
+    "main_text": 36
+   },
+   "segment_types_by_column": {
+    "1": {
+     "running_header": 4,
+     "main_text": 1138,
+     "other": 8,
+     "date_header": 16,
+     "marginalia": 72,
+     "page_number": 15
+    },
+    "2": {
+     "main_text": 1215,
+     "other": 19,
+     "catch_word": 3,
+     "date_header": 17,
+     "running_header": 1,
+     "page_number": 7,
+     "marginalia": 19
+    },
+    "": {
+     "marginalia": 1,
+     "page_number": 2
+    }
+   }
+  },
+  "456": {
+   "n_mixed_regions": 109,
+   "region_type": {
+    "main_text": 108,
+    "index": 1
+   },
+   "segment_types_by_column": {
+    "1": {
+     "main_text": 6067,
+     "date_header": 47,
+     "other": 29,
+     "page_number": 49,
+     "index": 8
+    },
+    "2": {
+     "main_text": 5809,
+     "catch_word": 59,
+     "page_number": 52,
+     "other": 11,
+     "marginalia": 122,
+     "date_header": 46,
+     "signature_mark": 14,
+     "index": 37
+    }
+   }
+  }
+ },
+ "coverage": {
+  "3349": {
+   "text_lines": 91897,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3350": {
+   "text_lines": 84627,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3351": {
+   "text_lines": 12581,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3352": {
+   "text_lines": 96495,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3353": {
+   "text_lines": 84706,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3354": {
+   "text_lines": 11146,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3771": {
+   "text_lines": 136435,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3772": {
+   "text_lines": 141492,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3773": {
+   "text_lines": 145219,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3821": {
+   "text_lines": 116595,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3822": {
+   "text_lines": 121882,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "3823": {
+   "text_lines": 118407,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "11182": {
+   "text_lines": 57508,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "11281": {
+   "text_lines": 78030,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "455": {
+   "text_lines": 173398,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  },
+  "456": {
+   "text_lines": 174421,
+   "missing_or_blank_with_segments": 0,
+   "overlap": 0,
+   "text_mismatch": 0
+  }
+ },
+ "r4_rows": {
+  "50": {
+   "ok": true,
+   "segments": [
+    [
+     "0",
+     "date_header",
+     "rule:date_prefix",
+     "28. Junij",
+     2801,
+     291
+    ],
+    [
+     "1",
+     "main_text",
+     "rule:default",
+     "verthoonen, als het sullen requireren.",
+     3125,
+     1230
+    ],
+    [
+     "2",
+     "page_number",
+     "rule:pn_suffix",
+     "909.",
+     4387,
+     129
+    ]
+   ]
+  },
+  "52": {
+   "ok": true,
+   "segments": [
+    [
+     "0",
+     "date_header",
+     "rule:date_prefix",
+     "24. Decemb:",
+     2560,
+     441
+    ],
+    [
+     "1",
+     "main_text",
+     "rule:default",
+     "van Overijssel hebben de voorz:",
+     3042,
+     1244
+    ],
+    [
+     "2",
+     "page_number",
+     "rule:pn_suffix",
+     "847.",
+     4326,
+     160
+    ]
+   ]
+  },
+  "55": {
+   "ok": true,
+   "segments": [
+    [
+     "0",
+     "date_header",
+     "rule:date_prefix",
+     "20: Decemb:",
+     2485,
+     429
+    ],
+    [
+     "1",
+     "main_text",
+     "rule:default",
+     "uijtgedeelt volgens ende incon,",
+     2953,
+     1210
+    ],
+    [
+     "2",
+     "page_number",
+     "rule:pn_suffix",
+     "823.",
+     4203,
+     156
+    ]
+   ]
+  },
+  "55b": {
+   "ok": true,
+   "segments": [
+    [
+     "0",
+     "marginalia",
+     "rule:page_margin",
+     "Nieuwe jaren",
+     2543,
+     370
+    ]
+   ]
+  },
+  "134": {
+   "ok": true,
+   "segments": [
+    [
+     "0",
+     "date_header",
+     "rule:date_prefix",
+     "21. April",
+     3304,
+     384
+    ],
+    [
+     "1",
+     "main_text",
+     "rule:default",
+     "Is ter vergaderinge gelesen de reqte.",
+     3730,
+     1577
+    ],
+    [
+     "2",
+     "page_number",
+     "rule:pn_suffix",
+     "565.",
+     5350,
+     171
+    ]
+   ]
+  },
+  "134b": {
+   "ok": true,
+   "segments": [
+    [
+     "0",
+     "marginalia",
+     "rule:page_margin",
+     "Diesbagh",
+     3478,
+     331
+    ]
+   ]
+  },
+  "19": {
+   "ok": true,
+   "segments": [
+    [
+     "0",
+     "date_header",
+     "rule:margin_prefix",
+     "Augt.",
+     3313,
+     231
+    ],
+    [
+     "1",
+     "main_text",
+     "rule:default",
+     "haer Ho:Mog: geliefden den gem:",
+     3590,
+     1430
+    ],
+    [
+     "2",
+     "page_number",
+     "rule:pn_suffix",
+     "247.",
+     5066,
+     185
+    ]
+   ]
+  },
+  "9a": {
+   "ok": true,
+   "segments": [
+    [
+     "0",
+     "date_header",
+     "rule:date_line",
+     "29. Augti.",
+     3269,
+     344
+    ]
+   ]
+  },
+  "9b": {
+   "ok": true,
+   "segments": [
+    [
+     "0",
+     "marginalia",
+     "rule:extra_role",
+     "de Ruijter",
+     3312,
+     242
+    ],
+    [
+     "0",
+     "marginalia",
+     "rule:extra_role",
+     "betalinge der",
+     3301,
+     265
+    ],
+    [
+     "0",
+     "marginalia",
+     "rule:extra_role",
+     "Luijck",
+     3349,
+     167
+    ]
+   ]
+  }
+ },
+ "audit_3771_0100": [
+  [
+   "date_header",
+   "Den 26. Februarii."
+  ],
+  [
+   "main_text",
+   "Contrerolleur Dedel sal werden gerescribeert,"
+  ],
+  [
+   "main_text",
+   "dat hy de voorschreve betalinge sal vorderen,"
+  ],
+  [
+   "main_text",
+   "ende het Capittel des noodts daer toe by exe-"
+  ],
+  [
+   "main_text",
+   "cutie constringeren voor het tweede jaer, ge-"
+  ],
+  [
+   "main_text",
+   "expireert met den een en dertighsten Decem-"
+  ],
+  [
+   "main_text",
+   "ber laetstleden."
+  ],
+  [
+   "main_text",
+   "Ntfangen een Missive van de Heeren"
+  ],
+  [
+   "main_text",
+   "van Cockinga en van Geldermalsen, twee"
+  ],
+  [
+   "main_text",
+   "van haer Hoogh Mog. Gedeputeerden tot"
+  ],
+  [
+   "main_text",
+   "het reguleren van de Barriere tot Antwerpen,"
+  ],
+  [
+   "main_text",
+   "geschreven aldaer den vier en twintighsten"
+  ],
+  [
+   "main_text",
+   "deser loopende maendt, geaddresseert aen den"
+  ],
+  [
+   "main_text",
+   "Griffier Fagel, houdende advertentie, ende"
+  ],
+  [
+   "main_text",
+   "onder anderen, dat den Grave van Konigsegg"
+  ],
+  [
+   "main_text",
+   "aen haer hadde toegesonden eenige klaghten"
+  ],
+  [
+   "main_text",
+   "van de Magistraet van Namen, tegens den"
+  ],
+  [
+   "main_text",
+   "Etat Major aldaer, over den invoer van Bran-"
+  ],
+  [
+   "main_text",
+   "dewyn voor het Kasteel, soo hy sustineerde"
+  ],
+  [
+   "main_text",
+   "tegens het Tractaet en Reglement; dat gemel-"
+  ],
+  [
+   "main_text",
+   "den Graef by die occasie oock geinsteert had-"
+  ],
+  [
+   "main_text",
+   "de op de publicatie of insinuatie van het een"
+  ],
+  [
+   "main_text",
+   "en ander; dat de voornoemde Heeren Gede-"
+  ],
+  [
+   "main_text",
+   "puteerden haer Hoogh Mogende in bedenc-"
+  ],
+  [
+   "main_text",
+   "ken gaven, of de selve niet konden goedtvin-"
+  ],
+  [
+   "main_text",
+   "den het voorschreve Reglement ende Contract,"
+  ],
+  [
+   "main_text",
+   "ofte ten minsten de articulen van het laetste,"
+  ],
+  [
+   "main_text",
+   "die relatie hadden tot het militair in de Plaet-"
+  ],
+  [
+   "main_text",
+   "sen van de Barriere, aen de selve toe te sen-"
+  ],
+  [
+   "main_text",
+   "den ende te publiceren, met ordre om haer"
+  ],
+  [
+   "main_text",
+   "daer na te reguleren; als mede of niet ten eer-"
+  ],
+  [
+   "main_text",
+   "sten yemant behoorde genomineert te werden,"
+  ],
+  [
+   "main_text",
+   "omme te convenieren over de poincten die by"
+  ],
+  [
+   "main_text",
+   "het vier en dertighste articul van het Regle-"
+  ],
+  [
+   "main_text",
+   "ment gerenvoyeert waren tot een nader exa-"
+  ],
+  [
+   "main_text",
+   "men; dat daer toe, volgens het geen haer voor-"
+  ],
+  [
+   "main_text",
+   "quam, den Grave van Konigsegg soude despi-"
+  ],
+  [
+   "main_text",
+   "cieren een Persoon van den militairen dienst."
+  ],
+  [
+   "main_text",
+   "WAER op gedelibereert zynde, is goet-"
+  ],
+  [
+   "main_text",
+   "gevonden en versten, dat aen gemelde Hee-"
+  ],
+  [
+   "main_text",
+   "ren Gedeputeerden sal werden gerescribeert,"
+  ],
+  [
+   "main_text",
+   "ende de selve geauthoriseert, om het voor-"
+  ],
+  [
+   "main_text",
+   "schreve Reglement, en het voorschreve Trac-"
+  ],
+  [
+   "main_text",
+   "taet, ofte soodanige articulen van dien, als"
+  ],
+  [
+   "main_text",
+   "nodigh sullen oordeelen, te senden aen de ge-"
+  ],
+  [
+   "main_text",
+   "melde Gouverneurs ende Commandanten in"
+  ],
+  [
+   "main_text",
+   "de Plaetsen van de Barriere, om haer daer na"
+  ],
+  [
+   "main_text",
+   "te reguleren; als mede om yemant te despi-"
+  ],
+  [
+   "main_text",
+   "cieren ende te committeren tot het conve-"
+  ],
+  [
+   "main_text",
+   "nieren over de poincten, by het vier en der-"
+  ],
+  [
+   "main_text",
+   "tighste articul, tot een nader examen geren-"
+  ],
+  [
+   "main_text",
+   "voyeert."
+  ],
+  [
+   "date_header",
+   "Jovis den 27. Februarii"
+  ],
+  [
+   "main_text",
+   "1716."
+  ],
+  [
+   "main_text",
+   "PRAESIDE,"
+  ],
+  [
+   "main_text",
+   "Den Heere van Welderen."
+  ],
+  [
+   "main_text",
+   "PRAESENTIBUS,"
+  ],
+  [
+   "main_text",
+   "De Heeren van Heuckelom, van Broeckhuy-"
+  ],
+  [
+   "page_number",
+   "( 152 )"
+  ],
+  [
+   "running_header",
+   "1716."
+  ],
+  [
+   "main_text",
+   "sen, Ham, met twee extraordinaris Gedepu"
+  ],
+  [
+   "main_text",
+   "teerden uyt de Provincie van Gelder"
+  ],
+  [
+   "main_text",
+   "landt."
+  ],
+  [
+   "main_text",
+   "van Noortwyck, Lestevenon, de Neyn, La-"
+  ],
+  [
+   "main_text",
+   "keman, Raedtpensionaris Heinsius."
+  ],
+  [
+   "main_text",
+   "Velters, van Spanbroeck, van Hoorn."
+  ],
+  [
+   "main_text",
+   "Raets van Amerongen, van Renswoude,"
+  ],
+  [
+   "main_text",
+   "Ubingh."
+  ],
+  [
+   "main_text",
+   "van Haren, van Burum, met een extraor„"
+  ],
+  [
+   "main_text",
+   "dinaris Gedeputeerde uyt de Provincie van"
+  ],
+  [
+   "main_text",
+   "Vrieslandt."
+  ],
+  [
+   "main_text",
+   "Isselmuden, met een extraordinaris Gede-"
+  ],
+  [
+   "main_text",
+   "puteerde uyt de Provincie van Over-"
+  ],
+  [
+   "main_text",
+   "yssel."
+  ],
+  [
+   "main_text",
+   "Iddekinge."
+  ],
+  [
+   "main_text",
+   "E Resolutien, gisteren geno-"
+  ],
+  [
+   "main_text",
+   "nomen, zyn gelesen ende geresu-"
+  ],
+  [
+   "main_text",
+   "meert, gelijck oock geresumeert en"
+  ],
+  [
+   "main_text",
+   "gearresteert zyn de depesches daer uyt resul-"
+  ],
+  [
+   "main_text",
+   "terende."
+  ],
+  [
+   "main_text",
+   "Ntfangen een Missive van den Resident"
+  ],
+  [
+   "main_text",
+   "Mortaigne, geschreven te Regensburgh"
+  ],
+  [
+   "main_text",
+   "den twintighsten deser loopende maendt,"
+  ],
+  [
+   "main_text",
+   "houdende advertentie. WAAR op geen"
+  ],
+  [
+   "main_text",
+   "resolutie is gevallen."
+  ],
+  [
+   "main_text",
+   "Otfangen een Missive van den Heere"
+  ],
+  [
+   "main_text",
+   "Hamel Bruyninx, haer Hoogh Mogen-"
+  ],
+  [
+   "main_text",
+   "de extraordinaris Envoyé aen het Hof"
+  ],
+  [
+   "main_text",
+   "van den Keyser, geschreven tot Weenen den"
+  ],
+  [
+   "main_text",
+   "vyftienden deser loopende maendt, houdende"
+  ],
+  [
+   "main_text",
+   "advertentie. WAAR op geen resolutie is ge-"
+  ],
+  [
+   "main_text",
+   "vallen."
+  ],
+  [
+   "main_text",
+   "Otfangen een Missive van den Resident"
+  ],
+  [
+   "main_text",
+   "Spina, geschreven te Franckfort den"
+  ],
+  [
+   "main_text",
+   "drie en twintighsten deser loopende"
+  ],
+  [
+   "main_text",
+   "maendt, houdende advertentie. WAER"
+  ],
+  [
+   "main_text",
+   "op geen resolutie is gevallen."
+  ],
+  [
+   "main_text",
+   "P de Requeste van Dirck van Tietsen ende"
+  ],
+  [
+   "main_text",
+   "Hendrick Schroder, Koopluyden in com-"
+  ],
+  [
+   "main_text",
+   "pagnie tot Amsterdam. IS na"
+  ],
+  [
+   "main_text",
+   "voorgaende deliberatie goetgevonden en ver-"
+  ],
+  [
+   "main_text",
+   "staen, dat ten behoeve van de Supplianten een"
+  ],
+  [
+   "main_text",
+   "Pasport sal werden gedepescheert, in forma"
+  ],
+  [
+   "main_text",
+   "van Acte ad omnes Populos, ten eynde haer"
+  ],
+  [
+   "main_text",
+   "Dienaer Christiaen Zecher, tegenwoordigh"
+  ],
+  [
+   "main_text",
+   "tot Lubecq zynde, van daer na Sweden, ende"
+  ],
+  [
+   "main_text",
+   "verders naer dese Landen te mogen doen"
+  ],
+  [
+   "main_text",
+   "reysen."
+  ],
+  [
+   "main_text",
+   "P de Memorie van de Heeren van Reyne-"
+  ],
+  [
+   "main_text",
+   "steyn ende de Kempenaer, Gecommit-"
+  ],
+  [
+   "main_text",
+   "teerden in den Raedt van State. IS"
+  ],
+  [
+   "main_text",
+   "na voorgaende deliberatie goetgevonden ende"
+  ],
+  [
+   "main_text",
+   "verstaen, dat voor yeder een Pasport sal wer-"
+  ],
+  [
+   "main_text",
+   "den gedepescheert, om met hunne Paerden,"
+  ],
+  [
+   "catch_word",
+   "Koet-"
+  ],
+  [
+   "page_number",
+   "4716."
+  ],
+  [
+   "main_text",
+   "Koetsen ende Bagagie, alomme de Rivieren te"
+  ],
+  [
+   "main_text",
+   "mogen passeren en repasseren."
+  ],
+  [
+   "main_text",
+   "IS ter Vergaderinge gelesen de Memorie"
+  ],
+  [
+   "main_text",
+   "R van den Heere Resident la Sarraz, raken-"
+  ],
+  [
+   "main_text",
+   "de de ongelegentheydt daer in de Com-"
+  ],
+  [
+   "main_text",
+   "pagnie Grisons van den Capiteyn Schmid sich"
+  ],
+  [
+   "main_text",
+   "bevondt, afgewesen zynde by de Provincie"
+  ],
+  [
+   "main_text",
+   "van Utrecht, volgende de voorschreve Me-"
+  ],
+  [
+   "main_text",
+   "morie hier na geinsereert."
+  ],
+  [
+   "main_text",
+   "Hauts & Puissants Seigneurs."
+  ],
+  [
+   "main_text",
+   "E sousigné nommé par la louable Republique"
+  ],
+  [
+   "main_text",
+   "des Liques Grises pour Resident aupres de"
+  ],
+  [
+   "main_text",
+   "Vos Hautes Puissances se donne l‛honneur de"
+  ],
+  [
+   "main_text",
+   "leur representer ires respectueusement l‛exireme"
+  ],
+  [
+   "main_text",
+   "danger ou se trouve la Compagnie Crisonne du"
+  ],
+  [
+   "main_text",
+   "Capitaine Schmid, rejettée par la Province"
+  ],
+  [
+   "main_text",
+   "d'Utrecht, sur le Comptoir de la quelle elle a"
+  ],
+  [
+   "main_text",
+   "été renvoyée par le dernier Estat de guerre."
+  ],
+  [
+   "main_text",
+   "Cet Officier sans argent, & sans credit va se"
+  ],
+  [
+   "main_text",
+   "trouver contraint de laisser debander incessam"
+  ],
+  [
+   "main_text",
+   "ment sa Compagnie, s'il n‛est pourveu sans au"
+  ],
+  [
+   "main_text",
+   "cun delay à sa subsistence. Je supplie donc tres"
+  ],
+  [
+   "main_text",
+   "humblement Vos Hhautes Puissances, d'avoir la"
+  ],
+  [
+   "main_text",
+   "bonté de faire la dessus de favorables restexions"
+  ],
+  [
+   "main_text",
+   "en se souvenant que la dite Compagnie est une"
+  ],
+  [
+   "main_text",
+   "des dix reconnues e comprises dans le Traitté"
+  ],
+  [
+   "main_text",
+   "d'Alliance, que la Republique des Crisons à"
+  ],
+  [
+   "main_text",
+   "l‛honneur d'avoir avec Vos Hautes Puissances,"
+  ],
+  [
+   "main_text",
+   "les suppliant tres humblement e tres instamment"
+  ],
+  [
+   "main_text",
+   "de vouloir bien dans leur haute sagesse prevenir"
+  ],
+  [
+   "main_text",
+   "la breche que la distruction de cette Compagnie"
+  ],
+  [
+   "main_text",
+   "feroit au du Traité. Fait à la Haye ce vingt"
+  ],
+  [
+   "main_text",
+   "septieme tevrier mille sept cent seize."
+  ],
+  [
+   "main_text",
+   "Signé,"
+  ],
+  [
+   "marginalia",
+   "De la Sarraz."
+  ],
+  [
+   "main_text",
+   "WAER op gedelibereert zynde, is goet-"
+  ],
+  [
+   "main_text",
+   "gevonden ende verstaen, dat Copie van"
+  ],
+  [
+   "main_text",
+   "de voorschreve Memorie gestelt sal werden in"
+  ],
+  [
+   "main_text",
+   "handen van de Heeren van Broeckhuysen,"
+  ],
+  [
+   "main_text",
+   "ende andere haer Hoogh Mogende Gede-"
+  ],
+  [
+   "main_text",
+   "puteerden tot de militaire saecken, om met"
+  ],
+  [
+   "main_text",
+   "ende nevens eenige Heeren Gecommitteer-"
+  ],
+  [
+   "main_text",
+   "den uyt den Raedt van State, by haer E."
+  ],
+  [
+   "main_text",
+   "selfs te nomineren, te visiteren, examine-"
+  ],
+  [
+   "main_text",
+   "ren, ende van alles alhier ter Vergaderinge"
+  ],
+  [
+   "main_text",
+   "rapport te doen."
+  ],
+  [
+   "main_text",
+   "Y resumptie gedelibereert zijnde op de"
+  ],
+  [
+   "main_text",
+   "D Missive van den Heere van Ripperdal,"
+  ],
+  [
+   "main_text",
+   "haer Hoogh Mogende extraordinaris Am-"
+  ],
+  [
+   "main_text",
+   "bassadeur aen het Hof van Spaigne, geschre-"
+  ],
+  [
+   "main_text",
+   "ven tot Madrid den sestienden van de voorle-"
+  ],
+  [
+   "main_text",
+   "den maendt December, geaddresseert aen den"
+  ],
+  [
+   "main_text",
+   "Griffier Fagel, hebbende tot Bylage een Con-"
+  ],
+  [
+   "main_text",
+   "ventie tusschen den Minister van den Koningh"
+  ],
+  [
+   "main_text",
+   "van Spagne, ter eenre, ende die van den Ko-"
+  ],
+  [
+   "page_number",
+   "153 )"
+  ],
+  [
+   "date_header",
+   "Den 27. Februarii."
+  ],
+  [
+   "main_text",
+   "ningh van Groot -Brittannien, ter andere zyde,"
+  ],
+  [
+   "main_text",
+   "ten huyse van hem Ambassadeur, op den veer-"
+  ],
+  [
+   "main_text",
+   "tienden December voorschreve gesloten, met"
+  ],
+  [
+   "main_text",
+   "relatie tot het laetste Tractaet van commercie,"
+  ],
+  [
+   "main_text",
+   "tusschen hooghstgedaghte Koninghrijcken tot"
+  ],
+  [
+   "main_text",
+   "Utrecht gemaeckt. IS goedtgevonden"
+  ],
+  [
+   "main_text",
+   "ende verstaen, dat aen gemelden Heer van"
+  ],
+  [
+   "main_text",
+   "Ripperda, sal werden gerescribeert, dat hy"
+  ],
+  [
+   "main_text",
+   "sal betuygen, daer hy het raedtsaem aght, dat"
+  ],
+  [
+   "main_text",
+   "het haer Hoogh Mogende aengenaem is, dat"
+  ],
+  [
+   "main_text",
+   "de differenten die 'er tot noch toe tusschen de"
+  ],
+  [
+   "main_text",
+   "twee hooghstgedaghte Kroonen, over eenige"
+  ],
+  [
+   "main_text",
+   "pointen van commercie zijn geweest, in der"
+  ],
+  [
+   "main_text",
+   "minne zijn ingeschickt, ende dat haer Hoogh"
+  ],
+  [
+   "main_text",
+   "Mogende niet en twijffelen of het selve sal"
+  ],
+  [
+   "main_text",
+   "mede strecken tot conservatie ende vermeerde-"
+  ],
+  [
+   "main_text",
+   "ringh van der selver wedersydtsche vriendtschap;"
+  ],
+  [
+   "main_text",
+   "dat belangende de voorschreve conventie selfs,"
+  ],
+  [
+   "main_text",
+   "haer Hoogh Mogende de selve aensien als een"
+  ],
+  [
+   "main_text",
+   "gedane saeck, ende waer in geen direct intrest"
+  ],
+  [
+   "main_text",
+   "hebben, ende oock geen ander, als voor soo"
+  ],
+  [
+   "main_text",
+   "veel by die conventie aen de Onderdanen van"
+  ],
+  [
+   "main_text",
+   "Groot-Brittannien eenige privilegien, franchi-"
+  ],
+  [
+   "main_text",
+   "ses, exemtien, immuniteyten of securiteyten"
+  ],
+  [
+   "main_text",
+   "souden mogen wesen toegestaen, dewelcke"
+  ],
+  [
+   "main_text",
+   "noch niet souden zijn geaccordeert, aen de"
+  ],
+  [
+   "main_text",
+   "Onderdanen van den Staet, en waer van dese"
+  ],
+  [
+   "main_text",
+   "noch niet souden wesen in de dadelijcke pos-"
+  ],
+  [
+   "main_text",
+   "sessie; dat indien 'er aldaer soodanigh een"
+  ],
+  [
+   "main_text",
+   "meerder voorreght, vrydom ofte sekerheyt aen"
+  ],
+  [
+   "main_text",
+   "die van Groot - Brittannien soude moge zijn"
+  ],
+  [
+   "main_text",
+   "geaccordeert, hy Heere van Ripperda aen-"
+  ],
+  [
+   "main_text",
+   "stondts alle devoiren sal aenwenden, dat het"
+  ],
+  [
+   "main_text",
+   "selve meerdere oock aen de Onderdanen van"
+  ],
+  [
+   "main_text",
+   "den Staet toegestaen, en by de selve effective-"
+  ],
+  [
+   "main_text",
+   "lijck genoten moge werden, volgens het duy-"
+  ],
+  [
+   "main_text",
+   "delijck ende incontestabele recht, dat haer"
+  ],
+  [
+   "main_text",
+   "Hoogh Mogende daer toe hebben, uyt krach-"
+  ],
+  [
+   "main_text",
+   "te van het jonghst geslotene Tractaet van vree-"
+  ],
+  [
+   "main_text",
+   "de en commercie, en specialijck van het se-"
+  ],
+  [
+   "main_text",
+   "ventiende Articul van dien."
+  ],
+  [
+   "main_text",
+   "En voor soo veel by het eerste Articul van de"
+  ],
+  [
+   "main_text",
+   "voorschreve Conventie mentie werdt gemaeckt"
+  ],
+  [
+   "main_text",
+   "van een seecker gebruyck, aldaer genaemt te"
+  ],
+  [
+   "main_text",
+   "pied del Fardo, volgens het welcke (soo haer"
+  ],
+  [
+   "main_text",
+   "Hoogh Mogende beright zyn) de Goederen"
+  ],
+  [
+   "main_text",
+   "voormaels hooger in waerde, en na die hoo-"
+  ],
+  [
+   "main_text",
+   "ger waerde de rechten subject, minder werden"
+  ],
+  [
+   "main_text",
+   "gepriseert, en uyt dien hoofde oock minder"
+  ],
+  [
+   "main_text",
+   "rechten betalen, ende welck gebruyck by dat"
+  ],
+  [
+   "main_text",
+   "eerste Articul soodanigh werdt geconfirmeert,"
+  ],
+  [
+   "main_text",
+   "dat het voortaen als een onverbrekelijcke wet"
+  ],
+  [
+   "main_text",
+   "sal moeten werden onderhouden; dat haer"
+  ],
+  [
+   "main_text",
+   "Hoogh Mogende wel supponeren, dat de"
+  ],
+  [
+   "main_text",
+   "confirmatie van het voorschreve gebruyck,"
+  ],
+  [
+   "main_text",
+   "by dat articul werdende gedaen in generale"
+  ],
+  [
+   "main_text",
+   "termen, de selve oock notoirlijck moet ope-"
+  ],
+  [
+   "main_text",
+   "reren, ende haer kraght hebben ten behoe-"
+  ],
+  [
+   "main_text",
+   "ve van hare Onderdanen, te meer, dewijl de"
+  ],
+  [
+   "main_text",
+   "generale regul, by het voorschreve seventien-"
+  ],
+  [
+   "catch_word",
+   "de"
+  ],
+  [
+   "signature_mark",
+   "2 P"
+  ]
+ ],
+ "per_inventory": {
+  "3349": {
+   "chain_candidates": 759,
+   "chain_length": 647,
+   "chars_per_type": {
+    "date_header": 9673,
+    "index": 24606,
+    "main_text": 3570006,
+    "marginalia": 96112,
+    "other": 61,
+    "page_number": 2777,
+    "running_header": 57
+   },
+   "med_w_rel": 0.27737,
+   "methods": {
+    "date_header|rule:date_line": 556,
+    "date_header|rule:date_prefix": 275,
+    "date_header|rule:margin_prefix": 6,
+    "index|rule:index_page": 1546,
+    "main_text|rule:default": 82404,
+    "marginalia|rule:extra_role": 6140,
+    "marginalia|rule:margin_prefix": 2528,
+    "marginalia|rule:page_margin": 1043,
+    "other|rule:noise": 49,
+    "page_number|rule:pn_line": 63,
+    "page_number|rule:pn_line_offchain": 85,
+    "page_number|rule:pn_suffix": 598,
+    "running_header|rule:header": 11
+   },
+   "n_candidates_pn_line": 134,
+   "n_candidates_pn_suffix": 625,
+   "n_index_pages": 33,
+   "n_lines": 92152,
+   "n_lines_blank": 255,
+   "n_lines_text": 91897,
+   "n_pages": 1913,
+   "n_rectos": 957,
+   "n_rectos_with_page_number": 692,
+   "n_regions_typed": 12096,
+   "n_segments": 95304,
+   "seconds": 1.69,
+   "segments_per_type": {
+    "date_header": 837,
+    "index": 1546,
+    "main_text": 82404,
+    "marginalia": 9711,
+    "other": 49,
+    "page_number": 746,
+    "running_header": 11
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 275,
+    "rule:margin_prefix": 2534,
+    "rule:pn_suffix": 598
+   },
+   "main_text_char_share": 0.964
+  },
+  "3350": {
+   "chain_candidates": 854,
+   "chain_length": 747,
+   "chars_per_type": {
+    "catch_word": 16,
+    "date_header": 6281,
+    "index": 16664,
+    "main_text": 3368399,
+    "marginalia": 74539,
+    "other": 66,
+    "page_number": 3076,
+    "running_header": 35
+   },
+   "med_w_rel": 0.24172,
+   "methods": {
+    "catch_word|rule:catch_word": 3,
+    "date_header|rule:date_line": 208,
+    "date_header|rule:date_prefix": 151,
+    "date_header|rule:margin_prefix": 277,
+    "index|rule:index_page": 1063,
+    "main_text|rule:default": 77141,
+    "marginalia|rule:extra_role": 4926,
+    "marginalia|rule:margin_prefix": 2805,
+    "marginalia|rule:page_margin": 1051,
+    "other|rule:noise": 46,
+    "page_number|rule:pn_line": 125,
+    "page_number|rule:pn_line_offchain": 57,
+    "page_number|rule:pn_suffix": 632,
+    "running_header|rule:header": 7
+   },
+   "n_candidates_pn_line": 172,
+   "n_candidates_pn_suffix": 682,
+   "n_index_pages": 24,
+   "n_lines": 84789,
+   "n_lines_blank": 162,
+   "n_lines_text": 84627,
+   "n_pages": 1770,
+   "n_rectos": 886,
+   "n_rectos_with_page_number": 773,
+   "n_regions_typed": 9727,
+   "n_segments": 88492,
+   "seconds": 1.562,
+   "segments_per_type": {
+    "catch_word": 3,
+    "date_header": 636,
+    "index": 1063,
+    "main_text": 77141,
+    "marginalia": 8782,
+    "other": 46,
+    "page_number": 814,
+    "running_header": 7
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 151,
+    "rule:margin_prefix": 3082,
+    "rule:pn_suffix": 632
+   },
+   "main_text_char_share": 0.971
+  },
+  "3351": {
+   "chain_candidates": 298,
+   "chain_length": 246,
+   "chars_per_type": {
+    "catch_word": 21,
+    "date_header": 1603,
+    "index": 358,
+    "main_text": 421032,
+    "marginalia": 35820,
+    "other": 32,
+    "page_number": 1122
+   },
+   "med_w_rel": 0.18543,
+   "methods": {
+    "catch_word|rule:catch_word": 7,
+    "date_header|rule:date_line": 34,
+    "date_header|rule:date_prefix": 166,
+    "index|rule:index_page": 14,
+    "main_text|rule:default": 11039,
+    "marginalia|rule:extra_role": 843,
+    "marginalia|rule:margin_prefix": 197,
+    "marginalia|rule:page_margin": 333,
+    "other|rule:noise": 14,
+    "page_number|rule:pn_line": 249,
+    "page_number|rule:pn_line_offchain": 48,
+    "page_number|rule:pn_suffix": 11
+   },
+   "n_candidates_pn_line": 283,
+   "n_candidates_pn_suffix": 15,
+   "n_index_pages": 58,
+   "n_lines": 12598,
+   "n_lines_blank": 17,
+   "n_lines_text": 12581,
+   "n_pages": 341,
+   "n_rectos": 173,
+   "n_rectos_with_page_number": 158,
+   "n_regions_typed": 4145,
+   "n_segments": 12955,
+   "seconds": 0.278,
+   "segments_per_type": {
+    "catch_word": 7,
+    "date_header": 200,
+    "index": 14,
+    "main_text": 11039,
+    "marginalia": 1373,
+    "other": 14,
+    "page_number": 308
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 166,
+    "rule:margin_prefix": 197,
+    "rule:pn_suffix": 11
+   },
+   "main_text_char_share": 0.9153
+  },
+  "3352": {
+   "chain_candidates": 893,
+   "chain_length": 787,
+   "chars_per_type": {
+    "catch_word": 67,
+    "date_header": 8755,
+    "index": 27475,
+    "main_text": 3671068,
+    "marginalia": 81114,
+    "other": 76,
+    "page_number": 3237,
+    "running_header": 41
+   },
+   "med_w_rel": 0.2978,
+   "methods": {
+    "catch_word|rule:catch_word": 16,
+    "date_header|rule:date_line": 391,
+    "date_header|rule:date_prefix": 438,
+    "date_header|rule:margin_prefix": 10,
+    "index|rule:index_page": 1753,
+    "main_text|rule:default": 87949,
+    "marginalia|rule:extra_role": 5205,
+    "marginalia|rule:margin_prefix": 2742,
+    "marginalia|rule:page_margin": 879,
+    "other|rule:noise": 62,
+    "page_number|rule:pn_line": 159,
+    "page_number|rule:pn_line_offchain": 73,
+    "page_number|rule:pn_suffix": 644,
+    "running_header|rule:header": 8
+   },
+   "n_candidates_pn_line": 216,
+   "n_candidates_pn_suffix": 677,
+   "n_index_pages": 38,
+   "n_lines": 96844,
+   "n_lines_blank": 349,
+   "n_lines_text": 96495,
+   "n_pages": 2043,
+   "n_rectos": 1023,
+   "n_rectos_with_page_number": 828,
+   "n_regions_typed": 11152,
+   "n_segments": 100329,
+   "seconds": 1.772,
+   "segments_per_type": {
+    "catch_word": 16,
+    "date_header": 839,
+    "index": 1753,
+    "main_text": 87949,
+    "marginalia": 8826,
+    "other": 62,
+    "page_number": 876,
+    "running_header": 8
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 438,
+    "rule:margin_prefix": 2752,
+    "rule:pn_suffix": 644
+   },
+   "main_text_char_share": 0.9682
+  },
+  "3353": {
+   "chain_candidates": 764,
+   "chain_length": 658,
+   "chars_per_type": {
+    "catch_word": 28,
+    "date_header": 8302,
+    "index": 23020,
+    "main_text": 3212469,
+    "marginalia": 75553,
+    "other": 55,
+    "page_number": 2651,
+    "running_header": 30
+   },
+   "med_w_rel": 0.29349,
+   "methods": {
+    "catch_word|rule:catch_word": 5,
+    "date_header|rule:date_line": 243,
+    "date_header|rule:date_prefix": 508,
+    "date_header|rule:margin_prefix": 2,
+    "index|rule:index_page": 1408,
+    "main_text|rule:default": 77207,
+    "marginalia|rule:extra_role": 4834,
+    "marginalia|rule:margin_prefix": 2597,
+    "marginalia|rule:page_margin": 819,
+    "other|rule:noise": 49,
+    "page_number|rule:pn_line": 98,
+    "page_number|rule:pn_line_offchain": 37,
+    "page_number|rule:pn_suffix": 568,
+    "running_header|rule:header": 6
+   },
+   "n_candidates_pn_line": 127,
+   "n_candidates_pn_suffix": 637,
+   "n_index_pages": 31,
+   "n_lines": 85134,
+   "n_lines_blank": 428,
+   "n_lines_text": 84706,
+   "n_pages": 1826,
+   "n_rectos": 913,
+   "n_rectos_with_page_number": 678,
+   "n_regions_typed": 10600,
+   "n_segments": 88381,
+   "seconds": 1.565,
+   "segments_per_type": {
+    "catch_word": 5,
+    "date_header": 753,
+    "index": 1408,
+    "main_text": 77207,
+    "marginalia": 8250,
+    "other": 49,
+    "page_number": 703,
+    "running_header": 6
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 508,
+    "rule:margin_prefix": 2599,
+    "rule:pn_suffix": 568
+   },
+   "main_text_char_share": 0.967
+  },
+  "3354": {
+   "chain_candidates": 260,
+   "chain_length": 239,
+   "chars_per_type": {
+    "catch_word": 28,
+    "date_header": 1639,
+    "index": 29,
+    "main_text": 363170,
+    "marginalia": 27121,
+    "other": 19,
+    "page_number": 989,
+    "running_header": 9
+   },
+   "med_w_rel": 0.17962,
+   "methods": {
+    "catch_word|rule:catch_word": 7,
+    "date_header|rule:date_line": 41,
+    "date_header|rule:date_prefix": 166,
+    "date_header|rule:margin_prefix": 2,
+    "index|rule:index_page": 3,
+    "main_text|rule:default": 9841,
+    "marginalia|rule:extra_role": 763,
+    "marginalia|rule:margin_prefix": 100,
+    "marginalia|rule:page_margin": 212,
+    "other|rule:noise": 13,
+    "page_number|rule:pn_line": 243,
+    "page_number|rule:pn_line_offchain": 21,
+    "page_number|rule:pn_suffix": 4,
+    "running_header|rule:header": 2
+   },
+   "n_candidates_pn_line": 256,
+   "n_candidates_pn_suffix": 4,
+   "n_index_pages": 47,
+   "n_lines": 11161,
+   "n_lines_blank": 15,
+   "n_lines_text": 11146,
+   "n_pages": 317,
+   "n_rectos": 164,
+   "n_rectos_with_page_number": 137,
+   "n_regions_typed": 3775,
+   "n_segments": 11418,
+   "seconds": 0.229,
+   "segments_per_type": {
+    "catch_word": 7,
+    "date_header": 209,
+    "index": 3,
+    "main_text": 9841,
+    "marginalia": 1075,
+    "other": 13,
+    "page_number": 268,
+    "running_header": 2
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 166,
+    "rule:margin_prefix": 102,
+    "rule:pn_suffix": 4
+   },
+   "main_text_char_share": 0.9241
+  },
+  "3771": {
+   "chain_candidates": 1114,
+   "chain_length": 976,
+   "chars_per_type": {
+    "catch_word": 4069,
+    "date_header": 24935,
+    "index": 25652,
+    "main_text": 5000176,
+    "marginalia": 15339,
+    "other": 567,
+    "page_number": 6938,
+    "running_header": 4885,
+    "signature_mark": 225
+   },
+   "med_w_rel": 0.1873,
+   "methods": {
+    "catch_word|rule:catch_word": 999,
+    "date_header|rule:date_line": 1478,
+    "date_header|rule:date_prefix": 2,
+    "index|rule:index_page": 1521,
+    "main_text|rule:default": 128257,
+    "marginalia|rule:extra_role": 1134,
+    "marginalia|rule:margin_prefix": 444,
+    "marginalia|rule:page_margin": 203,
+    "other|rule:noise": 497,
+    "page_number|rule:pn_line": 1143,
+    "page_number|rule:pn_line_offchain": 138,
+    "running_header|rule:header": 979,
+    "signature_mark|rule:signature": 86
+   },
+   "n_candidates_pn_line": 1114,
+   "n_candidates_pn_suffix": 0,
+   "n_index_pages": 16,
+   "n_lines": 139321,
+   "n_lines_blank": 2886,
+   "n_lines_text": 136435,
+   "n_pages": 1137,
+   "n_rectos": 569,
+   "n_rectos_with_page_number": 555,
+   "n_regions_typed": 11696,
+   "n_segments": 136881,
+   "seconds": 2.285,
+   "segments_per_type": {
+    "catch_word": 999,
+    "date_header": 1480,
+    "index": 1521,
+    "main_text": 128257,
+    "marginalia": 1781,
+    "other": 497,
+    "page_number": 1281,
+    "running_header": 979,
+    "signature_mark": 86
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 2,
+    "rule:margin_prefix": 444
+   },
+   "main_text_char_share": 0.9837
+  },
+  "3772": {
+   "chain_candidates": 1129,
+   "chain_length": 1043,
+   "chars_per_type": {
+    "catch_word": 4269,
+    "date_header": 26267,
+    "main_text": 5098171,
+    "marginalia": 11400,
+    "other": 618,
+    "page_number": 6744,
+    "running_header": 5324,
+    "signature_mark": 209
+   },
+   "med_w_rel": 0.18894,
+   "methods": {
+    "catch_word|rule:catch_word": 1052,
+    "date_header|rule:date_line": 1524,
+    "date_header|rule:date_prefix": 6,
+    "date_header|rule:margin_prefix": 16,
+    "main_text|rule:default": 134905,
+    "marginalia|rule:extra_role": 1010,
+    "marginalia|rule:margin_prefix": 221,
+    "marginalia|rule:page_margin": 125,
+    "other|rule:noise": 506,
+    "page_number|rule:pn_line": 1131,
+    "page_number|rule:pn_line_offchain": 86,
+    "running_header|rule:header": 1067,
+    "signature_mark|rule:signature": 86
+   },
+   "n_candidates_pn_line": 1128,
+   "n_candidates_pn_suffix": 1,
+   "n_index_pages": 0,
+   "n_lines": 143929,
+   "n_lines_blank": 2437,
+   "n_lines_text": 141492,
+   "n_pages": 1171,
+   "n_rectos": 587,
+   "n_rectos_with_page_number": 563,
+   "n_regions_typed": 11435,
+   "n_segments": 141735,
+   "seconds": 2.335,
+   "segments_per_type": {
+    "catch_word": 1052,
+    "date_header": 1546,
+    "main_text": 134905,
+    "marginalia": 1356,
+    "other": 506,
+    "page_number": 1217,
+    "running_header": 1067,
+    "signature_mark": 86
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 6,
+    "rule:margin_prefix": 237
+   },
+   "main_text_char_share": 0.9894
+  },
+  "3773": {
+   "chain_candidates": 1140,
+   "chain_length": 1054,
+   "chars_per_type": {
+    "catch_word": 4016,
+    "date_header": 26501,
+    "index": 34,
+    "main_text": 5185714,
+    "marginalia": 16141,
+    "other": 571,
+    "page_number": 6590,
+    "running_header": 5444,
+    "signature_mark": 248
+   },
+   "med_w_rel": 0.18922,
+   "methods": {
+    "catch_word|rule:catch_word": 1011,
+    "date_header|rule:date_line": 1528,
+    "date_header|rule:margin_prefix": 43,
+    "index|rule:index_page": 7,
+    "main_text|rule:default": 138381,
+    "marginalia|rule:extra_role": 1136,
+    "marginalia|rule:margin_prefix": 550,
+    "marginalia|rule:page_margin": 275,
+    "other|rule:noise": 470,
+    "page_number|rule:pn_line": 1142,
+    "page_number|rule:pn_line_offchain": 86,
+    "running_header|rule:header": 1089,
+    "signature_mark|rule:signature": 94
+   },
+   "n_candidates_pn_line": 1140,
+   "n_candidates_pn_suffix": 0,
+   "n_index_pages": 3,
+   "n_lines": 147639,
+   "n_lines_blank": 2420,
+   "n_lines_text": 145219,
+   "n_pages": 1201,
+   "n_rectos": 600,
+   "n_rectos_with_page_number": 569,
+   "n_regions_typed": 11649,
+   "n_segments": 145812,
+   "seconds": 2.423,
+   "segments_per_type": {
+    "catch_word": 1011,
+    "date_header": 1571,
+    "index": 7,
+    "main_text": 138381,
+    "marginalia": 1961,
+    "other": 470,
+    "page_number": 1228,
+    "running_header": 1089,
+    "signature_mark": 94
+   },
+   "splits_per_rule": {
+    "rule:margin_prefix": 593
+   },
+   "main_text_char_share": 0.9886
+  },
+  "3821": {
+   "chain_candidates": 770,
+   "chain_length": 603,
+   "chars_per_type": {
+    "catch_word": 2275,
+    "date_header": 29076,
+    "index": 35864,
+    "main_text": 3253191,
+    "marginalia": 41739,
+    "other": 321,
+    "page_number": 5232,
+    "running_header": 2777,
+    "signature_mark": 276
+   },
+   "med_w_rel": 0.17881,
+   "methods": {
+    "catch_word|rule:catch_word": 604,
+    "date_header|rule:date_line": 2920,
+    "date_header|rule:date_prefix": 3,
+    "date_header|rule:margin_prefix": 11,
+    "index|rule:index_page": 3808,
+    "main_text|rule:default": 99059,
+    "marginalia|rule:extra_role": 8012,
+    "marginalia|rule:margin_prefix": 559,
+    "marginalia|rule:page_margin": 213,
+    "other|rule:noise": 244,
+    "page_number|rule:pn_line": 781,
+    "page_number|rule:pn_line_offchain": 164,
+    "running_header|rule:header": 676,
+    "signature_mark|rule:signature": 114
+   },
+   "n_candidates_pn_line": 767,
+   "n_candidates_pn_suffix": 3,
+   "n_index_pages": 17,
+   "n_lines": 119045,
+   "n_lines_blank": 2450,
+   "n_lines_text": 116595,
+   "n_pages": 867,
+   "n_rectos": 435,
+   "n_rectos_with_page_number": 396,
+   "n_regions_typed": 17447,
+   "n_segments": 117168,
+   "seconds": 1.892,
+   "segments_per_type": {
+    "catch_word": 604,
+    "date_header": 2934,
+    "index": 3808,
+    "main_text": 99059,
+    "marginalia": 8784,
+    "other": 244,
+    "page_number": 945,
+    "running_header": 676,
+    "signature_mark": 114
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 3,
+    "rule:margin_prefix": 570
+   },
+   "main_text_char_share": 0.9651
+  },
+  "3822": {
+   "chain_candidates": 824,
+   "chain_length": 685,
+   "chars_per_type": {
+    "catch_word": 2491,
+    "date_header": 29221,
+    "index": 31463,
+    "main_text": 3444999,
+    "marginalia": 42915,
+    "other": 366,
+    "page_number": 5755,
+    "running_header": 3095,
+    "signature_mark": 243
+   },
+   "med_w_rel": 0.18416,
+   "methods": {
+    "catch_word|rule:catch_word": 667,
+    "date_header|rule:date_line": 2866,
+    "date_header|rule:date_prefix": 3,
+    "date_header|rule:margin_prefix": 9,
+    "index|rule:index_page": 3280,
+    "main_text|rule:default": 104386,
+    "marginalia|rule:extra_role": 8201,
+    "marginalia|rule:margin_prefix": 613,
+    "marginalia|rule:page_margin": 311,
+    "other|rule:noise": 286,
+    "page_number|rule:pn_line": 887,
+    "page_number|rule:pn_line_offchain": 139,
+    "running_header|rule:header": 752,
+    "signature_mark|rule:signature": 107
+   },
+   "n_candidates_pn_line": 824,
+   "n_candidates_pn_suffix": 0,
+   "n_index_pages": 16,
+   "n_lines": 124679,
+   "n_lines_blank": 2797,
+   "n_lines_text": 121882,
+   "n_pages": 916,
+   "n_rectos": 459,
+   "n_rectos_with_page_number": 414,
+   "n_regions_typed": 17383,
+   "n_segments": 122507,
+   "seconds": 2.047,
+   "segments_per_type": {
+    "catch_word": 667,
+    "date_header": 2878,
+    "index": 3280,
+    "main_text": 104386,
+    "marginalia": 9125,
+    "other": 286,
+    "page_number": 1026,
+    "running_header": 752,
+    "signature_mark": 107
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 3,
+    "rule:margin_prefix": 622
+   },
+   "main_text_char_share": 0.9675
+  },
+  "3823": {
+   "chain_candidates": 751,
+   "chain_length": 511,
+   "chars_per_type": {
+    "catch_word": 2234,
+    "date_header": 26959,
+    "index": 35663,
+    "main_text": 3237839,
+    "marginalia": 43971,
+    "other": 481,
+    "page_number": 5301,
+    "running_header": 2662,
+    "signature_mark": 304
+   },
+   "med_w_rel": 0.17571,
+   "methods": {
+    "catch_word|rule:catch_word": 595,
+    "date_header|rule:date_line": 2718,
+    "date_header|rule:date_prefix": 1,
+    "date_header|rule:margin_prefix": 10,
+    "index|rule:index_page": 3459,
+    "main_text|rule:default": 100444,
+    "marginalia|rule:extra_role": 8676,
+    "marginalia|rule:margin_prefix": 497,
+    "marginalia|rule:page_margin": 385,
+    "other|rule:noise": 364,
+    "page_number|rule:pn_line": 743,
+    "page_number|rule:pn_line_offchain": 238,
+    "page_number|rule:pn_suffix": 2,
+    "running_header|rule:header": 652,
+    "signature_mark|rule:signature": 133
+   },
+   "n_candidates_pn_line": 746,
+   "n_candidates_pn_suffix": 5,
+   "n_index_pages": 16,
+   "n_lines": 121664,
+   "n_lines_blank": 3257,
+   "n_lines_text": 118407,
+   "n_pages": 868,
+   "n_rectos": 436,
+   "n_rectos_with_page_number": 376,
+   "n_regions_typed": 16775,
+   "n_segments": 118917,
+   "seconds": 1.982,
+   "segments_per_type": {
+    "catch_word": 595,
+    "date_header": 2729,
+    "index": 3459,
+    "main_text": 100444,
+    "marginalia": 9558,
+    "other": 364,
+    "page_number": 983,
+    "running_header": 652,
+    "signature_mark": 133
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 1,
+    "rule:margin_prefix": 507,
+    "rule:pn_suffix": 2
+   },
+   "main_text_char_share": 0.965
+  },
+  "11182": {
+   "chain_candidates": 685,
+   "chain_length": 595,
+   "chars_per_type": {
+    "catch_word": 98,
+    "date_header": 1204,
+    "index": 5403,
+    "main_text": 2963950,
+    "marginalia": 51456,
+    "other": 121,
+    "page_number": 2063,
+    "running_header": 149
+   },
+   "med_w_rel": 0.31644,
+   "methods": {
+    "catch_word|rule:catch_word": 15,
+    "date_header|rule:date_line": 66,
+    "date_header|rule:date_prefix": 6,
+    "date_header|rule:margin_prefix": 1,
+    "index|rule:index_page": 299,
+    "main_text|rule:default": 54234,
+    "marginalia|rule:extra_role": 2352,
+    "marginalia|rule:margin_prefix": 1767,
+    "marginalia|rule:page_margin": 157,
+    "other|rule:noise": 98,
+    "page_number|rule:pn_line": 198,
+    "page_number|rule:pn_line_offchain": 57,
+    "page_number|rule:pn_suffix": 434,
+    "running_header|rule:header": 32
+   },
+   "n_candidates_pn_line": 218,
+   "n_candidates_pn_suffix": 467,
+   "n_index_pages": 30,
+   "n_lines": 57713,
+   "n_lines_blank": 205,
+   "n_lines_text": 57508,
+   "n_pages": 1466,
+   "n_rectos": 748,
+   "n_rectos_with_page_number": 635,
+   "n_regions_typed": 5477,
+   "n_segments": 59716,
+   "seconds": 1.071,
+   "segments_per_type": {
+    "catch_word": 15,
+    "date_header": 73,
+    "index": 299,
+    "main_text": 54234,
+    "marginalia": 4276,
+    "other": 98,
+    "page_number": 689,
+    "running_header": 32
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 6,
+    "rule:margin_prefix": 1768,
+    "rule:pn_suffix": 434
+   },
+   "main_text_char_share": 0.98
+  },
+  "11281": {
+   "chain_candidates": 947,
+   "chain_length": 765,
+   "chars_per_type": {
+    "catch_word": 4771,
+    "date_header": 2921,
+    "index": 3218,
+    "main_text": 2737584,
+    "marginalia": 53425,
+    "other": 200,
+    "page_number": 3543,
+    "running_header": 145
+   },
+   "med_w_rel": 0.30292,
+   "methods": {
+    "catch_word|rule:catch_word": 920,
+    "date_header|rule:date_line": 133,
+    "date_header|rule:date_prefix": 17,
+    "date_header|rule:margin_prefix": 35,
+    "index|rule:index_page": 164,
+    "main_text|rule:default": 72709,
+    "marginalia|rule:extra_role": 2828,
+    "marginalia|rule:margin_prefix": 2357,
+    "marginalia|rule:page_margin": 136,
+    "other|rule:noise": 144,
+    "page_number|rule:pn_line": 804,
+    "page_number|rule:pn_line_offchain": 160,
+    "page_number|rule:pn_suffix": 24,
+    "running_header|rule:header": 32
+   },
+   "n_candidates_pn_line": 901,
+   "n_candidates_pn_suffix": 46,
+   "n_index_pages": 10,
+   "n_lines": 78109,
+   "n_lines_blank": 79,
+   "n_lines_text": 78030,
+   "n_pages": 2193,
+   "n_rectos": 1106,
+   "n_rectos_with_page_number": 887,
+   "n_regions_typed": 7930,
+   "n_segments": 80463,
+   "seconds": 1.392,
+   "segments_per_type": {
+    "catch_word": 920,
+    "date_header": 185,
+    "index": 164,
+    "main_text": 72709,
+    "marginalia": 5321,
+    "other": 144,
+    "page_number": 988,
+    "running_header": 32
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 17,
+    "rule:margin_prefix": 2392,
+    "rule:pn_suffix": 24
+   },
+   "main_text_char_share": 0.9757
+  },
+  "455": {
+   "chain_candidates": 1271,
+   "chain_length": 995,
+   "chars_per_type": {
+    "catch_word": 4295,
+    "date_header": 30365,
+    "main_text": 7239192,
+    "marginalia": 12548,
+    "other": 808,
+    "page_number": 8265,
+    "running_header": 373,
+    "signature_mark": 57
+   },
+   "med_w_rel": 0.19146,
+   "methods": {
+    "catch_word|rule:catch_word": 1151,
+    "date_header|rule:date_line": 1655,
+    "date_header|rule:date_prefix": 2,
+    "main_text|rule:default": 166896,
+    "marginalia|rule:extra_role": 1539,
+    "marginalia|rule:margin_prefix": 190,
+    "marginalia|rule:page_margin": 119,
+    "other|rule:noise": 542,
+    "page_number|rule:pn_line": 1146,
+    "page_number|rule:pn_line_offchain": 268,
+    "page_number|rule:pn_suffix": 55,
+    "running_header|rule:header": 54,
+    "signature_mark|rule:signature": 28
+   },
+   "n_candidates_pn_line": 1187,
+   "n_candidates_pn_suffix": 84,
+   "n_index_pages": 0,
+   "n_lines": 173515,
+   "n_lines_blank": 117,
+   "n_lines_text": 173398,
+   "n_pages": 1426,
+   "n_rectos": 714,
+   "n_rectos_with_page_number": 628,
+   "n_regions_typed": 8651,
+   "n_segments": 173645,
+   "seconds": 3.104,
+   "segments_per_type": {
+    "catch_word": 1151,
+    "date_header": 1657,
+    "main_text": 166896,
+    "marginalia": 1848,
+    "other": 542,
+    "page_number": 1469,
+    "running_header": 54,
+    "signature_mark": 28
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 2,
+    "rule:margin_prefix": 190,
+    "rule:pn_suffix": 55
+   },
+   "main_text_char_share": 0.9922
+  },
+  "456": {
+   "chain_candidates": 1419,
+   "chain_length": 1277,
+   "chars_per_type": {
+    "catch_word": 4558,
+    "date_header": 31173,
+    "index": 1518,
+    "main_text": 7243270,
+    "marginalia": 11701,
+    "other": 443,
+    "page_number": 10516,
+    "running_header": 126,
+    "signature_mark": 300
+   },
+   "med_w_rel": 0.1932,
+   "methods": {
+    "catch_word|rule:catch_word": 1161,
+    "date_header|rule:date_line": 1746,
+    "date_header|rule:date_prefix": 1,
+    "date_header|rule:margin_prefix": 1,
+    "index|rule:index_page": 120,
+    "main_text|rule:default": 168789,
+    "marginalia|rule:extra_role": 526,
+    "marginalia|rule:margin_prefix": 393,
+    "marginalia|rule:page_margin": 48,
+    "other|rule:noise": 304,
+    "page_number|rule:pn_line": 1451,
+    "page_number|rule:pn_line_offchain": 135,
+    "page_number|rule:pn_suffix": 3,
+    "running_header|rule:header": 14,
+    "signature_mark|rule:signature": 127
+   },
+   "n_candidates_pn_line": 1405,
+   "n_candidates_pn_suffix": 14,
+   "n_index_pages": 3,
+   "n_lines": 175474,
+   "n_lines_blank": 1053,
+   "n_lines_text": 174421,
+   "n_pages": 1444,
+   "n_rectos": 722,
+   "n_rectos_with_page_number": 710,
+   "n_regions_typed": 4610,
+   "n_segments": 174819,
+   "seconds": 2.854,
+   "segments_per_type": {
+    "catch_word": 1161,
+    "date_header": 1748,
+    "index": 120,
+    "main_text": 168789,
+    "marginalia": 967,
+    "other": 304,
+    "page_number": 1589,
+    "running_header": 14,
+    "signature_mark": 127
+   },
+   "splits_per_rule": {
+    "rule:date_prefix": 1,
+    "rule:margin_prefix": 394,
+    "rule:pn_suffix": 3
+   },
+   "main_text_char_share": 0.9917
+  }
+ },
+ "laypa_455": {
+  "resolution": {
+   "marginalia": 829,
+   "running_header": 26,
+   "main_text": 27852,
+   "other": 159,
+   "catch_word": 8,
+   "date_header": 897,
+   "page_number": 392
+  },
+  "catch-word": {
+   "catch_word": 832,
+   "marginalia": 246,
+   "signature_mark": 4,
+   "main_text": 9,
+   "page_number": 26
+  },
+  "index": {
+   "main_text": 138691,
+   "marginalia": 329,
+   "running_header": 14,
+   "other": 376,
+   "page_number": 566,
+   "date_header": 716,
+   "catch_word": 9
+  },
+  "untagged": {
+   "marginalia": 383,
+   "other": 6,
+   "signature_mark": 20,
+   "page_number": 260,
+   "catch_word": 284,
+   "main_text": 338,
+   "date_header": 41,
+   "running_header": 3
+  },
+  "page-number": {
+   "page_number": 110,
+   "main_text": 2,
+   "marginalia": 12,
+   "running_header": 4,
+   "other": 1
+  },
+  "signature-mark": {
+   "marginalia": 21,
+   "page_number": 36,
+   "signature_mark": 3,
+   "catch_word": 12,
+   "date_header": 3,
+   "main_text": 2
+  },
+  "date": {
+   "catch_word": 1,
+   "marginalia": 4,
+   "main_text": 1
+  },
+  "header": {
+   "main_text": 1,
+   "page_number": 79,
+   "marginalia": 24,
+   "signature_mark": 1,
+   "catch_word": 5,
+   "running_header": 7
+  }
+ }
+}

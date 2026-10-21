@@ -1,0 +1,231 @@
+kind	scan	verdict	note
+type:page_number	3822_0116	right	
+type:page_number	3773_0298	right	
+type:page_number	455_0555	right	
+type:page_number	3771_0565	right	
+type:page_number	3772_0494	right	offchain; value 529 does not fit the chain but the type is right
+type:page_number	3771_0465	right	
+type:page_number	3353_0177	right	
+type:page_number	455_0228	right	
+type:page_number	11281_0511	right	
+type:page_number	11281_0494	right	
+type:page_number	11182_0497	right	
+type:page_number	3771_0387	right	
+type:page_number	3351_0169	right	
+type:page_number	456_0683	right	
+type:page_number	3349_0537	right	
+type:page_number	3771_0176	right	
+type:page_number	3773_0068	right	
+type:page_number	455_0627	right	
+type:page_number	455_0080	right	
+type:page_number	3822_0235	wrong	'2767' is a running year read with a 2
+type:date_header	455_0105	right	
+type:date_header	3822_0360	right	
+type:date_header	3772_0308	right	
+type:date_header	455_0371	right	
+type:date_header	3771_0073	right	
+type:date_header	3350_0098	right	
+type:date_header	3822_0414	right	
+type:date_header	3823_0366	right	
+type:date_header	3821_0237	right	
+type:date_header	3822_0213	right	
+type:date_header	3771_0414	right	
+type:date_header	455_0521	right	
+type:date_header	3352_0486	right	
+type:date_header	3821_0084	ambiguous	date entry in a 3821-3823 register page, not a day header
+type:date_header	3822_0049	ambiguous	date entry in a 3821-3823 register page, not a day header
+type:date_header	3821_0067	ambiguous	date entry in a 3821-3823 register page, not a day header
+type:date_header	3821_0050	ambiguous	date entry in a 3821-3823 register page, not a day header
+type:date_header	3821_0011	ambiguous	date entry in a 3821-3823 register page, not a day header
+type:date_header	3822_0074	ambiguous	date entry in a 3821-3823 register page, not a day header
+type:date_header	3821_0017	ambiguous	date entry in a 3821-3823 register page, not a day header
+type:running_header	3822_0281	right	running year
+type:running_header	3821_0177	right	running year
+type:running_header	3773_0248	right	running year
+type:running_header	3773_0514	right	running year
+type:running_header	3773_0189	right	running year
+type:running_header	3772_0253	right	running year
+type:running_header	3822_0362	right	running year
+type:running_header	3773_0140	right	running year
+type:running_header	3771_0512	right	running year
+type:running_header	3771_0122	right	running year
+type:running_header	3772_0571	right	running year
+type:running_header	3773_0594	right	running year
+type:running_header	3821_0203	right	running year
+type:running_header	3772_0586	right	running year
+type:running_header	3822_0192	right	running year
+type:running_header	3773_0305	right	running year
+type:running_header	3823_0438	right	running year
+type:running_header	3821_0123	right	running year
+type:running_header	3772_0093	right	running year
+type:running_header	3822_0410	right	running year
+type:catch_word	455_0551	right	
+type:catch_word	11182_0284	right	
+type:catch_word	455_0059	right	
+type:catch_word	3823_0263	right	
+type:catch_word	3773_0461	right	
+type:catch_word	3823_0141	right	
+type:catch_word	3772_0427	right	
+type:catch_word	3771_0225	right	
+type:catch_word	3822_0271	right	
+type:catch_word	455_0236	right	
+type:catch_word	455_0612	right	
+type:catch_word	3822_0312	right	
+type:catch_word	11281_0278	right	
+type:catch_word	455_0411	right	
+type:catch_word	3773_0106	right	
+type:catch_word	3771_0565	right	
+type:catch_word	3773_0126	right	
+type:catch_word	3821_0103	right	
+type:catch_word	3773_0236	right	
+type:catch_word	3821_0260	right	
+type:signature_mark	3823_0182	right	
+type:signature_mark	3822_0190	right	
+type:signature_mark	3821_0183	right	
+type:signature_mark	3821_0422	right	
+type:signature_mark	3821_0133	right	
+type:signature_mark	3773_0029	right	
+type:signature_mark	456_0253	right	
+type:signature_mark	456_0251	right	
+type:signature_mark	3823_0236	right	
+type:signature_mark	456_0115	right	
+type:signature_mark	3821_0084	right	
+type:signature_mark	3772_0182	right	
+type:signature_mark	3771_0176	right	
+type:signature_mark	3773_0418	right	
+type:signature_mark	3822_0089	right	
+type:signature_mark	456_0399	right	
+type:signature_mark	3822_0220	right	
+type:signature_mark	3773_0436	right	
+type:signature_mark	3823_0119	right	
+type:signature_mark	3821_0239	right	
+type:marginalia	3771_0569	right	
+type:marginalia	3354_0199	right	
+type:marginalia	3350_0474	right	
+type:marginalia	3349_0360	right	
+type:marginalia	3353_0485	right	
+type:marginalia	3350_0844	right	
+type:marginalia	3349_0789	right	
+type:marginalia	3822_0027	wrong	register column numbers, main text in an extra region, or a running year
+type:marginalia	3821_0052	wrong	register column numbers, main text in an extra region, or a running year
+type:marginalia	11182_0028	wrong	register column numbers, main text in an extra region, or a running year
+type:marginalia	3353_0860	wrong	register column numbers, main text in an extra region, or a running year
+type:marginalia	3821_0078	wrong	register column numbers, main text in an extra region, or a running year
+type:marginalia	3823_0050	wrong	register column numbers, main text in an extra region, or a running year
+type:marginalia	3823_0075	ambiguous	
+type:marginalia	3352_0324	ambiguous	
+type:marginalia	3353_0432	ambiguous	
+type:marginalia	3822_0034	ambiguous	
+type:marginalia	3773_0031	ambiguous	
+type:marginalia	3822_0013	ambiguous	
+type:marginalia	11182_0250	ambiguous	
+type:index	3823_0085	right	segment inside a register/name-index page
+type:index	3822_0070	right	segment inside a register/name-index page
+type:index	3821_0069	right	segment inside a register/name-index page
+type:index	3822_0042	right	segment inside a register/name-index page
+type:index	3821_0066	right	segment inside a register/name-index page
+type:index	3353_0033	right	segment inside a register/name-index page
+type:index	3821_0056	right	segment inside a register/name-index page
+type:index	3352_0025	right	segment inside a register/name-index page
+type:index	3349_0030	right	segment inside a register/name-index page
+type:index	3821_0033	right	segment inside a register/name-index page
+type:index	3822_0059	right	segment inside a register/name-index page
+type:index	3822_0070b	right	segment inside a register/name-index page
+type:index	3821_0034	right	segment inside a register/name-index page
+type:index	3823_0070	right	segment inside a register/name-index page
+type:index	3821_0074	right	segment inside a register/name-index page
+type:index	3822_0063	right	segment inside a register/name-index page
+type:index	3353_0006	right	segment inside a register/name-index page
+type:index	11182_0346	right	segment inside a register/name-index page
+type:index	3350_0022	right	segment inside a register/name-index page
+type:index	3823_0417	ambiguous	single letter inside a 254-line page
+type:other	3822_0354	right	single character/digit; about 7 are drop capitals
+type:other	3773_0593	right	single character/digit; about 7 are drop capitals
+type:other	455_0665	right	single character/digit; about 7 are drop capitals
+type:other	3773_0014	right	single character/digit; about 7 are drop capitals
+type:other	3773_0306	right	single character/digit; about 7 are drop capitals
+type:other	3772_0549	right	single character/digit; about 7 are drop capitals
+type:other	3771_0553	right	single character/digit; about 7 are drop capitals
+type:other	455_0427	right	single character/digit; about 7 are drop capitals
+type:other	455_0062	right	single character/digit; about 7 are drop capitals
+type:other	455_0057	right	single character/digit; about 7 are drop capitals
+type:other	3822_0448	right	single character/digit; about 7 are drop capitals
+type:other	11281_0164	right	single character/digit; about 7 are drop capitals
+type:other	3772_0469	right	single character/digit; about 7 are drop capitals
+type:other	3771_0258	right	single character/digit; about 7 are drop capitals
+type:other	3352_0012	right	single character/digit; about 7 are drop capitals
+type:other	3772_0339	right	single character/digit; about 7 are drop capitals
+type:other	3773_0429	right	single character/digit; about 7 are drop capitals
+type:other	455_0680	right	single character/digit; about 7 are drop capitals
+type:other	455_0325	right	single character/digit; about 7 are drop capitals
+type:other	3821_0049	right	single character/digit; about 7 are drop capitals
+split:rule:date_prefix	3353_0159	right	boundary at the right token (3354_0152 and 3354_0087 are ledger entry dates)
+split:rule:date_prefix	3352_0553	right	boundary at the right token (3354_0152 and 3354_0087 are ledger entry dates)
+split:rule:date_prefix	3354_0152	right	boundary at the right token (3354_0152 and 3354_0087 are ledger entry dates)
+split:rule:date_prefix	3352_0074	right	boundary at the right token (3354_0152 and 3354_0087 are ledger entry dates)
+split:rule:date_prefix	3352_0248	right	boundary at the right token (3354_0152 and 3354_0087 are ledger entry dates)
+split:rule:date_prefix	3352_0040	right	boundary at the right token (3354_0152 and 3354_0087 are ledger entry dates)
+split:rule:date_prefix	3350_0391	right	boundary at the right token (3354_0152 and 3354_0087 are ledger entry dates)
+split:rule:date_prefix	3354_0087	right	boundary at the right token (3354_0152 and 3354_0087 are ledger entry dates)
+split:rule:date_prefix	3353_0803	right	boundary at the right token (3354_0152 and 3354_0087 are ledger entry dates)
+split:rule:date_prefix	3353_0801	right	boundary at the right token (3354_0152 and 3354_0087 are ledger entry dates)
+split:rule:pn_suffix	3353_0464	right	
+split:rule:pn_suffix	3352_0707	right	
+split:rule:pn_suffix	3352_0040	right	
+split:rule:pn_suffix	3352_0402	right	
+split:rule:pn_suffix	3350_0830	right	
+split:rule:pn_suffix	3350_0212	right	
+split:rule:pn_suffix	11182_0747	right	
+split:rule:pn_suffix	11182_0743	right	
+split:rule:pn_suffix	3353_0575	right	
+split:rule:pn_suffix	11182_0480	right	
+split:rule:margin_prefix	3353_0318	right	Praside | ...; Magt. van Herstal | ...
+split:rule:margin_prefix	3349_0380	right	Praside | ...; Magt. van Herstal | ...
+split:rule:margin_prefix	3773_0011	ambiguous	Claterenbosch, | Wed. ... (name list)
+split:rule:margin_prefix	11281_0486	wrong	the whole line is marginal text (cut is arbitrary) or the cut isolates a main-text word
+split:rule:margin_prefix	3822_0382	wrong	the whole line is marginal text (cut is arbitrary) or the cut isolates a main-text word
+split:rule:margin_prefix	3353_0471	wrong	the whole line is marginal text (cut is arbitrary) or the cut isolates a main-text word
+split:rule:margin_prefix	3351_0109	wrong	the whole line is marginal text (cut is arbitrary) or the cut isolates a main-text word
+split:rule:margin_prefix	11281_0791	wrong	the whole line is marginal text (cut is arbitrary) or the cut isolates a main-text word
+split:rule:margin_prefix	3353_0188	wrong	the whole line is marginal text (cut is arbitrary) or the cut isolates a main-text word
+split:rule:margin_prefix	3350_0346	wrong	the whole line is marginal text (cut is arbitrary) or the cut isolates a main-text word
+recall:hand	3353_0858	main_text_ok	
+recall:hand	3353_0100	main_text_ok	
+recall:hand	11281_0676	main_text_ok	
+recall:hand	3352_0295	main_text_ok	
+recall:hand	3352_0746	main_text_ok	
+recall:hand	3352_0200	main_text_ok	
+recall:hand	3350_0358	main_text_ok	
+recall:hand	11281_0308	main_text_ok	
+recall:hand	11182_0567	main_text_ok	
+recall:hand	11182_0560	main_text_ok	
+recall:hand	3354_0166	main_text_ok	
+recall:hand	11182_0243	main_text_ok	
+recall:hand	3352_0121	main_text_ok	
+recall:hand	3349_0826	main_text_ok	
+recall:hand	3349_0218	main_text_ok	
+recall:hand	3350_0874	main_text_ok	
+recall:hand	3352_0882	main_text_ok	
+recall:hand	11281_0749	main_text_ok	
+recall:hand	11281_0134	main_text_ok	
+recall:hand	3353_0138	main_text_ok	
+recall:print	456_0413	main_text_ok	
+recall:print	456_0187	main_text_ok	
+recall:print	456_0088	main_text_ok	
+recall:print	455_0640	main_text_ok	
+recall:print	455_0391	main_text_ok	
+recall:print	456_0452	main_text_ok	
+recall:print	456_0686	main_text_ok	
+recall:print	455_0614	main_text_ok	
+recall:print	455_0250	main_text_ok	
+recall:print	455_0066	main_text_ok	
+recall:print	455_0555	main_text_ok	
+recall:print	456_0125	main_text_ok	
+recall:print	456_0198	main_text_ok	
+recall:print	455_0562	main_text_ok	
+recall:print	456_0367	main_text_ok	
+recall:print	455_0699	main_text_ok	
+recall:print	456_0161	main_text_ok	
+recall:print	455_0670	furniture_as_main	page number with extra OCR digits ('11323 )', '111475 )', '1 605 )')
+recall:print	456_0646	furniture_as_main	page number with extra OCR digits ('11323 )', '111475 )', '1 605 )')
+recall:print	455_0311	furniture_as_main	page number with extra OCR digits ('11323 )', '111475 )', '1 605 )')

@@ -6,14 +6,17 @@ import pagexml.model.physical_document_model as pdm
 from pagexml.model.coords import Baseline
 
 from archival_structures.analysis.page_structure import (
-    LayoutParams, assign_column_roles, find_separation_x, fit_gutter, group_regions_into_columns,
-    hull_coords, merge_overlapping_text_regions, region_box_id, split_scan_into_pages)
+    get_overlapping_region_sets,
+    LEGACY_15FP, LayoutParams, assign_column_roles, choose_gutter_rule, find_main_edge_x,
+    find_separation_x, fit_gutter, furniture_region_ids, group_regions_into_columns, hull_coords,
+    inventory_line_width_rel, merge_overlapping_text_regions, region_box_id,
+    split_regions_on_line_field, split_scan_into_pages)
 
 SCAN = "NL-HaNA_1.01.02_9999_0001"
 
 
-def line(lid, x, y, w=400, h=40, text="tekst"):
-    return pdm.PageXMLTextLine(doc_id=lid, metadata={"scan_id": SCAN},
+def line(lid, x, y, w=400, h=40, text="tekst", column=""):
+    return pdm.PageXMLTextLine(doc_id=lid, metadata={"scan_id": SCAN, "column": column},
                                coords=pdm.Coords.coords_from_box_params(x, y, w, h),
                                baseline=Baseline([(x, y + h - 5), (x + w, y + h - 5)]), text=text)
 
@@ -66,6 +69,53 @@ def test_transitive_merge_deterministic():
         assert sorted(merged[0].metadata["merged_from"]) == ["A", "B", "C"]
         results.add((merged[0].id, tuple(l.id for l in merged[0].lines)))
     assert len(results) == 1
+
+
+def _col_region(rid, x, y0, n, column, step=50):
+    return region(rid, [line(f"{rid}-l{i}", x, y0 + i * step, column=column) for i in range(n)])
+
+
+def test_column_guard_keeps_split_pieces_apart():
+    a = _col_region("A", 100, 100, 4, "1")
+    b = _col_region("B", 100, 150, 4, "2")
+    blocked = {}
+    out, _ = merge_overlapping_text_regions([a, b], column_blocked=blocked)
+    assert len(out) == 2 and list(blocked) == [("A", "B")]
+    out, _ = merge_overlapping_text_regions([a, b], LayoutParams(column_merge_guard=False))
+    assert len(out) == 1
+
+
+def test_column_guard_empty_value_joins():
+    a = _col_region("A", 100, 100, 4, "1")
+    b = _col_region("B", 100, 150, 4, "")
+    out, _ = merge_overlapping_text_regions([a, b])
+    assert len(out) == 1
+
+
+def test_column_guard_chain():
+    a = _col_region("A", 100, 100, 4, "1")
+    b = region("B", [line(f"B-l{i}", 100, 210 + i * 30, column="") for i in range(2)])
+    c = _col_region("C", 100, 240, 10, "2")
+    sets = get_overlapping_region_sets([a, b, c], column_field="column")
+    assert [[r.id for r in s] for s in sets] == [["A", "B"], ["C"]]
+
+
+def test_column_guard_off_without_field():
+    a = _col_region("A", 100, 100, 4, "1")
+    b = _col_region("B", 100, 150, 4, "2")
+    out, _ = merge_overlapping_text_regions([a, b], LayoutParams(split_on_line_field=""))
+    assert len(out) == 1
+
+
+def test_column_guard_order_unchanged():
+    a = column_region("A", 100, 100, 4)
+    b = column_region("B", 100, 210, 2, step=30)
+    c = column_region("C", 100, 240, 10)
+    d = column_region("D", 900, 100, 4)
+    regions = [d, c, a, b]
+    on = get_overlapping_region_sets(regions, column_field="column")
+    off = get_overlapping_region_sets(regions)
+    assert [[r.id for r in s] for s in on] == [[r.id for r in s] for s in off]
 
 
 def test_unmerged_id_unchanged():
@@ -142,3 +192,119 @@ def test_page_parentage():
 def test_empty_page_builds():
     page = assign_column_roles([], page_id="p")
     assert page.columns == [] and page.extra == []
+
+
+# --- step 15fq ------------------------------------------------------------------------------
+
+def _opening_boxes():
+    """Page width 2000: verso lines x 200-1000, recto margin notes x 1005-1200, recto text from
+    1300 (gap 1210-1290)."""
+    verso = [(200, 800)] * 8
+    notes = [(1005, 195)] * 3
+    recto = [(1300, 600)] * 8
+    return verso + notes + recto
+
+
+def test_main_edge_moves_recto_margin_notes():
+    boxes = _opening_boxes()
+    med = inventory_line_width_rel([(2000, boxes)])
+    x, method = find_separation_x(boxes, 2000, 0.5)
+    assert method == "gap" and 1210 <= x <= 1290        # notes (centre 1100) go to the verso
+    x, method = find_separation_x(boxes, 2000, 0.5, rule="main_edge", med_w_rel=med)
+    assert method == "main_edge" and x == 1000          # notes go to the recto
+
+
+def test_main_edge_fallback_few_long_lines():
+    boxes = [(200, 800)] * 3 + [(1300, 600)] * 8
+    med = 0.3
+    assert find_main_edge_x(boxes, 2000, 0.5, med) is None
+    x, method = find_separation_x(boxes, 2000, 0.5, rule="main_edge", med_w_rel=med)
+    assert method == "gap"
+
+
+def test_main_edge_fallback_window():
+    boxes = [(200, 400)] * 8 + [(1700, 250)] * 8        # edges 600 and 1700: 1000 away from c0
+    assert find_main_edge_x(boxes, 2000, 0.5, 0.2) is None
+
+
+def test_choose_gutter_rule():
+    p = LayoutParams()
+    assert choose_gutter_rule(984, 1000, p) == "gap"
+    assert choose_gutter_rule(874, 1000, p) == "main_edge"
+    assert choose_gutter_rule(0, 0, p) == "gap"
+    assert choose_gutter_rule(1, 100, LayoutParams(gutter_rule="gap")) == "gap"
+    assert choose_gutter_rule(100, 100, LayoutParams(gutter_rule="main_edge")) == "main_edge"
+
+
+def test_split_on_line_field():
+    lines = [line("a", 100, 100, column="1"), line("b", 600, 100, column="2"),
+             line("c", 100, 150, column="1"), line("d", 100, 400, column="")]
+    r = region("R", lines)
+    out, n = split_regions_on_line_field([r], "column")
+    assert n == 1 and len(out) == 3
+    assert [[l.id for l in o.lines] for o in out] == [["a", "c"], ["b"], ["d"]]
+    assert all(o.metadata["column_split_from"] == ["R"] for o in out)
+    assert out[0].id == region_box_id(SCAN, out[0].coords)
+    same = region("S", [line("e", 100, 100), line("f", 100, 150)])
+    out, n = split_regions_on_line_field([same], "column")
+    assert n == 0 and out[0] is same
+
+
+PATTERNS = (r"\W*(fol\.?|pag\.?|p\.)?\s*\d{1,4}\s*\W*",)
+
+
+def test_furniture_not_merged():
+    params = LayoutParams(furniture_patterns=PATTERNS)
+    main = column_region("main", 100, 100, 10)
+    number = region("num", [line("n0", 150, 322, 100, 30, text="( 93")])
+    ids = furniture_region_ids([main, number], 600, 1000, params)
+    assert ids == {"num"}
+    out, _ = merge_overlapping_text_regions([main, number], params, exclude=ids)
+    assert [r.id for r in out] == ["main", "num"]
+    out, _ = merge_overlapping_text_regions([main, number], LayoutParams(interleave_guard=False))
+    assert len(out) == 1
+
+
+def test_catchword_band():
+    page_h = 1000
+    body = column_region("body", 100, 100, 5)
+    catch = region("catch", [line("c0", 100, 940, 120, 30, text="Gesien")])
+    mid = region("mid", [line("m0", 600, 500, 120, 30, text="Gesien")])
+    two = region("two", [line("t0", 100, 960, 200, 30, text="twee woorden")])
+    params = LayoutParams()
+    assert furniture_region_ids([body, catch, mid, two], 970, page_h, params) == {"catch"}
+    assert furniture_region_ids([body, catch], 970, page_h, LayoutParams(catchword_band=0.0)) == set()
+
+
+def test_interleave_guard_blocks_margin_item():
+    main = column_region("main", 100, 100, 10)                  # lines w 400, y 100..590
+    note = region("note", [line("note-l0", 150, 322, 100, 30, text="1. Maart")])
+    blocked = {}
+    out, passes = merge_overlapping_text_regions([main, note], blocked=blocked)
+    assert [r.id for r in out] == ["main", "note"] and passes == 0
+    assert list(blocked) == [("main", "note")]
+    out, _ = merge_overlapping_text_regions([main, note], LayoutParams(interleave_guard=False))
+    assert len(out) == 1
+
+
+def test_nested_full_width_still_merges():
+    main = column_region("main", 100, 100, 10)
+    odd = region("odd", [line("odd-l0", 100, 322, 400, 30)])
+    out, _ = merge_overlapping_text_regions([main, odd])
+    assert len(out) == 1
+    # sticking out above the column's first line: not strictly inside, so not blocked
+    top = region("top", [line("top-l0", 150, 90, 100, 30)])
+    out, _ = merge_overlapping_text_regions([main, top])
+    assert len(out) == 1
+
+
+def test_legacy_params_match_15fp_defaults():
+    d = LEGACY_15FP.to_dict()
+    assert d["gutter_rule"] == "gap" and d["interleave_guard"] is False
+    assert LayoutParams.from_dict(d) == LEGACY_15FP
+    assert LayoutParams.from_dict({"furniture_patterns": ["a"]}).furniture_patterns == ("a",)
+    main = column_region("main", 100, 100, 10)
+    note = region("note", [line("note-l0", 150, 322, 100, 30)])
+    out, passes = merge_overlapping_text_regions([main, note], LEGACY_15FP)
+    assert len(out) == 1 and passes == 1                        # 15fp behaviour: merged
+    assert find_separation_x(_opening_boxes(), 2000, 0.5, LEGACY_15FP)[1] == "gap"

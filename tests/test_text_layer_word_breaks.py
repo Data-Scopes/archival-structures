@@ -115,3 +115,71 @@ def test_read_word_break_sets_round_trip(tmp_path):
     sets, default = wb.read_word_break_sets(tmp_path)
     assert sets == {"1": {"¬", "="}, "9626A": {"¬", "„"}, "2": set()}
     assert default == {"¬", "„"}
+
+
+# --- step 15hj2: pinned sets in decide_v2 --------------------------------------------------------
+
+def _v2_run(tmp_path, pinned):
+    import dataclasses
+    from types import SimpleNamespace
+    from archival_structures.text_layer.presets import SG_HAND_V2
+    (tmp_path / "wbc").mkdir(exist_ok=True)
+    preset = dataclasses.replace(SG_HAND_V2, wbc_pinned=pinned)
+    return SimpleNamespace(preset=preset, root=tmp_path)
+
+
+def _v2_stats():
+    """Two inventories; '.' is made to pass the rule exactly like the bar does."""
+    frames = []
+    for inv in ("1", "2"):
+        f = _stats_frame(_inventory(), inv=inv)
+        f["all_freq_robust"] = f["all_freq"]
+        f["end_rel_frac_robust"] = f["end_rel_frac"]
+        bar = f[f["char"] == "¬"].iloc[0]
+        for col in f.columns:
+            if col not in ("inventory_number", "char", "char_name", "n_lines") \
+                    and not col.startswith("total_"):
+                f.loc[f["char"] == ".", col] = bar[col]
+        frames.append(f)
+    return pd.concat(frames, ignore_index=True)
+
+
+def test_decide_v2_pinned(tmp_path):
+    from archival_structures.text_layer.build import decide_v2
+    stats = _v2_stats()
+    lines = {"1": 5000, "2": 5000}
+    run = _v2_run(tmp_path, {"default": "-=„", "2": "-:=„"})
+    rows, corpus = decide_v2(run, stats, lines)
+    by = {r["inventory_number"]: r for r in rows}
+    assert by["1"]["wbc_set"] == "".join(sorted("-=„"))
+    assert by["2"]["wbc_set"] == "".join(sorted("-:=„"))
+    assert by["1"]["mode"] == by["2"]["mode"] == "pinned"
+    assert by["1"]["differs_from_default"] is False and by["2"]["differs_from_default"] is True
+    assert "." in corpus["derived_default_set"]
+    assert corpus["pooled_rule_sanity_pass"] is False
+    assert corpus["sanity_pass"] is True
+    assert corpus["default_set"] == sorted("-=„")
+    assert corpus["pinned"] == {"default": "-=„", "2": "-:=„"}
+    assert corpus["rule_text"].endswith("(wbc_pinned).")
+    assert ".:derived_in/pinned_out" in by["1"]["char_status"]
+
+
+def test_decide_v2_unpinned_unchanged(tmp_path):
+    from archival_structures.text_layer.build import decide_v2
+    stats = _v2_stats()
+    lines = {"1": 5000, "2": 5000}
+    rows, corpus = decide_v2(_v2_run(tmp_path, None), stats, lines)
+    expect_rows, expect_corpus = wb.decide_word_breaks(
+        stats, lines, sanity_in=[], sanity_out=[":", "."])
+    assert rows == expect_rows and corpus == expect_corpus
+    assert corpus["sanity_pass"] is False and "pinned" not in corpus
+
+
+def test_sg_hand_pins():
+    """Step 15i2 (UA-011 b): hand_tar inventories whose derived set lacks `=` pin `-„`."""
+    from archival_structures.text_layer.presets import SG_HAND_V2
+    p = SG_HAND_V2.wbc_pinned
+    assert p == {"default": "-=„", "11281": "-:=„", "3349": "-„", "3350": "-„", "3351": "-„",
+                 "3353": "-„", "3354": "-„"}
+    for inv in ("3352", "3771", "11182"):
+        assert inv not in p and p["default"] == "-=„"
