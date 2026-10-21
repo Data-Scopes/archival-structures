@@ -110,6 +110,25 @@ The user answers here, not in the chat. One entry per item:
   reuse one.
 - Keep `docs/USER_ACTIONS.md` to open items only, so it stays cheap to read.
 
+## Compute
+
+- Local: MPS or CPU. Select the device at runtime; never hardcode `cuda`.
+  Parallelise batch jobs, but all projects share one budget of 8 workers. Check
+  `python3 /Users/Shared/claude_projects/data_scopes/shared-tools/coreshare.py status`
+  first, and launch every job with more than one worker through
+  `coreshare.py run --project <project> --label <step> --want N --min M --wait -- <cmd --workers {workers}>`.
+  Use the granted count; never hardcode a worker count. Subagent briefs say the same.
+- **GPU work runs on the user's external VMs (2× A10, 22 CPU cores), which
+  the user launches themselves.** Never request or assume SSH access.
+  VMs are reserved for long/overnight jobs.
+- Therefore every GPU script must be **handoff-ready**: `argparse` with
+  explicit paths, a docstring listing exactly which files to copy over,
+  resumable from checkpoints, progress logged to a file, no interactive
+  prompts, and a `--limit N` smoke-test mode that runs locally first.
+- Batch independent GPU steps into one overnight run.
+- Optimise code to use both A10 GPUs (CUDA:0 and CUDA:1) where it speeds 
+  things up.
+
 ## Token discipline
 
 - Never read large data files into context. Use pandas with explicit `usecols` and print

@@ -24,6 +24,7 @@ from archival_structures.stream_analysis.corruption.operators import (
     foreign_document_insertion,
     initial_provenance,
     intra_document_swap,
+    page_duplication,
     swap_and_insertion,
 )
 from archival_structures.stream_analysis.corruption.schema import (
@@ -38,6 +39,7 @@ CASE_NAMES: tuple[str, ...] = (
     'foreign_document_insertion',
     'swap_and_insertion',
     'document_level_swap',
+    'page_duplication',
 )
 
 
@@ -59,6 +61,8 @@ def _apply_case(
         return swap_and_insertion(stream, provenance, swap_rate=rate, insertion_rate=rate, rng=rng)
     if case == 'document_level_swap':
         return document_level_swap(stream, provenance, rate, rng)
+    if case == 'page_duplication':
+        return page_duplication(stream, provenance, rate, rng)
     raise ValueError(f'unknown case {case!r}, expected one of {CASE_NAMES}')
 
 

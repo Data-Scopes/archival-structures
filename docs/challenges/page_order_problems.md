@@ -161,6 +161,24 @@ boundary detection altogether; catching it needs an external ordering signal (e.
 or date read from the document's own text) checked against the expected sequence, not anything
 recoverable from the page stream alone.
 
+## Case 5 -- page duplication (re-shoot)
+
+A page is photographed twice and the copy sits right after the original (a **re-shoot**; all 13
+documented SG re-shoots are adjacent, see phase 08 step 17). Unlike Cases 1-4 this changes the
+stream's **length**: the observed stream has `n + n_copies` positions, and a copy has the same
+`canonical_index` as its original.
+
+**Example.** Canonical `D1 = (c1, c2)`, `D2 = (c3)`; observed `(c1, c1, c2, c3)`.
+
+Framing A: the first `c1` is the start of `D1`; the copy is a continuation, so the true labels
+are `[True, False, False, True]` (`observed_start_labels` labels the first occurrence of a
+canonical index only). A classifier that flags both `c1` positions as starts gets one false
+positive and cuts `D1` in two. Framing B: every adjacent pair is still labelled correctly (the
+copy and its original share a `document_id`), so grouping into maximal runs is unaffected.
+
+Operator: `page_duplication(stream, provenance, rate, rng)`; the rate is **per page** (expected
+copies `rate * n`), one `rng.random()` draw per input page.
+
 ## Summary
 
 "Affected?" below is with respect to whichever
@@ -174,6 +192,7 @@ adjacency) diverge for Case 1, and inherit that same divergence in Case 3.
 | 2. Foreign-document insertion | pages across 2+ documents | Yes -- "start vs. resume" has no vocabulary in this framing | Yes, but not because any pairwise label is wrong -- every `l_i` is correctly predicted; grouping same-document pairs into maximal runs still assumes a document occupies one contiguous run, which the interleaving violates |
 | 3. Swap + insertion | both | Yes, and possibly compounded by the swap | Yes, for the same reason as Case 2 |
 | 4. Document-level swap | whole documents | No -- not visible to either framing; needs an external ordering signal | No -- same |
+| 5. Page duplication (re-shoot) | one page repeated right after itself (stream gets longer) | Yes, if the repeated page is a true start: the copy must be labelled a continuation, not a second start | No -- copy and original are the same document, so the pairwise label is correct |
 
 ## Open question: simulating these at controlled rates
 

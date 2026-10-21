@@ -1,0 +1,60 @@
+sample	row	inventory_number	page_id_a	page_id_b	jaccard_exact	adjacent	verdict
+A	38104	12020	NL-HaNA_1.01.02_12020_0149-page-1	NL-HaNA_1.01.02_12020_0149-page-2	0.605	False	other: parallel copy of the same text
+A	38643	12136	NL-HaNA_1.01.02_12136_0003-page-2	NL-HaNA_1.01.02_12136_0087-page-2	0.775	False	re-shoot
+A	47452	12491	NL-HaNA_1.01.02_12491_0317-page-1	NL-HaNA_1.01.02_12491_0319-page-1	0.761	False	other: parallel copy of the same text
+A	12221	710	NL-HaNA_1.01.02_710_0181-page-2	NL-HaNA_1.01.02_710_0237-page-2	0.672	False	repeated formula or heading
+A	24820	4444	NL-HaNA_1.01.02_4444_0055-page-2	NL-HaNA_1.01.02_4444_0156-page-2	0.751	False	repeated formula or heading
+A	39664	12136	NL-HaNA_1.01.02_12136_0050-page-1	NL-HaNA_1.01.02_12136_0056-page-1	0.827	False	re-shoot
+A	30406	8805	NL-HaNA_1.01.02_8805_0197-page-1	NL-HaNA_1.01.02_8805_0199-page-1	0.743	False	re-shoot
+A	43706	12290	NL-HaNA_1.01.02_12290_0116-page-1	NL-HaNA_1.01.02_12290_0128-page-1	0.722	False	repeated formula or heading
+A	45589	12335	NL-HaNA_1.01.02_12335_0245-page-2	NL-HaNA_1.01.02_12335_0428-page-2	0.708	False	other: parallel copy of the same text
+A	32121	9226	NL-HaNA_1.01.02_9226_0124-page-1	NL-HaNA_1.01.02_9226_0791-page-1	0.618	False	other: parallel copy of the same text
+A	46011	12336	NL-HaNA_1.01.02_12336_0123-page-2	NL-HaNA_1.01.02_12336_0269-page-1	0.621	False	form / template page
+A	46901	12338	NL-HaNA_1.01.02_12338_0279-page-1	NL-HaNA_1.01.02_12338_0290-page-1	0.661	False	form / template page
+A	11157	690	NL-HaNA_1.01.02_690_0068-page-2	NL-HaNA_1.01.02_690_0332-page-2	0.662	False	repeated formula or heading
+A	16725	2602	NL-HaNA_1.01.02_2602_0079-page-2	NL-HaNA_1.01.02_2602_0113-page-2	0.602	False	repeated formula or heading
+A	14995	1559	NL-HaNA_1.01.02_1559_0454-page-2	NL-HaNA_1.01.02_1559_0461-page-2	0.708	False	repeated formula or heading
+A	25120	4501	NL-HaNA_1.01.02_4501_0039-page-2	NL-HaNA_1.01.02_4501_0075-page-2	0.617	False	repeated formula or heading
+A	13954	928	NL-HaNA_1.01.02_928_0121-page-1	NL-HaNA_1.01.02_928_0135-page-1	0.619	False	repeated formula or heading
+A	11363	700	NL-HaNA_1.01.02_700_0004-page-2	NL-HaNA_1.01.02_700_0295-page-2	0.69	False	repeated formula or heading
+A	15603	1697	NL-HaNA_1.01.02_1697_0037-page-2	NL-HaNA_1.01.02_1697_0173-page-2	0.646	False	repeated formula or heading
+A	13089	725	NL-HaNA_1.01.02_725_0099-page-2	NL-HaNA_1.01.02_725_0234-page-2	0.687	False	repeated formula or heading
+A	19998	3616	NL-HaNA_1.01.02_3616_0383-page-1	NL-HaNA_1.01.02_3616_0457-page-1	0.651	False	repeated formula or heading
+A	10359	664	NL-HaNA_1.01.02_664_0062-page-2	NL-HaNA_1.01.02_664_0101-page-2	0.64	False	repeated formula or heading
+A	499	615	NL-HaNA_1.01.02_615_0307-page-2	NL-HaNA_1.01.02_615_0369-page-2	0.655	False	repeated formula or heading
+A	41826	12236	NL-HaNA_1.01.02_12236_0312-page-1	NL-HaNA_1.01.02_12236_0322-page-1	0.954	False	re-shoot
+A	17632	2922	NL-HaNA_1.01.02_2922_0380-page-1	NL-HaNA_1.01.02_2922_0396-page-1	0.609	False	repeated formula or heading
+A	47281	12460	NL-HaNA_1.01.02_12460_0024-page-2	NL-HaNA_1.01.02_12460_0120-page-1	0.681	False	other: parallel copy of the same text
+A	11255	690	NL-HaNA_1.01.02_690_0271-page-2	NL-HaNA_1.01.02_690_0303-page-2	0.763	False	repeated formula or heading
+A	37844	11940	NL-HaNA_1.01.02_11940_0148-page-2	NL-HaNA_1.01.02_11940_0234-page-1	0.676	False	repeated formula or heading
+A	24871	4445	NL-HaNA_1.01.02_4445_0147-page-2	NL-HaNA_1.01.02_4445_0167-page-2	0.76	False	repeated formula or heading
+A	21182	3622	NL-HaNA_1.01.02_3622_0490-page-2	NL-HaNA_1.01.02_3622_0537-page-2	0.618	False	repeated formula or heading
+B	21468	3622	NL-HaNA_1.01.02_3622_1153-page-2	NL-HaNA_1.01.02_3622_1154-page-2	0.647	True	repeated formula or heading
+B	31004	8889	NL-HaNA_1.01.02_8889_0018-page-2	NL-HaNA_1.01.02_8889_0019-page-2	0.945	True	re-shoot
+B	40308	12141	NL-HaNA_1.01.02_12141_0367-page-2	NL-HaNA_1.01.02_12141_0368-page-2	0.819	True	re-shoot
+B	30302	8803	NL-HaNA_1.01.02_8803_0445-page-1	NL-HaNA_1.01.02_8803_0446-page-1	0.929	True	re-shoot
+B	28347	8512	NL-HaNA_1.01.02_8512_0239-page-2	NL-HaNA_1.01.02_8512_0240-page-2	0.968	True	re-shoot
+B	21698	3650	NL-HaNA_1.01.02_3650_0076-page-2	NL-HaNA_1.01.02_3650_0077-page-2	0.801	True	re-shoot
+B	28748	8604	NL-HaNA_1.01.02_8604_0345-page-2	NL-HaNA_1.01.02_8604_0346-page-2	0.894	True	re-shoot
+B	34548	10446	NL-HaNA_1.01.02_10446_0006-page-1	NL-HaNA_1.01.02_10446_0007-page-1	0.941	True	re-shoot
+B	29476	8744	NL-HaNA_1.01.02_8744_0319-page-2	NL-HaNA_1.01.02_8744_0320-page-2	0.754	True	re-shoot
+B	36789	11645	NL-HaNA_1.01.02_11645_0064-page-2	NL-HaNA_1.01.02_11645_0065-page-2	0.88	True	re-shoot
+B	17765	2928	NL-HaNA_1.01.02_2928_0246-page-2	NL-HaNA_1.01.02_2928_0247-page-2	0.877	True	re-shoot
+B	29222	8689	NL-HaNA_1.01.02_8689_0144-page-2	NL-HaNA_1.01.02_8689_0145-page-2	0.87	True	re-shoot
+B	15023	1560	NL-HaNA_1.01.02_1560_0297-page-2	NL-HaNA_1.01.02_1560_0298-page-2	0.628	True	re-shoot
+B	17688	2923	NL-HaNA_1.01.02_2923_0139-page-2	NL-HaNA_1.01.02_2923_0140-page-2	0.635	True	re-shoot
+B	28626	8579	NL-HaNA_1.01.02_8579_0170-page-1	NL-HaNA_1.01.02_8579_0171-page-1	0.718	True	re-shoot
+B	29411	8730	NL-HaNA_1.01.02_8730_0027-page-2	NL-HaNA_1.01.02_8730_0028-page-2	0.883	True	re-shoot
+B	30653	8817	NL-HaNA_1.01.02_8817_0152-page-2	NL-HaNA_1.01.02_8817_0153-page-2	0.84	True	re-shoot
+B	35234	11211	NL-HaNA_1.01.02_11211_0124-page-2	NL-HaNA_1.01.02_11211_0125-page-2	0.763	True	re-shoot
+B	37026	11705	NL-HaNA_1.01.02_11705_0766-page-1	NL-HaNA_1.01.02_11705_0767-page-1	0.71	True	re-shoot
+B	21980	3651	NL-HaNA_1.01.02_3651_0588-page-1	NL-HaNA_1.01.02_3651_0589-page-1	0.78	True	re-shoot
+C	26615	5751	NL-HaNA_1.01.02_5751A_0568-page-1	NL-HaNA_1.01.02_5751B_P001-page-2	0.7	False	re-shoot
+C	35931	11411	NL-HaNA_1.01.02_11411_0199-page-2	NL-HaNA_1.01.02_11411_0199_deelopname2-page-2	0.922	False	re-shoot
+C	35979	11423	NL-HaNA_1.01.02_11423_0237-page-1	NL-HaNA_1.01.02_11423_0237_deelopname2-page-1	0.784	False	re-shoot
+C	35980	11423	NL-HaNA_1.01.02_11423_0237-page-2	NL-HaNA_1.01.02_11423_0237_deelopname2-page-2	0.786	False	re-shoot
+C	35981	11423	NL-HaNA_1.01.02_11423_0238-page-2	NL-HaNA_1.01.02_11423_0238_deelopname2-page-2	0.733	False	re-shoot
+C	36000	11432	NL-HaNA_1.01.02_11432_0065-page-1	NL-HaNA_1.01.02_11432_0065_deelopname1-page-1	0.82	False	re-shoot
+C	36001	11432	NL-HaNA_1.01.02_11432_0066-page-2	NL-HaNA_1.01.02_11432_0066_deelopname2-page-2	0.781	False	re-shoot
+C	36392	11518	NL-HaNA_1.01.02_11518_0284-page-2	NL-HaNA_1.01.02_11518_0284_deelopname2-page-2	0.726	False	re-shoot
+C	40446	12168	NL-HaNA_1.01.02_12168_0620-page-2	NL-HaNA_1.01.02_12168_0620_deelopname1-page-1	0.9	False	re-shoot

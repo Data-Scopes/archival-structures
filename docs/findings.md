@@ -188,11 +188,30 @@ completely with no overlap:
   right extents (depending on cell content), giving 0.10--0.14.  Running-text lines
   consistently span the full column width from line to line, giving 0.31--0.40.
 
-**`early_end` pages are document-boundary markers in running-text inventories.** In the two
-letter-copy books (11182, 11281), nearly all non-full-text pages are `early_end` (22 and 18
-respectively, out of ~750--1100 non-empty pages) -- likely the last page of each letter where
-text ends before filling the column.  In the notary deeds (AsnDA), the 28 `early_end` pages
-similarly mark deed endings.
+**`early_end` pages are enriched for document ends, but they are not document-boundary
+markers** (revised 2026-10-21; the original claim follows). The original observation was made
+without ground truth. In the two letter-copy books (11182, 11281), nearly all non-full-text pages
+are `early_end` (22 and 18 respectively, out of ~750--1100 non-empty pages), likely the last page
+of each letter, where text ends before filling the column. In the notary deeds (AsnDA), the 28
+`early_end` pages similarly seemed to mark deed endings.
+
+*Tested by NLP (Step 6.4, `report/84-early-end-vs-end-labels.md`) on 22 NL-HaNA 1.04.02 VOC
+inventories with START/END labels (20,905 scans), at the defaults (10th-percentile stable
+margins, tolerance 0.05):*
+- `early_end` flags 14.9% of pages. 14.0% of those are END pages, against a 6.6% base rate (lift
+  2.1, CI [1.6, 2.7]; enriched in 19 of 22 inventories).
+- It catches 31.5% of END pages (F1 0.19, worst inventory 0), below a closing-formula regex
+  (recall 71%, F1 0.33). `late_start` is at chance (lift 0.97).
+- Why:
+  - about half of VOC starts are mid-page, so the next document fills the page;
+  - full-page END pages show no white space;
+  - most false positives are within 0.034 of a stable margin of only 0.04--0.05;
+  - edge fragments and catch-words pin the bottom margin.
+- A second, recall-only test on 21 Generale Missiven inventories (NLP Step 6.3) shows no clear
+  enrichment: 4 of 28 last scans, lift 1.6 over interior scans, overlapping CIs.
+
+Use it at most as a weak auxiliary signal. NLP's two requests for `text_extent` are in
+[from-nlp-start-page-detection.md](from-nlp-start-page-detection.md) (UA-014).
 
 See the [full-text page detection](notebooks/page-analysis/full-text-page-detection-demo) demo notebook.
 
@@ -509,6 +528,52 @@ Evaluate a segmenter on read real repairs, not on synthetic glue.
 with single spaces equal the line text in 455 for 33,659 of 33,660 lines, and in 3349 for 14,324
 of 14,324 (F06-P.2). Where the HTR glued two words, the `Word` elements are glued too, so
 whitespace repair needs text segmentation.
+
+## Region quality and duplicate pages
+
+These come from phase 08: `analysis.region_quality` and `analysis.duplicate_pages`, both ported
+from LotA, and the `page_duplication` corruption case. They were measured on the States General
+(`NL-HaNA_1.01.02`) HTR. The full evidence is in
+`reports/phase-08-region-quality-and-duplicates.md`; the IDs in brackets are its finding IDs.
+
+**A lexicon for a text-quality filter should hold words only; numerals in it count as hits.**
+`region_quality` scores a region partly by the share of its tokens of 4+ characters that are in
+an injected lexicon. LotA passes its fastText vocabulary (233,538 terms), which holds 9,298
+all-digit terms. So "3761" is a "word": the tally "3761 -10 3", noise in the gold, gets
+`strong_lexicon_hits` and is predicted usable (score 0.5). The roman numeral "xxiiij £" is lifted
+from fragment to usable the same way (F08-R.1). This adds to the filter's known weak spot, the
+1–3-token band. There, 10 of the 16 held-out keep/drop errors are numbers, times and tallies:
+the numeric exemption waives `low_alpha_content`, but `long_nonalpha_run` still pushes them to
+noise. The gold labels for such regions are themselves inconsistent (F08-16.3). Prose is
+reliable: combined held-out keep/drop accuracy is 0.893 (F08-16.2). Filter numerals out of the
+lexicon, or treat the short band as "keep", rather than trusting `noise` there.
+
+**Re-shoots are found by scan adjacency, not by text similarity alone, and adjacency means scan
+number, not sequence order.** A re-shoot of a two-page opening pairs page 1 of scan N with page 1
+of scan N+1. Those two pages are not neighbours in sequence order, so only adjacency by scan
+number catches them. All 13 documented SG re-shoots (23 rows) are such same-side pairs
+(F08-P.5, F08-17.2). The Jaccard over character 5-grams can't separate re-shoots from formulaic
+pages:
+- documented re-shoots start at 0.615, just above the 0.6 threshold, because HTR variation alone
+  lowers it;
+- passport grants, session headings and requests by different persons reach 0.76 (F08-R.2);
+- adjacency does separate them. Adjacent candidate pairs are 0.95 re-shoots (19 of 20 read,
+  Wilson interval 0.76–0.99), far-apart pairs only 0.13 (4 of 30; F08-17.3, F08-17.4).
+
+**Partial-shot scans (`deelopname`) are re-shoots that adjacency never sees.** All 9 SG
+candidate pairs without a scan number pair a scan with its `..._deelopname1`/`2` scan or a
+separately filed shot (`5751B_P001`, the 1626 letter on the *Wapen van Amsterdam*). They are the
+same text at J 0.70–0.92, and only the MinHash/LSH stage finds them (F08-17.5). Filtering the
+candidates on `adjacent` alone drops them.
+
+**A duplicated start page must not be labelled a second start.** The `page_duplication` case
+inserts a copy right after a page, so the copy carries the same canonical index as its original.
+If both positions are labelled starts, a perfect classifier is scored as wrong: at rate 0.5 the
+start F1 against such labels falls to 0.67 (3 documents, inv 3771) and 0.79 (11 documents, GM
+1363). `observed_start_labels` therefore labels the first occurrence only (F08-17b.2). The
+same-document pair labels are hardly affected: the pair share moves by under 0.01, because a
+copy and its original are in the same document. Duplication is a problem for start-page
+detection, not for grouping (F08-17b.3).
 
 ## Tooling
 

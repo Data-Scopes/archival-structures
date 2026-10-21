@@ -212,3 +212,28 @@
 - **Blocks:** nothing in 15ir. Under (b) or (c), a publication step after 15ir.
 - **Response:** a
 - **Resolved 2026-10-21 (phase-07 review session):** answered (a). `text_layer_v2` stays as published; step 15ir (brief updated) adds the *Known issues* notes to `docs/text_layer.md` and LotA §6 and builds the fixes into the dev layer `15ir-a` only; the fixes reach SG data in the full run `text_layer_v3` (D17).
+
+### UA-014 NLP's two requests for `text_extent` after the `early_end` verdict (2026-10-21, from phase-08 planning)
+- **Action:** **Decide** whether AS adds NLP's two options to
+  `archival_structures/analysis/text_extent.py`. The verdict and the requests are in
+  `docs/from-nlp-start-page-detection.md` §1. The two options:
+  1. `top`/`bot` over body-text regions only (a region-type filter);
+  2. a continuous margin-gap column, `bot - stable_bot` and the top equivalent, next to the class.
+
+  Both would be additive: new keyword arguments and new columns, with defaults that leave the
+  current output unchanged. NLP imports `compute_page_text_extent`, `estimate_stable_margins` and
+  `classify_text_extent`.
+- **Options:**
+  (a) both options, as one small step in phase 10 (optional), with tests and an NLP re-check of
+      its report/84 numbers;
+  (b) only the margin-gap column (cheap, generic; the body-text gain was found post hoc and is
+      small: recall 0.315 → 0.342);
+  (c) neither: the verdict is recorded and `text_extent` stays as it is.
+
+  Recommended: (a). Both are additive and generic. The region-type list must be a parameter,
+  not NLP's three types hard-coded, and the default stays "all regions".
+- **Default if unanswered:** (c). Nothing changes in `text_extent`; NLP keeps computing the
+  variants in its own scripts.
+- **Blocks:** nothing in phase 08. It only decides whether phase 10 gets a `text_extent` step.
+- **Response:** a
+- **Resolved 2026-10-21 (phase-08 implementation session):** answered (a). Phase 10 (optional) gets a `text_extent` step with both additive options: a region-type filter for `top`/`bot` (types as a parameter, default all regions) and margin-gap columns (`bot - stable_bot` and the top equivalent), with tests and an NLP re-check of its report/84 numbers. Recorded in `plan/PLAN.md` (row 10), `plan/CONTEXT.md` (sibling requests) and `docs/from-nlp-start-page-detection.md` (AS status).

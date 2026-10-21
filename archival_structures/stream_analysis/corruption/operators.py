@@ -1,8 +1,8 @@
-"""Corruption operators implementing the four page-order-problem cases.
+"""Corruption operators implementing the five page-order-problem cases.
 
 Each operator matches one case in `docs/challenges/page_order_problems.md` 1:1: intra-document
 page swap (Case 1), foreign-document insertion (Case 2), the two combined (Case 3), and
-document-level swap (Case 4). All four share the signature
+document-level swap (Case 4), and page duplication / re-shoot (Case 5). All five share the signature
 `(stream, provenance, rate, rng) -> (observed_stream, provenance)`, so they compose --
 `swap_and_insertion` is literally `intra_document_swap` followed by
 `foreign_document_insertion`, each threading the other's provenance through.
@@ -226,4 +226,31 @@ def document_level_swap(
             new_prov.extend(_tag(p, 'document_level_swap') for p in provenance[start:end])
         else:
             new_prov.extend(provenance[start:end])
+    return new_stream, new_prov
+
+
+def page_duplication(
+    stream: list[StreamUnit],
+    provenance: list[ProvenanceEntry],
+    rate: float,
+    rng: random.Random,
+) -> tuple[list[StreamUnit], list[ProvenanceEntry]]:
+    """Case 5: re-shoot. After each page, with probability `rate`, the same page appears a second
+    time directly after it (see `docs/challenges/page_order_problems.md#case-5----page-duplication-re-shoot`).
+
+    The rate is **per page**, not per document (unlike the other operators): the expected number
+    of copies is `rate * len(stream)`. Exactly one `rng.random()` draw is made per input page, so
+    a seed reproduces the run whatever the rate. The copy is the same `StreamUnit` object and its
+    provenance entry (same `canonical_index`) is tagged `'page_duplication'`; the original is
+    left untagged. The output is longer than the input by the number of copies. Copies are
+    adjacent, so `document_blocks` still gives one run per document.
+    """
+    new_stream: list[StreamUnit] = []
+    new_prov: list[ProvenanceEntry] = []
+    for unit, prov in zip(stream, provenance):
+        new_stream.append(unit)
+        new_prov.append(prov)
+        if rng.random() < rate:
+            new_stream.append(unit)
+            new_prov.append(_tag(prov, 'page_duplication'))
     return new_stream, new_prov

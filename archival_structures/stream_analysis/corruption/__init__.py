@@ -9,6 +9,7 @@ from archival_structures.stream_analysis.corruption.operators import (
     foreign_document_insertion,
     initial_provenance,
     intra_document_swap,
+    page_duplication,
     swap_and_insertion,
 )
 from archival_structures.stream_analysis.corruption.schema import (
@@ -46,6 +47,7 @@ __all__ = [
     'foreign_document_insertion',
     'swap_and_insertion',
     'document_level_swap',
+    'page_duplication',
     'CorruptedStream',
     'read_corrupted_stream',
     'write_corrupted_stream',

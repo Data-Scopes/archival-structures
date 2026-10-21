@@ -4,7 +4,7 @@
 > Implementation sessions do not read it: a brief copies in the facts it needs from here. Each phase
 > review updates it, so briefs start from the code as it is, not as it was planned. Keep it under
 > ~150 lines. History belongs in the phase `PROGRESS.md` files.
-> **Last updated:** 2026-10-21, phase-07 review and 15ir review (Opus).
+> **Last updated:** 2026-10-21, phase-08 review (Opus).
 
 ## 1. Text layer v2: what exists now (after phase 07 and 15ir)
 
@@ -120,9 +120,7 @@
 
 ## 4. Open follow-ups for the next phase
 
-From phase 07 (report *Follow-ups*, REVIEW rows 6–15):
-- 15ir done and reviewed (release v0.12.0). UA-013 answered (a): `text_layer_v2` stays as published;
-  the fixes reach SG data in the full run `text_layer_v3`.
+From phase 07 (report *Follow-ups*, REVIEW rows 6–15; the fixes reach SG data in `text_layer_v3`):
 - From 15ir: a row-tolerant line sort (+564 same-row swaps in 456, F07-15ir.3); sorting `unchanged`
   print regions (needs an R5 decision); retyping off-chain `pn_line` segments (F07-15ir.6); `, ` and
   `,,` lead marks (F07-15ir.9); build `claimable` per scan (quadratic, F07-R.11).
@@ -133,8 +131,21 @@ From phase 07 (report *Follow-ups*, REVIEW rows 6–15):
 - Move the REPUBLIC default path out of the library.
 - The pagexml-tools 0.9.1 pin and dropping its workarounds (UA-007).
 
-Phase 08 (C16 region quality, C17 duplicates) was not planned yet; seed it from
-`docs/shared_library/upstream_inventory.md` §4.
+These follow-ups are phase 09, *Text layer v3 preparation* (phase-08 decision P1), not planned yet.
+
+From phase 08 (reviewed 2026-10-21; hand-off in its `PLAN.md`):
+- LotA decides whether to filter duplicates on `adjacent` (0.95 re-shoots; the 9 `deelopname`
+  re-shoots are never adjacent) and whether to drop numerals from its lexicon (F08-R.1).
+- Phase-10 candidates: re-shoot recall below J 0.6 (F08-R.2); a classifier run under
+  `page_duplication` (F08-17b.2).
+
+From the siblings (recorded 2026-10-21):
+- NLP: the `text_extent` options are a phase-10 step (UA-014 (a); `plan/PLAN.md` row 10).
+- republic `docs/from-republic.md`:
+  - §8 items 2–3 are still open: the `ground_truth/README.md` counts are stale (726,737
+    resolutions, 121,124 sessions), and no SG `session` converter exists;
+  - §10: `session_metadata` start lines miss mid-session meeting days (2,749 candidates; 95
+    confirmed). An SG `session` layer built from it is `partial` for meeting days.
 
 ## 5. Planning notes: recurring brief defects
 
@@ -151,5 +162,9 @@ Phase 08 (C16 region quality, C17 duplicates) was not planned yet; seed it from
   `wbc` decisions depend on it.
 - **When a step re-runs a downstream stage, say which later briefs name its layer,** and update
   them (rule 10). Phase 07 inserted four follow-up steps mid-phase.
+- **Ports carry their rationale.** A brief for a port must list the comments to keep:
+  calibration notes and decision IDs. Phase 08 dropped LotA's 100-shingle calibration and the
+  P2-12 keep rationale, and the review restored them (F08-R.4). When a step copies a planning
+  script and deletes a private name, say which block of the copy to drop (16).
 - **The agent shell:** no `rm -rf`, `nohup` or `&`, a new dir per run, and `chmod g+w`. Sibling
   suites run with their own `venv/bin/python`. NLP and LotA import AS from the working tree.

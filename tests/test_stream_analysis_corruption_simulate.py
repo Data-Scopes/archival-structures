@@ -96,13 +96,24 @@ class TestSimulateInventory:
         assert results == []
         assert not output_dir.exists()
 
-    def test_default_cases_are_all_four(self, tmp_path):
+    def test_default_cases_are_all_case_names(self, tmp_path):
         gt_path = tmp_path / 'gt' / '1.yaml'
         _write_populated_gt(gt_path)
         output_dir = tmp_path / 'out'
 
         results = simulate_inventory(gt_path, output_dir, rates=(0.5,), seeds=(0,))
         assert {r.case for r in results} == set(CASE_NAMES)
+
+    def test_page_duplication_case_writes_longer_stream(self, tmp_path):
+        gt_path = tmp_path / 'gt' / '1.yaml'
+        _write_populated_gt(gt_path)
+        results = simulate_inventory(
+            gt_path, tmp_path / 'out', cases=('page_duplication',), rates=(0.5,), seeds=(0,),
+        )
+        assert len(results) == 1
+        cs = read_corrupted_stream(results[0].output_path)
+        assert len(cs.observed) > results[0].n_units
+        assert len(cs.observed) == results[0].n_units + results[0].n_touched
 
 
 class TestSimulateCollection:

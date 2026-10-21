@@ -4,7 +4,54 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
-## v0.11.0 (2026-10-21)
+## v0.13.0 (2026-10-21)
+
+Phase 08 (region quality and duplicates), reviewed 2026-10-21. LotA `corpus/quality.py` and
+`corpus/integrity.py` import from this release's new modules, so LotA needs v0.13.0 or the AS
+working tree.
+
+### Step 16: region-quality filter (C16)
+
+- New module `analysis.region_quality`, a port of LotA `corpus.quality`: `QUALITY_CLASSES`,
+  `DEFAULT_KEEP_CLASSES`, `is_kept`, `FEATURE_NAMES`, `QualityThresholds` (`as_dict`, `from_dict`),
+  `DEFAULT_QUALITY_THRESHOLDS`, `QualityVerdict`, `lexicon_lookup_form`, `region_features(text, *, lexicon,
+  bbox=None)`, `classify_features`, `score_region(text, ...)` and `quality_frame(df, ...)`. It takes text and an
+  injected lexicon (a set of lower-case words), not LotA's `Region`.
+- Output is identical to LotA's: 600/600 gold rows and 428,544 regions (200 inventories) reproduce.
+- Affected sibling imports (LotA only, backwards compatible): `archival_language/corpus/quality.py` now imports
+  `QUALITY_CLASSES`, `DEFAULT_KEEP_CLASSES`, `is_kept`, `QualityVerdict`, `QualityThresholds`,
+  `classify_features`, `region_features` from AS; its public names and signatures are unchanged (`_clean_token_for_lookup`
+  and `_clip` are removed; nothing imported them). NLP: none.
+
+### Step 17: duplicate-page detector (C17)
+
+- New module `analysis.duplicate_pages`, a port of LotA `corpus.integrity` duplicate detection: `shingles`,
+  `minhash_coefficients`, `minhash_sketch`, `lsh_candidates`, `duplicate_page_candidates(pages, *, threshold,
+  adjacency, shingle_length, min_shingles, num_hashes, bands, seed)`, the `DEFAULT_*` constants and
+  `CANDIDATE_COLUMNS`. It takes plain `(page_id, text, position)` triples; adjacency is by position (page at `p` pairs
+  with every page at `p + 1`), never by sequence order.
+- Output is identical to LotA's: the full SG run (9,122 inventories) gives a byte-identical candidate table (48,473
+  rows) and manifest.
+- Affected sibling imports (LotA only, backwards compatible): `archival_language/corpus/integrity.py` now imports
+  `DEFAULT_DUPLICATE_THRESHOLD` and `duplicate_page_candidates` from AS; `duplicate_candidates` keeps its signature and
+  its 11 columns. LotA's private `_shingles`, `_page_shingles`, `_minhash_*`, `_lsh_candidates` and the `_SHINGLE_*`,
+  `_NUM_MINHASHES`, `_LSH_*`, `_MINHASH_*` constants are removed (nothing imported them). NLP: none.
+- Behaviour change in LotA `duplicate_candidates` (added at review): it now raises `ValueError` for a
+  threshold outside [0, 1] or a repeated page id, where it used to run silently. The full SG run hits
+  neither.
+
+### Step 17b: page_duplication operator
+
+- New `stream_analysis.corruption.page_duplication(stream, provenance, rate, rng)` (Case 5,
+  re-shoot; per-page rate), exported from the package; `'page_duplication'` appended to
+  `CASE_NAMES` (last).
+- `observed_start_labels` now labels only the first occurrence of a canonical index as a start.
+  Output is identical for the four existing operators (none repeats an index).
+- `simulate_inventory` with the default `cases=CASE_NAMES` now also runs `page_duplication`, so a
+  default run writes a fifth case's outputs (added at review).
+- Affected sibling imports: none (no sibling uses `stream_analysis.corruption`).
+
+## v0.12.0 (2026-10-21)
 
 ### Step 15ir: phase 07 review fixes
 

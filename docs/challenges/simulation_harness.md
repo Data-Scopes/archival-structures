@@ -88,7 +88,7 @@ changing any downstream code.
 
 ### 2. Corruption operators
 
-Four pure functions matching the [page order problems](page_order_problems.md) cases 1:1, each
+Five pure functions matching the [page order problems](page_order_problems.md) cases 1:1, each
 `(stream, provenance, rate, rng) -> (observed_stream, provenance)` -- taking the *previous*
 provenance list as well as the stream, so operators compose (Case 3 is literally
 `intra_document_swap` followed by `foreign_document_insertion`, each threading the other's
@@ -99,7 +99,15 @@ def intra_document_swap(stream, provenance, rate, rng) -> tuple[list, list]: ...
 def foreign_document_insertion(stream, provenance, rate, rng) -> tuple[list, list]: ...
 def swap_and_insertion(stream, provenance, swap_rate, insertion_rate, rng) -> tuple[list, list]: ...
 def document_level_swap(stream, provenance, rate, rng) -> tuple[list, list]: ...
+def page_duplication(stream, provenance, rate, rng) -> tuple[list, list]: ...
 ```
+
+`page_duplication` (Case 5, re-shoot) appends a second copy of a page directly after it. Its `rate`
+is **per page**, not per document: one `rng.random()` draw per input page, expected copies
+`rate * n`. It is the only operator that changes the stream length
+(`len(observed) == len(canonical) + n_copies`); only the copy carries the `page_duplication`
+event. `observed_start_labels` labels the first occurrence of a canonical index only, so a copy
+of a start page is a continuation.
 
 Each `StreamUnit` already carries its own true `document_id` (see stage 1) -- reordering never
 changes that field, only the unit's position -- so `provenance` only needs to track, per
@@ -133,6 +141,8 @@ Two different senses of "rate" are both defensible and behave differently:
   itself suggested. Better for comparing corruption *severity* across collections with very
   different document-count/length distributions (a 600-page book with 3 sections vs. a
   300-scan deed folder with 150 documents).
+
+**Exception:** `page_duplication` takes a per-page rate (see stage 2).
 
 **Decided:** per-document probability is implemented as the primary parameter (simplest to
 reason about and to compose across operators). The corpus-level target-fraction wrapper (solving
@@ -194,7 +204,7 @@ Mirrors the existing `archival_structures.stream_analysis` split
 ```
 corruption/
   canonical_stream.py   # stage 1 -- implemented
-  operators.py           # stage 2, the four corruption functions -- implemented
+  operators.py           # stage 2, the five corruption functions -- implemented
   schema.py               # stage 4, CorruptedStream + YAML read/write -- implemented
   metrics.py               # stage 5, Framing A / Framing B / ARI -- implemented
   simulate.py               # stage 6, CLI/pipeline: sweep rates x collections -- implemented

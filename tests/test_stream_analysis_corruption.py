@@ -11,6 +11,7 @@ from archival_structures.annotation.ground_truth import (
 )
 from archival_structures.stream_analysis.corruption.canonical_stream import (
     StreamUnit,
+    document_blocks,
     extract_canonical_stream,
 )
 from archival_structures.stream_analysis.corruption.metrics import observed_start_labels
@@ -19,6 +20,7 @@ from archival_structures.stream_analysis.corruption.operators import (
     foreign_document_insertion,
     initial_provenance,
     intra_document_swap,
+    page_duplication,
     swap_and_insertion,
 )
 from archival_structures.stream_analysis.corruption.schema import (
@@ -328,3 +330,64 @@ class TestCorruptedStreamIO:
         assert loaded.inventory_id == cs.inventory_id
         assert loaded.observed == cs.observed
         assert loaded.provenance == cs.provenance
+
+
+class TestPageDuplication:
+    def _run(self, rate, seed=0, lengths=(4, 3, 5, 2, 6)):
+        canonical = _make_stream(*lengths)
+        observed, prov = page_duplication(
+            canonical, initial_provenance(canonical), rate, random.Random(seed),
+        )
+        return canonical, observed, prov
+
+    def test_rate_zero_is_a_no_op(self):
+        canonical, observed, prov = self._run(0.0)
+        assert observed == canonical
+        assert prov == initial_provenance(canonical)
+        assert page_duplication([], [], 0.5, random.Random(0)) == ([], [])
+
+    def test_rate_one_doubles_every_page(self):
+        canonical, observed, prov = self._run(1.0)
+        assert len(observed) == 2 * len(canonical)
+        assert [p.canonical_index for p in prov] == [i for i in range(len(canonical)) for _ in (0, 1)]
+        assert [p.events for p in prov] == [(), ('page_duplication',)] * len(canonical)
+
+    def test_copy_follows_its_original(self):
+        _canonical, observed, prov = self._run(0.5)
+        tagged = [k for k, p in enumerate(prov) if p.events]
+        assert tagged
+        for k in tagged:
+            assert observed[k] is observed[k - 1]
+            assert prov[k].canonical_index == prov[k - 1].canonical_index
+            assert prov[k].events == ('page_duplication',)
+
+    def test_provenance_invariant(self):
+        for seed in range(5):
+            canonical, observed, prov = self._run(0.3, seed)
+            assert [canonical[p.canonical_index] for p in prov] == observed
+            assert len(observed) == len(canonical) + sum(1 for p in prov if p.events)
+
+    def test_same_seed_same_output(self):
+        assert self._run(0.3, 7) == self._run(0.3, 7)
+
+    def test_draw_count_is_independent_of_rate(self):
+        canonical = _make_stream(4, 3, 5)
+        nxt = []
+        for rate in (0.1, 0.9):
+            rng = random.Random(3)
+            page_duplication(canonical, initial_provenance(canonical), rate, rng)
+            nxt.append(rng.random())
+        assert nxt[0] == nxt[1]
+
+    def test_composes_with_intra_document_swap(self):
+        canonical = _make_stream(4, 3, 5, 2, 6)
+        rng = random.Random(1)
+        stream, prov = intra_document_swap(canonical, initial_provenance(canonical), 1.0, rng)
+        stream, prov = page_duplication(stream, prov, 0.4, rng)
+        assert [canonical[p.canonical_index] for p in prov] == stream
+        assert any(p.events == ('intra_document_swap', 'page_duplication') for p in prov)
+
+    def test_document_blocks_stay_one_run_per_document(self):
+        canonical, observed, _prov = self._run(0.5)
+        blocks = document_blocks(observed)
+        assert [b[0] for b in blocks] == [f'd{k}' for k in range(5)]

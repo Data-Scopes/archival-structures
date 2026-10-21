@@ -75,6 +75,22 @@ class TestTrueStartIndicesAndObservedStartLabels(object):
         labels = observed_start_labels(observed, provenance, canonical)
         assert labels == [False, False, True, False, True, False]
 
+    def test_observed_start_labels_duplicate_start_is_continuation(self):
+        canonical = [
+            StreamUnit(scan_id='c1', document_id='d1'),
+            StreamUnit(scan_id='c2', document_id='d1'),
+            StreamUnit(scan_id='c3', document_id='d2'),
+        ]
+        observed = [canonical[0], canonical[0], canonical[1], canonical[2]]
+        provenance = [ProvenanceEntry(canonical_index=i) for i in (0, 0, 1, 2)]
+        assert observed_start_labels(observed, provenance, canonical) == [True, False, False, True]
+
+    def test_observed_start_labels_unchanged_without_repeats(self):
+        canonical, observed, provenance = self._case_1_worked_example()
+        assert observed_start_labels(observed, provenance, canonical) == [
+            False, False, True, False, True, False,
+        ]
+
 
 class TestWindowDiff:
     def test_zero_for_identical_labels(self):

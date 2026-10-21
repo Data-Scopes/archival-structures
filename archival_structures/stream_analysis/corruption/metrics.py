@@ -82,9 +82,18 @@ def observed_start_labels(
     the observed stream (e.g. under `pi_b` in that worked example) -- which is precisely why an
     oracle classifier using this ground truth can still be right about *which* page is the start
     while the naive "cut before every predicted start" reduction gets the grouping wrong anyway.
+
+    Only the **first occurrence** of a canonical index can be a start: a re-shoot copy of a start
+    page (`page_duplication`) is a continuation, not a new document. No other operator repeats a
+    canonical index, so their labels are unchanged.
     """
     starts = true_start_indices(canonical)
-    return [p.canonical_index in starts for p in provenance]
+    seen: set[int] = set()
+    labels: list[bool] = []
+    for p in provenance:
+        labels.append(p.canonical_index in starts and p.canonical_index not in seen)
+        seen.add(p.canonical_index)
+    return labels
 
 
 def score_start_classification(

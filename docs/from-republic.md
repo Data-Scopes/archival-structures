@@ -271,7 +271,7 @@ Republic Phase 3.1 (UA-049 (a)). The files are under
 
 - **This refines §4's start cue.** From 16 May 1637 the resumption opens 91–96% of ordinaris
   sessions up to 1702.
-  - Printed volumes leave it out (1–3% of sessions).
+  - In print it is in only 1–3% of sessions in the *staged* resolution text. Correction from the user (2026-10-21): every printed session opens with a resumption, but the resolution segmentation mostly attached it to the attendance list, which republic has not staged.
   - The handwritten registers keep it, in about 0.85 of sessions to 1753 and about 0.65 to
     1785.
   - It is absent in 1786 (inv. 3633–3638) and 1790–93, which is a register convention: the line
