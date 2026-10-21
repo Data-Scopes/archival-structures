@@ -254,15 +254,54 @@ PATTERNS = (r"\W*(fol\.?|pag\.?|p\.)?\s*\d{1,4}\s*\W*",)
 
 
 def test_furniture_not_merged():
-    params = LayoutParams(furniture_patterns=PATTERNS)
+    # interleave guard off: only ``exclude`` keeps the page number "( 93" out of the merge
+    params = LayoutParams(furniture_patterns=PATTERNS, interleave_guard=False)
     main = column_region("main", 100, 100, 10)
     number = region("num", [line("n0", 150, 322, 100, 30, text="( 93")])
     ids = furniture_region_ids([main, number], 600, 1000, params)
     assert ids == {"num"}
     out, _ = merge_overlapping_text_regions([main, number], params, exclude=ids)
     assert [r.id for r in out] == ["main", "num"]
-    out, _ = merge_overlapping_text_regions([main, number], LayoutParams(interleave_guard=False))
+    out, _ = merge_overlapping_text_regions([main, number], params, exclude=())
     assert len(out) == 1
+
+
+def test_split_sorts_lines():
+    lines = [line("a", 100, 300, column="1"), line("b", 600, 100, column="2"),
+             line("c", 100, 100, column="1"), line("d", 600, 200, column="2")]
+    r = region("R", lines)
+    out, n = split_regions_on_line_field([r], "column", sort_lines=True)
+    assert n == 1
+    assert [[l.id for l in o.lines] for o in out] == [["c", "a"], ["b", "d"]]
+    out, _ = split_regions_on_line_field([r], "column")
+    assert [[l.id for l in o.lines] for o in out] == [["a", "c"], ["b", "d"]]
+    out, _ = split_regions_on_line_field([r], "column", sort_lines=False)
+    assert [[l.id for l in o.lines] for o in out] == [["a", "c"], ["b", "d"]]
+    one = region("S", [line("e", 100, 300, column="1"), line("f", 100, 100, column="1")])
+    out, n = split_regions_on_line_field([one], "column", sort_lines=True)
+    assert n == 0 and out[0] is one and [l.id for l in one.lines] == ["e", "f"]
+    assert LayoutParams().sort_split_lines and not LEGACY_15FP.sort_split_lines
+
+
+def test_blocked_counted_once():
+    a1 = _col_region("A1", 100, 100, 4, "1")
+    a2 = _col_region("A2", 100, 150, 4, "1")
+    b = _col_region("B", 100, 150, 4, "2")
+    blocked, col_blocked = {}, {}
+    out, passes = merge_overlapping_text_regions([a1, a2, b], blocked=blocked,
+                                                 column_blocked=col_blocked)
+    assert passes == 1 and len(out) == 2
+    assert blocked == {}
+    assert list(col_blocked) == [(out[0].id, "B")]      # one pair, of final regions
+    assert out[0].metadata["merged_from"] == ["A1", "A2"]
+
+
+def test_gutter_rule_validated():
+    import pytest
+    for rule in ("gap", "main_edge", "auto"):
+        LayoutParams(gutter_rule=rule)
+    with pytest.raises(ValueError):
+        LayoutParams(gutter_rule="edge")
 
 
 def test_catchword_band():

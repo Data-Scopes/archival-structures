@@ -6,6 +6,49 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 
 ## v0.11.0 (2026-10-21)
 
+### Step 15ir: phase 07 review fixes
+
+No sibling imports change signature (`grep -rn "page_structure\|text_layer"` over LotA and NLP finds no import of
+the names below). The **output of the v2 SG stages changes** (counts below); every fix is gated so that the v1
+stages and `LEGACY_15FP` are byte-identical (v1 check 157/157).
+
+- `analysis.page_structure`: `LayoutParams.sort_split_lines: bool = True` (`LEGACY_15FP` sets `False`) and
+  `split_regions_on_line_field(..., *, sort_lines=False)`: with `sort_lines`, each piece of a column-split region
+  is sorted by `_line_sort_key`; an unsplit region is returned as the same object, unchanged. `LayoutParams`
+  validates `gutter_rule` (`gap`, `main_edge`, `auto`) and raises `ValueError`.
+  `merge_overlapping_text_regions` fills `blocked` / `column_blocked` with the pairs of the **last** merge pass
+  only (pairs of final regions); the layout tables are unchanged, but `n_guard_blocked` / `n_column_blocked` fall
+  (455: 1,322 -> 769 and 62 -> 39; 456: 673 -> 659 and 113 -> 107).
+- `text_layer.types`: `TypeParams` validates `margin_cut` (`month_only`, `all`, `off`), `top_n >= 1`,
+  `bottom_n >= 1` (`ValueError`). A line that fullmatches `date_line`, `pn_line` or `year_line` is no longer split
+  by `rule:date_prefix` (19 lines in the pilot). Every `rule:pn_line` segment that is not the in-chain page's
+  candidate line becomes `rule:pn_line_offchain` (pilot: `rule:pn_line` 10,327 -> 8,826, `_offchain` 1,792 ->
+  3,293); `line_type` is unchanged. Consumers that count `rule:pn_line` must read both tags.
+- `text_layer.units`: `build_units_page(..., taken, claimable=None)`: legacy ids that are not layout region ids
+  of the scan and whose lines all lie in a unit are taken by that unit (`n_id_collisions` 455 58 -> 0, 456 32 -> 0
+  together with the order fix; the `doc_id_map` `identical` count rises by 46 / 32). `unit_inventory` builds
+  `claimable`. `units/params.json` gains `republic_dir`; a missing REPUBLIC file is logged in print mode
+  (`build.stage_units`).
+- `text_layer.join_v2`: `join_unit(texts, wbcs, guards, both_ends_fix, lead_marks="")` and
+  `join_inventory_v2(inv, layer_root, wbcs, lead_marks="")`; `lead_dropped` is the true number of dropped leading
+  characters (a second leading break char the library strips is counted, fixing a latent offset error for `„„`);
+  `join/stats/<inv>.json` has `lead_marks`; `n_offset_violations` checks the full span (the removed tail must be at
+  most two break chars on a merge, none otherwise). With the default `lead_marks=""` the text still equals
+  `join.join_region`.
+- `text_layer.presets.LayerPreset.join_lead_marks: str = ""`; `SG_HAND_V2` sets `","` (11182 repeats the break mark
+  at the start of the next line and the HTR reads a comma). `build.stage_join` passes it for v2 and re-joins when
+  `lead_marks` in the stored stats differs. With `--allow-partial`, a v2 inventory without a decision takes its
+  pinned set (`preset.wbc_pinned`) instead of the corpus default.
+- Names missing from earlier entries: `text_layer.units.parse_republic_id`, `read_republic_ids`,
+  `load_segments`, `REPUBLIC_PARAGRAPHS_DIR`, `FURNITURE_TYPES`, `HEADER_TYPES`, `NEAR_PX`, `SPLIT_HALF_IOU`
+  (step 15h); `text_layer.build.decide_v2` (15hj, 15hj2); for v2 presets `--pagexml-dir` is optional in `--stage wbc`
+  and `--stage join` (they read the unit tables).
+- Docs: `docs/text_layer.md` (stage list, `type_method`, `join_lead_marks`, *Known issues* of the published
+  `text_layer_v2`). The published copies in `shared-data/` are not rebuilt (UA-013 (a)); the fixes go into
+  `text_layer_v3`.
+
+## v0.11.0 (2026-10-21)
+
 ### Step 15i2: hand_tar WBC pin without =
 
 Preset data only; no signature change, no sibling import changes. `SG_HAND_V2.wbc_pinned` adds `-„` for
@@ -81,7 +124,8 @@ guard off).
 
 - `analysis.page_structure`: `LayoutParams.column_merge_guard: bool = True`;
   `get_overlapping_region_sets(..., column_field="", column_blocked=None)` and
-  `merge_overlapping_text_regions(..., column_blocked=None)` (defaults unchanged).
+  `merge_overlapping_text_regions(..., column_blocked=None)` (the keyword defaults are unchanged, but the default
+  `LayoutParams()` applies the column guard, so the default output changes; corrected in step 15ir).
 - `text_layer.layout`: scans table column `n_column_blocked` (appended last); summed in
   `layout/stats.json`; `column_merge_guard` appears in `layout/params.json`.
 

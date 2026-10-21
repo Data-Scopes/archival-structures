@@ -25,13 +25,19 @@ JOIN_SEGMENT_COLUMNS = ["scan_id", "unit_id", "seg_order", "line_id", "seg_idx",
                         "boundary_kind"]
 
 
-def join_unit(texts, wbcs, guards=ALL_GUARDS, both_ends_fix=True):
+def join_unit(texts, wbcs, guards=ALL_GUARDS, both_ends_fix=True, lead_marks=""):
     """Join a unit's segment texts (all non-empty, in ``seg_order``) like ``join_region``.
 
     Returns ``(text, spans, boundaries)``. ``spans[i] = (char_start, char_end, lead_dropped)`` with
     ``text[char_start:char_end] == texts[i][lead_dropped:]`` minus the trailing word-break char(s) the
-    library removed when boundary *i* is a merge. ``boundaries[i] = (kind, char)`` is the boundary
+    library removed when boundary *i* is a merge (two for ``--``, ``=-``, ``-„``). ``boundaries[i] = (kind, char)`` is the boundary
     after segment *i* (``("", "")`` after the last; ``char`` is ``""`` for ``plain``).
+
+    ``lead_marks`` (step 15ir): on a merge boundary, a character of this set at the start of the
+    next text, followed by a letter, is dropped as well (a break mark repeated on the next line
+    that the HTR read as e.g. ``,``). ``lead_dropped`` is always the real number of leading
+    characters missing from the unit text: it also counts a second leading break character the
+    library strips by itself (``["vande„", "„„selve", "meer"]``).
     """
     from pagexml.helper.pagexml_helper import make_text_region_text
     n = len(texts)
@@ -54,7 +60,9 @@ def join_unit(texts, wbcs, guards=ALL_GUARDS, both_ends_fix=True):
             continue
         if both_ends_fix and nxt[0] in wbcs:
             lines[i + 1] = nxt[1:]
-            lead[i + 1] = 1
+        if lead_marks and lines[i + 1][:1] in lead_marks and lines[i + 1][1:2].isalpha():
+            lines[i + 1] = lines[i + 1][1:]
+        lead[i + 1] = len(nxt) - len(lines[i + 1])
         current.append(i + 1)
     runs.append(current)
 
@@ -69,7 +77,15 @@ def join_unit(texts, wbcs, guards=ALL_GUARDS, both_ends_fix=True):
             end = r["end"]
             if k < len(run) - 1 and boundaries[i][0] == "plain":
                 end -= 1   # the separating space is not part of the segment
-            spans[i] = (base + r["start"], base + end, lead[i])
+            seg = run_text[r["start"]:end]
+            fed = lines[i]
+            extra = 0      # leading break chars the library strips by itself
+            if fed[:1] in wbcs:
+                while extra < len(fed) and fed[extra] in wbcs and not fed[extra:].startswith(seg):
+                    extra += 1
+                if not fed[extra:].startswith(seg):
+                    extra = 0
+            spans[i] = (base + r["start"], base + end, lead[i] + extra)
         pieces.append(run_text)
         base += len(run_text) + 1
     return " ".join(pieces), spans, boundaries
@@ -121,7 +137,7 @@ def write_word_break_stats_part_v2(inv, layer_root, robust=True):
 
 # ------------------------------------------------------------------ stage join worker
 
-def join_inventory_v2(inv, layer_root, wbcs):
+def join_inventory_v2(inv, layer_root, wbcs, lead_marks=""):
     """Stage join for one inventory: join/units, join/segments and join/stats."""
     start = time.monotonic()
     root = Path(layer_root)
@@ -135,7 +151,7 @@ def join_inventory_v2(inv, layer_root, wbcs):
         full = [s for s in segs if s["text"]]
         n_empty += len(segs) - len(full)
         texts = [s["text"] for s in full]
-        text, spans, bounds = join_unit(texts, wbcs)
+        text, spans, bounds = join_unit(texts, wbcs, lead_marks=lead_marks)
         merged = 0
         for i, (s, (cs, ce, lead_dropped)) in enumerate(zip(full, spans)):
             kind, char = bounds[i]
@@ -145,7 +161,11 @@ def join_inventory_v2(inv, layer_root, wbcs):
                 kinds[kind] += 1
                 kinds_by_type[unit["unit_type"]][kind] += 1
             seg_text = texts[i]
-            if text[cs:ce] != seg_text[lead_dropped:lead_dropped + (ce - cs)]:
+            # full span: what the unit text holds, plus only the trailing break chars the
+            # library dropped on a merge (at most two), equals the segment text
+            tail = seg_text[lead_dropped + (ce - cs):]
+            if (text[cs:ce] != seg_text[lead_dropped:lead_dropped + (ce - cs)]
+                    or len(tail) > (2 if is_merge else 0) or any(c not in wbcs for c in tail)):
                 n_violations += 1
             seg_rows.append((unit["scan_id"], unit["unit_id"], s["seg_order"], s["line_id"],
                              s["seg_idx"], cs, ce, s["line_start"] + lead_dropped,
@@ -157,6 +177,7 @@ def join_inventory_v2(inv, layer_root, wbcs):
     write_tsv_gz(root / "join" / "segments" / f"{inv}.tsv.gz", JOIN_SEGMENT_COLUMNS, seg_rows)
     write_json_atomic(root / "join" / "stats" / f"{inv}.json", {
         "inventory_number": inv, "wbc_set": wbc_str, "guards": list(ALL_GUARDS),
+        "lead_marks": lead_marks,
         "n_units": n_units, "n_segments": n_segs, "n_empty_segments_dropped": n_empty,
         "n_offset_violations": n_violations,
         "boundary_kinds": dict(sorted(kinds.items())),

@@ -48,6 +48,9 @@ CASES = [
     ["een", "twee-", "„drie", "vier"],
     ["x"],
     ["Eerste regel-", "tweede„", "„derde-", "vierde"],
+    ["vande„", "„„selve", "meer"],        # a second leading break char: the library strips it
+    ["vande„", "„„selve"],
+    ["gero„", ",ijeert", "x"],            # lead_marks="" leaves the comma alone
 ]
 
 
@@ -70,6 +73,41 @@ def test_join_unit_equals_join_region(texts):
             if i + 1 < len(texts):
                 assert text[ce:spans[i + 1][0]] == " "
     assert spans[-1][1] == len(text) or texts[-1] == ""
+
+
+def test_lead_mark_comma():
+    text, spans, bounds = join_unit(["gero„", ",ijeert"], WBC, lead_marks=",")
+    assert text == "geroijeert"
+    assert spans == [(0, 4, 0), (4, 10, 1)] and bounds[0] == ("merge", "„")
+    assert join_unit(["gero„", ",ijeert"], WBC)[0] == "gero,ijeert"
+    # a comma before a non-letter, or on a plain boundary, stays
+    assert join_unit(["gero„", ",1"], WBC, lead_marks=",")[0] == "gero,1"
+    assert join_unit(["gero", ",ijeert"], WBC, lead_marks=",")[0] == "gero ,ijeert"
+    # both-ends fix and lead mark together: "„,x" loses both
+    text, spans, _ = join_unit(["gero„", "„,ijeert"], WBC, lead_marks=",")
+    assert text == "geroijeert" and spans[1][2] == 2
+    # the comma at the line start of a run's first line is never touched
+    assert join_unit([",ijeert", "x"], WBC, lead_marks=",")[0] == ",ijeert x"
+
+
+def test_double_lead_wbc():
+    texts = ["vande„", "„„selve", "meer"]
+    text, spans, bounds = join_unit(texts, WBC)
+    assert text == join_region(texts, WBC) == "vandeselve meer"
+    assert spans == [(0, 5, 0), (5, 10, 2), (11, 15, 0)]
+    assert texts[1][2:2 + 5] == text[5:10]
+    # last line of the unit: the library keeps the second mark
+    text, spans, _ = join_unit(["vande„", "„„selve"], WBC)
+    assert text == "vande„selve" and spans[1] == (5, 11, 1)
+
+
+def test_full_span_accounts_for_trailing_chars():
+    for texts, n_trailing in ((["Cor-", "respondentie"], 1), (["Cor--", "respondentie"], 2),
+                              (["Cor=-", "respondentie"], 2), (["Cor-„", "respondentie"], 2)):
+        text, spans, bounds = join_unit(texts, ["-", "=", "„"])
+        cs, ce, lead = spans[0]
+        assert bounds[0][0] == "merge"
+        assert text[cs:ce] == texts[0][lead:len(texts[0]) - n_trailing], texts
 
 
 def test_join_unit_known_values():
@@ -117,6 +155,23 @@ def _v2_pagexml(tmp_path):
     return root
 
 
+def test_allow_partial_uses_pin(tmp_path):
+    out = tmp_path / "out"
+    base = ["--pagexml-dir", str(_v2_pagexml(tmp_path)), "--out-dir", str(out),
+            "--preset", "sg_1.01.02_v2", "--workers", "1"]
+    assert build.main(base + ["--stage", "all"]) == 0
+    root = out / "NL-HaNA_1.01.02_text_layer_v2"
+    path = root / "wbc" / "wbc_per_inventory.tsv"
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    path.write_text(lines[0], encoding="utf-8")          # no decision for any inventory
+    with pytest.raises(SystemExit):
+        build.main(base + ["--stage", "join", "--force"])
+    assert build.main(base + ["--stage", "join", "--force", "--allow-partial"]) == 0
+    stats = json.loads((root / "join" / "stats" / "9999.json").read_text())
+    assert stats["wbc_set"] == "-=„"                      # the preset's pinned default
+    assert stats["lead_marks"] == ","
+
+
 def test_v2_all_chain(tmp_path):
     out = tmp_path / "out"
     base = ["--pagexml-dir", str(_v2_pagexml(tmp_path)), "--out-dir", str(out),
@@ -134,11 +189,16 @@ def test_v2_all_chain(tmp_path):
              for r in read_tsv_gz(root / "lines" / "9999.lines.tsv.gz")}
     cuts = {(r["scan_id"], r["line_id"], r["seg_idx"]): int(r["char_start"])
             for r in read_tsv_gz(root / "types" / "segments" / "9999.tsv.gz")}
+    seg_end = {(r["scan_id"], r["line_id"], r["seg_idx"]): int(r["char_end"])
+               for r in read_tsv_gz(root / "types" / "segments" / "9999.tsv.gz")}
     for s in segs:
         cs, ce, off = int(s["char_start"]), int(s["char_end"]), int(s["line_offset"])
         unit_text = text_of[(s["scan_id"], s["unit_id"])]
         line = lines[(s["scan_id"], s["line_id"])]
         assert unit_text[cs:ce] == line[off:off + (ce - cs)]
+        # the full span: the rest of the segment text is at most two trailing break chars on a merge
+        tail = line[off + (ce - cs):seg_end[(s["scan_id"], s["line_id"], s["seg_idx"])]]
+        assert len(tail) <= (2 if s["merged_with_next"] == "1" else 0), tail
         assert off >= cuts[(s["scan_id"], s["line_id"], s["seg_idx"])]
     stats = json.loads((root / "join" / "stats" / "9999.json").read_text())
     assert stats["n_offset_violations"] == 0

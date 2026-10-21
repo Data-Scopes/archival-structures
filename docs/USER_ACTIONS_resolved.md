@@ -186,3 +186,29 @@
 - **Blocks:** 15i Part B (publication to `shared-data/`) and LotA's re-alignment (hand-off 4).
 - **Response:** a
 - **Resolved 2026-10-21:** answered (a). `15i-b` published by step 15i Part B to `shared-data/NL-HaNA_{1.01.02,1.10.94}/text_layer_v2/`; audit 176/182 on the copies; catalogue, changelog, LotA note and AS `docs/text_layer.md` written.
+
+### UA-013 What happens to the published `text_layer_v2` after the review fixes (2026-10-21, from the phase-07 review)
+- **Action:** **Decide.** The review found four defects in the published pilot
+  (`plan/phase-07-sg-units-and-pilot/REVIEW.md`, rows 1–4):
+  - print line order scrambled in 335 units of 455 (rows 153, 185 and 275 of the 116 are affected);
+  - a stray continuation comma inside 1,8k hand words, mostly in 11182, 3352 and 11281 (none of the
+    116 rows);
+  - 77 print legacy ids lost needlessly;
+  - wrong page-number method tags.
+
+  Step 15ir fixes them into the dev layer `data/text_layer_v2_dev/15ir-a/`. It does not touch
+  `shared-data`.
+- **Options:**
+  - (a) Keep `text_layer_v2` as published. 15ir adds a *Known issues* note to LotA §6 and to
+    `docs/text_layer.md`, and the fixes go into the full SG run (`text_layer_v3`, D17).
+  - (b) After 15ir, publish `15ir-a` as a new pilot version, `text_layer_v2_1` next to `v2`. This
+    means a new catalogue row and a LotA note, and LotA re-aligns on it.
+  - (c) As (b), but it replaces `v2` before LotA has used it. That needs the shared-data README's
+    in-place rule waived.
+
+  Recommended: (a), because the defects touch 3 of the 116 rows and the ≥ 80% target is out of
+  reach for other reasons (glue, HTR/OCR).
+- **Default if unanswered:** (a).
+- **Blocks:** nothing in 15ir. Under (b) or (c), a publication step after 15ir.
+- **Response:** a
+- **Resolved 2026-10-21 (phase-07 review session):** answered (a). `text_layer_v2` stays as published; step 15ir (brief updated) adds the *Known issues* notes to `docs/text_layer.md` and LotA §6 and builds the fixes into the dev layer `15ir-a` only; the fixes reach SG data in the full run `text_layer_v3` (D17).

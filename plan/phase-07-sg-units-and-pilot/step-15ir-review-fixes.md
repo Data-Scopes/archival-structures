@@ -12,7 +12,8 @@
 The phase-07 review found five code defects behind the published pilot `text_layer_v2`, and a set
 of test and documentation gaps. This step fixes them in code, rebuilds a **dev** layer `15ir-a`
 from the same sources as `15i-b`, and measures each fix. It does **not** touch the published
-copies in `shared-data/`: whether a fixed pilot is published is UA-013. Every fix is gated so that
+copies in `shared-data/`: UA-013 was answered (a), so `text_layer_v2` stays as published, gets the
+*Known issues* notes below, and the fixes go into the full run `text_layer_v3`. Every fix is gated so that
 v1 (`VOC_V1`) and `LEGACY_15FP` output stay byte-identical.
 
 ## Inputs
@@ -202,11 +203,11 @@ Findings `F07-15ir.n` (draft) in a `### Step 15ir: phase 07 review fixes` sectio
 
 ## Do not touch
 
-`shared-data/` (UA-013 decides on publication), the earlier dev layers, the report's *Summary*,
+`shared-data/` (UA-013 (a): no publication), the earlier dev layers, the report's *Summary*,
 *Review* and *Follow-ups* sections.
 
 ## When done
 
 1. Report section and findings as above; `make reports` clean.
-2. Append the template's `PROGRESS.md` block; overwrite `STATUS.md` (next: the user's UA-013 and the
-   release; then phase 08 planning).
+2. Append the template's `PROGRESS.md` block; overwrite `STATUS.md` (next: the review of 15ir, the
+   user's release v0.12.0; then phase 08 planning).

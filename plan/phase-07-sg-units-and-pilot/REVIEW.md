@@ -108,7 +108,7 @@ table (F07-15i.1), and the audit re-run covers their invariants.
 - [x] `reports/index.md`: phase-07 findings appended, phase row added
 - [x] `make reports` runs without warnings
 - [x] Review-fixes brief written (`step-15ir-review-fixes.md`)
-- [ ] `docs/shared_library/changelog.md` complete for this phase: gaps go into 15ir's entry
+- [x] `docs/shared_library/changelog.md` complete for this phase: the gaps were filled by 15ir's entry
 - [x] phase `PLAN.md` *Hand-off* filled in; `plan/PLAN.md` row updated; `plan/CONTEXT.md` created
 - [x] phase `STATUS.md` overwritten
 - [x] Release recommendation: below
@@ -120,3 +120,52 @@ table (F07-15i.1), and the audit re-run covers their invariants.
    it as **v0.11.0** (phase 07: layout, types, units, v2 wbc/join, pinned WBC sets).
 2. **After 15ir:** v0.12.0 (review fixes; default layout and types output change for print, a new
    preset field for hand).
+
+## Step 15ir review (2026-10-21)
+
+- **Session:** Opus 5.5, same session as the phase review. 15ir ran as a Sonnet subagent (prompt 2).
+  UA-013 was answered (a) before it started, so the brief said "no publication".
+- **Verdict:** **accept.** All of F07-R.1–R.5 are fixed in code and in `15ir-a`. Each fix is gated:
+  v1 gives 157 / 157 and the `LEGACY_15FP` tests pass unchanged. Release as **v0.12.0**.
+
+| Check | Re-run by the reviewer | Step's claim |
+|---|---|---|
+| AS suite | 1,123 passed, 97 subtests | same |
+| `audit.py` (the 15i original) `--layer 15ir-a` | 178 / 182; fails 3351, 3823, 455, 456 (share) | same |
+| `rows116.py`, `15i-b` vs `15ir-a` | 8 cells differ (`print_unit_ids` 153, 238; `print_n_candidate_units` 153, 185, 236, 238, 275, 282); share 0.526 | same |
+| letter `,` letter in `join/units.text` | 11182 1,315 → 15; 3352 342 → 6; 455 7 → 7 | 1,856 commas stripped |
+| offsets `text[cs:ce] == line.text[lo:…]` | 0 bad in 11182 (57,949 segs), 3352 (97,587), 455 (173,475) | 0 in 16 inventories |
+| `split_at_column` regions, > 50 px backward baseline jump | 455 410 → 0; 456 526 → 0; `unchanged` 130 / 0 | same |
+| `n_id_collisions` | 455 58 → 0, 456 32 → 0 | same |
+| permissions, `make reports` | all new files g+w; 0 warnings | |
+
+**Read in the diff:**
+- *Fix 2.* Each pass gets fresh dicts, and the caller gets only the pass that ends the loop. That pass
+  runs on the final regions, so no merged-away id can appear.
+- *Fix 3.* `whole` moved above rule 1 and has the same value as before: it tests the full line text.
+  The relabel tests the candidate's line id per page.
+- *Fix 4.* `claimable` excludes the scan's layout ids and an entry is deleted once a unit takes it, so
+  no two units hold one id. Units that don't claim still go through the collision loop over `taken`.
+- *Fix 5.* `lead[i+1] = len(nxt) - len(stripped)`. The `extra` loop in the span code counts a second
+  break character that the library strips by itself. It is heuristic (prefix matching), but the
+  full-span check backs it up: 0 violations. An empty next text is safe, because
+  `"".isalpha()` is false.
+
+**New findings:**
+
+| # | Finding | ID |
+|---|---|---|
+| 1 | The re-run reproduces the step | F07-R.10 |
+| 2 | `claimable` is built by scanning all legacy rows per scan. 455 units: 4.0 → 10.0 s, about 6.5 s of it this loop. Group by scan once before `text_layer_v3` | F07-R.11 |
+| 3 | The baseline sort swaps same-row fragments (+49 pairs in 455, +564 in 456). That is small next to the 936 regions it fixes, but a row-tolerant key would remove it | F07-15ir.3 |
+
+**Brief quality.** The step had to re-measure three numbers:
+- 11 date lines was really 19;
+- the comma counts included `,` + space;
+- 455 had 13 collisions only with fix 4 alone.
+
+All three come from defect 2 of `plan/CONTEXT.md` §5: when one step combines several fixes, measure each
+expected number with **all** of them applied, or say which fix it belongs to alone. The step also found
+that the changelog had no *Unreleased* heading after the release. Both points are now in
+`plan/CONTEXT.md` §5.
+

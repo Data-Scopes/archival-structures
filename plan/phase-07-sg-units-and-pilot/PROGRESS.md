@@ -427,3 +427,50 @@ Implementation sessions append here but don't read it unless their brief names a
 - **Not done:** `docs/findings.md` (the candidates are listed in the report's *Review*). The changelog
   gaps go into 15ir.
 - **Open questions for the user:** UA-013; the commit and v0.11.0 release; UA-007.
+
+### Step 15ir: phase 07 review fixes (2026-10-21, Sonnet)
+
+- **Session:** Sonnet 5.5, 2026-10-21. **Status:** done; acceptance 1-9 met, with the readings below (criteria 3 and 5 differ from the brief's wording or number).
+- **Files changed:** `archival_structures/analysis/page_structure.py`, `text_layer/{layout,types,units,join_v2,build,presets}.py`;
+  tests `test_analysis_page_structure.py`, `test_text_layer_{layout,types,units,join_v2,word_breaks}.py` (22 new tests);
+  `docs/text_layer.md`, `docs/shared_library/changelog.md` (new `## Unreleased` + `### Step 15ir`, 15fq2 correction);
+  LotA `docs/from-archival-structures.md` §6 (*Known issues*); report section + F07-15ir.1-.10; new dev layer
+  `data/text_layer_v2_dev/15ir-a/{hand,print}`, `15ir-v1check/`, `15ir-protected-{before,after}.txt`;
+  `reports/data/phase-07-sg-units-and-pilot/step-15ir/` (scripts, json, samples).
+- **Public API:** additive. `LayoutParams.sort_split_lines`, `split_regions_on_line_field(sort_lines=)`, `build_units_page(claimable=)`,
+  `join_unit(lead_marks=)`, `join_inventory_v2(lead_marks=)`, `LayerPreset.join_lead_marks`; new `ValueError` validation in
+  `LayoutParams` and `TypeParams`; output counts and `type_method` change. No sibling imports the names.
+- **Tests:** AS 1,123 passed (was 1,101); NLP 56 passed; v1 `TOTAL 157 / 157`; protected hashes identical.
+- **Acceptance:** hand identical except `types` (type_method, 18 date lines) and `join` (comma strip); print `layout/regions` identical,
+  `layout/lines` differ in 22,115 `layout_line_idx`; units with a jump 335 -> 77 (455), 160 -> 7 (456); `n_id_collisions` 58 -> 0, 32 -> 0;
+  `pn_line` 10,327 -> 8,826; 1,856 commas stripped, 11182 share 0.699 -> 0.975; 0 offset violations; audit 178/182; 116 rows unchanged.
+- **Error analysis:** fix 1 17 right / 2 ambiguous / 1 wrong; fix 5 29 / 1 unclear; fix 3b 18 not page numbers / 1 real / 1 unclear; twins 10 / 10.
+- **Report:** [Step 15ir](../../reports/phase-07-sg-units-and-pilot.md#step-15ir-phase-07-review-fixes); F07-15ir.1-.10.
+- **Brief defects:** 11 hand date lines is 18 (19 with 455); the comma counts of fix 5 include `,` + space (65) and `,,` (5); n_id_collisions 13 holds
+  for fix 4 alone, 0 with fix 1; the jump metric by box top y leaves 15 drop-capital boxes (0 by baseline y); *Unreleased* heading was missing.
+- **Not done:** `line_type` of the 1,501 off-chain `pn_line` segments; `, ` + letter lead mark; row-tolerant sort; sorting `unchanged` regions.
+- **Open questions for the user:** none.
+
+### Review of step 15ir (2026-10-21, Opus)
+
+- **Session:** Opus 5.5, the phase-review session. UA-013 was answered (a): it was recorded in the brief, `STATUS.md`
+  and `plan/CONTEXT.md`, and moved to `docs/USER_ACTIONS_resolved.md`. 15ir then ran as a Sonnet subagent with prompt 2.
+- **Verdict:** accept ([REVIEW](REVIEW.md#step-15ir-review-2026-10-21)). Release v0.12.0.
+- **Re-run:**
+  - AS: 1,123 passed.
+  - Audit (the 15i original) on `15ir-a`: 178 / 182.
+  - The 116 rows differ from `15i-b` in 8 cells. The predictions are unchanged.
+  - Commas between letters: 11182 1,315 → 15, 3352 342 → 6.
+  - Offsets re-derived for 11182, 3352 and 455: 0 bad.
+  - Split regions with a backward baseline jump: 410 → 0 (455), 526 → 0 (456).
+  - `make reports`: 0 warnings.
+- **New findings:**
+  - F07-R.10: the re-run.
+  - F07-R.11: `claimable` takes quadratic time.
+  - The step's F07-15ir.1–.10 are confirmed.
+- **Updated:**
+  - the report (header, Summary, finding statuses, Review, Follow-ups) and `reports/index.md` (12 rows);
+  - `REVIEW.md`, `plan/CONTEXT.md` (§1, §2 and §4 now record the 15ir behaviour; §5 has the brief defects);
+  - `plan/PLAN.md` row 07, the phase `PLAN.md` (status, 15ir row, hand-off) and `STATUS.md`.
+- **Open questions for the user:** the commit and v0.12.0; UA-007.
+

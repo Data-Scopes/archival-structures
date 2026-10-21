@@ -184,7 +184,7 @@ presets hold the dev-chosen parameters (8, 20, 0) and are off: real precision wa
 ### Layout tables (steps 15fp, 15fq, 15fq2)
 
 `as-build-text-layer --preset P --out-dir D --stage layout` (v2 presets; no `--pagexml-dir`;
-not part of `--stage all`; `--layout-params` takes JSON overriding `LayoutParams`) reads
+part of `--stage all`, also runnable alone; `--layout-params` takes JSON overriding `LayoutParams`) reads
 `scans/`, `regions_meta/` and `lines/` and writes `layout/`. The input tables are never
 rewritten; run it on a copy of the layer. Per scan (`text_layer.layout`, on
 `analysis.page_structure`):
@@ -217,7 +217,11 @@ rewritten; run it on a copy of the layer. Per scan (`text_layer.layout`, on
    element (a `''` line conflicts with nothing; checked per component, edges in region order).
    Skipped pairs are counted in the scans column `n_column_blocked`. `merge=False` skips merging. Merged lines are
    sorted by (baseline mean y, box left). An unmerged, unsplit region keeps its `region_id`; any
-   other gets `legacy_doc_id(scan_id, hull box)`.
+   other gets `legacy_doc_id(scan_id, hull box)`. Since step 15ir (`sort_split_lines=True`; `LEGACY_15FP`
+   has it off) the lines of each piece of a column-split region are sorted by the same key (a Laypa
+   page-level print region interleaves the columns in XML order); an unsplit region keeps its line
+   order, so `unchanged` regions can still read out of order. `blocked` pairs are counted once, per
+   final region pair (earlier a relation was counted again under each merged id).
 4. Columns: regions sorted by left join the first column where
    `min(ov/w_region, ov/w_column) > col_min_ratio` and the max `> col_max_ratio`. A column is
    `main` when its characters are ≥ `main_min_char_frac` × those of the page's largest column,
@@ -228,13 +232,13 @@ Defaults: `overlap_threshold=0.5`, `col_min_ratio=0.5`, `col_max_ratio=0.75`,
 `gutter_rule=auto`, `gap_share_min=0.95`, `long_line_frac=0.6`, `min_long_lines=5`,
 `edge_quantile=0.95`, `split_on_line_field=column`, `furniture_max_lines=2`,
 `furniture_max_chars=30`, `catchword_band=0.04`, `interleave_guard=True`,
-`interleave_width_frac=0.5`, `merge=True`; a preset's `layout_params` override these, and
+`interleave_width_frac=0.5`, `merge=True`, `column_merge_guard=True`, `sort_split_lines=True`; `gutter_rule` is validated (`gap`, `main_edge`, `auto`); a preset's `layout_params` override these, and
 `--layout-params` overrides both. `LEGACY_15FP` reproduces the 15fp stage. `sg_1.01.02_v2` sets
 `merge=False` (step 15fq: the hand merges were 0.52 precise).
 
 | Table | One row per | Columns |
 |---|---|---|
-| `layout/scans/<inv>.tsv.gz` | scan | `scan_id, page_mode` (`opening`/`single`), `separation_x` (empty for `single`), `split_method` (`gap`/`main_edge`/`min_coverage`/`none`; `none` for single pages and openings without text), `n_lines_crossing` (lines whose box contains `separation_x`), `n_regions_in`, `n_regions_out` (non-empty regions only), `n_merges` (output regions that are merges), `n_gutter_splits` (input regions split at the gutter), `gutter_rule` (`gap`/`main_edge`, per inventory), `n_column_splits`, `n_furniture`, `n_guard_blocked` (overlapping pairs the interleave guard kept apart) |
+| `layout/scans/<inv>.tsv.gz` | scan | `scan_id, page_mode` (`opening`/`single`), `separation_x` (empty for `single`), `split_method` (`gap`/`main_edge`/`min_coverage`/`none`; `none` for single pages and openings without text), `n_lines_crossing` (lines whose box contains `separation_x`), `n_regions_in`, `n_regions_out` (non-empty regions only), `n_merges` (output regions that are merges), `n_gutter_splits` (input regions split at the gutter), `gutter_rule` (`gap`/`main_edge`, per inventory), `n_column_splits`, `n_furniture`, `n_guard_blocked` (overlapping pairs of final regions the interleave guard kept apart; since step 15ir the pairs of the last merge pass only), `n_column_blocked` (the same for the column merge guard) |
 | `layout/regions/<inv>.tsv.gz` | layout region, and empty source region | `scan_id, page` (`verso`/`recto`/`single`), `layout_region_id, x, y, w, h` (hull of the lines; the `regions_meta` box for `empty`), `layout_column` (0… by left edge per page; empty for `empty`), `layout_role` (`main`/`extra`/`empty`), `n_lines, source_region_ids` (space-separated, input order), `change` (`unchanged` or the `+`-join of `merged`, `split_at_gutter`, `split_at_column`), `furniture` (`1`/`0`), `column_value` (the line-field value the region shares, else empty) |
 | `layout/lines/<inv>.tsv.gz` | input line | `scan_id, line_id, region_id` (input), `page, layout_region_id, layout_line_idx, layout_column, layout_role` |
 
@@ -252,7 +256,7 @@ fragments (precision 0.52).
 
 ### Type tables (step 15g)
 
-`--stage types` (v2 presets only, not part of `all`; `--types-params` JSON overrides the preset's
+`--stage types` (v2 presets only, part of `--stage all` and runnable alone; `--types-params` JSON overrides the preset's
 `TypeParams`) reads `scans/`, `lines/` and `layout/` and writes `types/`. The old `region_type`
 stays retired. Code: `text_layer/types.py`.
 
@@ -266,7 +270,7 @@ with non-blank `text` has at least one; empty lines have none.
 | `x, y, w, h, geom_method` | `line` (the line box) or `char_proportion` (`x = line.x + round(w*char_start/len(text))`, same for `w`) |
 | `page, layout_region_id` | from `layout/lines` |
 | `line_type` | one of `main_text, page_number, running_header, date_header, catch_word, signature_mark, marginalia, index, other` |
-| `type_method` | the rule: `rule:pn_line`, `rule:pn_line_offchain`, `rule:pn_suffix`, `rule:date_line`, `rule:date_prefix`, `rule:margin_prefix`, `rule:header`, `rule:catch_word`, `rule:signature`, `rule:index_page`, `rule:extra_role`, `rule:page_margin`, `rule:noise`, `rule:default` |
+| `type_method` | the rule: `rule:pn_line`, `rule:pn_line_offchain` (a pn_line-shaped band line not confirmed by the page-number chain: since step 15ir every `rule:pn_line` segment that is not the in-chain page's candidate line is relabelled; the `line_type` stays `page_number`), `rule:pn_suffix`, `rule:pn_suffix`, `rule:date_line`, `rule:date_prefix`, `rule:margin_prefix`, `rule:header`, `rule:catch_word`, `rule:signature`, `rule:index_page`, `rule:extra_role`, `rule:page_margin`, `rule:noise`, `rule:default` |
 | `column_override` | print presets: `x` for page_number, running_header, date_header, catch_word and signature_mark segments (F06-15e.8), else empty |
 
 `types/regions/<inv>.tsv.gz`: one row per non-empty layout region: `scan_id, page,
@@ -274,6 +278,9 @@ layout_region_id, region_type` (most segment characters, ties in the order of `T
 `type_method` (`char_majority`), `n_segments`, `type_counts` (`main_text:120;page_number:3`).
 `types/stats.json` (per inventory: segments and characters per type, splits per rule, page-number
 chain) and `types/params.json`.
+
+`TypeParams` validates `margin_cut` (`month_only`, `all`, `off`) and `top_n`, `bottom_n` (>= 1) and raises `ValueError`.
+A line that fullmatches `date_line`, `pn_line` or `year_line` is never split by `rule:date_prefix` (step 15ir: "28. Junij 1650." stays one `date_header` segment).
 
 Only three rules split a line: `rule:date_prefix` (a date at the start of the topmost line or of
 a line starting in the margin), `rule:margin_prefix` (a line starting in the margin and running
@@ -294,10 +301,15 @@ read with extra OCR digits ("11323 )") stay `main_text`.
 
 ### Units and the doc_id mapping (step 15h)
 
-`--stage units` (v2 presets only, not part of `all`; `--unit-params` JSON overrides the preset's
+`--stage units` (v2 presets only, part of `--stage all` and runnable alone; `--unit-params` JSON overrides the preset's
 `UnitParams`; `--republic-dir` points at REPUBLIC's `paragraphs-<inv>.tsv.gz` for print) reads
 `scans/`, `regions_meta/`, `lines/`, `layout/` and `types/` and writes `units/`. Code:
-`text_layer/units.py`. No text is joined here (step 15hj).
+`text_layer/units.py`. No text is joined here (step 15hj). Unit ids: the main part of a layout region keeps the
+region id; any other unit takes the legacy id of its own box, bumping `w` while the id is taken. Since step 15ir a
+unit whose own-box id is a legacy region id that is not a layout region id of the scan, and that holds every
+non-blank line of that legacy region, takes that id (a legacy twin; `doc_id_map` status `same_id`, no longer
+`changed`). `--stage units` writes `republic_dir` (the REPUBLIC directory used, or `null`) into `units/params.json`
+and, in print mode, logs a warning when `paragraphs-<inv>.tsv.gz` is missing.
 
 A **unit** never crosses a layout region. Per layout region, from its segments in
 (`layout_line_idx`, `seg_idx`) order:
@@ -355,7 +367,7 @@ ignoring adjacent marks) and `end_rel_frac_robust`; the `robust` statistic puts 
 written to `wbc/wbc_per_inventory_{default,robust}.tsv` and `wbc/corpus_default_{default,robust}.json`;
 `wbc_per_inventory.tsv` and `corpus_default.json` hold the one the preset names.
 
-`--stage join` (v2) joins every unit's segments with `join_unit(texts, wbcs)`
+`--stage join` (v2) joins every unit's segments with `join_unit(texts, wbcs, lead_marks=preset.join_lead_marks)`
 (`text_layer/join_v2.py`), which returns exactly `join.join_region`'s text, plus per segment its span
 and per boundary the kind (`plain`, `merge`, `g_*`). Segment text = `lines.text[char_start:char_end]`
 of `types/segments`. Tables under `join/`:
@@ -365,11 +377,21 @@ of `types/segments`. Tables under `join/`:
 - `segments/<inv>.tsv.gz`: `scan_id, unit_id, seg_order, line_id, seg_idx, char_start, char_end,
   line_offset, break_char_end, merged_with_next, boundary_kind`. `char_start`/`char_end` are unit
   text offsets; **a unit position `p` in `[char_start, char_end)` is line position
-  `line_offset + (p - char_start)` in `lines.text`** (`line_offset = types.char_start` plus 1 when a
-  leading break char was dropped by the both-ends fix). Between consecutive spans the unit text has
+  `line_offset + (p - char_start)` in `lines.text`** (`line_offset = types.char_start` plus the number of
+  leading characters dropped: the both-ends fix, a `lead_marks` character (step 15ir), or a second leading
+  break char the library strips itself). Between consecutive spans the unit text has
   `""` after a `merge` and one space otherwise. `break_char_end` is the segment's final break char
   (`""` if none); on a `merge` it is not in the span. `boundary_kind` is the boundary after the segment.
-- `stats/<inv>.json`: boundary kinds (also by unit type), `wbc_set`, guards, offset violations.
+- `stats/<inv>.json`: boundary kinds (also by unit type), `wbc_set`, guards, `lead_marks`, offset violations.
+  A merged segment may lose up to two trailing break chars (`--`, `=-`, `-„`; the library drops both), so the
+  span check compares `text[char_start:char_end]` with `seg_text[lead:len(seg_text) - n_trailing_removed]`
+  and requires the removed tail to be break chars only (step 15ir).
+
+`LayerPreset.join_lead_marks` (step 15ir, default `""`; `","` in `SG_HAND_V2` only): on a `merge` boundary, a
+character of this set at the start of the next segment text and followed by a letter is dropped after the
+both-ends fix. In 11182 the scribe repeats the break mark at the start of the next line and the HTR reads it as
+`,` ("gero„" + ",ijeert" gave "gero,ijeert"). `--stage join` records it in `join/stats/<inv>.json` and re-joins
+when it differs from the preset.
 
 Guards, the both-ends fix and the wbc set are those of v1. A WBC set that fails the sanity anchors
 stops `join` as in v1 (`--ignore-sanity` overrides and is recorded in the manifest).
@@ -401,6 +423,27 @@ Published 2026-10-21 (phase 07, step 15i, from the dev layer `15i-b`) for the si
 |---|---|
 | `NL-HaNA_1.01.02/text_layer_v2/` | hand, 14 inventories: 3349-3354, 3771-3773, 3821-3823, 11182, 11281 (preset `sg_1.01.02_v2`) |
 | `NL-HaNA_1.10.94/text_layer_v2/` | print, 455 and 456 (preset `sg_1.10.94_v2`) |
+
+**Known issues in `text_layer_v2` (found in the phase-07 review, fixed in the dev layer `15ir-a`, not in these
+directories; the full run `text_layer_v3` will carry the fixes; UA-013 (a)):**
+
+1. *F07-R.1, print reading order.* In column-split print regions the lines are in XML order, which interleaves
+   the two columns: a unit can read y 2952, 3102, 1371, ... (`455_0010`). 455 has 546 layout regions whose
+   non-blank lines jump back more than 50 px (416 `split_at_column`, 127 `unchanged`, 2 `merged+split_at_column`,
+   1 `merged`); 335 of 28,079 units in 455 and 160 of 25,030 in 456 contain such a jump. Hand is not affected.
+2. *F07-R.2, repeated break mark read as a comma.* In 11182 1,305 of 4,699 merges give "gero,ijeert" (3352 336,
+   11281 170, 3772 47, 3822 20, 3353 16, 3350 13, 3823 10; print at most 3). The lower-case share of the right
+   side is therefore understated there.
+3. *F07-R.3, ids of legacy twins.* A unit with the box and all lines of a legacy region gets `w+1` instead of the
+   legacy id, so its `doc_id_map` row says `changed` (455: 45 of 58 `n_id_collisions`, 456: all 32).
+4. *F07-R.4, types.* A whole date line with a year ("28. Junij 1650.") is split by `rule:date_prefix` (19 lines:
+   11281 10, 3772 5, 3771 2, 3353 1, 455 1), and `rule:pn_line` is relabelled `_offchain` only for the candidate
+   line of an off-chain page, so 1,501 `rule:pn_line` segments that were not the in-chain candidate line (in the
+   sample read in step 15ir 18 of 20 were bottom-of-page digits or other non-page-numbers) still say
+   `rule:pn_line` (10,327 in the pilot; `_offchain` 1,792; the fix gives 8,826 and 3,293). Their `line_type`
+   is `page_number` in both layers.
+5. Smaller: `n_guard_blocked` / `n_column_blocked` count a blocked relation again under each merged id (455 1,322 /
+   62; 456 673 / 113); `n_offset_violations` compared a prefix of the span only.
 
 Tables and keys are those of the sections *Layout tables*, *Type tables*, *Units and the doc_id mapping* and *Unit text and
 offsets* above; `manifest.json` has a `publication` key with the producer, `as_version`, `git_head`, the audit summary (176 of 182

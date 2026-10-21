@@ -1,9 +1,9 @@
 # Phase 07 report: SG units, types and the pilot layer
 
-> **Status:** final (phase review, 2026-10-21).
+> **Status:** final (phase review, 2026-10-21; step 15ir reviewed the same day).
 > **Phase plan:** [`plan/phase-07-sg-units-and-pilot/PLAN.md`](../plan/phase-07-sg-units-and-pilot/PLAN.md).
-> **Code state:** AS unreleased after v0.10.0 (working tree at 73e1517 + phase-07 changes); LotA `docs/from-archival-structures.md` §6 and `shared-data` `text_layer_v2` written in 15i Part B.
-> **Last updated:** 2026-10-21, by the phase review (Opus).
+> **Code state:** AS v0.11.0 (steps 15fp–15i2, the code that built the published pilot); step 15ir unreleased (v0.12.0 recommended); LotA `docs/from-archival-structures.md` §6 and `shared-data` `text_layer_v2` written in 15i Part B.
+> **Last updated:** 2026-10-21, by the 15ir review (Opus).
 
 ## Summary
 
@@ -15,8 +15,10 @@ offsets are exact (F07-15hj.1) and every legacy id is mapped (F07-15h.1), but re
 for hand and are off (F07-15fq.3). The ≥ 80% acceptance target is predicted out of reach (0.526, bound
 0.560): 40 of the 51 artefact rows are transcription glue or HTR/OCR errors (F07-15i.3, .4). The review
 found five defects in the published layer (F07-R.1–R.5); the largest are scrambled print line order in
-455 (F07-R.1) and a stray continuation comma in 1.8k hand words (F07-R.2). Step 15ir fixes them in a
-dev layer.
+455 (F07-R.1) and a stray continuation comma in 1.8k hand words (F07-R.2). Step 15ir fixed all five in a
+dev layer (`15ir-a`; reviewed, F07-R.10): 0 `split_at_column` regions out of reading order, 1,856 commas
+removed (29 of 30 right), 0 needless id collisions. The published `text_layer_v2` stays as it is, with a
+*Known issues* note (UA-013 (a)); the fixes reach SG data in the full run `text_layer_v3`.
 
 ## Findings
 
@@ -112,6 +114,18 @@ dev layer.
 | F07-R.7 | The review re-run reproduces the phase: AS 1,101 passed, NLP 56, LotA 367 (+1 xfail), v1 `TOTAL 157 / 157`, audit 176 / 182 with the same 6 failures, 0 of 116 × 33 row cells differ, and the published copies equal `15i-b` apart from the `publication` key | result | sg, pilot, reproducibility | confirmed | [Review](#review) |
 | F07-R.8 | The published `text_layer_v2` was built at git head 73e1517 with 8 dirty files and records `as_version` 0.9.0; its code has no commit until the user commits the phase-07 tree | open-issue | sg, pilot, provenance | confirmed | [Review](#review) |
 | F07-R.9 | The suite stays green with the page-number chain, `merge=False`, the furniture `exclude` or the pin application broken: no test exercises them | open-issue | tests, types, layout, wbc | confirmed | [Review](#review) |
+| F07-R.10 | The 15ir review re-run reproduces the step: AS 1,123 passed; `audit.py --layer 15ir-a` 178 / 182; the 116-row table differs from `15i-b` in 8 cells only (`print_unit_ids` of rows 153, 238; `print_n_candidate_units` of 6 rows), share free 0.526; letter-comma-letter in the joined text of 11182 1,315 → 15 and of 3352 342 → 6; offsets re-derived for 11182, 3352 and 455 (0 mismatches); `split_at_column` regions with a > 50 px backward baseline jump 410 → 0 (455) and 526 → 0 (456) | result | sg, review, rerun | confirmed | [Review](#review) |
+| F07-R.11 | `unit_inventory` builds `claimable` by scanning every legacy row of the inventory for each scan: the 455 units stage goes from 4.0 s to 10.0 s, about 6.5 s of it this loop (721 scans × 140,094 rows); grouping the legacy rows by scan once removes it before the full run | open-issue | units, efficiency | confirmed | [Review](#review) |
+| F07-15ir.1 | Sorting each piece of a column-split print region by baseline y removes the reading-order jumps: units with a > 50 px backward jump fall from 335 to 77 (455) and from 160 to 7 (456), `split_at_column` regions with one from 410 to 0 by baseline y (by box top y 418 → 7 + 8 = 15 in 455 and 456, all drop-capital boxes); `layout/regions` are byte-identical and only `layout_line_idx` of 17,900 and 4,215 lines changes | bug-fixed | sg, print, layout, units, reading-order | confirmed | [Step 15ir](#step-15ir-phase-07-review-fixes) |
+| F07-15ir.2 | Of 20 changed print units read (Random(31)) 17 read right from the paragraph start, 2 are ambiguous (a stray first fragment), 1 is wrong: two glyph lines of one row (`. 7`) swap because their baseline y differs by a few px | result | sg, print, units, error-analysis | confirmed | [Step 15ir](#step-15ir-phase-07-review-fixes) |
+| F07-15ir.3 | The baseline-y sort with `x` only as tiebreak adds adjacent same-row pairs with `x` going left: +49 in 455 (457 → 506) and +564 in 456 (1,110 → 1,674); the 127 (455) `unchanged` regions keep XML order and 81 units in 455 still jump | open-issue | sg, print, layout, reading-order | confirmed | [Step 15ir](#step-15ir-phase-07-review-fixes) |
+| F07-15ir.4 | Counting blocked pairs on the last merge pass only lowers `n_guard_blocked` 1,322 → 769 and 673 → 659 and `n_column_blocked` 62 → 39 and 113 → 107; no other layout table changes | bug-fixed | sg, layout, merge | confirmed | [Step 15ir](#step-15ir-phase-07-review-fixes) |
+| F07-15ir.5 | Types: 19 whole date lines with a year stay one `date_header` (0 `date_prefix` on `date_line` lines), and 1,501 `rule:pn_line` segments become `rule:pn_line_offchain` (10,327 / 1,792 → 8,826 / 3,293); the type tables differ from `15i-b` in nothing else | bug-fixed | sg, types, page-numbers | confirmed | [Step 15ir](#step-15ir-phase-07-review-fixes) |
+| F07-15ir.6 | Of 20 relabelled segments (Random(33)) 18 are not page numbers (bottom-of-page digits, signatures), 1 is a real page number the chain pick missed (`( 409 )`), 1 is unclear; `line_type` stays `page_number`, so about 90% of the 1,501 segments are mistyped as page numbers | open-issue | sg, types, page-numbers | confirmed | [Step 15ir](#step-15ir-phase-07-review-fixes) |
+| F07-15ir.7 | Legacy twins keep their id: `n_id_collisions` 58 → 0 (455) and 32 → 0 (456); the brief's 13 reproduce for fix 4 alone on the old layout and vanish with fix 1 (they came from interleaved-order units); 77 twins now `same_id`, 10 of 10 read are the legacy region (same lines, same text) | bug-fixed | sg, print, units, r5 | confirmed | [Step 15ir](#step-15ir-phase-07-review-fixes) |
+| F07-15ir.8 | Dropping a line-initial `,` before a letter on a merge (hand only) strips 1,856 commas (11182 1,304, 3352 336, 11281 170) with 29 of 30 right; 11182's lower-case share goes 0.699 → 0.975, 3352 0.950 → 0.984, 11281 0.946 → 0.964, and the audit passes 178 of 182 (11182 and 11281 now pass) | bug-fixed | sg, hand, join, htr | confirmed | [Step 15ir](#step-15ir-phase-07-review-fixes) |
+| F07-15ir.9 | 70 comma-led merges remain in hand: 65 of the form `,` + space + letter (3772 43, 3822 12, 3823 8, `fue-` + `, rant`) and 5 `,,`, the same repeated mark; the rule needs the letter directly after the comma, and the brief's per-inventory counts (3772 47, 3822 20, 3823 10) include them | open-issue | sg, hand, join, htr | confirmed | [Step 15ir](#step-15ir-phase-07-review-fixes) |
+| F07-15ir.10 | `join_unit` reports the real leading-character count (a second `„` stripped by the library gave a wrong offset), the offset check covers the full span (0 violations in 16 inventories), `join_unit` equals `join_region` with `lead_marks=""` on all 234,170 units, v1 is `TOTAL 157 / 157`, and the 116-row evidence is unchanged (0.526, bound 0.560; rows 153, 185, 275 and three others change only their candidate-unit counts) | result | sg, join, offsets, rows116 | confirmed | [Step 15ir](#step-15ir-phase-07-review-fixes) |
 
 ## Steps
 
@@ -1255,6 +1269,88 @@ changes in the layer, the audit and the 116-row evidence are identical, and the 
 inventories reaches 0.989. The price is about a third of the removed `=` boundaries being real compound breaks.
 The brief's premise that 3351 and 3354 stay unchanged was wrong (F07-15i2.4). Publication waits for UA-012.
 
+### Step 15ir: phase 07 review fixes
+
+**What changed.** Brief: [`step-15ir-review-fixes.md`](../plan/phase-07-sg-units-and-pilot/step-15ir-review-fixes.md). Fixes for
+F07-R.1–R.5 in code (`page_structure.py`, `layout.py`, `types.py`, `units.py`, `join_v2.py`, `build.py`, `presets.py`), gated so
+that v1 and `LEGACY_15FP` stay byte-identical: print column pieces sorted (`LayoutParams.sort_split_lines`), blocked pairs counted
+on the last merge pass, whole date lines kept whole and every unconfirmed `rule:pn_line` relabelled `_offchain`, legacy twins keep
+their id (`build_units_page(claimable=)`), repeated break marks (`LayerPreset.join_lead_marks=","` for the hand preset), the real
+leading-character count in `join_unit`, a full-span offset check, and the small items (6a–6c). 22 new tests (AS 1,101 → 1,123).
+`docs/text_layer.md` (stage list, schema, *Known issues* in *Published SG pilot*), the changelog entry `### Step 15ir` under
+*Unreleased* and LotA `docs/from-archival-structures.md` §6 (*Known issues in `text_layer_v2`*) are written. The dev layer
+`data/text_layer_v2_dev/15ir-a/{hand,print}` was built from the sources of `15i-b`; `shared-data/` is untouched (UA-013 (a)).
+
+**Results** (`15ir-a` against `15i-b`, decompressed table text; scripts in `reports/data/phase-07-sg-units-and-pilot/step-15ir/`).
+
+| # | Criterion | Expected | Measured |
+|---|---|---|---|
+| 1 | Builds | exit 0, 0 failures, `sanity_pass` | hand and print exit 0, 0 failures, no `--ignore-sanity`, `sanity_pass` true |
+| 2 | Hand scope | `scans/ regions_meta/ lines/ layout/` identical; `types/` only `type_method` + hand date lines; `join/` only fix 5 and 3a | identical (layout stats: all counters 0, equal); `types/segments`: only `type_method` (hand: 1,075 segments relabelled) and 18 resegmented lines (brief said 11, see Brief defects); `join/`: 11 of 14 inventories differ, in `text` and offsets only; `units/` differs only in 3353, 3771, 3772, 11281 (the 18 date lines: −1, −2, −5, −9 units) |
+| 2 | Print scope | `layout/regions` and `layout/lines` differ only in `split_at_column`; counters ≤ old | `layout/regions` identical (139,538 and 5,394 rows); `layout/lines` differ only in `layout_line_idx` of 17,900 (455) and 4,215 (456) lines, all in `split_at_column` regions; `n_guard_blocked` 1,322 → 769 and 673 → 659, `n_column_blocked` 62 → 39 and 113 → 107 |
+| 3 | Fix 1 | 0 backward jumps in `split_at_column` regions; report `unchanged` (127) and units | by baseline y (the sort key): 0 in both. By box top y: 455 5 `split_at_column` + 2 `merged+split_at_column` + 1 `merged`, 456 8, all tall drop-capital boxes (see EA). `unchanged` 127 (455) and 4 (456) (by baseline 130 and 0). Units with a jump 335 → 77 (455), 160 → 7 (456); units 28,079 → 28,005 and 25,030 → 24,710 |
+| 4 | Fix 3 | 0 `date_prefix` on `date_line` lines; new `pn_line` / `_offchain` | 19 → 0. `rule:pn_line` / `_offchain` (old → new): 455 1,163/268 → 919/512; 456 1,452/135 → 1,270/317; hand total 7,712/1,389 → 6,637/2,464; all 10,327/1,792 → 8,826/3,293 (1,501 relabelled, brief 1,414 + 87) |
+| 5 | Fix 4 | `n_id_collisions` 455 58 → 13, 456 32 → 0 | 455 58 → **0**, 456 32 → 0, hand 0. The brief's 13 reproduce when fix 4 is run alone on the `15i-b` layout (13 / 0); with fix 1 the units that collided no longer exist. 77 twins now `same_id` (`identical` +46 and +32) |
+| 6 | Fix 5 | 0 hand merges starting `,` + letter; 11182 share ≈ 0.98 | 1,856 → 0 (11182 1,304, 3352 336, 11281 170, 3353 16, 3350 13, 3822 8, 3772 4, 3349 1, 3821 2, 3823 2). Lower-case share: 11182 0.699 → 0.975, 3352 0.950 → 0.984, 11281 0.946 → 0.964, 3350 0.986 → 0.988; others ≤ +0.002 |
+| 7 | Offsets | 0 violations (full span); `join_unit` = `join_region` with `lead_marks=""` | 0 in all 16 inventories; 0 of 234,170 units differ (hand 181,455 + print 52,715, all non-empty units), and the stored text equals `join_unit(lead_marks=preset)` for all |
+| 8 | Audit, 116 rows | list changes | audit 178 / 182 (was 176): 11182 and 11281 now pass; 3351 0.9415, 3823 0.9407, 455 0.8917, 456 0.9318 still below 0.95. 116 rows: 0 verdict or prediction changes (share 0.526, bound 0.560); `print_n_candidate_units` changes for rows 153, 185, 236, 238, 275, 282, and the unit ids for 153 and 238 |
+| 9 | Suites, v1, hashes | green, 157 / 157, unchanged | AS 1,123 passed (97 subtests); NLP 56 passed; v1 `TOTAL 157 / 157`; protected hashes (99,747 lines + sha256 of 6 tar and 2 zip) identical before and after |
+
+**Error analysis.**
+
+- *What was read:* fix 1, 20 print units whose joined text changed (Random(31), 810 candidates in 455 + 456; `units_changed_sample.txt`);
+  fix 5, 30 removed commas (Random(32), 12 from 11182; `commas_sample.tsv`) plus the 7 followed by a capital; fix 3b, 20
+  relabelled segments (Random(33), of 1,501; `relabel_context.txt`); fix 4, 10 of the 77 twins (Random(34); `twins_sample.txt`);
+  the 13 remaining box-metric jumps (`remaining_jumps.py`).
+- *Categories:*
+
+  | Fix | Category | Count | Example (verbatim, shortened) |
+  |---|---|---|---|
+  | 1 | right (reads from the paragraph start, y order) | 17 | 456_0270 `daerop spliant tot die digniteyt waren verhest geworden, den Heere Landtgrave…` (old: `pliant hadde gelieven te beroepen…`) |
+  | 1 | ambiguous (stray first fragment) | 2 | 456_0591 first line `Noef.` at x 3889, then `Waer op gedelibereerdt zynde` |
+  | 1 | still wrong | 1 | 455_0050 `. 7` (two glyph lines in one row; baseline y puts `.` first; old `7 .`) |
+  | 5 | right (repeated break mark) | 29 | `hou„` + `,dende` → "houdende"; `Briga„` + `,dier` → "Brigadier"; `a=` + `,voient` → "avoient" |
+  | 5 | unclear | 1 | `Constantinopo„` + `,P. len litt. C.` |
+  | 5 | followed by a capital (7 in all): right 5, unclear 2 | 7 | `West„` + `,Indische` → "WestIndische"; `Lisle„` + `,Marais` (a real comma?) |
+  | 3b | not a page number (bottom-of-page digit, signature, ledger number) | 18 | 455_0295 `62` under the marginal word `van`, the page number `( 573 )` at the top keeps `rule:pn_line` |
+  | 3b | real page number, not the page's candidate | 1 | 3823_0290 `( 409 )` at y 229, below the picked `4768` |
+  | 3b | unclear | 1 | 11281_0133 `127` below `124`, both off chain |
+  | 4 | twin unit = legacy region (same lines, same text) | 10 | 456_0089 `J. v. Beckum.`; 455_0087 `1 159 )` (one line, two segments) |
+  | 3a | whole date line one `date_header` | 19 of 19 (checked by count) | `28. Junij 1650.` |
+
+- *Conclusion:* Fix 1 does what it should in the column-split pieces, and the 13 remaining box-metric jumps are lines
+  whose box top lies far above the baseline (drop capitals, `E Resolutien…`), so the baseline sort is right and my box
+  metric overstates. The sort has a cost: with `x` only as tiebreak, fragments of one printed row whose baselines
+  differ by a few px swap (+49 pairs in 455, +564 in 456 adjacent same-row pairs with `x` going left, of 140,000 and
+  168,000; `7 .`). The 127 + 4 `unchanged` regions keep their XML order (R5) and still carry 81 (455) units with a
+  jump. Fix 5 strips 1,856 commas with 29 of 30 right, so the share rise in 11182 is a real repair, and 70 comma-led merges
+  remain: 65 of the form `,` + space + letter (`fue-` + `, rant`, 3772 43, 3822 12, 3823 8) and 5 `,,`; the rule
+  requires the letter directly after the comma. Fix 3b is a correct demotion in 18 of 20 cases, but `line_type` stays
+  `page_number`, so about 90% of the 1,501 relabelled segments still say `page_number` for text that is not one.
+
+**Brief defects.**
+
+- Acceptance 2 says 11 hand date lines; there are 18 (11281 10, 3772 5, 3771 2, 3353 1), plus 1 in 455: 19.
+- Fix 5 gives the comma counts for `,` followed by any character (11182 1,305; 3772 47; 3822 20; 3823 10). Followed by a
+  letter they are 1,304, 4, 8, 2; the rest of 3772/3822/3823 is `, ` + letter (65) and `,,` (5), which the rule leaves.
+- Acceptance 5 (455 58 → 13) holds for fix 4 alone on the old layout; together with fix 1 it is 0.
+- Acceptance 3 counts jumps in box y; the remaining 13 are drop-capital boxes, 0 by baseline y.
+- *Unreleased* did not exist in the changelog (v0.11.0 was on top); the heading was added. Rule 3 of `plan/README.md` asks for
+  Edit, the entry was inserted with a scripted exact-string replace.
+- The 3b brief text "unless `key in chain_set` and the page's candidate is `pn_line`" is implemented as written; pages without
+  any candidate relabel all their `rule:pn_line` segments.
+
+**Findings:** F07-15ir.1–F07-15ir.10.
+
+**Open issues.** `line_type` of the 1,501 off-chain `pn_line` segments; the 65 `, ` + letter continuations; same-row fragment
+order; `unchanged` regions with a jump (130 in 455).
+
+**Reproduce.** From the AS root, `.venv/bin/python`: the two `as-build-text-layer` commands of the brief into
+`data/text_layer_v2_dev/15ir-a/{hand,print}`; then `step-15ir/{repro,hand_diff,print_diff,types_diff,accept,commas,commas_after,
+join_equiv,units_changed,twins,relabel_context,remaining_jumps}.py`, `audit.py --layer data/text_layer_v2_dev/15ir-a`,
+`rows116.py --layer data/text_layer_v2_dev/15ir-a`, `accept.py 15i-b` (baselines), `protect.py` before and after, and the v1 check of the
+brief into `data/text_layer_v2_dev/15ir-v1check`.
+
 
 ## Review
 
@@ -1289,6 +1385,19 @@ REPUBLIC read after the units exist. The caveat is the `split_half` reference cl
 - The steps' own error analyses otherwise hold: each sample names its seed and has a verdict file, and
   the negative results are reported as such.
 
+**Step 15ir review** (Opus, 2026-10-21). Verdict: accept. The diff does what the brief asked, every fix
+is gated (v1 157 / 157, `LEGACY_15FP` tests unchanged), and the reviewer's own re-run matches the step's
+numbers (F07-R.10). The step's three number changes against the brief are measurement corrections, not
+defects: 19 whole date lines (the brief's 11 counted only part of hand), comma counts of `,` + letter only,
+and 0 collisions in 455 instead of 13 because the 13 came from units that fix 1 dissolves (F07-15ir.7). Read
+in the code: the blocked pairs now come from the final pass, which runs on the final regions, so no
+merged-away id can appear; `claimable` excludes layout ids and is consumed once, so no two units take
+one id; `lead_dropped` is now derived from the text, and the full-span check bounds the dropped tail to
+two break chars. Two costs remain open: the baseline sort swaps some same-row fragments (+564 pairs in
+456, F07-15ir.3), and `claimable` is built in quadratic time (F07-R.11). Neither blocks `text_layer_v3`
+planning; both are follow-ups. The 1,501 off-chain segments still have `line_type` `page_number`
+(F07-15ir.6), which is where the brief left them.
+
 **Candidates for `docs/findings.md`** (not edited): F07-15fp.3 (Laypa print regions are page-level and
 interleave columns), F07-P.10 (HTR merges the date header, text and page number into one top line),
 F07-15fq.3 (overlap merging fails on SG hand: 0.52), F07-R.2 (line-initial `,` continuation mark),
@@ -1298,9 +1407,13 @@ F07-15hj2.2 (`.` as a word-break char is right only about half the time).
 
 | From | What | Where it is tracked |
 |---|---|---|
-| F07-R.1–R.5, REVIEW rows 6–10 | Code fixes, tests, docs, LotA known-issues note; dev layer `15ir-a` | [`step-15ir-review-fixes.md`](../plan/phase-07-sg-units-and-pilot/step-15ir-review-fixes.md) |
-| F07-R.1–R.4 | Republish a fixed pilot, or carry the fixes into the full run | UA-013 (`docs/USER_ACTIONS.md`) |
-| F07-R.8 | Commit the phase-07 tree and release v0.11.0 before 15ir | `REVIEW.md` *Release* |
+| F07-R.1–R.5, REVIEW rows 6–10 | Done in step 15ir (dev layer `15ir-a`, reviewed); release v0.12.0 | `plan/phase-07-sg-units-and-pilot/STATUS.md` |
+| F07-R.1–R.4 | UA-013 answered (a): `text_layer_v2` stays, *Known issues* written; fixes go into `text_layer_v3` | `docs/USER_ACTIONS_resolved.md` |
+| F07-15ir.3 | Row-tolerant line sort (cluster baselines within part of a line height, then `x`) for column pieces and merges | phase 08 planning (`plan/CONTEXT.md`) |
+| F07-15ir.6 | Retype off-chain `pn_line` segments (`line_type` stays `page_number` for about 1,350 non-page-numbers) | phase 08 planning |
+| F07-15ir.9 | Lead mark `, ` + letter (65) and `,,` (5) | phase 08 planning |
+| F07-R.11 | Build `claimable` per scan once (quadratic loop) | phase 08 planning |
+| F07-15ir.3 | `unchanged` print regions in XML order (130 in 455; 81 units still jump) | phase 08 planning |
 | F07-15hj.6 | `g_upper_right` guard (needs `join.py`) | phase 08 planning (`plan/CONTEXT.md`) |
 | REVIEW row 11 | Crosswalk role column (`line_end` ids map to the first half; 553) | phase 08 planning |
 | REVIEW rows 12, 13 | Interleave guard bridged by a third region; bottom-band years typed `page_number` | phase 08 planning |

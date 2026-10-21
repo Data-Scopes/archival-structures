@@ -75,6 +75,14 @@ class LayoutParams:
     # step 15fq2
     column_merge_guard: bool = True    # never merge regions whose lines carry different non-empty
                                        # values of ``split_on_line_field``
+    # step 15ir
+    sort_split_lines: bool = True      # sort the lines of each piece of a column-split region
+                                       # (``_line_sort_key``); False = source order (15fp)
+
+    def __post_init__(self):
+        if self.gutter_rule not in ("gap", "main_edge", "auto"):
+            raise ValueError(f"gutter_rule must be 'gap', 'main_edge' or 'auto', "
+                             f"got {self.gutter_rule!r}")
 
     def to_dict(self):
         d = dataclasses.asdict(self)
@@ -91,7 +99,7 @@ class LayoutParams:
 
 LEGACY_15FP = LayoutParams(gutter_rule="gap", split_on_line_field="", furniture_patterns=(),
                            catchword_band=0.0, interleave_guard=False,
-                           column_merge_guard=False)
+                           column_merge_guard=False, sort_split_lines=False)
 
 
 def region_box_id(scan_id: str, coords: pdm.Coords) -> str:
@@ -280,7 +288,8 @@ def merge_overlapping_text_regions(regions: Sequence[pdm.PageXMLTextRegion],
     region). A merged region takes the place of its first member. Regions not in any merge are
     returned as the same objects, ids unchanged. Returns (regions, number of passes that merged).
     ``exclude`` (region ids) and the interleave guard (``params.interleave_guard``) keep regions
-    out of merges; ``blocked`` collects the guard-blocked id pairs. The column guard
+    out of merges; ``blocked`` collects the guard-blocked id pairs of the **final** regions (the
+    last pass only; step 15ir, earlier passes counted a relation again under each merged id). The column guard
     (``params.column_merge_guard``, on ``params.split_on_line_field``) keeps regions with different
     non-empty column values apart; ``column_blocked`` collects those id pairs."""
     current = list(regions)
@@ -288,10 +297,17 @@ def merge_overlapping_text_regions(regions: Sequence[pdm.PageXMLTextRegion],
     guard = params.interleave_width_frac if params.interleave_guard else None
     column_field = params.split_on_line_field if params.column_merge_guard else ""
     while True:
+        # fresh dicts per pass: only the last pass (pairs of final regions) goes to the caller
+        pass_blocked, pass_col_blocked = {}, {}
         sets = get_overlapping_region_sets(current, params.overlap_threshold, exclude=exclude,
-                                           guard_width_frac=guard, blocked=blocked,
-                                           column_field=column_field, column_blocked=column_blocked)
+                                           guard_width_frac=guard, blocked=pass_blocked,
+                                           column_field=column_field,
+                                           column_blocked=pass_col_blocked)
         if all(len(s) == 1 for s in sets):
+            if blocked is not None:
+                blocked.update(pass_blocked)
+            if column_blocked is not None:
+                column_blocked.update(pass_col_blocked)
             return current, passes
         passes += 1
         current = [s[0] if len(s) == 1 else merge_regions(s, union_keys=union_keys, id_fn=id_fn)
@@ -301,11 +317,12 @@ def merge_overlapping_text_regions(regions: Sequence[pdm.PageXMLTextRegion],
 # --- column split on a line field, furniture -----------------------------------------------
 
 def split_regions_on_line_field(regions: Sequence[pdm.PageXMLTextRegion], field: str, *,
-                                id_fn: Callable = region_box_id
+                                id_fn: Callable = region_box_id, sort_lines: bool = False
                                 ) -> Tuple[List[pdm.PageXMLTextRegion], int]:
     """Split each region into one region per value of ``line.metadata[field]`` (missing = '').
     A region with one value is returned as the same object. Otherwise the groups are ordered by
-    first occurrence, lines keep their order, coords are the hull, and
+    first occurrence, lines keep their order (or, with ``sort_lines``, are sorted by
+    ``_line_sort_key`` within each piece; never for an unsplit region), coords are the hull, and
     ``metadata["column_split_from"] = [original id]``. Returns (regions, number of regions split)."""
     out, n_splits = [], 0
     for region in regions:
@@ -317,6 +334,8 @@ def split_regions_on_line_field(regions: Sequence[pdm.PageXMLTextRegion], field:
             continue
         n_splits += 1
         for lines in groups.values():
+            if sort_lines:
+                lines = sorted(lines, key=_line_sort_key)
             metadata = copy.deepcopy(region.metadata or {})
             metadata["column_split_from"] = [region.id]
             out.append(_new_region(lines, metadata, sorted(region.types), id_fn))

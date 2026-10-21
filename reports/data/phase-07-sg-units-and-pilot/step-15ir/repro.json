@@ -1,0 +1,250 @@
+{
+ "print_equal_bytes": null,
+ "hand": {
+  "3349": {
+   "n_equal": 12,
+   "differ": [
+    "join/segments/3349.tsv.gz",
+    "join/stats/3349.json",
+    "join/units/3349.tsv.gz",
+    "types/segments/3349.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3350": {
+   "n_equal": 12,
+   "differ": [
+    "join/segments/3350.tsv.gz",
+    "join/stats/3350.json",
+    "join/units/3350.tsv.gz",
+    "types/segments/3350.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3351": {
+   "n_equal": 14,
+   "differ": [
+    "join/stats/3351.json",
+    "types/segments/3351.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3352": {
+   "n_equal": 12,
+   "differ": [
+    "join/segments/3352.tsv.gz",
+    "join/stats/3352.json",
+    "join/units/3352.tsv.gz",
+    "types/segments/3352.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3353": {
+   "n_equal": 8,
+   "differ": [
+    "join/segments/3353.tsv.gz",
+    "join/stats/3353.json",
+    "join/units/3353.tsv.gz",
+    "types/regions/3353.tsv.gz",
+    "types/segments/3353.tsv.gz",
+    "units/doc_id_map/3353.tsv.gz",
+    "units/segments/3353.tsv.gz",
+    "units/units/3353.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3354": {
+   "n_equal": 14,
+   "differ": [
+    "join/stats/3354.json",
+    "types/segments/3354.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3771": {
+   "n_equal": 8,
+   "differ": [
+    "join/segments/3771.tsv.gz",
+    "join/stats/3771.json",
+    "join/units/3771.tsv.gz",
+    "types/regions/3771.tsv.gz",
+    "types/segments/3771.tsv.gz",
+    "units/doc_id_map/3771.tsv.gz",
+    "units/segments/3771.tsv.gz",
+    "units/units/3771.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3772": {
+   "n_equal": 8,
+   "differ": [
+    "join/segments/3772.tsv.gz",
+    "join/stats/3772.json",
+    "join/units/3772.tsv.gz",
+    "types/regions/3772.tsv.gz",
+    "types/segments/3772.tsv.gz",
+    "units/doc_id_map/3772.tsv.gz",
+    "units/segments/3772.tsv.gz",
+    "units/units/3772.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3773": {
+   "n_equal": 14,
+   "differ": [
+    "join/stats/3773.json",
+    "types/segments/3773.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3821": {
+   "n_equal": 12,
+   "differ": [
+    "join/segments/3821.tsv.gz",
+    "join/stats/3821.json",
+    "join/units/3821.tsv.gz",
+    "types/segments/3821.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3822": {
+   "n_equal": 12,
+   "differ": [
+    "join/segments/3822.tsv.gz",
+    "join/stats/3822.json",
+    "join/units/3822.tsv.gz",
+    "types/segments/3822.tsv.gz"
+   ],
+   "missing": []
+  },
+  "3823": {
+   "n_equal": 12,
+   "differ": [
+    "join/segments/3823.tsv.gz",
+    "join/stats/3823.json",
+    "join/units/3823.tsv.gz",
+    "types/segments/3823.tsv.gz"
+   ],
+   "missing": []
+  },
+  "11182": {
+   "n_equal": 12,
+   "differ": [
+    "join/segments/11182.tsv.gz",
+    "join/stats/11182.json",
+    "join/units/11182.tsv.gz",
+    "types/segments/11182.tsv.gz"
+   ],
+   "missing": []
+  },
+  "11281": {
+   "n_equal": 7,
+   "differ": [
+    "join/segments/11281.tsv.gz",
+    "join/stats/11281.json",
+    "join/units/11281.tsv.gz",
+    "types/regions/11281.tsv.gz",
+    "types/segments/11281.tsv.gz",
+    "units/doc_id_map/11281.tsv.gz",
+    "units/segments/11281.tsv.gz",
+    "units/units/11281.tsv.gz",
+    "wbc/parts/11281.tsv"
+   ],
+   "missing": []
+  }
+ },
+ "other_files": {
+  "n_equal": 1,
+  "differ": [
+   "layout/params.json",
+   "layout/stats.json",
+   "manifest.json",
+   "progress.log",
+   "status.tsv",
+   "types/stats.json",
+   "units/params.json",
+   "units/stats.json",
+   "wbc/corpus_default.json",
+   "wbc/corpus_default_default.json",
+   "wbc/corpus_default_robust.json",
+   "wbc/wbc_per_inventory.tsv",
+   "wbc/wbc_per_inventory_default.tsv",
+   "wbc/wbc_per_inventory_robust.tsv",
+   "wbc/wbc_stats.tsv"
+  ],
+  "missing": []
+ },
+ "print": {
+  "files_a": 54,
+  "files_b": 54,
+  "equal_bytes": 21,
+  "differ": [
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/join/segments/455.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/join/segments/456.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/join/stats/455.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/join/stats/456.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/join/units/455.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/join/units/456.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/layout/lines/455.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/layout/lines/456.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/layout/params.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/layout/scans/455.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/layout/scans/456.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/layout/stats.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/manifest.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/progress.log",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/status.tsv",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/types/regions/455.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/types/segments/455.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/types/segments/456.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/types/stats.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/units/doc_id_map/455.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/units/doc_id_map/456.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/units/params.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/units/segments/455.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/units/segments/456.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/units/stats.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/units/units/455.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/units/units/456.tsv.gz",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/wbc/corpus_default.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/wbc/corpus_default_default.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/wbc/corpus_default_robust.json",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/wbc/parts/455.tsv",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/wbc/parts/456.tsv",
+   "data/text_layer_v2_dev/15ir-a/print/NL-HaNA_1.10.94_text_layer_v2/wbc/wbc_stats.tsv"
+  ]
+ },
+ "wbc_sets_b": {
+  "3349": "-„",
+  "3350": "-„",
+  "3351": "-„",
+  "3352": "-=„",
+  "3353": "-„",
+  "3354": "-„",
+  "3771": "-=„",
+  "3772": "-=„",
+  "3773": "-=„",
+  "3821": "-=„",
+  "3822": "-=„",
+  "3823": "-=„",
+  "11182": "-=„",
+  "11281": "-:=„"
+ },
+ "wbc_sets_a": {
+  "3349": "-„",
+  "3350": "-„",
+  "3351": "-„",
+  "3352": "-=„",
+  "3353": "-„",
+  "3354": "-„",
+  "3771": "-=„",
+  "3772": "-=„",
+  "3773": "-=„",
+  "3821": "-=„",
+  "3822": "-=„",
+  "3823": "-=„",
+  "11182": "-=„",
+  "11281": "-:=„"
+ },
+ "sanity_pass": true
+}

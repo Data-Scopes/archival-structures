@@ -261,3 +261,47 @@ All of these are text cues, with character offsets inside a resolution's or para
   the current files. LotA and republic then relink deliberately.
 - **Planned:** republic will run LotA's print–hand aligner on years after 1703–04 and publish
   `shared-data/NL-HaNA_1.01.02/print_hand_alignment_v1/` (republic UA-016).
+
+## 10. Session boundaries from resumption paragraphs (2026-10-21)
+
+Republic Phase 3.1 (UA-049 (a)). The files are under
+`/Users/Shared/claude_projects/data_scopes/republic/output/phase-03-1/`. The write-ups are
+`step01/section.md` and `step02/section.md`. The user checked 40 of the step 01 labels: 38 agree,
+2 unsure, 0 disagree.
+
+- **This refines §4's start cue.** From 16 May 1637 the resumption opens 91–96% of ordinaris
+  sessions up to 1702.
+  - Printed volumes leave it out (1–3% of sessions).
+  - The handwritten registers keep it, in about 0.85 of sessions to 1753 and about 0.65 to
+    1785.
+  - It is absent in 1786 (inv. 3633–3638) and 1790–93, which is a register convention: the line
+    is back in 1788.
+  - Before 1637, `geresumeert` is an in-text use, not the procedure.
+- **Missed meeting-day starts:** `step02/session_boundary_candidates.csv` has 2,749 rows, one for
+  each resumption in the middle of a session (ordinaris 2,691).
+  - 1,380 of them have a cue just before: a president line, a weekday-date line, attendance, a
+    name list (the printed header), "Nihil actum est", or a page break. 964 of those cues look
+    like a header.
+  - 1,369 have no cue. The ones read are a new day straight after the previous day's last
+    decision.
+  - `gt_sessions` confirms only 95, 28 of them by manual annotation. Its start lines miss these
+    boundaries too. Example: `session-3248-num-30` (1642) holds 17 meeting days over 80 pages.
+- **Sessions missing from the resolution dump:** `step02/missing_sessions_from_links.csv` lists
+  969 `gt_sessions` sessions that have text but no resolutions in republic's database. A
+  resumption in the next session implies each of them took place.
+- **Out-of-order session dates:** 44 rows in `step02/links.parquet` with
+  `mismatch_class = date_error`.
+- **Segmentation errors the user noted during the check.** Each is a paragraph ID; the scans are
+  in `paragraphs.page_ids`.
+  - The last line of the attendance list is merged into the resumption paragraph:
+    `session-3304-num-152-para-2`, `session-4807-num-25-para-2`.
+  - The resumption is merged with the following resolution: `session-3196-num-193-para-2`,
+    `session-3196-num-244-para-2`, `session-3251-num-24-para-2`.
+  - Line segmentation mixes the resumption with lines of the next resolution, and possibly of
+    the adjacent column: `session-3791-num-64-para-19`, `session-3804-num-174-para-27`,
+    `session-3345-num-131-para-3`.
+  - Unclear, but probably line and paragraph segmentation together:
+    `session-4813-num-1-para-237` (scan `NL-HaNA_1.01.02_4813_0143`).
+  - A paragraph whose pages are out of order: `session-3196-num-141-para-33` starts on scan
+    `NL-HaNA_1.01.02_3196_0248`, then runs through 0243–0247. After the resumption the text reads
+    like index entries.

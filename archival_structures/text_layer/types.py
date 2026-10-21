@@ -67,6 +67,13 @@ class TypeParams:
     column_override: bool = False   # print presets: "x" for furniture types
     margin_cut: str = "month_only"  # rule 2: "month_only" | "all" (15g) | "off"
 
+    def __post_init__(self):
+        if self.margin_cut not in ("month_only", "all", "off"):
+            raise ValueError(f"margin_cut must be 'month_only', 'all' or 'off', "
+                             f"got {self.margin_cut!r}")
+        if self.top_n < 1 or self.bottom_n < 1:
+            raise ValueError(f"top_n and bottom_n must be >= 1, got {self.top_n}, {self.bottom_n}")
+
     def to_dict(self):
         return dataclasses.asdict(self)
 
@@ -199,7 +206,9 @@ def segment_page(ordered, page_w, med_w_rel, default_ref, col_refs, params, pats
                      and line.x < main_left - params.margin_tol * page_w)
         # in-line rules 1 and 2 (prefix)
         done_prefix = False
-        if (is_top or in_margin) and pats["date_prefix"]:
+        whole = any(pats[k] and pats[k].fullmatch(text.strip())
+                    for k in ("date_line", "pn_line", "year_line"))
+        if (is_top or in_margin) and pats["date_prefix"] and not whole:  # 15ir: whole date line stays one
             m = pats["date_prefix"].match(text, start)
             if m and m.end() < end and text[m.end():end].strip():
                 sp = _span(text, start, m.end())
@@ -209,7 +218,6 @@ def segment_page(ordered, page_w, med_w_rel, default_ref, col_refs, params, pats
                     nxt = _span(text, m.end(), end)
                     start, end = nxt
                     done_prefix = True
-        whole = any(pats[k] and pats[k].fullmatch(text.strip()) for k in ("date_line", "pn_line", "year_line"))
         if (not done_prefix and in_margin and not whole and params.margin_cut != "off"
                 and main_left is not None and line.x + line.w > main_left):
             n = len(text)
@@ -350,9 +358,9 @@ def type_inventory(inv, layer_root, params):
         if cand:
             cands.append((key, cand))
     chain = longest_increasing_chain([c[1][0] for c in cands]) if cands else []
+    cand_by_key = dict(cands)
     chain_set = {cands[i][0] for i in chain}
     chain_suffix = {k for k, c in cands if k in chain_set and c[1] == "pn_suffix"}
-    offchain = {k for k, c in cands if k not in chain_set and c[1] == "pn_line"}
 
     # pass 2: segments
     segs = []
@@ -368,11 +376,13 @@ def type_inventory(inv, layer_root, params):
             index_pages.append(list(key))
         page_segs, sp = segment_page(ordered, pw, med_w_rel, ref, cols, params, pats,
                                      key in chain_suffix, idx)
-        if key in offchain:
-            top = _pn_candidate(ordered, pats, params)[2]
-            for s in page_segs:
-                if s["line_id"] == top.line_id and s["type_method"] == "rule:pn_line":
-                    s["type_method"] = "rule:pn_line_offchain"
+        # 15ir: a pn_line-shaped line is confirmed only when it is the in-chain candidate line
+        cand = cand_by_key.get(key)
+        confirmed_id = (cand[2].line_id if key in chain_set and cand and cand[1] == "pn_line"
+                        else None)
+        for s in page_segs:
+            if s["type_method"] == "rule:pn_line" and s["line_id"] != confirmed_id:
+                s["type_method"] = "rule:pn_line_offchain"
         segs.extend(page_segs)
         splits.update(sp)
     segs.sort(key=lambda s: (s["_order"], s["seg_idx"]))

@@ -441,7 +441,16 @@ def stage_units(run, inventories, sizes):
         sys.exit(f"stage units: no scans/lines/layout/types tables for {missing[:5]}; run types first")
     out = run.root / "units"
     out.mkdir(parents=True, exist_ok=True)
-    write_json_atomic(out / "params.json", params.to_dict())
+    republic_used = None
+    if print_mode:
+        have = [inv for inv in inventories if (republic_dir / f"paragraphs-{inv}.tsv.gz").exists()]
+        if len(have) < len(inventories):
+            lacking = [inv for inv in inventories if inv not in have]
+            run.log(f"[units] WARNING: no paragraphs-<inv>.tsv.gz in {republic_dir} for "
+                    f"{lacking[:5]}: no REPUBLIC crosswalk for those inventories")
+        if have:
+            republic_used = str(republic_dir)
+    write_json_atomic(out / "params.json", {**params.to_dict(), "republic_dir": republic_used})
     stats_path = out / "stats.json"
     stats = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
     failures = []
@@ -647,7 +656,11 @@ def stage_join(run, inventories, sizes):
         if inv not in sets:
             if not run.args.allow_partial:
                 sys.exit(f"{inv} has no WBC decision; rerun --stage wbc or pass --allow-partial")
-            sets[inv] = default_set
+            pins = run.preset.wbc_pinned
+            if v2 and pins:   # 15ir: the preset's own pin, as the wbc stage would have applied
+                sets[inv] = set(pins.get(inv, pins["default"]))
+            else:
+                sets[inv] = default_set
         wbcs = sets[inv]
         if v2:
             stats_path = run.root / "join" / "stats" / f"{inv}.json"
@@ -659,9 +672,10 @@ def stage_join(run, inventories, sizes):
         current = (is_done(status, inv, "join", run.force)
                    and out_path.exists()
                    and previous.get("wbc_set") == "".join(sorted(wbcs))
-                   and previous.get("guards") == list(ALL_GUARDS))
+                   and previous.get("guards") == list(ALL_GUARDS)
+                   and (not v2 or previous.get("lead_marks", "") == run.preset.join_lead_marks))
         if not current:
-            todo.append((inv, (inv, str(run.root), wbcs) if v2
+            todo.append((inv, (inv, str(run.root), wbcs, run.preset.join_lead_marks) if v2
                          else (inv, str(run.root), wbcs, run.args.write_events)))
     todo.sort(key=lambda t: -sizes[t[0]][1] if t[0] in sizes else 0)
     run.log(f"[join] {len(done) - len(todo)} already done with the current WBC set and guards, "

@@ -172,3 +172,49 @@ def test_build_stage_units(tmp_path):
     first = (root / "units" / "units" / "9999.tsv.gz").read_bytes()
     assert build.main(base + ["--stage", "units"]) == 0
     assert (root / "units" / "units" / "9999.tsv.gz").read_bytes() == first
+
+
+# ---- step 15ir ---------------------------------------------------------------------------------
+
+def test_legacy_twin_keeps_id():
+    twin = "S-text_region-100-10-50-20"
+    segs = [seg(0, "date_header", x=100, y=10, w=50, h=20, chars=4), seg(1, "main_text")]
+    taken = {"R", twin}
+    claimable = {twin: frozenset({"l0"})}
+    units, nc = build_units_page("S", "recto", [(region("R"), segs)], UnitParams(), False, taken,
+                                 claimable)
+    ids = {u["unit_type"]: u["unit_id"] for u in units}
+    assert ids == {"main_text": "R", "date_header": twin} and nc == 0 and claimable == {}
+    # the legacy region held another line too: not a twin, the id is bumped
+    taken = {"R", twin}
+    claimable = {twin: frozenset({"l0", "lX"})}
+    units, nc = build_units_page("S", "recto", [(region("R"), segs)], UnitParams(), False, taken,
+                                 claimable)
+    ids = {u["unit_type"]: u["unit_id"] for u in units}
+    assert ids["date_header"] == "S-text_region-100-10-51-20" and nc == 1 and twin in claimable
+    # without ``claimable`` the behaviour is unchanged
+    units, nc = build_units_page("S", "recto", [(region("R"), segs)], UnitParams(), False,
+                                 {"R", twin})
+    assert nc == 1
+
+
+def test_missing_republic_file_logged(tmp_path, monkeypatch, capsys):
+    import dataclasses
+    from archival_structures.text_layer.extract_v2 import extract_inventory_v2
+    from archival_structures.text_layer.presets import PRESETS
+    fixture = Path(__file__).parent / "fixtures" / "text_layer" / "sg" / "9999"
+    preset = PRESETS["sg_1.01.02_v2"]
+    root = tmp_path / preset.name
+    extract_inventory_v2("9999", fixture, root, preset)
+    base = ["--out-dir", str(tmp_path), "--preset", "sg_1.01.02_v2"]
+    assert build.main(base + ["--stage", "layout"]) == 0
+    assert build.main(base + ["--stage", "types"]) == 0
+    monkeypatch.setitem(PRESETS, "sg_1.01.02_v2", dataclasses.replace(preset, merged_line_split="on"))
+    nowhere = tmp_path / "no-republic"
+    assert build.main(base + ["--stage", "units", "--republic-dir", str(nowhere)]) == 0
+    assert "WARNING: no paragraphs-<inv>.tsv.gz" in capsys.readouterr().out
+    assert json.loads((root / "units" / "params.json").read_text())["republic_dir"] is None
+    nowhere.mkdir()
+    (nowhere / "paragraphs-9999.tsv.gz").write_bytes(b"")
+    assert build.main(base + ["--stage", "units", "--republic-dir", str(nowhere)]) in (0, 1)
+    assert json.loads((root / "units" / "params.json").read_text())["republic_dir"] == str(nowhere)

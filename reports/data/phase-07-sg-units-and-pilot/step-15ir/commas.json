@@ -1,0 +1,383 @@
+{
+ "per_inv": {
+  "15i-b": {
+   "3349": {
+    "n_merge": 8660,
+    "n_right_lower": 8576,
+    "lower_share": 0.9903,
+    "n_raw_comma_letter": 1,
+    "n_removed": 0,
+    "first": {
+     "lower": 8576,
+     "upper": 82,
+     ",": 1,
+     "'": 1
+    }
+   },
+   "3350": {
+    "n_merge": 7478,
+    "n_right_lower": 7376,
+    "lower_share": 0.9864,
+    "n_raw_comma_letter": 13,
+    "n_removed": 0,
+    "first": {
+     "lower": 7376,
+     "upper": 86,
+     ",": 13,
+     "=": 2,
+     ".": 1
+    }
+   },
+   "3351": {
+    "n_merge": 171,
+    "n_right_lower": 161,
+    "lower_share": 0.9415,
+    "n_raw_comma_letter": 0,
+    "n_removed": 0,
+    "first": {
+     "lower": 161,
+     "upper": 9,
+     "&": 1
+    }
+   },
+   "3352": {
+    "n_merge": 9972,
+    "n_right_lower": 9477,
+    "lower_share": 0.9504,
+    "n_raw_comma_letter": 336,
+    "n_removed": 0,
+    "first": {
+     "lower": 9477,
+     ",": 336,
+     "upper": 159
+    }
+   },
+   "3353": {
+    "n_merge": 7809,
+    "n_right_lower": 7724,
+    "lower_share": 0.9891,
+    "n_raw_comma_letter": 16,
+    "n_removed": 0,
+    "first": {
+     "lower": 7724,
+     "upper": 69,
+     ",": 16
+    }
+   },
+   "3354": {
+    "n_merge": 126,
+    "n_right_lower": 121,
+    "lower_share": 0.9603,
+    "n_raw_comma_letter": 0,
+    "n_removed": 0,
+    "first": {
+     "lower": 121,
+     "upper": 4,
+     "=": 1
+    }
+   },
+   "3771": {
+    "n_merge": 42734,
+    "n_right_lower": 42171,
+    "lower_share": 0.9868,
+    "n_raw_comma_letter": 0,
+    "n_removed": 0,
+    "first": {
+     "lower": 42171,
+     "upper": 560,
+     "'": 2,
+     ",": 1
+    }
+   },
+   "3772": {
+    "n_merge": 45377,
+    "n_right_lower": 44657,
+    "lower_share": 0.9841,
+    "n_raw_comma_letter": 4,
+    "n_removed": 0,
+    "first": {
+     "lower": 44657,
+     "upper": 673,
+     ",": 47
+    }
+   },
+   "3773": {
+    "n_merge": 46171,
+    "n_right_lower": 45479,
+    "lower_share": 0.985,
+    "n_raw_comma_letter": 0,
+    "n_removed": 0,
+    "first": {
+     "lower": 45479,
+     "upper": 686,
+     ",": 3,
+     "&": 3
+    }
+   },
+   "3821": {
+    "n_merge": 11017,
+    "n_right_lower": 10604,
+    "lower_share": 0.9625,
+    "n_raw_comma_letter": 2,
+    "n_removed": 0,
+    "first": {
+     "lower": 10604,
+     "upper": 407,
+     ",": 4,
+     "&": 2
+    }
+   },
+   "3822": {
+    "n_merge": 10929,
+    "n_right_lower": 10462,
+    "lower_share": 0.9573,
+    "n_raw_comma_letter": 8,
+    "n_removed": 0,
+    "first": {
+     "lower": 10462,
+     "upper": 446,
+     ",": 20,
+     "'": 1
+    }
+   },
+   "3823": {
+    "n_merge": 10678,
+    "n_right_lower": 10043,
+    "lower_share": 0.9405,
+    "n_raw_comma_letter": 2,
+    "n_removed": 0,
+    "first": {
+     "lower": 10043,
+     "upper": 621,
+     ",": 10,
+     "'": 2,
+     ".": 1,
+     "&": 1
+    }
+   },
+   "11182": {
+    "n_merge": 4699,
+    "n_right_lower": 3283,
+    "lower_share": 0.6987,
+    "n_raw_comma_letter": 1304,
+    "n_removed": 0,
+    "first": {
+     "lower": 3283,
+     ",": 1305,
+     "upper": 106,
+     "&": 2,
+     "(": 2,
+     ".": 1
+    }
+   },
+   "11281": {
+    "n_merge": 9456,
+    "n_right_lower": 8945,
+    "lower_share": 0.946,
+    "n_raw_comma_letter": 170,
+    "n_removed": 0,
+    "first": {
+     "lower": 8945,
+     "upper": 338,
+     ",": 170,
+     "(": 2,
+     "'": 1
+    }
+   }
+  },
+  "15ir-a": {
+   "3349": {
+    "n_merge": 8660,
+    "n_right_lower": 8576,
+    "lower_share": 0.9903,
+    "n_raw_comma_letter": 1,
+    "n_removed": 1,
+    "first": {
+     "lower": 8576,
+     "upper": 83,
+     "'": 1
+    }
+   },
+   "3350": {
+    "n_merge": 7478,
+    "n_right_lower": 7388,
+    "lower_share": 0.988,
+    "n_raw_comma_letter": 13,
+    "n_removed": 13,
+    "first": {
+     "lower": 7388,
+     "upper": 87,
+     "=": 2,
+     ".": 1
+    }
+   },
+   "3351": {
+    "n_merge": 171,
+    "n_right_lower": 161,
+    "lower_share": 0.9415,
+    "n_raw_comma_letter": 0,
+    "n_removed": 0,
+    "first": {
+     "lower": 161,
+     "upper": 9,
+     "&": 1
+    }
+   },
+   "3352": {
+    "n_merge": 9972,
+    "n_right_lower": 9813,
+    "lower_share": 0.9841,
+    "n_raw_comma_letter": 336,
+    "n_removed": 336,
+    "first": {
+     "lower": 9813,
+     "upper": 159
+    }
+   },
+   "3353": {
+    "n_merge": 7809,
+    "n_right_lower": 7740,
+    "lower_share": 0.9912,
+    "n_raw_comma_letter": 16,
+    "n_removed": 16,
+    "first": {
+     "lower": 7740,
+     "upper": 69
+    }
+   },
+   "3354": {
+    "n_merge": 126,
+    "n_right_lower": 121,
+    "lower_share": 0.9603,
+    "n_raw_comma_letter": 0,
+    "n_removed": 0,
+    "first": {
+     "lower": 121,
+     "upper": 4,
+     "=": 1
+    }
+   },
+   "3771": {
+    "n_merge": 42734,
+    "n_right_lower": 42171,
+    "lower_share": 0.9868,
+    "n_raw_comma_letter": 0,
+    "n_removed": 0,
+    "first": {
+     "lower": 42171,
+     "upper": 560,
+     "'": 2,
+     ",": 1
+    }
+   },
+   "3772": {
+    "n_merge": 45377,
+    "n_right_lower": 44661,
+    "lower_share": 0.9842,
+    "n_raw_comma_letter": 4,
+    "n_removed": 4,
+    "first": {
+     "lower": 44661,
+     "upper": 673,
+     ",": 43
+    }
+   },
+   "3773": {
+    "n_merge": 46171,
+    "n_right_lower": 45479,
+    "lower_share": 0.985,
+    "n_raw_comma_letter": 0,
+    "n_removed": 0,
+    "first": {
+     "lower": 45479,
+     "upper": 686,
+     ",": 3,
+     "&": 3
+    }
+   },
+   "3821": {
+    "n_merge": 11017,
+    "n_right_lower": 10606,
+    "lower_share": 0.9627,
+    "n_raw_comma_letter": 2,
+    "n_removed": 2,
+    "first": {
+     "lower": 10606,
+     "upper": 407,
+     ",": 2,
+     "&": 2
+    }
+   },
+   "3822": {
+    "n_merge": 10929,
+    "n_right_lower": 10470,
+    "lower_share": 0.958,
+    "n_raw_comma_letter": 8,
+    "n_removed": 8,
+    "first": {
+     "lower": 10470,
+     "upper": 446,
+     ",": 12,
+     "'": 1
+    }
+   },
+   "3823": {
+    "n_merge": 10678,
+    "n_right_lower": 10045,
+    "lower_share": 0.9407,
+    "n_raw_comma_letter": 2,
+    "n_removed": 2,
+    "first": {
+     "lower": 10045,
+     "upper": 621,
+     ",": 8,
+     "'": 2,
+     ".": 1,
+     "&": 1
+    }
+   },
+   "11182": {
+    "n_merge": 4699,
+    "n_right_lower": 4583,
+    "lower_share": 0.9753,
+    "n_raw_comma_letter": 1304,
+    "n_removed": 1304,
+    "first": {
+     "lower": 4583,
+     "upper": 110,
+     "&": 2,
+     "(": 2,
+     ",": 1,
+     ".": 1
+    }
+   },
+   "11281": {
+    "n_merge": 9456,
+    "n_right_lower": 9114,
+    "lower_share": 0.9638,
+    "n_raw_comma_letter": 170,
+    "n_removed": 170,
+    "first": {
+     "lower": 9114,
+     "upper": 339,
+     "(": 2,
+     "'": 1
+    }
+   }
+  }
+ },
+ "total": {
+  "15i-b": {
+   "n_merge": 215277,
+   "n_right_lower": 209079,
+   "n_raw_comma_letter": 1856,
+   "n_removed": 0
+  },
+  "15ir-a": {
+   "n_merge": 215277,
+   "n_right_lower": 210928,
+   "n_raw_comma_letter": 1856,
+   "n_removed": 1856
+  }
+ }
+}

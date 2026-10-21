@@ -166,3 +166,82 @@ def test_build_stage_types(tmp_path):
     first = (root / "types" / "segments" / "9999.tsv.gz").read_bytes()
     assert build.main(base + ["--stage", "types"]) == 0
     assert (root / "types" / "segments" / "9999.tsv.gz").read_bytes() == first
+
+
+# ---- step 15ir ---------------------------------------------------------------------------------
+
+def _page_layer(tmp_path, numbers, bottom_extra=None):
+    """A synthetic v2 layer: one portrait scan per entry of ``numbers`` with a body of six lines,
+    the number as top line and, for scans in ``bottom_extra``, a second number-like bottom line."""
+    from archival_structures.analysis.page_structure import LayoutParams
+    from archival_structures.text_layer.extract_v2 import (
+        LINE_COLUMNS_V2, REGION_COLUMNS_V2, SCAN_COLUMNS_V2)
+    from archival_structures.text_layer.io import write_tsv_gz
+    from archival_structures.text_layer.layout import layout_inventory
+    root = tmp_path / "chain"
+    scans, regs, lines = [], [], []
+    for n, number in enumerate(numbers):
+        sid = f"NL-HaNA_1.01.02_9997_{n + 1:04d}"
+        scan = {c: "" for c in SCAN_COLUMNS_V2}
+        scan.update(scan_id=sid, page_w="1000", page_h="1600", status="ok")
+        scans.append([scan[c] for c in SCAN_COLUMNS_V2])
+        specs = [("num", 450, 60, 80, str(number))]
+        specs += [(f"b{k}", 300, 200 + 60 * k, 500, "tekst van de regel nummer") for k in range(6)]
+        if bottom_extra and n in bottom_extra:
+            specs.append(("bot", 450, 1400, 80, bottom_extra[n]))
+        for k, (name, x, y, w, text) in enumerate(specs):
+            rid = f"{sid}-text_region-{x}-{y}-{w}-40"
+            reg = {c: "" for c in REGION_COLUMNS_V2}
+            reg.update(scan_id=sid, region_id=rid, region_tag="paragraph")
+            regs.append([reg[c] for c in REGION_COLUMNS_V2])
+            row = {c: "" for c in LINE_COLUMNS_V2}
+            row.update(scan_id=sid, region_id=rid, line_idx="0", line_id=f"{sid}-{name}", x=str(x),
+                       y=str(y), w=str(w), h="40", baseline=f"{x},{y + 35} {x + w},{y + 35}",
+                       text=text, text_raw=text)
+            lines.append([row[c] for c in LINE_COLUMNS_V2])
+    write_tsv_gz(root / "scans" / "9997.scans.tsv.gz", SCAN_COLUMNS_V2, scans)
+    write_tsv_gz(root / "regions_meta" / "9997.tsv.gz", REGION_COLUMNS_V2, regs)
+    write_tsv_gz(root / "lines" / "9997.lines.tsv.gz", LINE_COLUMNS_V2, lines)
+    layout_inventory("9997", root, LayoutParams(furniture_patterns=(), merge=False))
+    return root
+
+
+def test_chain_relabel(tmp_path):
+    from archival_structures.text_layer.types import type_inventory
+    root = _page_layer(tmp_path, [10, 99, 11, 12], bottom_extra={0: "7."})
+    stats = type_inventory("9997", root, _params())
+    assert stats["chain_length"] == 3 and stats["chain_candidates"] == 4
+    got = {(s["scan_id"][-4:], s["line_id"].rsplit("-", 1)[1]): s["type_method"]
+           for s in read_tsv_gz(root / "types" / "segments" / "9997.tsv.gz")
+           if s["line_type"] == "page_number"}
+    assert got == {("0001", "num"): "rule:pn_line", ("0001", "bot"): "rule:pn_line_offchain",
+                   ("0002", "num"): "rule:pn_line_offchain", ("0003", "num"): "rule:pn_line",
+                   ("0004", "num"): "rule:pn_line"}
+
+
+def test_date_line_with_year_not_split():
+    segs, splits = _segment([_line(0, "28. Junij 1650.", 300, 100, 300)] + _body())
+    got = _of(segs, "l0")
+    assert len(got) == 1 and splits["rule:date_prefix"] == 0
+    assert (got[0]["line_type"], got[0]["type_method"]) == ("date_header", "rule:date_line")
+    assert (got[0]["char_start"], got[0]["char_end"]) == (0, len("28. Junij 1650."))
+    # a date followed by running text is still split by rule 1
+    segs, splits = _segment([_line(0, "28. Junij verthoonen, als het sullen", 300, 100, 600)] + _body())
+    assert splits["rule:date_prefix"] == 1
+
+
+def test_date_line_colon_form():
+    # row 55: "20: Decemb:" is one date_header segment
+    segs, splits = _segment([_line(0, "20: Decemb:", 300, 100, 200)] + _body())
+    got = _of(segs, "l0")
+    assert len(got) == 1 and got[0]["line_type"] == "date_header"
+    assert splits["rule:date_prefix"] == 0
+
+
+def test_types_params_validated():
+    import pytest
+    for kw in ({"margin_cut": "some"}, {"top_n": 0}, {"bottom_n": 0}):
+        with pytest.raises(ValueError):
+            TypeParams(**kw)
+    for mode in ("month_only", "all", "off"):
+        TypeParams(margin_cut=mode)

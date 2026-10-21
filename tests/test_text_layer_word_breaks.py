@@ -183,3 +183,21 @@ def test_sg_hand_pins():
                  "3353": "-„", "3354": "-„"}
     for inv in ("3352", "3771", "11182"):
         assert inv not in p and p["default"] == "-=„"
+
+
+def test_sg_hand_pins_applied(tmp_path):
+    """The pinned sets of SG_HAND_V2 are what decide_v2 applies (3349 without `=`, 3352 with)."""
+    from archival_structures.text_layer.build import decide_v2
+    from archival_structures.text_layer.presets import SG_HAND_V2
+    assert SG_HAND_V2.join_lead_marks == ","
+    frames = []
+    for inv in ("3349", "3352"):
+        f = _stats_frame(_inventory(), inv=inv)
+        f["all_freq_robust"] = f["all_freq"]
+        f["end_rel_frac_robust"] = f["end_rel_frac"]
+        frames.append(f)
+    run = _v2_run(tmp_path, SG_HAND_V2.wbc_pinned)
+    rows, corpus = decide_v2(run, pd.concat(frames, ignore_index=True), {"3349": 5000, "3352": 5000})
+    sets = {r["inventory_number"]: r["wbc_set"] for r in rows}
+    assert sets == {"3349": "-„", "3352": "-=„"}
+    assert corpus["default_set"] == sorted("-=„")

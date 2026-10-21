@@ -178,13 +178,16 @@ def _bbox(segs):
     return x0, y0, x1 - x0, y1 - y0
 
 
-def build_units_page(scan_id, page, regions, params, print_mode, taken):
+def build_units_page(scan_id, page, regions, params, print_mode, taken, claimable=None):
     """Units of one page.
 
     ``regions`` is a list of ``(region_row, segs)``: ``region_row`` has ``layout_region_id``,
     ``layout_column`` (int), ``layout_role``; ``segs`` are the segments in (layout_line_idx,
     seg_idx) order with int geometry and char offsets. ``taken`` is the set of ids already in use
-    in the scan (modified: new ids are added). Returns ``(units, n_collisions)``; each unit has
+    in the scan (modified: new ids are added). ``claimable`` (step 15ir, optional) maps legacy
+    region ids that are not layout region ids of the scan to the frozenset of their line ids;
+    a unit whose own-box id is claimable and that holds all of those lines takes that id (the
+    entry is removed from ``claimable``, so one unit holds it). Returns ``(units, n_collisions)``; each unit has
     ``unit_id, unit_type, unit_method, layout_region_id, layout_column, bbox, segs`` and the
     sort key ``_key``."""
     units = []
@@ -212,6 +215,13 @@ def build_units_page(scan_id, page, regions, params, print_mode, taken):
             units.append(u)
     for u in pending:
         x, y, w, h = u["bbox"]
+        if claimable:
+            own = legacy_doc_id(scan_id, {"x": x, "y": y, "w": w, "h": h})
+            if own in claimable and claimable[own] <= {s["line_id"] for s in u["segs"]}:
+                del claimable[own]
+                u["unit_id"] = own
+                taken.add(own)
+                continue
         while True:
             uid = legacy_doc_id(scan_id, {"x": x, "y": y, "w": w, "h": h})
             if uid not in taken:
@@ -389,6 +399,11 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
     layout_regions = list(read_tsv_gz(root / "layout" / "regions" / f"{inv}.tsv.gz"))
     by_region = load_segments(root, inv)
 
+    lines = list(read_tsv_gz(root / "lines" / f"{inv}.lines.tsv.gz"))
+    legacy_lines = defaultdict(set)
+    for r in lines:
+        if r["text"].strip():      # blank lines are in no unit
+            legacy_lines[(r["scan_id"], r["region_id"])].add(r["line_id"])
     reserved = defaultdict(set)
     for r in legacy:
         reserved[r["scan_id"]].add(r["region_id"])
@@ -401,6 +416,11 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
     n_collisions = 0
     for scan in scans:
         sid = scan["scan_id"]
+        layout_ids = {r["layout_region_id"] for rr in regions_by_scan.get(sid, {}).values()
+                      for r in rr}
+        claimable = {r["region_id"]: frozenset(legacy_lines[(sid, r["region_id"])])
+                     for r in legacy if r["scan_id"] == sid and r["region_id"] not in layout_ids
+                     and legacy_lines.get((sid, r["region_id"]))}
         scan_units = []
         for page, rrows in regions_by_scan.get(sid, {}).items():
             regions = []
@@ -408,7 +428,8 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
                 reg = {"layout_region_id": r["layout_region_id"], "layout_role": r["layout_role"],
                        "layout_column": int(r["layout_column"]) if r["layout_column"] else 0}
                 regions.append((reg, by_region.get((sid, page, r["layout_region_id"]), [])))
-            units, nc = build_units_page(sid, page, regions, params, print_mode, reserved[sid])
+            units, nc = build_units_page(sid, page, regions, params, print_mode, reserved[sid],
+                                         claimable)
             n_collisions += nc
             scan_units += units
         scan_units.sort(key=lambda u: u["_key"])
@@ -432,7 +453,6 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
             seg_chars[key] = _chars(s)
 
     n_seg_in = sum(len(v) for v in by_region.values())
-    lines = list(read_tsv_gz(root / "lines" / f"{inv}.lines.tsv.gz"))
     line_region = {(r["scan_id"], r["line_id"]): r["region_id"] for r in lines}
     map_rows = doc_id_map_rows([r["region_id"] for r in legacy], line_region, seg_unit, seg_chars,
                                unit_sizes)

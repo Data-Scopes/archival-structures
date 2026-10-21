@@ -96,3 +96,77 @@ def test_legacy_matches_default_on_fixture(tmp_path):
                         for t in ("scans", "regions", "lines")}
     assert tables["default"] == tables["legacy"]       # the fixture has no 15fq-specific case
     assert all(r["furniture"] == "0" for r in tables["legacy"]["regions"])
+
+
+# ---- synthetic print layer (step 15ir) -------------------------------------------------------
+
+SCAN = "NL-HaNA_1.10.94_9998_0001"
+
+
+def _synthetic_layer(tmp_path, regions):
+    """``regions``: {region_id: [(line_id, x, y, w, text, column)]}; one portrait scan 1000x1600."""
+    from archival_structures.text_layer.extract_v2 import (
+        LINE_COLUMNS_V2, REGION_COLUMNS_V2, SCAN_COLUMNS_V2)
+    from archival_structures.text_layer.io import write_tsv_gz
+    root = tmp_path / "synthetic"
+    scan = {c: "" for c in SCAN_COLUMNS_V2}
+    scan.update(scan_id=SCAN, page_w="1000", page_h="1600", status="ok")
+    write_tsv_gz(root / "scans" / "9998.scans.tsv.gz", SCAN_COLUMNS_V2,
+                 [[scan[c] for c in SCAN_COLUMNS_V2]])
+    reg_rows, line_rows = [], []
+    for rid, lines in regions.items():
+        reg = {c: "" for c in REGION_COLUMNS_V2}
+        reg.update(scan_id=SCAN, region_id=rid, region_tag="paragraph")
+        reg_rows.append([reg[c] for c in REGION_COLUMNS_V2])
+        for idx, (lid, x, y, w, text, column) in enumerate(lines):
+            row = {c: "" for c in LINE_COLUMNS_V2}
+            row.update(scan_id=SCAN, column=column, region_id=rid, line_idx=str(idx), line_id=lid,
+                       x=str(x), y=str(y), w=str(w), h="40",
+                       baseline=f"{x},{y + 35} {x + w},{y + 35}", text=text, text_raw=text)
+            line_rows.append([row[c] for c in LINE_COLUMNS_V2])
+    write_tsv_gz(root / "regions_meta" / "9998.tsv.gz", REGION_COLUMNS_V2, reg_rows)
+    write_tsv_gz(root / "lines" / "9998.lines.tsv.gz", LINE_COLUMNS_V2, line_rows)
+    return root
+
+
+def test_merge_off(tmp_path):
+    from archival_structures.analysis.page_structure import LayoutParams
+    regions = {"a": [(f"a{i}", 100, 100 + 50 * i, 800, "tekst tekst", "") for i in range(6)],
+               "b": [("b0", 100, 175, 800, "ertussen", "")]}
+    root = _synthetic_layer(tmp_path, regions)
+    on = layout_inventory("9998", root, LayoutParams(merge=True))
+    assert on["n_merges"] == 1
+    assert [r["change"] for r in read_tsv_gz(root / "layout" / "regions" / "9998.tsv.gz")] == ["merged"]
+    off = layout_inventory("9998", root, LayoutParams(merge=False))
+    rows = list(read_tsv_gz(root / "layout" / "regions" / "9998.tsv.gz"))
+    assert off["n_merges"] == 0 and len(rows) == 2
+    assert all("merged" not in r["change"] for r in rows)
+
+
+def test_print_column_split_and_furniture(tmp_path):
+    from archival_structures.analysis.page_structure import LayoutParams
+    interleaved = ([("c1a", 100, 300, 350, "links een", "1"), ("c2a", 550, 100, 350, "rechts een", "2"),
+                    ("c1b", 100, 100, 350, "links twee", "1"), ("c2b", 550, 200, 350, "rechts twee", "2")])
+    regions = {"page": interleaved, "catch": [("k0", 100, 1500, 120, "Gesien", "")]}
+    root = _synthetic_layer(tmp_path, regions)
+    layout_inventory("9998", root, LayoutParams(furniture_patterns=()))
+    rows = {r["layout_region_id"]: r for r in read_tsv_gz(root / "layout" / "regions" / "9998.tsv.gz")}
+    split = [r for r in rows.values() if r["change"] == "split_at_column"]
+    assert sorted(r["column_value"] for r in split) == ["1", "2"]
+    assert rows["catch"]["furniture"] == "1" and rows["catch"]["change"] == "unchanged"
+    assert all(r["furniture"] == "0" for r in split)
+    lines = list(read_tsv_gz(root / "layout" / "lines" / "9998.tsv.gz"))
+    by_region = {}
+    for l in lines:
+        by_region.setdefault(l["layout_region_id"], []).append((int(l["layout_line_idx"]), l["line_id"]))
+    left = next(r["layout_region_id"] for r in split if r["column_value"] == "1")
+    assert [lid for _, lid in sorted(by_region[left])] == ["c1b", "c1a"]      # y order, not XML order
+    # legacy parameters keep the source order
+    from archival_structures.analysis.page_structure import LEGACY_15FP
+    legacy = LayoutParams(**{**LEGACY_15FP.to_dict(), "split_on_line_field": "column",
+                             "furniture_patterns": ()})
+    assert legacy.sort_split_lines is False
+    layout_inventory("9998", root, legacy)
+    lines = list(read_tsv_gz(root / "layout" / "lines" / "9998.tsv.gz"))
+    first = {l["layout_region_id"]: l["line_id"] for l in lines if l["layout_line_idx"] == "0"}
+    assert "c1a" in first.values()

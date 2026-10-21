@@ -130,7 +130,8 @@ def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params, *,
     for page_name, page_regions in pages.items():
         if params.split_on_line_field:
             page_regions, n_cs = split_regions_on_line_field(
-                page_regions, params.split_on_line_field, id_fn=_region_id)
+                page_regions, params.split_on_line_field, id_fn=_region_id,
+                sort_lines=params.sort_split_lines)
             n_column_splits += n_cs
         bottom = max((l.coords.y + l.coords.h for r in page_regions for l in r.lines), default=0)
         furniture = furniture_region_ids(page_regions, bottom, page_h, params)

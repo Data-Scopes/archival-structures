@@ -1,0 +1,40 @@
+455 4_455_0295 recto: relabelled '62' y=3261
+   top/bottom band: 318:'573 )':page_number/pn_line | 319:'Den 25. Mey.':date_header/date_line | 349:'de maendt, houdende advertenti':main_text/default | 3255:'van':marginalia/extra_role | 3261:'62':page_number/pn_line_offchain
+3773 _3773_0163 recto: relabelled '2' y=3291
+   top/bottom band: 306:'Den 21. Maart.':date_header/date_line | 317:'( 253 )':page_number/pn_line | 318:'1718.':running_header/header | 3288:'ver-':main_text/default | 3291:'2':page_number/pn_line_offchain
+455 4_455_0638 verso: relabelled '6' y=3232
+   top/bottom band: 304:'( 1252 )':page_number/pn_line_offchain | 314:'Den 22. November.':date_header/date_line | 343:'en braght met open namen, en d':main_text/default | 3219:'op den Staet van oorlogh behoo':main_text/default | 3232:'6':page_number/pn_line_offchain
+3821 _3821_0246 recto: relabelled '412' y=3326
+   top/bottom band: 340:'Den 3 Juny':date_header/date_line | 347:'( 323 )':page_number/pn_line | 350:'1766':running_header/header | 3317:'Mers':marginalia/extra_role | 3326:'412':page_number/pn_line_offchain
+3821 _3821_0421 recto: relabelled '722' y=3255
+   top/bottom band: 301:'Den 14 December':date_header/date_line | 315:'1766':running_header/header | 326:'( 671 )':page_number/pn_line | 3255:'722':page_number/pn_line_offchain | 3266:'Ont-':catch_word/catch_word
+3823 _3823_0395 verso: relabelled '2' y=3229
+   top/bottom band: 259:'Den 24 November':date_header/date_line | 281:'( 618 )':page_number/pn_line | 283:'1768':running_header/header | 3229:'2':page_number/pn_line_offchain | 3248:'ci-':catch_word/catch_word
+456 4_456_0087 recto: relabelled '26' y=3228
+   top/bottom band: 284:'( 157 )':page_number/pn_line | 287:'Den 16. Februart.':date_header/date_line | 326:'re Requeste vermeldt, ende ver':main_text/default | 3219:'ende':main_text/default | 3228:'26':page_number/pn_line_offchain
+455 4_455_0071 verso: relabelled '0' y=278
+   top/bottom band: 265:'Den3. Februarii.':main_text/default | 274:'126)':page_number/pn_line | 278:'0':page_number/pn_line_offchain | 3177:'uyrs binnen Boord dat in brand':main_text/default | 3221:'het':catch_word/catch_word
+455 4_455_0032 recto: relabelled '1' y=3244
+   top/bottom band: 233:'( 49 )':page_number/pn_line | 239:'Den 16. Januarili.':date_header/date_line | 285:'slagen daeroverhaddebejegent, ':main_text/default | 3242:'ge.':marginalia/extra_role | 3244:'1':page_number/pn_line_offchain
+3773 _3773_0438 verso: relabelled '2718.' y=291
+   top/bottom band: 269:'Den 17. September.':date_header/date_line | 284:'796':page_number/pn_line | 291:'2718.':page_number/pn_line_offchain | 3196:'daar op moesten hooren, welcke':main_text/default | 3252:'en':catch_word/catch_word
+456 4_456_0083 recto: relabelled '20' y=3235
+   top/bottom band: 264:'( 149 )':page_number/pn_line | 274:'Den 14. Februaris.':date_header/date_line | 328:'hem Consul, of selven, en noch':main_text/default | 3233:'Hoogh':main_text/default | 3235:'20':page_number/pn_line_offchain
+455 4_455_0553 recto: relabelled '121' y=3284
+   top/bottom band: 298:'( 1089 )':page_number/pn_line | 302:'Den 6. Oelohen.':main_text/default | 355:'Resolutie gestelt sal werden i':main_text/default | 3284:'121':page_number/pn_line_offchain | 3285:'ende':catch_word/catch_word
+11281 11281_0133 recto: relabelled '127' y=285
+   top/bottom band: 214:'124':page_number/pn_line_offchain | 285:'127':page_number/pn_line_offchain | 301:'Frederich de Wit, en Pieter':main_text/default | 3783:'Caracter van ordinariss':main_text/default | 3889:'Ambassadeur, tijt, dractement,':main_text/default
+3822 _3822_0226 recto: relabelled '44' y=3219
+   top/bottom band: 250:'Den 22 Mey':date_header/date_line | 253:'( 289 )':page_number/pn_line | 275:'1767':running_header/header | 3219:'44':page_number/pn_line_offchain | 3221:'con-':catch_word/catch_word
+456 4_456_0395 recto: relabelled '96' y=3207
+   top/bottom band: 251:'( 773 )':page_number/pn_line | 261:'Den 5. Julli.':date_header/date_line | 298:'Ontfangen twee Missiven van de':main_text/default | 3202:'Hoogh':main_text/default | 3207:'96':page_number/pn_line_offchain
+455 4_455_0034 recto: relabelled '0' y=3283
+   top/bottom band: 328:'153 )':page_number/pn_line_offchain | 342:'Den 17. Januaril.':date_header/date_line | 353:'Is naer voorgaende deliberatie':main_text/default | 3251:'zijnde':marginalia/extra_role | 3283:'0':page_number/pn_line_offchain
+3823 _3823_0401 recto: relabelled '4768' y=291
+   top/bottom band: 271:'( 631 )':page_number/pn_line | 285:'Den 23 November':date_header/date_line | 291:'4768':page_number/pn_line_offchain | 3319:'702':page_number/pn_line_offchain | 3322:'had-':catch_word/catch_word
+3823 _3823_0290 recto: relabelled '( 409 )' y=229
+   top/bottom band: 209:'4768':page_number/pn_line_offchain | 229:'( 409 )':page_number/pn_line_offchain | 252:'Den 1 Augusty':date_header/date_line | 3213:'5 Fe-':main_text/default | 3215:'5 G':signature_mark/signature
+3822 _3822_0010 verso: relabelled '255' y=3351
+   top/bottom band: 254:'2767':page_number/pn_line_offchain | 262:'N-':marginalia/extra_role | 264:'E':marginalia/extra_role | 3351:'255':page_number/pn_line_offchain | 3352:'weegens Holland -':main_text/default
+456 4_456_0292 verso: relabelled '2' y=3244
+   top/bottom band: 252:'( 566 )':page_number/pn_line | 268:'Den 19. Mey.':date_header/date_line | 288:'rembour. voorschreve Lywaten g':main_text/default | 3204:'201':page_number/pn_line_offchain | 3244:'2':page_number/pn_line_offchain

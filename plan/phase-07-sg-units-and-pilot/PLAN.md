@@ -2,7 +2,7 @@
 
 > **Audience:** the Opus sessions that plan and review this phase. Implementation sessions do
 > **not** read this file. **Status: reviewed** 2026-10-21 (Opus): accept with follow-ups; review
-> fixes in 15ir ([REVIEW](REVIEW.md)). Planned 2026-10-20; seeded 2026-10-17 by phase-06 planning.
+> fixes in 15ir, done and reviewed the same day ([REVIEW](REVIEW.md)). Released: v0.11.0; 15ir in v0.12.0. Planned 2026-10-20; seeded 2026-10-17 by phase-06 planning.
 
 ## Goal
 
@@ -63,7 +63,7 @@ Run in this order; each needs the one before. Six steps were planned, one over t
 | 15hj2 | Pinned WBC sets ([brief](step-15hj2-pinned-wbc-sets.md)), after 15hj | UA-010 (c): `LayerPreset.wbc_pinned`; SG sets `-=„`, 11281 `-:=„`; `wbc`/`join` re-run as `15hj-b` without `--ignore-sanity`; v1 157/157 |
 | 15i | Pilot build and publish ([brief](step-15i-pilot-build-and-publish.md)) | Part A: pin 0.9.1 if released; one hand layer of 14 + print 455/456 from the PageXML; reproducibility; audit §3; R6 counts; 116-row evidence; crops for the user's row check; a UA. Part B (after the UA): `text_layer_v2` in `shared-data`, catalogue rows, LotA note |
 | 15i2 | hand_tar pin without `=` ([brief](step-15i2-drop-eq-hand-tar.md)), between 15i Part A and Part B | UA-011 (b): `=` dropped for 3349–3351, 3353, 3354; hand rebuilt as `15i-b/hand`, print copied; audit and 116 rows re-run; new UA to publish |
-| 15ir | Review fixes ([brief](step-15ir-review-fixes.md)), after the user's commit + v0.11.0 | F07-R.1–R.5: sort column-split print lines; blocked counts per final pass; types guard + `_offchain` relabel; legacy-twin ids; `join_lead_marks` (`,`); small items, tests, docs, LotA known-issues note. Dev layer `15ir-a`; no publication (UA-013) |
+| 15ir | Review fixes ([brief](step-15ir-review-fixes.md)), after v0.11.0. **Done, reviewed: accept** | F07-R.1–R.5: sort column-split print lines; blocked counts per final pass; types guard + `_offchain` relabel; legacy-twin ids; `join_lead_marks` (`,`); small items, tests, docs, LotA known-issues note. Dev layer `15ir-a`; no publication (UA-013 (a)) |
 
 ## Decisions (phase planning, 2026-10-20)
 
@@ -156,21 +156,23 @@ an existing symlink; the v1 inputs are untouched; and the user signs off on the 
 ## Hand-off
 
 Reviewed 2026-10-21 (Opus): **accept with follow-ups** ([REVIEW](REVIEW.md)). Commit the current
-tree and release it as **v0.11.0** (the code that built the published pilot), then run 15ir and
-release **v0.12.0**. The accepted deviations of every step are collected in
+tree and release it as **v0.11.0** (done: the code that built the published pilot); 15ir is done and
+reviewed, release it as **v0.12.0**. The accepted deviations of every step are collected in
 [`plan/CONTEXT.md`](../CONTEXT.md), which is the context later planning reads.
 
 - **For whoever uses the layer:**
   - `shared-data/NL-HaNA_1.01.02/text_layer_v2/` and `NL-HaNA_1.10.94/text_layer_v2/` are the pilot
     (`coverage: partial`; schema in `docs/text_layer.md`). Align on `join/units` + `join/segments`;
     map old ids through `units/doc_id_map`.
-  - Known issues until 15ir / UA-013: print line order in column-split units (F07-R.1), the `,`
-    continuation mark (F07-R.2), the legacy twins (F07-R.3), and page-number method tags (F07-R.4).
+  - Known issues of the published v2 (UA-013 (a): it stays; listed in `docs/text_layer.md` and LotA
+    §6): print line order (F07-R.1), the `,` continuation mark (F07-R.2), legacy twins (F07-R.3),
+    page-number tags (F07-R.4). Fixed in the code and in the dev layer `15ir-a`.
   - The hand layer has no region merges (`merge=False`, F07-15fq.3). Glue is not repaired (UA-003).
 - **For phase 08 (plan next; region quality and duplicates):**
   - the follow-ups in the report's table: the `g_upper_right` guard in `join.py` (F07-15hj.6); the
     crosswalk role column; the interleave bridge; bottom-band years; the REPUBLIC default path out of
     the library;
-  - the full SG run `text_layer_v3` needs the 15ir code and the UA-013 answer;
+  - the full SG run `text_layer_v3` is built with the 15ir code (v0.12.0), plus the 15ir follow-ups
+    in `plan/CONTEXT.md` §4;
   - pagexml-tools 0.9.1 (UA-007), then drop the four workarounds (F07-P.7, F07-15fp.11).
-- **For the user:** UA-013; the commit and release; the 116-row sign-off after LotA re-aligns (D19).
+- **For the user:** release v0.12.0; the 116-row sign-off after LotA re-aligns (D19).

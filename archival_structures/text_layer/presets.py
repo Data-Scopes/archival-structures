@@ -32,6 +32,9 @@ class LayerPreset:
     wbc_sanity_out: tuple = (":", ".")            # chars that must not be
     # step 15hj2: pinned sets {"default": chars, "<inv>": chars}; None = derive with the rule
     wbc_pinned: Optional[Mapping[str, str]] = None
+    # step 15ir: characters dropped from the start of a line joined onto a break (when a letter
+    # follows): the HTR reads a repeated break mark as "," in 11182 (v2 join only)
+    join_lead_marks: str = ""
 
 
 # seconds = intercept + slope * uncompressed PageXML bytes, per inventory and
@@ -110,6 +113,7 @@ SG_HAND_V2 = LayerPreset(
     # (3349, 3350, 3351, 3353, 3354); 3352 derived `=„` and keeps the default.
     wbc_pinned={"default": "-=„", "11281": "-:=„", "3349": "-„", "3350": "-„", "3351": "-„",
                 "3353": "-„", "3354": "-„"},
+    join_lead_marks=",",   # F07-R.2
 )
 
 # Step 15h: paragraph cues fitted on the dev split (455, even scans) against REPUBLIC paragraphs;
