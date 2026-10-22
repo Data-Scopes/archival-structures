@@ -240,8 +240,47 @@ def test_date_line_colon_form():
 
 def test_types_params_validated():
     import pytest
-    for kw in ({"margin_cut": "some"}, {"top_n": 0}, {"bottom_n": 0}):
+    for kw in ({"margin_cut": "some"}, {"top_n": 0}, {"bottom_n": 0},
+               {"offchain_other_bands": ("middle",)}):
         with pytest.raises(ValueError):
             TypeParams(**kw)
     for mode in ("month_only", "all", "off"):
         TypeParams(margin_cut=mode)
+
+
+# ---- step 15k ----------------------------------------------------------------------------------
+
+def _pn_methods(tmp_path, numbers, bottom_extra, **kw):
+    from archival_structures.text_layer.types import type_inventory
+    root = _page_layer(tmp_path, numbers, bottom_extra=bottom_extra)
+    type_inventory("9997", root, _params(**kw))
+    return {(s["scan_id"][-4:], s["line_id"].rsplit("-", 1)[1]): (s["line_type"], s["type_method"])
+            for s in read_tsv_gz(root / "types" / "segments" / "9997.tsv.gz")
+            if s["type_method"].startswith("rule:pn_line") or s["type_method"] == "rule:year_offchain"}
+
+
+def test_offchain_gap_kept(tmp_path):
+    got = _pn_methods(tmp_path, [10, 11, 99, 13, 14], {2: "( 12 )"}, offchain_retype=True)
+    assert got[("0003", "bot")] == ("page_number", "rule:pn_line_gap")
+    assert got[("0003", "num")] == ("page_number", "rule:pn_line_offchain")   # 99: not in the gap
+    assert got[("0002", "num")] == ("page_number", "rule:pn_line")
+
+
+def test_offchain_band_retyped(tmp_path):
+    numbers, extra = [10, 99, 11, 12], {0: "41"}
+    got = _pn_methods(tmp_path, numbers, extra, offchain_retype=True, offchain_other_bands=("bottom",))
+    assert got[("0001", "bot")] == ("other", "rule:pn_line_offchain")
+    assert got[("0002", "num")] == ("page_number", "rule:pn_line_offchain")
+    got = _pn_methods(tmp_path / "off", numbers, extra, offchain_retype=False,
+                      offchain_other_bands=("bottom",))
+    assert got[("0001", "bot")] == ("page_number", "rule:pn_line_offchain")
+    assert got[("0002", "num")] == ("page_number", "rule:pn_line_offchain")
+
+
+def test_bottom_year_offchain(tmp_path):
+    got = _pn_methods(tmp_path, [10, 11, 12], {0: "1717."}, offchain_retype=True,
+                      offchain_years_other=True)
+    assert got[("0001", "bot")] == ("other", "rule:year_offchain")
+    got = _pn_methods(tmp_path / "off", [10, 11, 12], {0: "1717."}, offchain_retype=True,
+                      offchain_years_other=False)
+    assert got[("0001", "bot")] == ("page_number", "rule:pn_line_offchain")

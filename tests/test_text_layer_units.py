@@ -6,7 +6,7 @@ from pathlib import Path
 from archival_structures.text_layer import build
 from archival_structures.text_layer.io import read_tsv_gz
 from archival_structures.text_layer.units import (
-    DOC_ID_MAP_COLUMNS, UNIT_COLUMNS, UNIT_SEGMENT_COLUMNS, UnitParams, build_units_page,
+    DOC_ID_MAP_COLUMNS, REPUBLIC_COLUMNS, UNIT_COLUMNS, UNIT_SEGMENT_COLUMNS, UnitParams, build_units_page,
     doc_id_map_rows, republic_crosswalk, split_region)
 
 
@@ -140,6 +140,46 @@ def test_republic_crosswalk_exact_near_split_original():
     assert [(r[2], r[3]) for r in rows] == [("a", "exact"), ("a", "near"), ("b_L", "split_original"),
                                             ("", "unmatched"), ("", "unmatched"),
                                             ("b_R", "split_half")]
+    assert all(r[4] == "" for r in rows)
+    rows = republic_crosswalk(ids, lines, roles={ids[0]: "start", ids[2]: "end", ids[3]: "both"})
+    assert [r[4] for r in rows] == ["start", "", "end", "both", "", ""]
+
+
+def test_crosswalk_role_end_maps_last_half():
+    lines = {"S1": [("b_L", (10, 60, 40, 30), "b"), ("b_R", (60, 62, 50, 28), "b")]}
+    rid = "S1-line-10-58-102-34"
+    assert republic_crosswalk([rid], lines, roles={rid: "end"})[0][2:] == ["b_R", "split_original", "end"]
+    assert republic_crosswalk([rid], lines, roles={rid: "start"})[0][2:] == ["b_L", "split_original", "start"]
+    assert REPUBLIC_COLUMNS[-1] == "role"
+
+
+def test_read_republic_roles(tmp_path):
+    import gzip
+    p = tmp_path / "p.tsv.gz"
+    with gzip.open(p, "wt", encoding="utf-8") as fh:
+        fh.write("line_start\tline_end\nA\tB\nB\tC\nD\tD\n")
+    from archival_structures.text_layer.units import read_republic_ids, read_republic_roles
+    roles = read_republic_roles(p)
+    assert roles == {"A": "start", "B": "both", "C": "end", "D": "both"}
+    assert list(roles) == read_republic_ids(p)
+
+
+def test_no_republic_dir_no_crosswalk(tmp_path, monkeypatch, capsys):
+    import dataclasses
+    from archival_structures.text_layer.extract_v2 import extract_inventory_v2
+    from archival_structures.text_layer.presets import PRESETS
+    fixture = Path(__file__).parent / "fixtures" / "text_layer" / "sg" / "9999"
+    preset = PRESETS["sg_1.01.02_v2"]
+    root = tmp_path / preset.name
+    extract_inventory_v2("9999", fixture, root, preset)
+    base = ["--out-dir", str(tmp_path), "--preset", "sg_1.01.02_v2"]
+    assert build.main(base + ["--stage", "layout"]) == 0
+    assert build.main(base + ["--stage", "types"]) == 0
+    monkeypatch.setitem(PRESETS, "sg_1.01.02_v2", dataclasses.replace(preset, merged_line_split="on"))
+    assert build.main(base + ["--stage", "units"]) == 0
+    assert "WARNING: no --republic-dir given" in capsys.readouterr().out
+    assert json.loads((root / "units" / "params.json").read_text())["republic_dir"] is None
+    assert not (root / "units" / "republic_lines").exists()
 
 
 def test_build_stage_units(tmp_path):
@@ -218,3 +258,15 @@ def test_missing_republic_file_logged(tmp_path, monkeypatch, capsys):
     (nowhere / "paragraphs-9999.tsv.gz").write_bytes(b"")
     assert build.main(base + ["--stage", "units", "--republic-dir", str(nowhere)]) in (0, 1)
     assert json.loads((root / "units" / "params.json").read_text())["republic_dir"] == str(nowhere)
+
+
+def test_claimable_per_scan():
+    # two scans with legacy twins: each scan claims only its own legacy regions
+    twin1, twin2 = "S1-text_region-100-10-50-20", "S2-text_region-100-10-50-20"
+    for sid, twin in (("S1", twin1), ("S2", twin2)):
+        segs = [seg(0, "date_header", x=100, y=10, w=50, h=20, chars=4), seg(1, "main_text")]
+        claimable = {twin: frozenset({"l0"})}
+        units, nc = build_units_page(sid, "recto", [(region("R"), segs)], UnitParams(), False,
+                                     {"R", twin}, claimable)
+        assert {u["unit_type"]: u["unit_id"] for u in units} == {"main_text": "R", "date_header": twin}
+        assert nc == 0

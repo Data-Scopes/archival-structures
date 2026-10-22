@@ -10,6 +10,7 @@ from archival_structures.analysis.page_structure import (
     LEGACY_15FP, LayoutParams, assign_column_roles, choose_gutter_rule, find_main_edge_x,
     find_separation_x, fit_gutter, furniture_region_ids, group_regions_into_columns, hull_coords,
     inventory_line_width_rel, merge_overlapping_text_regions, region_box_id,
+    merge_regions, sort_lines, sort_lines_by_row, _line_sort_key,
     split_regions_on_line_field, split_scan_into_pages)
 
 SCAN = "NL-HaNA_1.01.02_9999_0001"
@@ -281,6 +282,14 @@ def test_split_sorts_lines():
     out, n = split_regions_on_line_field([one], "column", sort_lines=True)
     assert n == 0 and out[0] is one and [l.id for l in one.lines] == ["e", "f"]
     assert LayoutParams().sort_split_lines and not LEGACY_15FP.sort_split_lines
+    # step 15j: row-tolerant sort of the pieces
+    rl = [line("a", 500, 930, h=75, column="1"), line("b", 100, 936, h=75, column="1"),
+          line("c", 600, 100, h=75, column="2"), line("d", 100, 980, h=75, column="1")]
+    out, _ = split_regions_on_line_field([region("R2", rl)], "column", sort_lines=True,
+                                         row_tol_frac=0.2)
+    assert [l.id for l in out[0].lines] == ["b", "a", "d"]
+    out, _ = split_regions_on_line_field([region("R3", rl)], "column", sort_lines=True)
+    assert [l.id for l in out[0].lines] == ["a", "b", "d"]
 
 
 def test_blocked_counted_once():
@@ -347,3 +356,40 @@ def test_legacy_params_match_15fp_defaults():
     out, passes = merge_overlapping_text_regions([main, note], LEGACY_15FP)
     assert len(out) == 1 and passes == 1                        # 15fp behaviour: merged
     assert find_separation_x(_opening_boxes(), 2000, 0.5, LEGACY_15FP)[1] == "gap"
+    assert LEGACY_15FP.line_sort == "baseline" and LayoutParams().line_sort == "row"
+
+
+def _same_row_lines():
+    # baselines (y + 70): A 1000, B 1006, C 1050; h 75
+    return [line("A", 500, 930, h=75), line("B", 100, 936, h=75), line("C", 100, 980, h=75)]
+
+
+def test_row_sort_same_row_fragments():
+    lines = _same_row_lines()
+    assert [l.id for l in sort_lines_by_row(lines, 0.2)] == ["B", "A", "C"]
+    assert [l.id for l in sorted(lines, key=_line_sort_key)] == ["A", "B", "C"]
+    assert sort_lines_by_row([], 0.2) == []
+    assert [l.id for l in sort_lines(lines, LayoutParams())] == ["B", "A", "C"]
+    assert [l.id for l in sort_lines(lines, LEGACY_15FP)] == ["A", "B", "C"]
+
+
+def test_row_sort_keeps_separate_rows():
+    lines = [line(f"L{i}", 900 - 100 * i, 100 + 48 * i, h=75) for i in range(5)]
+    assert ([l.id for l in sort_lines_by_row(lines, 0.2)]
+            == [l.id for l in sorted(lines, key=_line_sort_key)])
+
+
+def test_line_sort_validated():
+    import pytest
+    for kw in ({"line_sort": "x"}, {"row_tol_frac": 0}, {"row_tol_frac": 1}):
+        with pytest.raises(ValueError):
+            LayoutParams(**kw)
+    p = LayoutParams(line_sort="baseline", row_tol_frac=0.3, sort_unchanged_lines=True)
+    assert LayoutParams.from_dict(p.to_dict()) == p
+
+
+def test_merge_regions_row_key():
+    lines = _same_row_lines()
+    r1, r2 = region("R1", lines[:1]), region("R2", lines[1:])
+    assert [l.id for l in merge_regions([r1, r2], row_tol_frac=0.2).lines] == ["B", "A", "C"]
+    assert [l.id for l in merge_regions([r1, r2], row_tol_frac=None).lines] == ["A", "B", "C"]

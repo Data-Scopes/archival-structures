@@ -1,0 +1,61 @@
+== hand: 195 equal, 42 differ, 0 missing
+   join/segments/11281.tsv.gz {'rows': [78096, 78096], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_id': 2, 'seg_order': 1, 'char_start': 1, 'char_end': 1, 'boundary_kind': 1}}
+   join/stats/11281.json bytes
+   join/units/11182.tsv.gz {'rows': [6238, 6238], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 4}}
+   join/units/11281.tsv.gz {'rows': [9344, 9345], 'added_cols': [], 'dropped_cols': []}
+   join/units/3349.tsv.gz {'rows': [14150, 14150], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 9}}
+   join/units/3350.tsv.gz {'rows': [11996, 11996], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 2}}
+   join/units/3352.tsv.gz {'rows': [13357, 13357], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 4}}
+   join/units/3353.tsv.gz {'rows': [12614, 12614], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 1}}
+   join/units/3823.tsv.gz {'rows': [19832, 19832], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 6}}
+   types/params.json bytes
+   types/regions/11182.tsv.gz {'rows': [5477, 5477], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_counts': 4}}
+   types/regions/11281.tsv.gz {'rows': [7930, 7930], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_counts': 8}}
+   types/regions/3349.tsv.gz {'rows': [12096, 12096], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_counts': 9}}
+   types/regions/3350.tsv.gz {'rows': [9727, 9727], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'region_type': 1, 'type_counts': 2}}
+   types/regions/3352.tsv.gz {'rows': [11152, 11152], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_counts': 4}}
+   types/regions/3353.tsv.gz {'rows': [10600, 10600], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_counts': 1}}
+   types/regions/3823.tsv.gz {'rows': [16775, 16775], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'region_type': 1, 'type_counts': 6}}
+   types/segments/11182.tsv.gz {'rows': [57949, 57949], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'line_type': 4, 'type_method': 7}}
+   types/segments/11281.tsv.gz {'rows': [78096, 78096], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'line_type': 8, 'type_method': 17}}
+   types/segments/3349.tsv.gz {'rows': [92776, 92776], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'line_type': 9, 'type_method': 9}}
+   types/segments/3350.tsv.gz {'rows': [85687, 85687], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'line_type': 2, 'type_method': 2}}
+   types/segments/3351.tsv.gz {'rows': [12758, 12758], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_method': 6}}
+   types/segments/3352.tsv.gz {'rows': [97587, 97587], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'line_type': 4, 'type_method': 5}}
+   types/segments/3353.tsv.gz {'rows': [85783, 85783], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'line_type': 1, 'type_method': 2}}
+   types/segments/3354.tsv.gz {'rows': [11318, 11318], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_method': 4}}
+   types/segments/3771.tsv.gz {'rows': [136435, 136435], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_method': 47}}
+   types/segments/3772.tsv.gz {'rows': [141510, 141510], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_method': 13}}
+   types/segments/3773.tsv.gz {'rows': [145262, 145262], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_method': 15}}
+   types/segments/3821.tsv.gz {'rows': [116609, 116609], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_method': 21}}
+   types/segments/3822.tsv.gz {'rows': [121894, 121894], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'type_method': 12}}
+   types/segments/3823.tsv.gz {'rows': [118421, 118421], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'line_type': 6, 'type_method': 58}}
+   types/stats.json bytes
+   units/doc_id_map/11281.tsv.gz {'rows': [9365, 9366], 'added_cols': [], 'dropped_cols': []}
+   units/segments/11281.tsv.gz {'rows': [78096, 78096], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_id': 2, 'seg_order': 1}}
+   units/stats.json bytes
+   units/units/11182.tsv.gz {'rows': [6238, 6238], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 4}}
+   units/units/11281.tsv.gz {'rows': [9344, 9345], 'added_cols': [], 'dropped_cols': []}
+   units/units/3349.tsv.gz {'rows': [14150, 14150], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 9}}
+   units/units/3350.tsv.gz {'rows': [11996, 11996], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 2}}
+   units/units/3352.tsv.gz {'rows': [13357, 13357], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 4}}
+   units/units/3353.tsv.gz {'rows': [12614, 12614], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 1}}
+   units/units/3823.tsv.gz {'rows': [19832, 19832], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 6}}
+== print: 34 equal, 17 differ, 0 missing
+   join/segments/456.tsv.gz {'rows': [174430, 174430], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_id': 2, 'seg_order': 1, 'char_start': 1, 'char_end': 1, 'boundary_kind': 1}}
+   join/stats/456.json bytes
+   join/units/455.tsv.gz {'rows': [27956, 27956], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 197}}
+   join/units/456.tsv.gz {'rows': [24515, 24514], 'added_cols': [], 'dropped_cols': []}
+   types/params.json bytes
+   types/regions/455.tsv.gz {'rows': [8696, 8696], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'region_type': 196, 'type_counts': 197}}
+   types/regions/456.tsv.gz {'rows': [4723, 4723], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'region_type': 31, 'type_counts': 171}}
+   types/segments/455.tsv.gz {'rows': [173475, 173475], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'line_type': 197, 'type_method': 4}}
+   types/segments/456.tsv.gz {'rows': [174430, 174430], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'line_type': 173, 'type_method': 3}}
+   types/stats.json bytes
+   units/doc_id_map/456.tsv.gz {'rows': [24633, 24632], 'added_cols': [], 'dropped_cols': []}
+   units/republic_lines/455.tsv.gz {'rows': [29148, 29148], 'added_cols': ['role'], 'dropped_cols': [], 'cols_differing_rows': {'line_id': 135}}
+   units/republic_lines/456.tsv.gz {'rows': [34588, 34588], 'added_cols': ['role'], 'dropped_cols': [], 'cols_differing_rows': {'line_id': 378}}
+   units/segments/456.tsv.gz {'rows': [174430, 174430], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_id': 2, 'seg_order': 1}}
+   units/stats.json bytes
+   units/units/455.tsv.gz {'rows': [27956, 27956], 'added_cols': [], 'dropped_cols': [], 'cols_differing_rows': {'unit_type': 197}}
+   units/units/456.tsv.gz {'rows': [24515, 24514], 'added_cols': [], 'dropped_cols': []}

@@ -1,0 +1,80 @@
+1. print 455 NL-HaNA_1.10.94_455_0313 NL-HaNA_1.10.94_455_0313-text_region-3280-3090-624-224 len 139->139 ops=2
+  A: 'zijnde, is goetgevonden en verstaen, dat een PasKeyserlijcke'
+  C: 'Keyserlijcke Majesteyt. Waer op gedelibereert zijnde, is goe'
+  edits: [('insert', '', 'Keyserlijcke Majesteyt. Waer op gedelibereert '), ('delete', 'Keyserlijcke Majesteyt. Waer op gedelibereert ', '')]
+2. print 455 NL-HaNA_1.10.94_455_0272 NL-HaNA_1.10.94_455_0272-text_region-3259-947-928-650 len 577->576 ops=1
+  A: ', geschreven alhier in den Hage den tienJden deser, presenterende daer nevens aen haer Mogende een s'
+  C: ', geschreven alhier in den Hage den tienden deser, presenterende daer nevens aen haer Mogende een so'
+  edits: [('delete', 'J', '')]
+3. print 456 NL-HaNA_1.10.94_456_0006 NL-HaNA_1.10.94_456_0006-text_region-510-535-938-202 len 87->87 ops=2
+  A: 'en Aert Swaens, pag. 523 301, 588. OUndatien van den Heer va'
+  C: 'OUndatien van den Heer van Grinsven en Aert Swaens, pag. 523'
+  edits: [('delete', 'en Aert Swaens, pag. 523 301, 588. ', ''), ('insert', '', 'en Aert Swaens, pag. 523 301, 588. ')]
+4. print 455 NL-HaNA_1.10.94_455_0147 NL-HaNA_1.10.94_455_0147-text_region-3305-288-941-3003 len 950->949 ops=1
+  A: "enen en Regeerders van Varckenswaart, geJlegen in 't Quartier van Kempelandt, Meyerye Jvan 's Hertog"
+  C: "enen en Regeerders van Varckenswaart, gelegen in 't Quartier van Kempelandt, Meyerye Jvan 's Hertoge"
+  edits: [('delete', 'J', '')]
+5. print 455 NL-HaNA_1.10.94_455_0419 NL-HaNA_1.10.94_455_0419-text_region-1356-373-943-2946 len 1447->1440 ops=7
+  A: 'ier Kints, Koopman en Fectoor van de PlaJtiel-backers Aerde, woonende tot Delt, houJdende, dat hy Su'
+  C: 'ier Kints, Koopman en Fectoor van de Platiel-backers Aerde, woonende tot Delt, houdende, dat hy Supp'
+  edits: [('delete', 'J', ''), ('delete', 'J', ''), ('delete', 'J', ''), ('delete', 'J', '')]
+6. print 456 NL-HaNA_1.10.94_456_0130 NL-HaNA_1.10.94_456_0130-text_region-478-371-941-938 len 166->170 ops=1
+  A: 'Heemskerck, Bors van Waveren, de Lange, Backer, Raedt-Pensio'
+  C: 'een Heemskerck, Bors van Waveren, de Lange, Backer, Raedt-Pe'
+  edits: [('insert', '', 'een ')]
+7. print 455 NL-HaNA_1.10.94_455_0369 NL-HaNA_1.10.94_455_0369-text_region-1269-315-966-2954 len 1372->1371 ops=1
+  A: 'met den vijfden Mey lestleden, en het anJdere, om directensonderoverscheepingeeenSchp met Steen gela'
+  C: 'met den vijfden Mey lestleden, en het andere, om directensonderoverscheepingeeenSchp met Steen gelad'
+  edits: [('delete', 'J', '')]
+8. print 456 NL-HaNA_1.10.94_456_0251 NL-HaNA_1.10.94_456_0251-text_region-394-278-1008-2999 len 1029->1035 ops=1
+  A: 'alles alhier ter Vergaderinge rapport te'
+  C: 'alles alhier ter Vergaderinge rapport te doen.'
+  edits: [('insert', '', ' doen.')]
+9. print 455 NL-HaNA_1.10.94_455_0247 NL-HaNA_1.10.94_455_0247-text_region-3298-315-917-309 len 240->239 ops=1
+  A: 'evonden ende verstaen, dat degerequireerJde Pasporten van sijneC. F. D. vande Paltz, en van de Kleef'
+  C: 'evonden ende verstaen, dat degerequireerde Pasporten van sijneC. F. D. vande Paltz, en van de Kleefs'
+  edits: [('delete', 'J', '')]
+10. print 455 NL-HaNA_1.10.94_455_0462 NL-HaNA_1.10.94_455_0462-text_region-1331-1911-894-1195 len 1133->1131 ops=2
+  A: 'te dragen, dat hem Commandant laetst uyt vande Kerckpoortaldaer waskomen terijdenom na den Officier '
+  C: 'te dragen, dat hem Commandant laetst uyt JMoeurs was geschreven enbekendt gemaeckt, dat Jeen Lieuten'
+  edits: [('insert', '', ' JMoeurs was geschreven enbekendt gemaeckt, dat Jeen Lieutenant van de Koninghl. Pruyssische MiliVtie, in de Graefschap leggende, metnocheenRuyVter bysich, op den sestienden deservoor de Barriere'), ('delete', ' JMoeurs was geschreven enbekendt gemaeckt, dat Vter bysich, op den sestienden deservoor de Barriere Jeen Lieutenant van de Koninghl. Pruyssische MiliVtie, in de Graefschap leggende, metnocheenRuy-', '')]
+11. print 455 NL-HaNA_1.10.94_455_0162 NL-HaNA_1.10.94_455_0162-text_region-1381-2504-895-801 len 760->759 ops=1
+  A: ' van 500000. gelijcke guldens tot hetselJde employisgoetgevonden en verstaen te consene Vren in het '
+  C: ' van 500000. gelijcke guldens tot hetselde employisgoetgevonden en verstaen te consene Vren in het s'
+  edits: [('delete', 'J', '')]
+12. print 455 NL-HaNA_1.10.94_455_0627 NL-HaNA_1.10.94_455_0627-text_region-1385-2421-905-726 len 651->650 ops=1
+  A: 'ert veertigh ponden Vlaems, makendete saJmen vier hondert veertigh ponden Vlaems, of twee Jduysendt '
+  C: 'ert veertigh ponden Vlaems, makendete samen vier hondert veertigh ponden Vlaems, of twee Jduysendt s'
+  edits: [('delete', 'J', '')]
+13. print 455 NL-HaNA_1.10.94_455_0196 NL-HaNA_1.10.94_455_0196-text_region-3232-335-951-2977 len 1114->1111 ops=3
+  A: 'dequelques Pistolets, Carabines, & platiJnes, appartenantes a Laurent, & Henry le Comte Marchands Bo'
+  C: 'dequelques Pistolets, Carabines, & platines, appartenantes a Laurent, & Henry le Comte Marchands Bou'
+  edits: [('delete', 'J', ''), ('delete', 'J', ''), ('delete', 'J', '')]
+14. print 455 NL-HaNA_1.10.94_455_0342 NL-HaNA_1.10.94_455_0342-text_region-3200-412-967-2723 len 723->722 ops=1
+  A: 'ent, en andere haer Hoogh Mogende GedepuJteerden tot de Militaire saecken, om te visiteren, Jexamine'
+  C: 'ent, en andere haer Hoogh Mogende Gedeputeerden tot de Militaire saecken, om te visiteren, Jexaminer'
+  edits: [('delete', 'J', '')]
+15. print 455 NL-HaNA_1.10.94_455_0014 NL-HaNA_1.10.94_455_0014-text_region-1262-276-993-2983 len 1464->1463 ops=1
+  A: 'n oorlogh met neutrale Schepen voor rekeJninge van Nederlandtsche Koopluyden inde voorschreve Stadt '
+  C: 'n oorlogh met neutrale Schepen voor rekeninge van Nederlandtsche Koopluyden inde voorschreve Stadt v'
+  edits: [('delete', 'J', '')]
+16. print 455 NL-HaNA_1.10.94_455_0582 NL-HaNA_1.10.94_455_0582-text_region-3289-1222-924-748 len 681->680 ops=1
+  A: 't als tot Stockholm voornoemt. Waer opgeJdelibereert zijnde, is goetgevonden en verstaen, dat Copye '
+  C: 't als tot Stockholm voornoemt. Waer opgedelibereert zijnde, is goetgevonden en verstaen, dat Copye v'
+  edits: [('delete', 'J', '')]
+17. print 455 NL-HaNA_1.10.94_455_0684 NL-HaNA_1.10.94_455_0684-text_region-1316-362-936-2931 len 1132->1131 ops=1
+  A: 'e, beyde Proseliten, gesproten uyt consiJderable Familien in den Staet van Venetien, houdende, dat s'
+  C: 'e, beyde Proseliten, gesproten uyt considerable Familien in den Staet van Venetien, houdende, dat sy'
+  edits: [('delete', 'J', '')]
+18. print 455 NL-HaNA_1.10.94_455_0240 NL-HaNA_1.10.94_455_0240-text_region-3206-1002-919-338 len 283->282 ops=1
+  A: 'n Gent, ende andere haer Hoogh MogendeGeJdeputeerdentot de Militairesaecken, om te visi. teren, exam'
+  C: 'n Gent, ende andere haer Hoogh MogendeGedeputeerdentot de Militairesaecken, om te visi. teren, exami'
+  edits: [('delete', 'J', '')]
+19. print 455 NL-HaNA_1.10.94_455_0195 NL-HaNA_1.10.94_455_0195-text_region-2628-392-626-398 len 142->140 ops=2
+  A: 'gedragen ende geurgeert, dat de Commissie van Gedeputeerdete'
+  C: 'Utrecht hebben ter Vergaderinge nochmaels voorgedragen ende '
+  edits: [('insert', '', 'Utrecht hebben ter Vergaderinge nochmaels voor'), ('delete', ' Utrecht hebben ter Vergaderinge nochmaels voor-', '')]
+20. print 456 NL-HaNA_1.10.94_456_0472 NL-HaNA_1.10.94_456_0472-text_region-423-263-1082-2998 len 1263->1277 ops=1
+  A: ' der selver advis daer op te laten toeko-'
+  C: ' der selver advis daer op te laten toekomen. ae ohan g-'
+  edits: [('insert', '', 'men. ae ohan g')]

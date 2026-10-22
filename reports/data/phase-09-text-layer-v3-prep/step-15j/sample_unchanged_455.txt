@@ -1,0 +1,256 @@
+=== 455 NL-HaNA_1.10.94_455_0066 NL-HaNA_1.10.94_455_0066-text_region-474-2668-894-572 n_lines=8 n_moved=7 window=0:8
+  OLD
+     2740.0 x=  927  4-86315c84b0b3  1. de Selys.
+     2789.4 x=  927  e-14763a05748b  LeBarond Horion.
+     3034.0 x=  487  6-8261b70939d1  OOr le premier article il est a consiule
+     3082.5 x=  454  8-34c571fd5ac5  U treles avantages que les Troupes que l
+     3128.8 x=  525  2-3581579b48af  tes Puissances ont de quartier d'Hyver d
+     3182.5 x=  450  9-d59e071a6446  Ville & Pais de Liege leurs Hautes Puiss
+     2696.7 x=  854  6-15dbca586952  Signé.
+     3228.8 x=  453  6-32322edcd65a  des revenues de la table Epissopale; qu‛
+  NEW
+     2696.7 x=  854  6-15dbca586952  Signé.
+     2740.0 x=  927  4-86315c84b0b3  1. de Selys.
+     2789.4 x=  927  e-14763a05748b  LeBarond Horion.
+     3034.0 x=  487  6-8261b70939d1  OOr le premier article il est a consiule
+     3082.5 x=  454  8-34c571fd5ac5  U treles avantages que les Troupes que l
+     3128.8 x=  525  2-3581579b48af  tes Puissances ont de quartier d'Hyver d
+     3182.5 x=  450  9-d59e071a6446  Ville & Pais de Liege leurs Hautes Puiss
+     3228.8 x=  453  6-32322edcd65a  des revenues de la table Epissopale; qu‛
+=== 455 NL-HaNA_1.10.94_455_0570 NL-HaNA_1.10.94_455_0570-text_region-3595-566-644-1441 n_lines=5 n_moved=5 window=0:5
+  OLD
+      838.5 x= 3593  2-602e5295707a  Accordeertmetde voorsz Reso-
+      885.7 x= 3627  7-0b60dd23837b  lutien.
+      937.5 x= 3771  e-bf2a04c80caf  Getekent,
+      989.0 x= 3872  e-2ba5620c856c  P. Voet van Winssen.
+      786.7 x= 3468  2-03395e832703  Onderstondt,
+  NEW
+      786.7 x= 3468  2-03395e832703  Onderstondt,
+      838.5 x= 3593  2-602e5295707a  Accordeertmetde voorsz Reso-
+      885.7 x= 3627  7-0b60dd23837b  lutien.
+      937.5 x= 3771  e-bf2a04c80caf  Getekent,
+      989.0 x= 3872  e-2ba5620c856c  P. Voet van Winssen.
+=== 455 NL-HaNA_1.10.94_455_0180 NL-HaNA_1.10.94_455_0180-text_region-3524-3047-640-270 n_lines=3 n_moved=2 window=0:3
+  OLD
+     3262.4 x= 3388  b-a9e11bda5091  Ontfangen een Missive van den Raedt van 
+     3170.4 x= 3344  8-dec789833fa8  van dien alle nader soude konnen werden 
+     3314.0 x= 3338  c-ad8f268c93cd  Jte, geschreven alhier in den Hage den s
+  NEW
+     3170.4 x= 3344  8-dec789833fa8  van dien alle nader soude konnen werden 
+     3262.4 x= 3388  b-a9e11bda5091  Ontfangen een Missive van den Raedt van 
+     3314.0 x= 3338  c-ad8f268c93cd  Jte, geschreven alhier in den Hage den s
+=== 455 NL-HaNA_1.10.94_455_0317 NL-HaNA_1.10.94_455_0317-text_region-2393-460-850-1905 n_lines=6 n_moved=3 window=2:6
+  OLD
+     1081.8 x= 2387  2-4606e6a0d06d  sy naer bevind van saecken sal oordeelen
+     1180.0 x= 2421  7-76fea630f1e9  Is gehoort het rapport van de Heeren van
+     1225.8 x= 2385  d-f33e92ab62cd  ende andere haer Hoogh Mogende Gedeputee
+     1132.3 x= 2388  0-e8425c166de7  ren.
+  NEW
+     1081.8 x= 2387  2-4606e6a0d06d  sy naer bevind van saecken sal oordeelen
+     1132.3 x= 2388  0-e8425c166de7  ren.
+     1180.0 x= 2421  7-76fea630f1e9  Is gehoort het rapport van de Heeren van
+     1225.8 x= 2385  d-f33e92ab62cd  ende andere haer Hoogh Mogende Gedeputee
+=== 455 NL-HaNA_1.10.94_455_0702 NL-HaNA_1.10.94_455_0702-text_region-1448-384-808-1186 n_lines=22 n_moved=19 window=2:16
+  OLD
+      594.8 x= 1415  6-d6a7b5a8ec24  hetvoorschreve Schip ende Ladinge, endea
+     1075.0 x= 1416  e-39c5d7ab6a31  sormatie ende bewijs van het voorschreve
+     1411.0 x= 1410  9-bb623022ad8e  queste gesteldt sal werden in handen van
+     1507.5 x= 1418  5-1ce946b1a865  Moghende Gedeputeerden tot de saecken va
+      643.2 x= 1413  9-a240012a59c5  proceduren niet voort te gaen, maer diet
+      690.7 x= 1416  4-dca97adb0017  surcheren, in gevolge van haer Hoogh Mog
+      786.0 x= 1417  c-01ac4f6b5965  minsten voor den tijdt van noch vier wee
+      884.5 x= 1414  1-7398722e8d98  per John Bont, die in Vranckrijck is gev
+     1027.5 x= 1416  3-04213df6ccdb  hier soude wesen gearriveert, die volkom
+     1218.8 x= 1414  2-fe9f6f06872f  genoegen ende satissactie van de Herneem
+     1458.6 x= 1415  c-f01882163765  Heeren van Gent, ende andere haer Hoogh
+      740.0 x= 1420  f-8beedaa6eb89  Resolutie van den eersten October laetst
+      835.2 x= 1417  d-71577c4116fc  immers soolangetot dat den voornoemden S
+      932.3 x= 1414  7-58be0885570c  gehouden geweest, nu eyndelijck was onts
+  NEW
+      594.8 x= 1415  6-d6a7b5a8ec24  hetvoorschreve Schip ende Ladinge, endea
+      643.2 x= 1413  9-a240012a59c5  proceduren niet voort te gaen, maer diet
+      690.7 x= 1416  4-dca97adb0017  surcheren, in gevolge van haer Hoogh Mog
+      740.0 x= 1420  f-8beedaa6eb89  Resolutie van den eersten October laetst
+      786.0 x= 1417  c-01ac4f6b5965  minsten voor den tijdt van noch vier wee
+      835.2 x= 1417  d-71577c4116fc  immers soolangetot dat den voornoemden S
+      884.5 x= 1414  1-7398722e8d98  per John Bont, die in Vranckrijck is gev
+      932.3 x= 1414  7-58be0885570c  gehouden geweest, nu eyndelijck was onts
+      979.8 x= 1418  6-f8c0c49d6ed2  en inweynigh tijdt stont herwaerts te ko
+     1027.5 x= 1416  3-04213df6ccdb  hier soude wesen gearriveert, die volkom
+     1075.0 x= 1416  e-39c5d7ab6a31  sormatie ende bewijs van het voorschreve
+     1123.0 x= 1416  2-3b96730e67d1  ende Ladinge, midtsgaders van het nemen 
+     1169.8 x= 1417  b-7b26da31ac1a  hernemen van het selve soude konnen geve
+     1218.8 x= 1414  2-fe9f6f06872f  genoegen ende satissactie van de Herneem
+=== 455 NL-HaNA_1.10.94_455_0519 NL-HaNA_1.10.94_455_0519-text_region-640-2603-672-662 n_lines=7 n_moved=6 window=0:7
+  OLD
+     2933.7 x=  568  1-28896e3db294  Onder stondt,
+     2978.7 x=  730  8-a6b7afd2d7a2  Acordeertmet devoorz Re
+     3028.3 x=  777  c-7e439325b086  solutien.
+     3075.0 x=  879  8-ce879d051f93  Getekent,
+     3121.0 x=  955  b-5122face2bdb  P. Voer van Winssen.
+     2834.3 x=  414  1-821f3a91a240  re van den Ontfanger Generael te werden 
+     3218.8 x=  421  5-27e33036011e  Waerop gedelibereert zijnde, is goetgevo
+  NEW
+     2834.3 x=  414  1-821f3a91a240  re van den Ontfanger Generael te werden 
+     2933.7 x=  568  1-28896e3db294  Onder stondt,
+     2978.7 x=  730  8-a6b7afd2d7a2  Acordeertmet devoorz Re
+     3028.3 x=  777  c-7e439325b086  solutien.
+     3075.0 x=  879  8-ce879d051f93  Getekent,
+     3121.0 x=  955  b-5122face2bdb  P. Voer van Winssen.
+     3218.8 x=  421  5-27e33036011e  Waerop gedelibereert zijnde, is goetgevo
+=== 455 NL-HaNA_1.10.94_455_0585 NL-HaNA_1.10.94_455_0585-text_region-2532-372-664-198 n_lines=2 n_moved=2 window=0:2
+  OLD
+      495.0 x= 2377  4-596f87af5c2f  en insonderheyt door de soo genaemde Par
+      445.6 x= 2379  7-3868819a72e8  qualijck gehandelt door de Vyandtlijcke 
+  NEW
+      445.6 x= 2379  7-3868819a72e8  qualijck gehandelt door de Vyandtlijcke 
+      495.0 x= 2377  4-596f87af5c2f  en insonderheyt door de soo genaemde Par
+=== 455 NL-HaNA_1.10.94_455_0325 NL-HaNA_1.10.94_455_0325-text_region-408-332-556-328 n_lines=5 n_moved=5 window=0:5
+  OLD
+      401.8 x=  416  3-7d51fecb8294  gens het leveren van nodige
+      448.3 x=  416  f-da3fe5316307  Materialen aen des Polders
+      498.2 x=  417  0-02581eed13d9  Sluysen, als andersints cir-
+      548.5 x=  417  2-a1e3c9ef212b  cum circa, eene somme
+      357.7 x=  368  3-bff59437be87  Den 9. Junii.
+  NEW
+      357.7 x=  368  3-bff59437be87  Den 9. Junii.
+      401.8 x=  416  3-7d51fecb8294  gens het leveren van nodige
+      448.3 x=  416  f-da3fe5316307  Materialen aen des Polders
+      498.2 x=  417  0-02581eed13d9  Sluysen, als andersints cir-
+      548.5 x=  417  2-a1e3c9ef212b  cum circa, eene somme
+=== 455 NL-HaNA_1.10.94_455_0292 NL-HaNA_1.10.94_455_0292-text_region-426-340-884-2913 n_lines=56 n_moved=16 window=39:53
+  OLD
+     2334.2 x=  410  7-cfca340c02d4  neren, en van alles alhier ter Vergaderi
+     2430.0 x=  465  f-34d3122f86b7  Is ter Vergaderinge gelesen de Requeste 
+     2478.0 x=  413  7-4a9e96cf2d47  Bernard Besier, Predikant tot Philippine
+     2527.2 x=  412  1-0425bba844d2  soeckende, om redenen inde voorschreve R
+     2576.0 x=  413  4-f394dacaacfe  geëxprimeert, dat haer Hoogh Mogendegeli
+     2624.8 x=  411  f-9dab71248bdd  den Suppliant te authoriserenen te permi
+     2673.1 x=  415  6-2911c034d188  sijn dienst als vooren in degemeente van
+     2720.2 x=  418  7-02ca78cd2230  te mogen waernemen, immers en in allen g
+     2769.3 x=  415  b-6e46cef91261  tertijdt en wylen dat sijne saecke by ee
+     2819.5 x=  416  6-f50cc794adad  eenbevredelijcke wyse wierde geurgeert e
+     2865.5 x=  414  5-8d76e9cf4f7f  daen, dewyle hy Suppliant hebbende gepro
+     2913.6 x=  417  1-5a7cdb3b8c3c  ceert vande gantschenullesententie van't
+     2962.8 x=  417  4-bb7d4ff31ab1  qualificatum van Philippine, hy Supplian
+     3009.5 x=  418  8-e057ff631920  ve noch moeste werden geconsidereert buy
+  NEW
+     2334.2 x=  410  7-cfca340c02d4  neren, en van alles alhier ter Vergaderi
+     2383.0 x=  411  c-60e8babfec3a  doen.
+     2430.0 x=  465  f-34d3122f86b7  Is ter Vergaderinge gelesen de Requeste 
+     2478.0 x=  413  7-4a9e96cf2d47  Bernard Besier, Predikant tot Philippine
+     2527.2 x=  412  1-0425bba844d2  soeckende, om redenen inde voorschreve R
+     2576.0 x=  413  4-f394dacaacfe  geëxprimeert, dat haer Hoogh Mogendegeli
+     2624.8 x=  411  f-9dab71248bdd  den Suppliant te authoriserenen te permi
+     2673.1 x=  415  6-2911c034d188  sijn dienst als vooren in degemeente van
+     2720.2 x=  418  7-02ca78cd2230  te mogen waernemen, immers en in allen g
+     2769.3 x=  415  b-6e46cef91261  tertijdt en wylen dat sijne saecke by ee
+     2819.5 x=  416  6-f50cc794adad  eenbevredelijcke wyse wierde geurgeert e
+     2865.5 x=  414  5-8d76e9cf4f7f  daen, dewyle hy Suppliant hebbende gepro
+     2913.6 x=  417  1-5a7cdb3b8c3c  ceert vande gantschenullesententie van't
+     2962.8 x=  417  4-bb7d4ff31ab1  qualificatum van Philippine, hy Supplian
+=== 455 NL-HaNA_1.10.94_455_0689 NL-HaNA_1.10.94_455_0689-text_region-548-300-856-126 n_lines=3 n_moved=2 window=0:3
+  OLD
+      324.6 x= 1270  e-318e4a4e31bd  ( 1360 )
+      334.5 x=  462  7-c0da10bef513  Den 15. December.
+      377.7 x=  465  e-abd8ea17485f  gende de voorschreve Memorie hier naer g
+  NEW
+      334.5 x=  462  7-c0da10bef513  Den 15. December.
+      324.6 x= 1270  e-318e4a4e31bd  ( 1360 )
+      377.7 x=  465  e-abd8ea17485f  gende de voorschreve Memorie hier naer g
+=== 455 NL-HaNA_1.10.94_455_0572 NL-HaNA_1.10.94_455_0572-text_region-2620-876-716-542 n_lines=5 n_moved=4 window=0:5
+  OLD
+     1057.2 x= 2678  9-3c5df6242ca8  Extract uyt de Notulen vande
+     1109.2 x= 2746  f-0f90d93b263b  Edele Mog. Heeren S. aten van
+     1152.8 x= 2743  e-42430fe33ba1  Zeelandt.
+      904.3 x= 2451  9-cea8afda0029  van Obdam, volgende de voorschrere Resol
+     1252.5 x= 2672  2-3adc9d7d8974  Den 11. October 1703.
+  NEW
+      904.3 x= 2451  9-cea8afda0029  van Obdam, volgende de voorschrere Resol
+     1057.2 x= 2678  9-3c5df6242ca8  Extract uyt de Notulen vande
+     1109.2 x= 2746  f-0f90d93b263b  Edele Mog. Heeren S. aten van
+     1152.8 x= 2743  e-42430fe33ba1  Zeelandt.
+     1252.5 x= 2672  2-3adc9d7d8974  Den 11. October 1703.
+=== 455 NL-HaNA_1.10.94_455_0120 NL-HaNA_1.10.94_455_0120-text_region-386-352-890-1018 n_lines=13 n_moved=2 window=10:13
+  OLD
+      971.0 x=  397  2-a2e716409cc2  van den Staet, volgende de voorschreve R
+     1321.3 x=  657  9-92fc1528e8f0  men op
+     1025.5 x=  396  8-adc1807183bd  hiernageinsereert.
+  NEW
+      971.0 x=  397  2-a2e716409cc2  van den Staet, volgende de voorschreve R
+     1025.5 x=  396  8-adc1807183bd  hiernageinsereert.
+     1321.3 x=  657  9-92fc1528e8f0  men op
+=== 455 NL-HaNA_1.10.94_455_0710 NL-HaNA_1.10.94_455_0710-text_region-638-2879-784-416 n_lines=3 n_moved=2 window=0:3
+  OLD
+     3237.8 x=  508  c-8600aa2217d8  daen, dat tot ke nisse van haer Hoogh Mo
+     3185.0 x=  507  6-65bc53908332  een provisioneele Waerschouwingesalwerde
+     3282.8 x=  509  9-677c90c53e7b  gekomen zijnde, dat men in Duytslandt ze
+  NEW
+     3185.0 x=  507  6-65bc53908332  een provisioneele Waerschouwingesalwerde
+     3237.8 x=  508  c-8600aa2217d8  daen, dat tot ke nisse van haer Hoogh Mo
+     3282.8 x=  509  9-677c90c53e7b  gekomen zijnde, dat men in Duytslandt ze
+=== 455 NL-HaNA_1.10.94_455_0697 NL-HaNA_1.10.94_455_0697-text_region-4277-1444-42-104 n_lines=2 n_moved=2 window=0:2
+  OLD
+     1474.5 x= 4295  e-d2c4d689321f  0
+     1478.0 x= 4244  e-04144bf57662  2
+  NEW
+     1478.0 x= 4244  e-04144bf57662  2
+     1474.5 x= 4295  e-d2c4d689321f  0
+=== 455 NL-HaNA_1.10.94_455_0313 NL-HaNA_1.10.94_455_0313-text_region-3280-3090-624-224 n_lines=3 n_moved=2 window=0:3
+  OLD
+     3256.1 x= 3269  0-ecf9d5d31bcc  zijnde, is goetgevonden en verstaen, dat
+     3207.6 x= 3273  c-3436e87c0168  Keyserlijcke Majesteyt. Waer op gedelibe
+     3307.8 x= 3266  c-507ac423a8bd  port in behoorlijcke forma sal werden ge
+  NEW
+     3207.6 x= 3273  c-3436e87c0168  Keyserlijcke Majesteyt. Waer op gedelibe
+     3256.1 x= 3269  0-ecf9d5d31bcc  zijnde, is goetgevonden en verstaen, dat
+     3307.8 x= 3266  c-507ac423a8bd  port in behoorlijcke forma sal werden ge
+=== 455 NL-HaNA_1.10.94_455_0223 NL-HaNA_1.10.94_455_0223-text_region-834-354-472-198 n_lines=2 n_moved=2 window=0:2
+  OLD
+      465.3 x=  773  f-560db9eb1acc  pour les pouvoir plus ai
+      410.7 x=  772  e-26237fa6d497  nées soient accordees,
+  NEW
+      410.7 x=  772  e-26237fa6d497  nées soient accordees,
+      465.3 x=  773  f-560db9eb1acc  pour les pouvoir plus ai
+=== 455 NL-HaNA_1.10.94_455_0350 NL-HaNA_1.10.94_455_0350-text_region-1366-2864-438-362 n_lines=3 n_moved=2 window=0:3
+  OLD
+     3120.3 x= 1348  f-4963fa0c08b2  Vven.
+     3060.8 x= 1349  b-70cdbcb65f78  Steden, E. Frieswijck. Theunis Bors van 
+     3211.4 x= 1353  b-248a849f72f4  Waer op geen resolutie is gevallen.
+  NEW
+     3060.8 x= 1349  b-70cdbcb65f78  Steden, E. Frieswijck. Theunis Bors van 
+     3120.3 x= 1348  f-4963fa0c08b2  Vven.
+     3211.4 x= 1353  b-248a849f72f4  Waer op geen resolutie is gevallen.
+=== 455 NL-HaNA_1.10.94_455_0126 NL-HaNA_1.10.94_455_0126-text_region-408-540-898-2761 n_lines=7 n_moved=3 window=3:7
+  OLD
+     3102.5 x=  413  9-15806d577e2f  laten toekomen.
+     3191.6 x=  410  5-dbdeba4a30ef  vande Regenten der drie Landen van over 
+     3241.8 x=  409  3-4aa51e0c0fc9  Partage van haer Hoogh Mogende, houdende
+     3142.3 x=  459  1-5231a95f044d  Is ter Vergaderinge gelesen dendere Requ
+  NEW
+     3102.5 x=  413  9-15806d577e2f  laten toekomen.
+     3142.3 x=  459  1-5231a95f044d  Is ter Vergaderinge gelesen dendere Requ
+     3191.6 x=  410  5-dbdeba4a30ef  vande Regenten der drie Landen van over 
+     3241.8 x=  409  3-4aa51e0c0fc9  Partage van haer Hoogh Mogende, houdende
+=== 455 NL-HaNA_1.10.94_455_0600 NL-HaNA_1.10.94_455_0600-text_region-1370-2813-780-422 n_lines=4 n_moved=2 window=0:4
+  OLD
+     3053.8 x= 1357  0-fa35d5cc11a6  Pasport gratis aen den Suppliant sal wer
+     3146.8 x= 1397  f-33265127bf6b  Is ter Vergaderinge gelesen de Requeste 
+     3129.3 x= 1355  b-0d0eee36a6c5  tradeert.
+     3202.7 x= 1348  f-662e74296c52  VPrancois Smits, houdende, dat hy Suppli
+  NEW
+     3053.8 x= 1357  0-fa35d5cc11a6  Pasport gratis aen den Suppliant sal wer
+     3129.3 x= 1355  b-0d0eee36a6c5  tradeert.
+     3146.8 x= 1397  f-33265127bf6b  Is ter Vergaderinge gelesen de Requeste 
+     3202.7 x= 1348  f-662e74296c52  VPrancois Smits, houdende, dat hy Suppli
+=== 455 NL-HaNA_1.10.94_455_0026 NL-HaNA_1.10.94_455_0026-text_region-2449-1762-870-995 n_lines=18 n_moved=2 window=7:11
+  OLD
+     2097.7 x= 2433  6-6cf61516e44b  dit Articulteceste.
+     2139.2 x= 2788  2-1588eaa0fd1a  November, ende sulcks
+     2142.3 x= 2438  5-30f0a4f0591d  ren.
+     2193.8 x= 2788  a-98fef3e8a88a  van den dagh, dat de
+  NEW
+     2097.7 x= 2433  6-6cf61516e44b  dit Articulteceste.
+     2142.3 x= 2438  5-30f0a4f0591d  ren.
+     2139.2 x= 2788  2-1588eaa0fd1a  November, ende sulcks
+     2193.8 x= 2788  a-98fef3e8a88a  van den dagh, dat de

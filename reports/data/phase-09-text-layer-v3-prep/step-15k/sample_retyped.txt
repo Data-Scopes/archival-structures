@@ -1,0 +1,22 @@
+## year 37
+  	hand	3823	3823_0224	recto	1765	
+  	hand	3823	3823_0110	verso	1768.	( 48 )
+  	hand	3350	3350_0180	recto	1703.	143.
+  	hand	3352	3352_0481	verso	1704.	
+  	hand	3823	3823_0129	verso	1768.	( 86 )
+  	hand	11182	1182_0465	recto	1687.	
+  	hand	11281	1281_0080	verso	1718.	
+  	hand	11281	1281_0053	recto	1718	
+  	hand	3349	3349_0142	verso	1703.	
+  	print	455	_455_0282	verso	1702.	(546 )
+## print-band 367
+  	print	456	_456_0509	recto	111	( 1001 )
+  	print	455	_455_0004	verso	19.	
+  	print	455	_455_0597	recto	130	( 1177 )
+  	print	455	_455_0541	recto	120	( 1065 )
+  	print	455	_455_0691	recto	151	( 1365 )
+  	print	455	_455_0413	recto	91	( 809 )
+  	print	455	_455_0579	recto	121	( 1141 )
+  	print	456	_456_0666	recto	361.	( 1315 )
+  	print	455	_455_0247	recto	52	( 477 )
+  	print	456	_456_0504	recto	1	

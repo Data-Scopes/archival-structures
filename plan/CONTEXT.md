@@ -4,48 +4,44 @@
 > Implementation sessions do not read it: a brief copies in the facts it needs from here. Each phase
 > review updates it, so briefs start from the code as it is, not as it was planned. Keep it under
 > ~150 lines. History belongs in the phase `PROGRESS.md` files.
-> **Last updated:** 2026-10-21, phase-08 review (Opus).
+> **Last updated:** 2026-10-22, phase-09 review (Opus).
 
-## 1. Text layer v2: what exists now (after phase 07 and 15ir)
+## 1. Text layer v2/v3: what exists now (after phase 09)
 
-- **CLI:** `.venv/bin/as-build-text-layer --preset sg_1.01.02_v2|sg_1.10.94_v2 --pagexml-dir D
-  --out-dir O --stage S`. The v2 `--stage all` runs extract (with the print splitter) → layout → types
-  → units → wbc → join; each stage also runs alone on a layer (`--layout-params`, `--types-params`,
-  `--unit-params` + `--republic-dir`; `wbc`/`join` take `--allow-subset-wbc`, `--allow-partial`,
-  `--ignore-sanity` and, for v2, no `--pagexml-dir`). CLI JSON is merged over the preset's dict
-  (`{**preset, **cli}`), so a partial JSON keeps the preset's other fields.
-- **Schema:** `docs/text_layer.md` is the contract, with sections *Layout tables*, *Type tables*,
-  units, join, manifest and *Published SG pilot*. LotA writes its own reader (D18).
+- **CLI:** `.venv/bin/as-build-text-layer --preset sg_1.01.02_v3|sg_1.10.94_v3 --pagexml-dir D
+  --out-dir O --stage all` (extract → layout → types → units → wbc → join; each stage also runs alone;
+  `--*-params` JSON is merged over the preset). **Print needs `--republic-dir`** (no default since 15k).
+- **Schema:** `docs/text_layer.md` is the contract (incl. *Text layer v3*); LotA writes its reader (D18).
 - **Presets** (`text_layer/presets.py`):
   - `SG_HAND_V2`: layout `merge=False`; `wbc_pinned` `-=„` default, `-:=„` for 11281, `-„` for
     3349–3351, 3353 and 3354;
   - `SG_PRINT_V2`: `merged_line_split="on"`, `column_override=True`, fitted `unit_params`
     (`indent_frac=0.5, short_frac=0.1, gap_factor=None`), `wbc_pinned` `-=„`;
-  - `VOC_V1`: none of the v2 fields. Its output is byte-identical to NLP's v1 (`TOTAL 157 / 157`,
-    phase-05 check, command in step 15ir).
+  - phase-09 additions are in §2; `SG_*_V3` (`sg_*_v3`) = v2 renamed `*_text_layer_v3`;
+  - `VOC_V1`: byte-identical to NLP's v1 (`TOTAL 157 / 157`, command in step 15j's brief).
 - **Layers:**
   - dev layers: `data/text_layer_v2_dev/<step>-<letter>/`, one per run, never overwritten. Sources:
     `15i-src/` (symlinks: 6 tar and 8 local hand inventories); print reads the `shared-data` zips;
-  - the published pilot is `15i-b/{hand,print}/` (v0.11.0 code), as
-    `shared-data/NL-HaNA_1.01.02/text_layer_v2/` and `NL-HaNA_1.10.94/text_layer_v2/`
-    (`coverage: partial`, with a `publication` key in `manifest.json`). It keeps the F07-R.1–R.4
-    defects, listed as *Known issues* in `docs/text_layer.md` and LotA §6 (UA-013 (a));
-  - `15ir-a/{hand,print}/` is the current code's output (dev only, never published). Compare new
-    work against it, not against `15i-b`;
+  - the published pilot `shared-data/*/text_layer_v2/` = `15i-b` (v0.11.0 code, `coverage: partial`),
+    with the F07-R.1–R.4 *Known issues* (UA-013 (a));
+  - `15m-a/{hand,print}/` (v3 presets) is the current code's output (= `15l-a`; dev only). Compare
+    new work against it; `15ir-a` is the phase-09 start;
   - never rebuild into a published dir. A new version gets a new name (D17); the full SG run is
-    `text_layer_v3`.
-- **Audit tooling:** `reports/data/phase-07-sg-units-and-pilot/step-15i/audit.py --layer <base>`
-  expects `<base>/{hand,print}/*_text_layer_v2`. `rows116.py --layer <base>` gives the 116-row
-  evidence. Both run in under 30 s.
+    `text_layer_v3`; its commands are in `docs/text_layer.md` *Text layer v3* and wait for UA-015.
+- **Audit tooling:** `reports/data/phase-09-text-layer-v3-prep/step-15m/{audit,rows116}.py --layer <base>`
+  (glob `*_text_layer_v*`; `rows116.py` needs `rows116_verdicts.tsv` beside it). Metrics:
+  `reports/data/phase-09-text-layer-v3-prep/planning/` (`order`, `pn_offchain`, `merges`, `crosswalk`,
+  `compare`, `protect`; README there).
 - **pagexml-tools:** still 0.9.0 (UA-007 waits for 0.9.1). Its traps and their workarounds are in
   F07-P.7, F07-15fp.11 and F07-P.9.
 
-## 2. Accepted deviations (phase 07): later briefs must assume these
+## 2. Accepted deviations (phases 07 and 09): later briefs must assume these
 
 **Layout** (`analysis/page_structure.py`, `text_layer/layout.py`):
-- The merge's line-sort key is (baseline mean y, box left, box top, line id).
-- `n_regions_in`/`out` count non-empty regions; openings without text get `split_method="none"`;
-  the `PageXMLPage` gets the page box as coords.
+- Line order (15j, P4): merges and column-split pieces sort by printed row (`line_sort="row"`, rows
+  within 0.2 × median box h, then x); print `unchanged` regions too (`sort_unchanged_lines`, flag
+  `lines_resorted`, ids kept, P2); hand keeps XML order. `LEGACY_15FP` keeps the baseline key.
+  26 same-row swaps remain (header rows, numeric cells; F09-15j.4).
 - The gutter rule is `auto`: `gap` when ≥ 95% of openings have a gap (3354, 3771–3823, 455, 456),
   else `main_edge` (D6).
 - **Hand runs without region merges** (`SG_HAND_V2` `merge=False`, F07-15fq.3). Hand layout regions
@@ -54,9 +50,8 @@
   default `LayoutParams()` changed in 15fq2.
 - Furniture: `page_text_bottom` is the lowest line bottom of the page. `metadata["column_split_from"]`
   is a list. `LEGACY_15FP` reproduces 15fp.
-- 15ir: column-split pieces are sorted by `_line_sort_key` (`sort_split_lines`, off in
-  `LEGACY_15FP`); unsplit (`unchanged`) regions keep XML order (130 jump in 455). The blocked counters
-  count pairs of final regions only. `gutter_rule` is validated.
+- The blocked counters count pairs of final regions only. The interleave guard is per pair and is
+  bridged in 55 print merges, on purpose (F09-P.1).
 
 **Types** (`text_layer/types.py`):
 - Segments, not lines, carry types. Only three rules split a line: `date_prefix`, `margin_prefix`
@@ -69,9 +64,10 @@
   `running_header`. `maert` is in the month list.
 - `page_w` is the scan width, not the page width.
 - 15ir: a whole date/pn/year line is never split by rule 1. `rule:pn_line` is kept only on the
-  in-chain candidate line; every other pn-shaped band line is `rule:pn_line_offchain`, but its
-  `line_type` stays `page_number` (about 90% are not page numbers, F07-15ir.6). Consumers counting
-  page numbers must read `type_method`. `TypeParams` validates `margin_cut`, `top_n`, `bottom_n`.
+  in-chain candidate line; other pn-shaped band lines are `rule:pn_line_offchain`. 15k (P6): one
+  between its neighbours' chain numbers is `rule:pn_line_gap` (`page_number`, 188); off-chain years
+  are `other`/`rule:year_offchain` (37); print bottom-band off-chain is `other` (367); hand bands and
+  print top stay `page_number` (bars missed; F09-15k.1, F09-R.5). Read `type_method` to count pages.
 
 **Units** (`text_layer/units.py`):
 - Hand units are layout regions minus furniture, cut at headers. Print units are paragraphs (any
@@ -80,11 +76,9 @@
   and layout id of a scan is reserved, and collisions get `w+1`. Since 15ir a unit holding all lines of
   a legacy region whose box it shares takes that id (`claimable`): collisions 0 everywhere in `15ir-a`.
 - `doc_id_map` covers every legacy region; empty ones get `unit_id=""` and `link=none`.
-- Crosswalk classes: `exact`, `near` (5 px), `split_original` (always the first half), `split_half`
-  (IoU ≥ 0.5, added in 15h after looking at 456) and `unmatched`.
-- The REPUBLIC paragraphs default path is LotA's `data/paragraphs/NL-HaNA_1.10.94`, hard-coded in
-  `units.py`. When the file is missing, the crosswalk is skipped with a warning, and
-  `units/params.json` records `republic_dir` (or `null`).
+- Crosswalk classes: `exact`, `near` (5 px), `split_original` (first half; last half for role `end`,
+  15k), `split_half` (IoU ≥ 0.5) and `unmatched`; column `role`. No REPUBLIC default path:
+  `--republic-dir` or no crosswalk (`republic_dir: null`). `claimable` is built per scan.
 
 **Word breaks and join** (`word_breaks.py`, `join_v2.py`, `build.py`):
 - The `„`-robust statistic exists (`word_break_stat="robust"`) but is not adopted (F07-15hj.2).
@@ -96,8 +90,10 @@
   line.text[line_offset:…]`), and `n_offset_violations` checks the full span. A merge can drop two
   trailing break chars (51 rows).
 - Manifests keep the history of each stage. The subset guard on `wbc` is on.
-- `LayerPreset.join_lead_marks` (`","` in `SG_HAND_V2`, 15ir): a `,` + letter at the start of a merged
-  next line is dropped (1,856 in hand, 29 of 30 right). `, ` + letter (65) and `,,` (5) remain.
+- Lead marks (15ir, 15l): hand `join_lead_marks=","` drops one or two marks plus an optional space
+  before a letter; `join_lead_marks_lower` (per inventory) drops `J` before a lower-case letter in 455
+  only. `join_upper_guard` (`g_upper_right`, v2 only) exists but is off: negative result, F09-15l.4.
+  `join.py`/`ALL_GUARDS` are v1's and unchanged.
 
 ## 3. Data facts that shape SG work
 
@@ -111,27 +107,22 @@
   - the hand scribes use `-`, `=` and `„`, and `:` in 11281;
   - `=` is often a compound marker (F07-15hj2.3, F07-15i2.3);
   - `.` is a word break only about half the time (F07-15hj2.2);
-  - a repeated mark at the line start is read as `,` (F07-R.2).
-- 17,128 merges (5.4%) have an upper-case or digit right side, and 15 of 20 read are wrong. A guard
-  for this needs `join.py` (F07-15hj.6).
-- The 116-row acceptance: the predicted share free is 0.526, with a bound of 0.560. Of the 51
-  artefact rows, 40 persist (26 glue, 14 HTR/OCR). Glue repair is off (UA-003, closed). LotA checks
-  the share after re-alignment (D19).
+  - a repeated mark at the line start is read as `,` (hand, F07-R.2), as `J` in print 455 only
+    (F09-P.4), and as a capital ("Secreta|Pris") in 10–16 of 40 upper-case merges (F09-15l.5).
+- Upper-case merges: hand 4,222, print 4,447 in `15m-a`; about half are wrong (bar for a guard missed).
+- The 116-row acceptance: predicted share free 0.526, bound 0.560 (static verdicts); rows 23 and 188
+  now read as fixed (0.543 / 0.569, F09-R.3). Glue repair is off (UA-003). LotA checks after
+  re-alignment (D19).
 
 ## 4. Open follow-ups for the next phase
 
-From phase 07 (report *Follow-ups*, REVIEW rows 6–15; the fixes reach SG data in `text_layer_v3`):
-- From 15ir: a row-tolerant line sort (+564 same-row swaps in 456, F07-15ir.3); sorting `unchanged`
-  print regions (needs an R5 decision); retyping off-chain `pn_line` segments (F07-15ir.6); `, ` and
-  `,,` lead marks (F07-15ir.9); build `claimable` per scan (quadratic, F07-R.11).
-- A `g_upper_right` join guard (F07-15hj.6).
-- A role column in the crosswalk, so that a `line_end` id doesn't map to the first half (553 ids).
-- The interleave guard can be bridged by a third region.
-- Bottom-band years are typed `page_number` (about 40).
-- Move the REPUBLIC default path out of the library.
-- The pagexml-tools 0.9.1 pin and dropping its workarounds (UA-007).
-
-These follow-ups are phase 09, *Text layer v3 preparation* (phase-08 decision P1), not planned yet.
+From phase 09 (reviewed 2026-10-22; report *Follow-ups*):
+- The full `text_layer_v3` run and its publication after UA-015 (staging; REPUBLIC paragraphs as a
+  `shared-data` dataset). The run kit is in `docs/text_layer.md`; fit an SG throughput model from it.
+- Hand-bottom off-chain numbers: crop verdicts for the 8 `unclear` sample rows, then the bar (F09-R.5).
+- `_pn_candidate`: pick the band number that fits the chain (the 188 gap rows lost the slot).
+- A mark rule for capitals (F09-15l.5), then re-test `g_upper_right` with the same 27/40 bar.
+- pagexml-tools 0.9.1 pin and the 0.9.0 workarounds (UA-007; not on PyPI on 2026-10-22).
 
 From phase 08 (reviewed 2026-10-21; hand-off in its `PLAN.md`):
 - LotA decides whether to filter duplicates on `adjacent` (0.95 re-shoots; the 9 `deelopname`
@@ -149,10 +140,8 @@ From the siblings (recorded 2026-10-21):
 
 ## 5. Planning notes: recurring brief defects
 
-- **Protected hashes.** Name the method and the script. Copy
-  `reports/data/phase-07-sg-units-and-pilot/step-15i2/protect.py` and set its skip list to the new
-  step's own dirs. The format is `size=N mtime path` for every file, plus sha256 of the source
-  archives. The method was missing from six phase-07 briefs.
+- **Protected hashes.** Name the method: `reports/data/phase-09-text-layer-v3-prep/planning/protect.py
+  OUT --skip <own prefixes>` (`size=N mtime path`, plus sha256 of the source archives).
 - **Measure every expected number on the layer the step starts from,** not on an earlier one.
   Phase 07 got this wrong for 15g2's change count, 15h's "0 collisions" and 15i2's "3351/3354
   unchanged". When a step combines fixes, measure each number with all of them applied, or say it is
@@ -162,9 +151,13 @@ From the siblings (recorded 2026-10-21):
   `wbc` decisions depend on it.
 - **When a step re-runs a downstream stage, say which later briefs name its layer,** and update
   them (rule 10). Phase 07 inserted four follow-up steps mid-phase.
-- **Ports carry their rationale.** A brief for a port must list the comments to keep:
-  calibration notes and decision IDs. Phase 08 dropped LotA's 100-shingle calibration and the
-  P2-12 keep rationale, and the review restored them (F08-R.4). When a step copies a planning
-  script and deletes a private name, say which block of the copy to drop (16).
+- **Ports carry their rationale:** list the comments to keep (calibration notes, decision IDs;
+  F08-R.4), and which block of a copied planning script to drop.
 - **The agent shell:** no `rm -rf`, `nohup` or `&`, a new dir per run, and `chmod g+w`. Sibling
-  suites run with their own `venv/bin/python`. NLP and LotA import AS from the working tree.
+  suites run with their own `venv/bin/python`. NLP and LotA import AS from the working tree. The
+  shell is zsh: write the `coreshare.py run …` prefix out, never in a variable (phase 09, 15j).
+- **Run every command a brief quotes once at planning, as written** (phase 09: `order.py` takes
+  `--out`, `rows116.py` needs its verdicts file beside it, UA-015's copy command was wrong).
+- **Say whether a rule reads the line or the segment text** (15k: "1718" of "Maart 1718").
+- **Hand-read bars work** (phase 09: five bars, all fixed before reading, one verdict file each);
+  give the `unclear` rule and say what context the reader has (text alone left 8 rows undecidable).

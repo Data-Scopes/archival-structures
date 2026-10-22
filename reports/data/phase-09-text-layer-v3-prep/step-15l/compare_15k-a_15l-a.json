@@ -1,0 +1,222 @@
+{
+ "hand": {
+  "equal": 209,
+  "differ": {
+   "join/segments/11182.tsv.gz": {
+    "rows": [
+     57949,
+     57949
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "char_start": 14,
+     "char_end": 15,
+     "line_offset": 1
+    }
+   },
+   "join/segments/3771.tsv.gz": {
+    "rows": [
+     136435,
+     136435
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "char_start": 41,
+     "char_end": 42,
+     "line_offset": 1
+    }
+   },
+   "join/segments/3772.tsv.gz": {
+    "rows": [
+     141510,
+     141510
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "char_start": 276,
+     "char_end": 284,
+     "line_offset": 43
+    }
+   },
+   "join/segments/3773.tsv.gz": {
+    "rows": [
+     145262,
+     145262
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "char_start": 68,
+     "char_end": 70,
+     "line_offset": 3
+    }
+   },
+   "join/segments/3821.tsv.gz": {
+    "rows": [
+     116609,
+     116609
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "char_start": 25,
+     "char_end": 26,
+     "line_offset": 2
+    }
+   },
+   "join/segments/3822.tsv.gz": {
+    "rows": [
+     121894,
+     121894
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "char_start": 167,
+     "char_end": 174,
+     "line_offset": 12
+    }
+   },
+   "join/segments/3823.tsv.gz": {
+    "rows": [
+     118421,
+     118421
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "char_start": 194,
+     "char_end": 200,
+     "line_offset": 8
+    }
+   },
+   "join/stats/11182.json": "bytes",
+   "join/stats/11281.json": "bytes",
+   "join/stats/3349.json": "bytes",
+   "join/stats/3350.json": "bytes",
+   "join/stats/3351.json": "bytes",
+   "join/stats/3352.json": "bytes",
+   "join/stats/3353.json": "bytes",
+   "join/stats/3354.json": "bytes",
+   "join/stats/3771.json": "bytes",
+   "join/stats/3772.json": "bytes",
+   "join/stats/3773.json": "bytes",
+   "join/stats/3821.json": "bytes",
+   "join/stats/3822.json": "bytes",
+   "join/stats/3823.json": "bytes",
+   "join/units/11182.tsv.gz": {
+    "rows": [
+     6238,
+     6238
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "text": 1
+    }
+   },
+   "join/units/3771.tsv.gz": {
+    "rows": [
+     15009,
+     15009
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "text": 1
+    }
+   },
+   "join/units/3772.tsv.gz": {
+    "rows": [
+     14838,
+     14838
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "text": 8
+    }
+   },
+   "join/units/3773.tsv.gz": {
+    "rows": [
+     15130,
+     15130
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "text": 2
+    }
+   },
+   "join/units/3821.tsv.gz": {
+    "rows": [
+     19824,
+     19824
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "text": 1
+    }
+   },
+   "join/units/3822.tsv.gz": {
+    "rows": [
+     20200,
+     20200
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "text": 7
+    }
+   },
+   "join/units/3823.tsv.gz": {
+    "rows": [
+     19832,
+     19832
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "text": 6
+    }
+   }
+  },
+  "missing": []
+ },
+ "print": {
+  "equal": 47,
+  "differ": {
+   "join/segments/455.tsv.gz": {
+    "rows": [
+     173475,
+     173475
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "char_start": 13719,
+     "char_end": 14932,
+     "line_offset": 2172
+    }
+   },
+   "join/stats/455.json": "bytes",
+   "join/stats/456.json": "bytes",
+   "join/units/455.tsv.gz": {
+    "rows": [
+     27956,
+     27956
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "text": 1213
+    }
+   }
+  },
+  "missing": []
+ }
+}

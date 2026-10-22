@@ -232,14 +232,23 @@ Defaults: `overlap_threshold=0.5`, `col_min_ratio=0.5`, `col_max_ratio=0.75`,
 `gutter_rule=auto`, `gap_share_min=0.95`, `long_line_frac=0.6`, `min_long_lines=5`,
 `edge_quantile=0.95`, `split_on_line_field=column`, `furniture_max_lines=2`,
 `furniture_max_chars=30`, `catchword_band=0.04`, `interleave_guard=True`,
-`interleave_width_frac=0.5`, `merge=True`, `column_merge_guard=True`, `sort_split_lines=True`; `gutter_rule` is validated (`gap`, `main_edge`, `auto`); a preset's `layout_params` override these, and
-`--layout-params` overrides both. `LEGACY_15FP` reproduces the 15fp stage. `sg_1.01.02_v2` sets
+`interleave_width_frac=0.5`, `merge=True`, `column_merge_guard=True`, `sort_split_lines=True`, `line_sort=row`, `row_tol_frac=0.2`, `sort_unchanged_lines=False`; `gutter_rule` is validated (`gap`, `main_edge`, `auto`); a preset's `layout_params` override these, and
+`--layout-params` overrides both. `LEGACY_15FP` reproduces the 15fp stage.
+
+Line order (step 15j): with `line_sort=row` the lines of merged regions and column-split pieces are
+sorted by printed row, not by baseline y alone. Walking the lines by baseline y, a line joins the
+current row when its baseline y minus the row's first baseline y is at most `row_tol_frac` x the median
+box height of the region's lines; rows keep their order and each row is sorted by box x (planning:
+baseline gaps below 15 px within a row, about 48 px between rows, h about 75 px). `line_sort=baseline`
+is the old sort (`LEGACY_15FP`). `sort_unchanged_lines=True` (the print presets only) applies the same
+sort to `unchanged` regions in `layout/`; ids, `change` and boxes stay, and `lines_resorted` flags
+the regions whose line order changed. Hand keeps the XML order. `sg_1.01.02_v2` sets
 `merge=False` (step 15fq: the hand merges were 0.52 precise).
 
 | Table | One row per | Columns |
 |---|---|---|
-| `layout/scans/<inv>.tsv.gz` | scan | `scan_id, page_mode` (`opening`/`single`), `separation_x` (empty for `single`), `split_method` (`gap`/`main_edge`/`min_coverage`/`none`; `none` for single pages and openings without text), `n_lines_crossing` (lines whose box contains `separation_x`), `n_regions_in`, `n_regions_out` (non-empty regions only), `n_merges` (output regions that are merges), `n_gutter_splits` (input regions split at the gutter), `gutter_rule` (`gap`/`main_edge`, per inventory), `n_column_splits`, `n_furniture`, `n_guard_blocked` (overlapping pairs of final regions the interleave guard kept apart; since step 15ir the pairs of the last merge pass only), `n_column_blocked` (the same for the column merge guard) |
-| `layout/regions/<inv>.tsv.gz` | layout region, and empty source region | `scan_id, page` (`verso`/`recto`/`single`), `layout_region_id, x, y, w, h` (hull of the lines; the `regions_meta` box for `empty`), `layout_column` (0… by left edge per page; empty for `empty`), `layout_role` (`main`/`extra`/`empty`), `n_lines, source_region_ids` (space-separated, input order), `change` (`unchanged` or the `+`-join of `merged`, `split_at_gutter`, `split_at_column`), `furniture` (`1`/`0`), `column_value` (the line-field value the region shares, else empty) |
+| `layout/scans/<inv>.tsv.gz` | scan | `scan_id, page_mode` (`opening`/`single`), `separation_x` (empty for `single`), `split_method` (`gap`/`main_edge`/`min_coverage`/`none`; `none` for single pages and openings without text), `n_lines_crossing` (lines whose box contains `separation_x`), `n_regions_in`, `n_regions_out` (non-empty regions only), `n_merges` (output regions that are merges), `n_gutter_splits` (input regions split at the gutter), `gutter_rule` (`gap`/`main_edge`, per inventory), `n_column_splits`, `n_furniture`, `n_guard_blocked` (overlapping pairs of final regions the interleave guard kept apart; since step 15ir the pairs of the last merge pass only), `n_column_blocked` (the same for the column merge guard), `n_regions_resorted` (regions with `lines_resorted=1`) |
+| `layout/regions/<inv>.tsv.gz` | layout region, and empty source region | `scan_id, page` (`verso`/`recto`/`single`), `layout_region_id, x, y, w, h` (hull of the lines; the `regions_meta` box for `empty`), `layout_column` (0… by left edge per page; empty for `empty`), `layout_role` (`main`/`extra`/`empty`), `n_lines, source_region_ids` (space-separated, input order), `change` (`unchanged` or the `+`-join of `merged`, `split_at_gutter`, `split_at_column`), `furniture` (`1`/`0`), `column_value` (the line-field value the region shares, else empty), `lines_resorted` (`1` if the lines of an `unchanged` region were re-ordered by `sort_unchanged_lines`, else `0`) |
 | `layout/lines/<inv>.tsv.gz` | input line | `scan_id, line_id, region_id` (input), `page, layout_region_id, layout_line_idx, layout_column, layout_role` |
 
 Rows of `layout/regions/` are per scan, per page, by column then top, with the empty regions
@@ -270,7 +279,7 @@ with non-blank `text` has at least one; empty lines have none.
 | `x, y, w, h, geom_method` | `line` (the line box) or `char_proportion` (`x = line.x + round(w*char_start/len(text))`, same for `w`) |
 | `page, layout_region_id` | from `layout/lines` |
 | `line_type` | one of `main_text, page_number, running_header, date_header, catch_word, signature_mark, marginalia, index, other` |
-| `type_method` | the rule: `rule:pn_line`, `rule:pn_line_offchain` (a pn_line-shaped band line not confirmed by the page-number chain: since step 15ir every `rule:pn_line` segment that is not the in-chain page's candidate line is relabelled; the `line_type` stays `page_number`), `rule:pn_suffix`, `rule:pn_suffix`, `rule:date_line`, `rule:date_prefix`, `rule:margin_prefix`, `rule:header`, `rule:catch_word`, `rule:signature`, `rule:index_page`, `rule:extra_role`, `rule:page_margin`, `rule:noise`, `rule:default` |
+| `type_method` | the rule: `rule:pn_line`, `rule:pn_line_offchain` (a pn_line-shaped band line not confirmed by the page-number chain: since step 15ir every `rule:pn_line` segment that is not the in-chain page's candidate line is relabelled; the `line_type` stays `page_number`, except where step 15k retypes it to `other`, see below), `rule:pn_line_gap` (step 15k: an off-chain number strictly between the chain numbers of the nearest chain pages before and after; stays `page_number`), `rule:year_offchain` (step 15k: an off-chain year line, `line_type` `other`), `rule:pn_suffix`, `rule:date_line`, `rule:date_prefix`, `rule:margin_prefix`, `rule:header`, `rule:catch_word`, `rule:signature`, `rule:index_page`, `rule:extra_role`, `rule:page_margin`, `rule:noise`, `rule:default` |
 | `column_override` | print presets: `x` for page_number, running_header, date_header, catch_word and signature_mark segments (F06-15e.8), else empty |
 
 `types/regions/<inv>.tsv.gz`: one row per non-empty layout region: `scan_id, page,
@@ -279,7 +288,18 @@ layout_region_id, region_type` (most segment characters, ties in the order of `T
 `types/stats.json` (per inventory: segments and characters per type, splits per rule, page-number
 chain) and `types/params.json`.
 
-`TypeParams` validates `margin_cut` (`month_only`, `all`, `off`) and `top_n`, `bottom_n` (>= 1) and raises `ValueError`.
+**Off-chain page numbers (step 15k, decision P6).** With `offchain_retype=True` (both SG presets) each
+`rule:pn_line_offchain` segment is decided in this order: (1) its number (first `\d{1,4}` of the segment text) lies
+strictly between the chain numbers of the nearest chain pages before and after: `rule:pn_line_gap`, stays
+`page_number`; (2) the segment text fullmatches `year_line` and `offchain_years_other`: `other`,
+`rule:year_offchain`; (3) its band (`top` = the `top_n` topmost lines of the page, else `bottom`) is in
+`offchain_other_bands`: `other`, method stays `rule:pn_line_offchain`. The three params default to
+`False`, `()`, `False` (output unchanged). SG presets: `offchain_years_other=True` (37 of 37 years read are not page
+numbers); `offchain_other_bands=()` for hand and `("bottom",)` for print (bars: >= 16 of 20 read not page numbers; print
+bottom 19, print top 3, hand top 6, hand bottom 12; the rest were misread page numbers, signatures or unclear).
+Verdicts: `reports/data/phase-09-text-layer-v3-prep/step-15k/pn_verdicts.tsv`.
+
+`TypeParams` validates `margin_cut` (`month_only`, `all`, `off`) and `top_n`, `bottom_n` (>= 1) and `offchain_other_bands` (a subset of `top`, `bottom`) and raises `ValueError`.
 A line that fullmatches `date_line`, `pn_line` or `year_line` is never split by `rule:date_prefix` (step 15ir: "28. Junij 1650." stays one `date_header` segment).
 
 Only three rules split a line: `rule:date_prefix` (a date at the start of the topmost line or of
@@ -302,7 +322,7 @@ read with extra OCR digits ("11323 )") stay `main_text`.
 ### Units and the doc_id mapping (step 15h)
 
 `--stage units` (v2 presets only, part of `--stage all` and runnable alone; `--unit-params` JSON overrides the preset's
-`UnitParams`; `--republic-dir` points at REPUBLIC's `paragraphs-<inv>.tsv.gz` for print) reads
+`UnitParams`; `--republic-dir` points at REPUBLIC's `paragraphs-<inv>.tsv.gz` for print; since step 15k it has no default: without it a print build logs a warning and writes no `republic_lines/`) reads
 `scans/`, `regions_meta/`, `lines/`, `layout/` and `types/` and writes `units/`. Code:
 `text_layer/units.py`. No text is joined here (step 15hj). Unit ids: the main part of a layout region keeps the
 region id; any other unit takes the legacy id of its own box, bumping `w` while the id is taken. Since step 15ir a
@@ -341,7 +361,7 @@ unit top y, position of the first segment.
 | `units/units/<inv>.tsv.gz` | `scan_id, page, unit_id, unit_order, unit_type, unit_method, layout_region_id, layout_column, x, y, w, h, n_segments, n_lines, first_line_id, last_line_id` (one `unit_type` per unit) |
 | `units/segments/<inv>.tsv.gz` | `scan_id, unit_id, seg_order, line_id, seg_idx` |
 | `units/doc_id_map/<inv>.tsv.gz` | `old_doc_id, unit_id, link, old_status, n_segments_shared, n_chars_shared`; one row per (legacy region, unit holding its segments); `link` is `same_id`, `part` or `none` |
-| `units/republic_lines/<inv>.tsv.gz` (print) | `republic_line_id, scan_id, line_id, match` |
+| `units/republic_lines/<inv>.tsv.gz` (print) | `republic_line_id, scan_id, line_id, match, role` |
 | `units/stats.json`, `units/params.json` | counts per type and method, `old_status`, crosswalk counts; the parameters |
 
 `old_status` (repeated on each row of a legacy region): `identical` (one `same_id` row, the unit
@@ -353,7 +373,10 @@ matched against the scan's non-blank v2 lines: `exact`; `near` (all four within 
 summed difference); `split_original` (the box contains two halves with one `split_from`; maps to
 the first half); `split_half` (our split half with the best IoU >= 0.5, only lines with a
 `split_from`; REPUBLIC splits merged print lines itself and its halves differ from ours by 10-30
-px in width); else `unmatched`.
+px in width); else `unmatched`. `role` (step 15k) is `start` (the id only occurs as `line_start`), `end` (only
+as `line_end`) or `both`. REPUBLIC reads an unsplit merged line as part of the paragraph, so a paragraph that ends
+there ends in our last half: for role `end`, `split_original` maps to the last half (to the first half otherwise;
+513 ids, 455 135 and 456 378). `units/stats.json` has `republic_crosswalk_roles` (`match|role` counts).
 
 ### Unit text and offsets (step 15hj)
 
@@ -392,6 +415,22 @@ character of this set at the start of the next segment text and followed by a le
 both-ends fix. In 11182 the scribe repeats the break mark at the start of the next line and the HTR reads it as
 `,` ("gero„" + ",ijeert" gave "gero,ijeert"). `--stage join` records it in `join/stats/<inv>.json` and re-joins
 when it differs from the preset.
+
+Step 15l extends this (v2 join only; `join.py` and v1 are untouched):
+
+- `join_lead_marks` strips one or two marks and an optional single space before a letter: `", rant"` and
+  `",, den"` now join as "fuerant" and "behouden" (before: "fue,rant" kept the comma and space; `",,"` was kept).
+  Bar: 67 of 70 hand rows read were the repeated break mark (62 + 5; 1 real comma, 2 garbled), needed 63.
+- `LayerPreset.join_lead_marks_lower` (default `None`; per inventory, keys an inventory or `"default"`, like
+  `wbc_pinned`): a character of the pinned string at the start of the next text, followed by a lower-case
+  letter, is dropped ("hou-" + "Jdende" gives "houdende"; "JAN" is kept). `SG_PRINT_V2` pins `{"455": "J"}`:
+  30 of 30 455 rows read were the repeated hyphen read as `J` (bar 27). 456 is not pinned (2 of 32 `mark`, 23 real
+  words such as "Junii", "Januarii"; 7 unclear).
+- `LayerPreset.join_upper_guard` (default `False`): after the strips, a merge whose right side starts upper-case is
+  refused; boundary kind `g_upper_right`, both lines kept as they were, the run closes like any other guard. Bar
+  27 of 40 `wrong`: hand 24, print 20, so both presets keep it off. The code path is tested and ready.
+- `join/stats/<inv>.json` has `lead_marks_lower` and `upper_guard`; `--stage join` re-joins when either
+  differs from the preset. `guards` stays v1's `ALL_GUARDS`.
 
 Guards, the both-ends fix and the wbc set are those of v1. A WBC set that fails the sanity anchors
 stops `join` as in v1 (`--ignore-sanity` overrides and is recorded in the manifest).
@@ -445,6 +484,12 @@ directories; the full run `text_layer_v3` will carry the fixes; UA-013 (a)):**
 5. Smaller: `n_guard_blocked` / `n_column_blocked` count a blocked relation again under each merged id (455 1,322 /
    62; 456 673 / 113); `n_offset_violations` compared a prefix of the span only.
 
+**Status of the known issues in the v3 code (phase 09, details in *Text layer v3*):** 1 (print reading order) is fixed by
+the row-tolerant sort of step 15j (jump regions 130 to 0, same-row swaps 600 to 13 in 455); 2 (repeated break mark) by the
+15ir fix, extended in 15l to `, ` / `,,` (hand) and the `J` mark in 455; 3 (legacy-twin ids) and 5 (counters) by the 15ir
+fixes already in `15ir-a`; 4 (types) by 15ir and 15k (`rule:pn_line_gap`, `rule:year_offchain`, print-bottom numbers
+`other`). Still open: the four lower-case merge shares below 0.95, glued words (UA-003).
+
 Tables and keys are those of the sections *Layout tables*, *Type tables*, *Units and the doc_id mapping* and *Unit text and
 offsets* above; `manifest.json` has a `publication` key with the producer, `as_version`, `git_head`, the audit summary (176 of 182
 invariants; the 6 failures are the reported lower-case merge share below 0.95 in 3351, 3823, 11182, 11281, 455, 456), the counts per
@@ -454,6 +499,71 @@ build ran on a tree with uncommitted changes (`as_version` 0.9.0 as recorded). T
 new version, never a rebuild into these directories. Catalogue: shared-data `README.md`; consumer note: LotA
 `docs/from-archival-structures.md` section 6. The audit (`reports/data/phase-07-sg-units-and-pilot/step-15i/audit.py --layer <base>`)
 expects `<base>/{hand,print}/*_text_layer_v2`, so audit the published copies through symlinks with that suffix.
+
+## Text layer v3 (phase 09)
+
+`text_layer_v3` is the full SG run with the phase-07 review fixes (15ir) and the phase-09 follow-ups
+(15j-15l). Nothing is published yet (user decision P1): the dev layer `data/text_layer_v2_dev/15m-a`
+(hand 14 inventories, print 455 and 456) is the reference; the pilot in `shared-data/*/text_layer_v2` stays as it is.
+
+**Presets.** `sg_1.01.02_v3` and `sg_1.10.94_v3` (`SG_HAND_V3`, `SG_PRINT_V3`) equal the v2 presets in every field
+but `name` (`NL-HaNA_1.01.02_text_layer_v3`, `NL-HaNA_1.10.94_text_layer_v3`) and `description`
+(`test_v3_presets_equal_v2_but_name`). `format_version` stays 2: v3 is the v2 code path with the fixes below, and the
+v2 presets stay for reproducing the pilot. The built layer `15m-a` equals the chained layer `15l-a` in every table
+(`compare.py 15l-a 15m-a`: hand 237 and print 51 tables equal, 0 differ); only the layer directory name,
+`manifest.json`, `progress.log`, `status.tsv` and the `seconds` values in `*/stats.json` differ.
+
+**Output changes against `text_layer_v2` (dev layer `15ir-a` = the pilot code with the review fixes), by stage.**
+Numbers are `15ir-a` to `15m-a`; the full table is in the phase report, *Step 15m*.
+
+| Stage | Change | Step | Numbers |
+|---|---|---|---|
+| `layout` | Lines of merged regions, column-split pieces and (print) `unchanged` regions are sorted by printed row, not by baseline y alone (`line_sort=row`); `lines_resorted` marks regions whose order changed. Hand keeps the XML order | 15j | print same-row swap pairs 455 600 to 13, 456 1,382 to 14; regions with a > 50 px backward jump 130 to 0 (455 `unchanged`); 189 regions resorted (455 182, 456 7) |
+| `types` | A page-number-shaped band line between the chain numbers of its neighbours stays `page_number`, method `rule:pn_line_gap` | 15k | 188 segments (hand 184, print 4) |
+| `types` | Off-chain page-number-shaped segments in the print bottom band are `other` (method stays `rule:pn_line_offchain`); off-chain years are `other`, method `rule:year_offchain` | 15k | print 367 (366 in the bottom band, 1 in the top band); years hand 34, print 3. Hand top/bottom and print top stay `page_number` (bars not met: 6, 12 and 3 of 20 not page numbers) |
+| `units` | `unit_type` follows the retyped segments; `units/republic_lines.role` and the `end` rule maps a split REPUBLIC line that ends a paragraph to the last half | 15k | units 455 28,005 to 27,956, 456 24,710 to 24,514 (hand 181,455 to 181,456); `split_original` ids with role `end` moved to the last half 513 (455 135, 456 378); `n_id_collisions` 0 and 0 |
+| `units` | `claimable` is built per scan | 15k | 455 units stage 9.7 s to 4.2 s, output identical |
+| `join` | `join_lead_marks` strips `, ` and `,,` as well as `,`: "fue,rant" becomes "fuerant" | 15l | hand `comma_sp` 65 + `comma2` 5 to 0; read 67 of 70 as the repeated break mark |
+| `join` | `join_lead_marks_lower={"455": "J"}` in `SG_PRINT_V3`: a `J` before a lower-case letter after a hyphen is the repeated hyphen, dropped | 15l | 455 `J`+lower merges 2,175 to 0 (30 of 30 read), lower share 0.892 to 0.948; 456 unpinned (2 of 32) |
+| `join` | **Not adopted:** the upper-case guard (`join_upper_guard`). It was wrong on 24 of 40 (hand) and 20 of 40 (print) merges read, bar 27, so it stays `False` in both presets and no layer carries the boundary kind `g_upper_right` (0 merges) | 15l | upper-case merges unchanged (hand 4,219 to 4,222, print 4,447 to 4,447) |
+
+Merge counts for the other join effects: hand merges 215,277 and print 79,645 to 79,879 (the row sort changed which lines
+meet; 455 38,965 to 38,981, 456 40,680 to 40,898).
+
+**Schema additions.** `layout/regions/<inv>`: `lines_resorted`; `layout/scans/<inv>`: `n_regions_resorted`;
+`units/republic_lines/<inv>`: `role` (`start`/`end`/`both`); `types/segments` `type_method` values `rule:pn_line_gap`
+and `rule:year_offchain`; `line_type` `other` for the off-chain print-bottom numbers and for off-chain years;
+`join/stats/<inv>.json`: `lead_marks_lower` and `upper_guard`. The boundary kind `g_upper_right` exists in the code
+and is never written by the v3 presets (guard off). Readers of v2 tables that ignore unknown columns are unaffected;
+a reader that counts `line_type` `page_number` sees fewer (print bottom 367, years 37).
+
+**Print builds need `--republic-dir`.** Without it a print build logs a warning and writes no `units/republic_lines/`
+(step 15k removed the default path). Point it at REPUBLIC's `paragraphs-<inv>.tsv.gz` (today only in LotA
+`data/paragraphs/NL-HaNA_1.10.94/`; UA-015 asks for a `shared-data` dataset).
+
+**Quality against the pilot code (`15ir-a` to `15m-a`).** The audit passes 178 of 182 invariants in both; the same four
+lower-case merge shares stay below 0.95 (3351 0.9415, 3823 0.9414, 455 0.9477, 456 0.932; 455 was 0.892). The 116
+labelled rows of LotA's 02d gold sheet predict the same share free 0.526 and bound 0.560: 8 rows change cells (a stray
+`J` gone, a reading order restored) but no hand-read verdict changes.
+
+**Full-run commands** (run from the AS root; stage the inputs first, UA-015; `--estimate` first, it prints the
+PageXML size, the throughput fit for the presets is not set so it gives no time):
+
+```
+D=/Users/Shared/claude_projects/data_scopes/shared-data
+R=<staged REPUBLIC paragraphs dir, with paragraphs-<inv>.tsv.gz for every print inventory>
+mkdir -p data/text_layer_v3_full/hand data/text_layer_v3_full/print
+.venv/bin/as-build-text-layer --pagexml-dir $D/NL-HaNA_1.01.02/pagexml --out-dir data/text_layer_v3_full/hand --preset sg_1.01.02_v3 --stage all --estimate --workers 8
+python3 /Users/Shared/claude_projects/data_scopes/shared-tools/coreshare.py run --project archival-structures --label v3-hand --want 8 --min 2 --wait -- .venv/bin/as-build-text-layer --pagexml-dir $D/NL-HaNA_1.01.02/pagexml --out-dir data/text_layer_v3_full/hand --preset sg_1.01.02_v3 --stage all --workers {workers}
+.venv/bin/as-build-text-layer --pagexml-dir $D/NL-HaNA_1.10.94/pagexml --out-dir data/text_layer_v3_full/print --preset sg_1.10.94_v3 --stage all --republic-dir $R --estimate --workers 8
+python3 /Users/Shared/claude_projects/data_scopes/shared-tools/coreshare.py run --project archival-structures --label v3-print --want 8 --min 2 --wait -- .venv/bin/as-build-text-layer --pagexml-dir $D/NL-HaNA_1.10.94/pagexml --out-dir data/text_layer_v3_full/print --preset sg_1.10.94_v3 --stage all --republic-dir $R --workers {workers}
+```
+
+Both were smoke-tested with `--limit 1` on the staged shared-data sources (hand: 3349, print: 455) into
+`data/text_layer_v2_dev/15m-smoke/`, exit 0. The shared-data hand directory holds 6 inventory tars; the other 8 pilot
+inventories (3771-3773, 3821-3823, 11182, 11281) are in `data/text_layer_v2_dev/15i-src/NL-HaNA_1.01.02` and have to be
+staged under `shared-data/NL-HaNA_1.01.02/pagexml/` for the full hand run (UA-015). After the build run
+`reports/data/phase-09-text-layer-v3-prep/step-15m/audit.py --layer data/text_layer_v3_full/` on the base directory.
 
 ## Provenance
 

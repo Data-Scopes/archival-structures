@@ -1,0 +1,74 @@
+region	class	verdict	note
+NL-HaNA_1.10.94_456_0315-text_region-455-252-965-2995	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0644-text_region-2362-243-1026-2382	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_455_0047-text_region-1255-225-1016-3019	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0209-text_region-3434-329-933-2994	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0073-text_region-482-290-1076-3018	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0119-text_region-2955-273-1332-3022	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0206-text_region-505-294-1008-2988	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_455_0540-text_region-385-375-1015-2995	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0649-text_region-401-244-954-3001	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_455_0324-text_region-414-310-921-2978	sorted	ambiguous	table of amounts; "1012-10-" amount interleaved with year row
+NL-HaNA_1.10.94_456_0113-text_region-388-266-1016-3019	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0634-text_region-2421-281-1048-2954	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_455_0114-text_region-3224-275-1004-3012	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0675-text_region-3315-260-942-2917	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0399-text_region-371-277-1088-2986	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0546-text_region-384-299-1060-3010	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0024-text_region-569-289-938-3017	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0364-text_region-389-873-962-2411	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_456_0085-text_region-3344-285-950-3003	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_455_0185-text_region-1346-345-911-2782	sorted	right	same-row fragments now read left to right
+NL-HaNA_1.10.94_455_0066-text_region-474-2668-894-572	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0570-text_region-3595-566-644-1441	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0180-text_region-3524-3047-640-270	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0317-text_region-2393-460-850-1905	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0702-text_region-1448-384-808-1186	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0519-text_region-640-2603-672-662	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0585-text_region-2532-372-664-198	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0325-text_region-408-332-556-328	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0292-text_region-426-340-884-2913	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0689-text_region-548-300-856-126	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0572-text_region-2620-876-716-542	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0120-text_region-386-352-890-1018	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0710-text_region-638-2879-784-416	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0697-text_region-4277-1444-42-104	unchanged	ambiguous	two single digits (page number?) 3.5 px apart
+NL-HaNA_1.10.94_455_0313-text_region-3280-3090-624-224	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0223-text_region-834-354-472-198	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0350-text_region-1366-2864-438-362	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0126-text_region-408-540-898-2761	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0600-text_region-1370-2813-780-422	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0026-text_region-2449-1762-870-995	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_456_0006-text_region-3475-2399-946-1003	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_456_0006-text_region-510-535-948-556	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_456_0281-text_region-3361-232-988-177	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_456_0325-text_region-1315-658-910-812	unchanged	ambiguous	OCR-garbled index/table
+NL-HaNA_1.10.94_456_0582-text_region-3303-711-956-455	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_456_0632-text_region-3293-1529-948-248	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_456_0665-text_region-2391-314-558-2397	unchanged	right	XML order jumped back; now in row order
+NL-HaNA_1.10.94_455_0035-text_region-422-1978-937-1365#6f1d564173	remaining_swap	still wrong	running-text fragment at row end (gap just over tolerance)
+NL-HaNA_1.10.94_455_0169-text_region-395-302-988-2947#30a1ca07fc	remaining_swap	still wrong	header row: page number above date line (baseline gap about 15 px, just over tolerance of small-h region)
+NL-HaNA_1.10.94_455_0388-text_region-434-390-939-2789#1b15c4f8a1	remaining_swap	still wrong	numeric column / table cell
+NL-HaNA_1.10.94_455_0411-text_region-1340-358-874-2958#98c6f25cb7	remaining_swap	still wrong	numeric column / table cell
+NL-HaNA_1.10.94_455_0427-text_region-1197-360-1055-3036#3d27cbd8d5	remaining_swap	still wrong	numeric column / table cell
+NL-HaNA_1.10.94_455_0434-text_region-2331-358-899-136#9675ee08ce	remaining_swap	still wrong	numeric column / table cell
+NL-HaNA_1.10.94_455_0666-text_region-462-1129-910-2105#9d3b210a34	remaining_swap	still wrong	numeric column / table cell
+NL-HaNA_1.10.94_455_0666-text_region-462-1129-910-2105#6492d44d92	remaining_swap	still wrong	numeric column / table cell
+NL-HaNA_1.10.94_455_0666-text_region-462-1129-910-2105#e81cb0d8b9	remaining_swap	still wrong	numeric column / table cell
+NL-HaNA_1.10.94_455_0698-text_region-466-325-1009-2993#c4127cfc23	remaining_swap	still wrong	header row: page number above date line (baseline gap about 15 px, just over tolerance of small-h region)
+NL-HaNA_1.10.94_455_0698-text_region-466-325-1009-2993#2f6ad01efd	remaining_swap	still wrong	running-text fragment at row end (gap just over tolerance)
+NL-HaNA_1.10.94_455_0698-text_region-466-325-1009-2993#8804264741	remaining_swap	still wrong	running-text fragment at row end (gap just over tolerance)
+NL-HaNA_1.10.94_456_0013-text_region-428-267-1210-3023#094e75d186	remaining_swap	still wrong	running-text fragment at row end (gap just over tolerance)
+NL-HaNA_1.10.94_456_0131-text_region-419-309-1081-3015#913abf2bc0	remaining_swap	still wrong	running-text fragment at row end (gap just over tolerance)
+NL-HaNA_1.10.94_456_0151-text_region-418-727-951-557#d193bd361c	remaining_swap	still wrong	numeric column / table cell
+NL-HaNA_1.10.94_456_0235-text_region-400-239-1088-3029#70e6041ae4	remaining_swap	still wrong	header row: page number above date line (baseline gap about 15 px, just over tolerance of small-h region)
+NL-HaNA_1.10.94_456_0253-text_region-353-238-1005-3017#de846efbe3	remaining_swap	still wrong	header row: page number above date line (baseline gap about 15 px, just over tolerance of small-h region)
+NL-HaNA_1.10.94_456_0294-text_region-408-271-1090-2987#df2f5c0b66	remaining_swap	still wrong	header row: page number above date line (baseline gap about 15 px, just over tolerance of small-h region)
+NL-HaNA_1.10.94_456_0322-text_region-2367-321-980-2936#cff0873e08	remaining_swap	still wrong	numeric column / table cell
+NL-HaNA_1.10.94_456_0346-text_region-431-263-1091-2995#73d0504db0	remaining_swap	still wrong	header row: page number above date line (baseline gap about 15 px, just over tolerance of small-h region)
+NL-HaNA_1.10.94_456_0403-text_region-2416-348-959-2977#db34951a37	remaining_swap	still wrong	running-text fragment at row end (gap just over tolerance)
+NL-HaNA_1.10.94_456_0535-text_region-2319-1757-1039-1535#9cb2f53c11	remaining_swap	still wrong	numeric column / table cell
+NL-HaNA_1.10.94_456_0541-text_region-2305-324-1071-2948#cc1cc6daa7	remaining_swap	still wrong	running-text fragment at row end (gap just over tolerance)
+NL-HaNA_1.10.94_456_0558-text_region-411-239-1104-2958#f5e6d74092	remaining_swap	still wrong	header row: page number above date line (baseline gap about 15 px, just over tolerance of small-h region)
+NL-HaNA_1.10.94_456_0610-text_region-380-204-1105-3014#dfbc7d0b0b	remaining_swap	still wrong	header row: page number above date line (baseline gap about 15 px, just over tolerance of small-h region)
+NL-HaNA_1.10.94_456_0681-text_region-2424-248-924-2926#acff670dbd	remaining_swap	still wrong	numeric column / table cell

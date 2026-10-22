@@ -32,8 +32,6 @@ HEADER_TYPES = ("date_header", "running_header")
 PAGE_ORDER = {"verso": 0, "recto": 1, "single": 1}
 NEAR_PX = 5
 SPLIT_HALF_IOU = 0.5
-REPUBLIC_PARAGRAPHS_DIR = Path("/Users/Shared/claude_projects/data_scopes/language-of-the-archive"
-                               "/data/paragraphs/NL-HaNA_1.10.94")
 
 UNIT_COLUMNS = ["scan_id", "page", "unit_id", "unit_order", "unit_type", "unit_method",
                 "layout_region_id", "layout_column", "x", "y", "w", "h", "n_segments", "n_lines",
@@ -41,7 +39,7 @@ UNIT_COLUMNS = ["scan_id", "page", "unit_id", "unit_order", "unit_type", "unit_m
 UNIT_SEGMENT_COLUMNS = ["scan_id", "unit_id", "seg_order", "line_id", "seg_idx"]
 DOC_ID_MAP_COLUMNS = ["old_doc_id", "unit_id", "link", "old_status", "n_segments_shared",
                       "n_chars_shared"]
-REPUBLIC_COLUMNS = ["republic_line_id", "scan_id", "line_id", "match"]
+REPUBLIC_COLUMNS = ["republic_line_id", "scan_id", "line_id", "match", "role"]
 
 
 @dataclasses.dataclass(frozen=True)
@@ -245,12 +243,16 @@ def parse_republic_id(rid):
     return m["scan"], tuple(int(m[k]) for k in ("x", "y", "w", "h"))
 
 
-def republic_crosswalk(republic_ids, lines_by_scan, tol=NEAR_PX):
+def republic_crosswalk(republic_ids, lines_by_scan, tol=NEAR_PX, roles=None):
     """Map REPUBLIC line ids to v2 line ids.
 
     ``lines_by_scan``: scan_id -> list of ``(line_id, (x, y, w, h), split_from)`` in line order.
-    Returns rows ``[republic_line_id, scan_id, line_id, match]`` with match in exact, near,
-    split_original (mapped to the first half), split_half (best overlap with one of our split halves,
+    ``roles``: optional id -> ``start``/``end``/``both`` (``read_republic_roles``); it fills the
+    ``role`` column (empty without it). Returns rows ``[republic_line_id, scan_id, line_id, match,
+    role]`` with match in exact, near,
+    split_original (mapped to the first half; to the last half when the role is ``end``: REPUBLIC
+    reads an unsplit merged line as part of the paragraph, so a paragraph that ends there ends in
+    our last half), split_half (best overlap with one of our split halves,
     IoU >= 0.5; REPUBLIC's own split differs from ours) and unmatched (``line_id`` empty)."""
     exact_index = {}
     halves = {}
@@ -261,13 +263,14 @@ def republic_crosswalk(republic_ids, lines_by_scan, tol=NEAR_PX):
                 halves.setdefault(scan, {}).setdefault(split_from, []).append((line_id, box))
     rows = []
     for rid in republic_ids:
+        role = roles.get(rid, "") if roles else ""
         parsed = parse_republic_id(rid)
         if parsed is None or parsed[0] not in lines_by_scan:
-            rows.append([rid, parsed[0] if parsed else "", "", "unmatched"])
+            rows.append([rid, parsed[0] if parsed else "", "", "unmatched", role])
             continue
         scan, box = parsed
         if (scan, box) in exact_index:
-            rows.append([rid, scan, exact_index[(scan, box)], "exact"])
+            rows.append([rid, scan, exact_index[(scan, box)], "exact", role])
             continue
         best = None
         for line_id, b, _ in lines_by_scan[scan]:
@@ -275,7 +278,7 @@ def republic_crosswalk(republic_ids, lines_by_scan, tol=NEAR_PX):
             if max(diffs) <= tol and (best is None or sum(diffs) < best[0]):
                 best = (sum(diffs), line_id)
         if best:
-            rows.append([rid, scan, best[1], "near"])
+            rows.append([rid, scan, best[1], "near", role])
             continue
         x, y, w, h = box
         found = None
@@ -286,10 +289,10 @@ def republic_crosswalk(republic_ids, lines_by_scan, tol=NEAR_PX):
                       if bx >= x - tol and by >= y - tol and bx + bw <= x + w + tol
                       and by + bh <= y + h + tol]
             if len(inside) >= 2:
-                found = inside[0]
+                found = inside[-1] if role == "end" else inside[0]
                 break
         if found:
-            rows.append([rid, scan, found, "split_original"])
+            rows.append([rid, scan, found, "split_original", role])
             continue
         # REPUBLIC splits merged print lines itself (inventory 456): its halves differ from ours
         # by 10-30 px in width, so take the split half with the best box overlap
@@ -301,9 +304,9 @@ def republic_crosswalk(republic_ids, lines_by_scan, tol=NEAR_PX):
             if v >= SPLIT_HALF_IOU and (best is None or v > best[0]):
                 best = (v, line_id)
         if best:
-            rows.append([rid, scan, best[1], "split_half"])
+            rows.append([rid, scan, best[1], "split_half", role])
         else:
-            rows.append([rid, scan, "", "unmatched"])
+            rows.append([rid, scan, "", "unmatched", role])
     return rows
 
 
@@ -324,6 +327,19 @@ def read_republic_ids(path):
                 if row[key]:
                     seen.setdefault(row[key], None)
     return list(seen)
+
+
+def read_republic_roles(path):
+    """Id -> ``start`` (only ``line_start``), ``end`` (only ``line_end``) or ``both``, in the same
+    first-seen order as ``read_republic_ids``."""
+    roles = {}
+    with gzip.open(path, "rt", encoding="utf-8", newline="") as fh:
+        for row in csv.DictReader(fh, delimiter="\t", quoting=csv.QUOTE_NONE):
+            for key, role in (("line_start", "start"), ("line_end", "end")):
+                rid = row[key]
+                if rid:
+                    roles[rid] = role if roles.get(rid, role) == role else "both"
+    return roles
 
 
 # ---------------------------------------------------------------- inventory
@@ -400,6 +416,9 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
     by_region = load_segments(root, inv)
 
     lines = list(read_tsv_gz(root / "lines" / f"{inv}.lines.tsv.gz"))
+    legacy_by_scan = defaultdict(list)
+    for r in legacy:
+        legacy_by_scan[r["scan_id"]].append(r)
     legacy_lines = defaultdict(set)
     for r in lines:
         if r["text"].strip():      # blank lines are in no unit
@@ -419,7 +438,7 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
         layout_ids = {r["layout_region_id"] for rr in regions_by_scan.get(sid, {}).values()
                       for r in rr}
         claimable = {r["region_id"]: frozenset(legacy_lines[(sid, r["region_id"])])
-                     for r in legacy if r["scan_id"] == sid and r["region_id"] not in layout_ids
+                     for r in legacy_by_scan[sid] if r["region_id"] not in layout_ids
                      and legacy_lines.get((sid, r["region_id"]))}
         scan_units = []
         for page, rrows in regions_by_scan.get(sid, {}).items():
@@ -465,7 +484,7 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
     status_per_region = {}
     for r in map_rows:
         status_per_region[r[0]] = r[3]
-    crosswalk = None
+    crosswalk = crosswalk_roles = None
     if print_mode and republic_path is not None and Path(republic_path).exists():
         lines_by_scan = defaultdict(list)
         for r in lines:
@@ -473,9 +492,11 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
                 lines_by_scan[r["scan_id"]].append(
                     (r["line_id"], (int(r["x"]), int(r["y"]), int(r["w"]), int(r["h"])),
                      r["split_from"]))
-        cw = republic_crosswalk(read_republic_ids(republic_path), lines_by_scan)
+        roles = read_republic_roles(republic_path)
+        cw = republic_crosswalk(list(roles), lines_by_scan, roles=roles)
         write_tsv_gz(out / "republic_lines" / f"{inv}.tsv.gz", REPUBLIC_COLUMNS, cw)
         crosswalk = dict(Counter(r[3] for r in cw))
+        crosswalk_roles = dict(Counter(f"{r[3]}|{r[4]}" for r in cw))
 
     per_type = Counter(u["unit_type"] for u in all_units)
     main_lens = [len({s["line_id"] for s in u["segs"]}) for u in all_units
@@ -488,4 +509,5 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
         "median_main_unit_lines": statistics.median(main_lens) if main_lens else 0,
         "old_status": dict(Counter(status_per_region.values())),
         "n_old_regions": len(legacy), "republic_crosswalk": crosswalk,
+        "republic_crosswalk_roles": crosswalk_roles,
         "seconds": round(time.monotonic() - start, 3)}

@@ -1,0 +1,119 @@
+=== 455 NL-HaNA_1.10.94_455_0035 NL-HaNA_1.10.94_455_0035-text_region-422-1978-937-1365  (6f1d564173 -> 210fcd276b)
+     2219.0 x= 1044  b-a75e5fec4709  mam
+     2213.3 x= 1214  a-636f1d564173  manel
+     2228.0 x=  440  e-7e210fcd276b  ten.
+     2279.0 x=  428  3de4f94d5f7b_L  Op het gerapporteerde van de Heeren van 
+=== 455 NL-HaNA_1.10.94_455_0169 NL-HaNA_1.10.94_455_0169-text_region-395-302-988-2947  (30a1ca07fc -> 3400e9dc17)
+      351.5 x= 1229  4-0e30a1ca07fc  1320 )
+      366.5 x=  395  1-a53400e9dc17  Den 22. Maert.
+      414.0 x=  397  fe02111c8c76_L  het Fort St. Maria aen den Ontfanger Fli
+=== 455 NL-HaNA_1.10.94_455_0388 NL-HaNA_1.10.94_455_0388-text_region-434-390-939-2789  (1b15c4f8a1 -> 1a17c292ff)
+      794.0 x=  442  8-fc522c72ff0f  Drontheym te mogenuytvoeren, midsbealend
+      833.0 x= 1258  9-3b1b15c4f8a1  7
+      847.2 x=  451  8-7c1a17c292ff  's Lands gerechtigheydt.
+      890.4 x=  464  b-f9790a28ce13  Opde Requeste van Pieter Boelaart, Aemem
+=== 455 NL-HaNA_1.10.94_455_0411 NL-HaNA_1.10.94_455_0411-text_region-1340-358-874-2958  (98c6f25cb7 -> 0c6b9c35f4)
+     1972.5 x= 1902  c-998d4b84a51a  20815-
+     1963.5 x= 2089  7-aa98c6f25cb7  1-4
+     1978.0 x= 1409  c-7e0c6b9c35f4  520.
+     1977.5 x= 1562  9-563d890376d2  somme de
+=== 455 NL-HaNA_1.10.94_455_0427 NL-HaNA_1.10.94_455_0427-text_region-1197-360-1055-3036  (3d27cbd8d5 -> 4448821bc0)
+     1079.5 x= 1350  3-4c36e73f9e4b  giment de Hessen avec les
+     1118.0 x= 1883  3-4c3d27cbd8d5  13115- 7-
+     1132.8 x= 1349  d-d54448821bc0  gages du Major
+     1177.2 x= 1325  3-f2f72c6c2745  Lamoitié des 520. Danois
+=== 455 NL-HaNA_1.10.94_455_0434 NL-HaNA_1.10.94_455_0434-text_region-2331-358-899-136  (9675ee08ce -> c725c04c1d)
+      415.9 x= 2331  b9ab777fae16_L  volgens en in conformiteyt van de ordres
+      457.7 x= 2976  9-569675ee08ce  7
+      471.0 x= 2333  7-6bc725c04c1d  Landt.
+=== 455 NL-HaNA_1.10.94_455_0666 NL-HaNA_1.10.94_455_0666-text_region-462-1129-910-2105  (9d3b210a34 -> a72d3e8ed2)
+     2231.7 x=  800  f-20b241f8dfc2  hooghte 23
+     2222.0 x= 1174  e-c39d3b210a34  9 wijdt
+     2236.0 x=  523  8-3ca72d3e8ed2  op
+     2284.0 x=  524  b-2fd5336ec604  op 8
+=== 455 NL-HaNA_1.10.94_455_0666 NL-HaNA_1.10.94_455_0666-text_region-462-1129-910-2105  (6492d44d92 -> afa0ab4e1c)
+     2473.0 x=  759  e-807266143ebc  3 hooghte 27
+     2465.5 x= 1218  a-326492d44d92  wijdt
+     2479.0 x=  525  e-24afa0ab4e1c  op 35
+     2568.2 x=  710  3-08275d5e77eb  Het Spanthout num. 7. is
+=== 455 NL-HaNA_1.10.94_455_0666 NL-HaNA_1.10.94_455_0666-text_region-462-1129-910-2105  (e81cb0d8b9 -> 8581971dc3)
+     2660.5 x= 1030  8-b0fe51079d2b  6
+     2659.7 x= 1181  c-9ae81cb0d8b9  6 wijdt
+     2674.0 x=  533  0-3e8581971dc3  op.
+     2719.0 x=  536  4-0e11e36e099e  op
+=== 455 NL-HaNA_1.10.94_455_0698 NL-HaNA_1.10.94_455_0698-text_region-466-325-1009-2993  (c4127cfc23 -> 130faac249)
+      378.7 x= 1262  c-70c4127cfc23  ( 1378. )
+      393.5 x=  466  1-7d130faac249  Den 20. December.
+      433.0 x=  524  e-b80ec946a361  sestien hondert ses en tnegen-
+=== 455 NL-HaNA_1.10.94_455_0698 NL-HaNA_1.10.94_455_0698-text_region-466-325-1009-2993  (2f6ad01efd -> 1e2116570b)
+     1099.5 x= 1135  5-26d9df9d19a4  6- o-
+     1093.0 x= 1331  0-4a2f6ad01efd  0
+     1107.3 x=  534  8-c41e2116570b  1682
+     1156.4 x=  478  d-613b195b85e3  De Portier van het Hof
+=== 455 NL-HaNA_1.10.94_455_0698 NL-HaNA_1.10.94_455_0698-text_region-466-325-1009-2993  (8804264741 -> f54130dd92)
+     1772.8 x= 1119  b-09a655aa72a7  76- 62
+     1765.0 x= 1325  f-6c8804264741  0
+     1779.5 x=  531  b-97f54130dd92  samen
+     1828.0 x=  481  4-a50aef182bde  De Trompetters van haer Hoog
+=== 456 NL-HaNA_1.10.94_456_0013 NL-HaNA_1.10.94_456_0013-text_region-428-267-1210-3023  (094e75d186 -> e7f71ccf74)
+     1474.0 x=  441  2-55a9d93107ef  vincien, die de cot
+     1506.8 x=  816  d-75094e75d186  de te hebben.
+     1521.3 x=  440  d-d5e7f71ccf74  latie van de Regi-
+     1576.4 x=  443  8-b29748a66c29  menten haeter repartitie hebben, te cont
+=== 456 NL-HaNA_1.10.94_456_0131 NL-HaNA_1.10.94_456_0131-text_region-419-309-1081-3015  (913abf2bc0 -> 0b9e70b92e)
+     1580.2 x=  694  b-d7ea738b98d4  Accordeert met het voorsz Re-
+     1633.2 x=  756  a-25913abf2bc0  gister.
+     1647.0 x=  489  6-730b9e70b92e  32404
+     1678.0 x=  889  2-e5c2b87ed5f7  Gerekent,
+=== 456 NL-HaNA_1.10.94_456_0151 NL-HaNA_1.10.94_456_0151-text_region-418-727-951-557  (d193bd361c -> 552bd96a8a)
+     1203.8 x=  972  2-d6016ea977fc  6101, 1oud
+     1249.2 x= 1021  e-1bd193bd361c  208 400
+     1264.0 x=  420  7-f1552bd96a8a  Gockinga.
+=== 456 NL-HaNA_1.10.94_456_0235 NL-HaNA_1.10.94_456_0235-text_region-400-239-1088-3029  (70e6041ae4 -> 67a0b453db)
+      303.7 x= 1225  7-e970e6041ae4  ( 452 )
+      318.7 x=  404  3-1667a0b453db  Den 25. April.
+      363.2 x=  402  710af13a9a37_L  Gedeputeerden tot de Militaire saken,
+=== 456 NL-HaNA_1.10.94_456_0253 NL-HaNA_1.10.94_456_0253-text_region-353-238-1005-3017  (de846efbe3 -> 6f8b930e85)
+      286.0 x= 1194  b-eade846efbe3  ( 488 )
+      300.7 x=  353  f-db6f8b930e85  Den 2. Mey.
+      344.8 x=  356  38ba34c43e3a_L  opgekomen storm uyt den Zuyt-westen sijn
+=== 456 NL-HaNA_1.10.94_456_0294 NL-HaNA_1.10.94_456_0294-text_region-408-271-1090-2987  (df2f5c0b66 -> 01b1b47786)
+      331.0 x= 1235  b-fbdf2f5c0b66  ( 570 )
+      346.0 x=  408  b-fc01b1b47786  Den 20. Mey.
+      388.7 x=  413  1dfce47e63b3_L  den sal werden aen den Raedt van
+=== 456 NL-HaNA_1.10.94_456_0322 NL-HaNA_1.10.94_456_0322-text_region-2367-321-980-2936  (cff0873e08 -> 5a80d839dc)
+     3214.5 x= 2594  3-5b9474d72196  205 491
+     3231.0 x= 3179  f-d6cff0873e08  12
+     3244.5 x= 2386  0-395a80d839dc  100
+=== 456 NL-HaNA_1.10.94_456_0346 NL-HaNA_1.10.94_456_0346-text_region-431-263-1091-2995  (73d0504db0 -> 002dbec3aa)
+      312.0 x= 1268  2-1573d0504db0  ( 674 )
+      326.4 x=  442  9-fa002dbec3aa  Den 13. Junii.
+      369.2 x=  502  d8493d168bdf_L  Is ter Vergaderinge gelesen de Requeste 
+=== 456 NL-HaNA_1.10.94_456_0403 NL-HaNA_1.10.94_456_0403-text_region-2416-348-959-2977  (db34951a37 -> 688cd109_L)
+     2038.2 x= 2431  a-644bdb7960a6  gecommuniceert te werden.
+     2063.5 x= 2979  c-84db34951a37  de Requeste van
+     2077.8 x= 2472  f5b2688cd109_L  Is ter Vergaderinge gelesen de Requeste 
+     2135.2 x= 2434  7a488948f59b_L  Bernard Belier, Predikant tot Philippine
+=== 456 NL-HaNA_1.10.94_456_0535 NL-HaNA_1.10.94_456_0535-text_region-2319-1757-1039-1535  (9cb2f53c11 -> 4d69c0e162)
+     2410.5 x= 2662  0-079a93fbee66  700
+     2422.2 x= 2860  4-d09cb2f53c11  6. H. Lember.
+     2437.0 x= 2366  8-fe4d69c0e162  203
+     2509.8 x= 2375  a-60bb4e4b5917  Waer op gedelibereert zynde, is goedtgev
+=== 456 NL-HaNA_1.10.94_456_0541 NL-HaNA_1.10.94_456_0541-text_region-2305-324-1071-2948  (cc1cc6daa7 -> 1b04d1e5e3)
+      435.0 x= 2308  df69cf68516f_L  advertentie: Waer op geen Resolutie is g
+      475.0 x= 2802  4-8ccc1cc6daa7  den Seconrate
+      489.7 x= 2312  b-481b04d1e5e3  len.
+      529.3 x= 2344  f19e86a40f67_L  Ontfangen een Missive van den Secretaris
+=== 456 NL-HaNA_1.10.94_456_0558 NL-HaNA_1.10.94_456_0558-text_region-411-239-1104-2958  (f5e6d74092 -> d3b2dfaf4b)
+      291.2 x= 1236  1-6df5e6d74092  ( 1098 )
+      305.3 x=  411  7-79d3b2dfaf4b  Den 3. October.
+      349.5 x=  417  5f59ab910365_L  van haer Hoogh Mogende te complimente-
+=== 456 NL-HaNA_1.10.94_456_0610 NL-HaNA_1.10.94_456_0610-text_region-380-204-1105-3014  (dfbc7d0b0b -> 177c88d7d9)
+      258.0 x= 1193  1-27dfbc7d0b0b  ( 1202 )
+      272.3 x=  381  9-31177c88d7d9  Den 6. November.
+      319.2 x=  381  ef5744163ffe_L  puteerden tot de saecken van de Zee, om 
+=== 456 NL-HaNA_1.10.94_456_0681 NL-HaNA_1.10.94_456_0681-text_region-2424-248-924-2926  (acff670dbd -> e257bb00f5)
+     2587.3 x= 2445  b-3f126877e342  Verpondingh
+     2601.5 x= 3185  1-9dacff670dbd  6-
+     2602.7 x= 3063  b-bbe257bb00f5  20
+     2602.5 x= 3273  d-d8690b0f7685  0

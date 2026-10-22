@@ -204,3 +204,64 @@ def test_v2_all_chain(tmp_path):
     assert stats["n_offset_violations"] == 0
     manifest = json.loads((root / "manifest.json").read_text())
     assert {"wbc", "join", "units"} <= set(manifest["stages"]) and "history" not in manifest
+
+
+# ------------------------------------------------------------------ step 15l
+
+def test_lead_mark_comma_space():
+    text, spans, _ = join_unit(["fue-", ", rant"], WBC, lead_marks=",")
+    assert text == "fuerant" and spans[1][2] == 2
+    # a comma and space before a non-letter stays
+    assert join_unit(["fue-", ", 12"], WBC, lead_marks=",")[0] == "fue, 12"
+
+
+def test_lead_mark_double_comma():
+    text, spans, _ = join_unit(["behou-", ",, den"], WBC, lead_marks=",")
+    assert text == "behouden" and spans[1][2] == 3
+
+
+def test_lead_mark_lower_j():
+    text, spans, _ = join_unit(["hou-", "Jdende"], WBC, lead_marks_lower="J")
+    assert text == "houdende" and spans[1][2] == 1
+    # J before a capital is not stripped
+    assert join_unit(["den-", "JAN"], WBC, lead_marks_lower="J")[0] == "denJAN"
+    # off by default; never on a plain boundary
+    assert join_unit(["hou-", "Jdende"], WBC)[0] == "houJdende"
+    assert join_unit(["hou", "Jdende"], WBC, lead_marks_lower="J")[0] == "hou Jdende"
+
+
+def test_upper_guard():
+    text, spans, bounds = join_unit(["West-", "Vrieslandt"], WBC, upper_guard=True)
+    assert bounds[0][0] == "g_upper_right" and text == "West- Vrieslandt"
+    assert spans[1][2] == 0
+    assert join_unit(["West-", "Vrieslandt"], WBC)[0] == "WestVrieslandt"
+    # the guard closes the run: the next boundary is judged on its own
+    text, _, bounds = join_unit(["West-", "Vries-", "landt"], WBC, upper_guard=True)
+    assert [b[0] for b in bounds[:2]] == ["g_upper_right", "merge"] and text == "West- Vrieslandt"
+
+
+def test_upper_guard_after_lead_marks():
+    text, _, bounds = join_unit(["hou-", "Jdende"], WBC, lead_marks_lower="J", upper_guard=True)
+    assert text == "houdende" and bounds[0][0] == "merge"
+
+
+@pytest.mark.parametrize("texts", CASES)
+def test_defaults_equal_old_join_unit(texts):
+    assert (join_unit(texts, WBC, lead_marks_lower="", upper_guard=False)
+            == join_unit(texts, WBC))
+    assert join_unit(texts, WBC)[0] == join_region(texts, WBC)
+
+
+def test_join_lower_marks_per_inventory(tmp_path, monkeypatch):
+    import dataclasses
+    from archival_structures.text_layer import presets
+    for pin, expected in (({"9999": "J"}, "J"), ({"455": "J"}, ""), ({"default": "J"}, "J")):
+        out = tmp_path / f"out{expected}{len(pin)}{next(iter(pin))}"
+        monkeypatch.setitem(build.PRESETS, "sg_1.01.02_v2", dataclasses.replace(
+            presets.SG_HAND_V2, join_lead_marks_lower=pin, join_upper_guard=True))
+        base = ["--pagexml-dir", str(_v2_pagexml(tmp_path / out.name)), "--out-dir", str(out),
+                "--preset", "sg_1.01.02_v2", "--workers", "1"]
+        assert build.main(base + ["--stage", "all"]) == 0
+        stats = json.loads((out / "NL-HaNA_1.01.02_text_layer_v2" / "join" / "stats"
+                            / "9999.json").read_text())
+        assert stats["lead_marks_lower"] == expected and stats["upper_guard"] is True

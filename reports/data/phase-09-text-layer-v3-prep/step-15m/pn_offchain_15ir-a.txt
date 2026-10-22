@@ -1,0 +1,20 @@
+('hand', 'gap', 'bottom', 'num') 1
+('hand', 'gap', 'bottom', 'year') 1
+('hand', 'gap', 'top', 'num') 182
+('hand', 'nogap', 'bottom', 'num') 890
+('hand', 'nogap', 'bottom', 'year') 34
+('hand', 'nogap', 'top', 'num') 1356
+('hand', 'rule:pn_line', 'page_number', 'bottom', 'num') 3
+('hand', 'rule:pn_line', 'page_number', 'bottom', 'year') 1
+('hand', 'rule:pn_line', 'page_number', 'top', 'num') 6633
+('hand', 'rule:pn_line_offchain', 'page_number', 'bottom', 'num') 891
+('hand', 'rule:pn_line_offchain', 'page_number', 'bottom', 'year') 35
+('hand', 'rule:pn_line_offchain', 'page_number', 'top', 'num') 1538
+('print', 'gap', 'top', 'num') 4
+('print', 'nogap', 'bottom', 'num') 366
+('print', 'nogap', 'bottom', 'year') 3
+('print', 'nogap', 'top', 'num') 456
+('print', 'rule:pn_line', 'page_number', 'top', 'num') 2189
+('print', 'rule:pn_line_offchain', 'page_number', 'bottom', 'num') 366
+('print', 'rule:pn_line_offchain', 'page_number', 'bottom', 'year') 3
+('print', 'rule:pn_line_offchain', 'page_number', 'top', 'num') 460

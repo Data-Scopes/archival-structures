@@ -1,0 +1,1 @@
+rows=116 hand_found=111 print_found=110 predicted={'persists_glue': 26, 'unchanged_free': 55, 'persists_htr_ocr': 14, 'needs_realignment': 4, 'fixed': 6, 'changed': 10, 'unclear': 1} share_free=0.526 upper_bound=0.560

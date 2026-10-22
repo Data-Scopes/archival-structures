@@ -57,3 +57,15 @@ def test_voc_preset():
     assert p.name == "voc_text_layer_v1" and p.untagged_tag == "unclassified"
     assert p.scan_id_prefix == "NL-HaNA_1.04.02"
     assert presets.predict_seconds(0, "join", p.throughput_fit) == 0.0
+
+
+def test_v3_presets_equal_v2_but_name():
+    import dataclasses
+    for hv, v2, v3 in (("hand", "sg_1.01.02_v2", "sg_1.01.02_v3"),
+                       ("print", "sg_1.10.94_v2", "sg_1.10.94_v3")):
+        a = dataclasses.asdict(presets.PRESETS[v2])
+        b = dataclasses.asdict(presets.PRESETS[v3])
+        diff = {k for k in a if a[k] != b[k]}
+        assert diff == {"name", "description"}, (hv, diff)
+        assert b["name"].endswith("_text_layer_v3")
+        assert "v3" in b["description"] and "v2" not in b["description"]

@@ -1,0 +1,5 @@
+FAIL [3351] merges with lower-case right side (share, target >= 0.95, reported) >= 0.95 0.9415 171 merges
+FAIL [3823] merges with lower-case right side (share, target >= 0.95, reported) >= 0.95 0.9414 10678 merges
+FAIL [455] merges with lower-case right side (share, target >= 0.95, reported) >= 0.95 0.9477 38981 merges
+FAIL [456] merges with lower-case right side (share, target >= 0.95, reported) >= 0.95 0.932 40898 merges
+178 pass, 4 fail -> reports/data/phase-09-text-layer-v3-prep/step-15m/audit_15m-a.json

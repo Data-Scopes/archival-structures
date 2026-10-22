@@ -12,6 +12,7 @@ The old ``region_type`` stays retired. Schemas and rules: ``docs/text_layer.md``
 (step 15g)*.
 """
 
+import bisect
 import dataclasses
 import json
 import re
@@ -66,11 +67,17 @@ class TypeParams:
     index_min_number: float = 0.3   # share of lines ending in a number
     column_override: bool = False   # print presets: "x" for furniture types
     margin_cut: str = "month_only"  # rule 2: "month_only" | "all" (15g) | "off"
+    offchain_retype: bool = False   # 15k: decide `rule:pn_line_offchain` segments (gap / year / band)
+    offchain_other_bands: tuple = ()  # bands ("top", "bottom") whose off-chain numbers become `other`
+    offchain_years_other: bool = False  # off-chain year lines become `other` (`rule:year_offchain`)
 
     def __post_init__(self):
         if self.margin_cut not in ("month_only", "all", "off"):
             raise ValueError(f"margin_cut must be 'month_only', 'all' or 'off', "
                              f"got {self.margin_cut!r}")
+        if not set(self.offchain_other_bands) <= {"top", "bottom"}:
+            raise ValueError(f"offchain_other_bands must be a subset of ('top', 'bottom'), "
+                             f"got {self.offchain_other_bands!r}")
         if self.top_n < 1 or self.bottom_n < 1:
             raise ValueError(f"top_n and bottom_n must be >= 1, got {self.top_n}, {self.bottom_n}")
 
@@ -79,7 +86,10 @@ class TypeParams:
 
     @classmethod
     def from_dict(cls, d):
-        return cls(**dict(d))
+        d = dict(d)
+        if "offchain_other_bands" in d:
+            d["offchain_other_bands"] = tuple(d["offchain_other_bands"])
+        return cls(**d)
 
 
 def _compile(params):
@@ -316,6 +326,38 @@ def _is_index_page(ordered, page_w, med_w_rel, params, pats):
     return short / len(ordered) >= params.index_min_short and ends / len(ordered) >= params.index_min_number
 
 
+def _retype_offchain(page_segs, key, ordered, pats, params, here, page_keys,
+                      chain_sorted, chain_num):
+    """15k: decide the ``rule:pn_line_offchain`` segments of one page.
+
+    1. the number lies strictly between the chain numbers of the nearest chain pages before and
+       after the page: it is this page's number that lost the candidate slot (``rule:pn_line_gap``,
+       stays ``page_number``);
+    2. a year line, with ``offchain_years_other``: ``other`` / ``rule:year_offchain``;
+    3. the line is in a band of ``offchain_other_bands``: ``other`` (method unchanged).
+    """
+    by_id = {l.line_id: l for l in ordered}
+    top_ids = {l.line_id for l in ordered[:params.top_n]}
+    i = bisect.bisect_left(chain_sorted, here)
+    j = bisect.bisect_right(chain_sorted, here)
+    p_num = chain_num[page_keys[chain_sorted[i - 1]]] if i > 0 else None
+    q_num = chain_num[page_keys[chain_sorted[j]]] if j < len(chain_sorted) else None
+    for s in page_segs:
+        if s["type_method"] != "rule:pn_line_offchain":
+            continue
+        # the segment's own text: a pn_suffix-style piece such as "1718" of "Maart 1718" is a year
+        text = by_id[s["line_id"]].text[s["char_start"]:s["char_end"]].strip()
+        m = re.search(r"\d{1,4}", text)
+        n = int(m.group()) if m else None
+        if n is not None and p_num is not None and q_num is not None and p_num < n < q_num:
+            s["type_method"] = "rule:pn_line_gap"
+        elif params.offchain_years_other and _is_year(text, pats):
+            s["line_type"] = "other"
+            s["type_method"] = "rule:year_offchain"
+        elif ("top" if s["line_id"] in top_ids else "bottom") in params.offchain_other_bands:
+            s["line_type"] = "other"
+
+
 def type_inventory(inv, layer_root, params):
     """Write the ``types/`` tables of one inventory; return its stats dict."""
     start_time = time.monotonic()
@@ -361,13 +403,17 @@ def type_inventory(inv, layer_root, params):
     cand_by_key = dict(cands)
     chain_set = {cands[i][0] for i in chain}
     chain_suffix = {k for k, c in cands if k in chain_set and c[1] == "pn_suffix"}
+    page_keys = sorted(pages, key=lambda k: (scan_order[k[0]], PAGE_ORDER.get(k[1], 1)))
+    page_pos = {k: i for i, k in enumerate(page_keys)}
+    chain_num = {cands[i][0]: cands[i][1][0] for i in chain}   # chain page key -> number
+    chain_sorted = sorted(page_pos[k] for k in chain_num)
 
     # pass 2: segments
     segs = []
     splits = Counter()
     n_index_pages = 0
     index_pages = []
-    for key in sorted(pages, key=lambda k: (scan_order[k[0]], PAGE_ORDER.get(k[1], 1))):
+    for key in page_keys:
         ordered, ref, cols = contexts[key]
         pw = page_w[key[0]]
         idx = _is_index_page(ordered, pw, med_w_rel, params, pats)
@@ -383,6 +429,9 @@ def type_inventory(inv, layer_root, params):
         for s in page_segs:
             if s["type_method"] == "rule:pn_line" and s["line_id"] != confirmed_id:
                 s["type_method"] = "rule:pn_line_offchain"
+        if params.offchain_retype:
+            _retype_offchain(page_segs, key, contexts[key][0], pats, params, page_pos[key],
+                             page_keys, chain_sorted, chain_num)
         segs.extend(page_segs)
         splits.update(sp)
     segs.sort(key=lambda s: (s["_order"], s["seg_idx"]))

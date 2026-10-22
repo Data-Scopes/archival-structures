@@ -1,0 +1,8 @@
+34 hand * page_number|rule:pn_line_offchain other|rule:year_offchain
+184 hand * page_number|rule:pn_line_offchain page_number|rule:pn_line_gap
+194 print 455 page_number|rule:pn_line_offchain other|rule:pn_line_offchain
+3 print 455 page_number|rule:pn_line_offchain other|rule:year_offchain
+1 print 455 page_number|rule:pn_line_offchain page_number|rule:pn_line_gap
+173 print 456 page_number|rule:pn_line_offchain other|rule:pn_line_offchain
+3 print 456 page_number|rule:pn_line_offchain page_number|rule:pn_line_gap
+changes in other columns: 0

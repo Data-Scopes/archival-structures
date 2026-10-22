@@ -1,0 +1,138 @@
+stratum	sub	inv	scan_id	page	band	type_method	line_type	text	page_confirmed	prev_confirmed	next_confirmed	other_band_numbers	gap	verdict
+hand-top	hand	3821	NL-HaNA_1.01.02_3821_0180	verso	top	rule:pn_line_offchain	page_number	4768	( 190 )		( 191 )	( 190 )	0	not_pn
+hand-top	hand	11281	NL-HaNA_1.01.02_11281_0836	recto	top	rule:pn_line_offchain	page_number	414.					0	unclear
+hand-top	hand	3823	NL-HaNA_1.01.02_3823_0434	recto	top	rule:pn_line_offchain	page_number	4768	(( 697 )	( 696 )	( 698 )	(( 697 )	0	not_pn
+hand-top	hand	3821	NL-HaNA_1.01.02_3821_0203	recto	top	rule:pn_line_offchain	page_number	( 437 )		( 236 )	( 238 )		0	pn
+hand-top	hand	3822	NL-HaNA_1.01.02_3822_0015	recto	top	rule:pn_line_offchain	page_number	1					0	unclear
+hand-top	hand	3351	NL-HaNA_1.01.02_3351_0093	recto	top	rule:pn_line_offchain	page_number	154.			152.		0	unclear
+hand-top	hand	3772	NL-HaNA_1.01.02_3772_0287	recto	top	rule:pn_line_offchain	page_number	( 319 )		518	520 )		0	pn
+hand-top	hand	3349	NL-HaNA_1.01.02_3349_0018	recto	top	rule:pn_line_offchain	page_number	0				29.	0	not_pn
+hand-top	hand	3821	NL-HaNA_1.01.02_3821_0355	verso	top	rule:pn_line_offchain	page_number	( 5387 ))		( 537 )		543	0	pn
+hand-top	hand	3352	NL-HaNA_1.01.02_3352_0020	recto	top	rule:pn_line_offchain	page_number	37.				1529.	0	not_pn
+hand-top	hand	3772	NL-HaNA_1.01.02_3772_0480	verso	top	rule:pn_line_offchain	page_number	( 930 )			( 901 )		0	pn
+hand-top	hand	3823	NL-HaNA_1.01.02_3823_0238	verso	top	rule:pn_line_offchain	page_number	( 904 )		( 303 )	( 305 )		0	pn
+hand-top	hand	3822	NL-HaNA_1.01.02_3822_0366	recto	top	rule:pn_line_offchain	page_number	( 367 )		( 566 )	( 568 )		0	pn
+hand-top	hand	3351	NL-HaNA_1.01.02_3351_0197	recto	top	rule:pn_line_offchain	page_number	25.		324.	326.	32	0	pn
+hand-top	hand	3771	NL-HaNA_1.01.02_3771_0436	recto	top	rule:pn_line_offchain	page_number	2716.		820 )	( 822	( 824 ) | 0	0	not_pn
+hand-top	hand	3823	NL-HaNA_1.01.02_3823_0275	recto	top	rule:pn_line_offchain	page_number	( 2379 )					0	unclear
+hand-top	hand	11182	NL-HaNA_1.01.02_11182_0105	verso	top	rule:pn_line_offchain	page_number	36			98.		0	not_pn
+hand-top	hand	3349	NL-HaNA_1.01.02_3349_0015	recto	top	rule:pn_line_offchain	page_number	23.					0	unclear
+hand-top	hand	3771	NL-HaNA_1.01.02_3771_0381	verso	top	rule:pn_line_offchain	page_number	770		( 709	( 711 )		0	pn
+hand-top	hand	3349	NL-HaNA_1.01.02_3349_0026	recto	top	rule:pn_line_offchain	page_number	45.					0	unclear
+hand-bottom	hand	3821	NL-HaNA_1.01.02_3821_0437	recto	bottom	rule:pn_line_offchain	page_number	260	( 703 )			( 703 ) | 100	0	not_pn
+hand-bottom	hand	3771	NL-HaNA_1.01.02_3771_0146	recto	bottom	rule:pn_line_offchain	page_number	3	( 245 )	244 )	( 246 )	( 245 )	0	not_pn
+hand-bottom	hand	3821	NL-HaNA_1.01.02_3821_0052	verso	bottom	rule:pn_line_offchain	page_number	591					0	unclear
+hand-bottom	hand	3822	NL-HaNA_1.01.02_3822_0047	recto	bottom	rule:pn_line_offchain	page_number	425					0	unclear
+hand-bottom	hand	3823	NL-HaNA_1.01.02_3823_0282	recto	bottom	rule:pn_line_offchain	page_number	564		( 392 )	( 394 )	2768 | ( 1393 ) | 43 )	0	not_pn
+hand-bottom	hand	11182	NL-HaNA_1.01.02_11182_0150	verso	bottom	rule:pn_line_offchain	page_number	76.					0	unclear
+hand-bottom	hand	11182	NL-HaNA_1.01.02_11182_0636	verso	bottom	rule:pn_line_offchain	page_number	11.					0	unclear
+hand-bottom	hand	3823	NL-HaNA_1.01.02_3823_0350	recto	bottom	rule:pn_line_offchain	page_number	64	( 529 )	( 528 )	( 530 )	( 529 )	0	not_pn
+hand-bottom	hand	3773	NL-HaNA_1.01.02_3773_0525	recto	bottom	rule:pn_line_offchain	page_number	100-	( 972 )	( 970 )		( 972 )	0	not_pn
+hand-bottom	hand	3821	NL-HaNA_1.01.02_3821_0055	recto	bottom	rule:pn_line_offchain	page_number	2					0	unclear
+hand-bottom	hand	3823	NL-HaNA_1.01.02_3823_0427	verso	bottom	rule:pn_line_offchain	page_number	10	( 682 )		( 683 )	( 682 )	0	not_pn
+hand-bottom	hand	11281	NL-HaNA_1.01.02_11281_0176	verso	bottom	rule:pn_line_offchain	page_number	10			170.		0	not_pn
+hand-bottom	hand	3823	NL-HaNA_1.01.02_3823_0417	verso	bottom	rule:pn_line_offchain	page_number	22		( 661 )			0	not_pn
+hand-bottom	hand	3822	NL-HaNA_1.01.02_3822_0369	recto	bottom	rule:pn_line_offchain	page_number	62	( 573 )	( 572 )	( 574 )	( 573 )	0	not_pn
+hand-bottom	hand	3823	NL-HaNA_1.01.02_3823_0208	recto	bottom	rule:pn_line_offchain	page_number	30	( 245 )	( 244 )	( 246 )	( 245 )	0	not_pn
+hand-bottom	hand	3823	NL-HaNA_1.01.02_3823_0012	recto	bottom	rule:pn_line_offchain	page_number	357					0	unclear
+hand-bottom	hand	3822	NL-HaNA_1.01.02_3822_0227	recto	bottom	rule:pn_line_offchain	page_number	442	( 291 )	( 290 )	( 292 )	( 291 )	0	not_pn
+hand-bottom	hand	3821	NL-HaNA_1.01.02_3821_0080	recto	bottom	rule:pn_line_offchain	page_number	245				572	0	unclear
+hand-bottom	hand	3823	NL-HaNA_1.01.02_3823_0180	recto	bottom	rule:pn_line_offchain	page_number	22.		( 188 )	( 190 )	4768 | ( 489 )	0	not_pn
+hand-bottom	hand	3352	NL-HaNA_1.01.02_3352_0017	recto	bottom	rule:pn_line_offchain	page_number	728.				31.	0	unclear
+print-top	print	456	NL-HaNA_1.10.94_456_0062	verso	top	rule:pn_line_offchain	page_number	( 288		( 107 )	( 109 )		0	pn
+print-top	print	456	NL-HaNA_1.10.94_456_0409	recto	top	rule:pn_line_offchain	page_number	( 101 )			( 802 )	91	0	pn
+print-top	print	455	NL-HaNA_1.10.94_455_0468	recto	top	rule:pn_line_offchain	page_number	1919 )		(918 )			0	pn
+print-top	print	455	NL-HaNA_1.10.94_455_0203	recto	top	rule:pn_line_offchain	page_number	1389 )				58	0	unclear
+print-top	print	456	NL-HaNA_1.10.94_456_0038	verso	top	rule:pn_line_offchain	page_number	( 69 )		( 59 )	( 61 )		0	pn
+print-top	print	455	NL-HaNA_1.10.94_455_0248	verso	top	rule:pn_line_offchain	page_number	0	( 478 )	( 479 )	( 481 )	( 478 )	0	not_pn
+print-top	print	456	NL-HaNA_1.10.94_456_0667	verso	top	rule:pn_line_offchain	page_number	( 1319 )		( 1315 )			0	unclear
+print-top	print	455	NL-HaNA_1.10.94_455_0194	recto	top	rule:pn_line_offchain	page_number	1371 )			( 370 )		0	unclear
+print-top	print	456	NL-HaNA_1.10.94_456_0104	verso	top	rule:pn_line_offchain	page_number	( 790 )		( 189 )	( 191 )		0	pn
+print-top	print	455	NL-HaNA_1.10.94_455_0494	verso	top	rule:pn_line_offchain	page_number	1970 )		( 971 )			0	unclear
+print-top	print	456	NL-HaNA_1.10.94_456_0657	recto	top	rule:pn_line_offchain	page_number	31			( 1296 )		0	not_pn
+print-top	print	455	NL-HaNA_1.10.94_455_0207	verso	top	rule:pn_line_offchain	page_number	1396)		(394. )			0	pn
+print-top	print	455	NL-HaNA_1.10.94_455_0050	verso	top	rule:pn_line_offchain	page_number	24)		( 83 )	( 85 )		0	pn
+print-top	print	455	NL-HaNA_1.10.94_455_0417	recto	top	rule:pn_line_offchain	page_number	( 837 )					0	unclear
+print-top	print	456	NL-HaNA_1.10.94_456_0458	verso	top	rule:pn_line_offchain	page_number	( 896 )		( 897 )	( 899 )		0	pn
+print-top	print	456	NL-HaNA_1.10.94_456_0311	verso	top	rule:pn_line_offchain	page_number	( 694 )		( 603 )	( 605 )		0	pn
+print-top	print	456	NL-HaNA_1.10.94_456_0529	recto	top	rule:pn_line_offchain	page_number	( 1044 )		( 1040 )	( 1042 )		0	pn
+print-top	print	455	NL-HaNA_1.10.94_455_0177	verso	top	rule:pn_line_offchain	page_number	1336 )		( 335 )			0	pn
+print-top	print	455	NL-HaNA_1.10.94_455_0545	verso	top	rule:pn_line_offchain	page_number	1		(1073 )	( 1074 )		0	not_pn
+print-top	print	456	NL-HaNA_1.10.94_456_0108	verso	top	rule:pn_line_offchain	page_number	( 598 )		( 197 )	( 199 )		0	pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0112	recto	bottom	rule:pn_line_offchain	page_number	31	(209 ).		(211 )	(209 ).	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0167	recto	bottom	rule:pn_line_offchain	page_number	41			(316 )	1317	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0199	recto	bottom	rule:pn_line_offchain	page_number	42				1321)	0	unclear
+print-bottom	print	455	NL-HaNA_1.10.94_455_0066	recto	bottom	rule:pn_line_offchain	page_number	21		( 116 )		1117	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0450	verso	bottom	rule:pn_line_offchain	page_number	4.		( 883 )		1282 )	0	not_pn
+print-bottom	print	456	NL-HaNA_1.10.94_456_0054	recto	bottom	rule:pn_line_offchain	page_number	2	( 93 )	( 92 )	( 94 )	( 93 )	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0485	recto	bottom	rule:pn_line_offchain	page_number	101			( 954 )	1953 )	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0355	recto	bottom	rule:pn_line_offchain	page_number	31	( 693 )		( 692 )	( 693 )	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0074	recto	bottom	rule:pn_line_offchain	page_number	21	(133 )	( 132 )	( 135 )	(133 )	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0701	recto	bottom	rule:pn_line_offchain	page_number	151			( 1384 )		0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0540	verso	bottom	rule:pn_line_offchain	page_number	21		( 1061 )		( 1068 )	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0707	recto	bottom	rule:pn_line_offchain	page_number	150	( 1397 )	( 1396 )	( 1398 )	( 1397 )	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0052	recto	bottom	rule:pn_line_offchain	page_number	7	( 89 )			( 89 )	0	not_pn
+print-bottom	print	456	NL-HaNA_1.10.94_456_0532	recto	bottom	rule:pn_line_offchain	page_number	1	( 1047 )	( 1046 )	( 1048 )	( 1047 )	0	not_pn
+print-bottom	print	456	NL-HaNA_1.10.94_456_0619	recto	bottom	rule:pn_line_offchain	page_number	26	( 1221 )		( 1222 )	( 1221 )	0	not_pn
+print-bottom	print	456	NL-HaNA_1.10.94_456_0392	verso	bottom	rule:pn_line_offchain	page_number	211	( 766 )	( 765 )	( 767 )	( 766 )	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0589	recto	bottom	rule:pn_line_offchain	page_number	130	1161 )	( 1160 )	(1162 )	1161 )	0	not_pn
+print-bottom	print	455	NL-HaNA_1.10.94_455_0323	recto	bottom	rule:pn_line_offchain	page_number	70			( 628 )		0	not_pn
+print-bottom	print	456	NL-HaNA_1.10.94_456_0111	recto	bottom	rule:pn_line_offchain	page_number	36		( 204 )	( 206 )	06 | ( 205 )	0	not_pn
+print-bottom	print	456	NL-HaNA_1.10.94_456_0083	recto	bottom	rule:pn_line_offchain	page_number	20	( 149 )	( 148 )	( 150 )	( 149 )	0	not_pn
+year	hand	3349	NL-HaNA_1.01.02_3349_0073	recto	bottom	rule:pn_line_offchain	page_number	1703.					0	not_pn
+year	hand	3349	NL-HaNA_1.01.02_3349_0088	verso	bottom	rule:pn_line_offchain	page_number	1703.			49.		0	not_pn
+year	hand	3349	NL-HaNA_1.01.02_3349_0142	verso	bottom	rule:pn_line_offchain	page_number	1703.			104.		0	not_pn
+year	hand	3349	NL-HaNA_1.01.02_3349_0190	verso	bottom	rule:pn_line_offchain	page_number	1703.			154.		0	not_pn
+year	hand	3349	NL-HaNA_1.01.02_3349_0200	recto	bottom	rule:pn_line_offchain	page_number	1703.					0	not_pn
+year	hand	3349	NL-HaNA_1.01.02_3349_0240	verso	bottom	rule:pn_line_offchain	page_number	1703.					0	not_pn
+year	hand	3349	NL-HaNA_1.01.02_3349_0335	recto	bottom	rule:pn_line_offchain	page_number	1703.					0	not_pn
+year	hand	3349	NL-HaNA_1.01.02_3349_0389	verso	bottom	rule:pn_line_offchain	page_number	1703.					0	not_pn
+year	hand	3349	NL-HaNA_1.01.02_3349_0462	recto	bottom	rule:pn_line_offchain	page_number	1703.					0	not_pn
+year	hand	3350	NL-HaNA_1.01.02_3350_0180	recto	bottom	rule:pn_line_offchain	page_number	1703.	143.			143.	0	not_pn
+year	hand	3350	NL-HaNA_1.01.02_3350_0338	verso	bottom	rule:pn_line_offchain	page_number	1703.					0	not_pn
+year	hand	3352	NL-HaNA_1.01.02_3352_0252	verso	bottom	rule:pn_line_offchain	page_number	1704.		213.	214		0	not_pn
+year	hand	3352	NL-HaNA_1.01.02_3352_0481	verso	bottom	rule:pn_line_offchain	page_number	1704.			442.		0	not_pn
+year	hand	3352	NL-HaNA_1.01.02_3352_0491	recto	bottom	rule:pn_line_offchain	page_number	1704.					0	not_pn
+year	hand	3352	NL-HaNA_1.01.02_3352_0873	recto	bottom	rule:pn_line_offchain	page_number	1770:					0	not_pn
+year	hand	3353	NL-HaNA_1.01.02_3353_0859	verso	bottom	rule:pn_line_offchain	page_number	1704.		824.	825.		0	not_pn
+year	hand	3823	NL-HaNA_1.01.02_3823_0075	verso	bottom	rule:pn_line_offchain	page_number	1621					0	not_pn
+year	hand	3823	NL-HaNA_1.01.02_3823_0110	verso	bottom	rule:pn_line_offchain	page_number	1768.	( 48 )		( 49 )	( 48 )	0	not_pn
+year	hand	3823	NL-HaNA_1.01.02_3823_0129	verso	bottom	rule:pn_line_offchain	page_number	1768.	( 86 )	( 85 )		( 86 )	0	not_pn
+year	hand	3823	NL-HaNA_1.01.02_3823_0133	verso	bottom	rule:pn_line_offchain	page_number	1766.	( 94 )	( 93 )	( 95 )	( 94 )	0	not_pn
+year	hand	3823	NL-HaNA_1.01.02_3823_0224	recto	bottom	rule:pn_line_offchain	page_number	1765		( 276 )	( 278 )	( 273 )	0	not_pn
+year	hand	3823	NL-HaNA_1.01.02_3823_0352	verso	bottom	rule:pn_line_offchain	page_number	1768	532			532	0	not_pn
+year	hand	11182	NL-HaNA_1.01.02_11182_0221	recto	bottom	rule:pn_line_offchain	page_number	1687.					0	not_pn
+year	hand	11182	NL-HaNA_1.01.02_11182_0465	recto	bottom	rule:pn_line_offchain	page_number	1687.					0	not_pn
+year	hand	11182	NL-HaNA_1.01.02_11182_0565	recto	bottom	rule:pn_line_offchain	page_number	1687.					0	not_pn
+year	hand	11182	NL-HaNA_1.01.02_11182_0570	verso	bottom	rule:pn_line_offchain	page_number	1686			560		0	not_pn
+year	hand	11281	NL-HaNA_1.01.02_11281_0053	recto	bottom	rule:pn_line_offchain	page_number	1718				6.	0	not_pn
+year	hand	11281	NL-HaNA_1.01.02_11281_0080	verso	bottom	rule:pn_line_offchain	page_number	1718.					0	not_pn
+year	hand	11281	NL-HaNA_1.01.02_11281_0135	recto	bottom	rule:pn_line_offchain	page_number	1718					0	not_pn
+year	hand	11281	NL-HaNA_1.01.02_11281_0239	verso	bottom	rule:pn_line_offchain	page_number	1712.		229.	230.		0	not_pn
+year	hand	11281	NL-HaNA_1.01.02_11281_0293	verso	bottom	rule:pn_line_offchain	page_number	1718.		283	284.		0	not_pn
+year	hand	11281	NL-HaNA_1.01.02_11281_0508	verso	bottom	rule:pn_line_offchain	page_number	1718		496.	497.		0	not_pn
+year	hand	11281	NL-HaNA_1.01.02_11281_0529	recto	bottom	rule:pn_line_offchain	page_number	1718	518.			518.	0	not_pn
+year	hand	11281	NL-HaNA_1.01.02_11281_0741	recto	bottom	rule:pn_line_offchain	page_number	1718.	724.			724.	0	not_pn
+year	print	455	NL-HaNA_1.10.94_455_0282	verso	bottom	rule:pn_line_offchain	page_number	1702.	(546 )	( 547 )	( 548 )	(546 )	0	not_pn
+year	print	455	NL-HaNA_1.10.94_455_0482	verso	bottom	rule:pn_line_offchain	page_number	1703	( 946 )		( 948 )	( 946 )	0	not_pn
+year	print	455	NL-HaNA_1.10.94_455_0640	recto	bottom	rule:pn_line_offchain	page_number	1703		(1260 )	( 1262 )		0	not_pn
+gap	hand	3772	NL-HaNA_1.01.02_3772_0547	recto	top	rule:pn_line_offchain	page_number	( 1035 )		( 1034 )	( 1036	2717.	1	pn
+gap	hand	3772	NL-HaNA_1.01.02_3772_0531	recto	top	rule:pn_line_offchain	page_number	( 1003		( 1002	1004 )	3	1	pn
+gap	hand	3823	NL-HaNA_1.01.02_3823_0254	recto	top	rule:pn_line_offchain	page_number	( 337 )		( 336 )	338	2768.	1	pn
+gap	hand	3821	NL-HaNA_1.01.02_3821_0170	verso	top	rule:pn_line_offchain	page_number	( 170 )		( 169 )	( 171 )	4766	1	pn
+gap	hand	3822	NL-HaNA_1.01.02_3822_0358	recto	top	rule:pn_line_offchain	page_number	( 551 )		( 550 )	( 552 )	4767 | 652	1	pn
+gap	hand	3822	NL-HaNA_1.01.02_3822_0441	verso	top	rule:pn_line_offchain	page_number	( 712 )		( 711 )	( 713 )	2	1	pn
+gap	hand	3823	NL-HaNA_1.01.02_3823_0285	recto	top	rule:pn_line_offchain	page_number	( 399 )		( 398 )		4768	1	pn
+gap	hand	3823	NL-HaNA_1.01.02_3823_0309	verso	top	rule:pn_line_offchain	page_number	( 446 )		( 445 )	( 447	2768	1	pn
+gap	hand	3823	NL-HaNA_1.01.02_3823_0290	recto	top	rule:pn_line_offchain	page_number	( 409 )		( 406 )		4768	1	pn
+gap	hand	3771	NL-HaNA_1.01.02_3771_0378	recto	top	rule:pn_line_offchain	page_number	( 705 )		704 )	( 706 )	1316.	1	pn
+gap	hand	3823	NL-HaNA_1.01.02_3823_0207	recto	top	rule:pn_line_offchain	page_number	( 243. )		( 242 )	( 244 )	4768. | 342	1	pn
+gap	hand	3771	NL-HaNA_1.01.02_3771_0235	recto	top	rule:pn_line_offchain	page_number	( 423 )		( 422	( 424	5716.	1	pn
+gap	hand	3823	NL-HaNA_1.01.02_3823_0299	recto	top	rule:pn_line_offchain	page_number	( (0427 )			( 428	2768 | 512	1	pn
+gap	hand	3821	NL-HaNA_1.01.02_3821_0265	verso	top	rule:pn_line_offchain	page_number	( 360 )		( 359 )	( 361 )	2766	1	pn
+gap	hand	3823	NL-HaNA_1.01.02_3823_0421	recto	top	rule:pn_line_offchain	page_number	( 671 )		( 670 )	( 672 )	2768 | 722	1	pn
+gap	hand	3822	NL-HaNA_1.01.02_3822_0185	recto	top	rule:pn_line_offchain	page_number	( 207 )		( 206 )	( 208 )	2767	1	pn
+gap	hand	3821	NL-HaNA_1.01.02_3821_0145	recto	top	rule:pn_line_offchain	page_number	( 121 )		( 120 )	( 122 )	176	1	pn
+gap	hand	11281	NL-HaNA_1.01.02_11281_0127	recto	top	rule:pn_line_offchain	page_number	121				21	1	unclear
+gap	hand	11281	NL-HaNA_1.01.02_11281_0767	recto	top	rule:pn_line_offchain	page_number	749				2. | 49.	1	unclear
+gap	hand	3823	NL-HaNA_1.01.02_3823_0179	recto	top	rule:pn_line_offchain	page_number	( 187 )		( 186 )	( 188 )	4768.	1	pn

@@ -65,7 +65,7 @@ def test_build_stage_layout(tmp_path):
     assert set(stats) == {"9999"} and params["overlap_threshold"] == 0.5
     assert params["column_merge_guard"] is True and stats["9999"]["n_column_blocked"] == 0
     header = gzip.open(root / "layout" / "scans" / "9999.tsv.gz", "rt").readline().split()
-    assert header[-1] == "n_column_blocked"
+    assert header[-1] == "n_regions_resorted"
     manifest = json.loads((root / "manifest.json").read_text())
     assert "layout" in manifest["stages"]
     first = (root / "layout" / "regions" / "9999.tsv.gz").read_bytes()
@@ -170,3 +170,31 @@ def test_print_column_split_and_furniture(tmp_path):
     lines = list(read_tsv_gz(root / "layout" / "lines" / "9998.tsv.gz"))
     first = {l["layout_region_id"]: l["line_id"] for l in lines if l["layout_line_idx"] == "0"}
     assert "c1a" in first.values()
+
+
+def test_sort_unchanged_lines(tmp_path):
+    from archival_structures.analysis.page_structure import LayoutParams
+    # one region whose XML order is out of y order; the last two lines share a row
+    regions = {"a": [("a0", 100, 300, 800, "drie", ""), ("a1", 500, 100, 300, "twee", ""),
+                     ("a2", 100, 104, 300, "een", "")]}
+    root = _synthetic_layer(tmp_path, regions)
+    st = layout_inventory("9998", root, LayoutParams(sort_unchanged_lines=True))
+    reg = list(read_tsv_gz(root / "layout" / "regions" / "9998.tsv.gz"))
+    assert len(reg) == 1 and reg[0]["change"] == "unchanged" and reg[0]["layout_region_id"] == "a"
+    assert reg[0]["lines_resorted"] == "1" and st["n_regions_resorted"] == 1
+    idx = {l["line_id"]: int(l["layout_line_idx"])
+           for l in read_tsv_gz(root / "layout" / "lines" / "9998.tsv.gz")}
+    assert idx == {"a2": 0, "a1": 1, "a0": 2}
+    scans = list(read_tsv_gz(root / "layout" / "scans" / "9998.tsv.gz"))
+    assert scans[0]["n_regions_resorted"] == "1"
+    st = layout_inventory("9998", root, LayoutParams(sort_unchanged_lines=False))
+    reg = list(read_tsv_gz(root / "layout" / "regions" / "9998.tsv.gz"))
+    assert reg[0]["lines_resorted"] == "0" and st["n_regions_resorted"] == 0
+    idx = {l["line_id"]: int(l["layout_line_idx"])
+           for l in read_tsv_gz(root / "layout" / "lines" / "9998.tsv.gz")}
+    assert idx == {"a0": 0, "a1": 1, "a2": 2}
+
+
+def test_print_preset_sorts_unchanged():
+    assert PRESETS["sg_1.10.94_v2"].layout_params["sort_unchanged_lines"] is True
+    assert "sort_unchanged_lines" not in PRESETS["sg_1.01.02_v2"].layout_params

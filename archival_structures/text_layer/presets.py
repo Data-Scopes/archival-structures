@@ -1,5 +1,6 @@
 """Layer presets and the throughput model (step 15). The only module holding VOC constants."""
 
+import dataclasses
 import heapq
 from dataclasses import dataclass
 from typing import Mapping, Optional
@@ -35,6 +36,11 @@ class LayerPreset:
     # step 15ir: characters dropped from the start of a line joined onto a break (when a letter
     # follows): the HTR reads a repeated break mark as "," in 11182 (v2 join only)
     join_lead_marks: str = ""
+    # step 15l: per inventory (key an inventory or "default"), characters dropped before a lower-case
+    # letter at the start of a joined line (a repeated break mark read as a letter, e.g. "J")
+    join_lead_marks_lower: Optional[Mapping[str, str]] = None
+    # step 15l: refuse a merge whose right side starts upper-case (boundary kind g_upper_right)
+    join_upper_guard: bool = False
 
 
 # seconds = intercept + slope * uncompressed PageXML bytes, per inventory and
@@ -71,6 +77,8 @@ SG_FURNITURE_PATTERNS = (
     r"\W*1[67]\d\d\W*",                                                    # running year "1717."
 )
 SG_LAYOUT_PARAMS = {"furniture_patterns": SG_FURNITURE_PATTERNS}
+# Step 15j: print also sorts the lines of unchanged regions by rows (hand keeps XML order).
+SG_PRINT_LAYOUT_PARAMS = {**SG_LAYOUT_PARAMS, "sort_unchanged_lines": True}
 # Step 15fq: hand merge precision 12/23 (0.52) < 0.90 in the error analysis, so the hand layer
 # runs without region merges (the brief's fallback); print keeps them (28/30).
 SG_HAND_LAYOUT_PARAMS = {**SG_LAYOUT_PARAMS, "merge": False}
@@ -90,8 +98,21 @@ SG_TYPE_PATTERNS = {
     "year_line": r"\W*1[67]\d\d\W*",
     "signature": r"[A-Z]{1,3}\s*\d{0,2}|\d\s*[A-Z]{1,3}",
 }
-SG_HAND_TYPES_PARAMS = dict(SG_TYPE_PATTERNS)
-SG_PRINT_TYPES_PARAMS = {**SG_TYPE_PATTERNS, "column_override": True}   # F06-15e.8
+# Step 15k, decision P6 (verdicts: reports/data/phase-09-text-layer-v3-prep/step-15k/pn_verdicts.tsv).
+# Bars: a band is retyped iff >= 16 of its 20 sampled off-chain numbers are not page numbers;
+# years iff >= 30 of 37.
+SG_HAND_TYPES_PARAMS = {
+    **SG_TYPE_PATTERNS,
+    "offchain_retype": True,
+    "offchain_other_bands": (),          # hand-top 6/20 not_pn, hand-bottom 12/20 not_pn -> kept
+    "offchain_years_other": True,        # years 37/37 not_pn -> other
+}
+SG_PRINT_TYPES_PARAMS = {
+    **SG_TYPE_PATTERNS, "column_override": True,   # F06-15e.8
+    "offchain_retype": True,
+    "offchain_other_bands": ("bottom",),  # print-top 3/20 not_pn -> kept; print-bottom 19/20 not_pn -> other
+    "offchain_years_other": True,        # years 37/37 not_pn -> other
+}
 
 
 SG_HAND_V2 = LayerPreset(
@@ -113,7 +134,8 @@ SG_HAND_V2 = LayerPreset(
     # (3349, 3350, 3351, 3353, 3354); 3352 derived `=„` and keeps the default.
     wbc_pinned={"default": "-=„", "11281": "-:=„", "3349": "-„", "3350": "-„", "3351": "-„",
                 "3353": "-„", "3354": "-„"},
-    join_lead_marks=",",   # F07-R.2
+    join_lead_marks=",",   # F07-R.2; 15l: also `,,` and `, ` (comma bar: 67/70 mark, >= 63 -> kept)
+    # 15l bars: upper-case merges wrong 24/40 (< 27) -> join_upper_guard stays False
 )
 
 # Step 15h: paragraph cues fitted on the dev split (455, even scans) against REPUBLIC paragraphs;
@@ -133,14 +155,25 @@ SG_PRINT_V2 = LayerPreset(
     split_region_tags=("index", "resolution", "untagged", "Text"),
     word_split="off",
     word_split_params={"min_token_len": 8, "min_part_count": 20, "split_penalty": 0},
-    layout_params=SG_LAYOUT_PARAMS,
+    layout_params=SG_PRINT_LAYOUT_PARAMS,
     types_params=SG_PRINT_TYPES_PARAMS,
     unit_params=SG_PRINT_UNIT_PARAMS,
     wbc_sanity_in=(),
     wbc_pinned={"default": "-=„"},
+    # 15l bars: 455 J+lower 30/30 mark (>= 27) -> pinned for 455 only; 456 (2/32 mark, real words) not
+    join_lead_marks_lower={"455": "J"},
+    # 15l bar: upper-case merges wrong 20/40 (< 27) -> join_upper_guard stays False
 )
 
-PRESETS = {"voc_v1": VOC_V1, "sg_1.01.02_v2": SG_HAND_V2, "sg_1.10.94_v2": SG_PRINT_V2}
+# Step 15m: the names the full SG run (text_layer_v3) uses. Same code path and parameters as v2
+# (format_version stays 2); only `name` and `description` differ.
+SG_HAND_V3 = dataclasses.replace(SG_HAND_V2, name="NL-HaNA_1.01.02_text_layer_v3",
+                                 description=SG_HAND_V2.description.replace("v2", "v3"))
+SG_PRINT_V3 = dataclasses.replace(SG_PRINT_V2, name="NL-HaNA_1.10.94_text_layer_v3",
+                                  description=SG_PRINT_V2.description.replace("v2", "v3"))
+
+PRESETS = {"voc_v1": VOC_V1, "sg_1.01.02_v2": SG_HAND_V2, "sg_1.10.94_v2": SG_PRINT_V2,
+           "sg_1.01.02_v3": SG_HAND_V3, "sg_1.10.94_v3": SG_PRINT_V3}
 
 
 def predict_seconds(xml_bytes, stage, fit):

@@ -6,6 +6,7 @@ returns, per segment, where it sits in the unit text, so that a token span maps 
 ``--stage wbc`` and ``--stage join`` for v2 layers. pagexml and pandas are imported inside functions.
 """
 
+import re
 import time
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -25,7 +26,8 @@ JOIN_SEGMENT_COLUMNS = ["scan_id", "unit_id", "seg_order", "line_id", "seg_idx",
                         "boundary_kind"]
 
 
-def join_unit(texts, wbcs, guards=ALL_GUARDS, both_ends_fix=True, lead_marks=""):
+def join_unit(texts, wbcs, guards=ALL_GUARDS, both_ends_fix=True, lead_marks="",
+              lead_marks_lower="", upper_guard=False):
     """Join a unit's segment texts (all non-empty, in ``seg_order``) like ``join_region``.
 
     Returns ``(text, spans, boundaries)``. ``spans[i] = (char_start, char_end, lead_dropped)`` with
@@ -37,7 +39,11 @@ def join_unit(texts, wbcs, guards=ALL_GUARDS, both_ends_fix=True, lead_marks="")
     next text, followed by a letter, is dropped as well (a break mark repeated on the next line
     that the HTR read as e.g. ``,``). ``lead_dropped`` is always the real number of leading
     characters missing from the unit text: it also counts a second leading break character the
-    library strips by itself (``["vande„", "„„selve", "meer"]``).
+    library strips by itself (``["vande„", "„„selve", "meer"]``). Step 15l: ``lead_marks`` strips one
+    or two marks and an optional single space (``", rant"``, ``",, den"``); ``lead_marks_lower``
+    strips one such character when a lower-case letter follows (``"Jdende"``, the repeated hyphen
+    read as ``J``; not before a capital); ``upper_guard`` refuses a merge whose right side then
+    starts upper-case (boundary kind ``g_upper_right``, both lines kept as they were).
     """
     from pagexml.helper.pagexml_helper import make_text_region_text
     n = len(texts)
@@ -60,9 +66,21 @@ def join_unit(texts, wbcs, guards=ALL_GUARDS, both_ends_fix=True, lead_marks="")
             continue
         if both_ends_fix and nxt[0] in wbcs:
             lines[i + 1] = nxt[1:]
-        if lead_marks and lines[i + 1][:1] in lead_marks and lines[i + 1][1:2].isalpha():
-            lines[i + 1] = lines[i + 1][1:]
-        lead[i + 1] = len(nxt) - len(lines[i + 1])
+        t = lines[i + 1]
+        if lead_marks:   # step 15l: one or two marks, an optional space, then a letter
+            m = re.match(f"[{re.escape(lead_marks)}]{{1,2}} ?(?=[^\\W\\d_])", t)
+            if m:
+                t = t[m.end():]
+        if lead_marks_lower and t[:1] in lead_marks_lower and t[1:2].islower():
+            t = t[1:]
+        if upper_guard and t[:1].isupper():   # step 15l: undo, no merge
+            boundaries[i] = ("g_upper_right", char or "")
+            lines[i + 1] = nxt
+            runs.append(current)
+            current = [i + 1]
+            continue
+        lines[i + 1] = t
+        lead[i + 1] = len(nxt) - len(t)
         current.append(i + 1)
     runs.append(current)
 
@@ -137,7 +155,7 @@ def write_word_break_stats_part_v2(inv, layer_root, robust=True):
 
 # ------------------------------------------------------------------ stage join worker
 
-def join_inventory_v2(inv, layer_root, wbcs, lead_marks=""):
+def join_inventory_v2(inv, layer_root, wbcs, lead_marks="", lead_marks_lower="", upper_guard=False):
     """Stage join for one inventory: join/units, join/segments and join/stats."""
     start = time.monotonic()
     root = Path(layer_root)
@@ -151,7 +169,8 @@ def join_inventory_v2(inv, layer_root, wbcs, lead_marks=""):
         full = [s for s in segs if s["text"]]
         n_empty += len(segs) - len(full)
         texts = [s["text"] for s in full]
-        text, spans, bounds = join_unit(texts, wbcs, lead_marks=lead_marks)
+        text, spans, bounds = join_unit(texts, wbcs, lead_marks=lead_marks,
+                                       lead_marks_lower=lead_marks_lower, upper_guard=upper_guard)
         merged = 0
         for i, (s, (cs, ce, lead_dropped)) in enumerate(zip(full, spans)):
             kind, char = bounds[i]
@@ -177,7 +196,7 @@ def join_inventory_v2(inv, layer_root, wbcs, lead_marks=""):
     write_tsv_gz(root / "join" / "segments" / f"{inv}.tsv.gz", JOIN_SEGMENT_COLUMNS, seg_rows)
     write_json_atomic(root / "join" / "stats" / f"{inv}.json", {
         "inventory_number": inv, "wbc_set": wbc_str, "guards": list(ALL_GUARDS),
-        "lead_marks": lead_marks,
+        "lead_marks": lead_marks, "lead_marks_lower": lead_marks_lower, "upper_guard": upper_guard,
         "n_units": n_units, "n_segments": n_segs, "n_empty_segments_dropped": n_empty,
         "n_offset_violations": n_violations,
         "boundary_kinds": dict(sorted(kinds.items())),

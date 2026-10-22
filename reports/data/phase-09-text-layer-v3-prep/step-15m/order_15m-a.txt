@@ -1,0 +1,9 @@
+455 merged {'regions': 352, 'jump_regions': 0, 'swap_pairs': 1, 'lines_resorted': 0}
+455 merged+split_at_column {'regions': 1427, 'jump_regions': 0, 'swap_pairs': 5, 'lines_resorted': 0}
+455 split_at_column {'regions': 2074, 'jump_regions': 0, 'swap_pairs': 6, 'lines_resorted': 0}
+455 unchanged {'regions': 4843, 'jump_regions': 0, 'swap_pairs': 1, 'lines_resorted': 182}
+456 merged {'regions': 3, 'jump_regions': 0, 'swap_pairs': 0, 'lines_resorted': 0}
+456 merged+split_at_column {'regions': 104, 'jump_regions': 0, 'swap_pairs': 0, 'lines_resorted': 0}
+456 split_at_column {'regions': 3470, 'jump_regions': 0, 'swap_pairs': 14, 'lines_resorted': 0}
+456 split_at_gutter {'regions': 1, 'jump_regions': 0, 'swap_pairs': 0, 'lines_resorted': 0}
+456 unchanged {'regions': 1145, 'jump_regions': 0, 'swap_pairs': 0, 'lines_resorted': 7}

@@ -428,11 +428,11 @@ def stage_units(run, inventories, sizes):
     """v2 stage (step 15h): units, reading order, doc_id map and REPUBLIC crosswalk under units/;
     inputs are only read."""
     from archival_structures.text_layer.units import (
-        REPUBLIC_PARAGRAPHS_DIR, UnitParams, unit_inventory)
+        UnitParams, unit_inventory)
     cli = json.loads(run.args.unit_params) if run.args.unit_params else {}
     params = UnitParams.from_dict({**(run.preset.unit_params or {}), **cli})
     print_mode = run.preset.merged_line_split == "on"
-    republic_dir = Path(run.args.republic_dir) if run.args.republic_dir else REPUBLIC_PARAGRAPHS_DIR
+    republic_dir = Path(run.args.republic_dir) if run.args.republic_dir else None
     needed = ("scans/{}.scans.tsv.gz", "regions_meta/{}.tsv.gz", "lines/{}.lines.tsv.gz",
               "layout/lines/{}.tsv.gz", "layout/regions/{}.tsv.gz", "types/segments/{}.tsv.gz")
     missing = [inv for inv in inventories
@@ -442,7 +442,9 @@ def stage_units(run, inventories, sizes):
     out = run.root / "units"
     out.mkdir(parents=True, exist_ok=True)
     republic_used = None
-    if print_mode:
+    if print_mode and republic_dir is None:
+        run.log("[units] WARNING: no --republic-dir given: no REPUBLIC crosswalk")
+    elif print_mode:
         have = [inv for inv in inventories if (republic_dir / f"paragraphs-{inv}.tsv.gz").exists()]
         if len(have) < len(inventories):
             lacking = [inv for inv in inventories if inv not in have]
@@ -458,7 +460,8 @@ def stage_units(run, inventories, sizes):
         start = time.monotonic()
         try:
             stats[inv] = unit_inventory(inv, run.root, params, print_mode=print_mode,
-                                        republic_path=republic_dir / f"paragraphs-{inv}.tsv.gz")
+                                        republic_path=(republic_dir / f"paragraphs-{inv}.tsv.gz"
+                                                        if republic_dir else None))
         except Exception as exc:  # noqa: BLE001 -- record and continue
             failures.append(inv)
             run.record({"inventory_number": inv, "stage": "units", "status": "failed",
@@ -662,7 +665,10 @@ def stage_join(run, inventories, sizes):
             else:
                 sets[inv] = default_set
         wbcs = sets[inv]
+        lml = ""
         if v2:
+            lml_pins = run.preset.join_lead_marks_lower   # step 15l, per inventory
+            lml = lml_pins.get(inv, lml_pins.get("default", "")) if lml_pins else ""
             stats_path = run.root / "join" / "stats" / f"{inv}.json"
             out_path = run.root / "join" / "units" / f"{inv}.tsv.gz"
         else:
@@ -673,9 +679,13 @@ def stage_join(run, inventories, sizes):
                    and out_path.exists()
                    and previous.get("wbc_set") == "".join(sorted(wbcs))
                    and previous.get("guards") == list(ALL_GUARDS)
-                   and (not v2 or previous.get("lead_marks", "") == run.preset.join_lead_marks))
+                   and (not v2 or (previous.get("lead_marks", "") == run.preset.join_lead_marks
+                                   and previous.get("lead_marks_lower", "") == lml
+                                   and previous.get("upper_guard", False)
+                                   == run.preset.join_upper_guard)))
         if not current:
-            todo.append((inv, (inv, str(run.root), wbcs, run.preset.join_lead_marks) if v2
+            todo.append((inv, (inv, str(run.root), wbcs, run.preset.join_lead_marks, lml,
+                               run.preset.join_upper_guard) if v2
                          else (inv, str(run.root), wbcs, run.args.write_events)))
     todo.sort(key=lambda t: -sizes[t[0]][1] if t[0] in sizes else 0)
     run.log(f"[join] {len(done) - len(todo)} already done with the current WBC set and guards, "

@@ -1,0 +1,26 @@
+{
+ "455": {
+  "regions_order_changed": {
+   "split_at_column": 119,
+   "unchanged": 182,
+   "merged+split_at_column": 97,
+   "merged": 24
+  },
+  "join_units_old": 28005,
+  "join_units_new": 27956,
+  "join_units_texts_only_in_old": 673,
+  "join_units_texts_only_in_new": 624
+ },
+ "456": {
+  "regions_order_changed": {
+   "split_at_column": 842,
+   "unchanged": 7,
+   "merged+split_at_column": 49,
+   "merged": 1
+  },
+  "join_units_old": 24710,
+  "join_units_new": 24515,
+  "join_units_texts_only_in_old": 1798,
+  "join_units_texts_only_in_new": 1603
+ }
+}

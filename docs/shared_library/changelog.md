@@ -4,6 +4,61 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.14.0 (2026-10-22)
+
+### Step 15m: v3 presets
+
+- New presets `text_layer.presets.SG_HAND_V3` and `SG_PRINT_V3`, registered in `PRESETS` as `sg_1.01.02_v3` and
+  `sg_1.10.94_v3` (CLI `--preset`). Every field equals the v2 preset except `name`
+  (`NL-HaNA_1.01.02_text_layer_v3`, `NL-HaNA_1.10.94_text_layer_v3`) and `description`; `format_version` stays 2. The
+  v2 presets are unchanged. Not pinned: pagexml-tools 0.9.1 is not on PyPI (2026-10-22).
+- Affected sibling imports: none.
+
+### Step 15l: continuation marks and the upper-case guard
+
+- `text_layer.presets.LayerPreset` has two new fields: `join_lead_marks_lower: Optional[Mapping[str, str]] = None` (per
+  inventory, keys an inventory or `"default"`) and `join_upper_guard: bool = False`. `SG_PRINT_V2` sets
+  `join_lead_marks_lower={"455": "J"}`; `join_upper_guard` stays off in both SG presets (bar not met).
+- `text_layer.join_v2.join_unit(..., lead_marks_lower="", upper_guard=False)` and
+  `join_inventory_v2(inv, layer_root, wbcs, lead_marks="", lead_marks_lower="", upper_guard=False)`; defaults give the
+  old output. New boundary kind `g_upper_right` (v2 only, only with `upper_guard`). `join/stats/<inv>.json` gains
+  `lead_marks_lower` and `upper_guard`; `build.stage_join` re-joins when they differ.
+- **Behaviour change (hand output):** `lead_marks` now also strips `,,` and `, ` before a letter (70 merges in `15k-a`).
+  The print 455 `join/units` and `join/segments` change too (2,172 `J` strips). `join.py` and `ALL_GUARDS` are unchanged.
+- Affected sibling imports: none (no sibling imports `join_unit` / `join_inventory_v2` / these preset fields).
+
+### Step 15k: page-number types, crosswalk role, units
+
+- `text_layer.types.TypeParams` has three new fields: `offchain_retype: bool = False`, `offchain_other_bands: tuple = ()`
+  (validated, subset of `("top", "bottom")`, `ValueError`) and `offchain_years_other: bool = False`. Defaults leave the
+  output unchanged. `from_dict` turns a list `offchain_other_bands` into a tuple. New `type_method` values
+  `rule:pn_line_gap` (stays `page_number`) and `rule:year_offchain` (`other`); with `offchain_other_bands` a
+  `rule:pn_line_offchain` segment can have `line_type` `other`.
+- **Behaviour change:** `SG_HAND_TYPES_PARAMS` and `SG_PRINT_TYPES_PARAMS` (`text_layer.presets`) switch `offchain_retype` on
+  (years `other` in both, bottom band `other` in print). Layers built with the SG presets differ from earlier ones in the
+  values of two `types/segments` columns (`line_type`, `type_method`) and the units derived from them.
+- `text_layer.units`: new `read_republic_roles(path)`; `republic_crosswalk(..., roles=None)` appends a `role` column and maps
+  a `split_original` id with role `end` to the last half; `REPUBLIC_COLUMNS` gains `"role"`; `units/stats.json` gains
+  `republic_crosswalk_roles`. `units.REPUBLIC_PARAGRAPHS_DIR` is removed (no sibling imports it, checked 2026-10-21).
+  `unit_inventory` builds `claimable` per scan (same output).
+- **Print builds now need `--republic-dir`:** without it the units stage logs a warning, writes `republic_dir: null` and no
+  `republic_lines/`. The AS code no longer names a LotA path.
+- Affected sibling imports: none.
+
+### Step 15j: row-tolerant line order
+
+- `analysis.page_structure.LayoutParams` has three new fields: `line_sort: str = "row"` (`"baseline"` | `"row"`),
+  `row_tol_frac: float = 0.2` (validated, `0 < x < 1`) and `sort_unchanged_lines: bool = False`. `LEGACY_15FP`
+  sets `line_sort="baseline"`.
+- New functions `sort_lines_by_row(lines, row_tol_frac)` and `sort_lines(lines, params)`; new kwarg
+  `row_tol_frac=None` on `merge_regions` and `split_regions_on_line_field` (`None` = the old baseline sort).
+- **Behaviour change:** the default `LayoutParams()` now sorts the lines of merges and column-split pieces by
+  printed row (same-row fragments left to right). Print output changes (455 +240 sorted regions reordered, 456
+  +892). `text_layer.presets.SG_PRINT_LAYOUT_PARAMS` (new) sets `sort_unchanged_lines=True` for `sg_1.10.94_v2`.
+- `text_layer.layout`: new `layout/regions` column `lines_resorted`, new `layout/scans` column and stat
+  `n_regions_resorted` (appended at the end of `LAYOUT_REGION_COLUMNS`, `LAYOUT_SCAN_COLUMNS`, `STAT_KEYS`).
+- Affected sibling imports: none (no sibling imports these names, checked 2026-10-21).
+
 ## v0.13.0 (2026-10-21)
 
 Phase 08 (region quality and duplicates), reviewed 2026-10-21. LotA `corpus/quality.py` and

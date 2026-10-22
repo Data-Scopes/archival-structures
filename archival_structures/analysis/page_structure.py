@@ -78,11 +78,20 @@ class LayoutParams:
     # step 15ir
     sort_split_lines: bool = True      # sort the lines of each piece of a column-split region
                                        # (``_line_sort_key``); False = source order (15fp)
+    # step 15j, P4: rows within row_tol_frac x median box h; planning measured baseline gaps
+    # < 15 px within a row, about 48 px between rows, h about 75 px
+    line_sort: str = "row"             # "baseline" (``_line_sort_key``) | "row"
+    row_tol_frac: float = 0.2
+    sort_unchanged_lines: bool = False  # layout: also sort the lines of ``unchanged`` regions
 
     def __post_init__(self):
         if self.gutter_rule not in ("gap", "main_edge", "auto"):
             raise ValueError(f"gutter_rule must be 'gap', 'main_edge' or 'auto', "
                              f"got {self.gutter_rule!r}")
+        if self.line_sort not in ("baseline", "row"):
+            raise ValueError(f"line_sort must be 'baseline' or 'row', got {self.line_sort!r}")
+        if not 0 < self.row_tol_frac < 1:
+            raise ValueError(f"row_tol_frac must be in (0, 1), got {self.row_tol_frac!r}")
 
     def to_dict(self):
         d = dataclasses.asdict(self)
@@ -99,7 +108,8 @@ class LayoutParams:
 
 LEGACY_15FP = LayoutParams(gutter_rule="gap", split_on_line_field="", furniture_patterns=(),
                            catchword_band=0.0, interleave_guard=False,
-                           column_merge_guard=False, sort_split_lines=False)
+                           column_merge_guard=False, sort_split_lines=False,
+                           line_sort="baseline")
 
 
 def region_box_id(scan_id: str, coords: pdm.Coords) -> str:
@@ -128,6 +138,36 @@ def _line_sort_key(line: pdm.PageXMLTextLine):
     else:
         y = line.coords.y + line.coords.h / 2
     return (y, line.coords.x, line.coords.y, line.id or "")  # ties: box top, then id
+
+
+def sort_lines_by_row(lines, row_tol_frac: float) -> list:
+    """Sort lines into printed rows (step 15j, P4: rows within ``row_tol_frac`` x median box h;
+    planning measured baseline gaps < 15 px within a row, about 48 px between rows, h about
+    75 px). Lines are walked in ``_line_sort_key`` order; a line joins the current row when its
+    baseline y minus the row's first line's baseline y is <= tol. Rows keep their order, each
+    row is sorted by (box x, baseline y, box top, id)."""
+    lines = list(lines)
+    if not lines:
+        return []
+    tol = row_tol_frac * statistics.median(l.coords.h for l in lines)
+    rows, row_y = [], None
+    for line in sorted(lines, key=_line_sort_key):
+        y = _line_sort_key(line)[0]
+        if rows and y - row_y <= tol:
+            rows[-1].append(line)
+        else:
+            rows.append([line])
+            row_y = y
+    return [l for row in rows
+            for l in sorted(row, key=lambda l: (l.coords.x, _line_sort_key(l)[0], l.coords.y,
+                                                l.id or ""))]
+
+
+def sort_lines(lines, params: "LayoutParams") -> list:
+    """Row sort or baseline sort, by ``params.line_sort``."""
+    if params.line_sort == "row":
+        return sort_lines_by_row(lines, params.row_tol_frac)
+    return sorted(lines, key=_line_sort_key)
 
 
 def _new_region(lines, metadata, types=(), id_fn=region_box_id) -> pdm.PageXMLTextRegion:
@@ -244,15 +284,21 @@ def get_overlapping_region_sets(regions: Sequence[pdm.PageXMLTextRegion],
 
 
 def merge_regions(regions: Sequence[pdm.PageXMLTextRegion], *, union_keys: Tuple[str, ...] = (),
-                  id_fn: Callable = region_box_id) -> pdm.PageXMLTextRegion:
+                  id_fn: Callable = region_box_id, row_tol_frac: Optional[float] = None
+                  ) -> pdm.PageXMLTextRegion:
     """Merge regions into one (port of the merge in republic's ``merge_overlapping_text_regions``).
 
     Lines are sorted by (baseline mean y, box left; ties by box top, then line id); coords are the hull of the lines; metadata
     is a union where the first member wins, except for ``union_keys``, whose list values are
     concatenated over the members (order kept, duplicates dropped). ``metadata["merged_from"]``
     lists the member ids, flattened through members that were themselves merged. Types are the
-    union. The id is ``id_fn(scan_id, coords)``."""
-    lines = sorted((line for r in regions for line in r.lines), key=_line_sort_key)
+    union. The id is ``id_fn(scan_id, coords)``. With ``row_tol_frac`` (step 15j) the lines are
+    sorted by ``sort_lines_by_row`` instead."""
+    all_lines = [line for r in regions for line in r.lines]
+    if row_tol_frac is None:
+        lines = sorted(all_lines, key=_line_sort_key)
+    else:
+        lines = sort_lines_by_row(all_lines, row_tol_frac)
     metadata = copy.deepcopy(regions[0].metadata or {})
     for r in regions[1:]:
         for key, value in (r.metadata or {}).items():
@@ -296,6 +342,7 @@ def merge_overlapping_text_regions(regions: Sequence[pdm.PageXMLTextRegion],
     passes = 0
     guard = params.interleave_width_frac if params.interleave_guard else None
     column_field = params.split_on_line_field if params.column_merge_guard else ""
+    row_tol = params.row_tol_frac if params.line_sort == "row" else None
     while True:
         # fresh dicts per pass: only the last pass (pairs of final regions) goes to the caller
         pass_blocked, pass_col_blocked = {}, {}
@@ -310,19 +357,21 @@ def merge_overlapping_text_regions(regions: Sequence[pdm.PageXMLTextRegion],
                 column_blocked.update(pass_col_blocked)
             return current, passes
         passes += 1
-        current = [s[0] if len(s) == 1 else merge_regions(s, union_keys=union_keys, id_fn=id_fn)
+        current = [s[0] if len(s) == 1 else merge_regions(s, union_keys=union_keys, id_fn=id_fn,
+                                                          row_tol_frac=row_tol)
                    for s in sets]
 
 
 # --- column split on a line field, furniture -----------------------------------------------
 
 def split_regions_on_line_field(regions: Sequence[pdm.PageXMLTextRegion], field: str, *,
-                                id_fn: Callable = region_box_id, sort_lines: bool = False
+                                id_fn: Callable = region_box_id, sort_lines: bool = False,
+                                row_tol_frac: Optional[float] = None
                                 ) -> Tuple[List[pdm.PageXMLTextRegion], int]:
     """Split each region into one region per value of ``line.metadata[field]`` (missing = '').
     A region with one value is returned as the same object. Otherwise the groups are ordered by
     first occurrence, lines keep their order (or, with ``sort_lines``, are sorted by
-    ``_line_sort_key`` within each piece; never for an unsplit region), coords are the hull, and
+    ``_line_sort_key`` within each piece; or by ``sort_lines_by_row`` when ``row_tol_frac`` is given; never for an unsplit region), coords are the hull, and
     ``metadata["column_split_from"] = [original id]``. Returns (regions, number of regions split)."""
     out, n_splits = [], 0
     for region in regions:
@@ -335,7 +384,8 @@ def split_regions_on_line_field(regions: Sequence[pdm.PageXMLTextRegion], field:
         n_splits += 1
         for lines in groups.values():
             if sort_lines:
-                lines = sorted(lines, key=_line_sort_key)
+                lines = (sorted(lines, key=_line_sort_key) if row_tol_frac is None
+                         else sort_lines_by_row(lines, row_tol_frac))
             metadata = copy.deepcopy(region.metadata or {})
             metadata["column_split_from"] = [region.id]
             out.append(_new_region(lines, metadata, sorted(region.types), id_fn))
