@@ -759,7 +759,7 @@ def main(argv=None):
                         help="stage units: JSON UnitParams overriding the preset's")
     parser.add_argument("--republic-dir", default=None,
                         help="stage units (print): directory with REPUBLIC paragraphs-<inv>.tsv.gz "
-                             "for the line-id crosswalk (default: LotA's data/paragraphs)")
+                             "for the line-id crosswalk (without it, print builds have no crosswalk)")
     args = parser.parse_args(argv)
     if args.pagexml_dir is None and args.stage not in ("wordfix", "layout", "types", "units") + (
             ("wbc", "join") if PRESETS[args.preset].format_version == 2 else ()):

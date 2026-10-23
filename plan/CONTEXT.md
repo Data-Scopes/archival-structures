@@ -27,7 +27,8 @@
   - `15m-a/{hand,print}/` (v3 presets) is the current code's output (= `15l-a`; dev only). Compare
     new work against it; `15ir-a` is the phase-09 start;
   - never rebuild into a published dir. A new version gets a new name (D17); the full SG run is
-    `text_layer_v3`; its commands are in `docs/text_layer.md` *Text layer v3* and wait for UA-015.
+    `text_layer_v3`. The user runs it from an external drive with `scripts/run_text_layer_v3_full.py` (step 15n,
+    UA-015); sessions never touch the drive and only get the log's summary lines.
 - **Audit tooling:** `reports/data/phase-09-text-layer-v3-prep/step-15m/{audit,rows116}.py --layer <base>`
   (glob `*_text_layer_v*`; `rows116.py` needs `rows116_verdicts.tsv` beside it). Metrics:
   `reports/data/phase-09-text-layer-v3-prep/planning/` (`order`, `pn_offchain`, `merges`, `crosswalk`,
@@ -117,8 +118,9 @@
 ## 4. Open follow-ups for the next phase
 
 From phase 09 (reviewed 2026-10-22; report *Follow-ups*):
-- The full `text_layer_v3` run and its publication after UA-015 (staging; REPUBLIC paragraphs as a
-  `shared-data` dataset). The run kit is in `docs/text_layer.md`; fit an SG throughput model from it.
+- The full `text_layer_v3` run (the user runs it, UA-015) and its publication (the layer may not fit locally). Print
+  inventories other than 455/456 have no REPUBLIC paragraphs. Fit an SG throughput model from the run's `status.tsv`.
+- A full-run audit: the step-15m audit has fixed pilot lists and reads `15i-src` (F09-15n.3).
 - Hand-bottom off-chain numbers: crop verdicts for the 8 `unclear` sample rows, then the bar (F09-R.5).
 - `_pn_candidate`: pick the band number that fits the chain (the 188 gap rows lost the slot).
 - A mark rule for capitals (F09-15l.5), then re-test `g_upper_right` with the same 27/40 bar.

@@ -220,6 +220,7 @@ download_thumbnails.py
 !/scripts/simulate_corruption.py
 !/scripts/convert_generale_missiven.py
 !/scripts/release.py
+!/scripts/run_text_layer_v3_full.py
 /notebooks/*
 !/notebooks/demo/
 /archival_structures/clustering/docs/

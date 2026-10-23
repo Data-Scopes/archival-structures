@@ -100,3 +100,17 @@ to calibrate and score the filter (precision on the 51 artefact rows). Not start
   - AS should port it so it becomes part of AS.
 - Should the new layer cover all SG inventories now (the AS audit suggests so) or the six above first?
   - It should cover all SG inventories.
+## 7. Request: a `text_layer_v3` pilot first (LotA, 2026-10-23, LotA UA-017 a)
+
+LotA's hand–print work (its step 2.7 part B: reader update, re-alignment, re-drawn 02d sheet; §4 above) needs
+only hand 3349, 3350, 3352, 3353 and print 455, 456. The user decided that LotA builds it on the **v3 code**, not on
+the published `text_layer_v2`, so the sheet is re-labelled once, on the fixed reading order and join marks.
+
+- **Asked:** publish a v3 pilot to shared-data: the `sg_1.01.02_v3` / `sg_1.10.94_v3` presets on the local pilot
+  inventories (as dev layer `15m-a`), at least the six above, same manifest/audit protocol as `text_layer_v2`. This
+  needs no external drive. It is AS UA-015 option (a), restricted to the pilot inventories.
+- **Unchanged:** the §6 answer "cover all SG inventories" still stands for the full run. LotA needs full coverage
+  for its step 7.5 (adopt the regenerated SG TSVs), which is not planned yet; its timing and the hand/print split
+  inside 1.01.02 stay with AS UA-015.
+- LotA changes no code until the pilot is published (as §8 of LotA's `docs/from-archival-structures.md` says).
+- **Done** 2026-10-23 (AS step 15o): published at `shared-data/NL-HaNA_1.01.02/text_layer_v3/` and `shared-data/NL-HaNA_1.10.94/text_layer_v3/` (pilot inventories, `coverage: partial`); LotA's §9 in `docs/from-archival-structures.md`.

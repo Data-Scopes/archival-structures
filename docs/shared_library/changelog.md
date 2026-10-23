@@ -4,6 +4,15 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.14.1 (2026-10-23)
+
+### Step 15n: hand-off script for the full `text_layer_v3` run
+
+- New `scripts/run_text_layer_v3_full.py` (not part of the package). It runs the v3 build with inputs and output on
+  an external drive. No public API change.
+- `as-build-text-layer --republic-dir` help: the option has no default since 15k, and the text no longer names LotA's
+  dir. No sibling import is affected.
+
 ## v0.14.0 (2026-10-22)
 
 ### Step 15m: v3 presets

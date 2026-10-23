@@ -237,3 +237,61 @@
 - **Blocks:** nothing in phase 08. It only decides whether phase 10 gets a `text_extent` step.
 - **Response:** a
 - **Resolved 2026-10-21 (phase-08 implementation session):** answered (a). Phase 10 (optional) gets a `text_extent` step with both additive options: a region-type filter for `top`/`bot` (types as a parameter, default all regions) and margin-gap columns (`bot - stable_bot` and the top equivalent), with tests and an NLP re-check of its report/84 numbers. Recorded in `plan/PLAN.md` (row 10), `plan/CONTEXT.md` (sibling requests) and `docs/from-nlp-start-page-detection.md` (AS status).
+
+### UA-016 Free disk space for staging the compressed PageXML (2026-10-22, from the disk-space audit)
+- **Action:** **Decide** which groups of `docs/audits/disk_space_2026-10-22.md` to clear, then **Run** that file's
+  *Commands* blocks for them. The volume has 20 GiB free. The audit lists A (redundant, 2.0 GiB), B (superseded, 5.4),
+  C (compress, 3.8 net) and D (move to the external drive, 36.8; 16.4 of it in AS) across AS, LotA, NLP, republic,
+  republic-segmentation and shared-data. Nothing has been changed yet.
+- **Options:** (a) A only. (b) A + B + the AS rows of C and D, about 26 GiB; no sibling's active work is touched
+  (B removes only NLP resume checkpoints and a LotA venv that its `CLAUDE.md` does not use). (c) everything, about
+  48 GiB; first ask NLP about `output/embeddings` and the CSV paths, and republic about its two fastText models. (d) name
+  rows in **Response**. Recommended: (b). Run the C block for the 8 SG pilot inventories only after UA-015 item 1.
+- **Default if unanswered:** nothing is removed or moved; the staging for UA-015 stays limited to the 20 GiB free.
+- **Status:** the user chose (b) in chat on 2026-10-22. Done: D (AS) moved; C packed the 6 other archives' PageXML
+  (2026-10-22, file counts checked). Still open: removing `15fr-a`/`15hj-a` (copied, partly deleted), A, the B removals,
+  and the C block for the 8 pilot inventories (after UA-015).
+- **Blocks:** staging the PageXML for UA-015 beyond what fits in 20 GiB.
+- **Response:**
+- **Resolved 2026-10-22 (same session):** answered (b) in chat, not in this field. The user moved D (AS) to the drive and ran A and B. I packed C (the other 6 archives' PageXML as `.tar.gz`, file counts checked) and removed the two partly deleted dev layers' permission block. The C block for the 8 pilot inventories is dropped: UA-015 (rewritten) reads them in place. Free space went from 20 to about 46 GiB. The disk clean-up made 11 local-data tests fail; they now skip (F09-15n.4). Details: `docs/audits/disk_space_2026-10-22.md`.
+
+### UA-015 Run the full `text_layer_v3` build from an external drive (2026-10-22, from step 15m; rewritten after step 15n)
+- **Action:** **Decide** the scope, then **Run** `scripts/run_text_layer_v3_full.py` yourself. The local disk can't hold
+  the PageXML (UA-016), so the inputs and the layer live on your drive. The script's docstring is the manual
+  (`.venv/bin/python scripts/run_text_layer_v3_full.py --help`).
+  1. On the drive, put one dir of hand archives (`NL-HaNA_1.01.02_<inv>-pagexml.tar.gz`, `.zip` or a dir of that name)
+     and one of print archives (`NL-HaNA_1.10.94_<inv>.zip`, or `.tar.gz`). The 14 pilot inventories are local
+     already: pass their dirs as extra `--hand-src`/`--print-src` sources (lower priority), as below.
+  2. REPUBLIC paragraphs exist only for print 455 and 456 (LotA). Other print inventories build without the line-id
+     crosswalk; the script warns.
+  3. **Run** from `/Users/marijnkoolen/Code/Huygens/archival-structures` (replace the `<drive>/…` placeholders):
+     ```
+     D=/Users/Shared/claude_projects/data_scopes
+     .venv/bin/python scripts/run_text_layer_v3_full.py --check-only \
+       --hand-src <drive>/sg_hand --hand-src $D/shared-data/NL-HaNA_1.01.02/pagexml --hand-src data/PageXML/NL-HaNA/NL-HaNA_1.01.02 \
+       --print-src <drive>/sg_print --print-src $D/shared-data/NL-HaNA_1.10.94/pagexml \
+       --republic-dir $D/language-of-the-archive/data/paragraphs/NL-HaNA_1.10.94 --out-dir <drive>/text_layer_v3
+     ```
+     It prints the inventory counts, the predicted output size (about 0.1 x the XML) and a time range, and checks the
+     free space on the drive. Then run the same command with `--limit 1 --out-dir <drive>/text_layer_v3_smoke`, and
+     then without `--check-only`. After an interruption, rerun the same command: it resumes. The log is
+     `<drive>/text_layer_v3/run_v3.log`. For a subset, add `--hand-inventories-file F` (one inventory per line).
+  4. Afterwards, tell a session the counts in the log's last lines; publishing to `shared-data` is a separate decision,
+     because the layer may not fit locally.
+- **On hold (2026-10-23):** don't run the script yet. The user pointed out that the full SG corpus is 9,122 inventories
+  in 1.01.02, whose hand/print split is mostly unknown and includes mixed volumes. AS treats 1.01.02 as hand and 1.10.94
+  as print because the presets are keyed by archive, a leftover of the pilot (see the chat of 2026-10-23). The scope
+  question below replaces the earlier one.
+- **Options:** (a) build only what LotA needs next (the hand inventories of the years it aligns, plus their print
+  volumes), with the current presets; (b) all 9,122 with the hand preset, flagged in the manifest as untested on printed
+  and mixed volumes (about 400 GB of XML in, 40 GB of layer out, estimated from the pilot); (c) first plan a phase that
+  removes the archive-level hand/print split (choose the parameters per page or per region from the layout), then run;
+  (d) later. Recommended: (a) now and (c) in phase 10 planning.
+- **Default if unanswered:** no full run; the pilot `text_layer_v2` in shared-data stays the only published layer.
+- **Blocks:** only the `text_layer_v3` build and its publication.
+- **Response:** (a): for now only the local pilot inventories, published to shared-data as a v3 pilot (LotA request, docs/from-language-of-the-archive.md §7). Full-run scope later, with (c) in phase 10 planning.
+- **Resolved 2026-10-23:** (a), restricted to the local pilot. Step 15o published the v3 pilot (dev layer `15n-a`, the
+  14 hand + 2 print pilot inventories) to `shared-data/NL-HaNA_1.01.02/text_layer_v3/` and
+  `shared-data/NL-HaNA_1.10.94/text_layer_v3/`, `coverage: partial`, audit 178/182; LotA notified in its
+  `docs/from-archival-structures.md` §9. The script was not run; the full-run scope and option (c) go to phase 10
+  planning (`plan/PLAN.md` row 10). A full run will be a new layer version.

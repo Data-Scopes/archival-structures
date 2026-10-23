@@ -565,6 +565,34 @@ inventories (3771-3773, 3821-3823, 11182, 11281) are in `data/text_layer_v2_dev/
 staged under `shared-data/NL-HaNA_1.01.02/pagexml/` for the full hand run (UA-015). After the build run
 `reports/data/phase-09-text-layer-v3-prep/step-15m/audit.py --layer data/text_layer_v3_full/` on the base directory.
 
+**Running on an external drive.** `scripts/run_text_layer_v3_full.py` (step 15n) wraps the commands above for inputs and
+output that live on a drive: it links the PageXML of several `--hand-src` / `--print-src` dirs into one local input dir
+(first source wins), checks the dirs, the subset files, the REPUBLIC coverage and the free space (the output is predicted
+from the pilot ratios; it stops below 1.2 times that), runs `--estimate` and the build through `coreshare`, then the audit.
+Its docstring is the manual: run it with `--check-only`, then with `--limit 1 --out-dir <other dir>`, then without; after an
+interruption rerun the same command. The log is `<out-dir>/run_v3.log`. On the local pilot sources it reproduces `15m-a`
+(`15n-a`).
+
+## Published SG pilot (text_layer_v3)
+
+Published 2026-10-23 (phase 09, step 15o) from the dev layer `data/text_layer_v2_dev/15n-a` (built from git head
+`fa5cc63`, v0.14.0, by `scripts/run_text_layer_v3_full.py`; equal to `15m-a` up to path columns), `coverage: partial`:
+
+| Path (under `/Users/Shared/claude_projects/data_scopes/shared-data/`) | Content |
+|---|---|
+| `NL-HaNA_1.01.02/text_layer_v3/` | hand, 14 inventories: 3349-3354, 3771-3773, 3821-3823, 11182, 11281 (preset `sg_1.01.02_v3`) |
+| `NL-HaNA_1.10.94/text_layer_v3/` | print, 455 and 456 (preset `sg_1.10.94_v3`) |
+
+Without `progress.log` and `status.tsv`; `manifest.json` has a `publication` key (sources and sha256, audit 178/182,
+counts, 116-row prediction, known gaps). Audit through symlinks:
+`data/text_layer_v2_dev/15o-pub/{hand,print}`; result in `reports/data/phase-09-text-layer-v3-prep/step-15o/audit_published.json`.
+
+**Known gaps.** `stages.*.argv`, `scans.member` and `extract_stats` `source` name dev paths
+(`data/text_layer_v3_full_inputs/...`); the stage `version` field says 0.13.0 (stale install metadata); four merge shares
+below 0.95 (3351, 3823, 455, 456; reported); glued words are not repaired (UA-003); print REPUBLIC paragraphs come from
+LotA `data/paragraphs/`; pilot inventories only, a full SG run will be a new version. What changed since v2 is in
+*Text layer v3 (phase 09)* below.
+
 ## Provenance
 
 `manifest.json` holds the layer-level keys `layer`, `row_order`, `columns`, `format`,

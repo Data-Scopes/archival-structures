@@ -1,3 +1,4 @@
+import os
 import unittest
 
 from PIL import Image
@@ -9,6 +10,8 @@ class TestSelection(unittest.TestCase):
 
     def setUp(self) -> None:
         self.image_file = 'data/thumbs/NL-AsnDA/NL-AsnDA_0114.11/NL-AsnDA_0114.11_1/thumb-width_300-scan-NL-AsnDA_0114.11_1_0002.jp2.png'
+        if not os.path.exists(self.image_file):
+            self.skipTest("thumbnail not on disk: data/thumbs was moved off the local disk (docs/audits/disk_space_2026-10-22.md)")
         self.im = Image.open(self.image_file)
         self.im_w, self.im_h = self.im.size
         self.scan_width = 4904

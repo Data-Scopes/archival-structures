@@ -62,6 +62,13 @@ marked `withdrawn`, not deleted.
 | F09-15m.5 | Of 20 changed `join/units` texts read (`Random(101)` over 1,640), 13 are the 455 `J` mark (all better), 6 are the row sort (all better by hyphen pairs that now join: "toeko-" + "men.", "Cel." + "derlandt."), 1 neutral; 0 worse | result | sg, print, join | confirmed | [Step 15m](#step-15m-v3-presets-integrated-dev-build-run-kit) |
 | F09-15m.6 | Pin: pagexml-tools 0.9.1 is not on PyPI on 2026-10-22 (latest 0.9.0), so nothing is pinned and the 0.9.0 workarounds stay; UA-007 stays open (its Response says the fix waits for the release) | open-issue | pagexml-tools | confirmed | [Step 15m](#step-15m-v3-presets-integrated-dev-build-run-kit) |
 | F09-15m.7 | The full run needs 8 hand inventories not in `shared-data` (only 3349-3354 are staged), the print inventories beyond 455/456 and REPUBLIC paragraphs outside LotA's `data/`; the run kit is smoke-tested (`--limit 1`, exit 0) and the staging is UA-015 | open-issue | sg, run-kit | confirmed | [Step 15m](#step-15m-v3-presets-integrated-dev-build-run-kit) |
+| F09-15n.1 | `scripts/run_text_layer_v3_full.py` reproduces `15m-a` on the local pilot sources (`15n-a`): `compare.py` hand 215 equal / 22 differ, print 49 / 2, and every difference is a source path (`scans/` `member` of the 8 directory inventories, `extract_stats` `source` of all 16), which now names the input link; audit 178 / 182 as `15m-a` | result | sg, run-kit | confirmed | [Step 15n](#step-15n-hand-off-script-for-the-full-text_layer_v3-run) |
+| F09-15n.2 | The step's time prediction (pilot worker-seconds per input byte / `--want`) was 4.6x too low: one inventory is one task (455 alone about 185 s), coreshare granted 5 and 4 workers, and the hand pilot mixes flat XML dirs with tars, so bytes undercount tars about 4x. Fixed in review: per XML byte (archives x 4.16), range max(worker-s / workers, largest inventory) to 3x that; pilot actuals hand 2.6 min and print 4.8 min fall in the predicted 1-3 and 4-12 min | method | run-kit, estimate | confirmed | [Step 15n](#step-15n-hand-off-script-for-the-full-text_layer_v3-run) |
+| F09-15n.3 | `audit.py` (step 15m) is pilot-specific: fixed inventory lists, sources read from `15i-src`, the four lower-case share failures; on the full run it can crash or fail, and the script logs that and goes on | open-issue | audit, run-kit | confirmed | [Step 15n](#step-15n-hand-off-script-for-the-full-text_layer_v3-run) |
+| F09-15n.4 | The UA-016 clean-up broke 11 local-data tests (9 image tests read `data/thumbs`, 2 opening-detection tests read `data/PageXML/<archive>/` that are now tars). They now skip with a pointer to the audit; suite 1,202 passed, 11 skipped | open-issue | tests, disk | confirmed | [Step 15n](#step-15n-hand-off-script-for-the-full-text_layer_v3-run) |
+| F09-15o.1 | The `text_layer_v3` pilot is published to shared-data (hand 305 MB, print 84 MB); the audit of the published copies reproduces `15n-a` exactly: 178 pass, 4 fail, same invariants, same `counts`, and the v2 dirs and dev layers `15m-a`/`15n-a` are byte-identical before and after | result | sg, publication | confirmed | [Step 15o](#step-15o-v3-pilot-publication) |
+| F09-15o.2 | The 8 archive sha256s equal the ones in the published v2 manifests, so v3 reads the same PageXML as v2; hand 3771-3773, 3821-3823, 11182, 11281 are directories identified by file count only, not by hash (the v2 manifests have the same gap) | data-property | sg, provenance | confirmed | [Step 15o](#step-15o-v3-pilot-publication) |
+| F09-15o.3 | The first rows of 455 (scan 0003, a title page) are OCR junk ("LINULA", "HOOOI MOCICC ICCTCIDACCH"), typed `running_header`; the main-text rows of scan 0100 read in order within a column with no column interleave, but show residual OCR noise ("0Is ter", "sou-cie van de") | data-property | sg, print, ocr | confirmed | [Step 15o](#step-15o-v3-pilot-publication) |
 | F09-R.1 | The review re-run reproduces the phase: AS 1,205 and NLP 66 passed; v1 `TOTAL 157 / 157`; `15m-a` = `15l-a` (0 of 288 tables differ); same-row swaps 13 / 14, 0 jump regions; 188 gap, 367 + 37 retyped; audit 178 / 182 | result | sg, phase | confirmed | [Review](#review) |
 | F09-R.2 | Joining `units/republic_lines` of `15ir-a` and `15m-a` on `republic_line_id`, only the 513 `split_original` rows with role `end` change; the "plus 30 `unmatched` rows" in the 15m Part 3 table is not reproduced | method | sg, crosswalk | confirmed | [Review](#review) |
 | F09-R.3 | Read in the layer, 2 of the 116 rows are now free of their artefact. Row 23's print text "vanJder" is "vander". Row 188's print tokens are found exact, in reading order. Relabelled, the share free would be 63/116 = 0.543 (bound 0.569); the static verdicts give 0.526 / 0.560. LotA re-checks after re-alignment (D19) | result | sg, rows116, lota | confirmed | [Review](#review) |
@@ -387,6 +394,77 @@ which lines meet at a column end. Of the 4 audit failures only the numbers moved
 **Open issues.** The 116-row verdicts of rows 23 and 188 are stale (see above); relabelling is the phase review's call.
 455's lower-case share is 0.9477, 0.002 below the target. UA-015 (staging) and UA-007 (0.9.1) are open.
 
+### Step 15n: hand-off script for the full text_layer_v3 run
+
+*Post-review addendum (2026-10-22): Sonnet implemented it and Opus reviewed it in the same session.* The local disk cannot hold all SG PageXML
+(UA-015, UA-016), so the user runs the full build with inputs and output on an external drive. The script links the
+PageXML of several source dirs into one local input dir (the first source wins), then checks:
+- the dirs and subset files;
+- the REPUBLIC coverage;
+- the free space against the predicted output.
+
+It then runs `--estimate` and the build through `coreshare`, and finally the audit. It adds nothing to the
+library; the build's `--republic-dir` help no longer names LotA's dir, a default that 15k removed.
+
+**Acceptance** (local pilot sources):
+- `--check-only` finds hand 14, print 2, REPUBLIC 2/2;
+- `--limit 1` exits 0;
+- the full run `15n-a` equals `15m-a` but for source paths (F09-15n.1).
+
+**Review.**
+- The prediction was rewritten (F09-15n.2).
+- `scripts/run_text_layer_v3_full.py` was un-ignored in `.gitignore`.
+- The 11 failing tests were traced to the disk clean-up, not to this step, and now skip (F09-15n.4).
+
+**Findings:** F09-15n.1 - F09-15n.4.
+
+### Step 15o: v3 pilot publication
+
+The user authorised publication of the v3 code's output on the local pilot inventories (UA-015 a, restricted). The
+dev layer `15n-a` was copied (`cp -R`) to `shared-data/NL-HaNA_1.01.02/text_layer_v3/` (hand, 14 inventories, 305 MB) and
+`shared-data/NL-HaNA_1.10.94/text_layer_v3/` (print, 455 and 456, 84 MB), without `progress.log` and `status.tsv`, and made
+group-writable. `publish_manifest.py` added a `publication` key to both manifests (producer, AS 0.14.0 at `fa5cc63`,
+audit summary, counts, the 116-row prediction, known gaps, schema pointer, sources with sha256 or file count; print also
+the REPUBLIC paragraph files with sha256). The shared-data README (2 rows, 1 changelog line), LotA
+`docs/from-archival-structures.md` (§9 and a pointer in §8), AS `docs/text_layer.md` and
+`docs/from-language-of-the-archive.md` (§7 *Done* line) were edited. No library code changed.
+
+**Acceptance.**
+
+| # | Criterion | Result |
+|---|---|---|
+| 1 | Both copies exist, no `progress.log`/`status.tsv`, group-writable | pass (checked with `find ! -perm -g+w`: none) |
+| 2 | Published audit 178/4, same 4 invariants, `counts` = `15n-a` | pass: 178 pass, 4 fail (3351 0.9415, 3823 0.9414, 455 0.9477, 456 0.932); `invariants`, `counts`, `word_break_stat`, `corpus_default` equal `15n-a/audit.json`; re-run after the manifest edit gives the same |
+| 3 | `publication` in both manifests with all fields; 8 hashes match v2 | pass (the script exits on a mismatch; none) |
+| 4 | Protected hashes unchanged | pass: 880 files, `diff` empty |
+| 5 | README, LotA §9 and §8 pointer, AS docs | written |
+
+**Error analysis.** Read from the published copies. `join/units`, 3349, first 3 rows (scan 0004, `index` units):
+"Mot hey Ryk Actws na ha Hee Rym Hohnarms de 25 Nvembe 1619 Penig ontvangen den 20 Januarij 1840." (handwriting
+recognition noise, as in v2); "Heren"; "Aalberts 321.". 455, first 3 rows (scan 0003, a title page): "LINULA"
+(`running_header`), "der Resolutien van de" (`main_text`), "HOOOI MOCICC ICCTCIDACCH" (`running_header`): decorative
+type, so OCR junk; nothing to read for order. Because those rows say little about reading order, I also read the first
+main-text units of scan 0100. 3349: "te visiteren, examineren, ende van alles alhier ter vergaderinge rapport te doen." then
+"Is ter vergaderinge gelesen de requeste van Herman van Quickelenburgh, ..."; a readable resolution in order. 455 (13 main
+units): "strcteurs tot Maestricht, of die van den Brabantschen Gereghte aldaer te gelasten en tebevelen, ...", then "0Is ter
+Vergaderinge gelesen de Requeste van MriCoenraadt van Heussen, Bailliuw der vrye Heerlijckheden ...", then a unit from the
+second column ("en naer Sluys zeylende, geplundert, ...") and one from the third ("in sijne qualiteyt tegens die twee
+Gevangenen sou-cie van de hebben te procederen, ..."). Each unit stays inside one column; none shows a line from a
+neighbouring column. Residual OCR noise remains ("0Is", "MriCoenraadt", "sou-cie van de"), as expected from the source.
+The `doc_id_map` of 3349 for the first `hand_doc_id` of `rows116_15m-a.tsv` for inventory 3349
+(`..._3349_0076-text_region-3487-2074-1842-998`): `link` `same_id`, `old_status` `identical`, 11 segments, 454 characters;
+the next one (`..._0133-text_region-3031-134-1505-1751`) is `trimmed` and has a `part` row to a second unit
+(`..._0133-text_region-4325-134-95-151`, 1 segment, 3 characters). The 02d id format of the brief was not used: the column
+is `hand_doc_id`, whose values are region ids, not 02d numbers.
+
+**Findings:** F09-15o.1 - F09-15o.3.
+
+**Review (Opus 5.5, 2026-10-23).** Accepted. Checked the published `publication` keys, the README rows and LotA §9 against
+`audit_published.json`. One fix in review: the brief asked for `built_from` kind `dir`, but the v2 manifests use
+`directory`; the 8 hand directory rows in `shared-data/NL-HaNA_1.01.02/text_layer_v3/manifest.json` and
+`publish_manifest.py` now say `directory` (tables untouched). F09-15o.2 holds for all 8 directory inventories (3771-3773,
+3821-3823, 11182, 11281), not 6.
+
 ## Review
 
 Phase review (Opus, 2026-10-22). The code review is in
@@ -435,6 +513,7 @@ All step findings are confirmed. Two need a qualifier:
 | F09-15l.5 | A mark rule for capitals (repeated break mark read as "P", "Y", "V"), then re-test `g_upper_right` against the same bar | `plan/CONTEXT.md` §4 |
 | F09-15j.4 | 26 same-row swaps left (header rows, numeric cells); no action unless they matter downstream | report only |
 | F09-15m (brief defect) | Throughput fit for the SG presets (`--estimate` gives no time); fit it from the full run | `plan/CONTEXT.md` §4 |
+| F09-15n.3 | A full-run audit (the step-15m audit is pilot-specific): invariants without fixed inventory lists | `plan/CONTEXT.md` §4 |
 | UA-007 | pagexml-tools 0.9.1 pin and dropping the 0.9.0 workarounds | `docs/USER_ACTIONS.md` |
 | F09-R.3 | Rows 23 and 188 read as fixed; the ≥ 80% check (UA-001) stays with LotA after re-alignment | LotA (D19) |
 
