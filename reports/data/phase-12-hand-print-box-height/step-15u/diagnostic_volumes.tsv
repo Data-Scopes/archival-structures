@@ -1,0 +1,21 @@
+inv	stratum	silver	stratum_size	role	mode	method	value	margin	n_chars	n_regions	n_scans	n_parse_fail	scan_minority_share	median_page_w	median_page_h	label15p	agree
+11220	non_silver			sample	hand	box_height	111.0	23.25	1189941	1146	274	0	0.0114	5860.0	4180.0	mixed	
+10306	non_silver			sample	hand	box_height	163.0	75.25	17397	70	18	0	0.0	4920.0	4020.0	hand	
+9821	non_silver			sample	hand	box_height	165.0	77.25	18368	100	35	0	0.0	5220.0	4160.0	hand	
+8287	non_silver			sample	hand	box_height	125.5	37.75	15462	86	67	0	0.0	5660.0	4120.0	hand	
+397	non_silver			sample	hand	box_height	141.0	53.25	211474	407	149	0	0.0	5000.0	3920.0	hand	
+751	non_silver			sample	hand	box_height	141.5	53.75	507227	769	328	0	0.0361	5000.0	3940.0	hand	
+359	non_silver			sample	hand	box_height	155.5	67.75	303960	532	211	0	0.0	4990.0	3920.0	hand	
+8696	non_silver			sample	hand	box_height	154.5	66.75	638600	829	585	0	0.0081	5880.0	4060.0	hand	
+4445	non_silver			sample	hand	box_height	157.5	69.75	84866	220	210	0	0.0	5320.0	4240.0	hand	
+10495	non_silver			sample	hand	box_height	135.0	47.25	28244	145	31	0	0.0833	5360.0	4160.0	hand	
+8939	non_silver			sample	hand	box_height	148.5	60.75	87550	157	61	0	0.0	5280.0	4040.0	hand	
+695	non_silver			sample	hand	box_height	143.0	55.25	545137	875	350	0	0.053	5020.0	3950.0	hand	
+12444	non_silver			sample	hand	box_height	173.0	85.25	404175	1098	514	0	0.0	5080.0	4020.0	hand	
+350	non_silver			sample	hand	box_height	140.0	52.25	230594	402	152	0	0.0	5000.0	3900.0	hand	
+234	non_silver			sample	hand	box_height	128.0	40.25	708404	1169	374	0	0.0	5080.0	3970.0	hand	
+11900	non_silver			sample	hand	box_height	158.0	70.25	1486594	1374	618	0	0.0	5030.0	4070.0	hand	
+3991	non_silver			sample	hand	box_height	155.5	67.75	211007	352	224	0	0.0132	5153.0	3998.0	hand	
+11436	non_silver			sample	hand	box_height	147.0	59.25	2210965	2378	966	0	0.0	5140.0	4050.0	hand	
+4831	non_silver			sample	hand	box_height	138.0	50.25	1348955	1633	364	0	0.0	5821.0	4604.0	hand	
+2378	non_silver			sample	hand	box_height	119.5	31.75	252066	408	133	0	0.0	5200.0	4120.0	hand	

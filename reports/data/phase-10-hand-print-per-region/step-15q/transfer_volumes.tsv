@@ -1,0 +1,3 @@
+inv	mode	method	print_scan_share	share_incl_uncertain	n_scans	n_parse_fail	n_scans_labelled	n_print	n_hand	n_uncertain	n_unlabelled	frac_near_cut	silver	stratum	stratum_size	label15p	agree
+455	hand	geometry	0.1867043847241867	0.18487394957983194	721	0	714	132	575	7	1	0.2157				hand	
+456	hand	geometry	0.09722222222222222	0.09681881051175657	730	0	723	70	650	3	4	0.1328				hand	

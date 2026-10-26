@@ -1,0 +1,92 @@
+{
+ "thresholds": {
+  "t_print_unrounded": 1.5344738206324549,
+  "t_hand_unrounded": 1.5287525015335381,
+  "t_lo": 1.529,
+  "t_hi": 1.534,
+  "n_labelled_hand": 5967,
+  "n_labelled_print": 3081,
+  "n_labelled": 9048,
+  "min_scan_chars": 200,
+  "min_lines": 3,
+  "print_share": 0.5,
+  "dev_hand": [
+   "3349",
+   "3350",
+   "3351",
+   "3352",
+   "3353",
+   "3354",
+   "11182",
+   "11281"
+  ],
+  "dev_print": [
+   "3771",
+   "3772",
+   "3773",
+   "3821",
+   "3822",
+   "3823"
+  ]
+ },
+ "per_stratum": {
+  "eerste_serie": {
+   "silver": "hand",
+   "stratum_size": 123,
+   "n_sample": 10,
+   "n_agree": 10,
+   "agreement": 1.0,
+   "wilson95": [
+    0.7225,
+    1.0
+   ]
+  },
+  "tweede_serie": {
+   "silver": "hand",
+   "stratum_size": 421,
+   "n_sample": 20,
+   "n_agree": 14,
+   "agreement": 0.7,
+   "wilson95": [
+    0.481,
+    0.8545
+   ]
+  },
+  "gedrukte_resoluties": {
+   "silver": "print",
+   "stratum_size": 99,
+   "n_sample": 10,
+   "n_agree": 10,
+   "agreement": 1.0,
+   "wilson95": [
+    0.7225,
+    1.0
+   ]
+  },
+  "nouvelles": {
+   "silver": "print",
+   "stratum_size": 64,
+   "n_sample": 10,
+   "n_agree": 6,
+   "agreement": 0.6,
+   "wilson95": [
+    0.3127,
+    0.8318
+   ]
+  },
+  "plakkaten": {
+   "silver": "print",
+   "stratum_size": 76,
+   "n_sample": 10,
+   "n_agree": 10,
+   "agreement": 1.0,
+   "wilson95": [
+    0.7225,
+    1.0
+   ]
+  }
+ },
+ "weighted_agreement_print": 0.892887029288703,
+ "weighted_agreement_hand": 0.7678308823529412,
+ "pass": false
+}

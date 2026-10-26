@@ -1,0 +1,21 @@
+series	inv	scan_id	verdict	reason
+nouvelles	12087	NL-HaNA_1.01.02_12087_0029	in order	continuous sentence about Haer Majesteyt
+nouvelles	12088	NL-HaNA_1.01.02_12088_0508	in order	hyphenated lines continue
+nouvelles	12092	NL-HaNA_1.01.02_12092_0435	in order	continuous news paragraph
+nouvelles	12093	NL-HaNA_1.01.02_12093_0219	in order	continuous
+nouvelles	12101	NL-HaNA_1.01.02_12101_0287	in order	continuous
+nouvelles	12102	NL-HaNA_1.01.02_12102_0425	in order	continuous long paragraph
+nouvelles	12116	NL-HaNA_1.01.02_12116_0024	in order	continuous
+nouvelles	12131	NL-HaNA_1.01.02_12131_0043	in order	continuous
+nouvelles	12133	NL-HaNA_1.01.02_12133_0383	in order	continuous
+nouvelles	12144	NL-HaNA_1.01.02_12144_0444	in order	continuous
+plakkaten	12176	NL-HaNA_1.01.02_12176_0183	in order	continuous clause, ends with date
+plakkaten	12179	NL-HaNA_1.01.02_12179_0107	in order	continuous
+plakkaten	12180	NL-HaNA_1.01.02_12180_0139	in order	French text continues across lines
+plakkaten	12193	NL-HaNA_1.01.02_12193_0174	in order	continuous, one column
+plakkaten	12197	NL-HaNA_1.01.02_12197_0221	in order	continuous contract clause
+plakkaten	12226	NL-HaNA_1.01.02_12226_0021	unclear	OCR garbled (Aoefgemsten syest-); order not judgeable, geometry monotonic
+plakkaten	12228	NL-HaNA_1.01.02_12228_0039	in order	continuous
+plakkaten	12230	NL-HaNA_1.01.02_12230_0052	in order	continuous
+processtukken	9486	NL-HaNA_1.01.02_9486_0007	in order	continuous testimony, no half lines
+processtukken	9486	NL-HaNA_1.01.02_9486_0022	in order	continuous testimony, no half lines

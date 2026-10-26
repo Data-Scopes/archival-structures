@@ -101,7 +101,8 @@ from archival_structures.text_layer.extract_v2 import (
 from archival_structures.text_layer.join import ALL_GUARDS, REGION_COLUMNS, join_inventory
 from archival_structures.text_layer.join_v2 import (
     WORD_BREAK_STATS_COLUMNS_V2, join_inventory_v2, write_word_break_stats_part_v2)
-from archival_structures.text_layer.presets import PRESETS, predict_seconds, predict_wall
+from archival_structures.text_layer.presets import (
+    PRESETS, inventory_preset, predict_seconds, predict_wall)
 from archival_structures.text_layer.provenance import (
     check_pagexml_tools_version, package_info, pagexml_tools_info)
 from archival_structures.text_layer.word_breaks import (
@@ -128,6 +129,23 @@ class Run:
         self.log_path = self.root / "progress.log"
         if not self.status_path.exists():
             self.status_path.write_text("\t".join(STATUS_COLUMNS) + "\n", encoding="utf-8")
+
+    @property
+    def mode_run(self):
+        """v4 presets: one hand/print mode per inventory (step 15v)."""
+        return self.preset.mode_presets is not None
+
+    def preset_for(self, inv):
+        """The preset an inventory is built with: its own mode's rules in a mode run."""
+        if not self.mode_run:
+            return self.preset
+        from archival_structures.text_layer.modes import read_mode
+        return inventory_preset(self.preset, read_mode(self.root, inv))
+
+    def mode_params(self, cls, field, cli):
+        """{mode: cls.from_dict(preset-of-mode field + cli)} for a mode run."""
+        return {m: cls.from_dict({**(getattr(inventory_preset(self.preset, m), field) or {}), **cli})
+                for m in ("hand", "print")}
 
     def log(self, message):
         line = f"{now()} {message}"
@@ -270,14 +288,18 @@ def stage_extract(run, inventories, sizes):
         done = (is_done(status, inv, "extract", run.force)
                 and (run.root / "lines" / f"{inv}.lines.tsv.gz").exists()
                 and (run.root / "regions_meta" / f"{inv}.tsv.gz").exists()
-                and (run.root / "extract_stats" / f"{inv}.json").exists())
+                and (run.root / "extract_stats" / f"{inv}.json").exists()
+                and (not run.mode_run or (run.root / "mode" / f"{inv}.json").exists()))
         if not done:
             todo.append((inv, (inv, str(source), str(run.root))))
     run.log(f"[extract] {len(inventories) - len(todo)} already done, {len(todo)} to do")
     todo.sort(key=lambda t: -sizes[t[0]][1])
     if run.preset.format_version == 2:
         todo = [(inv, fargs + (run.preset,)) for inv, fargs in todo]
-        if run.preset.merged_line_split == "on":
+        if run.mode_run:
+            from archival_structures.text_layer.modes import extract_inventory_v2_modes
+            func = extract_inventory_v2_modes
+        elif run.preset.merged_line_split == "on":
             from archival_structures.text_layer.line_split import extract_inventory_v2_split
             func = extract_inventory_v2_split
         else:
@@ -350,8 +372,14 @@ def stage_layout(run, inventories, sizes):
     """v2 stage (step 15fp): page layout tables under layout/; the input tables are only read."""
     from archival_structures.analysis.page_structure import LayoutParams
     from archival_structures.text_layer.layout import layout_inventory
+    from archival_structures.text_layer.modes import read_mode
     cli = json.loads(run.args.layout_params) if run.args.layout_params else {}
-    params = LayoutParams.from_dict({**(run.preset.layout_params or {}), **cli})
+    if run.mode_run:
+        mparams = run.mode_params(LayoutParams, "layout_params", cli)
+        params_doc = {m: p.to_dict() for m, p in mparams.items()}
+    else:
+        params = LayoutParams.from_dict({**(run.preset.layout_params or {}), **cli})
+        params_doc = params.to_dict()
     needed = ("scans/{}.scans.tsv.gz", "regions_meta/{}.tsv.gz", "lines/{}.lines.tsv.gz")
     missing = [inv for inv in inventories
                if not all((run.root / n.format(inv)).exists() for n in needed)]
@@ -359,14 +387,15 @@ def stage_layout(run, inventories, sizes):
         sys.exit(f"stage layout: no scans/regions_meta/lines tables for {missing[:5]}; run extract first")
     out = run.root / "layout"
     out.mkdir(parents=True, exist_ok=True)
-    write_json_atomic(out / "params.json", params.to_dict())
+    write_json_atomic(out / "params.json", params_doc)
     stats_path = out / "stats.json"
     stats = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
     failures = []
     for inv in inventories:
         start = time.monotonic()
         try:
-            stats[inv] = layout_inventory(inv, run.root, params)
+            inv_params = mparams[read_mode(run.root, inv)] if run.mode_run else params
+            stats[inv] = layout_inventory(inv, run.root, inv_params)
         except Exception as exc:  # noqa: BLE001 -- record and continue
             failures.append(inv)
             run.record({"inventory_number": inv, "stage": "layout", "status": "failed",
@@ -382,15 +411,21 @@ def stage_layout(run, inventories, sizes):
                 f"gutter_splits={stats[inv]['n_gutter_splits']} gutter_rel={stats[inv]['gutter_rel']}")
     write_json_atomic(stats_path, dict(sorted(stats.items(), key=lambda kv: inventory_sort_key(kv[0]))))
     run.update_manifest("layout", {"n_inventories": len(inventories), "failed": failures,
-                                   "layout_params": params.to_dict()})
+                                   "layout_params": params_doc})
     return failures
 
 
 def stage_types(run, inventories, sizes):
     """v2 stage (step 15g): line-segment and region types under types/; inputs are only read."""
+    from archival_structures.text_layer.modes import read_mode
     from archival_structures.text_layer.types import TypeParams, type_inventory
     cli = json.loads(run.args.types_params) if run.args.types_params else {}
-    params = TypeParams.from_dict({**(run.preset.types_params or {}), **cli})
+    if run.mode_run:
+        mparams = run.mode_params(TypeParams, "types_params", cli)
+        params_doc = {m: p.to_dict() for m, p in mparams.items()}
+    else:
+        params = TypeParams.from_dict({**(run.preset.types_params or {}), **cli})
+        params_doc = params.to_dict()
     needed = ("scans/{}.scans.tsv.gz", "lines/{}.lines.tsv.gz", "layout/lines/{}.tsv.gz",
               "layout/regions/{}.tsv.gz")
     missing = [inv for inv in inventories
@@ -399,14 +434,15 @@ def stage_types(run, inventories, sizes):
         sys.exit(f"stage types: no scans/lines/layout tables for {missing[:5]}; run layout first")
     out = run.root / "types"
     out.mkdir(parents=True, exist_ok=True)
-    write_json_atomic(out / "params.json", params.to_dict())
+    write_json_atomic(out / "params.json", params_doc)
     stats_path = out / "stats.json"
     stats = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
     failures = []
     for inv in inventories:
         start = time.monotonic()
         try:
-            stats[inv] = type_inventory(inv, run.root, params)
+            inv_params = mparams[read_mode(run.root, inv)] if run.mode_run else params
+            stats[inv] = type_inventory(inv, run.root, inv_params)
         except Exception as exc:  # noqa: BLE001 -- record and continue
             failures.append(inv)
             run.record({"inventory_number": inv, "stage": "types", "status": "failed",
@@ -420,18 +456,30 @@ def stage_types(run, inventories, sizes):
                 f"types={stats[inv]['segments_per_type']} splits={stats[inv]['splits_per_rule']}")
     write_json_atomic(stats_path, dict(sorted(stats.items(), key=lambda kv: inventory_sort_key(kv[0]))))
     run.update_manifest("types", {"n_inventories": len(inventories), "failed": failures,
-                                  "types_params": params.to_dict()})
+                                  "types_params": params_doc})
     return failures
 
 
 def stage_units(run, inventories, sizes):
     """v2 stage (step 15h): units, reading order, doc_id map and REPUBLIC crosswalk under units/;
     inputs are only read."""
+    from archival_structures.text_layer.modes import read_mode
     from archival_structures.text_layer.units import (
         UnitParams, unit_inventory)
     cli = json.loads(run.args.unit_params) if run.args.unit_params else {}
-    params = UnitParams.from_dict({**(run.preset.unit_params or {}), **cli})
-    print_mode = run.preset.merged_line_split == "on"
+    if run.mode_run:
+        mparams = run.mode_params(UnitParams, "unit_params", cli)
+        params_doc = {m: p.to_dict() for m, p in mparams.items()}
+        print_invs = {inv for inv in inventories
+                      if run.preset_for(inv).merged_line_split == "on"}
+        print_mode = bool(print_invs)
+        run.log(f"[units] mode run: {len(print_invs)} print and "
+                f"{len(inventories) - len(print_invs)} hand inventories")
+    else:
+        params = UnitParams.from_dict({**(run.preset.unit_params or {}), **cli})
+        params_doc = params.to_dict()
+        print_mode = run.preset.merged_line_split == "on"
+        print_invs = set(inventories) if print_mode else set()
     republic_dir = Path(run.args.republic_dir) if run.args.republic_dir else None
     needed = ("scans/{}.scans.tsv.gz", "regions_meta/{}.tsv.gz", "lines/{}.lines.tsv.gz",
               "layout/lines/{}.tsv.gz", "layout/regions/{}.tsv.gz", "types/segments/{}.tsv.gz")
@@ -445,23 +493,30 @@ def stage_units(run, inventories, sizes):
     if print_mode and republic_dir is None:
         run.log("[units] WARNING: no --republic-dir given: no REPUBLIC crosswalk")
     elif print_mode:
-        have = [inv for inv in inventories if (republic_dir / f"paragraphs-{inv}.tsv.gz").exists()]
-        if len(have) < len(inventories):
-            lacking = [inv for inv in inventories if inv not in have]
+        pinvs = [inv for inv in inventories if inv in print_invs]
+        have = [inv for inv in pinvs if (republic_dir / f"paragraphs-{inv}.tsv.gz").exists()]
+        if len(have) < len(pinvs):
+            lacking = [inv for inv in pinvs if inv not in have]
             run.log(f"[units] WARNING: no paragraphs-<inv>.tsv.gz in {republic_dir} for "
                     f"{lacking[:5]}: no REPUBLIC crosswalk for those inventories")
         if have:
             republic_used = str(republic_dir)
-    write_json_atomic(out / "params.json", {**params.to_dict(), "republic_dir": republic_used})
+    write_json_atomic(out / "params.json", {**params_doc, "republic_dir": republic_used})
     stats_path = out / "stats.json"
     stats = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
     failures = []
     for inv in inventories:
         start = time.monotonic()
         try:
-            stats[inv] = unit_inventory(inv, run.root, params, print_mode=print_mode,
+            if run.mode_run:
+                inv_params = mparams[read_mode(run.root, inv)]
+                inv_print = inv in print_invs
+            else:
+                inv_params, inv_print = params, print_mode
+            stats[inv] = unit_inventory(inv, run.root, inv_params, print_mode=inv_print,
                                         republic_path=(republic_dir / f"paragraphs-{inv}.tsv.gz"
-                                                        if republic_dir else None))
+                                                        if republic_dir and (inv_print or not run.mode_run)
+                                                        else None))
         except Exception as exc:  # noqa: BLE001 -- record and continue
             failures.append(inv)
             run.record({"inventory_number": inv, "stage": "units", "status": "failed",
@@ -475,7 +530,7 @@ def stage_units(run, inventories, sizes):
                 f"status={stats[inv]['old_status']} collisions={stats[inv]['n_id_collisions']}")
     write_json_atomic(stats_path, dict(sorted(stats.items(), key=lambda kv: inventory_sort_key(kv[0]))))
     run.update_manifest("units", {"n_inventories": len(inventories), "failed": failures,
-                                  "unit_params": params.to_dict()})
+                                  "unit_params": params_doc})
     return failures
 
 
@@ -666,6 +721,7 @@ def stage_join(run, inventories, sizes):
                 sets[inv] = default_set
         wbcs = sets[inv]
         lml = ""
+        lead_marks = run.preset_for(inv).join_lead_marks if v2 else run.preset.join_lead_marks
         if v2:
             lml_pins = run.preset.join_lead_marks_lower   # step 15l, per inventory
             lml = lml_pins.get(inv, lml_pins.get("default", "")) if lml_pins else ""
@@ -679,12 +735,12 @@ def stage_join(run, inventories, sizes):
                    and out_path.exists()
                    and previous.get("wbc_set") == "".join(sorted(wbcs))
                    and previous.get("guards") == list(ALL_GUARDS)
-                   and (not v2 or (previous.get("lead_marks", "") == run.preset.join_lead_marks
+                   and (not v2 or (previous.get("lead_marks", "") == lead_marks
                                    and previous.get("lead_marks_lower", "") == lml
                                    and previous.get("upper_guard", False)
                                    == run.preset.join_upper_guard)))
         if not current:
-            todo.append((inv, (inv, str(run.root), wbcs, run.preset.join_lead_marks, lml,
+            todo.append((inv, (inv, str(run.root), wbcs, lead_marks, lml,
                                run.preset.join_upper_guard) if v2
                          else (inv, str(run.root), wbcs, run.args.write_events)))
     todo.sort(key=lambda t: -sizes[t[0]][1] if t[0] in sizes else 0)

@@ -4,6 +4,69 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.15.0 (2026-10-26)
+
+### Step 15q: hand_print volume-mode classifier
+
+- New module `archival_structures.analysis.hand_print` (pure Python plus numpy): `VolumeModeParams`, `region_geometry`,
+  `region_features`, `scan_value`, `scan_label`, `fit_thresholds`, `volume_mode`, `volume_mode_from_features`, and the
+  constants `SCAN_LABELS`, `MODES`, `MODE_METHODS`. Nothing existing changes. Status: the 15q stop rule fired (the
+  rule is not accurate enough on the out-of-sample silver volumes), so nothing uses the module yet.
+- Affected sibling imports: none.
+
+### Step 15u: hand_print box-height rule
+
+- `archival_structures.analysis.hand_print` gains (additive): `BoxHeightParams` (`cut` required, `min_region_chars`),
+  `volume_box_height`, `scan_box_heights`, `fit_box_height_cut`, `box_height_mode`, and the constant
+  `BOX_HEIGHT_METHODS`. `MODE_METHODS` and the 15q functions are unchanged. The cut is a parameter; the module holds no
+  archive-specific value.
+- Affected sibling imports: none.
+
+### Step 15v: volume-mode build (v4)
+
+- `text_layer.presets`: `LayerPreset` gains the last fields `mode_presets` and `volume_mode` (default `None`); new
+  `MODE_RULE_FIELDS`, `BOX_HEIGHT_V4`, `inventory_preset(preset, mode)`, the presets `SG_1_01_02_V4`, `SG_1_10_94_V4`
+  (`PRESETS` keys `sg_1.01.02_v4`, `sg_1.10.94_v4`). v1-v3 presets are field-for-field unchanged.
+- `text_layer.line_split`: new `prepass_rows(inv, source, preset)` (raw line rows, tags, scan info); `fit_split_model`
+  calls it, same result. New private `_write_split_files`, shared by `extract_inventory_v2_split` (unchanged behaviour).
+- New `text_layer/modes.py`: `decide_mode`, `write_mode`, `read_mode`, `extract_inventory_v2_modes`.
+- `text_layer.build`: with a mode preset, `extract` writes `mode/` tables and the later stages use each inventory's mode;
+  `layout/`, `types/` and `units/` `params.json` and the manifest `*_params` entries are `{"hand": ..., "print": ...}`
+  (v4 layers only). Output of non-mode presets is byte-identical.
+- Affected sibling imports: none (LotA reads no `params.json`, manifest `*_params` or `mode/`).
+
+### Step 15w: v4 run kit and audit
+
+- New `scripts/run_text_layer_v4_full.py` (not part of the package): the v3 hand-off script by archive
+  (`--src ARCHIVE=DIR`, `--republic-dir ARCHIVE=DIR`, `--inventories-file ARCHIVE=F`, `--only ARCHIVE`), log `run_v4.log`.
+  `scripts/run_text_layer_v3_full.py` is unchanged.
+- New audit `reports/data/phase-12-hand-print-box-height/step-15w/audit.py`: discovers sub-layers and inventories, adds the
+  v4 `mode/` invariants. No package API change; no sibling import is affected.
+
+### Step 15wr: split gate for single-column print volumes
+
+- New `text_layer.modes.column_start_share(line_rows, min_chars=20, min_rows=50, mid_frac=0.4) -> (share, n_rows)`
+  (`(None, n_kept)` when no page side has `min_rows` qualifying lines) and `text_layer.presets.SPLIT_GATE_V4`. `sg_1.01.02_v4.volume_mode` gains `split_gate`: a print-mode volume is split only if
+  its column-start share is at least 0.35 (or unmeasurable). `mode/<inv>.json` gains `split_gate` for those volumes.
+  `sg_1.10.94_v4`, hand volumes and all other presets are unchanged. Layers built before (`15w-a`) differ in the gated
+  volumes (no `split_model/`, `split_stats/`, `split_from`).
+- Audit `step-15w/audit.py`: split-model and `split_from` invariants follow the gate.
+- Affected sibling imports: none.
+
+### Step 15x: drop-cap-aware print units
+
+- `text_layer.units.UnitParams` gains `drop_cap_lines` (default `None`; omitted from `to_dict` when `None`). With it
+  set, an `indent`-only print cut within that many main lines of the last kept cut is dropped.
+  `text_layer.presets.LayerPreset` gains `mode_overrides` (last field; per mode, rule fields from `MODE_RULE_FIELDS`
+  that replace those of the mode preset; other keys raise `ValueError`); `inventory_preset` applies it and returns
+  `mode_overrides=None`. `sg_1.01.02_v4` sets `drop_cap_lines=2` for print-mode volumes (unpublished preset; behaviour
+  change: 22.9% fewer `main_text` units in the *gedrukte resoluties*). v1-v3 and `sg_1.10.94_v4` output unchanged;
+  `units/params.json` of those layers is unchanged.
+- Note (15x review): `dataclasses.asdict` of a `LayerPreset` now also has the key `mode_overrides` (`None` outside
+  `sg_1.01.02_v4`), and `dataclasses.asdict(UnitParams)` has `drop_cap_lines`; only `UnitParams.to_dict` leaves it out.
+  Code that compares presets field by field must drop the new key (as `test_v1_v3_presets_unchanged` does).
+- Affected sibling imports: none.
+
 ## v0.14.1 (2026-10-23)
 
 ### Step 15n: hand-off script for the full `text_layer_v3` run

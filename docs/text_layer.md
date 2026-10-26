@@ -454,13 +454,91 @@ pins are explicit decisions and are not checked. The manifest `wbc` entry gets `
 merges the default pin added were right in only 11 of 20 (lower-case right-side share 0.74). 3352 derived
 `=„` and keeps `-=„`; 3351 and 3354 had no `=` merges, so their output does not change.
 
+## Text layer v4 (phase 12)
+
+The v4 presets (`sg_1.01.02_v4`, `sg_1.10.94_v4`) decide per inventory whether to build with the hand or the print rules of
+the v3 presets, so a printed volume inside 1.01.02 (3771-3773, 3821-3823) gets the print rules. A `LayerPreset` with
+`mode_presets` (`{"hand": "sg_1.01.02_v3", "print": "sg_1.10.94_v3"}`) is a *mode preset*; `volume_mode` says how the mode is
+decided. `presets.inventory_preset(preset, mode)` returns the preset with the six rule fields
+(`presets.MODE_RULE_FIELDS`: `merged_line_split`, `split_region_tags`, `layout_params`, `types_params`, `unit_params`,
+`join_lead_marks`) of the mode's v3 preset; identity and per-archive fields (names, `wbc_pinned`, `join_lead_marks_lower`)
+stay those of the v4 preset. v1-v3 presets and their output do not change.
+
+**The rule.** The char-weighted median line-box height of the volume (regions with at least 100 characters, from the
+pre-pass line rows) is at most 87.75 px for `print`, above it for `hand`; no qualifying region gives `hand` (method
+`default`). Cut and procedure: [`reports/phase-12-hand-print-box-height.md` § Step 15u](../reports/phase-12-hand-print-box-height.md#step-15u-box-height-test)
+(60/60 on the test volumes). `sg_1.10.94_v4` uses method `fixed` (`print`) and records the box-height decision as
+`box_height_mode`.
+
+**Build.** Stage `extract` runs `modes.extract_inventory_v2_modes`: `line_split.prepass_rows` (the raw line rows, the same
+rows the 15u values come from), `modes.decide_mode`, `modes.write_mode`, then the extract with the resolved preset (with
+the merged-line split in print mode; its model is fitted on the same rows rounded as before). Later stages read the mode
+with `modes.read_mode(layer_root, inv)`; `layout/`, `types/` and `units/` `params.json` and manifest entries are
+`{"hand": {...}, "print": {...}}` (v4 layers only). The REPUBLIC crosswalk is computed for print-mode inventories only.
+
+**Split gate (step 15wr).** The merged-line splitter assumes two text columns per page side. For a 1.01.02 volume in
+`print` mode, `modes.column_start_share` measures the share of lines (at least 20 characters, with a box) that start in the
+right 60% of the text span of their page side (pooled over sides with at least 50 such lines). The splitter runs only if
+that share is at least 0.35 (`presets.SPLIT_GATE_V4`) or cannot be measured. A gated volume keeps the print layout, types
+and unit rules, without `split_model/`, `split_stats/` and `split_from` lines. 1.10.94 has no gate.
+
+**`mode/` tables.** `mode/<inv>.json`: `mode`, `method`, `value`, `margin`, `n_chars`, `n_regions`, `params`, `inv`,
+`n_scans`, `n_parse_fail`, `n_scans_sided` (scans with >= 200 qualifying characters), `scan_minority_share` (their share on
+the other side of the cut than the volume), and for `fixed` also `box_height_mode`, `box_height_method`. A volume with a split gate (1.01.02, `print`) also has
+`split_gate`: `{share, n_rows, min_share, split}`.
+`mode/scans/<inv>.tsv.gz` (`scan_id, scan_order, page_w, page_h, n_lines_text, value, n_chars, n_regions, side`) and
+`mode/regions/<inv>.tsv.gz` (`region_id, scan_id, n_lines, n_chars, h_med, pitch_med, hrel`).
+
+**Limits.** One mode per volume: a printed insert in a handwritten volume (or the reverse) is built with the volume's rules.
+The values are raw pixels and assume one scan scale (F12-R.1); a volume from another scan campaign could shift.
+
+**Drop-cap-aware print units (step 15x, UA-026 (b), P18).** A printed paragraph opens with a dropped initial (its own
+region), and the next one or two lines sit about 1.1-1.7 line heights right of the column edge beside it, so the `indent`
+cue cut the paragraph there. `UnitParams.drop_cap_lines` (default `None`, left out of `to_dict` and `units/params.json`
+when `None`) drops a cut whose only cue is `indent` when it falls within that many main lines of the last kept cut.
+`sg_1.01.02_v4` sets `drop_cap_lines=2` for print-mode volumes through `LayerPreset.mode_overrides` (applied by
+`inventory_preset`); hand mode, `sg_1.10.94_v4` and v1-v3 are unchanged. On the 31 *gedrukte resoluties* it removes 22.9%
+of the `main_text` unit starts (units per scan 61.12 to 52.49; 3771: 46.05 to 35.21) and 279 of 38,176 decision/*Dat*
+unit starts (0.7%) are lost with them. Reads: 59 of 60 dropped cuts continue the paragraph; 19 of 20 pages are closer to
+the printed paragraphs, none worse. A decision clause that follows a one- or two-line entry directly can be merged into
+it, and a three-line chunk beside an initial stays cut (the window is two lines).
+
+**Known issues (UA-026, F12-15v.4, F12-R.3, F12-R.4, UA-029).** The drop-cap rule was read only on the *gedrukte
+resoluties*; in the single-column *nouvelles* and *plakkaten* it applies as well (UA-029). The 15x review read 40
+dropped cuts per series there: on readable text 27 of 28 (*plakkaten*) and 30 of 36 (*nouvelles*) are right. In the
+*nouvelles* the rule can merge a closing formula, signature or dateline into the paragraph before it, and the join can
+then glue words across a break mark ("Getee|Waar meede, &c."; F12-R.13, F12-R.14). The merged-line splitter runs only where the volume's column-start share is at least
+0.35 (`split_gate` in `mode/<inv>.json`): the two-column *gedrukte resoluties* (0.50) are split, the single-column
+*nouvelles*, *plakkaten* and *Processtukken* (at most 0.23) are not. Before step 15wr they were split, which cut about a
+million ordinary lines in two (`15w-a`).
+
+### Running the full v4 build (step 15w)
+
+`scripts/run_text_layer_v4_full.py` builds both archives (`<out-dir>/1.01.02/` and `<out-dir>/1.10.94/`) from PageXML on
+an external drive and audits the result; its docstring lists what to stage. Run from the AS root, one step at a time:
+
+```
+.venv/bin/python scripts/run_text_layer_v4_full.py --check-only \
+    --src 1.01.02=<1.01.02-dir> \
+    --src 1.10.94=/Users/Shared/claude_projects/data_scopes/shared-data/NL-HaNA_1.10.94/pagexml \
+    --republic-dir 1.10.94=/Users/Shared/claude_projects/data_scopes/language-of-the-archive/data/paragraphs/NL-HaNA_1.10.94 \
+    --out-dir <drive>/layer
+# <1.01.02-dir>: every NL-HaNA_1.01.02_<inv>-pagexml.tar.gz (hand and print mixed); <drive>: the output mount point
+# the same with --limit 1 --out-dir <drive>/layer_smoke        (smoke test)
+# the same without --check-only                                (the full run; rerun the command to resume)
+```
+
+No `--republic-dir` for 1.01.02 (the crosswalk matches 0.5% of its lines); the units stage then logs one REPUBLIC warning for
+the print-mode inventories. The audit (`reports/data/phase-12-hand-print-box-height/step-15w/audit.py`) discovers its
+inventories and checks the phase-09 invariants plus, for layers with `mode/`, the v4 ones.
+
 ## Published SG pilot (text_layer_v2)
 
 Published 2026-10-21 (phase 07, step 15i, from the dev layer `15i-b`) for the sibling projects, `coverage: partial`:
 
 | Path (under `/Users/Shared/claude_projects/data_scopes/shared-data/`) | Content |
 |---|---|
-| `NL-HaNA_1.01.02/text_layer_v2/` | hand, 14 inventories: 3349-3354, 3771-3773, 3821-3823, 11182, 11281 (preset `sg_1.01.02_v2`) |
+| `NL-HaNA_1.01.02/text_layer_v2/` | hand preset, 14 inventories: 3349-3354, 3771-3773, 3821-3823, 11182, 11281 (preset `sg_1.01.02_v2`). 3771-3773 and 3821-3823 are printed volumes built with the hand rules (found 2026-10-23; phase 10) |
 | `NL-HaNA_1.10.94/text_layer_v2/` | print, 455 and 456 (preset `sg_1.10.94_v2`) |
 
 **Known issues in `text_layer_v2` (found in the phase-07 review, fixed in the dev layer `15ir-a`, not in these
@@ -580,7 +658,7 @@ Published 2026-10-23 (phase 09, step 15o) from the dev layer `data/text_layer_v2
 
 | Path (under `/Users/Shared/claude_projects/data_scopes/shared-data/`) | Content |
 |---|---|
-| `NL-HaNA_1.01.02/text_layer_v3/` | hand, 14 inventories: 3349-3354, 3771-3773, 3821-3823, 11182, 11281 (preset `sg_1.01.02_v3`) |
+| `NL-HaNA_1.01.02/text_layer_v3/` | hand preset, 14 inventories: 3349-3354, 3771-3773, 3821-3823, 11182, 11281 (preset `sg_1.01.02_v3`). 3771-3773 and 3821-3823 are printed volumes built with the hand rules (found 2026-10-23; phase 10) |
 | `NL-HaNA_1.10.94/text_layer_v3/` | print, 455 and 456 (preset `sg_1.10.94_v3`) |
 
 Without `progress.log` and `status.tsv`; `manifest.json` has a `publication` key (sources and sha256, audit 178/182,

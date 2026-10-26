@@ -1,0 +1,88 @@
+inv	series	share	n_rows	split	pooled_mid_start	diff
+12087	Gedrukte nouvelles van Nederla	0.0438	47960	False	0.045	0.0012
+12088	Gedrukte nouvelles van Nederla	0.0635	62372	False	0.064	0.0005
+12090	Gedrukte nouvelles van Nederla	0.0241	53766	False	0.024	0.0001
+12092	Gedrukte nouvelles van Nederla	0.0096	43640	False	0.01	0.0004
+12093	Gedrukte nouvelles van Nederla	0.0161	38969	False	0.016	0.0001
+12100	Gedrukte nouvelles van Nederla	0.0076	33908	False	0.008	0.0004
+12101	Gedrukte nouvelles van Nederla	0.011	32856	False	0.011	0.0
+12102	Gedrukte nouvelles van Nederla	0.0056	40759	False	0.006	0.0004
+12103	Gedrukte nouvelles van Nederla	0.0065	42218	False	0.007	0.0005
+12105	Gedrukte nouvelles van Nederla	0.0191	46294	False	0.019	0.0001
+12106	Gedrukte nouvelles van Nederla	0.0087	34996	False	0.009	0.0003
+12109	Gedrukte nouvelles van Nederla	0.0071	37086	False	0.007	0.0001
+12114	Gedrukte nouvelles van Nederla	0.0065	47934	False	0.006	0.0005
+12116	Gedrukte nouvelles van Nederla	0.0054	36177	False	0.005	0.0004
+12118	Gedrukte nouvelles van Nederla	0.0084	38270	False	0.008	0.0004
+12120	Gedrukte nouvelles van Nederla	0.0073	33748	False	0.007	0.0003
+12121	Gedrukte nouvelles van Nederla	0.0116	49738	False	0.012	0.0004
+12122	Gedrukte nouvelles van Nederla	0.0085	51934	False	0.009	0.0005
+12123	Gedrukte nouvelles van Nederla	0.0086	48150	False	0.009	0.0004
+12131	Gedrukte nouvelles van Nederla	0.0072	16757	False	0.007	0.0002
+12132	Gedrukte nouvelles van Nederla	0.0115	7215	False	0.012	0.0005
+12133	Gedrukte nouvelles van Nederla	0.0276	32489	False	0.027	0.0006
+12135	Gedrukte nouvelles van Nederla	0.0069	5331	False	0.007	0.0001
+12140	Gedrukte nouvelles van Nederla	0.0134	38642	False	0.014	0.0006
+12144	Gedrukte nouvelles van Nederla	0.0484	77406	False	0.048	0.0004
+12162	Gedrukte plakkaten	0.0234	17879	False	0.031	0.0076
+12166	Gedrukte plakkaten	0.0262	30261	False	0.026	0.0002
+12168	Gedrukte plakkaten	0.033	31053	False	0.033	0.0
+12169	Gedrukte plakkaten	0.0436	31995	False	0.044	0.0004
+12170	Gedrukte plakkaten	0.0693	39028	False	0.068	0.0013
+12174	Gedrukte plakkaten	0.0959	20404	False	0.097	0.0011
+12176	Gedrukte plakkaten	0.0823	37844	False	0.083	0.0007
+12179	Gedrukte plakkaten	0.1521	17009	False	0.152	0.0001
+12180	Gedrukte plakkaten	0.1416	13181	False	0.144	0.0024
+12182	Gedrukte plakkaten	0.0661	26569	False	0.066	0.0001
+12184	Gedrukte plakkaten	0.1047	12091	False	0.105	0.0003
+12187	Gedrukte plakkaten	0.1081	13746	False	0.108	0.0001
+12193	Gedrukte plakkaten	0.1443	16844	False	0.145	0.0007
+12194	Gedrukte plakkaten	0.1396	13616	False	0.14	0.0004
+12196	Gedrukte plakkaten	0.142	19411	False	0.142	0.0
+12197	Gedrukte plakkaten	0.1522	27247	False	0.152	0.0002
+12203	Gedrukte plakkaten	0.1457	7943	False	0.146	0.0003
+12205	Gedrukte plakkaten	0.1404	5803	False	0.14	0.0004
+12206	Gedrukte plakkaten	0.1492	4082	False	0.149	0.0002
+12207	Gedrukte plakkaten	0.1557	4284	False	0.155	0.0007
+12220	Gedrukte plakkaten	0.0562	19175	False	0.056	0.0002
+12225	Gedrukte plakkaten	0.2258	3472	False	0.225	0.0008
+12226	Gedrukte plakkaten	0.1596	6598	False	0.157	0.0026
+12228	Gedrukte plakkaten	0.09	5769	False	0.09	0.0
+12230	Gedrukte plakkaten	0.1102	6789	False	0.11	0.0002
+12232	Gedrukte plakkaten	0.0607	36834	False	0.061	0.0003
+12235	Gedrukte plakkaten	0.0664	12026	False	0.066	0.0004
+3463	De tweede serie registers van 	0.4152	9735	True	0.415	0.0002
+3769	De gedrukte resoluties van de 	0.5	144128	True	0.5	0.0
+3771	De gedrukte resoluties van de 	0.4965	120915	True	0.497	0.0005
+3772	De gedrukte resoluties van de 	0.4984	126256	True	0.498	0.0004
+3773	De gedrukte resoluties van de 	0.5001	129200	True	0.5	0.0001
+3774	De gedrukte resoluties van de 	0.4989	112183	True	0.498	0.0009
+3784	De gedrukte resoluties van de 	0.4996	93833	True	0.5	0.0004
+3794	De gedrukte resoluties van de 	0.4996	84780	True	0.5	0.0004
+3795	De gedrukte resoluties van de 	0.4998	93451	True	0.5	0.0002
+3796	De gedrukte resoluties van de 	0.5004	104165	True	0.5	0.0004
+3804	De gedrukte resoluties van de 	0.4986	98463	True	0.498	0.0006
+3805	De gedrukte resoluties van de 	0.4969	101681	True	0.497	0.0001
+3811	De gedrukte resoluties van de 	0.499	88663	True	0.499	0.0
+3816	De gedrukte resoluties van de 	0.4988	97412	True	0.499	0.0002
+3821	De gedrukte resoluties van de 	0.4993	80534	True	0.499	0.0003
+3822	De gedrukte resoluties van de 	0.4992	86205	True	0.499	0.0002
+3823	De gedrukte resoluties van de 	0.5005	81265	True	0.501	0.0005
+3826	De gedrukte resoluties van de 	0.4999	99740	True	0.5	0.0001
+3828	De gedrukte resoluties van de 	0.4982	90771	True	0.498	0.0002
+3834	De gedrukte resoluties van de 	0.4976	120164	True	0.498	0.0004
+3838	De gedrukte resoluties van de 	0.4981	62999	True	0.498	0.0001
+3841	De gedrukte resoluties van de 	0.4984	71421	True	0.499	0.0006
+3844	De gedrukte resoluties van de 	0.5004	83034	True	0.5	0.0004
+3845	De gedrukte resoluties van de 	0.4972	79507	True	0.497	0.0002
+3847	De gedrukte resoluties van de 	0.4973	86954	True	0.497	0.0003
+3848	De gedrukte resoluties van de 	0.4979	88349	True	0.498	0.0001
+3849	De gedrukte resoluties van de 	0.4995	73989	True	0.5	0.0005
+3851	De gedrukte resoluties van de 	0.496	62080	True	0.496	0.0
+3853	De gedrukte resoluties van de 	0.4993	102953	True	0.499	0.0003
+3857	De gedrukte resoluties van de 	0.4978	53324	True	0.497	0.0008
+3862	De gedrukte resoluties van de 	0.5015	118932	True	0.501	0.0005
+3864	De gedrukte resoluties van de 	0.4993	60516	True	0.499	0.0003
+455	1.10.94				0.461	1.10.94, no gate
+456	1.10.94				0.164	1.10.94, no gate
+9486	Processtukken van de Staten-Ge	0.007	4838	False	0.007	0.0

@@ -87,6 +87,31 @@ def test_print_paragraph_cues():
     assert _cuts(both, indent_frac=1.0, short_frac=0.2)[1][1]["method"] == "print:indent+short_prev"
 
 
+def test_print_drop_cap_lines():
+    ind = {"x": 360, "w": 440}
+    two = _para_segs({1: ind, 2: ind})
+    assert _cuts(two, indent_frac=1.0)[0] == [1, 1, 4]
+    assert _cuts(two, indent_frac=1.0, drop_cap_lines=2)[0] == [6]
+    three = _para_segs({1: ind, 2: ind, 3: ind})
+    assert _cuts(three, indent_frac=1.0, drop_cap_lines=2)[0] == [3, 3]
+    # indent + short_prev always cuts
+    both = _para_segs({0: {"w": 200}, 1: ind})
+    sizes, parts = _cuts(both, indent_frac=1.0, short_frac=0.2, drop_cap_lines=2)
+    assert sizes == [1, 5] and parts[1]["method"] == "print:indent+short_prev"
+    # an indent at line 4 after a cut at line 3 (short_prev) is dropped
+    after = _para_segs({2: {"w": 200}, 4: ind})
+    sizes, _ = _cuts(after, indent_frac=1.0, short_frac=0.2, drop_cap_lines=2)
+    assert sizes == [3, 3]
+    assert _cuts(after, indent_frac=1.0, short_frac=0.2)[0] == [3, 1, 2]
+
+
+def test_unit_params_to_dict_omits_none_drop_cap():
+    from archival_structures.text_layer.presets import SG_PRINT_UNIT_PARAMS
+    assert "drop_cap_lines" not in UnitParams(**SG_PRINT_UNIT_PARAMS).to_dict()
+    d = {**SG_PRINT_UNIT_PARAMS, "drop_cap_lines": 2}
+    assert UnitParams.from_dict(d).to_dict() == d
+
+
 def test_new_id_collision_bumps_w():
     segs = [seg(0, "date_header", x=100, y=10, w=50, h=20, chars=4), seg(1, "main_text")]
     taken = {"R", "S-text_region-100-10-50-20", "S-text_region-100-10-51-20"}

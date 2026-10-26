@@ -41,6 +41,12 @@ class LayerPreset:
     join_lead_marks_lower: Optional[Mapping[str, str]] = None
     # step 15l: refuse a merge whose right side starts upper-case (boundary kind g_upper_right)
     join_upper_guard: bool = False
+    # step 15v (phase 12): v4 presets. mode_presets maps "hand"/"print" to the preset whose rule fields
+    # (MODE_RULE_FIELDS) an inventory uses; volume_mode says how the mode of an inventory is decided
+    mode_presets: Optional[Mapping[str, str]] = None
+    volume_mode: Optional[Mapping] = None
+    # step 15x: per mode, rule fields (MODE_RULE_FIELDS) that replace those of the mode preset
+    mode_overrides: Optional[Mapping[str, Mapping]] = None
 
 
 # seconds = intercept + slope * uncompressed PageXML bytes, per inventory and
@@ -172,8 +178,48 @@ SG_HAND_V3 = dataclasses.replace(SG_HAND_V2, name="NL-HaNA_1.01.02_text_layer_v3
 SG_PRINT_V3 = dataclasses.replace(SG_PRINT_V2, name="NL-HaNA_1.10.94_text_layer_v3",
                                   description=SG_PRINT_V2.description.replace("v2", "v3"))
 
+# Step 15v (phase 12): v4 presets. One hand or print mode per inventory, decided by the char-weighted
+# median line-box height of the volume (hand_print.box_height_mode); the rules of the v3 presets.
+BOX_HEIGHT_V4 = {"cut": 87.75, "min_region_chars": 100}   # step 15u, cut.json sha256 ce58c333...ccb572; F12-15u.1
+# Phase-12 review (F12-R.4, P16): the 1.10.94 merged-line splitter assumes two text columns per page side. A
+# 1.01.02 print-mode volume is split only if its column-start share (modes.column_start_share) is >= min_share.
+SPLIT_GATE_V4 = {"min_share": 0.35, "min_chars": 20, "min_rows": 50, "mid_frac": 0.4}
+MODE_RULE_FIELDS = ("merged_line_split", "split_region_tags", "layout_params", "types_params",
+                    "unit_params", "join_lead_marks")
+_V4_MODE_PRESETS = {"hand": "sg_1.01.02_v3", "print": "sg_1.10.94_v3"}
+SG_1_01_02_V4 = dataclasses.replace(
+    SG_HAND_V3, name="NL-HaNA_1.01.02_text_layer_v4",
+    description="NL-HaNA 1.01.02 text layer v4 (one hand/print mode per volume, by line-box height)",
+    mode_presets=_V4_MODE_PRESETS,
+    volume_mode={"method": "box_height", "params": BOX_HEIGHT_V4, "split_gate": SPLIT_GATE_V4},
+    # UA-026 (b), F12-R.6, P18: in printed 1.01.02 volumes an indent-only cut within 2 main lines of the last
+    # kept cut is a line beside a dropped initial, not a paragraph start
+    mode_overrides={"print": {"unit_params": {**SG_PRINT_UNIT_PARAMS, "drop_cap_lines": 2}}})
+SG_1_10_94_V4 = dataclasses.replace(
+    SG_PRINT_V3, name="NL-HaNA_1.10.94_text_layer_v4",
+    description="NL-HaNA 1.10.94 text layer v4 (print mode fixed; box height recorded)",
+    mode_presets=_V4_MODE_PRESETS,
+    volume_mode={"method": "fixed", "mode": "print", "params": BOX_HEIGHT_V4})  # phase-10 P11, phase-12 P7
+
 PRESETS = {"voc_v1": VOC_V1, "sg_1.01.02_v2": SG_HAND_V2, "sg_1.10.94_v2": SG_PRINT_V2,
-           "sg_1.01.02_v3": SG_HAND_V3, "sg_1.10.94_v3": SG_PRINT_V3}
+           "sg_1.01.02_v3": SG_HAND_V3, "sg_1.10.94_v3": SG_PRINT_V3,
+           "sg_1.01.02_v4": SG_1_01_02_V4, "sg_1.10.94_v4": SG_1_10_94_V4}
+
+
+def inventory_preset(preset, mode):
+    """The preset an inventory is built with: `preset` with the rule fields of its `mode`."""
+    if mode not in ("hand", "print"):
+        raise ValueError(f"mode must be 'hand' or 'print', got {mode!r}")
+    if preset.mode_presets is None:
+        return preset
+    src = PRESETS[preset.mode_presets[mode]]
+    fields = {f: getattr(src, f) for f in MODE_RULE_FIELDS}
+    override = (preset.mode_overrides or {}).get(mode, {})
+    bad = sorted(set(override) - set(MODE_RULE_FIELDS))
+    if bad:
+        raise ValueError(f"mode override outside MODE_RULE_FIELDS: {bad}")
+    fields.update(override)
+    return dataclasses.replace(preset, **fields, mode_presets=None, volume_mode=None, mode_overrides=None)
 
 
 def predict_seconds(xml_bytes, stage, fit):

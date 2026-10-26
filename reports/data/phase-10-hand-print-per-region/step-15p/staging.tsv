@@ -1,0 +1,13 @@
+inv	why	label	print_scan_share	chars
+3712	mixed volume (print_scan_share quintile 0)	mixed	0.1894	959840
+11117	mixed volume (print_scan_share quintile 1)	mixed	0.2311	937745
+46	mixed volume (print_scan_share quintile 2)	mixed	0.5407	2345593
+4623	mixed volume (print_scan_share quintile 3)	mixed	0.6429	78985
+12169	mixed volume (print_scan_share quintile 4)	mixed	0.8305	2062505
+12184	silver print -> mixed	mixed	0.8365	636429
+3463	silver hand -> print	print	0.9459	472768
+3166	silver hand -> mixed	mixed	0.3367	1640672
+11930	odd: regions with density > 1.5	hand	0	965347
+9469	odd: layout outlier (median w/h)	hand	0	19449
+9486	print volume outside the silver groups	print	0.9767	233806
+4617	print volume outside the silver groups	print	0.9767	129583

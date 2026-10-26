@@ -48,9 +48,15 @@ class UnitParams:
     indent_frac: float = None   # indent: x_i - col_left >= indent_frac * med_h
     short_frac: float = None    # short_prev: previous line ends left of col_right - frac * col_width
     gap_factor: float = None    # gap: vertical gap > gap_factor * med_h
+    # step 15x: an `indent`-only cut within this many main lines of the last kept cut is dropped (a line
+    # beside a dropped initial); None = off
+    drop_cap_lines: int = None
 
     def to_dict(self):
-        return dataclasses.asdict(self)
+        d = dataclasses.asdict(self)
+        if d["drop_cap_lines"] is None:
+            del d["drop_cap_lines"]
+        return d
 
     @classmethod
     def from_dict(cls, d):
@@ -135,10 +141,15 @@ def split_region(segs, params, print_mode):
                                     for p in range(mains[i - 1]["_pos"] + 1, mains[i]["_pos"]))
         cuts = {}   # i -> cues
         if print_mode:
+            last = 0   # index of the last kept cut (0 = the region's first main line)
             for i, feat in enumerate(paragraph_features(mains, header_between), start=1):
                 cues = cues_fired(feat, params)
+                if (cues == ["indent"] and params.drop_cap_lines is not None
+                        and i - last <= params.drop_cap_lines):
+                    continue   # step 15x: a line beside a dropped initial, not a new paragraph
                 if cues:
                     cuts[i] = cues
+                    last = i
         else:
             for i in range(1, len(mains)):
                 if header_between[i]:

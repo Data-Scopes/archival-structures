@@ -1,0 +1,111 @@
+inv	set	stratum	silver	role	stratum_size	chars	label15p
+3127	test	eerste_serie	hand	sample	123	24904	hand
+3107	test	eerste_serie	hand	sample	123	25557	hand
+3212	test	eerste_serie	hand	sample	123	2332498	hand
+3193	test	eerste_serie	hand	sample	123	3109178	mixed
+3122	test	eerste_serie	hand	sample	123	2002085	hand
+3190	test	eerste_serie	hand	sample	123	3334458	mixed
+3175	test	eerste_serie	hand	sample	123	1858689	hand
+3221	test	eerste_serie	hand	sample	123	2859940	mixed
+3104	test	eerste_serie	hand	sample	123	626153	mixed
+3154	test	eerste_serie	hand	sample	123	1889451	hand
+3164	test	eerste_serie	hand	reserve1	123	1749851	hand
+3232	test	eerste_serie	hand	reserve2	123	2878569	hand
+3144	test	eerste_serie	hand	reserve3	123	1777544	hand
+3099	test	eerste_serie	hand	reserve4	123	892243	hand
+3223	test	eerste_serie	hand	reserve5	123	2716257	hand
+3444	test	tweede_serie	hand	sample	421	1540579	hand
+3471	test	tweede_serie	hand	sample	421	1603878	hand
+3623	test	tweede_serie	hand	sample	421	2747819	hand
+3438	test	tweede_serie	hand	sample	421	1487138	hand
+3493	test	tweede_serie	hand	sample	421	1662463	hand
+3280	test	tweede_serie	hand	sample	421	1701133	hand
+3611	test	tweede_serie	hand	sample	421	2549734	hand
+3522	test	tweede_serie	hand	sample	421	1695760	hand
+3308	test	tweede_serie	hand	sample	421	1556936	hand
+3315	test	tweede_serie	hand	sample	421	2132965	hand
+3587	test	tweede_serie	hand	sample	421	1636544	hand
+3283	test	tweede_serie	hand	sample	421	2578034	hand
+3654	test	tweede_serie	hand	sample	421	1395073	hand
+3307	test	tweede_serie	hand	sample	421	1861427	hand
+3523	test	tweede_serie	hand	sample	421	142812	hand
+3520	test	tweede_serie	hand	sample	421	134387	hand
+3421	test	tweede_serie	hand	sample	421	2212237	hand
+3547	test	tweede_serie	hand	sample	421	2080380	hand
+3507	test	tweede_serie	hand	sample	421	1794068	hand
+3539	test	tweede_serie	hand	sample	421	1850425	hand
+3498	test	tweede_serie	hand	reserve1	421	230312	hand
+3478	test	tweede_serie	hand	reserve2	421	418201	mixed
+3274	test	tweede_serie	hand	reserve3	421	2950848	hand
+3290	test	tweede_serie	hand	reserve4	421	2302274	hand
+3408	test	tweede_serie	hand	reserve5	421	102360	hand
+3848	test	gedrukte_resoluties	print	sample	99	3681602	print
+3838	test	gedrukte_resoluties	print	sample	99	2524399	print
+3774	test	gedrukte_resoluties	print	sample	99	4593271	print
+3851	test	gedrukte_resoluties	print	sample	99	2624493	print
+3862	test	gedrukte_resoluties	print	sample	99	5355914	print
+3804	test	gedrukte_resoluties	print	sample	99	3940488	print
+3784	test	gedrukte_resoluties	print	sample	99	3784680	print
+3845	test	gedrukte_resoluties	print	sample	99	3197531	print
+3826	test	gedrukte_resoluties	print	sample	99	4239068	print
+3805	test	gedrukte_resoluties	print	sample	99	4035826	print
+3828	test	gedrukte_resoluties	print	reserve1	99	3800456	print
+3844	test	gedrukte_resoluties	print	reserve2	99	3470623	print
+3864	test	gedrukte_resoluties	print	reserve3	99	2582984	print
+3816	test	gedrukte_resoluties	print	reserve4	99	4035716	print
+3834	test	gedrukte_resoluties	print	reserve5	99	4993824	print
+12144	test	nouvelles	print	sample	64	4433656	print
+12093	test	nouvelles	print	sample	64	2314694	print
+12103	test	nouvelles	print	sample	64	2429521	print
+12123	test	nouvelles	print	sample	64	2769938	print
+12133	test	nouvelles	print	sample	64	1824813	print
+12101	test	nouvelles	print	sample	64	1922733	print
+12122	test	nouvelles	print	sample	64	2969728	print
+12087	test	nouvelles	print	sample	64	3136666	print
+12090	test	nouvelles	print	sample	64	3092075	print
+12092	test	nouvelles	print	sample	64	2564443	print
+12118	test	nouvelles	print	reserve1	64	2207842	print
+12106	test	nouvelles	print	reserve2	64	1996027	print
+12088	test	nouvelles	print	reserve3	64	3735757	print
+12132	test	nouvelles	print	reserve4	64	415278	print
+12105	test	nouvelles	print	reserve5	64	2615439	print
+12196	test	plakkaten	print	sample	76	1041986	mixed
+12235	test	plakkaten	print	sample	76	689215	mixed
+12205	test	plakkaten	print	sample	76	281826	mixed
+12179	test	plakkaten	print	sample	76	998919	mixed
+12166	test	plakkaten	print	sample	76	1943974	mixed
+12206	test	plakkaten	print	sample	76	206915	mixed
+12176	test	plakkaten	print	sample	76	2262620	mixed
+12203	test	plakkaten	print	sample	76	393316	mixed
+12174	test	plakkaten	print	sample	76	1342652	mixed
+12225	test	plakkaten	print	sample	76	164557	mixed
+12226	test	plakkaten	print	reserve1	76	337413	mixed
+12207	test	plakkaten	print	reserve2	76	205548	mixed
+12193	test	plakkaten	print	reserve3	76	857065	mixed
+12230	test	plakkaten	print	reserve4	76	344078	print
+12168	test	plakkaten	print	reserve5	76	2071925	mixed
+11220	diagnostic	non_silver		sample		1255772	mixed
+10306	diagnostic	non_silver		sample		19496	hand
+9821	diagnostic	non_silver		sample		23560	hand
+8287	diagnostic	non_silver		sample		46505	hand
+397	diagnostic	non_silver		sample		228758	hand
+751	diagnostic	non_silver		sample		538130	hand
+359	diagnostic	non_silver		sample		325045	hand
+8696	diagnostic	non_silver		sample		688701	hand
+4445	diagnostic	non_silver		sample		106181	hand
+10495	diagnostic	non_silver		sample		37005	hand
+8939	diagnostic	non_silver		sample		91136	hand
+695	diagnostic	non_silver		sample		595429	hand
+12444	diagnostic	non_silver		sample		424593	hand
+350	diagnostic	non_silver		sample		244438	hand
+234	diagnostic	non_silver		sample		750486	hand
+11900	diagnostic	non_silver		sample		1523763	hand
+3991	diagnostic	non_silver		sample		235363	hand
+11436	diagnostic	non_silver		sample		2377974	hand
+4831	diagnostic	non_silver		sample		1437142	hand
+2378	diagnostic	non_silver		sample		269690	hand
+8706	diagnostic	non_silver		reserve1		542971	hand
+4170	diagnostic	non_silver		reserve2		250507	mixed
+2542	diagnostic	non_silver		reserve3		251130	hand
+10676	diagnostic	non_silver		reserve4		94933	hand
+882	diagnostic	non_silver		reserve5		265330	hand

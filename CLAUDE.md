@@ -72,7 +72,11 @@ This file is loaded automatically. Do not restate it back to the user.
   prompt.
 - "Section" is ambiguous across levels. Always qualify it (e.g. *volume section*,
   *within-document section*) or name its type; see the glossary in `docs/definitions/`.
-
+- Check pages for the user: build them with the shared module
+  `/Users/Shared/claude_projects/data_scopes/shared-tools/checkpage.py`
+  (scan IDs as Nationaal Archief viewer links, per-value copy buttons, page-unique
+  localStorage key). Its README section "checkpage" is the checklist.
+  
 ## When something is left for the user
 
 Never leave a user action as prose in the chat ("you may want to…", "if it

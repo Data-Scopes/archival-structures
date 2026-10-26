@@ -1,0 +1,536 @@
+##### nouvelles: 34375 suppressed cuts (diagnostic 10 excluded), 30 read, seed 20261031
+--- n01 12088 NL-HaNA_1.01.02_12088_0291 line aab6f79a46d9 (unit print:indent+short_prev, 2 lines)
+   [x+0.3h] g1 Aimanis een altoorng giaglosti B ostusat vrotrraf al wiod
+   [x+0.2h] grigf ntob al ao vals. a6. gol A Trrol Ao-
+   [x+16.4h] 10 1006 eeurio1 e01 4o1
+>> [x+17.1h] omuayos al Ju01
+   [x+0.1h] suol extidoasf eel val ding Ba as B Mllogd aS up Suptaaest al
+   [x+0.1h] grbnst ol 1oog dontwidgh maresf ol oraarg a aalsgiuas eulg ee-
+   [x+0.1h] naomssts) ab erdman aulods gillo a niors al no aannos exgo-
+UNIT: 10 1006 eeurio1 e01 4o1 / omuayos al Ju01
+--- n02 12088 NL-HaNA_1.01.02_12088_0465 line 76ef9df2f509 (unit print:short_prev, 4 lines)
+   [x+1.2h] Halen.
+   [x+14.4h] tre Armée au
+   [x+21.8h] du Vioier.
+>> [x+24.0h] prisons, mais
+   [x+1.1h] Dolttein.
+   [x+7.6h] Capitaines.
+   [x+5.6h] Manuel, Blesse.
+UNIT: tre Armée au / du Vioier. / prisons, mais / Dolttein.
+--- n03 12088 NL-HaNA_1.01.02_12088_0482 line 1c820bd052f1 (unit print:region, 3 lines)
+   [x+19.5h] 10qlasr1
+   [x+2.5h] Sbaulloff mog zoid mnava titicg Baalhurf ob olmod 9
+   [x+0.0h] 31. A Vriom 23 36 Suthitusd un 3901019 318 1101. iup indiussreI 9
+>> [x+9.9h] gidragigge 96 9 un eoupluy vidl uul
+   [x+23.8h] wrl of dar loutuge ngb doe about elfs
+   [x+28.0h] raabueie aat
+   [x+16.5h] 7T. hebben Uw Hoogh Mog. op eergisteren by een Expres-
+UNIT: Sbaulloff mog zoid mnava titicg Baalhurf ob olmod 9 / 31. A Vriom 23 36 Suthitusd un 3901019 318 1101. iup indiussreI 9 / gidragigge 96 9 un eoupluy vidl uul
+--- n04 12090 NL-HaNA_1.01.02_12090_0217 line 8aca4e1b4836 (unit print:indent+short_prev, 3 lines)
+   [x+19.3h] Ils ont deja eleve une tete de lont de l'autre cote du
+   [x+29.2h] Rhin.
+   [x+21.9h] Le Regiment Royal Baviere a aussi pris la meme rou-
+>> [x+18.1h] Il y a continuellement de petits rencontres, mais d'au-
+   [x+30.6h] cune importance.
+   [x+33.7h] Spire le 15 Aout 1744.
+   [x+23.0h] Es Autrichiens continuent à exiger des contributions
+UNIT: Le Regiment Royal Baviere a aussi pris la meme rou- / Il y a continuellement de petits rencontres, mais d'au- / cune importance.
+--- n05 12090 NL-HaNA_1.01.02_12090_0377 line bdca13bb0035 (unit print:short_prev, 5 lines)
+   [x+25.9h] MNNAEER,
+   [x+16.0h] IR heb de eete van hier neevens aan U Wel-Edele Gestrenge on-
+   [x+20.0h] der num. 1 te laaten toekoomen myn antwoord op de Missive
+>> [x+21.8h] door den Heere Grave de Maurepas aan my geschreeven, 5e.
+   [x+21.4h] voegt by myne tweede Missive aan U Wel-Edele Gestrenge van den
+   [x+25.5h] 25 deeser.
+   [x+20.1h] Haar Hoog Mog. sullen uit myne Rescriptie sien
+UNIT: IR heb de eete van hier neevens aan U Wel-Edele Gestrenge on- / der num. 1 te laaten toekoomen myn antwoord op de Missive / door den Heere Grave de Maurepas aan my geschreeven, 5e. / voegt by myne tweede Missive aan U Wel-Edele Gestrenge van den / 25 deeser.
+--- n06 12092 NL-HaNA_1.01.02_12092_0369 line e8460fc8706b (unit print:short_prev, 6 lines)
+   [x+27.0h] WNNAEER,
+   [x+14.5h] Gfedert myne voorgaande onderdanigste hebbe ik van de Heeren
+   [x+22.2h] Ministers van dit Hof verstaan, dat het antwoord uit Engeland,
+>> [x+21.3h] op de voorslas van dit tot, 101 het houden van een Congres
+   [x+19.7h] ingekoomen was, en dat het op het referyn van het oude oorlogs-
+   [x+20.7h] lied uitquam, te weeten, dat Vrankryk sig vooraf moest explicee-
+   [x+24.4h] ren ten reguarde van de vreedenscondinien.
+UNIT: Gfedert myne voorgaande onderdanigste hebbe ik van de Heeren / Ministers van dit Hof verstaan, dat het antwoord uit Engeland, / op de voorslas van dit tot, 101 het houden van een Congres / ingekoomen was, en dat het op het referyn van het oude oorlogs- / lied uitquam, te weeten, dat Vrankryk sig vooraf moest explicee- / ren ten reguarde van de vreedenscondinien.
+--- n07 12092 NL-HaNA_1.01.02_12092_0409 line b28618452b51 (unit print:indent+short_prev, 13 lines)
+   [x+0.2h] Den Resident van Lansberge.
+   [x+6.4h] Hoog Mogende Heeren,
+   [x+0.7h] 74 dat den Heere Grave van Wassenaer voorleede Saturdag
+>> [x+2.2h] morgen sijne audientie van afscheid van den Churfurst had
+   [x+2.2h] gehad, en van sijne Churfurstelijke Doorlugtigheid was be-
+   [x+0.2h] sittiga geworden met een leer schoone Diamanie kins van eene
+   [x+0.2h] Steen, teggende in een seer swaare en konstis gewerkie soude
+UNIT: 74 dat den Heere Grave van Wassenaer voorleede Saturdag / morgen sijne audientie van afscheid van den Churfurst had / gehad, en van sijne Churfurstelijke Doorlugtigheid was be- / sittiga geworden met een leer schoone Diamanie kins van eene / Steen, teggende in een seer swaare en konstis gewerkie soude / Snuytiabats Doos, van binnen verciert met het Portrait van sijne / Churfurstelijke Doorlugtigheid, arriveerde sijn Excellentie te saa- / men met den Heere Grave sijn soon en geaccompagneert van den / Heere Grave van Bentheim teegen den avond hier, deed my de / eere aan van sijn intrek by my te neemen, en verrok smorgens / verder te Waier na Holland. Te Weelel hond de Heer Graat / van Bentheim voet aan Land te letten, 805 werwaards sijn verder / dellein 1as weer ik niet.
+--- n08 12101 NL-HaNA_1.01.02_12101_0053 line 1350a41d26a2 (unit print:short_prev, 16 lines)
+   [x+6.5h] 4005 Mogende Heeren,
+   [x+0.4h] Gedert myne voorige onderdanigste van den 26 passato is my
+   [x+1.3h] niets schryfwaardis voorgekoomen. Het tot continueert des
+>> [x+1.3h] setts sejour 101 Ulrichsdaat, sultende deese week niet herwaards
+   [x+0.2h] recourneeren. Den Konins is laatsteeden Maandas en Woensdag
+   [x+0.1h] in de Siad geweelt en in den Senaat verscheenen. Den Heer Ce
+   [x+0.2h] neraat Lieven is nog niet na Cartscrona vertrokken, 8os saat
+UNIT: Gedert myne voorige onderdanigste van den 26 passato is my / niets schryfwaardis voorgekoomen. Het tot continueert des / setts sejour 101 Ulrichsdaat, sultende deese week niet herwaards / recourneeren. Den Konins is laatsteeden Maandas en Woensdag / in de Siad geweelt en in den Senaat verscheenen. Den Heer Ce / neraat Lieven is nog niet na Cartscrona vertrokken, 8os saat / eersdaags de reise derwaards aan te neemen. Morgen sal na alle / gedagien de Koninglijke Waarschouwins weegens de drie op de / Groenlandsche Kusten vastgeraatie Hollandsche Scheepen vit de / Koninglijke Drukkerye koomen, om vervolgens daar het behoord / versonden, gepubliceert en geaffigeert te werden. Den Konins / heett den Heer beck, een Discipel van den vermaarden Archiater / Rosel, 101 hoogst desselfs eerste Lytmedicus en Praesident van het / Colleg. Med. benoemt. Ik hebbe de eere hier by te leggen ver- / volg van 's Konings Resolutie op de grieven der Boeren, en my / daar aan op het onderdanigste te gedragen.
+--- n09 12101 NL-HaNA_1.01.02_12101_0068 line 858a7c523960 (unit print:indent+short_prev, 22 lines)
+   [x+17.1h] Den Heer Ambassadeur Lestevenon van Berkenroode,
+   [x+33.0h] Hoog Mogende Heeren,
+   [x+16.0h] En Koning die sig thans tot Bellevué bevind, staat aldaar
+>> [x+24.6h] tot na het einde van het Carnaval te blyven. Den Baron
+   [x+23.0h] van Wreede, Keur-Paltzische Minister, is eergisteren alhier
+   [x+20.2h] aangekoomen. Men segt den Heer d'Ammon, geweesene Pruis
+   [x+21.1h] sische Minister by U Hoog Mog., en thans alhier gechargeert
+UNIT: En Koning die sig thans tot Bellevué bevind, staat aldaar / tot na het einde van het Carnaval te blyven. Den Baron / van Wreede, Keur-Paltzische Minister, is eergisteren alhier / aangekoomen. Men segt den Heer d'Ammon, geweesene Pruis / sische Minister by U Hoog Mog., en thans alhier gechargeert / zynde met de laaken van desselfs Hof omtrent de Commercie, / sijne Commissie geeindigt heeft, en binnen eenige tyd staat te / vertrekken. Den Heer Grave d'Argenson is weederom seer ge- / incommodeert door het podagra: en de Hertoginne van Biron, / Gemalinne van den Hertos van dien naam, Collonel van het Re / giment Fransche Gardes, heeft de Kindersiekte, dog is na tyds / omstandigheeden reedelijk. Den Heer Marquis de Saint Contest / komt morgen in deese Stad om de contravisite af te leggen by / den Heer Grave de Sartirana, Ambassadeur van Sardinien. Den / Prins van Conde heete sitteren een groot soups geheeven aan / drie Tafels, ieder van vyftig Couverts, gevolgt door een Bal, / alwaar de meeste Persoonen van distinctie zyn present geweest: / Men stelt voor vast het Huwelijk tusschen dien Prins en Made- / moiselle de Soubire voortgans sal hebben, zynde die Princesse / meede by dat Festyn teegenwoordig geweest; dit is het weinige / ik de eer kan hebben U Hoog Mogende by deese Post te rela- / ceeren.
+--- n10 12102 NL-HaNA_1.01.02_12102_0078 line 2aeb11f68f70 (unit print:region_start, 2 lines)
+   [x+0.7h] Waar meede, &c. Parys den 21 February 1754. Geteekent,
+   [x+0.2h] F. de Weiler.
+   [x+4.0h] Dat. 24 February( 1754.
+>> [x+7.3h] Rec. 1 Maart
+   [x+0.0h] Den Secretaris van den Heer Ambassadeur van
+   [x+2.1h] Berkenroode.
+   [x+5.0h] Hoog. Edele Gestrenge Heer,
+UNIT: Dat. 24 February( 1754. / Rec. 1 Maart
+--- n11 12103 NL-HaNA_1.01.02_12103_0112 line e72a5ca32846 (unit print:short_prev, 42 lines)
+   [x+0.1h] Den Heer Envoyé de Swart.
+   [x+6.6h] Hoog Mogende Heeren,
+   [x+0.2h] IR heb de eere hier by aan U Hoog Mogende in te sluiten een
+>> [x+1.1h] Translaat van eene Note, die dit Ministerie, soo aan my als
+   [x+1.2h] aan alle de verdere hier zynde uitheemsche Ministers voor
+   [x+0.2h] teeden Woensdas ter hand heeft doen sellen, tendeerende om
+   [x+0.2h] heene van de Manschap, 100 Onderofficieren als Soldaaten, by
+UNIT: IR heb de eere hier by aan U Hoog Mogende in te sluiten een / Translaat van eene Note, die dit Ministerie, soo aan my als / aan alle de verdere hier zynde uitheemsche Ministers voor / teeden Woensdas ter hand heeft doen sellen, tendeerende om / heene van de Manschap, 100 Onderofficieren als Soldaaten, by / ons ter wagt zynde, tot eenige van onse particuliere diensten, / principaal om door deselve iemand te laaten straffen, te gebrui- / ken: Op dit laatste komt het by die Note voornaamentlijk aan, / van de omstandigheeden die bekent geworden zyn dat aanleidin- / se tot die Vote geheeven hebben, heb ik de eere, onder addres / van den Heere Griffier Fagel, rapport te doen. Haare Ma- / jelteit heeft aan den Sweedschen Kaamerheer Lieven, des avonds / voor sijn vertrek van hier, een present van duisend Ducaaten ge- / sonden, alhoewel hy niet gechargeert is geweest met een compli- / ment van dellelfs Hot, aan haare Majelteit. De Masqueraa- / de van den Kaamerheer Graat Ticheremetot, die op voorgisteren / valtgestelt was, is door haare Majelteit op sijn verloek, weegens / de siekte van sijn oudste Soontje, uitgestelt. De Heeren / eertte Minitters, en andere voornaamste Perloonen van dit Hot, / hebben lis geexculeerd diergelijke tetes te geeven, soo het / schynt, om dat haar de middelen daar toe ontbreeken. Voor- / teeden Dingsdas heeft haare Keilerlijke Majelteit, den Kaamerheer / vvan Wannowitz Schouwalof, de eere gedaan by hem in desselfs / nieuw gebouwde lateis voor de eerttemaat te loupeeren, en dat / in te wyen: By die occasie heeft haare Keiserlyke Majesteit aan / dien jongen Heer, voor het loogenaamde Zout en Brood in het / nieuwe Huis, selieven te vereeren een leer groot compleet lilver / Patellervies, en een soude Tabatiere, ongemeen kottbaar met / Brillanten belet, behalven meer andere Kostbaarheeden van 5100. / te waarde. Gisteren soude dit Ministerie, soo als my voor- / sisteren liet weeten, weederom een Courier na Constantinopoten / expedieeren: De voorige is eerst veertien daagen te vooren afge- / gaan. Daar is deeler daagen ook een Officier van de Guar„ / de na de Turksche Crensen gesonden, om den Afgelondene van / de Porte, die hier staat te koomen, om de komste van den Sul / van Osman tot de Regeeringe te notificeeren, aldaar te ontlan / gen en herwaarts te geleiden. De bewoonders van het Huis, / dat de Erven van wylen den Graaf van Wratislaw, geweesen Am- / balladeur van het tot van Weenen alhier, nos in deele Stad / hebben, heeft men daar uit doen delogeeren, en werd dat Huis / nu door dit Hot gereed gemaakt, om dien Turkschen Gezant, / geduurende sijn verblyf alhier, daar in te logeeren. Met on-
+--- n12 12103 NL-HaNA_1.01.02_12103_0353 line a43a30c9eca7 (unit print:indent+short_prev, 13 lines)
+   [x+0.8h] Waar meede, &c. Dresden den 7 September 1755.
+   [x+31.8h] Hoog-Edele Gestrenge Heer,
+   [x+16.1h] Olgens eenige particuliere narigten soude de Graaf van Wied-
+>> [x+25.2h] runkel, ondersteund van eenige Roomsche Vortten, thans
+   [x+22.7h] soeken t'obtineeren de Keyserlijke confirmatie of guarantie
+   [x+20.1h] over sijne geheeve Concellie tot den opbouw van het Capueyne
+   [x+22.7h] Hootter, en de publique exercitie van den Roomsch Catholijken
+UNIT: Olgens eenige particuliere narigten soude de Graaf van Wied- / runkel, ondersteund van eenige Roomsche Vortten, thans / soeken t'obtineeren de Keyserlijke confirmatie of guarantie / over sijne geheeve Concellie tot den opbouw van het Capueyne / Hootter, en de publique exercitie van den Roomsch Catholijken / Godsdienst binnen desselfs Residentie te Dierdorf; do5 soo on- / seeker het nog is, of hy daar in sal reulleeren, soo gewis is het / daar en teegens, dat hy in cas van succes, evenwel daar door / niet sal kunnen eludeeren de executie van de bekende melures / die het Protestantsche Corps in die laat eens heeft genoomen, / en in gevolge van dewelke men in cas van noodsaakelijkheid tot / vernietiging van het oogmerk in questie, de sterke hand selfs tee- / gens hem sal gebruiken.
+--- n13 12103 NL-HaNA_1.01.02_12103_0522 line 2b448e801d3a (unit print:indent+short_prev, 18 lines)
+   [x+0.7h] DEn Roomsch-Keiserlijke Kamerheer, Graaf Zinzendorf, sou-
+   [x+0.5h] 66
+   [x+2.0h] de reeds voorleeden Woensdas de te rugreise na Weenen
+>> [x+2.1h] aangenoomen hebben, indien sijn WetEdele dien das niet
+   [x+0.1h] geinsinueert was geworden, dat het haare Majelteit aangenaam
+   [x+0.1h] soude zyn, als sijn Wel-Edele zyn vertrek nog eenige daagen
+   [x+0.2h] wilde uitstellen, om ondertusschen eerst de op handen zynde Fe-
+UNIT: de reeds voorleeden Woensdas de te rugreise na Weenen / aangenoomen hebben, indien sijn WetEdele dien das niet / geinsinueert was geworden, dat het haare Majelteit aangenaam / soude zyn, als sijn Wel-Edele zyn vertrek nog eenige daagen / wilde uitstellen, om ondertusschen eerst de op handen zynde Fe- / stins aan dit Hol, soo weegens het Ridderfeest van Ste. Cathe- / rina, de Naamdag van haare Keiserlijke Hoogheid de Grootvor- / sinne, als de anniverlaire van haare Majelteits komste tot den / Throon en de Ridder Orden van St. Andries te sien, waar aan / dien Heer niet heeft konnen nalaaten te detereeren, nietteegen / saande des Sondags te vooren voor het eerst na sijn retour aan / haare Majelteit weeder gepresenteert was geworden, en sijn Wet / Edele ter selver tyd zyn afscheid genoomen had: de eerstgemel- / de ketes zyn voorleeden Vrydas en Saturdas met de gewoone / lolemniteiten gecelebreert, en dat van de Ridder Orden van St. / Andries sal overmorgen gevierd werden: sullende welgemelde / Graat van Linzendort de te rugreile na Weenen den volgenden / das aanneemen.
+--- n14 12105 NL-HaNA_1.01.02_12105_0007 line 6b13ae3b782f (unit print:indent, 3 lines)
+   [x+19.9h] Heeren Burgermeelteren Korthum en Schubat.
+   [x+23.9h] Waar meede ik met alle onderdanigheid verblyve,
+   [x+30.4h] Wel Edele Gestrenge Heer,
+>> [x+33.6h] Uw Wel-Edele Gestrenges seer
+   [x+24.0h] Hamburg
+   [x+32.8h] behoorlaame en ootmoedige
+   [x+27.8h] den 29
+UNIT: Wel Edele Gestrenge Heer, / Uw Wel-Edele Gestrenges seer / Hamburg
+--- n15 12105 NL-HaNA_1.01.02_12105_0298 line 5524d70275f9 (unit print:indent+short_prev, 3 lines)
+   [x+27.0h] Num. bours au Comte de la Puebla a Berlin:
+   [x+23.2h] qu'il devoit faire glisler au Ministre de Russie le Sr.
+   [x+28.5h] Crots, qu'il le tramoit quelque chole en Suede con-
+>> [x+28.4h] tre la vie & personne de limperatrice de Russie, a
+   [x+26.9h] quoi la Cour de Prusse avoit la bonne part, & que
+   [x+28.3h] lorsque le Sr. Grols lui en feroit la confidence, il
+   [x+19.6h] devoit lui confirmer la verité de cette decouver
+UNIT: qu'il devoit faire glisler au Ministre de Russie le Sr. / Crots, qu'il le tramoit quelque chole en Suede con- / tre la vie & personne de limperatrice de Russie, a
+--- n16 12105 NL-HaNA_1.01.02_12105_0370 line 535291cbcc4d (unit print:short_prev, 10 lines)
+   [x+28.4h] NPNAEER,
+   [x+13.5h] JAn de Krygsoperatien in Boheemen, is niet sonderlings in-
+   [x+24.1h] geloopen. De Graaf Schwerin schynt een Cordon te wil-
+>> [x+21.2h] ten formeeren in de Koningsgratze Kreits, om daar sijn Lee-
+   [x+21.5h] ser te doen cantonneeren, wanneer de Campagne geheel sal af
+   [x+21.5h] geloopen 29n. Het is wel apparent dat door de stroopergen
+   [x+22.9h] der ligte Trouppes daar van tyd tot tyd kleine Actien voorval-
+UNIT: JAn de Krygsoperatien in Boheemen, is niet sonderlings in- / geloopen. De Graaf Schwerin schynt een Cordon te wil- / ten formeeren in de Koningsgratze Kreits, om daar sijn Lee- / ser te doen cantonneeren, wanneer de Campagne geheel sal af / geloopen 29n. Het is wel apparent dat door de stroopergen / der ligte Trouppes daar van tyd tot tyd kleine Actien voorval- / len, des dewyl het niet probabel is, dat de Prins Picolomini ge- / duurende deese Campagne zyn Campement by Koningsgratz sal / konnen verlaaten, en in het open Veld verschynen, zyn die / voorvallen van geen groot belans.
+--- n17 12105 NL-HaNA_1.01.02_12105_0499 line 7c388059e1bd (unit print:short_prev, 2 lines)
+   [x+33.7h] Medicinaal- en Goudgewig-
+   [x+46.6h] ten.
+   [x+29.9h] Weegschaalen van geelkoo-
+>> [x+39.6h] per.
+   [x+35.7h] Wynen, allerhande soorten,
+   [x+40.9h] behalven wicte en roode
+   [x+43.8h] Vins de Grave.
+UNIT: Weegschaalen van geelkoo- / per.
+--- n18 12109 NL-HaNA_1.01.02_12109_0071 line 84e92ebf86e2 (unit print:indent+short_prev, 3 lines)
+   [x+25.7h] beheeven sa1.
+   [x+18.8h] Hier loopt een gerugt dat de Prins van Souvire op den Grave
+   [x+22.0h] van Henburs een merkelijk voordeel in Hellen behaald heeft.
+>> [x+26.1h] Waar mede, &c.
+   [x+31.4h] Geteekent,
+   [x+15.5h] A. C. de Braconier.
+   [x+21.6h] Luyk den 28 July 1758.
+UNIT: Hier loopt een gerugt dat de Prins van Souvire op den Grave / van Henburs een merkelijk voordeel in Hellen behaald heeft. / Waar mede, &c.
+--- n19 12114 NL-HaNA_1.01.02_12114_0518 line 542707d2cf9e (unit print:indent+short_prev, 3 lines)
+   [x+21.7h] beeter, alles schikt sig tot sijne volkoomene herstelling.
+   [x+25.8h] Waar meede, &c.
+   [x+26.4h] Weenen den 6 October 1762.
+>> [x+37.5h] Getee-
+   [x+31.6h] kent, B. V. Burmania.
+   [x+21.2h] Dat. 111 October 1762.
+   [x+27.8h] Rec. 18s
+UNIT: Weenen den 6 October 1762. / Getee- / kent, B. V. Burmania.
+--- n20 12116 NL-HaNA_1.01.02_12116_0455 line 973a3fcc1141 (unit print:indent, 3 lines)
+   [x+1.7h] zyn, als by myn nederig schryven in dato 1 Augusty ge-
+   [x+1.9h] meld, soo ben ik thans geinformeert, dat het boovenstaan
+   [x+1.9h] de geen Presenten zyn geweelt, maar wel op verloek en
+>> [x+1.7h] reekenins van den Dey 292 gesonden, en aan den Consul
+   [x+1.7h] in Venetiaansche Zechinen is betaald geworden: maar dat
+   [x+1.9h] in de daar neevens gekoomene kallen de extraordinaire
+   [x+1.9h] aansienelyke Regalen zyn afgepakt geweest.
+UNIT: de geen Presenten zyn geweelt, maar wel op verloek en / reekenins van den Dey 292 gesonden, en aan den Consul / in Venetiaansche Zechinen is betaald geworden: maar dat
+--- n21 12120 NL-HaNA_1.01.02_12120_0049 line 4ab4ae7a32eb (unit print:indent+short_prev, 4 lines)
+   [x+6.4h] 4003 Mogende Heeren,
+   [x+0.8h] En Heer Envoyé van Saxen, Graaf Sintzendorf, hadde gis-
+   [x+1.7h] teren by sijne Majelteit audientie, overhandigende een brief
+>> [x+1.4h] van den Heere Keurvorst, waar in desselfs Majoriteit geno-
+   [x+0.1h] tificeert wierd.
+   [x+0.6h] Men debiteert, dat heeden in den Senant weer een propositie,
+   [x+0.0h] aangaande een geanticipeerden Ryksdas gedaan sal worden, by
+UNIT: En Heer Envoyé van Saxen, Graaf Sintzendorf, hadde gis- / teren by sijne Majelteit audientie, overhandigende een brief / van den Heere Keurvorst, waar in desselfs Majoriteit geno- / tificeert wierd.
+--- n22 12120 NL-HaNA_1.01.02_12120_0347 line 151b07ccb94e (unit print:indent, 3 lines)
+   [x+25.1h] tuigen zyn geweest, by haare te rus komste aan alle haa-
+   [x+24.5h] re Weedeburgers in den naame van haare Majelteit de
+   [x+24.2h] kragtigste verseekeringe geeven, dat allerhoogst deselver
+>> [x+26.0h] niet eerder volkoomen gerust sal zyn, als wanneer het
+   [x+26.6h] algemeene belang der geheele Republicq, en de seeker-
+   [x+24.5h] heid van ieder Meedelid der selve, volkoomen versekerheid
+   [x+30.2h] sal 29n.
+UNIT: kragtigste verseekeringe geeven, dat allerhoogst deselver / niet eerder volkoomen gerust sal zyn, als wanneer het / algemeene belang der geheele Republicq, en de seeker-
+--- n23 12120 NL-HaNA_1.01.02_12120_0397 line cb0744e1c6be (unit print:short_prev, 13 lines)
+   [x+33.1h] H0og Mogende Heeren,
+   [x+26.2h] Iisteren, zynde de Geboortedag van Prins Hendrik, Broeder
+   [x+31.3h] van den Koning, ontfing sijne Koninglyke Hoogheid des-
+>> [x+29.2h] weegens de complimenten. De Koninglyke Familie, en het
+   [x+26.6h] gantsche Hof was in Gala, en speisden in het Appartement van
+   [x+30.2h] de Koninginne, alwaar sijne Majesteit het Dine liet serveeren op
+   [x+31.9h] de goude Vaisselle, by het welke hoogstdeselve, volkoomen her-
+UNIT: Iisteren, zynde de Geboortedag van Prins Hendrik, Broeder / van den Koning, ontfing sijne Koninglyke Hoogheid des- / weegens de complimenten. De Koninglyke Familie, en het / gantsche Hof was in Gala, en speisden in het Appartement van / de Koninginne, alwaar sijne Majesteit het Dine liet serveeren op / de goude Vaisselle, by het welke hoogstdeselve, volkoomen her- / stelt zynde, assitteerde. Des avonds na de Opera was er wee / derom groot Soupe in boovengemelde Appartement, het welke / door een Bal en Domino gevolgt wierd. Den Koning sond giste- / ren morgen aan hooggemelde Prins Hendrik een goude Snuyf- / doos, verciert met het Pourtrait van sijne Majesteit, en seer ryk / met Diamanten betet. Dit Present was geaccompagneert met de / teedertte en vriendelykste brief moogelyk.
+--- n24 12122 NL-HaNA_1.01.02_12122_0364 line 769c7c30d740 (unit print:short_prev, 12 lines)
+   [x+24.3h] Hoog. Edele Gestrenge Heer,
+   [x+18.2h] IR gedraage my eerbiedigst tot myne onderdanigste laatste van
+   [x+20.5h] den 31 laatstleeden, waar by de eere hadde aan U Hoog-Ed.
+>> [x+20.6h] Cestrenge in het kort verllas te doen, van de tydins, die
+   [x+19.4h] men alhier per Courier van den Generaal Graaf Rumancouw ont-
+   [x+19.9h] fangen hadde, weegens de Battaille op den 7- 18 July by de Ri-
+   [x+19.7h] vier Larga in Moldavien voorgevallen: seedert heeft men dien aan
+UNIT: IR gedraage my eerbiedigst tot myne onderdanigste laatste van / den 31 laatstleeden, waar by de eere hadde aan U Hoog-Ed. / Cestrenge in het kort verllas te doen, van de tydins, die / men alhier per Courier van den Generaal Graaf Rumancouw ont- / fangen hadde, weegens de Battaille op den 7- 18 July by de Ri- / vier Larga in Moldavien voorgevallen: seedert heeft men dien aan / gaande door den Druk gemeen gemaakt de Relatie, waar van de / oryheid neeme Translaat hier neevens te includeeren, daar toe / my dan gehoorsaamst gedraage. Buiten het geene in de voorsz / Relatie vermelt staat, zyn voor alsnog geen andere particularitei- / ten der voorsz Battaille bekent, maar men verwagt alle oogen- / blikken een nader Courier met de omstandige Relatie daar van
+--- n25 12122 NL-HaNA_1.01.02_12122_0577 line f7847d07162a (unit print:indent+short_prev, 8 lines)
+   [x+29.6h] Hoog Mogende Heeren
+   [x+23.7h] Epasseerde Donderdag is sijne Keurvorstelyke Doorlugtigheid
+   [x+30.5h] van Mentz in volmaakten welstand van Aschattembours in
+>> [x+29.0h] deele sijne Relidentie gereverteert. Den Grave van Eltz,
+   [x+24.4h] Soon van den Opper-Kamerheer, is als Opper Stalmeester gede-
+   [x+25.8h] clareert, 8os de benoeminge van den nieuwen Cancelier is nog
+   [x+24.4h] niet publicq geschied, dog daar is geen twyffel of den geheymen
+UNIT: Epasseerde Donderdag is sijne Keurvorstelyke Doorlugtigheid / van Mentz in volmaakten welstand van Aschattembours in / deele sijne Relidentie gereverteert. Den Grave van Eltz, / Soon van den Opper-Kamerheer, is als Opper Stalmeester gede- / clareert, 8os de benoeminge van den nieuwen Cancelier is nog / niet publicq geschied, dog daar is geen twyffel of den geheymen / Reterendarius van Benzel, Soon van den voorlaatsten Cancelier, / sal die Polt vervullen.
+--- n26 12132 NL-HaNA_1.01.02_12132_0046 line 347d12efc98b (unit print:short_prev, 10 lines)
+   [x+0.3h] teekent, Lestevenon van Berkenroode.
+   [x+4.4h] 4003 Mogende Heeren,
+   [x+0.5h] Oorleeden Sondag is alhier ten Hove het Feest van de Rid-
+>> [x+1.3h] der Order van St. Stephan gevierd, en de nieuw benoemde
+   [x+0.2h] Groot-Kruyssen en Ridders geinstalleert, by welke geleegentheid
+   [x+0.2h] sijne Majesteit in het publicq gesperst heeft alleen aan een Tafel
+   [x+0.2h] onder het Dais geplantst, en de Groot-kruyssen aan een andere
+UNIT: Oorleeden Sondag is alhier ten Hove het Feest van de Rid- / der Order van St. Stephan gevierd, en de nieuw benoemde / Groot-Kruyssen en Ridders geinstalleert, by welke geleegentheid / sijne Majesteit in het publicq gesperst heeft alleen aan een Tafel / onder het Dais geplantst, en de Groot-kruyssen aan een andere / Tafel, paradeerende ter selver tyd de by uitstek fraaye Hungari- / sche Guardes in der selver groote Uniform rondsom in de Zaal, / alwaar, na gewoonte, Grandapis gemaakt waren voor de Dames, / op welke ook de Princes Elisabeth van Wurtembers verscheenen / 15.
+--- n27 12140 NL-HaNA_1.01.02_12140_0357 line b16591a09ec8 (unit print:indent, 3 lines)
+   [x+25.4h] taxce par l‛Heritier meme qui en prend polsellion,
+   [x+27.9h] & sur la toi &e Conscience, a telle Somme que
+   [x+23.6h] l‛objet pourra valoir lelon les avancases ou les
+>> [x+24.4h] charges qui pour toujours ou pour un tems limité
+   [x+24.5h] y sont attaches; ou ce qui revient au meme, a la
+   [x+22.8h] Somme pour la quelle il le vendroit, tet qu'il est,
+   [x+25.3h] avec emolumens de charges; s'il tut le maitre de
+UNIT: & sur la toi &e Conscience, a telle Somme que / l‛objet pourra valoir lelon les avancases ou les / charges qui pour toujours ou pour un tems limité
+--- n28 12140 NL-HaNA_1.01.02_12140_0390 line 457a564347b2 (unit print:short_prev, 2 lines)
+   [x+30.5h] Major du Genie, Charses des Pleinpouvoirs de M. Cym.
+   [x+30.1h] rich pour proceder a la dite Capitulation.
+   [x+26.8h] Reunis a cet effet avons arreté les Articles suivans.
+>> [x+44.9h] Art. 1.
+   [x+27.5h] les Troupes Mavencoises & autres Troupes du
+   [x+29.6h] Cercle qui sont jointes lans aucune exception,
+   [x+31.1h] sortiront Librement, & avec les Honneurs de la
+UNIT: Reunis a cet effet avons arreté les Articles suivans. / Art. 1.
+--- n29 12144 NL-HaNA_1.01.02_12144_0216 line c8317b2b6715 (unit print:short_prev, 26 lines)
+   [x+0.0h] O. Bosch.
+   [x+34.7h] 4oog Mogende Heeren.
+   [x+21.0h] DOorleede Maandas is aan het Keiserlijke tot weederom groot
+>> [x+30.5h] sala geweelt over de Gehoorie of Verjaardas van de regee
+   [x+33.5h] rende Keiserinne, die in haar twee en veertigste jaar is ge-
+   [x+28.1h] treeden: in alle de de kerken is de Codsdienst verrigt soo van de
+   [x+33.8h] Gereformeerden, Loierschen als Roomsgesinden binnen en bunten
+UNIT: DOorleede Maandas is aan het Keiserlijke tot weederom groot / sala geweelt over de Gehoorie of Verjaardas van de regee / rende Keiserinne, die in haar twee en veertigste jaar is ge- / treeden: in alle de de kerken is de Codsdienst verrigt soo van de / Gereformeerden, Loierschen als Roomsgesinden binnen en bunten / deese Stad, de Winkels zyn geslooten gehleeven: de Burgers zyn / opgetrokken, en teegens den avond een generaate saloo gedaan voor / het Keiserlijke Logement; ook zyn honderd stukken Kanon drie- / maal gelost en de Klokken geluyd: de Keiser en Keiserinne zyn / smiddags in de Domkerk geweelt met seer veel saatsie, alle de / Hovelingen gingen te voet voor de Keiserlijke Koets; de Pausse- / lijke Nuncius recipieerde sijne Keiserlijke Majellei aan de Deur van / de Kerk, de Mis wierd gesongen onder het geluid van Pauken en / Trompetien neevens een keurlijke Molicq van Stemmen en Instru- / menten, waar na de Keiser en Keiserinne in het publicq hebben ge- / spyst; de Nuncius was daar present en bleef soo lang, dat sijne / Keiserlijke Majelleit de eerste reis hadde gedronken: de Spaansche / Amballadeur, de Craat van Monijo, evieerde die ceremonie: de / Churprins was dien dag voor de eerstemaal op sijn Spaansch ge- / kleed, soo als de Keiser, die telkens op de Ceremoniedagen sijn / Spaansche Kleed draagt; de Keiserinne was in het swart, alle de / tovelingen in Calatteederen: dien das is met seer veel ceremonie / gecelevieert geworden, en aan een iegelijk was gepermineert de / Handen van de Keiserinne te kussen, savonds was ten Hove Ap- / pariement neevens een Kaamermulicq: Syne Keiserlijke Majelteit / verlangt seer om wederom in sijne Residentie te mogen weesen.
+--- n30 12144 NL-HaNA_1.01.02_12144_0693 line ff96513d19a0 (unit print:indent+short_prev, 31 lines)
+   [x+6.1h] 400g Mogende Heeren,
+   [x+1.2h] Aatstleeden Possdag, den 4 deeser, heb ik geene de mitste
+   [x+1.6h] schryfstoffe gehad de autentie van U Hoog Mog. meriteerende.
+>> [x+2.1h] Widdelerwyle is de reise van haare ketterlijke Majelleit en
+   [x+0.4h] Hoogheeden na Tiffina nog untgesteld gebleeven, sonder dat men weet
+   [x+0.4h] wanneer die voortgang hebben sal; dewyl den Heer Overjager-
+   [x+0.3h] meester, Graave Ratoumofskni, die meede van die fesse zyn soute,
+UNIT: Aatstleeden Possdag, den 4 deeser, heb ik geene de mitste / schryfstoffe gehad de autentie van U Hoog Mog. meriteerende. / Widdelerwyle is de reise van haare ketterlijke Majelleit en / Hoogheeden na Tiffina nog untgesteld gebleeven, sonder dat men weet / wanneer die voortgang hebben sal; dewyl den Heer Overjager- / meester, Graave Ratoumofskni, die meede van die fesse zyn soute, / in de tusscheniyd door het lodagra geincommodeert is geworden. / Den Heer Keiserlijke Ambassadeur, Baron van Bretsach, heeft voor- / gisseren wederom den Heer Generaal Veldmarschal, Graave Lacy, / de Heeren Cancelier en Vicecancelser, neevens verscheide van de / voornaamste Generaatspersoonen en tovelingen, den Heer Ambas / sadeur van Groot-Brittannien en Schryver deeser splendide ter maaf- / tyd onthaald. Men verseekerd dat welgemelde Heer Generaad / Veldmarschalk in de aanstaande weeke wederom na Riga vertrek- / ken sal, om daar eenige geresolveerde dispontien by de Aimée te / executeeren. Den Generaal Major Hannibal, zynde een swarie / Moor van gehoorte, is deeser daagen vit Fmnland, alwaar by het / reguleeren van de Grensscheidinge gebruikt is, hier te rug gekon- / men. Den Generaal Lieutenant, Graave Bruce, is ook ordre ge- / sonden om ten spoedigne vit Morco herwaards te koomen, en den / Generaal Graave Douglas, die onder het Regentschap sijne dimistie / oit deesen dienst gegeeven is, staat van nieuws weeder geenga- / geert te worden. Het algemeene seggen is, dat den Furst Canti- / mir, in myne ceibiedigsse laatste van den 31 January gemeld, by / het openen van desselfs Lighaam bevonden is, door gift omge- / koomen te zyn. binnen korten soo sults niet reeds geschied is, / gelijk eenige verseekeren willen i sal een uitschryvinge van vyftig / duisend Man Recruuten, om daar meede deese Armée te augmen- / teeren, gepubliceert worden, als meede een ordre om het 1ooge- / naamde Ziel- of Hoofdgeld, waar op de Armée gerepartiieert is, / te verhoogen. De vacante Stafsofficiersplaatsen hy de geheelt
+##### plakkaten: 18562 suppressed cuts (diagnostic 10 excluded), 30 read, seed 20261031
+--- p01 12166 NL-HaNA_1.01.02_12166_0136 line df942b1e34e7 (unit print:region_start, 3 lines)
+   [x+2.7h] Grdt by desen allen Richter-suyden, Adegt-
+>> [x+3.8h] uyvens Behippers, Schuyte voerders, voors myden, vancehers ende andere Zeer uye
+   [x+4.3h] den weterpedtelijck geeinterdiceert ende verboden, met hare Richters, wagen, Schepen,
+   [x+4.5h] Bequyteni Roots, Mis-boots ofte andere daer tuygen, buyten ordre ofte consent vande
+   [x+4.0h] Heeren Bewinthebberen vande Dolt-Indische Compagnie ofte hare ogecommitteerden
+UNIT: Grdt by desen allen Richter-suyden, Adegt- / uyvens Behippers, Schuyte voerders, voors myden, vancehers ende andere Zeer uye / den weterpedtelijck geeinterdiceert ende verboden, met hare Richters, wagen, Schepen,
+--- p02 12166 NL-HaNA_1.01.02_12166_0242 line 7a2ed2522c44 (unit print:short_prev, 3 lines)
+   [x+0.3h] Aluffers ende Maet-Balcken, de hondert twee en-
+   [x+1.0h] twintigh stucken
+   [x+0.3h] Bandt-stocken, Brant-hout, Bijl-steelen, Mhouden,
+>> [x+1.1h] Schuppen Bellinghen, Rachters, ende diergelijc-
+   [x+1.0h] tel komende met volle ladinge 'tlast
+   [x+0.3h] Ende komende met klepne partijen beneffens andere
+   [x+0.7h] Albaren, so die hier te Lande soude mogen gelaen-
+UNIT: Bandt-stocken, Brant-hout, Bijl-steelen, Mhouden, / Schuppen Bellinghen, Rachters, ende diergelijc- / tel komende met volle ladinge 'tlast
+--- p03 12166 NL-HaNA_1.01.02_12166_0247 line f3387c2cd394 (unit print:short_prev, 3 lines)
+   [x+0.2h] Sargien uyt Oost-landt, Bruynswrijck, ende andere
+   [x+0.9h] diergelijcke, 't stuck d'een door d'ander
+   [x+0.2h] Sattinen, gheheeten Brughsche, ofte op de selve ma-
+>> [x+0.6h] niete ggemaeckt, Doornichsche ende vierghelijcke,
+   [x+1.0h] tstuct
+   [x+0.1h] Behsalien ofte Lepen, 't dupsent
+   [x+0.2h] Schilderpen
+UNIT: Sattinen, gheheeten Brughsche, ofte op de selve ma- / niete ggemaeckt, Doornichsche ende vierghelijcke, / tstuct
+--- p04 12166 NL-HaNA_1.01.02_12166_0664 line fd13e64ce3b9 (unit print:indent+short_prev, 3 lines)
+   [x+11.4h] Caerte daer
+   [x+14.5h] bemaeckt, ende de opgetrockene Raepe, aenweletve
+   [x+35.2h] vare 17003
+>> [x+36.2h] Aogende
+   [x+49.3h] oven
+   [x+8.6h] gen
+   [x+14.8h] van
+UNIT: bemaeckt, ende de opgetrockene Raepe, aenweletve / vare 17003 / Aogende
+--- p05 12168 NL-HaNA_1.01.02_12168_0084 line 4b99c3a76502 (unit print:short_prev, 3 lines)
+   [x+54.0h] Schapen ende Beelten, d'eperen van de Bacrpsen ende an
+   [x+33.6h] voors at waer 1on s Heeren wegen otde gemeene vane be
+   [x+52.1h] dere edele Vogels werden gecoott, ende hare vroetlelen bedor
+>> [x+41.6h] Begeven onder ontengrooten Zegel, ende de Signamete
+   [x+37.9h] vonden sullen werden met voersgeladen met Loot, wageliot
+   [x+55.0h] venssoo wert alle Landclieven, Schaenververs ende Beelten
+   [x+46.0h] vande hooch-ghemelte onse Booghden, in 's Graven-Bagel
+UNIT: dere edele Vogels werden gecoott, ende hare vroetlelen bedor / Begeven onder ontengrooten Zegel, ende de Signamete / vonden sullen werden met voersgeladen met Loot, wageliot
+--- p06 12168 NL-HaNA_1.01.02_12168_0357 line d48b0b07a29b (unit print:region_start, 3 lines)
+   [x+0.2h] van min
+   [x+4.8h] Adr. Pots.
+   [x+11.8h] 200 60 begeliere expecientie bevoiden wort
+>> [x+17.8h] dat in 't ophouwen ende maecken van Buylen ende Rimmeragien alhier in 's raven-
+   [x+18.4h] Hage, de gemeyne wegen, Beraten, angen, ende pallagien, mootelscr worden gem
+   [x+19.1h] commoveert ende vermindert, overmies d'oepgenaers der respective Buylen, Bchuyren
+   [x+17.7h] ende anders, heure simiten extemberen op de gonden der selver woegen, Btraten, Ban-
+UNIT: 200 60 begeliere expecientie bevoiden wort / dat in 't ophouwen ende maecken van Buylen ende Rimmeragien alhier in 's raven- / Hage, de gemeyne wegen, Beraten, angen, ende pallagien, mootelscr worden gem
+--- p07 12168 NL-HaNA_1.01.02_12168_0399 line bc5e7d6d730d (unit print:indent, 30 lines)
+   [x+4.7h] gratia Suecorum, Gothorum, Wandalorumque
+   [x+4.8h] Regis, Magni Principis Finlandia Ducis Scania,
+   [x+4.3h] Estonia, Carelia, Brehma, Verda, Stetini, Po-
+>> [x+5.1h] merania, Callubia & Wandalia, Principis
+   [x+0.1h] Rugia, Domini Ingria & Wismaria; Nee non Comitis Palatini
+   [x+0.1h] Rheni, Bavaria, Juliaci, Clivia & Montium Ducis, &c. Regis de
+   [x+0.1h] Domini nostri Clementissimi Regnique Sueciae Senatores ad
+UNIT: Regis, Magni Principis Finlandia Ducis Scania, / Estonia, Carelia, Brehma, Verda, Stetini, Po- / merania, Callubia & Wandalia, Principis / Rugia, Domini Ingria & Wismaria; Nee non Comitis Palatini / Rheni, Bavaria, Juliaci, Clivia & Montium Ducis, &c. Regis de / Domini nostri Clementissimi Regnique Sueciae Senatores ad / hanc Tractationem specialiter Deputati Scheringius Rosenhan, / Consiliarius Cancellaria, summus Praseclus Arcis Holmensis & / Judex Provincialis Sudermannia Liber Baro in Ikalaborg, Domi- / nus in Torpa Tysta, Engelholm & Hagen; Steno Bielke, Ammi- / ralis & Consiliarius Ammiralitatis, Liber Baro in Korpo, Dominus / in Geddeholm, Grasoe & Tanga; Nee non Celsorum ac Prapo- / tentium D. D. Ordinum Generalium foederati Belgii ad Sacram / Regiam Majestatem Suecia Deputati Extraordinarii & Plenipo- / tentiarii, Godefredus a Slingelandt, Consiliarius ac Assessor Urbis Dor- / dracena Primarius Petrus Vogelsang, Consiliarius & Syndicus Urbis / Amstelodami: Petrus de Huybert, a Secretis Dominorum ordinum / Zelandia, & Wilhelmus ab Haren, Grietmannus & Toparcha de Bilt. / 28 Conselsum D. D. Ordinum Generalium Deputati nomine / Provinciarum Hollandia, Zelandia Frisiaque. Notum testatum- / que lacimus omnibus, quorum interest, aut quomodolibet inter- / esse poterit. Cum a multis retroannis inter Sacrx Regiae Majesta- / tis Antecessores Reges Regnumque Suecia, & Cellos Praporen- / tesque Foederati Belgii Ordines Generales atque utriusque subdi- / tos Rincolas vetus necessitudo, arcta amicitia, vicinitatis & sin- / cera Communicationis fides eviguit, quaeque semperingenue at- / que illibate suit exercitata, adeo quidem, ut intuituapprime salu- / cariansam praebuerit arctiorifoederi inter Gustavum, Augusti nomi- / nis & immortalis memoriae Regem & Unicum Belgium inito, / quod quamdiu duravit, sancte semperreligioseque fuit habitum,
+--- p08 12170 NL-HaNA_1.01.02_12170_0169 line d24032829dd1 (unit print:region_start, 3 lines)
+   [x+9.3h] Well. Brienandt, in naer eed: Groot aeog: Bergaderinge genomen ap
+   [x+9.1h] Vrydach den negenthienden Maert 1666.
+   [x+8.5h] I naer voorgaemde deliberatie goetggevonden eende
+>> [x+6.1h] verdaen, dat door de commiatien enp de aenstaende verpaegtinge tot eucwatte van
+   [x+9.4h] de clauteue voor desen gemntuneert hebbende ii teece artrcer vande ordonnantte opt
+   [x+8.2h] Atwoet van't Ballangte geltgemaneert ende nut met entzh gemaeckt redres gebraege
+   [x+9.9h] witvorde drttrce vande selve Ordonnantte daer bp geseghe werdt dat aende Brachiters
+UNIT: I naer voorgaemde deliberatie goetggevonden eende / verdaen, dat door de commiatien enp de aenstaende verpaegtinge tot eucwatte van / de clauteue voor desen gemntuneert hebbende ii teece artrcer vande ordonnantte opt
+--- p09 12170 NL-HaNA_1.01.02_12170_0177 line 7d2e91334474 (unit print:indent+short_prev, 2 lines)
+   [x+0.3h] swaernisse, oock de voors preuve mogen vorderen ende genieren,
+   [x+0.2h] sulcx als de selve in 't voorige Artijckelisvermelt na-
+   [x+18.8h] 44
+>> [x+6.2h] W1H.
+   [x+0.5h] De Hout-lasten der Schepen alsoo begroot ende uytgevonden
+   [x+0.3h] zijnde, heeft sijn Konincklijcke Majesteyt belieft, dat van die Sche-
+   [x+0.4h] pen die met haren oprechtenondergeschreven maer-brief versien
+UNIT: 44 / W1H.
+--- p10 12170 NL-HaNA_1.01.02_12170_0580 line cc9e2c47a150 (unit print:indent, 3 lines)
+   [x+5.8h] die, Grave van Mallau, Catzenellevo
+   [x+6.1h] gen, B vanden Dietz, Lingen, Maeurs,
+   [x+6.9h] Buyren, Peerdam, ett. Marquis van
+>> [x+5.7h] der Beere ende van Billingen, Heere en
+   [x+4.1h] de Baron van Breda der Stadt Grave
+   [x+5.4h] ende Lande van Curck, Dielt, Buimber
+   [x+0.0h] gen Berstall Cranenbonck, Barneston Arlani Roserop, Sint
+UNIT: gen, B vanden Dietz, Lingen, Maeurs, / Buyren, Peerdam, ett. Marquis van / der Beere ende van Billingen, Heere en
+--- p11 12174 NL-HaNA_1.01.02_12174_0396 line 18bc6a3557da (unit print:indent, 36 lines)
+   [x+3.9h] een Heerdam, etc. Marquis vander Beere ende Vlislingen weere ende Baron bauBbreda, der Stadt
+   [x+3.8h] Brave, ende Landen van Cuvett, Dielt, Brimbergen, Maelal, Cranendonck, Warnelton, Aelapt,
+   [x+3.8h] Roseroy, Dt. Dith, Daesburgh, Bolanen, Willemstadt, Riervaert, Mleltteyn, Steenbergen,
+>> [x+3.6h] Dt. Maertensdijck, Geertruydenbergh, Turnhout, Sevenbergen, de nooge ende Hage Swalutwen,
+   [x+0.0h] aeldtwijckt, Boest Bareul Der Geml Ammenes binnen en buytenlett. Erf-Burghgrawe van Antweeven en Belancon)
+   [x+0.0h] Erf slaerschaleck van hollandt, Erf-Gouberneur en Stadthouder van Gelderlandt, Graetschap Zutwljen, Wollandt,
+   [x+0.0h] Zeelandt, Welt-Dieslandt, Utrecht, Over-Alssel ende Randtschap Drenthe, Erf- Capiteyn ende Admirael Generaelder
+UNIT: Brave, ende Landen van Cuvett, Dielt, Brimbergen, Maelal, Cranendonck, Warnelton, Aelapt, / Roseroy, Dt. Dith, Daesburgh, Bolanen, Willemstadt, Riervaert, Mleltteyn, Steenbergen, / Dt. Maertensdijck, Geertruydenbergh, Turnhout, Sevenbergen, de nooge ende Hage Swalutwen, / aeldtwijckt, Boest Bareul Der Geml Ammenes binnen en buytenlett. Erf-Burghgrawe van Antweeven en Belancon) / Erf slaerschaleck van hollandt, Erf-Gouberneur en Stadthouder van Gelderlandt, Graetschap Zutwljen, Wollandt, / Zeelandt, Welt-Dieslandt, Utrecht, Over-Alssel ende Randtschap Drenthe, Erf- Capiteyn ende Admirael Generaelder / vereenighyde Rederlanden) ett. allenden genen die desen sullen sien otthooven lesen, Saluyt Doen te weten; Dat alsoo / ous by dagelijckse onderwindinge en het rapport van die gene die sulex aenbevoolen was te inquieeren, voorgeltomen ende / gebleecken is, dat niet alleen in Ontse Stadt ende Graefschap Bueren, den Ddagh des weeren met allerhande excellen) / suyperven, setten van gelagen, aenstellen van allerthande Gesesselhempent vloecken) vechten) smpten ende andere on- / gehondenttieden, seex sethandelijck wat gemroplhjaneert, maer selfs oock op verscheydene plaetten by een onverantwoor- / belijckte licentie en oogtstewectinge gepaactiseeet is gehonden, opden voortz dagh voozen na) en onder depredicktinge van / Godts i eylige ueoordt, in plaets van den Sabbathi te vieren, allerlande waren pulblijcquelijck, met open ttellen van / ntamen en Uuuckels tewenten, te kopen en te verkopen, niet anders ales ot dien daghs van d'andere geheel niet was ton- / derschevden, of in Goder woordt van andere gedistinqueert, daer door van eensdecls eengroote aenleydinge gegeven, en / eendeure wert geopent tot aller hande debauchen, daetelleden, bedryven van ontuehtigheden, wechten en smptent en border / den Baatsby Godt de heere specialijck tot synen paibatiben diendt ingestelt schandelijck weet misbruycht en ontsepligtijt, / synen Bloetk en rechtwaerdigen T'hoogn op den halsgeladen, ende een exempel van eegeents wort gegeven) welck in een / wet gestelbe Regeringe, en daer een Christelijcke Gveehevt is) geensints getollereert) nemaer met alle bedentktelijcke blijt / envoet behoort te twerden tegengegaen en geweert: soo 15 1. dat uoy by dese alle ververgiers) ent Bier Wijn of Brande- / wijn verkovers in Onse Stadt ende Graetscthap Biteren by desen wet scherpelijck interdiceren en verbieden, om op gou- / dagen ot Balt, Bede en Danest-dagen, boogotna de predicatien aen eenige Borgers, muysluyden ende Ingezetenen, of / anderz (alls den Bremdellingen en Pallagiers, eenige Bieren, Wynen, Brandewynen, Gebrande-wateren of eenigen / stercken oranck te tappen, eenige gelagen te setten) geselschappen van jonge Zuwden of andere te stellen, te houden of / logeren) immers ende by toelatinghe van Onsen Drossaert) ofte den Officier, na abelegenthevt van saecken / niet als na vier uwten na den noen ende tot negen uyeen Sabondtz en anders niet, midtsgaders geendeehande winc- / ktels of Bteamen open te setten, of doen uyt te verkoopen, op eenpoene van twintigh Caroli guldens voor de eerste reyse / vijftigh Caroli guldens voorde tweede revte, en arvitrale corcectie voor de derdemael, waer van een derden deel voor / den denbrenger sal zin : Kastende en beveelende Onsen Drossaert en des selfs Substituwt, alle Sondagen ende Bede- / nagen doog Gunne Landt en Onder-boden de werbergen en Bincktels in suune respective Districten naeutuittenrigh te / visiteren, de Transgrelleurs tegens tgenot van de voornoemde paamie aen te brengen ende te doen calangeren, souder / daer van eenighstunts te blyven ingebreecke, by poene van ter conteatie doende te incureeren ense hooghste indignatie / ende dat de Offitieren, Stadthouders ende Regenten, Landt boden otte Onder-boden, welcke hier tegens bevouden / sal worden eenigtstunts te hebben geconnibeert, of Onse goede intentie, enden inhoude deses niet promptelijck ende afse- / trouwelijck ter executie salhebben gestelt, de facto, ende bruyten beroeve tiguve van proces sal sworden gecasseert en afge- / Atratt nabehooren. Gedaen in den hage den derthienden Juny 1682.
+--- p12 12176 NL-HaNA_1.01.02_12176_0123 line 0fa37fca1d8d (unit print:indent, 3 lines)
+   [x+32.6h] te vernemen, dat van tijdt tot tijot in dese
+   [x+34.2h] keonden werdenange wracht en onder de Ge-
+   [x+35.0h] meente gedeviteert gcoote meninte van eup-
+>> [x+35.6h] teer, met seer weele quede wermemgit, 10
+   [x+32.6h] dat soodanigh daer inne werdt ge-extraba-
+   [x+33.8h] veere, dat men practiseert die duptenmet
+   [x+20.3h] Maquetten) tot tien attwointigh stupwerk gepast, den de Bevegodts-supben,
+UNIT: meente gedeviteert gcoote meninte van eup- / teer, met seer weele quede wermemgit, 10 / dat soodanigh daer inne werdt ge-extraba-
+--- p13 12176 NL-HaNA_1.01.02_12176_0204 line f6a44df01961 (unit print:indent, 4 lines)
+   [x+10.0h] tot bescherminge der Geuni-
+   [x+10.1h] eerde Landen, en om te ver-
+   [x+9.4h] hallen de onkosten van den
+>> [x+9.6h] Lande, vonz al daer inne
+   [x+0.2h] Hervervoue
+   [x+9.2h] voorsien moet werden) dat de
+   [x+9.7h] Gemeene arisbelen) daer toe
+UNIT: eerde Landen, en om te ver- / hallen de onkosten van den / Lande, vonz al daer inne / Hervervoue
+--- p14 12176 NL-HaNA_1.01.02_12176_0207 line afb4b96f0da2 (unit print:indent, 5 lines)
+   [x+27.7h] der gehouden zijn) ter gedestineerde plaetse aenkomende
+   [x+67.5h] mende, naer Billiet aen
+   [x+25.2h] den Bachter van de selve plaetse aen te geven en vertog- den Bachterover te leve-
+>> [x+81.9h] ren
+   [x+24.9h] nen het hoorschaeve Bissiet) eer ende alhoorens de voors
+   [x+29.0h] Goederen sullen moeen werden gelost of verstocht, sonder
+   [x+39.9h] Onverwegen niet te
+UNIT: mende, naer Billiet aen / den Bachter van de selve plaetse aen te geven en vertog- den Bachterover te leve- / ren / nen het hoorschaeve Bissiet) eer ende alhoorens de voors / Goederen sullen moeen werden gelost of verstocht, sonder
+--- p15 12176 NL-HaNA_1.01.02_12176_0281 line fb0ef6921751 (unit print:indent+short_prev, 3 lines)
+   [x+32.1h] een
+   [x+33.6h] aeti
+   [x+49.2h] vtoot
+>> [x+39.0h] te noopen
+   [x+38.6h] verso
+   [x+46.4h] mnst
+   [x+39.0h] den 3tijn
+UNIT: vtoot / te noopen / verso
+--- p16 12176 NL-HaNA_1.01.02_12176_0291 line 8d11db9e2e3b (unit print:indent, 3 lines)
+   [x+24.0h] ze sy naer voorgaende communicatie van den gPachter van op geenebanite.
+   [x+57.2h] Aen ware so daer toe
+   [x+21.5h] de aaagistraet van de plaetse speciael schriftelijekt consent schrtelnck consent vad-
+>> [x+46.4h] hadden den bekomen.
+UNIT: Aen ware so daer toe / de aaagistraet van de plaetse speciael schriftelijekt consent schrtelnck consent vad- / hadden den bekomen.
+--- p17 12176 NL-HaNA_1.01.02_12176_0344 line af2bd9470cad (unit print:short_prev, 3 lines)
+   [x+0.4h] op wat wisse de beta. Ende aengaende de betalinge, soo sullen vaer inne de haer
+   [x+0.0h] ringe van den Ampost
+   [x+0.0h] daer van moet geschie boven ge-expresseerde termiyne moeten werben geobser-
+>> [x+5.1h] beert ten ware den Ampost buon het verhal van vire aldaen-
+   [x+4.7h] den quame te expireeren, als wanneer de betalinge voor het
+   [x+5.0h] uytgaen van de selve pacht in hamben van den Pachter ofte
+   [x+0.4h] Bbelche betalinge niet Collecteur sal moeten geschreven; oes sal nemandt be be-
+UNIT: daer van moet geschie boven ge-expresseerde termiyne moeten werben geobser- / beert ten ware den Ampost buon het verhal van vire aldaen- / den quame te expireeren, als wanneer de betalinge voor het
+--- p18 12176 NL-HaNA_1.01.02_12176_0569 line c669fe2f83cc (unit print:indent, 3 lines)
+   [x+4.8h] ningen der Domeynen van de Edele Groot Mog. Heeren Staten van Hollandt en
+   [x+5.1h] West-Vrieslandt in ervartinge getomen zijnde dat veete vaetsoeckende
+   [x+4.8h] Dle noopers, soo tot wuck op Zee als elders t'hupxfoorende, haer
+>> [x+5.5h] onderwinden de buyten Die tot wijck op Zee met Scsuyten, Wba-
+   [x+5.2h] gene en naxren ales andersints getbraght werdende onder de hant te
+   [x+5.7h] verhoopen, ende aen andere over te doen, otte onverhoctt op an
+   [x+5.5h] dere wagens, Marren, oock wel in Selmupeen, te doen, omme van
+UNIT: Dle noopers, soo tot wuck op Zee als elders t'hupxfoorende, haer / onderwinden de buyten Die tot wijck op Zee met Scsuyten, Wba- / gene en naxren ales andersints getbraght werdende onder de hant te
+--- p19 12179 NL-HaNA_1.01.02_12179_0251 line ea7e4f69445b (unit print:indent, 20 lines)
+   [x+10.3h] den grooten toelegh inalien, om Gra-
+   [x+9.8h] nen uyt bese en nabupriae Kanten te
+   [x+11.2h] behouten. 500 151, dat den vaer
+>> [x+8.2h] tegen son beel mungelijck willende vnng-
+   [x+0.7h] sien, goetgehouden hebben naber te provinneren ende te starueren, soo
+   [x+0.8h] als en oadgnineren ende statueren bp besen ) dat alle de geene) van
+   [x+0.8h] wat staet of crribitie de selve onclt souden mogen zyn , bewelcke na
+UNIT: nen uyt bese en nabupriae Kanten te / behouten. 500 151, dat den vaer / tegen son beel mungelijck willende vnng- / sien, goetgehouden hebben naber te provinneren ende te starueren, soo / als en oadgnineren ende statueren bp besen ) dat alle de geene) van / wat staet of crribitie de selve onclt souden mogen zyn , bewelcke na / delen sullen bestaen Aarwo 1 Frange, Gerste) Brechtiweyt, Bater, / ogelte) Brenen, Erweten) Enstl Geerst, Goate of Sepfiel uyt / bese of annere Kamden na Bratnckrijck, Spagne) of eenige ambere / Lanben ontet Oonse Bnanden gesuotente) of nocht na de Regers of / Craupes van Ornse Anarnen te vethoeren) te versenden, of te ver- / tieren ) affe tot soodanine toevoer, versendinge ofte vertieringe orbaes / ofte commissie te geken, en haer han overtunght sullen zyn) sullen / toetven gehouen als Bvariten en Bertabers van den Staet, ende / sonver eenige genade niet be broht sullen werden gestraft, boben en / behalhen be verbeurte van de Scheven, Schuyten, Wagens) Raz- / ren ende Baetden, waer meve eenige van be hier hooren gemelde / Granen, of Specien) na ber Bpannen Kamden, Plaetsen, Regers of / Troupes, sullen wesen gebraght, mitsgaders van de Granen en Spe- / cien selfs, en vaerenboven ham de waerve van bien.
+--- p20 12184 NL-HaNA_1.01.02_12184_0132 line 6a87b0abc970 (unit print:region, 2 lines)
+   [x+15.8h] maeromme doo2 haer respective aen den inhoude van dese keu-
+   [x+16.8h] re niet soude zyn voldaen.
+   [x+11.2h] Landthuyr, en hoedanigh te
+>> [x+18.2h] doen by onvoldoeninge.
+   [x+23.0h] Nrt. Dl.
+   [x+20.9h] ludien moghte komen te gebeuren, dat een Landt Pach-
+   [x+18.8h] ter, den Landtheer of Engenaet) de beloofde Bachtpennin-
+UNIT: Landthuyr, en hoedanigh te / doen by onvoldoeninge.
+--- p21 12187 NL-HaNA_1.01.02_12187_0228 line 1b073b836137 (unit print:indent+short_prev, 2 lines)
+   [x+13.0h] nen Man in de vandt geven
+   [x+17.9h] handen
+   [x+23.4h] B. Schoon de
+>> [x+17.2h] O. Sonder twyf-
+   [x+22.0h] selve dat doen, soo
+   [x+15.1h] fel, om dat by het
+   [x+22.4h] gelooven se echter
+UNIT: B. Schoon de / O. Sonder twyf-
+--- p22 12193 NL-HaNA_1.01.02_12193_0060 line eeb5359b7653 (unit print:indent, 3 lines)
+   [x+20.8h] seeren sal, voor sijn Collecte den twintighsten pen-
+   [x+48.8h] Alwaar geen Moolens
+   [x+21.9h] ningh; bes sullen be Euppluppen ten platien Lan-
+>> [x+59.3h] ten platten Lande maa-
+   [x+58.1h] len, mogen de Huysluy-
+   [x+23.1h] be( daar geen Azoolens in haar Turisbictie maalen
+   [x+50.1h] den haar Koorn ten naa-
+UNIT: Alwaar geen Moolens / ningh; bes sullen be Euppluppen ten platien Lan- / ten platten Lande maa-
+--- p23 12196 NL-HaNA_1.01.02_12196_0231 line 3dc406eb0638 (unit print:region, 42 lines)
+   [x+23.7h] den.
+   [x+16.7h] Is na voorgaande deliberatie goedgevonden en verslaan, aan te
+   [x+17.0h] schryven aan alle de Collonels of commandeerende Officieren
+>> [x+19.1h] van de Regimenten Cavallerye, Dragonders, en Intanerye, 100
+   [x+16.0h] Nationate, als Schotten, Switsers, en Crisons, soo veel van deese
+   [x+17.5h] laatstgemelde te Maastrigt vergadert zyn, dat sy haar werk moe-
+   [x+18.8h] ten maaken van de Militie van den Staat te doen exerceeren met
+UNIT: Is na voorgaande deliberatie goedgevonden en verslaan, aan te / schryven aan alle de Collonels of commandeerende Officieren / van de Regimenten Cavallerye, Dragonders, en Intanerye, 100 / Nationate, als Schotten, Switsers, en Crisons, soo veel van deese / laatstgemelde te Maastrigt vergadert zyn, dat sy haar werk moe- / ten maaken van de Militie van den Staat te doen exerceeren met / alle oplettentheid; dat sy de Paarden van de Ruiters, en Dragon- / ders, moeten doen drelleeren door de liqueurs by de respective / Compagnien zynde, en de Ruiters in het manieren van haare Paar- / den oeftenen: dat sy de Intanterye voorat moeten onderwysen, om / wel aan te leggen en te vaaren, soo saande, als knietende: wer / dende de respective Commisen van de Generaliteits Magazynen ge- / talt voor dit jaar vit te leeveren oyt tonnen lulver voor ieder / Batiailson Nationale, en Schouen, en na die proportie meede aan / de overgebleeve Compagnien, en Manschappen van die Rexi / menien, die gemarcheert 2yn 101 secours van haare Majelleit de / koninginne van Hungaryen en boheemen, aan de Switsers en / brisons na proportie van oyt ionnen voor ieder Battaisson, en / soo veel meede voor een Regiment Dragonders, en vyf en see- / ventie ponden buspulver voor ieder Esquadron Cavallerye, welk / tulver door de Cavallerye moet gebruikt werden, om de exer- / citien te voet te doen, en anders niet, voorts uit te teeveren / het noodig Lont voor de exercitie met het Musquet; en na- / demaal volgens haar Edele Mog. Resolutie van den 10 April des / jaars 1742 den Timmerman by ieder Compagnie is voorsien met / een getrokke Bus, is nog goedgevonden en verslaan, dat den sel- / ven sal werden geexerceert met het schieten in het Wit, en 600 / ven dien te authoriseeren, en te getalten de respective Collonels, of / commandeerende Officieren van de Reximenten intanierye, om nos / ses Man per Compagnie, die sy de bequaamste Schutiers oordee- / ten te weesen, vit te kiesen, om die meede met naar ordinaris / beweer te exerceeren met het schieten in het Wit, en indien eeni / se sie dissingueeren door het accoreat schieren, aan ieder van naar / 101 neegen in geiat per bataisson te moogen heeven een sisvere / Ducaton 101 een praemie, waar van drie praemien zyn gedeltineert / voor de Timmerwiden, en les voor de gemeene Mosqueniers, / werdende de Commisen van 'sLands Magarynen geauihoriseert, / aan den Timmerman by ieder Compagnie te heeven een hatt pond / van het velte Jaxipulver, en een pond Rogels, en aan de voor / schreeve ses Man per Compagnie meede aan ieder een pond 10. / sets, en een hatt pond meede velt jaxipulver booven de quanieir / Balver, welke per Battaillon gegeeven moet werden, volgens deese
+--- p24 12197 NL-HaNA_1.01.02_12197_0052 line 0042dd563a03 (unit print:region, 16 lines)
+   [x+2.4h] Dingsdag den 21 February 1747.
+   [x+0.2h] Nagtinge genoomen zynde, dat den dienst van den Lande ver-
+   [x+0.0h] L eischt, dat haar Edele Mog. geinformeerd zyn, hoe het staat
+>> [x+1.0h] met de recruteering van 's Lands Militie, en of deselve com-
+   [x+0.0h] pleet sal konnen zyn op de gestelde tyd: is goedgevonden en ver-
+   [x+0.0h] saan, aan te schryven aan de respective Gouverneurs, Comman
+   [x+0.1h] deurs of commandeerende Officieren van de Steeden en Plaatsen
+UNIT: Nagtinge genoomen zynde, dat den dienst van den Lande ver- / L eischt, dat haar Edele Mog. geinformeerd zyn, hoe het staat / met de recruteering van 's Lands Militie, en of deselve com- / pleet sal konnen zyn op de gestelde tyd: is goedgevonden en ver- / saan, aan te schryven aan de respective Gouverneurs, Comman / deurs of commandeerende Officieren van de Steeden en Plaatsen / met Guarnisoen van den Staat beset, dat sy door de respective / Officieren soo van de Cavallerye, Dragonders als Intanierye, in de / Guarnisoenen daar sy commandeeren, aan haar moeten doen gee / ven Lysten van de serkte van de respective Regimenten, soo als / die den 1 Maart aanstaande sullen zyn geweest, en die Lysten met / de eerste Polt na den 1 Maart aan haar Edele Mog. oversenden, / voegende daar by haar berigt, of ook eenige Officieren geman- / queert hebben omtrent het siuk van de recruteering, en haare con- / sideratien, wat ordre tot bevorderins van deselve soude konnen / werden gesteld.
+--- p25 12220 NL-HaNA_1.01.02_12220_0220 line e85333f52185 (unit print:indent, 3 lines)
+   [x+49.9h] Aan
+   [x+40.4h] Aan
+   [x+28.7h] Vaerdis
+>> [x+45.3h] Vour
+   [x+40.9h] Vuur
+   [x+46.0h] Aan
+UNIT: Vaerdis / Vour / Vuur
+--- p26 12220 NL-HaNA_1.01.02_12220_0222 line d18d8b8b7df8 (unit print:indent+short_prev, 4 lines)
+   [x+10.5h] Ton
+   [x+18.7h] Vuur
+   [x+13.7h] Vaerdis
+>> [x+24.2h] Ton
+   [x+1.9h] Vaerdig
+   [x+6.6h] Ton
+   [x+8.4h] Vaerdis
+UNIT: Vuur / Vaerdis / Ton / Vaerdig
+--- p27 12220 NL-HaNA_1.01.02_12220_0385 line f2302981e6c9 (unit print:indent+short_prev, 3 lines)
+   [x+7.2h] oeven
+   [x+0.9h] Baltdraagende
+   [x+19.4h] te
+>> [x+12.2h] cecer
+   [x+6.8h] om
+   [x+0.7h] ten aanbieven
+   [x+0.6h] om verder in het
+UNIT: te / cecer / om
+--- p28 12232 NL-HaNA_1.01.02_12232_0075 line bf9f6b4bbe55 (unit print:region, 7 lines)
+   [x+4.7h] NNicolaus Zych de
+   [x+0.3h] Gsselen Rturchspiel Botgten in Rarthardewotcd giemit
+   [x+0.1h] Mtund gethan, wie dat Ihrer Majestat allerguadigster
+>> [x+1.8h] Wille, das teine Dienst, Gelder oder ander heeren Ge„
+   [x+0.1h] falle sollen bezablet, bingegen aber die Contribution rich
+   [x+0.2h] tig abgefubret werden welcbes sie also fort imtbren Rirch,
+   [x+0.2h] spielen einem jeden zur Klachricht andeutenwollen. Scha-
+UNIT: Gsselen Rturchspiel Botgten in Rarthardewotcd giemit / Mtund gethan, wie dat Ihrer Majestat allerguadigster / Wille, das teine Dienst, Gelder oder ander heeren Ge„ / falle sollen bezablet, bingegen aber die Contribution rich / tig abgefubret werden welcbes sie also fort imtbren Rirch, / spielen einem jeden zur Klachricht andeutenwollen. Scha- / crnburgi den 22. Novembris. Anno 1676.
+--- p29 12232 NL-HaNA_1.01.02_12232_0463 line 20ad798b2792 (unit print:indent+short_prev, 6 lines)
+   [x+5.5h] Heeren en Princen.
+   [x+0.9h] E Stadt van Maestricht, zijnde van oudts eene Rijcks-
+   [x+0.2h] Dstadt, behoort aen Ons, als representerende de Herto-
+>> [x+1.8h] gen van Brabandt, met soodanige hoogheyt, recht en
+   [x+0.1h] gerechtigheydt als de voorgaende Hertogen van Brabandt de
+   [x+0.1h] selve beleten en geregeert hebben, met en neffens den Heer
+   [x+0.2h] Bisschop en Prince van Luyck.
+UNIT: E Stadt van Maestricht, zijnde van oudts eene Rijcks- / Dstadt, behoort aen Ons, als representerende de Herto- / gen van Brabandt, met soodanige hoogheyt, recht en / gerechtigheydt als de voorgaende Hertogen van Brabandt de / selve beleten en geregeert hebben, met en neffens den Heer / Bisschop en Prince van Luyck.
+--- p30 12235 NL-HaNA_1.01.02_12235_0128 line 23ec435a5557 (unit print:indent+short_prev, 4 lines)
+   [x+19.8h] Amsterdam a d1 S. Ciugno 1759.
+   [x+47.2h] Cornetio in datade
+   [x+15.0h] Visara quindici giorni, che mi d pervenuta la sua Lel-
+>> [x+38.0h] 5118. Giugno 1759.
+   [x+18.1h] tera scritia ancora senza luogo, ma di data 2. passa-
+   [x+42.0h] nella quale to rim-
+   [x+17.3h] 10. In poche parole non contiene niente, ne non fa provera dellarispo
+UNIT: Cornetio in datade / Visara quindici giorni, che mi d pervenuta la sua Lel- / 5118. Giugno 1759. / tera scritia ancora senza luogo, ma di data 2. passa-

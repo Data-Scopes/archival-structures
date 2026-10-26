@@ -1,0 +1,56 @@
+{
+ "1.01.02": {
+  "equal": 258,
+  "differ": [
+   "extract_stats/11182.json",
+   "extract_stats/11281.json",
+   "extract_stats/3349.json",
+   "extract_stats/3350.json",
+   "extract_stats/3351.json",
+   "extract_stats/3352.json",
+   "extract_stats/3353.json",
+   "extract_stats/3354.json",
+   "extract_stats/3771.json",
+   "extract_stats/3772.json",
+   "extract_stats/3773.json",
+   "extract_stats/3821.json",
+   "extract_stats/3822.json",
+   "extract_stats/3823.json",
+   "layout/stats.json",
+   "scans/11182.scans.tsv.gz",
+   "scans/11281.scans.tsv.gz",
+   "scans/3771.scans.tsv.gz",
+   "scans/3772.scans.tsv.gz",
+   "scans/3773.scans.tsv.gz",
+   "scans/3821.scans.tsv.gz",
+   "scans/3822.scans.tsv.gz",
+   "scans/3823.scans.tsv.gz",
+   "types/stats.json",
+   "units/params.json",
+   "units/stats.json",
+   "wbc/corpus_default.json",
+   "wbc/corpus_default_default.json",
+   "wbc/corpus_default_robust.json",
+   "wbc/wbc_per_inventory.tsv",
+   "wbc/wbc_per_inventory_default.tsv",
+   "wbc/wbc_per_inventory_robust.tsv",
+   "wbc/wbc_stats.tsv"
+  ],
+  "missing_shared_or_corpus": [
+   "B:units/republic_lines/3771.tsv.gz",
+   "B:units/republic_lines/3772.tsv.gz",
+   "B:units/republic_lines/3773.tsv.gz",
+   "B:units/republic_lines/3821.tsv.gz",
+   "B:units/republic_lines/3822.tsv.gz",
+   "B:units/republic_lines/3823.tsv.gz"
+  ]
+ },
+ "1.10.94": {
+  "equal": 55,
+  "differ": [
+   "extract_stats/455.json",
+   "extract_stats/456.json"
+  ],
+  "missing_shared_or_corpus": []
+ }
+}

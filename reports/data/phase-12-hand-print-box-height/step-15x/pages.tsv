@@ -1,0 +1,21 @@
+inv	scan_id	units_15wr-a	units_15x-a	verdict	note
+3769	NL-HaNA_1.01.02_3769_0416	21	11	better	
+3769	NL-HaNA_1.01.02_3769_0600	23	14	better	page number '12 7' glued onto the last unit
+3772	NL-HaNA_1.01.02_3772_0344	20	15	better	
+3772	NL-HaNA_1.01.02_3772_0369	27	19	better	
+3773	NL-HaNA_1.01.02_3773_0200	12	12	same	no suppressed cut on the page
+3773	NL-HaNA_1.01.02_3773_0353	21	12	better	
+3774	NL-HaNA_1.01.02_3774_0281	20	17	better	French memorial: 'En prenant connoissance' possibly a paragraph start, now merged
+3774	NL-HaNA_1.01.02_3774_0514	38	28	better	
+3795	NL-HaNA_1.01.02_3795_0179	43	29	better	
+3795	NL-HaNA_1.01.02_3795_0360	60	38	better	signature 'Geteeckent, / C. Voet van Winsen.' merged into one unit
+3816	NL-HaNA_1.01.02_3816_0355	35	24	better	'WAAR op gedelibereert' clause glued to the junk line '4080'
+3816	NL-HaNA_1.01.02_3816_0460	59	35	better	
+3823	NL-HaNA_1.01.02_3823_0032	40	38	better	marginal summary page; two hyphen continuations merged
+3823	NL-HaNA_1.01.02_3823_0196	47	34	better	
+3828	NL-HaNA_1.01.02_3828_0115	58	42	better	
+3828	NL-HaNA_1.01.02_3828_0195	49	37	better	
+3844	NL-HaNA_1.01.02_3844_0260	70	52	better	
+3844	NL-HaNA_1.01.02_3844_0323	50	37	better	
+3849	NL-HaNA_1.01.02_3849_0108	32	27	better	
+3849	NL-HaNA_1.01.02_3849_0257	26	20	better	'En hier op gedelibereert zynde' decision merged into the page-top tail; a 3-line chunk stays cut

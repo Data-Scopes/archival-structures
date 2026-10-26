@@ -1,0 +1,91 @@
+set	id	verdict	note
+extra-nouvelles	n01	unreadable	
+extra-nouvelles	n02	unreadable	
+extra-nouvelles	n03	unreadable	
+extra-nouvelles	n04	wrong	new sentence after a broken line 'rou-'
+extra-nouvelles	n05	right	
+extra-nouvelles	n06	right	
+extra-nouvelles	n07	right	
+extra-nouvelles	n08	right	
+extra-nouvelles	n09	right	
+extra-nouvelles	n10	right	'Rec.' joins 'Dat.' (one metadata block)
+extra-nouvelles	n11	right	
+extra-nouvelles	n12	right	
+extra-nouvelles	n13	right	
+extra-nouvelles	n14	right	
+extra-nouvelles	n15	right	
+extra-nouvelles	n16	right	
+extra-nouvelles	n17	right	
+extra-nouvelles	n18	wrong	closing formula 'Waar mede, &c.'
+extra-nouvelles	n19	wrong	signature 'Getee- / kent' after the dateline
+extra-nouvelles	n20	right	
+extra-nouvelles	n21	right	
+extra-nouvelles	n22	right	
+extra-nouvelles	n23	right	
+extra-nouvelles	n24	right	
+extra-nouvelles	n25	right	
+extra-nouvelles	n26	right	
+extra-nouvelles	n27	right	
+extra-nouvelles	n28	wrong	'Art. 1.' article heading
+extra-nouvelles	n29	right	
+extra-nouvelles	n30	right	
+extra-plakkaten	p01	right	
+extra-plakkaten	p02	right	
+extra-plakkaten	p03	right	
+extra-plakkaten	p04	unreadable	
+extra-plakkaten	p05	unreadable	
+extra-plakkaten	p06	right	
+extra-plakkaten	p07	right	
+extra-plakkaten	p08	right	
+extra-plakkaten	p09	wrong	article number 'W1H.' glued to page number '44'
+extra-plakkaten	p10	right	
+extra-plakkaten	p11	right	
+extra-plakkaten	p12	right	
+extra-plakkaten	p13	right	
+extra-plakkaten	p14	right	
+extra-plakkaten	p15	unreadable	
+extra-plakkaten	p16	right	
+extra-plakkaten	p17	right	
+extra-plakkaten	p18	right	
+extra-plakkaten	p19	right	
+extra-plakkaten	p20	right	
+extra-plakkaten	p21	unreadable	
+extra-plakkaten	p22	right	
+extra-plakkaten	p23	right	
+extra-plakkaten	p24	right	
+extra-plakkaten	p25	unreadable	
+extra-plakkaten	p26	unreadable	
+extra-plakkaten	p27	unreadable	
+extra-plakkaten	p28	right	
+extra-plakkaten	p29	right	
+extra-plakkaten	p30	unreadable	
+barB-lost	L01	A	short pass entry: request heading + decision in one unit
+barB-lost	L02	A	short pass entry: request heading + decision in one unit
+barB-lost	L04	A	short pass entry: request heading + decision in one unit
+barB-lost	L06	A	short pass entry: request heading + decision in one unit
+barB-lost	L08	A	short pass entry: request heading + decision in one unit
+barB-lost	L11	A	short pass entry: request heading + decision in one unit
+barB-lost	L16	A	short pass entry: request heading + decision in one unit
+barB-lost	L18	A	short pass entry: request heading + decision in one unit
+barB-lost	L24	A	short pass entry: request heading + decision in one unit
+barB-lost	L28	A	short pass entry: request heading + decision in one unit
+barB-lost	L03	B	decision glued to a 1-2-line tail of the previous entry
+barB-lost	L05	B	decision glued to a 1-2-line tail of the previous entry
+barB-lost	L13	B	decision glued to a 1-2-line tail of the previous entry
+barB-lost	L14	B	decision glued to a 1-2-line tail of the previous entry
+barB-lost	L15	B	decision glued to a 1-2-line tail of the previous entry
+barB-lost	L21	B	decision glued to a 1-2-line tail of the previous entry
+barB-lost	L23	B	decision glued to a 1-2-line tail of the previous entry
+barB-lost	L25	B	decision glued to a 1-2-line tail of the previous entry
+barB-lost	L07	C	clause after a junk/number line (harmless)
+barB-lost	L09	C	clause after a junk/number line (harmless)
+barB-lost	L12	C	clause after a junk/number line (harmless)
+barB-lost	L19	C	clause after a junk/number line (harmless)
+barB-lost	L29	C	clause after a junk/number line (harmless)
+barB-lost	L10	D	Dat sub-clause glued to the previous clause (L10: a right merge)
+barB-lost	L17	D	Dat sub-clause glued to the previous clause
+barB-lost	L20	D	Dat sub-clause glued to the previous clause
+barB-lost	L22	D	Dat sub-clause glued to the previous clause
+barB-lost	L26	D	Dat sub-clause glued to the previous clause
+barB-lost	L27	D	Dat sub-clause glued to the previous clause
+barB-lost	L30	D	Dat sub-clause glued to the previous clause

@@ -1,0 +1,267 @@
+--- L01 3769 NL-HaNA_1.01.02_3769_0569 pos 1 in 15x unit; prev 15wr unit print:region_start (1 lines); lost unit print:indent
+   [x+12.2h] selver Comptoiren, vry onverhindert ende
+   [x+11.7h] sonder eenige molestatie mogen passeren.
+   [x+10.6h] P de Requeste van den Musicant Abel.
+>> [x+15.5h] IS na voorgaende deliberatie goetgevon-
+   [x+15.0h] den ende verstaen, dat een Pasport in be-
+   [x+11.8h] hoorlijcke forma sal werden gedepescheert, om
+   [x+12.9h] met sijn Knecht naer Brabant te mogen vertrec-
+15x UNIT: P de Requeste van den Musicant Abel. / IS na voorgaende deliberatie goetgevon- / den ende verstaen, dat een Pasport in be- / hoorlijcke forma sal werden gedepescheert, om / met sijn Knecht naer Brabant te mogen vertrec- / ken.
+--- L02 3772 NL-HaNA_1.01.02_3772_0346 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+43.7h] den.
+   [x+27.4h] P de Requeste van Samuel le Blanc,
+   [x+31.3h] Koopman ende Burger te Amsterdam.
+>> [x+34.2h] IS na voorgaande deliberatie goetge-
+   [x+29.9h] vonden ende verstaan, dat een Pasport in
+   [x+31.6h] behoorlijcke torma sat werden gedepescheert,
+   [x+28.7h] om een reyse naar Vranckrijck te mogen
+15x UNIT: P de Requeste van Samuel le Blanc, / Koopman ende Burger te Amsterdam. / IS na voorgaande deliberatie goetge- / vonden ende verstaan, dat een Pasport in / behoorlijcke torma sat werden gedepescheert, / om een reyse naar Vranckrijck te mogen / doen.
+--- L03 3773 NL-HaNA_1.01.02_3773_0599 pos 1 in 15x unit; prev 15wr unit print:region_start (1 lines); lost unit print:indent
+   [x+0.0h] den Griffier Fagel, houdende adverten-
+>> [x+2.3h] WAAR op geen resolutie is ge-
+   [x+0.1h] vallen.
+   [x+1.1h] Ntfangen een Missive van den Secreta-
+   [x+1.6h] ris Gallieris, geschreven te Brussel
+15x UNIT: den Griffier Fagel, houdende adverten- / WAAR op geen resolutie is ge- / vallen.
+--- L04 3784 NL-HaNA_1.01.02_3784_0143 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+59.7h] ren.
+   [x+36.4h] P de Requeste van Johan Francois Lem-
+   [x+48.7h] mens, Leverancier alhier in den Hage.
+>> [x+50.2h] IS naar voorgaande deliberatie goedt-
+   [x+49.2h] gevonden ende verstaan, dat ten behoeve van
+   [x+44.2h] het Regiment van den Kroon - Prins van
+   [x+38.6h] Pruyssen, een Pasport sal werden gedepes-
+15x UNIT: P de Requeste van Johan Francois Lem- / mens, Leverancier alhier in den Hage. / IS naar voorgaande deliberatie goedt- / gevonden ende verstaan, dat ten behoeve van / het Regiment van den Kroon - Prins van / Pruyssen, een Pasport sal werden gedepes- / cheert, om de Goederen, beeder in de / voorschreve Requeste gespecificeert, tot / monteeringe van het voorschreve Regiment, / naar Yperen te mogen uytvoeren, vry ende / sonder betaalinge van 's Landts gerechtig- / heydt; ende sal het voorschreve Pasport ...
+--- L05 3796 NL-HaNA_1.01.02_3796_0099 pos 1 in 15x unit; prev 15wr unit print:short_prev (1 lines); lost unit print:indent
+   [x+25.5h] nister by den Rycksdagh, geschree-
+   [x+29.8h] ven te Regensburgh den
+   [x+26.0h] der voorleede maand, houdende adverten-
+>> [x+28.9h] WAAR op geen reso-
+   [x+29.7h] lutie is gevallen.
+   [x+27.2h] ONtfangen een Missive van den Resi-
+   [x+35.2h] dent Rumpf, geschreeven te Dres-
+15x UNIT: der voorleede maand, houdende adverten- / WAAR op geen reso- / lutie is gevallen.
+--- L06 3811 NL-HaNA_1.01.02_3811_0238 pos 2 in 15x unit; prev 15wr unit print:indent (1 lines); lost unit print:indent
+   [x+0.8h] op geen resolutie is gevallen.
+   [x+1.0h] P het geproponeerde ter Vergaderinge
+   [x+2.3h] gedaan door den Heere praesideerende.
+>> [x+2.5h] IS na voorgaande deliberatie goed-
+   [x+0.6h] gevonden en verstaan, mits deesen te com-
+   [x+0.6h] mitteeren de Heeren van Heeckeren 101 den
+   [x+0.6h] Brantzenborgh, vander Dussen, Raadpen-
+15x UNIT: P het geproponeerde ter Vergaderinge / gedaan door den Heere praesideerende. / IS na voorgaande deliberatie goed- / gevonden en verstaan, mits deesen te com- / mitteeren de Heeren van Heeckeren 101 den / Brantzenborgh, vander Dussen, Raadpen- / sionaris Steyn, Mogee, van Itsma, Sloet / en Sytzama van Bellingeweer met den Grif- / fier Fagel, om haare Koninghlijcke Hoog- / heyd, welcke op morgen van Dieren te / rugh word verwaght, uyt naam van haar / Hoogh Mogende te gaan verwelkoomen. ...
+--- L07 3811 NL-HaNA_1.01.02_3811_0276 pos 1 in 15x unit; prev 15wr unit print:indent+short_prev (1 lines); lost unit print:indent
+   [x+29.1h] gemelde honderd Man meerder hadden ge-
+   [x+29.5h] houden, geeffectueert soude worden.
+   [x+61.9h] 010
+>> [x+30.4h] Dat hon Guarnisoen thans bestaande uyt
+   [x+26.2h] ses honderd Man, buyten het Corps Artil-
+   [x+29.1h] lerge, gedourende drie consecutive jaaren,
+   [x+29.4h] in gevolge het gemelde sesde Articul der
+15x UNIT: 010 / Dat hon Guarnisoen thans bestaande uyt / ses honderd Man, buyten het Corps Artil- / lerge, gedourende drie consecutive jaaren, / in gevolge het gemelde sesde Articul der / Conventie van den lesden Maart seeventien
+--- L08 3816 NL-HaNA_1.01.02_3816_0360 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+36.4h] rapport te doen.
+   [x+32.9h] P de Requeste van Hendrick Bicker,
+   [x+32.3h] Oudscheepen der Stad Amsterdam.
+>> [x+43.4h] IS na voorgaande deliberatie goed-
+   [x+39.2h] gevonden en verstaan, dat ten behoeve van
+   [x+44.9h] den Suppliant een lasport in torma van
+   [x+39.7h] Acte ad omnes Populos sal worden geocpe
+15x UNIT: P de Requeste van Hendrick Bicker, / Oudscheepen der Stad Amsterdam. / IS na voorgaande deliberatie goed- / gevonden en verstaan, dat ten behoeve van / den Suppliant een lasport in torma van / Acte ad omnes Populos sal worden geocpe / cheer, om met een Domellicq eene reyse / na Engeland, en wederom herwaards te / rugh te konnen doen.
+--- L09 3816 NL-HaNA_1.01.02_3816_0355 pos 1 in 15x unit; prev 15wr unit print:indent+short_prev (1 lines); lost unit print:indent
+   [x+0.1h] germeester der voornoemde Stad Deven-
+   [x+0.3h] ter.
+   [x+13.1h] 4080
+>> [x+0.7h] WAAR op gedelibereert, en by haar
+   [x+0.2h] Hoogh Mogende verklaart zynde, dat ge-
+   [x+0.2h] melde Heere Persoon haar aangenaam was,
+   [x+0.2h] is den selven verwelkomt, en heeft dien-
+15x UNIT: 4080 / WAAR op gedelibereert, en by haar / Hoogh Mogende verklaart zynde, dat ge- / melde Heere Persoon haar aangenaam was, / is den selven verwelkomt, en heeft dien- / volgende sessie genoomen
+--- L10 3821 NL-HaNA_1.01.02_3821_0408 pos 1 in 15x unit; prev 15wr unit print:indent (1 lines); lost unit print:indent
+   [x+45.5h] leer in grootte verschillende, en
+   [x+51.2h] hier en daar aan en in malkan
+   [x+48.9h] deren 292 loopende; eindelyk
+>> [x+49.9h] Dat de Carielins buiten om den
+   [x+50.4h] Rand daar aan schynt te 2yn ge-
+   [x+48.9h] vylt, terwyl de Streepjes, die
+   [x+45.5h] Cabelsgewyle daar op moetten
+15x UNIT: deren 292 loopende; eindelyk / Dat de Carielins buiten om den / Rand daar aan schynt te 2yn ge-
+--- L11 3822 NL-HaNA_1.01.02_3822_0428 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+14.1h] aba-
+   [x+1.2h] P de Requeste van Nicolaas van Eede,
+   [x+0.3h] Hoedemaker en Burger te Deventer.
+>> [x+2.6h] IS na voorgaande deliberatie goed
+   [x+0.2h] gevonden en verstaan, dat ten behoeve van
+   [x+0.2h] den Suppliant een Pasport in behoorlijke
+   [x+0.2h] forma tat worden gedepecheert, om tot
+15x UNIT: P de Requeste van Nicolaas van Eede, / Hoedemaker en Burger te Deventer. / IS na voorgaande deliberatie goed / gevonden en verstaan, dat ten behoeve van / den Suppliant een Pasport in behoorlijke / forma tat worden gedepecheert, om tot / monteeringe van het tweede Battaillon van / het Lyf-Regiment Orange-Vriesland, ge- / commandeert wordende door den Collonel / HP Muylson, ses honderd drie en nee- / sentis Hoeden van Deventer na Venlo te / mogen intvoeren, vrg en sonder betaalinge ...
+--- L12 3822 NL-HaNA_1.01.02_3822_0175 pos 1 in 15x unit; prev 15wr unit print:indent+short_prev (1 lines); lost unit print:indent
+   [x+35.8h] steld.
+   [x+45.0h] no02 a02
+   [x+50.1h] vun tof
+>> [x+28.7h] Dat hy Suppliant vervolgens als Com-
+   [x+28.9h] mandant van gemelde Esquader geduuwende
+   [x+28.6h] sijn verblyf op de Rheede van Algiers voor-
+   [x+30.6h] noemd, onvermydelyk genootsaakt, was
+15x UNIT: vun tof / Dat hy Suppliant vervolgens als Com- / mandant van gemelde Esquader geduuwende / sijn verblyf op de Rheede van Algiers voor- / noemd, onvermydelyk genootsaakt, was / geweelt extra depences te doen, en ver / scheide Perloonen van het Gevols van 5e / melde Dey aan voord van 's Lands Schip / diversemaaten te conthaaten en regateeren: / verloekende den Suppliant derhalven, dat / haar Hoog Mogende aan hem ter vergoe / dins van de by hem ter laate voorschreeve ...
+--- L13 3822 NL-HaNA_1.01.02_3822_0429 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+21.7h] Hof van haare Keiserlijke Majesteiten, ge-
+   [x+29.8h] schreeven te Weenen den veertienden deeser
+   [x+40.2h] loopende maand, houdende advertentie.
+>> [x+34.1h] WAAR op geen resolutie is gevallen.
+   [x+28.6h] Otfangen een Millive van den Heere
+   [x+35.6h] Graave van Welderen, naar Hoog
+   [x+42.5h] Mogende extraordinaris Envoyé en
+15x UNIT: schreeven te Weenen den veertienden deeser / loopende maand, houdende advertentie. / WAAR op geen resolutie is gevallen.
+--- L14 3823 NL-HaNA_1.01.02_3823_0354 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+21.7h] neert alsnog te repliceeren op de voors-
+   [x+33.9h] Conclulie van antwoord, binnen veertien daa
+   [x+45.7h] sen na insinuatie, op paene van verstek.
+>> [x+45.7h] WAAR op gedelibereert zynde, is goed
+   [x+48.6h] gevonden en verstaan, dat Parthye by Ap-
+   [x+48.7h] poincement sal worden getalt alsnos te re
+   [x+40.8h] pliceeren op de voors Conclusie van ant
+15x UNIT: Conclulie van antwoord, binnen veertien daa / sen na insinuatie, op paene van verstek. / WAAR op gedelibereert zynde, is goed / gevonden en verstaan, dat Parthye by Ap- / poincement sal worden getalt alsnos te re / pliceeren op de voors Conclusie van ant / woord binnen drie weeken na insinuatie / deeses, op pane van verstek.
+--- L15 3826 NL-HaNA_1.01.02_3826_0364 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+27.9h] van Sijne Majelteit den Konins van Vrank
+   [x+37.5h] ryk, geschreeven te Compiegne den 4 deeser
+   [x+49.8h] loopende maand, houdende advertentie.
+>> [x+35.1h] WAAR op geen resolutie is gevallen.
+   [x+35.2h] Ntfangen een Missive van den Heere
+   [x+33.0h] Saurin, naar Hoo5 Mo5. Minister
+   [x+51.9h] aan het Hot van Sijne Majelteit den
+15x UNIT: ryk, geschreeven te Compiegne den 4 deeser / loopende maand, houdende advertentie. / WAAR op geen resolutie is gevallen.
+--- L16 3826 NL-HaNA_1.01.02_3826_0170 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+0.3h] sen.
+   [x+1.0h] de Requette van Samuel Verenil,
+   [x+0.2h] Koopman woonende te Amsterdam.
+>> [x+0.7h] Is na voorgaande deliberatie goedgevon.
+   [x+0.1h] den en verltaan, dat ten behoeve van den
+   [x+0.1h] Suppliant een Pasport in behoorlyke forma
+   [x+0.1h] sal worden gedepecheert, om twee Vaaten
+15x UNIT: de Requette van Samuel Verenil, / Koopman woonende te Amsterdam. / Is na voorgaande deliberatie goedgevon. / den en verltaan, dat ten behoeve van den / Suppliant een Pasport in behoorlyke forma / sal worden gedepecheert, om twee Vaaten / met gemeene Negerhoeden, gemerkt 416. / en Hk.. No. 13. N0. 22., welke voor ree- / kenins van den Suppliant reeds van Bruns
+--- L17 3826 NL-HaNA_1.01.02_3826_0418 pos 1 in 15x unit; prev 15wr unit print:region_start (1 lines); lost unit print:indent
+   [x+30.5h] der
+   [x+17.6h] ngguitsd
+   [x+23.1h] der gepalleerde maand was geinsinueert.
+>> [x+32.2h] Dat ten deesen, hangende naar 41005
+   [x+31.2h] M05. deliberatie over de versogte ophettinge
+   [x+31.7h] van voors Sententie, niets behoorde te wor.
+   [x+31.6h] den ondernoomen waar door eenige praeju.
+15x UNIT: der gepalleerde maand was geinsinueert. / Dat ten deesen, hangende naar 41005 / M05. deliberatie over de versogte ophettinge / van voors Sententie, niets behoorde te wor. / den ondernoomen waar door eenige praeju. / ditie soude konnen worden toegebragt aan / de laat letts, en den Suppliant bevreelt was / dat het voors tot met de executie der / opgemelde Sententie soude voortgaan: ver„ / soekende den Suppliant derhalven, dat naar / 41005 Mo5. het Hot in het Overquartier / van Gelderland te Venlo resideerende 50. ...
+--- L18 3844 NL-HaNA_1.01.02_3844_0151 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+17.2h] het Land.
+   [x+12.5h] de Requeste van Louis Creffulhe,
+   [x+14.7h] banquier, wonende te Amsterdam.
+>> [x+15.5h] Is na voorgaande deliberatie goedge
+   [x+13.1h] vonden en verstaan, dat ten behoeve van
+   [x+15.8h] den Suppliant een Pasport in forma van Atte
+   [x+14.5h] ad omnes populos in de Fransche Taat sal
+15x UNIT: de Requeste van Louis Creffulhe, / banquier, wonende te Amsterdam. / Is na voorgaande deliberatie goedge / vonden en verstaan, dat ten behoeve van / den Suppliant een Pasport in forma van Atte / ad omnes populos in de Fransche Taat sal / worden gedepecheert, om met een Dome / sticq eene reise naar Parys en weederom / hierwaards te kunnen doen.
+--- L19 3844 NL-HaNA_1.01.02_3844_0162 pos 1 in 15x unit; prev 15wr unit print:indent+short_prev (1 lines); lost unit print:indent
+   [x+7.9h] f20220
+   [x+0.3h] te somme van
+   [x+11.6h] 13
+>> [x+0.9h] Dat daarenboven den
+   [x+0.3h] Suppliant meede eviden.
+   [x+0.2h] telyt konde aantoonen,
+   [x+0.2h] dat door de irresuliere
+15x UNIT: 13 / Dat daarenboven den
+--- L20 3844 NL-HaNA_1.01.02_3844_0129 pos 1 in 15x unit; prev 15wr unit print:region_start (1 lines); lost unit print:indent
+   [x+10.1h] Inlinuatie, in deele te willeten van toven
+   [x+25.5h] taris
+   [x+22.3h] taris en Stokken, op poone van verstek.
+>> [x+33.2h] Dat het selve op den 18 December 1784
+   [x+30.1h] behoorlyk aan larcy Procureur geinsinueert
+   [x+31.9h] zynde, volgens het Relaas van den Kamer
+   [x+28.8h] bewaarder 4. W. Eyvinsa, meede de voorsz
+15x UNIT: taris en Stokken, op poone van verstek. / Dat het selve op den 18 December 1784 / behoorlyk aan larcy Procureur geinsinueert / zynde, volgens het Relaas van den Kamer / bewaarder 4. W. Eyvinsa, meede de voorsz / Requette annex, Parcy exier daar van was / gebleeven in gebreeken: versoekende den / Suppliant derhalven, naar 4003 Mog. Ap- / pointement waar by Party alsnu werd ver- / sooken in deese te wisseten van Inveniaris / en Statken, en voor het protye, dat aleen / rext gedaan sal worden op de Stukken aan ...
+--- L21 3845 NL-HaNA_1.01.02_3845_0153 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+12.7h] visie met de Claninie van Relict, ter eenre,
+   [x+23.3h] op en jegens Jacob Willem Erberveld, Im-
+   [x+29.9h] petrant in het voorsz cas ter andere 298e.
+>> [x+29.3h] Is na voorgaande deliberatie goedgevon
+   [x+29.4h] den en verstaan, dat gelteld sal worden in
+   [x+28.2h] handen van Parchy, om daar op te re
+   [x+21.6h] piceeren binnen veertien dagen na insinua
+15x UNIT: op en jegens Jacob Willem Erberveld, Im- / petrant in het voorsz cas ter andere 298e. / Is na voorgaande deliberatie goedgevon / den en verstaan, dat gelteld sal worden in / handen van Parchy, om daar op te re / piceeren binnen veertien dagen na insinua / tie deeses.
+--- L22 3847 NL-HaNA_1.01.02_3847_0107 pos 2 in 15x unit; prev 15wr unit print:indent+short_prev (2 lines); lost unit print:indent
+   [x+0.2h] 215 vooren.
+   [x+0.8h] Dat de voors oyt jaaren iegen den 9
+   [x+0.2h] April aanstaande honden te expireeren.
+>> [x+0.8h] Dat den Suppliant li5 derhaloen in de
+   [x+0.1h] onvermydelyke noodsaakelytheie bevond, aan
+   [x+0.1h] naar 41005 Mog. voor te draagen, dat niet
+   [x+0.1h] aleen deselfde omstandigheeden, welke naar
+15x UNIT: Dat de voors oyt jaaren iegen den 9 / April aanstaande honden te expireeren. / Dat den Suppliant li5 derhaloen in de / onvermydelyke noodsaakelytheie bevond, aan / naar 41005 Mog. voor te draagen, dat niet / aleen deselfde omstandigheeden, welke naar / 41003 M03. bewoogen hadden aan den Sup„ / pliant de voors somme, in overtoigins van / de reedelykheid en biltytheid van dien, 10e / te teggen, nog exteerden, maar dat den / Suppliant in gemoede koude verwaaren en / lis met gerustheid oursde beroeren, op het ...
+--- L23 3851 NL-HaNA_1.01.02_3851_0202 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+12.8h] eeven Presenten, en van de Consulaire Re
+   [x+21.9h] gaalen, die volgens het gemelde Rapport,
+   [x+33.4h] voortaan rotsen mocien gezonden worden.
+>> [x+30.5h] WAAR op gedelibereert zynde, is goed-
+   [x+29.8h] gevonden en ierstaan, dat Copie van de
+   [x+31.8h] voorsz Missive, 10m1 200 veel het gemelde
+   [x+28.6h] point aangaat, en van de Bylaagen, gesteld
+15x UNIT: gaalen, die volgens het gemelde Rapport, / voortaan rotsen mocien gezonden worden. / WAAR op gedelibereert zynde, is goed- / gevonden en ierstaan, dat Copie van de / voorsz Missive, 10m1 200 veel het gemelde / point aangaat, en van de Bylaagen, gesteld / 121 worden in handen van de Heeren van / Nagell, en andere naar 41003 M05. Cl. / deputeerden 101 de raaten van de Zee, om / te viliceeren, examineeren, daar op in te / neemen de consideratien en het advis van / de athier aanweerende Gecommitteerden oit ...
+--- L24 3851 NL-HaNA_1.01.02_3851_0045 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+10.8h] ringe rapport te doen.
+   [x+12.0h] de Requeste van Mr. Adriaan van
+   [x+14.0h] der Does, woonende te Rouerdam.
+>> [x+18.4h] Is na voorgaande deliberatie 30e83e
+   [x+15.4h] vonden en verstaan, dat ten behoeve van
+   [x+15.4h] den Suppliant een Pasport in torma van
+   [x+15.4h] Acte ad omnes populos zal worden gedepe.
+15x UNIT: de Requeste van Mr. Adriaan van / der Does, woonende te Rouerdam. / Is na voorgaande deliberatie 30e83e / vonden en verstaan, dat ten behoeve van / den Suppliant een Pasport in torma van / Acte ad omnes populos zal worden gedepe. / cleent, om eene reire bunen 'slands te / kunnen doen.
+--- L25 3853 NL-HaNA_1.01.02_3853_0215 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+29.2h] eigen nut of voordeet, maar veel eer 101
+   [x+33.7h] handhavins van naar 4005 Mogende Sou.
+   [x+48.1h] veraine Resolurie van den 6 Maart 1652.
+>> [x+50.4h] WAAR op gedelibereert zynde, is 5oed
+   [x+48.0h] gevonden en verlaan, dat Copie van de
+   [x+47.3h] voorschreeve Requeste en Bylaagen 221 0001
+   [x+58.0h] den gezonden aan den Raad van Vlaande
+15x UNIT: handhavins van naar 4005 Mogende Sou. / veraine Resolurie van den 6 Maart 1652. / WAAR op gedelibereert zynde, is 5oed / gevonden en verlaan, dat Copie van de / voorschreeve Requeste en Bylaagen 221 0001 / den gezonden aan den Raad van Vlaande / ren te Middelburs relideerende, met tast / om daar op der rewer consideratien en 28 / vis aan naar 41003 Mogende te doen 10e / komen.
+--- L26 3853 NL-HaNA_1.01.02_3853_0440 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+0.0h] nueert, veel langer dan sy zig op die 198.
+   [x+10.8h] en ook veelligt dan naar 41003 M02. relve
+   [x+14.3h] 1oenmaats 215 hadden kunnen voorstelten.
+>> [x+13.9h] Dat sy Heeren Gedeputeerden vermeen
+   [x+14.3h] den, dat thans het trostip daar was, waar
+   [x+12.6h] in s9 215 on hunne Commissie zouden kun.
+   [x+13.9h] nen en mogen ondoen, en dus hun ont-
+15x UNIT: en ook veelligt dan naar 41003 M02. relve / 1oenmaats 215 hadden kunnen voorstelten. / Dat sy Heeren Gedeputeerden vermeen / den, dat thans het trostip daar was, waar / in s9 215 on hunne Commissie zouden kun. / nen en mogen ondoen, en dus hun ont- / las van naar 41005 M03. te mogen vra / sen, en roits om de verdere reedenen in / de voors Memorie ter neder geste1d.
+--- L27 3853 NL-HaNA_1.01.02_3853_0319 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+0.6h] een Orgel te bekomen, ter verriginge van
+   [x+0.8h] honnen Codsdienst in voorschreeve Kerke.
+>> [x+1.5h] Dat de Supplianten derhalven onder de
+   [x+0.7h] sratieuse permislie van naar 41003 Mogende
+   [x+0.8h] het rewe Orgel haarne ten dienste van
+   [x+0.6h] voorse Gemeente in voornoemde Roomsche
+15x UNIT: een Orgel te bekomen, ter verriginge van / honnen Codsdienst in voorschreeve Kerke. / Dat de Supplianten derhalven onder de / sratieuse permislie van naar 41003 Mogende / het rewe Orgel haarne ten dienste van / voorse Gemeente in voornoemde Roomsche / Hert plaatsen 2ouden.
+--- L28 3853 NL-HaNA_1.01.02_3853_0097 pos 2 in 15x unit; prev 15wr unit print:region_start (2 lines); lost unit print:indent
+   [x+10.3h] saderinge rapport te doen.
+   [x+14.0h] Pde Requeste van Meynders Frederik
+   [x+12.5h] Broers, Koopman te Amsterdam.
+>> [x+16.5h] Is na voorgaande deliberatie goedge
+   [x+13.4h] vonden en verstaan, dat ten behoeve van
+   [x+14.7h] den Suppliant een Pasport in torma van
+   [x+13.6h] Acte ad omnes Populos 221 worden gedepe
+15x UNIT: Pde Requeste van Meynders Frederik / Broers, Koopman te Amsterdam. / Is na voorgaande deliberatie goedge / vonden en verstaan, dat ten behoeve van / den Suppliant een Pasport in torma van / Acte ad omnes Populos 221 worden gedepe / cheert, om met een Domellicq en de 10. / dige bagage een reise over Braband, Vlaan / deren en Aken na Maaltriche en wederom / te 103 te kunnen doen.
+--- L29 3857 NL-HaNA_1.01.02_3857_0014 pos 1 in 15x unit; prev 15wr unit print:indent+short_prev (1 lines); lost unit print:indent
+   [x+1.2h] en bemeene, mitsgaders ieder
+   [x+1.3h] Kanonnier
+   [x+14.6h] 60
+>> [x+1.2h] Dat mitsdien de voorsz Battaillons Insan
+   [x+12.0h] terie en Compagnie Ailseristen, zouden
+   [x+15.0h] behooren te worden gecomponeert en be
+   [x+13.4h] taatt overeenkomstis den staat door welge-
+15x UNIT: 60 / Dat mitsdien de voorsz Battaillons Insan
+--- L30 3862 NL-HaNA_1.01.02_3862_0502 pos 1 in 15x unit; prev 15wr unit print:indent (1 lines); lost unit print:indent
+   [x+31.1h] incurreeren eene paenaliceit van opt
+   [x+32.6h] duirend guldens ten behoeven van de
+   [x+31.8h] Calle van den Raad der Colenien.
+>> [x+31.0h] Dat 19 215 wyders 221 vervinden,
+   [x+31.2h] om na veriogie en bekomene permis
+   [x+30.3h] sie van het Gouvernement in Demera.
+   [x+30.0h] ry eene laadins met liodocten in te
+15x UNIT: Calle van den Raad der Colenien. / Dat 19 215 wyders 221 vervinden, / om na veriogie en bekomene permis / sie van het Gouvernement in Demera. / ry eene laadins met liodocten in te / neemen, en 200 ras doentyk herwaards / over te brengen, en 2is ien dien op / rigte te russen gedraagen consorm de

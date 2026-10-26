@@ -1,0 +1,5 @@
+De gedrukte : suppressed 126228 of 551021 unit starts; units/scan 61.12 -> 52.49; median main_text unit lines 3 -> 5
+De tweede se (3463): suppressed 165 of 3658 unit starts; units/scan 27.25 -> 26.29; median main_text unit lines 2 -> 3
+Gedrukte nou: suppressed 34385 of 234551 unit starts; units/scan 25.87 -> 23.23; median main_text unit lines 2 -> 3
+Gedrukte pla: suppressed 18572 of 125079 unit starts; units/scan 22.21 -> 20.22; median main_text unit lines 2 -> 3
+Processtukke: suppressed 62 of 337 unit starts; units/scan 11.86 -> 10.62; median main_text unit lines 2 -> 5

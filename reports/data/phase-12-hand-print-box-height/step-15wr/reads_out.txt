@@ -1,0 +1,974 @@
+=== nouvelles 12087 NL-HaNA_1.01.02_12087_0029
+  [15wr-a] unit_order 5 print:indent n_lines 10 col 1
+    mereenkeer soudoen na het Badt van Aecken: Haer Majesteyt blijft
+    noch by dit voornemen, en sy heeft den Koningh versoght, dat den Heer
+    geheymen Raedt van Ahlefel, die voor desen Groot-meester van haer Huys
+    is geweest, haer op descreys sou mogen geleyden; den Koningh heeft dit
+    versoeck toegestaen; en alsoo den welgemelden Heer van Ahlefelt niet al-
+    leen is werckelijck geheymen Raed van den Koningh, maer oock Cheff
+    van de Finantien, is het wel apparent dat 'er by desselfs afwesen weynigh
+    veranderingh in de publique saecken sal voorvallen, en by gevolgh dat de
+    Negotiatie vanden Poolschen Minister aen dit Hof op de lange baen sal wer-
+    den geschoven.
+  [15w-a] unit_order 4 print:indent n_lines 10 col 1
+    mereenkeer soudoen na het Badt van
+    noch by dit voornemen,
+    geheymen Raedt van
+    is geweest, haer op
+    versoeck toegestaen; en
+    leen is werckelijck geheymen
+    van de Finantien, is
+    veranderingh in de
+    Negotiatie vanden Poolschen
+    den geschoven.
+=== nouvelles 12088 NL-HaNA_1.01.02_12088_0508
+  [15wr-a] unit_order 3 print:region n_lines 18 col 1
+    Soo aenstondts artiveren in de-
+    se Rivier 's Lands Oorlog schip
+    Monnickendam, gecommandeert
+    door Capiteyn Poelewey, ne-
+    vens de drie Engelsche Oorlog-
+    schepen, in welckers Compas.
+    nie op de Brasilische Vloot ge-
+    kruyst heeft, doch deselve niet
+    vernemende, ende den Kruys
+    tijdt geëxpireert wesende, zijn
+    deselve gesamentlijck gerever-
+    teert; ende is geensints te twijf-
+    felen, dat dit Hof nieuwe ende
+    stercke instantien doen sal, ten
+    eynde voornoemde Schepen aen
+    stondts weder op geseyde Kruys-
+    tocht mogen uytgesonden wer-
+    den.
+  [15w-a] unit_order 3 print:region n_lines 18 col 0
+    Soo aenstondts artiveren in de-
+    se Rivier 's Lands Oorlog schip
+    Monnickendam, gecommandeert
+    door Capiteyn Poelewey, ne-
+    vens de drie Engelsche Oorlog-
+    schepen, in welckers Compas.
+    nie op de Brasilische Vloot ge-
+    kruyst heeft, doch deselve niet
+    vernemende, ende den Kruys
+    tijdt geëxpireert wesende, zijn
+    deselve gesamentlijck gerever-
+    teert; ende is geensints te twijf-
+    felen, dat dit Hof nieuwe ende
+    stercke instantien doen sal, ten
+    eynde voornoemde Schepen aen
+    stondts weder op geseyde Kruys-
+    tocht mogen uytgesonden wer-
+    den.
+=== nouvelles 12092 NL-HaNA_1.01.02_12092_0435
+  [15wr-a] unit_order 14 print:indent+short_prev n_lines 18 col 0
+    Gisteren passeerden den Veldmarschalk Bathiani en Generaal Bret-
+    lach te Water hier voorby na Weenen, na werwaards sis voor
+    eenige daagen ook de Heeren Ministers van Sardaigne, Portugal
+    en Venetien, door deele Stad vervoegt hebben. De geweese Ryks
+    Vicecancelier Graaf van Koningstelt, welkers Gewalinne en Fami-
+    tie sis bestendis in deele Nabuurschap op een van haare Goederen
+    ophoud, is insgelijks van trankfort 101 Muncken gerecourneert, en
+    sal na men wil eerstdaags tot Opperste Kamerheer van den Chur-
+    furst benoemt worden, zynde sijn Hoog Welgeboore door den Kei-
+    ter ook 101 werkelijke Ceheimeraad gemaakt. De twee Eerenpoor
+    ten door den Furst van St. Aimerand en Magistraat van deese Stad
+    opgerext, zyn voorsisteren weederom afgebrooken, en dewyl ap
+    parentelijk het werk van de Ryksarmatuure by de reassumeerins
+    van den Ryksdag alhier, het eerst weederom op het tapyt en 1ot
+    besluit sal koomen, soo is gemelde Magistraat van intentie om
+    eersdaags een begin te maaken met de aanwervins van desselfs con
+    tingens dat vit honderd twintis bemeenen en drie Officieren sal
+    bestaan.
+  [15w-a] unit_order 23 print:indent n_lines 18 col 0
+    Gisteren passeerden den
+    lach te Water hier
+    eenige daagen ook
+    en Venetien, door
+    Vicecancelier Graaf
+    tie sis bestendis in
+    ophoud, is insgelijks
+    sal na men wil eerstdaags
+    furst benoemt worden,
+    ter ook 101 werkelijke
+    ten door den Furst
+    opgerext, zyn voorsisteren
+    parentelijk het werk
+    van den Ryksdag alhier,
+    besluit sal koomen,
+    eersdaags een begin
+    tingens dat vit honderd
+    bestaan.
+=== nouvelles 12093 NL-HaNA_1.01.02_12093_0219
+  [15wr-a] unit_order 0 print:region_start n_lines 27 col 0
+    te senden, en de Heeren Gedepueerden van die Steeden zyn ook
+    niet seer content geweest, dat sijn Edele, na haar in de Anticham-
+    vre te hebben gerecipieert, sis heefe geplaatst in een Armstoet, en
+    haar op een ordinaire Stoel: dien Heer maakt sig hier ook in het
+    generaal door sijne grootsheid gansch niet bemind: sijn Edele ver-
+    trekt morgen na Hanover om aldaar een commissie af te leggen-
+    De determinatie, in hoe veel het dongratuit door de Burgerye al
+    hier aan den Keiser geaccordeert sal bellaan, en op hoedanige voet
+    het selve sat werden geheeven, is, soo a1s ik nader geinformeert
+    ben, aan het Collegie van de Selligen gerefereert; nu sal de Ma-
+    sistraat ondertusschen met den Heere Keiserlijke Minister daar over
+    in regotiatie treeden, in hoope dat door het doen van deele eerste
+    demarche, met goede gratie sy de hooge gunste van haare Keiser-
+    lijke Majelteiten sullen gewinnen, en daar voor nog het een of het
+    ander kunnen bedingen. De Fransche Minister te Frankfort schryft
+    in een Brief, dat hy met de Creitzen om de neutraliteit kampt, en
+    noop heeft, nietteegenstaande haare partydigheid van deselve, een
+    convenable verklaaring op dat sujet te sullen verkrygen; dat het
+    tot van Weenen wet niets vergeet om geheel Dviesland in ouur
+    en vlam te setten, dog dat, dewyl haare particuliere belangen niet
+    2yn die van het Ryk, men reeden heett om te noopen, dat het
+    selve daar in niet lat reulleeren. Deele 101 dus verre reeds afge
+    schreeven zynde, verneem it, dat boovengemelde Heer Keiserlijke
+    Minister niet alleen na Hanover, maar ook na Wolffenburtel gaat,
+    en dat sijne commissie aldaar relatief is tot de saaken, over welke
+    men jeegenwoordis op den Ryksdas delibereert, en daar in be
+    laat, om die Hoven te beweegen daar toe te coopeeren.
+  [15w-a] unit_order 0 print:region_start n_lines 27 col 0
+    te senden, en de
+    niet seer content geweest,
+    vre te hebben gerecipieert,
+    haar op een ordinaire
+    generaal door sijne
+    trekt morgen na Hanover
+    De determinatie, in
+    hier aan den Keiser
+    het selve sat werden
+    ben, aan het Collegie
+    sistraat ondertusschen
+    in regotiatie treeden,
+    demarche, met goede
+    lijke Majelteiten sullen
+    ander kunnen bedingen. De Fransche Minister
+    in een Brief, dat
+    noop heeft, nietteegenstaande
+    convenable verklaaring
+    tot van Weenen wet
+    en vlam te setten,
+    2yn die van het Ryk,
+    selve daar in niet
+    schreeven zynde, verneem
+    Minister niet alleen
+    en dat sijne commissie
+    men jeegenwoordis op
+    laat, om die Hoven
+=== nouvelles 12101 NL-HaNA_1.01.02_12101_0287
+  [15wr-a] unit_order 6 print:indent n_lines 13 col 0
+    genaamt den Admiraal Veroon, koomende van bengaten en
+    Fort St. David. Brieven met dat Schip overgesonden bekragtigen
+    alte voorgaande berigien vit die bewelten van de voordeeten door
+    de Engelschen over de Franschen behaald, maakende te gelijk men-
+    tie van drie andere gevexien, in dewelke de Engelschen meede de
+    avaniagie souden hebben gehad, ter eere van den Major Lawrence
+    en den Capitein Clive. Die van de Brinische Haringvisscherye
+    hebben doen publiceeren, dat de twee jaaren inerelle verscheenen
+    geweelt den 22 October 1752 gereed zyn om aan de Ceinceres
+    teerdens te worden ongedeeld. De Tresorie is voor drie weeken
+    geadjourneert, en de Heer Pelham, eerste Commissaris, is na des
+    selfs Landgoed te Lewes in Sussex vertrokken, om die tyd aldaar
+    door te brengen.
+  [15w-a] unit_order 4 print:indent n_lines 13 col 0
+    genaamt den Admiraal
+    Fort St. David. Brieven
+    alte voorgaande berigien
+    de Engelschen over
+    tie van drie andere
+    avaniagie souden hebben gehad, ter eere
+    en den Capitein Clive. Die van
+    hebben doen publiceeren,
+    geweelt den 22
+    teerdens te worden
+    geadjourneert, en de
+    selfs Landgoed te
+    door te brengen.
+=== nouvelles 12102 NL-HaNA_1.01.02_12102_0425
+  [15wr-a] unit_order 13 print:indent n_lines 45 col 0
+    Heer van Penkler, als Keiserlijke Minitter aan de Porta, af te
+    lossen; hy heeft sijn afscheid en Instructien van het Hof ontfan-
+    sen: sijne Bagage en Domelticquen zyn vereids geembarqueert:
+    hy steekt voor het midden deeser weeke nog van de Wal, sakt
+    te Waater af na en tot Belgrado, daar hy na gewoonte van de
+    Turken als overgenoomen en verder begeleid word tot Constan-
+    tinopolen toe: hy heeft ook afscheid van my genoomen, en soo
+    het schynd wel kennis willen maaken, welke heusheid ik met
+    behoorlijke attentien beantwoord heb: hy is een seer geschikt,
+    reedis en reedelijk Man, seer kundis in de Turksche spraake,
+    het welk van een oneindigen dienst is om lecuur met de Turken
+    te handelen; daarom houd dit Hof altyd een seeker getal jonge
+    Luiden om lis daar in te oetlenen, ten einde om te in vreede
+    en oorlogstyden by alle haare onderhandelingen met de Turken
+    als Totken, en in deele Commissien aan het Turksche Hot te
+    kunnen gebruiken: dit is den Heer van Swachenheim sijn officie
+    en destinatie dan ook altyd geweelt: sijne expeditie is seer lange
+    vertraagt geworden, om dat sijne benoeming en het versogte rap-
+    pel van den Heer van Penkler juist ingevallen is omtrent den 19d
+    van de veranderins van het Ministerie aan dit Hot: nu heeft de
+    nieuwe Staatscancelye by die occasie niets, wat maar eenige schaa-
+    duwe heeft van buitenlandsche laaken, willen laaten aan andere
+    Departementen; gevolgelijk heeft de Hofcancelier het Turksche
+    werk en de aangehoorige expeditien, die bevoorens genoegsaam
+    geheel onder den Hot-Krygsraad ressorteerden, aan sijn Departe-
+    ment getrokken: Men heeft den Heere van Penkler ook ongeer-
+    ne te rus geroepen, om dat hy sijne saaken soo wel doet aan de
+    Porta, en daarom gewenscht, dat hy sijn verblyf daar nog een
+    weinis mogt verlengen, en, soo ik vertrouwe, de avantage om
+    op sijn gemak in het voorjaar met sijne tamilie te rus te
+    koomen, te gelijk willen procureeren: ondertusschen zyn ook
+    diversche laaken voorgekoomen die buiten twyttel nieuwe
+    en bysondere deliberatien en instructien hebben vereischt: van
+    dat soort zyn buiten twyffel de jaloursche attentie van de Tur-
+    ken op den aanles van de nieuwe Grieksche Colonie en
+    Vestins nieuw Servien in de Ukranie, en de particuliere Besen-
+    dins en Commissie van den Tartarischen Minitter in Pooten, als
+    meede de invallende Poolsche Ryksdag, die de Franschen, Pruis-
+    ten en Tartaaren telkens waarneemen, om tweedragt, jalousie,
+    confusie en brouilleries te verwekken, en er de Portainte trekken.
+    Het eerste is U Wel-Edele Gestrenge bekent door myne tydelij-
+    te berigten, en nos beeter en authenticquer uit de Advisen van
+    den Ambassadeur van den Staat te Constantinopolen. Het is te
+    denken, dat dit Hof en Engeland van de Porta gerequireert zyn-
+    de om haar sentiment by geschrifte te verklaaren op dat werk,
+  [15w-a] unit_order 11 print:indent n_lines 45 col 0
+    Heer van Penkler,
+    lossen; hy heeft
+    sen: sijne Bagage
+    hy steekt voor het
+    te Waater af na
+    Turken als overgenoomen en
+    tinopolen toe: hy heeft ook afscheid van
+    het schynd wel
+    behoorlijke attentien
+    reedis en reedelijk Man, seer kundis in
+    het welk van een oneindigen dienst is
+    te handelen; daarom
+    Luiden om lis daar in te oetlenen, ten
+    en oorlogstyden by
+    als Totken, en
+    kunnen gebruiken: dit
+    en destinatie dan
+    vertraagt geworden,
+    pel van den Heer
+    van de veranderins
+    nieuwe Staatscancelye
+    duwe heeft van
+    Departementen; gevolgelijk
+    werk en de aangehoorige
+    geheel onder den
+    ment getrokken: Men
+    ne te rus geroepen,
+    Porta, en daarom
+    weinis mogt verlengen,
+    op sijn gemak in
+    koomen, te gelijk
+    diversche laaken
+    en bysondere deliberatien
+    dat soort zyn buiten twyffel
+    ken op den aanles van de
+    Vestins nieuw Servien in de Ukranie, en
+    dins en Commissie
+    meede de invallende
+    ten en Tartaaren telkens
+    confusie en brouilleries
+    Het eerste is U
+    te berigten, en nos
+    den Ambassadeur van
+    denken, dat dit
+    de om haar sentiment
+=== nouvelles 12116 NL-HaNA_1.01.02_12116_0024
+  [15wr-a] unit_order 13 print:indent n_lines 9 col 0
+    Wanlboth, den Baron van Borrie van Boheemen, den Ba
+    ron van Cemmingen en den Baron van Croschlas, den Graat
+    van kex en den Heer van Ponico van Saxen. De Burgers en
+    Ingereetenen alhier kaagen leer over de inquartierins, en nos
+    meer over de Generaal Quartiermeelter, dat een onverstandis
+    Man is, die door dwans alles na sijn sin wil hebben. Door de
+    meenigte Vreemdelingen die alhier daagelyks arriveeren, seigeren
+    de prys van de Leevensmiddelen en tourage, en alles werd ten
+    duursten verkogt.
+  [15w-a] unit_order 14 print:indent n_lines 9 col 0
+    Wanlboth, den
+    ron van Cemmingen en den Baron
+    van kex en den Heer
+    Ingereetenen alhier kaagen leer over
+    meer over de Generaal
+    Man is, die door
+    meenigte Vreemdelingen
+    de prys van de Leevensmiddelen
+    duursten verkogt.
+=== nouvelles 12131 NL-HaNA_1.01.02_12131_0043
+  [15wr-a] unit_order 7 print:indent n_lines 14 col 1
+    savonds wederom een groote Allemblee aan alle de Minis
+    ters van den Ryksdag en andere, weegens het Carnaval in groo-
+    te meenigie thans hier aanweesende Persoonen van distinctie,
+    doch het quaade weer permitieerde wederom niet de Iuminatien
+    aan te seeken, maar de Lampjes werden door de Aerke Wind
+    aanstonds uitgeblult, waar teegens desselfs Hotel, en bysonder de
+    nieuw gebouwde Zaat, van binnen leer traay geissumineerd was,
+    en sijn Ed. tiet middelerwyten niet alleen Wyn en bier voor het
+    Volk loopen, maar heeft ook aan een arme Man van het Land
+    in de Nabuurschap, die het ongeluk heeft gehad, eenige daagen
+    van te voren sijn huys door den brand te verliesen, en alhier
+    collecteerde, beneevens hondert guldens aan geld, en groot ge-
+    deelte van het hout geschonken, dat tot de Illuminatie gediend
+    heeft.
+  [15w-a] unit_order 5 print:indent n_lines 14 col 0
+    savonds wederom een
+    ters van den Ryksdag en
+    te meenigie thans
+    doch het quaade weer
+    aan te seeken, maar
+    aanstonds uitgeblult,
+    nieuw gebouwde Zaat, van
+    en sijn Ed. tiet
+    Volk loopen, maar
+    in de Nabuurschap, die
+    van te voren sijn
+    collecteerde, beneevens
+    deelte van het hout
+    heeft.
+=== nouvelles 12133 NL-HaNA_1.01.02_12133_0383
+  [15wr-a] unit_order 13 print:indent n_lines 19 col 0
+    naby Londa in het Ryk Angola gestrand en vernield wass de
+    Capitein van het selve heeft niet alleen alle bystand bekomen,
+    maar het geen seer wonderbaar is, door de Gouverneur van die
+    Postellie permissie gekreegen, om de Coederen, die van sijn Schip
+    gered waren, te verkoopen, en vervolgens het Product te gebrui-
+    ken tot inkoop van Neegers, mits dat hy se na Rio de Janeiro
+    vervoerde, het geen voldaan hebbende, wierd bovengenoemde
+    Capitein by sijn aankomst tot den laatsten plaatse op order van de
+    Gouverneur gearresteert, dos op het aancoonen van de permissie
+    van de Gouverneur van Angola, weder vry gelaaten, en toege-
+    saan, van sijn Ladins te verkoopen, onder voorwaarde dat de
+    Penningen in sekerheid gesteld souden worden, 101 dat deswegens
+    ordres van sijne Souveraine ontfangen hads wyders sijne rapport
+    van het geval aan haare Majelteit gedaan hebbende, heeft deele
+    Vorltin ten eersten bevel geheeven, van niet alleen de Penningen
+    aan de Eigenaaren te rus te geven, maar nog toe te staan, van
+    te te gebruiten 101 inkoop van Goederen, die hem eenigsints
+    vergoeden konden de schaade, die hy door sijn Schipbreuk ge-
+    teeden heeft.
+  [15w-a] unit_order 14 print:indent n_lines 19 col 0
+    naby Londa in het
+    Capitein van het selve
+    maar het geen seer
+    Postellie permissie gekreegen,
+    gered waren, te verkoopen,
+    ken tot inkoop van
+    vervoerde, het geen
+    Capitein by sijn aankomst tot
+    Gouverneur gearresteert, dos
+    van de Gouverneur van
+    saan, van sijn Ladins
+    Penningen in sekerheid
+    ordres van sijne Souveraine
+    van het geval aan
+    Vorltin ten eersten
+    aan de Eigenaaren te rus
+    te te gebruiten 101
+    vergoeden konden de
+    teeden heeft.
+=== nouvelles 12144 NL-HaNA_1.01.02_12144_0444
+  [15wr-a] unit_order 1 print:region_start n_lines 13 col 0
+    de vervulling van de garantie der Pragmaricque Sauctie, ten min-
+    sten tegens Vrankryk, om dat de Sienden, gelijk daar in geseid
+    werd, huuten dat door haare naauwe onderlinge alliantie, verbinte-
+    nis en gemeenschappelijk intrest, verplige waaren malkanderen by
+    te springen, iegens een vreemde kroon, die aan den een of den
+    anderen uit den haare den oorlog, gelijk onlangs aan haare Maje-
+    steit en den Koning van Engeland, als Churvorst van Hanover, ge-
+    schied was, quam te declareeren, in plaats van sulks langer aan te
+    sien met indifferentie, en sonder desweegens de winste inquieide
+    op te vaten, mitsgaders die geene der Sienden, aan het vierste
+    onheil bloot gesteld te laaten, dewelke gevaan liepen meer als haare
+    Majesteit om den Koning van Engeland, van langsaamerhand geheel
+    en al onderdrukt te worden.
+  [15w-a] unit_order 13 print:indent n_lines 16 col 2
+    alhier met veel spoed na Wee-
+    Prins Carel, by welke geleexentheid men
+    sis wederom van Kroon Weissenburs
+    hoidige Courant deeser
+    naadere, 803 malkanderen seer te
+    aanweesende Keiserlijke Resident
+    van de bewulte gepalleerde actie
+    en in de voorschreeve Courant
+    de eer van deselve 106 Litt. C. weede
+    te leggen, en my daar aan gehoorsaamst
+    volgens de jongste narigien die
+    heeft ontfangen, den 27 pas-
+    was tusschen een Koninglijk Detache-
+    gedeelte van het Guarnisoen van Pesca-
+    waar by de laatste genoodsaakt
+    Kasleel van Aquila te werpen.
+=== plakkaten 12176 NL-HaNA_1.01.02_12176_0183
+  [15wr-a] unit_order 14 print:indent+short_prev n_lines 15 col 0
+    rolle welche voors Boincten) en eenpeder van dien urtsget
+    bysonder) aoy willen) en wel scherpelijck bevelen) dat bin-
+    nen Onse voors Stadt en Graefschan Buyren, van nu
+    voortaen, byeenpeder die sulcks soude mogen aengaen, on-
+    verbreeckelijck sullen werden nagekomen, opvoene van Onse
+    hooghste indignatie, en arvitrale correctie: derogerende ende
+    te niet voende midtsdesen) voor soo veel alhier contrarie is ge-
+    statueert, alle voorgaende vandtwesten, Ordonnantien en
+    Reglementen, welcke aop nochtans begeeren dat in hunande-
+    te leden en deelen sullen blyven onthermindert en volle kracht en
+    waerden: reserverende aen Onsde vermeerderinge, vermin
+    deringe, en interpretatie van desen Reglemente; bevelende dat
+    de selve alomme ter behoorlijcker plaetse sal werden gepublt-
+    ceert. Gedaen onder Orssen Raem en Zegel tot Rensington
+    den sessden April 1699.
+  [15w-a] unit_order 18 print:indent+short_prev n_lines 15 col 0
+    rolle welche voors Boincten) en eenpeder van dien urtsget
+    bysonder) aoy willen) en wel scherpelijck bevelen) dat bin-
+    nen Onse voors Stadt en Graefschan Buyren, van nu
+    voortaen, byeenpeder die sulcks soude mogen aengaen, on-
+    verbreeckelijck sullen werden nagekomen, opvoene van Onse
+    hooghste indignatie, en arvitrale correctie: derogerende ende
+    te niet voende midtsdesen) voor soo veel alhier contrarie is ge-
+    statueert, alle voorgaende vandtwesten, Ordonnantien en
+    Reglementen, welcke aop nochtans begeeren dat in hunande-
+    te leden en deelen sullen blyven onthermindert en volle kracht en
+    waerden: reserverende aen Onsde vermeerderinge, vermin
+    deringe, en interpretatie van desen Reglemente; bevelende dat
+    de selve alomme ter behoorlijcker plaetse sal werden gepublt-
+    ceert. Gedaen onder Orssen Raem en Zegel tot Rensington
+    den sessden April 1699.
+=== plakkaten 12179 NL-HaNA_1.01.02_12179_0107
+  [15wr-a] unit_order 17 print:indent+short_prev n_lines 13 col 0
+    Riemandt ten platten Lande iugonende sal bermrgen op sijn
+    Bofstede of wooninge eenige lange sonden of winden te hebben)
+    noch andere groote soorten van Bonden te houden, hoedanigh die
+    soude mogen wesen) dan behoorlijck geblocht met Knippels van twee
+    boeten langh, en een nalm dickt), en dat van den tweeden February
+    tot den eersten Septemb. op de verbeurte van tien guldens voorpoer
+    Bond, so dikmael als die ongeblocht) ald boven) gevonden sal wer-
+    den, mitsgaders tien andere guldens voor windhond 'tzpsong of
+    oudt bequaem om Wilt te vangen, die binnen acht dagen na gou-
+    blicatie deser bp de voornoemden, ten latten Lande woonende,
+    sullen bevonden werden, ende voorts alle acht dagen te verbeuten
+    gelijcke tien guldens, soo lange sp die by hun behouden sullen ongepre-
+    subitieert die gene die tot de-slagt gequalificeert zijn.
+  [15w-a] unit_order 22 print:indent+short_prev n_lines 13 col 0
+    Riemandt ten platten Lande iugonende sal bermrgen op sijn
+    Bofstede of wooninge eenige lange sonden of winden te hebben)
+    noch andere groote soorten van Bonden te houden, hoedanigh die
+    soude mogen wesen) dan behoorlijck geblocht met Knippels van twee
+    boeten langh, en een nalm dickt), en dat van den tweeden February
+    tot den eersten Septemb. op de verbeurte van tien guldens voorpoer
+    Bond, so dikmael als die ongeblocht) ald boven) gevonden sal wer-
+    den, mitsgaders tien andere guldens voor windhond 'tzpsong of
+    oudt bequaem om Wilt te vangen, die binnen acht dagen na gou-
+    blicatie deser bp de voornoemden, ten latten Lande woonende,
+    sullen bevonden werden, ende voorts alle acht dagen te verbeuten
+    gelijcke tien guldens, soo lange sp die by hun behouden sullen ongepre-
+    subitieert die gene die tot de-slagt gequalificeert zijn.
+=== plakkaten 12180 NL-HaNA_1.01.02_12180_0139
+  [15wr-a] unit_order 14 print:indent n_lines 9 col 0
+    rince Louis KV. , par la Grace de Dieu Roy Tres-Chre-
+    tien de France & de Navarre; Sa Majesté Tres-Chrestienne, n'ayant dail-
+    leurs en veue que de la rendre solide & perpetuelle par lequité de ses con-
+    ditions; & les Seigneurs Estats Generaux des Provinces Unies des Pays-
+    bas, souhaitans de concourir de bonne foy, & autant qu'il est en eux, au
+    retablislement de la tranquilits publique, & de rentrer dans lancienne
+    amitié & affection de Sa Majesté Tres-Chrestienne, ont consenti que la
+    Ville d'Utrecht fut choisie pour y traiter de paix, & que pour y parvenir
+    sa Majesté Tres-Chrestienne auroit nomme pour ses Ambassadeurs extra-
+  [15w-a] unit_order 15 print:indent n_lines 9 col 0
+    rince Louis KV. , par la Grace de Dieu Roy Tres-Chre-
+    tien de France & de Navarre; Sa Majesté Tres-Chrestienne, n'ayant dail-
+    leurs en veue que de la rendre solide & perpetuelle par lequité de ses con-
+    ditions; & les Seigneurs Estats Generaux des Provinces Unies des Pays-
+    bas, souhaitans de concourir de bonne foy, & autant qu'il est en eux, au
+    retablislement de la tranquilits publique, & de rentrer dans lancienne
+    amitié & affection de Sa Majesté Tres-Chrestienne, ont consenti que la
+    Ville d'Utrecht fut choisie pour y traiter de paix, & que pour y parvenir
+    sa Majesté Tres-Chrestienne auroit nomme pour ses Ambassadeurs extra-
+=== plakkaten 12193 NL-HaNA_1.01.02_12193_0174
+  [15wr-a] unit_order 1 print:region n_lines 38 col 0
+    derlanden, zynde den 11 April des voorleeden jaars geexpireert,
+    soo heeft de geneegentheid die 2op voor der selver Republicq na
+    het exempel der Koningen Onse Boorsaaten, behouden, Ons
+    doen bewilligen in de begeerte die 32 hebben getoont om het
+    selve te vernieuwen, en een gemeen Rarif te maaken, met de
+    veranderingen die het onderscheid van tyden heeft noodsaakelijf
+    gemaaht, en willende aan Onse zyde aan der selver begeerte
+    voldoen, en de vereeniging, en bolmaahte correspondentie, die
+    tusschen eonse Rtioon en die Republicq subsisteert, eeuwigdun-
+    rende maaken. 500 152, dat aop Ons ten eenemaal ver-
+    laatende op de capaciteit, ervaarentheid) iever en getrouwigheid
+    voor Onsen dienst) van Onsen lieven en getrouwen Raad in
+    alle onse Raaden, Minister en Secretaris van Staat en van
+    Onse Beveelen en Financien) den Heer Amelot, om deese ree-
+    den en andere goede consideratien ons daar tot moveerende
+    gecommitteert, geordonneert en gedeputeert hebben, en by deese
+    tegenwoordige geteekent met dense Band, committeeren, ordon-
+    neeren en deputeeren den voornoemden Heere Amielot, en hem
+    gegeeven hebben en alsnog geeven volkaome magt, commissie
+    en speciaat bevel, om in ensen naam te convenieeren met den
+    Beer van Boep, Ambassadeur der gemelde Heeren Staaten Ge-
+    netaal der geunieerde Provincien bp ons, voorsien met der
+    selver Bolmagten in behoorlijke forme) te arresteeren, te con-
+    cludeeren) en te teekenen soodanige Articulen en conventien als
+    ip goed sal oordeelen, om het gemelde Tractaat van Commer-
+    tie en Ravigatie, gedateert als booven, te vernieuwen en te
+    protogeeren, en om een gemeen Karif tusschen beide de Aatien
+    vast te stellen, begeerende dat hp in deese occasie met deselve
+    auctoriteyt handele als Albp selfs souden doen, en konnen doen
+    indien Abp et in Persoon tegenwoordig waaren, schoon daar
+    in ietteg vervat mogte zun, dat een speciaalder bevel requi-
+    reerde) als wel in deese vervat is, beloovende ter goeder
+    trouwe) en op Ons Koninglijke woord, voor aangenaam)
+    vast, bondig en van waarde te houden voor altpd, na te ko-
+    men, en punctueelijk te executeeren, al het geene bp den voor-
+    noemden Beer Amelot belooft, gestipuleert, en geteekent sal
+    weesen uit kragte van deese tegenswoordige Bolmagt, sonder
+    aopt of oopt daar aan te contraventeeren) nog te gedoogen dat
+  [15w-a] unit_order 1 print:region n_lines 38 col 0
+    derlanden, zynde den 11
+    soo heeft de geneegentheid die 2op voor
+    het exempel der Koningen
+    doen bewilligen in de
+    selve te vernieuwen, en een
+    veranderingen die het
+    gemaaht, en willende aan Onse zyde aan
+    voldoen, en de vereeniging,
+    tusschen eonse Rtioon en die
+    rende maaken. 500
+    laatende op de capaciteit,
+    voor Onsen dienst) van
+    alle onse Raaden, Minister en
+    Onse Beveelen en Financien)
+    den en andere goede consideratien ons daar
+    gecommitteert, geordonneert
+    tegenwoordige geteekent
+    neeren en deputeeren
+    gegeeven hebben en alsnog geeven
+    en speciaat bevel,
+    Beer van Boep, Ambassadeur der
+    netaal der geunieerde
+    selver Bolmagten in
+    cludeeren) en te
+    ip goed sal oordeelen, om
+    tie en Ravigatie, gedateert
+    protogeeren, en om een
+    vast te stellen, begeerende
+    auctoriteyt handele
+    indien Abp et in Persoon
+    in ietteg vervat mogte
+    reerde) als wel in
+    trouwe) en op Ons
+    vast, bondig en van
+    men, en punctueelijk te
+    noemden Beer Amelot
+    weesen uit kragte van
+    aopt of oopt daar
+=== plakkaten 12197 NL-HaNA_1.01.02_12197_0221
+  [15wr-a] unit_order 5 print:indent+short_prev n_lines 13 col 0
+    Om den Contractent te beeier te kunnen houden tot sijn
+    devoir, en verseekerd te 292, dat alle de voorschreeve Con
+    dicien wel en na behooren sullen werden agiervolgt, sal de
+    selve moeien gedoogen, dat die heene die van weegens den
+    Staat daar 10e sullen weesen geauthoriseert, kennisse en 1n
+    spectie neemen van de ordre, dewelke den Contractam 1o1
+    preltatie van al het beloofde sat stellen en doen observeeren,
+    ook nalien en examineeren of het koorn goed en bequaam,
+    en het brood wel gevatken, mitsgaders het geordonneer
+    de gewigt en merk is hebbende, sis voorts onderwerpende
+    aan alle soodanige ordres, als de Generaat het voorschreeve
+    Corps commandeerende, of die daar toe sat werden geau
+    thoriseert, sal goedvinden.
+  [15w-a] unit_order 5 print:indent+short_prev n_lines 13 col 0
+    Om den Contractent te
+    devoir, en verseekerd te 292, dat alle de
+    dicien wel en na behooren
+    selve moeien gedoogen, dat die heene die van
+    Staat daar 10e sullen weesen
+    spectie neemen van de
+    preltatie van al het beloofde sat stellen en
+    ook nalien en examineeren of het koorn goed
+    en het brood wel gevatken, mitsgaders
+    de gewigt en merk is hebbende, sis voorts
+    aan alle soodanige ordres, als de Generaat
+    Corps commandeerende, of die daar toe sat
+    thoriseert, sal goedvinden.
+=== plakkaten 12226 NL-HaNA_1.01.02_12226_0021
+  [15wr-a] unit_order 7 print:indent n_lines 18 col 0
+    800 18 P. dat Abu na het
+    erempel en in nahniging han syet
+    zeen bi Onse Bublicatie han Ben-
+    16 Detember 1757 ten aansten
+    han set Nexelfclip Bust-Offitie la
+    Repaxtieert, Aoefgemsten syest-
+    sien alle de Antalinnben) sin ge-
+    nekende met het antlantien en in
+    AE Brerijen Aan Brijeeken, int-
+    Bastfkxnsde kasta Kfeest hart
+    Alselants Aon Aexjest mel perjecste-
+    lnst te interticeeren en te hersie-
+    bon l Jan als. Ae. eseste interdie-
+    reerent, en herhrieden sin weesen,
+    nvete Beleemen in AEx te Raet-
+    nen . han Beswelfe aan haat met
+    sal zun hertgunt dat het Bustuelt
+    bn het erpedieeren af klaaren te
+  [15w-a] unit_order 7 print:indent n_lines 18 col 0
+    800 18 P. dat Abu na het
+    erempel en in nahniging han syet
+    zeen bi Onse Bublicatie han Ben-
+    16 Detember 1757 ten aansten
+    han set Nexelfclip Bust-Offitie la
+    Repaxtieert, Aoefgemsten syest-
+    sien alle de Antalinnben) sin ge-
+    nekende met het antlantien en in
+    AE Brerijen Aan Brijeeken, int-
+    Bastfkxnsde kasta Kfeest hart
+    Alselants Aon Aexjest mel perjecste-
+    lnst te interticeeren en te hersie-
+    bon l Jan als. Ae. eseste interdie-
+    reerent, en herhrieden sin weesen,
+    nvete Beleemen in AEx te Raet-
+    nen . han Beswelfe aan haat met
+    sal zun hertgunt dat het Bustuelt
+    bn het erpedieeren af klaaren te
+=== plakkaten 12228 NL-HaNA_1.01.02_12228_0039
+  [15wr-a] unit_order 0 print:region_start n_lines 23 col 0
+    dat deese Onse Ordonnantie vunttueelst agtere-
+    volgt en onderhouden sal worden sonder eenige
+    conniventie of dissimulatie. Ontbieden en ber-
+    soesen daaromme de heeren Staaten Stad-
+    houder) Gecommitteerde Raaden en Gedepu-
+    teerde Staaten van de respective Provincien,
+    en allen anderen Officieren en Justicieren van
+    deselve Landen dat se deese Onse Bublicatie
+    van stonden aan alomme voen verkondigen, pu-
+    bliceeren en affigeeren ter plaatse baar men ge-
+    swaon is soodanige publicatie en affixie te doen;
+    lasten en beveelen voorts de Raaden ter Admi-
+    raliteit, de Advocaaten Fiscaal mitsnaders al-
+    len Admiraalen Dice-Admiraalen, Capiteinen,
+    Officieren en bevelhebberen, als meede Commis-
+    sarissen en Commisen ter Recherche, soo in dezee
+    vaten, als elders, den inhoude van deese Onse
+    sublicatie te agtervolgen) en te doen agtervolgen,
+    procedeerende en doende procedeeren tegen de Cor-
+    traventeurs van dien, sonder eenige oonluisin-
+    de dissimulatie of verdzagt want slon sultis ten
+    dienste van den Lande bevonden hebben alsoo
+    te behooren.
+  [15w-a] unit_order 4 print:region n_lines 29 col 1
+    vunttueelst agtere-
+    worden sonder eenige
+    Ontbieden en ber-
+    Staaten Stad-
+    en Gedepu-
+    Provincien,
+    en Justicieren van
+    deese Onse Bublicatie
+    voen verkondigen, pu-
+    plaatse baar men ge-
+    en affixie te doen;
+    de Raaden ter Admi-
+    mitsnaders al-
+    Capiteinen,
+    als meede Commis-
+    Recherche, soo in dezee
+    inhoude van deese Onse
+    te doen agtervolgen,
+    procedeeren tegen de Cor-
+    sonder eenige oonluisin-
+    want slon sultis ten
+    alsoo
+    ter Vergaderin-
+    Staaten Gene-
+    6 April 1779. Mas
+    vt. Onderstond, &er
+    Geteekent H. Fagel.
+    het Cachet van
+    rooden Ouwel over-
+=== plakkaten 12230 NL-HaNA_1.01.02_12230_0052
+  [15wr-a] unit_order 3 print:region_start n_lines 27 col 0
+    ret die voor data van deese Publicatie, sonder
+    behoorlyft afscheid, Onsen Dienst te Water
+    verlaaten hebben of daar uit gedeserteert zyn,
+    of hun, contrarie Onse voorige Placaaten, in
+    vreemde diensten, soo ten Oorlogials ter Koop-
+    vaardwe en Bisscherve te Zee, hebben begee
+    pen al het gunt sp) door haare voorsz desertie of
+    vreemde diensten, tegens den Lande hebben
+    missdaan mitgaders alle boeten Breukten, poe-
+    nen, corporeele of andere infameerende straf.
+    fen, daar inne spi ter cause als booreni ver-
+    vallen souden mogen weesen; mits dat in ge-
+    houden zullen weesen, na deese Landen weeder
+    te seeren, en sin binnen den tyt van ses maan-
+    deni na de Publicatie deeser, aan te reevent
+    aan een van de Collegien ter Admiraliteit en
+    naar weederom in Onsen dienst onder een van
+    de voors Collegien, te begeeven, ordonneeren
+    en statueeren daar en tegen, dat alle de geenen
+    die dit ens Generaal Bardon zullen hebben
+    versmaad) en alson haar binnen den voorsz tud
+    niet aangegeeven, en weederom in dienst als
+    vooren begeeven zullen hebben, en naderhand
+    zullen werden uitgevonden en agterhaald, son-
+    der eenige remissie of conniventie na de uitter-
+    ste rigeur van de Ordonnantien en Blacaaten
+    zullen worden gestraft.
+  [15w-a] unit_order 2 print:region n_lines 32 col 1
+    deeser Lan-
+    tot deeser Landen
+    laatende veele
+    Kinderen blyven
+    daar se gewoond
+    nondelpft dient
+    van inlandsch Repga-
+    laaten ontblooten in-
+    jegenswoordig alhier
+    geuoegsaam geem-
+    non geneegen zun aan
+    wie
+    donz betleidinge
+    vooz dato deeser
+    gedeserteert zun) of
+    in
+    ter
+    be-
+    vervriet hebbende
+    gaarne binnen
+    deselve
+    te
+    daar op inge-
+    consideratien en
+    Boogheid, den
+    Rassall Erfstad.
+    en Admitaal det
+    conforus, uitson.
+    quptgescholden en
+    Asson vergeeven
+    bn deesen de
+    ande-
+=== processtukken 9486 NL-HaNA_1.01.02_9486_0007
+  [15wr-a] unit_order 1 print:region n_lines 54 col 0
+    derhalf of twee uuren van de Stadt lagen, en waar
+    omtrent men niet wilt, welke Schepen het waren:
+    dat ook h9 Gearresteede voor de overhave der
+    Stad geene tydins van het aannaderen der Proviant
+    Schepen heeft bekomen, doch dat hy Gearrelteerde,
+    na dat de Capitulatie reeds gellooten was, a1s toen
+    de Resolutie van Heeren Gecommitteerde Raaden
+    heeft ontlangen, zonder echter met rekerheid te
+    kunnen bepaalen, of zults is geweelt den das na
+    de Capitulatie of wel den avond van den das wan-
+    neer de Capitulatie is geslooten; dat wat aangelangt
+    de inundatien en het mislukken van dien, hy Gear-
+    releerden van het leggen van den Dam in de Rivier
+    de Donge, tot het formeeren van de groote Inunda
+    tie, geene andere kennis heeft gehad, dan dat de Con-
+    trarolleur Generaal de Bock, wanneer dezelve de aan
+    belteedins van het Werk is komen doen, hem Cearre
+    keerde over het plaatsen van meerder Kanon op
+    de Wallen is komen spreeken, en by die geleegen-
+    heid hem heeft gezegt, dat hy kwam om de Be-
+    steeding te doen;  dat voorts gemelde Contra-
+    roileur Generaal als toen aan hem Gearrelteerden ook
+    heeft, beloott, hem een tan van de torten en
+    Weijken, rondsom de Stad leggende, te zulen zen-
+    den, en den Ingenieur van de Graaf naar Geertruy-
+    aenbers te zullen doen komen, doch van welk een
+    en ander niets gebeurt is; hebbende hy Gearretteer
+    aen ook geene kennis hoe genaamt gekreegen, of
+    rapporten bekomen, aangaande de lituatie der 2aa.
+    ken, met oprict tot het formeeren der Inundatien,
+    even weinis als van den dagelykschen voortgans van
+    het Werk; dat hy Gearresteerde van niemand eeni-
+    5e ordres bekomen heeft, om het Werk aan den
+    Dam te dekken, doch dat hy zelve gevoelt heeft de
+    2oodzaakelykheid, om eene Wacht daar by te plaat-
+    1en, en rults ook leedert het begin van de maand
+    February laatstleeden heeft gedaan; dat in Vreedes-
+    198 niec meer dan een Man daar geplaatst wordt,
+    om den Commis van den 101, des noods, te ad
+    litteeren, doch dat daar ter plaatse echter is een
+    Corps de Cuarde, welke h9 Gearretteerde heeft
+    doen opruimen, en als toen derwaards heeft gezon
+    den eene Wacht van twintis Mannen, met een Of
+    ficier, en welke Wacht, wanneer de Franschen na
+    derden, hy Gearresteerde heeft laaten versterken;
+    hebbende als toen daar schad een Capitain, twee
+    Officieren, en honderd en dertis Mannen; dat h9
+    Gearrelteerde aan de commandeerende Officieren van
+    die Wacht schriftelyke ordre heeft gegeeven, om
+    215 op den Polt van Statendum tot het uitterste te
+    maintineeren, doch 200 de overmacht te sterk wierdt,
+    215 dan op de Stad te retireeren, voorts om alle
+    desordres te praevenieeren, en niet aan bekende
+    lieden by het Werk te laaten, als dienende die
+  [15w-a] unit_order 1 print:region n_lines 54 col 0
+    derhalf of
+    omtrent men
+    dat ook h9
+    Stad geene tydins
+    Schepen heeft
+    na dat de Capitulatie
+    de Resolutie van
+    heeft ontlangen,
+    kunnen bepaalen,
+    de Capitulatie
+    neer de Capitulatie
+    de inundatien en
+    releerden van
+    de Donge, tot
+    tie, geene andere
+    trarolleur Generaal
+    belteedins van
+    keerde over het plaatsen van
+    de Wallen is
+    heid hem heeft
+    steeding te
+    roileur Generaal
+    heeft, beloott,
+    Weijken, rondsom
+    den, en den
+    aenbers te
+    en ander niets
+    aen ook geene
+    rapporten bekomen,
+    ken, met oprict
+    even weinis als
+    het Werk; dat
+    5e ordres bekomen
+    Dam te dekken,
+    2oodzaakelykheid,
+    1en, en rults
+    February laatstleeden
+    198 niec meer
+    om den Commis
+    litteeren, doch
+    Corps de Cuarde,
+    doen opruimen,
+    den eene Wacht
+    ficier, en
+    derden, hy
+    hebbende als
+    Officieren, en
+    Gearrelteerde aan
+    die Wacht schriftelyke
+    215 op den
+    maintineeren, doch
+    215 dan op
+    desordres te
+    lieden by het
+=== processtukken 9486 NL-HaNA_1.01.02_9486_0022
+  [15wr-a] unit_order 1 print:region n_lines 54 col 0
+    gen Krygsraade, heeft bekiend, en ook anderzints
+    gebleeken is, dat hy Gearresteerde het Land vys-
+    ti5 jaaren als Officier heeft gedient, en sedert den2-
+    February laatstleeden, met zyn onderhebbend Bat-
+    taillon, in Guarnisoen heeft geleegen te Geextijtti-
+    denbers, en aldaar Guarnisoen gehouden heeft 102
+    dat die Stad en Veltins op den 4. Maart laatstlee-
+    den by Capitulatie aan de Fransche Trouppes is
+    overgegeven geworden; dat aan hem Gearre-
+    steerden geene Ordres van Zyne Doorlugtige Hoog-
+    heid aan den Lieutenant Cene aal Bedaulx, omtrend
+    de detensie van de Stad en Veltins Geertruiden.
+    bers, voor 200. verre hy zig rappelleerd, zyn be-
+    kend geweelt, en speciaat niet eene Missive van
+    Zyne Doorluchtige Hoogheid, op den 28 February
+    1793, aan welgemelden, Lieutenant Generaal Be-
+    daulx als Commandeur van Geercruidenbers 5e.
+    schreeven, en waar by Zyne Hoogheid hadde te
+    kennen gegeven, dat Hoogstdestelfs bezeerte was, dat
+    de Stad en Veltins Geertruidenbers zoude verde-
+    dedixd worden, jusqui la derniere extremite, E que
+    ce sieze serait de plus durée que celui de Breda, van
+    welke Missive hy Gearresteerde niets anders heeft
+    geweeten, dan het geen hem dien aangaande door
+    lolle discoursen en van hooren neggen moge ter
+    ooren gekomen 292; dat hy Gearresieerde is
+    geweest Medelid van den Krygsraad, welke op Or-
+    dre van den Lieutenant Generaal Bedaulx, als Com-
+    mandeur der Stad Geertruidenbers, en onder des
+    zelfs voorzittins, op den 4. Maart laatstleeden is ge-
+    houden, over het al of niet overgeeven dier Stad en
+    Veltins aan den Vyand, en als toen heett mede ge-
+    stemt tot het aangaan van eene Capitulatie, wet
+    te Capitulatie ook naderhand door hem Gearre
+    steerden is geagreeid en goedgekeurd; dat hy Gear-
+    relteerde als eene eerste reden van zyn advis voor
+    de Capitilatie heett opgeheeven, dat de noop van
+    eene lansduurige detensie verdweenen was geweelt,
+    om dat de Inundatien gemanqueerd waren; dat h9
+    Gearrelteerde als een tweede reden heeft gealle
+    gueerd, dat het Guarnisoen te zwat was ter ver„
+    richtins van de veelvuldige diensten 20 van Detache
+    menten en liquetten, als van hulp by de Artille-
+    r9, en als eene derde reden daar by heeft gevoegd,
+    dat de Vivres manqueerden, by gebrek aan Voor
+    raads Magazynen, en dat het onmogelyk was de
+    zelven te bekomen: dat ten aanzien van deze laatst
+    gemelde reden, hy Gearresteerde verders heeft ge-
+    regd, dat 'er aan verscheide Articulen van nood-
+    wendigheden des Levens gebrek is geweelt, neb.
+    vende de Soldaaten rich zeer beklaagd, dat regeene
+    Aardappelen, Erweten, of diergelyke zaaken van de
+    eerste noodraakelykheid meer hebben kunnen kry.
+    gen; dat het ook het zelfde is geweest met het
+  [15w-a] unit_order 1 print:region n_lines 54 col 0
+    gen Krygsraade,
+    gebleeken is,
+    ti5 jaaren als
+    February laatstleeden,
+    taillon, in
+    denbers, en
+    dat die Stad
+    den by Capitulatie
+    overgegeven geworden;
+    steerden geene
+    heid aan den
+    de detensie van
+    bers, voor 200.
+    kend geweelt,
+    Zyne Doorluchtige Hoogheid, op
+    1793, aan welgemelden,
+    daulx als Commandeur
+    schreeven, en
+    kennen gegeven,
+    de Stad en
+    dedixd worden,
+    ce sieze serait
+    welke Missive
+    geweeten, dan
+    lolle discoursen
+    ooren gekomen
+    geweest Medelid
+    dre van den
+    mandeur der
+    zelfs voorzittins,
+    houden, over
+    Veltins aan
+    stemt tot het
+    te Capitulatie
+    steerden is
+    relteerde als eene eerste reden van
+    de Capitilatie
+    eene lansduurige
+    om dat de Inundatien
+    Gearrelteerde als
+    gueerd, dat
+    richtins van
+    menten en liquetten,
+    r9, en als
+    dat de Vivres
+    raads Magazynen,
+    zelven te bekomen:
+    gemelde reden,
+    regd, dat 'er
+    wendigheden des
+    vende de Soldaaten
+    Aardappelen, Erweten,
+    eerste noodraakelykheid
+    gen; dat het

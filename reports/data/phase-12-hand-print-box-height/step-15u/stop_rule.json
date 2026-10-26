@@ -1,0 +1,79 @@
+{
+ "cut": {
+  "cut": 87.75,
+  "max_print": 86.0,
+  "max_print_inv": "12135",
+  "min_hand": 89.5,
+  "min_hand_inv": "3492",
+  "separable": true,
+  "n_print": 38,
+  "n_hand": 38,
+  "fit_agreement": "76/76",
+  "params": {
+   "cut": 87.75,
+   "min_region_chars": 100
+  }
+ },
+ "per_stratum": {
+  "eerste_serie": {
+   "silver": "hand",
+   "stratum_size": 123,
+   "n_sample": 10,
+   "n_agree": 10,
+   "agreement": 1.0,
+   "wilson95": [
+    0.7225,
+    1.0
+   ]
+  },
+  "tweede_serie": {
+   "silver": "hand",
+   "stratum_size": 421,
+   "n_sample": 20,
+   "n_agree": 20,
+   "agreement": 1.0,
+   "wilson95": [
+    0.8389,
+    1.0
+   ]
+  },
+  "gedrukte_resoluties": {
+   "silver": "print",
+   "stratum_size": 99,
+   "n_sample": 10,
+   "n_agree": 10,
+   "agreement": 1.0,
+   "wilson95": [
+    0.7225,
+    1.0
+   ]
+  },
+  "nouvelles": {
+   "silver": "print",
+   "stratum_size": 64,
+   "n_sample": 10,
+   "n_agree": 10,
+   "agreement": 1.0,
+   "wilson95": [
+    0.7225,
+    1.0
+   ]
+  },
+  "plakkaten": {
+   "silver": "print",
+   "stratum_size": 76,
+   "n_sample": 10,
+   "n_agree": 10,
+   "agreement": 1.0,
+   "wilson95": [
+    0.7225,
+    1.0
+   ]
+  }
+ },
+ "weighted_agreement_print": 1.0,
+ "weighted_agreement_hand": 1.0,
+ "n_volumes": 60,
+ "n_parse_fail_total": 0,
+ "pass": true
+}

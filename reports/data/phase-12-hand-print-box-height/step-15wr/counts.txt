@@ -1,0 +1,24 @@
+('De gedrukte ', 'True') vols 31 | splits 1234 -> 1234 | units/scan 61.12 -> 61.12
+('De tweede se', 'True') vols 1 | splits 212 -> 212 | units/scan 27.25 -> 27.25
+('Gedrukte nou', 'False') vols 25 | splits 1771940 -> 0 | units/scan 36.40 -> 25.87
+('Gedrukte pla', 'False') vols 27 | splits 339056 -> 0 | units/scan 25.03 -> 22.21
+('Processtukke', 'False') vols 1 | splits 9490 -> 0 | units/scan 17.04 -> 11.86
+12182 b6d663a9-e952-4ce8-8026-a62a4a
+   15wr-a: staande Troupen retireren moeten, te ontfangen en
+   15w-a : ['staande Troupen retireren', 'moeten, te ontfangen en']
+12109 line_1ace9448-ce5a-4740-b3b9-e
+   15wr-a: seedert vier daagen van Berlin herwaarts op marsch is, en nog
+   15w-a : ['seedert vier daagen van', 'Berlin herwaarts op marsch is, en nog']
+12187 de566a32-cac7-481a-9753-0d94a1
+   15wr-a: van niemandt eenige ignorantie stonme te
+   15w-a : ['(unsplit) van niemandt eenige ignorantie stonme te']
+12122 ad8d80c8-058b-4c06-9e77-1b54df
+   15wr-a: van daar is uitgezeylt, om sijn reis te vervolgen, en dat de Equi-
+   15w-a : ['van daar is uitgezeylt,', 'om sijn reis te vervolgen, en dat de Equi-']
+12144 line_76d43839-97bf-49be-b512-2
+   15wr-a: dagen op de Binnenplaats van het Paleis gebragt, alwaar hy van
+   15w-a : ['dagen op de Binnenplaats van', 'het Paleis gebragt, alwaar hy van']
+3771:
+   15wr-a: dac6c2bd51_L onder de precautien van het selve | 15w-a same id: True
+   15wr-a: f312526801_R tarra van | 15w-a same id: True
+   15wr-a: 5d60265f68_R waerdigh | 15w-a same id: True

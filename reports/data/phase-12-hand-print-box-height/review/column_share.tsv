@@ -1,0 +1,175 @@
+inv	series	side	n_lines	span	mid_start	col_width	n_split
+12087	Gedrukte nouvelles van Nederla	left	18336	1824	0.054	0.128	39855
+12087	Gedrukte nouvelles van Nederla	right	29624	2011	0.039	0.061	39855
+12088	Gedrukte nouvelles van Nederla	left	23441	1808	0.062	0.124	51473
+12088	Gedrukte nouvelles van Nederla	right	38931	2018	0.066	0.059	51473
+12090	Gedrukte nouvelles van Nederla	left	23187	1718	0.029	0.109	47947
+12090	Gedrukte nouvelles van Nederla	right	30579	1748	0.02	0.103	47947
+12092	Gedrukte nouvelles van Nederla	left	19255	1717	0.011	0.087	39469
+12092	Gedrukte nouvelles van Nederla	right	24385	1778	0.009	0.083	39469
+12093	Gedrukte nouvelles van Nederla	left	16482	1733	0.018	0.065	35858
+12093	Gedrukte nouvelles van Nederla	right	22487	1772	0.015	0.074	35858
+12100	Gedrukte nouvelles van Nederla	left	14330	1757	0.009	0.074	31096
+12100	Gedrukte nouvelles van Nederla	right	19578	1778	0.007	0.074	31096
+12101	Gedrukte nouvelles van Nederla	left	13600	1745	0.012	0.083	29902
+12101	Gedrukte nouvelles van Nederla	right	19256	1783	0.01	0.08	29902
+12102	Gedrukte nouvelles van Nederla	left	17031	1807	0.006	0.054	37699
+12102	Gedrukte nouvelles van Nederla	right	23728	1816	0.006	0.061	37699
+12103	Gedrukte nouvelles van Nederla	left	18122	1742	0.006	0.065	38274
+12103	Gedrukte nouvelles van Nederla	right	24096	1755	0.007	0.073	38274
+12105	Gedrukte nouvelles van Nederla	left	20018	1711	0.023	0.095	41870
+12105	Gedrukte nouvelles van Nederla	right	26276	1764	0.016	0.09	41870
+12106	Gedrukte nouvelles van Nederla	left	15403	1746	0.007	0.077	31306
+12106	Gedrukte nouvelles van Nederla	right	19593	1787	0.01	0.082	31306
+12109	Gedrukte nouvelles van Nederla	left	16118	1747	0.007	0.082	33575
+12109	Gedrukte nouvelles van Nederla	right	20968	1786	0.007	0.077	33575
+12114	Gedrukte nouvelles van Nederla	left	20233	1742	0.007	0.082	42665
+12114	Gedrukte nouvelles van Nederla	right	27701	1760	0.006	0.081	42665
+12116	Gedrukte nouvelles van Nederla	left	15129	1748	0.007	0.084	32253
+12116	Gedrukte nouvelles van Nederla	right	21048	1760	0.004	0.09	32253
+12118	Gedrukte nouvelles van Nederla	left	16528	1764	0.009	0.082	34462
+12118	Gedrukte nouvelles van Nederla	right	21742	1780	0.008	0.086	34462
+12120	Gedrukte nouvelles van Nederla	left	14665	1747	0.006	0.087	30199
+12120	Gedrukte nouvelles van Nederla	right	19083	1862	0.008	0.089	30199
+12121	Gedrukte nouvelles van Nederla	left	21902	1778	0.011	0.067	45309
+12121	Gedrukte nouvelles van Nederla	right	27836	1806	0.012	0.079	45309
+12122	Gedrukte nouvelles van Nederla	left	22601	1728	0.007	0.07	47478
+12122	Gedrukte nouvelles van Nederla	right	29333	1755	0.01	0.086	47478
+12123	Gedrukte nouvelles van Nederla	left	21059	1904	0.007	0.064	43222
+12123	Gedrukte nouvelles van Nederla	right	27091	1865	0.01	0.076	43222
+12131	Gedrukte nouvelles van Nederla	left	6911	1744	0.004	0.078	14890
+12131	Gedrukte nouvelles van Nederla	right	9846	1934	0.009	0.077	14890
+12132	Gedrukte nouvelles van Nederla	left	2941	1750	0.007	0.072	6411
+12132	Gedrukte nouvelles van Nederla	right	4274	1870	0.015	0.095	6411
+12133	Gedrukte nouvelles van Nederla	left	13733	1749	0.047	0.119	27826
+12133	Gedrukte nouvelles van Nederla	right	18756	1923	0.013	0.113	27826
+12135	Gedrukte nouvelles van Nederla	left	2257	1755	0.005	0.07	4782
+12135	Gedrukte nouvelles van Nederla	right	3074	1823	0.008	0.075	4782
+12140	Gedrukte nouvelles van Nederla	left	16634	1800	0.017	0.095	34395
+12140	Gedrukte nouvelles van Nederla	right	22008	1897	0.011	0.077	34395
+12144	Gedrukte nouvelles van Nederla	left	34374	1782	0.04	0.133	63751
+12144	Gedrukte nouvelles van Nederla	right	43032	1893	0.055	0.136	63751
+12162	Gedrukte plakkaten	left	8233	1592	0.03	0.135	7769
+12162	Gedrukte plakkaten	right	9646	2953	0.032	0.713	7769
+12166	Gedrukte plakkaten	left	12067	1685	0.024	0.099	13153
+12166	Gedrukte plakkaten	right	18194	4306	0.027	0.126	13153
+12168	Gedrukte plakkaten	left	13275	2335	0.039	0.619	3701
+12168	Gedrukte plakkaten	right	17778	4157	0.029	0.165	3701
+12169	Gedrukte plakkaten	left	13377	1667	0.028	0.08	14077
+12169	Gedrukte plakkaten	right	18618	4302	0.055	0.096	14077
+12170	Gedrukte plakkaten	left	17112	2010	0.097	0.14	17246
+12170	Gedrukte plakkaten	right	21916	4300	0.046	0.184	17246
+12174	Gedrukte plakkaten	left	8080	1703	0.184	0.215	8462
+12174	Gedrukte plakkaten	right	12324	3740	0.04	0.596	8462
+12176	Gedrukte plakkaten	left	14333	1730	0.008	0.063	12817
+12176	Gedrukte plakkaten	right	23511	4112	0.128	0.314	12817
+12179	Gedrukte plakkaten	left	4959	1792	0.108	0.197	4048
+12179	Gedrukte plakkaten	right	12050	4344	0.17	0.268	4048
+12180	Gedrukte plakkaten	left	5098	2031	0.048	0.133	4873
+12180	Gedrukte plakkaten	right	8083	3161	0.204	0.755	4873
+12182	Gedrukte plakkaten	left	12055	1585	0.028	0.115	10657
+12182	Gedrukte plakkaten	right	14514	2218	0.098	0.695	10657
+12184	Gedrukte plakkaten	left	4665	1852	0.054	0.253	2945
+12184	Gedrukte plakkaten	right	7426	3779	0.137	0.389	2945
+12187	Gedrukte plakkaten	left	5505	1687	0.086	0.608	2141
+12187	Gedrukte plakkaten	right	8241	3471	0.123	0.365	2141
+12193	Gedrukte plakkaten	left	6651	1734	0.084	0.168	5364
+12193	Gedrukte plakkaten	right	10193	3173	0.185	0.725	5364
+12194	Gedrukte plakkaten	left	4948	1591	0.043	0.131	4871
+12194	Gedrukte plakkaten	right	8668	3056	0.195	0.719	4871
+12196	Gedrukte plakkaten	left	6749	2117	0.093	0.2	4140
+12196	Gedrukte plakkaten	right	12662	3184	0.168	0.739	4140
+12197	Gedrukte plakkaten	left	9548	1855	0.079	0.196	7763
+12197	Gedrukte plakkaten	right	17699	3180	0.192	0.706	7763
+12203	Gedrukte plakkaten	left	3074	1857	0.047	0.17	2354
+12203	Gedrukte plakkaten	right	4869	3398	0.208	0.702	2354
+12205	Gedrukte plakkaten	left	1998	2472	0.067	0.889	46
+12205	Gedrukte plakkaten	right	3805	3601	0.179	0.493	46
+12206	Gedrukte plakkaten	left	1052	2905	0.072	0.737	93
+12206	Gedrukte plakkaten	right	3030	3926	0.176	0.383	93
+12207	Gedrukte plakkaten	left	1620	2278	0.072	0.462	305
+12207	Gedrukte plakkaten	right	2664	3161	0.206	0.697	305
+12220	Gedrukte plakkaten	left	8567	1547	0.02	0.108	7641
+12220	Gedrukte plakkaten	right	10608	3579	0.085	0.699	7641
+12225	Gedrukte plakkaten	left	1247	2658	0.119	0.838	207
+12225	Gedrukte plakkaten	right	2225	3198	0.285	0.689	207
+12226	Gedrukte plakkaten	left	2388	3053	0.087	0.83	103
+12226	Gedrukte plakkaten	right	4210	4029	0.196	0.22	103
+12228	Gedrukte plakkaten	left	2362	1722	0.03	0.095	2064
+12228	Gedrukte plakkaten	right	3407	3121	0.132	0.741	2064
+12230	Gedrukte plakkaten	left	2514	1904	0.008	0.098	2241
+12230	Gedrukte plakkaten	right	4275	3653	0.17	0.58	2241
+12232	Gedrukte plakkaten	left	18082	1847	0.05	0.08	29058
+12232	Gedrukte plakkaten	right	18752	1925	0.071	0.103	29058
+12235	Gedrukte plakkaten	left	5915	2245	0.046	0.464	1388
+12235	Gedrukte plakkaten	right	6111	3534	0.086	0.648	1388
+3463	De tweede serie registers van 	left	4629	2383	0.431	0.854	106
+3463	De tweede serie registers van 	right	5106	2598	0.401	0.792	106
+3769	De gedrukte resoluties van de 	left	71852	1972	0.501	0.966	19
+3769	De gedrukte resoluties van de 	right	72276	1969	0.499	0.967	19
+3771	De gedrukte resoluties van de 	left	60646	1955	0.497	0.959	218
+3771	De gedrukte resoluties van de 	right	60269	1969	0.496	0.956	218
+3772	De gedrukte resoluties van de 	left	63087	1950	0.499	0.96	1
+3772	De gedrukte resoluties van de 	right	63169	1958	0.498	0.956	1
+3773	De gedrukte resoluties van de 	left	64846	1951	0.499	0.951	1
+3773	De gedrukte resoluties van de 	right	64354	2001	0.501	0.947	1
+3774	De gedrukte resoluties van de 	left	55949	1947	0.499	0.953	4
+3774	De gedrukte resoluties van de 	right	56234	2001	0.498	0.955	4
+3784	De gedrukte resoluties van de 	left	46786	1915	0.499	0.951	5
+3784	De gedrukte resoluties van de 	right	47047	1936	0.5	0.951	5
+3794	De gedrukte resoluties van de 	left	42575	1933	0.501	0.95	1
+3794	De gedrukte resoluties van de 	right	42205	1940	0.498	0.947	1
+3795	De gedrukte resoluties van de 	left	46744	1899	0.501	0.951	11
+3795	De gedrukte resoluties van de 	right	46707	1931	0.499	0.951	11
+3796	De gedrukte resoluties van de 	left	52163	1948	0.501	0.949	5
+3796	De gedrukte resoluties van de 	right	52002	1962	0.499	0.946	5
+3804	De gedrukte resoluties van de 	left	49268	1920	0.498	0.957	1
+3804	De gedrukte resoluties van de 	right	49195	1932	0.499	0.955	1
+3805	De gedrukte resoluties van de 	left	50694	1936	0.497	0.905	1
+3805	De gedrukte resoluties van de 	right	50987	1959	0.497	0.905	1
+3811	De gedrukte resoluties van de 	left	44433	1918	0.498	0.903	3
+3811	De gedrukte resoluties van de 	right	44230	1993	0.5	0.897	3
+3816	De gedrukte resoluties van de 	left	48807	1935	0.498	0.882	3
+3816	De gedrukte resoluties van de 	right	48605	1952	0.5	0.885	3
+3821	De gedrukte resoluties van de 	left	40387	1884	0.5	0.903	1
+3821	De gedrukte resoluties van de 	right	40147	1907	0.498	0.903	1
+3822	De gedrukte resoluties van de 	left	43112	1886	0.499	0.905	0
+3822	De gedrukte resoluties van de 	right	43093	1916	0.499	0.909	0
+3823	De gedrukte resoluties van de 	left	40649	1880	0.501	0.901	3
+3823	De gedrukte resoluties van de 	right	40616	1900	0.5	0.899	3
+3826	De gedrukte resoluties van de 	left	49799	1887	0.499	0.902	0
+3826	De gedrukte resoluties van de 	right	49941	1915	0.501	0.903	0
+3828	De gedrukte resoluties van de 	left	45333	1918	0.5	0.884	0
+3828	De gedrukte resoluties van de 	right	45438	1927	0.496	0.883	0
+3834	De gedrukte resoluties van de 	left	60279	1886	0.498	0.889	16
+3834	De gedrukte resoluties van de 	right	59885	1894	0.497	0.893	16
+3838	De gedrukte resoluties van de 	left	31531	1912	0.499	0.964	1
+3838	De gedrukte resoluties van de 	right	31468	1935	0.497	0.961	1
+3841	De gedrukte resoluties van de 	left	35902	1895	0.501	0.817	25
+3841	De gedrukte resoluties van de 	right	35519	1924	0.496	0.819	25
+3844	De gedrukte resoluties van de 	left	41555	1884	0.499	0.83	11
+3844	De gedrukte resoluties van de 	right	41479	1915	0.502	0.825	11
+3845	De gedrukte resoluties van de 	left	39694	1913	0.494	0.963	19
+3845	De gedrukte resoluties van de 	right	39813	1901	0.5	0.964	19
+3847	De gedrukte resoluties van de 	left	43488	1878	0.497	0.82	66
+3847	De gedrukte resoluties van de 	right	43466	1921	0.498	0.822	66
+3848	De gedrukte resoluties van de 	left	44224	1886	0.498	0.826	6
+3848	De gedrukte resoluties van de 	right	44125	1903	0.498	0.824	6
+3849	De gedrukte resoluties van de 	left	36982	1937	0.499	0.961	12
+3849	De gedrukte resoluties van de 	right	37007	1948	0.5	0.955	12
+3851	De gedrukte resoluties van de 	left	30872	1884	0.494	0.793	0
+3851	De gedrukte resoluties van de 	right	31208	1944	0.498	0.792	0
+3853	De gedrukte resoluties van de 	left	51475	1894	0.499	0.913	37
+3853	De gedrukte resoluties van de 	right	51478	1924	0.499	0.912	37
+3857	De gedrukte resoluties van de 	left	26699	1925	0.495	0.95	16
+3857	De gedrukte resoluties van de 	right	26625	1903	0.5	0.949	16
+3862	De gedrukte resoluties van de 	left	59389	1935	0.504	0.888	1
+3862	De gedrukte resoluties van de 	right	59543	1935	0.499	0.886	1
+3864	De gedrukte resoluties van de 	left	30220	1903	0.501	0.893	130
+3864	De gedrukte resoluties van de 	right	30296	1914	0.497	0.889	130
+9486	Processtukken van de Staten-Ge	left	2415	1534	0.006	0.019	4745
+9486	Processtukken van de Staten-Ge	right	2423	1453	0.008	0.027	4745
+455		left	72412	1884	0.457	0.875	11504
+455		right	74066	1973	0.465	0.893	11504
+456		left	47646	1945	0.158	0.291	64265
+456		right	48429	2016	0.169	0.314	64265

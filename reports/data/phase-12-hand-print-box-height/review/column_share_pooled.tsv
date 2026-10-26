@@ -1,0 +1,88 @@
+inv	series	n_lines	side_min	side_max	n_split	pooled_mid_start
+12116	Gedrukte nouvelles van Nederla	36177	0.004	0.007	32253	0.005
+12114	Gedrukte nouvelles van Nederla	47934	0.006	0.007	42665	0.006
+12102	Gedrukte nouvelles van Nederla	40759	0.006	0.006	37699	0.006
+12135	Gedrukte nouvelles van Nederla	5331	0.005	0.008	4782	0.007
+12131	Gedrukte nouvelles van Nederla	16757	0.004	0.009	14890	0.007
+12120	Gedrukte nouvelles van Nederla	33748	0.006	0.008	30199	0.007
+12109	Gedrukte nouvelles van Nederla	37086	0.007	0.007	33575	0.007
+12103	Gedrukte nouvelles van Nederla	42218	0.006	0.007	38274	0.007
+9486	Processtukken van de Staten-Ge	4838	0.006	0.008	4745	0.007
+12100	Gedrukte nouvelles van Nederla	33908	0.007	0.009	31096	0.008
+12118	Gedrukte nouvelles van Nederla	38270	0.008	0.009	34462	0.008
+12122	Gedrukte nouvelles van Nederla	51934	0.007	0.01	47478	0.009
+12106	Gedrukte nouvelles van Nederla	34996	0.007	0.01	31306	0.009
+12123	Gedrukte nouvelles van Nederla	48150	0.007	0.01	43222	0.009
+12092	Gedrukte nouvelles van Nederla	43640	0.009	0.011	39469	0.01
+12101	Gedrukte nouvelles van Nederla	32856	0.01	0.012	29902	0.011
+12121	Gedrukte nouvelles van Nederla	49738	0.011	0.012	45309	0.012
+12132	Gedrukte nouvelles van Nederla	7215	0.007	0.015	6411	0.012
+12140	Gedrukte nouvelles van Nederla	38642	0.011	0.017	34395	0.014
+12093	Gedrukte nouvelles van Nederla	38969	0.015	0.018	35858	0.016
+12105	Gedrukte nouvelles van Nederla	46294	0.016	0.023	41870	0.019
+12090	Gedrukte nouvelles van Nederla	53766	0.02	0.029	47947	0.024
+12166	Gedrukte plakkaten	30261	0.024	0.027	13153	0.026
+12133	Gedrukte nouvelles van Nederla	32489	0.013	0.047	27826	0.027
+12162	Gedrukte plakkaten	17879	0.03	0.032	7769	0.031
+12168	Gedrukte plakkaten	31053	0.029	0.039	3701	0.033
+12169	Gedrukte plakkaten	31995	0.028	0.055	14077	0.044
+12087	Gedrukte nouvelles van Nederla	47960	0.039	0.054	39855	0.045
+12144	Gedrukte nouvelles van Nederla	77406	0.04	0.055	63751	0.048
+12220	Gedrukte plakkaten	19175	0.02	0.085	7641	0.056
+12232	Gedrukte plakkaten	36834	0.05	0.071	29058	0.061
+12088	Gedrukte nouvelles van Nederla	62372	0.062	0.066	51473	0.064
+12235	Gedrukte plakkaten	12026	0.046	0.086	1388	0.066
+12182	Gedrukte plakkaten	26569	0.028	0.098	10657	0.066
+12170	Gedrukte plakkaten	39028	0.046	0.097	17246	0.068
+12176	Gedrukte plakkaten	37844	0.008	0.128	12817	0.083
+12228	Gedrukte plakkaten	5769	0.03	0.132	2064	0.09
+12174	Gedrukte plakkaten	20404	0.04	0.184	8462	0.097
+12184	Gedrukte plakkaten	12091	0.054	0.137	2945	0.105
+12187	Gedrukte plakkaten	13746	0.086	0.123	2141	0.108
+12230	Gedrukte plakkaten	6789	0.008	0.17	2241	0.11
+12194	Gedrukte plakkaten	13616	0.043	0.195	4871	0.14
+12205	Gedrukte plakkaten	5803	0.067	0.179	46	0.14
+12196	Gedrukte plakkaten	19411	0.093	0.168	4140	0.142
+12180	Gedrukte plakkaten	13181	0.048	0.204	4873	0.144
+12193	Gedrukte plakkaten	16844	0.084	0.185	5364	0.145
+12203	Gedrukte plakkaten	7943	0.047	0.208	2354	0.146
+12206	Gedrukte plakkaten	4082	0.072	0.176	93	0.149
+12197	Gedrukte plakkaten	27247	0.079	0.192	7763	0.152
+12179	Gedrukte plakkaten	17009	0.108	0.17	4048	0.152
+12207	Gedrukte plakkaten	4284	0.072	0.206	305	0.155
+12226	Gedrukte plakkaten	6598	0.087	0.196	103	0.157
+456	1.10.94	96075	0.158	0.169	64265	0.164
+12225	Gedrukte plakkaten	3472	0.119	0.285	207	0.225
+3463	De tweede serie registers van 	9735	0.401	0.431	106	0.415
+455	1.10.94	146478	0.457	0.465	11504	0.461
+3851	De gedrukte resoluties van de 	62080	0.494	0.498	0	0.496
+3771	De gedrukte resoluties van de 	120915	0.496	0.497	218	0.497
+3857	De gedrukte resoluties van de 	53324	0.495	0.5	16	0.497
+3847	De gedrukte resoluties van de 	86954	0.497	0.498	66	0.497
+3845	De gedrukte resoluties van de 	79507	0.494	0.5	19	0.497
+3805	De gedrukte resoluties van de 	101681	0.497	0.497	1	0.497
+3828	De gedrukte resoluties van de 	90771	0.496	0.5	0	0.498
+3848	De gedrukte resoluties van de 	88349	0.498	0.498	6	0.498
+3838	De gedrukte resoluties van de 	62999	0.497	0.499	1	0.498
+3834	De gedrukte resoluties van de 	120164	0.497	0.498	16	0.498
+3774	De gedrukte resoluties van de 	112183	0.498	0.499	4	0.498
+3772	De gedrukte resoluties van de 	126256	0.498	0.499	1	0.498
+3804	De gedrukte resoluties van de 	98463	0.498	0.499	1	0.498
+3816	De gedrukte resoluties van de 	97412	0.498	0.5	3	0.499
+3864	De gedrukte resoluties van de 	60516	0.497	0.501	130	0.499
+3853	De gedrukte resoluties van de 	102953	0.499	0.499	37	0.499
+3821	De gedrukte resoluties van de 	80534	0.498	0.5	1	0.499
+3822	De gedrukte resoluties van de 	86205	0.499	0.499	0	0.499
+3811	De gedrukte resoluties van de 	88663	0.498	0.5	3	0.499
+3841	De gedrukte resoluties van de 	71421	0.496	0.501	25	0.499
+3844	De gedrukte resoluties van de 	83034	0.499	0.502	11	0.5
+3795	De gedrukte resoluties van de 	93451	0.499	0.501	11	0.5
+3796	De gedrukte resoluties van de 	104165	0.499	0.501	5	0.5
+3784	De gedrukte resoluties van de 	93833	0.499	0.5	5	0.5
+3849	De gedrukte resoluties van de 	73989	0.499	0.5	12	0.5
+3773	De gedrukte resoluties van de 	129200	0.499	0.501	1	0.5
+3826	De gedrukte resoluties van de 	99740	0.499	0.501	0	0.5
+3769	De gedrukte resoluties van de 	144128	0.499	0.501	19	0.5
+3794	De gedrukte resoluties van de 	84780	0.498	0.501	1	0.5
+3862	De gedrukte resoluties van de 	118932	0.499	0.504	1	0.501
+3823	De gedrukte resoluties van de 	81265	0.5	0.501	3	0.501

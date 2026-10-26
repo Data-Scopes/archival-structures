@@ -44,6 +44,9 @@ release-github:
 release-dry-run:
 	@$(RELEASE) release --dry-run --skip-tests
 
+update_install:
+	.venv/bin/python -m pip install -e . --no-deps && chmod -R g+w .venv
+
 test:
 	$(PYTHON) -m pytest -q -p no:cacheprovider
 

@@ -1,0 +1,9 @@
+inv	n_scans	n_lines	cand_before	split_hyphen	split_bigram	cand_after	cand_before_per_1k_lines	split_per_1k_lines	column_share	layout_merges	merges_per_scan	units	units_per_page	print_share	page_number	other	units_page_number	units_other	crosswalk
+3771	579	136653	218	3	215	0	1.6	1.6	1.0	96	0.166	26339	45.49	1.0	1208	574	1206	563	{"near": 62, "split_half": 5, "split_original": 2, "unmatched": 9388}
+3772	595	141493	1	0	1	0	0.01	0.01	1.0	102	0.171	26144	43.94	1.0	1168	562	1167	531	{"near": 57, "unmatched": 8887}
+3773	608	145220	1	0	1	0	0.01	0.01	1.0	93	0.153	27004	44.41	1.0	1167	539	1167	521	{"near": 59, "unmatched": 8468}
+3821	440	116596	1	0	1	0	0.01	0.01	1.0	95	0.216	30416	69.13	1.0	769	417	768	406	{"near": 7, "unmatched": 4644}
+3822	463	121882	0	0	0	0	0.0	0.0	1.0	121	0.261	30386	65.63	1.0	819	496	818	480	{"near": 7, "unmatched": 4605}
+3823	442	118410	3	0	3	0	0.03	0.03	1.0	169	0.382	30998	70.13	1.0	791	556	789	541	{"near": 5, "unmatched": 4554}
+455	721	173398	11515	2401	9103	11	66.41	66.34	0.9917	1779	2.467	27956	38.77	1.0	1310	708	1234	666	{"exact": 27033, "near": 1864, "split_half": 55, "split_original": 189, "unmatched": 7}
+456	730	174421	64299	12704	51561	37	368.64	368.45	1.0	107	0.147	24514	33.58	1.0	1421	472	1412	455	{"exact": 20192, "near": 13, "split_half": 13848, "split_original": 512, "unmatched": 23}

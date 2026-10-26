@@ -305,3 +305,35 @@ Republic Phase 3.1 (UA-049 (a)). The files are under
   - A paragraph whose pages are out of order: `session-3196-num-141-para-33` starts on scan
     `NL-HaNA_1.01.02_3196_0248`, then runs through 0243–0247. After the resumption the text reads
     like index entries.
+
+## 11. Record-boundary flags from proposition/decision segmentation (2026-10-25)
+
+Republic Phase 3.2 (UA-067 part 2 (b)). Republic splits each resolution record of the 2026-03
+DuckDB export into proposition, formula and decision spans, and flags records whose boundaries
+look wrong upstream; it never repairs them. Full hand-over, with definitions, read examples and
+scan IDs: `/Users/Shared/claude_projects/data_scopes/republic/output/phase-03-2/upstream_handover.md`
+(written for republic-segmentation, which now does the repair). Write-up:
+`republic/report/19-p3.2-segmentation.md`.
+
+- **Flags:** `output/phase-03-2/step04/upstream_flags.parquet` (78,118 rows over 73,020 of
+  726,594 records; counts per period in `upstream_flag_counts.csv`). 17 of 18 flagged records
+  read are right.
+  - `candidate_merge` (49,033): 2 or more items (formula plus decision) in one record. 15–16% of
+    records in 1629–50, 7–11% for 1652–1702, 3–4% in print.
+  - `starts_with_decision` (27,611): the record opens with a formula; its proposition is in
+    another record or absent. 5–9% for 1581–1702, under 0.5% in print.
+  - `day_log` (1,234): before 1638, 3 or more items in one record (a day's log).
+  - `mask_overreach` (240): real items inside text that republic excluded as a resumption or
+    header, a sign of merges with header or attendance text.
+- **What the flags miss:** glued pre-1638 records without a recognised formula (about 22% of a
+  60-record read), and second resolutions with no formula.
+- **The user's notes from the scans** (three label checks, `step03/`, `step03c/` and
+  `step04b/user_check_notes.md`): records holding 2 to 6 resolutions (for example
+  `session-3285-num-164-resolution-2`, six, scans `NL-HaNA_1.01.02_3285_1001`–`1002`); the
+  marginalia of a whole day attached to one record (`session-3181-num-20-resolution-4`, scans
+  3181_0061–0062); a record missing its decision (`session-4830-num-206-resolution-4`, scan
+  4830_0358). Before 1638 there are **decisionless resolutions** ("ter kennisgeving"), which are
+  separate resolutions, not fragments. The user marked multi-resolution records systematically
+  only for the first ~35 items of one page, so the notes undercount.
+- **For §4's start cues:** a record may open with "In deliberatie geleijt sijnde" or "By resumtie
+  gedelibereert zynde op …" (about 1.5% of resolutions from 1740); both open a resolution.

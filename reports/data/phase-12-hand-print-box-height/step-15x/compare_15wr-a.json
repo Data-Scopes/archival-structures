@@ -1,0 +1,807 @@
+{
+ "1.01.02:1.01.02": {
+  "equal": 3200,
+  "differ": {
+   "units/params.json": "bytes",
+   "units/stats.json": "bytes",
+   "wbc/corpus_default.json": "bytes",
+   "wbc/corpus_default_default.json": "bytes",
+   "wbc/corpus_default_robust.json": "bytes",
+   "wbc/wbc_stats.tsv": {
+    "rows": [
+     1768,
+     1768
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "n_end_attached_with_next": 482,
+     "n_cont_lower": 448,
+     "cont_lower_frac": 465,
+     "n_join_vocab": 267,
+     "join_vocab_frac": 412,
+     "n_both_ends": 8,
+     "n_both_ends_any": 63,
+     "n_start_only": 62,
+     "n_digit_both_sides": 64
+    }
+   }
+  },
+  "missing": [],
+  "ignored": 0,
+  "explained": {
+   "12087": [
+    "join/segments/12087.tsv.gz",
+    "join/stats/12087.json",
+    "join/units/12087.tsv.gz",
+    "units/doc_id_map/12087.tsv.gz",
+    "units/segments/12087.tsv.gz",
+    "units/units/12087.tsv.gz",
+    "wbc/parts/12087.tsv"
+   ],
+   "12088": [
+    "join/segments/12088.tsv.gz",
+    "join/stats/12088.json",
+    "join/units/12088.tsv.gz",
+    "units/doc_id_map/12088.tsv.gz",
+    "units/segments/12088.tsv.gz",
+    "units/units/12088.tsv.gz",
+    "wbc/parts/12088.tsv"
+   ],
+   "12090": [
+    "join/segments/12090.tsv.gz",
+    "join/stats/12090.json",
+    "join/units/12090.tsv.gz",
+    "units/doc_id_map/12090.tsv.gz",
+    "units/segments/12090.tsv.gz",
+    "units/units/12090.tsv.gz",
+    "wbc/parts/12090.tsv"
+   ],
+   "12092": [
+    "join/segments/12092.tsv.gz",
+    "join/stats/12092.json",
+    "join/units/12092.tsv.gz",
+    "units/doc_id_map/12092.tsv.gz",
+    "units/segments/12092.tsv.gz",
+    "units/units/12092.tsv.gz",
+    "wbc/parts/12092.tsv"
+   ],
+   "12093": [
+    "join/segments/12093.tsv.gz",
+    "join/stats/12093.json",
+    "join/units/12093.tsv.gz",
+    "units/doc_id_map/12093.tsv.gz",
+    "units/segments/12093.tsv.gz",
+    "units/units/12093.tsv.gz",
+    "wbc/parts/12093.tsv"
+   ],
+   "12100": [
+    "join/segments/12100.tsv.gz",
+    "join/stats/12100.json",
+    "join/units/12100.tsv.gz",
+    "units/doc_id_map/12100.tsv.gz",
+    "units/segments/12100.tsv.gz",
+    "units/units/12100.tsv.gz",
+    "wbc/parts/12100.tsv"
+   ],
+   "12101": [
+    "join/segments/12101.tsv.gz",
+    "join/stats/12101.json",
+    "join/units/12101.tsv.gz",
+    "units/doc_id_map/12101.tsv.gz",
+    "units/segments/12101.tsv.gz",
+    "units/units/12101.tsv.gz",
+    "wbc/parts/12101.tsv"
+   ],
+   "12102": [
+    "join/segments/12102.tsv.gz",
+    "join/stats/12102.json",
+    "join/units/12102.tsv.gz",
+    "units/doc_id_map/12102.tsv.gz",
+    "units/segments/12102.tsv.gz",
+    "units/units/12102.tsv.gz",
+    "wbc/parts/12102.tsv"
+   ],
+   "12103": [
+    "join/segments/12103.tsv.gz",
+    "join/stats/12103.json",
+    "join/units/12103.tsv.gz",
+    "units/doc_id_map/12103.tsv.gz",
+    "units/segments/12103.tsv.gz",
+    "units/units/12103.tsv.gz",
+    "wbc/parts/12103.tsv"
+   ],
+   "12105": [
+    "join/segments/12105.tsv.gz",
+    "join/stats/12105.json",
+    "join/units/12105.tsv.gz",
+    "units/doc_id_map/12105.tsv.gz",
+    "units/segments/12105.tsv.gz",
+    "units/units/12105.tsv.gz",
+    "wbc/parts/12105.tsv"
+   ],
+   "12106": [
+    "join/segments/12106.tsv.gz",
+    "join/stats/12106.json",
+    "join/units/12106.tsv.gz",
+    "units/doc_id_map/12106.tsv.gz",
+    "units/segments/12106.tsv.gz",
+    "units/units/12106.tsv.gz",
+    "wbc/parts/12106.tsv"
+   ],
+   "12109": [
+    "join/segments/12109.tsv.gz",
+    "join/stats/12109.json",
+    "join/units/12109.tsv.gz",
+    "units/doc_id_map/12109.tsv.gz",
+    "units/segments/12109.tsv.gz",
+    "units/units/12109.tsv.gz",
+    "wbc/parts/12109.tsv"
+   ],
+   "12114": [
+    "join/segments/12114.tsv.gz",
+    "join/stats/12114.json",
+    "join/units/12114.tsv.gz",
+    "units/doc_id_map/12114.tsv.gz",
+    "units/segments/12114.tsv.gz",
+    "units/units/12114.tsv.gz",
+    "wbc/parts/12114.tsv"
+   ],
+   "12116": [
+    "join/segments/12116.tsv.gz",
+    "join/stats/12116.json",
+    "join/units/12116.tsv.gz",
+    "units/doc_id_map/12116.tsv.gz",
+    "units/segments/12116.tsv.gz",
+    "units/units/12116.tsv.gz",
+    "wbc/parts/12116.tsv"
+   ],
+   "12118": [
+    "join/segments/12118.tsv.gz",
+    "join/stats/12118.json",
+    "join/units/12118.tsv.gz",
+    "units/doc_id_map/12118.tsv.gz",
+    "units/segments/12118.tsv.gz",
+    "units/units/12118.tsv.gz",
+    "wbc/parts/12118.tsv"
+   ],
+   "12120": [
+    "join/segments/12120.tsv.gz",
+    "join/stats/12120.json",
+    "join/units/12120.tsv.gz",
+    "units/doc_id_map/12120.tsv.gz",
+    "units/segments/12120.tsv.gz",
+    "units/units/12120.tsv.gz",
+    "wbc/parts/12120.tsv"
+   ],
+   "12121": [
+    "join/segments/12121.tsv.gz",
+    "join/stats/12121.json",
+    "join/units/12121.tsv.gz",
+    "units/doc_id_map/12121.tsv.gz",
+    "units/segments/12121.tsv.gz",
+    "units/units/12121.tsv.gz",
+    "wbc/parts/12121.tsv"
+   ],
+   "12122": [
+    "join/segments/12122.tsv.gz",
+    "join/stats/12122.json",
+    "join/units/12122.tsv.gz",
+    "units/doc_id_map/12122.tsv.gz",
+    "units/segments/12122.tsv.gz",
+    "units/units/12122.tsv.gz",
+    "wbc/parts/12122.tsv"
+   ],
+   "12123": [
+    "join/segments/12123.tsv.gz",
+    "join/stats/12123.json",
+    "join/units/12123.tsv.gz",
+    "units/doc_id_map/12123.tsv.gz",
+    "units/segments/12123.tsv.gz",
+    "units/units/12123.tsv.gz",
+    "wbc/parts/12123.tsv"
+   ],
+   "12131": [
+    "join/segments/12131.tsv.gz",
+    "join/stats/12131.json",
+    "join/units/12131.tsv.gz",
+    "units/doc_id_map/12131.tsv.gz",
+    "units/segments/12131.tsv.gz",
+    "units/units/12131.tsv.gz",
+    "wbc/parts/12131.tsv"
+   ],
+   "12132": [
+    "join/segments/12132.tsv.gz",
+    "join/stats/12132.json",
+    "join/units/12132.tsv.gz",
+    "units/doc_id_map/12132.tsv.gz",
+    "units/segments/12132.tsv.gz",
+    "units/units/12132.tsv.gz",
+    "wbc/parts/12132.tsv"
+   ],
+   "12133": [
+    "join/segments/12133.tsv.gz",
+    "join/stats/12133.json",
+    "join/units/12133.tsv.gz",
+    "units/doc_id_map/12133.tsv.gz",
+    "units/segments/12133.tsv.gz",
+    "units/units/12133.tsv.gz",
+    "wbc/parts/12133.tsv"
+   ],
+   "12135": [
+    "join/segments/12135.tsv.gz",
+    "join/stats/12135.json",
+    "join/units/12135.tsv.gz",
+    "units/doc_id_map/12135.tsv.gz",
+    "units/segments/12135.tsv.gz",
+    "units/units/12135.tsv.gz",
+    "wbc/parts/12135.tsv"
+   ],
+   "12140": [
+    "join/segments/12140.tsv.gz",
+    "join/stats/12140.json",
+    "join/units/12140.tsv.gz",
+    "units/doc_id_map/12140.tsv.gz",
+    "units/segments/12140.tsv.gz",
+    "units/units/12140.tsv.gz",
+    "wbc/parts/12140.tsv"
+   ],
+   "12144": [
+    "join/segments/12144.tsv.gz",
+    "join/stats/12144.json",
+    "join/units/12144.tsv.gz",
+    "units/doc_id_map/12144.tsv.gz",
+    "units/segments/12144.tsv.gz",
+    "units/units/12144.tsv.gz",
+    "wbc/parts/12144.tsv"
+   ],
+   "12162": [
+    "join/segments/12162.tsv.gz",
+    "join/stats/12162.json",
+    "join/units/12162.tsv.gz",
+    "units/doc_id_map/12162.tsv.gz",
+    "units/segments/12162.tsv.gz",
+    "units/units/12162.tsv.gz",
+    "wbc/parts/12162.tsv"
+   ],
+   "12166": [
+    "join/segments/12166.tsv.gz",
+    "join/stats/12166.json",
+    "join/units/12166.tsv.gz",
+    "units/doc_id_map/12166.tsv.gz",
+    "units/segments/12166.tsv.gz",
+    "units/units/12166.tsv.gz",
+    "wbc/parts/12166.tsv"
+   ],
+   "12168": [
+    "join/segments/12168.tsv.gz",
+    "join/stats/12168.json",
+    "join/units/12168.tsv.gz",
+    "units/doc_id_map/12168.tsv.gz",
+    "units/segments/12168.tsv.gz",
+    "units/units/12168.tsv.gz",
+    "wbc/parts/12168.tsv"
+   ],
+   "12169": [
+    "join/segments/12169.tsv.gz",
+    "join/stats/12169.json",
+    "join/units/12169.tsv.gz",
+    "units/doc_id_map/12169.tsv.gz",
+    "units/segments/12169.tsv.gz",
+    "units/units/12169.tsv.gz",
+    "wbc/parts/12169.tsv"
+   ],
+   "12170": [
+    "join/segments/12170.tsv.gz",
+    "join/stats/12170.json",
+    "join/units/12170.tsv.gz",
+    "units/doc_id_map/12170.tsv.gz",
+    "units/segments/12170.tsv.gz",
+    "units/units/12170.tsv.gz",
+    "wbc/parts/12170.tsv"
+   ],
+   "12174": [
+    "join/segments/12174.tsv.gz",
+    "join/stats/12174.json",
+    "join/units/12174.tsv.gz",
+    "units/doc_id_map/12174.tsv.gz",
+    "units/segments/12174.tsv.gz",
+    "units/units/12174.tsv.gz",
+    "wbc/parts/12174.tsv"
+   ],
+   "12176": [
+    "join/segments/12176.tsv.gz",
+    "join/stats/12176.json",
+    "join/units/12176.tsv.gz",
+    "units/doc_id_map/12176.tsv.gz",
+    "units/segments/12176.tsv.gz",
+    "units/units/12176.tsv.gz",
+    "wbc/parts/12176.tsv"
+   ],
+   "12179": [
+    "join/segments/12179.tsv.gz",
+    "join/stats/12179.json",
+    "join/units/12179.tsv.gz",
+    "units/doc_id_map/12179.tsv.gz",
+    "units/segments/12179.tsv.gz",
+    "units/units/12179.tsv.gz",
+    "wbc/parts/12179.tsv"
+   ],
+   "12180": [
+    "join/segments/12180.tsv.gz",
+    "join/stats/12180.json",
+    "join/units/12180.tsv.gz",
+    "units/doc_id_map/12180.tsv.gz",
+    "units/segments/12180.tsv.gz",
+    "units/units/12180.tsv.gz",
+    "wbc/parts/12180.tsv"
+   ],
+   "12182": [
+    "join/segments/12182.tsv.gz",
+    "join/stats/12182.json",
+    "join/units/12182.tsv.gz",
+    "units/doc_id_map/12182.tsv.gz",
+    "units/segments/12182.tsv.gz",
+    "units/units/12182.tsv.gz",
+    "wbc/parts/12182.tsv"
+   ],
+   "12184": [
+    "join/segments/12184.tsv.gz",
+    "join/stats/12184.json",
+    "join/units/12184.tsv.gz",
+    "units/doc_id_map/12184.tsv.gz",
+    "units/segments/12184.tsv.gz",
+    "units/units/12184.tsv.gz",
+    "wbc/parts/12184.tsv"
+   ],
+   "12187": [
+    "join/segments/12187.tsv.gz",
+    "join/stats/12187.json",
+    "join/units/12187.tsv.gz",
+    "units/doc_id_map/12187.tsv.gz",
+    "units/segments/12187.tsv.gz",
+    "units/units/12187.tsv.gz",
+    "wbc/parts/12187.tsv"
+   ],
+   "12193": [
+    "join/segments/12193.tsv.gz",
+    "join/stats/12193.json",
+    "join/units/12193.tsv.gz",
+    "units/doc_id_map/12193.tsv.gz",
+    "units/segments/12193.tsv.gz",
+    "units/units/12193.tsv.gz",
+    "wbc/parts/12193.tsv"
+   ],
+   "12194": [
+    "join/segments/12194.tsv.gz",
+    "join/stats/12194.json",
+    "join/units/12194.tsv.gz",
+    "units/doc_id_map/12194.tsv.gz",
+    "units/segments/12194.tsv.gz",
+    "units/units/12194.tsv.gz",
+    "wbc/parts/12194.tsv"
+   ],
+   "12196": [
+    "join/segments/12196.tsv.gz",
+    "join/stats/12196.json",
+    "join/units/12196.tsv.gz",
+    "units/doc_id_map/12196.tsv.gz",
+    "units/segments/12196.tsv.gz",
+    "units/units/12196.tsv.gz",
+    "wbc/parts/12196.tsv"
+   ],
+   "12197": [
+    "join/segments/12197.tsv.gz",
+    "join/stats/12197.json",
+    "join/units/12197.tsv.gz",
+    "units/doc_id_map/12197.tsv.gz",
+    "units/segments/12197.tsv.gz",
+    "units/units/12197.tsv.gz",
+    "wbc/parts/12197.tsv"
+   ],
+   "12203": [
+    "join/segments/12203.tsv.gz",
+    "join/stats/12203.json",
+    "join/units/12203.tsv.gz",
+    "units/doc_id_map/12203.tsv.gz",
+    "units/segments/12203.tsv.gz",
+    "units/units/12203.tsv.gz",
+    "wbc/parts/12203.tsv"
+   ],
+   "12205": [
+    "join/segments/12205.tsv.gz",
+    "join/stats/12205.json",
+    "join/units/12205.tsv.gz",
+    "units/doc_id_map/12205.tsv.gz",
+    "units/segments/12205.tsv.gz",
+    "units/units/12205.tsv.gz",
+    "wbc/parts/12205.tsv"
+   ],
+   "12206": [
+    "join/segments/12206.tsv.gz",
+    "join/stats/12206.json",
+    "join/units/12206.tsv.gz",
+    "units/doc_id_map/12206.tsv.gz",
+    "units/segments/12206.tsv.gz",
+    "units/units/12206.tsv.gz",
+    "wbc/parts/12206.tsv"
+   ],
+   "12207": [
+    "join/segments/12207.tsv.gz",
+    "join/stats/12207.json",
+    "join/units/12207.tsv.gz",
+    "units/doc_id_map/12207.tsv.gz",
+    "units/segments/12207.tsv.gz",
+    "units/units/12207.tsv.gz",
+    "wbc/parts/12207.tsv"
+   ],
+   "12220": [
+    "join/segments/12220.tsv.gz",
+    "join/stats/12220.json",
+    "join/units/12220.tsv.gz",
+    "units/doc_id_map/12220.tsv.gz",
+    "units/segments/12220.tsv.gz",
+    "units/units/12220.tsv.gz",
+    "wbc/parts/12220.tsv"
+   ],
+   "12225": [
+    "join/segments/12225.tsv.gz",
+    "join/stats/12225.json",
+    "join/units/12225.tsv.gz",
+    "units/doc_id_map/12225.tsv.gz",
+    "units/segments/12225.tsv.gz",
+    "units/units/12225.tsv.gz",
+    "wbc/parts/12225.tsv"
+   ],
+   "12226": [
+    "join/segments/12226.tsv.gz",
+    "join/stats/12226.json",
+    "join/units/12226.tsv.gz",
+    "units/doc_id_map/12226.tsv.gz",
+    "units/segments/12226.tsv.gz",
+    "units/units/12226.tsv.gz",
+    "wbc/parts/12226.tsv"
+   ],
+   "12228": [
+    "join/segments/12228.tsv.gz",
+    "join/stats/12228.json",
+    "join/units/12228.tsv.gz",
+    "units/doc_id_map/12228.tsv.gz",
+    "units/segments/12228.tsv.gz",
+    "units/units/12228.tsv.gz",
+    "wbc/parts/12228.tsv"
+   ],
+   "12230": [
+    "join/segments/12230.tsv.gz",
+    "join/stats/12230.json",
+    "join/units/12230.tsv.gz",
+    "units/doc_id_map/12230.tsv.gz",
+    "units/segments/12230.tsv.gz",
+    "units/units/12230.tsv.gz",
+    "wbc/parts/12230.tsv"
+   ],
+   "12232": [
+    "join/segments/12232.tsv.gz",
+    "join/stats/12232.json",
+    "join/units/12232.tsv.gz",
+    "units/doc_id_map/12232.tsv.gz",
+    "units/segments/12232.tsv.gz",
+    "units/units/12232.tsv.gz",
+    "wbc/parts/12232.tsv"
+   ],
+   "12235": [
+    "join/segments/12235.tsv.gz",
+    "join/stats/12235.json",
+    "join/units/12235.tsv.gz",
+    "units/doc_id_map/12235.tsv.gz",
+    "units/segments/12235.tsv.gz",
+    "units/units/12235.tsv.gz",
+    "wbc/parts/12235.tsv"
+   ],
+   "3463": [
+    "join/segments/3463.tsv.gz",
+    "join/stats/3463.json",
+    "join/units/3463.tsv.gz",
+    "units/doc_id_map/3463.tsv.gz",
+    "units/segments/3463.tsv.gz",
+    "units/units/3463.tsv.gz",
+    "wbc/parts/3463.tsv"
+   ],
+   "3769": [
+    "join/segments/3769.tsv.gz",
+    "join/stats/3769.json",
+    "join/units/3769.tsv.gz",
+    "units/doc_id_map/3769.tsv.gz",
+    "units/segments/3769.tsv.gz",
+    "units/units/3769.tsv.gz",
+    "wbc/parts/3769.tsv"
+   ],
+   "3771": [
+    "join/segments/3771.tsv.gz",
+    "join/stats/3771.json",
+    "join/units/3771.tsv.gz",
+    "units/doc_id_map/3771.tsv.gz",
+    "units/segments/3771.tsv.gz",
+    "units/units/3771.tsv.gz",
+    "wbc/parts/3771.tsv"
+   ],
+   "3772": [
+    "join/segments/3772.tsv.gz",
+    "join/stats/3772.json",
+    "join/units/3772.tsv.gz",
+    "units/doc_id_map/3772.tsv.gz",
+    "units/segments/3772.tsv.gz",
+    "units/units/3772.tsv.gz",
+    "wbc/parts/3772.tsv"
+   ],
+   "3773": [
+    "join/segments/3773.tsv.gz",
+    "join/stats/3773.json",
+    "join/units/3773.tsv.gz",
+    "units/doc_id_map/3773.tsv.gz",
+    "units/segments/3773.tsv.gz",
+    "units/units/3773.tsv.gz",
+    "wbc/parts/3773.tsv"
+   ],
+   "3774": [
+    "join/segments/3774.tsv.gz",
+    "join/stats/3774.json",
+    "join/units/3774.tsv.gz",
+    "units/doc_id_map/3774.tsv.gz",
+    "units/segments/3774.tsv.gz",
+    "units/units/3774.tsv.gz",
+    "wbc/parts/3774.tsv"
+   ],
+   "3784": [
+    "join/segments/3784.tsv.gz",
+    "join/stats/3784.json",
+    "join/units/3784.tsv.gz",
+    "units/doc_id_map/3784.tsv.gz",
+    "units/segments/3784.tsv.gz",
+    "units/units/3784.tsv.gz",
+    "wbc/parts/3784.tsv"
+   ],
+   "3794": [
+    "join/segments/3794.tsv.gz",
+    "join/stats/3794.json",
+    "join/units/3794.tsv.gz",
+    "units/doc_id_map/3794.tsv.gz",
+    "units/segments/3794.tsv.gz",
+    "units/units/3794.tsv.gz",
+    "wbc/parts/3794.tsv"
+   ],
+   "3795": [
+    "join/segments/3795.tsv.gz",
+    "join/stats/3795.json",
+    "join/units/3795.tsv.gz",
+    "units/doc_id_map/3795.tsv.gz",
+    "units/segments/3795.tsv.gz",
+    "units/units/3795.tsv.gz",
+    "wbc/parts/3795.tsv"
+   ],
+   "3796": [
+    "join/segments/3796.tsv.gz",
+    "join/stats/3796.json",
+    "join/units/3796.tsv.gz",
+    "units/doc_id_map/3796.tsv.gz",
+    "units/segments/3796.tsv.gz",
+    "units/units/3796.tsv.gz",
+    "wbc/parts/3796.tsv"
+   ],
+   "3804": [
+    "join/segments/3804.tsv.gz",
+    "join/stats/3804.json",
+    "join/units/3804.tsv.gz",
+    "units/doc_id_map/3804.tsv.gz",
+    "units/segments/3804.tsv.gz",
+    "units/units/3804.tsv.gz",
+    "wbc/parts/3804.tsv"
+   ],
+   "3805": [
+    "join/segments/3805.tsv.gz",
+    "join/stats/3805.json",
+    "join/units/3805.tsv.gz",
+    "units/doc_id_map/3805.tsv.gz",
+    "units/segments/3805.tsv.gz",
+    "units/units/3805.tsv.gz",
+    "wbc/parts/3805.tsv"
+   ],
+   "3811": [
+    "join/segments/3811.tsv.gz",
+    "join/stats/3811.json",
+    "join/units/3811.tsv.gz",
+    "units/doc_id_map/3811.tsv.gz",
+    "units/segments/3811.tsv.gz",
+    "units/units/3811.tsv.gz",
+    "wbc/parts/3811.tsv"
+   ],
+   "3816": [
+    "join/segments/3816.tsv.gz",
+    "join/stats/3816.json",
+    "join/units/3816.tsv.gz",
+    "units/doc_id_map/3816.tsv.gz",
+    "units/segments/3816.tsv.gz",
+    "units/units/3816.tsv.gz",
+    "wbc/parts/3816.tsv"
+   ],
+   "3821": [
+    "join/segments/3821.tsv.gz",
+    "join/stats/3821.json",
+    "join/units/3821.tsv.gz",
+    "units/doc_id_map/3821.tsv.gz",
+    "units/segments/3821.tsv.gz",
+    "units/units/3821.tsv.gz",
+    "wbc/parts/3821.tsv"
+   ],
+   "3822": [
+    "join/segments/3822.tsv.gz",
+    "join/stats/3822.json",
+    "join/units/3822.tsv.gz",
+    "units/doc_id_map/3822.tsv.gz",
+    "units/segments/3822.tsv.gz",
+    "units/units/3822.tsv.gz",
+    "wbc/parts/3822.tsv"
+   ],
+   "3823": [
+    "join/segments/3823.tsv.gz",
+    "join/stats/3823.json",
+    "join/units/3823.tsv.gz",
+    "units/doc_id_map/3823.tsv.gz",
+    "units/segments/3823.tsv.gz",
+    "units/units/3823.tsv.gz",
+    "wbc/parts/3823.tsv"
+   ],
+   "3826": [
+    "join/segments/3826.tsv.gz",
+    "join/stats/3826.json",
+    "join/units/3826.tsv.gz",
+    "units/doc_id_map/3826.tsv.gz",
+    "units/segments/3826.tsv.gz",
+    "units/units/3826.tsv.gz",
+    "wbc/parts/3826.tsv"
+   ],
+   "3828": [
+    "join/segments/3828.tsv.gz",
+    "join/stats/3828.json",
+    "join/units/3828.tsv.gz",
+    "units/doc_id_map/3828.tsv.gz",
+    "units/segments/3828.tsv.gz",
+    "units/units/3828.tsv.gz",
+    "wbc/parts/3828.tsv"
+   ],
+   "3834": [
+    "join/segments/3834.tsv.gz",
+    "join/stats/3834.json",
+    "join/units/3834.tsv.gz",
+    "units/doc_id_map/3834.tsv.gz",
+    "units/segments/3834.tsv.gz",
+    "units/units/3834.tsv.gz",
+    "wbc/parts/3834.tsv"
+   ],
+   "3838": [
+    "join/segments/3838.tsv.gz",
+    "join/stats/3838.json",
+    "join/units/3838.tsv.gz",
+    "units/doc_id_map/3838.tsv.gz",
+    "units/segments/3838.tsv.gz",
+    "units/units/3838.tsv.gz",
+    "wbc/parts/3838.tsv"
+   ],
+   "3841": [
+    "join/segments/3841.tsv.gz",
+    "join/stats/3841.json",
+    "join/units/3841.tsv.gz",
+    "units/doc_id_map/3841.tsv.gz",
+    "units/segments/3841.tsv.gz",
+    "units/units/3841.tsv.gz",
+    "wbc/parts/3841.tsv"
+   ],
+   "3844": [
+    "join/segments/3844.tsv.gz",
+    "join/stats/3844.json",
+    "join/units/3844.tsv.gz",
+    "units/doc_id_map/3844.tsv.gz",
+    "units/segments/3844.tsv.gz",
+    "units/units/3844.tsv.gz",
+    "wbc/parts/3844.tsv"
+   ],
+   "3845": [
+    "join/segments/3845.tsv.gz",
+    "join/stats/3845.json",
+    "join/units/3845.tsv.gz",
+    "units/doc_id_map/3845.tsv.gz",
+    "units/segments/3845.tsv.gz",
+    "units/units/3845.tsv.gz",
+    "wbc/parts/3845.tsv"
+   ],
+   "3847": [
+    "join/segments/3847.tsv.gz",
+    "join/stats/3847.json",
+    "join/units/3847.tsv.gz",
+    "units/doc_id_map/3847.tsv.gz",
+    "units/segments/3847.tsv.gz",
+    "units/units/3847.tsv.gz",
+    "wbc/parts/3847.tsv"
+   ],
+   "3848": [
+    "join/segments/3848.tsv.gz",
+    "join/stats/3848.json",
+    "join/units/3848.tsv.gz",
+    "units/doc_id_map/3848.tsv.gz",
+    "units/segments/3848.tsv.gz",
+    "units/units/3848.tsv.gz",
+    "wbc/parts/3848.tsv"
+   ],
+   "3849": [
+    "join/segments/3849.tsv.gz",
+    "join/stats/3849.json",
+    "join/units/3849.tsv.gz",
+    "units/doc_id_map/3849.tsv.gz",
+    "units/segments/3849.tsv.gz",
+    "units/units/3849.tsv.gz",
+    "wbc/parts/3849.tsv"
+   ],
+   "3851": [
+    "join/segments/3851.tsv.gz",
+    "join/stats/3851.json",
+    "join/units/3851.tsv.gz",
+    "units/doc_id_map/3851.tsv.gz",
+    "units/segments/3851.tsv.gz",
+    "units/units/3851.tsv.gz",
+    "wbc/parts/3851.tsv"
+   ],
+   "3853": [
+    "join/segments/3853.tsv.gz",
+    "join/stats/3853.json",
+    "join/units/3853.tsv.gz",
+    "units/doc_id_map/3853.tsv.gz",
+    "units/segments/3853.tsv.gz",
+    "units/units/3853.tsv.gz",
+    "wbc/parts/3853.tsv"
+   ],
+   "3857": [
+    "join/segments/3857.tsv.gz",
+    "join/stats/3857.json",
+    "join/units/3857.tsv.gz",
+    "units/doc_id_map/3857.tsv.gz",
+    "units/segments/3857.tsv.gz",
+    "units/units/3857.tsv.gz",
+    "wbc/parts/3857.tsv"
+   ],
+   "3862": [
+    "join/segments/3862.tsv.gz",
+    "join/stats/3862.json",
+    "join/units/3862.tsv.gz",
+    "units/doc_id_map/3862.tsv.gz",
+    "units/segments/3862.tsv.gz",
+    "units/units/3862.tsv.gz",
+    "wbc/parts/3862.tsv"
+   ],
+   "3864": [
+    "join/segments/3864.tsv.gz",
+    "join/stats/3864.json",
+    "join/units/3864.tsv.gz",
+    "units/doc_id_map/3864.tsv.gz",
+    "units/segments/3864.tsv.gz",
+    "units/units/3864.tsv.gz",
+    "wbc/parts/3864.tsv"
+   ],
+   "9486": [
+    "join/segments/9486.tsv.gz",
+    "join/stats/9486.json",
+    "join/units/9486.tsv.gz",
+    "units/doc_id_map/9486.tsv.gz",
+    "units/segments/9486.tsv.gz",
+    "units/units/9486.tsv.gz",
+    "wbc/parts/9486.tsv"
+   ]
+  }
+ },
+ "1.10.94:1.10.94": {
+  "equal": 57,
+  "differ": {},
+  "missing": [],
+  "ignored": 0,
+  "explained": {}
+ }
+}

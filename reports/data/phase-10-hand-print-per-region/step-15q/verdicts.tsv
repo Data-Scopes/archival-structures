@@ -1,0 +1,15 @@
+inv	set	silver_or_15p	mode	verdict	note
+3590	sample	hand	print	handwritten	neat tight 18th-c. hand, HTR junk and break marks; scan median hrel 1.17 (hand-like text, print-like geometry)
+3630	sample	hand	print	handwritten	same (median 1.28)
+3572	sample	hand	print	handwritten	same (median 1.40)
+3525	sample	hand	print	handwritten	cursive 17th-c., OCR junk; 84 labelled scans, 50 unlabelled; median 1.41
+3303	sample	hand	print	handwritten	17th-c. resolutions; values 1.35-1.9, median 1.529 = on the cut (share 0.513)
+3459	sample	hand	print	handwritten	18th-c. resolutions; median 1.506 (share 0.683)
+12109	sample	print	hand	unclear	diplomatic dispatches ("Hoog Mogende Heeren ..."), HTR-like noise; hrel 1.3-2.3, median 1.56; silver says print
+12120	sample	print	hand	unclear	same series (median 1.54)
+12131	sample	print	hand	unclear	same series (median 1.54)
+12135	sample	print	hand	unclear	same series (median 1.59)
+455	transfer	print	hand	printed	wide-leading print, 55-75 lines; median 1.72
+456	transfer	print	hand	printed	median 1.80
+12197	sample	print	print	printed	plakkaten/news; broad histogram, median 1.50 (share 0.552)
+12162	sample	print	print	unclear	16th/17th-c. Dutch texts, partly with HTR-like noise; median 1.49 (share 0.566)

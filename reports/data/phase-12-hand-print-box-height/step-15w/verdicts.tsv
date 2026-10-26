@@ -1,0 +1,88 @@
+group	inv	n_read	verdicts	note
+near_cut	12087	2	printed:2	printed, mode print correct
+near_cut	12088	5	printed:5	printed, mode print correct
+near_cut	12090	2	printed:2	printed, mode print correct
+near_cut	12092	2	printed:2	printed, mode print correct
+near_cut	12093	2	printed:2	printed, mode print correct
+near_cut	12100	2	printed:2	printed, mode print correct
+near_cut	12101	2	printed:2	printed, mode print correct
+near_cut	12102	2	printed:2	printed, mode print correct
+near_cut	12103	2	printed:2	printed, mode print correct
+near_cut	12105	5	printed:5	printed, mode print correct
+near_cut	12106	5	printed:5	printed, mode print correct
+near_cut	12109	2	printed:2	printed, mode print correct
+near_cut	12114	2	printed:2	printed, mode print correct
+near_cut	12116	2	printed:2	printed, mode print correct
+near_cut	12118	5	printed:5	printed, mode print correct
+near_cut	12120	2	printed:2	printed, mode print correct
+near_cut	12121	2	printed:2	printed, mode print correct
+near_cut	12122	2	printed:2	printed, mode print correct
+near_cut	12123	2	printed:2	printed, mode print correct
+near_cut	12131	2	printed:2	printed, mode print correct
+near_cut	12132	5	printed:5	printed, mode print correct
+near_cut	12133	2	printed:2	printed, mode print correct
+near_cut	12135	2	printed:2	printed, mode print correct
+near_cut	12140	2	printed:2	printed, mode print correct
+near_cut	12144	2	printed:2	printed, mode print correct
+near_cut	12166	2	printed:2	printed, mode print correct
+near_cut	12168	5	printed:5	printed, mode print correct
+near_cut	12169	2	printed:2	printed, mode print correct
+near_cut	12170	2	printed:2	printed, mode print correct
+near_cut	12174	2	printed:2	printed, mode print correct
+near_cut	12184	2	printed:2	printed, mode print correct
+near_cut	12193	5	printed:5	printed, mode print correct
+near_cut	12194	2	printed:2	printed, mode print correct
+near_cut	12196	2	printed:2	printed, mode print correct
+near_cut	12197	2	printed:2	printed, mode print correct
+near_cut	12203	2	printed:2	printed, mode print correct
+near_cut	12205	2	printed:2	printed, mode print correct
+near_cut	12206	2	printed:2	printed, mode print correct
+near_cut	12207	5	printed:5	printed, mode print correct
+near_cut	12220	2	printed:2	printed, mode print correct
+near_cut	12225	2	printed:1;ocr_junk:1	scan 0016 OCR junk (322 chars)
+near_cut	12226	5	printed:5	printed, mode print correct
+near_cut	12228	2	printed:2	printed, mode print correct
+near_cut	12230	5	printed:5	printed, mode print correct
+near_cut	12235	2	printed:2	printed, mode print correct
+near_cut	3463	5	handwritten:5	handwritten register of resolutions (index-like, 'miss:', 'Reg:'); mode print is WRONG (F12-R.2 error)
+near_cut	3478	5	handwritten:5	handwritten register, mode hand correct; value 88.0 is 0.25 px above the cut
+near_cut	3492	5	handwritten:5	handwritten register, mode hand correct
+near_cut	4617	5	handwritten:5	handwritten, mode hand correct
+near_cut	9486	5	printed:5	printed Processtukken (page numbers '( 83 )'), mode print correct
+near_cut	456	2	printed:2	printed, mode print correct
+minority	12168	5	printed:3;ocr_junk:1;unclear:1	unclear: 0014 register-style titles, h 147-160
+minority	3463	5	handwritten:5	minority scans are the smaller-hand pages of a handwritten volume
+minority	12135	5	printed:5	larger type or another print run, same volume
+minority	12118	5	printed:5	larger type or another print run, same volume
+minority	12169	5	printed:4;unclear:1	unclear: 0010 register-style titles, h 106-117
+minority	3478	5	handwritten:5	smaller-hand pages of a handwritten volume
+minority	12109	5	printed:5	larger type or another print run, same volume
+minority	12088	5	printed:5	larger type or another print run, same volume
+minority	12120	5	printed:5	larger type or another print run, same volume
+minority	456	5	printed:5	larger type or another print run, same volume
+minority	12193	5	printed:4;unclear:1	unclear: 0006 register-style titles, h 100-114
+minority	12131	5	printed:5	larger type or another print run, same volume
+minority	3492	5	handwritten:5	smaller-hand pages of a handwritten volume
+minority	12194	5	printed:2;unclear:3	unclear: 0021, 0023, 0006 register-style titles ('Placaat ...', 'Publicatie ...'), h 118-140: probably a handwritten table of contents
+minority	12197	5	printed:5	larger type or another print run, same volume
+minority	12132	5	printed:5	larger type or another print run, same volume
+minority	12121	5	printed:5	larger type or another print run, same volume
+minority	12170	5	printed:5	larger type or another print run, same volume
+minority	12228	5	printed:5	larger type or another print run, same volume
+minority	12116	5	printed:5	larger type or another print run, same volume
+minority	12106	5	printed:5	larger type or another print run, same volume
+minority	12184	5	printed:5	larger type or another print run, same volume
+minority	12100	5	printed:5	larger type or another print run, same volume
+minority	12230	5	printed:5	larger type or another print run, same volume
+minority	12102	5	printed:5	larger type or another print run, same volume
+minority	12105	5	printed:5	larger type or another print run, same volume
+minority	12114	5	printed:5	larger type or another print run, same volume
+minority	12187	5	printed:5	larger type or another print run, same volume
+minority	12226	5	printed:5	larger type or another print run, same volume
+minority	12162	5	printed:2;ocr_junk:3	ocr_junk: 0318, 0325, 0360 (large type or poor scan)
+minority	12180	5	printed:5	larger type or another print run, same volume
+minority	12207	5	printed:5	larger type or another print run, same volume
+units	12225	5	ok:4;unclear:1	0055 is a list item
+units	12166	5	ok:3;unclear:1;bad unit boundary:1	0455 junk; 0586 one-line unit ending in a comma
+units	12133	5	ok:2;unclear:3	three units with garbled or interleaved lines
+units	12088	5	ok:1;bad unit boundary:2;unclear:2	0064 and 0630: lines of two columns interleaved in one unit

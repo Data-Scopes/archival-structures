@@ -1,0 +1,166 @@
+{
+ "1.01.02": {
+  "equal": 258,
+  "differ": {
+   "extract_stats/11182.json": "bytes",
+   "extract_stats/11281.json": "bytes",
+   "extract_stats/3349.json": "bytes",
+   "extract_stats/3350.json": "bytes",
+   "extract_stats/3351.json": "bytes",
+   "extract_stats/3352.json": "bytes",
+   "extract_stats/3353.json": "bytes",
+   "extract_stats/3354.json": "bytes",
+   "extract_stats/3771.json": "bytes",
+   "extract_stats/3772.json": "bytes",
+   "extract_stats/3773.json": "bytes",
+   "extract_stats/3821.json": "bytes",
+   "extract_stats/3822.json": "bytes",
+   "extract_stats/3823.json": "bytes",
+   "layout/stats.json": "bytes",
+   "scans/11182.scans.tsv.gz": {
+    "rows": [
+     755,
+     755
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "member": 755
+    }
+   },
+   "scans/11281.scans.tsv.gz": {
+    "rows": [
+     1139,
+     1139
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "member": 1139
+    }
+   },
+   "scans/3771.scans.tsv.gz": {
+    "rows": [
+     579,
+     579
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "member": 579
+    }
+   },
+   "scans/3772.scans.tsv.gz": {
+    "rows": [
+     595,
+     595
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "member": 595
+    }
+   },
+   "scans/3773.scans.tsv.gz": {
+    "rows": [
+     608,
+     608
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "member": 608
+    }
+   },
+   "scans/3821.scans.tsv.gz": {
+    "rows": [
+     440,
+     440
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "member": 440
+    }
+   },
+   "scans/3822.scans.tsv.gz": {
+    "rows": [
+     463,
+     463
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "member": 463
+    }
+   },
+   "scans/3823.scans.tsv.gz": {
+    "rows": [
+     442,
+     442
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "member": 442
+    }
+   },
+   "types/stats.json": "bytes",
+   "units/params.json": "bytes",
+   "units/stats.json": "bytes",
+   "wbc/corpus_default.json": "bytes",
+   "wbc/corpus_default_default.json": "bytes",
+   "wbc/corpus_default_robust.json": "bytes",
+   "wbc/wbc_per_inventory.tsv": {
+    "rows": [
+     14,
+     196
+    ],
+    "added_cols": [],
+    "dropped_cols": []
+   },
+   "wbc/wbc_per_inventory_default.tsv": {
+    "rows": [
+     14,
+     196
+    ],
+    "added_cols": [],
+    "dropped_cols": []
+   },
+   "wbc/wbc_per_inventory_robust.tsv": {
+    "rows": [
+     14,
+     196
+    ],
+    "added_cols": [],
+    "dropped_cols": []
+   },
+   "wbc/wbc_stats.tsv": {
+    "rows": [
+     131,
+     1792
+    ],
+    "added_cols": [],
+    "dropped_cols": []
+   }
+  },
+  "missing_shared_or_corpus": [
+   "B:units/republic_lines/3771.tsv.gz",
+   "B:units/republic_lines/3772.tsv.gz",
+   "B:units/republic_lines/3773.tsv.gz",
+   "B:units/republic_lines/3821.tsv.gz",
+   "B:units/republic_lines/3822.tsv.gz",
+   "B:units/republic_lines/3823.tsv.gz"
+  ],
+  "n_missing_other_invs": 3616
+ },
+ "1.10.94": {
+  "equal": 55,
+  "differ": {
+   "extract_stats/455.json": "bytes",
+   "extract_stats/456.json": "bytes"
+  },
+  "missing_shared_or_corpus": [],
+  "n_missing_other_invs": 0
+ }
+}

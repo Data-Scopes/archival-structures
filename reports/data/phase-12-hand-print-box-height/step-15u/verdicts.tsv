@@ -1,0 +1,30 @@
+group	inv	n_scans_read	verdicts	note
+margin<=5	12123	3	printed:3	French edict text and Dutch envoy letters, typeset
+margin<=5	12122	3	printed:3	Dutch envoy letters; one region h=124 is a larger printed letter
+margin<=5	12087	3	printed:3	envoy letters, French and Dutch; one tiny OCR-junk region
+margin<=5	12235	3	printed:3	Italian/German legal print
+margin<=5	12166	3	printed:3	early-modern plakkaat text, noisy OCR
+margin<=5	12203	3	printed:3	Dutch plakkaat, music notation page too
+diagnostic_lowest3	11220	3	handwritten:3	"letters ""Hoog Mogende Heeren"", 111 px"
+diagnostic_lowest3	2378	3	handwritten:3	minutes, 120 px
+diagnostic_lowest3	8287	3	table/numbers:3	regiment lists with numbers; few chars per scan
+diagnostic_print		0	n/a	no diagnostic volume has mode print
+minority_scans	12144	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12093	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12103	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12123	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12133	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12122	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12087	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12090	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12092	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12196	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12235	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12205	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12179	5	printed:2;ocr_junk:3	printed, plus scans of large decorative type read as junk (h 140-180)
+minority_scans	12166	5	printed:4;ocr_junk:1	printed, plus scans of large decorative type read as junk (h 140-180)
+minority_scans	12206	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12176	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12203	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median
+minority_scans	12174	5	printed:3;ocr_junk:2	printed, plus scans of large decorative type read as junk (h 140-180)
+minority_scans	12225	5	printed:5;ocr_junk:0	printed, larger type/other typeface than the volume median

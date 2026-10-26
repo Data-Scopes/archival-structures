@@ -1,0 +1,227 @@
+{
+ "hand:1.01.02": {
+  "equal": 131,
+  "differ": {
+   "layout/params.json": "bytes",
+   "layout/stats.json": "bytes",
+   "types/params.json": "bytes",
+   "types/stats.json": "bytes",
+   "units/params.json": "bytes",
+   "units/stats.json": "bytes",
+   "wbc/corpus_default.json": "bytes",
+   "wbc/corpus_default_default.json": "bytes",
+   "wbc/corpus_default_robust.json": "bytes",
+   "wbc/wbc_per_inventory.tsv": {
+    "rows": [
+     14,
+     14
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "n_lines": 6,
+     "char_status": 2
+    }
+   },
+   "wbc/wbc_per_inventory_default.tsv": {
+    "rows": [
+     14,
+     14
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "n_lines": 6,
+     "wbc_set": 2,
+     "differs_from_default": 2,
+     "char_status": 2
+    }
+   },
+   "wbc/wbc_per_inventory_robust.tsv": {
+    "rows": [
+     14,
+     14
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "n_lines": 6,
+     "wbc_set": 2,
+     "differs_from_default": 2,
+     "char_status": 2
+    }
+   },
+   "wbc/wbc_stats.tsv": {
+    "rows": [
+     131,
+     131
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "n_lines": 55,
+     "n_chars": 55,
+     "all_freq": 27,
+     "start_freq": 1,
+     "end_freq": 23,
+     "total_all": 55,
+     "total_start": 55,
+     "total_end": 55,
+     "end_rel_frac": 55,
+     "start_rel_frac": 30,
+     "n_end_attached": 23,
+     "n_end_attached_with_next": 43,
+     "n_cont_lower": 37,
+     "cont_lower_frac": 43,
+     "n_join_vocab": 23,
+     "join_vocab_frac": 33,
+     "n_both_ends": 4,
+     "n_both_ends_any": 10,
+     "n_start_only": 13,
+     "n_digit_both_sides": 9,
+     "all_freq_robust": 27,
+     "end_rel_frac_robust": 55
+    }
+   }
+  },
+  "missing": [
+   "A:split_model/3771.json",
+   "A:split_model/3772.json",
+   "A:split_model/3773.json",
+   "A:split_model/3821.json",
+   "A:split_model/3822.json",
+   "A:split_model/3823.json",
+   "A:split_stats/3771.json",
+   "A:split_stats/3772.json",
+   "A:split_stats/3773.json",
+   "A:split_stats/3821.json",
+   "A:split_stats/3822.json",
+   "A:split_stats/3823.json",
+   "A:units/republic_lines/3771.tsv.gz",
+   "A:units/republic_lines/3772.tsv.gz",
+   "A:units/republic_lines/3773.tsv.gz",
+   "A:units/republic_lines/3821.tsv.gz",
+   "A:units/republic_lines/3822.tsv.gz",
+   "A:units/republic_lines/3823.tsv.gz"
+  ],
+  "ignored": 42,
+  "explained": {
+   "3771": [
+    "extract_stats/3771.json",
+    "join/segments/3771.tsv.gz",
+    "join/stats/3771.json",
+    "join/units/3771.tsv.gz",
+    "layout/lines/3771.tsv.gz",
+    "layout/regions/3771.tsv.gz",
+    "layout/scans/3771.tsv.gz",
+    "lines/3771.lines.tsv.gz",
+    "regions_meta/3771.tsv.gz",
+    "scans/3771.scans.tsv.gz",
+    "types/regions/3771.tsv.gz",
+    "types/segments/3771.tsv.gz",
+    "units/doc_id_map/3771.tsv.gz",
+    "units/segments/3771.tsv.gz",
+    "units/units/3771.tsv.gz",
+    "wbc/parts/3771.tsv"
+   ],
+   "3772": [
+    "extract_stats/3772.json",
+    "join/segments/3772.tsv.gz",
+    "join/stats/3772.json",
+    "join/units/3772.tsv.gz",
+    "layout/lines/3772.tsv.gz",
+    "layout/regions/3772.tsv.gz",
+    "layout/scans/3772.tsv.gz",
+    "lines/3772.lines.tsv.gz",
+    "regions_meta/3772.tsv.gz",
+    "scans/3772.scans.tsv.gz",
+    "types/regions/3772.tsv.gz",
+    "types/segments/3772.tsv.gz",
+    "units/doc_id_map/3772.tsv.gz",
+    "units/segments/3772.tsv.gz",
+    "units/units/3772.tsv.gz",
+    "wbc/parts/3772.tsv"
+   ],
+   "3773": [
+    "extract_stats/3773.json",
+    "join/segments/3773.tsv.gz",
+    "join/stats/3773.json",
+    "join/units/3773.tsv.gz",
+    "layout/lines/3773.tsv.gz",
+    "layout/regions/3773.tsv.gz",
+    "layout/scans/3773.tsv.gz",
+    "lines/3773.lines.tsv.gz",
+    "regions_meta/3773.tsv.gz",
+    "scans/3773.scans.tsv.gz",
+    "types/regions/3773.tsv.gz",
+    "types/segments/3773.tsv.gz",
+    "units/doc_id_map/3773.tsv.gz",
+    "units/segments/3773.tsv.gz",
+    "units/units/3773.tsv.gz",
+    "wbc/parts/3773.tsv"
+   ],
+   "3821": [
+    "extract_stats/3821.json",
+    "join/segments/3821.tsv.gz",
+    "join/stats/3821.json",
+    "join/units/3821.tsv.gz",
+    "layout/lines/3821.tsv.gz",
+    "layout/regions/3821.tsv.gz",
+    "layout/scans/3821.tsv.gz",
+    "lines/3821.lines.tsv.gz",
+    "regions_meta/3821.tsv.gz",
+    "scans/3821.scans.tsv.gz",
+    "types/regions/3821.tsv.gz",
+    "types/segments/3821.tsv.gz",
+    "units/doc_id_map/3821.tsv.gz",
+    "units/segments/3821.tsv.gz",
+    "units/units/3821.tsv.gz",
+    "wbc/parts/3821.tsv"
+   ],
+   "3823": [
+    "extract_stats/3823.json",
+    "join/segments/3823.tsv.gz",
+    "join/stats/3823.json",
+    "join/units/3823.tsv.gz",
+    "layout/lines/3823.tsv.gz",
+    "layout/regions/3823.tsv.gz",
+    "layout/scans/3823.tsv.gz",
+    "lines/3823.lines.tsv.gz",
+    "regions_meta/3823.tsv.gz",
+    "scans/3823.scans.tsv.gz",
+    "types/regions/3823.tsv.gz",
+    "types/segments/3823.tsv.gz",
+    "units/doc_id_map/3823.tsv.gz",
+    "units/segments/3823.tsv.gz",
+    "units/units/3823.tsv.gz",
+    "wbc/parts/3823.tsv"
+   ],
+   "3822": [
+    "join/segments/3822.tsv.gz",
+    "join/stats/3822.json",
+    "join/units/3822.tsv.gz",
+    "layout/lines/3822.tsv.gz",
+    "layout/regions/3822.tsv.gz",
+    "layout/scans/3822.tsv.gz",
+    "lines/3822.lines.tsv.gz",
+    "types/regions/3822.tsv.gz",
+    "types/segments/3822.tsv.gz",
+    "units/doc_id_map/3822.tsv.gz",
+    "units/segments/3822.tsv.gz",
+    "units/units/3822.tsv.gz",
+    "wbc/parts/3822.tsv"
+   ]
+  }
+ },
+ "print:1.10.94": {
+  "equal": 48,
+  "differ": {
+   "layout/params.json": "bytes",
+   "types/params.json": "bytes",
+   "units/params.json": "bytes"
+  },
+  "missing": [],
+  "ignored": 6,
+  "explained": {}
+ }
+}

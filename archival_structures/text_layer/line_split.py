@@ -1383,6 +1383,32 @@ def read_line_rows(lines_path) -> Tuple[List[dict], Dict[str, str]]:
     return rows, tag_by_region
 
 
+def prepass_rows(inv: str, source, preset):
+    """First pass over `source`: parse every scan and build the v2 line rows in memory (nothing is
+    written). Returns ``(raw line rows, tag_by_region, info)``; the rows are not rounded (see
+    ``_int_row``). `info` = ``{"n_scans", "n_parse_fail", "scans": [{scan_id, page_w, page_h,
+    n_lines_text} per parsed scan]}``."""
+    from pagexml.parser import parse_pagexml_file
+    from archival_structures.text_layer.extract_v2 import extract_scan_v2
+    from archival_structures.text_layer.io import iter_pagexml
+    rows, tag_by_region = [], {}
+    info = {"n_scans": 0, "n_parse_fail": 0, "scans": []}
+    for member, data in iter_pagexml(source, skip_resource_forks=preset.skip_resource_forks):
+        info["n_scans"] += 1
+        try:
+            scan = parse_pagexml_file(member, pagexml_data=data)
+        except Exception:
+            info["n_parse_fail"] += 1
+            continue
+        s_row, r_rows, l_rows = extract_scan_v2(
+            scan, inv=inv, inv_dir=inv, member=member, preset=preset)
+        info["scans"].append({k: s_row.get(k) for k in ("scan_id", "page_w", "page_h", "n_lines_text")})
+        for r in r_rows:
+            tag_by_region[r["region_id"]] = r["region_tag"]
+        rows += l_rows
+    return rows, tag_by_region, info
+
+
 def fit_split_model(inv: str, source, preset, lines_path=None, params=None) -> SplitModel:
     """Fit the model of one inventory.
 
@@ -1393,21 +1419,8 @@ def fit_split_model(inv: str, source, preset, lines_path=None, params=None) -> S
     if lines_path is not None:
         rows, tag_by_region = read_line_rows(lines_path)
     else:
-        from collections import Counter
-        from pagexml.parser import parse_pagexml_file
-        from archival_structures.text_layer.extract_v2 import _DEELOPNAME, extract_scan_v2
-        from archival_structures.text_layer.io import iter_pagexml
-        rows, tag_by_region = [], {}
-        for member, data in iter_pagexml(source, skip_resource_forks=preset.skip_resource_forks):
-            try:
-                scan = parse_pagexml_file(member, pagexml_data=data)
-            except Exception:
-                continue
-            s_row, r_rows, l_rows = extract_scan_v2(
-                scan, inv=inv, inv_dir=inv, member=member, preset=preset)
-            for r in r_rows:
-                tag_by_region[r["region_id"]] = r["region_tag"]
-            rows += [_int_row(r) for r in l_rows]
+        rows, tag_by_region, _info = prepass_rows(inv, source, preset)
+        rows = [_int_row(r) for r in rows]
     return fit_split_model_from_rows(rows, tag_by_region, preset.split_region_tags,
                                      preset.untagged_tag, params=params)
 
@@ -1757,6 +1770,15 @@ def extract_inventory_v2_split(inv, source, out_root, preset, *, lines_path=None
     hook = make_split_hook(model)
     hook.record_splits = record_splits
     result = extract_inventory_v2(inv, source, out_root, preset, scan_hook=hook)
+    _write_split_files(inv, out_root, model, hook, result, record_splits)
+    return result
+
+
+def _write_split_files(inv, out_root, model, hook, result, record_splits):
+    """Write ``split_model/``, ``split_stats/`` and set ``result["split"]`` (shared by the split
+    extract and the volume-mode extract)."""
+    from pathlib import Path
+    from archival_structures.text_layer.io import write_json_atomic
     root = Path(out_root)
     write_json_atomic(root / "split_model" / f"{inv}.json", model.to_dict())
     stats = hook.stats_dict()
@@ -1766,4 +1788,3 @@ def extract_inventory_v2_split(inv, source, out_root, preset, *, lines_path=None
     result["split"] = {k: stats[k] for k in ("n_candidates_before", "n_split_hyphen",
                                               "n_split_bigram", "n_candidates_after",
                                               "n_page_errors")}
-    return result

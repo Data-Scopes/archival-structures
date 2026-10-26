@@ -1,0 +1,15 @@
+{
+ "cut": 87.75,
+ "max_print": 86.0,
+ "max_print_inv": "12135",
+ "min_hand": 89.5,
+ "min_hand_inv": "3492",
+ "separable": true,
+ "n_print": 38,
+ "n_hand": 38,
+ "fit_agreement": "76/76",
+ "params": {
+  "cut": 87.75,
+  "min_region_chars": 100
+ }
+}
