@@ -4,6 +4,11 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.15.1 (2026-10-26)
+
+- Text-layer types stage (`archival_structures.text_layer.types.type_inventory`) no longer fails on `parse_error` scan rows
+  (empty `page_w`). No signature change. Affected sibling imports: none.
+
 ## v0.15.0 (2026-10-26)
 
 ### Step 15q: hand_print volume-mode classifier

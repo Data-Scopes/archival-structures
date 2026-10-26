@@ -20,12 +20,14 @@
 
 ## Next action
 
-The user: release v0.15.0 and stage the full run's small files under `data/text_layer_v4_full/`. Then Opus plans
-step 15y (P21 pins; P23: a new layer version or the full run replacing the pilot) and the throughput model.
+The full run is incomplete: `types` failed on 6 inventories with a `parse_error` scan, so units, wbc, join,
+1.10.94 and the audit never ran (PROGRESS 2026-10-26). Fixed in `types.py` (unreleased). The user: release v0.15.1,
+rerun the full-run command (it resumes), stage the new `audit.json`, `status.tsv`, `manifest.json`, `run_v4.log`.
+Then Opus plans step 15y (P21 pins; P23) and the throughput model.
 
 ## Blockers and open questions for the user
 
-- Staging of the full run's `mode/`, `status.tsv`, `manifest.json`, logs and `audit.json` (blocks 15y).
+- Release v0.15.1 + resume the full run + stage its small files (blocks 15y).
 - UA-031: plan phase 11 now, or 15y first.
 
 ## Facts later steps need

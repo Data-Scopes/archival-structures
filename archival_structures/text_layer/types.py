@@ -365,7 +365,7 @@ def type_inventory(inv, layer_root, params):
     pats = _compile(params)
     scans = list(read_tsv_gz(root / "scans" / f"{inv}.scans.tsv.gz"))
     scan_order = {r["scan_id"]: i for i, r in enumerate(scans)}
-    page_w = {r["scan_id"]: int(r["page_w"]) for r in scans}
+    page_w = {r["scan_id"]: int(r["page_w"] or 0) for r in scans}
     lay_lines = {(r["scan_id"], r["line_id"]): r
                  for r in read_tsv_gz(root / "layout" / "lines" / f"{inv}.tsv.gz")}
     lay_region_keys = [(r["scan_id"], r["page"], r["layout_region_id"])

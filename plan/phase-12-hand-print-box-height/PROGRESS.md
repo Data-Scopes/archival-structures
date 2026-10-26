@@ -225,3 +225,18 @@ Implementation sessions append here but don't read it unless their brief names a
   the release), UA-025 (`15x-a`). No new UA.
 - **Written:** phase `PLAN.md` (status, 15x row, hand-off), `plan/PLAN.md` row 12, `plan/CONTEXT.md`, `STATUS.md`.
 - **Release:** v0.15.0 now (15q–15x). **Next:** the user's UA-024 run; then plan the P21 pin step.
+
+## 2026-10-26 — full-run check and `types` fix (Opus 5.5; implementation Sonnet)
+
+- **UA-025/030:** pilot published as `15x-a` (1.01.02) + `15w-a` copy (1.10.94, data identical); shared-data README rows; P23.
+  UA-029 (a): P22.
+- **Full run (UA-024), staged files in `data/text_layer_v4_full/`:** incomplete. extract and layout done for 9,122
+  (278 `print`, 8,844 `hand`); `types` failed for 6 (1, 9302, 11102, 11103, 11191, 11265), each with one unparseable
+  `doc.xml` in its tar (extract `n_errors` 1); `units` then exited ("run types first"), so no units, wbc, join, no
+  1.10.94 and no `audit.json`.
+- **Cause:** a `parse_error` scan row has an empty `page_w`; `type_inventory` did `int(r["page_w"])` (`types.py:368`);
+  layout already used `int(... or 0)`. **Fix:** the same guard; no output change for other inventories (the row has
+  no lines). Test `test_stages_survive_parse_error_scan` (fails before, passes after; layout → join run on the fixture
+  with the bad scan). Suite 1,241 passed, 11 skipped. Changelog *Unreleased*.
+- **Next:** user releases v0.15.1, reruns the UA-024 full-run command (resumes: 6 types, then units, wbc, join,
+  1.10.94, audit) and stages `audit.json` + updated `status.tsv`, `manifest.json`, `run_v4.log`.

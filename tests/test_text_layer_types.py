@@ -284,3 +284,36 @@ def test_bottom_year_offchain(tmp_path):
     got = _pn_methods(tmp_path / "off", [10, 11, 12], {0: "1717."}, offchain_retype=True,
                       offchain_years_other=False)
     assert got[("0001", "bot")] == ("page_number", "rule:pn_line_offchain")
+
+
+# ---- full-run fix: parse_error scans -----------------------------------------------------------
+
+def test_stages_survive_parse_error_scan(tmp_path):
+    import shutil
+    from archival_structures.text_layer.extract_v2 import extract_inventory_v2
+    fixture = Path(__file__).parent / "fixtures" / "text_layer" / "sg" / "9999"
+    preset = PRESETS["sg_1.01.02_v2"]
+    base_args = ["--preset", "sg_1.01.02_v2"]
+
+    ref_root = tmp_path / "ref" / preset.name
+    extract_inventory_v2("9999", fixture, ref_root, preset)
+    assert build.main(["--out-dir", str(tmp_path / "ref")] + base_args + ["--stage", "layout"]) == 0
+    assert build.main(["--out-dir", str(tmp_path / "ref")] + base_args + ["--stage", "types"]) == 0
+    ref_segs = [dict(r) for r in read_tsv_gz(ref_root / "types" / "segments" / "9999.tsv.gz")]
+
+    bad = tmp_path / "bad_src"
+    shutil.copytree(fixture, bad)
+    (bad / "doc.xml").write_text(
+        '<?xml version="1.0"?><mets xmlns="http://www.loc.gov/METS/"><x/></mets>')
+    out = tmp_path / "bad"
+    root = out / preset.name
+    result = extract_inventory_v2("9999", bad, root, preset)
+    assert result["n_errors"] == 1
+    scans = list(read_tsv_gz(root / "scans" / "9999.scans.tsv.gz"))
+    errs = [r for r in scans if r["status"] == "parse_error"]
+    assert len(errs) == 1 and errs[0]["page_w"] == ""
+    base = ["--out-dir", str(out)] + base_args
+    for stage in ("layout", "types", "units", "wbc", "join"):
+        assert build.main(base + ["--stage", stage]) == 0, stage
+    segs = [dict(r) for r in read_tsv_gz(root / "types" / "segments" / "9999.tsv.gz")]
+    assert segs == ref_segs
