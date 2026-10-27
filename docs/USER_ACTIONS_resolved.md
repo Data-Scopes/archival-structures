@@ -648,3 +648,17 @@
   `data/text_layer_v2_dev/15x-a/1.01.02/NL-HaNA_1.01.02_text_layer_v4` (`diff -rq` empty, sizes equal) and that both v4
   dirs are group-writable. The shared-data `README.md` row now describes `15x-a`, with a changelog line for the in-place
   replacement. Decision P23 in the phase-12 plan.
+
+### UA-031 Start phase 11 while the P21 step waits for the full run's files? (2026-10-26, from the UA-030 follow-up session)
+- **Action:** **Decide.**
+- **Context:** phase 12's last step (P21 pins, as step 15y in phase 12) needs the full v4 run's `mode/` and
+  `status.tsv` staged locally. Phase 11 (optional: NLP `text_extent` options, UA-014 (a); C10, C12, C18 docs) touches
+  modules disjoint from phase 12 and can start now. No other phase is planned.
+- **Options:** (a) plan phase 11 now (Opus planning session), with 15y run once the files are staged; (b) do 15y first
+  and plan nothing else until it is reviewed; (c) a different next phase (name it, e.g. the phase-09 leftovers in
+  `plan/CONTEXT.md` §4). Recommended: (a), because phase 11 is not blocked and NLP has waited for `text_extent` since
+  2026-10-21.
+- **Default if unanswered:** (b): no new phase; 15y is planned once the full run's files are staged.
+- **Blocks:** planning of any phase after 12.
+- **Response:** a
+- **Resolved 2026-10-27 (Opus, phase-11 planning):** answered (a). Phase 11 is planned as `plan/phase-11-text-extent-and-nlp-ports/` (steps 18a–18d, decisions P1–P10) and implemented in the same session; phase-12 step 15y still waits for the full v4 run's `mode/` and `status.tsv`.

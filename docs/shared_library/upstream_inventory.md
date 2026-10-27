@@ -331,6 +331,7 @@ Line numbers refer to the files as of 2026-10-13.
 | **Destination** | Extra methods in AS `stream_analysis/overview/subsequence_detection.py`, which already has `compute_adjacent_similarities`, `detect_boundaries_threshold` and `detect_boundaries_changepoint` and uses the same "list of boundary indices" convention |
 | **Sibling afterwards** | NLP imports `segment_dp`/`textiling_depth_scores` from AS |
 | **Risks** | NLP found both score *below* the majority baseline for document starts. Document them as section-level tools, consistent with the granularity rule in the review §1.3 |
+| **Done (phase 11, 2026-10-27)** | Ported as step 18b. Two corrections to this row: the segmenters return segment *start* indices (incl. 0), not the module's gap indices (converters `starts_to_boundaries`/`boundaries_to_starts` added); and the granularity rule is a hypothesis to test (review §0 decision 9), documented in `docs/challenges/document_segmentation.md` |
 
 ### C11. Foliation / page-number alignment with the GLOBALISE index
 

@@ -68,14 +68,18 @@ page is the start -- only whether two neighbours belong together -- which is wha
 to some corruptions Framing A isn't; see
 [Page order problems](page_order_problems.md#case-1-intra-document-page-swap).
 
-### Framing A is the default assumption elsewhere in this doc
+### Framing A's vocabulary is used for convenience below
 
-Both regimes below (whole-page vs. sub-page) are stated in terms of Framing A's `b_i`/cut-reduction
-vocabulary, since that's the standard framing in most document-stream-segmentation work -- but the
-distinction above is worth keeping in mind whenever a corrupted or only-partially-ordered page
-stream is in play, not just a cleanly-ordered one. It says nothing, either way, about how to
-handle a page that resumes a document already seen earlier in the stream -- see
+Framing B (pairwise adjacency) is the project default (user decision, 2026-10-13). Which framing
+suits which archive is itself a research question. The regimes below (whole-page vs. sub-page)
+are nevertheless stated in terms of Framing A's `b_i`/cut-reduction vocabulary, since that is the
+standard framing in most document-stream-segmentation work. The distinction above is worth keeping
+in mind whenever a corrupted or only-partially-ordered page stream is in play, not just a
+cleanly-ordered one. It says nothing, either way, about how to handle a page that resumes a
+document already seen earlier in the stream -- see
 [Page order problems](page_order_problems.md#case-2-foreign-document-insertion-interleaving).
+For the checks that apply to any evaluation of these framings, see
+[Leakage and splits](leakage_and_splits.md).
 
 ## Sub-page segmentation
 
@@ -104,6 +108,43 @@ first-page-classification problem above unless stated otherwise -- the two liter
 digital/scanned-office documents vs. scholarly/archival document analysis, respectively) use
 different names for the same task. This repo's docs default to **document segmentation** for the
 general problem, and reserve **boundary detection** for the specific per-page `b_i` decision.
+
+## The granularity hypothesis
+
+**Statement.** Vision and layout methods find units at the level of a *volume section* (a run of
+pages coarser than a document, for example a session block). Text methods find documents.
+
+**Status.** Hypothesis, not a finding (user decision, 2026-10-13).
+
+**Evidence for it.**
+
+- NLP's DINOv2, ink density and gap geometry features hurt or failed for VOC document starts.
+  NLP's DP and TextTiling segmenters score below the majority class for them (phase 11 step 18b
+  reproduced both exactly; in a sample of 10 DP starts on inventory 2555, 4 were separator
+  sheets and 3 dated entry heads, F11-18b.4).
+- AS's DINOv2 subsequence detection works at volume-section and sub-sequence boundaries.
+- Text-layout signals are weak for documents: `text_extent` `early_end` has lift 2.1 but recall
+  0.315, and about half of VOC starts are mid-page (NLP report/84, reproduced in phase 11 step 18a).
+
+**Limits.** All document-level evidence is from VOC letter bundles. VOC is the only archive with
+document-level ground truth here. The two sides were also measured with different methods and
+data, so the contrast is confounded.
+
+**What would test it.** Document-level ground truth in other archives. Candidates are NL-AsdSAA
+5075 (some deed-level ground truth), NL-HaNA 2.10.50 and 2.10.01. NL-AsnDA is hard (low image
+quality, hard ground truth). The user's hunch is that early modern archives have sub-page starts
+and modern ones have top-of-page starts, so the framing and the level should be tested together.
+
+**What applies at which level today.**
+
+| Level | Tools in AS |
+|---|---|
+| Volume sections | DINOv2 subsequence detection, `segment_dp`, TextTiling (`textiling_depth_scores`) |
+| Documents | text-based start classifiers |
+| Weak document-end signal | `text_extent` `early_end` |
+
+See [Leakage and splits](leakage_and_splits.md) for why a method validated on volume sections is
+not evidence for documents.
 
 ## Why the ordering assumption matters
 

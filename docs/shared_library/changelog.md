@@ -4,6 +4,43 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.16.0 (2026-10-27)
+
+### Step 18a: `text_extent` region types and margin gaps
+
+- New in `archival_structures.analysis.text_extent` (additive, UA-014 (a)): `line_region_type(line)`;
+  `BODY_REGION_TYPES_VOC` (named example, not a default); kwarg `region_types=None` on
+  `compute_page_text_extent(page, equal_tol, region_types)` and `compute_corpus_text_extents(pages, region_types,
+  equal_tol)`; `margin_gaps(row, stable)`; `text_extent_table(df, stable, top_tol, bot_tol)` (columns `text_extent`,
+  `top_gap`, `bot_gap`). Defaults leave all outputs unchanged. Identical to NLP report/84 on its 22 inventories.
+- Bug fix (only change to existing output): `compute_corpus_text_extents([])` now returns all eight columns
+  (`n_lines, top, bot, left, right, mean_width, equal_frac`), not five.
+- Affected sibling imports: NLP `scripts/early_end_extract_body.py` (`_rtype`, `BODY`, own body extent code) can later
+  use `line_region_type`, `BODY_REGION_TYPES_VOC` and `compute_page_text_extent(..., region_types=...)`; none changed yet.
+
+### Step 18b: label-free segmentation (C10)
+
+- New in `archival_structures.stream_analysis.overview.subsequence_detection` (also lazily exported from
+  `archival_structures.stream_analysis`): `segment_dp`, `calibrate_length_penalty_weight`, `textiling_depth_scores`,
+  `predicted_start_rate`, `MAX_SEGMENT_LENGTH`, `starts_to_boundaries`, `boundaries_to_starts`. Ported verbatim from NLP
+  `startpage.unsupervised_segmentation`; identical output on NLP's 22 inventories (0 mismatches, 41,810 / 41,810 rows).
+- Convention: the segmenters return segment start indices (always including 0), unlike the gap indices of
+  `detect_boundaries_*`; use `starts_to_boundaries` to convert. No existing function changed.
+- Affected sibling imports: NLP `from startpage.unsupervised_segmentation import segment_dp, textiling_depth_scores,
+  calibrate_length_penalty_weight, predicted_start_rate, MAX_SEGMENT_LENGTH` (later shim step); none changed yet.
+
+### Step 18c: separator-sheet rule (C12)
+
+- New module `archival_structures.analysis.separator_sheets`: `is_separator_sheet`, `detect_sheets`, `next_scan_id`,
+  `apply_rule`, `VOC_SHEET_PATTERN`, `VOC_MAX_SHEET_CHARS`, `SHEET_CONVENTIONS`. Ported from NLP
+  `startpage.separator_sheets`; identical output on the 20,912 NLP pages (0 mismatches).
+- Deliberate differences from NLP: `apply_rule` raises `ValueError` for an unknown convention (NLP treated any value
+  other than "sheet" as "next"); ids that do not parse as scan ids have no next page, so their unit is skipped;
+  sheets are processed in sorted order, so two consecutive sheets give the same result in every process (NLP iterates
+  the set, whose order depends on `PYTHONHASHSEED`; the 22 NLP inventories have no consecutive sheets; phase-11
+  review).
+- Affected sibling imports: NLP `from startpage.separator_sheets import ...` (later shim step); none changed yet.
+
 ## v0.15.1 (2026-10-26)
 
 - Text-layer types stage (`archival_structures.text_layer.types.type_inventory`) no longer fails on `parse_error` scan rows

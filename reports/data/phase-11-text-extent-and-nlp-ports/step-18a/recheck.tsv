@@ -1,0 +1,13 @@
+criterion	expected	measured	pass
+all: rows AS/NLP	20912/20912	20912/20912	True
+all: scannames only in AS / only in NLP	0/0	0/0	True
+all: max |d| margins	<=1e-12	top=1.11e-16 bot=1.11e-16 left=1.11e-16 right=1.11e-16	True
+all: n_lines equal	20912/20912	20912/20912	True
+body: rows AS/NLP	20912/20912	20912/20912	True
+body: scannames only in AS / only in NLP	0/0	0/0	True
+body: max |d| margins	<=1e-12	top=1.11e-16 bot=1.11e-16 left=1.11e-16 right=9.89e-17	True
+body: n_lines equal	20912/20912	20912/20912	True
+all: early_end->END n_flag, P, R	3112 0.1397814910025707 0.3154459753444525	3112 0.1397814910025707 0.3154459753444525 (labelled rows 20905)	True
+all: class == page_table text_extent (pages with lines)	19836/19836	19836/19836	True
+gap bins n and END_rate (8 bins)	8/8	8/8	True
+body: early_end->END n_flag, P, R	2762 0.1705286024619841 0.3415518491660623	2762 0.1705286024619841 0.3415518491660623 (labelled rows 20905)	True

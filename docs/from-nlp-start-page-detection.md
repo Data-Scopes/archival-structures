@@ -60,3 +60,17 @@ dossier `report/error_analysis/6.4-early-end/index.html`.
   options, additive (region types as a parameter, default all regions), as one step in phase 10
   with an NLP re-check of report/84;
 - nothing in `text_extent` has changed yet.
+
+**AS status (2026-10-27, phase 11, step 18a; reviewed):** both requests are in
+`archival_structures.analysis.text_extent` (unreleased after v0.15.1; v0.16.0 recommended):
+`compute_page_text_extent(page, equal_tol=0.02, region_types=None)` and
+`compute_corpus_text_extents(pages, region_types=None, equal_tol=0.02)` filter lines by the parent region's type
+(`line_region_type`, NLP's `_rtype` rule; `BODY_REGION_TYPES_VOC` = NLP's three types, a named example);
+`margin_gaps(row, stable)` and `text_extent_table(df, stable=None, top_tol, bot_tol)` give `top_gap`, `bot_gap` next
+to the class. Through them, report/84 reproduces exactly (3,112 / 0.1398 / 0.3154 and 2,762 / 0.1705 / 0.3415; 8 of 8
+gap bins). Two notes for NLP from the AS review: the gap is not monotone in END probability (above 0.40 the END rate
+falls to 0.169), so use a band (F11-18a.3); and a page whose lowest line is a catch-word is rarely an END (END rate
+0.025–0.113 among the flags the body variant changes), so a catch-word flag may be the better feature (F11-R.1).
+Phase 11 also ported `segment_dp`/`textiling_depth_scores` (start-index convention kept; TextTiling's edge starts
+documented, F11-R.2) and `separator_sheets`. NLP's import switch waits for UA-032 (NLP's venv has a non-editable AS
+0.13.0).

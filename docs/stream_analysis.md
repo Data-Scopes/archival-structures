@@ -94,6 +94,25 @@ visual transitions between document types.  This submodule provides:
   visual homogeneity (`mean_similarity`, `min_similarity`, `first_last_similarity`) and
   optionally for HDBSCAN cluster entropy and opening consistency; flags segments as
   `is_book_like` when they exceed configurable thresholds.
+- `segment_dp` -- unsupervised dynamic-programming segmentation of the adjacent similarities with
+  a geometric segment-length prior (ported from NLP).
+- `calibrate_length_penalty_weight` -- picks the DP length-penalty weight so the mean segment
+  length matches a target, from the similarities of several inventories.
+- `textiling_depth_scores` -- TextTiling depth scores over the similarities and the starts above
+  a depth threshold.
+- `predicted_start_rate` -- predicted starts per page from a boundary list.
+- `starts_to_boundaries` / `boundaries_to_starts` -- convert between segment start indices and
+  gap indices.
+
+`segment_dp` and `textiling_depth_scores` return segment start indices (including 0), unlike
+`detect_boundaries_*`, which return gap indices; convert with the two functions above before
+calling `boundaries_to_segments`. NLP found both below the majority baseline for VOC document
+starts, so use them for volume sections; see
+[the granularity hypothesis](challenges/document_segmentation.md#the-granularity-hypothesis). `textiling_depth_scores`
+smooths with zero padding (`np.convolve(mode="same")`), so a non-zero similarity level puts
+spurious starts at page 1 and at the last page: 21 of NLP's 22 VOC inventories get both (42 of
+1,981 starts, none a labelled start). Drop those two positions or smooth with edge padding (a
+behaviour change; the port keeps NLP's output).
 
 See the [subsequence detection demo](notebooks/sequence-analysis/subsequence-detection-demo) notebook for a
 worked example on `NL-AsdSAA_89_3.1` (1035 scans, mixed document types), which validates

@@ -33,10 +33,16 @@ Change-point detection via *ruptures* (optional, not a declared dependency)
 is available through :func:`detect_boundaries_changepoint` when the library is
 installed.  The threshold-based method works well without it and is the
 default.
+
+Two label-free segmenters ported from NLP (:func:`segment_dp`,
+:func:`textiling_depth_scores`) return segment *start* indices rather than the
+gap indices of ``detect_boundaries_*``; :func:`starts_to_boundaries` and
+:func:`boundaries_to_starts` convert between the two.
 """
 from __future__ import annotations
 
 import logging
+from math import log
 from typing import Optional, Sequence
 
 import numpy as np
@@ -446,3 +452,217 @@ def detect_book_like_subsequences(
         min_mean_similarity=min_mean_similarity,
         min_opening_consistency=min_opening_consistency,
     )
+
+
+# ---------------------------------------------------------------------------
+# Label-free segmentation (DP, TextTiling; ported from NLP)
+# ---------------------------------------------------------------------------
+#
+# Ported from NLP ``src/startpage/unsupervised_segmentation.py`` (AS phase 11,
+# step 18b).  Function bodies are verbatim.  Convention: ``similarities[i]`` is
+# the similarity between pages i and i+1 (length n_pages - 1, NaN allowed).
+# Unlike ``detect_boundaries_*`` (gap indices), the two segmenters below return
+# segment START indices (always including 0); convert with
+# :func:`starts_to_boundaries` / :func:`boundaries_to_starts`.
+#
+# "Label-free" is precise about one thing and loose about another: no function
+# here reads a label at runtime, and nothing is fit per inventory from that
+# inventory's own ground truth.  But two global constants were chosen in NLP
+# from label-derived corpus statistics -- ``prior_mean_length`` (4.0) and
+# ``calibrate_length_penalty_weight``'s ``target_mean_segment_length`` (4.0),
+# both the corpus's median true segment length (VOC).  Treat the result as
+# "label-free except for two corpus-level constants"; if it is ever used as a
+# headline number, re-derive those two from training rows only.  NLP found
+# both segmenters score below the majority-class baseline for VOC document
+# starts; treat them as section-level tools.
+
+MAX_SEGMENT_LENGTH = 200  # tail cap for the DP's search (VOC: tail to ~150)
+
+
+def _geometric_length_penalty(length: int, prior_mean_length: float) -> float:
+    """-log P(length) under Geometric(p=1/prior_mean_length) on {1, 2, ...}."""
+    p = 1.0 / prior_mean_length
+    return -((length - 1) * log(1.0 - p) + log(p))
+
+
+def segment_dp(
+    similarities: np.ndarray, prior_mean_length: float = 4.0, length_penalty_weight: float = 1.0,
+    max_segment_length: int = MAX_SEGMENT_LENGTH,
+) -> list[int]:
+    """Returns segment **start** indices (always including 0), not the gap indices of `detect_boundaries_*`; convert with `starts_to_boundaries`.
+
+    Dynamic-programming segmenter under a geometric length prior (the primary
+    label-free detector).  NLP found it below the majority-class baseline for
+    VOC document starts; treat it as a section-level tool.  Ported from NLP
+    `src/startpage/unsupervised_segmentation.py` (AS phase 11, step 18b).
+
+    `similarities[i]` is the cosine similarity between physical pages i and
+    i+1 (NaN where unknown, e.g. a gap bridging a missing embedding with no
+    embedded neighbor at all -- recentred to exactly the baseline below, so
+    it neither encourages nor discourages a cut there).
+
+    Raw cosine similarity isn't centred at 0, so summing it directly within
+    a segment scales with segment length and always outscores a length
+    penalty that is (for the geometric prior used here) only linear in
+    length -- checked on a synthetic 3-document example, and it degenerated
+    to never cutting. Centring each inventory's similarities on their own
+    median first fixes this: most adjacent-page pairs in any inventory ARE
+    within the same document (boundaries are the minority class), so the
+    per-inventory median approximates "typical within-document similarity"
+    without reading a single label -- a within-document run then nets to ~0
+    cohesion (neither rewarding nor penalising length on its own) while
+    genuine low-similarity boundaries pull a segment's score down in
+    proportion to how anomalous they are.
+
+    DP[j] = best total score for pages [0, j); a candidate segment [i, j)
+    scores sum(centred_similarities[i : j-1]) - length_penalty_weight *
+    length_penalty(j - i, prior_mean_length). `prior_mean_length` sets the
+    penalty's SHAPE (the geometric distribution's mean); because that NLL
+    is linear in length, its per-extra-page slope and per-segment intercept
+    both scale with `prior_mean_length` together, which over-constrains the
+    one real free parameter this method has -- how aggressively it should
+    cut at all. `length_penalty_weight` is that second, independent knob
+    (see `calibrate_length_penalty_weight`, which sets it without reading
+    any label). Search is capped at max_segment_length, trading an
+    irrelevant-in-practice bound on segment length for
+    O(n * max_segment_length) instead of O(n^2).
+    """
+    n_pages = len(similarities) + 1
+    if n_pages <= 1:
+        return [0] if n_pages == 1 else []
+
+    finite = similarities[np.isfinite(similarities)]
+    baseline = float(np.median(finite)) if len(finite) else 0.0
+    sims = np.nan_to_num(similarities, nan=baseline) - baseline
+    cumsum = np.concatenate([[0.0], np.cumsum(sims)])  # cumsum[k] = sum(sims[:k])
+
+    neg_inf = float("-inf")
+    best_score = [neg_inf] * (n_pages + 1)
+    best_prev = [None] * (n_pages + 1)
+    best_score[0] = 0.0
+
+    penalties = {L: length_penalty_weight * _geometric_length_penalty(L, prior_mean_length)
+                 for L in range(1, min(max_segment_length, n_pages) + 1)}
+
+    for j in range(1, n_pages + 1):
+        for length in range(1, min(max_segment_length, j) + 1):
+            i = j - length
+            if best_score[i] == neg_inf:
+                continue
+            segment_cohesion = cumsum[j - 1] - cumsum[i]  # sum(sims[i : j-1])
+            score = best_score[i] + segment_cohesion - penalties[length]
+            if score > best_score[j]:
+                best_score[j] = score
+                best_prev[j] = i
+
+    boundaries = []
+    j = n_pages
+    while j > 0:
+        boundaries.append(best_prev[j] if best_prev[j] is not None else 0)
+        j = boundaries[-1]
+    boundaries.reverse()
+    return boundaries
+
+
+def calibrate_length_penalty_weight(
+    similarities_by_inventory: dict[str, np.ndarray], prior_mean_length: float = 4.0,
+    target_mean_segment_length: float = 4.0, candidates: Sequence[float] = tuple(np.geomspace(0.02, 2.0, 25)),
+) -> float:
+    """Pick the `length_penalty_weight` whose mean predicted segment length is closest to the target.
+
+    The mean is pooled across every inventory in `similarities_by_inventory`
+    and compared with `target_mean_segment_length` -- a single global
+    constant calibrated once against the embedding geometry and a
+    corpus-level fact about typical document length (VOC: median true
+    segment length 4 pages, mostly 2-6 pages, tail to ~150), never against
+    any individual inventory's own labels at segmentation time. The target is
+    a project-level prior fixed in advance, not re-fit per run from the data
+    being segmented. Ties go to the first candidate. Ported from NLP
+    `src/startpage/unsupervised_segmentation.py` (AS phase 11, step 18b).
+    """
+    best_weight, best_gap = candidates[0], float("inf")
+    for weight in candidates:
+        lengths = []
+        for sims in similarities_by_inventory.values():
+            if len(sims) + 1 <= 1:
+                continue
+            boundaries = segment_dp(sims, prior_mean_length=prior_mean_length, length_penalty_weight=weight)
+            n_pages = len(sims) + 1
+            edges = boundaries + [n_pages]
+            lengths.extend(b - a for a, b in zip(edges, edges[1:]))
+        if not lengths:
+            continue
+        gap = abs(np.mean(lengths) - target_mean_segment_length)
+        if gap < best_gap:
+            best_gap, best_weight = gap, weight
+    return best_weight
+
+
+def textiling_depth_scores(
+    similarities: np.ndarray, window: int = 3, depth_threshold: Optional[float] = None
+) -> tuple[np.ndarray, list[int]]:
+    """Returns segment **start** indices (always including 0), not the gap indices of `detect_boundaries_*`; convert with `starts_to_boundaries`.
+
+    Hearst (1997)-style depth score, as a cheaper comparator to `segment_dp`
+    (NLP found both below the majority-class baseline for VOC document
+    starts; treat them as section-level tools).  Ported from NLP
+    `src/startpage/unsupervised_segmentation.py` (AS phase 11, step 18b).
+
+    Smooth adjacent-page similarity with a trailing/leading mean of width
+    `window`, then at each internal gap i score
+    depth[i] = (left_peak - valley) + (right_peak - valley), where valley is
+    the smoothed similarity at i and left_peak/right_peak are the nearest
+    local maxima walking outward. A gap is a predicted change point if its
+    depth exceeds `depth_threshold` (default: mean + 1 sd of the depth
+    array itself -- a per-inventory, label-free threshold, not a global
+    constant fit on any ground truth).
+
+    Returns (depth_scores, starts) where starts is the list of page indices
+    where a new segment starts (always includes 0), matching segment_dp's
+    return convention.
+    """
+    sims = np.nan_to_num(similarities, nan=np.nanmean(similarities) if np.isfinite(np.nanmean(similarities)) else 0.0)
+    n_gaps = len(sims)
+    n_pages = n_gaps + 1
+    if n_gaps == 0:
+        return np.array([]), [0] if n_pages == 1 else []
+
+    kernel = np.ones(window) / window
+    smoothed = np.convolve(sims, kernel, mode="same")
+
+    depth = np.zeros(n_gaps)
+    for i in range(n_gaps):
+        left_peak = smoothed[i]
+        for k in range(i, -1, -1):
+            if smoothed[k] >= left_peak:
+                left_peak = smoothed[k]
+            else:
+                break
+        right_peak = smoothed[i]
+        for k in range(i, n_gaps):
+            if smoothed[k] >= right_peak:
+                right_peak = smoothed[k]
+            else:
+                break
+        depth[i] = (left_peak - smoothed[i]) + (right_peak - smoothed[i])
+
+    if depth_threshold is None:
+        depth_threshold = depth.mean() + depth.std() if depth.std() > 0 else depth.max() + 1
+
+    boundaries = [0] + [i + 1 for i in range(n_gaps) if depth[i] > depth_threshold]
+    return depth, boundaries
+
+
+def predicted_start_rate(boundaries: list[int], n_pages: int) -> float:
+    """Number of predicted starts divided by `n_pages` (NaN when `n_pages` is 0)."""
+    return len(boundaries) / n_pages if n_pages else float("nan")
+
+
+def starts_to_boundaries(starts: Sequence[int]) -> list[int]:
+    """Segment start indices (incl. 0) -> gap indices: [s - 1 for s in sorted(set(starts)) if s > 0]."""
+    return [s - 1 for s in sorted(set(starts)) if s > 0]
+
+
+def boundaries_to_starts(boundaries: Sequence[int]) -> list[int]:
+    """Gap indices -> segment start indices: [0] + [b + 1 for b in sorted(set(boundaries))]."""
+    return [0] + [b + 1 for b in sorted(set(boundaries))]

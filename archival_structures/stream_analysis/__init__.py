@@ -52,6 +52,13 @@ _LAZY_EXPORTS = {
     "score_segment": "archival_structures.stream_analysis.overview.subsequence_detection",
     "score_all_segments": "archival_structures.stream_analysis.overview.subsequence_detection",
     "detect_book_like_subsequences": "archival_structures.stream_analysis.overview.subsequence_detection",
+    "MAX_SEGMENT_LENGTH": "archival_structures.stream_analysis.overview.subsequence_detection",
+    "segment_dp": "archival_structures.stream_analysis.overview.subsequence_detection",
+    "calibrate_length_penalty_weight": "archival_structures.stream_analysis.overview.subsequence_detection",
+    "textiling_depth_scores": "archival_structures.stream_analysis.overview.subsequence_detection",
+    "predicted_start_rate": "archival_structures.stream_analysis.overview.subsequence_detection",
+    "starts_to_boundaries": "archival_structures.stream_analysis.overview.subsequence_detection",
+    "boundaries_to_starts": "archival_structures.stream_analysis.overview.subsequence_detection",
     # overview.pipeline
     "run_overview": "archival_structures.stream_analysis.overview.pipeline",
     "cluster_inventories": "archival_structures.stream_analysis.overview.pipeline",

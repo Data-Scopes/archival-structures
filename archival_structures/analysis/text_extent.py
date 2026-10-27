@@ -23,15 +23,39 @@ Two additional per-page features help distinguish *running-text* pages from
   the same horizontal positions from line to line, giving a high ``equal_frac``.
   Table cells within the same column share the same *left* boundary but have
   variable *right* extents (depending on cell content), suppressing ``equal_frac``.
+
+Two additive options (NLP report/84, UA-014): ``region_types`` on
+:func:`compute_page_text_extent` / :func:`compute_corpus_text_extents` restricts the
+extent to lines whose parent region has one of the given types (e.g. body text
+without page numbers or catch-words), and :func:`text_extent_table` returns the
+continuous margin gaps (``top_gap``, ``bot_gap``) next to the class.  Defaults leave
+all earlier outputs unchanged.
 """
 from __future__ import annotations
 
-from typing import Dict, List, Optional
+from typing import Collection, Dict, FrozenSet, List, Optional
 
 import numpy as np
 import pandas as pd
 import pagexml.model.physical_document_model as pdm
 from pagexml.helper.pagexml_helper import horizontal_group_lines
+
+#: NLP report/84's body-text region types for VOC 1.04.02 (Laypa labels).  A named
+#: example, not a default anywhere.
+BODY_REGION_TYPES_VOC: FrozenSet[str] = frozenset({"paragraph", "signature-mark", "header"})
+
+
+def line_region_type(line) -> Optional[str]:
+    """Type of the line's direct parent region (NLP ``_rtype``, report/84).
+
+    A list with more than one element gives its last element; a one-element list
+    gives ``"text_region"``; a string is returned as is; a line without parent
+    gives ``None``.
+    """
+    t = line.parent.type if line.parent else None
+    if isinstance(t, list):
+        return t[-1] if len(t) > 1 else "text_region"
+    return t
 
 
 def _equal_frac(lines: list, page_width: int, tol_frac: float = 0.02) -> float:
@@ -63,7 +87,8 @@ def _equal_frac(lines: list, page_width: int, tol_frac: float = 0.02) -> float:
 
 
 def compute_page_text_extent(page: pdm.PageXMLScan,
-                             equal_tol: float = 0.02) -> Optional[Dict]:
+                             equal_tol: float = 0.02,
+                             region_types: Optional[Collection[str]] = None) -> Optional[Dict]:
     """Compute relative text-extent features for one page.
 
     Lines that lack valid coords are silently skipped.  If no lines remain,
@@ -88,8 +113,16 @@ def compute_page_text_extent(page: pdm.PageXMLScan,
         page: the page to analyse.
         equal_tol: tolerance for the Allen-equal test, as a fraction of page width
             (default 0.02 = 2%).
+        region_types: if given, keep only lines whose direct parent region type (as
+            returned by :func:`line_region_type`, i.e. the PageXML/Laypa ``type``;
+            untyped regions have type ``"text_region"``) is in this collection.  All
+            returned values are computed over the kept lines.  Stable margins for a
+            filtered run must be estimated from a filtered frame (don't mix).
+            ``None`` (default) keeps all lines.
     """
     lines = [ln for ln in page.get_lines() if ln.coords]
+    if region_types is not None:
+        lines = [ln for ln in lines if line_region_type(ln) in region_types]
     if not lines:
         return None
     ph = page.coords.height
@@ -108,17 +141,26 @@ def compute_page_text_extent(page: pdm.PageXMLScan,
     }
 
 
-def compute_corpus_text_extents(pages: List[pdm.PageXMLScan]) -> pd.DataFrame:
+def compute_corpus_text_extents(pages: List[pdm.PageXMLScan],
+                                region_types: Optional[Collection[str]] = None,
+                                equal_tol: float = 0.02) -> pd.DataFrame:
     """Compute text-extent features for every non-empty page in *pages*.
 
     Empty pages (for which :func:`compute_page_text_extent` returns ``None``) are
     omitted.  The returned DataFrame is indexed by ``page_id`` and has columns
-    ``n_lines``, ``top``, ``bot``, ``left``, ``right``.
+    ``n_lines``, ``top``, ``bot``, ``left``, ``right``, ``mean_width``, ``equal_frac``.
+
+    Args:
+        pages: the pages to analyse.
+        region_types: see :func:`compute_page_text_extent`; pages without a line of
+            these types are omitted.
+        equal_tol: see :func:`compute_page_text_extent`.
     """
-    rows = [compute_page_text_extent(p) for p in pages]
+    rows = [compute_page_text_extent(p, equal_tol, region_types) for p in pages]
     rows = [r for r in rows if r is not None]
     if not rows:
-        return pd.DataFrame(columns=['page_id', 'n_lines', 'top', 'bot', 'left', 'right']).set_index('page_id')
+        return pd.DataFrame(columns=['page_id', 'n_lines', 'top', 'bot', 'left', 'right',
+                                     'mean_width', 'equal_frac']).set_index('page_id')
     df = pd.DataFrame(rows)
     return df.set_index('page_id')
 
@@ -221,3 +263,40 @@ def full_text_page_fraction(
         return 0.0
     classes = classify_corpus_text_extents(df, stable, top_tol, bot_tol)
     return float((classes == 'full_text').mean())
+
+
+def margin_gaps(row, stable: Dict[str, float]) -> Dict[str, float]:
+    """Continuous margin gaps of one page relative to the stable margins.
+
+    Raw differences, no tolerance subtracted.  Positive means more white space
+    than stable.
+
+    Returns:
+        ``{'top_gap': row['top'] - stable['top'], 'bot_gap': row['bot'] - stable['bot']}``
+    """
+    return {'top_gap': row['top'] - stable['top'], 'bot_gap': row['bot'] - stable['bot']}
+
+
+def text_extent_table(
+    df: pd.DataFrame,
+    stable: Optional[Dict[str, float]] = None,
+    top_tol: float = 0.05,
+    bot_tol: float = 0.05,
+) -> pd.DataFrame:
+    """Class and margin gaps for every page in *df*.
+
+    Returns a frame indexed like *df* with columns ``text_extent`` (identical to
+    :func:`classify_corpus_text_extents`; the class keeps its own comparison and is
+    never derived from the gaps), ``top_gap`` and ``bot_gap`` (see
+    :func:`margin_gaps`).  *stable* is estimated from *df* if ``None``.
+    """
+    if df.empty:
+        return pd.DataFrame(columns=['text_extent', 'top_gap', 'bot_gap'], index=df.index)
+    if stable is None:
+        stable = estimate_stable_margins(df)
+    out = pd.DataFrame({
+        'text_extent': classify_corpus_text_extents(df, stable, top_tol, bot_tol),
+        'top_gap': df['top'] - stable['top'],
+        'bot_gap': df['bot'] - stable['bot'],
+    }, index=df.index)
+    return out

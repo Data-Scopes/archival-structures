@@ -1,0 +1,16 @@
+check	n_compared	mismatches
+is_separator_sheet	20912	0
+detect_sheets	169	0
+apply_rule[none,0.3]	20912	0
+apply_rule[none,0.5]	20912	0
+apply_rule[none,0.7]	20912	0
+apply_rule[sheet,0.3]	20912	0
+apply_rule[sheet,0.5]	20912	0
+apply_rule[sheet,0.7]	20912	0
+apply_rule[next,0.3]	20912	0
+apply_rule[next,0.5]	20912	0
+apply_rule[next,0.7]	20912	0
+apply_rule[dict,0.3]	20912	0
+apply_rule[dict,0.5]	20912	0
+apply_rule[dict,0.7]	20912	0
+next_scan_id	20912	0

@@ -11,6 +11,9 @@ from archival_structures.analysis.text_extent import (
     compute_page_text_extent,
     estimate_stable_margins,
     full_text_page_fraction,
+    line_region_type,
+    margin_gaps,
+    text_extent_table,
 )
 
 
@@ -246,6 +249,126 @@ class TestFullTextPageFraction(unittest.TestCase):
     def test_empty_dataframe_returns_zero(self):
         df = pd.DataFrame(columns=['page_id', 'n_lines', 'top', 'bot', 'left', 'right']).set_index('page_id')
         self.assertEqual(full_text_page_fraction(df), 0.0)
+
+
+def _make_typed_scan(doc_id, page_h, page_w, region_specs):
+    """Scan from regions: each spec is (type or None, [(left, top, right, bottom), ...])."""
+    regions = []
+    for r, (rtype, line_specs) in enumerate(region_specs):
+        lines = [
+            pdm.PageXMLTextLine(
+                doc_id=f'{doc_id}-r{r}-l{i}',
+                coords=pdm.Coords([(l, t), (rt, t), (rt, b), (l, b)]),
+            )
+            for i, (l, t, rt, b) in enumerate(line_specs)
+        ]
+        kw = {'doc_type': rtype} if rtype else {}
+        regions.append(pdm.PageXMLTextRegion(
+            doc_id=f'{doc_id}-r{r}',
+            coords=pdm.Coords.coords_from_box_params(0, 0, page_w, page_h),
+            lines=lines, **kw))
+    return pdm.PageXMLScan(
+        doc_id=doc_id,
+        coords=pdm.Coords.coords_from_box_params(0, 0, page_w, page_h),
+        text_regions=regions,
+    )
+
+
+def _mixed_scan(doc_id='m'):
+    return _make_typed_scan(doc_id, 1000, 500, [
+        ('header', [(50, 20, 450, 40)]),
+        ('paragraph', [(50, 100, 450, 130), (50, 140, 440, 170)]),
+        ('page-number', [(200, 960, 300, 980)]),
+    ])
+
+
+class TestRegionTypes(unittest.TestCase):
+
+    def test_line_region_type(self):
+        scan = _mixed_scan()
+        lines = scan.get_lines()
+        self.assertEqual(line_region_type(lines[0]), 'header')
+        self.assertEqual(line_region_type(lines[1]), 'paragraph')
+        untyped = _make_scan('u', 100, 100, [(0, 0, 10, 10)]).get_lines()[0]
+        self.assertEqual(line_region_type(untyped), 'text_region')
+
+        class P:
+            pass
+        ln = P()
+        ln.parent = P()
+        ln.parent.type = ['text_region']
+        self.assertEqual(line_region_type(ln), 'text_region')
+        ln.parent.type = 'foo'
+        self.assertEqual(line_region_type(ln), 'foo')
+        ln.parent = None
+        self.assertIsNone(line_region_type(ln))
+
+    def test_none_equals_default(self):
+        scan = _mixed_scan()
+        self.assertEqual(compute_page_text_extent(scan),
+                         compute_page_text_extent(scan, region_types=None))
+        self.assertEqual(compute_page_text_extent(scan)['n_lines'], 4)
+
+    def test_filtered_margins(self):
+        scan = _mixed_scan()
+        res = compute_page_text_extent(scan, region_types={'paragraph'})
+        self.assertEqual(res['n_lines'], 2)
+        self.assertAlmostEqual(res['top'], 0.100)
+        self.assertAlmostEqual(res['bot'], 0.830)
+        self.assertAlmostEqual(res['right'], 50 / 500)
+
+    def test_no_matching_lines(self):
+        scan = _mixed_scan()
+        self.assertIsNone(compute_page_text_extent(scan, region_types={'marginalia'}))
+        df = compute_corpus_text_extents([scan], region_types={'marginalia'})
+        self.assertTrue(df.empty)
+        df = compute_corpus_text_extents([scan], region_types={'paragraph'})
+        self.assertEqual(list(df.index), ['m'])
+
+    def test_empty_corpus_columns(self):
+        df = compute_corpus_text_extents([])
+        self.assertEqual(df.index.name, 'page_id')
+        self.assertEqual(list(df.columns), ['n_lines', 'top', 'bot', 'left', 'right',
+                                            'mean_width', 'equal_frac'])
+
+
+class TestMarginGaps(unittest.TestCase):
+
+    def _df(self):
+        return pd.DataFrame([
+            {'page_id': 'a', 'n_lines': 9, 'top': 0.05, 'bot': 0.05, 'left': 0.1, 'right': 0.1},
+            {'page_id': 'b', 'n_lines': 9, 'top': 0.06, 'bot': 0.30, 'left': 0.1, 'right': 0.1},
+            {'page_id': 'c', 'n_lines': 9, 'top': 0.20, 'bot': 0.04, 'left': 0.1, 'right': 0.1},
+        ]).set_index('page_id')
+
+    def test_margin_gaps(self):
+        g = margin_gaps({'top': 0.2, 'bot': 0.3}, {'top': 0.05, 'bot': 0.04})
+        self.assertAlmostEqual(g['top_gap'], 0.15)
+        self.assertAlmostEqual(g['bot_gap'], 0.26)
+
+    def test_table(self):
+        df = self._df()
+        stable = {'top': 0.05, 'bot': 0.04, 'left': 0.1, 'right': 0.1}
+        t = text_extent_table(df, stable)
+        self.assertEqual(list(t.columns), ['text_extent', 'top_gap', 'bot_gap'])
+        pd.testing.assert_series_equal(t['text_extent'],
+                                       classify_corpus_text_extents(df, stable))
+        self.assertTrue(((df['top'] - stable['top']) - t['top_gap']).abs().max() < 1e-15)
+        self.assertTrue(((df['bot'] - stable['bot']) - t['bot_gap']).abs().max() < 1e-15)
+        self.assertEqual(t.loc['b', 'text_extent'], 'early_end')
+
+    def test_table_estimates_stable(self):
+        df = self._df()
+        t = text_extent_table(df)
+        stable = estimate_stable_margins(df)
+        self.assertAlmostEqual(t.loc['a', 'bot_gap'], 0.05 - stable['bot'])
+        pd.testing.assert_series_equal(t['text_extent'], classify_corpus_text_extents(df))
+
+    def test_table_empty(self):
+        df = compute_corpus_text_extents([])
+        t = text_extent_table(df)
+        self.assertTrue(t.empty)
+        self.assertEqual(list(t.columns), ['text_extent', 'top_gap', 'bot_gap'])
 
 
 if __name__ == '__main__':

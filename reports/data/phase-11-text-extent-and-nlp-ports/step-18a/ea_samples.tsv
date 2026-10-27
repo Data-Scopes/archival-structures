@@ -1,0 +1,11 @@
+scanname	change	end_last	bot_type	bot_text	top_type	top_text	n_lines
+NL-HaNA_1.04.02_1267_0331	early_end->full_text	False	paragraph	ongangbare munt ooc over stueren zullen —	page-number	159	37
+NL-HaNA_1.04.02_1267_0543	early_end->full_text	False	paragraph	"Rds 947„50"""	page-number	267	65
+NL-HaNA_1.04.02_1267_0619	early_end->full_text	False	paragraph	meerder afval aan des vijants zijde. —	page-number	305	34
+NL-HaNA_1.04.02_1267_0944	full_text->early_end	False	catch-word	Maar	paragraph	moussen alhier over te blijven, en soo men geen ongeluk dat godt	33
+NL-HaNA_1.04.02_1547_0476	full_text->early_end	False	text_region	'tschip	paragraph	packhuijsen alhier overleggen, tot tijt en wijle	30
+NL-HaNA_1.04.02_2548_1840	early_end->full_text	False	catch-word	Zang	header	Van Javas Oost Cust den 8 9ber	30
+NL-HaNA_1.04.02_2548_1944	full_text->early_end	False	catch-word	kreeg	header	Van Javas Oost Cust onder dato 30 8ber 1744	29
+NL-HaNA_1.04.02_3142_0381	early_end->full_text	False	catch-word	e	page-number	2199	26
+NL-HaNA_1.04.02_3891_0828	full_text->early_end	False	text_region	Maas	header	agezien	36
+NL-HaNA_1.04.02_8834_0633	full_text->early_end	True	text_region	eede	page-number	623	21

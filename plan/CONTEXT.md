@@ -4,7 +4,7 @@
 > Implementation sessions do not read it: a brief copies in the facts it needs from here. Each phase
 > review updates it, so briefs start from the code as it is, not as it was planned. Keep it under
 > ~150 lines. History belongs in the phase `PROGRESS.md` files.
-> **Last updated:** 2026-10-26, review of phase-12 step 15x (Opus).
+> **Last updated:** 2026-10-27, review of phase 11 (Opus).
 
 ## 1. Text layer v2/v3/v4: what exists now (after phase 12 and its addenda 15wr, 15x)
 
@@ -116,14 +116,12 @@ From phase 09: hand-bottom off-chain page numbers (8 `unclear` rows, F09-R.5); `
 number that fits the chain; a mark rule for capitals, then re-test `g_upper_right` (F09-15l.5); pagexml-tools 0.9.1 pin
 (UA-007). Phase 08: LotA duplicate filter (F08-R.1); phase-11 candidates F08-R.2, F08-17b.2.
 
-Siblings (2026-10-21/23): NLP `text_extent` options are a phase-11 step (UA-014 (a); `text_extent` reads
-`PageXMLScan`s, 21 tests, called from five NLP `scripts/early_end_*.py`/`check_gm_text_extent.py`). Phase 11 C10: AS
-`subsequence_detection` gives gap indices (no 0), NLP `segment_dp`/`textiling_depth_scores` start indices incl. 0 (the
-inventory's C10 row is wrong), no tests. C12: 64 lines, 4-digit scan ids, no tests. C18: no leakage page in
-`docs/challenges/` (rules: `docs/cross-project-review.md` §1.3, NLP `CLAUDE.md` L116–133).
-**NLP has a non-editable AS 0.13.0 install** in `venv/`: an NLP
-import switch needs `venv/bin/python -m pip install -e <AS>` first (a user action). republic `docs/from-republic.md`
-§8 items 2–3 and §10 (mid-session start lines; a `session` layer is partial).
+From phase 11 (reviewed 2026-10-27): NLP's AS is a **non-editable 0.13.0 copy** in `venv/`; UA-032 (editable install)
+gates a shim step (NLP `unsupervised_segmentation.py` → re-export of the five ported names, `separator_sheets.py` →
+AS module; `early_end_extract_body.py` may use `region_types`). Checks against NLP run with `cd NLP &&
+PYTHONNOUSERSITE=1 PYTHONPATH=<AS> venv/bin/python …` (no install needed). Open: TextTiling edge padding (F11-R.2, only
+with that shim and an NLP re-run); catch-word flag as an END feature for NLP (F11-R.1); F08-R.2, F08-17b.2 (P8); republic
+`docs/from-republic.md` §8 items 2–3 and §10 (mid-session start lines; a `session` layer is partial).
 
 ## 5. Planning notes: recurring brief defects
 
@@ -139,7 +137,8 @@ import switch needs `venv/bin/python -m pip install -e <AS>` first (a user actio
 - **The agent shell:** no `rm -rf`, `nohup` or `&`, a new dir per run, `chmod g+w`, zsh (write the `coreshare.py run …`
   prefix out). Sibling suites with their own interpreter (LotA: `PYTHONNOUSERSITE=1 venv/bin/python -m pytest -q -p
   no:cacheprovider`, 381 passed + 1 xfailed on 2026-10-25).
-- **Run every command a brief quotes once at planning, as written.**
+- **Run every command a brief quotes once at planning, as written**, and every behaviour it predicts for ported code
+  (11: TextTiling on constant input; empty-row shares of a reference CSV). macOS `zcat` fails on `.gz`: use `gzip -dc`.
 - **Reference numbers at the frozen precision** (15q); quote a planning number only under the step's exact definition
   (F10-R.2). A failed ratio feature: report numerator and denominator before naming a cause (F10-R.1). Give every
   harness subcommand its own output prefix.

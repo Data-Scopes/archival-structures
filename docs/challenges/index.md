@@ -21,6 +21,7 @@ broader motivation.
 | Document segmentation (page stream to document stream) | Stub | [document_segmentation.md](document_segmentation.md) |
 | Page order problems (swaps, insertions, document-level swaps) | Stub | [page_order_problems.md](page_order_problems.md) |
 | Simulation harness (corrupting real streams at controlled rates) | Design note | [simulation_harness.md](simulation_harness.md) |
+| Leakage and splits (checks before believing a number) | Methodology | [leakage_and_splits.md](leakage_and_splits.md) |
 
 More entries -- e.g. document type classification, cross-page element linking, completeness
 checking -- belong here as they get scoped out.
@@ -34,4 +35,5 @@ page_stream_terminology
 document_segmentation
 page_order_problems
 simulation_harness
+leakage_and_splits
 ```
