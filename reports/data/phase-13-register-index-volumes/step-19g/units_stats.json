@@ -1,0 +1,510 @@
+{
+ "a": {
+  "n_inv": 111,
+  "main_flagged": {
+   "c": 55505,
+   "d": 111062
+  },
+  "main_other": {
+   "c": 318225,
+   "d": 318225
+  },
+  "methods_flagged": {
+   "c:hand:region": 53805,
+   "c:hand:region_cut_at_header": 1700,
+   "c:hand:run": 26833,
+   "d:hand:index:date_start": 3085,
+   "d:hand:index:date_start+end_ref_prev": 125,
+   "d:hand:index:date_start+end_ref_prev+header": 1,
+   "d:hand:index:date_start+header": 44,
+   "d:hand:index:end_ref_prev": 11460,
+   "d:hand:index:end_ref_prev+header": 13,
+   "d:hand:index:header": 440,
+   "d:hand:index:outdent": 7260,
+   "d:hand:index:outdent+date_start": 1004,
+   "d:hand:index:outdent+date_start+end_ref_prev": 36,
+   "d:hand:index:outdent+date_start+header": 20,
+   "d:hand:index:outdent+end_ref_prev": 4183,
+   "d:hand:index:outdent+end_ref_prev+header": 9,
+   "d:hand:index:outdent+header": 226,
+   "d:hand:index:outdent+short_prev": 1069,
+   "d:hand:index:outdent+short_prev+date_start": 819,
+   "d:hand:index:outdent+short_prev+date_start+end_ref_prev": 31,
+   "d:hand:index:outdent+short_prev+date_start+header": 11,
+   "d:hand:index:outdent+short_prev+end_ref_prev": 2013,
+   "d:hand:index:outdent+short_prev+end_ref_prev+header": 1,
+   "d:hand:index:outdent+short_prev+header": 50,
+   "d:hand:index:short_prev": 7958,
+   "d:hand:index:short_prev+date_start": 2492,
+   "d:hand:index:short_prev+date_start+end_ref_prev": 121,
+   "d:hand:index:short_prev+date_start+header": 25,
+   "d:hand:index:short_prev+end_ref_prev": 11337,
+   "d:hand:index:short_prev+end_ref_prev+header": 7,
+   "d:hand:index:short_prev+header": 301,
+   "d:hand:index_start": 13771,
+   "d:hand:region": 43150,
+   "d:hand:run": 24260
+  },
+  "methods_other": {
+   "c:hand:region": 315462,
+   "c:hand:region_cut_at_header": 2763,
+   "c:hand:run": 356385,
+   "d:hand:region": 315462,
+   "d:hand:region_cut_at_header": 2763,
+   "d:hand:run": 356385
+  },
+  "n_flagged_sides": 5602,
+  "n_other_pages_diff_rows": 0,
+  "n_other_units": 674610,
+  "n_other_seg_rows_diff": 0,
+  "n_other_order_diff": 0,
+  "inv_flagged_main": {
+   "46": [
+    364,
+    2714
+   ],
+   "359": [
+    5,
+    19
+   ],
+   "695": [
+    6,
+    22
+   ],
+   "751": [
+    2,
+    4
+   ],
+   "882": [
+    2,
+    8
+   ],
+   "3104": [
+    1325,
+    1735
+   ],
+   "3107": [
+    50,
+    450
+   ],
+   "3126": [
+    321,
+    818
+   ],
+   "3127": [
+    56,
+    438
+   ],
+   "3199": [
+    20,
+    46
+   ],
+   "3221": [
+    7,
+    46
+   ],
+   "3254": [
+    228,
+    2504
+   ],
+   "3256": [
+    381,
+    2633
+   ],
+   "3265": [
+    195,
+    2983
+   ],
+   "3274": [
+    2059,
+    2140
+   ],
+   "3280": [
+    1300,
+    1369
+   ],
+   "3283": [
+    1635,
+    1753
+   ],
+   "3290": [
+    1441,
+    1467
+   ],
+   "3303": [
+    1101,
+    1239
+   ],
+   "3307": [
+    782,
+    902
+   ],
+   "3308": [
+    756,
+    867
+   ],
+   "3315": [
+    795,
+    913
+   ],
+   "3320": [
+    787,
+    1844
+   ],
+   "3349": [
+    448,
+    2065
+   ],
+   "3350": [
+    413,
+    1641
+   ],
+   "3351": [
+    3328,
+    6021
+   ],
+   "3352": [
+    368,
+    1797
+   ],
+   "3353": [
+    631,
+    1680
+   ],
+   "3354": [
+    2907,
+    5411
+   ],
+   "3368": [
+    639,
+    1721
+   ],
+   "3394": [
+    359,
+    1056
+   ],
+   "3401": [
+    490,
+    1502
+   ],
+   "3408": [
+    956,
+    1521
+   ],
+   "3421": [
+    1606,
+    2336
+   ],
+   "3428": [
+    1242,
+    2101
+   ],
+   "3438": [
+    939,
+    1524
+   ],
+   "3444": [
+    751,
+    1797
+   ],
+   "3455": [
+    715,
+    1878
+   ],
+   "3456": [
+    685,
+    1621
+   ],
+   "3459": [
+    525,
+    1726
+   ],
+   "3471": [
+    747,
+    2499
+   ],
+   "3478": [
+    2042,
+    4431
+   ],
+   "3487": [
+    1510,
+    2181
+   ],
+   "3492": [
+    1781,
+    3193
+   ],
+   "3493": [
+    907,
+    2033
+   ],
+   "3498": [
+    13,
+    30
+   ],
+   "3507": [
+    931,
+    1981
+   ],
+   "3520": [
+    16,
+    28
+   ],
+   "3522": [
+    1112,
+    1618
+   ],
+   "3523": [
+    27,
+    53
+   ],
+   "3525": [
+    27,
+    52
+   ],
+   "3539": [
+    1090,
+    1711
+   ],
+   "3546": [
+    1961,
+    4266
+   ],
+   "3547": [
+    1383,
+    2272
+   ],
+   "3572": [
+    897,
+    1182
+   ],
+   "3579": [
+    1728,
+    3501
+   ],
+   "3587": [
+    1096,
+    1661
+   ],
+   "3590": [
+    1029,
+    1580
+   ],
+   "3611": [
+    1482,
+    2376
+   ],
+   "3623": [
+    1754,
+    3030
+   ],
+   "3630": [
+    1089,
+    2203
+   ],
+   "3712": [
+    1494,
+    2213
+   ],
+   "4170": [
+    3,
+    5
+   ],
+   "4617": [
+    308,
+    1083
+   ],
+   "4623": [
+    346,
+    744
+   ],
+   "4831": [
+    14,
+    358
+   ],
+   "8287": [
+    7,
+    8
+   ],
+   "8706": [
+    41,
+    311
+   ],
+   "11182": [
+    39,
+    75
+   ],
+   "11220": [
+    6,
+    27
+   ],
+   "11281": [
+    5,
+    18
+   ],
+   "11930": [
+    0,
+    27
+   ]
+  },
+  "types_flagged": {
+   "c:catch_word": 369,
+   "c:date_header": 2733,
+   "c:index": 2573,
+   "c:main_text": 55505,
+   "c:marginalia": 16322,
+   "c:other": 480,
+   "c:page_number": 4338,
+   "c:running_header": 14,
+   "c:signature_mark": 4,
+   "d:catch_word": 369,
+   "d:date_header": 2733,
+   "d:main_text": 111062,
+   "d:marginalia": 16322,
+   "d:other": 480,
+   "d:page_number": 4338,
+   "d:running_header": 14,
+   "d:signature_mark": 4
+  }
+ },
+ "z": {
+  "n_inv": 14,
+  "main_flagged": {
+   "c": 24839,
+   "d": 50959
+  },
+  "main_other": {
+   "c": 1145,
+   "d": 1145
+  },
+  "methods_flagged": {
+   "c:hand:region": 23380,
+   "c:hand:region_cut_at_header": 1459,
+   "c:hand:run": 13850,
+   "d:hand:index:date_start": 7018,
+   "d:hand:index:date_start+end_ref_prev": 268,
+   "d:hand:index:date_start+end_ref_prev+header": 2,
+   "d:hand:index:date_start+header": 43,
+   "d:hand:index:end_ref_prev": 1262,
+   "d:hand:index:end_ref_prev+header": 44,
+   "d:hand:index:header": 517,
+   "d:hand:index:outdent": 3333,
+   "d:hand:index:outdent+date_start": 1269,
+   "d:hand:index:outdent+date_start+end_ref_prev": 65,
+   "d:hand:index:outdent+date_start+end_ref_prev+header": 1,
+   "d:hand:index:outdent+date_start+header": 10,
+   "d:hand:index:outdent+end_ref_prev": 349,
+   "d:hand:index:outdent+end_ref_prev+header": 18,
+   "d:hand:index:outdent+header": 138,
+   "d:hand:index:outdent+short_prev": 423,
+   "d:hand:index:outdent+short_prev+date_start": 607,
+   "d:hand:index:outdent+short_prev+date_start+end_ref_prev": 42,
+   "d:hand:index:outdent+short_prev+date_start+header": 6,
+   "d:hand:index:outdent+short_prev+end_ref_prev": 51,
+   "d:hand:index:outdent+short_prev+end_ref_prev+header": 2,
+   "d:hand:index:outdent+short_prev+header": 35,
+   "d:hand:index:short_prev": 3843,
+   "d:hand:index:short_prev+date_start": 6679,
+   "d:hand:index:short_prev+date_start+end_ref_prev": 408,
+   "d:hand:index:short_prev+date_start+end_ref_prev+header": 2,
+   "d:hand:index:short_prev+date_start+header": 28,
+   "d:hand:index:short_prev+end_ref_prev": 287,
+   "d:hand:index:short_prev+end_ref_prev+header": 13,
+   "d:hand:index:short_prev+header": 258,
+   "d:hand:index_start": 8325,
+   "d:hand:region": 15613,
+   "d:hand:run": 13634
+  },
+  "methods_other": {
+   "c:hand:region": 1097,
+   "c:hand:region_cut_at_header": 48,
+   "c:hand:run": 989,
+   "d:hand:region": 1097,
+   "d:hand:region_cut_at_header": 48,
+   "d:hand:run": 989
+  },
+  "n_flagged_sides": 3271,
+  "n_other_pages_diff_rows": 0,
+  "n_other_units": 2134,
+  "n_other_seg_rows_diff": 0,
+  "n_other_order_diff": 0,
+  "inv_flagged_main": {
+   "3433": [
+    1264,
+    3262
+   ],
+   "3436": [
+    1885,
+    3577
+   ],
+   "3439": [
+    2801,
+    4660
+   ],
+   "3442": [
+    2763,
+    5067
+   ],
+   "3445": [
+    2144,
+    4281
+   ],
+   "3463": [
+    2049,
+    4387
+   ],
+   "3466": [
+    2386,
+    5403
+   ],
+   "3469": [
+    2232,
+    4643
+   ],
+   "3472": [
+    1752,
+    3811
+   ],
+   "3475": [
+    2462,
+    6209
+   ],
+   "3489": [
+    1399,
+    2256
+   ],
+   "3726": [
+    33,
+    382
+   ],
+   "4792": [
+    269,
+    430
+   ],
+   "12297": [
+    1400,
+    2591
+   ]
+  },
+  "types_flagged": {
+   "c:catch_word": 58,
+   "c:date_header": 2435,
+   "c:index": 216,
+   "c:main_text": 24839,
+   "c:marginalia": 8126,
+   "c:other": 205,
+   "c:page_number": 2807,
+   "c:running_header": 2,
+   "c:signature_mark": 1,
+   "d:catch_word": 58,
+   "d:date_header": 2435,
+   "d:main_text": 50959,
+   "d:marginalia": 8126,
+   "d:other": 205,
+   "d:page_number": 2807,
+   "d:running_header": 2,
+   "d:signature_mark": 1
+  }
+ }
+}

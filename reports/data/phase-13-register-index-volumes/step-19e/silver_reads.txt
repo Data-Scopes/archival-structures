@@ -1,0 +1,298 @@
+=== 3307 NL-HaNA_1.01.02_3307_0333 verso silver_res_lines=51 rule=1
+0	Dese ses posten sijn t'onrechte
+0	ongelijck hoger als op
+0	frieslandt, dewijle die
+0	provincie meer militie is.
+0	hebbende, en daerom eerder
+0	hooger als lager in dien deele
+0	moeste worden aengeslagen.
+0	brengende de ordre vande
+0	regeringe mede, dat de
+0	post vande appointer al„
+0	tijt moet werden geformeert
+0	naer proportie van militie
+0	opde respective provincien
+0	gerepartieert
+0	Nademael den raedt van State
+0	sonder eenparige resol
+0	van haer ho:Mo: geen
+0	nieuwe lasten vermachte
+0	brengen opden Staet van
+0	Oorlogh, nochte eenige ver„
+0	anderinge inde repartitie
+0	te maecken, moet dese
+2	Zeelandt
+2	Utrecht.
+1	Logijsgelden.
+1	Godert van Rhede
+1	heer van Ginckel,
+1	Gouverneur over
+1	dese provincie van
+1	
+1	Utrecht.
+3	100: 0: 0
+1	ten dienste van Lande
+1	te doen.6166: 15: 4
+1	Appointez oude vermincte
+1	soldaten.
+1	De Servicien ofte
+1	logijsgelden ip ter
+1	lopende maent van
+1	Guarnisoenen in Zee„
+1	landt 1661: 11: 11.
+1	Andere oncosten vanden
+1	Oorlogh.
+1	Voor reijscosten p 177: 11: 0
+1	De Scheepsvrachten 314: 11: 8
+1	Voor secrete diensten 119: 0: 0
+1	Bodeloomen, Misen
+1	van justitie i. 300: 0: 0
+1	Tot onderhout vande
+1	voorschreve appoin„
+1	ter ter loopende
+1	maent. 2507: 19: 11
+=== 4831 NL-HaNA_1.01.02_4831_0022 verso silver_res_lines=52 rule=0
+0	uijt het Regiment
+0	van Loreijn.
+1	Nicolaes Laurin Coll89, 1264.
+1	Pierre Ferdinand Gaillardi, Lt.
+1	89, 1264
+1	Coll
+1	Christiaen Wartesleven St. Rajor- 89, 1264.
+1	Cornelis Mateleeff Lus89, 1264.
+1	Louis de Boculo, Sr. de Fosse89, 1264.
+1	Hans Prull89, 1264
+1	Pierre Laurin de Sordet89, 1264
+1	Carel Loten
+1	89, 1264.
+1	Salomon Bredinuus89, 1264.
+1	St. William Balentin89, 1264.
+1	ije. Somma van hondert achtien Compen. te Voet„
+1	uijtbrengende het getal van 10502. Coppen,
+1	bedragende ter maent van xlij. dagen,
+1	de somme van hondert en vijftich duijsent
+1	drie hondert achtendertich ponden, twee
+1	schell. 7305 d.
+1	Int Jaer 13152008 5
+3	Ende ter loopende maent
+3	10
+3	109600-,821
+2	Vrieslandt,
+2	Voetvolck.
+1	De Compe. Guardes van Sijne furstl.
+1	Genade de heer Stadthouder200 2957.
+1	De Compe. Coll van H. Stadthouder 89, 1264.
+1	Poppe van Burmania Lt. Coll,89, 4264.
+1	Hessel van Bootsma Major-89, 1264.
+1	George Frenck89, 1264.
+1	Feijo van Heemstra89, 1264
+1	Hendrick George, Vrijheer tot
+1	Swartzenburch
+1	89, 1264.
+=== 4831 NL-HaNA_1.01.02_4831_0020 verso silver_res_lines=109 rule=0
+1	Lutzauw Coll
+1	89.
+1	Ziegleser Lt. Coll
+1	1264.
+1	
+1	89.
+1	1264.
+1	Albert Heijn Major
+1	
+1	
+1	89.
+1	1264.
+1	Oustaft Adam van Witgensteijnff 89. 1264.
+1	Greve
+1	2
+1	
+1	89. 1264.
+1	Court Elloff van Bulauw89. 1264.
+1	hendrick Heibold
+1	89. 1264.
+1	Jan Lanhuijs
+1	-
+1	
+1	891264.
+1	Alexander van Eller
+1	89
+1	
+1	1264.
+1	Wm. Fred: van Strombach. 89. 1264.
+	
+1	dese twee openstaende Compe. hooren onder het 89. 1264.
+1	regiment van Lutzau, sijn al aengecomen.89. 1264
+1	doeh haer namen noch niet bekent.
+1	Jodocus Dominicus Benois
+1	t89. 1264
+1	Carel Christoph van Horn, Coll- 89. 1264
+1	Elias Kuchman
+1	
+1	
+1	89, 1264.
+1	89. 1264
+5	89. 1264
+5	89. 1264
+5	89 1264
+5	89 1264
+4	89 1264
+4	891 1264.
+5	
+5	89, 1264
+4	89. 1264.
+4	
+4	89.
+4	1264.
+4	
+4	89.
+4	1269.
+4	
+4	89.
+4	
+4	1264.
+4	1264
+3	Wevor
+1	Petrus Rademaecker
+1	Nicolaes Batman Majer
+1	Daniel Torsaij, Coll
+1	
+1	teau Pietre d'Armoise, Major89.
+1	Hendrick van Steenhuijsen89. 4264.
+1	Dirck van Haesten, Verwolde89. 1264
+1	Gerrit Loot
+1	
+1	
+1	
+1	89.
+1	1264
+1	Baron de Corvall 89.
+1	1264.
+1	Daniel van Weittenbach89. 1264.
+1	francois du Pasté
+1	89, 1264.
+1	Johan Peter Philippi
+1	
+1	891264.
+2	iije.
+1	Somma van 579. Compen. uijtbrengen het getal
+1	van 51942. Coppen, bedragende ter maent van xlij dagen
+1	de somme van seven hondert ses en veertich duijsent
+1	negen hondert seventwintich ponden vijff sch: acht 73e
+4	Ende ter loopende maent
+4	540929-9- 721
+6	20
+4	Int Jaer - 6491153- 15- 117.
+0	Dese acht Compen. met
+0	open namen haren onder
+0	't Regiment van Colle.
+0	horm daervan vijffal
+0	in Noerhollant aenge„
+0	comen, dan de namen
+0	noch niet bekent sijn.
+0	de drie anderen op
+0	wegh sijnde.
+=== 3315 NL-HaNA_1.01.02_3315_0488 recto silver_res_lines=45 rule=0
+2	1. Mey.
+3	Lijff Pensioenen,
+4	Lijffrenten.
+3	Zeelandt.
+3	Appoinctez ea.
+0	Logijs Gelden.
+0	deposten sijn t'onrechten ongelijck De servicien off Logijs
+3	Tot onderhout vande voors
+3	appoinctez ee. ter loopende
+3	maent
+6	448
+5	2507: 89: 12:
+0	Gasper guerij Chirurgijn
+0	van heer van Brederoode, f 20-00
+0	Voordrie gierbraggen die
+0	continuelijck sullen moeten
+0	gehouden werden tot Nijme„
+0	„gen 7e 233: 678:
+0	De heer jonge Cheur prins
+0	van Brandenburchf 33316:8:
+1	dlssos van desedrie opgestelde hier
+1	bruggen, maer een tot Nijmegen
+1	wertgevonden, moet dese Post
+1	sooveel worden vermindert, jal ge„
+1	heel van Staet affgelicht, om dat
+1	de gierbrugge tot Nijmegen uijt de
+1	pofijten daeraffcomende can
+1	werden onderhouden.
+1	dese postmoet werden geroijeert na„
+1	demael doorde doot van jonge
+1	Cheur Prins desselffs Lijffpen„
+1	sioen cesseert.
+1	dese functie ophoudende moet
+1	deselve vanden Staet worden
+1	affgelaten.
+0	Selepost een puijre nieuwicheijt
+0	Hendrick de vernes ridder
+0	sijnde en t‛eenemael Provinciael
+0	meester vande Acadenie op„
+0	meenen haer Edl:Mo: dat t‛eene„
+0	gerecht in den Hage 5000: le
+0	nael van Staet behoorde affgelaten 5jaers, en ter loopende maents 416: 13
+0	te worden.
+0	Voor secrete diensten &
+0	correspondentien mitsgrs
+0	van Spij en bodeloonen ten
+0	dienste vanden Lande te doen (. 6166: 134:
+=== 4831 NL-HaNA_1.01.02_4831_0023 recto silver_res_lines=87 rule=0
+0	147
+1	Andreas Huije
+1	
+1	
+1	89. 1264
+1	Watso van Burmania, Coll. 89. 1264.
+1	Johan van Brirum, Lt. Coll. 89. 1264.
+1	Johannes van Velsen, 89, 1264.
+1	Dirck masset van Aijsma.89. 1264.
+1	Callo van Galema89. 1264
+1	Boudewijn van Tamminga89, 1264.
+1	Albert Christoffel van Hania89. 1264
+1	Taco van Hittinga89. 1264.
+1	Johan de Besco.
+1	89, 1264
+1	Daniel Kreij
+1	89, 1264
+1	Godefroij Baisman89, 1264.
+1	Adrianus Liemersma89, 1264.
+1	Hans Helmigh van Melle89. 1264
+1	Sijthe Boelens89, 1264.
+1	Prins Willem Maurits van Nassau
+1	Coll
+1	
+1	89, 1264
+1	Johan van Broechuijsen89, 1264
+1	Hendrick Schaep89, 1264
+1	Christoffel van Bevervorden- 89, 1264
+1	Maximiliaen Baron van Heijde- 89. 1264.
+1	Jacob Kuijper van Wolthuijsen89. 1264
+1	Godefroij van uijtterwijck89, 1264
+1	Dirck van Harsolte tot Zuijtheim, 89. 1264
+2	Mariniers.
+3	Van Soligauw 89, 1264
+1	Sijbrant Kierit
+1	
+1	89, 1462- 14-
+1	Gerardus van Ecke89, 1462,- 14 9 365
+1	365
+1	147
+1	Johannis Klinckert89, 1462 14-9
+1	147
+1	365
+1	Pieter Pieterson
+1	89, 1462, 14, 9365
+1	147
+1	Hendrick vander Graeff89, 1462, 149 305.
+1	147
+1	Johan Moris89, 1462- 14, 9385
+1	197.
+1	Julius Casar Bovetius89, 1462,- 14- 9 365
+1	147
+1	Willem Bevendge Baron de Beauchamp
+1	147
+5	147.
+4	89, 1462, 44-9, 365

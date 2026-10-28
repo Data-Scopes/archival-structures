@@ -1,0 +1,21 @@
+n	inv	scan_id	page	verdict	kind	note
+1	3350	NL-HaNA_1.01.02_3350_0009	verso	index	page-reference index	alphabetical names with page numbers (Chenailles 600., Citters 5.)
+2	3463	NL-HaNA_1.01.02_3463_0009	recto	index	dated summary index	dated entries (26 Augusty. Reg: ...; 29 September Miss: ...)
+3	3463	NL-HaNA_1.01.02_3463_0028	recto	index	dated summary index	lemmas Bourtange, Booden; dated entries with amounts
+4	3463	NL-HaNA_1.01.02_3463_0044	recto	index	dated summary index	lemma Denemarken, sub-lemmas Commissaris van deurs, Resident loymans (cf. UA-039 item 54)
+5	3463	NL-HaNA_1.01.02_3463_0054	recto	index	dated summary index	lemma Furnes, dated entries
+6	3463	NL-HaNA_1.01.02_3463_0092	verso	page number only	blank side	one line '162.'; one unit, no harm
+7	3463	NL-HaNA_1.01.02_3463_0119	verso	page number only	blank side	one line '214.'; one unit, no harm
+8	3463	NL-HaNA_1.01.02_3463_0157	recto	index	dated summary index	'verloven aan officieren', dated entries, some garbled lines
+9	3471	NL-HaNA_1.01.02_3471_0038	verso	index	page-reference index	Pardonnen, Palts; two columns, page references
+10	3472	NL-HaNA_1.01.02_3472_0036	recto	index	dated summary index	stad en Lande, consenten
+11	3472	NL-HaNA_1.01.02_3472_0075	verso	index	dated summary index	Extraordinaris Envoijé Sporcken, dated entries
+12	3472	NL-HaNA_1.01.02_3472_0088	verso	index	dated summary index	Knocke, two dated entries
+13	3472	NL-HaNA_1.01.02_3472_0112	recto	index	dated summary index	Namen, dated entries
+14	3472	NL-HaNA_1.01.02_3472_0121	recto	index	dated summary index	OostIndische Compagnie, Retourvloot
+15	3472	NL-HaNA_1.01.02_3472_0129	verso	index	dated summary index	Pruijssen, Envoyé Podewils
+16	3472	NL-HaNA_1.01.02_3472_0158	verso	index	dated summary index	Staat van oorlog, consents by province with dates
+17	3587	NL-HaNA_1.01.02_3587_0026	recto	index	page-reference index	judiciele Saaken, entries ending in page numbers
+18	3587	NL-HaNA_1.01.02_3587_0038	verso	index	page-reference index	Religie Saaken, entries ending in page numbers (interleaved columns)
+19	3623	NL-HaNA_1.01.02_3623_0080	verso	index	page-reference index	Lillo, Vlaanderen; entries ending in page numbers
+20	8706	NL-HaNA_1.01.02_8706_0173	recto	not index	account	ration account (785690 rations, amounts 54016: 3: 0); every line after the first block cut as a unit; 8706 has 15 flagged sides (4 rule, 11 gap fill), all accounts of subsidies

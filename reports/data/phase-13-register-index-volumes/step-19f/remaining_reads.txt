@@ -1,0 +1,210 @@
+
+#### unit 01 inv 3493 NL-HaNA_1.01.02_3493_0051-text_region-1832-1981-3198-1974
+-- source regions 1 (reordered: 1), their lines 42; guard: gap 1069 < 0.25*W (4374)
+   1909  2385  1939 | dat het proces van 't schip Roodewyl, aan secrets. van van hoey,
+   1908  2480  3120 | Anna Maria gerevideert, om te insteeren op zyne papieren voor de Wede. van C: Cok, aan residt. van
+   2723  2596  1104 | genomen uit het Schip de jalou„
+   2727  2979  1112 | en Amb. van Wassenaar tot restitu„
+   1832  3052  2028 | voor J. senior Coronel aandere van een paketje met diamanten
+   1912  3242  1849 | den A: van den Sande, d: Wassenaar, rakende het gem=
+   2776  3524  1039 | Crul, aan Wassenaer, om te
+   2744  3631  1083 | nsteeren op een favorabele alte„
+   1907  3728  1944 | taris van Hop, wegens deatie of annullatie van de dispositi
+   3812  1981  1218 | G: van Staveren, aan Secrete. van van
+   3869  2130  1150 | Hoeij, om te insteeren op 't ontslag
+   3887  2219  1124 | van 't schip het huys ten Dom
+   3864  2330   218 | 318.
+   3857  2596  1127 | Lansbergen, over het ontslag van
+   3854  2705   689 | geel wasch 328.
+   3796  2860  1227 | Voor S: L: Caters en Compe. aan Generael
+   3881  2960  1124 | van Burmania, om te insteeren
+   3880  3076  1147 | op de restitutie der geconfisqueerd
+   3868  3179  1110 | graanen, door de Franschen ge„
+   3869  3274   455 | daen, 399.
+   3790  3436  1162 | Voor P: Foy, aan den Envojé Hop
+   3887  3544  1099 | om te insteeren op expeditie van
+   3852  3646  1129 | justitie ontrent zyne zaak 402.
+
+#### unit 02 inv 3493 NL-HaNA_1.01.02_3493_0013-text_region-1626-745-2956-354
+-- source regions 1 (reordered: 0), their lines 5; guard: min_lines (only 5 non-empty lines)
+   1626   745  2956 | creditief op den Secrets. P: H: D. Baron van During, als du Fagel van Assendelft, als
+   2568   873   932 | Generael Major van de
+   3575   872   560 | Lr. Gene. 310.
+   2547   949   636 | Infantery 85.
+
+#### unit 03 inv 397 NL-HaNA_1.01.02_397_0063-text_region-74-250-2521-3705
+-- source regions 1 (reordered: 0), their lines 58; guard: wide 36/57 > 0.34
+    638   250  1851 | Cameren moghten werden gerespecteert ende
+    652   389  1819 | naargekomen, alsoo sonder 'tselve onmogelijck
+    657   482  1736 | was, de zaken vande Compagnie buijten
+    662   568  1771 | confusie te houden, de voors nominatie en
+    667   672  1710 | daarop gevolghde electie moghte werden
+    654   765  1849 | verclaart nul ende van ouwaarden, en sulxx de
+    656   868  1866 | voors. Camer aangeschreven ende geinjungeert,
+    657   978  1755 | omvolgens ende in conformité vanden voet
+    659  1077  1801 | ende ordre, bij het voors. articul van't Octroij,
+    659  1168  1778 | geprescribeert, te treden tot het doen van een
+    659  1293  1759 | nieuwe nominatie, ende die over te leveren
+    660  1369  1812 | aan die sulx behoort, om daar uijt een wettige
+   2011  1476   502 | Banap
+    658  1488  1051 | electie gedaan te werden;
+    675  1550  1610 | gedelibereert zijnde, hebben de Heeren
+     94  1664   614 | bewinthebberen
+    680  1658  1842 | Gedeputeerden vande provincien van Gelder„
+    672  1734  1742 | landt, Hollandt, Zeelandt, Utrecht ende
+    111  1846  2401 | Oostinde. Compoverijssel de voors. remonstrantijs copielijk
+    111  1965   614 | ter camere van
+    672  1944  1778 | overgenomen, om inden haren breder gecom„
+    111  2046  2365 | deser aen naer municeert te werden. Ende is dien onver„
+    100  2140  2233 | Ho:Mo. op de mindert goedtgevonden ende verstaan, dat
+    102  2255   645 | voors remonstran
+    725  2246  1769 | Copie vande voors. remonstrantie gesonden
+     93  2321  2157 | tie overgegeven, en inde notulen alder, byeder Veraent
+    691  2370  1676 | sal werden aande Bewinthebberen vande
+     92  2402   621 | Hebben ter Ver„
+     88  2433  2398 | gaderinge rappor voors. Camer van Hoorn, om daartegens haar
+     84  2542   658 | teert, dat deselve
+    684  2540  1817 | belangh ten spoedigsten terescriberen, ende
+     82  2616   736 | onder het welnemen
+     84  2647  2394 | van haer Ho:Mo: dat gelijke Copie vande voors: remonstrantie
+     84  2755  2262 | gevoelen slgestelt sal werden in handen vande heeren
+     88  2843  2458 | sijn, dat bij haer Verbolt, ende andere hare Ho:Mo: gedeputeerden
+     83  2969   653 | Ho:Mo: behoorden
+     79  2964  2445 | te werden verclaecet de zaken vande Oostindische Compagnie,
+     74  3053  2502 | dat de voors eleeten te visiteren, examineren, ende van alles alhier
+     87  3164  1941 | van den Bewint ter vergaderinge rapport te doen.
+     89  3220  2506 | hebber bij de Camer van Hoorn gedaen, wel en Wettissis geschalt en
+     89  3327  1222 | met het derde articul van het
+   1477  3329  1044 | t'versoecke bij de voors ee
+     98  3397  2440 | voors octroij in genen deele strijdigh is, monstrantie gedeel behoort te
+     99  3477  1836 | en dat haer Meo. dienvolgensaccondeert met
+   1589  3520   752 | werden vagelesen
+    100  3565  1776 | de deseleroen te conielae affeel
+    106  3634  1691 | Waer op gedelibereert sijnde hebben de Heeren Ge„
+    121  3706  1476 | dep: van de Provintie van Hollandt en
+   1961  3656   438 | Sader
+    125  3766  1516 | Westvrieslandt het voors gerapporteerde
+    140  3799  2342 | copielijck overgenomen, om mit den haren breder gecommunicerr f
+
+#### unit 04 inv 3611 NL-HaNA_1.01.02_3611_0054-text_region-316-1451-2233-453
+-- source regions 1 (reordered: 0), their lines 6; guard: narrow candidates < 6 (5 of 6, W=2233)
+    316  1451  2221 | Misse. van de Magistraat van Hulst, Regt. van' Ht. Pauliis 94: bedyking
+    449  1577  1018 | heffen Exlra haar dstedergeld, tot
+   1534  1585  1014 | der schorren beoosten. Bly 472.
+    443  1671   959 | het leggen en onderhouden der
+    432  1764   534 | Araat weg, 634.
+   1400  1755  1149 | S: van Sozanne, tot St. Bailliuw. 1758
+
+#### unit 05 inv 3630 NL-HaNA_1.01.02_3630_0047-text_region-1701-1801-3404-1685
+-- source regions 1 (reordered: 1), their lines 38; guard: gap 1141 < 0.25*W (4777)
+   2713  1801  2323 | pirs: W: S: Compe. Grief: Zeeland, instee, Reqe. C: Jaar en Zoonen. 80.
+   2853  1973  1100 | rende op spoedig subsidie van
+   2875  2078  1077 | een millioen. 117. Miss: W: S:
+   4058  1991   726 | C: A: Sestard. 84.
+   4015  2107   808 | S: Petterode, 203.
+   2884  2186  1081 | Comp: Amsterdam, rak: d ver„
+   4030  2203   986 | P: Tinnen. Z4k. 243, 659.
+   2913  2282  1054 | zogte subsidie van 3 millioen
+   3962  2307  1123 | Mr. H: van Teylingen, 533.
+   2882  2388  1059 | 355. Rapport en Resol: 503.
+   3910  2449   406 | Junis.
+   2717  2600  1672 | miss: van Idiv: Magt. van Maastricht Tripoli)
+   2857  2715  1110 | insteerende op nader secours
+   3923  2760  1182 | Fencriffe. vid. Sspagne.
+   2874  2837   818 | van penningen. 104.
+   3917  2889  1173 | Thulemeier, vid: Pruissen.
+   1701  3019  2271 | sche Vlag op t schip de Vriend Gaappen. en Resol: op Mer: van Indivisen
+   2819  3133  1153 | Magt. van Maastricht om voor„
+   2833  3223   866 | seening van penn: 189.
+   3920  3236  1169 | Forniello. v: Venetien,
+   4117  3364   721 | onder Italien.
+
+#### unit 06 inv 3192 NL-HaNA_1.01.02_3192_0471-text_region-296-531-2612-1100
+-- source regions 1 (reordered: 0), their lines 22; guard: wide 9/22 > 0.34
+    311   546   956 | Opt iije point hebben hare Ho:
+   1362   531  1535 | Ende vorders omme te beletten alle toevoer
+    312   626  2558 | Mo: verclaert dat aende respectiue van vivres, ommunitie ende andersins
+    313   687  1178 | collegien ter Admiraliteit sal worden
+   1514   685  1296 | na Steuensweert, Maseyck ende
+    304   756  2425 | geschreuen dat sy de Convoymrs Gelder met notificatie aen alle de
+    305   813  1194 | vande Comptoiren van haren resorte
+   1470   816  1402 | Gouuerneurs ende Commandeurs ende
+    328   871  1168 | sullen hebben te lasten dat sy egeen
+   1527   888  1243 | dat de soldaten de goederen, derwerts
+    329   946  1164 | paspoorten sullen hebben te verleenen.
+   1499   958  1409 | gaende als goeden prys sullen mogen nemen.
+    328  1005  1140 | om goederen ofte eetwaren perasse
+    301  1061  1336 | vervoert te mogen worden, na Steuens„
+    296  1125  2590 | weert, weert, Maseyck ende Gelder ende dat dienvolgens de goederen derwerts
+    311  1184  2533 | gaende sullen wesen van goeden prinse vuytgesondert het gewas ende gewinten
+    323  1243  2573 | platten Lande ontrent de voors plaetsen vallende t'welck byde huysluyden derwerts
+    330  1308  2463 | soude mogen gebracht worden, oock sullen de schepen met goederen te water by
+    327  1361  2368 | prouisie niet hooger varen als tot Ruremunde incluys, ende sal hiervan
+    321  1418  2531 | notificatie werden gedaen aende Gouuerneurs ende Commandeurs van deser
+    319  1475  2465 | syts garnisoenen die het behoort om hun daernate reguleren ende hare uyt
+    303  1533  1088 | gaende partyen te doen reguleren.
+
+#### unit 07 inv 3439 NL-HaNA_1.01.02_3439_0069-text_region-450-208-2287-480
+-- source regions 1 (reordered: 0), their lines 11; guard: median width R
+    450   223  1215 | 2 July. Reg: van bleeteren als geauthoriseert
+   1731   208   998 | 26 aug Reg: Ragesiterie van Heerle, om
+    513   291  1139 | van de Staten van Brabant. 22 July. Bergt
+   1746   270   991 | surceantie. R voor 4m: 19 dec: Reg: deselve. R
+   1763   330   131 | nog 3
+    513   353  2224 | en advis van Hogendorp loms. 6 nov: Rapp: en Adaerop. 29 Aug: Miss: v t schip de Hertag van Bouflers,
+    524   421  1042 | 6Oct: Req: van Heeteren. 6 nov: Berigt van
+    530   453  2196 | Hogendorp en Res: daerop. de Mor: Berigten, Res daerop 2 Sept: van de Hlaas afg: en gelast haar Ho:Mo:
+    461   536  1905 | 8. July. Reg: Ingeseetenen van Weukelom en Mon, s: 24dee) niet meer mogelyk te vallen.
+    529   604   685 | tenaken. siet 10 Juny 1739.
+
+#### unit 08 inv 3455 NL-HaNA_1.01.02_3455_0018-text_region-362-491-2400-1032
+-- source regions 1 (reordered: 0), their lines 15; guard: median width R
+    362   491  2041 | Misfr. Verruci, houdende dat hij Regenten van Echt 46.
+    521   621  1090 | ontfangen had een misse. van
+   1581   627   896 | Echten tot Relxer. 474.
+    528   717  1096 | de Rentmeester Lippert wegens
+    540   826  1054 | het dempe van een Sloot, en
+   1569   803  1108 | Eghmont van der Nieuwburg.
+    541   914  1043 | op eviens ordre drie koeijen
+   1695   918   465 | 576, 580.
+    539  1017  1102 | wvaren gebragt inde bourtagne.
+   1598  1038   405 | Eijck. 15.
+    560  1116  1064 | 66. Advis Admiralt. in
+    560  1199  2202 | Vriesland op het tweede point. Eijsse Heer van Triest en Antonelt
+    574  1335   302 | 318.
+   1714  1298   980 | van Harsheim, 292, 480.
+   1713  1426   262 | 579.
+
+#### unit 09 inv 3623 NL-HaNA_1.01.02_3623_0018-text_region-390-3141-2178-431
+-- source regions 1 (reordered: 0), their lines 6; guard: narrow candidates < 6 (5 of 6, W=2178)
+    390  3141  1099 | Misse van de Admiraliteit in Vries„
+    536  3249  2031 | „land; om ordres tot betaalingente. Resol: tnt 't geeven van Audientien aand
+    547  3342   978 | wegens een opgeleeverd, schip van
+   1631  3356   866 | Ambassadeur van Marocco. 484.
+    548  3424   673 | 78. 1r: 709. Rappt. 961.
+   1637  3444   931 | Audientie aan denselven verleend hgt
+
+#### unit 10 inv 3352 NL-HaNA_1.01.02_3352_0705-text_region-3517-2158-1951-1649
+-- source regions 1 (reordered: 0), their lines 25; guard: wide 12/24 > 0.34
+   3587  2158  1881 | Op het gerapporteerde vande Heeren Ham, ende andere
+   3628  2332  1786 | haer Ho:Mog: Gedepden tot de militaire saecken,
+   3618  2417  1750 | in conferentie geweest sijnde met eenige heeren
+   3521  2496   903 | Un adjudant. major.
+   4640  2500   767 | late; Is naer voor„
+   4656  2581   687 | in ende verstaen.
+   3869  2597   779 | s de sarté de deuxieme classe.
+   4664  2658   694 | geen verdeijlinge
+   3715  2742   826 | apitaines.
+   4652  2747   691 | ende Campagne,
+   3620  2838  1021 | die veranderinge van
+   4616  2821   701 | eaeckt, dat de
+   3605  2897  1797 | Generaels Majoors vande Cavallerie, Prins van
+   3623  2985  1750 | Hessen Homburgh en Tegnagel sullen werden
+   3627  3070  1750 | geemploijeert bijde Troupes aende Maze, en den
+   3616  3152  1722 | Grave van Erpach bijde troupes aende Moesel;
+   3621  3240  1817 | Ende sal extract van dese haer Ho:Mog: resolutie
+   3622  3319  1796 | aen deselve werden toegesonden, om haer daer na
+   3624  3404  1751 | te reguleren; Gelijck oock extract van dese haer
+   3623  3492  1739 | Ho:Mog: resolutie gesonden sal werden aenden
+   3615  3570  1744 | Veltmarschalck, heere van Ouerkerck, om te
+   3613  3655  1290 | strecken tot desselfs narichtinge.

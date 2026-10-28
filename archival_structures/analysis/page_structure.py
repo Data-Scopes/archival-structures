@@ -49,6 +49,16 @@ PAGES_OPENING = ("verso", "recto")
 PAGE_SINGLE = "single"
 
 
+# step 19b (phase 13, P2/P6): defaults of the geometric column split of hand regions
+HAND_COLUMN_SPLIT_DEFAULTS = {"min_lines": 3, "min_gap_frac": 0.25, "max_col_frac": 0.65,
+                              "min_col_w_frac": 0.3, "tol_h": 0.5, "min_overlap_h": 2.0,
+                              "max_span_frac": 0.34,
+                              # step 19f: "pieces" = 19b (split into pieces); "reorder" = keep the region
+                              # whole and re-order its lines column by column (F13-R.7: B1 failed on
+                              # extent-based span lines and piece order). span_reach_frac: reorder only
+                              "mode": "pieces", "span_reach_frac": 0.5}
+
+
 @dataclasses.dataclass(frozen=True)
 class LayoutParams:
     overlap_threshold: float = 0.5
@@ -83,6 +93,11 @@ class LayoutParams:
     line_sort: str = "row"             # "baseline" (``_line_sort_key``) | "row"
     row_tol_frac: float = 0.2
     sort_unchanged_lines: bool = False  # layout: also sort the lines of ``unchanged`` regions
+    # step 19b (phase 13, P2/P6): geometric split of hand regions that hold side-by-side columns;
+    # None = off
+    hand_column_split: Optional[dict] = dataclasses.field(default=None, hash=False)
+    # step 19c (phase 13, P8): index-side detector (``analysis.index_pages``); None = off
+    index_sides: Optional[dict] = dataclasses.field(default=None, hash=False)
 
     def __post_init__(self):
         if self.gutter_rule not in ("gap", "main_edge", "auto"):
@@ -92,9 +107,29 @@ class LayoutParams:
             raise ValueError(f"line_sort must be 'baseline' or 'row', got {self.line_sort!r}")
         if not 0 < self.row_tol_frac < 1:
             raise ValueError(f"row_tol_frac must be in (0, 1), got {self.row_tol_frac!r}")
+        if self.hand_column_split is not None:
+            bad = set(self.hand_column_split) - set(HAND_COLUMN_SPLIT_DEFAULTS)
+            if bad:
+                raise ValueError(f"unknown hand_column_split keys: {sorted(bad)}")
+            mode = self.hand_column_split.get("mode", "pieces")
+            if mode not in ("pieces", "reorder"):
+                raise ValueError(f"hand_column_split mode must be 'pieces' or 'reorder', got {mode!r}")
+        if self.index_sides is not None:
+            from .index_pages import INDEX_SIDES_DEFAULTS
+            bad = set(self.index_sides) - set(INDEX_SIDES_DEFAULTS)
+            if bad:
+                raise ValueError(f"unknown index_sides keys: {sorted(bad)}")
 
     def to_dict(self):
         d = dataclasses.asdict(self)
+        if self.hand_column_split is None:
+            del d["hand_column_split"]   # keeps every v1-v4 params.json byte-identical
+        else:
+            d["hand_column_split"] = dict(self.hand_column_split)
+        if self.index_sides is None:
+            del d["index_sides"]   # keeps every v1-v4 params.json byte-identical
+        else:
+            d["index_sides"] = dict(self.index_sides)
         d["furniture_patterns"] = list(self.furniture_patterns)
         return d
 
@@ -390,6 +425,161 @@ def split_regions_on_line_field(regions: Sequence[pdm.PageXMLTextRegion], field:
             metadata["column_split_from"] = [region.id]
             out.append(_new_region(lines, metadata, sorted(region.types), id_fn))
     return out, n_splits
+
+
+def split_regions_into_columns(regions: Sequence[pdm.PageXMLTextRegion], cfg: dict, *,
+                               id_fn: Callable = region_box_id,
+                               row_tol_frac: Optional[float] = None
+                               ) -> Tuple[List[pdm.PageXMLTextRegion], int]:
+    """Geometric column split of regions that hold two side-by-side text columns.
+
+    Rationale (phase 13 P2/P6, F12-R.22): a hand PageXML region with two columns lists its lines
+    alternating between the columns, so the hand unit interleaves them (2,612 of 399,714
+    main_text units in v4). Lines carry no ``column`` value in hand mode, so the field split
+    never fires. Prototype on raw regions: 3471 had 165 of 5,857 regions split; the span guard
+    removed the two fragmented-line splits of 3222. ``cfg`` overrides
+    ``HAND_COLUMN_SPLIT_DEFAULTS``. A region is split at the largest x-gap between narrow lines
+    when both sides hold >= ``min_lines`` lines of sufficient width that overlap vertically and
+    few lines span the gap. Lines are walked in reading order; a span line (heading) closes the
+    current left/right block. Unchanged regions are returned as the same object. Returns
+    (regions, number of regions split)."""
+    c = {**HAND_COLUMN_SPLIT_DEFAULTS, **cfg}
+    if c["mode"] == "reorder":
+        return _reorder_regions_by_column(regions, c, id_fn, row_tol_frac)
+    out, n_splits = [], 0
+    for region in regions:
+        pieces = _column_pieces(region, c, row_tol_frac)
+        if pieces is None:
+            out.append(region)
+            continue
+        n_splits += 1
+        for lines in pieces:
+            metadata = copy.deepcopy(region.metadata or {})
+            metadata["column_split_from"] = [region.id]
+            out.append(_new_region(lines, metadata, sorted(region.types), id_fn))
+    return out, n_splits
+
+
+def _column_geometry(region, c: dict):
+    """Steps 1-3 shared by both modes: (T, W, mh, sx, tol) or None when no gutter is found."""
+    T = [l for l in region.lines if (l.text or "").strip()]
+    k = c["min_lines"]
+    if len(T) < 2 * k:
+        return None
+    x0 = min(l.coords.x for l in T)
+    W = max(l.coords.x + l.coords.w for l in T) - x0
+    mh = statistics.median(l.coords.h for l in T)
+    N = sorted((l for l in T if l.coords.w <= c["max_col_frac"] * W),
+               key=lambda l: (l.coords.x, l.coords.y, l.id or ""))
+    if len(N) < 2 * k:
+        return None
+    gap, gi = max(((N[i + 1].coords.x - N[i].coords.x, -i) for i in range(len(N) - 1)))
+    gi = -gi
+    if gap < c["min_gap_frac"] * W:
+        return None
+    sx = N[gi + 1].coords.x
+    tol = c["tol_h"] * mh
+    return T, W, mh, sx, tol
+
+
+def _reorder_lines(region, c: dict, row_tol_frac: Optional[float]):
+    """Step 19f, mode "reorder": the region's lines re-ordered left column then right column
+    (each line classed by where it starts), or None when a guard keeps the region."""
+    geo = _column_geometry(region, c)
+    if geo is None:
+        return None
+    T, W, mh, sx, tol = geo
+    k = c["min_lines"]
+
+    def order(lines):
+        return (sort_lines_by_row(lines, row_tol_frac) if row_tol_frac is not None
+                else sorted(lines, key=_line_sort_key))
+
+    is_right = {id(l): l.coords.x >= sx - tol for l in region.lines}
+    R = [l for l in T if is_right[id(l)]]
+    if len(R) < k:
+        return None
+    wR = statistics.median(l.coords.w for l in R)
+    left_T = [l for l in T if not is_right[id(l)]]
+    wide = [l for l in left_T if l.coords.x + l.coords.w > sx + c["span_reach_frac"] * wR]
+    wide_ids = {id(l) for l in wide}
+    Ln = [l for l in left_T if id(l) not in wide_ids]
+    if len(Ln) < k or len(wide) > c["max_span_frac"] * len(T):
+        return None
+    for part in (Ln, R):
+        if statistics.median(l.coords.w for l in part) < c["min_col_w_frac"] * W:
+            return None
+    overlap = (min(max(l.coords.y + l.coords.h for l in Ln), max(l.coords.y + l.coords.h for l in R))
+               - max(min(l.coords.y for l in Ln), min(l.coords.y for l in R)))
+    if overlap < c["min_overlap_h"] * mh:
+        return None
+    new_order = (order([l for l in region.lines if not is_right[id(l)]])
+                 + order([l for l in region.lines if is_right[id(l)]]))
+    if [id(l) for l in new_order] == [id(l) for l in region.lines]:
+        return None
+    return new_order
+
+
+def _reorder_regions_by_column(regions, c: dict, id_fn, row_tol_frac):
+    out, n = [], 0
+    for region in regions:
+        new_order = _reorder_lines(region, c, row_tol_frac)
+        if new_order is None:
+            out.append(region)
+            continue
+        n += 1
+        metadata = copy.deepcopy(region.metadata or {})
+        metadata["column_reorder_from"] = [region.id]
+        out.append(_new_region(new_order, metadata, sorted(region.types), id_fn))
+    return out, n
+
+
+def _column_pieces(region, c: dict, row_tol_frac: Optional[float]):
+    geo = _column_geometry(region, c)
+    if geo is None:
+        return None
+    T, W, mh, sx, tol = geo
+    k = c["min_lines"]
+
+    def side(l):
+        if l.coords.x + l.coords.w <= sx + tol:
+            return "L"
+        return "R" if l.coords.x >= sx - tol else "S"
+
+    sides = {id(l): side(l) for l in region.lines}
+    left = [l for l in T if sides[id(l)] == "L"]
+    right = [l for l in T if sides[id(l)] == "R"]
+    span = [l for l in T if sides[id(l)] == "S"]
+    if len(left) < k or len(right) < k or len(span) > c["max_span_frac"] * len(T):
+        return None
+    for part in (left, right):
+        if statistics.median(l.coords.w for l in part) < c["min_col_w_frac"] * W:
+            return None
+    overlap = (min(max(l.coords.y + l.coords.h for l in left),
+                   max(l.coords.y + l.coords.h for l in right))
+               - max(min(l.coords.y for l in left), min(l.coords.y for l in right)))
+    if overlap < c["min_overlap_h"] * mh:
+        return None
+
+    def order(lines):
+        return (sort_lines_by_row(lines, row_tol_frac) if row_tol_frac is not None
+                else sorted(lines, key=_line_sort_key))
+
+    pieces, cur_l, cur_r, cur_s = [], [], [], []
+    for l in sorted(region.lines, key=_line_sort_key):
+        sd = sides[id(l)]
+        if sd == "S":
+            if cur_l or cur_r:
+                pieces += [order(p) for p in (cur_l, cur_r) if p]
+                cur_l, cur_r = [], []
+            cur_s.append(l)
+            continue
+        if cur_s:
+            pieces.append(order(cur_s))
+            cur_s = []
+        (cur_l if sd == "L" else cur_r).append(l)
+    pieces += [order(p) for p in (cur_l, cur_r, cur_s) if p]
+    return pieces
 
 
 def furniture_region_ids(regions: Sequence[pdm.PageXMLTextRegion], page_text_bottom: float,

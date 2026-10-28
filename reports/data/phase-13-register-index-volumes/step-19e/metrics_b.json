@@ -1,0 +1,54 @@
+{
+ "groups": {
+  "other (< 3349)": {
+   "sides": 4397,
+   "flagged": 58,
+   "lines": 156770,
+   "flagged_lines": 5084,
+   "rule1": 58,
+   "gapfill0": 0,
+   "volumes": 10,
+   "vols_with_flags": 5
+  },
+  "GT volumes": {
+   "sides": 48471,
+   "flagged": 1251,
+   "lines": 2202877,
+   "flagged_lines": 46833,
+   "rule1": 888,
+   "gapfill0": 363,
+   "volumes": 42,
+   "vols_with_flags": 22
+  },
+  "half-year registers >= 3349": {
+   "sides": 41645,
+   "flagged": 6936,
+   "lines": 1623284,
+   "flagged_lines": 278136,
+   "rule1": 3811,
+   "gapfill0": 3125,
+   "volumes": 46,
+   "vols_with_flags": 46
+  },
+  "other (> 3600)": {
+   "sides": 20761,
+   "flagged": 628,
+   "lines": 672762,
+   "flagged_lines": 33945,
+   "rule1": 468,
+   "gapfill0": 160,
+   "volumes": 27,
+   "vols_with_flags": 13
+  }
+ },
+ "total": {
+  "sides": 115274,
+  "flagged": 8873,
+  "lines": 4655693,
+  "flagged_lines": 363998,
+  "rule1": 5225,
+  "gapfill0": 3648
+ },
+ "pages_equal_19c_clones": 125,
+ "pages_diff_19c_clones": []
+}

@@ -1,0 +1,10 @@
+unit 01 layout region 493_0051-text_region-1832-1981-3198-1974 change=split_at_gutter+column_reordered lines=24 unit_lines_in_it=23 guard: none (all guards pass)
+unit 02 layout region _3493_0013-text_region-1626-745-2956-354 change=split_at_gutter lines=4 unit_lines_in_it=4 guard: min_lines (only 4 non-empty lines)
+unit 03 layout region 02_397_0063-text_region-74-250-2521-3705 change=unchanged lines=58 unit_lines_in_it=51 guard: wide 36/57 > 0.34
+unit 04 layout region _3611_0054-text_region-316-1451-2233-453 change=unchanged lines=6 unit_lines_in_it=6 guard: narrow candidates < 6 (5 of 6, W=2233)
+unit 05 layout region 630_0047-text_region-1701-1801-3404-1685 change=split_at_gutter lines=22 unit_lines_in_it=21 guard: median width R
+unit 06 layout region _3192_0471-text_region-296-531-2612-1100 change=unchanged lines=22 unit_lines_in_it=22 guard: wide 9/22 > 0.34
+unit 07 layout region 2_3439_0069-text_region-450-208-2287-480 change=unchanged lines=11 unit_lines_in_it=10 guard: median width R
+unit 08 layout region _3455_0018-text_region-362-491-2400-1032 change=unchanged lines=15 unit_lines_in_it=15 guard: median width R
+unit 09 layout region _3623_0018-text_region-390-3141-2178-431 change=unchanged lines=6 unit_lines_in_it=6 guard: narrow candidates < 6 (5 of 6, W=2178)
+unit 10 layout region 352_0705-text_region-3517-2158-1951-1649 change=unchanged lines=25 unit_lines_in_it=22 guard: wide 12/24 > 0.34

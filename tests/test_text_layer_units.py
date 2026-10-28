@@ -8,6 +8,7 @@ from archival_structures.text_layer.io import read_tsv_gz
 from archival_structures.text_layer.units import (
     DOC_ID_MAP_COLUMNS, REPUBLIC_COLUMNS, UNIT_COLUMNS, UNIT_SEGMENT_COLUMNS, UnitParams, build_units_page,
     doc_id_map_rows, republic_crosswalk, split_region)
+from archival_structures.text_layer.units import INDEX_CUES, INDEX_ENTRY_DEFAULTS, entry_cues
 
 
 def seg(i, ltype, x=300, y=None, w=500, h=30, chars=20, idx=0):
@@ -295,3 +296,135 @@ def test_claimable_per_scan():
                                      {"R", twin}, claimable)
         assert {u["unit_type"]: u["unit_id"] for u in units} == {"main_text": "R", "date_header": twin}
         assert nc == 0
+
+
+# ---------------------------------------------------------------- step 19d: index entry units
+
+def tseg(i, text, x=300, w=500, **kw):
+    d = seg(i, "main_text", x=x, w=w, chars=len(text), **kw)
+    d["text"] = text
+    return d
+
+
+def test_entry_cue_outdent_threshold():
+    cfg = {"cues": ["outdent"]}   # h = 30, so 0.5 h = 15 px
+    mains = [tseg(0, "aaa", x=300), tseg(1, "bbb", x=285), tseg(2, "ccc", x=265), tseg(3, "ddd", x=300)]
+    assert entry_cues(mains, [False] * 4, cfg) == [["outdent"], ["outdent"], []]
+    mains = [tseg(0, "aaa", x=300), tseg(1, "bbb", x=288)]   # 12 px = 0.4 h
+    assert entry_cues(mains, [False] * 2, cfg) == [[]]
+
+
+def test_entry_cue_date_and_ref_and_order():
+    from archival_structures.text_layer.presets import SG_INDEX_DATE_START
+    cfg = {"cues": ["outdent", "date_start", "end_ref_prev"], "date_pattern": SG_INDEX_DATE_START}
+    mains = [tseg(0, "Miss: Heer 42."), tseg(1, "17. April. Miss: aan"), tseg(2, "en nog iets")]
+    assert entry_cues(mains, [False, False, True], cfg) == [["date_start", "end_ref_prev"], ["header"]]
+    # no date pattern: date_start never fires
+    assert entry_cues(mains[:2], [False] * 2, {"cues": ["date_start"]}) == [[]]
+    # cues not listed do not fire
+    assert entry_cues(mains[:2], [False] * 2, {"cues": ["outdent"]}) == [[]]
+
+
+def test_entry_cue_short_prev_and_indent():
+    mains = [tseg(0, "x", w=500), tseg(1, "y", x=330, w=300), tseg(2, "z", w=500)]
+    out = entry_cues(mains, [False] * 3, {"cues": ["indent", "short_prev"], "short_frac": 0.1})
+    assert out[0] == ["indent"]          # line 0 is full width: no short_prev; line 1 is indented
+    assert out[1] == ["short_prev"]      # line 1 ends well left of the column's right edge
+
+
+def test_split_region_index_side():
+    segs = [tseg(0, "Aaa 3.", x=300), tseg(1, "cont", x=330), tseg(2, "Bbb 4.", x=300), tseg(3, "cont", x=330),
+            tseg(4, "Ccc", x=300), tseg(5, "cont", x=330)]
+    # the continuation lines are indented, so an entry starts where x falls back (outdent 30 px = 1 h)
+    params = UnitParams(index_entry={"cues": ["outdent"]})
+    parts = split_region(segs, params, False, index_side=True)
+    assert [p["method"] for p in parts] == ["hand:index_start", "hand:index:outdent", "hand:index:outdent"]
+    assert [len(p["segs"]) for p in parts] == [2, 2, 2]
+    for kwargs in ({"index_side": False}, {}):
+        parts = split_region(segs, params, False, **kwargs)
+        assert [p["method"] for p in parts] == ["hand:region"]
+    parts = split_region(segs, UnitParams(), False, index_side=True)
+    assert [p["method"] for p in parts] == ["hand:region"]
+    # print mode ignores index_entry
+    pparams = UnitParams(indent_frac=0.5, index_entry={"cues": ["outdent"]})
+    a = split_region(segs, pparams, True, index_side=True)
+    b = split_region(segs, UnitParams(indent_frac=0.5), True)
+    assert [(p["method"], len(p["segs"])) for p in a] == [(p["method"], len(p["segs"])) for p in b]
+
+
+def test_split_region_index_side_header_and_single():
+    segs = [tseg(0, "Aaa"), seg(1, "date_header", chars=8), tseg(2, "Bbb")]
+    segs[1]["text"] = "1 Mei"
+    parts = split_region(segs, UnitParams(index_entry={"cues": ["outdent"]}), False, index_side=True)
+    mains = [p for p in parts if p["type"] == "main_text"]
+    assert [p["method"] for p in mains] == ["hand:index_start", "hand:index:header"]
+
+
+def test_unit_params_index_entry_roundtrip():
+    assert "index_entry" not in UnitParams().to_dict()
+    assert "index_entry" not in UnitParams(indent_frac=0.5).to_dict()
+    cfg = {"cues": ["outdent", "date_start"], "outdent_frac": 0.5, "date_pattern": "x"}
+    d = UnitParams(index_entry=cfg).to_dict()
+    assert d["index_entry"] == cfg and UnitParams.from_dict(d) == UnitParams(index_entry=cfg)
+    hash(UnitParams(index_entry=cfg))
+    import pytest
+    with pytest.raises(ValueError):
+        UnitParams(index_entry={"cues": ["nonsense"]})
+    with pytest.raises(ValueError):
+        UnitParams(index_entry={"bogus": 1})
+    assert set(INDEX_ENTRY_DEFAULTS["cues"]) <= set(INDEX_CUES)
+
+
+def test_entry_cue_no_cut_pattern():
+    from archival_structures.text_layer.presets import SG_INDEX_NO_CUT
+    cfg = {"cues": ["end_ref_prev"], "no_cut_pattern": SG_INDEX_NO_CUT}
+    mains = [tseg(0, "Miss: Heer 42."), tseg(1, "358, 540, 546."), tseg(2, "Nieuwe post")]
+    # line 1 follows a line ending in a number, but it is a reference list that ran over: no cut
+    assert entry_cues(mains, [False] * 3, cfg) == [[], ["end_ref_prev"]]
+    # a header still cuts a reference-list line
+    assert entry_cues(mains, [False, True, False], cfg) == [["header"], ["end_ref_prev"]]
+    # default (None): old behaviour
+    assert entry_cues(mains, [False] * 3, {"cues": ["end_ref_prev"]}) == [["end_ref_prev"], ["end_ref_prev"]]
+
+
+def test_split_region_index_main_types():
+    segs = [tseg(0, "Aaa 3.", x=300), tseg(1, "cont", x=330), tseg(2, "Bbb 4.", x=300), tseg(3, "cont", x=330)]
+    for s in segs:
+        s["line_type"] = "index"
+    base = {"cues": ["outdent"]}
+    # default main_types: index lines are no mains, they stay one run
+    parts = split_region(segs, UnitParams(index_entry=base), False, index_side=True)
+    assert [(p["type"], p["method"]) for p in parts] == [("index", "hand:run")]
+    cfg = {**base, "main_types": ["main_text", "index"]}
+    parts = split_region(segs, UnitParams(index_entry=cfg), False, index_side=True)
+    assert [(p["type"], p["method"]) for p in parts] == [("main_text", "hand:index_start"),
+                                                         ("main_text", "hand:index:outdent")]
+    # not an index side: unchanged
+    parts = split_region(segs, UnitParams(index_entry=cfg), False, index_side=False)
+    assert [(p["type"], p["method"]) for p in parts] == [("index", "hand:run")]
+    # the input segments are not modified
+    assert all(s["line_type"] == "index" for s in segs)
+
+
+def test_unit_params_index_entry_new_keys_roundtrip():
+    cfg = {"cues": ["outdent"], "no_cut_pattern": r"[\d\s.,:;]+", "main_types": ["main_text", "index"]}
+    d = UnitParams(index_entry=cfg).to_dict()
+    assert d["index_entry"] == cfg and UnitParams.from_dict(d) == UnitParams(index_entry=cfg)
+    assert INDEX_ENTRY_DEFAULTS["no_cut_pattern"] is None and INDEX_ENTRY_DEFAULTS["main_types"] == ["main_text"]
+
+
+def test_unit_inventory_index_entry_needs_layout_pages(tmp_path):
+    import pytest
+    from archival_structures.text_layer.extract_v2 import extract_inventory_v2
+    from archival_structures.text_layer.presets import PRESETS
+    from archival_structures.text_layer.units import unit_inventory
+    fixture = Path(__file__).parent / "fixtures" / "text_layer" / "sg" / "9999"
+    preset = PRESETS["sg_1.01.02_v2"]
+    root = tmp_path / preset.name
+    extract_inventory_v2("9999", fixture, root, preset)
+    base = ["--out-dir", str(tmp_path), "--preset", "sg_1.01.02_v2"]
+    assert build.main(base + ["--stage", "layout"]) == 0
+    assert build.main(base + ["--stage", "types"]) == 0
+    with pytest.raises(FileNotFoundError, match="index_sides"):
+        unit_inventory("9999", root, UnitParams(index_entry={"cues": ["outdent"]}))
+    unit_inventory("9999", root, UnitParams())   # without index_entry the pages table is not needed

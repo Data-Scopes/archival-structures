@@ -1,0 +1,2 @@
+{'variant': 'V05', 'lines_P': np.float64(0.9711), 'lines_R': np.float64(0.949), 'sides_tp': 675, 'sides_fp': 12, 'sides_fn': 64, 'n_volumes': 20}
+D1: PASS

@@ -11,7 +11,8 @@ from archival_structures.analysis.page_structure import (
     find_separation_x, fit_gutter, furniture_region_ids, group_regions_into_columns, hull_coords,
     inventory_line_width_rel, merge_overlapping_text_regions, region_box_id,
     merge_regions, sort_lines, sort_lines_by_row, _line_sort_key,
-    split_regions_on_line_field, split_scan_into_pages)
+    split_regions_on_line_field, split_scan_into_pages,
+    split_regions_into_columns)
 
 SCAN = "NL-HaNA_1.01.02_9999_0001"
 
@@ -393,3 +394,132 @@ def test_merge_regions_row_key():
     r1, r2 = region("R1", lines[:1]), region("R2", lines[1:])
     assert [l.id for l in merge_regions([r1, r2], row_tol_frac=0.2).lines] == ["B", "A", "C"]
     assert [l.id for l in merge_regions([r1, r2], row_tol_frac=None).lines] == ["A", "B", "C"]
+
+
+# --- step 19b: hand column split -------------------------------------------------------------
+
+def _two_cols(n=6, y0=100, prefix="", lw=400, rw=400):
+    lines = []
+    for i in range(n):
+        lines.append(line(f"{prefix}L{i}", 100, y0 + 50 * i, lw))
+        lines.append(line(f"{prefix}R{i}", 600, y0 + 50 * i, rw))
+    return lines
+
+
+def test_hand_column_split_two_columns():
+    reg = region("R", _two_cols())
+    out, n = split_regions_into_columns([reg], {}, row_tol_frac=0.2)
+    assert n == 1 and len(out) == 2
+    assert [l.id for l in out[0].lines] == [f"L{i}" for i in range(6)]
+    assert [l.id for l in out[1].lines] == [f"R{i}" for i in range(6)]
+    assert all(r.metadata["column_split_from"] == ["R"] for r in out)
+
+
+def test_hand_column_split_single_column_unchanged():
+    reg = region("R", [line(f"a{i}", 100, 100 + 50 * i, 900) for i in range(8)])
+    out, n = split_regions_into_columns([reg], {}, row_tol_frac=0.2)
+    assert n == 0 and out[0] is reg
+
+
+def test_hand_column_split_heading_closes_block():
+    lines = (_two_cols(3, 100, "a") + [line("S", 100, 300, 900)] + _two_cols(3, 400, "b"))
+    reg = region("R", lines)
+    out, n = split_regions_into_columns([reg], {}, row_tol_frac=0.2)
+    assert n == 1
+    assert [[l.id for l in r.lines] for r in out] == [
+        ["aL0", "aL1", "aL2"], ["aR0", "aR1", "aR2"], ["S"],
+        ["bL0", "bL1", "bL2"], ["bR0", "bR1", "bR2"]]
+
+
+def test_hand_column_split_guards():
+    def unchanged(lines):
+        reg = region("R", lines)
+        out, n = split_regions_into_columns([reg], {}, row_tol_frac=0.2)
+        return n == 0 and out[0] is reg
+    base = _two_cols()
+    assert not unchanged(base)
+    # (a) only 2 right lines
+    assert unchanged([l for l in base if not (l.id.startswith("R") and int(l.id[1:]) >= 2)])
+    # (b) narrow left column beside wide main lines
+    assert unchanged([line(f"L{i}", 100, 100 + 50 * i, 150) for i in range(6)]
+                     + [line(f"R{i}", 400, 100 + 50 * i, 700) for i in range(6)])
+    # (c) too many span lines
+    assert unchanged(_two_cols(3) + [line(f"S{i}", 100, 300 + 50 * i, 900) for i in range(4)])
+    # (d) left block entirely above the right block
+    assert unchanged([line(f"L{i}", 100, 100 + 50 * i, 400) for i in range(6)]
+                     + [line(f"R{i}", 600, 1000 + 50 * i, 400) for i in range(6)])
+
+
+def test_layout_params_hand_column_split():
+    assert "hand_column_split" not in LayoutParams().to_dict()
+    p = LayoutParams(hand_column_split={"min_lines": 4})
+    assert LayoutParams.from_dict(p.to_dict()) == p
+    try:
+        LayoutParams(hand_column_split={"bogus": 1})
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("unknown key accepted")
+    hash(LayoutParams(hand_column_split={}))
+
+
+REORDER = {"mode": "reorder"}
+
+
+def _ids(reg):
+    return [l.id for l in reg.lines]
+
+
+def test_hand_column_reorder_two_columns():
+    reg = region("R", _two_cols())
+    out, n = split_regions_into_columns([reg], REORDER, row_tol_frac=0.2)
+    assert n == 1 and len(out) == 1
+    assert _ids(out[0]) == [f"L{i}" for i in range(6)] + [f"R{i}" for i in range(6)]
+    assert out[0].metadata["column_reorder_from"] == ["R"]
+
+
+def test_hand_column_reorder_start_not_extent():
+    reg = region("R", _two_cols(lw=560))   # left lines reach past the gutter: "span" in pieces mode
+    out, n = split_regions_into_columns([reg], REORDER, row_tol_frac=0.2)
+    assert n == 1 and len(out) == 1
+    assert _ids(out[0]) == [f"L{i}" for i in range(6)] + [f"R{i}" for i in range(6)]
+
+
+def test_hand_column_reorder_wide_line_stays_left():
+    lines = [line("W", 100, 50, 900)] + _two_cols(4)
+    reg = region("R", lines)
+    out, n = split_regions_into_columns([reg], REORDER, row_tol_frac=0.2)
+    assert n == 1
+    assert _ids(out[0]) == ["W"] + [f"L{i}" for i in range(4)] + [f"R{i}" for i in range(4)]
+
+
+def test_hand_column_reorder_unchanged():
+    ordered = [l for l in _two_cols() if l.id.startswith("L")] + [l for l in _two_cols() if l.id.startswith("R")]
+    reg = region("R", ordered)
+    out, n = split_regions_into_columns([reg], REORDER, row_tol_frac=0.2)
+    assert n == 0 and out[0] is reg
+    reg = region("R", [line(f"a{i}", 100, 100 + 50 * i, 900) for i in range(8)])
+    out, n = split_regions_into_columns([reg], REORDER, row_tol_frac=0.2)
+    assert n == 0 and out[0] is reg
+
+
+def test_hand_column_reorder_guards():
+    def unchanged(lines):
+        reg = region("R", lines)
+        out, n = split_regions_into_columns([reg], REORDER, row_tol_frac=0.2)
+        return n == 0 and out[0] is reg
+    base = _two_cols()
+    assert not unchanged(base)
+    assert unchanged([l for l in base if not (l.id.startswith("R") and int(l.id[1:]) >= 2)])
+    assert unchanged(_two_cols(3) + [line(f"S{i}", 100, 300 + 50 * i, 900) for i in range(4)])
+
+
+def test_layout_params_hand_column_split_mode():
+    try:
+        LayoutParams(hand_column_split={"mode": "x"})
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("bad mode accepted")
+    p = LayoutParams(hand_column_split={"mode": "reorder"})
+    assert LayoutParams.from_dict(p.to_dict()) == p

@@ -1,0 +1,303 @@
+pool 658 gap-filled sides in 17 volumes outside GT and gold; sample 20
+
+##### 1
+--- 3350 NL-HaNA_1.01.02_3350_0009 verso rule=0 col_share= end_num=0.8889 date_start=0.0 n_lines=47
+  >1e 8.
+  >0m Chenailles 600.
+  >0m Prince van Thimaij 812.
+  >0m Chittij 190.
+  >0m Chardinel vide Akenla. A.
+   0m weduwe Cingelshoek 651.
+  >0m Citters 5.
+  >0m Cleijnkens 643, 675.
+  >0m Clerk 663, 701.
+  >0m Cock 795.
+  >0m Coelemeij 88, 217.
+  >0m Coenraats 517, 537, 571.
+  >0m Le Coeur 279.
+  >0m Colijear 840.
+    ... 34 more lines
+
+##### 2
+--- 3463 NL-HaNA_1.01.02_3463_0009 recto rule=0 col_share=0.125 end_num=0.0312 date_start=0.3125 n_lines=34
+  >0m 26 Augusty. Reg: Hoogherf. Hoopman te Amsterdam om 16
+  >0m pashen sol. leer unt Spagne geretourneert, te moogen
+   0m lossen sonder betaaling van inkoomende regten. R. Adm.
+   0m op de maze om a. 9 Septemb: Advis Adm: op de maze„
+   0m en Res. Toegestaan onder een mits.
+  >0m 29 September Miss: Adm: te Amsterd: over een
+   0m hoeher door de deenen genoomen op de hust van
+   0m gsland; en naderhand onthoomen, met top„
+   0m brenging van een deens Lieutenant, en drie gemeenen.
+   0m Comm:
+  >0m 21 October. mem: grys om ontslaging van een
+   0m ladet en ses deenen. R: Ordre aan de Adm:
+   0m te Amsterd: ook op de maze, om de deenen te
+   0m ontslaan. kennis daar van te geeven aen grijs.
+    ... 20 more lines
+
+##### 3
+--- 3463 NL-HaNA_1.01.02_3463_0028 recto rule=0 col_share= end_num=0.0667 date_start=0.4 n_lines=18
+  >0e Bourtange
+  >3e 49.
+  >2e Booden.
+  >1m 6 January. vande Velde Contrerolleur van de boode. 200.
+  >1m 23 febr: van Heeteren extraord. boode 259l.
+  >1m 1 Juny 50 gl.
+  >1m dikheboom extraord: boode 25 gl
+  >1m 10 October. Sckheboom sogl
+  >1m 13 mag. postbnegt. Groost 50gl. 1 July 1009l.
+  >1m 23 Maij. C: Bosch Weduwe van de boode
+   1m Harde: 100 gl: voor de begraaffenis. van haar
+   1m man.
+  >1m 24 May. S. H: Holsappel aangestelt tot boode„
+  >1m 4 Juny. Reg: s: H: Holsappel om een Versbas
+    ... 4 more lines
+
+##### 4
+--- 3463 NL-HaNA_1.01.02_3463_0044 recto rule=0 col_share= end_num=0.0 date_start=0.25 n_lines=9
+  >0m Commissaris Van deurs.
+  >0m 10 San: miss: van deurs en declarabie.
+  >0m Resident loymans.
+  >0m 25 October. miss. loijmans om het tractement en
+   0m lareter van Extraord. Envoijé. Comm:
+  >0m 10 december. miss. loymans om een medaille te moogen
+   0m aannamen. Toegestaan.
+  >1e Denemarken
+  >2e 79.
+
+##### 5
+--- 3463 NL-HaNA_1.01.02_3463_0054 recto rule=0 col_share= end_num=0.0 date_start=0.1818 n_lines=13
+  >1e Turnes.
+  >0m 1 April. ass. Cronstrom over de schukheng vande
+   0m guarnisoenen te yperen en te Furnes. by de veran„
+   0m dering der guarnisoenen. Com: R
+  >0m 21 Maij. Miss. Schwartzenberg over de schaarsheid
+   0m en duurte van graanen te Furnes. ComR.
+  >0m 24 Mag. miss. Schwartzenberg over de franchisen
+   0m van het militaire Hospitaal te Furnes. R. syn doen
+   0m geapprobeert. Voorts. Com: R
+  >0m 24 Decemb: miss. Cronstrom. eenige manschap uit
+   0m Turnes gefurneert tot het doen van posteeringen. R
+   0m ordre om die manschap weder intetrchhen.
+  >2e 95.
+
+##### 6
+--- 3463 NL-HaNA_1.01.02_3463_0092 verso rule=0 col_share= end_num=0.0 date_start=0.0 n_lines=1
+  >0m 162.
+
+##### 7
+--- 3463 NL-HaNA_1.01.02_3463_0119 verso rule=0 col_share= end_num=0.0 date_start=0.0 n_lines=1
+  >0m 214.
+
+##### 8
+--- 3463 NL-HaNA_1.01.02_3463_0157 recto rule=0 col_share=0.2222 end_num=0.0328 date_start=0.377 n_lines=64
+  >4e 285.
+  >2e verloven aan officieven
+  >3e 12 Ocob: Prins Willem van Hessen, Gouverneur van
+   3e maestricht. 6m.
+  >0m 6 January. Meds. Swoyters. Overneemen van't Commando
+  >0m van Bergen op Zoom. 10 feb: Surgters Commando na b weeken
+  >0m te moogen overgeeven. 30 Maert. Hogst, Commando overbegeeven.
+  >0m 2 apprid. miss.Overtse. 20 may. mad. gadeluere. 25 ugt gadelen demmake oategeven. 2. Reyt. Md. 
+   0m averteguevens. 26 novemb: missive sonder onderteckening. Te ragge
+  >0m 8 January. mess: Brakel. overneemen van 't Commando
+  >0m gesonden met een mercuriaal. 3 December. miss. Wolterds, tot antwoord.
+  >0m van Venlo 16 feb: van Brakel het lommando te mogen
+  >0m ee ui e e ement de eenen ven ende dise hat tomande keminen venuen it sckentmahende, aen nisr.
+  >0m 3 november. miss: Sechinghe. Commandeur van d
+    ... 50 more lines
+
+##### 9
+--- 3471 NL-HaNA_1.01.02_3471_0038 verso rule=0 col_share=0.0 end_num=0.3333 date_start=0.0 n_lines=51
+  >0m 70.
+  >0m Pardonnen.
+  >3e Palts.
+  >1m R: Wellens Cums: alle soldaten om Elsacker geeft over twvee paspoorten Missive Ceurf: Doorl. va
+  >1m pardon wegens desertie. 412.
+   1m voor eenige munitie van Oorlog.
+   1m van Sijn Ceurf: Doorlt. van de
+  >1m Reqt. H: du Bois cums: om surche„
+   1m Palts, 35.
+  >1m anche gedurende de deliberatie
+  >1m over het versogte pardon. 220. Missive Ceurfurstele. van de Palts
+  >1m Advis R.V. State daarop. 435.
+   1m Creditif op G: van Asten als Agen
+   1m 65.
+    ... 37 more lines
+
+##### 10
+--- 3472 NL-HaNA_1.01.02_3472_0036 recto rule=0 col_share= end_num=0.1429 date_start=0.2857 n_lines=8
+  >1e stad en Lande.
+  >0m 21 Maert. in de vermindering van regten op het inkomend
+   0m rander voor een jaar.
+  >0m 29 April in de Staaten van oorlog. Comm: R
+  >0m 2 mij. in de Waerheeft van het millien tot de
+   0m fortificatin van 11 Aujustij 1733.
+  >2e consenten.
+  >3e 59.
+
+##### 11
+--- 3472 NL-HaNA_1.01.02_3472_0075 verso rule=0 col_share=0.0 end_num=0.0435 date_start=0.3043 n_lines=25
+  >1e 126.
+  >0m Extraordinaris Envoijé Spirchen.
+  >0m 19 Januarij. mits Hop over 't aengaen van een Cartel mot
+  >0m Hanover, tot overlevering van weedersijts deserteurs. Com: R.
+  >0m 23 Januarij. Mem: sporchen over het aangaan van een
+  >0m Cartel. Comm: R.
+  >0m 27 Maert. Rapport en Resolutie tot antwoord op de memorie
+  >0m van Sporche. Sit 26 meij 1744.
+  >0m 7 Maert. Memorie sporcke, om restitutie van de penningen,
+   0m bie te Buijk wegens regten, en onhosten van enige re„
+   0m Ment. paarsin voor de Hanovorsche troups sijn afgenomen. R.
+   0m Adm: op de Maze om b. en a.
+  >0m 27 April. Berijt en advis van de Adm: op de Maze. en Res:
+   0m Adm: op de maze aangeschraten 123 glt 10 st: voor betmaal te
+    ... 11 more lines
+
+##### 12
+--- 3472 NL-HaNA_1.01.02_3472_0088 verso rule=0 col_share= end_num=0.0 date_start=0.4 n_lines=6
+  >0e 146.
+  >2e Anocque.
+  >1m 16 Januarij. miss. Winteroij. Overlyden van den Commandeur
+   1m du Tour.
+  >1m 16 Januarij. den Capitein. Em: S. W. grave van Nompesch
+   1m aangestelt tot commandeur van 't Fort de Senocque.
+
+##### 13
+--- 3472 NL-HaNA_1.01.02_3472_0112 recto rule=0 col_share= end_num=0.0 date_start=0.3 n_lines=12
+  >0m 6 Junij. Reg:. loenders. Commandeur van namen, om gedis„
+   0m penseert te sijn, van 6m: present te moeten sijn in sijn
+   0m commandement. Vermits het gereed sijn tot de martch.
+   0m Comm: 2 14 Junij. Rapport en Res. Waarop.
+  >0m 20 Augustij. miss. Kinschot, om do Engelsche arbillerije van
+   0m Brussel tot namen, te doen escorteeren, en om die te namen
+   0m te ontfangen. R. Ordre aan Colyear ten dien einde
+   0m Utrecht contraduert.
+  >0m 17 September. miss: Colgear. aankomst aldaar van een
+   0m gebulte van de Engelsche Artillerije.
+  >1e Hamen.
+  >2e 193.
+
+##### 14
+--- 3472 NL-HaNA_1.01.02_3472_0121 recto rule=0 col_share= end_num=0.0 date_start=0.1538 n_lines=14
+  >1m 16 September. Miss. Bewendhebberen van de O: S: l:
+   1m klagten, dat een Engels oorlogschip het Compagnies
+   1m schip de Cleverskerke in volle zee had gedevongen
+   1m tna Engelsche matvoosen aan hetselve overtegeeven.
+   1m en dat de scheepen van de Engelsche Compagnie
+   1m voor Boatavia Altee I paan sche scheepen, beid genaamt
+   1m de Nestra signora del Rosaria hadden verovert.
+   1m Holl: en Zeel: overg: Ordre aan Hop, om de klagen.
+  >0e 18 December.
+  >0e Retourvloot.
+  >1m Rapport van den Commandeur vande
+   1m geseponeert.
+  >2e OostIndische Compagnie.
+  >3e 207.
+
+##### 15
+--- 3472 NL-HaNA_1.01.02_3472_0129 verso rule=0 col_share=0.0 end_num=0.0238 date_start=0.2857 n_lines=45
+  >1e 222.
+  >0m Exstraord:. Envoijé. Graeff van Sobenils.
+  >0m 9 Julij. mits. Rbstate om pasport van Pruijssen voor
+   0m artillerije en ammunitie van oorlog. A. Fobenils versogt
+   0m dat te besorgen.
+  >0m 1 augustij. Pobewill versogt een pasport te besorgen
+   0m voor goederen hot het Velt hospetaal
+  >2e Pruijssen.
+  >0m Sist 31 Januarij
+  >0m 19 Augustij. Memorie Podewils. difficulteit van de Koning
+   0m om pasporten voor oorlogs. behoeften te verleenen, soo lang in
+   0m gelderland en Utrecht geen vrijdem van tollen wrd Verlant.
+   0m R Ernstig te schrijven aan gelderland en Utrecht. Item
+   0m enthoord. op de memorie van Sodewils
+    ... 31 more lines
+
+##### 16
+--- 3472 NL-HaNA_1.01.02_3472_0158 verso rule=0 col_share= end_num=0.0769 date_start=0.0769 n_lines=13
+  >0m 278. Staat van oorlog
+  >0m consenten in de Staaten van
+  >0m oorlog voor 1743.
+  >0m Gelderland. 17 April.
+  >0m Holland. 19 April.
+  >1e Zeeland.
+  >1e Utrecht. 13 april.
+  >0m Friesland. 17 aptil.
+  >1e Overijssel
+  >0m Stad en Lande. 29 april. Com. R.
+  >0m 17 april. Gelderland, Utrecht, en Overijssel reserveeren, soo wel„
+   0m als Frisland, om de posten, waer meele te val bij de Staaten van
+   0m oorleg beswaart sijn, op andere setitien de rescontreeren.
+
+##### 17
+--- 3587 NL-HaNA_1.01.02_3587_0026 recto rule=0 col_share=0.2174 end_num=0.3333 date_start=0.0 n_lines=40
+  >0m judiciele Laaken.
+  >0m Compe. 99 antwoorden, 523.
+  >0m Rome Ca. Nobel, conclusie van ver„
+   0m ,zock om Acte van gediend
+   0m 527. Reqte van Herts bergen
+   0m Wede. van Rome, dienen van
+   0m Acten en Munimenten, 671
+  >0m Reqte van Mertzbergen, Verstel
+   0m 796.
+  >0m lancement van Revisie, voor C. P.
+   0m Spillenaar, 641.
+  >0m S. J. Rome C: G. de Britte, actreqte. van D: S. Emanuels Ca. J. Sacobs,
+   0m repliceeren. 743.
+  >1e van de Gebroeders Amiod C:
+    ... 27 more lines
+
+##### 18
+--- 3587 NL-HaNA_1.01.02_3587_0038 verso rule=0 col_share=0.2381 end_num=0.3103 date_start=0.0 n_lines=36
+  >2e 70.
+  >0m Religie, Lacken
+  >0m Missr. van Geelvink, Schikkingen
+  >0m omtrent den Predikant in den Kerkenraad te Curacao produ
+   0m de Capelle te Brussel, 337.
+   0m 293.
+  >0m Rapport en Resol: daarop.
+  >0m 706. Misse. van Geelvink, C: S. Spillenaar C. F. C: Gosscheij
+   0m aanstellen van Hurter, als
+  >0m H6. Soler: 164.
+  >0m Predikant, 821.
+  >0m Reqte van W. H. S. Mansa, Fredi„
+   0m „kant te Nassau Saurbruk,
+   0m om eene liefde gaave voor de
+    ... 22 more lines
+
+##### 19
+--- 3623 NL-HaNA_1.01.02_3623_0080 verso rule=0 col_share=0.4182 end_num=0.1429 date_start=0.0 n_lines=60
+  >1e 154.
+  >2e Lillo.
+  >3e Vlaanderen.
+  >4e Lillo.
+  >0m Missr. van Wassenaer tot Wassenaer,
+   0m relateerende 't gepasseerde in
+   0m zyne audientie by den Keyser,
+   0m en Note tot antwoord op zyn
+   0m Memorie omtrend de differente
+   0m in Vlaanderen, 853. Missie 11
+  >0m Memorie gepresenteerd weegen
+   0m 1 voorgevallene in Vlaanderen
+   0m 952.
+  >0m Rappt. en Resol: op Misse. Hop, en
+    ... 46 more lines
+
+##### 20
+--- 8706 NL-HaNA_1.01.02_8706_0173 recto rule=0 col_share=0.0 end_num=0.1923 date_start=0.0 n_lines=31
+  >1e Rouw
+  >3e 282.
+  >3e 794.
+   3e 267.
+  >0m Nortengraij
+  >0m Maredith
+  >0m John Haij dragt 3399.
+  >0m Churchil
+   0m 1103.
+  >2e Wertr 22910.
+  >0m De voorenstaande 785690 rations gerekent
+   0m volgens contract van den 24e. Aug: 1703: 40t
+   0m tweestuijss. en ses duijten per ration,
+   0m welcke het land betaalt heeft aanaanne:
+    ... 17 more lines

@@ -1,0 +1,15 @@
+Step 19c, mapping check (P10): read by hand with show_any.py; GT page numbers verso = 2*scan-2, recto = 2*scan-1.
+For each of the first 5 fit volumes with an index section: sides of GT pages end-1 .. end+2.
+
+3107 (index 7-138): p137 = scan 0069 recto: lemma + page-number entries (Phrlips de Zoete 18: 47: ...), index. p138 = scan 0070 verso:
+  last index lemmas (convoij naer Spaignen 12:, navigatie 30:), index; the end of the page is a stray scribble. p139 = scan 0070 recto:
+  2 stray tokens (14, 40.). p140 = scan 0071 verso: empty. The index ends at p138 = GT end.
+3126 (7-33): p32 = scan 0017 verso: lemma W (Weert, Wilboort Willemsz, ...: page numbers), index. p33 = scan 0017 recto: Zutphen/Zeelandt
+  lemmas, index. p34, p35 (scan 0018): empty. The index ends at p33 = GT end.
+3254 (7-54): p53 = scan 0027 recto: W-lemma entries with page numbers, index. p54 = scan 0028 verso: Z-lemma entries (Zeerovers 153,
+  239.), index, last. p55, p56: empty. The index ends at p54 = GT end.
+3256 (7-50): p49 = scan 0025 recto: W-lemma entries, index. p50 = scan 0026 verso: Z-lemma entries (Zoelandt ...), index, last.
+  p51, p52: empty. The index ends at p50 = GT end.
+3265 (7-91): p90 = scan 0046 verso: entries with page numbers (secours naer Denemarcken 160:), index. p91 = scan 0046 recto: entries
+  and "Finis indicis Anni", last index side. p92 = scan 0047 verso: empty. p93 = scan 0047 recto: "Mercurij den eersten Januarij 1659",
+  resolution text. The index ends at p91 = GT end.

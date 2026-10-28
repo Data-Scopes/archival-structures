@@ -1,0 +1,1 @@
+{"index_entry": {"cues": ["outdent", "date_start", "end_ref_prev", "short_prev"], "outdent_frac": 0.5, "short_frac": 0.1, "date_pattern": "\\W{0,2}\\d{1,2}\\s*[.,:]?\\s*(jan|feb|febr|maa|maart|maert|mart|apr|april|mei|mey|meij|jun|junij|jul|julij|aug|augti|augt|sep|sept|oct|okt|nov|dec)", "no_cut_pattern": "[\\d\\s.,:;]+", "main_types": ["main_text", "index"]}}

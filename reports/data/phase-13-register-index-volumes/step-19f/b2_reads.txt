@@ -1,0 +1,2127 @@
+
+#### case 01 [flagged] inv 3254 NL-HaNA_1.01.02_3254_0005 region NL-HaNA_1.01.02_3254_0005-text_region-2884-2468-2300-643
+-- original (XML order), 10 lines
+   2894  2468  1101 | Scheepsgoet gebercht bijden Gouvernr.
+   4010  2487  1042 | Exploicteur, opt as eenige goederen in
+   2894  2564   536 | van Rochel 546.
+   4012  2577   894 | arrest genoomen 517, 520, 551.
+   2884  2627  2300 | Lijste der gemeene Middelen 564. 7apart Comptoir houden vanden Contrerolleur
+   4006  2724   664 | vander heijden 518, 522.
+   4008  2803   908 | facteurs van Weedassche 520
+   3075  2836   785 | Admiraliteyt in
+   4005  2913  1143 | exemptien & verminderinge van Convoijen
+   4007  3002   685 | op eenige goederen, 551.
+-- new order (10 lines)  [tag L/W/R; derived from x only for display]
+  L  2894  2468  1101 | Scheepsgoet gebercht bijden Gouvernr.
+  L  2894  2564   536 | van Rochel 546.
+  W  2884  2627  2300 | Lijste der gemeene Middelen 564. 7apart Comptoir houden vanden Contrerolleur
+  L  3075  2836   785 | Admiraliteyt in
+  R  4010  2487  1042 | Exploicteur, opt as eenige goederen in
+  R  4012  2577   894 | arrest genoomen 517, 520, 551.
+  R  4006  2724   664 | vander heijden 518, 522.
+  R  4008  2803   908 | facteurs van Weedassche 520
+  R  4005  2913  1143 | exemptien & verminderinge van Convoijen
+  R  4007  3002   685 | op eenige goederen, 551.
+
+#### case 02 [flagged] inv 3456 NL-HaNA_1.01.02_3456_0026 region NL-HaNA_1.01.02_3456_0026-text_region-2739-443-2457-784
+-- original (XML order), 10 lines
+   2739   443  1910 | Memorien van den Grave Liebenroodt, 435.
+   2959   592   692 | van Ulfeldt
+   3932   611   724 | Lindeman, 187.
+   2757   757  1234 | Mem: Ulfeldt, versoekende Vrij
+   3931   764  1265 | Lijclama a Nijeholt en Smith. 107.
+   2892   874  1085 | dom van't premiegeld, voor
+   3935   897  1055 | Lijnden tot de Parck, 337.
+   2895   967  1088 | Agthondert vaten Quikselver,
+   2902  1085   240 | 106.
+   3926  1061   707 | Lijonet, 265, 267.
+-- new order (10 lines)  [tag L/W/R; derived from x only for display]
+  W  2739   443  1910 | Memorien van den Grave Liebenroodt, 435.
+  L  2959   592   692 | van Ulfeldt
+  L  2757   757  1234 | Mem: Ulfeldt, versoekende Vrij
+  L  2892   874  1085 | dom van't premiegeld, voor
+  L  2895   967  1088 | Agthondert vaten Quikselver,
+  L  2902  1085   240 | 106.
+  R  3932   611   724 | Lindeman, 187.
+  R  3931   764  1265 | Lijclama a Nijeholt en Smith. 107.
+  R  3935   897  1055 | Lijnden tot de Parck, 337.
+  R  3926  1061   707 | Lijonet, 265, 267.
+
+#### case 03 [flagged] inv 3475 NL-HaNA_1.01.02_3475_0006 region NL-HaNA_1.01.02_3475_0006-text_region-2657-2928-2218-967
+-- original (XML order), 26 lines
+   3873  2928  1002 | 11 Junij. Prop: Holland om patenten voor 6 lorporaals
+   3880  3003   970 | en 6o gemeenen op 6 fregesses tot protectie van de
+   2701  3082  1142 | 5 Maart. Propos: President over het redres en pointen van
+   3875  3061   991 | Haringhuijsen. R: om a. Eodem. Advis
+   2703  3140  1173 | menage tit verbestering van de financien der admiralititen
+   3883  3136   807 | Rrstate. En Rus. Patenten Verlant.
+   2710  3220  1129 | R: admiraliteiten daer op te berigten. Voorts Comm:
+   3855  3204  1020 | Junij. S. 1. Prop: Holland over deprotectie van :
+   2702  3300   788 | 20 Maart. miss: Adm: in Zeeland. Comm:
+   3852  3285  1013 | Groenland en straat Davits vaerdors, en 6 1. retourvloot. Resol„
+   2708  3354  2098 | 11 april. miss. Adm: in Vriesland. Comm: Gecommitteerden van de adm: f1 Julij. Miss: Ht: Admiraal grave, Aoot eene
+   2712  3401   851 | =den 6 meij daar op geinstrueert herwaarts te komen.
+   3883  3425   935 | Concept Rglement voor den dienst ter Zu.
+   2717  3465   784 | 25 april. miss: Adm: te Amsterdam. Comm:
+   2716  3487  1622 | 30 April. miss. Adm: op de Maze. Comm: 13 Julij. mits Am: in Haardn, Comm: met de Adm:
+   2718  3559  1233 | 5 Junij. Rapport van besognes met gecomm: van de Adm: Comm:
+   2754  3586  1919 | A: besognes daar over te continueeren den 12 Augt13 augustij. Aankomst van deAdmiraliteiten.
+   2677  3646  1180 | 17 maart. Admiralititen beschoueven over een Equipage van
+   3885  3654   961 | 26 Augustij. Dimissie van de Admiraliteiten tot den
+   2657  3705   479 | 20 scheepen van oorlog.
+   3882  3702   253 | 29 Septemb:
+   4146  3715   164 | 
+   4282  3709   576 | 19 October. Dmissie vande
+   3886  3758   988 | Admiraliteiten tot den 15 novemb: 26 november
+   3899  3806   946 | Dimissie, vande Adm: tot den eerste toensdag in April.
+   3903  3836   816 | om alsden te besogneeren over de pointen van menage.
+-- new order (26 lines)  [tag L/W/R; derived from x only for display]
+  L  2701  3082  1142 | 5 Maart. Propos: President over het redres en pointen van
+  L  2703  3140  1173 | menage tit verbestering van de financien der admiralititen
+  L  2710  3220  1129 | R: admiraliteiten daer op te berigten. Voorts Comm:
+  L  2702  3300   788 | 20 Maart. miss: Adm: in Zeeland. Comm:
+  W  2708  3354  2098 | 11 april. miss. Adm: in Vriesland. Comm: Gecommitteerden van de adm: f1 Julij. Miss: Ht: Admiraal grave, Aoot eene
+  L  2712  3401   851 | =den 6 meij daar op geinstrueert herwaarts te komen.
+  L  2717  3465   784 | 25 april. miss: Adm: te Amsterdam. Comm:
+  W  2716  3487  1622 | 30 April. miss. Adm: op de Maze. Comm: 13 Julij. mits Am: in Haardn, Comm: met de Adm:
+  L  2718  3559  1233 | 5 Junij. Rapport van besognes met gecomm: van de Adm: Comm:
+  W  2754  3586  1919 | A: besognes daar over te continueeren den 12 Augt13 augustij. Aankomst van deAdmiraliteiten.
+  L  2677  3646  1180 | 17 maart. Admiralititen beschoueven over een Equipage van
+  L  2657  3705   479 | 20 scheepen van oorlog.
+  R  3873  2928  1002 | 11 Junij. Prop: Holland om patenten voor 6 lorporaals
+  R  3880  3003   970 | en 6o gemeenen op 6 fregesses tot protectie van de
+  R  3875  3061   991 | Haringhuijsen. R: om a. Eodem. Advis
+  R  3883  3136   807 | Rrstate. En Rus. Patenten Verlant.
+  R  3855  3204  1020 | Junij. S. 1. Prop: Holland over deprotectie van :
+  R  3852  3285  1013 | Groenland en straat Davits vaerdors, en 6 1. retourvloot. Resol„
+  R  3883  3425   935 | Concept Rglement voor den dienst ter Zu.
+  R  3885  3654   961 | 26 Augustij. Dimissie van de Admiraliteiten tot den
+  R  3882  3702   253 | 29 Septemb:
+  R  4146  3715   164 | 
+  R  4282  3709   576 | 19 October. Dmissie vande
+  R  3886  3758   988 | Admiraliteiten tot den 15 novemb: 26 november
+  R  3899  3806   946 | Dimissie, vande Adm: tot den eerste toensdag in April.
+  R  3903  3836   816 | om alsden te besogneeren over de pointen van menage.
+
+#### case 04 [flagged] inv 3507 NL-HaNA_1.01.02_3507_0023 region NL-HaNA_1.01.02_3507_0023-text_region-2685-2341-2433-657
+-- original (XML order), 9 lines
+   2685  2341  2432 | Propositie Holland; om Liqeuidatien Introductie van den Heer van Schui„
+   2781  2474  1153 | tusschen de Provintien te effectei„
+   3952  2469   575 | lenburg, 396.
+   2789  2574  1148 | eeren, en middelen van Constrein„
+   2796  2675   351 | te, 219.
+   3861  2658  1257 | Propositie Holland, om Marteville als
+   2744  2756  1011 | Resolutie Gelderland, 340.
+   3972  2761  1139 | Extraords. Envoijé aan 't Hoff van
+   3959  2869   969 | Sweeden te benoemen. 439.
+-- new order (9 lines)  [tag L/W/R; derived from x only for display]
+  W  2685  2341  2432 | Propositie Holland; om Liqeuidatien Introductie van den Heer van Schui„
+  L  2781  2474  1153 | tusschen de Provintien te effectei„
+  L  2789  2574  1148 | eeren, en middelen van Constrein„
+  L  2796  2675   351 | te, 219.
+  L  2744  2756  1011 | Resolutie Gelderland, 340.
+  R  3952  2469   575 | lenburg, 396.
+  R  3861  2658  1257 | Propositie Holland, om Marteville als
+  R  3972  2761  1139 | Extraords. Envoijé aan 't Hoff van
+  R  3959  2869   969 | Sweeden te benoemen. 439.
+
+#### case 05 [flagged] inv 3444 NL-HaNA_1.01.02_3444_0042 region NL-HaNA_1.01.02_3444_0042-text_region-2546-459-2090-1113
+-- original (XML order), 20 lines
+   2561   459  2075 | Missive van Hoeij, presenten Missive van Hoeij, kennisse gevende
+   2645   582   896 | ingeld, aan de gesanten van
+   3630   577   999 | dat den Koning bij provisie buijten
+   2643   664   935 | Tunis en derselver gevolg. 62.
+   3635   669   963 | effect hadde gestelt, de ordonantie
+   2643   753   942 | Ontfanger Gene: groot gelast
+   3635   748   991 | laastelijck opde verhoging van de
+   2654   839   180 | 63.
+   3631   833   921 | reghten op de Trijp vastgestelt.
+   3619   935  1006 | En dat van de droquette geen ge„
+   2546   914  1064 | Missive van deselve, over het detine„
+   3615  1007   827 | waggemaekt avierd. 162
+   2647  1094   906 | ren van de Marq: Monti in
+   2645  1179   920 | Polen, 80. Rapport ordres
+   3546  1137  1064 | Missive van deselve, dat de Envoijé
+   2642  1260   958 | desaengaende aan de Swart, vide.
+   3630  1264   982 | van Tunis seer Sterk hadde gein„
+   2644  1348   592 | Moscovien. M.
+   3616  1360   976 | steert opde restitutie van haar
+   3626  1438   893 | onderdanen en effecten. 181.
+-- new order (20 lines)  [tag L/W/R; derived from x only for display]
+  W  2561   459  2075 | Missive van Hoeij, presenten Missive van Hoeij, kennisse gevende
+  L  2645   582   896 | ingeld, aan de gesanten van
+  L  2643   664   935 | Tunis en derselver gevolg. 62.
+  L  2643   753   942 | Ontfanger Gene: groot gelast
+  L  2654   839   180 | 63.
+  L  2546   914  1064 | Missive van deselve, over het detine„
+  L  2647  1094   906 | ren van de Marq: Monti in
+  L  2645  1179   920 | Polen, 80. Rapport ordres
+  L  2642  1260   958 | desaengaende aan de Swart, vide.
+  L  2644  1348   592 | Moscovien. M.
+  R  3630   577   999 | dat den Koning bij provisie buijten
+  R  3635   669   963 | effect hadde gestelt, de ordonantie
+  R  3635   748   991 | laastelijck opde verhoging van de
+  R  3631   833   921 | reghten op de Trijp vastgestelt.
+  R  3619   935  1006 | En dat van de droquette geen ge„
+  R  3615  1007   827 | waggemaekt avierd. 162
+  R  3546  1137  1064 | Missive van deselve, dat de Envoijé
+  R  3630  1264   982 | van Tunis seer Sterk hadde gein„
+  R  3616  1360   976 | steert opde restitutie van haar
+  R  3626  1438   893 | onderdanen en effecten. 181.
+
+#### case 06 [flagged] inv 3320 NL-HaNA_1.01.02_3320_0021 region NL-HaNA_1.01.02_3320_0021-text_region-201-777-2330-2804
+-- original (XML order), 44 lines
+    226   777   369 | Verbaal.
+    224   852   934 | missiven vanden keiser 434.
+    220  1010   363 | Caraffa.
+    220  1056  1978 | memorien vanden Exs. Envoyé Tramp, J: de Lange 879, 982.
+    257  1183  1165 | „rich 129, 175, 218, 238, 242, 332, 423.
+   1407  1176   864 | A: Lammens 741, 943.
+    277  1271   832 | 428, 491, 516, 537, 597, 719.
+   1393  1262   896 | G: de Lannoy, 307, 531.
+   1393  1372  1083 | I. de Lange vide Meubles.
+    201  1381  1214 | paspoort voor buskruijt, Salpeter Ac: 129.
+    285  1499   604 | 175, 218, 242, 428.
+   1390  1465  1123 | Grave de Lannoy, vide Luijk
+   1392  1581   981 | P: Larebeek, 164, 527, 779.
+    223  1567  1168 | Contributien van Staveloen malmedn,
+    302  1724   219 | 238.
+   1395  1677  1074 | Consul Laures vide Spagne.
+   1380  1787  1151 | L: E: B: Leeffdaal 51, 309, 532.
+    214  1791  1198 | Jagten tot het transport vande koningin
+   1487  1916   373 | 593, 746.
+    303  1916   856 | van Spagne 333, 423, 516.
+   1400  1994   880 | A: Leenmans 153, 230.
+    253  1990  1145 | notificatie van't overgaan van Mentz
+    329  2138   207 | 491.
+   1385  2108  1072 | J: M: Leers 290, 398, 414.
+   1529  2231   208 | 453.
+    234  2195  1069 | klagten over procedures van't Hoff
+    307  2327  1076 | van Gelderlandt tegens den prince
+   1390  2308   551 | N: de Leeuw
+    309  2401   756 | van Salms 537, 689.
+   1395  2423   905 | J: van Leeuwen 86. 110.
+   1402  2522   821 | P: van Leeuwen 190.
+    239  2523  1120 | Victoris vande keizerlijke wapenen
+    332  2666   221 | 597.
+   1417  2628   636 | Leggelden, 871.
+   1410  2707  1108 | Exs. Envoyé Lente, vide Deuem:
+    246  2741  1199 | Paspoort voorde bagage vanden Grave
+    328  2853   679 | Lobkowitz, 719.
+   1405  2841   605 | P: Lesque 813.
+   1401  2956   950 | J: Lijbaert, 457, 485, 506.
+   1410  3050  1051 | Intfr. Lieffringh, 42, 203, 215.
+   1519  3173   947 | 280, 346, 419, 498, 510, 511.
+   1432  3276   869 | J: Liesselius, 607, 716.
+   1422  3351  1069 | Ontfanger Lindworm vide
+   1552  3491   439 | Beursen.
+-- new order (44 lines)  [tag L/W/R; derived from x only for display]
+  L   226   777   369 | Verbaal.
+  L   224   852   934 | missiven vanden keiser 434.
+  L   220  1010   363 | Caraffa.
+  W   220  1056  1978 | memorien vanden Exs. Envoyé Tramp, J: de Lange 879, 982.
+  L   257  1183  1165 | „rich 129, 175, 218, 238, 242, 332, 423.
+  L   277  1271   832 | 428, 491, 516, 537, 597, 719.
+  L   201  1381  1214 | paspoort voor buskruijt, Salpeter Ac: 129.
+  L   285  1499   604 | 175, 218, 242, 428.
+  L   223  1567  1168 | Contributien van Staveloen malmedn,
+  L   302  1724   219 | 238.
+  L   214  1791  1198 | Jagten tot het transport vande koningin
+  L   303  1916   856 | van Spagne 333, 423, 516.
+  L   253  1990  1145 | notificatie van't overgaan van Mentz
+  L   329  2138   207 | 491.
+  L   234  2195  1069 | klagten over procedures van't Hoff
+  L   307  2327  1076 | van Gelderlandt tegens den prince
+  L   309  2401   756 | van Salms 537, 689.
+  L   239  2523  1120 | Victoris vande keizerlijke wapenen
+  L   332  2666   221 | 597.
+  L   246  2741  1199 | Paspoort voorde bagage vanden Grave
+  L   328  2853   679 | Lobkowitz, 719.
+  R  1407  1176   864 | A: Lammens 741, 943.
+  R  1393  1262   896 | G: de Lannoy, 307, 531.
+  R  1393  1372  1083 | I. de Lange vide Meubles.
+  R  1390  1465  1123 | Grave de Lannoy, vide Luijk
+  R  1392  1581   981 | P: Larebeek, 164, 527, 779.
+  R  1395  1677  1074 | Consul Laures vide Spagne.
+  R  1380  1787  1151 | L: E: B: Leeffdaal 51, 309, 532.
+  R  1487  1916   373 | 593, 746.
+  R  1400  1994   880 | A: Leenmans 153, 230.
+  R  1385  2108  1072 | J: M: Leers 290, 398, 414.
+  R  1529  2231   208 | 453.
+  R  1390  2308   551 | N: de Leeuw
+  R  1395  2423   905 | J: van Leeuwen 86. 110.
+  R  1402  2522   821 | P: van Leeuwen 190.
+  R  1417  2628   636 | Leggelden, 871.
+  R  1410  2707  1108 | Exs. Envoyé Lente, vide Deuem:
+  R  1405  2841   605 | P: Lesque 813.
+  R  1401  2956   950 | J: Lijbaert, 457, 485, 506.
+  R  1410  3050  1051 | Intfr. Lieffringh, 42, 203, 215.
+  R  1519  3173   947 | 280, 346, 419, 498, 510, 511.
+  R  1432  3276   869 | J: Liesselius, 607, 716.
+  R  1422  3351  1069 | Ontfanger Lindworm vide
+  R  1552  3491   439 | Beursen.
+
+#### case 07 [flagged] inv 3493 NL-HaNA_1.01.02_3493_0011 region NL-HaNA_1.01.02_3493_0011-text_region-445-2834-4658-1091
+-- original (XML order), 28 lines
+    456  2905  1260 | Misse. Hertog van Saxen-hilburg
+    539  3016  2244 | hausen, kennis gevende van Missive Koning van Sweeden
+   2707  2957  1195 | Grave van Wartens leken, dec L: 352.
+    536  3123  1141 | 't aanvaarden der regeringe
+   3828  2834  1275 | misse. Lansbergen, houdende, 't geen
+   1716  3127  2167 | notificatie van de geboortqe Wartensleben, dat hem 60. 's daegs
+   3914  2945  1176 | hem was voorgekomen ontrent
+    512  3180  1156 | van de Vorstelyke Landen 35.
+   3920  3040  1165 | het disput tussen de Coophieden
+   1717  3231  1024 | van een prins, door de
+   3925  3142  1054 | en schippers te Ceulen 150.
+   2773  3236  2290 | in declaratie mag werden geleden 335. missive Lansbergen, rakende het
+   1707  3335  1071 | Gemalinne van den prin„
+    445  3358  1208 | misse Staten van Gelderland,
+   1703  3412   766 | successeur 276.
+   2702  3409  1225 | 9e. Wartensleben, om syn daggelden te mo„
+   3919  3346  1091 | voornoemde different, en de
+    543  3498  1154 | Antwoort opde Missive, waer
+   3904  3452   970 | gevolgen van dien 224.
+   2714  3501  1205 | gen behouden, tot dat goedgevonden zal
+    537  3595  1158 | by kennis hebben gegeven van
+   2717  3575  2371 | syn over hem anders te disponeren, en Missive Lansbergen; de heerlykheid
+   1667  3577  1104 | Missive Coninginne Douariere
+   2713  3700  1157 | om dispositie op syn versoek van
+   1718  3701  1052 | van Spagne, notificatie van
+   3872  3710  1210 | Hurth, wederom genoodsaekt een
+   2710  3780  1095 | 15000. voor syne Equipage. 412.
+   2553  3838   188 | het
+-- new order (13 lines)  [tag L/W/R; derived from x only for display]
+  L   456  2905  1260 | Misse. Hertog van Saxen-hilburg
+  W   539  3016  2244 | hausen, kennis gevende van Missive Koning van Sweeden
+  L   536  3123  1141 | 't aanvaarden der regeringe
+  L   512  3180  1156 | van de Vorstelyke Landen 35.
+  L   445  3358  1208 | misse Staten van Gelderland,
+  L   543  3498  1154 | Antwoort opde Missive, waer
+  L   537  3595  1158 | by kennis hebben gegeven van
+  R  1717  3231  1024 | van een prins, door de
+  R  1707  3335  1071 | Gemalinne van den prin„
+  R  1703  3412   766 | successeur 276.
+  R  1667  3577  1104 | Missive Coninginne Douariere
+  R  1718  3701  1052 | van Spagne, notificatie van
+  R  2553  3838   188 | het
+
+#### case 08 [flagged] inv 3469 NL-HaNA_1.01.02_3469_0165 region NL-HaNA_1.01.02_3469_0165-text_region-2890-3078-2361-823
+-- original (XML order), 23 lines
+   2955  3093  1015 | 19 April. Rapport en Res: ontrent het geeven van
+   2971  3160  1035 | Verleven aan gouverneurs en Commandeurs. Verloven
+   4138  3078  1113 | 3 October. Hemp. Vete. Commandeur te Philippine Commando te
+   4134  3154   331 | mogen overgeeven.
+   2979  3225  1095 | ingetrokken en geen nieuwe verleven te geeven voor 1 bulij„
+   4159  3224   997 | 16 October. Aijlva Commandur van Maestricht 3 in 2 novemb:
+   2962  3282  2036 | 21 Junij. miss. Rrstate om het t geeven van verloten aan officieren en gemeenen. Clijlve 5 November. Miss: Burler.
+   2973  3354  1227 | te permitteeren na 1 Julij. Com: R: 13 July. Rapport en Resolutie
+   2974  3411  1135 | tostate versogt voor als nog geen verloven tegeeven aan officiesen
+   4274  3408   160 | seet voors
+   2890  3413  1650 | sut 20 manrt of laten geeven aan gemeenen, maar alleen verspassen voor 24 uuron . 13 July
+   2946  3504  1130 | 7 meij. Reg: Lynden van Blitterswijck, Commandeur van Steenbergen
+   4136  3514   955 | 3 October. Reg: Echten. Commandeur van meenen, om
+   2966  3577   766 | om verlof. om bij sijn Regiment te gaen. Comm:
+   4116  3564  1013 | Verloff tot het afleggen van den eedt. R. Voor als nog aff:
+   2971  3641  1099 | 25 meij. Rapport en Res: de persisteren bij de Res: vanden
+   4129  3634   987 | nadien geen tijd bepaalt is binnen welke den eed op
+   2991  3706   934 | 19 April. 1 Junij. Miss: Lijnden van Blitterswyck.
+   4127  3700   749 | de commissien moot werden afgelegt.
+   2991  3736  1070 | 11 Julij. Lelijnden van Blitterswijck 6 m: mils.
+   2999  3786  1001 | 20 Julij. miss:. Lynden van Blatterswijck. Overgeven vent Commendo.
+   4317  3766   815 | siit paginam ult lit: V.
+   3005  3840   938 | 24 Julij. misse Capidrin van dijk. 11 december. miss: Capitein Pas,
+-- new order (23 lines)  [tag L/W/R; derived from x only for display]
+  L  2955  3093  1015 | 19 April. Rapport en Res: ontrent het geeven van
+  L  2971  3160  1035 | Verleven aan gouverneurs en Commandeurs. Verloven
+  L  2979  3225  1095 | ingetrokken en geen nieuwe verleven te geeven voor 1 bulij„
+  W  2962  3282  2036 | 21 Junij. miss. Rrstate om het t geeven van verloten aan officieren en gemeenen. Clijlve 5 November. Miss: Burler.
+  L  2973  3354  1227 | te permitteeren na 1 Julij. Com: R: 13 July. Rapport en Resolutie
+  L  2974  3411  1135 | tostate versogt voor als nog geen verloven tegeeven aan officiesen
+  L  2890  3413  1650 | sut 20 manrt of laten geeven aan gemeenen, maar alleen verspassen voor 24 uuron . 13 July
+  L  2946  3504  1130 | 7 meij. Reg: Lynden van Blitterswijck, Commandeur van Steenbergen
+  L  2966  3577   766 | om verlof. om bij sijn Regiment te gaen. Comm:
+  L  2971  3641  1099 | 25 meij. Rapport en Res: de persisteren bij de Res: vanden
+  L  2991  3706   934 | 19 April. 1 Junij. Miss: Lijnden van Blitterswyck.
+  L  2991  3736  1070 | 11 Julij. Lelijnden van Blitterswijck 6 m: mils.
+  L  2999  3786  1001 | 20 Julij. miss:. Lynden van Blatterswijck. Overgeven vent Commendo.
+  L  3005  3840   938 | 24 Julij. misse Capidrin van dijk. 11 december. miss: Capitein Pas,
+  R  4138  3078  1113 | 3 October. Hemp. Vete. Commandeur te Philippine Commando te
+  R  4134  3154   331 | mogen overgeeven.
+  R  4159  3224   997 | 16 October. Aijlva Commandur van Maestricht 3 in 2 novemb:
+  R  4274  3408   160 | seet voors
+  R  4136  3514   955 | 3 October. Reg: Echten. Commandeur van meenen, om
+  R  4116  3564  1013 | Verloff tot het afleggen van den eedt. R. Voor als nog aff:
+  R  4129  3634   987 | nadien geen tijd bepaalt is binnen welke den eed op
+  R  4127  3700   749 | de commissien moot werden afgelegt.
+  R  4317  3766   815 | siit paginam ult lit: V.
+
+#### case 09 [flagged] inv 3439 NL-HaNA_1.01.02_3439_0082 region NL-HaNA_1.01.02_3439_0082-text_region-456-1228-2284-999
+-- original (XML order), 21 lines
+    456  1228  1207 | 9 San: Reg: Wary. Contra Mag: van st san steen, om Requeste
+    525  1315  1091 | lvril met Committimus aan haar Ho:Mo: toegestaan.
+    536  1385  1103 | 15 San: Conclusie van Lisch van Hervel, als Proc: van
+    551  1444  1068 | Warg. 11 feb: Reg: Warij, om appointement van
+    572  1507  1089 | constrainte: R: party gelast te antwoorden op poene van
+    578  1554  1050 | verstek. 10 maart Reg: Warg om verstek. R verstek
+   1669  1538  1071 | 7 Maart. Reg: Regenten van Oosterhout, om lrecdt
+   1677  1602   796 | naal. 14 May. advis. Arst: en Res:
+    581  1596  1076 | verleent salvo purge. 31 Maart Conclusie van antwoord
+    581  1652  1043 | van Hoyer, als Procur: vande Mag: van st sansteen. R:
+    588  1737   582 | de Req: livil te interineeren.
+    601  1765  1038 | 24 april Reg: Wary contra Mag: van Stsans steen
+   1644  1755  1089 | 24 Maart Reg: garnier en lastel, Boden en ex„
+    609  1815  1035 | om requeste livil met committimus aan haer H: Mo:
+    614  1823  2122 | 12 toegestaan. 1 Mey. conclusie van eisch van Kergel,, ploictiers van 't slof te Venlo, om betaling uit den
+   1679  1903  1002 | onraat of beeden. R: Fiat nisi causam.
+    618  1924  1057 | als Proc: van Warye. 23 Mey. Reg: Warg. om Constrainte
+    617  1973  1051 | Toegestaen. 4 July. Reg: Warij om verstek. Rverleent
+    624  2025  1016 | salvo purge. 15 Julij. Conclusie van antwoord
+    630  2068  1002 | van de Mag: van st Jan steen. R. Requeste
+    642  2122   966 | civil te interineeren. sit 2 aprilreij. 1733.
+-- new order (21 lines)  [tag L/W/R; derived from x only for display]
+  L   456  1228  1207 | 9 San: Reg: Wary. Contra Mag: van st san steen, om Requeste
+  L   525  1315  1091 | lvril met Committimus aan haar Ho:Mo: toegestaan.
+  L   536  1385  1103 | 15 San: Conclusie van Lisch van Hervel, als Proc: van
+  L   551  1444  1068 | Warg. 11 feb: Reg: Warij, om appointement van
+  L   572  1507  1089 | constrainte: R: party gelast te antwoorden op poene van
+  L   578  1554  1050 | verstek. 10 maart Reg: Warg om verstek. R verstek
+  L   581  1596  1076 | verleent salvo purge. 31 Maart Conclusie van antwoord
+  L   581  1652  1043 | van Hoyer, als Procur: vande Mag: van st sansteen. R:
+  L   588  1737   582 | de Req: livil te interineeren.
+  L   601  1765  1038 | 24 april Reg: Wary contra Mag: van Stsans steen
+  L   609  1815  1035 | om requeste livil met committimus aan haer H: Mo:
+  W   614  1823  2122 | 12 toegestaan. 1 Mey. conclusie van eisch van Kergel,, ploictiers van 't slof te Venlo, om betaling uit den
+  L   618  1924  1057 | als Proc: van Warye. 23 Mey. Reg: Warg. om Constrainte
+  L   617  1973  1051 | Toegestaen. 4 July. Reg: Warij om verstek. Rverleent
+  L   624  2025  1016 | salvo purge. 15 Julij. Conclusie van antwoord
+  L   630  2068  1002 | van de Mag: van st Jan steen. R. Requeste
+  L   642  2122   966 | civil te interineeren. sit 2 aprilreij. 1733.
+  R  1669  1538  1071 | 7 Maart. Reg: Regenten van Oosterhout, om lrecdt
+  R  1677  1602   796 | naal. 14 May. advis. Arst: en Res:
+  R  1644  1755  1089 | 24 Maart Reg: garnier en lastel, Boden en ex„
+  R  1679  1903  1002 | onraat of beeden. R: Fiat nisi causam.
+
+#### case 10 [flagged] inv 3579 NL-HaNA_1.01.02_3579_0184 region NL-HaNA_1.01.02_3579_0184-text_region-442-118-2301-564
+-- original (XML order), 10 lines
+   1371   118   592 | Vlaanderen
+   1289   207   680 | Sas van Gent.
+    459   283  2207 | 4. Jann: Reg: van: Magt. te Sas van Gent, 19. Octob: Reg: vande meerderheid der
+   1726   372   930 | Nodabelen van den Austtischen
+    579   395   991 | de mogen negosteeten legen Sr. Plr
+   1736   437   991 | Polder, byslag aan den Pastoor van
+    553   472   851 | R: Aan den R. V. H. an ad.
+   1729   500  1014 | Sas van Gent vande geestlijke Thieud=
+    442   545  1107 | 18. Jann: Ads. R. V. H: Gy: gepermt.
+   1738   570   663 | hefferen. R: Comm: R.
+-- new order (10 lines)  [tag L/W/R; derived from x only for display]
+  W   459   283  2207 | 4. Jann: Reg: van: Magt. te Sas van Gent, 19. Octob: Reg: vande meerderheid der
+  L   579   395   991 | de mogen negosteeten legen Sr. Plr
+  L   553   472   851 | R: Aan den R. V. H. an ad.
+  L   442   545  1107 | 18. Jann: Ads. R. V. H: Gy: gepermt.
+  R  1371   118   592 | Vlaanderen
+  R  1289   207   680 | Sas van Gent.
+  R  1726   372   930 | Nodabelen van den Austtischen
+  R  1736   437   991 | Polder, byslag aan den Pastoor van
+  R  1729   500  1014 | Sas van Gent vande geestlijke Thieud=
+  R  1738   570   663 | hefferen. R: Comm: R.
+
+#### case 11 [flagged] inv 3478 NL-HaNA_1.01.02_3478_0079 region NL-HaNA_1.01.02_3478_0079-text_region-474-1270-2229-1469
+-- original (XML order), 28 lines
+    474  1270  1150 | 12. Januarij. Rey: scheepenen van st Bosch. Klagende
+    501  1352  1096 | over Imbragt in haar privilegien door den Raad van
+    558  1418  1033 | Btrabant, met het verleenen van twee brieven van
+    570  1482  1042 | gratie aan allegonde, Maria loehoorn. Rv Brrab: om
+    585  1567   416 | b: met surceantie
+    597  1614  1006 | 16 Januarij. Reg: Schapenen van s' Bosch, om lopije
+    584  1692  1060 | van het berigt van den Raad van Brabant. Rontilstael.
+    620  1770   990 | 6 Februarij. Berijt Raad van Brabant. Commiss:
+   1641  1750  1000 | 2 Maert. Rey: van Litzenborg. Vicaris van
+    626  1844  1039 | 6 Februarij. Reg. Kinderen van menno Cothoorn van Houwerda.
+   1646  1819  1015 | den Brosch, om op alle de plaatsen van het
+    619  1926  1038 | antibotaal. 13 Maert. Reg: Scheepenen van s' Botch,
+   1626  1911   977 | licarinet dienst te mogen doen. Com: R
+    618  1987   981 | met een nader memorie, en eenige stukken. Comm:
+    623  2054   976 | 8 April. Miss. R. Brabant. met een nader berigt
+    621  2113  1055 | Comm. 26 Julij. Reg: scheepenen van S' Bosch,
+    628  2185  1053 | met nog een nader memorie, en eenige stukken.
+    630  2236  1182 | Comm: 1 October. Rapport en Res: den 3v Brabant
+    635  2287  1263 | bennen 6 weeken nog nader te berigten. scheepenen van s'Besch
+    655  2306  2048 | oeth braker belang, de mogen seggen. 3 November. nader ven e.en geusrigut van ds' Repn.den. ven den horgen haged om de
+    590  2391  1068 | 25 Januarij. Miss: Scheepenen van s' Bosch over
+    597  2451  1073 | een rundbest, sonder attestatie ingevoert. Hoogshout
+   1649  2435   995 | om den godslienst in een ander kerkenhuijs te
+    598  2536  1020 | om a. 30 Januarij. advis van den Hoogshout in
+   1655  2536   732 | verrigten. Hoogschout om 6. en 2.
+    599  2602   241 | Res: daarop
+   1661  2590   974 | 10 april. Berijt en Advis van den Hoogschout.
+   1661  2657   632 | en Res: Versoch, toegestaan.
+-- new order (28 lines)  [tag L/W/R; derived from x only for display]
+  L   474  1270  1150 | 12. Januarij. Rey: scheepenen van st Bosch. Klagende
+  L   501  1352  1096 | over Imbragt in haar privilegien door den Raad van
+  L   558  1418  1033 | Btrabant, met het verleenen van twee brieven van
+  L   570  1482  1042 | gratie aan allegonde, Maria loehoorn. Rv Brrab: om
+  L   585  1567   416 | b: met surceantie
+  L   597  1614  1006 | 16 Januarij. Reg: Schapenen van s' Bosch, om lopije
+  L   584  1692  1060 | van het berigt van den Raad van Brabant. Rontilstael.
+  L   620  1770   990 | 6 Februarij. Berijt Raad van Brabant. Commiss:
+  L   626  1844  1039 | 6 Februarij. Reg. Kinderen van menno Cothoorn van Houwerda.
+  L   619  1926  1038 | antibotaal. 13 Maert. Reg: Scheepenen van s' Botch,
+  L   618  1987   981 | met een nader memorie, en eenige stukken. Comm:
+  L   623  2054   976 | 8 April. Miss. R. Brabant. met een nader berigt
+  L   621  2113  1055 | Comm. 26 Julij. Reg: scheepenen van S' Bosch,
+  L   628  2185  1053 | met nog een nader memorie, en eenige stukken.
+  L   630  2236  1182 | Comm: 1 October. Rapport en Res: den 3v Brabant
+  L   635  2287  1263 | bennen 6 weeken nog nader te berigten. scheepenen van s'Besch
+  W   655  2306  2048 | oeth braker belang, de mogen seggen. 3 November. nader ven e.en geusrigut van ds' Repn.den. ven den horgen haged om de
+  L   590  2391  1068 | 25 Januarij. Miss: Scheepenen van s' Bosch over
+  L   597  2451  1073 | een rundbest, sonder attestatie ingevoert. Hoogshout
+  L   598  2536  1020 | om a. 30 Januarij. advis van den Hoogshout in
+  L   599  2602   241 | Res: daarop
+  R  1641  1750  1000 | 2 Maert. Rey: van Litzenborg. Vicaris van
+  R  1646  1819  1015 | den Brosch, om op alle de plaatsen van het
+  R  1626  1911   977 | licarinet dienst te mogen doen. Com: R
+  R  1649  2435   995 | om den godslienst in een ander kerkenhuijs te
+  R  1655  2536   732 | verrigten. Hoogschout om 6. en 2.
+  R  1661  2590   974 | 10 april. Berijt en Advis van den Hoogschout.
+  R  1661  2657   632 | en Res: Versoch, toegestaan.
+
+#### case 12 [flagged] inv 3623 NL-HaNA_1.01.02_3623_0078 region NL-HaNA_1.01.02_3623_0078-text_region-2543-2457-2162-985
+-- original (XML order), 13 lines
+   2557  2457  1072 | Misse. van de Regeering sLands van
+   2656  2562   947 | den Vryen, versoekende dat geen
+   2660  2608  2003 | reguard mag worden geroomen Hulst en Hulster Ambagt,
+   2665  2748   957 | op 't berigt der Ingeseetenen van
+   2662  2795  2043 | den Edeharias Polder. 121. Rappt. Reqte. van de Ewen opgezeetenen van
+   2670  2929   459 | en Resol: 3100.
+   3722  2893   969 | Hulst en Hulster Ambagt; vat.
+   3744  3000   941 | t aanstellen van Regentewetd:
+   2543  3011  1088 | Miss: van de Regeering van 't Vrye, om af„
+   3750  3082   701 | uit de Notabelen. 209.
+   2645  3186   968 | ,wysinge van 't versoek van die van
+   2649  3237   999 | Breskeens, om penningen uit hunne
+   2644  3363   407 | eka1 810: 367.
+-- new order (13 lines)  [tag L/W/R; derived from x only for display]
+  L  2557  2457  1072 | Misse. van de Regeering sLands van
+  L  2656  2562   947 | den Vryen, versoekende dat geen
+  W  2660  2608  2003 | reguard mag worden geroomen Hulst en Hulster Ambagt,
+  L  2665  2748   957 | op 't berigt der Ingeseetenen van
+  W  2662  2795  2043 | den Edeharias Polder. 121. Rappt. Reqte. van de Ewen opgezeetenen van
+  L  2670  2929   459 | en Resol: 3100.
+  L  2543  3011  1088 | Miss: van de Regeering van 't Vrye, om af„
+  L  2645  3186   968 | ,wysinge van 't versoek van die van
+  L  2649  3237   999 | Breskeens, om penningen uit hunne
+  L  2644  3363   407 | eka1 810: 367.
+  R  3722  2893   969 | Hulst en Hulster Ambagt; vat.
+  R  3744  3000   941 | t aanstellen van Regentewetd:
+  R  3750  3082   701 | uit de Notabelen. 209.
+
+#### case 13 [flagged] inv 3421 NL-HaNA_1.01.02_3421_0056 region NL-HaNA_1.01.02_3421_0056-text_region-631-517-2224-983
+-- original (XML order), 16 lines
+    631   540  1104 | Missiven vanden Ambassa„
+   1765   517  1073 | Ordonnantie vanden Koningh
+    671   648  1028 | deur Boreel, 5, 8, 23, 36.
+   1789   645  1066 | laden van koopmanschappen
+    679   746  1043 | 43, 58, 74, 90, 102, 109, 144, 165.
+   1794   756  1039 | op vreemde Schepen inde
+    675   828  1073 | 174, 183, 195, 206, 220, 230, 243.
+   1791   854  1049 | Levant en Ialiaasche ha„
+    671   913  1080 | 257, 270, 284, 297, 306, 316, 336.
+   1826   973   421 | vens 167.
+    670   997  1084 | 349, 359, 371, 384, 394, 411, 427.
+    666  1094  1154 | 436, 448, 457, 465, 480, 490, 497.
+    662  1150  2187 | 511, 526, 531, 546, 568, 579. prop. Holland, communicatie van
+   1818  1253  1023 | het arresteren van Hen„
+    877  1302   490 | Expresse 54.
+   1821  1351   954 | nequin te Reims 172.
+-- new order (16 lines)  [tag L/W/R; derived from x only for display]
+  L   631   540  1104 | Missiven vanden Ambassa„
+  L   671   648  1028 | deur Boreel, 5, 8, 23, 36.
+  L   679   746  1043 | 43, 58, 74, 90, 102, 109, 144, 165.
+  L   675   828  1073 | 174, 183, 195, 206, 220, 230, 243.
+  L   671   913  1080 | 257, 270, 284, 297, 306, 316, 336.
+  L   670   997  1084 | 349, 359, 371, 384, 394, 411, 427.
+  L   666  1094  1154 | 436, 448, 457, 465, 480, 490, 497.
+  W   662  1150  2187 | 511, 526, 531, 546, 568, 579. prop. Holland, communicatie van
+  L   877  1302   490 | Expresse 54.
+  R  1765   517  1073 | Ordonnantie vanden Koningh
+  R  1789   645  1066 | laden van koopmanschappen
+  R  1794   756  1039 | op vreemde Schepen inde
+  R  1791   854  1049 | Levant en Ialiaasche ha„
+  R  1826   973   421 | vens 167.
+  R  1818  1253  1023 | het arresteren van Hen„
+  R  1821  1351   954 | nequin te Reims 172.
+
+#### case 14 [flagged] inv 3455 NL-HaNA_1.01.02_3455_0048 region NL-HaNA_1.01.02_3455_0048-text_region-2803-818-2364-938
+-- original (XML order), 13 lines
+   2815   860  1129 | Vrieslandt gereedthijt om sigh te
+   3930   818  1212 | Montet aan Burmannia, 102.
+   2876   942  2236 | verklaren opde besendinge naLandt aan de State van Holland.
+   3955  1082   354 | 125.
+   2875  1080  1113 | het Hoff van den Koning van
+   2879  1181   835 | beijde Sicilien. 486.
+   3901  1222   983 | de Haen aan Hop. 178.
+   3895  1346  1227 | Susanna Hoon aan van Til. 208.
+   2803  1338  1151 | Misfr. State, Sloterdijk Extraords.
+   2873  1477  1046 | ter Vergadering Gedeputeert.
+   3904  1499  1263 | J: en C: der kinderen aan Ginckel.
+   2878  1597   295 | 458.
+   4037  1631   250 | 219.
+-- new order (13 lines)  [tag L/W/R; derived from x only for display]
+  L  2815   860  1129 | Vrieslandt gereedthijt om sigh te
+  W  2876   942  2236 | verklaren opde besendinge naLandt aan de State van Holland.
+  L  2875  1080  1113 | het Hoff van den Koning van
+  L  2879  1181   835 | beijde Sicilien. 486.
+  L  2803  1338  1151 | Misfr. State, Sloterdijk Extraords.
+  L  2873  1477  1046 | ter Vergadering Gedeputeert.
+  L  2878  1597   295 | 458.
+  R  3930   818  1212 | Montet aan Burmannia, 102.
+  R  3955  1082   354 | 125.
+  R  3901  1222   983 | de Haen aan Hop. 178.
+  R  3895  1346  1227 | Susanna Hoon aan van Til. 208.
+  R  3904  1499  1263 | J: en C: der kinderen aan Ginckel.
+  R  4037  1631   250 | 219.
+
+#### case 15 [flagged] inv 3546 NL-HaNA_1.01.02_3546_0113 region NL-HaNA_1.01.02_3546_0113-text_region-478-151-2131-513
+-- original (XML order), 9 lines
+    857   151  1542 | Maastricht en Landen van Overmaaze
+    478   223  1201 | 14. Sept: Reg: van L. Poppelman, om Approb: op sijne
+    598   315  1053 | aanstallinge, a Es Schout en Cumineele Officier
+   1737   243   742 | Commisss. Deciseurs
+    600   377   570 | van Teneur. R: Gedepe.
+   1657   352   940 | 26. Meij. de Hr. van Zuijlen van Nieveld,
+   1810   429   539 | weg: Gelderl: gecomm:
+   1654   488   955 | 26. Mey. de hr. Sijtzama van Bellingewaet
+   1813   562   503 | weqs. Stad en Lande.
+-- new order (9 lines)  [tag L/W/R; derived from x only for display]
+  W   857   151  1542 | Maastricht en Landen van Overmaaze
+  L   478   223  1201 | 14. Sept: Reg: van L. Poppelman, om Approb: op sijne
+  L   598   315  1053 | aanstallinge, a Es Schout en Cumineele Officier
+  L   600   377   570 | van Teneur. R: Gedepe.
+  R  1737   243   742 | Commisss. Deciseurs
+  R  1657   352   940 | 26. Meij. de Hr. van Zuijlen van Nieveld,
+  R  1810   429   539 | weg: Gelderl: gecomm:
+  R  1654   488   955 | 26. Mey. de hr. Sijtzama van Bellingewaet
+  R  1813   562   503 | weqs. Stad en Lande.
+
+#### case 16 [flagged] inv 3472 NL-HaNA_1.01.02_3472_0189 region NL-HaNA_1.01.02_3472_0189-text_region-2908-1428-1157-535
+-- original (XML order), 12 lines
+   2911  1428   661 | 8 maij. C. Malthias. extr. ged:
+   2915  1515   687 | 5 Junij. 1. 9. schorer extr. ged.
+   2920  1596   662 | 18 Junij. op de Heeren Matthas,
+   3563  1589   468 | sous, ssebréé, Vleugels,
+   2908  1664  1114 | en godin (staats gewijse hier sijnde tot het maken van een
+   2936  1735   630 | President van den Hoogen. Raad.
+   3687  1749   372 | 21 6clob: W. Vorlst
+   2931  1775   756 | 23 Augustij A. W. van Citters exsr. Ged.
+   3674  1812   215 | extr. ged.
+   3115  1837   427 | Consenten
+   3700  1844   365 | 8 November. Mirgringe
+   3660  1901   365 | extr: geb: sut intra
+-- new order (12 lines)  [tag L/W/R; derived from x only for display]
+  L  2911  1428   661 | 8 maij. C. Malthias. extr. ged:
+  L  2915  1515   687 | 5 Junij. 1. 9. schorer extr. ged.
+  L  2920  1596   662 | 18 Junij. op de Heeren Matthas,
+  W  2908  1664  1114 | en godin (staats gewijse hier sijnde tot het maken van een
+  L  2936  1735   630 | President van den Hoogen. Raad.
+  L  2931  1775   756 | 23 Augustij A. W. van Citters exsr. Ged.
+  L  3115  1837   427 | Consenten
+  R  3563  1589   468 | sous, ssebréé, Vleugels,
+  R  3687  1749   372 | 21 6clob: W. Vorlst
+  R  3674  1812   215 | extr. ged.
+  R  3700  1844   365 | 8 November. Mirgringe
+  R  3660  1901   365 | extr: geb: sut intra
+
+#### case 17 [flagged] inv 3623 NL-HaNA_1.01.02_3623_0051 region NL-HaNA_1.01.02_3623_0051-text_region-512-686-2373-1126
+-- original (XML order), 16 lines
+    520   686  2354 | Maseyk, vid: Heppo, onder Constan. Reqt. van den Hoopproest van 1
+    657   838   449 | ,tinopolen.
+   1893   821   992 | servaas te Maastricht, 6. Ara
+   1909   908   966 | van Reloes, om begunstigt te
+    528  1009   955 | Manssill, vid: Vrankryk.
+   1916  1012   963 | werden met de 24e. Arabend
+   1918  1106   952 | 30. Rappt. en Resol: daar op
+    531  1210  1046 | de la Marche, vid: Vrankryk.
+   1925  1220   954 | 461. Miss: van Commissaris
+   1908  1312   968 | Instructeurs, om authorisale
+    512  1381   951 | Mackensie, vid: Engeland.
+   1919  1428   952 | tot 't verhandelen van een o
+   1925  1507   946 | cienende Freebende in. H
+    519  1572   951 | Mollien, vid: Vrantkeryk.
+   1922  1613   959 | servaas. 572. Rappt. en Res
+   1934  1708   199 | 689.
+-- new order (16 lines)  [tag L/W/R; derived from x only for display]
+  W   520   686  2354 | Maseyk, vid: Heppo, onder Constan. Reqt. van den Hoopproest van 1
+  L   657   838   449 | ,tinopolen.
+  L   528  1009   955 | Manssill, vid: Vrankryk.
+  L   531  1210  1046 | de la Marche, vid: Vrankryk.
+  L   512  1381   951 | Mackensie, vid: Engeland.
+  L   519  1572   951 | Mollien, vid: Vrantkeryk.
+  R  1893   821   992 | servaas te Maastricht, 6. Ara
+  R  1909   908   966 | van Reloes, om begunstigt te
+  R  1916  1012   963 | werden met de 24e. Arabend
+  R  1918  1106   952 | 30. Rappt. en Resol: daar op
+  R  1925  1220   954 | 461. Miss: van Commissaris
+  R  1908  1312   968 | Instructeurs, om authorisale
+  R  1919  1428   952 | tot 't verhandelen van een o
+  R  1925  1507   946 | cienende Freebende in. H
+  R  1922  1613   959 | servaas. 572. Rappt. en Res
+  R  1934  1708   199 | 689.
+
+#### case 18 [flagged] inv 3351 NL-HaNA_1.01.02_3351_0053 region NL-HaNA_1.01.02_3351_0053-text_region-2839-1620-2268-743
+-- original (XML order), 13 lines
+   2860  1620  1159 | 7 Sept: 3. 1. rapport op den Equipage van 18 Schepen
+   2860  1658  2247 | een het continueren in dienste voor 12 maanden 26 nab: 5n. ordres aen Vrijbergen, op de klaghten
+   2935  1789   768 | te concerterr met Engel.
+   3921  1768  1175 | van hoor tegem den Pr: V. Baden, wegens het
+   3914  1863  1116 | posteren van trouppen en het atre:t hem
+   2839  1945  1007 | 10 Sesb: missi vrijbergen, op den rane nussen
+   3915  1963   386 | aenge soght.
+   2860  2039  1013 | de Ambrs. van Venetien en Staat tot
+   3934  2050  1105 | 7. decr. ordnes opde verueeringe van Engelsse
+   2884  2126  1062 | constantinopoten, warop aen Calijear i
+   3937  2169  1147 | trouspren. en dat de 2regem: na portugal wedtom
+   2903  2197   254 | geschr:
+   3921  2250   670 | ge Sufpl: mogen werden;
+-- new order (13 lines)  [tag L/W/R; derived from x only for display]
+  L  2860  1620  1159 | 7 Sept: 3. 1. rapport op den Equipage van 18 Schepen
+  W  2860  1658  2247 | een het continueren in dienste voor 12 maanden 26 nab: 5n. ordres aen Vrijbergen, op de klaghten
+  L  2935  1789   768 | te concerterr met Engel.
+  L  2839  1945  1007 | 10 Sesb: missi vrijbergen, op den rane nussen
+  L  2860  2039  1013 | de Ambrs. van Venetien en Staat tot
+  L  2884  2126  1062 | constantinopoten, warop aen Calijear i
+  L  2903  2197   254 | geschr:
+  R  3921  1768  1175 | van hoor tegem den Pr: V. Baden, wegens het
+  R  3914  1863  1116 | posteren van trouppen en het atre:t hem
+  R  3915  1963   386 | aenge soght.
+  R  3934  2050  1105 | 7. decr. ordnes opde verueeringe van Engelsse
+  R  3937  2169  1147 | trouspren. en dat de 2regem: na portugal wedtom
+  R  3921  2250   670 | ge Sufpl: mogen werden;
+
+#### case 19 [flagged] inv 3546 NL-HaNA_1.01.02_3546_0012 region NL-HaNA_1.01.02_3546_0012-text_region-421-148-2114-1044
+-- original (XML order), 20 lines
+    899   148  1111 | Admiralt: in Zeeland.
+    421   275  2069 | 9. Jann: Ad: van 't Collegie, r. het vroek van 8. Junij Missr. van 't Collegie; nominatie tot
+   1580   343   888 | Ontfr. van de Convoijen en Licenten te
+    567   372   916 | Vernede en Compe, om vrijdom van betaa„
+   1616   412   844 | Vlissingen. H. J. Hurgnonje goeligt.
+    548   462   906 | ,linge van Rechten. R. Holl: w: Woirts,
+    566   531   893 | in afwachtinge der nog manqueetende
+    562   591   386 | advisen, Comm:
+    428   640   994 | 9. Sann: Ad: van de Admt. te Amsterdam,
+   1467   640  1018 | 27. July. Miss. van 't Collegie; Turhsch Paspt.
+    575   734   655 | over ltes: Rs: als vooren.
+   1573   740   862 | vrrr ' Schip, hetwapen van Zeeland,
+    432   796   665 | 20. Jan: Ad: Uts: Noorderqr:
+   1568   789   967 | bij Pieler Clement te Marscilée gekogs en.
+    429   856   998 | 24. Jan: Ad: Uts: Vicesl: Alle de Adv. an
+   1565   881   233 | Geaccordt.
+    542   922   461 | H: Kon: H: om et:
+    433   974  1016 | 3. Maart. Ed. H. H: H. Ri. de Admt. bij provisie
+    544  1041   930 | geene betaaling van inkomende noch uitgaande
+    536  1099   793 | Rechten, of lastgelden, te vorderen. et=
+-- new order (20 lines)  [tag L/W/R; derived from x only for display]
+  W   899   148  1111 | Admiralt: in Zeeland.
+  W   421   275  2069 | 9. Jann: Ad: van 't Collegie, r. het vroek van 8. Junij Missr. van 't Collegie; nominatie tot
+  L   567   372   916 | Vernede en Compe, om vrijdom van betaa„
+  L   548   462   906 | ,linge van Rechten. R. Holl: w: Woirts,
+  L   566   531   893 | in afwachtinge der nog manqueetende
+  L   562   591   386 | advisen, Comm:
+  L   428   640   994 | 9. Sann: Ad: van de Admt. te Amsterdam,
+  L   575   734   655 | over ltes: Rs: als vooren.
+  L   432   796   665 | 20. Jan: Ad: Uts: Noorderqr:
+  L   429   856   998 | 24. Jan: Ad: Uts: Vicesl: Alle de Adv. an
+  L   542   922   461 | H: Kon: H: om et:
+  L   433   974  1016 | 3. Maart. Ed. H. H: H. Ri. de Admt. bij provisie
+  L   544  1041   930 | geene betaaling van inkomende noch uitgaande
+  L   536  1099   793 | Rechten, of lastgelden, te vorderen. et=
+  R  1580   343   888 | Ontfr. van de Convoijen en Licenten te
+  R  1616   412   844 | Vlissingen. H. J. Hurgnonje goeligt.
+  R  1467   640  1018 | 27. July. Miss. van 't Collegie; Turhsch Paspt.
+  R  1573   740   862 | vrrr ' Schip, hetwapen van Zeeland,
+  R  1568   789   967 | bij Pieler Clement te Marscilée gekogs en.
+  R  1565   881   233 | Geaccordt.
+
+#### case 20 [flagged] inv 3547 NL-HaNA_1.01.02_3547_0028 region NL-HaNA_1.01.02_3547_0028-text_region-416-409-2429-616
+-- original (XML order), 10 lines
+    422   409  2423 | Reqte vande Regenten van Oosterwyk, Berigt en consideratien vanden Renent.
+    619   567  1029 | raak: het Poorterschap van Zee,
+   1784   565  1043 | van Heurn, rak: de vervalling van
+    612   660   851 | keren G: van Assen, 66.
+   1779   660   999 | de Decang van't Capittel van
+    416   749  1063 | Berigt van den Magistraat 218.
+   1775   767   521 | Oirschot. 127.
+    427   852  1117 | Advis vanden R: V: Braband, 389.
+   1601   844  1205 | Reqte van Sweerts de Landas, rak, Uts.
+   1811   953   201 | 127.
+-- new order (10 lines)  [tag L/W/R; derived from x only for display]
+  W   422   409  2423 | Reqte vande Regenten van Oosterwyk, Berigt en consideratien vanden Renent.
+  L   619   567  1029 | raak: het Poorterschap van Zee,
+  L   612   660   851 | keren G: van Assen, 66.
+  L   416   749  1063 | Berigt van den Magistraat 218.
+  L   427   852  1117 | Advis vanden R: V: Braband, 389.
+  R  1784   565  1043 | van Heurn, rak: de vervalling van
+  R  1779   660   999 | de Decang van't Capittel van
+  R  1775   767   521 | Oirschot. 127.
+  R  1601   844  1205 | Reqte van Sweerts de Landas, rak, Uts.
+  R  1811   953   201 | 127.
+
+#### case 21 [other] inv 3471 NL-HaNA_1.01.02_3471_0066 region NL-HaNA_1.01.02_3471_0066-text_region-529-1058-1941-1595
+-- original (XML order), 23 lines
+    565  1058   699 | Bedichdens van t' Zegelcomptor
+   1245  1076  1208 | Is ter Vergaderinge geleesen de Requeste van
+    532  1196   704 | ben eynde ymant geauthorisart
+   1254  1195  1195 | de Bediendens van het Zegel- Comptoir van
+    529  1273   699 | magh werde om by absentie van
+   1262  1285  1186 | haer Hoog Mog:, houdende dat Frederik van
+    533  1345   695 | G: van der Lende parapheur van
+   1258  1365  1205 | der Linde, Parapheur van het kleijn Zegel van
+    531  1436  1915 | 5 Rleyn Regel de nodige Spanchypen de Generaliteijt, met permissie absent was, en
+    535  1526   545 | te moogen pldsapheeren
+   1249  1531  1214 | dat eenige Franchijnen nodig dienden gepara„
+   1257  1616  1201 | pheert te werden; versoeckende, dat haer Hoog
+   1253  1700  1209 | Mog: iemand gelieven te authoriseeren, om bij
+   1255  1786  1208 | absentie vanden voorn: vander Linden de noo„
+   1249  1868  1135 | dige Franchijnen te mogen parapheeren.
+   1247  1950  1223 | Waar op gedelibereert sijnde Is goedgevon
+   1260  2046  1208 | den en verstaen, dat Hendrik van Herkel een
+   1257  2131  1205 | vande voorsz: bedienden sal werden gelast en
+   1259  2212  1209 | geauthoriseert, soo als gelast en geauthoriseert
+   1259  2301  1193 | werd mits deesen, om de nodige Zegels op de
+   1264  2379  1193 | Franchijnen en andere te teickenen gediu„
+   1248  2463  1212 | rende de teegenwoordige absentie van den ge„
+   1243  2543   910 | melde Frederik vander Linden.
+-- new order (23 lines)  [tag L/W/R; derived from x only for display]
+  L   565  1058   699 | Bedichdens van t' Zegelcomptor
+  L   532  1196   704 | ben eynde ymant geauthorisart
+  L   529  1273   699 | magh werde om by absentie van
+  L   533  1345   695 | G: van der Lende parapheur van
+  W   531  1436  1915 | 5 Rleyn Regel de nodige Spanchypen de Generaliteijt, met permissie absent was, en
+  L   535  1526   545 | te moogen pldsapheeren
+  R  1245  1076  1208 | Is ter Vergaderinge geleesen de Requeste van
+  R  1254  1195  1195 | de Bediendens van het Zegel- Comptoir van
+  R  1262  1285  1186 | haer Hoog Mog:, houdende dat Frederik van
+  R  1258  1365  1205 | der Linde, Parapheur van het kleijn Zegel van
+  R  1249  1531  1214 | dat eenige Franchijnen nodig dienden gepara„
+  R  1257  1616  1201 | pheert te werden; versoeckende, dat haer Hoog
+  R  1253  1700  1209 | Mog: iemand gelieven te authoriseeren, om bij
+  R  1255  1786  1208 | absentie vanden voorn: vander Linden de noo„
+  R  1249  1868  1135 | dige Franchijnen te mogen parapheeren.
+  R  1247  1950  1223 | Waar op gedelibereert sijnde Is goedgevon
+  R  1260  2046  1208 | den en verstaen, dat Hendrik van Herkel een
+  R  1257  2131  1205 | vande voorsz: bedienden sal werden gelast en
+  R  1259  2212  1209 | geauthoriseert, soo als gelast en geauthoriseert
+  R  1259  2301  1193 | werd mits deesen, om de nodige Zegels op de
+  R  1264  2379  1193 | Franchijnen en andere te teickenen gediu„
+  R  1248  2463  1212 | rende de teegenwoordige absentie van den ge„
+  R  1243  2543   910 | melde Frederik vander Linden.
+
+#### case 22 [other] inv 12444 NL-HaNA_1.01.02_12444_0184 region NL-HaNA_1.01.02_12444_0184-text_region-2529-496-2360-2281
+-- original (XML order), 22 lines
+   2559   496  2242 | Resolutie waarbij sijnde op de successive ingelloo„
+   2566   613   825 | de respe. Consulsen
+   3284   660  1501 | ,men missives, soo van van
+   2559   742   815 | vice consuls opde
+   2568   837  2199 | kunst van Mawc, den geweesen Consul Generaal
+   2558   985   857 | „co norden aange.
+   3319  1042  1494 | Roskqnol, als van den consul
+   2535  1117   855 | „schreeven, sig niet
+   2539  1248  2292 | te bemoeijen met Butles, den geweesen Schout
+   2569  1391   810 | eenige negotiatie
+   3325  1453  1548 | bij Nagt Hastsuikk, de vice con„
+   2569  1522   866 | van Vreede met den
+   2554  1651  2335 | keijser, maas sulx, sicl Blount, den Capitijn van
+   2552  1818   888 | over te laaten aan
+   3371  1859  1492 | Bijland mitsgadess vanden
+   2552  1939   899 | den Commandee.
+   2529  2075  2234 | „rende officier van't Schout bij Nago Picliot en.
+   2547  2218   841 | Essriades, als daas
+   3328  2280  1463 | den Commissaris Bugnst,
+   2536  2355   955 | toe bij gem: Resolu„
+   2529  2475  2340 | „tie alleen gequali, alle conceneerende den toe„
+   2530  2627   677 | „ficeert sijnde.
+-- new order (22 lines)  [tag L/W/R; derived from x only for display]
+  W  2559   496  2242 | Resolutie waarbij sijnde op de successive ingelloo„
+  L  2566   613   825 | de respe. Consulsen
+  L  2559   742   815 | vice consuls opde
+  W  2568   837  2199 | kunst van Mawc, den geweesen Consul Generaal
+  L  2558   985   857 | „co norden aange.
+  L  2535  1117   855 | „schreeven, sig niet
+  W  2539  1248  2292 | te bemoeijen met Butles, den geweesen Schout
+  L  2569  1391   810 | eenige negotiatie
+  L  2569  1522   866 | van Vreede met den
+  W  2554  1651  2335 | keijser, maas sulx, sicl Blount, den Capitijn van
+  L  2552  1818   888 | over te laaten aan
+  L  2552  1939   899 | den Commandee.
+  W  2529  2075  2234 | „rende officier van't Schout bij Nago Picliot en.
+  L  2547  2218   841 | Essriades, als daas
+  L  2536  2355   955 | toe bij gem: Resolu„
+  W  2529  2475  2340 | „tie alleen gequali, alle conceneerende den toe„
+  L  2530  2627   677 | „ficeert sijnde.
+  R  3284   660  1501 | ,men missives, soo van van
+  R  3319  1042  1494 | Roskqnol, als van den consul
+  R  3325  1453  1548 | bij Nagt Hastsuikk, de vice con„
+  R  3371  1859  1492 | Bijland mitsgadess vanden
+  R  3328  2280  1463 | den Commissaris Bugnst,
+
+#### case 23 [other] inv 882 NL-HaNA_1.01.02_882_0162 region NL-HaNA_1.01.02_882_0162-text_region-2646-106-2313-3651
+-- original (XML order), 51 lines
+   3714   106  1231 | Zijnde ter vergaderinge gecompareerd
+   2669   274  1041 | Ludovicus de la Coste, Joannes Busschof
+   3704   271  1160 | Joannes Adriaart Fierens, Thooderius
+   2665   373  1114 | Cornelius van Rhyn, Wilhelmus van Eenhoorn,
+   3716   396  1190 | Bekker, Petrut Haeufts, Jacobus Heurd,
+   2668   473  1034 | Cacas van Eybergen, Jacobus de Kempenaer,
+   3686   524  1241 | Hetmanus Kuipert, Henrieus Velte, Her„
+   2656   580  1012 | Bernhardus Brouwer, joannes Thierons,
+   3709   666  1226 | manue van Rijtterveld, Gabriel van de Velbe,
+   2660   679  1046 | joannes Creijgton, Henriaus Vos, Daniel
+   2653   783  1048 | vander Meer, Petrus van Hemert, Simon
+   3706   777  1188 | Henricul Schainek, Hooderut Monni
+   2653   891  1066 | Stratenus, Nicolaus Corneliaus Crollius, Ma.
+   3694   897  1239 | kermalen, Jrannet Hooft, toermorin Look,
+   2656   969  1069 | thias van Woensel, Jacobus Engesma, Corn:
+   2649  1039  2258 | lias Slocker, joames Struys, Lubestus Birza, Agidrul Schutter, Petrul Coteul, Thea
+   2646  1172  1058 | Nicolans Metelercamps, Flosens Capper de
+   3695  1181  1221 | Pocul Crant, Aelchior Hanekroot, foon,
+   2647  1281   722 | Vriese en Jonas Fauckeraens,
+   3703  1297  1234 | nef van toenat, Lubbertus Waterham, ton
+   3705  1418  1183 | tenius de Vriel, Henricut Hemmerik
+   3698  1540  1192 | huijsen, Alricus de Vriet, en Haactem,
+   4658  1625   269 | Tordrecht
+   3694  1662  1204 | parat, respective Predikanten te delft
+   4305  1733   614 | Agrnhem s'Hertogen
+   3705  1767  1175 | Zutphen, Nijmegen, Hardrwijk, Aert en
+   4393  1872   485 | Schiedam, Delft,
+   3736  1872   240 | Wbost
+   3707  1875  1157 | Freugel, s, Gravenhage, berongh Arda
+   3721  1968  1218 | Aaerlem, Amsterdam, te Renisse uyt het Classis
+   2989  1997   708 | 1 te Uijtrecht, te houten,
+   3697  2045  1200 | Enkhuijten, Coam, Lemburg, Fergen op
+   3070  2092   659 | te sneeck, te Goeredyck
+   3702  2095  1175 | van Schouwen, te wolffersdyck uyt Duydbeveland
+   3701  2163  1174 | toemontwijk te buirstteeket Emmanat bori„
+   3066  2189   663 | te Campen, Westerbroem,
+   3695  2267  1227 | rent bijk mot slantis, Coenjunet Siolle
+   3076  2275   644 | uythuijsen, op t' Hogveen,
+   3083  2347   476 | en te Vlissingen
+   3708  2392  1202 | Beulake, Garreltutor, Ragtweede, Antloo,
+   3708  2512  1161 | en derdregt, te samen gecommitteert
+   3703  2619  1207 | vande resp:. Sijnoden der geunieerde Pro„
+   3700  2740  1158 | vincien; verboekende, dat hij in kragte
+   3703  2849  1196 | van haar Ho:Mog: resolutie vanden 5 Julij
+   3702  2950  1257 | 1625 ten overstaan vande Heeren bij deselve
+   3691  3076  1236 | uijt haar midden te deputeeren, souden mo„
+   3689  3190  1244 | gen visiteeren de papieren Sijnodi natio
+   3690  3289  1191 | nalis, bewaart werdende in een kiste
+   3705  3402  1190 | onder de voorsorge van haar Ho:Mog:, op
+   3698  3517  1208 | dat soo een treffelijk werk, al te lang be„
+   3697  3621  1182 | slooten leggende, geen schaede kodme te
+-- new order (51 lines)  [tag L/W/R; derived from x only for display]
+  L  2669   274  1041 | Ludovicus de la Coste, Joannes Busschof
+  L  2665   373  1114 | Cornelius van Rhyn, Wilhelmus van Eenhoorn,
+  L  2668   473  1034 | Cacas van Eybergen, Jacobus de Kempenaer,
+  L  2656   580  1012 | Bernhardus Brouwer, joannes Thierons,
+  L  2660   679  1046 | joannes Creijgton, Henriaus Vos, Daniel
+  L  2653   783  1048 | vander Meer, Petrus van Hemert, Simon
+  L  2653   891  1066 | Stratenus, Nicolaus Corneliaus Crollius, Ma.
+  L  2656   969  1069 | thias van Woensel, Jacobus Engesma, Corn:
+  W  2649  1039  2258 | lias Slocker, joames Struys, Lubestus Birza, Agidrul Schutter, Petrul Coteul, Thea
+  L  2646  1172  1058 | Nicolans Metelercamps, Flosens Capper de
+  L  2647  1281   722 | Vriese en Jonas Fauckeraens,
+  L  2989  1997   708 | 1 te Uijtrecht, te houten,
+  L  3070  2092   659 | te sneeck, te Goeredyck
+  L  3066  2189   663 | te Campen, Westerbroem,
+  L  3076  2275   644 | uythuijsen, op t' Hogveen,
+  L  3083  2347   476 | en te Vlissingen
+  R  3714   106  1231 | Zijnde ter vergaderinge gecompareerd
+  R  3704   271  1160 | Joannes Adriaart Fierens, Thooderius
+  R  3716   396  1190 | Bekker, Petrut Haeufts, Jacobus Heurd,
+  R  3686   524  1241 | Hetmanus Kuipert, Henrieus Velte, Her„
+  R  3709   666  1226 | manue van Rijtterveld, Gabriel van de Velbe,
+  R  3706   777  1188 | Henricul Schainek, Hooderut Monni
+  R  3694   897  1239 | kermalen, Jrannet Hooft, toermorin Look,
+  R  3695  1181  1221 | Pocul Crant, Aelchior Hanekroot, foon,
+  R  3703  1297  1234 | nef van toenat, Lubbertus Waterham, ton
+  R  3705  1418  1183 | tenius de Vriel, Henricut Hemmerik
+  R  3698  1540  1192 | huijsen, Alricus de Vriet, en Haactem,
+  R  4658  1625   269 | Tordrecht
+  R  3694  1662  1204 | parat, respective Predikanten te delft
+  R  4305  1733   614 | Agrnhem s'Hertogen
+  R  3705  1767  1175 | Zutphen, Nijmegen, Hardrwijk, Aert en
+  R  3736  1872   240 | Wbost
+  R  4393  1872   485 | Schiedam, Delft,
+  R  3707  1875  1157 | Freugel, s, Gravenhage, berongh Arda
+  R  3721  1968  1218 | Aaerlem, Amsterdam, te Renisse uyt het Classis
+  R  3697  2045  1200 | Enkhuijten, Coam, Lemburg, Fergen op
+  R  3702  2095  1175 | van Schouwen, te wolffersdyck uyt Duydbeveland
+  R  3701  2163  1174 | toemontwijk te buirstteeket Emmanat bori„
+  R  3695  2267  1227 | rent bijk mot slantis, Coenjunet Siolle
+  R  3708  2392  1202 | Beulake, Garreltutor, Ragtweede, Antloo,
+  R  3708  2512  1161 | en derdregt, te samen gecommitteert
+  R  3703  2619  1207 | vande resp:. Sijnoden der geunieerde Pro„
+  R  3700  2740  1158 | vincien; verboekende, dat hij in kragte
+  R  3703  2849  1196 | van haar Ho:Mog: resolutie vanden 5 Julij
+  R  3702  2950  1257 | 1625 ten overstaan vande Heeren bij deselve
+  R  3691  3076  1236 | uijt haar midden te deputeeren, souden mo„
+  R  3689  3190  1244 | gen visiteeren de papieren Sijnodi natio
+  R  3690  3289  1191 | nalis, bewaart werdende in een kiste
+  R  3705  3402  1190 | onder de voorsorge van haar Ho:Mog:, op
+  R  3698  3517  1208 | dat soo een treffelijk werk, al te lang be„
+  R  3697  3621  1182 | slooten leggende, geen schaede kodme te
+
+#### case 24 [other] inv 350 NL-HaNA_1.01.02_350_0058 region NL-HaNA_1.01.02_350_0058-text_region-314-181-2289-2533
+-- original (XML order), 46 lines
+    353   181  2190 | gesonden en verstaen dat copis radn, dat han homor dghufflt
+    369   282  1004 | vande voors. Reqte. Vestelt sal
+   1378   285  1198 | geischte maintingg gevolge
+   1387   358  1195 | vande voorg: haee ho:met resolutie.
+    370   383   988 | werden in handen Iivanden Dros
+   1389   439  1140 | tgae hij bijompeodchick
+    360   479   989 | saert van Valckenburjh, of in
+   1396   539  1161 | eescholean behoel volgen het
+    328   582   984 | des selffs absentie in handen
+   1384   609  1182 | voors: hare here Englgment
+    320   682   951 | Van sijn Stodthouder, Ende
+   1404   692  1175 | te waarnemen ende bedien
+   1403   797  1135 | een gerustelijk, sonder verhinden
+    329   782  1027 | dat desselue daer neders sullen
+   1408   888  1192 | ring off belot van den voorn: Scholtet
+    365   889  1003 | werden gelast, so als gelast
+   1966   961   567 | daer dnsouen den
+   1397   988   894 | pauw: ende dorlei
+   2428  1011   135 | e
+    356   988  1015 | werden mits desen den Sapplt
+   1408  1065  1127 | londebek alle behulp bij„
+    327  1091  1052 | te mainteneren in syn ampt inde
+   1411  1158  1192 | stant ende faveur te doe, teinde
+    336  1182  1038 | kercke dn Scholle, Aegeijnds
+   1581  1232   136 | e
+   1828  1210   146 | van
+    337  1256  2216 | hy het Joock te bessorgen dat de slietit worden toege„
+   1403  1342  1045 | lodt. Juissuur, die vervallen is
+    330  1372   541 | selue Wolgens
+   1417  1431  1184 | ende nog soude konch te vervall
+    314  1436   958 | het voors Reglement van
+   1418  1497  1120 | mitsgaders alle bath ende
+    336  1548   785 | haer ho:mod: mas
+   1416  1592  1177 | profijth, gelijk des Supplts, voor„
+   1418  1676  1169 | saat de voorn: Paalbart van Burh
+   1411  1766  1172 | genoth sade volgens d'ordre van
+   1998  1797   131 | ade
+   1413  1830  1163 | hare Ho:Mo:evooral
+   1428  1933  1017 | inteditieat de voorn:
+   1422  2008  1096 | paaplchh kottar sigstil ende
+   1418  2082  1006 | gerust Gehebbe te houden.
+   1406  2167  1153 | waarop gedeliband tndes
+   1402  2258  1026 | goedgevonden ende vorhtv
+   1393  2332  1102 | da haer Ho:mo: te rescriberen
+   1384  2419  1127 | Wat by hem dienaengaende sal
+   1385  2513  1060 | wesen gedaen den Oerricht.
+-- new order (46 lines)  [tag L/W/R; derived from x only for display]
+  W   353   181  2190 | gesonden en verstaen dat copis radn, dat han homor dghufflt
+  L   369   282  1004 | vande voors. Reqte. Vestelt sal
+  L   370   383   988 | werden in handen Iivanden Dros
+  L   360   479   989 | saert van Valckenburjh, of in
+  L   328   582   984 | des selffs absentie in handen
+  L   320   682   951 | Van sijn Stodthouder, Ende
+  L   329   782  1027 | dat desselue daer neders sullen
+  L   365   889  1003 | werden gelast, so als gelast
+  L   356   988  1015 | werden mits desen den Sapplt
+  L   327  1091  1052 | te mainteneren in syn ampt inde
+  L   336  1182  1038 | kercke dn Scholle, Aegeijnds
+  W   337  1256  2216 | hy het Joock te bessorgen dat de slietit worden toege„
+  L   330  1372   541 | selue Wolgens
+  L   314  1436   958 | het voors Reglement van
+  L   336  1548   785 | haer ho:mod: mas
+  R  1378   285  1198 | geischte maintingg gevolge
+  R  1387   358  1195 | vande voorg: haee ho:met resolutie.
+  R  1389   439  1140 | tgae hij bijompeodchick
+  R  1396   539  1161 | eescholean behoel volgen het
+  R  1384   609  1182 | voors: hare here Englgment
+  R  1404   692  1175 | te waarnemen ende bedien
+  R  1403   797  1135 | een gerustelijk, sonder verhinden
+  R  1408   888  1192 | ring off belot van den voorn: Scholtet
+  R  1966   961   567 | daer dnsouen den
+  R  1397   988   894 | pauw: ende dorlei
+  R  2428  1011   135 | e
+  R  1408  1065  1127 | londebek alle behulp bij„
+  R  1411  1158  1192 | stant ende faveur te doe, teinde
+  R  1581  1232   136 | e
+  R  1828  1210   146 | van
+  R  1403  1342  1045 | lodt. Juissuur, die vervallen is
+  R  1417  1431  1184 | ende nog soude konch te vervall
+  R  1418  1497  1120 | mitsgaders alle bath ende
+  R  1416  1592  1177 | profijth, gelijk des Supplts, voor„
+  R  1418  1676  1169 | saat de voorn: Paalbart van Burh
+  R  1411  1766  1172 | genoth sade volgens d'ordre van
+  R  1413  1830  1163 | hare Ho:Mo:evooral
+  R  1998  1797   131 | ade
+  R  1428  1933  1017 | inteditieat de voorn:
+  R  1422  2008  1096 | paaplchh kottar sigstil ende
+  R  1418  2082  1006 | gerust Gehebbe te houden.
+  R  1406  2167  1153 | waarop gedeliband tndes
+  R  1402  2258  1026 | goedgevonden ende vorhtv
+  R  1393  2332  1102 | da haer Ho:mo: te rescriberen
+  R  1384  2419  1127 | Wat by hem dienaengaende sal
+  R  1385  2513  1060 | wesen gedaen den Oerricht.
+
+#### case 25 [other] inv 11182 NL-HaNA_1.01.02_11182_0670 region NL-HaNA_1.01.02_11182_0670-text_region-865-687-1692-2861
+-- original (XML order), 64 lines
+    913   695   531 | Boven dit alles. .
+   1854   687   677 | iestegenstaende dequoti„
+    923   796   519 | satie vant gemae
+   1863   795   673 | int Eijlant van Cadsant
+    924   890   523 | een seer groote vx
+   1855   882   626 | Impost vant' selve.
+   1857   966   700 | rekrenen, dat de Brouwer
+    915   973   535 | gemael ondervinde
+   1853  1050   685 | eGranen, dewelcke sij tot
+    917  1058   534 | aldaer Jaerlijcx von
+   1854  1130   675 | evier a vijffhondert gul.
+    916  1155   533 | het Brouwen gebr
+   1858  1221   670 | net alleen jerlijcx opt
+    910  1223   539 | betalen, dese somme
+   1862  1302   637 | een seer Considerable
+    911  1304   535 | vs. gemaelmissen.
+   1860  1383   667 | ondervinden, ende mede
+    909  1388   543 | dalinge inden impo
+   1855  1473   651 | Agens inde Imposten.
+    904  1479   552 | naer alle waersch
+   1852  1563   666 | waer een menigte van
+    902  1565   556 | op d'andere specien
+   1858  1645   686 | eert worden opte breken.
+    894  1643   566 | Inwoonderen hier
+    906  1740   551 | daerdoor intgeneral
+   1857  1726   678 | van Consumptie ten plat„
+   1859  1813   651 | je prijs sullen werden.
+    896  1818   559 | ,ten Landen vanden
+   1858  1888   660 | is de parockie Impositien
+    911  1890   545 | gedruct, ende onse
+    910  1995   423 | tot niet spallen.
+    905  2069   556 | wyjbidden mits die
+   1862  2023   655 | sch onderdanigl. dat in
+    903  2149   558 | consideratie vanden
+   1861  2148   664 | ede redenen, de Brouwe„
+   1861  2238   658 | ieren te laten blijven in
+    902  2229   563 | rijen ten lande vande
+    901  2315   562 | hiaren tegenwoordigen
+   1869  2313   606 | omde bromoneringe
+    900  2397   565 | te mogen continueren
+   1861  2400   666 | daer toe favorabel. consi„
+    896  2465   566 | dererende, dat t' vs.
+   1874  2483   643 | door de menichte van
+    908  2557   563 | sluijckerijen, ende l
+   1865  2581   654 | jaer van wij indit quar„
+    880  2646   589 | „tier, bi menschenge
+   1863  2659   621 | ijcx eenigh exempel
+    891  2724   582 | hebben geweten, sulc
+   1864  2753   649 | alhier cesserende, wij
+    887  2810   576 | bidden dat het effect
+   1863  2817   668 | tot mede mogen ophouden
+    872  2894   597 | te meer, om datme
+   1865  2894   641 | insiende, sal bevinden.
+    875  2982   598 | dat naerdien het me
+   1870  2994   602 | vrijen gecomposeert.
+    876  3065   593 | is uijt twee Eijlandt
+   1871  3064   661 | van navigable stroomen.
+   1866  3144   616 | soverallancx den
+    880  3149   592 | door middel vanden
+   1876  3237   602 | dat alle bieren van
+    882  3238   592 | oever de Schepen b
+   1855  3320   629 | cracht worden, de
+    885  3316   595 | buijten te scheepsien
+    865  3402  1626 | pachters vanden Impost vande Bieren met geen ontallijcke
+-- new order (64 lines)  [tag L/W/R; derived from x only for display]
+  L   913   695   531 | Boven dit alles. .
+  L   923   796   519 | satie vant gemae
+  L   924   890   523 | een seer groote vx
+  L   915   973   535 | gemael ondervinde
+  L   917  1058   534 | aldaer Jaerlijcx von
+  L   916  1155   533 | het Brouwen gebr
+  L   910  1223   539 | betalen, dese somme
+  L   911  1304   535 | vs. gemaelmissen.
+  L   909  1388   543 | dalinge inden impo
+  L   904  1479   552 | naer alle waersch
+  L   902  1565   556 | op d'andere specien
+  L   894  1643   566 | Inwoonderen hier
+  L   906  1740   551 | daerdoor intgeneral
+  L   896  1818   559 | ,ten Landen vanden
+  L   911  1890   545 | gedruct, ende onse
+  L   910  1995   423 | tot niet spallen.
+  L   905  2069   556 | wyjbidden mits die
+  L   903  2149   558 | consideratie vanden
+  L   902  2229   563 | rijen ten lande vande
+  L   901  2315   562 | hiaren tegenwoordigen
+  L   900  2397   565 | te mogen continueren
+  L   896  2465   566 | dererende, dat t' vs.
+  L   908  2557   563 | sluijckerijen, ende l
+  L   880  2646   589 | „tier, bi menschenge
+  L   891  2724   582 | hebben geweten, sulc
+  L   887  2810   576 | bidden dat het effect
+  L   872  2894   597 | te meer, om datme
+  L   875  2982   598 | dat naerdien het me
+  L   876  3065   593 | is uijt twee Eijlandt
+  L   880  3149   592 | door middel vanden
+  L   882  3238   592 | oever de Schepen b
+  L   885  3316   595 | buijten te scheepsien
+  W   865  3402  1626 | pachters vanden Impost vande Bieren met geen ontallijcke
+  R  1854   687   677 | iestegenstaende dequoti„
+  R  1863   795   673 | int Eijlant van Cadsant
+  R  1855   882   626 | Impost vant' selve.
+  R  1857   966   700 | rekrenen, dat de Brouwer
+  R  1853  1050   685 | eGranen, dewelcke sij tot
+  R  1854  1130   675 | evier a vijffhondert gul.
+  R  1858  1221   670 | net alleen jerlijcx opt
+  R  1862  1302   637 | een seer Considerable
+  R  1860  1383   667 | ondervinden, ende mede
+  R  1855  1473   651 | Agens inde Imposten.
+  R  1852  1563   666 | waer een menigte van
+  R  1858  1645   686 | eert worden opte breken.
+  R  1857  1726   678 | van Consumptie ten plat„
+  R  1859  1813   651 | je prijs sullen werden.
+  R  1858  1888   660 | is de parockie Impositien
+  R  1862  2023   655 | sch onderdanigl. dat in
+  R  1861  2148   664 | ede redenen, de Brouwe„
+  R  1861  2238   658 | ieren te laten blijven in
+  R  1869  2313   606 | omde bromoneringe
+  R  1861  2400   666 | daer toe favorabel. consi„
+  R  1874  2483   643 | door de menichte van
+  R  1865  2581   654 | jaer van wij indit quar„
+  R  1863  2659   621 | ijcx eenigh exempel
+  R  1864  2753   649 | alhier cesserende, wij
+  R  1863  2817   668 | tot mede mogen ophouden
+  R  1865  2894   641 | insiende, sal bevinden.
+  R  1870  2994   602 | vrijen gecomposeert.
+  R  1871  3064   661 | van navigable stroomen.
+  R  1866  3144   616 | soverallancx den
+  R  1876  3237   602 | dat alle bieren van
+  R  1855  3320   629 | cracht worden, de
+
+#### case 26 [other] inv 3459 NL-HaNA_1.01.02_3459_0136 region NL-HaNA_1.01.02_3459_0136-text_region-2927-291-2316-2379
+-- original (XML order), 32 lines
+   2937   291  2268 | hogengravelyken gereghte van Graafelijken Gereghte van den Vroenhove, soo
+   2939   397   452 | den woenhove
+   3676   400  1483 | binnen als buijten haer Hoog Mog: Stadt
+   2936   508   773 | neder leryt ep een missive van
+   3662   491  1516 | Maestricht, geschreeven te Maestricht den
+   2937   590   711 | geluyxen gereghte oak het
+   3663   593  1505 | 3. deeser loopende maend, houdende ingevolge
+   2927   684   760 | ressenen van gubreuhare doir
+   3662   695  1558 | en tot voldoeninge van haer Hoog Mog: Reso„
+   2930   770   754 | die van de luyxen gereghte over
+   3673   780  1501 | lutie vanden 15. Junij laestleeden derselver
+   2930   876   751 | swoe persolne geapprehendeert
+   3652   880  1591 | nader berigt op een missive vanden hoogschout
+   2927   973   664 | ipden gronid en ender de
+   3651   977  1555 | en Scheepenen van den hoogen Luijxen Geregte
+   2933  1065   737 | punsdictie van de eroenteren
+   3657  1073  1484 | der voorsz: Stad Maestricht, raeckende het
+   3645  1178  1577 | oeffenen van Judicature door die van den Luijxen
+   3645  1283  1539 | Geregte over twee persoonen, geapprehendeert
+   3661  1380  1519 | op den Grond en onder de Jurisdictie vanden
+   3653  1478  1545 | Graecfelijken Vroenhove, ende het ontslaen of
+   3644  1594  1533 | doen eveideeren van die persoonen, tot praeju„
+   3645  1674  1529 | dice van haer Hoog Mog: Souverainiteijt en
+   3639  1775  1592 | Jurisdictie breeder inde voorsz: missive vermelt.
+   3636  1870  1535 | Waar op gedelibereert sijnde Is goedge„
+   3632  1985  1583 | vonden ende verstaen, dat copije vande veorsz:
+   3630  2065  1515 | missive gestelt sal werden in handen vande
+   3629  2165  1588 | Heeren van Lijnden, en andere haer Hoog Mog:
+   3648  2266  1487 | Gedeputeerden tot de Saeken vande Landen
+   3636  2372  1556 | van Overmaze, om te visiteeren, examineeren,
+   3636  2460  1528 | ende van alles alhier ter Vergaderinge rapport
+   3630  2580   341 | te doen.
+-- new order (32 lines)  [tag L/W/R; derived from x only for display]
+  W  2937   291  2268 | hogengravelyken gereghte van Graafelijken Gereghte van den Vroenhove, soo
+  L  2939   397   452 | den woenhove
+  L  2936   508   773 | neder leryt ep een missive van
+  L  2937   590   711 | geluyxen gereghte oak het
+  L  2927   684   760 | ressenen van gubreuhare doir
+  L  2930   770   754 | die van de luyxen gereghte over
+  L  2930   876   751 | swoe persolne geapprehendeert
+  L  2927   973   664 | ipden gronid en ender de
+  L  2933  1065   737 | punsdictie van de eroenteren
+  R  3676   400  1483 | binnen als buijten haer Hoog Mog: Stadt
+  R  3662   491  1516 | Maestricht, geschreeven te Maestricht den
+  R  3663   593  1505 | 3. deeser loopende maend, houdende ingevolge
+  R  3662   695  1558 | en tot voldoeninge van haer Hoog Mog: Reso„
+  R  3673   780  1501 | lutie vanden 15. Junij laestleeden derselver
+  R  3652   880  1591 | nader berigt op een missive vanden hoogschout
+  R  3651   977  1555 | en Scheepenen van den hoogen Luijxen Geregte
+  R  3657  1073  1484 | der voorsz: Stad Maestricht, raeckende het
+  R  3645  1178  1577 | oeffenen van Judicature door die van den Luijxen
+  R  3645  1283  1539 | Geregte over twee persoonen, geapprehendeert
+  R  3661  1380  1519 | op den Grond en onder de Jurisdictie vanden
+  R  3653  1478  1545 | Graecfelijken Vroenhove, ende het ontslaen of
+  R  3644  1594  1533 | doen eveideeren van die persoonen, tot praeju„
+  R  3645  1674  1529 | dice van haer Hoog Mog: Souverainiteijt en
+  R  3639  1775  1592 | Jurisdictie breeder inde voorsz: missive vermelt.
+  R  3636  1870  1535 | Waar op gedelibereert sijnde Is goedge„
+  R  3632  1985  1583 | vonden ende verstaen, dat copije vande veorsz:
+  R  3630  2065  1515 | missive gestelt sal werden in handen vande
+  R  3629  2165  1588 | Heeren van Lijnden, en andere haer Hoog Mog:
+  R  3648  2266  1487 | Gedeputeerden tot de Saeken vande Landen
+  R  3636  2372  1556 | van Overmaze, om te visiteeren, examineeren,
+  R  3636  2460  1528 | ende van alles alhier ter Vergaderinge rapport
+  R  3630  2580   341 | te doen.
+
+#### case 27 [other] inv 12444 NL-HaNA_1.01.02_12444_0438 region NL-HaNA_1.01.02_12444_0438-text_region-207-531-2331-3024
+-- original (XML order), 21 lines
+    254   531  2163 | Resolutie naerbij de Heeren Nagel en andere
+    261   699   829 | de prolongatie van
+   1025   689  1512 | haar Hoog mogende gedepu„
+    249   831   817 | lot octroij norde
+   1006   891  1486 | „telden tot de saken vande
+    244   972   865 | oostindische Comp:
+   1019  1094  1407 | Odsjrotische Compagnie
+    240  1111   883 | deeser Landen voor
+    219  1271   871 | 20. haaren wert ge„
+   1037  1274  1501 | ingevolge en ter wletoenin„
+    207  1404   679 | „cordunuert.
+    989  1476  1536 | ,ge van haerhoogmogende
+   1012  1697  1428 | Resolutie Commissoriael
+   1038  1920  1359 | op leeden genoomen, ter
+   1016  2130  1383 | presentie van Hooghuijd
+   1013  2343  1397 | nog staande vergaderinge
+   1021  2563  1425 | in bedogne geweest sijnde,
+   1027  2767  1505 | oer de Resolutie en verkla„
+    969  2961  1491 | „ning van de Heeren Staten
+   1001  3199  1529 | van de respective Provincien,
+    998  3364  1534 | raakende de Prolongatie van
+-- new order (21 lines)  [tag L/W/R; derived from x only for display]
+  W   254   531  2163 | Resolutie naerbij de Heeren Nagel en andere
+  L   261   699   829 | de prolongatie van
+  L   249   831   817 | lot octroij norde
+  L   244   972   865 | oostindische Comp:
+  L   240  1111   883 | deeser Landen voor
+  L   219  1271   871 | 20. haaren wert ge„
+  L   207  1404   679 | „cordunuert.
+  R  1025   689  1512 | haar Hoog mogende gedepu„
+  R  1006   891  1486 | „telden tot de saken vande
+  R  1019  1094  1407 | Odsjrotische Compagnie
+  R  1037  1274  1501 | ingevolge en ter wletoenin„
+  R   989  1476  1536 | ,ge van haerhoogmogende
+  R  1012  1697  1428 | Resolutie Commissoriael
+  R  1038  1920  1359 | op leeden genoomen, ter
+  R  1016  2130  1383 | presentie van Hooghuijd
+  R  1013  2343  1397 | nog staande vergaderinge
+  R  1021  2563  1425 | in bedogne geweest sijnde,
+  R  1027  2767  1505 | oer de Resolutie en verkla„
+  R   969  2961  1491 | „ning van de Heeren Staten
+  R  1001  3199  1529 | van de respective Provincien,
+  R   998  3364  1534 | raakende de Prolongatie van
+
+#### case 28 [other] inv 3522 NL-HaNA_1.01.02_3522_0506 region NL-HaNA_1.01.02_3522_0506-text_region-3267-2499-2243-1463
+-- original (XML order), 18 lines
+   3267  2499   722 | t. Vester stadthander vanden
+   4026  2562  1483 | Ontfangen een missive van Isaacverster,
+   3281  2590   738 | goesterschart van ooskeryck
+   4029  2689  1466 | Stadhouder vanden Quartierschout van Oos„
+   3277  2714   761 | beryvy de ragft. van Crll: ian
+   4012  2778  1482 | terwijck, Meijerije van 's Bosch, geschreeven
+   3274  2819   768 | den Ossch conse. ingsschaer van
+   3273  2874  2232 | Alwenenharnem een neur te Oostenrijck den 21. deerer, houdende inge„
+   3287  2961  2144 | Vorphe luckelys te moynbouen volge en tot voldoeninge van haer Hoog
+   4005  3066  1469 | Mog: Resolutie vanden 3. daer te vooren,
+   4022  3155  1481 | desselfs Berigt op de Requeste van Corne„
+   4016  3233  1434 | lis Andnesse vanden Bosch, Hendrick
+   4019  3345  1491 | Brekelmans, en Jan Corstiaen Tijnenborg,
+   4030  3435  1436 | Gecommitteerdens van verscheijde Geerf.
+   4034  3528  1417 | dens en Ingereetenen professie doende van
+   4031  3626  1375 | de Roomsche Religie binnen den Dorpe„
+   4022  3715  1432 | Belveren en Haaren, zijnde een Dom en
+   4034  3811  1419 | Parochie, Quartiere en Meijerije voorsz:;
+-- new order (18 lines)  [tag L/W/R; derived from x only for display]
+  L  3267  2499   722 | t. Vester stadthander vanden
+  L  3281  2590   738 | goesterschart van ooskeryck
+  L  3277  2714   761 | beryvy de ragft. van Crll: ian
+  L  3274  2819   768 | den Ossch conse. ingsschaer van
+  W  3273  2874  2232 | Alwenenharnem een neur te Oostenrijck den 21. deerer, houdende inge„
+  W  3287  2961  2144 | Vorphe luckelys te moynbouen volge en tot voldoeninge van haer Hoog
+  R  4026  2562  1483 | Ontfangen een missive van Isaacverster,
+  R  4029  2689  1466 | Stadhouder vanden Quartierschout van Oos„
+  R  4012  2778  1482 | terwijck, Meijerije van 's Bosch, geschreeven
+  R  4005  3066  1469 | Mog: Resolutie vanden 3. daer te vooren,
+  R  4022  3155  1481 | desselfs Berigt op de Requeste van Corne„
+  R  4016  3233  1434 | lis Andnesse vanden Bosch, Hendrick
+  R  4019  3345  1491 | Brekelmans, en Jan Corstiaen Tijnenborg,
+  R  4030  3435  1436 | Gecommitteerdens van verscheijde Geerf.
+  R  4034  3528  1417 | dens en Ingereetenen professie doende van
+  R  4031  3626  1375 | de Roomsche Religie binnen den Dorpe„
+  R  4022  3715  1432 | Belveren en Haaren, zijnde een Dom en
+  R  4034  3811  1419 | Parochie, Quartiere en Meijerije voorsz:;
+
+#### case 29 [other] inv 3394 NL-HaNA_1.01.02_3394_0351 region NL-HaNA_1.01.02_3394_0351-text_region-1148-3154-1775-773
+-- original (XML order), 17 lines
+   1158  3154  1765 | het aangehaalde Messieurs les Etats
+   2052  3278   788 | Generaux seront
+   1175  3279   804 | hierneffensstaende
+   2055  3333   822 | pareillement obli„
+   1164  3362   768 | schijnt hier niet te
+   2062  3413   832 | gés de faire prester
+   1161  3430   768 | Pas te komen, en
+   1163  3503   662 | moet gebleven
+   2063  3494   737 | la main par les
+   1154  3543   767 | werden bij 17. arti„
+   2054  3570   852 | Gouverneurs desdites
+   1154  3639   804 | cul van het Tractaat
+   2060  3647   743 | places, et leurs
+   1158  3708   801 | en bijden led vande
+   2056  3740   817 | garnisons, au Gou„
+   1148  3772   625 | Gouverneurs.
+   2043  3796   837 | verneur general de
+-- new order (17 lines)  [tag L/W/R; derived from x only for display]
+  W  1158  3154  1765 | het aangehaalde Messieurs les Etats
+  L  1175  3279   804 | hierneffensstaende
+  L  1164  3362   768 | schijnt hier niet te
+  L  1161  3430   768 | Pas te komen, en
+  L  1163  3503   662 | moet gebleven
+  L  1154  3543   767 | werden bij 17. arti„
+  L  1154  3639   804 | cul van het Tractaat
+  L  1158  3708   801 | en bijden led vande
+  L  1148  3772   625 | Gouverneurs.
+  R  2052  3278   788 | Generaux seront
+  R  2055  3333   822 | pareillement obli„
+  R  2062  3413   832 | gés de faire prester
+  R  2063  3494   737 | la main par les
+  R  2054  3570   852 | Gouverneurs desdites
+  R  2060  3647   743 | places, et leurs
+  R  2056  3740   817 | garnisons, au Gou„
+  R  2043  3796   837 | verneur general de
+
+#### case 30 [other] inv 11436 NL-HaNA_1.01.02_11436_0256 region NL-HaNA_1.01.02_11436_0256-text_region-2270-1255-227-316
+-- original (XML order), 7 lines
+   2277  1255   110 | Lar
+   2279  1322   113 | hout
+   2360  1324   111 | hout
+   2277  1385   121 | 2
+   2366  1385   119 | aet
+   2270  1462   126 | Rogg
+   2374  1462   123 | ogge.
+-- new order (7 lines)  [tag L/W/R; derived from x only for display]
+  L  2277  1255   110 | Lar
+  L  2279  1322   113 | hout
+  L  2277  1385   121 | 2
+  L  2270  1462   126 | Rogg
+  R  2360  1324   111 | hout
+  R  2366  1385   119 | aet
+  R  2374  1462   123 | ogge.
+
+#### case 31 [other] inv 3192 NL-HaNA_1.01.02_3192_0611 region NL-HaNA_1.01.02_3192_0611-text_region-309-1130-2597-2430
+-- original (XML order), 50 lines
+    318  1130  2399 | de Staten Generaelder vereenichde Aende heeren Gedeputeerden der
+    324  1267  1087 | Nederlanden doorgesien ende ouer
+   1411  1253  1436 | Staten Generael der Stevereenichde
+    322  1323   997 | wogen hebbende de redenen ende
+   1434  1339   509 | Nederlanden
+    309  1368  1113 | motiuen in ter vande requeste hier
+    330  1425  1148 | besyden geroert, oock gelet opt advis
+    334  1485  1149 | des Raedts van State den 17. Septemb
+    328  1552  1238 | lestleden daerop geformeert, hebben nae
+    325  1608  1225 | voorgaende deliberatie goetgevonden &
+    331  1672  1257 | verstaen mits desen te verclaren op yder
+    349  1731  1207 | point vande voors requeste gelyck in
+   1914  1725   100 | 1.
+    352  1790  1210 | margine vandien hier na geteickent
+    352  1850   213 | staet
+   1542  1844  1308 | deuen met behoorlicke reuerentie
+    345  1915  1120 | hare Ho:Mo: lasten ende beveelen
+   1500  1906  1298 | te kennen die vande kerckenraedt
+    338  1989  1132 | ernstelick mits desen den hoochschout
+   1500  1965  1331 | van Shertogenbosch, hoe dat de Rooms
+    339  2049  1101 | dat hy syn deuoir tegens dusdanige
+   1504  2037  1349 | ministers papen ende Munnicken tot
+    326  2105  1126 | misbruycken beter als voor desen sal
+   1510  2108  1357 | 60. a 70. int getalle, steets allomme
+    334  2173  1079 | hebben te doen, sonder oock hem te
+   1495  2184  1309 | inde Stadt sweuen, met ouergroote
+    317  2226  1087 | vervorderen vande Geestelicke
+   1520  2237  1355 | ende openbare licentie hunne conventiculen
+    346  2287  1052 | daerouer alhier geclaecht wort
+   1506  2305  1363 | henden, tot notoire hindernis van aenwos
+    356  2354  1033 | op contributie te houden, off sal
+   1507  2368  1393 | ende voortplantinge vande gereformeerde
+    353  2403  1005 | anders daerin tegen hem moeten
+   1487  2440  1223 | religie onder de ingesetenen alhier
+    347  2468   556 | versien worden.
+   1429  2510  1375 | Mitsgaders oock de Jesuyten de Stadt
+   1487  2564  1419 | frequenteren, vilipenderende de placcaten
+   1480  2643  1343 | van hare Ho:Mo: specialick tegen hun
+   1492  2707  1355 | geemaneert waerouer de Supplianten
+   1517  2781  1346 | hun geport vinden by dese gelegentheit
+   1505  2838  1327 | hun, aen de Ed: heeren Gedepden van
+   1521  2898  1352 | hare Ho:Mo: te addresseren, biddende
+   1518  2970  1357 | ootmoedelick dat der heeren goede ende
+   1480  3039  1410 | Godtvruchtige geliefte sy, de beeden der
+   1473  3111  1368 | Supplianten in goeder recommandatie
+   1509  3188  1340 | te nemen, ende aen hare Ho:Mo: te
+   1518  3251  1337 | laten gelangen, ende de saecke sulcx by
+   1519  3318  1343 | hare Ho:Mo: te dirigeren, dat met
+   1514  3375  1315 | een goede vigoureuse resolutie & ordre
+   1508  3441  1390 | tegens het voorgemelte werde versien.
+-- new order (50 lines)  [tag L/W/R; derived from x only for display]
+  W   318  1130  2399 | de Staten Generaelder vereenichde Aende heeren Gedeputeerden der
+  L   324  1267  1087 | Nederlanden doorgesien ende ouer
+  L   322  1323   997 | wogen hebbende de redenen ende
+  L   309  1368  1113 | motiuen in ter vande requeste hier
+  L   330  1425  1148 | besyden geroert, oock gelet opt advis
+  L   334  1485  1149 | des Raedts van State den 17. Septemb
+  L   328  1552  1238 | lestleden daerop geformeert, hebben nae
+  L   325  1608  1225 | voorgaende deliberatie goetgevonden &
+  L   331  1672  1257 | verstaen mits desen te verclaren op yder
+  L   349  1731  1207 | point vande voors requeste gelyck in
+  L   352  1790  1210 | margine vandien hier na geteickent
+  L   352  1850   213 | staet
+  L   345  1915  1120 | hare Ho:Mo: lasten ende beveelen
+  L   338  1989  1132 | ernstelick mits desen den hoochschout
+  L   339  2049  1101 | dat hy syn deuoir tegens dusdanige
+  L   326  2105  1126 | misbruycken beter als voor desen sal
+  L   334  2173  1079 | hebben te doen, sonder oock hem te
+  L   317  2226  1087 | vervorderen vande Geestelicke
+  L   346  2287  1052 | daerouer alhier geclaecht wort
+  L   356  2354  1033 | op contributie te houden, off sal
+  L   353  2403  1005 | anders daerin tegen hem moeten
+  L   347  2468   556 | versien worden.
+  R  1411  1253  1436 | Staten Generael der Stevereenichde
+  R  1434  1339   509 | Nederlanden
+  R  1914  1725   100 | 1.
+  R  1542  1844  1308 | deuen met behoorlicke reuerentie
+  R  1500  1906  1298 | te kennen die vande kerckenraedt
+  R  1500  1965  1331 | van Shertogenbosch, hoe dat de Rooms
+  R  1504  2037  1349 | ministers papen ende Munnicken tot
+  R  1510  2108  1357 | 60. a 70. int getalle, steets allomme
+  R  1495  2184  1309 | inde Stadt sweuen, met ouergroote
+  R  1520  2237  1355 | ende openbare licentie hunne conventiculen
+  R  1506  2305  1363 | henden, tot notoire hindernis van aenwos
+  R  1507  2368  1393 | ende voortplantinge vande gereformeerde
+  R  1487  2440  1223 | religie onder de ingesetenen alhier
+  R  1429  2510  1375 | Mitsgaders oock de Jesuyten de Stadt
+  R  1487  2564  1419 | frequenteren, vilipenderende de placcaten
+  R  1480  2643  1343 | van hare Ho:Mo: specialick tegen hun
+  R  1492  2707  1355 | geemaneert waerouer de Supplianten
+  R  1517  2781  1346 | hun geport vinden by dese gelegentheit
+  R  1505  2838  1327 | hun, aen de Ed: heeren Gedepden van
+  R  1521  2898  1352 | hare Ho:Mo: te addresseren, biddende
+  R  1518  2970  1357 | ootmoedelick dat der heeren goede ende
+  R  1480  3039  1410 | Godtvruchtige geliefte sy, de beeden der
+  R  1473  3111  1368 | Supplianten in goeder recommandatie
+  R  1509  3188  1340 | te nemen, ende aen hare Ho:Mo: te
+  R  1518  3251  1337 | laten gelangen, ende de saecke sulcx by
+  R  1519  3318  1343 | hare Ho:Mo: te dirigeren, dat met
+  R  1514  3375  1315 | een goede vigoureuse resolutie & ordre
+  R  1508  3441  1390 | tegens het voorgemelte werde versien.
+
+#### case 32 [other] inv 3456 NL-HaNA_1.01.02_3456_0110 region NL-HaNA_1.01.02_3456_0110-text_region-620-243-2318-2667
+-- original (XML order), 29 lines
+    642   243  2277 | De brose gefrver een mi: Praesideerende; heeft aen haer Hoog Mog: van
+    635   356  2259 | van den kbning syn meester gedraegen ende bekent gemaekt, dat de
+    624   459  2293 | waar ly keennigse geeft vande Heer De Debrose extraords. Envoijé van sijne
+   1417   562  1489 | Majesteijt den Koning van Polen Ceurft.
+    622   645   810 | gelickhige verlossinge van
+   1441   649  1453 | van Saxen bij hem was geweest ende
+    620   761   792 | haere Mujstegt van een
+   1443   731  1477 | overgeleevert hadde een missive van hooght„
+   1432   823  1490 | gede. Sijne Majesteijt, geschreeven op het sot
+    634   881   248 | Brins
+   1441   932  1457 | te Mauritsburg den 12. deeser, aen haer
+   1435  1021  1488 | Hoog Mog: kennisse geevende van de gelik„
+   1451  1132  1458 | lige verlossinge van haere Majesteijt de
+   1431  1236  1488 | Koninginne Sijne Majesteijts Gemalinne,
+   1442  1321  1470 | van een gesonde en welgeschapen Prins.
+   1438  1437  1490 | Waar op gedelibereert sijnde Is goedge„
+   1445  1545  1489 | vonden ende verstaen, dat de voorz: missive
+   1451  1636  1464 | met een rescriptie van congratulatie in
+   1453  1736  1485 | civile termen sal werden beantwoort, ende
+   1450  1839  1476 | dat de voorsz rescriptie met een copie van
+   1447  1916  1489 | dien gesonden sal werden aenden Rezident
+   1425  2026  1513 | Rumpf, om den origineelen daer het behoort
+   1450  2142  1484 | over te leeveren, en vorder de Complimenten
+   1453  2224  1483 | ter materie dienende af te leggen, daer het
+   1452  2319  1484 | aen het Hof aldaer gebruijkelijk is. Ende
+   1447  2421  1490 | werd den Agent van Bijemont hier meede
+   1452  2520  1486 | gelast, ook een compliment van felicitatie
+   1453  2617  1467 | uijt den naam van haer Hoog Mog: bij
+   1454  2726  1416 | gemelte Heer De Debrose af te leggen.
+-- new order (29 lines)  [tag L/W/R; derived from x only for display]
+  W   642   243  2277 | De brose gefrver een mi: Praesideerende; heeft aen haer Hoog Mog: van
+  W   635   356  2259 | van den kbning syn meester gedraegen ende bekent gemaekt, dat de
+  W   624   459  2293 | waar ly keennigse geeft vande Heer De Debrose extraords. Envoijé van sijne
+  L   622   645   810 | gelickhige verlossinge van
+  L   620   761   792 | haere Mujstegt van een
+  L   634   881   248 | Brins
+  R  1417   562  1489 | Majesteijt den Koning van Polen Ceurft.
+  R  1441   649  1453 | van Saxen bij hem was geweest ende
+  R  1443   731  1477 | overgeleevert hadde een missive van hooght„
+  R  1432   823  1490 | gede. Sijne Majesteijt, geschreeven op het sot
+  R  1441   932  1457 | te Mauritsburg den 12. deeser, aen haer
+  R  1435  1021  1488 | Hoog Mog: kennisse geevende van de gelik„
+  R  1451  1132  1458 | lige verlossinge van haere Majesteijt de
+  R  1431  1236  1488 | Koninginne Sijne Majesteijts Gemalinne,
+  R  1442  1321  1470 | van een gesonde en welgeschapen Prins.
+  R  1438  1437  1490 | Waar op gedelibereert sijnde Is goedge„
+  R  1445  1545  1489 | vonden ende verstaen, dat de voorz: missive
+  R  1451  1636  1464 | met een rescriptie van congratulatie in
+  R  1453  1736  1485 | civile termen sal werden beantwoort, ende
+  R  1450  1839  1476 | dat de voorsz rescriptie met een copie van
+  R  1447  1916  1489 | dien gesonden sal werden aenden Rezident
+  R  1425  2026  1513 | Rumpf, om den origineelen daer het behoort
+  R  1450  2142  1484 | over te leeveren, en vorder de Complimenten
+  R  1453  2224  1483 | ter materie dienende af te leggen, daer het
+  R  1452  2319  1484 | aen het Hof aldaer gebruijkelijk is. Ende
+  R  1447  2421  1490 | werd den Agent van Bijemont hier meede
+  R  1452  2520  1486 | gelast, ook een compliment van felicitatie
+  R  1453  2617  1467 | uijt den naam van haer Hoog Mog: bij
+  R  1454  2726  1416 | gemelte Heer De Debrose af te leggen.
+
+#### case 33 [other] inv 3456 NL-HaNA_1.01.02_3456_0559 region NL-HaNA_1.01.02_3456_0559-text_region-994-2268-2371-1584
+-- original (XML order), 20 lines
+   1142  2268   370 | Calhioen
+   1826  2280  1539 | Ontfangen een missive van den Heer Cal„
+   1033  2414   733 | van: de klagten van de
+   1829  2392  1536 | koen haer Hoog Mog: Ambassadeur aen het
+   1020  2498  2341 | bediendens van de C: G: Eemplij, Turne Hof, geschreeven in het Dorp Belgra„
+   1023  2602  2299 | ne deser landen op t' echip, do bij Constantinopolen den 25. October.
+   1820  2701  1545 | laestleeden, ende daer neevens eenige bijlaegen,
+   1022  2716   822 | toir te Bassera over de
+   1017  2813   829 | quade beschuldigingen hlu
+   1832  2794  1518 | houdende advertentie, vande klagten vande
+    994  2903   640 | haer te lygte geleyt
+   1833  2902  1510 | bedienden vande Oostindische Compagnie
+   1828  2996  1526 | deeser Landen op het Comptoir te Bassora,
+   1826  3101  1467 | over quaede beschuldigingen aldaer aen
+   1841  3175  1486 | haer te laste gelegt, ende avanies aen haer
+   1835  3274  1487 | aengedaen, mitsgrs: vande devoiren, die hij
+   1824  3391  1512 | Heer Ambassadeur tot redres vandien bij de
+   1814  3505  1544 | Porta hadde aengewend, ende de Comman„
+   1829  3586  1506 | dementen welke hij ten dien eijnde hadde
+   1838  3685  1516 | verkreegen; versoekende daer op haer Hoog
+-- new order (20 lines)  [tag L/W/R; derived from x only for display]
+  L  1142  2268   370 | Calhioen
+  L  1033  2414   733 | van: de klagten van de
+  W  1020  2498  2341 | bediendens van de C: G: Eemplij, Turne Hof, geschreeven in het Dorp Belgra„
+  W  1023  2602  2299 | ne deser landen op t' echip, do bij Constantinopolen den 25. October.
+  L  1022  2716   822 | toir te Bassera over de
+  L  1017  2813   829 | quade beschuldigingen hlu
+  L   994  2903   640 | haer te lygte geleyt
+  R  1826  2280  1539 | Ontfangen een missive van den Heer Cal„
+  R  1829  2392  1536 | koen haer Hoog Mog: Ambassadeur aen het
+  R  1820  2701  1545 | laestleeden, ende daer neevens eenige bijlaegen,
+  R  1832  2794  1518 | houdende advertentie, vande klagten vande
+  R  1833  2902  1510 | bedienden vande Oostindische Compagnie
+  R  1828  2996  1526 | deeser Landen op het Comptoir te Bassora,
+  R  1826  3101  1467 | over quaede beschuldigingen aldaer aen
+  R  1841  3175  1486 | haer te laste gelegt, ende avanies aen haer
+  R  1835  3274  1487 | aengedaen, mitsgrs: vande devoiren, die hij
+  R  1824  3391  1512 | Heer Ambassadeur tot redres vandien bij de
+  R  1814  3505  1544 | Porta hadde aengewend, ende de Comman„
+  R  1829  3586  1506 | dementen welke hij ten dien eijnde hadde
+  R  1838  3685  1516 | verkreegen; versoekende daer op haer Hoog
+
+#### case 34 [other] inv 3493 NL-HaNA_1.01.02_3493_0063 region NL-HaNA_1.01.02_3493_0063-text_region-1339-1107-3165-2426
+-- original (XML order), 49 lines
+   1354  1107  1173 | Is ter vergaderinge geleesen de Requesten
+   2512  1141  1506 | Duteux, Mogge van Renesse, van Heorn,
+   1352  1227  1180 | Hendrik Troost, Postknegt vanden Post
+   2524  1241  1754 | 'Ablain van Giesenburch, Strick van Linschoten,
+   1347  1312  1171 | ter vande Generaliteijt, houdende, dat haer
+   1339  1380  2213 | Mog: hem Supplt: inden voorleeden jaere hn van Itsma, van Grovestins,
+   1344  1499  1197 | gelieven te subsidieeren met eene somme van
+   2504  1483  1932 | Schelboom, Greeven, met Een Extraordinaris Gedeputeerde uijt de
+   1347  1578  1182 | dert gulden; versoeckende daermede als nu
+   2528  1616   800 | Provincie van Overijssel,
+   1354  1665  1173 | te mogen werden begunstigt. Waerop,
+   1351  1734  1532 | bereert sijnde Is goedgevonden en verstaen, Gerlacius.
+   3147  1784  1345 | De Resolutien gisteren genomen sijn geleesen
+   1348  1847  1193 | deeren aen den Supppliant wederom toe te leg„
+   3163  1916  1259 | ende geresumeert, gelijck ook geresumeert
+   1351  1946  1185 | eene somme van hondert gulden, waer van
+   3160  2003  1304 | en gearresteert sijn de depesches daer uijt re„
+   1351  2018  1190 | Raad van Staete versogt werd ten sijnen t
+   3166  2091   381 | sulteerende.
+   1360  2104  1173 | de nodige Ordonnantie te doen depescheert
+   2516  2212   267 | Williers
+   3181  2229  1282 | Ontfangen een missive vanden Heere Galliers,
+   1355  2281  1194 | Opde Requeste van Henrich van Munst
+   3163  2329  1282 | haer Hoog Mog: minister bij den Rijks dagh
+   1353  2376  1168 | soekende een reispenning van haer Hoogh
+   3158  2420  1325 | geschreeven te Regensburg den 27e. der voorleeden
+   1362  2462  1172 | om met sijn Vrouw en drie kinderen sig na
+   3149  2518  1340 | maend, houdende advertentie. Waerop geen
+   1361  2554  1175 | schen te konnen begeeven; Is na voorgaend
+   3143  2603   622 | resolutie is gevallen.
+   1365  2654  1171 | beratie goedgevonden en verstaen, mits deen
+   1366  2719  1458 | lasten de Camerbewaerders van haer Hoog Pbraiciury
+   3177  2751  1327 | Ontfangen een missive vanden Consul de Para,
+   1368  2820  1160 | om aenden Suppliant uijt te heeren vier S.
+   3142  2854  1360 | aciny, geschreeven te Algiers den 20. Meij laest,
+   1372  2908  1163 | ducatons die aen hen teegens behoorlijck
+   3146  2941  1345 | leeden, geaddresseert aenden Griffier Fagel, hou„
+   1370  3017  1157 | tie in Reeckeninge sal werden gevalideert
+   3148  3044  1355 | eende advertentie. Waer op geen resolutie is
+   3146  3132   296 | gevallen.
+   1365  3130   280 | gedaen.
+   2468  3129   558 | donueraliteyt op de Maze
+   2467  3222   715 | reyt gede memene van daypolles
+   2474  3289   683 | duytde everhet afvorderen van
+   1407  3242  1107 | Johan Willem van Haar heeft als Inis
+   3147  3280  1328 | Ontfangen een Missive van het Collegie ter Ad„
+   3129  3380  1354 | miraliteijt op de Maze, geschreven te Rotterdam
+   1382  3377  1779 | in de Hoogduijtsche Taal ter Vergaderijhten os verscheyde Comploven
+   2466  3448   323 | in denflant
+-- new order (25 lines)  [tag L/W/R; derived from x only for display]
+  W  2512  1141  1506 | Duteux, Mogge van Renesse, van Heorn,
+  W  2524  1241  1754 | 'Ablain van Giesenburch, Strick van Linschoten,
+  W  2504  1483  1932 | Schelboom, Greeven, met Een Extraordinaris Gedeputeerde uijt de
+  L  2528  1616   800 | Provincie van Overijssel,
+  L  2516  2212   267 | Williers
+  L  2468  3129   558 | donueraliteyt op de Maze
+  L  2467  3222   715 | reyt gede memene van daypolles
+  L  2474  3289   683 | duytde everhet afvorderen van
+  L  2466  3448   323 | in denflant
+  R  3147  1784  1345 | De Resolutien gisteren genomen sijn geleesen
+  R  3163  1916  1259 | ende geresumeert, gelijck ook geresumeert
+  R  3160  2003  1304 | en gearresteert sijn de depesches daer uijt re„
+  R  3166  2091   381 | sulteerende.
+  R  3181  2229  1282 | Ontfangen een missive vanden Heere Galliers,
+  R  3163  2329  1282 | haer Hoog Mog: minister bij den Rijks dagh
+  R  3158  2420  1325 | geschreeven te Regensburg den 27e. der voorleeden
+  R  3149  2518  1340 | maend, houdende advertentie. Waerop geen
+  R  3143  2603   622 | resolutie is gevallen.
+  R  3177  2751  1327 | Ontfangen een missive vanden Consul de Para,
+  R  3142  2854  1360 | aciny, geschreeven te Algiers den 20. Meij laest,
+  R  3146  2941  1345 | leeden, geaddresseert aenden Griffier Fagel, hou„
+  R  3148  3044  1355 | eende advertentie. Waer op geen resolutie is
+  R  3146  3132   296 | gevallen.
+  R  3147  3280  1328 | Ontfangen een Missive van het Collegie ter Ad„
+  R  3129  3380  1354 | miraliteijt op de Maze, geschreven te Rotterdam
+
+#### case 35 [other] inv 3471 NL-HaNA_1.01.02_3471_0242 region NL-HaNA_1.01.02_3471_0242-text_region-2489-234-1815-921
+-- original (XML order), 16 lines
+   3016   234  1253 | Doorluchtigheijt van Ceulen, geschreeven te Bdon
+   2514   244   458 | insant van Ceulen
+   2494   324  1810 | saelude dat hy gen de tolcomptore den 30. der voorleeden maend, houdende in antwoort
+   3058   392  1240 | op haer Hoog Mog. missive vanden 19. daer te voo„
+   2492   409   593 | medt ingebadte vrdre gestelt heude
+   3062   469  1198 | ren, dat Sijne Ceurfurstelijcke Doorluchtigheijt
+   2489   477   589 | omde goederen tot het Veldthof„
+   3065   541  1208 | op sijne Tol Comptoiren ordre hadde gestelt, om de
+   2495   547   565 | petale behoorende vry le laate
+   3066   623  1179 | goederen behoorende tot het Veld Hospital van
+   2490   659   169 | psseren
+   3070   692  1211 | haer Hoog Mog: troupes in Duijtsland, vrij te lae„
+   3067   773  1229 | ten passeeren. Waar op gedelibereert sijnde
+   3065   870  1205 | Is goedgevonden en verstaen, dat Copije vande
+   3066   956  1199 | voorsz Missive gesonden sal werden aenden Raed
+   3061  1028  1227 | van State, om te dienen sulx en daer het behoort.
+-- new order (16 lines)  [tag L/W/R; derived from x only for display]
+  L  2514   244   458 | insant van Ceulen
+  W  2494   324  1810 | saelude dat hy gen de tolcomptore den 30. der voorleeden maend, houdende in antwoort
+  L  2492   409   593 | medt ingebadte vrdre gestelt heude
+  L  2489   477   589 | omde goederen tot het Veldthof„
+  L  2495   547   565 | petale behoorende vry le laate
+  L  2490   659   169 | psseren
+  R  3016   234  1253 | Doorluchtigheijt van Ceulen, geschreeven te Bdon
+  R  3058   392  1240 | op haer Hoog Mog. missive vanden 19. daer te voo„
+  R  3062   469  1198 | ren, dat Sijne Ceurfurstelijcke Doorluchtigheijt
+  R  3065   541  1208 | op sijne Tol Comptoiren ordre hadde gestelt, om de
+  R  3066   623  1179 | goederen behoorende tot het Veld Hospital van
+  R  3070   692  1211 | haer Hoog Mog: troupes in Duijtsland, vrij te lae„
+  R  3067   773  1229 | ten passeeren. Waar op gedelibereert sijnde
+  R  3065   870  1205 | Is goedgevonden en verstaen, dat Copije vande
+  R  3066   956  1199 | voorsz Missive gesonden sal werden aenden Raed
+  R  3061  1028  1227 | van State, om te dienen sulx en daer het behoort.
+
+#### case 36 [other] inv 3456 NL-HaNA_1.01.02_3456_0110 region NL-HaNA_1.01.02_3456_0110-text_region-672-2914-2287-878
+-- original (XML order), 14 lines
+    749  2914   351 | Rappt:
+   1442  2915  1507 | De Heeren van Heeckeren tot Brantsenborg
+   1461  3028  1490 | en andere haer Hoog Mog: Gedeputeerden
+    677  3094   772 | van t'communiceren aan
+   1469  3124  1471 | tot de saeken vande Barriere, hebben ter
+    686  3176   732 | Ulselot van de Resolutie
+   1464  3201  1487 | Vergaderinge gerapporteert, dat sij ingevol„
+    684  3274   803 | genomen ouk:: de deserdre
+    675  3314  2256 | onder de soldaten van t quar, ge en tot voldoeninge van derselver resol.
+   1482  3435  1434 | Commissoriael van den 21. deeser, aen den
+    672  3450   798 | nissme te doornck voorge„
+    680  3562   247 | Vallen
+   1477  3519  1482 | Heere Grave van Ulfeld, Ambassadeur van
+   1463  3609  1470 | Sijne Keijserlijcke en Cathol Maijt. kennisse
+-- new order (14 lines)  [tag L/W/R; derived from x only for display]
+  L   749  2914   351 | Rappt:
+  L   677  3094   772 | van t'communiceren aan
+  L   686  3176   732 | Ulselot van de Resolutie
+  L   684  3274   803 | genomen ouk:: de deserdre
+  W   675  3314  2256 | onder de soldaten van t quar, ge en tot voldoeninge van derselver resol.
+  L   672  3450   798 | nissme te doornck voorge„
+  L   680  3562   247 | Vallen
+  R  1442  2915  1507 | De Heeren van Heeckeren tot Brantsenborg
+  R  1461  3028  1490 | en andere haer Hoog Mog: Gedeputeerden
+  R  1469  3124  1471 | tot de saeken vande Barriere, hebben ter
+  R  1464  3201  1487 | Vergaderinge gerapporteert, dat sij ingevol„
+  R  1482  3435  1434 | Commissoriael van den 21. deeser, aen den
+  R  1477  3519  1482 | Heere Grave van Ulfeld, Ambassadeur van
+  R  1463  3609  1470 | Sijne Keijserlijcke en Cathol Maijt. kennisse
+
+#### case 37 [other] inv 3487 NL-HaNA_1.01.02_3487_0192 region NL-HaNA_1.01.02_3487_0192-text_region-441-1959-2059-1100
+-- original (XML order), 21 lines
+    469  1959   564 | memonie d' Ammnon
+   1205  2020  1281 | Is ter vergaderinge geleesen een memorie vanden
+    441  2108   757 | Overlevesende een Exemplaer van
+   1186  2123  1265 | Heere d'Ammon, Minister van Sijne Majesteijt.
+    448  2193   703 | een verlod van syn tnegestenst
+   1183  2204  1294 | den Coning van Pruijssen, daer neevens overleeve„
+    454  2272   712 | gesien in het gedeelte van het
+   1175  2301  1282 | rende een Exemplaer van een verbod door hoogst.
+    456  2340   674 | Hertrydom gelve aan hem
+   1179  2371  1282 | gedachte Sijne Majesteijt gedaen, in het gedeelte
+    461  2433   729 | woelelievende ten oyseghte vn„
+   1196  2449  1281 | van het Hertogdem Gelre aen hem toebehoorende
+    469  2520   670 | elngp quede muntsperen
+    470  2585   760 | salt versoek dat een gelyk Verled
+   1187  2550  1291 | ten opzigte van eenige quede Munt-specien, met
+    481  2614  2012 | deerhlier Hoog mogende in dersel, versoek dat haer Hoog Mog: een gelijk verbod, in
+    482  2712   780 | versteaten den minste en de stadt
+   1198  2715  1294 | derselver Staaten, ten minsten inde Stad Venlo, ge
+    483  2820   746 | Venle geleeven te doen pullicesen.
+   1201  2816  1299 | lieven te doen publiceeren, volgende de voors: Meia
+   1188  2926   669 | rie hier na geinsereert.
+-- new order (21 lines)  [tag L/W/R; derived from x only for display]
+  L   469  1959   564 | memonie d' Ammnon
+  L   441  2108   757 | Overlevesende een Exemplaer van
+  L   448  2193   703 | een verlod van syn tnegestenst
+  L   454  2272   712 | gesien in het gedeelte van het
+  L   456  2340   674 | Hertrydom gelve aan hem
+  L   461  2433   729 | woelelievende ten oyseghte vn„
+  L   469  2520   670 | elngp quede muntsperen
+  L   470  2585   760 | salt versoek dat een gelyk Verled
+  W   481  2614  2012 | deerhlier Hoog mogende in dersel, versoek dat haer Hoog Mog: een gelijk verbod, in
+  L   482  2712   780 | versteaten den minste en de stadt
+  L   483  2820   746 | Venle geleeven te doen pullicesen.
+  R  1205  2020  1281 | Is ter vergaderinge geleesen een memorie vanden
+  R  1186  2123  1265 | Heere d'Ammon, Minister van Sijne Majesteijt.
+  R  1183  2204  1294 | den Coning van Pruijssen, daer neevens overleeve„
+  R  1175  2301  1282 | rende een Exemplaer van een verbod door hoogst.
+  R  1179  2371  1282 | gedachte Sijne Majesteijt gedaen, in het gedeelte
+  R  1196  2449  1281 | van het Hertogdem Gelre aen hem toebehoorende
+  R  1187  2550  1291 | ten opzigte van eenige quede Munt-specien, met
+  R  1198  2715  1294 | derselver Staaten, ten minsten inde Stad Venlo, ge
+  R  1201  2816  1299 | lieven te doen publiceeren, volgende de voors: Meia
+  R  1188  2926   669 | rie hier na geinsereert.
+
+#### case 38 [other] inv 3487 NL-HaNA_1.01.02_3487_0195 region NL-HaNA_1.01.02_3487_0195-text_region-2846-1226-2342-2574
+-- original (XML order), 32 lines
+   2887  1226   423 | A: Deudongen.
+   2846  1248  2238 | tenepude hen gelonde noagh werden vor Is ter vergaderinge geleesen de Requeste van Jan
+   3624  1375  1448 | Dudonjon, Niesheer en Capiteijn vande Burgerye,
+   2858  1449   773 | diligent en dat aan hem niet mogte
+   3604  1474  1502 | inde Colonie van Isequebo, houdende, dat hij sup„
+   2876  1513   732 | opsteren dat hij bunnen de belwvelsse
+   3610  1572  1512 | pliant genoodsaeht was geweest, voor den Raad van
+   2882  1589   697 | tyt met soude Verseyt versse of
+   2884  1669   726 | sodange endere prssie son pptitie
+   3627  1677  1455 | Justitie vande voorsz: Colonie te procedeeren als
+   2887  1744   721 | Wncensententie van den Raad van
+   3633  1767  1490 | Gedaagde in Conventie, en Eisscher in Reconventie,
+   2896  1853   456 | pustitie te Requelo
+   3621  1867  1448 | in cas van injurie, mitsgaders als Gedaegde in
+   3627  1946  1465 | Rau Actie, ter eenre, Contra Jan Pieter Schuler,
+   3620  2044  1511 | mede woonende binnen de voorsz: Colonie als Eis„
+   3625  2143  1491 | scher en Verweerder in't voorsz Cas van Injurie=
+   3630  2265  1486 | en Eisscher in Nau actie ter andere zijde; det door
+   3640  2345  1492 | den voorsz: Raad van Justitie werren gehouden, ge„
+   3627  2450  1498 | nomen en geweesen verscheijde seer nulle, informeele
+   3653  2554  1511 | en gansch lasive notulen, Resolutien en Vonnissen,
+   3658  2660  1458 | beginnende met den 1e. April 1746. en eijndigende
+   3656  2755  1470 | met den 21. Maert deeses jaers 1747 waer van de
+   3673  2835  1463 | Suppliant hadde geinterjecteert de Revisie; dat
+   3675  2945  1430 | de Suppliant alle de voorst: notulen, Resolutien
+   3676  3034  1489 | en Vennissen hebbende gecommuniceert aende Be„
+   3680  3135  1448 | windhebberen vande Geoctroijeerde WestIndische
+   3677  3248  1453 | Compagnie ter Camere van Zeeland, gemelde Be„
+   3680  3349  1470 | windhebberen aen den Suppliant hadden gelieven
+   3686  3438  1502 | voor te draegen, dat sij den voorsz: Raad van Justitie,
+   3683  3545  1488 | schuler, en alle anderen (des noods) sonder preejudi„
+   3680  3635  1452 | cie van elks regt souden gelasten en aenschrijven,
+-- new order (32 lines)  [tag L/W/R; derived from x only for display]
+  L  2887  1226   423 | A: Deudongen.
+  W  2846  1248  2238 | tenepude hen gelonde noagh werden vor Is ter vergaderinge geleesen de Requeste van Jan
+  L  2858  1449   773 | diligent en dat aan hem niet mogte
+  L  2876  1513   732 | opsteren dat hij bunnen de belwvelsse
+  L  2882  1589   697 | tyt met soude Verseyt versse of
+  L  2884  1669   726 | sodange endere prssie son pptitie
+  L  2887  1744   721 | Wncensententie van den Raad van
+  L  2896  1853   456 | pustitie te Requelo
+  R  3624  1375  1448 | Dudonjon, Niesheer en Capiteijn vande Burgerye,
+  R  3604  1474  1502 | inde Colonie van Isequebo, houdende, dat hij sup„
+  R  3610  1572  1512 | pliant genoodsaeht was geweest, voor den Raad van
+  R  3627  1677  1455 | Justitie vande voorsz: Colonie te procedeeren als
+  R  3633  1767  1490 | Gedaagde in Conventie, en Eisscher in Reconventie,
+  R  3621  1867  1448 | in cas van injurie, mitsgaders als Gedaegde in
+  R  3627  1946  1465 | Rau Actie, ter eenre, Contra Jan Pieter Schuler,
+  R  3620  2044  1511 | mede woonende binnen de voorsz: Colonie als Eis„
+  R  3625  2143  1491 | scher en Verweerder in't voorsz Cas van Injurie=
+  R  3630  2265  1486 | en Eisscher in Nau actie ter andere zijde; det door
+  R  3640  2345  1492 | den voorsz: Raad van Justitie werren gehouden, ge„
+  R  3627  2450  1498 | nomen en geweesen verscheijde seer nulle, informeele
+  R  3653  2554  1511 | en gansch lasive notulen, Resolutien en Vonnissen,
+  R  3658  2660  1458 | beginnende met den 1e. April 1746. en eijndigende
+  R  3656  2755  1470 | met den 21. Maert deeses jaers 1747 waer van de
+  R  3673  2835  1463 | Suppliant hadde geinterjecteert de Revisie; dat
+  R  3675  2945  1430 | de Suppliant alle de voorst: notulen, Resolutien
+  R  3676  3034  1489 | en Vennissen hebbende gecommuniceert aende Be„
+  R  3680  3135  1448 | windhebberen vande Geoctroijeerde WestIndische
+  R  3677  3248  1453 | Compagnie ter Camere van Zeeland, gemelde Be„
+  R  3680  3349  1470 | windhebberen aen den Suppliant hadden gelieven
+  R  3686  3438  1502 | voor te draegen, dat sij den voorsz: Raad van Justitie,
+  R  3683  3545  1488 | schuler, en alle anderen (des noods) sonder preejudi„
+  R  3680  3635  1452 | cie van elks regt souden gelasten en aenschrijven,
+
+#### case 39 [other] inv 3456 NL-HaNA_1.01.02_3456_0482 region NL-HaNA_1.01.02_3456_0482-text_region-1046-1261-2336-2583
+-- original (XML order), 30 lines
+   1855  1261  1507 | Is gehoort het rapport vande Heeren van
+   1052  1387   779 | op cen regst. van Eyssche
+   1853  1396  1520 | Heeckeren tot Brantsenborg en andere haer
+   1046  1493  2334 | Heer van Priest. ti antene a Hoog Mog: Gedeputeerden tot de Saeken van
+   1059  1594  2312 | van Harshem om restitutie het Overquartier van Gelderland, hebbende
+   1858  1710  1524 | ingevolge ende tot voldoeninge van derselver
+   1055  1713   827 | van haare goederen door
+   1876  1810  1497 | resolutie Commissoriael vanden 13e. September
+   1060  1811   791 | de magestraet van ceule
+   1864  1903  1510 | lestleeden, geexamineert, na ingenoomen advis
+   1053  1953   844 | tot een gratefica tie vyf huceert
+   1866  1985  1482 | van ‛s Lands Advocaeten, de Requeste van
+   1054  2056   225 | Gulde
+   1853  2094  1494 | Jan Francois Baron d'Eischen en C.A.
+   1860  2187  1504 | van Hartzheim egte luiden, houdende dat
+   1850  2305  1508 | de Heer van Burmania, haer Hoog Mog:
+   1851  2393  1511 | geweese minister te Ceulen, aen haer Hoog
+   1848  2491  1515 | Mog: gecommuniceert hebbende bij missive,
+   1860  2596  1495 | dat die van Ceulen ter instantie van haer
+   1838  2683  1515 | Hoog Mog: gemelte minister aende hand
+   1863  2791  1497 | hadden belooft der Supplten: goederen los
+   1858  2885  1485 | te geeven, en ter haerer dispositie te sullen
+   1864  2991  1483 | laeten, mits betaelende het regt van exui,
+   1855  3090  1501 | het des te gevoeliger voor de Supplten: was
+   1848  3176  1502 | geworden, als haer ter contrarie nu korte„
+   1857  3286  1461 | lings was gecommuniceert, dat gemelte
+   1846  3394  1485 | Magistraet, ontslaende quasi de weijnige
+   1845  3465  1528 | meubilen onder de Chre poort in April 1736.
+   1839  3592  1503 | gedaen aenhouden, bij resolutie vanden 27.
+   1858  3688  1474 | Augustij laestleeden, in teegendeel de novo
+-- new order (30 lines)  [tag L/W/R; derived from x only for display]
+  L  1052  1387   779 | op cen regst. van Eyssche
+  W  1046  1493  2334 | Heer van Priest. ti antene a Hoog Mog: Gedeputeerden tot de Saeken van
+  W  1059  1594  2312 | van Harshem om restitutie het Overquartier van Gelderland, hebbende
+  L  1055  1713   827 | van haare goederen door
+  L  1060  1811   791 | de magestraet van ceule
+  L  1053  1953   844 | tot een gratefica tie vyf huceert
+  L  1054  2056   225 | Gulde
+  R  1855  1261  1507 | Is gehoort het rapport vande Heeren van
+  R  1853  1396  1520 | Heeckeren tot Brantsenborg en andere haer
+  R  1858  1710  1524 | ingevolge ende tot voldoeninge van derselver
+  R  1876  1810  1497 | resolutie Commissoriael vanden 13e. September
+  R  1864  1903  1510 | lestleeden, geexamineert, na ingenoomen advis
+  R  1866  1985  1482 | van ‛s Lands Advocaeten, de Requeste van
+  R  1853  2094  1494 | Jan Francois Baron d'Eischen en C.A.
+  R  1860  2187  1504 | van Hartzheim egte luiden, houdende dat
+  R  1850  2305  1508 | de Heer van Burmania, haer Hoog Mog:
+  R  1851  2393  1511 | geweese minister te Ceulen, aen haer Hoog
+  R  1848  2491  1515 | Mog: gecommuniceert hebbende bij missive,
+  R  1860  2596  1495 | dat die van Ceulen ter instantie van haer
+  R  1838  2683  1515 | Hoog Mog: gemelte minister aende hand
+  R  1863  2791  1497 | hadden belooft der Supplten: goederen los
+  R  1858  2885  1485 | te geeven, en ter haerer dispositie te sullen
+  R  1864  2991  1483 | laeten, mits betaelende het regt van exui,
+  R  1855  3090  1501 | het des te gevoeliger voor de Supplten: was
+  R  1848  3176  1502 | geworden, als haer ter contrarie nu korte„
+  R  1857  3286  1461 | lings was gecommuniceert, dat gemelte
+  R  1846  3394  1485 | Magistraet, ontslaende quasi de weijnige
+  R  1845  3465  1528 | meubilen onder de Chre poort in April 1736.
+  R  1839  3592  1503 | gedaen aenhouden, bij resolutie vanden 27.
+  R  1858  3688  1474 | Augustij laestleeden, in teegendeel de novo
+
+#### case 40 [other] inv 3712 NL-HaNA_1.01.02_3712_0107 region NL-HaNA_1.01.02_3712_0107-text_region-3562-455-2597-4024
+-- original (XML order), 90 lines
+   3562   455  2560 | de depecheeren Commissie als Lieu 1594 Stad gemaakt, in trein te brengen
+   3576   599  1173 | tenant van Groningen informa=
+   4978   613  1113 | de Generaale middelen en Contri
+   3567   680  1201 | Communi, by aldienden voors: Brie„
+   4973   696  1118 | bictien, gelyk die in Hollanden=
+   3568   758  1203 | nen belet gedaan zoude worden tegen
+   4973   769  1106 | Zeeland gepractiseert worden, ge„
+   3570   830  1192 | de bedieninge, dat haar E. vorder niet
+   4972   843  1120 | heven en ontfangen, dat men nog=
+   3572   910  1199 | zullen gehouden zyn te presteren, nog
+   4972   921  1111 | tans die voors: Consenten, zo die
+   3572   978  1019 | hem daar vooren te vergoeden.
+   4972   998  1116 | by de voors: Acten gedragen zyn,
+   4976  1066  1109 | by provisie zal aanneemen, on=
+   4975  1147  1107 | verminderd en zonder prejuditie
+   4974  1217  1110 | vant voors: accord, en niettemin
+   4974  1285  1114 | daar na de voors: Generaale mid
+   3573  1342  1203 | 26 Aug: Compareeren de Raadt
+   4973  1371  1052 | delen en Contributien zien in
+   3570  1414  1196 | heer Peelink en Tresorier de Bie„
+   4978  1429  1136 | trein te brengen, gelyk die in Hol„
+   3575  1504  1194 | doen rapport van't geene zy metten
+   4976  1519  1111 | land en Zeeland loop hebben; ten
+   3572  1573  1193 | Raadsheer Witte, na't vertrek van
+   4971  1596  1100 | welken einde, die vanden Rvel:
+   3573  1651  1185 | den R2vs: met die vande Ommelan
+   4975  1669  1087 | zullen mogen concipieeren zul„
+   3572  1725  1182 | den ende Stad Groningen gebesoig=
+   4974  1740  1070 | ken Ordonnancie en Placaat
+   3571  1802  1199 | neert hebben, beroerende den invoer
+   4976  1815  1058 | van wegen de Staten Generaal,
+   3573  1884  1187 | vande Generale Middelen in Hol„
+   4972  1917   859 | als daar toe nodig zyn.
+   3572  1969  1180 | land en Zeeland cours hebbende, ver„
+   3574  2042  1179 | mogens 't inhouden van 't 9e. Artl.
+   3579  2131  1177 | van 't accord met de Stad gemaakt,
+   3584  2209  1186 | leggende over die Acten van Consen
+   4980  2237  1106 | 2 Sept: Compureert Pr. Jan
+   3578  2276  1188 | ten by henderen aangaande vande
+   4977  2322  1098 | Rengers tho Hellum, Asge=
+   3576  2363  1194 | Ommelanden ende Stad geobtineert
+   4977  2401  1162 | sante van wegen die Gedeputeerde
+   3575  2430  1127 | gedateert den 8 dezer, overeenko
+   4980  2474  1048 | der Vriessche Ommelanden;
+   3579  2510  1195 | mende mette middelen van Holland
+   4988  2549  1126 | exhibeert eenen brief enhoudende
+   3578  2594  1195 | en Zeeland, behalven dat die Hoorn
+   4990  2644  1111 | Credentie op zynen persoon; en
+   3573  2677  1198 | beesten alleen zyn op 2 Af ter maand
+   4992  2702  1078 | heeft uit kragte derzelver ver=
+   3577  2768  1179 | en de concumptie op de Bieren 12.
+   4996  2814   634 | toont en verzogt.
+   3588  2839  1182 | Ad: afgenomen, en die op ieder mud=
+   4993  2885  1091 | S. de Generale middelen by de
+   3582  2908  1184 | de Mots gelegt, ende verkogte peer„
+   5121  2968   969 | Omlanden tot stuur des Oor„
+   3581  2996  1191 | den op den 20e. penn: gemodereert:
+   5125  3055   970 | logs onlangs ingewilligt, op
+   3586  3068  1177 | Versueken, dat de Staten deeze mo=
+   5110  3124  1001 | den voet en Lyste, by den Rvs:
+   3582  3150  1184 | deratie gelieven te ratificeeren, ten
+   5125  3195   992 | verhandrykt, in treingebragt
+   3585  3231  1191 | einde den RvS: d'Ordonnancien en
+   5133  3278   881 | en heen in handen gestelt:
+   3584  3286  1197 | Placaten ter stond zouden mogen con
+   5137  3362   958 | item den ontfank en admi=
+   3579  3366  1197 | cipieeren, en tot verpagtinge vande
+   5136  3450   926 | nistratie vande Convoyen=
+   3583  3451  1187 | voors. Middelen doen procederen.
+   5133  3521   964 | inde Ommelanden vallende;
+   5129  3594   976 | voorts afgeschaft de imposten
+   5126  3679   984 | of middelen bi Vriesland opge„
+   3583  3698  1171 | 27 Aug: zyn geleezen d'Acte
+   5132  3766   234 | stelt.
+   3582  3769  1185 | van Consent van de Vriesse Omme
+   3583  3845  1141 | landen ende Stad Groningen, by
+   4999  3868  1072 | 2. Gestelt inde opsigt vande
+   3583  3923  1196 | gem: Heeren overgegeven; Ende op
+   5121  3945   979 | besettingen en bewaringen=
+   3581  3997  1189 | t inhouden van dezelve ent voors:
+   5122  4020  1031 | van de Forten inde Omlanden.
+   3581  4068  1193 | versoek gedelibereert wezende; is
+   4993  4104  1130 | 3. dat de Omlanden, nu vanden
+   3577  4125  1200 | geresolveert, al ist zo, dat de Staten
+   5113  4211  1003 | Vyand gevryt, dat die Staten
+   3581  4208  1189 | verstaan dat die vande Ommelan„
+   5115  4278   985 | wederom en haren voorigen=
+   3583  4277  1192 | den ende Stad Groningen gehouden
+   5113  4340  1046 | staat gerestitueert mogen worden.
+   3589  4351  1208 | zyn by den Tractate van Accord mette
+-- new order (90 lines)  [tag L/W/R; derived from x only for display]
+  W  3562   455  2560 | de depecheeren Commissie als Lieu 1594 Stad gemaakt, in trein te brengen
+  L  3576   599  1173 | tenant van Groningen informa=
+  L  3567   680  1201 | Communi, by aldienden voors: Brie„
+  L  3568   758  1203 | nen belet gedaan zoude worden tegen
+  L  3570   830  1192 | de bedieninge, dat haar E. vorder niet
+  L  3572   910  1199 | zullen gehouden zyn te presteren, nog
+  L  3572   978  1019 | hem daar vooren te vergoeden.
+  L  3573  1342  1203 | 26 Aug: Compareeren de Raadt
+  L  3570  1414  1196 | heer Peelink en Tresorier de Bie„
+  L  3575  1504  1194 | doen rapport van't geene zy metten
+  L  3572  1573  1193 | Raadsheer Witte, na't vertrek van
+  L  3573  1651  1185 | den R2vs: met die vande Ommelan
+  L  3572  1725  1182 | den ende Stad Groningen gebesoig=
+  L  3571  1802  1199 | neert hebben, beroerende den invoer
+  L  3573  1884  1187 | vande Generale Middelen in Hol„
+  L  3572  1969  1180 | land en Zeeland cours hebbende, ver„
+  L  3574  2042  1179 | mogens 't inhouden van 't 9e. Artl.
+  L  3579  2131  1177 | van 't accord met de Stad gemaakt,
+  L  3584  2209  1186 | leggende over die Acten van Consen
+  L  3578  2276  1188 | ten by henderen aangaande vande
+  L  3576  2363  1194 | Ommelanden ende Stad geobtineert
+  L  3575  2430  1127 | gedateert den 8 dezer, overeenko
+  L  3579  2510  1195 | mende mette middelen van Holland
+  L  3578  2594  1195 | en Zeeland, behalven dat die Hoorn
+  L  3573  2677  1198 | beesten alleen zyn op 2 Af ter maand
+  L  3577  2768  1179 | en de concumptie op de Bieren 12.
+  L  3588  2839  1182 | Ad: afgenomen, en die op ieder mud=
+  L  3582  2908  1184 | de Mots gelegt, ende verkogte peer„
+  L  3581  2996  1191 | den op den 20e. penn: gemodereert:
+  L  3586  3068  1177 | Versueken, dat de Staten deeze mo=
+  L  3582  3150  1184 | deratie gelieven te ratificeeren, ten
+  L  3585  3231  1191 | einde den RvS: d'Ordonnancien en
+  L  3584  3286  1197 | Placaten ter stond zouden mogen con
+  L  3579  3366  1197 | cipieeren, en tot verpagtinge vande
+  L  3583  3451  1187 | voors. Middelen doen procederen.
+  L  3583  3698  1171 | 27 Aug: zyn geleezen d'Acte
+  L  3582  3769  1185 | van Consent van de Vriesse Omme
+  L  3583  3845  1141 | landen ende Stad Groningen, by
+  L  3583  3923  1196 | gem: Heeren overgegeven; Ende op
+  L  3581  3997  1189 | t inhouden van dezelve ent voors:
+  L  3581  4068  1193 | versoek gedelibereert wezende; is
+  L  3577  4125  1200 | geresolveert, al ist zo, dat de Staten
+  L  3581  4208  1189 | verstaan dat die vande Ommelan„
+  L  3583  4277  1192 | den ende Stad Groningen gehouden
+  L  3589  4351  1208 | zyn by den Tractate van Accord mette
+  R  4978   613  1113 | de Generaale middelen en Contri
+  R  4973   696  1118 | bictien, gelyk die in Hollanden=
+  R  4973   769  1106 | Zeeland gepractiseert worden, ge„
+  R  4972   843  1120 | heven en ontfangen, dat men nog=
+  R  4972   921  1111 | tans die voors: Consenten, zo die
+  R  4972   998  1116 | by de voors: Acten gedragen zyn,
+  R  4976  1066  1109 | by provisie zal aanneemen, on=
+  R  4975  1147  1107 | verminderd en zonder prejuditie
+  R  4974  1217  1110 | vant voors: accord, en niettemin
+  R  4974  1285  1114 | daar na de voors: Generaale mid
+  R  4973  1371  1052 | delen en Contributien zien in
+  R  4978  1429  1136 | trein te brengen, gelyk die in Hol„
+  R  4976  1519  1111 | land en Zeeland loop hebben; ten
+  R  4971  1596  1100 | welken einde, die vanden Rvel:
+  R  4975  1669  1087 | zullen mogen concipieeren zul„
+  R  4974  1740  1070 | ken Ordonnancie en Placaat
+  R  4976  1815  1058 | van wegen de Staten Generaal,
+  R  4972  1917   859 | als daar toe nodig zyn.
+  R  4980  2237  1106 | 2 Sept: Compureert Pr. Jan
+  R  4977  2322  1098 | Rengers tho Hellum, Asge=
+  R  4977  2401  1162 | sante van wegen die Gedeputeerde
+  R  4980  2474  1048 | der Vriessche Ommelanden;
+  R  4988  2549  1126 | exhibeert eenen brief enhoudende
+  R  4990  2644  1111 | Credentie op zynen persoon; en
+  R  4992  2702  1078 | heeft uit kragte derzelver ver=
+  R  4996  2814   634 | toont en verzogt.
+  R  4993  2885  1091 | S. de Generale middelen by de
+  R  5121  2968   969 | Omlanden tot stuur des Oor„
+  R  5125  3055   970 | logs onlangs ingewilligt, op
+  R  5110  3124  1001 | den voet en Lyste, by den Rvs:
+  R  5125  3195   992 | verhandrykt, in treingebragt
+  R  5133  3278   881 | en heen in handen gestelt:
+  R  5137  3362   958 | item den ontfank en admi=
+  R  5136  3450   926 | nistratie vande Convoyen=
+  R  5133  3521   964 | inde Ommelanden vallende;
+  R  5129  3594   976 | voorts afgeschaft de imposten
+  R  5126  3679   984 | of middelen bi Vriesland opge„
+  R  5132  3766   234 | stelt.
+  R  4999  3868  1072 | 2. Gestelt inde opsigt vande
+  R  5121  3945   979 | besettingen en bewaringen=
+  R  5122  4020  1031 | van de Forten inde Omlanden.
+  R  4993  4104  1130 | 3. dat de Omlanden, nu vanden
+  R  5113  4211  1003 | Vyand gevryt, dat die Staten
+  R  5115  4278   985 | wederom en haren voorigen=
+  R  5113  4340  1046 | staat gerestitueert mogen worden.

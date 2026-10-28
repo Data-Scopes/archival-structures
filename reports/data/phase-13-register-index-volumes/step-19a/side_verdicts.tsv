@@ -1,0 +1,61 @@
+read_id	verdict	kind	note
+1	index	register index	short side; lemma headings (Coeverden, Courland) with dated one-line entries
+2	index	register index (consent by province)	weak HTR; province headings (Zeeland, Friesland, Overijssel) with dated consent entries; low confidence
+3	index	chronological index under lemma	heading Admiralteit in Vriesland; dated entries
+4	index	register index	lemma 'saaken van Religie', dated entries, page number 248
+5	not index	minuten	Ontfangen een missive ... Waerop geen resolutie is gevallen; marginal names
+6	index	register index	heading Raad van Staate; dated entries with R: outcome; page number 269
+7	not index	resolution text	running text of a missive summary, page marginal name only
+8	index	register index	lemmas Westindische Compagnie, Suriname; dated entries; page number 295
+9	index	alphabetical repertory	lemma headings D (Doornik, Denemarken, ...) with few dated entries; page 357
+10	index	register index	lemmas Frankfort, Fransche Kerk, Fulda; dated entries; page 48; garbled HTR but structure clear
+11	index	register index	lemma Zeeland; many dated entries; page 357
+12	index	register index	Judicieele zaken; entries followed by page numbers
+13	index	register index (pensions)	lemma Pensioenen; each entry ends in a page reference; page 69
+14	index	register index	lemma Oostfriesland; dated entries; page 285
+15	index	register index	lemma Raad van State; entries end in page references
+16	not index	resolution text	16th-17th c. running resolution text with Frankrijk marginalia; garbled
+17	index	chronological index	lemma Gemeene Middelen; dated entries without page refs (summary index); majority dated entries
+18	index	register index	lemma list C (Canonisyen, Commissien, ...) plus dated Capitulatie entries; page 49
+19	index	chronological index	lemma placaten (page 249); dated entries without page refs
+20	not index	resolution text	resolution text, Ontfangen een missive ... goedgevonden en verstaen
+21	index	register index	Reqte-entries ending in page refs; lemmas Octroyen, Oostersche Handel, Oost-Vriesland
+22	not index	resolution text	running text, marginalia fragments in col 2
+23	index	chronological index	lemma Spogne; dated Wassenaer entries; heavy HTR garble but structure clear
+24	not index	letter	running letter about English attack on Ile de Re
+25	not index	resolution text	17th c. resolution text with marginal names; garbled
+26	not index	resolution text	copy of a request/advice to the States; garbled
+27	not index	list	officer list with repeated numbers (18, 524); accounts-like, not a reference per entry
+28	not index	resolution text	pass request resolution, 1714
+29	not index	resolution text	1681 resolution text
+30	not index	resolution text	Raad van State placard/ordinance text
+31	not index	resolution text	1671 resolution text with marginal names; garbled
+32	not index	letter	petition/letter of an Admiralty college
+33	not index	minuten	Ontfangen een missive ... goedgevonden; marginal lemmas (Hop, declaratie)
+34	index	alphabetical repertory	M lemmas with page-number lists; early 17th c. register
+35	not index	minuten	Ontfangen een missive/declaratie; marginal words; Martis ... Praesentibus
+36	not index	resolution text	running text of a request resolution
+37	index	chronological index	lemma Requisitorialen; dated entries; page number 2619 (OCR)
+38	not index	minuten	resolution text with marginal lemmas
+39	not index	minuten	resolution text with marginal lemmas (Remissie, Gratificatie)
+40	not index	resolution text	17th c. resolution text; col 1 marginal words; garbled
+41	not index	resolution text	running resolution text in two columns
+42	not index	minuten	resolution text with marginal lemmas
+43	not index	minuten	resolution text with marginal lemmas; dated heading 3. Julij is a minute date
+44	not index	resolution text	running text, page number 501 only
+45	not index	minuten	resolution text with marginal lemmas (Hoeuft, pasport, ...)
+46	not index	minuten	resolution text with marginal lemmas
+47	index	register index	lemmas Polen, Portugal; Missiven van ... followed by page numbers
+48	not index	letter	letter from an envoy
+49	not index	minuten	Veneris den 4. Julij 1738, Praesentibus, minutes with marginal lemmas
+50	index	alphabetical repertory	B lemmas with page references and vide cross-references; page 33
+51	index	alphabetical repertory	F lemmas, Frankfort with page-number lists; page 24
+52	not index	letter	letter to the States; page number 185 only
+53	index	chronological index	lemmas Admiraliteit/Commissien; dated one-line entries (appointments); no page refs, borderline list-with-date; page 35
+54	index	register index	very short side: lemma Denemarken, subentries Resident Coijmans, Tractaat, page 43; refs missing in HTR
+55	index	register index	lemmas Vlaanderen, St Anne ter Muijden; dated entries; page 314
+56	index	chronological index	lemma Munte; dated entries with outcomes (Res:)
+57	not index	treaty text	French treaty text with article numbers; marginal 'Ambassadeur' note
+58	index	chronological index	lemma Militie en Militaire zaaken; dated 1590-93 entries; page 612; listing order interleaved columns (4 text columns)
+59	not index	minuten	resolution text of 10 Aug 1758; marginal words
+60	not index	resolution text	running request resolution

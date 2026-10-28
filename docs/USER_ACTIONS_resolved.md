@@ -796,3 +796,124 @@
 - **Blocks:** nothing else; no sibling reads v4 yet.
 - **Response:** done (given in the chat, 2026-10-27)
 - **Resolved 2026-10-27 (Opus, same session):** checked. `diff -rq` between `15y-b`'s 1.01.02 layer and `shared-data/NL-HaNA_1.01.02/text_layer_v4` is empty (3,802 files each, all group-writable); `mode/3463.json` is `hand`/`pinned`, with no `split_model/3463.json`. The README row names `15y-b`, and the changelog line of 2026-10-27 is present. P23 is closed for the pilot.
+
+### UA-040 Does v5 ship the hand column split? Bar B1 failed (2026-10-28, from phase-13 step 19b)
+- **Action:** Decide. Evidence: `reports/phase-13-register-index-volumes.md` section "Step 19b" and
+  `reports/data/phase-13-register-index-volumes/step-19b/{b1_verdicts.tsv,b1_reads.txt}`. B1 (pre-registered): right/(right+wrong)
+  >= 0.90 and <= 2 wrong among the 20 not-index-like cases. Result: 29 right / 9 wrong = 0.763, 4 wrong among the not-index-like
+  cases, 2 unclear/unreadable. The split cuts the hand interleave from 2,612 to 980 units (0.65% to 0.24%) but turns 2,760 regions
+  into 16,134 pieces (+10,637 main_text units) and 9 of 40 read cases are wrong (fragments, column order).
+- **Options:** (a) v5 ships without the split (`hand_column_split=None`, nothing else changes) -- recommended: the bar failed and
+  the brief forbids tuning on the same reads; (b) ship the split as it is anyway; (c) one new pre-registered step with a
+  changed rule (span lines only if truly merged/wide, fixed order of pieces) and a fresh read sample and bar, then decide.
+- **Default if unanswered:** (a); steps 19c-19e do not use the split, but they do not wait for the answer except on this point.
+- **Blocks:** steps 19c, 19d and 19e (as the brief says) until answered; the `hand_column_split` code stays in the library, off.
+- **Reviewer note (2026-10-28, phase-13 review of 19a–19d):** recommend (a) for 19b's split as built, and (c) in a
+  narrower form: step 19f (`plan/phase-13-register-index-volumes/step-19f-column-order-v2.md`). Re-running 19b's
+  checks reproduced every number. The B1 failure comes from the pre-registered rule, not the code: lines classed by
+  extent, and pieces ordered by the page-level column grouping (report § Review, F13-R.7). 19f keeps each two-column
+  region as **one** region and re-orders its lines, left column then right, with lines classed by where they start.
+  That adds no units (19b added 10,637) and cannot misorder pieces. It gets a fresh read bar (same thresholds, seed
+  20261125). Choose (b) never: 9 of 38 read splits were wrong. If you choose 19f, answer UA-042 too.
+- **Response:** (a) for 19b's split as built, plus the reviewer's narrowed (c), step 19f (given in the chat, 2026-10-28)
+- **Resolved 2026-10-28 (Opus, orchestrating session):** `hand_column_split` as built stays off in v5; step 19f (column order v2, bar B2) launched. Outcome in the phase-13 `STATUS.md` and report § Step 19f.
+
+### UA-041 Does v5 ship the index entry rule? Entry bar failed (2026-10-28, from phase-13 step 19d)
+- **Action:** Decide. Evidence: `reports/phase-13-register-index-volumes.md` section "Step 19d" and
+  `reports/data/phase-13-register-index-volumes/step-19d/{eval_test.json,error_verdicts.tsv,error_reads.txt}`. Bar (pre-registered,
+  20 test sides, once): P >= 0.90 and R >= 0.85 and F1 > v4 hand F1. Chosen on dev: E5 (indent + short_prev, the print rule on
+  flagged sides). Test: P 0.8683, R 0.7092, F1 0.7807 (v4 hand: P 0.9741, R 0.4502, F1 0.6158): F1 passes, P and R fail. 26 of the
+  40 read errors come from two columns interleaved in one layout region (the 19b problem), 11 from index entries typed
+  `marginalia`/`other`.
+- **Options:** (a) v5 without the entry rule (`index_entry=None`; hand units unchanged) -- recommended: the bar failed and the brief
+  forbids tuning; (b) ship E5 on flagged sides anyway (starts recall 0.45 -> 0.71, precision 0.97 -> 0.87; +65% main_text units on
+  flagged sides); (c) one new pre-registered step that first fixes the column interleave (UA-040 option c) and re-tests the entry rule.
+- **Default if unanswered:** (a).
+- **Blocks:** step 19e (what the v5 preset sets); the code stays in the library, off.
+- **Reviewer note (2026-10-28, phase-13 review of 19a–19d):** recommend (a), and not (c) as worded. The text above
+  overstates interleaving: 14 of the 26 "interleave" errors sit in one-column layout regions. Over all 200 test
+  errors, 58 are in column-mixed regions, 38 in lines typed `index`/`marginalia` (no main unit) and 104 are cue
+  errors (report § Review, F13-R.1–R.5). Even a perfect column fix caps E5's recall at 0.775 (< 0.85). E5 was also
+  the weakest choice: E3–E5 were within 0.017 F1 on the 10 dev sides, and on test E3/E4 reach F1 0.859 vs E5 0.781.
+  What would likely pass is step 19g (`plan/phase-13-register-index-volumes/step-19g-index-entry-v2.md`): cues
+  outdent + date + page reference, no cut before a line of only page numbers, `index`-typed lines as mains. It is
+  chosen on the 30 spent sides and tested once on 20 fresh sides read first, with the same bar. On the spent sides
+  (post hoc, not a bar) that design gives P 0.896 / R 0.864 on the v4 layout and P 0.940 / R 0.882 with 19f's column
+  order. (b) would ship a rule whose precision falls from 0.97 to 0.87.
+- **Response:** (a), plus the reviewer's step 19g (given in the chat, 2026-10-28)
+- **Resolved 2026-10-28 (Opus, orchestrating session):** the 19d rule (E5) stays off in v5; step 19g (entry rule v2, fresh gold, same bar) runs after 19f. Outcome in the phase-13 `STATUS.md` and report § Step 19g.
+
+### UA-042 Scope of step 19e: run the follow-ups 19f/19g first? (2026-10-28, from the phase-13 review of 19a–19d)
+- **Action:** Decide. Evidence: `reports/phase-13-register-index-volumes.md` § Review and
+  `plan/phase-13-register-index-volumes/REVIEW.md`. What v5 contains depends on the bars that pass. Today only the
+  index-side detector passed (D1, D2), and on its own it would add one table (`layout/pages`) while leaving every hand
+  unit as in v4. That is not worth a full v5 rebuild of the 8,856 hand volumes.
+- **Options:** (a) run 19f (column order v2, read bar B2), then 19g (entry rule v2, fresh gold, same entry bar; on
+  19f's clones if B2 passes and you accept it, else on the v4 layout), then re-plan 19e (Opus) to ship what passed.
+  About two Sonnet sessions plus your read of the 19g result. (b) run only 19g on the v4 layout (skip the column
+  work). (c) skip both: 19e ships v5 = v4 + the detector table. (d) close phase 13 without a v5: the code stays in the
+  library, off. Recommended: (a); (b) if you want the shorter path (its post-hoc precision margin is thin: 0.896 on
+  the spent sides).
+- **Default if unanswered:** nothing runs; 19e stays blocked.
+- **Blocks:** steps 19f, 19g and 19e.
+- **Response:** (a) (given in the chat, 2026-10-28)
+- **Resolved 2026-10-28 (Opus, orchestrating session):** 19f runs, then 19g (on 19f's clones if B2 passes, else on the v4 layout), then 19e is re-planned (Opus) to ship what passed. UA-039 stays open; it gates 19e only.
+
+### UA-039 Blind check of 30 index-side labels (2026-10-28, from phase-13 step 19a)
+- **Action:** Run (from the AS root): `open reports/data/phase-13-register-index-volumes/step-19a/check_page.html`.
+  (Rebuilt 2026-10-28 at your request: each item now has an NA image crop of the quoted lines and one of the whole
+  page side; verdicts already entered are kept.)
+  Judge the 30 page sides (Index / Not index / Unsure) against the scans, press Export and save the
+  file as `reports/data/phase-13-register-index-volumes/step-19a/check_verdicts.json`.
+- **Options:** (a) do the check (about 30 min); (b) skip it: step 19e then states that the gold is
+  unchecked. Recommended: (a).
+- **Default if unanswered:** step 19e does not start.
+- **Blocks:** step 19e only (19b–19d run on the agent labels).
+- **Reviewer note (2026-10-28, phase-13 review of 19a–19d):** recommend (a). Bar D2 passed exactly on its
+  threshold (54/60), so one label you overturn can flip it. The check covers side labels only; the entry labels
+  (S/C) have no independent check, and the follow-up 19g reads fresh ones.
+- **Reviewer note (2026-10-28, review of 19f/19g):** still recommend (a); the weight is slightly lower. 19g read 22
+  detector-flagged sides it had not seen before and found 20 index pages, 1 running text and 1 unreadable, which supports
+  the detector's precision independently of 19a's labels. The check is still the only human look at the gold, and D2
+  still sits exactly on its bar.
+- **Response:** (a) done: 30 verdicts exported as `step-19a/check_verdicts (1).json` (browser name; copied unchanged to `check_verdicts.json` by the orchestrating session) (given in the chat, 2026-10-28)
+- **Resolved 2026-10-28 (step 19e):** (a). `check_verdicts.json` against `side_verdicts.tsv`: 27 of 27 judged items agree (agreement 1.000, no disagreement; 3 `unsure`, read_ids 17, 23, 54, left out; the agent said index on all three). Gate passed; D2 gold stands, with the three unsure sides unconfirmed.
+
+### UA-043 Does v5 ship the column reorder (bar B2 failed narrowly)? (2026-10-28, from phase-13 step 19f)
+- **Action:** Decide. Bar B2 (pre-registered): right/(right+wrong) >= 0.90 over 40 read regions and <= 2 wrong among the 20 `other`.
+  Result: 35 right, 4 wrong, 1 unclear = 35/39 = 0.897 (fail by one case); other wrong = 2 (pass). If my one `unclear` (case 23, a
+  names list in two columns whose first right-column line belongs before the left list) were `right` it would be 36/40 = 0.900. Details:
+  `reports/phase-13-register-index-volumes.md` section "Step 19f", `reports/data/phase-13-register-index-volumes/step-19f/b2_verdicts.tsv`.
+- **Options:** (a) treat B2 as failed as the rule says: v5 does not ship the reorder (hand interleave stays 2,612, or 980 with 19b's
+  split, which also failed); 19g then runs on the v4-layout clones `19c-a`/`19c-z`. (b) Ship the reorder anyway
+  (`SG_HAND_COLUMN_ORDER_V5`, interleave 843 of 399,429 units, 0.21%, unit count -0.07%) and run 19g on `19f-a`/`19f-z`; this overrides a
+  pre-registered bar, so the report would say so. (c) Fresh B2 read on 40 new regions (the 3,066 reordered regions allow it) before
+  deciding. Recommended: (a) now, and (c) only if the reorder matters for the entry rule in 19g.
+- **Default if unanswered:** (a): 19g starts on `19c-a`/`19c-z`; the reorder is not in v5.
+- **Blocks:** which clones 19g uses ("19g base" in `STATUS.md`) and what 19e puts in the v5 hand preset.
+- **Reviewer note (2026-10-28, review of 19f/19g):** recommend **(a)**. (1) The fail is fair: case 23 is not `right` under the
+  rubric (the text opens at the top of the right column), and two `right` calls (22, 07) are lenient, so a fresh read of the
+  same rule (c) would be a coin toss around 0.90 and re-testing until it passes is not a test. (2) The entry rule no longer
+  needs it: 19g ran on the v4 layout, and on the same fresh sides X4 scores F1 0.9242 on the reorder layout against 0.9244
+  (diagnostic, F13-R.11). So this UA now decides only the reorder itself, which un-interleaves about 1,770 hand units
+  (0.44%) and misorders roughly 1 region in 10 of the 3,066 it touches. (b) is defensible if you value the 1,770 units
+  more than the pre-registered bar; the report then says the bar was overridden. A better rule (row-pairing guard, split x
+  from the overlap band, F13-R.10) is a later phase with a new bar. 19g has run, so the "19g base" part of this UA is moot.
+- **Response:** (a) (given in the chat, 2026-10-28)
+- **Resolved 2026-10-28 (step 19e):** (a). Branch A: v5 has no column reorder (`SG_1_01_02_V5` without `hand_column_split`).
+
+### UA-044 Parquet reader for the optional silver check in 19e (2026-10-28, from the review of 19f/19g)
+- **Action:** Decide. Step 19e can score the index detector against `shared-data/NL-HaNA_1.01.02/republic_segmentation_v1/`
+  (resolution pages are not index pages; 27 of the 125 local hand volumes are in that layer). Reading it needs `pyarrow`,
+  which AS's `.venv` does not have.
+- **Options:** (a) the 19e session installs it: `cd /Users/marijnkoolen/Code/Huygens/archival-structures &&
+  .venv/bin/python -m pip install pyarrow && chmod -R g+w .venv` (adds a dependency to the dev venv only, not to
+  `pyproject.toml`); (b) no install: 19e reads the three columns it needs (`scan_id`, `page_id`, `unit_type`) with LotA's
+  interpreter (`PYTHONNOUSERSITE=1 /Users/Shared/claude_projects/data_scopes/language-of-the-archive/venv/bin/python`, which
+  has pyarrow 26.0.0), read-only, into a TSV under `reports/data/phase-13-register-index-volumes/step-19e/`; (c) skip the
+  silver check. Recommended: (a), since AS will need a Parquet reader anyway once it links this layer for the print
+  crosswalk (`docs/from-republic-segmentation.md`).
+- **Default if unanswered:** (c): 19e runs without the silver check and the report says so.
+- **Blocks:** only the optional silver check in 19e (step 7); nothing else.
+- **Response:** (a), pyarrow already installed in `.venv` (26.0.0) (given in the chat, 2026-10-28)
+- **Resolved 2026-10-28 (step 19e):** (a). pyarrow 26.0.0 was already in `.venv`; nothing installed. Silver check run (`step-19e/silver.py`).

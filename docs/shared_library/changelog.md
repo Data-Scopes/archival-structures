@@ -4,6 +4,75 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.18.0 (2026-10-28)
+
+### Step 19e: text layer v5 preset and run kit
+
+- `text_layer.presets.SG_1_01_02_V5` and `PRESETS["sg_1.01.02_v5"]`: `SG_1_01_02_V4` plus a hand override (`index_sides`
+  `SG_INDEX_SIDES_V5`, `index_entry` `SG_INDEX_ENTRY_V5B`; no column reorder, UA-043 (a)). No existing preset changes.
+- `scripts/run_text_layer_v4_full.py`: `--version {v4,v5}` (default `v4`, behaviour unchanged), `ARCHIVES_BY_VERSION`
+  (`ARCHIVES` stays the v4 map); `link_archive(..., version="v4")` gains a keyword; the coreshare label is
+  `<version>-<archive>`; `--version v5` with 1.10.94 is an argparse error.
+- Phase-13 review: the run script's final audit (`AUDIT`) is now `reports/data/phase-13-register-index-volumes/step-19e/
+  audit.py`, the 15w audit plus the v5 checks on a `*_v5` layer (unchanged checks for v4 layers).
+- Affected sibling imports: none (LotA reads published layers only; a v5 pilot is UA-046).
+
+### Step 19g: index entry rule v2
+
+- `text_layer.units.INDEX_ENTRY_DEFAULTS` gains `"no_cut_pattern": None` (a main line that fully matches the regex fires no
+  entry cue except `header`, in `entry_cues`) and `"main_types": ["main_text"]` (line types that become `main_text` on an index
+  side in `split_region`, entry mode only). Both defaults keep today's behaviour; `UnitParams.index_entry` accepts the new keys.
+- `text_layer.presets.SG_INDEX_NO_CUT` and `SG_INDEX_ENTRY_V5B` (cues outdent, date_start, end_ref_prev, short_prev; no-cut guard;
+  `main_types` main_text + index). No preset uses it yet.
+- Affected sibling imports: none.
+
+### Step 19f: column order v2
+
+- `analysis.page_structure.HAND_COLUMN_SPLIT_DEFAULTS` gains `"mode": "pieces"` (default = 19b's behaviour, unchanged) and
+  `"span_reach_frac": 0.5`. Mode `"reorder"` keeps a two-column hand region whole and re-orders its lines, left column then
+  right column, classed by start x (new metadata key `column_reorder_from`; no new units). `LayoutParams.__post_init__` raises
+  `ValueError` for a `mode` outside `("pieces", "reorder")`.
+- `text_layer.layout._change`: new value `column_reordered` in `layout/regions.change`.
+- `text_layer.presets.SG_HAND_COLUMN_ORDER_V5` (no preset uses it).
+- Affected sibling imports: none.
+
+### Step 19d: index entry units
+
+- `text_layer.units.UnitParams.index_entry: Optional[dict] = None` (new field, `hash=False`); `None` = off. Keys are those of
+  `INDEX_ENTRY_DEFAULTS`; unknown keys or cues outside `INDEX_CUES` raise `ValueError`. `to_dict()` leaves the key out when it is
+  `None`, so every existing `units/params.json` stays byte-identical.
+- New `units.INDEX_CUES`, `units.INDEX_ENTRY_DEFAULTS` and `units.entry_cues(mains, header_between, cfg)` (cues `outdent`, `indent`,
+  `short_prev`, `date_start`, `end_ref_prev`, plus `header`).
+- `units.split_region(segs, params, print_mode, index_side=False)` and `units.build_units_page(..., index_side=False)`: only with
+  `index_side` true, not print mode and `params.index_entry` set are the mains cut at the entry cues. New `unit_method` values
+  `hand:index_start` and `hand:index:<cue>+<cue>` (only then); otherwise unchanged.
+- `unit_inventory` gives every segment a `text` key (no output change). With `params.index_entry` set (hand) it reads
+  `layout/pages/<inv>.tsv.gz` (step 19c) and raises `FileNotFoundError` when it is missing.
+- `text_layer.presets.SG_INDEX_ENTRY_V5` (constant, variant E5; its test bar failed, no preset uses it).
+- Affected sibling imports: none.
+
+### Step 19c: index page sides
+
+- New module `analysis.index_pages`: `INDEX_SIDES_DEFAULTS`, `side_features(lines, cfg)`, `side_rule(feat, cfg)`, `fill_runs(flags, gap, min_run)`
+  (per page side: share of long lines in the right part, share of lines ending in a number or starting with a date, and a contiguity fill).
+- `analysis.page_structure.LayoutParams.index_sides: Optional[dict] = None` (new field, `hash=False`); `None` = off, `{}` = defaults.
+  `to_dict()` leaves the key out when it is `None`, so every existing `layout/params.json` stays byte-identical. Unknown keys raise `ValueError`.
+- `text_layer.layout.PAGE_COLUMNS` and the table `layout/pages/<inv>.tsv.gz` (one row per page side: features, `rule`, `index_side`), written
+  only when `index_sides` is set; `n_index_sides` is added to the layout stats only then.
+- `text_layer.presets.SG_INDEX_DATE_START` and `SG_INDEX_SIDES_V5` (constants; no preset uses them yet).
+- Affected sibling imports: none.
+
+### Step 19b: hand column split
+
+- `analysis.page_structure.LayoutParams.hand_column_split: Optional[dict] = None` (new field, `hash=False`); `None` = off, `{}` = all
+  defaults. `to_dict()` leaves the key out when it is `None`, so every existing `layout/params.json` stays byte-identical.
+  Unknown keys raise `ValueError`.
+- `analysis.page_structure.HAND_COLUMN_SPLIT_DEFAULTS` and `split_regions_into_columns(regions, cfg, *, id_fn, row_tol_frac)
+  -> (regions, n_split)`: geometric split of regions with two side-by-side columns (pieces carry `column_split_from`).
+- `text_layer.layout.layout_scan` calls it after the `split_on_line_field` block when `hand_column_split is not None`; pieces count
+  in `n_column_splits` and show as `change == "split_at_column"`.
+- Affected sibling imports: none (no preset sets it yet; bar B1 failed, see UA-040).
+
 ## v0.17.0 (2026-10-28)
 
 ### Step 15y: mode pins and in-place rebuild

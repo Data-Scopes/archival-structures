@@ -475,3 +475,18 @@ def test_extract_seconds_include_prepass(src, tmp_path):
     from archival_structures.text_layer.modes import extract_inventory_v2_modes
     result = extract_inventory_v2_modes("9999", src, tmp_path / "out", PRESETS["sg_1.01.02_v4"])
     assert result["seconds"] >= result["prepass_seconds"] > 0
+
+
+def test_v5_preset():
+    """Step 19e: v5 = v4 + the hand override (index sides, index entry rule v2); print and volume_mode as v4."""
+    from archival_structures.text_layer.presets import SG_INDEX_ENTRY_V5B, SG_INDEX_SIDES_V5
+    v4, v5 = PRESETS["sg_1.01.02_v4"], PRESETS["sg_1.01.02_v5"]
+    assert v5.name == "NL-HaNA_1.01.02_text_layer_v5"
+    p4, p5 = inventory_preset(v4, "print"), inventory_preset(v5, "print")
+    assert all(getattr(p4, f) == getattr(p5, f) for f in MODE_RULE_FIELDS)
+    h4, h5 = inventory_preset(v4, "hand"), inventory_preset(v5, "hand")
+    assert h5.layout_params["index_sides"] == SG_INDEX_SIDES_V5
+    assert h5.layout_params["merge"] is False and "hand_column_split" not in h5.layout_params
+    assert h5.unit_params == {"index_entry": SG_INDEX_ENTRY_V5B}
+    assert h4.layout_params == {k: v for k, v in h5.layout_params.items() if k != "index_sides"}
+    assert v5.volume_mode == v4.volume_mode and v5.mode_presets == v4.mode_presets

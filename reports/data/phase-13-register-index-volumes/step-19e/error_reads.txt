@@ -1,0 +1,298 @@
+##### 10 units on flagged sides outside gold volumes
+pool 37208
+--- 3623 NL-HaNA_1.01.02_3623_0065 verso NL-HaNA_1.01.02_3623_0065-text_region-627-130-1817-282 type=main_text method=hand:region col=0 rule=1
+    ien Raad van Staaten.
+--- 3472 NL-HaNA_1.01.02_3472_0033 recto NL-HaNA_1.01.02_3472_0033-text_region-2690-537-1168-405 type=main_text method=hand:region col=0 rule=1
+    22 Januarij. Reg: Schelberg, Lanonik van St Servaes, om
+    sijn lanonisije van st servaes te mogen resigneeren
+    in handen van J. S. H: Noot Detriahe. Item mits„
+    van Comm: Instructeurs. R: Versoch toegestaen, mids
+    den Resignant overlave 21 dagen.
+--- 3587 NL-HaNA_1.01.02_3587_0006 recto NL-HaNA_1.01.02_3587_0006-text_region-1788-1241-2169-1924 type=main_text method=hand:index:outdent+short_prev+end_ref_prev col=0 rule=1
+    't Collegie in Zeeland. 76. Reqte van W: C: H. van Sijnden.
+    van Blittenswijk, om De„
+    ,missie als Secretaris van
+    de Admiraliteit in Zee„
+    „land. 476.
+--- 3353 NL-HaNA_1.01.02_3353_0012 verso NL-HaNA_1.01.02_3353_0012-text_region-1471-2623-982-211 type=main_text method=hand:index:short_prev+end_ref_prev col=1 rule=1
+    herstellinge van het schip
+    Vigos, 7, 97.
+--- 3394 NL-HaNA_1.01.02_3394_0016 verso NL-HaNA_1.01.02_3394_0016-text_region-320-3193-1203-323 type=main_text method=hand:region col=0 rule=1
+    Land Graef van Hessen
+    Philipstad 636.
+--- 3587 NL-HaNA_1.01.02_3587_0009 verso NL-HaNA_1.01.02_3587_0009-text_region-591-1135-2132-525 type=main_text method=hand:index_start col=0 rule=1
+    ,ten over het voorbij gaan in Reqte van St. P: Snoets, en St. Sieland,
+    de aanstelling als Regent.
+--- 3350 NL-HaNA_1.01.02_3350_0018 recto NL-HaNA_1.01.02_3350_0018-text_region-2480-1300-988-241 type=main_text method=hand:index:end_ref_prev col=0 rule=1
+    Duijst van Doorhout derwaarts
+    te gaan 108, 218.
+--- 3463 NL-HaNA_1.01.02_3463_0128 verso NL-HaNA_1.01.02_3463_0128-text_region-641-322-877-141 type=main_text method=hand:region col=0 rule=1
+    Turhsche pasporten
+--- 3611 NL-HaNA_1.01.02_3611_0010 recto NL-HaNA_1.01.02_3611_0010-text_region-2656-1117-1105-190 type=main_text method=hand:region col=0 rule=1
+    Beneficien, vid: Canoniksdyen.
+--- 3623 NL-HaNA_1.01.02_3623_0054 verso NL-HaNA_1.01.02_3623_0054-text_region-620-1262-1923-119 type=main_text method=hand:index:outdent col=0 rule=1
+    ,deratien van D'iecteuren van
+    rak: hunne pretensien op e
+##### 5 units on gap-filled sides (rule 0)
+pool 6460
+--- 4831 NL-HaNA_1.01.02_4831_0023 verso NL-HaNA_1.01.02_4831_0023-text_region-836-3572-1690-182 type=main_text method=hand:index:end_ref_prev col=0 rule=0
+    Gajus van Jeltinga89, 1264.
+--- 3546 NL-HaNA_1.01.02_3546_0155 recto NL-HaNA_1.01.02_3546_0155-text_region-3982-436-719-75 type=main_text method=hand:index:short_prev+date_start col=1 rule=0
+    24. Novm. Nederburg Eed gedaan.
+--- 3590 NL-HaNA_1.01.02_3590_0029 recto NL-HaNA_1.01.02_3590_0029-text_region-2904-1500-897-157 type=main_text method=hand:index:outdent col=0 rule=0
+    geappobeert 908 Reqte
+--- 3546 NL-HaNA_1.01.02_3546_0042 verso NL-HaNA_1.01.02_3546_0042-text_region-613-138-945-144 type=main_text method=hand:region col=0 rule=0
+    Commisen generaal
+--- 3463 NL-HaNA_1.01.02_3463_0025 verso NL-HaNA_1.01.02_3463_0025-text_region-517-933-1055-227 type=main_text method=hand:index_start col=1 rule=0
+    17. September. Rapport en Res: 2000 gl: aan pre„
+    senten voor die van Prepoli.
+##### largest change: 11930 {'v4': 0, 'v5': 27, 'flagged_sides': 1} side ('NL-HaNA_1.01.02_11930_0399', 'recto')
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-2713-396-128-118 type=main_text method=hand:region col=0 rule=1
+    sbimme ssser mggoox: Cjob:
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-2688-1770-142-95 type=main_text method=hand:region col=0 rule=1
+    achhenerg) o9000r 5pppn:
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-2818-224-185-94 type=main_text method=hand:region col=1 rule=1
+    2e hoomeal 9 209. oumy eyperoppy, noar cenoy, ep an opoboq ipueen seqnuod, q uoa eeaquero unyo,
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-2946-269-166-103 type=main_text method=hand:region col=2 rule=1
+    rastrz oy bi gore bumgmlion meuny rey uorpopngeo popvon hon noob pry
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3536-65-123-171 type=main_text method=hand:index:outdent col=3 rule=1
+    Toguupor
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-4098-66-120-154 type=main_text method=hand:index:short_prev+end_ref_prev col=3 rule=1
+    hum
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3444-65-887-182 type=main_text method=hand:index:short_prev col=3 rule=1
+    mognbns
+    18609.
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3444-74-115-169 type=main_text method=hand:index:outdent col=3 rule=1
+    homer
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3722-77-391-153 type=main_text method=hand:index_start col=3 rule=1
+    hyns
+    2122.
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3807-122-118-113 type=main_text method=hand:index:short_prev col=3 rule=1
+    croiuoalos
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3641-139-118-108 type=main_text method=hand:index:outdent+end_ref_prev col=3 rule=1
+    grruoen
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3014-286-1292-3219 type=main_text method=hand:index:outdent+end_ref_prev col=3 rule=1
+    nepraanb vorzwea ulte in ueneey emoen ulsen bergesnaag, nen pontnegr, voorwogen, ops gaorpg won noyen, ogrooysumog
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3105-301-207-97 type=main_text method=hand:index:outdent+short_prev+end_ref_prev col=3 rule=1
+    trgop nag envooot egevon vorq uoo ger von de uroog hy navoor gra uhnbranij), gerop no gysen opnaypogeh one hyf
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3566-627-528-1506 type=main_text method=hand:index:outdent+end_ref_prev col=3 rule=1
+    e8u ,
+    30
+    25 451 55, 91, 51, 91, 91, 11, 71, 11, 71, 11, 11, 11, 01 99
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3361-638-192-110 type=main_text method=hand:index:outdent col=3 rule=1
+    coo51 1 866 66 66
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3520-655-112-101 type=main_text method=hand:index_start col=3 rule=1
+    267.
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-4121-662-185-118 type=main_text method=hand:index:short_prev col=3 rule=1
+    1e d0 Re dt in g. ce ve. et te 1e oc b. 81 s 91 oi ii ei ci ii o v S  9 s v a
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3864-672-335-893 type=main_text method=hand:index:short_prev+end_ref_prev col=3 rule=1
+    x xi 4 91 91 91 e1 e
+    ff
+    3
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3599-680-208-94 type=main_text method=hand:index:short_prev+end_ref_prev col=3 rule=1
+    seeegegeaetee 90 20 20l 90 90100 90 40 50 51 10 15, 15, 15, 15, 15, 95, 05, 95, 95, 05, 05 0c 05
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3713-684-459-962 type=main_text method=hand:index:short_prev+end_ref_prev col=3 rule=1
+    32 edr de oe oe oe oe ee oc or oc or oe oc oc oc oc ve d0 00 ge s 5 55. s c C c o o
+    11, 99999299992999,66668 55
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3441-805-184-109 type=main_text method=hand:index:short_prev col=3 rule=1
+    1028550oo99goSss5599995
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3802-1536-239-1310 type=main_text method=hand:index:short_prev+end_ref_prev col=3 rule=1
+    cet fatbr be d so C o Caa939 39 5 5 e e
+    444444451
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-3245-3411-136-94 type=main_text method=hand:index:outdent+end_ref_prev col=3 rule=1
+    2965: 100i8
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-4376-523-165-99 type=main_text method=hand:region col=4 rule=1
+    221 Cemmen: 10o 101, 2011 Jun 6200p non 5 9 0, 191,
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-4469-527-310-111 type=main_text method=hand:index:outdent col=5 rule=1
+    purrsgrord' voscur P. L:o. 1004. groth; ip pegt uoq ura opremurce, noquo vurporps thnijs fo,4 rpur)s.
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-4613-543-166-95 type=main_text method=hand:index_start col=5 rule=1
+    ee hunsore nn emporgere. Tripamubactuus: 5: 9 404, sva enboqueryore neuoyraux, op psts
+--- 11930 NL-HaNA_1.01.02_11930_0399 recto NL-HaNA_1.01.02_11930_0399-text_region-4646-157-184-96 type=main_text method=hand:region col=6 rule=1
+    114.
+##### largest change: 4831 {'v4': 14, 'v5': 358, 'flagged_sides': 10} side ('NL-HaNA_1.01.02_4831_0019', 'recto')
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-3061-2576-1298-395 type=main_text method=hand:region col=0 rule=1
+    dese vier openstaende Compagnien hooren
+    onder het regiment van Colonnel
+    Langen, ende werden dagelijcx
+    verwacht.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-3707-3646-850-200 type=main_text method=hand:region col=0 rule=1
+    Christiaen van Aleus
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-3056-4297-1261-220 type=main_text method=hand:region col=0 rule=1
+    dese openstaende Compe. van Coll Viersler,
+    Staet alle uijren aen te comen.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4331-154-1058-132 type=main_text method=hand:index_start col=1 rule=1
+    Fredic,89, 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4330-258-1044-125 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Hamersteijn89, 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4345-363-1031-125 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Hoendorff89, 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4343-450-1072-110 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Otto89, 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4326-553-1075-127 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Leendorff Coll. 89. 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4335-648-1080-159 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Schlieben Lt. Coll. 89. 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4341-754-1072-136 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Pudewels Major 89, 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4347-887-1082-133 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Schlieven89, 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4318-972-1119-119 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Vinck89, 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4334-1073-1093-113 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    dela Cave89. 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4317-1158-1094-135 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Leendorff89. 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4344-1258-1074-129 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Schlomput89. 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4332-1356-1108-201 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Auwer89. 1264.
+    89.
+    1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4318-1461-245-103 type=main_text method=hand:index:outdent+end_ref_prev col=1 rule=1
+    Else
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4324-1543-1107-123 type=main_text method=hand:index:short_prev col=1 rule=1
+    Ackmoet89. 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4349-1643-1100-132 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Coetter89. 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4313-154-1150-3541 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Lange Coll89. 1264.
+    89. 1264
+    89. 1264
+    89. 1264
+    89, 1264.
+    89, 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-3689-1876-994-595 type=main_text method=hand:region col=1 rule=1
+    Johan Silverloos
+    Sebastiaen Fred. Levens
+    Johan Hamsdorff
+    Simon Eijdefans
+    Melchior Somits
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4376-2328-107-70 type=main_text method=hand:index:outdent+end_ref_prev col=1 rule=1
+    =
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4325-2425-1119-113 type=main_text method=hand:index:short_prev col=1 rule=1
+    Walfields89. 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4334-2517-1129-548 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Neuvelt 8. 1264.
+    89, 1264
+    89. 1264
+    89. 1264
+    89. 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4341-3045-1118-182 type=main_text method=hand:index:outdent+end_ref_prev col=1 rule=1
+    Veersen Coll 89.
+    1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4334-3170-578-139 type=main_text method=hand:index:outdent+end_ref_prev col=1 rule=1
+    Montgomerij
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4340-3246-1114-186 type=main_text method=hand:index:short_prev col=1 rule=1
+    Lt. Coll.489. 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4359-3353-1069-147 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Canofskij rajor 89. 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4343-3478-702-176 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Baroe van Wester„
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4373-3548-1062-147 type=main_text method=hand:index:short_prev col=1 rule=1
+    holt
+    89,, 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4513-3689-929-105 type=main_text method=hand:index_start col=1 rule=1
+    89, 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4369-3792-1064-109 type=main_text method=hand:index:outdent+end_ref_prev col=1 rule=1
+    Wildenbach 83. 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4351-3888-1079-148 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Scheverin89. 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-3700-3689-1743-679 type=main_text method=hand:index:outdent+end_ref_prev col=1 rule=1
+    Ertman Fred: van Crensemarq89. 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-3706-4072-1732-135 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Hans Hend: van Borstell
+    89. 1264.
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-3709-4164-1726-137 type=main_text method=hand:index:outdent+end_ref_prev col=1 rule=1
+    Geurge W. van Cronewels,89. 1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-4376-4251-1067-117 type=main_text method=hand:index:short_prev col=1 rule=1
+    Groenfelt 89.
+    1264
+--- 4831 NL-HaNA_1.01.02_4831_0019 recto NL-HaNA_1.01.02_4831_0019-text_region-3700-4271-100-90 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    e
+##### largest change: 3265 {'v4': 195, 'v5': 2983, 'flagged_sides': 84} side ('NL-HaNA_1.01.02_3265_0004', 'recto')
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2600-896-1185-2322 type=main_text method=hand:index_start col=0 rule=1
+    buijse op t' conterscharp van St. An=
+    thouls, vide t' Sas van Gent, lita. G.
+    Adriaen Cornelis  Jan Pauw vide
+    lita. P.
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2613-1388-617-136 type=main_text method=hand:index:short_prev col=0 rule=1
+    die van Axel 85:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2611-1495-912-183 type=main_text method=hand:index:short_prev+end_ref_prev col=0 rule=1
+    den Griffier 17: 66: 86: 568:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2613-1620-1142-282 type=main_text method=hand:index:end_ref_prev col=0 rule=1
+    t'affcappen van boomen in Suijtdorpe
+    50: 85:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2670-1865-936-186 type=main_text method=hand:index:short_prev+end_ref_prev col=0 rule=1
+    & Granier 65: 85: 288: 354:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2624-1998-1078-144 type=main_text method=hand:index:end_ref_prev col=0 rule=1
+    & ter Neuse 265: 293: 630: 784:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2629-2105-723-150 type=main_text method=hand:index:end_ref_prev col=0 rule=1
+    Comparitijdagen. 278:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2625-2204-1160-277 type=main_text method=hand:index:short_prev+end_ref_prev col=0 rule=1
+    disunie tusschen Axel & Axelambacht
+    290: 294:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2630-2455-1025-136 type=main_text method=hand:index:short_prev+end_ref_prev col=0 rule=1
+    & de raet 399: 424: 630: 659:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2623-2569-853-152 type=main_text method=hand:index:end_ref_prev col=0 rule=1
+    & die van Gent 701: 156:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2625-2684-652-160 type=main_text method=hand:index:short_prev+end_ref_prev col=0 rule=1
+    rancoenpen 763:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2614-2815-1140-223 type=main_text method=hand:index:short_prev+end_ref_prev col=0 rule=1
+    Aerdenburch guarnisoen 144: 543:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2633-2942-872-199 type=main_text method=hand:index:end_ref_prev col=0 rule=1
+    pen op Interest 284: 326:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-2617-3069-957-149 type=main_text method=hand:index:end_ref_prev col=0 rule=1
+    & die van Beooster Eede 304:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3171-222-1809-700 type=main_text method=hand:region col=1 rule=1
+    Inder vant Register der Resolutien
+    van Ho: Mo: Heeren Staten Genrl der
+    Vereenichde Nederlanden vanden Jaere
+    1659
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3191-640-373-143 type=marginalia method=hand:run col=1 rule=1
+    15 MAIs
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3171-735-570-187 type=marginalia method=hand:run col=1 rule=1
+    Aderitesed A
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3752-873-1303-292 type=main_text method=hand:index_start col=1 rule=1
+    Ingelanden benoorden Aerdenburch 533: 4:
+    546: 552: 556:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3746-1133-1233-250 type=main_text method=hand:index:short_prev+end_ref_prev col=1 rule=1
+    & die van Slependamme 442: 520: 562
+    780:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3749-1370-1176-185 type=main_text method=hand:index:short_prev+end_ref_prev col=1 rule=1
+    tractement voorden Predicant 550:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3741-1501-930-148 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    verdelinge van Ampten 123:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3758-1587-738-155 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    cleijner Ampten 680:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3758-1730-1120-154 type=main_text method=hand:index:short_prev+end_ref_prev col=1 rule=1
+    Idsart Albada 307: 447: 582: 702:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3734-1838-773-160 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Reinier Albada 509:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3746-1972-1214-187 type=main_text method=hand:index:short_prev+end_ref_prev col=1 rule=1
+    Anselmo Adornes & de Douariere van
+    ofte Charag.
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3747-2099-1150-172 type=main_text method=hand:index:outdent+short_prev col=1 rule=1
+    Treslan 395: 425: 455: 732: 750:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3779-2169-280-119 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Royssen
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3802-2208-902-171 type=main_text method=hand:index:short_prev col=1 rule=1
+    Cr. vander Meulen 415: 627:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3720-2321-592-172 type=main_text method=hand:index:outdent+end_ref_prev col=1 rule=1
+    & Loyffen 627:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3720-873-1335-2345 type=main_text method=hand:index:short_prev+end_ref_prev col=1 rule=1
+    Tractaet met die van Algiers & t'lost
+    der Slaven aldaer 554: 573: 595:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3742-2692-1168-174 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Anthonio Dominico Napolitaen 12:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3754-2821-836-150 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Johan Annocque, 78: 95:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3735-2937-904-156 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Martinus Ackersdijck 95:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-3734-3041-696-177 type=main_text method=hand:index:end_ref_prev col=1 rule=1
+    Joseph Athias, 123:
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-4546-160-308-128 type=marginalia method=hand:run col=2 rule=1
+    Fag: 1.
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-4766-160-88-128 type=page_number method=hand:run col=2 rule=1
+    Fag: 1.
+--- 3265 NL-HaNA_1.01.02_3265_0004 recto NL-HaNA_1.01.02_3265_0004-text_region-4955-1199-158-146 type=marginalia method=hand:run col=3 rule=1
+    49:

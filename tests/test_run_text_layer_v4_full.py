@@ -239,3 +239,18 @@ def test_whole_layer_terms():
 def test_check_only_logs_whole_layer(tree):
     assert mod.main(args_for(tree, "--check-only")) == 0
     assert "over the whole layer" in (tree / "out" / "run_v4.log").read_text()
+
+
+def test_version_v5(tree):
+    args = mod.parse_args(["--src", f"{H}=x", "--out-dir", "o", "--version", "v5"])
+    real, = mod.build_cmds(H, args, "w", "o", None)
+    assert real[real.index("--preset") + 1] == "sg_1.01.02_v5" and "v5-1.01.02" in real
+    assert mod.parse_args(["--src", f"{H}=x", "--out-dir", "o"]).version == "v4"
+    assert mod.ARCHIVES == mod.ARCHIVES_BY_VERSION["v4"]
+
+
+def test_version_v5_rejects_1_10_94(tree):
+    with pytest.raises(SystemExit):
+        mod.parse_args(["--only", P, "--out-dir", "o", "--version", "v5"])
+    with pytest.raises(SystemExit):
+        mod.parse_args(["--src", f"{P}=y", "--out-dir", "o", "--version", "v5"])

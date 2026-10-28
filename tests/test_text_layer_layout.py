@@ -198,3 +198,62 @@ def test_sort_unchanged_lines(tmp_path):
 def test_print_preset_sorts_unchanged():
     assert PRESETS["sg_1.10.94_v2"].layout_params["sort_unchanged_lines"] is True
     assert "sort_unchanged_lines" not in PRESETS["sg_1.01.02_v2"].layout_params
+
+
+def test_hand_column_split_layout_scan(tmp_path):
+    from archival_structures.analysis.page_structure import LayoutParams
+    lines = []
+    for i in range(6):   # XML order alternates between the two columns
+        lines.append((f"l{i}", 50, 100 + 50 * i, 400, "links", ""))
+        lines.append((f"r{i}", 550, 100 + 50 * i, 400, "rechts", ""))
+    root = _synthetic_layer(tmp_path, {"a": lines})
+    layout_inventory("9998", root, LayoutParams())
+    rows = list(read_tsv_gz(root / "layout" / "regions" / "9998.tsv.gz"))
+    assert [r["change"] for r in rows] == ["unchanged"]
+    st = layout_inventory("9998", root, LayoutParams(hand_column_split={}))
+    rows = list(read_tsv_gz(root / "layout" / "regions" / "9998.tsv.gz"))
+    assert len(rows) == 2 and all(r["change"] == "split_at_column" for r in rows)
+    assert len({r["layout_column"] for r in rows}) == 2
+    assert len({r["layout_region_id"] for r in rows}) == 2
+    by_region = {}
+    for l in read_tsv_gz(root / "layout" / "lines" / "9998.tsv.gz"):
+        by_region.setdefault(l["layout_region_id"], []).append((int(l["layout_line_idx"]), l["line_id"]))
+    got = sorted([lid for _, lid in sorted(v)] for v in by_region.values())
+    assert got == [[f"l{i}" for i in range(6)], [f"r{i}" for i in range(6)]]
+
+
+def test_hand_column_reorder_layout_scan(tmp_path):
+    from archival_structures.analysis.page_structure import LayoutParams
+    lines = []
+    for i in range(6):   # XML order alternates between the two columns
+        lines.append((f"l{i}", 50, 100 + 50 * i, 400, "links", ""))
+        lines.append((f"r{i}", 550, 100 + 50 * i, 400, "rechts", ""))
+    root = _synthetic_layer(tmp_path, {"a": lines})
+    layout_inventory("9998", root, LayoutParams(hand_column_split={"mode": "reorder"}))
+    rows = list(read_tsv_gz(root / "layout" / "regions" / "9998.tsv.gz"))
+    assert len(rows) == 1 and rows[0]["change"] == "column_reordered"
+    got = [l["line_id"] for l in sorted(read_tsv_gz(root / "layout" / "lines" / "9998.tsv.gz"),
+                                        key=lambda l: int(l["layout_line_idx"]))]
+    assert got == [f"l{i}" for i in range(6)] + [f"r{i}" for i in range(6)]
+
+
+def test_index_sides_pages_table(tmp_path):
+    from archival_structures.analysis.page_structure import LayoutParams
+    from archival_structures.text_layer.layout import PAGE_COLUMNS
+    lines = []
+    for i in range(20):   # two columns of long lines ending in numbers
+        lines.append((f"l{i}", 50, 100 + 50 * i, 400, "lemma entry some text 12", ""))
+        lines.append((f"r{i}", 550, 100 + 50 * i, 400, "lemma entry more text 34", ""))
+    root = _synthetic_layer(tmp_path, {"a": lines})
+    st = layout_inventory("9998", root, LayoutParams())
+    assert not (root / "layout" / "pages").exists() and "n_index_sides" not in st
+    st = layout_inventory("9998", root, LayoutParams(index_sides={}))
+    assert st["n_index_sides"] == 1
+    path = root / "layout" / "pages" / "9998.tsv.gz"
+    with gzip.open(path, "rt") as fh:
+        assert fh.readline().rstrip("\n").split("\t") == PAGE_COLUMNS
+    rows = list(read_tsv_gz(path))
+    assert len(rows) == 1
+    r = rows[0]
+    assert r["scan_id"] == SCAN and r["n_lines"] == "40" and r["n_text20"] == "40"
+    assert r["col_share"] == "0.5" and r["end_num"] == "1.0" and r["rule"] == "1" and r["index_side"] == "1"

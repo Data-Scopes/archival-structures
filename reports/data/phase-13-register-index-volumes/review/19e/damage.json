@@ -1,0 +1,99 @@
+{
+ "negatives_known": {
+  "gt": 46961,
+  "gt+review": 1,
+  "gt+read19g+silver": 1,
+  "gt+silver": 17,
+  "read19a": 32,
+  "read19g": 1,
+  "review": 27
+ },
+ "flagged_negatives": {
+  "v4_main": 228,
+  "v5_main": 1091,
+  "v4_main_split": 99,
+  "v5_main_lines": 1992,
+  "v4_index_units": 207,
+  "sides": 54,
+  "by_rule": 30,
+  "by_gapfill": 24
+ },
+ "by_evidence": {
+  "review": {
+   "v4_main": 114,
+   "v5_main": 497,
+   "v4_main_split": 51,
+   "v5_main_lines": 936,
+   "v4_index_units": 148,
+   "sides": 27
+  },
+  "read19a": {
+   "v4_main": 2,
+   "v5_main": 4,
+   "v4_main_split": 1,
+   "v5_main_lines": 12,
+   "v4_index_units": 0,
+   "sides": 1
+  },
+  "gt": {
+   "v4_main": 20,
+   "v5_main": 46,
+   "v4_main_split": 3,
+   "v5_main_lines": 122,
+   "v4_index_units": 0,
+   "sides": 6
+  },
+  "gt+review": {
+   "v4_main": 7,
+   "v5_main": 46,
+   "v4_main_split": 5,
+   "v5_main_lines": 72,
+   "v4_index_units": 0,
+   "sides": 1
+  },
+  "gt+read19g+silver": {
+   "v4_main": 12,
+   "v5_main": 16,
+   "v4_main_split": 4,
+   "v5_main_lines": 48,
+   "v4_index_units": 0,
+   "sides": 1
+  },
+  "gt+silver": {
+   "v4_main": 69,
+   "v5_main": 468,
+   "v4_main_split": 32,
+   "v5_main_lines": 773,
+   "v4_index_units": 59,
+   "sides": 17
+  },
+  "read19g": {
+   "v4_main": 4,
+   "v5_main": 14,
+   "v4_main_split": 3,
+   "v5_main_lines": 29,
+   "v4_index_units": 0,
+   "sides": 1
+  }
+ },
+ "per_inv_sides": {
+  "359": 1,
+  "695": 1,
+  "751": 1,
+  "882": 1,
+  "3199": 6,
+  "3221": 1,
+  "3307": 1,
+  "3315": 5,
+  "3320": 2,
+  "3525": 1,
+  "4170": 1,
+  "4831": 10,
+  "8287": 1,
+  "8706": 15,
+  "11182": 4,
+  "11220": 1,
+  "11281": 1,
+  "11930": 1
+ }
+}

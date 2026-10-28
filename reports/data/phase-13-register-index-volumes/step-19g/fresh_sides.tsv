@@ -1,0 +1,23 @@
+read_id	group	role	side_verdict	used_for	n_S	n_C	n_H	n_unclear
+101	G3	read	index		9	4	7	1
+102	G4	read	index		42	5	4	0
+103	G2	read	index		10	5	15	0
+104	G2	read	index		21	18	4	0
+105	G1	read	index		22	9	7	0
+106	G3	read	index		7	12	2	0
+107	G1	read	index		19	20	5	0
+108	G1	read	not index					
+109	G3	read	unreadable input					
+110	G1	read	index		11	14	5	0
+111	G2	read	index		28	18	4	0
+112	G4	read	index		52	21	10	0
+113	G4	read	index		18	17	4	0
+114	G2	read	index		14	24	8	2
+115	G4	read	index		29	5	1	0
+116	G3	read	index		11	31	2	0
+117	G1	read	index		20	6	0	0
+118	G2	read	index		26	8	2	0
+119	G3	read	index		16	24	4	0
+120	G3	read	index		21	68	3	1
+121	G1	reserve	index	108	40	7	4	0
+125	G3	reserve	index	109	13	24	4	0

@@ -1,0 +1,15 @@
+{
+ "variant": "V05",
+ "k": 5,
+ "fit_P": 0.9808,
+ "fit_R": 0.9297,
+ "rule": "among P>=0.95 highest R (ties lower V); none -> highest P",
+ "cfg": {
+  "col_share_min": 0.25,
+  "shape_min": 0.15,
+  "shape_only_min": null,
+  "shape_only_lines": 5,
+  "gap": 8,
+  "min_run": 1
+ }
+}

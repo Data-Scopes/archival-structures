@@ -1,0 +1,276 @@
+{
+ "page": "as_phase13_19a_sides_v1",
+ "exported": "2026-10-28T11:35:43.124Z",
+ "items": [
+  {
+   "id": "side51",
+   "read_id": 51,
+   "inv": "3438",
+   "scan_id": "NL-HaNA_1.01.02_3438_0016",
+   "page": "verso",
+   "verdict": "index",
+   "note": "numbers are page/folio numbers"
+  },
+  {
+   "id": "side60",
+   "read_id": 60,
+   "inv": "3401",
+   "scan_id": "NL-HaNA_1.01.02_3401_0051",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "running text"
+  },
+  {
+   "id": "side33",
+   "read_id": 33,
+   "inv": "3455",
+   "scan_id": "NL-HaNA_1.01.02_3455_0075",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "running text of resolutions"
+  },
+  {
+   "id": "side32",
+   "read_id": 32,
+   "inv": "3654",
+   "scan_id": "NL-HaNA_1.01.02_3654_0059",
+   "page": "recto",
+   "verdict": "not index",
+   "note": "running text"
+  },
+  {
+   "id": "side27",
+   "read_id": 27,
+   "inv": "8287",
+   "scan_id": "NL-HaNA_1.01.02_8287_0012",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "This is a list of members of a regiment"
+  },
+  {
+   "id": "side04",
+   "read_id": 4,
+   "inv": "3463",
+   "scan_id": "NL-HaNA_1.01.02_3463_0137",
+   "page": "verso",
+   "verdict": "index",
+   "note": "a list of under the respect term \"saaken van religie\", organised by date"
+  },
+  {
+   "id": "side49",
+   "read_id": 49,
+   "inv": "3456",
+   "scan_id": "NL-HaNA_1.01.02_3456_0062",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "running text, session opening in inventory of resolutions"
+  },
+  {
+   "id": "side52",
+   "read_id": 52,
+   "inv": "11900",
+   "scan_id": "NL-HaNA_1.01.02_11900_0190",
+   "page": "recto",
+   "verdict": "not index",
+   "note": "running text (header of a letter?)"
+  },
+  {
+   "id": "side17",
+   "read_id": 17,
+   "inv": "3712",
+   "scan_id": "NL-HaNA_1.01.02_3712_0026",
+   "page": "verso",
+   "verdict": "unsure",
+   "note": "I think these are index entries for the main term (also called \"respect\") \"Gemeene middelen\", organised by date, with a short summary of what the resolution's proposition is about."
+  },
+  {
+   "id": "side35",
+   "read_id": 35,
+   "inv": "3421",
+   "scan_id": "NL-HaNA_1.01.02_3421_0099",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "running text of resolutions"
+  },
+  {
+   "id": "side23",
+   "read_id": 23,
+   "inv": "3498",
+   "scan_id": "NL-HaNA_1.01.02_3498_0128",
+   "page": "verso",
+   "verdict": "unsure",
+   "note": "list of dated items, so maybe index entries organised by date?"
+  },
+  {
+   "id": "side19",
+   "read_id": 19,
+   "inv": "3351",
+   "scan_id": "NL-HaNA_1.01.02_3351_0149",
+   "page": "recto",
+   "verdict": "index",
+   "note": "list of entries about placaeten organised by date"
+  },
+  {
+   "id": "side58",
+   "read_id": 58,
+   "inv": "3712",
+   "scan_id": "NL-HaNA_1.01.02_3712_0273",
+   "page": "recto",
+   "verdict": "index",
+   "note": "similar to item 9"
+  },
+  {
+   "id": "side26",
+   "read_id": 26,
+   "inv": "46",
+   "scan_id": "NL-HaNA_1.01.02_46_0446",
+   "page": "recto",
+   "verdict": "not index",
+   "note": "running text"
+  },
+  {
+   "id": "side28",
+   "read_id": 28,
+   "inv": "751",
+   "scan_id": "NL-HaNA_1.01.02_751_0305",
+   "page": "recto",
+   "verdict": "not index",
+   "note": "running text, perhaps a correction of the crossed out printed text next to it."
+  },
+  {
+   "id": "side36",
+   "read_id": 36,
+   "inv": "3547",
+   "scan_id": "NL-HaNA_1.01.02_3547_0075",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "running text"
+  },
+  {
+   "id": "side48",
+   "read_id": 48,
+   "inv": "11436",
+   "scan_id": "NL-HaNA_1.01.02_11436_0102",
+   "page": "recto",
+   "verdict": "not index",
+   "note": "running text, start of a letter"
+  },
+  {
+   "id": "side54",
+   "read_id": 54,
+   "inv": "3489",
+   "scan_id": "NL-HaNA_1.01.02_3489_0045",
+   "page": "recto",
+   "verdict": "unsure",
+   "note": "The same(?) resident in Denmark, mentioned each time with some document, but I see no referencing locator (neither date nor page number)"
+  },
+  {
+   "id": "side16",
+   "read_id": 16,
+   "inv": "46",
+   "scan_id": "NL-HaNA_1.01.02_46_0162",
+   "page": "recto",
+   "verdict": "not index",
+   "note": "header, margalia and running text (resolutions?)"
+  },
+  {
+   "id": "side30",
+   "read_id": 30,
+   "inv": "11182",
+   "scan_id": "NL-HaNA_1.01.02_11182_0198",
+   "page": "recto",
+   "verdict": "not index",
+   "note": "running text, probably part of a letter"
+  },
+  {
+   "id": "side38",
+   "read_id": 38,
+   "inv": "3394",
+   "scan_id": "NL-HaNA_1.01.02_3394_0044",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "running text and marginalia"
+  },
+  {
+   "id": "side42",
+   "read_id": 42,
+   "inv": "3539",
+   "scan_id": "NL-HaNA_1.01.02_3539_0074",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "running text and marginalia"
+  },
+  {
+   "id": "side44",
+   "read_id": 44,
+   "inv": "12444",
+   "scan_id": "NL-HaNA_1.01.02_12444_0047",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "running text"
+  },
+  {
+   "id": "side40",
+   "read_id": 40,
+   "inv": "46",
+   "scan_id": "NL-HaNA_1.01.02_46_0457",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "running text and marginalia"
+  },
+  {
+   "id": "side09",
+   "read_id": 9,
+   "inv": "3520",
+   "scan_id": "NL-HaNA_1.01.02_3520_0033",
+   "page": "recto",
+   "verdict": "index",
+   "note": "Two columns, column 1 has respect terms, column 2 has entries with dates"
+  },
+  {
+   "id": "side45",
+   "read_id": 45,
+   "inv": "3421",
+   "scan_id": "NL-HaNA_1.01.02_3421_0070",
+   "page": "verso",
+   "verdict": "not index",
+   "note": "running text with marginalia"
+  },
+  {
+   "id": "side11",
+   "read_id": 11,
+   "inv": "3354",
+   "scan_id": "NL-HaNA_1.01.02_3354_0213",
+   "page": "recto",
+   "verdict": "index",
+   "note": "entries under the respect \"Zeeland\" organised by date"
+  },
+  {
+   "id": "side14",
+   "read_id": 14,
+   "inv": "3463",
+   "scan_id": "NL-HaNA_1.01.02_3463_0114",
+   "page": "recto",
+   "verdict": "index",
+   "note": "entries under the respect \"Oostfriesland\" organised by date"
+  },
+  {
+   "id": "side01",
+   "read_id": 1,
+   "inv": "3478",
+   "scan_id": "NL-HaNA_1.01.02_3478_0043",
+   "page": "verso",
+   "verdict": "index",
+   "note": "entries under the respect \"Coevorden\" organised by date"
+  },
+  {
+   "id": "side59",
+   "read_id": 59,
+   "inv": "4445",
+   "scan_id": "NL-HaNA_1.01.02_4445_0124",
+   "page": "recto",
+   "verdict": "not index",
+   "note": "running text of resolutions"
+  }
+ ]
+}

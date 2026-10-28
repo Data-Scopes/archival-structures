@@ -264,6 +264,10 @@ All of these are text cues, with character offsets inside a resolution's or para
 
 ## 10. Session boundaries from resumption paragraphs (2026-10-21)
 
+*Note (AS, 2026-10-28):* the sister project republic-segmentation has since published sessions, resolutions and
+paragraphs for 443 + 2 inventories (`docs/from-republic-segmentation.md`). Resumption lines there are mostly
+`other_session_part`; its v2 adds a `resumption` type.
+
 Republic Phase 3.1 (UA-049 (a)). The files are under
 `/Users/Shared/claude_projects/data_scopes/republic/output/phase-03-1/`. The write-ups are
 `step01/section.md` and `step02/section.md`. The user checked 40 of the step 01 labels: 38 agree,
@@ -337,3 +341,13 @@ scan IDs: `/Users/Shared/claude_projects/data_scopes/republic/output/phase-03-2/
   only for the first ~35 items of one page, so the notes undercount.
 - **For §4's start cues:** a record may open with "In deliberatie geleijt sijnde" or "By resumtie
   gedelibereert zynde op …" (about 1.5% of resolutions from 1740); both open a resolution.
+
+## 12. Project renamed: `republic` is now `republic-classification` (2026-10-28)
+
+- **New name and path:** `/Users/Shared/claude_projects/data_scopes/republic-classification/`, which matches the
+  GitHub repo `Data-Scopes/republic-classification`. Earlier notes, UA numbers ("republic UA-0NN") and shared-data
+  manifests still say "republic". They mean the same project, and nothing in them will be rewritten.
+- **The old path keeps working.** `data_scopes/republic` keeps leading to the same directory (as a symlink once the directory
+  itself has moved) until republic-classification decides to remove it (its UA-101). You will get a note here before that happens.
+- **What to do:** use the new path in anything new. If code or config you run reads the old path, switch it when convenient.
+- **In this project:** the "`republic/` =" line at the top and §§ 10–11 cite the old path. It still resolves.

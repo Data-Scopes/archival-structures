@@ -1,0 +1,19 @@
+Step 19c error analysis. Read with show_any.py (first 8-28 lines of each side). Sample from errors_sample.py:
+test volumes (20): 12 false-positive sides (all), 64 false-negative sides of which 20 drawn (random.Random(20261120),
+weighted by n_lines), and the 6 D2 disagreements (below). Categories and per-side notes: error_verdicts.tsv.
+
+FP (12): 4831 scans 0019 recto - 0024 verso: an officer roster (Colonel/Lt. Coll./Major names, each ending "89, 1264.", a page
+  reference pair; one name per line, 2 text blocks per scan); 2 sides fire the rule, 8 between them are gap-filled.
+  3320 scan 0337 recto/verso: accounts page of a resolution volume with amounts ("13: 4:", "50: 0: 0:") in a right-hand
+  column, which look like page numbers.
+FN (20 drawn of 64): 3127 (12 of 20) is a one-column-per-side index, each entry a short line ending in a page number
+  ("Hans Fonteine 127:", "placaet tegens de Stroomroovers 2: 27."); on a side the x of the lines is constant so col_share is 0-0.19 or
+  None although end_num is 0.8-0.97. 3274, 3290: sparse index sides (17-23 lines) with end_num 0.4-0.8 and col_share None.
+  4617: chronological summary index under a lemma ("86. Zeeland. ... Jan: 5. febr: 19."), dates in the text, no line-end
+  numbers. 3127 scan 0006 verso (5 stray tokens) and 3290 scan 0004 recto (title page "Index van ... resolutien") are
+  labelled index_page by GT but contain no entries.
+D2 disagreements (6 of 60): 3498_0027 recto, 3520_0033 recto, 3525_0043 recto (FN: short garbled pages, <18 lines, no
+  usable dates: "8aupsty aegst", "emqussen missi fcoxtz"); 3498_0128 verso (FN: 65 lines, dated entries under "Spogne" but the
+  HTR garbles the months, date_start 0.033); 3712_0273 recto (FN: four text columns of 1590s entries with mid-line dates,
+  shape 0.135 just below 0.15); 751_0305 recto (FP: 1714 pass resolution in two columns with a marginal number, col_share
+  0.56, end_num 0.17).

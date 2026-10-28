@@ -1,0 +1,41 @@
+case	inv	scan_id	region_id	side_class	verdict	kind	note
+01	3254	NL-HaNA_1.01.02_3254_0005	NL-HaNA_1.01.02_3254_0005-text_region-2884-2468-2300-643	flagged	right	index columns	W line = gutter merge at its row; left then right continuous
+02	3456	NL-HaNA_1.01.02_3456_0026	NL-HaNA_1.01.02_3456_0026-text_region-2739-443-2457-784	flagged	right	index columns	heading-like W first; names continue in right run
+03	3475	NL-HaNA_1.01.02_3475_0006	NL-HaNA_1.01.02_3475_0006-text_region-2657-2928-2218-967	flagged	right	two text columns	resolution register, two parallel columns; W merges hold both halves
+04	3507	NL-HaNA_1.01.02_3507_0023	NL-HaNA_1.01.02_3507_0023-text_region-2685-2341-2433-657	flagged	right	index columns	W first line = merged left+right start
+05	3444	NL-HaNA_1.01.02_3444_0042	NL-HaNA_1.01.02_3444_0042-text_region-2546-459-2090-1113	flagged	right	index columns	W first line merged; both runs continuous
+06	3320	NL-HaNA_1.01.02_3320_0021	NL-HaNA_1.01.02_3320_0021-text_region-201-777-2330-2804	flagged	right	index columns	alphabetical index, left then right
+07	3493	NL-HaNA_1.01.02_3493_0011	NL-HaNA_1.01.02_3493_0011-text_region-445-2834-4658-1091	flagged	right	index columns	region is the left page half (gutter split); left run continuous; first right-column line 'notificatie van de geboortqe' (x1716, w2167) sits in the sibling piece, a gutter-split effect, not the reorder
+08	3469	NL-HaNA_1.01.02_3469_0165	NL-HaNA_1.01.02_3469_0165-text_region-2890-3078-2361-823	flagged	right	two text columns	W line holds the end of left and start of right; runs continuous
+09	3439	NL-HaNA_1.01.02_3439_0082	NL-HaNA_1.01.02_3439_0082-text_region-456-1228-2284-999	flagged	right	two text columns	left staircase drift ok; W merge at row
+10	3579	NL-HaNA_1.01.02_3579_0184	NL-HaNA_1.01.02_3579_0184-text_region-442-118-2301-564	flagged	wrong	index columns	(a)/(b): centred heading 'Vlaanderen / Sas van Gent.' (x1289-1371, y118-207) became part of the right run (largest gap fell between 579 and 1289), so the heading comes after the left text instead of before both; borderline
+11	3478	NL-HaNA_1.01.02_3478_0079	NL-HaNA_1.01.02_3478_0079-text_region-474-1270-2229-1469	flagged	right	index columns	both runs continuous
+12	3623	NL-HaNA_1.01.02_3623_0078	NL-HaNA_1.01.02_3623_0078-text_region-2543-2457-2162-985	flagged	right	index columns	W lines carry sentence ends into the right column; runs continuous
+13	3421	NL-HaNA_1.01.02_3421_0056	NL-HaNA_1.01.02_3421_0056-text_region-631-517-2224-983	flagged	right	index columns	reference-number left column, text right column; W merge at row
+14	3455	NL-HaNA_1.01.02_3455_0048	NL-HaNA_1.01.02_3455_0048-text_region-2803-818-2364-938	flagged	right	index columns	both runs continuous
+15	3546	NL-HaNA_1.01.02_3546_0113	NL-HaNA_1.01.02_3546_0113-text_region-478-151-2131-513	flagged	right	index columns	centred W heading first; left then right
+16	3472	NL-HaNA_1.01.02_3472_0189	NL-HaNA_1.01.02_3472_0189-text_region-2908-1428-1157-535	flagged	wrong	index columns	(a): 'sous, ssebréé, Vleugels,' (x3563, y1589) is the same-row continuation of left line '18 Junij. op de Heeren Matthas,' (x2920+662=3582) but went to the right run
+17	3623	NL-HaNA_1.01.02_3623_0051	NL-HaNA_1.01.02_3623_0051-text_region-512-686-2373-1126	flagged	right	index columns	vid:-reference column left, entry text right; W merge at row
+18	3351	NL-HaNA_1.01.02_3351_0053	NL-HaNA_1.01.02_3351_0053-text_region-2839-1620-2268-743	flagged	right	two text columns	W merge at row; runs continuous
+19	3546	NL-HaNA_1.01.02_3546_0012	NL-HaNA_1.01.02_3546_0012-text_region-421-148-2114-1044	flagged	right	two text columns	left main text, right continuation; W merge
+20	3547	NL-HaNA_1.01.02_3547_0028	NL-HaNA_1.01.02_3547_0028-text_region-416-409-2429-616	flagged	right	index columns	W merge at row; both runs continuous
+21	3471	NL-HaNA_1.01.02_3471_0066	NL-HaNA_1.01.02_3471_0066-text_region-529-1058-1941-1595	other	right	margin column	left margin summary beside right body text; row-aligned but each continuous
+22	12444	NL-HaNA_1.01.02_12444_0184	NL-HaNA_1.01.02_12444_0184-text_region-2529-496-2360-2281	other	right	margin column	left margin summary, right body; 6 of 22 lines are W (body text split between W and R): passes the rubric, weak in substance
+23	882	NL-HaNA_1.01.02_882_0162	NL-HaNA_1.01.02_882_0162-text_region-2646-106-2313-3651	other	unclear	two text columns	one list of names in two columns; right column's first line 'Zijnde ter vergaderinge gecompareerd' belongs before the left list, and the lower-left town list (x~3000) belongs beside the right text: neither left-then-right nor right-then-left reads continuously
+24	350	NL-HaNA_1.01.02_350_0058	NL-HaNA_1.01.02_350_0058-text_region-314-181-2289-2533	other	right	two text columns	W first line; both runs continuous
+25	11182	NL-HaNA_1.01.02_11182_0670	NL-HaNA_1.01.02_11182_0670-text_region-865-687-1692-2861	other	wrong	fragments of the same lines	(c): left (x~900) and right (x~1860) lines are halves of the same written lines, row-aligned (e.g. 'Boven dit alles. .' + 'iestegenstaende dequoti„'); XML order was right, new order breaks it
+26	3459	NL-HaNA_1.01.02_3459_0136	NL-HaNA_1.01.02_3459_0136-text_region-2927-291-2316-2379	other	right	margin column	left parallel summary, right body
+27	12444	NL-HaNA_1.01.02_12444_0438	NL-HaNA_1.01.02_12444_0438-text_region-207-531-2331-3024	other	right	margin column	left summary (W heading + L lines), right body
+28	3522	NL-HaNA_1.01.02_3522_0506	NL-HaNA_1.01.02_3522_0506-text_region-3267-2499-2243-1463	other	right	margin column	two W lines hold body text in the left run; runs continuous
+29	3394	NL-HaNA_1.01.02_3394_0351	NL-HaNA_1.01.02_3394_0351-text_region-1148-3154-1775-773	other	right	parallel languages	Dutch left, French right
+30	11436	NL-HaNA_1.01.02_11436_0256	NL-HaNA_1.01.02_11436_0256-text_region-2270-1255-227-316	other	wrong	fragments of the same lines	(c): 7 word fragments (w~110-126) 'Lar/hout hout/2 aet/Rogg ogge.'; metric false positive; row order lost
+31	3192	NL-HaNA_1.01.02_3192_0611	NL-HaNA_1.01.02_3192_0611-text_region-309-1130-2597-2430	other	right	two text columns	resolution left, petition right; W merge first line
+32	3456	NL-HaNA_1.01.02_3456_0110	NL-HaNA_1.01.02_3456_0110-text_region-620-243-2318-2667	other	right	margin column	3 full-width W lines, left margin summary, right body
+33	3456	NL-HaNA_1.01.02_3456_0559	NL-HaNA_1.01.02_3456_0559-text_region-994-2268-2371-1584	other	right	margin column	W merges hold right-text halves; runs continuous
+34	3493	NL-HaNA_1.01.02_3493_0063	NL-HaNA_1.01.02_3493_0063-text_region-1339-1107-3165-2426	other	right	two text columns	region is a page half (gutter split); attendee list left, text right
+35	3471	NL-HaNA_1.01.02_3471_0242	NL-HaNA_1.01.02_3471_0242-text_region-2489-234-1815-921	other	right	margin column	left margin summary, right body, W merge
+36	3456	NL-HaNA_1.01.02_3456_0110	NL-HaNA_1.01.02_3456_0110-text_region-672-2914-2287-878	other	right	margin column	left summary, right body, W merge
+37	3487	NL-HaNA_1.01.02_3487_0192	NL-HaNA_1.01.02_3487_0192-text_region-441-1959-2059-1100	other	right	margin column	left summary, right body, W merge
+38	3487	NL-HaNA_1.01.02_3487_0195	NL-HaNA_1.01.02_3487_0195-text_region-2846-1226-2342-2574	other	right	margin column	left summary, right body, W merge
+39	3456	NL-HaNA_1.01.02_3456_0482	NL-HaNA_1.01.02_3456_0482-text_region-1046-1261-2336-2583	other	right	margin column	left summary, right body, W merges
+40	3712	NL-HaNA_1.01.02_3712_0107	NL-HaNA_1.01.02_3712_0107-text_region-3562-455-2597-4024	other	right	two text columns	two long runs, first W line carries both starts

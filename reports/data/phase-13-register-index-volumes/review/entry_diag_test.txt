@@ -1,0 +1,50 @@
+== sides ==
+{'read_id': '5', 'group': 'G1', 'inv': '3256', 'scan': '0009', 'page': 'recto', 'two_cols': True, 'n_regions': 14, 'mixed_regions': 0, 'gold_lines': 93, 'gold_in_mixed': 0}
+{'read_id': '6', 'group': 'G1', 'inv': '3308', 'scan': '0006', 'page': 'recto', 'two_cols': True, 'n_regions': 22, 'mixed_regions': 0, 'gold_lines': 35, 'gold_in_mixed': 0}
+{'read_id': '7', 'group': 'G1', 'inv': '3126', 'scan': '0013', 'page': 'recto', 'two_cols': True, 'n_regions': 14, 'mixed_regions': 0, 'gold_lines': 45, 'gold_in_mixed': 0}
+{'read_id': '8', 'group': 'G1', 'inv': '3274', 'scan': '0070', 'page': 'recto', 'two_cols': True, 'n_regions': 16, 'mixed_regions': 0, 'gold_lines': 24, 'gold_in_mixed': 0}
+{'read_id': '9', 'group': 'G1', 'inv': '3254', 'scan': '0009', 'page': 'verso', 'two_cols': True, 'n_regions': 1, 'mixed_regions': 1, 'gold_lines': 80, 'gold_in_mixed': 80}
+{'read_id': '15', 'group': 'G2', 'inv': '3547', 'scan': '0047', 'page': 'verso', 'two_cols': True, 'n_regions': 33, 'mixed_regions': 0, 'gold_lines': 41, 'gold_in_mixed': 0}
+{'read_id': '16', 'group': 'G2', 'inv': '3428', 'scan': '0040', 'page': 'verso', 'two_cols': True, 'n_regions': 9, 'mixed_regions': 1, 'gold_lines': 34, 'gold_in_mixed': 8}
+{'read_id': '17', 'group': 'G2', 'inv': '3630', 'scan': '0031', 'page': 'recto', 'two_cols': True, 'n_regions': 12, 'mixed_regions': 1, 'gold_lines': 59, 'gold_in_mixed': 5}
+{'read_id': '18', 'group': 'G2', 'inv': '3349', 'scan': '0037', 'page': 'verso', 'two_cols': True, 'n_regions': 8, 'mixed_regions': 0, 'gold_lines': 43, 'gold_in_mixed': 0}
+{'read_id': '19', 'group': 'G2', 'inv': '3401', 'scan': '0021', 'page': 'recto', 'two_cols': True, 'n_regions': 12, 'mixed_regions': 0, 'gold_lines': 58, 'gold_in_mixed': 0}
+{'read_id': '25', 'group': 'G3', 'inv': '3439', 'scan': '0156', 'page': 'recto', 'two_cols': True, 'n_regions': 34, 'mixed_regions': 0, 'gold_lines': 86, 'gold_in_mixed': 0}
+{'read_id': '26', 'group': 'G3', 'inv': '3466', 'scan': '0138', 'page': 'recto', 'two_cols': True, 'n_regions': 18, 'mixed_regions': 1, 'gold_lines': 92, 'gold_in_mixed': 19}
+{'read_id': '27', 'group': 'G3', 'inv': '3442', 'scan': '0125', 'page': 'verso', 'two_cols': True, 'n_regions': 15, 'mixed_regions': 0, 'gold_lines': 83, 'gold_in_mixed': 0}
+{'read_id': '28', 'group': 'G3', 'inv': '3408', 'scan': '0047', 'page': 'recto', 'two_cols': True, 'n_regions': 19, 'mixed_regions': 0, 'gold_lines': 39, 'gold_in_mixed': 0}
+{'read_id': '29', 'group': 'G3', 'inv': '3478', 'scan': '0040', 'page': 'recto', 'two_cols': True, 'n_regions': 17, 'mixed_regions': 0, 'gold_lines': 51, 'gold_in_mixed': 0}
+{'read_id': '30', 'group': 'G3', 'inv': '3436', 'scan': '0124', 'page': 'recto', 'two_cols': True, 'n_regions': 21, 'mixed_regions': 0, 'gold_lines': 60, 'gold_in_mixed': 0}
+{'read_id': '34', 'group': 'G4', 'inv': '3712', 'scan': '0143', 'page': 'recto', 'two_cols': True, 'n_regions': 16, 'mixed_regions': 0, 'gold_lines': 63, 'gold_in_mixed': 0}
+{'read_id': '35', 'group': 'G4', 'inv': '4792', 'scan': '0062', 'page': 'recto', 'two_cols': False, 'n_regions': 10, 'mixed_regions': 0, 'gold_lines': 45, 'gold_in_mixed': 0}
+{'read_id': '36', 'group': 'G4', 'inv': '4623', 'scan': '0013', 'page': 'recto', 'two_cols': True, 'n_regions': 14, 'mixed_regions': 0, 'gold_lines': 29, 'gold_in_mixed': 0}
+{'read_id': '37', 'group': 'G4', 'inv': '3107', 'scan': '0046', 'page': 'recto', 'two_cols': True, 'n_regions': 5, 'mixed_regions': 1, 'gold_lines': 38, 'gold_in_mixed': 28}
+E5      all    S  502 C  526 tp  356 fp  54 fn 146 (nounit 38) P 0.8683 R 0.7092 F1 0.7807
+resplit all    S  502 C  526 tp  363 fp  39 fn 139 (nounit 38) P 0.9030 R 0.7231 F1 0.8031
+E5      mixed  S   78 C   59 tp   45 fp  25 fn  33 (nounit  0) P 0.6429 R 0.5769 F1 0.6081
+resplit mixed  S   78 C   59 tp   52 fp  10 fn  26 (nounit  0) P 0.8387 R 0.6667 F1 0.7429
+E5      clean  S  424 C  467 tp  311 fp  29 fn 113 (nounit 38) P 0.9147 R 0.7335 F1 0.8141
+resplit clean  S  424 C  467 tp  311 fp  29 fn 113 (nounit 38) P 0.9147 R 0.7335 F1 0.8141
+E5 excl. nounit S: S  464 C  526 tp  356 fp  54 fn 108 (nounit  0) P 0.8683 R 0.7672 F1 0.8146
+resplit excl. nounit S: S  464 C  526 tp  363 fp  39 fn 101 (nounit  0) P 0.9030 R 0.7823 F1 0.8383
+G1 E5 S  174 C   88 tp  121 fp  15 fn  53 (nounit  0) P 0.8897 R 0.6954 F1 0.7806
+G1 RS S  174 C   88 tp  126 fp   7 fn  48 (nounit  0) P 0.9474 R 0.7241 F1 0.8208
+G2 E5 S  101 C  120 tp   65 fp  12 fn  36 (nounit 32) P 0.8442 R 0.6436 F1 0.7303
+G2 RS S  101 C  120 tp   65 fp   8 fn  36 (nounit 32) P 0.8904 R 0.6436 F1 0.7471
+G3 E5 S  171 C  215 tp  131 fp  17 fn  40 (nounit  6) P 0.8851 R 0.7661 F1 0.8213
+G3 RS S  171 C  215 tp  133 fp  13 fn  38 (nounit  6) P 0.9110 R 0.7778 F1 0.8391
+G4 E5 S   56 C  103 tp   39 fp  10 fn  17 (nounit  0) P 0.7959 R 0.6964 F1 0.7429
+G4 RS S   56 C  103 tp   39 fp  11 fn  17 (nounit  0) P 0.7800 R 0.6964 F1 0.7358
+== post-hoc variants (diagnostic only) ==
+E3reo resplit  P 0.8818 R 0.8765 F1 0.8791 tp 440 fp 59 fn 62 nounit 38
+E4reo resplit  P 0.8646 R 0.8904 F1 0.8773 tp 447 fp 70 fn 55 nounit 38
+E1 orig     P 0.8915 R 0.5239 F1 0.6600 tp 263 fp 32 fn 239 nounit 38
+E1 resplit  P 0.9392 R 0.4920 F1 0.6458 tp 247 fp 16 fn 255 nounit 38
+E2 orig     P 0.9083 R 0.6315 F1 0.7450 tp 317 fp 32 fn 185 nounit 38
+E2 resplit  P 0.9497 R 0.6016 F1 0.7366 tp 302 fp 16 fn 200 nounit 38
+E3 orig     P 0.8527 R 0.8645 F1 0.8586 tp 434 fp 75 fn 68 nounit 38
+E3 resplit  P 0.8818 R 0.8765 F1 0.8791 tp 440 fp 59 fn 62 nounit 38
+E4 orig     P 0.8387 R 0.8805 F1 0.8591 tp 442 fp 85 fn 60 nounit 38
+E4 resplit  P 0.8787 R 0.8944 F1 0.8865 tp 449 fp 62 fn 53 nounit 38
+E5 orig     P 0.8683 R 0.7092 F1 0.7807 tp 356 fp 54 fn 146 nounit 38
+E5 resplit  P 0.9030 R 0.7231 F1 0.8031 tp 363 fp 39 fn 139 nounit 38

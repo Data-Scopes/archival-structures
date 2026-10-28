@@ -1,0 +1,13 @@
+V01 c3=None gap=0 min_run=1: lines P=0.9841 R=0.8383 | sides tp=395 fp=9 fn=287
+V02 c3=None gap=0 min_run=3: lines P=0.9954 R=0.7349 | sides tp=339 fp=3 fn=343
+V03 c3=None gap=4 min_run=1: lines P=0.9798 R=0.8835 | sides tp=461 fp=13 fn=221
+V04 c3=None gap=4 min_run=3: lines P=0.9842 R=0.8336 | sides tp=442 fp=11 fn=240
+V05 c3=None gap=8 min_run=1: lines P=0.9808 R=0.9297 | sides tp=551 fp=13 fn=131
+V06 c3=None gap=8 min_run=3: lines P=0.9857 R=0.9197 | sides tp=547 fp=11 fn=135
+V07 c3=0.3 gap=0 min_run=1: lines P=0.9302 R=0.9408 | sides tp=521 fp=49 fn=161
+V08 c3=0.3 gap=0 min_run=3: lines P=0.9603 R=0.8547 | sides tp=457 fp=28 fn=225
+V09 c3=0.3 gap=4 min_run=1: lines P=0.9225 R=0.9663 | sides tp=619 fp=58 fn=63
+V10 c3=0.3 gap=4 min_run=3: lines P=0.9444 R=0.9472 | sides tp=614 fp=44 fn=68
+V11 c3=0.3 gap=8 min_run=1: lines P=0.9177 R=0.9860 | sides tp=652 fp=63 fn=30
+V12 c3=0.3 gap=8 min_run=3: lines P=0.9374 R=0.9860 | sides tp=652 fp=51 fn=30
+selected V05 0.9808 0.9297

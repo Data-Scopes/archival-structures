@@ -92,6 +92,32 @@ SG_HAND_LAYOUT_PARAMS = {**SG_LAYOUT_PARAMS, "merge": False}
 # Step 15g: type patterns (see docs/text_layer.md, Type tables).
 _TYPE_MONTHS = (r"(jan|feb|febr|maa|maart|maert|mart|apr|april|mei|mey|meij|jun|junij|jul|julij|aug|augti|"
                 r"augt|sep|sept|oct|okt|nov|dec)")
+# Phase 13 P8 (step 19c): an index entry line that starts with a day number and a month abbreviation.
+SG_INDEX_DATE_START = r"\W{0,2}\d{1,2}\s*[.,:]?\s*" + _TYPE_MONTHS
+# Step 19c: index-side detector, variant V05 (col_share >= 0.25, shape >= 0.15, no shape-only arm, gap 8,
+# min_run 1), selected on the GT fit volumes (lines P 0.9808, R 0.9297). Bars D1/D2: see the phase 13 report.
+SG_INDEX_SIDES_V5 = {"col_share_min": 0.25, "shape_min": 0.15, "shape_only_min": None, "gap": 8, "min_run": 1,
+                     "date_pattern": SG_INDEX_DATE_START}
+# Step 19d: index-entry unit rule, variant E5 (cues indent + short_prev: the print rule on index sides), chosen on the
+# 10 dev gold sides (E1-E5 F1 0.770, 0.814, 0.816, 0.820, 0.833). Test (20 sides, once): P 0.868, R 0.709, F1 0.781 vs v4 hand
+# F1 0.616; the entry bar (P >= 0.90, R >= 0.85) FAILED, so no preset uses it yet (UA, see the phase 13 report).
+# Step 19f: column order v2 (phase 13 review, F13-R.7): keep a two-column hand region whole and re-order its lines
+# left column then right column (classed by start x), instead of 19b's pieces. Bar B2: see the phase 13 report.
+# No preset uses it. Written out so the values stay fixed if the defaults change.
+SG_HAND_COLUMN_ORDER_V5 = {"min_lines": 3, "min_gap_frac": 0.25, "max_col_frac": 0.65, "min_col_w_frac": 0.3,
+                           "tol_h": 0.5, "min_overlap_h": 2.0, "max_span_frac": 0.34, "mode": "reorder",
+                           "span_reach_frac": 0.5}
+# Step 19g: a line of only page numbers and punctuation never starts an entry (phase 13 review F13-R.2, F13-R.5).
+SG_INDEX_NO_CUT = r"[\d\s.,:;]+"
+SG_INDEX_ENTRY_V5 = {"cues": ["indent", "short_prev"], "outdent_frac": 0.5, "indent_frac": 0.5, "short_frac": 0.1,
+                     "date_pattern": SG_INDEX_DATE_START}
+# Step 19g (phase 13 review F13-R.2, F13-R.5): entry rule v2, variant X4 = outdent + date_start + end_ref_prev +
+# short_prev, no-cut guard for reference-list lines, and `index`-typed lines of an index side join the mains.
+# Selected on the 30 spent 19a sides (X1-X4 F1 0.880, 0.903, 0.881, 0.904; E5 0.795; v4 hand 0.659). Fresh test (20 sides,
+# once): P 0.953, R 0.897, F1 0.924 vs v4 hand F1 0.501 and E5 0.628; entry bar v2 (P >= 0.90, R >= 0.85) passed.
+SG_INDEX_ENTRY_V5B = {"cues": ["outdent", "date_start", "end_ref_prev", "short_prev"], "outdent_frac": 0.5,
+                      "short_frac": 0.1, "date_pattern": SG_INDEX_DATE_START, "no_cut_pattern": SG_INDEX_NO_CUT,
+                      "main_types": ["main_text", "index"]}
 _TYPE_WEEKDAY = (r"((lun|maen|maan|mart|dins|merc|woens|jov|donder|vene|vry|vrid|sabb|sat|zat|domin|"
                  r"solis|sond|zond)\w*\.?,?\s+)?")
 SG_TYPE_PATTERNS = {
@@ -208,6 +234,15 @@ SG_1_01_02_V4 = dataclasses.replace(
     # UA-026 (b), F12-R.6, P18: in printed 1.01.02 volumes an indent-only cut within 2 main lines of the last
     # kept cut is a line beside a dropped initial, not a paragraph start
     mode_overrides={"print": {"unit_params": {**SG_PRINT_UNIT_PARAMS, "drop_cap_lines": 2}}})
+# Step 19e (phase 13): text layer v5 = v4 + a hand override. Bars: detector D1 P 0.9711 R 0.9490, D2 54/60 (19c);
+# entry rule v2 on fresh gold P 0.9530 R 0.8974 F1 0.9244 vs v4 hand 0.5009 (19g). Not in v5: 19b column split
+# (B1 0.763), 19d E5 (entry bar failed), 19f reorder (B2 0.897; UA-043 (a)).
+SG_1_01_02_V5 = dataclasses.replace(
+    SG_1_01_02_V4, name="NL-HaNA_1.01.02_text_layer_v5",
+    description="NL-HaNA 1.01.02 text layer v5 (v4 + index page sides and index entry units in hand volumes)",
+    mode_overrides={**SG_1_01_02_V4.mode_overrides,
+                    "hand": {"layout_params": {**SG_HAND_LAYOUT_PARAMS, "index_sides": SG_INDEX_SIDES_V5},
+                             "unit_params": {"index_entry": SG_INDEX_ENTRY_V5B}}})
 SG_1_10_94_V4 = dataclasses.replace(
     SG_PRINT_V3, name="NL-HaNA_1.10.94_text_layer_v4",
     description="NL-HaNA 1.10.94 text layer v4 (print mode fixed; box height recorded)",
@@ -216,7 +251,8 @@ SG_1_10_94_V4 = dataclasses.replace(
 
 PRESETS = {"voc_v1": VOC_V1, "sg_1.01.02_v2": SG_HAND_V2, "sg_1.10.94_v2": SG_PRINT_V2,
            "sg_1.01.02_v3": SG_HAND_V3, "sg_1.10.94_v3": SG_PRINT_V3,
-           "sg_1.01.02_v4": SG_1_01_02_V4, "sg_1.10.94_v4": SG_1_10_94_V4}
+           "sg_1.01.02_v4": SG_1_01_02_V4, "sg_1.10.94_v4": SG_1_10_94_V4,
+           "sg_1.01.02_v5": SG_1_01_02_V5}
 
 
 def inventory_preset(preset, mode):

@@ -1,0 +1,61 @@
+read_id	stratum	inv	layer	scan_id	page	n_lines_read	verdict	kind	n_lines	col_share	end_num	date_start	rule	index_side	gold	pred
+1	S1	3478	15y-b	NL-HaNA_1.01.02_3478_0043	verso	7	index	register index	7		0.0	0.2857	0	1	1	1
+2	S1	3498	15y-b	NL-HaNA_1.01.02_3498_0027	recto	17	index	register index (consent by province)	17		0.0	0.0	0	0	1	0
+3	S1	3546	15y-b	NL-HaNA_1.01.02_3546_0014	verso	25	index	chronological index under lemma	25	0.0	0.0	0.2273	0	1	1	1
+4	S1	3463	15z-b	NL-HaNA_1.01.02_3463_0137	verso	62	index	register index	62	0.6724	0.0164	0.2787	1	1	1	1
+5	S2	3487	15y-b	NL-HaNA_1.01.02_3487_0087	recto	36	not index	minuten	36	0.0	0.0	0.0	0	0	0	0
+6	S1	3475	15z-b	NL-HaNA_1.01.02_3475_0146	recto	40	index	register index	40	0.0571	0.0	0.2821	0	1	1	1
+7	S3a	751	15y-b	NL-HaNA_1.01.02_751_0083	recto	33	not index	resolution text	33	0.875	0.0	0.0	0	0	0	0
+8	S1	3439	15z-b	NL-HaNA_1.01.02_3439_0169	recto	26	index	register index	26	0.875	0.04	0.16	1	1	1	1
+9	S1	3520	15y-b	NL-HaNA_1.01.02_3520_0033	recto	17	index	alphabetical repertory	17		0.0	0.0714	0	0	1	0
+10	S1	3525	15y-b	NL-HaNA_1.01.02_3525_0043	recto	14	index	register index	14		0.0	0.1667	0	0	1	0
+11	S1	3354	15y-b	NL-HaNA_1.01.02_3354_0213	recto	68	index	register index	68	0.4906	0.0	0.3385	1	1	1	1
+12	S2	3611	15y-b	NL-HaNA_1.01.02_3611_0031	recto	61	index	register index	61	0.4902	0.2931	0.0	1	1	1	1
+13	S2	3428	15y-b	NL-HaNA_1.01.02_3428_0039	recto	47	index	register index (pensions)	47	0.4348	0.4103	0.0	1	1	1	1
+14	S1	3463	15z-b	NL-HaNA_1.01.02_3463_0114	recto	66	index	register index	66	0.2642	0.0	0.3333	1	1	1	1
+15	S2	3487	15y-b	NL-HaNA_1.01.02_3487_0045	verso	58	index	register index	58	0.4906	0.2143	0.0	1	1	1	1
+16	S3h	46	15y-b	NL-HaNA_1.01.02_46_0162	recto	52	not index	resolution text	52	0.9091	0.0	0.02	0	0	0	0
+17	S1	3712	15y-b	NL-HaNA_1.01.02_3712_0026	verso	79	index	chronological index	79	0.4746	0.0	0.1948	1	1	1	1
+18	S1	3439	15z-b	NL-HaNA_1.01.02_3439_0030	recto	65	index	register index	65	0.74	0.0161	0.4032	1	1	1	1
+19	S1	3351	15y-b	NL-HaNA_1.01.02_3351_0149	recto	41	index	chronological index	41	0.0	0.0	0.125	0	1	1	1
+20	S3a	695	15y-b	NL-HaNA_1.01.02_695_0024	recto	43	not index	resolution text	43	0.0	0.025	0.025	0	0	0	0
+21	S2	3611	15y-b	NL-HaNA_1.01.02_3611_0038	recto	43	index	register index	43	0.4828	0.4474	0.0	1	1	1	1
+22	S3a	695	15y-b	NL-HaNA_1.01.02_695_0122	recto	29	not index	resolution text	29	0.0	0.0	0.0	0	0	0	0
+23	S1	3498	15y-b	NL-HaNA_1.01.02_3498_0128	verso	65	index	chronological index	65	0.4915	0.0	0.0328	0	0	1	0
+24	S3a	11900	15y-b	NL-HaNA_1.01.02_11900_0285	verso	30	not index	letter	30	0.0	0.0	0.0	0	0	0	0
+25	S3h	46	15y-b	NL-HaNA_1.01.02_46_0357	verso	51	not index	resolution text	51	0.9286	0.06	0.0	0	0	0	0
+26	S3h	46	15y-b	NL-HaNA_1.01.02_46_0446	recto	87	not index	resolution text	87	0.2857	0.012	0.012	0	0	0	0
+27	S3a	8287	15y-b	NL-HaNA_1.01.02_8287_0012	verso	23	not index	list	23	0.0	0.4545	0.0	0	0	0	0
+28	S3h	751	15y-b	NL-HaNA_1.01.02_751_0305	recto	20	not index	resolution text	20	0.5625	0.1667	0.0	1	1	0	1
+29	S3h	359	15y-b	NL-HaNA_1.01.02_359_0147	recto	31	not index	resolution text	31	0.7143	0.0357	0.0	0	0	0	0
+30	S3a	11182	15y-b	NL-HaNA_1.01.02_11182_0198	recto	39	not index	resolution text	39	0.0	0.0263	0.0	0	0	0	0
+31	S3h	46	15y-b	NL-HaNA_1.01.02_46_0271	verso	61	not index	resolution text	61	0.875	0.0169	0.0	0	0	0	0
+32	S2	3654	15y-b	NL-HaNA_1.01.02_3654_0059	recto	31	not index	letter	31	0.0	0.0	0.0	0	0	0	0
+33	S2	3455	15y-b	NL-HaNA_1.01.02_3455_0075	verso	37	not index	minuten	37	0.0	0.0	0.0	0	0	0	0
+34	S3h	46	15y-b	NL-HaNA_1.01.02_46_0515	verso	87	index	alphabetical repertory	87	0.5	0.6364	0.0	1	1	1	1
+35	S2	3421	15y-b	NL-HaNA_1.01.02_3421_0099	verso	45	not index	minuten	45	0.0	0.0222	0.0	0	0	0	0
+36	S2	3547	15y-b	NL-HaNA_1.01.02_3547_0075	verso	27	not index	resolution text	27	0.0	0.0	0.0	0	0	0	0
+37	S1	3351	15y-b	NL-HaNA_1.01.02_3351_0162	recto	16	index	chronological index	16		0.0	0.2667	0	1	1	1
+38	S2	3394	15y-b	NL-HaNA_1.01.02_3394_0044	verso	46	not index	minuten	46	0.0	0.0227	0.0	0	0	0	0
+39	S2	3539	15y-b	NL-HaNA_1.01.02_3539_0065	verso	33	not index	minuten	33	0.0	0.0	0.0	0	0	0	0
+40	S3h	46	15y-b	NL-HaNA_1.01.02_46_0457	verso	62	not index	resolution text	62	0.92	0.0	0.0	0	0	0	0
+41	S3h	397	15y-b	NL-HaNA_1.01.02_397_0121	recto	40	not index	resolution text	40	0.7949	0.0	0.0	0	0	0	0
+42	S2	3539	15y-b	NL-HaNA_1.01.02_3539_0074	verso	37	not index	minuten	37	0.0	0.0	0.0	0	0	0	0
+43	S2	3438	15y-b	NL-HaNA_1.01.02_3438_0055	recto	53	not index	minuten	53	0.0	0.0	0.0204	0	0	0	0
+44	S3a	12444	15y-b	NL-HaNA_1.01.02_12444_0047	verso	17	not index	resolution text	17	0.0	0.0	0.0	0	0	0	0
+45	S2	3421	15y-b	NL-HaNA_1.01.02_3421_0070	verso	48	not index	minuten	48	0.0	0.0	0.0	0	0	0	0
+46	S2	3587	15y-b	NL-HaNA_1.01.02_3587_0054	verso	28	not index	minuten	28	0.0	0.0	0.0	0	0	0	0
+47	S2	3444	15y-b	NL-HaNA_1.01.02_3444_0034	verso	51	index	register index	51	0.5128	0.3469	0.0	1	1	1	1
+48	S3a	11436	15y-b	NL-HaNA_1.01.02_11436_0102	recto	32	not index	letter	32	0.0	0.0	0.0	0	0	0	0
+49	S2	3456	15y-b	NL-HaNA_1.01.02_3456_0062	verso	33	not index	minuten	33	0.0	0.0303	0.0	0	0	0	0
+50	S2	3507	15y-b	NL-HaNA_1.01.02_3507_0006	verso	49	index	alphabetical repertory	49	0.4242	0.439	0.0	1	1	1	1
+51	S2	3438	15y-b	NL-HaNA_1.01.02_3438_0016	verso	51	index	alphabetical repertory	51	0.8333	0.5106	0.0	1	1	1	1
+52	S3a	11900	15y-b	NL-HaNA_1.01.02_11900_0190	recto	31	not index	letter	31	0.0	0.0345	0.0	0	0	0	0
+53	S1	3579	15y-b	NL-HaNA_1.01.02_3579_0038	recto	82	index	chronological index	82	0.6154	0.0541	0.527	1	1	1	1
+54	S1	3489	15z-b	NL-HaNA_1.01.02_3489_0045	recto	6	index	register index	6		0.0	0.0	0	1	1	1
+55	S1	3478	15y-b	NL-HaNA_1.01.02_3478_0181	verso	24	index	register index	24	0.7368	0.0	0.2609	1	1	1	1
+56	S1	3489	15z-b	NL-HaNA_1.01.02_3489_0105	verso	24	index	chronological index	24	0.0	0.0	0.4783	0	1	1	1
+57	S3a	11900	15y-b	NL-HaNA_1.01.02_11900_0257	verso	32	not index	treaty text	32	0.0	0.0	0.0	0	0	0	0
+58	S1	3712	15y-b	NL-HaNA_1.01.02_3712_0273	recto	114	index	chronological index	114	0.3529	0.0385	0.1346	0	0	1	0
+59	S3h	4445	15y-b	NL-HaNA_1.01.02_4445_0124	recto	31	not index	minuten	31	0.931	0.0345	0.0	0	0	0	0
+60	S2	3401	15y-b	NL-HaNA_1.01.02_3401_0051	verso	44	not index	resolution text	44	0.0	0.0233	0.0	0	0	0	0

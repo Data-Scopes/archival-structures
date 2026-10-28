@@ -1,0 +1,41 @@
+case	inv	scan_id	region_id	side_class	verdict	kind	note
+01	3438	NL-HaNA_1.01.02_3438_0020	NL-HaNA_1.01.02_3438_0020-text_region-2888-2934-2228-841	index-like	right	index columns	merged first line kept as span piece; left then right
+02	3280	NL-HaNA_1.01.02_3280_0027	NL-HaNA_1.01.02_3280_0027-text_region-2682-569-2296-674	index-like	wrong	index columns	right-column piece placed before left-column piece; head line's continuation (left col) comes after the right col
+03	3455	NL-HaNA_1.01.02_3455_0024	NL-HaNA_1.01.02_3455_0024-text_region-311-397-2013-517	index-like	right	index columns	merged head line, left then right
+04	3444	NL-HaNA_1.01.02_3444_0028	NL-HaNA_1.01.02_3444_0028-text_region-2956-1091-2468-1525	index-like	right	index columns	3 merged lines break left col into 5 pieces, each reads on; right col 2 pieces
+05	3445	NL-HaNA_1.01.02_3445_0068	NL-HaNA_1.01.02_3445_0068-text_region-2811-573-2298-3267	index-like	right	index columns	116 lines, left 55 / merged 1 / right 60
+06	3471	NL-HaNA_1.01.02_3471_0010	NL-HaNA_1.01.02_3471_0010-text_region-359-456-2414-3144	index-like	right	index columns	block order left,right,merged,left,right (design); not column-wise
+07	3459	NL-HaNA_1.01.02_3459_0035	NL-HaNA_1.01.02_3459_0035-text_region-2510-2657-2184-745	index-like	right	index columns	merged head, left, right
+08	3445	NL-HaNA_1.01.02_3445_0099	NL-HaNA_1.01.02_3445_0099-text_region-554-1173-2252-1220	index-like	wrong	index columns, fragments	35 pieces from 45 lines: ordinary left lines that touch the gutter x classed as span (sx pulled left by a stray fragment at x=1716), most pieces 1 line
+09	3471	NL-HaNA_1.01.02_3471_0011	NL-HaNA_1.01.02_3471_0011-text_region-278-1559-2165-757	index-like	right	index columns	merged head, left 6, right 6
+10	3493	NL-HaNA_1.01.02_3493_0050	NL-HaNA_1.01.02_3493_0050-text_region-2463-669-2058-855	index-like	right	index columns	ordinary line 'remorie...' became a 1-line span piece; merged line displaced after left col; columns separated
+11	3351	NL-HaNA_1.01.02_3351_0135	NL-HaNA_1.01.02_3351_0135-text_region-444-262-2425-1904	index-like	wrong	index columns, fragments	13 pieces: ordinary left lines (w~1250, x+w past sx) classed span and stranded as 1-line pieces (e.g. '9 feb: s en Coninck ...')
+12	3254	NL-HaNA_1.01.02_3254_0022	NL-HaNA_1.01.02_3254_0022-text_region-131-92-2360-2778	index-like	right	index columns	one ordinary line ('Prior & Conventualen vande Cathu„', w1163) stranded as 1-line piece, splits left col in 3, order kept
+13	3471	NL-HaNA_1.01.02_3471_0025	NL-HaNA_1.01.02_3471_0025-text_region-2735-1756-2480-1003	index-like	wrong	index columns	order heading, right col (9), left col (3): left-col continuation of the heading comes last
+14	3459	NL-HaNA_1.01.02_3459_0026	NL-HaNA_1.01.02_3459_0026-text_region-397-2737-2425-803	index-like	right	index columns	merged line between left blocks; order left, merged, left, right
+15	3459	NL-HaNA_1.01.02_3459_0013	NL-HaNA_1.01.02_3459_0013-text_region-2792-1204-2456-1464	index-like	right	index columns	merged line splits left col, order kept
+16	3507	NL-HaNA_1.01.02_3507_0024	NL-HaNA_1.01.02_3507_0024-text_region-363-427-2372-735	index-like	right	index columns	merged head, left, right
+17	3433	NL-HaNA_1.01.02_3433_0052	NL-HaNA_1.01.02_3433_0052-text_region-2487-357-2123-3200	index-like	wrong	index columns, fragments	33 pieces from 96 lines, pieces 0-5 of layout col 0 mix right-col top lines with left-col merged lines; ordinary left lines (w~1000) classed span; scrambled order
+18	3522	NL-HaNA_1.01.02_3522_0038	NL-HaNA_1.01.02_3522_0038-text_region-2880-787-2435-573	index-like	right	index columns	number columns, merged head line
+19	3475	NL-HaNA_1.01.02_3475_0160	NL-HaNA_1.01.02_3475_0160-text_region-2881-706-2273-770	index-like	right	index columns	merged line in left col, order kept
+20	3507	NL-HaNA_1.01.02_3507_0010	NL-HaNA_1.01.02_3507_0010-text_region-2332-356-2131-562	index-like	right	index columns	'4.' (w173) stray 1-line piece
+21	3444	NL-HaNA_1.01.02_3444_0356	NL-HaNA_1.01.02_3444_0356-text_region-487-2890-2386-973	other	right	margin column	minuten half-page, margin pieces after main; merged lines kept as span pieces
+22	3315	NL-HaNA_1.01.02_3315_0224	NL-HaNA_1.01.02_3315_0224-text_region-353-2913-2101-940	other	right	margin column	margin piece first, then merged heading line, then main
+23	3459	NL-HaNA_1.01.02_3459_0568	NL-HaNA_1.01.02_3459_0568-text_region-529-2598-2374-1259	other	wrong	margin column	last margin line 'gelragt' stranded as piece 0 before the main text; margin otherwise after main
+24	3507	NL-HaNA_1.01.02_3507_0579	NL-HaNA_1.01.02_3507_0579-text_region-2867-756-1783-2264	other	right	margin column	margin pieces first, merged line in main flow
+25	3522	NL-HaNA_1.01.02_3522_0591	NL-HaNA_1.01.02_3522_0591-text_region-578-2553-2292-1370	other	wrong	margin column, fragments	margin in 4 pieces, main with stranded 1-line ordinary pieces ('Is ter vergaderinge...', 'Decken en Capittel ...')
+26	3520	NL-HaNA_1.01.02_3520_0004	NL-HaNA_1.01.02_3520_0004-text_region-365-247-2231-3619	other	unreadable input	margin column	HTR garbled in nearly all lines
+27	3349	NL-HaNA_1.01.02_3349_0577	NL-HaNA_1.01.02_3349_0577-text_region-3301-697-2388-1903	other	unclear	bilingual	9 of 27 lines are merged Dutch+French lines kept as one span piece; Dutch tail 'reert.' last; split correct for the rest but result still mixes languages
+28	3630	NL-HaNA_1.01.02_3630_0023	NL-HaNA_1.01.02_3630_0023-text_region-295-376-2269-812	other	right	margin column	merged head, left 6, right 5
+29	3456	NL-HaNA_1.01.02_3456_0146	NL-HaNA_1.01.02_3456_0146-text_region-772-3219-2289-660	other	right	margin column	margin 4+1, main 4 + merged
+30	3522	NL-HaNA_1.01.02_3522_0227	NL-HaNA_1.01.02_3522_0227-text_region-3046-2955-2265-978	other	right	margin column	margin first, main, merged, main
+31	3444	NL-HaNA_1.01.02_3444_0031	NL-HaNA_1.01.02_3444_0031-text_region-578-481-2382-420	other	right	index columns	merged head, left, right (small)
+32	3522	NL-HaNA_1.01.02_3522_0544	NL-HaNA_1.01.02_3522_0544-text_region-983-2105-2334-1859	other	right	margin column	main first, margin last (layout col 1)
+33	3712	NL-HaNA_1.01.02_3712_0106	NL-HaNA_1.01.02_3712_0106-text_region-653-315-1872-1390	other	right	margin column	heading, left 15, right 20 (two text columns)
+34	3455	NL-HaNA_1.01.02_3455_0050	NL-HaNA_1.01.02_3455_0050-text_region-441-1034-1906-745	other	right	index columns	merged line between blocks, order kept
+35	3507	NL-HaNA_1.01.02_3507_0497	NL-HaNA_1.01.02_3507_0497-text_region-913-388-1812-2632	other	right	margin column	margin pieces first, merged lines in main flow
+36	3254	NL-HaNA_1.01.02_3254_0382	NL-HaNA_1.01.02_3254_0382-text_region-2516-1770-2295-2130	other	right	bilingual/letter columns	two columns of a letter; 3 merged lines at the foot
+37	3308	NL-HaNA_1.01.02_3308_0316	NL-HaNA_1.01.02_3308_0316-text_region-2570-2468-2417-1302	other	right	margin column	margin first, merged line in main flow
+38	3193	NL-HaNA_1.01.02_3193_0177	NL-HaNA_1.01.02_3193_0177-text_region-2632-552-2176-1275	other	wrong	index columns, fragments	left col in 5 pieces; right col pieces 6,8 (y1257-1743) come before pieces 9,10 (y554-937): right col out of order
+39	3712	NL-HaNA_1.01.02_3712_0032	NL-HaNA_1.01.02_3712_0032-text_region-708-452-2517-900	other	right	minuten half-page	left col, then merged heading (displaced after left col), then right col
+40	3199	NL-HaNA_1.01.02_3199_0162	NL-HaNA_1.01.02_3199_0162-text_region-327-524-2509-918	other	wrong	minuten half-page	order: full-width 3, right col 5, left line, left col 8, left tail: columns interleaved in layout order

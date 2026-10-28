@@ -543,7 +543,7 @@ and the systematic index of the commissieboeken 12297; to `print` (5/5 printed, 
 merged-line splitter but does not cut at the entries (on the first read scan of the 13 volumes pinned `hand` in 15z, 5 are worse than the print build, 3 mixed, 4 same, 1 better; 3436,
 3445, 3466, 3469 and 3472 lose 26-50% of their date-starting units; F12-15y.5, F12-15z.3); entries are merged, not cut in words. The cause is the hand unit rule (one unit per PageXML region), and the hand layout keeps a
 region that spans two columns in XML order, so 1.4% of the units of these volumes interleave two columns (0.07% in their print
-builds; F12-R.21, F12-R.22). Of the 16 pins, only 3463 is in the published v4 pilot (pinned there since 2026-10-27, UA-038).
+builds; F12-R.21, F12-R.22). Of the 16 pins, only 3463 is in the published v4 pilot (pinned there since 2026-10-27, UA-038). The unit cut at the entries is built in v5 (see *Text layer v5 (phase 13)*).
 
 ### Rebuilding pinned volumes (step 15y)
 
@@ -582,6 +582,48 @@ an external drive and audits the result; its docstring lists what to stage. Run 
 No `--republic-dir` for 1.01.02 (the crosswalk matches 0.5% of its lines); the units stage then logs one REPUBLIC warning for
 the print-mode inventories. The audit (`reports/data/phase-12-hand-print-box-height/step-15w/audit.py`) discovers its
 inventories and checks the phase-09 invariants plus, for layers with `mode/`, the v4 ones.
+
+## Text layer v5 (phase 13)
+
+v5 of 1.01.02 is v4 plus a hand override. In v4 a `hand` unit is one PageXML region, so on index pages many entries
+merged into one unit (F12-R.21, F12-R.22). v5 finds the index page sides and cuts their hand units at the entries.
+Preset `sg_1.01.02_v5` (`presets.SG_1_01_02_V5`) differs from `sg_1.01.02_v4` only in `mode_overrides["hand"]`:
+`layout_params` = `SG_HAND_LAYOUT_PARAMS` + `"index_sides": SG_INDEX_SIDES_V5` and `unit_params` =
+`{"index_entry": SG_INDEX_ENTRY_V5B}`. Print volumes, the mode decision (`volume_mode`, pins) and every other stage are
+v4's: all 106 print inventories of the dev build are equal to v4 in every per-inventory file. 1.10.94 has no v5.
+
+**Rules in v5**
+- *Index-side detector* (`LayoutParams.index_sides`, `SG_INDEX_SIDES_V5`; step 19c): a page side is an index side if
+  `col_share >= 0.25` and `max(end_num, date_start) >= 0.15` (`shape_min` 0.15, no shape-only arm, date pattern
+  `SG_INDEX_DATE_START`), then gaps of up to 8 sides between flagged sides are filled (`gap` 8, `min_run` 1). Bars: D1 on
+  the GT volumes P 0.9711, R 0.9490; D2 54 of 60 read sides (on its bar). The result is the table `layout/pages/`
+  (hand inventories only): columns `scan_id, page, n_lines, n_text8, n_text20, col_share, end_num, date_start, rule,
+  index_side`; `rule` = the side rule (1/0), `index_side` = after the gap fill (`"1"` = flagged).
+- *Index entry rule v2* (`UnitParams.index_entry`, `SG_INDEX_ENTRY_V5B`; step 19g): on flagged sides a unit is cut at
+  the cues `outdent`, `date_start`, `end_ref_prev` (the previous line ends in a page number) and `short_prev`, a line of only
+  page numbers and punctuation (`no_cut_pattern`) never starts an entry, and `index`-typed lines join the main lines
+  (`main_types`). Unit methods: `hand:index_start` (first unit of a side) and `hand:index:<cue>+<cue>`. On flagged sides
+  `index`-typed lines are therefore in `main_text` units, while `types/segments` keeps `line_type` `index`. Bar on 20 fresh
+  index sides (read before any code ran): P 0.9530, R 0.8974, F1 0.9244 against 0.5009 for v4 hand units (bar P >= 0.90,
+  R >= 0.85: passed).
+- *Left out*: 19b's column split (B1 0.763, failed), 19d's rule E5 (entry bar failed), 19f's column reorder (B2 35/39 =
+  0.897, failed; UA-043 (a): not shipped; `SG_HAND_COLUMN_ORDER_V5` exists but no preset uses it).
+
+**Build.** `.venv/bin/python scripts/run_text_layer_v4_full.py --version v5 --only 1.01.02 --src 1.01.02=<dir> ...
+--work-dir <dir> --out-dir <dir>` (`--version` default `v4`; `ARCHIVES_BY_VERSION`; the throughput constants stay v4's).
+Dev build `data/text_layer_v2_dev/19e-a` (231 volumes: 125 hand, 106 print; 4 workers, 60 min).
+
+**v4 to v5 (dev build).** In the 125 hand volumes `lines/`, `scans/`, `regions_meta/`, `mode/`, `extract_stats/`,
+`layout/{scans,regions,lines}` and `types/` are equal to v4; new: `layout/pages/`; `units/` and `join/`, `wbc/parts` differ
+(the units equal the 19g clones). 8,873 of 115,274 sides are flagged (363,998 of 4,655,693 lines). `main_text`
+units on flagged sides double, 80,344 to 162,021; `index` units on flagged sides 2,789 to 0; units elsewhere are unchanged.
+Interleaved units: 728 of 481,391 `main_text` units (0.15%) against 2,612 of 399,714 in v4 (0.65%): the entries are cut
+before the columns can interleave.
+
+**Known limits.** Entries are cut after an amount or a short cross-reference line (F13-19g.4); entry starts in lines typed
+`marginalia` on fragmented sides are in no main unit (F13-19g.3, F13-R.12); a detector false positive cuts that side at entry
+cues (a regiment roster with page numbers, 4831: 10 flagged sides; account pages; a garbled scan, 11930); one-column and
+garbled indexes are missed (F13-19c.5); a `date_header` unit followed by its entry is one entry; gutter-merged lines remain.
 
 ## Published SG pilot (text_layer_v2)
 
@@ -668,7 +710,12 @@ a reader that counts `line_type` `page_number` sees fewer (print bottom 367, yea
 
 **Print builds need `--republic-dir`.** Without it a print build logs a warning and writes no `units/republic_lines/`
 (step 15k removed the default path). Point it at REPUBLIC's `paragraphs-<inv>.tsv.gz` (today only in LotA
-`data/paragraphs/NL-HaNA_1.10.94/`; UA-015 asks for a `shared-data` dataset).
+`data/paragraphs/NL-HaNA_1.10.94/`; UA-015 asks for a `shared-data` dataset). Since 2026-10-28 `shared-data/NL-HaNA_1.10.94/
+republic_segmentation_v1/` (republic-segmentation; see `docs/from-republic-segmentation.md`) has paragraphs of 455 and 456
+with first and last line ids, as Parquet. `--republic-dir` does not read it yet: it is another segmentation (C07d.1, with
+new `rs1-` ids where units changed) than the 2026-03 export the crosswalk was checked on, and its line ids are not yet
+checked against the `<scan_id>-line-x-y-w-h` form. Like every REPUBLIC label, it is for scoring and crosswalks, never a
+feature.
 
 **Quality against the pilot code (`15ir-a` to `15m-a`).** The audit passes 178 of 182 invariants in both; the same four
 lower-case merge shares stay below 0.95 (3351 0.9415, 3823 0.9414, 455 0.9477, 456 0.932; 455 was 0.892). The 116

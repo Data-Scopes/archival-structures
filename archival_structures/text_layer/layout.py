@@ -22,8 +22,9 @@ from pagexml.model.coords import Baseline
 from archival_structures.analysis.page_structure import (
     PAGE_SINGLE, LayoutParams, assign_column_roles, choose_gutter_rule, find_separation_x,
     fit_gutter, furniture_region_ids, group_regions_into_columns, hull_coords,
-    inventory_line_width_rel, is_opening, merge_overlapping_text_regions, split_regions_on_line_field, sort_lines,
+    inventory_line_width_rel, is_opening, merge_overlapping_text_regions, split_regions_on_line_field, split_regions_into_columns, sort_lines,
     split_scan_into_pages)
+from archival_structures.analysis.index_pages import fill_runs, side_features, side_rule
 from archival_structures.text_layer.extract_v2 import legacy_doc_id
 from archival_structures.text_layer.io import read_tsv_gz, write_tsv_gz
 
@@ -46,6 +47,8 @@ UNION_KEYS = ("source_region_ids",)
 
 def _region_id(scan_id, coords):
     return legacy_doc_id(scan_id, coords.box)
+PAGE_COLUMNS = ["scan_id", "page", "n_lines", "n_text8", "n_text20", "col_share", "end_num", "date_start",
+                "rule", "index_side"]   # step 19c: layout/pages/<inv>.tsv.gz, only with params.index_sides
 PAGE_ORDER = {"verso": 0, "recto": 1, PAGE_SINGLE: 0}
 
 
@@ -76,9 +79,12 @@ def _page_coords(page_name, separation_x, page_w, page_h):
 
 
 def _change(region):
-    """``unchanged`` or the ``+``-join of ``merged``, ``split_at_gutter``, ``split_at_column``."""
+    """``unchanged`` or the ``+``-join of ``merged``, ``split_at_gutter``, ``split_at_column``, ``column_reordered``."""
     parts = [name for key, name in (("merged_from", "merged"), ("split_from", "split_at_gutter"),
-                                    ("column_split_from", "split_at_column"))
+                                    ("column_split_from", "split_at_column"),
+                                    # step 19f (phase 13 review, F13-R.7): B1 failed on extent-based span
+                                    # lines and piece order; reorder keeps one region and one unit
+                                    ("column_reorder_from", "column_reordered"))
              if region.metadata.get(key)]
     return "+".join(parts) or "unchanged"
 
@@ -135,6 +141,10 @@ def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params, *,
                 page_regions, params.split_on_line_field, id_fn=_region_id,
                 sort_lines=params.sort_split_lines, row_tol_frac=row_tol)
             n_column_splits += n_cs
+        if params.hand_column_split is not None:   # step 19b
+            page_regions, n_hs = split_regions_into_columns(
+                page_regions, params.hand_column_split, id_fn=_region_id, row_tol_frac=row_tol)
+            n_column_splits += n_hs
         bottom = max((l.coords.y + l.coords.h for r in page_regions for l in r.lines), default=0)
         furniture = furniture_region_ids(page_regions, bottom, page_h, params)
         n_furniture += len(furniture)
@@ -208,6 +218,24 @@ def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params, *,
     return scan_out, out_regions, line_out, passes
 
 
+def _write_pages_table(path, line_rows, line_map, cfg) -> int:
+    """Per page side features, rule and filled index flag (step 19c); returns the number of index sides."""
+    sides = defaultdict(list)
+    for l in line_rows:
+        sides[(l["scan_id"], line_map[(l["scan_id"], l["line_id"])]["page"])].append(l)
+    keys = sorted(sides, key=lambda k: (int(k[0].rsplit("_", 1)[1]), PAGE_ORDER[k[1]], k[1]))
+    feats = [side_features(sides[k], cfg) for k in keys]
+    rules = [side_rule(f, cfg) for f in feats]
+    flags = fill_runs(rules, cfg.get("gap", 0), cfg.get("min_run", 1))
+
+    def num(v):
+        return "" if v is None else str(round(v, 4))
+    rows = [[k[0], k[1], f["n_lines"], f["n_text8"], f["n_text20"], num(f["col_share"]), num(f["end_num"]),
+             num(f["date_start"]), int(r), int(x)] for k, f, r, x in zip(keys, feats, rules, flags)]
+    write_tsv_gz(path, PAGE_COLUMNS, rows)
+    return sum(flags)
+
+
 def layout_inventory(inv, layer_root, params: LayoutParams = LayoutParams()) -> dict:
     """Write the ``layout/`` tables of one inventory; return its stats."""
     start = time.monotonic()
@@ -258,6 +286,11 @@ def layout_inventory(inv, layer_root, params: LayoutParams = LayoutParams()) -> 
     write_tsv_gz(out / "lines" / f"{inv}.tsv.gz", LAYOUT_LINE_COLUMNS,
                  ([r[c] for c in LAYOUT_LINE_COLUMNS] for r in out_lines))
 
+    n_index_sides = None
+    if params.index_sides is not None:   # step 19c
+        n_index_sides = _write_pages_table(out / "pages" / f"{inv}.tsv.gz", line_rows, line_map,
+                                           params.index_sides)
+
     sums = Counter()
     for r in scan_out:
         for k in ("n_lines_crossing", "n_regions_in", "n_regions_out", "n_merges", "n_gutter_splits",
@@ -285,5 +318,7 @@ def layout_inventory(inv, layer_root, params: LayoutParams = LayoutParams()) -> 
         "n_scans_with_gap": n_with_gap,
         "n_landscape_scans": len(landscape),
     }
+    if n_index_sides is not None:
+        stats["n_index_sides"] = n_index_sides
     stats["seconds"] = round(time.monotonic() - start, 3)
     return stats

@@ -1,0 +1,107 @@
+                             sides  flagged    lines  flagged_lines  volumes  vols_with_flags
+group                                                                                        
+GT volumes                   48471     1251  2202877          46833       42               22
+half-year registers >= 3349  41645     6936  1623284         278136       46               46
+other (< 3349)                4397       58   156770           5084       10                5
+other (> 3600)               20761      628   672762          33945       27               13
+  inv                       group  sides  flagged  lines  flagged_lines first_scan last_scan
+   46              other (< 3349)   1037       54  60028           4955        500       527
+  359              other (< 3349)    356        1  10242             42        129       129
+  695              other (< 3349)    567        1  15337             41        326       326
+  751              other (< 3349)    538        1  13793             20        305       305
+  882              other (< 3349)    288        1   7108             26         56        56
+ 3104                  GT volumes    363       72  16279           2759        151       188
+ 3107                  GT volumes     77       30   1127            581          4        61
+ 3126                  GT volumes    723       27  27025           1201          4        17
+ 3127                  GT volumes     62       25   1085            542          6        51
+ 3199                  GT volumes   1603        6  77822            140        140       142
+ 3221                  GT volumes   1194        1  67139             74        206       206
+ 3254                  GT volumes   1233       48  74901           3888          4        28
+ 3256                  GT volumes   1363       43  80862           4093          4        25
+ 3265                  GT volumes   1732       84 108837           4356          4        46
+ 3274                  GT volumes   1656      146  87645           3873          6        78
+ 3280                  GT volumes   1026       80  51272           2709          5        45
+ 3283                  GT volumes   1697       79  83615           3470          4        43
+ 3290                  GT volumes   1517      110  62993           2836          5        64
+ 3303                  GT volumes   1114       59  45544           2046          3        32
+ 3307                  GT volumes   1347       58  54267           1672          5       333
+ 3308                  GT volumes   1182       47  46883           1585          3        26
+ 3315                  GT volumes   1475       67  57729           1791          5       490
+ 3320                  GT volumes   2048       70  80688           3116          3       337
+ 3349 half-year registers >= 3349   1913       61  91897           3247          5        39
+ 3350 half-year registers >= 3349   1770       46  84627           2517          6        33
+ 3351 half-year registers >= 3349    343      332  12581          12493          4       215
+ 3352 half-year registers >= 3349   2043       54  96495           2754          2        36
+ 3353 half-year registers >= 3349   1826       51  84706           2599          4       372
+ 3354 half-year registers >= 3349    319      295  11146          10685          5       213
+ 3368 half-year registers >= 3349   1833       58  83552           3057          6        34
+ 3394 half-year registers >= 3349   1530       40  70454           1898          6        25
+ 3401 half-year registers >= 3349   1248       53  60892           3061          3        29
+ 3408 half-year registers >= 3349    147      121   3554           3053          4        82
+ 3421 half-year registers >= 3349   1374      110  63041           5744          4        59
+ 3428 half-year registers >= 3349   1231      102  54555           4945          5        55
+ 3433 half-year registers >= 3349    258      209   8621           7932          5       139
+ 3436 half-year registers >= 3349    260      245   8666           8511          4       140
+ 3438 half-year registers >= 3349   1008       78  44761           3999          5        43
+ 3439 half-year registers >= 3349    320      313  13613          13430          3       181
+ 3442 half-year registers >= 3349    319      305  14079          13941          4       183
+ 3444 half-year registers >= 3349   1027       81  46180           4318          5        45
+ 3445 half-year registers >= 3349    315      278  11741          11137          4       183
+ 3455 half-year registers >= 3349   1271       91  48855           4407          4        49
+ 3456 half-year registers >= 3349   1144       85  44463           4249          3        45
+ 3459 half-year registers >= 3349   1293       82  49138           3848          5        45
+ 3463 half-year registers >= 3349    323      300  11624          11301          3       178
+ 3466 half-year registers >= 3349    335      300  13652          13095          4       185
+ 3469 half-year registers >= 3349    345      306  12220          11714          4       186
+ 3471 half-year registers >= 3349   1021      107  41393           5304          3        56
+ 3472 half-year registers >= 3349    342      294  10083           9475          4       189
+ 3475 half-year registers >= 3349    362      329  15683          15194          5       193
+ 3478 half-year registers >= 3349    350      298  11149          10568          7       197
+ 3487 half-year registers >= 3349   1270      114  51199           5447          4        61
+ 3489 half-year registers >= 3349    340      246   7638           6843          4       196
+ 3492 half-year registers >= 3349    352      296  11070          10290          4       195
+ 3493 half-year registers >= 3349   1033      101  42015           4941          3        53
+ 3498 half-year registers >= 3349    209        2   6569            127         16        84
+ 3507 half-year registers >= 3349   1235       90  47122           4054          3        48
+ 3520 half-year registers >= 3349    201        1   3956             62        101       101
+ 3522 half-year registers >= 3349   1193       90  45340           3669          4        49
+ 3523 half-year registers >= 3349    217        8   4336            133        101       123
+ 3525 half-year registers >= 3349    203        4   4057            137         39        99
+ 3539 half-year registers >= 3349   1477       80  50240           3664          4        44
+ 3546 half-year registers >= 3349    335      281   8931           8365          4       209
+ 3547 half-year registers >= 3349   1782      107  58415           4512          4        57
+ 3572 half-year registers >= 3349   1460       71  44511           2698          4        40
+ 3579 half-year registers >= 3349    317      251   8080           7188          4       205
+ 3587 half-year registers >= 3349   1758       85  48647           3770          4        46
+ 3590 half-year registers >= 3349   2393       85  57737           3760          4        46
+ 3611              other (> 3600)   2059      114  67628           5391          4        61
+ 3623              other (> 3600)   2157      167  73477           7903          3        86
+ 3630              other (> 3600)   1908      104  64158           5244          3        55
+ 3712              other (> 3600)    533      130  33261           8791          6       335
+ 3726              other (> 3600)     12        7    799            697          4         7
+ 4170              other (> 3600)    378        1   6874             18          9         9
+ 4617                  GT volumes     78       68   2479           2291          4        81
+ 4623                  GT volumes     83       63   1884           1635         10        94
+ 4792                  GT volumes    121       58   2372           1613          4        78
+ 4831                  GT volumes    713       10  33868            562         19        24
+ 8287              other (> 3600)    125        1   2257             23          7         7
+ 8706              other (> 3600)    569       15  15064            629        167       181
+11182              other (> 3600)   1466        5  57508            288        134       529
+11220              other (> 3600)    523        1  24157             44        154       154
+11281              other (> 3600)   2193        1  78030             32        584       584
+11930              other (> 3600)    994        1  26753             35        399       399
+12297              other (> 3600)     89       81   4952           4850          4        57
+
+volumes with >= 800 sides and < 50% of sides flagged (front index section of registers):
+       inv  front_first_scan front_last_scan  front_sides  flagged_outside_front
+count   34              34.0              34    34.000000              34.000000
+min    NaN               NaN             NaN     0.000000               0.000000
+max    NaN               NaN             NaN   167.000000              17.000000
+mean   NaN               NaN             NaN    66.529412               1.529412
+volumes with flags outside the front run: 5 of 34 ; total outside sides: 52
+  inv front_first_scan front_last_scan  front_sides  flagged_outside_front
+ 3349                5              26           44                     17
+ 3350                6              24           37                      9
+ 3352                2              22           41                     13
+ 3353                4              24           40                     11
+11182              134             135            3                      2

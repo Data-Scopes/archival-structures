@@ -1,0 +1,203 @@
+{
+ "n_volumes_with_silver": 27,
+ "n_hand": 125,
+ "total": {
+  "silver_negatives": 34428,
+  "flagged": 18,
+  "by_rule": 8,
+  "by_gapfill": 10,
+  "unmatched": 0
+ },
+ "parity_unmatched": 0,
+ "per_volume": {
+  "3099": {
+   "silver_negatives": 905,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3104": {
+   "silver_negatives": 285,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3122": {
+   "silver_negatives": 1366,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3126": {
+   "silver_negatives": 693,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3138": {
+   "silver_negatives": 1456,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3144": {
+   "silver_negatives": 1900,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3154": {
+   "silver_negatives": 1789,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3164": {
+   "silver_negatives": 838,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3166": {
+   "silver_negatives": 711,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3175": {
+   "silver_negatives": 1865,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3180": {
+   "silver_negatives": 1230,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3190": {
+   "silver_negatives": 1411,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3192": {
+   "silver_negatives": 1533,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3193": {
+   "silver_negatives": 1271,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3254": {
+   "silver_negatives": 1183,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3256": {
+   "silver_negatives": 1319,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3265": {
+   "silver_negatives": 1647,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3274": {
+   "silver_negatives": 1506,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3280": {
+   "silver_negatives": 941,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3283": {
+   "silver_negatives": 1617,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3290": {
+   "silver_negatives": 1395,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3303": {
+   "silver_negatives": 1055,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3307": {
+   "silver_negatives": 1285,
+   "flagged": 1,
+   "by_rule": 1,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3308": {
+   "silver_negatives": 1133,
+   "flagged": 0,
+   "by_rule": 0,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "3315": {
+   "silver_negatives": 1406,
+   "flagged": 5,
+   "by_rule": 3,
+   "by_gapfill": 2,
+   "unmatched": 0
+  },
+  "3320": {
+   "silver_negatives": 1975,
+   "flagged": 2,
+   "by_rule": 2,
+   "by_gapfill": 0,
+   "unmatched": 0
+  },
+  "4831": {
+   "silver_negatives": 713,
+   "flagged": 10,
+   "by_rule": 2,
+   "by_gapfill": 8,
+   "unmatched": 0
+  }
+ }
+}

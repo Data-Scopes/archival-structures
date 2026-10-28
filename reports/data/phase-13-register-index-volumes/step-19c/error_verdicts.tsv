@@ -1,0 +1,33 @@
+kind	inv	scan_id	page	category	note
+FP	3320	NL-HaNA_1.01.02_3320_0337	recto	FP list with figures	"account page (amounts ""13: 4:"" in a right column); end_num 0.2, col_share 0.36"
+FP	3320	NL-HaNA_1.01.02_3320_0337	verso	FP list with figures	account page, two text columns with amounts; end_num 0.15, col_share 0.5
+FP	4831	NL-HaNA_1.01.02_4831_0019	recto	FP list with page refs	"officer roster (names + ""89, 1264."" refs) in resolution volume; rule fired (col_share 0.32-0.33, end_num 0.53-0.72)"
+FP	4831	NL-HaNA_1.01.02_4831_0020	recto	FP gap fill across non-index page	single-column roster side with end_num 0.45-0.94, col_share <0.1; rule 0, flagged by gap fill (8 sides between two rule sides)
+FP	4831	NL-HaNA_1.01.02_4831_0020	verso	FP gap fill across non-index page	single-column roster side with end_num 0.45-0.94, col_share <0.1; rule 0, flagged by gap fill (8 sides between two rule sides)
+FP	4831	NL-HaNA_1.01.02_4831_0021	recto	FP gap fill across non-index page	single-column roster side with end_num 0.45-0.94, col_share <0.1; rule 0, flagged by gap fill (8 sides between two rule sides)
+FP	4831	NL-HaNA_1.01.02_4831_0021	verso	FP gap fill across non-index page	single-column roster side with end_num 0.45-0.94, col_share <0.1; rule 0, flagged by gap fill (8 sides between two rule sides)
+FP	4831	NL-HaNA_1.01.02_4831_0022	recto	FP gap fill across non-index page	single-column roster side with end_num 0.45-0.94, col_share <0.1; rule 0, flagged by gap fill (8 sides between two rule sides)
+FP	4831	NL-HaNA_1.01.02_4831_0022	verso	FP gap fill across non-index page	single-column roster side with end_num 0.45-0.94, col_share <0.1; rule 0, flagged by gap fill (8 sides between two rule sides)
+FP	4831	NL-HaNA_1.01.02_4831_0023	recto	FP gap fill across non-index page	single-column roster side with end_num 0.45-0.94, col_share <0.1; rule 0, flagged by gap fill (8 sides between two rule sides)
+FP	4831	NL-HaNA_1.01.02_4831_0023	verso	FP gap fill across non-index page	single-column roster side with end_num 0.45-0.94, col_share <0.1; rule 0, flagged by gap fill (8 sides between two rule sides)
+FP	4831	NL-HaNA_1.01.02_4831_0024	verso	FP list with page refs	"officer roster (names + ""89, 1264."" refs) in resolution volume; rule fired (col_share 0.32-0.33, end_num 0.53-0.72)"
+FN	3127	NL-HaNA_1.01.02_3127_0042	recto	FN sparse index page (col_share unmeasured)	real index entries with page numbers; <15 lines of >=20 chars so col_share None
+FN	3274	NL-HaNA_1.01.02_3274_0005	recto	FN sparse index page (col_share unmeasured)	real index entries with page numbers; <15 lines of >=20 chars so col_share None
+FN	3127	NL-HaNA_1.01.02_3127_0016	recto	FN sparse index page (col_share unmeasured)	real index entries with page numbers; <15 lines of >=20 chars so col_share None
+FN	3127	NL-HaNA_1.01.02_3127_0011	verso	FN sparse index page (col_share unmeasured)	real index entries with page numbers; <15 lines of >=20 chars so col_share None
+FN	3127	NL-HaNA_1.01.02_3127_0008	recto	FN single-column dense index page	real index entries ending in page numbers (end_num 0.8-0.97) but one column of short entries per side (col_share 0-0.19)
+FN	3127	NL-HaNA_1.01.02_3127_0005	verso	FN single-column dense index page	real index entries ending in page numbers (end_num 0.8-0.97) but one column of short entries per side (col_share 0-0.19)
+FN	4617	NL-HaNA_1.01.02_4617_0089	verso	FN single-column index book (4617 style)	chronological summary under a lemma, dates mid-line, no line-end numbers; one column
+FN	3127	NL-HaNA_1.01.02_3127_0009	verso	FN single-column dense index page	real index entries ending in page numbers (end_num 0.8-0.97) but one column of short entries per side (col_share 0-0.19)
+FN	3127	NL-HaNA_1.01.02_3127_0012	recto	FN single-column dense index page	real index entries ending in page numbers (end_num 0.8-0.97) but one column of short entries per side (col_share 0-0.19)
+FN	3127	NL-HaNA_1.01.02_3127_0034	recto	FN single-column dense index page	real index entries ending in page numbers (end_num 0.8-0.97) but one column of short entries per side (col_share 0-0.19)
+FN	3274	NL-HaNA_1.01.02_3274_0079	verso	FN sparse index page (col_share unmeasured)	real index entries with page numbers; <15 lines of >=20 chars so col_share None
+FN	4617	NL-HaNA_1.01.02_4617_0003	recto	FN single-column index book (4617 style)	chronological summary under a lemma, dates mid-line, no line-end numbers; one column
+FN	3127	NL-HaNA_1.01.02_3127_0015	verso	FN single-column dense index page	real index entries ending in page numbers (end_num 0.8-0.97) but one column of short entries per side (col_share 0-0.19)
+FN	3290	NL-HaNA_1.01.02_3290_0049	verso	FN sparse index page (col_share unmeasured)	real index entries with page numbers; <15 lines of >=20 chars so col_share None
+FN	3127	NL-HaNA_1.01.02_3127_0040	recto	FN single-column dense index page	real index entries ending in page numbers (end_num 0.8-0.97) but one column of short entries per side (col_share 0-0.19)
+FN	3127	NL-HaNA_1.01.02_3127_0044	recto	FN single-column dense index page	real index entries ending in page numbers (end_num 0.8-0.97) but one column of short entries per side (col_share 0-0.19)
+FN	3127	NL-HaNA_1.01.02_3127_0006	verso	FN GT label / blank page	5 stray tokens, no index text; labelled index_page by GT
+FN	3274	NL-HaNA_1.01.02_3274_0005	verso	FN sparse index page (col_share unmeasured)	real index entries with page numbers; <15 lines of >=20 chars so col_share None
+FN	4617	NL-HaNA_1.01.02_4617_0085	verso	FN single-column index book (4617 style)	chronological summary under a lemma, dates mid-line, no line-end numbers; one column
+FN	3290	NL-HaNA_1.01.02_3290_0004	recto	FN GT label / title page	"title page ""Index van haar Hoogh Mo. resolutien ... 1674"" labelled index_page by GT"

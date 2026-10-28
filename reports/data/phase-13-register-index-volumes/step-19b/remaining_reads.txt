@@ -1,0 +1,220 @@
+
+#### unit 01 inv 46 NL-HaNA_1.01.02_46_0335-text_region-2310-153-2210-3394
+-- source regions 1, their lines 68; guard: gap 281 < 0.25*W (2210)
+   3328   153  1053 | Is Anbries Palmart, wooment alhier jaen
+   3337   221  1078 | hugesgeaccdeert Octroy voer den tyt van
+   3346   277  1000 | acht qrez ntestement allee int
+   3363   347  1051 | geeriche neverwanden te moegen meten oft
+   3346   407  1143 | den mat gebruyckn ende vcceyen, de const
+   3353   474  1128 | ent middel by hun gevonen, omme te sonelten
+   3350   544  1071 | waerleyden ent op goet leyutem yst
+   3365   618  1104 | als Stauen, banren platen ende anderssie
+   3373   698  1062 | mit eint bequengen tot dienst vanden lant
+   3169   780  1195 | noe te, alderhant oulerjae plaitz ysere
+   3348   845  1075 | gevluyeen, cogpls, ende voorts alle soortn
+   3351   924  1062 | van oudt caleyatien &ormit gegeven
+   3361  1015  1085 | yset, verbiedent alle s teenyegelick
+   3366  1076   987 | Jongesoeten van eese landen de voors
+   3356  1162  1049 | conste ent geventie van wercken binnen
+   3358  1233  1033 | den voors tyt van Left van met mnts
+   3347  1304  1143 | te gebruycken, ente verthaery den waerte
+   3348  1389  1143 | van sulck nngemaecte worck s metereen
+   2310  1467  2132 | oe matteert het zy eene nyerde gereete daerte gegexereert, endt duerenbomen
+   2320  1542  2104 | bongen tyt den een sgede side edent somme den ess hondert curcess
+   2322  1612  2069 | by teden te delesen het effect vnt ctr goldens tot behoeft e tatboeden
+   3508  1761   627 | pptre xxti Agust 1621
+   2315  1779  1194 | prosdent thaer Ortie Pats ee heer Remsen Voschhoff
+   2324  1843  1155 | cryeoprern vaght Ronchoit vyt van Hooy
+   3348  1884  1162 | Ontfange eende gelesen het advis vant Gecorteert
+   3351  1964  1044 | Raden te admintaliteyt van geterden t deselve
+   3340  2029  1176 | geformeert open xxn. dete opt Rerchte vande offpectine
+   3329  2112  1111 | Anggsteetn ee ctdn Breda, & Bergi open Zoom,
+   3342  2177   965 | ver tn sederen gehanden daerop te oytlteen.
+   3349  2269  1085 | Noch ontfange ent gelesen eenen brieff den voors
+   3360  2349  1140 | toltge te admintleert van Retterdum gewaert
+   3361  2404  1159 | en xxe aeste, ermet zy geen overgesonen d'orere
+   3358  2492  1079 | & Instructe waere by geese werdt teelten
+   3358  2555  1090 | ont voerh de Schtetts en tretecoeur, door de
+   3362  2628  1089 | deste vortieg op aenen beden salh noete ptssern.
+   3375  2705  1023 | et Schertogenbossth, ene den daer nem
+   3369  2762  1135 | trevepent, weerky de stzn esthuyten Uelck
+   3373  2854  1047 | medte behourl licit betalinge, volgens de Rygt
+   3363  2929  1124 | welck vyt hollandt gnne swedt met heme
+   3383  3006   999 | chelbende weren s coopmanschappen salln
+   3371  3078  1097 | toryt handen, te eyde by here hare HoMo
+   3360  3181   826 | duere mayy vrden geresoldeert.
+   3349  3274  1005 | tyt Rynnt van doctor herrigus vos oty
+   3351  3313  1071 | ketendonge te guopp advis aen Rieert
+   3354  3433   304 | aen Stat.
+
+#### unit 02 inv 3507 NL-HaNA_1.01.02_3507_0039-text_region-357-480-2377-754
+-- source regions 1, their lines 18; guard: gap 1155 < 0.25*W (4768)
+    364   487   574 | Advisen.
+   1528   480  1195 | Advisen op Remissien, omslaga
+    357   598  1258 | Op de Reqte. vanden Huijze van Ber„
+    454   720  1155 | gen opkoom, dat de respective of„
+    464   800  2270 | ficieren zig niet zullen mogen opde Reqte. vande Magistraet vand
+    471   908  1131 | laaten gebruiken tot de Collecte
+   1607   909  1101 | sen, Verzoekende Octroij voor25.
+   1620   997  1098 | jaaren tot het heffenkankekere
+    473  1047   236 | 509.
+   1613  1109   615 | Accijisen, 193.
+
+#### unit 03 inv 3623 NL-HaNA_1.01.02_3623_0018-text_region-390-3141-2178-431
+-- source regions 1, their lines 6; guard: narrow candidates < 6 (5 of 6, W=2178)
+    390  3141  1099 | Misse van de Admiraliteit in Vries„
+    536  3249  2031 | „land; om ordres tot betaalingente. Resol: tnt 't geeven van Audientien aand
+    547  3342   978 | wegens een opgeleeverd, schip van
+   1631  3356   866 | Ambassadeur van Marocco. 484.
+    548  3424   673 | 78. 1r: 709. Rappt. 961.
+   1637  3444   931 | Audientie aan denselven verleend hgt
+
+#### unit 04 inv 3212 NL-HaNA_1.01.02_3212_0323-text_region-837-424-2029-684
+-- source regions 1, their lines 11; guard: narrow candidates < 6 (5 of 10, W=2029)
+    837   424  2023 | Sinde ter Vergaderinge gelesen de requeste
+   1039   541  1827 | van Tirk Daniel Nanders der Coop„
+   1037   612  1786 | man van Pik ende teer tot rotterdam
+   1058   686  1710 | versoekende consent topden uijtvoer van
+   1026   732  1781 | dertsich off vertien lasten Pick ende
+   1046   821  1263 | Teer Staterapt naer Antwerpen.
+   2273   822   522 | Mechelen
+   1021   888   782 | Leuven ende Lier.
+   2243   870   598 | Is nae delibe.
+   1058   947   824 | ratie opgehouden.
+
+#### unit 05 inv 3354 NL-HaNA_1.01.02_3354_0096-text_region-384-942-2211-797
+-- source regions 1, their lines 16; guard: median width L
+    389   942  2150 | 2 Octob: Resenten van Maesniel. 50 dito. 21rot. 27 juerij miss magh. van Meuen in. de Aeecke
+    621   993   315 | A 20 dec
+    391  1091   445 | 1 nav. van Marlo.
+   1580  1051   529 | besettinge in Cievelt.
+   1544  1106  1051 | Wijnij miss. L. Coll Emaneuc toestant van tot
+    392  1162   517 | 12 nob. D. Maillard.
+   1568  1210   518 | Guaernisoden 4. Meurs.
+    386  1274   644 | 24 not: C. Marrenham.
+   1539  1282   436 | 8 julij A van R.
+   1542  1361  1008 | wete meme. van Inden v. brundhout voer
+    384  1369   867 | 18 Mot: Regenten van Moerstaten
+   1640  1432   232 | Meurs.
+   1546  1464  1008 | 5s dito: rapport van den Confereatie met Shanestan
+    385  1475   663 | ae navr. Regenten van Mik.
+   1542  1547   495 | te dito. miss: vrijenen
+    395  1564   548 | 18 doc Iyn v. Maldehem.
+
+#### unit 06 inv 11930 NL-HaNA_1.01.02_11930_0003-text_region-66-970-2406-1475
+-- source regions 1, their lines 13; guard: side count L9 R2
+    584   970  1309 | Aangehouden door de Commisen
+    577  1085  1291 | ter recherche eenige Vaten Tabak„
+    579  1194  1878 | afgemaakt voor  ..f 250,.
+     66  1349  1789 | November 24. Aangehouden door de Commisen
+    575  1485  1286 | ter recherche 148 Stukken Rook=
+    565  1619  1307 | Vleesch en 506 worsten, in pu„
+    571  1764  1346 | blique Veijling, verkogt voor.„
+   1884  1755   588 | 1460 01:
+    411  1886  1453 | de. Aangehouden door de Commisen
+    574  2035  1296 | ter recherche 16 stulken, Rook=
+    568  2155  1313 | Vleesch, in publique Veijling ver„
+    573  2316  1412 | kagt voor coop„
+   1929  2316   534 | 108.
+
+#### unit 07 inv 11436 NL-HaNA_1.01.02_11436_0177-text_region-2633-243-2373-2760
+-- source regions 1, their lines 28; guard: side count L6 R1
+   3545   243  1444 | Etat des Regiments qui rentrent en
+   3546   366  1390 | France, de l‛armée du haut Rhin„
+   2663   466  2258 | Infanterie Battaillons. Cavallerie Escadrons
+   2660   613  2333 | 1 Champagne.4 1. Commissaire General. 2
+   2651   729  2334 | 2. auvergne.42. Le Roy.2
+   2643   811  2342 | 3. du Rougot.43 la Reine.2
+   2643   934  2350 | 4. Dauphin.24 Royal pologne.2
+   2641  1044  2365 | 5. Tourraine.2. 5 Aquitaine.2.
+   2642  1168  2360 | 6. Bretagne.26 Bourbon.2.
+   2647  1271  2358 | 7. Roverque.27. d'Espinchal.2.
+   2648  1388  2344 | 8. Vatan28 Fumel.2.
+   2651  1493  2350 | 9. Lastie.29. Poly2.
+   2637  1603  2339 | 10. la Reine.1. 10. Beauvillers.2
+   2637  1705  2357 | 11. Forest.1. 11. Charost.2.
+   2635  1827  2365 | 12. Tournaisis.1. 12. Crussol.2.
+   2642  1904  2248 | 13. la Marche prince..1. 13 dessales.
+   2633  2050  2338 | 14. la Marche province..1. 14. soudé.2
+   3783  2150  1190 | 15. Bourbou basset.2
+   2908  2232   773 | Grenadiers Royaux
+   3628  2263  1376 | 16. Chabrillant.2.
+   2636  2395  1181 | 15. Chantilly.2
+   2638  2505  1168 | 16. Le Camus.2
+   4157  2464   473 | Dragons.
+   2635  2609  2364 | 17. Narbonne. 2 17 du Roy.4
+   3215  2726  1781 | battaillons 35. 18 Orleans.4
+   2942  2835   474 | Milices.
+   3814  2841  1181 | 19 Beaufremont..4
+
+#### unit 08 inv 3579 NL-HaNA_1.01.02_3579_0157-text_region-2735-221-2309-430
+-- source regions 1, their lines 8; guard: overlap 213 < 2h
+   2735   221  2243 | 11. Jann: Rappt. vlqt. Resol. 29. Dcotrb: a. p. 14. Maack, Rappt. volg. Resol: 25. gtt: a. P.
+   2855   312  1037 | op Reg: van Pastoor Ke: te Lindheven,
+   4019   304   989 | op Reg: van L. vande Leur, oals super
+   4015   367  1029 | numerait Siesser le Baeda te mogen fungeer
+   2863   394  1085 | repareeren der Roomsche Kerkscheure.
+   4009   430   555 | R: Geconst. mets Ri:
+   2833   460  1060 | R. Geconst. en in zo verle de Resol: vanden
+   2856   539   731 | 7. Octob: 2. p. gealtereert.
+
+#### unit 09 inv 11182 NL-HaNA_1.01.02_11182_0529-text_region-913-1277-2110-2110
+-- source regions 1, their lines 29; guard: gap 484 < 0.25*W (2110)
+   1266  1277  1654 | de Jaren 1666 en 1667. sijn inden Staet van bericht.
+   1279  1410  1692 | over de voors Jaren Fole. 207. geliquideert en dessent;
+   1248  1522   692 | dus hier memorie.
+   1269  1628   562 | folia Slooten
+    968  1714  1013 | 1668, 95., 3351: 14: 7
+    972  1816  1026 | 1669. , 94., 3133: 7: 4
+    972  1901  1026 | 1670., 172., 3327: 13: 11
+    969  2015  1023 | 1671. 192,, 3734, 18: 1
+    973  2104  1037 | 1672., 111., 1937: 17: 12
+    963  2133  2041 | 1673,,154., 2293: 9: 12 het Slot van Jare 1673. 1s 3638: 19: 12
+    968  2254  2048 | 1674., 130., 3511: 16: 10 doch alsoo fol:. 132. was gebracht een
+    977  2341  2037 | 1675., 105. 3682: 15: 2 Capitael, waervan geene beneficiaten
+    987  2431  2028 | 1676., 110., 3359: 0: 2. kunnen proffiteren, komt bij afftreck
+    992  2531  1793 | 1677.,,87., 3626: 7: 14 het slotals hier ter zijden,
+    991  2651  1022 | 1678,, 89., 2004: 3: 13
+    990  2745   993 | 1679., 842., 1631: 4: 6
+   1963  2736  1045 | het Jaer1680. heeft den rendt. meer uijt
+    990  2842  1006 | 1680. 102.0: 0: 0
+   1982  2885  1040 | uijtgegeven, als ontfangen 353: 9: 0. datte
+    995  2944  1006 | 1681., 107, 2038: 13: 12
+   1983  2965  1040 | laste van voors: Oudenhoven voor in
+    996  3029   942 | 1682., 112.8: 11:
+   1982  3045  1026 | uijtgave tot 88: 7: 0 moet komen,
+   1393  3156   595 | 36041: 14: 1
+   1479  3256   672 | 9010: 8: 8 voor„
+
+#### unit 10 inv 3217 NL-HaNA_1.01.02_3217_0622-text_region-221-674-2615-1709
+-- source regions 1, their lines 30; guard: span 14/30 > 0.34
+    226   687  1064 | Hare Ho:Mo: authoriseren
+   1371   674  1382 | Ende alsoo omgoede discipline te
+    221   828  1170 | mede den voorn Lt. Admirael
+   1463   796  1317 | onderhouden, & behoorlicke straffe
+    253   876  1191 | om te dispicieren, ende hare Ho:
+   1467   879  1332 | aen die geene, die souden comen te
+    257   971  1212 | Mo: voor te dragen een bequaem
+   1467   972  1293 | delinqueren, te doen wedervaren.
+    240  1042  1189 | fiscael, die hem ten fine als int
+   1458  1053  1256 | nootsaeckelick sal wesen dat de
+    245  1117  1187 | nevenstaende poinct vermelt,
+   1439  1135  1336 | Vloote met een bequaem persoon
+    244  1195  1166 | opde voors Vloote sal hebben te
+   1460  1233  1303 | tot fiscael werde versien, sullen
+    250  1283  1199 | vvoegen, op soodanigen tractement
+   1471  1333  1282 | haer Ho:Mo: gelieven daer
+    252  1359  1231 | als in gelijcke gelegentheijt, hem
+   1461  1402  1260 | toe mede een persoon met die
+    255  1443  1189 | ende andere fiscaels ter Zee,
+   1463  1485  1373 | qualiteijten begaeft, die daertoe
+    254  1521  1218 | is toegeleijt geweest, mede te
+    258  1580  2549 | betalen bij de Directeurs, ende gerequireert werden, te dispicieren.
+    256  1687  1249 | uijtte penningen, in margine van
+    251  1763  1279 | beijde de bovenstaende poincten
+    253  1838  1263 | aengeroert. Des sullen alle de
+    253  1921  1304 | bovengeroerde Tractementen met
+    253  1996  1302 | eer ingaen, als met dat de voorge„
+    252  2069  1280 | mentionneerde persoonen in actuele
+    253  2159  1270 | bedieninge in Zee, ofte opde Vloote
+    246  2245   799 | sullen wesen getreden.

@@ -1,0 +1,340 @@
+# X4 on the fresh sides: 19 FP, 44 FN (31 nounit); shown 19 FP + 40 FN
+
+== FP read 104 (G2, inv 3493, 3493_0020 recto) k=39 region 3493_0020-text_region-3475-2603-1176-399 n_seg=4 col=2 role=main x[3475..3583]
+     k 38 gold=S X4=hand:index_start             type=main_text  x= 3479 w= 1163 | Buys reqe, om in plaets van f150
+  >> k 39 gold=C X4=hand:index:end_ref_prev      type=main_text  x= 3583 w= 1019 | voor syn Secretaris f300= in
+     k 40 gold=C X4=-                            type=main_text  x= 3569 w= 1082 | declaratie te mogen brengen 120
+     k 41 gold=S X4=hand:index:outdent+end_ref_prev type=main_text  x= 3475 w=  789 | rapport daer op 282.
+
+== FP read 110 (G1, inv 3283, 3283_0043 recto) k=29 region 3283_0043-text_region-2578-2020-2234-328 n_seg=3 col=0 role=main x[2578..3836]
+     k 13 gold=S X4=hand:index_start             type=main_text  x= 2578 w= 2234 | Scruijssen van Vloot ontrent Tractement vanden Ambr. in
+     k 14 gold=C X4=-                            type=main_text  x= 2715 w=  761 | de Wielingen, 554.
+  >> k 29 gold=C X4=hand:index:short_prev+end_ref_prev type=main_text  x= 3836 w=  759 | Engelandt, 162.
+
+== FP read 112 (G4, inv 3726, 3726_0005 recto) k=26 region 726_0005-text_region-2562-1899-1070-1520 n_seg=28 col=0 role=main x[2562..3433]
+     k 24 gold=S X4=hand:index:short_prev        type=main_text  x= 2593 w=  988 | Grave van der Lippe.. 240.
+     k 25 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 2596 w=  792 | Liquidatie van de Provincien,
+  >> k 26 gold=C X4=hand:index:short_prev        type=main_text  x= 2695 w=  758 | Zee Rekenkamer Letter R.
+     k 27 gold=S X4=hand:index:outdent+short_prev type=main_text  x= 2600 w=  993 | Lith Littogen. 241.
+     k 29 gold=C X4=-                            type=main_text  x= 3386 w=  196 | 245.
+
+== FP read 112 (G4, inv 3726, 3726_0005 recto) k=72 region 3726_0005-text_region-3649-625-1111-2435 n_seg=38 col=3 role=main x[3649..4551]
+     k 70 gold=S X4=-                            type=main_text  x= 3682 w= 1015 | Middelburgh in Zeeland.. 106.
+     k 71 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 3687 w=  745 | Ministers, van den Staat
+  >> k 72 gold=C X4=hand:index:short_prev        type=main_text  x= 3833 w=  866 | Buiten 's Lands. 107.
+     k 73 gold=S X4=hand:index:outdent+end_ref_prev type=main_text  x= 3692 w=  776 | Ministens van den Staat
+     k 74 gold=C X4=hand:index:short_prev        type=main_text  x= 3827 w=  866 | Binnen 's Lands.. 177.
+
+== FP read 112 (G4, inv 3726, 3726_0005 recto) k=74 region 3726_0005-text_region-3649-625-1111-2435 n_seg=38 col=3 role=main x[3649..4551]
+     k 72 gold=C X4=hand:index:short_prev        type=main_text  x= 3833 w=  866 | Buiten 's Lands. 107.
+     k 73 gold=S X4=hand:index:outdent+end_ref_prev type=main_text  x= 3692 w=  776 | Ministens van den Staat
+  >> k 74 gold=C X4=hand:index:short_prev        type=main_text  x= 3827 w=  866 | Binnen 's Lands.. 177.
+     k 75 gold=S X4=hand:index:outdent+end_ref_prev type=main_text  x= 3694 w=  824 | Ministers aan den Staat en
+     k 76 gold=C X4=hand:index:short_prev        type=main_text  x= 3851 w=  843 | passerende. 180.
+
+== FP read 112 (G4, inv 3726, 3726_0005 recto) k=76 region 3726_0005-text_region-3649-625-1111-2435 n_seg=38 col=3 role=main x[3649..4551]
+     k 74 gold=C X4=hand:index:short_prev        type=main_text  x= 3827 w=  866 | Binnen 's Lands.. 177.
+     k 75 gold=S X4=hand:index:outdent+end_ref_prev type=main_text  x= 3694 w=  824 | Ministers aan den Staat en
+  >> k 76 gold=C X4=hand:index:short_prev        type=main_text  x= 3851 w=  843 | passerende. 180.
+     k 77 gold=S X4=hand:index:outdent+end_ref_prev type=main_text  x= 3687 w=  993 | Militaire zaken. 214:
+     k 78 gold=C X4=-                            type=main_text  x= 4537 w=  151 | 406.
+
+== FP read 113 (G4, inv 4617, 4617_0044 recto) k=6 region _4617_0044-text_region-2494-430-1146-174 n_seg=2 col=0 role=main x[2494..2542]
+     k  5 gold=S X4=hand:index_start             type=main_text  x= 2494 w= 1146 | clasen oor de deselves der Lanenbughche toupes in het Aort saht Cai„
+  >> k  6 gold=C X4=hand:index:date_start        type=main_text  x= 2542 w=  230 | 19. Jan: 7.
+
+== FP read 114 (G2, inv 3539, 3539_0014 verso) k=18 region _3539_0014-text_region-469-2492-2267-522 n_seg=7 col=0 role=main x[469..1673]
+  >> k 18 gold=C X4=hand:index_start             type=main_text  x=  479 w= 2222 | Consul Levelt voor den Kaper Omar Missive Hochepied; het Commande„
+     k 19 gold=C X4=-                            type=main_text  x=  471 w= 1208 | Rais. Instantien van den Agent
+     k 43 gold=? X4=hand:index:short_prev        type=main_text  x= 1673 w= 1063 | ment tegen den gevlugten van
+
+== FP read 114 (G2, inv 3539, 3539_0014 verso) k=20 region _3539_0014-text_region-469-2492-2267-522 n_seg=7 col=0 role=main x[469..1673]
+     k 19 gold=C X4=-                            type=main_text  x=  471 w= 1208 | Rais. Instantien van den Agent
+     k 43 gold=? X4=hand:index:short_prev        type=main_text  x= 1673 w= 1063 | ment tegen den gevlugten van
+  >> k 20 gold=C X4=hand:index:outdent           type=main_text  x=  479 w= 1163 | van Poolen op het Capitaaltje van
+     k 44 gold=C X4=hand:index:short_prev        type=main_text  x= 1670 w=  911 | niet overgelevert. 194.
+     k 21 gold=C X4=hand:index:outdent+end_ref_prev type=main_text  x=  473 w= 1681 | zeker minderjarig kind, gebooren on, resolutie 673.
+
+== FP read 114 (G2, inv 3539, 3539_0014 verso) k=21 region _3539_0014-text_region-469-2492-2267-522 n_seg=7 col=0 role=main x[469..1673]
+     k 20 gold=C X4=hand:index:outdent           type=main_text  x=  479 w= 1163 | van Poolen op het Capitaaltje van
+     k 44 gold=C X4=hand:index:short_prev        type=main_text  x= 1670 w=  911 | niet overgelevert. 194.
+  >> k 21 gold=C X4=hand:index:outdent+end_ref_prev type=main_text  x=  473 w= 1681 | zeker minderjarig kind, gebooren on, resolutie 673.
+     k 22 gold=C X4=hand:index:end_ref_prev      type=main_text  x=  469 w= 1065 | derdaan van haar Ho:Mo: 1138.
+
+== FP read 114 (G2, inv 3539, 3539_0014 verso) k=22 region _3539_0014-text_region-469-2492-2267-522 n_seg=7 col=0 role=main x[469..1673]
+     k 44 gold=C X4=hand:index:short_prev        type=main_text  x= 1670 w=  911 | niet overgelevert. 194.
+     k 21 gold=C X4=hand:index:outdent+end_ref_prev type=main_text  x=  473 w= 1681 | zeker minderjarig kind, gebooren on, resolutie 673.
+  >> k 22 gold=C X4=hand:index:end_ref_prev      type=main_text  x=  469 w= 1065 | derdaan van haar Ho:Mo: 1138.
+
+== FP read 114 (G2, inv 3539, 3539_0014 verso) k=44 region _3539_0014-text_region-469-2492-2267-522 n_seg=7 col=0 role=main x[469..1673]
+     k 43 gold=? X4=hand:index:short_prev        type=main_text  x= 1673 w= 1063 | ment tegen den gevlugten van
+     k 20 gold=C X4=hand:index:outdent           type=main_text  x=  479 w= 1163 | van Poolen op het Capitaaltje van
+  >> k 44 gold=C X4=hand:index:short_prev        type=main_text  x= 1670 w=  911 | niet overgelevert. 194.
+     k 21 gold=C X4=hand:index:outdent+end_ref_prev type=main_text  x=  473 w= 1681 | zeker minderjarig kind, gebooren on, resolutie 673.
+     k 22 gold=C X4=hand:index:end_ref_prev      type=main_text  x=  469 w= 1065 | derdaan van haar Ho:Mo: 1138.
+
+== FP read 115 (G4, inv 3127, 3127_0026 recto) k=33 region 3127_0026-text_region-3667-1163-1242-786 n_seg=8 col=1 role=main x[3667..3968]
+     k 31 gold=C X4=-                            type=main_text  x= 3671 w=  446 | vide lita. C.
+     k 32 gold=S X4=hand:index:short_prev        type=main_text  x= 3667 w=  614 | neutraliteyt 299:
+  >> k 33 gold=C X4=hand:index:end_ref_prev      type=main_text  x= 3968 w=  227 | stants
+     k 34 gold=S X4=hand:index:outdent+short_prev type=main_text  x= 3679 w= 1024 | clachten over de militie 300: 303: 315:
+     k 35 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 3679 w=  687 | pasport voor Rerffhx
+
+== FP read 116 (G3, inv 3489, 3489_0054 verso) k=43 region _3489_0054-text_region-598-2834-1080-543 n_seg=10 col=0 role=main x[598..636]
+     k 41 gold=C X4=-                            type=main_text  x=  618 w= 1055 | de continuatie van het subsidie aan Rusland, we„
+     k 42 gold=C X4=-                            type=main_text  x=  620 w= 1056 | gens het gereedhouden van een Corps van 30000.
+  >> k 43 gold=C X4=hand:index:end_ref_prev      type=main_text  x=  615 w=  999 | Russen op de Fronlieren van Rusland, Com„
+
+== FP read 118 (G2, inv 3352, 3352_0004 verso) k=7 region _3352_0004-text_region-461-444-2023-3190 n_seg=34 col=0 role=main x[461..1528]
+     k 15 gold=S X4=hand:index:short_prev+end_ref_prev type=index      x= 1482 w=  995 | weduwe Backer 340. 444:
+     k  6 gold=S X4=hand:index:outdent+end_ref_prev type=index      x=  485 w=  952 | missiven vanden Agent
+  >> k  7 gold=C X4=hand:index:short_prev        type=index      x=  632 w=  901 | Chardinel 161, 199, 882.
+     k 16 gold=S X4=hand:index:short_prev+end_ref_prev type=index      x= 1488 w=  996 | Bacquere 87, 232, 289, 362.
+     k 17 gold=C X4=-                            type=index      x= 1528 w=  672 | 532, 655, 903, 920.
+
+== FP read 119 (G3, inv 3351, 3351_0007 verso) k=22 region 2_3351_0007-text_region-348-845-2243-545 n_seg=8 col=0 role=main x[358..1413]
+     k 11 gold=S X4=hand:run                     type=date_header x=  348 w=  159 | 7 Sept:
+     k 11 gold=S X4=hand:run                     type=marginalia x=  529 w=  907 | meme. L: een begrotinge van onkosten van
+  >> k 22 gold=C X4=hand:index:header            type=main_text  x= 1413 w= 1064 | opte souden, pot en convent te delachaten
+     k 12 gold=C X4=-                            type=main_text  x=  358 w= 2201 | 12 drimmmelaan van 1 April tot Ultms. nob: 1783 na de Buijsen, nadat haer van wake sullen
+     k 13 gold=C X4=-                            type=main_text  x=  384 w= 2207 | 6 gesoenden aen R. om een petitie te fameren hebben voorsien, wijden hee Engel Oostadifck
+
+== FP read 120 (G3, inv 3492, 3492_0146 recto) k=26 region 3492_0146-text_region-2930-2151-1079-293 n_seg=4 col=1 role=main x[2930..2959]
+     k 25 gold=S X4=hand:index_start             type=main_text  x= 2930 w= 1024 | 24. February. Petitie van R. V. S. (de dato 22:
+  >> k 26 gold=C X4=hand:index:end_ref_prev      type=main_text  x= 2959 w= 1049 | van f6: 500000:: tot de Legerlasten van 't lopende
+     k 27 gold=C X4=-                            type=main_text  x= 2958 w= 1051 | jaar. Res. Aan Provincien, om spoedig Con„
+     k 28 gold=C X4=-                            type=main_text  x= 2952 w=  580 | sent en furnissement.
+
+== FP read 121 (G1, inv 3265, 3265_0032 verso) k=17 region _3265_0032-text_region-360-334-2271-2894 n_seg=40 col=0 role=main x[360..1483]
+     k 41 gold=C X4=-                            type=main_text  x= 1462 w=  463 | 360: 774: 792:
+     k 16 gold=S X4=hand:index:outdent+short_prev+end_ref_prev type=main_text  x=  382 w= 2049 | Prins Fritz van Nassau vide Gouvr. van den Predicant tot Nieuvliet, 751:
+  >> k 17 gold=C X4=hand:index:end_ref_prev      type=main_text  x=  387 w=  862 | Bergen opden Zoom lita. B5.
+     k 42 gold=S X4=hand:index:short_prev+end_ref_prev type=main_text  x= 1468 w=  792 | Thomas van Naersen 360:
+     k 43 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 1446 w=  856 | Lamorael vander Noot 580:
+
+== FP read 121 (G1, inv 3265, 3265_0032 verso) k=51 region _3265_0032-text_region-360-334-2271-2894 n_seg=40 col=0 role=main x[360..1483]
+     k 50 gold=S X4=hand:index:short_prev+end_ref_prev type=main_text  x= 1403 w= 1153 | Erffgenamen Nuijts & vander Marcke &
+     k 27 gold=S X4=hand:index:outdent           type=main_text  x=  362 w=  769 | opheff van middelen, 726:
+  >> k 51 gold=C X4=hand:index:short_prev+end_ref_prev type=main_text  x= 1416 w=  442 | Snouck 784:
+
+== FN read 101 (G3, inv 3354, 3354_0142 verso) k=12 region 2_3354_0142-text_region-390-1594-894-282 n_seg=3 col=0 role=main x[390..662]
+     k 10 gold=H X4=hand:index_start             type=main_text  x=  662 w=  316 | Recautenitsche.
+     k 11 gold=S X4=hand:index:outdent+short_prev+date_start type=main_text  x=  393 w=  891 | 4 Sept. petitie van 350m g. tot de recmuten.
+  >> k 12 gold=S X4=-                            type=main_text  x=  390 w=  841 | 1 dito en opden mass van . aen pab: gesch:
+
+== FN-nounit read 101 (G3, inv 3354, 3354_0142 verso) k=21 region 2_3354_0142-text_region-1453-243-821-278 n_seg=3 col=3 role=extra x[-..-]
+     k 19 gold=H X4=nounit                       type=marginalia x= 1532 w=  742 | aghterstallen van Trouffen van
+     k 20 gold=H X4=nounit                       type=marginalia x= 1561 w=  515 | Hanover & Colle.
+  >> k 21 gold=S X4=nounit                       type=marginalia x= 1453 w=  774 | 29 dec: 1704. miss: aen prob:
+
+== FN-nounit read 102 (G4, inv 3127, 3127_0020 recto) k=43 region 2_3127_0020-text_region-3700-60-1184-200 n_seg=2 col=4 role=extra x[-..-]
+  >> k 43 gold=S X4=nounit                       type=marginalia x= 3711 w= 1173 | Hopperus & de wedele van van Asperen
+     k 44 gold=C X4=nounit                       type=marginalia x= 3700 w=  423 | vide lita. K.
+
+== FN-nounit read 102 (G4, inv 3127, 3127_0020 recto) k=45 region _3127_0020-text_region-3669-1407-430-180 n_seg=2 col=3 role=extra x[-..-]
+  >> k 45 gold=S X4=nounit                       type=marginalia x= 3699 w=  291 | Hollant
+     k 46 gold=C X4=nounit                       type=marginalia x= 3669 w=  430 | consenten 260:
+
+== FN-nounit read 102 (G4, inv 3127, 3127_0020 recto) k=47 region 3127_0020-text_region-3685-1908-1085-444 n_seg=5 col=4 role=extra x[-..-]
+  >> k 47 gold=S X4=nounit                       type=marginalia x= 3730 w=  256 | Hulst
+     k 48 gold=C X4=nounit                       type=marginalia x= 3719 w=  506 | belegeringe 299:
+     k 49 gold=S X4=nounit                       type=marginalia x= 3697 w=  565 | reductie 4303: 305:
+
+== FN-nounit read 102 (G4, inv 3127, 3127_0020 recto) k=49 region 3127_0020-text_region-3685-1908-1085-444 n_seg=5 col=4 role=extra x[-..-]
+     k 47 gold=S X4=nounit                       type=marginalia x= 3730 w=  256 | Hulst
+     k 48 gold=C X4=nounit                       type=marginalia x= 3719 w=  506 | belegeringe 299:
+  >> k 49 gold=S X4=nounit                       type=marginalia x= 3697 w=  565 | reductie 4303: 305:
+     k 50 gold=S X4=nounit                       type=marginalia x= 3690 w= 1080 | Invoeringe van middelen van Hollant
+     k 51 gold=C X4=nounit                       type=marginalia x= 3685 w=  649 | & Zeelant 313: 346:
+
+== FN-nounit read 102 (G4, inv 3127, 3127_0020 recto) k=50 region 3127_0020-text_region-3685-1908-1085-444 n_seg=5 col=4 role=extra x[-..-]
+     k 48 gold=C X4=nounit                       type=marginalia x= 3719 w=  506 | belegeringe 299:
+     k 49 gold=S X4=nounit                       type=marginalia x= 3697 w=  565 | reductie 4303: 305:
+  >> k 50 gold=S X4=nounit                       type=marginalia x= 3690 w= 1080 | Invoeringe van middelen van Hollant
+     k 51 gold=C X4=nounit                       type=marginalia x= 3685 w=  649 | & Zeelant 313: 346:
+
+== FN read 104 (G2, inv 3493, 3493_0020 recto) k=15 region _3493_0020-text_region-2469-2147-985-575 n_seg=4 col=0 role=main x[2469..2532]
+     k 13 gold=C X4=-                            type=main_text  x= 2532 w=  668 | Holstein, 429.
+     k 14 gold=S X4=hand:index:short_prev+end_ref_prev type=main_text  x= 2475 w=  852 | Hop Vide Engeland. E.
+  >> k 15 gold=S X4=-                            type=main_text  x= 2473 w=  916 | S: en H: Hope 342, 442.
+
+== FN-nounit read 104 (G2, inv 3493, 3493_0020 recto) k=36 region _3493_0020-text_region-3477-2259-573-100 n_seg=1 col=3 role=extra x[-..-]
+  >> k 36 gold=S X4=nounit                       type=marginalia x= 3477 w=  573 | declaratie 35.
+
+== FN-nounit read 110 (G1, inv 3283, 3283_0043 recto) k=6 region 3283_0043-text_region-2612-1069-1123-267 n_seg=2 col=1 role=main x[-..-]
+  >> k  6 gold=S X4=nounit                       type=marginalia x= 2612 w= 1123 | Beswaringe vande Granen,
+     k  7 gold=C X4=nounit                       type=marginalia x= 2720 w=  242 | 553.
+
+== FN-nounit read 110 (G1, inv 3283, 3283_0043 recto) k=8 region 3283_0043-text_region-2635-1374-1091-270 n_seg=2 col=1 role=main x[-..-]
+  >> k  8 gold=S X4=nounit                       type=marginalia x= 2635 w= 1091 | Versterckinge van Garnisoe„
+     k  9 gold=C X4=nounit                       type=marginalia x= 2722 w=  411 | nen, 554.
+
+== FN read 112 (G4, inv 3726, 3726_0005 recto) k=6 region _3726_0005-text_region-2601-483-1029-483 n_seg=8 col=0 role=main x[2601..2792]
+     k  3 gold=H X4=nounit                       type=other      x= 2939 w=  141 | .
+     k  5 gold=S X4=hand:index:short_prev        type=main_text  x= 2617 w=  829 | Keulen zie Ceulen Pester C.
+  >> k  6 gold=S X4=-                            type=main_text  x= 2602 w=  975 | Kieldrecht.215.
+     k  7 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 2602 w=  960 | Colanels, zie Militaire zaken tett Mo.
+     k  8 gold=S X4=-                            type=main_text  x= 2608 w= 1022 | Konstantinopel, zie constantinopolen
+
+== FN read 112 (G4, inv 3726, 3726_0005 recto) k=8 region _3726_0005-text_region-2601-483-1029-483 n_seg=8 col=0 role=main x[2601..2792]
+     k  6 gold=S X4=-                            type=main_text  x= 2602 w=  975 | Kieldrecht.215.
+     k  7 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 2602 w=  960 | Colanels, zie Militaire zaken tett Mo.
+  >> k  8 gold=S X4=-                            type=main_text  x= 2608 w= 1022 | Konstantinopel, zie constantinopolen
+     k  9 gold=C X4=-                            type=main_text  x= 2792 w=  372 | Petter C.
+
+== FN read 112 (G4, inv 3726, 3726_0005 recto) k=19 region 726_0005-text_region-2562-1899-1070-1520 n_seg=28 col=0 role=main x[2562..3433]
+     k 17 gold=S X4=hand:index_start             type=main_text  x= 2637 w=  955 | Leeuwarden.234.
+     k 18 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 2603 w=  903 | Licenten, die convoyen Litt. C.
+  >> k 19 gold=S X4=-                            type=main_text  x= 2589 w=  978 | Lieroorth, zie oostriesland lett: 0.
+     k 20 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 2591 w=  993 | Lilla235.
+     k 21 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 2606 w=  985 | Limburgh237.
+
+== FN read 112 (G4, inv 3726, 3726_0005 recto) k=48 region 3726_0005-text_region-3649-625-1111-2435 n_seg=38 col=3 role=main x[3649..4551]
+     k 46 gold=S X4=hand:index_start             type=main_text  x= 3680 w= 1020 | Generalia Jolio 1.
+     k 47 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 3668 w=  943 | Maastollen, ne Rivieren Letter R.
+  >> k 48 gold=S X4=-                            type=main_text  x= 3670 w= 1026 | Mastricht14.
+     k 49 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 3658 w= 1043 | Landen van Overmaze. 63.
+     k 50 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 3670 w= 1022 | Maasdenburgh.83.
+
+== FN read 112 (G4, inv 3726, 3726_0005 recto) k=68 region 3726_0005-text_region-3649-625-1111-2435 n_seg=38 col=3 role=main x[3649..4551]
+     k 65 gold=C X4=-                            type=main_text  x= 4016 w=  683 | 99.
+     k 67 gold=S X4=hand:index:outdent+end_ref_prev type=main_text  x= 3677 w= 1083 | Meyerij van 's Bosch, Zie ‛sHertogenbosch het elb
+  >> k 68 gold=S X4=-                            type=main_text  x= 3684 w= 1005 | Gemeene Middelen. 100.
+     k 69 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 3680 w=  957 | Del Mina, Zio West. Ind. Lett. W.
+     k 70 gold=S X4=-                            type=main_text  x= 3682 w= 1015 | Middelburgh in Zeeland.. 106.
+
+== FN read 112 (G4, inv 3726, 3726_0005 recto) k=70 region 3726_0005-text_region-3649-625-1111-2435 n_seg=38 col=3 role=main x[3649..4551]
+     k 68 gold=S X4=-                            type=main_text  x= 3684 w= 1005 | Gemeene Middelen. 100.
+     k 69 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 3680 w=  957 | Del Mina, Zio West. Ind. Lett. W.
+  >> k 70 gold=S X4=-                            type=main_text  x= 3682 w= 1015 | Middelburgh in Zeeland.. 106.
+     k 71 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 3687 w=  745 | Ministers, van den Staat
+     k 72 gold=C X4=hand:index:short_prev        type=main_text  x= 3833 w=  866 | Buiten 's Lands. 107.
+
+== FN-nounit read 113 (G4, inv 4617, 4617_0044 recto) k=2 region _4617_0044-text_region-2482-203-2345-247 n_seg=4 col=1 role=extra x[-..-]
+  >> k  2 gold=S X4=nounit                       type=marginalia x= 2482 w= 2345 | ontwront van den Ceuft. van Hannran over het gener ven duys, brief van Hotyt von Wolsaliut
+     k  3 gold=C X4=nounit                       type=marginalia x= 2533 w= 1115 | land. Jan: 4. item over de gelimiteerde ordres aen sijne troupes.
+     k 39 gold=H X4=nounit                       type=marginalia x= 3651 w=  115 | 27.
+
+== FN read 113 (G4, inv 4617, 4617_0044 recto) k=22 region 4617_0044-text_region-2479-1690-1171-677 n_seg=9 col=0 role=main x[2479..2544]
+     k 21 gold=S X4=hand:index_start             type=main_text  x= 2494 w= 1111 | porpositie van Bothmer over de operatien tegen Beyeren. Maerts:
+  >> k 22 gold=S X4=-                            type=main_text  x= 2485 w= 1150 | met Bothmer te spreecken over de troupes aen den bovenrhyn, en het
+     k 23 gold=C X4=-                            type=main_text  x= 2501 w= 1149 | rempliment van de regimenten in het Lunenburghe synde, maert
+     k 24 gold=C X4=-                            type=main_text  x= 2497 w=  117 | 25.
+
+== FN-nounit read 115 (G4, inv 3127, 3127_0026 recto) k=3 region 2_3127_0026-text_region-2506-37-2410-887 n_seg=11 col=1 role=main x[2510..3677]
+     k  2 gold=C X4=nounit                       type=page_number x= 2524 w=  152 | 45:
+     k 26 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 3659 w= 1257 | Tarra van Engelsche lakenen vide Enge„
+  >> k  3 gold=S X4=nounit                       type=marginalia x= 2508 w=  516 | Lithschen Tol 57:
+     k 27 gold=C X4=-                            type=main_text  x= 3677 w=  441 | lant lita. E.
+     k  4 gold=S X4=hand:index:outdent+short_prev type=main_text  x= 2534 w= 1217 | Erffgenamen van Simon van Limborch 97: 107:
+
+== FN-nounit read 115 (G4, inv 3127, 3127_0026 recto) k=6 region 2_3127_0026-text_region-2506-37-2410-887 n_seg=11 col=1 role=main x[2510..3677]
+     k  4 gold=S X4=hand:index:outdent+short_prev type=main_text  x= 2534 w= 1217 | Erffgenamen van Simon van Limborch 97: 107:
+     k  5 gold=C X4=nounit                       type=marginalia x= 2540 w=  114 | 164.
+  >> k  6 gold=S X4=nounit                       type=marginalia x= 2530 w=  715 | de Grave vander Lippe 127:
+     k  7 gold=S X4=nounit                       type=marginalia x= 2525 w=  925 | clachtenhover slants militie 13 21 139:
+     k  8 gold=S X4=nounit                       type=marginalia x= 2514 w=  454 | antwoort 149:
+
+== FN-nounit read 115 (G4, inv 3127, 3127_0026 recto) k=7 region 2_3127_0026-text_region-2506-37-2410-887 n_seg=11 col=1 role=main x[2510..3677]
+     k  5 gold=C X4=nounit                       type=marginalia x= 2540 w=  114 | 164.
+     k  6 gold=S X4=nounit                       type=marginalia x= 2530 w=  715 | de Grave vander Lippe 127:
+  >> k  7 gold=S X4=nounit                       type=marginalia x= 2525 w=  925 | clachtenhover slants militie 13 21 139:
+     k  8 gold=S X4=nounit                       type=marginalia x= 2514 w=  454 | antwoort 149:
+     k  9 gold=S X4=nounit                       type=marginalia x= 2506 w=  847 | Cheurfurst van voer 141:
+
+== FN-nounit read 115 (G4, inv 3127, 3127_0026 recto) k=9 region 2_3127_0026-text_region-2506-37-2410-887 n_seg=11 col=1 role=main x[2510..3677]
+     k  7 gold=S X4=nounit                       type=marginalia x= 2525 w=  925 | clachtenhover slants militie 13 21 139:
+     k  8 gold=S X4=nounit                       type=marginalia x= 2514 w=  454 | antwoort 149:
+  >> k  9 gold=S X4=nounit                       type=marginalia x= 2506 w=  847 | Cheurfurst van voer 141:
+
+== FN-nounit read 117 (G1, inv 3280, 3280_0035 verso) k=10 region 2_3280_0035-text_region-262-2203-743-141 n_seg=1 col=2 role=main x[-..-]
+  >> k 10 gold=S X4=nounit                       type=marginalia x=  262 w=  743 | Capn. Schaep, 248.
+
+== FN-nounit read 117 (G1, inv 3280, 3280_0035 verso) k=11 region 2_3280_0035-text_region-284-2414-844-138 n_seg=1 col=2 role=main x[-..-]
+  >> k 11 gold=S X4=nounit                       type=marginalia x=  284 w=  844 | Capn. Steenwijck, 248.
+
+== FN-nounit read 117 (G1, inv 3280, 3280_0035 verso) k=13 region 2_3280_0035-text_region-294-2887-875-142 n_seg=1 col=2 role=main x[-..-]
+  >> k 13 gold=S X4=nounit                       type=marginalia x=  294 w=  875 | Volckert Swart, 273.
+
+== FN-nounit read 119 (G3, inv 3351, 3351_0007 verso) k=8 region 2_3351_0007-text_region-336-644-1087-272 n_seg=3 col=0 role=main x[-..-]
+  >> k  8 gold=S X4=nounit                       type=marginalia x=  336 w= 1077 | 6 opt. meme. vide charter & het besteck
+     k  9 gold=C X4=nounit                       type=marginalia x=  374 w= 1049 | van de 18 Schepen die aengebouwt sullen
+     k 10 gold=C X4=nounit                       type=marginalia x=  407 w=  254 | werden.
+
+== FN read 119 (G3, inv 3351, 3351_0007 verso) k=16 region _3351_0007-text_region-1403-388-1165-431 n_seg=5 col=0 role=main x[1403..1435]
+  >> k 16 gold=S X4=-                            type=main_text  x= 1403 w= 1154 | 6 Aug:. miss dat met de Oestinde. Schepen voor het
+     k 17 gold=C X4=-                            type=main_text  x= 1435 w= 1113 | land gekomen in, en relatie van sine wijse.
+     k 18 gold=C X4=-                            type=main_text  x= 1413 w= 1072 | i gesonden aen Amsurd: om Boudaan: te
+
+== FN-nounit read 120 (G3, inv 3492, 3492_0146 recto) k=12 region 3492_0146-text_region-2901-281-2269-1404 n_seg=40 col=0 role=main x[3253..4041]
+     k 11 gold=C X4=nounit                       type=marginalia x= 2958 w=  883 | granen. Res: aan R. om advis.
+     k 56 gold=S X4=hand:index:date_start        type=main_text  x= 4009 w= 1131 | 13. April. op adr. R. V. S. Geconsenti in '1 1e Lid
+  >> k 12 gold=S X4=nounit                       type=marginalia x= 2903 w= 1096 | 21. May. Op adv. R. 1. S. Remissie verleent voor
+     k 57 gold=C X4=-                            type=main_text  x= 4023 w=  960 | van 't versoek. En '1 2e Comm: met Ri
+     k 13 gold=C X4=nounit                       type=marginalia x= 2951 w=  235 | 12 jaaren.
+
+== FN read 120 (G3, inv 3492, 3492_0146 recto) k=61 region 3492_0146-text_region-2901-281-2269-1404 n_seg=40 col=0 role=main x[3253..4041]
+     k 14 gold=S X4=hand:run                     type=date_header x= 2922 w=  302 | 19 February.
+     k 14 gold=S X4=hand:run                     type=marginalia x= 3249 w=  780 | Miss: Minister Buys. Vier 100gl
+  >> k 61 gold=S X4=-                            type=main_text  x= 4021 w= 1105 | 5. Maart. Rappt: en Res. op miss. Ar. C:O. z:
+     k 15 gold=C X4=nounit                       type=marginalia x= 2960 w= 1049 | onder sijne guarantie aan een Lt. van 't Regt:
+     k 62 gold=C X4=-                            type=main_text  x= 4036 w= 1124 | Haren; Capitulatie met den Capitein Sturt„
+
+== FN-nounit read 121 (G1, inv 3265, 3265_0032 verso) k=4 region 2_3265_0032-text_region-366-413-1133-760 n_seg=6 col=1 role=extra x[-..-]
+  >> k  4 gold=S X4=nounit                       type=marginalia x=  369 w=  938 | Attentaten van Bisschop 753:
+     k  5 gold=S X4=nounit                       type=marginalia x=  366 w=  791 | affgesanten van Stadt 719:
+     k  6 gold=S X4=nounit                       type=marginalia x=  386 w=  783 | audientie propositie 719:
+
+== FN-nounit read 121 (G1, inv 3265, 3265_0032 verso) k=5 region 2_3265_0032-text_region-366-413-1133-760 n_seg=6 col=1 role=extra x[-..-]
+     k  4 gold=S X4=nounit                       type=marginalia x=  369 w=  938 | Attentaten van Bisschop 753:
+  >> k  5 gold=S X4=nounit                       type=marginalia x=  366 w=  791 | affgesanten van Stadt 719:
+     k  6 gold=S X4=nounit                       type=marginalia x=  386 w=  783 | audientie propositie 719:
+     k  7 gold=S X4=nounit                       type=marginalia x=  392 w= 1107 | mediatie tusschen den Bisschop & de
+
+== FN-nounit read 121 (G1, inv 3265, 3265_0032 verso) k=6 region 2_3265_0032-text_region-366-413-1133-760 n_seg=6 col=1 role=extra x[-..-]
+     k  4 gold=S X4=nounit                       type=marginalia x=  369 w=  938 | Attentaten van Bisschop 753:
+     k  5 gold=S X4=nounit                       type=marginalia x=  366 w=  791 | affgesanten van Stadt 719:
+  >> k  6 gold=S X4=nounit                       type=marginalia x=  386 w=  783 | audientie propositie 719:
+     k  7 gold=S X4=nounit                       type=marginalia x=  392 w= 1107 | mediatie tusschen den Bisschop & de
+     k  8 gold=C X4=nounit                       type=marginalia x=  396 w=  653 | Stadt: 745: 749: 769:
+
+== FN-nounit read 121 (G1, inv 3265, 3265_0032 verso) k=7 region 2_3265_0032-text_region-366-413-1133-760 n_seg=6 col=1 role=extra x[-..-]
+     k  5 gold=S X4=nounit                       type=marginalia x=  366 w=  791 | affgesanten van Stadt 719:
+     k  6 gold=S X4=nounit                       type=marginalia x=  386 w=  783 | audientie propositie 719:
+  >> k  7 gold=S X4=nounit                       type=marginalia x=  392 w= 1107 | mediatie tusschen den Bisschop & de
+     k  8 gold=C X4=nounit                       type=marginalia x=  396 w=  653 | Stadt: 745: 749: 769:
+     k  9 gold=S X4=nounit                       type=marginalia x=  405 w= 1074 | debath tegens den Affgesante Frijaet
+
+== FN-nounit read 121 (G1, inv 3265, 3265_0032 verso) k=9 region 2_3265_0032-text_region-366-413-1133-760 n_seg=6 col=1 role=extra x[-..-]
+     k  7 gold=S X4=nounit                       type=marginalia x=  392 w= 1107 | mediatie tusschen den Bisschop & de
+     k  8 gold=C X4=nounit                       type=marginalia x=  396 w=  653 | Stadt: 745: 749: 769:
+  >> k  9 gold=S X4=nounit                       type=marginalia x=  405 w= 1074 | debath tegens den Affgesante Frijaet
+
+== FN-nounit read 121 (G1, inv 3265, 3265_0032 verso) k=11 region _3265_0032-text_region-370-1124-1048-349 n_seg=2 col=1 role=extra x[-..-]
+     k 10 gold=C X4=nounit                       type=marginalia x=  381 w= 1012 | besognes, 756: 76: 776: 790: 799:
+  >> k 11 gold=S X4=nounit                       type=marginalia x=  370 w= 1048 | Advijsen wegens Munster, 789:
+
+== FN-nounit read 121 (G1, inv 3265, 3265_0032 verso) k=19 region _3265_0032-text_region-360-334-2271-2894 n_seg=40 col=0 role=main x[360..1483]
+     k 18 gold=S X4=hand:index:outdent+end_ref_prev type=main_text  x=  373 w= 1122 | Officieren in Norwegen es. vide Dene=
+     k 44 gold=S X4=hand:index:short_prev        type=main_text  x= 1459 w=  649 | Jan Nagel 471: 475:
+  >> k 19 gold=S X4=nounit                       type=marginalia x=  377 w=  552 | marcken lita. D
+     k 20 gold=S X4=hand:index:outdent+end_ref_prev type=main_text  x=  364 w= 1809 | d'Ingelanden van ter Neuse & die van Captn. Miebrg 510: 518:
+     k 21 gold=C X4=nounit                       type=marginalia x=  367 w=  374 | Stadt 771:
+
+== FN-nounit read 121 (G1, inv 3265, 3265_0032 verso) k=25 region _3265_0032-text_region-360-334-2271-2894 n_seg=40 col=0 role=main x[360..1483]
+     k 24 gold=S X4=hand:index:outdent+short_prev+end_ref_prev type=main_text  x=  368 w=  781 | groenmarckt. 140: 380:
+     k 48 gold=S X4=hand:index:short_prev+end_ref_prev type=main_text  x= 1404 w= 1040 | Wedwe. Medenburch, 658: 683: 736:
+  >> k 25 gold=S X4=nounit                       type=marginalia x=  369 w=  574 | regieerders 278:
+     k 49 gold=S X4=hand:index:end_ref_prev      type=main_text  x= 1388 w=  713 | Jan Jans van Nes, 779:
+     k 26 gold=S X4=hand:index:outdent+end_ref_prev type=main_text  x=  360 w=  695 | glas in kercke 723:
+
+== FN-nounit read 125 (G3, inv 3445, 3445_0106 verso) k=3 region 2_3445_0106-text_region-641-434-1091-238 n_seg=3 col=0 role=extra x[-..-]
+  >> k  3 gold=S X4=nounit                       type=marginalia x=  641 w= 1091 | 20 nav: consent Holland, en de Petitie van
+     k  4 gold=C X4=nounit                       type=marginalia x=  670 w= 1055 | een millioen tot de magasynen. Raanhorst
+     k  5 gold=C X4=nounit                       type=marginalia x=  669 w=  483 | vyf 300r: versogt.
+
+== FN read 125 (G3, inv 3445, 3445_0106 verso) k=26 region 3445_0106-text_region-1758-1481-1084-451 n_seg=8 col=2 role=main x[1758..1793]
+     k 24 gold=C X4=-                            type=main_text  x= 1792 w= 1040 | tot ontslaging van het schip de songe maesten
+     k 25 gold=C X4=-                            type=main_text  x= 1788 w=  919 | en Cornelis. En versoek aan golowkin.
+  >> k 26 gold=S X4=-                            type=main_text  x= 1770 w= 1005 | 16 ang: miss: swart v: de voors: scheepen. Holl: ov:
+     k 27 gold=S X4=hand:index:date_start        type=main_text  x= 1773 w=  989 | 13 Sept: miss. Swart de voors: scheepen. Holl: ov.

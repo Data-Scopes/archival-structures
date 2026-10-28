@@ -1,0 +1,521 @@
+{
+ "n_inventories": 231,
+ "modes": {
+  "hand": 125,
+  "print": 106
+ },
+ "v4": {
+  "hand|extract_stats": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|join/segments": {
+   "n": 125,
+   "equal": 39,
+   "diff": [
+    "11182",
+    "11220",
+    "11281",
+    "11930",
+    "12297",
+    "3104",
+    "3107",
+    "3126",
+    "3127",
+    "3199",
+    "3221",
+    "3254",
+    "3256",
+    "3265",
+    "3274",
+    "3280",
+    "3283",
+    "3290",
+    "3303",
+    "3307",
+    "3308",
+    "3315",
+    "3320",
+    "3349",
+    "3350"
+   ],
+   "new": 0,
+   "n_diff": 86
+  },
+  "hand|join/stats": {
+   "n": 125,
+   "equal": 39,
+   "diff": [
+    "11182",
+    "11220",
+    "11281",
+    "11930",
+    "12297",
+    "3104",
+    "3107",
+    "3126",
+    "3127",
+    "3199",
+    "3221",
+    "3254",
+    "3256",
+    "3265",
+    "3274",
+    "3280",
+    "3283",
+    "3290",
+    "3303",
+    "3307",
+    "3308",
+    "3315",
+    "3320",
+    "3349",
+    "3350"
+   ],
+   "new": 0,
+   "n_diff": 86
+  },
+  "hand|join/units": {
+   "n": 125,
+   "equal": 39,
+   "diff": [
+    "11182",
+    "11220",
+    "11281",
+    "11930",
+    "12297",
+    "3104",
+    "3107",
+    "3126",
+    "3127",
+    "3199",
+    "3221",
+    "3254",
+    "3256",
+    "3265",
+    "3274",
+    "3280",
+    "3283",
+    "3290",
+    "3303",
+    "3307",
+    "3308",
+    "3315",
+    "3320",
+    "3349",
+    "3350"
+   ],
+   "new": 0,
+   "n_diff": 86
+  },
+  "hand|layout/lines": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|layout/pages": {
+   "n": 125,
+   "equal": 0,
+   "diff": [],
+   "new": 125,
+   "n_diff": 0
+  },
+  "hand|layout/regions": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|layout/scans": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|lines": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|mode": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|mode/regions": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|mode/scans": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|regions_meta": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|scans": {
+   "n": 125,
+   "equal": 123,
+   "diff": [
+    "11182",
+    "11281"
+   ],
+   "new": 0,
+   "n_diff": 2
+  },
+  "hand|types/regions": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|types/segments": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "hand|units/doc_id_map": {
+   "n": 125,
+   "equal": 39,
+   "diff": [
+    "11182",
+    "11220",
+    "11281",
+    "11930",
+    "12297",
+    "3104",
+    "3107",
+    "3126",
+    "3127",
+    "3199",
+    "3221",
+    "3254",
+    "3256",
+    "3265",
+    "3274",
+    "3280",
+    "3283",
+    "3290",
+    "3303",
+    "3307",
+    "3308",
+    "3315",
+    "3320",
+    "3349",
+    "3350"
+   ],
+   "new": 0,
+   "n_diff": 86
+  },
+  "hand|units/segments": {
+   "n": 125,
+   "equal": 39,
+   "diff": [
+    "11182",
+    "11220",
+    "11281",
+    "11930",
+    "12297",
+    "3104",
+    "3107",
+    "3126",
+    "3127",
+    "3199",
+    "3221",
+    "3254",
+    "3256",
+    "3265",
+    "3274",
+    "3280",
+    "3283",
+    "3290",
+    "3303",
+    "3307",
+    "3308",
+    "3315",
+    "3320",
+    "3349",
+    "3350"
+   ],
+   "new": 0,
+   "n_diff": 86
+  },
+  "hand|units/units": {
+   "n": 125,
+   "equal": 39,
+   "diff": [
+    "11182",
+    "11220",
+    "11281",
+    "11930",
+    "12297",
+    "3104",
+    "3107",
+    "3126",
+    "3127",
+    "3199",
+    "3221",
+    "3254",
+    "3256",
+    "3265",
+    "3274",
+    "3280",
+    "3283",
+    "3290",
+    "3303",
+    "3307",
+    "3308",
+    "3315",
+    "3320",
+    "3349",
+    "3350"
+   ],
+   "new": 0,
+   "n_diff": 86
+  },
+  "hand|wbc/parts": {
+   "n": 125,
+   "equal": 42,
+   "diff": [
+    "11182",
+    "11281",
+    "11930",
+    "12297",
+    "3104",
+    "3107",
+    "3126",
+    "3127",
+    "3199",
+    "3221",
+    "3254",
+    "3256",
+    "3265",
+    "3274",
+    "3280",
+    "3283",
+    "3290",
+    "3303",
+    "3307",
+    "3308",
+    "3315",
+    "3320",
+    "3349",
+    "3350",
+    "3351"
+   ],
+   "new": 0,
+   "n_diff": 83
+  },
+  "print|extract_stats": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|join/segments": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|join/stats": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|join/units": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|layout/lines": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|layout/regions": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|layout/scans": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|lines": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|mode": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|mode/regions": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|mode/scans": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|regions_meta": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|scans": {
+   "n": 106,
+   "equal": 100,
+   "diff": [
+    "3771",
+    "3772",
+    "3773",
+    "3821",
+    "3822",
+    "3823"
+   ],
+   "new": 0,
+   "n_diff": 6
+  },
+  "print|split_model": {
+   "n": 32,
+   "equal": 32,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|split_stats": {
+   "n": 32,
+   "equal": 32,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|types/regions": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|types/segments": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|units/doc_id_map": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|units/segments": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|units/units": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  },
+  "print|wbc/parts": {
+   "n": 106,
+   "equal": 106,
+   "diff": [],
+   "new": 0,
+   "n_diff": 0
+  }
+ },
+ "units_vs_19g": {
+  "hand|units/segments": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "n_diff": 0
+  },
+  "hand|units/units": {
+   "n": 125,
+   "equal": 125,
+   "diff": [],
+   "n_diff": 0
+  }
+ },
+ "missing_in_v5": {},
+ "layer_level": {
+  "layout/params.json": "differs (15y-b)",
+  "layout/stats.json": "differs (15y-b)",
+  "manifest.json": "differs (15y-b)",
+  "progress.log": "differs (15y-b)",
+  "status.tsv": "differs (15y-b)",
+  "types/params.json": "equal",
+  "types/stats.json": "differs (15y-b)",
+  "units/params.json": "differs (15y-b)",
+  "units/stats.json": "differs (15y-b)",
+  "wbc/corpus_default.json": "differs (15y-b)",
+  "wbc/corpus_default_default.json": "differs (15y-b)",
+  "wbc/corpus_default_robust.json": "differs (15y-b)",
+  "wbc/wbc_per_inventory.tsv": "differs (15y-b)",
+  "wbc/wbc_per_inventory_default.tsv": "differs (15y-b)",
+  "wbc/wbc_per_inventory_robust.tsv": "differs (15y-b)",
+  "wbc/wbc_stats.tsv": "differs (15y-b)"
+ }
+}

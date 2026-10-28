@@ -8,6 +8,11 @@ through `coreshare` and the finished layer is audited. Run it from the AS root, 
 virtualenv (`.venv/bin/python scripts/run_text_layer_v4_full.py ...`). It never writes into a
 `--src` dir.
 
+Step 19e (phase 13): `--version v5` (default `v4`) builds text layer v5 of 1.01.02 with preset `sg_1.01.02_v5` (v4 plus
+index page sides and index entry units in hand volumes; `layout/pages/`). 1.10.94 has no v5 (`--version v5 --only
+1.10.94` is an error). Everything below is written for v4 and holds for v5; the throughput constants are v4's; the log
+is still `run_v4.log`.
+
 v4 decides hand or print per volume: the build measures the line-box height of the volume's own
 PageXML (cut 87.75 px, raw pixels, as in step 15u) in a pre-pass of the extract stage, picks the
 hand or the print rules for the layout, types and units stages, and records the decision under
@@ -76,7 +81,10 @@ value sets) and, for a layer with `mode/`, the v4 ones: a mode file per inventor
 hand or gated inventory, `split_gate.split` equal to share >= min_share, unit methods `print:*` only in print and `hand:*` only in hand inventories, and
 `hand` and `print` parameter sets in `layout/`, `types/` and `units/params.json`. The share of
 merges with a lower-case right side is reported, not judged. The script logs the audit outcome and
-does not fail on it.
+does not fail on it. Since the phase-13 review the script runs the step-19e copy of that audit
+(`reports/data/phase-13-register-index-volumes/step-19e/audit.py`): the same checks, plus, on a `*_v5` layer, `layout/pages`
+for every hand and no print inventory, no duplicate `layout_region_id` in a scan, `hand:index*` units only on flagged
+sides and no `index` unit on a flagged side.
 
 Predictions are rough. Output size is the XML bytes (an archive counts as its size times the
 compression ratio 4.24) times the per-archive output ratio. Wall time is a range, from the throughput
@@ -109,8 +117,13 @@ from archival_structures.text_layer.presets import PRESETS, predict_seconds, pre
 
 BUILD = ".venv/bin/as-build-text-layer"
 CORESHARE = "/Users/Shared/claude_projects/data_scopes/shared-tools/coreshare.py"
-AUDIT = "reports/data/phase-12-hand-print-box-height/step-15w/audit.py"
+# Phase-13 review (2026-10-28): the 19e copy of the 15w audit; same checks, plus the v5 checks on a `*_v5` layer.
+AUDIT = "reports/data/phase-13-register-index-volumes/step-19e/audit.py"
+# Step 19e (phase 13): `--version v5` builds text layer v5 of 1.01.02 (v4 + index page sides and index entry units in
+# hand volumes). ARCHIVES stays the v4 map (tests and scripts import it). The throughput constants below are v4's.
 ARCHIVES = {"1.01.02": "sg_1.01.02_v4", "1.10.94": "sg_1.10.94_v4"}
+ARCHIVES_BY_VERSION = {"v4": ARCHIVES, "v5": {"1.01.02": "sg_1.01.02_v5"}}
+ALL_ARCHIVES = sorted({a for m in ARCHIVES_BY_VERSION.values() for a in m})
 SPACE_FACTOR = 1.2
 MIB = 2 ** 20
 
@@ -205,10 +218,10 @@ def xml_bytes(path):
     return nbytes * ARCHIVE_XML_RATIO if Path(path).is_file() else nbytes
 
 
-def link_archive(archive, srcs, work_dir, log):
+def link_archive(archive, srcs, work_dir, log, version="v4"):
     """(Re)create `<work_dir>/<archive>/` with one symlink per inventory; the first source wins.
     Returns {inv: link path} in inventory order."""
-    pattern = PRESETS[ARCHIVES[archive]].source_pattern
+    pattern = PRESETS[ARCHIVES_BY_VERSION[version][archive]].source_pattern
     target = Path(work_dir) / archive
     target.mkdir(parents=True, exist_ok=True)
     mode = target.stat().st_mode
@@ -307,8 +320,10 @@ def archive_summary(out_dir, archive):
 def build_cmds(archive, args, work_dir, out_dir, subset_file, rebuild_file=None):
     """[coreshare commands] (step 15yr: no --estimate call any more). With `rebuild_file` (the inventories of --rebuild, one per line, no
     comments) two commands: a forced extract of those inventories, then every stage over the whole layer."""
+    version = getattr(args, "version", "v4")
+    preset = ARCHIVES_BY_VERSION[version][archive]
     common = [BUILD, "--pagexml-dir", str(Path(work_dir) / archive), "--out-dir", str(Path(out_dir) / archive),
-              "--preset", ARCHIVES[archive], "--stage", "all"]
+              "--preset", preset, "--stage", "all"]
     if subset_file:
         common += ["--inventories-file", str(subset_file)]
     if args.limit:
@@ -316,12 +331,12 @@ def build_cmds(archive, args, work_dir, out_dir, subset_file, rebuild_file=None)
     real = common[:]
     if args.republic_dir.get(archive):
         real += ["--republic-dir", str(args.republic_dir[archive])]
-    coreshare = ["python3", CORESHARE, "run", "--project", "archival-structures", "--label", f"v4-{archive}",
+    coreshare = ["python3", CORESHARE, "run", "--project", "archival-structures", "--label", f"{version}-{archive}",
                  "--want", str(args.want), "--min", str(args.min), "--wait", "--"]
     cmds = []
     if rebuild_file:
         forced = [BUILD, "--pagexml-dir", str(Path(work_dir) / archive), "--out-dir", str(Path(out_dir) / archive),
-                  "--preset", ARCHIVES[archive], "--stage", "extract", "--force",
+                  "--preset", preset, "--stage", "extract", "--force",
                   "--inventories-file", str(rebuild_file)]
         cmds.append(coreshare + forced + ["--workers", "{workers}"])
     cmds.append(coreshare + real + ["--workers", "{workers}"])
@@ -329,10 +344,10 @@ def build_cmds(archive, args, work_dir, out_dir, subset_file, rebuild_file=None)
 
 
 def archive_pair(text):
-    """`ARCHIVE=VALUE` argument; the archive must be one of ARCHIVES."""
+    """`ARCHIVE=VALUE` argument; the archive must be one of ARCHIVES_BY_VERSION (union over versions)."""
     archive, sep, value = text.partition("=")
-    if not sep or archive not in ARCHIVES or not value:
-        raise argparse.ArgumentTypeError(f"expected ARCHIVE=VALUE with ARCHIVE in {sorted(ARCHIVES)}, got {text!r}")
+    if not sep or archive not in ALL_ARCHIVES or not value:
+        raise argparse.ArgumentTypeError(f"expected ARCHIVE=VALUE with ARCHIVE in {ALL_ARCHIVES}, got {text!r}")
     return archive, Path(value)
 
 
@@ -350,7 +365,9 @@ def parse_args(argv):
     ap.add_argument("--out-dir", required=True, type=Path, help="layer base: <out-dir>/<archive>")
     ap.add_argument("--work-dir", type=Path, default=Path("data/text_layer_v4_full_inputs"),
                     help="local dir for the input links (default %(default)s)")
-    ap.add_argument("--only", choices=sorted(ARCHIVES), default=None, help="run one archive")
+    ap.add_argument("--only", choices=ALL_ARCHIVES, default=None, help="run one archive")
+    ap.add_argument("--version", choices=sorted(ARCHIVES_BY_VERSION), default="v4",
+                    help="text layer version (v5: 1.01.02 only; default %(default)s)")
     ap.add_argument("--limit", type=int, default=0, help="only the first N inventories per archive (smoke)")
     ap.add_argument("--check-only", action="store_true", help="do the checks, build nothing")
     ap.add_argument("--want", type=int, default=8)
@@ -367,6 +384,10 @@ def parse_args(argv):
     for archive, path in args.rebuild:
         rebuilds[archive] = path
     args.src, args.republic_dir, args.inventories_file, args.rebuild = srcs, republic, subsets, rebuilds
+    known = ARCHIVES_BY_VERSION[args.version]
+    named = set(args.src) | set(republic) | set(subsets) | set(rebuilds) | ({args.only} if args.only else set())
+    for archive in sorted(named - set(known)):
+        ap.error(f"archive {archive} has no text layer {args.version} (known: {sorted(known)})")
     return args
 
 
@@ -377,7 +398,7 @@ def main(argv=None):
         print("run this script from the archival-structures root (pyproject.toml not found here)",
               file=sys.stderr)
         return 2
-    archives = [a for a in ARCHIVES if args.only in (None, a) and (args.only or a in args.src)]
+    archives = [a for a in ARCHIVES_BY_VERSION[args.version] if args.only in (None, a) and (args.only or a in args.src)]
     srcs, subset_files = args.src, args.inventories_file
 
     # Checks: directories.
@@ -391,7 +412,7 @@ def main(argv=None):
         if subset_files.get(archive) and not Path(subset_files[archive]).is_file():
             errors.append(f"{subset_files[archive]} does not exist")
     for archive, path in args.rebuild.items():
-        layer_status = args.out_dir / archive / PRESETS[ARCHIVES[archive]].name / "status.tsv"
+        layer_status = args.out_dir / archive / PRESETS[ARCHIVES_BY_VERSION[args.version][archive]].name / "status.tsv"
         if not path.is_file():
             errors.append(f"--rebuild {archive}={path} does not exist")
         if subset_files.get(archive):
@@ -425,7 +446,7 @@ def main(argv=None):
     # Link, count, predict.
     total_out, plan, rebuild_files = 0.0, {}, {}
     for archive in archives:
-        links = link_archive(archive, srcs[archive], args.work_dir, log)
+        links = link_archive(archive, srcs[archive], args.work_dir, log, args.version)
         subset = read_subset(subset_files[archive]) if subset_files.get(archive) else None
         if subset is not None:
             missing = [i for i in subset if i not in links]
@@ -444,7 +465,7 @@ def main(argv=None):
         sizes = [xml_bytes(links[i]) for i in chosen]
         out_bytes, low, high = predict(archive, sizes, args.want, args.min)
         total_out += out_bytes
-        layer_status = Path(args.out_dir) / archive / PRESETS[ARCHIVES[archive]].name / "status.tsv"
+        layer_status = Path(args.out_dir) / archive / PRESETS[ARCHIVES_BY_VERSION[args.version][archive]].name / "status.tsv"
         recorded = recorded_sizes(layer_status)
         unsized = sum(entry_bytes(link) for inv, link in links.items()
                       if not (inv in recorded and link.is_file() and link.stat().st_size == recorded[inv][0]))

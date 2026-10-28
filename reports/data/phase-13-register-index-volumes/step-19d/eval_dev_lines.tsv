@@ -1,0 +1,493 @@
+read_id	group	inv	scan_id	page	line_id	label	E1	E2	E3	E4	E5	v4_hand	split_only	v4_print
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_14b4abf2-b9fc-497a-9aa5-ca23f02922fd	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_4f0a2964-fcfa-49d5-8248-efdd43585567	H	-	-	-	-	-	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_290c6a49-291d-4fcc-8042-645c24c92cd6	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_720e03b8-cf55-49fd-8c20-734269c580da	C	-	-	-	-	-	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	c012762b-c8ba-43a9-9a5d-909d5d3336ae	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	dca9ca77-3650-457c-87c0-eddc6a958446	S	hand:region	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_604d98fa-593a-4b8c-9010-2c22c3199c9d	C	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_611a2a32-bd0a-4c8d-990a-e2532ce36bd0	S	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:short_prev	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_3f097bb5-6a91-4e60-b73d-7b791ef70b01	C	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_33715bc7-2e25-473f-847a-2063cfc692e1	C	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_5ead258b-1d2b-46c6-a537-f7204d88b72e	S	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:short_prev	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_67c13240-fa8a-4855-b178-683ef0beb1f3	H	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_3d2d8ce9-12e7-41ff-ba85-92a80bd15081	S	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent+short_prev	hand:index:short_prev	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_320311cb-5030-45f2-8911-e36ba020a268	C	-	-	-	-	-	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_09cf7140-daf4-4342-9976-228ac8642052	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_096f547f-ecd9-4228-8106-fe2814f98e8c	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_1890451e-b268-4632-aaad-8ebd90048dd8	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_3f72d86e-3b59-43e1-9569-0d4e11c7cf3f	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	d80d8ac0-eec8-4735-8e80-82ae8c882344	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_5a01d873-9d06-434c-b61f-fe53003e42e9	C	-	-	-	-	-	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	d9b2f98b-9e5a-4d72-b2ad-10c22dadf5cf	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	ed855d30-706e-4fec-b344-5ccc1ae9bf77	C	-	-	-	-	-	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_46428ff2-05c4-481e-82ac-a7b250da234d	S	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_3a2ab3fb-843e-46ce-b314-ce6f263de805	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_42a52c27-ce2f-4c47-b1dd-8f0ded348f5a	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	b583121e-642b-435d-9aa7-eea883756ca5	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	a51d4612-c590-41ac-a1b5-0bfed1f256eb	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	e1f73ce3-2b46-421d-86db-727bf74c6ac2	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	f80ce212-b07e-4c28-a64e-b88edc1675f7	C	-	-	-	-	-	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_954b33df-77ab-43f8-9de1-51258d185d7e	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_4d0cd4c4-01c1-46ce-ac92-e72872df21a9	S	hand:region	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_28334658-51d3-4d45-ba10-5dcf19e5f715	C	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_40965035-0c7a-4d0c-bfc5-89dacd0851ab	S	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:short_prev	-	-	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_35c56bdd-731d-4a73-8330-54e4032665dd	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_2b423227-69a1-4c02-9dff-f51deb6bf604	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	ab6a6d0b-ae57-4aa6-9c1d-2ecc6b1d41ff	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_180e155d-fad3-479f-a747-2783eadd8d0e	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+1	G1	3320	NL-HaNA_1.01.02_3320_0006	recto	line_99a60339-d66a-462c-9521-0e3ea89dc0a5	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_40d3a4d9-0ad8-4727-a1b9-be638be06478	H	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_36d53f4f-a07f-40eb-841f-3cc779fef4ca	H	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	f69de021-7922-4200-9c8f-d18a36441a04	S	-	-	-	-	-	-	-	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_169bde16-a85b-4685-b28b-e0daefd03182	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	a6906f7d-f7b0-49c0-ba67-c11f1f36a7b6	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_79e5a4a8-78bd-425d-8d8b-a929d41467e7	C	-	-	-	-	-	-	-	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	d1c033b8-d125-4ce2-bd1e-e0fd0d621d9d	S	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	b97a10b5-71dc-4c92-8842-7abfe78f0185	S	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_781d5580-5df1-42c0-ac56-38245706a2e2	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_54351567-fdd6-4dcc-bf7c-289a870045a2	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_6ece7146-67ac-49ca-a49f-1a15a23e04fd	C	-	-	-	-	-	-	-	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_83a24bc4-c427-4de3-9588-20b66e23a298	S	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	bf885fd3-5ea9-4cc0-b07e-12d800030ca7	H	-	-	-	-	hand:index:indent	-	-	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	f5dae458-6241-4cbc-ae09-a8e3b1f3a770	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	aa29b723-e894-4059-b531-13742309fc14	C	-	-	-	-	-	-	-	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_5ca52b96-ebef-45a5-8f0f-dd03585b0ace	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_5675c50d-761b-45de-8690-dac67d1297bc	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_2bc260b6-ae39-4dff-93d8-35a44e5d3e64	C	-	-	-	-	-	-	-	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_20ce5186-50a9-4402-80e5-752425bea695	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_24d29cef-7f75-489b-9afd-e02f29f73464	H	-	-	-	-	-	-	-	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	e8ffb93a-451b-4558-8188-edebb957e38a	H	-	-	-	-	-	-	-	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_944fe7f8-234e-40d2-9e49-3b3317438472	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_8d05b1cf-5e6f-485b-ac76-bb5eec64cd6d	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	line_3e25cfe5-90b0-4115-bae8-5068231505c4	C	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+2	G1	3315	NL-HaNA_1.01.02_3315_0012	verso	e8a4a1ce-c785-410a-86ac-7f44547549e4	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_91071fa1-63fa-4b82-b81f-3c35f3411bad	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_72b22234-6761-4095-9117-126055ef38c8	C	-	-	-	-	-	-	-	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_89f96ff6-ec64-4d19-a04c-2959c63ad7f8	S	hand:region	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_8781ef97-8223-47f7-9d65-e8b9ce59d6b3	C	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	hand:index:indent	-	-	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	d80d69c6-37d8-4dc8-b4cc-21df6371d19b	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_30079bf6-ca49-425d-aaac-d76681dad0db	C	-	-	-	-	-	-	-	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_1b72333d-bc26-4f2b-93bb-9cabf0f7b576	S	hand:region	hand:region	hand:region	hand:region	hand:index_start	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	cd08c261-b423-40e5-b1a9-987ce9b65a68	C	-	-	-	-	hand:index:indent	-	-	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	e4cffcb2-e3b3-441b-903e-45385707cbb5	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	b93469d8-6c1a-45ec-9d45-2c30f379806d	C	-	-	-	-	-	-	-	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	ba3e6510-33db-4fc3-b8b1-01c7a97dffdd	S	hand:region	hand:region	hand:region	hand:region	hand:index_start	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_9e6c878d-3d94-4d2a-9a98-810255aef452	C	-	-	-	-	hand:index:indent	-	-	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_94608dbc-fb0a-4127-84f2-c85f8640922c	H	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_7bfb49cd-88f5-44c6-8101-79d6deee7068	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	d30ca0b9-16fc-403d-b9a0-808fde1f424e	C	-	-	-	-	-	-	-	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_1b08f68f-42fc-40e8-9b98-ab8968f032d0	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_8bd595d7-854e-4e86-aa9f-5e847fa4e3a2	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_43e6bc80-a4b5-4ba9-b7ea-5c8f72375c19	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	f7fa3d68-80f3-44a7-8f26-01b128265479	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	f1cbac40-5758-4f4d-91e4-1da30d963188	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	line_272398e6-bade-49f3-8657-e0120d3ea35f	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+3	G1	3290	NL-HaNA_1.01.02_3290_0041	verso	ff26c3cc-8389-48b0-8884-55ccb876a239	C	-	-	-	-	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	f992da20-4191-4b68-989d-dc57b56aa54d	H	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	c9857c48-0e37-4a4b-9962-7f21277ed94a	H	-	-	-	-	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_607b8507-e98c-41ab-a05d-de9fe75ee3b3	S	-	-	-	-	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_5fcbc38e-7f43-4df1-9cd7-1209f713bd5e	C	-	-	-	-	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	ff33a30b-6942-4178-9e9d-9a400fc714e6	C	hand:index:outdent	hand:index:outdent	hand:index:outdent+end_ref_prev	hand:index:outdent+end_ref_prev	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	ffaee94b-9f49-4d86-acd1-037bb873ac26	C	-	-	-	-	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	c554abec-d6a1-41fc-98cb-f8cee1e990ad	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	a73f38ec-c6c7-4c47-aba2-ec9f4d20ca45	S	hand:index:outdent	hand:index:outdent	hand:index:outdent+end_ref_prev	hand:index:outdent+end_ref_prev	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_59bcb680-4a76-4eb0-8214-4dbb4ea9a34f	C	-	-	-	-	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	e44cebe1-8537-4969-8460-561c305774e6	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	a4a518fa-036c-432e-be36-d1157444519e	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_29318a35-2294-4e23-943b-b0502da21871	S	hand:index:outdent	hand:index:outdent	hand:index:outdent+end_ref_prev	hand:index:outdent+end_ref_prev	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_44508bef-5696-4753-bb46-5e64bd3b35b9	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	d9f8ea3c-d390-41db-9a9d-ed4cd1e3d222	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_38bc75a8-08b9-49b2-a1b4-a5740623be0d	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_1100e135-cd70-4f2b-9337-a8c4c3149e37	C	hand:index:outdent	hand:index:outdent	hand:index:outdent+end_ref_prev	hand:index:outdent+end_ref_prev	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_5b7d77ac-083b-415c-a0c0-b16f3e2f4d2b	C	-	-	-	-	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_8f2f7917-6e9f-4f5d-919b-99af6a59e2a0	C	hand:index:outdent	hand:index:outdent	hand:index:outdent+end_ref_prev	hand:index:outdent+end_ref_prev	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	adac8120-34ab-4673-ba81-3e7f00ce4d96	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	d00b997f-39ff-4834-b1f2-98b23801737a	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	ef591055-a0f4-4ac2-833a-7d02a67c4c83	C	hand:index:outdent	hand:index:outdent	hand:index:outdent+end_ref_prev	hand:index:outdent+end_ref_prev	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_73201c20-19c0-4b52-a153-792ea882678b	C	-	-	-	hand:index:short_prev	hand:index:short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_67845832-8293-4104-a096-bfa6382b2064	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	d8400035-dd69-4bc7-a60d-c6a7e691cbd2	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_372a135f-d06d-444e-bb37-3306f455a89b	S	hand:index:outdent	hand:index:outdent	hand:index:outdent+end_ref_prev	hand:index:outdent+end_ref_prev	-	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_30181071-68ab-48dd-b2d5-5d153d9b4dcd	C	-	-	-	hand:index:short_prev	hand:index:short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_56cd0293-e7cf-499f-a4b7-27e1e673ea63	C	-	-	-	hand:index:short_prev	hand:index:short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	cba8c170-94e8-4001-ad26-7d0c4fd09d28	S	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_64e70082-5fe2-410f-a94a-570858df885c	C	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_0d0f35c8-49c8-4656-bb5b-1da5634604c4	C	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_45a07b30-83ac-4c87-bc40-50f98fb45a6d	C	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	b52cb8b5-1cfe-4640-932b-f4debee35427	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_36e1ec55-5b12-4ddf-9415-1adbdab50ede	C	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	faeda286-9343-4785-878f-daabf7cbb2ec	S	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	cc35e7d6-2891-41dd-af52-655726b4c00c	C	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_16cee3e9-fe7b-4fb1-850e-d0021f2c23ce	S	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_77b23859-8146-40a1-95d2-b5b33a211eb5	C	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_71e7b4ac-5e8b-4267-9c00-e9478c6708fd	C	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	f798f06c-28df-4955-8fdb-f57562560012	S	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	ad9031ae-8de6-4c00-a47e-5c7d17c262d8	C	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	b356bccd-4eda-451d-847e-ceb680ea9d74	C	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	bf6e0c52-565c-43e5-ac7d-fa76a72ffef6	C	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_77fd32fe-41e8-4ec6-955a-4635d01d7964	S	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_84e74b47-2543-4fcf-960f-b84e58fe2411	S	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_0185ee3b-bb37-4037-b7f8-d0ec401f60ac	C	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	c9d3627b-fb8d-4d90-b058-f3039a7dd69b	C	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_24bcfcfd-a219-4f8e-b09e-c4bb1511343e	S	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_822c2b9a-1aae-474d-9301-8a39dd93c5a1	C	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_270da522-3f06-4f48-bd52-913838a021ae	C	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:indent+short_prev	-	-	
+11	G2	3459	NL-HaNA_1.01.02_3459_0036	recto	line_52a9fe1f-a208-4768-a62f-17b114ee3387	C	-	-	-	-	hand:index:indent	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_8cfd344e-1c13-4b7d-af05-188fa4641b10	H	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_8fdcf1fd-c89d-440e-8cf9-19af21024174	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_50e74b3f-ea6e-4f66-a3e1-366d8af251a2	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	ad9c2587-f631-4cc5-91ca-05f7723e7358	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_6952f269-9415-4cac-9f69-e6da86e588ec	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_76224bae-80e5-4aea-8664-8c26acac7863	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_5fe8106e-d79c-4634-b777-d8911170633f	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	e9e64c47-5c88-4f45-b94e-b98a2bbe718c	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_71320661-0e7b-4786-a819-53cc620e47fd	S	hand:region	hand:region	hand:region	hand:index_start	hand:index_start	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	f7bea59c-095b-494f-a4e3-b097483e3bc2	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_42fc4253-371d-4105-82f3-d28d35a4486a	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_0f306249-f422-470a-91f0-741ebe9d8137	C	-	-	-	hand:index:short_prev	hand:index:short_prev	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_2b0616e0-fa68-4bfe-ae90-61b16a19f9e7	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_8207bb40-71f2-4505-829d-a6c1d23814b0	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_71671b89-9d0e-4226-b39d-b60dda664b1a	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_7e204f56-36dd-4631-80aa-ce358391870d	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	f56401b4-d049-4463-bf13-8392a267484f	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_220bfa17-e4b2-4c8a-9cff-5d188dd22303	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_22b6778e-cb94-4d24-a05b-9fb8b7399160	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_315ad4d2-58e4-41b1-a12c-da94643721ec	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_0fd542f2-cd82-461b-aaee-275d7a97eebf	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_5a2a3e47-65e3-42ee-93a3-e81d29ccfd03	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_900212e4-2cd2-423b-a939-bbc79eba4674	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_3164325b-7f9d-4a9f-94f5-df530b229343	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_001b92ec-10fa-465e-b77d-6ef5249b0589	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	d219b45f-e9b1-46bb-88b6-9353c416d788	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	f6419091-1d38-4872-bfe8-881a60dc1ef6	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	d88f3ec3-0a5f-405d-9cac-7fc4b7824481	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	e9f4e182-f356-4eb7-84b3-f5e9fc3b959f	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_0dece914-314c-4f43-92f2-c1f0fcfd9447	H	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	a04c4aab-2f8d-4ab2-bcd9-9e8bffb3bfbd	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	e36578db-dab9-475e-bfe2-38b13fe2e52c	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_03fbcef5-7c73-4ac5-ae7e-274262eaf4d2	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_9bd7955d-d820-4cc6-a92a-6dd191699ec2	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	cf59518c-f41c-4d05-8387-26c985c0bde4	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_8c50012c-c1b2-4b41-b820-533224f9b4da	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	b54acd03-546f-4e07-93ec-a4ac359309ff	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_5cac0bf1-66ce-41af-bbe6-0302ca9cfcf5	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	da8f1c12-b6ee-4e99-acc8-af218b2b042e	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_2feae87f-c1c1-4a01-a3f9-1ad632d1284d	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_30380e27-8b2d-46ea-a84d-1f4d6b28ff86	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	f97b85d1-3466-4393-a4b5-3adf207980cc	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	d7b49eb1-fff4-4021-a9bb-6a7c890dbb65	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	f70b7cf2-6a08-4b7e-ae70-0eeae1e81891	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	f501aa6a-1c6b-44dc-8890-da0ecf4abe37	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_87e675e7-7de0-4d68-ac99-79dec51628a2	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_43b3a5bd-d2d9-4038-ba17-7454b797cc2e	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_45567697-637c-413f-87e2-e8c7ddc96d49	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_04558f08-6996-4829-8027-71ce2662ba2f	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_06f69937-3a85-433e-ac4c-bf37d28c199e	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_2cd8e204-1f65-4c58-9523-ec8f5e55f15f	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	e5a7f83b-1882-41b3-a9f1-b0d0b9266793	C	-	-	-	-	-	-	-	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_3f4930d4-fbb7-4ab2-a76a-0cf8d749d586	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+12	G2	3421	NL-HaNA_1.01.02_3421_0053	recto	line_1788fa16-4561-4060-a111-39553fe44c01	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_47a1a9fa-17d5-4654-ae1b-b6f77d869741	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_2c58e942-7e6a-4f92-bf09-570d341f86cd	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_5663d012-0fef-4f34-9b3d-cc4ced07f974	C	hand:region	hand:region	hand:region	hand:region	hand:index_start	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_72737fe6-f19b-4f05-9731-d90d4d8f9507	C	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_9d9d32b3-d5dd-4bad-8ce7-3bae9c96f964	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_024f8896-4ce7-4f07-b616-1ce3bf5699d4	C	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_635bb464-0333-4fdf-8f87-2f975f1eeb0e	C	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_00dfb3ac-88a8-4c09-b50d-5bf8d5dd0589	S	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	bb874d71-c32c-4223-94d2-be9c23d82a81	C	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_1049a2a2-aa2e-416c-9381-902218d5e659	S	hand:region	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_8e843d69-758a-4a18-a72f-fc5f758f3111	S	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	eb88e6fa-4910-4041-834d-d46bbc02ad61	C	-	-	-	-	hand:index:indent	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_54c378d5-3e0d-4622-ad4d-53e122373ca7	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	e2b1c8fb-fe91-4e91-a575-1ce9cbc87e12	H	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_48a3c3b8-56b1-4686-a89f-424fd56f8628	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_02b65159-77b9-40d1-b953-ae1d1722c8a2	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	ea90f5a7-4266-41cf-823e-f0eb04974bfc	S	hand:region	hand:region	hand:index_start	hand:index_start	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_4f24b08f-866e-47d0-896a-4c13c779d99b	C	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	e33191bc-fd59-4e23-80f9-f1257fb91a4c	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_479a2f73-d4f4-4b65-8f36-f2a94ba30800	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_9d552bfd-f4b5-419a-9e19-c01fa611dba5	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_906dfbaf-2472-4e54-8329-45f0c78f84c1	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_437390eb-8d09-4e3c-8bae-c30e89c31ae7	H	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_8dea4dba-c4cc-4433-ac8c-76f5e4630b39	?	-	-	-	-	hand:index:indent	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_8c0ff515-770f-46a2-a998-4d30303f7ab3	C	-	-	-	-	hand:index:indent	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	deca3a84-1699-4e99-b9a0-1fb821319a38	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_398b229c-2a49-4d21-86e0-5c2d801040d1	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	ff0d6f69-3130-4b59-8015-a8905ac4cdb2	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	b016926a-ae47-48f3-89e0-9bac7f987946	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_16737654-dbb3-44c8-a4c5-91d348de4ece	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_007e09f8-d05b-4e39-b622-858919b228ee	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	f6345f3e-9007-4bef-9299-4480e93dd722	S	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	db02287a-e4ac-4cc2-8943-412c52f1cbaf	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_2461a890-2d45-4fef-a5b3-7c03b4be8dc9	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_9d8aca6b-dadf-46f9-8390-f4b800901bcb	C	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_71d458aa-5eb3-4c22-8840-7ab75d8d8c77	S	hand:index:outdent	hand:index:outdent	hand:index:outdent+end_ref_prev	hand:index:outdent+short_prev+end_ref_prev	hand:index:short_prev	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	fcb16e1f-bb93-463d-94ad-891cfb096c5a	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_8af49b85-094a-4d4e-91b9-185a73e9eac6	S	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_0b21afa8-7d64-4771-8a93-47a3d5fc5821	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	cd94c580-601e-4f56-9dfa-e50bbdda0635	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_102cfa48-0a75-4701-82e6-271928ac20ee	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_422fbc21-5a0c-474d-a60f-8af91b314e9e	C	-	-	-	-	-	-	-	
+13	G2	3522	NL-HaNA_1.01.02_3522_0010	verso	line_1f734c06-102a-4280-82e8-51dfd442e2ec	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	ce6d2a47-7bf1-4227-adad-b6a3a8f073f1	H	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	e877c563-4752-43bb-8f81-16bfc776bac1	S	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_1728a121-c3b5-4470-bc85-6d7e60303533	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_29361d67-a73e-435d-8830-c9c93158a14d	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_4ebe78bc-24f0-4621-82f8-4b0637318503	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_5d4de374-234c-4053-b5de-efe77a1cb694	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_2ec67765-1b88-4348-bd71-05f7b5ac326d	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_72368f0a-c544-459e-b361-c38036b9687a	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_30800f97-2134-4310-86d5-8390e3596f19	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_7595006d-ef26-4abb-a8ad-0f1882b55d3d	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	ffade09c-99e3-4eac-97ed-7f1af51f8fd5	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_56a0b993-9809-4b81-abf2-d69560942478	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_8d671b9d-7ce3-482e-acdd-ea5bf9dd7158	S	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_504f04b4-0f2e-478d-9592-5e75259840e2	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	dc8b2f01-5442-4671-a86e-55295b9c07d2	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_587f6b3e-c357-4ce6-b6a8-4fd8bb4392b8	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_2dd61eb9-9d3b-4021-8499-0cf6b7f32aae	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_0e98ec03-9236-44d6-afda-1f5aa5c282e2	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_64c1a660-a90e-4030-8e07-8119673db159	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_3bccb389-cbb4-4a59-84cf-905e9dfa68d5	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	a39d8665-daf8-4d55-b1e2-694d93e62fa9	S	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	hand:region	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_12894ca0-9904-4185-826b-b44edf0d434b	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_3c345c32-84e5-442c-b30f-76e1ba7444a5	C	-	hand:index:date_start	hand:index:date_start	hand:index:date_start	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	e71f11d3-dc95-4848-b435-15dd41a22a1a	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_4b877ef2-9454-4293-8422-1b89f8cc6822	S	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_68f8c9ac-e9aa-41af-8f93-4594878895cf	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_0904b464-ddb4-4b17-a189-4a3f63101f8e	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_81d125e7-6d0e-433a-ae3f-f6fc2ce58c23	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_026eb3a5-6887-465f-9460-983cd3bdac7a	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	c9e0a58e-bf9f-4a23-8958-55b39eee3f3e	S	hand:index:outdent	hand:index:outdent+date_start	hand:index:outdent+date_start	hand:index:outdent+short_prev+date_start	hand:index:short_prev	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_13be1575-211a-4f70-a946-22a806a7111b	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	ece1cb1f-19b5-4558-84aa-aafa36ead960	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_2540946c-246d-4151-b017-f2d6a09cd25c	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	c24ca4c0-54a1-41be-aeef-4932eb92b9ce	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_3287bd73-d41e-41f7-b4d4-f4652d72d671	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_6cb7110a-0a9a-449b-95fc-ec393ef79bc1	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_7c787eb3-88c3-4001-a31c-e97a6b532986	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_969f348b-95f3-4a9c-9de7-1077ee0a39b7	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	ff58d993-bfe2-4634-bdae-ece47ab2bf36	H	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	ffc6a14f-7299-4536-91ab-41180ad915d5	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	eb6cec8a-148c-41ee-9e50-d3f526416858	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_83dbeabe-8e94-4929-a94c-306e60fdbcda	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_34bb2d85-3ee0-4799-9ef2-3e7912105e60	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	cb1f1c5c-c7a1-4a22-b0cc-6f2007dd967a	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_0ebebf13-5776-4427-be84-9eccac789450	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_8ce0214d-e978-47de-ab24-f75f092f2337	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_2ba4fdfa-f015-44fb-ab82-a20fbe39da83	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	d846494f-75e0-4abe-a6ff-816699a3efa5	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	e9960a44-7687-41a4-adae-74d33bac69fb	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	c12ee076-271d-41f5-a725-06d30c1dd00b	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_7682328c-e13e-4fbf-92db-cb093d20e500	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_4c837dd8-d921-42b7-8eaf-f57f67949e3b	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_09060f31-6623-4765-b2c5-f951404ef883	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_00875784-1a3f-47c9-91c7-3d92265ca8c1	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_38a1626d-20ec-449f-aa89-b6c3e38f9f46	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_3053f7bd-382c-4dbd-9110-1497603107fc	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_752555c5-cdf4-4ef4-b37d-af455bf8384a	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_14608ffc-3f3e-4e32-b422-a31d06c7918e	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_02cf6258-8a95-4ecc-89d6-8dfa793bdf83	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	ef1cd5b5-c1dc-4c85-90b7-5dfd7cab3a43	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_371405cd-ea99-444e-89fd-273185361010	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_0914ed88-6f3e-4338-804f-48b6e46da633	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	b5a1a4da-ef27-4c3a-abf7-da202de5b3ef	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_158c3786-9b2b-4e29-bed5-b0291db54fc9	C	-	-	-	-	-	-	-	
+21	G3	3498	NL-HaNA_1.01.02_3498_0084	verso	line_376b5ce5-8901-4877-8f52-d272d2a4f160	C	-	-	-	-	-	-	-	
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_6d55851d-e411-429c-a668-b2fd4d57e808	H	nounit	nounit	nounit	nounit	nounit	nounit	nounit	nounit
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_3c3e58f6-fdfe-4647-8c29-f057ea014405	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_43be08e5-297b-449e-9433-8748176625cf	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	a83fba02-808d-41de-8c1e-39ed109203c6	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_1f176431-e50c-4659-b91e-174beac64d3a	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_155a0718-7922-43ca-8877-bbfe5530aa14	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_7538b28d-5669-4d69-8fbe-878ba964ebdd	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_411359d5-8b43-4263-982f-59869b4733e2	S	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_84a8d0b3-6603-4824-ab9f-5f4946e65a2b	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	dd411203-9968-415a-8aa5-e6622d3f75b7	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_940384ef-54b4-4316-8fe9-a836b932e42c	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_8a96f15d-0708-47d1-aa8a-ec1579430527	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_484f6b1a-8f95-4117-9c57-98684d2afc52	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	be95a70f-bacb-4392-a0e4-d4d8f18c8225	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	c1fc392a-7764-494c-82c2-791165218de1	C	-	-	-	-	-	-	-	nounit
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_1c0f05e6-9264-4991-aa5b-5f1e160df5f0	C	-	-	-	-	-	-	-	print:short_prev
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	c7ada9c3-3945-44d7-bb79-da7f810e92cb	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_4ac75e2c-5533-4039-b41e-cbceebf5919f	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_5bd344ed-2da4-43b6-8f7b-e66e5753d245	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_76b61b6b-73f9-4627-b078-33dde41e02bb	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_78b53d46-b1ff-4c04-97b1-620242281484	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	bfc7131c-e2cc-43a3-8c9b-6b5f5da23d71	C	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_6bb090cc-b13b-47fb-a7c4-f50628b977d9	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	d5293e28-7f3f-41f2-90fd-22c0e141f27e	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	df10dd73-b65c-45cd-aaa6-f302fac392c4	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	fef09248-9476-47c9-a33c-704579bd18d2	C	nounit	nounit	nounit	nounit	nounit	nounit	nounit	nounit
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_86744fbe-70ca-4933-bd21-df0832bb304e	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_18b0c45e-45af-443a-a06d-d4e101c55d05	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	bb5777e6-5cb1-4c17-9c58-25210e407406	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	a56afc64-1133-42db-9969-14f9ff444cca	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	f411579e-4012-4127-9f24-fd715247f97b	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	beaa6519-ae72-420f-b3d3-0c5078e6502d	S	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	hand:region	print:region
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	d84a547c-ed09-4c31-8ce7-080b2671a86a	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	b0618fc1-4387-4cce-983f-d05a44c6faad	S	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_39f9d978-9ab0-4489-b0fd-c54df12dc46e	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_30d308c8-9577-444b-a11a-481e9459daf5	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_99d6e6ac-18a1-4feb-99f3-7da95d71303c	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_1b56b973-cea8-4f9b-98f7-5fa5876480b4	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_9e2df747-7fe4-41bb-9a69-9150b03efaab	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_8e79c127-b53d-4225-bc0b-5eca358ec371	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_6f93c69c-57d1-4c18-9831-31f738f5d7aa	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_768206a2-fc5f-4922-aaf5-29d235ad5166	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_5588d533-a555-47e3-a479-0079ee4d1de6	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_9431be2c-d9ce-4b5b-8cf2-0011737119d2	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_8f714f75-11fc-4fc4-9d08-c51633042e0e	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_5f22792c-b9c5-46fc-8f26-19c6ae172f93	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_1e73bf14-c6ee-4b4d-9bf8-95b9ddb7d364	C	-	-	-	-	-	-	-	-
+22	G3	3469	NL-HaNA_1.01.02_3469_0166	verso	line_0310dd23-78a2-44d9-890b-103daea76e95	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	b42663a3-74bb-4ed1-9895-6a20bd92e03a	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	e14850a3-5677-46dd-bc74-7aa3cc49e1bf	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	cd6528de-26db-4dec-9dec-b8e1548f1124	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_01b73473-65b0-49b8-abcd-a7f8415031ef	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_549cad3d-3210-4233-b958-52b379c57331	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_89eb96ef-fefd-4054-aa7a-bc4598a413e1	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_3ddb6952-6b4d-4d70-a6f4-e45ae0082b38	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	aa030981-3bf9-412d-bee8-80715b91692f	S	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_0e32967f-d2aa-4aa5-b88f-9142a84889aa	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_85a85f4d-cf56-403b-8a24-940eac1f521d	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_8df20810-0dc1-4b1e-a52e-758617cdd809	S	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_72adaeef-3b41-4ff9-a0dd-70a67f029816	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	fe750d4c-1476-47af-878e-a319ae9aea9e	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_8f377232-8bdb-4922-be3f-0a79bb1455ba	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_4e24e4a8-692a-45c0-beca-9c53547261db	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_6e53b426-5395-4e02-a021-be411eb7755f	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_23c3b140-abb5-45b1-8b50-7d8d0871f481	S	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_8bf53480-e14c-4148-9097-fd602c302fcd	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	b26bfc34-3008-4186-8be2-14f01531afc2	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_4351d16e-ed07-496c-b79d-d0539fcb33f0	S	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	c958f536-fa37-47d3-a57c-0631478eee0d	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_8a0da7ce-2b4b-4b66-bab9-b0b04bc65237	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_25567c48-526c-4e19-b597-12848a3ce2e3	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_938e403b-bd96-4f5f-a066-5134c355fecc	S	-	-	-	hand:index:short_prev	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_82d67323-5a96-4ba0-b595-b47bd1cd2180	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_87b28b81-1812-4314-961e-0d70dc83c475	S	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_3a69e01a-2866-43da-9dc1-b761e282129f	C	-	hand:index:date_start	hand:index:date_start	hand:index:date_start	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	f49c69a1-385b-4324-8831-01a78bf39999	S	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_750d2e33-7182-4354-a55b-635f191d4878	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	a119ca9a-9e6c-4555-8d72-ee3be1a7885f	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	b7365b19-7244-4e0a-85d5-e653171aee8f	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_21faea7b-744a-4715-8e63-ea58ff79017e	S	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_46a613da-dc00-4ebb-908e-02c5962531a1	S	-	hand:index:date_start	hand:index:date_start	hand:index:date_start	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_4b99fd0a-fe47-40b7-88ef-516dd7827546	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_83a28082-6308-4037-9b5d-4ffd576de327	S	hand:index:outdent	hand:index:outdent+date_start	hand:index:outdent+date_start	hand:index:outdent+short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	d0961037-4d1f-43ad-ac76-8bb369869594	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_34630283-d3d4-438a-adf5-14c5ef7de4d4	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_0db1c767-ad1d-4179-8178-75cf7602ba12	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_9e80587d-a0e5-4bbb-8823-34f0b32f6427	S	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	ad2f286a-0449-441c-bf4c-a77d1450b6cf	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	a44804e8-17ac-47ee-a950-304007baddf1	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	abc59b2e-35d4-42df-965f-1759d5d4bd03	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	e7e0785b-5a0f-44ed-b690-ea75f91ac3ae	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_8ad16337-82e6-451a-9202-57b7a8fedbcf	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_4313524b-3696-46c7-9fcf-c61ee46b00fb	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_55051970-bbfe-44fa-b5cd-48373dc63b80	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_7f67e74a-040b-4b08-b6fb-e8ed7a9285f0	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_2e127329-2d41-4b72-85bb-440d50d17c04	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	f327a0bf-5c10-4d56-93ef-4587dd084265	H	nounit	nounit	nounit	nounit	nounit	nounit	nounit	nounit
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_2ea16d7d-1d3a-4b11-9cef-18ec5614582a	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_1f1d7386-8480-47d2-9e02-e2806d51ec65	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	a6eb166c-0fcb-468d-bd7d-53597c96a8e9	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	a2b5869b-0315-4d72-b5b2-cf21721b95f1	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	f9a2d513-eb51-45fb-ab9d-afc4a6b76510	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_31df616e-1a01-4243-822b-f3b1ed0253c6	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_7e02b3c5-4e3b-4b9d-b546-5819c37a7709	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	fc9f731f-5fad-44bf-bedf-b67ea88cc81d	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	a6ec7b6f-75c2-4b77-a213-5577600ed8cd	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	bbf2ea06-1e67-43cf-8ec1-c204e4596c1f	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_52a755cf-2216-49c5-9e18-acfa97bcd510	S	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_63a3d22b-db09-4b22-b2ed-19098794c8cc	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_788fc4cd-7f9b-43c7-b58e-2ac1bfcc4be0	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_010355db-03a5-4de5-a6c8-dc2be772c772	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_5e874e4e-da0b-4ed9-bd3c-e59b602771df	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_3c52193e-1106-45d8-b010-e7a53ff1444f	S	-	-	hand:index:end_ref_prev	hand:index:short_prev+end_ref_prev	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_65426baa-47f7-400b-9a3c-cbb35eeb5d6e	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_408c8bf2-00f7-401f-93fa-b3b2fa55c4cd	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_4996307b-a088-4f20-a6fc-fb903b95989c	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_645b4547-3a77-4292-a731-24a12d7188ca	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	af7b4463-80c5-4c88-87c0-fd520be2d11b	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	ce87210b-672a-4bd8-b36f-e9d58aa6c42d	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	e31352f8-d99c-444f-939f-3abe32ab5464	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_223172d4-dc00-470d-b12a-a14ff52e4072	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_3297f935-cf17-4059-b19d-6ff6dff3e417	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_25736d80-129b-4488-9f92-d827192e80d6	S	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	fa7f5255-a84d-49a6-8f20-a9c6097ec890	H	-	-	-	-	hand:index:indent	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	e77e26e5-cd6a-41a0-afc2-592b9ae663c6	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent+short_prev	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_188c6329-3acf-41c8-a9fc-17fee3ed2263	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	a657450d-1a60-436e-8e50-421e00075bd6	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	a77de8d1-8a40-4e66-b7cd-a3dd599b10ca	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	fb422d70-a73a-47cb-a171-acb172687549	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_02d03b2b-86ec-41db-88cb-316bd833da48	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	a449d92b-c4cb-43f1-a99f-f1ead61037fe	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	e3a470c8-ff04-4f7f-b9a3-7ac7854ed5e8	H	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_650c6023-2af1-4aa5-b8c8-db3023a75fb1	S	hand:index:outdent	hand:index:outdent+date_start	hand:index:outdent+date_start	hand:index:outdent+short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_7c5cf2c6-f55c-44d0-80b5-20f6f03a706d	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_8dd4180b-8cf3-4c1b-b773-307e60ab40e5	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_6549afa8-7ad9-4e10-8307-774f2e89316d	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	d1ae93fb-e68b-4a41-8092-df1429887aa4	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_8e992cae-0947-4422-b5c2-ab9f02d6fcb5	S	hand:region	hand:region	hand:region	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_0bd40be1-b727-42eb-b3f0-bae7bf3cb5cc	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	a24e0a45-ef54-4f0d-a88e-034932a5176b	S	-	-	-	hand:index:short_prev	hand:index:indent+short_prev	-	-	print:indent+short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	ff8e9c65-86a9-4a89-b1b6-9779dd50c0b6	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	print:region
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	d5f8c078-a2b3-433b-a80e-222090e13b86	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_8b14b349-f9ad-450c-aced-adf35144543f	S	hand:region	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	print:region_start
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_69c76eae-86eb-43b0-a2f2-aa58ca183750	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	cda2ed42-6f02-4b63-a295-502c7b14ea57	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_94241b6d-1a27-45fb-bc27-a8dcb3e290fd	S	-	hand:index:date_start	hand:index:date_start	hand:index:short_prev+date_start	hand:index:short_prev	-	-	print:short_prev
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	fb867599-9b33-45a8-a6eb-403f026ff260	C	-	-	-	-	-	-	-	-
+23	G3	3433	NL-HaNA_1.01.02_3433_0094	recto	line_6366eff2-2a60-4d6c-8000-dc7b0a54b2a1	C	-	-	-	-	-	-	-	-
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_2964de61-9478-4e52-84d5-50807320a62b	H	nounit	nounit	nounit	nounit	nounit	nounit	nounit	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_6a6b371f-5c7a-4a42-bde7-c6d7cb098b2c	S	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	a17c3a64-2429-41ea-a0bf-6b517d088a7c	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	e612e660-4c30-4d0c-874e-64e1f739785d	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	e64a10a9-69af-4393-bcac-997e37ae6594	C	-	hand:index:date_start	hand:index:date_start	hand:index:date_start	hand:index:indent	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	accb84aa-915f-4836-a429-e2b5eb01c5a3	S	hand:index:outdent	hand:index:outdent	hand:index:outdent+end_ref_prev	hand:index:outdent+end_ref_prev	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_03600880-7eba-4540-bdc0-9266b5ca90ef	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	c5d5711c-ffcf-4ea7-a9c1-667103fac38a	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_15d4a4b1-66f0-42c9-a89b-bf9b1691e3b2	S	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region_cut_at_header	hand:region_cut_at_header	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	caecfdd8-71af-4fe2-8bf4-b56349d7c81c	S	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	b718c3ff-d48f-4c63-9368-f5f8cdc2f800	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	a62403b9-c952-4594-bdcd-6e173aec967d	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	c06c9924-24ef-4d9a-9869-2b6f480dc61d	C	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_8ac4cf44-54f2-4458-8cbc-ea32e1611133	S	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_294cf704-a2ba-48a9-8fc2-8d17e83e3bc3	C	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	a333c2d2-5737-44bc-a428-bc266025fee0	?	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_3832d50f-4ce8-4253-b9ff-e431e6ff7b6f	S	-	-	-	hand:index:short_prev+header	hand:index:short_prev+header	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_7f9a1bd4-212c-4b81-8f20-2fd16d800aec	?	-	-	-	-	hand:index:indent	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	e53d8dd6-6725-412a-ac3d-e468f887cc03	C	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_21c289e6-5459-4f6e-b245-4a015d310a17	C	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	b8a4296d-70d5-4fd7-9a9c-c92da9a668fa	C	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region_cut_at_header	hand:region_cut_at_header	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_481b1fc0-f883-4672-8e7e-d34387cecb45	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	ec5c0754-bf04-41c5-965b-7278982d636d	C	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_394a2361-7b45-456a-a77f-3dfa54b0b64a	S	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_1e5c6d0e-0655-4c4b-9800-e2475d965583	C	-	-	-	hand:index:short_prev+header	hand:index:short_prev+header	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	aafa4368-aaaa-4437-a0eb-1e022b69cb46	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_4ddd3faf-366f-4313-8042-edfd25077bc1	S	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_12e06249-0638-4749-91b4-076f4cdafcf8	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_923457d4-790e-422f-ab5c-1a723a2370b4	S	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region_cut_at_header	hand:region_cut_at_header	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	f02fb887-f398-4506-9ef0-771ca3af1c4b	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	b74e9cdf-16fd-4c37-93fb-3250da116b5e	C	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	ad5c2a04-cfcd-4b8b-9cc4-f0a0e141777b	S	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_337e77da-95db-4568-b2a3-90c7fe39e2c6	C	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	hand:index:indent	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_1edbdbb7-cd1d-43ff-8ce7-6e4e2c308140	H	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	ef4209a5-80fd-4b06-8dbb-ee2606fe7723	S	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	hand:region	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_78176256-c2b2-43c5-b08e-9facf4390f6b	C	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_6f9e3520-cc35-4eae-8c91-5f99a0baa27a	H	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	hand:region	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	e235992f-440a-4b52-b430-17aad056d060	S	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	c7b2cf99-79ba-4cce-8f6a-774e432174cc	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	d0f1890b-b94d-4822-b454-25c2e73cc9b9	S	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_9d30099d-275e-4720-ac09-7e1f5509a8f3	S	-	-	hand:index:end_ref_prev	hand:index:end_ref_prev	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_078a7e10-7d51-478f-8a79-0a96b8923652	C	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	hand:run	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	cc77d244-a1f8-40c0-8259-e399578309ad	H	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:index_start	hand:region	hand:region	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_3bf8e385-cf6c-4fa1-864a-d3fff73f531b	S	hand:index:outdent	hand:index:outdent	hand:index:outdent	hand:index:outdent+short_prev	hand:index:short_prev	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	c643ecd0-e4f5-49b9-b70a-d60d1a8eb695	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_74a20066-08ef-466f-893b-f432d28ae4f3	C	-	-	-	-	-	-	-	
+32	G4	12297	NL-HaNA_1.01.02_12297_0019	recto	line_59ff4c04-ab0f-4daa-8a5c-d6e0d15dd894	C	-	-	-	-	-	-	-	

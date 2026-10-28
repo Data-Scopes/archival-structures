@@ -1,0 +1,280 @@
+# 200 errors of E5 on the test sides; 40 shown
+
+== FN read 5 (G1, inv 3256, 3256_0009 recto) k=8
+     k  6 gold=C E5=-                      x= 2609 w=  957 | affgevordert 444, 484.
+     k  7 gold=S E5=hand:region            x= 2553 w=  862 | Cornelia Daetheler 329.
+  >> k  8 gold=S E5=-                      x= 2583 w=  741 | Jan Demcken 332, 356.
+     k  9 gold=S E5=-                      x= 2575 w= 1047 | Thomas Quiryns vander Dult
+     k 10 gold=C E5=-                      x= 2626 w=  341 | 334, 369.
+
+== FN read 5 (G1, inv 3256, 3256_0009 recto) k=9
+     k  7 gold=S E5=hand:region            x= 2553 w=  862 | Cornelia Daetheler 329.
+     k  8 gold=S E5=-                      x= 2583 w=  741 | Jan Demcken 332, 356.
+  >> k  9 gold=S E5=-                      x= 2575 w= 1047 | Thomas Quiryns vander Dult
+     k 10 gold=C E5=-                      x= 2626 w=  341 | 334, 369.
+     k 11 gold=S E5=hand:index_start       x= 2559 w=  819 | Daniel Dircxs 332, 356.
+
+== FN read 5 (G1, inv 3256, 3256_0009 recto) k=20
+     k 18 gold=S E5=-                      x= 2568 w= 1103 | Erffgen van Jacques Doense
+     k 19 gold=C E5=-                      x= 2567 w=  898 | de jonge 257, 430, 461, 518.
+  >> k 20 gold=S E5=-                      x= 2574 w=  798 | henr: van duppen 468.
+     k 21 gold=S E5=hand:index:short_prev  x= 2570 w=  941 | Glaude Doudanius 504.
+     k 22 gold=S E5=-                      x= 2595 w=  604 | Josua Dinant 515.
+
+== FN read 5 (G1, inv 3256, 3256_0009 recto) k=78
+     k 76 gold=S E5=hand:index:short_prev  x= 3811 w= 1174 | van Willem Sancee Tentier 46
+     k 77 gold=S E5=-                      x= 3810 w= 1149 | van Pr. Dorn van Douwenhoven 49.
+  >> k 78 gold=S E5=-                      x= 3810 w=  813 | van Isacq Burchoorn 63.
+     k 79 gold=S E5=hand:index:short_prev  x= 3794 w= 1153 | van St. Aert de meyer 80, 256.
+     k 80 gold=C E5=-                      x= 3811 w=  506 | 414, 415, 481.
+
+== FN read 5 (G1, inv 3256, 3256_0009 recto) k=82
+     k 80 gold=C E5=-                      x= 3811 w=  506 | 414, 415, 481.
+     k 81 gold=S E5=hand:index:short_prev  x= 3791 w=  983 | van henr: Esselinck 91, 455.
+  >> k 82 gold=S E5=-                      x= 3774 w= 1187 | van Consul vander Straten 94.
+     k 83 gold=S E5=hand:index_start       x= 3781 w= 1154 | van Dommis Gnael Heemstra
+     k 84 gold=C E5=-                      x= 3837 w=  306 | 97, 133.
+
+== FN read 5 (G1, inv 3256, 3256_0009 recto) k=86
+     k 84 gold=C E5=-                      x= 3837 w=  306 | 97, 133.
+     k 85 gold=S E5=hand:index:short_prev  x= 3794 w= 1065 | van Resident de Vries 111. 414.
+  >> k 86 gold=S E5=-                      x= 3776 w= 1255 | van Commis Gnael Roorda 121. 135
+     k 87 gold=S E5=-                      x= 3781 w= 1168 | van Jan Thomas houtcooper 154.
+     k 88 gold=C E5=-                      x= 3802 w=  219 | 334.
+
+== FN read 5 (G1, inv 3256, 3256_0009 recto) k=87
+     k 85 gold=S E5=hand:index:short_prev  x= 3794 w= 1065 | van Resident de Vries 111. 414.
+     k 86 gold=S E5=-                      x= 3776 w= 1255 | van Commis Gnael Roorda 121. 135
+  >> k 87 gold=S E5=-                      x= 3781 w= 1168 | van Jan Thomas houtcooper 154.
+     k 88 gold=C E5=-                      x= 3802 w=  219 | 334.
+     k 89 gold=S E5=hand:index:short_prev  x= 3761 w= 1281 | van Classe van Thoolen en Bergen
+
+== FN read 7 (G1, inv 3126, 3126_0013 recto) k=13
+     k 11 gold=S E5=hand:index_start       x= 2867 w= 1029 | Beroerende de Vaert op
+     k 12 gold=C E5=-                      x= 2999 w=  810 | Westen, 207: 208: 276:
+  >> k 13 gold=S E5=-                      x= 2892 w= 1034 | Opden uijtvoer van Granen,
+     k 14 gold=C E5=hand:index:indent      x= 3024 w=  392 | 273: 274:
+     k 15 gold=S E5=hand:index_start       x= 2930 w= 1019 | Opde Tarra vande Engelsche
+
+== FN read 7 (G1, inv 3126, 3126_0013 recto) k=26
+     k 24 gold=S E5=-                      x= 3981 w=  830 | Roeloff Henricksen, 29:
+     k 25 gold=S E5=-                      x= 3986 w=  983 | Capn. Renton, 43: 48: 59: 75:
+  >> k 26 gold=S E5=-                      x= 3989 w=  612 | Rameth, 74: 215:
+     k 27 gold=S E5=hand:index:short_prev  x= 3967 w=  893 | Willem de Roevere 92:
+     k 28 gold=S E5=-                      x= 3963 w= 1139 | De Stadt Reijmerswale, 19: 179:
+
+== FN read 7 (G1, inv 3126, 3126_0013 recto) k=41
+     k 39 gold=S E5=hand:index_start       x= 3983 w= 1154 | De Heer van Renesse, 274: 295:
+     k 40 gold=S E5=-                      x= 3986 w= 1138 | De Heer Roorda, 278: 280: 315:
+  >> k 41 gold=S E5=-                      x= 3977 w= 1161 | Heemraden van Rhijnlandt, 282:
+     k 42 gold=C E5=hand:index:indent      x= 4187 w=  234 | 285:
+     k 43 gold=S E5=hand:region            x= 4012 w=  942 | Jan van Renselaer, 294:
+
+== FN read 9 (G1, inv 3254, 3254_0009 verso) k=2
+     k  1 gold=S E5=hand:index_start       x=  149 w= 2025 | uijtvoeringe van Keucken behoeften 166 R Johannes Costius 534.
+  >> k  2 gold=S E5=-                      x=  153 w= 1143 | Gedepden. van haer Ho:Mo: om te
+     k  3 gold=C E5=-                      x=  152 w= 1137 | staen als getuijgen over den Doop vanden
+     k  4 gold=C E5=-                      x=  165 w= 1092 | Jongen Prince 202, 221, 222, 224.
+
+== FN read 9 (G1, inv 3254, 3254_0009 verso) k=9
+     k  7 gold=C E5=-                      x=  159 w=  172 | 297.
+     k  8 gold=S E5=hand:index:short_prev  x=  131 w=  805 | uijtvoer van Levraij 222.
+  >> k  9 gold=S E5=-                      x=  116 w= 1127 | Pillegave voorden Jongen Prince 227.
+     k 10 gold=C E5=-                      x=  101 w=  657 | 230, 240, 243, 259.
+     k 11 gold=S E5=-                      x=  121 w=  766 | uijtvoer van haver 232.
+
+== FN read 9 (G1, inv 3254, 3254_0009 verso) k=11
+     k  9 gold=S E5=-                      x=  116 w= 1127 | Pillegave voorden Jongen Prince 227.
+     k 10 gold=C E5=-                      x=  101 w=  657 | 230, 240, 243, 259.
+  >> k 11 gold=S E5=-                      x=  121 w=  766 | uijtvoer van haver 232.
+     k 12 gold=S E5=-                      x=  122 w=  786 | uijtvoer van Wijn 337.
+     k 13 gold=S E5=-                      x=  113 w= 1108 | uijtvoer van Munitie van Oorloch
+
+== FN read 9 (G1, inv 3254, 3254_0009 verso) k=12
+     k 10 gold=C E5=-                      x=  101 w=  657 | 230, 240, 243, 259.
+     k 11 gold=S E5=-                      x=  121 w=  766 | uijtvoer van haver 232.
+  >> k 12 gold=S E5=-                      x=  122 w=  786 | uijtvoer van Wijn 337.
+     k 13 gold=S E5=-                      x=  113 w= 1108 | uijtvoer van Munitie van Oorloch
+     k 14 gold=C E5=-                      x=  109 w=  471 | 241, 247, 333.
+
+== FN read 9 (G1, inv 3254, 3254_0009 verso) k=16
+     k 14 gold=C E5=-                      x=  109 w=  471 | 241, 247, 333.
+     k 15 gold=S E5=hand:index:short_prev  x=  108 w= 1096 | uijtvoer van Meuble goederen 455.
+  >> k 16 gold=S E5=-                      x=   91 w= 1161 | President Moll, 37, 67, 42, 94, 241.
+     k 17 gold=C E5=-                      x=  131 w= 1160 | 243, 255, 256, 256, 261, 262: 271, 281
+     k 18 gold=C E5=-                      x=  121 w=  648 | 333, 415, 425, 455.
+
+== FN read 9 (G1, inv 3254, 3254_0009 verso) k=22
+     k 20 gold=S E5=-                      x=  131 w=  843 | wervinge van Volck, 281.
+     k 21 gold=S E5=-                      x=  135 w=  888 | bevrijdinge van acchijns 256.
+  >> k 22 gold=S E5=-                      x=  139 w= 1080 | vrij kenninge van eenige goederen door
+     k 23 gold=C E5=-                      x=  144 w=  808 | Nimegen gepasseert 425.
+     k 24 gold=S E5=-                      x=  161 w=  898 | Heerlicheijt Wachtendonck 350.
+
+== FN read 9 (G1, inv 3254, 3254_0009 verso) k=28
+     k 26 gold=C E5=-                      x=  129 w= 1144 | over de Cleeffsche & andere Landen
+     k 27 gold=C E5=-                      x=  111 w=  404 | 336, 386.
+  >> k 28 gold=S E5=-                      x=  126 w= 1109 | 4 halve Cartouwen in Leeninge 406.
+     k 29 gold=S E5=-                      x=  130 w= 1111 | leeninge van 200. schooten, Strengen
+     k 30 gold=C E5=-                      x=  129 w=  603 | en een Bock, 468.
+
+== FN read 9 (G1, inv 3254, 3254_0009 verso) k=33
+     k 31 gold=S E5=hand:index:short_prev  x=  114 w= 1147 | vier Ingesetenen vande Marck Bran„
+     k 32 gold=C E5=-                      x=  110 w=  562 | denburch 308.
+  >> k 33 gold=S E5=-                      x=  117 w= 1170 | Heeren Degenhart & Ostman Gecomden.
+     k 34 gold=C E5=-                      x=  119 w= 1174 | der Lantstenden van Gulich ende Berch
+     k 35 gold=C E5=-                      x=  120 w=  347 | 319, 322.
+
+== FN read 9 (G1, inv 3254, 3254_0009 verso) k=44
+     k 42 gold=C E5=hand:index:short_prev  x=  151 w= 1141 | leeninge van 200000 Rijcxd voorden
+     k 43 gold=C E5=-                      x=  141 w=  750 | Churf: 414, 424, 561
+  >> k 44 gold=S E5=-                      x=  197 w=  599 | Alliantie 424.
+     k 45 gold=S E5=hand:index:indent      x= 1328 w=  960 | Tol tot Gennip 534, 544.
+     k 46 gold=H E5=nounit                 x= 1502 w=  192 | C.
+
+== FP read 9 (G1, inv 3254, 3254_0009 verso) k=57
+     k 55 gold=C E5=hand:index:indent+short_prev x= 1305 w=  170 | 8:8.
+     k 56 gold=S E5=hand:index:indent+short_prev x= 1296 w= 1145 | Weduwe van Couwenburch, 8, 30, 35.
+  >> k 57 gold=C E5=hand:index:indent+short_prev x= 1318 w=  387 | 234, 461.
+     k 58 gold=S E5=hand:index:indent+short_prev x= 1294 w=  587 | Barent Cop 12.
+     k 59 gold=S E5=hand:index:indent      x= 1297 w=  883 | Willemtgen Coops 15, 23.
+
+== FP read 15 (G2, inv 3547, 3547_0047 verso) k=20
+     k 18 gold=C E5=-                      x=  546 w=  208 | 533.
+     k 19 gold=S E5=hand:index_start       x=  402 w= 1066 | Reqte. van Margaretha van Sevenaar.
+  >> k 20 gold=C E5=hand:index:indent      x=  553 w=  208 | 740.
+     k 21 gold=S E5=hand:region            x=  394 w=  657 | Reqte. van J: Simon 38.
+     k 22 gold=S E5=nounit                 x=  580 w=  480 | N: Simon 92.
+
+== FN-nounit read 18 (G2, inv 3349, 3349_0037 verso) k=5
+     k  3 gold=C E5=nounit                 x=  797 w=  490 | 211e. M:
+     k  4 gold=S E5=nounit                 x=  729 w=  550 | Taijspel 740.
+  >> k  5 gold=S E5=nounit                 x=  715 w=  571 | Taussin 642.
+     k  6 gold=S E5=nounit                 x=  719 w=  770 | Tegnagel 94, 302.
+     k  7 gold=S E5=nounit                 x=  715 w=  610 | Termeijer 361.
+
+== FN-nounit read 18 (G2, inv 3349, 3349_0037 verso) k=8
+     k  6 gold=S E5=nounit                 x=  719 w=  770 | Tegnagel 94, 302.
+     k  7 gold=S E5=nounit                 x=  715 w=  610 | Termeijer 361.
+  >> k  8 gold=S E5=nounit                 x=  694 w=  907 | Tessemaker 280, 521.
+     k  9 gold=S E5=nounit                 x=  719 w=  520 | Testart 37.
+     k 10 gold=S E5=nounit                 x=  658 w=  641 | Du Thaij 487.
+
+== FN-nounit read 18 (G2, inv 3349, 3349_0037 verso) k=10
+     k  8 gold=S E5=nounit                 x=  694 w=  907 | Tessemaker 280, 521.
+     k  9 gold=S E5=nounit                 x=  719 w=  520 | Testart 37.
+  >> k 10 gold=S E5=nounit                 x=  658 w=  641 | Du Thaij 487.
+     k 11 gold=S E5=nounit                 x=  731 w=  858 | Thesing 410, 842, 871.
+     k 12 gold=S E5=nounit                 x=  677 w= 1069 | van Thiel 121. 174, 372, 430.
+
+== FN-nounit read 18 (G2, inv 3349, 3349_0037 verso) k=11
+     k  9 gold=S E5=nounit                 x=  719 w=  520 | Testart 37.
+     k 10 gold=S E5=nounit                 x=  658 w=  641 | Du Thaij 487.
+  >> k 11 gold=S E5=nounit                 x=  731 w=  858 | Thesing 410, 842, 871.
+     k 12 gold=S E5=nounit                 x=  677 w= 1069 | van Thiel 121. 174, 372, 430.
+     k 13 gold=C E5=nounit                 x=  797 w=  381 | 505, 716.
+
+== FN-nounit read 18 (G2, inv 3349, 3349_0037 verso) k=15
+     k 13 gold=C E5=nounit                 x=  797 w=  381 | 505, 716.
+     k 14 gold=S E5=nounit                 x=  716 w=  723 | Thiring 444, 898.
+  >> k 15 gold=S E5=nounit                 x=  710 w=  681 | Thirion 434, 509.
+     k 16 gold=S E5=nounit                 x=  710 w=  644 | Tuhlaar 824.
+     k 17 gold=S E5=nounit                 x=  708 w=  684 | Nieuwelen 745.
+
+== FN-nounit read 18 (G2, inv 3349, 3349_0037 verso) k=16
+     k 14 gold=S E5=nounit                 x=  716 w=  723 | Thiring 444, 898.
+     k 15 gold=S E5=nounit                 x=  710 w=  681 | Thirion 434, 509.
+  >> k 16 gold=S E5=nounit                 x=  710 w=  644 | Tuhlaar 824.
+     k 17 gold=S E5=nounit                 x=  708 w=  684 | Nieuwelen 745.
+     k 18 gold=S E5=nounit                 x=  680 w= 1020 | weduwe Du Til 343.
+
+== FN-nounit read 18 (G2, inv 3349, 3349_0037 verso) k=17
+     k 15 gold=S E5=nounit                 x=  710 w=  681 | Thirion 434, 509.
+     k 16 gold=S E5=nounit                 x=  710 w=  644 | Tuhlaar 824.
+  >> k 17 gold=S E5=nounit                 x=  708 w=  684 | Nieuwelen 745.
+     k 18 gold=S E5=nounit                 x=  680 w= 1020 | weduwe Du Til 343.
+     k 19 gold=S E5=nounit                 x=  698 w= 1065 | Tilly 55, 80, 446, 483, 490.
+
+== FN-nounit read 18 (G2, inv 3349, 3349_0037 verso) k=24
+     k 22 gold=S E5=nounit                 x=  690 w= 1163 | Tombes vide Engellandla. L.
+     k 23 gold=S E5=nounit                 x=  678 w=  451 | Torres4.
+  >> k 24 gold=S E5=nounit                 x=  630 w=  687 | Du Tour 735.
+     k 25 gold=S E5=nounit                 x=  680 w=  636 | Tourlon 708.
+     k 26 gold=S E5=nounit                 x=  665 w=  850 | Tscharner 585, 624.
+
+== FN-nounit read 18 (G2, inv 3349, 3349_0037 verso) k=29
+     k 27 gold=S E5=nounit                 x=  599 w= 1173 | van Twist 79, 372, 457, 471, 628, 849.
+     k 28 gold=H E5=nounit                 x= 1976 w=  698 | Fexel.
+  >> k 29 gold=S E5=nounit                 x= 1777 w= 1101 | missiven vanden Commis„
+     k 30 gold=C E5=nounit                 x= 1925 w=  882 | saris Knijff 86 104.
+     k 31 gold=C E5=nounit                 x= 1898 w=  909 | 141, 448, 613, 640, 669.
+
+== FN-nounit read 18 (G2, inv 3349, 3349_0037 verso) k=41
+     k 39 gold=C E5=nounit                 x= 1880 w=  996 | Keijsersfelt 550, 607.
+     k 40 gold=S E5=nounit                 x= 1786 w=  717 | Sauvegarde 550.
+  >> k 41 gold=S E5=nounit                 x= 1798 w= 1074 | contributien door de frans:
+     k 42 gold=C E5=nounit                 x= 1903 w=  858 | uijtgeschreven. 1687.
+     k 43 gold=C E5=nounit                 x= 1991 w=  261 | 781.
+
+== FN read 25 (G3, inv 3439, 3439_0156 recto) k=31
+     k 29 gold=C E5=-                      x= 2987 w= 1088 | Regiment te doornis, te gaan. afg. 10 Mey.
+     k 30 gold=S E5=-                      x= 2983 w= 1288 | Reg: deselve om verlof voor 6 m: Rtoegestaan. 6 nov: nog b in
+  >> k 31 gold=S E5=-                      x= 2957 w= 1123 | 7 april. S. N: Bilderbeek een heer te mogen doen
+     k 32 gold=C E5=-                      x= 2973 w=  382 | na Franefort.
+     k 33 gold=S E5=hand:region            x= 2953 w= 1149 | 11 April. Prins Willem van Hessen Gouverneur van
+
+== FP read 26 (G3, inv 3466, 3466_0138 recto) k=46
+     k 44 gold=C E5=-                      x= 2947 w=  547 | remissie. en Res. daarop.
+     k 45 gold=S E5=hand:index:short_prev  x= 2927 w= 1097 | 3 Juny. advis op de Reg: van de Regenten van Gansoyen om
+  >> k 46 gold=C E5=hand:index:short_prev  x= 2927 w=  420 | omslag. en Res: daarop.
+     k 47 gold=S E5=hand:index:short_prev  x= 2935 w= 1103 | 20 Juny advis opde Reg: vande mag: van sluys om continuetie
+     k 48 gold=C E5=hand:index:short_prev  x= 2932 w= 1096 | van Octroy tot het heffen van een passage geld, om bestads haeg
+
+== FP read 26 (G3, inv 3466, 3466_0138 recto) k=48
+     k 46 gold=C E5=hand:index:short_prev  x= 2927 w=  420 | omslag. en Res: daarop.
+     k 47 gold=S E5=hand:index:short_prev  x= 2935 w= 1103 | 20 Juny advis opde Reg: vande mag: van sluys om continuetie
+  >> k 48 gold=C E5=hand:index:short_prev  x= 2932 w= 1096 | van Octroy tot het heffen van een passage geld, om bestads haeg
+     k 49 gold=C E5=hand:index:short_prev  x= 2931 w=  471 | Jeni
+     k 50 gold=H E5=nounit                 x= 4763 w=  190 | 243.
+
+== FN read 27 (G3, inv 3442, 3442_0125 verso) k=66
+     k 64 gold=S E5=-                      x= 1836 w=  968 | 28 Sept: Provinciaal advis van Holland. R: Holland
+     k 65 gold=C E5=-                      x= 1841 w=  969 | versogt sig te verklaren op de geheele extraditie. Saet 21 oit
+  >> k 66 gold=S E5=-                      x= 1771 w= 1038 | 9 Sept: Mem: Maschs om copie van twee Resolutien
+     k 67 gold=C E5=-                      x= 1857 w=  948 | Retroacta natesien. 11 Sept: Res: om den
+     k 68 gold=C E5=-                      x= 1854 w=  953 | Raad te versoeken de Resolutie te geeven, en
+
+== FN read 27 (G3, inv 3442, 3442_0125 verso) k=77
+     k 75 gold=C E5=-                      x= 1840 w=  950 | extraditie. 28 oct: nader mem: Maschs om
+     k 76 gold=C E5=-                      x= 1843 w=  970 | extraditie vande papieren. 16. en 2. nogmaal vers
+  >> k 77 gold=S E5=-                      x= 1843 w=  962 | 30 oct: Provinciaal advis van Holland op de
+     k 78 gold=C E5=-                      x= 1848 w=  962 | nadere mem: van Maschs. R: Holland nogme
+     k 79 gold=C E5=-                      x= 1854 w=  954 | gersogt sig te verklaaren op de geheele extra„
+
+== FN-nounit read 28 (G3, inv 3408, 3408_0047 recto) k=4
+     k  2 gold=S E5=hand:run               x= 2654 w= 1103 | 0 junij 132. miss: van B. Asacte tot
+     k  3 gold=C E5=nounit                 x= 2688 w=  612 | Condjutor V. Caulen
+  >> k  4 gold=S E5=nounit                 x= 2663 w= 1110 | in vob: miss: aen B: tot hot oxecuteren
+     k  5 gold=C E5=nounit                 x= 2725 w= 1043 | van Gr. V: Benthem. 9 dec: isser.
+     k  6 gold=C E5=nounit                 x= 2829 w=  275 | van B.
+
+== FP read 37 (G4, inv 3107, 3107_0046 recto) k=3
+     k  1 gold=C E5=hand:index_start       x= 3309 w=  384 | 92: 9: 94: 93: 46: 17:
+     k  2 gold=S E5=hand:index:short_prev  x= 2595 w=  358 | paspoorten 9
+  >> k  3 gold=C E5=hand:index:indent      x= 2975 w=  120 | 42: 47
+     k  4 gold=C E5=-                      x= 2593 w=  233 | 118: 119:
+     k  5 gold=C E5=hand:index:indent+short_prev x= 3225 w=  696 | 5: 37: 39: 42: 46: 59: 61: lita. 6.
+
+== FN read 37 (G4, inv 3107, 3107_0046 recto) k=17
+     k 15 gold=H E5=hand:index:indent      x= 2882 w=  169 | patte.
+     k 16 gold=S E5=hand:index:short_prev  x= 2615 w= 1069 | Captn. Lu Patel 96: 99: 100: 117: 138: 154:
+  >> k 17 gold=S E5=-                      x= 2607 w=  648 | Pr. van plast 99: 135:
+     k 18 gold=S E5=-                      x= 2618 w=  414 | Jan Piers 103:
+     k 19 gold=S E5=hand:index:short_prev  x= 2628 w=  583 | Ysbrant Provin 111: 112:
+
+== FN read 37 (G4, inv 3107, 3107_0046 recto) k=28
+     k 26 gold=S E5=-                      x= 2633 w=  577 | Adriaen le Pape 131:
+     k 27 gold=S E5=-                      x= 2641 w=  980 | handelinge van slants pen 138:
+  >> k 28 gold=S E5=-                      x= 2645 w=  721 | Adriaen de poortere 142:
+     k 29 gold=S E5=-                      x= 2635 w=  624 | Jacques Pastdau 145:
+     k 30 gold=S E5=hand:index_start       x= 3685 w= 1143 | Gedepde. naer de Provintien vade e Staten Genrl

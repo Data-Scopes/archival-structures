@@ -22,6 +22,7 @@ import statistics
 import time
 from collections import Counter, defaultdict
 from pathlib import Path
+from typing import Optional
 
 from archival_structures.text_layer.extract_v2 import legacy_doc_id
 from archival_structures.text_layer.io import read_tsv_gz, write_tsv_gz
@@ -31,6 +32,19 @@ FURNITURE_TYPES = ("page_number", "running_header", "date_header", "catch_word",
 HEADER_TYPES = ("date_header", "running_header")
 PAGE_ORDER = {"verso": 0, "recto": 1, "single": 1}
 NEAR_PX = 5
+# Step 19d. A hand unit is one layout region minus furniture, but on index pages one region holds many
+# entries (F12-R.21, F12-15z.3: hand-pinned index volumes lost 26-50% of their entry starts against print).
+# On sides flagged `index_side` by step 19c the mains are also cut at entry cues (phase 13 P11/P12).
+INDEX_CUES = ("outdent", "indent", "short_prev", "date_start", "end_ref_prev")
+INDEX_ENTRY_DEFAULTS = {"cues": ["outdent", "date_start", "end_ref_prev"], "outdent_frac": 0.5,
+                        "indent_frac": 0.5, "short_frac": 0.1, "end_pattern": r"\d+\s*[.,:;]?\s*$",
+                        "date_pattern": None,
+                        # Step 19g (phase 13 review F13-R.2, F13-R.5): a main line that is only page numbers and
+                        # punctuation is a reference list that ran over, never an entry start (None = off).
+                        "no_cut_pattern": None,
+                        # Step 19g: line types that join the mains on an index side. v4 types whole index pages
+                        # `index` (rule:index_page), so those lines were in no main unit.
+                        "main_types": ["main_text"]}
 SPLIT_HALF_IOU = 0.5
 
 UNIT_COLUMNS = ["scan_id", "page", "unit_id", "unit_order", "unit_type", "unit_method",
@@ -51,11 +65,26 @@ class UnitParams:
     # step 15x: an `indent`-only cut within this many main lines of the last kept cut is dropped (a line
     # beside a dropped initial); None = off
     drop_cap_lines: int = None
+    # step 19d (phase 13 P11/P12): entry cues for hand units on index sides (flagged by step 19c);
+    # None = off. Keys: INDEX_ENTRY_DEFAULTS; ``cues`` is a subset of INDEX_CUES.
+    index_entry: Optional[dict] = dataclasses.field(default=None, hash=False)
+
+    def __post_init__(self):
+        if self.index_entry is not None:
+            unknown = set(self.index_entry) - set(INDEX_ENTRY_DEFAULTS)
+            if unknown:
+                raise ValueError(f"unknown index_entry keys: {sorted(unknown)}")
+            bad = [c for c in self.index_entry.get("cues", INDEX_ENTRY_DEFAULTS["cues"])
+                   if c not in INDEX_CUES]
+            if bad:
+                raise ValueError(f"unknown index_entry cues: {bad}")
 
     def to_dict(self):
         d = dataclasses.asdict(self)
         if d["drop_cap_lines"] is None:
             del d["drop_cap_lines"]
+        if d["index_entry"] is None:
+            del d["index_entry"]
         return d
 
     @classmethod
@@ -97,6 +126,50 @@ def paragraph_features(mains, header_between):
     return out
 
 
+def entry_cues(mains, header_between, cfg):
+    """Index-entry cues (step 19d) for each main segment i >= 1 of a region.
+
+    ``mains`` carry int x, y, w, h and ``text``; ``cfg`` is an ``index_entry`` dict (missing keys take
+    INDEX_ENTRY_DEFAULTS). Returns a list (index i-1) of cue-name lists in INDEX_CUES order, ``header``
+    last (always on). Only the cues in ``cfg["cues"]`` fire."""
+    cfg = {**INDEX_ENTRY_DEFAULTS, **cfg}
+    if len(mains) < 2:
+        return []
+    on = set(cfg["cues"])
+    med_h = statistics.median(m["h"] for m in mains) or 1
+    col_left = statistics.median(m["x"] for m in mains)
+    col_right = statistics.median(m["x"] + m["w"] for m in mains)
+    col_w = (col_right - col_left) or 1
+    out = []
+    for i in range(1, len(mains)):
+        prev, cur = mains[i - 1], mains[i]
+        t_cur = (cur.get("text") or "").strip()
+        t_prev = (prev.get("text") or "").strip()
+        fired = []
+        if cfg["no_cut_pattern"] is not None and re.fullmatch(cfg["no_cut_pattern"], t_cur):
+            # step 19g: a page-reference list that ran over (`358, 540, 546.`) never starts an entry;
+            # only a header (a date/running header between the lines) still cuts
+            if header_between[i]:
+                fired.append("header")
+            out.append(fired)
+            continue
+        if "outdent" in on and (prev["x"] - cur["x"]) / med_h >= cfg["outdent_frac"]:
+            fired.append("outdent")
+        if "indent" in on and (cur["x"] - col_left) / med_h >= cfg["indent_frac"]:
+            fired.append("indent")
+        if "short_prev" in on and (col_right - (prev["x"] + prev["w"])) / col_w > cfg["short_frac"]:
+            fired.append("short_prev")
+        if ("date_start" in on and cfg["date_pattern"] is not None
+                and re.match(cfg["date_pattern"], t_cur, re.IGNORECASE)):
+            fired.append("date_start")
+        if "end_ref_prev" in on and re.search(cfg["end_pattern"], t_prev):
+            fired.append("end_ref_prev")
+        if header_between[i]:
+            fired.append("header")
+        out.append(fired)
+    return out
+
+
 def cues_fired(feat, params):
     cues = []
     if params.indent_frac is not None and feat["indent"] >= params.indent_frac:
@@ -112,11 +185,17 @@ def cues_fired(feat, params):
 
 # ---------------------------------------------------------------- units of one layout region
 
-def split_region(segs, params, print_mode):
+def split_region(segs, params, print_mode, index_side=False):
     """Split the segments of one layout region (in region order) into units.
 
     Returns a list of dicts ``{"type", "method", "segs"}`` ordered by their first segment."""
     segs = [dict(s) for s in segs]
+    if not print_mode and index_side and params.index_entry is not None:
+        # step 19g: lines of the configured types (default only main_text) are the mains of an index side
+        main_types = {**INDEX_ENTRY_DEFAULTS, **params.index_entry}["main_types"]
+        for s in segs:
+            if s["line_type"] in main_types:
+                s["line_type"] = "main_text"
     for pos, s in enumerate(segs):
         s["_pos"] = pos
     groups = []   # (first_pos, type, method, segs)
@@ -150,10 +229,16 @@ def split_region(segs, params, print_mode):
                 if cues:
                     cuts[i] = cues
                     last = i
+        elif index_side and params.index_entry is not None:
+            # step 19d: cut an index side's mains at entry cues
+            for i, cues in enumerate(entry_cues(mains, header_between, params.index_entry), start=1):
+                if cues:
+                    cuts[i] = cues
         else:
             for i in range(1, len(mains)):
                 if header_between[i]:
                     cuts[i] = ["header"]
+        entry_mode = not print_mode and index_side and params.index_entry is not None
         cur = [mains[0]]
         pieces = [(None, cur)]
         for i in range(1, len(mains)):
@@ -164,6 +249,8 @@ def split_region(segs, params, print_mode):
         for cues, piece in pieces:
             if len(pieces) == 1:
                 method = f"{prefix}:region"
+            elif entry_mode:
+                method = "hand:index_start" if cues is None else "hand:index:" + "+".join(cues)
             elif not print_mode:
                 method = "hand:region_cut_at_header"
             elif cues is None:
@@ -187,7 +274,8 @@ def _bbox(segs):
     return x0, y0, x1 - x0, y1 - y0
 
 
-def build_units_page(scan_id, page, regions, params, print_mode, taken, claimable=None):
+def build_units_page(scan_id, page, regions, params, print_mode, taken, claimable=None,
+                     index_side=False):
     """Units of one page.
 
     ``regions`` is a list of ``(region_row, segs)``: ``region_row`` has ``layout_region_id``,
@@ -205,7 +293,7 @@ def build_units_page(scan_id, page, regions, params, print_mode, taken, claimabl
     for region_order, (region, segs) in enumerate(regions):
         if region["layout_role"] == "empty" or not segs:
             continue
-        parts = split_region(segs, params, print_mode)
+        parts = split_region(segs, params, print_mode, index_side)
         mains = [i for i, p in enumerate(parts) if p["type"] == "main_text"]
         pool = mains or range(len(parts))
         best = max(pool, key=lambda i: (sum(_chars(s) for s in parts[i]["segs"]), -i))
@@ -442,6 +530,18 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
         reserved[r["scan_id"]].add(r["layout_region_id"])
         regions_by_scan[r["scan_id"]][r["page"]].append(r)
 
+    # step 19d: segment text (the entry cues need it); changes no output
+    line_text = {(r["scan_id"], r["line_id"]): r["text"] for r in lines}
+    for segs in by_region.values():
+        for sg in segs:
+            sg["text"] = line_text.get((sg["scan_id"], sg["line_id"]), "")[sg["char_start"]:sg["char_end"]]
+    flagged = None
+    if params.index_entry is not None and not print_mode:
+        pages_path = root / "layout" / "pages" / f"{inv}.tsv.gz"
+        if not pages_path.exists():
+            raise FileNotFoundError(f"{pages_path}: run layout with index_sides (step 19c)")
+        flagged = {(r["scan_id"], r["page"]) for r in read_tsv_gz(pages_path) if r["index_side"] == "1"}
+
     all_units = []
     n_collisions = 0
     for scan in scans:
@@ -459,7 +559,8 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
                        "layout_column": int(r["layout_column"]) if r["layout_column"] else 0}
                 regions.append((reg, by_region.get((sid, page, r["layout_region_id"]), [])))
             units, nc = build_units_page(sid, page, regions, params, print_mode, reserved[sid],
-                                         claimable)
+                                         claimable,
+                                         index_side=flagged is not None and (sid, page) in flagged)
             n_collisions += nc
             scan_units += units
         scan_units.sort(key=lambda u: u["_key"])

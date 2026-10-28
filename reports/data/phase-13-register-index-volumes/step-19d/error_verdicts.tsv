@@ -1,0 +1,41 @@
+kind	read_id	k	category	note
+FN	5	8	column interleave in region order (previous main line belongs to the other column)	two columns (x~2.5k, ~3.8k) in one region
+FN	5	9	column interleave in region order (previous main line belongs to the other column)	two columns (x~2.5k, ~3.8k) in one region
+FN	5	20	column interleave in region order (previous main line belongs to the other column)	two columns (x~2.5k, ~3.8k) in one region
+FN	5	78	column interleave in region order (previous main line belongs to the other column)	two columns (x~2.5k, ~3.8k) in one region
+FN	5	82	column interleave in region order (previous main line belongs to the other column)	two columns (x~2.5k, ~3.8k) in one region
+FN	5	86	column interleave in region order (previous main line belongs to the other column)	two columns (x~2.5k, ~3.8k) in one region
+FN	5	87	column interleave in region order (previous main line belongs to the other column)	two columns (x~2.5k, ~3.8k) in one region
+FN	7	13	column interleave in region order (previous main line belongs to the other column)	also: outdent only (no E5 cue); prev line ends 208: 276:
+FN	7	26	column interleave in region order (previous main line belongs to the other column)	also: prev line ends in a reference (end_ref_prev would see it)
+FN	7	41	column interleave in region order (previous main line belongs to the other column)	also: prev line ends in a reference (end_ref_prev would see it)
+FN	9	2	gutter-merged line	k1 w=2025 spans two columns, text of both on one line
+FN	9	9	column interleave in region order (previous main line belongs to the other column)	left column lines alternate with right column lines (k45-k51)
+FN	9	11	column interleave in region order (previous main line belongs to the other column)	left column lines alternate with right column lines (k45-k51)
+FN	9	12	column interleave in region order (previous main line belongs to the other column)	left column lines alternate with right column lines (k45-k51)
+FN	9	16	column interleave in region order (previous main line belongs to the other column)	left column lines alternate with right column lines (k45-k51)
+FN	9	22	column interleave in region order (previous main line belongs to the other column)	left column lines alternate with right column lines (k45-k51)
+FN	9	28	column interleave in region order (previous main line belongs to the other column)	left column lines alternate with right column lines (k45-k51)
+FN	9	33	column interleave in region order (previous main line belongs to the other column)	left column lines alternate with right column lines (k45-k51)
+FN	9	44	column interleave in region order (previous main line belongs to the other column)	left column lines alternate with right column lines (k45-k51)
+FP	9	57	column interleave in region order (previous main line belongs to the other column)	number-only continuation, cut by the other column's line above
+FP	15	20	column interleave in region order (previous main line belongs to the other column)	number-only continuation '740.'
+FN	25	31	column interleave in region order (previous main line belongs to the other column)	date-start entry; prev in region order is k17
+FP	26	46	column interleave in region order (previous main line belongs to the other column)	continuation lines cut after a short line of the other column
+FP	26	48	column interleave in region order (previous main line belongs to the other column)	continuation lines cut after a short line of the other column
+FN	27	66	column interleave in region order (previous main line belongs to the other column)	date-start entries
+FN	27	77	column interleave in region order (previous main line belongs to the other column)	date-start entries
+FP	37	3	column interleave in region order (previous main line belongs to the other column)	number-only line cut by indent
+FN	37	17	entry with no indent/short cue; only a reference at the line above's end	prev line nearly full width, ends '154:' / '138:'
+FN	37	28	entry with no indent/short cue; only a reference at the line above's end	prev line nearly full width, ends '154:' / '138:'
+FN-nounit	18	5	start line typed marginalia/other (no main unit)	index entries of 3349 typed outside main_text
+FN-nounit	18	8	start line typed marginalia/other (no main unit)	index entries of 3349 typed outside main_text
+FN-nounit	18	10	start line typed marginalia/other (no main unit)	index entries of 3349 typed outside main_text
+FN-nounit	18	11	start line typed marginalia/other (no main unit)	index entries of 3349 typed outside main_text
+FN-nounit	18	15	start line typed marginalia/other (no main unit)	index entries of 3349 typed outside main_text
+FN-nounit	18	16	start line typed marginalia/other (no main unit)	index entries of 3349 typed outside main_text
+FN-nounit	18	17	start line typed marginalia/other (no main unit)	index entries of 3349 typed outside main_text
+FN-nounit	18	24	start line typed marginalia/other (no main unit)	index entries of 3349 typed outside main_text
+FN-nounit	18	29	start line typed marginalia/other (no main unit)	index entries of 3349 typed outside main_text
+FN-nounit	18	41	start line typed marginalia/other (no main unit)	index entries of 3349 typed outside main_text
+FN-nounit	28	4	start line typed marginalia/other (no main unit)	
