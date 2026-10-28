@@ -4,6 +4,49 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.17.0 (2026-10-28)
+
+### Step 15y: mode pins and in-place rebuild
+
+- `text_layer.modes.decide_mode(line_rows, preset, inv=None)`: new optional `inv`; `volume_mode["pins"]` ({inv: "hand"|"print"})
+  sets `mode` to the pin and `method` to `pinned`, the measured result stays in `box_height_mode`/`box_height_method`. A pin value
+  outside `hand`/`print` raises `ValueError`. `presets.MODE_PINS_V4 = {"3463": "hand"}` is the pin set of `sg_1.01.02_v4`: **a
+  behaviour change** (3463 is built `hand` instead of `print`; 106 wrong splits disappear). The published v4 pilot has had 3463
+  pinned since 2026-10-27 (UA-037 (a), UA-038: `15y-b` copied over it).
+- `text_layer.build`: the v2 stages `layout`, `types` and `units` now skip inventories whose done row is current (new
+  `V2_UPSTREAM`, `is_current`, `v2_todo`; `Run.status()` rows carry `_seq`); `wbc` parts and `join` also need a row newer than the
+  stage they read. A changed `params.json` redoes the whole stage. v1 (VOC) paths are byte-identical.
+- Stale files are removed: a forced extract without split deletes `split_model/<inv>.json` and `split_stats/<inv>*.json`;
+  `units.unit_inventory` deletes `units/republic_lines/<inv>.tsv.gz` when it writes no crosswalk.
+- `scripts/run_text_layer_v4_full.py`: `--rebuild ARCHIVE=F`, `THROUGHPUT_V4` model (replaces `WORKER_SECONDS_PER_XML_BYTE`,
+  `SLOW_FACTOR`), `predict(archive, sizes, want, min_workers)`, `build_cmds(..., rebuild_file=None)` returns `(estimate, [cmds])`.
+- Affected sibling imports: none (NLP's `scripts/build_voc_text_layer.py` calls `build.main` with the v1 preset).
+
+### Step 15z: v4 mode pins
+
+- `sg_1.01.02_v4` `MODE_PINS_V4` gains 15 pins (3433, 3436, 3439, 3442, 3445, 3466, 3469, 3472, 3475, 3489, 3726, 4792, 12297 -> `hand`;
+  12163, 12165 -> `print`) from read scans (`reports/data/phase-12-hand-print-box-height/step-15z/verdicts.tsv`: at least 4 of 5 read scans of
+  the other class); 16 pins with 3463. Behaviour change of the preset: those volumes are built in the pinned mode. Of the 16, only
+  3463 is in the published v4 pilot (pinned there since UA-038); the full layer on the drive has all 16. Affected sibling imports: none.
+
+### Step 15yr: staleness gate, recorded sizes, extract timing
+
+- `text_layer.build.upstream_ok(status, inv, stage)` (new): in the v2 stages `layout`, `types`, `units`, `wbc` and `join`, an
+  inventory whose upstream stage (at any depth of `V2_UPSTREAM`) has a last row that is not `done` is **blocked**: not redone, no
+  status row, files untouched, logged as `N blocked`. Fixes a failed forced extract followed by `--stage all` rebuilding the later
+  stages on stale lines (F12-R.19). v1 paths unchanged.
+- `build.recorded_sizes(status_path)` (new) and size reuse in `build.main` (v2 presets, non-local stages): the sizes of a source
+  file come from the last `done` extract row when the file size equals the recorded `input_bytes`; log line `[sizes] N from
+  status.tsv, M measured`. `--estimate` is unchanged.
+- `modes.extract_inventory_v2_modes`: the result gains `prepass_seconds`, and `seconds` now times the whole call (pre-pass
+  included), so v4 extract rows in `status.tsv` are about twice as long as before (F12-R.17).
+- `scripts/run_text_layer_v4_full.py`: no longer calls `--estimate`; `build_cmds(...)` returns the list of commands (was
+  `(estimate, cmds)`); `THROUGHPUT_V4` extract entries scaled by the pre-pass factor; new `whole_layer_seconds`.
+- Audit (`step-15w/audit.py`): `modes`, `counts` and the invariant tags are keyed `<archive>/<inv>`; `done_inventories` uses the
+  last row per stage. `scripts/stage_text_layer_v4_full.py` accepts `[ARCHIVE/INV]` tags and `ARCHIVE/INV` items and mirrors
+  deletions (`--max-deletions`, default 100).
+- Affected sibling imports: none (NLP's `build_voc_text_layer.py` uses the v1 preset).
+
 ## v0.16.0 (2026-10-27)
 
 ### Step 18a: `text_extent` region types and margin gaps

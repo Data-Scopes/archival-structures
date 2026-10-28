@@ -240,3 +240,154 @@ Implementation sessions append here but don't read it unless their brief names a
   with the bad scan). Suite 1,241 passed, 11 skipped. Changelog *Unreleased*.
 - **Next:** user releases v0.15.1, reruns the UA-024 full-run command (resumes: 6 types, then units, wbc, join,
   1.10.94, audit) and stages `audit.json` + updated `status.tsv`, `manifest.json`, `run_v4.log`.
+
+## 2026-10-27 — staging script for the resumed full run (Opus 5.5)
+
+- The user released v0.15.1 and resumed the full run; it wrote `audit.json` (contents not yet seen here).
+- New `scripts/stage_text_layer_v4_full.py` (`--from <out-dir> --to data/text_layer_v4_full [--dry-run]`): copies
+  `audit.json`, `run_v4.log`, per sub-layer `status.tsv`, `manifest.json`, `progress.log`, `*/params.json`, `mode/`,
+  `scans/`, `extract_stats/`, `split_model/`, `split_stats/`, `wbc/` (not `parts/`), and every file of the
+  inventories named in a judged audit failure plus 1, 9302, 11102, 11103, 11191, 11265 (cap 20); skips files whose
+  size and mtime match; prints the failing invariants. Smoke-tested on `15x-a` into the scratchpad (1,086 files,
+  31 MB; a second run copies 0; all files g+w).
+
+## 2026-10-27 — full run (UA-024) checked (Opus 5.5)
+
+Staged by the user with `scripts/stage_text_layer_v4_full.py` into `data/text_layer_v4_full/` (718 MB).
+- **Complete.** 1.01.02: 9,122 inventories, every stage's last row `done` (278 `print`, 8,844 `hand`); 1.10.94: 2.
+  The six `parse_error` inventories (1, 9302, 11102, 11103, 11191, 11265): extract `n_errors` 1, then layout → join
+  done on the resume.
+- **Audit:** 161,645 pass, 2,755 fail, **0 judged**; 9,124 inventories, all sources reachable; every invariant kind
+  passes on every inventory except the reported merge share. Reported: 2,724 of 8,842 `hand` and 31 of 282 `print`
+  inventories below 0.95 (343 of them with < 30 merges); pooled share hand 0.9651 (12.9 M merges), print 0.9784
+  (3.3 M); failing median 0.915. Dev `15x-a`: 33 of 198. All 200 inventories in both `15x-a` and the full run give
+  identical share and merge counts (matched per archive; 455/456 exist in both archives).
+- **Debt 1, resume:** `stage_layout` and `stage_types` (`build.py` L394, L441) have no done-skip (extract, wbc and
+  join do), so the resume re-ran both for all 9,122 inventories (3.3 h). Output unaffected (deterministic; all
+  layout/types tables now from the 0.15.1 code; extract from the first run).
+
+## 2026-10-27 — planning of steps 15y and 15z (Opus 5.5)
+
+- **Split.** P21 became two Sonnet steps: 15y (mechanics: `volume_mode["pins"]`, `--rebuild`, v2 stage skip and
+  staleness = debt 1, summary by last row = debt 2, throughput model; pins 3463 from 15w's 5/5 reads) and 15z (reads and
+  pins of 37 volumes). 15y needs nothing from the drive; 15z needs 35 tars (UA-034, 0.32 GiB).
+- **List (from `data/text_layer_v4_full` `mode/` + 15p `inventories.tsv`).** 278 `print`: 243 in the printed series,
+  35 outside (12 *tweede serie* indexes 3433–3489, 4792 *Index*, 3726, minutes 2586/2600/4016, pamphlets, extracts,
+  verbals; EAD titles in the 15z brief). Silver print built `hand`: 12163 (89.5), 12165 (88.0). No page-size outlier
+  among the 37 at a glance (5,000–5,500 px wide; *plakkaten* about 4,000 landscape).
+- **User decisions (chat, 2026-10-27):** read and pin the two `hand` *plakkaten* too (P28); parallel layout/types/units
+  deferred (P29).
+- **Read list drawn** (before any pin): `reports/data/phase-12-hand-print-box-height/planning/reads_15z.tsv`, 185 reads,
+  5 per volume weighted by characters, seed 20261104 (`draw_reads_15z.py`).
+- **Checked at planning:** the 15y fresh-build command (scratchpad, 13 s); throughput fits per stage and mode from the
+  full run (R² 0.83–0.99); AS suite 1,312 / 1,301 passed / 11 skipped; no sibling imports `build`/`modes` except NLP's
+  VOC script (`build.main`, v1 preset).
+- **Written:** `step-15y-pins-and-rebuild.md` (263 lines, slightly over budget), `step-15z-read-and-pin.md`, phase `PLAN.md`
+  (P24–P29, steps, hazards, hand-off), report planning paragraph and empty 15y/15z sections (`make reports` clean),
+  UA-034, `STATUS.md`.
+- **Next:** 15y (Sonnet).
+- **Debt 2, summary:** `archive_summary` (`scripts/run_text_layer_v4_full.py` L228) counts every non-`done` row in
+  the history, so the log says "6 failed or unfinished rows" for a complete run. It should count the last row per
+  (inventory, stage).
+- **Throughput (status.tsv, span h / worker h):** extract 2.80 / 10.99 (7 workers); layout 2.15–2.30 / same; types
+  0.99 / same; units 0.72 / same; wbc 0.18 / 0.42; join 0.26 / 1.05 (4 workers). layout, types and units run in one
+  process: 3.9 of about 7.1 h without the redo. Input 0.376 TB XML; output 39,427 MiB (predicted 38,101 MiB,
+  1.9–5.8 h).
+
+### Step 15y: mode pins, in-place rebuild, resume debts, throughput model
+- **Session:** Sonnet 5.5, 2026-10-27. **Status:** done
+- **Files changed:** `archival_structures/text_layer/{modes,presets,build,units}.py`, `scripts/run_text_layer_v4_full.py`, `reports/data/phase-12-hand-print-box-height/step-15w/audit.py`, `tests/test_text_layer_{modes,build}.py`, `tests/test_run_text_layer_v4_full.py`, `docs/text_layer.md`, `docs/shared_library/changelog.md`, `reports/phase-12-hand-print-box-height.md`; new `reports/data/phase-12-hand-print-box-height/step-15y/`, `data/text_layer_v2_dev/{15y-a,15y-b}`, `data/text_layer_v4_15y_inputs`
+- **Public API:** `decide_mode(..., inv=None)`; `volume_mode["pins"]`; `MODE_PINS_V4`; v2 stage skip and staleness
+- **Tests:** full suite → 1,322 collected, 1,311 passed, 11 skipped (before 1,312 / 1,301 / 11)
+- **Acceptance:** 1 green; 2 only 3463 differs (10 corpus files differ in 3463 entries / pooled wbc, 2 split files missing, 1.10.94 equal); 3 19/19 files equal to fresh build, `hand`/`pinned`/86.5; 4 empty diff of 3,786 files, `0 to do`; 5 0 judged failures, 196 done 0 bad, full run (9,122, 0); 6 throughput files written, serial stages within 0.2% in sample / 5-10% out, extract and wbc 39-45% too fast; 7 protect lists unchanged
+- **Report:** [`reports/phase-12-hand-print-box-height.md` § Step 15y](../../reports/phase-12-hand-print-box-height.md#step-15y-mode-pins-in-place-rebuild-resume-debts-throughput-model); findings F12-15y.1-5
+- **Error analysis:** 3463 five scans: 1 better, 3 mixed, 1 worse (no cut phrases, but entries under-segmented; main_text units 3,493 to 2,102). Residuals: 25 of 30 are print+split volumes, 5 hand volumes with very many small scans.
+- **Deviations from brief:** none
+- **Brief defects:** `protect.py` crashes on 35 mode-600 tars in shared-data (ran a tolerant copy); `same_inv.py` must ignore `extract_stats.source`; brief's resume-list `find` would exclude `wbc/parts`; package path is `archival_structures/text_layer/`
+- **Open questions for the user:** the 35 tars for 15z are mode 600 owned by marijnkoolen: the agent account cannot read them (needs `chmod g+r`)
+
+### Step 15z: read the off-series modes and pin them (P21)
+- **Session:** Sonnet 5.5, 2026-10-27. **Status:** done
+- **Files changed:** `archival_structures/text_layer/presets.py` (`MODE_PINS_V4`: 16 pins), `tests/test_text_layer_modes.py` (`test_v4_pins`), `docs/text_layer.md`, `docs/shared_library/changelog.md`, `docs/USER_ACTIONS.md` (UA-035, UA-036; UA-034 moved to `docs/USER_ACTIONS_resolved.md`), `reports/phase-12-hand-print-box-height.md`; new `reports/data/phase-12-hand-print-box-height/step-15z/` (reads, verdicts, volumes, pins, compare, audits, before/after, resolution, `check_page.html`, builders, protect lists), `data/text_layer_v2_dev/{15z-a,15z-b}`, `data/text_layer_v4_staged_15z/`, `data/text_layer_v4_15z_inputs`
+- **Public API:** `MODE_PINS_V4` gains 15 pins (behaviour change of `sg_1.01.02_v4`); no signature change
+- **Tests:** full suite → 1,322 collected, 1,311 passed, 11 skipped (before 1,322 / 1,311 / 11)
+- **Acceptance:** 1 37/37 values and gates equal, modes equal except 3463; 2 185 verdicts (103 printed, 73 handwritten, 7 unclear, 2 table/numbers), 14 pin `hand`, 2 pin `print`, 1 mixed (4016), 20 as built; 3 only the 15 pinned volumes differ (469 equal, 10 corpus files differ, 22 split files missing), `mode/<inv>.json` pinned with old mode in `box_height_mode`, no `split_from` in hand pins; 4 audit 675 pass / 18 fail / 0 judged; 5 green, protect lists identical
+- **Report:** [`reports/phase-12-hand-print-box-height.md` § Step 15z](../../reports/phase-12-hand-print-box-height.md#step-15z-read-the-off-series-modes-and-pin-them-p21); findings F12-15z.1-6
+- **Error analysis:** 185 blind reads; before/after on the first read scan of the 15 pinned volumes: 1 better, 5 same, 4 mixed, 5 worse; hand pins on index volumes under-segment as in F12-15y.5 (3436, 3445, 3466, 3469, 3472 lose 26-50% of entry starts); resolution: no shift.
+- **Deviations from brief:** none (the brief's rule, read list and pins were not changed); read 14 first judged `handwritten`, changed to `unclear` before any count (narrow column with conflicting cues), same decisions either way
+- **Brief defects:** 12 tweede serie index volumes named, 11 exist; `--out-dir` must exist; `inventories.tsv` `median_w/h` are region sizes (used `page_w/h` of `mode/scans`); no criterion for better/same/worse/mixed; `„` and `=` also occur in print; `protect.py` needed no tolerant copy
+- **Open questions for the user:** UA-035 (check, then rebuild on the drive; about 1.2 h), UA-036 (4016 mixed); UA-035's stage command overwrites the 16 staged volumes and `audit.json`/`wbc/` in `data/text_layer_v4_full`
+
+### After 15z: check-page crops and the user's check (UA-035 part 1, UA-036)
+- **Session:** Opus 5.5 (Sonnet subagent for the crops), 2026-10-27. **Status:** done
+- **Files changed:** `step-15z/build_check_page.py`, `check_page.html`, `check_page_items.json` (IIIF crops), new `step-15z/na_iiif_map.py`,
+  `na_iiif_map.tsv`, `na_dims_check.tsv`, `na_cache/`, `user_check.py`, `user_check.tsv`; report § Step 15z (*The user's check*, F12-15z.7);
+  UA-036 moved to `docs/USER_ACTIONS_resolved.md`
+- **Crops:** diginfra holds only REPUBLIC volumes (404 for all 37), so the crops come from the NA IIIF server (bases from the NA viewer
+  pages). 49 of 185 NA images are 1.01-1.45x the PageXML size (always 5,000 px wide); crop boxes are scaled by `na_w / xml_w`. 185/185 crops
+  load, and the 5 viewed show their snippet text.
+- **User check:** agrees with 175 of 176 decided text reads; same 16 pins; 7 of 9 doubtful reads handwritten (corrects F12-15z.4); 2600 and
+  9264 mixed and stay as built, like 4016 (UA-036 (a)); 12163 and 12165 printed in Gothic type.
+- **Open:** UA-035 part 2 (drive rebuild).
+
+### After 15z: check of the staged drive rebuild (UA-035 part 2)
+- **Session:** Opus 5.5, 2026-10-27. **Status:** done
+- **Files changed:** new `reports/data/phase-12-hand-print-box-height/after-15z-rebuild/` (`check.py`, `check.json`); report § *After 15z:
+  check of the staged drive rebuild* and F12-15z.8-11, follow-up rows; UA-035 moved to `docs/USER_ACTIONS_resolved.md`; new UA-037
+- **Check:** the log shows 16 of 9122 rebuilt, 0 failures, 266 `print` / 8,856 `hand`, and an unchanged corpus wbc set. The 16 volumes equal
+  `15z-b` in all 288 data files and in their audit counts. Audit 161,644 / 2,756 (+1: 4792's reported merge share). 79 min (predicted 1.2 h).
+- **Defects found (not fixed):** the audit keys modes/counts by inventory only, so 455/456 collide across archives (F12-15z.9). The
+  stager never deletes, which leaves 24 stale split files of the 12 hand-pinned volumes in the staged copy (F12-15z.10). Two ~9 min
+  whole-layer scans are missing from the time model (F12-15z.11).
+- **Publication:** the full layer (39 GiB) does not fit; the internal disk has 1.3 GiB free. UA-037 offers: patch 3463 in the pilot
+  (recommended), publish the full layer after freeing space, or keep the pilot.
+- **Open:** UA-037; a short Opus review of 15y/15z, which also plans fixes for F12-15z.9-11.
+
+### UA-037 (a): the pilot patch
+- **Session:** Opus 5.5, 2026-10-27 (the same session). **Status:** done on the agent side; the copy waits for the user (UA-038)
+- **Check:** the user freed space (87 GiB) and staged 10 pilot volumes: they equal the pilot apart from provenance (11281). `15y-b` (the
+  pilot with 3463 rebuilt in step 15y) differs from the pilot only in 3463 and the layer summaries. 3463 equals the drive's. The audit is unchanged.
+  So no publish script or Sonnet step is needed.
+- **Files changed:** report § *After 15z* (publication paragraph, follow-up row); UA-037 resolved; UA-038 (copy commands, README row
+  and changelog text); `STATUS.md`; `plan/PLAN.md` row 12
+- **UA-038 done and checked (2026-10-27):** `diff -rq` of `15y-b` against the published dir is empty (3,802 files, group-writable);
+  3463 is `hand`/`pinned`; the shared-data README row and changelog line are in place.
+
+## 2026-10-27 — review of steps 15y and 15z (Opus 5.5)
+
+- **Verdict:** accept with follow-ups; fixes in `step-15yr-review-fixes.md` (Sonnet). Code review: `REVIEW.md` § Steps 15y and 15z
+  review; report § *Review* (*Review of steps 15y and 15z*), statuses, F12-R.16–R.22, follow-ups, summary addendum; `reports/index.md`.
+- **Re-run:** AS 1,311 passed, 11 skipped; LotA 381 passed, 1 xfailed; own compares and checks (`review/review_15yz.py`) reproduce
+  every 15y/15z acceptance number, the drive-rebuild check, the resume no-op (on an APFS clone of `15y-b`) and the user check.
+- **Staleness cases** (`review/stale_cases_15yz.py`): reverse pin, crash after layout, two volumes: correct; a failed forced extract:
+  later stages rebuilt from stale lines (F12-R.19). Audit counts any done row (F12-R.20).
+- **Time model:** extract rows leave out the pre-pass (47–49% of a call; F12-R.17); the 15y validation was in-sample by construction,
+  held-out sums are good (F12-R.18); both 9-min gaps are `input_bytes` sizing, one for a no-op `--estimate` (F12-15z.11 revised).
+- **Reads:** index volumes print vs hand pin, 5 scans: 3 print better, 0 hand better; hand units interleave two columns 1.39% vs
+  0.07% (F12-R.21); 0.60% of all hand units in `15x-a` (F12-R.22, a new phase).
+- **Fixed in review:** two stale changelog sentences; `docs/text_layer.md` (*Pinned volumes*, *Rebuilding pinned volumes*).
+- **Written:** phase `PLAN.md` (15yr row, P30, hand-off), `plan/PLAN.md`, `plan/CONTEXT.md` §1, §2, §4, §5, `STATUS.md`.
+- **Next:** 15yr (Sonnet), its review, release v0.17.0; then plan the register/index phase.
+
+### Step 15yr: review fixes for 15y/15z (staleness, audit keys, stager, time model)
+- **Session:** Sonnet 5.5, 2026-10-28. **Status:** done
+- **Files changed:** `archival_structures/text_layer/{build,modes}.py`, `scripts/{run_text_layer_v4_full,stage_text_layer_v4_full}.py`, `reports/data/phase-12-hand-print-box-height/step-15w/audit.py`, `tests/test_text_layer_{build,modes}.py`, `tests/test_run_text_layer_v4_full.py`, new `tests/test_stage_text_layer_v4_full.py`, new `reports/data/phase-12-hand-print-box-height/step-15yr/` (`prepass_factor.py/.json`, `validate.py/.json`, `audit_15y-b.json`, protect lists), `docs/text_layer.md`, `docs/shared_library/changelog.md`, report; new layer `data/text_layer_v2_dev/15yr-a` (APFS clone of `15y-b`, rebuilt 3463)
+- **Public API:** `build.upstream_ok`, `build.recorded_sizes`, blocked inventories in v2 stages; v4 extract `seconds` = whole call, `prepass_seconds`; `build_cmds` returns a list; audit keys `<archive>/<inv>`
+- **Tests:** full suite → 1,334 collected, 1,323 passed, 11 skipped (before 1,322 / 1,311 / 11); audit `--self-test` ok
+- **Acceptance:** 1 green; 2 3,592 / 33 / 0, 198 keys each, 455 and 3463 as expected; 3 `0 to do`, `[sizes] 188 from status.tsv, 8 measured`, 1.35 s, 6 new rows for 3463, 19/19 equal to `15y-b`, extract seconds 2.0x; 4 factors 1.817 (1.01.02) and 1.321 (1.10.94), validation in the report; 5 both protect lists unchanged
+- **Report:** [`reports/phase-12-hand-print-box-height.md` § Step 15yr](../../reports/phase-12-hand-print-box-height.md#step-15yr-review-fixes-for-15y15z); findings F12-15yr.1-6
+- **Error analysis:** 12 timed volumes (pre-pass 46% of hand and gated-print calls, 24% of split-print); case A before/after; the one-level gate failed case A through join
+- **Deviations from brief:** `upstream_ok` walks the whole `V2_UPSTREAM` chain, not one level (the one-level rule left join rebuilding after a failed extract, so the brief's test could not pass)
+- **Brief defects:** the 15x-a "latest 15y-b row of 3463" for the 1.5x check is the second of two extract rows (2.166 s); the first (10.345 s) is the 15y build with the old timing; step 6's old-code rebuild prediction is only the 0.64 min of stages, so I report both it and the consistency check with the whole-layer terms
+- **Open questions for the user:** none
+
+## 2026-10-28 — review of step 15yr (Opus 5.5)
+
+- 15yr ran as a Sonnet 5.5 subagent of the review session (brief unchanged). **Verdict:** accept; `REVIEW.md` § Step 15yr review;
+  report *Review of step 15yr*, statuses, follow-ups; `reports/index.md` rows F12-15yr.1–6.
+- **Re-run:** AS 1,323 passed, 11 skipped; audit self-test; audit of `15y-b` (3,592 / 33 / 0, 198 `<archive>/<inv>` keys); no-op
+  on a fresh clone of `15yr-a` in 1.2 s (`188 from status.tsv, 8 measured`); `stale_cases_15yz.py` case A now blocked.
+- **Fixed in review:** `step-15w/audit.py` `done_inventories` compared each inventory with its own stages (an extract-only volume
+  passed as built); now the layer's stages, dict membership, and a `partial` self-test case.
+- **Revised:** F12-15yr.4: 15x-a for 1.01.02 alone is +12% (the step added 1.10.94's extract), the mix effect of one pooled factor.
+- **Phase done.** Release v0.17.0 now; the next text-layer phase is the register/index volumes.

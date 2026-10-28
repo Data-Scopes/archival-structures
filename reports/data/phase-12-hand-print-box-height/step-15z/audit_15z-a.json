@@ -1,0 +1,8368 @@
+{
+ "layer": "data/text_layer_v2_dev/15z-a",
+ "sub_layers": {
+  "data/text_layer_v2_dev/15z-a/1.01.02/NL-HaNA_1.01.02_text_layer_v4": {
+   "inventories": 37,
+   "v4": true,
+   "sources_reachable": 37
+  }
+ },
+ "invariants": [
+  {
+   "invariant": "NL-HaNA_1.01.02_text_layer_v4: utf8, no CR, tab count = header's",
+   "expected": [],
+   "actual": [],
+   "pass": true,
+   "note": "0 files",
+   "reported": false
+  },
+  {
+   "invariant": "NL-HaNA_1.01.02_text_layer_v4: one header per table across inventories",
+   "expected": {
+    "scans": 1,
+    "regions_meta": 1,
+    "lines": 1,
+    "layout/scans": 1,
+    "layout/regions": 1,
+    "layout/lines": 1,
+    "types/segments": 1,
+    "types/regions": 1,
+    "units/units": 1,
+    "units/segments": 1,
+    "units/doc_id_map": 1,
+    "join/units": 1,
+    "join/segments": 1
+   },
+   "actual": {
+    "scans": 1,
+    "regions_meta": 1,
+    "lines": 1,
+    "layout/scans": 1,
+    "layout/regions": 1,
+    "layout/lines": 1,
+    "types/segments": 1,
+    "types/regions": 1,
+    "units/units": 1,
+    "units/segments": 1,
+    "units/doc_id_map": 1,
+    "join/units": 1,
+    "join/segments": 1
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "271 members, 271 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9262,
+   "pass": false,
+   "note": "1911 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[2600] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "286 members, 286 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9728,
+   "pass": true,
+   "note": "3563 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3433] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "145 members, 145 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.957,
+   "pass": true,
+   "note": "767 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3436] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "145 members, 145 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9621,
+   "pass": true,
+   "note": "766 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3439] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "187 members, 187 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9696,
+   "pass": true,
+   "note": "1284 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3442] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "188 members, 188 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9677,
+   "pass": true,
+   "note": "960 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3445] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "188 members, 188 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9228,
+   "pass": false,
+   "note": "609 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3463] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "183 members, 183 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9048,
+   "pass": false,
+   "note": "620 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3466] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "191 members, 191 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9261,
+   "pass": false,
+   "note": "501 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3469] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "191 members, 191 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.8889,
+   "pass": false,
+   "note": "396 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3472] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "194 members, 194 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9433,
+   "pass": false,
+   "note": "423 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3475] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "197 members, 197 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9338,
+   "pass": false,
+   "note": "831 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3489] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "203 members, 203 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9663,
+   "pass": true,
+   "note": "832 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[3726] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "12 members, 12 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.0,
+   "pass": false,
+   "note": "2 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[4016] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "132 members, 132 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9812,
+   "pass": true,
+   "note": "1647 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[4792] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "102 members, 102 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.955,
+   "pass": true,
+   "note": "222 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[7462] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "721 members, 721 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9253,
+   "pass": false,
+   "note": "7402 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[8080] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "63 members, 63 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9591,
+   "pass": true,
+   "note": "685 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[8645] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "181 members, 181 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9361,
+   "pass": false,
+   "note": "2722 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[8828] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "511 members, 511 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9379,
+   "pass": false,
+   "note": "7469 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9250] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "23 members, 23 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.98,
+   "pass": true,
+   "note": "50 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9252] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "594 members, 594 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9717,
+   "pass": true,
+   "note": "9167 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9253] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "257 members, 257 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9641,
+   "pass": true,
+   "note": "2365 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9264] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "201 members, 201 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.7143,
+   "pass": false,
+   "note": "7 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9275] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "26 members, 26 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9986,
+   "pass": true,
+   "note": "717 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9396] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "172 members, 172 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9829,
+   "pass": true,
+   "note": "3166 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9448] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "178 members, 178 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9493,
+   "pass": false,
+   "note": "3038 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9449] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "188 members, 188 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9562,
+   "pass": true,
+   "note": "1851 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9486] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "53 members, 53 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9557,
+   "pass": true,
+   "note": "835 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9487] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "206 members, 206 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9643,
+   "pass": true,
+   "note": "3445 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[9634] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "20 members, 20 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9007,
+   "pass": false,
+   "note": "423 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[12163] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "369 members, 369 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9063,
+   "pass": false,
+   "note": "3884 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[12165] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "546 members, 546 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9276,
+   "pass": false,
+   "note": "5619 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[12297] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "61 members, 61 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.8627,
+   "pass": false,
+   "note": "51 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[12476] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "148 members, 148 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.974,
+   "pass": true,
+   "note": "1040 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[12477] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "33 members, 33 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9824,
+   "pass": true,
+   "note": "170 merges",
+   "reported": true
+  },
+  {
+   "invariant": "[12478] every XML member has a scan row",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "171 members, 171 scan rows",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] every scan with text lines has >= 1 unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] every regions_meta row is in doc_id_map",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] unchanged layout regions keep their id",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] unit_id unique",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] values lie in their sets",
+   "expected": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "actual": {
+    "layout/regions.page": [],
+    "layout/regions.layout_role": [],
+    "layout/regions.change": [],
+    "units.page": [],
+    "units.unit_type": [],
+    "doc_id_map.old_status": [],
+    "doc_id_map.link": [],
+    "doc_id_map.none_only_on_empty": []
+   },
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] n_segments equals join/segments rows",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] offset invariant (unit text span = line text slice)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] segment box inside unit box (5 px)",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] every join segment has a join unit",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] merges with lower-case right side (share, target >= 0.95, reported)",
+   "expected": ">= 0.95",
+   "actual": 0.9861,
+   "pass": true,
+   "note": "2526 merges",
+   "reported": true
+  },
+  {
+   "invariant": "NL-HaNA_1.01.02_text_layer_v4: layout/params.json has the keys hand and print",
+   "expected": true,
+   "actual": [
+    "hand",
+    "print"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "NL-HaNA_1.01.02_text_layer_v4: types/params.json has the keys hand and print",
+   "expected": true,
+   "actual": [
+    "hand",
+    "print"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "NL-HaNA_1.01.02_text_layer_v4: units/params.json has the keys hand and print",
+   "expected": true,
+   "actual": [
+    "hand",
+    "print",
+    "republic_dir"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 84.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 271,
+   "actual": 271,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.1388 n_rows 15399",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2586] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 78.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 286,
+   "actual": 286,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.1439 n_rows 17904",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[2600] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 84.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 145,
+   "actual": 145,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.3389 n_rows 7241",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3433] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 83.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 145,
+   "actual": 145,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.3819 n_rows 7185",
+   "reported": false
+  },
+  {
+   "invariant": "[3436] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 82.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 187,
+   "actual": 187,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.4383 n_rows 11675",
+   "reported": false
+  },
+  {
+   "invariant": "[3439] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 77.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 188,
+   "actual": 188,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.4215 n_rows 11937",
+   "reported": false
+  },
+  {
+   "invariant": "[3442] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 81.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 188,
+   "actual": 188,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.4392 n_rows 10002",
+   "reported": false
+  },
+  {
+   "invariant": "[3445] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "hand",
+    "pinned"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] pinned: box_height_mode recorded",
+   "expected": "hand|print",
+   "actual": "print",
+   "pass": true,
+   "note": "measured print -> pin hand",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 183,
+   "actual": 183,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3463] unit methods all 'hand:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 86.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 191,
+   "actual": 191,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.4406 n_rows 11541",
+   "reported": false
+  },
+  {
+   "invariant": "[3466] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 83.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 191,
+   "actual": 191,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.418 n_rows 10182",
+   "reported": false
+  },
+  {
+   "invariant": "[3469] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 84.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 194,
+   "actual": 194,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.4304 n_rows 8292",
+   "reported": false
+  },
+  {
+   "invariant": "[3472] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 85.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 197,
+   "actual": 197,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.4437 n_rows 13224",
+   "reported": false
+  },
+  {
+   "invariant": "[3475] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 85.5 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 203,
+   "actual": 203,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.3529 n_rows 6413",
+   "reported": false
+  },
+  {
+   "invariant": "[3489] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 84.5 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 12,
+   "actual": 12,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.4716 n_rows 229",
+   "reported": false
+  },
+  {
+   "invariant": "[3726] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 82.5 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 132,
+   "actual": 132,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.1113 n_rows 8068",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4016] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 85.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 102,
+   "actual": 102,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.341 n_rows 1880",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[4792] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 77.5 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 721,
+   "actual": 721,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.1433 n_rows 51142",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[7462] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 79.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 63,
+   "actual": 63,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0262 n_rows 2823",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8080] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 86.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 181,
+   "actual": 181,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0393 n_rows 11598",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8645] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 78.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 511,
+   "actual": 511,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0455 n_rows 40086",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[8828] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 77.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 23,
+   "actual": 23,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.4047 n_rows 1181",
+   "reported": false
+  },
+  {
+   "invariant": "[9250] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 81.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 594,
+   "actual": 594,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.027 n_rows 52134",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9252] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 81.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 257,
+   "actual": 257,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0557 n_rows 14823",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9253] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 76.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 201,
+   "actual": 201,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.2009 n_rows 1115",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9264] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 76.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 26,
+   "actual": 26,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0022 n_rows 2310",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9275] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 86.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 172,
+   "actual": 172,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0146 n_rows 15376",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9396] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 75.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 178,
+   "actual": 178,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0053 n_rows 15712",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9448] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 78.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 188,
+   "actual": 188,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0478 n_rows 10941",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9449] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 79.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 53,
+   "actual": 53,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.007 n_rows 4838",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9486] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 80.5 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 206,
+   "actual": 206,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0078 n_rows 19946",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9487] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 85.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 20,
+   "actual": 20,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.1129 n_rows 1860",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[9634] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "hand",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] box_height: print iff value <= cut",
+   "expected": "hand",
+   "actual": "hand",
+   "pass": true,
+   "note": "value 89.5 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 369,
+   "actual": 369,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12163] unit methods all 'hand:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "hand",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] box_height: print iff value <= cut",
+   "expected": "hand",
+   "actual": "hand",
+   "pass": true,
+   "note": "value 88.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 546,
+   "actual": 546,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12165] unit methods all 'hand:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 83.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 61,
+   "actual": 61,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] split_model exists iff mode print and split_gate.split is not False",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] split_gate.split == (share is None or share >= min_share)",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "share 0.4052 n_rows 2880",
+   "reported": false
+  },
+  {
+   "invariant": "[12297] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 76.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 148,
+   "actual": 148,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0953 n_rows 6055",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12476] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 74.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 33,
+   "actual": 33,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.1178 n_rows 2046",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12477] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] mode in {hand, print}, method in {box_height, default, fixed, pinned}",
+   "expected": "valid",
+   "actual": [
+    "print",
+    "box_height"
+   ],
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] box_height: print iff value <= cut",
+   "expected": "print",
+   "actual": "print",
+   "pass": true,
+   "note": "value 78.0 cut 87.75",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] mode/scans rows = n_scans - n_parse_fail",
+   "expected": 171,
+   "actual": 171,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] mode/regions exists",
+   "expected": true,
+   "actual": true,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] split_model exists iff mode print and split_gate.split is not False",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] split_gate.split == (share is None or share >= min_share)",
+   "expected": false,
+   "actual": false,
+   "pass": true,
+   "note": "share 0.0171 n_rows 11819",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] no split_from in a hand or gated inventory",
+   "expected": 0,
+   "actual": 0,
+   "pass": true,
+   "note": "",
+   "reported": false
+  },
+  {
+   "invariant": "[12478] unit methods all 'print:*'",
+   "expected": {},
+   "actual": {},
+   "pass": true,
+   "note": "",
+   "reported": false
+  }
+ ],
+ "n_pass": 676,
+ "n_fail": 17,
+ "n_fail_judged": 0,
+ "n_inventories": 37,
+ "modes": {
+  "2586": [
+   "print",
+   "box_height"
+  ],
+  "2600": [
+   "print",
+   "box_height"
+  ],
+  "3433": [
+   "print",
+   "box_height"
+  ],
+  "3436": [
+   "print",
+   "box_height"
+  ],
+  "3439": [
+   "print",
+   "box_height"
+  ],
+  "3442": [
+   "print",
+   "box_height"
+  ],
+  "3445": [
+   "print",
+   "box_height"
+  ],
+  "3463": [
+   "hand",
+   "pinned"
+  ],
+  "3466": [
+   "print",
+   "box_height"
+  ],
+  "3469": [
+   "print",
+   "box_height"
+  ],
+  "3472": [
+   "print",
+   "box_height"
+  ],
+  "3475": [
+   "print",
+   "box_height"
+  ],
+  "3489": [
+   "print",
+   "box_height"
+  ],
+  "3726": [
+   "print",
+   "box_height"
+  ],
+  "4016": [
+   "print",
+   "box_height"
+  ],
+  "4792": [
+   "print",
+   "box_height"
+  ],
+  "7462": [
+   "print",
+   "box_height"
+  ],
+  "8080": [
+   "print",
+   "box_height"
+  ],
+  "8645": [
+   "print",
+   "box_height"
+  ],
+  "8828": [
+   "print",
+   "box_height"
+  ],
+  "9250": [
+   "print",
+   "box_height"
+  ],
+  "9252": [
+   "print",
+   "box_height"
+  ],
+  "9253": [
+   "print",
+   "box_height"
+  ],
+  "9264": [
+   "print",
+   "box_height"
+  ],
+  "9275": [
+   "print",
+   "box_height"
+  ],
+  "9396": [
+   "print",
+   "box_height"
+  ],
+  "9448": [
+   "print",
+   "box_height"
+  ],
+  "9449": [
+   "print",
+   "box_height"
+  ],
+  "9486": [
+   "print",
+   "box_height"
+  ],
+  "9487": [
+   "print",
+   "box_height"
+  ],
+  "9634": [
+   "print",
+   "box_height"
+  ],
+  "12163": [
+   "hand",
+   "box_height"
+  ],
+  "12165": [
+   "hand",
+   "box_height"
+  ],
+  "12297": [
+   "print",
+   "box_height"
+  ],
+  "12476": [
+   "print",
+   "box_height"
+  ],
+  "12477": [
+   "print",
+   "box_height"
+  ],
+  "12478": [
+   "print",
+   "box_height"
+  ]
+ },
+ "counts": {
+  "2586": {
+   "merges": {
+    "total": 1911,
+    "lower": 1770,
+    "upper_or_digit": 134
+   },
+   "merge_lower_share": 0.9262,
+   "scans": 271,
+   "scan_status": {
+    "ok": 252,
+    "no_regions": 18,
+    "no_words": 1
+   },
+   "scans_without_text": 19,
+   "lines": 21144,
+   "lines_with_text": 20606,
+   "legacy_regions": 3449,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 3268,
+   "layout_regions_empty": 156,
+   "units": 5147,
+   "units_per_type": {
+    "marginalia": 1255,
+    "main_text": 2348,
+    "date_header": 130,
+    "catch_word": 242,
+    "other": 84,
+    "page_number": 200,
+    "signature_mark": 22,
+    "index": 843,
+    "running_header": 23
+   },
+   "old_status": {
+    "empty": 156,
+    "identical": 2441,
+    "trimmed": 790,
+    "changed": 62
+   },
+   "whitespace_repairs": 0,
+   "segments": 20614,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 18,
+    "no_words": 1
+   }
+  },
+  "2600": {
+   "merges": {
+    "total": 3563,
+    "lower": 3466,
+    "upper_or_digit": 91
+   },
+   "merge_lower_share": 0.9728,
+   "scans": 286,
+   "scan_status": {
+    "ok": 264,
+    "no_regions": 22
+   },
+   "scans_without_text": 22,
+   "lines": 23106,
+   "lines_with_text": 22590,
+   "legacy_regions": 3382,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 3196,
+   "layout_regions_empty": 161,
+   "units": 4871,
+   "units_per_type": {
+    "marginalia": 641,
+    "page_number": 204,
+    "main_text": 2461,
+    "date_header": 112,
+    "catch_word": 287,
+    "other": 62,
+    "running_header": 23,
+    "index": 1047,
+    "signature_mark": 34
+   },
+   "old_status": {
+    "empty": 161,
+    "identical": 2367,
+    "trimmed": 801,
+    "changed": 53
+   },
+   "whitespace_repairs": 0,
+   "segments": 22604,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 22
+   }
+  },
+  "3433": {
+   "merges": {
+    "total": 767,
+    "lower": 734,
+    "upper_or_digit": 33
+   },
+   "merge_lower_share": 0.957,
+   "scans": 145,
+   "scan_status": {
+    "no_words": 3,
+    "no_regions": 6,
+    "ok": 136
+   },
+   "scans_without_text": 9,
+   "lines": 8646,
+   "lines_with_text": 8621,
+   "legacy_regions": 1998,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 1959,
+   "layout_regions_empty": 10,
+   "units": 3664,
+   "units_per_type": {
+    "main_text": 2646,
+    "marginalia": 609,
+    "page_number": 256,
+    "date_header": 120,
+    "index": 19,
+    "other": 9,
+    "catch_word": 4,
+    "running_header": 1
+   },
+   "old_status": {
+    "empty": 10,
+    "identical": 1459,
+    "trimmed": 499,
+    "changed": 30
+   },
+   "whitespace_repairs": 0,
+   "segments": 8738,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_words": 3,
+    "no_regions": 6
+   }
+  },
+  "3436": {
+   "merges": {
+    "total": 766,
+    "lower": 737,
+    "upper_or_digit": 23
+   },
+   "merge_lower_share": 0.9621,
+   "scans": 145,
+   "scan_status": {
+    "ok": 140,
+    "no_regions": 4,
+    "no_words": 1
+   },
+   "scans_without_text": 5,
+   "lines": 8803,
+   "lines_with_text": 8762,
+   "legacy_regions": 2685,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 2772,
+   "layout_regions_empty": 13,
+   "units": 3636,
+   "units_per_type": {
+    "main_text": 2777,
+    "other": 23,
+    "running_header": 1,
+    "page_number": 231,
+    "marginalia": 489,
+    "catch_word": 4,
+    "date_header": 93,
+    "index": 18
+   },
+   "old_status": {
+    "changed": 126,
+    "trimmed": 382,
+    "identical": 2164,
+    "empty": 13
+   },
+   "whitespace_repairs": 0,
+   "segments": 8850,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "split_lines": 96,
+   "split_stats": {
+    "n_split_bigram": 96,
+    "n_split_hyphen": 0,
+    "n_degenerate_splits": 0,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 4,
+    "no_words": 1
+   }
+  },
+  "3439": {
+   "merges": {
+    "total": 1284,
+    "lower": 1245,
+    "upper_or_digit": 37
+   },
+   "merge_lower_share": 0.9696,
+   "scans": 187,
+   "scan_status": {
+    "ok": 174,
+    "no_regions": 11,
+    "no_words": 2
+   },
+   "scans_without_text": 13,
+   "lines": 13743,
+   "lines_with_text": 13721,
+   "legacy_regions": 3748,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 3838,
+   "layout_regions_empty": 9,
+   "units": 4778,
+   "units_per_type": {
+    "main_text": 3661,
+    "marginalia": 621,
+    "page_number": 308,
+    "date_header": 155,
+    "other": 11,
+    "catch_word": 3,
+    "index": 19
+   },
+   "old_status": {
+    "identical": 3118,
+    "trimmed": 501,
+    "changed": 120,
+    "empty": 9
+   },
+   "whitespace_repairs": 0,
+   "segments": 13867,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "split_lines": 108,
+   "split_stats": {
+    "n_split_bigram": 108,
+    "n_split_hyphen": 0,
+    "n_degenerate_splits": 0,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 11,
+    "no_words": 2
+   }
+  },
+  "3442": {
+   "merges": {
+    "total": 960,
+    "lower": 929,
+    "upper_or_digit": 23
+   },
+   "merge_lower_share": 0.9677,
+   "scans": 188,
+   "scan_status": {
+    "ok": 173,
+    "no_regions": 15
+   },
+   "scans_without_text": 15,
+   "lines": 14291,
+   "lines_with_text": 14269,
+   "legacy_regions": 3782,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 3937,
+   "layout_regions_empty": 7,
+   "units": 5086,
+   "units_per_type": {
+    "main_text": 3959,
+    "marginalia": 703,
+    "page_number": 294,
+    "other": 20,
+    "index": 14,
+    "date_header": 92,
+    "catch_word": 4
+   },
+   "old_status": {
+    "identical": 3080,
+    "trimmed": 513,
+    "changed": 182,
+    "empty": 7
+   },
+   "whitespace_repairs": 0,
+   "segments": 14345,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "split_lines": 190,
+   "split_stats": {
+    "n_split_bigram": 190,
+    "n_split_hyphen": 0,
+    "n_degenerate_splits": 1,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 15
+   }
+  },
+  "3445": {
+   "merges": {
+    "total": 609,
+    "lower": 562,
+    "upper_or_digit": 29
+   },
+   "merge_lower_share": 0.9228,
+   "scans": 188,
+   "scan_status": {
+    "ok": 173,
+    "no_regions": 15
+   },
+   "scans_without_text": 15,
+   "lines": 11956,
+   "lines_with_text": 11931,
+   "legacy_regions": 3129,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 3271,
+   "layout_regions_empty": 6,
+   "units": 4227,
+   "units_per_type": {
+    "index": 29,
+    "page_number": 274,
+    "marginalia": 593,
+    "main_text": 3251,
+    "other": 8,
+    "date_header": 67,
+    "catch_word": 5
+   },
+   "old_status": {
+    "trimmed": 445,
+    "identical": 2512,
+    "changed": 166,
+    "empty": 6
+   },
+   "whitespace_repairs": 0,
+   "segments": 11988,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "split_lines": 190,
+   "split_stats": {
+    "n_split_bigram": 189,
+    "n_split_hyphen": 1,
+    "n_degenerate_splits": 0,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 15
+   }
+  },
+  "3463": {
+   "merges": {
+    "total": 620,
+    "lower": 561,
+    "upper_or_digit": 58
+   },
+   "merge_lower_share": 0.9048,
+   "scans": 183,
+   "scan_status": {
+    "ok": 171,
+    "no_regions": 9,
+    "no_words": 3
+   },
+   "scans_without_text": 12,
+   "lines": 11653,
+   "lines_with_text": 11624,
+   "legacy_regions": 2990,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 2977,
+   "layout_regions_empty": 13,
+   "units": 3200,
+   "units_per_type": {
+    "index": 24,
+    "page_number": 286,
+    "main_text": 2102,
+    "marginalia": 680,
+    "date_header": 96,
+    "catch_word": 2,
+    "other": 8,
+    "running_header": 2
+   },
+   "old_status": {
+    "trimmed": 93,
+    "identical": 2884,
+    "empty": 13
+   },
+   "whitespace_repairs": 0,
+   "segments": 11704,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 9,
+    "no_words": 3
+   }
+  },
+  "3466": {
+   "merges": {
+    "total": 501,
+    "lower": 464,
+    "upper_or_digit": 37
+   },
+   "merge_lower_share": 0.9261,
+   "scans": 191,
+   "scan_status": {
+    "ok": 182,
+    "no_regions": 9
+   },
+   "scans_without_text": 9,
+   "lines": 13812,
+   "lines_with_text": 13776,
+   "legacy_regions": 3463,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 3579,
+   "layout_regions_empty": 6,
+   "units": 5379,
+   "units_per_type": {
+    "main_text": 4246,
+    "page_number": 304,
+    "marginalia": 681,
+    "date_header": 126,
+    "other": 7,
+    "signature_mark": 1,
+    "index": 13,
+    "catch_word": 1
+   },
+   "old_status": {
+    "identical": 2596,
+    "trimmed": 727,
+    "changed": 134,
+    "empty": 6
+   },
+   "whitespace_repairs": 0,
+   "segments": 13889,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "split_lines": 124,
+   "split_stats": {
+    "n_split_bigram": 124,
+    "n_split_hyphen": 0,
+    "n_degenerate_splits": 2,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 9
+   }
+  },
+  "3469": {
+   "merges": {
+    "total": 396,
+    "lower": 352,
+    "upper_or_digit": 44
+   },
+   "merge_lower_share": 0.8889,
+   "scans": 191,
+   "scan_status": {
+    "ok": 183,
+    "no_regions": 8
+   },
+   "scans_without_text": 8,
+   "lines": 12315,
+   "lines_with_text": 12297,
+   "legacy_regions": 3365,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 3436,
+   "layout_regions_empty": 2,
+   "units": 4967,
+   "units_per_type": {
+    "main_text": 3794,
+    "page_number": 312,
+    "marginalia": 743,
+    "catch_word": 6,
+    "date_header": 87,
+    "other": 9,
+    "index": 15,
+    "signature_mark": 1
+   },
+   "old_status": {
+    "identical": 2576,
+    "trimmed": 686,
+    "changed": 101,
+    "empty": 2
+   },
+   "whitespace_repairs": 0,
+   "segments": 12375,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "split_lines": 77,
+   "split_stats": {
+    "n_split_bigram": 77,
+    "n_split_hyphen": 0,
+    "n_degenerate_splits": 0,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 8
+   }
+  },
+  "3472": {
+   "merges": {
+    "total": 423,
+    "lower": 399,
+    "upper_or_digit": 24
+   },
+   "merge_lower_share": 0.9433,
+   "scans": 194,
+   "scan_status": {
+    "ok": 180,
+    "no_regions": 8,
+    "no_words": 6
+   },
+   "scans_without_text": 14,
+   "lines": 10179,
+   "lines_with_text": 10141,
+   "legacy_regions": 2832,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 2873,
+   "layout_regions_empty": 14,
+   "units": 4200,
+   "units_per_type": {
+    "main_text": 3120,
+    "other": 4,
+    "marginalia": 642,
+    "date_header": 100,
+    "page_number": 302,
+    "catch_word": 5,
+    "index": 26,
+    "signature_mark": 1
+   },
+   "old_status": {
+    "identical": 2162,
+    "trimmed": 569,
+    "changed": 87,
+    "empty": 14
+   },
+   "whitespace_repairs": 0,
+   "segments": 10217,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "split_lines": 58,
+   "split_stats": {
+    "n_split_bigram": 58,
+    "n_split_hyphen": 0,
+    "n_degenerate_splits": 0,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 8,
+    "no_words": 6
+   }
+  },
+  "3475": {
+   "merges": {
+    "total": 831,
+    "lower": 776,
+    "upper_or_digit": 54
+   },
+   "merge_lower_share": 0.9338,
+   "scans": 197,
+   "scan_status": {
+    "ok": 186,
+    "no_regions": 7,
+    "no_words": 4
+   },
+   "scans_without_text": 11,
+   "lines": 15847,
+   "lines_with_text": 15821,
+   "legacy_regions": 3527,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 3653,
+   "layout_regions_empty": 6,
+   "units": 5939,
+   "units_per_type": {
+    "main_text": 4607,
+    "other": 12,
+    "marginalia": 758,
+    "page_number": 322,
+    "date_header": 212,
+    "index": 23,
+    "catch_word": 5
+   },
+   "old_status": {
+    "identical": 2630,
+    "trimmed": 759,
+    "changed": 132,
+    "empty": 6
+   },
+   "whitespace_repairs": 0,
+   "segments": 15995,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "split_lines": 138,
+   "split_stats": {
+    "n_split_bigram": 138,
+    "n_split_hyphen": 0,
+    "n_degenerate_splits": 1,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 7,
+    "no_words": 4
+   }
+  },
+  "3489": {
+   "merges": {
+    "total": 832,
+    "lower": 804,
+    "upper_or_digit": 27
+   },
+   "merge_lower_share": 0.9663,
+   "scans": 203,
+   "scan_status": {
+    "ok": 197,
+    "no_words": 4,
+    "no_regions": 2
+   },
+   "scans_without_text": 6,
+   "lines": 7747,
+   "lines_with_text": 7703,
+   "legacy_regions": 2168,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 2224,
+   "layout_regions_empty": 23,
+   "units": 2837,
+   "units_per_type": {
+    "main_text": 2109,
+    "other": 15,
+    "marginalia": 464,
+    "date_header": 57,
+    "page_number": 169,
+    "index": 17,
+    "catch_word": 6
+   },
+   "old_status": {
+    "identical": 1718,
+    "changed": 61,
+    "trimmed": 366,
+    "empty": 23
+   },
+   "whitespace_repairs": 0,
+   "segments": 7760,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "split_lines": 65,
+   "split_stats": {
+    "n_split_bigram": 65,
+    "n_split_hyphen": 0,
+    "n_degenerate_splits": 0,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_words": 4,
+    "no_regions": 2
+   }
+  },
+  "3726": {
+   "merges": {
+    "total": 2,
+    "lower": 0,
+    "upper_or_digit": 2
+   },
+   "merge_lower_share": 0.0,
+   "scans": 12,
+   "scan_status": {
+    "ok": 8,
+    "no_regions": 4
+   },
+   "scans_without_text": 4,
+   "lines": 850,
+   "lines_with_text": 802,
+   "legacy_regions": 97,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 94,
+   "layout_regions_empty": 11,
+   "units": 360,
+   "units_per_type": {
+    "main_text": 255,
+    "page_number": 6,
+    "marginalia": 30,
+    "other": 67,
+    "catch_word": 2
+   },
+   "old_status": {
+    "changed": 20,
+    "identical": 35,
+    "empty": 11,
+    "trimmed": 31
+   },
+   "whitespace_repairs": 0,
+   "segments": 805,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "split_lines": 3,
+   "split_stats": {
+    "n_split_bigram": 3,
+    "n_split_hyphen": 0,
+    "n_degenerate_splits": 0,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 4
+   }
+  },
+  "4016": {
+   "merges": {
+    "total": 1647,
+    "lower": 1616,
+    "upper_or_digit": 31
+   },
+   "merge_lower_share": 0.9812,
+   "scans": 132,
+   "scan_status": {
+    "ok": 119,
+    "no_regions": 13
+   },
+   "scans_without_text": 13,
+   "lines": 8918,
+   "lines_with_text": 8864,
+   "legacy_regions": 859,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 827,
+   "layout_regions_empty": 19,
+   "units": 1446,
+   "units_per_type": {
+    "main_text": 1008,
+    "index": 27,
+    "page_number": 67,
+    "date_header": 17,
+    "other": 40,
+    "marginalia": 184,
+    "catch_word": 87,
+    "running_header": 10,
+    "signature_mark": 6
+   },
+   "old_status": {
+    "identical": 577,
+    "empty": 19,
+    "changed": 20,
+    "trimmed": 243
+   },
+   "whitespace_repairs": 0,
+   "segments": 8864,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 13
+   }
+  },
+  "4792": {
+   "merges": {
+    "total": 222,
+    "lower": 212,
+    "upper_or_digit": 9
+   },
+   "merge_lower_share": 0.955,
+   "scans": 102,
+   "scan_status": {
+    "ok": 98,
+    "no_words": 2,
+    "no_regions": 2
+   },
+   "scans_without_text": 4,
+   "lines": 2396,
+   "lines_with_text": 2372,
+   "legacy_regions": 645,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 627,
+   "layout_regions_empty": 14,
+   "units": 862,
+   "units_per_type": {
+    "main_text": 552,
+    "page_number": 78,
+    "marginalia": 172,
+    "catch_word": 24,
+    "date_header": 23,
+    "running_header": 1,
+    "other": 8,
+    "index": 4
+   },
+   "old_status": {
+    "identical": 514,
+    "empty": 14,
+    "trimmed": 112,
+    "changed": 5
+   },
+   "whitespace_repairs": 0,
+   "segments": 2389,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_words": 2,
+    "no_regions": 2
+   }
+  },
+  "7462": {
+   "merges": {
+    "total": 7402,
+    "lower": 6849,
+    "upper_or_digit": 524
+   },
+   "merge_lower_share": 0.9253,
+   "scans": 721,
+   "scan_status": {
+    "ok": 683,
+    "no_regions": 34,
+    "no_words": 4
+   },
+   "scans_without_text": 38,
+   "lines": 74941,
+   "lines_with_text": 72995,
+   "legacy_regions": 15314,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 13880,
+   "layout_regions_empty": 901,
+   "units": 21913,
+   "units_per_type": {
+    "main_text": 13203,
+    "running_header": 58,
+    "index": 3041,
+    "marginalia": 4097,
+    "catch_word": 302,
+    "page_number": 742,
+    "date_header": 64,
+    "other": 397,
+    "signature_mark": 9
+   },
+   "old_status": {
+    "empty": 901,
+    "trimmed": 2173,
+    "identical": 11419,
+    "changed": 821
+   },
+   "whitespace_repairs": 0,
+   "segments": 73014,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 34,
+    "no_words": 4
+   }
+  },
+  "8080": {
+   "merges": {
+    "total": 685,
+    "lower": 657,
+    "upper_or_digit": 28
+   },
+   "merge_lower_share": 0.9591,
+   "scans": 63,
+   "scan_status": {
+    "ok": 60,
+    "no_regions": 3
+   },
+   "scans_without_text": 3,
+   "lines": 6911,
+   "lines_with_text": 6624,
+   "legacy_regions": 2305,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 2212,
+   "layout_regions_empty": 83,
+   "units": 2898,
+   "units_per_type": {
+    "main_text": 1195,
+    "page_number": 76,
+    "marginalia": 1251,
+    "catch_word": 82,
+    "running_header": 19,
+    "other": 98,
+    "signature_mark": 1,
+    "index": 176
+   },
+   "old_status": {
+    "trimmed": 209,
+    "identical": 1995,
+    "empty": 83,
+    "changed": 18
+   },
+   "whitespace_repairs": 0,
+   "segments": 6624,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 3
+   }
+  },
+  "8645": {
+   "merges": {
+    "total": 2722,
+    "lower": 2548,
+    "upper_or_digit": 167
+   },
+   "merge_lower_share": 0.9361,
+   "scans": 181,
+   "scan_status": {
+    "ok": 179,
+    "no_regions": 2
+   },
+   "scans_without_text": 2,
+   "lines": 13657,
+   "lines_with_text": 13445,
+   "legacy_regions": 1826,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 1684,
+   "layout_regions_empty": 99,
+   "units": 3078,
+   "units_per_type": {
+    "marginalia": 665,
+    "main_text": 1910,
+    "catch_word": 131,
+    "running_header": 13,
+    "other": 86,
+    "date_header": 7,
+    "page_number": 135,
+    "signature_mark": 11,
+    "index": 120
+   },
+   "old_status": {
+    "identical": 1260,
+    "empty": 99,
+    "trimmed": 396,
+    "changed": 71
+   },
+   "whitespace_repairs": 0,
+   "segments": 13447,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 2
+   }
+  },
+  "8828": {
+   "merges": {
+    "total": 7469,
+    "lower": 7005,
+    "upper_or_digit": 294
+   },
+   "merge_lower_share": 0.9379,
+   "scans": 511,
+   "scan_status": {
+    "ok": 493,
+    "no_regions": 17,
+    "no_words": 1
+   },
+   "scans_without_text": 18,
+   "lines": 49467,
+   "lines_with_text": 48918,
+   "legacy_regions": 5694,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 5074,
+   "layout_regions_empty": 217,
+   "units": 11062,
+   "units_per_type": {
+    "running_header": 24,
+    "main_text": 6789,
+    "other": 337,
+    "marginalia": 1642,
+    "catch_word": 454,
+    "page_number": 594,
+    "signature_mark": 82,
+    "date_header": 116,
+    "index": 1024
+   },
+   "old_status": {
+    "identical": 3509,
+    "trimmed": 1437,
+    "changed": 531,
+    "empty": 217
+   },
+   "whitespace_repairs": 0,
+   "segments": 48958,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 17,
+    "no_words": 1
+   }
+  },
+  "9250": {
+   "merges": {
+    "total": 50,
+    "lower": 49,
+    "upper_or_digit": 1
+   },
+   "merge_lower_share": 0.98,
+   "scans": 23,
+   "scan_status": {
+    "ok": 19,
+    "no_regions": 4
+   },
+   "scans_without_text": 4,
+   "lines": 1823,
+   "lines_with_text": 1778,
+   "legacy_regions": 216,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 278,
+   "layout_regions_empty": 6,
+   "units": 619,
+   "units_per_type": {
+    "main_text": 562,
+    "marginalia": 48,
+    "page_number": 4,
+    "other": 1,
+    "date_header": 2,
+    "index": 2
+   },
+   "old_status": {
+    "changed": 79,
+    "trimmed": 56,
+    "identical": 75,
+    "empty": 6
+   },
+   "whitespace_repairs": 0,
+   "segments": 1779,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "split_lines": 247,
+   "split_stats": {
+    "n_split_bigram": 246,
+    "n_split_hyphen": 1,
+    "n_degenerate_splits": 0,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 4
+   }
+  },
+  "9252": {
+   "merges": {
+    "total": 9167,
+    "lower": 8908,
+    "upper_or_digit": 214
+   },
+   "merge_lower_share": 0.9717,
+   "scans": 594,
+   "scan_status": {
+    "ok": 588,
+    "no_regions": 6
+   },
+   "scans_without_text": 6,
+   "lines": 70373,
+   "lines_with_text": 68820,
+   "legacy_regions": 7531,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 6955,
+   "layout_regions_empty": 306,
+   "units": 14925,
+   "units_per_type": {
+    "main_text": 8964,
+    "marginalia": 2154,
+    "index": 1086,
+    "other": 449,
+    "date_header": 209,
+    "running_header": 13,
+    "catch_word": 831,
+    "signature_mark": 106,
+    "page_number": 1113
+   },
+   "old_status": {
+    "identical": 4777,
+    "empty": 306,
+    "trimmed": 2098,
+    "changed": 350
+   },
+   "whitespace_repairs": 0,
+   "segments": 68825,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 6
+   }
+  },
+  "9253": {
+   "merges": {
+    "total": 2365,
+    "lower": 2280,
+    "upper_or_digit": 84
+   },
+   "merge_lower_share": 0.9641,
+   "scans": 257,
+   "scan_status": {
+    "ok": 237,
+    "no_regions": 20
+   },
+   "scans_without_text": 20,
+   "lines": 22999,
+   "lines_with_text": 22784,
+   "legacy_regions": 3672,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 3508,
+   "layout_regions_empty": 45,
+   "units": 6371,
+   "units_per_type": {
+    "main_text": 3606,
+    "date_header": 143,
+    "marginalia": 1588,
+    "catch_word": 249,
+    "page_number": 304,
+    "signature_mark": 63,
+    "other": 146,
+    "running_header": 25,
+    "index": 247
+   },
+   "old_status": {
+    "identical": 2607,
+    "empty": 45,
+    "trimmed": 855,
+    "changed": 165
+   },
+   "whitespace_repairs": 0,
+   "segments": 22793,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 20
+   }
+  },
+  "9264": {
+   "merges": {
+    "total": 7,
+    "lower": 5,
+    "upper_or_digit": 2
+   },
+   "merge_lower_share": 0.7143,
+   "scans": 201,
+   "scan_status": {
+    "no_regions": 6,
+    "ok": 193,
+    "no_words": 2
+   },
+   "scans_without_text": 8,
+   "lines": 10249,
+   "lines_with_text": 9092,
+   "legacy_regions": 7993,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 6804,
+   "layout_regions_empty": 891,
+   "units": 7565,
+   "units_per_type": {
+    "main_text": 3409,
+    "other": 468,
+    "date_header": 50,
+    "marginalia": 3404,
+    "running_header": 5,
+    "page_number": 159,
+    "index": 23,
+    "catch_word": 47
+   },
+   "old_status": {
+    "identical": 6512,
+    "trimmed": 173,
+    "changed": 417,
+    "empty": 891
+   },
+   "whitespace_repairs": 0,
+   "segments": 9099,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 6,
+    "no_words": 2
+   }
+  },
+  "9275": {
+   "merges": {
+    "total": 717,
+    "lower": 716,
+    "upper_or_digit": 1
+   },
+   "merge_lower_share": 0.9986,
+   "scans": 26,
+   "scan_status": {
+    "ok": 26
+   },
+   "scans_without_text": 0,
+   "lines": 2597,
+   "lines_with_text": 2486,
+   "legacy_regions": 213,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 160,
+   "layout_regions_empty": 51,
+   "units": 323,
+   "units_per_type": {
+    "marginalia": 25,
+    "main_text": 223,
+    "date_header": 4,
+    "other": 6,
+    "catch_word": 41,
+    "page_number": 22,
+    "running_header": 1,
+    "signature_mark": 1
+   },
+   "old_status": {
+    "identical": 79,
+    "empty": 51,
+    "trimmed": 81,
+    "changed": 2
+   },
+   "whitespace_repairs": 0,
+   "segments": 2487,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {}
+  },
+  "9396": {
+   "merges": {
+    "total": 3166,
+    "lower": 3112,
+    "upper_or_digit": 54
+   },
+   "merge_lower_share": 0.9829,
+   "scans": 172,
+   "scan_status": {
+    "ok": 172
+   },
+   "scans_without_text": 0,
+   "lines": 19269,
+   "lines_with_text": 18951,
+   "legacy_regions": 1999,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 1912,
+   "layout_regions_empty": 43,
+   "units": 5145,
+   "units_per_type": {
+    "main_text": 3532,
+    "date_header": 524,
+    "marginalia": 382,
+    "page_number": 335,
+    "catch_word": 240,
+    "other": 100,
+    "signature_mark": 15,
+    "running_header": 3,
+    "index": 14
+   },
+   "old_status": {
+    "identical": 817,
+    "changed": 53,
+    "trimmed": 1086,
+    "empty": 43
+   },
+   "whitespace_repairs": 0,
+   "segments": 18953,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {}
+  },
+  "9448": {
+   "merges": {
+    "total": 3038,
+    "lower": 2884,
+    "upper_or_digit": 39
+   },
+   "merge_lower_share": 0.9493,
+   "scans": 178,
+   "scan_status": {
+    "no_regions": 5,
+    "ok": 172,
+    "no_words": 1
+   },
+   "scans_without_text": 6,
+   "lines": 20556,
+   "lines_with_text": 20290,
+   "legacy_regions": 3076,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 2963,
+   "layout_regions_empty": 89,
+   "units": 3996,
+   "units_per_type": {
+    "main_text": 1778,
+    "running_header": 7,
+    "other": 84,
+    "date_header": 16,
+    "catch_word": 249,
+    "marginalia": 761,
+    "page_number": 319,
+    "index": 761,
+    "signature_mark": 21
+   },
+   "old_status": {
+    "trimmed": 631,
+    "identical": 2316,
+    "empty": 89,
+    "changed": 40
+   },
+   "whitespace_repairs": 0,
+   "segments": 20295,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 5,
+    "no_words": 1
+   }
+  },
+  "9449": {
+   "merges": {
+    "total": 1851,
+    "lower": 1770,
+    "upper_or_digit": 58
+   },
+   "merge_lower_share": 0.9562,
+   "scans": 188,
+   "scan_status": {
+    "no_regions": 21,
+    "ok": 167
+   },
+   "scans_without_text": 21,
+   "lines": 25556,
+   "lines_with_text": 22913,
+   "legacy_regions": 8192,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 6833,
+   "layout_regions_empty": 1276,
+   "units": 8807,
+   "units_per_type": {
+    "main_text": 2368,
+    "marginalia": 1287,
+    "signature_mark": 33,
+    "page_number": 226,
+    "catch_word": 154,
+    "other": 182,
+    "date_header": 11,
+    "running_header": 14,
+    "index": 4532
+   },
+   "old_status": {
+    "trimmed": 539,
+    "identical": 6243,
+    "empty": 1276,
+    "changed": 134
+   },
+   "whitespace_repairs": 0,
+   "segments": 22915,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 21
+   }
+  },
+  "9486": {
+   "merges": {
+    "total": 835,
+    "lower": 798,
+    "upper_or_digit": 37
+   },
+   "merge_lower_share": 0.9557,
+   "scans": 53,
+   "scan_status": {
+    "ok": 50,
+    "no_regions": 3
+   },
+   "scans_without_text": 3,
+   "lines": 5328,
+   "lines_with_text": 5321,
+   "legacy_regions": 220,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 216,
+   "layout_regions_empty": 0,
+   "units": 531,
+   "units_per_type": {
+    "main_text": 275,
+    "marginalia": 54,
+    "catch_word": 86,
+    "other": 18,
+    "page_number": 85,
+    "running_header": 1,
+    "signature_mark": 12
+   },
+   "old_status": {
+    "trimmed": 127,
+    "identical": 88,
+    "changed": 5
+   },
+   "whitespace_repairs": 0,
+   "segments": 5321,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 3
+   }
+  },
+  "9487": {
+   "merges": {
+    "total": 3445,
+    "lower": 3322,
+    "upper_or_digit": 91
+   },
+   "merge_lower_share": 0.9643,
+   "scans": 206,
+   "scan_status": {
+    "ok": 204,
+    "no_regions": 2
+   },
+   "scans_without_text": 2,
+   "lines": 22186,
+   "lines_with_text": 22149,
+   "legacy_regions": 1039,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 1019,
+   "layout_regions_empty": 3,
+   "units": 2430,
+   "units_per_type": {
+    "main_text": 1335,
+    "page_number": 384,
+    "marginalia": 261,
+    "catch_word": 325,
+    "signature_mark": 50,
+    "other": 73,
+    "running_header": 2
+   },
+   "old_status": {
+    "identical": 489,
+    "changed": 17,
+    "trimmed": 530,
+    "empty": 3
+   },
+   "whitespace_repairs": 0,
+   "segments": 22149,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 2
+   }
+  },
+  "9634": {
+   "merges": {
+    "total": 423,
+    "lower": 381,
+    "upper_or_digit": 42
+   },
+   "merge_lower_share": 0.9007,
+   "scans": 20,
+   "scan_status": {
+    "ok": 20
+   },
+   "scans_without_text": 0,
+   "lines": 2339,
+   "lines_with_text": 2282,
+   "legacy_regions": 423,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 376,
+   "layout_regions_empty": 31,
+   "units": 521,
+   "units_per_type": {
+    "running_header": 3,
+    "main_text": 281,
+    "other": 13,
+    "catch_word": 26,
+    "marginalia": 186,
+    "date_header": 1,
+    "page_number": 10,
+    "signature_mark": 1
+   },
+   "old_status": {
+    "identical": 314,
+    "trimmed": 57,
+    "empty": 31,
+    "changed": 21
+   },
+   "whitespace_repairs": 0,
+   "segments": 2286,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {}
+  },
+  "12163": {
+   "merges": {
+    "total": 3884,
+    "lower": 3520,
+    "upper_or_digit": 361
+   },
+   "merge_lower_share": 0.9063,
+   "scans": 369,
+   "scan_status": {
+    "no_regions": 12,
+    "ok": 357
+   },
+   "scans_without_text": 12,
+   "lines": 19288,
+   "lines_with_text": 18783,
+   "legacy_regions": 2316,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 2189,
+   "layout_regions_empty": 130,
+   "units": 2725,
+   "units_per_type": {
+    "main_text": 1230,
+    "running_header": 106,
+    "marginalia": 689,
+    "other": 110,
+    "date_header": 1,
+    "catch_word": 249,
+    "page_number": 99,
+    "index": 221,
+    "signature_mark": 20
+   },
+   "old_status": {
+    "identical": 1843,
+    "trimmed": 341,
+    "empty": 130,
+    "changed": 2
+   },
+   "whitespace_repairs": 0,
+   "segments": 18785,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 12
+   }
+  },
+  "12165": {
+   "merges": {
+    "total": 5619,
+    "lower": 5212,
+    "upper_or_digit": 404
+   },
+   "merge_lower_share": 0.9276,
+   "scans": 546,
+   "scan_status": {
+    "no_regions": 9,
+    "ok": 535,
+    "partial_shot_dropped": 2
+   },
+   "scans_without_text": 11,
+   "lines": 29759,
+   "lines_with_text": 28622,
+   "legacy_regions": 4268,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 3973,
+   "layout_regions_empty": 295,
+   "units": 4839,
+   "units_per_type": {
+    "main_text": 2250,
+    "marginalia": 1050,
+    "running_header": 145,
+    "other": 232,
+    "page_number": 372,
+    "index": 336,
+    "catch_word": 404,
+    "signature_mark": 45,
+    "date_header": 5
+   },
+   "old_status": {
+    "identical": 3370,
+    "trimmed": 603,
+    "empty": 295
+   },
+   "whitespace_repairs": 0,
+   "segments": 28622,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 9,
+    "partial_shot_dropped": 2
+   }
+  },
+  "12297": {
+   "merges": {
+    "total": 51,
+    "lower": 44,
+    "upper_or_digit": 7
+   },
+   "merge_lower_share": 0.8627,
+   "scans": 61,
+   "scan_status": {
+    "ok": 58,
+    "no_regions": 3
+   },
+   "scans_without_text": 3,
+   "lines": 5093,
+   "lines_with_text": 5051,
+   "legacy_regions": 1225,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 1284,
+   "layout_regions_empty": 9,
+   "units": 3131,
+   "units_per_type": {
+    "main_text": 2026,
+    "page_number": 5,
+    "marginalia": 206,
+    "other": 50,
+    "date_header": 798,
+    "catch_word": 4,
+    "index": 41,
+    "running_header": 1
+   },
+   "old_status": {
+    "trimmed": 252,
+    "changed": 134,
+    "identical": 830,
+    "empty": 9
+   },
+   "whitespace_repairs": 0,
+   "segments": 5073,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "main_edge"
+   ],
+   "split_lines": 99,
+   "split_stats": {
+    "n_split_bigram": 99,
+    "n_split_hyphen": 0,
+    "n_degenerate_splits": 3,
+    "n_alignment_failures": 0
+   },
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 3
+   }
+  },
+  "12476": {
+   "merges": {
+    "total": 1040,
+    "lower": 1013,
+    "upper_or_digit": 17
+   },
+   "merge_lower_share": 0.974,
+   "scans": 148,
+   "scan_status": {
+    "ok": 119,
+    "no_regions": 29
+   },
+   "scans_without_text": 29,
+   "lines": 7094,
+   "lines_with_text": 7018,
+   "legacy_regions": 1061,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 1036,
+   "layout_regions_empty": 16,
+   "units": 1553,
+   "units_per_type": {
+    "main_text": 1034,
+    "marginalia": 243,
+    "date_header": 84,
+    "other": 48,
+    "catch_word": 80,
+    "page_number": 50,
+    "running_header": 8,
+    "signature_mark": 6
+   },
+   "old_status": {
+    "trimmed": 270,
+    "identical": 760,
+    "changed": 15,
+    "empty": 16
+   },
+   "whitespace_repairs": 0,
+   "segments": 7021,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 29
+   }
+  },
+  "12477": {
+   "merges": {
+    "total": 170,
+    "lower": 167,
+    "upper_or_digit": 3
+   },
+   "merge_lower_share": 0.9824,
+   "scans": 33,
+   "scan_status": {
+    "ok": 29,
+    "no_regions": 4
+   },
+   "scans_without_text": 4,
+   "lines": 2455,
+   "lines_with_text": 2425,
+   "legacy_regions": 410,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 402,
+   "layout_regions_empty": 7,
+   "units": 592,
+   "units_per_type": {
+    "main_text": 388,
+    "other": 24,
+    "page_number": 35,
+    "date_header": 38,
+    "marginalia": 76,
+    "catch_word": 28,
+    "signature_mark": 2,
+    "index": 1
+   },
+   "old_status": {
+    "identical": 272,
+    "trimmed": 129,
+    "empty": 7,
+    "changed": 2
+   },
+   "whitespace_repairs": 0,
+   "segments": 2425,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 4
+   }
+  },
+  "12478": {
+   "merges": {
+    "total": 2526,
+    "lower": 2491,
+    "upper_or_digit": 29
+   },
+   "merge_lower_share": 0.9861,
+   "scans": 171,
+   "scan_status": {
+    "ok": 154,
+    "no_regions": 17
+   },
+   "scans_without_text": 17,
+   "lines": 13036,
+   "lines_with_text": 12987,
+   "legacy_regions": 1087,
+   "legacy_regions_without_lines": 0,
+   "layout_regions": 1070,
+   "layout_regions_empty": 12,
+   "units": 2054,
+   "units_per_type": {
+    "main_text": 1414,
+    "catch_word": 183,
+    "date_header": 50,
+    "marginalia": 169,
+    "page_number": 165,
+    "other": 42,
+    "running_header": 7,
+    "index": 2,
+    "signature_mark": 22
+   },
+   "old_status": {
+    "identical": 662,
+    "trimmed": 407,
+    "empty": 12,
+    "changed": 6
+   },
+   "whitespace_repairs": 0,
+   "segments": 12989,
+   "word_break_chars": "-=„",
+   "gutter_rule": [
+    "gap"
+   ],
+   "join_offset_violations": 0,
+   "gaps_scans_without_text": {
+    "no_regions": 17
+   }
+  }
+ }
+}

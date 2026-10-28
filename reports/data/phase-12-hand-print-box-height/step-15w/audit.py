@@ -43,7 +43,7 @@ TABLES = {  # table -> file name pattern
 CHANGE_RE = re.compile(r"unchanged|(merged|split_at_gutter|split_at_column)(\+(merged|split_at_gutter|split_at_column))*")
 INSIDE_PX = 5
 MODES = {"hand", "print"}
-METHODS = {"box_height", "default", "fixed"}
+METHODS = {"box_height", "default", "fixed", "pinned"}   # step 15y: pinned
 
 
 class Audit:
@@ -62,18 +62,28 @@ def sub_layers(base):
 
 
 def done_inventories(root):
-    """Inventories with a `done` row for every stage seen in the sub-layer's status.tsv, in file order."""
-    done, order = {}, []
+    """Inventories whose *last* row of every stage seen in the sub-layer's status.tsv is `done`, in file order
+    (step 15yr: a stage that was `done` once and failed since does not count). An inventory must have a last
+    row for every stage seen in the sub-layer (15yr review: a volume with only an extract row is not built)."""
+    last, order = {}, {}
     for row in (root / "status.tsv").read_text().splitlines()[1:]:
         cols = row.split("\t")
         if len(cols) < 3:
             continue
-        if cols[0] not in done:
-            order.append(cols[0])
-        if cols[2] == "done":
-            done.setdefault(cols[0], set()).add(cols[1])
-    n_stages = max((len(s) for s in done.values()), default=0)
-    return sorted((i for i in order if len(done.get(i, ())) == n_stages), key=lambda s: (len(s.rstrip("ABC")), s))
+        order.setdefault(cols[0], None)
+        last[(cols[0], cols[1])] = cols[2]
+    stages = collections.defaultdict(dict)
+    for (inv, stage), st in last.items():
+        stages[inv][stage] = st
+    seen = {stage for _, stage in last}
+    return sorted((i for i in order if set(stages[i]) == seen and all(st == "done" for st in stages[i].values())),
+                  key=lambda s: (len(s.rstrip("ABC")), s))
+
+
+def archive_of(root):
+    """The archive id of a sub-layer: `NL-HaNA_<archive>_text_layer_v<N>` -> <archive>, else the parent dir's name."""
+    m = re.fullmatch(r"NL-HaNA_(.+)_text_layer_v\d+", Path(root).name)
+    return m.group(1) if m else Path(root).parent.name
 
 
 def find_sources(root):
@@ -132,7 +142,7 @@ def raw_checks(root, inv_by_table):
     return bad, {t: len(h) for t, h in headers.items()}
 
 
-def audit_layer(root, invs, sources, A):
+def audit_layer(root, invs, sources, A, archive=""):
     """Phase-09 invariants over one layer root; returns {inv: counts} (R6)."""
     counts = {}
     sources = sources or {}
@@ -142,7 +152,8 @@ def audit_layer(root, invs, sources, A):
     A.add(f"{root.name}: one header per table across inventories", {t: 1 for t in TABLES}, nheaders,
           all(v == 1 for v in nheaders.values()))
     for inv in invs:
-        c = counts[inv] = {}
+        key = f"{archive}/{inv}"
+        c = counts[key] = {}
         scans = read(root, "scans", inv)
         meta = read(root, "regions_meta", inv)
         lines = read(root, "lines", inv)
@@ -152,7 +163,7 @@ def audit_layer(root, invs, sources, A):
         jun = {(r["scan_id"], r["unit_id"]): r for r in read(root, "join/units", inv)}
         jseg = read(root, "join/segments", inv)
         tseg = read(root, "types/segments", inv)
-        tag = f"[{inv}]"
+        tag = f"[{key}]"
         if inv in sources:
             try:
                 xml = source_xml_names(sources[inv])
@@ -264,7 +275,7 @@ def audit_layer(root, invs, sources, A):
     return counts
 
 
-def audit_v4(root, invs, A):
+def audit_v4(root, invs, A, archive=""):
     """The v4 volume-mode invariants of one sub-layer (call only when `root/mode` exists).
     Returns {inv: (mode, method)}."""
     modes = {}
@@ -275,20 +286,24 @@ def audit_v4(root, invs, A):
         A.add(f"{name}: {pdir}/params.json has the keys hand and print", True, keys,
               keys is not None and {"hand", "print"} <= set(keys))
     for inv in invs:
-        tag = f"[{inv}]"
+        key = f"{archive}/{inv}"
+        tag = f"[{key}]"
         mp = root / "mode" / f"{inv}.json"
         if not mp.is_file():
             A.add(f"{tag} mode/<inv>.json exists", True, False, False)
             continue
         m = json.loads(mp.read_text())
         mode, method = m.get("mode"), m.get("method")
-        modes[inv] = (mode, method)
-        A.add(f"{tag} mode in {{hand, print}}, method in {{box_height, default, fixed}}", "valid",
+        modes[key] = (mode, method)
+        A.add(f"{tag} mode in {{hand, print}}, method in {{box_height, default, fixed, pinned}}", "valid",
               [mode, method], mode in MODES and method in METHODS)
         if method == "box_height":
             cut, value = m["params"]["cut"], m["value"]
             A.add(f"{tag} box_height: print iff value <= cut", "print" if value <= cut else "hand",
                   mode, mode == ("print" if value <= cut else "hand"), f"value {value} cut {cut}")
+        if method == "pinned":   # step 15y: the measured result stays recorded; the pin sets the mode
+            A.add(f"{tag} pinned: box_height_mode recorded", "hand|print", m.get("box_height_mode"),
+                  m.get("box_height_mode") in MODES, f"measured {m.get('box_height_mode')} -> pin {mode}")
         n_exp = int(m["n_scans"]) - int(m["n_parse_fail"])
         sp = root / "mode" / "scans" / f"{inv}.tsv.gz"
         n_rows = sum(1 for _ in read_tsv_gz(sp)) if sp.is_file() else None
@@ -341,9 +356,10 @@ def audit_base(base, A):
         invs = done_inventories(root)
         sources = find_sources(root)
         reachable = {i: p for i, p in sources.items() if i in invs and p.exists()}
-        counts.update(audit_layer(root, invs, reachable, A))
+        archive = archive_of(root)
+        counts.update(audit_layer(root, invs, reachable, A, archive))
         if (root / "mode").is_dir():
-            modes.update(audit_v4(root, invs, A))
+            modes.update(audit_v4(root, invs, A, archive))
         for inv in invs:
             doc_maps.update(r["old_doc_id"] for r in read(root, "units/doc_id_map", inv))
         all_invs += invs
@@ -384,18 +400,52 @@ def self_test():
     with tempfile.TemporaryDirectory() as td:
         td = Path(td)
         shutil.copytree(fx, td / "px" / "NL-HaNA_1.01.02_9999")
-        for tag, preset in (("v2", "sg_1.01.02_v2"), ("v4", "sg_1.01.02_v4")):
-            rc = build.main(["--pagexml-dir", str(td / "px"), "--out-dir", str(td / tag / "x"), "--preset", preset,
-                             "--stage", "all", "--workers", "1"])
-            assert rc == 0
+        import dataclasses
+        from archival_structures.text_layer.presets import PRESETS
+        orig = PRESETS["sg_1.01.02_v4"]
+        pinned = dataclasses.replace(orig, volume_mode={**orig.volume_mode, "pins": {"9999": "print"}})
+        try:
+            for tag, preset in (("v2", "sg_1.01.02_v2"), ("v4", "sg_1.01.02_v4"), ("v4pin", "sg_1.01.02_v4")):
+                PRESETS["sg_1.01.02_v4"] = pinned if tag == "v4pin" else orig
+                rc = build.main(["--pagexml-dir", str(td / "px"), "--out-dir", str(td / tag / "x"), "--preset", preset,
+                                 "--stage", "all", "--workers", "1"])
+                assert rc == 0
+                A = Audit()
+                counts, modes, *_ = audit_base(td / tag, A)
+                fails = [i for i in A.items if not i["pass"] and not i["reported"]]
+                print(tag, len(A.items), "invariants,", len(fails), "failing:", [(i["invariant"], i["actual"]) for i in fails])
+                assert not fails and counts["1.01.02/9999"]["scans"] > 0
+                assert (tag != "v2") == bool(modes), modes
+                if tag == "v4pin":
+                    assert modes["1.01.02/9999"] == ("print", "pinned"), modes
+                if tag != "v2":
+                    assert sum("mode" in i["invariant"] or "split" in i["invariant"] for i in A.items) >= 5
+            # step 15yr: two archives with the same inventory number keep separate keys
+            src = td / "v4" / "x" / "NL-HaNA_1.01.02_text_layer_v4"
+            for name in ("a/NL-HaNA_1.01.02_text_layer_v4", "b/NL-HaNA_1.10.94_text_layer_v4"):
+                shutil.copytree(src, td / "two" / name)
             A = Audit()
-            counts, modes, *_ = audit_base(td / tag, A)
+            counts, modes, *_ = audit_base(td / "two", A)
             fails = [i for i in A.items if not i["pass"] and not i["reported"]]
-            print(tag, len(A.items), "invariants,", len(fails), "failing:", [(i["invariant"], i["actual"]) for i in fails])
-            assert not fails and counts["9999"]["scans"] > 0
-            assert (tag == "v4") == bool(modes), modes
-            if tag == "v4":
-                assert sum("mode" in i["invariant"] or "split" in i["invariant"] for i in A.items) >= 5
+            assert not fails, fails
+            assert {"1.01.02/9999", "1.10.94/9999"} <= set(modes) and set(modes) == set(counts), (modes, counts)
+            print("two", len(A.items), "invariants,", len(fails), "failing; keys", sorted(modes))
+            # a stage that failed after a done row is not done
+            shutil.copytree(src, td / "fail" / "x" / "NL-HaNA_1.01.02_text_layer_v4")
+            with open(td / "fail" / "x" / "NL-HaNA_1.01.02_text_layer_v4" / "status.tsv", "a") as fh:
+                fh.write("\t".join(["9999", "extract", "failed"] + [""] * 9) + "\n")
+            A = Audit()
+            counts, modes, *_ = audit_base(td / "fail", A)
+            assert counts == {} and modes == {}, (counts, modes)
+            print("fail: counts empty")
+            # 15yr review: an inventory with an extract row only (a run that stopped after extract) is not built
+            part = td / "fail" / "x" / "NL-HaNA_1.01.02_text_layer_v4" / "status.tsv"
+            part.write_text(part.read_text().splitlines()[0] + "\n" + "\t".join(["9998", "extract", "done"] + [""] * 9)
+                            + "\n" + "\t".join(["9999", "layout", "done"] + [""] * 9) + "\n")
+            assert done_inventories(part.parent) == [], done_inventories(part.parent)
+            print("partial: not built")
+        finally:
+            PRESETS["sg_1.01.02_v4"] = orig
     print("self-test ok")
     return 0
 

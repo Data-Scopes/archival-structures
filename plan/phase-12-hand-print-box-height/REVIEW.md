@@ -282,3 +282,173 @@ Statuses: F12-15x.1, .2 confirmed; .3, .4 revised.
 
 **Fixed in review:** changelog entry gains the `asdict` note; `docs/text_layer.md` *Known issues* gives the review's
 precision per series. Review notes in UA-029 (sharpened options, recommendation (a)), UA-024, UA-025.
+
+## Steps 15y and 15z review (2026-10-27)
+
+- **Session:** Opus 5.5, a new session (15y and 15z ran as Sonnet 5.5; the drive-rebuild check and UA-037/038 ran as Opus,
+  2026-10-27). Scripts, written apart from the steps' own: `reports/data/phase-12-hand-print-box-height/review/review_15yz.py`
+  (`throughput`, `compare15y`, `repro15z`, `summary`, `interleave`, `interleave_hand`) and `stale_cases_15yz.py` (pytest, four
+  staleness cases); outputs `throughput_15yz_review.json`, `interleave_15yz_review.tsv`, `interleave_hand_15x-a_review.tsv`.
+- **Verdict:** **accept with follow-ups; the fixes go to step 15yr** (`step-15yr-review-fixes.md`, Sonnet). The pins, the
+  pin rule, the in-place rebuild and the drive rebuild are right, and every acceptance number reproduces. One defect in the new
+  staleness logic: a failed upstream row counts as "newer", so a failed forced extract leads to a rebuild from stale lines
+  (F12-R.19). The throughput model's extract gap is not worker inefficiency: the extract rows leave out the mode pre-pass, about
+  half of each call (F12-R.17), and its in-sample serial errors hold by construction (F12-R.18). The audit has two keying
+  defects: modes and counts by inventory (F12-15z.9), and done-ness by any done row (F12-R.20). The stager never deletes
+  (F12-15z.10). The two whole-layer scans are one function: `input_bytes` decompresses every tar, once in a no-op `--estimate`
+  and once at the start of the build (F12-15z.11 revised). Error analysis: on index volumes the `hand` pin fixes the label but
+  not the text. The hand rules give one unit per PageXML region and keep two-column regions in XML order (F12-R.21, F12-R.22).
+
+| Check | Re-run by the reviewer | Step's claim |
+|---|---|---|
+| AS suite | 1,322 collected: 1,311 passed, 11 skipped | same |
+| LotA suite (`PYTHONNOUSERSITE=1 venv/bin/python -m pytest -q -p no:cacheprovider`) | 381 passed, 1 xfailed | not run |
+| 15y acc. 2: own decompressed compare `15x-a` vs `15y-b` (JSON without `seconds`, `elapsed*`, `source`) | 1.01.02: 3,772 equal, 27 differ (17 of 3463 + 10 corpus: `layout|types|units/stats.json`, 3 `corpus_default*.json`, 3 `wbc_per_inventory*.tsv`, `wbc_stats.tsv`), only in `15x-a` `split_model/3463.json`, `split_stats/3463.json`; 1.10.94 57/57 equal | same |
+| 15y acc. 3: `15y-a` vs `15y-b`, files `3463.*` | 19/19 equal, same file set; `mode/3463.json` `hand`/`pinned`, `box_height_mode` `print`, 86.5, no `split_gate` | same |
+| 15y acc. 4: resume no-op, on an APFS clone of `15y-b` | `0 to do` in all six stages; `size mtime` list of 3,590 files unchanged; `status.tsv` 1,183 rows before and after; 30.5 s, of which about 29 s the sizing of 196 tars | same (259 s with the audit) |
+| 15y acc. 5: `archive_summary` of the staged full run (after the drive rebuild) | (9,122, 0) and (2, 0) | same |
+| 15z acc. 1: `15z-a` `mode/` vs the staged full run | 37/37 `value`, gate share and measured mode equal | same |
+| 15z acc. 2: the pin rule re-applied to `verdicts.tsv` | 185 rows (103 / 73 / 7 unclear / 2 table); 14 pin `hand`, 2 pin `print`, 1 mixed, 20 as built; `MODE_PINS_V4` = rule (16 incl. 3463) | same |
+| 15z acc. 3: own compare `15z-a` vs `15z-b` | nothing outside the pinned volumes but the same 10 corpus files; 22 split files only in `15z-a` | same |
+| drive rebuild: staged 16 vs `15z-b` | every common file equal (`source` aside); in the staged copy only: 24 `split_model`/`split_stats` files of 12 hand pins | same (F12-15z.8, .10) |
+| 15z resolution (F12-15z.6) | per-volume median `page_w` 0.90–1.07 and `page_h` 0.94–1.06 of the all-volume median (5,180 x 4,070) for the 35; *plakkaten* 3,920 x 2,550 and 4,070 x 2,660 | group medians 0.98–1.04 (revised wording) |
+| user check (F12-15z.7) | `user_check.tsv`: 102 + 73 agree, 1 `printed` → handwritten, 7 doubtful → 5 + 2 handwritten, 2 tables → handwritten | same |
+
+**Read in the code** (`git diff` of `modes.py`, `presets.py`, `build.py`, `units.py`, the run script, `step-15w/audit.py`, tests):
+- `decide_mode`: the pin is applied after the method branch, so a `fixed` preset also records the measured result; the gate then
+  runs on the pinned mode (`extract_inventory_v2_modes` L134–145); a bad pin raises. Stale split files are unlinked before the
+  split extract writes new ones, so a print → print rebuild with `record_splits=False` also loses an old `.splits.json` (intended).
+- `is_current`: compares `_seq` with the latest row of the upstream stage **whatever its status** (L289–294). A `failed` upstream
+  row therefore makes a stage redo, from the old inputs (F12-R.19). `stage_layout` checks only that the input files exist.
+- `v2_todo` compares `params.json` before writing it; the units document includes `republic_dir`, which depends on the
+  inventories of the call. A subset `--stage units` with `--republic-dir` could flip it and make the next full run redo all
+  units. No v4 run does that (1.01.02 has no crosswalk; 1.10.94 has two volumes with one). Observation, no action.
+- Run script: `--rebuild` checks are complete; a rerun after a crash repeats the forced extract of F (minutes), which the
+  docstring does not say. The docstring and `docs/text_layer.md` say the other volumes' sources "are not read". They are: the
+  second command's `build.main` lists every source and sizes it with `io.input_bytes`, which decompresses each `.tar.gz`
+  (`io.py:152`), and the wbc stage exits if a layer inventory is missing from the sources.
+- `--estimate` runs `build.main --estimate`, which for both v4 presets prints "has no throughput fit; no prediction"
+  after the same full decompression (`run_v4.log`, 3 times): 9 minutes for nothing per archive and run.
+- `extract_v2.extract_inventory_v2` times itself (L184, L243); `extract_inventory_v2_modes` calls it after `prepass_rows`, so the
+  status `seconds` of a v4 extract row leave out the pre-pass, the mode decision and the split-model fit (F12-R.17).
+- Audit: `done_inventories` keeps a stage as done if any row was `done` (the same bug as debt 2, F12-R.20); `modes`/`counts`
+  keyed by inventory (F12-15z.9). The self-test swaps `PRESETS["sg_1.01.02_v4"]` without `try/finally`.
+- Changelog *Unreleased* matches the API: `decide_mode(..., inv=None)`, `volume_mode["pins"]`, `MODE_PINS_V4`, `V2_UPSTREAM`,
+  `is_current`, `v2_todo`, `_seq`, stale-file removal, script signatures. Two sentences went stale after UA-038 ("the published
+  pilot keeps 3463 `print`", "the published v4 pilot is not rebuilt"); fixed in review, as is the same sentence in
+  `docs/text_layer.md` and its "not read" claim.
+
+**Staleness cases 15y did not cover** (`stale_cases_15yz.py`, the SG fixture, the split gate opened):
+- *B, the reverse pin* (`hand` build, then pinned `print` with the splitter): forced extract + `--stage all` equals a fresh
+  print build in all 21 files; `split_model` written. Correct.
+- *C, a crash after layout in a rebuild* (forced extract, `--stage layout`, then `--stage all`): types, units, wbc and join
+  are redone, layout is not; equal to a fresh build. Correct.
+- *D, two volumes, one rebuilt*: only 9999 gets new rows; all 21 files of 9998 keep their mtimes. Correct.
+- *A, the forced extract fails after the pre-pass* (simulated `OSError` in `extract_inventory_v2`): `mode/9999.json` already says
+  `hand`/`pinned`, `lines/` are still the print build's. `--stage all` (extract still failing) then logs `0 already done, 1 to
+  do` for layout, types, units, wbc and join, rebuilds them with the **hand** rules on the print build's split lines and records
+  them `done`; `units/units/9999` and `join/` change; the last rows read extract `failed`, everything else `done`. Exit code 1 and
+  the run summary flag it, and the run script stops after a failed first command. But a plain build CLI resume, and the audit
+  (F12-R.20), treat the hybrid as built (F12-R.19). After the cause is fixed, a plain `--stage all` restores a build equal to a
+  fresh one.
+
+**Error analysis read by the reviewer:**
+- *Throughput, in and out of sample* (`review_15yz.py throughput`; the 16 rebuilt rows left out). OLS with an intercept
+  reproduces the summed seconds exactly (in-sample sum error 0.0000% for layout, types, units, join), and a serial stage's span is
+  its summed seconds, so the step's 0.1–0.4% are not a test. Honest tests: a random split half (seed 20261105) predicts the other
+  half's sums within 0.15% (layout, types, units, wbc, join) and +4.8% (extract); a fit without the 196 dev volumes predicts their
+  full-run seconds at −15.0% (extract), −5.7% (layout), −5.4% (units), +0.9% (types, wbc), −0.9% (join): the 196 are 52% print
+  by bytes against 12% in the run, so the pooled fit runs low on print-heavy subsets. Per volume the median absolute error is
+  6.5–15% (extract 40%). `15x-a` is not out of sample in volumes (its 196 are in the fit); it tests another machine and disk.
+  Per volume, `15x-a`'s seconds are 0.93–1.13 of the full run's.
+- *The extract gap.* Timing `extract_inventory_v2_modes` locally on 9448 (print), 3436 (hand pin) and 12476 (print): whole call
+  8.4 / 3.7 / 3.0 s, row `seconds` 4.47 / 1.90 / 1.54, pre-pass alone 4.1 / 1.8 / 1.4 s, so 47–49% of each call is not
+  recorded. The full run's extract (10.99 recorded worker-hours in 2.84 h, no gap over 1.2 min between rows) could hold at most
+  7 × 2.84 = 19.9 worker-hours, so the unrecorded part was at most 0.81 x the recorded one there (locally 0.88–0.95 x). The
+  7 workers were busy; F12-15y.3's "worker efficiency 0.55–0.65" is the missing pre-pass (F12-R.17). wbc's gap is not its
+  decision tail (39 s from the last part to the decision line); with 0.17 s tasks the pool's per-task overhead is the likely cause
+  (not measured).
+- *Whole-layer time* (`run_v4.log`): sizing scans of 8.8–9.4 min, six times over the three runs (`--estimate`, then the start of
+  `--stage all`); the audit 59.7 min (full run) and 59.0 min (rebuild) for 9,124 inventories; the wbc decision 39–47 s.
+- *Index volumes, print build next to the hand pin* (`review_15yz.py units`; one scan per volume, seed `20261105-<inv>`, all
+  main_text units of both builds in full): 3463_0091 print better (print cuts "12 december. miss: Directeuren …" after the short
+  line "Holl: ov:", hand merges it into the 13-line unit), 3439_0142 print better (48 vs 36 units; print's `short_prev` cuts at
+  "26. Nov. Miss:", "19 feb:", "24 Maart.", "7 nov.", "17 noy" are entry starts; its 3 wrong cuts are fragments, "vinfra 25 nov:",
+  "n aem ij n1 300", "127 Junyl"), 3469_0042 mixed (print wrongly cuts "over het arrest …" off its entry but cuts "5 mij", "11 meij"
+  right; hand merges three dated entries), 3475_0155 print better (31 vs 19; the hand build's 27-line unit interleaves two columns:
+  "8. Meij. voorschrijven … Metta Maria / 25 Januarij. Miss: greftien, over het gestrende schip, de / galeij, aan greflein, om"),
+  3489_0056 same. 3 print better, 1 mixed, 1 same, 0 hand better. Volume-wide, 97–99% of the hand main_text starts are
+  `hand:region` (one unit per PageXML region); the print rules add `short_prev` and `indent` cuts. So the under-segmentation of
+  F12-15y.5 and F12-15z.3 is the hand unit rule, and the print *unit* rules fit index entries better than the hand ones.
+- *Column interleaving* (`interleave`): a main_text unit with at least 3 jumps of > 800 px between consecutive lines that are
+  both ≥ 500 px wide. 14 hand-pinned volumes: print builds 29 of 40,496 units (0.07%), hand builds 360 of 25,984 (1.39%); 5 of 6 read
+  (lax test, seed 20261106) are two text columns of one PageXML region in XML order. 3442: "27 oc: Miss: Mag: van dantzig … /
+  22 Sept: Vier dienders voor t wegheeren / ambassadeur van Rusland. 17 nov: Rapp:". The 6th is a two-column name table (12297).
+  The print layout sorts the lines of unchanged regions and splits at the column; the hand layout keeps XML order
+  (`docs/text_layer.md`, known limit). The same test on the 111 hand volumes of `15x-a`: 2,252 of 373,730 units (0.60%), 30
+  volumes ≥ 1%, led by *tweede serie* registers and indexes (4617, 3471, 3493, 3459, 3579, 3546); 6 of 6 read (seed 20261108)
+  interleave two columns ("28. Augr. Miss. Stadht. Kien; plaatsen van / van eenen Os van Aaile naar Bakel 20. Sept:", 3579). A lax
+  test (2 jumps, any width) flags 3.9%, but most of those are a right-aligned "Waerop" or a margin start in one column (8 read),
+  so 0.60% is the defensible lower bound (F12-R.22). This affects every published hand layer (v2–v4), not only the pins.
+
+**Statuses.** Confirmed: F12-15y.1, .2; F12-15z.1, .2, .3, .5, .7, .8, .9, .10. Revised: F12-15y.3 (the gap is the unrecorded
+pre-pass; in-sample serial errors are by construction), F12-15y.4 (per-mode extract rates leave out the pre-pass), F12-15y.5 (the cause
+is the region-based hand unit rule; the hand layout also interleaves columns), F12-15z.4 (by F12-15z.7), F12-15z.6 (per-volume ratios
+0.90–1.07), F12-15z.11 (one function, two calls; the audit hour is not modelled either). None withdrawn. New: F12-R.16–R.22.
+
+**Brief defects** (15y: five, 15z: seven, all listed in the report) change no conclusion. Two are the planner's: the 15y brief
+promised that the other volumes' sources are not read, and the 15z brief listed `„`/`=` as handwritten cues, which hold only in
+narrow columns (F12-15z.7). New defect kinds for `CONTEXT.md` §5: **validate a fitted model on held-out units, not on the
+sums it was fitted to**; **check what a timing column measures before modelling it** (`seconds` began after the pre-pass).
+
+**Fixed in review:** the two stale changelog sentences; `docs/text_layer.md` (*Pinned volumes*: the pilot has 3463 pinned; *Rebuilding
+pinned volumes*: every source must be present and is sized). Everything else goes to 15yr.
+
+**Updates applied:** report (statuses, F12-R.16–R.22, *Review of steps 15y and 15z*, follow-ups, summary addendum), `reports/index.md`,
+phase `PLAN.md` (15yr row, P30, hand-off), `plan/PLAN.md`, `plan/CONTEXT.md` §1, §4, §5, `STATUS.md`, `PROGRESS.md`.
+
+## Step 15yr review (2026-10-28)
+
+- **Session:** Opus 5.5, the session that wrote the brief (15yr ran as a Sonnet 5.5 subagent of it, 2026-10-28).
+- **Verdict:** **accept**, with one fix made in review (`done_inventories`). No new brief.
+
+| Check | Re-run by the reviewer | Step's claim |
+|---|---|---|
+| AS suite | 1,334 collected: 1,323 passed, 11 skipped | same |
+| audit `--self-test` | ok, incl. `two`, `fail` and my new `partial` case | ok (`two`, `fail`) |
+| audit of `15y-b` (after my fix) | 3,592 / 33 / 0 judged; 198 keys `<archive>/<inv>`; `modes` identical to `step-15yr/audit_15y-b.json` | same |
+| no-op `--stage all` on a fresh APFS clone of `15yr-a` | 1.16 s; `[sizes] 188 from status.tsv, 8 measured`; `0 to do` everywhere; 1,189 rows before and after | 1.35 s |
+| 3463 extract rows in `15yr-a` | 10.345, 2.166 (15y), 4.333 s (15yr, whole call) | 4.333 vs 2.166 |
+| `stale_cases_15yz.py` | A: only the failed extract row, every later stage blocked, only `mode/9999.json` changes, after the fix equal to a fresh build; B, C, D unchanged and correct | case A as a test |
+| 15x-a extract, 1.01.02 only | new fit 0.415 h vs 0.372 h (+12%); old 0.228 h | 0.50 h (+33%, both archives) |
+
+**Read in the code:**
+- `upstream_ok` walks the `V2_UPSTREAM` chain to the end. The brief said one level. The step's reason holds: after a failed extract the
+  mode file is new, so `join`'s lead marks change and join would rerun on the old units, although units' own upstream row is done.
+  Accepted as a deviation.
+- `v2_todo` removes blocked inventories before the params check, so "parameters changed: redoing all" never touches a blocked one.
+  The join gate is evaluated after `current` (harmless). `recorded_sizes` reads the last done extract row with integer sizes, and
+  `main` reuses it only for a file source with an equal stored size. Dirs are always measured; v1 is unchanged.
+- `modes.extract_inventory_v2_modes`: `seconds` covers the pre-pass, the decision, the gate and the extract; `extract_stats` is unchanged.
+- Run script: `build_cmds` returns the command list; `unsized` mirrors the build's reuse rule through `build.recorded_sizes`; the
+  log line splits stages and whole-layer time. The docstring's "not read" sentence is replaced as briefed.
+- Stager: `scheduled_deletions` covers only `LAYER_DIRS` trees (skipping `wbc/parts`) and per-inventory files of the layer's wanted
+  inventories; it never touches `ROOT_FILES`, `LAYER_FILES` or `params.json`. A missing source dir would schedule a whole mirrored dir;
+  the 100-file cap stops that (exit 1, nothing deleted). With the default `--inventories` it should remove exactly the 24 stale split
+  files of the staged copy (F12-15z.10); the 16 pinned volumes' other files stay, since only the six parse-error volumes are wanted.
+- **Defect, fixed in review:** the new `done_inventories` required only the stages seen *for that inventory*, so an inventory with an
+  extract row alone counted as built. The old code required the layer's full stage count. An audit after a run that stopped after
+  extract would then have read missing tables. Now the inventory's stages must equal the stages seen in the sub-layer, and all must be
+  `done`. Membership uses a dict, not a list (73k rows × 9k inventories). The self-test has a `partial` case that fails on the
+  step's version.
+- **Validation error:** `validate.py` adds 1.10.94's extract (455/456, 4 workers) to the 15x-a figure, but 0.372 h is the 1.01.02
+  span. For 1.01.02 alone: +12%. Recorded seconds × group factors give 5,324 worker-s (0.37 h on 4 workers, the measured span), and the
+  pooled fit gives 5,971. So the remaining error is the mix: one pooled factor of 1.82 against 1.32 for the split print volumes, which
+  are 52% of `15x-a`. For the full layer's mix the fit is +6%. A per-mode extract fit would serve print-heavy subsets; it is not
+  needed for whole-layer planning.
+- The changelog and `docs/text_layer.md` were edited by string replacement, not Edit (rule 3). The diff shows only the intended
+  additions, so nothing was lost.
+
+**Statuses:** F12-15yr.1, .2, .3, .6 confirmed; .4, .5 revised. **Brief defects** listed by the step (the ambiguous "15y-b row" of 3463;
+the old-code rebuild prediction being stages only; `$B` not word-splitting in zsh) change no result. The last is a planner's
+defect: give zsh commands as arrays or written out (`CONTEXT.md` §5 already says "write the prefix out").

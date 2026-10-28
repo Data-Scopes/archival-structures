@@ -1,0 +1,186 @@
+read_id	inv	scan_id	verdict	note
+1	3436	NL-HaNA_1.01.02_3436_0113	handwritten	abbreviations 'Miss:', 'Res:', '„' break marks at line ends, ragged lines
+2	2600	NL-HaNA_1.01.02_2600_0174	printed	article numbers '244.', marginal catch-titles 'Reglement omtrent', '-' hyphenation, regular lines
+3	3466	NL-HaNA_1.01.02_3466_0074	handwritten	index entries with dates, 'Prop:', 'Res:', 'Comm:', '„' breaks
+4	12165	NL-HaNA_1.01.02_12165_0102	printed	printed title page: 'Byde Weduwe, en Erfgenamen ... Ordinaris Druckers ... Anno 1632. Met Privilegie.'
+5	3442	NL-HaNA_1.01.02_3442_0101	handwritten	'Rapp: en Res:', 'miss:', '„' breaks, index entries
+6	3445	NL-HaNA_1.01.02_3445_0027	handwritten	'miss:', 'ged:', 'Res:', '„' breaks, ragged lines
+7	9250	NL-HaNA_1.01.02_9250_0009	printed	numbered articles '28.', '29.', regular short lines with '-' hyphenation; low confidence (could be a clean copy)
+8	9250	NL-HaNA_1.01.02_9250_0013	handwritten	short ragged lines without hyphenation, 'off die minst inschreef', first-person verbal prose
+9	12297	NL-HaNA_1.01.02_12297_0007	handwritten	list of names and dates '4 April 1732', abbreviations, ragged
+10	9252	NL-HaNA_1.01.02_9252_0169	printed	hyphenated regular lines, signature 'Ddd' and catchword 'Welktes' at foot
+11	3475	NL-HaNA_1.01.02_3475_0010	handwritten	'Reg:', 'Res:', '„' breaks, index entries
+12	3442	NL-HaNA_1.01.02_3442_0067	handwritten	'Rapp: en Res:', 'Com:', ragged index entries
+13	12476	NL-HaNA_1.01.02_12476_0029	printed	'Heeren Staten Generael der Veree-', regular hyphenated lines, 'Accordeert met het voorsz Register.'
+14	2600	NL-HaNA_1.01.02_2600_0005	unclear	narrow column of uniform ~28-char lines with '=' break marks ('behoo= rende') and a catchword 'esccept'; fits a typeset note as well as a hand; cannot settle
+15	3472	NL-HaNA_1.01.02_3472_0119	handwritten	'Req:', 'miss:', 'Res:', index entries with dates
+16	9634	NL-HaNA_1.01.02_9634_0008	printed	German Fraktur type (OCR renders 'Wir' as 'BBir'), regular justified lines, hyphenation
+17	3433	NL-HaNA_1.01.02_3433_0006	handwritten	'Miss:', 'Comm:', 'Prop:', '„' breaks, marginal dates
+18	9396	NL-HaNA_1.01.02_9396_0114	printed	printed page numbers '( 225 )', '( 224 )', regular hyphenated lines
+19	8080	NL-HaNA_1.01.02_8080_0028	printed	clean 17th-c. spelling, regular lines, '-' hyphenation ('hon-/dert'); no handwriting cue, medium confidence
+20	3466	NL-HaNA_1.01.02_3466_0100	handwritten	'Res:', 'Rapport en Res:', '„' breaks, index entries with dates
+21	3439	NL-HaNA_1.01.02_3439_0021	handwritten	'Mass. ged:', 'Com: R.', '„' breaks, index entries
+22	9487	NL-HaNA_1.01.02_9487_0017	printed	printed page numbers '( 28 )', '( 29 )', justified hyphenated lines
+23	7462	NL-HaNA_1.01.02_7462B_0052	printed	English newspaper advertisements, 'Philadelphia, Sept. 23, 1790', typeset columns
+24	7462	NL-HaNA_1.01.02_7462A_0386	printed	Dutch newspaper columns plus printed US constitution text 'Section 1.'
+25	9449	NL-HaNA_1.01.02_9449_0038	printed	page number '( 64 )', justified hyphenated lines, regular
+26	2586	NL-HaNA_1.01.02_2586_0106	printed	page number '( 162 )', regular lines with '-' hyphenation
+27	3463	NL-HaNA_1.01.02_3463_0006	handwritten	index entries with dates, 'miss: Adm:', 'Comm:', '„' breaks, marginal dates interleaved
+28	4792	NL-HaNA_1.01.02_4792_0024	handwritten	abbreviations 'Prop.', 'Comm', 'v:', dashes, 'geauth.'
+29	12165	NL-HaNA_1.01.02_12165_0162	printed	placcaat text, 'Zijnde op 'tspatium gedruckt het Cachet', regular hyphenated lines
+30	3463	NL-HaNA_1.01.02_3463_0101	handwritten	'miss: de Swart', 'Holl: ov:', '„' breaks, index entries
+31	12165	NL-HaNA_1.01.02_12165_0038	printed	typeset ordonnantie with imprint 'Byde Weduwe, ende Erfghenamen ... Druckers vande Ho. Mo. Heeren Staten Generael Anno 1631. Met Privilegie'
+32	9252	NL-HaNA_1.01.02_9252_0577	printed	page number '( 146 )', hyphenated regular lines
+33	4016	NL-HaNA_1.01.02_4016_0053	printed	treaty text, article numerals, regular lines, '-' hyphenation, catchword 'ver-'
+34	4792	NL-HaNA_1.01.02_4792_0060	handwritten	'Prop. Z. H.', 'Res.', 'Comm', dashes, '„' breaks, abbreviations
+35	9487	NL-HaNA_1.01.02_9487_0075	printed	page numbers '( 144 )', '( 145 )', signature 'Nn', catchword 'Mis-'
+36	9396	NL-HaNA_1.01.02_9396_0035	printed	regular hyphenated lines, uniform log-book paragraphs, no handwriting cue; medium confidence
+37	9264	NL-HaNA_1.01.02_9264_0052	table/numbers	columns of figures '2, 27, 200', cannot tell
+38	3466	NL-HaNA_1.01.02_3466_0152	handwritten	'miss.', 'Res:', 'Com: R:', '„' breaks, index entries
+39	12163	NL-HaNA_1.01.02_12163_0300	printed	typeset placcaat, hyphenated justified lines, long-s era letterforms rendered as OCR noise
+40	9448	NL-HaNA_1.01.02_9448_0152	printed	opening quote marks repeated at line starts (', n), regular hyphenated lines
+41	4792	NL-HaNA_1.01.02_4792_0009	handwritten	'miss. Hop', 'Comm. . R. v. staate', '„' breaks, dashes
+42	3469	NL-HaNA_1.01.02_3469_0037	handwritten	appointment lists 'ord. gedep:', 'extr. ged.', ragged lines with dates
+43	9486	NL-HaNA_1.01.02_9486_0033	printed	page number '60', small-capital sentence heading, justified hyphenated lines
+44	8828	NL-HaNA_1.01.02_8828A_0285	printed	page number '( 97 )', two parallel printed columns (German/Dutch)
+45	9448	NL-HaNA_1.01.02_9448_0059	printed	regular justified lines, '-' hyphenation, catchword 'Vlaan-'
+46	9449	NL-HaNA_1.01.02_9449_0026	printed	page number '( 38 )', justified hyphenated lines
+47	3439	NL-HaNA_1.01.02_3439_0063	handwritten	'Miss: adm:', 'Prop:', 'Com:', '„' breaks, index entries
+48	3463	NL-HaNA_1.01.02_3463_0045	handwritten	index entries, '„' breaks, 'miss.', 'Res:', dates
+49	9487	NL-HaNA_1.01.02_9487_0101	printed	page numbers '( 39 )', '( 38 )', signature 'R2', catchword 'te'
+50	8645	NL-HaNA_1.01.02_8645_0100	printed	Italian placcaat, 'alla copia stampata dal Stampatore nostro Antonio Valetta', run-on justified lines
+51	9634	NL-HaNA_1.01.02_9634_0004	printed	German Fraktur type (OCR 'Gtamm' for 'Stamm'), justified hyphenated lines
+52	12476	NL-HaNA_1.01.02_12476_0097	printed	article numeral 'V11', hyphenated regular lines; text near-identical (same OCR errors) to read 54 whose title says 'Gedrukt'
+53	9449	NL-HaNA_1.01.02_9449_0008	printed	page numbers '( 2', '( 3', justified hyphenated lines
+54	12477	NL-HaNA_1.01.02_12477_0004	printed	EAD title 'Gedrukt', article numerals, regular hyphenated lines ('„' is the printed double hyphen here)
+55	9396	NL-HaNA_1.01.02_9396_0007	printed	justified hyphenated lines of log-book prose, no handwriting cue; medium confidence
+56	3726	NL-HaNA_1.01.02_3726_0005	handwritten	alphabetical index with 'folio 31', 'folo 169', 'zie ... Letter C' cross-references, ragged entries; medium confidence
+57	9487	NL-HaNA_1.01.02_9487_0199	printed	page numbers '( 91 )', '( 80 )', hyphenated justified lines, small-capital heading
+58	3469	NL-HaNA_1.01.02_3469_0155	handwritten	'miss.', 'Holl: ov:', 'H. ov', abbreviations, ragged entries with dates
+59	12478	NL-HaNA_1.01.02_12478_0130	printed	page numbers '( 11 )', '( 10 )', 'Accordeerd met voorsz Resolutien.'
+60	2600	NL-HaNA_1.01.02_2600_0157	printed	article numbers '135.', '136.', hyphenated regular lines, printed marginal heading 'Particuliere Ordre omtrent het in-koomen'
+61	9634	NL-HaNA_1.01.02_9634_0014	printed	German Fraktur type, justified hyphenated lines, long paragraphs
+62	9486	NL-HaNA_1.01.02_9486_0008	printed	page numbers '( 10 )', '( 11 )', hyphenated justified lines, small-capital sentence opening
+63	3475	NL-HaNA_1.01.02_3475_0179	handwritten	'Miss:', 'Com: R.', '„' breaks, 'Res.', index entries with dates
+64	12163	NL-HaNA_1.01.02_12163_0107	printed	French parlement arrest in typeset lines, 'Signé,', hyphenated justified lines, mixed with printed Dutch placcaat
+65	8080	NL-HaNA_1.01.02_8080_0029	printed	'recom-/mandatie', 'en-veertigh', short list items in regular spelling; medium confidence
+66	9275	NL-HaNA_1.01.02_9275_0022	printed	Latin treaty text in justified hyphenated lines, article numeral 'N1N.'
+67	9275	NL-HaNA_1.01.02_9275_0012	printed	page number '16 )', justified hyphenated Dutch lines, catchword 'Plac-'
+68	9486	NL-HaNA_1.01.02_9486_0020	printed	justified hyphenated lines, catchword 'ren,'
+69	3726	NL-HaNA_1.01.02_3726_0003	handwritten	alphabetical index with 'folio 175', 'zie ... Letter S', ragged entries; medium confidence (same as read 56)
+70	12163	NL-HaNA_1.01.02_12163_0014	printed	placcaat text 'Gedruckt ... Actum onder mijn handt', justified hyphenated lines
+71	9250	NL-HaNA_1.01.02_9250_0005	printed	capital heading 'CHARTER van een Oorlogh-Schip', numbered articles, hyphenated lines; columns interleaved; medium confidence
+72	9449	NL-HaNA_1.01.02_9449_0120	unclear	list of office and act categories ('Acten van Vrijgeleide', 'Octroijen van ...') in short lines with gaps; typeset list or hand-written tariff table, not decidable
+73	8645	NL-HaNA_1.01.02_8645_0076	printed	French/Italian placcaat text, page number '142', justified hyphenated lines
+74	3475	NL-HaNA_1.01.02_3475_0108	handwritten	'miss:', 'Mem:', 'Res.', 'Hcte ad omnis populos', '„' breaks, index entries with dates
+75	9486	NL-HaNA_1.01.02_9486_0026	printed	page numbers '46 )', '457', signature 'M 2', small-capital names, hyphenated justified lines
+76	8645	NL-HaNA_1.01.02_8645_0075	printed	Italian placcaat, 'alla copia Stampata dal Stampatore nostro Sinibaldo', justified lines, numbered articles
+77	3442	NL-HaNA_1.01.02_3442_0097	handwritten	'Reg:', 'Prop:', 'Res:', ragged index entries with dates
+78	3466	NL-HaNA_1.01.02_3466_0068	handwritten	'miss.', 'Rapport en Res:', 'Com:', '„' and '=' breaks, interleaved margin entries
+79	7462	NL-HaNA_1.01.02_7462B_0045	printed	English newspaper advertisements, 'To be Sold by Public Auction', typeset lists
+80	3439	NL-HaNA_1.01.02_3439_0062	handwritten	list of 'Miss:' entries with dates, 'Com:', '„' breaks, 'vide supra'
+81	2586	NL-HaNA_1.01.02_2586_0164	unclear	narrow column of uniform ~28-char lines with '„' breaks and 'Ho:Mo:' colon abbreviations; typeset or hand, not decidable
+82	12478	NL-HaNA_1.01.02_12478_0051	printed	justified hyphenated lines, catchwords, 'Op Art. 9.' paragraph headings, French quotation in italic-like block
+83	8828	NL-HaNA_1.01.02_8828A_0245	printed	page numbers '( 17 )', '( 76 )', justified hyphenated lines, small-capital names
+84	9448	NL-HaNA_1.01.02_9448_0172	printed	justified hyphenated lines, marginal heading 'Liquidatie.', page number '60'
+85	9396	NL-HaNA_1.01.02_9396_0074	printed	page number '( 145', hyphenated justified lines, dated paragraph headings
+86	4016	NL-HaNA_1.01.02_4016_0102	printed	long justified hyphenated lines, regular, catchword style 'sat welen'
+87	8828	NL-HaNA_1.01.02_8828A_0276	printed	page number '( 798', footnote markers '(t)', '(a)', hyphenated justified lines, signature-like footnote block
+88	9264	NL-HaNA_1.01.02_9264_0041	table/numbers	columns of figures '1. 77, 1235, 1, 7, 125', header 'Charter ... Stukken'; cannot tell
+89	3436	NL-HaNA_1.01.02_3436_0022	handwritten	'Reg:', 'Miss:', 'Holl: ov:', '„' breaks, index entries with dates
+90	3469	NL-HaNA_1.01.02_3469_0157	handwritten	'miss.', 'H: ov:', marginal interlinear additions, ragged entries
+91	12476	NL-HaNA_1.01.02_12476_0129	unclear	heavy OCR noise ('Mult Hillen', 'Eiolument'), regular line lengths with line-initial quote marks and '„' breaks; typeset quotation or hand, not decidable
+92	2586	NL-HaNA_1.01.02_2586_0062	printed	article numbers '186.', '190.', printed marginal notes 'Vid. Articul 164 van Placaat 1725', hyphenated lines
+93	4016	NL-HaNA_1.01.02_4016_0070	printed	long justified hyphenated lines, 'Accordeert met de voorsz Resolutien.'
+94	9252	NL-HaNA_1.01.02_9252_0284	printed	numbered interrogatories '21.', '22.', '23.' in a narrow column with '-' hyphenation; medium confidence
+95	4792	NL-HaNA_1.01.02_4792_0041	handwritten	date lists with dashes, 'Prop. Z. H. d', 'miss:', '„' breaks
+96	9253	NL-HaNA_1.01.02_9253_0253	printed	justified hyphenated lines of orders, EAD title 'Gedrukt', headings 'Nader ampliatie van Seynen.'
+97	7462	NL-HaNA_1.01.02_7462B_0114	printed	English statute text, 'And be it further enacted', long-s OCR errors ('Ihall'), regular lines
+98	9252	NL-HaNA_1.01.02_9252_0540	unclear	inventory lists of ship stores and flags ('2 Wimpels geel met een blaauw Kruys'), short lines, OCR digit noise; typeset list or hand list, not decidable
+99	3445	NL-HaNA_1.01.02_3445_0174	handwritten	'Reg:', 'Com:', 'Holl: ov:', abbreviations, index entries
+100	9448	NL-HaNA_1.01.02_9448_0073	printed	page number '( 98 )', justified hyphenated lines
+101	3436	NL-HaNA_1.01.02_3436_0078	handwritten	'Reg:', 'Mag:', 'Rapp: en Res:', '„' breaks, marginal interlinear additions
+102	9253	NL-HaNA_1.01.02_9253_0036	printed	typeset petition, small heading 'Aan de Hoog Mogende Heeren', justified hyphenated lines, 'Onder stond.'
+103	9396	NL-HaNA_1.01.02_9396_0034	printed	justified hyphenated lines, catchword/signature 'R2' at foot
+104	3726	NL-HaNA_1.01.02_3726_0007	handwritten	alphabetical index with 'Generalia.. folio 64', 'zie ... Lett. M', ragged entries; medium confidence (same as reads 56, 69)
+105	9250	NL-HaNA_1.01.02_9250_0010	printed	numbered articles '76.' ... '105.', '-' hyphenation, regular short lines
+106	3436	NL-HaNA_1.01.02_3436_0099	handwritten	'Reg:', 'Miss:', 'Rapp:', '„' breaks, index entries with dates
+107	3489	NL-HaNA_1.01.02_3489_0146	handwritten	'miss.', 'Res. aan R.', abbreviations, 'Hessen=Daemstadsche' '=' break mark
+108	3439	NL-HaNA_1.01.02_3439_0020	handwritten	interleaved marginal entries, 'Miss:', 'Com R.', 'Rapp: en Res:', corrections
+109	7462	NL-HaNA_1.01.02_7462A_0119	printed	English treaty text 'Art. V. Whereas', justified hyphenated lines
+110	3472	NL-HaNA_1.01.02_3472_0005	handwritten	'Req:', 'Holl: ov:', 'infra lit A', index entries
+111	3463	NL-HaNA_1.01.02_3463_0030	handwritten	'Reg:', 'Toegestaan.', 'siet', ragged index entries, marginal fragments
+112	12477	NL-HaNA_1.01.02_12477_0011	printed	page numbers '( 17 )', '( 16 )', 'Resolutien agter het Reglement gedrukt zynde', justified hyphenated lines
+113	3469	NL-HaNA_1.01.02_3469_0148	handwritten	'Req.', 'R. om a', 'Com: R.', ragged entries with dates
+114	9487	NL-HaNA_1.01.02_9487_0182	printed	page number '( 47', signature 'M2', hyphenated justified lines (same text as read 75 from 9486)
+115	9486	NL-HaNA_1.01.02_9486_0013	printed	page numbers '21 )', '( 26 )', hyphenated justified lines
+116	8828	NL-HaNA_1.01.02_8828A_0208	printed	page numbers '( 95 )', '( 94 )', justified hyphenated lines
+117	8645	NL-HaNA_1.01.02_8645_0092	printed	Italian placcaat, 'slampata dal Stampatore Sinibaldo', imprint line 'per Gio. Sinibaldo Stampatore di S. A. R.'
+118	12477	NL-HaNA_1.01.02_12477_0019	printed	page number '( 33', 'Dat, &c.' abbreviated text, justified hyphenated lines
+119	9253	NL-HaNA_1.01.02_9253_0173	printed	numbered interrogatories in narrow column, plus a justified declaration with signature 'B 2' and catchword 'klade'
+120	3445	NL-HaNA_1.01.02_3445_0101	handwritten	'miss:', 'Comm: Instr:', 'siet', '„' breaks, index entries
+121	3445	NL-HaNA_1.01.02_3445_0037	handwritten	'S: N: Miss:', 'Holl: ov:', 'siet ... infra', interleaved columns of entries
+122	3472	NL-HaNA_1.01.02_3472_0147	handwritten	'Req:', 'R:', 'nisi causam', 'Sat ... January 1744', ragged entries
+123	3489	NL-HaNA_1.01.02_3489_0085	handwritten	'Reg.', 'Res:', 'Com„', abbreviations, '„' breaks, corrections
+124	2600	NL-HaNA_1.01.02_2600_0257	unclear	narrow column of uniform ~28-char lines with '„' breaks and 'Ho:Mo:' abbreviations (like reads 14 and 81); typeset or hand, not decidable
+125	12478	NL-HaNA_1.01.02_12478_0005	printed	heading 'Hoog Mog. Heeren Staaten Generaal', drop-cap opening, justified hyphenated lines
+126	12165	NL-HaNA_1.01.02_12165_0113	printed	placcaat ending 'op 'tspatium gedruckt het Cachet', hyphenated lines
+127	8080	NL-HaNA_1.01.02_8080_0033	printed	list of 'Provoost tot ...' entries, clean spelling, 'Vlaen-/deren' hyphenation; medium confidence
+128	3475	NL-HaNA_1.01.02_3475_0069	handwritten	'Miss:', 'Comm: R.', 'Holl. Vrisl: consenteeren', index entries
+129	9634	NL-HaNA_1.01.02_9634_0011	printed	German Fraktur type, justified hyphenated lines, 'NB.'
+130	12297	NL-HaNA_1.01.02_12297_0042	handwritten	lists of office-holders with dates, ragged lines, marginal additions, corrections
+131	12297	NL-HaNA_1.01.02_12297_0035	handwritten	lists of titles and dates '29 mey 1747', ragged lines, '„' breaks
+132	9448	NL-HaNA_1.01.02_9448_0046	printed	page number '( 53 )', catchword 'waar', justified hyphenated lines
+133	9264	NL-HaNA_1.01.02_9264_0197	printed	alphabetical register with page numbers ('Ballast manden 112'), EAD title 'Gedrukt'; medium confidence
+134	4016	NL-HaNA_1.01.02_4016_0064	handwritten	'Extract uytte resolutien', abbreviations 'ho:Mo:', 'gedepde.', 'Ambr.', long ragged lines without hyphenation, corrections
+135	3445	NL-HaNA_1.01.02_3445_0080	handwritten	folio number '131.', 'Reg:', 'Miss:', index entries, subject headings list 'Italien. Napels.'
+136	9264	NL-HaNA_1.01.02_9264_0132	printed	clean typeset prose paragraphs ('Het getal en de Kalibers der Kogels ...'), EAD title 'Gedrukt'
+137	8080	NL-HaNA_1.01.02_8080_0047	printed	justified hyphenated lines, regular, 17th-c. spelling without noise
+138	3469	NL-HaNA_1.01.02_3469_0184	handwritten	'Reg.', 'miss.', 'S. n.', 'Com:. R.', index entries with dates, '(' bracketed additions
+139	12297	NL-HaNA_1.01.02_12297_0048	handwritten	lists of names with dates in interleaved columns, marginal additions, corrections
+140	3463	NL-HaNA_1.01.02_3463_0166	handwritten	'voor ... aan ...' index entries, 'miss:', 'sut Spagne', abbreviations
+141	3439	NL-HaNA_1.01.02_3439_0138	handwritten	'Reg:', 'Miss:', 'Holl: ov:', 'Comm:', interleaved columns of index entries
+142	3726	NL-HaNA_1.01.02_3726_0006	handwritten	alphabetical index with 'folio 82', 'zie ... Lett.', ragged entries; medium confidence
+143	12477	NL-HaNA_1.01.02_12477_0013	printed	page number '( 20 )', 'Dat, &c.', hyphenated justified lines
+144	12163	NL-HaNA_1.01.02_12163_0308	printed	placcaat with imprint 'By Hillebrant Jacobssen Ordinaris ... Drucker ... Anno 1619'
+145	3489	NL-HaNA_1.01.02_3489_0101	handwritten	'Rapp. en Res.', 'Reg.', 'Com.met R.', '„' and '=' breaks, dated entries
+146	9449	NL-HaNA_1.01.02_9449_0144	printed	hyphenated justified prose in regions 1 and 3; region 2 is a broken narrow column
+147	12476	NL-HaNA_1.01.02_12476_0136	printed	hyphenated justified lines, 'Eerste Point.', 'Fiat Insertio. Was geparapheert.'
+148	9253	NL-HaNA_1.01.02_9253_0017	printed	justified hyphenated lines, page-end figure '2', clean prose
+149	9252	NL-HaNA_1.01.02_9252_0061	printed	signature 'FF 2' and catchword 'der-' at foot, justified hyphenated lines
+150	3442	NL-HaNA_1.01.02_3442_0098	handwritten	'Prop: Holland', 'Res:', 'Com R.', '„' breaks, index entries with dates
+151	3466	NL-HaNA_1.01.02_3466_0138	handwritten	'adv.', 'Req:', 'Res: daarop', '„' breaks, interleaved margin entries
+152	3442	NL-HaNA_1.01.02_3442_0092	handwritten	'Miss:', 'Com:', 'Rapp: en Res:', '„' breaks, index entries
+153	3433	NL-HaNA_1.01.02_3433_0140	handwritten	'Reg:', 'R toegestaen', '„' breaks, index entries with dates
+154	3472	NL-HaNA_1.01.02_3472_0107	handwritten	'S. N. miss.', 'Prop. President', 'sut 16 Octob. 1744', '„' breaks
+155	3433	NL-HaNA_1.01.02_3433_0134	handwritten	'Rep:', 'Comm: in 6:', 'Miss:', abbreviations, ragged entries
+156	2586	NL-HaNA_1.01.02_2586_0042	printed	article numbers '81.', '82.', printed marginal notes 'Vid. Articul 84 ... Placaat 1725', hyphenated lines
+157	3489	NL-HaNA_1.01.02_3489_0004	handwritten	'Rapp. r.', 'Res.', 'Com.', abbreviations, dated index entries
+158	3472	NL-HaNA_1.01.02_3472_0145	handwritten	'Advis Rekenkamer', 'R:', 'Comm:', '„' breaks, dated entries
+159	3726	NL-HaNA_1.01.02_3726_0004	handwritten	alphabetical index with page numbers, 'zie ... Lett. W', ragged entries; medium confidence
+160	2600	NL-HaNA_1.01.02_2600_0229	unclear	narrow column of uniform lines with '=' and '„' breaks and 'gem:', 'Ho:Mo:' abbreviations (as reads 14, 81, 124); not decidable
+161	9275	NL-HaNA_1.01.02_9275_0006	printed	page number '111', justified hyphenated lines in Dutch and English, 'Fol. 791. vers.' references inside the text
+162	12163	NL-HaNA_1.01.02_12163_0366	printed	placcaat with printed 'Ter Ordonnantie vande Staten van Hol-/landt', hyphenated justified lines
+163	9253	NL-HaNA_1.01.02_9253_0041	printed	justified hyphenated lines, page-end catchword 'vol-', place and date block
+164	8645	NL-HaNA_1.01.02_8645_0101	printed	Italian placcaat, 'copia stampata dal Stampatore nostro', justified run-on lines
+165	9634	NL-HaNA_1.01.02_9634_0010	printed	German Fraktur type, justified hyphenated lines
+166	12478	NL-HaNA_1.01.02_12478_0138	printed	page number '( 14 )', catchword '102', justified hyphenated lines
+167	8828	NL-HaNA_1.01.02_8828A_0121	printed	justified hyphenated lines, footnote marker '181', long paragraphs, catchwords
+168	4792	NL-HaNA_1.01.02_4792_0065	handwritten	'Brieven van Notificatie' date lists with dashes, 'Miss.', 'Comm.:', '„' breaks
+169	9275	NL-HaNA_1.01.02_9275_0020	printed	page number '(3 33', catchword 'Was gepara-/pheert', justified hyphenated lines
+170	12476	NL-HaNA_1.01.02_12476_0107	printed	page number '( 22 )', justified hyphenated lines, 'Is gehoord het Rapport' opening
+171	3433	NL-HaNA_1.01.02_3433_0009	handwritten	interleaved margin entries, 'Miss: Adm:', 'Comm:', '„' breaks, corrections
+172	12165	NL-HaNA_1.01.02_12165_0351	printed	placcaat, drop-cap heading, justified hyphenated lines, signature '22'
+173	12478	NL-HaNA_1.01.02_12478_0013	printed	resolution text 'Sabati den 11. November 1719', justified hyphenated lines, 'Accordeert met het voors Register.'
+174	4016	NL-HaNA_1.01.02_4016_0128	handwritten	advice text with abbreviations ('Mo Ed: Achtb.', 'Majt.', 'Ambr.'), ragged lines, noisy letters, '„' breaks
+175	3489	NL-HaNA_1.01.02_3489_0139	handwritten	'Pasport voor ...' dated lists, abbreviated names, '„' breaks
+176	9275	NL-HaNA_1.01.02_9275_0019	printed	page number '( 30 )', catchword 'hooghst-', justified hyphenated lines
+177	3475	NL-HaNA_1.01.02_3475_0095	handwritten	'Lijsten.' heading, 'S: n: miss.', 'Reg:', 'Com: R.', '„' breaks, ragged entries
+178	3436	NL-HaNA_1.01.02_3436_0110	handwritten	'Reg:', 'Rapp:', 'Comm:', 'Holland versogt', interleaved columns of entries, '„' breaks
+179	2586	NL-HaNA_1.01.02_2586_0039	printed	page number '( 32 )', printed marginal notes 'Generaal Reglement op het laaden', 'Vid. Articul 62 Placaat 1725', hyphenated lines
+180	9250	NL-HaNA_1.01.02_9250_0006	printed	numbered articles '41.' ... '91.', '-' hyphenation, regular lines
+181	8080	NL-HaNA_1.01.02_8080_0031	printed	'Tweede Somma, van vyf en veertich Compa-/gnien te Voet', clean spelling, name lists; medium confidence
+182	12297	NL-HaNA_1.01.02_12297_0036	handwritten	interleaved lists of names with dates and initials 'J: B: Swinkels', marginal additions, corrections
+183	3433	NL-HaNA_1.01.02_3433_0058	handwritten	'Miss:', 'Holl: ov', 'Commiss:', interleaved columns, '„' breaks
+184	12477	NL-HaNA_1.01.02_12477_0009	printed	article numeral '1. V.', justified hyphenated lines, printed marginal annotation block
+185	9264	NL-HaNA_1.01.02_9264_0198	printed	alphabetical register with page numbers ('Spinnewiel ... Takelgaren 167'), EAD title 'Gedrukt'; medium confidence

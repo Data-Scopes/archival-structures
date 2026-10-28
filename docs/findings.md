@@ -213,6 +213,35 @@ margins, tolerance 0.05):*
 Use it at most as a weak auxiliary signal. NLP's two requests for `text_extent` are in
 [from-nlp-start-page-detection.md](from-nlp-start-page-detection.md) (UA-014).
 
+The next two findings come from phase 11, which added those two options (`region_types` and
+`margin_gaps`/`text_extent_table`) and reproduced report/84 through them on the same 20,912
+VOC pages. The evidence is in `reports/phase-11-text-extent-and-nlp-ports.md`; the IDs in
+brackets are its finding IDs.
+
+**The bottom-margin gap needs a band, not a threshold.** `bot_gap` is the distance of a
+page's lowest line above the stable bottom margin. Its END rate is not monotone: pages with a
+gap of 0.15–0.25 and 0.25–0.40 are END pages at rates of 0.389 and 0.368, but the 844 pages
+above 0.40 only at 0.169. The largest gaps are mostly pages whose only line is a page number,
+not pages where a document stops early. A rule "gap above *t*" therefore gets worse as *t*
+grows past about 0.4 (F11-18a.3).
+
+**A catch-word at the foot of a page is evidence against a document end, not noise to filter
+out.** Restricting the margins to body regions (paragraph, signature mark, header) mostly
+removes catch-words from the bottom margin. Among the 1,897 early_end flags this changes,
+pages whose lowest line was a catch-word are rarely END pages. A catch-word announces the
+first word of the next page, so the text continues there:
+
+| Flag change under the body-only margin | Catch-word bottom | Pages | END rate |
+|---|---|---|---|
+| dropped | yes | 550 | 0.025 |
+| dropped | no | 489 | 0.188 |
+| gained | yes | 585 | 0.113 |
+| gained | no | 273 | 0.278 |
+
+Of the 585 gained catch-word pages, 447 are mid-document (`INSIDE`). A catch-word flag is
+therefore a better END feature than a body-only margin. These rates come from the changed
+pages only and are not corpus rates (F11-R.1).
+
 See the [full-text page detection](notebooks/page-analysis/full-text-page-detection-demo) demo notebook.
 
 ## Sequence-pattern mining
@@ -484,6 +513,26 @@ longest increasing chain is strict and a later duplicate wins. Rounding is Pytho
 rounding (`round(12.5) == 12`). `max_scan=0` or `None` means no upper clamp. A row clamped only
 at the inventory end still gets the `+extrapolated` suffix. Fixing any of these would change
 NLP's published numbers, so each would need its own measured change (F04-12.5).
+
+**The label-free segmenters return segment starts, not gaps, and TextTiling adds a start at
+each end.** These come from phase 11, which ported NLP's DP and TextTiling segmenters into
+{mod}`archival_structures.stream_analysis.overview.subsequence_detection`
+(`reports/phase-11-text-extent-and-nlp-ports.md`). `segment_dp` and `textiling_depth_scores`
+return segment *start* indices, always including 0. The module's `detect_boundaries_*`
+functions return *gap* indices, where gap *i* lies between pages *i* and *i*+1. Passing one
+kind where the other is expected shifts every cut by one page, with no error. Convert with
+`starts_to_boundaries` and `boundaries_to_starts` (F11-18b.2). TextTiling smooths with
+`np.convolve(mode="same")`, which pads with zeros. On 21 of NLP's 22 VOC inventories it
+therefore puts a start at the first page *and* at the last page: 42 of 1,981 starts, none of
+them labelled. The port keeps this so that it gives the same output as NLP. Drop starts at
+either end before scoring (F11-R.2).
+
+**The VOC separator-sheet pattern is precise, and its misses come from OCR residue.**
+`VOC_SHEET_PATTERN` in {mod}`archival_structures.analysis.separator_sheets` matches near-blank
+sheets that carry only a document number ("No: 7.", "No. 63"). On 20,912 VOC 1.04.02 pages it
+finds 169 sheets, none of them a visible false positive. It misses about 5 of 174 sheet-like
+pages (3%), where OCR left characters after the number. These counts are judged from the
+transcriptions only; nobody has looked at the images (F11-18c.2).
 
 ## States General PageXML and the v2 text layer
 

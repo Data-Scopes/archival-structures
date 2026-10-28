@@ -1,0 +1,22 @@
+{
+ "full_run_extract_h_old": 1.649438857102222,
+ "full_run_extract_h_new": 2.997990650483054,
+ "15x_a_extract_h_old": 0.28969887556777785,
+ "15x_a_extract_h_new": 0.4960075046658611,
+ "rebuild_min_old": {
+  "stages": 0.6393224298266666,
+  "whole_layer": 78.01974666666666,
+  "total": 78.65906909649334
+ },
+ "rebuild_min_new": {
+  "stages": 0.8646306024666667,
+  "whole_layer": 60.08641333333333,
+  "total": 60.9510439358
+ },
+ "n_pins": 16,
+ "measured": {
+  "full_run_extract_h": 2.836,
+  "15x_a_extract_h": 0.372,
+  "rebuild_min": 79
+ }
+}

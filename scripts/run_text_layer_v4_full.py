@@ -44,7 +44,26 @@ one archive; `--inventories-file ARCHIVE=F` (one inventory per line) restricts a
 `--want N --min M` is the coreshare request (default 8 and 2; the build uses the granted count).
 
 After an interruption (Ctrl-C, a crash, a full disk, a pulled cable) rerun the same command: every
-stage marks each inventory done in `<out-dir>/<archive>/*/status.tsv` and a rerun skips what is done.
+stage marks each inventory done in `<out-dir>/<archive>/*/status.tsv` and a rerun skips what is done. Since
+step 15y this holds for all six stages (layout, types and units used to redo every inventory): a stage
+redoes an inventory whose done row is older than the latest row of the stage it reads, and redoes all of
+them if its `params.json` changed. A wordfix run writes no status rows: a preset that used it would need
+`--force` on layout (none does).
+
+In-place rebuild of pinned volumes (step 15y, P21/P24): after adding a pin to `MODE_PINS_V4` in
+`text_layer/presets.py`, rebuild only the pinned volumes of an existing layer:
+    .venv/bin/python scripts/run_text_layer_v4_full.py --only 1.01.02 --rebuild 1.01.02=<pins.txt> \\
+        --src 1.01.02=<dir> ... --out-dir <out-dir> --work-dir <work-dir>
+`pins.txt` has one inventory per line (`#` lines ignored). It is an error to combine `--rebuild` with
+`--inventories-file` for the same archive or with `--limit`, to name an inventory that is not in the
+sources, or to point at an out dir without that archive's `status.tsv`. The script runs two builds through
+coreshare: a forced extract of the listed inventories (this re-decides the mode and removes stale split
+files), then `--stage all` over the whole layer, which redoes layout, types, units, the wbc part and the join
+of the listed inventories only (their rows are stale), re-decides the corpus wbc statistics over every
+inventory and leaves every other file untouched. Every inventory of the layer needs its source in `--src`: the build lists
+them, sizes those without a recorded extract row (a `.tar.gz` is decompressed, about 9 minutes for 9,122 SG tars) and the
+wbc stage stops if one is missing; only the listed inventories are parsed. Rerunning a `--rebuild` command after a crash
+repeats the forced extract.
 
 Logs: `<out-dir>/run_v4.log` (this script's lines with UTC timestamps and the build output),
 `<out-dir>/<archive>/*/progress.log` (the build's own log), `<out-dir>/audit.json` (the audit).
@@ -59,12 +78,19 @@ hand or gated inventory, `split_gate.split` equal to share >= min_share, unit me
 merges with a lower-case right side is reported, not judged. The script logs the audit outcome and
 does not fail on it.
 
-Predictions are rough. Both are per uncompressed XML byte (an archive counts as its size times
-the compression ratio 4.2). Output size is XML bytes times the per-archive output ratio. Wall time
-is a range: the lower end is max(worker-seconds / --want, the largest single inventory), the upper
-end 3 times that (stage barriers, one task per inventory). The constants were measured on the dev
-build `15w-a` (see the comment at the constants); the inventory mix of the full run differs, and a
-USB drive may be slower than the local disk.
+Predictions are rough. Output size is the XML bytes (an archive counts as its size times the
+compression ratio 4.24) times the per-archive output ratio. Wall time is a range, from the throughput
+model of step 15y (`THROUGHPUT_V4`, fitted on the full run's status.tsv): seconds = intercept + s/MB x
+XML MB per stage and inventory; the pool stages (extract, wbc, join) are scheduled longest-first on
+`--want` workers (lower end) or `--min` workers (upper end), the serial stages (layout, types, units) add
+their summed per-inventory times. The fit pools hand and print volumes, so it carries the run's mix (12%
+of the XML bytes print); a volume mix with more print runs slower. Extract and wbc scaled worse than
+linearly with the workers in the full run (see the report). A USB drive may be slower than the local disk.
+Since step 15yr the extract terms include the mode pre-pass (the fitted rows had left it out, about half of each call; the
+`extract` entries of `THROUGHPUT_V4` are scaled by the measured factor), and the prediction line adds the whole-layer terms
+outside the pools: sizing the tars that have no recorded extract row (`SIZING_S_PER_STORED_GB`), the wbc decision
+(`WBC_DECISION_S`) and the audit (`AUDIT_S_PER_INVENTORY`). The script no longer calls `--estimate` (that call decompressed
+every tar once more and printed no prediction for the v4 presets).
 """
 
 import argparse
@@ -77,8 +103,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+from archival_structures.text_layer.build import recorded_sizes
 from archival_structures.text_layer.io import discover_inventories_v2
-from archival_structures.text_layer.presets import PRESETS
+from archival_structures.text_layer.presets import PRESETS, predict_seconds, predict_wall
 
 BUILD = ".venv/bin/as-build-text-layer"
 CORESHARE = "/Users/Shared/claude_projects/data_scopes/shared-tools/coreshare.py"
@@ -87,24 +114,49 @@ ARCHIVES = {"1.01.02": "sg_1.01.02_v4", "1.10.94": "sg_1.10.94_v4"}
 SPACE_FACTOR = 1.2
 MIB = 2 ** 20
 
-# Constants measured on `data/text_layer_v2_dev/15w-a` (196 volumes of 1.01.02, 2 of 1.10.94; report step 15w),
-# from status.tsv: XML bytes = sum of `input_xml_bytes` of the extract rows (1.01.02 25,297,913,805; 1.10.94
-# 1,009,177,478); output = `du -sk` (1.01.02 2,753,304 KiB; 1.10.94 87,496 KiB); worker-seconds = sum of `seconds`
-# over all stages, the extract stage including the mode pre-pass (1.01.02 7,418.6; 1.10.94 471.9, 2 workers).
-# Rates in 1.01.02 by mode: hand 1.395e-7 worker-s per XML byte (111 volumes, 10.5 GiB), print 4.173e-7 (85 volumes,
-# 13.0 GiB: the merged-line split and the print unit rules cost about 3 times as much). The dev mix is 52% print by
-# bytes; the full 1.01.02 run is mostly hand (silver: 4.6% of scans print), so the constant assumes 10% print:
-# 0.9 * 1.395e-7 + 0.1 * 4.173e-7. Output per XML byte: hand 0.107, print 0.115, archive 0.1115 (1.01.02), 0.0888 (1.10.94).
-# Wall time of that run (2 workers): 1.01.02 5,340 s = 1.4 x its lower bound; 1.10.94 about 2 x (SLOW_FACTOR = 3 is conservative).
-# Step 15wr (split gate): re-measured on `data/text_layer_v2_dev/15wr-a`: 53 of the 85 print volumes are no longer split, so
-# the 1.01.02 print rate falls from 4.173e-7 to 2.402e-7 worker-s per XML byte (hand 1.44e-7, within noise of 1.395e-7);
-# 1.01.02 worker-seconds 4,990 (was 7,419). Output 1.01.02 2,647,572 KiB = 0.1072 per XML byte; 1.10.94 86,036 KiB (0.0873).
-# The constant is now 0.9 * 1.395e-7 + 0.1 * 2.402e-7.
-# The 182 staged tars hold 4.31 XML bytes per archive byte (v3 pilot: 4.16, hand tars 4.175, print zips 4.148).
-ARCHIVE_XML_RATIO = 4.2
-OUTPUT_PER_XML_BYTE = {"1.01.02": 0.1072, "1.10.94": 0.0888}
-WORKER_SECONDS_PER_XML_BYTE = {"1.01.02": 0.9 * 1.395e-7 + 0.1 * 2.402e-7, "1.10.94": 4.676e-7}
-SLOW_FACTOR = 3
+# Step 15y (P27): throughput model fitted on the full run (`data/text_layer_v4_full`, 9,122 volumes of 1.01.02, 2 of
+# 1.10.94), from the last `done` row per (inventory, stage) of status.tsv; see
+# reports/data/phase-12-hand-print-box-height/step-15y/throughput.json (written by throughput.py there).
+# seconds = intercept_s + s_per_mb * MB of uncompressed XML. 1.01.02: OLS per stage over all volumes, hand and print
+# pooled (so the fit carries the run's mix: 12% of the XML bytes are print). 1.10.94: intercept 0, sum(seconds) / sum(MB).
+THROUGHPUT_V4 = {
+    # extract entries x the pre-pass factor of step 15yr (the fitted rows left out the pre-pass, F12-R.17): 1.01.02 x 1.8171,
+    # 1.10.94 x 1.3213; see reports/data/phase-12-hand-print-box-height/step-15yr/prepass_factor.json
+    "1.01.02": {"extract": {"intercept_s": -2.671, "s_per_mb": 0.2559},
+                "layout": {"intercept_s": 0.05156, "s_per_mb": 0.0207},
+                "types": {"intercept_s": 0.06368, "s_per_mb": 0.00781},
+                "units": {"intercept_s": 0.01275, "s_per_mb": 0.006572},
+                "wbc": {"intercept_s": -0.001279, "s_per_mb": 0.004038},
+                "join": {"intercept_s": 0.02111, "s_per_mb": 0.009568}},
+    "1.10.94": {"extract": {"intercept_s": 0.0, "s_per_mb": 0.5338},
+                "layout": {"intercept_s": 0.0, "s_per_mb": 0.01422},
+                "types": {"intercept_s": 0.0, "s_per_mb": 0.006248},
+                "units": {"intercept_s": 0.0, "s_per_mb": 0.009902},
+                "wbc": {"intercept_s": 0.0, "s_per_mb": 0.004044},
+                "join": {"intercept_s": 0.0, "s_per_mb": 0.008431}},
+}
+# Step 15yr: whole-layer terms of a run, measured on the full run, a resume and a rebuild (9,124 inventories, 9,122 SG tars).
+# Sizing = decompressing every tar that has no recorded extract row: mean of 532, 535, 546 s over 88.73 GB stored (the last
+# done extract rows of data/text_layer_v4_full). The wbc decision (after the last part) took 39 and 47 s. The audit took
+# 3,582 and 3,538 s for 9,124 inventories.
+SIZING_S_PER_STORED_GB = 6.059
+WBC_DECISION_S = 45
+AUDIT_S_PER_INVENTORY = 0.3902
+
+
+def whole_layer_seconds(n_inventories, unsized_stored_bytes):
+    """Seconds a run spends outside the stage pools: sizing of the unsized tars, the wbc decision, the audit."""
+    return (SIZING_S_PER_STORED_GB * unsized_stored_bytes / 1e9 + WBC_DECISION_S
+            + AUDIT_S_PER_INVENTORY * n_inventories)
+
+
+POOL_STAGES = ("extract", "wbc", "join")       # run in a process pool: wall time = longest-first schedule
+SERIAL_STAGES = ("layout", "types", "units")   # run in one process: wall time = sum (parallel version deferred, P29)
+# XML bytes per stored byte: sum(input_xml_bytes) / sum(input_bytes) of the 1.01.02 extract rows (4.2393); the 182 staged
+# tars of the dev build hold 4.31.
+ARCHIVE_XML_RATIO = 4.24
+# output MiB * 2**20 / XML bytes: 1.01.02 39,427 MiB for 376,170,294,614 bytes; 1.10.94 84 MiB for 1,009,177,478.
+OUTPUT_PER_XML_BYTE = {"1.01.02": 0.1099, "1.10.94": 0.0873}
 
 
 class Log:
@@ -204,11 +256,19 @@ def span(low, high):
     return f"{low / 60:.0f}-{high / 60:.0f} min" if high < 7200 else f"{low / 3600:.1f}-{high / 3600:.1f} h"
 
 
-def predict(archive, xml_sizes, want):
-    """(output bytes, lower and upper wall seconds) for a list of per-inventory XML byte counts."""
-    rate = WORKER_SECONDS_PER_XML_BYTE[archive]
-    low = max(sum(xml_sizes) * rate / max(want, 1), max(xml_sizes, default=0) * rate)
-    return sum(xml_sizes) * OUTPUT_PER_XML_BYTE[archive], low, SLOW_FACTOR * low
+def predict(archive, xml_sizes, want, min_workers):
+    """(output bytes, lower and upper wall seconds) for a list of per-inventory XML byte counts.
+
+    Wall time = the pool stages (longest-first schedule on `w` workers) plus the serial stages (sum of the
+    per-inventory fits); `w` is `want` for the lower bound and `min_workers` for the upper one.
+    """
+    fit = THROUGHPUT_V4[archive]
+    serial = sum(predict_seconds(b, st, fit) for st in SERIAL_STAGES for b in xml_sizes)
+
+    def wall(w):
+        return serial + sum(predict_wall(xml_sizes, max(w, 1), fit, stages=(st,)) for st in POOL_STAGES)
+
+    return sum(xml_sizes) * OUTPUT_PER_XML_BYTE[archive], wall(want), wall(min_workers)
 
 
 def run_cmd(cmd, log):
@@ -226,35 +286,46 @@ def tree_bytes(path):
 
 
 def archive_summary(out_dir, archive):
-    """(inventories with every stage done, failed or unfinished rows) from the status.tsv files."""
+    """(inventories whose last row of every stage is done, pairs whose last row is not done), by last row per
+    (inventory, stage) of each status.tsv (step 15y: an old failed row that a later row replaced does not count)."""
     done, bad = {}, 0
     for status in (Path(out_dir) / archive).glob("*/status.tsv"):
+        last = {}
         for row in status.read_text().splitlines()[1:]:
             cols = row.split("\t")
-            if len(cols) < 3:
-                continue
-            if cols[2] == "done":
-                done.setdefault(cols[0], set()).add(cols[1])
+            if len(cols) >= 3:
+                last[(cols[0], cols[1])] = cols[2]
+        for (inv, stage), state in last.items():
+            if state == "done":
+                done.setdefault(inv, set()).add(stage)
             else:
                 bad += 1
     n_stages = max((len(s) for s in done.values()), default=0)
     return sum(len(s) == n_stages for s in done.values()), bad
 
 
-def build_cmds(archive, args, work_dir, out_dir, subset_file):
+def build_cmds(archive, args, work_dir, out_dir, subset_file, rebuild_file=None):
+    """[coreshare commands] (step 15yr: no --estimate call any more). With `rebuild_file` (the inventories of --rebuild, one per line, no
+    comments) two commands: a forced extract of those inventories, then every stage over the whole layer."""
     common = [BUILD, "--pagexml-dir", str(Path(work_dir) / archive), "--out-dir", str(Path(out_dir) / archive),
               "--preset", ARCHIVES[archive], "--stage", "all"]
     if subset_file:
         common += ["--inventories-file", str(subset_file)]
     if args.limit:
         common += ["--limit", str(args.limit)]
-    estimate = common + ["--estimate", "--workers", str(args.want)]
     real = common[:]
     if args.republic_dir.get(archive):
         real += ["--republic-dir", str(args.republic_dir[archive])]
     coreshare = ["python3", CORESHARE, "run", "--project", "archival-structures", "--label", f"v4-{archive}",
                  "--want", str(args.want), "--min", str(args.min), "--wait", "--"]
-    return estimate, coreshare + real + ["--workers", "{workers}"]
+    cmds = []
+    if rebuild_file:
+        forced = [BUILD, "--pagexml-dir", str(Path(work_dir) / archive), "--out-dir", str(Path(out_dir) / archive),
+                  "--preset", ARCHIVES[archive], "--stage", "extract", "--force",
+                  "--inventories-file", str(rebuild_file)]
+        cmds.append(coreshare + forced + ["--workers", "{workers}"])
+    cmds.append(coreshare + real + ["--workers", "{workers}"])
+    return cmds
 
 
 def archive_pair(text):
@@ -273,6 +344,9 @@ def parse_args(argv):
                     help="dir with paragraphs-<inv>.tsv.gz for the archive (1.10.94 only, see the docstring)")
     ap.add_argument("--inventories-file", action="append", default=[], type=archive_pair, metavar="ARCHIVE=F",
                     help="file with one inventory per line, restricts the archive")
+    ap.add_argument("--rebuild", action="append", default=[], type=archive_pair, metavar="ARCHIVE=F",
+                    help="in-place rebuild of the inventories in F (one per line) in an existing layer: a forced "
+                         "extract of them, then every stage over the layer (see the docstring)")
     ap.add_argument("--out-dir", required=True, type=Path, help="layer base: <out-dir>/<archive>")
     ap.add_argument("--work-dir", type=Path, default=Path("data/text_layer_v4_full_inputs"),
                     help="local dir for the input links (default %(default)s)")
@@ -283,14 +357,16 @@ def parse_args(argv):
     ap.add_argument("--min", type=int, default=2)
     ap.add_argument("--ignore-space", action="store_true", help="run although the free-space check fails")
     args = ap.parse_args(argv)
-    srcs, republic, subsets = {}, {}, {}
+    srcs, republic, subsets, rebuilds = {}, {}, {}, {}
     for archive, path in args.src:
         srcs.setdefault(archive, []).append(path)
     for archive, path in args.republic_dir:
         republic[archive] = path
     for archive, path in args.inventories_file:
         subsets[archive] = path
-    args.src, args.republic_dir, args.inventories_file = srcs, republic, subsets
+    for archive, path in args.rebuild:
+        rebuilds[archive] = path
+    args.src, args.republic_dir, args.inventories_file, args.rebuild = srcs, republic, subsets, rebuilds
     return args
 
 
@@ -314,6 +390,18 @@ def main(argv=None):
         errors += [f"--src {archive}={d} does not exist" for d in srcs.get(archive, []) if not Path(d).is_dir()]
         if subset_files.get(archive) and not Path(subset_files[archive]).is_file():
             errors.append(f"{subset_files[archive]} does not exist")
+    for archive, path in args.rebuild.items():
+        layer_status = args.out_dir / archive / PRESETS[ARCHIVES[archive]].name / "status.tsv"
+        if not path.is_file():
+            errors.append(f"--rebuild {archive}={path} does not exist")
+        if subset_files.get(archive):
+            errors.append(f"--rebuild and --inventories-file both given for {archive}")
+        if args.limit:
+            errors.append("--rebuild cannot be combined with --limit")
+        if not layer_status.is_file():
+            errors.append(f"--rebuild {archive}: no layer to rebuild in place ({layer_status} does not exist)")
+        if archive not in archives:
+            errors.append(f"--rebuild {archive}: archive not built in this run (--src / --only)")
     for archive, path in args.republic_dir.items():
         if not path.is_dir():
             errors.append(f"--republic-dir {archive}={path} does not exist")
@@ -335,7 +423,7 @@ def main(argv=None):
         f"want={args.want} min={args.min} out={args.out_dir}")
 
     # Link, count, predict.
-    total_out, plan = 0.0, {}
+    total_out, plan, rebuild_files = 0.0, {}, {}
     for archive in archives:
         links = link_archive(archive, srcs[archive], args.work_dir, log)
         subset = read_subset(subset_files[archive]) if subset_files.get(archive) else None
@@ -345,14 +433,33 @@ def main(argv=None):
                 log(f"ERROR [{archive}] inventories in {subset_files[archive]} not found in the sources: "
                     f"{' '.join(missing)}")
                 return 2
+        if args.rebuild.get(archive):   # step 15y: the inventories to redo in place
+            subset = read_subset(args.rebuild[archive])
+            missing = [i for i in subset if i not in links]
+            if missing:
+                log(f"ERROR [{archive}] inventories in {args.rebuild[archive]} not found in the sources: "
+                    f"{' '.join(missing)}")
+                return 2
         chosen = select(links, subset, args.limit)
         sizes = [xml_bytes(links[i]) for i in chosen]
-        out_bytes, low, high = predict(archive, sizes, args.want)
+        out_bytes, low, high = predict(archive, sizes, args.want, args.min)
         total_out += out_bytes
+        layer_status = Path(args.out_dir) / archive / PRESETS[ARCHIVES[archive]].name / "status.tsv"
+        recorded = recorded_sizes(layer_status)
+        unsized = sum(entry_bytes(link) for inv, link in links.items()
+                      if not (inv in recorded and link.is_file() and link.stat().st_size == recorded[inv][0]))
+        extra = whole_layer_seconds(len(links), unsized)
         plan[archive] = chosen
+        if args.rebuild.get(archive):
+            log(f"[{archive}] rebuild: {len(chosen)} of {len(links)} inventories (forced extract, then every "
+                f"stage over the layer)")
+            rebuild_files[archive] = Path(args.work_dir) / f"{archive}_rebuild.txt"
+            rebuild_files[archive].write_text("".join(f"{i}\n" for i in chosen))
         log(f"[{archive}] {len(links)} inventories found, {len(chosen)} to build; input about "
             f"{sum(sizes) / MIB:,.0f} MiB of XML; predicted output {out_bytes / MIB:,.0f} MiB; predicted wall "
-            f"time {span(low, high)} with {args.want} workers (rough: dev-build ratios)")
+            f"time {span(low, high)} with {args.want} to {args.min} workers (fitted on the full run, step 15y), plus "
+            f"about {extra / 60:.0f} min over the whole layer (sizing {SIZING_S_PER_STORED_GB * unsized / 1e9 / 60:.0f} "
+            f"min, wbc decision, audit of {len(links)} inventories)")
         if archive == "1.10.94":      # fixed print: every inventory wants its REPUBLIC paragraphs
             if args.republic_dir.get(archive):
                 gone = republic_missing(chosen, args.republic_dir[archive])
@@ -376,16 +483,14 @@ def main(argv=None):
 
     # Build.
     for archive in archives:
-        estimate, real = build_cmds(archive, args, args.work_dir, args.out_dir, subset_files.get(archive))
-        log(f"[{archive}] estimate: {' '.join(estimate)}")
-        rc = run_cmd(estimate, log)
-        if rc:
-            log(f"[{archive}] WARNING --estimate exited {rc}; continuing")
-        log(f"[{archive}] build: {' '.join(real)}")
-        rc = run_cmd(real, log)
-        if rc:
-            log(f"[{archive}] build exited {rc}; log: {log.path}; rerun the same command to resume")
-            return rc
+        cmds = build_cmds(archive, args, args.work_dir, args.out_dir, subset_files.get(archive),
+                          rebuild_files.get(archive))
+        for real in cmds:
+            log(f"[{archive}] build: {' '.join(real)}")
+            rc = run_cmd(real, log)
+            if rc:
+                log(f"[{archive}] build exited {rc}; log: {log.path}; rerun the same command to resume")
+                return rc
 
     # Audit and summary.
     audit_json = args.out_dir / "audit.json"

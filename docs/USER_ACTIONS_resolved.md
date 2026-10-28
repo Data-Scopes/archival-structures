@@ -662,3 +662,137 @@
 - **Blocks:** planning of any phase after 12.
 - **Response:** a
 - **Resolved 2026-10-27 (Opus, phase-11 planning):** answered (a). Phase 11 is planned as `plan/phase-11-text-extent-and-nlp-ports/` (steps 18a–18d, decisions P1–P10) and implemented in the same session; phase-12 step 15y still waits for the full v4 run's `mode/` and `status.tsv`.
+
+### UA-032 Install AS editable into NLP's venv, so NLP can switch to the phase-11 ports (2026-10-27, from phase-11 planning)
+- **Action:** **Run**, in `/Users/Shared/claude_projects/data_scopes/nlp-start-page-detection`:
+  ```
+  PYTHONNOUSERSITE=1 venv/bin/python -m pip install -e /Users/marijnkoolen/Code/Huygens/archival-structures
+  ```
+  then `chmod -R g+w venv/lib/python3.14/site-packages` (the agent account must be able to read and update it).
+  NLP's venv holds a non-editable copy of AS **0.13.0** (no `direct_url.json`), so NLP can't see the phase-11 names
+  (`text_extent` options, `segment_dp`, `textiling_depth_scores`, `separator_sheets`). NLP's own
+  `docs/plan_model_alternatives/CONTEXT.md` L269–270 says AS is installed editable; that note is stale.
+- **Options:** (a) editable install now (recommended: NLP's shims for C10/C12 and its `early_end_*` scripts can then
+  use AS directly); (b) install the next release (`pip install <AS>@v0.16.0`) after you tag it; (c) leave NLP on 0.13.0.
+- **Default if unanswered:** (c). NLP keeps its own copies; phase 11 is unaffected (its checks ran NLP's interpreter
+  with `PYTHONPATH=<AS>`, without changing NLP's venv).
+- **Blocks:** a later NLP shim step (NLP `unsupervised_segmentation.py` and `separator_sheets.py` → re-exports).
+- **Response:** a, done.
+- **Resolved 2026-10-27 (Opus, phase-11 follow-up):** done. NLP's venv imports AS 0.16.0 editable from the AS root (`PYTHONNOUSERSITE=1 venv/bin/python`; `separator_sheets.apply_rule` and `stream_analysis.segment_dp` import). The NLP shim step (C10/C12 re-exports, `early_end_*` scripts) can now be planned.
+
+### UA-033 `make docs` fails: no Sphinx in `.venv` (2026-10-27, from phase-11 planning)
+- **Action:** **Run**, in `/Users/marijnkoolen/Code/Huygens/archival-structures`:
+  ```
+  .venv/bin/python -m pip install sphinx furo myst-parser nbsphinx && chmod -R g+w .venv
+  ```
+  `docs/Makefile` prefers `.venv/bin/sphinx-build`; there is none, so it falls back to `/opt/homebrew`'s sphinx, which
+  fails with `ModuleNotFoundError: No module named 'pygments'`. `docs/conf.py` also loads `nbsphinx` (dropped when missing, L89); check `extensions` for any other package
+  the build needs (e.g. `myst-nb`) and add it to the command.
+- **Options:** (a) install as above (recommended); (b) fix the Homebrew Python instead; (c) leave it.
+- **Default if unanswered:** (c). The docs are not built; phase-11 step 18d's pages are checked as Markdown only.
+- **Blocks:** nothing in phase 11; building the Sphinx site.
+- **Response:** a, done.
+- **Resolved 2026-10-27 (Opus, phase-11 follow-up):** done. `make docs` builds (`.venv/bin/sphinx-build`): "build succeeded, 54 warnings"; none from `findings.md` or `challenges/leakage_and_splits.md`. Most warnings are older: 33 header-level jumps, 10 pages outside a toctree, 8 missing anchors into `challenges/page_order_problems`.
+
+### UA-034 Stage 35 PageXML tars for the P21 pin step (2026-10-27, from the planning of steps 15y/15z)
+- **Action:** copy the 35 tars from the drive's 1.01.02 directory into `shared-data/NL-HaNA_1.01.02/pagexml/` (`cp -p`, then `chmod g+w`).
+- **Options:** (a) stage now; (b) stage later; (c) skip P21 for these volumes. Recommended: (a).
+- **Default if unanswered:** 15z does not start; only 3463 gets a pin (15y).
+- **Blocks:** step 15z, and with it the pinned full layer and its publication (P23).
+- **Response:** a, done.
+- **Resolved 2026-10-27 (15z session):** done. The user staged the tars (223 files in the directory). Their mode 600 (kept by `cp -p`) blocked reading by the agent account until the user fixed group (`shared-projects`) and mode (group-readable; 0 unreadable). Consumed by step 15z.
+
+### UA-036 Volume 4016 (1685 oktober): read 3 printed, 2 handwritten; pin it? (2026-10-27, from step 15z)
+- **Action:** **Decide** (open the 5 scans through the check page of UA-035, inventory 4016). Step 15z's rule pins a volume only at 4 of 5
+  opposite reads; 4016 has 2 handwritten and 3 printed reads, so it stays as built (`print`, box height 82.5 px, split gate off). The
+  printed reads are copies of treaty and resolution texts (scans 0053, 0070, 0102); the handwritten ones are a hand-written extract and
+  an advice text (0064, 0128). It is a genuinely mixed volume. This is the only mixed volume of the 37.
+- **Options:** (a) leave as built (recommended: no rule applies); (b) pin to `hand`; (c) pin to `print` (no change, documents the choice).
+  For (b): **Edit** `archival_structures/text_layer/presets.py`, `MODE_PINS_V4`, add `"4016": "hand",` after `"3726": "hand",`; add `4016` to
+  `step-15z/pins_drive.txt` before running UA-035, and ask for a test update.
+- **Default if unanswered:** (a).
+- **Blocks:** nothing.
+- **Response:** a
+- **Resolved 2026-10-27 (Opus session after 15z):** (a), 4016 stays as built (`print`), with no pin. The user's image check (UA-035 part 1) confirms the 3/2 split. By the same check 2600 (3 handwritten / 2 printed) and 9264 (2 / 3) are mixed too. They are treated like 4016 and stay as built. Recorded in the report (§ Step 15z, *The user's check*; F12-15z.7) and in the phase `STATUS.md`.
+
+### UA-035 Check the 16 mode pins, then rebuild them in the full v4 layer on the drive (2026-10-27, from step 15z)
+- **Action:** two parts.
+  1. **Check** (about 20 min): open `reports/data/phase-12-hand-print-box-height/step-15z/check_page.html` in a browser. It is blind
+     (no predicted mode). For each of the 37 volumes read the 5 scans and press Handwritten / Printed / Mixed / Unsure; press Export and
+     save `check_verdicts.json` in `reports/data/phase-12-hand-print-box-height/step-15z/`. The agent pins (step 15z, rule: at least 4 of 5
+     read scans of the other class): 14 volumes to `hand` (the 11 *tweede serie* index volumes 3433, 3436, 3439, 3442, 3445, 3463, 3466, 3469,
+     3472, 3475, 3489, plus 3726, 4792, 12297) and 2 to `print` (12163, 12165). The page does not say which.
+  2. **Run** in the AS root (`/Users/marijnkoolen/Code/Huygens/archival-structures`), on the machine with the drive, from this working tree
+     (the pins are in `presets.py`, unreleased). `<1.01.02-dir>` is the drive directory with the `NL-HaNA_1.01.02_<inv>-pagexml.tar.gz`
+     files (the `--src 1.01.02=` of UA-024), `<drive>/layer` the full run's `--out-dir`:
+     ```
+     .venv/bin/python scripts/run_text_layer_v4_full.py --only 1.01.02 --rebuild 1.01.02=reports/data/phase-12-hand-print-box-height/step-15z/pins_drive.txt --src 1.01.02=<1.01.02-dir> --out-dir <drive>/layer --check-only
+     .venv/bin/python scripts/run_text_layer_v4_full.py --only 1.01.02 --rebuild 1.01.02=reports/data/phase-12-hand-print-box-height/step-15z/pins_drive.txt --src 1.01.02=<1.01.02-dir> --out-dir <drive>/layer
+     .venv/bin/python scripts/stage_text_layer_v4_full.py --from <drive>/layer --to data/text_layer_v4_full --inventories 3463 12163 12165 12297 3433 3436 3439 3442 3445 3466 3469 3472 3475 3489 3726 4792 1 9302 11102 11103 11191 11265 --max-inventories 60
+     ```
+     `pins_drive.txt` has 16 inventories (the 15 new pins plus 3463, which the full run built `print`). The `--check-only` line must say
+     "rebuild: 16 of 9122 inventories". The rebuild redoes those 16 volumes in place (forced extract, then every stage over the
+     layer) and writes a new `audit.json`. Predicted time from the 15y model: the 16 volumes (about 442 MiB XML) take 1-2 min; the pooled
+     word-break statistics over 9,122 inventories 5-20 min; the audit over 9,124 inventories about 45 min (0.3 s per inventory, measured
+     on the 37 local volumes); staging a few minutes. Total about 1.2 h (1-1.5 h). The last command overwrites the staged copy of
+     the 16 volumes (and of `audit.json`, `run_v4.log`, `wbc/`) in `data/text_layer_v4_full`.
+- **Options:** (a) check, then run (recommended); (b) run without the check; (c) do not rebuild.
+- **Default if unanswered:** (c). The drive layer keeps the box-height modes (278 `print` volumes, of which 14 are handwritten by the
+  15z reads, and 2 printed placcaten built `hand`); the pilot is not replaced.
+- **Blocks:** the pinned full layer, the Opus check of the staged rebuild, and the publication of the full layer (P23).
+- **Response:** Part 1: done. About my notes: I've only used "Printed" and "Handwritten" when all fives images were the same. When they were not, I used mixed and in the notes field indicated which image is which script type. In some "Printed" volumes I've indicated Gothic (as that might have lower OCR quality). Feedback about this kind of judgements: using crops, this is extemely easy and fast. If more is needed, it's even faster to have keyboard shortcuts and judge per crop, with keyboard shortcuts for Next and Previous as well. 
+- **Resolved 2026-10-27 (Opus check after the rebuild):** part 1 was recorded earlier (F12-15z.7). Part 2: the user ran the rebuild and the staging. The staged copy is checked against `15z-b`. The 16 volumes equal it in all 288 data files and in their audit counts. The log shows 0 failures, "rebuild: 16 of 9122" and 266 `print` / 8,856 `hand`. The audit has 161,644 pass / 2,756 fail (+1: 4792's reported merge share). Report § *After 15z: check of the staged drive rebuild* (F12-15z.8-11). Publication: UA-037.
+
+### UA-037 Publish the pinned v4 layer: the full layer does not fit on the internal disk (2026-10-27, from the Opus check after UA-035)
+- **Action:** **Decide**. For (a), first **Run** in the AS root (`/Users/marijnkoolen/Code/Huygens/archival-structures`), on the
+  machine with the drive. `<drive>/layer` is the full run's `--out-dir`, as in UA-035. This takes a few minutes and copies about 100 MB:
+  ```
+  .venv/bin/python scripts/stage_text_layer_v4_full.py --from <drive>/layer --to data/text_layer_v4_full --inventories 11281 3107 3127 3166 751 12114 12144 12170 3769 3848 --max-inventories 60
+  ```
+  These are 10 pilot volumes (5 `hand`, 5 `print`, seed 20261027). The next session checks that they equal the published pilot,
+  then plans the patch.
+- **Evidence:** the rebuild is right (F12-15z.8). P23 planned for the pinned full run to replace the pilot in
+  `shared-data/NL-HaNA_1.01.02/text_layer_v4/`. But the full 1.01.02 layer is 39,426 MiB, and the internal disk has 1.3 GiB free
+  (100% used on 2026-10-27). The pilot (`15x-a`, 196 volumes, 2.5 GiB) has one of the 16 pins, 3463, still built `print`. Its corpus
+  word-break set and per-inventory pins match the full layer's. No sibling reads `text_layer_v4` yet, so a change in place breaks
+  nothing.
+  **Update 2026-10-27:** the 10 pilot volumes are staged. 192 of their 194 files equal the pilot. The other 2 are 11281's
+  `extract_stats` `source` and `scans` `member`: provenance only, because the pilot read 11281 from an unpacked directory and the
+  drive run from the tar. So the pilot equals the full layer on its volumes, except 3463. The internal disk now has 87 GiB free,
+  so (b) fits: about 48 GiB would be left after the copy.
+- **Options:**
+  (a) patch the pilot: after the check above, a Sonnet step writes a publish script. The script replaces 3463 in the pilot with the
+  full layer's 3463 (from `data/text_layer_v4_full`, without the stale split files of F12-15z.10) and writes the manifest, README
+  row and changelog line. You run it, since only you write to `shared-data`. Coverage stays `partial`, with the size unchanged.
+  (b) publish the full layer: free at least 45 GiB on the internal disk, then copy the 39 GiB from the drive over the pilot.
+  Coverage becomes `complete`.
+  (c) keep the pilot as it is. The README row says 3463 is `print` in the pilot and that the pinned full layer exists only on the
+  drive, where agent sessions cannot read it.
+  Recommended: (a) now, and (b) later if a sibling needs volumes outside the 196.
+- **Default if unanswered:** (c), without the README note. The pilot keeps 3463 as `print`, and the pinned full layer stays on the drive only.
+- **Blocks:** publishing the pins (P23). Nothing else; no sibling reads v4 yet.
+- **Response:** a (given in the chat, 2026-10-27)
+- **Resolved 2026-10-27 (Opus, after the drive-rebuild check):** (a). No publish script is needed: `data/text_layer_v2_dev/15y-b` is the patched pilot. It is the published `15x-a` with 3463 rebuilt in place by `--rebuild` (step 15y). Checked: 3,772 files equal the pilot; the 30 that differ are 3463's files and the layer summaries (stats, `wbc/` with only 3463's row changed, default `['-', '=', '„']` unchanged; status, manifest, progress); 3463's split files are gone. 3463 equals the drive's in 18 of 18 data files. Audit 3,592 pass, 33 reported (as `15x-a`). The copy is UA-038.
+
+### UA-038 Replace the published v4 pilot (`15x-a`) with `15y-b`, which has 3463 pinned `hand` (2026-10-27, from UA-037 (a))
+- **Action:** two parts.
+  1. **Run** in the AS root (`/Users/marijnkoolen/Code/Huygens/archival-structures`); about 2.5 GiB, a minute or two:
+     ```
+     rm -rf /Users/Shared/claude_projects/data_scopes/shared-data/NL-HaNA_1.01.02/text_layer_v4
+     cp -R data/text_layer_v2_dev/15y-b/1.01.02/NL-HaNA_1.01.02_text_layer_v4 /Users/Shared/claude_projects/data_scopes/shared-data/NL-HaNA_1.01.02/text_layer_v4
+     chmod -R g+w /Users/Shared/claude_projects/data_scopes/shared-data/NL-HaNA_1.01.02/text_layer_v4
+     ```
+     1.10.94 is not touched: `15y-b`'s 1.10.94 is byte-equal to the pilot's.
+  2. **Edit** `/Users/Shared/claude_projects/data_scopes/shared-data/README.md`, *Catalogue*: replace the whole row that starts with
+     `` | `NL-HaNA_1.01.02/text_layer_v4/` `` with
+     ```
+     | `NL-HaNA_1.01.02/text_layer_v4/` | SG text layer v4 (pilot, `coverage: partial`): 196 inventories, each built as `hand` (112) or `print` (84) from its own line-box heights (AS phase 12), or pinned after reading (3463 `hand`, AS P21); `mode/<inv>.json` records the mode and method. Same layout as v3 plus `mode/`, `split_stats/`, `split_model/`. No REPUBLIC crosswalk for 1.01.02. AS dev build `15y-b` = `15x-a` (line splitting only in the two-column print volumes, step 15wr; drop-cap-aware print units, step 15x) with 3463 rebuilt in place (step 15y). Its 196 volumes equal those of the pinned full SG run, which is kept on the producer's external drive (AS F12-15z.8). **Known issues:** pinned `hand` index volumes such as 3463 are under-segmented (AS F12-15z.3); in the *nouvelles* the drop-cap rule also merges some letter parts (closing formula, dateline, signature), about 1 wrong for every 5 right merges (AS F12-R.13, kept by AS UA-029 (a)); 0.7% of decision/*Dat* unit starts lost (F12-15x.3). v2 and v3 stay until no row lists a consumer | producer AS `text_layer`, preset `sg_1.01.02_v4`; built 2026-10-26 at AS git head 7f09d07 plus uncommitted phase-12 changes, 3463 rebuilt 2026-10-27 at 4b9f5c7 (0.16.0) plus uncommitted steps 15y/15z; pagexml-tools 0.9.0; sources and stage history in `manifest.json`. Audit: 3,592 invariants pass; 33 lower-case merge shares below 0.95 (reported, 0 judged failures) | 2026-10-27 (2.6 GB; replaced in place twice, see changelog) | none yet |
+     ```
+     and add at the end of *Changelog*:
+     ```
+     - 2026-10-27: `NL-HaNA_1.01.02/text_layer_v4/` replaced in place by AS build `15y-b` (AS UA-037 (a)), before any project linked it: 3463 (a handwritten index volume) is now `hand` (AS P21 pin). The other 195 volumes are byte-equal, and all 196 equal the pinned full SG run. 1.10.94 unchanged.
+     ```
+- **Default if unanswered:** the pilot keeps 3463 as `print`, and the README still says the full run will replace the pilot.
+- **Blocks:** nothing else; no sibling reads v4 yet.
+- **Response:** done (given in the chat, 2026-10-27)
+- **Resolved 2026-10-27 (Opus, same session):** checked. `diff -rq` between `15y-b`'s 1.01.02 layer and `shared-data/NL-HaNA_1.01.02/text_layer_v4` is empty (3,802 files each, all group-writable); `mode/3463.json` is `hand`/`pinned`, with no `split_model/3463.json`. The README row names `15y-b`, and the changelog line of 2026-10-27 is present. P23 is closed for the pilot.

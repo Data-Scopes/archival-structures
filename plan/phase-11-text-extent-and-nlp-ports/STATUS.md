@@ -18,13 +18,13 @@
 
 ## Next action
 
-The user releases v0.16.0. Then, after UA-032, an NLP shim step (plan it as a small addendum to this phase). Phase 12's
-15y (P21 pins) runs once the full v4 run's files are staged.
+Released as v0.16.0 (2026-10-27). UA-032 done (NLP imports AS 0.16.0 editable), so the NLP shim step can be planned
+(a small addendum to this phase). Candidate findings are in `docs/findings.md` (2026-10-27). Phase 12's 15y (P21 pins)
+runs once the full v4 run's files are staged (`scripts/stage_text_layer_v4_full.py`).
 
 ## Blockers and open questions for the user
 
-- UA-032 (install AS editable into NLP's venv): blocks only the NLP shim step.
-- UA-033 (`make docs` broken): blocks nothing here.
+- None (UA-032, UA-033 resolved 2026-10-27).
 
 ## Facts later steps need
 

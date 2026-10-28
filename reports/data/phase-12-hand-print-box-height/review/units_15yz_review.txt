@@ -1,0 +1,185 @@
+## 3463 PRINT volume main_text 3493 by method {'print:region': 1583, 'print:short_prev': 1129, 'print:region_start': 576, 'print:indent+short_prev': 112, 'print:indent': 81, 'print:header': 5}
+## 3463 HAND volume main_text 2102 by method {'hand:region': 2049, 'hand:region_cut_at_header': 53}
+== 3463 scan NL-HaNA_1.01.02_3463_0091
+-- PRINT: 5 main_text units
+  [print:region col0 n=1] Levantschen
+  [print:region col0 n=3] Liebergen 1fibr: Resol: en Ordre aan den Consul, over de consulaatregten te klippo„
+  [print:region_start col0 n=10] 26 Maert. Resol: en ordre aan den Consul van Fryberge over de consulaatregten te salonica 9 Junij. miss: Fryberge, om favorabeler conditiein en om het patent als consul, met magt, om vie consuls aantestellen. Holl: ov: 21 July. miss. Calkoen. antwoord op de Res: van 28 Maert. H: ov. 26 July. Res: or
+  [print:short_prev col0 n=3] 12 december. miss: Directeuren van de Levantschen handel over den tijd van 't ingaan der consulatressen te Salonica. Holl: ov:
+  [print:region col0 n=3] 17 december. miss: directeuren vande Levantschen handel, om de protectie van de natie te Aleppo optedraagen aan den Engelschen Consul. H: ov.
+-- HAND: 4 main_text units
+  [hand:region col0 n=1] Levantschen
+  [hand:region col0 n=3] Liebergen 1fibr: Resol: en Ordre aan den Consul, over de consulaatregten te klippo„
+  [hand:region col0 n=13] 26 Maert. Resol: en ordre aan den Consul van Fryberge over de consulaatregten te salonica 9 Junij. miss: Fryberge, om favorabeler conditiein en om het patent als consul, met magt, om vie consuls aantestellen. Holl: ov: 21 July. miss. Calkoen. antwoord op de Res: van 28 Maert. H: ov. 26 July. Res: or
+  [hand:region col0 n=3] 17 december. miss: directeuren vande Levantschen handel, om de protectie van de natie te Aleppo optedraagen aan den Engelschen Consul. H: ov.
+## 3439 PRINT volume main_text 3661 by method {'print:region': 2461, 'print:short_prev': 584, 'print:region_start': 460, 'print:indent': 98, 'print:indent+short_prev': 38, 'print:indent+header': 12}
+## 3439 HAND volume main_text 2834 by method {'hand:region': 2776, 'hand:region_cut_at_header': 58}
+== 3439 scan NL-HaNA_1.01.02_3439_0142
+-- PRINT: 48 main_text units
+  [print:region col0 n=3] 8 July. Rapp: v: de pretensie van Schonamille, 18. Julij. Maesperen Ris: 5. Brussele lit B.
+  [print:region col0 n=1] 28 July. Reg: Regenten van Steensch.
+  [print:region col0 n=1] 6 Aug: Miss: v. Jasper schuler. en H. Hering.
+  [print:region col0 n=2] 15 aug: Miss: v: een negotiatie op onderpand van steyn, en Petershem. Comk.
+  [print:region col0 n=1] 26 aug: Reg: de Sille.
+  [print:region_start col0 n=2] 29 aug: Miss. landgraef van Hessendarmstad v: het versoek van scheve sipman. en R: daerop.
+  [print:short_prev col0 n=3] 26. Nov. Miss: landgraaff van Hassendarmssad v. de erstenrs van den Raad en gouverneer van madagascan. Sipmand. en d Haerop 2 sept miss. met klagten over den Commis swartz.
+  [print:region col0 n=1] 5 Sept: Reg: R: singel.
+  [print:region col0 n=2] 26 Sept: Rapp: en Res: rak: de residentie vanden ontfanger slicher te Maastrigt
+  [print:region col0 n=2] 7 oct: Reg: Zeland. 1: syn aanstelling tot secretaris van someren.
+  [print:region col0 n=1] 15 Oct: Reg: Snouchaart.
+  [print:region col0 n=1] 23 octob. Reeq. Schmuck. 510 fib: 1733.
+  [print:region col0 n=1] 5 nov: Mem: rak een ordonantie vant stricht
+  [print:region col0 n=1] 19 nov. Erdpe vander Swaen 200 gl.
+  [print:region col0 n=2] 29 nov. Miss: senserf en sion. 2: twee paalen ent Engeland. en Res: daarop.
+  [print:region col0 n=1] 10 dec: Reg: Schorsch. en d
+  [print:region col0 n=2] 13 dec: Reg: vander schilt Commis van den swygende landsol
+  [print:region col0 n=1] 27 dec: Reg: Regenten van sen en Brengel.
+  [print:region col3 n=4] 18 nov: Miss. vrechoogschout te Mastrigt v. een gerugt dat den Hoogproost door den Paus geexcommuniceert soude syn. Eom: welgevallen. 19 Nov: Miss. Veceken schout op het selve subject. Come:
+  [print:region col3 n=3] 6 dec: Miss: Hoogproost Wynants v: een Canons in syn maand vacant b: dat hy daarvan dan disponeeren.
+  [print:region col3 n=3] 24 08: Reg: drost van deurn en Kuessel om sauvegarde tot beeter executie van haar Ho:Mo: Reglement op de brand. R0 a.
+  [print:region col3 n=2] 29 aug: S. m: Miss: vander Meer h: Klagheni ovde de weinig secretesse alhier. lom.
+  [print:region col3 n=1] V: supra. surceantien.
+  [print:region col3 n=3] 11 nov: 8vr: te houden en staat en surceantie te saak van de gecommitteerden van de polder van '4 laegheemaal, Kessel, Waren, en alem.
+  [print:region col3 n=3] Schip de Syrene, anders gene de Fenax, of meermin, s'Hlamben Oosts: Comp:
+  [print:region_start col0 n=2] 10 San. Mass. vander Meer met een memorie van Borgers: r: het Consulaetregt. Holl: ov:
+  [print:short_prev col0 n=3] 19 feb: 1: 1. Miss: vander Meer n: de nationalle penningen Holl: o 11 Maart Miss: vander Meer v. de Consulure en nationale penningen. Holl. 01.
+  [print:short_prev col0 n=9] 24 Maart. Res. en Reglement op de Consulaat en nationale penningen. Te persisteeren by de Res van 13 Aug 1701 Doorts. t geen goederen van boord te laten gaan voordat de betaling gedaan is 2 schippers in spagne een manifest, hier een acquit over te geeven. 3 van de natie penningen niet te disponeeren
+  [print:region col0 n=6] 11 Maart: Borgers gelast den Moorschen Capiteen van zale niet te lossen voor nader ordres. 16 May. Miss: Saep der Meer, ho: dat Borgers de moorsche officieren had versogt. Com: met adm: te amsterdam. 24 Mey. Rapport om de hoop effect te laten sorteeren. nader Comm: 5Juny Resolutie om de hoop effect 
+  [print:region col0 n=2] 21. Maart. Miss:deeck 1. het maken van Vreede met Mamo Comm:
+  [print:region col0 n=3] 28 Maart Miss. Borgers h: berigt weegens de schepen van ostende in de haven: van laden. Comm: 15 April 1: m. Miss. Maurcus. Vonfra 29 aug.
+  [print:region_start col0 n=5] 13 april mis vanden men met en model van cegnoscomente 16 May. Miss. Borgers. h: antwoord op haar Ho:Mo: Res: van 24 Maart. v. de consulaat, ennationalepenningen. 16 May. Miss. Consul Nuyen. 23 Mey. Miss: Consub Cornelio.
+  [print:short_prev col0 n=3] 30 Mey. siss: Consul van salen tot alicante, to dat de schippers aldaar nooit nationale penningen hebben betaalt. Holb: 89.
+  [print:region col0 n=3] 13 Junij. sass: vander Meer met de Rekening van den Consul Nuyen. 13 Juny. Miss: Consul Ruyen, over syn meerder uitgaaf als ontfang. lom
+  [print:region_start col0 n=7] 27 Juny. Miss: vander Meer r: klagten van den Consul Parher in de lorunna, en Cornelis te Mallaga, over het wygeren van sommige om te betalen de lonsulaat en natrepenningen. R: adm: te Amsto a. 4 July. Swiss: Consul Suyen te sevilien en st Lucar: C23 Septe. susp. van den ment en e en e dmen. amettar
+  [print:indent col0 n=1] n aem ij n1 300
+  [print:region col3 n=3] 13. Junij. Miss. Consub Nuyen, v: de ordre des Konen om door drie wagters de scheepen van den Staat te visiteeren. Com.
+  [print:region col3 n=8] 29 aug: Miss. Borgers. r: het invallen van een schip met Keiserl: vlag, genaamt de Vogel Fencx. synde hetselve het schip de meeremin voor desen den Hertog van Bouflers, Holl. en 20v: Hop gelast de consideratien van Engeland intenemen. 13 Sept. miss: Mauricius v: het arriveeren van een schip op de El
+  [print:region_start col3 n=1] 127 Junyl
+  [print:short_prev col3 n=3] 123 oc: Miss. vander Meer met een brief van Borgers rak de betalinge van consulaat en natiepennengen. Holl:ov: Comm: met de Adm.
+  [print:short_prev col3 n=2] 24 oct: miss: vander Meer met nog een brieff van Borgers op het voors: subject. H. ov: Com:
+  [print:short_prev col3 n=3] 7 nov. sniss. Borgers, en gecommitteerden van de Hollandsche natie te ladix, over een sententie teegen haar gepronuncieert. Holb: ov:
+  [print:short_prev col3 n=5] 17 noy Resolutie en ordre aan Borgers, om volgens vorige Res: van 13 aug 1721 en 24 maart 1732 de consulaat en natiepenningen te blyven invorderen. Item aan van dermeer, om op de intrekking van contrarie decreeten vande Koning te insteren
+  [print:indent col3 n=1] vinfra 25 nov:
+  [print:region col3 n=4] 14 nov: Miss: van der sieer met de Ressemoagen van den Consue, Borgers: stem: rak: depensioenen aan eenige weduwen en Weesen. en nog r: een Briff van Christraan Boom. Holl: ov:
+  [print:region_start col3 n=8] 25 nov. Miss: van der Meer: met verscheide officien aan Patino in la Paz, brieven van Borgers, van de consuls te Mallaga en in de lorunnarak: de betalinge van consulaat en natiepenningen, en de collusie van schippers met de Namangene den den eneritn hete gepasseerde ontrent een executie van het cons
+  [print:short_prev col3 n=2] 20 dec: Miss: vander meer en den Consul Huyen. op 't voors subject Holb: 01.
+  [print:short_prev col3 n=2] 29 nov: Miss: Wed: van dycke consul degebraldat, notif het overlyden van haar man. Hollor
+-- HAND: 36 main_text units
+  [hand:region col0 n=3] 8 July. Rapp: v: de pretensie van Schonamille, 18. Julij. Maesperen Ris: 5. Brussele lit B.
+  [hand:region col0 n=1] 28 July. Reg: Regenten van Steensch.
+  [hand:region col0 n=1] 6 Aug: Miss: v. Jasper schuler. en H. Hering.
+  [hand:region col0 n=2] 15 aug: Miss: v: een negotiatie op onderpand van steyn, en Petershem. Comk.
+  [hand:region col0 n=1] 26 aug: Reg: de Sille.
+  [hand:region col0 n=5] 29 aug: Miss. landgraef van Hessendarmstad v: het versoek van scheve sipman. en R: daerop. 26. Nov. Miss: landgraaff van Hassendarmssad v. de erstenrs van den Raad en gouverneer van madagascan. Sipmand. en d Haerop 2 sept miss. met klagten over den Commis swartz.
+  [hand:region col0 n=1] 5 Sept: Reg: R: singel.
+  [hand:region col0 n=2] 26 Sept: Rapp: en Res: rak: de residentie vanden ontfanger slicher te Maastrigt
+  [hand:region col0 n=2] 7 oct: Reg: Zeland. 1: syn aanstelling tot secretaris van someren.
+  [hand:region col0 n=1] 15 Oct: Reg: Snouchaart.
+  [hand:region col0 n=1] 23 octob. Reeq. Schmuck. 510 fib: 1733.
+  [hand:region col0 n=1] 5 nov: Mem: rak een ordonantie vant stricht
+  [hand:region col0 n=1] 19 nov. Erdpe vander Swaen 200 gl.
+  [hand:region col0 n=2] 29 nov. Miss: senserf en sion. 2: twee paalen ent Engeland. en Res: daarop.
+  [hand:region col0 n=1] 10 dec: Reg: Schorsch. en d
+  [hand:region col0 n=2] 13 dec: Reg: vander schilt Commis van den swygende landsol
+  [hand:region col0 n=1] 27 dec: Reg: Regenten van sen en Brengel.
+  [hand:region col3 n=4] 18 nov: Miss. vrechoogschout te Mastrigt v. een gerugt dat den Hoogproost door den Paus geexcommuniceert soude syn. Eom: welgevallen. 19 Nov: Miss. Veceken schout op het selve subject. Come:
+  [hand:region col3 n=3] 6 dec: Miss: Hoogproost Wynants v: een Canons in syn maand vacant b: dat hy daarvan dan disponeeren.
+  [hand:region col3 n=3] 24 08: Reg: drost van deurn en Kuessel om sauvegarde tot beeter executie van haar Ho:Mo: Reglement op de brand. R0 a.
+  [hand:region col3 n=2] 29 aug: S. m: Miss: vander Meer h: Klagheni ovde de weinig secretesse alhier. lom.
+  [hand:region col3 n=1] V: supra. surceantien.
+  [hand:region col3 n=3] 11 nov: 8vr: te houden en staat en surceantie te saak van de gecommitteerden van de polder van '4 laegheemaal, Kessel, Waren, en alem.
+  [hand:region col3 n=3] Schip de Syrene, anders gene de Fenax, of meermin, s'Hlamben Oosts: Comp:
+  [hand:region col0 n=14] 10 San. Mass. vander Meer met een memorie van Borgers: r: het Consulaetregt. Holl: ov: 19 feb: 1: 1. Miss: vander Meer n: de nationalle penningen Holl: o 11 Maart Miss: vander Meer v. de Consulure en nationale penningen. Holl. 01. 24 Maart. Res. en Reglement op de Consulaat en nationale penningen. T
+  [hand:region col0 n=6] 11 Maart: Borgers gelast den Moorschen Capiteen van zale niet te lossen voor nader ordres. 16 May. Miss: Saep der Meer, ho: dat Borgers de moorsche officieren had versogt. Com: met adm: te amsterdam. 24 Mey. Rapport om de hoop effect te laten sorteeren. nader Comm: 5Juny Resolutie om de hoop effect 
+  [hand:region col0 n=2] 21. Maart. Miss:deeck 1. het maken van Vreede met Mamo Comm:
+  [hand:region col0 n=3] 28 Maart Miss. Borgers h: berigt weegens de schepen van ostende in de haven: van laden. Comm: 15 April 1: m. Miss. Maurcus. Vonfra 29 aug.
+  [hand:region col0 n=8] 13 april mis vanden men met en model van cegnoscomente 16 May. Miss. Borgers. h: antwoord op haar Ho:Mo: Res: van 24 Maart. v. de consulaat, ennationalepenningen. 16 May. Miss. Consul Nuyen. 23 Mey. Miss: Consub Cornelio. 30 Mey. siss: Consul van salen tot alicante, to dat de schippers aldaar nooit 
+  [hand:region col0 n=3] 13 Junij. sass: vander Meer met de Rekening van den Consul Nuyen. 13 Juny. Miss: Consul Ruyen, over syn meerder uitgaaf als ontfang. lom
+  [hand:region col0 n=8] 27 Juny. Miss: vander Meer r: klagten van den Consul Parher in de lorunna, en Cornelis te Mallaga, over het wygeren van sommige om te betalen de lonsulaat en natrepenningen. R: adm: te Amsto a. 4 July. Swiss: Consul Suyen te sevilien en st Lucar: C23 Septe. susp. van den ment en e en e dmen. amettar
+  [hand:region col3 n=3] 13. Junij. Miss. Consub Nuyen, v: de ordre des Konen om door drie wagters de scheepen van den Staat te visiteeren. Com.
+  [hand:region col3 n=8] 29 aug: Miss. Borgers. r: het invallen van een schip met Keiserl: vlag, genaamt de Vogel Fencx. synde hetselve het schip de meeremin voor desen den Hertog van Bouflers, Holl. en 20v: Hop gelast de consideratien van Engeland intenemen. 13 Sept. miss: Mauricius v: het arriveeren van een schip op de El
+  [hand:region col3 n=15] 127 Junyl 123 oc: Miss. vander Meer met een brief van Borgers rak de betalinge van consulaat en natiepennengen. Holl:ov: Comm: met de Adm. 24 oct: miss: vander Meer met nog een brieff van Borgers op het voors: subject. H. ov: Com: 7 nov. sniss. Borgers, en gecommitteerden van de Hollandsche natie te
+  [hand:region col3 n=4] 14 nov: Miss: van der sieer met de Ressemoagen van den Consue, Borgers: stem: rak: depensioenen aan eenige weduwen en Weesen. en nog r: een Briff van Christraan Boom. Holl: ov:
+  [hand:region col3 n=12] 25 nov. Miss: van der Meer: met verscheide officien aan Patino in la Paz, brieven van Borgers, van de consuls te Mallaga en in de lorunnarak: de betalinge van consulaat en natiepenningen, en de collusie van schippers met de Namangene den den eneritn hete gepasseerde ontrent een executie van het cons
+## 3469 PRINT volume main_text 3794 by method {'print:region': 1673, 'print:short_prev': 1214, 'print:region_start': 700, 'print:indent+short_prev': 111, 'print:indent': 81, 'print:header': 5}
+## 3469 HAND volume main_text 2334 by method {'hand:region': 2269, 'hand:region_cut_at_header': 65}
+== 3469 scan NL-HaNA_1.01.02_3469_0042
+-- PRINT: 8 main_text units
+  [print:region col0 n=1] 74. Coeverden
+  [print:region col0 n=4] 15 meij. miss: Bentinck Gouverneur van loeverden, om een sortabel Tractement. Item Prop. gelderland om een Tractement voor de Commandeurs te s'Bosch, en in de Grave. Comm: R
+  [print:region_start col0 n=2] 20 december. miss. Arstate, met een brieff vande Mag: van Coeverden,
+  [print:indent+short_prev col0 n=4] over het arrest van een van haare burgers te Esscheburg, door het gereyt van Emmele-hamp. R: daar over te schryven aan de Bentheimsche Regeering sit 11 Jan: 1743.
+  [print:region_start col0 n=3] 27 April. Rapport. Cenapt Capitutalie wegens het overnemen van Una Regimienten vanden farst van Weldckh. Aostate versogt daer over te conveniuenen.
+  [print:short_prev col0 n=3] 5 mij. mits. Aessete. Capitulatie geslooten en gesteijkent. R. Acte van approbatie opte maken, als ook breeven van requisitie tot hntt transport.
+  [print:short_prev col0 n=3] 11 meij. Rapport en Res: op het debarquement en monstering van 't arste lataillon. 12 sanij van't Wweede betaillen.
+  [print:region col2 n=2] 1 november. Conventie met den Prins van Luijck tot overlevering van Weedersijds besortiurs geretifieert.
+-- HAND: 5 main_text units
+  [hand:region col0 n=1] 74. Coeverden
+  [hand:region col0 n=4] 15 meij. miss: Bentinck Gouverneur van loeverden, om een sortabel Tractement. Item Prop. gelderland om een Tractement voor de Commandeurs te s'Bosch, en in de Grave. Comm: R
+  [hand:region col0 n=6] 20 december. miss. Arstate, met een brieff vande Mag: van Coeverden, over het arrest van een van haare burgers te Esscheburg, door het gereyt van Emmele-hamp. R: daar over te schryven aan de Bentheimsche Regeering sit 11 Jan: 1743.
+  [hand:region col0 n=9] 27 April. Rapport. Cenapt Capitutalie wegens het overnemen van Una Regimienten vanden farst van Weldckh. Aostate versogt daer over te conveniuenen. 5 mij. mits. Aessete. Capitulatie geslooten en gesteijkent. R. Acte van approbatie opte maken, als ook breeven van requisitie tot hntt transport. 11 mei
+  [hand:region col2 n=2] 1 november. Conventie met den Prins van Luijck tot overlevering van Weedersijds besortiurs geretifieert.
+## 3475 PRINT volume main_text 4607 by method {'print:region': 1743, 'print:short_prev': 1642, 'print:region_start': 823, 'print:indent+short_prev': 192, 'print:indent': 111, 'print:indent+short_prev+header': 41}
+## 3475 HAND volume main_text 2544 by method {'hand:region': 2282, 'hand:region_cut_at_header': 262}
+== 3475 scan NL-HaNA_1.01.02_3475_0155
+-- PRINT: 31 main_text units
+  [print:region col3 n=2] secretaris van wijlen den Ambassadeur van der Meer.
+  [print:region col3 n=1] differenten in America.
+  [print:region_start col3 n=3] 4 Januarij. Miss. Besindh: van de W: s: Comp: met de Informatien van Directeur en Raaden van Curacao. teegens teijtelijkheden teegen de Spanjaards geplegt. Noll: ov:
+  [print:short_prev col3 n=4] 27 April. Ampele Resolutie tot antwoord op de mamoria van St gil, overgegeeven 28 decemb. 1741. rakende de felijtelijkheden door die van Curaias tagen de spanpaerts gepleegt.
+  [print:region col3 n=5] 4 Junij. Missive Bewindh: van de Wests: Comp: met de informatien van Directeur en Raden op Curacao weegens assistentie door die van Curacao verleent aan het Engelsch Esqualre, onder den Commandeur Knovelis. Holl. o2. Comm.
+  [print:region col0 n=3] Spagne secretaris van wijlen den Ambassadeur vander Meer.
+  [print:region col0 n=2] 3 Januarij. miss. Greflien. present van een goud horologe van die van genere. R. te mogen aanneemen.
+  [print:region_start col0 n=3] 6 Januerij. Rep kinderen, en erfgenaamen van van der Meer. om een byslag van 5000 gl. voor drie jaaren. Zel verklaaren. Utr. overgr.
+  [print:short_prev col0 n=2] 31 maart. Reg: van deselve. en Resolutie, waar bij haar 5000 gl ans werden toegelegt.
+  [print:region_start col0 n=2] 24 Januarij. Reg: hinderen van Vander heer. met de declaratie van Vanber meer.
+  [print:short_prev col0 n=7] 25 Janurij. Mis. Secretaris groffin met sijn delaretie. 24 ulij a8i dem. 25 Januarij. Miss: greftien, over het gestrende schip, de schrik galij, Schper Advrian alberts. Item over het gestrande schip de Fransche post, gevoert bij llaes Swart. Item over 't voorval van tschip de Jan en Daniel. over het
+  [print:short_prev col0 n=6] 15 Februerij. miss. greflein. over het schip van Schipper Pieter van bijen. en over het Consulaat van Alicante. Holl. ov. 20 maart. miss. greflein over t' veerval van 't schip de Jan en Daniel. 1. 60: 29 April. Reg: M: Beth. over 't schip de Jan en Daniul. Res: in vodr sresf de Junij 8 februarij. mi
+  [print:region col0 n=5] 24 Februarij. Rapport en Reblutie om aen den Presisant hoch guistibien de volle 675 gl. van het overlijden van den Ambatsadeur van der meer, tot dat een successeur benoent sal sijn. uit de post van de Oofroijementen. 4 April. mi. Prebihant Rochhoudende bantsiging.
+  [print:region col0 n=2] 6 maert. Wrk: greftin. situtie van de paupieren van wijlen den haer Van der meer. Comm:
+  [print:region_start col0 n=6] 6 maart. miss: greflin met en offie ovor be ten moeyt afgenomen in bulto van schipper Willem Harnaij. Holl: ov: 13 Maart. miss. greslein met het antwoord van Villarias. Hol: ov: 2 October. miss: greflein over een ten onreyt afgenomen in dello. H: op 6 Maart. mis: Groffien om het hof na Comporiuelis 
+  [print:short_prev col0 n=2] 20 maart miss. greflin over een belasting in Andalusien op de olie sijnde Alcasalles 14 percent. Holl ov
+  [print:region col1 n=2] secretaris van wijlen den Ambassadeur vander Meer
+  [print:region col1 n=2] 26 maart. Sep. Erfgenaamen van Van der meer, ovr een geroijeerde post van 2120 gl. Comm: R. R.
+  [print:region_start col1 n=2] 30 maart. Reg: secretaris groflin om ordonantie ter goeder 24 augustij. deselve.
+  [print:short_prev col1 n=1] reekening van 1200 gl. Toegestaan. . 2e. October. ab 1dem.
+  [print:region col1 n=3] 10 april. Miss: grefliin met een officie over de desordres van de lootsen te ville viziose een haven op de kist van asturien. Woll: en Zeel: 00.
+  [print:region_start col1 n=4] 8. Meij. voorschrijven voor de geinteresseerden in de Metta Maria galeij, aan greflein, om het effect van een sententie te bekomen. 2 October. miss. groflin. devuiren door hem aangevend: Holl: 01:
+  [print:short_prev col1 n=3] 8 mij. miss: greflein over de onkosten in het proces, tegens de Wilhelmina. Gabij. Holl: o0. 30 November. miss: Greffain. 11. 00.
+  [print:short_prev col1 n=2] 15 meij. miss. greflein over een ontmoeting aan het Hollands schip de Thecla. M. av:
+  [print:short_prev col1 n=1] greslun
+  [print:short_prev col1 n=1] menn. Lan
+  [print:short_prev col1 n=1] Wolt. v: 21 augustij. mis: deselve. H. ov. 19 Sepl: mits. besilbot. 4: ov:
+  [print:region col1 n=4] 29 Meij. miss: greflein. Ontmoeting van een Hollands schip genaamt de Koning Dasid, met drie Fransche hoopvaardije schapen. Holl: overg: 5 Junij miss greftin Holl: ov:
+  [print:region col1 n=2] 19 Junij mits gressien, om het Hof na Ht Hofense en het Escuriaal te mogen volgen. Toegestaan.
+  [print:region col1 n=4] 24 Junij. Voorschrijven voor S: Smits aan Greflein tot restitutie van 't schip de songe suppou Nileitta Maria. 3 Julij. miss. Greflein. H. ov. 31 Julij. miss desolv. H.ovr. 21 Augjustij. mits. disln. R.ov. 4 sept beldom
+  [print:region col1 n=3] 26 Junij. miss: Grefluin over het voorval van Liuis Roquin. in de Inquisitie gebragt. Hoo suit 1 Julij inspa
+-- HAND: 19 main_text units
+  [hand:region col3 n=2] secretaris van wijlen den Ambassadeur van der Meer.
+  [hand:region col3 n=1] differenten in America.
+  [hand:region col3 n=7] 4 Januarij. Miss. Besindh: van de W: s: Comp: met de Informatien van Directeur en Raaden van Curacao. teegens teijtelijkheden teegen de Spanjaards geplegt. Noll: ov: 27 April. Ampele Resolutie tot antwoord op de mamoria van St gil, overgegeeven 28 decemb. 1741. rakende de felijtelijkheden door die v
+  [hand:region col3 n=5] 4 Junij. Missive Bewindh: van de Wests: Comp: met de informatien van Directeur en Raden op Curacao weegens assistentie door die van Curacao verleent aan het Engelsch Esqualre, onder den Commandeur Knovelis. Holl. o2. Comm.
+  [hand:region col0 n=3] Spagne secretaris van wijlen den Ambassadeur vander Meer.
+  [hand:region col0 n=2] 3 Januarij. miss. Greflien. present van een goud horologe van die van genere. R. te mogen aanneemen.
+  [hand:region col0 n=5] 6 Januerij. Rep kinderen, en erfgenaamen van van der Meer. om een byslag van 5000 gl. voor drie jaaren. Zel verklaaren. Utr. overgr. 31 maart. Reg: van deselve. en Resolutie, waar bij haar 5000 gl ans werden toegelegt.
+  [hand:region col0 n=5] 24 Februarij. Rapport en Reblutie om aen den Presisant hoch guistibien de volle 675 gl. van het overlijden van den Ambatsadeur van der meer, tot dat een successeur benoent sal sijn. uit de post van de Oofroijementen. 4 April. mi. Prebihant Rochhoudende bantsiging.
+  [hand:region col0 n=2] 6 maert. Wrk: greftin. situtie van de paupieren van wijlen den haer Van der meer. Comm:
+  [hand:region col0 n=8] 6 maart. miss: greflin met en offie ovor be ten moeyt afgenomen in bulto van schipper Willem Harnaij. Holl: ov: 13 Maart. miss. greslein met het antwoord van Villarias. Hol: ov: 2 October. miss: greflein over een ten onreyt afgenomen in dello. H: op 6 Maart. mis: Groffien om het hof na Comporiuelis 
+  [hand:region col1 n=3] 10 april. Miss: grefliin met een officie over de desordres van de lootsen te ville viziose een haven op de kist van asturien. Woll: en Zeel: 00.
+  [hand:region col1 n=27] 24 Januarij. Reg: hinderen van Vander heer. met de declaratie van Vanber meer. 25 Janurij. Mis. Secretaris groffin met sijn delaretie. 24 ulij a8i dem. 8. Meij. voorschrijven voor de geinteresseerden in de Metta Maria 25 Januarij. Miss: greftien, over het gestrende schip, de galeij, aan greflein, om
+  [hand:region col2 n=2] secretaris van wijlen den Ambassadeur vander Meer
+  [hand:region col2 n=2] 26 maart. Sep. Erfgenaamen van Van der meer, ovr een geroijeerde post van 2120 gl. Comm: R. R.
+  [hand:region col2 n=3] 30 maart. Reg: secretaris groflin om ordonantie ter goeder 24 augustij. deselve. reekening van 1200 gl. Toegestaan. . 2e. October. ab 1dem.
+  [hand:region col2 n=4] 29 Meij. miss: greflein. Ontmoeting van een Hollands schip genaamt de Koning Dasid, met drie Fransche hoopvaardije schapen. Holl: overg: 5 Junij miss greftin Holl: ov:
+  [hand:region col2 n=2] 19 Junij mits gressien, om het Hof na Ht Hofense en het Escuriaal te mogen volgen. Toegestaan.
+  [hand:region col2 n=4] 24 Junij. Voorschrijven voor S: Smits aan Greflein tot restitutie van 't schip de songe suppou Nileitta Maria. 3 Julij. miss. Greflein. H. ov. 31 Julij. miss desolv. H.ovr. 21 Augjustij. mits. disln. R.ov. 4 sept beldom
+  [hand:region col2 n=3] 26 Junij. miss: Grefluin over het voorval van Liuis Roquin. in de Inquisitie gebragt. Hoo suit 1 Julij inspa
+## 3489 PRINT volume main_text 2109 by method {'print:region': 1255, 'print:short_prev': 495, 'print:region_start': 328, 'print:indent+short_prev': 15, 'print:indent': 12, 'print:indent+short_prev+header': 2}
+## 3489 HAND volume main_text 1586 by method {'hand:region': 1575, 'hand:region_cut_at_header': 11}
+== 3489 scan NL-HaNA_1.01.02_3489_0056
+-- PRINT: 2 main_text units
+  [print:region col0 n=1] Fulda.
+  [print:region col0 n=4] 30. Novemb. Op Reg. van A. Pauls, hebbende alengenomen te leveren vier Bercelen Palissaden, verleend Pasport tot vrijen invoer van dezelve na 's Bosch en na Nijmegen.
+-- HAND: 2 main_text units
+  [hand:region col0 n=1] Fulda.
+  [hand:region col0 n=4] 30. Novemb. Op Reg. van A. Pauls, hebbende alengenomen te leveren vier Bercelen Palissaden, verleend Pasport tot vrijen invoer van dezelve na 's Bosch en na Nijmegen.

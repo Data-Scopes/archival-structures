@@ -158,8 +158,9 @@ class Run:
         latest = {}
         with open(self.status_path, encoding="utf-8") as handle:
             header = handle.readline().rstrip("\n").split("\t")
-            for line in handle:
+            for seq, line in enumerate(handle):
                 row = dict(zip(header, line.rstrip("\n").split("\t")))
+                row["_seq"] = seq   # step 15y: 0-based data-row index = time order (the file is appended)
                 latest[(row["inventory_number"], row["stage"])] = row
         return latest
 
@@ -271,6 +272,26 @@ def run_pool(run, func, tasks, sizes, label):
     return failures
 
 
+def recorded_sizes(status_path):
+    """{inv: (stored_bytes, xml_bytes)} from the last ``done`` extract row per inventory that has both
+    sizes as integers (step 15yr). Empty if the file does not exist."""
+    status_path = Path(status_path)
+    sizes = {}
+    if not status_path.exists():
+        return sizes
+    with open(status_path, encoding="utf-8") as handle:
+        header = handle.readline().rstrip("\n").split("\t")
+        for line in handle:
+            row = dict(zip(header, line.rstrip("\n").split("\t")))
+            if row.get("stage") != "extract" or row.get("status") != "done":
+                continue
+            try:
+                sizes[row["inventory_number"]] = (int(row["input_bytes"]), int(row["input_xml_bytes"]))
+            except (KeyError, ValueError):
+                continue
+    return sizes
+
+
 def recorded_done(status, inv, stage):
     row = status.get((inv, stage))
     return row is not None and row["status"] == "done"
@@ -279,6 +300,67 @@ def recorded_done(status, inv, stage):
 def is_done(status, inv, stage, force):
     """Done and not to be redone (--force redoes the selected stages)."""
     return not force and recorded_done(status, inv, stage)
+
+
+# Step 15y: a v2 stage reads the output of the stage before it; its done row counts only if it is newer
+V2_UPSTREAM = {"layout": "extract", "types": "layout", "units": "types", "wbc": "units", "join": "units"}
+
+
+def is_current(status, inv, stage, force):
+    """Done, not forced, and recorded after the latest row of the stage it reads (v2)."""
+    if not is_done(status, inv, stage, force):
+        return False
+    up = status.get((inv, V2_UPSTREAM.get(stage)))
+    return up is None or status[(inv, stage)]["_seq"] > up["_seq"]
+
+
+def upstream_ok(status, inv, stage):
+    """False if a stage upstream of this v2 stage has a row for ``inv`` that is not ``done`` (step 15yr).
+
+    A failed upstream row means the files it feeds are stale: the stage must neither run on them
+    nor record itself as done. The check is transitive (a failed extract also blocks units, wbc
+    and join, whose direct upstream rows are still the old ``done`` ones).
+    """
+    up = V2_UPSTREAM.get(stage)
+    while up:
+        row = status.get((inv, up))
+        if row is not None and row["status"] != "done":
+            return False
+        up = V2_UPSTREAM.get(up)
+    return True
+
+
+def log_blocked(run, stage, blocked):
+    if blocked:
+        run.log(f"[{stage}] {len(blocked)} blocked: the stage they read is not done "
+                f"(e.g. {blocked[:5]})")
+
+
+def v2_todo(run, stage, inventories, params_doc, output_names):
+    """Inventories a v2 layout/types/units stage has to (re)do (step 15y).
+
+    All of them if ``<stage>/params.json`` exists and differs from ``params_doc``; otherwise those
+    without a current done row or without all of their ``output_names``. Logs the counts.
+    """
+    path = run.root / stage / "params.json"
+    changed = False
+    if path.exists():
+        changed = json.loads(path.read_text(encoding="utf-8")) != json.loads(json.dumps(params_doc))
+    if changed:
+        run.log(f"[{stage}] parameters changed: redoing all")
+        todo = list(inventories)
+    else:
+        todo = list(inventories)
+    status = run.status()
+    blocked = [inv for inv in todo if not upstream_ok(status, inv, stage)]
+    todo = [inv for inv in todo if inv not in set(blocked)]
+    if not changed:
+        todo = [inv for inv in todo
+                if not (is_current(status, inv, stage, run.force)
+                        and all((run.root / n.format(inv)).exists() for n in output_names))]
+    log_blocked(run, stage, blocked)
+    run.log(f"[{stage}] {len(inventories) - len(todo) - len(blocked)} already done, {len(todo)} to do")
+    return todo
 
 
 def stage_extract(run, inventories, sizes):
@@ -387,11 +469,13 @@ def stage_layout(run, inventories, sizes):
         sys.exit(f"stage layout: no scans/regions_meta/lines tables for {missing[:5]}; run extract first")
     out = run.root / "layout"
     out.mkdir(parents=True, exist_ok=True)
+    todo = v2_todo(run, "layout", inventories, params_doc,
+                   ("layout/lines/{}.tsv.gz", "layout/regions/{}.tsv.gz", "layout/scans/{}.tsv.gz"))
     write_json_atomic(out / "params.json", params_doc)
     stats_path = out / "stats.json"
     stats = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
     failures = []
-    for inv in inventories:
+    for inv in todo:
         start = time.monotonic()
         try:
             inv_params = mparams[read_mode(run.root, inv)] if run.mode_run else params
@@ -434,11 +518,13 @@ def stage_types(run, inventories, sizes):
         sys.exit(f"stage types: no scans/lines/layout tables for {missing[:5]}; run layout first")
     out = run.root / "types"
     out.mkdir(parents=True, exist_ok=True)
+    todo = v2_todo(run, "types", inventories, params_doc,
+                   ("types/regions/{}.tsv.gz", "types/segments/{}.tsv.gz"))
     write_json_atomic(out / "params.json", params_doc)
     stats_path = out / "stats.json"
     stats = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
     failures = []
-    for inv in inventories:
+    for inv in todo:
         start = time.monotonic()
         try:
             inv_params = mparams[read_mode(run.root, inv)] if run.mode_run else params
@@ -501,11 +587,14 @@ def stage_units(run, inventories, sizes):
                     f"{lacking[:5]}: no REPUBLIC crosswalk for those inventories")
         if have:
             republic_used = str(republic_dir)
-    write_json_atomic(out / "params.json", {**params_doc, "republic_dir": republic_used})
+    units_doc = {**params_doc, "republic_dir": republic_used}
+    todo = v2_todo(run, "units", inventories, units_doc,
+                   ("units/units/{}.tsv.gz", "units/segments/{}.tsv.gz", "units/doc_id_map/{}.tsv.gz"))
+    write_json_atomic(out / "params.json", units_doc)
     stats_path = out / "stats.json"
     stats = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
     failures = []
-    for inv in inventories:
+    for inv in todo:
         start = time.monotonic()
         try:
             if run.mode_run:
@@ -574,10 +663,15 @@ def stage_wbc(run, inventories, sizes):
         worker = write_word_break_stats_part
         columns = WORD_BREAK_STATS_COLUMNS
     status = run.status()
+    blocked = [inv for inv in done if v2 and not upstream_ok(status, inv, "wbc")]
     todo = [(inv, (inv, str(run.root))) for inv in done
-            if not (is_done(status, inv, "wbc", run.force) and (run.root / "wbc" / "parts" / f"{inv}.tsv").exists())]
+            if inv not in set(blocked)
+            and not ((is_current(status, inv, "wbc", run.force) if v2
+                      else is_done(status, inv, "wbc", run.force))
+                     and (run.root / "wbc" / "parts" / f"{inv}.tsv").exists())]
     todo.sort(key=lambda t: -sizes[t[0]][1] if t[0] in sizes else 0)
-    run.log(f"[wbc] {len(done) - len(todo)} stats parts already done, {len(todo)} to do")
+    log_blocked(run, "wbc", blocked)
+    run.log(f"[wbc] {len(done) - len(todo) - len(blocked)} stats parts already done, {len(todo)} to do")
     failures = run_pool(run, worker, todo, sizes, "wbc")
     if failures:
         sys.exit(f"[wbc] stats failed for {failures}; fix and rerun")
@@ -709,7 +803,7 @@ def stage_join(run, inventories, sizes):
         sys.exit("the WBC sanity anchors failed (see wbc/corpus_default.json); stop and ask. "
                  "--ignore-sanity overrides (recorded in the manifest)")
     status = run.status()
-    todo = []
+    todo, blocked = [], []
     for inv in done:
         if inv not in sets:
             if not run.args.allow_partial:
@@ -731,7 +825,8 @@ def stage_join(run, inventories, sizes):
             stats_path = run.root / "join_stats" / f"{inv}.json"
             out_path = run.root / "regions" / f"{inv}.tsv.gz"
         previous = json.loads(stats_path.read_text(encoding="utf-8")) if stats_path.exists() else {}
-        current = (is_done(status, inv, "join", run.force)
+        current = ((is_current(status, inv, "join", run.force) if v2
+                    else is_done(status, inv, "join", run.force))
                    and out_path.exists()
                    and previous.get("wbc_set") == "".join(sorted(wbcs))
                    and previous.get("guards") == list(ALL_GUARDS)
@@ -739,12 +834,16 @@ def stage_join(run, inventories, sizes):
                                    and previous.get("lead_marks_lower", "") == lml
                                    and previous.get("upper_guard", False)
                                    == run.preset.join_upper_guard)))
+        if v2 and not upstream_ok(status, inv, "join"):
+            blocked.append(inv)
+            continue
         if not current:
             todo.append((inv, (inv, str(run.root), wbcs, lead_marks, lml,
                                run.preset.join_upper_guard) if v2
                          else (inv, str(run.root), wbcs, run.args.write_events)))
     todo.sort(key=lambda t: -sizes[t[0]][1] if t[0] in sizes else 0)
-    run.log(f"[join] {len(done) - len(todo)} already done with the current WBC set and guards, "
+    log_blocked(run, "join", blocked)
+    run.log(f"[join] {len(done) - len(todo) - len(blocked)} already done with the current WBC set and guards, "
             f"{len(todo)} to do")
     failures = run_pool(run, join_inventory_v2 if v2 else join_inventory, todo, sizes, "join")
     run.update_manifest("join", {"n_inventories": len(done), "allow_partial": bool(missing),
@@ -838,12 +937,23 @@ def main(argv=None):
         sizes = {}
     else:
         inventories = select_inventories(args)
-        sizes = {inv: input_bytes(src) for inv, src in inventories.items()}
+        recorded = (recorded_sizes(Path(args.out_dir) / PRESETS[args.preset].name / "status.tsv")
+                    if v2_preset else {})
+        sizes, n_reused = {}, 0
+        for inv, src in inventories.items():
+            rec = recorded.get(inv)
+            if rec is not None and Path(src).is_file() and Path(src).stat().st_size == rec[0]:
+                sizes[inv] = rec
+                n_reused += 1
+            else:
+                sizes[inv] = input_bytes(src)
     if args.estimate:
         estimate(inventories, sizes, args.workers, PRESETS[args.preset])
         return 0
     version = check_pagexml_tools_version()
     run = Run(args, PRESETS[args.preset])
+    if args.stage not in local_stages and v2_preset:
+        run.log(f"[sizes] {n_reused} from status.tsv, {len(sizes) - n_reused} measured")
     run.log(f"start stage={args.stage} inventories={len(inventories)} workers={args.workers} "
             f"pagexml-tools={version}")
     preset = PRESETS[args.preset]

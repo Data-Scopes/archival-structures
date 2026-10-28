@@ -6,6 +6,7 @@ of the volume decides the mode (``hand_print.box_height_mode``; the cut lives in
 rule fields of the chosen mode (``presets.inventory_preset``). Rules never switch inside an
 inventory."""
 
+import time
 from pathlib import Path
 from typing import Optional
 
@@ -23,8 +24,12 @@ MODE_SCAN_COLUMNS = ["scan_id", "scan_order", "page_w", "page_h", "n_lines_text"
 MODE_REGION_COLUMNS = ["region_id", "scan_id", "n_lines", "n_chars", "h_med", "pitch_med", "hrel"]
 
 
-def decide_mode(line_rows, preset) -> dict:
-    """Mode of one inventory from its (raw) v2 line rows. Adds ``scans`` and ``regions``."""
+def decide_mode(line_rows, preset, inv=None) -> dict:
+    """Mode of one inventory from its (raw) v2 line rows. Adds ``scans`` and ``regions``.
+
+    Step 15y: ``volume_mode["pins"]`` ({inv: "hand"|"print"}) overrides the measured mode of ``inv``;
+    the measured result stays in ``box_height_mode``/``box_height_method``, ``method`` is ``pinned``.
+    """
     vm = preset.volume_mode
     feats = region_features(line_rows)
     params = BoxHeightParams.from_dict(vm["params"])
@@ -37,6 +42,13 @@ def decide_mode(line_rows, preset) -> dict:
         result["mode"], result["method"] = vm["mode"], "fixed"
     else:
         raise ValueError(f"unknown volume_mode method {vm['method']!r}")
+    pins = vm.get("pins") or {}
+    if inv is not None and inv in pins:
+        pin = pins[inv]
+        if pin not in ("hand", "print"):
+            raise ValueError(f"pin for {inv} must be 'hand' or 'print', got {pin!r}")
+        result["box_height_mode"], result["box_height_method"] = r["mode"], r["method"]
+        result["mode"], result["method"] = pin, "pinned"
     result["scans"] = scan_box_heights(feats, params.min_region_chars)
     result["regions"] = feats
     return result
@@ -119,8 +131,10 @@ def extract_inventory_v2_modes(inv, source, out_root, preset, *, record_splits=F
     from archival_structures.text_layer.extract_v2 import extract_inventory_v2
     from archival_structures.text_layer.line_split import (
         _int_row, _write_split_files, fit_split_model_from_rows, make_split_hook, prepass_rows)
+    start = time.monotonic()
     rows, tags, info = prepass_rows(inv, source, preset)
-    decision = decide_mode(rows, preset)
+    prepass_seconds = time.monotonic() - start
+    decision = decide_mode(rows, preset, inv=inv)
     mode = decision["mode"]
     resolved = inventory_preset(preset, mode)
     split = resolved.merged_line_split == "on"
@@ -132,6 +146,13 @@ def extract_inventory_v2_modes(inv, source, out_root, preset, *, record_splits=F
         decision["split_gate"] = {"share": None if share is None else round(share, 4), "n_rows": n,
                                   "min_share": gate["min_share"], "split": split}
     write_mode(out_root, inv, decision, info)
+    out_root = Path(out_root)
+    # Step 15y: files of an earlier build of this inventory that this build does not write are stale
+    stale = [out_root / "split_stats" / f"{inv}.splits.json"] if not (split and record_splits) else []
+    if not split:
+        stale += [out_root / "split_model" / f"{inv}.json", out_root / "split_stats" / f"{inv}.json"]
+    for path in stale:
+        path.unlink(missing_ok=True)
     if split:
         model = fit_split_model_from_rows([_int_row(r) for r in rows], tags,
                                           resolved.split_region_tags, resolved.untagged_tag)
@@ -142,4 +163,7 @@ def extract_inventory_v2_modes(inv, source, out_root, preset, *, record_splits=F
     else:
         result = extract_inventory_v2(inv, source, out_root, resolved)
     result["mode"], result["mode_method"] = mode, decision["method"]
+    # Step 15yr: the status row's seconds time the whole call, the pre-pass included
+    result["prepass_seconds"] = round(prepass_seconds, 3)
+    result["seconds"] = round(time.monotonic() - start, 3)
     return result

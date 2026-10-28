@@ -1,0 +1,87 @@
+{
+ "1.01.02:1.01.02": {
+  "equal": 3772,
+  "differ": {
+   "layout/stats.json": "bytes",
+   "types/stats.json": "bytes",
+   "units/stats.json": "bytes",
+   "wbc/corpus_default.json": "bytes",
+   "wbc/corpus_default_default.json": "bytes",
+   "wbc/corpus_default_robust.json": "bytes",
+   "wbc/wbc_per_inventory.tsv": {
+    "rows": [
+     196,
+     196
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "n_lines": 1
+    }
+   },
+   "wbc/wbc_per_inventory_default.tsv": {
+    "rows": [
+     196,
+     196
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "n_lines": 1
+    }
+   },
+   "wbc/wbc_per_inventory_robust.tsv": {
+    "rows": [
+     196,
+     196
+    ],
+    "added_cols": [],
+    "dropped_cols": [],
+    "cols_differing_rows": {
+     "n_lines": 1
+    }
+   },
+   "wbc/wbc_stats.tsv": {
+    "rows": [
+     1768,
+     1767
+    ],
+    "added_cols": [],
+    "dropped_cols": []
+   }
+  },
+  "missing": [
+   "B:split_model/3463.json",
+   "B:split_stats/3463.json"
+  ],
+  "ignored": 0,
+  "explained": {
+   "3463": [
+    "extract_stats/3463.json",
+    "join/segments/3463.tsv.gz",
+    "join/stats/3463.json",
+    "join/units/3463.tsv.gz",
+    "layout/lines/3463.tsv.gz",
+    "layout/regions/3463.tsv.gz",
+    "layout/scans/3463.tsv.gz",
+    "lines/3463.lines.tsv.gz",
+    "mode/3463.json",
+    "regions_meta/3463.tsv.gz",
+    "scans/3463.scans.tsv.gz",
+    "types/regions/3463.tsv.gz",
+    "types/segments/3463.tsv.gz",
+    "units/doc_id_map/3463.tsv.gz",
+    "units/segments/3463.tsv.gz",
+    "units/units/3463.tsv.gz",
+    "wbc/parts/3463.tsv"
+   ]
+  }
+ },
+ "1.10.94:1.10.94": {
+  "equal": 57,
+  "differ": {},
+  "missing": [],
+  "ignored": 0,
+  "explained": {}
+ }
+}

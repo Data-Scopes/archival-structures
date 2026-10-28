@@ -1,0 +1,106 @@
+{
+ "seed": 20261109,
+ "pool_sizes": {
+  "hand": 103,
+  "print_split": 21,
+  "print_gated": 53
+ },
+ "rows": [
+  {
+   "group": "hand",
+   "inventory": "3175",
+   "xml_bytes": 124378083,
+   "seconds": 20.508,
+   "prepass_seconds": 9.39
+  },
+  {
+   "group": "hand",
+   "inventory": "11900",
+   "xml_bytes": 96304913,
+   "seconds": 15.388,
+   "prepass_seconds": 7.116
+  },
+  {
+   "group": "hand",
+   "inventory": "3478",
+   "xml_bytes": 26567096,
+   "seconds": 4.341,
+   "prepass_seconds": 2.032
+  },
+  {
+   "group": "hand",
+   "inventory": "3238",
+   "xml_bytes": 101794352,
+   "seconds": 16.062,
+   "prepass_seconds": 7.5
+  },
+  {
+   "group": "print_split",
+   "inventory": "3857",
+   "xml_bytes": 140537447,
+   "seconds": 43.837,
+   "prepass_seconds": 10.463
+  },
+  {
+   "group": "print_split",
+   "inventory": "3795",
+   "xml_bytes": 251073044,
+   "seconds": 77.425,
+   "prepass_seconds": 18.967
+  },
+  {
+   "group": "print_split",
+   "inventory": "3844",
+   "xml_bytes": 255553677,
+   "seconds": 79.121,
+   "prepass_seconds": 19.222
+  },
+  {
+   "group": "print_split",
+   "inventory": "3838",
+   "xml_bytes": 169766255,
+   "seconds": 47.786,
+   "prepass_seconds": 11.697
+  },
+  {
+   "group": "print_gated",
+   "inventory": "12109",
+   "xml_bytes": 142967175,
+   "seconds": 20.28,
+   "prepass_seconds": 9.568
+  },
+  {
+   "group": "print_gated",
+   "inventory": "12087",
+   "xml_bytes": 202825158,
+   "seconds": 31.625,
+   "prepass_seconds": 13.861
+  },
+  {
+   "group": "print_gated",
+   "inventory": "12170",
+   "xml_bytes": 159369765,
+   "seconds": 27.185,
+   "prepass_seconds": 12.457
+  },
+  {
+   "group": "print_gated",
+   "inventory": "12101",
+   "xml_bytes": 124187597,
+   "seconds": 22.358,
+   "prepass_seconds": 10.507
+  }
+ ],
+ "group_factors": {
+  "hand": 1.8604474406001124,
+  "print_split": 1.321312959216271,
+  "print_gated": 1.8426664244846065
+ },
+ "weights": {
+  "hand": 0.8806832230514384,
+  "print_split": 0.07898543914749573,
+  "print_gated": 0.0403313378010658
+ },
+ "factor_1.01.02": 1.8171465346610514,
+ "factor_1.10.94": 1.321312959216271
+}

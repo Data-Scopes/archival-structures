@@ -508,6 +508,8 @@ def unit_inventory(inv, layer_root, params, *, print_mode=False, republic_path=N
         write_tsv_gz(out / "republic_lines" / f"{inv}.tsv.gz", REPUBLIC_COLUMNS, cw)
         crosswalk = dict(Counter(r[3] for r in cw))
         crosswalk_roles = dict(Counter(f"{r[3]}|{r[4]}" for r in cw))
+    else:   # step 15y: a crosswalk of an earlier build (e.g. as a print volume) is stale
+        (out / "republic_lines" / f"{inv}.tsv.gz").unlink(missing_ok=True)
 
     per_type = Counter(u["unit_type"] for u in all_units)
     main_lens = [len({s["line_id"] for s in u["segs"]}) for u in all_units

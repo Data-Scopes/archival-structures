@@ -392,3 +392,86 @@ def test_extract_split_gate(src, tmp_path):
     assert (out / "split_model" / "9999.json").exists()
     assert json.loads((out / "mode" / "9999.json").read_text())["split_gate"] == {
         "share": None, "n_rows": 0, "min_share": 1.1, "split": True}
+
+
+# ---- step 15y: pins, in-place rebuild
+
+
+def test_decide_mode_pins():
+    p = PRESETS["sg_1.01.02_v4"]
+    pinned = replace(p, volume_mode={**p.volume_mode, "pins": {"9999": "hand"}})
+    r = decide_mode(_rows(80), pinned, inv="9999")
+    assert (r["mode"], r["method"]) == ("hand", "pinned")
+    assert (r["box_height_mode"], r["box_height_method"]) == ("print", "box_height")
+    assert r["value"] == 80
+    other = decide_mode(_rows(80), pinned, inv="1234")
+    assert (other["mode"], other["method"]) == ("print", "box_height") and "box_height_mode" not in other
+    assert decide_mode(_rows(80), pinned)["method"] == "box_height"           # inv=None: unpinned
+    assert decide_mode(_rows(80), p, inv="9999")["method"] == "box_height"    # no pins key
+    pin_print = replace(p, volume_mode={**p.volume_mode, "pins": {"9999": "print"}})
+    r = decide_mode(_rows(120), pin_print, inv="9999")
+    assert (r["mode"], r["method"], r["box_height_mode"]) == ("print", "pinned", "hand")
+    fixed = replace(PRESETS["sg_1.10.94_v4"],
+                    volume_mode={**PRESETS["sg_1.10.94_v4"].volume_mode, "pins": {"9999": "hand"}})
+    r = decide_mode(_rows(120), fixed, inv="9999")   # the measured result, also under `fixed`
+    assert (r["mode"], r["method"], r["box_height_mode"], r["box_height_method"]) == \
+        ("hand", "pinned", "hand", "box_height")
+    bad = replace(p, volume_mode={**p.volume_mode, "pins": {"9999": "mixed"}})
+    with pytest.raises(ValueError):
+        decide_mode(_rows(80), bad, inv="9999")
+
+
+def test_v4_pins():
+    hand = ["12297", "3433", "3436", "3439", "3442", "3445", "3463", "3466", "3469", "3472", "3475", "3489", "3726",
+            "4792"]
+    assert PRESETS["sg_1.01.02_v4"].volume_mode["pins"] == {**{i: "hand" for i in hand}, "12163": "print",
+                                                           "12165": "print"}
+    assert "pins" not in PRESETS["sg_1.10.94_v4"].volume_mode
+
+
+def _same_files(root_a, root_b, prefix):
+    """{relative path: decompressed content} of the files named `<prefix>.*`; JSON without seconds/elapsed*."""
+    import gzip
+
+    def read(root):
+        out = {}
+        for p in Path(root).rglob(f"{prefix}.*"):
+            raw = gzip.open(p, "rb").read() if p.suffix == ".gz" else p.read_bytes()
+            if p.name.endswith(".json"):
+                raw = json.dumps({k: v for k, v in json.loads(raw).items()
+                                  if k != "seconds" and not k.startswith("elapsed")}, sort_keys=True).encode()
+            out[str(p.relative_to(root))] = raw
+        return out
+    return read(root_a), read(root_b)
+
+
+def test_rebuild_pinned_in_place(src, tmp_path, monkeypatch):
+    base = PRESETS["sg_1.01.02_v4"]
+    gate = {**SPLIT_GATE_V4, "min_rows": 1, "min_chars": 1, "min_share": 0.0}
+
+    def preset(pin):
+        return replace(base, volume_mode={**base.volume_mode, "split_gate": gate, "pins": {"9999": pin}})
+    args = ["--pagexml-dir", str(src.parent), "--preset", "sg_1.01.02_v4", "--workers", "1"]
+    monkeypatch.setitem(PRESETS, "sg_1.01.02_v4", preset("print"))
+    out = tmp_path / "inplace"
+    assert build.main(args + ["--out-dir", str(out), "--stage", "all"]) == 0
+    layer = out / "NL-HaNA_1.01.02_text_layer_v4"
+    assert (layer / "split_model" / "9999.json").exists() and (layer / "split_stats" / "9999.json").exists()
+    monkeypatch.setitem(PRESETS, "sg_1.01.02_v4", preset("hand"))
+    assert build.main(args + ["--out-dir", str(out), "--stage", "extract", "--force", "--inventories", "9999"]) == 0
+    assert not (layer / "split_model" / "9999.json").exists()
+    assert not (layer / "split_stats" / "9999.json").exists()
+    assert build.main(args + ["--out-dir", str(out), "--stage", "all"]) == 0
+    meta = json.loads((layer / "mode" / "9999.json").read_text())
+    assert (meta["mode"], meta["method"]) == ("hand", "pinned")
+    fresh = tmp_path / "fresh"
+    assert build.main(args + ["--out-dir", str(fresh), "--stage", "all"]) == 0
+    a, b = _same_files(layer, fresh / "NL-HaNA_1.01.02_text_layer_v4", "9999")
+    assert a.keys() == b.keys() and len(a) > 10
+    assert all(a[k] == b[k] for k in a), [k for k in a if a[k] != b[k]]
+
+
+def test_extract_seconds_include_prepass(src, tmp_path):
+    from archival_structures.text_layer.modes import extract_inventory_v2_modes
+    result = extract_inventory_v2_modes("9999", src, tmp_path / "out", PRESETS["sg_1.01.02_v4"])
+    assert result["seconds"] >= result["prepass_seconds"] > 0

@@ -1,0 +1,76 @@
+{
+ "fits": {
+  "1.01.02": {
+   "extract": {
+    "intercept_s": -1.47,
+    "s_per_mb": 0.1408,
+    "r2": 0.7324
+   },
+   "layout": {
+    "intercept_s": 0.05156,
+    "s_per_mb": 0.0207,
+    "r2": 0.9257
+   },
+   "types": {
+    "intercept_s": 0.06368,
+    "s_per_mb": 0.00781,
+    "r2": 0.9792
+   },
+   "units": {
+    "intercept_s": 0.01275,
+    "s_per_mb": 0.006572,
+    "r2": 0.9615
+   },
+   "wbc": {
+    "intercept_s": -0.001279,
+    "s_per_mb": 0.004038,
+    "r2": 0.9851
+   },
+   "join": {
+    "intercept_s": 0.02111,
+    "s_per_mb": 0.009568,
+    "r2": 0.9855
+   }
+  },
+  "1.10.94": {
+   "extract": {
+    "intercept_s": 0.0,
+    "s_per_mb": 0.404,
+    "r2": null
+   },
+   "layout": {
+    "intercept_s": 0.0,
+    "s_per_mb": 0.01422,
+    "r2": null
+   },
+   "types": {
+    "intercept_s": 0.0,
+    "s_per_mb": 0.006248,
+    "r2": null
+   },
+   "units": {
+    "intercept_s": 0.0,
+    "s_per_mb": 0.009902,
+    "r2": null
+   },
+   "wbc": {
+    "intercept_s": 0.0,
+    "s_per_mb": 0.004044,
+    "r2": null
+   },
+   "join": {
+    "intercept_s": 0.0,
+    "s_per_mb": 0.008431,
+    "r2": null
+   }
+  }
+ },
+ "constants": {
+  "archive_xml_ratio": 4.24,
+  "xml_bytes": {
+   "1.01.02": 376170294614.0,
+   "1.10.94": 1009177478.0
+  },
+  "print_byte_share": 0.12010604287444049
+ }
+}

@@ -184,6 +184,18 @@ BOX_HEIGHT_V4 = {"cut": 87.75, "min_region_chars": 100}   # step 15u, cut.json s
 # Phase-12 review (F12-R.4, P16): the 1.10.94 merged-line splitter assumes two text columns per page side. A
 # 1.01.02 print-mode volume is split only if its column-start share (modes.column_start_share) is >= min_share.
 SPLIT_GATE_V4 = {"min_share": 0.35, "min_chars": 20, "min_rows": 50, "mid_frac": 0.4}
+# Steps 15y/15z (P21, P24, P28): per-inventory pins, from the volumes read by hand. A volume is pinned to the other
+# mode if >= 4 of its 5 read scans have the other class (reports/data/phase-12-hand-print-box-height/step-15z/
+# verdicts.tsv, volumes.tsv). 3463: read handwritten 5/5 in 15w and again in 15z (step 15y).
+MODE_PINS_V4 = {
+    # handwritten volumes the box-height rule built `print`: tweede serie index volumes (3433-3489), the "Tafel der
+    # respecten" 3726, the secrete index 4792 and the systematic index of the commissieboeken 12297 (15z: 5/5 each)
+    "12297": "hand", "3433": "hand", "3436": "hand", "3439": "hand", "3442": "hand", "3445": "hand",
+    "3463": "hand", "3466": "hand", "3469": "hand", "3472": "hand", "3475": "hand", "3489": "hand",
+    "3726": "hand", "4792": "hand",
+    # printed silver-print placcaten the rule built `hand` (15z: 5/5 printed each)
+    "12163": "print", "12165": "print",
+}
 MODE_RULE_FIELDS = ("merged_line_split", "split_region_tags", "layout_params", "types_params",
                     "unit_params", "join_lead_marks")
 _V4_MODE_PRESETS = {"hand": "sg_1.01.02_v3", "print": "sg_1.10.94_v3"}
@@ -191,7 +203,8 @@ SG_1_01_02_V4 = dataclasses.replace(
     SG_HAND_V3, name="NL-HaNA_1.01.02_text_layer_v4",
     description="NL-HaNA 1.01.02 text layer v4 (one hand/print mode per volume, by line-box height)",
     mode_presets=_V4_MODE_PRESETS,
-    volume_mode={"method": "box_height", "params": BOX_HEIGHT_V4, "split_gate": SPLIT_GATE_V4},
+    volume_mode={"method": "box_height", "params": BOX_HEIGHT_V4, "split_gate": SPLIT_GATE_V4,
+                 "pins": MODE_PINS_V4},
     # UA-026 (b), F12-R.6, P18: in printed 1.01.02 volumes an indent-only cut within 2 main lines of the last
     # kept cut is a line beside a dropped initial, not a paragraph start
     mode_overrides={"print": {"unit_params": {**SG_PRINT_UNIT_PARAMS, "drop_cap_lines": 2}}})

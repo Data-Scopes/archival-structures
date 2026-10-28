@@ -1,0 +1,1421 @@
+{
+ "page": "shared_tools_handprint_demo_v1",
+ "exported": "2026-10-27T17:39:53.770Z",
+ "items": [
+  {
+   "id": "NL-HaNA_1.01.02_2586_0106",
+   "group": "2586",
+   "scan": "NL-HaNA_1.01.02_2586_0106",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_2586_0164",
+   "group": "2586",
+   "scan": "NL-HaNA_1.01.02_2586_0164",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_2586_0062",
+   "group": "2586",
+   "scan": "NL-HaNA_1.01.02_2586_0062",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_2586_0042",
+   "group": "2586",
+   "scan": "NL-HaNA_1.01.02_2586_0042",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_2586_0039",
+   "group": "2586",
+   "scan": "NL-HaNA_1.01.02_2586_0039",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_2600_0174",
+   "group": "2600",
+   "scan": "NL-HaNA_1.01.02_2600_0174",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_2600_0005",
+   "group": "2600",
+   "scan": "NL-HaNA_1.01.02_2600_0005",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_2600_0157",
+   "group": "2600",
+   "scan": "NL-HaNA_1.01.02_2600_0157",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_2600_0257",
+   "group": "2600",
+   "scan": "NL-HaNA_1.01.02_2600_0257",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_2600_0229",
+   "group": "2600",
+   "scan": "NL-HaNA_1.01.02_2600_0229",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3433_0006",
+   "group": "3433",
+   "scan": "NL-HaNA_1.01.02_3433_0006",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3433_0140",
+   "group": "3433",
+   "scan": "NL-HaNA_1.01.02_3433_0140",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3433_0134",
+   "group": "3433",
+   "scan": "NL-HaNA_1.01.02_3433_0134",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3433_0009",
+   "group": "3433",
+   "scan": "NL-HaNA_1.01.02_3433_0009",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3433_0058",
+   "group": "3433",
+   "scan": "NL-HaNA_1.01.02_3433_0058",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3436_0113",
+   "group": "3436",
+   "scan": "NL-HaNA_1.01.02_3436_0113",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3436_0022",
+   "group": "3436",
+   "scan": "NL-HaNA_1.01.02_3436_0022",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3436_0078",
+   "group": "3436",
+   "scan": "NL-HaNA_1.01.02_3436_0078",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3436_0099",
+   "group": "3436",
+   "scan": "NL-HaNA_1.01.02_3436_0099",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3436_0110",
+   "group": "3436",
+   "scan": "NL-HaNA_1.01.02_3436_0110",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3439_0021",
+   "group": "3439",
+   "scan": "NL-HaNA_1.01.02_3439_0021",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3439_0063",
+   "group": "3439",
+   "scan": "NL-HaNA_1.01.02_3439_0063",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3439_0062",
+   "group": "3439",
+   "scan": "NL-HaNA_1.01.02_3439_0062",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3439_0020",
+   "group": "3439",
+   "scan": "NL-HaNA_1.01.02_3439_0020",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3439_0138",
+   "group": "3439",
+   "scan": "NL-HaNA_1.01.02_3439_0138",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3442_0101",
+   "group": "3442",
+   "scan": "NL-HaNA_1.01.02_3442_0101",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3442_0067",
+   "group": "3442",
+   "scan": "NL-HaNA_1.01.02_3442_0067",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3442_0097",
+   "group": "3442",
+   "scan": "NL-HaNA_1.01.02_3442_0097",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3442_0098",
+   "group": "3442",
+   "scan": "NL-HaNA_1.01.02_3442_0098",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3442_0092",
+   "group": "3442",
+   "scan": "NL-HaNA_1.01.02_3442_0092",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3445_0027",
+   "group": "3445",
+   "scan": "NL-HaNA_1.01.02_3445_0027",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3445_0174",
+   "group": "3445",
+   "scan": "NL-HaNA_1.01.02_3445_0174",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3445_0101",
+   "group": "3445",
+   "scan": "NL-HaNA_1.01.02_3445_0101",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3445_0037",
+   "group": "3445",
+   "scan": "NL-HaNA_1.01.02_3445_0037",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3445_0080",
+   "group": "3445",
+   "scan": "NL-HaNA_1.01.02_3445_0080",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3463_0006",
+   "group": "3463",
+   "scan": "NL-HaNA_1.01.02_3463_0006",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3463_0101",
+   "group": "3463",
+   "scan": "NL-HaNA_1.01.02_3463_0101",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3463_0045",
+   "group": "3463",
+   "scan": "NL-HaNA_1.01.02_3463_0045",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3463_0030",
+   "group": "3463",
+   "scan": "NL-HaNA_1.01.02_3463_0030",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3463_0166",
+   "group": "3463",
+   "scan": "NL-HaNA_1.01.02_3463_0166",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3466_0074",
+   "group": "3466",
+   "scan": "NL-HaNA_1.01.02_3466_0074",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3466_0100",
+   "group": "3466",
+   "scan": "NL-HaNA_1.01.02_3466_0100",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3466_0152",
+   "group": "3466",
+   "scan": "NL-HaNA_1.01.02_3466_0152",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3466_0068",
+   "group": "3466",
+   "scan": "NL-HaNA_1.01.02_3466_0068",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3466_0138",
+   "group": "3466",
+   "scan": "NL-HaNA_1.01.02_3466_0138",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3469_0037",
+   "group": "3469",
+   "scan": "NL-HaNA_1.01.02_3469_0037",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3469_0155",
+   "group": "3469",
+   "scan": "NL-HaNA_1.01.02_3469_0155",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3469_0157",
+   "group": "3469",
+   "scan": "NL-HaNA_1.01.02_3469_0157",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3469_0148",
+   "group": "3469",
+   "scan": "NL-HaNA_1.01.02_3469_0148",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3469_0184",
+   "group": "3469",
+   "scan": "NL-HaNA_1.01.02_3469_0184",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3472_0119",
+   "group": "3472",
+   "scan": "NL-HaNA_1.01.02_3472_0119",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3472_0005",
+   "group": "3472",
+   "scan": "NL-HaNA_1.01.02_3472_0005",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3472_0147",
+   "group": "3472",
+   "scan": "NL-HaNA_1.01.02_3472_0147",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3472_0107",
+   "group": "3472",
+   "scan": "NL-HaNA_1.01.02_3472_0107",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3472_0145",
+   "group": "3472",
+   "scan": "NL-HaNA_1.01.02_3472_0145",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3475_0010",
+   "group": "3475",
+   "scan": "NL-HaNA_1.01.02_3475_0010",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3475_0179",
+   "group": "3475",
+   "scan": "NL-HaNA_1.01.02_3475_0179",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3475_0108",
+   "group": "3475",
+   "scan": "NL-HaNA_1.01.02_3475_0108",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3475_0069",
+   "group": "3475",
+   "scan": "NL-HaNA_1.01.02_3475_0069",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3475_0095",
+   "group": "3475",
+   "scan": "NL-HaNA_1.01.02_3475_0095",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3489_0146",
+   "group": "3489",
+   "scan": "NL-HaNA_1.01.02_3489_0146",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3489_0085",
+   "group": "3489",
+   "scan": "NL-HaNA_1.01.02_3489_0085",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3489_0101",
+   "group": "3489",
+   "scan": "NL-HaNA_1.01.02_3489_0101",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3489_0004",
+   "group": "3489",
+   "scan": "NL-HaNA_1.01.02_3489_0004",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3489_0139",
+   "group": "3489",
+   "scan": "NL-HaNA_1.01.02_3489_0139",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3726_0005",
+   "group": "3726",
+   "scan": "NL-HaNA_1.01.02_3726_0005",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3726_0003",
+   "group": "3726",
+   "scan": "NL-HaNA_1.01.02_3726_0003",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3726_0007",
+   "group": "3726",
+   "scan": "NL-HaNA_1.01.02_3726_0007",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3726_0006",
+   "group": "3726",
+   "scan": "NL-HaNA_1.01.02_3726_0006",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_3726_0004",
+   "group": "3726",
+   "scan": "NL-HaNA_1.01.02_3726_0004",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_4016_0053",
+   "group": "4016",
+   "scan": "NL-HaNA_1.01.02_4016_0053",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_4016_0102",
+   "group": "4016",
+   "scan": "NL-HaNA_1.01.02_4016_0102",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_4016_0070",
+   "group": "4016",
+   "scan": "NL-HaNA_1.01.02_4016_0070",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_4016_0064",
+   "group": "4016",
+   "scan": "NL-HaNA_1.01.02_4016_0064",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_4016_0128",
+   "group": "4016",
+   "scan": "NL-HaNA_1.01.02_4016_0128",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_4792_0024",
+   "group": "4792",
+   "scan": "NL-HaNA_1.01.02_4792_0024",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_4792_0060",
+   "group": "4792",
+   "scan": "NL-HaNA_1.01.02_4792_0060",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_4792_0009",
+   "group": "4792",
+   "scan": "NL-HaNA_1.01.02_4792_0009",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_4792_0041",
+   "group": "4792",
+   "scan": "NL-HaNA_1.01.02_4792_0041",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_4792_0065",
+   "group": "4792",
+   "scan": "NL-HaNA_1.01.02_4792_0065",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_7462B_0052",
+   "group": "7462",
+   "scan": "NL-HaNA_1.01.02_7462B_0052",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_7462A_0386",
+   "group": "7462",
+   "scan": "NL-HaNA_1.01.02_7462A_0386",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_7462B_0045",
+   "group": "7462",
+   "scan": "NL-HaNA_1.01.02_7462B_0045",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_7462B_0114",
+   "group": "7462",
+   "scan": "NL-HaNA_1.01.02_7462B_0114",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_7462A_0119",
+   "group": "7462",
+   "scan": "NL-HaNA_1.01.02_7462A_0119",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8080_0028",
+   "group": "8080",
+   "scan": "NL-HaNA_1.01.02_8080_0028",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8080_0029",
+   "group": "8080",
+   "scan": "NL-HaNA_1.01.02_8080_0029",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8080_0033",
+   "group": "8080",
+   "scan": "NL-HaNA_1.01.02_8080_0033",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8080_0047",
+   "group": "8080",
+   "scan": "NL-HaNA_1.01.02_8080_0047",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8080_0031",
+   "group": "8080",
+   "scan": "NL-HaNA_1.01.02_8080_0031",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8645_0100",
+   "group": "8645",
+   "scan": "NL-HaNA_1.01.02_8645_0100",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8645_0076",
+   "group": "8645",
+   "scan": "NL-HaNA_1.01.02_8645_0076",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8645_0075",
+   "group": "8645",
+   "scan": "NL-HaNA_1.01.02_8645_0075",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8645_0092",
+   "group": "8645",
+   "scan": "NL-HaNA_1.01.02_8645_0092",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8645_0101",
+   "group": "8645",
+   "scan": "NL-HaNA_1.01.02_8645_0101",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8828A_0285",
+   "group": "8828",
+   "scan": "NL-HaNA_1.01.02_8828A_0285",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8828A_0245",
+   "group": "8828",
+   "scan": "NL-HaNA_1.01.02_8828A_0245",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8828A_0276",
+   "group": "8828",
+   "scan": "NL-HaNA_1.01.02_8828A_0276",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8828A_0208",
+   "group": "8828",
+   "scan": "NL-HaNA_1.01.02_8828A_0208",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_8828A_0121",
+   "group": "8828",
+   "scan": "NL-HaNA_1.01.02_8828A_0121",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9250_0009",
+   "group": "9250",
+   "scan": "NL-HaNA_1.01.02_9250_0009",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9250_0013",
+   "group": "9250",
+   "scan": "NL-HaNA_1.01.02_9250_0013",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9250_0005",
+   "group": "9250",
+   "scan": "NL-HaNA_1.01.02_9250_0005",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9250_0010",
+   "group": "9250",
+   "scan": "NL-HaNA_1.01.02_9250_0010",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9250_0006",
+   "group": "9250",
+   "scan": "NL-HaNA_1.01.02_9250_0006",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9252_0169",
+   "group": "9252",
+   "scan": "NL-HaNA_1.01.02_9252_0169",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9252_0577",
+   "group": "9252",
+   "scan": "NL-HaNA_1.01.02_9252_0577",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9252_0284",
+   "group": "9252",
+   "scan": "NL-HaNA_1.01.02_9252_0284",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9252_0540",
+   "group": "9252",
+   "scan": "NL-HaNA_1.01.02_9252_0540",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9252_0061",
+   "group": "9252",
+   "scan": "NL-HaNA_1.01.02_9252_0061",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9253_0253",
+   "group": "9253",
+   "scan": "NL-HaNA_1.01.02_9253_0253",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9253_0036",
+   "group": "9253",
+   "scan": "NL-HaNA_1.01.02_9253_0036",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9253_0173",
+   "group": "9253",
+   "scan": "NL-HaNA_1.01.02_9253_0173",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9253_0017",
+   "group": "9253",
+   "scan": "NL-HaNA_1.01.02_9253_0017",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9253_0041",
+   "group": "9253",
+   "scan": "NL-HaNA_1.01.02_9253_0041",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9264_0052",
+   "group": "9264",
+   "scan": "NL-HaNA_1.01.02_9264_0052",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9264_0041",
+   "group": "9264",
+   "scan": "NL-HaNA_1.01.02_9264_0041",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9264_0197",
+   "group": "9264",
+   "scan": "NL-HaNA_1.01.02_9264_0197",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9264_0132",
+   "group": "9264",
+   "scan": "NL-HaNA_1.01.02_9264_0132",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9264_0198",
+   "group": "9264",
+   "scan": "NL-HaNA_1.01.02_9264_0198",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9275_0022",
+   "group": "9275",
+   "scan": "NL-HaNA_1.01.02_9275_0022",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9275_0012",
+   "group": "9275",
+   "scan": "NL-HaNA_1.01.02_9275_0012",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9275_0006",
+   "group": "9275",
+   "scan": "NL-HaNA_1.01.02_9275_0006",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9275_0020",
+   "group": "9275",
+   "scan": "NL-HaNA_1.01.02_9275_0020",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9275_0019",
+   "group": "9275",
+   "scan": "NL-HaNA_1.01.02_9275_0019",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9396_0114",
+   "group": "9396",
+   "scan": "NL-HaNA_1.01.02_9396_0114",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9396_0035",
+   "group": "9396",
+   "scan": "NL-HaNA_1.01.02_9396_0035",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9396_0007",
+   "group": "9396",
+   "scan": "NL-HaNA_1.01.02_9396_0007",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9396_0074",
+   "group": "9396",
+   "scan": "NL-HaNA_1.01.02_9396_0074",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9396_0034",
+   "group": "9396",
+   "scan": "NL-HaNA_1.01.02_9396_0034",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9448_0152",
+   "group": "9448",
+   "scan": "NL-HaNA_1.01.02_9448_0152",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9448_0059",
+   "group": "9448",
+   "scan": "NL-HaNA_1.01.02_9448_0059",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9448_0172",
+   "group": "9448",
+   "scan": "NL-HaNA_1.01.02_9448_0172",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9448_0073",
+   "group": "9448",
+   "scan": "NL-HaNA_1.01.02_9448_0073",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9448_0046",
+   "group": "9448",
+   "scan": "NL-HaNA_1.01.02_9448_0046",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9449_0038",
+   "group": "9449",
+   "scan": "NL-HaNA_1.01.02_9449_0038",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9449_0026",
+   "group": "9449",
+   "scan": "NL-HaNA_1.01.02_9449_0026",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9449_0008",
+   "group": "9449",
+   "scan": "NL-HaNA_1.01.02_9449_0008",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9449_0120",
+   "group": "9449",
+   "scan": "NL-HaNA_1.01.02_9449_0120",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9449_0144",
+   "group": "9449",
+   "scan": "NL-HaNA_1.01.02_9449_0144",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9486_0033",
+   "group": "9486",
+   "scan": "NL-HaNA_1.01.02_9486_0033",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9486_0008",
+   "group": "9486",
+   "scan": "NL-HaNA_1.01.02_9486_0008",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9486_0020",
+   "group": "9486",
+   "scan": "NL-HaNA_1.01.02_9486_0020",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9486_0026",
+   "group": "9486",
+   "scan": "NL-HaNA_1.01.02_9486_0026",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9486_0013",
+   "group": "9486",
+   "scan": "NL-HaNA_1.01.02_9486_0013",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9487_0017",
+   "group": "9487",
+   "scan": "NL-HaNA_1.01.02_9487_0017",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9487_0075",
+   "group": "9487",
+   "scan": "NL-HaNA_1.01.02_9487_0075",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9487_0101",
+   "group": "9487",
+   "scan": "NL-HaNA_1.01.02_9487_0101",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9487_0199",
+   "group": "9487",
+   "scan": "NL-HaNA_1.01.02_9487_0199",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9487_0182",
+   "group": "9487",
+   "scan": "NL-HaNA_1.01.02_9487_0182",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9634_0008",
+   "group": "9634",
+   "scan": "NL-HaNA_1.01.02_9634_0008",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9634_0004",
+   "group": "9634",
+   "scan": "NL-HaNA_1.01.02_9634_0004",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9634_0014",
+   "group": "9634",
+   "scan": "NL-HaNA_1.01.02_9634_0014",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9634_0011",
+   "group": "9634",
+   "scan": "NL-HaNA_1.01.02_9634_0011",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_9634_0010",
+   "group": "9634",
+   "scan": "NL-HaNA_1.01.02_9634_0010",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12163_0300",
+   "group": "12163",
+   "scan": "NL-HaNA_1.01.02_12163_0300",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12163_0107",
+   "group": "12163",
+   "scan": "NL-HaNA_1.01.02_12163_0107",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12163_0014",
+   "group": "12163",
+   "scan": "NL-HaNA_1.01.02_12163_0014",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12163_0308",
+   "group": "12163",
+   "scan": "NL-HaNA_1.01.02_12163_0308",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12163_0366",
+   "group": "12163",
+   "scan": "NL-HaNA_1.01.02_12163_0366",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12165_0102",
+   "group": "12165",
+   "scan": "NL-HaNA_1.01.02_12165_0102",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12165_0162",
+   "group": "12165",
+   "scan": "NL-HaNA_1.01.02_12165_0162",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12165_0038",
+   "group": "12165",
+   "scan": "NL-HaNA_1.01.02_12165_0038",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12165_0113",
+   "group": "12165",
+   "scan": "NL-HaNA_1.01.02_12165_0113",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12165_0351",
+   "group": "12165",
+   "scan": "NL-HaNA_1.01.02_12165_0351",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12297_0007",
+   "group": "12297",
+   "scan": "NL-HaNA_1.01.02_12297_0007",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12297_0042",
+   "group": "12297",
+   "scan": "NL-HaNA_1.01.02_12297_0042",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12297_0035",
+   "group": "12297",
+   "scan": "NL-HaNA_1.01.02_12297_0035",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12297_0048",
+   "group": "12297",
+   "scan": "NL-HaNA_1.01.02_12297_0048",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12297_0036",
+   "group": "12297",
+   "scan": "NL-HaNA_1.01.02_12297_0036",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12476_0029",
+   "group": "12476",
+   "scan": "NL-HaNA_1.01.02_12476_0029",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12476_0097",
+   "group": "12476",
+   "scan": "NL-HaNA_1.01.02_12476_0097",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12476_0129",
+   "group": "12476",
+   "scan": "NL-HaNA_1.01.02_12476_0129",
+   "verdict": "handwritten",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12476_0136",
+   "group": "12476",
+   "scan": "NL-HaNA_1.01.02_12476_0136",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12476_0107",
+   "group": "12476",
+   "scan": "NL-HaNA_1.01.02_12476_0107",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12477_0004",
+   "group": "12477",
+   "scan": "NL-HaNA_1.01.02_12477_0004",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12477_0011",
+   "group": "12477",
+   "scan": "NL-HaNA_1.01.02_12477_0011",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12477_0019",
+   "group": "12477",
+   "scan": "NL-HaNA_1.01.02_12477_0019",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12477_0013",
+   "group": "12477",
+   "scan": "NL-HaNA_1.01.02_12477_0013",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12477_0009",
+   "group": "12477",
+   "scan": "NL-HaNA_1.01.02_12477_0009",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12478_0130",
+   "group": "12478",
+   "scan": "NL-HaNA_1.01.02_12478_0130",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12478_0051",
+   "group": "12478",
+   "scan": "NL-HaNA_1.01.02_12478_0051",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12478_0005",
+   "group": "12478",
+   "scan": "NL-HaNA_1.01.02_12478_0005",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12478_0138",
+   "group": "12478",
+   "scan": "NL-HaNA_1.01.02_12478_0138",
+   "verdict": "printed",
+   "note": ""
+  },
+  {
+   "id": "NL-HaNA_1.01.02_12478_0013",
+   "group": "12478",
+   "scan": "NL-HaNA_1.01.02_12478_0013",
+   "verdict": "printed",
+   "note": ""
+  }
+ ],
+ "groups": {
+  "2586": {
+   "printed": 4,
+   "handwritten": 1
+  },
+  "2600": {
+   "printed": 2,
+   "handwritten": 3
+  },
+  "3433": {
+   "handwritten": 5
+  },
+  "3436": {
+   "handwritten": 5
+  },
+  "3439": {
+   "handwritten": 5
+  },
+  "3442": {
+   "handwritten": 5
+  },
+  "3445": {
+   "handwritten": 5
+  },
+  "3463": {
+   "handwritten": 5
+  },
+  "3466": {
+   "handwritten": 5
+  },
+  "3469": {
+   "handwritten": 5
+  },
+  "3472": {
+   "handwritten": 5
+  },
+  "3475": {
+   "handwritten": 5
+  },
+  "3489": {
+   "handwritten": 5
+  },
+  "3726": {
+   "handwritten": 5
+  },
+  "4016": {
+   "printed": 3,
+   "handwritten": 2
+  },
+  "4792": {
+   "handwritten": 5
+  },
+  "7462": {
+   "printed": 4,
+   "handwritten": 1
+  },
+  "8080": {
+   "printed": 5
+  },
+  "8645": {
+   "printed": 5
+  },
+  "8828": {
+   "printed": 5
+  },
+  "9250": {
+   "printed": 4,
+   "handwritten": 1
+  },
+  "9252": {
+   "printed": 5
+  },
+  "9253": {
+   "printed": 5
+  },
+  "9264": {
+   "handwritten": 2,
+   "printed": 3
+  },
+  "9275": {
+   "printed": 5
+  },
+  "9396": {
+   "printed": 5
+  },
+  "9448": {
+   "printed": 5
+  },
+  "9449": {
+   "printed": 5
+  },
+  "9486": {
+   "printed": 5
+  },
+  "9487": {
+   "printed": 5
+  },
+  "9634": {
+   "printed": 5
+  },
+  "12163": {
+   "printed": 5
+  },
+  "12165": {
+   "printed": 5
+  },
+  "12297": {
+   "handwritten": 5
+  },
+  "12476": {
+   "printed": 4,
+   "handwritten": 1
+  },
+  "12477": {
+   "printed": 5
+  },
+  "12478": {
+   "printed": 5
+  }
+ }
+}

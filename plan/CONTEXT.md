@@ -4,9 +4,9 @@
 > Implementation sessions do not read it: a brief copies in the facts it needs from here. Each phase
 > review updates it, so briefs start from the code as it is, not as it was planned. Keep it under
 > ~150 lines. History belongs in the phase `PROGRESS.md` files.
-> **Last updated:** 2026-10-27, review of phase 11 (Opus).
+> **Last updated:** 2026-10-28, review of phase-12 step 15yr (Opus).
 
-## 1. Text layer v2/v3/v4: what exists now (after phase 12 and its addenda 15wr, 15x)
+## 1. Text layer v2/v3/v4: what exists now (after phase 12 and its addenda 15wr–15z)
 
 - **CLI:** `.venv/bin/as-build-text-layer --preset sg_1.01.02_v3|sg_1.10.94_v3|sg_1.01.02_v4|sg_1.10.94_v4
   --pagexml-dir D --out-dir O --stage all` (extract → layout → types → units → wbc → join; each stage also runs alone;
@@ -23,23 +23,28 @@
     `LayerPreset.mode_overrides[mode]` (whole fields; other keys raise). `sg_1.01.02_v4`: `volume_mode["split_gate"]` =
     `SPLIT_GATE_V4` (`modes.column_start_share` ≥ 0.35 or unmeasurable → split; 15wr, P16) and `mode_overrides` print
     `unit_params` with `drop_cap_lines=2` (an `indent`-only print cut within 2 main lines of the last kept cut is dropped;
-    15x, P18; `UnitParams.to_dict` omits the key when `None`). 1.10.94 has neither;
+    15x, P18; `UnitParams.to_dict` omits the key when `None`) and `volume_mode["pins"]` = `MODE_PINS_V4` (16 read volumes:
+    14 index volumes → `hand`, *plakkaten* 12163/12165 → `print`; method `pinned`, measured result kept; 15y/15z, P24, P28).
+    1.10.94 has none of these;
   - `VOC_V1`: byte-identical to NLP's v1 (`TOTAL 157 / 157`, command in step 15j's brief).
-- **v4 build** (`text_layer/modes.py`): extract pre-pass (`line_split.prepass_rows`, raw rows) → `decide_mode` →
-  `mode/<inv>.json` (+ `mode/scans/`, `mode/regions/`) → extract with the mode's rules; later stages read the mode
-  (`read_mode`); `layout/types/units/params.json` = `{"hand": …, "print": …}`. Run kit
-  `scripts/run_text_layer_v4_full.py` (`--src ARCHIVE=DIR`, log `run_v4.log`, audit at the end).
+- **v4 build** (`text_layer/modes.py`): pre-pass (`line_split.prepass_rows`, raw rows) → `decide_mode(rows, preset, inv)` →
+  `mode/<inv>.json` (+ `scans/`, `regions/`) → extract with the mode's rules; later stages `read_mode`; `*/params.json` =
+  `{"hand": …, "print": …}`. Every v2 stage skips an inventory whose done row is newer than its upstream's latest row
+  (`build.is_current`, 15y) and skips one whose upstream chain has a last row not `done` (`upstream_ok`, 15yr); sizes come
+  from recorded extract rows (`recorded_sizes`). Run kit `scripts/run_text_layer_v4_full.py` (`--src`, `--rebuild ARCHIVE=F`,
+  `THROUGHPUT_V4` with whole-layer terms; no `--estimate`; extract rows time the whole call since 15yr, older rows × 1.817);
+  `scripts/stage_text_layer_v4_full.py` stages a drive run's tables and mirrors deletions (cap 100).
 - **Layers:**
-  - dev: `data/text_layer_v2_dev/<step>-<letter>/`, one per run, never overwritten. `15m-a/{hand,print}` (v3),
-    `15v-a` (v4, 16 volumes), `15w-a` (v4, 196 + 2 local volumes; has the F12-R.4 split defect), `15wr-a` (+ split gate),
-    **`15x-a` (+ drop-cap rule): the reviewed v4 dev reference**, all protected. Staged tars are linked
-    from `data/text_layer_v4_staged/NL-HaNA_1.01.02/` (182);
-  - published, never rebuilt (D17): `text_layer_v2` (= `15i-b`) and the `text_layer_v3` pilot (15o, = `15n-a`). Both run
-    the hand rules on the printed 3771–3773, 3821–3823 (known-gap notes). No v4 layer is published (UA-025).
+  - dev (`data/text_layer_v2_dev/`, one dir per run, protected): `15m-a` (v3), `15v-a`, `15w-a`, `15wr-a`, `15x-a`,
+    **`15y-b` (`15x-a` + 3463 pinned): the v4 dev reference**, `15y-a`, `15z-a`/`15z-b` (the 37 read volumes before/after
+    pins). Tars linked from `data/text_layer_v4_staged/NL-HaNA_1.01.02/` (182) and `data/text_layer_v4_staged_15z/` (37);
+  - full v4 run (UA-024, pins rebuilt UA-035) on the user's drive only (39 GiB; 266 `print`, 8,856 `hand`); the staged
+    `data/text_layer_v4_full/` has its status, `mode/`, `scans/`, `wbc/`, `audit.json`, 22 volumes (+ 24 stale split files);
+  - published, never rebuilt (D17): `text_layer_v2` (= `15i-b`), the `text_layer_v3` pilot (15o, = `15n-a`), and the
+    `text_layer_v4` pilot (= `15y-b`, 196 + 2 volumes; equal to the full run on those, UA-038).
 - **Audit tooling:** v4 `reports/data/phase-12-hand-print-box-height/step-15w/audit.py --layer <base> --out F`
-  (discovers sub-layers, inventories, sources; v4 `mode/` invariants; `--self-test`). Older: phase-09
-  `step-15m/{audit,rows116}.py`, metrics in `reports/data/phase-09-text-layer-v3-prep/planning/` (`compare`, `protect`, …);
-  phase-12 comparer `step-15v/compare.py` (`--sub-map`, `--ignore-paths`, `--explained-invs`).
+  (`mode/` invariants incl. `pinned`; `--self-test`; keys `<archive>/<inv>`; built = every layer stage's last row done). Comparer `step-15v/compare.py`
+  (`--sub-map`, `--explained-invs`); phase-09 `planning/` metrics (`compare`, `protect`, …).
 - **`analysis/hand_print.py`:** `hrel` (phase 10, negative) and the box-height API (15u: `BoxHeightParams`,
   `volume_box_height`, `scan_box_heights`, `fit_box_height_cut`, `box_height_mode`). Caches `data/hand_print_geom/15q-a/`,
   `15u-a/` (protected).
@@ -49,8 +54,8 @@
 
 **Layout** (`analysis/page_structure.py`, `text_layer/layout.py`):
 - Line order (15j, P4): merges and column-split pieces sort by printed row (`line_sort="row"`, rows within 0.2 ×
-  median box h, then x); print `unchanged` regions too (`sort_unchanged_lines`); hand keeps XML order. 26 same-row
-  swaps remain (F09-15j.4).
+  median box h, then x); print `unchanged` regions too (`sort_unchanged_lines`); hand keeps XML order, which interleaves
+  two-column hand regions (≥ 0.6% of hand units, F12-R.22). 26 same-row swaps remain (F09-15j.4).
 - Gutter rule `auto`: `gap` when ≥ 95% of openings have a gap (3354, 3771–3823, 455, 456), else `main_edge` (D6).
 - **Hand runs without region merges** (`merge=False`, F07-15fq.3). Print regions are split on the line `column` field
   (missing = one group); the column merge guard is on by default (15fq2). The interleave guard is bridged in 55 print
@@ -103,25 +108,23 @@ presets; `join_upper_guard` exists but is off (F09-15l.4).
 
 ## 4. Open follow-ups for the next phase
 
-From phase 12 (reviewed 2026-10-25; 15wr, 15x reviewed 2026-10-26; phase done):
-- The user's UA-024 (full v4 run; cost constants from 15wr, unchanged by 15x), UA-025 (pilot from `15x-a` or none),
-  UA-029 (drop-cap rule in the single-column series; (b) would be a small step gating the override on
-  `split_gate.split`, (d) a letter-part exception with its own read bar).
-- UA-028 (a), phase-12 P21: after the full v4 run, a step lists every `print` volume outside the printed EAD series,
-  reads them, pins the handwritten ones to `hand` (per-inventory pin in the v4 preset) and rebuilds only those (the
-  list also checks scan-resolution shifts, F12-R.1). No EAD title rule in the build.
-- Fit a throughput model from the full run's `status.tsv`.
+From phase 12 (reviewed 2026-10-25; addenda 15wr, 15x reviewed 2026-10-26; 15y, 15z reviewed 2026-10-27):
+- Phase done (15yr reviewed 2026-10-28); release v0.17.0. The 24 stale split files in `data/text_layer_v4_full` go with the
+  user's next staging. A per-mode extract fit would predict print-heavy subsets better (+12% on `15x-a`, F12-15yr.4).
+- **Register and index volumes (next text-layer phase).** Hand units are PageXML regions, and two-column hand regions keep
+  XML line order: ≥ 0.6% of hand units interleave columns, mostly *tweede serie* registers (427 volumes) and indexes (F12-R.22;
+  `review/review_15yz.py interleave_hand`); hand-pinned indexes are under-segmented, print `short_prev` cuts fit entries better
+  (F12-R.21, F12-15z.3). Candidates: row-sort and column-split two-column hand regions; an entry cut for index pages. Read bars
+  fixed in advance; a fix ships as a new layer version (D17). Also open: parallel layout/types/units (P29, 55% of stage spans);
+  mixed volumes 4016, 2600, 9264 stay as built (UA-036 (a)); text reads agreed with images on 175/176 scans (F12-15z.7).
 
 From phase 09: hand-bottom off-chain page numbers (8 `unclear` rows, F09-R.5); `_pn_candidate` should pick the band
 number that fits the chain; a mark rule for capitals, then re-test `g_upper_right` (F09-15l.5); pagexml-tools 0.9.1 pin
 (UA-007). Phase 08: LotA duplicate filter (F08-R.1); phase-11 candidates F08-R.2, F08-17b.2.
 
-From phase 11 (reviewed 2026-10-27): NLP's AS is a **non-editable 0.13.0 copy** in `venv/`; UA-032 (editable install)
-gates a shim step (NLP `unsupervised_segmentation.py` → re-export of the five ported names, `separator_sheets.py` →
-AS module; `early_end_extract_body.py` may use `region_types`). Checks against NLP run with `cd NLP &&
-PYTHONNOUSERSITE=1 PYTHONPATH=<AS> venv/bin/python …` (no install needed). Open: TextTiling edge padding (F11-R.2, only
-with that shim and an NLP re-run); catch-word flag as an END feature for NLP (F11-R.1); F08-R.2, F08-17b.2 (P8); republic
-`docs/from-republic.md` §8 items 2–3 and §10 (mid-session start lines; a `session` layer is partial).
+From phase 11 (released v0.16.0): the NLP shim step is unblocked (UA-032; NLP `unsupervised_segmentation.py` and
+`separator_sheets.py` → AS; `early_end_extract_body.py` may use `region_types`; check with `cd NLP && PYTHONNOUSERSITE=1
+PYTHONPATH=<AS> venv/bin/python …`). Open: F11-R.1, F11-R.2, F08-R.2, F08-17b.2; republic `docs/from-republic.md` §8, §10.
 
 ## 5. Planning notes: recurring brief defects
 
@@ -143,13 +146,17 @@ with that shim and an NLP re-run); catch-word flag as an END feature for NLP (F1
   (F10-R.2). A failed ratio feature: report numerator and denominator before naming a cause (F10-R.1). Give every
   harness subcommand its own output prefix.
 - **Say whether a rule reads the line or the segment text** (15k).
-- **Hand-read bars work** (phases 09, 12): fixed before reading, one verdict file each, an `unclear` rule, the reader's
-  context named. Draw the read list in the planning/review session when the step would otherwise draw it from the
-  output of the rule it judges (`review/reads_15wr.tsv`, `reads_15x.tsv`).
+- **Hand-read bars work** (phases 09, 12): fixed before reading, one verdict file each, an `unclear` rule, an `unreadable
+  input` verdict outside the precision denominator (F12-R.15), the reader's context named; the planner draws the read list
+  when the step would draw it from the output it judges.
 - **When rules move to a new series, read every stage's output that can fail there, per series** (F12-R.7): 15w read
   units of the *nouvelles* but no split lines, and the structural audit passed on a million wrong splits.
 - **Selected volumes are not a sample:** UA-017's volumes were chosen as contradictions; do not turn their error rate
   into a corpus rate (F12-15w.5 → F12-R.5).
 - **A brief that asks for both "reported only" and a pass/fail count** contradicts itself (15w audit); say which.
-- **Give read bars an `unreadable input` verdict** apart from `unclear` and `wrong`, reported separately and left out
-  of the precision denominator (F12-R.15): 15x's *plakkaten* trigger fired on four unreadable fragments.
+- **Validate a fitted model on held-out units, not on the sums it was fitted to** (OLS with an intercept reproduces its own
+  sums; F12-R.18), and **check what a timing column covers before modelling it** (v4 extract `seconds` left out the pre-pass,
+  F12-R.17). A brief that says a command does *not* read something must have checked it (15y: "the other sources are not read").
+- **The session publishes AS layers in `shared-data/` itself** (user, 2026-10-27): copy/delete the layer data, edit
+  `README.md`; whether to publish or replace stays a Decide UA. Before a delete: look, check write access and sibling links,
+  `rm -r` the exact path; after a copy: `chmod -R g+w`, `diff -rq`, changelog line. Only AS's own layers.

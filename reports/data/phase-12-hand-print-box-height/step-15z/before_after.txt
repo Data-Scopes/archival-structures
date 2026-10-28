@@ -1,0 +1,829 @@
+
+######## 12163  first read 39  NL-HaNA_1.01.02_12163_0300
+--- 15z-a: 4 units (2 main_text)
+[main_text] aggebracht, nomme dater van een generelle conttuctie te maken gekrick oock dient-volgende gedaent en by den voornoemden 4ospan van Geldenbarnevelt ingestelt is ende voorts in een monbelinge generale conclutie nebracht; de scharpe resolutie vanBent biernen Mugusti 1617. by de melcke de behelen vande orditarta Juistitie tegihen heut voorsz voor nemen berleent werklaert werden nut ende van onmaerden ende de Aagistraten vanbe Steden gljestijft die wet te guehporsamtent ende voorts Alleauthoriseert, omme heur selven te moghen stercken met nieu ghewapent Artinhs-Belck, bn elck van beniluuden te lachten in geuren particulieren ende besonderen Eedt, buyten Den ggeneynen Eedt vande Bondt-afenaten: ende daer by viede alle Offictieren Austicieren, ende die inden Godt vanden Rarnde van Hollandt zijn op heuren Eedt geastringeert werden 1de selve resolutie te moeten helpen uytvoeren: en voorts oock geordonneert, dat alle Oversten Capiteynen Officieren einde Soldaten van tordinaris Krtighs-haldlt ernstelijck belast ende beholen sal werden, de Heeren Staten vande partitilliers respective Brovintien beure betaels-Heeren, ende de Aagistraten vande Steden daer sy in Garnisoen gebruyckt werden niet tegent staende eenighe andere bevelen) ghettou ende gnehoorsaem te wesen op penne van cassatie. Waer op Brevolght is datmen de Justitie noch vorder heeft beginnen rergen te staen, ende dat op den Saaem vande Aeagistraet van Baerlem by ovenbare priblicatie, met kennisse van hem Gebanghen ingtgestelt, ende by hem alrevisiteert wesende, den Boogtgen Ratde in Bollandt in heure Persoonen voor wedersjoorighe, ende als alsedaen gebiuende tegsen heute Gere ende Gedts ende heuwe Seutentien voog nut zijn verklaert geweest, om dat se Justitie geeadministreert hadden aen eenighe Bersoonen die klaechden tenben recht gheoxpresseert te wesen, daer op mede alyevolght is dat de Aagistraten vande voortz acht Steden, op dibersche aenmantingen heur gedaen byy den woornoemden Johan van Oldenbarnevelt, van wel op haer
+[catch_word] hoede
+[main_text] goede te wesen, ende op hare verseeckertshjent te letten, nieuw glgeuapent, ende onder Bembelen ghedresseert Keringhys-bolck getlben aengggenomen, ofte die sy te vooren aengenomen hadden verandert, ende verkterckt, ende dat in elex geuren particulieren ende besonderen Gedtimet uytsluwtinghe vande Genexalliteyt ende sijne Ercell als Capiteyn Generaelsende met last de bevelen vande respective Aagistraten alleen te alehoorsamen teghens allen ende eenen peglheltijckem, oock selfs teghen de Generaliteyt ende sijn Extell als de voornoemde Aengiltraten meynen souden by de selve pet voorgenomen te wernerer dat spachten souden tegen heue recht ende briheyt te krecken. Dat sn Opevangen mede aengenomen heeft te voorts vermaninge vanden voornoemden Johan van OldenBarnevelt ende toeghestaen dat tot Rotterdam ahelwike lichtinghen zijn abedaen : ahelijck mede dat in ktrachte vande voogs resolutie Commissarisen naer den Briele zijn ghesonden buyten weten van sijn Excell als Capiteyn Generael, ont tordinaris Krtighs-Bolck daer in Barnisoen leggende, te bringhen totten voor-verhaelden Eedt, ofte die te casseren. Dat hem Gevangen wel kennelijck is gheweest, dat twoorlz nieu afjewapent Artians-bolck niet en is gfhelicht ghgeweest alleen tenen populaite factien, soo om dat de selve mede aljelicht zijn bp die vander Goude, ende Hoorn, daer gheen populdaute factien en stonden te vreesen, als mede tot Utrecht, daer de Stadt tzedert den Aave sesthien-hondert thien tegen alle popullaire factien met eensterck Garnisoen was belethi ende dat die van Botterdam ende Utrecht heure nieuwe Doldaten totgesonden hebben, om de Stadt van Schoonhoven, naer twee Compagnien vande Generaliteyt in garnisoen laghen, mede voor heurefactie te verseeckeren. Oljetick yn Gevangen mede ansenoocht heeft eenigige vaeude Broetschap van Delft te induceren, datse mede nieuuw Artighs-bolcksouden behooren te lichten, ende dat tot atweeringhe van poyulatte factien soo grooten aeetal nieuwe Soldaten niet vant noode
+[catch_word] E
+--- 15z-b: 5 units (3 main_text)
+[main_text] aggebracht, nomme dater van een generelle conttuctie te maken gekrick oock dient-volgende gedaent en by den voornoemden 4ospan van Geldenbarnevelt ingestelt is ende voorts in een monbelinge generale conclutie nebracht; de scharpe resolutie vanBent biernen Mugusti 1617. by de melcke de behelen vande orditarta Juistitie tegihen heut voorsz voor nemen berleent werklaert werden nut ende van onmaerden ende de Aagistraten vanbe Steden gljestijft die wet te guehporsamtent ende voorts Alleauthoriseert, omme heur selven te moghen stercken met nieu ghewapent Artinhs-Belck, bn elck van beniluuden te lachten in geuren particulieren ende besonderen Eedt, buyten Den ggeneynen Eedt vande Bondt-afenaten: ende daer by viede alle Offictieren Austicieren, ende die inden Godt vanden Rarnde van Hollandt zijn op heuren Eedt geastringeert werden 1de selve resolutie te moeten helpen uytvoeren: en voorts oock geordonneert, dat alle Oversten Capiteynen Officieren einde Soldaten van tordinaris Krtighs-haldlt ernstelijck belast ende beholen sal werden, de Heeren Staten vande partitilliers respective Brovintien beure betaels-Heeren, ende de Aagistraten vande Steden daer sy in Garnisoen gebruyckt werden niet tegent staende eenighe andere bevelen) ghettou ende gnehoorsaem te wesen op penne van cassatie. Waer op Brevolght is datmen de Justitie noch vorder heeft beginnen rergen te staen, ende dat op den Saaem vande Aeagistraet van Baerlem by ovenbare priblicatie, met kennisse van hem Gebanghen ingtgestelt, ende by hem alrevisiteert wesende, den Boogtgen Ratde in Bollandt in heure Persoonen voor wedersjoorighe, ende als alsedaen gebiuende tegsen heute Gere ende Gedts ende heuwe Seutentien voog nut zijn verklaert geweest, om dat se Justitie geeadministreert hadden aen eenighe Bersoonen die klaechden tenben recht gheoxpresseert te wesen, daer op mede alyevolght is dat de Aagistraten vande voortz acht Steden, op dibersche aenmantingen heur gedaen byy den woornoemden Johan van Oldenbarnevelt, van wel op haer
+[catch_word] hoede
+[main_text] goede te wesen, ende op hare verseeckertshjent te letten, nieuw glgeuapent, ende onder Bembelen ghedresseert Keringhys-bolck getlben aengggenomen, ofte die sy te vooren aengenomen hadden verandert, ende verkterckt, ende dat in elex geuren particulieren ende besonderen Gedtimet uytsluwtinghe vande Genexalliteyt ende sijne Ercell als Capiteyn Generaelsende met last de bevelen vande respective Aagistraten alleen te alehoorsamen teghens allen ende eenen peglheltijckem, oock selfs teghen de Generaliteyt ende sijn Extell als de voornoemde Aengiltraten meynen souden by de selve pet voorgenomen te wernerer dat spachten souden tegen heue recht ende briheyt te krecken. Dat sn Opevangen mede aengenomen heeft te voorts vermaninge vanden voornoemden Johan van OldenBarnevelt ende toeghestaen dat tot Rotterdam ahelwike lichtinghen zijn abedaen : ahelijck mede dat in ktrachte vande voogs resolutie Commissarisen naer den Briele zijn ghesonden buyten weten van sijn Excell als Capiteyn Generael, ont tordinaris Krtighs-Bolck daer in Barnisoen leggende, te bringhen totten voor-verhaelden Eedt, ofte die te casseren. Dat hem Gevangen wel kennelijck is gheweest, dat twoorlz nieu afjewapent Artians-bolck niet en is gfhelicht ghgeweest alleen tenen populaite factien, soo om dat de selve mede aljelicht zijn bp die vander Goude, ende Hoorn, daer gheen populdaute factien en stonden te vreesen, als mede tot Utrecht, daer de Stadt tzedert den Aave sesthien-hondert thien tegen alle popullaire factien met eensterck Garnisoen was belethi ende dat die van Botterdam ende Utrecht heure nieuwe Doldaten totgesonden hebben, om de Stadt van Schoonhoven, naer twee Compagnien vande Generaliteyt in garnisoen laghen, mede voor heurefactie te verseeckeren. Oljetick yn Gevangen mede ansenoocht heeft eenigige vaeude Broetschap van Delft te induceren, datse mede nieuuw Artighs-bolcksouden behooren te lichten, ende dat tot atweeringhe van poyulatte factien soo grooten aeetal nieuwe Soldaten niet vant
+[main_text] noode
+[catch_word] E
+
+######## 12165  first read 4  NL-HaNA_1.01.02_12165_0102
+--- 15z-a: 19 units (2 main_text)
+[index] 578
+[index] aenrvom 0 123 306: 348: 45 153e11 35 15 3000 mitdoven ven vrandgodaeniaan l- 504
+[index] vne resnteensen twoederdad, vennogtes woarp weruntoerds winien
+[index] 1140 18 1000 midtsin wamedre wann srdinns uut e Mitaadnztee ater vaveore vaneeeht rs
+[index] al gest vn daerop & een tre oere notere aeprass onevrn va drende rap 581151 17851 C s A gietuete  ad a erroligner
+[index] 30
+[page_number] 3
+[index] edaeal e aan wotturAr1 1
+[index] 4
+[index] 1345 54
+[index] Aerotis 11 Mi
+[index] aedocoet vooosgdere voeeeandere 5851445105158 3400
+[index] arto1 namaiia-
+[index] 3
+[index] ventiere de
+[running_header] PPACAET
+[main_text] Decerode Bsoroese ectde 5elog. Heeren Staten Generael der Mereenighde Aederlanden, Zegens 't'ontfanghen ende uytgeven vande woorsche ende Branden burchsche Dorden van Rijcxdaelers. eseche despesheeff
+[main_text] oden e NNSSRANENAAbtE, Byde Weduwe, en Erfgenamen van wijlen Hillebrandt Jacobsszvan Wouw, Ordinaris Druckers vande Ho:Mo: Heeren Staten Generael. Anno 1632. Met Privilegie.
+[page_number] 28.
+--- 15z-b: 22 units (5 main_text)
+[index] 578
+[index] aenrvom 0 123 306: 348: 45 153e11 35 15 3000 mitdoven ven vrandgodaeniaan l- 504
+[index] vne resnteensen twoederdad, vennogtes woarp weruntoerds winien
+[index] 1140 18 1000 midtsin wamedre wann srdinns uut e Mitaadnztee ater vaveore vaneeeht rs
+[index] al gest vn daerop & een tre oere notere aeprass onevrn va drende rap 581151 17851 C s A gietuete  ad a erroligner
+[index] 30
+[page_number] 3
+[index] edaeal e aan wotturAr1 1
+[index] 4
+[index] 1345 54
+[index] Aerotis 11 Mi
+[index] aedocoet vooosgdere voeeeandere 5851445105158 3400
+[index] arto1 namaiia-
+[index] 3
+[index] ventiere de
+[running_header] PPACAET
+[main_text] Decerode Bsoroese ectde 5elog. Heeren Staten Generael der Mereenighde Aederlanden, Zegens 't'ontfanghen ende uytgeven vande woorsche ende Branden
+[main_text] burchsche Dorden van Rijcxdaelers.
+[main_text] eseche despesheeff
+[main_text] oden e NNSSRANENAAbtE, Byde Weduwe, en Erfgenamen van wijlen Hillebrandt Jacobsszvan Wouw, Ordinaris Druckers vande Ho:Mo: Heeren Staten Generael. Anno 1632.
+[main_text] Met Privilegie.
+[page_number] 28.
+
+######## 12297  first read 9  NL-HaNA_1.01.02_12297_0007
+--- 15z-a: 36 units (27 main_text)
+[main_text] Jacob de Bie greffuer vande Adm: de Hoorn. 12 mey 1589. Willem van Neck secretaris 5 bet 1597.
+[main_text] Mr Johan van Neck. 14 April 1625. Willem van nech. 2 dec: 1652. Johan, Horius
+[main_text] 30 dec: 1975: Jacob Zeeman subst: Secreba„ 9is, 16 n0v: 1677.
+[main_text] =Connelis de groot 19 1o7: 1676. Willem vander Beeck Weede. secretaris. 6 Aug: 1680. Johan Akerlaken substitut secretaris. 27 oct: 1690.
+[main_text] Pister Houting, 8 Junij 1697. Albert Vlaack. 11 Sept 1700. Jan van Akerlaken. 8 Jan 711. Tosias van Bredenhof. 9 dec: 1712. In vancois de Vicq. 6aug: 1129.
+[main_text] Ontfangers Generaal.
+[main_text] Jan, Clatsfen noortland.
+[main_text] Lucas Gerrits 14 may 1616.
+[main_text] Jacob L. ucass. syn Soom. 3 July 1620. san Jacob se Compostel. 27 nov: 1640. Jacob Compostel 3 dec: 1653. mr Jan van Heck, 13 n0v: 1673. Jacob Compostel. 27 bec: 1681. Augustinus Duyvens. 4 Juny 1693. Grrancois duyvenz.. Aug: 1714.
+[marginalia] Secretarissen.
+[marginalia] Admiraliteit in 't Noorderq:
+[main_text] dr. Nicolaes Goelesen. 27 des. 1997. Mr Pieter Boulisz. 10 feb: 1615. mr 8anning Keyser, 5 Oct 1650. Mr Hermant de Groot. 24 april 1655. meynart sonck. 14 Nov: 1669. Jacob van sander
+[date_header] 22 october 1675
+[main_text] simon slaack 8 Jan: 1711.
+[main_text] Commisen Generaal
+[main_text] Lucas Siberti. 21 April 1596. nader 14 Juny 1597.
+[main_text] lWoultuyn Capeten op den Uitlegger van de Adm: in het Noorderq. 15 may 1725 Nobelingh. 12 dec:. 1739.
+[main_text] commis van de gebroke Lasten
+[date_header] 3 Aug: 1690.
+[main_text] Genit Willinck. Claas Reyer
+[date_header] 24 Sept: 1712
+[main_text] Pieter Weverlint 16546: 1758.
+[marginalia] Episcaals.
+[main_text] admiraliteit in Vriesland
+[main_text] Johannes sadama. 1
+[main_text] Rembertum Sycxsma, 20 may 1600. Mr Meynaert Scheltens. 24 April 1603. Mr Schelto Aitsma, adjunct van
+[main_text] meynardus aitsma. 7 April 1631. Adgerius aduus 4 July 1653. J'acob van gemmenich. 24 Aug 1670. Jacob vander Wayen, 26 Maert 1667. Dancker Htempevaar 22 Maart 1688 Coert van Beyema
+[main_text] Julius Malthys van Beyema 30 octo: 1745.
+[main_text] Ontfangers Generaal.
+[main_text] Jacob. Jocobs. 29 dec: 1621.
+[main_text] Johan van Runnia, 21 8ct 1636. Wophe Faber. 21 Maert 1650. Sybrand Baerd 22 April 1652. Barold Anok. 27 Maert 1687. Alexander Wiedenburg 6 Jan: 1699. suco Wiedenburg. 9 Nov: 144 setze van Sminia 30 May 1721. Piter Peerent van Wiedenbaug. 9e. Maert 1706.
+[marginalia] Secretarissen.
+[date_header] Oct:
+[main_text] 1597. Gerliacus van Rispens.. Juny 1598 der Hottinga. 15 april 1603. Johannes Renneman. 4 Sept 1626. Franciscus Canter, 22 fel: 1654. Jacob van
+[main_text] van 56:, 326et. 1675. Jaco Iosinga 12 April 1679. Alef van Idsinga 13 101: 1692. saco van Idsinga 27 maert 1724 Daniel vander Haer 4 april 1732 Bonefacius van der Haer 2610r 1743.
+[marginalia] Fiscaals.
+--- 15z-b: 22 units (13 main_text)
+[main_text] Jacob de Bie greffuer vande Adm: de Hoorn. 12 mey 1589. Willem van Neck secretaris 5 bet 1597. Mr Johan van Neck. 14 April 1625. Willem van nech. 2 dec: 1652. 30 dec: 1975: Johan, Horius Jacob Zeeman subst: Secreba„ 9is, 16 n0v: 1677. =Connelis de groot 19 1o7: 1676. Willem vander Beeck Weede. secretaris. 6 Aug: 1680. Johan Akerlaken substitut secretaris. 27 oct: 1690. Pister Houting, 8 Junij 1697. Albert Vlaack. 11 Sept 1700. Jan van Akerlaken. 8 Jan 711. Tosias van Bredenhof. 9 dec: 1712. In vancois de Vicq. 6aug: 1129.
+[main_text] Ontfangers Generaal. Jan, Clatsfen noortland. Lucas Gerrits 14 may 1616. Jacob L. ucass. syn Soom. 3 July 1620. san Jacob se Compostel. 27 nov: 1640. Jacob Compostel 3 dec: 1653. mr Jan van Heck, 13 n0v: 1673. Jacob Compostel. 27 bec: 1681. Augustinus Duyvens. 4 Juny 1693. Grrancois duyvenz.. Aug: 1714.
+[marginalia] Secretarissen.
+[marginalia] Admiraliteit in 't Noorderq:
+[main_text] dr. Nicolaes Goelesen. 27 des. 1997. Mr Pieter Boulisz. 10 feb: 1615. mr 8anning Keyser, 5 Oct 1650. Mr Hermant de Groot. 24 april 1655. meynart sonck. 14 Nov: 1669.
+[date_header] 22 october 1675
+[main_text] Jacob van sander simon slaack 8 Jan: 1711.
+[main_text] Commisen Generaal
+[main_text] Lucas Siberti. 21 April 1596. nader 14 Juny 1597.
+[main_text] lWoultuyn Capeten op den Uitlegger van de Adm: in het Noorderq. 15 may 1725 Nobelingh. 12 dec:. 1739.
+[main_text] commis van de gebroke Lasten
+[date_header] 3 Aug: 1690.
+[main_text] Genit Willinck. Claas Reyer
+[date_header] 24 Sept: 1712
+[main_text] 16546: 1758. Pieter Weverlint
+[marginalia] Episcaals.
+[main_text] admiraliteit in Vriesland
+[main_text] Johannes sadama. 1 Oct: 1597. Gerliacus van Rispens.. Juny 1598 Rembertum Sycxsma, 20 may 1600. der Hottinga. 15 april 1603. Johannes Renneman. 4 Sept 1626. Mr Meynaert Scheltens. 24 April 1603. Franciscus Canter, 22 fel: 1654. Mr Schelto Aitsma, adjunct van Jacob van van 56:, 326et. 1675. Jaco Iosinga 12 April 1679. meynardus aitsma. 7 April 1631. Alef van Idsinga 13 101: 1692. Adgerius aduus 4 July 1653. saco van Idsinga 27 maert 1724 J'acob van gemmenich. 24 Aug 1670. Daniel vander Haer 4 april 1732 Jacob vander Wayen, 26 Maert 1667. Bonefacius van der Haer 2610r 1743. Dancker Htempevaar 22 Maart 1688 Coert van Beyema Julius Malthys van Beyema 30 octo: 1745.
+[main_text] Jacob. Jocobs. 29 dec: 1621. Johan van Runnia, 21 8ct 1636. Wophe Faber. 21 Maert 1650. Sybrand Baerd 22 April 1652. Barold Anok. 27 Maert 1687. Alexander Wiedenburg 6 Jan: 1699. suco Wiedenburg. 9 Nov: 144 setze van Sminia 30 May 1721. Piter Peerent van Wiedenbaug. 9e. Maert 1706.
+[marginalia] Secretarissen.
+[marginalia] Ontfangers Generaal.
+[marginalia] Fiscaals.
+
+######## 3433  first read 17  NL-HaNA_1.01.02_3433_0006
+--- 15z-a: 55 units (39 main_text)
+[main_text] 22 Maert. Rappt op de Miss van de Admint Noorderg: r. het vermiste pasp: van P. D. Ancker en advis, om to door Mauriciuus als de Adm: int Noorderg: nader te doen anquireeren na het voors paspoort: ondertussen den dey van Algiert daer van informeerende. Holl verklaren.
+[main_text] Rappt en des: op de Miss: van de Adm: in t Noord: r: de inkomende regten van 't gestrande schip de Nepturus.
+[main_text] 27 Maert Miss: adm: in Vriesland r: de betaling van het lastgeld der scheepen. Comm:
+[main_text] 31 maert Miss: adm: te amsterdam hredonen waerom mien niet soude moeten vaststellen dat monderjarige beampten voor 6. Juny 1727 aengestelt bij haer meerderjarigheid selfs sullen moeten waernemen Comm:
+[main_text] 3 April Mass: adm in Vrieslant h: ber: op de memorie van de Gecomm: van de Adm: tot Amsterd: r: de betalinge van het lastgeld. Comm: 3 april Miss: tisc: van de adm:. in Freel: vide aen stelling van beampten seedert 6 Juny 1727 Comm:
+[main_text] 4 april Miss: van deurs met een reglement op het stryken in de sond. aen adm:
+[main_text] 13 Mey. Prop Gelderland insteerende op een afdoeninge van de besognes over de middelen te water. R: te schryven aen Holland.
+[main_text] 16 Juny Mass: schryver in bedenken geevende, of men niet een wet soude kunnen maken, dat booten, die bueten noodsaeklykheid verboren werden door de officieren moeten werden betaelt. Com: met de Adm:
+[main_text] 19 Juny. declaratie van den Commis 9: van der Haer.
+[main_text] Miss: Rekenkamer r: het liquideeren van de onkosten gevallen op den introp der presenten voor die van Algeers & Tontaine gelast de penningen aen de Adm: te amsterdam te betalen. Adm: te amsterdam gelast die aen den lande te verantwoorden.
+[main_text] 7 July. Comm: met de Adm: wat precautien genomen sullen werden, by het versenden van algierse paspoorten.
+[main_text] 8 Sept Miss: Hameken, v. het versoek van den deg van algiers dat geen scheepen sonder passen mogten varen A: adm: aengeschreeven; de schippers te waerschouweni.
+[main_text] 11 Sept: Prop. gelderland om een afkomst te maken van de deliberatien over het redres van de middeleni te wisterR. gedeputeerden van Holland en Zeeland versogt hare goede officiene by hare Prencepalan te willen employeeren.
+[main_text] 16 Sept: Prop: griffier, om de Bouin te authoriseren, in plaets van Hoornbeek tot ontfanger van de regten der Turxsche paspoosten. R. de Bruin geauthoriseert die regten voor doste penning te ontfangen van de secretarissen van de Admir:
+[main_text] 19 Sept: Miss: van deurs. v. klagten aen hem gedaen dat de paspoorten net met woorden volgens het tractaet, maer met cyfferletters gevult waren. R. admir: daertoge voorsieninge te doen.
+[main_text] 23 Sept. Mess: de dreu rak eenige syde int Persen gekomen en na Holland gedestineert, wilke astracan, alwaer de pest was, was gepasseert. een admir: om op te disponeeren.
+[main_text] 2 Oct: Prop: Zeelant, waerby verklaren, dat het retardement van de besognes over de middelen te water aen haer niet geimputeert kan werden, also haer extr: ged: gereed syn. Res: Zeelant by Mess: te versoeken hare extr: ged: tegen tend van oct: of begin van November herwaerts te senden,
+[date_header] 15 April
+[marginalia] Miss: Adm: in't Noorderq: vde regten van
+[main_text] om alsdan haer te verklaren, of het Placcaet van 1725 aenneemen ot niet, alsmeede over de differenten ontrent de
+[marginalia] gestrande goederen: Comm:
+[date_header] 28 aprib
+[marginalia] Mem: Adm: aenkomst.
+[main_text] schotsche Courtwaren, en het halve licent. Gelderland versogt geen prejudiciabele Resolutie ondertussen te neemen
+[date_header] 9 Meydby
+[marginalia] wed: en soon van den admodiateer Rrppor
+[main_text] Holland versogt haer gedeputeerden ook te instrueren. Res: op een Remonstrantie van de devantschen handel
+[marginalia] om een pensioen van 5000 gl. Com.
+[main_text] te permitteeren, dat de ontfangers van de adm: het een pes h: dat gelast was van daer te vertrekken, om dat geen lent van de versiaensche waren voor de devhandel invorderen.
+[date_header] 12 Mey.
+[marginalia] Miss: vander Lingen, ontfanger te s' Herenbeg,
+[marginalia] ontfanger landsaet synde, geen anderdaant konde weesen.
+[main_text] 9 set: Miss: de dicu, met een berigt, met welke scheepen de syde van den 23 sept: es versonden. A aen adm:
+[main_text] 3 Noy: Prop: Zeeland. n: het belet om gedeputeerden herwaerts te senden tot de besognes over het redres van de middelen te water. Res: besognes uittestelsen tot het voorjaer.
+[main_text] 7 Nov: Miss: van Hoey v: de klagten over de sware belastingen op de syropen unt Vrankryk hier te lande gebragt werdende. Comm: met adm:
+[main_text] Res: Holland v: der voortsetting van de besognes overs de middelen te water, met aenwysing van verscheide pointen, waar ontrent de Provincie van Zeeland defectueus is. Zeel ov. Comm: Eeelant by Missive versogt op de pointen van gem: Missive te delibereren 7 Mey 1731. Res: van Zeeland.
+[page_number] 4.
+[marginalia] Admiraliteiten
+[main_text] 17 8or. Miss: van Hoegy. n. het vertrck van eenige fransche onderdanenant Vrankryk. Holl: op. Adm: om a.
+[main_text] 2 Dec: Miss: Hochepied r: een Fransche bark, die besmet was. & Extract aen de Adm:
+[main_text] 7 Dec: Rappt op het verbael van schryver en Res: rde booten van scheepsofficeren.
+[main_text] 9 Dec: Rappt op de Miss: van de respect: admir: r: dedomagement weegens het Placcaet van avzas voor ontfangers en Contrerolleurs. O: Comm: in R
+[main_text] 16 deer Miss: Borgers n de suhte te laden. n extroft aen adm:
+[main_text] Adm: beschreeven over een equipage.
+[main_text] Fontaine een Staet van syn comptoir tegeven.
+[main_text] 21 dec. Miss: Containe, met een staet x syn Comptoir Res nader staet te geeven van syn ontfangen utgaef.
+[main_text] 30 dec: Miss: Fontaine r: de Staet van hpt jaerlyks inhomen, en uitgeeven van het verhoogde last en valged. Comm:
+[marginalia] Admiraliteiten.
+[main_text] Equipage van 1729.
+[main_text] 4 april Reg: schrijver met syn declaratie, en vers: goeddoening van eenige onkosten. aen Rek: en commdraa
+[main_text] 27 Juny Req. schryver met de liquidatie van syn decla ratie, en vers: goeddoening van eenige onkosten. Tontaine gelast en Comm: met R: en R.
+[main_text] 20 Sept: Rappt op de Req. van Schryvers. vers: goeddoening van eenige onkostenb: adm: te amsterdam oma.
+[main_text] 18 nov: adv: adm: te amsterdam op het versoek van schryver weegens eenige extr. onkosten. R. 765 ge 16 s1: toegelegd.
+[marginalia] 35
+[page_number] 5.
+--- 15z-b: 53 units (36 main_text)
+[main_text] 22 Maert. Rappt op de Miss van de Admint Noorderg: r. het vermiste pasp: van P. D. Ancker en advis, om to door Mauriciuus als de Adm: int Noorderg: nader te doen anquireeren na het voors paspoort: ondertussen den dey van Algiert daer van informeerende. Holl verklaren.
+[main_text] Rappt en des: op de Miss: van de Adm: in t Noord: r: de inkomende regten van 't gestrande schip de Nepturus.
+[main_text] 27 Maert Miss: adm: in Vriesland r: de betaling van het lastgeld der scheepen. Comm:
+[main_text] 31 maert Miss: adm: te amsterdam hredonen waerom mien niet soude moeten vaststellen dat monderjarige beampten voor 6. Juny 1727 aengestelt bij haer meerderjarigheid selfs sullen moeten waernemen Comm: 3 April Mass: adm in Vrieslant h: ber: op de memorie van de Gecomm: van de Adm: tot Amsterd: r: de betalinge van het lastgeld. Comm: 3 april Miss: tisc: van de adm:. in Freel: vide aen stelling van beampten seedert 6 Juny 1727 Comm: 4 april Miss: van deurs met een reglement op het stryken in de sond. aen adm:
+[main_text] 13 Mey. Prop Gelderland insteerende op een afdoeninge van de besognes over de middelen te water. R: te schryven aen Holland.
+[main_text] 16 Juny Mass: schryver in bedenken geevende, of men niet een wet soude kunnen maken, dat booten, die bueten noodsaeklykheid verboren werden door de officieren moeten werden betaelt. Com: met de Adm:
+[main_text] 19 Juny. declaratie van den Commis 9: van der Haer.
+[main_text] Miss: Rekenkamer r: het liquideeren van de onkosten gevallen op den introp der presenten voor die van Algeers & Tontaine gelast de penningen aen de Adm: te amsterdam te betalen. Adm: te amsterdam gelast die aen den lande te verantwoorden.
+[main_text] 7 July. Comm: met de Adm: wat precautien genomen sullen werden, by het versenden van algierse paspoorten.
+[main_text] 8 Sept Miss: Hameken, v. het versoek van den deg van algiers dat geen scheepen sonder passen mogten varen A: adm: aengeschreeven; de schippers te waerschouweni.
+[main_text] 11 Sept: Prop. gelderland om een afkomst te maken van de deliberatien over het redres van de middeleni te wisterR. gedeputeerden van Holland en Zeeland versogt hare goede officiene by hare Prencepalan te willen employeeren.
+[main_text] 16 Sept: Prop: griffier, om de Bouin te authoriseren, in plaets van Hoornbeek tot ontfanger van de regten der Turxsche paspoosten. R. de Bruin geauthoriseert die regten voor doste penning te ontfangen van de secretarissen van de Admir:
+[main_text] 19 Sept: Miss: van deurs. v. klagten aen hem gedaen dat de paspoorten net met woorden volgens het tractaet, maer met cyfferletters gevult waren. R. admir: daertoge voorsieninge te doen.
+[main_text] 23 Sept. Mess: de dreu rak eenige syde int Persen gekomen en na Holland gedestineert, wilke astracan, alwaer de pest was, was gepasseert. een admir: om op te disponeeren.
+[main_text] 2 Oct: Prop: Zeelant, waerby verklaren, dat het retardement van de besognes over de middelen te water aen haer niet geimputeert kan werden, also haer extr: ged: gereed syn. Res: Zeelant by Mess: te versoeken hare extr: ged: tegen tend van oct: of begin van November herwaerts te senden,
+[date_header] 15 April
+[marginalia] Miss: Adm: in't Noorderq: vde regten van
+[main_text] om alsdan haer te verklaren, of het Placcaet van 1725 aenneemen ot niet, alsmeede over de differenten ontrent de
+[marginalia] gestrande goederen: Comm:
+[date_header] 28 aprib
+[marginalia] Mem: Adm: aenkomst.
+[main_text] schotsche Courtwaren, en het halve licent. Gelderland versogt geen prejudiciabele Resolutie ondertussen te neemen
+[date_header] 9 Meydby
+[marginalia] wed: en soon van den admodiateer Rrppor
+[main_text] Holland versogt haer gedeputeerden ook te instrueren. Res: op een Remonstrantie van de devantschen handel
+[marginalia] om een pensioen van 5000 gl. Com.
+[main_text] te permitteeren, dat de ontfangers van de adm: het een pes h: dat gelast was van daer te vertrekken, om dat geen lent van de versiaensche waren voor de devhandel invorderen.
+[date_header] 12 Mey.
+[marginalia] Miss: vander Lingen, ontfanger te s' Herenbeg,
+[marginalia] ontfanger
+[marginalia] landsaet synde, geen anderdaant konde weesen.
+[main_text] 9 set: Miss: de dicu, met een berigt, met welke scheepen de syde van den 23 sept: es versonden. A aen adm:
+[main_text] 3 Noy: Prop: Zeeland. n: het belet om gedeputeerden herwaerts te senden tot de besognes over het redres van de middelen te water. Res: besognes uittestelsen tot het voorjaer.
+[main_text] 7 Nov: Miss: van Hoey v: de klagten over de sware belastingen op de syropen unt Vrankryk hier te lande gebragt werdende. Comm: met adm:
+[main_text] Res: Holland v: der voortsetting van de besognes overs de middelen te water, met aenwysing van verscheide pointen, waar ontrent de Provincie van Zeeland defectueus is. Zeel ov. Comm: Eeelant by Missive versogt op de pointen van gem: Missive te delibereren 7 Mey 1731. Res: van Zeeland.
+[page_number] 4.
+[marginalia] Admiraliteiten
+[main_text] 17 8or. Miss: van Hoegy. n. het vertrck van eenige fransche onderdanenant Vrankryk. Holl: op. Adm: om a.
+[main_text] 2 Dec: Miss: Hochepied r: een Fransche bark, die besmet was. & Extract aen de Adm:
+[main_text] 7 Dec: Rappt op het verbael van schryver en Res: rde booten van scheepsofficeren.
+[main_text] 9 Dec: Rappt op de Miss: van de respect: admir: r: dedomagement weegens het Placcaet van avzas voor ontfangers en Contrerolleurs. O: Comm: in R
+[main_text] 16 deer Miss: Borgers n de suhte te laden. n extroft aen adm:
+[main_text] Adm: beschreeven over een equipage. Fontaine een Staet van syn comptoir tegeven.
+[main_text] 21 dec. Miss: Containe, met een staet x syn Comptoir Res nader staet te geeven van syn ontfangen utgaef.
+[main_text] 30 dec: Miss: Fontaine r: de Staet van hpt jaerlyks inhomen, en uitgeeven van het verhoogde last en valged. Comm:
+[marginalia] Admiraliteiten.
+[main_text] Equipage van 1729.
+[main_text] 4 april Reg: schrijver met syn declaratie, en vers: goeddoening van eenige onkosten. aen Rek: en commdraa
+[main_text] 27 Juny Req. schryver met de liquidatie van syn decla ratie, en vers: goeddoening van eenige onkosten. Tontaine gelast en Comm: met R: en R.
+[main_text] 20 Sept: Rappt op de Req. van Schryvers. vers: goeddoening van eenige onkostenb: adm: te amsterdam oma.
+[main_text] 18 nov: adv: adm: te amsterdam op het versoek van schryver weegens eenige extr. onkosten. R. 765 ge 16 s1: toegelegd.
+[marginalia] 35
+[page_number] 5.
+
+######## 3436  first read 1  NL-HaNA_1.01.02_3436_0113
+--- 15z-a: 36 units (32 main_text)
+[main_text] Ambass: van der Meer
+[main_text] 13 Jan: Miss: van der meer met eenige bylagen r: het genome schip van zaléé.
+[main_text] 3 Maert. Sec: Bes. Miss: vander Meer, met een briefgen 19 Maert Req: Claes van der Meer, om in de Capel vanden Heer van der seer te mogen trouwen met een paepschesma. A= afg.
+[main_text] 27 maert declaratie. 4 sept declaratie
+[main_text] 21 april. Miss: vander Meer 2. de schuld van Or. vldeek
+[main_text] 21 aprie Miss. vander Meer, met klagten over den Hertog van Ripperda. Rs t. antwoorden dat de conducte van den Hertog aan haer Ho:Mo. anbekent is. 27 april Rappt van tgeen daer over gesproken is met d'oliver. alsmede over een brief die haer Ho:Mo: aen den Keiser geschreeven souden hebben.
+[main_text] 4 Mey. Miss: van der Meer. 2. de Reffuge van s'lands oorlogscheepen. Res: geen slaven te admitteeren.
+[main_text] 4 Mey. Miss: vander Meer 7. de ontslaging van Capitein geleynse. Item de ontslaging van het schip de Jonge Claes Calf. Holl: en 2 ov:
+[main_text] 8 Mey. Reg: vander Meer, om een ordonantie van 8000 gl ter goeder rekening: toegestaan. 23 bet: deselve om een 8180. nantie van 3000 gl: toegestaan.
+[main_text] S: N: 4 mey. Miss: vander Meer r: den brief, die den Staet aen den Keiser geschreven sou hebben. Te antwoorden dat die gefingeert is.
+[main_text] schere sateige megende, klngende dat Houwens in
+[main_text] 26 Juny. Res: blouwens aanteschryven, dat hy de voiren sal aanwenden tot extraditie van de goederen van 't schip de twee gebroeders.
+[main_text] e edee iae e eie aen sue
+[main_text] van der Meer. vide infra 27 dec:
+[main_text] 24 July. Miss. vander Meer 2: het versoek van Bonenchi, om te weesen consul te laguari en sardinien. Holl op
+[main_text] s: N: 22 Juny. Miss: vander Meer. wak: het getekende Instrument tussen Engeland en Spagne, waar bij het Tractaat van seville conditionaliter werdherroepen.
+[main_text] 2 aug: S. B. Mess: vander Meer om oster ontrent dedeclaratie van Castelar. 10 aug: s B. deselve. 16. aug: S: B. ordreaen Verheer sec: Bes: 16 aug: ordre aen Schryver, om syndrie scheepen te voegen bij 't Engels esquadre tot het overbrengen van 6000 man spainse troupesso de declaratie van castelar geannulleert werd.
+[page_number] 280.
+[marginalia] Spagne
+[main_text] ambass. vander Mees.
+[main_text] 18 Aug: S. M. Miss: Hop. 2. ordres aan vander Maergegeve en Res: te schryven aan Hop, dat vander Meer gelast is de intrekking van de declarattie van lastelardaerop es maert: nader Res: van dermee, ommg telose instantien tot entrckkeng van de declaratie van Castelar, en ordre aan schrydes door hem gegeven. 29 oct: S: N: Miss: vander Meer met en brieff van la Par tot antwoord op syn instantien tot ontre
+[main_text] n ven dat edenee e dee de vae der 3 lieden, om geen goederen in Vreamden sacheepenste
+[main_text] laden, als en radene en enissie en se aan van der Meer, om te insteeren op de entrekking van voors order. vide porro. 26 Jan 1732. Se: op de woorden onderhaalt. Commercia te Bilbao.
+[main_text] 29 Ocbob: R N. Miss: vander Meer n: een: present van de Engelsche aan hem gedaan van 2000 pd otor 3a dd R: te mogen aanneemen.
+[main_text] 4 deer Miss: vander Meer v: het kruyssen van die van ZalkéHoll: 07:
+[main_text] 5 feb: S: h. Miss: van Hoeg en Hurgronpe met de declaratie van Casselar, waerby spagne sig ontslaet van het Tractaet van seville 7 feb: s: n: Res: en ordre aan van Hoey en Flurgronje.
+[main_text] 6 Juny. Sec: Res: Miss: vander Meer v: een project tractaat tussen Engeland en Spagne tot Heerroeping vandat van devilien. 16 Juny. sec: Bes: Rasspantmaking van 't voors: project door Chesterfield. en ordre aan van der Meer, om volgens vorige Resolutien te insteeren op eclaircissement ontrent het tractaet van sevilien. Ysapra. 2e Juny. S. N: Miss: v: het teckenen van een instrument tussen Engeland en Spagne. 25 Juny s: N: Res: om te approbeeren het doen van vander Meer, en kennis begeven, dat haar Ho:Mo: nog niet geaccedeert syn aan het tractaet van Weenen.
+[main_text] 6 Juny. Sec: Res: Miss: vander Meer. Klagten over Rottembarg
+[main_text] sidt 13 July
+[main_text] 27 dec: S: Bes. Miss: vander Meer r: de offecien door hem gepasseert tot het intrekken van represailles teegen die van Curacao. S. ook. S: B: Miss: van der Meer.
+[marginalia] Spagne 201.
+[main_text] Secretaris d'Oliver.
+[main_text] 3 April. Mem oliver. 1. schere schuld van Nduc. e Beek.
+[main_text] 19 April. Berigt op de mem: van oliver van denbleect. van suriname, en Res: om daer uit een antwoord te geven aan Oliver. 21 april. Miss: van der meer op tselve subpet.
+[main_text] 21 April. te spreken met oldver over een brief van van der Meer v. den Hertog van Ripperda. 27 April. Rappt van 't geen d'oliver gesegd heeft op de gem: Missive, alsmeede op 't gedebiteerde, dat haar Ho:Mo: een brief aan den Keiser geschreeven souden hebben.
+[page_number] 201.
+--- 15z-b: 29 units (25 main_text)
+[main_text] 13 Jan: Miss: van der meer met eenige bylagen r: 18 Aug: S. M. Miss: Hop. 2. ordres aan vander Maergegeve het genome schip van zaléé. en Res: te schryven aan Hop, dat vander Meer gelast is de intrekking van de declarattie van lastelar„ 3 Maert. Sec: Bes. Miss: vander Meer, met een briefgen daerop es maert: nader Res: van dermee, ommg telose instantien tot entrckkeng 19 Maert Req: Claes van der Meer, om in de Capel vanden Heer van der seer te mogen trouwen met een paepschesma. van de declaratie van Castelar, en ordre aan schrydes door hem gegeven. 29 oct: S: N: Miss: vander Meer met en A= afg. brieff van la Par tot antwoord op syn instantien tot ontre
+[main_text] 27 maert declaratie. 4 sept declaratie
+[main_text] 21 april. Miss: vander Meer 2. de schuld van Or. vldeek
+[main_text] laden, als en radene en enissie en se aan van der Meer, om te insteeren op de entrekking van voors order. vide porro. 26 Jan 1732. Se: op de woorden onderhaalt. Commercia te Bilbao. 29 Ocbob: R N. Miss: vander Meer n: een: present van de Engelsche aan hem gedaan van 2000 pd otor 3a dd R: te mogen aanneemen.
+[main_text] 21 aprie Miss. vander Meer, met klagten over den Hertog van Ripperda. Rs t. antwoorden dat de conducte van den Hertog aan haer Ho:Mo. anbekent is. 27 april Rappt van tgeen daer over gesproken is met d'oliver. alsmede over een brief die haer Ho:Mo: aen den Keiser geschreeven souden hebben.
+[main_text] 4 Mey. Miss: vander Meer 7. de ontslaging van Capitein geleynse. Item de ontslaging van het schip de Jonge Claes Calf. Holl: en 2 ov:
+[main_text] 8 Mey. Reg: vander Meer, om een ordonantie van 8000 gl ter goeder rekening: toegestaan. 23 bet: deselve om een 8180. nantie van 3000 gl: toegestaan. S: N: 4 mey. Miss: vander Meer r: den brief, die den Staet aen den Keiser geschreven sou hebben. Te antwoorden dat die gefingeert is.
+[main_text] Ambass: van der Meer
+[main_text] 4 Mey. Miss: van der Meer. 2. de Reffuge van s'lands oorlogscheepen. Res: geen slaven te admitteeren.
+[main_text] schere sateige megende, klngende dat Houwens in
+[main_text] 26 Juny. Res: blouwens aanteschryven, dat hy de voiren sal aanwenden tot extraditie van de goederen van 't schip de twee gebroeders.
+[main_text] e edee iae e eie aen sue
+[main_text] van der Meer. vide infra 27 dec:
+[main_text] 24 July. Miss. vander Meer 2: het versoek van Bonenchi, om te weesen consul te laguari en sardinien. Holl op
+[main_text] s: N: 22 Juny. Miss: vander Meer. wak: het getekende Instrument tussen Engeland en Spagne, waar bij het Tractaat van seville conditionaliter werdherroepen. 2 aug: S. B. Mess: vander Meer om oster ontrent dedeclaratie van Castelar. 10 aug: s B. deselve. 16. aug: S: B. ordreaen Verheer sec: Bes: 16 aug: ordre aen Schryver, om syndrie scheepen te voegen bij 't Engels esquadre tot het overbrengen van 6000 man spainse troupesso de declaratie van castelar geannulleert werd.
+[page_number] 280.
+[marginalia] Spagne
+[main_text] ambass. vander Mees.
+[main_text] n ven dat edenee e dee de vae der 3 lieden, om geen goederen in Vreamden sacheepenste
+[main_text] 4 deer Miss: vander Meer v: het kruyssen van die van ZalkéHoll: 07:
+[main_text] 5 feb: S: h. Miss: van Hoeg en Hurgronpe met de declaratie van Casselar, waerby spagne sig ontslaet van het Tractaet van seville 7 feb: s: n: Res: en ordre aan van Hoey en Flurgronje.
+[main_text] 6 Juny. Sec: Res: Miss: vander Meer v: een project tractaat tussen Engeland en Spagne tot Heerroeping vandat van devilien. 16 Juny. sec: Bes: Rasspantmaking van 't voors: project door Chesterfield. en ordre aan van der Meer, om volgens vorige Resolutien te insteeren op eclaircissement ontrent het tractaet van sevilien. Ysapra. 2e Juny. S. N: Miss: v: het teckenen van een instrument tussen Engeland en Spagne. 25 Juny s: N: Res: om te approbeeren het doen van vander Meer, en kennis begeven, dat haar Ho:Mo: nog niet geaccedeert syn aan het tractaet van Weenen. 6 Juny. Sec: Res: Miss: vander Meer. Klagten over Rottembarg
+[main_text] sidt 13 July 27 dec: S: Bes. Miss: vander Meer r: de offecien door hem gepasseert tot het intrekken van represailles teegen die van Curacao. S. ook. S: B: Miss: van der Meer.
+[marginalia] Spagne 201.
+[main_text] Secretaris d'Oliver.
+[main_text] 3 April. Mem oliver. 1. schere schuld van Nduc. e Beek.
+[main_text] 19 April. Berigt op de mem: van oliver van denbleect. van suriname, en Res: om daer uit een antwoord te geven aan Oliver. 21 april. Miss: van der meer op tselve subpet.
+[main_text] 21 April. te spreken met oldver over een brief van van der Meer v. den Hertog van Ripperda. 27 April. Rappt van 't geen d'oliver gesegd heeft op de gem: Missive, alsmeede op 't gedebiteerde, dat haar Ho:Mo: een brief aan den Keiser geschreeven souden hebben.
+[page_number] 201.
+
+######## 3439  first read 21  NL-HaNA_1.01.02_3439_0021
+--- 15z-a: 14 units (8 main_text)
+[page_number] 30.
+[main_text] 7 San: Miss: gallieris n. syn devoiren tot betaling van een jaar enteressen. R. Welgevallen. 27 Juny. Mem: Hogendorp. v. de voors: betaling, vers: het kort te mogen leenen ut de 10 p: R Toegestaan.
+[main_text] 4 april Miss:. van Hoeg v. de negotiatie van Peuul Bombarda. 15 aug: Miss: deselve
+[main_text] 5 Sept: Miss: deselve v. een decisie en de voors saak. 27 nov: Reg geinteresseerden in de voors: negotiatie, om een publique advertentie in de couranten te mogen laten doen. Rondfanger 9 om a. 1 Dec. advis van Hogenderp am Res: om de versogte advertentie inde Couranten met kennis en goedvinden van haar Ho:Mo: te doen.
+[marginalia] Beieren:
+[main_text] 15 Jan: Mass. ged: Staten van Overyssel r. een rekening van de Hubertsche Compagnie, en v. nieuwe arresten op de Benthemsche steen. R te versoeken, dat de Mag: van Swol geen arresten op gem: steen meer wel laten leggen. Item daer van kennis te geeven aan gansinot. 22 Jan: Rapport van een conferentie met gansinot.
+[main_text] 23 Can: Mem: gansmnot v: een arrest op de Benthemsche steen. Item 1. de betaling aan de Compagnie de prosefacte van guarantie
+[main_text] van Huberts. R: te schryven aan Overyssel. voors. Com: R. 12 Feb: Rapp: van een conferentie met gansinot over de verseekering door hem gegeeven van de betaling alhier. R: Hier van kennis te geeven by Missive aan Overyssel: en nogmaal te versoeken, dat het arrest mag worden opgeheeven. 25 feb: Miss: ged. Staten van Overyssel r: de weigering van de Mag: van Swol, om het arrest de ontslaan. Com: R. 28 feb: Rapport op de voors: Miss: en Res: om met gansinot te spreeken over de seekerheid van de betaling, sonder deselve na een praetense liquidatie te doen wagten. 4 Maart Rapport van een conferentie met gansinot. 1april Paspoort verleent tot den invoer van het geld voor de Compagnie van Hubert. 18 april Mem: gansinot r: de differenten over de Benthemsche steen. Comk. 20 Mey. Rapport om deacte van garantie aan de Compagnie van schepman Engelsregts, uittegeeven. H: en z: en ox: danglaren. 26 Mey. Finale Resolutie, om de acte van quarantie voor de Compagnie van Schapman en Engelbregts, waar by gegarandeert werd het contract tussen haar en den leurf: van Ceulen a 1728 gemackt sodanig dat den steenhandel onverhindert sal megen geschieden, aan gansmot uittegeeven. 25 Juny. Zeland suivert het behagen.
+[main_text] 24 July. Reg: Schaapman en Engelbregts, klagende over de bedienden van de Adm: in '4 Noorderg: weegens de betaling der regten, en paspoorten. R admomboia. 8 sept. Berigt. en advis van de adm: in t noord: en Res: waarby het versoek werd afgewesen
+[main_text] 18 Aug. Miss: ges: Comm: tot de administratie van 't graafschap Benthem; n: violatie van het terretoir door het agterhalen van een deserteur op de Esscherbrug. R Gouverneur van loeverden om 6.1 Sept: Miss: Berchuys commandeerende te loeverden ho: berigt. R copie te senden aanges: comm: om daar uit te sien, dat gem: soldaat vrywillig megegaan is. 22 dec: Miss: ges: Comm: tot de administratie van het graafschap Benthem. h. antwoord op haar Ho:Mo: Miss: van: 1decR lom: R.
+[marginalia] Benthem.
+[marginalia] S: Bes: 5 tebrsn ge degestel. insse t germegt, weegen de hoop van het 18 feb: Sec: Bes: Res: r: het gerugt, als of Prucs„
+[marginalia] Pen. Hest, reuden met schtrenden en dehcstestelden ande 22 feb: Rapport om een aanschryving te doen aan de militie in gelderlanden overyffel is buiten effect, en buiten de notalen gebleven 1entz maart: S. B: Miss: ginstel. h. antwoord. 17 Maart: S: n: Miss: de Bruininx h: antwoord op haar Ho:Mo: sec Res: van 5enis feb„
+[page_number] 31.
+--- 15z-b: 11 units (5 main_text)
+[page_number] 30.
+[main_text] 7 San: Miss: gallieris n. syn devoiren tot betaling van een jaar enteressen. R. Welgevallen. 27 Juny. Mem: Hogendorp. v. de voors: betaling, vers: het kort te mogen leenen ut de 10 p: R Toegestaan.
+[main_text] 4 april Miss:. van Hoeg v. de negotiatie van Peuul Bombarda. 15 aug: Miss: deselve 5 Sept: Miss: deselve v. een decisie en de voors saak. 27 nov: Reg geinteresseerden in de voors: negotiatie, om een publique advertentie in de couranten te mogen laten doen. Rondfanger 9 om a. 1 Dec. advis van Hogenderp am Res: om de versogte advertentie inde Couranten met kennis en goedvinden van haar Ho:Mo: te doen.
+[marginalia] Beieren:
+[main_text] 15 Jan: Mass. ged: Staten van Overyssel r. een rekening van de Hubertsche Compagnie, en v. nieuwe arresten op de Benthemsche steen. R te versoeken, dat de Mag: van Swol geen arresten op gem: steen meer wel laten leggen. Item daer van kennis te geeven aan gansinot. 22 Jan: Rapport van een conferentie met gansinot. 23 Can: Mem: gansmnot v: een arrest op de Benthemsche steen. Item 1. de betaling aan de Compagnie de prosefacte van guarantie van Huberts. R: te schryven aan Overyssel. voors. Com: R. 12 Feb: Rapp: van een conferentie met gansinot over de verseekering door hem gegeeven van de betaling alhier. R: Hier van kennis te geeven by Missive aan Overyssel: en nogmaal te versoeken, dat het arrest mag worden opgeheeven. 25 feb: Miss: ged. Staten van Overyssel r: de weigering van de Mag: van Swol, om het arrest de ontslaan. Com: R. 28 feb: Rapport op de voors: Miss: en Res: om met gansinot te spreeken over de seekerheid van de betaling, sonder deselve na een praetense liquidatie te doen wagten. 4 Maart Rapport van een conferentie met gansinot. 1april Paspoort verleent tot den invoer van het geld voor de Compagnie van Hubert. 18 april Mem: gansinot r: de differenten over de Benthemsche steen. Comk. 20 Mey. Rapport om deacte van garantie aan de Compagnie van schepman Engelsregts, uittegeeven. H: en z: en ox: danglaren. 26 Mey. Finale Resolutie, om de acte van quarantie voor de Compagnie van Schapman en Engelbregts, waar by gegarandeert werd het contract tussen haar en den leurf: van Ceulen a 1728 gemackt sodanig dat den steenhandel onverhindert sal megen geschieden, aan gansmot uittegeeven. 25 Juny. Zeland suivert het behagen.
+[main_text] 24 July. Reg: Schaapman en Engelbregts, klagende over de bedienden van de Adm: in '4 Noorderg: weegens de betaling der regten, en paspoorten. R admomboia. 8 sept. Berigt. en advis van de adm: in t noord: en Res: waarby het versoek werd afgewesen
+[main_text] 18 Aug. Miss: ges: Comm: tot de administratie van 't graafschap Benthem; n: violatie van het terretoir door het agterhalen van een deserteur op de Esscherbrug. R Gouverneur van loeverden om 6.1 Sept: Miss: Berchuys commandeerende te loeverden ho: berigt. R copie te senden aanges: comm: om daar uit te sien, dat gem: soldaat vrywillig megegaan is. 22 dec: Miss: ges: Comm: tot de administratie van het graafschap Benthem. h. antwoord op haar Ho:Mo: Miss: van: 1decR lom: R.
+[marginalia] Benthem.
+[marginalia] S: Bes: 5 tebrsn ge degestel. insse t germegt, weegen de hoop van het 18 feb: Sec: Bes: Res: r: het gerugt, als of Prucs„
+[marginalia] Pen. Hest, reuden met schtrenden en dehcstestelden ande 22 feb: Rapport om een aanschryving te doen aan de militie in gelderlanden overyffel is buiten effect, en buiten de notalen gebleven 1entz maart: S. B: Miss: ginstel. h. antwoord. 17 Maart: S: n: Miss: de Bruininx h: antwoord op haar Ho:Mo: sec Res: van 5enis feb„
+[page_number] 31.
+
+######## 3442  first read 5  NL-HaNA_1.01.02_3442_0101
+--- 15z-a: 15 units (13 main_text)
+[page_number] 166:
+[main_text] Mante.
+[main_text] Maastrigt en landen van Overmaze.
+[main_text] 5 Jan. Reg: duitsche Kerkenraad van Maastrigt vers: dat den Predihant Lach Emersus verklaart mag werden. R toegestaan 24 Jan: Reg: kerkenraad van Mastrigt om handopening R. toegestaen. Vide infra 12 maart: beroepgesurceert. 2 Junij. Reg: serkenraad van Mastrigt om approbatie op het beroep van 9: Manger. R geapprobeert.
+[main_text] 31 dee 1732. eerste mem: en Res.
+[main_text] 5 Jan: nader Mem: van Maschs. v: dwee Pruisische officieren de Maastrigt gearresteert. R versoek nogmaal te declineeren. copie aen ginstel. 16 san: derde mem: van Maschs op 't voors: subject. Com: R. 9 feb: S: 1. Messginkel v: het ongenoegen van den Koning van Pruyssen over het voors geval. en Res:daerop sit voorts. Pruyssen lit P.
+[main_text] 23 Jan: Reg: de Bije, om executie van een acte van taxatie. R: Mag: van Maastrigt de voors: executie na style te doen.
+[main_text] 26 san: Miss: vierhoogschout h: antwoord op haar Ho:Mo: R van 19 dec: 1: het mandament vanden Prins van Luyk weegen de constitutie unigencus. en de Registratie vande voors: Resolutie. R. die van st servaes ende LVrouwe kerk gelast alle Resolutien van haer Ho:Mo: te registreeren. 2 Maart Miss: Prins van Luyk met een memorie tot antwoord op haar Ho:Mo: Res: van 19 dec: 1732. r: het publiceren van mandamenten binnen Maastrgt. Com:
+[main_text] 28 Jan: Reg: van Heusden om Requeste livile, met Committimus aan Burgemeester en geswore Raden van Maastrigt. R toegestaan
+[main_text] 29 San: Rapp: en Res: op het versoek van den pas„ 100r Finau. Nog 2 maanden tyd aen hem te geven, om syn justificatie voor 't Brabants geregt te doen, anders de sententie tegen hem te executeeren. 24. april, miss: Vicehoogschout rak: de executie van de sententie teegen den Pastoor Finau: en met een protestatie van den Prins van Luyck. R geapprobeert, en gelast, dat die vanst servaas de pastorye van st latharine aan een ander sullen geeven voorts Com. 28 april s: n: miss: Commiss: Instructeurs, met een protestatie van den Prins van Luyk, en haare consideratien daarop. Com: siet
+[main_text] voorts 15 mag. 6 feb: Rapport op het verbaal van Com: dec: v: het versoek van die van Heerle, om exemptie van haar Ho:Mo: Res: van 5 dec 1731. Ro a, 16 maart. surceantie geprolongeert, tot het advis inkomt. Tet 29 Sept 1739. advis 18st: en Res:
+[main_text] 6 maart Berigt vanden Brab: ger: van Mastrigh op het versoek van Bertus, om denaturalisate teegen Hluberti. en Res: afg
+[main_text] 12 maart Reg: Brab: Mag: van Maastrigt om interpretatie of ampliatie van het Reglement van 26 maart 1668 over de concurrentie van de magistraat inde beroeping der Predikianten R: kerkenraad, om belang met surceantie 1 april. Twee Missiven van de Aerkenraad ieder geteekent van twee Predikanten, en drie ouderlingen, h: belang. Com: 9 april. Rapp: en Res: om de persisteeren by het Reglement van 26 Maart 1668. geconfirmeert sy haar Ho:Mo: Res: van 12 nov: 1707.
+[main_text] 15 April. Miss: Vicchoogschout rak het saiseeren van la Haije, burger te Maastrigt door de militte R: Colonel Schack gelast denselve overtegeeven, nisi causam. 24 april Berigt van den Colonel schack. Com R.
+[page_number] 167.
+--- 15z-b: 14 units (12 main_text)
+[page_number] 166:
+[main_text] Mante.
+[main_text] Maastrigt en landen van Overmaze.
+[main_text] 5 Jan. Reg: duitsche Kerkenraad van Maastrigt vers: dat den Predihant Lach Emersus verklaart mag werden. R toegestaan 24 Jan: Reg: kerkenraad van Mastrigt om handopening R. toegestaen. Vide infra 12 maart: beroepgesurceert. 2 Junij. Reg: serkenraad van Mastrigt om approbatie op het beroep van 9: Manger. R geapprobeert.
+[main_text] 31 dee 1732. eerste mem: en Res. 5 Jan: nader Mem: van Maschs. v: dwee Pruisische officieren de Maastrigt gearresteert. R versoek nogmaal te declineeren. copie aen ginstel. 16 san: derde mem: van Maschs op 't voors: subject. Com: R. 9 feb: S: 1. Messginkel v: het ongenoegen van den Koning van Pruyssen over het voors geval. en Res:daerop sit voorts. Pruyssen lit P.
+[main_text] 23 Jan: Reg: de Bije, om executie van een acte van taxatie. R: Mag: van Maastrigt de voors: executie na style te doen.
+[main_text] 26 san: Miss: vierhoogschout h: antwoord op haar Ho:Mo: R van 19 dec: 1: het mandament vanden Prins van Luyk weegen de constitutie unigencus. en de Registratie vande voors: Resolutie. R. die van st servaes ende LVrouwe kerk gelast alle Resolutien van haer Ho:Mo: te registreeren. 2 Maart Miss: Prins van Luyk met een memorie tot antwoord op haar Ho:Mo: Res: van 19 dec: 1732. r: het publiceren van mandamenten binnen Maastrgt. Com:
+[main_text] 28 Jan: Reg: van Heusden om Requeste livile, met Committimus aan Burgemeester en geswore Raden van Maastrigt. R toegestaan
+[main_text] 29 San: Rapp: en Res: op het versoek van den pas„ 100r Finau. Nog 2 maanden tyd aen hem te geven, om syn justificatie voor 't Brabants geregt te doen, anders de sententie tegen hem te executeeren. 24. april, miss: Vicehoogschout rak: de executie van de sententie teegen den Pastoor Finau: en met een protestatie van den Prins van Luyck. R geapprobeert, en gelast, dat die vanst servaas de pastorye van st latharine aan een ander sullen geeven voorts Com. 28 april s: n: miss: Commiss: Instructeurs, met een protestatie van den Prins van Luyk, en haare consideratien daarop. Com: siet
+[main_text] voorts 15 mag. 6 feb: Rapport op het verbaal van Com: dec: v: het versoek van die van Heerle, om exemptie van haar Ho:Mo: Res: van 5 dec 1731. Ro a, 16 maart. surceantie geprolongeert, tot het advis inkomt. Tet 29 Sept 1739. advis 18st: en Res:
+[main_text] 6 maart Berigt vanden Brab: ger: van Mastrigh op het versoek van Bertus, om denaturalisate teegen Hluberti. en Res: afg
+[main_text] 12 maart Reg: Brab: Mag: van Maastrigt om interpretatie of ampliatie van het Reglement van 26 maart 1668 over de concurrentie van de magistraat inde beroeping der Predikianten R: kerkenraad, om belang met surceantie 1 april. Twee Missiven van de Aerkenraad ieder geteekent van twee Predikanten, en drie ouderlingen, h: belang. Com: 9 april. Rapp: en Res: om de persisteeren by het Reglement van 26 Maart 1668. geconfirmeert sy haar Ho:Mo: Res: van 12 nov: 1707.
+[main_text] 15 April. Miss: Vicchoogschout rak het saiseeren van la Haije, burger te Maastrigt door de militte R: Colonel Schack gelast denselve overtegeeven, nisi causam. 24 april Berigt van den Colonel schack. Com R.
+[page_number] 167.
+
+######## 3445  first read 6  NL-HaNA_1.01.02_3445_0027
+--- 15z-a: 9 units (6 main_text)
+[page_number] 2.
+[index] Barbargen
+[main_text] 8 seb: ordre aan Rumpf, om sig te begeeven na Berlyn, bij absentie van de oer van ginhel. 5 april S: n: Miss: Rumpf. v. syn verblyfte Warschauw.
+[main_text] 10 feb: miss: van sludson v: een besending van die van Tunis na Holland. siet Barbargen.
+[main_text] 6 Dec: Mass: gerbrands v: een besending van die van Tripoli. siet Barbargen.
+[main_text] 27 Oct: Rapport om een besending na de Pravincie van stad en Lande te doen tot herstelling van de rust in de Ommelanden. Holb: verklaren. 29 oct: Res: waar by de besending na stad en L: werd vastgestelt, en de Heeren van Hecseren tot den Brantzenborch, gerlings, en van steenbergen werden gecommitteert. Vo: ongelast: stadend adviseert niet. 1 nov: Commissie van Holland op geerlings als Extr: ged: 2 nov: Prop: ged: na stadenl 2. haar vertrek. R: te schryven aan de stad en de ommelanden, Item aan ged: Staten, om de staaten te beschrijven. 2 nov: Res: en ordre aande adm: te amsterdam om haar grootste jagt gereed te maken. 4 nov: ordonantie van 600 gl voor de 3 gedeputeerden. 6 nov. siss: adm: de amst: van: de gereidheid van eenjagt. 9 nov. Miss. vande Ommelanden h: antwoord. 9 noy Res: kennis te geeven aan de stad, de ommelanden, en ged: Staten van het uitstel vande commissie, door de siekte van gerlings. 12 nov: miss: gerlings om ontslaging van de lommissie. R toegestaen.
+[main_text] 16 nov: Miss. Mag: in groningen h: antwoord. 16 nov miss: ged: staten h: antwoord. 16 20v: miss: Ommelanden r: den omdogt en Res: daerop. 19 nov: Commissie van Holland op gelles als lat: ged: 19. nov. gilles gecommitteert na stad en L: in plaats van gerlings. Brief van credentie voor de gecomm: kennis te geeven aan ged: Staten van het vertoek. 25 nov: miss. ged: St: ho: antwoord. 20 nov. afscheid van ged: na stadent.
+[main_text] 30 nov: Miss: ged: in StadenL: not: haer aenkomst. 4 Dec. miss: ged: in stad en k. met haar Propositie. 7 Dec: Miss: deselve. 21 Dec: S: n: miss: deselve 31 Dec: S: 1: Miss: deselve om de mogen retourneeren. Com:
+[marginalia] Wesenduagen.
+--- 15z-b: 7 units (4 main_text)
+[page_number] 2.
+[index] Barbargen
+[main_text] 8 seb: ordre aan Rumpf, om sig te begeeven na Berlyn, bij absentie van de oer van ginhel. 5 april S: n: Miss: Rumpf. v. syn verblyfte Warschauw.
+[main_text] 10 feb: miss: van sludson v: een besending van die van Tunis na Holland. siet Barbargen.
+[main_text] 6 Dec: Mass: gerbrands v: een besending van die van Tripoli. siet Barbargen.
+[main_text] 27 Oct: Rapport om een besending na de Pravincie van stad en Lande te doen tot herstelling van de rust in de Ommelanden. Holb: verklaren. 29 oct: Res: waar by de besending na stad en L: werd vastgestelt, en de Heeren van Hecseren tot den Brantzenborch, gerlings, en van steenbergen werden gecommitteert. Vo: ongelast: stadend adviseert niet. 1 nov: Commissie van Holland op geerlings als Extr: ged: 2 nov: Prop: ged: na stadenl 2. haar vertrek. R: te schryven aan de stad en de ommelanden, Item aan ged: Staten, om de staaten te beschrijven. 2 nov: Res: en ordre aande adm: te amsterdam om haar grootste jagt gereed te maken. 4 nov: ordonantie van 600 gl voor de 3 gedeputeerden. 6 nov. siss: adm: de amst: van: de gereidheid van eenjagt. 9 nov. Miss. vande Ommelanden h: antwoord. 9 noy Res: kennis te geeven aan de stad, de ommelanden, en ged: Staten van het uitstel vande commissie, door de siekte van gerlings. 12 nov: miss: gerlings om ontslaging van de lommissie. R toegestaen. 16 nov: Miss. Mag: in groningen h: antwoord. 16 nov miss: ged: staten h: antwoord. 16 20v: miss: Ommelanden r: den omdogt en Res: daerop. 19 nov: Commissie van Holland op gelles als lat: ged: 19. nov. gilles gecommitteert na stad en L: in plaats van gerlings. Brief van credentie voor de gecomm: kennis te geeven aan ged: Staten van het vertoek. 25 nov: miss. ged: St: ho: antwoord. 20 nov. afscheid van ged: na stadent. 30 nov: Miss: ged: in StadenL: not: haer aenkomst. 4 Dec. miss: ged: in stad en k. met haar Propositie. 7 Dec: Miss: deselve. 21 Dec: S: n: miss: deselve 31 Dec: S: 1: Miss: deselve om de mogen retourneeren. Com:
+[marginalia] Wesenduagen.
+
+######## 3466  first read 3  NL-HaNA_1.01.02_3466_0074
+--- 15z-a: 32 units (24 main_text)
+[main_text] 21 April. Prop: Holland. Consenteerende in het accordeeren. van eene hell staf aan 't Regiment van salis, en aen het Regement van Constant. R. andere Prov. versogt.
+[date_header] 12 mey.
+[main_text] Prop: Holland over de sessie van de Heer van Rosenlaal in den Raad van Staate, en te gelyk in te Admiraliteit de Amsterdam. Comm: Holl: en Vriesl. syn van advis, dat het met compatibel is;
+[main_text] 12 my. Prop. Stadenk over de incompatibileiteit van ampten in t gemem 19 meij. Rapport en Res: te verklaxen, dat den Heer van Rosendaal sessie kan hebben in de beide Collgen. Holl: en Vrusl: contraduceeren. Zeel. geenstem: Borgls. is van aduis dat voor dibmaal sessie han hebben.
+[marginalia] Comm:
+[main_text] cntr. Gedeputeeren unt Holland. de Huren van Wassenaer Gillis, van lastrccum, van nech. Carpentur, Blacu.
+[main_text] 20 meij. Comparstie van seeven
+[main_text] Resumptie uitgestelt tot dingsbag.
+[main_text] 23 meij. Resumptie gearresbeert. Aanteykening van Holland en Vriesland daar teegen. Zeeland geen advis. 27 meij. Contra= aanteykening, van geld: Utr: Ov. en Stadent.
+[main_text] 27 mey. de Resolutie van den 19 mey te senden aan de Adm: te Amsterd:
+[main_text] 29 meij. Rep: Heer van Rosendaal. beswaer over de Hollandse Raden ter admiraliteit. Versoch om gemaintineert te werden byde Res. van 19 meij. R. Adm: de amst: omb.
+[main_text] Holland segt geschreeven te hebben aande ProvStadent: adviseert voor een wet in 't toekomende. 31 meij. miss. Adm: te amsterd. antwoord op de Resvan den 19 mey en 27 mey. 9. H: A: V: D: Stenk ap. Comm: 3 Juny. miss. adm: te amsterd. Antwoord op de Res: van den 29 mey. by 9. H. V. 6: St. overg: lom 3 July. miss. Staaten van gelderland over de conduste van de Adm: te Amsserd: 69. H: L: A: V: 6. stenl: overg: Com:
+[main_text] 18 July. Res. Vriesland over de sessie van de Heer van Rosendaal in twee Collegien te gelyk. F. rov: overg: 22 July. Res: en declaratoir van Holland weegens de ordres aan de Hollandsche Raaden van de Adm: te Amst: gegeeven. 9: 2: 4: 0. sonl. overg: Vriesland neemt genoegen.
+[main_text] 7 augusty. Res: Zeeland. 6y. 9: 11. 4: 6: Stenk: overg: 7 augustij. Res. Overyssel. 69 9. 11. 2: 4: stenk: overg:
+[page_number] 130.
+[marginalia] Ha Cland.
+[main_text] 4 July. Holland versogt acten van aanstelling te geeven aan 4 Capotans van de vior neeuwe BemeCompagnien. om vervolgens Commissien door ten Aostaate verlient te werden.
+[main_text] 9 Augusty. Prop: Holland. erdré gestelt om haare quote en de setitien dot de fordificatien, magasynen, en subsistentie van troupes te furneeren. R. de andere Prov: versogt dit exempel te volgen.
+[main_text] 9 Augussy. S. N: prop. Holland om secours te geeven aan de Koningin van Hongargen in geld, volgens het rapport van 27 Juny. andere Prov: versogt.
+[main_text] 26 Augusty. Prop. Holland over het equipaeren van een sortabel getal oorlogscheepen teegen 't voorjaar: en den aanbouw van nieuwe scheepen. R: admiraliteiten daar over beschreeven. Tit Admiralit: A.
+[main_text] 19 September. Res. Holland over de vermindering van inkoomende oegten op het oundvee. Verbod van den uitvoer van vandvee, ophef vande inkoomende regten op de boekwyt, vermindering van inkomende regten op de Varkens en tspek. Z: V: Ment ov: Den uitvoer van rundvee by Placcaat verbooden. voorts gecomm: van de Admiralit: om a sut admiralit: A.
+[main_text] 14 december. Res. waar by de enkoomende regten op het vandvee gemodereert werden topt 4 gl: tot uls. mey 1742 in die op de varkens van 30 op 10 st: en op t schippnd spch van 7 tot 2gl: tot ult. Julg 1742. sidt Admiralit: 28 September. Provinciaal advis van Holland over de prolongatie van 't octroy voor de OostInd: Comp: en Res: daar op. Sat Oost: s: Comp.
+[main_text] 8 december. prop: Holland om afdoening van 't work vande 6: s. C: . Bewindh: beschreeven.
+[main_text] siet Oosts. 6.
+[main_text] 24 October. propositie Holland. Versock vande geintoresseerden in de scheepen de Christina en de Jonge Maria. om voorsiening teegen het rooven van haar scheepen en goederen, in groenland in het ijs vast sittende.
+[main_text] Waarschouwing daar tugen te publiceeren. sut 15 febr: 1742
+[marginalia] A.
+[main_text] 15 Dccmber. Gecomm: Raaden van Holland versogt een braf van den deij van Sunif te doen translateeren.
+[main_text] 22 decuember. aanteijkening van Holland en Vruslagd tagen een Resolutie, waar by den krygsraad van s'Bosch verklaart werd onberoegt te syn, om in seeker geral jurisdictie te oefenen.
+[marginalia] Holland
+[page_number] 131.
+[page_number] 131.
+--- 15z-b: 18 units (10 main_text)
+[main_text] 21 April. Prop: Holland. Consenteerende in het accordeeren. van eene hell staf aan 't Regiment van salis, en aen het Regement van Constant. R. andere Prov. versogt.
+[date_header] 12 mey.
+[main_text] Prop: Holland over de sessie van de Heer van Rosenlaal in den Raad van Staate, en te gelyk in te Admiraliteit de Amsterdam. Comm: Holl: en Vriesl. syn van advis, dat het met compatibel is; 12 my. Prop. Stadenk over de incompatibileiteit van ampten in t gemem 19 meij. Rapport en Res: te verklaxen, dat den Heer van Rosendaal sessie kan hebben in de beide Collgen. Holl: en Vrusl: contraduceeren. Zeel. geenstem: Borgls. is van aduis dat voor dibmaal sessie han hebben. cntr. Gedeputeeren 20 meij. Comparstie van seeven unt Holland. de Huren van Wassenaer Gillis, van lastrccum, van nech. Carpentur, Blacu. Resumptie uitgestelt tot dingsbag. 23 meij. Resumptie gearresbeert. Aanteykening van Holland en Vriesland daar teegen. Zeeland geen advis. 27 meij. Contra= aanteykening, van geld: Utr: Ov. en Stadent. 27 mey. de Resolutie van den 19 mey te senden aan de Adm: te Amsterd: 29 meij. Rep: Heer van Rosendaal. beswaer over de Hollandse Raden ter admiraliteit. Versoch om gemaintineert te werden byde Res. van 19 meij. R. Adm: de amst: omb. Holland segt geschreeven te hebben aande ProvStadent: adviseert voor een wet in 't toekomende. 31 meij. miss. Adm: te amsterd. antwoord op de Resvan den 19 mey en 27 mey. 9. H: A: V: D: Stenk ap. Comm: 3 Juny. miss. adm: te amsterd. Antwoord op de Res: van den 29 mey. by 9. H. V. 6: St. overg: lom 3 July. miss. Staaten van gelderland over de conduste van de Adm: te Amsserd: 69. H: L: A: V: 6. stenl: overg: Com: 18 July. Res. Vriesland over de sessie van de Heer van Rosendaal in twee Collegien te gelyk. F. rov: overg: 22 July. Res: en declaratoir van Holland weegens de ordres aan de Hollandsche Raaden van de Adm: te Amst: gegeeven. 9: 2: 4: 0. sonl. overg: Vriesland neemt genoegen. 7 augusty. Res: Zeeland. 6y. 9: 11. 4: 6: Stenk: overg: 7 augustij. Res. Overyssel. 69 9. 11. 2: 4: stenk: overg:
+[marginalia] Comm:
+[page_number] 130.
+[marginalia] Ha Cland.
+[main_text] 4 July. Holland versogt acten van aanstelling te geeven aan 4 Capotans van de vior neeuwe BemeCompagnien. om vervolgens Commissien door ten Aostaate verlient te werden.
+[main_text] 9 Augusty. Prop: Holland. erdré gestelt om haare quote en de setitien dot de fordificatien, magasynen, en subsistentie van troupes te furneeren. R. de andere Prov: versogt dit exempel te volgen.
+[main_text] 9 Augussy. S. N: prop. Holland om secours te geeven aan de Koningin van Hongargen in geld, volgens het rapport van 27 Juny. andere Prov: versogt.
+[main_text] 26 Augusty. Prop. Holland over het equipaeren van een sortabel getal oorlogscheepen teegen 't voorjaar: en den aanbouw van nieuwe scheepen. R: admiraliteiten daar over beschreeven. Tit Admiralit: A.
+[main_text] 19 September. Res. Holland over de vermindering van inkoomende oegten op het oundvee. Verbod van den uitvoer van vandvee, ophef vande inkoomende regten op de boekwyt, vermindering van inkomende regten op de Varkens en tspek. Z: V: Ment ov: Den uitvoer van rundvee by Placcaat verbooden. voorts gecomm: van de Admiralit: om a sut admiralit: A. 14 december. Res. waar by de enkoomende regten op het vandvee gemodereert werden topt 4 gl: tot uls. mey 1742 in die op de varkens van 30 op 10 st: en op t schippnd spch van 7 tot 2gl: tot ult. Julg 1742. sidt Admiralit: 28 September. Provinciaal advis van Holland over de prolongatie van 't octroy voor de OostInd: Comp: en Res: daar op. Sat Oost: s: Comp. 8 december. prop: Holland om afdoening van 't work vande 6: s. C: . Bewindh: beschreeven. siet Oosts. 6.
+[main_text] 24 October. propositie Holland. Versock vande geintoresseerden in de scheepen de Christina en de Jonge Maria. om voorsiening teegen het rooven van haar scheepen en goederen, in groenland in het ijs vast sittende. Waarschouwing daar tugen te publiceeren. sut 15 febr: 1742
+[marginalia] A.
+[main_text] 15 Dccmber. Gecomm: Raaden van Holland versogt een braf van den deij van Sunif te doen translateeren.
+[main_text] 22 decuember. aanteijkening van Holland en Vruslagd tagen een Resolutie, waar by den krygsraad van s'Bosch verklaart werd onberoegt te syn, om in seeker geral jurisdictie te oefenen.
+[marginalia] Holland
+[page_number] 131.
+[page_number] 131.
+
+######## 3469  first read 42  NL-HaNA_1.01.02_3469_0037
+--- 15z-a: 47 units (43 main_text)
+[page_number] 64.
+[main_text] Ter vergaderinge.
+[main_text] 4 January. W: van Haeften tot Lenuwynen als latt: ged: uit gelderland.
+[main_text] 9 January. C. N: van Bieland als extr. ged: uit gelderland.
+[main_text] 29 maert. op. A. van Utenhove heer van amelisnaert els ord. gedep: van Utrecht.
+[main_text] 24 April. op 1. van Schuijlenburch als latr: 918. van gelderland.
+[main_text] 24 April. W. van litters latr. ged: uit Zuland. schover latr. ged: uit Zeeland. vander mandere latr. ged: uit Zeland. 25 April. 1. Vos. ord. gedep: uit gelderland. 1 meij. Groenendijck ord. gesop: uit Holland. Ven Meel. ord. gedep: uit Holland.
+[main_text] seevenhuijsen ord. gedip: it Holland. strick van Linscheten erd: gedij: van Utrucht. L. E. baendihs. cxtr. gebop van onorgssel ,meij. Introductie van de Heeren gecommitteerde Raaden. vande graef. van Cattenburch, van Hogenborp. Luuwin en gallas.
+[main_text] 7 meij. Matthias Catr. Gedep: van Zuland.
+[main_text] 11 Meij. Schimmapamnaidk venber oijen ord: g8d: uit gelderlend 15 meij. Schersse extr. ged. uit Zeeland.
+[main_text] 25 Junij. E. Seroverins. Eatr. Gedep: van Ororigsschl. 26 Junij. Hargronse. Exstr. gedep: uit Zeeland. 5 Julij Tuijl van Serasterten. Eatr: gelep: van Utrecht. 17 Julij. Ero Suick van Burmania ext. ged. uit Friesland. 30 Augustuy. Matthias Eatr: ged. uit. Zeland. 17 Sptember. Coz Catr. gehop uit gelderlenb.
+[main_text] 1 6010 6r. Bissim Porsinaris van best heyens tland. 1 October. Utenhove van Bottitin ord:. Ged: van Wraht. 6 October. van litters, Matis, Ssebres, Hlugels, Lambrechtsen, en Godin als Extr: Ged: van Zeeland 6 October Reastot. Secretaris van Zellnd als lit. 48d.
+[main_text] 3 December. Steengragt Extr. ged: van Zieland. 6. dcember. Sloot tot Lendenhorst ord: Gedep: uit Overijssel.
+[marginalia] Commissien
+[main_text] In den Raad van State.
+[main_text] 27 april. de Mars in den Raad van State wagens Stedent. 30 april. van Bluswyck in den Raad van State weegens Holland. H. Bentinck versogt hum te introbuceren. 1 mij. 9: meijer in den ststate wegens Overysl. 30 November. Utenhovre Heer van Heswrijck wegens Urecht.
+[main_text] In de Rekenhamer.
+[main_text] 1 Meij. Abscharih. Crap en de Rekenhamer, unt Holland 2 meij. Sloterdijck in de Rekenhamer uit Frisland.
+[main_text] 4 mij. 9: S. van Hardenbroch in de Rct. tegens Utrecht. 29 Meij. B: Veet en de Rett. weegens Overijssel.
+[main_text] Inde Admiralitteiten.
+[main_text] 24 Januarij. S. Vrijburgh in de Adm. in 't Noorderg: weegens Holland.
+[main_text] 24 Februarij. Minne in de Adm: in 't Noorderg: unt Hollend. 23 maert. Den Ben in de adm: op de maze uit Holland. 13 naert vander Hlff in de Adm: in't Noorderg: uit Holland. 3e Maert. J. Repelaer in de Adm: op de maze uit Holland: 30 maert. Scheltinga in de Adm: in Friesland uit Frasland. 31 Maert. van Collen in de Adm: in Zeeland. uit Holland. 25 April. Hamminick in de Adm: ReAmsterd: uit Stadenk: 26 April A. Vegilin van Claerbergen in de Adm: te Amsterd.
+[main_text] uit Stebensland. 27 april. Schorf in de Adm: in 't Noorderg: uit Holland:
+[main_text] 28 April. Gomar in de Adm: op demaze uit Holland.
+[main_text] 7 mij. Nesrut Briagen in tellen in Zelnd han Wmnt. 25 Augustij. Nouting in de Adm: in 't Noorderg: uit Hillend. 29 October. Mauiwsen in de Adm: te Amsterd: uit Overijssel. 20 november. De Lecuw in de Adm: te Amsterd: wegensUrechtt. 23 November. Van Brakel tot den Brakel in de Adm: in Frisland Wegens gelderland.
+[main_text] 4 December. Steengragt in de Admiraliteit in Zeeland, wegens Zeeland.
+[marginalia] commissien
+[main_text] verscheide Commissien
+[main_text] 10 februarij. Colonel van Schwartzenberg tot Generaal Major van de Infanterije
+[main_text] 20 Februarij. voer B. 1. Buys als minister te Hemburg, 1 Maert. voor B: Boey. als Ontfanger te Zas van gent.
+[main_text] 29 Maert. Voor Mr. Hendrich Fagel tot tweede Griffier van haar Ho:Mo:
+[main_text] 4 april. voor san querin als Consul in maltha. 3 april. Buter als Camnis generael van de adm in bijdk. 6 April. Vryburg ontfanger van de l: enL: te Alemaar.
+[main_text] 20 April. W. van Heusden als Vorster van Helvoirt.
+[main_text] 26 April. Justaat Willem van Imhof gouvrneur Generaal van neederlands Indien.
+[main_text] 2 meg. F. Croesen lontreroleier vande C: en t. les Bosch.
+[main_text] 12 mey Wr. Mauricus. Gouvernur ven Surmame.
+[main_text] 24 meij. 1. A. van Lith en seude tot Ontfanger van de Convoyen en Licenten te Tiel.
+[main_text] 24 miij. A. Beckhuijsen tot Contrerollur vande posten en booden.
+[main_text] 31 meij. 9. Roppers tot Contrerelleur van le lonvoijen en Licenden te Sul.
+[main_text] 13 Junij. 9. Post latr: Capitien ter Zen. onder de Adm: te Amsterdam.
+[main_text] 21 Junij. Cusor van Helthuijsen gehouden voor geommitteert als Bromenthebben van deb: 1. l: Wregens Overysel te delft.
+[main_text] 10 Julij. M. de veij. schepen van het Vrije de sluijs.
+[main_text] 19 Julij. S. S. Blondul tot Acsiter in het sagtgerit te sluijs
+[main_text] 24 Julij. 8. J. Huijgens latr: Capitin ter Zee onder de Adm: te Amsterdam.
+[main_text] 26 Julij: H. van Frel tot Contrerolliur te s' Herenberg. 13 Augusij. V. van Haren tot Guartisschout van Peeland.
+[main_text] sut folie t2
+[page_number] 65.
+--- 15z-b: 27 units (23 main_text)
+[page_number] 64.
+[main_text] Ter vergaderinge. 4 January. W: van Haeften tot Lenuwynen als latt: ged: uit gelderland.
+[main_text] 9 January. C. N: van Bieland als extr. ged: uit gelderland. 29 maert. op. A. van Utenhove heer van amelisnaert els ord. gedep: van Utrecht. 24 April. op 1. van Schuijlenburch als latr: 918. van gelderland. 24 April. W. van litters latr. ged: uit Zuland. schover latr. ged: uit Zeeland. vander mandere latr. ged: uit Zeland. 25 April. 1. Vos. ord. gedep: uit gelderland. 1 meij. Groenendijck ord. gesop: uit Holland. Ven Meel. ord. gedep: uit Holland. seevenhuijsen ord. gedip: it Holland. strick van Linscheten erd: gedij: van Utrucht. L. E. baendihs. cxtr. gebop van onorgssel ,meij. Introductie van de Heeren gecommitteerde Raaden. vande graef. van Cattenburch, van Hogenborp. Luuwin en gallas. 7 meij. Matthias Catr. Gedep: van Zuland. 11 Meij. Schimmapamnaidk venber oijen ord: g8d: uit gelderlend 15 meij. Schersse extr. ged. uit Zeeland. 25 Junij. E. Seroverins. Eatr. Gedep: van Ororigsschl. 26 Junij. Hargronse. Exstr. gedep: uit Zeeland. 5 Julij Tuijl van Serasterten. Eatr: gelep: van Utrecht. 17 Julij. Ero Suick van Burmania ext. ged. uit Friesland. 30 Augustuy. Matthias Eatr: ged. uit. Zeland. 17 Sptember. Coz Catr. gehop uit gelderlenb. 1 6010 6r. Bissim Porsinaris van best heyens tland. 1 October. Utenhove van Bottitin ord:. Ged: van Wraht. 6 October. van litters, Matis, Ssebres, Hlugels, Lambrechtsen, en Godin als Extr: Ged: van Zeeland 6 October Reastot. Secretaris van Zellnd als lit. 48d.
+[main_text] 3 December. Steengragt Extr. ged: van Zieland. 6. dcember. Sloot tot Lendenhorst ord: Gedep: uit Overijssel.
+[marginalia] Commissien
+[main_text] In den Raad van State.
+[main_text] 27 april. de Mars in den Raad van State wagens Stedent. 30 april. van Bluswyck in den Raad van State weegens Holland. H. Bentinck versogt hum te introbuceren. 1 mij. 9: meijer in den ststate wegens Overysl. 30 November. Utenhovre Heer van Heswrijck wegens Urecht.
+[main_text] In de Rekenhamer.
+[main_text] 1 Meij. Abscharih. Crap en de Rekenhamer, unt Holland 2 meij. Sloterdijck in de Rekenhamer uit Frisland.
+[main_text] 4 mij. 9: S. van Hardenbroch in de Rct. tegens Utrecht. 29 Meij. B: Veet en de Rett. weegens Overijssel.
+[main_text] Inde Admiralitteiten.
+[main_text] 24 Januarij. S. Vrijburgh in de Adm. in 't Noorderg: weegens Holland.
+[main_text] 24 Februarij. Minne in de Adm: in 't Noorderg: unt Hollend. 23 maert. Den Ben in de adm: op de maze uit Holland. 13 naert vander Hlff in de Adm: in't Noorderg: uit Holland. 3e Maert. J. Repelaer in de Adm: op de maze uit Holland: 30 maert. Scheltinga in de Adm: in Friesland uit Frasland. 31 Maert. van Collen in de Adm: in Zeeland. uit Holland. 25 April. Hamminick in de Adm: ReAmsterd: uit Stadenk: 26 April A. Vegilin van Claerbergen in de Adm: te Amsterd. uit Stebensland. 27 april. Schorf in de Adm: in 't Noorderg: uit Holland: 28 April. Gomar in de Adm: op demaze uit Holland. 7 mij. Nesrut Briagen in tellen in Zelnd han Wmnt. 25 Augustij. Nouting in de Adm: in 't Noorderg: uit Hillend. 29 October. Mauiwsen in de Adm: te Amsterd: uit Overijssel. 20 november. De Lecuw in de Adm: te Amsterd: wegensUrechtt. 23 November. Van Brakel tot den Brakel in de Adm: in Frisland Wegens gelderland. 4 December. Steengragt in de Admiraliteit in Zeeland, wegens Zeeland.
+[marginalia] commissien
+[main_text] verscheide Commissien
+[main_text] 10 februarij. Colonel van Schwartzenberg tot Generaal Major van de Infanterije
+[main_text] 20 Februarij. voer B. 1. Buys als minister te Hemburg, 1 Maert. voor B: Boey. als Ontfanger te Zas van gent.
+[main_text] 29 Maert. Voor Mr. Hendrich Fagel tot tweede Griffier van haar Ho:Mo:
+[main_text] 4 april. voor san querin als Consul in maltha. 3 april. Buter als Camnis generael van de adm in bijdk. 6 April. Vryburg ontfanger van de l: enL: te Alemaar. 20 April. W. van Heusden als Vorster van Helvoirt.
+[main_text] 26 April. Justaat Willem van Imhof gouvrneur Generaal van neederlands Indien. 2 meg. F. Croesen lontreroleier vande C: en t. les Bosch.
+[main_text] 12 mey Wr. Mauricus. Gouvernur ven Surmame.
+[main_text] 24 meij. 1. A. van Lith en seude tot Ontfanger van de Convoyen en Licenten te Tiel. 24 miij. A. Beckhuijsen tot Contrerollur vande posten en booden. 31 meij. 9. Roppers tot Contrerelleur van le lonvoijen en Licenden te Sul. 13 Junij. 9. Post latr: Capitien ter Zen. onder de Adm: te Amsterdam.
+[main_text] 21 Junij. Cusor van Helthuijsen gehouden voor geommitteert als Bromenthebben van deb: 1. l: Wregens Overysel te delft.
+[main_text] 10 Julij. M. de veij. schepen van het Vrije de sluijs.
+[main_text] 19 Julij. S. S. Blondul tot Acsiter in het sagtgerit te sluijs 24 Julij. 8. J. Huijgens latr: Capitin ter Zee onder de Adm: te Amsterdam. 26 Julij: H. van Frel tot Contrerolliur te s' Herenberg. 13 Augusij. V. van Haren tot Guartisschout van Peeland.
+[main_text] sut folie t2
+[page_number] 65.
+
+######## 3472  first read 15  NL-HaNA_1.01.02_3472_0119
+--- 15z-a: 30 units (23 main_text)
+[page_number] 202.
+[main_text] 30 Januarij. s Bererd Predihant te offenbach 200 gl eens.
+[main_text] 16 maert. miss: van Heurw. notif: het vaceeren van een Canonisije in het Capittel van Oirschot op de tour van de graaf van Merode. Rebrr. om la
+[main_text] 6 april. Req: Rogaart om approbatie op de Collatie van een Canonisije in het Capittel van Oirschot. Rantmester om a. 17 april. Reg: du Tour om approbatie op de Collatie van un Canonisije in het Capittel van oirschot. Rentmeester om a. 22 April. Berigjt van den Rentmester op de Reg: van Bogaart. 27 April. Borigt van den Rentmeester op de Reg: van due Tour. Rikensamer om a. 22 meij.. Advis Rckenhamer. op de versochen, soo van Bogaart, als du Tour. en Res: eerst te toonen, dat den graaff van mersde meerderjaarig is.
+[main_text] 6 Jung: Reg: Bogaart. met een bewijf van de meerderjarigheid van deGr: van merobe. Reht. om a. 24 Junij. advis Rekenkamer. en Res: Collatie op Rogaert geapprobeert.
+[main_text] 2 meij Reg: Scheepmnen van Oirschot, om suher delinquant te mogen bannen uit het district van de generaliteit, tot voorkomieng van de kosten van een Jugthuijs. R: Raad van Brabant, en van Vlaanderen te adviseeren, of het raadsaam is te permitteeren, aan subalterne gerigten, om te mogen bannen uit het geheele district van de generaliteit; soo jaa een loncept Placcaat te formeeren. Inmiddels die van berschot in dit geval de onkosten te vinden, als alle andere lasten. 16 meij. Reg: scheepenen van oirschot over het stellen van een personeele borg voor de pracise betaaling van de onkosten van het consinement. S. om a. 21 October. Advis Rossale in Res: daarop.
+[main_text] 24 October. miss:. van Heurn, Rentmeester van het Capettel van Oirschot noif: het vaceren van een Canonisije in het Capillel ttet tag van Oirschot op Redour van haar Ho:mo. Res. om a. 31 October. Advis van de Resr. en Res: Hett inkomen van de voors: Canonisije te laaten aan het geestelijk Compliir. Nic: van Heurn Coud s jaaren) aangestelt tot Hofman.
+[marginalia] Offenbach
+[marginalia] Oirschot.
+[main_text] 29 Januarij. Bruinier in de Adm: in 't Noorderg: 26 Februarij. gensmb Tengnagel in de Admt: in Friesland. 3 meij. ven Rasseld tot de Soll in de Ackenkamer. 9 maij. L. E. Daanbels ord: gedeputeerde. 13 meij. van Schemen tot Schemenshuijsen in de Adm: op de Maze.
+[main_text] 14 Mij. Voet in de Adm: te Amsterdam.
+[main_text] 7 Junij. Sloet tot Warmelo. ord. gedeputeerde. 10 Junij. Pobt. in de Rckenkamer.
+[main_text] 15 Junij. de Vos van Steuenwijck. extr. gedeputeerde. 4 Julij van Suchstelen ord: gedep:
+[main_text] 5 Julij. Van Rechteren tot Oldenhof extr. gedeputeerde. 17 October. Htteorsum latr. gedeputeerde.
+[main_text] 4 Januarij. in de prolongatie van het Octroij voor de O: s. l: op welbehagen. 14 Januarij suiveren het Welbehagen.
+[main_text] 11 April. S. n. in de volle 1600000 gl: voor het tweede jaar secours aan de Koningin, en verder in het secours van 20000 man voor het derde jaar. 16 april. S. B. naber Instructie ovor het secours vande 20000 man.
+[main_text] 15 Julij. 24660 van haar quote en de 1600000 gl gereed. De Overige 32476 4612 11. geassigneert op 't geen haar toehomt, volgens den Staat van equalisatie.
+[main_text] 15 Julij. in 6e Petitie van 660000 gl: tot de behoeften van een Veldleeger. Hem
+[main_text] in de sebitui suppletoir van 584000 gl: om de troupes te doen marschuren.
+[marginalia] Commissien.
+[marginalia] consenten.
+[marginalia] Overijssel
+[main_text] 14 Januarij. Prop. Overijssel. Gereed om haar te verklaaren op de vermindering van regten op het inhoomend rundvéé, Varkens, en speck. R: de ongereede Prov: bij Missive versogt.
+[main_text] 23 Maert. Prop: Overijssel over de pretensie van den Bisshop van Wurtzburg tot laste van het graefschap Bentheim. en Sas: daar op. Titt Bentheim. B
+[main_text] 16 Augustij. nader. Prop: Overijssel. en Res: daarop. sit Bentheim. B.
+[main_text] 25 April. Overijssel versogt de ses Compagnien van Mulert bij een de trekten te Zwol.
+[main_text] 5 Julij. Prop. overijssel om mer guarnisoen. Comk 11 Julij. Miss. Staaten om meer guarnisoen, ten menste nog een bataillon. Comm: R.
+[main_text] 15 Julij. mits. Staaten van Overijssel. geredheid van 2465018 8st: 8p. van haar quote in de 1600000 gl voor de Koningin van Hongarijen. de overige 32476. gl: 16 st: geassigneert op tgeen haar Hoehomt, volgens den Staat van egalisatie. Item Consent in de Petitie van 660 m gl: tot de behoeften van een Velteger, en in de setitie Suppletoir van 564 m: gl. R: Copije aan den Arst: Zeeland, Vriesland, en Stad en Lande bij missive versogt de Staat van galisatie te voldoen.
+[main_text] 25 November. Propositie Overijssel over een aluijs begeaan met de Essortis voor de Koning van Engeland, met Appeldoorn te rakenen voor de limite van Overijssel, doar de limito is de Herberg de Dood bij Devenber. R: in het vervolg refflaie daar op te maken.
+[page_number] 203.
+--- 15z-b: 20 units (13 main_text)
+[page_number] 202.
+[main_text] 30 Januarij. s Bererd Predihant te offenbach 200 gl eens.
+[main_text] 16 maert. miss: van Heurw. notif: het vaceeren van een Canonisije in het Capittel van Oirschot op de tour van de graaf van Merode. Rebrr. om la 6 april. Req: Rogaart om approbatie op de Collatie van een Canonisije in het Capittel van Oirschot. Rantmester om a. 17 april. Reg: du Tour om approbatie op de Collatie van un Canonisije in het Capittel van oirschot. Rentmeester om a. 22 April. Berigjt van den Rentmester op de Reg: van Bogaart. 27 April. Borigt van den Rentmeester op de Reg: van due Tour. Rikensamer om a. 22 meij.. Advis Rckenhamer. op de versochen, soo van Bogaart, als du Tour. en Res: eerst te toonen, dat den graaff van mersde meerderjaarig is. 6 Jung: Reg: Bogaart. met een bewijf van de meerderjarigheid van deGr: van merobe. Reht. om a. 24 Junij. advis Rekenkamer. en Res: Collatie op Rogaert geapprobeert. 2 meij Reg: Scheepmnen van Oirschot, om suher delinquant te mogen bannen uit het district van de generaliteit, tot voorkomieng van de kosten van een Jugthuijs. R: Raad van Brabant, en van Vlaanderen te adviseeren, of het raadsaam is te permitteeren, aan subalterne gerigten, om te mogen bannen uit het geheele district van de generaliteit; soo jaa een loncept Placcaat te formeeren. Inmiddels die van berschot in dit geval de onkosten te vinden, als alle andere lasten. 16 meij. Reg: scheepenen van oirschot over het stellen van een personeele borg voor de pracise betaaling van de onkosten van het consinement. S. om a. 21 October. Advis Rossale in Res: daarop.
+[main_text] 24 October. miss:. van Heurn, Rentmeester van het Capettel van Oirschot noif: het vaceren van een Canonisije in het Capillel ttet tag van Oirschot op Redour van haar Ho:mo. Res. om a. 31 October. Advis van de Resr. en Res: Hett inkomen van de voors: Canonisije te laaten aan het geestelijk Compliir. Nic: van Heurn Coud s jaaren) aangestelt tot Hofman.
+[marginalia] Offenbach
+[marginalia] Oirschot.
+[main_text] 29 Januarij. Bruinier in de Adm: in 't Noorderg: 26 Februarij. gensmb Tengnagel in de Admt: in Friesland. 3 meij. ven Rasseld tot de Soll in de Ackenkamer. 9 maij. L. E. Daanbels ord: gedeputeerde. 13 meij. van Schemen tot Schemenshuijsen in de Adm: op de Maze. 14 Mij. Voet in de Adm: te Amsterdam. 7 Junij. Sloet tot Warmelo. ord. gedeputeerde. 10 Junij. Pobt. in de Rckenkamer. 15 Junij. de Vos van Steuenwijck. extr. gedeputeerde. 4 Julij van Suchstelen ord: gedep: 5 Julij. Van Rechteren tot Oldenhof extr. gedeputeerde. 17 October. Htteorsum latr. gedeputeerde.
+[main_text] 4 Januarij. in de prolongatie van het Octroij voor de O: s. l: op welbehagen. 14 Januarij suiveren het Welbehagen.
+[main_text] 11 April. S. n. in de volle 1600000 gl: voor het tweede jaar secours aan de Koningin, en verder in het secours van 20000 man voor het derde jaar. 16 april. S. B. naber Instructie ovor het secours vande 20000 man. 15 Julij. 24660 van haar quote en de 1600000 gl gereed. De Overige 32476 4612 11. geassigneert op 't geen haar toehomt, volgens den Staat van equalisatie.
+[main_text] 15 Julij. in 6e Petitie van 660000 gl: tot de behoeften van een Veldleeger. Hem in de sebitui suppletoir van 584000 gl: om de troupes te doen marschuren.
+[marginalia] Commissien.
+[marginalia] consenten.
+[marginalia] Overijssel
+[main_text] 14 Januarij. Prop. Overijssel. Gereed om haar te verklaaren op de vermindering van regten op het inhoomend rundvéé, Varkens, en speck. R: de ongereede Prov: bij Missive versogt.
+[main_text] 23 Maert. Prop: Overijssel over de pretensie van den Bisshop van Wurtzburg tot laste van het graefschap Bentheim. en Sas: daar op. Titt Bentheim. B 16 Augustij. nader. Prop: Overijssel. en Res: daarop. sit Bentheim. B.
+[main_text] 25 April. Overijssel versogt de ses Compagnien van Mulert bij een de trekten te Zwol.
+[main_text] 5 Julij. Prop. overijssel om mer guarnisoen. Comk 11 Julij. Miss. Staaten om meer guarnisoen, ten menste nog een bataillon. Comm: R.
+[main_text] 15 Julij. mits. Staaten van Overijssel. geredheid van 2465018 8st: 8p. van haar quote in de 1600000 gl voor de Koningin van Hongarijen. de overige 32476. gl: 16 st: geassigneert op tgeen haar Hoehomt, volgens den Staat van egalisatie. Item Consent in de Petitie van 660 m gl: tot de behoeften van een Velteger, en in de setitie Suppletoir van 564 m: gl. R: Copije aan den Arst: Zeeland, Vriesland, en Stad en Lande bij missive versogt de Staat van galisatie te voldoen.
+[main_text] 25 November. Propositie Overijssel over een aluijs begeaan met de Essortis voor de Koning van Engeland, met Appeldoorn te rakenen voor de limite van Overijssel, doar de limito is de Herberg de Dood bij Devenber. R: in het vervolg refflaie daar op te maken.
+[page_number] 203.
+
+######## 3475  first read 11  NL-HaNA_1.01.02_3475_0010
+--- 15z-a: 30 units (27 main_text)
+[main_text] 10 Januarij. miss: Adm: op de Maze. notif: het invallen van slands schip gorcum Capitein Keijser uit de Oostrse.
+[main_text] 22 Januarij. miss. Adm: op de Maze. nominatie van een secretaris van de Adm: op de Maze. R: Ad: Visscher aangestelt.
+[main_text] siet 5 maert insra.
+[main_text] 19 Februarij. mits: ddm op de Maze over het verleenen van Vrijdom voor Hanoversche montauro, en paerden te Venlo, die op het Pruijsisch Comptoir to Wachtendbonk vrij. teren gepesseert 3. aem: op de maze daar op te disppoheeren.
+[main_text] 3 Maert. miss: Adm: op de maze. over de scheppen die tot Escorte van de troupes na Engeland souden kunnen dienen. R: kennis daar van te guven aan Trevor.
+[main_text] 5 maart. miss: Adm: op de Maze. Nominatie tot da advocrat Fiscaals plaets van de adm: op be Maze. R F. Bisdom aangestelt.
+[main_text] 26 Maart. miss. Adm: op de Maze. Nominatie van een Capitin ter Ze. R. 11. des marotz aangestelt.
+[page_number] 10.
+[marginalia] Admiraliteit op de Maze.
+[main_text] 2 April. miss: Adm: op de maze rekende de passage van 12 Hanoversche paarden, sonder pasport van haare ho:mo: R: kennis daer van te jeeren aan spoircken, om in het tachomende een pasport te ragen, off te betaalen.
+[main_text] 2 April. Miss: Adm: op de Maze, om explicatie van de Resolutie van 20 September 1724 van: de residentie van Ontfangers en andere officianten, en het horten van hun Tractement, in cas van absentie. Comm: met Rithr.
+[main_text] 11 april. miss. Adm: op de Maze, om permissie voor den Ontfanger Cliché, om sijn functie door een substitut te leeten Waernamen. R. Hoegstan, soo lang sijn in bipositie diurt.
+[main_text] 30 april. Berigt Adm: op de Maze. over de pointen van menage. Comm:
+[main_text] 12 meij. miss:. van Kinschot over het versenden van kopere duit plaaten bij partijen, en het afschrijven van deselve op het pasport. R. adm: op de Maze daar toe ordre te stellen nisi causam.
+[main_text] 10 Junij. Miss: Adm: op de Maze. Reedenen, Waarom vermijnen, dat gebteven moet werden bij de Ras: van 29 Octob: 1734. . lopije daar van te senden aan Kinschot.
+[main_text] 10 Junij. miss: Adm: op de Maze om dispensatie vande guarantaine voor het schip de Cristina galij somende van Napels en gallipoli. R: Adm: op de Maze geauthorisart de dispensatie te verleenen.
+[main_text] 7 Julij. Reg: de Vogel. en Ferriera, over een schip te gouso aangehomen, met unge baelen na sevitin gedestinart. A. Adm: op de maze om a. 11 augustij. Mis Adm: op de MazeR: versoch. afg:
+[main_text] Admiraliteit op de Maze.
+[main_text] 8 Julij. Rtich Adm. op de man. uitlaen van 4 schupen van het Eesquadre.
+[main_text] 6 Augjustij. Mis. Adm. op de Rove. het antwoord op haer H: Ho. Resolutie van den 31 Julij. rak de praecautien tot waring van de besmestelijke suchten.
+[main_text] 5 Augustij. 1. n. Res: oobre aan de Adm: op de Maze, en te Amsterdam, ontrent het emploij van vier schepen tot protestie van de OostInbische getourelost, en Vischerij. 13 Augustij. 1. n. mits. Adm: op de Maze tot antwoord.
+[main_text] 25 September. miss. Adm op de Maze, om dispensatie van de quarantaine voor het schip de Maze, komende van Galiphi. Res. adm. op de saze daar tu geauthorisurt.
+[main_text] 3 October. miss: magistraat van Venlo, om eenige clementie voor de Maas- schippers, en voor al voor den marstschipper van Venlo in de invordering van s'lands regten. R: Adm: op de Maze (om a.
+[main_text] 3 October. miss: Adm. op de Maze. Reclame van een deserteur door de OostInd. Compagnie op een van haar scheepen aangenomen. Res: ordre aan Bewindh: van de O: S: C: ter Kamer delft, om den deserteur aanstonts overtegeeven nisi causam. 10 October. Mit. Belerte vyd hebbilts van beb: 1: l. ter Kamer Delft. tot antwoord. R: lopije aan de Adm: op de Maze tot narigt. 31 October. Miss. adm: op de Maze. Consideratien op de Miss: van Benendhebbers. R. Revindhabbers van de O: 1. C. aangeschreeven in het toekomende deserteurs overbegeeven, als die gereclameert werden.
+[main_text] 14 October. miss: Adm: op de Maze, om explicatie ontrent den tijd, binnen welken mandement van Revisé van sententien van de Admiralitit meet worden versogft. Comm: met de Adm: 19 October. Rapport en Res. deliberata untgestelt. De Missive bij Holl. overg.
+[main_text] 16 October. Reg: van Rossum, om manbement van Revisie van een sententie van deAdmiraliteit op de Maze. Res: uitgestelt. 19 October. Rapport en Res. Mandament van Revisie verlaent. Vier Provincien verstaan dat hij het volle effict van 't mandament moet genieten.
+[main_text] 24 October. Reg: Thomson, om de laading van het schip be Ducke bij ongelik te latwyck op zee binnen gebragt, vrij te mogen en en uitvoeren. H: Adm: op de Maze om a 30 October. Advis Adm: op de aze. en Ras. vorsch Hoigstain.
+[main_text] 26 October. Mih. Adm: op de Maze. Revistualieering van de schepen onder haer resort. 27 November. mits Adm: op. be Meze. Voorsiening hoor haar gedaan, met relatie tot de vier schepen van haar resort.
+[main_text] 29 december. miss: Adm: op de Maze over soldijen en kostgelden van matroosen op de sagten van gouverneurs van s'Bosch, en Vlaanderen. Com:
+[page_number] 11.
+--- 15z-b: 27 units (24 main_text)
+[main_text] 10 Januarij. miss: Adm: op de Maze. notif: het invallen van slands schip gorcum Capitein Keijser uit de Oostrse.
+[main_text] 22 Januarij. miss. Adm: op de Maze. nominatie van een secretaris van de Adm: op de Maze. R: Ad: Visscher aangestelt. siet 5 maert insra.
+[main_text] 19 Februarij. mits: ddm op de Maze over het verleenen van Vrijdom voor Hanoversche montauro, en paerden te Venlo, die op het Pruijsisch Comptoir to Wachtendbonk vrij. teren gepesseert 3. aem: op de maze daar op te disppoheeren.
+[main_text] 3 Maert. miss: Adm: op de maze. over de scheppen die tot Escorte van de troupes na Engeland souden kunnen dienen. R: kennis daar van te guven aan Trevor.
+[main_text] 5 maart. miss: Adm: op de Maze. Nominatie tot da advocrat Fiscaals plaets van de adm: op be Maze. R F. Bisdom aangestelt.
+[main_text] 26 Maart. miss. Adm: op de Maze. Nominatie van een Capitin ter Ze. R. 11. des marotz aangestelt.
+[page_number] 10.
+[marginalia] Admiraliteit op de Maze.
+[main_text] 2 April. miss: Adm: op de maze rekende de passage van 12 Hanoversche paarden, sonder pasport van haare ho:mo: R: kennis daer van te jeeren aan spoircken, om in het tachomende een pasport te ragen, off te betaalen.
+[main_text] 2 April. Miss: Adm: op de Maze, om explicatie van de Resolutie van 20 September 1724 van: de residentie van Ontfangers en andere officianten, en het horten van hun Tractement, in cas van absentie. Comm: met Rithr.
+[main_text] 11 april. miss. Adm: op de Maze, om permissie voor den Ontfanger Cliché, om sijn functie door een substitut te leeten Waernamen. R. Hoegstan, soo lang sijn in bipositie diurt.
+[main_text] 30 april. Berigt Adm: op de Maze. over de pointen van menage. Comm:
+[main_text] 12 meij. miss:. van Kinschot over het versenden van kopere duit plaaten bij partijen, en het afschrijven van deselve op het pasport. R. adm: op de Maze daar toe ordre te stellen nisi causam. 10 Junij. Miss: Adm: op de Maze. Reedenen, Waarom vermijnen, dat gebteven moet werden bij de Ras: van 29 Octob: 1734. . lopije daar van te senden aan Kinschot.
+[main_text] 10 Junij. miss: Adm: op de Maze om dispensatie vande guarantaine voor het schip de Cristina galij somende van Napels en gallipoli. R: Adm: op de Maze geauthorisart de dispensatie te verleenen.
+[main_text] 7 Julij. Reg: de Vogel. en Ferriera, over een schip te gouso aangehomen, met unge baelen na sevitin gedestinart. A. Adm: op de maze om a. 11 augustij. Mis Adm: op de MazeR: versoch. afg:
+[main_text] Admiraliteit op de Maze.
+[main_text] 8 Julij. Rtich Adm. op de man. uitlaen van 4 schupen van het Eesquadre.
+[main_text] 6 Augjustij. Mis. Adm. op de Rove. het antwoord op haer H: Ho. Resolutie van den 31 Julij. rak de praecautien tot waring van de besmestelijke suchten.
+[main_text] 5 Augustij. 1. n. Res: oobre aan de Adm: op de Maze, en te Amsterdam, ontrent het emploij van vier schepen tot protestie van de OostInbische getourelost, en Vischerij. 13 Augustij. 1. n. mits. Adm: op de Maze tot antwoord.
+[main_text] 25 September. miss. Adm op de Maze, om dispensatie van de quarantaine voor het schip de Maze, komende van Galiphi. Res. adm. op de saze daar tu geauthorisurt.
+[main_text] 3 October. miss: magistraat van Venlo, om eenige clementie voor de Maas- schippers, en voor al voor den marstschipper van Venlo in de invordering van s'lands regten. R: Adm: op de Maze (om a.
+[main_text] 3 October. miss: Adm. op de Maze. Reclame van een deserteur door de OostInd. Compagnie op een van haar scheepen aangenomen. Res: ordre aan Bewindh: van de O: S: C: ter Kamer delft, om den deserteur aanstonts overtegeeven nisi causam. 10 October. Mit. Belerte vyd hebbilts van beb: 1: l. ter Kamer Delft. tot antwoord. R: lopije aan de Adm: op de Maze tot narigt. 31 October. Miss. adm: op de Maze. Consideratien op de Miss: van Benendhebbers. R. Revindhabbers van de O: 1. C. aangeschreeven in het toekomende deserteurs overbegeeven, als die gereclameert werden. 14 October. miss: Adm: op de Maze, om explicatie ontrent den tijd, binnen welken mandement van Revisé van sententien van de Admiralitit meet worden versogft. Comm: met de Adm: 19 October. Rapport en Res. deliberata untgestelt. De Missive bij Holl. overg.
+[main_text] 16 October. Reg: van Rossum, om manbement van Revisie van een sententie van deAdmiraliteit op de Maze. Res: uitgestelt. 19 October. Rapport en Res. Mandament van Revisie verlaent. Vier Provincien verstaan dat hij het volle effict van 't mandament moet genieten.
+[main_text] 24 October. Reg: Thomson, om de laading van het schip be Ducke bij ongelik te latwyck op zee binnen gebragt, vrij te mogen en en uitvoeren. H: Adm: op de Maze om a 30 October. Advis Adm: op de aze. en Ras. vorsch Hoigstain.
+[main_text] 26 October. Mih. Adm: op de Maze. Revistualieering van de schepen onder haer resort. 27 November. mits Adm: op. be Meze. Voorsiening hoor haar gedaan, met relatie tot de vier schepen van haar resort.
+[main_text] 29 december. miss: Adm: op de Maze over soldijen en kostgelden van matroosen op de sagten van gouverneurs van s'Bosch, en Vlaanderen. Com:
+[page_number] 11.
+
+######## 3489  first read 107  NL-HaNA_1.01.02_3489_0146
+--- 15z-a: 38 units (36 main_text)
+[main_text] Requisitorialen
+[main_text] 1. novemb. Requisitorialen afgevaardigd aan Koning van Pruijssen, wegens de Regimenten, die de Winterquartieren staan te betrekken, volgens de daarbij gevoegde Lijst. 11. Novemb: miss: van Antwr. van Pruijsse. Krijgs. en Domeijn Kamer te Cleve, of Requisitorialen om den Doormarsch van Troupen nade Winter Quartieren, Resaan R.
+[main_text] Item missie Antwr. van Pruijsse Commissie te Gelderen dien aangaande Residenk. 20. Novemb. mis. van Antisd van Koning van Pruijssen Baarop, Residan R.
+[main_text] 1 16. Decemb. miss. van Antwoord van Pruijsse. Rrijgs en Domeijn Kamer te Cleve, op Requisitorialen om den Doormarsch voor twee Bataillons van Zijn Hoogheijd. Res. dan R.
+[main_text] 18. Decemb: Op Reg. van Grave van Lillets, staande opterechten een Regiment' Grenadiers Walons, zijn ek vereijschte Requisiterial en gedepecheerd.
+[main_text] 27. Decemb: Op mis. van Rrst, gedepecheerd Requisitorialen aan verscheijde Rijks steden en Crincen, ten behoeve van Recouten, welke de Baron Reichlin van Meldegg, staat aan te werven.
+[main_text] Hlang ziet: Titulature.
+[main_text] Requisitorialen.
+[main_text] 2. Aug. miss. Koning van Pruijssen: Antwoord op een brief van Requisitie. Res. aan den Rv. H.
+[main_text] 14. Aug. miss. Koning van Pruijssen: Antw. op een brief van Requisitie, en om generale permissie tot Doortogten, Commers.
+[main_text] 9. Sept. miss. Rrijgs, en Domeijn Kamer te Cleve: Antwr. op Requisitbrialen om den Doormassch der HessenDaemstadsche Regimenten. Res. aan Secrs. Herst, te Beclijn, om permissie daartoe ten spoedigsten uijt te weeken. en Commetc.
+[main_text] 29. Sept. miss. Secrs. Horst, r: het toestaan van Doormarsch voor de L. Hessen Darmstadsche Regimenten, en voor 42e. Bataillon van Zijn Hoogheijd, Res. aan R.
+[main_text] 12. Sept. Requisitorialen affevaardigen tot vrije Overkomft vande drie Bataillons van Zijn Hoogheijd. 26. octob. miss. Regering van Gulik en Berg, zijnde antwe. op Requisitorialen om den Doormarsch van 't 2en. Bataillen van Zijn Hoogheijd. Res. aan R,
+[main_text] 4. Novemb. miss van Craijsse. Rrijgs en Domeijn, Kamer te Cleve, zijnde Antwl op Requisotorialen om den Doormarsch voor een Rat: van zijn Hooghwijd, en houdende verzoek, dat voortaan de Requisitorialen t'elkenb vraegtijdig afgezonden werden. Res. aen R. e deedenheijde. Re
+[main_text] 16. Sept. miss. Gulik en Bergsche Regering te Dusseldorp: Antwdop Requisitorialen om den Evermarsch der twee Hessen Darmstadsche Regimten. Res. aan R.
+[main_text] 19. Sepd: item miss. van Keurverst van Paltz, Res.an R.
+[main_text] 21. Octob. op Reg.r. G. Heenemaen, gedepecheerd de nodig Reguisitorialen ten behoeve van 3. Compen, komende uijt Beijeren, tot complotering van't nieuw Regimt. van den Poins van Saxen Hildburgheusen.
+[main_text] 18. novemb. op Reg. van C.hi Baron van Leutrum, opgemaakt Requisitorialen aan verscheijde Steden in Duijtschland, ten behoeve vande Recrutes voor zijn Regiment 13. Decemb. O. Reg. van Bacon van Leustrum, Cols. van een nieuw aante werven Regiment Infanterij, nog gedepecheerd Requisitocialen aan eeniga Rijks. Steden.
+[main_text] Advisen over Omslagen, Remissien, Negociatien
+[main_text] 5. Aug. Adv. Ro St. over Remissie en Gratificatie aan eenige Inwooners tot Leende, welker Huijzen afgebrand zijn. Res. geacord. mits weder op bouwende.
+[main_text] 12. Aug. adv. Rv St. r. Letteren Executoriaal aan die te St. Michiels Gestel, wegens een halve verpondinge voor Bienvenue. Res. verlaend, mits Rc.
+[main_text] 15. aug. adv: Ro St. viden inhoop van Rogge te Stevenswaard. Res. de Regenten daartoe te negotieren 1300. gls. mits der.
+[main_text] 8. Seph. Reg. Burgermren. dec. van Dalhem, om tot laste van het Corpus aldaar te mogen negotieren 1000. gls. Res. aan den R. om 2.
+[main_text] 21. Sept. op miss. Rrest, aan de Regenten van de Heerlijk heijd de Hoeve, in 't Marquisaat van Bergen op Zoom, gepermitteerd, te negotieren 500. gls.
+[main_text] 29 Sept. op adv. van Roet, verleend Remissie van Verpondingen en Beden van die landerijen van den Polder genaamd het Bosse veld en maij, dewelke in 1746, op ordre van Lande, geinundeerd zijn geworden, zo lang als die inundatie zal duren.
+[main_text] 1. Octob. op adv. van Rrst, aen geauthoriseerden van Lijk en Pelder van Vugt, verleend prolongatie van octroij, voor 8. jaren, om jaarlijks te mogen omslaans 150. gls, tot betalinge van lasten, mits dre
+[main_text] 18. Octob. op adr van Rrst, is het verzoek van Regenten van Cromvoirt, r. het ophalen van veële Omslagen en alle verdere personele Lasten van het gehucht seuteren, afgeslagen, met last, dat de Supplten aan de geerfdons van Deuteren zullen restituéren alle de penningen, sodert 1741. en 1742. door haar opgehaald over de Landerijen van laatstgemelden.
+[marginalia] Raad van State
+[main_text] Octroijen, Registratien, Opdragten, dro.
+[main_text] 18. Octob. Reg. van Standon der drie Landen van Overmaze, om Remissie van ords Beden voor zes jasen, Resi aan R. om adv.
+[main_text] 2. Novemb. Reg. van Regenten der Stad Helmont, om permissie tot het negotieren van 7000. gls, ook om, wegens de volstrekte onmacht van die Stad, voor ditmaal te zijn ontheven vande gewoone aflossinge dx. Res. aan R. om adv.
+[main_text] 3. Novemb: Reg. van Regenten van Steenbergen, om Remissie van verpondingen voor de geinundeerde Landen, Res. dan R. om adv. 30. Decemb: op adr: van RrB. verleend Remissie van verpondingen en beden, zo lang als de Landerijen onder water staan, mitsdroen behoudens dat dre
+[main_text] 11. Novemb. Reg. van Regenton der Heerlijkheijd Vugt, om Remissie van Verpondingen, breden, en gemeene middelen. Res. aen R. om adv.
+[main_text] 13. Novemb. Reg. van Dorpmeesters van Graafschappe van den Voenhove som Remissie van Verpondingen drc. en Octroij tot het negotieren van eene somme van dre. Res. aan R. om adv. 27. Delemb: Op adv: van Rost, verleend zodanige Remissie voor dezen jare 1747, als in 't brede is gespecificeerd, met vrijheijdere. ook permissie tot het negotieren van 3000. gls, miitsden
+[main_text] 21. novemb: Reg. van Doopmeesters der Heerlijkheden Rutten, Nederheim, en Keen, alle drie Dorpen van Redemptie, om Remissie vande Redemptie penn:,en om Octroij tot het negotiesen van eene somme van dre. Res: aan R. om adv.
+[main_text] 29. Novemb. Reg. van Regenton van Valkenswaart, en van Dommelen, om ten llaste van die Corpera respe. te mogen negotieren. Res. aan R. om adv.
+[main_text] 30. Novemb. Reg. van Deken en Capittel van St. Serraas te maastrickt, om Remissie van verschulde gesolectie penningen voor hare Dolpen. Res:. aan R. om adv.
+[marginalia] .
+--- 15z-b: 33 units (31 main_text)
+[main_text] Requisitorialen
+[main_text] 1. novemb. Requisitorialen afgevaardigd aan Koning van Pruijssen, wegens de Regimenten, die de Winterquartieren staan te betrekken, volgens de daarbij gevoegde Lijst. 11. Novemb: miss: van Antwr. van Pruijsse. Krijgs. en Domeijn Kamer te Cleve, of Requisitorialen om den Doormarsch van Troupen nade Winter Quartieren, Resaan R. Item missie Antwr. van Pruijsse Commissie te Gelderen dien aangaande Residenk. 20. Novemb. mis. van Antisd van Koning van Pruijssen Baarop, Residan R.
+[main_text] 1 16. Decemb. miss. van Antwoord van Pruijsse. Rrijgs en Domeijn Kamer te Cleve, op Requisitorialen om den Doormarsch voor twee Bataillons van Zijn Hoogheijd. Res. dan R.
+[main_text] 18. Decemb: Op Reg. van Grave van Lillets, staande opterechten een Regiment' Grenadiers Walons, zijn ek vereijschte Requisiterial en gedepecheerd.
+[main_text] 27. Decemb: Op mis. van Rrst, gedepecheerd Requisitorialen aan verscheijde Rijks steden en Crincen, ten behoeve van Recouten, welke de Baron Reichlin van Meldegg, staat aan te werven.
+[main_text] Hlang ziet: Titulature.
+[main_text] Requisitorialen.
+[main_text] 2. Aug. miss. Koning van Pruijssen: Antwoord op een brief van Requisitie. Res. aan den Rv. H.
+[main_text] 14. Aug. miss. Koning van Pruijssen: Antw. op een brief van Requisitie, en om generale permissie tot Doortogten, Commers.
+[main_text] 9. Sept. miss. Rrijgs, en Domeijn Kamer te Cleve: Antwr. op Requisitbrialen om den Doormassch der HessenDaemstadsche Regimenten. Res. aan Secrs. Herst, te Beclijn, om permissie daartoe ten spoedigsten uijt te weeken. en Commetc. 29. Sept. miss. Secrs. Horst, r: het toestaan van Doormarsch voor de L. Hessen Darmstadsche Regimenten, en voor 42e. Bataillon van Zijn Hoogheijd, Res. aan R.
+[main_text] 12. Sept. Requisitorialen affevaardigen tot vrije Overkomft vande drie Bataillons van Zijn Hoogheijd. 26. octob. miss. Regering van Gulik en Berg, zijnde antwe. op Requisitorialen om den Doormarsch van 't 2en. Bataillen van Zijn Hoogheijd. Res. aan R, 4. Novemb. miss van Craijsse. Rrijgs en Domeijn, Kamer te Cleve, zijnde Antwl op Requisotorialen om den Doormarsch voor een Rat: van zijn Hooghwijd, en houdende verzoek, dat voortaan de Requisitorialen t'elkenb vraegtijdig afgezonden werden. Res. aen R. e deedenheijde. Re
+[main_text] 16. Sept. miss. Gulik en Bergsche Regering te Dusseldorp: Antwdop Requisitorialen om den Evermarsch der twee Hessen Darmstadsche Regimten. Res. aan R. 19. Sepd: item miss. van Keurverst van Paltz, Res.an R.
+[main_text] 21. Octob. op Reg.r. G. Heenemaen, gedepecheerd de nodig Reguisitorialen ten behoeve van 3. Compen, komende uijt Beijeren, tot complotering van't nieuw Regimt. van den Poins van Saxen Hildburgheusen.
+[main_text] 18. novemb. op Reg. van C.hi Baron van Leutrum, opgemaakt Requisitorialen aan verscheijde Steden in Duijtschland, ten behoeve vande Recrutes voor zijn Regiment 13. Decemb. O. Reg. van Bacon van Leustrum, Cols. van een nieuw aante werven Regiment Infanterij, nog gedepecheerd Requisitocialen aan eeniga Rijks. Steden.
+[main_text] 5. Aug. Adv. Ro St. over Remissie en Gratificatie aan eenige Inwooners tot Leende, welker Huijzen afgebrand zijn. Res. geacord. mits weder op bouwende.
+[main_text] 12. Aug. adv. Rv St. r. Letteren Executoriaal aan die te St. Michiels Gestel, wegens een halve verpondinge voor Bienvenue. Res. verlaend, mits Rc.
+[main_text] 15. aug. adv: Ro St. viden inhoop van Rogge te Stevenswaard. Res. de Regenten daartoe te negotieren 1300. gls. mits der.
+[main_text] 8. Seph. Reg. Burgermren. dec. van Dalhem, om tot laste van het Corpus aldaar te mogen negotieren 1000. gls. Res. aan den R. om 2.
+[main_text] 21. Sept. op miss. Rrest, aan de Regenten van de Heerlijk heijd de Hoeve, in 't Marquisaat van Bergen op Zoom, gepermitteerd, te negotieren 500. gls.
+[main_text] 29 Sept. op adv. van Roet, verleend Remissie van Verpondingen en Beden van die landerijen van den Polder genaamd het Bosse veld en maij, dewelke in 1746, op ordre van Lande, geinundeerd zijn geworden, zo lang als die inundatie zal duren.
+[main_text] 1. Octob. op adv. van Rrst, aen geauthoriseerden van Lijk en Pelder van Vugt, verleend prolongatie van octroij, voor 8. jaren, om jaarlijks te mogen omslaans 150. gls, tot betalinge van lasten, mits dre
+[main_text] 18. Octob. op adr van Rrst, is het verzoek van Regenten van Cromvoirt, r. het ophalen van veële Omslagen en alle verdere personele Lasten van het gehucht seuteren, afgeslagen, met last, dat de Supplten aan de geerfdons van Deuteren zullen restituéren alle de penningen, sodert 1741. en 1742. door haar opgehaald over de Landerijen van laatstgemelden.
+[main_text] Advisen over Omslagen, Remissien, Negociatien Octroijen, Registratien, Opdragten, dro.
+[main_text] 18. Octob. Reg. van Standon der drie Landen van Overmaze, om Remissie van ords Beden voor zes jasen, Resi aan R. om adv.
+[main_text] 2. Novemb. Reg. van Regenten der Stad Helmont, om permissie tot het negotieren van 7000. gls, ook om, wegens de volstrekte onmacht van die Stad, voor ditmaal te zijn ontheven vande gewoone aflossinge dx. Res. aan R. om adv.
+[main_text] 3. Novemb: Reg. van Regenten van Steenbergen, om Remissie van verpondingen voor de geinundeerde Landen, Res. dan R. om adv. 30. Decemb: op adr: van RrB. verleend Remissie van verpondingen en beden, zo lang als de Landerijen onder water staan, mitsdroen behoudens dat dre
+[main_text] 11. Novemb. Reg. van Regenton der Heerlijkheijd Vugt, om Remissie van Verpondingen, breden, en gemeene middelen. Res. aen R. om adv.
+[main_text] 13. Novemb. Reg. van Dorpmeesters van Graafschappe van den Voenhove som Remissie van Verpondingen drc. en Octroij tot het negotieren van eene somme van dre. Res. aan R. om adv. 27. Delemb: Op adv: van Rost, verleend zodanige Remissie voor dezen jare 1747, als in 't brede is gespecificeerd, met vrijheijdere. ook permissie tot het negotieren van 3000. gls, miitsden
+[main_text] 21. novemb: Reg. van Doopmeesters der Heerlijkheden Rutten, Nederheim, en Keen, alle drie Dorpen van Redemptie, om Remissie vande Redemptie penn:,en om Octroij tot het negotiesen van eene somme van dre. Res: aan R. om adv.
+[main_text] 29. Novemb. Reg. van Regenton van Valkenswaart, en van Dommelen, om ten llaste van die Corpera respe. te mogen negotieren. Res. aan R. om adv.
+[main_text] 30. Novemb. Reg. van Deken en Capittel van St. Serraas te maastrickt, om Remissie van verschulde gesolectie penningen voor hare Dolpen. Res:. aan R. om adv.
+[marginalia] Raad van State
+[marginalia] .
+
+######## 3726  first read 56  NL-HaNA_1.01.02_3726_0005
+--- 15z-a: 70 units (54 main_text)
+[main_text] Gelderland en Zutphen folo 169. Geloofsbrieven, zee Credentialen Lett C. Gemert.
+[main_text] 150. Generaliteits Middelen.. 183. Staten Generaal en Generaliteit 190. Geneve
+[other] .
+[main_text] 193. Genoua.
+[main_text] 195. Gennip
+[main_text] 197. Gent.198. Sas van Gent. 200. Goch.2087 Gorincheus.209. Gottenburgh de Sweden lettr S. Guanens, ze generalia van Letter 9. Grave210. 's Gravenhage.
+[main_text] 214. Is Gravenweerk of schenkenschans 215. Griffier en Griffie. 216. Graede.232. Groenlandsche Comps. op Walvischwangst
+[main_text] 234.
+[main_text] Groningen en ommelanden. 236. Groot Britsannien, zie Engeland settb. St. Michiels gestel. 263. Gulik.264. Guinea Zie West Iud. Lett 78.
+[main_text] Generalia. Hamburg.16. Hanai24. Hanouer, Zie Lunenburgh Lett. L. Hanze Steden.25. Harderwyk.
+[other] 1.
+[main_text] 28. Harlingen.
+[main_text] 29. Hasselt
+[main_text] 30.
+[other] .
+[marginalia] 4L.
+[main_text] folio
+[page_number] 31.
+[main_text] Helmont.
+[other] .
+[main_text] 34. ‛s Hertogenbosch35. ‛s Hertogenrade, Ze Maastricht Ht. Ho, Meyery van ‛s Hertogenbosch... 71. Hessen.
+[other] .. . .
+[main_text] Henegouwen.
+[main_text] 108. Heus den.. 113. Hofmeester van H. Hoog. Mog. 114. Holieulo.
+[main_text] 119. Holland.
+[other] .
+[main_text] 120. Hertog van Holsteyn.. 127. Holoteyn Gottorp Zee Denemerte Ltt. D. Honderester Penning, ze Middelen bott MoHongaarsche Predikanten, zie
+[main_text] Predikanten Letter C.
+[main_text] Hoogen Raad, die Provincialen Raad in Holland Letzer R.
+[main_text] Hulst en Hulster Ambagh. 129.
+[main_text] Generalia. 145. Iulegering, zie Militaire zaken leste. Mo Instructien.151. Italien, die de Respective Staten
+[main_text] Interessers.. 160. Judicieele saken 161.
+[main_text] Generalia193. Kamerbewaarder, Zie Camerbewaarder lett: C. Kerkelyke zaken, ze Religie seller R. Kerken zie generalia van Lett. K.
+[main_text] Heizer200.
+[marginalia] 1.
+[marginalia] K.
+[main_text] folio. 214. Kessel:
+[other] . .
+[main_text] Keulen zie Ceulen Pester C.
+[main_text] Kieldrecht.215. Colanels, zie Militaire zaken tett Mo. Konstantinopel, zie constantinopolen
+[main_text] Petter C.
+[main_text] Generalia.217. Landraad.231. Laskgeld, Zie Admiraliteit Let. A. en
+[main_text] Zeeraken Lett. 2.
+[main_text] Dire cteurs van den Levantschen handel 232.
+[main_text] Leeuwarden.234. Licenten, die convoyen Litt. C. Lieroorth, zie oostriesland lett: 0. Lilla235. Limburgh237. Lingen.
+[main_text] 239. Grave van der Lippe.. 240. Liquidatie van de Provincien,
+[main_text] Zee Rekenkamer Letter R.
+[main_text] Lith Littogen. 241. Lith, Loors.
+[main_text] 245. Livorno246. Loiramne.247. Lubeck250. Hertogh van Lunenburgh.. 252.
+[main_text] 261. Luijck.
+[other] . . . .
+[main_text] 276450 Lyfpensioenen.
+[main_text] 379.
+[main_text] Lysters.
+[catch_word] .
+[marginalia] 44.
+[main_text] Generalia Jolio 1. Maastollen, ne Rivieren Letter R. Mastricht14. Landen van Overmaze. 63. Maasdenburgh.83. Maltha
+[main_text] 84. Land van der Mark 36. Maroceo.17: Mazchands avanturiers ze Engeld. lett E. Mazeyk.
+[other] .
+[main_text] 92. Mechelers94. Megers.
+[main_text] 95: Meckelenburgh.
+[main_text] 97. Mentz98. Meurs
+[main_text] 99. Meyerij van 's Bosch, Zie ‛sHertogenbosch het elb Gemeene Middelen. 100. Del Mina, Zio West. Ind. Lett. W. Middelburgh in Zeeland.. 106. Ministers, van den Staat
+[main_text] Buiten 's Lands. 107. Ministens van den Staat
+[main_text] Binnen 's Lands.. 177. Ministers aan den Staat en
+[main_text] passerende. 180. Militaire zaken. 214: Munster
+[main_text] 406. Munte.
+[main_text] 421. Mascovien.
+[main_text] 439.
+[page_number] 11.
+--- 15z-b: 27 units (10 main_text)
+[main_text] Gelderland en Zutphen folo 169. Geloofsbrieven, zee Credentialen Lett C. Gemert. 150. Generaliteits Middelen.. 183. Staten Generaal en Generaliteit 190. 193. Geneve 195. Genoua. 197. Gennip Gent.198. Sas van Gent. 200. Goch.2087 Gorincheus.209. Gottenburgh de Sweden lettr S. Guanens, ze generalia van Letter 9. Grave210. 214. 's Gravenhage. Is Gravenweerk of schenkenschans 215. Griffier en Griffie. 216. Graede.232. Groenlandsche Comps. op Walvischwangst 234.
+[other] .
+[main_text] Groningen en ommelanden. 236. Groot Britsannien, zie Engeland settb. St. Michiels gestel. 263. Gulik.264. Guinea Zie West Iud. Lett 78.
+[main_text] Generalia. Hamburg.16. Hanai24. Hanouer, Zie Lunenburgh Lett. L. Hanze Steden.25. 28. Harderwyk. Harlingen. 29. 30. Hasselt
+[other] 1.
+[other] .
+[marginalia] 4L.
+[main_text] Helmont. folio Henegouwen. 34. ‛s Hertogenbosch35. ‛s Hertogenrade, Ze Maastricht Ht. Ho, Meyery van ‛s Hertogenbosch... 71. 108. Hessen. Heus den.. 113. Hofmeester van H. Hoog. Mog. 114. Holieulo. 119. 120. Holland. Hertog van Holsteyn.. 127. Holoteyn Gottorp Zee Denemerte Ltt. D. Honderester Penning, ze Middelen bott MoHongaarsche Predikanten, zie Predikanten Letter C. Hoogen Raad, die Provincialen Raad in Holland Letzer R. Hulst en Hulster Ambagh. 129.
+[page_number] 31.
+[other] .
+[other] .. . .
+[other] .
+[main_text] Generalia. 145. Iulegering, zie Militaire zaken leste. Mo Instructien.151. Italien, die de Respective Staten Interessers.. 160. Judicieele saken 161.
+[main_text] Generalia193. Kamerbewaarder, Zie Camerbewaarder lett: C. Kerkelyke zaken, ze Religie seller R. Kerken zie generalia van Lett. K. Heizer200.
+[marginalia] 1.
+[marginalia] K.
+[main_text] Kessel: Keulen zie Ceulen Pester C. Kieldrecht.215. Colanels, zie Militaire zaken tett Mo. Konstantinopel, zie constantinopolen Petter C.
+[other] . .
+[main_text] Generalia.217. Landraad.231. Laskgeld, Zie Admiraliteit Let. A. en Zeeraken Lett. 2. Dire cteurs van den Levantschen handel 232.
+[main_text] Leeuwarden.234. Licenten, die convoyen Litt. C. Lieroorth, zie oostriesland lett: 0. Lilla235. Limburgh237. 239. Lingen. Grave van der Lippe.. 240. Liquidatie van de Provincien, Zee Rekenkamer Letter R. Lith Littogen. 241. 245. Lith, Loors. Livorno246. Loiramne.247. Lubeck250. Hertogh van Lunenburgh.. 252. 261. Luijck. 276450 Lyfpensioenen. 379. Lysters.
+[other] . . . .
+[catch_word] .
+[marginalia] 44.
+[marginalia] folio. 214.
+[main_text] Generalia Jolio 1. Maastollen, ne Rivieren Letter R. Mastricht14. Landen van Overmaze. 63. Maasdenburgh.83. Maltha 84. Land van der Mark 36. Maroceo.17: Mazchands avanturiers ze Engeld. lett E. 92. Mazeyk. Mechelers94. 95: Megers. 97. Meckelenburgh. Mentz98. Meurs 99. Meyerij van 's Bosch, Zie ‛sHertogenbosch het elb Gemeene Middelen. 100. Del Mina, Zio West. Ind. Lett. W. Middelburgh in Zeeland.. 106. Ministers, van den Staat Buiten 's Lands. 107. Ministens van den Staat Binnen 's Lands.. 177. Ministers aan den Staat en passerende. 180. Militaire zaken. 214: 406. Munster 421. Munte. 439. Mascovien.
+[other] .
+[page_number] 11.
+
+######## 4792  first read 28  NL-HaNA_1.01.02_4792_0024
+--- 15z-a: 10 units (8 main_text)
+[main_text] Engeland.
+[main_text] Mijlord Auckland Ex. Amb e Plen
+[main_text] 2 Janu. r 113. Prop. Griffier, exh. een Billet v. L. d Auckland met Copie van een note van de h: Chauvelin te Londen aan L. Grenville ter hand gestelt, - verder rqt. van ordres aan eenige Engelsche Oorlogscheepen gegeeven, om sig herwaards te begeeren, en insteerende dat de Republicq zig in staat stelle. — Comm t. 7 Jan Rapp:
+[main_text] en Res. 22 Januj s13. prop. Griffier, commun. een miss. v:t L. Auckland, met 't antwoord v: P. Grenville op de note van Chauvelin. - Griffier geauth. t.. P. stuckland te bedanken.
+[main_text] 4 Janu: 113. Prop. Z. H„ ontfang van een Billet v: L.  Auckland, r de Jnstructie aan den Comm. Murraij gegeeven, en versoek, dat gelyke Instr. gegeeven werden aan Officier Command: slands scheepen op de Zeeuwsche stroomen. — Z. Hd bed.t en Comm.  R. v. St. om in te neemen ka„ 7 Janu: 113. Rapport Z. H. d. versogt Cap n Haring, man tot nadere Jnstructie aan te schryven &a — Griffier geauth. t L . Auckland te bedanken.
+[main_text] 8 Febr:r 113. Prop. Griffier commun, een missive v. L. d Auckland r. eenige pointen v. 't grootste gewigt voor de wedersydse O. J. Comp. s — Resol. Griffier geauth t Ld Huckland te bedanken, item aan Nagell met last een complim.t v. dankreg. af te leggen. — Aan de Comp. kennis ggeven v. de mesures in Engeland genomen. voorts Comm 7 Maart. Rapport a resol.
+[main_text] 18 Febryj s. 13. Prop. Z. Hoogh. s commun. een missive v. L: e Auchland r de aanstaende komst van Engel sche en Transportscheepen binnen de havens van de Republicq. — Res. Z: Hoogh:t vers: de nodige ordres daar toe te geeven.
+[main_text] 18 Febry 113. Prop. Z. Hoogh d commun. een missive L. o Auckland r 't uitrusten van eenige kleine vaar tuigen tot defensie van de Maze onder den Engelsche Capitein Berheley. — Res. Z. Hoogh. d vers. de nodige ordres daar toe te geeven. Admt. Maze aangesz. aan gem. Capitein alle hulp en assistentie te verleenen.
+[marginalia] Engeland.
+[page_number] 22.
+--- 15z-b: 9 units (7 main_text)
+[main_text] Engeland.
+[main_text] Mijlord Auckland Ex. Amb e Plen
+[main_text] 2 Janu. r 113. Prop. Griffier, exh. een Billet v. L. d Auckland met Copie van een note van de h: Chauvelin te Londen aan L. Grenville ter hand gestelt, - verder rqt. van ordres aan eenige Engelsche Oorlogscheepen gegeeven, om sig herwaards te begeeren, en insteerende dat de Republicq zig in staat stelle. — Comm t. 7 Jan Rapp: en Res. 22 Januj s13. prop. Griffier, commun. een miss. v:t L. Auckland, met 't antwoord v: P. Grenville op de note van Chauvelin. - Griffier geauth. t.. P. stuckland te bedanken.
+[main_text] 4 Janu: 113. Prop. Z. H„ ontfang van een Billet v: L.  Auckland, r de Jnstructie aan den Comm. Murraij gegeeven, en versoek, dat gelyke Instr. gegeeven werden aan Officier Command: slands scheepen op de Zeeuwsche stroomen. — Z. Hd bed.t en Comm.  R. v. St. om in te neemen ka„ 7 Janu: 113. Rapport Z. H. d. versogt Cap n Haring, man tot nadere Jnstructie aan te schryven &a — Griffier geauth. t L . Auckland te bedanken.
+[main_text] 8 Febr:r 113. Prop. Griffier commun, een missive v. L. d Auckland r. eenige pointen v. 't grootste gewigt voor de wedersydse O. J. Comp. s — Resol. Griffier geauth t Ld Huckland te bedanken, item aan Nagell met last een complim.t v. dankreg. af te leggen. — Aan de Comp. kennis ggeven v. de mesures in Engeland genomen. voorts Comm 7 Maart. Rapport a resol.
+[main_text] 18 Febryj s. 13. Prop. Z. Hoogh. s commun. een missive v. L: e Auchland r de aanstaende komst van Engel sche en Transportscheepen binnen de havens van de Republicq. — Res. Z: Hoogh:t vers: de nodige ordres daar toe te geeven.
+[main_text] 18 Febry 113. Prop. Z. Hoogh d commun. een missive L. o Auckland r 't uitrusten van eenige kleine vaar tuigen tot defensie van de Maze onder den Engelsche Capitein Berheley. — Res. Z. Hoogh. d vers. de nodige ordres daar toe te geeven. Admt. Maze aangesz. aan gem. Capitein alle hulp en assistentie te verleenen.
+[marginalia] Engeland.
+[page_number] 22.

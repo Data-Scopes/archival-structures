@@ -1,0 +1,2 @@
+15x-a: units 4495, main_text 3493, starting lower-case 329 (9.4%), starting with a date 2616, with >= 2 dates inside 917, dates total 4357, median chars 108, text chars 455869
+15y-b: units 3200, main_text 2102, starting lower-case 156 (7.4%), starting with a date 1579, with >= 2 dates inside 837, dates total 4268, median chars 135, text chars 449762

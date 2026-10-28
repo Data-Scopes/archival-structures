@@ -5,8 +5,9 @@
 > **Budget:** ~200 lines (`plan/README.md`).
 > **Status:** planned 2026-10-23 (Opus 5.5), from the phase-10 hand-off and UA-022 (a); 15v/15w planned 2026-10-25
 > after 15u passed; reviewed 2026-10-25 (accept with follow-ups); 15wr and 15x written in review; 15wr and 15x reviewed
-> 2026-10-26 (accept; `REVIEW.md` § Step 15wr review, § Step 15x review). **Phase done** except the user's UA-024,
-> UA-025, UA-029 and the post-full-run P21 step.
+> 2026-10-26 (accept; `REVIEW.md` § Step 15wr review, § Step 15x review). Full run checked 2026-10-27. Addendum
+> steps 15y (pins, in-place rebuild, debts, throughput) and 15z (P21 reads and pins) planned 2026-10-27 (Opus 5.5); both done,
+> the drive rebuild checked, and reviewed 2026-10-27 (accept with follow-ups, `REVIEW.md` § Steps 15y and 15z review); 15yr written.
 
 ## Goal
 
@@ -23,7 +24,11 @@ fallback (EAD series modes or close; UA-022 options (b)/(c)). Nothing is publish
   `scripts/run_text_layer_v4_full.py` and its tests, `docs/text_layer.md` (v4 section), `data/text_layer_v4_staged/`,
   `data/text_layer_v2_dev/15v-*`, `15w-*`, `reports/data/phase-12-hand-print-box-height/step-15{v,w}/`;
 - after the review: 15wr `text_layer/modes.py`, `presets.py`, `step-15w/audit.py`, the run script, `15wr-*`; 15x
-  `text_layer/units.py`, `presets.py`, `15x-*`, `step-15{wr,x}/`.
+  `text_layer/units.py`, `presets.py`, `15x-*`, `step-15{wr,x}/`;
+- 15y: `text_layer/modes.py`, `presets.py`, `build.py` (stage skip and staleness), `units.py` (stale crosswalk),
+  `scripts/run_text_layer_v4_full.py`, `step-15w/audit.py`, `15y-*`, `step-15y/`; 15z: `presets.py` (pins), `15z-*`,
+  `data/text_layer_v4_staged_15z/`, `step-15z/`; 15yr: `build.py` (upstream gate, recorded sizes), `modes.py` (extract timing),
+  the run script, `scripts/stage_text_layer_v4_full.py`, `step-15w/audit.py`, their tests, `15yr-*`, `step-15yr/`.
 
 ## Sources
 
@@ -45,6 +50,9 @@ fallback (EAD series modes or close; UA-022 options (b)/(c)). Nothing is publish
 | 15w | v4 dev build with every local volume, audit, run kit | 15v | `15w-a` (196 + 2) = `15v-a` on the 16; 168/168 values = 15u references (70 `print` in 1.01.02); discovering audit (178/4 on `15m-a`); `run_text_layer_v4_full.py`; reads near the cut; UA-024/025 | `step-15w-v4-build-and-run-kit.md` |
 | 15wr | Split gate for single-column print volumes (review fix, F12-R.4) | phase review | done, bar **passed** 19/20 (F12-15wr.2); 53 gated, 32 split; reviewed 2026-10-26 (accept, F12-R.8–R.10) | `step-15wr-review-fixes.md` |
 | 15x | Drop-cap-aware print unit rule (UA-026 (b)) | 15wr (bar passed) | done, bars **passed** (A 59/60, B 0.9927, C 19/0; F12-15x.1); `15x-a`; reviewed 2026-10-26 (accept, F12-R.11–R.15; UA-029 open) | `step-15x-drop-cap-units.md` |
+| 15y | Mode pins, in-place rebuild, resume debts, throughput model (P24–P27) | full run checked | pin 3463; `--rebuild` on a copy of `15x-a` changes only 3463 (= fresh `15y-a`); resume no-op; summary (9122, 0); fit in/out of sample | `step-15y-pins-and-rebuild.md` |
+| 15z | Read the 37 off-series modes and pin them (P21, P28) | 15y, UA-034 | 37/37 values reproduce; 185 verdicts; pins by the rule; `15z-b` rebuild; check page; drive UA | `step-15z-read-and-pin.md` |
+| 15yr | Review fixes (P30): upstream gate, audit keys and last rows, stager deletions, extract timing, whole-layer time terms | 15y/15z review | done, reviewed 2026-10-28 (accept; `done_inventories` fixed in review); case A blocked; audit `15y-b` 3,592/33/0; no-op 1.2 s; factor 1.817 | `step-15yr-review-fixes.md` |
 
 ## Why this order
 
@@ -80,6 +88,14 @@ the stop rule fires. After a pass, a short Opus session writes 15v/15w with the 
 | P22 | **Drop-cap rule scope** (2026-10-26): the 15x rule stays for every print-mode 1.01.02 volume, *nouvelles* and *plakkaten* included; a letter-part exemption (UA-029 option (d)) is a later step only if a sibling needs the *nouvelles*' letter structure | `sg_1.01.02_v4` unchanged; no follow-up step now | User, UA-029 (a); F12-R.13 (readable precision 27/28 *plakkaten*, 30/36 *nouvelles*), F12-R.14 |
 | P23 | **v4 pilot published** (2026-10-26): `shared-data/*/text_layer_v4/` holds `15x-a` for 1.01.02 (it replaced in place the `15w-a` copy published the same day, before any consumer linked it) and the `15w-a` copy for 1.10.94 (data tables identical). P20's "as long as no v4 layer is published" has now ended | A later change to `sg_1.01.02_v4` output (such as the P21 pins) must be planned either as a new layer version or as the full run replacing the pilot, with a shared-data changelog line | User, UA-025 (a) and UA-030 (a) |
 
+| P24 | **Pins** (2026-10-27): `volume_mode["pins"] = {inv: mode}` overrides the measured mode (method `pinned`, measured result kept as `box_height_mode`); `MODE_PINS_V4` on `sg_1.01.02_v4` only. 15y pins 3463 → `hand` (15w read 5/5 handwritten, F12-R.9) | 15z adds pins only by its rule | P21; per inventory, no EAD title rule |
+| P25 | **In-place rebuild** (2026-10-27): `--rebuild ARCHIVE=F` = forced extract of F, then `--stage all` over the whole layer. v2 layout/types/units skip done inventories (unless forced, params changed, or the upstream stage's row is newer); wbc parts and join use the same staleness; stale split files and crosswalks are removed | Fixes debt 1 (the resume redid layout/types for 3.3 h) | The subset rule of `docs/text_layer.md` stays: wbc is decided over all inventories |
+| P26 | Run summary counts the last row per `(inv, stage)` (debt 2) | 15y | The full run logged 6 failed rows although all were done |
+| P27 | **Throughput model**: per-stage OLS on the full run's last done rows (1.01.02 pooled over modes; 1.10.94 slope only); wall = pool stages longest-first + serial stages summed; `--want` gives the low and `--min` the high bound; no accuracy bar, in- and out-of-sample errors reported | 15y | Replaces the dev-build constants (`SLOW_FACTOR = 3`) |
+| P28 | **15z read list and pin rule** (fixed 2026-10-27, before any read): the 35 `print` volumes outside the printed series plus 12163/12165 (`hand`, silver print; user 2026-10-27); 5 scans each, weighted by characters (`planning/reads_15z.tsv`, seed 20261104); pin iff ≥ 4 of 5 read scans are the other class; 2–3 → mixed, no pin, UA; reads from text only, no mode or value shown; a blind check page for the user before the drive rebuild | 15z copies it | UA-028 (a) extended to the reverse direction by the user |
+| P29 | Parallel layout/types/units (3.9 of 7.1 h of the full run run serially): deferred | Not in 15y/15z | User, 2026-10-27; the 15y model quantifies the gain |
+| P30 | **15yr** (review, 2026-10-27): a v2 stage never processes an inventory whose upstream last row is not `done`; v2 builds reuse the sizes of a recorded extract row when the stored size matches; v4 extract rows time the whole call; the run script drops `--estimate` and adds whole-layer terms; audit keys `<archive>/<inv>` and done by last row; the stager mirrors deletions (capped) | No rule, pin, preset or output changes; dev clone `15yr-a` | F12-R.17, R.19, R.20, F12-15z.9–.11; the index/register text defects (F12-R.21, R.22) are a new phase, not 15yr |
+
 ## Hazards
 
 - **Scan resolution / campaign.** Pixel height depends on DPI; the five silver series may share one scan campaign. 15u
@@ -95,6 +111,9 @@ the stop rule fires. After a pass, a short Opus session writes 15v/15w with the 
   `wbc` default of the 1.01.02 root changes as the six printed volumes leave the hand rules (pinned sets keep the
   per-inventory output; a difference is a stop). 3463 (silver hand, 86.5 px) will be print-built: 15w reads it.
 - coreshare was busy at planning (another project held 4 workers); steps check `status` first.
+- **15y/15z:** `data/text_layer_v4_full/run_v4.log` holds the drive path: briefs and reports never quote it. The run
+  script's default `--work-dir` is the one the user's drive runs use; local runs pass their own. A stage skip that
+  ignores a newer upstream row would keep stale tables silently: 15y's resume no-op and compare checks guard it.
 
 ## Open questions for planning: settled 2026-10-23 (15u), 2026-10-25 (15v/15w)
 
@@ -142,6 +161,21 @@ Reviewed 2026-10-25 (Opus 5.5): **accept with follow-ups** ([REVIEW](REVIEW.md))
   short addendum step `15y` of this phase or as the first step of the next v4 phase, whichever the planner prefers; it
   needs the run's `mode/` tables. **Release now: v0.15.0** (15q, 15u, 15v, 15w, 15wr, 15x; all additive API plus the
   unpublished `sg_1.01.02_v4` behaviour; no sibling import affected).
+- **Addendum planned 2026-10-27 (Opus 5.5).** P21 is split in two: 15y (Sonnet; mechanics, runs now) and 15z (Sonnet;
+  reads and pins, after UA-034). Then the user's drive rebuild and staging (a UA from 15z), an Opus check of the staged
+  rebuild, which writes the publication UA (P23: the pinned full run replaces the pilot), and a short review of 15y/15z.
 - **For later phases.** The REPUBLIC crosswalk is unusable for 1.01.02 (F12-15v.5). When rules move to a new series,
   read each stage's output per series (F12-R.7). Check for scan-resolution shifts in a full run (F12-R.1): list every
   `print` volume outside the printed series.
+- **Review of 15y/15z (2026-10-27, Opus 5.5): accept with follow-ups** ([REVIEW](REVIEW.md#steps-15y-and-15z-review-2026-10-27)).
+  The pins, the pin rule, the in-place and the drive rebuild are right and reproduce. Fixes go to 15yr (Sonnet, then a short
+  review): a failed upstream row made later stages rebuild from stale inputs (F12-R.19), the audit keys and done-ness
+  (F12-15z.9, F12-R.20), the stager (F12-15z.10), and the time model (the extract rows left out the pre-pass, F12-R.17; two
+  9-minute sizing scans, one for a no-op `--estimate`, F12-15z.11). The reads put the pins in another light: the `hand` pins fix
+  the label of the index volumes but not their text. The hand rules make one unit per region and keep two-column regions in XML
+  order, in all hand volumes (F12-R.21, F12-R.22). That is the next text-layer phase, not part of 15yr. **Release:** v0.17.0 after
+  the 15yr review (15y, 15z, 15yr; additive API plus `sg_1.01.02_v4` behaviour; no sibling import affected).
+- **Review of 15yr (2026-10-28, Opus 5.5): accept** ([REVIEW](REVIEW.md#step-15yr-review-2026-10-28)). The staleness gate, recorded
+  sizes, whole-call timing, audit keys and stager deletions work and reproduce. Fixed in review: `done_inventories` had to compare
+  with the layer's stages. The 15x-a validation is +12% for 1.01.02 alone, not +33% (F12-15yr.4 revised). **The phase is done.**
+  **Release now: v0.17.0** (15y, 15z, 15yr). The next text-layer phase is the register/index volumes (`plan/CONTEXT.md` §4).

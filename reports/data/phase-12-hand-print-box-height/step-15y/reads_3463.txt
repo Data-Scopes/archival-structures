@@ -1,0 +1,252 @@
+# 156 scans with >= 3 main_text units in 15x-a (of 171)
+
+=== NL-HaNA_1.01.02_3463_0025: 15x-a 22 units (18 main_text), 15y-b 15 units (11 main_text)
+--- 15x-a (print)
+[page_number] 42.
+[main_text] Tripoli. Consul gerbrands.
+[main_text] 18 Maij. Req. gerbrands met syn declaratie. aen bich: 31 maij. Reg: gerbrands om betaling. R. groot gelast
+[main_text] 17. September. Rapport en Res: 2000 gl: aan presenten voor die van Prepoli.
+[main_text] 15 november. Credlef voor Capitan van Reede.
+[marginalia] Barbargen
+[main_text] 15. April. Op de Prop: van Zeeland: de persoonen van soost Nolle, en Leendort Barentse Anker te stellen op de lyst der slaaven, die te lossen staan.
+[main_text] 30 April. miss. Hop met een brieff van Butler rak: den toestand der saaken in Barbargen.
+[main_text] 27 Jubrij miss: Batler over het vernieuwen van de Vrede enlossen der slaaven. Holl: 07.
+[main_text] 2 Juny. Resolutie om door den Capitein ter Zee Krugsende op de Voovers van Zalee te laaten handelen over de lossinge van de slaaven, op den voet van 430 pesos voor yder slaaf. De depesche te senden aan van delst en Bubler. Penningen te vinden eerst uit die onder
+[main_text] bejusten
+[main_text] de Adm: te Amsterd:. Dan uit het regt vande Turssche pasporten en dan uit het verhoogde last en veilgeldComm: A: over het overmaken van het geld.
+[main_text] 10 Juny Rapport en Resol. Nrstate versogt een Creditbrieff van 40000 aan den Consul van aelst te besorgen. kennis daar van begeeven aan den Capitan kruysende opde Vovers van Zaléé.
+[main_text] 5 Augusty. miss. Consul van Aelst.
+[main_text] 2 Juny. Res: op de Reg: van lorsse lersjes om het losgeld van 430 pesos. Ontfanger vande Tursische pasporten gelast die te betalen
+[main_text] 2 Junij. Res: op de Req. van george Maxwel om het losgeld van 430 pesos. Ontfanger der Turksche pasporten gelast die te betaalen aan de Adm: te Amst: Adm: te amst: die penningen begeeven aan de Crediteuren die het losgeld gegeeven hebben. sat 19 Augustij infra
+[main_text] 3 Augasty. miss. Malenaer van trydenes. om belassing van slaaven te effectueeren. R: Veeds gedisponeert.
+[main_text] 19 Augustij. miss. Van Sil. over sukere mooren in't jaar 1736 door Capitein Lambrechts te Lissabon opgebragt en verhogt, en nu Weeer ingehogt. R: syn doen geapprobeert. 7 october. miss. Capitein vander Wagen: N: o7: 14 October. miss: van Sil, om alteratie inde Resol: vanden 2 Juny. H: 0v:
+[main_text] 7 October. miss. Capitein van der Waegen. Bergessche handeling over de lossing der slaaven. H: op
+[main_text] 28 november. miss. Consul Butler. occasie favorabel om Vreede te maaken met Keyser Muley Abdala. H: av: 20 december. miss. lonsul Butler. Toestand van Saaken in Marocco. H: op
+[marginalia] Marocco.
+[marginalia] Barbargen.
+--- 15y-b (hand pin)
+[page_number] 42.
+[main_text] Tripoli. Consul gerbrands.
+[main_text] 18 Maij. Req. gerbrands met syn declaratie. aen bich: 31 maij. Reg: gerbrands om betaling. R. groot gelast
+[main_text] 17. September. Rapport en Res: 2000 gl: aan presenten voor die van Prepoli. 15 november. Credlef voor Capitan van Reede.
+[marginalia] Barbargen
+[main_text] 15. April. Op de Prop: van Zeeland: de persoonen van soost Nolle, en Leendort Barentse Anker te stellen op de lyst der slaaven, die te lossen staan.
+[main_text] 30 April. miss. Hop met een brieff van Butler rak: den toestand der saaken in Barbargen. 27 Jubrij miss: Batler over het vernieuwen van de Vrede enlossen der slaaven. Holl: 07.
+[main_text] 2 Juny. Resolutie om door den Capitein ter Zee Krugsende op de Voovers van Zalee te laaten handelen over de lossinge van de slaaven, op den voet van 430 pesos voor yder slaaf. De depesche te senden aan van delst en Bubler. Penningen te vinden eerst uit die onder bejusten de Adm: te Amsterd:. Dan uit het regt vande Turssche pasporten en dan uit het verhoogde last en veilgeldComm: A: over het overmaken van het geld. 10 Juny Rapport en Resol. Nrstate versogt een Creditbrieff van 40000 aan den Consul van aelst te besorgen. kennis daar van begeeven aan den Capitan kruysende opde Vovers van Zaléé. 5 Augusty. miss. Consul van Aelst.
+[main_text] 2 Juny. Res: op de Reg: van lorsse lersjes om het losgeld van 430 pesos. Ontfanger vande Tursische pasporten gelast die te betalen
+[main_text] 2 Junij. Res: op de Req. van george Maxwel om het losgeld van 430 pesos. Ontfanger der Turksche pasporten gelast die te betaalen aan de Adm: te Amst: Adm: te amst: die penningen begeeven aan de Crediteuren die het losgeld gegeeven hebben. sat 19 Augustij infra
+[main_text] 3 Augasty. miss. Malenaer van trydenes. om belassing van slaaven te effectueeren. R: Veeds gedisponeert.
+[main_text] 19 Augustij. miss. Van Sil. over sukere mooren in't jaar 1736 door Capitein Lambrechts te Lissabon opgebragt en verhogt, en nu Weeer ingehogt. R: syn doen geapprobeert. 7 october. miss. Capitein vander Wagen: N: o7: 14 October. miss: van Sil, om alteratie inde Resol: vanden 2 Juny. H: 0v: 7 October. miss. Capitein van der Waegen. Bergessche handeling over de lossing der slaaven. H: op
+[main_text] 28 november. miss. Consul Butler. occasie favorabel om Vreede te maaken met Keyser Muley Abdala. H: av: 20 december. miss. lonsul Butler. Toestand van Saaken in Marocco. H: op
+[marginalia] Marocco.
+[marginalia] Barbargen.
+
+=== NL-HaNA_1.01.02_3463_0042: 15x-a 33 units (21 main_text), 15y-b 24 units (12 main_text)
+--- 15x-a (print)
+[date_header] 6 Julg.
+[marginalia] mem: Hulft. slagten over een det achement uit maestricht gesonden op den aldenbiesen. R: Commandeur Royh omb 15 July Berigt van den Commandeur dag R. gestalt in handen van Heulft. Conduite van dogs geapprobeert.
+[date_header] 4 november.
+[marginalia] miss. Hop. met een memorie van den Lord Walgrave over de werken te duinkersen, en het antwoord van Vrankryk daarop.
+[page_number] 514.
+[marginalia] Duitsche Orbre
+[marginalia] Duinherken
+[main_text] Declaratie van oorlog
+[main_text] 5 San: missive vander meer met een memorie, houdende beswaar over de declaratiae van oorlog van Spagne. H: o1. 30 Jan: missive deselve, met een memorie van den Consul te ladia. H: ov:
+[main_text] 17 feb. miss: deselver, met een memorie vanden Ambassadeu van Vrankryk H.
+[other] 0p
+[main_text] Siet 5 April
+[main_text] C Jan: miss: van der meer met een manefest tot justifcatie van 't gedrag van de Koning ven spagn H: 07:
+[main_text] 5 April. miss. vander meer om lopije van een voorige declaratie van oorlog. H. ov. 22 April. missdeselN: ov. 6 mag. miss: deselve. vergelyking vande laaste declaratie van oorlog met die van 1667. 1674,
+[main_text] 1702 1.
+[main_text] 18 San: Ordre aan het leenhof van Valkenburg om een deductie over de Heerlykheid te formeeren. 10 Maert. miss. deenhof van Valkenburg met een deductie over de heerlykheid Stein. Com:
+[main_text] 13 Maij. miss. Prens van Hessen Homburg over de duurte van de leevensmiddelen voor het guarnisoen te Doornik. Com. R.
+[main_text] 21 May. miss. Schwartzenberg over de duurte van graanen te Furnes. Comm: R.
+[main_text] sut voorts graanen G.
+[main_text] 10 december. Reg: 14 Smnyts van Scheltus, om en nieuwejaar. asg.
+[marginalia] Deductien.
+[marginalia] Duuren bijd
+[marginalia] Drukher
+[main_text] Defroyementen
+[main_text] 30 January. Propos: Overyssel om de huur van thuys van Prins Maurets opteTeggen. Comm:
+[main_text] 3 febr: Mem: de dicd, Visvlit, en Assendelft om ordonantie ter g: rekening. Toegestaan 12 Aug: deselre.
+[main_text] 28 mMaert. miss: gallieris om ordonantie van 1000 gl. Toegestaen.
+[main_text] 9 April. miss. Rumpf om ordonantie berg: V. Toegestaen. 18 6806. deselve.
+[main_text] 2 Mey. Reg: vander meer. ad cdem. 1 angr. deselve.
+[main_text] 6 may. Miss. de Swart. ad dem.
+[main_text] 31 may. miss: van Hoey. ad idem. 5 augusty. ad idem.
+[main_text] 17 Juny. Reg: van Til. ad idem. 8 Junij. miss. Egmant vander nyenbaorg, Aldem.
+[page_number] 75.
+--- 15y-b (hand pin)
+[date_header] 6 Julg.
+[marginalia] mem: Hulft. slagten over een det achement uit maestricht gesonden op den aldenbiesen. R: Commandeur Royh omb 15 July Berigt van den Commandeur dag R. gestalt in handen van Heulft. Conduite van dogs geapprobeert.
+[date_header] 4 november.
+[marginalia] miss. Hop. met een memorie van den Lord Walgrave over de werken te duinkersen, en het antwoord van Vrankryk daarop.
+[page_number] 514.
+[marginalia] Duitsche Orbre
+[marginalia] Duinherken
+[main_text] Declaratie van oorlog
+[main_text] 5 San: missive vander meer met een memorie, houdende beswaar over de declaratiae van oorlog van Spagne. H: o1. 30 Jan: missive deselve, met een memorie van den Consul te ladia. H: ov: 17 feb. miss: deselver, met een memorie vanden Ambassadeu van Vrankryk H. Siet 5 April C Jan: miss: van der meer met een manefest tot justifcatie van 't gedrag van de Koning ven spagn H: 07: 5 April. miss. vander meer om lopije van een voorige declaratie van oorlog. H. ov. 22 April. missdeselN: ov. 6 mag. miss: deselve. vergelyking vande laaste declaratie van oorlog met die van 1667. 1674, 1702 1.
+[other] 0p
+[main_text] 18 San: Ordre aan het leenhof van Valkenburg om een deductie over de Heerlykheid te formeeren. 10 Maert. miss. deenhof van Valkenburg met een deductie over de heerlykheid Stein. Com:
+[main_text] 13 Maij. miss. Prens van Hessen Homburg over de duurte van de leevensmiddelen voor het guarnisoen te Doornik. Com. R.
+[main_text] 21 May. miss. Schwartzenberg over de duurte van graanen te Furnes. Comm: R.
+[main_text] sut voorts graanen G.
+[main_text] 10 december. Reg: 14 Smnyts van Scheltus, om en nieuwejaar. asg.
+[marginalia] Deductien.
+[marginalia] Duuren bijd
+[marginalia] Drukher
+[main_text] Defroyementen
+[main_text] 30 January. Propos: Overyssel om de huur van thuys van Prins Maurets opteTeggen. Comm:
+[main_text] 3 febr: Mem: de dicd, Visvlit, en Assendelft om ordonantie ter g: rekening. Toegestaan 12 Aug: deselre. 28 mMaert. miss: gallieris om ordonantie van 1000 gl. Toegestaen.
+[main_text] 9 April. miss. Rumpf om ordonantie berg: V. Toegestaen. 18 6806. deselve. 2 Mey. Reg: vander meer. ad cdem. 1 angr. deselve. 6 may. Miss. de Swart. ad dem.
+[main_text] 31 may. miss: van Hoey. ad idem. 5 augusty. ad idem. 17 Juny. Reg: van Til. ad idem. 8 Junij. miss. Egmant vander nyenbaorg, Aldem.
+[page_number] 75.
+
+=== NL-HaNA_1.01.02_3463_0048: 15x-a 19 units (10 main_text), 15y-b 15 units (6 main_text)
+--- 15x-a (print)
+[marginalia] sacken vande nalatenschep.
+[marginalia] ledt op het Placcaat beegen de lorruptien.
+[marginalia] lutin. siet Holstein.
+[marginalia] Eapressent.
+[date_header] 16 Julg.
+[marginalia] genhel. 7 december. Ginhel.
+[marginalia] Engeland
+[marginalia] Eeden
+[main_text] 26 Jan: Reg. Engelberts on grotaerts. 30 Maert. Bergt Ten Resol.
+[main_text] 19 febr: Rapp. en Res: en de saak van Expecum. 29 feer Ruy opeum en Res.
+[main_text] 14 maert. Reg: Engelborg en grotaerts. Anteotaal.
+[main_text] 13 april. C. Eushuersen 50 gl.
+[main_text] 2 July. Reg. Reeders en egenaers vant schip l‛ Esperanc en Res: daarop. 28 July. miss: vande W. S: l: met nader informatien. R. aan Vander maer. 19 aug: miss: vander meer. memorie gepretenteert. H. ov.
+[main_text] 5 July. Reg: Regenten van Echt om te mogen jaagen met Scheetgeweer. asg:
+[main_text] 2 novemb: Req: Regenten van Echt over een meel- maag. sult geld: overg:
+[main_text] 17 november. Reg: d'Eyschen en Vlartshuim 400 gl: toegelegt. Fit. Sop, 1741.
+[main_text] 10 decemb. Reg: Renesse van Elberen
+[main_text] 20 decemb: Reg: Secretaris van Otten.
+[page_number] 83.
+--- 15y-b (hand pin)
+[marginalia] sacken vande nalatenschep.
+[marginalia] ledt op het Placcaat beegen de lorruptien.
+[marginalia] lutin. siet Holstein.
+[marginalia] Eapressent.
+[date_header] 16 Julg.
+[marginalia] genhel. 7 december. Ginhel.
+[marginalia] Engeland
+[marginalia] Eeden
+[main_text] 26 Jan: Reg. Engelberts on grotaerts. 30 Maert. Bergt Ten Resol. 19 febr: Rapp. en Res: en de saak van Expecum. 29 feer Ruy opeum en Res.
+[main_text] 14 maert. Reg: Engelborg en grotaerts. Anteotaal.
+[main_text] 13 april. C. Eushuersen 50 gl. 2 July. Reg. Reeders en egenaers vant schip l‛ Esperanc en Res: daarop. 28 July. miss: vande W. S: l: met nader informatien. R. aan Vander maer. 19 aug: miss: vander meer. memorie gepretenteert. H. ov. 5 July. Reg: Regenten van Echt om te mogen jaagen met Scheetgeweer. asg: 2 novemb: Req: Regenten van Echt over een meel- maag. sult geld: overg:
+[main_text] 17 november. Reg: d'Eyschen en Vlartshuim 400 gl: toegelegt. Fit. Sop, 1741.
+[main_text] 10 decemb. Reg: Renesse van Elberen
+[main_text] 20 decemb: Reg: Secretaris van Otten.
+[page_number] 83.
+
+=== NL-HaNA_1.01.02_3463_0058: 15x-a 53 units (44 main_text), 15y-b 23 units (13 main_text)
+--- 15x-a (print)
+[main_text] 13 January. mem: grijs over een schip te Amsterdam gearresteert weegens de scheepen in groenland aangehouden. Holl: 04.
+[main_text] 5 Maert. Res: tot antwoord aan geijs. Schip te Amsterdam ontslaagen. Versoch om de scheepen in Groenland aangehouden ook te restitaeeren. Ordre aan logmans ten selven einde.
+[main_text] 30 April. miss: loymans met een antwoord
+[main_text] over de scheepen in de Discow-bang aangehouden. Holl: ov: 3 mey. miss: Edymans met eenige belagen tot het antwoord, en
+[main_text] 2 febr. S. n: miss: Mauricus over de praetensie van benemarken op groenland. Holl: en Zeel: op
+[main_text] 21 Maert. S: N: miss: Mauricius. 28 Maert. S. N: miss: mauricus met een lyst van Tractaten en actens rakenge bevaart int woorden. 12 April. S: N. Miss: Mauricius met eenige
+[main_text] Naleesingen over de vaart: op de Noorder eylanden en landen. 16 April. S. n: 19 April. S. N: 26 April. S. N: 30 April. S. 1. 7 may. S. N: 10 Mag. S. H.
+[main_text] 17 Sept: S: N: 11 Octob: S: n: 2 novemb. S: N: 8 novemb: s:4: 22 November. 11. 26 november. 1. 1. 11 decemb: 14:
+[main_text] 26 Augasty. propis: Holland. Slagten van de vaders van de Cabellauws. visscherge om gsland, over het neemen van eenige scheepen door de deenen. R. ordre aan loymans. stom desprecken met grijs. 30 Augustij. Rapport van een conferentie met grijs.
+[main_text] 10 September. miss: loymans met een memorie door hem gepresenteert.
+[main_text] 8 Octob: Reg: J. van derbs cums. om restitutie van drie Vishochers van Zirazee. R: Ordre aan loymans daarop. 11 October. miss. loymans met eenlyst vande scheepen omtrent ysland genoomen. H: en Z: ov: sut 18 0c: 29 September. miss. Adm: te Amsterdam over een hocher door de deenen op de kasten van gsland genoomen, en naderhand ontkoomen, en met een Lieutenant en 3 deenen geretourneert. Com: 21 October. mem: grys om ontslaging van een ladet met ses deenen. R: Ordre daar toe aan de Adm: op de Maze, en te Amsterdam. kennis daar van de geeven aan grijs: met versoek van ontslag van onse scheepen. 122 Octob: miss: Adm: te Amsterd: tot antwoord, Tiet 26 Aug) 28 bctob. miss: adm: op de Maze. tot antwoordt. 18 Ocober. miss: loymans met het Deens antwoord op syn memorie over ses hoekers bij gsland genoomen. stader memorie door hem te presenteeren. 1. en Z: 0v: 25 October. miss: loymans. Proceduuren ontront dehochers op gsland gehouden. N: en Z: av: 5 novemb: miss:. logmans met het diens antwoord op syn tweede memorie over de hoekers ontrent ysland genoomen. N. en 2: 00:
+[main_text] 8 November. miss. loymans, Antwoord op de Res: van 21 Octob: stakhen tot het diensch antwoord behoorende Winz ov. Sut 2 January 1141.
+[page_number] 100.
+[marginalia] Groenland
+[main_text] 12 January. Placcaat teegen den uitvoer van graanen unt belanden van Overmaze.
+[main_text] 18 febr: Reg: Regenten van Houportingen en Zepperen, om granen usttevoeren. R. Hooftof ficuren vande landen van Overmaze om 6. 7 Maert. Arerigt van de offcuren van de landen van denemarken
+[main_text] van Overmaze. R: aan de dorpen van redemptie,„ elf banken vanst servaes den uitvoer van graen syn kader Memone. Mov: gepermitteert.
+[main_text] 1 Julij. Miss: Stadhouders van de Hooftofficieren derdie landen van Overmaze. over gebrek aan graanen door het eludeeren van haar Ho:Mo: Placcaat. ebc: R: oma 24 Augusty. advis Rostate. en Res: Placcaat van 12 January. ook te werken teegen vreemden. Niu Placcageemaneert tegen den uitvoer van brood, en meel. en om he stocken van brandewyn voor 3 maanden te doen stel staan. sty 15 July. mem: Hulst over het doorvoeren dangraanin uet de landen van G eranden brespden. en eden danrij 27 July. Memi Hulft, om de vrye passage vangraene welke doorgevoert werden door de landen van Overmaze. R: ordre om het Placcaat vanden 12 January net te appliceeren op graanen, die voorgevoert werden.
+[main_text] Grinsven
+[main_text] vide infra
+[main_text] 28 May. Reg. A: Cras, om buiten het maagdenhuys van Wester van grinsven te woonen, ende reronues gematen R. afg:
+[main_text] 5 September. miss. sendies en Raad van geneve. Recommandatie van A: Trembley. Weduwe vanden ttlolonel dunant en van haar drie soons.
+[main_text] 10 Juny. miss: mag: van Venlo over het ophouden van graanen na Venlo gaande in 't Pruysosch Overquartier. en om penningen tot inhoop van rogge te negotieren, R: den Envoijé Raesfeld versogt syn goede officien te employeeren. op 't 2e. Rostate om a.
+[main_text] 20 Augusty. advis Aostate. en R: permissie verleent om 4000 Rss te negotieren.
+[main_text] 24 Octaber. Miss: Magistraat van Venlo weegens gebr van graanen. R: Copye aan de Rvstate om sorge te draagen voor het garnisoen. 15 novemb: miss. Abstate om pasporten voor 100 Clasten rogge na Venlo. en Res: daerop.
+[main_text] 24 October. prop: Holland. Klagten vande goutters over het verbod vanden uitvoer van bochwyt uit de Oostenryxe Nederlanden. Ordre daarop aan Assendelft. 8 Novemb: ordre aan Travest, om te 15geuri. 2. een Vrldoenend antwoord. 1 hov: midt. Fragat
+[main_text] Vede pagnnam ult lotrf
+[marginalia] Geneve
+[marginalia] Hapa. Gy aanen
+[marginalia] Graanen
+[main_text] 29 april. miss: Capitein Woldering om patent voor undetachement ust Rymegen na de grave. Roma 6 mey. Advis Rv state. en Res: patent verleens voor het halve Regiment van Lewe unt nymegen na de grave, en het halve bataillon van nassau Stadhoader unt de Grave na Nymegen.
+[main_text] 6 may. miss: Brockhuijsen.
+[main_text] 23 may. Miss. Lynden.
+[main_text] 1 Juny. Reg: l. A. 1. de la Lane du Thaij. scholtus en dyhgraaf van de grave en lande van Cuyck, om approbatie op de aanstelling van st vander Slaad tot substitat. R: geapprobeert
+[main_text] 22 July. Reg: l: A. H. de la Lane du Hhay, Scholtus en dytgraaff vande Grave en Lande van Cuyck om approlatie opde aanstelling van 14 substituiten. S: geapprobeert.
+[main_text] 227 October. miss magistraat van Breda. Vreese voor gebrek van graanen. Com: R. Ordre om selfs en den haaren sorge te draagen.
+[main_text] 8 November. miss. magistraat van t Vrye Vreese voor gebrek van graanen, door een Verbod van de Aertshertogen. Com: R. Ordre om selfs in den haaren sorg tedragen. 23 november. miss. mag: van 't Vrije met een ordonantie tegen den utvoer van graanen. Bedenhen op den uitvoer van tarwe cte Comm
+[main_text] 11 November. miss. Mag: van Zas van gent.. Item miss: van den Commandeerende officier, en ontfanger. blingius over de duurte en gebrek van graanen. R: magistraat geauthoriseert 12 lasten rogge unt stads kasse intehoopen: en het voggebrood tegen den te stellen inkoop- prijs en onkosten van transport te laaten verkoopen. Ordro aan Travestom te versechen den vryen uitvoir van soo 10 deumb: miss: Mag: van Zas van gent over het verschot vande penningen. R. Ontfanger olinguus die te restitueren.
+[marginalia] graanen
+[marginalia] grave en lande van Cuyck
+[main_text] 15 november. Petitie van den Raad van State van 300000 gl: tot inhoop van graanen voor de militie. gesonden aan de Provincien. consenten van
+[main_text] gelderland 2 december.
+[main_text] Holland 24 december.
+[main_text] Zeeland 14. december. in een derde part. Utrecht 10 december.
+[main_text] Vriesland 9 december.
+[main_text] Overyssel 7 January 1741.
+[main_text] stad en Lande.
+[main_text] 24 december. Zuland. Overyssel en staden t by missive versogt te consenteeren.
+[main_text] siet 12 January
+[main_text] 7 december. miss. Stadhouders van de drielanden van Overmaze, met een project van eenige ordres tot bester observantie van de Placcaaten van 12 Jan: en 24 Aug: vakitte veelgraanin, als noig is. den uitvoer van graanen, brood enmeel. Item over het Stooken van brandewyn. Rom a
+[main_text] vide paginam ultimam litq
+[marginalia] graanen
+[page_number] 101.
+--- 15y-b (hand pin)
+[main_text] 13 January. mem: grijs over een schip te Amsterdam gearresteert weegens de scheepen in groenland aangehouden. Holl: 04. 5 Maert. Res: tot antwoord aan geijs. Schip te Amsterdam ontslaagen. Versoch om de scheepen in Groenland aangehouden ook te restitaeeren. Ordre aan logmans ten selven einde. 30 April. miss: loymans met een antwoord van denemarken over de scheepen in de Discow-bang aangehouden. Holl: ov: 3 mey. miss: Edymans met eenige belagen tot het antwoord, en syn kader Memone. Mov: gepermitteert. 2 febr. S. n: miss: Mauricus over de praetensie van benemarken op groenland. Holl: en Zeel: op 21 Maert. S: N: miss: Mauricius. 28 Maert. S. N: miss: mauricus met een lyst van Tractaten en actens rakenge bevaart int woorden. 12 April. S: N. Miss: Mauricius met eenige Naleesingen over de vaart: op de Noorder eylanden en landen. 16 April. S. n: 19 April. S. N: 26 April. S. N: 30 April. S. 1. 7 may. S. N: 10 Mag. S. H. 17 Sept: S: N: 11 Octob: S: n: 2 novemb. S: N: 8 novemb: s:4: 22 November. 11. 26 november. 1. 1. 11 decemb: 14:
+[main_text] 26 Augasty. propis: Holland. Slagten van de vaders van de Cabellauws. visscherge om gsland, over het neemen van eenige scheepen door de deenen. R. ordre aan loymans. stom desprecken met grijs. 30 Augustij. Rapport van een conferentie met grijs. 10 September. miss: loymans met een memorie door hem gepresenteert. 8 Octob: Reg: J. van derbs cums. om restitutie van drie Vishochers van Zirazee. R: Ordre aan loymans daarop. 11 October. miss. loymans met eenlyst vande scheepen omtrent ysland genoomen. H: en Z: ov: sut 18 0c: 29 September. miss. Adm: te Amsterdam over een hocher door de deenen op de kasten van gsland genoomen, en naderhand ontkoomen, en met een Lieutenant en 3 deenen geretourneert. Com: 21 October. mem: grys om ontslaging van een ladet met ses deenen. R: Ordre daar toe aan de Adm: op de Maze, en te Amsterdam. kennis daar van de geeven aan grijs: met versoek van ontslag van onse scheepen. 122 Octob: miss: Adm: te Amsterd: tot antwoord, Tiet 26 Aug) 28 bctob. miss: adm: op de Maze. tot antwoordt. 18 Ocober. miss: loymans met het Deens antwoord op syn memorie over ses hoekers bij gsland genoomen. stader memorie door hem te presenteeren. 1. en Z: 0v: 25 October. miss: loymans. Proceduuren ontront dehochers op gsland gehouden. N: en Z: av: 5 novemb: miss:. logmans met het diens antwoord op syn tweede memorie over de hoekers ontrent ysland genoomen. N. en 2: 00: 8 November. miss. loymans, Antwoord op de Res: van 21 Octob: stakhen tot het diensch antwoord behoorende Winz ov. Sut 2 January 1141.
+[page_number] 100.
+[marginalia] Groenland
+[main_text] 12 January. Placcaat teegen den uitvoer van graanen unt belanden van Overmaze.
+[main_text] 18 febr: Reg: Regenten van Houportingen en Zepperen, om granen usttevoeren. R. Hooftof ficuren vande landen van Overmaze om 6. 7 Maert. Arerigt van de offcuren van de landen van Overmaze. R: aan de dorpen van redemptie,„ elf banken vanst servaes den uitvoer van graen
+[main_text] 1 Julij. Miss: Stadhouders van de Hooftofficieren derdie landen van Overmaze. over gebrek aan graanen door het eludeeren van haar Ho:Mo: Placcaat. ebc: R: oma 24 Augusty. advis Rostate. en Res: Placcaat van 12 January. ook te werken teegen vreemden. Niu Placcageemaneert tegen den uitvoer van brood, en meel. en om he stocken van brandewyn voor 3 maanden te doen stel staan. sty 15 July. mem: Hulst over het doorvoeren dangraanin uet de landen van G eranden brespden. en eden danrij 27 July. Memi Hulft, om de vrye passage vangraene welke doorgevoert werden door de landen van Overmaze. R: ordre om het Placcaat vanden 12 January net te appliceeren op graanen, die voorgevoert werden. Grinsven vide infra
+[main_text] 28 May. Reg. A: Cras, om buiten het maagdenhuys van Wester van grinsven te woonen, ende reronues gematen R. afg:
+[main_text] 5 September. miss. sendies en Raad van geneve. Recommandatie van A: Trembley. Weduwe vanden ttlolonel dunant en van haar drie soons.
+[main_text] 10 Juny. miss: mag: van Venlo over het ophouden van graanen na Venlo gaande in 't Pruysosch Overquartier. en om penningen tot inhoop van rogge te negotieren, R: den Envoijé Raesfeld versogt syn goede officien te employeeren. op 't 2e. Rostate om a. 20 Augusty. advis Aostate. en R: permissie verleent om 4000 Rss te negotieren.
+[main_text] 24 Octaber. Miss: Magistraat van Venlo weegens gebr van graanen. R: Copye aan de Rvstate om sorge te draagen voor het garnisoen. 15 novemb: miss. Abstate om pasporten voor 100 Clasten rogge na Venlo. en Res: daerop. 24 October. prop: Holland. Klagten vande goutters over het verbod vanden uitvoer van bochwyt uit de Oostenryxe Nederlanden. Ordre daarop aan Assendelft. 8 Novemb: ordre aan Travest, om te 15geuri. 2. een Vrldoenend antwoord. 1 hov: midt. Fragat Vede pagnnam ult lotrf
+[marginalia] Geneve
+[marginalia] Hapa. Gy aanen
+[marginalia] Graanen
+[main_text] grave en lande van Cuyck
+[main_text] 29 april. miss: Capitein Woldering om patent voor undetachement ust Rymegen na de grave. Roma 6 mey. Advis Rv state. en Res: patent verleens voor het halve Regiment van Lewe unt nymegen na de grave, en het halve bataillon van nassau Stadhoader unt de Grave na Nymegen. 6 may. miss: Brockhuijsen. 23 may. Miss. Lynden.
+[main_text] 15 november. Petitie van den Raad van State van 300000 gl: tot inhoop van graanen voor de militie. gesonden aan de Provincien. consenten van gelderland 2 december. 8 November. miss. magistraat van t Vrye Vreese voor Holland 24 december. Zeeland 14. december. in een derde part. gebrek van graanen, door een Verbod van de Aertshertogen. Utrecht 10 december. Com: R. Ordre om selfs in den haaren sorg tedragen. Vriesland 9 december. 23 november. miss. mag: van 't Vrije met een ordonantie tegen den utvoer van graanen. Bedenhen op den uitvoer van tarwe cte Overyssel 7 January 1741. Comm stad en Lande. 11 November. miss. Mag: van Zas van gent.. Item miss: van 24 december. Zuland. Overyssel en staden t by den Commandeerende officier, en ontfanger. blingius over de missive versogt te consenteeren. duurte en gebrek van graanen. R: magistraat geauthoriseert siet 12 January 12 lasten rogge unt stads kasse intehoopen: en het vog„ 7 december. miss. Stadhouders van de drielanden van gebrood tegen den te stellen inkoop- prijs en onkosten van Overmaze, met een project van eenige ordres tot bester transport te laaten verkoopen. Ordro aan Travestom observantie van de Placcaaten van 12 Jan: en 24 Aug: vakitte te versechen den vryen uitvoir van soo veelgraanin, als noig is. den uitvoer van graanen, brood enmeel. Item over het 10 deumb: miss: Mag: van Zas van gent over het verschot Stooken van brandewyn. Rom a vande penningen. R. Ontfanger olinguus die te restitueren. vide paginam ultimam litq
+[main_text] 227 October. miss magistraat van Breda. Vreese voor gebrek van graanen. Com: R. Ordre om selfs en den haaren sorge te draagen.
+[marginalia] 1 Juny. Reg: l. A. 1. de la Lane du Thaij. scholtus en dyhgraaf van de grave en lande van Cuyck, om approbatie op de aanstelling van st vander Slaad tot substitat. R: geapprobeert
+[marginalia] 22 July. Reg: l: A. H. de la Lane du Hhay, Scholtus en dytgraaff vande Grave en Lande van Cuyck om approlatie opde aanstelling van 14 substituiten. S: geapprobeert.
+[marginalia] graanen
+[marginalia] graanen
+[page_number] 101.
+
+=== NL-HaNA_1.01.02_3463_0040: 15x-a 14 units (7 main_text), 15y-b 13 units (6 main_text)
+--- 15x-a (print)
+[page_number] 70.
+[marginalia] loeverden
+[main_text] 16 febr. voorschryven aan de Swart voor M: de Coch Wed: momber de donge, en nu Wed: Kemmena
+[main_text] 22 November. missive Hertog van Courland. mat: syn aanstelling tot Regent van Rasland, geduurende de minderjaarigheid van Keyser bohan 11. Rescriptie daarop.
+[marginalia] Courland
+[main_text] 22 november. Prop: President. missive van den Keyser van groot Rusland Johan 11. not: het overlijden vande Keiseren, en syne sucussie. Nieu Crebitif op golonhin Item miss: Hertog van Courland not: syn aanstelling tot Regent, geduurende de minderjarigheid. R: Missiven te beantwoorden met een nieu Creditif voor des wart. President versogt een compliment te maken by golonsin 23 november. rapport van den President.
+[main_text] 29 November. Prop: President. missive Koning van Polen Cheurf van Saxen. notif: de geboorte van een Pronces. R: bi missive te feliciteeren. Rescriptie te Tenden aan Rumpf: Agent een compliment te maken by de debrose.
+[main_text] 30 november. Prop: President. missive Koninginne van Creditif
+[main_text] Hongargen on Boheemen, op deen Secretaris Halloy. R aangenaam verklaart.
+[main_text] 12 december. Propes President. missive vande Keyser van groot Rusland Johan 11. not: het afschroon van den Hertog van Courland van het Regentschap, ende aanstelling van syn moeder tot Regente. R se rescriburen. Rescriptien te senden aendeswart 12 december. brief van felicitatie aan den Hertog Anton Ulrich van Brunswijck. te senden aan de swart om ovorbegeeven, soo andere ministers diergelyke brieven ontfangen.
+[marginalia] supra.
+[marginalia] Ceremonieel
+[page_number] 71
+[page_number] 71.
+--- 15y-b (hand pin)
+[page_number] 70.
+[marginalia] loeverden
+[main_text] 16 febr. voorschryven aan de Swart voor M: de Coch Wed: momber de donge, en nu Wed: Kemmena
+[main_text] 22 November. missive Hertog van Courland. mat: syn aanstelling tot Regent van Rasland, geduurende de minderjaarigheid van Keyser bohan 11. Rescriptie daarop.
+[marginalia] Courland
+[main_text] 22 november. Prop: President. missive van den Keyser van groot Rusland Johan 11. not: het overlijden vande Keiseren, en syne sucussie. Nieu Crebitif op golonhin Item miss: Hertog van Courland not: syn aanstelling tot Regent, geduurende de minderjarigheid. R: Missiven te beantwoorden met een nieu Creditif voor des wart. President versogt een compliment te maken by golonsin 23 november. rapport van den President.
+[main_text] 29 November. Prop: President. missive Koning van Polen Cheurf van Saxen. notif: de geboorte van een Pronces. R: bi missive te feliciteeren. Rescriptie te Tenden aan Rumpf: Agent een compliment te maken by de debrose.
+[main_text] 30 november. Prop: President. missive Koninginne van Creditif Hongargen on Boheemen, op deen Secretaris Halloy. R aangenaam verklaart.
+[main_text] 12 december. Propes President. missive vande Keyser van groot Rusland Johan 11. not: het afschroon van den Hertog van Courland van het Regentschap, ende aanstelling van syn moeder tot Regente. R se rescriburen. Rescriptien te senden aendeswart 12 december. brief van felicitatie aan den Hertog Anton Ulrich van Brunswijck. te senden aan de swart om ovorbegeeven, soo andere ministers diergelyke brieven ontfangen.
+[marginalia] supra.
+[marginalia] Ceremonieel
+[page_number] 71
+[page_number] 71.

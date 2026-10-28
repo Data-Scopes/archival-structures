@@ -107,14 +107,68 @@ def test_refuses_outside_root(tree, monkeypatch, capsys):
     assert "root" in capsys.readouterr().err
 
 
-def test_predict_range():
-    out, low, high = mod.predict(H, [100, 10_000], want=8)
-    rate = mod.WORKER_SECONDS_PER_XML_BYTE[H]
-    assert low == 10_000 * rate                      # the largest inventory is the floor
-    assert high == mod.SLOW_FACTOR * low
-    assert out == 10_100 * mod.OUTPUT_PER_XML_BYTE[H]
-    _, low_many, _ = mod.predict(H, [100] * 1000, want=4)
-    assert low_many == 100_000 * rate / 4            # many small inventories: throughput bound
+def test_predict_model():
+    from archival_structures.text_layer.presets import predict_seconds
+    fit = mod.THROUGHPUT_V4[H]
+    sizes = [100e6] * 1000                       # many equal small volumes: the pool is throughput bound
+    out, low, high = mod.predict(H, sizes, 8, 2)
+    serial = sum(predict_seconds(b, st, fit) for st in mod.SERIAL_STAGES for b in sizes)
+    pooled = sum(predict_seconds(b, st, fit) for st in mod.POOL_STAGES for b in sizes)
+    assert low == pytest.approx(serial + pooled / 8)
+    assert high == pytest.approx(serial + pooled / 2) and high >= low
+    assert out == sum(sizes) * mod.OUTPUT_PER_XML_BYTE[H]
+    _, low_big, high_big = mod.predict(H, [1e6, 5e9], 8, 2)   # one big volume: it is the pool floor
+    assert low_big >= predict_seconds(5e9, "extract", fit) and high_big >= low_big
+    assert mod.predict(P, [1e9], 4, 2)[1] > 0
+    assert set(mod.THROUGHPUT_V4) == {H, P}
+    assert all(set(v) == {*mod.POOL_STAGES, *mod.SERIAL_STAGES} for v in mod.THROUGHPUT_V4.values())
+
+
+def test_build_cmds_rebuild(tree):
+    args = mod.parse_args(["--src", f"{H}=x", "--out-dir", "o", "--want", "6", "--min", "3",
+                           "--rebuild", f"{H}=pins.txt"])
+    assert args.rebuild == {H: Path("pins.txt")}
+    cmds = mod.build_cmds(H, args, "w", "o", None, "w/1.01.02_rebuild.txt")
+    assert len(cmds) == 2
+    first, second = cmds
+    assert first[first.index("--stage") + 1] == "extract" and "--force" in first
+    assert first[first.index("--inventories-file") + 1] == "w/1.01.02_rebuild.txt"
+    assert first[-2:] == ["--workers", "{workers}"] and "v4-1.01.02" in first
+    assert second[second.index("--stage") + 1] == "all" and "--inventories-file" not in second
+    assert "--force" not in second
+    assert len(mod.build_cmds(H, args, "w", "o", None)) == 1
+    assert not any("--estimate" in c for c in cmds)
+
+
+def test_rebuild_errors(tree, capsys):
+    layer = tree / "out" / H / mod.PRESETS[mod.ARCHIVES[H]].name
+    (tree / "pins.txt").write_text("# pins\n3349\n")
+    (tree / "other.txt").write_text("3350\n")
+    base = args_for(tree, "--rebuild", f"{H}={tree / 'pins.txt'}", "--check-only")
+    assert mod.main(base) == 2                                    # no status.tsv
+    assert "status.tsv" in capsys.readouterr().err
+    touch(layer / "status.tsv")
+    assert mod.main(base) == 0                                    # comments ignored, one inventory
+    assert f"rebuild: 1 of 3 inventories" in capsys.readouterr().out
+    assert mod.main(base + ["--inventories-file", f"{H}={tree / 'other.txt'}"]) == 2
+    assert "--inventories-file" in capsys.readouterr().err
+    assert mod.main(base + ["--limit", "1"]) == 2
+    assert "--limit" in capsys.readouterr().err
+    (tree / "pins.txt").write_text("3349\n9999\n")
+    assert mod.main(base) == 2                                    # 9999 is not among the links
+    assert "9999" in capsys.readouterr().out
+
+
+def test_archive_summary_last_row(tmp_path):
+    layer = tmp_path / H / "NL-HaNA_1.01.02_text_layer_v4"
+    layer.mkdir(parents=True)
+    head = "inventory_number\tstage\tstatus\tn_rows\n"
+    rows = ["1\textract\tdone\t1", "1\ttypes\tfailed\t0", "1\ttypes\tdone\t1",
+            "2\textract\tdone\t1", "2\ttypes\tdone\t1"]
+    (layer / "status.tsv").write_text(head + "\n".join(rows) + "\n")
+    assert mod.archive_summary(tmp_path, H) == (2, 0)
+    (layer / "status.tsv").write_text(head + "\n".join(rows + ["2\ttypes\tfailed\t0"]) + "\n")
+    assert mod.archive_summary(tmp_path, H) == (1, 1)
 
 
 def test_two_archives_one_run(tree, capsys):
@@ -137,8 +191,8 @@ def test_two_archives_one_run(tree, capsys):
 def test_build_cmds_per_archive(tree):
     args = mod.parse_args(["--src", f"{H}=x", "--src", f"{P}=y", "--republic-dir", f"{P}=rep",
                            "--out-dir", "o", "--want", "6", "--min", "3"])
-    _, real_h = mod.build_cmds(H, args, "w", "o", None)
-    _, real_p = mod.build_cmds(P, args, "w", "o", "subset.txt")
+    real_h, = mod.build_cmds(H, args, "w", "o", None)
+    real_p, = mod.build_cmds(P, args, "w", "o", "subset.txt")
     assert "--republic-dir" not in real_h and real_h[-2:] == ["--workers", "{workers}"]
     assert "sg_1.01.02_v4" in real_h and "v4-1.01.02" in real_h
     assert real_p[real_p.index("--republic-dir") + 1] == "rep" and "subset.txt" in real_p
@@ -171,3 +225,17 @@ def test_audit_self_test():
     res = subprocess.run([sys.executable, "-I", str(audit), "--self-test"], cwd=ROOT, capture_output=True, text=True)
     assert res.returncode == 0, res.stdout[-800:] + res.stderr[-800:]
     assert "self-test ok" in res.stdout
+
+
+def test_whole_layer_terms():
+    assert mod.whole_layer_seconds(0, 0) == mod.WBC_DECISION_S
+    base = mod.WBC_DECISION_S
+    assert mod.whole_layer_seconds(1000, 0) - base == pytest.approx(2 * (mod.whole_layer_seconds(500, 0) - base))
+    assert mod.whole_layer_seconds(0, 2e9) - base == pytest.approx(2 * (mod.whole_layer_seconds(0, 1e9) - base))
+    assert mod.whole_layer_seconds(10, 3e9) == pytest.approx(
+        base + 10 * mod.AUDIT_S_PER_INVENTORY + 3 * mod.SIZING_S_PER_STORED_GB)
+
+
+def test_check_only_logs_whole_layer(tree):
+    assert mod.main(args_for(tree, "--check-only")) == 0
+    assert "over the whole layer" in (tree / "out" / "run_v4.log").read_text()

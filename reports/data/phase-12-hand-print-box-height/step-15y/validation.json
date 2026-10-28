@@ -1,0 +1,262 @@
+[
+ {
+  "sample": "in_sample",
+  "archive": "1.01.02",
+  "stage": "extract",
+  "workers": 7,
+  "measured_span_h": 2.8357016666666666,
+  "predicted_span_h": 1.649438857102222,
+  "error_pct": -41.833131584638174
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.01.02",
+  "stage": "layout",
+  "workers": 1,
+  "measured_span_h": 2.295383888888889,
+  "predicted_span_h": 2.2936265051416203,
+  "error_pct": -0.07656164861030379
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.01.02",
+  "stage": "types",
+  "workers": 1,
+  "measured_span_h": 0.9792666666666667,
+  "predicted_span_h": 0.9774386002598187,
+  "error_pct": -0.1866770787849485
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.01.02",
+  "stage": "units",
+  "workers": 1,
+  "measured_span_h": 0.7203608333333333,
+  "predicted_span_h": 0.7190268545008931,
+  "error_pct": -0.18518203249162046
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.01.02",
+  "stage": "wbc",
+  "workers": 4,
+  "measured_span_h": 0.17665083333333334,
+  "predicted_span_h": 0.10467505198390148,
+  "error_pct": -40.744659955051745
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.01.02",
+  "stage": "join",
+  "workers": 4,
+  "measured_span_h": 0.2643202777777778,
+  "predicted_span_h": 0.2633198572007291,
+  "error_pct": -0.3784880166817065
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.01.02",
+  "stage": "TOTAL",
+  "workers": null,
+  "measured_span_h": 7.271684166666667,
+  "predicted_span_h": 6.007525726189185,
+  "error_pct": -17.384671989363518,
+  "serial_share_measured": 0.5493928637882796,
+  "serial_share_predicted": 0.6641822510235688
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.10.94",
+  "stage": "extract",
+  "workers": 2,
+  "measured_span_h": 0.06092,
+  "predicted_span_h": 0.061510414785555564,
+  "error_pct": 0.969164125994029
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.10.94",
+  "stage": "layout",
+  "workers": 1,
+  "measured_span_h": 0.003941111111111111,
+  "predicted_span_h": 0.0039862510381,
+  "error_pct": 1.1453604254299408
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.10.94",
+  "stage": "types",
+  "workers": 1,
+  "measured_span_h": 0.0017497222222222224,
+  "predicted_span_h": 0.0017514835784844445,
+  "error_pct": 0.10066490782662989
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.10.94",
+  "stage": "units",
+  "workers": 1,
+  "measured_span_h": 0.0026355555555555555,
+  "predicted_span_h": 0.0027757987186544444,
+  "error_pct": 5.321199274409784
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.10.94",
+  "stage": "wbc",
+  "workers": 2,
+  "measured_span_h": 0.0008305555555555556,
+  "predicted_span_h": 0.0006157131618633333,
+  "error_pct": -25.867311615117067
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.10.94",
+  "stage": "join",
+  "workers": 2,
+  "measured_span_h": 0.0011866666666666668,
+  "predicted_span_h": 0.0012836492748936111,
+  "error_pct": 8.172691704517778
+ },
+ {
+  "sample": "in_sample",
+  "archive": "1.10.94",
+  "stage": "TOTAL",
+  "workers": null,
+  "measured_span_h": 0.07126361111111111,
+  "predicted_span_h": 0.0719233105575514,
+  "error_pct": 0.9257171172700085,
+  "serial_share_measured": 0.11683927826653,
+  "serial_share_predicted": 0.11836959769011958
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.01.02",
+  "stage": "extract",
+  "workers": 4,
+  "measured_span_h": 0.37232666666666664,
+  "predicted_span_h": 0.22818846078222227,
+  "error_pct": -38.712834397512324
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.01.02",
+  "stage": "layout",
+  "workers": 1,
+  "measured_span_h": 0.15567555555555557,
+  "predicted_span_h": 0.14827015993430567,
+  "error_pct": -4.756941829963245
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.01.02",
+  "stage": "types",
+  "workers": 1,
+  "measured_span_h": 0.05423,
+  "predicted_span_h": 0.05834944078251389,
+  "error_pct": 7.596239687467986
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.01.02",
+  "stage": "units",
+  "workers": 1,
+  "measured_span_h": 0.04943472222222222,
+  "predicted_span_h": 0.046876913757349994,
+  "error_pct": -5.174113153451528
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.01.02",
+  "stage": "wbc",
+  "workers": 4,
+  "measured_span_h": 0.012947222222222223,
+  "predicted_span_h": 0.007077075998615556,
+  "error_pct": -45.33903970174641
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.01.02",
+  "stage": "join",
+  "workers": 4,
+  "measured_span_h": 0.019074722222222222,
+  "predicted_span_h": 0.017097639804160004,
+  "error_pct": -10.36493425712328
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.01.02",
+  "stage": "TOTAL",
+  "workers": null,
+  "measured_span_h": 0.6636888888888889,
+  "predicted_span_h": 0.5058596910591674,
+  "error_pct": -23.78059968639077,
+  "serial_share_measured": 0.3907557925400121,
+  "serial_share_predicted": 0.5011202097233708
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.10.94",
+  "stage": "extract",
+  "workers": 2,
+  "measured_span_h": 0.060847222222222226,
+  "predicted_span_h": 0.061510414785555564,
+  "error_pct": 1.0899307135357306
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.10.94",
+  "stage": "layout",
+  "workers": 1,
+  "measured_span_h": 0.004136666666666666,
+  "predicted_span_h": 0.0039862510381,
+  "error_pct": -3.63615540451247
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.10.94",
+  "stage": "types",
+  "workers": 1,
+  "measured_span_h": 0.0017469444444444444,
+  "predicted_span_h": 0.0017514835784844445,
+  "error_pct": 0.2598327642550507
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.10.94",
+  "stage": "units",
+  "workers": 1,
+  "measured_span_h": 0.0028980555555555556,
+  "predicted_span_h": 0.0027757987186544444,
+  "error_pct": -4.218581547436023
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.10.94",
+  "stage": "wbc",
+  "workers": 2,
+  "measured_span_h": 0.0006947222222222222,
+  "predicted_span_h": 0.0006157131618633333,
+  "error_pct": -11.372755589444225
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.10.94",
+  "stage": "join",
+  "workers": 2,
+  "measured_span_h": 0.0013113888888888888,
+  "predicted_span_h": 0.0012836492748936111,
+  "error_pct": -2.1152851171997424
+ },
+ {
+  "sample": "out_of_sample",
+  "archive": "1.10.94",
+  "stage": "TOTAL",
+  "workers": null,
+  "measured_span_h": 0.071635,
+  "predicted_span_h": 0.0719233105575514,
+  "error_pct": 0.4024716375394624,
+  "serial_share_measured": 0.12258905097601265,
+  "serial_share_predicted": 0.11836959769011958
+ }
+]

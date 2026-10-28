@@ -80,13 +80,22 @@ The archival-structures checkout's own `.venv` already has everything installed,
 used directly.
 
 `D` holds `<inv>.zip` files or `<inv>/` directories. `--stage` runs `extract`, `wbc`, `join`
-or `all`. Each stage is resumable per inventory (rerun the same command; `--force` redoes
-it). `--inventories a,b`, `--inventories-file F` and `--limit N` select inventories;
+or `all` (v2 presets also `layout`, `types`, `units`). Each stage is resumable per inventory (rerun the same command;
+`--force` redoes it). Since step 15y this includes the v2 stages `layout`, `types` and `units`: an inventory is skipped when
+its done row is newer than the latest row of the stage it reads (`build.V2_UPSTREAM`, `build.is_current`; `wbc` parts and
+`join` too) and its outputs exist, and a stage redoes everything when its `params.json` differs from the new parameters. A
+Since step 15yr a v2 stage skips ("blocked") an inventory whose upstream stage, at any depth of `V2_UPSTREAM`, has a last row
+that is not `done` (`build.upstream_ok`): after a failed forced extract the later stages neither run on the old lines nor record
+themselves `done`; the log says `N blocked`. The v2 build reuses the sizes recorded in `status.tsv` (`build.recorded_sizes`,
+last `done` extract row, used when the source file's size equals the recorded `input_bytes`) and sizes only the other sources
+(`[sizes] N from status.tsv, M measured`). The `seconds` of a v4 extract row time the whole call, mode pre-pass included
+(`prepass_seconds` is in the stage result; rows written before 15yr leave the pre-pass out, about half of each call). A
+wordfix run writes no status rows, so it needs `--force` on layout (no preset uses wordfix). v1 (VOC) is unchanged. `--inventories a,b`, `--inventories-file F` and `--limit N` select inventories;
 `--allow-partial`, `--allow-subset-wbc`, `--ignore-sanity`, `--wbc-stats-only` and `--write-events` are described in
 `--help`. The driver's module docstring has the full handoff text for a run on another machine,
 including expected runtime and output size. Run AS's `tests/test_text_layer_*.py` first.
 
-**Never build into an existing shared layer with a subset of its inventories.** Since step 15hj,
+**Never build into an existing shared layer with a subset of its inventories** (the one exception is the forced extract of an in-place rebuild, *Rebuilding pinned volumes* below, always followed by `--stage all` over the whole layer). Since step 15hj,
 `--stage wbc` exits with a message when the run's inventories are a strict subset of those with a
 `lines/` table in the layer, unless `--allow-subset-wbc` is given. Rerunning a stage moves its old
 `manifest.json` entry to `history.<stage>` (a list); a fresh build has no `history`. The `wbc`
@@ -511,6 +520,48 @@ then glue words across a break mark ("Getee|Waar meede, &c."; F12-R.13, F12-R.14
 0.35 (`split_gate` in `mode/<inv>.json`): the two-column *gedrukte resoluties* (0.50) are split, the single-column
 *nouvelles*, *plakkaten* and *Processtukken* (at most 0.23) are not. Before step 15wr they were split, which cut about a
 million ordinary lines in two (`15w-a`).
+
+**Mode pins (step 15y, P21, P24).** `volume_mode["pins"]` is a `{inventory: "hand" | "print"}` mapping, for volumes the rule gets
+wrong and a reader has settled (`presets.MODE_PINS_V4`: 16 pins since step 15z, see *Pinned volumes* below; the first, 3463, was read handwritten 5/5 in 15w,
+measured 86.5 px, so built `print` and split wrongly, F12-R.9). `modes.decide_mode(line_rows, preset, inv=None)` applies the pin of `inv`: `mode` is
+the pin, `method` is `pinned`, and the measured result stays in `box_height_mode` / `box_height_method` (with `value` and
+`margin`). The split gate then follows the pinned mode (a `hand` pin: no split, no `split_gate` key). `sg_1.10.94_v4` has no
+pins. Files written per inventory under `mode/`: `mode/<inv>.json` (the decision above, `n_scans`, `n_parse_fail`,
+`scan_minority_share`), `mode/scans/<inv>.tsv.gz` (per scan: box-height value, chars, regions, `side`), `mode/regions/<inv>.tsv.gz`
+(per region: lines, chars, median height, pitch). A forced extract also removes the per-inventory files that a hand build does
+not write (`split_model/<inv>.json`, `split_stats/<inv>.json`, `split_stats/<inv>.splits.json`), and the units stage removes
+`units/republic_lines/<inv>.tsv.gz` when it writes no crosswalk.
+
+**Pinned volumes (step 15z, P28).** 5 scans of each of 37 volumes outside the printed EAD series, or built the other way round, were
+read from the text alone (`reports/data/phase-12-hand-print-box-height/step-15z/verdicts.tsv`, `volumes.tsv`). Rule, fixed before the
+reads: pin to the other mode iff at least 4 of the 5 scans have the other class (2 of 2 readable if fewer than 5 are readable);
+2 or 3 is a *mixed volume* and is left as built. Pins: to `hand` (5/5 handwritten, built `print` at 74.0-86.5 px): the *tweede serie*
+index volumes 3433, 3436, 3439, 3442, 3445, 3463, 3466, 3469, 3472, 3475, 3489, the "Tafel der respecten" 3726, the secrete index 4792
+and the systematic index of the commissieboeken 12297; to `print` (5/5 printed, built `hand` at 88.0-89.5 px): the silver-print *plakkaten*
+12163 and 12165. Everything else read (20 volumes) stays as built, including the printed pamphlets, extracts and verbals; 4016
+(3 printed, 2 handwritten) is the one mixed volume. Known issue: a `hand` pin on an index volume removes the wrong splits of the
+merged-line splitter but does not cut at the entries (on the first read scan of the 13 volumes pinned `hand` in 15z, 5 are worse than the print build, 3 mixed, 4 same, 1 better; 3436,
+3445, 3466, 3469 and 3472 lose 26-50% of their date-starting units; F12-15y.5, F12-15z.3); entries are merged, not cut in words. The cause is the hand unit rule (one unit per PageXML region), and the hand layout keeps a
+region that spans two columns in XML order, so 1.4% of the units of these volumes interleave two columns (0.07% in their print
+builds; F12-R.21, F12-R.22). Of the 16 pins, only 3463 is in the published v4 pilot (pinned there since 2026-10-27, UA-038).
+
+### Rebuilding pinned volumes (step 15y)
+
+After adding a pin, rebuild only the pinned volumes of an existing layer, in place:
+
+```
+.venv/bin/python scripts/run_text_layer_v4_full.py --only 1.01.02 --rebuild 1.01.02=pins.txt \
+    --src 1.01.02=<dir with the tars of the pinned volumes and the rest> --out-dir <layer base> --work-dir <work dir>
+```
+
+`pins.txt` lists the inventories, one per line. The script runs a forced `--stage extract` of them, then `--stage all` over the
+whole layer: layout, types, units, the wbc part and the join are redone for the listed volumes only (their status rows are stale),
+the corpus word-break statistics are re-derived from every inventory, and every other per-inventory file is left untouched. Every
+volume of the layer needs its source in `--src`: the build lists and sizes all of them (a `.tar.gz` is decompressed to be sized,
+about 9 minutes for the 9,122 SG tars; F12-15z.11), and the wbc stage stops if a layer inventory has no source. Only the listed
+volumes are parsed. Rerunning a `--rebuild` command after a crash repeats the forced extract of the listed volumes. Check the result with
+`step-15v/compare.py` against the layer before (only the listed inventories and the pooled `wbc/` files may differ) and with
+the audit.
 
 ### Running the full v4 build (step 15w)
 
