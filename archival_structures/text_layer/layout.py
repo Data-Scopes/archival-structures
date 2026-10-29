@@ -218,12 +218,16 @@ def layout_scan(scan_row, region_rows, lines_by_region, gutter_rel, params, *,
     return scan_out, out_regions, line_out, passes
 
 
-def _write_pages_table(path, line_rows, line_map, cfg) -> int:
-    """Per page side features, rule and filled index flag (step 19c); returns the number of index sides."""
+def _write_pages_table(path, line_rows, line_map, cfg, scan_order) -> int:
+    """Per page side features, rule and filled index flag (step 19c); returns the number of index sides.
+
+    Sides follow ``scan_order`` (scan_id -> position in the scans table), as in types/units: scan ids
+    such as ``3548_0003A``, ``7364A_R`` or ``5745B_0001`` have no global scan number to sort by.
+    """
     sides = defaultdict(list)
     for l in line_rows:
         sides[(l["scan_id"], line_map[(l["scan_id"], l["line_id"])]["page"])].append(l)
-    keys = sorted(sides, key=lambda k: (int(k[0].rsplit("_", 1)[1]), PAGE_ORDER[k[1]], k[1]))
+    keys = sorted(sides, key=lambda k: (scan_order[k[0]], PAGE_ORDER[k[1]], k[1]))
     feats = [side_features(sides[k], cfg) for k in keys]
     rules = [side_rule(f, cfg) for f in feats]
     flags = fill_runs(rules, cfg.get("gap", 0), cfg.get("min_run", 1))
@@ -289,7 +293,8 @@ def layout_inventory(inv, layer_root, params: LayoutParams = LayoutParams()) -> 
     n_index_sides = None
     if params.index_sides is not None:   # step 19c
         n_index_sides = _write_pages_table(out / "pages" / f"{inv}.tsv.gz", line_rows, line_map,
-                                           params.index_sides)
+                                           params.index_sides,
+                                           {s["scan_id"]: i for i, s in enumerate(scans)})
 
     sums = Counter()
     for r in scan_out:

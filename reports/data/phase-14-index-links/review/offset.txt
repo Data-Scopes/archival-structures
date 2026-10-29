@@ -1,0 +1,22 @@
+all 15209 {'no hit': 998, '0 (tie)': 2962, 'other': 982, '0': 9336, '+1': 682, '-1': 249}
+interpolated {'no hit': 202, '0 (tie)': 524, 'other': 201, '0': 1584, '-1': 60, '+1': 99}
+printed {'0': 7710, '0 (tie)': 2426, 'no hit': 750, 'other': 762, '+1': 574, '-1': 187}
+extrapolated {'0': 42, 'other': 19, '+1': 9, '0 (tie)': 12, 'no hit': 46, '-1': 2}
+vol 3630 {'+1': 40, '0 (tie)': 76, '0': 207, 'other': 53, '-1': 9}
+vol 3623 {'0 (tie)': 138, '0': 358, 'other': 76, '+1': 38, '-1': 19}
+vol 3611 {'0 (tie)': 92, '0': 330, '-1': 17, 'other': 67, '+1': 19}
+vol 3493 {'0 (tie)': 124, '0': 322, '+1': 42, '-1': 8, 'other': 54}
+vol 3590 {'+1': 20, '-1': 7, 'other': 19, '0': 153, '0 (tie)': 49}
+vol 3507 {'other': 45, '0 (tie)': 102, '-1': 9, '0': 301, '+1': 36}
++1 ('3438', 132, 'interpolated', 'high', {-3: 0, -2: 0, -1: 0, 0: 0, 1: 1, 2: 0, 3: 0}, 'Leeden en zoonen aan Coijmans 132.')
++1 ('3590', 351, 'printed', 'high', {-3: 0, -2: 0, -1: 0, 0: 0, 1: 1, 2: 0, 3: 0}, 'Missr. Koning van Napels, notoficatie geboorte van eene Princes, 351.')
++1 ('3590', 1095, 'printed', 'high', {-3: 0, -2: 0, -1: 0, 0: 0, 1: 2, 2: 0, 3: 0}, 'Reqte van Mr. S. H. van Kervel, voldoen van Declaratie door S. Court. 1095.')
++1 ('3456', 443, 'printed', 'high', {-3: 1, -2: 1, -1: 1, 0: 3, 1: 5, 2: 2, 3: 1}, 'dministratoren mogte werden ingebragt, aan hem gecommuniceert mogte werden. 443.')
++1 ('3428', 330, 'printed', 'high', {-3: 1, -2: 0, -1: 0, 0: 2, 1: 4, 2: 2, 3: 1}, 'meerde Kerken Raadte Moscouom een subsidie tot onderhoud van kerk en School 330.')
++1 ('3522', 161, 'printed', 'high', {-3: 0, -2: 0, -1: 0, 0: 0, 1: 3, 2: 0, 3: 0}, 'jes met Porcelain van Doesburg, met een bijgevoegde certificatie van L: Pain 161')
+-1 ('3471', 22, 'printed', 'high', {-3: 1, -2: 1, -1: 4, 0: 2, 1: 1, 2: 2, 3: 1}, 'ropositie Stad en Landen om meerder militie in de Provintie te mogen hebben. 22.')
+-1 ('3611', 621, 'printed', 'high', {-3: 0, -2: 0, -1: 3, 0: 1, 1: 0, 2: 0, 3: 0}, 'consent in het verleenen van onbepaalde convoyen: 621.')
+-1 ('3315', 9, 'interpolated', 'medium', {-3: 1, -2: 0, -1: 2, 0: 1, 1: 0, 2: 0, 3: 0}, 'Die van Aardenburgh wegens desagt 9.')
+-1 ('3471', 429, 'interpolated', 'high', {-3: 1, -2: 0, -1: 2, 0: 1, 1: 1, 2: 0, 3: 0}, 'ande gemelde twee Compagnien Hanoversche Troup, Lijst van de Nieuwe jaaren. 429.')
+-1 ('3280', 121, 'interpolated', 'high', {-3: 0, -2: 0, -1: 3, 0: 0, 1: 0, 2: 0, 3: 0}, 'Maurice de Nassau Hr. van Leck Gouvernr. van Sluijs, 121.')
+-1 ('3368', 70, 'printed', 'high', {-3: 1, -2: 1, -1: 2, 0: 1, 1: 1, 2: 1, 3: 1}, 'Missiven vanden Hertog 70.')

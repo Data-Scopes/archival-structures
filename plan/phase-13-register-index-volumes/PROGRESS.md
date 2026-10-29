@@ -169,3 +169,35 @@ Implementation sessions append here but don't read it unless their brief names a
   findings), `make reports` clean.
 - **Written:** `REVIEW.md`, report *Summary*/*Review*/*Follow-ups*/*Reproduce*, phase `PLAN.md` hand-off and checklist,
   `plan/PLAN.md` row, `plan/CONTEXT.md` (v5, trimmed), `STATUS.md`, reviewer notes on UA-045 and UA-046.
+
+### Post-phase fix: v5 full run stopped at units (Opus 5.5, 2026-10-29, outside the step protocol)
+- **Symptom (UA-045 full run):** `stage units: no scans/lines/layout/types tables for ['3548', '5751', '7364', '7365', '7366']`;
+  build exited 1. Local copies of the run's `status.tsv`, `progress.log`, `manifest.json`, `run_v4.log`: `data/text_layer_v5_full/`.
+- **Cause:** `layout._write_pages_table` (19c) sorted page sides by `int(scan_id.rsplit("_", 1)[1])`. 7 hand volumes have
+  non-numeric scan numbers (`3548_0003A`, `5751B_P001`, `7364A_R`, ...) → layout `failed` for 3548 5751 7364 7365 7366
+  7368 7461 (extract 9,122 done, layout 9,115 done, types 9,115 done); units then exits on the missing tables. The same key
+  silently interleaved the parts of multi-part volumes: 16 hand volumes in the full layer (from the v4 full scans tables
+  of all 9,122) have scans-table order ≠ numeric order, so `fill_runs` saw a scrambled side sequence. The 231-volume dev
+  build 19e-a had only print volumes among these (7462, 8828), which have no pages table, so 19e never hit it.
+- **Fix:** sides follow the scans table (`scan_order`, as `types.py`); test `test_index_sides_pages_table_scan_order` (fails
+  before, passes after); suite 1,358 passed, 11 skipped; changelog *Unreleased*. Volumes with all-numeric ids in table order
+  produce identical tables.
+- **Rerun:** `--rebuild 1.01.02=reports/data/phase-13-register-index-volumes/step-19e/rebuild_scan_order.txt` (23 volumes)
+  on the UA-045 run command; the 16 old pages tables are copied to `data/text_layer_v5_full/pages_before_fix/` first for a
+  before/after comparison of the index flags (error analysis, to do after the run).
+- **2026-10-29, after the rerun:** user ran the copy and the `--rebuild` command (UA-045 resolved); review files staged by
+  UA-047; the before/after comparison waits for it. v5 pilot `19e-a` published in shared-data (UA-046 (a); none of the 23
+  volumes is in it).
+- **Full v5 run checked (2026-10-29, UA-047 staged 789 MB to `data/text_layer_v5_full/`):** latest status row per volume and
+  stage: 9,122 `done` in all six stages (the 7 `failed` layout rows of the first run are superseded); output 39,522 MiB;
+  audit 161,633 pass, 2,734 fail, all the reported lower-case merge share, **0 judged**.
+  - *16 multi-part volumes, before/after:* every side's features (`n_lines` ... `rule`) equal; only the row order and the
+    gap fill change. Flags 46 → 45 over 11,904 sides, 0 gained, 1 lost: `11086B_0030` verso, flagged before only because
+    the interleaving put it between `11086_0029` recto and `11086_0030` verso (both flagged, kept); read: a two-column French
+    letter, so the lost flag is correct.
+  - *7 volumes that failed:* pages tables now follow the scans table. 3548: 86 flagged sides `0003B`–`0045` recto, read: a
+    subject index (missives, ordonnanties, folio numbers), 829 `hand:index*` units; its last side `0046` verso ("Finis", 12
+    lines) is missed. 5751: 1 flag, `5751A_0205` recto, a troop roster (false positive). 7461: 2 flags, `0164` recto and
+    `0402` single, number tables (accounts; false positives). 7364–7366, 7368 (4–29 sides): none. The false positives are
+    the known roster/account type (F13-R.13).
+  - The full layer stays on the user's external drive, like v4's full run; nothing of it is published.

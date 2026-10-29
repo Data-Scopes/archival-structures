@@ -22,7 +22,7 @@ classifiers = [
     "Topic :: Text Processing :: Linguistic",
 ]
 dependencies = [
-    "pagexml-tools (>=0.9.0,<1.0.0)",
+    "pagexml-tools (>=0.9.1,<1.0.0)",
     "numpy>=2.3.5,<3.0.0",
     "lxml (>=5.3.0,<7.0.0)",
     "fuzzy-search (>=3.0.0,<4.0.0)",

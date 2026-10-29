@@ -1,0 +1,9 @@
+q1: {'Yes': 18, 'No': 2}  Yes 18/20 = 0.90 (Wilson 0.70-0.97)
+q2: {'Yes': 17, 'No': 2, 'Unsure': 1}  Yes 17/20 = 0.85 (Wilson 0.64-0.95)
+by split: {'dev': 9, 'test': 11}
+- 1 dev 3254 loc 383: q1 Yes q2 Yes | entry 'Heer Crouse 383.' | agent verso | note: second scan
+- 7 dev 3471 loc 94: q1 No q2 No | entry "Abraham d'Silva Cunes94, 108." | agent absent | note: The agent extracted 94, which is an OCR error. The reference is folio 108.
+- 9 dev 3471 loc 71: q1 Yes q2 Unsure | entry "Missive van 't Collegie ter Admirali teijt in Zeeland over Ails: 71." | agent verso | note: I think it refers to a resolution on the second scan, but I'm not sure, as I can't see a connection with the term Ails.
+- 10 dev 3471 loc 452: q1 No q2 No | entry "binnen de Stadt van't Zas van gevergtevierd te doen. 452." | agent recto | note: The extracted entry merges two columns. 
+- 13 dev 3394 loc 646: q1 Yes q2 Yes | entry 'Praedicant Ardesch 646, 684.' | agent verso | note: first scan recto
+- 23 dev 3308 loc 115: q1 Yes q2 Yes | entry 'paspoort voor wijnijstg6. Pofwagen op Aeken 115. 176. 204, 235, 302, 3' | agent recto | note: The index entry merges lines from two columns, the right-hand column is matched.

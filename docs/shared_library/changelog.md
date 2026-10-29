@@ -4,6 +4,60 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.19.0 (2026-10-29)
+
+### Step 20r: review fixes (2026-10-29)
+
+- No public library API changed. `scripts/build_index_links.py`: a volume that raises is recorded as `failed`
+  (manifest `last_run.failed`), the run goes on and exits 1; `progress.log` in the layer root. No sibling imports affected.
+
+### Step 20e: index links (2026-10-29)
+
+- Additions to `analysis.index_links`, no existing signature changed: `Locator`, `LocatorParams`, `SG_MONTHS`,
+  `SG_LOCATOR_PARAMS`, `DEFAULT_LOCATOR_VARIANT` (`L2`), `LINK_COLUMNS`, `extract_locators`, `volume_links`; new script
+  `scripts/build_index_links.py` (layer `NL-HaNA_1.01.02_index_links_v1`, `docs/index_links.md`). Affected sibling
+  imports: none.
+
+### Step 20d: folio map (2026-10-29)
+
+- New modules, no existing signature changed: `analysis.folio_map` (`NUMBER_PATTERN`, `FolioMapParams`, `FolioTarget`,
+  `FolioMap`, `build_folio_map`) and `analysis.index_links` (`front_index_run`, `VolumeInputs`, `read_volume_inputs`).
+  Affected sibling imports: none.
+
+### Step 20b: NLP shims for C10/C12 (2026-10-29)
+
+- AS API unchanged. NLP's `startpage.unsupervised_segmentation` (`segment_dp`, `calibrate_length_penalty_weight`,
+  `textiling_depth_scores`, `predicted_start_rate`, `_geometric_length_penalty`, `MAX_SEGMENT_LENGTH`) and
+  `startpage.separator_sheets` (`is_separator_sheet`, `detect_sheets`, `apply_rule`) now import from
+  `archival_structures.stream_analysis.overview.subsequence_detection` and `archival_structures.analysis.separator_sheets`.
+  A/B against the saved originals is identical on the 22 VOC inventories (F14-20b.1). Behaviour difference: an unknown
+  convention in `apply_rule` raises `ValueError` (was treated as "next"). Affected sibling imports: the NLP modules above.
+
+### Step 20a: pagexml-tools 0.9.1 (2026-10-29)
+
+- Requirement `pagexml-tools >= 0.9.1`; `text_layer.provenance.MIN_PAGEXML_TOOLS = (0, 9, 1)`, so
+  `check_pagexml_tools_version()` is False in an environment with 0.9.0. `analysis.page_structure.assign_column_roles`
+  no longer sets parents of `extra` regions or computes a fallback `page_coords` itself (0.9.1 does both). Under 0.9.1
+  nested TextRegions parse: `text_layer.extract` now extracts them (they raised `TypeError` and the scan was skipped on 0.9.0). The regression build of 1.01.02 (231 inventories) is byte-identical to `19e-a` (4,591 files), 0 real SG scans are affected. Behaviour change for scans with nested regions only (UA-049 (a)).
+- Affected sibling imports: NLP `tests/test_voc_text_layer.py::test_pagexml_tools_version_is_at_least_080` (passes with
+  the 0.9.1 venvs); any sibling venv must hold 0.9.1.
+
+### Fix: v5 `layout/pages` side order (2026-10-29, v5 full run)
+
+- `text_layer.layout.layout_inventory` with `index_sides`: page sides in `layout/pages/<inv>.tsv.gz` (and the run filling of
+  `index_side`) follow the scans table, as in types/units, instead of the number after the last `_` of the scan id. That
+  number crashed the layout of 7 volumes (`3548_0003A`, `5751B_P001`, `7364A_R`, ...) and interleaved the parts of 16
+  multi-part hand volumes (`5745A_0001, 5745B_0001, 5745A_0002, ...`). Volumes whose scan ids all end in a number, in
+  table order, are unchanged. Private `_write_pages_table` gains a `scan_order` argument.
+- Affected sibling imports: none (only v5 layers write `layout/pages`; the v5 pilot published 2026-10-29 contains none
+  of the 23 affected volumes, so its tables are unchanged).
+
+### Published: SG text layer v5 pilot (2026-10-29, UA-046 (a))
+
+- `shared-data/NL-HaNA_1.01.02/text_layer_v5/` = dev build `19e-a` (231 inventories; catalogue row in the shared-data
+  README; note in LotA `docs/from-archival-structures.md` §10). No code change.
+- Affected sibling imports: none.
+
 ## v0.18.0 (2026-10-28)
 
 ### Step 19e: text layer v5 preset and run kit

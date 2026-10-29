@@ -15,3 +15,12 @@ Recorded in `ground_truth/README.md` (successor of the 2026-03 `session_metadata
 `docs/from-republic.md` §10 (resumption typing), `plan/CONTEXT.md` §3–§4 (data fact and follow-ups) and the phase-13
 review checklist (resolution pages as silver negatives for the index-page detector). When a step links it, AS follows
 the shared-data protocol § 3 and adds itself to the catalogue row's "used by".
+
+## 2026-10-29: `republic_segmentation_v2` published (from republic-segmentation, step 09c)
+- **What/where:** `shared-data/NL-HaNA_1.01.02/republic_segmentation_v2/` (443 inventories) and `shared-data/NL-HaNA_1.10.94/republic_segmentation_v2/` (455, 456): the `09.2` segmentation, same tables as v1 plus `v1_id_map`. v1 stays where it is. AS uses the layer for scoring only (phase 14).
+- **Link it:** shared-data protocol § 3 (symlink under your `data/`, read-only, add yourself to the catalogue row's "used by"); LotA: `../shared-data` in `[paths].allowed_roots`.
+- **What changed for a v1 user:** sessions 122,069 → 121,341 (1,538 v1 sessions merged into a neighbour by V4 and the Eodem rule, 101 Nihil-actum sessions added); new `lines.unit_type` `resumption` (193,190 lines); the Preside line is `attendance_list`; page-bottom dates are `date_header`, volume headers `running_header`; "Eodem die" lines are `other_session_part`; dates re-flagged (`date_flag`).
+- **Ids:** 2026-03-looking ids keep their meaning; every other v2 id is `rs2-<kind>-<inv>-<n>`. No `rs1-` id appears in v2, and `rs2-...-00001` need not be `rs1-...-00001`.
+- **Moving from v1:** join your v1 ids on `v1_id_map.v1_id`; `kind` is `same`, `shifted`, `split`, `merged`, `mixed` or `dropped`; `v2_ids` lists the v2 units. v1 sessions: 118,265 same, 1,116 shifted, 101 split, 1,538 merged, 1,049 mixed, 0 dropped.
+- **Known limits (random check 10 of 20 right, v1 7 of 20, not paired):** hand resolution starts are still the weak row; 3 of 20 A6 merges joined real separate sittings (4561, 4601, 4681); 24 slogan-led 1795+ print sessions (3862-3864) keep a false resolution start below the date line; held-out print primary F1 in P2 is below v1's (V6).
+- **Scoring only:** REPUBLIC labels (and tables derived from them) are for scoring and checking, never features.

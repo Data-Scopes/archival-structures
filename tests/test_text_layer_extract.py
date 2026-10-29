@@ -1,6 +1,6 @@
 """Fixture tests for text_layer.extract and text_layer.join (step 15).
 
-The fixture (tests/fixtures/text_layer/pagexml/9999A) pins pagexml-tools 0.9.0 behaviour.
+The fixture (tests/fixtures/text_layer/pagexml/9999A) pins pagexml-tools 0.9.1 behaviour.
 """
 
 import json
@@ -37,7 +37,7 @@ def _rows(built, layer, name="9999A.tsv.gz"):
 
 def test_status(built):
     s = built.status
-    assert (s["n_rows"], s["n_lines"], s["n_scans"], s["n_errors"]) == (4, 6, 3, 1)
+    assert (s["n_rows"], s["n_lines"], s["n_scans"], s["n_errors"]) == (6, 7, 4, 0)
 
 
 def test_regions_meta(built):
@@ -46,12 +46,14 @@ def test_regions_meta(built):
     assert rows == [("r1", "10-10-980-90", "header", "2"),
                     ("r2", "10-200-980-100", "paragraph", "0"),
                     ("r3", "10-400-980-150", "unclassified", "3"),
+                    ("n1", "10-10-980-290", "paragraph", "0"),
+                    ("n1a", "20-20-180-40", "unclassified", "1"),
                     ("m1", "10-10-290-90", "marginalia", "1")]
 
 
 def test_lines(built):
     lines = _rows(built, "lines", "9999A.lines.tsv.gz")
-    assert len(lines) == 6
+    assert len(lines) == 7
     assert "„schrijven met tab" in [r["line_text"] for r in lines]
     r3 = [r for r in lines if r["region_id"] == "r3"]
     assert r3[1]["line_text"] == ""
@@ -59,11 +61,11 @@ def test_lines(built):
 
 def test_extract_stats(built):
     stats = json.loads((built.out / "extract_stats" / "9999A.json").read_text())
-    assert stats["counts"] == {"lines_text_none": 1, "n_scans": 3, "table_regions": 0,
-                               "untagged_no_custom": 1, "zero_line_regions": 1}
+    assert stats["counts"] == {"lines_text_none": 1, "n_scans": 4, "nested_text_regions": 1,
+                               "table_regions": 0, "text_regions_with_children": 1,
+                               "untagged_no_custom": 2, "zero_line_regions": 2}
     assert stats["sanitised"] == {"tab": 1}
-    assert len(stats["parse_errors"]) == 1
-    assert "_0003.xml" in stats["parse_errors"][0] and "TypeError" in stats["parse_errors"][0]
+    assert stats["parse_errors"] == []
     assert stats["n_scan_id_mismatch"] == 1
     assert "_0004.xml -> NL-HaNA_1.04.02_9998_0004.jpg" in stats["scan_id_mismatch"][0]
     assert stats["scans_without_text_regions"] == ["NL-HaNA_1.04.02_9999A_0002.jpg"]
@@ -72,7 +74,7 @@ def test_extract_stats(built):
 def test_regions_text(built):
     texts = {r["region_id"]: r["region_text"] for r in _rows(built, "regions")}
     assert texts == {"r1": "Copia van een briefschrijven met tab", "r2": "",
-                     "r3": "f 2500„ tesamen", "m1": "misfiled scan"}
+                     "r3": "f 2500„ tesamen", "n1": "", "n1a": "nested", "m1": "misfiled scan"}
 
 
 def test_join_events(built):
@@ -85,16 +87,17 @@ def test_join_stats(built):
     stats = json.loads((built.out / "join_stats" / "9999A.json").read_text())
     assert stats["join"] == {"both_ends_fix": {"last_line": {"„": 1}}, "g_digit_left": {"„": 1},
                              "lines_empty_dropped": 1, "merge": {"¬": 1},
-                             "merge_context": {"letter>lower": 1}, "regions": 4,
-                             "regions_empty_text": 1}
+                             "merge_context": {"letter>lower": 1}, "regions": 6,
+                             "regions_empty_text": 2}
 
 
-def test_nested_regions_fail_in_pagexml(built):
-    # pagexml-tools (0.8.1 and still 0.9.0) cannot parse nested TextRegions (set += set in
-    # get_all_text_regions, L447); to be reported upstream. Step 13 re-checked this on 0.9.0.
+def test_nested_regions_parse(built):
+    # pagexml-tools 0.8.1 and 0.9.0 failed on nested TextRegions (TypeError, set += set in
+    # get_all_text_regions); 0.9.1 parses them (step 20a), so scan _0003 yields n1 and n1a.
     stats = json.loads((built.out / "extract_stats" / "9999A.json").read_text())
-    assert "_0003.xml" in stats["parse_errors"][0]
-    assert "TypeError" in stats["parse_errors"][0]
+    assert stats["parse_errors"] == []
+    assert stats["counts"]["nested_text_regions"] == 1
+    assert "n1a" in {r["region_id"] for r in _rows(built, "regions")}
 
 
 @pytest.mark.parametrize("scan_id,inv,prefix,expected", [

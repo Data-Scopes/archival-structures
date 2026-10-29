@@ -67,7 +67,7 @@ directory, next to `python`. Without an activated environment, call it by its fu
 
 The text layer is not in archival-structures 0.8.0 (the current PyPI release, which also pins
 an older pagexml-tools and fuzzy-search). Until the next release, install from the checkout
-into the environment you build with. The install pulls in `pagexml-tools>=0.9.0` and
+into the environment you build with. The install pulls in `pagexml-tools>=0.9.1` and
 `fuzzy-search>=3.0.0`:
 
 ```
@@ -625,6 +625,17 @@ before the columns can interleave.
 cues (a regiment roster with page numbers, 4831: 10 flagged sides; account pages; a garbled scan, 11930); one-column and
 garbled indexes are missed (F13-19c.5); a `date_header` unit followed by its entry is one entry; gutter-merged lines remain.
 
+**Published pilot.** 2026-10-29 (UA-046 (a)): `19e-a` copied unchanged (with `status.tsv` and `progress.log`, as v4) to
+`shared-data/NL-HaNA_1.01.02/text_layer_v5/` (2.7 GB). The catalogue row lists the known issues, including the 54 false
+positive sides of F13-R.13. None of the 23 volumes rebuilt after the `layout/pages` side-order fix (2026-10-29) is in it.
+
+**Full run.** 2026-10-29 (UA-045, 23 volumes rebuilt after the side-order fix): 9,122 volumes done, 39.5 GiB, audit 0
+judged failures; kept on the user's external drive. Review files in `data/text_layer_v5_full/`; check in phase-13
+`PROGRESS.md` (*Full v5 run checked*). The manifests of `19e-a`, the published v5 pilot and the full run record archival-structures 0.14.1 (stale install
+metadata in `.venv`, fixed in step 20r); their `git_head` identifies the code (F14-R.7).
+
+Index entries of the front index are linked to folios and scans by a derived layer built from v5: see `docs/index_links.md`.
+
 ## Published SG pilot (text_layer_v2)
 
 Published 2026-10-21 (phase 07, step 15i, from the dev layer `15i-b`) for the sibling projects, `coverage: partial`:
@@ -801,9 +812,12 @@ inventory and kind: `order_only` marks files whose rows are the same but in anot
 `multiset_equal` False marks changed text. See
 {func}`archival_structures.text_layer.compare.compare_layers`.
 
-## Known pagexml-tools 0.9.0 limits (unchanged since 0.8.1)
+## Known pagexml-tools 0.9.1 limits
 
-- Nested regions fail to parse (`TypeError: unsupported operand type(s) for +=: 'set' and 'set'`
-  in `get_all_text_regions`, `pagexml/model/pagexml_document_model.py` L447). Example:
-  `tests/fixtures/text_layer/pagexml/9999A/NL-HaNA_1.04.02_9999A_0003.xml`. The scan is skipped, `Error parsing file` is printed and the error is recorded in `extract_stats/` (`parse_errors`) and `status.tsv` (`n_errors`).
+- Nested regions parse since 0.9.1 (they raised `TypeError` in `get_all_text_regions` on 0.8.1 and 0.9.0, which skipped
+  the scan). Fixture `tests/fixtures/text_layer/pagexml/9999A/NL-HaNA_1.04.02_9999A_0003.xml` now gives regions `n1` and
+  `n1a` (`extract_stats` counts `nested_text_regions` 1). Real data: 0 scans of the v5 full run (9,122 volumes) and of the
+  dev build `19e-a` failed on nested regions (their only parse errors are 6 METS `doc.xml` files), and the step 20a
+  regression build of 1.01.02 on 0.9.1 gives byte-identical tables. Re-checked by
+  `reports/data/phase-14-index-links/step-20a/known_limits_check.py`.
 - A region with neither `Coords` nor lines is dropped.

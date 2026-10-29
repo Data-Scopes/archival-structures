@@ -10,13 +10,13 @@ HANDOFF -- running the full build on another machine
 Install, in a fresh venv (Python >= 3.11, which archival-structures requires):
 
     python -m venv .venv
-    .venv/bin/python -m pip install -e /path/to/archival-structures   # pulls in pagexml-tools>=0.9.0
+    .venv/bin/python -m pip install -e /path/to/archival-structures   # pulls in pagexml-tools>=0.9.1
 
 (archival-structures 0.8.0 on PyPI predates the text layer. Use a checkout until the next
 release, then `pip install archival-structures`. The install creates the console script
 `.venv/bin/as-build-text-layer`; call it by that path, or activate the venv.
 `python -m archival_structures.text_layer.build` is the same driver. The driver asserts
-pagexml-tools >= 0.9.0 and records the exact version in manifest.json, and for a git
+pagexml-tools >= 0.9.1 and records the exact version in manifest.json, and for a git
 checkout also its HEAD and dirty files, for both pagexml-tools and archival-structures.)
 
 First run AS's `tests/test_text_layer_*.py` (from a checkout of the repository). A failure

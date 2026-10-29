@@ -3,7 +3,7 @@
 import re
 from pathlib import Path
 
-MIN_PAGEXML_TOOLS = (0, 9, 0)
+MIN_PAGEXML_TOOLS = (0, 9, 1)
 
 
 def package_info(dist_name, module_name=None):

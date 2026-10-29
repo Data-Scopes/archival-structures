@@ -1,0 +1,15 @@
+PASS: calibrated weight (same repr) 0.0293559853524414
+PASS: change-point frames equal 41810 rows vs 41810
+PASS: sheet sets equal 169 vs 169
+PASS: apply_rule[none,0.3] 20912 rows, 0 differ
+PASS: apply_rule[none,0.5] 20912 rows, 0 differ
+PASS: apply_rule[none,0.7] 20912 rows, 0 differ
+PASS: apply_rule[sheet,0.3] 20912 rows, 0 differ
+PASS: apply_rule[sheet,0.5] 20912 rows, 0 differ
+PASS: apply_rule[sheet,0.7] 20912 rows, 0 differ
+PASS: apply_rule[next,0.3] 20912 rows, 0 differ
+PASS: apply_rule[next,0.5] 20912 rows, 0 differ
+PASS: apply_rule[next,0.7] 20912 rows, 0 differ
+PASS: apply_rule[dict,0.3] 20912 rows, 0 differ
+PASS: apply_rule[dict,0.5] 20912 rows, 0 differ
+PASS: apply_rule[dict,0.7] 20912 rows, 0 differ

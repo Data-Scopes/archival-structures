@@ -257,3 +257,35 @@ def test_index_sides_pages_table(tmp_path):
     r = rows[0]
     assert r["scan_id"] == SCAN and r["n_lines"] == "40" and r["n_text20"] == "40"
     assert r["col_share"] == "0.5" and r["end_num"] == "1.0" and r["rule"] == "1" and r["index_side"] == "1"
+
+
+def test_index_sides_pages_table_scan_order(tmp_path):
+    """Sides follow the scans table, not a parsed scan number: suffixed, lettered and multi-part scan ids
+    (3548_0003A, 7364A_R, 5751B_P001, 5745A/B) crashed or interleaved the parts (v5 full run, 2026-10-29)."""
+    from archival_structures.analysis.page_structure import LayoutParams
+    from archival_structures.text_layer.extract_v2 import (
+        LINE_COLUMNS_V2, REGION_COLUMNS_V2, SCAN_COLUMNS_V2)
+    from archival_structures.text_layer.io import write_tsv_gz
+    scan_ids = [f"NL-HaNA_1.01.02_9998{s}" for s in
+                ("A_R", "A_V", "A_0001", "A_0002", "B_0001", "B_P001", "_0003", "_0003A", "_0004_deelopname1")]
+    root = tmp_path / "multi"
+    scan_rows, reg_rows, line_rows = [], [], []
+    for sid in scan_ids:
+        scan = {c: "" for c in SCAN_COLUMNS_V2}
+        scan.update(scan_id=sid, page_w="1000", page_h="1600", status="ok")
+        scan_rows.append([scan[c] for c in SCAN_COLUMNS_V2])
+        reg = {c: "" for c in REGION_COLUMNS_V2}
+        reg.update(scan_id=sid, region_id=f"{sid}-a", region_tag="paragraph")
+        reg_rows.append([reg[c] for c in REGION_COLUMNS_V2])
+        for i in range(3):
+            row = {c: "" for c in LINE_COLUMNS_V2}
+            row.update(scan_id=sid, region_id=f"{sid}-a", line_idx=str(i), line_id=f"{sid}-l{i}",
+                       x="100", y=str(100 + 50 * i), w="800", h="40",
+                       baseline=f"100,{135 + 50 * i} 900,{135 + 50 * i}", text="tekst tekst", text_raw="tekst tekst")
+            line_rows.append([row[c] for c in LINE_COLUMNS_V2])
+    write_tsv_gz(root / "scans" / "9998.scans.tsv.gz", SCAN_COLUMNS_V2, scan_rows)
+    write_tsv_gz(root / "regions_meta" / "9998.tsv.gz", REGION_COLUMNS_V2, reg_rows)
+    write_tsv_gz(root / "lines" / "9998.lines.tsv.gz", LINE_COLUMNS_V2, line_rows)
+    layout_inventory("9998", root, LayoutParams(index_sides={}))
+    rows = list(read_tsv_gz(root / "layout" / "pages" / "9998.tsv.gz"))
+    assert [r["scan_id"] for r in rows] == scan_ids

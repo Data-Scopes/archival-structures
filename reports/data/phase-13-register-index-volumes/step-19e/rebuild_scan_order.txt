@@ -1,0 +1,26 @@
+# v5 full run 2026-10-29: layout/pages ordered sides by a parsed scan number (layout.py, fixed to scans-table order).
+# layout failed (non-numeric scan number):
+3548
+5751
+7364
+7365
+7366
+7368
+7461
+# hand volumes with parts (A/B/...) whose sides were interleaved:
+10241
+11
+11086
+12450
+12495
+12496
+12500
+4859
+5745
+8819
+9133
+9368
+9420
+9520
+9543
+9776

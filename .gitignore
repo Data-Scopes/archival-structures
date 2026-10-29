@@ -222,6 +222,8 @@ download_thumbnails.py
 !/scripts/release.py
 !/scripts/run_text_layer_v3_full.py
 !/scripts/run_text_layer_v4_full.py
+!/scripts/build_index_links.py
+!/scripts/stage_text_layer_v4_full.py
 /notebooks/*
 !/notebooks/demo/
 /archival_structures/clustering/docs/

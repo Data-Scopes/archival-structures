@@ -1,0 +1,7 @@
+# diff step-20a/protect_after.txt vs the review's protect run (2026-10-29, --skip 20a-); full list not kept (21 MB)
+109734,109735c109734,109735
+< size=199 1793279478 /Users/Shared/claude_projects/data_scopes/language-of-the-archive/output/test-staged-fixture-2.5b/paragraphs/paragraphs-NL-HaNA_1.01.02_999999.tsv.gz
+< size=163 1793279478 /Users/Shared/claude_projects/data_scopes/language-of-the-archive/output/test-staged-fixture-2.5b/scan_stats/scan_stats-inv_999999.tsv.gz
+---
+> size=199 1793286921 /Users/Shared/claude_projects/data_scopes/language-of-the-archive/output/test-staged-fixture-2.5b/paragraphs/paragraphs-NL-HaNA_1.01.02_999999.tsv.gz
+> size=163 1793286921 /Users/Shared/claude_projects/data_scopes/language-of-the-archive/output/test-staged-fixture-2.5b/scan_stats/scan_stats-inv_999999.tsv.gz

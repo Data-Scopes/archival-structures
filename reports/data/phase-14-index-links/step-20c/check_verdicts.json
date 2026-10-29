@@ -1,0 +1,192 @@
+{
+ "page": "as_phase14_20c_links_v1",
+ "exported": "2026-10-29T21:18:03.323Z",
+ "items": [
+  {
+   "id": "1",
+   "inv": "3254",
+   "locator": "383",
+   "recto_scan": "NL-HaNA_1.01.02_3254_0412",
+   "verso_scan": "NL-HaNA_1.01.02_3254_0413",
+   "q1": "Yes",
+   "q2": "Yes",
+   "note": "second scan"
+  },
+  {
+   "id": "7",
+   "inv": "3471",
+   "locator": "94",
+   "recto_scan": "NL-HaNA_1.01.02_3471_0150",
+   "verso_scan": "NL-HaNA_1.01.02_3471_0151",
+   "q1": "No",
+   "q2": "No",
+   "note": "The agent extracted 94, which is an OCR error. The reference is folio 108."
+  },
+  {
+   "id": "9",
+   "inv": "3471",
+   "locator": "71",
+   "recto_scan": "NL-HaNA_1.01.02_3471_0127",
+   "verso_scan": "NL-HaNA_1.01.02_3471_0128",
+   "q1": "Yes",
+   "q2": "Unsure",
+   "note": "I think it refers to a resolution on the second scan, but I'm not sure, as I can't see a connection with the term Ails."
+  },
+  {
+   "id": "10",
+   "inv": "3471",
+   "locator": "452",
+   "recto_scan": "NL-HaNA_1.01.02_3471_0508",
+   "verso_scan": "NL-HaNA_1.01.02_3471_0509",
+   "q1": "No",
+   "q2": "No",
+   "note": "The extracted entry merges two columns. "
+  },
+  {
+   "id": "13",
+   "inv": "3394",
+   "locator": "646",
+   "recto_scan": "NL-HaNA_1.01.02_3394_0673",
+   "verso_scan": "NL-HaNA_1.01.02_3394_0674",
+   "q1": "Yes",
+   "q2": "Yes",
+   "note": "first scan recto"
+  },
+  {
+   "id": "15",
+   "inv": "3394",
+   "locator": "455",
+   "recto_scan": "NL-HaNA_1.01.02_3394_0483",
+   "verso_scan": "NL-HaNA_1.01.02_3394_0484",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "17",
+   "inv": "3394",
+   "locator": "537",
+   "recto_scan": "NL-HaNA_1.01.02_3394_0565",
+   "verso_scan": "NL-HaNA_1.01.02_3394_0566",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "21",
+   "inv": "3308",
+   "locator": "190",
+   "recto_scan": "NL-HaNA_1.01.02_3308_0215",
+   "verso_scan": "NL-HaNA_1.01.02_3308_0216",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "23",
+   "inv": "3308",
+   "locator": "115",
+   "recto_scan": "NL-HaNA_1.01.02_3308_0141",
+   "verso_scan": "NL-HaNA_1.01.02_3308_0142",
+   "q1": "Yes",
+   "q2": "Yes",
+   "note": "The index entry merges lines from two columns, the right-hand column is matched."
+  },
+  {
+   "id": "26",
+   "inv": "3256",
+   "locator": "52",
+   "recto_scan": "NL-HaNA_1.01.02_3256_0077",
+   "verso_scan": "NL-HaNA_1.01.02_3256_0078",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "30",
+   "inv": "3256",
+   "locator": "255",
+   "recto_scan": "NL-HaNA_1.01.02_3256_0278",
+   "verso_scan": "NL-HaNA_1.01.02_3256_0279",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "33",
+   "inv": "3456",
+   "locator": "80",
+   "recto_scan": "NL-HaNA_1.01.02_3456_0129",
+   "verso_scan": "NL-HaNA_1.01.02_3456_0130",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "34",
+   "inv": "3456",
+   "locator": "194",
+   "recto_scan": "NL-HaNA_1.01.02_3456_0243",
+   "verso_scan": "NL-HaNA_1.01.02_3456_0244",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "36",
+   "inv": "3456",
+   "locator": "400",
+   "recto_scan": "NL-HaNA_1.01.02_3456_0449",
+   "verso_scan": "NL-HaNA_1.01.02_3456_0450",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "51",
+   "inv": "3320",
+   "locator": "447",
+   "recto_scan": "NL-HaNA_1.01.02_3320_0487",
+   "verso_scan": "NL-HaNA_1.01.02_3320_0488",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "54",
+   "inv": "3320",
+   "locator": "697",
+   "recto_scan": "NL-HaNA_1.01.02_3320_0737",
+   "verso_scan": "NL-HaNA_1.01.02_3320_0738",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "63",
+   "inv": "3590",
+   "locator": "937",
+   "recto_scan": "NL-HaNA_1.01.02_3590_0984",
+   "verso_scan": "NL-HaNA_1.01.02_3590_0985",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "65",
+   "inv": "3590",
+   "locator": "530",
+   "recto_scan": "NL-HaNA_1.01.02_3590_0577",
+   "verso_scan": "NL-HaNA_1.01.02_3590_0578",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "67",
+   "inv": "3352",
+   "locator": "354",
+   "recto_scan": "NL-HaNA_1.01.02_3352_0393",
+   "verso_scan": "NL-HaNA_1.01.02_3352_0394",
+   "q1": "Yes",
+   "q2": "Yes"
+  },
+  {
+   "id": "69",
+   "inv": "3352",
+   "locator": "687",
+   "recto_scan": "NL-HaNA_1.01.02_3352_0728",
+   "verso_scan": "NL-HaNA_1.01.02_3352_0729",
+   "q1": "Yes",
+   "q2": "Yes"
+  }
+ ]
+}

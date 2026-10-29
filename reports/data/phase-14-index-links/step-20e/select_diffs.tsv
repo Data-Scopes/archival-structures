@@ -1,0 +1,5 @@
+read_id	variant	inv	verdict	gold	pred	fp	fn	text_tail
+20	L1	3308	entry	[66, 108, 124, 162]	[108, 124, 162]	[]	[66]	de weduwe Renhausen, 66. Johan Oirrock 108, 124. 162.
+23	L2	3308	entry	[115, 176, 204, 235, 302, 318, 422]	[6, 115, 176, 204, 235, 302, 318, 422]	[6]	[]	paspoort voor wijnijstg6. Pofwagen op Aeken 115. 176. 204, 235, 302, 318, 422.
+23	L3	3308	entry	[115, 176, 204, 235, 302, 318, 422]	[6, 115, 176, 204, 235, 302, 318, 422]	[6]	[]	paspoort voor wijnijstg6. Pofwagen op Aeken 115. 176. 204, 235, 302, 318, 422.
+23	L4	3308	entry	[115, 176, 204, 235, 302, 318, 422]	[6, 115, 176, 204, 235, 302, 318, 422]	[6]	[]	paspoort voor wijnijstg6. Pofwagen op Aeken 115. 176. 204, 235, 302, 318, 422.

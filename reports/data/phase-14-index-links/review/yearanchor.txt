@@ -1,0 +1,31 @@
+3126 nscan 369 bad anchors [(366, 1591)] last good 356 @ 365 | links beyond last good: 10 {'printed': 1, 'interpolated': 9} {'high': 10} | map rows 1597
+    1591 0366 printed 0.0 high
+    1356 0366 interpolated 0.19 high
+    921 0365 interpolated 0.46 high
+    524 0365 interpolated 0.14 high
+3265 nscan 873 bad anchors [(870, 1659)] last good 822 @ 869 | links beyond last good: 19 {'printed': 1, 'interpolated': 18} {'high': 19} | map rows 1662
+    1659 0870 printed 0.0 high
+    1653 0870 interpolated 0.01 high
+    1650 0870 interpolated 0.01 high
+    1653 0870 interpolated 0.01 high
+3290 nscan 766 bad anchors [(762, 1674)] last good 696 @ 760 | links beyond last good: 26 {'interpolated': 22, 'extrapolated': 4} {'high': 22, 'low': 4} | map rows 1680
+    1668 0762 interpolated 0.01 high
+    697 0760 interpolated 0.0 high
+    699 0760 interpolated 0.01 high
+    1673 0762 interpolated 0.0 high
+3307 nscan 681 bad anchors [(678, 1683)] last good 642 @ 677 | links beyond last good: 11 {'interpolated': 11} {'high': 11} | map rows 1689
+    1231 0678 interpolated 0.43 high
+    1676 0678 interpolated 0.01 high
+    1393 0678 interpolated 0.28 high
+    942 0677 interpolated 0.29 high
+3320 nscan 1031 bad anchors [(1028, 1689)] last good 987 @ 1027 | links beyond last good: 4 {'interpolated': 4} {'high': 4} | map rows 1695
+    1627 1028 interpolated 0.09 high
+    988 1027 interpolated 0.0 high
+    996 1027 interpolated 0.01 high
+    1684 1028 interpolated 0.01 high
+3522 nscan 605 bad anchors [(601, 3522)] last good 550 @ 600 | links beyond last good: 24 {'interpolated': 24} {'high': 24} | map rows 3528
+    750 0600 interpolated 0.07 high
+    1724 0600 interpolated 0.4 high
+    1685 0600 interpolated 0.38 high
+    588 0600 interpolated 0.01 high
+{'links': 102588, 'over': 949, 'over_linked': 129, 'affected': 94}

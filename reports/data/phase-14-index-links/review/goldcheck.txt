@@ -1,0 +1,12 @@
+('dev', 'read', 'neighbours', 'not printed') 2
+('dev', 'read', 'neighbours', 'pn_typed') 2
+('dev', 'read', 'printed', 'pn_typed') 12
+('test', 'extra', 'neighbours', 'not printed') 2
+('test', 'extra', 'printed', 'not printed') 1
+('test', 'extra', 'printed', 'pn_typed') 4
+('test', 'read', 'neighbours', 'not printed') 5
+('test', 'read', 'neighbours', 'pn_typed') 2
+('test', 'read', 'printed', 'not printed') 1
+('test', 'read', 'printed', 'number in first 3 lines') 1
+('test', 'read', 'printed', 'pn_typed') 19
+('test', 'read', 'unclear', 'not printed') 1

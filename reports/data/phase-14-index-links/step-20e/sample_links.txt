@@ -1,0 +1,101 @@
+101282 located links
+
+[3274] #534 printed/high front=0615/recto back=0616/verso
+  ENTRY: Pierta da Silve 439, 534.
+  0615/recto: 60 lines, 0 sharing a word: 
+  0616/verso: 60 lines, 0 sharing a word: 
+
+[3493] #196 printed/high front=0250/recto back=0251/verso
+  ENTRY: Consent in de prolongatie van het Octroij voor de OostindiCompagnie 196.
+  0250/recto: 41 lines, 1 sharing a word: gatie van het Octroij voor de Oost-Indische
+  0251/verso: 47 lines, 0 sharing a word: 
+
+[3320] #800 printed/high front=0840/recto back=0841/verso
+  ENTRY: d'Heer Schuerman 416, 452, 800.
+  0840/recto: 31 lines, 0 sharing a word: 
+  0841/verso: 46 lines, 0 sharing a word: 
+
+[3254] #306 printed/high front=0335/recto back=0336/verso
+  ENTRY: Jacht van Capn. Caeckmes 306, 317, 332.
+  0335/recto: 61 lines, 0 sharing a word: 
+  0336/verso: 61 lines, 0 sharing a word: 
+
+[3611] #133 printed/high front=0192/recto back=0193/verso
+  ENTRY: Declaratie, 133.
+  0192/recto: 37 lines, 1 sharing a word: Declaratie
+  0193/verso: 35 lines, 3 sharing a word: sijne sescoofke talfjaange declaratie begin„ | en dat mides de declaratie nevensde vos. | Declaratie
+
+[3265] #624 printed/high front=0671/recto back=0672/verso
+  ENTRY: Caron 624:
+  0671/recto: 68 lines, 0 sharing a word: 
+  0672/verso: 67 lines, 0 sharing a word: 
+
+[3428] #38 printed/high front=0095/recto back=0096/verso
+  ENTRY: Giese 38.
+  0095/recto: 45 lines, 0 sharing a word: 
+  0096/verso: 46 lines, 0 sharing a word: 
+
+[3290] #455 printed/high front=0521/recto back=0522/verso
+  ENTRY: Intreckinge vant' verboth vande fransche Coele ende Brandewijnen e, 338, 360, 379, 390. 421, 433, 455, 617.
+  0521/recto: 42 lines, 0 sharing a word: 
+  0522/verso: 47 lines, 1 sharing a word: fransche coele & brander
+
+[3455] #539 printed/high front=0594/recto back=0595/verso
+  ENTRY: Misf:. Coijmans, rakende de afdoeninge vande pretensien vervat inde lijste B. gesekent, 539.
+  0594/recto: 35 lines, 0 sharing a word: 
+  0595/verso: 41 lines, 4 sharing a word: prehntiessen vervat inde | Coijmans, geschreeven te Coppenhagen den | rissen gehouden, over de afdoeninge vande
+
+[3290] #307 interpolated/high front=0373/recto back=0374/verso
+  ENTRY: De Gasthuijs Costen vande soldaten 307.
+  0373/recto: 38 lines, 0 sharing a word: 
+  0374/verso: 52 lines, 6 sharing a word: de Gasthuijs costen | van soldaten | Gasthuijs tot Utrecht, houdende dat de heeren
+
+[3126] #153 printed/high front=0172/recto back=0173/verso
+  ENTRY: Schip uijt Portugael tot Diepen opgebracht. 150: 153:
+  0172/recto: 38 lines, 2 sharing a word: gael te diepen op | Port a port in Portugael Is gecommen) Inde
+  0173/verso: 32 lines, 0 sharing a word: 
+
+[3320] #745 printed/high front=0785/recto back=0786/verso
+  ENTRY: Oosterhout wegens de contributien met Vrankrijk geaccordeerd. 745.
+  0785/recto: 42 lines, 0 sharing a word: 
+  0786/verso: 39 lines, 3 sharing a word: Oosterhout | Ingesetenen der Vrijheijt Oosterhout, houdende | wegens Contributien
+
+[3401] #296 printed/high front=0327/recto back=0328/verso
+  ENTRY: Het Schip Rotterdam 96. 14, 159, 175, 210, 296, 530.
+  0327/recto: 55 lines, 3 sharing a word: Rotterdam. | het Schap de Stad Rotterdam, en van | schip de Stad van Rotterdam met
+  0328/verso: 55 lines, 0 sharing a word: 
+
+[3456] #152 printed/high front=0201/recto back=0202/verso
+  ENTRY: Misf: Carel Frederik Hertog van Wirtenberg, communicatie van 't aannemen vande voorgemelde voogdije en Administratie. 152.
+  0201/recto: 40 lines, 7 sharing a word: risssen vande voorijdye dae Hertog van Wurtenberg Carel Rudolf, gesz: | voogdije over sijn neef den jongen Land- vorst, | gaders vande Administratie, vande onder voog„
+  0202/verso: 42 lines, 0 sharing a word: 
+
+[3254] #442 printed/high front=0471/recto back=0472/verso
+  ENTRY: Hertoch van Orleans 442.
+  0471/recto: 50 lines, 0 sharing a word: 
+  0472/verso: 60 lines, 2 sharing a word: hertoch van Orleans | linck vanden Heere Hertoch van Orleans, om uijtde
+
+[3349] #836 interpolated/high front=0872/recto back=0873/verso
+  ENTRY: Obdam 12, 68, 284, 308, 490. 505, 521, 522, 645, 661, 643, 689. 728, 756, 802, 807, 808, 836, 846.
+  0872/recto: 47 lines, 0 sharing a word: 
+  0873/verso: 46 lines, 0 sharing a word: 
+
+[3539] #331 printed/high front=0378/recto back=0379/verso
+  ENTRY: Missive Mauricius, 5, 8, 41. 54, 60, 85, 124, 147, 151. 171, 187, 215, 221, 246. 255, 282, 287, 308, 315. 326, 331, 348, 374, 380. 399, 408, 424, 433, 441. 445, 461, 465,
+  0378/recto: 36 lines, 4 sharing a word: Ontfangen een missive van den Heere Les„ | Ontfangen een Missive van den Secretaris | Ontfangen een Missive vanden Heere de Swart,
+  0379/verso: 37 lines, 4 sharing a word: Ontfangen een Missive van den Predicant. | Holland en Westvriesland de vorn: missive | Ontfangen een missive ven Burgemeesters
+
+[3274] #487 interpolated/high front=0567/recto back=0568/verso
+  ENTRY: Oorloch schepen tot Gottenburgh 483, 487.
+  0567/recto: 60 lines, 5 sharing a word: oorlogh schepen, te convoijeren tot voor Gaets | de voorschreve schepen van Oorlogh ten | Convoij van Gottenburgh doenmaels gereet
+  0568/verso: 53 lines, 0 sharing a word: 
+
+[3274] #661 printed/high front=0741/recto back=0742/verso
+  ENTRY: Andries van Hillensbergh 661. 687.
+  0741/recto: 58 lines, 0 sharing a word: 
+  0742/verso: 56 lines, 2 sharing a word: van Hillensbergh | van Andries van Hillensbergh, Heer
+
+[3256] #353 printed/high front=0376/recto back=0377/verso
+  ENTRY: Griffier Ampt van Daelhem 312, 353.
+  0376/recto: 62 lines, 3 sharing a word: Griffier Ampt van | Daelhem | Daelhem, ende het ander poinct: dat de spaensche
+  0377/verso: 64 lines, 0 sharing a word: 

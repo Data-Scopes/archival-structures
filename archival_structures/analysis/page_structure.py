@@ -26,9 +26,9 @@ column-assignment criterion of ``split_column_regions`` in
 * republic's date machinery (``DateRegionClassifier`` etc.) is not ported: it needs neural line
   classes and REPUBLIC region types that SG does not have.
 
-pagexml-tools 0.9.0 traps worked around here (UA-005): every region goes in ``page.columns`` or
-``page.extra``, never ``page.text_regions``; ``set_parentage`` skips ``extra``, so the extra
-regions get their parent set explicitly.
+pagexml-tools 0.9.1 (UA-005): every region goes in ``page.columns`` or ``page.extra``, never
+``page.text_regions``. ``set_parentage`` reaches ``extra`` and ``PageXMLPage`` derives its own
+coords when none are given, so neither is worked around any more.
 
 No text-layer imports: ``archival_structures.text_layer.layout`` adapts table rows to this.
 """
@@ -822,12 +822,7 @@ def assign_column_roles(columns: Sequence[pdm.PageXMLColumn], params: LayoutPara
             main.append(column)
         else:
             extra += column.text_regions
-    if page_coords is None:  # PageXMLPage derives coords from its children, and raises on none
-        page_coords = hull_coords(columns) if columns else pdm.Coords([(0, 0)])
     page = pdm.PageXMLPage(doc_id=page_id, metadata=dict(metadata or {}), coords=page_coords,
                            columns=main, extra=extra)
     pdm.set_parentage(page)
-    page.set_as_parent(extra)  # set_parentage skips `extra` (pagexml-tools 0.9.0)
-    for region in extra:
-        region.set_as_parent(region.lines)
     return page

@@ -917,3 +917,217 @@
 - **Blocks:** only the optional silver check in 19e (step 7); nothing else.
 - **Response:** (a), pyarrow already installed in `.venv` (26.0.0) (given in the chat, 2026-10-28)
 - **Resolved 2026-10-28 (step 19e):** (a). pyarrow 26.0.0 was already in `.venv`; nothing installed. Silver check run (`step-19e/silver.py`).
+
+### UA-007 `PageXMLPage.stats` still raises before pagexml-tools 0.9.1 (2026-10-20, from phase-07 planning)
+- **Action:** **Edit** `/Users/marijnkoolen/Code/Huygens/pagexml-tools/pagexml/model/pagexml_document_model.py`,
+  `PageXMLPage.stats` (L1176–1196 at commit `16a51d0`). Replace
+  ```python
+              "text_regions": len(self.num_text_regions),
+              "table_regions": len(self.num_table_regions)
+  ```
+  with
+  ```python
+              "text_regions": self.num_text_regions,
+              "table_regions": self.num_table_regions
+  ```
+  and, in the `if self.extra:` branch, replace `sum(tr for tr in self.extra if isinstance(tr,
+  PageXMLTextRegion))` with `sum(1 for tr in self.extra if isinstance(tr, PageXMLTextRegion))`
+  (the same for `PageXMLTableRegion`). Then release 0.9.1 and fill in **Response**.
+  Checked at `16a51d0` (2026-10-20): `stats` raises `TypeError: object of type 'int' has no
+  len()` on a page with columns, with `text_regions` or with `extra`, because `num_text_regions`
+  is already an int (L392–393). AS's print splitter calls `page.stats['lines']`
+  (`text_layer/line_split.py:1059`), so the print extract would crash under this copy. The other
+  six fixes of UA-005 are in place (F07-P.9).
+- **Options:** (a) fix and release 0.9.1; (b) fix it later.
+  Recommended: (a).
+- **Default if unanswered:** AS stays on the 0.9.0 wheel with its workarounds; step 15i skips
+  the pin.
+- **Blocks:** only the pin in step 15i (step 0). Steps 15fq–15hj run on 0.9.0 either way.
+- **Response:** release 0.9.1 is done.
+- **Resolved 2026-10-29 (USER_ACTIONS session):** pagexml-tools 0.9.1 is on PyPI (`pip index versions`, 2026-10-29); `.venv` still has 0.9.0. Not pinned yet: the v5 full run (UA-045) and its rebuilds run on 0.9.0, so the pin (install, `pyproject.toml` `>=0.9.1,<1.0.0`, `MIN_PAGEXML_TOOLS`, drop the workarounds F07-P.7, F07-15fp.11, F07-P.9, regression build; the procedure of step 15m Part 0) is a step of the next phase, after the v5 full layer is reviewed (UA-047). Recorded in `plan/CONTEXT.md`.
+
+### UA-045 Run the full v5 text layer build of 1.01.02 on the external drive (2026-10-28, from step 19e)
+- **Action:** Decide, then Run (in the AS root, on the machine that has the drive; `<1.01.02-dir>` = the drive directory
+  with all 9,122 `NL-HaNA_1.01.02_<inv>-pagexml.tar.gz`, `<drive>` = the output mount point; both `<drive>/layer_v5` and
+  `<drive>/layer_v5_inputs` must exist; no `--republic-dir`; rerun the last command to resume):
+  ```
+  .venv/bin/python scripts/run_text_layer_v4_full.py --version v5 --only 1.01.02 --check-only --src 1.01.02=<1.01.02-dir> --work-dir <drive>/layer_v5_inputs --out-dir <drive>/layer_v5
+  .venv/bin/python scripts/run_text_layer_v4_full.py --version v5 --only 1.01.02 --limit 1 --src 1.01.02=<1.01.02-dir> --work-dir <drive>/layer_v5_inputs --out-dir <drive>/layer_v5_smoke
+  .venv/bin/python scripts/run_text_layer_v4_full.py --version v5 --only 1.01.02 --src 1.01.02=<1.01.02-dir> --work-dir <drive>/layer_v5_inputs --out-dir <drive>/layer_v5
+  ```
+- **Options:** (a) run it; (b) not now. Recommended: (a) if you want v5 for all 9,124 volumes.
+- **Evidence:** dev build `19e-a` (231 volumes, 4 workers): 60 min wall, 0 failed rows, audit 0 judged failures. Stage seconds
+  v5/v4 on the same 231 volumes: layout 0.94, types 0.96, units 0.99, join 0.90, wbc 0.88 (extract is the same code; its
+  1.51 here is machine load), so the time is the v4 full run's: 11.5 h wall (10.5 h of work plus a 1 h crash gap),
+  predicted 3.5 to 7 h for the stages by `--check-only` (it prints the range); the USB drive may be slower. Output about 39 GiB.
+- **Default if unanswered:** nothing runs; v4 stays the only full layer.
+- **Blocks:** a full v5 layer (index entries in the hand volumes outside the 125 local ones).
+- **Reviewer note (2026-10-28, final phase-13 review):** still recommend (a); the run does not need to wait. (1) The run
+  script's final audit was the v4 audit and did not check the v5 invariants; the review fixed that (it now runs
+  `step-19e/audit.py`, same checks plus the v5 ones, no extra time), so read `n_fail_judged` in `<drive>/layer_v5/audit.json`
+  as usual. (2) Create `<drive>/layer_v5_smoke` too before the second command: the script refuses an `--out-dir` that does
+  not exist. (3) Expect detector false positives outside the index and register volumes: in the dev build about 1 side in
+  1,000 there (rosters, accounts, letters), re-cut at entry cues, no text lost (F13-R.13); a guard is a later rule, not part
+  of this run. The commands were checked to parse (`--check-only` on the local sources: 231 inventories).
+- **Update (2026-10-29, after the first full run stopped at units):** the layout stage failed on 7 volumes with
+  non-numeric scan numbers and interleaved the parts of 16 multi-part hand volumes; fixed in `text_layer/layout.py`
+  (phase-13 `PROGRESS.md`, *Post-phase fix*). Resume with the two commands below (AS root; `<drive>` as above, i.e. the
+  directory holding `text_layer_v5/` and `text_layer_v5_inputs/`): the first keeps the 16 old `layout/pages` tables for a
+  before/after check, the second is the run command plus `--rebuild` of the 23 volumes (forced extract of those 23, then
+  every stage; the other 9,099 keep their extract/layout/types).
+  ```
+  P=<drive>/text_layer_v5/1.01.02/NL-HaNA_1.01.02_text_layer_v5/layout/pages; for i in $(grep -v '^#' reports/data/phase-13-register-index-volumes/step-19e/rebuild_scan_order.txt); do [ -f "$P/$i.tsv.gz" ] && cp -p "$P/$i.tsv.gz" data/text_layer_v5_full/pages_before_fix/; done; chmod -R g+rwX data/text_layer_v5_full/pages_before_fix; ls data/text_layer_v5_full/pages_before_fix | wc -l
+  .venv/bin/python scripts/run_text_layer_v4_full.py --version v5 --only 1.01.02 --rebuild 1.01.02=reports/data/phase-13-register-index-volumes/step-19e/rebuild_scan_order.txt --src 1.01.02=<1.01.02-dir> --work-dir <drive>/text_layer_v5_inputs --out-dir <drive>/text_layer_v5
+  ```
+- **Response:** I ran both commands. Tell me what to copy to the local drive and the command for it.
+- **Resolved 2026-10-29 (USER_ACTIONS session):** run and `--rebuild` of the 23 volumes done by the user; the 16 old `layout/pages` tables are in `data/text_layer_v5_full/pages_before_fix/` (16 files). Staging of the review files is UA-047.
+
+### UA-046 Publish the v5 pilot in `shared-data/` (2026-10-28, from step 19e)
+- **Action:** Decide. `data/text_layer_v2_dev/19e-a/1.01.02/NL-HaNA_1.01.02_text_layer_v5/` (231 volumes: the 125 hand volumes
+  with index sides and entry units, 106 print volumes equal to v4) would become `shared-data/NL-HaNA_1.01.02/text_layer_v5/`.
+- **Options:** (a) publish it (a later session copies it, edits the shared-data README and the changelog line, as with
+  UA-038); (b) wait for the full run (UA-045); (c) not at all. Recommended: (a), so LotA can read index entries now.
+- **Default if unanswered:** nothing is published.
+- **Blocks:** LotA's use of v5.
+- **Reviewer note (2026-10-28, final phase-13 review):** still recommend (a). Every 19e number reproduces and the print
+  volumes equal v4. Known false positives in the pilot: 54 flagged sides that are not index pages in 18 of the 125 hand
+  volumes (most in 8706 accounts, 4831 rosters, 3199/3315 accounts), 0.18% of the hand units, re-cut but no text lost;
+  the README line should name them with the other known limits (`docs/text_layer.md`, *Text layer v5*).
+- **Response:** a
+- **Resolved 2026-10-29 (USER_ACTIONS session):** (a). `19e-a` copied unchanged to `shared-data/NL-HaNA_1.01.02/text_layer_v5/` (2.7 GB, `diff -rq` identical, `chmod -R g+w`); catalogue row (with the 54 false-positive sides of F13-R.13 and the other known limits) and changelog line in the shared-data README; LotA `docs/from-archival-structures.md` §10; AS `docs/shared_library/changelog.md` and `docs/text_layer.md` (*Text layer v5*, *Published pilot*). None of the 23 volumes of the 2026-10-29 layout fix is in the pilot.
+
+### UA-047 Stage the review files of the v5 full run (2026-10-29, from UA-045)
+- **Action:** Run, in the AS root (`/Users/Shared/claude_projects/data_scopes/archival-structures`), on the machine with
+  the drive; `<drive>` as in UA-045 (the directory holding `text_layer_v5/`). The first command is a dry run: it prints the
+  failing audit invariants, what it would copy and the total size, and writes nothing. The second copies.
+  ```
+  .venv/bin/python scripts/stage_text_layer_v4_full.py --from <drive>/text_layer_v5 --to data/text_layer_v5_full --inventories $(grep -v '^#' reports/data/phase-13-register-index-volumes/step-19e/rebuild_scan_order.txt) --max-inventories 60 --dry-run
+  .venv/bin/python scripts/stage_text_layer_v4_full.py --from <drive>/text_layer_v5 --to data/text_layer_v5_full --inventories $(grep -v '^#' reports/data/phase-13-register-index-volumes/step-19e/rebuild_scan_order.txt) --max-inventories 60
+  ```
+  It copies `audit.json`, `run_v4.log`, the layer's `status.tsv`, `manifest.json`, `progress.log`, `*/params.json`,
+  `mode/`, `scans/`, `extract_stats/`, `split_model/`, `split_stats/`, `wbc/` (without `wbc/parts/`), and every
+  per-inventory file of the 23 rebuilt volumes plus any volume named in a judged audit failure (at most 60). Expect about
+  1 GB (the v4 full staging was 0.9 GB). It overwrites the older `status.tsv`, `manifest.json`, `progress.log` and
+  `run_v4.log` already in `data/text_layer_v5_full/` and leaves `pages_before_fix/` alone. Checked 2026-10-29 with a dry
+  run on the v5 dev build `19e-a`: it finds the `*_text_layer_v5` layer. The 16 tables for the before/after check are then in
+  `data/text_layer_v5_full/1.01.02/NL-HaNA_1.01.02_text_layer_v5/layout/pages/`.
+- **Options:** (a) run both commands; (b) not now. Recommended: (a).
+- **Default if unanswered:** nothing is staged; the full v5 layer stays unreviewed on the drive.
+- **Blocks:** the before/after error analysis of the layout fix (index flags of the 16 multi-part volumes, the 7 volumes
+  that failed), the check of `n_fail_judged`, and any catalogue entry for the full v5 layer.
+- **Response:**
+- **Resolved 2026-10-29 (USER_ACTIONS session):** done by the user (given in the chat). 789 MB staged; all 9,122 volumes done, audit 0 judged failures; before/after check in phase-13 `PROGRESS.md` (*Full v5 run checked*): 1 flag lost, correctly, in 11086; the 7 failed volumes now build.
+
+### UA-048 pagexml-tools 0.9.1 in the NLP and LotA venvs (2026-10-29, from phase-14 planning)
+- **Action:** Decide, then Run. Step 20a raises AS's `MIN_PAGEXML_TOOLS` to (0, 9, 1). NLP re-exports AS's version check
+  (`tests/test_voc_text_layer.py::test_pagexml_tools_version_is_at_least_080`), and both sibling venvs hold an editable
+  install of your checkout `/Users/marijnkoolen/Code/Huygens/pagexml-tools` (branch `bug_fixes`, HEAD `1712888`), whose
+  `pyproject.toml` still says `version = "0.9.0"`. So the siblings must report 0.9.1 before 20a finishes.
+  - (a) Install the PyPI release in both (replaces the editable checkout):
+    ```
+    cd /Users/Shared/claude_projects/data_scopes/nlp-start-page-detection && PYTHONNOUSERSITE=1 venv/bin/python -m pip install 'pagexml-tools==0.9.1' && chmod -R g+w venv/lib/python3.14/site-packages
+    cd /Users/Shared/claude_projects/data_scopes/language-of-the-archive && PYTHONNOUSERSITE=1 venv/bin/python -m pip install 'pagexml-tools==0.9.1' && chmod -R g+w venv/lib/python3.14/site-packages
+    ```
+  - (b) Keep the editable checkout: **Edit** `/Users/marijnkoolen/Code/Huygens/pagexml-tools/pyproject.toml`, set
+    `version = "0.9.1"` (only if the checkout holds the 0.9.1 code), then in each sibling root run
+    `PYTHONNOUSERSITE=1 venv/bin/python -m pip install -e /Users/marijnkoolen/Code/Huygens/pagexml-tools` and the same `chmod`.
+  - Check (either way), in each sibling root: `PYTHONNOUSERSITE=1 venv/bin/python -c "import importlib.metadata as m; print(m.version('pagexml-tools'))"` → `0.9.1`.
+- **Options:** (a) PyPI release; (b) editable checkout bumped to 0.9.1. Recommended: (a), so all three projects run the
+  same released code as AS.
+- **Default if unanswered:** step 20a does parts 0–5 (AS pin, regression build, data link) and stops as `partial`; the
+  NLP suite would fail its version test until this is done, so 20a does not finish and 20b does not start.
+- **Blocks:** 20a part 6 (sibling suites) and step 20b. Not 20c, 20d, 20e.
+- **Response:** (a): installed 0.9.1 in both venvs (given in the chat, 2026-10-29)
+- **Resolved 2026-10-29 (phase-14 orchestration session):** checked: NLP and LotA `venv` both import pagexml-tools 0.9.1 from `site-packages` (PyPI release, not the checkout). 20a part 6 and 20b are unblocked.
+
+### UA-049 pagexml-tools 0.9.1 parses nested regions: extract output changes (2026-10-29, from step 20a)
+- **Action:** Decide. With 0.9.1, `text_layer.extract` parses nested TextRegions (fixture 9999A_0003) where 0.9.0 raised
+  `TypeError` and skipped the scan; 7 tests in `tests/test_text_layer_extract.py` fail. Step 20a stopped before the
+  regression build.
+- **Options:** (a) keep the 0.9.1 pin; let the session run the regression build (`19e-a` vs `20a-pin`, 43-70 min) to see
+  whether any real v5 table changes, then update the 7 tests to the new behaviour; if tables change, rebuild later as v6.
+  (b) keep the pin but make extract skip scans with nested regions (preserves 0.9.0 output; needs a code change).
+  (c) revert the pin to 0.9.0 (NLP and LotA venvs already hold 0.9.1). Recommended: (a).
+- **Default if unanswered:** the pin edits stay in the working tree; the AS suite shows 7 failures; 20b and later wait.
+- **Blocks:** step 20a part 4, hence 20b (needs 20a part 6, which is done) is not blocked in practice; the phase review is.
+- **Evidence (orchestrator, 2026-10-29):** under 0.9.0 a scan with nested regions lands in `extract_stats` `parse_errors`.
+  In the full v5 run (all 9,122 volumes, `data/text_layer_v5_full/…/extract_stats/`) and in `19e-a` (231) the only parse
+  errors are 6 METS `doc.xml` files (not pages); **0 scans failed on nested regions**. So the 0.9.1 change touches the
+  synthetic fixture only, not any existing v5 table. The regression build still checks the rest of 0.9.1.
+- **Response:** (a) (given in the chat, 2026-10-29)
+- **Resolved 2026-10-29 (phase-14 orchestration session):** (a). Step 20a resumes: regression build `19e-a` vs `20a-pin`, then the 7 extract tests and the docs move to the 0.9.1 behaviour (nested regions parse); stop again if a real table differs.
+
+### UA-051 Bar F missed by one row: 33/35 = 0.943 against 0.95 (2026-10-29, from phase-14 step 20d)
+- **Action:** Decide whether 20e proceeds with the frozen folio map. The two misses (3590 loc. 23: duplicated printed `23`,
+  chain keeps the later scan; 3611 loc. 486: skipped printed numbers, 486 not typed `page_number`) are in
+  `reports/phase-14-index-links.md` § Step 20d. Read rows alone: 27/28 = 0.964; dev 16/16.
+- **Options:** (a) proceed with 20e and report bar F as missed by one row (map frozen, links carry the `confidence` field);
+  (b) stop phase 14 here; (c) allow a rule change (e.g. tie rule for duplicated numbers, 3-digit number pattern, which also
+  fixes 3712's mode), which makes the test bar no longer pre-registered. Recommended: (a).
+- **Default if unanswered:** 20e does not run.
+- **Blocks:** 20e.
+- **Response:** (a) (given in the chat, 2026-10-29)
+- **Resolved 2026-10-29 (phase-14 orchestration session):** (a). Bar F stays recorded as failed (negative result, F14-20d.2); 20e runs on the frozen map; a map v2 (tie rule for duplicated printed numbers, 3712's verso years) is a follow-up that needs fresh gold.
+
+### UA-050 Confirm 20 index links on the scans (2026-10-29, from phase-14 step 20c)
+- **Action:** Run (AS root): `open reports/data/phase-14-index-links/step-20c/check_page.html`. Answer the two
+  questions per item (Yes / No / Unsure), then press Export and save the file as
+  `reports/data/phase-14-index-links/step-20c/check_verdicts.json`.
+  Updated 2026-10-29 (your request): each item now shows three image crops (Nationaal Archief IIIF, needs internet), each
+  with the extracted text of those lines below it: the entry, the top of the target right-hand page with the folio
+  number (question 1), and the lines where the agent found the matter (question 2; not shown when the agent judged it
+  absent). Each crop has a `larger` link. Items and the storage key are unchanged, so answers already given are kept.
+  Updated again 2026-10-29 (your request): two fold-outs per item show the full extracted text of the right-hand page of
+  the first scan and the left-hand page of the second (question 2), with margin notes marked and the evidence lines
+  highlighted.
+- **Options:** (a) check (about 20 min with the crops); (b) skip: the links are published as unchecked. Recommended: (a).
+- **Default if unanswered:** the phase review states that the gold is unchecked.
+- **Blocks:** the publication decision for `index_links_v1` only (20d and 20e run on the agent gold).
+- **Response:** verdicts exported to `check_verdicts.json` (given in the chat, 2026-10-29)
+- **Resolved 2026-10-29:** all 20 items answered: q1 (folio) 18 Yes / 2 No, q2 (matter) 17 Yes / 2 No / 1 Unsure; all 11
+  test items Yes/Yes. The 2 wrong links (dev volume 3471, locators 94 and 452) are entry-side errors, not folio errors.
+  Recorded as F14-20c.8 (F14-20c.2 revised) in `reports/phase-14-index-links.md` § Step 20c "User check", and in
+  `plan/phase-14-index-links/PROGRESS.md`. `entry_gold.tsv` is not edited. UA-053 (publication) is no longer waiting on it.
+
+### UA-052 Run the index-links build on the full v5 layer (2026-10-29, from phase-14 step 20e; updated by the phase review)
+- **Action:** Run, in the AS root, on the machine with the drive, **after step 20r** (its builder records a failing volume
+  and goes on instead of stopping the run). `<drive>` = the directory holding `text_layer_v5/` (UA-045). Create the output
+  directory, smoke-test, run in full (rerun the third command to resume), then copy back:
+  `mkdir -p <drive>/index_links_v1`
+  `.venv/bin/python scripts/build_index_links.py --layer <drive>/text_layer_v5/1.01.02/NL-HaNA_1.01.02_text_layer_v5 --out-dir <drive>/index_links_v1 --limit 3`
+  `python3 /Users/Shared/claude_projects/data_scopes/shared-tools/coreshare.py run --project archival-structures --label index-links-full --want 4 --min 1 --wait -- .venv/bin/python scripts/build_index_links.py --layer <drive>/text_layer_v5/1.01.02/NL-HaNA_1.01.02_text_layer_v5 --out-dir <drive>/index_links_v1 --workers '{workers}'`
+  `mkdir -p data/index_links_full && cp <drive>/index_links_v1/NL-HaNA_1.01.02_index_links_v1/volumes.tsv <drive>/index_links_v1/NL-HaNA_1.01.02_index_links_v1/manifest.json data/index_links_full/ && chmod -R g+w data/index_links_full`
+  Measured cost on the dev build: 19.4 s for 41 volumes single-process (0.47 s per front-index volume); the 125 hand
+  volumes of the dev layer (41 with a front index) took 10.6 s with 3 workers.
+- **Review decision (2026-10-29):** the variant stays **L2**, the default (chosen on dev before the test; bar L failed on
+  precision, 61/66 = 0.924; bar E passed, 33/35). L3 is not adopted: its better test numbers come from a mistaken test
+  run, so choosing it would be a choice on test (F14-R.2). Do not pass `--variant`.
+- **Options:** (a) run as above with L2 after 20r; (b) skip until an index-links v2 exists. Recommended: (a): it costs
+  minutes, the layer records its variant, and the counts (how many full-layer volumes have a front index) size the
+  next phase.
+- **Default if unanswered:** links exist for the 41 local volumes only.
+- **Blocks:** links beyond the local volumes; the full-layer counts for planning an index-links v2.
+- **Response:** done
+- **Resolved 2026-10-29:** run done; `data/index_links_full/` holds `volumes.tsv` and `manifest.json`: 412 of 8,856
+  inventories with a front index, none failed, 629,912 entries, 902,031 of 914,994 locators linked; the 41 dev volumes
+  identical to the 20r dev build. F14-20e.9, F14-20e.10 and section *After the review* in
+  `reports/phase-14-index-links.md`; `docs/index_links.md` *Full run*; phase STATUS/PROGRESS, `plan/CONTEXT.md`.
+
+### UA-053 Publish `index_links_v1`? (2026-10-29, from the phase-14 review)
+- **Action:** Decide. `index_links_v1` (P10) links front-index entries to folio scans; the dev build covers the 41 local
+  volumes (`data/index_links_dev/20e-a/`), the full run is UA-052. Its bars: F 33/35 = 0.943 (failed, bar 0.95),
+  L precision 0.924 (failed, bar 0.95) and recall 1.000, E 0.943 (passed, bar 0.90); about 0.87 of emitted links point to
+  the right scan on the test rows (estimate). Known limits in `docs/index_links.md` (year-like anchors give `high` links
+  in 6 of 41 volumes, F14-R.3; `extrapolated` links are mostly noise, F14-R.5). The user checked 20 gold links (UA-050, F14-20c.8): all 11 test links
+  confirmed; the 2 wrong ones (dev) are entry-side errors.
+- **Options:** (a) do not publish v1; publish a v2 after the next index-links phase meets its bars on fresh gold;
+  (b) publish the full-run layer in `shared-data/NL-HaNA_1.01.02/index_links_v1/` (after UA-052, and UA-050 if you check
+  it) as `coverage: partial`, with the failed bars and known limits in the catalogue row; (c) publish the 41-volume dev
+  build now, the same way. Recommended: (a): two of three bars failed, the main defects are known and fixable, and no
+  sibling project reads index links yet.
+- **Default if unanswered:** nothing is published; the layer stays in `data/index_links_dev/` (and on the drive after UA-052).
+- **Blocks:** publication only; nothing in AS or the siblings.
+- **Response:** a
+- **Resolved 2026-10-29:** (a). `index_links_v1` is not published; the builds stay in `data/index_links_dev/` and on the
+  drive. A v2 follows an index-links v2 phase with bars on fresh gold. Recorded in the phase-14 report (*After the
+  review*, *Follow-ups*), `docs/index_links.md`, `plan/PLAN.md`, the phase PLAN and STATUS, `plan/CONTEXT.md`.

@@ -110,7 +110,7 @@ The decisions the user needs to make are collected in §5.
 
 | | LotA | NLP |
 |---|---|---|
-| Mechanism | `make venv` runs `pip install --no-deps -e /Users/marijnkoolen/Code/Huygens/archival-structures`; the same is done for pagexml-tools, fuzzy-search and formula_detection | Homebrew Python 3.11 has `site-packages/archival_structures.pth` pointing at the AS repo. NLP's `venv` inherits it via `include-system-site-packages = true` |
+| Mechanism | `make venv` runs `pip install --no-deps -e /Users/Shared/claude_projects/data_scopes/archival-structures`; the same is done for pagexml-tools, fuzzy-search and formula_detection | Homebrew Python 3.11 has `site-packages/archival_structures.pth` pointing at the AS repo. NLP's `venv` inherits it via `include-system-site-packages = true` |
 | Effect | `venv/.../archival_structures.pth` adds the **AS repo root** to `sys.path`. LotA sees the AS working tree, including uncommitted files | same. The stale `archival_structures-0.1.0.dist-info` claims 0.1.0 while AS is at 0.3.0 |
 | Version pin | none; a comment in LotA `pyproject.toml` says "0.3.0" | none |
 | Why `--no-deps` | AS would pull in torch, transformers, umap and opencv, and its pandas/lxml ranges conflict (`LotA/docs/environment.md`) | — |
@@ -145,7 +145,7 @@ importable as modules in both siblings. These are `make_iventory_paragraphs.py`,
 
    During active co-development they keep the editable path install:
    - LotA: its existing `make venv`, without `--no-deps`;
-   - NLP: `venv/bin/pip install -e /Users/marijnkoolen/Code/Huygens/archival-structures`
+   - NLP: `venv/bin/pip install -e /Users/Shared/claude_projects/data_scopes/archival-structures`
      *inside its own venv*, replacing the Homebrew `.pth`.
 
    Reproducibility comes from two checks:
@@ -156,7 +156,7 @@ importable as modules in both siblings. These are `make_iventory_paragraphs.py`,
      helper moves to AS in C15).
 
    For a frozen, citable run, a sibling installs from a tag instead:
-   `pip install "archival-structures @ git+file:///Users/marijnkoolen/Code/Huygens/archival-structures@v0.4.0"`.
+   `pip install "archival-structures @ git+file:///Users/Shared/claude_projects/data_scopes/archival-structures@v0.4.0"`.
    **This only works for committed code**, so the user has to commit and tag AS (decision D1).
 3. **One version per step.** Each step in §4 ends with a version bump and tag on AS, and with a
    raised minimum version in the sibling that changes its imports.

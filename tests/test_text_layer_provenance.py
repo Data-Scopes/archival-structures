@@ -9,12 +9,12 @@ from archival_structures.text_layer import provenance as prov
 
 
 def test_check_pagexml_tools_version_uses_minimum():
-    assert prov.MIN_PAGEXML_TOOLS == (0, 9, 0)
+    assert prov.MIN_PAGEXML_TOOLS == (0, 9, 1)
     assert prov.check_pagexml_tools_version()
 
 
-def test_pagexml_tools_is_at_least_0_9_0():
-    assert prov.check_min_version("pagexml-tools", (0, 9, 0))
+def test_pagexml_tools_is_at_least_0_9_1():
+    assert prov.check_min_version("pagexml-tools", (0, 9, 1))
 
 
 def test_package_info_pagexml_tools_version():

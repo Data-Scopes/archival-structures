@@ -1,0 +1,4 @@
+all 94056 target>=1 hit 0.707 control>=1 0.218 target>control 0.630 control>target 0.026
+single-locator entries 36124 target>=1 hit 0.743 control>=1 0.184 target>control 0.685 control>target 0.018
+>=3 words 38916 target>=1 hit 0.847 control>=1 0.398 target>control 0.736 control>target 0.037
+single & >=3 words 15382 target>=1 hit 0.873 control>=1 0.329 target>control 0.799 control>target 0.026
