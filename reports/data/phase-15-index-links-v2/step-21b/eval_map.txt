@@ -1,0 +1,20 @@
+LOO v1 21010/21334 = 0.9848
+LOO v2 20952/21176 = 0.9894
+tied numbers dropped: 166 in 29 volumes
+volumes whose last chain number changes (7): [('3126', 1591, 356), ('3265', 1659, 822), ('3290', 1674, 696), ('3307', 1683, 642), ('3320', 1689, 987), ('3471', 485, 457), ('3522', 3522, 550)]
+volumes changing mode: 0
+3712: ['3712', 'pagination', 'pagination', 205, 203, 684, 684, 345, 10, '172/203', '170/201']
+acceptance 2: v1 tables identical to 20r-a in 41/41 volumes (36349 rows); mismatches: []
+dev: v2 26/26 = 1.0000, Wilson 95% [0.871, 1.000]; v1 (reported only) 26/26
+  v2_conf=high: 26/26
+  v2_conf=medium: 0/0
+  v2_conf=low: 0/0
+  v2_conf=none: 0/0
+  opening coverage (content != unclear): {'leaf': 23, 'other': 1}
+test: v2 62/63 = 0.9841, Wilson 95% [0.915, 0.997]; v1 (reported only) 62/63
+  v2_conf=high: 62/63
+  v2_conf=medium: 0/0
+  v2_conf=low: 0/0
+  v2_conf=none: 0/0
+  opening coverage (content != unclear): {'leaf': 59, 'other': 3}
+BAR F (>= 0.95): PASS

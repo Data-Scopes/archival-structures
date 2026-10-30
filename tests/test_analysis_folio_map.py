@@ -1,7 +1,7 @@
 
 import numpy as np
 
-from archival_structures.analysis.folio_map import FolioMapParams, build_folio_map
+from archival_structures.analysis.folio_map import FOLIO_MAP_V2, FolioMapParams, build_folio_map
 
 
 def _vol(n, numbered, blank=(), verso_numbers=()):
@@ -128,3 +128,83 @@ def test_number_pattern_and_first_text():
     nums[("S003", "recto")] = ["x-y-z-w", " 3. "]
     m = build_folio_map(scans, sides, nums, params=FolioMapParams())
     assert 3 in m.chain[:, 1]
+
+
+# ---- folio map v2 (phase 15): G1 jump guard, G2 tied numbers, G3 gap-aware confidence, G4 opening ----
+
+def test_v2_jump_cuts_year_end():
+    numbered = {i: i for i in range(1, 41)}
+    numbered[43] = 1659
+    scans, sides, nums = _vol(45, numbered)
+    m1 = build_folio_map(scans, sides, nums)
+    m2 = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
+    assert m1.chain[-1, 1] == 1659 and not m1.chain_cut
+    assert m2.mode == "foliation" and m2.chain[-1, 1] == 40 and m2.chain_cut
+    assert m2.locate(1000) is None
+    assert m1.locate(1000) is not None  # v1 interpolates 1000 onto the last scans
+
+
+def test_v2_jump_keeps_longest_piece():
+    numbered = {**{i: i for i in range(1, 5)}, **{i: 100 + i for i in range(5, 11)}}
+    scans, sides, nums = _vol(12, numbered)
+    m = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
+    assert m.chain[0, 1] == 105 and len(m.chain) == 6  # the longer piece
+    numbered = {**{i: i for i in range(1, 6)}, **{i: 100 + i for i in range(6, 11)}}
+    scans, sides, nums = _vol(12, numbered)
+    m = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
+    assert m.chain[0, 1] == 1 and len(m.chain) == 5  # tie: the earlier piece
+
+
+def _tied():
+    return _vol(75, {68: 21, 69: 22, 70: 23, 72: 23, 73: 26})
+
+
+def test_v2_tied_numbers_dropped():
+    scans, sides, nums = _tied()
+    t = build_folio_map(scans, sides, nums).locate(23)
+    assert t.method == "printed" and t.position == 72
+    m = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
+    t = m.locate(23)
+    assert m.n_dup_dropped == 1 and t.method == "interpolated" and t.position == 70
+
+
+def test_v2_tie_outside_window_kept():
+    scans, sides, nums = _vol(40, {10: 21, 11: 22, 12: 23, 18: 23, 19: 24, 20: 25})
+    m = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
+    assert m.n_dup_dropped == 0
+    assert m.locate(23).method == "printed" and m.locate(23).position == 18  # later copy wins, as in v1
+
+
+def test_v2_confidence_sees_gap():
+    scans, sides, nums = _vol(20, {8: 8, 9: 9, 10: 10, 12: 21, 13: 22})
+    m1 = build_folio_map(scans, sides, nums)
+    m2 = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
+    assert not m2.chain_cut and len(m2.chain) == 5
+    assert m1.locate(15).confidence == "high"
+    assert m2.locate(15).confidence == "low" and m2.locate(15).method == "interpolated"
+    assert m2.locate(9).confidence == "high"  # printed stays high
+
+
+def test_v2_opening_side():
+    scans, sides, nums = _vol(20, {i: i for i in range(1, 21)})
+    m1 = build_folio_map(scans, sides, nums)
+    m = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
+    assert m.locate(5).opening == ("S005", "verso") and m1.locate(5).opening is None
+    assert "opening_scan_id" in m.table()[0] and "opening_page" in m.table()[0]
+    assert "opening_scan_id" not in m1.table()[0]
+    scans, sides, nums = _vol(20, {i: i for i in range(1, 21)}, blank=())
+    sides = [s for s in sides if s != ("S005", "verso")]
+    m = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
+    assert m.locate(5).opening is None
+    # pagination: always None
+    scans, sides, nums = _vol(10, {}, verso_numbers={i: 2 * i - 1 for i in range(1, 11)}, )
+    for i in range(1, 11):
+        nums[(f"S{i:03d}", "recto")] = [str(2 * i)]
+    mp = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
+    assert mp.mode == "pagination" and mp.locate(6).opening is None
+
+
+def test_v2_continuing_numbers_not_bounded():
+    scans, sides, nums = _vol(30, {i: 347 + i for i in range(1, 31)})
+    m = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
+    assert m.mode == "foliation" and len(m.chain) == 30 and m.chain[0, 1] == 348

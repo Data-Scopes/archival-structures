@@ -1,0 +1,19 @@
+{
+ "run_utc": "2026-10-30T10:22:11.037307+00:00",
+ "params": {
+  "number_pattern": "^\\D{0,3}(\\d{1,4})\\D{0,3}$",
+  "foliation_recto_share": 0.9,
+  "min_chain": 3,
+  "extrapolate": 6,
+  "edge": 6,
+  "bands": [
+   3,
+   10
+  ],
+  "jump_k": 1.0,
+  "jump_c": 10.0,
+  "dup_window": 2,
+  "gap_slack": 2.0,
+  "opening": true
+ }
+}

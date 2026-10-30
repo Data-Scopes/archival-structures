@@ -1,0 +1,10 @@
+file	target_id	column	old	new	reason
+target_gold.tsv	T029	folio_evidence	neighbours	printed	number printed at end of first recto line (not listed by show_scan.py); checked by printing the first 2 lines of the target recto
+target_gold.tsv	T031	folio_evidence	neighbours	printed	number printed at end of first recto line (not listed by show_scan.py); checked by printing the first 2 lines of the target recto
+target_gold.tsv	T038	folio_evidence	neighbours	printed	number printed at end of first recto line (not listed by show_scan.py); checked by printing the first 2 lines of the target recto
+target_gold.tsv	T083	folio_evidence	printed	unclear	no folio N found (locator 1182 beyond volume); note 'beyond volume' kept
+target_gold.tsv	T043	folio_evidence	neighbours	printed	number printed at end of first recto line (not listed by show_scan.py); checked by printing the first 2 lines of the target recto
+target_gold.tsv	T047	folio_evidence	neighbours	printed	number printed at end of first recto line (not listed by show_scan.py); checked by printing the first 2 lines of the target recto
+target_gold.tsv	T048	folio_evidence	neighbours	printed	number printed at end of first recto line (not listed by show_scan.py); checked by printing the first 2 lines of the target recto
+target_gold.tsv	T049	folio_evidence	neighbours	printed	number printed at end of first recto line (not listed by show_scan.py); checked by printing the first 2 lines of the target recto
+target_gold.tsv	T050	folio_evidence	neighbours	printed	number printed at end of first recto line (not listed by show_scan.py); checked by printing the first 2 lines of the target recto

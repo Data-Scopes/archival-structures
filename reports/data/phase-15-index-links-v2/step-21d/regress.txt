@@ -1,0 +1,2 @@
+files compared: {'folio_map': 41, 'links': 41, 'meta': 41} volumes.tsv equal: True
+RESULT: ALL EQUAL

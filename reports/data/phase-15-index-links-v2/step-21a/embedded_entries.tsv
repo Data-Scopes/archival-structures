@@ -1,0 +1,22 @@
+read_id	inv	k	line_id	text	locators	note
+S02	3307	4	c10978f5-14ca-4e02-932b-7453425b24d6	d'heer van Wijnbergen 265.	265	
+S02	3307	9	line_97be7c14-bdbf-4dc8-a42e-74618660dcbf	N. denhut cum socis 340.	340	
+S02	3307	11	d5aec01c-1835-430b-b4ef-f7230420b2e3	Johan Hassenborgh 449.	449	
+S03	3315	6	ab1c392e-fd20-47c2-bb15-e790372ec961	Maas schippers 393, 661.	393;661	
+S03	3315	19	line_54828337-4f4f-4426-b134-040ecfb52449	Den Agent Moerkerken 403.	403	
+S09	3487	1	line_4746f93f-898a-47fc-b6a8-08d64cf87b59	H. J. Martens 284.	284	
+S09	3487	9	f9e51410-c790-440b-bfa9-2e530dfe63dd	P. de Beaufort 411.	411	
+S09	3487	10	c8f3479d-73e3-4de1-89ca-08473311145d	S. Beeldsnyder, 534.	534	
+S09	3487	22	e9330643-f5fb-4ff7-a0c7-fecd7885ed86	Jacomina Blassiere 15, 299.	15;299	under right-column heading 'Breskens' (k=21, no locator, not recorded)
+S09	3487	23	line_89cc9f33-eb41-4f69-b3b1-a73e5250d93e	Blote en Knibbe 189.	189	
+S09	3487	27	e43f5fb1-3c90-4d75-b737-c0e22d3ce07f	S: W. Bosch 50.	50	
+S10	3493	3	d4a42a49-03fa-4564-aacb-5e8e813fff46	H. Egoor, omme gratificatie 430.	430	
+S10	3493	27	cdae9064-0645-4b71-9128-e6e296aba225	Declaratie 30.	30	fragment in a gap of the right column (y 2365); owner entry unclear, so no @ credit; may duplicate a number in k=6 (30@13)
+S29	3280	22	line_981cf919-0dfc-4304-9a37-6a2064cb9fdd	militie naer Meppel & Steenwijck, 262	262	right-col entry spans merged lines k22-k23
+S30	3283	7	line_847ffeb4-0546-4b48-87d2-3c488bbbff94	hals Abraham de Schepper, 468	468	right-col entry wholly inside merged line
+S31	3290	3	af380fdd-4797-40b7-a509-d5f183ad304a	Postmrs., 688	688	right-col entry wholly inside merged line
+S33	3349	23	line_6b08e883-e14f-4871-9bc9-5058a1c84063	Cuts en Portmore, 559	559	right-col entry wholly inside merged line
+S39	3522	1	line_602b0208-2c8b-4f54-a783-865a357e3b09	Reqte. van Hendrs. Bakker, 37.	37	right-col entry wholly inside merged line
+S39	3522	6	f6e67799-083d-4726-baa5-19714de3a24c	Reqte. van Hugo Bakker, 174.	174	right-col entry wholly inside merged line
+S39	3522	19	line_21a19041-65ae-4e11-bbff-2bb100ff6cae	Reqte. van Mr: C: L: van Beeresteijn, 350, 459, 490.	350;459;490	right-col entry wholly inside merged lines k19-k20
+S40	3547	3	line_6ebc1478-ace7-449f-a8c8-ca3e43dd95f6	Reqte van P:. Geding van Berkhout 438.	438	right-col entry wholly inside merged line

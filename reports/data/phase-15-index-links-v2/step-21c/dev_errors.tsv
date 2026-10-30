@@ -1,0 +1,80 @@
+read_id	kind	k	line_id	text	gold	predicted
+S01	loc_FN	22	line_2bc361b0-965a-480c-9a9a-78a70cbe569b	334:	334	
+S02	loc_FN	19	be41687f-a51c-4572-bd25-073341069cd5	de Weer en Abo 101.	101	
+S02	attribution	9	line_97be7c14-bdbf-4dc8-a42e-74618660dcbf	132, 185, 241, 354 471, 537, N. denhut cum socis 340.	132->['aa90f7e5-f22c-42e6-8a76-5186dba002da']	132->line_97be7c14-bdbf-4dc8-a42e-74618660dcbf
+S02	attribution	9	line_97be7c14-bdbf-4dc8-a42e-74618660dcbf	132, 185, 241, 354 471, 537, N. denhut cum socis 340.	185->['aa90f7e5-f22c-42e6-8a76-5186dba002da']	185->line_97be7c14-bdbf-4dc8-a42e-74618660dcbf
+S02	attribution	9	line_97be7c14-bdbf-4dc8-a42e-74618660dcbf	132, 185, 241, 354 471, 537, N. denhut cum socis 340.	241->['aa90f7e5-f22c-42e6-8a76-5186dba002da']	241->line_97be7c14-bdbf-4dc8-a42e-74618660dcbf
+S02	attribution	9	line_97be7c14-bdbf-4dc8-a42e-74618660dcbf	132, 185, 241, 354 471, 537, N. denhut cum socis 340.	354->['aa90f7e5-f22c-42e6-8a76-5186dba002da']	354->line_97be7c14-bdbf-4dc8-a42e-74618660dcbf
+S02	attribution	9	line_97be7c14-bdbf-4dc8-a42e-74618660dcbf	132, 185, 241, 354 471, 537, N. denhut cum socis 340.	471->['aa90f7e5-f22c-42e6-8a76-5186dba002da']	471->line_97be7c14-bdbf-4dc8-a42e-74618660dcbf
+S02	attribution	9	line_97be7c14-bdbf-4dc8-a42e-74618660dcbf	132, 185, 241, 354 471, 537, N. denhut cum socis 340.	537->['aa90f7e5-f22c-42e6-8a76-5186dba002da']	537->line_97be7c14-bdbf-4dc8-a42e-74618660dcbf
+S02	attribution	10	line_5aa3988e-4283-444d-9751-892b18c72e8a	545, 551, 586.	545->['aa90f7e5-f22c-42e6-8a76-5186dba002da']	545->line_97be7c14-bdbf-4dc8-a42e-74618660dcbf
+S02	attribution	10	line_5aa3988e-4283-444d-9751-892b18c72e8a	545, 551, 586.	551->['aa90f7e5-f22c-42e6-8a76-5186dba002da']	551->line_97be7c14-bdbf-4dc8-a42e-74618660dcbf
+S02	attribution	10	line_5aa3988e-4283-444d-9751-892b18c72e8a	545, 551, 586.	586->['aa90f7e5-f22c-42e6-8a76-5186dba002da']	586->line_97be7c14-bdbf-4dc8-a42e-74618660dcbf
+S03	loc_FN	6	ab1c392e-fd20-47c2-bb15-e790372ec961	De Man 127, 586, 606. Maas schippers 393, 661.	606	
+S03	loc_FN	20	ab074a29-ea71-4b9a-9eb8-cbbb432f89bd	130.	130	
+S03	loc_FN	21	ee49b31b-893d-4d51-8024-565bf09efc93	Servatius Mengius 282. d'Heer Mulert van Baken„	282	
+S03	loc_FN	23	line_061bedfd-7b77-467e-99f0-defa50d07611	436.	436	
+S03	loc_FN	28	line_13970821-6675-4c18-839c-bfaae8544bef	d'Heer Johan Mepsche 454.	454	
+S03	attribution	10	line_3f7abcbc-fc44-435a-a768-d3ebfbd75f0b	439.	439->['f5cae7b2-cf44-48be-89a6-b25133a5dc15']	439->line_68e7420c-9b52-4fdb-b5b8-b07d1dfa38d7
+S03	attribution	22	line_320828ef-9ddb-43ef-8860-0b89109f9bfe	„hagen 484.	484->['line_320828ef-9ddb-43ef-8860-0b89109f9bfe']	484->ee49b31b-893d-4d51-8024-565bf09efc93
+S04	loc_FN	53	line_76ee437b-7fe6-4c55-8221-40f8bcaf393a	799, 832.	799	
+S04	loc_FN	53	line_76ee437b-7fe6-4c55-8221-40f8bcaf393a	799, 832.	832	
+S05	loc_FN	32	c2a93801-ab9f-4a88-99b0-0bc9a3e82857	463.	463	
+S06	attribution	22	dfbed6f7-31a6-49a5-9f75-6251ccf26e1f	dens daar tegen 460.	460->['line_39082511-0a26-468e-a7ad-9664b19e23ca']	460->line_06cb64c3-19d5-429f-9311-402ae84e5c58
+S06	attribution	40	line_3a91852d-76ec-495a-8d56-ebedb4a56e41	mont 429.	429->['line_603e9ede-8178-498c-b116-5f5625637130']	429->f12a07fe-b101-4700-94da-7b3a57a7ba45
+S07	attribution	8	line_4eb11646-c50b-4870-9123-ff89ee18b3a7	Castel. 8.	8->['line_4eb11646-c50b-4870-9123-ff89ee18b3a7']	8->line_1a1966db-ffa5-42bd-851f-5124e21d2831
+S07	attribution	13	c6ceb48a-c289-4260-bd3b-b227b3369d6e	Charon: 61, 168.	61->['c6ceb48a-c289-4260-bd3b-b227b3369d6e']	61->line_1b293500-defa-41c4-9ef8-74096005e453
+S07	attribution	13	c6ceb48a-c289-4260-bd3b-b227b3369d6e	Charon: 61, 168.	168->['c6ceb48a-c289-4260-bd3b-b227b3369d6e']	168->line_1b293500-defa-41c4-9ef8-74096005e453
+S07	attribution	23	a9eb79fd-b576-46bc-9342-cf9843d1abbc	Colijaar 89.	89->['a9eb79fd-b576-46bc-9342-cf9843d1abbc']	89->line_524b84a3-7b6e-4dbd-aa19-277ff33fc7fc
+S08	loc_FN	3	line_4afdf226-78b0-4887-8ad5-a348badbffac	gedrag van den voorn: Argat273.	273	
+S08	loc_FN	24	line_003c6c73-b066-4547-badf-9692b73134c7	declaratie 15.	15	
+S08	loc_FP	39	eba0117a-5be3-44c8-afc5-7c290f22877d	de somme van f 7922: 7: 0.		7
+S08	loc_FP	39	eba0117a-5be3-44c8-afc5-7c290f22877d	de somme van f 7922: 7: 0.		0
+S09	loc_FN	2	line_954174ea-52b8-4b41-a84c-fe59774b99b8	6, 26.	6	
+S09	loc_FN	2	line_954174ea-52b8-4b41-a84c-fe59774b99b8	6, 26.	26	
+S09	loc_FN	16	line_6df63ec9-038b-4905-ac37-911532a09c48	3.	3	
+S09	loc_FN	24	b184ae3e-66cc-4200-b8e8-4018f85a5bd0	rapport daar op 58.	58	
+S09	loc_FN	29	line_2dc5af91-2135-49e3-af55-bcd145af256b	aankomst alhier 94.	94	
+S09	loc_FP	26	line_5b261a99-99a9-4169-b18d-0f4c2da2eae5	Bleiswijk 1. Aantzig.		1
+S09	attribution	14	line_18fc0a8c-deb3-4840-bb7b-68ebbd5057c2	Graaff van Birkenfeld 209.	209->['line_18fc0a8c-deb3-4840-bb7b-68ebbd5057c2']	209->d8f025be-8de7-422e-a959-5aca9c113574
+S09	attribution	23	line_89cc9f33-eb41-4f69-b3b1-a73e5250d93e	ons stroo en haver 44. Blote en Knibbe 189.	44->['ccc330fa-bfe6-41bb-8266-4b74448e1d83']	44->line_89cc9f33-eb41-4f69-b3b1-a73e5250d93e
+S09	attribution	41	line_12f7de7f-5ef1-49e2-9726-8bfbdf822756	N. Bruinestein 317.	317->['line_12f7de7f-5ef1-49e2-9726-8bfbdf822756']	317->b19b2b14-8f96-40f9-b98f-7b0e12b6c66b
+S10	loc_FN	15	bdc59761-6f32-4574-88a8-83fd3dfde073	304.	304	
+S10	loc_FN	30	ab1182df-5628-40df-ad21-c482d19f03b8	gedaan, 303.	303	
+S10	loc_FN	27	cdae9064-0645-4b71-9128-e6e296aba225	niss: heer van Haren; de Graeve Declaratie 30.	30	
+S10	loc_FP	23	line_5b73ac79-d039-4cc9-8424-285d2f2b23e6	2 Broek man Assistent boode 150		150
+S10	attribution	6	line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b	ceert Officier van 't Beyersch 30, 35, 48, 65, 117, 121, 137, 147, 151.	30->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	30->line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b
+S10	attribution	6	line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b	ceert Officier van 't Beyersch 30, 35, 48, 65, 117, 121, 137, 147, 151.	35->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	35->line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b
+S10	attribution	6	line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b	ceert Officier van 't Beyersch 30, 35, 48, 65, 117, 121, 137, 147, 151.	48->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	48->line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b
+S10	attribution	6	line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b	ceert Officier van 't Beyersch 30, 35, 48, 65, 117, 121, 137, 147, 151.	65->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	65->line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b
+S10	attribution	6	line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b	ceert Officier van 't Beyersch 30, 35, 48, 65, 117, 121, 137, 147, 151.	117->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	117->line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b
+S10	attribution	6	line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b	ceert Officier van 't Beyersch 30, 35, 48, 65, 117, 121, 137, 147, 151.	121->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	121->line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b
+S10	attribution	6	line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b	ceert Officier van 't Beyersch 30, 35, 48, 65, 117, 121, 137, 147, 151.	137->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	137->line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b
+S10	attribution	6	line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b	ceert Officier van 't Beyersch 30, 35, 48, 65, 117, 121, 137, 147, 151.	147->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	147->line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b
+S10	attribution	6	line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b	ceert Officier van 't Beyersch 30, 35, 48, 65, 117, 121, 137, 147, 151.	151->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	151->line_9f3d84b7-d34b-4678-b163-cc8ce5f38d8b
+S10	attribution	8	line_7dcd2c27-1929-4111-a05b-3425127326f2	177, 230, 247, 276, 290, 296, 313.	177->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	177->f542d9f6-1c61-4bbb-a264-77a9bf11a262
+S10	attribution	8	line_7dcd2c27-1929-4111-a05b-3425127326f2	177, 230, 247, 276, 290, 296, 313.	230->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	230->f542d9f6-1c61-4bbb-a264-77a9bf11a262
+S10	attribution	8	line_7dcd2c27-1929-4111-a05b-3425127326f2	177, 230, 247, 276, 290, 296, 313.	247->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	247->f542d9f6-1c61-4bbb-a264-77a9bf11a262
+S10	attribution	8	line_7dcd2c27-1929-4111-a05b-3425127326f2	177, 230, 247, 276, 290, 296, 313.	276->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	276->f542d9f6-1c61-4bbb-a264-77a9bf11a262
+S10	attribution	8	line_7dcd2c27-1929-4111-a05b-3425127326f2	177, 230, 247, 276, 290, 296, 313.	290->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	290->f542d9f6-1c61-4bbb-a264-77a9bf11a262
+S10	attribution	8	line_7dcd2c27-1929-4111-a05b-3425127326f2	177, 230, 247, 276, 290, 296, 313.	296->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	296->f542d9f6-1c61-4bbb-a264-77a9bf11a262
+S10	attribution	8	line_7dcd2c27-1929-4111-a05b-3425127326f2	177, 230, 247, 276, 290, 296, 313.	313->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	313->f542d9f6-1c61-4bbb-a264-77a9bf11a262
+S10	attribution	9	line_5ad6abab-31e1-45fe-8cc3-2261094c11cd	f 50m, tot reisgeld 268.	268->['line_1c2c110a-5127-4e51-a768-d090e587e432']	268->line_5ad6abab-31e1-45fe-8cc3-2261094c11cd
+S10	attribution	10	d7d07f8d-d70c-4cff-8f0b-d2af79ae03aa	334, 345, 357, 365, 382, 403, 431	334->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	334->line_5ad6abab-31e1-45fe-8cc3-2261094c11cd
+S10	attribution	10	d7d07f8d-d70c-4cff-8f0b-d2af79ae03aa	334, 345, 357, 365, 382, 403, 431	345->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	345->line_5ad6abab-31e1-45fe-8cc3-2261094c11cd
+S10	attribution	10	d7d07f8d-d70c-4cff-8f0b-d2af79ae03aa	334, 345, 357, 365, 382, 403, 431	357->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	357->line_5ad6abab-31e1-45fe-8cc3-2261094c11cd
+S10	attribution	10	d7d07f8d-d70c-4cff-8f0b-d2af79ae03aa	334, 345, 357, 365, 382, 403, 431	365->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	365->line_5ad6abab-31e1-45fe-8cc3-2261094c11cd
+S10	attribution	10	d7d07f8d-d70c-4cff-8f0b-d2af79ae03aa	334, 345, 357, 365, 382, 403, 431	382->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	382->line_5ad6abab-31e1-45fe-8cc3-2261094c11cd
+S10	attribution	10	d7d07f8d-d70c-4cff-8f0b-d2af79ae03aa	334, 345, 357, 365, 382, 403, 431	403->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	403->line_5ad6abab-31e1-45fe-8cc3-2261094c11cd
+S10	attribution	10	d7d07f8d-d70c-4cff-8f0b-d2af79ae03aa	334, 345, 357, 365, 382, 403, 431	431->['line_6ab488b2-36a8-4c94-8e35-d64e64bb5e2d']	431->line_5ad6abab-31e1-45fe-8cc3-2261094c11cd
+S10	attribution	24	line_250a2442-bd26-4604-9830-6a2eb8e1cbbe	toegelogt 320.	320->['line_5b73ac79-d039-4cc9-8424-285d2f2b23e6']	320->line_250a2442-bd26-4604-9830-6a2eb8e1cbbe
+S11	attribution	5	line_062134ca-98ea-4cba-a2fb-87bbe6183fc7	1e. 562.	562->['line_7271c666-2a5c-4091-820b-42bcfa9d642c']	562->line_062134ca-98ea-4cba-a2fb-87bbe6183fc7
+S13	loc_FP	20	line_408b204d-035a-4f82-85f8-7a45c7333a05	Renger:1. 913		1
+S13	loc_FP	33	a03fe649-1ac4-4f76-8675-9b9d7ddbba15	Reqe van de Hoofd Officieren van 1 14		1
+S13	loc_FP	33	a03fe649-1ac4-4f76-8675-9b9d7ddbba15	Reqe van de Hoofd Officieren van 1 14		14
+S13	attribution	9	e9cba239-01cd-4b67-9de8-df80fb341c8b	berigt van aunhaalingen. 185.	185->['fe2eeee8-a667-45a8-a51f-d1db53e31b2d']	185->e9cba239-01cd-4b67-9de8-df80fb341c8b
+S13	attribution	10	b7f7f125-fbea-4f26-b772-824612052a08	10m, 546.	546->['fe2eeee8-a667-45a8-a51f-d1db53e31b2d']	546->b7f7f125-fbea-4f26-b772-824612052a08
+S13	attribution	26	e68bb6ae-c1d7-4bc7-aa22-81b470540b99	rats: 111, 289. Misse U1s: antwoon	111->['line_04c3b38d-6a0c-4b7c-91d2-2a6a945195fc']	111->line_2121eba2-5c9d-4618-b73a-c5a3a068caf6
+S13	attribution	26	e68bb6ae-c1d7-4bc7-aa22-81b470540b99	rats: 111, 289. Misse U1s: antwoon	289->['line_04c3b38d-6a0c-4b7c-91d2-2a6a945195fc']	289->line_2121eba2-5c9d-4618-b73a-c5a3a068caf6
+S13	attribution	27	line_7f7f8926-5241-4489-97d7-a903aca5540b	van t Deemsche. Hof. 166.	166->['e68bb6ae-c1d7-4bc7-aa22-81b470540b99']	166->line_2121eba2-5c9d-4618-b73a-c5a3a068caf6
+S13	attribution	35	line_4d5cf7f4-c1bc-43cc-b41b-937570ee159c	Hem van 1 2te. Battr 7.	7->['a03fe649-1ac4-4f76-8675-9b9d7ddbba15']	7->line_41048872-8ee4-45c3-90c3-545173706716

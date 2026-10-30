@@ -4,6 +4,31 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.20.0 (2026-10-30)
+
+### Step 21b: folio map v2 (2026-10-30)
+
+- Additions to `analysis.folio_map`, backwards compatible (default params reproduce v1; the v1 tables of 41 volumes are
+  identical): `FolioMapParams` fields `jump_k`, `jump_c`, `dup_window`, `gap_slack`, `opening` (after the existing
+  fields); `FOLIO_MAP_V2`; `FolioTarget.opening` and `FolioMap.n_dup_dropped`/`chain_cut` (last fields, with defaults);
+  `FolioMap.table()` adds `opening_scan_id`, `opening_page` only when `params.opening`. Affected sibling imports: none.
+
+### Step 21c: locators v2, entry assembly (2026-10-30)
+
+- Additions to `analysis.index_links`, backwards compatible (L1-L4, `volume_links` and the v1 outputs unchanged):
+  `LocatorParams` fields `sub_entry_punct`, `left_boundary` (after the existing fields, v1 defaults);
+  `SG_LOCATOR_PARAMS` keys `L5`-`L7`; `SG_AMOUNT_BEFORE_V2`; `SG_ENTRY_END`; `LineBox`, `Entry`, `read_side_lines`,
+  `side_reading_order`, `assemble_entries`, `entry_locators`. `extract_locators` accepts variants L1-L7. The module now
+  imports `analysis.page_structure` and `text_layer.presets`. Affected sibling imports: none.
+
+### Step 21d: index_links_v2 layer (2026-10-30)
+
+- Additions to `analysis.index_links`, backwards compatible: `volume_links_v2`, `V2_CONFIG` (map `FOLIO_MAP_V2`, method
+  A0, variant L7, column cfg `SG_HAND_COLUMN_ORDER_V5`), `ENTRY_COLUMNS`, `LINK_COLUMNS_V2`. `scripts/build_index_links.py`
+  gains `--version {v1,v2}` (default `v1`; the v1 rebuild equals the phase-14 build file for file; `--variant` is an error
+  with `v2`); the v2 layer is `NL-HaNA_1.01.02_index_links_v2` (tables `folio_map/ entries/ links/ meta/`, `volumes.tsv`,
+  `manifest.json`). The module imports `FOLIO_MAP_V2` and `SG_HAND_COLUMN_ORDER_V5` at load. Affected sibling imports: none.
+
 ## v0.19.0 (2026-10-29)
 
 ### Step 20r: review fixes (2026-10-29)

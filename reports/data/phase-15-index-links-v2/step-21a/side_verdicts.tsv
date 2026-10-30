@@ -1,0 +1,30 @@
+read_id	split	inv	scan_id	page	side_verdict	used_for	note
+S01	dev	3126	NL-HaNA_1.01.02_3126_0013	verso	index		two columns, clean
+S02	dev	3307	NL-HaNA_1.01.02_3307_0033	recto	index		two columns, many merged lines
+S03	dev	3315	NL-HaNA_1.01.02_3315_0023	verso	index		two columns, many merged lines
+S04	dev	3368	NL-HaNA_1.01.02_3368_0020	recto	index		two columns, clean; Statien heading, long numeric runs
+S05	dev	3421	NL-HaNA_1.01.02_3421_0016	verso	index		two columns, clean; Commissien heading
+S06	dev	3428	NL-HaNA_1.01.02_3428_0021	recto	index		two columns, clean; Gelderland heading
+S07	dev	3444	NL-HaNA_1.01.02_3444_0013	verso	index		letter C name index; many vide entries
+S08	dev	3455	NL-HaNA_1.01.02_3455_0009	verso	index		Barbarijen sub-headings, long entries, clean
+S09	dev	3487	NL-HaNA_1.01.02_3487_0009	verso	index		hard: left long entries merged with right name list; 7 right entries fully embedded
+S10	dev	3493	NL-HaNA_1.01.02_3493_0035	recto	index		hard: three-column merge, Gratificatien page
+S11	dev	3539	NL-HaNA_1.01.02_3539_0020	verso	index		two columns, Gelderland volume section; sub-headings Venlo etc.
+S12	dev	3587	NL-HaNA_1.01.02_3587_0045	recto	index		sparse: lemma headings with Nihil, 4 entries
+S13	dev	3623	NL-HaNA_1.01.02_3623_0030	verso	index		two columns, garbled in places, mid-line entry ends
+S27	test	3265	NL-HaNA_1.01.02_3265_0025	verso	index		two columns, clean
+S28	test	3274	NL-HaNA_1.01.02_3274_0013	verso	index		two columns, sparse clean
+S29	test	3280	NL-HaNA_1.01.02_3280_0027	verso	index		two columns, several merged lines, 1 embedded entry
+S30	test	3283	NL-HaNA_1.01.02_3283_0036	verso	index		two columns, 2 merged lines
+S31	test	3290	NL-HaNA_1.01.02_3290_0044	recto	index		two columns, 1 merged line
+S32	test	3303	NL-HaNA_1.01.02_3303_0013	verso	index		two columns, clean
+S33	test	3349	NL-HaNA_1.01.02_3349_0025	recto	index		two columns, sub-lemmas Patenten/Petitien, 1 merged line
+S34	test	3350	NL-HaNA_1.01.02_3350_0010	recto	index		two columns, many lemma headings
+S35	test	3353	NL-HaNA_1.01.02_3353_0010	verso	index		three-tier layout (marginal sub-entries, lemma Consenten left, Constantinopolen right), sub-lemmas petitie, 1 merged line
+S36	test	3438	NL-HaNA_1.01.02_3438_0041	verso	index		two columns, heading Vrankrijk, many merged lines
+S37	test	3459	NL-HaNA_1.01.02_3459_0036	verso	index		two columns under Advisen, requests, 1 merged line
+S38	test	3507	NL-HaNA_1.01.02_3507_0035	verso	index		two columns, Pasporten/Patenten/Presenten, short name entries, no merged line
+S39	test	3522	NL-HaNA_1.01.02_3522_0007	recto	index		two columns under Ampten, many merged lines, 3 embedded entries
+S40	test	3547	NL-HaNA_1.01.02_3547_0009	recto	index		two columns, Agenten/Abolitien, 2 merged lines, vide cross-references
+S41	test	3572	NL-HaNA_1.01.02_3572_0028	recto	index		two columns, Pardonnen/Resident Cornet/Postmeester/Pouvoirs lemmas with Nihil, vide cross-references
+S42	test	3630	NL-HaNA_1.01.02_3630_0043	verso	index		two columns, lemma Raad van State, vide cross-references, multi-locator entries

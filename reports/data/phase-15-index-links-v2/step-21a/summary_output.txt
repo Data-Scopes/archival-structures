@@ -1,0 +1,78 @@
+                                                          dev-high       dev-low       dev-all     test-high      test-low      test-all       all-all
+== side verdicts ==
+Counter({('test', 'index'): 16, ('dev', 'index'): 13})
+reserves used: none
+judged index sides: 29  sides per group: {'dev-high': 6, 'dev-low': 7, 'dev-all': 13, 'test-high': 7, 'test-low': 9, 'test-all': 16, 'all-all': 29}
+
+== size (index sides, line_gold.tsv) ==
+sides                                                            6             7            13             7             9            16            29
+layout lines                                                   250           322           572           317           362           679          1251
+entries (S lines)                                               93           167           260           124           211           335           595
+H lines                                                         36            11            47            31            40            71           118
+F lines                                                          8             8            16            11            16            27            43
+X lines                                                          4             2             6             0             0             0             6
+locators (line_gold, @ counted once)                           122           267           389           122           340           462           851
+entries with 0 locators                                          9            12            21            15             3            18            39
+entries with 1 locator                                          73           123           196           101           142           243           439
+entries with >=2 locators                                       11            32            43             8            66            74           117
+mid-line entry ends (@ tokens)                                  12             0            12             3             4             7            19
+two-column sides (any R line)                                    6             7            13             7             9            16            29
+lines with 'merged columns'                                      6            15            21            11            10            21            42
+embedded entries (embedded_entries.tsv)                          2            11            13             4             4             8            21
+embedded locators                                                2            13            15             6             4            10            25
+embedded share of all entries                                0.021         0.062         0.048         0.031         0.019         0.023         0.034
+entries with a gap in k (strict)                                 5             5            10             8             3            11            21
+  of which another entry sits in the gap                         5             4             9             8             3            11            20
+entries with >=2 lines                                          60            84           144            66            80           146           290
+
+== locator styles (character after each gold locator in the line text) ==
+n (line end)                                                     7             6            13            11             3            14            27
+n + other                                                        0             3             3             0             0             0             3
+n,                                                              26            75           101             5            94            99           200
+n.                                                              89           137           226           103           184           287           513
+n:                                                               0            46            46             3            59            62           108
+
+== non-locator numbers recorded in line notes (lines mentioning the kind; lower bound) ==
+amount                                                           8             2            10             2            13            15            25
+count                                                            4             2             6             2             1             3             9
+ordinal                                                          1             0             1             0             0             0             1
+date                                                             0             0             0             0             0             0             0
+year                                                             1             0             1             1             0             1             2
+garbled                                                          6             6            12             6             3             9            21
+glued                                                            2             2             4             0             0             0             4
+
+== targets (target_gold.tsv) ==
+targets                                                         12            14            26            28            36            64            90
+usable (scan != none, evidence != unclear)                      12            14            26            27            36            63            89
+folio_evidence printed                                          12            12            24            27            30            57            81
+folio_evidence neighbours                                        0             2             2             0             6             6             8
+folio_evidence unclear                                           0             0             0             1             0             1             1
+target_scan_id none                                              0             0             0             1             0             1             1
+mean scans_opened                                             3.67          3.43          3.54          2.86          3.31          3.11          3.23
+content leaf                                                    10            13            23            25            34            59            82
+content opening only                                             0             0             0             0             0             0             0
+content next only                                                0             0             0             0             0             0             0
+content absent                                                   1             0             1             2             1             3             4
+content unclear                                                  1             1             2             1             1             2             4
+content_sides (exact combination; usable targets with a scan):
+  (none)                                                         1             1             2             2             1             3             5
+  back                                                           2             4             6             9             7            16            22
+  front                                                          2             4             6             4            12            16            22
+  back;next                                                      4             2             6             5             6            11            17
+  front;back                                                     3             3             6             5             6            11            17
+  opening;front                                                  0             0             0             0             1             1             1
+  front;back;next                                                0             0             0             2             3             5             5
+content_sides (any mention):
+  mentions opening                                               0             0             0             0             1             1             1
+  mentions front                                                 5             7            12            11            22            33            45
+  mentions back                                                  9             9            18            21            22            43            61
+  mentions next                                                  4             2             6             7             9            16            22
+index accuracy, over usable targets (matter found at the named folio):
+  leaf (front or back of folio N)                      10/12=0.833   13/14=0.929   23/26=0.885   25/27=0.926   34/36=0.944   59/63=0.937   82/89=0.921
+  matter at front                                       5/12=0.417    7/14=0.500   12/26=0.462   11/27=0.407   22/36=0.611   33/63=0.524   45/89=0.506
+  matter at back                                        9/12=0.750    9/14=0.643   18/26=0.692   21/27=0.778   22/36=0.611   43/63=0.683   61/89=0.685
+  matter on next folio recto                            4/12=0.333    2/14=0.143    6/26=0.231    7/27=0.259    9/36=0.250   16/63=0.254   22/89=0.247
+  matter only on back/next (not on front)               6/12=0.500    6/14=0.429   12/26=0.462   14/27=0.519   13/36=0.361   27/63=0.429   39/89=0.438
+  absent                                                1/12=0.083    0/14=0.000    1/26=0.038    2/27=0.074    1/36=0.028    3/63=0.048    4/89=0.045
+
+locator-position check: targets.tsv rows 90 = target_gold rows 90

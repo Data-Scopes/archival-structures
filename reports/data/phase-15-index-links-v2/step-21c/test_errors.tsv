@@ -1,0 +1,119 @@
+read_id	kind	k	line_id	text	gold	predicted
+S29	loc_FN	7	line_02854f54-6890-4f0a-adb1-d038207f02e9	ten, 80, 86.	80	
+S29	loc_FN	7	line_02854f54-6890-4f0a-adb1-d038207f02e9	ten, 80, 86.	86	
+S29	loc_FN	18	line_2ced4940-3ea4-416f-9f76-68a40f624331	centen, 207.	207	
+S29	loc_FN	23	line_4b807da7-bee0-4201-8ef6-e55a0910164e	231, 340, 344, 361, 394, 419. wijck, 262.	231	
+S29	loc_FN	23	line_4b807da7-bee0-4201-8ef6-e55a0910164e	231, 340, 344, 361, 394, 419. wijck, 262.	340	
+S29	loc_FN	23	line_4b807da7-bee0-4201-8ef6-e55a0910164e	231, 340, 344, 361, 394, 419. wijck, 262.	344	
+S29	loc_FN	23	line_4b807da7-bee0-4201-8ef6-e55a0910164e	231, 340, 344, 361, 394, 419. wijck, 262.	361	
+S29	loc_FN	23	line_4b807da7-bee0-4201-8ef6-e55a0910164e	231, 340, 344, 361, 394, 419. wijck, 262.	394	
+S29	loc_FN	23	line_4b807da7-bee0-4201-8ef6-e55a0910164e	231, 340, 344, 361, 394, 419. wijck, 262.	419	
+S29	loc_FN	26	line_623f20ac-2c06-4065-927b-39960f0925dd	menten te peert, 412.	412	
+S29	loc_FN	28	line_7d350a08-4ad3-42ca-9f15-02b62b3fed1d	vande militie, 105.	105	
+S29	loc_FN	30	e9bb4800-da36-4791-86b0-c6130a187604	Compen, 121, 191.	121	
+S29	loc_FN	30	e9bb4800-da36-4791-86b0-c6130a187604	Compen, 121, 191.	191	
+S29	loc_FN	32	line_608a32eb-5e9f-4e17-a57c-e359329e1b99	gimenten, 151.	151	
+S29	loc_FN	33	fd7e3de0-22f9-48d7-9134-f0f49985a6cc	Canonniers & Constapels, 173.	173	
+S29	loc_FN	35	d3b2aa03-3d09-45f3-9c55-cd326be8f290	lerije, 223, 230, 230, 353, 419.	223	
+S29	loc_FN	35	d3b2aa03-3d09-45f3-9c55-cd326be8f290	lerije, 223, 230, 230, 353, 419.	230	
+S29	loc_FN	35	d3b2aa03-3d09-45f3-9c55-cd326be8f290	lerije, 223, 230, 230, 353, 419.	353	
+S29	loc_FN	35	d3b2aa03-3d09-45f3-9c55-cd326be8f290	lerije, 223, 230, 230, 353, 419.	419	
+S29	loc_FN	22	line_981cf919-0dfc-4304-9a37-6a2064cb9fdd	Nieuwe wervinge van militie militie naer Meppel & Steen„	262	
+S29	loc_FP	23	line_4b807da7-bee0-4201-8ef6-e55a0910164e	231, 340, 344, 361, 394, 419. wijck, 262.		262
+S29	attribution	15	f58b078f-cff2-4c32-ab8b-777c2c6d5d6e	Judicature vande militaire Defecten inde militie, 255, 262.	255->['e3d66848-4a94-420a-98af-3b7fe9e8bd28']	255->f58b078f-cff2-4c32-ab8b-777c2c6d5d6e
+S29	attribution	15	f58b078f-cff2-4c32-ab8b-777c2c6d5d6e	Judicature vande militaire Defecten inde militie, 255, 262.	262->['e3d66848-4a94-420a-98af-3b7fe9e8bd28']	262->f58b078f-cff2-4c32-ab8b-777c2c6d5d6e
+S29	attribution	17	e3d66848-4a94-420a-98af-3b7fe9e8bd28	286.	286->['e3d66848-4a94-420a-98af-3b7fe9e8bd28']	286->line_9e4c87f3-75fe-488d-8f92-9f7a79c47487
+S29	attribution	25	acc80239-e7c0-4181-bb66-b4e7162d7e23	soenen, 272, 440.	272->['acc80239-e7c0-4181-bb66-b4e7162d7e23']	272->b43e9c6c-9ca7-454a-ac7c-3207647bcf9c
+S29	attribution	25	acc80239-e7c0-4181-bb66-b4e7162d7e23	soenen, 272, 440.	440->['acc80239-e7c0-4181-bb66-b4e7162d7e23']	440->b43e9c6c-9ca7-454a-ac7c-3207647bcf9c
+S30	loc_FN	24	line_94a00a97-60eb-4cca-a57e-496a56728b0a	Jacob Jansz Schinck, 325.	325	
+S30	loc_FN	25	b73857e1-7a8a-4638-b463-e8b5c03184c7	Jan Smeets, 332, 407.	332	
+S30	loc_FN	25	b73857e1-7a8a-4638-b463-e8b5c03184c7	Jan Smeets, 332, 407.	407	
+S30	loc_FN	26	line_6ee2a384-260d-42f8-a8d0-843f7f0d634d	Johan Sellebij, 427, 381	427	
+S30	loc_FN	26	line_6ee2a384-260d-42f8-a8d0-843f7f0d634d	Johan Sellebij, 427, 381	381	
+S30	loc_FP	32	ed9fa547-3636-48c9-9412-2c953a59411e	491: 4		4
+S30	attribution	8	line_07bea9e1-0e19-4c60-bff8-c349cc126292	over langer Sant, 333.	333->['line_847ffeb4-0546-4b48-87d2-3c488bbbff94']	333->line_07bea9e1-0e19-4c60-bff8-c349cc126292
+S30	attribution	22	line_6742975c-67c7-4e70-bc35-0994c95d0873	borgh, 599.	599->['line_6742975c-67c7-4e70-bc35-0994c95d0873']	599->line_47c3dd2c-63ff-4f7e-afbc-7c3cae4ca7cd
+S31	loc_FN	7	line_56b71130-896a-424e-9dbc-eeb72f37ed1f	De Plaa 627.	627	
+S31	attribution	14	line_03f17b5d-0a75-43ff-9078-c95f1173d015	magasijnen 160.	160->['line_8b2bed39-355b-4708-b7a9-f8f2d2c26d33']	160->line_8be90a14-de8c-4ac7-afb7-ee59de5e03a1
+S32	attribution	5	ff1c78d1-d831-461f-b8d4-04359d6659da	Batholomeus Janssen, 6.	6->['ff1c78d1-d831-461f-b8d4-04359d6659da']	6->a9c8ab99-ef63-4490-bf2d-818eebd1dec3
+S33	loc_FN	24	line_1650876c-e59a-42c6-968a-8b00312aa0e7	„land 577.	577	
+S33	loc_FN	26	line_3a5c1218-ec96-4236-a505-f9bc46e85000	Sauvegarde voor Ravesteijn 692.	692	
+S33	loc_FN	31	line_09839fd2-f156-4f50-9c44-f9fca0e0c748	744.	744	
+S33	loc_FN	34	line_3902e371-e0c0-4d61-af95-abb4406bfe94	„teerd, 748.	748	
+S33	loc_FN	36	line_4140e97f-99f0-48ae-93f0-cdecefb24aac	reglement 744.	744	
+S33	attribution	59	line_6be35644-b57f-4cce-9c4a-451767e00da9	lasten 21.	21->['line_4ecefd1d-c0b6-4cf1-aad9-58f6c44483f9']	21->line_3e21e0b2-fa1b-48a6-bad7-788dfa31dd2f
+S34	loc_FN	23	line_4a56161a-abb6-4adb-8270-059d86b1c88b	met koorn, 588, 1780.	1780	
+S34	loc_FN	25	line_16b7e103-ea60-4056-930e-3e0530eb4eff	declaratie 484.	484	
+S34	loc_FN	42	line_8bfd669a-a213-4f55-b7ce-57576c23f042	Oostre 786.	786	
+S34	loc_FN	46	line_0fede9a4-6c0d-464a-9f8b-cdb816eaf7e2	butien. 15.	15	
+S34	attribution	27	line_9a8117df-aedb-44c2-856c-45ce569d3afa	Bochepied 236, 267, 268.	236->['line_9a8117df-aedb-44c2-856c-45ce569d3afa']	236->line_9d807f48-d62f-4e4a-8ed1-98bf1a071ba5
+S34	attribution	27	line_9a8117df-aedb-44c2-856c-45ce569d3afa	Bochepied 236, 267, 268.	267->['line_9a8117df-aedb-44c2-856c-45ce569d3afa']	267->line_9d807f48-d62f-4e4a-8ed1-98bf1a071ba5
+S34	attribution	27	line_9a8117df-aedb-44c2-856c-45ce569d3afa	Bochepied 236, 267, 268.	268->['line_9a8117df-aedb-44c2-856c-45ce569d3afa']	268->line_9d807f48-d62f-4e4a-8ed1-98bf1a071ba5
+S34	attribution	28	c74557a6-ac91-4d0f-b737-22dad4955965	269, 411, 449, 840.	269->['line_9a8117df-aedb-44c2-856c-45ce569d3afa']	269->line_9d807f48-d62f-4e4a-8ed1-98bf1a071ba5
+S34	attribution	28	c74557a6-ac91-4d0f-b737-22dad4955965	269, 411, 449, 840.	411->['line_9a8117df-aedb-44c2-856c-45ce569d3afa']	411->line_9d807f48-d62f-4e4a-8ed1-98bf1a071ba5
+S34	attribution	28	c74557a6-ac91-4d0f-b737-22dad4955965	269, 411, 449, 840.	449->['line_9a8117df-aedb-44c2-856c-45ce569d3afa']	449->line_9d807f48-d62f-4e4a-8ed1-98bf1a071ba5
+S34	attribution	28	c74557a6-ac91-4d0f-b737-22dad4955965	269, 411, 449, 840.	840->['line_9a8117df-aedb-44c2-856c-45ce569d3afa']	840->line_9d807f48-d62f-4e4a-8ed1-98bf1a071ba5
+S35	loc_FN	5	line_83741cba-0323-4b3f-8f16-36ee652f5970	van Vriesland 442.	442	
+S35	loc_FN	14	c60a0fcb-c728-44e2-a986-a5e6fa8cd58a	van Utregt 373.	373	
+S35	loc_FN	15	line_1cd0524a-84c5-4f34-bbf5-2ca966687a3c	van Holland 377.	377	
+S35	loc_FN	16	line_86384300-8a57-46f3-aa59-51cc1d88641c	van Overijssel 387.	387	
+S35	loc_FN	20	line_3e492d43-3a1e-4aff-9dab-d63ccf5bbc6c	van Utregt 424, 612.	424	
+S35	loc_FN	20	line_3e492d43-3a1e-4aff-9dab-d63ccf5bbc6c	van Utregt 424, 612.	612	
+S35	loc_FN	21	line_382012f1-b191-4c37-9050-b5a86532c026	van Vriesland 443.	443	
+S35	loc_FN	23	b9c5967e-53fc-4290-aa21-c3270011b1bc	van Staden Landen 491.	491	
+S35	loc_FN	28	e042e9f2-cca4-4623-aa3e-1ffb39044e47	van Utregt, 613.	613	
+S35	loc_FN	29	b60a5bb2-e886-4388-aac8-04f1eccaefba	van Holland 717, 822.	717	
+S35	loc_FN	29	b60a5bb2-e886-4388-aac8-04f1eccaefba	van Holland 717, 822.	822	
+S35	loc_FN	30	line_47c22fb8-e1d9-46b7-a796-944ea10df7c7	van Holland 849.	849	
+S35	loc_FN	34	a4cd8c8e-843a-42a8-8dcc-4fff9587d707	van Holland 877.	877	
+S35	loc_FN	36	line_3f5e2cf6-72e6-4159-9c30-39bd5a82a43b	van Ovijssel 387.	387	
+S35	loc_FN	46	line_2c28de20-7381-47db-9c0c-1dfce1bbd63b	197, 321.	197	
+S35	loc_FN	46	line_2c28de20-7381-47db-9c0c-1dfce1bbd63b	197, 321.	321	
+S35	loc_FN	47	line_2f199e21-4b58-4b8b-a8ea-732e1ca7e871	opgebragte Tripolinen 197.	197	
+S35	loc_FN	48	cd9944a5-bd06-4414-9083-13753d33d4cd	321.	321	
+S35	loc_FN	49	a9c69118-02c1-421a-99b8-8e6d819b91d4	opgebragt schip 524, 882.	524	
+S35	loc_FN	49	a9c69118-02c1-421a-99b8-8e6d819b91d4	opgebragt schip 524, 882.	882	
+S35	loc_FN	52	line_0bc6a27d-00c9-440a-ab34-39f0f6e0da0b	„trent den Moesel 808.	808	
+S35	attribution	8	bfebddbc-fc47-445d-85c9-9a7513454fcb	340.	340->['bfebddbc-fc47-445d-85c9-9a7513454fcb']	340->line_2feba8e8-2e43-4cd4-a97a-fdc3682a7afc
+S35	attribution	26	line_445e4f0d-c85d-4f69-ba2a-8670344a1ca8	inde petitie van 15009. laken 232, 321.	232->['line_71ce34ad-7c4b-4250-a5bc-1674041bde51']	232->line_445e4f0d-c85d-4f69-ba2a-8670344a1ca8
+S35	attribution	26	line_445e4f0d-c85d-4f69-ba2a-8670344a1ca8	inde petitie van 15009. laken 232, 321.	321->['line_71ce34ad-7c4b-4250-a5bc-1674041bde51']	321->line_445e4f0d-c85d-4f69-ba2a-8670344a1ca8
+S36	loc_FN	2	a53ea74a-355d-4f35-8ebf-11b628975ba4	75.	75	
+S36	loc_FN	12	d2b9285d-87f7-4ad5-beb0-422db0d4705d	Adeij 243.	243	
+S36	loc_FN	20	bb05ac41-507c-4c9a-a9e1-797cbfe337a5	demtie 299.	299	
+S36	loc_FN	36	c9e5923a-222c-4423-adf8-09e42c007202	1443.	1443	
+S36	loc_FP	1	edc8ebcd-d1e6-4f4c-8428-70ec8afdb7c9	vande Scheepvaart riname 332.		332
+S36	attribution	11	fd434380-8d79-43f0-a719-5eb8fd52453e	binnen Maastricht 172, 426.	172->['line_892fa7e2-3045-4355-a34f-0d2c705c04d8']	172->f1f57e07-7378-4506-84cc-15dcefd2821d
+S36	attribution	11	fd434380-8d79-43f0-a719-5eb8fd52453e	binnen Maastricht 172, 426.	426->['line_892fa7e2-3045-4355-a34f-0d2c705c04d8']	426->f1f57e07-7378-4506-84cc-15dcefd2821d
+S36	attribution	19	d1e0f5ae-e2d5-4c38-ab44-9c2cef1dcf36	rijk 175.	175->['line_45de21b9-27da-43d0-a041-e5c45419572e']	175->befc95fa-41f1-4910-8a19-5cb832e1c98a
+S37	attribution	35	line_210f726f-6f02-4b76-bb68-a46ea569e7e0	Rievier de Roer gelegen. 425	425->['line_5cee2e79-60e3-4775-a4e0-8bc8baf48ab3']	425->line_210f726f-6f02-4b76-bb68-a46ea569e7e0
+S37	attribution	36	c13404dc-d1ca-4d66-bfa6-8085c0ec138f	en Genever voor 't Guarnisoen, 302.	302->['c96b6125-4072-4eeb-beee-dd58b8565372']	302->c13404dc-d1ca-4d66-bfa6-8085c0ec138f
+S37	attribution	40	line_9faf6e05-5f50-4a13-8159-cea1465e92e6	pardon wegens een Manslag 310.	310->['line_574e471b-efb3-4ea1-b721-a8ffb6a15594']	310->line_9faf6e05-5f50-4a13-8159-cea1465e92e6
+S37	attribution	42	line_717f13e4-980c-4117-ab26-587f0c8ba264	466.	466->['ae22d31b-ed35-4b0c-9b5c-97a5c3467727']	466->line_1333f4fb-89cd-4c02-a86b-0d4c64504c5f
+S37	attribution	46	e1d9fda5-21cd-4851-8758-6375360308ed	desertie, 316.	316->['line_276b3548-4ef5-4504-9715-55afddce7930']	316->e1d9fda5-21cd-4851-8758-6375360308ed
+S38	loc_FP	4	de7f9788-e9e9-4894-8375-2b8b43249c30	2. Kisten met Schilderijen, op Memo„		2
+S38	attribution	5	line_2618c6a5-cc15-484c-8aa5-23fe6241c677	rie van den Heere Mann: 498.	498->['e4041062-ab04-4c16-9a7d-62d39f16bc2c']	498->de7f9788-e9e9-4894-8375-2b8b43249c30
+S38	attribution	25	fb30ad25-0cd0-4397-a7fa-877e915df3d0	. J. Fleutrez, 394.	394->['fb30ad25-0cd0-4397-a7fa-877e915df3d0']	394->line_7650cd92-a8d4-487f-aa76-c07232de6cff
+S39	loc_FN	27	line_47d7b658-1d54-49df-9258-895937b05596	Maastricht 494.	494	
+S39	loc_FN	19	line_21a19041-65ae-4e11-bbff-2bb100ff6cae	den Agent van Bijemont, compe. Reqte. van Mr: C: L: van Beeresteijn	350	
+S39	loc_FN	19	line_21a19041-65ae-4e11-bbff-2bb100ff6cae	den Agent van Bijemont, compe. Reqte. van Mr: C: L: van Beeresteijn	459	
+S39	loc_FN	19	line_21a19041-65ae-4e11-bbff-2bb100ff6cae	den Agent van Bijemont, compe. Reqte. van Mr: C: L: van Beeresteijn	490	
+S39	loc_FP	20	line_20649baa-e1b5-44df-af63-0d868e6d0729	van felicitatie afgelegt bij Kau„ 350, 459, 490.		350
+S39	loc_FP	20	line_20649baa-e1b5-44df-af63-0d868e6d0729	van felicitatie afgelegt bij Kau„ 350, 459, 490.		459
+S39	loc_FP	20	line_20649baa-e1b5-44df-af63-0d868e6d0729	van felicitatie afgelegt bij Kau„ 350, 459, 490.		490
+S39	attribution	2	line_574a4999-1086-4ad5-a2f7-768ee1a2b15f	gen in d'Adm:. te Amstr. 401.	401->['line_602b0208-2c8b-4f54-a783-865a357e3b09']	401->line_574a4999-1086-4ad5-a2f7-768ee1a2b15f
+S39	attribution	6	f6e67799-083d-4726-baa5-19714de3a24c	Overijssel in d'Admt. in Vriesl: 464. Reqte. van Hugo Bakker, 174.	464->['line_5b49f731-de6c-431c-b501-1398d54cd6b1']	464->f6e67799-083d-4726-baa5-19714de3a24c
+S39	attribution	23	e60a7b9c-dac6-48b9-a37d-2390553c2763	wegens Vriesland 385.	385->['e60a7b9c-dac6-48b9-a37d-2390553c2763']	385->line_74152a72-3aca-40aa-abe3-c5d50875f065
+S40	loc_FN	7	line_707072cd-1442-46b7-9120-97b2523070f9	Bod. 459	459	
+S40	attribution	4	line_5c4b5c58-0f57-438b-92ad-8223d11be06f	van Stukken, 633.	633->['line_6ebc1478-ace7-449f-a8c8-ca3e43dd95f6']	633->line_5c4b5c58-0f57-438b-92ad-8223d11be06f
+S41	loc_FN	2	line_24ec6301-9caf-4852-81be-b3975586fc39	Zeeland. 1182.	1182	
+S41	loc_FN	20	ae76ac0e-e904-4fbb-9669-098feb4e9c9b	van de Paltz. 19. memorie	19	
+S41	attribution	22	line_3e7ef33a-f9fe-4bcb-8e57-20c2c43808d6	Origineele, Obligatie 343.	343->['ae76ac0e-e904-4fbb-9669-098feb4e9c9b']	343->line_9eff0709-7b3b-4e39-836a-a172b9ec4f06
+S41	attribution	26	line_3762f724-35a8-4e38-b446-781ef2ef47da	li0. 439.	439->['b8332245-e2dc-44a1-a004-ee8d5abee683']	439->line_59143d10-832b-442f-93d7-947dda022351
+S42	loc_FP	32	b0a3e8ca-9e9e-44e8-84e4-e73a49c9a665	burg en de Geep 99: Cumss, ome		99
+S42	attribution	16	bcce12fe-a311-4b2d-81fa-cecb59ed837c	Rapport. 249. Resol: 637.	249->['line_2bb58cd4-3ac4-4144-aa5e-ea5c2b7909e2']	249->bcce12fe-a311-4b2d-81fa-cecb59ed837c
+S42	attribution	16	bcce12fe-a311-4b2d-81fa-cecb59ed837c	Rapport. 249. Resol: 637.	637->['line_2bb58cd4-3ac4-4144-aa5e-ea5c2b7909e2']	637->bcce12fe-a311-4b2d-81fa-cecb59ed837c
+S42	attribution	18	adbb6f6c-bcba-4db0-985e-d36af651f6e9	gem: Resol: 787:	787->['line_2bb58cd4-3ac4-4144-aa5e-ea5c2b7909e2']	787->eec6daae-0800-40e0-9a37-da4aec96f53b
+S42	attribution	23	line_679c2f6a-65e9-4d18-8e3d-d028e6ee97db	568.	568->['line_0f468971-f7b5-42ea-8d92-b1eedb6a115f']	568->b5bf63d8-2e18-4716-8a4c-99d4bf0cba49
+S42	attribution	39	line_439b3076-0a26-4e8b-ad9e-5806bb0853e0	den Oostmaer. 497.	497->['line_21e8ef17-22de-4836-9e3b-6ac109360d53']	497->line_6bd32fbf-1d3d-4124-af99-f49a3ce9abc9
+S42	attribution	50	line_9a43a2f6-704c-48fa-9b94-35c7bee16bb5	benoorden St. Cielers desz. 136. Advi	136->['c5764bbd-03ab-4ee2-ac6b-7a7664b3b235']	136->line_9535088b-d939-4312-842d-b2a6a3844754
+S42	attribution	51	line_4836b8b3-a1b1-43b9-9466-97018c72c939	Avstaten en Resol: daarop. 509	509->['c5764bbd-03ab-4ee2-ac6b-7a7664b3b235']	509->line_9535088b-d939-4312-842d-b2a6a3844754

@@ -1,0 +1,59 @@
+== 1. chain ends of the 7 changed volumes (number@scan position)
+3126 (369 scans, chain_cut=True, dup_dropped=8)
+   v1 last 4: 352@361 353@362 356@365 1591@366
+   v2 last 4: 350@359 352@361 353@362 356@365
+   dropped by v2 (in v1 chain): 1591@366
+   scan numbers after v2 end: 365:356 366:1591 367:. 368:. 369:.
+3265 (873 scans, chain_cut=True, dup_dropped=5)
+   v1 last 4: 819@866 820@867 822@869 1659@870
+   v2 last 4: 818@865 819@866 820@867 822@869
+   dropped by v2 (in v1 chain): 1659@870
+   scan numbers after v2 end: 869:822 870:1659 871:. 872:. 873:.
+3290 (766 scans, chain_cut=True, dup_dropped=2)
+   v1 last 4: 689@753 695@759 696@760 1674@762
+   v2 last 4: 688@752 689@753 695@759 696@760
+   dropped by v2 (in v1 chain): 1674@762
+   scan numbers after v2 end: 760:696 761:. 762:1674 763:99 764:. 765:. 766:.
+3307 (681 scans, chain_cut=True, dup_dropped=0)
+   v1 last 4: 640@675 641@676 642@677 1683@678
+   v2 last 4: 639@674 640@675 641@676 642@677
+   dropped by v2 (in v1 chain): 1683@678
+   scan numbers after v2 end: 677:642 678:1683 679:. 680:. 681:.
+3320 (1031 scans, chain_cut=True, dup_dropped=0)
+   v1 last 4: 985@1025 986@1026 987@1027 1689@1028
+   v2 last 4: 984@1024 985@1025 986@1026 987@1027
+   dropped by v2 (in v1 chain): 1689@1028
+   scan numbers after v2 end: 1027:987 1028:1689 1029:. 1030:. 1031:.
+3471 (517 scans, chain_cut=True, dup_dropped=1)
+   v1 last 4: 455@510 456@511 457@512 485@515
+   v2 last 4: 454@509 455@510 456@511 457@512
+   dropped by v2 (in v1 chain): 485@515
+   scan numbers after v2 end: 512:457 513:. 514:. 515:485 516:. 517:.
+3522 (605 scans, chain_cut=True, dup_dropped=2)
+   v1 last 4: 548@598 549@599 550@600 3522@601
+   v2 last 4: 547@597 548@598 549@599 550@600
+   dropped by v2 (in v1 chain): 3522@601
+   scan numbers after v2 end: 600:550 601:3522 602:. 603:. 604:. 605:.
+
+== 2. G3 high -> medium/low links, seed 21
+candidates: 507 links (v1 high -> v2 medium/low, interpolated)
+3265 link on 0015 number 528: v2 low (dist 1.363636363636374, pos 577); bracket 520@573 .. 531@578 dn=11 dpos=5
+   printed numbers between: 573:520 574:5 575:. 576:. 577:. 578:531
+3280 link on 0021 number 334: v2 medium (dist 0.25, pos 381); bracket 331@380 .. 335@381 dn=4 dpos=1
+   printed numbers between: 380:331 381:335
+3401 link on 0008 number 85: v2 medium (dist 0.4000000000000057, pos 118); bracket 83@118 .. 88@119 dn=5 dpos=1
+   printed numbers between: 118:83 119:88
+3290 link on 0031 number 140: v2 medium (dist 0.3333333333333428, pos 207); bracket 135@205 .. 141@207 dn=6 dpos=2
+   printed numbers between: 205:135 206:. 207:141
+3265 link on 0030 number 394: v2 medium (dist 3.3333333333333144, pos 440); bracket 391@437 .. 400@447 dn=9 dpos=10
+   printed numbers between: 437:391 438:. 439:395 440:39 441:395 442:. 443:. 444:. 445:. 446:. 447:400
+3283 link on 0024 number 2: v2 low (dist 0.10000000000000142, pos 54); bracket 1@54 .. 11@55 dn=10 dpos=1
+   printed numbers between: 54:1 55:11
+3611 link on 0033 number 16: v2 low (dist 0.1428571428571388, pos 78); bracket 10@77 .. 17@78 dn=7 dpos=1
+   printed numbers between: 77:10 78:17
+3265 link on 0023 number 523: v2 low (dist 1.363636363636374, pos 574); bracket 520@573 .. 531@578 dn=11 dpos=5
+   printed numbers between: 573:520 574:5 575:. 576:. 577:. 578:531
+3712 link on 0006 number 623: v2 low (dist 1.2777777777777715, pos 440); bracket 622@439 .. 640@462 dn=18 dpos=23
+   printed numbers between: 439:622 440:623 441:. 442:592 443:1592 444:625 445:627 446:628 447:627 448:628 449:629 450:. 451:630 452:. 453:631 454:1588 455:632 456:1589 457:633 458:637 459:638 460:639 461:1580 462:640
+3611 link on 0022 number 12: v2 low (dist 0.2857142857142918, pos 77); bracket 10@77 .. 17@78 dn=7 dpos=1
+   printed numbers between: 77:10 78:17

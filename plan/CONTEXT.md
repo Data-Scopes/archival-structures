@@ -4,9 +4,9 @@
 > Implementation sessions do not read it: a brief copies in the facts it needs from here. Each phase
 > review updates it, so briefs start from the code as it is, not as it was planned. Keep it under
 > ~150 lines. History belongs in the phase `PROGRESS.md` files.
-> **Last updated:** 2026-10-29, review of phase 14 (Opus); trimmed to budget.
+> **Last updated:** 2026-10-30, review of phase 15 (Opus); trimmed to budget.
 
-## 1. Text layer v2–v5 and index links: what exists now (after phase 14)
+## 1. Text layer v2–v5 and index links: what exists now (after phase 15)
 
 - **CLI:** `.venv/bin/as-build-text-layer --preset <key> --pagexml-dir D --out-dir O --stage all` (extract → layout →
   types → units → wbc → join; each stage alone too; `--*-params` JSON merged over the preset). 1.10.94 needs
@@ -37,18 +37,17 @@
   gone; nested regions parse; a region without Coords or lines is still dropped. Manifests built before 20r record
   archival-structures 0.14.1 (stale `.venv` metadata, F14-R.7; `git_head` is right); `poetry.lock` is stale (phase-01
   precondition). `analysis/hand_print.py`: box-height API; caches `data/hand_print_geom/15q-a/`, `15u-a/` (protected).
-- **Index links (phase 14):** `analysis/folio_map.py` (`build_folio_map(scan_ids, sides, numbers, *, exclude, params)` →
-  `FolioMap` (`mode` foliation/pagination/none; `locate(N)` → `FolioTarget(number, front, back, position, method,
-  anchor_dist, confidence)`; `table()`)); `analysis/index_links.py` (`front_index_run`, `read_volume_inputs` from a v5
-  layer, `extract_locators` L1–L4 with `SG_LOCATOR_PARAMS`, `DEFAULT_LOCATOR_VARIANT = "L2"`, `volume_links`); builder
-  `scripts/build_index_links.py` (resumable; 20r adds failed-volume records and `progress.log`); schema
-  `docs/index_links.md`. Layer `NL-HaNA_1.01.02_index_links_v1`: dev build `data/index_links_dev/20e-a/` (41 volumes,
-  101,282 links); full run (UA-052) on the drive, its `volumes.tsv`/`manifest.json` in `data/index_links_full/` (412
-  front-index volumes of 8,856, 629,912 entries, 902,031 links); **not published** (UA-053 a). The 20c gold
-  (`step-20c/entry_gold.tsv`) is **spent** for map and locator variants (user-checked: F14-20c.8); 29 of the 41 local
-  front-index volumes are untouched by any gold, and 371 front-index volumes are outside the local dev layer. REPUBLIC via `data/republic_segmentation_v1`.
+- **Index links (phases 14–15):** `analysis/folio_map.py` (`build_folio_map(…, params)` → `FolioMap.locate(N)` →
+  `FolioTarget(…, confidence, opening)`; `FOLIO_MAP_V2` = G1 jump cut, G2 tied numbers, G3 bracket confidence, G4
+  opening; default params = v1); `analysis/index_links.py` (`front_index_run`, `read_volume_inputs`, `extract_locators`
+  L1–L7 in `SG_LOCATOR_PARAMS`, `volume_links` (v1); `read_side_lines`, `side_reading_order`, `assemble_entries` A1–A3,
+  `entry_locators`; `volume_links_v2` + `V2_CONFIG` = A0 + L7 + `FOLIO_MAP_V2`); builder `scripts/build_index_links.py
+  --version {v1,v2}`; `docs/index_links.md`. v1: dev `data/index_links_dev/20r-a/`, full run `data/index_links_full/`
+  (412 volumes, 902,031 links); v2: dev `21d-a/` (41 volumes), full run UA-056. Neither published (UA-053 a, UA-057).
+  **Spent gold:** 20c, and 21a's side-level gold of 29 volumes; untouched: the 371 drive-only front-index volumes.
+  REPUBLIC via `data/republic_segmentation_v1`.
 
-## 2. Accepted deviations (phases 07, 09, 12–14): later briefs must assume these
+## 2. Accepted deviations (phases 07, 09, 12–15): later briefs must assume these
 
 **Layout:** merges and column-split pieces sort by printed row (`line_sort="row"`), print `unchanged` regions too; **hand
 keeps XML order**, so two-column hand regions interleave (F09-15j.4). Gutter rule `auto` (D6). Hand runs without region
@@ -70,11 +69,10 @@ drop-cap rule in all 85 (merges some *nouvelles* parts, F12-R.13, F12-15x.3).
 - Detector false positives accepted: rosters, accounts, letters re-cut at entry cues (54 known sides, 0.18% of hand units,
   no text lost; F13-R.13). Missed: one-column and garbled indexes (F13-19c.5), `marginalia`-typed entry starts (F13-R.12).
 
-**Index links (phase 14):** bar F failed (33/35), bar L failed on precision (L2 61/66), bar E passed (33/35); v1 ships
-as built. L2 is the default (dev tie rule); L3 is not adopted (its test numbers come from a mistaken run, F14-R.2). An
-entry is a `main_text` unit on a front-index side, so first-line fragments carry no locator (about 1 in 9 entries). The
-map is a leaf model (recto of S + verso of S+1); 3712 (dated index, verso years) maps as `pagination`; 6 volumes end
-their chain on a year-like anchor and link years `high` (F14-R.3). 20c's test gold = 40 read + 8 reserves (F14-R.1).
+**Index links (phases 14–15):** phase 14 F 33/35, L P 61/66 (failed), E 33/35. Phase 15 on fresh gold: F 62/63 (v1
+the same, F15-R.4), L P 0.981; L R 0.856, A 0.892, E 0.825 failed, no better than v1 (entries are still v1's
+`main_text` units). A1–A3 not selected: heading attachment costs more than they gain (F15-21c.1/.7). Embedded entries
+are gold-neutral for links (F15-R.2). 3712 maps as `pagination`; L7 drops its out-of-chain locators.
 
 ## 3. Data facts that shape SG work
 
@@ -89,7 +87,8 @@ their chain on a year-like anchor and link years `high` (F14-R.3). 20c's test go
   styles (F13-19a.3): page-reference indexes and dated summary indexes under a lemma/respect term. Lemma headings are
   typed `marginalia` (F13-R.5). Inventory GT `ground_truth/NL-HaNA_1.01.02/inventory_metadata-…json`: `index_page` in 485
   of 674 inventories; GT page ↔ scan: verso 2·scan − 2, recto 2·scan − 1.
-- **Front indexes (phase 14).** 41 of 125 local hand volumes have one (P3 rule). The resolutions after it are foliated
+- **Front indexes (phases 14–15).** 41 of 125 local hand volumes have one (P3 rule); all 29 sides read in 21a are
+  two-column, 3.4% of lines merge both columns; the index is right for 82 of 89 fresh targets (F15-21a.4). The resolutions after it are foliated
   on rectos (21,432 of 21,437 anchors); numbering restarts after the index (offset +16 to +84 scans). The index is right
   for 50 of 52 gold targets; the matter is on folio N's verso more often than its recto (25 vs 16); printed numbers are
   garbled or missing for about a quarter of folios and drift 1–5 scans. Silver per link: entry word on the target 0.707
@@ -101,15 +100,14 @@ their chain on a year-like anchor and link years `high` (F14-R.3). 20c's test go
 
 ## 4. Open follow-ups for the next phase
 
-**From phase 14** (report *Follow-ups*): 20r, the user check (UA-050), the full run (UA-052) are done; v1 is not
-published (UA-053). An **index-links v2** phase, every rule with a pre-registered bar on fresh gold drawn from the 29
-untouched local front-index volumes (and the 371 on the drive only): map v2 (drop anchors above the scan count and
-verso years, 22 of 412 full-layer volumes by estimate; duplicate-number tie rule; a confidence that sees the number gap;
-F14-R.3, F14-20d.3/.4, F14-20e.10); locator v2 (P9's punctuation-ended sub-entries, left word boundaries for
-`amount_before` and glued digits, which the user check of `Cunes94` supports, dated-index handling; F14-R.2, F14-R.5,
-F14-20c.8); indexes citing folios outside the chain (3681, 3601; F14-20e.9); entry assembly (first-line fragments,
-column-merged units; F14-20c.1/.7); an `opening` target (F14-R.4). Out of P1 scope: separate index volumes (EAD volume
-map), dated summary indexes, unit-level targets.
+**Status 2026-10-30:** phase 15 done and reviewed. Next: phase 16, VOC (1.04.02), what generalises (staging UA-054
+answered (a)). Other candidate archives named by the user: 2.10.01, 2.10.50 (4 inventories local).
+
+**From phase 15** (report *Follow-ups*): UA-055 (user check), UA-056 (v2 full run), UA-057 (publication, recommended
+no). An index-links v3, each item with a bar on new gold (drive-only volumes or 29 more local sides): entry assembly as
+v1 units plus the side's `marginalia` lines (53 of 67 test locator misses, F15-21c.6) or A1 with a heading rule needing a
+trailing `.` and a following number-ended entry (F15-21c.7, F15-R.5); HTR-split folio numbers (F15-R.3); still open
+from phase 14: 3681/3601, dated indexes, separate index volumes.
 
 **From phase 13:** rule work, each with its own bar on fresh reads: a detector false-positive guard (roster end pairs,
 amount-shaped line ends, isolated flagged sides; F13-R.13); column order v3 (row pairing, split x from the overlap
@@ -148,6 +146,9 @@ REPUBLIC crosswalk from `republic_segmentation_v1` paragraph line ids (455/456).
 - **A brief that operationalises a plan decision** must match its text (P9 said `N[.,:;]` then a capital; the brief also
   took a bare space, F14-R.2), and a brief header must not assume an earlier bar passed.
 - **New scripts under `scripts/`** need a `!/scripts/<name>` line in `.gitignore` (F14-R.6).
+- **Side-level gold** says where text without a line of its own goes (F15-R.2); a mid-step draw covers only the
+  split already read; page-number tools also see line-end numbers. **Parallel Sonnet steps** (phase 15): Edit only your
+  own `STATUS.md` row; wait on a sentinel file, not a STATUS phrase; gold sessions are told which dirs not to open.
 - **An error category that names a layout cause is checked against the layout tables** (F13-R.1). **When rules move to
   a new series, read every stage's output that can fail there** (F12-R.7). **Selected volumes are not a sample**
   (F12-R.5). "Reported only" and a pass/fail count in one brief contradict each other.

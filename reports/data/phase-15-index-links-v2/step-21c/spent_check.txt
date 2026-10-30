@@ -1,0 +1,21 @@
+selection A0 L7; 3956 predicted entries on front-index sides
+[1] 3611 0042 recto lines=4 locators=[919]
+    Reqte van Directeuren van de Haagsche Renies en Natuur, „kendige correspondentie, societeit; Haarlyksche toeleg. 919.
+[2] 3590 0012 recto lines=4 locators=[940]
+    Missr. van den Koning van Vrankrijk, Notificatie Huwelijk van den Grave van Artois, 940. Rappt.
+[3] 3611 0017 verso lines=3 locators=[653]
+    den Heer van Muyden wegens overyssel in de Admiraliteit van Vriesland. 653.
+[4] 3590 0039 recto lines=1 locators=[]
+    Consul Guerin.
+[5] 3590 0010 recto lines=1 locators=[267]
+    267. Misss. van Hertell,
+[6] 3611 0039 recto lines=1 locators=[777]
+    Hoogen Zee Krygsraad. 777.
+[7] 3611 0034 verso lines=1 locators=[281]
+    Reqt. van' henst. van Manselis, 281.
+[8] 3611 0037 recto lines=3 locators=[624, 627, 92]
+    Utsr. van Vriesland, 624. Groningen U112 627. Accessie tot de NeutraReqte. van H. Nizet, 92.
+[9] 3611 0007 verso lines=2 locators=[1, 516]
+    Miss. van 't Collegie, Turfschs pasport voor 1. Schlp de Thomak. 516.
+[10] 3590 0010 verso lines=1 locators=[716]
+    Fiscaal van Seeland, 716.

@@ -1,0 +1,100 @@
+=== 1. inv 3280 0035 verso NL-HaNA_1.01.02_3280_0035-text_region-1304-2046-816-171 line d83752ab-fd07-4b2b-89d5-81348670208b N=334 -> interpolated/medium dist 0.25
+ENTRY: Wm. Spitsweck, 334.
+  front 0381 recto: houden, ende tegens hem te proce„ / 335 / 13. November. / deren volgens de Instructien van
+  back 0382 verso: lestleden aen hare Ho:Mo: gepre„ / senteert, ende daervan rapport te / doen. / Opde Requeste van Burgermeester
+  opening 0381 verso: laten Goederen over ende weder aen„ / den anderen gemaeckt: Ende dat hun / daer van Octroij verleent moge werden, / om in voegen voorschreve te mogen dis„
+=== 2. inv 3438 0009 recto NL-HaNA_1.01.02_3438_0009-text_region-3181-1436-868-422 line line_7cbd0432-eea7-4fdf-8949-02c82b894cc8 N=354 -> printed/high dist 0.0
+ENTRY: Advis vanden drossaard d'Averhoult en resolutie conform. 354.
+  front 0397 recto: sijnde, nader daer op / 354. / gedisponeert te werden. / rapport
+  back 0398 verso: d'Averhoult / Ontfangen een missive van d'Averhoult, / Drossaert der Stad en Baronnije van / Breda geschreven aldaer den 20. deser lopude
+  opening 0397 verso: ende andere haer Hoog Mog: Gedepen / Rasport / tot de saken vande Westindische Compe. / hebbende, ingevolge ende tot voldoeninge
+=== 3. inv 3283 0006 verso NL-HaNA_1.01.02_3283_0006-text_region-1455-2216-777-124 line dd5c84a9-03fa-4f4f-b880-e3e00c5a77bb N=593 -> interpolated/high dist 2.0
+ENTRY: Secretaris, 478, 593.
+  front 0620 recto: Landen door de Oostendische / 16. Meij. / Waerop 597 / 3
+  back 0621 verso: Schimmelpenningh ende andere hare / Officieren op de Vloote / Ho:Mo: Gedeputeerden tot de saecken / vande Zee, achtervolgens derselver
+  opening 0620 verso: tot Rotterdam, vervangende de / verdere handelaers in Kriecken / relatijff tot hare voorgaende breeder / gementionneert in de Notulen vanden
+=== 4. inv 3421 0059 verso NL-HaNA_1.01.02_3421_0059-text_region-1748-2167-1036-315 line c5995f57-87b8-4c49-b6df-a647a1af7755 N=432 -> printed/high dist 0.0
+ENTRY: Boeje inde Admiraliteijt, in het Noorderquartier 432.
+  front 0493 recto: 1. Meij. / ende het ararium tot Eden, / 432. / ende ordres aende Comman„
+  back 0494 verso: haer aengenaem was, is deselve verwelkomt / ende heeft dienvolgende sessie genomen. / Holland / Is ter vergaderinge gelesen sekere Commiss„
+  opening 0493 verso: van Goslinga, Vegilin, / van Welevelt, van Steenbergen, / Tamminga. / De resolutien gisteren genomen sijn geles
+=== 5. inv 3630 0018 verso NL-HaNA_1.01.02_3630_0018-text_region-249-472-2455-446 line line_3a982f52-8b3d-4aaf-a766-ad97e73bbab8 N=62 -> printed/high dist 0.0
+ENTRY: Reqte. F: van Heusden, Secrs: van Hogeman, Reqt. St: en H: Dubbelde muts n Comp de, Lagemiende en Hulsel om een 62.
+  front 0117 recto: 62. / penen der Stad s'Hertogenbosch, Zullen / 9. Meij. / worden aangeschreeven en geauthoriseert,
+  back 0118 verso: soont geleijke articuls naar de Oostenzijk / sehe Landen te verbrengen, de supplianden / mitsdien in vertrouwen waaren, dat aan / hun zouden worden gepermitleert, om de
+  opening 0117 verso: beeter aan haar Hoog Mogende op te geeven / hoo veele manschappen, in dienvoegen, bo / reids zyn aangenoomen, en welke kosten / aaantae zijn geimpendeert, en dienaangaan„
+=== 6. inv 3353 0004 recto NL-HaNA_1.01.02_3353_0004-text_region-3583-2324-508-110 line line_78ee49d1-7349-4853-b091-0b27f502a71f N=84 -> interpolated/high dist 1.0
+ENTRY: Ausillon 84.
+  front 0119 recto: 15. Julij / hebben geexamineert, en daer van 84. / rapport gedaen, en haer Ho:Mog: nopende / de versogte ontslaginge gedisponeert, sodanigh
+  back 0120 verso: Brussel tot verrichtinge van sijne particu„ / liere saken, hier te Lande te mogen komen, / voorden tijt van een maent; Waar op gede„ / libereert sijnde, Is goetgevonden ende verstaen,
+  opening 0119 verso: vacante Gouvernement te beneficieren; / Waar op gedelibereert sijnde, Is goetge„ / vonden ende verstaen, dat copie vande voorz: / missive gestelt sal werden in handen vande
+=== 7. inv 3539 0041 verso NL-HaNA_1.01.02_3539_0041-text_region-337-2623-1298-1017 line line_2a19b474-da74-4505-a773-341ad68dd787 N=48 -> printed/high dist 0.0
+ENTRY: Missive Lestevenon van Berkenroode 1, 9, 40, 48, 60, 75, 84, 104. 124, 141, 151, 221, 232, 255. 266, 287, 304, 324, 331, 342. 350, 366, 380, 395, 408, 420. 436, 441, 465, 481, 491. 506, 541, 553, 560, 575. 589, 597, 608, 617, 625. 648, 661, 676, 681.
+  front 0095 recto: 48. / en geresumeert, gelijk ook geresumeert en / gearresteert sijn de depechés daer uijt resul„ / teerende.
+  back 0096 verso: ter vergaderinge rapport te doen. / Op de Requeste van Johannes Diederik / Selleman. / Sellemen, geboortig van Diemershouse, in Hes„
+  opening 0095 verso: gevoegt: dat de voon: Merkenraad egver niet / vermogte te procedeeren tot 't versoeken van / kerkelijcke approbetie en bevestiging etc: / sonder prealable goed heuring van haer
+=== 8. inv 3590 0034 verso NL-HaNA_1.01.02_3590_0034-text_region-1451-1920-1236-241 line line_489e8bdc-5fbc-45e1-9a1d-8c9b069de477 N=679 -> printed/high dist 0.0
+ENTRY: Goederen van S. Renaud, naar Leer ,waarden. 679.
+  front 0726 recto: 679. / „puteerden tot de saken van de Landen / 18. october. / van Oermaze, ommetenneren seenige
+  back 0727 verso: „landen het selve daernevens aange„ / schreeven, soodanige adre te stellen / en voossieninge te doen, dat de voorsz: / geweesen op desselver comptaren nij
+  opening 0726 verso: stadt maastricht, houdende dat op / de luin sekeende handepening, met / conrsponelntie vande Brabana„ / „sele magietraat des voornoemel
+=== 9. inv 3350 0029 verso NL-HaNA_1.01.02_3350_0029-text_region-1788-3330-1034-174 line line_038ef58c-7876-4da8-9c5a-f139bb9bda50 N=817 -> printed/high dist 0.0
+ENTRY: Neutraliteijt der Stad 817.
+  front 0854 recto: ideo rogat VV. Cl. ac PS. DD. 817. / Decemb / ut dignentur expedire mandata Gubernatori / Bredano, ut praefatum Ludovicum vander
+  back 0855 verso: Is naer voorgaende deliberatie goetgevonden / ende verstaen, dat de heeren Staten van Zeelant / Zeelant / bij missive sullen werden versogt, alsnogh te con„
+  opening 0854 verso: tijt van drie maenden, in te gaen met den 1. Januarij / en eijndigende met den laetsten maart eerstkomende / met dien verstande evenwel, dat eenige vande Colle„ / gien ter Admt. oordeelende, dat naer haere consti„
+=== 10. inv 3456 0035 recto NL-HaNA_1.01.02_3456_0035-text_region-3885-442-1279-547 line line_96325ca3-46e0-445b-9aea-a0dd637cc059 N=295 -> printed/high dist 0.0
+ENTRY: Missiven van den Secretaris van d'Heer van Ginckel, 41, 88, 106. 133, 148, 155, 160, 165, 197, 202, 246. 261, 284, 295, 301, 321, 337, 376, 395. 436, 455, 474, 490, 498, 507.
+  front 0344 recto: 295. / Ontfangen een missive vanden Secretaris van / mts. van Gnckel / den Heere van Reede tot Ginkel, haer Hoog Mog:
+  back 0345 verso: dat hij daer neevens was sendende copie vande / van der Meer / stukcken raekende de nieuwigheijt teegens te / sendende ceque van de stukken
+  opening 0344 verso: gestelt sal werden in handen vande Heeren van / Hasselt, en andere haer Hoog Mog: Gedeput: / tot de saeken vande Zee, om te visiteeren exa„ / mineeren, ende van alles alhier ter Vergade„
+=== 11. inv 3455 0017 recto NL-HaNA_1.01.02_3455_0017-text_region-2306-341-2047-351 line line_9f8ceb5b-87c6-4f00-b016-17900478b733 N=232 -> interpolated/high dist 1.0
+ENTRY: Missiven van den Resident over 4its. 287. miss:. Coijmans Coijmans, 19, 47, 150, 158, 232. 2115: 325. 361, 379, 425, 487, 562.
+  front 0285 recto: 252. / van Hoorn, Ferleman, / De Milan, Visconti, De Ruever, / Vegilin, van Haren,
+  back 0286 verso: resolutie is gevallen. / Admieralt: in t' poderqnactier / Ontfangen een Missive van het Collegie / voorslag van twee persoonen tot con„
+  opening 0285 verso: bevestigt, blijkende uijt de acte neevens / de voorsz: Requeste gevoegd; versoekende / de Supplten derhalven, dat haer Hoog / Mogt: aen hem gelieven te verleenende
+=== 12. inv 3274 0028 recto NL-HaNA_1.01.02_3274_0028-text_region-3852-2035-1133-235 line f084cb95-2d26-4a88-bd4b-f6a27fe0ae47 N=639 -> interpolated/high dist 1.0
+ENTRY: Den heer vandt Dissen 639.
+  front 0719 recto: versoeckende permissie, om ver„ / 30 November. / mits sijne swackheijt ende impoten„ / 639
+  back 0720 verso: ende verstaen, dat de voorschreve / missive gestelt sal werden in handen / vande Heeren van Ommeren, ende / andere hare Ho:Mo: Gedeputeerden
+  opening 0719 verso: mits desen te versoecken den raet van / State, dat haer E. opt geene voors / is hare Ho:Mo: willen laten toecomen / hun advis.
+=== 13. inv 3368 0006 recto NL-HaNA_1.01.02_3368_0006-text_region-2835-532-1065-311 line a8efe019-5f53-48e7-9cd9-114d7d0d4449 N=430 -> printed/high dist 0.0
+ENTRY: ontslag van Sweetsche matrosen op de schepen 430.
+  front 0466 recto: Laqueman, ges: in het leger tot 430. / 3. October. / havré den 27. der voorleden maend, / ende daer nevens een bijlage, houdende adver„
+  back 0467 verso: haer Ho:Mog: ofte de Collegien ter Admt. / ende vervolgens gem: Capiteijnen niet mogen / defereren aen het versoeck daer toe aen haer door / andere werdende gedaen.
+  opening 0466 verso: Sminia, Du Tour, / Niland, Steenbergen, / Wichers, Aldringa, Piccard. / De resolutien gisteren genomen, sijn gelesen en
+=== 14. inv 3274 0027 verso NL-HaNA_1.01.02_3274_0027-text_region-1163-1319-1319-323 line f3836dcf-0200-4107-b332-3f5358006c6a N=407 -> printed/high dist 0.0
+ENTRY: De Weeuwe van Capitijn Euijsen 407.
+  front 0485 recto: ende Generaliteijts Reeckencamer, / 407 / 5. October. / om te visiteren, examineren ende liqui„
+  back 0486 verso: tot de Saecken vande Zee, om te visi„ / teren, examineren, ende daervan rapport / te doen, sonder resumptie. / Op de Requeste vande Weduwe ende
+  opening 0485 verso: Kaldenbach, Essen, Hous, / Huijghens, Johan de Witt, / Pieterson, Crommon, Vrijbergen, / Stavenisse, Renswoude, Vander
+=== 15. inv 3274 0047 recto NL-HaNA_1.01.02_3274_0047-text_region-2646-3405-2135-190 line line_5634296f-1fcc-4d53-a36e-c111ed1293fd N=728 -> interpolated/high dist 1.0
+ENTRY: Johannes Mobach 719, 728. Utrechtse st8 410, 434.
+  front 0808 recto: 24. December. / Requeste van Mogurice de Maurier / de la Villaumaire, Capiteijn ten / dienste deser Landen, versoeckende
+  back 0809 verso: vande Heeren Staten van / Hollandt ende Westvrieslandt / in haer Ed:Gr:Mo: Verga„ / deringe genomen op
+  opening 0808 verso: Is ter Vergaderinge nochmaels voortge„ / bracht het advis des Raets van State; / geformeert alhier inden Hage den / sesthienden deses, op de Requeste den
+=== 16. inv 3350 0006 verso NL-HaNA_1.01.02_3350_0006-text_region-488-2041-1189-250 line line_04c5118c-7e4c-4c70-9d1d-031a88a8f1f2 N=694 -> printed/high dist 0.0
+ENTRY: belasting der granten 80, 99, 167, 344. 387, 694:
+  front 0731 recto: 9 Novemb: vande provintie van Vrieslant, / 694. / ges: tot Leeuwaerden den 24. deser, / houdende dat de hooggem: heeren Staten ontfangen
+  back 0732 verso: mede op het spoedigste uijt te wercken, ende / alhier ter vergaderinge te openen ende in te / brengen. / Ontfangen een missive vanden Raat van State
+  opening 0731 verso: ende verstaen, dat copie vande voors: reqte / gesonden sal werden aenden Lt. Generael / Grave van Tillij, commanderende in het over„ / quartier van Gelderlant, ende denselven aenge„
+=== 17. inv 3421 0013 recto NL-HaNA_1.01.02_3421_0013-text_region-2905-3707-1063-370 line line_023483a0-5bdc-4af3-8722-59aa9fa7f5df N=599 -> interpolated/high dist 1.0
+ENTRY: Missive, reclamen van Deserteurs 599.
+  front 0660 recto: 0. Junij. / Stoeltjens, de wie hebbende 599. / naer St. Ubes, om aldaer / 
+  back 0661 verso: ende dat te meer, om dat hem was gerap„ / „porteert een Biscaijse Kaper, gemonteert / met dertig stucken in de mond vande / rivier van Lissabon ten ancker lag; Waer
+  opening 0660 verso: houdende advertentie; Waerop geen / resolutie is gevallen. / Ontfangen een missive vanden heer vanden / Van der Meer
+=== 18. inv 3320 0009 recto NL-HaNA_1.01.02_3320_0009-text_region-2638-487-1191-1039 line a256b003-b42e-4fc8-bb0c-f8a4ba6e11d3 N=185 -> printed/high dist 0.0
+ENTRY: missiven vanden resident Hulst 1, 18, 21, 21, 36, 50, 108, 129, 131. 163, 185, 187, 210, 214, 221, 249. 250, 272, 288, 311, 348, 359, 365. 382, 399, 425, 440, 459, 474, 485. 490, 500, 500, 500, 503, 511, 529, 529. 545, 562, 575, 595, 601, 614, 631, 642. 661, 681, 704, 717, 718, 757, 766, 769. 778, 7
+  front 0225 recto: wierden betaelt als de Schippers inde 185. / provintie van hollandt, ende West„ / frieslandt t'huijs hoorende, versoeckende / dat sulcx alsoo bevonden werdende het
+  back 0226 verso: De resolutien gisteren genomen sijn gelesen / ende geresumeert, gelijck oock geresu„ / „meert, ende gearresteert sijn de depesches / daer uijt resulterende.
+  opening 0225 verso: nieuwe affwateringe aende voorschreve / schans geen verhinderinge soude toebrengen; / Is goetgevonden ende verstaen, dat den heer / Bentingh tot Werckeren een van haer ho:
+=== 19. inv 3547 0013 verso NL-HaNA_1.01.02_3547_0013-text_region-414-2289-1243-471 line a67969ca-3524-4477-be8b-cd8674475207 N=338 -> printed/high dist 0.0
+ENTRY: Memorie van den Advt. Fiscaal; provisie van Justitie versogt by de Raden entz: van den Huize van Bergen op den Zoom, 338
+  front 0396 recto: 338. / Pruijssen, geschreeven te Berlijn den 6. deerer. / houdende advertentie. Waer op geen / Resolutie is gevallen.
+  back 0397 verso: Rechten, en Godsgeleerdheijt vande Uni„ / versiteijt te Leuven; versoekende om / reedenen in de voen: Requeste geallegeert, / dat haer Hoog Mog: aen hem gelieven te
+  opening 0396 verso: Buteux, van Brakel, / D'Ablaing van Giessenburg, / Bergsma, van Heeren, Patras, met een Extraords. / Gedeputeerde uijt de Provincie van Vriesland,
+=== 20. inv 3254 0021 verso NL-HaNA_1.01.02_3254_0021-text_region-203-345-963-181 line line_4ac37e64-5fb4-4af8-bc2a-b1963b6e3b9a N=265 -> interpolated/high dist 1.0
+ENTRY: tot bedijckinge van Landen 277. 284, 265, 288, 292, 308, 538.
+  front 0294 recto: off den Raedt van State niet en behoorde versocht / 1031. Julij. / te worden, met communicatie van Sijn Hoocheijt / Staedt van Oorloch
+  back 0295 verso: Sijnde ter Vergaderinge gelesen de Requeste vande Voochden / Heer van Batenb: / vanden Jongen & onmondigen Heere van Batenburch / & de Vrouwe Douagiere van Hatenburch, raeckende
+  opening 0294 verso: behooren te vergaen, dat onchristelick soude sijn / nu sij heuren tijt ende Jaren, oock gesontheijt ende / verlies van leden in s‛Landts dienst hebben doorge„ / bracht & gelaten, ende daermede den Staedt
