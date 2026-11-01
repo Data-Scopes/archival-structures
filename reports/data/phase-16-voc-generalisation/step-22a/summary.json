@@ -1,0 +1,152 @@
+{
+ "modes": {
+  "GM|hand": 545,
+  "GLOBALISE|hand": 22
+ },
+ "box_height": {
+  "GM": {
+   "n": 545,
+   "min": 109.0,
+   "q1": 160.0,
+   "median": 177.5,
+   "q3": 194.75,
+   "max": 273.5
+  },
+  "GLOBALISE": {
+   "n": 22,
+   "min": 131.0,
+   "q1": 172.375,
+   "median": 181.0,
+   "q3": 197.5,
+   "max": 231.0
+  }
+ },
+ "sides_agree": {
+  "Enkel|1": 340,
+  "Dubbel|0": 59,
+  "Dubbel|1": 143,
+  "Enkel|0": 3
+ },
+ "sides_disagree": [
+  "1119",
+  "1122",
+  "1241",
+  "1251",
+  "1409",
+  "1418",
+  "1432",
+  "1441",
+  "1603",
+  "2770",
+  "3222",
+  "3366",
+  "7528",
+  "7529",
+  "7534",
+  "7535",
+  "7536",
+  "7537",
+  "7540",
+  "7541",
+  "7542",
+  "7543",
+  "7544",
+  "7545",
+  "7546",
+  "7548",
+  "7549",
+  "7550",
+  "7551",
+  "7553",
+  "7554",
+  "7556",
+  "7558",
+  "7559",
+  "7560",
+  "7561",
+  "7562",
+  "7563",
+  "7564",
+  "7565",
+  "7567",
+  "7569",
+  "7571",
+  "7573",
+  "7574",
+  "7575",
+  "7578",
+  "7580",
+  "7581",
+  "7582",
+  "7583",
+  "7584",
+  "7586",
+  "7587",
+  "7588",
+  "7589",
+  "7590",
+  "7591",
+  "7593",
+  "7594",
+  "7598",
+  "7599"
+ ],
+ "types_voc_share": {
+  "page_number": 0.0194,
+  "marginalia": 0.1631,
+  "main_text": 0.7672,
+  "date_header": 0.0012,
+  "other": 0.0178,
+  "catch_word": 0.0213,
+  "signature_mark": 0.0003,
+  "running_header": 0.001,
+  "index": 0.0087
+ },
+ "types_sg_share": {
+  "main_text": 0.8864,
+  "marginalia": 0.0865,
+  "other": 0.0011,
+  "page_number": 0.0115,
+  "catch_word": 0.0011,
+  "date_header": 0.0093,
+  "index": 0.0038,
+  "running_header": 0.0002,
+  "signature_mark": 0.0
+ },
+ "pn_methods_voc": {
+  "page_number|rule:pn_line_offchain": 143812,
+  "page_number|rule:pn_line": 184162,
+  "page_number|rule:pn_suffix": 1268,
+  "page_number|rule:pn_line_gap": 13209
+ },
+ "pn_methods_sg": {
+  "page_number|rule:pn_line": 36584,
+  "page_number|rule:pn_line_gap": 1085,
+  "page_number|rule:pn_line_offchain": 9648,
+  "page_number|rule:pn_suffix": 6627
+ },
+ "n_sg_hand_ref": 125,
+ "laypa_pn": {
+  "tp": 222378,
+  "fp": 119702,
+  "fn": 47323,
+  "P": 0.6501,
+  "R": 0.8245
+ },
+ "breaks": {
+  "n_lines": 17614738,
+  "¬": 116871,
+  "-": 290121,
+  "=": 41267,
+  "„": 1424959,
+  ":": 360492,
+  "unjoined_not": 116881,
+  "unjoined_per_1000": 6.635
+ },
+ "index_flags": {
+  "tp": 1,
+  "fp": 121,
+  "fn": 185,
+  "toc_total": 186
+ }
+}

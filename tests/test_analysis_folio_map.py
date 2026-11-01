@@ -208,3 +208,39 @@ def test_v2_continuing_numbers_not_bounded():
     scans, sides, nums = _vol(30, {i: 347 + i for i in range(1, 31)})
     m = build_folio_map(scans, sides, nums, params=FOLIO_MAP_V2)
     assert m.mode == "foliation" and len(m.chain) == 30 and m.chain[0, 1] == 348
+
+
+# --- phase 16, step 22b: single_foliation -------------------------------------------------------------------
+
+import dataclasses
+
+
+def _single_vol(n, numbered):
+    scans = [f"S{i:03d}" for i in range(1, n + 1)]
+    sides = [(s, "single") for s in scans]
+    nums = {(scans[i - 1], "single"): [str(v)] for i, v in numbered.items()}
+    return scans, sides, nums
+
+
+def test_single_foliation_every_other_scan():
+    scans, sides, nums = _single_vol(12, {1: 1, 3: 2, 5: 3, 7: 4, 9: 5, 11: 6})
+    on = FolioMapParams(single_foliation=True)
+    m = build_folio_map(scans, sides, nums, params=on)
+    assert m.mode == "foliation"
+    t = m.locate(4)
+    assert t.front == ("S007", "single") and t.back == ("S008", "single")
+    assert build_folio_map(scans, sides, nums).mode == "pagination"
+
+
+def test_single_foliation_slope_one_stays_pagination():
+    scans, sides, nums = _single_vol(12, {i: i for i in range(1, 11)})
+    assert build_folio_map(scans, sides, nums, params=FolioMapParams(single_foliation=True)).mode == "pagination"
+
+
+def test_single_foliation_mixed_volume_unchanged():
+    scans, sides, nums = _vol(20, {i: i - 1 for i in range(2, 21)})
+    a = build_folio_map(scans, sides, nums)
+    b = build_folio_map(scans, sides, nums, params=dataclasses.replace(FolioMapParams(), single_foliation=True))
+    assert a.mode == b.mode == "foliation"
+    assert np.array_equal(a.chain, b.chain)
+    assert a.locate(5) == b.locate(5)

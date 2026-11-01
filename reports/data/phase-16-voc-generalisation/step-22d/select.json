@@ -1,0 +1,20 @@
+{
+ "selected": "C3",
+ "dev_F1": 0.5106,
+ "best_dev_F1": 0.5106,
+ "candidates_within_0.005": [
+  "C3"
+ ],
+ "dev_E": 0.5404,
+ "dev_coverage": 0.4839,
+ "all_F1": {
+  "U2": 0.0988,
+  "U1": 0.2277,
+  "C1": 0.1119,
+  "C2": 0.4948,
+  "C3": 0.5106
+ },
+ "sel_22b": "V0-off-TL",
+ "written_at": "2026-11-01T03:09:55",
+ "test_numbers_seen": false
+}

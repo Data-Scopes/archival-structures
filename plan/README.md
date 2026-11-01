@@ -75,7 +75,8 @@ These keep fresh sessions cheap. Split a file before it goes over its budget.
 ## Rules for every session
 
 1. Project rules in `CLAUDE.md` apply. Never `git commit`, never run the release targets,
-   `chmod g+w` everything created, use `.venv/bin/python`, never access external drives.
+   `chmod g+w` everything created, use `.venv/bin/python`, external drives only as `CLAUDE.md` allows
+   (a hook denial or `Permission denied` is final).
 2. **When a step edits a sibling (LotA or NLP), read that sibling's `CLAUDE.md` first.** Its
    rules apply to the files there. Run the sibling's tests with the sibling's own interpreter.
 3. A change to an AS public signature or behaviour gets a `### Step N: …` entry under

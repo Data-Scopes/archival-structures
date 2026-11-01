@@ -1,0 +1,76 @@
+inv	scan	split	cell	kind	locator	category	note	line
+1267	0012	dev	C3	nonhit	loc=543	neighbour	nearest gold start 1077 at -1 leaves	„ 543 a 544
+1267	0014	dev	C3	nonhit	loc=357	range_end_taken	nearest gold start 0725 at +2 leaves	Ed:e geszr: van dato P=mo december 1667. , met bijlaegen . „ 322 a 357
+1267	0014	dev	C3	nonhit	loc=365	range_end_taken	nearest gold start 0741 at +2 leaves	d=o als boven van dato 30 april 1668. . . . . . . „ 358 a 365
+1274	0006	dev	C3	nonhit	loc=269	neighbour	nearest gold start 0567 at -1 leaves	269 a 270. Bevinding van 't schip 't huijs te Velsens
+1274	0007	dev	C3	nonhit	loc=1670	not_a_folio	nearest gold start 1819 at -1 leaves	dato 14 Nov. 1670.
+1274	0010	dev	C3	nonhit	loc=1670	not_a_folio	nearest gold start 1819 at -1 leaves	dato 10 Nov. 1670.
+1274	0011	dev	C3	nonhit	loc=1670	not_a_folio	nearest gold start 1819 at -1 leaves	6 Oct. 1670.
+1388	0015	dev	C3	nonhit	loc=1683	not_a_folio	nearest gold start 0029 at +6 leaves	Septemb. 1683.
+1388	0016	dev	C3	nonhit	loc=2200	map_error	nearest gold start 0613 at -46 leaves	ulto. Decemb: deses Jaers in Cochin en op Poria 2200
+1388	0023	dev	C3	nonhit	loc=1683	not_a_folio	year after 'Nov.' read as folio	ontfangen 19. 'n Januarij 10. ' en 30. en maart 1683.
+1557	0014	dev	C3	nonhit	loc=317	htr	nearest gold start 0695 at -2 leaves	register der papieren - - - - - - - - - - - - - - - - - „ 376 a 317
+2548	0010	dev	C3	nonhit	loc=174	htr	'Aao 1741' misread as 174:1	A„o 174:1
+2548	0010	dev	C3	nonhit	loc=38	neighbour	nearest gold start 0083 at -1 leaves	„38
+2548	0011	dev	C3	nonhit	loc=38	neighbour	nearest gold start 0083 at -1 leaves	„38
+2548	0011	dev	C3	nonhit	loc=310	map_error	nearest gold start 0368 at +4 leaves	310
+2548	0012	dev	C3	nonhit	loc=38	neighbour	nearest gold start 0083 at -1 leaves	den 18:' d„o per de aparte missive van den Command:r en raad tot Samarang 38
+2548	0016	dev	C3	nonhit	loc=321	neighbour	nearest gold start 0374 at -1 leaves	321
+2548	0021	dev	C3	nonhit	loc=11	map_error	nearest gold start 0050 at -4 leaves	11
+2548	0034	dev	C3	nonhit	loc=1748	map_error	nearest gold start 1818 at -2 leaves	en pamacassan aan als even. . . - - - „ 1748
+2548	0041	dev	C3	nonhit	loc=25	map_error	nearest gold start 0077 at +6 leaves	„25
+2548	0042	dev	C3	nonhit	loc=1024	map_error	nearest gold start 1076 at -2 leaves	- - - - - - - - - 1024
+2555	0014	dev	C3	nonhit	loc=8	unclear	nearest gold start 0025 at -7 leaves	justitie de dato 3:e octob:r 1742. - - – - „ 33. 34. 8. 35.
+2555	0014	dev	C3	nonhit	loc=17	unclear	nearest gold start 0025 at -16 leaves	Nagelaten - - - - - - - - - - „ 17.
+2555	0018	dev	C3	nonhit	loc=76	subdoc_no_gold	nearest gold start 0134 at +2 leaves	_:o „ Paul fredrik E versoon. . . . „ 76.
+2555	0018	dev	C3	nonhit	loc=75	subdoc_no_gold	nearest gold start 0134 at +3 leaves	Anthonij Isaac Cassa - _ _ _ _ _ _ _ „ 75.
+2555	0020	dev	C3	nonhit	loc=67	neighbour	nearest gold start 0122 at -1 leaves	„ Jacob Kool. - - „ 67.
+2555	0615	dev	C3	nonhit	loc=2	neighbour	nearest gold start 0025 at -1 leaves	„ 2.
+3142	0005	dev	C3	nonhit	loc=1765	not_a_folio	nearest gold start 0017 at +13 leaves	tot 20 8br 1765.
+3142	0005	dev	C3	nonhit	loc=1765	not_a_folio	the line-start number 2062 (after a quote mark) is missed; the year is taken	2062 „ 2074 aenkomende brieven van manaer zeedert 29 xb:r 1764 tot 24 xb:r 176
+8121	0005	dev	C3	nonhit	loc=37	neighbour	nearest gold start 0047 at -1 leaves	37
+1120	0009	test	C3	nonhit	loc=1	map_error	nearest gold start 0013 at -4 leaves	1
+1120	0010	test	C3	nonhit	loc=456	map_error	nearest gold start 0532 at +2 leaves	456 a 457. Memorie van de Spaense joncke ladingh.
+1120	0011	test	C3	nonhit	loc=3	unclear	nearest gold start 0013 at -6 leaves	03
+1120	0011	test	C3	nonhit	loc=773	range_end_taken	nearest gold start 0932 at +3 leaves	763 à 773. Copie missive van Nicolaes Cloet uijt Grofficquia
+1120	0011	test	C3	nonhit	loc=782	range_end_taken	nearest gold start 0943 at -2 leaves	780à 782. Lijste van 't guarnisoen op Iaffasaho I Tabalola.
+1120	0011	test	C3	nonhit	loc=3	unclear	nearest gold start 0013 at -6 leaves	3
+1529	0005	test	C3	nonhit	loc=27	not_a_folio	nearest gold start 0059 at -4 leaves	generael ende raeden van Jndien in dato 27
+1529	0006	test	C3	nonhit	loc=578	map_error	nearest gold start 1173 at -2 leaves	578
+1529	0009	test	C3	nonhit	loc=10	unclear	nearest gold start 0011 at -14 leaves	10
+1539	0009	test	C3	nonhit	loc=21	not_a_folio	nearest gold start 0064 at -3 leaves	ende Raden van Jndien geschreven gedateert 21
+1539	0010	test	C3	nonhit	loc=125	range_end_taken	nearest gold start 0271 at -6 leaves	laers Rigsidas en bagwaendas. . . . . . . . . . . . . . . . / 122 a 125.
+1539	0013	test	C3	nonhit	loc=24	not_a_folio	nearest gold start 0071 at -2 leaves	24 en 25 Julij 1693 belangende het afbrengen
+2448	0007	test	C3	nonhit	loc=3	map_error	nearest gold start 0029 at -2 leaves	.„ 3:—
+2448	0007	test	C3	nonhit	loc=18	not_a_folio	nearest gold start 0029 at -17 leaves	soura 't sedert den 18 maij tot den 18
+2448	0009	test	C3	nonhit	loc=18	not_a_folio	nearest gold start 0029 at -17 leaves	soura 't sedert den 18 maij tot den 18
+2448	0009	test	C3	nonhit	loc=1738	not_a_folio	nearest gold start 1755 at -6 leaves	A„o 1738
+2448	0011	test	C3	nonhit	loc=1493	map_error	nearest gold start 1511 at -2 leaves	„ 1493
+2448	0013	test	C3	nonhit	loc=774	map_error	nearest gold start 0999 at +205 leaves	774
+2448	0018	test	C3	nonhit	loc=1738	not_a_folio	nearest gold start 1755 at -6 leaves	A„o 1738
+2448	0018	test	C3	nonhit	loc=14	not_a_folio	nearest gold start 0029 at -13 leaves	makelaars 't sedert p„mo 7ber tot 14
+2448	0019	test	C3	nonhit	loc=1738	not_a_folio	nearest gold start 1755 at -6 leaves	A„o 1738
+2448	0019	test	C3	nonhit	loc=1737	not_a_folio	nearest gold start 1755 at -5 leaves	1737
+2448	0020	test	C3	nonhit	loc=1769	map_error	nearest gold start 1797 at -2 leaves	den 26: october Register der papieren - - - - - „ 1769
+2448	0021	test	C3	nonhit	loc=2198	map_error	nearest gold start 2228 at -4 leaves	2198:
+2448	0025	test	C3	nonhit	loc=1738	not_a_folio	nearest gold start 1755 at -6 leaves	febr: 1738
+2448	0026	test	C3	nonhit	loc=1736	not_a_folio	nearest gold start 1755 at -3 leaves	1736 en 1737.:
+3891	0010	test	C3	nonhit	loc=5107	range_end_taken	nearest gold start 0699 at -128 leaves	5038. . . 5107. Bylaagen bij voorsz: verantwoording
+8276	0005	test	C3	nonhit	loc=7	map_error	nearest gold start 0042 at -3 leaves	laastleeden - - - - - - - - - - - - - - „ 7.
+8276	0038	test	C3	nonhit	loc=1733	not_a_folio	nearest gold start 0081 at -85 leaves	1733. —
+8284	0137	test	C3	nonhit	loc=55	map_error	nearest gold start 0068 at +3 leaves	dullagh en pangirang maas de pattij aan haar hoog Ed:s„ 55.
+1267	0019	dev	C3	no_locator		htr	number glued to a word (1Wingurla)	1Wingurla
+1557	0012	dev	C3	no_locator		verso_or_connector_miss	range end followed by 'verso': 'a 149 verso' not matched	nagara - - - - - - - - - - - - - - - - - - - - - - - „ 149 a 149 verso
+1557	0012	dev	C3	no_locator		verso_or_connector_miss	'180 verso a 199 verso'	in dato 2 Januarij 1694. . . . . . . . . . . . . . . . . „ 180 verso a 199 ver
+1557	0013	dev	C3	no_locator		verso_or_connector_miss	'259 verso a 262 verso'	Hendrick dijckman opgestelt in dato 7 november 1694 „ 259 verso a 262 verso
+1557	0015	dev	C3	no_locator		htr	noise line 'a3'	a3
+1557	0017	dev	C3	no_locator		verso_or_connector_miss	'656 a 668 verso'	Dito missive als vooren in dato 27 Dito - - - - - - - - - „ 656 a 668 verso
+1557	0018	dev	C3	no_locator		verso_or_connector_miss	'749 a 749 verso'	in dato 29 Dito - - - - - - - - - - - - - - - - - - „ 749 a 749 verso
+2548	0009	dev	C3	no_locator		coincidence_no_folio	digits in the line are dates, not folios	en d' raaden van Jndia ged:t 20:' maart 1741. . . . . . . . „
+2548	0011	dev	C3	no_locator		coincidence_no_folio	digits in the line are dates, not folios	Briefje van Samarang na Sourabaija gesz: op den 14:' april 1741„
+2548	0014	dev	C3	no_locator		coincidence_no_folio	digits in the line are dates, not folios	dato 2: bevoorens - - -
+2548	0015	dev	C3	no_locator		coincidence_no_folio	digits in the line are dates, not folios	Commandant gesz: op den 15: en 16„' der veelm: maand
+2548	0016	dev	C3	no_locator		coincidence_no_folio	digits in the line are dates, not folios	den 6:' Julij per 1. ond:
+2548	0017	dev	C3	no_locator		coincidence_no_folio	digits in the line are dates, not folios	12: Julij pass:o
+2548	0022	dev	C3	no_locator		coincidence_no_folio	digits in the line are dates, not folios	de n 8:' per 't schip d„o van en aan als vooren sub dato 31:' aug:s Jongstlen
+2548	0024	dev	C3	no_locator		coincidence_no_folio	digits in the line are dates, not folios	A„o 1741. —

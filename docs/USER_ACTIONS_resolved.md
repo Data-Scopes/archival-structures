@@ -1131,3 +1131,153 @@
 - **Resolved 2026-10-29:** (a). `index_links_v1` is not published; the builds stay in `data/index_links_dev/` and on the
   drive. A v2 follows an index-links v2 phase with bars on fresh gold. Recorded in the phase-14 report (*After the
   review*, *Follow-ups*), `docs/index_links.md`, `plan/PLAN.md`, the phase PLAN and STATUS, `plan/CONTEXT.md`.
+
+### UA-054 Stage VOC (1.04.02) PageXML for phase 16 (2026-10-30, from phase-15 planning)
+- **Action:** Decide when to stage, then Run on the machine with the drive. The list is
+  `docs/staging/voc_phase16_inventories.txt` (63 inventories; groups in the `.tsv` beside it):
+  - 22 inventories with GLOBALISE document segmentation;
+  - 21 Generale Missiven inventories already in NLP's v1 text layer;
+  - 20 random other Generale Missiven inventories (seed 20261030).
+
+  The source is the drive directory that NLP's VOC text layer was built from (`pagexml_v2.1`, recorded in
+  `shared-data/voc_text_layer_v1/manifest.json`, `stages.extract.argv`). It holds `<inv>.zip` or `<inv>/` per
+  inventory, the two forms `archival_structures.text_layer.io.discover_inventories` reads. Set `SRC` to that directory.
+  - First check the size. **The shared volume had 19 GiB free on 2026-10-30.** In the AS root, run:
+    `SRC=<drive>/PageXML/Globalise/pagexml_v2.1; for i in $(cat docs/staging/voc_phase16_inventories.txt); do du -sk "$SRC/$i.zip" "$SRC/$i" 2>/dev/null; done | awk '{s+=$1} END {print s/1048576 " GiB"}'`
+  - Then copy. In the AS root, run:
+    `D=/Users/Shared/claude_projects/data_scopes/shared-data/NL-HaNA_1.04.02/pagexml_v2.1/source; mkdir -p "$D" && for i in $(cat docs/staging/voc_phase16_inventories.txt); do if [ -f "$SRC/$i.zip" ]; then cp "$SRC/$i.zip" "$D/"; elif [ -d "$SRC/$i" ]; then cp -R "$SRC/$i" "$D/"; else echo "missing $i"; fi; done; chmod -R g+w "$D"`
+
+  The phase-16 planning session links the directory under `data/` and adds the shared-data catalogue row. Report any
+  `missing` lines in the Response.
+- **Options:**
+  - (a) stage all 63 now, while phase 15 runs;
+  - (b) stage only the 22 GLOBALISE inventories now: `head -22` of the list;
+  - (c) wait: the phase-16 planner picks its own set first.
+
+  Recommended: (a), if the size check shows it fits with room to spare. Both ground-truth sets need it, and a random
+  group keeps phase 16 from testing only on selected volumes.
+- **Default if unanswered:** phase 16 is planned without VOC PageXML, and its first build step waits for this item.
+- **Blocks:** phase 16's VOC text-layer build. Nothing in phase 15.
+- **Response:** a, done
+- **Resolved 2026-10-30:** (a), copied by the user: 63 of 63 inventories, none missing, 1.75 GiB. All 63 are
+  byte-identical to `/Volumes/T7_Data/Data/PageXML/Globalise/pagexml_v2.1/`, which the user made readable on 2026-10-30
+  and which holds all 6,914 VOC inventories. AS link `data/NL-HaNA_1.04.02_pagexml_v2.1`. Catalogue row and changelog line
+  in `shared-data/README.md`. Phase-16 `PLAN.md` *Sources*, *Open questions* and STATUS record the drive inputs: 546 of
+  the 547 Generale Missiven inventories (1171 is split into A/B), plus thumbnails of the 22 GLOBALISE inventories.
+  `plan/CONTEXT.md` §4. Replacing the copy with links to the drive is UA-058.
+
+### UA-056 Run the index-links v2 build on the full v5 layer (2026-10-30, from phase-15 step 21d)
+- **Action:** Run, in the AS root, on the machine with the drive. `<drive>` = the directory holding `text_layer_v5/`
+  (UA-045). Create the output directory, smoke-test, run in full (rerun the third command to resume), then copy back:
+  `mkdir -p <drive>/index_links_v2`
+  `.venv/bin/python scripts/build_index_links.py --version v2 --layer <drive>/text_layer_v5/1.01.02/NL-HaNA_1.01.02_text_layer_v5 --out-dir <drive>/index_links_v2 --limit 3`
+  `python3 /Users/Shared/claude_projects/data_scopes/shared-tools/coreshare.py run --project archival-structures --label index-links-v2-full --want 4 --min 1 --wait -- .venv/bin/python scripts/build_index_links.py --version v2 --layer <drive>/text_layer_v5/1.01.02/NL-HaNA_1.01.02_text_layer_v5 --out-dir <drive>/index_links_v2 --workers '{workers}'`
+  `mkdir -p data/index_links_full_v2 && cp <drive>/index_links_v2/NL-HaNA_1.01.02_index_links_v2/volumes.tsv <drive>/index_links_v2/NL-HaNA_1.01.02_index_links_v2/manifest.json data/index_links_full_v2/ && chmod -R g+w data/index_links_full_v2`
+  Measured cost on the dev build: 27.9 s for 41 volumes single-process (0.68 s per front-index volume; v1 0.49 s); 10.2 s
+  through coreshare with 3 workers wanted. The v2 builder also reads `join/segments/<inv>.tsv.gz` (the dev layer has it; the full layer comes from the same pipeline, and a volume without it is recorded as `failed`, not fatal).
+- **Options:** (a) run; (b) skip. Recommended: (a) only if you want v2 on the drive. The review is done (UA-057
+  recommends no publication), so the counts are no longer needed for that decision.
+- **Default if unanswered:** v2 exists as the 41-volume dev build only.
+- **Blocks:** options (b) of UA-057 only.
+- **Response:**
+- **Resolved 2026-10-30:** found done. The user ran it on 2026-10-30 (layer on the drive, 12:17 UTC) and copied
+  `volumes.tsv` and `manifest.json` to `data/index_links_full_v2/`. The **Response** was left empty; the user asked the
+  session to handle the item. Result:
+  - 412 front-index volumes of 8,856, none failed;
+  - 629,912 entries, 879,878 locators, 879,672 linked;
+  - the 41 dev volumes are identical to `21d-a`.
+  Against v1's full run, G1 drops the start of the chain in 11 volumes, losing 9,885 links (F15-21d.8; 3244 read).
+  Recorded in the phase-15 report (Summary, F15-21d.7, F15-21d.8, *After the review: full run*, Follow-ups),
+  `reports/index.md`, `docs/index_links.md` (*Full run (v2)*, known limits), `plan/CONTEXT.md` §1 and §4, phase-15
+  STATUS and PROGRESS.
+
+### UA-057 Publish `index_links_v2`? (2026-10-30, from the phase-15 review)
+- **Action:** Decide. v2 passes bars F (map, 62/63) and L precision (0.981). It fails L recall (0.856), attribution
+  (0.892) and end to end (0.825), and on those three it is no better than v1. Its gains over v1 are 2,569 fewer
+  locators, most of them false; no trust in year-like chain ends or duplicated numbers; and an opening column. The full
+  run (UA-056, done 2026-10-30) adds a defect: in 11 volumes G1 drops the start of the folio chain, losing 9,885 links
+  (F15-21d.8). Report: `reports/phase-15-index-links-v2.md` (*Summary*, *Review*, *After the review: full run*).
+- **Options:**
+  - (a) do not publish. The dev build stays in `data/index_links_dev/21d-a/`, the full run on the drive. A later
+    index-links phase (entry assembly v3, new gold) publishes once it meets the bars. This is the rule you set in UA-053.
+  - (b) publish the full-run v2 (UA-056, done) in `shared-data/NL-HaNA_1.01.02/index_links_v2/` as
+    `coverage: partial`, with the failed bars and known limits in the catalogue row.
+  - (c) publish the 41-volume dev build that way.
+
+  Recommended: (a). Three bars fail, attribution is v1's, and G1 loses links in 11 full-run volumes.
+- **Default if unanswered:** (a). Nothing is published.
+- **Blocks:** publication only. Nothing in AS or the siblings.
+- **Response:** a (given in the chat, 2026-10-30)
+- **Resolved 2026-10-30:** (a). `index_links_v2` is not published. The dev build stays in `data/index_links_dev/21d-a/`
+  and the full run on the drive (`data/index_links_full_v2/` locally). The next index-links phase publishes once it meets
+  the bars on fresh gold, and fixes G1 (F15-21d.8). Recorded in the phase-15 report (Summary, Review, Follow-ups),
+  `docs/index_links.md`, `reports/index.md`, `plan/CONTEXT.md`, phase-15 STATUS and PROGRESS.
+
+### UA-058 Replace 24.5 GiB of shared-data copies with links to the drive? (2026-10-30, from the UA-054/056 session)
+- **Action:** Decide, then Run. Five shared-data datasets are byte-identical, file for file, to copies on T7_Data
+  (checked 2026-10-30). The map with all drive directories is `docs/staging/shared_data_drive_links.tsv`:
+  - `NL-HaNA_1.01.02/pagexml` (223 files, 5.34 GiB) = `PageXML/Republic/inventory_pagexml`;
+  - `NL-HaNA_1.04.02/pagexml_v2.1/source` (63, 1.75 GiB) = `PageXML/Globalise/pagexml_v2.1`;
+  - `NL-HaNA_1.01.02/republic_export_2025-02/source` (489, 6.91 GiB) = `REPUBLIC/paragraphs/entities-Feb-2025-parsed-json`;
+  - `NL-HaNA_1.01.02/republic_ner_2026-04-11` (11, 0.58 GiB) = `REPUBLIC/entities/curated-entities-Mar-2026`;
+  - `line_class_preprocessed_page_json` (781, 9.91 GiB) = `REPUBLIC/pages/Mar-2026/line_class_preprocessed_page_json`
+    (674 files) plus `REPUBLIC/pages/raw_page_json` (107 `raw_pages-*` files).
+
+  The rest cannot be replaced (the TSV header says why): the SG paragraphs (one file differs, and LotA reads them), the
+  2026-03 export, attendance lists, deputies, EAD, 1.10.94 and KB_7B PageXML, `voc_text_layer_v1`, and all derived layers.
+
+  The tool `shared-tools/relink_to_drive.py` replaces each file with a symlink to its drive copy. It re-checks size and
+  bytes first, and leaves a dataset whole if any one file differs. You own the directories, so you run it, in the AS
+  root. First a dry run, then apply:
+  `python3 /Users/Shared/claude_projects/data_scopes/shared-tools/relink_to_drive.py docs/staging/shared_data_drive_links.tsv`
+  `python3 /Users/Shared/claude_projects/data_scopes/shared-tools/relink_to_drive.py docs/staging/shared_data_drive_links.tsv --apply --log docs/staging/shared_data_drive_links_applied.tsv`
+  For option (b), add `--only` with the two PageXML `local_dir` values from the TSV. To undo one file:
+  `f=<path>; cp "$(readlink "$f")" "$f.tmp" && mv "$f.tmp" "$f"`.
+
+  After `--apply`, an AS session adds the drive path and "needs T7_Data mounted" to each relinked catalogue row in
+  `shared-data/README.md`, plus a changelog line.
+- **What changes:**
+  - Every reader then needs the drive mounted, or its reads fail. The readers are:
+    - AS: the staged SG and VOC PageXML;
+    - republic-segmentation: `as_hand3_inputs`, both exports, line-class pages;
+    - republic-classification: the 2025-02 export and NER.
+  - "Source as received, never edited" then rests on the drive copy, whose files are world-writable (`rw-rw-rw-`).
+  - LotA reads none of these sets. Its `allowed_roots` would reject drive targets, and so would a rerun of
+    republic-classification Phase 2.8 step 03 that reads the 2025-02 export through LotA's `resolve_path`.
+  - The local disk had 88 GiB free on 2026-10-30.
+- **Options:**
+  - (a) relink all five (24.5 GiB);
+  - (b) relink only the two PageXML sets (7.1 GiB); AS's full runs already read the drive copies of these;
+  - (c) keep the local copies.
+
+  Recommended: (a) if the drive stays attached to this machine; (b) if it is sometimes unplugged while sibling sessions
+  run.
+- **Default if unanswered:** nothing changes; the local copies stay.
+- **Blocks:** nothing.
+- **Response:** a (given in the chat, 2026-10-30)
+- **Resolved 2026-10-30:** (a). The session ran `--apply`, because the directories are group-writable. All five sets
+  were relinked: 1,567 files, 24.5 GiB; local free space went from 88 to 111 GiB. Log:
+  `docs/staging/shared_data_drive_links_applied.tsv`. Checks afterwards:
+  - a second dry run reports every file as already linked;
+  - no broken links in `shared-data`, and none in the consumer links (AS `text_layer_v4_staged`,
+    `text_layer_v3_full_inputs/hand`; republic-segmentation `as_hand3_inputs/hand`);
+  - reads through the AS and republic-segmentation links work.
+  `shared-data/README.md`: the five rows carry the drive path and "needs T7_Data mounted"; `NL-HaNA_1.01.02/pagexml/` is
+  catalogued for the first time; changelog line. Tool documented in `shared-tools/README.md` (*relink_to_drive*).
+
+### UA-055 Confirm 20 index-link v2 gold targets on the scans (2026-10-30, from phase-15 step 21a)
+- **Action:** Run, in the AS root: `open reports/data/phase-15-index-links-v2/step-21a/check_page.html`. Answer the
+  three Yes / No / Unsure questions on each of the 20 items (about 30 min), press Export, and save the file as
+  `reports/data/phase-15-index-links-v2/step-21a/check_verdicts.json`. The page shows the agent's answers (a
+  confirmation, not a blind test). The 20 items are drawn at random (seed 20261031) from the 63 usable test targets.
+  Since 2026-10-30 each item has NA image crops (entry lines, folio number, evidence lines; needs internet), as in
+  phase-14 step 20c; answers already given in the browser are kept (same storage key, same items).
+- **Options:** (a) check (about 30 min); (b) skip. Recommended: (a).
+- **Default if unanswered:** the phase-15 review states that the 21a gold is unchecked.
+- **Blocks:** the publication decision for `index_links_v2` only. 21b–21d run on the agent gold.
+- **Response:**
+- **Resolved 2026-10-30:** the user said "UA-055 done" in the chat; all 20 answered (`check_verdicts.json`; `check_summary.txt`). q1 19 Yes / 1 Unsure, q2 18 Yes
+  / 2 Unsure, q3 17 Yes / 3 No (merged HTR lines, already marked in the gold). The user's T089 note was right: the
+  index reads 637 (HTR 697) and folio 637 has the matter. Gold left frozen; recorded as F15-21a.8 and F15-21a.9 in
+  `reports/phase-15-index-links-v2.md` (*After the review: user check*), `reports/index.md`, the phase-15
+  `STATUS.md`/`PROGRESS.md` and `plan/CONTEXT.md` §4.

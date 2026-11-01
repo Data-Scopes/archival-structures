@@ -3,7 +3,7 @@
 > Overwrite this file at the end of every session. **40 lines max**; history belongs in
 > `PROGRESS.md`.
 
-- **Updated:** 2026-10-30, by the phase-15 review (Opus 5.5)
+- **Updated:** 2026-10-30, by the session that handled UA-055 (Opus 5.5)
 - **State:** done; reviewed (accept with follow-ups; [REVIEW](REVIEW.md)); report final
 - **Released in:** v0.20.0
 
@@ -24,10 +24,10 @@ phase 16 (VOC, `plan/PROMPTS.md` §1); its staging UA-054 is answered (a).
 
 ## Blockers and open questions for the user
 
-- UA-055: confirm 20 test links on the scans. If unanswered, the 21a gold stays unchecked by the user. It blocks
-  nothing now.
-- UA-056: the v2 full run (optional). If unanswered, v2 exists as the dev build only.
-- UA-057: publish v2? Recommended (a), no. If unanswered, nothing is published.
+- UA-055: done 2026-10-30 (report *After the review: user check*, F15-21a.8, F15-21a.9; T089's locator is an HTR
+  misread, 637 read as 697; gold left frozen).
+- UA-056: done 2026-10-30 (full run in `data/index_links_full_v2/`; report *After the review*, F15-21d.7, F15-21d.8).
+- UA-057: answered (a) on 2026-10-30; v2 is not published.
 
 ## Facts later steps need
 

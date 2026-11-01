@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>22b gold check</title><style>
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6b66;--card:#fff;--line:#e2dfd7;--accent:#2f5d8a;--ok:#2e7d4f;--bad:#b23b3b;--uns:#8a6d1f}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1b1b1a;--fg:#e9e7e1;--muted:#a19f98;--card:#252523;--line:#3a3935;--accent:#8db4dc;--ok:#6cc08f;--bad:#e07a7a;--uns:#d6b456}}
+:root[data-theme="dark"]{--bg:#1b1b1a;--fg:#e9e7e1;--muted:#a19f98;--card:#252523;--line:#3a3935;--accent:#8db4dc;--ok:#6cc08f;--bad:#e07a7a;--uns:#d6b456}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,sans-serif;margin:0}
+main{max-width:980px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:14px 0}
+.ids{font-family:ui-monospace,Menlo,monospace;font-size:.78rem;color:var(--muted);margin:4px 0;word-break:break-all}
+.ids .v{user-select:all}
+.sid{user-select:all;color:var(--accent);margin-right:2px}
+.cp{font:600 .68rem system-ui,sans-serif;padding:0 5px;margin:0 8px 0 0;border:1px solid var(--line);border-radius:3px;background:transparent;color:var(--muted);cursor:pointer;vertical-align:baseline}
+
+.btns button{margin:2px 4px 2px 0;padding:3px 10px;border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:4px;cursor:pointer}
+.btns button.on{background:var(--accent);color:#fff}textarea{width:100%;box-sizing:border-box;font:inherit}
+table{border-collapse:collapse;font-size:.88rem}td{padding:2px 8px;border-bottom:1px solid var(--line)}tr.gold td{background:color-mix(in srgb,var(--uns) 22%,transparent)}
+</style></head><body><main>
+<h1>Step 22b: which scan carries the folio?</h1>
+<p>Each item is a Generale Missiven anchor (folio N at a scan) where the folio map disagreed with the gold and the printed numbers
+near the gold scan suggested the gold itself might be off. For every item, open the scans and decide which scan carries folio N.
+The table shows the page numbers the text layer read on the scans around the gold scan (yellow) and around the scan the map predicted.
+Choose <i>gold scan</i> when the gold is right, <i>predicted scan</i> when the map is right, <i>another scan</i> (and type its number),
+or <i>cannot tell</i>. The result only says how much of the miss rate is gold noise; it blocks nothing. When done, press Export and
+save <code>check_verdicts.json</code> in <code>reports/data/phase-16-voc-generalisation/step-22b/</code>.</p>
+<div class="top"><span id="prog"></span> &nbsp; <button id="exp" type="button">Export</button></div>
+<div id="items"></div></main>
+<script>
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+// Nationaal Archief viewer link for a scan ID: NL-HaNA_<series>_<invnr>_<nnnn>
+function naUrl(id){ const m = /^NL-HaNA_([0-9.]+)_([0-9A-Za-z]+)_[0-9]+$/.exec(id);
+  return m ? `https://nationaalarchief.nl/onderzoeken/archief/${m[1]}/invnr/@${m[2]}/file/${id}` : null; }
+// One scan ID: a viewer link (selectable on its own) plus a copy button.
+function scanHtml(id){ const u = naUrl(id), t = esc(id);
+  return (u ? `<a class="sid" href="${u}" target="_blank" rel="noopener" title="open in the Nationaal Archief viewer">${t}</a>` : `<span class="sid">${t}</span>`)
+    + `<button type="button" class="cp" data-copy="${t}" title="copy">copy</button>`; }
+// An identifier line: [[label, value], ...]; each value selectable on its own, with a copy button.
+function idLine(pairs){ return `<div class="ids">` + pairs.filter(p => p[1] !== undefined && p[1] !== null && p[1] !== "")
+  .map(([k, v]) => `${esc(k)} <span class="v">${esc(v)}</span><button type="button" class="cp" data-copy="${esc(v)}" title="copy">copy</button>`).join(" ") + `</div>`; }
+function scanLine(scans){ return `<div class="ids">scans: ${scans.map(scanHtml).join(" ")}</div>`; }
+function copyText(t){ if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(t).catch(() => fallbackCopy(t)); fallbackCopy(t); }
+function fallbackCopy(t){ const a = document.createElement("textarea"); a.value = t; document.body.appendChild(a); a.select(); try { document.execCommand("copy"); } catch (e) {} a.remove(); }
+document.addEventListener("click", e => { const b = e.target.closest("button.cp"); if (!b) return;
+  copyText(b.dataset.copy); b.textContent = "copied"; setTimeout(() => b.textContent = "copy", 1200); });
+// Verdicts per item id, kept in localStorage under a key unique to this page.
+class CheckStore {
+  constructor(key){ this.key = key; this.V = {}; try { this.V = JSON.parse(localStorage.getItem(key) || "{}"); } catch (e) {} }
+  get(id){ return this.V[id] || {}; }
+  set(id, patch){ this.V[id] = {...this.get(id), ...patch}; try { localStorage.setItem(this.key, JSON.stringify(this.V)); } catch (e) {} }
+  exportJSON(filename, page, items){ const blob = new Blob([JSON.stringify({page, exported: new Date().toISOString(), items}, null, 1)], {type: "application/json"});
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = filename; a.click(); }
+  importJSON(file, idOf, done){ const r = new FileReader(); r.onload = () => { try { const d = JSON.parse(r.result);
+      (d.items || []).forEach(x => { const id = idOf(x); if (id) this.set(id, x); }); done && done(); } catch (e) { alert("could not read " + file.name); } };
+    r.readAsText(file); }
+}
+
+const ITEMS = [{"id": "dev20", "inv": "1917", "folio": "1530", "gold_scan": "NL-HaNA_1.04.02_1917_0975", "pred_scan": "NL-HaNA_1.04.02_1917_0973", "note": "gold scan prints 1531, gold folio 1530 (printed on 973)", "ctx": [{"scan": "NL-HaNA_1.04.02_1917_0972", "numbers": ["5"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1917_0973", "numbers": ["1530"], "tag": "predicted"}, {"scan": "NL-HaNA_1.04.02_1917_0974", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1917_0975", "numbers": ["1531", "25"], "tag": "gold"}, {"scan": "NL-HaNA_1.04.02_1917_0976", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1917_0977", "numbers": ["1532", "25"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1917_0978", "numbers": [], "tag": ""}]}, {"id": "dev22", "inv": "1630", "folio": "1124", "gold_scan": "NL-HaNA_1.04.02_1630_0187", "pred_scan": "NL-HaNA_1.04.02_1630_0526", "note": "gold scan prints 1129 for gold folio 1124", "ctx": [{"scan": "NL-HaNA_1.04.02_1630_0184", "numbers": ["10", "18"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1630_0185", "numbers": ["18"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1630_0186", "numbers": ["15. „", "10", "1"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1630_0187", "numbers": ["1", "1", "1129"], "tag": "gold"}, {"scan": "NL-HaNA_1.04.02_1630_0188", "numbers": ["1129", "1", "18:"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1630_0189", "numbers": ["8", "18"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1630_0190", "numbers": ["10", "13", "1125"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1630_0525", "numbers": ["286", "297", "1438"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1630_0526", "numbers": ["2881", "1439", "349."], "tag": "predicted"}, {"scan": "NL-HaNA_1.04.02_1630_0527", "numbers": ["290", "1440", "2gt"], "tag": ""}]}, {"id": "dev26", "inv": "1363", "folio": "44", "gold_scan": "NL-HaNA_1.04.02_1363_0132", "pred_scan": "NL-HaNA_1.04.02_1363_0130", "note": "43 on 129, 45 on 131 so folio 44 is on 130; gold says 132", "ctx": [{"scan": "NL-HaNA_1.04.02_1363_0129", "numbers": ["43"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1363_0130", "numbers": [], "tag": "predicted"}, {"scan": "NL-HaNA_1.04.02_1363_0131", "numbers": ["45"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1363_0132", "numbers": [], "tag": "gold"}, {"scan": "NL-HaNA_1.04.02_1363_0133", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1363_0134", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1363_0135", "numbers": ["200"], "tag": ""}]}, {"id": "test9", "inv": "2018", "folio": "95", "gold_scan": "NL-HaNA_1.04.02_2018_0207", "pred_scan": "NL-HaNA_1.04.02_2018_0212", "note": "gold scan prints 94, gold folio 95", "ctx": [{"scan": "NL-HaNA_1.04.02_2018_0204", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2018_0205", "numbers": ["1"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2018_0206", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2018_0207", "numbers": ["94"], "tag": "gold"}, {"scan": "NL-HaNA_1.04.02_2018_0208", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2018_0209", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2018_0210", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2018_0211", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2018_0212", "numbers": [], "tag": "predicted"}, {"scan": "NL-HaNA_1.04.02_2018_0213", "numbers": ["96"], "tag": ""}]}, {"id": "test20", "inv": "1903", "folio": "1916", "gold_scan": "NL-HaNA_1.04.02_1903_0468", "pred_scan": "NL-HaNA_1.04.02_1903_0453", "note": "1923 on 467, gold 468 for 1916 (printed on 453)", "ctx": [{"scan": "NL-HaNA_1.04.02_1903_0452", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1903_0453", "numbers": ["1916"], "tag": "predicted"}, {"scan": "NL-HaNA_1.04.02_1903_0454", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1903_0465", "numbers": ["1922"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1903_0466", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1903_0467", "numbers": ["1923"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1903_0468", "numbers": [], "tag": "gold"}, {"scan": "NL-HaNA_1.04.02_1903_0469", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1903_0470", "numbers": ["2"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1903_0471", "numbers": ["1924"], "tag": ""}]}, {"id": "test25", "inv": "7529", "folio": "865", "gold_scan": "NL-HaNA_1.04.02_7529_0897", "pred_scan": "NL-HaNA_1.04.02_7529_0905", "note": "gold scan prints 863, folio 865 printed on 905", "ctx": [{"scan": "NL-HaNA_1.04.02_7529_0894", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_7529_0895", "numbers": ["861"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_7529_0896", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_7529_0897", "numbers": ["863"], "tag": "gold"}, {"scan": "NL-HaNA_1.04.02_7529_0898", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_7529_0899", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_7529_0900", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_7529_0904", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_7529_0905", "numbers": ["865"], "tag": "predicted"}, {"scan": "NL-HaNA_1.04.02_7529_0906", "numbers": [], "tag": ""}]}, {"id": "test27", "inv": "2367", "folio": "3631", "gold_scan": "NL-HaNA_1.04.02_2367_0695", "pred_scan": "NL-HaNA_1.04.02_2367_0709", "note": "3631 printed on 709, gold scan 695 prints 18", "ctx": [{"scan": "NL-HaNA_1.04.02_2367_0692", "numbers": ["18"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2367_0693", "numbers": ["18"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2367_0694", "numbers": ["7", "18"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2367_0695", "numbers": ["18"], "tag": "gold"}, {"scan": "NL-HaNA_1.04.02_2367_0696", "numbers": ["8"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2367_0697", "numbers": ["3619"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2367_0698", "numbers": ["3620"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2367_0708", "numbers": ["3630"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2367_0709", "numbers": ["3631"], "tag": "predicted"}, {"scan": "NL-HaNA_1.04.02_2367_0710", "numbers": [], "tag": ""}]}, {"id": "test29", "inv": "1071", "folio": "14", "gold_scan": "NL-HaNA_1.04.02_1071_0031", "pred_scan": "NL-HaNA_1.04.02_1071_0033", "note": "12 on 29, 14 on 33 so 13 is on 31; gold says 14 on 31", "ctx": [{"scan": "NL-HaNA_1.04.02_1071_0028", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1071_0029", "numbers": ["12"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1071_0030", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1071_0031", "numbers": [], "tag": "gold"}, {"scan": "NL-HaNA_1.04.02_1071_0032", "numbers": ["0"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_1071_0033", "numbers": ["14"], "tag": "predicted"}, {"scan": "NL-HaNA_1.04.02_1071_0034", "numbers": ["5", "5", "96"], "tag": ""}]}, {"id": "test30", "inv": "2394", "folio": "1101", "gold_scan": "NL-HaNA_1.04.02_2394_0624", "pred_scan": "NL-HaNA_1.04.02_2394_0137", "note": "1344 on 623, 1101 printed on 137; gold 624", "ctx": [{"scan": "NL-HaNA_1.04.02_2394_0136", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2394_0137", "numbers": ["1101"], "tag": "predicted"}, {"scan": "NL-HaNA_1.04.02_2394_0138", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2394_0621", "numbers": ["1343"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2394_0622", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2394_0623", "numbers": ["1344", "10: —"], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2394_0624", "numbers": [], "tag": "gold"}, {"scan": "NL-HaNA_1.04.02_2394_0625", "numbers": ["1345."], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2394_0626", "numbers": [], "tag": ""}, {"scan": "NL-HaNA_1.04.02_2394_0627", "numbers": [], "tag": ""}]}];
+const KEY = "as_phase16_22b_gold_errors_v1";
+
+const store = new CheckStore("as_phase16_22b_gold_errors_v1");
+const OPTS = ["gold scan", "predicted scan", "another scan", "cannot tell"];
+function render(){
+  document.getElementById("items").innerHTML = ITEMS.map((it,n) => { const s = store.get(it.id);
+    return `<div class="card"><b>${n+1}/${ITEMS.length}</b> &nbsp; inventory ${esc(it.inv)} ${idLine([["read_id",it.id],["folio",it.folio]])}
+    ${scanLine([it.gold_scan, it.pred_scan])}
+    <table>${it.ctx.map(c => `<tr class="${c.tag}"><td>${scanHtml(c.scan)}</td><td>${esc(c.tag)}</td><td>${esc(c.numbers.join(" | ") || "-")}</td></tr>`).join("")}</table>
+    <div class="q"><b>Which scan carries folio ${esc(it.folio)} (the page with that number, or the opening that starts there)?</b>
+    <span class="btns">${OPTS.map(o => `<button type="button" class="${s.v===o?'on':''}" data-id="${it.id}" data-v="${o}">${o}</button>`).join("")}</span></div>
+    <input type="text" size="16" data-scan="${it.id}" placeholder="scan number if another" value="${esc(s.scan||"")}">
+    <textarea rows="2" data-note="${it.id}" placeholder="note (optional)">${esc(s.note||"")}</textarea></div>`; }).join("");
+  document.getElementById("prog").textContent = ITEMS.filter(it => store.get(it.id).v).length + " / " + ITEMS.length + " answered";
+}
+document.addEventListener("click", e => { const b = e.target.closest("button[data-v]"); if (b) { store.set(b.dataset.id, {v: b.dataset.v}); render(); } });
+document.addEventListener("input", e => { const t = e.target;
+  if (t.dataset.note) store.set(t.dataset.note, {note: t.value}); if (t.dataset.scan) store.set(t.dataset.scan, {scan: t.value}); });
+document.getElementById("exp").onclick = () => store.exportJSON("check_verdicts.json", KEY, ITEMS.map(it => ({id: it.id, inv: it.inv, folio: it.folio, ...store.get(it.id)})));
+render();
+</script></body></html>

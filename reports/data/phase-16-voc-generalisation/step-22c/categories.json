@@ -1,0 +1,47 @@
+{
+ "dev_tmc8_som0.25_cue_gap2_FN": {
+  "n": 44,
+  "categories(all, rule-based)": {
+   "one-column TOC, numbers/dates not at line ends or starts": 14,
+   "very short page (<=5 lines)": 5,
+   "folio numbers in own short lines or column absent": 21,
+   "title/heading page of the register": 3,
+   "layout lost the side (no lines)": 1
+  }
+ },
+ "dev_tmc8_som0.25_cue_gap2_FP": {
+  "n": 297,
+  "categories(all, rule-based)": {
+   "other (letter text, roster, number column)": 119,
+   "account/ledger page (Transport, guilder amounts)": 144,
+   "dated heading of an account (Van <place> onder dato ...)": 34
+  }
+ },
+ "dev_tmc8_somNone_sg_gap8_FN": {
+  "n": 117,
+  "categories(all, rule-based)": {
+   "one-column TOC, numbers/dates not at line ends or starts": 57,
+   "folio numbers in own short lines or column absent": 51,
+   "very short page (<=5 lines)": 5,
+   "title/heading page of the register": 3,
+   "layout lost the side (no lines)": 1
+  }
+ },
+ "test_tmc8_som0.25_cue_gap2_FN": {
+  "n": 37,
+  "categories(all, rule-based)": {
+   "folio numbers in own short lines or column absent": 18,
+   "title/heading page of the register": 2,
+   "one-column TOC, numbers/dates not at line ends or starts": 16,
+   "layout lost the side (no lines)": 1
+  }
+ },
+ "test_tmc8_som0.25_cue_gap2_FP": {
+  "n": 333,
+  "categories(all, rule-based)": {
+   "other (letter text, roster, number column)": 74,
+   "account/ledger page (Transport, guilder amounts)": 105,
+   "dated heading of an account (Van <place> onder dato ...)": 154
+  }
+ }
+}

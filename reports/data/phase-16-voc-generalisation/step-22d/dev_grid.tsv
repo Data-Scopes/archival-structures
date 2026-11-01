@@ -1,0 +1,6 @@
+cell	locators	entries	map	number_tags	n_links	hits	E	located	cov	cov_total	coverage	chance_E	F1
+U2	L7	units	V2	-	193	63	0.3264	1.0	58	996	0.0582	0.3005	0.0988
+U1	L2	units	V0	-	997	244	0.2447	0.7633	212	996	0.2129	0.1976	0.2277
+C1	L7	units	V0	page-number	255	79	0.3098	1.0	68	996	0.0683	0.2627	0.1119
+C2	L8	lines	V2	-	947	522	0.5512	0.9979	447	996	0.4488	0.3052	0.4948
+C3	L8	lines	V0	page-number	1275	689	0.5404	0.9976	482	996	0.4839	0.2667	0.5106

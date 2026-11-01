@@ -1,0 +1,71 @@
+read_id	inv	folio	gold_scan	pred_scan	category	note
+dev1	3102	2908	0023	0024	gap_no_number_near_gold	2907 on 21, 2998 on 25; none on 22-24; interpolation 1 scan late
+dev2	3559	1102	1055	1056	htr_misread	1302 read for 1102 on the gold scan; 1101 on 1053
+dev3	7558	57	0061	0065	restart_second_numbering	56 on 61 and 57 on 65, 53 on 64: two series in a portrait-scan volume
+dev4	3070	1972	0025	0027	unclear	1971 on 23, 1972 on 27, gold 25 between
+dev5	3128	1129	0006	0011	tied_or_duplicated	1129 on the gold scan but 1121/1131/1132/1132 around it; chain rejects it
+dev6	1936	2586	0634	0635	side_layout_offset	2585 on 633, 2586 on 635, gold 634 (unnumbered scan before)
+dev7	2708	94	0201	0203	tied_or_duplicated	94 on gold 201 and on 203
+dev8	1141	389	0893	0907	unclear	389 on 907, gold 893 prints 1584/24
+dev9	1234	1	0317	0014	restart_second_numbering	folio 1 at 14 and a second series from about 314
+dev10	1107	1	0107	0062	restart_second_numbering	1 on 62, a second series 2,3,4 from 107
+dev11	7591	1	0009	0011	extrapolation_beyond_chain	folio 1, no numbers near 9; extrapolated
+dev12	1066	4	0025	0027	gap_no_number_near_gold	3 on 23; 4 expected on 25 is blank
+dev13	2970	76	0087	0088	tied_or_duplicated	76 on 87 and 88
+dev14	2215	6119	0253	0254	tied_or_duplicated	6119 on 253 and 254
+dev15	2686	1206	0645	0649	tied_or_duplicated	1206 on 645, 647 and 649 with a repeated 1213
+dev16	2727	16	0038	0039	side_layout_offset	15 on 37, 16 on 39, gold 38
+dev17	7581	461	0469		extrapolation_beyond_chain	gold beyond the last chain point: no map
+dev18	1630	1738	0847	0845	gap_no_number_near_gold	no number on 844-850
+dev19	3128	1829	0715	0716	tied_or_duplicated	1829 on 715 and 716
+dev20	1917	1530	0975	0973	gold_error	gold scan prints 1531, gold folio 1530 (printed on 973)
+dev21	7534	1	0011	0013	extrapolation_beyond_chain	folio 1, extrapolated
+dev22	1630	1124	0187	0526	gold_error	gold scan prints 1129 for gold folio 1124
+dev23	3095	12	0041	0043	side_layout_offset	12 on 43, gold 41 (2 scans before the printed number)
+dev24	1092	2	0052	0019	restart_second_numbering	2 on 19, again 2 on 51 and 52: second series
+dev25	3823	1119	0008	0010	htr_misread	gold scan reads 1o. 19 for 1119; 1120 on 9, 1121 on 10
+dev26	1363	44	0132	0130	gold_error	43 on 129, 45 on 131 so folio 44 is on 130; gold says 132
+dev27	2974	1373	0167	0171	tied_or_duplicated	1382 repeated on every recto 164-172
+dev28	3308	9	0036	0029	unclear	9 on 29; gold 36 has no number
+dev29	2212	3874	0023	0024	side_layout_offset	3874 on recto of 24, gold 23 (scan before)
+dev30	1768	1428	0037	0039	side_layout_offset	1428 on 39, gold 37; 142/1488 on 35
+dev31	7530	13	0033	0027	gap_no_number_near_gold	no numbers near 33
+dev32	1070	203	0456	0459	tied_or_duplicated	203 on 455, 457 and 459
+dev33	1561	65	0151	0516	tied_or_duplicated	65 on the gold scan, but a repeated 211 and a short chain (13)
+dev34	1371	1	0033	0016	restart_second_numbering	1 on 16, gold 33 is a later series
+dev35	2751	54	0164	0165	htr_misread	54 on 163 dropped next to 55 on 161 and 53
+dev36	1095	3	0011	0013	several_numbers_on_side	gold scan: 2, 61, 1, 3; the first match (2) wins
+dev37	3826	3679	0407	0408	several_numbers_on_side	gold scan: 0, 3679, Seert; the first match (0) wins
+dev38	1166	823	0771	0769	tied_or_duplicated	823 on 769, 835 on 769 and 771; gold folio not printed
+dev39	1307	401	0887	0889	several_numbers_on_side	gold scan: 402, 401; the first match (402, a repeated header) wins
+dev40	3914	626	0247	0248	gap_no_number_near_gold	625 on 244, 627 on 248; none on 245-247
+test1	3682	1440	0463	0465	tied_or_duplicated	1465 on 461, 463 and 465
+test2	1716	9	0035	0059	tied_or_duplicated	10 on 37 and on 60
+test3	2361	1034	0076	0077	tied_or_duplicated	1037 repeated on 75-79
+test4	2940	13	0041	0039	gap_no_number_near_gold	only 15 on 43; none near 41
+test5	7563	173	0177	0179	gap_no_number_near_gold	172 on 179, gold 177, short chain (30)
+test6	1175	75	0167	0193	restart_second_numbering	75 on the gold scan and on 193: two series
+test7	2480	442	0069	0073	several_numbers_on_side	gold scan: 4, 442; first match wins; 442 also on 73
+test8	1251	387	0441	0442	several_numbers_on_side	gold scan: 389, 8, 387; first match wins
+test9	2018	95	0207	0212	gold_error	gold scan prints 94, gold folio 95
+test10	2552	1306	0060	0061	side_layout_offset	1306 on 61, gold 60 (blank scan before)
+test11	1640	9	0020	0017	gap_no_number_near_gold	almost no numbers on 16-23
+test12	3678	154	0425	0417	tied_or_duplicated	154 on 417 and 425
+test13	2612	48	0213	0064	restart_second_numbering	47,48,49 at 211-215 and again at 63-65
+test14	2396	2156	0426	0391	several_numbers_on_side	425: 2172, 2155; first match 2172 wins; 2156 expected on 427
+test15	3588	232	0063	0044	restart_second_numbering	231/233 on 43/45 and 232 on 63: two series
+test16	7533	607	0639	0651	tied_or_duplicated	605 on 637 and 639, 607 on 651
+test17	1075	121	0298	0301	htr_misread	111 read for 121 on 297; 121 on 301
+test18	1603	1191	0016	0494	restart_second_numbering	1169-1193 on 13-19 are a separate early series; chain starts at 240
+test19	1341	1	0855		restart_second_numbering	folio 1 at 855, no number there; new series after 687@716
+test20	1903	1916	0468	0453	gold_error	1923 on 467, gold 468 for 1916 (printed on 453)
+test21	3534	1463	0051	0065	several_numbers_on_side	gold scan: 1467., 1463.; first match 1467 (repeated header) wins
+test22	3913	46	0064	0065	gap_no_number_near_gold	45 on 63, 46 expected on the blank recto 64
+test23	1269	3	0021	0019	gap_no_number_near_gold	168 on 19, 4 on 23; none on 21
+test24	2552	1275	0020	0021	tied_or_duplicated	1275 on 20 and 21
+test25	7529	865	0897	0905	gold_error	gold scan prints 863, folio 865 printed on 905
+test26	1075	191	0454	0455	side_layout_offset	1910 on 453, 191 on 455, gold 454
+test27	2367	3631	0695	0709	gold_error	3631 printed on 709, gold scan 695 prints 18
+test28	7549	1	0005	0010	extrapolation_beyond_chain	folio 1; extrapolated
+test29	1071	14	0031	0033	gold_error	12 on 29, 14 on 33 so 13 is on 31; gold says 14 on 31
+test30	2394	1101	0624	0137	gold_error	1344 on 623, 1101 printed on 137; gold 624

@@ -2,10 +2,11 @@
 from __future__ import annotations
 
 import re
+import dataclasses
 from dataclasses import dataclass
 from pathlib import Path
 from types import SimpleNamespace
-from typing import Mapping, Optional, Sequence
+from typing import Collection, Mapping, Optional, Sequence
 
 from archival_structures.analysis import page_structure
 from archival_structures.analysis.folio_map import FOLIO_MAP_V2, FolioMapParams, build_folio_map
@@ -42,7 +43,9 @@ class VolumeInputs:
     numbers: dict
 
 
-def read_volume_inputs(layer_root: Path, inv: str) -> VolumeInputs:
+def read_volume_inputs(layer_root: Path, inv: str, *, number_tags: Collection[str] = ()) -> VolumeInputs:
+    """`number_tags` (phase 16, VOC): also append, after the page_number segment texts, the full text of every line
+    in a region whose `regions_meta` region_tag is in the set (e.g. Laypa "page-number"). Default: not read."""
     root = Path(layer_root)
     pages_path = root / "layout" / "pages" / f"{inv}.tsv.gz"
     if not pages_path.exists():
@@ -60,6 +63,19 @@ def read_volume_inputs(layer_root: Path, inv: str) -> VolumeInputs:
             continue
         t = text.get((s["scan_id"], s["line_id"]), "")
         numbers.setdefault((s["scan_id"], s["page"]), []).append(t[int(s["char_start"]):int(s["char_end"])])
+    if number_tags:
+        tags = set(number_tags)
+        regions = {(r["scan_id"], r["region_id"]) for r in read_tsv_gz(root / "regions_meta" / f"{inv}.tsv.gz")
+                   if r["region_tag"] in tags}
+        where = {(r["scan_id"], r["line_id"]): (r["region_id"], r["page"])
+                 for r in read_tsv_gz(root / "layout" / "lines" / f"{inv}.tsv.gz")}
+        for key, t in text.items():
+            reg_page = where.get(key)
+            if reg_page is None or (key[0], reg_page[0]) not in regions or not t.strip():
+                continue
+            lst = numbers.setdefault((key[0], reg_page[1]), [])
+            if t not in lst:
+                lst.append(t)
     return VolumeInputs(inv, scan_ids, sides, flags, numbers)
 
 
@@ -90,6 +106,8 @@ class LocatorParams:
     range_slack: int = 6     # L4, L7
     sub_entry_punct: bool = False  # L5+: a run followed by a capital needs one of .,:; in the separator (not a bare space)
     left_boundary: bool = False    # L6+: drop a number whose first digit follows a letter; amount_before on the whole prefix
+    lead_pattern: str = ""         # L8 (phase 16): a line that starts with this (group 1 = folio) has that locator
+    standalone_pattern: str = ""   # L8: a line that is only this (after stripping quotes/punctuation) has group 1 as locator
 
 
 SG_LOCATOR_PARAMS = {v: LocatorParams(variant=v, ordinal_after=r"(e|en|ste|de)\b", month_after=SG_MONTHS,
@@ -107,6 +125,16 @@ SG_LOCATOR_PARAMS["L6"] = LocatorParams(
 SG_LOCATOR_PARAMS["L7"] = LocatorParams(
     variant="L7", ordinal_after=_V1.ordinal_after, month_after=_V1.month_after, quantity_after=_V1.quantity_after,
     amount_before=SG_AMOUNT_BEFORE_V2, sub_entry_punct=True, left_boundary=True)
+# Step 22d (phase 16): L8 for VOC tables of contents, where the folio number leads an entry or stands on its own line.
+_VOC_PREFIX = r"(?:(?:fo|fol|folio|pag|pag:s|p)\.?\s*)?"
+_VOC_RANGE = r"\s*(?:a|tot|en|\u2014|\u2013|-)\s*\d{1,4}"
+VOC_LOCATOR_PARAMS = {"L8": LocatorParams(
+    variant="L8", ordinal_after=SG_LOCATOR_PARAMS["L7"].ordinal_after, month_after=SG_LOCATOR_PARAMS["L7"].month_after,
+    quantity_after=SG_LOCATOR_PARAMS["L7"].quantity_after, amount_before=SG_AMOUNT_BEFORE_V2, sub_entry_punct=True,
+    left_boundary=True,
+    standalone_pattern=_VOC_PREFIX + r"(\d{1,4})(?:\s*(?:verso|v)\.?)?(?:" + _VOC_RANGE + r"(?:\s*(?:verso|v)\.?)?)?",
+    lead_pattern=r"\W{0,3}" + _VOC_PREFIX + r"(\d{1,4})\s*(?:verso\s*)?" + _VOC_RANGE[3:] + r"\b")}
+_STANDALONE_STRIP = " \t\u201e\"'.:,;-\u2014\u2013"
 _EXCLUDING = ("L3", "L4", "L6", "L7")
 _RANGED = ("L4", "L7")
 _PUNCT = re.compile(r"[.,:;]")
@@ -117,7 +145,12 @@ _AFTER_SEP = r"[\s.,:]*"
 
 def extract_locators(text: str, params: LocatorParams, *,
                      folio_range: Optional[tuple] = None) -> list:
-    """Folio numbers at the end of an entry (or of a segment of it), by variant L1-L7 (see docs/index_links.md)."""
+    """Folio numbers at the end of an entry (or of a segment of it), by variant L1-L7 (see docs/index_links.md).
+
+    L8 (VOC tables of contents; ``text`` is one line): a standalone number line, else a number that leads the line
+    before a range, else the L7 rules; numbers outside ``folio_range`` +- ``range_slack`` are dropped."""
+    if params.variant == "L8":
+        return _extract_l8(text, params, folio_range)
     if params.variant not in ("L1", "L2", "L3", "L4", "L5", "L6", "L7"):
         raise ValueError(params.variant)
     sep = re.compile(params.separators)
@@ -165,6 +198,25 @@ def extract_locators(text: str, params: LocatorParams, *,
         lo, hi = folio_range[0] - params.range_slack, folio_range[1] + params.range_slack
         out = [m for m in out if lo <= int(m.group()) <= hi]
     return [Locator(int(m.group()), m.start(), m.end()) for m in out]
+
+
+def _extract_l8(text: str, params: LocatorParams, folio_range: Optional[tuple]) -> list:
+    core = text.strip(_STANDALONE_STRIP)
+    out = []
+    m = re.fullmatch(params.standalone_pattern, core, re.I) if params.standalone_pattern and core else None
+    if m is not None:
+        off = len(text) - len(text.lstrip(_STANDALONE_STRIP))
+        out = [Locator(int(m.group(1)), off + m.start(1), off + m.end(1))]
+    else:
+        m = re.match(params.lead_pattern, text, re.I) if params.lead_pattern else None
+        if m is not None:
+            out = [Locator(int(m.group(1)), m.start(1), m.end(1))]
+        else:
+            out = extract_locators(text, dataclasses.replace(params, variant="L7"), folio_range=None)
+    if folio_range is not None:
+        lo, hi = folio_range[0] - params.range_slack, folio_range[1] + params.range_slack
+        out = [loc for loc in out if lo <= loc.number <= hi]
+    return out
 
 
 LINK_COLUMNS = ["scan_id", "page", "unit_id", "loc_idx", "number", "char_start", "char_end", "front_scan_id",

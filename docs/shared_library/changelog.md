@@ -4,6 +4,31 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.21.0 (2026-11-01)
+
+### Step 22d: locator variant L8 for VOC tables of contents
+
+- `analysis.index_links.LocatorParams`: new fields `lead_pattern: str = ""` and `standalone_pattern: str = ""`;
+  `extract_locators` accepts variant `"L8"` (one TOC line: standalone number, else leading range, else the L7 rules);
+  new `VOC_LOCATOR_PARAMS = {"L8": ...}`. Variants L1-L7 unchanged (SG inv 3444: `volume_links` with L1-L7 and
+  `volume_links_v2` give identical links before and after).
+- Additive. No sibling import is affected.
+
+### Step 22b: folio map options for single-page foliation and Laypa number text
+
+- `analysis.folio_map.FolioMapParams`: new fields `single_foliation: bool = False` and `single_slope: float = 1.5`; with
+  `single_foliation` on, `build_folio_map` can return `foliation` for volumes of `single` sides numbered on every other scan,
+  and a target's `back` may be the next `single` side.
+- `analysis.index_links.read_volume_inputs(layer_root, inv, *, number_tags=())`: with `number_tags` the full text of lines in
+  `regions_meta` regions with those tags is appended to `numbers` (reads `regions_meta` and `layout/lines`).
+- Additive; defaults reproduce the previous outputs (SG inv 3444 inputs are equal objects). No sibling import is affected.
+
+### Step 22a: VOC preset voc_1.04.02_v5sg
+
+- New `VOC_SOURCE_PATTERN`, `VOC_1_04_02_V5SG` and `PRESETS["voc_1.04.02_v5sg"]` in
+  `archival_structures/text_layer/presets.py`: the SG v5 preset with archive plumbing only (no inventory-keyed pins).
+- Additive. No sibling import is affected.
+
 ## v0.20.0 (2026-10-30)
 
 ### Step 21b: folio map v2 (2026-10-30)

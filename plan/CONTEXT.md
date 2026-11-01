@@ -4,9 +4,9 @@
 > Implementation sessions do not read it: a brief copies in the facts it needs from here. Each phase
 > review updates it, so briefs start from the code as it is, not as it was planned. Keep it under
 > ~150 lines. History belongs in the phase `PROGRESS.md` files.
-> **Last updated:** 2026-10-30, review of phase 15 (Opus); trimmed to budget.
+> **Last updated:** 2026-11-01, review of phase 16 (Opus); trimmed to budget.
 
-## 1. Text layer v2–v5 and index links: what exists now (after phase 15)
+## 1. Text layer v2–v5 and index links: what exists now (after phase 16)
 
 - **CLI:** `.venv/bin/as-build-text-layer --preset <key> --pagexml-dir D --out-dir O --stage all` (extract → layout →
   types → units → wbc → join; each stage alone too; `--*-params` JSON merged over the preset). 1.10.94 needs
@@ -19,7 +19,9 @@
   `mode_overrides[mode]`; 1.01.02 only: `split_gate` (≥ 0.35), print `drop_cap_lines=2`, `MODE_PINS_V4`. **v5** (phase 13):
   `SG_1_01_02_V5` = v4 + hand `index_sides` `SG_INDEX_SIDES_V5` (side rule + gap fill 8 → `layout/pages/`) and units
   `index_entry` `SG_INDEX_ENTRY_V5B` (`hand:index_start`, `hand:index:<cues>`). Not in any preset (bars failed):
-  `hand_column_split` (`pieces`, `reorder`), E5. New fields are left out of `to_dict` when `None`.
+  `hand_column_split` (`pieces`, `reorder`), E5. New fields are left out of `to_dict` when `None`. **VOC** (phase 16):
+  `VOC_1_04_02_V5SG` (`voc_1.04.02_v5sg`) = SG v5 with archive plumbing only (`VOC_SOURCE_PATTERN` `<inv>.zip`, no
+  inventory-keyed pins); no VOC-tuned rules exist.
 - **Build** (`text_layer/modes.py`): pre-pass → `decide_mode` → `mode/<inv>.json` → extract with the mode's rules;
   stages skip current inventories and broken chains. Run kit `scripts/run_text_layer_v4_full.py` (`--src`, `--rebuild
   ARCHIVE=F`, coreshare, `--version {v4,v5}`); `scripts/stage_text_layer_v4_full.py`.
@@ -30,7 +32,9 @@
   - full v4 and v5 runs on the user's drive only (v5: UA-045, 9,122 volumes, audit 0 judged); staged review files
     `data/text_layer_v4_full/`, `data/text_layer_v5_full/`;
   - published, never rebuilt (D17): `text_layer_v2` (= `15i-b`), `text_layer_v3` pilot (= `15n-a`), `text_layer_v4`
-    pilot (= `15y-b`), `text_layer_v5` pilot (= `19e-a`, UA-046 (a)).
+    pilot (= `15y-b`), `text_layer_v5` pilot (= `19e-a`, UA-046 (a));
+  - VOC dev layer `data/text_layer_voc_22a/1.04.02/NL-HaNA_1.04.02_text_layer_v5/` (link to T7_Data, 567 volumes: 545
+    GM + 22 GLOBALISE, 6.0 GB, audit 0 judged; inputs `data/text_layer_voc_inputs/`); NLP's v1 at `data/voc_text_layer_v1`.
 - **Audit:** `reports/data/phase-13-register-index-volumes/step-19e/audit.py --layer <base> --out F` (read
   `n_fail_judged`); comparer `phase-12-…/step-15v/compare.py`; phase-09 `planning/` metrics (`compare`, `protect`).
 - **pagexml-tools 0.9.1** pinned (`>=0.9.1`, `MIN_PAGEXML_TOOLS` (0, 9, 1), 20a); both `assign_column_roles` workarounds
@@ -41,9 +45,12 @@
   `FolioTarget(…, confidence, opening)`; `FOLIO_MAP_V2` = G1 jump cut, G2 tied numbers, G3 bracket confidence, G4
   opening; default params = v1); `analysis/index_links.py` (`front_index_run`, `read_volume_inputs`, `extract_locators`
   L1–L7 in `SG_LOCATOR_PARAMS`, `volume_links` (v1); `read_side_lines`, `side_reading_order`, `assemble_entries` A1–A3,
-  `entry_locators`; `volume_links_v2` + `V2_CONFIG` = A0 + L7 + `FOLIO_MAP_V2`); builder `scripts/build_index_links.py
+  `entry_locators`; `volume_links_v2` + `V2_CONFIG` = A0 + L7 + `FOLIO_MAP_V2`; phase 16, off by default:
+  `FolioMapParams.single_foliation` (no effect on scan-level leaves), `read_volume_inputs(…, number_tags=)`, L8 +
+  `VOC_LOCATOR_PARAMS` for one-line TOC entries); builder `scripts/build_index_links.py
   --version {v1,v2}`; `docs/index_links.md`. v1: dev `data/index_links_dev/20r-a/`, full run `data/index_links_full/`
-  (412 volumes, 902,031 links); v2: dev `21d-a/` (41 volumes), full run UA-056. Neither published (UA-053 a, UA-057).
+  (412 volumes, 902,031 links); v2: dev `21d-a/` (41 volumes), full run `data/index_links_full_v2/` (UA-056; 412 volumes,
+  879,672 links; G1 drops the chain start in 11 volumes, F15-21d.8). Neither published (UA-053 a, UA-057 a).
   **Spent gold:** 20c, and 21a's side-level gold of 29 volumes; untouched: the 371 drive-only front-index volumes.
   REPUBLIC via `data/republic_segmentation_v1`.
 
@@ -74,7 +81,11 @@ the same, F15-R.4), L P 0.981; L R 0.856, A 0.892, E 0.825 failed, no better tha
 `main_text` units). A1–A3 not selected: heading attachment costs more than they gain (F15-21c.1/.7). Embedded entries
 are gold-neutral for links (F15-R.2). 3712 maps as `pagination`; L7 drops its out-of-chain locators.
 
-## 3. Data facts that shape SG work
+**VOC (phase 16):** the SG v5 rules run unchanged (P2): `¬` is not a break mark, so 116,881 stay unjoined (F16-22a.5);
+index flags are SG's (1 of 186 TOC scans). Folio map, index-side detector and index links fail their VOC bars
+(F 0.654, D P 0.067 R 0.393, E 0.644 after 22r; F16-22e.1).
+
+## 3. Data facts that shape SG and VOC work
 
 - Hand 1.01.02 and print 456 have no region labels; 455's Laypa labels are mostly on empty regions (F07-P.1, F07-P.2).
   Print 1.10.94 regions interleave both columns (F07-15fp.3); the HTR merges date header, first line and page number
@@ -97,22 +108,35 @@ are gold-neutral for links (F15-R.2). 3712 maps as `pagination`; L7 drops its ou
   (443 inv) and `…/NL-HaNA_1.10.94/…` (455, 456), Parquet by `inv`. Resolution pages only. **Scoring only.** Weak hand
   resolution starts (recall 0.558), ~750 spurious hand sessions; page coverage is near total, so a page-level check is at
   ceiling (F14-20e.6). `.venv` has pyarrow 26.0.0.
+- **VOC 1.04.02 (phase 16).** All 567 built volumes are `hand` (box height 109–274 px). Laypa region tags exist
+  (`page-number`, `marginalia` 16% of segments, `catch-word`). The GM `Enkel`/`Dubbel` label is not a scan layout: 146
+  volumes are openings, 57 `Dubbel` are portrait single pages (F16-22a.3). Folios sit on rectos (single pages: 90% of
+  steps 2 scans apart); tied numbers, restarts, gaps; chain LOO 0.884 vs SG 0.986 (F16-22b.6/.8). GM folio gold has
+  ~4–5% errors (F16-22b.5, UA-059). GLOBALISE TOCs are one-column, 1–40 scans, folios in own lines or as a leading
+  range; ledger pages look like index pages to the SG detector (F16-22c.2/.4). `toc_gold.tsv` and the GLOBALISE CSVs
+  have up to 4 rows per scan (F16-R.1). Gold: `reports/data/phase-16-voc-generalisation/planning/` (dev/test by
+  inventory, seed 20261031; 2775 planner-seen); the GM and TOC test splits are now spent.
 
 ## 4. Open follow-ups for the next phase
 
-**Status 2026-10-30:** phase 15 done and reviewed. Next: phase 16, VOC (1.04.02), what generalises (staging UA-054
-answered (a)). Other candidate archives named by the user: 2.10.01, 2.10.50 (4 inventories local).
+**Status 2026-11-01:** phase 16 (VOC) done and reviewed (22r fixed a 22d scorer defect). The next phase is the user's
+choice (UA-060): VOC rules v1, 2.10.50 (4 inventories local; deferred by the user at phase-16 planning), or SG index
+links v3. Other candidate archive named by the user: 2.10.01.
 
-**From phase 15** (report *Follow-ups*): UA-055 (user check), UA-056 (v2 full run), UA-057 (publication, recommended
-no). An index-links v3, each item with a bar on new gold (drive-only volumes or 29 more local sides): entry assembly as
-v1 units plus the side's `marginalia` lines (53 of 67 test locator misses, F15-21c.6) or A1 with a heading rule needing a
-trailing `.` and a following number-ended entry (F15-21c.7, F15-R.5); HTR-split folio numbers (F15-R.3); still open
-from phase 14: 3681/3601, dated indexes, separate index volumes.
+**From phase 16** (report *Follow-ups*): a VOC break set with `¬` (new layer version, D17; F16-22a.5); a VOC folio map
+that uses the side layout and numbering mode, handles restarts and volume-start extrapolation, with a bar on a checked
+GM subset (F16-22b.4/.5, F16-R.3/.4; UA-059 open); a one-column TOC detector with a ledger guard and `min_after` scaled to
+volume length (F16-22c.2/.4/.6); L8 v2 (`à`, dots, "verso" after the range, numbers increasing along the TOC; F16-22d.6)
+with a bar on fresh TOC reads (the GLOBALISE TOC test split is spent); VOC unit order (marginalia/catch-words, F16-22a.7).
 
-**From phase 13:** rule work, each with its own bar on fresh reads: a detector false-positive guard (roster end pairs,
-amount-shaped line ends, isolated flagged sides; F13-R.13); column order v3 (row pairing, split x from the overlap
-band; F13-R.10); `marginalia`-typed entry starts (F13-R.12); continuation cuts after amounts (F13-19g.4); one-column and
-garbled indexes (F13-19c.5). Any of these ships as a new layer version (D17).
+**From phase 15:** text-based link gold cannot see HTR digit misreads (F15-21a.9), so a v3 gold checks each locator on
+the image; a G1 fix (drop the anchor that makes an interior jump, F15-21d.8); index-links v3 items, each with a bar on new
+gold: entries as v1 units plus `marginalia` lines (F15-21c.6) or A1 with a heading rule (F15-21c.7, F15-R.5), HTR-split
+folio numbers (F15-R.3); from phase 14: 3681/3601, dated indexes, separate index volumes.
+
+**From phase 13:** a detector false-positive guard (F13-R.13); column order v3 (F13-R.10); `marginalia`-typed entry
+starts (F13-R.12); continuation cuts after amounts (F13-19g.4); one-column and garbled indexes (F13-19c.5). Each ships
+as a new layer version (D17).
 
 Older: a per-mode extract fit (F12-15yr.4); parallel layout/types/units (P29); hand-bottom off-chain page numbers
 (F09-R.5); `_pn_candidate` should pick the chain's band number; a capitals mark rule, then `g_upper_right` (F09-15l.5);
@@ -129,10 +153,9 @@ REPUBLIC crosswalk from `republic_segmentation_v1` paragraph line ids (455/456).
   a cause (F10-R.1). One output prefix per subcommand.
 - **Changelog:** the first step after a release adds `## Unreleased`. **Layer roots:** one per sub-layer.
 - **Ports carry their rationale** (F08-R.4). **Say whether a rule reads the line or the segment text** (15k).
-- **The agent shell:** no `rm -rf`, `nohup` or `&`; a new dir per run; `chmod g+w`; zsh (quote `'{workers}'`; `echo ==`
-  fails); never `git stash`/`checkout`/`reset`; no `sed -i` (BSD needs `''`): edit with Python or Edit, and a step that
-  sets a default reads it back before a test run (20e's test ran first on a placeholder). Sibling suites with their own
-  interpreter: LotA `PYTHONNOUSERSITE=1 venv/bin/python -m pytest -q -p no:cacheprovider` (380 passed, 1 skipped,
+- **The agent shell:** no `rm -rf`, `nohup`, `&` or `$TMPDIR`; a new dir per run; `chmod g+w`; zsh (quote `'{workers}'`);
+  never `git stash`/`checkout`/`reset`; BSD `sed -i ''`; a step that sets a default reads it back before a test run (20e).
+  Sibling suites: LotA `PYTHONNOUSERSITE=1 venv/bin/python -m pytest -q -p no:cacheprovider` (380 passed, 1 skipped,
   1 xfailed), NLP the same with `tests` (66 passed).
 - **Run every command a brief quotes once at planning**; macOS `zcat` fails on `.gz`. A brief that says a command does
   *not* read something must have checked it (15y). A run kit's final audit must know the new layer's checks (F13-R.16);
@@ -153,7 +176,9 @@ REPUBLIC crosswalk from `republic_segmentation_v1` paragraph line ids (455/456).
   a new series, read every stage's output that can fail there** (F12-R.7). **Selected volumes are not a sample**
   (F12-R.5). "Reported only" and a pass/fail count in one brief contradict each other.
 - **Validate a fitted model on held-out units** (F12-R.18); check what a timing column covers first (F12-R.17).
+- **Gold row grain** (phase 16): a brief states one row per scan/event/document and how to collapse it (F16-R.1).
+  **Run every new option or criterion once on dev at planning** to show it can move the measure (F16-R.5). A brief's
+  scan-layout assumption is checked on more than the smoke volumes (22b's all-single premise came from 2 volumes; 146 of 567 are openings).
 - **A blocking UA:** the brief says what a step does while it is open (wait, or a diagnostic that spends no held-out gold).
-- **The session publishes AS layers in `shared-data/` itself** (user, 2026-10-27): copy/delete the layer data, edit
-  `README.md`; whether to publish stays a Decide UA. Before a delete: look, check write access and sibling links, `rm -r`
-  the exact path; after a copy: `chmod -R g+w`, `diff -rq`, changelog line. Only AS's own layers.
+- **The session publishes AS layers in `shared-data/` itself** (user, 2026-10-27; whether to publish is a Decide UA):
+  look, check write access and sibling links, `rm -r` the exact path; after a copy `chmod -R g+w`, `diff -rq`, changelog.

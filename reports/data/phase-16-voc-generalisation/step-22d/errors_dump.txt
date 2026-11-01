@@ -1,0 +1,78 @@
+## dev non-hits (C3): 30 of 604 non-hits
+1267	0012	loc=543	front=1078	interpolated	nearest gold start 1077 at -1 leaves	| „ 543 a 544
+1267	0014	loc=357	front=0723	printed	nearest gold start 0725 at +2 leaves	| Ed:e geszr: van dato P=mo december 1667. , met bijlaegen . „ 322 a 357
+1267	0014	loc=365	front=0739	printed	nearest gold start 0741 at +2 leaves	| d=o als boven van dato 30 april 1668. . . . . . . „ 358 a 365
+1274	0006	loc=269	front=0568	interpolated	nearest gold start 0567 at -1 leaves	| 269 a 270. Bevinding van 't schip 't huijs te Velsens
+1274	0007	loc=1670	front=1820	interpolated	nearest gold start 1819 at -1 leaves	| dato 14 Nov. 1670.
+1274	0010	loc=1670	front=1820	interpolated	nearest gold start 1819 at -1 leaves	| dato 10 Nov. 1670.
+1274	0011	loc=1670	front=1820	interpolated	nearest gold start 1819 at -1 leaves	| 6 Oct. 1670.
+1388	0015	loc=1683	front=0023	extrapolated	nearest gold start 0029 at +6 leaves	| Septemb. 1683.
+1388	0016	loc=2200	front=0659	printed	nearest gold start 0613 at -46 leaves	| ulto. Decemb: deses Jaers in Cochin en op Poria 2200
+1388	0023	loc=1683	front=0023	extrapolated	nearest gold start 0029 at +6 leaves	| ontfangen 19. 'n Januarij 10. ' en 30. en maart 1683.
+1557	0014	loc=317	front=0697	printed	nearest gold start 0695 at -2 leaves	| register der papieren - - - - - - - - - - - - - - - - - „ 376 a 317
+2548	0010	loc=174	front=0222	interpolated	nearest gold start 0225 at +3 leaves	| A„o 174:1
+2548	0010	loc=38	front=0084	interpolated	nearest gold start 0083 at -1 leaves	| „38
+2548	0011	loc=38	front=0084	interpolated	nearest gold start 0083 at -1 leaves	| „38
+2548	0011	loc=310	front=0364	interpolated	nearest gold start 0368 at +4 leaves	| 310
+2548	0012	loc=38	front=0084	interpolated	nearest gold start 0083 at -1 leaves	| den 18:' d„o per de aparte missive van den Command:r en raad tot Samarang 38
+2548	0016	loc=321	front=0375	printed	nearest gold start 0374 at -1 leaves	| 321
+2548	0021	loc=11	front=0054	interpolated	nearest gold start 0050 at -4 leaves	| 11
+2548	0034	loc=1748	front=1820	interpolated	nearest gold start 1818 at -2 leaves	| en pamacassan aan als even. . . - - - „ 1748
+2548	0041	loc=25	front=0071	printed	nearest gold start 0077 at +6 leaves	| „25
+2548	0042	loc=1024	front=1078	interpolated	nearest gold start 1076 at -2 leaves	| - - - - - - - - - 1024
+2555	0014	loc=8	front=0032	interpolated	nearest gold start 0025 at -7 leaves	| justitie de dato 3:e octob:r 1742. - - – - „ 33. 34. 8. 35.
+2555	0014	loc=17	front=0041	printed	nearest gold start 0025 at -16 leaves	| Nagelaten - - - - - - - - - - „ 17.
+2555	0018	loc=76	front=0132	interpolated	nearest gold start 0134 at +2 leaves	| _:o „ Paul fredrik E versoon. . . . „ 76.
+2555	0018	loc=75	front=0131	printed	nearest gold start 0134 at +3 leaves	| Anthonij Isaac Cassa - _ _ _ _ _ _ _ „ 75.
+2555	0020	loc=67	front=0123	printed	nearest gold start 0122 at -1 leaves	| „ Jacob Kool. - - „ 67.
+2555	0615	loc=2	front=0026	extrapolated	nearest gold start 0025 at -1 leaves	| „ 2.
+3142	0005	loc=1765	front=0004	extrapolated	nearest gold start 0017 at +13 leaves	| tot 20 8br 1765.
+3142	0005	loc=1765	front=0004	extrapolated	nearest gold start 0017 at +13 leaves	| 2062 „ 2074 aenkomende brieven van manaer zeedert 29 xb:r 1764 tot 24 xb:r 1765.
+8121	0005	loc=37	front=0048	interpolated	nearest gold start 0047 at -1 leaves	| 37
+## test non-hits (C3): 30 of 159 non-hits
+1120	0009	loc=1	front=0017	printed	nearest gold start 0013 at -4 leaves	| 1
+1120	0010	loc=456	front=0530	interpolated	nearest gold start 0532 at +2 leaves	| 456 a 457. Memorie van de Spaense joncke ladingh.
+1120	0011	loc=3	front=0019	interpolated	nearest gold start 0013 at -6 leaves	| 03
+1120	0011	loc=773	front=0929	printed	nearest gold start 0932 at +3 leaves	| 763 à 773. Copie missive van Nicolaes Cloet uijt Grofficquia
+1120	0011	loc=782	front=0945	printed	nearest gold start 0943 at -2 leaves	| 780à 782. Lijste van 't guarnisoen op Iaffasaho I Tabalola.
+1120	0011	loc=3	front=0019	interpolated	nearest gold start 0013 at -6 leaves	| 3
+1529	0005	loc=27	front=0063	printed	nearest gold start 0059 at -4 leaves	| generael ende raeden van Jndien in dato 27
+1529	0006	loc=578	front=1175	interpolated	nearest gold start 1173 at -2 leaves	| 578
+1529	0009	loc=10	front=0025	printed	nearest gold start 0011 at -14 leaves	| 10
+1539	0009	loc=21	front=0067	printed	nearest gold start 0064 at -3 leaves	| ende Raden van Jndien geschreven gedateert 21
+1539	0010	loc=125	front=0277	printed	nearest gold start 0271 at -6 leaves	| laers Rigsidas en bagwaendas. . . . . . . . . . . . . . . . / 122 a 125.
+1539	0013	loc=24	front=0073	printed	nearest gold start 0071 at -2 leaves	| 24 en 25 Julij 1693 belangende het afbrengen
+2448	0007	loc=3	front=0031	extrapolated	nearest gold start 0029 at -2 leaves	| .„ 3:—
+2448	0007	loc=18	front=0046	interpolated	nearest gold start 0029 at -17 leaves	| soura 't sedert den 18 maij tot den 18
+2448	0009	loc=18	front=0046	interpolated	nearest gold start 0029 at -17 leaves	| soura 't sedert den 18 maij tot den 18
+2448	0009	loc=1738	front=1761	interpolated	nearest gold start 1755 at -6 leaves	| A„o 1738
+2448	0011	loc=1493	front=1513	printed	nearest gold start 1511 at -2 leaves	| „ 1493
+2448	0013	loc=774	front=0794	interpolated	nearest gold start 0999 at +205 leaves	| 774
+2448	0018	loc=1738	front=1761	interpolated	nearest gold start 1755 at -6 leaves	| A„o 1738
+2448	0018	loc=14	front=0042	interpolated	nearest gold start 0029 at -13 leaves	| makelaars 't sedert p„mo 7ber tot 14
+2448	0019	loc=1738	front=1761	interpolated	nearest gold start 1755 at -6 leaves	| A„o 1738
+2448	0019	loc=1737	front=1760	interpolated	nearest gold start 1755 at -5 leaves	| 1737
+2448	0020	loc=1769	front=1799	printed	nearest gold start 1797 at -2 leaves	| den 26: october Register der papieren - - - - - „ 1769
+2448	0021	loc=2198	front=2232	interpolated	nearest gold start 2228 at -4 leaves	| 2198:
+2448	0025	loc=1738	front=1761	interpolated	nearest gold start 1755 at -6 leaves	| febr: 1738
+2448	0026	loc=1736	front=1758	interpolated	nearest gold start 1755 at -3 leaves	| 1736 en 1737.:
+3891	0010	loc=5107	front=0827	interpolated	nearest gold start 0699 at -128 leaves	| 5038. . . 5107. Bylaagen bij voorsz: verantwoording
+8276	0005	loc=7	front=0045	printed	nearest gold start 0042 at -3 leaves	| laastleeden - - - - - - - - - - - - - - „ 7.
+8276	0038	loc=1733	front=0166	printed	nearest gold start 0081 at -85 leaves	| 1733. —
+8284	0137	loc=55	front=0065	printed	nearest gold start 0068 at +3 leaves	| dullagh en pangirang maas de pattij aan haar hoog Ed:s„ 55.
+## dev lines without an L8 locator whose text holds an OBP folio_start: 15 of 207
+1267	0019	single	| 1Wingurla
+1557	0012	single	| nagara - - - - - - - - - - - - - - - - - - - - - - - „ 149 a 149 verso
+1557	0012	single	| in dato 2 Januarij 1694. . . . . . . . . . . . . . . . . „ 180 verso a 199 verso
+1557	0013	single	| Hendrick dijckman opgestelt in dato 7 november 1694 „ 259 verso a 262 verso
+1557	0015	single	| a3
+1557	0017	single	| Dito missive als vooren in dato 27 Dito - - - - - - - - - „ 656 a 668 verso
+1557	0018	single	| in dato 29 Dito - - - - - - - - - - - - - - - - - - „ 749 a 749 verso
+2548	0009	single	| en d' raaden van Jndia ged:t 20:' maart 1741. . . . . . . . „
+2548	0011	single	| Briefje van Samarang na Sourabaija gesz: op den 14:' april 1741„
+2548	0014	single	| dato 2: bevoorens - - -
+2548	0015	single	| Commandant gesz: op den 15: en 16„' der veelm: maand
+2548	0016	single	| den 6:' Julij per 1. ond:
+2548	0017	single	| 12: Julij pass:o
+2548	0022	single	| de n 8:' per 't schip d„o van en aan als vooren sub dato 31:' aug:s Jongstlen
+2548	0024	single	| A„o 1741. —

@@ -124,7 +124,7 @@ The fixed rule selected A0 + L7, so v2 keeps v1's entries. No review-fixes step:
 the review (F15-R.3, R.7).
 
 User actions:
-- UA-055 (check 20 links);
+- UA-055 (check 20 links): done 2026-10-30, F15-21a.8, F15-21a.9;
 - UA-056 (v2 full run, optional);
 - UA-057 (publication; recommended (a), do not publish).
 

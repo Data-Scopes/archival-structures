@@ -1,0 +1,228 @@
+{
+ "page": "as_phase15_21a_links_v1",
+ "exported": "2026-10-30T15:32:48.810Z",
+ "items": [
+  {
+   "id": "T029",
+   "read_id": "S27",
+   "inv": "3265",
+   "locator": "121",
+   "recto_scan": "NL-HaNA_1.01.02_3265_0166",
+   "verso_scan": "NL-HaNA_1.01.02_3265_0167",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T031",
+   "read_id": "S28",
+   "inv": "3274",
+   "locator": "650",
+   "recto_scan": "NL-HaNA_1.01.02_3274_0730",
+   "verso_scan": "NL-HaNA_1.01.02_3274_0731",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T033",
+   "read_id": "S28",
+   "inv": "3274",
+   "locator": "55",
+   "recto_scan": "NL-HaNA_1.01.02_3274_0135",
+   "verso_scan": "NL-HaNA_1.01.02_3274_0136",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T037",
+   "read_id": "S29",
+   "inv": "3280",
+   "locator": "231",
+   "recto_scan": "NL-HaNA_1.01.02_3280_0277",
+   "verso_scan": "NL-HaNA_1.01.02_3280_0278",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "No"
+  },
+  {
+   "id": "T040",
+   "read_id": "S30",
+   "inv": "3283",
+   "locator": "488",
+   "recto_scan": "NL-HaNA_1.01.02_3283_0516",
+   "verso_scan": "NL-HaNA_1.01.02_3283_0517",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T041",
+   "read_id": "S30",
+   "inv": "3283",
+   "locator": "502",
+   "recto_scan": "NL-HaNA_1.01.02_3283_0530",
+   "verso_scan": "NL-HaNA_1.01.02_3283_0531",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T042",
+   "read_id": "S30",
+   "inv": "3283",
+   "locator": "551",
+   "recto_scan": "NL-HaNA_1.01.02_3283_0579",
+   "verso_scan": "NL-HaNA_1.01.02_3283_0580",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T044",
+   "read_id": "S31",
+   "inv": "3290",
+   "locator": "434",
+   "recto_scan": "NL-HaNA_1.01.02_3290_0500",
+   "verso_scan": "NL-HaNA_1.01.02_3290_0501",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "No"
+  },
+  {
+   "id": "T046",
+   "read_id": "S31",
+   "inv": "3290",
+   "locator": "461",
+   "recto_scan": "NL-HaNA_1.01.02_3290_0527",
+   "verso_scan": "NL-HaNA_1.01.02_3290_0528",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T051",
+   "read_id": "S33",
+   "inv": "3349",
+   "locator": "200",
+   "recto_scan": "NL-HaNA_1.01.02_3349_0235",
+   "verso_scan": "NL-HaNA_1.01.02_3349_0236",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T057",
+   "read_id": "S34",
+   "inv": "3350",
+   "locator": "236",
+   "recto_scan": "NL-HaNA_1.01.02_3350_0273",
+   "verso_scan": "NL-HaNA_1.01.02_3350_0274",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T059",
+   "read_id": "S35",
+   "inv": "3353",
+   "locator": "442",
+   "recto_scan": "NL-HaNA_1.01.02_3353_0477",
+   "verso_scan": "NL-HaNA_1.01.02_3353_0478",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T063",
+   "read_id": "S36",
+   "inv": "3438",
+   "locator": "110",
+   "recto_scan": "NL-HaNA_1.01.02_3438_0153",
+   "verso_scan": "NL-HaNA_1.01.02_3438_0154",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T064",
+   "read_id": "S36",
+   "inv": "3438",
+   "locator": "120",
+   "recto_scan": "NL-HaNA_1.01.02_3438_0163",
+   "verso_scan": "NL-HaNA_1.01.02_3438_0164",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes",
+   "note": "Strangely, the evidence crop has text does has little to do with the index entry lemma, but it is the correct resolution."
+  },
+  {
+   "id": "T067",
+   "read_id": "S37",
+   "inv": "3459",
+   "locator": "233",
+   "recto_scan": "NL-HaNA_1.01.02_3459_0282",
+   "verso_scan": "NL-HaNA_1.01.02_3459_0283",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T073",
+   "read_id": "S38",
+   "inv": "3507",
+   "locator": "190",
+   "recto_scan": "NL-HaNA_1.01.02_3507_0239",
+   "verso_scan": "NL-HaNA_1.01.02_3507_0240",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T075",
+   "read_id": "S39",
+   "inv": "3522",
+   "locator": "464",
+   "recto_scan": "NL-HaNA_1.01.02_3522_0514",
+   "verso_scan": "NL-HaNA_1.01.02_3522_0515",
+   "q1": "Yes",
+   "q2": "Unsure",
+   "q3": "No"
+  },
+  {
+   "id": "T078",
+   "read_id": "S39",
+   "inv": "3522",
+   "locator": "198",
+   "recto_scan": "NL-HaNA_1.01.02_3522_0247",
+   "verso_scan": "NL-HaNA_1.01.02_3522_0248",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T082",
+   "read_id": "S40",
+   "inv": "3547",
+   "locator": "830",
+   "recto_scan": "NL-HaNA_1.01.02_3547_0888",
+   "verso_scan": "NL-HaNA_1.01.02_3547_0889",
+   "q1": "Yes",
+   "q2": "Yes",
+   "q3": "Yes"
+  },
+  {
+   "id": "T089",
+   "read_id": "S42",
+   "inv": "3630",
+   "locator": "697",
+   "recto_scan": "NL-HaNA_1.01.02_3630_0752",
+   "verso_scan": "NL-HaNA_1.01.02_3630_0753",
+   "q1": "Unsure",
+   "q2": "Unsure",
+   "q3": "Yes",
+   "note": "I can't find resolution text related to the entry lemma. Perhaps the number is recognised incorrectly and it should be 637 instead of 697."
+  }
+ ]
+}

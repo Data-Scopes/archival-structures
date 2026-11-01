@@ -1,0 +1,16 @@
+export as_phase15_21a_links_v1 2026-10-30T15:32:48.810Z items 20
+q1 {'Yes': 19, 'Unsure': 1}
+q2 {'Yes': 18, 'Unsure': 2}
+q3 {'Yes': 17, 'No': 3}
+
+q2 by the agent's content judgement:
+  leaf {'Yes': 17}
+  unclear {'Yes': 1}
+  absent {'Unsure': 2}
+
+items with any non-Yes answer or a note:
+  T037 inv 3280 N=231 q1=Yes q2=Yes q3=No agent=neighbours/unclear | 
+  T044 inv 3290 N=434 q1=Yes q2=Yes q3=No agent=printed/leaf | 
+  T064 inv 3438 N=120 q1=Yes q2=Yes q3=Yes agent=printed/leaf | Strangely, the evidence crop has text does has little to do with the index entry lemma, but it is the correct resolution.
+  T075 inv 3522 N=464 q1=Yes q2=Unsure q3=No agent=printed/absent | 
+  T089 inv 3630 N=697 q1=Unsure q2=Unsure q3=Yes agent=printed/absent | I can't find resolution text related to the entry lemma. Perhaps the number is recognised incorrectly and it should be 637 instead of 697.

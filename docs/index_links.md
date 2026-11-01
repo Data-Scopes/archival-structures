@@ -78,8 +78,8 @@ volumes are identical to the dev build (report § *After the review*, F14-20e.9)
 
 Phase 15 (step 21d). Built by `scripts/build_index_links.py --version v2` from a v5 text layer with
 `archival_structures.analysis.index_links.V2_CONFIG` and `volume_links_v2`. v1 is unchanged (`--version v1`, the default;
-the 21d rebuild equals the phase-14 build file for file). **Not published**: the layer is built whatever the bars said; the
-phase review decides on publication. Report: `reports/phase-15-index-links-v2.md` (steps 21a-21d).
+the 21d rebuild equals the phase-14 build file for file). **Not published** (UA-057 (a), 2026-10-30): three bars fail, and G1
+loses links in 11 full-run volumes. A later index-links phase publishes once it meets the bars on fresh gold. Report: `reports/phase-15-index-links-v2.md` (steps 21a-21d).
 
 ## Rules (v2)
 
@@ -129,6 +129,10 @@ rest at the locator step. Silver (reported, not a bar): share of entry words fou
 in the 13 two-column `high`-stratum volumes 0.368 (v1 0.357), control 0.075; 1.3% of v2 links have their matter on the
 opening side only.
 
+## Full run (v2, v5 full layer, UA-056, 2026-10-30)
+
+On the drive (`/Volumes/T7_Data/Data/claude-projects-external/archival-structures/data/index_links_v2/`); `volumes.tsv` and `manifest.json` in `data/index_links_full_v2/`. 8,856 inventories, the same 412 with a front index as v1, none failed; 629,912 entries, 879,878 locators, 879,672 linked; 715 s. The 41 dev volumes are identical to `21d-a`. Against the v1 full run: 35,116 fewer locators, 22,359 fewer links; 9,885 of those links are lost in 11 volumes where G1 cuts the start of the chain (phase-15 report, F15-21d.7, F15-21d.8).
+
 ## Bars (v2 against fresh gold, 21a; Wilson 95%)
 
 | Bar | v2 | v1 | Result |
@@ -159,7 +163,29 @@ New from 21b/21c:
 - Numbers outside the chain range +-6 are dropped as locators (L7), so volumes whose chain covers only part of the folios
   lose those locators (3712, paginated, chain 348-684: 237 of 299 locators, none of them located in v1 either).
 - Year-like end anchors no longer reach the map (G1), but the cut chain may then end before the last real folios.
+- G1 cuts at every jump and keeps the longest piece. A misread interior anchor that makes a jump therefore splits the real sequence, and the shorter piece is lost: in 11 full-run volumes, among them 3244 (folios 90-163 lost), the chain starts more than 20 folios later than in v1 (F15-21d.8).
 - The test gold has none of the failure modes G1-G3 fix, so their benefit is only shown by the dev volume tables
   (166 tied numbers dropped in 29 volumes, 7 chain ends changed), not by a bar.
 - v2 links do not say which of an entry's several locators the matter belongs to (silver: 71% of links have an entry word on
   the target sides against 22% on the control).
+
+## VOC options (phase 16)
+
+Two opt-in parameters, both off by default (outputs of `FolioMapParams()`, `FOLIO_MAP_V2` and `read_volume_inputs(root, inv)`
+unchanged). `FolioMapParams.single_foliation` (S) with `single_slope` (default 1.5): when at least `foliation_recto_share`
+of the anchors are on `single` sides and the longest increasing chain of the `single` anchors has at least `min_chain`
+points and a median of at least `single_slope` scans per number, the volume is `foliation` at scan positions (numbers on every
+other single-page scan), and a target's `back` may be the next `single` side. `read_volume_inputs(..., number_tags=("page-number",))`
+(N) also reads the full text of the lines in regions whose `regions_meta` tag is in the set, after the `page_number` segment
+texts and without duplicates. On the VOC Generale Missiven gold (step 22b) neither option brings the map near bar F: N adds
+4 points, S none (`reports/phase-16-voc-generalisation.md`).
+
+## L8 (VOC, phase 16)
+
+`extract_locators(line, VOC_LOCATOR_PARAMS["L8"], folio_range=...)` is for the lines of a VOC table of contents (*Register der
+brieven*), where the folio number leads an entry ("288 a 291. Copie ...") or stands alone ("„ 1492:"). It takes, in order: the
+`standalone_pattern` (the whole line, after stripping quotes and punctuation, is a folio or a folio range, optionally with
+`verso`; the first number), else the `lead_pattern` (a folio range at the start of the line; the first number), else the L7
+rules on the line. Numbers outside the chain range +-6 are dropped. New `LocatorParams` fields `lead_pattern` and
+`standalone_pattern` default to `""`; L1-L7 are unchanged. Step 22d: with oracle TOC sides, test E 274/433 = 0.633 against
+0.90 (`fails on VOC`); known gaps: the connectors "à" and " / ", dots before the range end, and "verso" after it.

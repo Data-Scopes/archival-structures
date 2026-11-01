@@ -1,0 +1,364 @@
+{
+ "run_at": "2026-11-01T02:48:56",
+ "selected": "C3",
+ "cells": {
+  "U1": {
+   "n": 411,
+   "hit": 138,
+   "E": 0.3357664233576642,
+   "E_wilson": [
+    0.2918,
+    0.3828
+   ],
+   "chance": 77,
+   "chance_E": 0.1873479318734793,
+   "located": 374,
+   "located_share": 0.9099756690997567,
+   "cov": 126,
+   "cov_total": 462,
+   "coverage": 0.2727272727272727,
+   "F1": 0.30098146128680475,
+   "per_volume": {
+    "1120": {
+     "n": 108,
+     "hit": 16,
+     "chance": 16,
+     "located": 105,
+     "cov": 15,
+     "cov_total": 60
+    },
+    "1529": {
+     "n": 13,
+     "hit": 0,
+     "chance": 1,
+     "located": 6,
+     "cov": 0,
+     "cov_total": 15
+    },
+    "1539": {
+     "n": 157,
+     "hit": 89,
+     "chance": 42,
+     "located": 156,
+     "cov": 80,
+     "cov_total": 222
+    },
+    "2448": {
+     "n": 39,
+     "hit": 5,
+     "chance": 6,
+     "located": 39,
+     "cov": 2,
+     "cov_total": 64
+    },
+    "3891": {
+     "n": 46,
+     "hit": 2,
+     "chance": 6,
+     "located": 23,
+     "cov": 2,
+     "cov_total": 13
+    },
+    "8023": {
+     "n": 0,
+     "hit": 0,
+     "chance": 0,
+     "located": 0,
+     "cov": 0,
+     "cov_total": 0
+    },
+    "8237": {
+     "n": 5,
+     "hit": 3,
+     "chance": 0,
+     "located": 4,
+     "cov": 4,
+     "cov_total": 16
+    },
+    "8276": {
+     "n": 11,
+     "hit": 9,
+     "chance": 4,
+     "located": 11,
+     "cov": 9,
+     "cov_total": 15
+    },
+    "8284": {
+     "n": 10,
+     "hit": 4,
+     "chance": 1,
+     "located": 10,
+     "cov": 4,
+     "cov_total": 19
+    },
+    "8834": {
+     "n": 22,
+     "hit": 10,
+     "chance": 1,
+     "located": 20,
+     "cov": 10,
+     "cov_total": 38
+    }
+   },
+   "bar_E_pass": false,
+   "inv_2775": {
+    "n": 50,
+    "hit": 0,
+    "E": 0.0,
+    "E_wilson": [
+     0.0,
+     0.0714
+    ],
+    "chance": 0,
+    "chance_E": 0.0,
+    "located": 50,
+    "located_share": 1.0,
+    "cov": 0,
+    "cov_total": 42,
+    "coverage": 0.0,
+    "F1": 0.0
+   }
+  },
+  "U2": {
+   "n": 163,
+   "hit": 88,
+   "E": 0.5398773006134969,
+   "E_wilson": [
+    0.4633,
+    0.6146
+   ],
+   "chance": 41,
+   "chance_E": 0.25153374233128833,
+   "located": 163,
+   "located_share": 1.0,
+   "cov": 101,
+   "cov_total": 462,
+   "coverage": 0.21861471861471862,
+   "F1": 0.3112099301458359,
+   "per_volume": {
+    "1120": {
+     "n": 54,
+     "hit": 14,
+     "chance": 12,
+     "located": 54,
+     "cov": 14,
+     "cov_total": 60
+    },
+    "1529": {
+     "n": 2,
+     "hit": 0,
+     "chance": 1,
+     "located": 2,
+     "cov": 0,
+     "cov_total": 15
+    },
+    "1539": {
+     "n": 53,
+     "hit": 48,
+     "chance": 15,
+     "located": 53,
+     "cov": 59,
+     "cov_total": 222
+    },
+    "2448": {
+     "n": 3,
+     "hit": 0,
+     "chance": 1,
+     "located": 3,
+     "cov": 0,
+     "cov_total": 64
+    },
+    "3891": {
+     "n": 15,
+     "hit": 2,
+     "chance": 6,
+     "located": 15,
+     "cov": 2,
+     "cov_total": 13
+    },
+    "8023": {
+     "n": 0,
+     "hit": 0,
+     "chance": 0,
+     "located": 0,
+     "cov": 0,
+     "cov_total": 0
+    },
+    "8237": {
+     "n": 3,
+     "hit": 3,
+     "chance": 0,
+     "located": 3,
+     "cov": 4,
+     "cov_total": 16
+    },
+    "8276": {
+     "n": 11,
+     "hit": 9,
+     "chance": 4,
+     "located": 11,
+     "cov": 9,
+     "cov_total": 15
+    },
+    "8284": {
+     "n": 7,
+     "hit": 3,
+     "chance": 1,
+     "located": 7,
+     "cov": 3,
+     "cov_total": 19
+    },
+    "8834": {
+     "n": 15,
+     "hit": 9,
+     "chance": 1,
+     "located": 15,
+     "cov": 10,
+     "cov_total": 38
+    }
+   },
+   "bar_E_pass": false,
+   "inv_2775": {
+    "n": 0,
+    "hit": 0,
+    "E": 0.0,
+    "E_wilson": [
+     null,
+     null
+    ],
+    "chance": 0,
+    "chance_E": 0.0,
+    "located": 0,
+    "located_share": 0.0,
+    "cov": 0,
+    "cov_total": 42,
+    "coverage": 0.0,
+    "F1": 0.0
+   }
+  },
+  "C3": {
+   "n": 433,
+   "hit": 274,
+   "E": 0.6327944572748267,
+   "E_wilson": [
+    0.5864,
+    0.6768
+   ],
+   "chance": 103,
+   "chance_E": 0.23787528868360278,
+   "located": 433,
+   "located_share": 1.0,
+   "cov": 265,
+   "cov_total": 462,
+   "coverage": 0.5735930735930735,
+   "F1": 0.6017411626259153,
+   "per_volume": {
+    "1120": {
+     "n": 70,
+     "hit": 40,
+     "chance": 11,
+     "located": 70,
+     "cov": 39,
+     "cov_total": 60
+    },
+    "1529": {
+     "n": 35,
+     "hit": 19,
+     "chance": 6,
+     "located": 35,
+     "cov": 13,
+     "cov_total": 15
+    },
+    "1539": {
+     "n": 125,
+     "hit": 111,
+     "chance": 43,
+     "located": 125,
+     "cov": 123,
+     "cov_total": 222
+    },
+    "2448": {
+     "n": 98,
+     "hit": 40,
+     "chance": 14,
+     "located": 98,
+     "cov": 32,
+     "cov_total": 64
+    },
+    "3891": {
+     "n": 19,
+     "hit": 5,
+     "chance": 6,
+     "located": 19,
+     "cov": 3,
+     "cov_total": 13
+    },
+    "8023": {
+     "n": 0,
+     "hit": 0,
+     "chance": 0,
+     "located": 0,
+     "cov": 0,
+     "cov_total": 0
+    },
+    "8237": {
+     "n": 18,
+     "hit": 14,
+     "chance": 9,
+     "located": 18,
+     "cov": 13,
+     "cov_total": 16
+    },
+    "8276": {
+     "n": 17,
+     "hit": 12,
+     "chance": 6,
+     "located": 17,
+     "cov": 11,
+     "cov_total": 15
+    },
+    "8284": {
+     "n": 19,
+     "hit": 9,
+     "chance": 5,
+     "located": 19,
+     "cov": 7,
+     "cov_total": 19
+    },
+    "8834": {
+     "n": 32,
+     "hit": 24,
+     "chance": 3,
+     "located": 32,
+     "cov": 24,
+     "cov_total": 38
+    }
+   },
+   "bar_E_pass": false,
+   "inv_2775": {
+    "n": 143,
+    "hit": 36,
+    "E": 0.2517482517482518,
+    "E_wilson": [
+     0.1877,
+     0.3287
+    ],
+    "chance": 17,
+    "chance_E": 0.11888111888111888,
+    "located": 142,
+    "located_share": 0.993006993006993,
+    "cov": 28,
+    "cov_total": 42,
+    "coverage": 0.6666666666666666,
+    "F1": 0.3654822335025381
+   }
+  }
+ },
+ "verdict": "fails on VOC",
+ "end_to_end": {
+  "volumes_with_front": 0,
+  "n": 22,
+  "links": 0,
+  "hits": 0
+ }
+}

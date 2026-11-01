@@ -424,3 +424,48 @@ def test_builder_v2_rejects_variant(tmp_path):
     b = _load_builder()
     with pytest.raises(SystemExit):
         b.main(["--layer", str(layer), "--out-dir", str(out), "--version", "v2", "--variant", "L2"])
+
+
+def test_read_volume_inputs_number_tags(tmp_path):
+    root = tmp_path
+    write_tsv_gz(root / "scans" / "9.scans.tsv.gz", ["scan_id", "status"], [["A", "ok"], ["B", "ok"]])
+    write_tsv_gz(root / "layout" / "pages" / "9.tsv.gz", ["scan_id", "page", "index_side"],
+                 [["A", "single", "0"], ["B", "single", "0"]])
+    write_tsv_gz(root / "lines" / "9.lines.tsv.gz", ["scan_id", "line_id", "text"],
+                 [["A", "l1", "12"], ["A", "l2", "text"], ["B", "l1", "13"], ["B", "l2", "13"], ["B", "l3", "x"]])
+    write_tsv_gz(root / "types" / "segments" / "9.tsv.gz",
+                 ["scan_id", "line_id", "char_start", "char_end", "page", "line_type"],
+                 [["A", "l2", "0", "4", "single", "page_number"]])
+    write_tsv_gz(root / "regions_meta" / "9.tsv.gz", ["scan_id", "region_id", "region_tag"],
+                 [["A", "r1", "page-number"], ["A", "r2", "paragraph"], ["B", "r1", "page-number"]])
+    write_tsv_gz(root / "layout" / "lines" / "9.tsv.gz", ["scan_id", "line_id", "region_id", "page"],
+                 [["A", "l1", "r1", "single"], ["A", "l2", "r2", "single"], ["B", "l1", "r1", "single"],
+                  ["B", "l2", "r1", "single"], ["B", "l3", "r2", "single"]])
+    old = read_volume_inputs(root, "9")
+    assert old.numbers == {("A", "single"): ["text"]}
+    new = read_volume_inputs(root, "9", number_tags=("page-number",))
+    assert new.numbers == {("A", "single"): ["text", "12"], ("B", "single"): ["13"]}
+    assert read_volume_inputs(root, "9", number_tags=()) == old
+
+
+# --- step 22d: L8 (VOC tables of contents) ----------------------------------------------------------------------
+
+def test_l8_voc_lines():
+    from archival_structures.analysis.index_links import VOC_LOCATOR_PARAMS, extract_locators
+    p = VOC_LOCATOR_PARAMS["L8"]
+    t = "„ 1492:"
+    locs = extract_locators(t, p)
+    assert [l.number for l in locs] == [1492] and t[locs[0].char_start:locs[0].char_end] == "1492"
+    for text, want in [("288 a 291. Copie missive", [288]), ("fo. 17 verso a 78", [17]),
+                       ("1999 en 2000 Originele missive", [1999]), ("ƒ4800:—", []),
+                       ("ƒ 4800:—", []), ("61. 10. —", []),
+                       ("Missive van den 4 Junij aan Heeren 135", [135])]:
+        assert [l.number for l in extract_locators(text, p)] == want, text
+    assert extract_locators(t, p, folio_range=(100, 300)) == []
+    assert [l.number for l in extract_locators(t, p, folio_range=(1000, 1500))] == [1492]
+
+
+def test_l8_unknown_variant_still_raises():
+    from archival_structures.analysis.index_links import LocatorParams, extract_locators
+    with pytest.raises(ValueError):
+        extract_locators("12", LocatorParams(variant="L9"))

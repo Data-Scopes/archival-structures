@@ -1,0 +1,13 @@
+# shared-data datasets whose files are byte-identical on T7_Data (checked 2026-10-30, AS session; UA-058).
+# Input to /Users/Shared/claude_projects/data_scopes/shared-tools/relink_to_drive.py. Not listed, because not on the
+# drive in the same form or not identical: paragraphs/source (9,121 of 9,122 identical to PageXML/Republic/paragraphs_old;
+# _1 differs; LotA reads it and its allowed_roots exclude the drive), republic_export_2026-03 (the drive has it per
+# session, not per inventory), attendance lists, deputies, EAD, 1.10.94 and KB_7B PageXML, voc_text_layer_v1 (105 of
+# 41,490 files on the drive), and every derived layer (shared-data is their canonical copy).
+local_dir	drive_dir
+/Users/Shared/claude_projects/data_scopes/shared-data/NL-HaNA_1.01.02/pagexml	/Volumes/T7_Data/Data/PageXML/Republic/inventory_pagexml
+/Users/Shared/claude_projects/data_scopes/shared-data/NL-HaNA_1.04.02/pagexml_v2.1/source	/Volumes/T7_Data/Data/PageXML/Globalise/pagexml_v2.1
+/Users/Shared/claude_projects/data_scopes/shared-data/NL-HaNA_1.01.02/republic_export_2025-02/source	/Volumes/T7_Data/Data/REPUBLIC/paragraphs/entities-Feb-2025-parsed-json
+/Users/Shared/claude_projects/data_scopes/shared-data/NL-HaNA_1.01.02/republic_ner_2026-04-11	/Volumes/T7_Data/Data/REPUBLIC/entities/curated-entities-Mar-2026
+/Users/Shared/claude_projects/data_scopes/shared-data/line_class_preprocessed_page_json	/Volumes/T7_Data/Data/REPUBLIC/pages/Mar-2026/line_class_preprocessed_page_json
+/Users/Shared/claude_projects/data_scopes/shared-data/line_class_preprocessed_page_json	/Volumes/T7_Data/Data/REPUBLIC/pages/raw_page_json

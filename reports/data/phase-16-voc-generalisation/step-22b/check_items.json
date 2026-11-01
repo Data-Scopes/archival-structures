@@ -1,0 +1,609 @@
+[
+ {
+  "id": "dev20",
+  "inv": "1917",
+  "folio": "1530",
+  "gold_scan": "NL-HaNA_1.04.02_1917_0975",
+  "pred_scan": "NL-HaNA_1.04.02_1917_0973",
+  "note": "gold scan prints 1531, gold folio 1530 (printed on 973)",
+  "ctx": [
+   {
+    "scan": "NL-HaNA_1.04.02_1917_0972",
+    "numbers": [
+     "5"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1917_0973",
+    "numbers": [
+     "1530"
+    ],
+    "tag": "predicted"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1917_0974",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1917_0975",
+    "numbers": [
+     "1531",
+     "25"
+    ],
+    "tag": "gold"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1917_0976",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1917_0977",
+    "numbers": [
+     "1532",
+     "25"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1917_0978",
+    "numbers": [],
+    "tag": ""
+   }
+  ]
+ },
+ {
+  "id": "dev22",
+  "inv": "1630",
+  "folio": "1124",
+  "gold_scan": "NL-HaNA_1.04.02_1630_0187",
+  "pred_scan": "NL-HaNA_1.04.02_1630_0526",
+  "note": "gold scan prints 1129 for gold folio 1124",
+  "ctx": [
+   {
+    "scan": "NL-HaNA_1.04.02_1630_0184",
+    "numbers": [
+     "10",
+     "18"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1630_0185",
+    "numbers": [
+     "18"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1630_0186",
+    "numbers": [
+     "15. „",
+     "10",
+     "1"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1630_0187",
+    "numbers": [
+     "1",
+     "1",
+     "1129"
+    ],
+    "tag": "gold"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1630_0188",
+    "numbers": [
+     "1129",
+     "1",
+     "18:"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1630_0189",
+    "numbers": [
+     "8",
+     "18"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1630_0190",
+    "numbers": [
+     "10",
+     "13",
+     "1125"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1630_0525",
+    "numbers": [
+     "286",
+     "297",
+     "1438"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1630_0526",
+    "numbers": [
+     "2881",
+     "1439",
+     "349."
+    ],
+    "tag": "predicted"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1630_0527",
+    "numbers": [
+     "290",
+     "1440",
+     "2gt"
+    ],
+    "tag": ""
+   }
+  ]
+ },
+ {
+  "id": "dev26",
+  "inv": "1363",
+  "folio": "44",
+  "gold_scan": "NL-HaNA_1.04.02_1363_0132",
+  "pred_scan": "NL-HaNA_1.04.02_1363_0130",
+  "note": "43 on 129, 45 on 131 so folio 44 is on 130; gold says 132",
+  "ctx": [
+   {
+    "scan": "NL-HaNA_1.04.02_1363_0129",
+    "numbers": [
+     "43"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1363_0130",
+    "numbers": [],
+    "tag": "predicted"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1363_0131",
+    "numbers": [
+     "45"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1363_0132",
+    "numbers": [],
+    "tag": "gold"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1363_0133",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1363_0134",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1363_0135",
+    "numbers": [
+     "200"
+    ],
+    "tag": ""
+   }
+  ]
+ },
+ {
+  "id": "test9",
+  "inv": "2018",
+  "folio": "95",
+  "gold_scan": "NL-HaNA_1.04.02_2018_0207",
+  "pred_scan": "NL-HaNA_1.04.02_2018_0212",
+  "note": "gold scan prints 94, gold folio 95",
+  "ctx": [
+   {
+    "scan": "NL-HaNA_1.04.02_2018_0204",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2018_0205",
+    "numbers": [
+     "1"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2018_0206",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2018_0207",
+    "numbers": [
+     "94"
+    ],
+    "tag": "gold"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2018_0208",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2018_0209",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2018_0210",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2018_0211",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2018_0212",
+    "numbers": [],
+    "tag": "predicted"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2018_0213",
+    "numbers": [
+     "96"
+    ],
+    "tag": ""
+   }
+  ]
+ },
+ {
+  "id": "test20",
+  "inv": "1903",
+  "folio": "1916",
+  "gold_scan": "NL-HaNA_1.04.02_1903_0468",
+  "pred_scan": "NL-HaNA_1.04.02_1903_0453",
+  "note": "1923 on 467, gold 468 for 1916 (printed on 453)",
+  "ctx": [
+   {
+    "scan": "NL-HaNA_1.04.02_1903_0452",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1903_0453",
+    "numbers": [
+     "1916"
+    ],
+    "tag": "predicted"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1903_0454",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1903_0465",
+    "numbers": [
+     "1922"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1903_0466",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1903_0467",
+    "numbers": [
+     "1923"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1903_0468",
+    "numbers": [],
+    "tag": "gold"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1903_0469",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1903_0470",
+    "numbers": [
+     "2"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1903_0471",
+    "numbers": [
+     "1924"
+    ],
+    "tag": ""
+   }
+  ]
+ },
+ {
+  "id": "test25",
+  "inv": "7529",
+  "folio": "865",
+  "gold_scan": "NL-HaNA_1.04.02_7529_0897",
+  "pred_scan": "NL-HaNA_1.04.02_7529_0905",
+  "note": "gold scan prints 863, folio 865 printed on 905",
+  "ctx": [
+   {
+    "scan": "NL-HaNA_1.04.02_7529_0894",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_7529_0895",
+    "numbers": [
+     "861"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_7529_0896",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_7529_0897",
+    "numbers": [
+     "863"
+    ],
+    "tag": "gold"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_7529_0898",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_7529_0899",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_7529_0900",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_7529_0904",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_7529_0905",
+    "numbers": [
+     "865"
+    ],
+    "tag": "predicted"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_7529_0906",
+    "numbers": [],
+    "tag": ""
+   }
+  ]
+ },
+ {
+  "id": "test27",
+  "inv": "2367",
+  "folio": "3631",
+  "gold_scan": "NL-HaNA_1.04.02_2367_0695",
+  "pred_scan": "NL-HaNA_1.04.02_2367_0709",
+  "note": "3631 printed on 709, gold scan 695 prints 18",
+  "ctx": [
+   {
+    "scan": "NL-HaNA_1.04.02_2367_0692",
+    "numbers": [
+     "18"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2367_0693",
+    "numbers": [
+     "18"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2367_0694",
+    "numbers": [
+     "7",
+     "18"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2367_0695",
+    "numbers": [
+     "18"
+    ],
+    "tag": "gold"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2367_0696",
+    "numbers": [
+     "8"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2367_0697",
+    "numbers": [
+     "3619"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2367_0698",
+    "numbers": [
+     "3620"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2367_0708",
+    "numbers": [
+     "3630"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2367_0709",
+    "numbers": [
+     "3631"
+    ],
+    "tag": "predicted"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2367_0710",
+    "numbers": [],
+    "tag": ""
+   }
+  ]
+ },
+ {
+  "id": "test29",
+  "inv": "1071",
+  "folio": "14",
+  "gold_scan": "NL-HaNA_1.04.02_1071_0031",
+  "pred_scan": "NL-HaNA_1.04.02_1071_0033",
+  "note": "12 on 29, 14 on 33 so 13 is on 31; gold says 14 on 31",
+  "ctx": [
+   {
+    "scan": "NL-HaNA_1.04.02_1071_0028",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1071_0029",
+    "numbers": [
+     "12"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1071_0030",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1071_0031",
+    "numbers": [],
+    "tag": "gold"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1071_0032",
+    "numbers": [
+     "0"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1071_0033",
+    "numbers": [
+     "14"
+    ],
+    "tag": "predicted"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_1071_0034",
+    "numbers": [
+     "5",
+     "5",
+     "96"
+    ],
+    "tag": ""
+   }
+  ]
+ },
+ {
+  "id": "test30",
+  "inv": "2394",
+  "folio": "1101",
+  "gold_scan": "NL-HaNA_1.04.02_2394_0624",
+  "pred_scan": "NL-HaNA_1.04.02_2394_0137",
+  "note": "1344 on 623, 1101 printed on 137; gold 624",
+  "ctx": [
+   {
+    "scan": "NL-HaNA_1.04.02_2394_0136",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2394_0137",
+    "numbers": [
+     "1101"
+    ],
+    "tag": "predicted"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2394_0138",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2394_0621",
+    "numbers": [
+     "1343"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2394_0622",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2394_0623",
+    "numbers": [
+     "1344",
+     "10: —"
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2394_0624",
+    "numbers": [],
+    "tag": "gold"
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2394_0625",
+    "numbers": [
+     "1345."
+    ],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2394_0626",
+    "numbers": [],
+    "tag": ""
+   },
+   {
+    "scan": "NL-HaNA_1.04.02_2394_0627",
+    "numbers": [],
+    "tag": ""
+   }
+  ]
+ }
+]

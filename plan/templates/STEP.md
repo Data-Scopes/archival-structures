@@ -71,6 +71,13 @@ to change, and why.>
 - Every expectation about the data in a brief ("near 0", "about 900 px") says whether it was
   measured (give the number and the inventories) or not. (Phase 06: hand candidate rates were
   expected near 0 and came out at 40–87%.)
+- A gold or silver file named in a brief states its row grain (one row per scan, per event, per
+  document) and how to collapse it to the unit being scored. (Phase 16, 22d: `toc_gold.tsv` had
+  up to 4 rows per scan; a last-row-wins dict dropped the start of 691 scans.)
+- Every new option, criterion or measure a brief defines was run once at planning on dev data,
+  to show it can change the score or flag what it should. (Phase 16, 22b: `single_foliation`
+  could not move the leaf share by construction, and the restart criterion flagged 509 of 545
+  volumes.) The agent shell may have no `$TMPDIR`; name the log path.
 
 ## Tests
 

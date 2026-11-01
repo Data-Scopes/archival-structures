@@ -243,6 +243,16 @@ SG_1_01_02_V5 = dataclasses.replace(
     mode_overrides={**SG_1_01_02_V4.mode_overrides,
                     "hand": {"layout_params": {**SG_HAND_LAYOUT_PARAMS, "index_sides": SG_INDEX_SIDES_V5},
                              "unit_params": {"index_entry": SG_INDEX_ENTRY_V5B}}})
+# Step 22a (phase 16): the VOC archive (NL-HaNA 1.04.02) with the SG v5 rules unchanged. Only archive plumbing differs;
+# every inventory-keyed SG setting (wbc_pinned inventory keys, volume_mode pins) is dropped because VOC inventory numbers
+# overlap SG ones. SG_1_01_02_V5.join_lead_marks_lower is None, so nothing to drop there.
+VOC_SOURCE_PATTERN = r"(?P<inv>[0-9]+[A-Z]*)\.zip"
+VOC_1_04_02_V5SG = dataclasses.replace(
+    SG_1_01_02_V5, name="NL-HaNA_1.04.02_text_layer_v5", archive_id="NL-HaNA_1.04.02",
+    scan_id_prefix="NL-HaNA_1.04.02", source_pattern=VOC_SOURCE_PATTERN, throughput_fit=None,
+    wbc_pinned={"default": SG_1_01_02_V5.wbc_pinned["default"]},
+    volume_mode={k: v for k, v in SG_1_01_02_V5.volume_mode.items() if k != "pins"},
+    description="NL-HaNA 1.04.02 (VOC) text layer: the SG v5 rules unchanged (phase 16 step 22a)")
 SG_1_10_94_V4 = dataclasses.replace(
     SG_PRINT_V3, name="NL-HaNA_1.10.94_text_layer_v4",
     description="NL-HaNA 1.10.94 text layer v4 (print mode fixed; box height recorded)",
@@ -252,7 +262,7 @@ SG_1_10_94_V4 = dataclasses.replace(
 PRESETS = {"voc_v1": VOC_V1, "sg_1.01.02_v2": SG_HAND_V2, "sg_1.10.94_v2": SG_PRINT_V2,
            "sg_1.01.02_v3": SG_HAND_V3, "sg_1.10.94_v3": SG_PRINT_V3,
            "sg_1.01.02_v4": SG_1_01_02_V4, "sg_1.10.94_v4": SG_1_10_94_V4,
-           "sg_1.01.02_v5": SG_1_01_02_V5}
+           "sg_1.01.02_v5": SG_1_01_02_V5, "voc_1.04.02_v5sg": VOC_1_04_02_V5SG}
 
 
 def inventory_preset(preset, mode):

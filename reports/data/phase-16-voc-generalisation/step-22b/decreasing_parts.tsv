@@ -1,0 +1,12 @@
+inv	split	n_anchors	leaf_hits	decrease_in_frozen_gold	class	note
+1269	test	13	8	yes	gold_error	185 begin folio 764 at scan 1542, print has 718 there and 764 at 1649
+1279	dev	8	6	no	unclear	no decrease found; misses at the volume edges (extrapolated, interpolated)
+1341	test	10	8	yes	numbering_restart	234 begins at folio 1 on scan 855 after 238 end 687 on 716; no number printed on 849-858
+1363	dev	21	16	no	gold_error	folio 44 at scan 132 but print has 43 on 129 and 45 on 131
+1408	dev	4	3	no	unclear	no decrease found
+1614	dev	6	3	no	unclear	no decrease found; 605 at scan 96 and 676 at 173 miss (pred 394)
+1696	dev	8	3	yes	nested_or_duplicate	358 folios 1-22 on scans 8-22 overlap 357's numbering from 16; 356 folios 403-409 at 410-416 but print has 390-399 on 439-448
+2394	test	3	1	yes (same scan, two folios)	nested_or_duplicate	577 end 1101 and 542 end 1345 both at scan 624; print has 1344 on 623
+2550	dev	4	3	yes	gold_error	565 end 757 at scan 798 but print has 773 there (566 end 773)
+2808	dev	4	1	yes	gold_error	648 end 714 at scan 456 but print has 733-734 there (649 end 733)
+3987	dev	22	21	no	unclear	no decrease found; one miss near the volume start

@@ -1,0 +1,6 @@
+LOO dev: 87262/98750 = 0.8837 wilson (0.8816510873303209, 0.8856507084511607) over 272 volumes with chain
+LOO all: 169641/193305 = 0.8776 wilson (0.8761133804384997, 0.8790357311684056) over 544 volumes with chain
+openings volumes with anchors: 146; recto_share quantiles 5/25/50/75/95: [0.721 0.835 0.903 0.942 0.968] >=0.9: 74 foliation mode: 74 Counter({'foliation': 74, 'pagination': 72})
+single volumes: consecutive chain points one number apart that are exactly 2 scans apart: 89339/99093 = 0.9016; volumes 397; volumes with share>=0.5: 341
+Counter({('single', 'pagination'): 398, ('openings', 'foliation'): 75, ('openings', 'pagination'): 71, ('?', ''): 1, ('single', 'none'): 1})
+Counter({('single', 'pagination'): 397, ('openings', 'foliation'): 74, ('openings', 'pagination'): 72, ('single', 'none'): 2, ('?', ''): 1})

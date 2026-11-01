@@ -1,0 +1,19 @@
+{
+ "cell": [
+  "V0",
+  "off",
+  "TL"
+ ],
+ "name": "V0-off-TL",
+ "dev_leaf": 647,
+ "dev_strict": 528,
+ "dev_n": 929,
+ "dev_leaf_share": 0.6964477933261571,
+ "best_dev_leaf_share": 0.6964477933261571,
+ "tie_candidates": [
+  "V0-off-TL"
+ ],
+ "n_unreadable_dev": 8,
+ "seconds": 104.8,
+ "time_utc": "2026-11-01T01:25:30+00:00"
+}

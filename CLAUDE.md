@@ -23,9 +23,13 @@ This file is loaded automatically. Do not restate it back to the user.
 - `chmod g+w` every file and directory you create; the user needs write access to them too.
 - Check write access to a directory **before** running code that writes there. If it is
   missing, ask the user to update permissions. Do not use a workaround.
-- **Never access external drives**, not even with read-only commands, and keep their paths out
-  of subagent prompts. If an input is not available locally, say exactly which files to stage
-  and stop.
+- **External drives: only the readable part of `T7_Data`.** You may read under
+  `/Volumes/T7_Data`, except the folders that `~/.claude/hooks/deny-external-paths.sh` blocks
+  and anything `claude-agent` cannot read; no other volume, network share or mount point. A
+  hook denial or `Permission denied` there is final: stop and ask, never work around it. On
+  the drive, write only in `/Volumes/T7_Data/Data/claude-projects-external`. Give subagents
+  these same limits. If an input is neither local nor on the readable part of the drive, say
+  exactly which files to stage and stop.
 - Source data shared between projects lives in /Users/Shared/claude_projects/data_scopes/shared-data/ 
   (rules in its README); stage it by symlinking it under data/.
 

@@ -179,3 +179,29 @@ Implementation sessions append here but don't read it unless their brief names a
   - hand-off; `plan/PLAN.md` row; `plan/CONTEXT.md` (§1, §2, §3, §4, §5);
   - STATUS.md.
 - **Release:** v0.20.0.
+
+## 2026-10-30: after the review, UA-056 (Opus 5.5)
+
+- The user ran UA-056. The session that handled it compared the result with the v1 full run, volume by volume:
+  - same 412 volumes; 879,672 links (v1 902,031); the 41 dev volumes are identical to `21d-a`;
+  - G1 drops the start of the chain in 11 volumes, 9,885 links (F15-21d.8). 3244 read: a misread 174 splits the chain.
+- **Written:**
+  - the report's Summary note, F15-21d.7 and .8, *After the review: full run*, Follow-ups;
+  - `reports/index.md`, `docs/index_links.md`, `plan/CONTEXT.md` §1 and §4, STATUS.md;
+  - UA-056 resolved, UA-057 updated.
+- UA-057 answered (a), 2026-10-30: v2 not published. Recorded in the report (Summary, Review, Follow-ups),
+  `docs/index_links.md`, `reports/index.md`, `plan/CONTEXT.md`, STATUS.md.
+
+## 2026-10-30 — UA-055 (user check of the 21a gold), Opus 5.5
+
+- **Done:** image crops added to the confirm page (`step-21a/build_check_page.py`, NA IIIF, cache `iiif_cache/`;
+  items unchanged, same CheckStore key); the user answered all 20 (`check_verdicts.json`);
+  `check_summary.py` → `check_summary.txt`.
+- **Result:** q1 19 Yes / 1 Unsure; q2 18 Yes / 2 Unsure (the agent's 2 `absent`); q3 17 Yes / 3 No (merged lines the
+  reader had already marked). T089: the index reads 637 on the scan, the HTR 697; folio 637 (scan 0692) has the matter.
+  Gold not edited (frozen, hashes unchanged); against the scan, test E would be 51/63 = 0.810 instead of 0.825
+  (bar failed either way).
+- **Files changed:** `reports/data/phase-15-index-links-v2/step-21a/` (`build_check_page.py`, `check_page.html`,
+  `check_items.json`, `iiif_cache/`, `check_summary.py`, `check_summary.txt`); `reports/phase-15-index-links-v2.md`
+  (*After the review: user check*, F15-21a.8, F15-21a.9); `reports/index.md`; `STATUS.md`; `PLAN.md`;
+  `plan/CONTEXT.md` §4; `docs/USER_ACTIONS.md` → `docs/USER_ACTIONS_resolved.md` (UA-055).

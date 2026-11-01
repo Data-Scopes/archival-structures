@@ -3,7 +3,7 @@
 > **Status:** final (reviewed 2026-10-30).
 > **Phase plan:** [`plan/phase-15-index-links-v2/PLAN.md`](../plan/phase-15-index-links-v2/PLAN.md).
 > **Code state:** unreleased after v0.19.0 (recommended release: v0.20.0); no sibling changes.
-> **Last updated:** 2026-10-30, by the phase-15 review (Opus 5.5).
+> **Last updated:** 2026-10-30, by the phase-15 review (Opus 5.5); full run added after the review (UA-056).
 
 ## Summary
 
@@ -33,6 +33,9 @@ column. Its entries and attribution are v1's. Three of the five bars fail, so v2
 missing locators are right-column lines typed `marginalia` (F15-21c.6). The next index-links step is a hybrid assembly
 or a stricter heading rule, tested on new gold (*Follow-ups*).
 
+After the review, the full run (UA-056) covers the same 412 volumes as v1. In 11 of them, G1 cuts away the start of the
+folio chain (F15-21d.8, *After the review*). v2 is not published (UA-057 (a)).
+
 ## Findings
 
 | ID | Finding (one sentence, with the key number) | Kind | Tags | Status | Section |
@@ -45,10 +48,12 @@ or a stricter heading rule, tested on new gold (*Follow-ups*).
 | F15-21a.1 | All 29 judged index sides are two-column (dev 13/13, test 16/16): 595 of 1,251 lines (47.6%) are right-column lines, and 42 lines (3.4%) merge text of both columns. The pool is later registers, so this is not a corpus-wide share. | data-property | sg, index-links, layout | confirmed | [Step 21a](#step-21a-fresh-gold-reads-index-sides-entries-locators-link-targets) |
 | F15-21a.2 | 21 of 595 entries (3.5%; 21 of 290 entries with >= 2 lines = 7.2%) have lines that are not consecutive in `show_side` (unit) order; in 20 of them another entry's line sits in the gap (dev 10/260, test 11/335). | data-property | sg, index-links, entries | confirmed | [Step 21a](#step-21a-fresh-gold-reads-index-sides-entries-locators-link-targets) |
 | F15-21a.3 | Locator styles (851 locators): number plus period 513 (60.3%), comma-separated 200 (23.5%), colon 108 (12.7%), line end without punctuation 27 (3.2%), other 3. The colon style sits on low-stratum sides (105 of 108). 117 entries (19.7%) have >= 2 locators, 39 (6.6%) none, and 19 locators end an entry mid-line (`@`). | data-property | sg, index-links, locators | confirmed | [Step 21a](#step-21a-fresh-gold-reads-index-sides-entries-locators-link-targets) |
-| F15-21a.4 | Index accuracy: the matter named by the first locator is on the front or back of folio N in 82 of 89 usable targets (0.921; dev 23/26 = 0.885, test 59/63 = 0.937), absent in 4 and unclear in 3. One reader; UA-055 asks the user to confirm 20. | result | sg, index-links, gold | confirmed | [Step 21a](#step-21a-fresh-gold-reads-index-sides-entries-locators-link-targets) |
+| F15-21a.4 | Index accuracy: the matter named by the first locator is on the front or back of folio N in 82 of 89 usable targets (0.921; dev 23/26 = 0.885, test 59/63 = 0.937), absent in 4 and unclear in 3. One reader; UA-055 asks the user to confirm 20 (done: F15-21a.8, F15-21a.9). | result | sg, index-links, gold | confirmed | [Step 21a](#step-21a-fresh-gold-reads-index-sides-entries-locators-link-targets) |
 | F15-21a.5 | 21 entries (3.4% of 616) lie wholly inside a merged line and have no line of their own (dev 13, test 8; 7 of the dev ones on one side, 3487). Their 25 locators are not in `line_gold`, so line-based assembly cannot see them; they are neutral for links. | data-property | sg, index-links, entries | confirmed | [Step 21a](#step-21a-fresh-gold-reads-index-sides-entries-locators-link-targets) |
 | F15-21a.6 | Where the matter sits (89 usable targets): front 45 (50.6%), back 61 (68.5%), next folio recto 22 (24.7%), opening 1; in 39 (43.8%) only on the back or next, not on the front. A check on folio N's recto alone would find half of the matter. | data-property | sg, index-links, folio-map | confirmed | [Step 21a](#step-21a-fresh-gold-reads-index-sides-entries-locators-link-targets) |
 | F15-21a.7 | Folio numbering is less regular than the index points assume: the scan-folio offset changes inside 7 of the 29 volumes (by 1 to 6, e.g. 3459 46 to 49, 3522 44, 50, 49); folio numbers often stand at the end of a long first recto line; 3572 has a locator (1182) beyond its last folio (about 694) and two scans printing the same number. | data-property | sg, folio-map | confirmed | [Step 21a](#step-21a-fresh-gold-reads-index-sides-entries-locators-link-targets) |
+| F15-21a.8 | The user confirmed 20 random test targets on the scans (UA-055): the folio number in 19 (1 unsure, T089), the matter on folio N's leaf in all 17 of the agent's `leaf` targets plus T037, which the agent called `unclear`; unsure on the agent's 2 `absent` targets. 3 of the 20 entry texts mix two columns (T037, T044, T075), all already marked as merged lines with an embedded entry by the reader (F15-21a.5) | result | sg, index-links, gold | confirmed | [After the review: user check](#after-the-review-user-check-ua-055) |
+| F15-21a.9 | The 21a gold reads locators from the HTR text, so an HTR digit misread is invisible to it: T089's index entry reads 637 on the scan, the HTR 697, and folio 637 (scan 0692) holds the matter. One of the 4 `absent` targets is therefore an HTR misread, not an index error. Scored against the scan, test E is 51/63 = 0.810 instead of 0.825 (bar 0.90 failed either way). The gold is not edited | data-property | sg, index-links, gold, htr | confirmed | [After the review: user check](#after-the-review-user-check-ua-055) |
 | F15-21b.1 | Folio map v2 (jump guard, tied-number drop, gap-aware confidence, opening side) is implemented as opt-in params; with defaults the v1 tables of all 41 volumes are identical to 20r-a (36,349 rows), and the planner numbers reproduce exactly (LOO 20,952/21,176 vs 21,010/21,334, 166 ties in 29 volumes, 7 chain ends) | result | sg, folio-map | confirmed | [Step 21b](#step-21b-folio-map-v2) |
 | F15-21b.2 | The 6 chain ends the jump guard removes are years or the inventory number (e.g. 3522 printed on 0601, `1659`, `1674`); the 7th (3471, `485` after `457`) is a non-folio number too. After the cut the volumes end at the last plausible number | data-property | sg, folio-map | confirmed | [Step 21b](#step-21b-folio-map-v2) |
 | F15-21b.3 | In a seeded sample of 10 links that G3 moves from `high` to `medium`/`low`, 8 sit in brackets that need more numbers than scans (e.g. 3280 `331@380 .. 335@381`), so v1's `high` was wrong; 1 is a G2 distance effect and 1 (3712) a false alarm where the chain skips unanchored sides | result | sg, folio-map | confirmed | [Step 21b](#step-21b-folio-map-v2) |
@@ -67,6 +72,8 @@ or a stricter heading rule, tested on new gold (*Follow-ups*).
 | F15-21d.4 | 1.3% of v2 links (1,240 of 92,852) have an entry word on the opening side (verso of the target scan) and none on the target sides; 1.4% of words are found on the opening side only. The opening column is a small but real addition. | data-property | opening | confirmed | [Step 21d](#step-21d-the-index_links_v2-layer) |
 | F15-21d.5 | Of 20 random v2 links, 17 are right (1 of them probable: OCR `252` for 232; review: 3283 N=593 is right too, F15-R.3), 1 is on the wrong scan (3280 N=334, one scan late behind the misread anchor `331` for 334, marked `medium`), 2 are untestable from the first lines. No opening or next-folio cases among the 20. | result | sample | revised | [Step 21d](#step-21d-the-index_links_v2-layer) |
 | F15-21d.6 | 3712 (paginated, chain 348-684) loses 237 of 299 locators to the range filter L7; v1 located none of them either (62 linked in both). The range filter turns unlocatable links into non-links in volumes whose chain covers only part of the folios. | data-property | locators, range | confirmed | [Step 21d](#step-21d-the-index_links_v2-layer) |
+| F15-21d.7 | The full run of `index_links_v2` on the v5 full layer (UA-056, run by the user 2026-10-30) considers 8,856 inventories, finds a front index in the same 412 as v1 and fails none: 629,912 entries (v1's, volume by volume), 879,878 locators (v1 914,994), 879,672 linked (v1 902,031), in 715 s. The 41 dev volumes are identical to `21d-a` (164 files and every `volumes.tsv` row). G1 cuts the chain in 41 volumes (dev: 7); the F14-20e.10 year-like-end rule flags 3 volumes (v1: 22; 2 in both), ending at 1017-1061 | data-property | sg, index, folio-map | confirmed | [After the review](#after-the-review-full-run) |
+| F15-21d.8 | G1 cuts the chain at every jump and keeps the longest piece, so a misread interior anchor that makes a jump splits the real sequence and the shorter real piece is dropped: 11 full-run volumes start more than 20 folios later than in v1 (none is a dev volume), and their linked locators fall from 38,342 to 28,457. Read for 3244: v1 anchors 90-163 and 291-482 sit at scan offset 40-41, a misread 174 on scan 307 (offset 133; about 266 expected) makes a jump to 291, and v2 keeps the longest piece, 291-482 (6,921 linked to 2,524). The other 10 volumes (49, 56, 3257, 3293, 3377, 3380, 3574, 3609, 8413, 11675) are not read | open-issue | sg, folio-map | confirmed | [After the review](#after-the-review-full-run) |
 | F15-R.1 | Every logged number reproduces from the reviewer's own runs: bar F 26/26 dev and 62/63 test (v1 the same); the 21c test bars P 404/412, R 404/472, A 355/398, E 52/63 and v1's 407/421, 407/472, 358/401, 52/63 with independent gold parsing and scoring; a fresh v1 rebuild equals `20r-a` in 123 files and `volumes.tsv`, a fresh v2 rebuild equals `21d-a` in 164 files; AS suite 1,402 passed, 11 skipped | result | sg, index-links, review | confirmed | [Review](#review) |
 | F15-R.2 | One label per line cannot hold an index entry that lies wholly inside a line where the HTR merged both columns (21 entries, 25 locators, 3.4% of entries). The gold format was amended during 21a, before any test side was read, with `embedded_entries.tsv`: those locators count as gold locators and are neutral for links and attribution. Without it each of them, if predicted, would count as a false positive against the 0.95 precision bar | method | sg, index-links, gold | confirmed | [Review](#review) |
 | F15-R.3 | 21d's sample misclassified 3283 N=593: scan 0620's recto prints the number split by the HTR (`Waerop 597` + `3` at the top right) between 592 (0619), `591` for 594 (0621) and 595 (0622), so the map's scan is right; 21d's sample is 17 right, 1 wrong scan, 2 untestable (F15-21d.5 revised) | result | sg, index-links, review | confirmed | [Review](#review) |
@@ -270,7 +277,7 @@ locator-position check: targets.tsv rows 90 = target_gold rows 90
   in 92% of usable targets, but the matter is on the front in only half of them. The 4 `absent` targets are in four
   volumes, each searched in the neighbouring scans; they may be index errors or HTR garble, which one reader cannot
   separate. The reader is one agent. UA-055 asks the user to confirm 20 test targets; until then the gold is
-  unchecked.
+  unchecked. (Checked 2026-10-30: F15-21a.8, F15-21a.9.)
 
 **Findings:** F15-21a.1 to F15-21a.7.
 
@@ -558,7 +565,8 @@ All match.
 - The format gap and its fix are F15-R.2.
 - The 9 pre-freeze edits (`pre_freeze_edits.tsv`) are labels only. They change `folio_evidence`, and T083's change
   removes it from the bar population. Every hash checks.
-- The gold is one reader's. UA-055 (the user confirms 20 links) is open.
+- The gold is one reader's. UA-055 (the user confirms 20 links) is open. (Done 2026-10-30: *After the review: user
+  check*.)
 
 **Map (21b).**
 - The code (`folio_map.py`) does what the brief says. G2 drops every copy of a tied number before the LIS. G1 keeps
@@ -591,16 +599,58 @@ All match.
 **Leakage (F15-R.6)** passes.
 
 **Publication.** The phase-14 decision (UA-053 a) was to publish a v2 only once it meets its bars on fresh gold. v2
-fails three, so the recommendation is not to publish (UA-057).
+fails three, so the recommendation is not to publish (UA-057). **Decided 2026-10-30: (a), not published.**
+
+## After the review: full run
+
+*2026-10-30, the session that handled UA-054/UA-056 (Opus 5.5).* The user ran UA-056; `volumes.tsv` and `manifest.json` are in `data/index_links_full_v2/`, the layer on the drive (`…/archival-structures/data/index_links_v2/`). Comparison with the v1 full run (`data/index_links_full/`), volume by volume:
+
+- Same 412 front-index volumes (408 foliated, 4 paginated), same entries; 35,116 fewer locators, 22,359 fewer links. The locator drop is 2% in the median volume and over 60% in 1% of them (F15-21d.7).
+- G1 removes most year-like chain ends (22 volumes flagged by the F14-20e.10 rule in v1, 3 in v2), but in 11 volumes it cuts away the start of the chain instead (F15-21d.8). That loses 9,885 links, 44% of the drop in links. The dev build has no such volume, so neither bar F nor the dev tables could show it. It is a defect of G1, not of the test, and it adds to the case against publishing v2 (UA-057).
+
+## After the review: user check (UA-055)
+
+*2026-10-30, Opus 5.5.* The confirm page got image crops first (NA IIIF: the entry's lines, the top of folio N's
+recto, the lines matching the agent's evidence; as in phase-14 step 20c), then the user answered all 20 items
+(`step-21a/check_verdicts.json`; summary `check_summary.py` → `check_summary.txt`). The page showed the agent's
+answers, so this is a confirmation, not a blind test.
+
+| Question | Yes | No | Unsure |
+|---|---|---|---|
+| q1 the recto of the first scan is folio N | 19 | 0 | 1 (T089) |
+| q2 the matter is on folio N's front or back | 18 | 0 | 2 (T075, T089: the agent's `absent`) |
+| q3 the entry's words belong together | 17 | 3 (T037, T044, T075) | 0 |
+
+- The user agrees with the agent's `leaf` on all 17, and finds the matter for T037 (3280, folio 231), which the agent
+  left `unclear` because the folio speaks of *verstercken* and the index of *nieuwe wervinge*.
+- The three q3 `No` are the HTR's merged lines: the index line holds words of both columns (`militie naer Meppel &
+  Steen„ … wijck, 262`, `Postmrs., 688`, `Reqte. van Hugo Bakker, 174`). The reader had marked all three as merged
+  with an embedded entry (`embedded_entries.tsv`), so the gold's entry boundaries stand; the defect is in the text
+  layer (F15-21a.5).
+- **T089 (3630).** The user suggested 637 for 697. I checked: the scan of the index line reads *637* clearly, the HTR
+  has `697`, and scan 0692 (printed `637.`) carries *Osch*, *omslag* and the *Schutlakensche Dam* on its recto. The
+  brief has the reader work from the text, so the gold locator is 697 and its target folio 697 (scan 0752), where the
+  matter is not. The method reads the same HTR, so bars F, L and E count T089 as a hit (`e2e_hit` 1); against the
+  scan it is a miss and test E is 51/63 = 0.810, not 0.825. The bar failed either way. The gold stays frozen (hashes
+  unchanged); F15-21a.9 records the limit: text-based gold cannot see a misread digit, so E is measured against the
+  HTR, not the index.
+- T075 stays open: the user is unsure like the agent; the number is confirmed.
+- T064: the user notes the evidence crop shows little of the entry's matter, although the target is right. The page
+  matched only the agent's first evidence fragment (`van Hoeij`, a margin name); a page-tool limit, not a gold one.
+- With the user's answers the test index accuracy of F15-21a.4 would be 61/63 (T037 found, T089 found at the true
+  folio) on this sample's evidence; F15-21a.4 is left as the reader's number.
+
+**Findings:** F15-21a.8, F15-21a.9.
 
 ## Follow-ups
 
 | From | What | Where it is tracked |
 |---|---|---|
 | F15-21c.6, F15-21c.7, F15-R.5 | Entry assembly v3, on new gold (the 21a test gold is spent for selection). Candidates: v1 units plus the `marginalia` lines of the side (a hybrid), or A1 with a heading rule that needs a trailing `.` and a following number-ended entry. Fresh gold from the drive-only front-index volumes | `plan/CONTEXT.md` §4 (index links) |
-| UA-055 | User check of 20 test links on the scans (21a gold) | `docs/USER_ACTIONS.md` |
-| UA-056 | Full run of `index_links_v2` (412 front-index volumes) | `docs/USER_ACTIONS.md` |
-| UA-057 | Publication of `index_links_v2` (recommended: no) | `docs/USER_ACTIONS.md` |
+| UA-055 | User check of 20 test links on the scans (21a gold): done 2026-10-30 (F15-21a.8, F15-21a.9) | `docs/USER_ACTIONS_resolved.md` |
+| UA-056 | Full run of `index_links_v2` (412 front-index volumes): done 2026-10-30 (F15-21d.7) | `docs/USER_ACTIONS_resolved.md` |
+| F15-21d.8 | A G1 that drops the anchor causing an interior jump (or rejoins pieces at the same scan offset) instead of discarding the shorter piece. Read the 10 unread volumes first | `plan/CONTEXT.md` §4 |
+| UA-057 | Publication of `index_links_v2`: (a), not published (2026-10-30) | `docs/USER_ACTIONS_resolved.md` |
 | F15-21a.7, F15-R.3 | Folio numbers that the HTR splits or glues to a text line (`Waerop 597` + `3`) are invisible to the map's anchors; a page-number re-read on the top line would add anchors. Not planned | `plan/CONTEXT.md` §4 |
 | F15-21d.6 | L7's range filter drops locators in volumes whose chain covers only part of the folios (3712). Harmless for links (none were located), but `n_locators` is not comparable across versions there | `docs/index_links.md` (known limits) |
 

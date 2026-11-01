@@ -636,6 +636,15 @@ metadata in `.venv`, fixed in step 20r); their `git_head` identifies the code (F
 
 Index entries of the front index are linked to folios and scans by a derived layer built from v5: see `docs/index_links.md`.
 
+## VOC preset `voc_1.04.02_v5sg` (phase 16)
+
+`PRESETS["voc_1.04.02_v5sg"]` (`VOC_1_04_02_V5SG`) is the SG v5 preset with only the archive plumbing changed
+(`archive_id`, `scan_id_prefix`, `source_pattern` = `VOC_SOURCE_PATTERN`, name `NL-HaNA_1.04.02_text_layer_v5`) and
+the inventory-keyed SG settings dropped (`wbc_pinned` inventory keys, `volume_mode["pins"]`). No rule or threshold
+is tuned; it measures what the SG rules do on VOC. Input is a directory of `<inv>.zip` PageXML files (GLOBALISE
+v2.1). Step 22a built it over 568 inventories: layer root `data/text_layer_voc_22a/1.04.02/NL-HaNA_1.04.02_text_layer_v5/`
+(a link to the external drive). Results: `reports/phase-16-voc-generalisation.md`.
+
 ## Published SG pilot (text_layer_v2)
 
 Published 2026-10-21 (phase 07, step 15i, from the dev layer `15i-b`) for the sibling projects, `coverage: partial`:

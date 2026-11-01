@@ -1,0 +1,19 @@
+{
+ "selected": "tmc8_som0.25_cue_gap2",
+ "cell": {
+  "text_min_chars": 8,
+  "shape_only_min": 0.25,
+  "date_pattern": "VOC_TOC_CUE",
+  "gap": 2
+ },
+ "dev_F1": 0.2998,
+ "dev_P": 0.1973,
+ "dev_R": 0.6239,
+ "best_dev_F1": 0.2998,
+ "candidates_within_0.005": [
+  "tmc8_som0.25_cue_gap2"
+ ],
+ "n_changed_from_SG": 3,
+ "written_at": "2026-11-01T02:22:56",
+ "test_numbers_seen": false
+}

@@ -43,6 +43,10 @@ class FolioMapParams:
     gap_slack: Optional[float] = None
     # G4 opening side: in foliation, FolioTarget.opening is the verso of the target's own scan (the facing page).
     opening: bool = False
+    # S single-page foliation (phase 16, VOC): in a volume whose numbered sides are all `single` scans, numbers that
+    # rise at least single_slope scans per number (a number on every other scan) are foliation. Off by default.
+    single_foliation: bool = False
+    single_slope: float = 1.5
 
 
 # Folio map v2, fixed at phase-15 planning with no tuning: G1 answers F14-R.3 (year-like chain ends: 94 links
@@ -88,8 +92,12 @@ class FolioMap:
         if page is None:
             page = next((p for s, p in self.sides if s == sid), "recto")
         back = None
-        if position < len(self.scan_ids) and (self.scan_ids[position], "verso") in set(self.sides):
-            back = (self.scan_ids[position], "verso")
+        if position < len(self.scan_ids):
+            nxt = set(self.sides)
+            if (self.scan_ids[position], "verso") in nxt:
+                back = (self.scan_ids[position], "verso")
+            elif self.params.single_foliation and (self.scan_ids[position], "single") in nxt:
+                back = (self.scan_ids[position], "single")
         opening = (sid, "verso") if self.params.opening and (sid, "verso") in set(self.sides) else None
         return FolioTarget(number, (sid, page), back, position, method, dist, conf, opening)
 
@@ -152,10 +160,19 @@ def build_folio_map(scan_ids: Sequence[str], sides: Sequence[tuple], numbers: Ma
     n_anchors = len(anchors)
     share = sum(a[2] == "recto" for a in anchors) / n_anchors if n_anchors else float("nan")
     foliation = n_anchors > 0 and share >= params.foliation_recto_share
-    if foliation:
-        pts = [(a[1], a[3]) for a in anchors if a[2] == "recto"]
-    else:
-        pts = [(a[0], a[3]) for a in anchors]
+    pts = None
+    if (not foliation and params.single_foliation and n_anchors > 0
+            and sum(a[2] == "single" for a in anchors) / n_anchors >= params.foliation_recto_share):
+        spts = sorted((a[1], a[3]) for a in anchors if a[2] == "single")
+        sidx = longest_increasing_chain([n for _, n in spts])
+        if len(sidx) >= params.min_chain:
+            ch = [spts[i] for i in sidx]
+            slopes = [(b[0] - a[0]) / (b[1] - a[1]) for a, b in zip(ch, ch[1:])]
+            if float(np.median(slopes)) >= params.single_slope:
+                foliation = True
+                pts = spts
+    if pts is None:
+        pts = [(a[1], a[3]) for a in anchors if a[2] == "recto"] if foliation else [(a[0], a[3]) for a in anchors]
     pts.sort()
     n_dup = 0
     if params.dup_window is not None:
