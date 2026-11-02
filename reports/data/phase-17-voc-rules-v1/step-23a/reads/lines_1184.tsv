@@ -1,0 +1,9 @@
+line_id	gold_folios	status	note
+b2225d9b-2a29-466b-b605-7efaaa236272		ok	no folio on this line (continuation/title/date)
+line_12736629-d82f-4815-870e-5398dd9e838c	20	ok	"20 a 22" range
+d7d117cf-bc7c-4b81-8f6d-79ce513d607e		ok	no folio on this line (continuation/title/date)
+addb8e50-5bf7-49e6-83ca-b2d9bc0dc0d0		ok	no folio on this line (continuation/title/date)
+line_92099fbd-3dd3-4e9c-b2f6-37a4aba54408		ok	no folio on this line (continuation/title/date)
+line_5cbd545a-2a42-473b-885a-54470ae2aaba		ok	bare 14 is an item number in a list, not a folio
+f55fadbe-77d9-4753-af9b-f8e894e6b7e5		ok	no folio on this line (continuation/title/date)
+line_30f91f71-8926-427d-bcdb-a6ccf2b88e60		ok	no folio on this line (continuation/title/date)

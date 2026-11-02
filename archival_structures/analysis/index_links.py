@@ -1,6 +1,7 @@
 """Index -> resolution links: the front-index run, a volume's inputs, folio locators in entries and their links."""
 from __future__ import annotations
 
+import math
 import re
 import dataclasses
 from dataclasses import dataclass
@@ -15,8 +16,10 @@ from archival_structures.text_layer.io import read_tsv_gz
 
 
 def front_index_run(flags: Sequence[bool], *, min_flagged: int = 10, max_first: int = 10, gap: int = 20,
-                    min_after: int = 300, max_share: float = 0.6) -> Optional[tuple]:
-    """-> (first flagged, last flagged, end) as 0-based side indices, or None when there is no front index."""
+                    min_after: int = 300, max_share: float = 0.6,
+                    min_after_frac: Optional[float] = None) -> Optional[tuple]:
+    """-> (first flagged, last flagged, end) as 0-based side indices, or None when there is no front index.
+    ``min_after_frac`` (phase 17): the tail needs only min(min_after, ceil(min_after_frac * n)) sides."""
     n = len(flags)
     if n == 0 or sum(bool(f) for f in flags) / n > max_share:
         return None
@@ -29,7 +32,8 @@ def front_index_run(flags: Sequence[bool], *, min_flagged: int = 10, max_first: 
     if end is None:
         return None
     idx = [i for i in range(end) if flags[i]]
-    if len(idx) < min_flagged or idx[0] >= max_first or n - end < min_after:
+    need = min_after if min_after_frac is None else min(min_after, math.ceil(min_after_frac * n))
+    if len(idx) < min_flagged or idx[0] >= max_first or n - end < need:
         return None
     return idx[0], idx[-1], end
 
@@ -108,6 +112,10 @@ class LocatorParams:
     left_boundary: bool = False    # L6+: drop a number whose first digit follows a letter; amount_before on the whole prefix
     lead_pattern: str = ""         # L8 (phase 16): a line that starts with this (group 1 = folio) has that locator
     standalone_pattern: str = ""   # L8: a line that is only this (after stripping quotes/punctuation) has group 1 as locator
+    trail_pattern: str = ""        # L9 (phase 17): a trailing range at the line end (first non-None group = folio)
+    trail_num_pattern: str = ""    # L9: a lone number after a run of dashes/dots at the line end
+    guard_before: str = ""         # L9g: drop an L7-fallback locator when this matches the text before it (year, day)
+    guard_after: str = ""          # L9g: ... or this matches the text after it (a month name)
 
 
 SG_LOCATOR_PARAMS = {v: LocatorParams(variant=v, ordinal_after=r"(e|en|ste|de)\b", month_after=SG_MONTHS,
@@ -134,6 +142,23 @@ VOC_LOCATOR_PARAMS = {"L8": LocatorParams(
     left_boundary=True,
     standalone_pattern=_VOC_PREFIX + r"(\d{1,4})(?:\s*(?:verso|v)\.?)?(?:" + _VOC_RANGE + r"(?:\s*(?:verso|v)\.?)?)?",
     lead_pattern=r"\W{0,3}" + _VOC_PREFIX + r"(\d{1,4})\s*(?:verso\s*)?" + _VOC_RANGE[3:] + r"\b")}
+# Step 23e (phase 17): L9 = L8 + more range connectors, trailing ranges; L9g adds date/year guards.
+_VOC9_PRE = r"(?:(?:fo|fol|folio|pag|pag:s|p)\.?\s*)?"
+_VOC9_CON = r"(?:a|\u00e0|tot|en|\u2014|\u2013|-|/|(?:\.\s*){2,3})"
+_VOC9_NUM = _VOC9_PRE + r"(\d{1,4})(?:\s*(?:verso|v)\.?)?"
+_VOC9_RANGE = _VOC9_NUM + r"\s*" + _VOC9_CON + r"\s*" + _VOC9_PRE + r"\d{1,4}(?:\s*(?:verso|v)\.?)?"
+_VOC9_MONTHS = (r"(jan|feb|febr|maa|maart|maert|mart|apr|april|mei|mey|meij|jun|junij|jul|julij|aug|augti|augt|sep|sept|"
+                r"oct|okt|nov|dec)")
+VOC_LOCATOR_PARAMS["L9"] = dataclasses.replace(
+    VOC_LOCATOR_PARAMS["L8"], variant="L9",
+    standalone_pattern=r"(?:" + _VOC9_RANGE + r"|" + _VOC9_NUM + r")",
+    lead_pattern=r"\W{0,3}" + _VOC9_RANGE + r"\b",
+    trail_pattern=r"(?:^|[\s\u201e\-.])" + _VOC9_RANGE + r"\W*$",
+    trail_num_pattern=r"(?:[-.]\s*){3,}\W{0,3}" + _VOC9_NUM + r"\W*$")
+VOC_LOCATOR_PARAMS["L9g"] = dataclasses.replace(
+    VOC_LOCATOR_PARAMS["L9"], variant="L9g",
+    guard_before=r"(?:dato|den|tot|primo|ulto?)\s*$|(?:a[\u201eo\.]*o|anno|ao)\W*$|" + _VOC9_MONTHS + r"[a-z]*\.?\s*$",
+    guard_after=r"^\s*[.,:'\"]*\s*" + _VOC9_MONTHS)
 _STANDALONE_STRIP = " \t\u201e\"'.:,;-\u2014\u2013"
 _EXCLUDING = ("L3", "L4", "L6", "L7")
 _RANGED = ("L4", "L7")
@@ -149,7 +174,7 @@ def extract_locators(text: str, params: LocatorParams, *,
 
     L8 (VOC tables of contents; ``text`` is one line): a standalone number line, else a number that leads the line
     before a range, else the L7 rules; numbers outside ``folio_range`` +- ``range_slack`` are dropped."""
-    if params.variant == "L8":
+    if params.variant in ("L8", "L9", "L9g"):
         return _extract_l8(text, params, folio_range)
     if params.variant not in ("L1", "L2", "L3", "L4", "L5", "L6", "L7"):
         raise ValueError(params.variant)
@@ -200,23 +225,45 @@ def extract_locators(text: str, params: LocatorParams, *,
     return [Locator(int(m.group()), m.start(), m.end()) for m in out]
 
 
+def _first_group(m) -> Locator:
+    g = next(i for i in range(1, (m.re.groups or 0) + 1) if m.group(i) is not None)
+    return Locator(int(m.group(g)), m.start(g), m.end(g))
+
+
 def _extract_l8(text: str, params: LocatorParams, folio_range: Optional[tuple]) -> list:
     core = text.strip(_STANDALONE_STRIP)
     out = []
     m = re.fullmatch(params.standalone_pattern, core, re.I) if params.standalone_pattern and core else None
     if m is not None:
         off = len(text) - len(text.lstrip(_STANDALONE_STRIP))
-        out = [Locator(int(m.group(1)), off + m.start(1), off + m.end(1))]
+        loc = _first_group(m)
+        out = [Locator(loc.number, off + loc.char_start, off + loc.char_end)]
     else:
         m = re.match(params.lead_pattern, text, re.I) if params.lead_pattern else None
+        if m is None and params.trail_pattern:
+            m = re.search(params.trail_pattern, text, re.I)
+            if m is None and params.trail_num_pattern:
+                m = re.search(params.trail_num_pattern, text, re.I)
         if m is not None:
-            out = [Locator(int(m.group(1)), m.start(1), m.end(1))]
+            out = [_first_group(m)]
         else:
             out = extract_locators(text, dataclasses.replace(params, variant="L7"), folio_range=None)
+            if params.guard_before or params.guard_after:
+                out = [loc for loc in out
+                       if not (params.guard_before and re.search(params.guard_before, text[:loc.char_start], re.I))
+                       and not (params.guard_after and re.match(params.guard_after, text[loc.char_end:], re.I))]
     if folio_range is not None:
         lo, hi = folio_range[0] - params.range_slack, folio_range[1] + params.range_slack
         out = [loc for loc in out if lo <= loc.number <= hi]
     return out
+
+
+def monotone_mask(numbers: Sequence[int]) -> list:
+    """Phase 17: True for the members of a longest non-decreasing subsequence of ``numbers`` (the locators of one TOC
+    in reading order increase along it). Of two equal-length chains the later one is kept."""
+    from archival_structures.analysis.page_numbering import longest_increasing_chain
+    keep = set(longest_increasing_chain([n + i * 1e-6 for i, n in enumerate(numbers)]))
+    return [i in keep for i in range(len(numbers))]
 
 
 LINK_COLUMNS = ["scan_id", "page", "unit_id", "loc_idx", "number", "char_start", "char_end", "front_scan_id",

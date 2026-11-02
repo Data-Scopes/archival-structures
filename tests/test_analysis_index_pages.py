@@ -76,3 +76,34 @@ def test_layout_params_index_sides():
     with pytest.raises(ValueError):
         LayoutParams(index_sides={"bogus": 1})
     assert set(INDEX_SIDES_DEFAULTS) >= {"gap", "min_run"}
+
+
+def test_toc_side_features():
+    from archival_structures.analysis.index_pages import toc_side_features
+    f = toc_side_features(["Register der brieven", "„ 288 a 291.", "den 25 Maart 1741", "Copie missive aan",
+                           "„ 656 a 668 verso"])
+    assert f["n"] == 5 and f["fol"] == 0.4 and f["date"] == 0.2 and f["amt"] == 0.0 and f["title"] is True
+    assert toc_side_features([]) == dict(n=0, fol=0.0, date=0.0, amt=0.0, title=False)
+    with pytest.raises(ValueError):
+        toc_side_features(["x"], {"nope": 1})
+
+
+def test_toc_side_rule_window_and_guard():
+    from archival_structures.analysis.index_pages import toc_side_features, toc_side_rule
+    f = toc_side_features(["Register der brieven", "„ 288 a 291.", "den 25 Maart 1741", "Copie missive aan",
+                           "„ 656 a 668 verso"])
+    assert toc_side_rule(f, 10) and not toc_side_rule(f, 60)
+    g = dict(n=10, fol=0.5, date=0.0, amt=0.5, title=False)
+    assert toc_side_rule(g, 10)
+    assert not toc_side_rule(g, 10, {"amount_max": 0.3})
+    assert toc_side_rule(dict(n=1, fol=0.0, date=0.0, amt=0.0, title=True), 0)
+    assert not toc_side_rule(dict(n=1, fol=0.0, date=0.0, amt=0.0, title=True), 0, {"title": False})
+
+
+def test_toc_sides_fill():
+    from archival_structures.analysis.index_pages import toc_sides
+    hit = ["Register", "1 a 2", "3 a 4", "5 a 6"]
+    miss = ["abc def", "ghi jkl", "mno pqr"]
+    texts = [hit, miss, miss, hit]
+    assert toc_sides(texts, [0, 1, 2, 3], {"gap": 2}) == [True] * 4
+    assert toc_sides(texts, [0, 1, 2, 3], {"gap": 1}) == [True, False, False, True]

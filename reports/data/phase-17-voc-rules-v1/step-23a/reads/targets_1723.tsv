@@ -1,0 +1,5 @@
+line_id	folio	target_scan	status	confidence	evidence
+d1f13456-dadb-49ec-9729-b75ff7646449	1126	NL-HaNA_1.04.02_1723_0131	found	sure	1126 printed; Rapport gedaan aan Heer Hingelbosch ... bevinding van seven kisten met enkelde stuijvers
+line_3d539e2d-9974-4cdd-8793-68f62a28e5b3	1172	NL-HaNA_1.04.02_1723_0241	found	likely	1172 printed as 1072; Aan Gouverneur Simons: Ter sentiment ... Examen der drie Jaffanapatnamse studenten
+c1ae7269-3a20-453d-96ee-38d54e04ef8e	1184	NL-HaNA_1.04.02_1723_0267	found	sure	1184 printed; Rapport ... relaas van Doan Garcia van Bordeaux van Candia
+line_1e7bde71-2c6f-4aa0-8ba6-c3cbf9507135	1330		not_found	likely	1324 on 0589, 1329 on 0609; Carel catalogue title not in HTR (tables); Ham catalogue 0621

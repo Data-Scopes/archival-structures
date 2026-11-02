@@ -1,0 +1,2947 @@
+== NL-HaNA_1.04.02_8572_0001 | #1 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0003 | #3 | sides: single | lines: 7
+[single] Van
+[single] 1
+[single] Sumatras Westcust
+[single] Anno 1767.
+[single] Eerste Beel
+[single] 17.
+[single] 8.
+== NL-HaNA_1.04.02_8572_0004 | #4 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0005 | #5 | sides: single | lines: 27
+[single] Register van alle Zodanige
+[single] Brieven en Papieren als in deesen
+[single] ingesz: en successive ontfangen sijn
+[single] van Sumatras WestCust zedert
+[single] den Laasten Ianuarij tot den 15„e April
+[single] A„o 1767:
+[single] Register. .
+[single] Missive van den gezaghebber van Staveren en Raad aan Hunne
+[single] Hoog Edelheeden d: d: Ul„o Januarij 1767. . . „ 22.
+[single] Missive aan als even door de Pdlo Chincos Residenten Palm en Van Kem¬
+[single] „pen geschreeven d: d:t 1„e fbrua:s 1767. . . - - - - „ 17.
+[single] Instructie voor den kapit: militair Daniel Poppelman ged. 15 xbr 161 „ 1.
+[single] Extract missive geschreeven door de Commissianten der Expeditie aan de gesog„
+[single] „hebber en rad te Padang d: d: 25 Jnuarij 1657. . . 18.
+[single] Register.
+[single] Missive van den gesaghebber en Raad voormoldaan hunne Hoog Edelhee„
+[single] „den d: d. ult:o Februarij 1767. . . . . . . . . . . „ 2.
+[single] Translaat missive van het Radja te Baros aan als even gesch: . . . . „ 66.
+[single] nadere missive van den Resident te Adjerhadja Challier aan Hunne
+[single] Hoog Edelheeden van den 9: maart 1767. . . . . . „ 63.
+[single] d„o van den Residenten te P=lo Chinco Palm en van
+[single] do
+[single] d„o
+[single] kempen aan als even van den 11. maart 176. . . . „ 65.
+[single] - -
+[single] . . . . . . Pag 1.
+[single] . . . . . . . . . . . . . . . . . . . . . . . . . . „ 20.
+== NL-HaNA_1.04.02_8572_0006 | #6 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0007 | #7 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0008 | #8 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0009 | #9 | sides: single | lines: 28
+[single] Van Sumtras West Cust den 31: Januarij A:o 1767
+[single] Register der Papieren Pie
+[single] op heeden P:r 't schip Vlissingen na
+[single] Batavia versonden werden, door den
+[single] Heer Hendrik van Staveren Comman¬
+[single] deur over Sumatras WestCust Benee„
+[single] vens den Raad te Padang; Eerbiedig
+[single] ingerigt, Aan zijn Hoog Edelheijd,
+[single] Den Hoog Edelen Groot Agtbaaren
+[single] en wijdgebiedenden Heer Petrus
+[single] Albertus van der Parra Gou„
+[single] verneur Generaal, Beneevens
+[single] De Wel Edele Heeren Raaden
+[single] van Neederlands Indien
+[single] B. Dit Register
+[single] N„o 1. Origineele Missive door en aan als in den Hoofde deeses
+[single] Eerbidig ingerigt ged„t als boven
+[single] „ 2. Dupplicaat d:o door en aan als boven gedatteert den 15 August:s 178:
+[single] „ 3. _„o d„o gedatteert 13 October 1766.
+[single] „ 4. Copia Instructie voor den Manhaften Capitain Poppelman,
+[single] Waar na denselven zig in zijne Expedi„
+[single] „tie tot Passaman te rigten heeft.
+[single] „ 5. Bevinding op de uijtgeleeverde Ladinge van brenger deezes
+[single] „ 6. Onkost Reekening van het bekostigd aan boven gemelde Bodem
+[single] „ 7. Drie Rendementen, als. Een p„s van Adjarkadja
+[single] „ „ „ Aijerbangijs
+[single] „ Baros
+[single] No 8
+== NL-HaNA_1.04.02_8572_0010 | #10 | sides: single | lines: 28
+[single] Van Sumatras West Cust den 31:' Januarij A:o 1767.
+[single] N„o. 8. Dupplicaat Wisselbrief
+[single] „ 9. Een naderen Eijsch van Contanten Manschappen en
+[single] verdere benoodigtheeden &:a
+[single] „ 10. Naam Rolletje van de met brenger deeses ovorvaarende
+[single] Persoonen.
+[single] „ 11. Inventaris van opgemelde Bodem
+[single] „ 121. Extract uijt een brief der Passamangse Commissianten,
+[single] Concerneerende de overgesondene gevangene
+[single] „ 13. Factuur aanreekeninge ten voordeele van 't. schip Vlissingen
+[single] Van Sumatras West Cust den Laasten Januarij 1767.
+[single] /:was geteekend:/ F:s M Smidt: Proint, Eg Cercq
+[single] Aan zijn Hoog Edelheijd
+[single] Den Hoog Edelen Groot Agtbaaren
+[single] en Wijdgebiedenden Heere.
+[single] Petrus Albertus van der Parra
+[single] Gouverneur Generaal
+[single] Beneevens
+[single] De Wel Edele Heeren Raaden
+[single] 59
+[single] van Neederlands Indien
+[single] Hoog Edele Groot-Agtbaare Wijdgebieden
+[single] de Heere, en Wel Edele Heeren.
+[single] Bij onze p:r de Barcq de Mossel affgegaane needri„
+[single] ge Letteren de datis 15„e Augustus en 13„e October p„s welkers
+[single] Dupplicaaten deesen versellen, hebben wi d'eere gehad UW Hoog.
+[single] Edelens
+[single] „
+== NL-HaNA_1.04.02_8572_0011 | #11 | sides: single | lines: 30
+[single] Van Sumatras West Cust den 31 Januarij A:o 1763.
+[single] „Edelens van 's EComp„s zaaken tot daar en toe het verschuldigte
+[single] verslag te doen, en versoeken wij oversulx ootmoedig ons daar aan
+[single] te mogen reffereeren.
+[single] 'T zeedert hebben wij alles wat in onse vermoogen was,
+[single] in het werk gesteld om het schip Popkensburg 't ontlossen,
+[single] en Eerst gemelden Bodem na te zenden, waar in wij ogter gesluijt
+[single] zijn, door het geluckige en behoude arrivement ter deeser Rheede
+[single] van het schip Vlissingen, dat aldaar op den 13:e November ten An„
+[single] „ker quam, en ons meede bragte Uw Hoog Edelens zeer gevenareer„
+[single] de secreete en Gemeene Brieven van den 6:' en 10:e October bevoorens
+[single] en haare Bijlaagen die alle Conform Register ontfangen zijn, benee„
+[single] „vens het ons toegesondene secours van Volk, Ammunitie, en Proviant„
+[single] „ voor
+[single] waar wij niet kunnen, aff zijn Uw Hoog Edelens op het ootmoedigste
+[single] te bedanken.
+[single] En na dat wij smorgens daar op in onse gehoudene bijeenkums„
+[single] „tet gemelde UW Hoog Edelens gevenereerde Missives, met alle Eer:
+[single] „bied geresumeert en daar uijt Derzelver hooge Intertie en begeer„
+[single] „te verstaan hadden, zoo beslooten wij ten eersten, en voor alle ande„
+[single] „ve dingen Uw hoog Edelens beveelen teegen den Radja van kleijn
+[single] Passaman werkstellig te maken; om welke Reeden wij ingevol„
+[single] „ge UW Hoog Edelens ordre den Capitain Militair Daniel Pop„
+[single] pelman in onse vergaaderinge sessie lieten neemen, ten eijnde
+[single] om met hem, aangaande die Expeditie, de noodige maat regulen te
+[single] beraamen.
+[single] In gevolge van de welke wij de aangebragte Europeesen en
+[single] Boegineese Militairen ten eersten debarqueerden, ten eijnde om
+[single] dezelve
+== NL-HaNA_1.04.02_8572_0012 | #12 | sides: single | lines: 29
+[single] Van Sumtras WestCust den 31 Januarij A:o 1757.
+[single] dezelve aan Land te ververschen, en haar door eenige oeffeninge in
+[single] de wapenen te beeter in staat te stellen, het voorgemelde oogmerk,
+[single] te berijken; terwijls wij mid delerwijle uijt deese Provintie bij een trag„
+[single] „ten te versaamelen een genoegzaam getaal Inwoonders, om 's Ee:
+[single] Comp„s Troupes in den optogt te adsisteeren en deselve wat meerder
+[single] aanzien bij te zetten.
+[single] Hier meede beezig zijnde, zoo ontfongen wij op den 7:e Decemb:r
+[single] een brief van de Post Passaman, waarbij den Commandeerenden
+[single] zergeant te kennen gaf, dat southan kinalij 's EComp:s vrienden
+[single] aan het wankelen hadde gebragt, en voorneemens was eerstdaags
+[single] onzen Post aan de zuijd zeijde te bessetten, om denzelven de Com„
+[single] municatie met ons te Landerf te snijden, om hem dus onverwagts
+[single] te overvallen en wegteneemen; waar op wij aanstonds beslooten,
+[single] „ te water en een sergeantschap
+[single] den Lieutenant zelfs met 50. Coppen, Boegineesen met de
+[single] aan handen zijnde Malijers te Lande na Passaman te senden,
+[single] de Laaste om de Passagie aan de Zuijd zeijde Hoopenen, en met
+[single] de eerste vereenigd zijnde, gezaamentlijk om 's EComp:s Bondge„
+[single] „nooten op te beuren en den vijand resistentie te bieden, tot de
+[single] overkomst van de geheele krijgsmagt, die binnen korten na Pas„
+[single] „saman stondt te worden gedepecheert.
+[single] Dit een en ander hier op werkstellig gemaakt, en zijn
+[single] beslag erlangd hebbende, zoo resolveerden wij verders 's EComp:s
+[single] Troupes en al wat tot den Train behoorde p:r 't schip Vlissingen,
+[single] en de overige malijers over den Landweg na de Post Passaman
+[single] te laaten vertrecken, onder het Commando van den Capitain
+[single] Militair Daniel Poppelman, dien wij tot dien eijnde voorsien
+[single] hebben
+== NL-HaNA_1.04.02_8572_0013 | #13 | sides: single | lines: 29
+[single] Van Sumatras West Cust den 31 Jnuarij A:o 1763:
+[single] hebben met de neevensgaande Instructie, waarbij wij denselven
+[single] onderregt hebben, hoe zijn E: zig zoude hebben te gedraagen met
+[single] den Onderkoopman en Aijerbangijs Resident Ian Boudewijnsz,
+[single] die zig alhier in loco bevond, en voorts in de Directie van deese gehee„
+[single] „le zaake waar aan wij oversulx korthijds halven, needrig versoe„
+[single] „ken ons te mogen reffereeren.
+[single] De swakheijd der Equipagie van opgemelden Bodem„
+[single] door de veele zieken ontstaan, noodzaakte ons 15. mattroosen
+[single] van het schip Popkensburg te ligten, en daar op te plaatsen,
+[single] om denselven in staatste stellen te Passamanse Reijze ton„
+[single] „derneemen, waar na toe deselve op den 18„e December vertrocken
+[single] en aldaar den 22„e daar aan, ten anker gekoomen is, wanneer
+[single] ten Eersten de ontscheeping van Volk, en Laading werkstellig
+[single] gemaakt wierd.
+[single] Middelerwijle quam in dato 21:e xber op deese Rhee„
+[single] „de met UW Hoog Edelens Dupplicaat Brieven en Bijlaa„
+[single] „gen ten Anker, de Chialoup de Catharina, Louisa; die door
+[single] de ziekte van den gezagvoerder en volk op de hoogte van Ti„
+[single] „coe vervallen, door 't schip Vlissingen aldaar ontmoed, en
+[single] met een anderen stuurman na herwaards gesonden was; waar
+[single] op wij aanstonds beslooten de zieken na 't Hospitaal te bezor„
+[single] „gen; gemeld vaarthuijg ten eersten 't ontlossen, 't zelve van zij„
+[single] „ne gebreeken te herstellen en 't als dan met Ballast na Pas„
+[single] „saman te senden, om de ontlossinge van vlissingen deste.
+[single] spoediger te doen voortgaan, ten eijnde om dien Bodem, zoo veel
+[single] te eerder, na Costi te kunnen laten retourneeren, zijnde gemelde
+[single] Chialoup
+[single] 5
+== NL-HaNA_1.04.02_8572_0014 | #14 | sides: single | lines: 28
+[single] Van Sumatras West Cust den 31:' Januarij A:o 17637.
+[single] Chialoup hier op den 13„e Ianuarij na derwaards vertrocken.
+[single] De Bediendens te Passaman ondertusschen door
+[single] behulp van diverse klijne Atchiense vaarthuijgen het geluk„
+[single] gehad hebbende, boven gem: Bodem zoodanig spoedig 't ontlos„
+[single] „sen, dat zij op den 11:e Januarij daar meede in zoo verre gedaan
+[single] gekreegen hebben, dat daar in niets anders overbleef, als
+[single] 35876 lb Rijst en 120 Vaatjes Buskruijt, die omt man„
+[single] „quement van Ballast, welk daar niet bezorgt kan
+[single] worden, niet konden ontscheept worden; resolveerden daar op desel„
+[single] „ven na herwaards te rug te zenden, in voegen dat deselve op den 16:'
+[single] daar aan alhier ter Rheede, ten Anker quaam; wanneer wij ten
+[single] eersten het besluijt naamen dat schip volkoomen 't ontlossen,
+[single] en 't zelve na Costi afftevaardigen:
+[single] De Lading daar van is hier Compleet uijtgeleevert,
+[single] gelijk de neevensleggende Bevindinge, aanwijst; en de ge„
+[single] „maakte Onkosten, blijkens bijgaande specificatie, niet veel
+[single] emporteerende, zoo vertrouwen wij, dat dezelve door Uw Hoog
+[single] Edelens Gunstig zullen werden gepasseert; na welks vertrek
+[single] wij onzen uijtersten vlijt zullen aanwenden; om ook 't schip Pop„
+[single] „kensburg dat door de swakheijd der Equipagie, ontstaan door de
+[single] veele zieken, nog niet gevoeglijk vertrecken kan, egter zoo dra
+[single] mogelijk is te depecheeren; waarmeede wij d' eere hoopen te heb„
+[single] „den aan UWw Hoog Edelens afftesenden, de aanhanden zijnde
+[single] Rethouren van het gepasseerde Boekjaar 176 5/6. met een vol„
+[single] „koomen verslag van den daar in gedrevene Handel en verderes
+[single] Comp. s zaaken, die in het zelve verrigt zijn, beneevens de
+[single] Boeken
+== NL-HaNA_1.04.02_8572_0015 | #15 | sides: single | lines: 30
+[single] Van Sumatras West Cust den 31:' Januarij A:o 1762:
+[single] Boeken en Iaarlijxe Papieren, zoo, voor Uw Hoog Edelens als
+[single] pro Patria; terwijl wij deesen eenelijk laaten versellen de nog man„
+[single] „queerende drie Rendementen van Adjarhadja, Aijerbangijs
+[single] en Baros.
+[single] De door UW Hoog Edelens ons terug gezondene Gijon„
+[single] „ting tot dato deeses nog niet aangekoomen, en bij ons ook niets doar
+[single] van vernoomen zijnde, zoo hebben wij nu hier meede de Eere gehad
+[single] aan Hoog. Dezelve te doen het verschuldigde verslag, noopens
+[single] de Hoofddeelen van scheepen en Vaarthuijgen, item haare uijt„
+[single] „geleeverde Laadinge, als meede van de Passamangse zaaken„
+[single] voor zoo verre dezelve daarmeede betreckinge hadden; en blijft
+[single] ons dus nog eenelijk over, UW Hoog Edelens in deesen schuldplig„
+[single] „tig te dienen, op Derzelver zeer g'eerde requisitten, gedaan, bij
+[single] Haaren secreeten brief van den 10„e October pass„o en voorts te doen
+[single] het Rapport van den Preseten staat der Passamangse Expeditie
+[single] op zig zelven.
+[single] Noopens het Eerste, van wat niet de Postratting te Pas„
+[single] „saman eijgentlijk zij:n zoo hebben wij bereets bij onsen jongsten van
+[single] den 13:e October d'eere gehad Uw Hoog Edelens te bedeelen, dat
+[single] dezelve voornamentlijk strekt tot eene verzeekering van den or„
+[single] „dinairen Handel op deese Cust, die zonder de Communicatie met
+[single] de Berg Volkeren van dat Landschap, aan eenen onvermijdelijke
+[single] winstderving subject zoude zijn, weshalven wij needrig versoeken
+[single] ons daar aan te mogen gedragen.
+[single] Betreffende het tweede wat de Posthouding aldaar
+[single] wel sal koomen te kosten: zoo vinden wij ons als nog, buijten staat
+[single] om
+[single] 7.
+== NL-HaNA_1.04.02_8572_0016 | #16 | sides: single | lines: 29
+[single] Van Sumatras WestCust den 31:' Januarij A:o 1752.
+[single] Om UW Hoog Edelens daar van its posietiefs op te geeven,
+[single] het welke wij egter niet zullen nalaten te doen, zoo dra wij ons daar
+[single] toe in staat gesteld zullen zien.
+[single] Wat nu Derdens aangaat het gedrag der overige
+[single] Inlandse Regenten en Bondgenooten, zoo hebben wij daar om„
+[single] „trend niets Hoofd-zaakelijx te melden; te meer daar wij ons in
+[single] staat gesteld agten, de klijne Correcties, die er altemet noodig mogten
+[single] worden, na het afloopen der Passamangse zaaken, te zullen kunnen
+[single] beslissen en affdoen: het eenigste dat wij met betreckinge hier op„
+[single] ons verpligt vinden, Uw Hoog Edelens onder het Oogtebrengen,
+[single] zijnde op nieuws van Baros ontfangene klagten, over eene Parthij
+[single] Atchiense Roovers, waar van wij bereeds in onzen voorigen van
+[single] den 13:e October eenig gewag gemaakt hebben; welke aangaan„
+[single] „de den Resident ons bij een secreete brief de dato 15:e December
+[single] te kennen gegeeven heeft, dat hij zig in 's Comp:s Paggar, bij na niet
+[single] meer voor dezelve vijlig oordeelde; alzoo zij onder allerhande
+[single] gesogte voorwendselen bereeds klijne hostiliteijden begaande hetepleegen
+[single] Het welke ons dan ook, sonder veel bedenking heeft
+[single] doen besluijten, de Chialoup de Goudvink met eenig volk, en door
+[single] den Resident g'eijschte goederen, in dato 12„e Januarij na der
+[single] „waards afftevaardigen, ten eijnde om dat Comptoir voor eerst
+[single] in staat van deffentie te stellen, tot dat wij na het affloopen
+[single] der Passamangse Expeditie iets meerders zouden kun„
+[single] „nen onderneemen
+[single] Ondertuschen heeft den Resident Sieben ons te
+[single] gelijker tijdt berigt, dat de Berglieden bijna geene Reukwerke
+[single] meer afbragten maar zig op den Landbouw toelegten, om reedenen
+[single] dat
+== NL-HaNA_1.04.02_8572_0017 | #17 | sides: single | lines: 29
+[single] Van Sumatras WestCust den 31:' Januarij A:o 1767::
+[single] dat zij bij het Insaamelen der Gommen, door den geringen Prijs die
+[single] D' E: Comp„e daar voor betaalde, hunne moeijte en arbijd niet betaald
+[single] kreegen, onder Verseekeringe van den Resident, dat dien Handel,
+[single] ingeval er hier omtrent geene veranderinge gemaakt wierd, door
+[single] den tijdt in 't geheel zoude koomen stil te staan; het welke dezelve
+[single] ons versogt heeft Uw Hoog Edelens eerbiedig voorte draagen gelijk
+[single] wij hiermeede d' eere gehad hebben te doen.
+[single] Aangaande de voorschreeven Expeditie op zig
+[single] selven, hebben wij de eere uw Hoog Edelens te berigten, dat de
+[single] Commissianten ons bij hunnen laasten brief van den 14„e Ianu„
+[single] „arij bedeelt hebben, dat zij den Post situa weederom in't bezit
+[single] gekreegen, en door een Vaandrig met 120. Coppen Boegineesen be„
+[single] „zet hadden, waardoor het Transport der Ammunitie Goede„
+[single] „ven en het noodige Proviant na boven, zoodanig gefaciliteerd wierd,
+[single] dat zij koopten, binnen korten, den formeelen optogt te onderneemen.
+[single] De door deese Expeditie, noodzaakelijk gewordene
+[single] Extra ordinaire verstrekkinge van Contanten, oorzaak zijnde, dat de
+[single] op onsen Eijsch voor dit Iaar voldaane Contanten, niet kunnen toerij„
+[single] „ken, zoo hebben wij de vrijhijd genoomen eene somma van Rd=s 5500:—:—
+[single] /: á 48 stx=s ijder:/ opteneemen, bij den Capitain ter Zee Dirk Wagtels,
+[single] aan wien wij daar en tegen onder uw Hoog Edelens gunstige welduijding
+[single] Een Origineelen en een Dupplicaat Wisselbrief van de deesen Vesellen„
+[single] de Copia hebben affgegeeven terwijl wij needrig versoeken dies bedraagen,
+[single] aan hem te willen laaten uijtkeeren.
+[single] Ook hebben gemelde reedenen ons verpligt een na„
+[single] „deren Eijsch te doen van Contanten, zout, Provisien en Manschappen,
+[single] dien wij de Eere hebben Haar Hoog Edelens hier neevens aante bieden,
+[single] met
+== NL-HaNA_1.04.02_8572_0018 | #18 | sides: single | lines: 32
+[single] Van Sumatras West Cust den 31:' Januarij A„o 1767:
+[single] met Oodmoedig versoek om de spoedige voldoening van denselven.
+[single] En hier meede aangaande deese stoffen voor ditmaal
+[single] niets verders te melden weetende, zoo neemen wij nog maar eenelijk de
+[single] vrijheijd hier bij te voegen; dat wij op 't verzoek van den Eerwaarden Predi„
+[single] „cant Iohannes Fraciscus Hadorn, goedgevonden hebben, zijn
+[single] Eerwaardes te permitteeren met brenger deeses na Costi te retournee„
+[single] „ven, en alzoo dezelve als nu daarmeede overvaart, kunnen wij niet
+[single] aff zijn UW Hoog Edelheedens needrigst te bedanken voor de
+[single] toesending van zijn Eerwaarden die ons in alles een volkoomen
+[single] genoegen gegeeven heeft.
+[single] Nog hebben wij aan twee van Bancahoulou overge„
+[single] „koomenen Chineesen in naame Tan- Poeko en Tan Tjecko, toegesaan
+[single] met deesen Bodem na derwaarts overtevaaren mits aldaar betaalende
+[single] het gewoone Transport en Rostgeld.
+[single] Deessen dus besluijtende, zoo beveelen wij Uw Hoog Ede„
+[single] lens met 's E. Comp:s omslag in de bescherming des Allerhoogsten,
+[single] terwijl wij brenger deeses een geluckige en voorspoedige Rethour toewenschende,
+[single] met alle verschuldigte Eerbied ons noemen /:onderstond:/ Hoog Edele
+[single] Groot- Agtbaare wijdgebiedende Heere, en Wel Edele Heeren:
+[single] /:Lager:/ UW Hoog Edelens onderdaanige en gehoorsaame dienaeren
+[single] /:Was geteekend:/ H: V: Staveren, J: A hierens, F: Douglas, J: Calkoen: van
+[single] Limburg, I: F: W: Nicolai, en F:s Lekimannij/in margine:/ Padang op
+[single] Sumatras West Cust den Laasten Januarij 1767. /: daaronder:/ P: S: Dee„
+[single] „sen bereeds geslooten zijnde, zoo quaam van Passaman op deese Rheede ten Anker de
+[single] Chialoup de Ilaazewind met zoodaanige agt gevangenen, als UW Hoog Edelens
+[single] uijt een neevensleggend Extract brief van de Commissianten aldaar ten genoegen
+[single] blijken zal; hebben wij dienstig g'ordeeld dezelve met brenger deeses aan Uw Hoog Ede„
+[single] „lens overtezenden alsoo de officieren versogt hebben, dat deselve na gewoonte ten
+[single] haaren faveure mogten verkogt worden, het welke wij de wrijheijd neemen, aan UW Hoog
+[single] Edelens goedvinden gedeffereert te laaten.
+[single] Instructie
+== NL-HaNA_1.04.02_8572_0019 | #19 | sides: single | lines: 28
+[single] 11
+[single] Van Sumatras West Cust den 15:e December A„o 17632
+[single] Instructie voor den E Man=
+[single] haften Capitain Militair
+[single] Daniel Poppelman
+[single] gaande op heeden als verhoofd der
+[single] Expeditie teegens Radja kinalij
+[single] p„r 't schip Vlissingen van hier
+[single] na Passaman, waar
+[single] na zijn E: zig in de directie en
+[single] behandelingen van zaaken zal
+[single] dienen te reguleeren.
+[single] Manhaffte Vroome Discreete
+[single] Nademaal UE geduurende zijn aanweezen alhier, in
+[single] onze vergaderinge g'adsisteert, en alles wat er 't zeedert UE komst ver„
+[single] „rigt en voorgevallen is, bijgewoond, als meede meenigmaal aangehoord heeft,
+[single] onze deliberaties over de Passamangse zaaken; zoo houden wij ons vol„
+[single] „koomen verzeekert, dat UE bekend zal zijn, waar uijt de thans exteeren„
+[single] „de verschillen met den Radja van 't Landschap kleijn Passaman
+[single] haaren oorspronk hebben; hoe die Radja D E: Comp=e in een s an„
+[single] ders Landt offensive aangetast, en dus den Oorlogh aangedaan
+[single] heeft, zonder daartoe eenig Regt off reeden gehad te hebben: en hoe
+[single] deselve vervolgens door onze waapenen onder het beleijd van den
+[single] Onderkoopman en Aijerbangiers Resident D: E: Ian Boudewijnsz,
+[single] van daar gerepouseert en verdreeven is, tot voor zijne Hoofd Negorij
+[single] kinalij circa Eensen een halve dag rijsens Landwaards op gelee„
+[single] „gen.
+[single] Niet
+== NL-HaNA_1.04.02_8572_0020 | #20 | sides: single | lines: 28
+[single] Van Sumatras West Cust den 15:' December A:o 1766:
+[single] Niet minder vertrouwen wij UE bewust te zijn, dat ge„
+[single] „melde Radja aldaar een tijd lang, zeer nauw beleegert gehouden
+[single] en hem zoo veel te doen gegeeven is, dat hij zeekerlijk op die wijze eijn„
+[single] „delijk zoude hebben moeten succumbeeren, indien niet 's E Comp=s
+[single] Bond-genooten van Cata Baro en een gedeelte van Sihouluang,
+[single] meijneedig geworden en den vijand toegevallen waaren: En dat dit
+[single] gemelden ondercoopman, zig van Vijanden omcingeld ziende, ge„
+[single] „noodzaakt heeft een besluijt te neemen, zig door die ver-raaders
+[single] heen te slaan, en na onzen Post aan den mond Revier Tan Jong
+[single] te retireeren, alwaar zijn E: op den 19 Augustus met het verlies van
+[single] eenige man beneevens de Arthillerij en andere goederen, nog
+[single] met de rest van 't volk behouden aanquaam
+[single] Dat wij daar op de voortsettinge van deese zaake ge„
+[single] staakt, en uijtgesteld hebben, tot den ontfangst van het door ons
+[single] in dato 26: e Junij p=o een Expresse van Haar Hoog Ed=s versogte Secours.
+[single] dat UE tot dien eijnde met zijne onderhebbende 100 Euroopeesen, 200
+[single] Boeginesen en officieren p:r 't schip Vlissingen, na herwaards ge„
+[single] „zonden is: En dat den wille en de begeerte van Haar Hoog Ed:s meede
+[single] brengt, dat de verraaders strengelijk zullen werden gestraft, den
+[single] vijand overwonnen, en het gantsche Land van klijn Passaman
+[single] zal werden geconquireert, is UE meede volkoomen gebleeken bij Lec„
+[single] „tuuren van Haar Hoog Ed=e hoog gevenereerde secrete Missive van
+[single] dato 10=e october deeses Jaars, als meede dat UE in deeze Expeditie
+[single] niets van eenig gewigt zal onderneemen, sonder alvoorens te hebben
+[single] ingenoomen, den Raad en het advis van den ondercoopman en Aijer„
+[single] „bangies Resident, Ian Boudewijnsz: hier vooren genoemd,
+[single] dewelken
+== NL-HaNA_1.04.02_8572_0021 | #21 | sides: single | lines: 29
+[single] 13.
+[single] Van Sumatras West Cust den 15:' December A:o 1760.
+[single] dewelke tot dien eijnde door Hoog dezelve gecommitteerd is, deezen Veldtockt
+[single] bij gesondhijd in Persoon bij tewoonen, en uE: met Raad en daad 't adsisteeren
+[single] En dus zoude het onzes bedunckens supperslue weezen, UE: in
+[single] de Executie van Haar Hoog Edelens beveelen eenige schriftelijke onder„
+[single] „rigtingen en bepaaling te willen voorschrijven, te meer daar men dog
+[single] door de afgeleegentheijd van die plaatsen niets met een zeekeren grond
+[single] kan aanwijzen, om welke reedenen wij uE deeze ook maar voornaa„
+[single] „mentlijk ter handen stellen, om uE te bedeelen ons goedvinden noopens
+[single] het Bestier van Zaaken; De Adminstratie der Contanten, virves
+[single] en andere goederen tot den train behoorende als meede omtrent de
+[single] daagelijxe discipline.
+[single] Belangende het eerste stuk, zoo hebben wij tot voorkomin„
+[single] „ge van alle misverstand tusschen UE en meermeld ondercoopman
+[single] Ian Boudewijnsz: in onse sessie van den 5:e december beslooten uE:o
+[single] beijde toetevoegen den boekhouder en Eerste geswoore Clercq Bartho„
+[single] „lomeus francois forcade, die met uE overvaard om als schriba dienst
+[single] te doen, en de noodige aantekeningen te houden.
+[single] Met betreckinge tot het tweede hoofd stuk, hebben wij
+[single] noodig geoordeelt de administratie hier boven beschreeven, te stellen
+[single] onder gelijke verantwoording van uE en voorsz: E: Boudewijnsz:, die
+[single] over sulx meede een sleutel van de geld kist zal moeten hebben, en
+[single] voorts pertinent, Boek en reekening zal moeten houden, van alles wat
+[single] tot deese Expeditie zoo van Batavia als van hier gefourneert is,
+[single] en van 't geene op reekening van Train en Oorlogs ongelden verstreckt
+[single] en verbruijk word, ten welken Eijnde maandelijx zal moeten opge„
+[single] „maakt en na herwaards gesonden worden, eene behoorlijke speciffi„
+[single] „catie
+== NL-HaNA_1.04.02_8572_0022 | #22 | sides: single | lines: 31
+[single] Van Sumatras West Cust den 15:' December A:o 1766:
+[single] „catie, geteekend door UE en d'E: Boudewijnszy ter bewerking van dewelke
+[single] en 't geene daar toe betreckelijk is, met uE. als trainschrijver overvaard, den
+[single] in huur genoomenen Burger Willem Krijgsman Junior
+[single] De daagelijxe Discipline aangaande, gerusten wij ons vol„
+[single] „koomen op uE: billijkheijd en ondervindinge en willen niet twijffelen,
+[single] of uE zal eene vaderlijke sorge voor ons volk draagen, in diervoegen,
+[single] dat ze zoo wel door de noodige Leevensmiddelen, in Lichaams gezond.
+[single] „heijd als door de Hijliging van Gods. Naame, in de vreese des 'eerens.
+[single] en de schuldige gehoorsaamheijd aan hunne wettige overheijd moogen
+[single] onderhouden worden.
+[single] UE dus kortelijk over de drie hoofdpoincten onderhouden
+[single] „hebbende, zoo vinden wij ons meede verpligt alhier te nooteeren, dat bij on„
+[single] „verhoopte sterffgevallen van uE: off D' E Boudewijnsz: zullen moeten
+[single] optreeden, den oudsten Lieutenant in uE plaats, en den schriba
+[single] 39
+[single] forcade in plaats van d' E Boudewijnsz, waar door deselve ipso Iure
+[single] in 't zelfde gezagh koomen, en dezelfde verantwoording zullen sub„
+[single] 9
+[single] „ject worden, waar onder zig de Overleedenen bevonden.
+[single] UE: nu hiermeede onze Intentie noopens de generaale
+[single] zaake te verstaan gegeven hebbende zoo gaan wij nu over tot eenigde„
+[single] „tail daar van uE: aanvanckelijk berigtende, dat wij het schip Vlissen„
+[single] „gen geprojecteert en gereed gemaakt hebben, tot het Transport van
+[single] den geheelen Train na onzen Post in 't Landschap kleijn Passaman
+[single] en dat daar in afgescheept is, zoo wel het aangebragte van Batavia
+[single] als 't geene uE. en D E Boudewijnstz, daaren boven nog van ons geijscht
+[single] hebben en door ons voldaan is, waar van de neevens leggende factuur N:o 2
+[single] UE nader aanwijzinge zal doen.
+[single] En aangeszien de voorsz: Bodem thans Zaijlreede legt, zoo zal
+[single] uE
+== NL-HaNA_1.04.02_8572_0023 | #23 | sides: single | lines: 32
+[single] 15
+[single] Van Sumatras West Cust den 15:' December A:o 1766,
+[single] UE op den ontfangst deezes. zig ten Eersten na Boord. dienen te
+[single] begeeven, zijnde, den Capitain ter Zee. Dirk Wagtels. gelast aanstonds
+[single] na UE komst ancker te ligten en na de gedestineerde plaatse onderseijl
+[single] te gaan, ten welken eijnde hij van een goede Loots. voorsien is hebbende
+[single] de Inlandse macht: bereeds de reijse, overland na onzen Post: aan„
+[single] „genoomen. —
+[single] Aldaar geluckig ten anker gekomen, en aan Land getreeden.
+[single] zijnde zal UE. de nevensgaande brief ten eersten overhandigen aan den
+[single] Mank: Lieutenant Commandant Maurits sels die daarbij gelast
+[single] e
+[single] word aanstonds aan UE over te geeven:s het Commando over de Post.
+[single] Passaman en dies onderhoorigheeden, zullende deese Post, aangemerkt.
+[single] moeten worden, als de Hoofdplaats van dat Landschap dewelke:
+[single] oversulx bij onze Hoofd Boeken, voor alles gedebiteert is. wat tot
+[single] deese Expeditie afgescheept word. —
+[single] Dus in de Possessie van UE departement, getreeden zijn„
+[single] „de, zoo koomen wij UE voor alle dingen, op het ernstigste te recomman„
+[single] „deeren goede ordre te stellen, en alle dilligentie te gebruijken, om
+[single] het schip vlissingen spoedig te ontlossen, en te rug te zenden, ter
+[single] eijnde wij in staat gesteld mogen worden, te voldoen aan de Hooge be„
+[single] „veelen van Haar Hhoog Ed:s om dier Bodem spoedig te rug te senden.
+[single] Na het welke wij te gemoed zullen zien. den gelukkigen
+[single] uijt slag van deese onderneeminge, dewelke gereusseert zijnde, ons een
+[single] volkomen Reekt zal verschaffen, op het meermelde Landschap kleijn
+[single] Passaman, dat dan ook in zulken geval, moet geconsidereert worden.
+[single] als een wettig Conquest verkreegen door de wapenen van de Nederlandse
+[single] Natie, ten welken eijnde daar over Comp:s weegens een stadhouder: of
+[single] Panglima, Zal worden, gesteld, die den Eede van onderdanigheijd en
+[single] gehoorzamheijd
+[single] g
+== NL-HaNA_1.04.02_8572_0024 | #24 | sides: single | lines: 35
+[single] Van Sumatras West Cust den 15:' December A:o 1766
+[single] op
+[single] Laur Apie verpligten
+[single] ons UE: die persoon
+[single] aen te
+[single] En naeme southan gehoorzaamheijd alvoorens. aan de E: Comp:e zal worden afgenomen
+[single] e
+[single] de goede Getuijgenissen, die ons gegeeven zijn van den Hoofd Pong„
+[single] op
+[single] „hul: van Aijergattan, ien wijsen, om den selven des noodig zijnde
+[single] tot de opgemelde waardigheijd te verkiesen.
+[single] En schoon wij voor de Postvatting in 't Landschap
+[single] van groot Passiman, bereeds met de gemagtigdens
+[single] van dies Radja en Bondgenoodschap, een Contract.
+[single] van koophandel, hebben opgeregt gehad, zoo ordee„
+[single] „len wij egter dienstig zulx deesen. sub N=o 4.
+[single] bij te voegen ten eijnde om 't zelve bij goeden Uijt.
+[single] „slag onzer zaaken, nog wat nauwer toe te trecken
+[single] Waar op UE oversulx zal dienen: verdagt te zijn
+[single] Uijt de deezen sub N=o 5 versellende vrlon„
+[single] „ster Rolle. zal UE blijken wat daanige dienaa„
+[single] „ven met UE overvaaren, dewelke wij neevens.
+[single] UE beveelen, in de alleen veijlige Hoede des Aller„
+[single] „hoogsten, terwijl wij ondertoewensching van een goed
+[single] succes blijven /:onderstond:/ Manhafte vroome
+[single] Discreete /:Laager:/ UE goede vrienden /:was
+[single] Geteekend:/ H: k: V=n Staveren. I:n H:n Thievens
+[single] f=s Douglas. . . . . . . . . . ..
+[single] J:n ffrn W=m Nicolai
+[single] .
+[single] /:in margine:/ Padang op Sumatras
+[single] West Cust den 15:e December 1766. /:Onderstond:/
+[single] Accordeert /:was geteekend:/ F: M=s Schmidt
+[single] proint: Eg: Clercq
+[single] Jan
+== NL-HaNA_1.04.02_8572_0025 | #25 | sides: single | lines: 27
+[single] 17
+[single] Van Sumatras West Cust den 11:' Februarj Ao 1732.
+[single] Aan sijn Hoog Edelheijd den Hoog Edelen
+[single] Groot Agtbaaren, wijdgebiedende Heere
+[single] Petrus Albertus van der Parra
+[single] Gouverneur Generaal &. &. &.
+[single] beneevens
+[single] De Wel Edele Heeren Raaden
+[single] van Neederlands Indien
+[single] Hoog Edele Groot Agtbaare.
+[single] Wijdgebiedende Heere
+[single] en
+[single] Wel Edele Heere:
+[single] Wij hebben d' Eere UW Hoog Edelens hier ingeslooten
+[single] toe te senden eene nadere Eijsch van zodanige Sijwaaten, als wij
+[single] voor dit loopende Boekjaar van nooden hebben, den Handel is
+[single] hier zeedert een maand. seer vermeerderd en hebben wij t geluk, ge„
+[single] „had eenige oude Lijwaaten: van de hand te setten, waar toe de apparon„
+[single] „tie is om van dit Jaar nog meer van dezelve kwijt te raaken ingeval„
+[single] le het uw Hoog Edelens, goedgunstig mogtes behaagen ons vo spoedig
+[single] mogelijk met de op dit Eijschje bekend gestelde lijwaaten te willen voorsien.
+[single] Wij neemen de vrijheijd ons met diep ontsag en Eerbied tenoemen
+[single] /:onderstond:/ Hoog Edele Groot Agtbaare wijdgebiedende Heere, en
+[single] Wel Edele Heeren /:laager:/ Uw Hoog Edelens seer ootmoedige en ge„
+[single] „hoorzame Dienaaren /:was geteekend:/ I: Roeland Palm I: V: Kempen Iansz:
+[single] /:in margine:/ Pdulo Chinco den 11=e Februarij A„o 1767.
+[single] Extract
+== NL-HaNA_1.04.02_8572_0026 | #26 | sides: single | lines: 28
+[single] Van Sumatras West Cust den 25: ' Januarij A:o 17637:
+[single] Extract uijt een Brief geschreeven
+[single] door de Commissianten Den planhaften
+[single] Capitain en hoofd van De Expeditie Da„
+[single] „niel Poppelman, en den onder Coopman
+[single] en Aijerbangies, Resident Mitsgaders
+[single] Gecommitteerd van H: H: Ed=s Ian
+[single] Boudewijnsz: Aan den wel Edelen Agt„
+[single] baaren Heer Hendrik van Staveren
+[single] Commandeur en den Raad deeser Custe
+[single] gedateerd Plara Tanjong den 25=e
+[single] Januarij 1767.
+[single] Onze onderneemingen: zijn /: God Loss:/ tot dato nog van een.
+[single] goed Effect geweest, en de apparentie voor 't vervolg is niet minder
+[single] favorabel Gelijk uijt het volgende blijkt, seekere soo genaamde
+[single] southan kinalij kitjiel /:alias:/ Radja Poeti off zouthan.
+[single] Iohan eijgentlijk, onderscheijn van vriendschap al ons gedoen„
+[single] „te op sitoua bespiedende, en vervolgens van zijn wedervaaren.
+[single] bij alle ocagies aan southan kinalij rapport doende, in
+[single] soo verre selfs dat hij bij nagt in 't heijmelijke aan southan
+[single] kinalij Leevens middelen en andere behoeftens toestond, en
+[single] onder dien schijn een groot gedeelte padij die in't veld stond
+[single] aan southan kinalij nog sogt toe te voeren, bij den Lieutenant
+[single] sibolt op siloea onder zijnen gewoone minsaamen scheijn„
+[single] met eenige planschappen in de benting koomende heeft
+[single] gemelde Sibolt op de door ons aan hem meede gegeevene secre„
+[single] „te ordre, hem met zijn bij hebbende Mlanschappen, ten ge„
+[single] „tallen
+== NL-HaNA_1.04.02_8572_0027 | #27 | sides: single | lines: 31
+[single] 19
+[single] Van Sumatras West Cust, den 25:' Jnuarij A:o 1762.
+[single] „tallen van ses koppen, geapprehendeert, gelijk deselve dan ook, op
+[single] den 22:e deeser des avonds om half agt alhier geboeijd zijn aangebragt,
+[single] in welker voegen wij thans d' Eer hebben deselve ter dispositie van
+[single] uw wel Ed=e Agtb=r pr brenger deeses de Chialoup de Hlazewind: onder
+[single] 't opzigt van dies gezaghebber Fredrik Vogeling over te senden.
+[single] Gemelde Söthan Iohan heeft terwijl, dat hij hier gevan„
+[single] „gen zat, teegens ons gesegt, dat southan Lauwt: apie, dato Garram
+[single] en meer andere van onse trouwe bondgenooten, hem in dit Labirent
+[single] gebragt hadde, waar door hij immers als van selfs bekent, schul„
+[single] „dig te weezen aan ontrouwen verraad, want dat southan. sauwt
+[single] apie en de andere altoos een aankleeven de bondgenoot van d: E
+[single] Comp:e geweest is; te over bekent, en egter soude southan Iohan.
+[single] deese welmeenende wel van ontrouwen verraad willen beschuldigen.
+[single] en dat 't remarquabelste van alle is, bestaadt hier in, te weeten„
+[single] so dra hij voor ons geboeijd gebragt wierd, dat hij aan ons versogt,
+[single] bij aldien wij hem schuldig oordeelden dat men hem na Poulo Da„
+[single] „mar off het Eijland Edam. mogt verbannen, een vaste regul, dat er
+[single] onder hun een diergelijk discoers voor afgegaan moet zijn, als wij gekree„
+[single] „gen worden, sal t' slimstardat er op ies sijn: dat wij na Poulo: damar off„
+[single] d
+[single] Eijland Edam. gebannen werden:
+[single] southan kinalij verliest aan deesen southan Iohan om sotespre
+[single] „ken zijn regterhand, en meer debiteerd dat den Landacad ahier voor deesen man
+[single] meer vreeshaden, dan voor 20. geapende Maleijers weegens zijn gerasfineerdt.
+[single] „heijd en sinisterie streeken
+[single] Nadar Extract
+[single] En in steede van 7. gaan er agt gevangene over als ver
+[single] nog nader een manslaaff van southan Iohan op gevat is /:onderstond:/
+[single] Accordeert /:was geteekend:/ F: M=e Schmit, proint: Eg Clercq
+== NL-HaNA_1.04.02_8572_0028 | #28 | sides: single | lines: 30
+[single] Van Sumatras West Cust ult:o Februarij A„o 1767.
+[single] Register der Papieren die op heeden
+[single] p:r 't schip Popkensburg na Batavia
+[single] gezonden werden door den Heer Hendrik
+[single] van staveren Commandeur deeser
+[single] Custe Beneevens den Raad te Padang
+[single] g'addresseert Aan zijn Hoog Edelheijd
+[single] Den Hoog Edelen Groot Agtb: Wijdgebie„
+[single] „dende Heere
+[single] Petrus Albertus van der Parra
+[single] Gouverneur Generaal benevens
+[single] De Wel Edele Heeren Raaden
+[single] van Neederlands India
+[single] 2 dit Register
+[single] N„o 1 Origineele missive door en aan als in den hoofde deeses
+[single] Eerbiedig ingerigt gedateerd ul: febr 17.
+[single] „ 2 Duplicaat missive P:r het schip Vlissingen aan Haar Hoog
+[single] Edelens gesonden gedatteerd uE=:o Januarij 1767.
+[single] „ 3 Inventaris van 't schip Popkensburg
+[single] „ 4 Onkost Reekening van dien Bodem
+[single] „ 5 Bevinding op de uijtgeleverde lading van dien
+[single] „ 6 de Cassa reekening van Passamang in A„o 1766
+[single] „ 7 specificque verantwoording van den onderCoopman en
+[single] Commissiant Ian Boudewijnsz:
+[single] „8 missive van den Radja te Baros C: s: aan Haar Hoog Edelens
+[single] „ 9 Prijs Courant van de Lijwaten p.:r Popkensburg aangebragt
+[single] „10 Dupplicaat van den naderen Eijsch van Padang voor
+[single] A:o 176/3 p„r Vlissingen afgegaan.
+[single] „ 11 Naedere Eijsch van Rojerhadja voor A„o 1766/3
+[single] N„o 12
+== NL-HaNA_1.04.02_8572_0029 | #29 | sides: single | lines: 31
+[single] 21
+[single] Van Sumatras West Cust ult:o Februarij 1767.
+[single] N:o 12 Fermeelen Eijsch van Padang voor 176 1/8 r„o
+[single] „ 13 Provisioneele Eijsch van Poulo Chinco
+[single] „ 14 Formeelen Eijsch voor adjerhadja
+[single] „ 15 Geeneraale staat reekening van deese Cust d' A„o 176 7/
+[single] „ 16 De Negotie boeken en Papieren in een apart kas.
+[single] „je gemerkt N:o 16.
+[single] „ 17. „ Zoldij Boeken en Papieren almeede in een appart
+[single] kistje en gem: n:o 17
+[single] „ 18 de staat Rekening van Poulo Chinco
+[single] „ 19 „ _„o _„o „ adjerhadja
+[single] „ 20 „ _„o _„o „ Baros
+[single] „ 21 „ _„o _„o „ Aijerbangijs
+[single] „ 22 „ Lijst der vreemde scheepen en Vaartuigen
+[single] „ 23 „ Twee s Requesten als
+[single] Een van den soldaat Coenraed daniel Joosten; en
+[single] van den Jonge Michiel Willem Hendel.
+[single] „
+[single] „ 24 drie Requesten supplianten de zoldaaten gewrit krijgesman
+[single] van Padang Hendrik michiel Ri„
+[single] chard van Baros. en den Jongeling
+[single] Servaas hendrik van kempen van
+[single] Amsterdam Imploeerende haar
+[single] Hoog Ed„s om met het Pennisten
+[single] kostgeld te mogen werden Geberificeert
+[single] „ 25 Dag verhaal van den Equipagie opsiender nopens
+[single] het Lossen en Laaden der scheepen
+[single] „ 26. Een Naam roll van de p:r brenger deeses over„
+[single] vaarende Persoonen
+[single] No. 27
+== NL-HaNA_1.04.02_8572_0030 | #30 | sides: single | lines: 33
+[single] Van Sumatras West Cust ult„o Februarij 1767.
+[single] gaande
+[single] N:o 27. Copia Resolutien. tot 's E: Comp:s brief behoorend begin„
+[single] „nende den 26 september 1766 en Eijn„
+[single] digende met den 10 februarij 1767. —
+[single] „ 28 Een Tweede wissel brieff op haar Hoog Ed:s ten voordeele
+[single] van de overleeden van 't schip Popkensburg
+[single] appar „ 29 Factuur van 't gelaadene in brenger deeses
+[single] „ 30. Register der Padangse secretarij Papieren van A:o 1765/8
+[single] Zoo voor Batavia als pro Patria,
+[single] Padang op Sumatras WestCust ulto Februarij 1767.
+[single] /:was geteekend:/ J: M=se Schmidt proint E: g. Clercq
+[single] Aan zijn Hoog Edelheijd
+[single] Den Hoog Edelen Groot agtb:r en wijd geb:t Heere
+[single] Petrus Albertus van der Parra
+[single] Gouverneur Generaal
+[single] Beneevens
+[single] D' Wel Edele Heeren Raaden
+[single] van Nederlands Indien
+[single] Hoog- Edele Groot Achtbaare en
+[single] Wijdgebiedende Heere en
+[single] Wel Edele Heeren!
+[single] P„r 't schip
+[single] Popkensburg
+[single] Na het vertrek van het schip Vlissingen, met
+[single] Eerbiedig referte aan de voor„ onse nedrige advisen, de dato Ult„o Iannuarij waar van het dupplicaat
+[single] Preparatie tot het vertrek van deesen verseld hebben wij ingevolge van het daar bij vermelde, aantonds
+[single] 't schip Sopkensburg
+[single] „alles werkstellig gemaakt, om ook den brenger deezes, zijne depeche te
+[single] Terwijl middelerwijle voor aff
+[single] volgt het.
+[single] bezorgen en hier meede beestig zijnde zolaten wij intussen deesen, in flueeren ons.
+[single] Extract.
+== NL-HaNA_1.04.02_8572_0031 | #31 | sides: single | lines: 38
+[single] 23.
+[single] Van Sumatras West Cust ult„o Februarij 1767.
+[single] Extract uijt de Generaale Missive:
+[single] Geschreeven door de Edele Hoog Achtbaare
+[single] Heeren seventhienen, in het Patria.
+[single] aan haar Hoog Edelens. den Gouverneur
+[single] Generaal en de Raaden van Needelands
+[single] Indien Gedatteerd den 4„e October 1765.
+[single] vervaltende de Materie van Sumatras
+[single] Westcust.
+[single] Eerbied Antwoord
+[single] Op het Neevenstaande
+[single] Uijt der ministers advijsen in den Iaare
+[single] 1763. ontfangen hadden wij reeds kennisse
+[single] bekoomen van de desolaten toestand van het
+[single] Comptoir te Poulo. Chinco en van de Consi„
+[single] „derable minderheijd. aan Contanten en
+[single] goud welke na het overlijden van den Resi„
+[single] „dent, aldaar Iacob van Oudensteijn. Elias
+[single] is bevonden en zedert uijt uwe afgaande
+[single] missive van den 14 Julij des gem:t Iaar ge„
+[single] „zien hebbende UE dispositie om de Com„
+[single] „pagnie desweegens schaadeloos te doen
+[single] stellen, zullen wij het dadelijk effect van
+[single] die ordre verwagten, Wij vinden middeler.
+[single] „wijl. in dit geval een nieuw en voor ons
+[single] gantsch onaangenaam blijk, hoe onagtsaam
+[single] om daar aan geen andere benaaming te
+[single] geeven de residenten op verscheide Comptoi„
+[single] ven, te werk gegaan en hoe weinigh acht„
+[single] de oppergebieders van die Comptoiren gee„
+[single] „ven, op het gedrag hunner onderhoorigen
+[single] want, indien volgens de gestelde, en door
+[single] ons zoo veel maalen aanbevoolen. orders
+[single] met verschuldigde attentie ter behoorlijken
+[single] tijdt, waaren nagegaan: de Restanten die
+[single] gem: resident Elias onder zig had off
+[single] immers
+== NL-HaNA_1.04.02_8572_0032 | #32 | sides: single | lines: 44
+[single] Van Sumatras West Cust ult„o Februarij 1767.
+[single] immers onder zig had moeten hebben zoude
+[single] bij zijn overlijden, die als nu bevonden minder„
+[single] „heijd zeekerlijk. geen plaats hebben gehad.
+[single] Wij zien wel dat UE bedagt zijn geweest
+[single] om daar teegens in het toekomende met meerder
+[single] effect te voorzien en wij laaten ons uwe dispositie
+[single] welgevallen in hoop dat de Commandeur serff.
+[single] voor zijn vertrek na Zouratten op het aanhoude
+[single] der Koopmanschappen. voor al van 't Goud en de
+[single] Contanten op de onderhoorige Comptoiren zoodani„
+[single] „ge schikkinge, en ordres zal hebben. beraamt
+[single] dat de maatschappij voortaan niet meer zij bloet.
+[single] gesteld aan de Considerabla schadens. die door
+[single] het wangedrag. der Residenten kunnen werden
+[single] veroorsaakt, en waar van de maatschappij reeds
+[single] meer dan te veel het Effect heeft moeten onder„
+[single] vinden. wij recommandeeren teffens de minis„
+[single] de nodige zorge te draagen, dat de Cassa Zoten
+[single] Hoofd Comptoiren, als op de subalterne Resi„
+[single] „dentien gezuivert blijve van de ongewilde munt
+[single] specien. die daar in voornaamentlijk op Padang
+[single] zijn gevonden, En gelijk wij met genoegen gezien
+[single] hebben dat het Grootste Gedeelte daar van reets
+[single] was verwisselt. zoo vertrouwen wij dat zulx met
+[single] het overige al meede buijte prejuditie van de
+[single] Comp: zal zijn gedaan terwijl blijven te gemoet
+[single] zien de informatien welke wij bij onze Letteren.
+[single] van den 10:e October des voorleeden Jaars dien aangaan„
+[single] de hebben gerequireert
+[single] Dat op de Eijschen van de buijten Comptoi„
+[single] „ven veel tijds weijnig staat kan werden ge„
+[single] maakt is een waarheijd, die de ondervinding
+[single] maar al te veel bevestigd. En de onbezonne
+[single] Eijsschen van Lijwaaten die zeedert: eenige Jaa„
+[single] „ven van tijd tot tijd weegens dit Commandement
+[single] De Grillige Keurigheijd van den Inlander ter deeser Custe
+[single] maaks dat het Inrigten der Eijsschen werkelijk voor de
+[single] bediendens alhier almeede eene der neeteligste behande„
+[single] „ling, is, die haar in den omslag voorkomt.
+[single] De Hoofd articulen van den Handel alhier zijn behalven.
+[single] zout en ijzer, voornamentlijk de Cormandelse lijwaten,
+[single] bepaaldelijk bij
+[single] zijn
+== NL-HaNA_1.04.02_8572_0033 | #33 | sides: single | lines: 60
+[single] 25.
+[single] Van Sumatras West Cust ult:o Februarij 1767.
+[single] Guinees gem: gebl: Jaggernaik poeramse alicolse en zijn gedaan, leeveren, des noods nadere en
+[single] Bimilipatnamse
+[single] sprekende bewijsen met hoe weijnig overleg
+[single] Guinees bruijn blauw sadraspatnamse 2„e en 3„e Zoort. beneevens.
+[single] nog weijnige andere bruijne blauwe soorten welke een: en ander en kennis die Eisschen zomwijlen werden.
+[single] buiten verhindering van Inlandse bevaartens haaren gewissen aftrek
+[single] geformeert, dog daar uijt proflueert tef„
+[single] vinden.
+[single] Dog zig eenelijk aan die Hoofd sortementen te willen
+[single] „fens hoe noodsakelijk zij, dat bij voldoening
+[single] houden, om daar uijt eene vaste pijl te trekken waaren zoo
+[single] weijnig bestaanbaar voor het Intrest van de Comp: als vol„ der Eisschen met de vereiste appli„
+[single] „doende. aan het requisit van den Inlander.
+[single] catie en genoegzaame kennis, werde
+[single] Bij wien ook, de Bengaalse en souratse Lijwacten
+[single] gevordert worde, dog in mindering quantiteijten en meer. gelet op de waare benoodigtheijd der ge„
+[single] der onderworpen, aan hunne veranderlijke smaak„
+[single] Eischte goederen en Koopmanschappen
+[single] die dikwils op 't onverwagts van't een opt ander valt, demaate„
+[single] dat, om haare keus bij tehouden, men zonwijle bij de formneele en in hoe verre het belang van de Maatschap„
+[single] Eijsschen zoude moeten Excuseren 't geene bij de provisioneele, pij vordert dat de eene en andere werde vol„
+[single] gerequireerd was, En al veel tijds bij de aanbrengen,
+[single] daan. vermits de schaadens. die die Maat„
+[single] als onverkoopbaar zouden dienen, opgegeeven te
+[single] werden, Sijwaten die twee Jaaren bevoorens, de eenigste navorag schappij Lijd door de verzending van goe„
+[single] uijtmaakte en als't waare op dien tijd niet genoeg te
+[single] deren off Koopmanschappen. die off
+[single] bekoomen zouden zijn. —
+[single] Om zig dan te schikken, na den Landtaardt, onbenoodigt, off niet van de vereischte
+[single] als wel voegende, om er het voordeel van deugd off in 't geheel ongewild zijn van te veel
+[single] te trecken, kan men ook, van wat kante men
+[single] aanbelang zijn om niet na uijterste vermoo„
+[single] het beschoud, of aanvangen wil nimmer
+[single] die zeekerheijd bij brengen, dat alzulke gens die schadens te verhoeden wij recomman„
+[single] quantiteijd en soorten van doeken en het „deeren UE derhalven ook op het aller nadruk„
+[single] zelfde Boekjaar zullen omgezet werden, als die
+[single] kelijkste de strictie executie van de ordres.
+[single] daar voor g'eyscht zijn. —
+[single] die UE. de ministers ten deesen Comptoiren
+[single] En dus gedeeltelijk afhankelijk van het geval
+[single] hebben gegeeven, om bij den ontfangst van
+[single] ofte de willekeur der afkoomende handelaars,
+[single] kan het dikwils intressen maar ook veeltijds eenige Lijwaaten dezelve te Examineeren
+[single] onvermijdelijk oorzaak zijn, dat onder de restan„
+[single] en alle de ongewilde ondeugende off onge„
+[single] „ten. van dit Commandement een aansienelijk
+[single] Eischte, terstond weeder te rug te zenden
+[single] Capitaal alleen dan Coopmanschappen gevon„
+[single] en dewijl daar door zal kunnen werden te weegge¬
+[single] „den werd. —.
+[single] Waarom dan ook het overblijven. leggen „ boagt, een meerder attentie in't Eisschen en in
+[single] van sommige doeken niet direckt gezegd kan woon heet versenden der goederen oordeelen wij dienstig
+[single] de ongewild te zijn, zoo lange dezelve maar in
+[single] te weezen die ordre ook tot andere, Comptoiren
+[single] haare soorten niet koomen te manqueeren aan de ver„
+[single] te extendeeren, ons flatteerende dat die in de verdere
+[single] eischte requisiten.
+[single] gemaakte
+== NL-HaNA_1.04.02_8572_0034 | #34 | sides: single | lines: 48
+[single] Van Sumatras West Cust ult:o Februarij A:o 1767.
+[single] En alzo vervalt daar door als van zelfs het gemaakte schikkingen zullen mogen dienen
+[single] tot verbeetering van den handel, en dat in't
+[single] opdringen van ongewilde doeken aan den
+[single] Inlander een methode die haar Edele Groot acht bijzonder daar door zal werden geprecenieert,
+[single] baare te regt schaadelijk gelieve te noemen, dog
+[single] die schadelijke met hode om den Inlander
+[single] die wij ook teffens de vrijheijd gebruijken te zeggen,
+[single] dat zeer bezwaarlijk alhier te practiseeren zou„ ongewilde doeken op te dringen. als zijnde
+[single] „de zijn, te meer daar d'E Comp: thans het Exclu„
+[single] een handelwijse, die wij te meermalen hebben
+[single] sive regt, van den Handel over de gantsche
+[single] Cust, niet wel kunnende Excerceeren het den Gedis approbeert, betreffende voorts de Gemaak„
+[single] boven lander aan geen uijtweegen tot zijn gerift te bedenkelijkheijd den Ministers. over de
+[single] soude ontbreeken alvoorens zig in het articul van
+[single] bepaaling omtrent de uijtkoops prijsen. der
+[single] Negotie aan eenige dwang te onderwerpen
+[single] Maar dat men na tijds omstandigheden Lijwaaten wagten wij met UE dat dezelve
+[single] met zo veel Empressement als het buijten pro„ meerendeels zal zijn vervallen door de see„
+[single] „Juditie voor 't vervolg lijden kan den koopman
+[single] „dert gestelde ordre op het ontfangen en be„
+[single] zoekt, te gewennen om zig te bedienen van die
+[single] sortemente, welke op hunne na vraage als dan zigtigen der Lijwaaten en door de qualificatie,
+[single] aan handen zijn hoopen wij dat met de rege„ die UE hen hebben verleend, om de mindere
+[single] „len des Koophandels zal kunnen over een
+[single] werden gebragt, en alzoo haar Edel Groot ach sorten tot Lager prijs te verkoopen, die wij
+[single] ons derhalven ook volkoomen. laten welge.
+[single] „baare goedkeuringe wegdraagen. —
+[single] Wij erkennen nogthans met alle Eerbied
+[single] „vallen. in vertrouwen dat de ministers,
+[single] dat bij het formeeren der Eijsschen in vroegere„
+[single] daar tegen ook bedagt. zullen zijn om bij
+[single] tijde, de behoorlijke maatigheijd niet g'obser„
+[single] veert is waarom wij de vrijheijd gebruijken Htaan verkoop van de gewilste zoorten zig niet te
+[single] Edele groot Achtbaare te verseekeren, het zal, vinden aan de bepaalde advances, maar daar
+[single] „ve ons als een Exempel ter verbeetering te
+[single] voor de hoogste prijzen. doenelijk te bedingen.
+[single] zullen laaten dienen, om steeds met zo veel
+[single] zij dus als kooplieden handelende, zig wat
+[single] overleg in deese te werk te gaan, als d' Ervaarent„
+[single] heijd toelaat en de verschuldigte Trouw gebied; zullen schikken maar de zindelijkheijd den
+[single] koopers, alzoo die veel tijds uijt een bloote ver„
+[single] kiezing geneegen zijn, wat, meer voor het an„
+[single] dere stuk, te besteeden en het niet absoluit
+[single] noodsaakelijk, schijnt dat ijder stuk van een
+[single] sortement, op zig zelve de bepaalde advance
+[single] behaale indien maar de Geheele parthij
+[single] niet,
+== NL-HaNA_1.04.02_8572_0035 | #35 | sides: single | lines: 51
+[single] 27.
+[single] Van Sumatras West Cust ult„o Februarij 1767.
+[single] houdelijk aanmaaninge, maar eeven is gaande te houden. —
+[single] Bevoorens wierd het ijzer voor Contanten verkogt, â 24 rd:s de
+[single] reedenen als vermeld ij het beslut an 1: e cober ar or e degen
+[single] 320 lb wanneer het 50 pC:o afleeverde 't zeedert is goed gevonden om alsulke
+[single] Hoofd hof goudt, na welke aansienelijke prijs het de biet daar van nogtamelijker is.
+[single] niet beneeden de bepaaling werde verkogt.
+[single] Met veel genoegen zien wij UE at„
+[single] tentie om voor te koomen de schade die door
+[single] den insaam van slegte soorten van Benzuin
+[single] werd geleden, en hoope vervolgens dat de
+[single] nadere ordres welke UE op de inhandeling
+[single] van Bensuin en Camphur hebben gesteld
+[single] aan uw oogmerk zullen voldoen en dat wij
+[single] oversulxs hier te landen zullen ontfangen
+[single] goede Zoorte van Eerste gem: Gomme tot
+[single] Convenable prijsen zullende UE de bevin„
+[single] ding van de Jongste aangebragte parthij ge„
+[single] noteerd vinden bij onze thans afgaande
+[single] Eijsch van retouren.
+[single] De toeneemende in saam van Peeper
+[single] De spoedige te rug komst der Engels en op moc„
+[single] ca. mocca hebben de middelen om van daar Peeper op Poulo Chinco is ons meede bij zonder aan„
+[single] „genaam. Wij Conformeeren ons derhalven.
+[single] te bekoomen vrugteloos gemaakt.
+[single] En wat wijders den aanqueek: van dien Corl
+[single] ook met de recommandatie welke UE de
+[single] betreft, zullen wij niet verder de attentie van ' haar
+[single] ministers op dit respect, hebben gegeven
+[single] Ed:s groot agtb:r gaande houden, met, berigten die
+[single] wel te wenschen zijn, dog hunnen tijd merkelijk vereisschen. en blijven voorts te gemoet zien het Effect
+[single] „veel liever willen w ons reserveeren tot dat w: door dadelijk bewijsen van de middelen die de ministers heb„
+[single] eens kunnen bewaarheeden de goede verwagting, die daar van succeb.
+[single] sive opgegeven is, ende welke ook niet hoopelbos kan gesteld vor„ ben g'emploijeert, om een parthij van
+[single] „den, terwijle hoe langsaam ook het accressement is het zelve dogsteeds
+[single] voor uijt gaat, en ons van nadeelige berigten bevrijd, uijtwijsens het dien korl. van moca. mocca te bekoomen
+[single] verschil van 344523 lb en 455596½ lb of wel 11072½ lb tusschen de drie Jongste, in
+[single] vergelijk van drie voorgaande Boekjaaren; tot welke vermeerdering veel gecontri„
+[single] Voorts laten wij ons welgevallen de gestel„
+[single] bueert hebbende zuider disticten, langs de sapoulo Bandhaars alwaar den
+[single] grond tot dien aanqueek geschikt de bewoonders daar van den moet, en lust van
+[single] zelve meer heeft doen opwakkeren als de uijtgesogste middelen tot nogtoe „ de ordre noopens den verkoop van het Yser
+[single] hebben kunnen uijtwerken: sondon: Padang en verdere noordwaards aan
+[single] alwaar de minder gesteldheid van't sand, tot de voortplanting van Peeper, de met een advans van 50 procent:s op het
+[single] naturlijke vadzigheijd van haare bewoonders nog trager doet zijn, en dus door onop„
+[single] aangereekende bij Factuur in Indisch
+[single] geld, en niet twijffelende off dit articul
+[single] als
+[single] zal
+[single] te
+== NL-HaNA_1.04.02_8572_0036 | #36 | sides: single | lines: 43
+[single] Van Sumatras WestCust ult:o Februarij A:o 1767.
+[single] „ve schikckinge zullen gelieve te beraamen blijve wij voor
+[single] als nog, bij de versending ons in alle Eerbied Houdende „ terie. —
+[single] aan de Jongste bepaaling ƒ31: 10: tmajff.
+[single] al men sijdar van sode heben woge beoven iede de erzal tot voorsz: prijs een genoegsaam De„
+[single] „der Postvating der Engeschen op Vatteren Tapianoelijdis daar van al„
+[single] dos overbedig oorzken en lager pijsen houden ok uijt gese ied kunnen vinden, zullen wij het effect
+[single] zijn in het distriet alwaar dat metaal zijn, zijn meesten af„ van die ordre afwagten. —.
+[single] „trek moet vinden
+[single] Uijt uwe Generaale adviesen van den 18„e October
+[single] En om deselve reeden, is den verthier,
+[single] 1763 Zien wij verder met genoegen dat het debiet van
+[single] van het zout in het district van Baros,
+[single] ook van minder aanzien als in vroeger het zout ter deeser kuste toeneemt, en schoon wij in de
+[single] tijden; daar en teegen van dat zilt, in de Iongste berigten der ministers voor zoo verre wij die aan„
+[single] 3 Jongste boekjaaren op Padang alleen is
+[single] „handen hebben met opsigt tot dat articul niets heb„
+[single] verkogt, een naamwaardige quantiteijd van
+[single] 432 Lasten, off met Baros en aijerbangieste, ben gem: gevonden, willen wij egter niet verhoope
+[single] dat den verkoop daar van zeedert zal zijn vermindert,
+[single] saamen genoomen 545 Lasten, waar in wij
+[single] hoope Haar Edele Groot Agtb:r genoegen
+[single] maar vertrouwen in teegendeel dat als dit articul
+[single] zullen neemen
+[single] bij Continuatie voor de Comp: alleen blijft gereserveert,
+[single] daar van Iaarlijks een goede quantiteijt met voordeel
+[single] zal werden van de hand gezet.
+[single] De Bereekeningen op het Goudt
+[single] Belangende de aanreekening van 't Goudt konnen
+[single] dat ten deese Comptoire werd ingekant
+[single] wij niet anders als ons Conformeeren met het geene Haar
+[single] Edele Groort Achtbaare daar van bij de successive be„
+[single] „rigten van hier is onder't oog gekoomen: Inmiddens aff„ delt, is te meermaalen geweest een voornaame
+[single] wagtende, off Haar hoog Edelhedens, dientweegen nade, onderwerp van onse deliberatien, over deese ma„
+[single] Wij hebben ook zeedert eenige Jaaren het
+[single] zelve bij orese successive missives meer off min breed„
+[single] voerig verhandelt naar dat de geleegentheijd zig daar
+[single] toe op deede en UE, zullen ongetwijffelt hebben op„
+[single] „gemerkt dat onse Consideratie en begrippen over
+[single] de van tijd tot tijd voorgeslaagen veranderingen in
+[single] die te doene aanreekeningen altoos hebben berust
+[single] op de onderstelling dat het goudten deesen Comp„
+[single] toire
+== NL-HaNA_1.04.02_8572_0037 | #37 | sides: single | lines: 31
+[single] 29.
+[single] Van Sumatras West Cust ult:o Februarij A:o 1767.
+[single] „toire wierd ingehandelt teegens ƒ31: 10: tingff
+[single] en dat zulx was de waarde, die het goud aldaar had.
+[single] In dat denkbeeld waaren wij gebragt door
+[single] de successive berigten van de Ministers waarbij
+[single] onder anderen uijtdrukkelijk wiert gezegt, dat
+[single] het goud, zoo als het uijt gebergte komt, werdin„
+[single] „gekogt tot ƒ288: 't mff en dat het zelve, als
+[single] van diverse gehaltens zijnde, door verminging
+[single] zo na doenlijk werd gebragt op gehalte van 21½
+[single] Carraet, en het zelve als dan met de drie pC:o
+[single] smelt verlies, niet hooger komt te staan dan
+[single] ƒ331:8:1: 't mgff waar voor het selve dan ook, is
+[single] aangereekend geworden
+[single] Wij waaren voorts in dat denkbeeld ver„
+[single] „sterkt, door 22. rescriptien op onse boven gem: brie„
+[single] „ven en voor een vaste grond veegel houdende dat de
+[single] zaaken die de Commercie raaken behooren te
+[single] werden voorgesteld en verhandelt zoo als dezelve
+[single] in der daat zijn hebben wij geoordeelt, dat het
+[single] goud bij verzending van dit Comptoir na Bata„
+[single] „via behoorde te werden aangereekend tot ƒ31:10.
+[single] als zijnde de waare prijs, waar voor het zel„
+[single] „te wierd ingehandelt, en om die zelve reeden
+[single] hebben wij blijven affkeuren het voorstel
+[single] om die aangereekende prijs te verhoogen
+[single] 6
+[single] tot ƒ 378:- Considereerende, dat die veranderde
+[single] met hode van Anreekeningen zouden verwekken
+[single] duisterheijd en verwarring in het nagaan van
+== NL-HaNA_1.04.02_8572_0038 | #38 | sides: single | lines: 35
+[single] Van Sumatras West Cust ult„o Februarij A„o 1767.
+[single] de gedreevene Handel zonder eenig reëel voor„
+[single] deels aan de Comp: toe te brengen zoo als UE
+[single] bij een voorige geleegentheijd ook hadde aangemerkt,
+[single] en welke duisterheijd en verwarringe wij met UEx dor„
+[single] deelden, zoo veel mogelijk te moeten worden vermijd
+[single] Bij dat begrip noopens de aanreekening van
+[single] het goud zouden wij derhalven ook als nog persisteeren
+[single] indien wij uit de zeedert ontfangene berigten niet
+[single] hadden ontwaart, dat de Onderstelling, waar
+[single] op ons voorige begrip berusten was ervoneus off Liever
+[single] dat die onderstelling was vervallen door de zeedert
+[single] ontstaane reijzing in de prijs van het Goud ter
+[single] deeser Custe, nadien bij der ministers besluijt
+[single] van de 3 September 1762, werd gezegt dat zeedert
+[single] de opengestelde vrije vaart de waarde van
+[single] het Goud is gereesen tot ƒ 401: 3/0 t mgff en dat
+[single] het daar voor bij een ijder ontfangen en Uijtgegee„
+[single] „ven werd, want zoo door die verhoogde prijs van
+[single] het Goudt het zelve de Comp: thans te staankomt
+[single] op ƒ 401: 17: ruim schijnt er geen reeden te zijn, om
+[single] het zelve bij verzending van dit Comptoir, niet
+[single] hooger dan tot ƒ331:10 't mejff aan te reekenen
+[single] te minder wijl die laager aanreekeningen,
+[single] als het waare kostende, onvermijdelijk zoude
+[single] werden veroorzaakt die zelve duisterheijd en
+[single] verwarring, welke UE zoo wel als wij bevoorens
+[single] hebben g'oordeelt te moeten vermijden. —.
+[single] Wij begrijpen wel hoe dat hoedaanig ook
+[single] het goud Indias hoofdplaats werd aan gereekend
+[single] zulks geene weesentlijke vermeerdering off
+[single] vermindering maakt in het voordeel dat de
+[single] Compagnie bij de inhandeling van het zelve be„
+[single] „haald, dog geene reedenen vindende waarom het
+[single] Goud
+== NL-HaNA_1.04.02_8572_0039 | #39 | sides: single | lines: 40
+[single] Van Sumatras West Cust ult„o Februarij A:o 1767.
+[single] Goud bij verzending van dit Comptoir niet zoude
+[single] werden aangereekend tot de prijs waar voor het
+[single] zelve is ingehandelt, zoude wij die mannier van
+[single] aan reekening boven eenige andere Verkiesen. —
+[single] Wij hebben derhalven ook nodig geacht ons
+[single] dien aangaande nader te verklaaren, temeer wijl
+[single] wij uijt uwe afgaande missive van den 14 Julij 1763
+[single] hebben gezien dat de ordre die UE de ministers
+[single] daar bij hebben gegeeven om het Goud bij Continuatie
+[single] tot ƒ331:10: t, mff aan te reekenen onder anderen berust
+[single] op ons aanschrijvens van den 30„e September 1760. en
+[single] het onse Intentie geenzints is die manier van aan„
+[single] „reekening te doen standhouden zoo waar is; gelijk
+[single] het ons nu voorkoomt, dat wij zijn geweest in een
+[single] verkeert denkbeeld nopens de waarde van het
+[single] Goud ter deeser Custe, en de prijs waar op het zelve
+[single] aldaar aan de Compagnie te staan komt, wij zul„
+[single] „len derhalven ook veel liever zien dat de ree„
+[single] „kening van het goud dat ten deese Comptoire
+[single] wierd ingehandelt, voorthaan werde gedaan over
+[single] een komstig met dies waare inkoops prijs en om
+[single] daar op eenmaal een vaste voet te kunnen be„
+[single] „raamen geschikt naar de waare gesteldheijd der
+[single] zaaken, zullen UE ons moeten berigten tot wat prijs
+[single] het goud ten deesen Comptoiren wierd ingehandelt
+[single] en offer eenige reeden is om het zelve bij verzending
+[single] van daar niet aante reekenen tot dies rehele in„
+[single] „koops prijs: —
+[single] De versending van 10'000 lb Buskruijt na
+[single] dit Commandement schijnt, te moeten werden toe„
+[single] „geschreeven, aan een erreur in der ministers
+[single] Eijsch en aan een merkelijk attentie bij dies voldoe„
+[single] „ning nademaal een Eijsch van 30'000 lb Bus
+[single] „kruijt voor dit Commandement zo Exorbitant
+[single] was, en teegens de gestelde ordres zoodanig, aan„
+[single] liep dat indien daar omtrent geen schrijff fout
+[single] plaats.
+[single] 31
+[single] .
+== NL-HaNA_1.04.02_8572_0040 | #40 | sides: single | lines: 45
+[single] Van Sumatras West Cust ult:o Februarij A=o 1767.
+[single] plaats had UE ongetwiffelt de ministers scherpe„
+[single] „lijk zouden hebben gereprocheert, over het doen van
+[single] die onbezonnen Eijsch, en het heeft ons derhalven
+[single] ook verwondert dat bij de deliberatien over de voldoe„
+[single] „ning, van dien Eijsch hoe superficieel die ook moogen
+[single] zijn geweest, dat doorsteekende, en zo zeer in het Oogloo„
+[single] „pende abuijs, aan uwe attentie is ontslipt
+[single] De veragtering van den staat deses Comptoirs
+[single] in het Boekjaar 176 6/4 niet dan ongaare hebben ge„
+[single] „zien, was het ons aangenaam te ondervinden, dat die
+[single] van den volgende Iaare een min naadeelige vertoo„
+[single] „ning maakte en dat zulks in 't bij sonder was ver„
+[single] „oorsaakt door een vermindering van Lasten ten bedra„
+[single] „gen van ruim ƒ29000 die wij hoopen dat eijndelijk
+[single] eens zullen kunnen worden gebragt binnen de bepaa„
+[single] „lingen welke daar omtrent zijn gemaakt bij de beken„
+[single] „de memorie van menage. —.
+[single] Met genoegen hebben wij gezien de ordres die de
+[single] ministers hebben gesteld op deese en geene huijselijke zaaken
+[single] en in 't bijzonder hun genoomen besluijt van den 7„e September
+[single] 1762, om met meerder effect teegen te gaan den invoer en
+[single] verkoop binnen 's Comp„s Limiten van koopmanschappen
+[single] die niet bij de Comp:e zijn ingekogt in vertrouwen dat zij
+[single] zullen Zorgen dat de verleende qualifficatie tot aanhouding
+[single] en Confiscatie van die goederen niet strekken tot een pretext
+[single] om den Inlander eenige knevelareijn off verlast aan te doen
+[single] Wanneer het Comptoir Aijerbangies slegts zijne Laste goed.
+[single] Off schoon wij volgens het genoteerde bij onse mis„
+[single] maakt, zoo als het de biet van koopmanschappen, in drie Jaaren „ sive van den 4„e October 1756 doen maals met UE: hebben af„
+[single] aanwijst, dat het ruijmt affgeeft voldoet het volkoomen aan het
+[single] „gekeurt het op regten van een Comptoir te Aijerbangies zullen
+[single] oogmerk waar toe het opregt is als voornamentlijk tot weering
+[single] wij egter ons het selve uijt hoofde van de veranderde gesteld„
+[single] van eene verdere Indrang onser nabeuren, die daar van
+[single] „heijd van zaaken Laaten welgevallen in vertrouwen dat de
+[single] anders waarschijnelijk hun gebruijk door den tijdt zoude
+[single] ministers op goede Gronde zulks nodig en dien stig hebben
+[single] gemaakt hebbe tot merkelijke pre Judice van den
+[single] g'oordeelt tot bevordering van 's Compagnies belangens. —.
+[single] standel aan deese plaats
+[single] Wij vinden echter geen redenen om ons voor
+[single] als nog van dit Etablissementen te belooven de voor„
+[single] „deelen, die volgens der ministers eerste opgaaven
+[single] aldaar
+== NL-HaNA_1.04.02_8572_0041 | #41 | sides: single | lines: 42
+[single] 33.
+[single] Van Sumatras West Cust ult„o Februarij A:o 1767.
+[single] Den Eersten Teekenaar deeses hoopende dat tot hier
+[single] aldaar te behaalen zoude zijn, en hunne laaste ad„
+[single] visen doen ons veel eerder vreesen, dat het zelve aan
+[single] hunne verwagting niet zal voldoen, want zoo de Engel„
+[single] „se hunne aangebragte goederen tot minder prijsen af„
+[single] „staan, en daar in teegen de Prodtucten van 't Land duurder
+[single] Inkoopen, als de Compagnie het een en ander kan doen, zullen
+[single] de Engelsen zeekerlijk den geheelen Handel om dien
+[single] Oird na zig trekken, dog dat zij zulx met voordeel zou„
+[single] „de kunnen doen, komt, ons voor als nog en zonder meer„
+[single] „der informatie, onaanneemelijk voor. —.
+[single] Met opsigte tot Postvatting der Engelse
+[single] te Natter en Tappianolij hebben wij UE bij onse mis„
+[single] „sive van den 10 October des voorleeden Iaars kennisse
+[single] gegeeven, dat Haar Hoog Mogende dien aangaan„
+[single] „de de noodige Representatie hebben laten doen
+[single] aan het Hoff van Zijn Groot Pritannische majesleijd,
+[single] waar van wij het Effect als nog blijven verwagten
+[single] Wij Conformeeren ons voorts met uwe gemaak
+[single] „te remarcque op de dispositie van de ministers met be„
+[single] „trekking tot den geweesen Resident te Natter Ian
+[single] Abraham van Moschel, want hoe billijk ook de hem
+[single] op gelegde straffe zijn mooge, zoude het egter beter
+[single] zijn geweest hem te stellen in handen van den Fus„
+[single] caal om vervolgens door den regter zoodanig te
+[single] werden gevonnist als de zelve naar bevinding
+[single] van zaaken zoude Oordeelen te behooren.
+[single] Wij vertrouwen teffens dat UE naar
+[single] behooren zullen hebben doen onderzoeken het
+[single] Gedrag van den Geweesen Resident van Baros
+[single] Coenraad Meertens alzo hij in de aan hem
+[single] toebetroude post eene onverantwoordelijk Direc„
+[single] „tie schijnd te hebben gehouden, en hij reeds
+[single] bevoorens gegronde reeden van misnoegen heeft
+[single] gegeeven.
+[single] De behandelingen welke de Comman¬
+[single] „deur serff heeft gehouden met den Engelschen
+[single] toe, in het aanbetrouwde, eenigermate genoegen mag
+[single] gegeeven
+[single] Commandeur
+== NL-HaNA_1.04.02_8572_0042 | #42 | sides: single | lines: 44
+[single] Van Sumatras WestCust ult„o Februarij A:o 1767.
+[single] van het voorgaande afstappende
+[single] 't schip vlssingen reekenschap
+[single] gegeeven zijnde. —.
+[single] zoo koomen wij ot Popkensbirg
+[single] Het overlijden van dies schipper
+[single] Hans Cornelissen.
+[single] die gesuccedeert is door den
+[single] gegeeven hebben, zal zig wijders met allen ernst be„ Commandeur Watson zijn voolkoomen van onse
+[single] vlijtigen tot het gunt, de waare belangens van de Comp: Goedkeuringe, en gelijk wij in het algemeen wel
+[single] bevordelijk kan zijn; en dus na beste vermoogen zoeken voldaan zijn geweest over de applicatie van Gemel„
+[single] te beantwoorden, te gelijk aan zijn Pligt, ende gunste waar de senff in het bestier der zaaken ter deeser kuste
+[single] meede hij onlangs door Haar Edele Groot Agtb„r verEerd is
+[single] zoo recommandeeren wij ook den presenten Gesag„
+[single] geworden, in de bevordering van qualiteijd en gagie als
+[single] „hebber van staveren dat zelve voetspoor te volgen
+[single] Commandeur, waar voor hij de vrijheid gebruijkt zijne Eer„
+[single] en door een gepaste Attentie en ijver alles toe te
+[single] „biedige dankbaarheijd bij deese aff te leggen
+[single] brengen wat, tot bevordering van 's Comp:s belangens
+[single] dienstig is.
+[single] En hier meede aan onzen pligt ten opsigte van het vermelde
+[single] Extract eerbiedig voldaan hebben; zoo gaan wij over om te vervolgen
+[single] het Hoofd-deel van.
+[single] scheepen en Vaartuijgen: onder het welke wij roopens
+[single] de besending voor A:o 176/7 in onze voorgaande brieven bereeds d' eere gehad
+[single] en van de barcq de mosselen hebben, aan uw Hoog Ed„s te doen de verschuldigte verantwoording van de
+[single] barcq de Mossel, en het schip Vlissingen, invoegen dat ons nu nog maar
+[single] alleene over blijft, zulx meede te verrigten, omtrent het schip Popkenburg
+[single] alhier g'arriveert den 28. e September p„o
+[single] De Reedenen waarom deesen Bodem dus Lange alhier heeft moe„
+[single] ten aangehouden worden, zijn de onverwagte komste van het schip Vlissingen;
+[single] redenen van dies lang verbijg de daar op werkstellig gemaakte onderneemingen teegens den Radja van het
+[single] alhier.
+[single] Landschap klijn Passamang, en de veele aangekoomene zieke Zeevaarende,
+[single] gelijk wij vortrouwen uw Hhoog Edelens voldoende te zullen zijn gebleeken,
+[single] uijt onsen Iongste van Uld„o Januarij, weshalven wij onseerbiedig, daar aan
+[single] reffereeren. —.
+[single] Deesen Bodem vervolgens op den 10e. Februarij door het over¬
+[single] lijden van den schipper Hans Cornelissen vacant geworden zijnde zoo heb„
+[single] „ben wij ten dien daage daar op in het Commando, tot uw Hoog Edelens
+[single] opershuirman an L: heet ijn adere approbatie, doen optreeden, den Opperstuurman Abraham Souis kragt„
+[single] den welken gesuccedeert is, den onderstuurman godlieb slakouw, wiensplaatse
+[single] Wederom
+== NL-HaNA_1.04.02_8572_0043 | #43 | sides: single | lines: 38
+[single] 35.
+[single] Van Sumatras WestCust ult:o Februarij 1767.
+[single] schip heeft overgenoomen, vol„
+[single] Gemelde Bodem Zijlreede
+[single] leggende
+[single] slooten.
+[single] specificque aanwijsinge
+[single] der op deese Cust dienst doende
+[single] vertooninge van den staat
+[single] „waar in deselve zig bevinden
+[single] wederom vervuld wierd met den Derdewaak Christiaan kreuger, in
+[single] welke hoedaanigheijd opgemelde scheeps officieren 's daags daar aan
+[single] door twee Leeden uijt dit Collagie, aan boord van dat schip zijn voorgesteld dewelke vorgsteld zijnde het
+[single] het welke den Gesaghebber kragt te gelijker tijdt, navolgens den overgaden Inventaries
+[single] „den Inventaaris, ter zijner Verantwoording overgenoomen heeft.
+[single] Meemelde Bodem dus in staat gesteld, en gereed zijnde, de
+[single] te rug reijse na Costi te kunnen aanneemen, zoo koomen wij hier nog bij te
+[single] voegen, de specifficatie der onkosten aan den zelven gedaan; en dewijl dezelve niet zo is dies onkost reekg: ge„
+[single] hoog geloopen zijn. zoo verhoopen wij dat zulke Gunstig zullen wooden gepasseert.
+[single] En deese Materie aangaande, niets meer te melden hebben.
+[single] „de, zoo besluijten wij dit articul met ons Rapport, van de Chialoupen en vaartuigen.
+[single] mindera vaartuigen, die onder dato ult„o Augustus 1766: alhier aanhan„
+[single] den waaren; dezelven hebben bestaan in 10 stx: te weten in
+[single] 3. – Chialoupen, genoemd, de Goudvink; de Haasewind, en de Ida Wil„
+[single] „helmina, en wijders in
+[single] 2: - Tanjepours. het klatergoud en de schulp genaamd, beneevens
+[single] 3:- schouwen en
+[single] 2: - Schuijten. waar bij in dato 21 December nog van Batavia
+[single] aangekoomen is, de Chialoup de Catharina Louisa, dewelke zig thans in
+[single] een goeden staat bevind en op dese Cust dienst doed, zoo wel als de Chia„
+[single] „loup de Ida Wilhelmina.
+[single] Dog daar en teegen is des Goudvinck genoesaam Oud en afgevaa„
+[single] „ven; de Hlaasewind egter onder water nog reedelijk Goed, maar bij de zijnze van
+[single] Zijlen en Thuijagie slegt voorzien, bij de eerste is de voor en agter steeven Loss„
+[single] en het boven werk meest vergaan, zoo dat deselve niet dan met groote kosten
+[single] te herstellen is. —.
+[single] De twee Tanjepoers, dienen bijde op de helling gehaalden nieuw
+[single] vervlakt,
+== NL-HaNA_1.04.02_8572_0044 | #44 | sides: single | lines: 42
+[single] Van Sumatras West Cust ult:o Februarij 1767.
+[single] 't schip Popkensburg hoeft
+[single] zijne Laading behoorlijk, uijtge„
+[single] naer van de onderhoorige Comp„e
+[single] „toiren. —.
+[single] als dat de ziektens sterk
+[single] toeneemen.
+[single] vervlakt te worden, en wel insonderheijd de schulp die door swaar
+[single] weer op strand geslaagen zijnde, zeerontramponeert was, van Zijlagie zijn ze
+[single] bij de slegt voorsien, dog van bovenwerk, en Inhouden nog reedelijk, wel. —.
+[single] Van de drie Groote schouwen, dienen er twee in 't geheel te worden ver„
+[single] „vlakt: en de derde, door een goede Calfaatslag in staat te werden gebragt, en
+[single] van de twee schuijten is d'eene ruijm halfsleeten. —.
+[single] De Aangebragte Laadinge p. r Sopkensburg is behoorlijk uijt
+[single] geleevert, gelijk de neevensleggende bevindingen aanwijst; en dus de bevonde„
+[single] „ne spillagier de gepermitteerde pC:to niet te boven gegaan, zijnde zoo heb„
+[single] „ben wij detselve de scheeps overheeden gevalideert. —.
+[single] Op de van hier na de subalterne Comptoiren verwoerde Laadingtjes
+[single] op het verbondene en ovfangen en het van daar ontfangene is geduurende den Cours van 't gepasseerte Boekjaar„
+[single] riets buijten gewoons over, nogte kort bevonden invoegen dat alle de klijne dif„
+[single] „ferenties, hunne vereevening op de reekq: van winst en verlies, hebben gevonden.
+[single] is niets over off te kort bevonden
+[single] van de Inlandse zaaken, in het algemeen, en wel in
+[single] noopens de passamanse Eope„
+[single] het bijzondere van de Expeditie teegens den Radja van klijn Passaman,
+[single] ditie
+[single] is 't zeedert ult: antgen
+[single] hebben wij bij onse afgegaane brieven, successive d' eere gehad uw Hhoog
+[single] andere tijding ontfangen
+[single] Edelens te bedeelen, al het daar omtrent voorgevallene tot dato Ult„o Ja„
+[single] „ruarij J:o C: zoo dat ons dien aangaande eenlijk overblijft uw Hoog
+[single] Edelens te bedeelen, dat wij 't zeedert opgemelden datum, van de Pas„
+[single] „samangse Commissianten berigt zijn; dat de ziekters onder
+[single] het volk, aldaar zeer sterk toenamen, en er reeds verscheijde
+[single] Europeesen en Bougineesen overleeden waaren, in„
+[single] en men onvolk versogte: voegen dat zij zig genoodzaakt vonden, om ontzet
+[single] van volk te verzoeken.
+[single] Dog vermits wij niet alleen het getal der op de
+[single] Reijze van Batavia na herwaards, overleedene Europeese en
+[single] Bougineeze
+[single] s
+[single] „leevert
+== NL-HaNA_1.04.02_8572_0045 | #45 | sides: single | lines: 40
+[single] 37
+[single] Van Sumatras WestCust ul:o Februarij A:o 1767.
+[single] „riet heeft kunnen worde voldaan
+[single] „needrig verzoek om 150 inplaats
+[single] de Post passaman is bij de boeken
+[single] / belast voor al het versondenen na
+[single] En daar en teegen in dit nieuwe
+[single] boekjaar ontheft
+[single] ter lasten van Train en oorlogson„
+[single] „gelden voor al het verantwoorden
+[single] „gis overleeden
+[single] Bougineese Militairen, uijt onze klijne bezattinge alhier vervuld, waar aan om neevens gemelde
+[single] heeden
+[single] maar ook nog daar en boven op 6 Coppen na teegens de hier verbleevene zie„
+[single] ken, gesond, volk gegeeven hebben, en zig dus meest zieke Lieden alhier
+[single] bevonden zoo waaren wij buijten staat, aan hun C:o verzoek te voldoen,
+[single] het welke ons eeniger maaten in verleegentheijd brengt, en nood„
+[single] zaakt uw Hoog Ed:s om hulpe teegens deese nieuwe vijanden te 75 Europeesen militairen
+[single] verzoeken; door de verdubbeling van het getal, der bij onze Jongste
+[single] nader g'eijschte 75. Coppen Euroopeese Militairen. —
+[single] Voor al het geene 't zeedert, den 6„e Maart 1766. dat deese
+[single] zaake ondernoomen is, zoo aan Contanten, Provisien, Ammunitie, dat sandschap
+[single] en wapen goederen na 't Landschap Passaman versonden is, heb„
+[single] „ben wij bij onse Boeken gedebiteert den Post van die Naam, en
+[single] zulx laaten voortloopen tot den 8:e December daar aan, wanneer
+[single] wij denzelven nog beswaard hebben met Rd:s 4579: 10:8. die aan item voor reevenstaande r:s 41579:
+[single] 10:8
+[single] den Commissiant Boudewijnsz: uijt Cassa voldaan zijn, voor de
+[single] aldaar meerder verstrekte, dan van hier ontfangene Contanten.
+[single] blijkens zijne ingediende en hier neevens overgaande Cassa ree„
+[single] „kening. —
+[single] In tegenstellinge van het welke wij op approbatie van
+[single] uw Hoog Edelens gem: Post, ten Lasten van Trains en oorloghs
+[single] ongelden hebben laaten ontheffen, voor al het geenen, gem: Commis„
+[single] „sianten verantwoord heeft, navolgens de deesen versellende sp=
+[single] „cificatie, die hij versogt heeft te moogen werden gevalideert
+[single] Buijten dit en het Jongste bedeelde noopens Baros, over deese
+[single] stoffe voor teegenswoordig niets, aan uw Hoog Edelens voor te draagen de afgeseten radja van Trousaon
+[single] hebbende, als het overlijden van den in dato 12:e maij p:o affgezetten
+[single] Radja
+== NL-HaNA_1.04.02_8572_0046 | #46 | sides: single | lines: 42
+[single] Van Sumatras West Cust ult:o Februarij A:o 1767.
+[single] van den Radja van Baros E:S:
+[single] V: H: H: Ed:
+[single] Podangheftn d: 162 eden
+[single] verthierd ƒ 40494:13:—
+[single] en meerder aan nieuwe Wins„
+[single] a:o 1764.—
+[single] Item aan goud meerder inge„
+[single] dog minder aan Peeper 98492:
+[single] Radja van Troesang; zoo koomen wij nog maar eenelijk hier bij
+[single] tevoegen, een ontfangene brief met 7 kisten Bensuin, van den
+[single] ontfangen eenbrieffen geschenk Radja van Baros C:s die Deselve aan uw Hoog Edelens tot geschenk
+[single] gesonden heeft, en waar meede wij na gewoonte gehandelt hebben
+[single] en hier meede gekoomen zijnde tot het Hoofdstuk van
+[single] d:
+[single] Den Koophandel: zoo vertrouwen wij dat uw Hoog
+[single] Edelens uijt het p„r de Barcq de Mossel overgesondene Rendement
+[single] van den in A„o 176 5/8 te Padang gedaanen verkoop, ten genoegen zal
+[single] gebleeken zijn, hoe dat er op een Inkoops bedraagen van ƒ158'540:11:
+[single] geprofiteert is eene somma van ƒ 72819:15:4. of 45/8 prCto het
+[single] tten op gelegt ƒ1959:17 4 dan Goud gereekent zijnde teegens ƒ 331:10 het marcqsf En alzoo
+[single] A„o 176 2/5 maar omgezet was een Inkoops bedraagen van ƒ 18045: 18-
+[single] met eene advance van ƒ53223:16:-of 4 5/0 pC„o zoo Consteert dat
+[single] in het Jongste Boekjaar ƒ40494:13:– meerder verthier; en
+[single] ƒ19595:19:4 meerder gewonnen is, dan in het Jaar bevoorens.
+[single] Den Insaam der Producten te Padang, heeft A„o 176 3/6 be„
+[single] saameld Thaijlen 160 5tes v:r staan in Thailen 4464: en 2 3/0 maas goud van 21½ Carraat: en 90468 1/8 b
+[single] Peeper swarte geharpte, en dewijl die in A:o 176 2/3 maar bestond in Thailen
+[single] E:
+[single] 3203. en 13 1/20 maas Gouden 100318 lb Peeper, zoo wijst zulx aan, dat
+[single] er in het Jongste Boekjaar aan Goud meerder ingesaameld is, Thailen
+[single] 1260: 5 1/28 maas en aan Peeper minder 9049½ lb door dat den Inlan„
+[single] d„
+[single] „der dit Jaar minder hier, en meerder te Poulo Chinco van dien Corl
+[single] affgeleevert heeft
+[single] van de Lijwaaten, welke het uw Hoog Edelens behaagt
+[single] heeft, op den Eijsch voor dit nieuwe Boekjaar 176/ p„r brenger
+[single] deeses te voldoen hebben de administrateurs geformeert, en aan
+[single] ons overgeleevert den neevens gaanden Prijs Courant met
+[single] Verzoeke
+[single] lo
+== NL-HaNA_1.04.02_8572_0047 | #47 | sides: single | lines: 38
+[single] 39.
+[single] Van Sumatras West Cust ul„o februarij A:o 1767.
+[single] needrig verzoek op neevens gem:
+[single] Prijscourant 't approbeeren
+[single] referte aan nevens gem: nadere
+[single] Eijsch
+[single] Jaar meerder verthierd ƒ5921:13:8
+[single] winsten behaald dan het Jaar bevoorens
+[single] als meede 64 Th:n en 1 17/0 m:s goud
+[single] en 53197½ lb peeper meerder in
+[single] verzoek, om gequalifficeert te worden zoodaanig met den verkoop
+[single] voort te vaaren, en alzoo zij bethuijgen daar voor geene hoogere
+[single] prijsen te kunnen besorgen, zoo hebben wij deselve, in onse sessie
+[single] van den 8„e December, hun verzoek provisioneel, en tot nadere
+[single] approbatie van Uw Hoog Edelens g'accordeert.
+[single] P„r het schip Vlissingen nog genoodzaakt geweest
+[single] zijnde, om reedenen vermeld bij onsen Jongste een naderen Eijsch„
+[single] voor den Cours van dit Loopende Boekjaar 176/3 te doen, zooj
+[single] neemen wij de vrijheijd uw Hoog Edelens bij deesen het dup„
+[single] „plicaat daar van aan te bieden, met het verzoek hier vooren
+[single] gedaan; en dus van Padang over deese stoffe niets verders te mel„
+[single] „den hebben, zoo gaan wij over tot
+[single] Het Comptoir Poulo Chinco, alwaar in het gepasseerde p:o since heeft meede in voorm:
+[single] Boekjaar navolgens het overgesondene Rendement p r de
+[single] Barcq der Mossel, een Inkoops bedraagen van ƒ38447:13:8:
+[single] omgezet is, met eene advanse van ƒ13946:2:8 off 26¼ pC„o het
+[single] goud bereekend teegens ƒ 331:10: 't marcqtf: En dewijl in het Jaar
+[single] bevoorens, niet meer verthierd was, dan een Inkoop van
+[single] ƒ32526:—:— met eene advance van ƒ10985:—:8: off 3/¾4 pCo on ƒ 96:24: meerder an touwe
+[single] zoo blijkt dat in A„o 176 5/8 ƒ5921: 13:8 meerder omgezet en ƒ2961: 2
+[single] off 2½ pC„o meerder gewonnen is dan A„o p„o.
+[single] Den Isaam aldaar heeft bestaan in Th„o 903:3 3/0 maans
+[single] goud van 21½ Carr„t en 91360 lb Peeper swarte geharpte; en aan„
+[single] „gesien deselve A„o 176 4/5 maar bestond in Th„s 838: en 7 2/5 maas
+[single] goud, en 38162½ lb Peeper, zoo Consteert dat A:o 176 6/6 ook gesaameld.
+[single] meerder ingesaameld zijn, Thaijlen 64:1 7/20 maas Goud, en
+[single] 53197½. lb Peeper als boven, invoegen dat bij de den verthier,
+[single] en
+== NL-HaNA_1.04.02_8572_0048 | #48 | sides: single | lines: 40
+[single] Van Sumatras West Cust ult:o februarij A:o 1767.
+[single] dus dan dene handel aldaar opnoemd
+[single] om welke reeden den eevens gem:
+[single] dezelvehebben geklaagt over
+[single] neevens genoemde Lijwaten
+[single] „delt is
+[single] de voor Chinae voldaans duijten
+[single] zijn alhier aangehouden
+[single] te asjoshedija is A:o 16 min
+[single] „der verthierd ƒ 234: 11:
+[single] en ƒ 927„ 28. Ddiaeder gewon.
+[single] nen dan A. o 176 4/
+[single] en Insaam aldaar hebben opgenoomen, het welk dan ook de
+[single] Bediendens bewoogen heeft, in de maand December aan ons over
+[single] te senden, een naderen Eijsch voor den loop van dit nieuwe Boek„
+[single] Eijsch doorde eoecendes gedans, Jaar, dien wij haar gepermitteerd hebben, p:r Eerste Geleegent„
+[single] „heijd aan uw Hoog Edelens te laaten affgaan en de voldoenin„
+[single] „ge te verzoeken.
+[single] Dezelve te gelijker tijst klagtig gevallen zijnde over
+[single] den duuren Inkoop van een Pak gerrassen gelijk meede alhier
+[single] in dato 12„e Augustus p:r door de administrateurs geschied
+[single] was, zoo vonden wij daar op Goed, haar lieden toetesenden een
+[single] Extract uijt ons besluijt, dien aangaande genoomen, haar vrijheijd
+[single] hoedanig hier ontrend gekan, laatende, zig in den verkoop der op gem: Gerrassen daar na te
+[single] reguleeren. zijnde verders de voor dat Comptoir voldaane Duij„
+[single] „ten, alhier aangehouden; tot de dagelijxse versterking aan
+[single] de p„r Vlissingen overgekoomene Troupes, navolgens besluijt
+[single] van dato 25„e November p„o en hier meede van P:lo Chinco overgaande, na
+[single] Het Comptoir adjerhadja, van waar het Rendement
+[single] van den in A„o 176 3/6 gedaanen verkoop, p:r Vlissingen aan uw
+[single] Hoog Edelens afgegaan is; zoo hebben wij d'eere hier aan te
+[single] haalen dat, in dat Boekjaar aldaar omgezet is, een Inkoops
+[single] bedraagen van ƒ8071:19:8: met een winst van ƒ 3719:11:8 off
+[single] 46 ¾ pC„o het goud gereekent teegens ƒ331:10: 't maff:, en vermits
+[single] A:o 176 2/3 een Inkoop van ƒ11306: 10:8. verkogt was, met eene ad„
+[single] „vance van ƒ4646:12: off 4 /8 pC„o zoo thoond dit aan dat in het
+[single] Jongste Boekjaar ƒ3234:11: minder verthierd en ƒ 927:—:8
+[single] minder gewonnen zijn, dan in 't Iaar bevoorens, schoon
+[single] d'advance toenmaals 5 /8 pC„o minder Rendeerte.
+[single] Den
+== NL-HaNA_1.04.02_8572_0049 | #49 | sides: single | lines: 39
+[single] 41
+[single] Van Sumatras West Cust ult:o februarij 1767.
+[single] item Th: 8 1/16 aan goud minder
+[single] ingesameld. dog aan peeper
+[single] 487½ b meer
+[single] Gemeld Comptoir is lucessier van
+[single] het noodige voorzien geworden.
+[single] „stoffen ter welke fine neevens gem
+[single] Tot Baros dit Jaar meer ver„
+[single] third ƒ5357: 15: dan A: 176 /
+[single] 1: om neven staande raed en
+[single] Den Insaam bestond in 201 1/8 Thaijlen goud, van 2.1½
+[single] Carraet, en 16162½ lb Peeper swarte geharpte, die a„o 176/5 bedroeg„n
+[single] 290 3/16 Thaijlen goud en 15675 lb Peeper; zoo dat in dit Iongste
+[single] Boek, Iaar almeede 8 3/16 Thailen Goud, minder dog 487½ lb
+[single] Peeper meerder, bij een gebragt zijn dan 't Iaar bevoorens.
+[single] De Weijnige Benoodigtheeden die van dat Comptoir
+[single] in het gepasseerte Iaar, zoo voor den Handel, als tot de
+[single] Huijshouding, gerequireert, zijn, hebben wij successive met
+[single] Lastprauwen overgesonden, aangezien wij door de Passaman„
+[single] „se Troubles buiten staat waaren eene Chialoup daar toe te Excepte van de vesogte bouw
+[single] emploijeeren; waar door wij dan ook belet zijn, eenige hier te Eijsch overgaat:
+[single] bekoomene, en door den Resident g'eijschte Bouwstoffen,
+[single] tot de nieuwe Factorij te voldoen; maar dewijl wij hem dog
+[single] niet alles konde fourneeren, en hij het een en ander van
+[single] Costi benoodigt hadde, zoo permitteerden wij hem tot dien
+[single] Eijnde een nader Eijschje voor den Loop van 't presente
+[single] Iaar aan uw Hoog Edelens te laaten afgaan, het welke wij deesen
+[single] hebben bijgevoegt
+[single] Van de Zuijder Comtoiren, overgaande tot die om de Noord.
+[single] en wel eerstelijk tot het Comptoir Baros van waar het Rendement
+[single] van den in A:o 176 6/8 gedaanen verkoop p„r Vlissingen is afgegaan
+[single] waar uijt wij vertrouwen dat Uw Hoog Edelens gebleeken zal zijn„
+[single] dat aldaar een Inkoop van ƒ9937:1:-: is omgezet, met eene
+[single] advance van ƒ 6862:17: off 69 pC„o en in A„o 176 2/5 aldaar maar dver 309 minder geprofiteerd ƒ 24:
+[single] „debiteert zijnde, een Inkoop van ƒ4579:6: met een winst van
+[single] ƒ7086:18: - off 154 ½3 pC„o zoo thoond zulx aan, dat den verkoop
+[single] dit Jaar ƒ5357:15: grooter, dog de winsten ƒ24: 1. of 53/8 pC„o
+[single] minder
+== NL-HaNA_1.04.02_8572_0050 | #50 | sides: single | lines: 38
+[single] Van Sumatras West Cust ult:o februarij A:o 1767.
+[single] 370 lb. Ben soin Catra ord: witle
+[single] en 12750 lb ordinaire witte
+[single] om bezijden gem: reeden van
+[single] Baros ontbooden rd:s 3000.
+[single] den Resident Eijsch voor A:o 176/3
+[single] is voldaan
+[single] Ajebanijies heeft minder ver.
+[single] thierd ƒ 16013:13:—
+[single] en om de vermelde reedenen
+[single] minder zijn geweest dan E„o bevoorens, het welke ontstaan is, uijt
+[single] den meerderen verthier van Lijwaaten, en minderen omzet van
+[single] zout waar door de pl:o A:o 176 2/3 zoo hoog gesteegen waaren.
+[single] Den Insaam der gommen heeft bestaan in 250 lb Cam„
+[single] „phur Baros; 500 lb Bensoin Extra ordinaire witta, en 16125 lb
+[single] ordinaire witte; en dewijl deselve in het Iaar bevoorens bestond
+[single] in 250 lb Camphur Baros 875 lb Benzuin Extra ordinair witte
+[single] en 28875 lb ordinaire witte, zoo Consteert hier uijt, dat dit Jongste
+[single] Ook zijner minder ingesameld Boekjaar 176 3/6 minder ingesaameld is, 375 lb Bensoin Extras
+[single] ordinaire witte, en 12750 lb ordinaire witte waar van wij de
+[single] eere Gehad hebben, uw Hoog Edelens d'oorzaak te bedeelen
+[single] En dewijl den voorraad van Contanten door den traagen
+[single] Insaam van Producten aldaar wat groot begon te worden, zoo
+[single] oordeelden wij in onse sessie van den 14. e November, noodig te
+[single] zijn, van daar na herwaards te ontbieden een bedragen van
+[single] drie duijsents Rd„s terwijl verders, in de maand Ianuarij p„r de
+[single] Chialoup de Goudvink, door ons voldaan is, al het geene, den
+[single] Resident voor het Boekjaar 1767. g'eijscht heeft.
+[single] Wat nu verders aanbelangt, het Comptoir Aijerbangijs, zoo
+[single] is aldaar blijkens het p. r Vlissingen affgegaane Rendement, nog
+[single] al een Inkoops bedraagen van ƒ20003: 9: 8: omgezet met een winst
+[single] van ƒ 7413:13: of 37 pC=o v:n het Goud gereekent zijnde teegensƒ31: 10.
+[single] niet teegenstaande den verhandel aldaar door de troubles in 't
+[single] Landschap klijn Passaman, bij na stilgestaan heeft en den Resi„
+[single] „dent Boudewijnsz den meesten tijd affweesende geweest is, dog
+[single] in vergelijk van het Iaar bevoorens, wanneer een Jnkoop van
+[single] ƒ36017:2:8 met een voordeel van ƒ 126905:8 of 356 pC:s ongeset
+[single] was
+== NL-HaNA_1.04.02_8572_0051 | #51 | sides: single | lines: 38
+[single] 43.
+[single] Van Sumatras WestCust ult:o februarij A:o 1767.
+[single] ƒ 376:12:8 dan A:o 176 2/3
+[single] item 430 tb:n 1 3/4 m:s minder
+[single] goud gefourneert
+[single] van dit boekjaar
+[single] schappen voorzien
+[single] De generaale verthierter deeser
+[single] Custe is A„o 176 5/8 grooter geweest
+[single] dan lb. pra ƒ 32525:8:—
+[single] was zoo is dat Comptoir omtrent den verthier ƒ16013:13. en de win,„ minder aan ruwe winsten bekonrd
+[single] „sten ƒ5276:12:8 veragtert, schoon de advances in A:o 1766: 120 prC„o
+[single] hooger zijn geweest
+[single] Met den Insaam van het Goud is het om voormelde reede„
+[single] „nen meede zoo gesteld alzoo sulx in het Jongste Boekjaar maar
+[single] bedroeg th„n 553 en 14 1/20 m„s van 21½ Carraat ijder, daar het zelve
+[single] in A„o 176 2/3 monteerde 983 thailen en 15 19/16 m:s invoegen, dat
+[single] den Insaam van dat metaal hier door ook th: 430: 1 8/40 maas min„
+[single] der geweest is.
+[single] En dewijl het uw Hoog Ed„s behaagt heeft op de Petitie van
+[single] dat Comptoir voor A:o 176 3/6 te voldoen 4 Packen Guinees gem: dat Comptoirs voor den Cours
+[single] gebl: dog niets op die voor A„o 176 6/e zoo hebben wij uijt den genoeg„
+[single] „saamen voorraad van hier aan dat Comptoir voldaan, al het gee„
+[single] „ne naderhand van daar voor den Cours van het loopende Boek„
+[single] Jaar g'eijscht is; invoegen dat den verhandel aldaar geensints met denoodige koopman„
+[single] behoefd stil te staan; ten welken eijnde wij verders den Resident
+[single] Boudewijnsz: hebben bij gevoegt den adsistent H„k E:l kroon,
+[single] om geduurende zijne afweezentheijd in de Passamangse Expe„
+[single] „ditie, de zaaken aldaar waar te neemen!
+[single] En nu hier meede van den in A„o 176 /6 gedrevenen
+[single] Handel, en detaille verslag gedaan hebbende, zoo koomen
+[single] wij nog hier bij te voegen, de te saamentreckinge van den
+[single] Verkoop en Insaam in dat Iaar gedaan in het welke een
+[single] Inkoops bedraagen van ƒ 235000: 14:8: omgezet, is met eene
+[single] ruuwe advance van ƒ104761:9:4 off 44 1/8 pC„o het goud en de andere
+[single] Producten, na d' g'ordonneerde prijzen bereekent zijnde, navol„
+[single] „gens de welke in A„o 1762/5 een Jekoop van ƒ202474: 17: verkogt
+[single] was
+== NL-HaNA_1.04.02_8572_0052 | #52 | sides: single | lines: 40
+[single] Van Sumatras West Cust ult„o februarij A:o 1767.
+[single] als meede de rueuwe winsten
+[single] ƒ16128:17:4. —
+[single] ook is er meede ingesameld
+[single] aan goud 846: tb=r 10 2/5 m:d
+[single] item aan peeper 48835½ lb
+[single] dog minder aan Bensoin Ca„
+[single] „tra ord:r witte 375 lb en 12750. lb
+[single] ordr. Witte. —
+[single] „tenten en goederen
+[single] was met een ruuwe winst van ƒ 88632:12: of 4 3/ pC=s zoo dat
+[single] hier uijt blijkt dat bij de den verkoop ƒ32525:17:8: en de ruuwe
+[single] winsten ƒ 16128:17:4: of f 1/6 pCo grooter geweest zijn dan in het Jaar
+[single] te vooren, zoo dat den Handel eeniger maaten opgeluikt is; zoo wel
+[single] hier omtrent als ten opsigte van den Insaam der Producten, op
+[single] uw Hoog Ed„e Eijsch van Retouren voor het Jaar 1766 ter voldoening
+[single] van den welken dus bij een vergaadert zijn.
+[single] 6073 th„n en 2 7/5 m„s goud van 21½ C„t
+[single] 197991 lb Peeper swarte geharpte
+[single] 250 „ Camphur Baros
+[single] 500 „ Bensoin Extra ordinair witte
+[single] 16125 „ _„o Ordinair witte
+[single] en gevolgelijk 846 Th„=s en 10 7/5 maas Goud, beneevens 43835 lb Peeper
+[single] meerderen 375 lb Bensoin Extra ord„r witte en 12750 lb Bensoin
+[single] ord=r witte minder dan in A„o 1765 En dus gekoomen zijnde tot het hoofdel der
+[single] Eijschen; zoo laaten wij hier invloeijen onsen formeelen
+[single] versoek om neevens gem: tom Eijsch voor het aanstaande Boekjaar 176 1/8 van Padang dewelke
+[single] bestaat in als volgt.
+[single] Contanten
+[single] 10000 Rd„s aan spaanse realen
+[single] 15000 „ „ nieuw Gecartelde ducatons
+[single] 15000 „ „ Paijement nieuw neederlands
+[single] „ „ kopere duijten
+[single] 6000
+[single] koopmanschappen
+[single] 160 pakk„n Guinees Gem: gebl:
+[single] 20 „ _„o _„o ruuw
+[single] 75 „ Guinees br„n blaauw
+[single] 6 „ Parcallen „ _„o
+[single] 18 pakk:n salempoeris
+== NL-HaNA_1.04.02_8572_0053 | #53 | sides: single | lines: 33
+[single] 45.
+[single] Van Sumatras West Cust ul:o febrarij 1767.
+[single] Koopmanschappen
+[single] 18 pakk„n salempoeris gem: gebl:
+[single] 5. „ Mlouris bruijn blauw
+[single] 4 „ Roemaals Groove
+[single] 6 „ Gingam ff roode
+[single] 20 „ Guinees Gem: Gebl: Houglies
+[single] Cassas ff Hend:k met G„d H„
+[single] 5 „
+[single] Cassas Bourongs
+[single] 8 „
+[single] 25 „ Plamans in zoort
+[single] 4 „ Saanen de balgorij
+[single] 10 „ Bafftas Zw: sm: Heele
+[single] kangams Zwarte
+[single] 9 „
+[single] 15 „ Deekens Gecatoeneerde
+[single] 200 Last„n Zout Javaas
+[single] 50000 lb Ijser Lang Plats
+[single] Voor de Huijshouding
+[single] 2 pakk: Gingam ff gebl: vierdraats
+[single] 2 „ Guinees ff gebl:
+[single] 40 p„s Chitse ff geschilderde
+[single] 20 „ _„o „ vrouwe Rokken
+[single] 200 „ Chitse Cust gem: soort
+[single] 200 „ _„o Pattenasse
+[single] 100 „ _„o Zouratse
+[single] 100 „ Gingam Geruite
+[single] 20 „ Bafftas Broot Chia Zourats met G: IL:
+[single] 1 stuk Laaken schair rood
+[single] 200 P„s Htemden
+[single] 100 p„s hoeden,
+== NL-HaNA_1.04.02_8572_0054 | #54 | sides: single | lines: 37
+[single] Van Sumatras West Cust ult„o februarij A„o 1767.
+[single] Voor de Huishouding
+[single] 100 P„s Hoeden grove
+[single] 100 p„s Cousen Cust
+[single] 50 lb Nooten muschaten
+[single] 50 „ Nagulen
+[single] 6 Vell: Iugtleer muscoris
+[single] 6 „ „ Rood leer Batavias
+[single] 1 p:s Cust kleedjes
+[single] 1 „ Neusdoeken kl: Cust
+[single] 1 „ Maccassareese sarongs
+[single] Schrijffgereedschappen
+[single] 20 R„n groot formaat Papier
+[single] 30 „ klijn
+[single] _„o _„o
+[single] 1 „
+[single] Blauw Clad _„o
+[single] 200 P=len Penneschagten
+[single] 100 lb Inkt stoffen: in soort
+[single] Voor de Sluijshouding
+[single] 10 Vell=n Parquement
+[single] 4 lb gesneeden Potlood en roode aarde
+[single] 12 „ Rood Zegul Lak
+[single] 10 „ Zegul gaarn
+[single] 5 „ Boekebinders Naaijgaaren
+[single] 1 p„s
+[single] _„o Schair
+[single] -
+[single] _„o Naalden
+[single] 12. „
+[single] Pennemessen
+[single] 6 „
+[single] klijne olij steentjes
+[single] 4 „
+[single] Graanen
+[single] 40. Lak: Rijst
+[single] 6 Last„n Tarruwe
+== NL-HaNA_1.04.02_8572_0055 | #55 | sides: single | lines: 38
+[single] 47.
+[single] Van Sumatras West Cust ult:o fbruarij 1767.
+[single] Graanen
+[single] 6 Last: Tarruwe Caabse
+[single] Rogge
+[single] 1 „
+[single] Provisien
+[single] 30. Sepp:s Aracq apij
+[single] 1 kist Roosewaater
+[single] 600 lb Waxkaarsen
+[single] 6 bal: Catoen gaaren
+[single] 3 Vatk„n Vriese Booter
+[single] 2 Can„s Zuijker Candij
+[single] 3 „
+[single] _„o Poeder
+[single] 2 Vab„ Vaderlandse gezouten vleesch
+[single] 2. „
+[single] _„o _„o speck
+[single] -
+[single] 12 „ Bier
+[single] 1 aan Olijven olij
+[single] 4 p„s Tinne kannen
+[single] 4 „ kopere _„o
+[single] _„o Botteliers Pomp
+[single] „
+[single] 1
+[single] Wapencamers Goederen
+[single] 6 p. s Pistoole
+[single] 80 „ Hhalve Picquen
+[single] 8 boss: Trom Lijnen
+[single] _. o snarren
+[single] 8 „
+[single] 8 p„s
+[single] _„o draagbanden
+[single] 80 „ Htouwers scheeden
+[single] 20 „ Tromvellen
+[single] 10 lb Amaril
+[single] 4 p„s Haijevellen,
+== NL-HaNA_1.04.02_8572_0056 | #56 | sides: single | lines: 34
+[single] Van Sumatras West Cust ult:o februarij A:o 1767.
+[single] WapenCamers Goederen
+[single] 4 p s Haijevellen
+[single] 4 boss:n Zee Biesem
+[single] 12 lb Lijm
+[single] Equipagie Goederen
+[single] 6 Vat: Theer
+[single] 2 „ Pik:
+[single] 1 „ Harpuis Hollands
+[single] 6 p„s Ankers van 6 a 700 lb.
+[single] 2 „ Cabel touw van 9 d„m
+[single] 2 „ _„o _„o „ 8 „
+[single] 2 „ _„o _„o „ 7 „
+[single] 2 „ _„o _„o „ 6 „
+[single] 1 st„s wand van 6 d=m
+[single] 2 p„s Paarde Lijnen
+[single] Eijsere trossen in soort,
+[single] 8 „
+[single] 12 „ Lijnen in soort
+[single] 10 „ Wieltrossen en keesjes
+[single] 25 lb Zeijlgaarn Hollands
+[single] _„o Bengaals
+[single] 25 „
+[single] -
+[single] 12. bos: verluiesing
+[single] 12 „ Lordings
+[single] 12 „ marlijn
+[single] 12. rollen Hollands Zeijldoek,
+[single] Bengaals _„o
+[single] 12 „
+[single] 6 „ grauwdoek„
+[single] 1 stuk Everdoek.
+[single] 3 p„s Werp vijgers
+[single] 6 p„s ijsere
+== NL-HaNA_1.04.02_8572_0057 | #57 | sides: single | lines: 33
+[single] 49.
+[single] Van Sumatras West Cust ult:o Februarij 1767.
+[single] Equipagie Goederen
+[single] 6 p„s Isere dreggen van 5 â 550 lb
+[single] 3 „ „ werp _„o „ 100 „ 150 „
+[single] 36 „ Blox in soort
+[single] „ swaare van 2 â 3 schijven
+[single] 8 „
+[single] 12 „ Wand Juffers
+[single] 4 „ nagthuijs Compassen
+[single] 21 „ Pijl Compas
+[single] 24 „ Theer Quasten
+[single] 2 Huijd„s Pompleer
+[single] 6 p„s Handlanthaarns
+[single] 4 „ Uurs Glaasen
+[single] 4 „ halve uurs Glasen
+[single] 2 „ Halff sleeten zeijlen
+[single] kopere Passers
+[single] 4 „
+[single] 24 „ Zijl en Lijk naalden
+[single] Ambagts gereedschappen
+[single] 3 p„s slijpsteenen van vijff voet
+[single] 4 „ schuijff steenen
+[single] 6 „ schiedloodjes
+[single] 6 „ Avegaars in soort
+[single] 1 „ kuijpers dissel
+[single] 6 „ Timmermans dissel
+[single] 6 „ spitse spaden
+[single] 24 „ schaaven in soort
+[single] 6 „ Brede houweelen
+[single] 8 „ Armvijlen
+[single] 100 „ vijlen in soort
+[single] 50 p„s boorijsers
+== NL-HaNA_1.04.02_8572_0058 | #58 | sides: single | lines: 33
+[single] Van Sumatras West Cust ult:o Februarij A:o 1767.
+[single] Ambagts Gereedsz: en Behoeftens
+[single] 50 p„s Boorijsers in soort
+[single] 24 „ Bijtels in soort
+[single] 2 „ kraan Booren
+[single] 2 „ kuijpers strijkbanken
+[single] 6 „ Timmermans Bijlen
+[single] 8 „ Zaegen in zoort
+[single] 200 lb wit Loodt
+[single] 200 Cont:s Swartsel
+[single] Roode menij
+[single] 50 lb
+[single] 100 „ geele Ooker
+[single] 25 „ spans groen
+[single] 50 „ krijt
+[single] Wit quasten
+[single] 24 „
+[single] 12 „ Verffquasten
+[single] 10 hoede smeekoolen
+[single] 150 p„s Lanthaarn Hoorns
+[single] 200 Bd:s Enkelblik.
+[single] 500 st„n Htoepstaven ijzer
+[single] 200. Pld„s Dubbeld blik
+[single] 2000. Boss: Bindrottings
+[single] 8000 lb Isere vierkant
+[single] 20 p„s koopere Platen in soort
+[single] 20 „ Ysere _„o „ _„o
+[single] 1000 lb staal
+[single] E
+[single] 2. Rols Lood
+[single] 3 Schuijtjes Lood
+[single] 2 „ „ Thin
+[single] 2. p„s Bank„
+== NL-HaNA_1.04.02_8572_0059 | #59 | sides: single | lines: 46
+[single] 51
+[single] Van Sumatras West Cust ult:o Februaij Ao 167.
+[single] Ambagts Gereedschappen en Behoeftens
+[single] 2 p„s Bankschroeven
+[single] CC G
+[single] 4 „ stand _„o
+[single] 100 lb Iserdraat, dik en sterk
+[single] 7 Vat„n spijkers in Zoort
+[single] Houtwerken
+[single] voor de Vaartuijgen
+[single] 2000 p:s
+[single] Chineese planken
+[single] 400
+[single] „
+[single] Jatij duijgen
+[single] Balken Ambons
+[single] 50 „
+[single] „ „ Panjang Limas
+[single] 100 „
+[single] 100 „ Windboom balkjes
+[single] Balken van 25 v„t en 8 d„m dik
+[single] 20 „
+[single] 50 „ moole planken van 2 d„m
+[single] 100 „ klijne Tinkanse Planken
+[single] 50 „ groote _„o _„o
+[single] 25 „
+[single] Swalpen groote
+[single] Riemhoute Inlands
+[single] 25 „
+[single] Dakreegels
+[single] 200 „
+[single] Voor de Huijs Timmerman
+[single] Balkjes tot Gordings en hoekkeepers
+[single] 25 „
+[single] 25 „
+[single] soldeer Balkjes van 5 a 6 d=m
+[single] 25 „
+[single] Balken van 4 â 5 d„m
+[single] _„o „ 6„ 8„
+[single] 12 „
+[single] 75 „
+[single] _„o Panjangs Limas
+[single] 25 „
+[single] _„o Tanjongs
+[single] 20. boss„n Panne Latten
+[single] 200 p„s dak
+== NL-HaNA_1.04.02_8572_0060 | #60 | sides: single | lines: 42
+[single] Van Sumatras West Cust ult„o Februarij A.o 1767.
+[single] Houtwerken
+[single] Voor de Hluijstimmerman
+[single] 200 p„s Dak reegels
+[single] 50 „ Planken van 2. d„m
+[single] _„o „ 1½ „
+[single] 50 „
+[single] 100 „ _„o „ 1: „
+[single] Essaij Behoefftens
+[single] 250 p„s Blauwe smelt kroesen
+[single] kopere Plaat Groote vierkant
+[single] 1 „
+[single] 21 „ Capel vormen
+[single] „ Ballans met kopere schaalen
+[single] 1
+[single] 1 „ Pijlgewigt van 4 macq
+[single] 25 lb Borax
+[single] 50 „
+[single] Essaij off sterk waater beste soort
+[single] 100 p„s Goud scherven
+[single] Arthillerij Goederen
+[single] Buskruijt
+[single] 5000 lb
+[single] 200 p„s Loode druijven van 1 lb
+[single] 200 „
+[single] _„o „ 2 „
+[single] 200 „
+[single] _„o „ 3 „
+[single] _„o „ 4.
+[single] 100 „
+[single] 50 „
+[single] Langscherp van 8 lb
+[single] _„o „ 6 „
+[single] 100 „
+[single] Schut booren
+[single] 25 „
+[single] 20 „ Laad off schut priemen
+[single] 20 „
+[single] kopere ophaalders
+[single] 21 „
+[single] _. o dissels
+[single] 2 p:s kruijt
+== NL-HaNA_1.04.02_8572_0061 | #61 | sides: single | lines: 47
+[single] 53.
+[single] Van Sumatras West Cust ult:o Februarij 1767.
+[single] Arthillerij Goederen
+[single] 2 p„s kruijt maeten van 1 lb
+[single] 1 „
+[single] _„o _„o„ 3 „
+[single] _„o _„o „ 4 „
+[single] 1 „
+[single] 1 „ kruijt Tregters
+[single] 20 „ kopere Leepels en Varkenstaarten
+[single] 10 „ kruijthoorns
+[single] 6 R„n Cardoes Papier
+[single] „ „ Gaarn
+[single] 12 lb
+[single] 20 p. s
+[single] „ „ Naalden
+[single] 4 kipp: Lond Hollands
+[single] „
+[single] 4
+[single] „ Bengaals
+[single] „ Bast
+[single] 6 „
+[single] p„s affuijten van 8 lb tot Canon
+[single] 1
+[single] aff
+[single] 1 „ Voorwaege daar toe
+[single] „ „ „ tot Een Canon van 3 lb
+[single] 1 „
+[single] 1
+[single] „ „ „ „ „ „ _„o „ 6„
+[single] Pakkúis behoeftens
+[single] 1 p„s Groote Eijsere Evenaar
+[single] 1
+[single] Medicamenten
+[single] Een Parthij volgens G'annexeerde Cathalogus
+[single] Manschappen
+[single] 3 scheeps Timmerlieden
+[single] Metzelaars
+[single] 3
+[single] Europeese mattroosen
+[single] 25
+[single] _„o Militairen
+[single] 150
+[single] -
+[single] Bougineese _„o
+[single] 100
+[single] 2. ploeg
+== NL-HaNA_1.04.02_8572_0062 | #62 | sides: single | lines: 37
+[single] Van Sumatras West Cust ult:o Februarij A:o 1767.
+[single] van Aijerbanges es dit pangen Eijsch
+[single] ontfangen.
+[single] om reeden als bezijden
+[single] sijnde
+[single] verthooninge der uijtstaande
+[single] „schielder
+[single] Manschappen
+[single] 2 ploeg Mooren
+[single] 150 mans slaven
+[single] Dit nu al het geene zijnde, wat wij na rijp Overleg„
+[single] voor het aanstaande Boekjaar te Padang noodig hebben
+[single] g'oordeeld, zoo verzoeken wij oversulx uw hoog Edelens nog.
+[single] „maals needrig, om de voldoeninge daar van; terwijl wij ver„
+[single] „ders hier nog bijvoegen, den Provisioneelen Eijsch der Be„
+[single] „diendens te P=„lo Chinco, en den positiven Eijsch van den
+[single] Resident te adjerhadja bijde voor dat zelfde Boekjaar,
+[single] alzoo wij daar op voor dit maal niets weeten Uijte zetten.
+[single] Van Aijerbangies, hebben wij dit Iaar, geen
+[single] nieuwen Eijsch ontfangen, dewijl dat Comptoir voor den
+[single] Cours van het loopende Boekjaar van koopmanschappen
+[single] en andere Benoodigtheeden van hier voorzien is, en nog
+[single] twee na den anderen affgegaane Eijschen onvoldaan zijn,
+[single] en derzelver inhoud, als nog door den Resident, verwagt word. —
+[single] De Restanten, welke zig bij het opmaaken
+[single] De Restanten bij de Ejschen genotert
+[single] der voormelde Eijschen in 's E: Comp„s Pakhuijsen bevonden
+[single] bij ijder derzelver bekend gesteld zijnde, zoo achten wij het
+[single] gedragtmnen sig Eerbiedig daan sujper flue te zijn, daar van in deesen nogmaals aanhalin„
+[single] „ge te doen, en versoeken derhalven Uw Hoog Edelens naer
+[single] „drig, ons zoo daar aan, als aan de Lijsten der Restanten
+[single] de dato Ult„o Augustus 1766 bij de staat reekeningen
+[single] g'insereert eerbiedig te moogen reffereeren.
+[single] De Uijtstaande schulden en ten agteren
+[single] staande. Reekeningen, hebben sub dato ult„o Augustus 1766.
+[single] op
+[single] aan
+== NL-HaNA_1.04.02_8572_0063 | #63 | sides: single | lines: 34
+[single] 55.
+[single] Van Sumatras West Cust ult:o Februarij 1767.
+[single] item der geene die dit Comptoirdebet
+[single] is.
+[single] hier omtrend blijft nog om te vereeven
+[single] „nan onder ƒ 116:3:8
+[single] op deese Cust bedraagen, eene somma van ƒ72432:8. waar
+[single] van de Jnlandse Regenten te Padang in te P„lo Chinco debet
+[single] sijn ƒ 4155:19: het welke ingehouden word uijt hunne Gerech„
+[single] tigheeden, Item den geweezene Resident te Adjerhadja C.
+[single] E.:t van Seijffert ƒ64681: 18: terwijl wijders de Post Passa„
+[single] „man debet, Loopt, met ƒ3594:11: voor het in dat Iaar totde
+[single] Expeditie in 't Landschap van dien naam; verstreckte, om bij de
+[single] nieuwe Boeken van A„o 176 2/3 voort te loopen, tot het eijnde
+[single] van die onderneeminge. —
+[single] De te voorenstaande Reekeningen daar en
+[single] teegen monteerden ƒ14539:19:8: te weeten, de Reekening van
+[single] Differenten in de bereekening van het Goud; weegens het ont„
+[single] „fangene voor reekq: van voormelden C„n E„t van Sijffert ƒ 3549: 172
+[single] Jtem de Inlandse kooplieden tot Aijerbangies ƒ10'990:2:8 dit latst is afgedaan
+[single] voor het geene den Resident Boudewijnsz: van hun Lieden
+[single] geleend hadde, tot de uijtgifte in de Passamangse Expeditien
+[single] het welke in dit loopende Boekjaar wederom door hem
+[single] Iaar gerestitueert, is.
+[single] Ten opsigte van vergoedingen en belastingen,
+[single] hebben wij voor dit maal niets te melden, alzoo wij in onsen
+[single] brieff van den 15„e Augustus p. o van het dien aangaande voorgeval„
+[single] „lene in A„o 176 3/6 het verschuldigte verslag gedaan hebben, en
+[single] en ook vervolgens bij den daar op gevolgten Generaalen Op„
+[single] neem, zoo alhier als op de onderhoorige Comptoiren niets
+[single] over nog te kort bevonden is, als de gepermitteerde spillagie
+[single] op de Pondgoederen en Provisien, die wij oversulx de Bedien=en
+[single] „dens, gequalifficeert hebben, ten Lasten der Reekq: van Winst en Verlies
+[single] oije
+== NL-HaNA_1.04.02_8572_0064 | #64 | sides: single | lines: 36
+[single] Van Sumatras West Cust ult:o Februarij 1767.
+[single] stet kleijne zegeleft tb / an„
+[single] der opgebragt den A:o 1767.
+[single] is nog niet gemaakt
+[single] de gebouwen op Baros hebben
+[single] dog men heeft daar omtrend nog
+[single] niet bunnen voorzien
+[single] bij hunne Boeken aff te schrijven, blijvende ons eenelijk nogter
+[single] vereevening in dit Nieuwe Boekjaar over een bedraagen
+[single] van ƒ 116: 3: 8 dat bij een Notul van Uw Hoog Edelens besluijt
+[single] de dato 9„e meij 1766. dit Commandement ten goeders gebragtis
+[single] Aangaande 's Lands Inkomsten gedraagen wij ons
+[single] needrig aan het desweegen vermelde bij onzen brieff p„r de
+[single] Bark de Mossel afgegaan, terwijl wij alhier eenelijk deeze
+[single] hebben te dienen, dat het klijne Zeguls in het gepasseerde
+[single] Boekjaar opgebragt heeft Rd„s 135: 18, het welke in Cassa
+[single] voldaan is, en het Jaar bevoorens gerendeert heeft Rd„s 163¾
+[single] dus dit Iaar minder rd:s 28 3/8 zijnde het geringen Inkoomen„
+[single] van den 20. e penning op de vaste Goederen navolgens oude
+[single] gewoonte g'emploijeert tot het onderhoud der weegen en bruggen
+[single] te Padang: wal daar en teegen betrefft. —
+[single] De Fortificatie en Timmeragie Ongelden zoo
+[single] In niewe pagerop dijersoege is daar omtrent in A:o 176 1/6 niets buijten gewoons voorgevallen
+[single] alzoo de op adjerhadja begonnen nieuwe Pagger en verdere
+[single] noodige gebouwen, door gebreck, der daar toe vereijscht werden.
+[single] de materialen nog niet voltrocken zijn: Omtrent welke
+[single] stoffen den Baros Resident Sieben ons meede bij een brieff
+[single] van dato ult„o Ianuarij 1766 te kennen gegeeven heeft den gebrec„
+[single] meede reparatie van nooden , keelen toestand der gebouwen aldaar, met verzoek om de noodige
+[single] quallifficatie, tot de reparatie van dezelve
+[single] Waar op wij van hem g'eijscht, en hij ons in de maand
+[single] maij toegesonden heeft eene Calculatie van het daar toe
+[single] benoodigte, en daar uijt gezien zijnde, dat het zelve niet
+[single] al te hoog liep, zoo vonden wij goed zijn versoek, toetestaan,
+[single] met
+[single] net
+== NL-HaNA_1.04.02_8572_0065 | #65 | sides: single | lines: 39
+[single] Van Sumatras West Cust ult: Februarij 1767. 57.
+[single] de negotie en zoldijboeken
+[single] van A:o 176 6/8 zijn behoorlijk ge„
+[single] slooten
+[single] dese Custis in a„o 176/6 in vergelijk
+[single] van 18:o p„ te vooren geraakt
+[single] op de lasten onde Calculatie op de
+[single] „teren gebleeven ƒ 29717: 13:8
+[single] met belofte aan den Resident, dat wij hem de gerequireerde
+[single] Ambagtslieden, en Bouwmatrialen, voor zoo verve te voldoen om reeden als besijden
+[single] waaren, en zoo dra het geschieden konde, zouden toesende„
+[single] waar aan wij egter, door het gebreck aan Ambagtslieden,
+[single] tot nog toe niet hebben kunnen voldoen.
+[single] P
+[single] En hier meede gekoomen zijnde tot het hoofd deel
+[single] der Negotie en zoldij Boeken van deese Custe, zoo hebben
+[single] wij d'eere UW Hoog Edelens noopens de eerstgemelde
+[single] te berigten, dat de Boekjes der onderhoorige Comptoiren na
+[single] voorgaande visitatie en approbatie, bij die Hoofd boeken zijn ingenoo„
+[single] „men, neevens al het geene verder daar toe betreckinge hadde en
+[single] e
+[single] dat wij daar op, den Houder daar van na dat dezelve door Ex„
+[single] d
+[single] „presse gecommitteerdens g'examineert, en na d'ordre bevonden
+[single] waaren gequalifficeert hebben met het sluijten derzelver voort
+[single] te vaaren, ingevolge van het welke, dezelve ons dan ook vervolgens
+[single] heeft overgeleevert, de neevens gaande generaale staat reeke„
+[single] „ning van deese Custa van het Boekjaar 176 7/6 waar uijt uw
+[single] Hoog Ed. s des behaagende zullen kunnen b'oogen dat de pe 9029:
+[single] zaamentlijke Lasten in dat Boekjaar bedraagen hebben eene
+[single] somma van ƒ96315:16:—, en de winsten daar en teegen ƒ79906:15:12:
+[single] zoo dat de eerste de Laaste, zijn te boven gegaan ƒ 16409:2:8. en ver„ dog in verglijk van het Pagtememnt
+[single] mits de Lasten in A„o 176 24/5 de winsten te boven gingen ƒ25788:2:8 wnten
+[single] zoo Consteert hier uijt, dat deeze Custe in vergelijking van het voori„
+[single] ge Boekjaar, Jongst te vooren geraakt is, een bedraagen van ƒ 9379:-4
+[single] het Goud bereekent teegens ƒ331:10 het marcq, f: navolgens het wel„
+[single] ke, dit Commandement, in vergelijk van het laaste Reglement Is dit Commandement, nogten ag„
+[single] op de Lasten en de gemaakten Calculatie op de winsten, nog ten
+[single] agteren
+== NL-HaNA_1.04.02_8572_0066 | #66 | sides: single | lines: 33
+[single] Van Sumatras West Cust ult„o Februarij A:o 17657.
+[single] twee kistje No 16 en Wover
+[single] Padangis in vergelijk van A„o
+[single] Ian P:lo Chinco ƒ 2383:7:—
+[single] agteren is gebleeven ƒ29717:13: 8. waar van de meerdere Lasten, voor het
+[single] grootste gedeelde de Oorzaak zijn. —
+[single] De Zoldij Boeken, in gelijker voegen g'examineert,
+[single] en door de gecommitteerdens daar van bericht gediend zijnde, dat
+[single] daar bij alles na behooren getracteert was, en dat zij daar bij niets teegens
+[single] d'ordres strijdende bevonden hadden, zoo hebben wij den Houder van
+[single] voormelde boeken gaan in dezelve meede de noodige quallificatie tot het sluijten daar van ver„
+[single] leand; invoegen, dat wij thans d'eere hebben zoo wel deese als de eerst
+[single] gemelde behoorlijk, geslooten uw Hoog Edelens schuldpligtig aan te bie„
+[single] „den, in twee bijzondere kistjes N„o 16 en 17: —
+[single] 6
+[single] De Lasten en winsten bereeds aangethoond en in het
+[single] Generaal vergeleeken hebbende, zoo gaan wij nu over om sulx spe„
+[single] „ciaal te doen, ten opsigte van ijder Comptoir op zig zelven, en wel eerstelijk„
+[single] omtrent dit Hoofd Comptoir, alwaar de Lasten in A„o 176 3/6 bedraagen
+[single] hebben ƒ75428:2: en de suijvere winsten ƒ55836:1:12: invoegen dat
+[single] 176 bevoren gerak ƒ1084: de Lasten de winsten te boven gaan ƒ19592:—:4: dog vermits in A:o 1762
+[single] de Lasten de winsten te bovengingen ƒ30944:7:8 zoo blijkt egter dat de
+[single] zaaken dit Jaar ƒ 11352:7: 4: voordeeliger dan het Iaar bevoorens zijn
+[single] uijtgevallen, door de meerdere winsten, dan meerdere Lasten. —.
+[single] Ten Comptoire Poulo Chinco hebben de Lasten be„
+[single] draagen ƒ7155:15:8: en de winsten ƒ9638: —: zoo dat de winsten
+[single] de Lasten zijn te boven gegaan ƒ2482:4:8. En dewijl in A:o 176 2/
+[single] maar opgelegt was ƒ96: 17: 8 zoo thoond zulx aan dat dit Comptoir in
+[single] A„o 176 7/8 te vooren geraakt is ƒ 2385:7:- door ƒ 1510:2:- aan meerdere
+[single] winsten, en ƒ875:5:- aan mindere Lasten; waar van de overgaande
+[single] staat reeckg: van dat Comptoir, breederes aanwijsinge doed:
+[single] Ten Comptoire Adjerhadja daar en teegen hebben
+[single] de
+== NL-HaNA_1.04.02_8572_0067 | #67 | sides: single | lines: 35
+[single] 59.
+[single] Van Sumatras West Cust ult:o Februarij A:o 1637.
+[single] en adjerhadja ƒ7:11:8: door min„
+[single] dere Lasten
+[single] daar en teegen is Baros verag„
+[single] tert ƒ1267. 1: —
+[single] als meede Agerbangijsƒ4094:8
+[single] de Lasten bedraagen ƒ5193. 9. — en de winsten niet mear dan ƒ5060:18:8
+[single] invoegen dat de Lasten de winsten gesurpasseert zijn met ƒ 2123: 10. —
+[single] maar vermits: de eerste de Laaste in A„o 176 2/3 te boven gingen ƒ 240: zoo
+[single] blijkt hier uijt dat dit Comptoir Jongst nog te vooren geraakt is ƒ 7: 1: 8
+[single] door meerder, mindere Lasten, dan mindere winsten.
+[single] Ten Comptoire Baros, bedroegen de Lasten en ongel„
+[single] den ƒ4424:7: en de winsten daar en teegen ƒ 6738: 6:8 zoo dat de
+[single] winsten de Lasten aldaar te boven zijn gegaan ƒ2313: 19:8 dog
+[single] aangezien d' eerste, de Laaste in A„o 176 1/5 te boven gingen ƒ 2581:-:8
+[single] zoo thoond dit aan, dat dit Comptoir in vergelijk van A„o p„o veragten
+[single] „tert is ƒ 267: 1: door meerdere Lasten dan meerdere Winsten.
+[single] Wat nu Laastelijk aan belangd het Comptoir Aijerban„
+[single] „gies, zoo hebben de Lasten aldaar bedraagen ƒ 4114:2:8 en de winsten
+[single] ƒ4633: 7: invoegen dat de winsten de Lasten gesurpasseert hebben
+[single] ƒ 519:4:8 maar aangesien de eerste, de laaste in A„o 176=en te bo„
+[single] „ven gingen ƒ4618: 9: zoo Consteert hier uijt dat dit Comptoir in
+[single] A„o 176 6/6 veragtert is ƒ4099:4:8 door zoo veel mindere winsten„
+[single] dan mindere Lasten; waar van de reedenen bereeds hier voo„
+[single] „ven aangethoond zijn, en breeder kunnen b'oogt worden,
+[single] uijt overgaande staat reeckq: van dit Comptoir; waar aan
+[single] wij versoeken ons hier omtrent zoo wel, als ten opsigte der
+[single] andere Comptoiren eerbiedig te moogen reffereeren. —.
+[single] Omtrent het Chappitre der vreemde Natien: hebben
+[single] wij voor ditmaal niets anders aan uw Hoog Edelens te bedee„
+[single] „len als Hoog Dezelve hier neevens aan te bieden de Lijst
+[single] der alhier t' zeedert P=mo september 1765. tot ult„o December
+[single] 1766. aangeweest zijnde vreemde vaartuijgen waartuijt uw
+[single] Hoog
+== NL-HaNA_1.04.02_8572_0068 | #68 | sides: single | lines: 37
+[single] Van Sumatras West Cust ult„o Februaij Ao 163.
+[single] den Engelsen Gouverneur van
+[single] Bancoelen is en passant hier aan„
+[single] „geweest
+[single] waren sub ult:o ug:s 16 groot
+[single] Rd:s 342: 39:—
+[single] omtrend de Iustitieele zaake is
+[single] niets te melden
+[single] met brenger deeses over
+[single] Hoog Edelens onder anderen blijken zal, dat den geweezene En„
+[single] „gelzze Resident te Natter, en thans Gouverneur van Bancoelen
+[single] m:r R„t Wijatt met de Bregantijn de Luconia van daar komende met
+[single] zijne familie alhier is aangeweest en na vereijsch onthaald, en eeni„
+[single] „ge daagen vertoefd te hebben, zijne Reijze naar Bancoele heeft vervolgt.
+[single] Ten aanzien der kerkelijke zaaken gedraagen wij ons Eer„
+[single] biedig aan het desweegen vermelde bij onze voorige Brieven, alzoo
+[single] de angolden van deese plats wij alhier eenelijk te melden hebben, dat de armgelden van dee„
+[single] „se plaatse, onder dato ult„o augustus 1766. bedraagen hebben eene
+[single] somma van R 3421:39: van dewelke bij diverse Persoonen op
+[single] Intrest uijtgezet zijn Rd:s 2921: en de overige rd=s 500: 39 zig be.
+[single] „vinden, onder den kerkmeester dE m:r Ian Anthonij Thierens
+[single] tot het doen van de dagelijxse uijtgiften. —.
+[single] Het in A„o p:o voorgevallene omtrent de Iustitieele
+[single] zaaken, hebben wij bereeds de Eere gehad uw Hoog Edelens te
+[single] bedeelen bij onzen brieff van den 13 October 1766: zoo dat ons dien
+[single] aangaande niets anders te melden overblijfft, als dat omtrent
+[single] de dagelijkse off klijne Gerichts zaaken niets voorgevallen
+[single] is, dat uw Hoog Edelens attentie meriteert
+[single] Dus gekoomen zijnde tot de Huijzelijke zaaken, zoo
+[single] hebben wij omtrent dit Hoofdeel voor tegenswoordig aan uw
+[single] Hoog Edelens niets anders voor te draagen, dat dat wij den
+[single] reevens gem: Persoonen vaaren Tweeden administrateur Douglas op zijn in dato 217„e October
+[single] ingediend Request, g'accordeert hebben, het daar bij ver„
+[single] „sogte Transport, na Batavia, van zijn E Huijsvrouwe
+[single] Ma Juff„w Diena Elisabeth Hoefkens en desselfs dogter de
+[single] Jonge Juffr Rachel Douglas dewelke ingevolge van diens
+[single] met
+== NL-HaNA_1.04.02_8572_0069 | #69 | sides: single | lines: 37
+[single] 61
+[single] Van Sumatras West Cust ult„o Februaij A„o 167.
+[single] Item onder de Dienaaren den
+[single] zijn twee pennisten plaatsen va„
+[single] Cant geworden
+[single] die met de noevenstaande ver„
+[single] d'aan welke toegestaan is het
+[single] r . pennisten kostgeld van
+[single] met hunne benoodigte Dienstbood p„r deesen Bodem na Costi overvaaren.
+[single] Ten belangen Der Dienaaren van d' E. Comp gedraagen
+[single] wij ons Eerbiedig, aan het desweegen successive vermelde bij onse voorgaan„
+[single] 9.
+[single] „de brieven, terwijl ons in deesen overblijff te melden dat den vaaredrigtandrig smidteek
+[single] Iohan Iacob Smidleck, van Cremnitz, ingevolge het aangeteekende
+[single] ter Resolutie van den 17:e December, met brenger deezes in arrest
+[single] en dus, met stilstand van gagie, ter dispositie van uw Hoog Edelens
+[single] overvaard. —.
+[single] Bij de werkstelligmaakinge van uw Hoog Edelens
+[single] zeer gevenereerde beveelen teegens den Radja van klijn Passaman„
+[single] hebben wij noodig g'oordeelt, den Capitain Daniel Poppelman en
+[single] den onderkoopman Ian Boudewijnsz: als scriba toe te voegen der om neevens gemelde voorvallen
+[single] Eerst geswoore Clercq van Politie Bartholomeus Francois Torcade„
+[single] en voorts na Aijerbangijs te senden den geswoore Clercq Adolph Es„
+[single] „chel kroon, om geduurende de affweezendheijd van den Resident
+[single] s' E Comp:s zaaken aldaar waar te neemen; in welkers plaatse wij
+[single] pro interim hebben laaten optreeden den gesw Clercq Thobias
+[single] michael schmidt en den adsistent Francois Thierens, die den
+[single] Eed op die dienst staande almeede heeft afgelegt. —
+[single] En hier Toor vacant geworden zijnde twee Pennisten plaat„
+[single] „sen, zoo hebben wij daar toe g'emploijeert den zoldaat Coenraad daniel
+[single] Joosten van P=lo Chinco, en den Jonge Michiel Willem Handel van vild zijn
+[single] Padang deweke wij toegestaan hebben bij eijgenhandig Request, het Pennisten
+[single] Costgeld van Uw: Hoog Edelens te verzoeken
+[single] zoo wel als de zoldaaten Gerrit: Krijgsman van Padang,
+[single] Hendrik Michiel Richard van Baros, en den Jonge Servaas Hendrik un IingE:s te verzoeken
+[single] van Kempen van Amsterdam dewelke bereets een tijdt. Lang om
+[single] wat
+== NL-HaNA_1.04.02_8572_0070 | #70 | sides: single | lines: 36
+[single] Van Sumatras West Cust ult:o Februarij A„o 1767.
+[single] Eerbiedige reforte aan deese
+[single] overgaande bijlagen
+[single] men is nog genoodzaak:t geweest
+[single] rd:s. 4750:—
+[single] Ootmoedige verzoek om de
+[single] gunstige approbatie der ver
+[single] rigting tot dato deeses
+[single] wat te leeven, bij het schrijf gebrukt zijn, en genoegen gegeeven hebben. -
+[single] Verders hebbe wij nog d' Eere hier bij te voegen het dag verhaal,
+[single] van onsen Equipagie opsiender, Conserneerende het Lossen en Laaden
+[single] van sE Comp=s scheepen en vaartuijgen, als meede een Lijste van de
+[single] overvaarende Perzoonen terwijl wij wijders uw Hoog Edelens nee„
+[single] drig verzoeken ons aangaande het geene in deesen mogte weesen ge
+[single] ommiteert eerbiedig te moogen reffereeren. aan de deesen versel„
+[single] „lende Copia resolutie!
+[single] Behalven het welke wij ons Laastelijk nog verpligt vinden
+[single] uw Hoog Ed:s te melden, dat dezelfde reeddenen, welke ons bij onze
+[single] laatsten genoodzaakt hebben, eenige Penningen bij de scheeps
+[single] overheeden teegens een wissel op te neemen, zulx nogmaals gedaan,
+[single] en wij dienvolgende van de volmachten van den overleedenen schip.
+[single] teegens een wisseloptenemon per Hans Cornelissen, op genoomen hebben eene somma van Rd„s
+[single] 4750 teegens een primo Wissel brieff waar van de secunde deesen
+[single] verseld, met ootmoedig verzoek om dies bedraagen, aan haar te laa„
+[single] ten uijtkeeren, en ons gedoente hier omtrent gunstig te willen Ap„
+[single] „probeeren.
+[single] En nu hier meede afgelegt hebbende de verschuldigte
+[single] reekenschap van onzen verrigtingen in het Boekjaar 176 5/5. en
+[single] het geene wij verders tot dato deezes gedaan hebben, zoo verzoeken
+[single] wij Eyndelijk uw Hoog Edelens neadrig het een en anders met
+[single] Derzelver goedkeuringe te willen bekroonen in welke hoope wij in
+[single] deesen nog inlijven de korte Factuur van het gelaadene in bren„
+[single] ger deeses, het welke bestaat in.
+[single] 33000 lb. Bensoin ord:r en Extra ordinaire witte in 264 kisten
+[single] kostende - - - - - - - - - - - - - - - - - - ƒ 9882:—:—
+[single] Transporteere . . . . ƒ 9882: —:—
+== NL-HaNA_1.04.02_8572_0071 | #71 | sides: single | lines: 35
+[single] 63.
+[single] Van Sumatras West Cust ult:o Febraij Ao 163.
+[single] gaad in een verguld kistje
+[single] over 7 stave goud weegende meq:
+[single] P„r Transports ƒ 9882:—:—
+[single] 625 lb of 5 picols Camphur Baros in 5 kisten „ 10196: 13: 8
+[single] diverse goederen tot schenkagie - - - - - „
+[single] 698: 8:—
+[single] 386 1/2 mcq: off 2251 't hailen en 2 13/92: maas
+[single] goud van 21½ Carraat beloopende. . . „ 114496: 5: 8
+[single] 106680 lb Peepper swarte Geharpte in 1623 Zakken. . . „ 16875: 8: —
+[single] 3 p„s kisten met onbequaame waapen en
+[single] Equipagie goederen vide factuur. . . . . „ —:—
+[single] Somma . . ƒ 152148:15:—
+[single] Bij het welkes deesen Bodem nog op Pdo Chinco en adjerhadja
+[single] staat in te neemen alde daar zelfs gereed leggende Peeper en Goud, waarmee„
+[single] „de wij deselve eene spoedige en gelukkige Reijze toewenschen en met diefpe
+[single] Eerbied blijven /:onderstond:/ Hoog Edele Groot Achtbaare Wijd gebiedende
+[single] Heere, en Wel Edele Heeren /:Laager/ uw Hoog Edelheedens Onderdaanige en
+[single] gehoorzaame dienaaren /:was geteekent:/ H: V: Staaveren en I: Thierens, F: Dou„
+[single] „glas, J: Calcoen van Limburg H: W: Nicolai en Fr: Lekman /:in margine:/
+[single] Padang op Sumatras West Cust Ult„o Februarij A„o 1767;
+[single] Aan zijn Heoog Edelheijd
+[single] Den Hoog Edele Groot Achtbaaren, wijdgebiedende Heere
+[single] Petrus Albertus van der Parra
+[single] Gouverneur Generaal & & &
+[single] Beneevens
+[single] De wel Edele Heeren Raden
+[single] van Nederlands Jndia
+[single] Hoog Edele groot Achtbare wijd gebiedende Heer P: 't schip Tipkensburg
+[single] en Wel Edele Heeren
+[single] P„r dessen Bodem 't schip Popkensburg Hebbe d' Eere Navolgens
+[single] de ordre vaan hun E: Achtbaaren tot Uw Hoog Edelens overtesenden 5 90 Marg: 53 ps
+[single] ofte
+== NL-HaNA_1.04.02_8572_0072 | #72 | sides: single | lines: 32
+[single] slot
+[single] Van Sumatras west Cust, den 9 Maart A:o 1762.
+[single] Nadrigst Instantie dat den Eijsch
+[single] ofte thailen 322 1/16. Goud gesmolten In 7 staven voormelde goud waar van
+[single] waar van maar ses ge Essaijeert
+[single] ses staaven g'Essaijeerd en een onge Esfecieert is dog a 2½ Carraet bereekent
+[single] waar van Eerbiedigste P„r Naeste de weesentlijke gehalte versoeke / komt
+[single] marcq fijn & 7. 7.6 /0 de marcq A ƒ 331:10:- gereekend, Bedraagt
+[single] ƒ15685:3:8. Gaande /:volgens gemelde ordre /de Aan handen hebbende
+[single] Peeper nog niet over ter spoediger afvaardiging van gemelde Bodem.
+[single] Wijders versoeke Ootmoedigst dat de van Padang tot uw Hoog
+[single] „Edelens voor dit Comptoir overgaande Eijsche Bij eerste gelegentheijd/ zoo
+[single] van 16 18 dreat nageldaen werde moogelijkx direct:/ Mog voldaan werden principalijk Contanten duijten dijf de
+[single] Lijwaaten alzo den handel, In dit Jongste halve Boekjaar wat opgeleken
+[single] en meerder soude hebbe geweest, hadde de Cooplieden met Cassus, haman
+[single] en Arme zijne Effen dubbelde roode, van welkers soorten geen stuck hebben,
+[single] en met wat mearder guinees gem: gebleekt en d:o brijn blauw Sadraspatnams humne Gerieve„
+[single] En de voldoenig der Bij gemelde Eijschen versoekende Hoogst.
+[single] benoodigde Ambagtslieden & houtwerken &, ter opbouw der Nieuwe woo„
+[single] „ningen alzoo de oude niet meer over Eijnt te houden zijn,
+[single] Afbreekende zoo Beveele, uw Hoog Edelens Persoo„
+[single] „nen en 's E Comp„s dierbaaren belangen, in Godesheilige Bescher„
+[single] „ming betuijgende met de diepste Eerbied en Ootmoed te zijn
+[single] /:onderstond:/ Hoog Edelens Groot Achtbaaran wijd gebie„
+[single] „dende Heer en Wel Edelen Heeren /:laager:/ uw H:oog Ede„
+[single] „lens allen verpligste en onderdaanigste Dienaar
+[single] /:was geteekend:/ I:s Challier /:in margina:/ Aijerhiid
+[single] „ja op Sumatras West Cust den 9:e maart A„o 1767.
+[single] Bedragende ƒ 5685:3: 8.
+[single] gaande de Peeper nog niet over
+[single] Aan
+[single] zijn
+== NL-HaNA_1.04.02_8572_0073 | #73 | sides: single | lines: 26
+[single] 65.
+[single] Van Sumatras West Cust den 1 Maart 1754.
+[single] Aan zijn Hoog Edelheijd
+[single] Den Hoog Edelen Groot Agtbaaren en
+[single] Wijdgebiedende Heere
+[single] Petrus Albertus van der Parra
+[single] Gouverneur Generaal de &: &. beneetons
+[single] De Wel Edele Heeren Raaden
+[single] van Neederlands Indien
+[single] Hoog Edele Groot Agtbaare
+[single] Wijd gebiedende Heer en
+[single] Wel Edele Heeren
+[single] Met brengen deeser hebben wij soo veel Eere uw Hoog.
+[single] „Edelens te laaten toekoomen eene quantiteijt van Th:s 958. 6 3/92 vaan
+[single] 21½ Caraat, Goud en 73800 lb Peeper welke een en andere Wijhoa„
+[single] „pen uw Hoog Edelens aangenaam mag zijn.
+[single] Wij hoopens needrigst, op een spoedig ontzet van de
+[single] Lijwaaten op onse naadre Eijsch bekend gesteld en die wij p:r 't schip
+[single] Vlissingen de vrijheijd hebben genoomen Uw Hoog Edelens toe te senden
+[single] Wij hebben d' Eere ons met diep ontsag en Eerbied te noemen
+[single] /:onderstond:/ Hoog Edele Groot Agtbaare Wijdgebiedende Heer en
+[single] wel Edele Heeren /:Laager:/ uw Hoog Edelens seer ootmoedige
+[single] en gehoorsame dienaaren /:was geteekend:/ R: Palm, I: V: Kempen
+[single] Jansz. /:in margine:/ Ten Eilande Chinco op Sumatras west Cust
+[single] den 11:e maart A„o 1767:
+[single] Translaat
+== NL-HaNA_1.04.02_8572_0074 | #74 | sides: single | lines: 27
+[single] Van Sumatras West Cust den 15:e April A„o 1767:
+[single] Translaat Malaijse Missi„
+[single] „ve gesz: door Radja Baros,
+[single] Radja Ibrahim beneevens de
+[single] gesaamentlijke Panghoelos te
+[single] Baros, Aan Hun Hoog Edelheedens
+[single] D' Edele Hooge Jndiase regeering
+[single] ontfangen
+[single] Batavia den 15:' April A„o 1767.
+[single] Na Gewoone Complimenten Luijd dese als volgt
+[single] Wijders Communiceeren Aan hun hoog Ed:s dat dersel„
+[single] „ver missive met behoorlijke statie ontfangen is waar uijt ontwaarde dat
+[single] hun hoog Ed:s Eiene opregte behandeling van ons, welke in waarhijd
+[single] betuijgen zeer arm te sijn, verwagten voorts gedraagen ons aan de klag„
+[single] „ten in onse laaste missive gem:t alzoo de hoofden in de boovenlanden
+[single] onwillig zijn ben zuin te leeveren wanneer de prijs daar van niet op den
+[single] ouwden voet werd gesteld alwaarom zijlj: deselve ook niet meer voor'tplan„
+[single] „ten maar altemaal padij velden aangelegt, hebben dus wij daar aan
+[single] niets hebben kunnen doen dan deselve om de leverantie daar van zeer
+[single] vriendelijk te versoeken, het gunt: zijlg. Egter blijven refuceeren, bij
+[single] aldien er nu minder van deselve als meede van de Camphur werd
+[single] geleevert, zo gelieven Hun Hoog Ed:s ons zulx niet ten lasten te leggen
+[single] want: meem:t hoofden sijn gezet op de voorige prijsen waar omtrend
+[single] wij nader Elucidatie van hun hoog Ed:s verwagten, want het ons
+[single] leed doet het gem: niet te konnen besorgen.
+[single] Wijders uijt gedagte missive nog gezien hebbende, dat het versogte
+[single] kruijt
+== NL-HaNA_1.04.02_8572_0075 | #75 | sides: single | lines: 33
+[single] 67.
+[single] Van Sumatras West Cust den 15:' April A:o 17632.
+[single] kruijt en koogels in deppen, waare gebleeven, so versoeke het selvoten
+[single] quantiteijt van Twintig vatjes kruijt en 1 picol koogels voor het
+[single] lostende gesonden mag werden, want aan den Resident te Baros
+[single] konnen wij het selve niet versoeken, ook sijn wij beweest het gem:
+[single] van Eenig ander Comptoirte haalen wijl het dus souwde schijnen eeven
+[single] als of hun hoog Ed=s daar van niet versien waaren. —
+[single] Laatstelijk werd thans in geschenk Aan Hun Hoog Ed:s geson„
+[single] „den het volgende.
+[single] Van Radja Baros
+[single] 6. lb. 10: thaijlen Camphur 1 ste zoort
+[single] 2: d:t 9: _„o _„o 2: _„o
+[single] 2: picols bensuin.
+[single] Van Radja Jbrahim
+[single] 4. lb. 8. thaijlen Camphur
+[single] Van den orang Toewak
+[single] gen„t Merah Silan.
+[single] 4. d:o 2: thailen Camphur 1: zoort
+[single] 2: d=o 1 _„o _„o 2: _„o
+[single] 1: d:o 5 _„o _„o 3: _„o
+[single] Van Radja Mloesoerah
+[single] 4: picols bensuin
+[single] Van Radja Goenong en
+[single] den orang kaija Balie
+[single] 2: lb. Camphur 1„te zoort
+[single] 1: d:o 9: Thailen d:o 2: _„o
+[single] Van Radja Patia Lila en
+[single] Panghoeloe Hakim. —
+[single] 1: lb. 10 thailen Camphur 1„e zoort
+[single] 1: „ 3: _„o _„o 2: _„o
+[single] —„ 8: _,„o _„:o 3: _„o
+[single] van
+== NL-HaNA_1.04.02_8572_0076 | #76 | sides: single | lines: 9
+[single] Van Sumatras West Cust den 15:e April A.:o 1767.
+[single] Van Radja Bandahara
+[single] 86: lb Benzuin Eijnde hier meede mijne penne /:onderstond:/
+[single] Geschreeven te Baros in 't Jaar
+[single] /:was getrans
+[single] „lateerd door /:was geteekend L:t Goosen
+[single] ^naegesien
+[single] Verspijck
+[single] Ja1
+== NL-HaNA_1.04.02_8572_0077 | #77 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0078 | #78 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0079 | #79 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0080 | #80 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0081 | #81 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0082 | #82 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0083 | #83 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0084 | #84 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0085 | #85 | sides: single | lines: 3
+[single] Van Sumatras west 2
+[single] d' Anno
+[single] 1767.
+== NL-HaNA_1.04.02_8572_0086 | #86 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0087 | #87 | sides: single | lines: 21
+[single] Tranzoda
+[single] 344
+[single] „nige Brieven en Papieren
+[single] als in dezen Ingeschreeven en
+[single] Succes
+[single] dert den 15e: Octobr:
+[single] tot Ult=o December 176, Ontfangen
+[single] zijn
+[single] Van
+[single] V Sumatras Westcust
+[single] Pag:
+[single] Missive van den Commandeur van Staveren en Raad aan hunne Hoog
+[single] Edelheden d. d. 25. September 1767. - - „ 1.
+[single] Copia Rapport van gem: Commandeur van Haveren d. d. Ult=o Julij 1767.
+[single] Wegens zijne verigting in de apedite te Pusseme „ 25.
+[single] Copia Contrnetaangegaan mot deregenten dier plaats . d 9. Julij 1762. - - — „ 41.
+[single] Missive van enaan als vooren d. d 6: November 1767 - - - - - - - - „ 45.
+[single] &
+[single] Missive van den Poulo Chincos Residenten Palms en van Kempen.
+[single] aan Hunne Hoog Edeleden d: d: 5: No: 1767. „ 49.
+[single] Translaat missive van den Pangslma Radja Badjang &: d: 2: 167. 50.
+== NL-HaNA_1.04.02_8572_0088 | #88 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0089 | #89 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0090 | #90 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8572_0091 | #91 | sides: single | lines: 31
+[single] Van Sumatras West Cust den 25:' Septemb: 1767.
+[single] Batavia
+[single] Aan zijn Hoog Edelheijd
+[single] Den Hoog Edelen Groot Achtb„ wijdgebiedende Heere
+[single] Syte
+[single] Petrus Albertus Alberius van der Rovia
+[single] Gouverneur Generaal
+[single] Beneevens
+[single] DWel Edele Heeren Raaden
+[single] Van Neederlands Indien, aldaar
+[single] Hoog Edele Groot Achtbaare wijd
+[single] „gebiedende Heere, een Wel
+[single] Edele Heeren
+[single] Bij onzen laasten van ult„o februarij deeses jaars, waar
+[single] van wij de eere hebben uw Hoog Edelheedens hierneevens het duppli„
+[single] caat aan te bieden, hadden wij het geluk ons verslag van 't Boekjaar 1765/6
+[single] te besluiten, en onstreedert door het arrivament der scheepee ijzelmonde
+[single] en Bleijenburg veroerd gevonden hebbende met uw Hoog Edelens hoog
+[single] gevenereerde origineele en duplicaat missive en bijlaagen van dato 8=e
+[single] Iunij Jongstleden; zoo koomen wij nu niet alleen schuldpligtig te be„
+[single] „antwoorden, maar ook een begin te maaken tot het verslag van onse verrig„
+[single] tingen in A„o 176 6/7 inhoope dat Uw Hoog Edelens daarinne enig
+[single] genoegen zullen gelieven te neemen. En om daartoe te treeden zoo maaken
+[single] wij onP legin met het Hoofdeel van
+[single] scheepen en vaartuigen, waaromtrent wij in de eerste plaats
+[single] uw Hoog Ed„s needrig danck betuigen voor de verleende permissie om de
+[single] Gebreckige Chialoupen de Goudvinck ende Haasewind, als dezelve alhier
+[single] niet langer gerepareert kunnen worden na Costij te rugte moge senden,
+[single] van dewelke wij de vrijheid zullen neemen zoo doa zulks vereischt
+[single] word te profiteeren. —
+[single] Terwijl.
+== NL-HaNA_1.04.02_8572_0092 | #92 | sides: single | lines: 45
+[single] Van Sumatras Westcust den 25 Septemb„r 1767
+[single] tschier onse lanck buwr hoijd koomen af 'e leggen
+[single] seerde oncosten der scheepen van 44 p„s onderneedrige
+[single] haan niet ongebroken zullen blijven het be
+[single] drucken. —
+[single] dragen daar
+[single] deere uw: Hoog Edelens te Beregten: dat die
+[single] Middelerwijk
+[single] en
+[single] in dato 26 Iulij 1786 na Batavia gesondene Expresse ganting op aen 29
+[single] maart dezes jeders in een zeer gemeene staat alhier ter Rheede g'arriveert
+[single] is, met uw Hoog Edelens origineel briefje van den 6„e october bevorens.
+[single] Na het zelve is op den 23 Junij ter deezer Rheede in een goede staat
+[single] te nankergekomen het schip ijzelmonde dat op den 1=e Julij gevolgt wiert
+[single] door het schip Bleijenburg; met de ontlossing van welken Laastgemelden
+[single] Bodem wij ten eersten een begin maakten na dat wij bevonden hadden
+[single] dat beijde die Bodems niet boven haare merken diepgingen,
+[single] En zijn wij Godt=danck daar meede inze vorre gereuisseert, dat de„
+[single] „zelve thans zijlrheede legt, en zijne onkostreeckening affgeslooten is met
+[single] een bedraagen van ƒ563:18 principaal ontstaan door de aan de schepelin„
+[single] gen van dien Bodem verstrekte noodige vervorschinge, dewelke wij vertrou
+[single] wen gunstig te zullen werden gepasseert
+[single] De aangebragte Ladinge is door de overheden navolgens de
+[single] neevensgaande Bevindinge uitgelevert, en hebben wij de selve het over
+[single] en te kort bevondene, ten goeden en ten Lasten laaten brengen excepte
+[single] 170½ lb. Boter, die door een ongeaccepteert vat te min uitgelevert zijn,
+[single] en de welke den schipper Wielard niet wilde vergoeden, om dat de Gecom„
+[single] mitteerdens het zelve niet inde teegenswoordigheid van een scheepsoffi„
+[single] cier geoopend hadden, om welk versuim wij het bedraagen daar van, tot
+[single] Uw hoog Ed„s nadere ordere door deselve in Cassa hebben laaten voldoen,
+[single] niet tegen staande zij hunne bevindinge presteerden met eede bevestigen,
+[single] het welke wij hun E= dan ook g'accordeert hebben, zoo welals om hun ver„
+[single] soek aan Uw Hoog Edelens voor te draagen hier in bestaande, „ dat den
+[single] schipper en opperstuurman, off de gene, die den ontfanger der Laading op
+[single] Batavia geweest is, een Eed mag afgevorgt worden, dat het vat Boter
+[single] 1
+[single] in Quaestie weesentlijk aldaar voor deese lust afgescheept, en geen ande
+[single] „re, dan die Booteris. —.
+[single] Het op
+[single] De vervoerde Laadinge p„r het schip Popkensburg te
+[single] min bezondene Goud ten bedragen van 2/08 Marcq trois, heb„
+[single] „ben wij onder meer andere minwigten, navolgens ons besluit van den 19=e
+[single] augustus.
+[single] .
+== NL-HaNA_1.04.02_8572_0093 | #93 | sides: single | lines: 40
+[single] Van Sumatras West Cust den 25:' Septemb„r 1767.
+[single] Acgustus, door de Insammelaars aan d' E Comp: laaten vergoeden En deesen
+[single] aangaande niets meer te melden hebbende zogaeen wi, over toe
+[single] De Inlandse zaaken, omtrend dewelke wij in de eersten
+[single] d'eert hebben te dienen, dat wij ingevolge het goedvinden van uw hoog
+[single] Ed„s onse boekengesuijvert hebben van de Restant schuld van Radja
+[single] Ibrahim van Adjerhadja, dewelke eenlijk binnen: zijns blijft voort loopen
+[single] om te zien offer ook nog al te met iets daar van, wegte inkoomen.
+[single] Ten aansien van uw Hoog Ed„s zeer g'eerdese Commandatie om
+[single] den Inlander tot de Peeper Cultuure aan te moedtigen, neemen wij de
+[single] vrijheid uw Hoog Ed„s te verzeekeren, dat wij steeds ons best doen, om niet
+[single] alleen den sulthan van Jndra poura maar ook alle de Hoofd Regenten
+[single] onder 'sE: Comp„s Iurisdictie daar die Corl gecultiveerd word, met alle
+[single] ernst daartoe aan te setten, en dat'er aan onse zijde diengaande niets
+[single] verzuijmd word.
+[single] De Reedten waarom de Chialoup de Goudvinck in a=o p„o
+[single] van Innako en maroste rugkoomende en op Nias aangievende, het
+[single] oogmerk om aldaar en porssant slaaven en rijst in te ruilen niet bereijk
+[single] heeft, zijn deese, dat den Rijstoogst nog niet daar was, dat al het volk
+[single] op de Chialoup, ziekelijk was, en het langen tijdt zoude vereijscht hebben
+[single] om slaaven te bekoomen die gemelde Chialoup, als waar voor een zeekere
+[single] tijdt gevictualieert zijnde, niet konde affwagten. —
+[single] Wijders d' eere gehad hebbende uijt uw Hoog Ed„s zeer gevenereerde
+[single] te zien, de versendinge nade laas, van de op Innako g'arvesteerde maleijers,
+[single] zoo zullen wij ons sulx ter narigt Laaten dienen; ingeval weegens V'een
+[single] of andere iets mogte werden gerequireert
+[single] Den onderkoopman en Aijerbangies Resident Ian Boude„
+[single] „wijnsz: voor den ontfangst van uw Hoog Ed„s zeer g: eerde ordres reeds in
+[single] dato. 2. Maij deese s jaars overleeden zijnde zo hebben wij om aan
+[single] Uw Hoog Ed„s zeer g'eerde Intentie te voldoen in onsse sessie van 27 Juny
+[single] van desselvs weduwe g'eijschte een naderen voldoender bewijs van het
+[single] in de rotracte van Ramba verlooren schrijflaadtje met 's E Comp„s geld
+[single] ten bedragen van Rd„s 1685: 40: en heeft dezelve vervolgens in dato 19
+[single] Augustus hier aan voldaan door het hier neevens gaande berigt
+[single] het welke door ene b'eedigte omstandige verklaaringe van twee persoo„
+[single] nen die zulx gesien hebben zoodanig gesterkt is, dat wij vertrouwen
+[single] dat dit bewijs bij uw Hoog Edelens voldoende zal g'oordeeld wor„
+[single] den.
+[single] Ook.
+[single] :
+== NL-HaNA_1.04.02_8572_0094 | #94 | sides: single | lines: 40
+[single] Van Sumatras West Cust den 25. ' Septemb„r 1767:
+[single] Ook hebben wij om reeden als booven tenzelfde daade van de administra„
+[single] teurs gevordert twee sepan ate opgaaven; van hetgeene door den overleedenen
+[single] Resident Boudewijnsz: in den tijd van 8 maanden en 24 dagen in de
+[single] passamanse Expeditie verstrekt en gedispanceert is en van het geene bij
+[single] opgemelde rotracte effectieff verlooren is, en door denzelve in datto 10=e deeser
+[single] hier aan voldaan zonk, zoo hebben wij zeere uw Hoog Ed„s deselve bij dee„
+[single] „sen aan te bieden.
+[single] Wijders uijt uw Hoor Ed„s zeer gerespecteerde, gezien hebbende, hoog
+[single] derselver dispositie omtrent de overgesondene acht Passamanse Krijgsge„
+[single] vangene waar van uw hoog Ed„s 7 stuks hebben Laaten verkoopen
+[single] ten voordeele van de inde Expeditie dueft gedaan hebbende officieren
+[single] onder de welke het provenu daar van Groot rd„s 360. door den ondergeteeken„
+[single] de Commandeur na uw Hoog Ed„s intentie verdeeld is en bethuigen de ge„
+[single] „nieters uw Hoog Ed„s voor deese gratificatie hunne nedrige dankbaarheid—
+[single] De Brieven en geschenken voor den Radja en de Ponghoulons van
+[single] Baros als meede voor een Panglima en de Ponghoulous van Padang hebben
+[single] wij ontfangen, en zijnde eerste met de Chialoup de Goudvink na Baros
+[single] vorsonden; terwijl ons ten hoogsten aangenaam geweest is te verneemen,
+[single] dat uw hoog Ed„s onse gemaakte voranderinge in de Regeeringe van het
+[single] Landschap Trousang hebben gelieven 't approbeeren; wij hebben dien
+[single] Radja, zijne bevestiginge bedeeld, en is de selve uw Hoog Ed„s daar
+[single] over ten hoogsten verbonden
+[single] Wat aanbelangt de zaaken van Baros zoo is ons voorneemen
+[single] om na het aflopen der Passamanse Expeditie, iets meerders 't ondernee„
+[single] „men, als het derwaarts zinden van eene Chialoup, in het vervolg van
+[single] zelven vervallen, alsoo den Resident sieben ons bij briefvan den 28 febr=ij
+[single] p„r de derwaars gesondene Chialoup ontfangen, bedeelde, dat de komst
+[single] van het schip vlissingen ter deeses luste ende daar meede aangebrag„
+[single] te krijgsmacht enezulke uijtwerkinge op de gemoederen van 'sE Comp„s
+[single] vijanden gemaakt hadden, dat zij onder malkanderen ons eens geworden
+[single] zijnde hunne quaade Desseijnen hadden Laaten vaaren.
+[single] En hier meede Uw Hoog Edelens zeer gevenereerde noopens deese
+[single] materie eerbiedig b'antwoord hebbende, zoo gaan wij over tot het verslag
+[single] van het 't zeedert onsen Laasten voorgevallene hier omtrent en voor
+[single] eerst nog blijvende bij de zaaken van
+[single] Baros, zoo vinden wij ons verpligt uw Hoog Edelens te berigten dat
+[single] wol van opgemelde tijdt affaan tot den 10 Aug„s alles aldaar in rust
+[single] en
+[single] 6
+== NL-HaNA_1.04.02_8572_0095 | #95 | sides: single | lines: 42
+[single] Van Sumatras westcust den 25:' September 1767.
+[single] en vreede geweest is, dog dat wij op den 24:' daar aan p„r een Exprese door
+[single] een brieff van gemelden Resident berigt sijn, dat deselve al weederom op
+[single] het onvorwagste gestoord was, door het at Chiense ve Hoffgespris, het welke
+[single] van meening zijnde zig van Baros surham, en Tapis, meester te maaken,
+[single] ten dien eijnde bereeds met eene gonting, en seeven groote Bantingers, onder
+[single] het Eyland Talabis ten ankergekomen was; waar teegen den Risident
+[single] ende Barosse Regenten zeer needrig om adsistentie en Bescheminge
+[single] versogten. —.
+[single] En of schoon wij niet volkoomen veronderstelden, dat die Rooff
+[single] zieke atthiense Natie ons Comptoir aldaar zoude aantasten zoo oordeelden
+[single] wij egter noodig, dat Comptoir het welke zeer swak van berettinge was, ten
+[single] eersten wat meer te vorsterken en het ten minsten in een behoorlijken
+[single] staat van defensie te stellen, tot uw Hoog Edelens nadere ordre dien aan„
+[single] gaande.
+[single] Ten welken eijnde wij nog in de na Passeman geprojecteerde Chia„
+[single] loupde Goudvinck, afscheepten 5 gemeene Europeesen en 25 Bouginesen
+[single] militairen voor Baros, beneevens de door den Resident versogte waapen=
+[single] en andere benoodigtheden met ordre aan den Gesaghebber van gemelde Chi„
+[single] in ammunitie goederen item Rijst
+[single] =aloup om na verrigter zaake aan de Post Moara Tanjong zijne rijse ten
+[single] spoedigsten na Baros te vervolgen, alwaar wij den Resident hebben aan
+[single] bevoolen, zig niet anders als defensie te gedragen, en de uijt nood in dienst
+[single] genomene 24 vrije Niassers niet Langer aan te houden, als absolut vereijscht
+[single] word, en hier van als nu de verdere gevolgen afwagtende zoo koomen wij uw
+[single] Hoog Ed„s omtrent het district van.
+[single] Aijerbangies te bedeelen, dat ons van daar in de maaend maert
+[single] is berigt het overlijden van den Hoofd Ponghoul in naame orang Caijo Dato
+[single] Batoua, en dat de overige Regenten na hunne gewoonit weederom in des„
+[single] selvs plaats hadden verkooren, zijnen Cammanakan in name Bandhara
+[single] Poeti, en of schoon deese verkiesing wottig is en wij deselve ook gepasseert heb„
+[single] ben, zoo schreeven wij egter den prointerim 'P Resident kroon te dier tijdt
+[single] aan, om de Regenten te bedhieden, dat zij in 't vervolg inzulk een geval,
+[single] eerst van het overlijden van den Hoofd=Regent moeten kennisse geeven,
+[single] enden geenen, die behoord te succedeeren aan dit ministerie voordraagen
+[single] ter erlanging van zijne approbatie, het welke wij hoopen na uw hoog Ed„s
+[single] genoegen te zullen zijn, dus van daar gekoomen zijnde tot het Landschap
+[single] Passaman, en wel speciaal in het district van kinalij van
+[single] P
+[single] waar wij bij onsen Jongsten de eergehad hebben, uw Hoog Ed„s de gesteldheid
+[single] derzaaken te bedeelen, tot dato ult„o februarij deses jaars.
+[single] Tzeedert.
+== NL-HaNA_1.04.02_8572_0096 | #96 | sides: single | lines: 39
+[single] Van Sumatras west Cust den 25:' September: 1767. —
+[single] Treedert, namode ziekte en sterfte van on swolk als aatr zoodanig toe,
+[single] dat wij ten Laasten genoodsaakt zijn geworden eerst den onderkoopman
+[single] Ian Boudewijnsz: en naderhandel den Capitain Daniel Poppelman
+[single] om hunne groote swakheids wille te permitteeren, na herwaards over
+[single] te koomen, en inmiddels de Commissie Pro interim op te dragen
+[single] aan den Luitenant Mauris sels en den Boekhouder B„l F P
+[single] Tercaade.
+[single] En dewijl men de hoope hadden dat de opgemelde principaale Commis„
+[single] „fianten alhier spoedig tot herstelling zouden koomen, en den Capitain
+[single] Poppelman die Expeditie absolut in Persoon ten eijnde wilde brengen, zoo is
+[single] aldaar geduurende zijn aanwoesen alhier, niets bijzonders verrigt, tot
+[single] dens meij, dat deselve den onderkoopman Boudewijnsz: in de Eeuwigh=d
+[single] was nagevolgt
+[single] Wanneer wij ten eersten de opgemelde provisioneele Commissianten
+[single] daar van kennisse gaaren, en deselve in die hoedaanigheid bevestigden
+[single] hun C„r 's E Comp„s zaaken op het ernstigste aanbeveelende s daags daar
+[single] aan ontfangen wij van deselve een brief en eenige bijlaagen gedatteert ten
+[single] poste sittoua den Laatsten april, waar bij deselve onder anderen te kenne
+[single] „gadven, „ dat de ziekte en sterfte onder het volk nog al aanhield, als meede
+[single] dat men bij na niets van den vijand vernam, teegens den welken zij egter ge„
+[single] duurig op hunne hoede waaren, om hem des doonelijk zijnde, eene kaste affte
+[single] Dog nademaal het nog de Intentie van uw hoog Ed„ls nog die van ons
+[single] geweest is, in deese Expeditie zoodraalende te werk te gaan, als wij door dit
+[single] boovengemelde berigt gewaar wierden, dat'er gedaan wierd; zoo hebben
+[single] wij, mits het overlijden van voorm: Capitain Poppelman, aan wiende
+[single] militaire operaties toe vertrouwdwaaren, die raake zelven ten eersten
+[single] in nader overdenkinge genoomen en met al de aanweesende Inlandse
+[single] Hoofd Regenten, dien aangaande geraadpleegt, en gesaamentlijk g'
+[single] oordeeld, dat men die zaake met ernst meeste aanvatten en een kanste
+[single] waagen om die volkeren tot onderwerping te beweegen
+[single] Ten welken eijnde wij ten Laasten met gemelde Regenten over een
+[single] bequaamen dat den Padangsen Ranglima Radja Boedjang en den
+[single] manuCaboosen afgesant Toeanzo Panijmingier Lauwt in Persoon
+[single] met 500 maleijers teegens Bougineesen berolding na derwaarts te gaan
+[single] emonze krijgsmacht die nog bestond in 85 Coppen Europeesen en 167 Cop„
+[single] pen Boegineesen en Mooren, in alles wat noodig zoude weesen 't adsi„
+[single] Steven.
+[single] zien.
+== NL-HaNA_1.04.02_8572_0097 | #97 | sides: single | lines: 40
+[single] Van Sumatras Westcust den 25:' September 1767.
+[single] en of schoon zig onder de opgemelde 252 Comp:s Dienaaren me
+[single] e ziekelijk en swack bevonden, zonwier d egzer zoowelkz en sals bij
+[single] dse hoofding oordeels dat men met het osgemelde secorns nog genoem
+[single] in staat was, ierste onderneemen
+[single] Weshalven wij dan ook in dato 9=e maij Contris het advis vanden
+[single] onderkoopman Douglas bij resolutie van den 10=e g'inserveert, tot den be„
+[single] sluittraaden, om voor zoo verre het met Catsoen en sonder groot gevaar
+[single] geschieden konde van 'sE Comp„s waapenen een behoorlijk gebruik te maaken,
+[single] en dienvolgende de voorschreeve Inlandse Opperhoofden te versoeken met
+[single] hun volk ten eersten de Rijse na het district van kinalij aan te neemen,
+[single] al waar het noodige de Commissianten zoude werden aangeschreeven om
+[single] deese zaake met hun Lieden en den Hoofd Regent van Aijergattang nog
+[single] nader t overweegen; om te ondervinden, off menzig met gegronde reedenen
+[single] een goed succes soude kunnen belooven van eene en treprice op de Negorijen
+[single] Cotta Barro en awikoening en zoo Jaa, dat men als dan de Commissian„
+[single] ten zoude gelasten zonder tjdt verhum daar toe over te gaan, dog voor
+[single] al sorge te dragen voor de verzeekeringe onzer twee Posten en wel insonder„
+[single] heid voor die te sittoua, om de Communicatie daar meede niet te verlie„
+[single] sen, off den selven aan eenige overvompeling bloot te stellen, waartoe men
+[single] dezelve nog een Europeese Corporaal met 12. gemeene van hier zoude toe„
+[single] zenden
+[single] Dit een - en=ander dus vast gesteld en bij besluit van opgemelden
+[single] datum Largo beschreeven zijnde, zoo gaaven wij de Commissianten nog
+[single] dien selfden dag, door een Expresse daar van kennisse, en stelde voorts alle naars„
+[single] tigheid in't werk om de Inlandse Hoofden met hun volk bij een te krijgen ende
+[single] zelve te depecheeren, waarinne wij dan ook na verloop van weinige daagen ge„
+[single] „lukkig rousseerden, wanneer wij de Commissianten verder aanschreeven, dat
+[single] ze bij Executie van het voorsz: plan, hun best zoude doen om de voormelde
+[single] twee meijnige Neegorijen Cotta Beero en duwe koening zoo door 't vuur als't
+[single] zwaard tot de grond toe te slegten en te ruineeren en daaraan een zooda„
+[single] nig Exempel statueeren, dat de overige Negorijen door hetzelve tot in„
+[single] „keer en vraes voor vordere teegenstand mogten worden gebragt.
+[single] En alsoo wij ons niet voorstelden, dat die zaake zoo voorspoedig in
+[single] zijn werk zoude gaan, dat wij het geheele land door de waapenen zoude
+[single] kunnen 't onderbrongen, zoo beslooten wij de Commianten toe te senden
+[single] twee inlandse brieven, om deselve na eene geluckige roussitte van het
+[single] voormelde, aan de vijandelijke hoofden van kinalij en siboulouang te
+[single] laaten afgaan waar bij southan kinalij leevendig of dood opgeijscht,
+[single] Een.
+== NL-HaNA_1.04.02_8572_0098 | #98 | sides: single | lines: 39
+[single] Van Sumatras West Cust den 25 september A=o 1767.
+[single] ende ondernerping der onderdanen aan d' E Comp=e zoude gevordert worden
+[single] onder aanbiedinge vangenaade en vergeffenisse aan de gewilligen, met
+[single] protestatie teegens ulle verdere onheglen die bij hardneckigheid, hier uijt
+[single] zouden koomen 't ontstaan
+[single] off schoon wij gemelde Brieven nuwel in gereedheid lieten
+[single] brengen, en deselve Commissie nmissianten toesoenden met de
+[single] noodige ordres hoe dezenve zig vorder hier omtrent zouden gedraagen, zoo is egter
+[single] in =t vervorsg niet noodig g'oordeeld dezelve te Laaten ofgaan.
+[single] Middelerwijle ontfangen wij op den 17:' daar aan een brief van den
+[single] Luitenant Ian andries Seijbold en den Boekhouder P F: Forcaade ge„
+[single] datteert te sittoua den 13:' sevoorens waar bij deselve ons kennisse gaaven
+[single] dat den Luitenant en Hoofdder Expeditie Mauritssels op voorsz: datum
+[single] aldaar overleeden, en den eerstgemelden denzelven in het Commando
+[single] gesuccedeert was; en het zelve de beraamde Instructie Conform zijnde, zoo
+[single] bevestigden wij den selven ten eersten daarinne met reiteratie onzer„
+[single] afgegaane ordres en besluiten
+[single] In antwoord van dewelke wij in dato 5 Junij tijding van deselve er„
+[single] langden, dat de overgesonde 500 Coppen maleyjers met hunne voornoemde
+[single] Hoofden Eompleet aangekoomen en zij met dezelve geresolveert waaren, na
+[single] stellen
+[single] het seer van de noodige ordres omtrent de Post sittoua, den op toet na
+[single] kinalij te neemen, intussen arriveerde meede met eenige manschappen.
+[single] als den sulthan van Jndrapoura met intentie om zig bij de overige
+[single] geallieerdens in 't Landschap kinalij te begeeven, en is dezelve ook kort
+[single] daar op vertrokken.
+[single] Waarna wij op den 15 Junij door een brief van de Commissianten ge„
+[single] „dacteerd in het Leeger voor de Negorij Rambeijen 30: beroorens, de aange
+[single] naame tijding erlangden, dat zij op den 6=e deeser van sittoua opmarsch
+[single] gegaan endiendag nog voor de Negorije Cotta Baro gekoomen waaren
+[single] dog dat zij deselve bevonden verlaaten te zijn, eenelijk daarinne ontdec„
+[single] „kende, een atchiender die rig versorgen hadde, en naderhand bevonden
+[single] wierd een spien vankinalij tezijn, denwelken zij na eenige gedaane wraa„
+[single] gen noopensele weegen en zaaken van kinalij daar hij niet op antwoorden
+[single] wilde hadde doen onthoofden, zijn Lichaam aan de voeten Langs den
+[single] gemeenen weg ophangen en zijn hoofd op een Lange bamboes daar bij
+[single] stellen; en daar nade geheele Negorije tot de grond toe hadden Laaten
+[single] verbranden en ruineeren.
+[single] No. 9
+== NL-HaNA_1.04.02_8572_0099 | #99 | sides: single | lines: 38
+[single] Van Sumatras west Cust den 25 Septemb: 1767.
+[single] Na het welke de Commissianten van meening waare na volgens
+[single] ons plan den marsch te neemen na de negerij avrkoening, dog dewijl zig
+[single] daar omtrend verscheijde swaarigheeden op deeder, zoodesweegens de affge
+[single] leegentheid van die plaats de ongemakkelijkheid derweegenende verugte„
+[single] ring dat zulx inden opmarsch zoude veroorsaaken, het welke wij hier
+[single] niet voorsien konde, zoo waaren de Inlandse hoofden en wel insonderheid
+[single] den ManuCaboosen Affgesand van geveelen dat het, vrij het beste zoude
+[single] zijn, dat men de voorte na Rambanam, en vervolgens regelregt op
+[single] Hoofd Negorij kinalij losging, waar meede den Commandant seij„
+[single] bold zig Conformeerde, en dien volgende den marschop den 7:' naderweurs
+[single] aannam. —
+[single] Op denzelven ontmoeten zijdigt voor Ramba, eene wel bezette
+[single] Bentinck van radja Kinalij, dewelke den manuCaboosen afgeseent
+[single] met eene krijgslist vermeende te veroveren en rigderhalven met eenige
+[single] weijnige manschappen voor aff naderwaarts begaff, dog teegens zijne
+[single] verwagting niet alleen ressistentie vindende, maar ook door den Comman
+[single] dan't sij boed gezien zijnde dat hij voor goed g'attacqueerd wierd en reeds
+[single] een Paauwer innaame Radja Ambon swaar gequest was zoo vuk te
+[single] deselve ten eersten met zijn volk aan en hem ter zijde gekoomen zynde
+[single] op den vijand vuurende; zoo wierd ten eersten het opperhoofd van
+[single] gemelde Bentinck dood geschooten en verscheijde gequesten die
+[single] hier op alle hunne Bentinck verlieten, Ende vlucht naamen:
+[single] waar na den Commandant de gem: Bentinck lietsleijten en ver„
+[single] „branden en het hoofd van gemelden officier van kinalij, hebbende laaten
+[single] afkappen, zo liet hij hetzelve boven op een Lange Bamboes gestooken
+[single] zijnde stellen op het graf van den Broeder van Southan kinalijdigte
+[single] voor Ramba staande. —
+[single] Niet teegenstaande 'er door dit renEontre verscheijde van ons
+[single] volk beseer= waaren, Zo ve solveerde gemelde Commandant egter zonder tijd
+[single] versuijm opgemelde Negorije Los te gaan, alwaar hij eene sterke bewoonde
+[single] plaats ontdekte en rigrijkelijk volk Liettien om welke peeden hij een weinig
+[single] halte liet maaken, im de nog achter uitzijnde arthillerije in te wagten; naarri„
+[single] ve van dewelke hij dien zelfden nademiddag nog den vaandrig Timmerman
+[single] detacheerde om de negorije tattaqueeren, het eerste dat hij ontmoete was een sterk
+[single] bevelke benting, die hij in behoorlijk order attacqueerde, waar door een hee„
+[single] vigvuuren van weerszijden ontstond, het welke den Commandant sijbold
+[single] deed.
+== NL-HaNA_1.04.02_8572_0100 | #100 | sides: single | lines: 40
+[single] Van Sumatras west Cust den 25„en September 1767.
+[single] eever gem: vaandrig met enig volk en twee handmortieren te
+[single] hulp te koomen, den vijand dit ziende en vervolgens het effect daar van
+[single] gewooar werdende nam hals overk op de vlucht
+[single] Gemelde Bentiak hadderond som diepe gragten en was van binnen
+[single] Balken en planken bezet, men vond daar in eender in A„o
+[single] met
+[single] ne 2 ponders ijsere Canons en eenige knippel koegels, hebbende den
+[single] vijand de ervrige ligte waapenen Met zij genoomen.
+[single] Den volgende dag zond den Commandant wederom den veaandrig
+[single] Timmerman, met een goed Detachemirist na de Negorij Ramba en daar
+[single] selfs alles verlaaten vindende zoo vernielde en versvande gemelde vaandrig
+[single] alles wat daar stond, en bragt bij zijn reteur meede een van onse tjaar bevoo„
+[single] vens verloorene metaale 8 duijmers morthieven, een ijsere Rantack, en een
+[single] groot gedeelde Vee, met narigt dater ook nog wat Padij aldaar was, die
+[single] den Commandant ten eersten door de Bougineesen liet affhaal vervolgens
+[single] detacheerre dezelve meede de vaandrigs Filliander en Geeling ijder besonder
+[single] om te ve Cognoisseeren en de nog rondsom leggende kleijne Negorijen te
+[single] verbranden, ten eijnde om zig daar door een bequaame wegnakinaelij te
+[single] prepareeren en in die tusschen tij di't de tot dien optogt benoodigte ammu„
+[single] nitie Goederen, en Provisien van Pittoua te laaten afhaalen na het
+[single] wake de Commissianten geresolveert waaren, den opmarsch te ver„
+[single] volgen.
+[single] Over welke aangenaame tijding wij de Commissianten bij brief van
+[single] den 15 Juni ons bijz onder genoegen betuigden, onder verdere aanmoedigin„
+[single] ge en belofften, dat wij hunlieden met alle kracht en vermogens zou„
+[single] den ondersteunen: hier op off den 23=e daar aan ontfangen wij wederom
+[single] van dezelve een brieff gedatteert in het Leeger voor de Negorije songijpa hoe
+[single] den 20:' bevoorens, waar bij zij ons te kennen gaaven, dat zij door de onwil„
+[single] ligheid der maleijers van vorder op te trecken, genoodzaakt waaren geweest,
+[single] tot op den 19e bevoorens, voor Ramba te campeeren, en dat den Command=t
+[single] sijlotd, niet teegenstaande er wel de helfte van haar te ruggekeerd was, den
+[single] Laatsten den overrest parforce gedwongen hadde met S: E: Comp„s Trou„
+[single] pel op marsch te gaan, en zij alsoo niet sonder groote moeijte en arbeidtee„
+[single] gens sons ondergance voor gemelde Negorij g:' arriveert waaren.
+[single] Alwaar zij de geheele nacht door een ijzelijk geeschreeuw in't bosch
+[single] hadden gehoord terwijl er door den vijand uijt het zelve en op houdelijk
+[single] op hun geschooten wierd, sonder eenige schaade te veroorzaaken, dat zij
+[single] vervolgens.
+[single] deed resi

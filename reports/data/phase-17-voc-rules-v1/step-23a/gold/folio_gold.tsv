@@ -1,0 +1,241 @@
+item_id	inv	scan_id	scan_num	side_layout	status	number	left_number	beneath_number	note
+2047-0039	2047	NL-HaNA_1.04.02_2047_0039	39	single	number	12			
+2047-0049	2047	NL-HaNA_1.04.02_2047_0049	49	single	number	17			
+2047-0082	2047	NL-HaNA_1.04.02_2047_0082	82	single	none				
+2047-0143	2047	NL-HaNA_1.04.02_2047_0143	143	single	number	64			
+2047-0172	2047	NL-HaNA_1.04.02_2047_0172	172	single	none				
+2047-0327	2047	NL-HaNA_1.04.02_2047_0327	327	single	number	150			I'm not entirely sure, as it could be 110 as well, but 150 is more likely
+2047-0331	2047	NL-HaNA_1.04.02_2047_0331	331	single	number	152			
+2047-0396	2047	NL-HaNA_1.04.02_2047_0396	396	single	number	1			not sure, it could be a speck
+2047-0532	2047	NL-HaNA_1.04.02_2047_0532	532	single	none				
+2047-0581	2047	NL-HaNA_1.04.02_2047_0581	581	single	number	272			
+2282-0043	2282	NL-HaNA_1.04.02_2282_0043	43	single	number	1988			
+2282-0159	2282	NL-HaNA_1.04.02_2282_0159	159	single	number	2047			not sure, as the number 49 is written beneath is, so it might be a correction
+2282-0218	2282	NL-HaNA_1.04.02_2282_0218	218	single	none				
+2282-0315	2282	NL-HaNA_1.04.02_2282_0315	315	single	number	2125			207 is written beneath it but crossed out
+2282-0391	2282	NL-HaNA_1.04.02_2282_0391	391	single	number	2163			283 beneath it is crossed out
+2282-0527	2282	NL-HaNA_1.04.02_2282_0527	527	single	number	2231			419 (or 439) beneath it is crossed out
+2282-0588	2282	NL-HaNA_1.04.02_2282_0588	588	single	none				
+2282-0650	2282	NL-HaNA_1.04.02_2282_0650	650	single	none				
+2282-0908	2282	NL-HaNA_1.04.02_2282_0908	908	single	none				
+2282-0943	2282	NL-HaNA_1.04.02_2282_0943	943	single	number	2441			
+8029-0039	8029	NL-HaNA_1.04.02_8029_0039	39	single	number	25			
+8029-0139	8029	NL-HaNA_1.04.02_8029_0139	139	single	number	125			
+8029-0170	8029	NL-HaNA_1.04.02_8029_0170	170	single	none				
+8029-0188	8029	NL-HaNA_1.04.02_8029_0188	188	single	none				not sure if the number on the left of the main column is a page number, but probably not
+8029-0240	8029	NL-HaNA_1.04.02_8029_0240	240	single	none				
+8029-0258	8029	NL-HaNA_1.04.02_8029_0258	258	single	none				
+8029-0260	8029	NL-HaNA_1.04.02_8029_0260	260	single	none				
+8029-0268	8029	NL-HaNA_1.04.02_8029_0268	268	single	none				
+8029-0281	8029	NL-HaNA_1.04.02_8029_0281	281	single	number	255			
+8029-0352	8029	NL-HaNA_1.04.02_8029_0352	352	single	none				
+1723-0193	1723	NL-HaNA_1.04.02_1723_0193	193	single	none				
+1723-0212	1723	NL-HaNA_1.04.02_1723_0212	212	single	none				
+1723-0219	1723	NL-HaNA_1.04.02_1723_0219	219	single	none				
+1723-0275	1723	NL-HaNA_1.04.02_1723_0275	275	single	number	1184			
+1723-0284	1723	NL-HaNA_1.04.02_1723_0284	284	single	none				
+1723-0334	1723	NL-HaNA_1.04.02_1723_0334	334	single	none				
+1723-0358	1723	NL-HaNA_1.04.02_1723_0358	358	single	none				
+1723-0404	1723	NL-HaNA_1.04.02_1723_0404	404	single	none				
+1723-0528	1723	NL-HaNA_1.04.02_1723_0528	528	single	none				
+1723-0561	1723	NL-HaNA_1.04.02_1723_0561	561	single	number	1313			
+1556-0342	1556	NL-HaNA_1.04.02_1556_0342	342	single	none				
+1556-0504	1556	NL-HaNA_1.04.02_1556_0504	504	single	none				
+1556-0657	1556	NL-HaNA_1.04.02_1556_0657	657	single	none				
+1556-0695	1556	NL-HaNA_1.04.02_1556_0695	695	single	number	321			
+1556-0738	1556	NL-HaNA_1.04.02_1556_0738	738	single	none				
+1556-0870	1556	NL-HaNA_1.04.02_1556_0870	870	single	none				
+1556-1347	1556	NL-HaNA_1.04.02_1556_1347	1347	single	number	637			
+1556-1405	1556	NL-HaNA_1.04.02_1556_1405	1405	single	number	666			
+1556-1476	1556	NL-HaNA_1.04.02_1556_1476	1476	single	none				
+1556-1570	1556	NL-HaNA_1.04.02_1556_1570	1570	single	none				
+1631-0026	1631	NL-HaNA_1.04.02_1631_0026	26	openings	number	15			
+1631-0157	1631	NL-HaNA_1.04.02_1631_0157	157	openings	number	199			
+1631-0170	1631	NL-HaNA_1.04.02_1631_0170	170	openings	number	157			
+1631-0190	1631	NL-HaNA_1.04.02_1631_0190	190	openings	number	176			
+1631-0234	1631	NL-HaNA_1.04.02_1631_0234	234	openings	number	218			
+1631-0339	1631	NL-HaNA_1.04.02_1631_0339	339	openings	number	319			
+1631-0401	1631	NL-HaNA_1.04.02_1631_0401	401	openings	number	376			
+1631-0457	1631	NL-HaNA_1.04.02_1631_0457	457	openings	number	930			
+1631-0462	1631	NL-HaNA_1.04.02_1631_0462	462	openings	number	935			
+1631-0472	1631	NL-HaNA_1.04.02_1631_0472	472	openings	none				
+3260-0082	3260	NL-HaNA_1.04.02_3260_0082	82	single	none				
+3260-0188	3260	NL-HaNA_1.04.02_3260_0188	188	single	none				
+3260-0288	3260	NL-HaNA_1.04.02_3260_0288	288	single	none				
+3260-0336	3260	NL-HaNA_1.04.02_3260_0336	336	single	none				
+3260-0591	3260	NL-HaNA_1.04.02_3260_0591	591	single	number	543			
+3260-0694	3260	NL-HaNA_1.04.02_3260_0694	694	single	none				
+3260-0702	3260	NL-HaNA_1.04.02_3260_0702	702	single	none				
+3260-0741	3260	NL-HaNA_1.04.02_3260_0741	741	single	number	604			
+3260-0827	3260	NL-HaNA_1.04.02_3260_0827	827	single	number	635			
+3260-0933	3260	NL-HaNA_1.04.02_3260_0933	933	single	none				
+3793-0218	3793	NL-HaNA_1.04.02_3793_0218	218	single	none				
+3793-0309	3793	NL-HaNA_1.04.02_3793_0309	309	single	number	3661			
+3793-0477	3793	NL-HaNA_1.04.02_3793_0477	477	single	number	3115			Not sure that these are '1's. worth checking the previous and next 6-7 folio's
+3793-0591	3793	NL-HaNA_1.04.02_3793_0591	591	single	number	3153			
+3793-0614	3793	NL-HaNA_1.04.02_3793_0614	614	single	none				
+3793-0973	3793	NL-HaNA_1.04.02_3793_0973	973	single	none				
+3793-1070	3793	NL-HaNA_1.04.02_3793_1070	1070	single	none				
+3793-1080	3793	NL-HaNA_1.04.02_3793_1080	1080	single	none				
+3793-1105	3793	NL-HaNA_1.04.02_3793_1105	1105	single	number	3465			
+3793-1127	3793	NL-HaNA_1.04.02_3793_1127	1127	single	number	3474			
+4325-0066	4325	NL-HaNA_1.04.02_4325_0066	66	openings	number	450			
+4325-0116	4325	NL-HaNA_1.04.02_4325_0116	116	openings	number	489			
+4325-0266	4325	NL-HaNA_1.04.02_4325_0266	266	openings	none				
+4325-0290	4325	NL-HaNA_1.04.02_4325_0290	290	openings	none				I think the 404 in the top right corner is part of the table/list on that page
+4325-0320	4325	NL-HaNA_1.04.02_4325_0320	320	openings	none				
+4325-0333	4325	NL-HaNA_1.04.02_4325_0333	333	openings	number	675			
+4325-0335	4325	NL-HaNA_1.04.02_4325_0335	335	openings	number	676			
+4325-0371	4325	NL-HaNA_1.04.02_4325_0371	371	openings	number	701			
+4325-0439	4325	NL-HaNA_1.04.02_4325_0439	439	openings	none				
+4325-0491	4325	NL-HaNA_1.04.02_4325_0491	491	openings	none				
+2379-0186	2379	NL-HaNA_1.04.02_2379_0186	186	single	none				
+2379-0212	2379	NL-HaNA_1.04.02_2379_0212	212	single	none				
+2379-0254	2379	NL-HaNA_1.04.02_2379_0254	254	single	none				
+2379-0551	2379	NL-HaNA_1.04.02_2379_0551	551	single	number	519			
+2379-0763	2379	NL-HaNA_1.04.02_2379_0763	763	single	none				
+2379-1022	2379	NL-HaNA_1.04.02_2379_1022	1022	single	none				
+2379-1096	2379	NL-HaNA_1.04.02_2379_1096	1096	single	none				
+2379-1219	2379	NL-HaNA_1.04.02_2379_1219	1219	single	number	1173			again not sure about the '1's
+2379-1230	2379	NL-HaNA_1.04.02_2379_1230	1230	single	none				
+2379-1421	2379	NL-HaNA_1.04.02_2379_1421	1421	single	none				
+2538-0368	2538	NL-HaNA_1.04.02_2538_0368	368	single	none				
+2538-0396	2538	NL-HaNA_1.04.02_2538_0396	396	single	none				
+2538-0535	2538	NL-HaNA_1.04.02_2538_0535	535	single	number	487			not sure if that's a '4' or a '9'
+2538-0693	2538	NL-HaNA_1.04.02_2538_0693	693	single	number	643			again not sure it's '4' or '9'
+2538-1238	2538	NL-HaNA_1.04.02_2538_1238	1238	single	none				
+2538-1522	2538	NL-HaNA_1.04.02_2538_1522	1522	single	none				
+2538-1550	2538	NL-HaNA_1.04.02_2538_1550	1550	single	none				
+2538-1865	2538	NL-HaNA_1.04.02_2538_1865	1865	single	number	1813			
+2538-2142	2538	NL-HaNA_1.04.02_2538_2142	2142	single	none				
+2538-2147	2538	NL-HaNA_1.04.02_2538_2147	2147	single	number	2095			
+8466-0004	8466	NL-HaNA_1.04.02_8466_0004	4	single	none				
+8466-0037	8466	NL-HaNA_1.04.02_8466_0037	37	single	number	23			
+8466-0058	8466	NL-HaNA_1.04.02_8466_0058	58	single	none				
+8466-0113	8466	NL-HaNA_1.04.02_8466_0113	113	single	number	97			
+8466-0141	8466	NL-HaNA_1.04.02_8466_0141	141	single	number	118			
+8466-0160	8466	NL-HaNA_1.04.02_8466_0160	160	single	none				
+8466-0161	8466	NL-HaNA_1.04.02_8466_0161	161	single	number	136			
+8466-0187	8466	NL-HaNA_1.04.02_8466_0187	187	single	number	162			
+8466-0251	8466	NL-HaNA_1.04.02_8466_0251	251	single	number	39			
+8466-0273	8466	NL-HaNA_1.04.02_8466_0273	273	single	number	59			
+8813-0008	8813	NL-HaNA_1.04.02_8813_0008	8	single	none				
+8813-0103	8813	NL-HaNA_1.04.02_8813_0103	103	single	number	43			
+8813-0108	8813	NL-HaNA_1.04.02_8813_0108	108	single	none				
+8813-0128	8813	NL-HaNA_1.04.02_8813_0128	128	single	none				
+8813-0129	8813	NL-HaNA_1.04.02_8813_0129	129	single	number	56			
+8813-0138	8813	NL-HaNA_1.04.02_8813_0138	138	single	none				
+8813-0154	8813	NL-HaNA_1.04.02_8813_0154	154	single	none				
+8813-0290	8813	NL-HaNA_1.04.02_8813_0290	290	single	none				
+8813-0302	8813	NL-HaNA_1.04.02_8813_0302	302	single	none				
+8813-0421	8813	NL-HaNA_1.04.02_8813_0421	421	single	number	201			
+2487-0066	2487	NL-HaNA_1.04.02_2487_0066	66	single	none				
+2487-0075	2487	NL-HaNA_1.04.02_2487_0075	75	single	number	4657			
+2487-0216	2487	NL-HaNA_1.04.02_2487_0216	216	single	none				
+2487-0470	2487	NL-HaNA_1.04.02_2487_0470	470	single	none				
+2487-0644	2487	NL-HaNA_1.04.02_2487_0644	644	single	number	112			
+2487-0764	2487	NL-HaNA_1.04.02_2487_0764	764	single	none				
+2487-0806	2487	NL-HaNA_1.04.02_2487_0806	806	single	none				
+2487-0953	2487	NL-HaNA_1.04.02_2487_0953	953	single	number	5026			the number is very hard to read so I'm very uncertain. Also, there's a number on the left side of the page that is 1 higher than the number on the right side of the verso page, but I think these are not page numbers.
+2487-0984	2487	NL-HaNA_1.04.02_2487_0984	984	single	number	160			it's on the verso page, so not sure this is a page/folio number
+2487-0991	2487	NL-HaNA_1.04.02_2487_0991	991	single	number	5041			
+1081-0258	1081	NL-HaNA_1.04.02_1081_0258	258	single	none				
+1081-0297	1081	NL-HaNA_1.04.02_1081_0297	297	single	number	143			
+1081-0421	1081	NL-HaNA_1.04.02_1081_0421	421	single	number	202			
+1081-0510	1081	NL-HaNA_1.04.02_1081_0510	510	single	none				
+1081-0562	1081	NL-HaNA_1.04.02_1081_0562	562	single	none				
+1081-0650	1081	NL-HaNA_1.04.02_1081_0650	650	single	none				
+1081-0663	1081	NL-HaNA_1.04.02_1081_0663	663	single	none				
+1081-0692	1081	NL-HaNA_1.04.02_1081_0692	692	single	none				
+1081-0694	1081	NL-HaNA_1.04.02_1081_0694	694	single	none				
+1081-0754	1081	NL-HaNA_1.04.02_1081_0754	754	single	none				
+7694-0012	7694	NL-HaNA_1.04.02_7694_0012	12	single	none				
+7694-0029	7694	NL-HaNA_1.04.02_7694_0029	29	single	number	21			
+7694-0033	7694	NL-HaNA_1.04.02_7694_0033	33	single	number	25			
+7694-0067	7694	NL-HaNA_1.04.02_7694_0067	67	single	none				
+7694-0086	7694	NL-HaNA_1.04.02_7694_0086	86	single	none				
+7694-0098	7694	NL-HaNA_1.04.02_7694_0098	98	single	none				
+7694-0115	7694	NL-HaNA_1.04.02_7694_0115	115	single	number	31			
+7694-0118	7694	NL-HaNA_1.04.02_7694_0118	118	single	none				
+7694-0137	7694	NL-HaNA_1.04.02_7694_0137	137	single	number	57			
+7694-0140	7694	NL-HaNA_1.04.02_7694_0140	140	single	none				
+1390-0117	1390	NL-HaNA_1.04.02_1390_0117	117	single	none				
+1390-0154	1390	NL-HaNA_1.04.02_1390_0154	154	single	none				
+1390-0266	1390	NL-HaNA_1.04.02_1390_0266	266	single	none				
+1390-0267	1390	NL-HaNA_1.04.02_1390_0267	267	single	number	130			
+1390-0420	1390	NL-HaNA_1.04.02_1390_0420	420	single	none				
+1390-0738	1390	NL-HaNA_1.04.02_1390_0738	738	single	none				
+1390-0798	1390	NL-HaNA_1.04.02_1390_0798	798	single	none				
+1390-0873	1390	NL-HaNA_1.04.02_1390_0873	873	single	none				
+1390-0878	1390	NL-HaNA_1.04.02_1390_0878	878	single	none				
+1390-0916	1390	NL-HaNA_1.04.02_1390_0916	916	single	none				
+8840-0047	8840	NL-HaNA_1.04.02_8840_0047	47	single	number	39			
+8840-0074	8840	NL-HaNA_1.04.02_8840_0074	74	single	none				
+8840-0081	8840	NL-HaNA_1.04.02_8840_0081	81	single	number	73			
+8840-0125	8840	NL-HaNA_1.04.02_8840_0125	125	single	number	13			
+8840-0129	8840	NL-HaNA_1.04.02_8840_0129	129	single	number	16			actually it seems to say 16 and a half (1/2)
+8840-0151	8840	NL-HaNA_1.04.02_8840_0151	151	single	number	35			
+8840-0160	8840	NL-HaNA_1.04.02_8840_0160	160	single	none				
+8840-0161	8840	NL-HaNA_1.04.02_8840_0161	161	single	number	45			
+8840-0200	8840	NL-HaNA_1.04.02_8840_0200	200	single	none				
+8840-0228	8840	NL-HaNA_1.04.02_8840_0228	228	single	none				
+7978-0001	7978	NL-HaNA_1.04.02_7978_0001	1	single	none				
+7978-0018	7978	NL-HaNA_1.04.02_7978_0018	18	single	none				
+7978-0155	7978	NL-HaNA_1.04.02_7978_0155	155	single	number	195			
+7978-0191	7978	NL-HaNA_1.04.02_7978_0191	191	single	none				
+7978-0250	7978	NL-HaNA_1.04.02_7978_0250	250	single	number	44			
+7978-0267	7978	NL-HaNA_1.04.02_7978_0267	267	single	number	63			
+7978-0360	7978	NL-HaNA_1.04.02_7978_0360	360	single	number	4			
+7978-0409	7978	NL-HaNA_1.04.02_7978_0409	409	single	number	48			
+7978-0420	7978	NL-HaNA_1.04.02_7978_0420	420	single	none				
+7978-0426	7978	NL-HaNA_1.04.02_7978_0426	426	single	none				
+2167-0294	2167	NL-HaNA_1.04.02_2167_0294	294	single	none				
+2167-0631	2167	NL-HaNA_1.04.02_2167_0631	631	single	number	613			
+2167-0672	2167	NL-HaNA_1.04.02_2167_0672	672	single	none				
+2167-0708	2167	NL-HaNA_1.04.02_2167_0708	708	single	none				
+2167-0902	2167	NL-HaNA_1.04.02_2167_0902	902	single	none				
+2167-0927	2167	NL-HaNA_1.04.02_2167_0927	927	single	number	907			
+2167-1101	2167	NL-HaNA_1.04.02_2167_1101	1101	single	number	33			this is really unclear, as the first digit is overwritten by another. It's a 3 mixed with I think a 4, and I'm not sure which one is the last one. Check with surrounding folios
+2167-1120	2167	NL-HaNA_1.04.02_2167_1120	1120	single	none				
+2167-1139	2167	NL-HaNA_1.04.02_2167_1139	1139	single	number	69			
+2167-1481	2167	NL-HaNA_1.04.02_2167_1481	1481	single	number	415			again '4' could be a '9'
+8875-0020	8875	NL-HaNA_1.04.02_8875_0020	20	single	none				
+8875-0074	8875	NL-HaNA_1.04.02_8875_0074	74	single	none				
+8875-0190	8875	NL-HaNA_1.04.02_8875_0190	190	single	none				
+8875-0385	8875	NL-HaNA_1.04.02_8875_0385	385	single	number	377			
+8875-0420	8875	NL-HaNA_1.04.02_8875_0420	420	single	none				
+8875-0541	8875	NL-HaNA_1.04.02_8875_0541	541	single	number	533			
+8875-0543	8875	NL-HaNA_1.04.02_8875_0543	543	single	number	535			
+8875-0553	8875	NL-HaNA_1.04.02_8875_0553	553	single	number	545			
+8875-0664	8875	NL-HaNA_1.04.02_8875_0664	664	single	none				
+8875-0753	8875	NL-HaNA_1.04.02_8875_0753	753	single	number	743			
+1184-0010	1184	NL-HaNA_1.04.02_1184_0010	10	single	none				
+1184-0032	1184	NL-HaNA_1.04.02_1184_0032	32	single	none				
+1184-0058	1184	NL-HaNA_1.04.02_1184_0058	58	single	none				
+1184-0062	1184	NL-HaNA_1.04.02_1184_0062	62	single	none				
+1184-0274	1184	NL-HaNA_1.04.02_1184_0274	274	single	none				
+1184-0279	1184	NL-HaNA_1.04.02_1184_0279	279	single	number	135			
+1184-0420	1184	NL-HaNA_1.04.02_1184_0420	420	single	none				
+1184-0538	1184	NL-HaNA_1.04.02_1184_0538	538	single	none				
+1184-0650	1184	NL-HaNA_1.04.02_1184_0650	650	single	none				
+1184-0722	1184	NL-HaNA_1.04.02_1184_0722	722	single	none				
+2954-0017	2954	NL-HaNA_1.04.02_2954_0017	17	single	number	386			
+2954-0038	2954	NL-HaNA_1.04.02_2954_0038	38	single	none				
+2954-0347	2954	NL-HaNA_1.04.02_2954_0347	347	single	number	555			
+2954-0371	2954	NL-HaNA_1.04.02_2954_0371	371	single	number	567			
+2954-0393	2954	NL-HaNA_1.04.02_2954_0393	393	single	number	528			the 2 is uncertain
+2954-0407	2954	NL-HaNA_1.04.02_2954_0407	407	single	number	585			
+2954-0551	2954	NL-HaNA_1.04.02_2954_0551	551	single	number	656			
+2954-0642	2954	NL-HaNA_1.04.02_2954_0642	642	single	none				
+2954-0690	2954	NL-HaNA_1.04.02_2954_0690	690	single	none				
+2954-0799	2954	NL-HaNA_1.04.02_2954_0799	799	single	number	758			
+2222-0006	2222	NL-HaNA_1.04.02_2222_0006	6	openings	number	125			
+2222-0033	2222	NL-HaNA_1.04.02_2222_0033	33	openings	number	451			
+2222-0084	2222	NL-HaNA_1.04.02_2222_0084	84	openings	number	502			
+2222-0253	2222	NL-HaNA_1.04.02_2222_0253	253	openings	number	671			
+2222-0320	2222	NL-HaNA_1.04.02_2222_0320	320	openings	number	738			
+2222-0343	2222	NL-HaNA_1.04.02_2222_0343	343	openings	number	761			
+2222-0400	2222	NL-HaNA_1.04.02_2222_0400	400	openings	number	818			
+2222-0450	2222	NL-HaNA_1.04.02_2222_0450	450	openings	number	867			
+2222-0462	2222	NL-HaNA_1.04.02_2222_0462	462	openings	number	879			
+2222-0500	2222	NL-HaNA_1.04.02_2222_0500	500	openings	none				

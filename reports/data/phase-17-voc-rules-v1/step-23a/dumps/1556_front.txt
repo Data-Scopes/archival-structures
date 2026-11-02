@@ -1,0 +1,2720 @@
+== NL-HaNA_1.04.02_1556_0001 | #1 | sides: single | lines: 1
+[single] 2
+== NL-HaNA_1.04.02_1556_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1556_0003 | #3 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1556_0004 | #4 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1556_0005 | #5 | sides: single | lines: 6
+[single] Eerste
+[single] deel
+[single] No: 4.
+[single] Amboina
+[single] 5
+== NL-HaNA_1.04.02_1556_0006 | #6 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1556_0007 | #7 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1556_0008 | #8 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1556_0009 | #9 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1556_0010 | #10 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1556_0011 | #11 | sides: single | lines: 34
+[single] Amboina
+[single] Register der brieven en papieren
+[single] uijt de nevenstaende gewesten van
+[single] Jndien tot Batavia ontfangen
+[single] ende van daer met de retourvloot
+[single] hier te Lande overgebraght inden
+[single] Jaere 1695.
+[single] Banda
+[single] Ternaten
+[single] Macasser
+[single] Timor
+[single] Van Amboina
+[single] Register der papieren fo 1 a 1 verso
+[single] Copie missive door den Raet Extraordinaris en Gou„
+[single] verneur Nicolaes Schagen en den Raet in Amboina
+[single] aen den gouverneur Generael ende Raden van Indien
+[single] geschreven gedateert 12 October 1693. . . . . . . . . . . . . . - . „ 2 a 7 verso
+[single] Register der papieren - „ 8„9-
+[single] dito missive als vooren in dato 7 Maij 1694. . . . . . . „ 1 9 verso a 31 verso
+[single] Register der papieren - - - „ 32-
+[single] dito missive door den gouverneur schagen particu„
+[single] lier aen generael en Raden in dato als vooren „ 32 a 40 vers
+[single] Rapport vanden Coopman Pieter Roselaer wegens
+[single] de geextirpeerde Nagel en Nootebomen op Cambelle
+[single] en Colika in dato 31 October 1691. - . - - - - - - - - - - - . . „ 40 verso a 4. 4
+[single] Dito vanden Sergeant Evert Evertsz. Thuel nevens
+[single] eenige Orangkaijen wegens de omgevelde Noten en
+[single] Nagelbomen op diverse plaatsen in dato 12 februarij 1694 „ 41 a 43.
+[single] Dito vanden Coopman Romphius en den fiscael de Oock
+[single] nopende hun ondersoeck wegens parthije ondeckte nagel¬
+[single] bomen door de sergeanten Evert Thuel en Pieter Gale
+[single] h=re in dato 19 April 1694. . . . . . . . . . . . . . . . . . . . . . . . „ 43 a 45 vers
+[single] hea
+[single] G
+== NL-HaNA_1.04.02_1556_0012 | #12 | sides: single | lines: 34
+[single] Rapport vanden sergeant Michiel dolmaacker
+[single] en onderchirurgijn Andries Binneman behelsende
+[single] haere visite vanden Bergh Wawanij opt Landt
+[single] van Hila - - - - - - - - - - - - - - - - - - - - - f 45 verso a 48 verso
+[single] Register der negotie en handelboeckies vande provintie Amboina vanden
+[single] . - - - - - - - - - - - - - - - - - - - - „ 4. 8 verso a 49
+[single] Jaeren 1693 en 1694
+[single] ..
+[single] Register der papieren - - - - - - - - „ 49 a 50 verso
+[single] Copie missive door den Raet Extraordinaris en gou„
+[single] verneur Nicolaes Schagen en den Raet in Amboina
+[single] aenden gouverneur Generael ende Raden van Jndien
+[single] geschreven in dato 14 Junij 1694. . . . . . . . . . . . . . . „ 50 verso a 7 verso
+[single] Beschrijvinge van 's Comp s. nieuwe Sieckenhuijs
+[single] in Amboina - - - - - - - - - - - - - - - - - - - - - - - - - - - - „. 77 verso a 78 verso
+[single] Register der papieren - - - - - - - - - - - - - - - - - - - - - - - „ 78 verso
+[single] E
+[single] Copie missive vanden voorn: Gouverneur schagen en
+[single] den Raet in Amboina aen generael en Raden in
+[single] dato 28 Julij 1694. - - - - - - - - - - - - - - - - - - - - - - - - - - - - - „79a 83.
+[single] Dito missive als vooren in dato 24 Septembr. 1694. „83 a 84
+[single] Register der papieren - - - - - - - - - - - - - - - - „ 84 a 86 verso
+[single] Dito missive alsvooren in dato 30 septemb:r 1694. - . „ 86 verso a 13 verso
+[single] Rapport en een beright hoedanigh en op wat wijse een
+[single] nieuwe watermolen tot het maacken van buspoe„
+[single] der sal kunnen geextrueert werden aenden Rodenbergh „ 114. a 119 verso
+[single] Dagh register gehouden bij den sergeant Samuel
+[single] Jacobsz: wegens sijn verrighten in het verdistrue„
+[single] aen der Nagel en Nooteboomen op Assa Hoedij, Ollato
+[single] en Erangh. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . „ 119 verso a 122
+[single] Register der papieren - - „ 122 verso —
+[single] Copie missive vanden gouverneur schagen particulier
+[single] aen generael en Raden in dato 30 Septemb:r 1694. . „ 123 a 130 verso
+[single] Register der papieren- - - „ 131 a 131 verso
+== NL-HaNA_1.04.02_1556_0013 | #13 | sides: single | lines: 35
+[single] Copie missive vanden gemelte gouverneur
+[single] Schagen en den Raet in Amboina aen Generael
+[single] en Raden in dato 11 Octob:r 1694 fo 132 a 134 verso
+[single] Jnstructie van den Gouverneur Schagen voor het su„
+[single] baltern hooft tot Karoeko Joost van Costenobel, den
+[single] secrts: Ernst knipping en den Boeckhouder Pieter
+[single] Nuijts in haere Commissie nae de Zuijtkust van
+[single] Ceram Camarien &=a mede gegeven in dato 10 Octob 1694 „134 verso a 137. so
+[single] Copie missive doort Opperhooft Joost van Costenobel
+[single] tot Haroeko aenden meergenoemde Gouverneur
+[single] Schagen in Amboina gesz: in dato 11 Septb: 1694 „ 137 a 138.
+[single] Dito missive als vooren in dato 23 Septembr. - „138 verso
+[single] dito missive als vooren in dato 29 Septemb=r - „ 139 a 140 verso
+[single] dito missive als vooren in dato 6 Octob:r 1694 - - - - . . „ 140 verso a 141 verso
+[single] dito missive als vooren in dato 8 Octob:r. - - - - - - - „ 141 verso a 143.
+[single] Instructie vant voorn: Opperhooft Costenobel voor den
+[single] Corporael Anthonij Carnebroeck vertreckende nae
+[single] Camarien in dato 25 Septemb:r 1694. . . . . . . . . . . . . . . . . . „ 143 a 143 verso ho
+[single] Copie missive vanden Gouverneur Schagen parti„
+[single] culier aent gemelte opperhooft Costenobel tot
+[single] Haroeko in dato 29 Septemb:r 1694. . . . . . . . . . . . . . . . „ 143 verso a 144. verso
+[single] Dito missive als vooren in dato 7 Octob: 1694. - - . - . . „ 144 verso a 146.
+[single] Van Banda
+[single] Registers der papieren - - - - - - - - - - „ 147a 151.
+[single] Copie missive door den naet Extraordinaris en gouver„
+[single] neur Johannes Cops en den Raet tot Banda
+[single] aenden Gouverneur generael ende Raden van
+[single] Jndien geschreven gedateert ult=m aug=o 1694. . . . „ 151 verso a 188 8
+[single] 48 verso
+[single] a 49
+[single] vers0
+[single] 77 verso
+[single] 77
+[single] 22
+[single] verso
+== NL-HaNA_1.04.02_1556_0014 | #14 | sides: single | lines: 35
+[single] Memorie ofte Instructie door voorn: Gouverneur
+[single] Cops voor sijn vervanger den oppercoopman en pro„
+[single] visioneel gesaghebber Balthasar Coijet tot naeright
+[single] opgestelt in dato alsvooren fo. 188 a 229.
+[single] Jnstructie door de Reg: tot Banda opgestelt voor den
+[single] Coopman Isaacq weijns, den Onderkoopman Pieter de
+[single] knuijt en Boeckhouder Jan pompe tot naeright
+[single] in hunne Commissie nae de Zuijtwester Eijlanden
+[single] in dato 6 Julij 1694—. . . . . . . . . . . . . . . . . . . . . . . . / 229 a 239.
+[single] Rapport vanden voorn: Coopman weijns nopende sijn
+[single] ne verrightinge op de eijlanden wetter makisser,
+[single] Letij nica en damme in dato 24. Aug:o 1694. . . . . . . . . „. 239 a 244 verso
+[single] Twee ditos vanden Boeckhouder Jan Pompe wegens
+[single] sijne verrightinge op de Zuijt ooster en Zuijtwesten
+[single] Eijlanden in datis 24 en 29 Augustij 1694. . . . . . . . . . „ 244 verso a 262 verso
+[single] Instructie voor den Luijtenant Diedloff Bladt ver„
+[single] streckende nae de Eijlanden kisser Lethij en damme
+[single] tot sijn naeright mede gegeven in dato 27 aug:s 1694 „ 262 verso a 263 verso
+[single] Beright vanden Chirurgijn Gerrit van Baerle, wegens
+[single] seecker contract opt Eijlant; kisser gemaackt
+[single] tusschen den sergeant Thomas Thidens/ Radia backer
+[single] en eenige Timoresen in dato 9 Julij 1693. - - - - - - - - - „ 263 verso a 268.
+[single] Rapport van gecommitteerdens nopende de constitutie
+[single] van Comp, fortresse en andere gebouwen in banda
+[single] in dato 15 Junij 1694. . . . . . . . . . . . . . . . . . . . . . . . . . „ 268 a 278.
+[single] Register der papieren - - - - - - - - - - - - - - - - - - - - - - - - - - „ 278 a 280 verso
+[single] Copie missive door den provisioneel gesaghebber balt„
+[single] hasar Coijet en den Raet tot banda aen generael en
+[single] Raden geschreven in dato 29 Septemb:r 1694. - - - - „ 281 a 295 verso
+[single] Translaet Javaens brieffge van Radeen souder mauijt
+[single] Banda aen deselve . . . . . . . . . . . . . . . „ 295 verso a 296.
+[single] Rapport vanden luijtenant Diedloff bladt nopende desselfs
+[single] verrichtinge op d'eijlanden Makisser Lethij en damme
+[single] in dato 14. Septemb. r 1694. . . . . . . - - - - - - - - - - - - - - „ 296 verso 384.
+[single] E
+== NL-HaNA_1.04.02_1556_0015 | #15 | sides: single | lines: 36
+[single] Request der gesamentlijcke burgers in Banda aen„
+[single] den gouverneur generael ende Raden van Indien
+[single] gedateert 18 Septemb:r 1694 f. 304. a 306 verso
+[single] Van Ternaten
+[single] Registers der papieren - - - - - - - - - - - - - - - - - - - 307 a 308
+[single] Copie missive door den gouverneur Cornelis vander
+[single] duijn en den Raet in Ternate aen generael en raden
+[single] gesz: in dato 10 aug=o 1694. . . . . . . . . . . . . . . . . . . . . . . „ 308 verso 3 11 verso
+[single] Register der papieren - - - - - - - - - - - - - - - - - - - - - „ 31 verso a 314 verso
+[single] Dito missive als vooren in dato 27 augustij 1694. . . . . . „ 315 a 342.
+[single] Register der papieren - - - - - - - - - - - - - - - - - - - - - - - - - - - „ 342 a 344.
+[single] Dito missive als vooren in dato 21 Septemb:r 1694. . . . . „ 344 verso 355.
+[single] dito misssive alsvooren in dato 30 Septembr  355 a 356 verso
+[single] Register der papieren - - - - - - - - - - - - - - - - - - - „ 357 a 357 verso
+[single] Diverse Copie Translaet brieven door den gouverneur
+[single] Cornelis vander duijn in Ternaten aen verscheijde
+[single] Coningen, Princen en andere hoff grooten geschreven
+[single] met derselver antwoorden. . . . . . . . . - - - - - - - - - - „ 358 a 4. 00 verso
+[single] Translaet van een maleijts brieffge door de Coningen
+[single] van Tominij aen den Corporael tot Tontolij geschreven „/ 400 verso a 40 4
+[single] Drie ditos vande Coningen van Mangenitoes magon„
+[single] dos en Taboekans aen het Manados Opperhooft har¬
+[single] men Jansz: Steijnkuijler - - - - - - - - - - - - - - - - - - - - - „ 4. 01 a 405.
+[single] Translaet van een Maleijts geschrift vanden Sawohi
+[single] Adi aen den koninck van Ternaten - - - - - - - - - - - - - „ 405 a 406.
+[single] Dito van een brieff van den koninck van magondo
+[single] macoago aen het Opperhooft tot Manado- - - - - - - - - „ 406 verso a 487
+[single] dito vanden Babatos van Macquiam aanden Gouver„
+[single] neur Cornelis vander duijn in Ternate - - - - - - - „ 407 verso a 408
+[single] dito vanden koninck Toloko en de Ternaetse Rijcx„
+[single] grooten aenden voorn: Gouverneur vander duijn en raet 408 a 408 ver.
+[single] E
+[single] 263 verso
+[single] 8.
+[single] 4.
+[single] 30
+== NL-HaNA_1.04.02_1556_0016 | #16 | sides: single | lines: 32
+[single] Jnstructie van den gouverneur vander duijn en den
+[single] Raet voor den ondercoopman en secretaris Pieter
+[single] Alsteijn en vendrigh david Haeck tot naeright op hun¬
+[single] ne reijse nae mangindenao @nde mede gegeven. . . . f 408 verso a 415.
+[single] Rapport vanden voorn: secretaris Alstijn, en vendrigh
+[single] Haeck wegens haer verrightinge ter gemelte plaet¬
+[single] sen in dato 28 Maert 1694 - - - - - - „ 415 a 481 verso
+[single] Instructie voor den Onderkoopman Tobias Laps en
+[single] Sergeant Jacob kloeck op kunne voijagie nae de
+[single] eijlanden van bangaij ende mede gegeven in dato
+[single] 15 Junij 1694. . . . . . . . . . . . . . . . . . . . - - „ 481 verso a 485 verso
+[single] Rapport vanden voorn: Ondercoopman Lobs en ser¬
+[single] geant kloeck nopende haer verrichtinge ter
+[single] gemelte plaetsen in dato 6 septembr 1694 „486 a 500
+[single] Dito van den fiscael Jacob Claesz: wegens sijn
+[single] verrighten op Batchan ende Xullabesse eijlanden „ 500 a 504 verso
+[single] dito van den secretaris en ondercoopman pieter
+[single] Alsteijn 't geene op sijne voijagie nae manado
+[single] en is voorgevallen, mitsgaders 't geene wijders van
+[single] sijn doen en verrightinge aldaer geweest sij. . . - - „ 504. verso a 544.
+[single] Vier copie rapporten van gecommitteerdens nopen¬
+[single] de het extirperen der specerij bomen op de eijlan„
+[single] den Macquian Xullabessij Batchan @ - - . . . . . „ 544 a 550
+[single] 'T samentreckinge der omgevelde Noten en Nagelbomen
+[single] op gemelte plaetsen - - - - - - - - - - - - - - „ 550 a 550 verso
+[single] Drie kercklijcke rapporten vande predikanten
+[single] Cammiga, Stampioen en van Aken wegens den toe¬
+[single] stant der kercken en scholen op de eijlanden batchan,
+[single] macquiam, manado @. - - - - - - - - - - - - - - - - - - - „ 550 verso a 586.
+[single] Translaet maleijtse missive door den Coninck en rijcx
+[single] grooten van Ternate aen generael en raden geschreven 586 a 587 verso
+[single] dito missive van den koninck van Tidon aen deselve „58 verso 5 9 verso
+== NL-HaNA_1.04.02_1556_0017 | #17 | sides: single | lines: 34
+[single] Dito missive van den koninck van Batchan aen deselve f 589 verso 590 verso
+[single] dito missive vande Coninginne Falauw wede: vanden
+[single] Koninck Amsterdam aen deselve „ 590 verso a 591.
+[single] Dito missive vanden Princesse Gammalamma
+[single] aen deselve - - - „ 591 verso a 592.
+[single] Dito missive van den Ternaetsen Goegoegoemarasaolij
+[single] aenden directeur Generael Joan van Hoorn parti¬
+[single] culier. . . . . . . . - - - - - - - - - - - - - - - - - - - - - „592. a 593.
+[single] Van Macasser
+[single] Registers der papieren - - - - - - - - - - - - - - - - - - „ 594 a 597 verso
+[single] Copie missive bij't overleijden van den president francois
+[single] Prins door den Raet tot Macasser aenden gouverneur
+[single] generael ende Raden van Jndien geschreven in dato
+[single] 12 Maert 1694 . - - - - - - - - . . - - - - - - - - - - - - - - - „ 597 verso a 607 verso 3
+[single] Copie resolutie genomen bij den Raet tot Macasser
+[single] den 4. Maert 1694 overt bestier van saacken aldaer
+[single] naet overlijden van voorn: president Prins. . . . . . „ 607 verso a 609 verso
+[single] Translaet missive door den Coninck van Bouton aen„
+[single] den President prins geschreven met het antwoort
+[single] van deselve daer op . . . . . . . . . . . . . . . - - - 609 verso a 611.
+[single] Dito missive vanden koninck van Biema aen generael
+[single] en Raden. . . . - - - - - - - - - - - - - - - - - - - - - - - - - - „611 a 612 verso
+[single] Register der papieren - - - - - - - - - - „ 612 verso
+[single] Copie missive door den Raet tot Macasser aenden
+[single] generael ende Raden geschreven gedateert 24 april 1694 ƒ 613„616-
+[single] Rapport van den Ondercoopman Hendrick Berghuijsen
+[single] nopende sijne verrichtinge op Chinrana in dato 22
+[single] Maert 1694. . . - - - - - - - - - - - - - - - - - - - - - „ 616 â 618 verso
+[single] verso
+[single] verso
+[single] 135 verso
+[single] E
+[single] e
+== NL-HaNA_1.04.02_1556_0018 | #18 | sides: single | lines: 33
+[single] Copie missive door den Raet van Macasser aen den
+[single] generael en Raden in dato 7 Maij 1694. . . . . . . . . - - fo 618 verso a 620 verso
+[single] Register der papieren - - - - - - - - - - - - - - - - - - - - 620 verso a 621 verso
+[single] dito missive vanden Opperkoopman en provisioneel
+[single] gesaghebber Mattheus Schenckenbergh en den naet
+[single] tot macasser aen deselve in dato 3 Julij 1694. . . . . /622 a 632
+[single] Dito secrete missive door voorn: gesaghebber schencken,
+[single] bergh en den ondercoopman en sabandhaer Joannes
+[single] Junius aen deselve in dato als vooren „632 verso a 633:
+[single] Copie missive van gemelte schenckenbergh en den
+[single] Raet tot Macasser aen deselve in dato 12 Julij 1694 „633 verso a 636
+[single] Twee Copie rapporten van de Ondercoopluijden hen¬
+[single] drick Berghuijsen en Johannes Junius wegens
+[single] haere verrightinge omtrent Radja bonij in
+[single] Chucrana beijde gedateert 25 Junij 1694. - - - - - . . „ 636 a 642.
+[single] Kort relaes vande voorn: Ondercoopluijden berghuijsen
+[single] en Junius/ nopende het aenbrengen van seeckere
+[single] Vrouwe genaemt Simika van pekat wegens de saack
+[single] vande vermoorde koninginne van dompo in dato
+[single] 26 Maij 1694. . . . . . . . . . . . . . . . . . . . . . . . . . . . . „642 a 644
+[single] Register der papieren - - - - - - - - - - - - - - - - - - - - - „ 644 a 645.
+[single] Copie missive door den provisioneel gesaghebber
+[single] Mattheus Schenckenbergh en den raet tot macasser
+[single] aen generael en Raden gesz: in dato 3 Augustij 1694. . . 645 a 656
+[single] Dito secrete missive door en aen als vooren van den
+[single] selven datum. . . . . . . . . . . . . . . . . . . . . . . . . . . . . - . . „ 656 a 657 verso
+[single] Ordre en Jnstructie voor den onderkoopman hend:k berghuijsen
+[single] en Boeckhouder Christoffel Nootnagel op hunne voijagie
+[single] naer bima, dompo en Tambora tot naeright mede gege„
+[single] ven in dato 21 Julij 1694. - . . . . . . . . . . . . . . . . - - - - - - - - „ 657 verso a 659.
+[single] Rapport ofte bevindinge van eenige gecommitteerdens nopende
+[single] de te maackene wercken en reparatien die ten Castele rotten
+[single] dam nodigh vereijschen in dato 29 Junij 1694. - - - - - - – „ 659„ 662.
+== NL-HaNA_1.04.02_1556_0019 | #19 | sides: single | lines: 33
+[single] Register der papieren fo. 682 a 662 p
+[single] Copie missive door den provisioneel gesaghebber
+[single] Mattheus Schenckenbergh en den Raet tot Macasser
+[single] aen generael en Raden geschreven in dato 26 aug=o
+[single] 1694. - . - - - - - - - - - - - - - - - - - - - - - - - - - „663 a 672 verso
+[single] Verscheijde pointen door den Tolck Carreleso wegens
+[single] sijn hoogheijt Radja bomij aen den E. schenckenbergh
+[single] voorgestelt, met desselfs antwoort daer op . . . - . - . „ 672 verso a 675 verso
+[single] Nader pointen Radja bone ter harten gaende en door
+[single] gemelte Tolck Lesor aen als vooren voorgestelt 1675 verso a 677.
+[single] Translaet memorie van sijn hoogheijt Nadja bomij
+[single] door e gemelte Tolck aenden voorn: gesaghebber schenc¬
+[single] kenbergh ter handen gestelt - - - - - - - - - - „ 677 verso a 678
+[single] Register der papieren - - - - - - - - - - - - - - - - - - - - - - - - - „ 678 a 678 verso
+[single] Copie missive vanden provisioneel gesaghebber schenc„
+[single] kenbergh enden Raet tot Macasser aen Generael
+[single] en Raden gedateert 15 Septemb:r 1694. - - - „678 verso a683 verso
+[single] Register der papieren - - - - - - - „684.—
+[single] dito missive als vooren in dato 26 Septembr „ 684. verso a 6911 rso
+[single] Translaet briefge vanden Koninck van Bouton aen
+[single] gemelte gesaghebber en Raet tot Macasser . „691 a 691 verso
+[single] Eenige voornaeme pointen getrocken uijt het rapport
+[single] off daghregister vanden Corporael Joost Ebbe nopende
+[single] sijne verrichtinge tot bouton. . . . . . . . . . . . . . . . . . . „ 691 verso a 693
+[single] Copie missive vanden Ondercoopman berghuijsen en
+[single] den Boeckhouder Nootnagel tot Bima aen generael
+[single] en Raden in dato 16:' Septemb:r 1694. . . . . . . . . . . . . . . . . „ 693 verso a 6
+[single] Dito missive vande opperhoofden der schepen de groote
+[single] Visserij en Sillida seijlende aff en aende Oosthoeck
+[single] balij, aen deselve in dato 1 Octobr. 1694. - . . . . . - 1 695 verso 696
+[single] Register der papieren - - - - - - - - - - - - - - - - - „696 a 697.
+[single] 55
+[single] 6
+== NL-HaNA_1.04.02_1556_0020 | #20 | sides: single | lines: 30
+[single] Dito missive door den gesaghebber schenckenbergh en
+[single] den Raet tot macasser aen generael en Raden gesz:
+[single] in dato 18 Octob: 1694. . . . . . . . . . . . . . . . . f 697 a 609 verso
+[single] Register der papieren - - - - - - - - - - - - - - - - „ 710 a 710 verso
+[single] Rapport vande gecommitteerdens berghuijsen en
+[single] Nootnagel wegens hunne verrightinge tot bima,
+[single] dompo en Tambora in dato 7 Octob: 1694. . . . . . . . . . „ 710 verso a 715.
+[single] Confessie van twee door gemelte gecommitteerdens op„
+[single] gebraghte Tamboresen rondjo en Ambolo nopende de
+[single] door haer bij gewoonde moort aende koninginne van
+[single] dompo - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - „ 715 verso a 716 verso
+[single] Translaet missive vanden koninck van Dompo aen den
+[single] president Schenckenbergh tot Macasser - - - - - - „ 717 a 717 verso
+[single] Dito missive vanden Koninck van Tambora aen deselve / 717 verso a 720
+[single] dito missive vande rijcxgrooten tot bima aen deselve „729 a 721 verso
+[single] Dito missive van Radja bond aen Generael en Raden „ 721 vrsaa 722
+[single] dito missive van Radja Goa aen deselve - - - - - - - - - - - „722 ao= 723.
+[single] dito missive van Radja Tambora aen deselve . . . - „ 1723a 726.
+[single] Register der papieren - - - - - - - - - - - - - - - - - - - - - - „ 726 verso —
+[single] Copie missive vanden provisioneel gesaghebber
+[single] Schenckenbergh en den Raet tot Macasser aen gene„
+[single] rael en Raden in dato 27 Octob:r 1694 - - - - - - „ 727 a 729
+[single] Van Timor
+[single] Registers der papieren - - - - - - - - - - - - - - „ 730 a 732
+[single] Copie missive vanden Coopman en resident willem
+[single] Moerman enden Raet tot Timor aen generael
+[single] en Raden in dato 18 Julij 1694. . . . . . . . . . . . . . „ 732 a 765 verso
+[single] Translaet portugese missive door seeckere
+[single] Francisco Rebello de fonseca uijt Larentoequa
+[single] aen deselve //766.-
+== NL-HaNA_1.04.02_1556_0021 | #21 | sides: single | lines: 37
+[single] Translaet missive van 's Comp. s bondgenooten
+[single] op het Land van Timor aen deselve fo. 766 verso a 7 69 verso
+[single] dito missive vande Regenten van Rottij aen deselve 1769 verso a 7 verso
+[single] Translaet missive door de regenten van solor aen
+[single] generael en Raden geschreven - . . . . . . - - „771 verso a 772 verso
+[single] Dagelijcxe aenteeckeninge gehouden bij 't opperhooft
+[single] Willem Moerman vande voornaemste voorvallen
+[single] op sijne reijse nae rottij dauw savo ( 'tsedert
+[single] 16 Septemb: tot 25 Octob:r 1694 - - - - - - - - - - - - „ 773 a 796 verso
+[single] dito van den provisioneel Sergeant Laurens Lucasz
+[single] vant voorgevallene op't Eijlant Rottij. 797 a 803 verso
+[single] Rapport van den selven Sergeant Lucasz: wegens
+[single] sijne verrightinge op't eijlant Savo - - - - - - - - - „ 803 verso a 807.
+[single] Opgevingh door de volckeren vant eijlant dane,
+[single] hoedanigh sijluijden door den Termaensen
+[single] sadock op haer lant sijn overvallen en daer vervoert „ 807 a 809 verso
+[single] korte demonstratie vant Opperhooft Willem moer
+[single] man wegens gepleeghde onbehoorlijckheden bij
+[single] den boeckhouder en secunde willem de Have in
+[single] dato 17 Julij 1694. . . . . . . . . . . . . . . . . . . „ 809 verso a 8 18 verso
+[single] Twee stucx copie resolutien genomen in rade tot
+[single] Timor in datis Pmo. April en 17 Maij 1694, nopen:
+[single] den voorn: secunde de Have . f 818 verso 8 20 verso
+[single] Register der papieren - - - - - - - - - - - - - - - - - - „ 821 a 822.
+[single] Copie missive door den Resident Willem Moerman
+[single] tot Timor aen generael en Raden geschreven in
+[single] dato 2 Septemb=r 1694. . . . . . . . . . . . . . . . . . . / 822 a 831.
+[single] Dito missive vanden koninck van Coepan aen deselves 831 a 831 verso
+[single] Rapport van den Regent Tenedij van doucke wegens
+[single] de Rebellerende Chinesen op Rottij. . . . . . . . . . . . . . . . f 832 a 835 verso
+[single] Pas off ordre doort Opperhooft Moerman en Raet
+[single] op voorn: Regent Tenedij verleent . . . „ 836 a 836 verso
+[single] 9 verso
+[single] 71
+[single] 15.
+[single] 5
+== NL-HaNA_1.04.02_1556_0022 | #22 | sides: single | lines: 7
+[single] Twee Copie missiven vant gemelte Opperhooft
+[single] Moerman en Raet tot Timor aende Tolcken
+[single] op Rottij en Termane in datis 30 Julij en 12 Aug:s 694 f 836 verso a 838.
+[single] Translaet brieffge van den portugesen gesaghebber
+[single] tot Larentoeque francisco hornaij aen generael
+[single] en Raden in dato 8 Septembr 1694. - - - - - - - - - „ 838 a 839 verso
+[single] 2
+== NL-HaNA_1.04.02_1556_0023 | #23 | sides: single | lines: 43
+[single] Register der papieren die sed. t
+[single] p.mo feb. r 1694. tot 20. novemb. r daeraen
+[single] mo
+[single] 1
+[single] van amboinatot batavia ontfangen en
+[single] in desen voortvaderland ingesz. zijn —
+[single] gedateert
+[single] Ontfangen
+[single] 21. april p. r Julants
+[single] Briefje vande heer Extraord. s raad en gouv. r
+[single] vaert.
+[single] 169
+[single] Nicolaes schagen benevens den raad in ambon
+[single] 12. october
+[single] aen haer Ed: tot batavia gesz. de dato
+[single] -
+[single] 31. meij p. r t Jagt
+[single] d'andromeda
+[single] register der papieren
+[single] Missive van gemelte gouv. r en raad, aen ged:
+[single] haer Ed: de dato. . . . . . . . „ 7. Maij 1641
+[single] register tot de
+[single] apparte missive van voormelte gouv. r schagen aen als
+[single] „-„-
+[single] voren, de dato. -
+[single] -.
+[single] rapport door den Coopman pieter roselaer wegens de
+[single] g'extirpeerde nagel en note boomen op Cambello
+[single] en Callika da dato
+[single] Item vanden sergiant everts.  Thne nevens eenige
+[single] orangkaijen wegens de door haer op diverse
+[single] plaessen omgevelde note en nagelbomen de dato „ 12. feb. r 1690
+[single] Item vande Cooplieden g: humphius en p. r de bok
+[single] nopende hun ondersoek wegens parthije onbekte
+[single] nagelbomen, ontrent de serg.ten Evert Thue, —
+[single] pieter gale &:a de dato. . . . . . – „ 19. april
+[single] „ 31. Octobr.
+[single] rapport vanden serg. t michiel dolmaker, en
+[single] Andries binneman, onderchirurgijn, behelsende
+[single] hare visite vandenberg Ebawanij —
+[single] -
+[single] .
+[single] -
+== NL-HaNA_1.04.02_1556_0024 | #24 | sides: single | lines: 41
+[single] ontfangen
+[single] 3. Julij p. r de fluijt
+[single] thuijs te spijk
+[single] 11. aug. o p:r tfluijtje
+[single] de duijf
+[single] gedagtekent
+[single] register der Papieren
+[single] Missive vanden heer gouv. r schagen en den raad in
+[single] ambon aen haer Ed: tot batavia de dato. . . 14. Janu. 1694
+[single] .
+[single] beschrivinge van scomp.:s nieuwe siekenhuijs in Amboina
+[single] register der papieren
+[single] briefje vanden gouv. r Schagen en raad in Ambaia aen haer Ed: 28. Iulij—
+[single] F
+[single] 11. 8ber p. r Chineest. Item van en aen als voren
+[single] „ 24. 7ber
+[single] dato
+[single] 20.d. p=rs bootje de bril register der papieren
+[single] missive van voorm. gouv. r schagen en Raad aen haer Ed: dato vlt. o d. o
+[single] rapport en berigt nopende de voorgestelde nieuw te makene
+[single] kruijtmolen aenden rodenberg
+[single] dagregister gehouden by den Serge Sommel daniels  Jacobs
+[single] wegens sijn verrigten in't verdistrueren der nagel en
+[single] notebomen op assahoedij &:a
+[single] register der aparte papieren van de heerschagen
+[single] aparte missive van denselven aen haer Ed: tot batavia de dato —.
+[single] 27. d.o p r burger chial register der ontfange papieren
+[single] Missive vanden gouv. r schagen en raad aen haer Ed: de dato 11. october
+[single] Instructie doorden gem. gouv. r aen eenige gecommitt. s in
+[single] hare Commissie na de zuijd Cust van Ceram I. a
+[single] e
+[single] mede gegeven
+[single] Vyf stx: brieven van 't opperhooft Joost van Costenobel tot haroeko
+[single] aenden gouv. r schagen en raad nevens een Instructie van't
+[single] selve opperhooft voor den Corp:l a: Carrebroek tot naspeu„
+[single] ringe der gevlugte Inlanderen uijt de negorijen Camarien
+[single] en Siriwawang de dato 21. 23. 25. en 24. september
+[single] Mitsgaders 6. en 8. October 1694. —
+[single] twee d. os door den gouverneur schagen, aengemelte opper„
+[single] hooft tot haroeko de dato 27. 7ber en 7. october
+== NL-HaNA_1.04.02_1556_0025 | #25 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1556_0026 | #26 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1556_0027 | #27 | sides: single | lines: 26
+[single] Van Amboina den 12. en october 1693.
+[single] Batavia
+[single] Aan den Ho: Ed: here M. r
+[single] W: van outhoorn gouverneur
+[single] generaal, en d' Ed: heren
+[single] Raden van N. s India
+[single] ontfangen over Mmcasor
+[single] Ho: Ed:, Erntfeste, manhafte, wijse
+[single] p r Inlants vaertuijg
+[single] Voorsz: en seer discrete Heren
+[single] den 21en. april 1694.
+[single] Op den 4. deser alhier van Ternaten zijnde aengekomen
+[single] sekere vrijmans Chialoep vanden borger pieter Tides
+[single] heeft deselve ons toebragt, een missive vanden heer
+[single] gouv. r Cornelis vander duijn en den raad aldaer gedateert
+[single] den 18. september daer bevorens, en hebbende te bijlaeg
+[single] haer E. brief p. r 't Jagtje de grijpvogel op den 28. aug. o
+[single] deses Iaers aen uw HoEd: afgeveerdigt, waerin wij
+[single] gelesen hebbende gesupponeerde fouten, stellingen,
+[single] en sustenuen ten belange vande vaert door VHoEd:
+[single] aen de borgerije van amboina gunstig gepermitteert
+[single] na de Eijlanden van pulla en bangaij, mitsgaders
+[single] de passen gevolglijk bij ons daer op verleent, en 'tgeen
+[single] wijders daeraen dependeert, die nog met de waerheijt,
+[single] nog
+[single] 2
+== NL-HaNA_1.04.02_1556_0028 | #28 | sides: single | lines: 26
+[single] Van Amboina den 12. n october 1693.
+[single] nog met de reden konnen werden over een gebragt,
+[single] soo hebben wij ten Hoogsten nodig geoordeelt u ho: Ed:
+[single] te dienen van de Elicidatie op dit stuk vereijst,
+[single] en daer toe te verkiesen de weg van Macassar,
+[single] nademael onse borger vaertuijgen voor dit saijsoen direct
+[single] na batavia gedestineert, alrede sijn vertrocken, in
+[single] hope dat van daer misschien nog occagie soude konnen
+[single] voorvallen om desen tijdelijken aen VHo Ed: ter Hand
+[single] te laten komen. Het is dan sulx dat ingevolge van het
+[single] Voorsz: VHoEd: gedragen Consem, sig aen ons gead„
+[single] „dresseert heeft Ian Hansz: dijt oud Cap.:n der Jnlandse
+[single] burgerije, om een passedulle na de voors. z plaetsen,
+[single] voor een Chialoep groot 26. Lasten, mitsgaders een
+[single] gonting van 6. Lasten, die hem ook zijn gegeven, in
+[single] dato 28. n Meij en p. o Iunij beijde deses Iaers onder
+[single] opsigt van sekeren mexties borger genaemt Harmen
+[single] Pietersz. Eek, en wijders gemant met thien matrosen
+[single] bestaende in Mardijker en slaven, sonder eenige
+[single] amboniesen als dat volgens de oude ordre gebruijkelijk
+[single] d
+[single] is, hebbende de Equipanten ook belooft te sullen
+[single] responderen en instaen voor het Comportement vanden
+[single] voornoemden stuurman tot geenen anderen Eijnde
+[single] als
+== NL-HaNA_1.04.02_1556_0029 | #29 | sides: single | lines: 26
+[single] Amboina den 12. 'n Octob. r 1693.
+[single] Van
+[single] als om hunne gepermitteerden Handel daertoe te drijven,
+[single] gelijk dan ook in het eijnde vande selve passen, van woort
+[single] tot woort daer bij is gevoegt die Clansulen, waermede
+[single] alle onse buijtenlandse passen gaen verselt, van
+[single] namentlijk geene Jawanen, Balijers, Bimanesen,
+[single] Macassaren, ende diergelijke natien &.a herwaerts over
+[single] te mogen brengen.
+[single] op den 3. n aug. o is diergelijke passedulle verleent aen
+[single] den borger frans Colijn; onder het gesag van sekeren
+[single] Mardijker Hendrik Bardam, en eijndelijk op den 6:' deser
+[single] lopende maend aenden oud borger Cap. n Jochum Engel
+[single] onder 'tbevel van sekeren Ian Willems. van odenzeel
+[single] dewelke ook specialijk hebben aengenomen het gedrag
+[single] vande voorsz. Chiaelops hoofden na alle billikheijt
+[single] te sullen verantwoorden; en daerin HoEd: heeren bestaen
+[single] alle de passedullen die wij tot nog toe derwaerts zijn
+[single] gevergt off verleent hebben, sulx wij niet kunnen begrijpen,
+[single] waer het berigt op steunt, dat den heer gouv. r en raad
+[single] in Ternaten ontfangen hebben, van zekeren Chinees
+[single] soon frans Ians. gen. t, die op xulla bessij de pagt
+[single] der sterke dranken heeft, uijt het verhael van sekere twee
+[single] Matrosen genaemt salvadoor de Rijs, en Iacob van
+[single] Ternaten
+[single] 3
+== NL-HaNA_1.04.02_1556_0030 | #30 | sides: single | lines: 26
+[single] Van Amboina den 12. n October 1693.
+[single] Ternaten, als of 'er een heel groot getal ambonse
+[single] vaertuijgen dien oir uijt quamen, en dat in specie om
+[single] incoop van slaven, wax en schiltpatshoorn aldaer te doen
+[single] &. a gelijk vHoEd: dat omstandiger in de voors. Ternaetse
+[single] missive onder de materie van de xullas sullen tesen;
+[single] waeraen hoewel ons dunkt, dat reets te veel geloof
+[single] gedefereert zij; soo schijnen nogtans die vande gemelte
+[single] regeringe het selve nog eenigsints in twijffel te trecken
+[single] maer
+[single] en de nader bevinding gedefereert laten.
+[single] onder de stoffe van bangaij en Mandona, stellen haer
+[single] E: genoegsaem vast de waerheijt van een rappon haer
+[single] E:s bij missive vanden resid. t Corp. l tot Bangaij
+[single] vlt. o meij I. o leden toegebragt, dat namentlijk den
+[single] ambonsen borger S. r Jochum Engel. desen Iare met
+[single] een grote Chialoep tot Tanbocco was geweest, en
+[single] aldaer twee kleene stuckjes canon en eenig ander
+[single] schiet geweer voor 49. stx: lijfeijgenen verkoft hadde,
+[single] waertoe den voornoemde Jochum Engel nogtans in
+[single] die tijd geen licentie aen ons heeft versogt, nog ook
+[single] eenig vaertuijg 'tzij groot off kleijn, directelijk off
+[single] indirectelijk onses wetens derwaerts geschikt, maer
+[single] nu alleenlijk voor de eerste mael in dese lopende
+[single] maand als wij hier voren hebben aengehaelt,
+[single] aen
+== NL-HaNA_1.04.02_1556_0031 | #31 | sides: single | lines: 25
+[single] Van Amboina den 12. ' octob:r 1694.
+[single] aenwijsende hoe los en ongesondeert berigten van dat
+[single] belang werden ontfangen, en niet te min seer
+[single] positieff aen vHoEd: overgegeven, waeruijt nogtans
+[single] die vande meergemelte regeringe die consequentie
+[single] trecken van een sigtbare blijk vonde Hatelijkheijt
+[single] vandien handel, en het gene bij haer dienaengaende onder
+[single] de materie van xullabessij nader was gesustineert
+[single] en te kennen gegeven, wijders geresolveert hebbende
+[single] gecommitteerdens derwaerts te schicken, en ons na
+[single] uijtvonssinge van alles omstandiger te berigten,
+[single] waeruijt wij voor eerst niet anders konnen te
+[single] gemoet zien als een seer schadelijke Equipagie voor
+[single] die gene welke dese gunst voor de eerste mael
+[single] gebruijken, en die nog wij nog de regeringe van
+[single] Ternaten, voor als nog weten, dat door deselve met
+[single] eenige gepleegde verbode zaken soude gemeniteert
+[single] Wij sullen aen een zijde stellen de pretentie van
+[single] meergedagte Ternaetse regeringe van dat sodanige
+[single] passen bij haer E. versogt en niet directelijk door ons
+[single] souden mogen werden verleent, het welk bij VHoEEd:
+[single] soodanig begrepen zijnde geweest, twijffelen wij niet
+[single] of
+[single] zijn. —
+[single] -
+== NL-HaNA_1.04.02_1556_0032 | #32 | sides: single | lines: 23
+[single] Van Amboina den 12. ' Octob. r 1693.
+[single] of derselver ordre soude tot dien eijnde klaer en
+[single] uijtdruckelijk deswegen aen ons gegeven zijn geworden,
+[single] dog hoedanig VHoEd: dat zoude mogen begrijpen, daer
+[single] aen sullen wij ons int geheel onderwerpen: VHoEd
+[single] biddende dat ons mogen werden bekent gemaect, alle
+[single] de precautien die ons ontrent dese vaert. mitsgaders
+[single] het inbrengen van eenige slaven ofte andere goederen,
+[single] souden mogen te observeren staen, op dat wij onkundig
+[single] en onschuldig niet komen te pecceren tegen de ijverige
+[single] Concepten en Consideratien van onse naburen, daerwij
+[single] niet gaerne schuldig voorsouden staen, met
+[single] gevoelens en handelingen die den dienst vande E
+[single] Comp.  niet souden konnen lijden.
+[single] Wij hadden wel gewenscht dat de vrienden van
+[single] Terwaten de voorbarigheijt niet hadden gelieven te gebruijken
+[single] van tegen dese eerste en klene Equipagie sulken groten
+[single] allarm op te vatten, en de patientie hadden gehadt
+[single] om aff te wagten hoe sig de negotie en het Comporte„
+[single] „ment van dese borgervaert voor de eerste mael
+[single] soude toedragen, mitsgaders daervan voor aff waerag„
+[single] tige en gewisse informatien te nemen, welke
+[single] ons
+== NL-HaNA_1.04.02_1556_0033 | #33 | sides: single | lines: 22
+[single] Van Amboina den 12.:en october 1643:
+[single] ons ordentelijk toegekomen wesende, sonder
+[single] wij ook niet nalaten de reflectien daer op te
+[single] gebruijken en in't werk te stellen, die ons onse
+[single] pligt, en den dienst vande ECompagnie
+[single] souden komen op te leggen, gelijk wij ook in geene
+[single] dele sullen versuijmig zijn van met alle Exacti„
+[single] „tudie te laten ondersoeken, en den fiscael deser
+[single] provintie aenbevolen, na alle verboden slaven
+[single] en goederen, die de voorsz: vaertuijgen bij
+[single] haer retour alhier souden mogen tragten aen te
+[single] brengen, waermede bij aldien wij niet konnen
+[single] colstaen, soude het ons oirbaerder en wenschelijker
+[single] wesen, dat zodanigen vaert (die VHoog Edelens
+[single] nogtans met rijp overleg tot soulagement vande
+[single] ambonse borgerije gunstelijk hebben believen te
+[single] accorderen) in dese provintie niet wierde
+[single] gepractiseert, op dat wij de satelijke oordelen
+[single] en Censuren van anderen, daer door niet onder„
+[single] „worpen mag zijn.
+[single] Wij sullen ons niet Inlaten om verdere deductien
+[single] op
+== NL-HaNA_1.04.02_1556_0034 | #34 | sides: single | lines: 26
+[single] Van Amboina den 12. n octob. r 1694.
+[single] Heer
+[single] op dit subject tegens den gemelten
+[single] gouverneur en raad in Ternaten te formeren,
+[single] ons genoegende met de eenvoudige en
+[single] wanragtige en waeragtige openinge vande
+[single] passedullen bij ons verleent en de Conduite
+[single] daer ontrent bij ons gehouden, die wij ook
+[single] van onse schuldigheijt hebben geoordeelt VHoog
+[single] Edelens soo ras doenlijk mede te delen, zijnde
+[single] ons tot nog toe verder niets bekent; alleenlijk
+[single] sullen wij hier nog bijvoegen, dat wij tot twee
+[single] â drie malen van Chinesen zijn aengsproken
+[single] om passen na de xullas
+[single] te erlangen, maer
+[single] dewijle zij de Conditie die haer voor is
+[single] gehouden, van dat den Cap:n hunner Natie
+[single] -
+[single] alhier voor haer gedrag souden moeten
+[single] -
+[single] instaen, tot nog toe niet hebben voldaen is
+[single] haer die Licentie onverleent gebleven.
+[single] dese zijnde geschreven is daegs voorhet
+[single] af
+[single] -
+[single] -
+== NL-HaNA_1.04.02_1556_0035 | #35 | sides: single | lines: 21
+[single] Van Amboina den 12:en octob:r 1693
+[single] afgaen den 11. n deser wederom op de
+[single] rhede verschenen de voorgedagte Conting
+[single] van Capitain Ian Hanssen dji, relaterende
+[single] het volk daer op bescheijden dat neffens desselfs
+[single] chaloep te gelijk van Bangaij zijn vertrocken
+[single] dog onverrigter Negotie, welke hen wars
+[single] geweijgert ter oorsake dats geen passedulle
+[single] off licentie vande regering in Ternaten
+[single] hadden konnen vertonen. gelijk sulx ook op
+[single] den rug van onse passe, hoewel seer
+[single] onduijts, niet te min verstaenbaer genoeg
+[single] door sekeren Corporael genaemt Isaacq sluijter
+[single] staet geschreven, met de Chaloep souden
+[single] ontrent agt â thien ingekofte ofte geruijlde slaven
+[single] overkomen, sonder eenige andere wharen,
+[single] 'twelk bij desselfs komste en visite nader sal
+[single] blijken, waer uijt egter blijkt dit schijm te
+[single] Consteren, dat de voorschreven vaertuijgen haer
+[single] negotie alleen is belet op het manquement
+[single] van
+== NL-HaNA_1.04.02_1556_0036 | #36 | sides: single | lines: 22
+[single] Van Amboina den 12:n octob:r 1693.
+[single] van een Ternaetse passedulle, die Haer
+[single] (gelijk het ook teenemael vande weg en
+[single] tot grote schade en hinder van die vaert soude
+[single] strecken) door V Hoog Edelens aldaer te gaen
+[single] -
+[single] Talen niet is opgeleijd. rustende onse pas geving
+[single] op geen eijgen off aengematigt voorregt
+[single] Maer alleen op de authorisatie off permissie
+[single] (die niet zonder effect kan wesen)
+[single] door VHoog Edelens verleent, en
+[single] waer toe de vrienden in Ternaten self
+[single] eenkennen ordre van V Hoog Edelens
+[single] te hebben ontfangen, om ons borgers nn
+[single] billikheijt de hand te bieden. waer toe Haer
+[single] E. s dan geobligeert waren aen hunne Juppoosten
+[single] inde voors. Eijlanden ten eersten last
+[single] te geven, om derselver borgeren anders
+[single] anders onvermijdelijke schade en verloren
+[single] togten te prevenieren, gelijk dan de gemelte
+[single] frons
+== NL-HaNA_1.04.02_1556_0037 | #37 | sides: single | lines: 21
+[single] Van Amboina den 12. en Octob:r 1693. —
+[single] frans Colijn en Jochum Engel mede staet
+[single] te geschieden. Volgens het schrijven van
+[single] gemelte regering aen ons, hier nevens gaende,
+[single] souw de privative verleening van passen
+[single] bij haer E. maer alleen een sustenue wesen
+[single] met verdere verklaring van VHoog Edelen
+[single] dispositie daerop eerst te sullen aff wagten,
+[single] welken volgende wij gehoopt hadden, dat
+[single] de effective verhindering tot die tijd toe nog
+[single] soude hebben gesurcheert gebleven, dan het
+[single] rappor en schriftelijk bewijs van dese
+[single] geretourneerde gonting komt het
+[single] Contrarie aen te wijsen.
+[single] waer over wij
+[single] niet kunnen nalaten seer eerbiedig te
+[single] versoeken, dat tot remediering van de
+[single] geledene en voorkoming van verdere
+[single] schade onser borgeren op het spoedigste,
+[single] door VHo.: Edelens mag werden
+[single] voorsien
+== NL-HaNA_1.04.02_1556_0038 | #38 | sides: single | lines: 20
+[single] Van Amboina den 12. n octob=r 1693.
+[single] Hiermede Eijndigende sullen
+[single] voorsien.
+[single] wij den almogenden bidden voorden wel„
+[single] stant en prosperiteijt van VHo Ed:e
+[single] persoonen en regeringe en altijd verblijven
+[single] onderstan UHoog Edelens onderdanige
+[single] en gehoorsame dienaer was getekent
+[single] Schenkenbergh,
+[single] Nicolaas Schagen, Matth:s
+[single] Pieterschaffert, Rumphius. P: de bocq,
+[single] S: Btorm.
+[single] ter zijde san: de Copia vande
+[single] voorsz: Contings passedulle, sodanig als deselve
+[single] van woord tot woord luijd, met het gene
+[single] door den Corporael suijter op den rug is
+[single] getekent, gaet hier bij authenticq over. Lager
+[single] stam: Amboina aan't Casteel
+[single] victoria, den 12. en october 1693. —
+[single] Register
+== NL-HaNA_1.04.02_1556_0039 | #39 | sides: single | lines: 29
+[single] Van Amboina den 7. n Maij 1694. —
+[single] Batavia p=r
+[single] Register
+[single] Inlands Jagtje
+[single] d'andromeda.
+[single] N. o 1. Originele missive door de Ed. heer gouv. r en raad
+[single] deser provintie, dato deses aen haer Ho: Ed: gesz.
+[single] 2. een d. o vanden heer gouv. r N: Schagen aen haer HoEd:,
+[single] gaende in apart paque, in handen vanden schipper
+[single] 3. Copia d. o gesz. door der en aen als voren, p r 't Iagje
+[single] van Comp: e Ian tsjong over Macassar, in dato
+[single] 12en. october 1693.
+[single] 4. d. o d. o door als boven aenden E heer Cornelis van der
+[single] duijn en raad tot Ternaten geschreven gedagtekemt
+[single] 12. april 1694.—
+[single] 5. Copia van nog zeker pascedul in dato eersten
+[single] Iunij 1693. door den Ed Heer gouverneur en
+[single] raad deser provintie, aen harman pietersz. hek„
+[single] als hooft over de Chialoep van Cap. n Ian hans.:
+[single] dijt na bangij en xulla verleent, met het
+[single] geendosseerde vanden Corp. l tot Bangaij
+[single] Isaac sluijter, den 5. deptember daeraen
+[single] 6. d. o rappon door den sergiant evert Evertsz: thene
+[single] de orangkaijen poetij Iman, barnabe en
+[single] Tamatela Touassel, nevens boelawa moor
+[single] Loehoe, wegens tuijtroeijen van eenige wagel
+[single] en notebomen in dato 12. feb. ij 1694. aenden
+[single] Coopman
+[single] 8
+== NL-HaNA_1.04.02_1556_0040 | #40 | sides: single | lines: 29
+[single] Van Amboina den 3. ' Maij 1694.
+[single] dado
+[single] Coopman pieter roselaer
+[single] gedaan
+[single] N o 7. d o d. o door den Coopman mons. r Pieter Rooselaer
+[single] in dato 31. n October a. o 1691. (nopende eenige
+[single] omgebelde nagel en notebomen op Coo„ello
+[single] en Colika, beijde plaetsen op hoeamohel off
+[single] kleenceram) gedaen aende Ed:. heer gouverneur
+[single] 8. d. o d. o door de Cooplieden de messrs georgius everhardus
+[single] rumfius, en Pieter de bok, aen den Ed. heer gouv. r
+[single] behelsende hun ondersoek ontrent de sergianten
+[single] Evert Evert.  Theue, pieter gale, en Huijbert
+[single] van merendonk, nevens den sold. t Ian rolle
+[single] in dato 19. april 1694. gedaen
+[single] 9. d. o d. o door den Serg. t Michiel doemaker en den
+[single] Onderchirurgijn andries buneman aen als voren
+[single] gedaen wegens het visiteren vanden berg
+[single] wawanij op 't land Hitoe, onder datoe 22. en
+[single] maert 1694.
+[single] 10. request door Leeuwa radja, radja van Sha, en
+[single] Ticalauna orankaij van het dorp koelor, aende
+[single] Ed: heer gouv. r en raad deser provintie, gepresent:t
+[single] 11. twee p. s onderhandse actens van assopiatie getroffen
+[single] tusschen de Eerwaerde predicanten francois
+[single] „ vilingius
+[single] valentijn, en abrahamus „ nopende hun
+[single] verschil wegens sekere brief door den Laesten
+[single] aen
+== NL-HaNA_1.04.02_1556_0041 | #41 | sides: single | lines: 28
+[single] May 1694:
+[single] Van Amboina den 7
+[single] aen den eerstgen: gesz. onder dato ƒ4. —
+[single] Iauarij 1694.
+[single] N:o 12. een pacquet geslote en verselgelde papieren zijnde
+[single] 't originele proces door den Chinees quetsjong,
+[single] mu
+[single] als gemergt van zijn moeder Cautje tegens
+[single] de boedel redders vanden overleden Cap.n der
+[single] Chinesen queseenko gevoert, aen den schipper
+[single] behandigt.
+[single] 13. factura. .
+[single] 14. Cognoissement en ( van 't Iagje dandromeda
+[single] 15. oncoste reecq. . . .
+[single] 16. een totombo waerin eenige tacken Coninx nagelen
+[single] zijn, nevens
+[single] 17. een versegel kasje met de geslotene ambonse negotie
+[single] boeken volgens het register daervan zijnde
+[single] beijde in handen vanden schipper
+[single] gerrit koster
+[single] --
+[single] Amboina aan't Casteel victoria
+[single] den 7e. Maij
+[single] was
+[single] 1694.
+[single] getekend= Jan Corijn secretaris. —
+[single] Ntss.
+[single] E
+== NL-HaNA_1.04.02_1556_0042 | #42 | sides: single | lines: 28
+[single] Van Amboina den 7. ' Maij 1693..
+[single] ontfangene brieven
+[single] en schepen
+[single] Batavia
+[single] Aan den Ho: Here
+[single] W: van outhoorn gouverneur
+[single] generaal, mitsgaders d' Ed:
+[single] Heren Raden van India
+[single] Ho: Ed: Erntfeste, Agtb:„, Manhafte,
+[single] welwijse, voorsz:, genereuse Herec#
+[single] p. r tagje d'andremeda
+[single] ontfangen den 31. may 1694.
+[single] De brieven sed. e onse Iongste depesches in het voorleden
+[single] Iaer successivelijk van HoEd: ontfangen zijn geweest.
+[single] Vanden 16. October 1693. hebbende tot bijlaeg een Copia
+[single] d. o van 8. d. o na macassar afgegaen, p. r een Chinese
+[single] Chialoep den Laesten december overgebragt van den
+[single] vanden 19. en december p. r het Inlants Iagje de Andromeda
+[single] den 16. Januarij 1694.
+[single] vanden 12. maert met het fuijtge bronste, den 16.e' april
+[single] 1694. en
+[single] vanden 23. februarij per de sluijt thuijs te spijk op den 17. en
+[single] april deses Iaers.
+[single] waeruijt VHoEd: sien dat voorn. bronstee een boven
+[single] verwagtinge spoedige en daer en tegens, het huijs te spijk,
+[single] een vrije lange reijs heeft gemaekt, dog de Eere zij
+[single] gedankt dat ons alle die bodem met hunne ladinge
+[single] behouden
+== NL-HaNA_1.04.02_1556_0043 | #43 | sides: single | lines: 33
+[single] 10
+[single] Van Amboina den 7. Maij 1694.
+[single] d'andromeda na
+[single] boura
+[single] vreugde tekenen op de
+[single] pondecherij volbragt
+[single] behouden zijn toegekomen
+[single] de fluijt Cronenburg door VHo Ed: na Ternaten gedestineert„
+[single] is op den 26. maert bij't Eijland Camboina van thuijs te soois als in banda
+[single] spijk afgeraekt, en na de ordvisen die wij van banda
+[single] hebben, zijn daer ook in salvo gearriveert het Iagt Meydregt,
+[single] en het bootje de duijf, gelijk wij ook niet en twijffelen aen
+[single] hendrik maurits, op den 4. april alhier digt voor bij
+[single] larique gepasseert.
+[single] de andromeda hebben wij dewijle daer tijds genoeg toe
+[single] was, ten eersten een tegtge na bouro tot ophaling van
+[single] houtwerken &. a laten doen, en wijders na de andere
+[single] buijten Comtoiren gesonden tot het Innemen vande nagelen,
+[single] soo van het Iongste gewasch, als het restant van des Iairs
+[single] bevorens op haroeko verbleven, zijnde van hier tot dien
+[single] eijnde vertrocken op den 14. en Maert met eenige pro„
+[single] visien en den 15. ' april op dese rhede geretourneert,
+[single] om zijn volle ladinge hebbende gekregen, soo vroeg
+[single] als doenlijk is wederom tot VHoEd: te werden
+[single] afgeschikt
+[single] de solemnele danksegginge inde kerke benevens het
+[single] losbranden van het Canon ter oorsaken van het Conques„ overwinning van
+[single] teren door Comp. s wapenen vande franse vestinge
+[single] pondecherij op de Cust Chormandel is aen dese Hooft
+[single] residentie en op de rhede, behoorlijk volbragt wij
+[single] konnen net nalaten uHo Ed: met die overwinninge
+[single] eerbiediglijk
+== NL-HaNA_1.04.02_1556_0044 | #44 | sides: single | lines: 29
+[single] Van Amboina den 7. ' Maij 1694.
+[single] gepasseerde saken
+[single] het doen vande Hongij
+[single] wat tijd
+[single] verbiedelijk te feliciteren, met wensch dat den
+[single] almogende soolanghet van zijn aenbiddelijke wille
+[single] sal wesen, onsen staet in dien swaren oorlog te laten nog
+[single] verder avantagie aende E Comp. e wil verlenen
+[single] de Ordres in VHoEdbrieven vervat, die ten eersten voort
+[single] ordres die volb. s zijn gang hebben konnen nemen, zijn behoorlijk in't walk
+[single] gestelt, gelijk ook na schuldige pligt te zijner tijd zal
+[single] geschieden met het gene vHoEd: wijders hebben gelieven
+[single] te gelasten en te recommanderen. Ondertusschen sullen
+[single] communicatie van wij VHoEd: bij desen onderdanig mede delen de voornaemste
+[single] saken in dit gouvernement voor gevallen reserverende
+[single] de beantwoordinge van VHoEd: brieven ten naesten
+[single] voor soo veel deselve hier in niet mogte zijn geschiet
+[single] de Hongij off scheptogt met de generale Corre Corre
+[single] vloot deser provintie heeft op den 19. n october 1693. voortgang
+[single] genomen, wanneer den gouv. r een weijnig beterschap
+[single] in zijn quale hebbende erlangt van hier met deselve is
+[single] afgesteken, ten getale van 58. stx. soo grote als
+[single] eenige mindere van de Cust van Ceram. op Larique
+[single] is de voors.  vloot verdeelt in tween, om dat eijland
+[single] aen weerkanten te visiteren, en daer op de Landtogten
+[single] te doen tot opsoekinge en vernielienge vande schadelijke
+[single] en afgekeurde specerij plantagien, sodanig als vBoed
+[single] bij hare geeerde missive van den 28. februarij 1693
+[single] hebben
+== NL-HaNA_1.04.02_1556_0045 | #45 | sides: single | lines: 30
+[single] Van Amboina den 7. ' Maij 1694.
+[single] met hoe veel man
+[single] hebben geordonneert zijnde over d' eene helft als hooft
+[single] gestelt den fiscael pieter de bok met ordre om het en Hoedanig
+[single] Comtoir van boero en manipa voor af te visiteren, en
+[single] dan wijders na Batuwe te scheppen, en het andere deel,
+[single] onder den gouv. r verbleven om over de Cust van sitoe
+[single] na de zuijdkamt van Cerom te gaen, waer onder meest
+[single] alle de Corcoreren van, die negorij zijn geweest, die den
+[single] gouv. r moest aendoen om de orancaijen off Inlandse hoofden,
+[single] van d. o plaetsen bij de visite konnen present hebben. - den
+[single] boekhouder pieter nuijts is voor uijt gesonden geworden
+[single] na Cerams noord Cust, om de alteratie voor te komen
+[single] die door de aenstaende Landtogt soude konnen werden
+[single] veroorsaekt, en met eenen bequame gitsen en
+[single] wegwijsers tot het opspeuren van specerij bomen te
+[single] versorgen, gelijk ook met een assistent en een Comp. le
+[single] in die gewesten bedreven op de zuijdkamt is geschiet
+[single] en sijn wij met beijde de partijen op hebbende tesamen schap
+[single] 4126. Inlanderen en 156. Europische Militairen,
+[single] behalven de ordinaire wagt vanden gouv. r ontrent
+[single] op deselve tijd soo inde bogt van Haija als die van
+[single] hatuwe aengelandt en staet geweest om de voors.
+[single] landtogten in't werk te stellen
+[single] Om deselve te Commanderen, is aende N:t zijde
+[single] geemploijeert geworden den vendrig Hans Metsler
+[single] 11
+[single] -
+[single] en
+== NL-HaNA_1.04.02_1556_0046 | #46 | sides: single | lines: 34
+[single] Van Amboina den 7:' Maij 1694.
+[single] bevondene specerij bonen
+[single] geschept soo ten n: als
+[single] z: van Ceram
+[single] en aende Z. t den serg. t Michiel doemaker, dewelke
+[single] met haer bijhebbende militairen soo op berigt van
+[single] eenige wegwijsers, als met eijgen toegsigt en vlijt
+[single] soo veel ondersoek en naspeuring van Schadelijke
+[single] en afgekeurde specerij bomen hebben gedaen, als die
+[single] woeste en grote gebergtens doenlijk is geweest, dog zijn
+[single] op de zuijdkant ter plaetse waer over dese visite heeft
+[single] gegaen, niet meer bevonden als het volgende getal
+[single] van note bomen, te weten
+[single] vrugtdra, half w:, Ionge
+[single] -
+[single] bomen 256„ 78, 37.
+[single] ontrent tammelauw. . ..
+[single] .
+[single] tusschen Tammelauw en Taija —
+[single] „ 23„ 17„ —.
+[single] bij de revier genaemt satoe.
+[single] .
+[single] tesamen bomen „ 279„ 95„ 37.—
+[single] De Correcorren zijn wedersijts eerst geschept tot de
+[single] de uijtterste palen, hoever inde bogten van Saija en Hatuwe, recognoscerende en
+[single] passamt de gelegenth. t der rhede en Legplaetsen, welke
+[single] doorgaens niet vande beste zijn, en met aenlandinge
+[single] winden gevaerlijk om te leggen, van daer aff zijnde
+[single] landtogten resp: begonnen, begrijpende aldus de uijtterste
+[single] Landstreken, die uw Ho Ed: hebben believen aen te wijsen,
+[single] en nog meer dewijl Haija nog wel ontrent 6. mijlen
+[single] oostelijker Leijt als tammelauw, zijnde de negorije
+[single] off plaetse die middelouw soude genaemt wesen niet
+[single] gevonden
+== NL-HaNA_1.04.02_1556_0047 | #47 | sides: single | lines: 31
+[single] 12
+[single] Van Amboina den 7:'n Maij 1694.
+[single] den Coopman rooselaer
+[single] met den gouverneur
+[single] van haija geweest
+[single] dorpelingen
+[single] gevonden nog bij de Inlanderen bekent.
+[single] den gouv. r schagen hebbende tot zijn geselschap en
+[single] assistentie, en om bij bij verslimmering van zijn indispositie
+[single] de nodigste saken vande Togt door denselven te laten
+[single] verrigten van Hila mede genomen den Coopman pieter
+[single] roselaer, is personelijk tot inde Laest gen. bogt met vijff
+[single] Corcorren geweest, terwijl ondertusschen den Serg=et
+[single] doemaker tot dien eijnde door zijn E: geauthoriseert, is selfs tot inde bogt
+[single] voor de eerstemael op hammilauw met nog 4. sergianten
+[single] 9. Corp.ls en 63. schilder gasten, mitsgaders ontrent 750.—
+[single] Inlanderen met bijlen, parrings, wapenen en kost voor
+[single] sien boswaert inging, hebbende zijnE: selff de dorpelingen
+[single] van Haija ondervraegt na de specerij bomen die in off
+[single] Ontrent hare Landen mogten bevonden werden, dog
+[single] hebben deselve haer deswegen seer onkundig getoont,
+[single] en daerbij met een grote vrijmoedigheijt gepersisteert;
+[single] seggende selfs de wegen in't gebergte niet te kennen het voorgeven van die
+[single] nog te konnen aenwijsen, alzoo sij gewoon waren
+[single] altije aen strant huijs te houden, met de bergvolkeren
+[single] met angingen, en haer alleen met een smal handeltjen
+[single] over zee behielpen. Bij de visite gevolge. aldaer
+[single] gedaen, is ook niets bevonden en uijt alle Omstandigheden
+[single] niet konnen geoordeelt werden, dat de voors. Inlan„
+[single] deren van saija misleijding off bedrog daermede
+[single] hebben
+== NL-HaNA_1.04.02_1556_0048 | #48 | sides: single | lines: 37
+[single] Van Amboina den 7. ' Maij 1694.
+[single] ten gemaekt
+[single] bevonden en uijtgeroeijde
+[single] specerij bomen
+[single] hebben voorgehade
+[single] de Landtogten, daer aldus tot familau en inde bogt van
+[single] wanneer en waerom een dija op den Laesten October mede begonnen was, zijn op den
+[single] eijnde van die Landtog 18. november daer aen geijndigt tot amaheij in Chuijs,
+[single] wanneer de ongemacken van quade en beschadigde
+[single] benen mitsgaders de pessing onder de Europianen
+[single] en zoo mede benevens schaersheijt van provisien onder
+[single] de Inlanderen, beginnende toe te nemen, en het Zaijsoen
+[single] ten eijnde te lopen, de Correcorren onder den Serg. t
+[single] doemaker gelaten 27. stx: nu getal, wederom na
+[single] hunne negorijen zijn gedemitteert, zijnde alles met een
+[single] goede ordre en genoegen vande Inlanderen toegegaen; gelijk
+[single] wij ook niet anderskonnen vernemen, als dat aende 1: zijde
+[single] sodanig mede is geschiet, alwaer men mede inde
+[single] bogt van Hatuwe op de oostelijkste plaets heeft begonnen
+[single] de Landvisite te doen, en zoo verders afgesact is, tot
+[single] piroe p.lo Tkos, sonder op eenige plaetsen noten off nagebomen
+[single] 't zij groot off kleijn te vinden als alleen
+[single] vruged. halfw: Ionge
+[single] Nagelbomen
+[single] op de klip batoeloko - - - - - bomen — „ — „ 1.
+[single] bij de revier Sama - - - - - - - - „ —„ 1„ 100.
+[single] 10. oude note
+[single] bijde negorij wansoelij . . . . . „ 6„ 8„ 19.
+[single] bomen
+[single] 10„ 2„ 145.
+[single] bij de berg Taporma --
+[single] „
+[single] Cn
+[single] tesamen bomen
+[single] „ 16„ 11„ 265. 10. -
+[single] verklaerde
+[single] .
+== NL-HaNA_1.04.02_1556_0049 | #49 | sides: single | lines: 31
+[single] 13
+[single] Van Amboina den 7. ' Maij 17694.
+[single] werd wijders gereserv.t
+[single] aen de dagregister
+[single] Verklarende en betuijgende de Inlanderen almede,
+[single] dat haer van gene specerijbomen meer was bewust, en
+[single] aen de onse zijn ook vande beste ondersoeking en door kruijs„
+[single] sing vande Landen diese, na gelegentheijt der plaetsen
+[single] hebben konnen in't werk stellen, geen diergelijk plantagie
+[single] off tekenen van deselve te voren gkomen. van alle 'twelke
+[single] „onnodige
+[single] wij HoEd: eerbiedig versoeken om „ eerbiedige prolixiteijt
+[single] te vermeijden, dat deselve haer omstandiger gelieven te laten
+[single] informeren door de dagregisters en rapporten bij desen
+[single] overgaende, en dese togt betreffende, soo bij den gouvern. r
+[single] als den fiscael de bok, en onder deselve door den vend d er
+[single] Metseler boekhouder nuijts en serg. t Michiel Doemaker
+[single] gehouden, die zoo verre deselve hebben konnen ervaren,
+[single] de namen der Contreijen rivieren, bergen &a hebben aenge„
+[single] „tekent en gedistingueert
+[single] of nu uijt zoodanigen ondersoek en bevinding soude
+[single] mogen worden besloten, dan in off ontrent die Landstreke, Consideratien daer op
+[single] geen verboden specerijbomen meer souden schuijlen, daer
+[single] souden wij seer aen twijffelen, maer dit schijter evenwel
+[single] uijt te moeten werden geoordeelt, dat de Inlanderen
+[single] van dat gewest haer werk vande plantagie niet seer
+[single] maken, waer van de effecten off tekenen om en bij
+[single] off ten minsten niet verre vande strandt negorijen,
+[single] soude moeten werden gevonden.
+[single] Indien het van VHoEd: believen is dat wij inde volgende
+[single] Hongijs
+== NL-HaNA_1.04.02_1556_0050 | #50 | sides: single | lines: 34
+[single] Van Amboina den 7. ' Maij 1694.
+[single] of niet beter soude
+[single] wesen direct de verdagte
+[single] plaetsen aen te doen
+[single] specerijbomen naderh. t
+[single] op kambeloe
+[single] gevonden
+[single] Hongijs met zoodanige land visite soodaer als op andere
+[single] plaetsen Continueren, sullen wij niet nalaten, soo veel
+[single] neerstigheijt en induskrie daer toe te besteden, als ons doenlijk
+[single] sal wesen, maer dewijl het Eijland Ceram zoo groot, woest
+[single] en onbegaen is, en daer en boven in sig self afgesneden
+[single] doo soovele en Hoge bergen en dieptens, op welker sommige
+[single] ook niet vermoedelijk is, dat van wegens de konde lugt
+[single] dier gel.k specerij bomen souden willen aerden, soo
+[single] konnen wij niet nalaten VHoEd: voor te dragen off het
+[single] niet beter ware zoodanige visitens direct aen te
+[single] leggen op die plaetsen dewelke van outs in dagregisters
+[single] of andere Comp: es papieren; bekent staen, van spiherij—
+[single] plantagien te hebben gehad, off die als nog„e soor berugt
+[single] off suspect souden mogen werden gemaekt, doorsoekende
+[single] die plaetsen op het nauwkeurigste en zoo vele als na de tijd
+[single] en gelegentheijt vande Correcorre magt in eene tijt sal
+[single] konnen geschieden, warmede men dan niet genoodsaect
+[single] sal wesen soo veel militairen van het Hooft guarnisoen
+[single] en andere Comtoiren af te steken, nog de Inlanderen inde
+[single] tijd en last vande Iaerlijxe Hongij of scheptogt, te veel
+[single] te beswaren—.
+[single] de rapporten die ons niet lang na het afleggen vande
+[single] voors. generale visite, buijten verwagting zijn te voren
+[single] gekomen, schijnen ons ook meer te wijsen, na van outs
+[single] bekende en verdagte plantagien want gelijk u Ho Ed
+[single] sal blijken uijt een missive van Hea van den 14. ' xber
+[single] 1693.
+== NL-HaNA_1.04.02_1556_0051 | #51 | sides: single | lines: 30
+[single] 14
+[single] Van Amboina den 7. ' Maij 1694. —
+[single] verhael daer van
+[single] 1693. aenden gouverneur geschreven, was aldaer door den
+[single] serg. t van Loehoe berigt, datter in s' Comp: s sagoebosch,
+[single] behalven een grote menigte spruijten ontrent 120. zoo
+[single] vrugtdragende als halfwassene en Ionge nagelbomen
+[single] en note bomen, waren gevonden, en nog daer en boven aenden
+[single] Coopman roselaer mondeling gerapporteert van nog een
+[single] goede parthije andere Ionge nagelbonnen, die zoo
+[single] ordentelijk stonden, als ofse met menschen handen waren
+[single] geplant, en dewelke voorn. opperhooft ordre hadden
+[single] gestel alle tesamen ten eersten te laten extirperen
+[single] -.
+[single] Bij missive van het selve Comtoir vanden 14. Janu.
+[single] deses Iaers, sullen VHoEEd: vinden geadviseert dat den
+[single] serg. t Evert Everts.  Theul ingevolge vande voorsz.
+[single] ordre dog niet in s' Comp.: Sagoebosch (gelijk abusivelijk
+[single] berigt was) maer op Cambeloe bij de revier ranea
+[single] met twee Europianen ten 58. Inlanders inden tijdt
+[single] van drie dagen op drie distincte plaetsen hadden gevonden
+[single] en omgevelt 432. ouse, 706. halff wassene; 920. Ionge, en
+[single] 3480. spruijten, alle nagelbomen, mitsgaders 248. oude
+[single] en 4. stx: halfwassene notebomen, neffens berigt van
+[single] van nog groter getal op andere plaessen, tot welkers
+[single] uijtroeijing mede last versogt, en gegeven zijnde, soo is
+[single] bij missive van daer van 15. ' februarij, en een apart
+[single] rapport vanden meergen. serg. t geassisteert met eenige
+[single] Orangcaijen genotificeert, datter vanden 30. 'n Januarij
+[single] tot
+== NL-HaNA_1.04.02_1556_0052 | #52 | sides: single | lines: 31
+[single] 't getal vande bomen
+[single] nader tesien intrapport
+[single] dat overgaet
+[single] Van Amboina den 7: ' Maij 1694. —
+[single] tot den 9. februarij 1694. op verscheijde plaetsen van
+[single] het land kambeloe nog waren omgevelt, als volgt
+[single] Nagelbomen
+[single] 525. vrugtdragende
+[single] 829. halfwassene
+[single] 2129. Ionge, en
+[single] 7476. spruijten
+[single] Note bomen
+[single] 627. vrugtdragende en
+[single] dos
+[single] 24. halfwassene d=os
+[single] Van al het welke VHo Ed: omstandiger kan blijken
+[single] bij het voors.  vanden 12. n februarij 1694. in Copije anthentijcq
+[single] hier nevens gaende alsmede inde geciteerde Hilase brieven,
+[single] inde aenkomende briefboeken geinsereert waerin VHoEd.
+[single] onder dato 14. Januarij ook sullen sien dat gemelt werd
+[single] van een nagelboom, die onder op de grond geheel schoon
+[single] was, en reden gaff om te denken dat zulx door ijemant
+[single] om de vrugten te genieten expres was gedaen, dog
+[single] gecommitteerde van Hila derwaerts zijnde gesonden,
+[single] hadden die geoordeelt dat d. o grond van rode kleij
+[single] zijnde, om dat zulx onder meer andere wilde bomen
+[single] mede zoodanig bevonden wierd, door den regen schoon
+[single] was gevorden, en dat den voors. . boom in de eerste
+[single] 4. âl. Iaren niet beklommen was geweest &a
+[single] gelijk daervan nader kan werden gelesen in
+[single] het
+== NL-HaNA_1.04.02_1556_0053 | #53 | sides: single | lines: 31
+[single] 15
+[single] Van Amboina den 7. ' Maij 1694.
+[single] voert. aenleijden
+[single] waer tegens ordere
+[single] gestelt
+[single] het voorsz: rapport van 12. februarij. —
+[single] door seker sold. t Ian relle genaemt die als wilschut
+[single] gewoon is inde bossen te swerven, en den ontdecker off aen„
+[single] „wijser vande voors. . bomen was geweest, was ook kerigt,
+[single] dat ontrent die plaetsen somtijts vaertuijgen aenleijden, - berigt dat daer sontijts
+[single] die op zijn aenkomste weg schepten, sonder hare passen
+[single] te willen vertanen, waeruijt geen ongegronde suspicie
+[single] soude konnen werden gemaekt, datter pluckers en
+[single] wegvoerders ter sluijk soude konnen wesen gevonden om
+[single] haer met de voorsz. Nagelen te verrijken, sonder dat
+[single] daerom Iuijst nodig is, datse elders of aen andere natien
+[single] zijn gediverteert en verkoft, maer konnen deselve bij—
+[single] Inlanderen bedecktelijk op het een of 't ander Constoir ter
+[single] schael wesen gebragt
+[single] Om daer tegen voorsieninge te doen, is op de voorstellinge
+[single] van gemelte Coopman hooselaer bij provisie gelast
+[single] dat de vaert. om dien oirt werdende gelicentieert
+[single] te vissen, hunne passen aenden Serg. t tot toehoe, en ook
+[single] aen alle andere posthouders ontmoet werdende, sullen
+[single] vertonen, en de onwillige aengehouden &a als dat vervat is
+[single] bij onse missive derwaerts vanden 17. Januarij 1694. —
+[single] waerbij ook nog verder recommandatie tot nader
+[single] ondersoek is geschiet, en naderhand door den voorn.
+[single] door den voorn. Ian rolle, met den Serg. t Evert
+[single] Theul
+[single] e
+== NL-HaNA_1.04.02_1556_0054 | #54 | sides: single | lines: 29
+[single] tsyn ontrent deselve plaetsen
+[single] alwaer de visite in 1689.
+[single] is gestelt
+[single] Van Amboina den 7. ' Maij 1694.
+[single] Theul herwaerts ontboden, nop opgegeven van een groot
+[single] getal nagelbomen dewelke souden staen bij de revier
+[single] Maccanobel, agter de klip batoeloeban, door den nardijker
+[single] aen hem bekent gemaekt tot welkers ondersoek en
+[single] uijtroeijinge voorn. serg. t versogt met meerder
+[single] nog merbomen aengewofer manschap en specialijk met een goet getal alphoeresen
+[single] van pieroe en Tanoenoe te werden versien, welke veel
+[single] bequamer en williger soude wesen om alles te doorsnufselen.
+[single] den Serg. t pieter galle heeft ook weten te verhalen dat
+[single] hem door denselven mardijker Anthonij balij genaemt was
+[single] berigt van verscheijde nagelbomen in zoort, die te
+[single] vinden te wesen boven de oude negorij assahoedij, waerop
+[single] den meer genoemde serg. t Evert geordonneert is, eerst
+[single] self in spectie daer van te gaen nemen (om dat den
+[single] voors. Ian rolle somtijts niet alle te wijs werd versleten)
+[single] op dat wij de ombragie en moeijte van een optogt
+[single] van soo veel Inlanderen daer toe vereijst niet vergeefs
+[single] mogten onderworpen wesen
+[single] de plaetsen zijn al bij off ontrent deselvige, waerover de
+[single] visite inden Iare 1689. door den doeninaels vendrig paulus
+[single] de brevings en den Serg. t Samuel Iacobs is gedaen,
+[single] maer een geheel rug van een berg daer de Iongst
+[single] g'extirpeerde bomen zijn gevonden soude wesen overgeslagen,
+[single] of niet begaen, dat wel kan voorvallen in sulke
+[single] wildernissen
+== NL-HaNA_1.04.02_1556_0055 | #55 | sides: single | lines: 30
+[single] 16
+[single] Van Amboina den 7. ' Maij 1694.
+[single] reden waeruijt de over„
+[single] blijftelen schijnen te
+[single] op berigt van Hila
+[single] wildernissen, off bij in advertentie, off door quaedaerdigheijt
+[single] off luijheijt van den Inlander die sig deswegen ontsiet de bomen
+[single] te soeken off om te haeken, gelijk dat uijt het gerelateerde
+[single] vanden meergen. serg. e Theul en soldaet rolle gebleken
+[single] is, seggende dat op sommige plaetsen vande Iongst ontfangen
+[single] door haer gedane uijtroeijing een parthije omgekapte
+[single] bomen waren gevonden, dog de meeste blijvenstaen, ter
+[single] plaetse daer de Extirpatie was geschiet, waer van ons
+[single] berigt is gedaen bij het nevensgaende rapportjen vanden
+[single] Coopman roselaer van den 31: october 1691. met dewelken
+[single] na bekomen sekerheijt vande nog resterende bomen sal
+[single] werden overleijt, met hoe veel en wat voor
+[single] manschap dese extirpatie die met een getal van 30.
+[single] Coppen wel een gehele maend souw tegen houden
+[single] (soo te zier is uijt de ondervraging vande voors.  personen
+[single] en saken door den Oud Coopman rumphins en fiscael
+[single] de bok den 14. april gedaen in Copia hiernevens gaende
+[single] best sael konnen werden verrigt, waerin wij in
+[single] onse pligt sullen betragten
+[single] Bij schrijvens van Hila van den 22. ' Januarij, zijnde
+[single] iets aengehaelt geweest rakende het bedrijf van Zacharias
+[single] sawarga op Mamipa, heeft den gouv. r goetgevonden
+[single] derwaerts te senden den serg. Michiel doemaker om eens
+[single] secretelijk na de bewegingen van die familie te vernemen,
+[single] gebruijkende
+== NL-HaNA_1.04.02_1556_0056 | #56 | sides: single | lines: 35
+[single] Van Amboina den 7. en Maij 1694. —
+[single] den serg. t dolmaker na
+[single] Manipa enkelang tot
+[single] ondersoek gesonden
+[single] specerij bij die occagie
+[single] bevonden
+[single] gebruijkende daertoe her pretext van verboden specerijbomen
+[single] op te soeken, denselven heeft volgens den last aen hem gegeven,
+[single] het voors. Eijland kelang en mamipa rond gevaren, mitsgs:
+[single] gevisiteert de eijlandjes en bogten daer ontrent gelegen,
+[single] dog niets ondervonden dat eenige ombragie soude konnen
+[single] mede brengen; het verkopen vande goederen van voorn. de
+[single] d
+[single] Zacharias bij de Hillase miss. gewaegt schijnt niet anders te
+[single] wesen geschiet als afdoening van gecontracteerde schulden
+[single] soo van hem als zijn huijsvrouw, die een dogter is van
+[single] wijlen Cap:n Jonker en bevorens getrouwt met een nederlants
+[single] vrijstierman die haer in beslommering heeft gelaten,
+[single] dit is alhet gene ons dienaengaende is tevoren gekomen
+[single] dan in het ondersoeken van het Eijland kelang zijn op de
+[single] bergen van Tonoe en Toulakij (dewelke om haer Hoogte
+[single] en onbeganckelijkheijt selden zijn beklommen geworden,
+[single] gelijk ook diemael niet zonder groot pericul, met agterla„
+[single] tinge van het meeste volk die niet konde volgen) nog
+[single] gevonden, de volgende specerijbomen, namentlijk ter plaetse
+[single] daer voor desen de oude negorije van Tanoe gestaen heeft
+[single] op den berg van die naem 5. stx. volwassen en 27.
+[single] halfwassene notebomen; op den top vanden berg houlaki
+[single] „vast
+[single] die aenden voors„, en nog de helft hoger is, 3. d. o vrugt
+[single] dragende, en 9. halfwassene, mitsgaders 7. volwassene
+[single] en 9. Haltwassene nagelbomen
+[single] den serg. t Samuel Jacobsz: van daer den 27. ' Maert
+[single] e
+[single] aen
+== NL-HaNA_1.04.02_1556_0057 | #57 | sides: single | lines: 35
+[single] 17
+[single] Van Amboina den 7:n Mai 1694.
+[single] nog eenige door den
+[single] van de ontdekte troep
+[single] slaven op Ritoe
+[single] en wat daer tegen
+[single] gedaen
+[single] aen het Casteel verschenen, heeft nog gerapporteert, dat hij de
+[single] ordinaire visite van die Eijlanden naderhand hebben gedaen,
+[single] aen het Hangen vanden voors. berg tamoe in het noorden serg:t samuel
+[single] nog hadde onldect en gextirpeert 28. stx. halfwassen en
+[single] 60. Ionge notebomen.
+[single] Iut begin van december 1693. wierd op de Custe van Tietoe
+[single] gestoort een geselschap van weg gelope slaven, werdende
+[single] begroot op een getal van 22. mans en 8. vrouwen, sig onthou„
+[single] „dende en na allen schijn al een goede tijd daer hebbende
+[single] genestelt, aen het Hooft van een revier gen. t waijper op een
+[single] berg Tapa osso oue in drie huijssen met houte vensters en
+[single] Tuijnen, met piesang, batattes, onbijs, Comcommers, —
+[single] Pampoenen, ook sirij, planten voorsien, voorts gewapent
+[single] behalven pijlen en bogen, met eenige snaphanen
+[single] -
+[single] pistolen, buskruijt en Cogels, gelijk VHoEEd: don
+[single] omstandiger gelieven te lesen inde hitalase missive vanden
+[single] 8. december en hoe de uijtsettinge daer op gedaen,
+[single] seer na bij van wel te succederen, door eenige toevallen,
+[single] en wel voornamentlijk door de ontmoete voetangels,
+[single] daer het volk Elendig van wierd beseert, was misluct.
+[single] wat voor aenslaegen en uijtsendingen van grote troepen
+[single] Inlanders, gesterct met eenige militairen daer op gedaen
+[single] zijn, soo wel vande Cam van Hitoe, als dese zijde,
+[single] baguale, alaang, Larique &. a kan uHoEd: wijders blijken naderen sien bij Comp. s
+[single] uijt de volgende brieven van Hila vanden 14. en 21. d. o papieren
+[single] als
+== NL-HaNA_1.04.02_1556_0058 | #58 | sides: single | lines: 32
+[single] Van Amboina den 7. ' Maij 1694.
+[single] dog vergeefs
+[single] een prenie belooft aen
+[single] de ontdeckers
+[single] sullen nader sien wat
+[single] hier in te doen
+[single] alsmede onse afgaende na alang, baguale en Larique
+[single] vanden 8. en 4. n december anno passado, Mitsgaders
+[single] „ onder datis
+[single] in ons dagregister „ 8 en 17. december voorn. t dog zijn onse
+[single] devoiren tot ons leetwesen alle vergeef geweest, en wel
+[single] eenige op het spoor en dight bij genaekt, die ook hare
+[single] wapenen en eenige spijse hebben moeten nalaten, maer
+[single] niemant tot nog toe bekomen, het welk ons dan bewogen
+[single] heeft een bilje te laten afkondigen, soo met stellen van
+[single] eeen premie voor die gene welke de voors.  voor die gent
+[single] of eenige van die weglopers zouden aenwijsen als bedreij„
+[single] ging van die gene welke deselve soude komen te kelck
+[single] off verbergen, en verblijf op hare landen gunnen, waerop
+[single] tot nog toe ook is niets gevolgt is.
+[single] Ondertusschen isser nauwlijx aente twijffelen off somninge
+[single] Inlanderen moeten kennis van haer schuijlhoeken hebben,
+[single] nalatende off door vrees off door Interest deselve aenden docg
+[single] te brengen, gelijk dat kennelijk genoeg is uijt den aerd der
+[single] Inlanderen, en dat eenige den dienst en arbeijt van die
+[single] weg lopers in hare thuijnen gebruijken
+[single] wij laten die saken op het voors.  Edict wat besterven,
+[single] van mening zijnde bij de eerste occagie, en ondertusschen
+[single] ook onder de hand, perquisitie te laten doen na zodanige
+[single] Inlanderen, welke alle voor lange bij ons in't generael
+[single] zijn gewaerschouwt, haer voor zulx te wagten, off
+[single] datse
+== NL-HaNA_1.04.02_1556_0059 | #59 | sides: single | lines: 29
+[single] 18
+[single] Van Amboina den 77. ' Maij 1694.
+[single] een Inlander over
+[single] ophouden gestraft
+[single] datse bij ontdecking van diergelijke weglopers, op Hare
+[single] landen bevonden, voortauteurs en mede helpers van deselve
+[single] souden werden aengesien en gestraft, ten ware zijluijden
+[single] klaerlijk haer sgnorantie en onschult konde doen blijken, —
+[single] waerontrent wij niet sullen nalaten met alle doenlijkheijt
+[single] wijders te vigeleren, zijnde tot nu toe geen onheijlen,
+[single] stroperijen of berediging van menschen, door deselve
+[single] vernomen, en onseker of se verder zijn gevlugt, daer al
+[single] omme ordre en wagt tegen is gestelt, dan ofse nog inde
+[single] gebergtens daer oneijndige Holen en Spelonken zijn
+[single] Om haer met kennis van Inlanderen te konnen onthouden,
+[single] en ook onderhouden, mogen Schuijlen
+[single] Tat bewijs van het selve heeft onsen fiscael onlangs
+[single] in handen gekregen seker Inlander van Baguala, een
+[single] negorije soodigt bij ons gelegen, die onaengesien de voors.
+[single] geplibiceerde drijgementen en beloften Ontrent een Iaer
+[single] lang een slaeff hier van kielang weg gelopen, hadde
+[single] opgehouden, en desselfs arbeijt gebruijk, waer over hij
+[single] ook op den 17. april Iongste. bij den Landraet met een
+[single] geesseling en brandmerk onder de gaeg is gecondemneert
+[single] en gestraft geworden.
+[single] Vande alphoeresen, op de Custe van Ceram, heeft men
+[single] 'tsed. t het foen vande Hongij meerder Iostiliteijten
+[single] aen dees en geene strantvolkeren, als mede aen ander
+[single] eijlanders
+== NL-HaNA_1.04.02_1556_0060 | #60 | sides: single | lines: 28
+[single] Van Amboina den 7:en Maij 1694.
+[single] Jostiliteijten door de alphoe
+[single] en die van sichoelale
+[single] Eijlanders, die aldaer Hagoe Coopen en pockelen vernomen,
+[single] resen op Ceram gepleege als in eenigen tijd bevorens; de redenen zijn apparent
+[single] daertoe geen anderen, als die van outs zijn bespeurt;
+[single] namentlijk voor eerst den ingeboren en dagelijx geoeffent
+[single] werdenden aent vandie berglieden, dewelke even als een
+[single] roofdier op zijn proije, noijt nalaten de occagie te nemen
+[single] van Coppen te halen van andere negorijs lieden, die haer
+[single] schoon voorkomen; den hoeleg daervan kan dikwils door
+[single] de strant Orankaijen werden voorgekomen, met een
+[single] kleijn Tribuijt van eenige kleetjes, off gammen op
+[single] te brengen, dat door groosheijt en Coppigheijt werdende
+[single] nagelaten, haer het onheijl op den hals brengen
+[single] en dan hebbente occagie, om aende regering alhier off
+[single] aende subalterne hoofden te Clagen ende EComp. es
+[single] protexie te versoeken, daerse het op schijnen aen te leggen,
+[single] gelijk ons dan de schult vande voorsz. strantregenten
+[single] dikwils voorkomt, en onder anderen nog tesien is
+[single] in een brief van Saroeko vanden 24 Maert 1694. —
+[single] wat die van Tihoelale aengaet, welke alle voor het
+[single] doen van de Laeste Hongij seer Rushandelt zijn, en waer
+[single] na als bij desselfs dagregister te zien is, te dier tijd alle
+[single] moeijte is aengewent om ondersoek na te doen, de vijandschap
+[single] der alphoeresen tegen haer, wil men zeggen dat uijt den
+[single] haet van onse religie, die te hebben aengenomen en waertoese
+[single] Iongst
+== NL-HaNA_1.04.02_1556_0061 | #61 | sides: single | lines: 32
+[single] 19
+[single] Van Amboina den 7. ' Maij 1694. —
+[single] aen die van Iha
+[single] gevangens daerover vaon
+[single] Hoerloij
+[single] Iongst met een bequaem schoolmeester zijn voorsien
+[single] soude spruijten, dat ten dele wel waerkan zijn, maer in't
+[single] algemeen werd bevonden dat de strand kieder self mal„
+[single] canderen niet trouw zijn en dat soo wel de negorijen
+[single] Onderling, als lieden van eene negorije tegen den
+[single] anderen toeleg maken, om malkanderen uijt particuliere
+[single] haet en interest te doen vermoorden. Wij hebben soo
+[single] veel mogelijk ondersogt de kagten van die van Ka,
+[single] beschuldigende soo wel die van Latoe als Hoaloij hare
+[single] naburen, en die als samen in eene negorije woonen, waeruijt ontstaen
+[single] datse met Cap.n Macoressij souden aengespannen en een
+[single] Canpact gemaekt hebben om voor eenige Lijwaten, gommen,
+[single] schotels en pierings alle de Ihanesen te doden, diese
+[single] soude konnen vinden. den voors. . Cap. n hebben wij niet
+[single] bekomen, die van Iha hebben ons twee personen van
+[single] Hoealoij gebragt, die bij een sekere moort zoude zijn
+[single] geweest, inde proceduren bij den fiscael daer tegens
+[single] gehouden is alles zoo Confus geworden, dat wij door geen
+[single] middel van Iustitie hebben konnen te regt haken, —
+[single] Ondertusschen zijn hier twee gedetineerdens, en die wel
+[single] „schenen
+[single] de suspectste scheppen„ inde tronk komen te overlijden, en
+[single] wij hebben alle die Luijden wijders zoo klagers als
+[single] beschuldigde wees na hare negorijen moeten senden
+[single] tbehalven den orangkaij van Hoealoij Leamahoelaessij
+[single] gen:t, die wij om meerder quaet voor te komen, bij
+[single] onse
+== NL-HaNA_1.04.02_1556_0062 | #62 | sides: single | lines: 33
+[single] 1„
+[single] Van Amboina den 7. en
+[single] Maij 1694. —
+[single] negorijen precautioneren
+[single] watter special. ontrent
+[single] die van Tha valtaen
+[single] te merken
+[single] onse resolutie van 27. april 1694. bij provitie op het Eijlant
+[single] Mamipa onder het oog vanden serg. t hebben goetgevonden
+[single] te laten wonen, met ernstige recommandatie van
+[single] walkanderen getrouw te wesen, hare negorijen schoon en
+[single] op een te houden (te verwonderen zijnde, hoe vuijl en beseth
+[single] deselve staen sodanig datter wegens de struijken, bomen
+[single] en koeskroes off lang gras, geen uijtsigt heeft is van
+[single] 6. roeden ver bergwaert) om de weeglagen vande
+[single] hoeweijnig de seront haer alphoeresen ten minsten niet alle uuren vanden dag en
+[single] onder hare huijsen onderworpen, mitsgaders wel op
+[single] hoede te wesen, waerbenevens deselve met eenige
+[single] schietgeweren en munitie vande EComp. e zijnde voorsien,
+[single] schijn het don alles te wesen, 'twelk wij bequaem zijn
+[single] in faveur van die lieden te doen, sonder dat die vrees
+[single] voor de Hongij daerin sonderlinge veranderinge ten
+[single] besten kan maken, dewijlse ons niet afwagten en inde
+[single] gebergtens niet te genaken zijn
+[single] de haer en vijandschap aendie van Tha, werdende gepleegt,
+[single] rust ook nog ook op een seker Comploir om deselve, was
+[single] het mogelijk vande Cust Ceram te doen de Logeren en
+[single] plaetsen op Hommoa off Elders, waer toe de Laeste nog
+[single] immer soo seer genegen en geporteert zijn niet zonder
+[single] suspicie, datse self sulke aenslagen van hunne geburen
+[single] en de alphoeresen eenigsints fawvoriseren, om subject van
+[single] Lagten bij ons en te meerder notiven bij te brengen, om
+[single] hare
+== NL-HaNA_1.04.02_1556_0063 | #63 | sides: single | lines: 28
+[single] 20
+[single] Van Amboina den 7. Maij 1694.
+[single] hare sterative instantie diese op den 8:n September 1693.
+[single] in desen rade hebben gerenoveert, om hare oudewoon
+[single] „plaetsen te mogen recouvreren, bij ons en wijders bij VHoEd:
+[single] ingressie te doen nemen wat voor boenfornnerie daer
+[single] al onderspeelt, gelieven VHoEd: eens te sien in sekeren
+[single] brieff van het Comtoir Honimoa van den 10 ' feb:rj 1694.
+[single] Om VHoEd: nu te dienen van advijs op het voors. req. t van
+[single] Iha hier neffens gevoegt, waerhenen onse voors. resolutie
+[single] vanden 8. september gaet, na den gouv. r bij de visite daer onte gedagten daerover
+[single] van Informatie souden hebben genomen, daer ontrent
+[single] bekennen wij ons verlegen te vinden, wam aen de eene
+[single] zijde schijnt die twee spael vande 'tsamen wonende
+[single] negorijen van Tha, lottoe, Hoealoij, Coelor &.a de Leparatie
+[single] wel te vereijsschen, om off de ware reden off het pretext,
+[single] daer evenwel moorderijen uijt voortkomen, daer van
+[single] te doen ophouden, maer aende andere zijde leijt hier een
+[single] resolutie vanden 28:en december 1688. het voorsz: versoek
+[single] vanden Thanesen herstelling op Homimoa 'teenemael
+[single] afwijsende, en bij aldien sulx niet temin bij uEd.
+[single] mogte werde toegestaen, souw het selve veel verandering
+[single] in het bestier en de Hofdiensten van dat Comtoir mede
+[single] brengen, en twelk van meerder na bedenken en prejuditie
+[single] moet werden geagt, nieuwe zaloutie en Conpetentien
+[single] veroorsaken wegens het gebruijk vande Landen
+[single] en
+[single] bij
+== NL-HaNA_1.04.02_1556_0064 | #64 | sides: single | lines: 31
+[single] Van Amboina den 7. ' Maij 1694.
+[single] die van tihoelale wederom
+[single] van hare brieven met
+[single] wagt gesterkt
+[single] die van sepa versoeken haer
+[single] voorde EE Comp. e te
+[single] vernedenen
+[single] bij gelegen bosschen, aen die van Iha te vergunnen, welke
+[single] reets bij andere werden genoten, sulx dat wij voor als nog
+[single] geen andere redenen konnen vinden, als om VHo Ed
+[single] de voors. . Verplaetsing voor eerst eerbiedig aff te raden,
+[single] en ingevalle dat ons bij verloop van tijd ter nadere
+[single] Consideratien mogten voorkomen, die tot andere
+[single] mesures souden mogen bewegen sullen wij niet
+[single] nalaten uEd: daer van met schuldige onderwerping
+[single] te dienen
+[single] die van Tihoelale werden van hare geburen, die van
+[single] Camarien en roemakaij nog dagelijx met wagt versterkt,
+[single] en souden wij van herten wenschen die goede Lieden in
+[single] hare tere beginsel en aenneming vande Eeristelijke religie
+[single] de hand boven 't hooft te houden, gelijk wij ook niet sullen
+[single] Ontbreecken, zoo veel in ons vermogen sal zijn. die
+[single] luijden hebben aen het p:l Hooft tot Haroeko den
+[single] boekhouder Joost van Costenobel, de visite Iongst in
+[single] april over zijn Comtoir hebbende gedaen, versogt haer
+[single] negorije digt bij hoemakaij tot haer meerder veijligheijt
+[single] te mogen stigten, waer op ondersaek gedaen, en het
+[single] dienstigste sal werden beraemt.
+[single] die van sepa hebben na vorige tentativen, om haer
+[single] voor d'EComp. e te mogen onderwerpen, haer op de
+[single] Iongste
+== NL-HaNA_1.04.02_1556_0065 | #65 | sides: single | lines: 30
+[single] 21
+[single] Van Amboina den 7: n Maij 1694.
+[single] Inde hongij afgewesen
+[single] na ambon gerenvoijeert
+[single] en aldaer ontfangen
+[single] Iongste Hongij tot dien eijnde voor den gouverneur geprifen„
+[single] teert, gelijk uEd: kam blijken bij desselfs dagregister onder
+[single] dato 30. october 1693. mitsgaders hoe zijluijden voor eerst
+[single] zijn afgewesen, en met den ernst op dat subject vereijst,
+[single] bejegent, en gesommeert op de overlevering vande twee
+[single] vervoerde Christenen die nog gemeijnt wierden in't
+[single] leven te zijn, maer dewijl deselve iterativelijk hebben verklaert,
+[single] en daerbij volhert dat de voors. twee lieden inde Iongste
+[single] pokitijd waren overleden, en dat sulx ten allen tijden
+[single] woeragtig soude werden bevonden waer op de voorn.
+[single] sepanesen (zijnde de broeders vanden Orankaij amahore,
+[single] die doot krank lag en weijnig dagen daer na is gisterven,
+[single] als mede de oudste en eenige vrouwen) licentie is
+[single] gegeven om alhier op amboina te verschijnen, en hun
+[single] versoek om als nog gepardonneert en in genade bij de E.
+[single] Comp. e te worden aengenomen, te komen doen, gelijk —
+[single] Zijluijden gevolgelijk alhier in rade gecompareert
+[single] zijn, en na behoorlijk deliberatie daer toe ontfangen onder
+[single] dese voorwaerden. 1. dat haer pardon van geen effect
+[single] soude wesen indien de voors. twee Christenen naderhand
+[single] nog in't Leven wierden bevonden. 2. dat zijluijden
+[single] samentlijk soo wel heijdenen als moren, haer verblijf en
+[single] woning op strant moesten houden. 3. dat sij eenige sware
+[single] houtwerken tot een Mulkie voor de maleijtse kerk alhier
+[single] sonden
+== NL-HaNA_1.04.02_1556_0066 | #66 | sides: single | lines: 29
+[single] Van Amboina den 7:e Maij 1694. —
+[single] in onke resolutie te sien
+[single] wonderle gerugt van Canon
+[single] off andere slagen gehoort
+[single] souden moeten Cappen alle 'twelke sij seer bereijtwillig
+[single] hebben aengenomen, gelijk vHoEd: wijders sullen gelieven
+[single] te lesen, soo in ons resolutie boek onder den 26.:en Januarij
+[single] deses Iours, als dagregister van 28. d. o waer in VHo st.
+[single] ook nog sullen konnen zien hoe dat de voorn. sepanesen
+[single] self voorslaen en aenbieden, om eenige van Haere kinderen
+[single] hier aen't Casteel te senden, tot het aenleren vande
+[single] Maleijtse tael en beter manieren; het effect sullen wij
+[single] daervan moeten afwagten, vertrouwende niet te min
+[single] dat haer mening goet is, gelijk zij ook aen den serg. t
+[single] doemaker volgens getuijgenis in zijn gehoude
+[single] dagregister, in het opsoeken vande specerijbomen, en het
+[single] aenwijsen vande bergwegen, hadden getoont, en dat hare
+[single] vorige bedrijf is veroorsaect door quade opstokers als de
+[single] bekende pelemahoe en Toual zijn geweest, om tot diergelijx
+[single] te min aenleijdinge te geeven hebben, sullen wij haer de
+[single] Correspendentie met die van bessij daerse uijt haerselfs
+[single] ook wel toegenegen schijnen, soo veel in ons is, tragten
+[single] te beletten.
+[single] des nagts tusschen den 30. en 31. Ianuarij Ioleden zijn
+[single] hier verscheijde slagen en geluijt, als Canon schoten
+[single] gehoort geworden komende vande kamt van Titoe,
+[single] deselve nagt is ser rapport gedaen vande pas baguael,
+[single] dat aldaer ook een grote menigte diergeli.k schoten, en
+[single] van
+== NL-HaNA_1.04.02_1556_0067 | #67 | sides: single | lines: 33
+[single] 22
+[single] Van Amboina den 7:' Maij 1694
+[single] op baguale
+[single] boero en voornamentlij.
+[single] Manipa
+[single] op hela
+[single] 3 denberg van wawanij.
+[single] daerop gevisiteert
+[single] van deselve kant komende, waren vernomen, en dat den
+[single] sergiant en poothouders deswegen in alarm en 't geweerstonden
+[single] sonder dat ons naderhand in het alderminste gebleken is datter
+[single] eenig geschut aen die oire, 't zij van de reduijten, schepen
+[single] off vaertuijgen soude zijn gelost
+[single] Dan boero is naderhand mede diergelijx gemelt, maer
+[single] nog duijdelijker van manipa, alwaer men in dieselvige
+[single] meening en Contenantie als op baguale was geweest,
+[single] dog hadmen deslagen soo wel van het westen als het
+[single] oosten vernomen, en ondersoek na vaertuijgen off schepen,
+[single] daer sulx uijt mogte sijn geschiet, gedaen wesende,
+[single] niets gevonden
+[single] het weste dat wij daer van hebben konnen denken is
+[single] geweest op donderslagen in't gebergte, die men wel meer
+[single] gewoon is te horen, maer niet zoo distinct om er Canon
+[single] schoten uijt te besluijten, als inde geseijde nagt is geschiet;
+[single] naderhand is bij een hilase missive vanden 15. en febij
+[single] 1694. deswegen ook gemelt, en het selve inden beginne
+[single] aengesien als van Canon schoten, die vande kant van
+[single] ambon quamen, dog om de menigte wederom voor
+[single] verre donderslagen, dog ten testen neemt den Coopman
+[single] rooselaer voor het apparenste dat het onderaerdsche
+[single] rommelingen vanden berg Ebawanij vanden 4
+[single] daerbevorens veel tijds gehoort zijn geweest; 'twelk
+[single] hem
+== NL-HaNA_1.04.02_1556_0068 | #68 | sides: single | lines: 30
+[single] Van Amboina den 7.:'n Maij 1694. —
+[single] vande swavel aerde
+[single] aldaer
+[single] hier derwaerts
+[single] het rapponrt
+[single] hem ook bewogen Hadde, om den selven berg eens te laten
+[single] visiteren, en specialijk te vernemen off de rommelingen
+[single] daerboven niet nader bij, en als van benedenkomende,
+[single] wierden gehoort; dan hij berigt was dat deselve hoemen
+[single] hoger quam hoe verder af en na dit Casteel aengehoort
+[single] waren, Inschrijvens van dat Comptoir vanden 18. n
+[single] October 1693. sullen VHoEd: ook vinden geadsiseert
+[single] vande swavel aende op d. o berg gevonden, daer ons
+[single] met eenen twee Timbels off bosmantjes van wierden
+[single] toegesonden. zoo het een als het ander heeft ons
+[single] nogmael bewogen om d. o berg zoo veel mogelijk nader
+[single] te laten ondersoeken, het welk neffens den Serg. t frans
+[single] rosenhage, die de vorige Inspectie hadde gedaen,
+[single] wesende geschiet door den Serg. t Michiel doemaker en
+[single] nader Commissie van den Onderchirur gijn andries bunemon, is ons gedaen het
+[single] rappor dat hier nevens gaet, meldende in substantie
+[single] datter wel geen tekenen waren bevonden van eenige
+[single] brand, rook, warmte off kaelheijt van grond, maer dat
+[single] op eenige plaetsen een seer diep mosch en weijnig g'boomte
+[single] was, dat de voors. swarvel aerde Locg onder een superficie
+[single] van afgevalle bladeren en ruijgte ontrent twee voeten diep,
+[single] ende swavelmijnen daer beginnende ontrent twee gelijk
+[single] voeten dik, sulx de voorsz: Inspecteurs die niet anders
+[single] hebben konnen aensien als voor een boven Corste,
+[single] en
+== NL-HaNA_1.04.02_1556_0069 | #69 | sides: single | lines: 31
+[single] 23
+[single] Van Amboina den 7:' Maij 1694
+[single] wij ebeten niet off vsho Ed
+[single] daerop speculatie
+[single] maken
+[single] 12. Timbels off Inland
+[single] en uijtwaessening vande grond die door de son tot
+[single] sulken substantie wierd gemaekt. wij weten niet off
+[single] VHoEd: eenige speculatie ten dienste vande EComp.
+[single] op dese swavel aerde soude mogen maken, dewijl die
+[single] aerde in abundantie van Banda kan werden becomen,
+[single] dog hebben niet te min van onse pligt geagt VHo Ed.
+[single] deswegen berigt en zoo goeden bescheijt te geven, als
+[single] ons doenlijk is geweest; hopende en biddende goe
+[single] almagtig, die ons nu eenige Iaren goedertierentlijk
+[single] van sware en schadelijke aerdbevingen heeft verschoont,
+[single] de provincie van amboina, met haere Inwoonders
+[single] en Comp. s effecten, nog wijders van diergelijke
+[single] schrickelijke onheijlen, en in't bijsonder voor het springen
+[single] en branden vanden suspecten berg van wanonij sal
+[single] bewaren.
+[single] VHoEd: bekomen volgens ordre aen het opperhooft van
+[single] Hila gegeven nog een quantiteijt van 12. grote Timbels
+[single] d. o aerde, welkers onkosten principael soude bestaen in se mantjes van dat
+[single] den arbeijd van het afhalen vanden berg tot aenstrant ninerael, gaen over
+[single] waertoe men bij quantiteijt de Elanderen (al was het
+[single] ook niet het ordinaris Loon van een lb. rijs, en een
+[single] dubbelde stuijver daegs ten aensien vande vilaie
+[single] stank en quaetaerdige dampen die er bij zijn, niet
+[single] wel zoude konnen vergen. wij bevinden, dat op
+[single] den
+== NL-HaNA_1.04.02_1556_0070 | #70 | sides: single | lines: 28
+[single] Van Amboina den 7. ' Maij 1694. .
+[single] gelicentieerde handelaer
+[single] sonder Ternate
+[single] den 24. december 1658. door VHoEd: mede aengaende dese
+[single] materie herwaerts is geschreven en daer van monsters
+[single] begeen, dog uijt het antwoord daerop vand' Heer gouv. r
+[single] hustaen en den raad in dato 30. april en 10. Iulij 1659
+[single] schijn die swavel procure ter selver plaetse dewelke
+[single] ook naderhand op de negorij Julij mede ondernamen
+[single] is geweest, van geen Sonderlinge merite te zijn gagt
+[single] en verders vinden wij daer van niets gementioneert.
+[single] wij hebben op den 12. October 1683. een kriefje aen VEd
+[single] laten afgaen, (dog het welke bij gebrek van gelegenth. t
+[single] om voort te bestellen op Macassar is blijven leggen, en als
+[single] nu in Copia met zijne bijlagen hier nevens gaet)
+[single] behelsende voornamentlijk de onverwagte ontmoetinge
+[single] van onse borgers, dewelke volgens u Ho Ed: gunstige
+[single] licentie, passen hadden genomen om te varen, en
+[single] geoorlofden handel te drijven na de Eijlanden Xulas,
+[single] ontmoetinge van onse en bangaij, en VHoEd: te doen blijken wat daer involgens
+[single] Ordre bij ons was gedaen, en ter goeder trouwe wierd
+[single] gesustineert, alleenlijke daer toe gedirigeert om de schade
+[single] voor te komen die de voors. handelaers nog wijders
+[single] stonden te lijden, door den afwijsinge en verbod van
+[single] Handel door de suppoosten vande Ternaesse regering
+[single] aldaer
+[single] —
+== NL-HaNA_1.04.02_1556_0071 | #71 | sides: single | lines: 29
+[single] 24
+[single] Van Amboina den 7: Maij 1694.
+[single] over macasser geadvis. t
+[single] aldaer ondernomen, op dat fundament, dat die lieden
+[single] hunne passen aen het Casteel off hooft resid:te van Terrate
+[single] niet hadden gehaelt, gelijk wij vEd. met het oversenden
+[single] van een authentique Copie van een onser passen en het
+[single] daer op geendesseerde vanden Corp. l tot bangorij Isak met de bijlagen
+[single] sluijter hebbende doen blijken, en zoo mede aenden heer
+[single] gouv. r en raad in Ternaten, dig sig wel hebben belie„
+[single] „ven over onse geschrevene te formaliseren, maer geen
+[single] redenen op het subject bijgebragt, om ons van ongelijk
+[single] te conviceren, wat wij daer op nogmaels hebben geantw.
+[single] den 12. april 1694. sullen VHoEd: uijt de bij gevoegde Copia
+[single] believen te lesen, en daer uijt konnen bemerken dat wij
+[single] alleen tragten het goet verkregen regt van onse
+[single] borgers voor te staen, zoo lang ons daer tegen geen
+[single] overtedingen off misbruijken voorkomen, daer in
+[single] tegendeel de gemelte Ternaetse regering bij hun
+[single] schrijvens aen ons van den 18. 7ber absoluijt en sonder
+[single] onderscheijt van Saken seggen dat de Last door Haer
+[single] E. s aenden serg. t Command. r tot xulla bessij gegeven,
+[single] in zijn volle rigeur bleeff, namentlijk: van geen
+[single] lijfeijgenen 't zij onder wat pretext sulx mogte wesen
+[single] van daer te laten vervoeren
+[single] Ea
+[single] -
+[single] de ambonse borgerije is VHoEd: orderdanig onderd:
+[single] dankbaer
+== NL-HaNA_1.04.02_1556_0072 | #72 | sides: single | lines: 33
+[single] Van Amboina den 7„en Maij 1694
+[single] de Continuatie op den
+[single] ouden voet
+[single] de nadere ordres op dat
+[single] stuk sullen wij precijs
+[single] nacomen
+[single] Cambueco abutief in
+[single] onse resolutieboek
+[single] gevloeijt
+[single] inde passe doorgeh. t
+[single] d'ambonteburgerije voor dankbaer, dat het deselve belieft heeft de gelicentieerde
+[single] vaert nad. o xulaes en bangoij, als nog directelijk derw.
+[single] te Continueren, en haer van soo groten veragtering in hunne
+[single] reijse als de vertaning van hare passedulle aen het Casteel
+[single] Orangie soude mede brengen, te bevrijden; sullende de
+[single] ordres die VHo Ed: wijders op dat stuk hebben gestelt
+[single] aen onse zijde preciselijk werden opgevolgt en inde
+[single] voortaen te verlenen passedullen werden uijtgedruct, in
+[single] hope dat de Ternaetse suppoosten deselve tot geen
+[single] particuliere schraperije off te veel meesterschap
+[single] sullen misbruijken
+[single] Wij zien dat de naem van Tambucco in onse resolutie
+[single] mede is ingeslopen, sonder dat onse mening egter is
+[single] geweest die vaert daermede wijders uijt te breijden, als
+[single] VHoEd: Intentie heeft gegaen, gelijk ons dan ook is
+[single] gebleken uijt de passen alhier in rade vertoom, ende
+[single] verklaring vanden secretaris Jan durijn, dan het woord
+[single] Tamboeco daer in mede abusivelijk bij gevoege door ordre
+[single] van den gouv. r schagen is doorgehaelt en hem gelast
+[single] geen andere plaetsen te noemen als die in UHofd: verleende
+[single] permissie stonden uijt gedruct.
+[single] aengaende de ondernomte voijagie van onsen borger
+[single] Cap.n
+== NL-HaNA_1.04.02_1556_0073 | #73 | sides: single | lines: 31
+[single] 25
+[single] Amboina den 7:' Maij 1694
+[single] Van
+[single] aengaende de voijagie
+[single] van Jochum Engel
+[single] d' ander met hoe veel
+[single] slaven geretourn. t
+[single] Cap. n Jochum Engel VHoEd: op het berigt van den Corp. l
+[single] tot bangarij door de Ternaetse reg. bekent gemaekt, wij
+[single] konnen daer van als nog niet anders seggen als dat
+[single] ons sulx met de uijtterste bevremding, en als een saek
+[single] die door de eerste rapporteurs puer verdigt en noijt
+[single] in rerum natura was geweest, is voorgekomen,
+[single] gelijk ons ook ten hoogsten heeft verwondert, en tot prejuditie
+[single] strect, dat den heer gouv. r en raad in Ternate bij hunne
+[single] Missive aen VHoEd: van den 28. aug. o 1693. bij het
+[single] verhael van die saek positieff ter nederstellen, dat
+[single] voornoemde Jochum Engel ten ontwijffel met een pas
+[single] van de ambonse regering versien soude zijn geweest
+[single] Uijker Extract missive van d. o Corp.l dat ons van
+[single] Ternaten noijt is toegesonden geweest, zien wij wel dat het
+[single] een Chialoep met twee masten werd genoemt, maer
+[single] sonder designatie vande tijd sijns aenkomst en
+[single] vertreks.
+[single] wij sullen egter niet nalaten alle mogelijke enqueste
+[single] daer ontremt te laten doen, (gelijk dan den fiscael alop den
+[single] 21. april 1694. bij resolutie is gelast zijn pligt daerin
+[single] te betragten) en VHoEEd: des wegen te sijner tijd behoorlijk
+[single] rekenschap te geven, de voorsz. borger Chialoepen
+[single] zijn op den 3. n december 1693. en 4. feb:r 1694. geretourn:t,
+[single] en
+== NL-HaNA_1.04.02_1556_0074 | #74 | sides: single | lines: 30
+[single] Amboina den 7:' Maij 1694
+[single] den Cap. n pieter schaffen
+[single] overleden
+[single] Van
+[single] en daeronder alleen die van Ian Hans. dje met 53. stx.
+[single] slaven, en die van Jochum Engel met een getal van
+[single] 47. d. os die hier om de benodigtheijt seer gretig en duur
+[single] zijn verkoft, dog alvorens is den fiscael wel Expresselijk
+[single] door den gouv. r gelast geworden nauwkeurig onder ok
+[single] te doen, of 'er eenige overtreding der passen zoude
+[single] mogen zijn geschiet off eenige verboden, geroofde,
+[single] off gestole slaven onder soude mogen schuijlen waerin
+[single] wij ook niet anders vertrouwen, off hij zal zijn devoir
+[single] „hebben
+[single] nabehoren„ gedaen
+[single] Onsen Ouden Cap. n pieter schaffer, die onlangs voor het
+[single] vertrek vande Hongij een ongeluckige valhebbende
+[single] gedaen, is daer bedlegerig geworden en gebleven, tot
+[single] dat hij op den 26. november 1643. is komen te overlijden.
+[single] wij hebben tot onderhouding van militaire ordre niet
+[single] konnen afwesen, om den Luijtenant paulus de breving
+[single] als de eerste ennaeste zijnde, bij provisie tot Hooft
+[single] vande militie voor te stellen, gelijk en invoegen als
+[single] VHoEd: die sullen konnen zien bij onse resolutie vanden
+[single] eersten december 1693. , wijders hebben wij alles gelaten
+[single] in state sonder eenige andere provisionele aenstelling,
+[single] werdende de wagten bij de twe vendrigs waergenomen
+[single] wanneer den Luijtenant Caspar Tabbere alhier
+[single] uijt
+== NL-HaNA_1.04.02_1556_0075 | #75 | sides: single | lines: 32
+[single] 26
+[single] Van Amboina den 7. en Maij 1694. —
+[single] de op ontbieding en proces
+[single] anthonijsnaets
+[single] waervan de uijtslag
+[single] staet te volgen
+[single] na haroeko
+[single] uijt Ternaten sal wesen verschenen, sullen wij in geen
+[single] gebreke blijven om denselven volgens VHoEd: g'eerdre
+[single] ordre boven voornoemde brevings te rangieren, en
+[single] gevolglijk mede bij provisie het voors. Commando op te
+[single] dragen.
+[single] den fiscael deser provintie hebbende Informatie genomen
+[single] van verscheijde mesusen door den ondercoopman anthonij vanden ondercoopm
+[single] snaets hooft tot Haroeko en Ontrent die bedieninge gepleegt
+[single] is na genomen lecture van deselve, op 22. en xber 1693.
+[single] in politiquen rade goet gevonden, gedagte snaets door
+[single] gemelte fiscael te doen Calangeren, en ter dier oorsake
+[single] gedurende zijn proces van zijn gsag als hooft van
+[single] Haroeko te suspenderen, mitsgaders dat Comtoir, onder„
+[single] tusschen bij provisie door den Cassier Joost van Costenobel,
+[single] en die Cas op die selve voet bij den boekhouder Joonnies
+[single] brakel te laten waernemen. het voors. . proces sal
+[single] verlang in state van wijsen zijn gebragt, en het
+[single] wijdere vervolg en uijtslag daer van VHo Ed: te zijner
+[single] tijd werden verstendigt.
+[single] Na de comste vanden Eerw. predicant Christianus
+[single] fredericus nucella, hebben wij geoordeelt niet te konnen
+[single] stilstaen, van nog een predicant van hier na Saroeko
+[single] te verplaetsen, welke keure is gevallen op den Eerw: hormanus Coldedchor
+[single] d:s Harmanus Colde de Horn, dewelke dat behoep
+[single] ook
+== NL-HaNA_1.04.02_1556_0076 | #76 | sides: single | lines: 28
+[single] Van Amboina den 7. ' Maij 1694.
+[single] ook heeft aengenomen, en op den 27. maert 1694. derwaerts
+[single] in zijn dienst vertrocken is, dog niet sonder ter giversatie
+[single] gelijk VHoEd: uijt onse resolutien vanden 16. en 23.
+[single] derselvige maand sal komen te blijken, waer aen wij
+[single] o
+[single] Ons ook te meer moeten gedragen, om dat zijn Eerw. ts
+[single] onder voors. z 23. maen specialijk versogt heeft dat al
+[single] het gene zijn Eerw. daer tegen hadde ingebragt om van
+[single] dat beroep te wesen ontslagen, mogt werden geregistreert,
+[single] en VHoEd: toegesonden &a
+[single] wij vertrouwen dat
+[single] VHo Ed: dese onse verkiesing niet sullen Improberen,
+[single] als zijnde gesien op een persoon die alrede zoo lang hier
+[single] is geweest, dat hem de manieren van het land, het
+[single] beleijd der Inlandse kerken en Scholen, als mede
+[single] eenige beginselen vande maleijtse tale bekent zijn,
+[single] daer beneffens sonder vrouw off omslag, van welkers
+[single] stigtelijken ommegang en studiens Humeur wi dan
+[single] ook goede effecten te gemoet zien
+[single] wij zijn VHoEd: van herten dankbaer voor de
+[single] ruijme besendinge van predicanten die VHoEd: desen
+[single] Jare hebben gelieven te doen, en waermede het vereijste
+[single] getal, van ses Leeraren wederom is vervult: den
+[single] Eerw. Nicolaes Hodenpijl hebben wij bij resolutie
+[single] vanden 27. 'n april 1694. het beroep van Hominoa
+[single] op gedragen, 'twelk bij zijn eerw. in kkeneorde veerdig
+[single] en
+== NL-HaNA_1.04.02_1556_0077 | #77 | sides: single | lines: 29
+[single] 27
+[single] Van Amboina den 7. 'n Maij 1694.
+[single] verder beloop van het
+[single] different van d. o valentijn
+[single] en dankbaer is ontfangen, dan de broederen insteren seer
+[single] dan hunne residentie van sirij sorrij na Saperoua, of de
+[single] vesting duurstede mogte werden verplaese, waerom
+[single] wij door den kkenraad apparent nog nader staen te werden
+[single] gemoeijt ten aensien vande overkomst op de sondagen na het
+[single] voors. hooft Comtoir, welke bijsonder bij quaet weer,
+[single] wat ongemackelijk van
+[single] d. o feijlingius sal met het Iagtje den swarten airent, dat op
+[single] den 27. maert Iongstleden met een lading metselsteenen,
+[single] en houtwerken na banda geretourneert is, en eerste aegs
+[single] tenselven sine wederom van daer verwagt werd, na de
+[single] voors. z provintie konnen vertrecken
+[single] zijn Eerwaerde different met d. o valentijn, gesproten uijt
+[single] het schrijven van sekeren Zijurieusen brief, waervan
+[single] in den onsen van 15. september 1693. is gemelt geweeseen feilingius
+[single] is door den Laesten wederom levendig gemaekt, en
+[single] gebragt op de rolle vanden raad van Justitie, alwaer
+[single] ged: d. o valentijn op den Laesten december desselvigen
+[single] Iaers tegens gemelte zijnen broeder geconcludeert heeft
+[single] tot reparatie van eer E. a
+[single] waerop den Eerwaerde feilingius na eenige dilaijen
+[single] hier compareerde, zoo zijn de gemoederen toevrede
+[single] gedisponeert geworden, en op de twede presentatie ter
+[single] rolle, gerapporteert, dat partijen waren vereenigt; dan
+[single] den
+== NL-HaNA_1.04.02_1556_0078 | #78 | sides: single | lines: 26
+[single] Van Amboinca den 7. ' Maij 1694.
+[single] den fiscael deser provintie, meenende verpligt en
+[single] bevoege te zijn om kennisse te nemen vande feijten
+[single] vande voors. . brieff, waerop d. o valentijn zijne actie
+[single] van Zijurie hadden willen funderen en publijk gemaekt,
+[single] en wonke van d. o feijlingius op den 12. Januarij 1694. in
+[single] onsen rade ter contrarie hadde gepersisteert, om den Inhout
+[single] ten allen tijden gestant te doen en te verifieren, heeft
+[single] permissie versogt om na de manier van die vereeniging
+[single] te Inquireren, twelk hem is toegstaen, ende voornoemde
+[single] twee broederen daer op voor den raad van Justitie
+[single] geciteert, versoekende voor aff exhibitie van het schriftelijk
+[single] accoord, door Haer Eerwaerde getroffen
+[single] na eenige Hacquetten aldaer de zaek op den 18. en
+[single] maert 1694. met een parig goetvinden van gedagte
+[single] raad van Justitie, door den gouv. r zijnde overgenomen
+[single] tot Communicatie aende politiquen raad, is bij denselven
+[single] op den 18:en maert gearresteert geworden, de voors
+[single] proceduren buijten voortgang te laten, mitsgaders
+[single] visie van het gemaekte accoort te versoeken, en als
+[single] een gevolg van den meerged: brieff van d. o
+[single] feijlingius, en het gene deswegen bevorens aen VHose
+[single] was gesz. , mede aen VHo Ed: was gestr. te
+[single] Communiceren en over te Lenden gelijk het selve
+[single] wederheijds bij haer Eerw. getekent en van
+[single] eenen
+== NL-HaNA_1.04.02_1556_0079 | #79 | sides: single | lines: 30
+[single] 28
+[single] Van Amboina den 7. ' Maij 1694.
+[single] rakende de ordonnantie
+[single] verleent en gordon
+[single] deswegen genomen
+[single] eenen Inhoud zijnde, als nu in Copia geschiet
+[single] den fiscael heeft wel gemeent na het gene hem voorge„
+[single] komen was, vrij wat stoffe op den Inhou van
+[single] meergesegden brieff, slaende ten laste d=o valentijn
+[single] te sullen vinden, maer dewijle wij niet anders konnen
+[single] bemerken als dat VHoEEd: haer de vereeniging van
+[single] die broederen genoeg laten zijn, en dat zijlieden in
+[single] vrede den laestgenoemde na batavia, en den anderen
+[single] na zijn beroep in banda mogen voortgaen, zoo ver„
+[single] trouwen wij hier in na VHoEd: meninge te zullen
+[single] hebben gehandelt
+[single] Volgens VHo Ed: geordonneerde met het Iagje de
+[single] andromeda heeft den gouv. r schagen bijlieden daer zulx door den gouv:r op den Cap.:n
+[single] vermoedelijk was, om te werden nagetkoeht, ondersoek
+[single] gedaen, na de Copien vande ordonnantien, waermede den
+[single] voorn. gouverneur den gewesen predicant gordon inde
+[single] ketting souden hebben doen slaen, off die wijders door den
+[single] Cap.n pieter schaffen aen andere suppoosten tot dien eijnde
+[single] souden verleent zijn, daer op gehoort hebbende Christoffel
+[single] koper, te dier tijd oppasser van gemelte Cap:n, en die
+[single] alle zijne dingen waernam, de baes smith: baltus
+[single] bruijn, mitsgaders den serg. t Merinjo Ian ortsen, dewelke en de Informatie
+[single] verklaert hadden niet te weten datter diergelijke
+[single] ordonnantien, om in, off uijt de ketting te slaen
+[single] tzij
+== NL-HaNA_1.04.02_1556_0080 | #80 | sides: single | lines: 31
+[single] Van Amboina den 7. ' Maij 1694.
+[single] gen volgens VHoEd:
+[single] last apoer berigt
+[single] ladinge van andromeda
+[single] tzij principael off in Copia, meer in wesen was, als mede
+[single] de twee laeste datse die voor off na, noijt hadden gesien,
+[single] zijnde voorn. drie persoonen op zijn E. s ordre den 27=' april
+[single] 1694. ook in rade verschenen, om als nog opening
+[single] daervan te doen, dewelke aldaer bij hun voors.
+[single] verklaerde hebben gepersisteert, en dewijle gedagte
+[single] gouv. r op sig genomen heeft gelijk bij desen geschiet
+[single] den gouv. r der deswve om VHo Ed: na waerh. t te berigten hoe het sig
+[single] -
+[single] met dese zake als zijn E. privativelijk Concernerend,
+[single] heeft toegedragen, en dat zijn E. te dier tijd in rade
+[single] verclaert heeft nog directelijk nog Indirectelijk
+[single] te weten datter eenig overblijfsel off Copie van die
+[single] „ ook
+[single] Ordonnantie souden te vinden wesen, gelijk dog „ de
+[single] presente Leden daertoe door zijn E gesommeert
+[single] zijnde, daer van niet hebben doen blijken eenige kennisse
+[single] te dragen zoo versoeken deselve seer eerbiedig vande
+[single] voldoeninge dier ordre te mogen werden gehouden
+[single] voor g'excuteert en haer aen het apart berigt
+[single] vanden gouv. r te mogen gedragen
+[single] de ladinge van andromeda, heeft miet zijn bij hebbend.
+[single] tekort gekomene op de Cognoissement vrij wel gerespondeert uijtgenomen de
+[single] navolgende dat te kort bevonden, js', als:
+[single] 102. kannen Clappus olij
+[single] 1¼ last rijs
+[single] 480. lb.
+== NL-HaNA_1.04.02_1556_0081 | #81 | sides: single | lines: 38
+[single] 29
+[single] Van Amboina den 7. 'n Maij 1694.
+[single] om zijn geringh. t op
+[single] winst en verlies afgesz:
+[single] rendement der brand
+[single] den assis. t Coemans daer
+[single] op gestelt
+[single] 480. lb. groene Cadjang
+[single] 1. Legger arak bovenduijm steek 2. d. m wan
+[single] 1. d. o d. o
+[single] 2½ d=o
+[single] d. o
+[single] ½ d:o
+[single] do
+[single] 1. d. o d. o
+[single] 1
+[single] 1. pot bengaelse boter. . . 1/3 d. o
+[single] 1. van Hollandse boter
+[single] 3. d. o
+[single] 1. van vleesch, vermits de andere vaten daeruijt
+[single] gevult zijn, maer 1/3 volgebleven
+[single] dewelke bij resolutie vanden 2. feb. ri 1694. als van
+[single] geen bijssonder exces off belang wesende, onder VHoEd
+[single] welnemen geordonneert zijn op winst en verlies aff te
+[single] schrijven, met oversending van het rapport en
+[single] Consideratie der gecommitteerdens die de ontladinge
+[single] hebben bij gewoond, het welke a uso agter de negotieb.
+[single] gschiel
+[single] 23. kelders fransche en 6. d. os rinse brandewijnen
+[single] hebben wij volgens ordre publijk laten vercopen, hebben wijnen
+[single] door malkanderen behaelt, de eerste soort 23¼. rd. s
+[single] schaers, en de andere ruijm 30 5/8 rd. s de kelder. —
+[single] den assistent Bartholomeus koeman is met zijn aen„
+[single] „komste ten eersten op d. o Iagtjen gestelt om aldaer de ver„
+[single] antwoording volgens zijn qualiteijt mede te hebben,
+[single] dan d. o bodempje had zijn ladinge te dier tijd alle in„
+[single] sulx den opperstierman agter het Cognoissement hier
+[single] mede
+== NL-HaNA_1.04.02_1556_0082 | #82 | sides: single | lines: 40
+[single] Van Amboina den 7. ' Maij 1694.
+[single] ladinge van dit bodem
+[single] mede heeft geteken, hoewel dat door den schipper op de
+[single] buijten plaetsen is versuijmt te geschieden, niet te genstaende
+[single] hem dat was gelast, en met de goederen, die hij na de
+[single] buijten Comtoiren bragt, alhier reets zodanig was
+[single] gehandelt
+[single] de nagel ladinge van dit bodempje bestaet in 20.
+[single] potten geconfijte moernagelen en 166194. lb: of 356 1/150
+[single] 6394.
+[single] bharen droge off gemene d. os belopende tesamen een somma
+[single] van ƒ61647:8„ 8. waer toe de respective Comtoiren
+[single] van het Iongste gewasch gecontribueert hebben als volgt
+[single] Hila - - - - - - - bharen 48. 25/50
+[single] 377
+[single] Hommoa - - - - - „ d. o 40.
+[single] 518
+[single] 550
+[single] Haeroeko - - - - - „ d. o 21. 352
+[single] /550
+[single] Corriecque - - . - „ do
+[single] 350
+[single] 22. 19/550
+[single] do
+[single] . - . . „ 8. 34. 265
+[single] 'tcasteel
+[single] 1/50
+[single] tesamen bharen 173.
+[single] 212.
+[single] /550.
+[single] Item 6160. lb. off 11 1/½ bharen Moernagelen op Hila
+[single] ingekost, in welkers procure gevolgt heeft moeten werden,
+[single] den eijsch van't voorleden Iaer, alzoo men anders soude
+[single] konnen verlegen staen, dog dewijle uw HoEEd: Iongsten
+[single] eijsch meer quantiteijt inhout, is ten eersten ordre gegeven
+[single] na Hila om te zien off 'er nog wat meer te bekomen
+[single] soude zijn, en staet het verders soo daer als elders
+[single] te dekomen, vHoEd: met thuijs te spijk te werden toegesonden
+[single] nu
+[single] je
+== NL-HaNA_1.04.02_1556_0083 | #83 | sides: single | lines: 34
+[single] 30
+[single] Van Amboina den 7. 'n Maij 1694.
+[single] restant der hagelen
+[single] de negotieboeken
+[single] gaen over
+[single] Hendk. Maurits en de
+[single] gearriveert
+[single] schrijvens van
+[single] Macassar
+[single] Nu behouden wij nog inde pakhuijsen hier aen't Casteel
+[single] ongeveer 825. ongemene bharen nagelen, waer van het huijs
+[single] te spijk, komende in te nemen 600. bharen, zijnde geweest
+[single] voor twee Iaren, de Ladinge vande fluijt Cronenburg en ten
+[single] naesten bij van een Charter, met desen bodem, soo zouden
+[single] alhier nog overbeven een quantiteijt van d. o Nagelen
+[single] van 220. bharen â 550. lb. ieder om met het Iagje de
+[single] Herderin te werden weg gevoert
+[single] de negotie en andere bijboeken van dit gouvernement in
+[single] gereetheijt zijnde, gaen bij desen over, sullende bij onse
+[single] volgende brieven werden aengehaelt, 't geen dienaengaende
+[single] gewoon is, bij de brieven te werden uijtgedruct, en met het
+[single] huijs te spijk volgen; soo wel de guarnisoens als secreta„
+[single] riale boeken en papieren, waerin wij versoeken dat
+[single] VHoEEd: gelieven te winden de bijlagen waer toe in desen
+[single] werd gerefereert en dewelke hier bij niet mogten
+[single] wesen gevoegt
+[single] de schepen Hendricka Maurits ende Civerka hebben wij
+[single] particulierlijk berigt met vrijmans vaert. uijt banda Civerkat na banda
+[single] dat aldaer waren gearriveert, zoo mede uijt een
+[single] advijs briefje vanden raad tot Macassar vanden 27. en
+[single] Maert deses Jaers, en den 25. pril I. o leden alhier
+[single] ontfangen, wegens het overlijden vanden here presid. t
+[single] francois Prins, en dewijl die vrienden ons daarbij
+[single] in
+== NL-HaNA_1.04.02_1556_0084 | #84 | sides: single | lines: 34
+[single] Van Amboina 7. n Maij 1694.
+[single] daerop doet den E. opper„
+[single] „coopman schenkenberg
+[single] den Coopman roselaer
+[single] daervan berigt gedaen na
+[single] Ternaten met de Haes
+[single] het proces van quet„
+[single] siong gaet overt
+[single] instantelijk hebben versogt dat den E oppercoopman Mattheus
+[single] van schenkenberg soo spoedig als 'tmogelijk soude zijn,
+[single] tot haer E. s mogte overkomen, om inde difficiele
+[single] Conjuncture van zaken aldaer van zijn E. s presentie
+[single] te wesen gedient, zoo hebben wij op den 27. april 1694.
+[single] geresolveer, dat gemelte oppercoopman bij provisie
+[single] bij provisie transpont aen van zijn administratie, Transport soude doen aenden
+[single] Coopman roselaer, en deselve als daertoe specialijk
+[single] gecommitteert, tot de komste vanden E. oppercoopman
+[single] pieter buijs, zijnde daervan ook berigt gedaen aenden
+[single] E. Heer gouv. r en raad in Ternate p=r de Chialoep de
+[single] Haes, welke met de goederen en papieren voor dan
+[single] gouvernement volgens VHo Ed. ordre met bronstee
+[single] ontfangen, op den eersten deses derwaerts
+[single] is
+[single] vertrocken
+[single] het principael proces van quettjang als gemagtigde
+[single] van zijn moeder Cautje tegens de Executeurs van
+[single] quesenkos boedel om aldaer in Cas d'aspel te dienen gaet
+[single] bij desen over, zijnde alle de stucken waer van 'er
+[single] vrij veel inde Copien door een vande parthijen geligt
+[single] en na batavia mede genomen schijnen te hebben
+[single] gemanqueert, alles nu in presentie van partijen wedersijds
+[single] procur. r nagssien en versegelt
+[single] met die bodempje gaet op zijn versoek over den Eern. te
+[single] Predikam
+== NL-HaNA_1.04.02_1556_0085 | #85 | sides: single | lines: 31
+[single] 31
+[single] Van Amboina den 7. ' Maij 1694.
+[single] Item den predeikant
+[single] valentijn en familie
+[single] predikant francois valentijn met zijn familie alsmede
+[single] op desselfs speciael versoek alhier in rade den 21. april
+[single] laestleden gedaen, zijn swager den assistent Ioannes Snaets,
+[single] om VHo Ed: de goetheijt hebbende van sulx toe te staen,
+[single] te repatrieren
+[single] mitsgaders 16. stx: militairen die haer tijd uijt gedient
+[single] en haer verlossing hebben erlangt, zijnde derselvers
+[single] namen bij de monsterrolle uijt gedruct met haer
+[single] volle geweer.
+[single] de ondervolgende persoonen hebben alhier in Cassa getelt
+[single] een somma van rd. s 37668. 16. om wedervolgens onse
+[single] verleende wisselbrieven ter ordre van VHoEd: uijtgekeert
+[single] en voldaen te werden, namentlijk:
+[single] den predikant francois valewijn om door hem selfs
+[single] ontfangen te werden - - . . . rd. s 13000.
+[single] den d. o als boven rakende het Capitael van
+[single] sijn voorsaet S. r hend:k Leydecker zal.:r. . . . . „ 7058. 16.
+[single] den Coopman Pieter Roselaer en den burger
+[single] frans Colijn, om door Juff.:r dorothea helwig
+[single] wed. e vanden Coopman Ioannes Moris te
+[single] werden ontfangen
+[single] -
+[single] 7000.
+[single] den winkelier Salomon storm om aen
+[single] Juffr
+[single] Transportere rds. 17058„ 16.
+[single] en 16. Militairen
+== NL-HaNA_1.04.02_1556_0086 | #86 | sides: single | lines: 30
+[single] Van Amboina den 7. ' Maij 1698—
+[single] P. r Transpomr rd.s 17058„ 16.
+[single] Juffr Catharina de voogt, wed. e wijlen de E.
+[single] „ 600.
+[single] Hend:k Crudop te werden uijtgekeert
+[single] den geregts bode Ian Ernst, om door den onder„
+[single] coopman Pieter durant te werden Ontfangen„
+[single] den Coep:n der Chinesen Linckhito, om door den
+[single] mede Chinees limtsinko ontfangen te werden „ 3000.
+[single] den Chinees soasanko, om aen d. o soa-oiqua te
+[single] werden uijtgekeert - - - - - - - - - „ 1500.
+[single] den Chinees tsitionko, om door den Cap. n der
+[single] Chinesen queonqua te werden ontfangen „ 200.
+[single] den Chinees oeinoen, om door hem selfs te
+[single] werden ontfangen. . . . . . . „ 3000.
+[single] den Predikant Nicolaes Hodenpijl om aen zijn
+[single] broeder Martinus Bodenpijl te werden
+[single] - - - „ 310.
+[single] .
+[single] -
+[single] uijtgekeert
+[single] Somma rd. s 37668. 16. -
+[single] Hiermede afbrekende &.:a onderstom en was getekent
+[single] N: Schagen, I: Rumphius, Pieter Koselaar —
+[single] Pieter de bock en S: storm in margine stan
+[single] Amboina aan't Casteel victoria
+[single] den 7. Maij 1694.
+[single] 2000.
+[single] Register
+[single] 70
+== NL-HaNA_1.04.02_1556_0087 | #87 | sides: single | lines: 26
+[single] 32
+[single] Van Amboina den 7. ' Maij 1694.
+[single] Registertje
+[single] N. o 1: originele missive vanden Extraord. s raad en gouv. r
+[single] Nicolaes Schagen aen haer Ho Ed: in dato 7.:' Maij 1694.
+[single] 2. Extract Notul uijt de rolle vanden Raad van Iustitie in
+[single] amboina, van den 22. en aug. o 1642.
+[single] 3. d. o notul vanden 30. october 1692.
+[single] 4. be-eedigde verklaring vanden Secretaris Ian durijn
+[single] de dato 6. n maij 1694.
+[single] 5. d. o l. o van den p. l serg. t Christoffel keper, baltus
+[single] bruijn, baes smit, en Ian ortsz. Marinjo de
+[single] dato voorsz:
+[single] Amboina aan't Casteel victoria 7. ' Maij 1694. —
+[single] Batavia
+[single] Aan den Ho: Ed: Here
+[single] w0: van outhoorn gouverneur
+[single] generaal, mitsgaders de
+[single] Ed: Heren Raden van India
+[single] Hoog Ed„ gestrenge„
+[single] ontfangen p. r d'andromeda
+[single] mijn gebiedende Heren
+[single] den 31. meij 1694.
+[single] uijt VHoEd: seer g'eerden brieff van den 19.:n xber
+[single] 1693. , met het sagje de Andromeda aen dese regering
+[single] toe
+== NL-HaNA_1.04.02_1556_0088 | #88 | sides: single | lines: 28
+[single] Van Amboina den 7. ' Maij 1698.
+[single] toegekomen, heb ik met verwondering gesien, dat den
+[single] gedeporteerden en wijders gesententieerden, predicant
+[single] hendrik willem gordon de assurantie heeft gehad om
+[single] veniam agendi tegens my te versaken, maer dewelke
+[single] „ gewone
+[single] door VHoEd: volgens derselver „ genereusheijt en billikheijt
+[single] voor eerst zijnde geweijgert, vinde ik mi ten hoogsten
+[single] verpligt om VHoEd: deswegen mijne eerbiedige
+[single] dankbaerh. t te betuijgen
+[single] de opening die VHoEd: wijders van mij vorderen,
+[single] sal ik mij niet Ontrecken, verwagtende een seer ootmoedig
+[single] versoekende dat ik door deselve (nademael de versogte
+[single] venia agendi nog tot nader resolutie is gereserveert
+[single] geen verder prejudicie mag onderworpen blijven, als
+[single] VHoEd: Cencure en Correctie, die ik mij schuldig
+[single] en gewillig ben te submitteren, bij aldien ik deselve
+[single] mogte hebben verdiendt
+[single] de ondonnantie daer uEd: van gelieven te melden is
+[single] niet in wesen, maer om de waerh. t van het gepasseerde
+[single] voor
+[single] daermede „ V HoEd: niet te verbergen, bekenne ik
+[single] sodanige ordonnantie te hebben verleent, maer
+[single] weijnige dagen voor het overlijden van den ouden Cap. n
+[single] pieter schaffen, heb ik den Secretaris Ian durijn
+[single] bij hem gesonden, om na deselve te vragen, en die
+[single] wederom na mij te nemen; op dat de voors. z ordonnantie
+[single] in
+== NL-HaNA_1.04.02_1556_0089 | #89 | sides: single | lines: 29
+[single] 33
+[single] Van Amboina den 7. ' Maij 1694.
+[single] in geen verkeerde handen komen en misbruijke mogte
+[single] werden, gelijk dan den gemelten Cap.:n seer gewillig en
+[single] overbodig is geweest om deselve over te geven, zijnde
+[single] na desselfs overlijden door mij gescheurt en weg geworpen
+[single] was
+[single] als een stuk papiers dat versleten „ en uijtgediend hadde.
+[single] Naderhand en op het bekomen van VHoEd: ordre heb
+[single] ik bij mij geroepen den Serg. t Christoffel keper, die bij
+[single] meerged. Cap. n tot zijn dood toe als oppasser heeft
+[single] gedicht, en alle sijne particuliere saken waernam, den
+[single] welken ondervraegt hebbende of 'er ook nog eenig geschrift
+[single] off blijk onder de papieren van meerged: schaffert mogte
+[single] wesen bevonden off als nog zijn, rakende het in off uijt
+[single] de ketting te slaen van goudon, heeft denselven mij
+[single] verklaert, datter behalven de ordonnantie die ik door
+[single] den Secretaris hadde laten wederom eijsschen nog
+[single] wel een Copia van d. o was geweest, maer dat den Cop. n
+[single] twee dagen voor zijn overlijden door eijgen notieff belast
+[single] hadde soo aen hem als zijn gestelde erfgenaem de
+[single] wed. e boudewijns. om geseijde Copia mede te scheuren
+[single] off verbranden, sonder dat in het alderminste was
+[single] bewust dat 'er eenig ander schriftelijken last. tzij
+[single] door den Cap.n ontfangen off uijtgegeven, betreffende
+[single] de voors. . zaek, in wesen was off oijt hadde geweest,
+[single] „ smit
+[single] gelyk ook berigt en verklaert den baes „ balter bruijn,
+[single] en
+== NL-HaNA_1.04.02_1556_0090 | #90 | sides: single | lines: 26
+[single] Van Amboina den 7. ' Maij 1694. —
+[single] en den serg. t Marinjo Ian ort.  zijnde alle zodanige
+[single] lieden als ik hebbe konnen vermoeden, dat van die sake
+[single] eenige kennisse soude konnen dragen, en welkers verkla„
+[single] ring beneffens die vanden Secretaris Ian durijn in
+[single] twee anthentique Instrumenten bij desen b'eedigt
+[single] overgaen
+[single] waermede ik dan niet in staet zijnde om VHoEd.
+[single] begeerte in dit stuk te voldoen, bid ik dat deselve mij
+[single] deswegen gelieven te ontschuldigen, en zoo ik daerin
+[single] hoewel buijten alle Intentie van qualijk te doen, soude
+[single] hebben mogen gepecceert dat mij die soute mag werden
+[single] ten beste gehouden, dewijl, gelijk ik aen d'eene zijde geen
+[single] roem off ostentatie hebben willen maken van een zaek
+[single] die ongaerne en tegen mijn humeur hadde gedaen deselve
+[single] ook aen mijne hoge gebieders niet hebben willen
+[single] verbergen off ontkennen, met die verwagtinge en
+[single] vertrouwen, dat de redenen en motiven die mij toe het plegen
+[single] van dat poinct van gesag hebben geobligeert bij vHoEd,
+[single] voor sufficanten voldoende sullen werden aengenomen.
+[single] Met de wijdlopige extentie van die subject bij onsen
+[single] gemenen brieff van den 21. en Maij 1693. p. r het schip
+[single] Hendrik Maurits aen VHoEd: afgegaen, heeft desen raad
+[single] getragt VHoEEd: alle de verantwoording en Satisfactie
+[single] te verlenen, die deselve als trouwe en wel menende
+[single] dienaers
+== NL-HaNA_1.04.02_1556_0091 | #91 | sides: single | lines: 33
+[single] 34
+[single] Van Amboina den 7. ' Maij 1694.
+[single] # als op dat hij
+[single] hier geoordeelt
+[single] werden gestraft, den
+[single] Gouverneur en de sijne
+[single] buijten staat soude
+[single] werden gesteldt
+[single] dienaers hebben geoordeelt tot dien eijnde te moeten dienen,
+[single] specialijk is bij onse resolutie vanden 4. november 1692.
+[single] welke mede overgaen, en bij die materie iterativelijk
+[single] geallegeert is, gebleken, op wat voor een slimxe directie
+[single] de zake bij de leden vande Iustitie op den 27. october
+[single] was gebragt tot zoo Informelen renvoij, het welke die sijnde niet te connen
+[single] gene die dese directie hebben gemanieert niet zoo seer
+[single] beoogden ten eijnde dat den voors.  gordon op batavia
+[single] souden werden gesraft, om eenige reparatie van eer
+[single] te Erlangen; zijnde hetselve renvoij niet alleen met
+[single] 4. stemmen tegen 4. en met een dubbelde vanden
+[single] oppercoopman schenkenberg seer Informeel overgehaelt,
+[single] maer geschiet zijnde ook geheel buijten kennisse
+[single] en Communicatie van den gouv. r gelaten, daer in
+[single] tegendeel de bekentmaking van dat gevallen renvoij
+[single] ilico off ten eersten door den secretaris vanden raad
+[single] van Justitie is geschiet aenden meergen: gordon
+[single] als dan vHo Ed: is gebleken uijt de notulen vande
+[single] Iustitiele rolle vanden 30. n october 1692. en het request
+[single] van denselven op dien dato gepresenteert, en ingeschreven,
+[single] Mitsgaders bij desen als een remarkabile bijlage
+[single] nogmael overgaende, waerbij hij gordon seer
+[single] nadruckelijk zijne verpligting en dankbaerheijt wegens
+[single] die genotene Communicatie heeft betuijgt.
+[single] Nogtans.
+== NL-HaNA_1.04.02_1556_0092 | #92 | sides: single | lines: 26
+[single] Van Amboina den 7. ' Maij 1694.
+[single] Nogtans is het een gemeen gebruijk dat den gouv. r van veel
+[single] minder saken rapport ontfangt, die in zijn absentie werde af
+[single] gedaen, en heeft dit oversulx niet anders konnen werden
+[single] aengesien als dat men van nening en op set was geworden
+[single] (ik spreke vanden picepresident, off diegene dewelke de
+[single] directie van de zake heeft gehad en niet vande verdere
+[single] leden van den raad van Iustitie die de qualiteijt en
+[single] verpligting niet hadden om de meergsegde notificatie
+[single] te doen) om den gouvern.:r geheel buijten postuur en
+[single] vermogen te stellen, van zijne geledene Injurien te sien
+[single] gebetert en gestraft, de ambonse Ingesetenen in die opinie
+[single] dat een predicani boven, en Exemt van deselve was,
+[single] mitsgaders onse ker off den gouv. r voor zodanigen man
+[single] was te houden, off niet als gordon hem hadde gedecrieert,
+[single] en gevolglijk genoegsaem in reati vande bose
+[single] Calummen, daer hij denselven mede hadde geschonden,
+[single] en voor de gehele provincie van amboina tot een spot
+[single] en schandael ten toon hadde gestelt
+[single] de Leden van den raad hebben wij nevens mij inden
+[single] voors.z ombonsen brieff vanden 21. Maij 1693. UHo Ed
+[single] getragt te demonsteren de onbevoegtheijt van sulken
+[single] onderneming, de vereijste eer en agtbaerheijt, mitsgs.
+[single] gesag in een gouv. r en het dangereute gevolg van der
+[single] selver verval en lesie; waerbenevens ik bidde
+[single] nhove
+== NL-HaNA_1.04.02_1556_0093 | #93 | sides: single | lines: 28
+[single] 35
+[single] Van Amboina den 7. ' Maij 1694.
+[single] VHoEd: nogmaels te mogen in gedagten brengen, dat
+[single] deselve in die breuke off onsekerheijt soude hebben moeten
+[single] continueren gehele anderhalf Iaer, dewelke in allen
+[single] gevallen vereijst wierden om na het voors.:. renvoij in dese
+[single] provintie den uijtslag te doen wederkeren, en dat ik
+[single] daer bij mag voegen en repeteren hoenodig de sententieering
+[single] van zodanigen publiquen schender moeste werden
+[single] gevondeelt, ter plaetse vande gepleegde misdaeden. van
+[single] al het welke ik sal nalaten, om uEEd: niet te vervelen,
+[single] verdere repetitie te doen, versoekende alleen dat
+[single] VoEd: het gededuceerde en aengewesene inden voors.
+[single] gemenen brieff met de nodige reflexie gelieven te
+[single] begunstigen, sullende die dingen daermede overstappen,
+[single] „ soo
+[single] hoewel er „ ten aensien van het hoognodig maintien van
+[single] des geuv. rs authoriteijt tot uijtvoeringe van VHoEd: tot
+[single] dien Eijnde verleende Commissie als de wettigheijt
+[single] en noodsakelijkheijt vande Iudicature en straffe over
+[single] den meergen. deugnier zoo wel als andere quaetdoen„
+[single] „ders nog vele effentiele redenen en bewijsen souden
+[single] konnen werden bijgebragt.
+[single] Na dat ik dan, als vEoEd: aengewesen is van den 27.
+[single] October tot den eersten november de patientie hadde
+[single] gebruijkt van vergeefs te wagten na een ordentelijk
+[single] rapport off Communicatie van het gearresteerde renroij
+[single] heb
+== NL-HaNA_1.04.02_1556_0094 | #94 | sides: single | lines: 26
+[single] Van Amboina den 73 Mag 1694.
+[single] heb ik eerst laten roepen den Secretaris vanden
+[single] raad van Iustitie en hem gevraagt na het voors:z gedispo„
+[single] neerde, na welke tijd verwagtende dat den meergen.:t
+[single] vice presid. t ondertusschen, en des te beter toe zijn pligt komen,
+[single] en door die laagmoedigh. t zouden werden geconfundeert
+[single] en overtuijge) ik nog hebbe gepatienteert, tot den 3. ' 9ber
+[single] wanneer ik, siende dat aen d' eene zijde door een
+[single] persoon die neffens andere schuldig was, mij om mijne
+[single] Caracter te venereren, en te gehoorsamen, geinjurieert
+[single] en geschonden was (als die gene welke geen Eer,
+[single] trouwe, liefde, off obedientie maer in tegendeel den
+[single] Haer, oversie en versoeijing van een iegelijk verdiende) en
+[single] aende andere zijde een pretens arrest van den raad van
+[single] Justitie daer ik amptshalven en altijd presid. t van
+[single] was en most blijven) om geen regt off reparatie alhier
+[single] te doen aen een gouv. r welkers publique persoon voorna„
+[single] „mentlijk was geledeert, mitsgaders nog daer en boven
+[single] dat die gene welke de directie in dat Collegie had
+[single] gehad sig een anthoriteijt aenmatigde boven den Gouv. r
+[single] met een overstemming en Conclusie te formeren die
+[single] geheel onwettig en ongerijmt was, om den gouv. r
+[single] daermede desen aengaende, buijten alle vermogen
+[single] en gesag, ende tot een spot van geheel amboina
+[single] te stellen soo heb ik eijndelijk mijn toevlugt moeten
+[single] nemen
+== NL-HaNA_1.04.02_1556_0095 | #95 | sides: single | lines: 27
+[single] Van Amboina den 7. ' Maij 1694.
+[single] nemen tot dat gesag, om te toonen dat het selve tot
+[single] stuijting van alle wijdere des ordres en quade gevolgen
+[single] nog in wesen was en op den 3. n november 1692. aen den
+[single] Cap.n pieter Schaffen zal:r gelast (gevende hem tot
+[single] dien eijnde een schriftelijke ordonnantie, om toe zijn
+[single] „ontlasting te dienen hoewel hij mij sulx met heeft
+[single] gevergt alleen om hem in alle candeur en opregtigheijt
+[single] de vrees te benemen, dat hij in een saek die hij niet
+[single] te verantwoorden had zoude konnen werden behaelt)
+[single] de meergem. Hendrik willem Gordon een bou off ring
+[single] aen zijn been te doen en aen 'sComp. s gemene werken
+[single] te stellen tot nader ordre, waer aen hij dan besig is
+[single] geweest met kalk siften binnen de ringmuur off buijten
+[single] fortresse tot s'anderen daags, wanneer ik, soo has bij den
+[single] politiquen raad besloten was, dat zijne proces alhier
+[single] finalijk soude werden afgedaen en de leden van de
+[single] Iustitie sulx hadden aengenomen als blijkt bij onse
+[single] resolutie vanden 4. en november, denselven gordon wederom
+[single] hebbe doen largeren, en den Cap. n gelast hem te laten
+[single] brengen in zijn detentie, en in staet als hij daer bevorens
+[single] was geweest
+[single] Sodanig heeft sig dese sake na waerheijt toegedragen,
+[single] immers na mijn geheugen mede brengt, dat ik in desen
+[single] als zijnde van weijnig ommeslag geweest ook meene
+[single] helk
+[single] 36
+== NL-HaNA_1.04.02_1556_0096 | #96 | sides: single | lines: 26
+[single] Van Amboina den 7. ' Maij 1694.
+[single] heel goet te hebben; verklarende als nog dat het geno
+[single] ik daer in gedaen hebbe is geschiet door een opregte
+[single] persuatie van min oordeel en gemoet, tot Contervatie
+[single] van mijn amt, en om daer aen door slapheijt van
+[single] humeur niet te gebreken, sonder dat ik kom beseffen
+[single] daer in te hebben gepecceert tegen de persoon van Hendrik
+[single] willen gordon, door zoo menigvuldige en kragtige
+[single] bewijsen geconvinceert en weerdig alle soorten van
+[single] strenge en Infame straffen; die om de Continuatie en
+[single] veragting die hij aende Iustitie betoonde bij appointe„
+[single] „ment van den raad tot tweemael toe te water
+[single] en te lijs gedoemt, en geconfineert is geweest,
+[single] in een donker gat, en de Laeste mael voor den tijdt
+[single] van ses dagen als dat is gebleken en als nog consteert
+[single] bij de Criminele rokle van den 22. 'n aug. o 1692. Ritsgs.
+[single] de Extracten deswegen aen VHoEd: overgesonden;
+[single] dewelke wijders al op denselven 22. aug. o bij appointem. t
+[single] van dien dato was gesuspendeert van ampt
+[single] qualiteijt en gagie, en uijt wiens beschuldiging
+[single] mitsgaders Chare en sufficante bescheijden tot desselfs
+[single] verificatie leggende niet anders konde werden
+[single] besloten en verwagt als dant aenden voorn. gordon
+[single] geen mindere straffe soude konnen werden geappliceert
+[single] als weijnige dagen daer na bij den raad van Justitie
+[single] alhier
+== NL-HaNA_1.04.02_1556_0097 | #97 | sides: single | lines: 28
+[single] 37
+[single] Van Amboina den 7. ' Maij 1694.
+[single] alhier uijtgesproken is geworden
+[single] den gouv:r dan, menende en in gemoede overtuijgt
+[single] werdende geobligeert te zijn tot bewaring van nodig
+[single] fe sag sedanigen Exempel te gebruijken, kom onder reveren„
+[single] cquetoiren en uijtstekenden
+[single] tie niet beseffen sig daermede tegen sulken „ denog niet
+[single] te hebben vergrepen, nog ook denken dat de eerw: broederen
+[single] predicanten die vanden kerkenraad tot batavia, off
+[single] iemamt anders vande kennelijkheijt en Enormiteijt, der
+[single] vuijle stucken vanden meergesegden gordon nu ten
+[single] overvloede geinfermeert, sig zoodanigen persoon off
+[single] sake eenigsints behoorden aen te trecken, maer dant
+[single] deselve veel eer en met alle regtsininge en onvartijdige
+[single] verstanden sullen oordelen en vast stellen, dat sulken
+[single] ontaert en verra lid haer niet aengaet, maer ver„
+[single] diens om aofgesneden en weg geworpen te worden,
+[single] om geen lesie aende goede en gesonde Levemaaten
+[single] toe te brengen, dat gordon derhalven die straffe wel
+[single] heeft verdiend en behoort te dragen, niet als predicant
+[single] Maer als gorden, en dat sulke boos doenders, die met
+[single] de waem en professie van predicanten op die
+[single] Manier delinqueren in allen delen meerderstraffe
+[single] weerdig zijn, waer van de voornaemste en nog vrij
+[single] gequalificeerde dienaren vande EComp. in sulken
+[single] „geval in regt en billikheijt die zonder aentien van
+[single] personen
+== NL-HaNA_1.04.02_1556_0098 | #98 | sides: single | lines: 25
+[single] Van Amboina den 7: ' Maij 1694.
+[single] personen zijn, niet zoude werden geximeert, gelijk
+[single] daer van de Exempelen ook niet gebreken.
+[single] voor het venerabel en m„r selven heijlig ampt der
+[single] predicanten, heb ik behoorlijke Consideratie en Eerbiedigh. t
+[single] mitsgaders voor hare persoonen de agting die deselve
+[single] meniteren, tragtende zooveel in mij is, die eerwaerdigh. t
+[single] te doen aenwassen en groter werden, waer in ik
+[single] vertrouwe dat ik door de broederen hier in Loco zijnde
+[single] niet zal werden wedersproken; en bij aldien Eenige
+[single] Collegie off persoon van die ordre daer aen mogte
+[single] twijffelen en eenige gedagten overhouden, als off
+[single] ik door onmin of ongenegentheijt voor deselve, off om
+[single] eenige lesie daer aentoe te brengen hadde te werk
+[single] gegaen, zoo betuijge ik als nog gelijk ik ten allen
+[single] tijden bereijdwillig ben te doen, dat ik daerin geen
+[single] ander object hebbe gehad als de persoon van hendrik
+[single] Willem gordon iu particulier als een versoeijelk
+[single] booswigt, en die met de aversie van alle soorten
+[single] van eerlijke Lieden te persecutie der wetten en
+[single] straffen hadde gementeert, alleen uijt dien Hoofde
+[single] nog te abominabelder, om dat hem de Caracter van
+[single] predicant, leeraer en voorganger, in het goede de
+[single] Conscientie noijt heeft konnen wacker maken om
+[single] ten
+== NL-HaNA_1.04.02_1556_0099 | #99 | sides: single | lines: 27
+[single] 38
+[single] Van Amboina den 7. en Maij 1694
+[single] ten aensien en in reverentie van deselve een tree of
+[single] acte van een eerlijk man te doen gelijk ik geloof
+[single] dat hij nog wel nader sal doen blijken
+[single] Ten weer niet off VHoEd: met een meerder vertoog
+[single] van redenen om mij op dit stuk te regteerdigen „ ons
+[single] schuldiges te stellen souden mogen wesen gediend, waerin
+[single] ik egter niet zoude gebreken bij aldien mi de objectent
+[single] off difficulteijten, die mij souden mogen werden gem. t,
+[single] waren te kennen gegeven, vertrouwende in alle onder„
+[single] werping, dat ik vHoEd: Cormissie met het voors.
+[single] volkomen satisfactie sal hebben gedaen met wijdere
+[single] verwagting en bede dat VHoEd: een minister die
+[single] uijt kragt van VHoEd: Commissie d'eere heeft van
+[single] in derselver name het gesag over een gehele en zot
+[single] Considerable provintie te voeren, niet sullen gexpondere
+[single] laten, om aen een particulier mensch, die mede onder
+[single] dat gesag is begrepen geweest, rekenschap off verantw.
+[single] te moeten doen, van 't gene hij als gouv. r in zijn amt,
+[single] en tot sterking van die Caracter ten dienste vande
+[single] EComp. e heeft in't werk gestelt; want zijnde van die
+[single] onderhorigen bekleet met den venerabile naem van
+[single] predicant gelastert en genoegsaem publijk ten toon gestelt
+[single] voor een atheist en vijand van religie en alle goede
+[single] ordre, daer bij schijn heijlig, Machiavellist en bedrieger,
+[single] en
+== NL-HaNA_1.04.02_1556_0100 | #100 | sides: single | lines: 27
+[single] Van Amboina 7. Maij 1694.
+[single] en Corruptibel, peculateur en trouwloos bestierder, en
+[single] rover van Comp.:s goederen, mitsgaders voor het geene hij
+[single] wijders vuijl en schandaleux hadde konnen verdigten, was
+[single] ik een subject geworden, zoo veel zijn toeleg mede bragt,
+[single] soo onbequaem en onweerdig om s' Comp. s ghacg te voeren,
+[single] dat niemant meer lust en genegenth. t konde overhouden
+[single] om zodanigen gouverneur gehoorsaemheijt en trouwe
+[single] „ connen
+[single] te bewijsen ten zij desselfs gesong hem hadde, te hulp komen,
+[single] zijnde een iegelijk bekent dat den Indischen landaert,
+[single] en im bijsonder die van de oosterse provintien niet soo seer
+[single] sien op de Iustitie en regtmatigheijt van de sake off van
+[single] de gene die gelijk heeft als op de authoriteijt waermede
+[single] deselve kan werden gehand haeft
+[single] Ick bid vHoEEd: voor mij en voor alle die gene welke
+[single] dan gesag Comp.  wegen in sulketeere occurentien hebben
+[single] te dragen, dat vHoEd: met een favorabel oog en net
+[single] een overweginge die eenigsints gecompasseert en gerigt
+[single] zij na de swakheijt en menschelijkheijt van hunne
+[single] Ministers en subjecten gelieven te oordelen en in Consideratie
+[single] te nemen de bekommerlijkheijt en belemmering van
+[single] sulke ontmoetingen, daer ik in mijn geval, off mij
+[single] selfs eenigsints hebbe moeten redden, off onaengesien
+[single] dat ik gouv. r was, onder alle mijne ontfangene
+[single] affronten, vexatien, en schendingen succumberen, en
+[single] tot

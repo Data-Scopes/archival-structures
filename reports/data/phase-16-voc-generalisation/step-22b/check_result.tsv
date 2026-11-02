@@ -1,0 +1,10 @@
+id	split	inv	folio	gold_scan	pred_scan	verdict	correct_scan	user_note
+dev20	dev	1917	1530	NL-HaNA_1.04.02_1917_0975	NL-HaNA_1.04.02_1917_0973	predicted scan	NL-HaNA_1.04.02_1917_0973	NL-HaNA_1.04.02_1917_0975 carries 1531
+dev22	dev	1630	1124	NL-HaNA_1.04.02_1630_0187	NL-HaNA_1.04.02_1630_0526	another scan		NL-HaNA_1.04.02_1630_0187 has 1123 on the top page and I think 1129 on a larger folio below it. But maybe I've misread it and what looks like 1129 is actually 1124. / NL-HaNA_1.04.02_1630_0188 has I think an empty folio and the folio behind it has 1129. So this might be 112 / NL-HaNA_1.04.02_1630_0526 has 1439 (and a number crossed out).
+dev26	dev	1363	44	NL-HaNA_1.04.02_1363_0132	NL-HaNA_1.04.02_1363_0130	another scan	NL-HaNA_1.04.02_1363_0131	
+test9	test	2018	95	NL-HaNA_1.04.02_2018_0207	NL-HaNA_1.04.02_2018_0212	cannot tell		NL-HaNA_1.04.02_2018_0207 has 94 and the folio underneath it that sticks out is 95.
+test20	test	1903	1916	NL-HaNA_1.04.02_1903_0468	NL-HaNA_1.04.02_1903_0453	predicted scan	NL-HaNA_1.04.02_1903_0453	NL-HaNA_1.04.02_1903_0467 has 1923
+test25	test	7529	865	NL-HaNA_1.04.02_7529_0897	NL-HaNA_1.04.02_7529_0905	predicted scan	NL-HaNA_1.04.02_7529_0905	NL-HaNA_1.04.02_7529_0897 has I think 863 / NL-HaNA_1.04.02_7529_0905 could also be 869
+test27	test	2367	3631	NL-HaNA_1.04.02_2367_0695	NL-HaNA_1.04.02_2367_0709	predicted scan	NL-HaNA_1.04.02_2367_0709	The gold scan and the one before and after it all show the same folio sticking out carrying folio number 3618, but only for the scan after gold is that the focus folio. The other two have smaller folios on top of it.
+test29	test	1071	14	NL-HaNA_1.04.02_1071_0031	NL-HaNA_1.04.02_1071_0033	predicted scan	NL-HaNA_1.04.02_1071_0033	Gold has 13
+test30	test	2394	1101	NL-HaNA_1.04.02_2394_0624	NL-HaNA_1.04.02_2394_0137	predicted scan	NL-HaNA_1.04.02_2394_0137	before and after gold have 1344 and 1345 respectively.

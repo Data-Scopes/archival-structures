@@ -1,0 +1,4838 @@
+== NL-HaNA_1.04.02_2222_0001 | #1 | sides: single | lines: 2
+[single] Baier
+[single] 2114
+== NL-HaNA_1.04.02_2222_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2222_0003 | #3 | sides: verso | lines: 1
+[verso] L: Ceijlon.
+== NL-HaNA_1.04.02_2222_0004 | #4 | sides: recto | lines: 9
+[recto] Register der
+[recto] Brieven & Papieren van
+[recto] Ceijlon overgekomen
+[recto] A:o 1733
+[recto] weede deel
+[recto] F:o 425 tot 913
+[recto] Copia Resolutie en Raade van politie
+[recto] tot Colombo genoomen Zeedert 21 Novemb.
+[recto] ber 1731 tot 12 december 1732. —
+== NL-HaNA_1.04.02_2222_0005 | #5 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2222_0006 | #6 | sides: recto | lines: 20
+[recto] 425.
+[recto] Woensdag voor en
+[recto] nademiddag den 21:
+[recto] =November A:o 1731.
+[recto] present
+[recto] den wel Edelen agtb: heer gouvern:r Stephanus Versluijs
+[recto] „ E: hooft- administrateur Adriaan Maten
+[recto] „ dessave - - . - . . . Todocus wilhelmi Hiltebran
+[recto] Capitain. . . . . . . . . . . . Gerrit Kalden,
+[recto] „
+[recto] fiscaal. . . . . . . . Ioan de Mauregnault,
+[recto] „
+[recto] „ „ Capitain . Johan Wilhelm Schnee,
+[recto] „ „ Eerste Disilattur Ioan Benjamin Vernatti,
+[recto] „ „ p:l Soldij Boekhouder Ian Elias van Mijlendonk
+[recto] „ Eerste pakhuijsm:r Wilhelm Bernh: albinus
+[recto] Manvankelijk wierd in vergadering op„
+[recto] geleesen 't g'eerd schrijven van haar
+[recto] Ed:s de hoge Indiase Regeering tot
+[recto] Batavia.
+== NL-HaNA_1.04.02_2222_0007 | #7 | sides: recto,verso | lines: 47
+[recto] 426.
+[verso] Batavia deser dager per 't Iagt
+[verso] Constantia voor gale, en vervolgens
+[verso] van daar alhier over den ordinairen
+[verso] landweg Besteld, en gedateerd be„
+[verso] van den 29:' xber: Iongst leeden
+[verso] waar bij dan onder anderen quam te
+[verso] Consteeren hoe dat welgem: haar ho:
+[verso] IZ: op d'ernstige instantie en Krag„
+[verso] tige Begeerte van den heer gouver¬
+[verso] „neur in den hoofde deses gemeld
+[verso] op den 20:' aug:o deses Iaars in
+[verso] rade van India besloten hadden, zijn
+[verso] Ed:s van't presente bestier van dit
+[verso] emportante gouvernement te ont„
+[verso] „slaan, Mitsgaders tot sijn Ed:
+[verso] vervanger als gouverneur en direc„
+[verso] teur van Ceilon te nomineeren
+[verso] en verkiesen den heer Raad
+[verso] Extraordinair Wouter
+[verso] Hendrix die ook Bereets
+[verso] voor de Matureese wal op den
+[verso] 15:' Courant verpreid was geworden
+[recto] op 't schip 't huijs assenburg, hebben„
+[recto] „de in Compagnie het schip 't Land
+[recto] van Beloften dewelke sedert gale
+[recto] ook gepasseerd waren ter vervorde„
+[recto] „ring van sijn Ed:e gedestineerde
+[recto] voijage na Mallabaar in qualite
+[recto] als Commissaris van wegens
+[recto] de Ooge Regering van India
+[recto] over gem: Custe ter redres der ver„
+[recto] „warde saken aldaar, waarnevens
+[recto] quam te blijken d'aanstellinge van
+[recto] den oppercoopman en hooft admini„
+[recto] strateur D: Z: Adriaan—
+[recto] Maten tot Commandeur van
+[recto] Mallabaar, in plaatse van den
+[recto] Commandeur Iacob De Iong,
+[recto] die door welgem: haar hoog Ed.
+[recto] van dat ampt gedimoveert en met
+[recto] afgesch: gagie ter verantwoordinge
+[recto] na Batavia op ontbodem was
+[recto] geworden, somede dat in Steede
+[recto] van gem: heer Maten tot de
+[verso] op
+[recto] hooft„
+== NL-HaNA_1.04.02_2222_0008 | #8 | sides: recto,verso | lines: 47
+[recto] 427.
+[verso] hooftadministratie deses gouverne„
+[verso] „ments was benoemd en aangesteld
+[verso] geworden den Coopman en Eerste
+[verso] visitateur alhier Joan Ben¬
+[verso] „jamin Dernatti met toevoe„
+[verso] „ging der daar toe staande qualiteit
+[verso] en gagie van oppercoopman zo
+[verso] wierd eerstelijk den heer gouvern=r
+[verso] Dersluijs met desselvs g'obtineer„
+[verso] „de ontslag van dit swaarwigtigh
+[verso] gouvernement door de gesament„
+[verso] „lijke leeden met het vereijscht res„
+[verso] „pect gecongratuleerd en door sijn
+[verso] Ed: daar voor Betuijgd sijnen
+[verso] vrindelijken dank, waar op welgem:
+[verso] sijn Ed: en d'overige Raadsleeden
+[verso] Vervolgens den heer Maten
+[verso] insgelijks quamen tefeliceteeren
+[verso] Met sijn E: verkregen Clarge,
+[verso] als Commandeur van Mallabaar,
+[verso] met toewensing van des Heeren
+[verso] Mildrijken Zeegen en genoegsame
+[recto] kragten tot Bastoering van dat aan„
+[recto] „sienlijk en niet min emportant Com„
+[recto] mandement tot sijn E=:s deputatie
+[recto] in der tijd; Voorts wierd voorsch:
+[recto] F Vernatti almede geluk gewenst
+[recto] met sijn g'obtineerde qualiteit, en
+[recto] daarnevens door welgem: sijn Ed:
+[recto] staande vergaderinge gerecomman„
+[recto] „deert sijn gedrag sodanig in zijn
+[recto] presente sunctie te schicken dat
+[recto] sijn Ed: daar in mogte genoegen
+[recto] scheppen, en niet genoodsaakt—
+[recto] werden bij foute van dien sig van
+[recto] hooft
+[recto] een ander habiel administrateur
+[recto] te laten bedienen; op 't welke zijn
+[recto] E: beloofde en aannam te sullen
+[recto] Betragten om sijn Ed: voor„
+[recto] „taan alle vereijste genoegen tegeven:
+[recto] De tyt der leverantie omtrent de gecon„
+[recto] „tracteerde lijwaaten pro Patria
+[recto] met de Cooplieden ter Madurese
+[verso] Kragten
+[recto] Ruste
+== NL-HaNA_1.04.02_2222_0009 | #9 | sides: recto,verso | lines: 47
+[recto] 427.
+[verso] hooftadministratie deses gouvern„
+[verso] „ments was benoemd en aangeste
+[verso] geworden den Coopman en Eerst
+[verso] visitateur alhier Ioan Be
+[verso] jamin Dernatti met toevo„
+[verso] „ging der daar toe staande qualit
+[verso] en gagie van oppercoopman zo
+[verso] wierd eerstelyk den heer gouver„
+[verso] Dersluijs met desselvs g'oblin
+[verso] „de ontslag van dit swaarwigtig
+[verso] gouvernement door de gesame
+[verso] „lijke leeden met het vereijscht re
+[verso] „pect gecongratuleerd en door sijn
+[verso] Ed: daar voor Betuijgd sijnen
+[verso] vrindelijken dank, waar op welge
+[verso] sijn Ed: en d'overige Raadsleeden
+[verso] vervolgens den heer Maten
+[verso] insgelijks quamen tefeliceteeren
+[verso] Met sijn E: verkregen Charge
+[verso] als Commandeur van mallaba
+[verso] met toewensing van des Heere
+[verso] Mildrijken Zeegen en genoegsa
+[recto] kragten tot Bastiering van dat aan„
+[recto] „sienlijk en niet min emportant Com„
+[recto] mandement tot sijn E=:s deputatie
+[recto] in der tijd; Voorts wierd voorsch:
+[recto] F Vernatti almede geluk gewenst
+[recto] met sijn g'obtineerde qualiteit, en
+[recto] daarnevens door welgem: sijn Ed:
+[recto] staande vergaderinge gerecomman„
+[recto] „deert sijn gedrag sodanig in zijn
+[recto] presente functie te schicken dat
+[recto] sijn Ed: daar in mogte genoegen
+[recto] scheppen, en niet genoodsaakt
+[recto] werden bij foúte van dien sig van
+[recto] een ander habiel administrateur
+[recto] hooft
+[recto] te laten bedienen; op 't welke zijn
+[recto] E: beloofde en aannam te sullen
+[recto] Betragten om sijn Ed: voor„
+[recto] „taan alle vereijste genoegen tegeven:
+[recto] De tyt der leverantie omtrent de gecon„
+[recto] „tracteerde lijwaaten pro Patria
+[recto] met de Cooplieden ter Madurese
+[verso] Kragten
+[recto] Kuste
+== NL-HaNA_1.04.02_2222_0010 | #10 | sides: recto,verso | lines: 47
+[recto] 428
+[verso] Kuste bereets al: ten Eynde gelopen
+[verso] sijnde, waar door men dan ook ge„
+[verso] noodsaakt soude sijn, om eerst„
+[verso] „daags met den Cooplieden aldaar op
+[verso] „nieuws een aanbesteeding van lin„
+[verso] waaten voor 't vaderland te doen,
+[verso] so wierd door den heer gouverneur in
+[verso] deliberatie gebragt of het ten dienste
+[verso] „der E: Comp:. niet van noodsake„
+[verso] „lijkheid was dat men den Iongst
+[verso] van daar herwaarts ontbodene en tans
+[verso] alhier g'apprehendeert sittende Pat„
+[verso] „tanijse moor Carimandadoe„
+[verso] „chan die mede portie in den linwaat
+[verso] handel en staande 't Iongste Con„
+[verso] „tract met de Cooplieden Betoond
+[verso] had den groot Hen Bedriger onder
+[verso] alle deselve te sijn, en de minste
+[verso] leverantie der gecontracteerde
+[verso] linwaaten te hebben gedaan, zo
+[verso] als dat de leeden deser vergaderinge
+[verso] ten vollen gebleeken was uijt
+[recto] de lecture der papieren, dewelke nu
+[recto] eenigen tijd herwaarts tusschen dese
+[recto] plaatse en tutucorijn daar over
+[recto] Beschreven waren geworden,
+[recto] altans quame texcuseeren en ten
+[recto] eenemaal uijt den linwaat handel
+[recto] te verstoolen, Mitsgaders densel„
+[recto] „ven wederom uijt sijn arrest te
+[recto] largeeren en na Tutucorijn
+[recto] overtesenden, om aldaar op vrije
+[recto] voeten sijns weegs te wandelen,
+[recto] sonder sig meer sijner aantetrek„
+[recto] „ken, Maar Buijten 's Comp=s
+[recto] protectie verdreeven te werden tot
+[recto] afschrik der andere Cooplieden
+[recto] so wierd altans uijt aanmerking
+[recto] der voorwaarts g'allegeerde Moti„
+[recto] ven eenparig goedgevonden het
+[recto] voorenstaande te houden voor
+[recto] g'arresteerd Mitsg=:s ten dien Eijnde
+[recto] den voorsch: Cariemanda toe„
+[recto] „chan met d'eerste Chialoups—
+[verso] de
+[recto] gelegentheid
+== NL-HaNA_1.04.02_2222_0011 | #11 | sides: recto,verso | lines: 43
+[recto] 429
+[verso] gelegentheid te versenden na Tutu„
+[verso] „corijn, en de Bediendens aldaar
+[verso] t'ordonneeren om 't een en't ander
+[verso] omtrent hene Carimandadoechan
+[verso] promptelijk t'excuseeren en werk„
+[verso] stellig te maken.
+[verso] de Complete advijsen deses gouverne„
+[verso] „ments aan d' Edele ho: agtb:
+[verso] Heeren Bewinthebberen ter Ver„
+[verso] gadering van 17:' tot Amsterdam
+[verso] gerigt, als nu benevens de Brief„
+[verso] „kens aan de respective Kameren
+[verso] tot amsterdam, Middelburg,
+[verso] delft, Rotterdam, hoorn en
+[verso] Enkhuijsen in raede gelesen sijnde,
+[verso] so is goedgevonden en verstaan, desel„
+[verso] „ve te approbeeren en te onderteekenen,
+[verso] omme vervolgens met de toehorige
+[verso] Bijlagen onder opsigt van den
+[verso] eersten Clerq Bernhard
+[verso] Schroder over land na gale overtesen¬
+[recto] „den teworden, ten Eijnde door hem
+[recto] na de gebruijkelikheid over de Retour„
+[recto] scheepen Gogersmilde, papen„
+[recto] „burg „ Duijnbeek en Valkenisse
+[recto] verdeeld sijnde, met deselve verder
+[recto] na't Vaderland te werden overge„
+[recto] „bragt:
+[recto] Aldus gedaan en Geresolveerd
+[recto] in't Casteel Colombo ten Dage
+[recto] Maand en Iaare voorsch: /:was getek
+[recto] S: Versluijs, A: Maten,
+[recto] I: W: Hiltebrand, G:t Kalden
+[recto] I: De Mauregnault, I: B
+[recto] J: Z: Van
+[recto] Vernatti,
+[recto] Mijlendonk en W: B:
+[recto] Albinus.
+[recto] Woensdag.
+[verso] „den
+[recto] ƒ
+== NL-HaNA_1.04.02_2222_0012 | #12 | sides: recto,verso | lines: 47
+[recto] 434.
+[verso] Doensdag nademid„
+[verso] dagh den 19:' December
+[verso] A:o 1731.
+[verso] Praesent:
+[verso] Den wel Ed:e heer Gouverneur Stephanus Versluijs,
+[verso] „ E: heer g'eligeerd mallab: Command:r Adriaan Maten,
+[verso] „ „ hooft. administrateur Ioan Benjamin Vernatte
+[verso] „ Dessave . . . . . Iodocus Wilhelmi hiltebrand
+[verso] „ „ Capitain. Gerrit Kalden, —
+[verso] „ „ fiscaal. . . . . . . . . Ioan De Mauregnault
+[verso] „ „ p: Soldij Boekhouder Ian Elias van Mijlendonk
+[verso] „ „ Eerste pakhuijsm:r Willem Bernh:s albinus, ~
+[verso] Absent
+[verso] „ „ Capilain Ioan Wilhelm Schnee, in am„
+[verso] „bassade na 't hof van Candia.
+[verso] Op den ontfangst ener tutucorijnse—
+[verso] Missive sub dato 16:' Courant, door de
+[verso] Bediendens aldaar na herwaarts
+[verso] gesz:, en even voor den ontvang deser
+[verso] vergadering alhier met de Chialoup
+[recto] Johanna aangebragt. de leeden door den
+[recto] heer gouverneur geconvoceerd wesende
+[recto] wierd ged:te Missive ter ordre van zijn
+[recto] Edele Staande vergadering door den
+[recto] Secretaris opgelesen en daar uijt Ver„
+[recto] „nomen hoe den Heuver heer sig niet
+[recto] alleen reets seer gewillig hadde
+[recto] getoond tot 't' verleenen van passagie
+[recto] door 't Canaal van pambe aan alle
+[recto] vaartuijgen die met van D'Z: Comp:
+[recto] genegotieerde Coopmanschappen bela„
+[recto] „den waren, maar ook Bereid was
+[recto] zijnen debit na gedane Confrontatie
+[recto] der reek: en obligatien afteleggen en
+[recto] verevenen buijten dat hij Bereets
+[recto] eene ola hadde verleend waar bij
+[recto] sijne onderdanen g'ordonneerd werden
+[recto] hunne schulden almede in 's Comp:s
+[recto] logie afteleggen dog waar en tegen
+[recto] hij gantsch ongenegen scheen den
+[recto] Verlopen intrest ter Somma van
+[recto] 1000. pard:s op 't Capitaal groot
+[verso] Johanna
+[recto] 3000.
+[recto] :
+[recto] 1
+== NL-HaNA_1.04.02_2222_0013 | #13 | sides: recto,verso | lines: 48
+[recto] 431.
+[verso] 3000. afteleggen onder eenige frivole uijtvlug„
+[verso] ten als of 't Hamhuijs van Ramena¬
+[verso] „coil niet gewoon was Eenigen intrest
+[verso] te betalen ensz: invoegen dit met nog
+[verso] Meer andere omstandigheden in't breede
+[verso] bij voorsch: Missive werd genoteerd gevon„
+[verso] „gebesoigneerd en 't geen ter materie diende
+[verso] „den, waar over als nu serieuslijk in
+[verso] overweging genomen sijnde, zo is na
+[verso] rijke deliberatie voor de waare belan„
+[verso] „gen der E: Comp: nodig en Best
+[verso] geoordeelt de tutucorijnse bediendens
+[verso] te gelasten wel kragtig te Blijven
+[verso] urgeeren op de Betalinge van de
+[verso] 3600. pakd„s Capitaal en 1000. d=os
+[verso] aan intrest die den theuver Waarlijk
+[verso] nog schuldig en ten agteren is, dog
+[verso] bij aldien sijn Excell: in geenen dele
+[verso] tot de restitutie van gem: intrest
+[verso] te brengen mogte wesen, als dan
+[verso] daar op so heel sterk niet meer
+[verso] te blijven staan maar door het opper„
+[verso] „hoofd overbeek hem te doen beloven
+[recto] van (:om de wille van de goede vrind„
+[recto] „schap die er tusschen D'E: Comp:e
+[recto] en sijn Excell: is:/ sijn Best te
+[recto] sullen doen bij den gouverneur en
+[recto] Raad dat hem theuver voorm:
+[recto] intrest quijtgescholden wierde,
+[recto] mits dat sijn excell: in recompes
+[recto] van dat saveur sal moeten besorgen
+[recto] dat n zijn kant ongekreusd werde
+[recto] onderhouden, al't geen nu de novo mog¬
+[recto] te werden Bedongen speciaal het
+[recto] doen betalen van den Debit sijner
+[recto] onderdanen aan d' E: Comp:, en voorts
+[recto] alle de poincten vermeld staande
+[recto] bij de successive Contracten met sijne
+[recto] voorsaten aangegaan; welk Een en
+[recto] ander met eenparigheid Besloten
+[recto] wierd de Bediendens tot Tutucorijn
+[recto] bij eerst aflegane Missive sodanig
+[recto] aanteschrijven, en haar al verder
+[recto] te gelasten so veel mogelijk aante„
+[recto] „dringen op de voldoeninge van't voorm:
+[verso] van
+[recto] Capitaal
+== NL-HaNA_1.04.02_2222_0014 | #14 | sides: recto,verso | lines: 47
+[recto] 432
+[verso] Capitaal en gereden gelde, en niet on„
+[verso] „ders dan bij d'uijtterste noodsakelik„
+[verso] „heid te treeden tot een vereevening
+[verso] der gem: schuld op de thollen.
+[verso] Den Koopman Joan Benjamin
+[verso] Vernatti volgens het genoteerde bij
+[verso] Bataviase Missive van 29:' xber.
+[verso] pass:o door haar Hoog Ed. tot opper„
+[verso] „coopman en hooft-administrateur
+[verso] deses gouvernements aangesteld en
+[verso] daar door vervallen sijnde ons geno¬
+[verso] „men besluijt van 15:' 9ber: J=o leeden,
+[verso] Zo verklaarde sijn Edele van
+[verso] gewoelen te sijn dat het voor den
+[verso] dienst der E: Comp. noodsakelik
+[verso] was dat men den gaalsen admini„
+[verso] „strateur: Adriaan van Bek die
+[verso] bij evenged=te Resolutie tot admi„
+[verso] „nistrateur van Iaffanapatnam
+[verso] in steede van den overleedenen Koop¬
+[verso] „man Elbert Brengman
+[recto] genomineerd was als nu in de gaalse
+[recto] administratie liet Continueeren,
+[recto] vermits sijn Ed:s niemand had kun„
+[recto] „die
+[recto] nen uijtvinden „ daar toe de vereijste
+[recto] Bequaamheid besat, insonderheid
+[recto] nu den Commandeur Jan Dom¬
+[recto] „burg hoe langs hoe Meer Begon
+[recto] door te slaan in den drank, in so verre„
+[recto] denselven na de getuijgenisse van
+[recto] veele sebden sonder een Berooid
+[recto] hooft was, tot bijsondere ergernis
+[recto] der inlanders en andere Mitsgaders
+[recto] merkelijke veragtering in den dienst
+[recto] der E: Comp: waar op g'arresteerd is
+[recto] ged„te van Pek in desselvs presente
+[recto] post te laten Continueeren, en tot p=l:
+[recto] administrateur van Iaffanapatnam
+[recto] te verkiesen den ondercoopman
+[recto] Johan Busch mitsgaders in
+[recto] desselvs plaatse tot Cassier alhier
+[recto] aantestellen den p:l gaalsen secreta„
+[recto] „ris Corijn Stevensz: die niet
+[verso] genomineert
+[recto] tegenstaande
+== NL-HaNA_1.04.02_2222_0015 | #15 | sides: recto,verso | lines: 46
+[recto] 433.
+[verso] tegenstaande bij een ider Bekend
+[verso] was voor een persoon van een seer
+[verso] goed en ordentelik gedrag, egter door
+[verso] den Commandeur van Domburgh
+[verso] sedert eenigen tijt herwaarts soda„
+[verso] „nig gebrutaliseert is geworden
+[verso] dat den selven deser dagen aan den
+[verso] heer gouverneur versoek had gedaan
+[verso] om van daar verschanst te mogen
+[verso] worden; sijnde wijders in Stede van
+[verso] ged„te Stevens tot secretaris van
+[verso] gale verkoren den alhier Iongst
+[verso] met 't schip Meermond uijt
+[verso] Nederland aangekomen en Buij„
+[verso] „ten emploij sijnde ondercoopman
+[verso] Willem Adriaan Luls.
+[verso] Door de optreding van gem: E. Ver„
+[verso] „natti tot president van den agtb.
+[verso] Raad van Justitie deses Casteels,
+[verso] als een ampt 't geen aan de hooft
+[verso] administratie alhier annex is, en
+[recto] 't vertreck van den ondercoopman
+[recto] Arnout Roels als administra„
+[recto] teur na Tutucorijn mitsgaders
+[recto] de promotie van voorm: Busch
+[recto] tot administrateur van Iaffanap:s
+[recto] drie plaatsen in dat Collegie sijnde
+[recto] of ^ gevallen, so is verstaan Deselve
+[recto] weder te vervullen met den p:l soldij
+[recto] Boekhouder alhier Joan Eli¬
+[recto] „as van Mijlendonk p:l winkelier
+[recto] Rombout van Derparra
+[recto] en nieuw aangestelden Cassier
+[recto] Corijn Stevens.
+[recto] Na het verhandelen van't voorenstaande
+[recto] „geliefde den heer gouverneurs de leeden
+[recto] te Communiceeren hoe dat sijn Ed:
+[recto] sedert den ontfangst der g'eerde last
+[recto] „ hoog
+[recto] van haar „ Ed. tot Batavia bij
+[recto] Missive van den 31:' Iulij deses—
+[recto] jaars gefundeerd op het geen haar
+[recto] Ed: hoog agtb: in't patria bij
+[verso] t vertrek
+[recto] generale.
+== NL-HaNA_1.04.02_2222_0016 | #16 | sides: recto,verso | lines: 47
+[recto] 434.
+[verso] generaale Missive van den 15:' xber:
+[verso] d' a:o pass:o derwaarts hebben gelieven te
+[verso] ordonneeren ten opsigte van eene te
+[verso] doene opgave bij apart geschrift van
+[verso] inhoude in welker voegen men na
+[verso] goed overleg, en naukeurig ondersoek
+[verso] verneerd door het aankweken eeniger
+[verso] producten, van wat soort die ook
+[verso] soude mogen sijn, dit gouvernement
+[verso] eeniger maten te konnen verbeeteren
+[verso] en door den vertier van meerder
+[verso] winst gevende goederen de winsten
+[verso] soude konnen vermeerdert en de lasten
+[verso] Besnoeit werden, desselvs gedagten
+[verso] daar omtrent rijpelijk hadde laten
+[verso] gaan, en waar over sijn Ed:e als
+[verso] nu almede 't sentiment der gesa„
+[verso] „mentlijke Raadsleeden quam te
+[verso] vorderen tot eene tedoene rondborsti„
+[verso] „ger verklaring wat haar EE:
+[verso] mogten vermenen eeniger Maten
+[verso] te konnen strecken tot verbetering
+[recto] van den handel en den staat van dit gou„
+[recto] „vernement, voor so verre Colombo
+[recto] met desselvs district quam te Betreffen,
+[recto] want van d'overige plaatsen daar onder
+[recto] sorteerende had men bereets de nodige
+[recto] opgaven gevordert, en waren ook reets
+[recto] eenige derselve ingekomen, waar over
+[recto] dan met aandagt een geruijmen tijd
+[recto] geraisonneerd en in ample termen
+[recto] gediscoureert zijnde zo quamen ged=te
+[recto] raadsleeden eijndelik te verklaaren
+[recto] niets te weten of te konnen uijtdenken
+[recto] dat tot verbetering van den staat
+[recto] deses gouvernements en den handel die„
+[recto] „nen konde, 't zij door 't aanqueeken
+[recto] van eenige producten of besnoeijing
+[recto] van Eenige lasten, die haar E„s
+[recto] verklaarden niet te kunnen uijtvinden,
+[recto] waar op sijn Ed: betuijgde sig daar„
+[recto] „mede wel te konnen Conformeeren,
+[recto] nadien sedert den ontfangst van opgem:
+[recto] g'eerde ordre sijn Edele desselvs
+[verso] van
+[recto] gedagten
+== NL-HaNA_1.04.02_2222_0017 | #17 | sides: recto,verso | lines: 47
+[recto] 435.
+[verso] gedagten hier omtrent gedurig hadde
+[verso] laten gaan, dog almede niets had weten
+[verso] uijttedenken, dat met eenige fundament
+[verso] bij der hand konde gevat werden, dewijl
+[verso] den handel Bereetsal van Deele
+[verso] Iaaren met goed overleg in practijg ge„
+[verso] bragt is, en voor als nog sodanig gedre„
+[verso] „ven wierd ten waara men daar van
+[verso] uijtsonderen wilde het Iapans Staaf„
+[verso] „koper 'twelk, na de gedagten van sijn
+[verso] Edele, in veel ruijmer sleet soude
+[verso] konnen gebragt werden ter Custe
+[verso] Madure en dus D' E: Comp:e veel
+[verso] Considerabelder winsten Besorgen,
+[verso] ingevalle het selve voor een minderen
+[verso] prijs mogte werden omgeset dan voor
+[verso] een Excessive somma van 86¼. p a/o.
+[verso] de blaar, waar door volgens den teneur
+[verso] der nagapatnamse papieren den
+[verso] verkoop van dat mineraal seer
+[verso] schoorvoetende voortging en onder
+[verso] dit gouvernement dierwegen ook niet
+[recto] veel teroemen viel, te dugten sijnde,
+[recto] na sijn Ed: openie, dat niet alleen de
+[recto] Engelse door 't invoeren van koper
+[recto] geld uijt persien dese negotie der
+[recto] E: Comp:e seer souden doen verswakken,
+[recto] Maar selvs dat 'er uijt Europa
+[recto] door Deenen, fransen en andere
+[recto] Competiteuren wel Sweeds koper
+[recto] tot Ballast in de scheepen na In„
+[recto] „dien soude konnen werden overgevoert
+[recto] Waar door den Inlander voor min„
+[recto] „der prijs ten genoegen soude konnen
+[recto] gerieft werden en dus allengskens
+[recto] het duure Iapans staarkooper
+[recto] leeren missen en ontbeeren buijten
+[recto] dat den inlander in dit ombragieus
+[recto] gouvernement sodanig met alder„
+[recto] hande soorten van producten en
+[recto] andere diensten Beswaart is,
+[recto] dat den aankweek van meer ande„
+[recto] „re alschoon 't experimenteeren
+[recto] waren /: hoewel sulx egter onmogel:
+[verso] veel.
+[recto] g'oordeeld
+== NL-HaNA_1.04.02_2222_0018 | #18 | sides: recto,verso | lines: 43
+[recto] 436.
+[verso] g'oordeelt wierd: ( niet dan Morrin„
+[verso] „gen soude verwecken, en van geen
+[verso] vrugt kunnen zijn.
+[verso] Den gaalsen administrateur Adri„
+[verso] „aan van hek op onse verleende
+[verso] permissie deser dagen alhier voor
+[verso] een springtogtje overgekomen sijnde,
+[verso] en aan den heer gouverneur gepre„
+[verso] „senteert hebbende 't ondervolgende
+[verso] Request, tendeerende versoek tot
+[verso] honorable reparatie in sijn eer
+[verso] en maintien tegen den Comman„
+[verso] „dour van Domburgh gelijk
+[verso] dat bij d'insertie van dat geschrift
+[verso] nader komt te blijken.
+[verso] Aan den wel Ed: agtb: Heere
+[verso] Stephanus Versluijs
+[verso] Raad ordinaris van Neder„
+[verso] „lands India mitsgaders
+[verso] Gouverneur en directeur
+[recto] van 't Zijland Ceilon met
+[recto] dies onderhorigheden.
+[recto] Wel Edele achtb:r
+[recto] Hoog Gebiedende heere
+[recto] erthoond seer reverentelijk Adri¬
+[recto] „aan van Tek administrateur
+[recto] van Gale uwel Ed:e achtb:
+[recto] ootmoedigen dienaar, dat op den
+[recto] 2:' deser bij sijn aanwesen ter
+[recto] gem: Commandement, hem op
+[recto] een insurieuse wijse door den
+[recto] secretaris van d'politie aldaar
+[recto] quirinus Stevensz: uijt
+[recto] name van den Commandeur de
+[recto] heer M:r Dideric van dom„
+[recto] „burgh is toegebragt, eene seer
+[recto] onverwagte Bootschap, bestaan„
+[recto] de hier inne dat den vertoonder
+[recto] een valschen tzel was;
+[recto] sonder dat hij door sijn Comporte„
+[verso] van
+[recto] „ment
+== NL-HaNA_1.04.02_2222_0019 | #19 | sides: recto,verso | lines: 46
+[recto] 437.
+[verso] „ment tot sulken onverdiend absur„
+[verso] „de aankundiging, ooijt de alderge„
+[verso] „ringste occasie of reeden gegeven
+[verso] heeft; En waaromme deselve hem
+[verso] dus vreemd in dooren Klonk, dat
+[verso] hij gantsch verslagen Begeert
+[verso] heeft, d' eigentlijke oorsaak van
+[verso] so bitze bejegening te mogen—
+[verso] weten hoewel den voorm: Secre¬
+[verso] „taris bij die gelegentheid nog te
+[verso] namaals in staat was eenig
+[verso] satisfactoire bescheid. voor den dag
+[verso] te brengen tot des verthoonders
+[verso] gerustheid; die uwel Edele
+[verso] agtb: en gemoede verklaren derft,
+[verso] onder het actueel Bekleden
+[verso] van verscheide Bedieningen op
+[verso] desen Eijlande nimmermeer
+[verso] eenige de Minste schein van
+[verso] valsheid, nog domme onverstand
+[verso] gethoond, maar veel eer in alles
+[verso] bepoogt te hebben, om Bij de
+[recto] geheele wereld te Conserveeren de
+[recto] naam van een Bescheiden eerlijk
+[recto] man dan nademaal hij evenwel
+[recto] door voorsch: afronteuze denunciatie
+[recto] in sijn eere, bij alle Brave Men¬
+[recto] schen so dier als het leeven g'agt,
+[recto] grotelijx is geledeert; in zo verre
+[recto] dat hij onmogelijk nalaten kan;
+[recto] sijn goede Best aantewenden omme
+[recto] daar van een honorable reparatie
+[recto] terlangen, zo ist dat hij tegen„
+[recto] woordig sig aan uwel Edele
+[recto] agtb: addresseerende, ootmoedig bid,
+[recto] hem in desen sodanig te willen
+[recto] Mainetineeren in zijn eer en
+[recto] fatsoen, als uwel Ed:' agtb=e
+[recto] in goede politie sal Bevinden
+[recto] te behoren /:onderstond:/ 'Twelk
+[recto] Doende.
+[recto] Zo snarverweging van dat schriftuur
+[recto] goedgevonden 't selver in Copia autenticq
+[verso] geheele.
+[recto] aan
+== NL-HaNA_1.04.02_2222_0020 | #20 | sides: recto,verso | lines: 48
+[recto] 438.
+[verso] aan den Commandeur Van Domburg
+[verso] toetesenden, met ordre om daar op sonder
+[verso] Eenige de minste tardance satisfactoire
+[verso] redenen te suppediteeren die hem Com¬
+[verso] „mandeur tot het laten doen van zo
+[verso] eene impertinente Boodschap aan
+[verso] gedagte van hek als in dat schrif„
+[verso] „tuur vermeld werd, gemoveert hebben,
+[verso] terwijl den secretaris Stevens
+[verso] almede ten eersten sal moeten
+[verso] verklaren of hij die Boodschap in
+[verso] diervoegen als bij 't voorm: request
+[verso] genoteert is, en ook ter ordre van
+[verso] voorsch: Commandeur gedaan heeft om
+[verso] des noods daar op in der tijt nader te
+[verso] konnen disponeeren.
+[verso] Het transport der hooft administratie
+[verso] alhier door den heer gedesigneerd Mall:s
+[verso] Commandeur Adriaan Maten
+[verso] aan d' E: Ioan Benjamin
+[verso] vernatti bereets gedaan en den
+[recto] laast ged„te met het openen deser ver„
+[recto] gadering siner silplaatse Boven
+[recto] den dessave Hiltebrand aangewesen
+[recto] sijnde, zo wierd ged:te heer Maten
+[recto] „om
+[recto] die „ voorsch: redenen op morgen de
+[recto] Mallabaarse voijage met 't schip
+[recto] 'Thuijs assenburg dat van gale
+[recto] ten dien eijnde empassant g'ordonneerd
+[recto] was de Colombose reede aantegieren,
+[recto] „den
+[recto] stond te ondernemen door heer gouver„
+[recto] „nour met veel empressement bedankt
+[recto] voor d'assistentie die sijn Z: geduu„
+[recto] „rende het fungeeren der hooft admini„
+[recto] „stratie alhier tot onderschraging
+[recto] van den swaaren last deses gouver„
+[recto] „nements sijn Ed: had toe gebragt
+[recto] zijn Z: teffens toewenschende alle
+[recto] Bedenkelijke Legeningen en progres¬
+[recto] „sen in sijn L: aanstaande Bestier
+[recto] van't Mallabaars Commande„
+[recto] „ment ten eijnde die aansienelijke
+[recto] post tot voldoening onser Heeren
+[verso] laast
+[recto] Majores
+== NL-HaNA_1.04.02_2222_0021 | #21 | sides: recto,verso | lines: 45
+[recto] 439
+[recto] Dessave-
+[verso] Majores in't Vaderland so wel als
+[verso] haar Ho: Ed:s tot Batavia, mitsg:s
+[verso] eijge reputatie te konnen Manieeren,
+[verso] gelijk mede dat sijn Z: door sijne
+[verso] onderhorige in den dienst der Z Comp:
+[verso] al so veel genoegen mogt werden—
+[verso] toegebragt als sijn Ed: geerne betuijg„
+[verso] „de steets van den Z: Maten intexer„
+[verso] „ceeren van sijn ampt genoten te heb„
+[verso] „ben, waar op ged:te Z: Maten—
+[verso] sijn Ed:e op d' eerbiedigste wijse Be„
+[verso] „dankte voor de voorsch: gunstige Ex„
+[verso] pressien, mitsgaders voor de genotene
+[verso] eer en Commando en ook dat zijn
+[verso] E: tot dus lange d'eere had mogen
+[verso] genieten van Sessie in desen Rade
+[verso] te hebben, gelijk sijn Z: de gesament„
+[verso] „lijke leeden almede daar voor quam
+[verso] te bedanken, en vervolgens over den
+[verso] persoon van den heer gouverneur
+[verso] toe te wenschen, alle Bedenkelijke—
+[verso] Zeegeningen en genoegen in sijn Ed„
+[recto] swaarwigtig Bestier van dit gouver„
+[recto] „nement en dies ap- en dependentien.
+[recto] Aldus gedaan en Geresolveert
+[recto] In't Casteel Colombo ten Dage,
+[recto] maand en Iaare voorsch: /:was getek:d/
+[recto] S: Versluijs, I: B: Vernatti,
+[recto] I: w: Giltebrand, G: Kalden,
+[recto] I: D: Mauregnault, I: F: V:
+[recto] Mijlendonk en W: B: albinus,
+[recto] /:lager:/ Mij Present /was getekend:/
+[recto] R:t Cau p:l secretaris.
+[recto] Sondag voordemiddag
+[recto] Den 30:' xber: A. o 1731.
+[recto] present.
+[recto] Den wel Ed: heer Gouverneur Stephanus Versluijs,
+[recto] „ E: Hooft administrateur Ioan Benjamin Vernatti,
+[recto] Sodocus Wilhelmi Giltebrand
+[recto] Gerrit Kalden.
+[verso] swaarwigtigh
+[recto] Den
+[recto] „. „. Capitain
+== NL-HaNA_1.04.02_2222_0022 | #22 | sides: recto,verso | lines: 47
+[recto] 140
+[verso] Joan De Mauregnault,
+[verso] Den E: fiscaal
+[verso] „. „ p:lo soldij boekhouder Ioan Elias van Mylendonk,
+[verso] „ Eerste pakhuijs m:r Wilhelm Bernh:s albinus
+[verso] Absent
+[verso] „ „ Capilain Ioan Wilhelm Schnee, in
+[verso] ambassade na't Hof van Candia
+[verso] Des Iaffanapatnamsen dessave Mic„
+[verso] hiel panneel nevens den soldij
+[verso] Boekhouder Ioan anthonij Hesse
+[verso] en bootsmaan Jans Cornelisse jongh
+[verso] gecommitteerd geweest sijnde, om nevens
+[verso] die hooftpattangatijns van Tutucorijn
+[verso] en manaar en d'andere gewonelijke
+[verso] Inlandse hoofden de paarlbanken
+[verso] voor Aripo en daarom her gelegen te
+[verso] visiteeren, en de rapporten hunner
+[verso] Bevindingen op gisteren alhier ont„
+[verso] fangen sijnde, so betuijgde den Heer
+[verso] gouverneur der leeden te hebben gecon
+[verso] „voceerd om met den anderen te
+[verso] delibereeren over het ter nedergestelde
+[recto] bij die geschriften nopens de Extraor„
+[recto] dinaire favorable en Rijke gestelt„
+[recto] „heid der Kalletidelse, Moddergam„
+[recto] „se, Condaatise, aackoepaarse,
+[recto] aripose en Bengaalse Banken
+[recto] welkers gedookene oosters wel voor
+[recto] het Meerengedeelte dood, en d' overige
+[recto] reets volwassen dog al egter zo rijk
+[recto] Bevonden waren dat duijsent dersel„
+[recto] „ve op 13. 15 5/8. 16 1/8. 18 5/8. 18½. en 21/5.
+[recto] Madurese fan:s en oversulx zo
+[recto] hoog dat daar van geene Exempelen
+[recto] gevonden werden gewaardeert zijn;
+[recto] Zo als dat bij de retroacta der in
+[recto] de Iaaren 1697. en 1722. met goed
+[recto] succes gehoudene paarlvisserijen die
+[recto] ten desen Belange waren nage„
+[recto] sien quam te blijken, vermits de
+[recto] „selve aantoonde, dat de waarde Der
+[recto] oesters in die Iaren niet meer
+[recto] konden Behalen dan 3. 3¼. 3½.
+[recto] en 5. Madurese Jan:s waaromme
+[verso] Bij
+[recto] en.
+== NL-HaNA_1.04.02_2222_0023 | #23 | sides: recto,verso | lines: 47
+[recto] 441.
+[verso] en ook uijt aanmerkinge dat de Inland„
+[verso] „se hoofden bij hun Certificaat ola
+[verso] 't houden eener Visserije op de voorm:
+[verso] Banken om den ouderdom der oesters
+[verso] noodsakelijk oordeelden welgem: sijn
+[verso] Ed: van gevoelen was dat men hoe
+[verso] eer hoe liever behoorde te treden tot
+[verso] het doen eener uijtschrijvinge van Een
+[verso] halve visserije of 1½. walic voor 400.
+[verso] thonijs en 12. dagen, dog dat men desel
+[verso] „ve om de Extraordinaire rijkheid der
+[verso] oesters diende te rekenen voor Een
+[verso] geheele off volkome visserije en dien„
+[verso] „volgende de steengelden daar voor
+[verso] aan d' Z: Comp: moesten Betaald
+[verso] werden; het geene dan in Serieuse
+[verso] overweeging genomen en ter ordre
+[verso] van den heer gouverneur 'textract
+[verso] diendweegen uijt het Rapport der
+[verso] Nederlandse Mitsg:s de voorm:
+[verso] Certificaat ola der Inlandse gecom„
+[verso] mitteerdens opgelesen zijnde,
+[recto] zo is unamme Besloten de gewone
+[recto] uijtschrijving tot een halve visserije
+[recto] voor 400 thonijs op de voorsch: paarl„
+[recto] banken te laten geschieden, tegens
+[recto] den 20:' der aanstaande Maand
+[recto] maart, mitsgaders de vlagge daar
+[recto] van te doen planten op den 5: bevorens
+[recto] en sulx na den teneur der hier onder
+[recto] g'insereerde advertentie, waar bij
+[recto] ook verstaan is in duijdelijke ter„
+[recto] „men te noteeren, dat om reedenen de
+[recto] oesters so ongemeen hoog in waarde
+[recto] en rijk gesteld Bevonden zijn in
+[recto] zo verre dat men daar geen Exempe„
+[recto] „len van heeft, een ider verdagt zal
+[recto] moeten wesen, dese halve visserije
+[recto] voor Een geheele gerekend werd en
+[recto] de steengelden daar na ook ten
+[recto] vollen sullen moeten werden Be„
+[recto] „taalt, vermits de dikmaalen ge„
+[recto] „citeerde Inlandse hoofden bij
+[recto] hunnen Meermelte ola quamen
+[verso] Zo1
+[recto] t te
+== NL-HaNA_1.04.02_2222_0024 | #24 | sides: recto,verso | lines: 47
+[recto] 442
+[verso] te verklaren niemand der gener die
+[verso] in de paarlvisserije verscheenen daar
+[verso] iets tegen souden hebben, zijnde wij„
+[verso] „ders g'arresteerd ged:te advertentie nog
+[verso] heeden  avond onder geleide onser
+[verso] Missives aan 's Comp:s ministers ter
+[verso] Ruster Cormandel, en Mallabaar,
+[verso] Mitsgaders onse Bediendens tot
+[verso] Iaffanapatnam, Tutucorijn en
+[verso] Manaar te laten afgaan tot narigt
+[verso] van een ider, en in desen ook te doen
+[verso] insereeren het voorm: opgelesen Ex„
+[verso] „tract uijt het geciteerde Rapport
+[verso] van den dessave Panneel en sijne
+[verso] mede gecommitteerdens met het
+[verso] translaat der Certificaat ola van
+[verso] voorm: Inlandse gecommitteerdens
+[verso] bij welke geschriften de hier vooren
+[verso] gewaagde taxatie en waardij der
+[verso] gedokene oesters distinctelik werd
+[verso] aangethoond, en nog nader gecorrobo„
+[verso] „reerd.
+[recto] Men adverteert en laat
+[recto] een Igelijk Bij desen welen
+[recto] dat wij de Manaarse en
+[recto] dripose paarlbanken in de
+[recto] verledene maand November
+[recto] op nieuws weder hebben doen
+[recto] visiteeren en ons door de gecom„
+[recto] mitteerdens de adepionaars
+[recto] en pattangatijus van Iu„
+[recto] „tucorijn, Iaffanapatnam„
+[recto] en Manaar bij solemneele
+[recto] ola gerapporteert is dat de
+[recto] gem: paarlbanken sodanig
+[recto] met Bequaame Oesters
+[recto] beset sijn dat staat werd ge„
+[recto] maakt ten minsten met
+[recto] 400 thonijs eene rijke halve
+[recto] visserije te kunnen houden,
+[recto] gelijk tot meerder verseke„
+[recto] ringe op de kalletidelse
+[recto] Bank 1077. Atx: oesters opge„
+[recto] „doken en dewelke volgens
+[verso] Men.
+[recto] gebruijk
+== NL-HaNA_1.04.02_2222_0025 | #25 | sides: recto,verso | lines: 47
+[recto] 443
+[verso] gebruyk na de Paarlen van de
+[verso] soort waddivo daar in gevonden
+[verso] gewardeert sijn het 1000. tot 18 1/8.
+[verso] fan:s behalven 9. paarlen Buijten
+[verso] de reecq: van de soort Meelmoet„
+[verso] „toe op 21. Jan:, en 8. paarlen van
+[verso] deselve soort op 20. Can:s, Mitsg:s
+[verso] nog 2. paarlen almede van ged=te
+[verso] Soorl op 30: fan:s; van de Mod„
+[verso] dergamse Bank 1109. stx: oes„
+[verso] „ters van de soort waddivoe als
+[verso] boven gewardeert tot 13. fan:s het
+[verso] duijsent, behalven 10. paarlen
+[verso] buijten de gewone reek: van de
+[verso] soort Meelmoettoe op San:s 6:
+[verso] en 1. paarl almede van gem: Coort
+[verso] op 20. fan:s, Mitsg:s nog 1. paarl
+[verso] van die selvde soort op 30. Jan:
+[verso] van de Kondatise Bank
+[verso] 836. stx: oesters van de Zoort
+[verso] waddrwoe tot 15 /8. fan:s p:r Mille„
+[verso] Behalven 7. paarlen buijten de
+[recto] gewonde reek: van de soort Meel„
+[recto] moettoe op 5. fan:s mitsgaders nog
+[recto] 3. paarlen insgelijks van opgedag„
+[recto] „te soort op 15. fan:s; van d'aackoe„
+[recto] „paarse Bank 800. stx: oesters
+[recto] van de soort waddiwoe tot fan:s
+[recto] 16 5/8. 't duijsent behalven 11. paarlen
+[recto] Buijten de gewone reek: van de soort
+[recto] meelmoettoe op 8½. fan:s en nog
+[recto] 2. paarlen almede van gem: soort
+[recto] op 25. fan:s van d'aripose Bank
+[recto] 1011. stx: oosters van de soort wad„
+[recto] diwoe tot fan:s 21 1/5. per Mille,
+[recto] Behalven 15. paarlen buijten de
+[recto] gewone reecq van de zoort Meel„
+[recto] moettoe op 14. fan:s, en nog 1. paarl
+[recto] van de selver soort op 6. /4. Can: van
+[recto] de Bengaalse bank 1661. stx:
+[recto] oesters van de soort Waddiwoe
+[recto] tot 18½. fan:s 't duijsent, behalven
+[recto] 25. paarlen van de soort meel„
+[recto] moettoe op 15. fan: en 8. Paarlen
+[verso] gewone
+[recto] almede
+== NL-HaNA_1.04.02_2222_0026 | #26 | sides: recto,verso | lines: 47
+[recto] 444.
+[verso] almede van deselvde soort op 18.
+[verso] fan„s Mitsgaders nog een paarl
+[verso] van gedagte soort op 30. fan:s zo
+[verso] is 't dat wij om deselve redenen
+[verso] goedgevonden hebben bij publicque
+[verso] Billietten alle 's Comp:s onderda„
+[verso] „nen Mitsgaders andere naburige
+[verso] volkeren en natien gehorende onder
+[verso] Indiaanse Koningen, princen, en
+[verso] heeren die vrinden en Bondgeno„
+[verso] „ten van d' E: Comp: sijn hier van
+[verso] kennisse te geven en te nodigen
+[verso] omme met magt van vaartuijgen
+[verso] ter peerlvisserije tot Aripo vroeg
+[verso] tijdig over tekomen, en aangesien
+[verso] navolgens de zo even aangehaalde
+[verso] Bevinding de reikheid der paarlen
+[verso] seer verre d'ordinaire schatting
+[verso] te boven gaat, Ia zo verre dat
+[verso] men daar weinig of geene Exem¬
+[verso] „pelen van heeft, so sal een ider
+[verso] verdagt moeten zijn dat dese
+[recto] halve visserije voor een geheele gere„
+[recto] kend en de steengelden daar na ook
+[recto] ten vollen moeten werden Betaald,
+[recto] sullende deselve sonder eenig uijtstel
+[recto] aanvank nemen den 20:' maart
+[recto] 1732: en de vlagge tot een teken
+[recto] daar van geplant werden op den
+[recto] 5: derselver maand Maart
+[recto] naastkomende; tegens welke
+[recto] tijd van den 5. Maart een igelijk
+[recto] die genegen mogt zijn dese paarl„
+[recto] visserije bij te woonen genodigd
+[recto] werd hem precies op de bestemde
+[recto] plaats te laten vinden dewijl
+[recto] op den 20:' daar aan sonder eenigh
+[recto] uijtstel of langer wagtens de
+[recto] vaartuijgen die als dan op aripo
+[recto] sijn om paarloesters te vissen
+[recto] sullen in zee gaan, kunde de
+[recto] geene die talmen en telaat aan„
+[recto] „komen, Mitsg:s nog genegen zijn
+[recto] te vissen almede verdagt sijn
+[verso] halve
+[recto] dat.
+== NL-HaNA_1.04.02_2222_0027 | #27 | sides: recto,verso | lines: 45
+[recto] 445.
+[verso] dat volgens de oude gebruijkelijkhe„
+[verso] „den geene vermindering omtrent
+[verso] de steengelden aan haar vergunt,
+[verso] Maar de geregtigheid gerekend
+[verso] sal werden even of sij in de Visse¬
+[verso] „rije van den beginne af aan
+[verso] waren present geweest, ten
+[verso] welken Eijnde en op dat een ider
+[verso] sig ten eersten soude konnen
+[verso] prepareeren dese uijtschrijving
+[verso] dus opentlijk en vroegtijdig ge„
+[verso] daan werd.
+[verso] Colombo den 30:' xber: 1731.
+[verso] Ter ordonnantie van den wel Ed:
+[verso] agtb: heere Raad ordinair van
+[verso] India en Ceilons gouverneur
+[verso] Stephanus Versluijs
+[verso] nevens den Raad /:was getek:t/
+[verso] R:d Cau p=l Secretaris.
+[verso] Extract uijt het
+[verso] Rapport bij forma van dag
+[recto] verhaal gedaan aan den Wel
+[recto] Edelen agtb: heere raad ordi„
+[recto] naris van nederlands In„
+[recto] „dia en Ceilons gouverneur
+[recto] Stephanus Versluijs
+[recto] door de gecommitteerdens den
+[recto] Z: Iaffanapatnamsen
+[recto] dessave Michiel Pan„
+[recto] „neel en soldij Boekhouder
+[recto] Ian anthonij Desse,
+[recto] nevens den bootsmanhans
+[recto] Cornelisz: wegens de
+[recto] Bevinding der Arripose
+[recto] paarl Banken.
+[recto] Woensdag den 19:' xber:
+[recto] wijders voorgenomen op Morgen
+[recto] de laaste 433. aangebragte
+[recto] oesters te laten openen, de moe„
+[recto] selise mooren vervolgens te
+[recto] laten waarschouwen tot de
+[recto] waarderinge, en met dat besluijt
+[verso] verhaal.
+[recto] van
+== NL-HaNA_1.04.02_2222_0028 | #28 | sides: recto,verso | lines: 45
+[recto] 146
+[verso] van den anderen scheijden.
+[verso] Donderdag den 20:' xber:
+[verso] wierden de laaste aangebragte oes„
+[verso] ters g'opend en verders na gewoon¬
+[verso] „te daar omtrent gehandelt, ook
+[verso] de voorsch: Mooren, gewaarschout
+[verso] tegens morgen om na gebruijke„
+[verso] „lijke usantie alle de Bekomen
+[verso] paarlen te waarderen. Werden
+[verso] „de ses thonijs g'ordonneerd den
+[verso] volgenden nagt vroeg uijt te
+[verso] gaan om te sien of nog eenige
+[verso] der Boeijen konden vinden.
+[verso] Vrijdag den 21:' d=o geschiede
+[verso] na Behoren de Warderinge ten
+[verso] onsen overstaan, en in aller
+[verso] bijwesen die Bevonden wierden
+[verso] als volgt.
+[verso] No 1. paarlen van de Jagerboomse
+[verso] Bank:
+[recto] uijt 1077. stx: oesters gedoken op den
+[recto] 1:' 9ber: en 6. xber: 1731. de paarltjes
+[recto] uijt deselve in de Chieuwse reecq
+[recto] genomen ter ordinaire taxatie
+[recto] wegens 1 5/8. Callensie of Cheeuw
+[recto] gewardeerd op 19½. Madurese fan:
+[recto] Cond p:r mil oesters fan:s 18 1/8.
+[recto] 9. stx: paarltjes buijten de gewone
+[recto] Chieuwse reeq: wegen 4 5/8. Mansa
+[recto] „dijs of 13¾. Cheeuw geprijseert op
+[recto] fanums Madure. . . . . . . . . . . . . . . 21. —.
+[recto] 8. pareltjes als Boven buijten
+[recto] de reecq: wegens 3 7/8. Mansad:s
+[recto] of een Chieeuw gewardeerd als
+[recto] Vooren - - - - - . . . . . fan:s 20. —.
+[recto] 2. als Boven wegen 1 3/8. Man„
+[recto] Sadij of ¼. Cheeuw. . . . . . . . . „ 30. —
+[recto] No 2:
+[recto] Paarlen van de Moddregamse
+[recto] Bank
+[recto] uijt 1109. sta: oesters op gedoken den
+[recto] 5:' 9ber: en 18:' xber: de paarltjes
+[verso] Uijt.
+[recto] uijt
+== NL-HaNA_1.04.02_2222_0029 | #29 | sides: recto,verso | lines: 47
+[recto] 447.
+[verso] uijt deselve in de Cheeuse reeq: ge„
+[verso] nomen ter ordinaire taxatie wee„
+[verso] „gen 1 1/20. Call: of Chieuw gewardeerd
+[verso] op 14½. Madurese fan:s Comt p:r
+[verso] Miloesters. . . . . . . . . . . . . . . 13. —
+[verso] 10. stx: paareltjes Buijten de gewone
+[verso] Clieuwse reecq: weegen 2. man„
+[verso] „sadijs of 13/20: Chieuw geprijseert
+[verso] op fan:. . . . . . . . . . . . . . . . . . . . . . 6.
+[verso] 1. p:s paarl als Boven buijten
+[verso] de reecq: weegt ¾. Mansadij
+[verso] of 5/20. Chieuw gewardeert als
+[verso] vooren. . . . . . . . . . . . . . . . . . 20. —
+[verso] 1. paarl als Boven weegt 1.
+[verso] Mansadij of ¾. Chieuw - - - - - - - „ 30. —
+[verso] No: 3.
+[verso] Paarlen van de Condatise
+[verso] Bank
+[verso] Uijt 836. oesters opgedoken den 13:'
+[verso] 19:' en 22:' 9ber: de paarltjes uijt de„
+[verso] „selve in de Chieuse reeq: genomen
+[verso] ter ordinaire taxatie wegen
+[recto] 1. Call: en 1½ Mansadij of Chieuw ge„
+[recto] wardeerd op 12 1/20 Can:s Madurees Comt
+[recto] per Mil oesters. . . . . . . . . . . . . fan:s 15. 1/8.
+[recto] 7: sta: paarltjes buijten de gewone Chi„
+[recto] euwse reeq: wegen 1½: Mansadij
+[recto] of ¼. Chiouw geprijseert op. . . . . . „ 5. —
+[recto] 3. „ paarltjes als boven buijten de
+[recto] reek: wegen 1. ¼. Mansadij of 3/8.
+[recto] Chieuw geprijseert als Boven „ 15. —
+[recto] N:o: 4.
+[recto] haarlen van de haax tussen de
+[recto] Bank van Bengale en Aripo op
+[recto] 8. vaam gedoken.
+[recto] uijt 800: stxoesters opgedoken den 16:'
+[recto] 9ber: de paareltjes uijt deselve in de
+[recto] Chieuwse reek: genomen ter ordinaire
+[recto] taxatie wegen 1. Call: en 1½. mansa„
+[recto] „dij of Chieuw gewardeert op 12 19/20.
+[recto] fan:s Madure Comt p:r Mil oest: f:s 16 1/8.
+[recto] 11. stx: paarltjes buijten de gewone —
+[recto] Chieuwse reek: wegen 2½. mansadij
+[recto] of 3/20. Chieuw gewardeert son:s 8½
+[verso] 1. Call:
+[recto] 2. stx:
+== NL-HaNA_1.04.02_2222_0030 | #30 | sides: recto,verso | lines: 45
+[recto] 448
+[verso] 2: stx: paarltjes als Boven buijten de
+[verso] reeq: wegen 1.¼ Mansadij of 1/8. Chieuw
+[verso] geprijseert als vooren. . . . . . . . . Can: 25—
+[verso] No: 5.
+[verso] Paarlen van de aripose Bank
+[verso] Uijt 1011. stx: oesters opgedoken den
+[verso] 23:' 9ber: de paarltjes uijt deselve in
+[verso] de Chieuwse reecq: genomen ter ordi„
+[verso] „naire taxatie weegen 1 1/20. Call: of
+[verso] chieuw gewardeert, op 21: 1/20 Can:s Madi
+[verso] „rees Comt per mill. . . . . . . - - - fan: 21 9/20
+[verso] 15. stx: paarltjes Buijlen de gewo„
+[verso] na Chieuse reek: weegen 3¼.
+[verso] Mansaden of 1/20. Chieuw geprijseert
+[verso] op fan:s - - _ - - - - - - - - - - - - - - - - „ 14. —
+[verso] 1 p:s paarltje als boven weegt
+[verso] —8 Mansadij of 12/20. Chieuw
+[verso] geprijseert - - - - - - - - - - - - - - - „ 6. ¼.
+[verso] haarlen van de Bengaalse
+[verso] Bank:
+[verso] Uijt 1661. stx: oesters opgedoken den
+[recto] 17:' xber: de paarltjes uijt deselve in
+[recto] de Chieuwse reek: genomen ter ordin:
+[recto] taxatie wegen 2 1/20. Call: of Chieuw
+[recto] gewardeerd op 30 1/20. fan:s Madurees
+[recto] Comt p:r Mil. . . . . . . . . . fan:s 18½
+[recto] 25. stv: paarlen buiten de gewoone
+[recto] Chieuwse reek: wegen 5. marsa„
+[recto] „dijs of ¾. Chieuw gewardeerd. . . . „ 15. —.
+[recto] 8. stx: paarlen als Boven,
+[recto] wegen 2¼. Marsadij of 23/20.
+[recto] Chieuw geprijseert - - - - - - - . „ 18. —.
+[recto] 1. p:s paarl als Boven weegt
+[recto] 1. Mansadij of 24. Chieuw gewar„
+[recto] „deert. . . . . . . . . . . . . . . . . . . . . . . . . . . . . „ 30. —
+[recto] zijnde den waaren staat der Bevin„
+[recto] dinge, en wardije der gedokene oesters
+[recto] in dese visitatie die na uijtterste
+[recto] vermogen op het nauwkeurigste
+[recto] en accuraatste is verrigt, schoon
+[recto] gants tegenspoedig en lang aan„
+[recto] „houdent tot ons innerlik leedwesen
+[verso] 17:'
+[recto] is
+== NL-HaNA_1.04.02_2222_0031 | #31 | sides: recto,verso | lines: 47
+[recto] 449
+[verso] is geweest, egter so verre geluckig
+[verso] is komen uijttevallen, dat men
+[verso] den staat der met grote moeite.
+[verso] wel besogte plaatsen voor dese
+[verso] Stranden gelegen heeft Bevonden
+[verso] gesteld te zijn tot een aanstaan„
+[verso] de visserije voor ruijm 400. thonijs
+[verso] voor anderhalve wallie of halve
+[verso] visserije, gelijk de gesamentlijke
+[verso] hoofden haar hebben verklaard
+[verso] te sullen beschrijven, bij hare ola
+[verso] van Conditie na usantie tot
+[verso] een uijtschrijvinge met goedvin„
+[verso] „den en welbehagen van uwel Ede
+[verso] agtb:, in welken gevalle sij haar
+[verso] gerust stellen dat de genodigt
+[verso] werdende, om d'extraordinaire
+[verso] hoge waardije der paarlen,
+[verso] niemant van die vrijwillig ko„
+[verso] „men sullen haar Beswaard
+[verso] zullen vinden tot de voldoeninge
+[verso] der volle steengelden, als voor
+[recto] een volle visserije, altijd niemand
+[recto] der Christenen onderdanen; behalen
+[recto] „de de Minste prijs der Bevondene
+[recto] paarlen 13. ' Jan:s Madurees p=r
+[recto] Mil na d'ordinaire Chieuwse
+[recto] reek: Behalven de paarlen buij„
+[recto] ten dien separaat gewardeert;
+[recto] sodanig uwel Ed: achtb: believe
+[recto] te boogen bij het hier vooren gespe„
+[recto] „cificeerde. Nemende de gesament„
+[recto] „lijke hoofden aan op morgen
+[recto] hare Ola in't nette geschreven
+[recto] in onser presentie te teekenen,
+[recto] en aan ons t' overhandigigen,
+[recto] waar mede afscheid namen.
+[recto] Translaat Mallabaarse
+[recto] Certificaat ola, Bij manic„
+[recto] „re van Rapport geschreeven
+[recto] en bij een gebragt door de
+[recto] ondervolgende hooft en ge„
+[recto] meene pattangatijns zo
+[verso] een
+[recto] van
+== NL-HaNA_1.04.02_2222_0032 | #32 | sides: recto,verso | lines: 46
+[recto] 450
+[verso] van Iasfanapatnam en
+[verso] Manaar als Tutucorijn
+[verso] toucheerende de visite der
+[verso] peerl Banken geleegen voor
+[verso] Aripo in de Bogt van
+[verso] Condaatje.
+[verso] Ter hoog g'eerde Bevel van den
+[verso] wel Edelen agtb: heer Stepha„
+[verso] nus Versluijs Raad ordina„
+[verso] „ris van Nederlands India,
+[verso] Mitsgaders gouverneur en direc„
+[verso] „teur van't Eijland Ceilon
+[verso] de Custe Madure E:a met den
+[verso] ressorte van dien, hebben wij
+[verso] don manuel Francisco de
+[verso] morais Sadietallawa Moor
+[verso] van tutucorijn, Francisco
+[verso] Anthonij de almeda waal„
+[verso] waas adopponaar van d=o Igna„
+[verso] tie fernando adepponaar van
+[verso] ponnecail, Manuel de Croes,
+[recto] pattangatijn Moor van Manaar,
+[recto] don manuel Koeroegoela Socria
+[recto] arresmille-ille. modl:r: over de
+[recto] vissers van Iaffanapatnam, nalle
+[recto] tambij Ioan wierepattren adepo„
+[recto] „naar van 8„, Thomme anthonij
+[recto] adepponaar van pannataar tot
+[recto] Iaffanapatnam, Bartholomeus
+[recto] lomme de mel pattangatijn der
+[recto] Kardeassen van Irkoelenpittij sor„
+[recto] teerende onder Manaar, en Ka„
+[recto] menaden nicolaas pattangatijn
+[recto] over de Cadicassen van Pinto pedro„
+[recto] in geselschap van den oppercoopman
+[recto] en Iaffanapatnamsen dessave
+[recto] d' E Michiel panneel, ondercoop¬
+[recto] man en soldij Boekhouder aldaar
+[recto] S:r Ian anthonij Lesse en den
+[recto] onderstuurman Hans Corne¬
+[recto] „lisz: als gecommitteerdens op den
+[recto] 1:' 9ber: A. o 1731. een begin gemaakt
+[recto] met 't visiteeren der paarlrhee„
+[verso] pattangatijn
+[recto] „ven
+== NL-HaNA_1.04.02_2222_0033 | #33 | sides: recto,verso | lines: 46
+[recto] 451.
+[verso] „ven voor Aripo gelegen en eerste„
+[verso] „lijk van de Bank gen: Kalleti„
+[verso] „del doen op halen 1077. stx: oesters
+[verso] dewelke bij openinge aan paarlen
+[verso] ter swaarte van 1 1/8. Calangie van
+[verso] de soort waddiwoe hebben uijtgele„
+[verso] „vert, Makende uijt 1 1/8 Chieuw en
+[verso] gewardeert op 19½. Madurese san:s,
+[verso] Berekenende de duijsent oesters
+[verso] 18 1/8 fan:s, buijten nog 9. paarlen
+[verso] meelmoettoe gen:t, die Buijten
+[verso] de reeq: sijn, ter swaarte van 4 5/8.
+[verso] Mangelijns, uijtmakende 1¾.
+[verso] Chieuw en gewardeert op 21: fan:s,
+[verso] Zo mede nog 8. paarlen insgelijx
+[verso] van de soort Meelmoethoe, de„
+[verso] welke buijten de reek. sijn, ter
+[verso] swaarte van 3 /8. mangelijns,
+[verso] uijtmakende I. Rheeuw en dewar„
+[verso] „deert. op 20. fan:s, mitsg:s nog 2.
+[verso] paarlen van opgem: soort meel„
+[verso] moettoe en Buijten de reerq:
+[recto] ter swaarte van 1. /8. Mangelijns,
+[recto] uijtbrengende -¾. Cheeuw en waar„
+[recto] dig 30. fanums.
+[recto] van de Moddergamse Bank opge„
+[recto] doken weesende 1109. stx: oesters,
+[recto] zo hebben deselve bij openinge aan
+[recto] swaarte uijtgelevert 1. Calangie
+[recto] en 4. mangelijns van de soort
+[recto] waddiwoe, makende uijt 1 1/8.
+[recto] Chieuw en gewardeert op 14½. Jan:
+[recto] uijtbrengende aldus de duijsent
+[recto] oesters 13. fan:s Buijten nog 10:
+[recto] paarlen gen: Meelmoettoe Swaar
+[recto] 2. mangelijns, uijtmakende — 3/10.
+[recto] chieuw en geprijseert op 6. fan:s
+[recto] zomede nog een paarl gen:t meel„
+[recto] moettoe, swaar -¾. Mangelijns,
+[recto] uijtmakende 2/5. Chieuw en geschat
+[recto] op 20. fan:s mitsgaders nog een
+[recto] paarl van de soort meelmoettoe
+[recto] ter swaarte van 1. Mangelijn,
+[verso] ter
+[recto] uijtbrengende
+== NL-HaNA_1.04.02_2222_0034 | #34 | sides: recto,verso | lines: 46
+[recto] 452
+[verso] uijtbrengende 3/¾4. Chieuw en gewardeerd
+[verso] op 30. fan:
+[verso] Van de Condatise Bank op gehaald
+[verso] sijnde 836. oesters zo hebben deselve
+[verso] van de soort waddiwoe bij openinge
+[verso] aan swaarte vertoond 1½. Mansa„
+[verso] „dij, uijtmakende 1 9/40. Chieuw en
+[verso] waardig 12 7/10. Can:s Berekenende de
+[verso] duijsent oesters 15 5/8. Can:s buijten
+[verso] nog 7 paarlen van de soort meel„
+[verso] „moetoe swaar 1½. Mangelijns,
+[verso] uijtbrengende ¼. Chieuw, en ge„
+[verso] wardeert op 5. Can:s, mitsgaders
+[verso] nog 3 paarlen almede gen: Meel¬
+[verso] moettoe ter swaarte van 1¼.
+[verso] Mangelijns, uijtbrengende 1/8.
+[verso] Chieuw en geprijseert op 15. Jan:
+[verso] Van de Bank aackoepaar 800.
+[verso] stx: oesters opgedoken zijnde, heeft
+[verso] men bij openinge derselve van de
+[verso] soort waddiwoe aan swaarte
+[recto] bevonden 1: Calangie en 1. ½. Man„
+[recto] gelijns, uijtmakende 1 3/40. Chieuw,
+[recto] gewardeert op 12 1/10. fan:s, uijt bren„
+[recto] gende dus de duijsent oesters 16 1/8.
+[recto] fan:s excepto nog 11. stx: paarlen
+[recto] van de soort meelmoettoe swaar
+[recto] 2½ Mangelijns uijtmakende 1/40.
+[recto] Cieuw, die geschat is op 8½ fan:s,
+[recto] zijnde daar en boven nog gevonden
+[recto] 2. paarlen, almede meelmoettoe
+[recto] genaamt swaar 1¼. Mang:s uijt„
+[recto] brengende 1/6. Chieuw, welke geprij„
+[recto] „seert is op 25. fan:s van d'aripose
+[recto] Bank 1011. stx: oesters opgehaald
+[recto] wesende, hebben wij bij openinge
+[recto] derselve van de soort Waddiwoe
+[recto] aan swaarte ontwaart 1¾. Cal:
+[recto] en 1. Mangelijn aan paarlen,
+[recto] uijtmakende 1 1/5. Chieeuw geschat
+[recto] op 21 3/5. Jan: Berekenende dus
+[recto] de duijsent oesters 21 2/5. Can=l;
+[recto] Buijten nog 15. paarlen gen:t
+[verso] Bevonden
+[recto] Meelmoettoe
+== NL-HaNA_1.04.02_2222_0035 | #35 | sides: recto,verso | lines: 45
+[recto] 453
+[verso] meelmoettoe, swaar 3¼. Mangel
+[verso] makende uijt 7/0. Chieuw, die ge„
+[verso] „wardeerd is op 14. Can:s, mitsgad„rs
+[verso] nog een paarl van de soort
+[verso] Meelmoettoe, swaar ½. Mansadij
+[verso] uijtbrengende 1/40. Chieuw en gewar„
+[verso] deert op 6¾. Canums.
+[verso] van de Bengaalse bank opgedo„
+[verso] „ken wesende 1661. stx: oesters,
+[verso] Zo sijn de paarlen van de soort
+[verso] waddiwoe bij openinge der oes„
+[verso] „ters gevonden ter swaarte van
+[verso] 2½. Calangies en 1½. Mangelijns,
+[verso] makende uijt 2 3/40. Chieuw, op 30. 1/10
+[verso] fan:s geprijseert, Berekenende
+[verso] oversulx de duijsent oesters
+[verso] 18½. Can:s buijten nog 25. stx:
+[verso] paarlen van de soort meel„
+[verso] moettoe, swaar 5. mangelijns,
+[verso] uijtbrengende ¾. Chieuw, welke
+[verso] gewardeerd is op 15. Jan:s Zo mede
+[verso] nog 8. paarlen insgelijx van
+[recto] de voorsch: zoort meelmoettoe
+[recto] ter swaarte van 2¼. Mangelijns,
+[recto] uijtmakende 1/20. Chieuw, die geprij„
+[recto] seert is op 18. Jan:s, mitsgaders
+[recto] nog een paarl almede gen: Meel„
+[recto] moettoe swaar een mangelijn
+[recto] uijtbrengende ¾. Chieuw, die op 30.
+[recto] fan:s is gewardeert.
+[recto] Voorts de bank periahaar Besig„
+[recto] „ligt sijnde heeft men van deselve
+[recto] maar Ionge oesters opgedoken,
+[recto] en dewelke daaromme ook van
+[recto] wijnig voordeel is g'oordeelt.
+[recto] Gelijk ook bij visitatie van de bank
+[recto] Chewelpaar in't geheel geen oes„
+[recto] „ters daar op zijn gevonden.
+[recto] En overmits de bevondene oesters
+[recto] op d'eerstgen: 6. Banken in een
+[recto] geringe quantiteit bestaan,
+[recto] mitsgaders het meeste gedeelte
+[verso] de.
+[recto] daar
+== NL-HaNA_1.04.02_2222_0036 | #36 | sides: recto,verso | lines: 47
+[recto] 454
+[verso] daar van dood en ook de resteeren„
+[verso] „de d=os volwassen sijn, zo hebben
+[verso] wij gants geen hope dat die oes„
+[verso] „ters lang zullen kunnen duu„
+[verso] „ren, om in't aanstaande Iaar
+[verso] 1733 aldaar een visserije te houden,
+[verso] alzo de oesters in dit tijd al dood
+[verso] zullen weesen; derhalven en
+[verso] ook om reeden er op de present
+[verso] Bevonden Roesters een seer
+[verso] groot voordeel te behalen is,
+[verso] zo sal 't dan ook hoog noodsa„
+[verso] „kelijk zijn, dat aldaar in't
+[verso] aanstaande Iaar 1732. een
+[verso] visserije gehouden werd, alzo
+[verso] 400: thonij seen en een halve
+[verso] walie of 1½ week sonder man„
+[verso] „quement genoegsaam sullen
+[verso] konnen vissen; en alschoon 'er
+[verso] meer als 400. thonijs aldaar
+[verso] mogten komen te verscheinen,
+[verso] Zo sullen voor deselve egter geen
+[recto] oesters ontbreeken, en zullen ook
+[recto] alle de menschen die op de visserije
+[recto] staan aantekomen geensints
+[recto] tegen hebben om de rijkheid der
+[recto] haarlem, dewelke opgedagte
+[recto] Banken te vinden zijn, de steen„
+[recto] gelden voor een geheele of volko¬
+[recto] „me visserije te betalen, derhalven
+[recto] hebben wij na het Eijndigen
+[recto] der voorsch: visitatie onder hope
+[recto] van godes zeegen en de hulpe
+[recto] van d' E Comp: desen op den
+[recto] 22:' xber: geschreven en onder„
+[recto] „tekent.
+[recto] In't hooft der ola was getekend
+[recto] de personen in den hoofde deses
+[recto] gem:, en is dese ola aldus gesch:
+[recto] door Amadoor de koense,
+[recto] Cannecapptl: van den Manaarsen
+[recto] pattangatijn /:onderstond:/
+[recto] Aldus op't verstaan geven
+[recto] van den geswooren tolk domingo
+[verso] oesters
+[recto] dias
+== NL-HaNA_1.04.02_2222_0037 | #37 | sides: recto,verso | lines: 42
+[recto] 455.
+[verso] dias door ons ter papiere ge„
+[verso] „bragt.
+[verso] In't Casteel Colombo den
+[verso] 29:' xber: 1731. /:was getekend:/
+[verso] H: I: v: Cleeff gesw: Clerq: en
+[verso] A: v: D: Berg gesw: Clerq: /: in
+[verso] Marginee :/ voor de translatie
+[verso] /:getekend:/ D: Dias Tolk
+[verso] Aldus gedaan en Geresol„
+[verso] „veert in't Casteel Colombo,
+[verso] ten dage, maand, en Iaare voorsch:
+[verso] S: Dersluijs, I: B: ver„
+[verso] „nattie, I: W: Hiltebrand,
+[verso] g:t Kalden, I: D: Maureg„
+[verso] „nault, I: Z: van Mijlen„
+[verso] donk en W: B: albinus. —
+[verso] /:lager stond:/ Mij Present: /:getek:/
+[verso] R:s Cau p:l Secretaris:
+[verso] Donderdagh.
+[recto] Donderdagh
+[recto] den 31:' Januarij A:o 1732:
+[recto] Praesent.
+[recto] Den Wel Ed: Heer Gouverneur Stephanus Versluijs
+[recto] „ Z: hooft administrateur Ioan Benjamin Vernatti=
+[recto] Jodocus Wilhelmi Hiltebrand
+[recto] des saver
+[recto] Gerrit Kalden,
+[recto] Capitain
+[recto] Joan De Mauregnault,
+[recto] „ Fiscaal
+[recto] „ p:o soldij Boekhouder Ian Elias van Mijlendonk en
+[recto] „ „ Eerste Pakhuijsm:r Wilhelm Berh:s albinus.
+[recto] Absent
+[recto] Capitain, Ioan wilhelm Schnee„
+[recto] In ambassade na 't hof van Candia„
+[recto] T. schip Landscroon dat alhier
+[recto] aangehouden is, om direct van dese
+[recto] rheede na Batavia overtebrengen
+[recto] onse Compleete advijsen aan D' Ed:
+[recto] ho: Indiase Regeering na het
+[recto] geene
+== NL-HaNA_1.04.02_2222_0038 | #38 | sides: recto,verso | lines: 47
+[recto] 456.
+[verso] geene diendwegen genoteerd is bij ons
+[verso] Briefken van 17:' deser met 't schip
+[verso] Westerbeek als nu ten eijnde voorsch
+[verso] in staat gebragt sijnde nevens onse
+[verso] evengem: advisen zo wierden deselve
+[verso] als nu nevens nog een aparten brief
+[verso] over de saken der oostendenaren
+[verso] en Sodanigen geschrift als ter ordre
+[verso] van welgem: haar hoog Ed:s nopens
+[verso] de opgaven der Respective Comman„
+[verso] deurs en andere Subalterne minis¬
+[verso] „ters over't aanqueken eeniger
+[verso] producten en de Besnoeijing van
+[verso] nodelooser lasten mitsgaders ver„
+[verso] meerdering der winsten door den
+[verso] heer gouverneur geformeert was ter
+[verso] vergadering binnen gebragt, gelesen
+[verso] en getekend, mitsg:s geresolveerd
+[verso] gem: papieren nog desen avond aan de
+[verso] overheeden van't vorengemelte schip
+[verso] Landscroon t'inhandigen en deselve
+[verso] daarmede hunne depesche teverleenen.
+[recto] De assistenten Wouter Tenpezel
+[recto] en Ioannes Stephanus Kadens„
+[recto] „ki door ons als gecommitteerde op den
+[recto] 29:' 9ber: laastleden na Calpettij
+[recto] zijnde gesonden, om aldaar de novo
+[recto] te visiteeren en garbuleeren sodanige
+[recto] 1813. ¾. R:s ammon: areek als er vol„
+[recto] gens schrijvens der ged:te Bediendens
+[recto] van 6:' Maart d' a passalo aldaar oud
+[recto] en invendibel bevonden, en sedert
+[recto] ter onser ordre van den 22:' dier
+[recto] selve maand nog nader gegarbuleert
+[recto] en d'ondeugende daar van seperaat
+[recto] opgelegt waren; mitsgaders hun
+[recto] rapport nopens de bevinding derselve
+[recto] deser dagen van Calpettij alhier
+[recto] ontfangen zijnde, so wierd het
+[recto] selve door den heere gouverneur
+[recto] in Rade g'exhibeerd en ter ordre
+[recto] van welgem: zijn Edele staande
+[recto] vergadering opgelesen; waar uijt
+[recto] dan quam te Blijken dat na
+[verso] De
+[recto] gedane
+== NL-HaNA_1.04.02_2222_0039 | #39 | sides: recto,verso | lines: 48
+[recto] 457.
+[verso] gedane garbuleering van ged:te parthij
+[verso] een quantiteit van amm:s 77
+[verso] 77½.
+[verso] uijtgedroogt en invendibel mitsgaders
+[verso] 2250
+[verso] 1007124000: vermolmd en tot gruijs.
+[verso] 1750
+[verso] item nog 29 924000. tekort waren be„
+[verso] „vonden, waar over als nu gedelibe„
+[verso] „reert sijnde zo 'is eenparig verstaan
+[verso] de voorm: tekort koming als passa„
+[verso] „bel en maar 1 /8 p:r C:o Ruijm,
+[verso] Berekenende te laten valideeren
+[verso] en op winst en verlies afte schrijven,
+[verso] mitsgaders de resteerende parthij
+[verso] 14250
+[verso] van 1784 24000. amm: ten overstaan
+[verso] van voorsch: gecommitteerdens te doen,
+[verso] verbranden, onder desen verstande
+[verso] nogtans dat zijlieden eerstelijk en
+[verso] voor af sullen moeten afleggen den
+[verso] Eed dat zij hun direct. of indirect
+[verso] in en omtrent het werk der gar„
+[verso] buleering niet hebben Bevoordeelt
+[verso] of staan te bevoordeelen; zijnde
+[verso] wijders nog Gearresteert tot
+[recto] nadere Corroboratie van't Boven„
+[recto] „staande, het geciteerde rapport der
+[recto] gedagte gecommitteerdens hier
+[recto] onder t'insereeren.
+[recto] Aan den wel Edelen achtb.
+[recto] eer Stephanus Ver¬
+[recto] „sluijs Raad ordinaris van
+[recto] India, gouverneur en direc¬
+[recto] „teur van't Zijland Ceilon
+[recto] Met de verdere onderhorigheden
+[recto] van dien.
+[recto] Wel Ed:e achtb: Hoog
+[recto] Gebiedende Heere.
+[recto] In schuldige naarkominge van
+[recto] uwel Ed:e agtb: hoog gevenereerde
+[recto] ordre hebben wij ondergetekende
+[recto] Expresse gecommitteerdens Exact
+[recto] besigtigt, mitsgaders ten
+[verso] nadere
+[recto] overstaan
+[recto] E
+== NL-HaNA_1.04.02_2222_0040 | #40 | sides: recto,verso | lines: 49
+[recto] 458.
+[verso] overstaan van ons en den Canne„
+[verso] „cappel Moergappa, d'uijtgesogte
+[verso] parthije arreek wederom laten
+[verso] garbuleeren, gedurende dien tijd
+[verso] hebben wij de vereijste sorge
+[verso] gedragen ontrent het openen
+[verso] sluijten en versegelen van de
+[verso] woning daar gem: noten waren
+[verso] opgelagd, doende althans mits
+[verso] gedaan werk op het submiste
+[verso] in alle eerbied en nedrigheit
+[verso] rapport na Bevindinge dat
+[verso] In een Comp:s woning Gebor
+[verso] „gen zijn
+[verso] 2400. Balijs oude invendible uijt„
+[verso] gedroogde en door Boetique¬
+[verso] „ros voor onleverbare nooten
+[verso] gekeurt, komt tot 7775. ider
+[verso] balij
+[verso] amn:o 777: 12000.
+[verso] 3110. dL: vermolmt ver„
+[verso] gaan en tot gruijs
+[verso] geworden. - - - - . . . . . . „1007: 2250.
+[verso] dus Tesamen. . . . . . 1784. 14250
+[verso] die transportere
+[recto] P:r Transport. . . 1784. 14250.
+[recto] Zo dat volgens de boeken
+[recto] tekort komen 1 1/8. p:r C:o
+[recto] R: Amm:. . . . . . . . . . . . . . . . . . 29. 3750.
+[recto] Somma. . . . . . . . . 1813. 18000.
+[recto] hiermede hopen wij aan uwel Ed:
+[recto] agtb: hoog g'eerde ordre na ons
+[recto] gering vermogen te hebben vol„
+[recto] daan, terwijl w' d'eere hebben
+[recto] om met d'uijtterste eerbied en
+[recto] diepe veneratie te mogen blijven
+[recto] /:onderstond:/ wel Edele agtb:
+[recto] hoog gebiedende heere, uwel
+[recto] Edele agtb: gants onderdanige
+[recto] en gehoorsaamste dienaren„
+[recto] /:was getekend:/ W: Senpelel
+[recto] en I:s P:s Kadenski /in mar„
+[recto] „gine stond:/ Binnen de fortres„
+[recto] se Calpettij desen 4:' Ia„
+[recto] nuarij 1732.
+[recto] Wijders.
+[recto] E
+[recto] C
+== NL-HaNA_1.04.02_2222_0041 | #41 | sides: recto,verso | lines: 47
+[recto] 459
+[verso] Wijders Betuijgde den heer gouverneur
+[verso] dat de leeden niet onkundig konden
+[verso] wesen van Welgem: zijn Ed:e voor¬
+[verso] „nemen om sig andermaal voor Een
+[verso] Keer na d' overkust van Madure te
+[verso] begeeven, en aldaar te vernemen of
+[verso] door sijn Ed: aantewendene efforten
+[verso] den vervallene handel eeniger Maten
+[verso] soude kunnen herstelt en den insaam
+[verso] van lijwaten in dit laaste Jaar van
+[verso] desselvs bestier op de vorigen trant
+[verso] gebragt of ten minsten Bewerkt
+[verso] werden dat men in staat mogte
+[verso] geraken buijten de nodige, lijwaten
+[verso] voor Ceilon te kunnen voldoen aan
+[verso] den patriasen eijsch op dewelke
+[verso] in ao pass=o geen een stuk guinees
+[verso] of Salempoeris mits 't gebrek dat
+[verso] men selvs alhier aan die doeken
+[verso] gehad heeft, is voldaan geworden,
+[verso] seggende welgem: zijn Edele al¬
+[verso] verder van intentie tewesen om
+[recto] ten voorsch: eijnde nog heden avond,
+[recto] met het Jagt geertruijda Maria
+[recto] na derwaarts te vertrecken, teffens
+[recto] exhibeerende eene schriftelijke memo¬
+[recto] rie door sijn Edele opgestelt en gefor„
+[recto] meert tot narigt der alhier verblij„
+[recto] „vende leeden in de Maniance Van
+[recto] 's Comp:s zaken, gedurende welgem:
+[recto] sijn Edeles absentie onder recom„
+[recto] mandatie met den anderen in Vreede,
+[recto] eendragt en minnelijkheid den dienst
+[recto] der 's Comp: te helpen verrigten
+[recto] en gadeslaan, mitsgaders voor al
+[recto] met een sorgelik oog in agt te
+[recto] nemen de Bewegingen die er int
+[recto] Candiase Rijk sonder dat
+[recto] men de reedenen van dien weet
+[recto] gemaakt werden en bij aldien hier
+[recto] ontrent iets extraordin:s mogte
+[recto] komen voortevallen sonder eenige
+[recto] de minste uijtstel de nodige berig„
+[recto] „ten met een der aanhanden sijnde
+[verso] ten
+[recto] Vaartuijgen
+== NL-HaNA_1.04.02_2222_0042 | #42 | sides: recto,verso | lines: 46
+[recto] 460
+[verso] vaartuijgen aan sijn Ed: overtesen„
+[verso] „den en voorts alles stiptelijk te
+[verso] obitemporeeren dat bij voorschreve
+[verso] Memorie nopens dese en geene sa„
+[verso] „ken vervat staat 't geen door de
+[verso] gesamentlijke Leeden met veel
+[verso] eerbied aangenomen zijnde so
+[verso] wierd sijn Ed: vervolgens door
+[verso] haar eene geluckige en voorspoedige
+[verso] Rijse, mitsgaders een goed succes
+[verso] van saken toegewenscht.
+[verso] int Casteel Colombo, ten dage,
+[verso] maand en Iaare voorsch: /:was getek:d
+[verso] J:s Versluijs, I: B: vernat„
+[verso] „ti, I: W: hiltebrand
+[verso] Kalden, I: D: Maureg„
+[verso] „nault, I: Z: van Mijlendonk
+[verso] en W: B: albinus /:lagerstond:/
+[verso] mij present /:getek:t/ R: Cari
+[verso] p:lo Secretaris.
+[recto] Donderdagh
+[recto] den 28: februarij 1732
+[recto] Present.
+[recto] Den Wel Ed:e heer Gouverneur Stephanus Versluijs,
+[recto] „ E: hooftadministrateur Ioan Benjamin Vernatti,
+[recto] „. „ dessave . . . . . . . . . Jodocus Wilhelmi Hiltebrand,
+[recto] „ „ Capitain Gerrit Kalden,
+[recto] „: „ fiscaal. . . . . . . . . Ioan De Maurcgnault
+[recto] „ p:e soldij boekh:d Ian Elias van Mijlendonk en
+[recto] „„ Eerste pakhuijsm:r Wilhelm bernh:s albinus
+[recto] absent.
+[recto] Aldus gedaan en geresolveerd: 1: „ Capitain Ioan Wilhelm Schnee
+[recto] In ambassade na Candia
+[recto] den tijd dat de tehoudene paarlvisserije
+[recto] in de Bogt van Condaatje en op de
+[recto] aripose banken staat een aanvang
+[recto] te nemen sterk beginnende te nade„
+[recto] „ren, so hadde den heer gouverneur
+[recto] de leeden ten principale geconvo„
+[recto] „ceert om met den anderen te
+[verso] Donderdag
+[recto] Consuleeren
+[recto] „
+[recto] „agtb:
+[recto] „
+== NL-HaNA_1.04.02_2222_0043 | #43 | sides: recto,verso | lines: 47
+[recto] 461.
+[verso] Consuleeren over den incoop van
+[verso] paarlen, die na d'expresse begeerte
+[verso] der heeren meesters des mogelik
+[verso] diende te geschieden; waar op dan
+[verso] ter ordre van welgem: sijn Edr staan¬
+[verso] „de vergadering opgelesen wierd het
+[verso] extract uijt de generaale missive
+[verso] der Ed: ho: agtb: heeren 17:en Feb
+[verso] dato 23:' Iunij 1724. over dese materie
+[verso] en onder het Cappittel van Ceilon
+[verso] aan haar ho: Ed:s tot Batavia
+[verso] gesch: waar bij haar Ed: Hoog agtb:
+[verso] wel duijdelik komen te seggen dat
+[verso] wel hadden gewilt men eenige paar,
+[verso] „len, principaal van grote in de
+[verso] doenmalige gehoudene visserijen
+[verso] hadde ingekogt, en na Nederland
+[verso] gesonden om des tebeter van de
+[verso] waarde te konnen oordeelen met
+[verso] speciale last, om in den aanstaan„
+[verso] de wanneer 'er wederom een visserije
+[verso] sal werden gehouden zulx te
+[recto] doen geschieden onaangesien men
+[recto] genoodsaakt was daar voor meer
+[recto] te moeten besteeden als eijgentlijk
+[recto] het voorschrift der prijsen van
+[recto] a:o 1695. dicteert waar aan haar
+[recto] Ed: ho: agtb: seggen men sig in
+[recto] sulken geval zo heel nau niet
+[recto] sal Behoeven te binden, welke
+[recto] periode die zo wel eene positive
+[recto] ordre tot den incoop van paarlen
+[recto] na de prijsen van't voorsch. Iaar
+[recto] 1695. als permissie tot het inkopen
+[recto] van eenige grote peerlen tot een
+[recto] monster tegens hogere prijsen
+[recto] quam te behelsen als nu in deli„
+[recto] beratie genomen sijnde Behaagde
+[recto] het den heer gouverneur te ver„
+[recto] „klaren dat sijn Ed: van gedagten
+[recto] was de heeren Majores liefst
+[recto] souden sien men tegens de Meerm:
+[recto] prijsen van A:o 1695. een incoop
+[recto] deede van diergelijke paarlen als
+[verso] doen.
+[recto] Bij
+== NL-HaNA_1.04.02_2222_0044 | #44 | sides: recto,verso | lines: 48
+[recto] 462
+[verso] bij haar Ed:' eijsch van den Iare 1720.
+[verso] in 't brede genoteert staan vermits
+[verso] haar Ed: hoog agtb: sedert het voorsch.
+[verso] Iaar hun altoos en nog Iongst om„
+[verso] „trent den eijsch van paarlen onder
+[verso] de woorden van volgens de oude
+[verso] Notitie aan voorsch: eijsch van den
+[verso] Iare 1720. hebben gedragen, dog Bij
+[verso] aldien deselve sodanig niet te bemag„
+[verso] „tigen waren dat haar Ed: hoog
+[verso] agtb: als dan eenige paarlen van
+[verso] de grootste soort om tot Monsters
+[verso] te dienen wilden ingekogt hebben,
+[verso] 't geene bij de leeden mede zodanig
+[verso] begrepen wesende; zo is met een„
+[verso] „parigheid verstaan de Iaffanapat„
+[verso] „namsen Commandeur Jualte„
+[verso] „rus Woutersz: en de verdere
+[verso] gecommitteerdens der aanstaande
+[verso] paarlvisserije bij missive te gelasten
+[verso] eene inkoop van Paarlen van Soda¬
+[verso] nige soorten als bij den Eijsch
+[recto] van den Iare 1720. gespecificeert staan
+[recto] en sulx tegens de prijsen in den Jare
+[recto] 1695. door den koopman Govert
+[recto] van vlierden en andere doenmalige
+[recto] gecommitteerdens daar voor betaalt
+[recto] te doen, en ten dien Eijnde hun Extract
+[recto] uijt voorm: Eijsch en't Manaars
+[recto] negotie Iournaal van't laastgew:
+[recto] Iaar toetesenden, en haar al verders
+[recto] t'ordonneeren dat ingevalle voorm:
+[recto] paarlen sodanig niet te bemagtigen
+[recto] sijn als dan in voldoening van de
+[recto] expresse Begeerte der heeren Mees„
+[recto] „teren eenige grote paarlen tot
+[recto] monsters tegens marktgangs prijs,
+[recto] also men oordeelde deselve niet wel
+[recto] anders te bekomen soude wesen in
+[recto] te kopen, mits deselve van de
+[recto] grootste en eguale soort mitsg:s
+[recto] genoeg in getal sijn om een heele
+[recto] snoer die een vrouwe hals ordente„
+[recto] „lik kan beslaan uijttemaken,
+[verso] van
+[recto] in
+== NL-HaNA_1.04.02_2222_0045 | #45 | sides: recto,verso | lines: 43
+[recto] 463.
+[verso] in hoope daar door aan't g'eerd re„
+[verso] „quisit der heeren meesters vervat
+[verso] bij opgem: Missive van 23:' Junij 1724.
+[verso] waar van aan gedagte gecommitteerd:
+[verso] almede Extract staat toegesonden
+[verso] te werden sal wesen voldaan.
+[verso] Wijders gedelibereert sijnde wat
+[verso] somma gelts men tot sodanigen
+[verso] inkoop wel soude Besteeden, so is
+[verso] verstaan ten eijnde voorsch: met het
+[verso] Iagt Colombo onder opsigt der
+[verso] gecommitteerdens die van hier daar„
+[verso] mede na de bogt van Condatie—
+[verso] staan te vertrecken, na derwaarts
+[verso] te senden eene somma van 20000.
+[verso] goude Pagoden en al verder ten
+[verso] dienste van den Candiasen vorst
+[verso] een incoop van paarlen te laten
+[verso] doen ten bedragen van 1000: rd:s iets
+[verso] min of meer onbegrepen en sulx
+[verso] na d'exempelen van de Iaren 1723.
+[recto] en 1724: in dewelke voor dien vorst
+[recto] telkens eenige sijn ingekogt tot de
+[recto] swaarte van 90. Chieeuw en daar
+[recto] voor in't eerste Iaar 900. pard:s en't
+[recto] laastgem: 1012½. rd:r syn betaald
+[recto] geworden.
+[recto] Aldus gedaan en Geresolveert
+[recto] in't Casteel Colombo ten dage
+[recto] maand en Iaare Voorsch: /:getek.:d/
+[recto] J:s Versturs, I: B: Vernatti
+[recto] J: W: Hiltebrand, G: Kalden,
+[recto] J: D: Mauregnault, I: Z:
+[recto] van Mijlendonk en W: B:
+[recto] albinus /:lager stond:/ Mij pre„
+[recto] sent /:was getek:t/ R: Cau p:l Scc:s
+[recto] Dingsdag den 22:'
+[recto] april a:o 1732.
+[recto] present.
+[recto] den wel Ed: heer gouvrneur Stephanus Versluijs
+[verso] en.
+[recto] den
+== NL-HaNA_1.04.02_2222_0046 | #46 | sides: recto,verso | lines: 48
+[recto] 464.
+[verso] „ fiscaal. .
+[verso] Den Z: dessave . . . Iodocus wilhelmi Hiltebrand,
+[verso] „ Capitain. . . . . Gerrit Kalden,
+[verso] Joan De Mauregnault,
+[verso] „ Capitain. . . . . . Ioan Wilhelm Schnee,
+[verso] „ p:s soldij Boekh:e Ian Elias van Mijlendonk,
+[verso] „ „ Eerst pakhuijsm r Wilhelm Bernh:s albinus
+[verso] absent.
+[verso] „ „ hooftadministrateur Ioan Benjamin Vernatte
+[verso] door indispositie.
+[verso] Deser dagen bij de leeden ter lecture rond
+[verso] geweest en althans met de daar toe
+[verso] gehorende so gerecoleerde als Be-eedig
+[verso] „de verklaringen en andere Noodwendi„
+[verso] „ge bescheiden door den heer gouverneur
+[verso] ter vergadering binnen gebragt sijnde
+[verso] d ondervolgende Memorien Dan
+[verso] Minderheeden defecten en overbevonde„
+[verso] „ne goederen; 't sedert p=mo Lber: d' a:o
+[verso] pass:o tot ult:o feb:r I:o leeden alhier
+[recto] in 's Comp:s negotie en andere pakhuij„
+[recto] „sen, mitsgaders op de buijten posten
+[recto] onder dese dessavonije gehorende, en bij
+[recto] ontlossinge der Iongst alhier uijt
+[recto] Nederland aangekomene scheepen
+[recto] Maria adriana Sheeren
+[recto] arendskerke en de Iacoba bij
+[recto] opening nameeting en naweegingh
+[recto] ontdekt, verselt van een naamrolle
+[recto] van 's Comp:s slaven en Beestialen
+[recto] in voorsch: tijd gestorven en verrekt,
+[recto] mitsgaders wa van het Rapport
+[recto] der visitateurs nopens derselver
+[recto] bevindinge; Zo is na Examinatie
+[recto] van alle voorsch: geschriften, die
+[recto] hier onder nabehoren g'insereert
+[recto] sijn, verstaan 52¼. lb: holl:s stijfzel
+[recto] bij 't openen en nawegen van 3. vaten,
+[recto] 39. lb: amphioen uijt een wel gecondi„
+[recto] „tioneerde kist, 5. riemen Kl:s for„
+[recto] „maat papier in een Besloten kas,
+[recto] 3¼ lb: sp:s groen in een vatje, en 17.
+[verso] in
+[recto] grote
+[verso] „
+[verso] ƒ
+[verso] ƒ
+== NL-HaNA_1.04.02_2222_0047 | #47 | sides: recto,verso | lines: 48
+[recto] 465.
+[verso] grote flessen persiaans Rosewater
+[verso] in ses kassen gebroken, en tekort
+[verso] bevonden; mitsgaders 22 5/8. lb: foelij
+[verso] aan stof en 49¾ lb: bij 't openen van
+[verso] 2. sockels te min ontwaart, bij de
+[verso] negotie boeken te laten afschrijven—
+[verso] en van dit laaste het stof nevens
+[verso] de afpakbriefjes volgens de ordre
+[verso] na Batavia tesenden, mitsgaders
+[verso] het bedragen van 11. p:s bandenoesen
+[verso] of taftas deCoela in een pak per't,
+[verso] Iagt Constantia in den voorleden
+[verso] Iaare van daar aangebragt te min
+[verso] bevonden, onder toesending van't afpak
+[verso] briefje, voorsch: hooftplaatse aan
+[verso] te reekenen, ten Eijnde door dies af„
+[verso] „packers aan d' E Comp: gerembour„
+[verso] „seert te werden, en intusschen bij
+[verso] publicque venditie voor het geene
+[verso] sullen willen gelden te laten ver„
+[verso] „koopen sodanige 35: p:s fijne Cassa
+[verso] Bengale de handiaal met goude
+[recto] hoofden als bij het openen van een be„
+[recto] „sloten kist verstikt en met roode
+[recto] plicken beset bevonden sijn; dog daar
+[recto] en tegen als passabele ondermaten te
+[recto] laten valideeren 1953. lb: Mallabaar„
+[recto] „sen peper, op een quantiteit van
+[recto] 202969. lb: uijt dat Commandement
+[recto] en gale, en 2. p:r c:t op de rijst lading
+[recto] van't Iagt Constantia van Bata„
+[recto] to
+[recto] „via mitsgaders 1. /5. en 1¼. per C:o op
+[recto] de Nelij binnen door van Nigombo
+[recto] alhier aangebragt, somede 28. lb:
+[recto] boter op 3626. lb: in 14. wel geconditi„
+[recto] „oneerde Vaten, 11. Cann: Margozij olij
+[recto] op 3. leggers van Manaar en 52.
+[recto] Kann: kokus olij tot opvulling van
+[recto] 16. heele en 4: halve leggers p:r 't schip
+[recto] Landskroon van gale mitsgaders
+[recto] 22. kann: dubb: arrak op 26. leggers
+[recto] met de boot de verandering van
+[recto] Callawille bekomen gelaxeerd en
+[recto] verspilt geraakt; gelijk de besloten
+[verso] hoofden.
+[recto] wierd
+== NL-HaNA_1.04.02_2222_0048 | #48 | sides: recto,verso | lines: 47
+[recto] 466.
+[verso] wierd de 8: p:s onbequame Cormandelse
+[verso] Cromvellen onder 75. p:s in een pak van
+[verso] Manaar overgebragt nevens de goede
+[verso] „ren van het afgelegde Iagt d'anna
+[verso] van tutucorijn dit heen gesonden en in
+[verso] 'tijzer Maguazijn, de Wapencamer,
+[verso] scheepstimmerwerf, 't Matriaal„
+[verso] „huijs, negotie pakhuijs, en Smitswin„
+[verso] „kel ter bewaringe gestelt, na dat
+[verso] alvorens het oud kooper en ijzer ter
+[verso] presentie van fiscaal en gecommitt=de
+[verso] Iustitieele leeden daar van sal af„
+[verso] geslagen en aan den baas Smith ter
+[verso] verantwoording overgegeven weesen,
+[verso] ten haren overstaan ook te laten
+[verso] vernietigen, excepto de geene die in't
+[verso] Equipagie pakhuijs alhier Beruston„
+[verso] en nog eenigsints dienstig g'oordeeld
+[verso] sijn, dewelke bij d'ongetaxeerde boek„
+[verso] restanten sullen aangetrokken,
+[verso] dog daar en tegen ten overstaan van
+[verso] ged:e officier en gecommitteerdens in
+[recto] zee geworpen moeten werden de 71. lb:
+[recto] vuijl wax bij het maken van kaarsen
+[recto] vergadert, terwijl het daar door gecau„
+[recto] „seert verlies van 3 1/5. p:r C:to almede
+[recto] gearresteert is te laten afschrijven;
+[recto] met en benevens de gestorvene slaven
+[recto] en Beestialen van d'E: Comp: bij
+[recto] de voorgeciteerde en hier agter te
+[recto] vindene Naamrolle bekend staande,
+[recto] en inselver voegen te handelen met
+[recto] de minderheeden op de buijten posten
+[recto] Nigombo, Caliture en hangwelle
+[recto] omtrent d' aldaar aangebragte
+[recto] parthijen rijst en sout; dog door den
+[recto] quartiermeester van de Boot Den
+[recto] ondank aan d' E: Comp: te doen ver„
+[recto] goeden 42. p:s koeluijden, die denselven
+[recto] onder een getal van 4000. p:s bij den
+[recto] tel alhier ontfangen en tot Caliture
+[recto] voorm: te weinig overgeleverd heeft;
+[recto] Zijnde Wijders nog verstaan alle de
+[recto] aangehaalde minderheeden en
+[verso] Zee
+[recto] defecten.
+== NL-HaNA_1.04.02_2222_0049 | #49 | sides: recto,verso | lines: 48
+[recto] 467.
+[verso] defecten, mitsgaders wannigheden op de
+[verso] dranken bij ontlossing der hier voren
+[verso] gem: drie scheepen ontdekt en bevonden
+[verso] te laten afschrijven, en d'aangekomene
+[verso] 3. Vaten Meijbooms-Bier bij vendi„
+[verso] „tie te doen verkoopen, en daar en
+[verso] tegen bij de negotieboeken telaten
+[verso] inneemen sodanige goederen als uijt
+[verso] die Bodems alhier aan de wal gele„
+[verso] „vert, en op de aangebragte facturas
+[verso] niet bekend gesteld zijn; terwijl de
+[verso] 3. gebroke Cijffergriften en 4. Verre„
+[verso] „ 5. 9 os
+[verso] „kijkers onder een parthij van „ d=o ont„
+[verso] „fangen, en van 3. voeten ruijm en
+[verso] schaars in steede van 3½. voeten—
+[verso] bevonden, na inhoude der Vaderlandse
+[verso] factura bij de boeken mits de lengte
+[verso] na de bevinding stellende zullen
+[verso] moeten Blijven voortlopen en in
+[verso] 's Comp:s dienst verstrekt Mitsgaders
+[verso] ondersogt werden of de gebroke Glase
+[verso] ruijten niet klijnder en tot dienste
+[recto] der E: Comp: kunnen werden bequaam
+[recto] gemaakt, ofte anders deselve ten over„
+[recto] staan van voorm: fiscaal en gecom„
+[recto] „mitteerdens nevens de nutteloose
+[recto] flintsteenen, en 197. lb: bedorven
+[recto] vlees uijt een vat welkers Bodem
+[recto] ontsprongen is, mitsgaders de
+[recto] drabbige wijntint bij aldien nergens
+[recto] toe nut mogte wesen ofte kan—
+[recto] gebruijkt werden, nevens 3. boeken
+[recto] bedurven Cardoes ppier: 12. p:s aan
+[recto] strcken sijnde tromhoepen, 3. p:s
+[recto] stale Sakhoralogies veeren gants
+[recto] verroest en slapwesende, in gesel„
+[recto] „schap van 15. p:s holl:s tromvellen
+[recto] ten eenemaale verstikt, item 2.
+[recto] onbruijkbare houte passers, 5. onbe„
+[recto] „quame vijlen, en een hairdoek in
+[recto] zee sullen moeten geworpen mitsg:s
+[recto] de bij het probeeren gesprongene snap„
+[recto] haar loopen na d'ordre van den Jaare
+[recto] 1725. na Nederland versonden
+[verso] der.
+[recto] werden
+== NL-HaNA_1.04.02_2222_0050 | #50 | sides: recto,verso | lines: 47
+[recto] 468
+[verso] werden; sijnde wijders nog Besloten
+[verso] de 5. rollen smal overdoek op verschei„
+[verso] „de plaatsen aan de kanton verrot
+[verso] en beschadigt nevens 35. haire doeken
+[verso] die onder een getal van 72. p:s door het
+[verso] weer beschadigt zijn Bevonden als
+[verso] nog bruijkbaar sijnde aan te houden,
+[verso] en de overgeschotene provisien vol„
+[verso] „gens overgelegde Briefjes door de
+[verso] schippers en boekhouders der vooren„
+[verso] gem: drie scheepen ondertekend,
+[verso] Mitsgaders de scheepsplunderagien,
+[verso] volgens de notitien uijt de scheeps
+[verso] Iournaalen, met vermindering der
+[verso] geene die te kort sijn overgegeven als
+[verso] van weinig importantie voor Reek:
+[verso] van d' E: Comp: bij de boeken aante„
+[verso] trecken, maar van de gedane ver„
+[verso] „strekking op 't Zijland S t Iago.
+[verso] door de scheepsoverheden van Maria
+[verso] adriana, ens Heeren Arends„
+[verso] „kerke, ten Bedrage van 100. sp:s Rea
+[recto] voor ider schip tot opkoping van ver„
+[recto] „versing en andere diensten is verstaan
+[recto] nevens de gedane uijtgave van 82 5/63.
+[recto] ducatons door d' overheden van't schip
+[recto] de Iacoba, uijt d'aan haar in't
+[recto] patria mede gegeven gelden niet
+[recto] meer te laten valideeren dan 5. sp:s
+[recto] Realen die op het eerste voort sien
+[recto] van de Caab en 11. d:o op het tweede
+[recto] mitsgaders 8 3/63. ducatons op laast„
+[recto] „gen: Bodem voor't sien van De
+[recto] Caab en Ceilon na voorig gebruijk
+[recto] sijn verschonken, en d' overige penn:
+[recto] door haar te doen verantwoorden aan
+[recto] d' Edele hooge Indiase regeering
+[recto] tot Batavia, dog daar en tegen van
+[recto] de te min geleverde 6. p:s masthou„
+[recto] „ten, also den schipper betuijgt heeft
+[recto] niet meer ontfangen te hebben dan
+[recto] 66. p:s rondhouten in steede van 72.
+[recto] en zulx ook over een Comt met
+[recto] d'ongetekende sluagie Lijst, uijt
+[verso] voor
+[recto] welken
+== NL-HaNA_1.04.02_2222_0051 | #51 | sides: recto,verso | lines: 48
+[recto] 469
+[verso] welken hoofde men moet sustineeren
+[verso] 't selve een notoir abuijs tewesen, en van
+[verso] Meer andere aanmerkelijke minderhee„
+[verso] „den door den hooft-administrateur
+[verso] alhier een specifique notitie te doen
+[verso] opmaken, en deselve na d'ordre der
+[verso] heeren Meesters bij missive van 27:'
+[verso] Julij 1719. na Nederland te versenden;
+[verso] terwijl eijndelik nog verstaan is de
+[verso] 2. parras Caabse tarruw op een
+[verso] quantiteit van 5. lasten te min gele„
+[verso] vert als passabel te doen valideeren.
+[verso] Memorie Der Min„
+[verso] „derheeden dewelke sedert
+[verso] p=mo 7ber: a:o pass:o tot ult=o
+[verso] n
+[verso] februarij Jongstleeden geval„
+[verso] „len sijn, bij ontfang opening,
+[verso] nameting en naweging in de
+[verso] Respective pakhuijsen alles
+[verso] door nevens gevoegde b'eedigde
+[verso] en onder presentatie van
+[recto] Zede verleende Verklarings
+[recto] der gecommitteerdens ge„
+[recto] sterkt; werdende deselve bij
+[recto] desen aan den wel Edelen,
+[recto] groot agtb: heer Stepha„
+[recto] „nus Versluijs, Raad
+[recto] ordinair van India, gou„
+[recto] verneur en directeur van
+[recto] het Eijland Ceilon, de Custe
+[recto] Madure, nevens dies onder
+[recto] horigheeden, door den onder„
+[recto] getekenden hooft-admini„
+[recto] „strateur eerbiedigst ver„
+[recto] „thoond, met nedrig versoek
+[recto] daar op zijn wel Edele
+[recto] groot agtb: g'eerde disposi„
+[recto] „tie te mogen erlangen.
+[recto] Namentlijk. —
+[recto] In't Negotie pakhuijs.
+[recto] 52¼. lb: holl: stijfzel bij het openen en
+[recto] nawegen van 3. vaten aan Min„
+[recto] wigt ontwaart, als
+[verso] Zede
+[recto] 10. lb:
+== NL-HaNA_1.04.02_2222_0052 | #52 | sides: recto,verso | lines: 61
+[recto] 470.
+[verso] 10. lb: in een Vat op 170: lb:
+[verso] 16. „ „. . . . „. . . . „. . . . „ 180. „
+[verso] 26.¼. „. „. . . „. . . „. . „ 180. „
+[verso] 11. p:s Bandenoes of tafla de foela in 1. pak
+[verso] gemerkt 197. per 't Iagt Constantia
+[verso] Iongst van Batavia aangebragt,
+[verso] te min Bekomen op 200. p:s zijnde
+[verso] 't selve ten Comptoire Cassembazaar
+[verso] afgepakt door de gecommitteerdens
+[verso] P: Blick en I: de Hamer uijtwij„
+[verso] „sens 'tafpak briefje bij de nevens„
+[verso] gevoegde verklarings g'annexeert.
+[verso] 39. lb: amphioen uijt een wel geconditioneerd
+[verso] kist die hadde moeten inhouden 145. lb:
+[verso] aan Minwigt Bevonden.
+[verso] 72 1/8. „ foelij bij 't openen van 2. sockels
+[verso] onlangs van Batavia alhier ont„
+[verso] vangen zo aan stof en gruijs als te
+[verso] min ontwaart; ten overstaan van
+[verso] twee leeden uijt den agtb: Raad van
+[verso] Iustitie alhier teweeten.
+[verso] 39 1/8. lb. in een sockel daar van
+[verso] 13 5/8. lb: aan stof
+[verso] 25.¾ „ tekort op 154. lb:
+[verso] 33. –. „ in een sockel, als
+[verso] 9. –. lb: aanstof en gruijs
+[verso] 24. –. „ te min op 154. lb:
+[recto] 17. grote flessen persiaans Rosewater in
+[recto] 6. kassen gebroken en te min ontwaard
+[recto] Namentlijk
+[recto] 4. grote flessen in 1. kas tekort op 24. d=os
+[recto] os
+[recto] 1. „. . . . . „. . . . . . . . . „ 1. d:o gebroken „ 24. d=os
+[recto] 3. „. . . . „ - - - . . . „ 1. d:o. . . . . d=o. „ 24. d=os:
+[recto] 2. „. . - . - . „ - - - - - - - . „ 1. d:o - - - - - d=o. „ 24. d=os
+[recto] 4. „. . . . „. . . . . . . . „ 1. d:o. . . . . d–o. „ 24. d–os
+[recto] 3. „. . . . „ - - - - - - „ 1. d:o tekort. . . „ 24. d=os
+[recto] 5. —. Riemen klein form: papier in 1. besloten
+[recto] kas tekort bevonden op 40. riemen de„
+[recto] „welke daar inne hadde moeten wesen
+[recto] volgens het laaste transport der
+[recto] negotie pakhuijsen.
+[recto] 35. –. p:s Cassa bengale fijne de handiaal—
+[recto] met goude hoofden, zijnde Besloten
+[recto] geweest in 1. kist, dewelke daar uijt
+[recto] gehaalt, en bevonden zijn, verstikt
+[recto] en met roode plecken beset tewesen.
+[recto] 3¼. lb: spaans groen tekort ontwaard op
+[recto] 50. d=os in een vatje
+[recto] 1953. lb: peper bij aanbreng van 202909.
+[recto] lb. van mallabaar en gale aan
+[recto] Minwigt uijtgelevert, als
+[recto] 1279. lb: door den gesaghebber van
+[recto] de Chialoup Maria Louren„
+[recto] „tia in name Dirk van der
+[recto] Velden op 128000 lb: p:s gem:
+[recto] vaartuijg van Cochim aange„
+[recto] bragt rekend 1 per C=to: Schaars—
+[verso] 17. groote.
+[recto] 360. lb:
+== NL-HaNA_1.04.02_2222_0053 | #53 | sides: recto,verso | lines: 58
+[recto] 471.
+[verso] 360: lb: door den quartierm„r van de
+[verso] Bood den ondank, otto kok,
+[verso] op 36302. lb: van gale, uijt„
+[verso] makende 1. p:r C=to Schaars
+[verso] 314. „ door den quartier M:r van de boot
+[verso] de verandering Gerrit mo„
+[verso] „let op 38607. lb. mede van
+[verso] gale sijnde 1/16. per C:to ruijm
+[verso] In 't Dispens.
+[verso] 119. lb: wax bij 't versmelten van 1500 lb:
+[verso] tot het maken van kaarsen, zo te
+[verso] min als aan vuijligheid bekomen
+[verso] als E:
+[verso] 71. lb: aanvuijl wax vergaderd
+[verso] 48. „ verspilt, rekend 3 1/5. p:r Cento
+[verso] 39. parras Iavase rijst of 1/25. last, op„
+[verso] 25. lasten per't Iagt Constantia
+[verso] van Batavia aangebragt, te
+[verso] min ontfangen, uijtmakende—
+[verso] 2. p:r C=t: ruijm.
+[verso] 21. parras nelij op d'aangebragte 1400.
+[verso] parr: per pades van Nigombo,
+[verso] door dies overbrengers te kort
+[verso] verantwoord, daar van.
+[verso] 8. parr:s door de soldaten Iacob
+[verso] Kramer en pieter Claasz.
+[verso] op 500. parr:s rekend 1 /5. p=r C=to
+[recto] 8. parrs door de soldaten ferdinand
+[recto] Iansz: en andries dirksz:,
+[recto] mede op 500. parr: als boven
+[recto] 5. „ door voorsch: ferdinant Iens
+[recto] en den mede soldaat Ian
+[recto] Mighiel gams op 400. pann:
+[recto] uijtbrengende 1¼. p:r C=to.
+[recto] 28: lb: Manaarse Boter temin bekomen
+[recto] op 3626. lb: in 14. wel geconditio„
+[recto] „neerde vaten, per't Iagt Colombo
+[recto] van Manaar aangebragt.
+[recto] 11. kann: Margozij-olie op 3. leggers ^ mede
+[recto] als boven van manaar ontfangen,
+[recto] aanwanngheid vervult.
+[recto] 52. „ Rokus-olie verbruijkt tot opvullen
+[recto] der wannigheden van 16. heele en 4.
+[recto] halve leggers p:r 't schip Landscroon
+[recto] van gale herwaarts aangebragt.
+[recto] 22. „ dubb: arrak almede aan wannigheid
+[recto] Vervult op 26: leggers per de boot de
+[recto] verandering van sComp:s thuijm
+[recto] Caliwille Bekomen.
+[recto] In de Wapencamer.
+[recto] 8. p:s Cormandelse tronvellen onder 75. p:s
+[recto] in een pak, p:r de zeilboot de Canneel
+[recto] Boom van Manaar aangebragt,
+[recto] verstikt en met gaaten bevonden, sijnde
+[recto] derhalven onbequaam.
+[verso] 8. parr:
+[recto] De
+== NL-HaNA_1.04.02_2222_0054 | #54 | sides: recto,verso | lines: 63
+[recto] 472.
+[verso] De naarvolgende goederen
+[verso] zijn van't afgelegde Iagt d'anna
+[verso] van tutucorijn per de Chaloup
+[verso] Maria Louisa herwaarts aan„
+[verso] gebragt, mitsgaders ten overstaan
+[verso] van gecommitteerdens onbequaam
+[verso] bevonden, werdende derhalven desel„
+[verso] „ve bij desen eenelik ter Vernitiging
+[verso] Eerbiedigst oppagen, Namentlijk
+[verso] In't ijzer Maguazijn. —
+[verso] 1. p:s dissel
+[verso] 1. „ Spons. boor
+[verso] 1. „ handzaag
+[verso] 2. „ Boor ijzers
+[verso] 2. „ omslagen
+[verso] 2. „ gesorteerde bijtels
+[verso] 1. „ dissel
+[verso] 1. „ Calvaat hamer
+[verso] 1. „ ijzerehamer
+[verso] 1. „ spijker Bak
+[verso] 2 „ gesorteerde schaaven
+[verso] 6 lb: spijkers.
+[verso] In't Equipagie pakhuijs
+[verso] 1. h:s Beng:s loodlijn, halv versleten
+[verso] 2. „ grote zeilen
+[verso] zijnde nog eenigsints dien„
+[verso] 2. „ Mars _=o:
+[verso] 2. „ voor _=o „stig tot 't bekleede van
+[verso] 1. „ onderblinde. . . . touwen E=a
+[recto] 1. p:s Bazaan. . .
+[recto] 2. „ focke zeelen
+[recto] In de Wapencamer
+[recto] 1. p:s snaphaan gantsonbruijkbaar
+[recto] 5. „ houwers. . .
+[recto] 12. „ scheeden 2 onbequaam
+[recto] 2: „ pistoolen
+[recto] 1. „ Snaphaan Rratser. . - . . . . -.
+[recto] onbeq:
+[recto] 1. „ pistools d=o. . . . .
+[recto] 14. „ patroontassen met Copere kassen
+[recto] op de scheepstimmerwerf
+[recto] 1. p:s grote Rak
+[recto] onbequaam
+[recto] 6. „ mars zeils schoot blocken
+[recto] 1. „ Rinnebaks Blok-
+[recto] 14. „ diverse schijven. . . .
+[recto] 9. „ raks wants klooten
+[recto] 2. „ gestropte gijnbloks
+[recto] 6. „ dubb: Blocken.
+[recto] onbruijkbaar
+[recto] 171. „ Bloks in soorten. ..
+[recto] 24. „ kavij nagels - - - - - -
+[recto] 2. „ pomp-emmers - - - -
+[recto] 1. „ valreep. . . . . . . . . . .
+[recto] In't Matriaal huijs
+[recto] 2. p:s vijgertouwen aanstuckend gekapt, en
+[recto] gants onbequaam
+[recto] 1
+[recto] 2. „ onbequaame Ballast schoppen
+[recto] 2. „ d_o: Beilen
+[recto] 1. p=s
+[recto] ƒ
+== NL-HaNA_1.04.02_2222_0055 | #55 | sides: recto,verso | lines: 61
+[verso] al
+[verso] onbeg:
+[recto] 473.
+[verso] 1. p:s onbequaame Cijffer leij
+[verso] 1. „ d=os: tafel met zijn Blad
+[verso] Int Negotie pakhuijs
+[verso] 1. p:s kopere koksketel van 20. lb: sonder
+[verso] dekzel door den Baas Smith
+[verso] onbequaam gekeurt.
+[verso] In de Smits- winkel
+[verso] 1. p:s Boeijbout met drie beugels en 1. slot
+[verso] 3. „ hangsloten
+[verso] 1. „ water tregter
+[verso] 2. „ halve amen
+[verso] 1. „ aijn vat
+[verso] 2. „ Botteliers Pompen
+[verso] 2. „ Blicketregters
+[verso] 1. „ botteliers Balij
+[verso] 2 „ spek - - - - - d=o
+[verso] 1. „ arraks. . . . . d_o:
+[verso] 2. „ Bekers
+[verso] 1. „ halvse
+[verso] 2. „ schafbalijs
+[verso] 1. „ kit met 1. kopere lip wegende
+[verso] aan oud Koper 1. lb:
+[verso] 1. „ spek vork
+[verso] 2. „ Roosters
+[verso] 1. „ ijsere koekepan
+[verso] 1. „ koks Bijl
+[verso] 1. „ rijst balij - - - - - - - - - - - - --
+[verso] Colombo den 12:' april A:o 1732.
+[verso] /:was getek:t/ I: B: Vernatti.
+[verso] Memorie
+[recto] Memorie van Sodani¬
+[recto] „ge provisien en andere goederen
+[recto] als 'er ter fortresse Nigombo,
+[recto] Caliture en Hangwelle
+[recto] zijn te min aangebragt en ver„
+[recto] spilt 't sedert p=mo 7ber: a:o pass:o
+[recto] tot dato deses, alle twelke, den
+[recto] wel Ed: agtb: en hoog gebiedenden
+[recto] heer Stephanus Versluijs
+[recto] Raad ordinaris van India,
+[recto] mitsgaders gouverneur en direc„
+[recto] „teur van't Zijland Ceilon,
+[recto] met den resorte van dien, door
+[recto] den ondergesz: op 't nedrigst
+[recto] werd vertoond, met eerbiedig
+[recto] versoek daar op te mogen erlan„
+[recto] „gen zijn wel Edele agtbare
+[recto] gunstige dispositie, teweten
+[recto] Op Nigombo; Rijst
+[recto] 51. parrasd=o: door den gezaghebber van't Iagt
+[recto] Colombo herbert Sam den 12:'
+[recto] Ianuarij A. o 1732. op een quantiteit
+[recto] van 3375. parr:s van Colombo aange„
+[recto] „bragt en te min verantwoord, uijt„
+[recto] „makende 1½. p:r C:o ruijm, gelijk
+[recto] Breeder bij de hier nevens gevoegde
+[recto] verklaring tesien is.
+[recto] Zout.
+== NL-HaNA_1.04.02_2222_0056 | #56 | sides: recto,verso | lines: 62
+[recto] 474.
+[verso] Zout.
+[verso] 19½. parras d=o per de Nigombose padies in
+[verso] drie keeren van Colombo aldaar
+[verso] aangebragt en tekort gelevert,
+[verso] gelijk sulx bij de hier nevens g'annex
+[verso] eerde Verclaringen Breeder Con¬
+[verso] „steerd, als
+[verso] „3. parr: op een quantiteit van 375. par:
+[verso] door de soldaaten anthonij Zu„
+[verso] renberg, Jan maleis en Jacob
+[verso] „Cramer in 2. keeren aangebragt
+[verso] en te weinig gelevert, geeft
+[verso] to
+[verso] 3 1/3. p=r C=to:
+[verso] 6½. „ op een quantiteit van 225. parr:
+[verso] door de soldaaten ferdinand
+[verso] Iens en andries dirksz: te
+[verso] kort gelevert, uijtmakende
+[verso] 2 1/3. perc=to
+[verso] op Caliture
+[verso] Rijst.
+[verso] 102. karras d:os per d'ondervolgende vaartuijgen
+[verso] so van Colombo als gate in vier
+[verso] keeren aangebragt, en te min gele„
+[verso] „vert, gelijk omstandiger bij de hier
+[verso] nevens gevoegde Verklaringen
+[verso] tesien is, teweten.
+[verso] 31. panr: door den quartiermeester van
+[verso] de boot de verandering van
+[verso] gale aangebragt en tekort
+[verso] gelevert, als
+[recto] 8. parr: den 12:' 9ber: 1731. op een quan„
+[recto] „titeit van 450. parr:s ofte 6. las„
+[recto] „ten geeft 1 1/8. p:r C:o schaars
+[recto] 23. „ den 6. xber: 1731. op een quantiteit
+[recto] van 1125. parr:s ofte 15. lasten,
+[recto] uijtmakende 2. p:r C:o Ruijm
+[recto] 37. parr: door den gesaghebber van de Chial
+[recto] Elisabeth op een quantiteit van
+[recto] 2400. parr: den 14:' xber: 1731 van
+[recto] gale aangebragt en tekort gelevert,
+[recto] uijtbrengende 1½. p=r C=o ruijm.
+[recto] 34. „ door den gezaghebber van de Chaloup
+[recto] Cornelia anthonia op een quanti„
+[recto] „teit van 1350. parr:s den 18:' Ianuarij
+[recto] 1732. Mede van gale aangebragt,
+[recto] en te weinig verantwoord, geeft
+[recto] 2½. per C:o schaars
+[recto] Koehuijden
+[recto] 42. stx: d=os op een quantiteit van 4000. p:s door
+[recto] den quartier m:r van de boot den on„
+[recto] „dank den 10:' feb: 1732. van Colombo
+[recto] aangebragt en tekort verantwoord
+[recto] op Tangwelle
+[recto] Zout.
+[recto] 28. parras d=os op een quantiteit van 1050.
+[recto] parr: per de hulftsdorpse padie in
+[recto] 7. reisen door diverse soldaten van
+[verso] 8. parr:
+[recto] Colombo
+[recto] d
+== NL-HaNA_1.04.02_2222_0057 | #57 | sides: recto,verso | lines: 58
+[recto] 475.
+[verso] Colombo aangebragt en te min ver„
+[verso] „antwoord, gelijk sulx bij de hier nevens
+[verso] gevoegde seven stx verklaringen alme„
+[verso] „ de omstandiger te sien is geeft 2 2/3. p:r C:to
+[verso] Hulftsdorp den 8:' Maart a:o 1732
+[verso] /:was getekend:/ I: W: hiltebrand.
+[verso] Memorie wegens de
+[verso] ontdekte Meerder en minderhee„
+[verso] „den, mitsgaders defecten Bij
+[verso] ontlossing der respective in Ca„
+[verso] dingen van de scheepen Maria
+[verso] adriana en Sheeren arends„
+[verso] „kerke, waarmede deselve op
+[verso] den 14:' en 18:' februarij Iongst
+[verso] leeden voor reek: van de Camer
+[verso] Middelburg, in Zeeland,
+[verso] alhier zijn aangekomen, alles.
+[verso] naar luijt der bijgevoegde Verkla„
+[verso] „ringen volgens 's Comp:s ordres
+[verso] ten deele b'eëdigt en ten deese
+[verso] gerecolleerd; wordende het een
+[verso] en ander bij desen aan den wel
+[verso] Edelen groot agtb: Heere
+[verso] Stephanus Versluijs
+[verso] Raad ordinaris van Nederlands
+[verso] India, gouverneur en Direc„
+[verso] „teur van het Eijland Ceilon,
+[verso] de Custe Madure, nevens
+[verso] dies onderhorigheden door
+[recto] den ondergetekenden hooft. admi„
+[recto] „nistrateur eerbiedigst vertoond,
+[recto] ten eijnde sijn wel Edele—
+[recto] groot agtb:s g'eerde dispositie
+[recto] daar op te mogen erlangen
+[recto] Namentlyk.
+[recto] Te Kort Bedurven en onbequaam
+[recto] uijt het schip Maria adriana
+[recto] In de Negotie Pakhuijsen.
+[recto] In 3. Kassen gemerkt N: 2.
+[recto] 3: lb: deelplaat koper aan minwigt
+[recto] Bekomen op 1511. lb:
+[recto] In een vaatje N=o. 6.
+[recto] —¼. lb: fijn florentijns Lak te min op 3. lb.
+[recto] —¼. „ gemeen d:o. . . . . . d:o. . . . . d=o. „ 2. „
+[recto] In een Kas gen: N=o: 106.
+[recto] 1.  @. blaauw laken op 50. @: te kort bevonden
+[recto] 2. „ swart. . . . . . d:o. . . „ 54½. „ - - - d:o d=o
+[recto] —¼ „ donkerbl: fluweel op 55. „ aan Een p:s
+[recto] — 3/8 „ spierwit fluweel tekort bevonden op
+[recto] 59. @. die aan een heel stx. hadde moe„
+[recto] „ten wesen volgens de Vaderlandse
+[recto] factura, dog alhier in twee stukken
+[recto] ontfangen, waar van't eene stuk don„
+[recto] „ker parel Coleur in steede van Spierwit„
+[recto] Zynde lang 22: @.
+[verso] den
+[recto] In
+== NL-HaNA_1.04.02_2222_0058 | #58 | sides: recto,verso | lines: 61
+[recto] 476.
+[verso] In een Ras N:o: 98.
+[verso] 1. p:s trappen der Jeugd te min bekomen op 100. p
+[verso] 1. „ a: b: c: Boekje idem. . . . . . . . . . . . „ 156. „
+[verso] 3. „ Cijffer griften gebroken onder. . . . . . . . 125. „
+[verso] 5. „ verrekijkers die volgens de Vaderlandse
+[verso] aanreekening ider hadde moeten lang sijn
+[verso] 3½. Voet, dog alhier Bevonden maar een
+[verso] van voorsch: lengte, en d'andere 4. d=os ider
+[verso] 3. voeten ruijm, en schaars te behalen.
+[verso] In 2. Rassen N:o 93. en 99.
+[verso] 380. p. s glase ruijten op de volgende parthijen
+[verso] gebroken en te min ontwaard, als
+[verso] 266. p:s van 9 en 6½. d:m op een aantal van
+[verso] 500. p:s te weten
+[verso] 258. „ te min
+[verso] 16. „ gebroken
+[verso] 114. „ van 9. en 6. d:m op 1000. p:s daar van
+[verso] 100. p:s te Min, en
+[verso] 14. „ aanstukken
+[verso] 284. lb: Loot op 12660. lb: aan Leugen of
+[verso] schuijten te Min Bevonden
+[verso] Jn 'T Dispens
+[verso] 5. flessen Brandewijn in 4. kelders—
+[verso] gebroken als
+[verso] 3. d=os in 3. kelders â 1. fles ider
+[verso] 2. „. . . „ 1. d=o
+[recto] 9. flessen met gedisteleerde wateren in
+[recto] een kelder, welkers dekzel t'eene„
+[recto] „maal stuckend was, gebroken bevonden
+[recto] 65. vaten Meijbooms Bier daar van
+[recto] 62. d=os goet, en redelik van smaak, dog
+[recto] wan als volgt.
+[recto] 11. d„os wan 4½. d:m ider reduceert kann: 176. —
+[recto] 16. „. . . . „ 5. –. „. . . . . . . . . . . „. . . . . . . . „ 304.
+[recto] 25. „. . . „ 5½. „. . . . . . . . . . „. . . . . „ 550. —
+[recto] 1. „. . . . „ 6. –. „. . . . . . . . „. . . . . „ 26. –.
+[recto] 6. „. . . . „ 6½. „. . . . . . . . . „. . . . . . „ 174. –
+[recto] 1. „. . . . „ 7. –. „ . . . - - - - „ - - - - - „ 33. —
+[recto] 1. „. . . . „ 8½. „ Lek. . . . . . „. . . . „ 44. –
+[recto] 1. „. . . . „ 10½. „ met swik gaatjes. „ 58. —
+[recto] 3. d=os aangekomen daar af
+[recto] 1. ran 4½. d=m:
+[recto] 1. . . . . . „ 5. –. „
+[recto] selt aan wannigheit kann: 1365. —
+[recto] 20. Vaten delfs bier uijt de klimmende leeuwen
+[recto] alle goet en redelik van Smaak, en bij
+[recto] pijling Bevonden, als volgt
+[recto] 3:' vaten van 4½. d„m ider, Maakt kann. 48. —
+[recto] 4. d=os. . . . . „ 5. –. „. . . . „. . . . . . „. . . . . „ 76. -
+[recto] 8. d=os. . . . „ 5½. „. . . . „. . . . . „. . . . „ 176. –
+[recto] cos
+[recto] 3. d=os. . . . . „ 6. -. „. . . . „. . . . „. . - „ 78. —
+[recto] 2. d=os. . . . - „ 6½. „ - - „ geswikt „ „ 58. —
+[recto] s
+[recto] Telt kannen 436. —
+[verso] 9. flessen.
+[recto] 1. val
+[verso] Los.
+[verso] -
+[recto] 1. . . . . . „ 5½
+== NL-HaNA_1.04.02_2222_0059 | #59 | sides: recto,verso | lines: 57
+[recto] 477.
+[verso] 1. Vat Mom goed en redelik van Smaak
+[verso] wan 5. d=m: ofte 19. kann:
+[verso] 10. heele leggers sereese zek goed van
+[verso] smaak, en van de volgende wannig„
+[verso] „heeden, te weten
+[verso] 3. legg„s wan 4½ d=m ider rekend kan: 81. –
+[verso] 1. „. . . . „ 5. –. „. . . . „. . . . . „. . . . . . „ 32. –
+[verso] 1. „. . . . . „ 5½ „. . . . „. . . . . „. . . . . . „ 38.
+[verso] 2. „. . . . „ 7½. „ - . . „. . . „. . - - . „ 126. —
+[verso] 3. „. . . . „ 8. –. „ waar van 2. lak en
+[verso] 1. met 1. kas in de buijk „ 210. —
+[verso] Tesamen Kann: 487. –.
+[verso] 194. lb: holl:s krijt, aan minwigt bekomen
+[verso] op 2498. lb: besloten in 4. Vaten
+[verso] 1. p:s heele aams schoof of 25. p:s te Min
+[verso] ontfangen.
+[verso] Jn 't Equipagie Pakhuijs.
+[verso] 13½. @: breedeverdoek te kort op 2250 @
+[verso] aan 25. p:s
+[verso] 1. –. p:s Cabeltouw van 5. d:m bij de vaderl=se
+[verso] factura van voorsch: Bodem als daar
+[verso] inne afgescheept dese hooft plaat„
+[verso] „se aangerekend, dog alhier niet
+[verso] ontfangen; werwegens ook bij 't
+[verso] Rapport der gecommitt:s die de ont„
+[verso] „lossing van boord hebben bijgewoond
+[recto] geen mentie werd gemaakt dat gem:
+[recto] touw aldaar was gevonden, derhalven
+[recto] in eerbied gesustineert werd 't selve
+[recto] in't vaderland niet sal wesen af„
+[recto] gescheept.
+[recto] Jn de Wapencamer.
+[recto] 2700. p:s vlindsteenen so te min als onbe„
+[recto] quaam bevonden onder een aantal
+[recto] van 15000. p:s te weten.
+[recto] 877. stx: onbequaam
+[recto] 1823. „ te min bekomen
+[recto] 8. p:s snaphaan loopen bij 't probeeren
+[recto] van 58. stx: door de militairen p:r
+[recto] desen bodem aangebragt, gesprongen.
+[recto] In't ijzer Magazijn
+[recto] 5709: lb: diverse hollandse ijzer op een quan„
+[recto] „titeit van 90000 lb: aan minwigt
+[recto] bekomen zijnde daar onder ook begre„
+[recto] „pen 2. staven gemeen platijser
+[recto] van 2½. d:m breet en —½. d=m: dik die er
+[recto] te min ontvangen zijn op 674. Staven
+[recto] 2338. lb: hollands staal, aan de volgende
+[recto] soorten tekort ontwaard op 16700. lb:
+[recto] onafgetrocken 1510: lb: vierkant
+[recto] staal van – ¾. d=m. dat over bevonden
+[recto] en hier agter apart genoteert staat
+[recto] als
+[verso] geen
+[recto] 281. lb:
+[recto] 1
+== NL-HaNA_1.04.02_2222_0060 | #60 | sides: recto,verso | lines: 61
+[recto] 478
+[verso] 281. lb: aan platte staven
+[verso] 1519. „ vierkant van 1¼. d=m
+[verso] 445. „ d=o. . . . . . . . . . „ 1. –.
+[verso] 28. „ aan platte dunne staven
+[verso] 31. „ d=o. - - - „. d=o: gerfstaal
+[verso] 34. „ Veerstaal:
+[verso] Uijt 't schip 'S Heeren
+[verso] Arendskerke
+[verso] Jn de negotie Pakhuijsen.
+[verso] In een kas gem: N:o 62.
+[verso] 1: k:s lampglas onder 100. p:s gebroken bevonden.
+[verso] 134. „ gesorteerde glasen ruijten op de volgende
+[verso] parthijen mede aan stucken bevonden,
+[verso] als
+[verso] 37. p:s van 9. en 11. d:m op 125. p:s
+[verso] 1. „. . . . „ 5. . . . „ 7. „. . . „ 125. „
+[verso] 70. „. . . . „ 6½. . „ 9. „. . . „ 500. „
+[verso] 26. „. . . . „ 6. –. „ 9. „. . „ 1000. „
+[verso] Los
+[verso] 68. lb: lood op 12340: lb: aan Minwigt
+[verso] ontdekt.
+[verso] Int Dispens
+[verso] 1. vat holl:s vlees onder 88. vaten, ten—
+[verso] eenemaal Bedurven, welkers bo„
+[verso] „dem ont sprongen en bij naweging
+[recto] in't selve bevonden is 197. lb:
+[recto] 6. leggers francewijn goed en wel sma„
+[recto] „kende, dog bij hijlinge wan bevonden
+[recto] 77
+[recto] als volgt
+[recto] 1. wan 6. d:m rekent volgens d'ordinaire
+[recto] reductie kannen 44—
+[recto] „
+[recto] 4. „ 6½. „ ider als Boven - - - - „ 200. —
+[recto] „ 7. –. „ met een lek. . . . - „ 56½
+[recto] Telt kannen 300½.
+[recto] 1. legger goede franceazijn, wan 5½. d=m
+[recto] ofte 38. kannen.
+[recto] 12. halve amen met olijven olij, alle goed,
+[recto] en van de volgende wannigheden,
+[recto] te weten.
+[recto] 1. wan 3. d:m komt als vooren kan. 5. —
+[recto] 3. „. . . 3½. „ ider. . . . . . . . . . . „ 18. —
+[recto] 2. „. . . . 4. -. „. . . „. . - - - - - - - - - „ 14. —
+[recto] 3. „. . . 4½. „. . . . . „. . . . . - - - - - - . - „ 24. —
+[recto] 1. „. . . 12½ - - - - - - - - - - - - - - - - - - - „ 41. —
+[recto] ider met een lek aan de boom.
+[recto] 1: „ 13– - - - - - - - - - - - - - - - - - - „ 42. -
+[recto] tesamen kannen 154. -.
+[recto] 5. halve amen goede lijn-olij, daar van
+[recto] 3 wan 4. d:m ider rekent kann: 21. –.
+[recto] 1. . . . „. . . 4½. „. . . . . „. . . . . . . „. . . . . . . . „ 8. —
+[recto] 1. . . . „. . . . 5. -. „. . . . . „. . . . . . „ - - - - . . . . „ 10. —
+[recto] addeert kann: 39. —
+[recto] 3. halve amen wijnthint, seer drabbig en
+[recto] na dat deselve neder geset was, afge„
+[recto] „tapt, en daar van bekomen 86. kann
+[verso] in
+[recto] goede
+[recto] 1. „. . . . . . 5 -. „ - -. . „ - - - - - - - - - „ 10. —
+== NL-HaNA_1.04.02_2222_0061 | #61 | sides: recto,verso | lines: 65
+[recto] 479
+[verso] goede wijn, zijnde de overige onver„
+[verso] „strekbaar
+[verso] 102. Bottels Turanson wijn gebroken,
+[verso] en te min bevonden in 14. kassen
+[verso] ider inhoudende 150. bottels teweten.
+[verso] 10. Bottels in de kas N:o 1. gebroken.
+[verso] _o
+[verso] 5. . . . . „„. . . . . . . . „. . „. . . . . „. . . . „ 2. do
+[verso] 5. . . . . . . „. . . . . . . . „. . „. . . . . „. . . . . . „ 3. d:o daar onder
+[verso] 2. tekort
+[verso] 4. . . . . . „. . . . . „. . „. . . . „. . . „ 4. d
+[verso] 4. . . . . „. . . . . . . . . „. . . „. . . . . „. . . . . . „ 5: do—:
+[verso] 11. . . . . „ - - - - - - - „. . „. . . . „. . . „ 7. 6. —
+[verso] 9. . . . „. . . . . . . „. . „. . . „. . . . . „ 8. d–o
+[verso] 6. . . . . „. . . . . . . . „. . . „. . . . „. . . „ 12. d:o daar onder
+[verso] gof: te kort.
+[verso] 6. . . . „. . . . . . „. . . „. . . „. . „ 13. d=o
+[verso] 12. . . . „. . . . . „. . . „. . . . . „. . . „ 14. 8 —
+[verso] 10. . . . . . „. . . . . „. . . „. . . . „. . . . „ 15. d:o —. d:o 3. d=o
+[verso] 8. . . . . „. . . . . . . . . „. . . „. . . . . „ . . . . „ 16. 0 —:
+[verso] 10. . . . „. . . . . . „. . „. . . „. . . „ 17. d=o
+[verso] 2. . . . „. . . . . . „. . „. . „. . . „ 18: d–o.
+[verso] In't Equipagie Pakhuijs
+[verso] 37. @: smal everdoek op 1500. @: aan 30. rol„
+[verso] „len tekort ontwaard, zijnde ook 5.
+[verso] van voorsch: rollen op verscheide plaat„
+[verso] „sen aan de kanten verrot en bescha„
+[verso] digt Bevonden, 'twelk egter kan
+[verso] g'emploieerd werden tot het lappen
+[verso] der oude Zeilen
+[verso] 8. strengen of 4. lb: holl:s sijlgaren op 500.
+[verso] strengen of 250. lb: te Min bekomen.
+[recto] In 't ammonitiehuijs
+[recto] 3. boeken Cardoes papier onder 300. d=os bedur„
+[recto] „ven
+[recto] haire doek onder 72. p:s onbequaam bevonden
+[recto] Mitsgaders nog 35: p:s door 't weer
+[recto] beschadigt dog verstrekbaar
+[recto] In de wapencamer
+[recto] 1
+[recto] In 1. kas gem: N:o 11.
+[recto] 12. p:s tromhoepen onder 25. p:s aanstuckend
+[recto] bevonden.
+[recto] — 1/8. lb: kopere wapen spijkertjes aan min„
+[recto] „wigt ontfangen op 1. lb:
+[recto] 3. –. p:s stale veeren tot Pakhorologies sterk
+[recto] verroest en op verscheide plaatsen
+[recto] verteerd, mitsgaders te slap bevonden,
+[recto] oversulx gants onbequaam
+[recto] In 1. Kas gem: N:o: 12.
+[recto] 15. p:s holl:s tromvellen tenemaal verstikt
+[recto] en door het reir beschadigt, onder 150 :
+[recto] In T: Kas gem: N:o 16.
+[recto] 4. lb lijm op 25. lb te Min Bekomen
+[recto] 25¼. „ geel Coperdraat mede aan minwigt
+[recto] ontwaard op 325. lb:
+[recto] e
+[recto] 7. –. p:s snaphaanlopen gesprongen bij 't pro„
+[recto] „beeren van 56. stx: door de militairen
+[recto] met desen bodem alhier aangeko„
+[recto] „men mede gebragt.
+[verso] In
+[recto] In
+[recto] ƒ
+== NL-HaNA_1.04.02_2222_0062 | #62 | sides: recto,verso | lines: 59
+[recto] 480
+[verso] In't ijzer Maguazijn
+[verso] In een kas gem: N=o 18.
+[verso] 12. p=s Snijmessen te min bekomen op 15. p:s
+[verso] 2. „ houte passers onder 25. p:s onbruijkbaar be„
+[verso] „vonden bestaande inhalve aams
+[verso] volgens opgave.
+[verso] In een Kas gem. No: 19.
+[verso] 5. timmermans omslagen op 150. p:s te Min
+[verso] ontfangen.
+[verso] In een Ras gem: N:o 20.
+[verso] 6. p:s gesorteerde vijlen te Min en onbequaam
+[verso] Bevonden, als
+[verso] 1. p:s te min op 65. p:s
+[verso] 5. „ onbequaam.
+[verso] spijkerhamers tekort, en in steede
+[verso] van dien drevelhamers ontfangen
+[verso] 30. gesorteerde boorijzers op een parthij
+[verso] van 600. stx: tekort ontwaart.
+[verso] In een Vat.
+[verso] 46: lb: dubb: spijkers aan minwigt ontdekt
+[verso] op 414. lb: zijnde van't voorsch: vat
+[verso] het spons-gat aan stuckend bevonden„
+[verso] en daarom 't selve g'opend, nagewogen,
+[verso] Mitsgaders gem: tekort kominge
+[verso] daar uijt ontwaart
+[recto] 201.
+[recto] 5868. lb: gesorteert holl:s ijzer aan de volgende
+[recto] soorten te min ontfangen op 75000.
+[recto] lb: ongerekend 1460. lb: drie quart
+[recto] duijms ijzer, 't welk aan 111. staven
+[recto] over bevonden en hier onder separaat
+[recto] bekend gesteld is, te weten.
+[recto] 895. lb: affuijt ijzer in gewigt en 2.
+[recto] staven op 15000. lb: aan 208. Staven
+[recto] 2770. lb: halvduijms in gewigt en 121. d=os
+[recto] op 20000. lb. aan 1281. staven
+[recto] 2203 „ heele leggers banden in gewigt
+[recto] op 40'000 lb: aan 19. Bossen.
+[recto] De volgende parthijen per
+[recto] voorn: scheepen Meerder aange„
+[recto] „bragt, als uijt het vaderland
+[recto] aangerekent is, namentlijk
+[recto] Uijt Maria adriana
+[recto] In het Negotie pakhuijs
+[recto] 1. p:s Catechismus onder 150. p:s Meerder
+[recto] Bekomen
+[recto] 1. „ letterkonst sonder aanreekening ont„
+[recto] „fangen
+[recto] 620. „ gesorteerde glase ruijten en 4: kassen
+[recto] gemerkt n:o 93. en 99. overbevon„
+[recto] „den als.
+[recto] 187. p:s van 7. en 5. d=m: daar onder 3. p: gebroken
+[recto] 183. „. . . . „ 11. . . . „ 9. „. . . . . . . „. . . . „ 111. —
+[recto] 250. „. . . „ 13½. . „ 11½. „. . . . „. . . . „ 19:—
+[verso] Los
+[verso] 12.
+[recto] In
+== NL-HaNA_1.04.02_2222_0063 | #63 | sides: recto,verso | lines: 53
+[recto] 481.
+[verso] In't ijzer Maguazijn
+[verso] 1510: lb: holtl:s staal van ¼. d:m aan overwigt en
+[verso] „ in steede van maar 3000. lb: in 2.
+[verso] Bossen, 4510: lb: ontfangen.
+[verso] Uijt 'sHeeren arendskerke
+[verso] In't Equipagie Pakhuijs.
+[verso] 3. p:s halvuurglasen op 12. p:s Meerder bekomen
+[verso] In't ijzer Maguazijn
+[verso] 10: p:s haalmessen in 1. kas n:o 18. teveel
+[verso] ontdekt
+[verso] 12. „ drevelhamers in stede van gelijk geta
+[verso] spijkerhamers Bekomen.
+[verso] 1460. lb: holl:s ijzer van drie quart duijm aan
+[verso] 111. staven over, Mitsgaders in plaat
+[verso] „se van 30000: lb: aan 1219 staven,
+[verso] bevonden 31460. lb. aan 1330. d=os
+[verso] Boven en behalven het vooren„
+[verso] „staande werden alhier nog opgebragt
+[verso] het restant der provisien en plunde„
+[verso] „ragien van voorm: scheepen door
+[verso] dies overheden verantwoord en be„
+[verso] „reets alhier ontfangen, namentlijk
+[verso] Overige Provisien in't Dis„
+[verso] „pens ontfangen
+[recto] Uijt Maria adriana
+[recto] 141½. lb: holl:s vleesch
+[recto] 108:½. „ d:o spek
+[recto] 112–. „ kann: Koorn brandewijn
+[recto] uijt 's heeren arendskerke
+[recto] 102¼. lb: holl:s vleesch
+[recto] 203¾ „ d=o: spek.
+[recto] 88 1/5. kann: koornbrandewijn.
+[recto] Overige plunderagien in
+[recto] het Negotiepakhuijs geleverd.
+[recto] Uijt Maria adriana
+[recto] 1. paar wolle koussen
+[recto] 55. d=os: linne d=os
+[recto] 2. Iongens wolle packen
+[recto] 20½. Mans linne d=os
+[recto] dos
+[recto] 6: Iongens d=o. d=o
+[recto] Uijt 'Sheeren Arendskerke
+[recto] 1. paar wolle koussen
+[recto] 56. d=os: linne d=o
+[recto] 1. Iongens wolle pak
+[recto] 10. mans linne d=o
+[recto] 6. Iongens d=o: d=o
+[recto] 84. mans hemden
+[recto] 15. paren schoenen.
+[verso] uijt
+[recto] De
+== NL-HaNA_1.04.02_2222_0064 | #64 | sides: recto,verso | lines: 63
+[recto] 482.
+[verso] De scheeps contanten ter somma van
+[verso] 200. p:s realen van agten, door de heeren Ma„
+[verso] „ijores in't vaderland aan voorm:
+[verso] Bodems op de reise Mede gegeven tot
+[verso] „door
+[verso] opkopen van Verversing, zijn de scheep
+[verso] overheeden verstrekt geworden in
+[verso] volgender wijse blijkens de hier
+[verso] nevens gevoegde Extracten uijt de
+[verso] scheeps zoldij Iournalen van gem:
+[verso] Bodems te weten.
+[verso] 100. p:s door de overheden van't schip
+[verso] Maria adriana, als.
+[verso] 95. p:s aan 't Eijland S:t Jago tot vervo„
+[verso] „sing namentlijk.
+[verso] 40. k: voor 4. koebeesten â. 10. p:s ider
+[verso] 17½„ . . . . „ 7. kaberiten „ 2½ „. . . „
+[verso] 8½ „. . . . „ 2. Varkens. - „ 4¼. „. . . . . „
+[verso] „12 —. „ - . . „ hoenders en Kalkoenen
+[verso] 8 - „ - . . „ kool, uijen, patattes &
+[verso] 9 —. „. . . „ anker en water gelt
+[verso] 5. p:s aan Ian de Ionge voor 't sien
+[verso] van de Caab.
+[verso] 100. „ door d' overheden van seeren arent
+[verso] „kerke teweten,
+[verso] 89: p:s aan 't Eijland S:t Iago, als voore
+[verso] uijtgereikt, daar van
+[verso] 40. p:s voor 4. koebeesten â 10. p:s ider
+[verso] 15. „. . . „ 6. Cabiriten. . „ 2½. „. . . d_o
+[verso] 9. „. . . „ 2. Varkens. . . „ 4½. „. . . d=o
+[verso] 200. 89. 64. p:s realen transporteere.
+[recto] 200. 89. 64. p:s Realen P:r Transport
+[recto] 10. p: voor hoenders en kalkoenen
+[recto] 8. „. . . . „ ajuijn, kool, pattates E:a
+[recto] 7. „. . . . „ water en anker gelt
+[recto] 89. p:s als vooren aan't Zijland
+[recto] S:t Iago uijtgegeven.
+[recto] 6. p:s aan Elias Cornelis van Meurs
+[recto] voor't sien van Cabo de goede
+[recto] hoop
+[recto] .„ Ian gevers schiemen, voor't
+[recto] „
+[recto] in't gesigt krijgen van het
+[recto] Eijland Ceilon
+[recto] 100. p:s als voorsegt
+[recto] 200. Realen van agten tesamen.
+[recto] Nog is op d'aangebragte vijff las„
+[recto] „ten tarruw p:r 't schip Maria
+[recto] adriana van Cabo de goede
+[recto] Hoop in't dispens te min ontf:
+[recto] —1/75. last ofte 2. pakr: uijtbrengende —½. p:s
+[recto] C=o Ruijm
+[recto] 'T schip de Jacoba op den 22:'
+[recto] Maart Iongstleden uijt het vader„
+[recto] land over gale, en voor reek: van
+[recto] de kamer Amsterdam alhier
+[recto] g'arriveerd, Mitsgaders bereets van
+[recto] zijne mede gebragte ladinge ont„
+[recto] „cost sijnde, zo werd alhier nedrigst
+[recto] vertoond de Minder en Meerderhe„
+[recto] „den die uijt voorsch: inladinge zijn
+[recto] bevonden
+== NL-HaNA_1.04.02_2222_0065 | #65 | sides: recto,verso | lines: 65
+[recto] 483.
+[verso] bevonden, zo mede de Restanten
+[verso] van de Contanten, provisien, en
+[verso] plunderagien, Namentlijk
+[verso] Int Negotie Pakhuijs.
+[verso] 959. lb: handloot so in gewigt als aan een
+[verso] heele zeug te min bevonden, op een
+[verso] parthij van 77318. lb: aan 502. p:s
+[verso] dewelke voor Batavia in voorsch:
+[verso] bodem sijn afgescheept geweest
+[verso] In't ijzer Maguazijn. —
+[verso] 8049. lb: holl:s ijzer op een quantiteit van
+[verso] 121581: lb: aan minwigt bekomen,
+[verso] aan de volgende sorteringen te weten.
+[verso] 1612: lb: roeij Yjzer
+[verso] 482. „ Vierkand ijzer van 1. . duijm
+[verso] 1425. „ - - - - . d=o: - . - „. . . . . „ –¾. d–o
+[verso] 604. „. . . . . . d_=o:. . . . . „. . . -. „ –½. d–o
+[verso] 1414. „ gemeenplat in gewigt en 5. staven
+[verso] 513. „ affuijt ijzer - - - - - - - - - - - 4. d=os
+[verso] 1373. „ hele leggers Banden
+[verso] gos
+[verso] 293. „ halve d=os - - - - - - d=o:
+[verso] d=os
+[verso] 257. „ heele aams. - . . . . . d=o:
+[verso] 76. „ halve d=os: - - - - - - d=o:
+[verso] 410. lb: holl:s staal Mede aan Minwigt op
+[verso] 9000. lb: daar van.
+[verso] 214. lb: plat staal van 1½. d:m Broet
+[verso] 141. –„ – . -. d–o. . . . „. . . -. „ — 1/8. „. . . . d_o
+[verso] 3. „. . . d=o. - - - „. . . „ 1. –. „. . . . d_o
+[verso] 52. „. . . . do —: - . „. . . „ —¾. „. . . d_o
+[recto] op De Scheepstimmerwerf
+[recto] 6. p=s gesorteerde maschouten te min „ in stede
+[recto] van 52. niet meer dan 46. p:s ontfangen
+[recto] zijnde daar van 9. p:s op gale geligt en
+[recto] de resteerende 37. p:s alhier gelevert;
+[recto] na welke te kort kominge den schipper
+[recto] van voorsch: Bodem door den ondergete„
+[recto] „kenden gevraagt zijnde heeft daar
+[recto] op betuijgd, maar een getal van 66.
+[recto] ronthouten daar onder begrepen 20.
+[recto] spieren voor Ceilon in't schip te
+[recto] hebben gehad, 't gund ook accordeeren„
+[recto] „de werd bevonden met de stuagie lijst
+[recto] van Meerm: Bodem, waar van Ex„
+[recto] „tract in eerbied nevens desen werd
+[recto] overgegeven; Bestaande de ses p:s
+[recto] te kort komende Masten in de
+[recto] volgende soorten als.
+[recto] 1. p:s van 23½. palm die aangerk:t is met ƒ 718. 15.
+[recto] „ 16 ½. - . . . d=o. - - - „ - - - - - i d em - - - - - „ 137. 10.
+[recto] . 14. -. . . . . d=o . . jder. . . . . . „. . . . . „ 37. 10. 8
+[recto] 12. -. . . . . d=os. . . . . „. . . . „. . - „ 87. 10. 9
+[recto] Tesamen - - - - - ƒ1081. 5.
+[recto] 4. p=s spieren of onderpalmen meerder ontf:
+[recto] als bij factura in aanreekening
+[recto] gebragt zijn
+[recto] In de Wapencamer
+[recto] 8. p:s snaphaan loopen bij 't probeeren van
+[recto] 48. p:s d=os door de Militairen per
+[recto] desen
+[verso] op.
+[verso] -
+[recto] E
+== NL-HaNA_1.04.02_2222_0066 | #66 | sides: recto,verso | lines: 62
+[recto] 484.
+[verso] desen bodem uijt het vaderland med
+[verso] gebragt, gesprongen.
+[verso] Contanten
+[verso] 75/62 p:s zilvere ducatons van 160. k:s door d
+[verso] heeren Majoreses in't vaderland
+[verso] aan Meerm: Bodem tot opkopen
+[verso] van verversing E:a op de reise med
+[verso] gegeven, overgeschoten En bereets
+[verso] bij den ondergetekenden ontfangen
+[verso] sijnde de Manqueerende 82 3/63. p:s
+[verso] dittos uijtgegeven voor verversing
+[verso] als andersints, uijtwijsens het
+[verso] hier nevens g'annexeert extract
+[verso] uijt het scheeps- zoldij Iournaa
+[verso] van dikgewaagde Bodem, te wel
+[verso] voor 't sien van de Caab de goede
+[verso] Hoop - - - - - - - - - - - - - k: 3. 1/8
+[verso] „ idem: Ceilon - - - - - - - - - - . - - „ 4. 7.
+[verso] tot het opkopen van vissen en ver„
+[verso] „versing in de Noord-Zee op Ver„
+[verso] „scheide rijsen zo aant volk als
+[verso] d'officieren uijtgereikt - - - . . . . . . . „ 10 1/63.
+[verso] „ pissangs. . . . . . . . . . . . . . . . - „ 2 13/21.
+[verso] . . . - - - - - - - „ 5
+[verso] „ pompoinen.
+[verso] „ versevis E- - - - - - - - - - - - „ 22. 7.
+[verso] fruilagie, vis, en andere verver„
+[verso] „ising voor Mature gekogt. . . „ 25 1/63.
+[verso] Tesamen. . . ƒ: 82: 163:
+[recto] overige provisien in't
+[recto] Dispens gelevert als.
+[recto] 250 1/10. kan wijn
+[recto] 250. —. . . . . . „ koornbrandewijn
+[recto] 256½. lb: boll:s vleesch
+[recto] 742¼. „. „ spek
+[recto] 82 1/5. Aan olijven- olij
+[recto] 140 3/10. . . . „ roll:s azijn
+[recto] Hlunderagien volgens nevens
+[recto] leggende notitie door den soldij Boek„
+[recto] „houder d: Z: Ian Elias van
+[recto] Mijlendonk overgegeven p:r Restant
+[recto] verbleven en ten deele in't negotie
+[recto] pakhuijs ontfangen, teweten
+[recto] 125. p:s hemden zijnde 4. p:s tekort gelevert
+[recto] 16 paren schoenen 15. paren idem
+[recto] 2. ½. gemaakte Kleeren.
+[recto] 14. paren koussen, zijnde 2. paren minder
+[recto] 3. linne Rokjes. .
+[recto] over.
+[recto] 5. wolle broeken
+[recto] onderwelke voorsch: te min verantwoor„
+[recto] „de plunderagien ook Begrepen zijn,
+[recto] d' ondervolgende, die volgens een onder„
+[recto] „handse verklaring door den schipper
+[recto] en opperstuurman ter Requisitie
+[recto] van den ondercoopman van Meerm:
+[recto] schip verleend na gedane visitatie
+[recto] aan boord te min hebben bevonden,
+[recto] als.
+[verso] overige
+[recto] 2. p„s
+== NL-HaNA_1.04.02_2222_0067 | #67 | sides: recto,verso | lines: 60
+[recto] 485.
+[verso] 2. p:s handen
+[verso] 11. haren schoenen
+[verso] 2. d=os Koussen.
+[verso] Colombo den 12:' april ao 1732:
+[verso] /:was getekend:/ I: B: Vernatti.,
+[verso] Naamrolle der slaven
+[verso] die 't sedert p:mo 7ber: a:o pass:o tot
+[verso] ult:o februarij deses Iaars in
+[verso] 's Comp:s buijten hospitaal gestor„
+[verso] „ven zijn, mitsgaders Beestialen
+[verso] in voorsch: tijd verrekt, tot wel„
+[verso] „kers afschrijvinge van den wel
+[verso] Ed: groot agtb: heer Stepha
+[verso] „nus versluijs Raad ordin
+[verso] „ris van India gouverneur en
+[verso] directeur van't Eijland Ceilon
+[verso] den Custe Madure nevens dies
+[verso] onderhorigheden door den onderge„
+[verso] „tekenden hooft-administrateur
+[verso] Eerbiedigst qualificatie werd
+[verso] versogt, Namentlijk.
+[verso] 's Comp:s lijx eijgenen in voorsch: tijd Conform de
+[verso] hier nevens gevoegde 7. stx: verklaringen
+[verso] overleden, daar van
+[verso] 7. in de maand zber: als
+[verso] Cormand:s man gen: padiaan oud 39.
+[verso] Iaren aan de watersugt
+[verso] -
+[verso] 7. 1. lijfeijgenen die Transporteere.
+[recto] 1. lijfeijgenen P„r Transport
+[recto] 1. tutuc:s man gen. adensan aan de trec„
+[recto] „kings
+[recto] 3. Maltab:s manswaar af
+[recto] 1. gen: sakeren magen Supereman
+[recto] oud 74. Iaren aan den afgang
+[recto] 1. „ oedeaan oud 31. Iaren aan de
+[recto] waterzugt
+[recto] 1. „ koespeen „ 57 d=os aan de treckings
+[recto] 1. Mallab:s vrouw gen: welen magel
+[recto] patchec oud 59. Iaren, aan den
+[recto] afgang.
+[recto] d=o Iongetje gen: padiaan magel
+[recto] Christovo oud 1. Maand aan
+[recto] de Stuijfingh
+[recto] 4. In de maand october teweten
+[recto] 1. Slavin aan de pannebackerije; door
+[recto] ouderdom
+[recto] 3. alhier als
+[recto] 1. Batav: Man gen: touman balij
+[recto] oud 64. Iaren aan den afgang
+[recto] 1. tutuc:s d„o gen: Maden aan de persing
+[recto] 1. Mall:s meisje gen: pedro magel
+[recto] dominga oud 1. m:t aan de
+[recto] trekkings.
+[recto] 3. In de Maand november, namentlijk
+[recto] 1: Mallab: man gen:t Ramen magel
+[recto] Saviel oud 31. jaren aan de
+[recto] tering
+[recto] 14. 1. Lijfeijgenen die Transporteere
+== NL-HaNA_1.04.02_2222_0068 | #68 | sides: recto,verso | lines: 62
+[recto] 486.
+[verso] 1. Lijfeijgenen P„r Transport
+[verso] 1. Mall:s vrouw Colende magel
+[verso] wirij oud 77. Jaren aan den
+[verso] d=o: man pittaan magel thome
+[verso] oud 20 Jaren met de
+[verso] venus siekte.
+[verso] 5. In de maand Decemb:r te weten
+[verso] 1 Corm: Man gen: moettoe oud 44. Jaren,
+[verso] met de berriberij
+[verso] 1. Mall: „ gen: tripalen magel Ioan
+[verso] oud 53. Jaren met de waterzuij
+[verso] 3. Meijsjes daar af
+[verso] 1. adeken magel Catarina oud 4. jaren,
+[verso] met de land siekte
+[verso] 1. Ignatie magel Maria oud 2/in.
+[verso] met de Huijping
+[verso] 1. lourenso „ Eugenia oud 2/m. met
+[verso] de sluijping
+[verso] 6. In de maand Ianuarij, als
+[verso] 1. batav: man gen: soloor van Mani„
+[verso] „cabo oud 46. Iaren aan de
+[verso] teering
+[verso] 1. Corm:s „ Moetten oud 46. Iaren—
+[verso] met de berriberij
+[verso] 2. Mall=se Mans
+[verso] 1. Hengerateri magen Chittenen
+[verso] oud 62. jaren met de Waterz:
+[verso] 1. allegen magen Caliman oud 77
+[verso] Iaren met den afgang
+[verso] 25. 4. lijfeijgenen die transporteere.
+[recto] 25. 4. Lijfeijgenen P:r Transport
+[recto] 2. Mallab„s vrouwen
+[recto] 1. andi Magel naijni oud 49. jaren
+[recto] met de waterzugt.
+[recto] 1. Hiren Sabina oud 20. Iaren
+[recto] door Kranksinnigh: zijnde
+[recto] aan pannebakk:s bescheiden
+[recto] geweest.
+[recto] 6. Coppen in de Maand februarij als
+[recto] 12. Corm: Mans
+[recto] 1. Calawaraijen oud 39. Jaren, met
+[recto] de Jugt
+[recto] 1. Ignatio - - . . . . . „ 61. „ met de
+[recto] treckings.
+[recto] 2. tutuc=s Mans
+[recto] 1. Maden aan de Berreberij
+[recto] d=o: - - - „. . . „ waterzugt
+[recto] Mall: man swaminaden mogen
+[recto] Martinjo oud 24 Jaren aan
+[recto] detering.
+[recto] d„o meisje moettoe Magel Su„
+[recto] „sanna oud /m. aan de
+[recto] treckings.
+[recto] 31. 's Comp:s lijf eijgenen tesamen
+[recto] als Vooren.
+[recto] Beestialen
+[recto] trekossen in Voorsegde tijt verrekt volgens
+[recto] 4. verklaringen desen g'annex„
+[recto] eert, als.
+[recto] 4. in
+[verso] afgang
+== NL-HaNA_1.04.02_2222_0069 | #69 | sides: recto,verso | lines: 51
+[recto] 487.
+[verso] 4. in September
+[verso] 3. „ december
+[verso] 4. „ Ianuarij
+[verso] 4. „ februarij
+[verso] 1. Ezel in februarij de moort gestoken uijt„
+[verso] „wijsens een attestatie
+[verso] 22. Buffels aan de pannebackerije verrekt
+[verso] Blijkens 20. stx: verklaringen,
+[verso] te weten.
+[verso] 8. in September
+[verso] 4. „ october
+[verso] 5. „ xber:
+[verso] 5. „ Ianuarij
+[verso] Colombo den 12:' april ao 1732.
+[verso] /:was getekend:/ I: B: Ternatti.
+[verso] Aan den wel Edelen agtb:
+[verso] heer Stephanus Ver¬
+[verso] „sluijs, Raad ordinaris van
+[verso] India, gouverneur en directeur
+[verso] van 't Eijland Ceilon met
+[verso] dies onderhorigheeden.
+[verso] Wel Edele agtb: Hoog
+[verso] gebiedende Heere
+[verso] Jn voldoeninge van uw wel Ed:
+[recto] agtb: veel gerespecteerde ordre,
+[recto] hebben w' ondergetekenden geresu„
+[recto] „meert de Memorie der Bevondene
+[recto] minderheeden, ter fortresse Ni„
+[recto] „gombe, Catiture en hangwel„
+[recto] mo
+[recto] „le 't sedert p=mo 7ber: a o pass:o tot
+[recto] ult=mo februarij verleden, door den
+[recto] E: dessave overgelevert en gedateert
+[recto] 8:' Maart, mitsgaders eene dier„
+[recto] „gelijke Memorie door den E:
+[recto] hooftadministrateur ingebragt
+[recto] van't gene alhier in de pakhuijsen,
+[recto] zo bij ontfang eeniger goederen
+[recto] als openen van eenige gestole
+[recto] Kassen, balen E: is tekort bevon„
+[recto] „den, nevens een aparte Memorie
+[recto] aanwijsende in hoedaniger voegen
+[recto] de scheepen Maria Adriana
+[recto] 's heeren arendskerke en
+[recto] de Iacoba Iongst uijt Neder„
+[recto] land alhier g'arriveert, hunne
+[recto] inladingen hebben verantwoord,
+[verso] agtb.
+[recto] Beide
+[verso] G
+== NL-HaNA_1.04.02_2222_0070 | #70 | sides: recto,verso | lines: 46
+[recto] 488.
+[verso] beide gedateert 12:' deser loopende
+[verso] Maand april alle gesterkt met
+[verso] daar toe pertineerende zo gerecol
+[verso] „beerde als b'eedigde Bescheiden na
+[verso] de ordre, vervat staande bij genera
+[verso] „le resolutie des Casteels Bata
+[verso] via van den 14:' april 1698. , en
+[verso] dienen derhalven daar op mits
+[verso] desen in alle eerbied van onse geri
+[verso] „ge gedagten, aanvang makende
+[verso] met de
+[verso] Memorie van de buijten leger
+[verso] bij dewelke geen excessen van
+[verso] Minderheeden worden gevonden
+[verso] omtrent de rijst en't sout aldaar
+[verso] aangebragt, zo bij Zees occagie
+[verso] als Binnen door p:r pades of
+[verso] schouwen, dan alleen dat den quar
+[verso] tier Meester van de Boot den
+[verso] ondank sal dienen te verant„
+[verso] woorden 42. p: koehuijden die hij
+[verso] onder den getal van 4000 p:s bij
+[recto] den tel alhier ontfangen hebbende,
+[recto] tot Caliture minder overgelevert
+[recto] heeft, sulxmen overgaat tot de
+[recto] Memorie der minderheeden alhier
+[recto] in de pakhuijsen ontdekt waar onder
+[recto] 52¼. lb: holl:s stijfzel bij 't openen en
+[recto] nawegen van 3. vaten 39. lb: am„
+[recto] „phioen uijt een wel geconditioneerde
+[recto] kist, 5: riemen klijn formaat pa„
+[recto] pier in een Besloten kas, 3¼. lb:
+[recto] spaansgroen in een Vaatje en 17. gro„
+[recto] te flessen persz: roosenwater in
+[recto] 6: Cassen gebroken en tekort bevon„
+[recto] „den zijn, dewelke alsowel sul„
+[recto] „len dienen afgeschreven te worden
+[recto] bij de negotie Boeken als 22 3/8 lb:
+[recto] foelij aan stof en 49¾ lb. d=o aan
+[recto] minwigt ontwaard, bij 't openen
+[recto] van 2. sockels, van welke laaste
+[recto] 't slof naar Batavia bij gele„
+[recto] „gentheid, nevens d'afpak briefjes
+[verso] den
+[recto] moet
+== NL-HaNA_1.04.02_2222_0071 | #71 | sides: recto,verso | lines: 47
+[recto] 489
+[verso] moet gesonden, en daar bij gevoegd
+[verso] werden 'tafpakbriefje van 1. pak
+[verso] Bandenoesen of tafta de Soele N=
+[verso] 197. dat Iongst per 't Iagt Con„
+[verso] „stantia van daar alhier aange„
+[verso] „bragt en g'opend zijnde, daar in
+[verso] een Minderheit van 11. p:s bevonden
+[verso] is, Maar de 35. p:s verstikte en
+[verso] met roode plecken beset bevonden
+[verso] Cassa Bengale sijne de handiaal
+[verso] Met goude hoofden bij het openen
+[verso] van een besloten kist, Kunnen„
+[verso] „de per venditie om d' E: Comp:
+[verso] daar van t'ontslaan, verkogt en
+[verso] wijders als passabele ondermaten
+[verso] op reek: van winst en verlies af„
+[verso] „geschreven werden 1953. lb: peper
+[verso] op een aantal van 202909. lb: van
+[verso] Mallabaar en gale, per diverse
+[verso] vaartuijgen mitsgaders 2. p:r c=to op
+[verso] de rijstlading van't Iagt Con„
+[verso] „stantia van Batavia, item 1 2/5:
+[recto] en 1¼ p:r C:o op de nelij binnen door
+[recto] van Nigombo alhier aangebragt
+[recto] ingeselschap van 28. lb: boter op
+[recto] 3626. in 14. wel geconditioneerde
+[recto] Vaten en 11. kann: Margosij olij
+[recto] op 3: leggers van Manaar, desge„
+[recto] „lijx 52. kann: kokus olie ver„
+[recto] bruijkt tot het opvullen der wan„
+[recto] nigheeden van 16. heele en 4. haelve
+[recto] leggers per 't schip Landscroon
+[recto] van gale, en 22. kann: dubb: arrak
+[recto] op 26. leggers p:r de boot de veran„
+[recto] „dering van Callawille bekomen,
+[recto] gelaxeert en verspilt geraakt,
+[recto] zullende de 8. p:s onbequame Cor„
+[recto] mandelse tromvellen onder
+[recto] 75 p:s in een pak van Manaar
+[recto] aangekomen, almede dienen afge„
+[recto] „schreven en vervolgens als nergens
+[recto] toe Nut, Benevens de goederen
+[recto] van 't afgelegde Jagt Danna
+[recto] dewelke van Tutucorijn aange„
+[verso] en
+[recto] „bragt.
+== NL-HaNA_1.04.02_2222_0072 | #72 | sides: recto,verso | lines: 47
+[recto] 490
+[verso] aangebragt zijn, en tot nader ordre
+[verso] ter bewaring gestelt in't ijzer Ma„
+[verso] „guazijn, d' wapencamer, de scheeps
+[verso] timmerwerf, 't Matriaalhuijs, 't
+[verso] pakhuijs, en in de smitswinkel ver
+[verso] „nietigt te werden, na dat alvorens het
+[verso] oud koper en ijzer daar van ter
+[verso] presentie van fiscaal en Iustitiee
+[verso] „le leeden sullen afgeslagen en aan
+[verso] den baas Smith ter verantwoording
+[verso] en veroirbering in des Z: Comp:s
+[verso] dienst overgegeven wesen, aantrek
+[verso] „kende bij d'ongetaxeerde Boekres„
+[verso] „tanten, 't geen daar van in't Equipa
+[verso] gie pakhuijs berust, en de gecom„
+[verso] mitteerdens voorsch: betuijgen nog
+[verso] wel emploijabel tewesen ten over„
+[verso] „staan van welke Iustitieele ge„
+[verso] „committ:s wijders in zee gesme„
+[verso] „ten moeten werden, 71: lb: vuil
+[verso] wax bij 't maken van kaarsen
+[verso] vergadert, terwijl het verlies
+[recto] van 3 1/5. per c=to daar door gecauseert
+[recto] afgeschreven moet werden uijt
+[recto] Kragte der Justitieele attestatien,
+[recto] gelijk sodanig ook diend gehandelt
+[recto] met de gestorvene slaven en
+[recto] beestiaalen van d'E: Comp: bij
+[recto] eene Naamroll annex aan Meer„
+[recto] „molte Memorie gespecificeert
+[recto] waarmede dan eijndelik dient
+[recto] gesproken van de.
+[recto] Memorie der ontloste goederen
+[recto] van de drie hier voren met den
+[recto] aanvang deses genoemde scheepen
+[recto] uijt Nederland, waar op te notee„
+[recto] ren valt dat alle de daar bij aan„
+[recto] gehaalde Minderheden en defecten„
+[recto] nevens de wannigheden der dran„
+[recto] „ken, noodwendig bij de boeken
+[recto] moeten afgeschreven, en daar en
+[recto] tegen bij deselve weder ingeschre„
+[recto] ven werden, de geene die boven de
+[recto] aanrekening uijt die scheepen
+[verso] van
+[recto] aan
+== NL-HaNA_1.04.02_2222_0073 | #73 | sides: recto,verso | lines: 48
+[recto] 491.
+[verso] aan de wal gelevert sijn, kunnende
+[verso] de 3. gebroke Cijffer griften sodanig
+[verso] blijven voortlopen, om aan de schrijf„
+[verso] Comptoiren te doen verstrecken en
+[verso] desgelijx ook de vier verrekijkers
+[verso] onder een getal van 5. stx. ontfangen,
+[verso] dewelke van 3. voeten ruijm en schaars
+[verso] bevonden sijn, in plaatse van 3½.
+[verso] ^ zoo als de vaderlandse factura Dicteert.
+[verso] voeten ^ mits stellende de lengte na
+[verso] de bevinding, sullende men onder„
+[verso] tusschen moeten laten ervaren, of
+[verso] de gebroke Glase ruijten niet
+[verso] klijnder, en tot dienst der E. Comp„
+[verso] bequaam gemaakt, Mitsgaders
+[verso] de nuttelose vlindsteenen, en
+[verso] 797. lb: bedorven vleesch, gehaald
+[verso] uijt een vat welkers Bodem
+[verso] ontsprongen is, ter presentie
+[verso] van den E: fiscaal en twee Iusti„
+[verso] „tieele leeden in zee gesmeten
+[verso] kunnen werden, terwijl men
+[verso] met de in't probeeren gesprongene
+[recto] snaphaanloopen, na de bekende ordres
+[recto] sal kunnen handelen, en de wijnthint
+[recto] waar van 3. halve amen p:r 'T heeren
+[recto] arendskerke aangebragt, en daar
+[recto] uijt 86. kannen goedewijn afgetakt
+[recto] zijnde, de rest als drabbig onverstrek„
+[recto] „baar g'oordeelt in den aanstaande
+[recto] op desselvs moer laten staan wan„
+[recto] „neerse niet Bevonden word ten
+[recto] eenemaal bedorven en onnut te
+[recto] wesen, ter sake gesegt word, dat de
+[recto] drabbigheit de deugt en d'oudheid van
+[recto] dien te kennen geeft, volgens 't gee„
+[recto] „ne daar van aangetekend staat,
+[recto] bij een Resolutie alhier in rade
+[recto] van politie getrocken in dato 9:'
+[recto] Iunij 1722. also zullen de 5. rollen
+[recto] smal everdoek op verscheide plaat
+[recto] „sen aan de kauten verrot en bescha„
+[recto] „digt, item 35. haire doeken onder
+[recto] een getal van 72. p:s door 't weer
+[recto] beschadigt bevonden om de gegeve
+[verso] snaphaan„
+[recto] getuijgenis.
+== NL-HaNA_1.04.02_2222_0074 | #74 | sides: recto,verso | lines: 47
+[recto] 492.
+[verso] getuijgenis van nog bruijkbaar te
+[verso] zijn, kunnen aangehouden, en ter
+[verso] Contrarie afgesch: en ter presentie
+[verso] van gecommitt:s hier Boven genoe
+[verso] in zee gesmeten werden 3. boeken
+[verso] bedorven Rardoes. papier, 12. p:s
+[verso] stukkende tromhoepen, 3. p:s stale
+[verso] zakhorologies veeren, gantsch ver
+[verso] „roest en slap gevolgelijk geheel
+[verso] onbequaam 15. p:s holl: tromvellen
+[verso] ten eenemaal verstikt, 2. onbruijk
+[verso] baare houte passers 5. onbeq: vijlen
+[verso] en 1. hairdoek voor reek: van d' E Com:
+[verso] Wijders aantreckende de overgeschot
+[verso] „ne provisien volgens overgelegde
+[verso] briefjes door de schippers en Boekhov
+[verso] „ders dier scheepen onderteekend mit
+[verso] „gaders de scheepsplunderagien, vol„
+[verso] „gens notitie uijt de scheeps Iourna„
+[verso] „len, met vermindering der geene die
+[verso] tekort sijn overgegeven als van
+[verso] wijnig importantie, en daar om
+[recto] deselve van outs ongeschat worden
+[recto] ingeboekt, en sodanige weder op de repa¬
+[recto] trieerende scheepen verdeelt om suns:
+[recto] Maar van een geheel ander ansien is
+[recto] de gedane verstrecking op 't Eijland
+[recto] P:r Iago door de scheepsoverheden van
+[recto] Maria adriana ens Heeren
+[recto] arendskerke tot het opkoopen
+[recto] van verversing E: waar door hun
+[recto] mede gekregen gelden bedragende
+[recto] 100: Spaanse realen aan ider Schip
+[recto] volkomen opgeraakt zijn en de
+[recto] overheden van't schip Jacoba uijt
+[recto] de 160. ducatons Een mede gegeven
+[recto] 82 5/8. stx: bij diverse gelegentheeden
+[recto] hebben uijtgelangt, en de rest
+[recto] 77 13/63. p:s aan den E: hooft administra„
+[recto] „teur alhier overgegeven naar het
+[recto] geene de scheepsboeken, waar uijt
+[recto] de extracten voorn: Memorie
+[recto] versellen, komen uijttewijsen,
+[recto] sonder dat de ondergetekendens
+[verso] deselve
+[recto] zouden
+== NL-HaNA_1.04.02_2222_0075 | #75 | sides: recto,verso | lines: 47
+[recto] 493.
+[verso] zouden konnen seggen of zulx na de
+[verso] ordre van d'E: Comp: volstandig zij:
+[verso] dan tot verificatie van dien eenige
+[verso] andere bewijsen uijt den scheepsraad,
+[verso] of ook Iustitieele attestatien van de
+[verso] scheepsofficieren vereijsschen, latende
+[verso] deselve onderwijlen ter g'eerde disposi„
+[verso] „tie van uw wel Ed: agtb: eerbie„
+[verso] digst gedefereert, nevens de 6. p:s gesor„
+[verso] „teerde Masthouten door 't laaste schip
+[verso] minder overgeleverd, als het Cognos„
+[verso] „sement dicteert, waar op den schipper
+[verso] gevraagt geworden sijnde, betuijgde
+[verso] denselven niet meer ontfangen te heb„
+[verso] „ben dan 66. rondhouten in't geheel,
+[verso] waar onder 20. spieren, gelijk dat
+[verso] uijt de g'extraheerde ongetekende
+[verso] stuagie lijst, consteert, daar onder
+[verso] tusschen bij gem: Cognossement 72. p:s
+[verso] rondhouten voorsch: spieren daar
+[verso] onder gerekend bekend staan, ter„
+[verso] „wijl van dit notabel defect zo wel,
+[recto] als van de overige aanmerkelijke
+[recto] Minderheden en verschillen, door den
+[recto] E: hooft administrateur Besorgt
+[recto] moet worden een distincte en spe„
+[recto] „cifice notitie, om naar Neder„
+[recto] „land gesonden te werden, ter voldoe„
+[recto] „ninge der ordre van de heeren
+[recto] Majores bij missive van den 27:'
+[recto] Iulij 1719. eindelik word ook de
+[recto] ondermaat van 2. parras Caabse
+[recto] tarruw op 5. lasten, uijtbrengende
+[recto] ½. per C=o passabel g'oordeelt.
+[recto] Hiermede verhopende aan uw wel
+[recto] Ed: agtb: g'eerde intentie voldaan
+[recto] te hebben, sullen wij met hoogste
+[recto] ontsag en eerbiedigheit Blijven.
+[recto] /:onderstond:/ wel Edele agtb: hoog
+[recto] gebiedende heer, uw wel Ed:
+[recto] agtb: onderdanige en gehoorsame
+[recto] dienaren /:was getekend:/ A: D:
+[recto] Lopes en D:totmar /:in
+[verso] als
+[recto] Margine
+== NL-HaNA_1.04.02_2222_0076 | #76 | sides: recto,verso | lines: 47
+[recto] 494.
+[verso] margine / Colombo den 18:e: april
+[verso] A:o 1732.
+[verso] Vervolgens wierd bij derhand genomen
+[verso] seker proces Crimineel voor den agtb:
+[verso] raad van Iustitie deses Casteels g'in„
+[verso] „tenteert bij en van wegen den Coopman
+[verso] en fiscaal Joan de Mauregnaul
+[verso] Ratione off: Eijss:r, Contra, Ian
+[verso] vizel van naar den Iongst als sol„
+[verso] „daat bescheiden geweest zijnde aan
+[verso] de gaalse poort van dit Casteel;
+[verso] althans 's heeren gevangen over een
+[verso] verraderlijke manslag begaan aan
+[verso] den mede soldaat Cornelis Ker„
+[verso] „ner, tersake van welk execrabel
+[verso] delict den gev: bij diffinitive sententie
+[verso] van gem: agtb: raad van Iustitie
+[verso] sub dato 18:' deser uijt name en van
+[verso] wegen de Hoogmog: heeren Staten
+[verso] generaal der vereenigde Ne„
+[verso] „derlanden op onse approbatie en
+[recto] aggreatie gecondemneerd en gesentieert
+[recto] is omme gebragt te werden ter plaatse
+[recto] daar men alhier gewoon is Crimineele
+[recto] sententien texecuteeren, en aldaar den
+[recto] scherpregter overgelevert sijnde met de
+[recto] koorde aan de galge gestraft te werden
+[recto] dat er de dood navolgt, zomede in de
+[recto] kosten en misen van Iustitie, verkla„
+[recto] rende wijders denselven sedert den
+[recto] dag sijner detentie geen gagie gewon„
+[recto] „nen te hebben; over welke sententie
+[recto] als nu bij den heer gouverneur en de
+[recto] leeden deser vergadering /:excepto
+[recto] den voorm: fiscaal Ioan De
+[recto] Mauregnault die als eijss=r, en
+[recto] den soldij boekhouder Ian Elias
+[recto] van mijlendonk als lid van
+[recto] gem: Raad van Iustitie in desen
+[recto] g'excuseert wierden:/ gedelibereert,
+[recto] en alle het geene eenigsints ter
+[recto] Materie dienende was in aanmer„
+[recto] „king genomen sijnde, zo is goed„
+[verso] aggreatie
+[recto] gevonden.
+[verso] E
+== NL-HaNA_1.04.02_2222_0077 | #77 | sides: recto,verso | lines: 46
+[recto] 495.
+[verso] gevonden en g'arresteert de voorm:
+[verso] sententie sodanig die legt t'approbeeren
+[verso] en sig met het gewijsde van voorsch:
+[verso] agtb: Raad van Iustitie in't geheel
+[verso] te Conformeeren en oversulx den E:
+[verso] president en verdere leeden van gem:
+[verso] Raade t'ordonneeren de straffe aan
+[verso] den gevangen invoegen voorm: te doen
+[verso] executeeren en werkstellig maken.
+[verso] Wijders gaf den heer gouverneur de leeden
+[verso] te kennen hoe sijn Edele sedert langen
+[verso] tijd so van wijkmeesteren deses Cas„
+[verso] „teels als andere menschen diverse
+[verso] klagten waren te vooren gekomen
+[verso] over verscheide inwoonderen alhier,
+[verso] die niet tegenstaande alle goede en
+[verso] welgestelde ordres de vuijligheeden die
+[verso] voor ende in hare huijsen dagelijks bij den
+[verso] anderen werden versamelt in steede
+[verso] van in de expres daar toe opgeregte
+[verso] steene backen te werpen; deselve in
+[recto] de gragten deses Casteels, en in't midden
+[recto] der straten mitsgaders op andere onbe„
+[recto] hoorlijke plaatsen komen uijtte smijten,
+[recto] waar door niet alleen voorm: gragten
+[recto] hoelanger hoe droger wierden gemaakt,
+[recto] Maar ook een gedurige stank in dit
+[recto] Casteel verwekt; tot weering van't
+[recto] welke welgem: sijn Edele betuijgde
+[recto] een Billiet in concept te hebben
+[recto] gebragt, waar bij alle diergelijke on„
+[recto] ordentelikheden nogmaals verboden,
+[recto] en alle inwoonderen van dit Casteel
+[recto] g'ordonneert werden hunne vuijlig„
+[recto] „heeden in haare wooningen bij den
+[recto] anderen te houden tot ertijd deselve
+[recto] door karren van een daar toe ex„
+[recto] „pres aantestellene persoon wier„
+[recto] den afgehaald, zo als zijn Edele
+[recto] ook nog een Billiet geconcipieert
+[recto] had; tot weeringe dat geene vrijgeboor„
+[recto] „ne, ofte vrijgegevene so wel mans
+[recto] als vrouwen haar met er woon op
+[verso] de
+[recto] 's Comp:s
+== NL-HaNA_1.04.02_2222_0078 | #78 | sides: recto,verso | lines: 45
+[recto] 496.
+[verso] 's Comp:s slaven Eijland begeven, ofte
+[verso] bij nagt en ontijden daar laten vinden
+[verso] also welgem: sijn Edele verklaarde
+[verso] niet alleen diverse klagten te heb„
+[verso] „ben gehoord dat 's Comp:s slaven en
+[verso] slavinnen daar door van hunne dien„
+[verso] „sten afgelokt en gedeboucheert wierde
+[verso] Maar ook selvs allerhande diverijen
+[verso] die uijt voorsch: onwettige Bewoo„
+[verso] „ning van 's Comp:s slaven Eijland hun
+[verso] principaalste source hebben geno„
+[verso] „men, sedert eenigen tijd herwaarts
+[verso] seer sterk in swang hadden gegaan
+[verso] welke twee voorsch: Billietten
+[verso] dan met aandagt geresumeert sijnde
+[verso] so is verstaan deselve sodanig die
+[verso] door den heer gouverneur in Concept
+[verso] waren gebragt en hier onder bij
+[verso] insertie te vinden sijn t' approbeeren
+[verso] en ter behoorlijker plaatsen te doen
+[verso] affigeeren; mitsgaders tot karre„
+[verso] „man ofte ophaalder der vuijligheden
+[recto] aantestellen den vrijburger alhier gon„
+[recto] salvo d'almeda: die tot loon van sijnen
+[recto] arbeid na de proportie der groote van
+[recto] ijder huijs 's maandelijx van dies in„
+[recto] „woonderen sal genieten drie ligte stuij¬
+[recto] „vers voor Elke thien quadraad roeden.
+[recto] Men advorteerd en Laat
+[recto] een Igelijk bij desen weten
+[recto] dat overmits tot leetwesen werd
+[recto] bevonden dat de gestelde goede ordres
+[recto] tot 't suijver en schoon houden der
+[recto] straten langs 's heeren wegen ten
+[recto] desen Casteele t' eenemaal in't
+[recto] voetsant geraakt sijnde een ider
+[recto] sonder onderscheit sig daar door
+[recto] niet ontsiet Contrarie deselve
+[recto] beveelen niet alleen alder hande
+[recto] „slag van vuijligheeden, doode kren„
+[recto] „gen enz: uijt hunne huijsen voor
+[recto] hare deuren of daaromtrent te laten
+[verso] aan
+[recto] neder
+== NL-HaNA_1.04.02_2222_0079 | #79 | sides: recto,verso | lines: 48
+[recto] 497.
+[verso] neder smakken, maar selvs ook in
+[verso] de ten desen Casteele te vinden sijnde
+[verso] gragt bij avond en ontijden te laten
+[verso] smijten hunne gemak balijs, 't geen
+[verso] een overdragelijke stank komt te
+[verso] veroorsaken, 't gunt in een goede en
+[verso] wel geschikte regeering niet getol„
+[verso] „lereert of gedoogt kunnende werden
+[verso] bij den Edelen heer gouverneur en
+[verso] den Raad alhier uijt dien hoofde ten
+[verso] hoogsten nodig g'agt en goedgevonden
+[verso] is daar inne so veel mogelijk te voor„
+[verso] „sien, en ten dien Eijnde de daar toe
+[verso] vereijschte ordres weder de novo
+[verso] testatueeren, gelijk is doende bij
+[verso] desen, dat een igelijk wie het ook
+[verso] zoude mogen wesen; sonder onder„
+[verso] „scheit, zo wel 's Comp:s dienaaren,
+[verso] burgeren, Inlanderen, als alle
+[verso] andere die Binnen dit Casteel
+[verso] woonagtig sijn, op het kragtigste
+[verso] verbooden werd na de publicatie
+[recto] deses gaen de minste vuijligheit nog
+[recto] doode krengen, of wat 't ook soude
+[recto] mogen wesen op Straat, Mitsgaders
+[recto] eenige gemak balijs in voorsch: gragt
+[recto] te laten werpen, maar dat zij daar
+[recto] en tegen gehouden sullen wesen
+[recto] de laastgen: buijten de gaalse
+[recto] poort in zee te laten smijten, en
+[recto] de vuijligheeden als anders hun„
+[recto] „ner huijsen, apart binnen deselve
+[recto] te versamelen en in gereetheid te
+[recto] houden, op dat die door den persoon
+[recto] van Gonsalvo Dalmede die
+[recto] wij op sijn versoek hebben aange„
+[recto] stelt tot Karreman onder 't ge„
+[recto] „sag van de Wijkmeesters deses
+[recto] Casteels afgehaald, na de daar
+[recto] toe g'approfirieerde en Binnen
+[recto] deser vesting te vinden sijnde
+[recto] vulles Backen gebragt, en ver„
+[recto] volgens van daar buijten de gaal„
+[recto] se en Rotterdammer poort
+[verso] deses.
+[recto] souden
+[recto] 1
+== NL-HaNA_1.04.02_2222_0080 | #80 | sides: recto,verso | lines: 53
+[recto] 498.
+[verso] souden konnen vervoert, mitsgaders
+[verso] op een afgeleege plaats weggeworpen
+[verso] worden, waar voor wij gem: Dalm
+[verso] „da toegelegd hebben om te konnen
+[verso] strecken tot desselfs Belooning en
+[verso] onderhoud voor ider huijs dat binnen
+[verso] dit Casteel te vinden is, het geen hier
+[verso] onder specificelijk uijtgedruckt
+[verso] staat en't geen wij ook expresselijk
+[verso] begeeren dat een ider die't selve be„
+[verso] woond preciselijk aan gem: Karre„
+[verso] man 'smaandelijx sal hebben te
+[verso] voldoen, Mitsgaders daar en boven
+[verso] verpligt blijven ider voor sijn woo„
+[verso] ning schoon en suijver te houden op
+[verso] pens dat alle de gene die bevonden
+[verso] worden in het alderminste sig te
+[verso] hebben gestelt Contrarie dese onser
+[verso] ordres telkens sullen verbeuren
+[verso] eennamende van ses rd=rs, d'eene
+[verso] helfte voor den E. fiscaal en dandere
+[verso] helfte ten profijte van de diaconij
+[recto] armen alhier en dat de eijgenaars
+[recto] sonder eenig tegenspreeken ook sullen
+[recto] moeten instaan voor hunne slaven,
+[recto] die de gemakbalijs niet komen weg
+[recto] te dragen en te brengen ter plaatse
+[recto] hier voren aangewesen; Bestaande
+[recto] de specificatie van voorsch: belooning
+[recto] in als volgt, te weten—
+[recto] In't Blok: A:
+[recto] Geav: tan: d:
+[recto] voor 's Comp:s wooning thans bewoond werden
+[recto] „de door den ondercoopman willem Cruijse „ 13. —.
+[recto] „ 'sComp=s wooning item luijten:t adriaan Noc „ 13. —. —
+[recto] „ - d=os. . . . . . . „. . . . „ tweeden Capitain DZ
+[recto] I: Willem Schnee. . . . . „ 12. —. 2.
+[recto] „ apotecar angelo van gijzel „ 2 — 2.
+[recto] „ d=o
+[recto] „ de woning van den stadsherbergier
+[recto] hendrik Rumond. „ 23. 1. —
+[recto] . „. . „ Capitain der burgerij
+[recto] Iacob Hals. . . . . . . . . „ 20. 1. 2.
+[recto] „ 's Comp:s Schacherij. . . . . . . . . - - - . - - - - . „ 4. 1: 2
+[recto] „ de woning van den Vrijgegeven slaas Carolus „ 5. 1. –
+[recto] . d=o. . . . . „ de wed:e Bruto. . . . - - . - - - „ 6. –. —
+[recto] d=o . . - „ den assistent govert v: loenen „ 6. 1. 2.
+[recto] .. d=o. . . - „ de wed:e van gent. . . . . . „ 7. 1. 2.
+[recto] d=o. . . „ den boekh:r S: M: Moor. - - - „ 9. 1. –
+[verso] armen
+[recto] do.. ..
+[recto] 3
+== NL-HaNA_1.04.02_2222_0081 | #81 | sides: recto,verso | lines: 68
+[recto] 499
+[verso] ligte st ver=s
+[verso] tam: d
+[verso] Voor de woning van de wed: anderson. . . . . . . . . „ 12:
+[verso] „ 's Comp:s Wooning bewoond werdende door den
+[verso] Baas der scheepstimmerl: g:t dirksz: „ 9:
+[verso] „ de woning van den Eerw: predikant gerrar„
+[verso] dus potken. . . . . . . . . . . . „ 26. —
+[verso] Wed:s toorzee - - - - - - - - - - - - „ 13. —
+[verso] „ 's Comp:s woning bewoond werdende door den
+[verso] soldij boekh:r I: Z: van Mijlendonk „ 9. 1. 2.
+[verso] d=o: door den negotie boekh:r g:t valk. . . „. 9. 1. 2.
+[verso] „ vaandrig I: pieter Klop. - . . . „ 9. 1. 2.
+[verso] dispencier g:s 't Lam. - - . . . . „ 9. 1. 2.
+[verso] „luijten harman: ladenius. . „ 9. 1. 2.
+[verso] „ Cassier Corijn Stevensz:. . . „ 9. 1. 2.
+[verso] „ luijten: Ian hackert - - - - - „ 9. 1. 2.
+[verso] do
+[verso] „. „ winkel.:r R: v: der parra. . . . „ 9. 1. 2.
+[verso] do
+[verso] voor de woning van den Corpor: Mich:l herholst„ 3. —.
+[verso] d=o. . . . . . . „ de wed: deligt - - - - . . . . „ 2. 1. 1.
+[verso] d=: Iacobs. . . . . . . . . „ 2. —. —
+[verso] d
+[verso] schoen maker Roseboom „ 6. 1. 2.
+[verso] d
+[verso] „ de wed: anderson bewoond wer„
+[verso] „dende door haar soon W: l: anderson „ 2. 1. 1.
+[verso] denbaas Kruijtmaker g:t
+[verso] Iberstijn. . . . . . . . . . . . . . . „ 5. —. —
+[verso] „ de Jonge dogter Solder - - - - - - „ 2. 1. 1.
+[verso] do: - . - - „ den sergiant Ian Roelsz: „ 3. 1. 1
+[verso] d=o . . - - „ „ Suijer pieter Pieris. . . „ 1. 1. 2
+[recto] listrast &:
+[recto] woning van een lascorijns wed: - - - - „ 1.
+[recto] d=o. . . . . . „ den apotekar a: v: gijzel - - . „ 3. 1.
+[recto] toebehorende aan de boedel van
+[recto] den baas-smit hans visser. . „ 2. 1.
+[recto] van den Constab:e abrah: nortje „ 2. 1.
+[recto] „ den baas metselaar E: klijn„
+[recto] „pennik bewoond werdende door
+[recto] den twede Meester van't hospi„
+[recto] „taal Ian deuts - - - - - - - - „ 1. 1
+[recto] d=o. . . „ de wed: abrah:m Berenstraat „ 3. 1.
+[recto] „. d=o van leeuwen, bewoond
+[recto] werdende door serg: Charlet. „ 2. 1.
+[recto] „ de wed: anderson bewoond wer„
+[recto] dende door den Chirurgijn Wenner „ 3. 1.
+[recto] „den Capit: der burgerij I:o hals
+[recto] bewoond werdende door den
+[recto] Smit giethoorn - - - - - - - - - - - „ 2
+[recto] „den gegagieerder baas schade
+[recto] bewoont werdende door den
+[recto] assistent debie - - - - - - - - „ 3. 1
+[recto] den Capit: luijten:t derburgerij
+[recto] Dirk Blankert - . „ 6. 1. —
+[recto] „ apotekar a: v: gijzel - - - - - „ 6. —. 2
+[recto] 'sComp:s woning bewoond werdende door den
+[recto] vaandrig Casper Stijger - . . „ 4. 1.
+[recto] von: van theunis holst bewoond door
+[recto] zijn Vrouw - - - - - - - - - „ 3. —
+[recto] d=o: d=o: bewoond door den
+[recto] vaandrig Ioachim dix. . . . . . „ 6. —
+[recto] :toebehorende aan de boedel van den
+[recto] do
+[recto] overleden baassmit hans visser. „ 2. 1. 1
+[verso] 6
+== NL-HaNA_1.04.02_2222_0082 | #82 | sides: recto,verso | lines: 60
+[recto] 500.
+[recto] ligta stver:
+[recto] an d:
+[verso] voor de woning van den Stuurman P: oekhout. „ 2
+[verso] „. . . . „ trompetter godfriet - - - - - „ 3.
+[verso] de wede: Kruijwinkel - - . . . . . . . „ 2.
+[verso] .„ schokman bewoond wer„
+[verso] dende door A=m hertenberg. . . . „ 2.
+[verso] de boode Benedictus de bruijn
+[verso] bew: door Vaandrig linck laan. „ 2. 1.
+[verso] „ den boekhoud:r Iacob Cornelisz:
+[verso] bewoond door zijn Moeder . . . . . „ 2.
+[verso] „ den Capit: dar burgerij I:o hals. . . „ 1. 1. 2
+[verso] „assistent Ian Franchimond „ 3. 1.
+[verso] 's Comp:s won: bewoond werdende door den
+[verso] eerste Clerq Berh:t Schroder. - . . „ 4. 2.
+[verso] „ Item baas der huijstimmerl:
+[verso] frans Schoffelen. . . . . . . . „ 5. —
+[verso] d=o. „ item schafbaas van 't nederl. hofpict:s „ 9. 1. 2.
+[verso] „ de woning van de wed: Colleke hendriks. - . „ 3. 1 1.
+[verso] Bastiaan fernando . . . . . . . „ 2 1. 1.
+[verso] wed: dorsman. . . . . . . . - „ 2. 1. 1.
+[verso] gegagieerden sergeant mic„
+[verso] „hiel Boon. . . . . . . . . . . . . „ 2. 1. 1
+[verso] draijer hendrik homan. . . . „ 2. 1. 1.
+[verso] „ Corporaal Steven van velp. „ 3. 1. 1.
+[verso] wed: dorsman. . . . . . . . . . . . . . „ 5. 1. —
+[verso] „ Lowijn - - - - - - - - - - - - . . . . 2.
+[verso] „ 's Comp: woning bew: werdende door den opper„
+[verso] „chirurgijn Ian philibert . . . . . „ 2. —.
+[verso] „ de woning van de Wed: harkenburg. - . . . . „ 3. 1. 1.
+[recto] Voor de oning van de wede: Goeling.
+[recto] „denbaas der pannebakkerije
+[recto] Nicolaas Marthijnsz: „ 3. 1.
+[recto] „den vaandrig hinderman. . „ 3. 1. 1
+[recto] „gegagieerden baas van de
+[recto] wapencamer Schade - - - „ 3. 1.
+[recto] de wed: Stijn - - - - - - - - - - - - . „ 3. 1. 1
+[recto] „den Capit: der Mahabadde
+[recto] D: P: Beekman bewoond wer„
+[recto] dende door serg:t groenevelt. . . . „ 3. 1. 1.
+[recto] do. van de Wed: van Leeuwen. . . . . . 3. 1. 1
+[recto] d=o van den Equipagim:r B: de Wit - - - „ 13. —
+[recto] d o . „ . . „ „ Capit: gerrit Kalden bew:
+[recto] werdende door den schepper swensen „ 13.
+[recto] „ den E: heer Cochims Commandr:
+[recto] A: Maten bew: werdende door den
+[recto] negotie overdrager P:s Loots - - - „ 7. —. 1.
+[recto] d=o: „ den boekhoud:r arend Schokman. „ 7. —
+[recto] d=o. „ de wed: lacroix bewoond werdende
+[recto] door de bode de Bruijn. . . . . . „ 7.
+[recto] „den Capit: dirk tenpezel bew:
+[recto] door den Eerste visitateur
+[recto] De Lopes - . - - - - - . - - - „ 11.
+[recto] d=o. „ den boekhoud:r Sigus Moor bew.
+[recto] door den Chirurgijn Arentsz. „ 3. –. —
+[recto] d=o: „ de wed: Boursax. - - - - - - - - - - - „ 4. 1. —
+[recto] d=o „ Lourens Perera. . . . . . . . . „ „ 4. 1 —
+[recto] d=o „ de wed: Schokman. . . . . . . . . . „ 8. —. —
+[recto] „ 3. 1. 1
+== NL-HaNA_1.04.02_2222_0083 | #83 | sides: recto,verso | lines: 75
+[recto] 501.
+[verso] Ligtester=s
+[verso] voor de Woning van den boekhoud:r E: de Moor - - - - „ „ 4 1 —
+[verso] d=o: Iacob Cornelisz: . „ 4 1—
+[verso] – . - - - - - „. . . „
+[verso] „. . „ d=o: Magnus Schot - . . . „ 9. 1.
+[verso] de wed: de haan...
+[verso] „ quickelenburg. . . . . . „ 4. 1.
+[verso] „wijnbergen. . . . . . . . . . . „ 4. 1.
+[verso] „verbrugge bew: door de
+[verso] Iongedogters Barvoets - - . „ 4. 1.
+[verso] „boekhoud. r Sigus Moor - - - - - „ 4. 1
+[verso] den assistent L:d arentsz:
+[verso] Schokman. . . . . . . . . . . .
+[verso] „ boekhoud:r a:n thielman. . „ 6.
+[verso] d — : - - - „ . „ gewesen stuurman arend
+[verso] Pietersz:..
+[verso] . - - - - „ 4. 1. —
+[recto] voor 's Comp:s woning bewoond door den school„
+[recto] „meester Leendert Iacobsz: - . . .
+[recto] de schagherij-- - - --
+[recto] de woning van den stadsherbergier h:r Rumond . . „ 4. — 2.
+[recto] d=o. . . „ de wed:e andriesz:. . . . . . . . . . . . „ 4. — 2.
+[recto] d=o . . . „ don Corporaal frans. . . . . . . . . . . . . 4. 2.
+[recto] d=o . . . „. . francina pieris. . . . . . . . . . . „ 4. —.
+[recto] . d=o:. . . „ den Capitain der Mahabadde D: P:
+[recto] Beekman bew: door de wed: lacroix„ 10. —
+[recto] d=o. . „ de wed: de Moor - - - _ - - - - - - - - - „ 7. — 1.
+[recto] d o. „ den boekhoud: M:s Schot - - - - - - „ 5. 1. 2.
+[recto] - - - - - - - - - - - - - - . „ 8. 1. 1.
+[recto] „ 's Comp:s woning bew: door den Capit: dE: 9: Kalden„ 32. – 2
+[recto] d=o. . „. . . . . . . . . „ . . „ scret: d: E. R: Cau. . . „ 27. 1. 1.
+[recto] . . . . „ „ Eerw: pradik: 2: Conijn. . . „ 26. —. —
+[recto] d=o. . . „. .
+[recto] „„heerhooft administrat:r
+[recto] . do. . . . „
+[recto] I: B: Vernatti. . . . . „ 39 — 1.
+[recto] „. „ berw: pradik: I: P: Wet„
+[recto] „zelius. . . . . . . . „ 19. 1. 1.
+[recto] Eerste pakhuij sm: d' E.
+[recto] W: B: albinus - - . . „ 19. 11.
+[recto] Eerw: predik: h: sakens „ 19. 1. 1.
+[recto] „fiscaal d' E: Joon de
+[recto] Mauregnault. „ 39. – 1.
+[recto] „ de woning van de Wed: ander Son. . . . . . . . „ 24. 1. —
+[recto] den pattangat: D:o Pieris. . . . . . „ 5. 1. —.
+[recto] „ de wed: lacroix bew: door den
+[recto] assistent Courtonne - - - - - -„ 5. 1. —
+[recto] „den geweldiger Sijmon Jansz. „ 5. 1—
+[recto] d=o:.„
+[recto] do
+[recto] do„
+[recto] . . . . do
+[verso] d=o: gehorende aan de boedel van den over„
+[verso] „leden baas hans visser bewoond
+[verso] werdende door den boekh:r looman „ 6. —
+[verso] d=o van den boekhoud:r I: van derlee bew.
+[verso] door den Vaandrig frankena. . . . „ 5.—
+[verso] 's Comp:s woning bew:t werdende door den luij„
+[verso] tenant van de artillerij f: W: Neher. „ 11. 1. —
+[verso] ing van den ontfanger van 'sComp:s domei„
+[verso] nen Louis toussain - - - - - „ 5. — 2
+[verso] d: van de Wed: Jennex bewoond werden„
+[verso] de door den assistent h:r aldersz: 5. 1. 2.
+[verso] d=o: „ den Capitain luijten: D:k Blankert „ 11. — 2.
+[verso] d-o. „. . „ vrijgegeven slaar Cicero. . . . . . „ 5. 1. 2.
+[verso] d=o. „. . „ Corporaal Ian Carlier. . . . . „ 5. 1. 2.
+[verso] d=o: „ douahelena. . . . . . . . . . - „ 5. 12
+[verso] „ den Corporaal Ian Carlier bew:t
+[verso] door den gewesen administrat:s tot tutucc:
+[verso] g:t helmond. - - - - - - - - - - - - - - - - „ 5: 1. 2.
+[verso] - - - - - „ 7.
+[recto] „
+[recto] ligte stver
+[recto] saij: d:
+== NL-HaNA_1.04.02_2222_0084 | #84 | sides: recto,verso | lines: 64
+[recto] 502.
+[recto] ligte stver:
+[recto] M:
+[verso] voor de woning van den boekhoud:r W: v: der veen
+[verso] bewoont door den secret:s der
+[verso] Iustitie I:s Montanus „ 5. 1.
+[verso] „ sergeant Dender. . . . . . . . „„ 7. –.
+[verso] de wed: Sibertsz: - - - - - - - - „ 4. 1. —
+[verso] „den Vrijman h:r Iacolijn bew:t
+[verso] door den Corpor: helmke. . . . . „ 4. 1.
+[verso] den sergeant hend:k straatmulder „ 4. 1.—
+[verso] 's Comp:s woning bewoond door den Luijten:t
+[verso] Carel Verrijs.
+[verso] do
+[verso] d=o bewoond door den lantmeter,
+[verso] vaandrig en de Cipier - - - - - „ 19. 1. 1
+[verso] „ de woning van den soldaat hend:k visser - - - - - - „ 2. 1. 1
+[verso] - d=o - - - „ Louwis Stijn. . . . . . . . . . . „ 21. 1.
+[verso] d-o. . . . „ Clara feber - - - _ - - - - - - - - - - „ 21. 1.
+[verso] d=o. . . „ den Sergeant Lambert. . . . . . . . „ 2. 1. 1.
+[verso] . d_o. . . „ Ioan dias. - - . . . . . . . . . . . . . „ 2. 1. 1
+[verso] d=o van anthonij Coerts - - - - - - - „ 21. 1
+[verso] gehorende aan de boedel van den over„
+[verso] d=o:
+[verso] leden baas hans Visser . . „ 3. 1. 1.
+[verso] van den baonmeester Dirk
+[verso] —
+[recto] voor de woning van anthonij de Pina - - - - - . . . „ „ 3.
+[recto] d=o. . . „ den gegagieerden baas van de wa„
+[recto] „pencamer gabriel Schade „ 3. 1. —
+[recto] „ assistent hendrik Schade - - - „ 3. 1. —
+[recto] d=o
+[recto] „
+[recto] „ Casquaal Rodrigo - - - - - - . - „ 3. 1. —
+[recto] d=: „ pieter de Nek. . . . . . . . . . . . . . . „ 3. 1. —
+[recto] d=o „ den Serg:t Ian amoer. - . . . . . . . „ 3. 1.—
+[recto] d=o. . „ anthonij Iansz:. . . . . . . . . „ 3. 1. —
+[recto] d=o: - - „ de wed: anderson. . . . . . . . . „ 3. 1. —
+[recto] „ gerrit Gerritsen.
+[recto] do
+[recto] d=o de wed:e van Leeuwen . . . . „ 5. 1. —
+[recto] A:
+[recto] d=o van den assistent Iacob: Bothe. . „ 2. 1. 1
+[recto] d=o . - „ Simon Coere _ _ _ _ _ _ _ _ - - „ 2. 1. 1.
+[recto] d=o: „ den boekhouder S: Moor. - - - - - - „ 2. 1. 1.
+[recto] - - - - - - . „ 2. 1. 1.
+[recto] d=o: „ Ioanna alvis
+[recto] d=o. „ andries willemsz: - - - . - „ 2. 1. 1
+[recto] d=o: „ ducrooij - - - - - - - - - - - - - „ 2. 1. 1.
+[recto] d=o: - „ de wed: welbuijs. - . - . - - - - „ 2. 11.
+[recto] d=o . . „ Ian Bruske - - - - - - - - - - - - - „ 2. 1.
+[recto] d=o „ Martin Ritser - - - - - - - - - „ . . .
+[recto] . . d=o: van dewed: van Leeuwen. . . . . . . . „ 3. —. 1
+[recto] d=o . „ . - . . „. . . . „ harmen Claasz: „ 4. 1. 2
+[recto] d=o: „ fredrik ditker. . . . . . . . . . . „ 2 1. —
+[recto] d=o. „ den sergeant hommel - - - - - - - - „ 2. 1. —
+[recto] d=o. . „ Ian Spengeling. . . . . . . . . . „ 2. 1. —
+[recto] „. . . . d=o: „ den assistent Iacob Boon. . . . . „ 2. 1. —
+[verso] de Vraat - - - - - - - - . . „ 3. 1. 1
+[verso] R:
+[verso] - - „ 6. 11
+[recto] . .
+[recto] - - - - „ 3. 1.—
+[recto] tan: d:
+== NL-HaNA_1.04.02_2222_0085 | #85 | sides: recto,verso | lines: 49
+[recto] 503.
+[verso] legtg lt
+[verso] voor de woning van den boekhoud:r P: de Kretser. „ 3. m.
+[verso] „. . . d=o . . . . „ de wed: van harmen Claasz: . . „ 2. 1. —.
+[verso] d=o. . . . . „ den portier Hendrik theunder. . . „ 5. — 2.
+[verso] d=o van Andries pieris. . . . . . . . . . . . . . „ 2 6. 1. 1
+[verso] 's Comp:s woning bewoond werdende door den
+[verso] baas metselaar hend:k klijnpen„
+[verso] „nink. . . . . . . . . . . . . . . . . . . . . . . . - „ 2. 1. 1.
+[verso] En op dat dese onse expresse Beveelen
+[verso] te betee mogten g'observeert en nageko„
+[verso] „men werden Delasten wij den voorsch:
+[verso] officier, de Wijkmeesters deser steede
+[verso] en ged:t Karreman op deselve nauw
+[verso] Reguart te nemen en doen nemen, en
+[verso] de gene die Bevonden werd Contrarie
+[verso] deselve te hebben gedaan, ten eersten
+[verso] aantegeven, en sonder eenige diffimu¬
+[verso] „latie of oogluijking daar mede te han„
+[verso] „delen na den inhoude deses, alzo wij
+[verso] al 't selve tot welstand deser stede
+[verso] en de ingesetenen van dien, sodanig
+[verso] hebben Bevonden te behoren. —
+[verso] ƒ
+[verso] Aldus gegeven in't Casteel
+[recto] Colombo den 30:' april ao 1732.
+[recto] /:onderstond:/ ter ordonnantie van den wel
+[recto] Edelen agtb: heere Raad ordinaris
+[recto] van India en Ceilons gouverneur
+[recto] Stephanus versluijs, en
+[recto] Raad /:was getak:t/ R: Cau p:l secrot:s
+[recto] Aen adverteert en Laat
+[recto] een Igelijk bij desen weten
+[recto] hoe men nu een geruijmen tijd her„
+[recto] waarts in weerwil der goede gestel„
+[recto] „de ordres. heeft ondervonden dat ver„
+[recto] scheide Inlanderen Bestaande in
+[recto] singaleesen, Mallabaaren, Chittijs
+[recto] Mooren en andere vrijgeboorne
+[recto] ofte vrijgegevene Mitsgaders ook
+[recto] slaven onser ingesetenen sig niet
+[recto] hebben ontsien buijten de Rotter„
+[recto] „dammer poort alhier in 's Comp:s
+[recto] slaaven quartier van langsamer„
+[recto] „hand uijt eijge privehun ter neder
+[recto] te setten en also onder gem: 'sComp:s
+[verso] Colombo
+[recto] lijfeijgenen
+[verso] 2:
+== NL-HaNA_1.04.02_2222_0086 | #86 | sides: recto,verso | lines: 47
+[recto] 504.
+[verso] lijfeijgene te nestelen, waar door sij
+[verso] met eenen d'occasie aan de hand
+[verso] krijgen tot 't pleegen van alderhan
+[verso] „de dieverijen en onbehoorlijkheden,
+[verso] dewelke grootelix strecken tot na„
+[verso] deel van onse inwoonderen en ook
+[verso] tot prejuditie van deselve lijfeijgene
+[verso] des wij hierinne so veel Mogelijk
+[verso] willende voorsien, goedgevonden en
+[verso] Besloten hebben tot voorkominge
+[verso] van alle te dugtene onheilen bij de„
+[verso] sen aan alle vrijgeboorne Singale„
+[verso] „sen, Mallabaaren, Chittijs, Moo„
+[verso] „ren en andere libertijnen, mitsg=s
+[verso] aan alle particuliere slaven, van
+[verso] wie deselve ook souden mogen we„
+[verso] „sen die hun Jegenwoordig in gedagte
+[verso] 's. Comp:s slave quartier mogten—
+[verso] onthouden wel Expresselik te ge„
+[verso] „lasten na de publicatie deser bil„
+[verso] „liette, 't selve ten eersten t'abandon„
+[verso] neeren, en alle de kussen die zij l:
+[recto] tot derselver inwoningen aldaar mog„
+[recto] ten hebben opgeslagen binnen den tijd
+[recto] van agt dagen te laten afbreken,
+[recto] mitsgaders sig aan den Z: dessave
+[recto] alhier te addresseeren die bij desen gequa¬
+[recto] lificeert werd een ider na sijn geslagt
+[recto] en Conditie andere wijken en gronden
+[recto] tot een verblijf plaats op onse approba„
+[recto] „tie aan te wijsen en toetevoegen, sul„
+[recto] „lende bij aldien imand door onwillig„
+[recto] „heid of nalatigheit dese onse ordres
+[recto] niet prompt komt te observeeren,
+[recto] of bij nagt en ontijden in't voorm:
+[recto] slave quartier gevonden werd, als een
+[recto] Contraventeur van dien sonder
+[recto] eenige verschooninge of aansien van
+[recto] persoon, ingevalle denselven een
+[recto] vrijgebooren of ander libertijn is,
+[recto] strengelijk werden gechiambokt en
+[recto] voor den tijd van drie Jaaren aan
+[recto] 's Comp:s gemeene werken ten arbeid
+[recto] gesteld, en een slaar sijnde, nog daar
+[verso] tot
+[recto] en
+== NL-HaNA_1.04.02_2222_0087 | #87 | sides: recto,verso | lines: 45
+[recto] 505.
+[verso] en boven voor d'E: Comp: geconfis„
+[verso] „queert werden; ordonneerende den
+[verso] E: dessave op de prompte uijtvoeringe
+[verso] deser onser beveelen naauwkeurig
+[verso] te doen letten en tegen d'overtreeders
+[verso] in voege voorm: te procedeeren.
+[verso] Waar en boven wij nog hebben goed„
+[verso] gevonden bij desen te renoveeren 't
+[verso] gestatueerde bij het placcaat van
+[verso] 11:' Iunij 1704. mede brengende dat
+[verso] alle vrijgeboorne inlandse vrouws
+[verso] personen strengelijk werden verbo„
+[verso] „den haar als concubijnen of bijslaap„
+[verso] „sters van 's Comp:s lijfeijgene Ion„
+[verso] „gens te laten gebruijken, Maar ter
+[verso] Contrarie haar te eenemaal daar
+[verso] van t'onthouden, op pane da't een
+[verso] vrije Meid agterhaald werdende
+[verso] tegens dit verbod gedaan te hebben,
+[verso] de sulket hair sal afgesneden,
+[verso] Voorts in de ketting geklonken en
+[recto] drie Iaaren aan 's Comp: gemene
+[recto] „werken ten arbeid gesteld, Mitsg:s
+[recto] 't kind dat uijt gedagte onwettig bij„
+[recto] „slapen gebooren werd, schoon de
+[recto] vrugt de buijk moet volgen des niet
+[recto] te min voor een 's Comp:s slaav sal
+[recto] verklaard werden; met Expresse be„
+[recto] geerte dat den opgem: Z: dessave en
+[recto] den opsiender van 's Comp:s gemene
+[recto] werken alhier daar tegen sullen
+[recto] hebben te vigileeren, op dat een ider
+[recto] der overtreeders soude konnen
+[recto] wegdragen hun wel verdiende Straf¬
+[recto] „se; also wij 't een en ander ten
+[recto] dienste onser heeren principalen
+[recto] sodanig hebben bevenden te behooren.
+[recto] Gegeven in't Casteel Colom„
+[recto] „bo den 30:' April a:o 1732.
+[recto] /:onderstond:/ ter ordonnantie van den
+[recto] wel Edelen agtb: heer Raad ordi„
+[recto] naris van India en Ceilons
+[verso] drie
+[recto] gouverneur
+== NL-HaNA_1.04.02_2222_0088 | #88 | sides: recto,verso | lines: 45
+[recto] 506.
+[verso] gouverneur Stephanus
+[verso] Versluijs en Raad /:was getek:t
+[verso] R: Cau p=l: Secretaris.
+[verso] De trinconomaalse administratie door
+[verso] het overleiden van den ondercoopman
+[verso] Cornelis Comans de Vriest vacant
+[verso] geraakt sijnde en als nu weder met een
+[verso] ander bequaam persoon dienende vervult
+[verso] te werden so is op de propositie van den
+[verso] heer gouverneur tot administrateur
+[verso] ter gem: plaatse eenpariglijk verko„
+[verso] „ren en aangesteld den ondercoopman en
+[verso] soldij overdrager alhier Willem
+[verso] Cruijce, die tot het waarnemen van
+[verso] dat ampt de vereijschte faculteiten is
+[verso] Besittende, in wiens plaatse ook al
+[verso] verder verstaan is tot soldij overdrager
+[verso] alhier te Nomineeren den Tutucorijn„
+[verso] „sen lijwatier en soldij boekhouder
+[verso] Jan van der Lee, die reets sedert
+[verso] den Iare 1724. tot in het Iongst
+[recto] gepasseerde Iaar op het voorsch: Comptoir
+[recto] als assistent sijnen dienst gedaan en door„
+[recto] „gaans goedgenoegen gegeven heeft; Wijders
+[recto] wierd g'arresteert in steede van den
+[recto] vaandrig Ioannes de Lacroix die in
+[recto] a:o pass=o om sijne debauche van Batti„
+[recto] „caloa op ontboden, en vervolgens als
+[recto] onbequaam na Nederland versonden
+[recto] is, Mitsgaders in nog eene vacante
+[recto] plaats tot Commandeerende sergean„
+[recto] „ten aante stellen de Sergeanten Jan
+[recto] Smith en Jan willem harmensz
+[recto] waar door men dan ook in staat is
+[recto] geraakt de wagt posten van dit
+[recto] Casteel en in de stad na de ordre onder
+[recto] haare officieren te kunnen verdeelen.
+[recto] Sedert een geruijmen tijt herwaarts
+[recto] den heer gouverneur diverse Malen
+[recto] te voren gekomen sijnde hoe den pro„
+[recto] tempore gaalsen fiscaal quirijn
+[recto] van Bicsum zo door eijge vuijlaar„
+[verso] gepasseerde
+[recto] „digheid
+== NL-HaNA_1.04.02_2222_0089 | #89 | sides: recto,verso | lines: 47
+[recto] 507.
+[verso] „digheit als op de permitieuse instigati„
+[verso] en van den wel bekenden Commandeur
+[verso] van domburgh sig seer ergerlijk heeft
+[verso] komen te gedragen, met de arme ge„
+[verso] „meente te onderdrucken, en diverse
+[verso] persoonen tegen alle regt en reeden te
+[verso] beknevelen en verongelijken selfs in
+[verso] gevallen waar in zij in't minst nog
+[verso] meest niet mogten verkort werden,
+[verso] sonder dat denselven niet tegenstaan„
+[verso] „de ter ordre en uijt name van sijn Ed:
+[verso] differente reisen van ter sijde, daar
+[verso] over gereprocheert, en vermaand is ge„
+[verso] „worden, van diergelijke onhebbelijke
+[verso] gedoentens aftesien en sijn ampt in
+[verso] alle redelijkheit te fungeeren, daar
+[verso] van aftebrengen is geweest maar ter
+[verso] Contrarie daar in is blijven volharden
+[verso] in so verre dat denselven sig deser da„
+[verso] „gen nog heeft derven Emancipeeren,
+[verso] thien vaten Bier die voor den gaalsen
+[verso] gepreviligeerden stadsherbergier in
+[recto] name Jacobus van der horst
+[recto] van hier aldaar waren overgebragt
+[recto] aan te slaan, en deselve niet eerder
+[recto] dan na dat dien man in weerwil
+[recto] van desselvs regt met hem fiscaal
+[recto] g'accordeert was, te reloxeeren, in
+[recto] welk zuijlaardig gedoente, den
+[recto] bovengen: Commandeur nog heeft
+[recto] kunnen goedvinden gedagte fiscaal
+[recto] te stijven en hem herbergier te
+[recto] recommandeeren, die questi met
+[recto] de fiscaal in der minne afte maken,
+[recto] in steede dat hij die door sijn gesag
+[recto] hadde behoren te doen afgeven en
+[recto] voorsch: herbergier in sijn Regt
+[recto] te Maintineeren; te meer door dien
+[recto] het denselven niet onbekend konde
+[recto] wesen dat de Vaderlandse dranken
+[recto] door onse heeren en Meesters aan de
+[recto] uijtvarende scheeps-officieren selfs
+[recto] gepermitteerd worden na dese ge„
+[recto] westen tot een seker getal over te voe¬
+[verso] name
+[recto] „ren
+== NL-HaNA_1.04.02_2222_0090 | #90 | sides: recto,verso | lines: 47
+[recto] 508.
+[verso] „ren, en dienvolgende gene Contrabande
+[verso] sijn, ongerekend nog dat d' E: Comp:
+[verso] hare dranken alhier somtijts Bij
+[verso] publicque venditie verkoopt, en
+[verso] uijt dien hoofde almede geen Confisca„
+[verso] „tie kunnen subject wesen, hebben„
+[verso] „de het gem: Commandeur verder nog
+[verso] gelust na sijne Canailleuse gewoon„
+[verso] „ten gem: herbergier op den ontfangst
+[verso] onser Missive van 2. Courant, waar
+[verso] bij de relaxatie der vorengem: thien
+[verso] vater Bier door ons g'ordonneert
+[verso] was, met verscheide brutale Ex„
+[verso] „pressien te gemoet te gaan, en hem
+[verso] te bedrijgen door sijne oppassers met
+[verso] rotting slagen uijt sijn huijs te sul„
+[verso] „len laten Boenen, en hem nog
+[verso] daar en boven te sullen ruineeren,
+[verso] tot welk laaste 't ook genoegsaam
+[verso] bleek den gantschen toeleg van
+[verso] voorm: Commandeur en sijnen Cis„
+[verso] „caal geweest is, alzo (:na w' alhier
+[recto] g'informeerd sijn /(door den laasten alle
+[recto] de dranken die door het schip Jacoba
+[recto] aldaar waren aangebragt ter quanti„
+[recto] „teit van 46. vaten bier en wijn, Mitsg:rs
+[recto] 57. kelders brandewijn, Ienever en
+[recto] olijven hebbende opgekogt, door het aan„
+[recto] „slaan der voorsch: tien vaten Bier
+[recto] gem: gepreviligeerden herbergier
+[recto] hebben tragten te noodsaken geene
+[recto] andere dranken in sijne herberge te
+[recto] schenken dan die van haar tot soda„
+[recto] nige prijs als zij selfs daar op
+[recto] soude hebben kunnen stellen
+[recto] gekogt waren, sijnde door den predi„
+[recto] „kant weijerman bij sekeren
+[recto] brief ook niet wijnig gedoleerd over
+[recto] 't gevaar dat den selven gelopen
+[recto] heeft van almede een vaatje bier
+[recto] voor sijn eerw: van Colombo op
+[recto] gale aangekomen door den fiscaal
+[recto] van Biesum te sien aanspre„
+[recto] „ken, waaromme den heer gouverneur
+[verso] g'informeerd
+[recto] vermeende
+== NL-HaNA_1.04.02_2222_0091 | #91 | sides: recto,verso | lines: 46
+[recto] 509
+[verso] vermeende dat tegens diergelijke en nog
+[verso] meer andere van te vooren gepleegde
+[verso] extorsien en exagitatien der onderdanen
+[verso] en arme gemeente diende voorsien, en
+[verso] ged:te onbekonnen fiscaal tot een Exem¬
+[verso] „pel van andere over sijne petulante,
+[verso] gedoentens gecorrigeerd te werden, ten
+[verso] welken eijnde welgem: sijn Edele
+[verso] gevoeglijk oordeelde om ged:te fiscaal uijt
+[verso] sijn voorsch: ampt in een ander officie
+[verso] te stellen, waar in hij niet in staat
+[verso] soude wesen sijne knevelsieken-aard
+[verso] te voldoen ofte imand der ingesetene
+[verso] eenige schade toetebrengen; waar toe
+[verso] de soldij Boekhoud:s plaatse op gale
+[verso] d' alder bequaamste g'oordeelt zijnde,
+[verso] zo is met eenparigheid besloten
+[verso] meerm: van Biesum uijt de
+[verso] amsiten van fiscaal en Cassier te
+[verso] stellen en tot soldij Boekhouder van
+[verso] gale te nomineeren, mitsg=s in
+[verso] desselvs plaatse tot fiscaal En
+[recto] Cassier aante stellen den ondercoopman
+[recto] en presenten soldij Boekhouder
+[recto] Adriaan Lijdecker, die aldaar
+[recto] reets sedert den jare 1729. voorm:
+[recto] dienst waargenomen, en van Wien
+[recto] men tot nog niets anders dan goede
+[recto] getuijgenisse gehoord heeft, zo wel
+[recto] omtrent sijnen iver in den dienst der
+[recto] E: Comp: als zijne pacefiquen en
+[recto] vreedsamewaart, ordentelik gedrag
+[recto] en ommegang, over wien men dan ook
+[recto] niet te verwagten had sodanige klag„
+[recto] ten, en gedurige doleantien der inge„
+[recto] „setenen over extorsien en onderdruc„
+[recto] „kingen, die sedert een langen tijd onder
+[recto] het Bestier en door het bedrijv van
+[recto] den presenten Commandeur Van
+[recto] domburgh op een extraordinaire
+[recto] wijse tot gale in swang gegaan hebben
+[recto] Na verhandeling van al het boven„
+[recto] staande wierd door den heer gouver„
+[verso] Cassier
+[recto] neur
+== NL-HaNA_1.04.02_2222_0092 | #92 | sides: recto,verso | lines: 47
+[recto] 510
+[verso] „neur nog ter vergadering g'exhibeerd
+[verso] d'ondervolgende resolutie op het schip
+[verso] de Iacoba in dato 4:' xber: d' a=o pass=o
+[verso] genomen, waar bij door den scheeps„
+[verso] „raad van dien bodem beslooten is den
+[verso] opperchirurgijn Jan verbrugge om
+[verso] sijne frenesien en ijlhoofdigheid in
+[verso] een Besloten plaats te houden zo
+[verso] als den selven ook sodanig alhier
+[verso] aangekomen en door welgem: zijn
+[verso] Edele om reeden voorsch: van dien
+[verso] Bodem alhier aan de wal geligt en
+[verso] aan den opperchirurgijn deses Cas„
+[verso] „teels Jan philibert, overgege„
+[verso] „ven is om t'ervaren of dien man
+[verso] waarlik sinneloos en Buijten staat
+[verso] tot den dienst der Z: Comp: was,
+[verso] ten welken eijnde ged=te philibert
+[verso] voorsch: verbrugge dan ook in sijn
+[verso] huijs genomen en tot heden toe ge„
+[verso] „houden mitsgaders na luijd eener
+[verso] verklaring op den 18:' deser door den
+[recto] selven en sijnen tweeden Meester
+[recto] Ian deuts alhier ter secretarije van
+[recto] politie verleend en hier onder g'insereerd
+[recto] so door discoursen als dagelijksen om„
+[recto] „megang ondervonden hebbende den sel„
+[recto] „ven niet wel ten eenemaal sinne„
+[recto] loos maar seer kort van Memorie
+[recto] en daar door Buijten staat te sijn
+[recto] om desselvs dienst na behoren te
+[recto] kunnen waarnemen of zijn per„
+[recto] soon en goederen regeeren of admi¬
+[recto] „nistreeren, so betuijgde den heer
+[recto] gouverneur van Mening te wesen
+[recto] dat die man als buijten staat om
+[recto] sig selven te regeeren Behoorde
+[recto] gesteld te werden, onder de Curatee„
+[recto] „le van d'eerw: weesmeesteren al„
+[recto] hier tot tijd en wijle er occasie sal
+[recto] gevonden werden om deselve met een
+[recto] der scheepen van de aanstaande Re„
+[recto] „tour besending als impotent na
+[recto] Nederland terug te kunnen senden,
+[verso] Selven.
+[recto] 't geen
+== NL-HaNA_1.04.02_2222_0093 | #93 | sides: recto,verso | lines: 45
+[recto] 511.
+[verso] 't geen door de gesamentlijke leeden
+[verso] mede sodanig (:excepto den fiscaal
+[verso] Joan de Mauregnault die als
+[verso] president van de weeskamer in desen
+[verso] g'excuseerd wierd:/ nodig geoordeelt
+[verso] en teffens besloten wierd gemelte
+[verso] verbrugge onder de Curateele van
+[verso] haar Eerw: Meerm: waar onder hij
+[verso] reets bij provisie gestelt was, te
+[verso] laten verblijven, om door haar met
+[verso] den selven na hare instructie gehan„
+[verso] „delt te werden, voorts gem: verbrug„
+[verso] „ge bij eerste occasie als impotent na
+[verso] Nederland te versenden
+[verso] Resolutie genomen
+[verso] op't schip De Iacoba in
+[verso] dato 4:' December ao 1731.
+[verso] Praesent
+[verso] Den schipper Pieter van Hengelen
+[verso] „ ondercoopman Ian Charon
+[verso] „ opperstuurman adriaan de Ruijter
+[recto] den onderstuurman Cornelis Croon
+[recto] „ Bootsman Pieter Iansz: vrorst en
+[recto] „constabel Ian parelsz:
+[recto] Aangesien de tweede Meester Jan
+[recto] hendrik s: en den Constabel
+[recto] Ian parelsz: mede lid in dese,
+[recto] diverse male aan den schipper
+[recto] hebben te kennen gegeven, hoe sig
+[recto] den opperchirurgijn Jan Verbrug¬
+[recto] „gen, gedurende de reise door een
+[recto] soort van frencsie of ijlhoofdig„
+[recto] „heid gedreven haarlieden niet
+[recto] alleen op den gantsch onbillicke
+[recto] wijse hadde Bejegent E: uijtge„
+[recto] scholden, maar ook daar en boven
+[recto] verscheide keeren getragt om uijt
+[recto] de Constabels Camer over Boord
+[recto] te springen, 't welk zij so na
+[recto] mogelijk hebben belet en voorge„
+[recto] „komen gehad, dog vermits die
+[recto] fantasien nog niet overgingen
+[verso] den
+[recto] en
+== NL-HaNA_1.04.02_2222_0094 | #94 | sides: recto,verso | lines: 45
+[recto] 512.
+[verso] en deselve bij hem hoe langer hoe
+[verso] meer toenomen, zo leijde den schip
+[verso] „per aan de gesamentlijke leeden in
+[verso] overweging, of het niet raadsaam
+[verso] soude sijn, om ged=te opperchirurgijn
+[verso] tot voorcominge van alle te dugte
+[verso] „ne ongelucken in een Beslote
+[verso] plaats te houden, en ondertusschen
+[verso] derselver goederen Behoorlijk te
+[verso] laten inventariseeren, welk een
+[verso] en ander bij de gesamentlijke leeden
+[verso] in Serieuse opmerking genomen
+[verso] sijnde, goedgevonden wierd, 't selve
+[verso] sodanig te laten effect sorteeren.
+[verso] Aldus gedaan & geresol„
+[verso] „veert Binnen Boort van 't schip
+[verso] De Jacoba, ten dage, maand en
+[verso] Iare voorsch: /:was getekend:/ Pieter
+[verso] van Bengelen, Jean Charron
+[verso] Jun=r. , adriaan de Ruijter,
+[verso] Cornlis Croon, pieter
+[recto] Iansz: vrorst, en Ian parelsz:
+[recto] /:in margine stond:/ ter presentie van
+[recto] Myj /:getek:/ Jean Charron Jun:r
+[recto] Heden den 18e: april Ao 1732
+[recto] Compareerde voor mij Roeland
+[recto] Cau p:l secretaris deses Ceilonsen
+[recto] gouvernements present de Naargen:
+[recto] getuijgen d' E: Ian philibert
+[recto] opperchirurgijn en Jan Deuits
+[recto] tweede Meester vant' nederlands
+[recto] hospitaal alhier, dewelke tesamen
+[recto] en een ider van haar in't Bijsonder
+[recto] tot voorstand der waarheid ver„
+[recto] „klaarden waar en waaragtig te
+[recto] wesen dat den oppermeester van't
+[recto] schip de Jacoba in Name Jan
+[recto] verbrugge in de Maand Maart
+[recto] Iongstleeden in voorm: hospitaal
+[recto] is gesonden geworden, omme
+[recto] aldaar te ondersoeken of den
+[recto] selven volgens het voorgeeven der
+[verso] Jansz:
+[recto] scheeps.
+== NL-HaNA_1.04.02_2222_0095 | #95 | sides: recto,verso | lines: 44
+[recto] 513.
+[verso] scheepsoverheden van ged=te Bodem
+[verso] waarlik sinneloos en buijten
+[verso] staat tot 't excerceeren van sijn
+[verso] voorm: dienst mogte wesen, verkla¬
+[verso] rende de Comparanten over sulx dat
+[verso] den eersten Comparant hem ten
+[verso] dien eijnde in sijn eijgen huijs heeft
+[verso] genomen en nevens den tweeden
+[verso] Compar: door dagelijkse ommegang
+[verso] en discoursen genoegsaam te heb„
+[verso] „ben ondervonden, dat den selven
+[verso] niet t'eenemaal Sinneloos, maar
+[verso] wel heel kort van Memorie, en
+[verso] daar door buijten staat is, om des„
+[verso] „selvs ampt van opperchirurgijn na
+[verso] behoren te konnen waarnemen,
+[verso] ofte sijn persoon en goederen te
+[verso] Regeeren.
+[verso] Eijndigende hier mede d'attestan„
+[verso] „ten hunne gegevene verklaringe,
+[verso] die sij Betuijgen de opregte en
+[recto] zuijvere waarheid te behelsen, geven¬
+[recto] „de voor reeden van wetenschap als
+[recto] in den text, Bereid Blijvende over¬
+[recto] sulx het gedeposeerde nader met
+[recto] solemneelen Eede te bevestigen.
+[recto] Aldus gedaan ende gepasseert
+[recto] in't Casteel Colombo, ten dage
+[recto] Maand en Jaare voorsch: ter pre¬
+[recto] „sentie van Engelbert De
+[recto] Moor en Willem Eberstijn,
+[recto] Clercquen als getuijgen, /:was getek
+[recto] Jan Rilibert, en Ian
+[recto] derts /:in margine:/ ons present
+[recto] /:was getekend:/ F: D: Moor en
+[recto] W: Iberstein /:lager:/ In
+[recto] kennisse van mij /:was getekend/
+[recto] R: Cau p:lo secretaris /:onderstond:/
+[recto] accordeert /:getek:t/ R: Cau P=r
+[recto] Secretaris.
+[recto] Laastelijk is nog om de Cours van
+[verso] Zuijvere
+[recto] Justitie
+== NL-HaNA_1.04.02_2222_0096 | #96 | sides: recto,verso | lines: 46
+[recto] 514.
+[verso] Justitie en den Voortgang van Sommige
+[verso] Executien door de siekte van den E:
+[verso] looft administrateur Joan Ben¬
+[verso] „jamin Vernatti als president
+[verso] van den Raad van Iustitie en de ab„
+[verso] sentie van twee leeden als den Coop
+[verso] man gerrit Valk en provisio„
+[verso] neel luijtenant Harmanus
+[verso] Ladenius, waar van den eersten
+[verso] in't land en den andere na de Paarl„
+[verso] „visserije in Commissie sijn, niet te
+[verso] stremmen maar na behooren te
+[verso] „laten voortgaan verstaan den E:
+[verso] Capitain Johan Wilhelm
+[verso] Schneeten den Vaandrig Nico„
+[verso] laas van Leeuwen t' assumeeren
+[verso] tot leeden in die vergadering, tot tijd
+[verso] en wijle gem: Raad van Iustitie
+[verso] so door de reconvalessatie van den
+[verso] voorm: president als 'tretour der
+[verso] evengem: twee leeden, weder Compleet
+[verso] met de permanente Leeden sal
+[recto] voorsien wesen.
+[recto] Aldus gedaan en Geresolveerd
+[recto] in 't Casteel Colombo ten Dage,
+[recto] Maand en Iaare voorsch: /:was getek:d/
+[recto] S: versluijs, J: W: Hiltebrand, —
+[recto] D: Mauregnault,
+[recto] 9: kalden,
+[recto] J: E: van Meijlendonk, en
+[recto] J: W: Schnee.,
+[recto] W: B: Albinus /:ter zeijde stond:/ Mij present
+[recto] /:was geteekent:/ R: cau, P:l secretaris. —
+[recto] Dingsdag den 6: Maij
+[recto] Present
+[recto] Ao:
+[recto] den wel Ed:e Heer gouverneur Stephanus Der sluijs,
+[recto] Jodocus wilhelmi Hiltebrand,
+[recto] dessave
+[recto] Gerrit Kalden, en
+[recto] Capitain
+[recto] „ prov: Eerste pakhuijsm:r Willem Bernh:s albinus.
+[recto] Zijnde de verdere leeden g'eacu¬
+[verso] voorsien
+[recto] seert.
+== NL-HaNA_1.04.02_2222_0097 | #97 | sides: recto,verso | lines: 45
+[recto] 515.
+[verso] „seert als sessie hebbende in
+[verso] Rade van Iustitie.
+[recto] „gens, den eersten over gequalificeerde diverij
+[recto] en diverse seer moordadige actien, en
+[recto] den tweeden over 't aanhouden en herbergen
+[recto] van een slaaf welke sig aan sodanige
+[recto] dieverije hadde schuldig gemaakt, 't par„
+[recto] „ticipeeren aan de gestolene goederen,
+[recto] gesmeeden toeleg om desen dief van
+[recto] hier na Candia te vervoeren, en de
+[recto] overgave van een Mes aan denselven,
+[recto] om daar meede geweldadiglijk afte
+[recto] keeren de gene die hem wilden opvatten,
+[recto] mitsgaders den laastgenoemde over
+[recto] schijnbare mede wustheit en betoonde
+[recto] hulp in't aanhouden van voorm: dief,
+[recto] Zomede:
+[recto] tweede Contra Ieija mahomet aan
+[recto] oud 29. Iaren Iongst gewoond hebbende
+[recto] tot Biegam gelegen in de hina
+[recto] Corle, almede tegenswoordig 's heeren
+[recto] gevangen, over't steelen en vervoeren
+[recto] van een slaven, Mitsgaders:
+[verso] Na dat alvoorens bij de leeden in den hoof„
+[verso] „de deses gem: ter lectura rond geweest
+[verso] en althans weder ingekomen waren
+[verso] drie Crimineele processen voor den agtb:
+[verso] Raad van Iustitie deses Casteels
+[verso] g'intenteert bij ende van wegen den koop„
+[verso] „man en fiscaal Ioan de Maureg„
+[verso] „nault Rat:s off: eijss=r, te weten: 't eerste
+[verso] Contra Cupido van Macasser oud na
+[verso] aansien over de 20: Jaaren en gewesen
+[verso] lijfeijgen van den tweeden Capitain
+[verso] militair alhier d' E: Ioan wil
+[verso] „helm Schnee, mitsgaders pieter
+[verso] van Batavia almede na aansien
+[verso] 35. â 36 Iaren oud in a:o 1728. alhier
+[verso] aangekomen als Bandiet en Ben„
+[verso] „jamin van Batavia, vrijeling,
+[verso] Jongst gewoond hebbende omtrent het
+[verso] dorp Matuaal thans heeren gevan„
+[verso] „gens
+[recto] het
+== NL-HaNA_1.04.02_2222_0098 | #98 | sides: recto,verso | lines: 47
+[recto] 516.
+[verso] 'is derde tegen eenen Ioentje appoehamij
+[verso] Christen Singalees oud 26: Iaaren
+[verso] laast gewoond hebbende in't dorp Ma„
+[verso] „tuaal buijten deser steede, insgelijx
+[verso] thans 's heeren gevangen over huijsbruk
+[verso] ter sake van welke execrabele delicte
+[verso] en gepleegde faiten, den eerstgem: ge„
+[verso] „vangen Cupido bij diffinitive sententie
+[verso] van gem: Raad van Iustitie op den 26:
+[verso] april I=o leeden uijt name en van
+[verso] wegen de hoogmogende heeren Sta„
+[verso] „ten generaal der vereenigde Neder
+[verso] „landen op onse approbatie en aggrea
+[verso] „tie gesententieert is omme gebragt
+[verso] te werden ter plaatse daar men al„
+[verso] hier gewoon is Crimineele Tenten„
+[verso] „tien, t' executeeren en aldaar  den
+[verso] scherpregter overgelevert sijnde, op
+[verso] een houte kruijs gebonden, van onderen
+[verso] op levendig geledebraakt, Mitsgaders
+[verso] sodanig sonder de slag van gratie
+[verso] na't Buijten geregt gesleept, op
+[recto] een rad Rad gesteld, en door de kaffers
+[recto] der Iustitie bewaakt te werden tot
+[recto] hij den geest gegeven hebbende, de lugt
+[recto] en Vogelen des hemels mag ten proije
+[recto] Blijven; gelijk ook de tweede, vierde,
+[recto] en vijfde gevangens almede bij diffiniti„
+[recto] „ve sententien sub datis ult:o april
+[recto] laastleeden en 5. ' Courant door gem:
+[recto] Raad van Justitie uijt name en van
+[recto] wegen hoogstgem: haar hoog mog: op
+[recto] onse approbatie en aggreatie gecondem„
+[recto] neerd sijn om ten voorsch: geregts„
+[recto] „plaat's gebragt den scherpregter over„
+[recto] „geleverd en met de koorde aan de
+[recto] galge te werden gestraft dat er dood
+[recto] na volgt, voorts haare doode lighamen
+[recto] na't Buijten geregt gesleept en
+[recto] aldaar ten proije van de lugt en voge„
+[recto] „len des hemels weder opgehangen,
+[recto] mitsgaders den derde gevangen Ben„
+[recto] „jamin met ons believen van hier
+[recto] na de Madurese Rust versonden
+[verso] een
+[recto] te werden
+== NL-HaNA_1.04.02_2222_0099 | #99 | sides: recto,verso | lines: 49
+[recto] 517.
+[verso] te werden, sonder oit weder herwaarts
+[verso] te mogen terug keeren op pene van
+[verso] aan den lijve te sullen werden gestraft„
+[verso] condemneerende alle de voorsch: gevan„
+[verso] „gens in de kosten en misen van Justi
+[verso] „tie navolgens d'eijsschen van den fis„
+[verso] „caal; zo wierd als nu daar over
+[verso] met aandagt gedelibereert en alt gene
+[verso] enigsints ter Materie was in aan„
+[verso] merking genomen, Mitsgaders g'ar
+[verso] resteerd de voorm: sententien sodanig
+[verso] die laggen t'approbeeren en sig met
+[verso] het gewijsde van voorm: agtb: Raad
+[verso] van Justitie ten enemale te Confor„
+[verso] „meeren en oversulx den E: president
+[verso] ordonneeren de straffe aan de gev: invol¬
+[verso] „gen voorm: te doen executeeren, en
+[verso] werkstellig maken: zullende den
+[verso] gevangen Benjamin in 's heeren
+[verso] borijen moeten geconfineerd Blijven
+[verso] tot tijd en wijlen er occasie zal
+[recto] voorkomen dat den selven van hier na
+[recto] d'overwal van Madure sal kunnen
+[recto] werden versonden.
+[recto] Aldus gedaan en geresolveerd
+[recto] in't Casteel Colombo, ten dage
+[recto] Maand en Iaare voorsch: (:was getek:t)
+[recto] S: Versluijs, I: W: Hiltebrand,
+[recto] g: Kalden en W: B: albinus.
+[recto] /:ter zeijde stond:/ Mij present, was geteekent
+[recto] R: cau, p:r secretaris.
+[recto] Vrijdag Den 9:' Maij
+[recto] A:o 1732.
+[recto] Present.
+[recto] en verdere leeden van gem: Raad te Den wel Ed:e heer gouverneur Stephanus Versluijs
+[recto] Jodocus wilhelmi Hiltebrand,
+[recto] „ Z: dessave.
+[recto] „ Capitain
+[recto] Gerrit Kalden,
+[recto] „ fiscaal
+[recto] Joan De Mauregnault,
+[recto] Ioan Wilhelm Schnee,
+[recto] „ Capitain
+[recto] „ p:l soldij Boekhoud:r Ian Elias van mijlendonk
+[recto] „ „ Eerste pakhuijsm:r Wilhelm Bornh:s albinus
+[verso] voorkomen.
+[recto] Absent
+[recto] „
+== NL-HaNA_1.04.02_2222_0100 | #100 | sides: recto,verso | lines: 59
+[recto] 518
+[recto] Continueeren.
+[recto] vaandrig Benjamin Broekman
+[recto] te verkiesen den Cassier Corijn He„
+[recto] „vens en vaandrig Nicolaas van
+[recto] Leeuwen, mitsgaders de verdere
+[verso] De nominatien der Respective Collegien
+[recto] Collegianten en officieren ider in't
+[verso] so van den Civielen Raad, weescamer,
+[recto] zijne te laten Continueeren en soda¬
+[verso] huwelijkse saken als wijkmeesteren
+[recto] „nig als bij de ondervolgende insertie
+[verso] van't Casteel en de stad, mitsgaders
+[recto] nader Blijkt op den 12:e deser
+[verso] d'officieren der Burgerij alhier na
+[recto] maand, wanneer het ses en seven„
+[verso] Iaarlijx gewoonte ingekomen en al„
+[recto] tigste Iaar der verovering deser
+[verso] „thans door den heer gouverneur in Ver„
+[recto] vesting van de portugesen onder
+[verso] gadering gebragt sijnde, so is ver„
+[recto] godes zegen staat gevierd te wer„
+[verso] „staan tot lid in't Collegie van Wees„
+[recto] den; de novo te doen Bevestigen.
+[verso] „meesteren in plaatse van den burger
+[verso] Presente.
+[recto] genomineerde. nieuw Verkorene.
+[verso] Richard Kellens aantestellen
+[recto] Den E: Civielen Raad.
+[verso] den Mede burger Hendrik Ru„
+[recto] den 8lapit:s gerrit Kalden en. ..
+[verso] „mond; zo mede in't Collegie van
+[recto] den E: Capit:n Ioan W: Schnee prasis
+[recto] p:r eerste pakhuijsm: w: B: albinus
+[verso] Commissarissen der huwelijkse Saken Dirk Blankert.
+[recto] Hendrik Rumonden
+[recto] Richard Kellens. . . . . .
+[verso] en „ Wijkmeester deses Casteels in
+[recto] Bernh:s schroder liden Secret:s albertus Domburgen
+[recto] hangelo van gijzel.
+[verso] steede van den presenten tutucorijn Hendrik Rumond
+[recto] Frans perrena en
+[recto] hadriaan van ooijen
+[verso] sen administrateur Arnoud
+[verso] Pieter Loos
+[recto] albertus Domburg en
+[recto] Cangelo van gijzel.
+[verso] Roels en 't Nigombos hooft den
+[verso] Richard Kellens.
+[recto] Frans Perrera en
+[recto] adriaan Van ooijen;
+[verso] Louis Toussain
+[recto] Iacob Willem Becker en
+[recto] Hendrik Runsdorp.
+[verso] Absent.
+[verso] den E: hooft administrateur Ioan Benjamin
+[verso] Vernatti door Indispositie
+[verso] Vaandrig

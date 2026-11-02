@@ -1,0 +1,9 @@
+line_id	gold_folios	status	note
+line_8ef8a018-11ea-4eed-9d8d-94245b505e1b	4	ok	line is only the page number 4
+a9d3983b-7136-4820-bdf9-68bb15168d51		ok	folio number stands on another line (entry numbers = page nrs)
+b516f260-68dc-4485-a8b0-5ac7c7c15ddd		ok	folio number stands on another line (entry numbers = page nrs)
+line_4a78e37a-35d6-4ed3-a1d7-bd5d81ba8601		ok	locator stands on a neighbouring line
+f3d22a5d-b57e-42c7-a509-2f40fcdbdb0b		ok	locator stands on a neighbouring line
+line_551b7b8e-76d5-4693-950e-82b7d7b67861		ok	locator stands on a neighbouring line
+a75f2912-72b7-4bac-a38b-27d2b93ccc23		ok	locator stands on a neighbouring line
+line_20d3404f-ebc4-48dd-bb49-e75880d76fed	710	ok	entry ends with 710

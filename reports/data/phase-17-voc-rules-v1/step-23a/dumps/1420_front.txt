@@ -1,0 +1,3212 @@
+== NL-HaNA_1.04.02_1420_0001 | #1 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0003 | #3 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0004 | #4 | sides: single | lines: 1
+[single] 13
+== NL-HaNA_1.04.02_1420_0005 | #5 | sides: single | lines: 36
+[single] 1687
+[single] vloel
+[single] 10 1
+[single] 8HNES
+[single] AMERIER.
+[single] Register van papieren
+[single] overgekomen van Ceijlon inden
+[single] jaere 1687.
+[single] ...
+[single] fo. 1. a 9. . . . . Register
+[single] „10 a 47. . . . . Authentique copie missive van den raed Ordin. s
+[single] en Gouverneur Laurens Pijl mitsgrs.
+[single] den Raed op Ceijlon aenden gouverneur
+[single] generael en de Raden van Jndien in dato
+[single] 20 februarij 1686.
+[single] 48 a 59. . . . dito copie missive in dato 28 Maij 1686.
+[single] 60 a 83. . . . . dito missive in dato 9 Septemb. met postscriptum
+[single] vanden 11=en dito.
+[single] 84 a 90. .. . dito missive in dato 23 Octob. 1686.
+[single] 91 a 95. . . . . dito van deselve aen den Heer Commissaris
+[single] van mijdrecht in dato 19 April 1686.
+[single] 96 a 98.. . . dito van en aen deselve mitsgaders den raed
+[single] Extraords. en directeur in Bengale
+[single] Ns. Schagen in dato 13 Maij 1686.
+[single] 99 a 105. . . dito van deselve aenden Heer Commissaris
+[single] van Mijdrecht in dato 12 Junij 1686.
+[single] 106 a 114... dito missive als mede aende raed Extraordinaris
+[single] en directeur N: Schagen en den raedt
+[single] in Bengale in dato 12 Junij 1686.
+[single] 115 a 119. . dito missive van en aendeselve in dato
+[single] 30 Julij 1686.
+[single] „120 a 129. . . . dito aenden hr. Commissaris van Mijdrecht
+[single] particulier in dato 24 Augusti 1686.
+[single] 130 en 131 dito missive in dato 3 September 1686.
+[single] 132 a 134 dito missive in dato 11 October 1686.
+== NL-HaNA_1.04.02_1420_0006 | #6 | sides: single | lines: 36
+[single] fo. 135 a 199 Originele missive vanden Raed Ordr. en
+[single] gouverneur Laurens Pijl mitsgaders den
+[single] raed op Ceijlon aende Vergaderingh
+[single] der heeren 17e. in dato 12 Januarij 1687.
+[single] „200 a 203. . Vergelijckinge der lasten en winsten inde
+[single] jaeren 1684 en 1685 op de Ceijlonse comp¬
+[single] toiren gevallen jegens den anderen.
+[single] 204 a 283. Originele missive aende Heeren 17e. als boven
+[single] 284 a 426 Authenticque copie resolutien bij den gouverneur
+[single] En den Raed tot Colombo sedert den 11 xbr.
+[single] 1685 tot den 5 xber 1686 genomen
+[single] 427 en 428 dito copie verclaringe van twee gecommitteerde
+[single] wegens eenige beschadighde cassen met
+[single] goederen uijt het schip Coeverden op Ceijlon
+[single] gelost.
+[single] :429. Bevindinge vande ladinge met het schip Langewijk
+[single] uijt het vaderland aengebraght
+[single] „430. . . . . dito vande Hoecker 't Hoefijser.
+[single] „431 en 432 dito van't schip Coeverden.
+[single] „ 433. . . . placaet tot weeringe van den aenbrengh van
+[single] Engelie, deense en andere uijtheemse
+[single] drinkwaren op Ceijlon.
+[single] 434 a 443 extract uit den brieff door den secunde ter
+[single] Custe madure aen gouverneur pijl en
+[single] den Raed op Ceijlon den 10 maert 1686
+[single] geschreven nevens drie copie rapporten
+[single] wegens de gedane visite der Tutucurinse
+[single] en manaerse peerlbancken
+[single] 444 a 449 drie extracten uyt de brieven door den selven
+[single] gouverneur en raed uyt Colombo den 26 Julij, 12
+[single] en 17 Augusti 1686 aan het opperhoofd van Vliet
+[single] en raed tot Tutucoriages nevens een rapport
+[single] vanden Coopman Gerrit Clinck,
+[single] wegens de bevindingh en procure der madurese
+[single] lijwaten.
+[single] „
+== NL-HaNA_1.04.02_1420_0007 | #7 | sides: single | lines: 46
+[single] 10
+[single] fo. 450 a 459. . vijff extracten uijt de brieven van 't opperhoofde
+[single] van Vliet en Raed tot Tutucorin aende gouvernr.
+[single] L: Pijl en Raed tot Colombo in dato 13 19 en 30
+[single] Novr. mitsgrs. 5. decemb. 1686, wegens 't voorge
+[single] vallene tusschen den regerenden Teuver en
+[single] Ragia Souria Teuver, nevens drie translaet
+[single] olaes van voors twee seuvers aande Command. r
+[single] m
+[single] vander duijn en bramine Timmersa tot Jaffanap.
+[single] 460 a 467.. rapport vanden Commandeur Corn. vander duijn
+[single] enden ondercoopman Corns. Schaets, wegens
+[single] hunne gedane visite op Manaer, en de gestelde
+[single] ordre omtrent het graven der saije wortelen.
+[single] 468 a 491. Commissie en Instructie voorde Coopluijden
+[single] Isaac Papineau, en Joannes de Haen op hunne
+[single] te doene visite inde comptoiren bringkene
+[single] male en Battecalo, nevens 't rapport
+[single] hunner verrightinge
+[single] 492. Memorie vande goederen met de Bengaelte
+[single] Moren op Galeverhandeld inden jare 1686.
+[single] „ 493 en 494 Authentique copie missive vande hr. Commissaris
+[single] van Mijdrecht uijt bengale den 13 Novemb.
+[single] 1686 aan raed ord. s en gouverneur L: Pijl
+[single] en raed tot Colombo geschreven
+[single] 495 a 504-. Secrete conferentien tusschen den Heer
+[single] Gouverneur Laurens Pijl en den
+[single] gesant van Ragia Singa op diverse
+[single] datums gehouden
+[single] „505 a 534. . Extract uijt Colombosdaghregister vervattende
+[single] eenige nouvelles uijt het landt
+[single] 535 a 552 acht stucks brieven van eenige gevangenen
+[single] uijt Candia soo aan h. r gouverneur L: pijl
+[single] als den dessave Floris Blom geschreven.
+[single] „553 a 558. . Verklaringe van Michiel Jansz de Vries van
+[single] Flensborgh, gewesen Schipper op 't Jacht
+[single] westerwijck, wegens 't nemen van 't selve
+[single] jacht door een Engels zeerover inde
+[single] rivier van Manegare op Madagascar
+[single] itteere
+[single] wijk
+[single] pport
+[single] ese
+[single] 1
+== NL-HaNA_1.04.02_1420_0008 | #8 | sides: single | lines: 34
+[single] Helvoetsluijs
+[single] fo. 559 a 586.- Extract uijt het journael bij den Opperstuur
+[single] man vant selve Jacht Westerwijck gehouden
+[single] „587 en 588 verclaringe vande gestaltenisse vant schip
+[single] „589 a 603- - -. Lijste der aengekome en vertrocke schepen
+[single] op en van Ceijlon sedert 2 Januarij tot
+[single] 30 xber 1686.
+[single] „604 a 609. -. Extract uijt het journael gehouden bij den Schip
+[single] per Reijnier Schoutten op 't schip Adrichem, als
+[single] ook twee resolutien bij den scheepsraedt
+[single] genomen om de steven na Ceijlon te wenden
+[single] vermits de reijse na Bengale niet konden
+[single] gewinnen.
+[single] „610 a 612. -. Extract uijt de missive van het Opperhoofden
+[single] raed tot brincquenemale aende gouverneur
+[single] Pijl en den Raedt tot Bengale Colombo
+[single] wegens 't aencomen van een Engels vaertuijg
+[single] aldaer.
+[single] 613 a 615--. eijsch van goederen en behoeften voor 't Ceijlons
+[single] gouvernement tegens den jare 1688.
+[single] „ 616. . . . . Summarium van Comp. s dienaren op Ceijlon
+[single] bescheijden den ultimo februarij 1686
+[single] „ 617 en 618 Lijste der schepen onder 't Ceijlons gouvernemrt
+[single] geemploijeert werdende
+[single] „619 a 6216. drie stux verclaringen van Gecomdens
+[single] ten overstaen vandewelcke de nieuw
+[single] geschilde caneel is afgepakt en ontfangen
+[single] 1622. . . . . Lijste vante goed behoudene reeckeningen bij den
+[single] overleden Chirurgijn Jan Jochums ulft
+[single] 5
+[single] „623 a 627. - drie lijsten van ingeschreve reken. op Ceijlon
+[single] „628 a 655. -. Lijste van personen de welcke haer jaerlijx vermaackte
+[single] maendgelden weder afschrijven, met de
+[single] origniele actens daer toe behorende.
+== NL-HaNA_1.04.02_1420_0009 | #9 | sides: single | lines: 37
+[single] fo. 1
+[single] fo. 656 a 664 Ses stux lijsten van procuratien door verscheijde
+[single] personen op Ceijlon gepasseert om 't saldo
+[single] hunner reecke. in't Patria ontfangen te
+[single] worden.
+[single] „665 a 669. . -. drie lijsten als boven tot Nagapatnam gepasseert
+[single] „670 „ 672. . . Copia missive vanden Gouverneur L: Pijl
+[single] en den Raed uijt Colombo aen Command. r
+[single] E: van rhee en den raed tot Gale
+[single] geschreven den 8 Januarij 1687.
+[single] 673 a 675. . . dito van deselve aen Commandeur D: Vosburgh
+[single] en raed op de Cust van Malabar den
+[single] 7 Januarij 1687 gest.
+[single] 676 en 677 Lijste der Officieren met de schepen Prince,
+[single] landt, Schouwen, Langewijck en voorschoten
+[single] a. o. 1677 gerepatrieert met hun characters
+[single] 678 a 681.. Originele missive van gouverneur L: Pijl
+[single] en den Raed uijt Colombo aende Heeren
+[single] ae
+[single] Bewinthebberen ter Kamer van Amsterdm.
+[single] gest. den 12 Januarij 1687.
+[single] 682 a 684. dito aan die van Zeelandt.
+[single] 1685 en 686. -. dito aan die van Rotterdam
+[single] 687 en 688. - dito aan die van delft
+[single] 689 a 691. .. Extract uijt de missive vanden Coopman
+[single] Wighmans uijt Coijlan aen den Command:r
+[single] en den raedt tot Cochim den 30 decem.
+[single] 1686, wegens 't aancomen en handel van
+[single] eenige Engelsse aan het Trevancoerse hoff
+[single] 692 - - - - - - corte factura van 't geladene inde schepen
+[single] Gideon en Speelman uijt Suratte op Ceijlon
+[single] aengebraght.
+[single] 693 a 697. -. Originele missive vanden Commandeur
+[single] Thomas van rhee en den raed uijt gale
+[single] aan vergaderingh der Heeren 17e. den
+[single] 21 Januarij 1687 geb.
+== NL-HaNA_1.04.02_1420_0010 | #10 | sides: single | lines: 9
+[single] fo. 698 en 699 verclaringe wegens 't bergen en gewaer
+[single] worden der leckagie van een kasje
+[single] met Malabaerse Camphur Olij op de
+[single] fluijt Princelandt
+[single] „700 en 701. . dito wegens de bevindinge van t selve kasje
+[single] „ 702 a 707 Eenige Lijsten van procuratien om nevens
+[single] de soldijreeckeningen daer bij behorende
+[single] van Gale overgemaekt
+[single] -
+== NL-HaNA_1.04.02_1420_0011 | #11 | sides: single | lines: 4
+[single] s
+[single] fo.
+[single] 4
+[single] 1:
+== NL-HaNA_1.04.02_1420_0012 | #12 | sides: single | lines: 2
+[single] 8 AVHS
+[single] ARCHITEE.
+== NL-HaNA_1.04.02_1420_0013 | #13 | sides: single | lines: 38
+[single] fo. 1
+[single] 3KEKS
+[single] ARGHIEF.
+[single] No. 1:
+[single] bij den anderen
+[single] gebonden.
+[single] Register der Papieren—
+[single] de welcke op heeden door—
+[single] d' Ed=le Heer Gouverneur
+[single] Laurens Pijl, en den Raat
+[single] tot Colombo aan d' hoogh=d=le
+[single] hee
+[single] E=re Bewinthebberen ter —
+[single] vergaderinge van xvij=m —
+[single] representeerende d'generale
+[single] vereenighde nederlantse —
+[single] g'octroijeerde oostjndise —
+[single] Comp:s werden gesonden, —
+[single] namentlijck:
+[single] Het d' Huit Princelant. —
+[single] vier stx: Copia brieven door d' Ed=le h=r gouvern=r
+[single] en raat voorn: den 20=en feb: 20=en meij, 9=en
+[single] 7b:, en 23=en octob: des gepass=n jaers 1686: —
+[single] aen haer Ed=le aghtb: tot batavia gesz:. —
+[single] door
+[single] Aght d=os„ als vooren den 19=en april 13=en maij 12=en
+[single] junij, 30=en Julij 24=en aug=o 3=en 7b:, en —
+[single] 11=en octob: pass=o aen d' hoogh Ed=le h=r Commiss=s
+[single] hend=k adriaan van Reede na bengale ges:t
+[single] origh: missive, door als vooren op heeden aen d'
+[single] hoogEEd=le heeren maijores gesz: — —
+[single] Specificatie van d' Verschillen der generale lasten
+[single] en winsten deses Cousernem=trs tusschende
+[single] jaeren 1684: en 85: mitsg:s 1685: en 86: gevallen
+[single] 2: Copia
+[single] ƒ
+== NL-HaNA_1.04.02_1420_0014 | #14 | sides: single | lines: 36
+[single] N=o 2: Copia resolutien genomen in rade tot Colombo —
+[single] 'tzedert den 10=en xb: 1685: tot den 5=en xb=r 86:
+[single] 3: drie stx: lijsten van d' bevindingh der goederen, en
+[single] Coopmansz: met de fluijt Langewijck d' hoecker
+[single] 'thoeffijser, en't schip Coeverden uijt 't patria —
+[single] alhier aengebraght, benevens een secreet Ariale
+[single] verclaringe. —
+[single] placcaat g'emaneert den 2=en novemb=r 1686:—
+[single] tot Weeringe van 't aengebrengen der Engelsz:
+[single] deense, en andere uijt heems: drancken. —
+[single] 5: Extract uijt de brieff door den secunde der Custe—
+[single] madure, krijn Caperman, den 10=en april
+[single] 1686: aen d' Ed=le h=r Gouvern=r Laurens —
+[single] pijl, en raat tot Colombo gesz: benevens —
+[single] drie stux: Copia rapporten wegens de visitee
+[single] en bevindinge der Tutucorijnse, en
+[single] manaerse peerl Bancken:
+[single] 6: drie d=os uijt de brieven, door de Ed=le h=r Gouvern=r
+[single] Laurens pijl, en r=t Voorn=t den 26=en julij —
+[single] 12=en, en 17=en aug=o pass=o na Tutucorijn
+[single] gesz:, en 't rapport van den Coopm: Gerard
+[single] Clinck wegens de bevindinge, en procure
+[single] der madureese Lijwaten. —
+[single] 7: vijff d=os uijt de brieven door den oppercoopm:, en
+[single] Oos
+[single] opperhoofft Joan van Vliet, eu r=t tot tutucorin
+[single] den 13=en 19: en 30=en 9b:, mitsgad=rs 5=en xb: a=o
+[single] pass=o aen d' Ed=le h=r Gouvern=r, en r=t voorn:
+[single] gesz: wegens 'tvoorgevallene tusschen den present
+[single] ense
+[single] regeerenden teuver, en ragia Zouria „ besijden
+[single] drie translaat olas, door voorsz: twee theusers
+[single] na Jaffanap: m gesz:.
+[single] 8
+[single] 4:
+[single] d
+== NL-HaNA_1.04.02_1420_0015 | #15 | sides: single | lines: 42
+[single] 2
+[single] 10
+[single] N=o 8: Copia rapport door d' E: Command=r Corn=s van der
+[single] duijn, en E=te ondercoopm:
+[single] Cornelis schaets, den
+[single] 3=en xb: 1686: aen d' Ed=le h=r Gouvern=r Laurens
+[single] 3en
+[single] pijl gedaen, wegens de gedane visite op manaer,
+[single] en gestelde ordre ontrent het graven der zaije
+[single] Wortelen.
+[single] 9: Copia Commissie, en Instructie voor de Coopluijden,
+[single] Isaacq papineauw, en Ioannes de haer zijnde
+[single] e
+[single] gecommitteert geweest naer trincq: en
+[single] Batticaloa, benevens haer E: gedane rapport, —
+[single] nopende hunne verrightinge aldaer. —
+[single] 10: memorie van't ver=en genegotieerde met de —
+[single] Bengaals: indoren a=o pass=o op Cale. —
+[single] k
+[single] 11: Copia br: door d' hoogh Ed=le h=r Commiss=s hend=k—
+[single] g
+[single] adriaen van Zeede, den 13=en 9b=r a=o 1686: —
+[single] met de fluijt de Cisetcat, aen d' Ed=le heer —
+[single] Gouvern=r Laurens pijl, en r=t tot —
+[single] Colombo gesz:
+[single] 12: Copia secrete Conferentien, gehouden tusschen
+[single] den h=r gouvern=r pijl, en den ganne bandaer„
+[single] off gesant van den Ceijlons: maij=t, en een
+[single] extract uijt 't Colombos dagh register 'tsedert
+[single] des gannebandaets affcomste van, tot—
+[single] desselffs weder op reijsen na 't Candis: hoff, —
+[single] behelsende zijn inhalingh, en uijt geleijde, en
+[single] 'tgeene naderhant wegens d'affcomste der
+[single] gevangenen, Ec=a is gedisulgeert, zijnde daer —
+[single] in oocq g'insereert een ole den ganneban„
+[single] „dare op de Wegh ontmoet, en door hem aen
+[single] d' Ed=le h=r gouvern=r gesonden mitsgaders —
+[single] 'tgeene door zijn Ed=le daerop in antwoort
+[single] 9„
+[single] is gedient, waer aghter g'annexeert zijn
+[single] aght.
+[single] 1
+== NL-HaNA_1.04.02_1420_0016 | #16 | sides: single | lines: 33
+[single] aght stix: Copia brieffjes door de gevangenen —
+[single] in Candia, aen d' Ed=le h=r Gouvern=r en dessave
+[single] Blom gesz:
+[single] N=o 13: Copia rapport bij forme van verclaringe bij den
+[single] gewesen schipper van't jaght Westerwijck —
+[single] michiel jansz:, de Vries wegens het nemen
+[single] van gem: Jaght, door een Engels: roover in
+[single] d' rivier van manegare op madagascar, en
+[single] zijn wedervaren aldaer, den 9=en aug=o pass=o
+[single] voor gecommitteerd=s alhier gedaen, en een
+[single] extract uijt het dagh register gehouden bij
+[single] den gewesen opperstierman van d=o jaght —
+[single] 'tsedert den eersten novemb: 1685: daer—
+[single] mede van de Caap de goede hoop op madagascar
+[single] tot den 5=en Junij 1686: dat niet het Engelsz:
+[single] rovers schip, (:alhier d' grijp vogel gebaptiseert:)
+[single] op tutucorijn g'arriveert is. —
+[single] 14: Copia Verclaringe wegens de gestalte, en bevindinge
+[single] van't schip hellevoet sluijs. —
+[single] 15: notie van d'aengecomen, en vertrocken schepen
+[single] en mindere vaertuijgen op, en van Ceijlon
+[single] 'tsed=t den 2=en Ianuarij des Iaers 1686: tot
+[single] den laatsten decemb=r daer aenvolgende. —
+[single] 16: Extract uijtjoumael gehouden bij den schipper —
+[single] van de fluijt adrighem reijnier martensz:
+[single] scholten op de reijse van masulipatn: na —
+[single] bengale, en twee Copia resolutien, genomen
+[single] bij de overheeden van d=o fluijt, om mits
+[single] de reijse na Bengale niet conden gewinnen,
+[single] d's leven na gale te wenden.
+[single] = 17:
+[single] 1
+[single] 8
+== NL-HaNA_1.04.02_1420_0017 | #17 | sides: single | lines: 36
+[single] 3
+[single] N=o 17: Extract uijt d' brieff door den oppercoopman
+[single] en opperhoofft Joan Bernhar=t de ruhe, en raat
+[single] tot Crincq:, den 19=en octob: a=o pass=o aen
+[single] d' Ed=le h=r gouvern=r en raat tot Colombo gesz:,
+[single] spreeckende van een gepresumeerden Engelsz:
+[single] rover. —
+[single] 18: Eijsch van benodightheeden voor't gouvernem=t
+[single] van Ceijlon en den jaere 1688: uijt 't patria
+[single] en
+[single] e
+[single] gedaen. —.
+[single] 19: twee packquetjes brieven van de Joodtse Coopl=n
+[single] niet 'tschip Coeverden alhier aengecomen,
+[single] aen abraham Pereira, en anthonio de porta
+[single] gesubscribeert.—
+[single] 20: Generale sommarium van 's Comp=s Europese —
+[single] en Inlantse dienaeren op ult=o
+[single] feb:
+[single] 1686: onder 't gouvernem=t van Ceijlon
+[single] in wesen bevonden.
+[single] 21: Lijste der scheepen, hoeckers, en mindere vaer„—
+[single] „tuijgen onder 'tCeijlonse gouvernem=t
+[single] -
+[single] in't vaerwater, en emploij zijnde. —
+[single] 22.: drie stx: verclaringen der gecommitteerde, die
+[single] dese jaere bij 't ontfangen, off wegen, in ba„
+[single] „leeren &c=a van den Canneel present zijn
+[single] geweest. —
+[single] 23: Lijste van vier stx: Copia reecq:, waer van
+[single] 't saldo te goet behouden is, bij den over„
+[single] „leden Chirurgijn Ian Jochumsz:
+[single] iest. —
+[single] = 24:
+== NL-HaNA_1.04.02_1420_0018 | #18 | sides: single | lines: 33
+[single] houder van d=o
+[single] bodem inhandight
+[single] N=o 24: drie lijste van eenige persoonen Wiens origh:
+[single] reecq=s, vermits getrouwt, in de guarnisoenb:
+[single] alhier ingesi, ende zaldos betaalt zijn.
+[single] 25: Rolle der persoonen die versoecken dat de gagie —
+[single] die zij aen haere vrunden, en bekenden wegh —
+[single] gemaeckt hebben, moghte affgesz: werden,
+[single] waer aghter g'annexeert zijn 26: stx:
+[single] :
+[single] secretaliale actens van herroepinge door
+[single] deselve persoonen op Jaffanapatn: gepasseert.
+[single] 26: ses stx: lijsten van procuratien, door verscheijde
+[single] persoonen alhier gepasseert, om 't saldo hunner
+[single] reecq:s in't patria ontfangen te werden. —
+[single] 27: drie d=os tot nagapatn: gepasseert.
+[single] 28: Copia brieffje door d' Ed=le h=r gouvern=r Laurens
+[single] pijl, en raat tot Colombo den 8=en deser na
+[single] gale gesz:, —.
+[single] 29: d=o d=o door als vooren den 7=en d=o nae —
+[single] mallabaer gecarteert. —
+[single] NB: is den boeck„ 30: monster rolle van't scheeps volcq van de fluijt
+[single] Langewijck. Princelant
+[single] 31: Een open pacquet Chormandelsz: ppieren, aen
+[single] d' hooghEd=le heeren maijores gededuceert
+[single] gaat apart aff 32: Een geslooten kasje met mallabaerse —
+[single] geschrifften, aen Welgem: haer hoogh„t —
+[single] Ed=le gesubscribeert.
+[single] 33: een open pacquet bengaels: ppieren aen —
+[single] ged=e haer hooghEd=le geright.
+[single] p=t 34: —
+[single] G
+== NL-HaNA_1.04.02_1420_0019 | #19 | sides: single | lines: 34
+[single] 4
+[single] N=o 34: rolle der officieren met d' retoerscheepen —
+[single] Princelant, 'tlant van Schouwen, —
+[single] Voorschooten, en Langewijck repatrieerende
+[single] en haer Comportementen.
+[single] 35: 6: stx: secretariale actens van soo veel persoon:
+[single] die haer te goet behoudene sal dos op haere —
+[single] reecq:s aen d' gereformeerde Vlughtelingen
+[single] uijt Vranckrijck hebben geschoncken,
+[single] zijnde de voorsz: reecq: daeraen mede —
+[single] g'annexeert.—
+[single] 36: Een d=o transport door de wed=e van d' E: —
+[single] maijoor marten Scholten zal=r van
+[single] deselve haer mans te goet behouden gagie
+[single] op twee origh: reecq: gepasseert, en met de
+[single] ingesamelde penn: voor voorsz: Vlughte¬
+[single] „lingen alhier aen haer E: betaalt, om
+[single] in't patria aen de Collecteurs van't gelt
+[single] tot onderhout der ged=e ballingen uijt
+[single] gekeert te werden.
+[single] 37: Een gesz: brieff door d' Eerw: kkenraat alhier
+[single] aen d' h=ren predicanten, en ouderlingen
+[single] Constitueerde de Classis tot Amsterdam
+[single] gesz.
+[single] 38: Een d=o van d' h=ren Weesm=ren alhier aen d' heeren
+[single] Weesm=rs tot amsterdam geright. —
+[single] 39: origh: missive door de Ed=le h=r Gouvern=r Laurens
+[single] Pijl, en r=t tot Colombo op heeden aen—
+[single] d' hoogh Ed=le h=ren bewinthebberen ter —
+[single] camer amsterdam gesz:
+[single] N 40:
+[single] b:
+[single] ƒ
+[single] „
+== NL-HaNA_1.04.02_1420_0020 | #20 | sides: single | lines: 35
+[single] NB. is den boeckhouder
+[single] overhandight
+[single] N=o 40: Origh: missive door, en in dato als boven aen
+[single] d' hoog hEd=le bewinthebberen ter camer Zeelant
+[single] gesz:
+[single] 41: d=o d=o door en in dato als vooren aen d' Ed=le—
+[single] heeren bewinthebberen ter camer
+[single] rotterdam ges:
+[single] ee
+[single] 42: d=o d=o door, en in dato als geseght aen d' Ed=le
+[single] heeren Bewinthebberen ter camer
+[single] -
+[single] delff gesz:
+[single] 43: een ges: missive, aen d' h=ren schout, scheepenen
+[single] en gereghte der stat amsterdam, gesz:
+[single] 44: seven stix: registers der Ceijlonse soldij boecken,
+[single] met de nu vertreckende retourscheepen
+[single] overgaende.
+[single] 45: Extract uijt de brieff den 30=en xb=r 1686:
+[single] uijt Coijlan na Coetchim gesz:
+[single] -
+[single] 46: Een open pacquet souratse ppieren —
+[single] voor't patria.
+[single] 47: corte monture van 't geene met de fluijt
+[single] de gideon, en 'tjaghtje de speelman uijt
+[single] souratta, soo voor't patria als dit
+[single] Gouvernement aengebraght is. —
+[single] 48: factura van't geladene in d' fluijt princelant
+[single] 49: Cognoiscement derselve.
+[single] 50: oncost reecq: van d=o fluijt
+[single] 51: Een geslooten brieff van d' Eerw: kkenraat —
+[single] alhier aen d' Eerw: predicanten, en onder„
+[single] lingen Constitueerende d' E: Claffirale—
+[single] vergaderinge tot amsterdam
+[single] -
+== NL-HaNA_1.04.02_1420_0021 | #21 | sides: single | lines: 44
+[single] 5
+[single] Het 't Lant van Schouwen. —
+[single] 6
+[single] „ A:
+[single] La B: N=o 1:
+[single] bij den anderen
+[single] gebonden
+[single] dupplicaat register der papieren
+[single] Vier stx: copia brieven door de Ed=le h=r gouvern=r
+[single] Laurens pijl, en raat tot Colombo den 20=en
+[single] d
+[single] feb: 20=en maij 9=en 7b:, en 23=en octob=r 1686: —
+[single] aen haer Ed=le aghtb: tot Batavia gesz: —
+[single] Aght d=os door als vooren den 19=en april, 13=en maij,
+[single] 12=en junij, 30=en julij 24=en aug=o 3:en 78:, en
+[single] 11=e octob:r pass=o aen d' hoog EEd=le h=r Commiss=s
+[single] hend=k adriaen van zeede na bengale gesz: —
+[single] dubbelde origh: missive door als boven, op heeden
+[single] aen d' hoogEEd=le heeren maijores gesz:
+[single] Specificatie van de verschillen der generale lasten,
+[single] en winsten deses gouvernem=ts tusschen
+[single] de jaeren 1684: en 85: mitsgaders 1685: en
+[single] 1686: gevallen.
+[single] 3: drie stx: lijsten van de bevindinge der goederen,
+[single] en Coopmans: met de fluijt Langewijck
+[single] de hoecker 'thoeffijser, en 't schip Coeverden
+[single] uijt 'tpatria alhier aengebraght, benevens
+[single] een secretariale verclaringe. —
+[single] 4: placcaat g'emaneert den 2=en 9b=r 1686: tot
+[single] Weeringe van't aenbrengen der Engelsz:
+[single] deensz:, en andere uijt heemse drancken.
+[single] Extract uijt de brieff door den secunde der Custe
+[single] madure krijn Caperman, den 10=en april
+[single] 1686: aen d' Ed=le h=r gouvern=r Laurens —
+[single] pijl, en raat tot Colombo gesz:, benevens drie —
+[single] stx: Copia rapporten, wegens de visite, en
+[single] bevindinge der Tutucorijnse, en manaerse
+[single] baerlreven. —
+[single] L„r F: C:
+[single] lant
+[single] 6
+[single] 8.
+[single] 5:
+== NL-HaNA_1.04.02_1420_0022 | #22 | sides: single | lines: 41
+[single] 9: „
+[single] 7
+[single] L„a F: N=o 6: drie Extracten uijt de brieven door d' Ed=e heer —
+[single] Gouvern=r, en r=t voorn=t den 26=en Julij 12=en
+[single] en 17=en aug=o pass=o na Tutucorijn gesz: en
+[single] Trapport van den coopm: Gerardt clinck—
+[single] wegens de bevindinge, en procure der —
+[single] madureese Lijwaten.
+[single] Nih Dos
+[single] :Vijff d=os uijt de brieven door den oppercoopman
+[single] en opperhoofft Joan van Vliet, en raat tot
+[single] is
+[single] tutucorijn, den 13= 19:' en 30=en 9b: mitsgad=s
+[single] 5=en xb: a=o pass=o aen d' Ed=le h=r gouvern=r, en
+[single] raat voorn=t gesz: wegens 'tvoorgevallene—
+[single] tusschen den present regeerenden Leuver, —
+[single] en ragia souria teuver, besijden drie trans„
+[single] laat olas door voorsz: twee Leuvers na
+[single] Jaffanapatn: gesz:. —
+[single] „ H: „ 8: Copia rapport door d' E h=r Cormmand=r, Cornelis van
+[single] der Duijn, en E=le ondercoopm: Cornelis —
+[single] schaats den 3=en xb: 1686: aen d' Ed=le h=r —
+[single] gouvern=r Laurens pijl gedaen, wegens —
+[single] de gedane visite op manaer, en gestelde ordre
+[single] ontrent het graven der Zaije Wortelen.
+[single] Copia Commissie, en Instructie voor de Coopl=n
+[single] Isaacq papineauw, en Ioannes de haan
+[single] zijn de gecommitteert geweest naer—
+[single] nincq: en batticaloa benevens haer E: —
+[single] gedane rapport, nopende hunne verrigh„
+[single] linge aldaer. —
+[single] K„s 10: memoria van't ver„en genegotieerde met de
+[single] Bengaels: mooren a=o pass=o op gale. —
+[single] Copia brieff door d' hoogh Ed=le h=r Commiss=s hend=k—
+[single] adriaen van Zeede, den 13=en 9b: a=o 1686, met
+[single] en
+[single] de fluijt de Civetcat, aen d' Ed=le h=r gouvern=r
+[single] Laurens pijl, en v=t tot Colombo gesz:
+[single] L=a M:
+[single] J: 9:
+[single] 2„ 11:
+== NL-HaNA_1.04.02_1420_0023 | #23 | sides: single | lines: 42
+[single] 6
+[single] L=a M: N=o 12: Copia secrete conferentien, gehouden tusschen
+[single] den h=r gouvern=r pijl, en den gannebandaer, —
+[single] off gesant, van den Ceijlons: maij=t, en een extr:t
+[single] uijt 't Colombos daghregister, 'tsedert des ganneban„
+[single] daets affcomste, van, tot desselffs wederop reijse—
+[single] na 'tlandische hoff, behelsende zijn inhaalingh, —
+[single] en uijtgeleijde, en 'tgeene naderhant wegens —
+[single] de' affcomste der gevangenen &t=a is gedivul„
+[single] „geert, zijnde daer in oocq g'insereert een
+[single] ole den gannebandare op de Wegh ontmoet,
+[single] en door hem aen d' Ed=le h=r gouvern=r gesonden,
+[single] mitsgaders 'tgeene door zijn Ed=le daerop in
+[single] antw:t is gedient, waeraghter g'annexeert
+[single] zijn, aght stx: Copia brieffjes door d' gevangenen
+[single] in candia aen d' Ed=le h=r gouvern=r, en
+[single] dessave blom gesz:n.
+[single] N:o 13: Copia rapport bij forma van verclaringe, bij den
+[single] gewesen schipper van't jaght westerwijck —
+[single] michiel Iansz: de Vries, wegens het nemen
+[single] van gem: Jaght, door een Engelsz: roover —
+[single] in d'rivier van manegare op madagascaer,
+[single] en zijn wedervaeren aldaer den 4=en aug=o
+[single] pass=o voor gecommitteerd=s alhier gedaen,
+[single] en een extract uijt het dagh register —
+[single] gehouden bij den gewesen opperstuerman
+[single] van d=o jaght, 'tsed=t den 1=en 9b=r 1685: dat
+[single] F
+[single] daermede van d' Caap de goede hoop op mada„
+[single] gascar, tot den 5=en junij 1686:, dat met h=r
+[single] Engelsz: rovers schip (: alhier d' grijpvogel —
+[single] gebaptiseert:) op tutucorijn g'arriv=t is.
+[single] 14: Copia verclaringe wegens de gestalte, en —
+[single] bevindinge van't schip hellevoet sluijs
+[single] 12=en
+[single] en
+[single] c—
+[single] sgad
+[single] :
+[single] 6:
+[single] La. Pr
+== NL-HaNA_1.04.02_1420_0024 | #24 | sides: single | lines: 39
+[single] Z:
+[single] 6
+[single] R: „ 17:
+[single] a
+[single] L=a S: N: 15: notitie van d'aengcomen en vertrocken scheepen,
+[single] en mindere vaertuijgen op, en van Ceijlon,
+[single] 'tsedert den 2=en januarij 1686: tot den 30=en
+[single] „daer
+[single] decemb: aenvolgende. —
+[single] 10:
+[single] Extract uijt 'tjournael gehouden bij den schipper
+[single] van d' fluijt adrighem, reijnier mattensz:
+[single] schouten, op de reijse van masulipatn: na
+[single] bengale, en twee copia resolutien, genomen
+[single] bij d'overheeden van do fluijt, om mits de
+[single] reijse naer Bengale niet conde gewinnen
+[single] d'steven na gale te wenden. —
+[single] Extract uijt de brieff, door den oppercoopm:
+[single] en opperhoofft Ioan Bernhart de Zuhe, en
+[single] Raat tot trincq:, den 19=en octob: a=o pass=o
+[single] aen d' Ed=le h=r gouvern=r, en r=t tot Colombo
+[single] gesz: spreeckende van een gepresumeerden
+[single] Engelsz: roover.—
+[single] _:o „ 18: Eijsch van benodightheeden voor't gouvernem=t
+[single] van Ceijlon, en den Jaere 1688: uijt 't patria
+[single] gedaen
+[single] 1: „ 19: twee pacquetjes duplicate brieven van d'joorse
+[single] coopl= met 'tschip Coeverden alhier aen„
+[single] „gecomen aen abraham pereira, en
+[single] anthonio de porta gesubscribeert.
+[single] 1: „ 20: generale sommarium van 's Comp=s Europise
+[single] en Inlandse dienaren op ult=o feb: 1686:
+[single] onder 't gouvernemt van Ceijlon in
+[single] wesen bevonden. —
+[single] N:o „ 21: Lijste der scheepen, hoeckers, en mindere vaertuij„
+[single] „gen onder't Ceijlonse gouvernem=t in't
+[single] vaerwater, in Emploij zijnde. —
+[single] L=ra N: 225
+[single] 1
+== NL-HaNA_1.04.02_1420_0025 | #25 | sides: single | lines: 57
+[single] inhandight
+[single] EZ:
+[single] 99: „ —
+[single] L=a H N„o 22: drie stx: verclaringen der gecommitteerde die —
+[single] desen jaere bij 't ontfangen, affwegen, in balee„
+[single] „ren, Ehe=r van den canneel present zijn
+[single] geweest. —
+[single] 9:
+[single] „ 26: ses stx: Lijsten van procuraties door verscheijde
+[single] persoonen alhier gepasseert, om 't saldo hunner
+[single] reecq:e in't patria ontfangen te werden.
+[single] Copia brieffje door d' Ed=le h=r Gouvern=r—
+[single] Laurens pijl, en r=t tot Colombo den 8=en
+[single] p
+[single] deser na gale gesz:
+[single] AA: „ 29: d=o d=o door als boven den 7=en d=o na mallabaer
+[single] gecarteert.
+[single] B B: den boeckhoud:r monster rolle van't scheeps volcq van ver fluijt
+[single] Langewijck. 'tschip schouwen.
+[single] cc: „ — duplicaat origh: missive, en register der ppieren
+[single] van Cormandel na 'tpatria gesz:. —
+[single] D=o d=o, en d=o van mallab: na als vooren gesz: —
+[single] „ 34:. rolle der officieren met d'retourscheepen —
+[single] Princelant, 'tlant van Schouwen, Voorschoot
+[single] en Langewijck repatrieerende; en haer
+[single] comportementen.
+[single] Een gesz: brieff van d' Eerw: kkenraat alhier —
+[single] aen d' heeren predicanten, en ouderlingen
+[single] constitueerende de Classis van walcheren
+[single] in Zeelant gesz::
+[single] Een d=o van d' heeren weesm=r alhier aen de —
+[single] heeren Weesm=r tot middelburgh gesz: —
+[single] H Ft„ 39: duplicaat origh: missive door d' Ed=le hr
+[single] -
+[single] gouvern=r Laurens pijl, en raat tot
+[single] colombo op heeden aen d' hoogh Ed=le Eren
+[single] Ed=le
+[single] bewinthebberen ter Camer amsterdam
+[single] gesz:. —.
+[single] L=a 15:
+[single] see
+[single] n
+[single] en
+[single] schipper
+[single] n
+[single] 2: 28:
+[single] 9
+[single] 80:„
+[single] a
+[single] F F:
+[single] pise
+[single] 1686:
+[single] o
+[single] ƒ
+[single] 7
+== NL-HaNA_1.04.02_1420_0026 | #26 | sides: single | lines: 36
+[single] N No: 45:
+[single] 80:
+[single] 22
+[single] 47:
+[single] 2
+[single] „ den boeckhouder
+[single] inhandight.
+[single] L=a JJ: N=o 40: duplicaat origh: missive door, en in dato als boven
+[single] aen d' hoogh Ed=le h=ren bewinthebberen ter
+[single] camer Zeelant gesz:. —
+[single] Kk: 41: d=o d=o door, en in dato als boven aen d' Ed=le h=ren
+[single] bewinthebberen ter Camer rotterdam gesz:
+[single] 2L: 42: d=o d=o door, en in dato utante aen d' Ed=le
+[single] heeren bewinthebberen ter Camer delff gesz:
+[single] MM: 43: Een gesz: missive aen d' Ed=le h=ren Schout, scheepen
+[single] en gereghte der stadt amsterdam. —
+[single] Extract uijt d' brieff den 30=en xb: 1686: uijt
+[single] p„
+[single] Ceijlon na Coetchim gesz:.
+[single] register der Ceijlonse, daghregisters, en brieff d=o
+[single] als nu met 'tretourschip 'tlant van
+[single] schouwen na 't patria gaende. —
+[single] SS: 46: duplicaat pacquet souratse ppieren voor't
+[single] patria. —
+[single] corte monture van't geladene in d' fluijt
+[single] de gideon, en 'tjaghtje d' speelman tot
+[single] Zouratta voor't patria, de Caap de goede
+[single] hoop, en Ceijlon.
+[single] R: R: 48: factura van 't geladene in't schip 'tlant van Schouwen
+[single] S: 49: cognoiscement derselve—
+[single] 11: 50: 1„ oncost reecq: van d=o Bodem.
+[single] met Langewijck. —
+[single] triplicaat register.
+[single] E E E: N:o 1: D=o origh: missive door d' Ed=le h=r Gouvern=r Laurens
+[single] L„a aaa.
+[single] pijl
+== NL-HaNA_1.04.02_1420_0027 | #27 | sides: single | lines: 51
+[single] 8
+[single] DeE:
+[single] in handight
+[single] 7
+[single] 111: „
+[single] xxp
+[single] 222: „
+[single] in m m: „ den boeckh:
+[single] L=a aaaa:
+[single] pijl, en raat tot Colombo onder huijdigen dato aen de —
+[single] hoogh Ed=e h=ren Bewinthebberen ter vergaderinge —
+[single] van X Vij=e gecarteert.
+[single] CCC: N=o 38: Een geslooten pacquet brieven van d' weesm:r tot Colombo
+[single] n
+[single] aen d' heeren Weesm:s tot amsterdam.
+[single] 800: „ 39: triplicaat brieff door d' Ed=e h=r Gouv=r en raat voorn:t
+[single] aen d' hooghEd=e h=ren Bewinthebb:r ter camer —
+[single] amsterdam gesz:
+[single] de Cren
+[single] 40: d=o d=o adjdem aen d' hooghEd=e h=ren Bewint hebb:
+[single] ter camer Zeelant gesz:
+[single] 9:
+[single] :„ 41: d=o d=o ut supra aen d' Ed=le h=ren Bewinthebberen
+[single] ter camer rotterdam gesz:
+[single] E
+[single] „ 42: _=o _=o als boven aen d' Ed=e h=ren Bewinthebberen
+[single] ter Camer delfft gesz:
+[single] EEE: „ Bis: den boeck: monster rolle van d' fluijt Langewijck.
+[single] -. rolle der officieren 1: gem: bodem, en haer comportem:
+[single] a
+[single] kkk:„. . factura van't geladene in d=o Bodem
+[single] 5
+[single] cognoiscement derselve.
+[single] in kendight oncost reecq: van d=o fluijt
+[single] een geslooten brieff van d' Eerw: kkenraat alhier
+[single] aen d' Eerw: predicanten, en ouderlingen, —
+[single] constitueerende d' E: Clafficale vergaderinge tot
+[single] amsterdam.
+[single] Met voorschooten. —
+[single] quadruplicaat register
+[single] EE: EE: N=o 1: _d=o origh: brieff, door d' Ed=le E:r Gouvern=r Laurens
+[single] pijl
+[single] e
+[single] 4
+[single] g
+[single] 989
+[single] ..
+[single] n „ n: „ 5S:
+== NL-HaNA_1.04.02_1420_0028 | #28 | sides: single | lines: 34
+[single] E
+[single] 1999:
+[single] 5555
+[single] EEEh: „
+[single] 7777
+[single] se11: „
+[single] kkkk: „
+[single] inhandight
+[single] pijl, en raat tot Colombo, aen d' hoogEEd=le heeren
+[single] Bewinthebberen ter Vergaderinge van X V ij=m
+[single] tot amsterdam gesz: —
+[single] cccc N=o 39: d=o d=o door, en datum als vooren aen d' hooghEd=le
+[single] heeren Bewinthebberen ter Camer amsterd: gesz:
+[single] d0dd: „ 40: d=o d=o als boven aen d' hooghEd=e heeren Bewint hebb:
+[single] ter camer Zeelant gesz:
+[single] EEEd: „ 41: d=o _=o adidem aen d' Ed=le heeren Bewinthebb:
+[single] ter camer rotterdam gesz:
+[single] F
+[single] JSS: „ 42: d=o _=o als vooren aen d' Ed=le h=ren Bewinthebberen
+[single] ter Camer delfse gesz:
+[single] -
+[single] 9994: ven biekhoud: m onster rolle van d' fluijt voorschooten
+[single] inhandight
+[single] rolle der officieren van gem: bodem, en haer comportem:ten
+[single] C
+[single] factura van't geladene in d=o fluijt.
+[single] e
+[single] cognoiscement derselve.
+[single] P L L L: den boeckhoude in cost reecq: van d=o bodem. —
+[single] Colombo den 12=en Januarij A=o 1687:
+[single] Revos
+[single] seerts.
+[single] ƒ
+[single] „
+== NL-HaNA_1.04.02_1420_0029 | #29 | sides: single | lines: 31
+[single] Impliatie der papieren
+[single] bij dheer Commandeur
+[single] thomas van Rhee, en den raed
+[single] alhier, bij de voorstaende
+[single] gevoegd, als: —
+[single] ƒ
+[single] N„o 52. originele missive op hedigen dato door als vooren
+[single] aan de hoog Ed=le heeren bewinthebberen
+[single] ter vergaderinge van seventiene tot
+[single] amsterdam geschreven
+[single] Copia verclaringe, wegens t' bergen, en gewaer
+[single] 53:
+[single] worden der leckagie van een kasje, off
+[single] karba, met mallebaerse Camphur olij—
+[single] op de fluijt princeland.
+[single] 54. b=o d=o wegens t' openen, en bevinden van
+[single] bovengem: kasje, en karba. —
+[single] 55. Lijsten van diverse procuratien te deser
+[single] secretarije gepasseert, om ter Camer
+[single] amsterdam, Zeeland, hoorn, en delvd—
+[single] ontvangen te werden.
+[single] Inde stad Gale den 21en
+[single] Januarij 1687
+[single] Zacharia Makelaar
+[single] Secrets.
+[single] r
+[single] :
+[single] -
+[single] -
+== NL-HaNA_1.04.02_1420_0030 | #30 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0031 | #31 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0032 | #32 | sides: single | lines: 1
+[single] Register der Papieren
+== NL-HaNA_1.04.02_1420_0033 | #33 | sides: single | lines: 19
+[single] Vier stux Copia brieven door d' Ed=le
+[single] H„r gouverneur, en Raat den 20„en Februarij
+[single] 25„' maij. 9=e Septemb:, en 23„' october
+[single] Des gepasseerden Jaars aan haar Ed„ls
+[single] Achtbare Tot Batavia gesz=—
+[single] Acht d=os door als voren den 19=e april, 13:' maij
+[single] 12„. Iunij, 30=e Iulij, 24=e aug=o, 3=en Septemb:—
+[single] en 11=e october passado aan de hoogh—
+[single] Ed=le H„r Commissaris Hendrick;—
+[single] en
+[single] Adriaan van Rede na bengale gesz„n
+[single] Originele missive door als voren op heeden 2: Januarij
+[single] of aan d' hoog Ed=le H=ren Maijores gesz. —
+[single] Specificatie van de verschillen der generale
+[single] lasten, en winsten deses gouvernements—
+[single] tusschen d= Jaren 1684. ), en 85. , en—
+[single] 1685„ en 186.
+[single] N.
+[single] 11
+== NL-HaNA_1.04.02_1420_0034 | #34 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0035 | #35 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0036 | #36 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0037 | #37 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0038 | #38 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0039 | #39 | sides: single | lines: 25
+[single] Battavia
+[single] d' Ed=le b„r ommiss=s
+[single] eecqua bengale
+[single] d Hoogh Ed=le heer gouverneur
+[single] erael, Iohannes Camphuijs, en
+[single] een Raden van Jndia—
+[single] Ed=le hoogh gebiedende:—
+[single] aghtb=e heere, en Heeren
+[single] Den 25=en gber: hebben van gale met 't schip den
+[single] da
+[single] blauwen hulck Jongst Jn eerbiedigh„t aan uEd=le
+[single] ena
+[single] a„ gesz„, en daar bij jn't Cort aangehaalt, om wat
+[single] reeden voorsz: bodem 't reijse van tutucorijn naar
+[single] batt=a niet hadde Connen gewinnen, gelijck mede
+[single] hoe daags voor ons schrijvens den wel Ed=le h=r
+[single] Commiss=s van Reede heere van mijdreght de —
+[single] reijse met 't Jaght d' purmer, naar bengale hadde
+[single] ondernomen, den 28=en daar aan gevolght sijnde vand'
+[single] fluijt adrichem met 2212. am„s Calpatijnse arreecq,
+[single] en naardemael, sijn gem: Ed=le soo verre d' onse hebben
+[single] connen vernemen, met een voorspoedige wind, en
+[single] gangh de rivier van waluwe gepasseert is, willenw'
+[single] hoopen
+[single] vn
+== NL-HaNA_1.04.02_1420_0040 | #40 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1420_0041 | #41 | sides: single | lines: 25
+[single] Battavia
+[single] adrichem d' Ed=le h„r Commiss=s
+[single] met arreecq ua bengale
+[single] gevolght.
+[single] aan d' Hoogh Ed=le heer gouverneur
+[single] generael, Iohannes Camphuijs, en
+[single] heeren Raden van Jndia —
+[single] Ed=le hoogh: gebiedende. —
+[single] aghtb heere, en Heeren
+[single] Den 25=en gber: hebben van gale met 't schip den
+[single] blauwen hulck Jongst Jn eerbiedigh„t aan u Ed=le
+[single] vama
+[single] a„o gesz„, en daar bij jn't Cort aangehaalt, om wat
+[single] reeden voorsz: bodem 't reijse van tutucorijn naar
+[single] batt=a niet hadde Connen gewinnen, gelijck mede=e
+[single] hoe daags voor ons schrijvens den wel Ed=le h=r
+[single] Commiss=s van Reede heere van mijdreght de—
+[single] reijse met 't Jaght d' purmer, naar bengale hadde
+[single] ondernomen, den 28=en daar aan gevolght sijnde vand'
+[single] fluijt adrickem met 2212. am„s Calpatijnse arreecq,
+[single] en naardemael, sijn gem: Ed=le soo verre d' onse hebben
+[single] connen vernemen, met een voorspoedige wind, en
+[single] gangh de rivier van waluwe gepasseert is, willenw'
+[single] hoopen,
+[single] vn
+== NL-HaNA_1.04.02_1420_0042 | #42 | sides: single | lines: 31
+[single] visite van sijn Ed=le over
+[single] de buijten posten
+[single] ordre, daar ontrent gestelt
+[single] Hoopen door godef hulpe, een corte, en een
+[single] behoude reijse sal gehad hebben, als mede 't fluijtie
+[single] adrickem, 't geene ons beright is, dat almede Jn't
+[single] gesight van sijn wel Ed=le was g'advanceert, alle-
+[single] de goederen, en contanten met voorsz: bodems voor
+[single] bengale uijt 'tpatria gebraght sijn, daar mede
+[single] soodanigh oock weder versonden. —
+[single] De aancomste van den wel Ed„le h=r Commiss=s
+[single] voorn=t sijn Ed=le authorisatie, en dat alhier —
+[single] agter volgens d' opene Commissie van d' hoogh Ed=le heeren
+[single] majores verleend daar voor is aangenomen, en erkent
+[single] me
+[single] due
+[single] hebben uEd=le a„o bij onse letteren van den 25=en octob=r
+[single] over tutucorijn met voorm: blauwen, sulck affgegaan
+[single] gecommuniceert, en dat sijn Ed=le van alles openingh;
+[single] en een visite naarde buijten posten soo veel jnd Corte—
+[single] tijd van sijn Ed=le aanwesen geschieden Conde, stinde—
+[single] gedaan te werden, nemende sijn Ed=le voor aff d' reijse-
+[single] van hier over malvane, hangwelle, tot Citevace, en
+[single] naar alle plaatsen wel besigtight hadde, keurde de
+[single] hooghte alwaar hangwelle geprojecteert is, voor
+[single] goet, dogh citevaca met ons oordeelende qualijck
+[single] en dat wel voordeeliger jn't begin Conde geleght
+[single] sijn geweest, zulcx sijn Ed=le den gouvern=r ordonneerd
+[single] Die
+[single] N.
+== NL-HaNA_1.04.02_1420_0043 | #43 | sides: single | lines: 36
+[single] 11
+[single] 't werck op nigombo soodanig
+[single] en reperatie
+[single] caliture volgens 't oude
+[single] omtreck met weijnige veranderige
+[single] op te trecken
+[single] ende bergh op bentoth wat te
+[single] accommodeeren
+[single] Die post bij occagie, en wanneer 'tselve—
+[single] -
+[single] bequaamst sullen oordeelen van 't Canon, ende —
+[single] ammonitie nevens partij volck te lighten, en Jn
+[single] te trecken, 'tselve beset laatende met weijnige —
+[single] toepassen, en lascorijns, 't geene dan soodanigh sullen
+[single] agtervolgen, naar 'twelcke gesamentl=jk tewater
+[single] weder affquamen; op nigombo d' visite mede —
+[single] affgeleght, en alles besigtight sijnde, heeft sijn Ed=le
+[single] te laaten met eenige verbekeringe goet gevonden 't werck aldaar soodanigh als 't is te —
+[single] laaten, dogh soo veel mogelijck te verbeeteren, en te —
+[single] repareeren, meenende sijn Ed=le 't land, off strand—
+[single] daar omtrent, en aand' 5: hoeck doorde zee weggenomen,
+[single] wel weder met het maacken van uijtsteeckende
+[single] hooffden, en 't doorsteecken vande rivier boosten 't eijland
+[single] texel te herwinnen sal sijn, 't geene den tijt, wanneer
+[single] w' genoegsaem arbeijts volck hebben, om 't werck bij der
+[single] hand te nemen, ons sal leeren
+[single] Caliture heeft sijn Ed=le g'ordonneert mede soo te
+[single] laaten, en wanneer genoegsame arbeijders hebben,
+[single] volgens 't oude omtreck hier, en daar, eenige wijnige
+[single] veranderingh doerde, soodanigh het dan best sal willen
+[single] schicken, mede op te trecken, en bentoth naar tijts
+[single] gelegenthi, en 't oudewerck, en bergh wat te accommideeren,
+[single] Te
+[single] In
+[single] eerd
+== NL-HaNA_1.04.02_1420_0044 | #44 | sides: single | lines: 31
+[single] met den alexander over
+[single] hebbende aand' E. van Rhee
+[single] transport gedaen
+[single] sijn E: tot commandeur
+[single] gevordert
+[single] De reeden van 't een en 't ander haalt sijn wel Ed=le
+[single] bij sijn schrijvens aand' hoogh Ed=le heeren majores
+[single] jn't breede aan, en waar van geloove uEd=le a:o mede
+[single] communicatie sal doen, daar aan, en 't geene verder
+[single] vande buijten posten comt te seggen, ons eerbiedigh
+[single] zullen gedragen
+[single] Bij onse laaste, hebben wij uEd=le a„ geadviseert dat den
+[single] giear
+[single] wel Ed=le h„r Commissaris voor den dienst vand' E Comp:
+[single] nodigh heeft g'oordeelt, den Command=r tesage van gale
+[single] te verplaatsen, en Jn sijn E: keure te laaten, als
+[single] president vanden raat van Justitie tot Colombo te
+[single] resideeren, dan in sijn E: qualit„t na batt=a te vertrecken, en
+[single] der command:r tesage vaart dat sijn E: 't laaste g'accepteert heeft, zulcx nu met
+[single] 'tschip den alexander tot uEd=le a„o overvaart, hebbende
+[single] bevoorens op onse ordre aanden hooft administrateur
+[single] thomas van Rhee behoorlijck transport van alles—
+[single] gedaen, niet twijffelende, off d' E: Comp: sal met dese. —
+[single] schickingh, en doorde bequaemh=t, en kennisse vanden E:
+[single] van Rhee, veel beeter als nu eenigen tijt herw=s aldaar
+[single] gedient sijn, op welck vertrouwen, sijn Ed=le d' Ed„e heer
+[single] commiss=s den E. van Rhee met de qualiteijt van
+[single] commandeur, en 120: g=e ter maant heeft begonstight,
+[single] met dese verschansingh, is den E: de heijde heeft tot
+[single] tutucorijn,
+== NL-HaNA_1.04.02_1420_0045 | #45 | sides: single | lines: 34
+[single] 12
+[single] van vliet tot oppercoopman en
+[single] hooft op tutucorije —
+[single] blom tot oppercoopman en
+[single] dessave van Colombo—
+[single] van dielen tot oppercoopm: en
+[single] „dessave van Jaffanapatn: ende
+[single] wannij—
+[single] d' heijde tot hooft administrat, Tu tucorijn, weeder als hooft administrateur —
+[single] op colombo Jn plaatse vanden E. van rhee —
+[single] aangestelt, en den coopman van vliet, weeder als hooft
+[single] op tutucorijn geplaast, en mits tijts Expiratie gevordert
+[single] tot oppercoopman met ƒ 80: ter maand; den Coopman
+[single] en sec„rs floris Blon, die wij uEd=le voorheenen gesz:
+[single] hebben, dat omd' Jnpotenth=t vanden dessave sterrevelt, dat
+[single] ampt bij provisie stingh aan bevoolen te werden, is naar
+[single] 'tselve eenigen tijd, naar behooren waargenomen hadde, mits
+[single] aan gem: sterrevelt bij 't aanwesen vand' Ed„le heer
+[single] commiss=s door gecommitteerdens besoght sijnde, geen
+[single] beeterschap gesien conde werden, door sijn Ed=le met
+[single] Expiratie van tijt gevordert tot oppercoopman met
+[single] opf
+[single] ƒ80: p=r maant, en tot absoluijt dissave aangestelt, en
+[single] daar van Commissie verleent, gelijck oock gedaan is aanden
+[single] coopman Jsaack van dielen als dessave vande —
+[single] Jaffanapatn=s provintien, ende wannij gel„k de dessaves—
+[single] voor heeren allijt geweest sijn, den selven mede begunstigende
+[single] mits sijn coopmans verband allangh uijtgedient had, merd
+[single] qualit=t van oppercoopm: ende ordinarij gagie van 80: g=e
+[single] ter maand, met dese schickingh de secretaris plaats
+[single] deses gouvernements vacant, en opengevallen sijnde, is
+[single] daar toe als de bequaemste door sijn gem: Ed:e weeder
+[single] aan
+[single] N.
+== NL-HaNA_1.04.02_1420_0046 | #46 | sides: single | lines: 50
+[single] alebos tot Coopman, en sec„
+[single] deses gouvernem=ts
+[single] d'costa tot cap„t en
+[single] goet kint tot cap:t luijt=t
+[single] aangestelt. —
+[single] den gouvern=r, en raat
+[single] gequalificeert luijt„s ondercoopl„
+[single] en vaandrighs te maaken
+[single] op approbatie—
+[single] sullen geene meer buijten 't
+[single] reglement vordragen
+[single] goet vertrouwen vande
+[single] versekerde persoonen
+[single] Aangestelt, den ondercoopman, en E:te Clercq: Claas
+[single] alebos, en met halveeringh van gagie toegevoeght 50:
+[single] ter m„t nevens de qualitijt van Coopman, om daar voor
+[single] sijn tijt uijt te dienen, sijnde den Luijt- dessave gregorius
+[single] d' Costa weeder als vooren tot cap: vande toepassen, met
+[single] ƒ 70: p„r m=t, en den L„t goetkint als d'eerste jn rangh tot
+[single] cap„n luijt=t met ƒ 65. ter maand, aangestelt, laatende—
+[single] voorts 't vervullen vand' resteerende vacante plaatsen, op
+[single] aan
+[single] uEd=le a„o approbatie aanden gouvern=r, en r„t gedefereert,
+[single] da
+[single] haar mede qualificeerende als voor heenen luijt, ondercoopl=n
+[single] en vaandrigs op uEd=le a„o goetkeuringh te maaken, mits
+[single] le d
+[single] daar omtrent oock stix bij 't reglement blijvende, wat sijn
+[single] 910
+[single] wel Ed=le over dese saacke naar 't patria aan d ho: Ed=le
+[single] &
+[single] h=ren majone heft gesz: vertrouwe door sijn Ed=le uEd=le a.
+[single] Cren
+[single] mede sal gecommunic„t, en van alle 't voorsz„ kennisse
+[single] dene n.
+[single] gegeven werden, Jn hoope uEd=le a„n 'tselve sullen comen te
+[single] approbeeren, en oock genstigh agreeren uEd„le a: verseekerende
+[single] dat w' ons stipt bij 't reglement sullen houden, en uEd=le
+[single] âa: geene daar buijten meer Comen voortedragen 't geene ons
+[single] oock wel expressel=k verbooden is, en wij gehoorsamen sullen
+[single] dat den gouvern=r oock te minder moeijten sal toebrengen
+[single] sijnd
+[single] D' hier voorgen, verbeeterde persoonen twijffelen niet off
+[single] d
+[single] zullen volgens beloften haar dese verbelteringh door jver
+[single] tnaghten
+[single] m
+[single] d
+[single] aar
+[single] dessel
+== NL-HaNA_1.04.02_1420_0047 | #47 | sides: single | lines: 37
+[single] 13
+[single] aankomst van d' eerhoorn
+[single] en dat van waterlant
+[single] d' goederen van mallabaer
+[single] daar mede ontfangen
+[single] desselfs arrivement op gale
+[single] ult:o xber: affgeladen geweest, met
+[single] en canneel
+[single] Traghten waardigh te maaken, en soodanigh comen te
+[single] lelm
+[single] comporteeren dat uEd=le a„o daar door sullen gepermoveert
+[single] werden haar verder ten goede te gedencken
+[single] T voorenstaande nodigh gagt hebbende uEd=le a:o voor aff —
+[single] te communiceeren, zullen als nu treden tot
+[single] 't beantwoorden van uEd=le a„o seer g'extimeerde letteren,
+[single] vanden 22=e 7ber, ons den 28e oc tob=e gelijk bij ons —
+[single] laast gem: schrijvens uEd=le a:o g'adviseert is, met de
+[single] een hoorn toegebraght, en vervolgens jder materie op sijn
+[single] gle /
+[single] plaats affhandelen, aanvanckelijk dan seggende uEd=le a:o
+[single] bij ons meermalen gen: lanste brieffje g'adviseert hebben, de
+[single] na
+[single] behoude aancomst van 'tschip waterland van mallab=
+[single] beladen met soodanige goederen, als bij een apparte memorie
+[single] hier nevensgaende uEd=le a: werd verthoont, naar dat dan
+[single] gue d
+[single] eenige goederen uijt voorm: bodem gelight, en dat hot
+[single] weeder met Canneel, en andere waaren die op gale mosten
+[single] wesen, affgeladen hadden, is deselve daar mede niet eerder
+[single] aldaar g'arriveert dan den 27=en 9ber: pass=o, wanneer —
+[single] voorsz: bodem nevens d' eenhoorn ons tot vervoer der
+[single] retouren door uEd=le a:o toegesonden, soo dra doenl=jk tot de —
+[single] sijnde nevens d'een hoorn al voor reijse hebben vervaardight, en 't geene op gale in voorraat
+[single] d'in voorrekt westende goederen hadden, buijten den Canneel daar in affgeladen waar mede
+[single] al voor suijt eijnde vande m=t xber gedaen gecregen
+[single] hebben
+[single] ƒ
+== NL-HaNA_1.04.02_1420_0048 | #48 | sides: single | lines: 34
+[single] 't waghten na dijck uijt
+[single] Zuratta —
+[single] basij van gale is g'arriveert
+[single] desselfs ladinge —
+[single] schiebroeck tot een derden
+[single] bodem aangeleght
+[single] Hebben, dogh vermits op madure, door dien met de —
+[single] revolutien, d' negotie soo lange stille hadde gestaan, —
+[single] weijnigh cleeden waren genegotieert, en van daar overgecomen d'
+[single] en die bodems nogh een groote ruijmte bevonden over te
+[single] gue
+[single] hebben, vonden goet dewijle uEd=le a„ 't jaght odijck—
+[single] soo tijdigh naar Zuratta hadden believen te depetcheeren
+[single] omde retouren van daar tot ons over te brengen, daar naar
+[single] tot den 9=en Januarij apass=o te waghten, en onderwijlen
+[single] alles dat maar conde aande scheepen te vervaardigen, ende
+[single] camers, en Coebruggen vol canneel sonder beloop van
+[single] pper te stouwen, 'twelck alles gedaan zijnde quam gem:
+[single] die den 11:e Januarij eerst inde odijck den 6=en Januarij onder 't land, en door Contrarie
+[single] stroom, en wind niet eerder jn gales bhaeij, dan den 11='
+[single] d=o, met soodanige goederen, als de factura ten bedrage
+[single] d
+[single] van ƒ 316158„ 12„ 3„ hier bij leggende uEd=le a: sal
+[single] vertoonen, door welcke laate aankomst, en die der provisie
+[single] scheepen uijt bengale, mitsgad=s de groote quantiteijt
+[single] goederen, en dat om te meerder canneel te vervoeren 't jaghet ben
+[single] schiebroeck daar bij nogh hebben moeten aanleggen, die—
+[single] bodems niet eerder jn gereetlh=t hebben connen gebraght
+[single] werden, dan den 19=en Januarij, en door stilte als Contrarie
+[single] 9 vertreck der retourscheepen wind, de reijse naar ons lieve vaderland ondernemen—
+[single] dan den 22=en daar alen volgende, godt geve haar.
+[single] en
+[single] En
+== NL-HaNA_1.04.02_1420_0049 | #49 | sides: single | lines: 42
+[single] 14
+[single] omen d' brieven daar mede
+[single] affgegaen
+[single] haar mede genomen
+[single] cangasoen
+[single] t benominge der selve
+[single] Ns
+[single] En, alle 'scomp:s bodems, een behoude, en voorspoedige
+[single] reijse, wat daar mede aan d' ho: Ed=le heeren majores den
+[single] H=rn en 15=en Januarij hebben gesz:„ sullen uEd=le a:o bij de
+[single] affschriften hier nevens gaande jn't breede connen
+[single] s'oogen, en daar bij ontwaren dat voorde Camer amsterdam
+[single] is versonden als.
+[single] met waterland. ƒ 415830„ —„ 10
+[single] schiebroeck. . . . „ 45892„ 16
+[single] ƒ 461722:16:14.
+[single] Voord' Camer Zeeland met de
+[single] „ 255036„ 1:
+[single] een hoorn
+[single] m
+[single] monteerende te samen - - - ƒ. 716758„ 18: 5.
+[single] d
+[single] Godt geve dat daar mede tot Zoulnes van 's Comp=s
+[single] sware lasten, en voorheenen geledene schade, een goede
+[single] merct mogen aantreffen, ende gedesireerde advance.
+[single] affwerpen, voorsz scheepen sijn gemant als. —
+[single] 133: coppen op waterland te weeten
+[single] 92: zeevarende
+[single] 41: militairen
+[single] 44: Coppen op schiebroeck
+[single] 42: zeevarende
+[single] 2: militairen
+[single] 44:
+[single] 116„ coppen op den eenhoorn als. —
+[single] 87: zeevarende
+[single] 29: militairen
+[single] Nn
+[single] d
+[single] 293 Coppen tesamen, gel„j uEd=le a:o dat bij de overgaande
+[single] Rollen
+== NL-HaNA_1.04.02_1420_0050 | #50 | sides: single | lines: 33
+[single] de scheepen connen uijt
+[single] Zuratta in maij. Junij, en
+[single] en gale camen
+[single] d' zijx met d' goederen voor
+[single] gen: plaats.—
+[single] scheepen ordinarij Jn maij van daar voor't patria
+[single] werd versonden, hier niet wel aan te brengen soude sijn,
+[single] daar van sijn E. nu beeter bij onse letteren vanden 29=en
+[single] Januarij onderright hebben ged=je 'tselve oock naar't
+[single] patria aand' ho: Ed=le heeren majores bij ons hier voor
+[single] geciteert schrijvens is aangehaalt, en dat d' scheepen
+[single] vervolgens altijt op tutucorijn Jn maij, Junij, en vervolgens altijt op tutucorijn, en jnd
+[single] Chaij van gale Connen aancomen, maar alsoo de zee
+[single] verstandige dickwils door agteloosh=t moetwil, en
+[single] particuliere jnsighten gale voor bij loopen, soo zoude
+[single] om seecker te gaen, d' Jndigo Jn passant op tutucorijn
+[single] „werden
+[single] connen „ gelost, en dan voort haare reijse weder
+[single] vervorderen, sonder daar mede veel tijt te versuijmen—
+[single] welcke voruw dan jn 't eerste van 9ber: met de—
+[single] cardemomt, die aldaar om 't droogh Climaat ordinarij
+[single] werd opgeleght nevens d' aldaar genegotieerde doecken
+[single] naar gale soude Connen werden gebraght waar mede dan
+[single] die swarigh=t te boven gecomen is —
+[single] 'T Jaght d' zijx op tutucorijn vertimmert, en ons van daar
+[single] d'
+[single] een ladingh Calck, en partij cleeden den 5:n Januarij —
+[single] per
+[single] toegebraght hebbende, is naar ontlossinge weeder met
+[single] persia, en Zuratta na laest soodanige goederen voor persie „ suratta affgeladen als
+[single] ons met d' fluijt langewijck a=o 1684: en nu Jongst
+[single] met
+[single] en
+== NL-HaNA_1.04.02_1420_0051 | #51 | sides: single | lines: 33
+[single] 16
+[single] d' brieven na Zuratta, en
+[single] persia versellen dese.
+[single] met de purmer, en adrichent uijt 't patria sijn
+[single] toegecomen, bestaande jn't volgende.
+[single] 5: Cassen met Coecenille get=t N=o 61: 62: 63. 64: en 65.
+[single] 22: d=o met laackenen gem„t N:o 59. 41: 51: 49: 50: 49: 53.
+[single] 55: 39: 48: 58: 57: 37: 38: 52: 56:47: 40: 42: 54: 43. en 46:
+[single] 1: pack met groene laackenen get:t &e E: daar jn 2: p=s
+[single] 3. 2: kisten met benjuwijn
+[single] 38: d=os met Camphur
+[single] 180: d=os met poejer suijcker
+[single] 544: d=os Candij suijcker
+[single] 21933. lb=e spiaulter
+[single] 198: balen fijne Ceijlonse Canneel, en
+[single] 6: hollantse masten
+[single] De zuijcker is vrij vogtigh, en seer g'laxceert, de —
+[single] 3: masten van 10: en 11: palm hebben op 't versoeck vande
+[single] H=r direct=r bucquoij, en den raat van onsen sooberen
+[single] r
+[single] Cr
+[single] voorraat, Jn plaatse vande vergaane spieren haar E:
+[single] toegesonden, alsoo anders niet wel bequvam soude sijn,
+[single] d' gemaacte smal scheepen voor bengale derwaarts
+[single] te senden, wat over 't een, en het ander derwaarts, en oock
+[single] delede
+[single] naar persia hebben gesz„ sullen uEd=le a: de affschriften
+[single] daar van hier bijgevoeght, jn't wal newen vertoonen, en
+[single] mits d' saacken op de laast gen: plaats soodanigen goet
+[single] succes niet hebben gehadt, als daar van verwaaght,
+[single] Ende
+[single] v
+[single] daar
+== NL-HaNA_1.04.02_1420_0052 | #52 | sides: single | lines: 36
+[single] sitten in persia overcropt
+[single] met d coopmansz:
+[single] d' bodems na derwaerts
+[single] gedestineert sullen gelasten
+[single] e
+[single] zuratta eerst aan tedoen
+[single] d' brieff uijt zuratta na't
+[single] vaderland gesz:
+[single] en eenige persise papieren
+[single] daar van eenige Copien aande
+[single] Ende gehoopt hadden, en aldaar met soo veel
+[single] coopmansz: overcropt sitten, dat in geen 2: Jaaren
+[single] sullen connen vertieren, soo sullen vermits de vrunden
+[single] van persia naar suratta versoght hebben, d' aldaar
+[single] voor haar aangebraghte coopmansz: te willen
+[single] aanhouden, en op d' beste wijse verhandelen, d„o bodems
+[single] naar persia gedestineert, gelasten, eerst zuratta aan
+[single] te doen, om aldaar nader ordre, en bescheijt te ontfangen,
+[single] waar van oock naar mallab=re Communicatie hebben
+[single] gegeven, om de passeerende scheepen 'tselve mede te
+[single] ordonneeren. —
+[single] 'T geene d' h=r direct=r bucquoij, en den raat met de
+[single] van hier vertreckende scheepen, naar 't vaderlant
+[single] aand' ho: Ed=le heeren majores hebben gesz:, hebben
+[single] glm
+[single] alhier laaten copieeren, en tot uEd=e a: speculatie
+[single] hier bij gevoeght, gel=jk oock hier nevens gaan d' papiere
+[single] na batavia gaan hier nevens doorde vrunden, Jn persia aan uEd=e a:o gesz: en
+[single] ge tull
+[single] met 't Jaghtje d' Craanvogel, den 3=en Januarij hier
+[single] aangebraght, waar van d' origineele brieven, en't
+[single] schriftel=jk rapport vand' h=r van heuvel, end' Jager
+[single] wegens haar E. verrigtinge, en wedervaaren aan't
+[single] h=ren majores gecommunic„t persische hoff mitsgaders drie Copia translaat
+[single] requesten, door gem: h=r van heuvel aanden attermand
+[single] douleth.
+== NL-HaNA_1.04.02_1420_0053 | #53 | sides: single | lines: 34
+[single] d vareede, tusschen den teuver,
+[single] Een madurier geslooten
+[single] d' negotie neemt weder
+[single] voontganck
+[single] caperman tot secunde op
+[single] tutucorijn aangestelt
+[single] Douleth, en den wakam was gepresenteert,
+[single] dee
+[single] hebben laaten Copieeren, en 'tselve d' ho: Ed„le heeren
+[single] redr
+[single] majores toegesonden, gel=jk uEd=le a„ dat, en 't verdere
+[single] dit gouvernem=t concerneerende bij 't affschrift van
+[single] ons hier voor geciteerde schrijvens naar 't patria
+[single] jn't breede aangehaelt sullen vnaden, en hoewel ons —
+[single] daar aan met eerbiedigh=t gedragen, en daar bij veele
+[single] saaken vervat staan, die tot rescriptie van uEd=le &
+[single] seer g'eerde letteren connen dienen, soo zullen niet te
+[single] „dogh
+[single] min de principaalen Jnhout bij desen „ Cortel„e overloopen
+[single] en aanhaalen, aanvangende met de Custe van
+[single] Nadure, alwaar d' streijdende partijen Jn't geheel vereenight, d'
+[single] tegens vanden anderen getrocken, en de Contracten
+[single] geratificeert sijn, betalende naar men voorgeeft den
+[single] teuver aan sijn meester den maduresen neijck
+[single] 50 Ø: pard=s en eenige andere dingen
+[single] hier mede begint de negotie weder vooontganck
+[single] te Crijgen, en werd deselve naar vermogen voortgesel,
+[single] niet twijffelende, off 't nieuw gestelt opperhooft sal
+[single] nevens den out ondercoopman Caperman die als de
+[single] outste, naeste, en bequaemste tot tweede bijprovisie
+[single] aldaar is aangestelt, haar daar omtrent naaer overmogen
+[single] Comer
+[single] m
+[single] 17
+== NL-HaNA_1.04.02_1420_0054 | #54 | sides: single | lines: 46
+[single] d' peerl reven staan
+[single] gevisiteert te werden
+[single] het geschenck aanden madureer
+[single] hem aangenaem geweest,
+[single] translaat van sijn hoogh=t
+[single] oans.
+[single] mitsgad„s het geschenck aanden
+[single] dat aand' E d' heijde haem
+[single] vereert.—
+[single] Comen te extueeren, en haar talent door haar langh
+[single] aanwesen, en cundigh=t niet minder dan d' voorige
+[single] comen te besteeden.—
+[single] Dat d' peerl reven naar Behooren staan gevisiteert
+[single] en met 't duijcken van Chiancos sorge gedragen te
+[single] verle
+[single] werden, de reven daar door niet beschadight, off bestolen
+[single] chia
+[single] werden, sullen uEd=le a: bij ons schrijvens naar 't
+[single] ed
+[single] vaderland jn't breede vervat vinden, als mede dat het
+[single] geschenck aanden madumer gedaan, sijn hoogh:t gevalligh
+[single] is geweest, en hij belooft heeft d' onse omtrent d' negotie
+[single] behulpigh soude sijn, ende Coopl=n vand' E: Comp: niet
+[single] meer dan volgens out gebruijck de geregtigh=t sonder
+[single] andere pene affnemen, ende voortaan met haar Jn
+[single] alle billijckh=t doen handelen, gelijck d' translaat.
+[single] desselfs oom, en lantreg=ts olens dierwegens van sijn hoogh=t, sijn hoogh=ts oom
+[single] andepanijck, enden landregent daar toe affgesonden, en
+[single] hier bij gevoeght, breeder vertoonen Connen, wat sijn
+[single] gouv=r gedae, gaan hiernevens hoogh=t tot geschenck aanden gouvern=r pijl heeft gesonden,
+[single] gaat hier nevens, om off daar jn eenige steenen mogten
+[single] sijn, die voorden siamsen vorst conde dienen, 't gene
+[single] aand' Eheijde is gegeven, bestaande in eenige cleeden, een
+[single] snoer van sleghte, en scheeve peerltjes, en andere Leenigheeden,
+[single] is sijn E: op uEd=le a: goetvinden uijt d' naem vand
+[single] E:
+[single] ordre
+[single] t
+[single] Comp:s
+[single] Nans
+[single] sijn
+[single] hoogen
+[single] dogh
+[single] hoogen
+[single] der peer
+== NL-HaNA_1.04.02_1420_0055 | #55 | sides: single | lines: 42
+[single] 18
+[single] Eende
+[single] O
+[single] Jn rade vereert
+[single] omp„s
+[single] oorsaecke waarom het
+[single] verleden Jaar soo weijnigh
+[single] chiancos gevangen sijn
+[single] sijn in bengale op een
+[single] hoogen prijs. .
+[single] dogh den arreecq op gale
+[single] hoogen vercoght.
+[single] ordre gestelt op het visiteeren
+[single] der peert reven
+[single] Dat 't gezal der chiancos 't verleedene Jaar na gale
+[single] gesonden, pas een derde bedraagt van 't geene voor
+[single] heene daar van wel is gesonden, moetenw' met uEd=e
+[single] de
+[single] a„o bekennen, waar toe gel=jk voorheenen oock gesz„ is —
+[single] de revolutien veel, dogh de armoede, ende weijnige —
+[single] thonijs, als 't verloopen der menschen, wel 't meste hebben
+[single] gecontribueert, wat quantit„t van dat zeegewasch
+[single] desen Jaare daar sal gevangen werden, is niet wel te
+[single] calculeeren, en hebben derw=s gerecommeerd„ met dese
+[single] vredige tijden soo veel mogelijk daar van te versamelen,
+[single] te meer d' vrunden uijt bengale schrijven, deselve op een
+[single] seer hooge prijs gestijgert, dat wel meermalen daar van
+[single] M
+[single] en vande arreecq gesz: is, alsser geen gesonden was,
+[single] maar als deselve daar aangebraght wierde soo —
+[single] daaldense terstont in prijs gel=ike nu met d' laast.
+[single] gesondene arreecq schijnt geschiet te wesen, alsoo deselve
+[single] pas soo veel heeft Connen haalen, als op gale aan—
+[single] -
+[single] perticuliere vercoght is, van welcke vrughten, ende
+[single] chiancos jnde materie van gale, nader sullen spreeken,
+[single] en hier mede dus Cortelijck tot
+[single] Manaer, En Jaffanapatn: overgaen, alwaar mede ordre gestelt
+[single] is, tot 't besoecken der peerl reven, hoedanigh deselve,
+[single] Ns.
+[single] 9
+[single] En
+== NL-HaNA_1.04.02_1420_0056 | #56 | sides: single | lines: 29
+[single] een harden storm gehad
+[single] d' schade daar door geschiet
+[single] En die op d' Cust van madure zullen werden
+[single] bevonden, zullen uEd=le a=a naarde besoeckingh best
+[single] connen communiceeren—
+[single] Naar 't vaderland hebben nu Jongst kennisse gedaen
+[single] van 't groot verlies, en deschade die de Jngesetenen lange
+[single] d' soom van 't water, en op d' Eijlanden, den 15=en 9ber:
+[single] jongst leeden door een harde storm, en oploopingh van't
+[single] water hebben gehadt, waar door de laagste besaaijde landen
+[single] besonderl=jk d' meeste eijlanden sijn ondergeloopen, en
+[single] niet alleen 't gesaeij bedorven, maar oock veele menschen
+[single] en naarmen voorgeeft duijsende van Cleen, en groot
+[single] wee verdroncken is, 'tgeene dat arme volck seer comt
+[single] te smerten, meer dan 100: stux: paarden zijnder oock
+[single] omden hals geraackt, dat ons jn die teelt veel te rugh
+[single] sal setten, gelijck oock besonderlijck, Jnde procure vande van
+[single] voruw, off zaeije wortelen, voorde vorwers noodigh, sal
+[single] doen, daar van, mits naarmen ons schrijft, deselve jn't
+[single] bloeijen stingh, doorde gem: vloet, meede veele verdroncken
+[single] is, dat niet alleen dit, maar nogh al eenige volgende
+[single] „vermits 't zigh zelfs moet voort zaaren
+[single] Jaaren veele schade sal toebrengen, dat nu niet sal
+[single] connen geschieden, alsoo door 'tsoute water overstroomt
+[single] is, en metter tijd weeder sal moeten voortgeset werden,
+[single] v, waarom, dien omd vorwerijen niet stil te doen
+[single] staan
+[single] Nts.
+[single] strij
+== NL-HaNA_1.04.02_1420_0057 | #57 | sides: single | lines: 39
+[single] 19
+[single] runas uijt persia
+[single] gevordert.
+[single] een brieff van Iaffanapatn:
+[single] Clagten der Ingeseleenen
+[single] over haar verlies
+[single] strijdigheeden in't schrijven
+[single] van Jaffanapatn: —
+[single] staan, off dat werck te laaten veragteren, uijt persia
+[single] 5: â 6000 lb= runas hebben gevordert, mits deselve, vers,
+[single] deugsaam, en geen out verlegen goet, sal dienen te weesen
+[single] zix
+[single] De Copije van 't schrijvens gedat:t 29=e xber: van Jaffanap:s
+[single] gl.
+[single] becomen, hebben hier nevens gevoeght, waar bij uEd=e
+[single] mc
+[single] a:o sullen sien d' Jngesezenen seer over haar voorsz
+[single] verlies Clagen, en dat sij mits de hooft, en landrenten
+[single] haar te swaar vielen, niet magtigh waaren die langer
+[single] te Connen opbrengen, waar op den heer Commandeur
+[single] vanderduijn schrijft, haar affgevraaght te hebben,
+[single] waarom haare armoede niet voor heenen, en Jnde twee
+[single] voorige paressen bekent hadden gemaeckt, welck, en meer
+[single] ander schrijvens ons al wat vreemt, en met d' beste
+[single] stigtingh niet te vooren comt, schijnende vergeeten te
+[single] hebben, wat ons den 10=e maij van't verleeden Jaar dat
+[single] maar 7: maanden verleden is, bij sijn brieff van voorm:
+[single] datum Comt te narreeren, namentlijck: dat door de
+[single] mont van Eene derselve deeden uijtstorten, een
+[single] heele harangie van Claghten, en Bekentmakinge
+[single] ee
+[single] tee
+[single] vande armel=e slaat daar sij, ende minderen doorde
+[single] sware, lasten van hooftgelden, en het te werck senden
+[single] van arbeijts luijden haar bevonden te sijn, mitsgad„s
+[single] dat soo niet langen Leeven, off Bisl aan Canden
+[single] -:
+[single] seggende
+[single] m
+== NL-HaNA_1.04.02_1420_0058 | #58 | sides: single | lines: 32
+[single] voortaan den dessave, en raat
+[single] bijde paresse te rapen
+[single] en daar van aan teeckeningh
+[single] te doen houden.
+[single] een rolle der geleden schade
+[single] gaat over
+[single] Seggende verder, daar meede kregen Beetel,
+[single] affscheijt, en gingen soo taliter vernoeght hun
+[single] sweegs. —
+[single] En vermits daar aan genoegsaem blijckt, dat als doen
+[single] daar over haare Claghten oock nogh hebben gedaen, soo
+[single] weeze 't nu gesz„ niet dat van den 4=en aug=s niet wel
+[single] over een te brengen, daar den Command=r seght de
+[single] hooffden gewilligh belooffden, haare hooftgelden, en lant
+[single] renten ter behoorlijcker tijt op te sullen brengen, en
+[single] vermits de paresseeringh voorden Command„r sonder den
+[single] ramt, off de dissaves daar bij te roepen gedaen is, soo
+[single] hebben goet gevonden derw=ts te ordonneeren, dat niet
+[single] alleen Jnde generale paresse van't lands volck den
+[single] dissave als van outs gebruijckelijk, maar oock den
+[single] geheelen raat daar bij geroepen, en present sullen sijn,
+[single] en dat doorden sec„te behoorlijcke aanteeckeningh van
+[single] alles sal moeten gehouden worden, wanneer vertrouwen
+[single] te minder verschillen sullen ontmoeten, wat schade
+[single] d' Jngesetenen soo aan huijsen, thuijnen, boomen, vee, en
+[single] gesaaij hebben geleeden, en aanden Command=r opgegeven
+[single] sal de bijgaande rolle, off specificatie daar van
+[single] uEd=le Jut breede verthoonen
+[single] a
+[single] staande over dese saacke wanneer den Command=r
+[single] vander
+== NL-HaNA_1.04.02_1420_0059 | #59 | sides: single | lines: 36
+[single] 20
+[single] vanderduijn herwaerts
+[single] ontboden
+[single] een expedient tegens het
+[single] verloopen der menschen &=a
+[single] sien uijt te vinden
+[single] gebreck van rijs, en versoeck
+[single] om eijsch daar van, van
+[single] cormandel te mogen doen
+[single] d' rijs consumptie op
+[single] Jaffanapatnam
+[single] ander duijn dien tot ons over te Comen
+[single] ontboden hebben, alhier sal verscheenen sijn, 't nodige te
+[single] besoingeeren, en hadden wel gewerst, d' Ed„le heer
+[single] Commissaris sigh van dese saacke hadde Connen
+[single] Jnformeeren, en alsoo met dese schade, en 't verloopen naar
+[single] ons ter ooren comt, van veele menschen, niet wel
+[single] langer uijt testellen sal wesen, sullen op de beste wijse
+[single] daar omtrent, een expedient sien uijt te vinden, buijten
+[single] dit verlies, en dat aldaar, soo wel als hier, een groote
+[single] droogte beleeft hebben, mancqueert het aldaar mede
+[single] aande buijck sorge, waarom den Command=r, en raat
+[single] versoght hebben, een Eijsch van 1000 lasten rijs van
+[single] Cormandel te mogen doen, alsoo zij seggen, d' E Comp:e
+[single] gehouden is, de soldaaten haare famielien, ende root
+[single] verwers voor hun gelt te versien, dat voord' E: Comp:
+[single] niet alleen seer lastigh soude vallen, maar oock vrij
+[single] wat absort, en nooijt in gebruijck geweest is, de
+[single] consumptie aldaar van rijs buijten manaer beloopt
+[single] omtrent Jaarlijx 90: â 100 lasten, en hebben de verwers
+[single] en soldaten voor haare fanielie 'tselve op de basaar
+[single] maandelijx, en Jaarl=jk moeten op doen, en dat heeft nu soo
+[single] veele Jaaren gecontinueert, oock soudenen bevinden,
+[single] alhoewel aldaar nogh niet wel 1000 lasten rijs
+[single] soude
+[single] ƒ
+== NL-HaNA_1.04.02_1420_0060 | #60 | sides: single | lines: 34
+[single] d' rijs vande barcquiers te
+[single] laten opcopen
+[single] qualificatie om van Cormand:s
+[single] mede eijsch van rijs tedoen,
+[single] den soberen voorraat op
+[single] Jaffanapatnam
+[single] schuijlenb: tot administrateur
+[single] op Jaffanap: aangestelt
+[single] Souden Connen Bergen, dat 't voornoemd graan
+[single] bij de packhuijs soude leggen vergaen, en bederven, alsoo
+[single] ordinarij de rijs veel goeder Coop vand aldaar aan
+[single] comende barcquiers vandes teuvers, en d' ormandelse
+[single] cust gecoght werd, als d' EComp: de haare soude
+[single] Connen geven, en van welcke vaartuijgen d' E: Comp:
+[single] haar tot nogh alle jaaren heeft Connen provideeren, —
+[single] dat den Command=r, en raat sullen aanschrijven mede
+[single] te volgen, en te practiseeren sullen hebben, sonder de
+[single] soldaaten, en andere, Jn een ander gewoonte als van
+[single] outs gebruijckelijk tot 's Comp:s lasten te brengen, haar
+[single] verder qualificeerende om 100. â 130. lasten van Cormandel
+[single] voor haar, en menaer te mogen vorderen, zij seggen op geld
+[single] aro
+[single] ult„mo xber: niet meer dan 1260: parra nelij dat 630 parra
+[single] rijs omtrent uijtmaeckt, maar Jn voorraat te hebben,
+[single] dat al wat weijnigh, en pas voor een maant Consumptie
+[single] is.
+[single] met de stellingh vanden administrateur vandielen
+[single] tot dessave als hier voor geseghut, soo is die plaats den
+[single] coopm: papiniauw, en dissave der wannij aldert
+[single] van schuijlenrd=a aangebooden, maar mits d' eerste
+[single] versoght om reeden daar van g'excuseert te wesen, en op
+[single] manaer, mits behoudende sijn rangh te mogen blijven,
+[single] heeft
+[single] Nt
+== NL-HaNA_1.04.02_1420_0061 | #61 | sides: single | lines: 32
+[single] 21
+[single] d' Eliphanten aldaar
+[single] vercoght
+[single] opgelden in Cannasserij en
+[single] araken veel minder
+[single] waarom de hant nogh al
+[single] meer sullen lighten,
+[single] Heeft den laaste 'tselve g'accepteert, dat oock
+[single] al verre best is, alsoo dogh met 't land volck niet
+[single] wel conde over een Comen, als verder bij ons schrijvens
+[single] naar 't vaderland te blijcken Comt, waar bij oock
+[single] gesien Can worden dat 't verleedene Jaar aldaar voorde
+[single] somma van 20005. rx=s. . . 8: gelande, en 56: stx:
+[single] ongetande beesten, off alias vercoght sijn, waar in
+[single] van herten te wenschen waare wat meerder sleet te
+[single] brengen was, en genoegsame coopl= daar toe
+[single] wilde overcoomen
+[single] volgens 't beright 't geene ons d' Ed=e h=r ordinaris.
+[single] raat, en gouvern=r pits van Cormandel heeft.
+[single] toegesonden, soude de eliphanten Jn tannasserij, en
+[single] arracan voor veel minder prijs dan hier ordinarij
+[single] vercoght worden, en 't welck bij naar de helft differeert,
+[single] om welcke reeden, hoe wel over al onder dit gouvern=r
+[single] d' hand bijde voorige tijden al veel jnden vercoop gelight
+[single] hebben, 'tselve nogh al meer genootsaeckt sullen wesen,
+[single] te doen, om te onderstaen, off daar door te meerder
+[single] coopl=n sullen willen overcomen, en grooter sleet jndie
+[single] groote dieren te brengen sijn, 't afschrift van gem:
+[single] beright gaat hier bij gevoeght. —
+[single] Dat d' vangs=t van dat groove animael aldaar
+[single] wel
+[single] n
+== NL-HaNA_1.04.02_1420_0062 | #62 | sides: single | lines: 41
+[single] en geen meer posten aan
+[single] houden, dan nodigh is —
+[single] d' gelimitteerde vaart der
+[single] Jaffanap=m jnwoonderen na
+[single] batticalo geeft maar aan
+[single] weijnige voordeel
+[single] een vaartuijgh met vrleeden
+[single] derwaarts gevoert
+[single] clagten over een Jaffanapatn
+[single] jnwoonder van Cormandel
+[single] Wel behartight, de fortificatie naaer behooren
+[single] voort geset wierden, en geen meer posten dan naer ddessel
+[single] calj
+[single] ordre, en nodigh is, soude aangehouden werden, sullen
+[single] uEd=le a: almede bij ons veel maal gen: schrijvens
+[single] ggul. &
+[single] aand' ho: Ed=le heeren majores vervat vinden, en daar
+[single] mos
+[single] bij oock ontmoeten de jngesezenen der Jaffanap=e
+[single] provintien bij de gelimiteerde vaar't naar trincquenen
+[single] en batticalo weijnigh, en soo men voorgeeft maar eenige
+[single] daar van 't gevael, en genot souden hebben, en waar onder
+[single] een met een vaartuijgh vol cleeden derw=s soude
+[single] gegaen sijn, dat als tegens de ordre strijdende, niet
+[single] sal moogen gesollereert werden, en waar naer zullen
+[single] vernemen, en hen naader ondersoeck laaten doen, te meer
+[single] over die persoon oock seer van Cormandel geclaagt
+[single] het
+[single] werd, en dat een Jnwoonder van Jaffanapatnam
+[single] extra
+[single] sijnde, de plaatse, off haven vande hoeck van caljem, daar
+[single] soude gepaght, en den ouden arreecq op trincq:s vand'
+[single] E: Comp: gecoght, en eenige van calpatijn aldaar
+[single] aangebraght, en andere daar toe mede beweeght
+[single] hebben, ontsettende d' E: Comp: alsoo de tollen die de
+[single] stadt, nagapatn„ anders daar van soude trecken,
+[single] buijten dat soude den selven sangerexulle, off eenen
+[single] domt philip cannagraij wesen, die altijt de renome
+[single] van
+[single] No
+[single] naga
+== NL-HaNA_1.04.02_1420_0063 | #63 | sides: single | lines: 35
+[single] 22
+[single] desselfs bedrijff op
+[single] caljemeere
+[single] extract brieffjes van
+[single] nagapatn: en Jaffanapatn
+[single] daar over hier bij gevoeght
+[single] susteru van nagapatn:
+[single] ongefondeert
+[single] 7.
+[single] Van een quijt, en vuijlick gehad heeft, en tot
+[single] beschermingh van sijn gepagte plaats, verscheijde
+[single] Pasc„o derw=ts soude gevoert, Jaa selfs ten tijden dat
+[single] die van tansjouwer met den marrua off teuver
+[single] Jn oorlogh waaren, op de naam van 's Comp: volck die
+[single] plaats daar mede geprotegeert hebben, dat w' bekennen
+[single] moeten een stout bestaan soude wesen, en niet wel te
+[single] rs
+[single] presumeeren sonder des Command=rs kennisse te
+[single] Connen geschieden, te meer die van nagapatn: daar
+[single] over met sijn E: verscheijde brieffjes hebben gewisselt
+[single] sonder aan ons daar van Jn haare brieven naar
+[single] herw=ts gesz: kennisse, off eenigh vermaen te doen, soo dat
+[single] ons dat werck de beste stigtingh niet Comt te geven;
+[single] het schrijven van d' h„r prisend wat d' Ed=le h=r ordinarij raat, en gouvern=r Pits
+[single] ons daar over is schrijvende, ende extracten tusschen
+[single] die van Jaffanapatn:, en nagapatn: gewisselt, ons
+[single] dee
+[single] daar nevens toegecomen, Jnhouden, zullen uEd=e
+[single] a:o jn't breede bijde Copie hier nevens leggende
+[single] connen b'oogen
+[single] Belangende de 3: principale point ten —
+[single] dewelcke die van nagapatn: tot haare deffentie
+[single] voortbrengen, meenen Jn soo veel billijckheijt
+[single] niet te bestaan, alsse daar bij wel comen
+[single] te
+== NL-HaNA_1.04.02_1420_0064 | #64 | sides: single | lines: 28
+[single] en wederleijt,
+[single] te sustineren, want gelijckse selfs seggen de
+[single] coopl=n haar arreecq langs de geheele Cust
+[single] aan brengen, en verkoopen daar zij 't meeste gelt
+[single] daar voor Connen bedingen, ende minste tot
+[single] betalen, sonder twijffel Jndien men den tot op nagapatn„
+[single] Jn plaast van soo veel te verhoogen wat vermindert
+[single] off als van outs gelaten hadde, soude aldaar veel
+[single] meer arreecq dan nu wel sijn aangebraght, soo nu
+[single] desen Jaffanasen jnwoonder de paght niet hadde, soo
+[single] soude dogh een ander die deselve besat, almede 't geene
+[single] comen te doen, dat hij nu doet, en soo den gouvern=r
+[single] voorstaat, is van daar altijt rijs, en nelij naar
+[single] Jaffanapatn: gebraght, sijnde seecker dat de rijs daar
+[single] stout
+[single] beeter coop dan op nagapatnam, en benoorden te
+[single] becomen is, want anders souderse daar naer toe
+[single] met geen leedige vaartuijgen, gelijckse Comer te
+[single] seggen, dat geschiet, nagapatn: voor bij gaen, hier op
+[single] moet 't derde poinct volgen, namentlijck soo aldaar
+[single] d' granen beeter Coop dan op nagapatnam te
+[single] becoomen sijn, en minder tollen, voorde jn, en uijt
+[single] gaande goederen betaalt wort, dat apparent daar
+[single] door de vaart soude vergrooten; waarw' meenen niet
+[single] sijn
+[single] dat 'tselve sulcken vaart sal loopen, soo dit
+[single] nu
+[single] calj
+== NL-HaNA_1.04.02_1420_0065 | #65 | sides: single | lines: 30
+[single] 23
+[single] gedughte sluijckerije vanden
+[single] caljemeers. paghter
+[single] stout bestaen vanden selven
+[single] sijn conduite —
+[single] nu schadelijck voor nagapatn: is, soo soudemen
+[single] weeder Connen sustineeren, het te voordeeligen
+[single] voord' Jaffanapatn„s Jngesetenen te sijn, en zij daar
+[single] door 't graan weeder te beeser Coop becomen, en
+[single] van daar niet anders brengen.
+[single] Het grootste quaat dat w' hier Jn sien, is, dat
+[single] gem: paghter die met soo veel Cleeden naar
+[single] trincq: is gelicentieert geweest, apparent daar
+[single] a
+[single] onder al een partije Caljemeerse doecken derw=ts sal
+[single] vervoert, en wel light, daar door partij arreecq ter
+[single] sluijck daar voor bemagtight, en weeder op Caljemeere
+[single] aangebraght hebben, buijten 't selve is het een stout
+[single] beslaan, eenige Jaffanapatn: lasc„s van 't land mede
+[single] te nemen, en als 's Comp=s volck Caljemeere soo wel
+[single] als den pagter daar door te protegeeren, en van
+[single] meerder aansien te maacken, naardemael ons —
+[single] 't vervoeren van Cleeden, en arreecq in dese passagien
+[single] al vrij wat suspect te vooren Comt, en voorn=t
+[single] cannagraij daar toe niet te goet is, soo sullen ons —
+[single] daar van nader Jnformeren, en gem: Cannagraij
+[single] schuldigh bevonden werdende hem naar herwaerts
+[single] metter woon doer comen, te meer een seer wreveligh,
+[single] en 'twistgierigh mens is, en die voor heenen jn't
+[single] Jaan
+== NL-HaNA_1.04.02_1420_0066 | #66 | sides: single | lines: 39
+[single] schelde, en hellevoetssuijs
+[single] over mallacca alhier
+[single] mede
+[single] discrepantien, tusschen ons,
+[single] en het Jaffanap:s schrijven
+[single] Jaar 166: oock beschuldight is geweest, wegens
+[single] 't maaken van valse pagoden
+[single] Dese dus verre geminuteert sijnde comen alhier
+[single] op den 27: en 29=' Januarij ter rheede over mallacca
+[single] tes
+[single] de jagter deschelde, en hellevoetsluijs, waar mede
+[single] dubbelt bequamen uEd=le a:o geert schrijvens vanden
+[single] 15=en 9ber: a=o pass=o nevens soodanige bijlagen, en
+[single] ontfangh der papieren daar schrifturen als d' Ed=e h=r schagen, en raat volgens
+[single] re pr
+[single] d' registers daar bij hebben gelieven te doen, wegens
+[single] 't versenden, en 't emploij van voorsz, en andere bodems
+[single] sullen Jn't vervoolgs nader spreecken, en van 't geene uEd=le
+[single] die
+[single] a„o concerneerende het district van Jaffanapatn: bij
+[single] haar laast g'eert schrijvens comen aan tehaalen, —
+[single] 't nodige nu nogh maar seggen, hier voor hebben
+[single] r
+[single] aangehaelt, dat het schrijvens vanden Command=r
+[single] vanderduijn niet wel met den anderen over een te
+[single] brengen was, en bij onse voorige aan uEd=le a:o gesz„
+[single] die
+[single] ende
+[single] dierwegens vereijsse oock geseght, en naar derwaerts
+[single] g'ordonneert geen nieuwigheeden aan uEd=le a:o hadden
+[single] voor te stellen, voor, en aleen ons 'tselve hadden voor
+[single] d'cop
+[single] gedragen, en daar op ordre becomen, om daar door tot Jn
+[single] volgen
+[single] minder met den anderen te discrepeeren, maar 't schijnt
+[single] dat men aldaar nu sijn werck van sulx begint te
+[single] maacken
+[single] n
+[single] en
+== NL-HaNA_1.04.02_1420_0067 | #67 | sides: single | lines: 47
+[single] 24
+[single] op de gevorderde nader
+[single] consideratien verstaen
+[single] gecommitteerd„s derwaerts
+[single] tesenden
+[single] en te ondersoecken wegens
+[single] het opbrengen der hooftgelden,
+[single] en Lantrenten
+[single] Cattoen aanplanten
+[single] ende paght van Caljemeer
+[single] d' copien vand' Commissie, en
+[single] Jnstructie staan te
+[single] volgen
+[single] te
+[single] dee
+[single] maacken, en vermits uEd=le a: op 't schrijvens van
+[single] gem: Command=r vander duijn en raat, ons gevoelen, en
+[single] nader Consideratien comen te vorderen, soo hebben daar
+[single] op met den anderen goet gevonden, eerst onsent weegen
+[single] derwaarts te Committeeren den oppercoopman, en hooft
+[single] ƒ
+[single] tot trincq: Joan barnard de ruse, nevens den Coopman
+[single] en administrateur tot gale sauconnier, om aldaar
+[single] Jn loco te ondersoecken wat van 't selve te verwaghten
+[single] is, 't geene meergem„ Command=r en eenige vanden raat
+[single] die l
+[single] bij haare letteren aan uEd=le a: Comen voor tegeven
+[single] besonderlijck wegens 't Connen opbrengen der hooftgelden,
+[single] en land renten, mitsgad=s offer soodanige voordeelen
+[single] met het aanplanten van Cattoen, en andere dingen
+[single] sullen te behaalen sijn, als daar bij coomen te seggen, dat d'
+[single] hooffden souden hebben beleaft, bij welcke occagie, dan
+[single] met eenen sal connen ondersoght werden, watter van 't
+[single] hier voor aangehaalde wegens 't pagten van Caljemeer,
+[single] derw=ts brengen van 's Comp:s lasc„t, aanbrengen van.—
+[single] cleeden, vervoeren van arreecq, en 't geene daar van meer
+[single] naar 'tschrijvens van Cormandel te ondersoecken sal sijn,
+[single] sullende gem: gecommitteerdens van behoorl:k Commissie,
+[single] gede
+[single] en Jnstructie versien, waar van uEd=e a: ter behoorlijcker
+[single] tijt naarde Concipieringh de afschriften staan toe
+[single] te
+[single] gens
+[single] g
+[single] a
+== NL-HaNA_1.04.02_1420_0068 | #68 | sides: single | lines: 45
+[single] en gaan d' resolutie dier
+[single] wegen over
+[single] sullen met het root verwen
+[single] van salempoerisz: en parcallen
+[single] voortvaren
+[single] en daar toe d' g'eijste runas
+[single] niet te onpas coomen
+[single] d' zoije wortelen waerden niet
+[single] hooger in reecq: gebraght,
+[single] danse Comen te Costen
+[single] hoedanigh haar Ed„e agtb=re
+[single] Jntentie dierwegens is
+[single] Te comen, gaande nu tot uEd=s allen bij desen over de
+[single] copije resolutie van 't geene hier over Jn raaden is
+[single] ver
+[single] ve
+[single] gebesoigneert, en gearresteert, en hoewel uEd=e agtb=
+[single] gelieven te ordonneeren, met d' root verwerije wat te
+[single] temporiseeren, soo sullen niet te min met 't vorwen
+[single] van salempoerissen, en parcallen voortvaren, en't
+[single] graven van zaoije wortelen naarde Constitutie van
+[single] tijden behartigen, waar van hier voor breeder
+[single] gesproocken is, zullende d' 5. â 6000: lb:s runas Jongst
+[single] uijt persia gevordert doorde geledene schade, en stoant
+[single] niet 't onpas comen, dewijle apparent volgens
+[single] tschrijven jn die Commanderije niet veel jnde
+[single] eerste 2: Jaaren doorde overspoelingh van't sout
+[single] water tebecomen sal sijn, d' voruw wortelen als d'
+[single] andere spetien tot 't rootvorwen der doecken noodigh„
+[single] werden niet hoogert Jn reecq. gebraght, dan deselve d'
+[single] E: Comp: Costen, off daar voorse allijt van buijten
+[single] becomen, dogh soo uEd=les d„o meeningh is, de zaije
+[single] int
+[single] a
+[single] wortelen daar groejende, niet hooger d' vorwerije sal
+[single] aangereeckent mogen werden, dan voor 't graven betaalen,
+[single] aan die geene die het een servituijt is, 'tselve te moeten
+[single] aan
+[single] in
+[single] doen, en onder de Jncomst van 'tland gereeckent wort
+[single] soo sal Jaffanap: daar mede dan soo veel van sijn
+[single] Jncomen,
+[single] en
+[single] Leer
+[single] s jaar
+== NL-HaNA_1.04.02_1420_0069 | #69 | sides: single | lines: 43
+[single] 5
+[single] 25
+[single] verwagten te verstaen
+[single] en der Jaffanapatnamse
+[single] leeraaren staat tweemael
+[single] 'sjaars na nag ap: tegaen,
+[single] het spreecken vanden zegen
+[single] int bedienen vant h:
+[single] avordmael
+[single] aan een, ende selve tafel
+[single] in diverse Cale
+[single] Jncoomen verliesen, en een ander daar van, hoewel
+[single] geedie
+[single] soo veel niet is, de winsten smaacken, wat uEd„le ao
+[single] hier omtrent gelieft gedaan te hebben, 't zij gelijck
+[single] tot nogh geschiel is, die wortel met een matel=jk—
+[single] winst slants Jncomen goet te doen, daar voor, en niet
+[single] een redelijk winst deselve nogh altijt heeft Connen
+[single] vercoght worden, off dat alleen 't graaff loon sullen
+[single] Jn reecq: brengen, verwagten te verslaen
+[single] -
+[single] &
+[single] Agtervolgens uEd=le a: laast become ordre staat
+[single] naar Jaffanap: g'ordonneert te worden, dat een vande
+[single] daar sijnde leeraaren tweemaal des Jaars, dat
+[single] -
+[single] gemackeli=k geschieden kan, naar nagapatn: sullen
+[single] hebben te gaan, om aldaar de heijlige sacramenten te
+[single] bedienen, en waar toe haar eerw: oock de vereijste, en
+[single] bequame vaartuijgen sullen werden bestelt. —
+[single] Dat het een Jn differente saacke is, Jn wat taal het
+[single] spreecken vanden zeegen, Jn't bedienen van 't heijlige
+[single] gezie
+[single] avondmael gedaan wort, dat bekennen met uEd:e a=o
+[single] te weeten Jn een duijtse gemeenten duijts, jnde
+[single] „ maellabaers
+[single] massabaarse, en Jnde portugeese portugerse, maar off
+[single] dat stigtingh soude geven, dat men aan d' duijtse tafel
+[single] 't brood, end' wijn op een moment aan d' een Jn't duijts
+[single] en den ander naast hem sittende Jnt portugees —
+[single] sal
+== NL-HaNA_1.04.02_1420_0070 | #70 | sides: single | lines: 34
+[single] voor een nieuwigheijt
+[single] aangesien.
+[single] discoers daar over
+[single] sal toerijcken moeten w' bekennen nooijt gehoort
+[single] off gesien te hebben, en alleen een bedagte nieuwigh=t
+[single] is, van een die daar door gaarne wat meerder
+[single] gesagh, en aanhangh boven sijn andere broederen zoude
+[single] willen hebben, en daar door sien te becomen, soo men
+[single] nu mogt voorgeven dat d' ledematen die geen duijtse
+[single] taal, en verstaan, en met nederlanders getrouwt sijn
+[single] naar de duijtse Celebreeringh eerst aand' laeste toefel sond
+[single] t
+[single] connen comen, en daar Jn 't portugees de Zeegen
+[single] Colo
+[single] spaekingh geschieden dan sondemen bevinden dat 'tal
+[single] weeder geen deegh soude sijn, alsoo een mislies met jmand
+[single] van qualiteijt getrouwt, niet naar hun minderen soud:
+[single] willen gaan, en soo gedurigh een confusie veroorsaacken,
+[single] buijten dat een nieuwe predikant de portugeese tael
+[single] niet wel kennende, dan een ander wel bij hem dienden te
+[single] hebben, om 'tjn 't portugees te seggen, en vermits u Ed=le
+[single] a:o apparent van dese saapke niet te wel g'Jnformeert
+[single] do
+[single] sijn, soo meeren uEd=le a: uijt 'tvoorenstaande meerder
+[single] light sullen Connen scheppen, en met ons oordeelen dat
+[single] twee talen aan een, en deselve tafel gesproocken
+[single] werdende, weijnigh stigtingh Can veroorsaacken, en soude
+[single] dese nieuwigh=t, ten principale, om 8. â 10: toepassen,
+[single] off gel=k men bij uEd=le a:o seghte mardigckers huijsgesinnen
+[single] maar
+[single] Nn
+[single] legh
+[single] tot
+[single] oud
+== NL-HaNA_1.04.02_1420_0071 | #71 | sides: single | lines: 35
+[single] 26
+[single] 't gevoelen vanden kken raat tot
+[single] Colombo oper 'tselve subject —
+[single] leght in Copie hier nevens. —
+[single] tot nader ordre zullen bij de
+[single] eude met hode doen continueeren
+[single] maar dienent Jngevoert, die vermits de mallabaarse —
+[single] soo wel als 't portugees verstaan; soo lange alsser jnt
+[single] portugees niet geleert, off gepredict werd, aande tafel
+[single] alwaar 't h: avontmael jnde malbaarse tale wort
+[single] uijtgereijckt, haar souden Connen vervoegen, maar dat soude
+[single] sigh almede niet willen schicken, mits haar de grootsl=t
+[single] quelt, en zij souden meenen haar dat geen honore, off. —
+[single] respect te sijn, door onse kirckelik Commiss=s hebbenw'
+[single] over dese saacke t' gevoelen van desen kken raat versoght,
+[single] die ons daar op soodanighe gedient hebben als 't rapport
+[single] vanden Commiss=s politicus hier jn Copije bij leggende
+[single] gee te
+[single] uEd=e a: sal vertoonen, waar op dan naar Jaffanap:
+[single] 1:
+[single] g'ordonneert hebben, geen de minste nieuwigheeden tot
+[single] uEd=le a„o nader last, off dat den wel Ed=le h„r Commiss„s
+[single] gen zy
+[single] van reede hier weder sal verscheinen, Jnde kken: dienst
+[single] sullen gedoogen, maar d' eerw: leeraaren aldaar wel
+[single] Expressel=jke recommandeeren bij de dus lange geuiseerde
+[single] -
+[single] kerkelijk met hode, en maxime onder dit geheele
+[single] gouvernement jn practijck sonder eenige veranderingh
+[single] te Continueeren, alsoo men anders gestadigh bij verandering
+[single] van leeraaren, oock wel van wijse souden dienen te—
+[single] veranderen, voor heenen hebben d' eerw: clavius, en andere
+[single] predickheeren Jn't jaar 1670: met de overrigh:t beraemt
+[single] Dat
+[single] En
+== NL-HaNA_1.04.02_1420_0072 | #72 | sides: single | lines: 42
+[single] nade ordre moeten twee
+[single] leeraaren in't lant woonen.
+[single] daar zij weijnigh sin in
+[single] hebben
+[single] dogh gelast is, jder sigh naar
+[single] sijn bescheijden plaats te —
+[single] vervoegen.
+[single] en dat haar gravamina aand'
+[single] Ed„le h=r Commissaris
+[single] connen vertoonen
+[single] nader versoeck vand Jaffampati„e
+[single] leeraaren affgeslagen
+[single] Dat tot dienst vande kken:, en 't aanleeren der
+[single] Jnlantse Christenen, 2: leeraaren gestadigh behoorden
+[single] jn't land te woonen, en aldaar haare residentie tehouden,
+[single] 't geene dan volgens een concept memorie is vast gestelt
+[single] gedat=t 23=en octob„r 1670: waar op dan oock op battecotte, en
+[single] chevagacherij voort twee schoone groote steene woonhuijs
+[single] voorde predicanten niet sonder groote Costen vande E.
+[single] Comp:s, en arbeijt der Jnlanderen gebout sijn, maarde nu
+[single] daar present logeerende leeraaren, hebben geheel geen sin
+[single] meer jn't lant, en sijn wel genegen alle aan 't Casteel te
+[single] woonen, soo dat w' nu wel weder daar voor nieuwe wooninge
+[single] dienden te maaken, en die schoone gebouwen jn't Land laten
+[single] dp
+[single] vervallen, w' hebben den h=r Command=r vander duijn, en raat
+[single] Eec
+[single] aangesz: gehadt, haar eerw: onsent wegen aan te seggen, —
+[single] v
+[single] datse een Jder van haar sigh naar sijn bescheijden plaatse
+[single] weeder sal hebben te begeeven, en haar eerw: te schicken
+[single] naar 't oudegebruijck, en ordre, en dat zij met d' aancomste
+[single] versoeck
+[single] vand' Ed„le h„r Commissaris aldaar 't geene noodigh aghten
+[single] sullen connen voorstellen, en ondertusschen den dienst te
+[single] Lande als voorheenen, elck jn sijn district Connen blijven
+[single] waarnemen, daar toe naar 't laaste schrijvens van
+[single] se Jaffanapatn: niet wel Conden resolveeren, en andermael
+[single] versoght hebben, aan 't Casteel te mogen blijven, 't geene niet
+[single] hebben
+[single] ƒ
+[single] leer
+== NL-HaNA_1.04.02_1420_0073 | #73 | sides: single | lines: 37
+[single] 27
+[single] d' plaatsingh vande twee
+[single] leeraaren Jongst van batta:
+[single] becoomen
+[single] sijnde d'eerw: masius out„
+[single] den
+[single] _=o cat seer swack, en
+[single] Indispoost,
+[single] Hebben Connen goetvinden, haar eerw: toe te staen,
+[single] maar nogmael doorden Command=r, en raat ernstigh
+[single] sullen laaten aanseggen, datse haar tot d' Comste van sijn
+[single] gem: Ed=le, d' Ed=le h„r Commiss=s als vooren weeder net ter
+[single] woon, op haare bescheijde plaatse sullen hebben te begeven,
+[single] 't gene verhoope haar eerw: sullen naarcomen, om ons tot
+[single] geen verdere extremiteijten te doen treden.
+[single] geen
+[single] D' twee leeraaren, ons met d' eenhoorn door uEd„le a:o
+[single] soo mildelijck mede gedeelt, en toegesonden, sijn hier gode
+[single] zij danck Jn gesonth„t g'arriveert, en met kennisse van
+[single] den kken: raat, domine backer op Jaffanap: en d' eerw:
+[single] wielsma op mature geplaast, alwaar verhoope een jder
+[single] sijn takent sal tragten te besteeden; voorde sendingh —
+[single] van voorsz„ 2: leeraaren den kken: raat ons versoght heeft,
+[single] uEd=le a„o te willen bedancken, dat dan bij deesen nevens
+[single] ddie ae
+[single] oversoeck om nogh 2: predicanten d' onse eerbiedigh geschiet, met versoeck dat ons bij
+[single] overvloedige stoffe nogh 2: bequame leeraaren die aan
+[single] 't getal Comen te gebreecken, Jn plaats vande gestorvene
+[single] en vertrockene mogen toecomen, en wel besonderlijck, om
+[single] dat d'eerw: masius een man van omtrent de 70„ —
+[single] jaaren al seer begint te vervallen, en niet minder den
+[single] eerw: kat die al veel maalen, soo swaare overvallen
+[single] becomt, en soodanigh verswact, en vermagert, daar bij —
+[single] naar
+[single] 2
+[single] e
+[single] -
+== NL-HaNA_1.04.02_1420_0074 | #74 | sides: single | lines: 35
+[single] coijterus vertreckt over
+[single] Cormandel
+[single] den teuver blijft in mancquem:t
+[single] sijn contract te voldoen
+[single] naar 't qualijck langer meer Can gaande houden,
+[single] en besorght sijn, ons eer dan wel dencken soude, moghte —
+[single] comen te ontvallen, domine Coijserus werd ons
+[single] e
+[single] van Jaffanap: gesz„ dat in Corte naar Cormandel
+[single] stingh te gaan, om van daar met een der scheepen tot
+[single] „voor
+[single] uEd=le a:o te navigeeren, waar mede als hier geseght 4:
+[single] leeraren met d' 3: a=o pass=o overleden Comen te missen,
+[single] en daaren tegens maar 2: weder in plaats hebben becomen
+[single] ne
+[single] Jn onse verledene Jaarse advijsen hebben uEd=le agtb=re
+[single] kennisse gegeven, hoe op't versoeck vanden teuver heer,
+[single] 't gemaeckte Contract, op een coopere plaat was.
+[single] gegraveert, om bij hem naar d' voldoeningh van 's Comp„s
+[single] schult, en 't gerooffde van 's Comp: coopman
+[single] geratificeert te werden, dogh 'tschijnt dien h=r ons —
+[single] al dralende hout, ende spot met d' E: Comp: drijft,
+[single] sijnde desselfs gesant met die vand' E: Comp: den 23=en
+[single] Julij van hier over Calpatijn te lande naar Jaffancp:
+[single] vertroecken, mits de ongestuijmigheijt vand' zee niet
+[single] wel Conde verdragen, om van daar naar sijn meester
+[single] over te steecken, ons verseeckerende voor sijn vertreck
+[single] te besorgen, dat niet alleen d' schult aand' E: Comp
+[single] is
+[single] soude voldaen, maar 's Comp:s Coopman oock —
+[single] gesatisfaceert
+[single] ƒ
+[single] ƒ
+[single] m
+== NL-HaNA_1.04.02_1420_0075 | #75 | sides: single | lines: 37
+[single] 28
+[single] sijnde nogh maar 1300:
+[single] rx=nrs ontfangen
+[single] de schenckagie goederen
+[single] voorden terver geproject„t
+[single] te rugh te ontbieden —
+[single] en 't onderhout aan desselfs
+[single] gesant in te trecken
+[single] en hem met protest na sijn
+[single] meester te senden
+[single] Gesatisfaceert werden, met welcke praat ons
+[single] tot nu heeft opgehouden sijnde alleen met desselfs soon
+[single] niet meer als 12: â 1300: rx=rs overgecomen, onder
+[single] tusschen teeren die luijden op 's Comp„s Costen aldaar—
+[single] rijckel„jk aan, en 'twelck Jn Corte wel soo veel soude
+[single] comen te beloopen, als die penn: bedragen, buijten dat
+[single] 't niet dan tot 's Comp=s disrespect is streckende—
+[single] waarom in raade goet gevonden hebben den Command=r
+[single] vander duijn, en raat aan te schrijven dat alle 't geene
+[single] den gelant timmersa voorden teuver van hier is
+[single] mede gegeven, hem sal affgevordert, en ons weder
+[single] toegesonden, en dat des teuvers gesant 't dagelijcx
+[single] onderhout, sal onttrocken, en Jngehouden werden, met
+[single] aan segginge, dat soo naar sijn m=r wil vertrecken, 't selve
+[single] can doen, en dat w' niet genegen sijn, ons dus langer
+[single] te laaten bespotten, protesterende wegens 't orgelijck
+[single] dat d' E: Comp: daar mede werd aangedaen, en soo sijn
+[single] h„r niet genegen is, de schult aand' E: Comp:e te voldoen,
+[single] en oock de gerooffde goederen van 's Comp=s coopman
+[single] weeder te restitueeren, d' Comp: bij occagie geen
+[single] maght sal ontbreecken, daar van voldoeningh, en
+[single] satisfactie te becomen, ondertussen sullen van
+[single] gne
+[single] uEd=le
+[single] l
+[single] r
+== NL-HaNA_1.04.02_1420_0076 | #76 | sides: single | lines: 40
+[single] sullen geen nelij van daar
+[single] laten vervoeren, voord' E Comp:
+[single] haar Competentie heeft.
+[single] goede hoope tot een opulent
+[single] gewasch.
+[single] den toevloeij vanden arreecq
+[single] aldaar te wenschen
+[single] elem
+[single] u Ed=le a: verwagten te verstaen wat ons daar
+[single] omtrent verder te doen staat.; van
+[single] Trincquenemale, en Batticalo weeten niet anders teseggen
+[single] d'a
+[single] dan bijde soo veel maal gen: patriase brieff:
+[single] hebben aangehaalt, en sullen geen nelij van d'aan
+[single] laaten vervoeren, voor en aleer d' E: Comp: en 't
+[single] guarnisoen haar competentie, en nood drust sullen
+[single] hebben, ende Jngesetenen volgens hun Jaarlijcx
+[single] contract daar van, en vande houtwercken, —
+[single] verplight sijn te geven, en vermits aldaar volgens
+[single] 't jongste schrijvens, een gewensten, en overvloedigen
+[single] regen hadden gehadt, was de hoope, van een goede
+[single] nelij gewasch te sullen erlangen, te grooter, dat
+[single] godt geve, wat bodems datw' tot 't affhalen vande
+[single] balcken sullen maghtigh wesen jn maart derw=ts te
+[single] senden, connen nogh niet vast seggen, en sullen uEd=le
+[single] es
+[single] a: 'tselve per naesten verwittigen
+[single] e
+[single] Off den arreecq op trincq: met 't eijndigen van't
+[single] noort ooster mousson weder als jn 't laast van't
+[single] Z: W: mouson sal comen toe te vloejen, sal ons de —
+[single] tijt moeten leeren, en waare wel te wenschen, om die
+[single] vrught met te minder moeijten voor reecq: vand' E:
+[single] comp: naar Cormandel te vervoeren, d' brieff dragers
+[single] van
+[single] m
+[single] 7
+[single] en
+[single] derw
+== NL-HaNA_1.04.02_1420_0077 | #77 | sides: single | lines: 37
+[single] 29
+[single] d' lantwegh van batticalo na
+[single] derw=ts veijligh
+[single] groote drooghte, hongers noot
+[single] en sterfte gevoelt.
+[single] cattoene veel siecker
+[single] gehad
+[single] becommeringe voorde
+[single] buijt sorge. —
+[single] Van dit destrict naar
+[single] mature, en gale coomende getuijgen met alleen d' wegen
+[single] veijligh te sijn, maar dat haar door Coninx
+[single] hooffden de behulpsame hand gebooden, en vrij geheijde
+[single] gegeven word hoewel jn dese landen als jnde andere
+[single] een matige rust beleven, soo werd de hand des heeren
+[single] al seer swaar Jn dat district gevoelt, niet alleen
+[single] omtrent een drooge tijt waar door een groote hongers
+[single] noodt, en gebreck van levensmiddelen hebben, maar
+[single] oock 't afsterven van veel menschen en vee door
+[single] pestelencrale siectens jaa soodanigh datter gel=jk ons is
+[single] verhaalt geheele gehugten, en dorpen liedigh, en uijtsterven,
+[single] dat een bedroeffde, en beklaagh=te saacke is, den almogende
+[single] zij gebeeden sijne slaande hand van ons te werden
+[single] Door dese siecte hebbense op mature soo veel te doen alse
+[single] cattoene telckens met 't afflossen der Crancken, Connen
+[single] beset houden, ende gesonden, Jn plaats bestellen, voorts is —
+[single] 't gebreck van levens middelen over al seer groot, en Comen
+[single] tot nogh soo weijnigh rijsvaartuijgen van Cormandel
+[single] dat ons vaor grooter ongemaeck doet vreesen, besonderlijk
+[single] soo der geen bengaalse mooren met rijs overcomen, dat w'
+[single] egter anders hoopen, om Jn geen verlegenth„t te raaken, en waar
+[single] van Jnde Clombose matarie breeder staen te spreecken
+[single] ij
+[single] an
+[single] zij
+[single] v
+[single] v
+== NL-HaNA_1.04.02_1420_0078 | #78 | sides: single | lines: 40
+[single] d schade bij den vercoop der
+[single] chiancos op galee
+[single] vergoet met 3013½ rx=rs
+[single] d' reecq: daar van
+[single] d'acte vanden Command=r
+[single] behage ingehouden
+[single] sijn E. nogh belast voor
+[single] 1564: rx:s de reecq daar van
+[single] gaat hier besijden
+[single] Bij ons schrijvens aan d' ho: Ed:le heeren majores,
+[single] ge ka
+[single] hier in veel malen geciteert sullen uEd=e a bijn
+[single] naar lesinge ontmoeten dat den wel Ed=le h„r Commiss=s
+[single] van reede 't werck vanden vercoop der Chiancos
+[single] getermineert, en voorde daar bij geledene schade van rx=s
+[single] 3013½ de vercoopers doen belasten heeft, als. —
+[single] d h=r Command„r tesage voor rx=s 1205: 2/5
+[single] den coopman fauconier. . . . . . „ 602: 1/10
+[single] den ondercoopm: wickelman. . . . . . „ 602 17/10
+[single] 602
+[single] den d=o. Been - - - - - - - -
+[single] N
+[single] Rd=s 3013½. —
+[single] 't geene uEd=les a:o bijde nevensgaande reeq: breeder des
+[single] a
+[single] gelievende sullen connen naar sien, dat d' h„r Command=r
+[single] lesage liever naar battavia dan hier heeft willen
+[single] blijven staat hier voor aangehaalt, d' acte van ƒ130:—
+[single] door u Ed=le a: op ons favorabel schrijvens aan sijn E.
+[single] de
+[single] verleend, en herwaarts, gesonden heeft d' Ed=le heer
+[single] commiss=s met dit werck gelast jnte houden, en waar
+[single] over sijn Ed=e sonder twijffel uEd:e a:o wel sal comen
+[single] te schrijven. /
+[single] &e
+[single] Hjier nevens gaat oock nogh een reecq: ten bedragen
+[single] van 1564: rx=s daar voor gem: heer Commandeur
+[single] al mede op reecq: is belast, bestaande over 't geene
+[single] meer
+[single] Les
+== NL-HaNA_1.04.02_1420_0079 | #79 | sides: single | lines: 33
+[single] 30
+[single] hier
+[single] vande andere plaatsen mede
+[single] na tesien
+[single] le sage Jaarlijcx.
+[single] zy
+[single] meer dan uEd=le a:o ordre jnhout, maandelijcx genooten,
+[single] ende Ed=le heer Commissaris gelast heeft diergel:k dingen
+[single] niet alleen van gale maar oock vande andere plaats
+[single] Exact naar te sien, 't geene telckens wanneer d' boecken
+[single] overcomen, te geschieden staat, en alsoo d' Cleerigheeden
+[single] voorde heeren Command=rs niet dan onder 't woord &:a staat
+[single] uijtgedruct, soo hebben daarom sijn E: tvolgende bij
+[single] provisie, en op u Ed=le a: approbatie goet gedaen te weeten
+[single] ze
+[single] voord' ordinarie tafel Jaarlijcx —
+[single] 1: legger seck, off spaance wijn
+[single] ¼. _=o rinse, off france _=o
+[single] 250: hollantse, off anders 500: lb= bengaalse booter —
+[single] het toegeleijde aan den Command:r 1½ lasten rijs —
+[single] 120: parra nelij, off padj
+[single] ½: last terwe
+[single] m
+[single] 360: lb= wax caarsen
+[single] 24: cannen olijven olij —
+[single] 48: d=os hollantse asijn
+[single] 9: lb=e nooten, nagelen, en foelij—
+[single] 36: _=o peper
+[single] 36: parra zout
+[single] 72 cannen stercken arrack
+[single] 1: sack suijcker
+[single] ½ cas roose water
+[single] 6: p=s guimes tot tafel goet
+== NL-HaNA_1.04.02_1420_0080 | #80 | sides: single | lines: 45
+[single] voor extraordinarie
+[single] voorvallen
+[single] een memorie daar van
+[single] off d'andere Command=rs mede soo
+[single] veel sullen goet doen, verwaghten
+[single] te versleert
+[single] geen Contanten sijn hem
+[single] goetgedaen
+[single] heeft d' inkomst van een
+[single] dorp genoten.
+[single] z4
+[single] de
+[single] Hier en boven hebbe gem: h„r Command„r op uEd=e a:o
+[single] goetvinden oock nogh extraordinaris ten goeden laaten
+[single] comen voord' gastmalen vande stadts veroveringh, tvereck
+[single] der retour scheepen, voorstellings van gouvern=s en
+[single] command„r jder reijs. —
+[single] 1: aam wijn
+[single] 30: lb: booter
+[single] 12: d=o caarsen
+[single] 4: parra terwe
+[single] 20: lb=e hollants vlees
+[single] 12: d=o _=o speck
+[single] 1: p=s guines tasel goet, dogh op de voorstellings vande Ed=le
+[single] h=r gouverneur generael is daar en boven nogh 1 vat bier,
+[single] momt, off 2: cassen wijn goet gedaen, buijten eenige andere
+[single] cleerigheeden, die bij de nevensgaande memorie slaan vervat
+[single] off uEd=le a:o alle het voorenstaande d' h=r lesage sullen laaten
+[single] de &e
+[single] valideeren, en wij d' andere h=ren command=r mede soo veel mogen
+[single] goet doen, en Jaarlijcx lanten geniezen sullen om daar jn niet
+[single] geede
+[single] te misdoen, daar toe uEd=le a: ordre, en beveelen affwaghten
+[single] de
+[single] De Contanten die de h=r lesage heeft laten affschrijven daar
+[single] van hebben hem niets derven laten valideeren, vermits de —
+[single] heeren Command„r tot vergoedings vand extraordinaire
+[single] voorvallen een dorp daar voor altijt in besit hebben gehadt,
+[single] dat
+[single] daar van Jaarlijcx 100. rx=s genieten, sijn E: brenght voor
+[single] gere
+[single] fri
+[single] een
+[single] n
+== NL-HaNA_1.04.02_1420_0081 | #81 | sides: single | lines: 40
+[single] 31
+[single] frivole posten opgebraght
+[single] renvoij van sijn E:s versaeck
+[single] naar batt=as.
+[single] last om 't saaijen jnde
+[single] girrewaijs te staaken
+[single] de lasc„s en inwoonders te
+[single] verlighten
+[single] dat vanden arreecq
+[single] geremidieert
+[single] Een maal tijt etens twee â drie oock soo veel gelt
+[single] op, dat het sigh selfs schaamt, end' EComp: niet
+[single] gehouden is te dragen, buijten datter oock een groot
+[single] gedeelte, en bij naar als men seght, alle blauwe maandagen
+[single] Jts werd in reecq:. gebraght, voor naaijloon van tafelgoet,
+[single] en Camer behangsels, en 't geene w' seecker weesen daar
+[single] voor nooijt betaalt is, alsoo de moorse snijders volgens
+[single] hun plight 'tselve voor niet hebben gedaen, maar 't sal
+[single] gel=jk met meer andere dingen geschiet is, gedaan sijn,
+[single] tie
+[single] omd reecq„ goet te maacken, voorts hebben de heer
+[single] command=r lesage 't geene sijn E: hier over te versoecken
+[single] edie
+[single] heeft gehadt, aan uEd=e a: gerenvojeert, sijnde sijn E.
+[single] tot de m„t Januarij jn Cluijs de Emolumenten
+[single] goet gedaen.
+[single] Het zaaijen inde ongesonde girreweijs heeft d' Ed„le 5=re
+[single] a
+[single] commiss=s gelast te staacken, ende arme Jngesetenen
+[single] daar mede niet meer te plagen, en een expedient voorde
+[single] Clagende jnwoonder, en lasc„ die tot 't affsleepen van
+[single] houtwercken, en andere dingen werden gebruijckt sien uijt
+[single] te vinden, ende arme jngesetenen mits de langdurige—
+[single] droogsiten oock verligtingh jn't leveren van arreecq tegeven, —
+[single] a
+[single] 't laaste is door den Command„r van rhee soo veel mogelijck
+[single] geremedieert, en sal sijn E: het andere mede naar vermogen
+[single] sien te accomodeeren om soo veel mogel„k den Clagenden
+[single] In
+[single] v
+== NL-HaNA_1.04.02_1420_0082 | #82 | sides: single | lines: 31
+[single] 2: caarten vande gaalse
+[single] fortificatie
+[single] cituatie der selve —
+[single] 't noodige dair aen verbetert
+[single] Jnwoonder te vreede te stellen 't gene echeter omt„t
+[single] dit volck qualijck te doen sal wesen. —
+[single] vande gaalse fortificatie hebben 't noodige in ons
+[single] schrijvens naar 't vaderland aangehaalt, waar aan, ende
+[single] twee hier bijgaande caarten ons eerbiedigh gedragen,
+[single] gew &
+[single] 't geene uEd=e a:o met geel aande punt d' maen sullen
+[single] bevinden affgeteeckent is 't nieuw project door den
+[single] gouvern=r pijl affgesteecken, mits de faas van Ed: tot C:
+[single] met sleghte aarde was op geplact, dat geen weer stand
+[single] off gewelt vande daar tegens over leggende hooghtens soude
+[single] connen hebben wederstaen, gel=jk uEd=le a„o jn onse voor
+[single] heeren overgesondene schrifturen, en bij onse resolutie van den
+[single] d'
+[single] 22=en aug=o 1684: daar over getrocken oock vervat sullen
+[single] hebben gevonden, hoe nodigh gem: middelpunt versterckt,
+[single] ende slegte, on onweerbaar kat daar binnen staande
+[single] diende verdubselt te wesen, alsoo bij belegeringh 't grootste
+[single] gewelt soude moeten uijtstaen, soo moste om sulcx te
+[single] bequamer te doen, gem: kat nootsaeckel„k met 1½ roe
+[single] aan legh masieff werck ommantelt, ende borstweer
+[single] vande punt met sijn bancquet van niet min dan 2.
+[single] roede aanlege sijn, wanneer bevonden geen plaats tusschen
+[single] beijden over tewesen, om daar door te Connen gaan, en
+[single] daar om is de faas als bijde kaart blijckt, soo veel
+[single] verlenght, sijnde dat werck van a: tot b: en C: bij naar
+[single] niet
+== NL-HaNA_1.04.02_1420_0083 | #83 | sides: single | lines: 38
+[single] 32
+[single] wat nogh gedaen moet
+[single] werden
+[single] merworie vande gaelse
+[single] desperate schulden
+[single] dat
+[single] d' inverdibele goederen werden
+[single] bij verditie vercoght
+[single] d'wissel vande harder staat
+[single] voldaen te werden
+[single] met hegte arduijn steenen weeder op sijn voorige
+[single] hooghte gebraght, maarde faas vande bolwercx hoeck
+[single] tot de flanck is nogh niet begonnen, waar mede mits de
+[single] Ed„le h„re Commiss= 'tselve, en 't verdubbelen vand' kat heeft
+[single] gelieven te approbeeren, wanneer maar Connen, en daar toe
+[single] volck hebben, nevens 't graven van een graght, om 't nieuw
+[single] project met een roode linie affgeteeckent, een aanvanck
+[single] staan te nemen, ons dierwegens verder aant schrijvens —
+[single] vande Ed=le h=r Commissaris gedragende
+[single] De memorie der gaalse desperate schulden, bijde boecken
+[single] nogh loopende verleeden g'ommitteert te senden, gaat un
+[single] hier besijden, werdende onder en tusschen, d' Jnverdibele
+[single] goederen bij de packhuijsen berustende bij verditie soo veel
+[single] de wissel van 300: rx=s door den luijt=t
+[single] mogeli=k vercoght,
+[single] de harder overgemaeckt staat aan de houwer der selve alvooren.
+[single] d' diaconie thaure, 't geene voor desselfs huijsvrouwe tot
+[single] onderhout heeft uijtgeschooten, daar van sal ontfangen hebben,
+[single] voldaen te werden, en salder als dan weijnigh Comen over te
+[single] schieten, om haar vande rest langh 4: rx=s ter maant
+[single] te connen geven
+[single] -.
+[single] Hier mede 't nodige der buijten posten cortelijck aangehaelt
+[single] hebbende, sullen nu vervolgens nogh maar spreecken
+[single] van 't geene onder de
+[single] olombose materie gehoort, alwaar soo wel als ront som 't geheele
+[single] Eijlant
+[single] m
+== NL-HaNA_1.04.02_1420_0084 | #84 | sides: single | lines: 48
+[single] groote droogte, en gebreck
+[single] van levens middelen
+[single] mitsgaders sterfte
+[single] een brieff door d' Ed=le heer
+[single] commiss=s aan sijn maij=t
+[single] opgesonden
+[single] is veel meer onder de hand te
+[single] bewercken—
+[single] en mierop soodanigh afgekregen
+[single] Eijland, en onder dit gouvernem=t gode zij danck
+[single] een gewenste rust beleven, maar daar en tegens weeder
+[single] soo grooten, en langhdurige droogten, als bij menschen
+[single] geheugen niet hebben gehadt, waar door alhier mede een
+[single] groot gebreck van levens middelen hebben, oock veele doord
+[single] ongesonde tijt, en schijnige coortsen werden wegh geruckt,
+[single] dogh die swarigh=t is alhier soo groot niet als men wel
+[single] rc
+[single] seght, deselve Jn 't district van mature soude wesen,
+[single] ver
+[single] geda
+[single] den almogende zij gebeeden ons een gesonder, en florisanler
+[single] tijt te willen verleenen, en met een vroege, en spaden regen
+[single] zeegenen, waar door menschen, en vee moogen verquickt, en
+[single] een overtloedigen oegst erlanght werden. —
+[single] Ragia Singa segt men dat nogh al sieckel=j is, en waar van w' niet
+[single] weg
+[single] de
+[single] d
+[single] anders voor present weesen te seggen dan 't geene bij onse
+[single] 2e„vaau
+[single] letteren naar 't vaderland gesz: staat vervat, waar bij uEd=l
+[single] a:a sullen sien, dat de Ed=le h=re commiss=s van reede op sijn
+[single] gedae
+[single] Ed=le aancomst alhier, den vorst 'tselve heeft bekent gemaeckt
+[single] waar op geen 't minste antw=t tot nogh is affgecomen,
+[single] schijnende, schijvende jn dese tijden meerder onder d' hand
+[single] als voorheenen, en publijcq te bewercken is, en waar mede
+[single] dat
+[single] den gouvern=r pijl soo veele heeft weeten te weege tebrengen ge
+[single] dat den vorst daar door bewoogen is geworden, den siecken,
+[single] gesant
+[single] en crancksinnigen gesant mierop tot ons aff te senden,
+[single] rapport
+[single] bij ge
+[single] bij welcke met hode nogh wat sullen Continueeren, om te
+[single] sien
+[single] van
+== NL-HaNA_1.04.02_1420_0085 | #85 | sides: single | lines: 47
+[single] 33
+[single] rcte van vaendrigh aan hem
+[single] verleent, ende gagie goel
+[single] gedaen
+[single] wegens 't costgelt aan haar
+[single] Ed: a: gerenvojeert,
+[single] ge„vaart nu over
+[single] 't geschenck door den ko: aan hem
+[single] gedaen, hem vereert
+[single] except den eliphant
+[single] dat aan haar Ed=le agtb=re is
+[single] gen gedecereert
+[single] t' memorie van't geschenck, des
+[single] gesants rapport, reecq: en een
+[single] rapport van een apohanij hier
+[single] bij gevoeght.
+[single] sien aff daar door, en godes hulpe onse arme gevangenen
+[single] mede Coude affgebraght, en verlost Crijgen, geen nederlandens
+[single] rozy
+[single] sullen volgens uEd=le a„o recommandatien, voor eerst, en
+[single] soo lange haar d' tijden niet favorabelder vertoonen, werden
+[single] opgesonden, den gesant mier op eenige dagen, hier geweest
+[single] hebbende, bequamt weeder geheel tot sijn selven, wanneer
+[single] op sijn versoeck, ende gedane belaften, hem op uEd=le agtb=r
+[single] approbatie, acte van vaendrigh is gegeven, ende gagie van
+[single] die tijt dat op is gegaan goetgedaen, dogh geen meer Costgelt,
+[single] mo
+[single] dan voorde maanden decemb=r, en Januarij, dat hier op—
+[single] colombo is geweest, verstreckt, hebbende tselve vande
+[single] tijt dat boven geweest is, mede versoght maar daar toe
+[single] niet derven treeden, en 'tselve aan uEd=le a:o gerenvojeert
+[single] te meer nu met den alexander tot uEd=le a: overvaart.
+[single] alle 't goet dat hem voorheenen door sijn maij=t is
+[single] geschoncken geweest, en tot ons affgesonden, is jn raden goet
+[single] gevorden hem weeder te geven, Excepto den Eliphant, off
+[single] 't bedragen vandien, sijnde dat beest aand' bengaalse mooren
+[single] voor 710: rx=rs vercoght, en hoewel d' voorige 'tselve mede
+[single] gezy
+[single] wel geschoncken is, soo hebben dat mede aan uEd=e a„o
+[single] goeth=t gedesereert gelaaten, de memorie van 't goet, —
+[single] 't affschrift van sijn rapport, en dat van sijn principale
+[single] apohamij die 2: maal voorden koninck soude geweest
+[single] hebben
+[single] ƒ
+[single] uEd=s
+[single] —
+[single] E
+== NL-HaNA_1.04.02_1420_0086 | #86 | sides: single | lines: 34
+[single] is eenigen tijt redelijck
+[single] geweest, dogh weder inde
+[single] frenesije vervallen
+[single] extract dagregister wegens
+[single] sijn aancomen
+[single] Hebben, nevens sijn gedane reecq: van 't gelt, hem
+[single] van tijt tot tijt voor sigh selfs, als de gevangenen
+[single] gie ta
+[single] gesonden, en mede gegeven leggen alle tot uEd=le a:o
+[single] speculatie hier bij gevoeght, daar aan ons jn't
+[single] wel nemen gedragen, gem: mier op naar eenigen tijt seer
+[single] wel gedaen, en te passe geweest was, is nu weijnigh dagen
+[single] verleeden, weder tot sijn voorige frenesije vervallen, seggende
+[single] dat godt hem tot een propheel, om den coninck, en al sijn
+[single] volck te bekeeren, soude beroepen hebben, verhalende daar
+[single] van worderl=jk kueren, dogh buijten dat, en wanneer van
+[single] andere. saacken spreect, soudemen niet seggen hem jets
+[single] schort, en naardemael g'oordeelt word, alsoo telckens
+[single] weder praat van naar boven te gaan, het beeter te
+[single] weesen om verder vande hand te sijn, en die gedagten uijt
+[single] sijn hooft te brengen, van hier versonden werde, soo hebben
+[single] om die reeden goet gevonden, hem met den alexander tot
+[single] uEd=le a„a te laten vertrecken, te meer oock nogh susters, en
+[single] broeders op batt=a heeft, en apparent door 't bij sijn van
+[single] deselve eerder weder bij sijn zinnen sal geraaken,
+[single] hoedanigh, en Jn wat kabijt denselven van boven is
+[single] dra
+[single] gecomen, sullen uEd=le a„o des believende bij thier bij —
+[single] leggende extract dagregister connen s'oogen, en dewijle
+[single] gem: mierop veel armoede, en ellende heeft uijtgestaan, soo en
+[single] Connen
+[single] v
+[single] in
+== NL-HaNA_1.04.02_1420_0087 | #87 | sides: single | lines: 39
+[single] 34
+[single] de Le
+[single] heeft d' luijt=s plaats
+[single] waargenomen
+[single] de paart van nigombo
+[single] d' quant„t vanden geschilden
+[single] canneel
+[single] d' chialias inder cleeren oegst
+[single] in haar taxt verlight
+[single] d' canneel na't patria
+[single] versonden
+[single] en daar onder 12: kassen
+[single] Connen niet naar laten der selven uEd=e a:o ten
+[single] goeden te recommandeeren, hebbende alhier, wanneer
+[single] bij sijn sinnen was de luijt=s plaats bij provisie
+[single] becliet gehadt
+[single] 'Tt geene vande fortificatie, 't Coopen van slaven, —
+[single] —
+[single] 't jnhueren van arbeijts volck, de buijten posten en besonder
+[single] van nigombo te seggen valt, is hier voor ten deelen,
+[single] en bij ons gem: schrijvens naar 't patria jn't breede vervat,
+[single] waar aan ons jn't welnemen om geen dubbelt verhael
+[single] te doen eersiedrijk gedragen; de gevorderde kart van
+[single] nigombo gaat hier nevens, doorde groote droogten hebben
+[single] d' Chialias niet meer dan 5581: packen Canneel Connen
+[single] schillen, en vermits daar mede oock langer dan ordinarie
+[single] om voorsz: jnconvenienten jnde bosschen sijn doende
+[single] geweest, soo hebben haar, om hun weeder Jnden Cleeren
+[single] oegst wat te gemoet te comen, Jn plaats van 2400:
+[single] packen te schillen, niet meer dan 1200: packen op geleght,
+[single] waar aan alsoo met den grooten oegst laat jnde bossen
+[single] sijn geweest, nogh al wercx genoegh sullen hebben, —
+[single] Onder d' 3323 packen Canneel niet de scheepen Jongst
+[single] naar 't vaderlant gesonden, sijn 1120: fardeelen, Jnde—
+[single] camers, en op de koebrugh sonder peper bestort gestont,
+[single] en daar nevens dan nogh 12: kassen op de lengte
+[single] vande
+[single] A
+[single] ƒ
+== NL-HaNA_1.04.02_1420_0088 | #88 | sides: single | lines: 43
+[single] de grover bast wert gemeent
+[single] haar craght langer te
+[single] behouden
+[single] weeten vande mallabaarse
+[single] Canneel niets meer te seggen
+[single] den canneel, en peper op
+[single] gale verbleven
+[single] 't eerste na battavia
+[single] end' helft van d' pper toeseggingh
+[single] van mallab: becomende over
+[single] cormandel na bengale te
+[single] versenden
+[single] vande pijper, met dier bast versonden, wat onderscheijt
+[single] haar Ed=e ho: a„o daar jn met de thuijs comst der
+[single] scheepen, sullen vinden, en off de peper daar omtrent
+[single] eenigh quaat doet, sullen 't sijner tijt verwagten te verstaan,
+[single] dogh daar werd gemeent dat wat grooter, en onder bast,
+[single] als ordinaerie nu eenigen tijt herw=s naar huijs gesonden
+[single] beeler is, en langer haar Craght behout. —
+[single] -
+[single] vand' mallabaerse Canneel soude den gouvern=r niet
+[single] die z
+[single] anders weezen te seggen, als 't geene uEd=le a„o daar van
+[single] hebben gelieven aan te haalen, sullende d' Ed=le heer
+[single] commiss=s op mallabaer Comende, daar naar best Connen
+[single] vernemen, en omtrent die saacke door sijn Ed=le grondige
+[single] kennisse, en ervarenth=t, beter versigtinge geven. — —
+[single] naar 't vertreck der retour scheepen sijn op gale nogh
+[single] verbleven
+[single] 2800: fardeelen Canneel, en
+[single] dieae
+[single] 450000: lb: mallabaerse peper, 't eerste staat uEd„le a:o alle
+[single] toegesonden, en van 't laaste ruijm de helft, maar
+[single] aangehouden te worden, om daar mede d'eerste bodem ons
+[single] van uEd=le a„o tot een retour schip toegesonden wordende
+[single] die aa
+[single] voor aff te connen guarnieren, de rest van dien Corl, sullen
+[single] n
+[single] soo wanneer van mallab= toeseggingh becomen, dat w'
+[single] daar van bij tijts jnde aanstaande maanden 8ber:, off gber
+[single] zullen Connen versien worden, over Cormandel versenden,
+[single] Om
+[single] in
+== NL-HaNA_1.04.02_1420_0089 | #89 | sides: single | lines: 42
+[single] ƒ
+[single] 35
+[single] van gale geen Canon te
+[single] missen
+[single] den memorie van't Canon op
+[single] colombo berustende:
+[single] 't yser canon de roest
+[single] onderworpen
+[single] 't canon int:s magasijn
+[single] berustende —
+[single] Om soo aldaar niet van nooden was, naar
+[single] bengale voort te sturen
+[single] Soo 't nieuw project van gale sijn voortganck sal
+[single] nemen, sal van daar geen Cannon, Connen werden
+[single] gemist, wat metaal Canon alhier benodight, en op de
+[single] bolwercken buijten 't jser verdeelt sijn, sal uEd=le a„o de —
+[single] nevensgaande memorie daar van Jn't breede vertoonen
+[single] Op de meeste bolwercken, en 't waterpas, js 't jser Canon
+[single] soo bequaem niet, dan wel 't metaal, alsoo doorde
+[single] siltigh=t van't zee water datter op comt te vallen, roest,
+[single] en seer Comt te vergaan, sijnde al veele stucken die
+[single] daar door haar spetie op verre naar niet, en verlooren
+[single] hebben, onder de metale stucken sijn 20: cassematten, off
+[single] wijt monders, die niet dan jn een storm om niet
+[single] schroot van digte bij teschieren, bequaem sijn, de 12:
+[single] cleene veltstuckjes verisschen hier mede wel, buijten
+[single] dewelcke, en die op de bolwercken verdeelt leggen, schietender
+[single] 91: p=s metaal Canon over die jn 't magasijn leggen als.
+[single] 2: p=s van - - - - 18: lb=
+[single] 16: „ van. . . . 12: —
+[single] 10 „ van. . . . - 8: —
+[single] 15„ van. . . . . 6. —
+[single] 8 „ van - - - - - 5 —
+[single] 24 „ van - - - - 4—
+[single] 8 „ van. - - - - . . 3 — daar onder een tuijmelaer, en twee
+[single] 6 „ van - - - - . . 2 — geborsten, d' rest seer bequaam om op
+[single] 2: van - - - - . 1 — Chialoupen te gebruijcken.
+[single] 91: p=s
+[single] buijten
+[single] —
+[single] -
+[single] A
+== NL-HaNA_1.04.02_1420_0090 | #90 | sides: single | lines: 36
+[single] dienden daar van wel eenige
+[single] om bij noot d' scheepen te
+[single] versien, in voorraat te
+[single] hebben
+[single] sullen nergens meer aan
+[single] houden dan sal vereijsschen
+[single] Buijten 't Canon vande bolwercken dienden
+[single] nogh wel een dousijn, off wat meer van 'd swaarste=
+[single] stucken alhier /: jnt voorraat, te sijn, om niet alleen
+[single] tegens de geborste, off beschadigde te verruijlen; en Jn
+[single] plaats te stellen maar oock om als d' hooft plaats bij
+[single] opcomst van oorlogh descheepen daar mede te versien,
+[single] gel=jk jnden Jaare 1672: is. geschiet, en 't welck geen
+[single] cleert getal bedragen heeft, waar over met den Ed„le h=r
+[single] commiss=s mede gesproocken hebben, die van 'tselve
+[single] sentiment is, wat metaal Canon, uEd=le a: sullen
+[single] 2
+[single] comen te oordeelen dat hier maar sal mogen verblijven
+[single] guoli
+[single] sal prompt gehoorsaamt, en 't overige uEd=le a: werden
+[single] toegesonden. , hoeveel van't voorsz canon ons van
+[single] Jaffanap: manaar, trincq: en batticalo sal toecomen
+[single] connen uEd=le a:o als nogh niet communiceeren, uEd=e
+[single] due zy
+[single] a:o verseeckerende datter op jder plaats geen meer sal
+[single] die
+[single] aangehouden werden, dan sal vereijschen, en 't welcke best
+[single] wanneer d' Ed=le h„r Commiss=s op dit eijland d' ronde
+[single] doet sal connen gesien, en g'oordeelt werden,
+[single] vanden arreecq is hier voor, en Jnde brieff naar't
+[single] vaderland jet breede gesproocken, en dat d' Jngesehenen
+[single] aand' Ed=le h=r Commiss=s seer hebben geclaaght haar
+[single] taxt niet te sullen connen voldoen, waar omtrent
+[single] gelijck
+[single] v
+== NL-HaNA_1.04.02_1420_0091 | #91 | sides: single | lines: 35
+[single] 36:
+[single] d'procure vanden arreecq
+[single] behartigen, om d' banquiers
+[single] te gerieven
+[single] ende mallabaarse te —
+[single] sluijten
+[single] rendiment der steen
+[single] graverije. —
+[single] Gelijck Jnde materie van gale hebben geseght,
+[single] deselve staan verlight te werden, en hoewel met dese
+[single] drooghten soo veel arreecq als wel voorheenen niet
+[single] sal connen versamelt en Jngevugst worden, soo sullen
+[single] niet te min daar van soo veel sien te bemagtigen, als
+[single] ons sal mogel=jk sijn, en besonderlijck op calpatijn om
+[single] niet alleen de rijs barcquiers daar van haar gerieff te
+[single] bestellen, en haar tot wedercomen met dat graan te
+[single] amimeeren, maar oock om op madure tot sluijting vande
+[single] mallabaarse arreecq soo veel aan te brengen, als nodigh
+[single] sal wesen, d' malbaaren continueeren niet alleen
+[single] daar mede nogh naar onder gewoonten, maar brengen
+[single] hoe langer hoe meer, van die gecoocte vrughten aldaar
+[single] ter merct. —
+[single] D. steen graverije is verpaght geweest voor de somma
+[single] van 500: rx=ms dogh hebben zij daar bij weijnigh
+[single] opgestoocken, en leggen over 't sluijcken, en verkoopen van
+[single] F
+[single] eenige steenen nogh Jn proces, maar mits 't placcaat
+[single] die die
+[single] daar op g'Emaneert, bij uEd=le a„o niet goet gekeurt is,
+[single] en gevolligh=de niet ter Executie sal mogen gestelt
+[single] worden, soo sal daar van weijnigh comen, enden
+[single] pagter daar op excipieeren, alsoo sijn gelt vande
+[single] copers, en sluijckers moet hebben, en anders daar
+[single] van
+[single] van
+== NL-HaNA_1.04.02_1420_0092 | #92 | sides: single | lines: 32
+[single] mits daar van niet te halen
+[single] is, sullen die paght
+[single] slaecken
+[single] motiven waarom 't placcaet
+[single] gestatueert is
+[single] geen cat oogen, off saffieren
+[single] connen becomen
+[single] nogh chrincos d' rhee
+[single] Van niet te haalen is, w' sullen dan dit werck
+[single] soodanigh 'tis laaten berusten, dewijle daar van dogh
+[single] niet veel te haalen sal wesen, en geen 200 rx=r weeder
+[single] voorde paght soude gegeven werden, sijnde 't vost, en
+[single] placcaat wel ten principalen gestatueert op de—
+[single] groote roep van datter soo veel gesteenten vervoert
+[single] wierden, en 'tschrijvens vand' ho: Ed=le heeren majores
+[single] daar over, en om met eenen te onderstaan off daar door
+[single] jts te bemaghtigen waare geweest, 't soude wel Connen
+[single] wesen, dat wanneer een jder het vervoeren der steenen
+[single] toegelaten werd men daar van meerder als nu soude
+[single] connen becomen, alsoo deselve ter sluijck uijt
+[single] 's Conincx lander gebraght, en hier daar op soo naeuw
+[single] werdende gelet, door een ander wegh, over Calpatijn,
+[single] manaer, en Jaffanapatn: vervoert werden, w' hebben
+[single] tot nogh geen catoogen, off eenige sassieren Connen
+[single] becomen, en tot 't bemaghtigen van een Coninx
+[single] Chiancos word oock alle disvoiren gedaan, schijnende
+[single] volgens 'tschryjvens vand Ed=le h=r ordinarij raat, en
+[single] gouvern=r pits voorsz: steenen op cormandel almede
+[single] niet wel te becomen sijn, gelijk w' vertrouwen door sijn
+[single] de
+[single] Ed=le uEd=e a: mede sal gesz„ wesen. —
+[single] Een
+== NL-HaNA_1.04.02_1420_0093 | #93 | sides: single | lines: 39
+[single] 37.
+[single] een caart van't pleijn voor
+[single] bolombos Casteel
+[single] 't gout naar Cormandel
+[single] gesonden
+[single] d' goederen uijt
+[single] Japan, en
+[single] van batavia ontfangen
+[single] Een Caert van't pleijn voor dit Casteel gaat
+[single] hier nevens, en 't geene tegens over de stadt met
+[single] groen is affgeset, is 't geene te vooren doord' gecommitteerd:s
+[single] is gewardeert
+[single] f 99915„17:—
+[single] 'T gout ten bedrage van
+[single] jongst met d' purmer, en adrighem
+[single] voor Cormandel uijt 't patria
+[single] becomen hebben Jnde m=t 9ber: naar
+[single] Jaffanapatn voor affgesonden om
+[single] tijdigh derw=s te bestellen, en daar bij
+[single] nogh gevoeght vijff baertjes gout
+[single] ter monture van. . . . . . ƒ 18456„ 3:—
+[single] dat hier bij de packhuijsen nogh
+[single] hadden, te samen uijt maakende
+[single] de somma van. . . . . . ƒ 118372: —„—
+[single] vermits de slegte negotie in Japan hebben desen Jare
+[single] van daar geen coebangs, nogh eenigh cooper becomen, en
+[single] alleen maar ontfangen
+[single] 1250: lb„e Camphur
+[single] met de schelde.
+[single] 1500 p=s pierings. .
+[single] 300: schootels. . . .
+[single] 300: commen. . .
+[single] 1000: lb: rompen. -
+[single] met hellevoet sluijs. —
+[single] 30. stx: portugeese testament en
+[single] Door 'twelcke onvermogens sijn geweest, de 450: kisten
+[single] Cooper
+[single] n
+== NL-HaNA_1.04.02_1420_0094 | #94 | sides: single | lines: 35
+[single] d'contanten uijt Zuratta
+[single] becomen
+[single] waar van parthij na bengale
+[single] sullen senden
+[single] 't versondene na mallabaer tot
+[single] het opcoopen van rijs voor ons
+[single] Cooper 't verleeden Jaar uijt een land gelight, van
+[single] hier weeder te voldoen, soo dat die ons hebben aangetrocken
+[single] om voorde negotie van madure te gebruijcken. —
+[single] bij onse hier voor mermael geciteert schrijvens sullen
+[single] uEd=le a:o bij naarlesinge sien, dat w' uijt zuratta met
+[single] 't jaght batt=a, en dijck, jn contante spetie hebben
+[single] becomen
+[single] 1: kisje met 5306: stux ducaten ten
+[single] bedrage van. . . . . . . . . . . . . ƒ 29649: 12: 3.
+[single] 25: kisten met 100000: stx: ropijen. . . . „ 150000: — —
+[single] 15: d=os met spaance reaalen. . . . . „ 91353: 10: 5. —
+[single] No
+[single] bedragende tesaamen ƒ 271003: 2: 8:
+[single] waar van geen meer sullen aanhouden dan ten uijttersten
+[single] van nooden hebben, en alle 't overrige naar bengale
+[single] versenden, Jn hoope de negotie in Japan bezer slagende, u Ed=e
+[single] a:a magtigh sullen werden, onsen eijsch van Coebangs te
+[single] voldoen
+[single] van't voorsz: Cappitael is 't kisje met de 5306: stx:
+[single] ducaten nevens 10 8: stx: spaance matten naar
+[single] maccab=r, en Cannara gesonden, om daar voor 6: â 700.
+[single] lasten rijs voor ons op te coopen, alsoo daar van soober, en
+[single] niet meer dan nogh voor 2/n geprovideert sijn, en met
+[single] dese drooge, en gebreckige tijden veel aande Jngesetenen
+[single] hebben moeten vercoopen, en daarom mitser nogh weijnigh
+[single] rijs.
+[single] 6
+[single] zij
+[single] uijt
+== NL-HaNA_1.04.02_1420_0095 | #95 | sides: single | lines: 33
+[single] 38
+[single] d' schepen tot het overhalen
+[single] van dat graen gebruijckt
+[single] Zijp, en schelde na Zuratta
+[single] walerb:r met vraght goederen
+[single] uijt bengale. —
+[single] Rijs van Cormandel is aangebraght, en dagelijcx
+[single] nogh lerstigh gevallen werden, om daar van te vercoopen
+[single] soo sijn tot 't overhaalen van dat graen geprojecteert, en
+[single] den 29: en 30=en januarij derw=s gesonden d' Jaghten ddijck
+[single] 't Cast„l batt=a, en hellevoet sluijs, de laeste daar toe
+[single] gebruijckt sijnde, om dat 't jaght de zijx alreede met de
+[single] goederen voor persia, en Zuratta hier van langewijck a=o pass=o
+[single] overblijven leggen, was affgeladen, sijnde 'tselve te gelijck—
+[single] n
+[single] met 't Jaght de schelde ons over mallad„r toegecomen, mede
+[single] op den 29=en d=o naar zuratta affgevaardight, om van daar
+[single] vand Eh=r direct=r bucquoij ordre te ontfangen, waar
+[single] naar zij haar sullen hebben te reguleeren, mits als jn den
+[single] -
+[single] aanvanck deses is geseght, de saacken Jn persia nogh
+[single] soodanigen uijtslagh niet hebben becomen, als daar vande
+[single] verwagtinge wel is geweest, en sij met soo veel coopmansz
+[single] nogh overkropt sitten, als jn 2: Jaaren zullen Connen
+[single] vertueren
+[single] De fluijt walerb„j den 3:' deser alhier uijt bengale over
+[single] masulipatn: aangecomen, en beladen sijnde met maar
+[single] 68: packen vragt goederen, hadden w' gaerne mede over
+[single] suratta gesonden, maar daar toe sijnd'svragters niet te
+[single] beweegen geweest, en mits een der selve, naar ons beright
+[single] wierde, de broeder was van een aansienel=k regent in
+[single] bengale
+== NL-HaNA_1.04.02_1420_0096 | #96 | sides: single | lines: 39
+[single] ove Cochim naar persia
+[single] d' goederen op masulipatn
+[single] voor ons daar in geladen
+[single] d' Cwiet kat almede uijt bengale
+[single] met wat provisie &=a versien
+[single] sijnde. —
+[single] na Zurasta
+[single] met 12: militairen versterckt
+[single] Bengale, ende E Comp:e hem misnoegende, veel
+[single] quaat conde doen, hebben voorm„t bodem toegelaten sijne
+[single] reijse over Coethim naar persia voort te setten, alvooren
+[single] daar uijt ligtende 't geene op masulipatn: voor dit
+[single] gouvernem=t daar jn was geladen, en bestaan heeft, Jn
+[single] 6: packen root geruijte negros Cleeden
+[single] 110: roode leere velletjes
+[single] 4340: stx: cruijt maten
+[single] 90: packen ruw guimes lijwaat
+[single] 120: stx: soolleer
+[single] waar mede niet meer dan eer dagh heeft versuijmt, alsoo
+[single] daags naar sijn aancomst, dat den 4:' is geweest, d' reijse
+[single] weeder voort geset heeft, verschijnende den 11:en daar aan
+[single] alhier mede uijt bengale ter rheede de fluijt d' CivetCat
+[single] de
+[single] beladen met soodanige goederen voor persia als uEd:e a=o
+[single] de
+[single] Jn dato = Januarij uijt die directie is gecommunic„t
+[single] doord
+[single] naar dat genoemde bodem van eenige provisie nevens 4: p=s
+[single] canon eenige hantgranaten, vier potten, en andere gereetschap )e sien
+[single] tselve
+[single] com
+[single] en buspoeder versien hadden, heeft 'tselve op den 13=' daar aan
+[single] de reijse almede naar Zuratta ondernomen, slagende
+[single] hem eenigh volck Jn bengale was affgestorven, en wegh.
+[single] geloopen soo dat w' dat bodemtje door gebreck van zeevarende,
+[single] weder met twaalff coppen uijt de militie hebben moeten
+[single] bemannen, en vermits wij geli=k jn onse vaderlantse, en
+[single] voorige
+[single] va
+== NL-HaNA_1.04.02_1420_0097 | #97 | sides: single | lines: 38
+[single] 39
+[single] gelijck mede de zijp, en batavia
+[single] elck met derthien
+[single] versoeck om matroos: timmerluijd:
+[single] roer, en slootemakers. —
+[single] doorde laate aankomst, en het
+[single] schap de sien van 't Jaght batavia, heeft
+[single] tselve niet na Cormandel
+[single] connen gaen
+[single] &
+[single] Voorige advijsen, aan uEd=le a:o affgevaardight, bekent
+[single] hebben gemaeckt, miet 't versenden der retourscheepen van
+[single] volck ontbloot geraeckt, en met deselve, en oock de
+[single] purmer, en adrichen weijnigh verbeetert sijn, soo zijnw'
+[single] genootsaeckt geweest jn plaats van matroosen d' zijp
+[single] oock met 13: en 't jaght batt=a met even soo veel militairen
+[single] tot haar hulx te versterecken, u Ed=le a:o andermael versoeckende
+[single] ons bij occagie met eenige zeevarende te willen recruteeren
+[single] d' noodige timmerl=s roer, en slootemakers zijn ons mede niet
+[single] toegecomen, en voord' nieuw gecome timmerl=s hebben de
+[single] oude die haar tijt uijtgedient hadden moeten verwisselen,
+[single] dierhalve almede uEd=le a:o daarom bij desen versoeck doen. —
+[single] 'T Jaght battavia mits met Cajer toegetakelt was, hebben
+[single] om dat daar mede geen zeijl conde varen niet hollants
+[single] want, en andere touwercken versien, en daar mede, en't
+[single] maaken van andere marsen, en verdere nodigheeden tot sijn
+[single] vertreck besigh gewest, weshalven, ende laate aancomst
+[single] ede
+[single] om naar Cormandel te versenden, uEd=le a:o ordre niet
+[single] hebben Connen voldoen, hebbende met d' zeeverstandige
+[single] hier, en op gale dierwegens gesproocken, dogh alle met ons
+[single] g'oordeelt het te laat jnde tijt te wesen, de reijse naar
+[single] cormandel te gewinnen, en door stilte, en contrarie
+[single] wint, en stroom, veel ongemacken onderworpen soude
+[single] wesen, en dat daar mede, niet soude versuijmen, schoon de
+[single] scheepen
+[single] 8
+== NL-HaNA_1.04.02_1420_0098 | #98 | sides: single | lines: 43
+[single] odrijck, batt„s en helle voet sluijs
+[single] d' retour van mallabaar,
+[single] komende na Cormandel sullen
+[single] senden
+[single] gel:jk mede de ledige bodems uijt
+[single] Zuratta komende. —
+[single] excepto eenige fluijten na
+[single] bengale. —
+[single] werw:ts sparworde met
+[single] eliphanten staat te vertrecken
+[single] verclaring wat daar aan
+[single] vertimmert heeft moeten werden
+[single] eenige der selver officieren om
+[single] haar quaat comportem:t na't
+[single] vaderland gesonden
+[single] den schipper vaart nu over
+[single] Scheepen tot maart hier aangehouden, en dan naar
+[single] derw=ts voortgesonden wierde, zullende niet mancqueren
+[single] soo dra voorm=t 3: bodems ons met rijs weder toecomen,
+[single] deselve soo spoedigh daar van te ontlossen, en naar
+[single] Cormandel te versenden, als ons mogelijk sal wesen, gelijck
+[single] oock geschieden sal met d' andere bodems die alhier uijt
+[single] zuratta ledigh verschijnen, excepto eenige fluijt scheepen die
+[single] de
+[single] naar bengale sullen senden, 't welcke verhoopen bij uEd=e a:
+[single] sal worden g'agreert, de fluijt spaerwoude die op
+[single] coetchin om te vertimmeren leght, sullen apparent soo dra
+[single] gedaan is, met houtwercken hier becomen, en met elifanten
+[single] om tot geschenck te dienen, soo haaft doenlijck naar bengale
+[single] senden, alsoo d' Ed:e h=r Commiss=s 'tselve ons heeft gelieven
+[single] te recommandeeren., wat aan voorn: bodem heeft
+[single] moeten vertimmert werden, sal d' Eijgaande verclaring, ons
+[single] van Coetchim toegesonden uEd=le a:o Jn't breede verthoonen,
+[single] &
+[single] Om de disordre, en quade comportementen, is uEd=le a o
+[single] voor heenen doord' Ed„le h„r Commiss=s g'adviseert, dat
+[single] omtrent d' officieren van voorn: bodem verschansingh heeft
+[single] moeten geschieden, sijnde die jn Jndien niet getrouwt
+[single] sijn buijten bedieningh naar 't vaderland met d' Jongst
+[single] vertrockene retourscheepen gesonden, en gaat den geweesen
+[single] schipper gen:t evert de bartrij vermits sijn reecq: op battavia
+[single] Loopt
+[single] ƒ
+== NL-HaNA_1.04.02_1420_0099 | #99 | sides: single | lines: 42
+[single] 40
+[single] 25: leggens wijn minder uijt
+[single] 't patria ontfangen
+[single] versoeck dierwegens
+[single] d' tarruw met d' guldewagen
+[single] versonden, uijt zuratta nogh niet
+[single] in reecq: gebraght.
+[single] coedijck eenige gagie goet
+[single] gedaen
+[single] d' gevangens aand' wercken
+[single] gestelt.
+[single] wittenbergh herstelt
+[single] is met het hooft gequelt
+[single] Loopt nu mede met dese tot uEd=e agtb„r buijten
+[single] bedieningh over
+[single] naardemael 25: leggers spaance, en seck wijn, en eenige
+[single] andere goederen minder hebben becoomen, dan d' Ed„le heeren
+[single] majores schrijven datse voldoen, en wij van die vogt aande
+[single] thuijs vaarders oock verstreckingh hebben moeten doen, soo sijn
+[single] present daar van geheel destituijt, en alsoo 't wel soude
+[single] connen wesen, gem: wijn over batt=a gesonden was, soo
+[single] versoecke deselve ons met den eersten magh toecomen, off dat
+[single] dre
+[single] wij anders door uEd=le a: goet h„t met andere geprovideert
+[single] moogen werden, de terwe met d' guldewagen versonden, is
+[single] ons mede van Zuratta tot nogh niet Jn recq: gebraght,
+[single] 't geene van daar hebben versoght, dat met den eersten moght
+[single] geschieden, staande soo dra 'tselve erlangen, uEd=le a:o dat
+[single] graan aangereeckent te worden, ende gagie vanden opperstierm:
+[single] o
+[single] coedijck soo langh alhier voor heenen dienst heeft gedaen,
+[single] volgens uEd=le a:o bevel hem tegens ƒ 40: goet gedaen te
+[single] worden
+[single] De 7: overgesonde gevangens sijn hier wel overgelevert,
+[single] en ten eersten aand' wercken gestelt.—
+[single] den gesuspendeerde vendrigh witterel=k is hier met sijn
+[single] familje oock g'arriveert, en doorde Ed„e h„r Commiss=s
+[single] herstelt, maar die man schijnt soodanigh met 't hooft
+[single] gequelt te wesen, datter bij naar geen huijs mede te houden is,
+[single] wat
+[single] ƒ
+== NL-HaNA_1.04.02_1420_0100 | #100 | sides: single | lines: 38
+[single] van gale te adviseeren de
+[single] overvaarende officieren uijt
+[single] persia—
+[single] voord' ontfangen goederen staat
+[single] 't generael ontheft —
+[single] ende nu overgaande weder
+[single] belast te werden
+[single] d' portugeese testamenten
+[single] ontf:
+[single] muijckens gedechargeert, en
+[single] na 't vaderlant vertrocken
+[single] s een sijn gagie affgesz:
+[single] Wat voor militaijre officieren uijt persia terugh
+[single] gecomen, nu op haar versoeck met den alexander, en
+[single] craan vogel tot uEd=le a:o vertrecken, staat van gale
+[single] aangehaalt, en voor't bedragen der goederen met den
+[single] eenhoorn, en andere bodems ons toegesonden, 't generael
+[single] ontheft, ende in contra weeder belast te werden voor't
+[single] 't geene nu ter monture van ƒ12132„ 19„ 14„ met de
+[single] alexander overgaat.
+[single] Voord' sendingh der overgesette testamenten jn't portugees
+[single] blijven van herten danckbaar hoopen deselve alsoo
+[single] al reede hier, op gale, en Jaffanap: onder d' gemeenten verdeelt
+[single] sijn de gewenste vrught sullen doen, aan wien deselve sijn
+[single] uijtgereijckt, daar van is behoorl„jk aanteeckeningh volgens
+[single] uEd:e a:o ordre gehouden.
+[single] Den onderCoopman muijckers volgens resolutie van den 14:'
+[single] 7ber: pass=o door 't weijgeren van 's Comp:s dienst van sijn
+[single] ampt gedechergeert, en aand' Ed„le h=r ger Commissaris
+[single] bij request versoght hebbende te mogen repatrieeren, is hem
+[single] 'tselve bewillight, en hij met d' Jongst vertrocke scheepen
+[single] derwaarts genavigeert
+[single] Den ondercoopman, en zoldijboeckhouder op gale
+[single] melchior beent, sigh door debaucke gants onbequaem
+[single] hebbende gemaeckt, sijn dienst naar behooren te Connen
+[single] waarnemen, en oock niet wel bij sijn gesight sijnde, was
+[single] mede
+[single] m

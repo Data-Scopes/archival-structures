@@ -1,0 +1,24 @@
+kind	inv	scan	number	reading	category
+E_miss	1631	0015	25	not a folio (item number 'N: o 25.', loc=yes page)	entry number taken as folio
+E_miss	2954	0005	288	HTR/second number: line '388 288'; gold 388, mono dropped 388, kept 288	gold doubt / locator
+E_miss	4325	0010	401	not a folio (bare item number, loc=no)	entry number
+E_miss	7978	0068	8	not a folio ('N„o 8.', loc=no)	entry number
+E_miss	7978	0068	14	not a folio ('No 14.', loc=no)	entry number
+E_miss	7978	0069	16	not a folio ('16. Originelen Eijsch', loc=no)	entry number
+E_miss	8840	0009	12	not a folio ('12: Copia brieven', loc=no)	entry number
+E_miss	8840	0010	22	not a folio ('22: Copia Actens', loc=no)	entry number
+L_FN	1631	0010	447	middle range '447 „ „ 450' with „ as connector, then dashes and a date; no arm	pattern gap
+L_FN	1631	0011	502	'502 verso a„ 504' (a„ connector); no arm	pattern gap
+L_FN	2282	0017	4	standalone '4.'; map range (877-2491) excludes it	range filter / map
+L_FN	2282	0085	710	trailing number after dashes (trail_num arm ok); map range excludes	range filter / map
+L_FN	2379	0008	773	'„ 773.' standalone found; dropped by mono	mono
+L_FN	2538	0016	2358	trailing '. . . 2358'; folio beyond the volume (not_found), outside the range	beyond volume
+L_FN	2538	0018	2496	trailing '. . „ 2496.'; beyond volume	beyond volume
+L_FN	2538	0020	2833	trailing '. . . „ 2833: —'; beyond volume	beyond volume
+L_FN	2954	0005	388	'388 288': 388 found, dropped by mono; 288 kept	mono
+L_FN	2954	0005	409	HTR '109 709 - 841' (htr=109); no locator	HTR misread
+L_FN	3793	0016	3081	lead number then ' . - - - - -' and text; no arm (lead needs a range)	pattern gap
+L_FN	3793	0021	3198	lead number then dashes and text; no arm	pattern gap
+L_FN	3793	0022	3330	HTR '3380. . . . 3373' (htr=3380) 4 dots	HTR misread
+L_FN	3793	0023	3382	'3382. . . . 3384' four dots; connector allows 2-3	pattern gap
+L_FN	7694	0006	45	trailing '- - „ 45' found; dropped by mono	mono

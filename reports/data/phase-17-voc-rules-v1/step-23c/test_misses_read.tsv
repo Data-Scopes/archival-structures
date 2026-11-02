@@ -1,0 +1,31 @@
+item_id	inv	folio	gold_scan	pred_scan	method	category	note
+2047-0396	2047	1	0396	0005	printed	unclear	user: could be a speck; neighbours 185/186 are a different numbering | user note: not sure, it could be a speck
+1723-0275	1723	1184	0275	0267	interpolated	several numbers on a side	1202/1187 at gold; 1184 interpolated to 267 among 1, 1202
+1631-0157	1631	199	0157	0215	printed	unclear	user reads 199 at 157 but neighbours are 143/146; prediction 215 follows 198
+1631-0339	1631	319	0339	0344	printed	tied or duplicated number	319 printed at 339 and 344 (neighbours 313, 315)
+1631-0457	1631	930	0457	-	none	HTR misread	HTR 430 where user reads 930; verso empty
+1631-0462	1631	935	0462	-	none	HTR misread	HTR 435 where user reads 935 (4/9)
+3793-0309	3793	3661	0309	-	none	HTR misread	HTR reads 3067 at gold; no anchor found
+3793-1105	3793	3465	1105	1103	printed	tied or duplicated number	3465 on scans 1103 and 1105; tie_keep=first picks 1103 (BASE 1105 was right)
+4325-0333	4325	675	0333	0334	interpolated	HTR misread	gold recto blank in HTR; 674@332 and 676@335 around; interpolation puts 675 on verso of 334
+8466-0251	8466	39	0251	0055	printed	tied or duplicated number	39 on scans 55 and 251
+8466-0273	8466	59	0273	0075	printed	tied or duplicated number	59 on scans 75 and 273
+2487-0075	2487	4657	0075	0115	interpolated	several numbers on a side	two numberings (1347.. and 4656..); 4657 interpolated to 115 where HTR reads 4677
+2487-0644	2487	112	0644	-	none	tied or duplicated number	112 on scans 641 and 644 (two numberings); no anchor
+2487-0984	2487	160	0984	-	none	tied or duplicated number	160 on scans 981 and 984; user: on verso page, unsure it is a page number; no anchor | user note: it's on the verso page, so not sure this is a page/folio number
+1081-0421	1081	202	0421	0423	printed	unclear	HTR 2531 at gold, 202 predicted at 423; two scans apart, four-digit second numbering nearby
+7694-0115	7694	31	0115	0039	interpolated	HTR misread	gold blank in HTR; 33@117 implies 31@115; interpolation lands on 39
+7694-0137	7694	57	0137	0143	printed	unclear	gold 137 blank in HTR; neighbours 49@135, 53@139 fit 57@143, i.e. the prediction; gold looks off
+8840-0047	8840	39	0047	0155	printed	HTR misread	gold blank in HTR; 39 predicted at 155
+8840-0081	8840	73	0081	0189	printed	tied or duplicated number	73 printed on scans 81, 83 and 189; SEL takes 189
+7978-0155	7978	195	0155	-	none	HTR misread	HTR 145. at gold (user 195); no anchor
+7978-0250	7978	44	0250	0403	printed	tied or duplicated number	44 on scans 250 and 403 (43 at 402 and 404)
+7978-0267	7978	63	0267	0419	extrapolated	restart or second numbering	63./64 at 267-268 amid small numbers 3, 6; chain broken, extrapolated to 419 (58)
+7978-0360	7978	4	0360	0278	interpolated	restart or second numbering	single digits 7,2,3,4,3 at 357-361; interpolated to 278 (74)
+2167-1101	2167	33	1101	0053	printed	HTR misread	HTR 13 at gold; user: first digit overwritten, unclear | user note: this is really unclear, as the first digit is overwritten by another. It's a 3 mixed with I think a 4, and I'm not sure which one is the last one. Check with surrounding folios
+2167-1139	2167	69	1139	0089	interpolated	HTR misread	gold blank in HTR; 67@1137, 71@1141 imply 69; interpolation lands on 89
+2167-1481	2167	415	1481	0435	printed	tied or duplicated number	415 on scans 435 and 1481; user: 4 could be a 9 | user note: again '4' could be a '9'
+2954-0017	2954	386	0017	0015	printed	tied or duplicated number	386 on scans 15 and 17; tie_keep=first picks 15 (BASE 17 was right): the only SEL-specific break besides 3793-1105
+2954-0393	2954	528	0393	0293	printed	HTR misread	HTR 538 at gold (user: the 2 is uncertain); decoy 528 at 293 | user note: the 2 is uncertain
+2954-0799	2954	758	0799	0759	printed	HTR misread	HTR 778 at gold, 758 predicted at 759
+2222-0006	2222	125	0006	-	none	HTR misread	HTR 425. where user reads 125 (1/4)

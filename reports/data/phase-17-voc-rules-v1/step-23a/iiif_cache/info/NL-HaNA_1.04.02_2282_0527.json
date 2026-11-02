@@ -1,0 +1,24 @@
+{
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "protocol" : "http://iiif.io/api/image",
+  "width" : 2927,
+  "height" : 4132,
+  "sizes" : [
+     { "width" : 91, "height" : 129 },
+     { "width" : 182, "height" : 258 },
+     { "width" : 365, "height" : 516 },
+     { "width" : 731, "height" : 1033 },
+     { "width" : 1463, "height" : 2066 }
+  ],
+  "tiles" : [
+     { "width" : 256, "height" : 256, "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ] }
+  ],
+  "id" : "https://service.archief.nl/iip/iipsrv?IIIF=10/1b/a9/b4/0d/85/44/45/90/be/ea/17/a7/dd/f1/2d/4f1ff608-1eb6-4dd3-bde3-ee50357665df.jp2",
+  "type": "ImageService3",
+  "profile" : "level2",
+  "maxWidth" : 5000,
+  "maxHeight" : 5000,
+  "extraQualities": ["color","gray","bitonal"],
+  "extraFormats": ["tif","webp"],
+  "extraFeatures": ["regionByPct","sizeByPct","sizeByConfinedWh","sizeUpscaling","rotationBy90s","mirroring"]
+}

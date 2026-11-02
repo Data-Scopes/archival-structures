@@ -1,0 +1,169 @@
+inv	scan_id	page	line_id	line_idx	text	gold_folios	status	note
+1081	NL-HaNA_1.04.02_1081_0006	single	c09751a5-4727-460a-8fac-b4aecdb6f232	7	3 Contraprotest.		ok	no folio on this line
+1081	NL-HaNA_1.04.02_1081_0006	single	line_813782a2-31e1-44ed-8a90-1cd1c014cb98	17	admirael Dedel.		ok	no folio on this line
+1081	NL-HaNA_1.04.02_1081_0009	single	a287709e-df92-48c7-9743-d2f087f39816	2	delincquanten t'sedeht 9e meij 1622 tot 18 october		ok	no folio on this line
+1081	NL-HaNA_1.04.02_1081_0009	single	fd1d0253-eea9-4400-9e7a-58ce945ec725	24	N„o 1. advertissement door den Toutock aen donse in Rehouw		ok	no folio on this line
+1081	NL-HaNA_1.04.02_1081_0009	single	line_078b2636-3d43-4225-8ccf-7f6981b05070	38	No. O: Descriptie vande Stadt Soo langh, gheleghen opt Erylandt		ok	no folio on this line
+1081	NL-HaNA_1.04.02_1081_0010	single	line_52445966-d945-4b21-a172-ecf3b9c0fd47	2	Copie missive vanden Commandr. Reyers & aen ghemelten Totocq		ok	no folio on this line
+1081	NL-HaNA_1.04.02_1081_0010	single	line_72e27166-cf4b-4393-9778-b767db845fa3	11	No. A A: „ Translaet vande antwoorde op ditto missive (van Totocq,		ok	no folio on this line
+1081	NL-HaNA_1.04.02_1081_0010	single	line_0931ecfa-af6a-4794-a13a-7db4fc047923	12	In dato 1e. septemb 1623 —		ok	no folio on this line
+1184	NL-HaNA_1.04.02_1184_0005	single	b2225d9b-2a29-466b-b605-7efaaa236272	0	Batavia. - Ingecomen missiven. - Toncquin.		ok	no folio on this line (continuation/title/date)
+1184	NL-HaNA_1.04.02_1184_0005	single	line_12736629-d82f-4815-870e-5398dd9e838c	4	„ 20 a 22. Copie instructie voor den eersten adsistent	20	ok	20 a 22 range
+1184	NL-HaNA_1.04.02_1184_0033	single	d7d117cf-bc7c-4b81-8f6d-79ce513d607e	0	Register vande nevens gaende		ok	no folio on this line (continuation/title/date)
+1184	NL-HaNA_1.04.02_1184_0034	single	addb8e50-5bf7-49e6-83ca-b2d9bc0dc0d0	1	mo		ok	no folio on this line (continuation/title/date)
+1184	NL-HaNA_1.04.02_1184_0034	single	line_92099fbd-3dd3-4e9c-b2f6-37a4aba54408	0	Specificatie vande Schenckagie door ordre		ok	no folio on this line (continuation/title/date)
+1184	NL-HaNA_1.04.02_1184_0034	single	line_5cbd545a-2a42-473b-885a-54470ae2aaba	1	14		ok	bare 14 is an item number in a list, not a folio
+1184	NL-HaNA_1.04.02_1184_0034	single	f55fadbe-77d9-4753-af9b-f8e894e6b7e5	2	van sijn E: aenden Coningh, prins groot Man„		ok	no folio on this line (continuation/title/date)
+1184	NL-HaNA_1.04.02_1184_0035	single	line_30f91f71-8926-427d-bcdb-a6ccf2b88e60	2	na		ok	no folio on this line (continuation/title/date)
+1556	NL-HaNA_1.04.02_1556_0014	single	line_8ae60f45-6a4d-4964-8366-64c605775e87	15	in dato 15 Junij 1694. . . . . . . . . . . . . . . . . . . . . . . . . . „ 268 a 278.	268	ok	
+1556	NL-HaNA_1.04.02_1556_0015	single	line_9b2fb7a6-8b78-4462-a071-c966e9cd4c36	25	dito vanden koninck Toloko en de Ternaetse Rijcx„		ok	folio 408 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule
+1556	NL-HaNA_1.04.02_1556_0016	single	line_19e875c0-0ef8-449e-80ee-15d97828df09	3	ne reijse nae mangindenao @nde mede gegeven. . . . f 408 verso a 415.	408	ok	start of range 408 verso a 415
+1556	NL-HaNA_1.04.02_1556_0016	single	line_3afa3fdf-ac9b-4731-b1fe-5a10f8d06134	3	Dito van den fiscael Jacob Claesz: wegens sijn		ok	folio 500 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule
+1556	NL-HaNA_1.04.02_1556_0017	single	line_6cb8e2df-a98f-40f0-ad6d-59875c260c55	6	den 4. Maert 1694 overt bestier van saacken aldaer		ok	folio 607 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule
+1556	NL-HaNA_1.04.02_1556_0021	single	c0523325-1ec0-466c-a380-a0d82a7ea9b7	8	16 Septemb: tot 25 Octob:r 1694 - - - - - - - - - - - - „ 773 a 796 verso	773	ok	
+1556	NL-HaNA_1.04.02_1556_0021	single	line_1a60e57b-5bd3-47ca-afa7-8adc43841b0a	23	Register der papieren - - - - - - - - - - - - - - - - - - „ 821 a 822.	821	ok	
+1556	NL-HaNA_1.04.02_1556_0023	single	line_842aa80c-85f9-4d19-ba29-07e109fbd7dc	7	-.		ok	stray dash, no folio
+1631	NL-HaNA_1.04.02_1631_0010	verso	c774b146-3bf0-417b-813e-d70347b9e824	16	„ 447 „ „ 450 d=o d=o. . . . - - - - - - - 17 Novemb: 1700.	447	ok	
+1631	NL-HaNA_1.04.02_1631_0010	verso	d9e345fc-4790-4e63-9c80-73cc6471156c	29	dato 2 Januarij 1700		ok	date only; folios 457 a 461 on another line
+1631	NL-HaNA_1.04.02_1631_0011	verso	line_0b8d8383-2033-471a-9687-4e4c81ef1b21	0	„ 502 verso a„ 504 d=o d=o - - - - - - - - - - 23 d=o —	502	ok	
+1631	NL-HaNA_1.04.02_1631_0013	verso	line_1edcc25a-c204-4414-98cf-56da05dd17b9	9	9. februarij 26. e maart, 8. Junij 16. ' Julij 16. e augusto		ok	dates only
+1631	NL-HaNA_1.04.02_1631_0014	verso	line_7a609af4-522e-4943-a015-96447305b4a7	1	maldivese Eijlanden aanden Edele		ok	text only; number on other line
+1631	NL-HaNA_1.04.02_1631_0015	verso	fd44c437-c88a-4dac-ab0a-1f937e96e9ca	0	N: o 25. Extract missive door veelgen: heer Commandeur		ok	N:o 25 is an enclosure number, not a folio
+1631	NL-HaNA_1.04.02_1631_0015	verso	line_9fa50fff-0a8c-4f61-b925-8aca5b0ee367	5	seker moors schip toebehorende den duan„		ok	text only
+1631	NL-HaNA_1.04.02_1631_0015	verso	line_38d30fe6-78df-40db-979a-de75ee591e96	2	Lucas Pool, en hendrick steenbauck		ok	text only
+1723	NL-HaNA_1.04.02_1723_0014	single	d1f13456-dadb-49ec-9729-b75ff7646449	10	van 't geene op voorsz: kisten is te kort		ok	folio 1126 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule
+1723	NL-HaNA_1.04.02_1723_0015	single	line_710aea15-1e0f-47eb-bf1a-289fcc433af0	0	1472		ok	running page head 1472, not a locator
+1723	NL-HaNA_1.04.02_1723_0015	single	a40837b2-f96f-4786-8a8f-e5b653330293	0	Sacren, Credit		ok	stamp text (Sacren, Credit), no folio
+1723	NL-HaNA_1.04.02_1723_0015	single	line_5a58aeba-8d50-4459-b715-64469bbad25b	0	Somma Barken 30:-		ok	stamp text (Somma Barken), no folio
+1723	NL-HaNA_1.04.02_1723_0016	single	line_3d539e2d-9974-4cdd-8793-68f62a28e5b3	7	versoekende dat voorn: predicanten haer gevoelen		ok	folio 1172 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule
+1723	NL-HaNA_1.04.02_1723_0016	single	c1ae7269-3a20-453d-96ee-38d54e04ef8e	19	genaemt, uijt Candia naer Trinconemale		ok	folio 1184 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule
+1723	NL-HaNA_1.04.02_1723_0019	single	line_1e7bde71-2c6f-4aa0-8ba6-c3cbf9507135	15	„ 1330 a 1331. Cathalogus der Medicamenten voort schip	1330	ok	folio 1330 a 1331 on same line
+1723	NL-HaNA_1.04.02_1723_0019	single	cb4cb041-32fc-4c5a-9dc1-8930c4266846	0	90.		ok	stray number, no folio
+2047	NL-HaNA_1.04.02_2047_0009	single	line_0e98eabc-6475-42c1-80ff-87b49c84a1f1	1	en Papieren van Mallabar		ok	title line of register, no folio
+2047	NL-HaNA_1.04.02_2047_0009	single	bdd124ce-e5d4-4fef-b75b-6247eda6e837	1	5 — 87. Origineele Missive door den Commandeur	5	ok	range 5 - 87
+2047	NL-HaNA_1.04.02_2047_0010	single	e62c7751-bfe8-41d3-bbe5-fce42e9e3897	1	Iacob de Iong en den Raad tot Couchin		ok	folio 235 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule
+2047	NL-HaNA_1.04.02_2047_0011	single	line_660d7b4c-1c03-488d-883d-993a25e88190	2	Commandant tot Chettuwa Willem		ok	folio 292 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule
+2047	NL-HaNA_1.04.02_2047_0011	single	cddba2ce-c3ff-4b06-8c98-fda0dcf60f82	1	tot Cananor aandie van Couchin gesz: den		ok	folio 297 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule
+2047	NL-HaNA_1.04.02_2047_0018	single	line_3321477e-3410-4f6d-bc6f-caddeba23488	5	geschreeven nopende het houden		ok	item number 4 of dispatch list, no folios
+2047	NL-HaNA_1.04.02_2047_0021	single	line_101f5677-de60-49c9-bc95-20c4ba75bf3c	1	8:e februarij deses Jaars aan den		ok	item numbers 15-18, no folios
+2047	NL-HaNA_1.04.02_2047_0022	single	line_05653998-c40c-4929-81ab-1ca57ac5cc26	0	kan gesien werden alle 't geene		ok	item numbers only, no folios
+2167	NL-HaNA_1.04.02_2167_0015	single	af6a2362-4f26-4fc1-b7ca-9103f99f6de2	4	gewas te spysigen. . . . . . . . . . . . . . . . . „ 842	842	ok	
+2167	NL-HaNA_1.04.02_2167_0026	single	line_1e165f58-f209-4880-a344-e023b6939e27	28	bodems na Amsterdam en welke na		ok	no folio on this line (item no./date/continuation)
+2167	NL-HaNA_1.04.02_2167_0028	single	b53f8c20-3763-49b9-9289-0194b1af17a7	4	bagilet en Jacob Keijt baas der wapen		ok	no folio on this line (item no./date/continuation)
+2167	NL-HaNA_1.04.02_2167_0029	single	line_41c8c0a6-6cab-4ad1-b167-5ae5bbd9b421	10	duurende zyn op en aftogt na en van		ok	no folio on this line (item no./date/continuation)
+2167	NL-HaNA_1.04.02_2167_0036	single	line_995ba0b0-f3ec-474f-ab6b-a329cd525420	0	van het geinjungeerde na derrewaarts		ok	no folio on this line (item no./date/continuation)
+2167	NL-HaNA_1.04.02_2167_0042	single	e519546f-7bfd-48f1-b083-ec956108d0fb	21	Calture en Hangwelle subdatis 5:e		ok	no folio on this line (item no./date/continuation)
+2167	NL-HaNA_1.04.02_2167_0044	single	line_26828a13-a2b5-40c8-bcc2-b2483491719e	0	pass:o van hier na Gale gesch: tot		ok	no folio on this line (item no./date/continuation)
+2167	NL-HaNA_1.04.02_2167_0055	single	line_43e8a860-2a65-461a-a8fa-a209cd5c9575	12	=inge hebben versogt, mits betalende een		ok	no folio on this line (item no./date/continuation)
+2282	NL-HaNA_1.04.02_2282_0017	single	line_8ef8a018-11ea-4eed-9d8d-94245b505e1b	0	4.	4	ok	bare 4 in the folio column of the register summary (loc=yes page, volume folios 1..919); the page's own number is 1975/23 at the top
+2282	NL-HaNA_1.04.02_2282_0025	single	a9d3983b-7136-4820-bdf9-68bb15168d51	1	derhalven het tewenschen was dat men		ok	folio number stands on another line (entry numbers = page nrs)
+2282	NL-HaNA_1.04.02_2282_0035	single	b516f260-68dc-4485-a8b0-5ac7c7c15ddd	0	de		ok	folio number stands on another line (entry numbers = page nrs)
+2282	NL-HaNA_1.04.02_2282_0049	single	line_4a78e37a-35d6-4ed3-a1d7-bd5d81ba8601	17	om in diervoegen Cormandel weder		ok	locator stands on a neighbouring line
+2282	NL-HaNA_1.04.02_2282_0053	single	f3d22a5d-b57e-42c7-a509-2f40fcdbdb0b	21	de pennisten hier nevens gem:		ok	locator stands on a neighbouring line
+2282	NL-HaNA_1.04.02_2282_0074	single	line_551b7b8e-76d5-4693-950e-82b7d7b67861	2	te gebeuren - - -		ok	locator stands on a neighbouring line
+2282	NL-HaNA_1.04.02_2282_0076	single	a75f2912-72b7-4bac-a38b-27d2b93ccc23	23	ter voldoening van haar hoog Edelens		ok	locator stands on a neighbouring line
+2282	NL-HaNA_1.04.02_2282_0085	single	line_20d3404f-ebc4-48dd-bb49-e75880d76fed	26	eenige onheijlen mogte overkomen - - - - - - - - - „ 710.	710	ok	entry ends with 710
+2379	NL-HaNA_1.04.02_2379_0008	single	line_4b1aab6a-0868-47c1-853c-e7ffe730ef52	11	opneem onder ult:o aug:s des gepasseerden Jaars - - - - - „ 789.	789	ok	
+2379	NL-HaNA_1.04.02_2379_0008	single	fc07ebb3-4216-450e-a1ca-89ac7023171c	17	secretariale attestatie van den opperstuurman en		ok	folio stands on a loose line (800?), not this line
+2379	NL-HaNA_1.04.02_2379_0008	single	line_7d9be1e4-edde-41a7-8b37-1034ac2b6af9	1	„ 773.	773	ok	loose folio number
+2379	NL-HaNA_1.04.02_2379_0012	single	a057524c-3c6f-45be-b08d-3be6642add8c	7	Aanwijsing van 't getal der in de provintie ambon		ok	folio 1313 is on the next line
+2379	NL-HaNA_1.04.02_2379_0015	single	ea936677-ccd4-4afc-99ac-42ba10ea3611	0	603		ok	bare number 603 inside an enclosure list on a loc=no page; not a folio column
+2379	NL-HaNA_1.04.02_2379_0020	single	line_6e19402f-591f-4e44-839f-e965fd4cd5a2	1	en mindere vaartuijgen gestatueerd tot preve„		ok	enclosure list, no folios
+2379	NL-HaNA_1.04.02_2379_0024	single	line_2276ff26-ce2b-47d4-a6ad-11c969bf3969	0	L:a A: duplicaat van dit register		ok	enclosure list, no folios
+2379	NL-HaNA_1.04.02_2379_0025	single	e0aa0484-b878-4485-a6ce-5388017bbdf2	11	van a:o 1737. annex Een catha„		ok	enclosure list, no folios
+2538	NL-HaNA_1.04.02_2538_0010	single	line_5f2aa87c-12d0-4f47-acfc-d17803762e9d	24	goederen ensz: als 'er onder ult„o		ok	folio 761 is on the next line
+2538	NL-HaNA_1.04.02_2538_0012	single	line_56502b43-3539-4d7a-96d7-68a22cc4a2bd	23	bo Bengale Mallabaar Jaffana		ok	folio 1116 is on a later line
+2538	NL-HaNA_1.04.02_2538_0016	single	line_1203caf3-e97c-45e6-82f0-b66ee9dd17c2	13	geszu sed:t den 1 Febr: tot den 1 Julij. . . 2358	2358	ok	
+2538	NL-HaNA_1.04.02_2538_0018	single	line_1f534130-e2f5-4ab3-bac0-931a034fbda3	10	voorleeden en 29=sten Jann: deses Jaars. . „ 2496.	2496	ok	
+2538	NL-HaNA_1.04.02_2538_0020	single	line_8b5fa8be-14d7-4865-95be-7ac3168469fb	18	Julij den 16. 7ber voorm:. . . . . . „ 2833: —	2833	ok	
+2538	NL-HaNA_1.04.02_2538_0022	single	b25170ff-bc43-49b9-8a00-7ff5b6168dce	13	mansz: &=a p=r de scheepen maria		ok	folio not on this line
+2538	NL-HaNA_1.04.02_2538_0026	single	f68bb402-c257-4710-b3b4-79f155627ebf	29	Generale bevinding van de aldaar p. r het schip		ok	folio on a loose line, not this one
+2538	NL-HaNA_1.04.02_2538_0035	single	a36986d5-266b-40ba-802c-5a891cd7f488	1	Gale.		ok	register title page, no folio
+2954	NL-HaNA_1.04.02_2954_0005	single	line_4aed53e0-330f-461a-8524-f7f2444af7b0	0	Register der Brieven en Papieren		ok	no folio on this line (continuation/title/date)
+2954	NL-HaNA_1.04.02_2954_0005	single	line_09aafaf9-7feb-4123-92e3-598a91adcbad	2	aan de Verg: van 17:e in dato 10 novb: 1759, dienende ten		ok	no folio on this line (continuation/title/date)
+2954	NL-HaNA_1.04.02_2954_0005	single	line_3788e35a-b44e-453e-93cd-370e366a0a07	3	geleyde van de volgende papieren, alle betrekkelyk tot		ok	no folio on this line (continuation/title/date)
+2954	NL-HaNA_1.04.02_2954_0005	single	df99ba84-dad0-4084-a8c7-5e6b0bc3de24	5	den geweezen pakhuiysmeester van de Laar, in Souratta,		ok	no folio on this line (continuation/title/date)
+2954	NL-HaNA_1.04.02_2954_0005	single	e302ada5-b665-44f1-a29e-3f033e819654	7	388 288	388	ok	388 288 garbled; 388 printed on scan 21
+2954	NL-HaNA_1.04.02_2954_0005	single	line_51cfc435-5d95-4b84-a6f8-76a1d6e99d05	9	109 709 — 841 Beantwoorde Extract patriasche brieven van 6 novb: 1742	409	ok	htr=109; read 409 (range 409-841)
+2954	NL-HaNA_1.04.02_2954_0005	single	line_4849eb55-92af-4b37-97e9-ba81a8abe014	10	2 septb: 1743, 5 Septb: 174 en 6 7ber 1745 aangaande het		ok	no folio on this line (continuation/title/date)
+2954	NL-HaNA_1.04.02_2954_0005	single	line_83619c43-6c0a-4d9a-b248-12db986a642c	11	comptoir souratta.		ok	no folio on this line (continuation/title/date)
+3260	NL-HaNA_1.04.02_3260_0013	single	line_5698632c-9678-4481-ab10-eafa512372af	0	Cormandel Geno„		ok	no folio number on line (dates/text only)
+3260	NL-HaNA_1.04.02_3260_0015	single	line_4f22410c-9aa1-4348-9874-c00ac9329e31	4	ve van den 18. Maart 1765. be„		ok	no folio number on line (dates/text only)
+3260	NL-HaNA_1.04.02_3260_0016	single	e062a355-8588-4f48-a449-d3f1dcbb75e4	3	ten en de daarop be		ok	no folio number on line (dates/text only)
+3260	NL-HaNA_1.04.02_3260_0021	single	line_558fa9ab-5503-434b-8044-31411ed07560	5	lijke Gesteldheijd der Cassa onder		ok	no folio number on line (dates/text only)
+3260	NL-HaNA_1.04.02_3260_0023	single	line_4d6273dd-befb-44c6-90e8-922c9567c5ff	10	5. dierselve maand daartoe rela„		ok	no folio number on line (dates/text only)
+3260	NL-HaNA_1.04.02_3260_0024	single	line_077a9594-f3af-47c9-8c95-ca95e819b8e9	1	de dato 27.' Maart 1766. waar¬		ok	no folio number on line (dates/text only)
+3260	NL-HaNA_1.04.02_3260_0026	single	line_080cd558-9d24-4991-aa02-1ba2d20427e2	0	Lra L: L: apparte Reeckening, setreckende ter aantooning mee		ok	no folio number on line (dates/text only)
+3260	NL-HaNA_1.04.02_3260_0028	single	fb13d8d8-43a6-4a5e-9ab7-3b308e7bfe88	0	Nancquet de Jane		ok	no folio number on line (dates/text only)
+3793	NL-HaNA_1.04.02_3793_0011	single	line_911fdeb1-498d-42e0-9834-3d86db05e253	12	d:o cicul: miss:s van en mnds aleeden aande op pehoofden van mannapas kalpethyen Batticaloa		ok	folio 3058 stands on a separate line
+3793	NL-HaNA_1.04.02_3793_0015	single	line_341eab66-30a9-4384-9c2c-1d434d11c03f	5	- -. Copie Missive van den gouverneur benevens den Raad		ok	no folio number on line (dates/text only)
+3793	NL-HaNA_1.04.02_3793_0016	single	line_29bfa8d7-991d-4236-bc00-b226c956c122	7	3081. - - - - - d:o d:o van als even aan het opperhoofd,v	3081	ok	
+3793	NL-HaNA_1.04.02_3793_0021	single	line_7ec4c4f3-c156-41e2-a290-c761fab9febc	2	3198 - - - . . d:o do van het Thinionomaalser opperhoofd	3198	ok	
+3793	NL-HaNA_1.04.02_3793_0022	single	line_24494525-5b5c-4aa7-817f-5a715a633347	20	3380. . . . 3373 Copie Missive van van Senden, van Drieberg & Haspenee	3330	ok	htr=3380; sequence/printed page is 3330 (to 3333)
+3793	NL-HaNA_1.04.02_3793_0023	single	line_3e29d6f1-c668-4421-9ed6-5f188b1d6253	0	3864.		unreadable	lone garbled number "3864", no such page; true number unclear
+3793	NL-HaNA_1.04.02_3793_0023	single	line_5aae550d-6112-41ad-aac1-d197ca54d296	3	even: do 14 Junij 1788		ok	date only; number on other line
+3793	NL-HaNA_1.04.02_3793_0023	single	line_22f91fcf-8dcf-49cc-9d68-55f808c6e35e	2	3382. . . . 3384 Copie Mupres van aen Trinconomaalsche Bed	3382	ok	
+4325	NL-HaNA_1.04.02_4325_0010	recto	line_1a9cf7bd-8b0d-4a7a-af9e-68ed01d92fd8	7	„neerd-		ok	enclosure/item list, no folio on this line
+4325	NL-HaNA_1.04.02_4325_0010	recto	line_4a082f20-22d2-4db1-8f34-0d5bf0a76c70	6	17=e afgezonden		ok	enclosure/item list, no folio on this line
+4325	NL-HaNA_1.04.02_4325_0010	recto	line_7c925515-c906-42c2-9498-b0d156875552	0	Camer		ok	enclosure/item list, no folio on this line
+4325	NL-HaNA_1.04.02_4325_0010	recto	acb0bb1e-0a7e-41ff-8eb2-c67a1f236589	0	401		ok	own page number of the register page, not a locator
+4325	NL-HaNA_1.04.02_4325_0011	verso	b6f21cc2-574f-4964-a05e-cf869912db20	0	met beijde		ok	enclosure/item list, no folio on this line
+4325	NL-HaNA_1.04.02_4325_0011	verso	line_9b39e68b-b641-42ab-ac58-7362a8d9a77c	0	__o van den 9 dier		ok	enclosure/item list, no folio on this line
+4325	NL-HaNA_1.04.02_4325_0011	verso	line_2e4a22ca-cda0-483d-94ca-620cbc0c54e5	4	Edele Heeren Zeeventhienen		ok	enclosure/item list, no folio on this line
+4325	NL-HaNA_1.04.02_4325_0011	recto	line_4a20ffc9-cb45-4bc1-93b0-77a0c92de48b	1	de Juffw Johanna Verstrekt		ok	enclosure/item list, no folio on this line
+7694	NL-HaNA_1.04.02_7694_0005	single	line_9826b738-af3a-42bd-8452-f7b622da5e20	0	Register van alle zodi¬		ok	no folio on this line
+7694	NL-HaNA_1.04.02_7694_0005	single	dd6fe743-9ae8-43f4-91a3-9009c2e22ab7	0	den 19 d:o per den Briefken van den Gesaghebber Cornelis van Kiel		unreadable	folio of this entry lost in HTR
+7694	NL-HaNA_1.04.02_7694_0006	single	line_5993e90a-5bce-4a39-9e5f-7ccc814d0b1b	6	Missive door en aan als voorm:t gedat:t 24: deser - - „ 45	45	ok	
+7694	NL-HaNA_1.04.02_7694_0027	single	line_564f5c5a-33c9-4193-9965-5efc505d146b	2	„raakt zijnde deselve niet ont„		ok	no folio on this line
+7694	NL-HaNA_1.04.02_7694_0081	single	line_3c272eb0-913c-47e3-9e43-b47428c3ec7f	0	Ontfangen den		ok	no folio on this line
+7694	NL-HaNA_1.04.02_7694_0081	single	f97e8ff7-bfa1-44b1-b283-544379e0545d	3	van den P:s gezaghebber Daniel van den		ok	no folio on this line
+7694	NL-HaNA_1.04.02_7694_0081	single	c2d524a5-3d6b-4b11-9103-7c01f7722d37	19	timmerlieden nopens hunne gedane Visitatie		ok	no folio on this line
+7694	NL-HaNA_1.04.02_7694_0083	single	be6595bb-c912-4358-866f-e3d9a52e0e09	4	aan zijn hoog Edelheijd		ok	no folio on this line
+7978	NL-HaNA_1.04.02_7978_0005	single	line_0f707cf2-1a89-4269-b74e-70f58f585339	0	Register van sodanige		ok	no folio on this line (item no./date/continuation)
+7978	NL-HaNA_1.04.02_7978_0011	single	line_4a731f50-94be-41c5-900a-7be1ddf17ff0	2	17 1/13. volgens apart register		ok	no folio on this line (item no./date/continuation)
+7978	NL-HaNA_1.04.02_7978_0011	single	e41bd450-cf2f-40ee-89b8-4777c1188a76	12	van het schip den donauw		ok	no folio on this line (item no./date/continuation)
+7978	NL-HaNA_1.04.02_7978_0068	single	f2909d63-0df0-4d56-840d-8fd6629b6399	0	N„o 8. Copia actens van verbeeteringe sedert den 3„e Junij		ok	no folio on this line (item no./date/continuation)
+7978	NL-HaNA_1.04.02_7978_0068	single	line_6933c3c4-115f-4ab7-86a7-42558a028ce3	30	Jansz:		ok	no folio on this line (item no./date/continuation)
+7978	NL-HaNA_1.04.02_7978_0068	single	line_67666828-c70d-4924-9a7a-1b1512862c7f	0	No 14.		ok	no folio on this line (item no./date/continuation)
+7978	NL-HaNA_1.04.02_7978_0069	single	line_0286baeb-e04a-4db3-af56-4e9a5af86674	2	16. Originelen Eijsch van benodigtheden voor het aanstaande jaar		ok	no folio on this line (item no./date/continuation)
+7978	NL-HaNA_1.04.02_7978_0069	single	e61c97d3-0450-42d4-8ea3-f80243450e40	32	Banda Nassouw den 13„e Septemb: 1716. (eoe) I:s De Hoon Seretais.		ok	no folio on this line (item no./date/continuation)
+8029	NL-HaNA_1.04.02_8029_0007	single	cc3b328c-531b-458f-af7c-f7fffa2c4cd7	11	Harmonie verloren zijn als		ok	no folio on this line; register lists documents by date only
+8029	NL-HaNA_1.04.02_8029_0007	single	c1e9a891-51f6-458d-a933-d8ce3d9c6c4a	0	Resolutien zeedert den 16: Augustus 1783.		ok	no folio on this line; register lists documents by date only
+8029	NL-HaNA_1.04.02_8029_0007	single	ccd6e839-12bd-4ca7-a5fb-90317ae75feb	1	tot den 16 Augustus 1784:		ok	no folio on this line; register lists documents by date only
+8029	NL-HaNA_1.04.02_8029_0008	single	line_7b122fec-2932-468c-affa-b1248d68905b	1	lij 1784:-		ok	no folio on this line; register lists documents by date only
+8029	NL-HaNA_1.04.02_8029_0008	single	line_82742020-bf3e-4260-8705-864d9e56da91	3	eijndigende met den 10 Junij 1784.		ok	no folio on this line; register lists documents by date only
+8029	NL-HaNA_1.04.02_8029_0008	single	line_653efbb7-02dc-4e95-beb6-84b7fb019936	0	Brieven van den Heer Gouverneur en Raad aan		ok	no folio on this line; register lists documents by date only
+8029	NL-HaNA_1.04.02_8029_0008	single	f339163c-9549-4582-b8a8-f16c7c0777a7	0	Resolutien seedert den 27 September 1782:		ok	no folio on this line; register lists documents by date only
+8029	NL-HaNA_1.04.02_8029_0008	single	bfb061a8-991a-4e93-99ef-ed16a029c3af	0	J: V: Cerlijck		ok	no folio on this line; register lists documents by date only
+8466	NL-HaNA_1.04.02_8466_0005	single	b5d2fd8c-27b9-4f3e-a4eb-d1e00dc5e540	0	A:o 1740.		ok	year heading
+8466	NL-HaNA_1.04.02_8466_0005	single	line_960936f0-3f67-42b6-acf7-9252e814fe14	3	palembang gesz: op laast geciteerde datum - „ 83:	83	ok	
+8466	NL-HaNA_1.04.02_8466_0005	single	d1708def-7fee-4793-81c3-b6404ce8bf68	13	garij arisa mangala rakende het ombrengen		ok	folio 89 is on the next line
+8466	NL-HaNA_1.04.02_8466_0006	single	line_7321f826-b00d-4b1e-b9e6-65cbf2160a46	11	d:o d.:o Contract tusschen den Coning ter eenre ende princen		ok	folio 106 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule
+8466	NL-HaNA_1.04.02_8466_0014	single	line_096fe10d-c024-4e1b-8f29-525ab9a3ec3f	1	aan den quartierm: herman		ok	enclosure list, no folios
+8466	NL-HaNA_1.04.02_8466_0015	single	line_136eb712-0dd0-4c1d-b614-6e950a96f752	4	Memorie ofte specificatie		ok	enclosure list, no folios
+8466	NL-HaNA_1.04.02_8466_0015	single	line_0bfde878-5b99-4f8a-a8ad-926c33a2ec50	0	13 _„o		ok	item number 13, not a folio
+8466	NL-HaNA_1.04.02_8466_0016	single	line_4d2eb313-8cbc-4ae8-b91b-66c59408a9fc	8	bodem berustende		ok	enclosure list, no folios
+8813	NL-HaNA_1.04.02_8813_0011	single	f3ddac50-dc4f-4dd6-a9f2-38bf648f42a7	7	en Zeeland worden gesonden.		ok	no folio on this line
+8813	NL-HaNA_1.04.02_8813_0016	single	line_05a4d148-93be-453e-aaf3-e378ae18c94d	0	van Chormandel den 10:e Martij an=o 1686:—		ok	no folio on this line
+8813	NL-HaNA_1.04.02_8813_0016	single	c5a5e71d-4f7c-421f-8fd0-0f294c250810	5	ne		ok	no folio on this line
+8813	NL-HaNA_1.04.02_8813_0016	single	line_928cbce0-289c-4a6d-ae1e-e3d2bad8d7cb	16	p:mo 3: 24: 9b:, 2: 10: 11: 15: 28: xb:, 2: 29: Janu:,		ok	no folio on this line
+8813	NL-HaNA_1.04.02_8813_0017	single	line_08d8e8c6-4e19-4094-a1e3-cea2651a3c30	0	van Chormandel den 20:e Martij Anno 1686:—		ok	no folio on this line
+8813	NL-HaNA_1.04.02_8813_0017	single	line_982e19d4-20a8-4076-a8b0-18b51a579bb7	16	wel Ed=le h:r gouv:r gener: Joan:s Camphuijs. —		ok	no folio on this line
+8813	NL-HaNA_1.04.02_8813_0087	single	line_8f3e6979-9bd2-4972-be42-5810b71b3bbb	9	5: Taxatie der goederen, bestaande in contanten,		ok	no folio on this line
+8813	NL-HaNA_1.04.02_8813_0087	single	line_02939e3b-7138-4cff-a858-28ac9e98c8f9	7	Serg:t: dirck de Ruijter, een sold:t en een matroos,		ok	no folio on this line
+8840	NL-HaNA_1.04.02_8840_0006	single	d8c859a0-a866-4879-b09c-233c424fe192	1	M„r Dirk van Cloon tot Nagapatnam		ok	no folio on this line (item no./date/continuation)
+8840	NL-HaNA_1.04.02_8840_0007	single	e2c009f4-a951-4c8c-889f-397c433a77e3	17	N„o 1:' origineele missive door en aan als inden		ok	no folio on this line (item no./date/continuation)
+8840	NL-HaNA_1.04.02_8840_0009	single	bd5b47ee-817e-486e-a501-3e8c4e0291cb	1	hoofden na herw=ts zed„t 22:' aug„s tot		ok	no folio on this line (item no./date/continuation)
+8840	NL-HaNA_1.04.02_8840_0009	single	de8372b5-7301-4041-93c4-c34761cb5306	7	12: Copia brieven vande Palliacatse opper„		ok	no folio on this line (item no./date/continuation)
+8840	NL-HaNA_1.04.02_8840_0009	single	line_59d89e4a-2305-4f8d-88f4-01ea354363d1	32	„rige Compt„r Circulair afge		ok	no folio on this line (item no./date/continuation)
+8840	NL-HaNA_1.04.02_8840_0010	single	line_080a6bb0-7777-4c59-8c62-9300f0975adc	4	22: Copia Actens van verbeeteringen, hier ten		ok	no folio on this line (item no./date/continuation)
+8840	NL-HaNA_1.04.02_8840_0010	single	line_363c7cf3-eddf-4716-8fb9-cb57d126dcab	5	Gouvernement gedaen zed„t 26:' Iunij		ok	no folio on this line (item no./date/continuation)
+8840	NL-HaNA_1.04.02_8840_0011	single	line_5fc9ea78-78be-4cfa-be3f-4e91ba479853	11	23 en		ok	no folio on this line (item no./date/continuation)
+8875	NL-HaNA_1.04.02_8875_0005	single	line_21c5d783-5cdb-4420-95fe-f8a475e419ef	0	brieven en daar toe Gehoorende bijlagen		ok	no folio on this line (continuation/title/date)
+8875	NL-HaNA_1.04.02_8875_0005	single	line_4cc8f8c7-1850-4366-9856-a258e25bf6c7	23	Circulaire brieven van Nagapatnam gesz: na de subalterne zuijder		ok	no folio on this line (continuation/title/date)
+8875	NL-HaNA_1.04.02_8875_0007	single	line_81e4ddea-5ed5-4316-b732-643f99bfd9a4	17	tot den 7:' Xber: voorsz: - - - - - -		ok	no folio on this line (continuation/title/date)
+8875	NL-HaNA_1.04.02_8875_0021	single	line_9cebf509-2474-46ce-a7da-b72909fde586	7	op den 21:' 7ber en 21:' Courant		ok	no folio on this line (continuation/title/date)
+8875	NL-HaNA_1.04.02_8875_0021	single	line_0b5ff02e-5c60-46f0-87cc-fd563df3b71f	2	afgevardigt zedert den 18:'		ok	no folio on this line (continuation/title/date)
+8875	NL-HaNA_1.04.02_8875_0023	single	e4f892e7-9022-4bbb-8e5a-d97b7934894b	0	„ 23: Twee voudigen formeelen eijsch van goud		ok	23 is an item number, not a folio
+8875	NL-HaNA_1.04.02_8875_0023	single	da69a03b-cce1-496f-bf94-498757cf5f28	1	silver, Coopmansz:, provisien		ok	no folio on this line (continuation/title/date)
+8875	NL-HaNA_1.04.02_8875_0025	single	eb506d9d-f106-4c82-be14-71822df72f52	2	in't boekjaar van A:o 173 7/8, als		ok	no folio on this line (continuation/title/date)

@@ -1,0 +1,9 @@
+line_id	gold_folios	status	note
+c774b146-3bf0-417b-813e-d70347b9e824	447	ok	
+d9e345fc-4790-4e63-9c80-73cc6471156c		ok	date only; folios 457 a 461 on another line
+line_0b8d8383-2033-471a-9687-4e4c81ef1b21	502	ok	
+line_1edcc25a-c204-4414-98cf-56da05dd17b9		ok	dates only
+line_7a609af4-522e-4943-a015-96447305b4a7		ok	text only; number on other line
+fd44c437-c88a-4dac-ab0a-1f937e96e9ca		ok	N:o 25 is an enclosure number, not a folio
+line_9fa50fff-0a8c-4f61-b925-8aca5b0ee367		ok	text only
+line_38d30fe6-78df-40db-979a-de75ee591e96		ok	text only

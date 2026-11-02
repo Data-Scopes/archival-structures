@@ -1,0 +1,26 @@
+inv	line_id	folio	target_scan	status	confidence	evidence	reader
+1184	line_12736629-d82f-4815-870e-5398dd9e838c	20	NL-HaNA_1.04.02_1184_0049	found	sure	20 printed on scan 49; Copia Instructie waer na den Eerst adsistent Hendricq Baron	t06
+1556	line_8ae60f45-6a4d-4964-8366-64c605775e87	268	NL-HaNA_1.04.02_1556_0575	found	sure	268 printed; Rapport gedaan aen den Ed: Heer Joannes Cops ... visite constitutie Castelen	t01
+1556	line_19e875c0-0ef8-449e-80ee-15d97828df09	408	NL-HaNA_1.04.02_1556_0884	found	sure	408 verso (after 408 on 0883); Memorie dienende tot Instructie voor ... pieter alsteijn en david Haek, Mangindanao	t01
+1556	c0523325-1ec0-466c-a380-a0d82a7ea9b7	773	NL-HaNA_1.04.02_1556_1631	found	sure	773 printed; Aenteijkening van 't geene voorgevallen op de reijse van Coepang over rotij, dauw, savo; Roerman	t01
+1556	line_1a60e57b-5bd3-47ca-afa7-8adc43841b0a	821	NL-HaNA_1.04.02_1556_1727	found	sure	821 printed; Register van alle sodanige papieren ... resid. Willem moerman, Van Timor 3 Sept 1694	t01
+1631	c774b146-3bf0-417b-813e-d70347b9e824	447	NL-HaNA_1.04.02_1631_0476	found	likely	447 printed recto of 0476; 0475 closes 23 Jan letter; Nov 1700 missive follows, no heading seen	t02
+1631	line_0b8d8383-2033-471a-9687-4e4c81ef1b21	502	NL-HaNA_1.04.02_1631_0537	found	likely	502 recto on 0536 ends 12 Mar Cochim letter; 502 verso on 0537 verso, new letter, "Aen als vooren ontfangen den 2 april"	t02
+1723	line_1e7bde71-2c6f-4aa0-8ba6-c3cbf9507135	1330		not_found	likely	1324 on 0589, 1329 on 0609; Carel catalogue title not in HTR (tables); Ham catalogue 0621	t01
+2047	bdd124ce-e5d4-4fef-b75b-6247eda6e837	5	NL-HaNA_1.04.02_2047_0025	found	likely	5 not printed; extrapolated from 8@0031,10@0035; P:r chialoup Cochim naar Nederland, depeche aan Bewinthebberen	t01
+2167	af6a2362-4f26-4fc1-b7ca-9103f99f6de2	842	NL-HaNA_1.04.02_2167_0864	found	likely	p.842 at foot of 0864: Heden den 12e May 1730 Compareerde voor my Bernhard Schrooder; cont. 0865	t05
+2282	line_8ef8a018-11ea-4eed-9d8d-94245b505e1b	4	NL-HaNA_1.04.02_2282_0114	found	sure	page 3 on #113, #114 starts: de rapporten wegens den overeem van Comp:s effecten	t07
+2282	line_20d3404f-ebc4-48dd-bb49-e75880d76fed	710	NL-HaNA_1.04.02_2282_0818	found	sure	page 709 on #817, #818 starts: corporael en vier soldaten ... door Lascorijns werden de stranden bekruijst	t07
+2379	line_4b1aab6a-0868-47c1-853c-e7ffe730ef52	789	NL-HaNA_1.04.02_2379_0823	found	likely	Scan prints 789.; Memorie van sodanige Provisien, mineralen door gecommitteerde boekhouders (opneem)	t03
+2379	line_7d9be1e4-edde-41a7-8b37-1034ac2b6af9	773	NL-HaNA_1.04.02_2379_0807	found	sure	Scan prints 173. (=773); Rapport gedaan aan David Joan Bake, extirpatie specerijboomen kleen Ceram	t03
+2538	line_1203caf3-e97c-45e6-82f0-b66ee9dd17c2	2358		not_found	likely	Volume has 2296 scans, printed folios reach only ~2235; 2358 is beyond the digitised range	t03
+2538	line_1f534130-e2f5-4ab3-bac0-931a034fbda3	2496		not_found	likely	Volume has 2296 scans, printed folios reach only ~2235; 2496 is beyond the digitised range	t03
+2538	line_8b5fa8be-14d7-4865-95be-7ac3168469fb	2833		not_found	likely	Volume has 2296 scans, printed folios reach only ~2235; 2833 is beyond the digitised range	t03
+2954	e302ada5-b665-44f1-a29e-3f033e819654	388	NL-HaNA_1.04.02_2954_0021	found	sure	388 printed; Memorie aan de wel Edele agtbare Heeren, Op Huijden den 22 8ber (van de Laar)	t06
+2954	line_51cfc435-5d95-4b84-a6f8-76a1d6e99d05	409	NL-HaNA_1.04.02_2954_0073	found	sure	409 printed; Eerbiedig Antwoord door Jan Schreuder op Generaal Schrijvens 1742-45 Comptoir Souratta	t06
+3793	line_29bfa8d7-991d-4236-bc00-b226c956c122	3081	NL-HaNA_1.04.02_3793_0365	found	sure	3081 printed; Trinkonomale, to van Senden "Op den ontfangst van uwen brief van den 19. Maart"	t02
+3793	line_7ec4c4f3-c156-41e2-a290-c761fab9febc	3198	NL-HaNA_1.04.02_3793_0713	found	likely	3198 printed; Colombo, to gouverneur W.J. van de Graaff; sender not visible	t02
+3793	line_24494525-5b5c-4aa7-817f-5a715a633347	3330	NL-HaNA_1.04.02_3793_0795	found	likely	3330 printed; Kolombo, to gouverneur van de Graaff and Raad; next numbers 3331-3333 follow	t02
+3793	line_22f91fcf-8dcf-49cc-9d68-55f808c6e35e	3382	NL-HaNA_1.04.02_3793_0913	found	likely	3382 printed; Kolombo, to gouverneur van de Graaff and Raad; 3383, 3384 follow	t02
+7694	line_5993e90a-5bce-4a39-9e5f-7ccc814d0b1b	45	NL-HaNA_1.04.02_7694_0051	found	sure	printed 45 on scan 51; bottom starts new letter "Het Schip Beekvliet" (24 Feb 1738 Bantam)	t04
+8466	line_960936f0-3f67-42b6-acf7-9252e814fe14	83	NL-HaNA_1.04.02_8466_0099	found	sure	Scan prints 83; Palembang letter, Jambij resident to Pieter Samuel Camin, per Contingh/kakatoua	t03

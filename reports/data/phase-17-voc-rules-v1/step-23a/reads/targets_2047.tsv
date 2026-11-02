@@ -1,0 +1,5 @@
+line_id	folio	target_scan	status	confidence	evidence
+bdd124ce-e5d4-4fef-b75b-6247eda6e837	5	NL-HaNA_1.04.02_2047_0025	found	likely	5 not printed; extrapolated from 8@0031,10@0035; P:r chialoup Cochim naar Nederland, depeche aan Bewinthebberen
+e62c7751-bfe8-41d3-bbe5-fce42e9e3897	235	NL-HaNA_1.04.02_2047_0499	found	sure	235 printed; Batavia. Aan Mattheus De Haan, Gouverneur Generaal en Raden (Missive 27 Junij 1726)
+line_660d7b4c-1c03-488d-883d-993a25e88190	292	NL-HaNA_1.04.02_2047_0627	found	sure	292 printed; Extract Chettuase brief Dato 18 Junij door Luijtenant Willem Blaeser na Cochim
+cddba2ce-c3ff-4b06-8c98-fda0dcf60f82	297	NL-HaNA_1.04.02_2047_0643	found	sure	297 printed; Copia Cochim aan Commandeur Jacob de Jong ... Cardamom Coopman; Cananoor 23 Sept 1726 ends 0649

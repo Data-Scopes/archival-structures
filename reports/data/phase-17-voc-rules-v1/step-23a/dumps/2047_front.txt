@@ -1,0 +1,2559 @@
+== NL-HaNA_1.04.02_2047_0001 | #1 | sides: single | lines: 2
+[single] dan au 173
+== NL-HaNA_1.04.02_2047_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2047_0003 | #3 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2047_0004 | #4 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2047_0005 | #5 | sides: single | lines: 5
+[single] 10 Mallaber
+[single] Originele Minive
+[single] BCo.
+[single] 1
+[single] „.
+== NL-HaNA_1.04.02_2047_0006 | #6 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2047_0007 | #7 | sides: single | lines: 19
+[single] Register der Brieven
+[single] en Papieren van Mallabar
+[single] overgekomen
+[single] 1727
+[single] Eerste Deel. -
+[single] 1. Register der Papieren. —
+[single] Origineele Missive door den Commandeur
+[single] Iacob de Iong en Raad tot Couchin aan
+[single] de vergadering van Seventiene geschreven
+[single] den 20 October 1726.
+[single] 12. Copia dito door als boven aan Generaal —
+[single] en Raden geschreven den 20 November
+[single] 1725. —
+[single] 18. dito dito, gedateert 9 April 1726.
+[single] 23 dito dito, gedateert 25 Meij 1726.
+[single] 28 dito dito, gedateert 7. Junij 1726„
+[single] 34. dito dito, gedateert 7 Junij 1726 duplicaat
+[single] 7.
+[single] 1
+== NL-HaNA_1.04.02_2047_0008 | #8 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2047_0009 | #9 | sides: single | lines: 21
+[single] Register der Brieven
+[single] en Papieren van Mallabar
+[single] overgekomen
+[single] 1727
+[single] Eerste Deel. -
+[single] a 4. Register der Papieren. —
+[single] 5 — 87. Origineele Missive door den Commandeur
+[single] Iacob de Iong en Raad tot Couchin aan
+[single] de vergadering van Seventiene geschreven
+[single] den 20 October 1726.
+[single] 88 — 102„ Copia dito door als boven aan Generaal —
+[single] en Raden geschreven den 20 November
+[single] 1725. —
+[single] 103 — 118. dito dito, gedateert 9 April 1726.
+[single] 119 — 223 dito dito, gedateert 25 Meij 1726.
+[single] 224 — 228 dito dito, gedateert
+[single] 7. Iunij 1726„
+[single] 229 — 234. dito dito, gedateert 7 Junij 1726 duplicaat
+[single] fo: 1
+[single] -
+== NL-HaNA_1.04.02_2047_0010 | #10 | sides: single | lines: 23
+[single] 288
+[single] 289
+[single] fo 235 a 241 Copia Missive door den Commandeur
+[single] Iacob de Iong en den Raad tot Couchin
+[single] aan Generaal en Raden geschreven den
+[single] 27 Junij 1726. —
+[single] 242. — 244. dito dito, gedateert 13 Julij 1726. —
+[single] 245 — 285. Copia memorie door den afgaanden Com=
+[single] mandeur Iohannes Hertenberg, ter
+[single] narigt van zijn vervanger Jacob de Jong
+[single] opgestelt, gedateert 24 december 1723.
+[single] 286 — 287. Extract Missive door die van Couchin aan
+[single] den Onderkoopman Joannes Merkman
+[single] en Raad tot Coijlang geschreven den 22
+[single] Iulij 1726 wegens het houden van behoor=
+[single] lijk toesigt tegens de aankomste der
+[single] Ostendenaars. —
+[single] dito,s dito, door den Resident tot Tenga=
+[single] patnam Gijsbert van Vorden, aan die
+[single] van Mallabar geschreven den 28 Meij
+[single] 1726 rakende het gedoente der Engelsen
+[single] bij den konink van Trevancoor.
+[single] — 291. Ses extract brieven door den Resident tot
+== NL-HaNA_1.04.02_2047_0011 | #11 | sides: single | lines: 30
+[single] fo: 292
+[single] 293 a
+[single] 296
+[single] 297
+[single] Pannanij Willem Feling aan die van
+[single] Couchin geschreven, in datis 26 Iulij —
+[single] 6, 23 Augustij, 5, 16 en 20 Septemb: 1726.
+[single] rakende den Oorlog tusschen de Francen
+[single] en den Balnoor van Bargare.
+[single] 100
+[single] Twee dito d:o door den Luijtenant en —
+[single] Commandant tot Chettuwa Willem
+[single] Bleeser aan als boven geschreven gedateert,
+[single] 18 Iunij en 18 augustij 1726 wegens het
+[single] wakren tegens de Peper sluijkerijen. —
+[single] 295. Twee Copia rapporten door de opsienders
+[single] van 's Comp:s geconquesteerde Landen
+[single] de datis 3 April en 5 September 1726
+[single] wegens de gesteltheijd dier Landen, en —
+[single] de Coffij Culture op deselve.
+[single] Extract brief door de Opsienders tot Paponettij
+[single] aan die van Couchin gesz: den 25 Novemb:
+[single] 1725 belangende den vergeefsen arbeijd tot
+[single] de Cardamom zaijing aangewent.
+[single] 300. Copia brief door den Onderkoopman en hooft
+[single] tot Cananor aandie van Couchin gesz: den
+[single] 23 Sept: 1726, betreffende de hoge prijs der —
+[single] Cardamom aldaar. —
+[single] -
+[single] —
+== NL-HaNA_1.04.02_2047_0012 | #12 | sides: single | lines: 28
+[single] fo: 301
+[single] 315
+[single] 328
+[single] 329
+[single] Extract brief door de Opsienders tot
+[single] Paponettij aandie van Couchin geschreven
+[single] den 25 Meij 1726 wegens het ontdekken
+[single] van eenige Thuijnen en Landerijen, die
+[single] nog verholen waren gehouden.
+[single] 302. a 314. Copia staatreekening der inkomsten vande
+[single] geconquesteerde Landen, nevens de bijlagen
+[single] daar toe gehorende.
+[single] 327. drie Copia rapporten in datis 9, 25 Mey en
+[single] 25 September wegens 't verrigte aan
+[single] diverse Fortificatie werken op Mallabar
+[single] Mitsgaders 't verkleenen der fortressen
+[single] Coijlang en Cananor, als mede wegens de
+[single] bevinding van 's Comp:s Negotie pakhuijs.
+[single] Extract brief door die van Couchin aan 't —
+[single] Opperhooft Sibrandus wijlsma en Raad tot
+[single] Cananor gesz: den 8 febr: 1726, wegens het
+[single] verkrijgen van den heuvel Carla aldaar.
+[single] dito dito, door den Resident tot Pannanij
+[single] Willem Teling aan die van Couchin gesz:
+[single] den 2 Octob: 1726, rakende de behandelingen
+[single] aan't Sammorijnse hof.
+[single] -
+[single] -
+== NL-HaNA_1.04.02_2047_0013 | #13 | sides: single | lines: 2
+[single] vande
+[single] ijlagen
+== NL-HaNA_1.04.02_2047_0014 | #14 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2047_0015 | #15 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2047_0016 | #16 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2047_0017 | #17 | sides: single | lines: 35
+[single] Register van acte.
+[single] P„r de chialoup
+[single] de documenten en Bijlagen ge„
+[single] horende tot den brieff die twee
+[single] voudig door den heer Commandeur
+[single] Jacob de Iong, nevens den Raad
+[single] tot Cochim per de Chialoup Cochim
+[single] van daar naar Colombo gesonden
+[single] werden, om sodanig met de Ceijlonse
+[single] Retourvloot naar Nederlandt
+[single] voort te gaan; gerigt zijnde aan
+[single] de hoog Edele groot agtbare heeren
+[single] bewindhebberen der generale ver„
+[single] „eenigde Nederlandse g'octroijeerde
+[single] oostindische Compagnie ter ver„
+[single] „gaderinge van Seventhienen
+[single] binnen Amsterdam, mitsgaders
+[single] de hoog Ed=le groot agtb heeren
+[single] bewindhebberen van deselve
+[single] maatschappeij binnen middelburg
+[single] Zeeland.
+[single] Cochim
+[single] N:o 1: origineele missive onder dato deses door, en aan
+[single] als in den hoofde deses met eerbied
+[single] gemelt, geschreeven.
+[single] 27. ses copias der brieven die onder datis 20:e
+[single] 9ber: a:o pass:o 9:e april, en 25=e
+[single] maij deses Jaars p:r de scheepen
+[single] Nederhoven, Zuijderbeek over gale
+[single] en de chialoup Cornelia direct
+[single] van hier, mitsgaders 7:' 27:e Junij, en
+[single] 13. ' Julij over den Tutucorijnsen
+[single] landweg
+[single] in
+== NL-HaNA_1.04.02_2047_0018 | #18 | sides: single | lines: 34
+[single] Landweg naar Colombo om van
+[single] daar p:r scheeps occagie voortgesonden
+[single] tewerden, aan haar Ed=le agtb: de hoge
+[single] Jndiase regeeringe tot Batavia
+[single] zijn gecarteert,. —
+[single] d:o 3 Copia memorie tot narigt door den Ed=e heer
+[single] Ceijlons gouverneur Ioannis Hertenberg
+[single] zolg:s opgestelt, en aan sijn vervanger
+[single] den tegenwoordigen heer commandeur
+[single] Jacob de Iong naargelaten. —
+[single] 4. Extract missive door den E: heer commandeur
+[single] Jacob de Iong en raad uijt Cochim
+[single] aan den ondercoopman en hooft
+[single] Joannis merkman en Raad
+[single] tot Coilang dato 22:e Julij pass=o
+[single] geschreeven nopende het houden
+[single] van behoorl: toesigt, tegens de
+[single] aankomste van eenige oosten„
+[single] „denaars te deser custe. —
+[single] 5. D=o aankomende Tengapatnams briefje
+[single] door den assistent en resident
+[single] gijsbert Van Vorden, d'dato 28=e
+[single] maij J:o leeden, naar herwaarts
+[single] gecarteert, belangende het gedoente
+[single] der Engelsen bij den koningh
+[single] van Trevancoor. —
+[single] „ 6: ses d=o Pannanijsen brieven, d' datis 26:' Julij
+[single] 6: en 23. augustus, 5: 16: en 20=e
+[single] 8
+[single] 7ber: deses Jaars, door den
+[single] assistent en resident Willem
+[single] feling naar herwaarts geschreven
+[single] rakende den oorlog tussen de francen
+[single] en den balnoor van Bargare
+== NL-HaNA_1.04.02_2047_0019 | #19 | sides: single | lines: 38
+[single] Extract briefje
+[single] opia
+[single] 10
+[single] 7. twee extracten chettuase brieven door den
+[single] luijtenant en commandant Willem
+[single] bleeser, naar de stad geschreeven
+[single] d' datis 18 Junij en 18:e aug=o
+[single] Jongstleeden nopende het bewaken
+[single] op het sluijken van peper. en
+[single] het aanslaan van 14. battiques
+[single] dien corl door de cherlettese
+[single] lascorijns. —
+[single] 8. , twee copia rapporten, door de opsigters van
+[single] scomp:s geconquesteerde landen
+[single] den sergiant Daniel berger
+[single] en Corp:l Theodrus Lenieps
+[single] de datis 3:e april, en 5:' 7ber:
+[single] deses Jaars wegens de gesteltheijt
+[single] dierlanden als de coffij culture
+[single] overgegeven
+[single] de dato 25:' 9ber: anno pass=o
+[single] door den Zergiant adriaen
+[single] hend:k Smouts, en corporaal
+[single] Daniel Berger van Laponettij
+[single] naar herwaarts geschreeven
+[single] belangende den vergeefsen arbeijt
+[single] die zij aldaar tot het beproeven
+[single] der cardamom zaijing hebben
+[single] aengewent. —
+[single] Cannanoorse brief door den
+[single] ondercoopman en hooft
+[single] Sibrandus Wijlsma, en raad
+[single] tot Cannanoor d' dato 23:e zber:
+[single] Jongstleeden aan den heer
+[single] Commandeur
+[single] den
+[single] -.
+[single] -
+== NL-HaNA_1.04.02_2047_0020 | #20 | sides: single | lines: 37
+[single] Extract
+[single] 12
+[single] Pakhuijs
+[single] Commandeur Iacob de Iong,
+[single] en Raad tot Cochim gecarteerd,
+[single] betreffende de hoge prijs der
+[single] Cardamoin aldaar. —
+[single] papouettijs briefje door de opsienders
+[single] den sergiant Daniel Berger, en
+[single] corp:l Theodorus Lenieps de dato
+[single] 25:' maij pass:o van daar naar
+[single] herwaarts geschreeven, nopende
+[single] het nog dagelijx ontdecken van
+[single] eenige thuijnen en landerijen, die
+[single] door dees en gene d' E: comp:
+[single] agtergehouden waren gebleeven.
+[single] Copia staat reecq: der Jnkomsten van de
+[single] geconquesteerde landen, met
+[single] der selver daar toe gehorende
+[single] bijlagen. —.
+[single] 3origineele b'andwoorde Eijsch van retouren
+[single] uijt India voor desen Iare.
+[single] 14 drie copias rapporten, d' datis 9:e en 25. —
+[single] maij, mitsgaders 25:' 7ber deses
+[single] Jaars d'eerste en laaste door den
+[single] luijtenant en Jngenieur albert
+[single] francois Legrand, wegens 't geene
+[single] te deser custe, 't seedert den 25:e
+[single] maij Jongstleeden aan diverse forti„
+[single] „ficatie werken al is verrigt
+[single] en nog diend gedaan tewerden,
+[single] als ook desselvs gevoelen ontrent
+[single] het vercleenen der fortressen Coilang
+[single] en
+[single] „
+== NL-HaNA_1.04.02_2047_0021 | #21 | sides: single | lines: 40
+[single] 3
+[single] 15 Extract afgegane
+[single] en Cannanoor; ende tweede
+[single] door den baas der fortificatie
+[single] werken Hendrik Stades, den baas
+[single] der scheeps timmerwerff David
+[single] dirxe van de velden, en den baas
+[single] der huijstimmerl: Iacob van
+[single] ponken, wegens hunne bevin„
+[single] „dinge van 'scomp:s negotie pakhuijs
+[single] alhier overgegeven. —.
+[single] cannanoorse missive d' dato
+[single] 8:e februarij deses Jaars aan den
+[single] ondercoopman en hooft
+[single] Sibrandus Wijlsma, en den raad
+[single] van hier geschreven raackende
+[single] het zien te verkrijgen van den
+[single] begeerden heuvel Carla aldaar,
+[single] 16 _=o pannanijs briefje, d' dato 2:e deser door
+[single] den resident Willem Felingh,
+[single] nopende de behandelingen aan
+[single] tsammorijnse hoff, naar herwaarts
+[single] geschreeven. —
+[single] Copia resolutien getrocken in rade van mallabaar
+[single] binnen de stad Cochim beginnende
+[single] met den 22:e 8ber: 1725. en eijndigt
+[single] den 7:e 8ber: 1726. met het register
+[single] op deselve voor ingebonden.
+[single] D=o Jnlands dagregister, beginnende met
+[single] p=mo 8ber: 1725. en eijndigt den
+[single] laasten maart 1726. zijnde het
+[single] eerste deel, waar bij pertinentelijk
+[single] han
+[single] „
+[single] t
+[single] e
+[single] 18.
+[single] 17
+== NL-HaNA_1.04.02_2047_0022 | #22 | sides: single | lines: 32
+[single] 29
+[single] apart.
+[single] kan gesien werden alle 't geene
+[single] in dien tijd 'scomp:s weegen met
+[single] de mallabaarse vorsten, en mindere
+[single] landgroten verhandelt is.
+[single] 19 Copia Jnlands dag register beginnende met
+[single] den eersten april, en eijndigt den
+[single] laasten zber: deses Jaars zijnde
+[single] het tweede deel, van als boven
+[single] en Jder voorsien met een apart
+[single] register ter aanwijsinge der
+[single] voorgevallene zaacken.
+[single] D=o monster en gequalificeerde rolle van
+[single] alle 'scomp:s loontreckende die„
+[single] „naren onder ult:o Junij deses
+[single] Jaars hier ter custe in wesen
+[single] bevonden.
+[single] 21 Rolle der ouderlose weeskinderen met een
+[single] staat reecq: der diaconeij middelen
+[single] die in den tijd van 12/m of op ult:o
+[single] aug:o deses Jaars na aftrek
+[single] van alle onkosten en uijtgave
+[single] bevonden zijn geaccresseert
+[single] teweesen rd:le
+[single] memorie of korte aanwijsinge der lasten
+[single] en winsten geduurende den
+[single] loop van de Jongst geslotene
+[single] negotie boeken deser com„
+[single] „manderije en den Jare 17 2/25.
+[single] „
+[single] 22:
+== NL-HaNA_1.04.02_2047_0023 | #23 | sides: single | lines: 39
+[single] No: 23
+[single] 25
+[single] 27
+[single] 28.
+[single] corte tesamen trecking van alle 't gene 'tseedert
+[single] pmo 2ber: 1724. tot ult:o aug:o 1725.
+[single] hier ter custe van buijten is
+[single] aengebragt, uijtmakende een
+[single] bedragen van ƒ462449: 15. 8.
+[single] d=o _=o van 't versondene in bovengem:
+[single] tijd van 1/ ter somma
+[single] van ƒ 324254: 13:8. —
+[single] vier stux rendementen der verhandelde coop„
+[single] „manschappen in het evengem:
+[single] boekjaar zoo hier ter steede als
+[single] tot Coilan, cannanoor, en
+[single] Barssaloor, verthonende de
+[single] behaalde advancen op deselve
+[single] Rolle der huijsgesinnen en andere ten selven
+[single] 28
+[single] dage binnen dese stad woonagtig
+[single] aengeteeckent, alles uijt makende
+[single] een getal van 1868. – koppen
+[single] _=o der schoolkinderen alhier onder ult:o aug=o
+[single] Jongstleeden. —
+[single] Extract brief door den ondercoopman en hooft
+[single] Sibrandus Wijlsma, en den
+[single] Raad tot Cannanoor dato 10=e
+[single] deser naar herwaarts gesz:—
+[single] raackende het sluijten van een
+[single] Cardamom contract ter
+[single] quantiteijt van 20: candijlen
+[single] â 86½. europiaanse ducaten Jder
+[single] candijl. —
+[single] A
+[single] 29
+[single] „
+[single] „
+[single] .
+== NL-HaNA_1.04.02_2047_0024 | #24 | sides: single | lines: 13
+[single] No: 29.
+[single] Extract pannanijse brief de dato 16:e deser door
+[single] den Resident Willem Felingh
+[single] 30: Een geslote pacquet be„
+[single] van daar naar cochim geschreeven,
+[single] bestelt „ schreven aan d' Edele heeren
+[single] weesmeesteren tot amsterdam.
+[single] betreffende 't Sammorijnse hoff
+[single] en desselvs groten.
+[single] Cochim den 20„en october A:o 1726
+[single] Ma
+[single] Veeret
+== NL-HaNA_1.04.02_2047_0025 | #25 | sides: single | lines: 22
+[single] Neederland.
+[single] P„r de chialoup
+[single] Cochim naar
+[single] Colombo.
+[single] depeche van 't verleeden Jaarse
+[single] schrijvens
+[single] Aan de Hoog Edele Heeren
+[single] Bewinthebberen
+[single] van de generale Nederlandse
+[single] g'octroijeerde oost- Indische —
+[single] Maatschappije, ter vergadering
+[single] der Heeren Seventienen
+[single] tot
+[single] Amsterdam.
+[single] Hoog Edele, Erntfeste
+[single] groot Agtbare, wijse
+[single] voorsienige, seer
+[single] genereuse Heeren. —
+[single] Hoog Gebiedende Heeren,
+[single] Wij hebben op den 22=' october
+[single] des voorleden Iaars onse
+[single] seer
+== NL-HaNA_1.04.02_2047_0026 | #26 | sides: single | lines: 30
+[single] schrijvens aen haar hoog Edele
+[single] groot agtbare in't patria.
+[single] schepen, behouden aldaar zal sijn
+[single] aengeland.—
+[single] wat p:r
+[single] agtb: tot
+[single] nevensg
+[single] komste
+[single] seer eerbiedige letteren op de
+[single] Chialoup Cornelia na —
+[single] Colombo in origineel, en
+[single] duplicaat afgevaardigt, om„
+[single] me van daar door den Edele
+[single] Heer Extraordinaris Raad,
+[single] en Ceijlons gouverneur
+[single] Joannes Hertenberg op
+[single] twee schepen, d' eene voor de
+[single] Presidiale Camer Amsterdam
+[single] in Holland, en de tweede
+[single] naar Middelburg in Zee-
+[single] land, en dus verdeeld, tot
+[single] uw Hoog Edele groot-
+[single] Agtbare hunne bestellinge
+[single] dat men hoopt, nevens alle de retour„ t' erlangen, die wij met god
+[single] den voorsten, hoopen, en
+[single] wenschen, dat nevens alle
+[single] de retourscheepen behouden
+[single] in de Havenen onses Lieve
+[single] Vaderlands.
+[single] persia
+== NL-HaNA_1.04.02_2047_0027 | #27 | sides: single | lines: 25
+[single] persia te deser rheede. —
+[single] wat p:r dien bodem aen haar ho: Ed:
+[single] agtb: tot batavia is geschreven, sal
+[single] nevens gaande copie aenthouen.
+[single] Vaderlands op zijn tijd sullen
+[single] wesen g'arriveerd, ten welken
+[single] dage uijt Persien hier ter
+[single] rheede verscheen het schip —
+[single] komste van 't schip nederhoven uijt Nederhoven, waar mede
+[single] men soodanig gehandeld, en
+[single] op 20=' November daar aen
+[single] na haar Edele Agtbare de
+[single] Hooge Regeeringe van—
+[single] Nederlands India tot
+[single] Batavia heeft geschreven,
+[single] als de overkomende copie
+[single] uw Hoog Edele groot agtbare
+[single] komt aente toonen, waar
+[single] nevens nog gevoegd leggen de
+[single] copie der brieven, die desen
+[single] Jare, soo met 't schip Zuijder„
+[single] beek den 9=en April over
+[single] Punto gale, den 25=' maij
+[single] per de chialoup Cornelia
+[single] direct
+== NL-HaNA_1.04.02_2047_0028 | #28 | sides: single | lines: 26
+[single] verselt wesende van d'afschriften
+[single] op diverse datums van hier naar
+[single] die hooft plaats versonden.
+[single] wat naar 't versenden dier papieren
+[single] alhier is voorgevallen, en verrigt.
+[single] direct (:bij ontbeeringe der
+[single] sourats- en Persiaans vaar„
+[single] ders :/ als den 7=', en 27:' Iunij,
+[single] mitsgaders 13=' Iulij over den
+[single] Landweg, en Tutucorijn naar
+[single] Batavia aen haar Edele
+[single] Agtbare welgenoemt afgedepe„
+[single] cheerd, waar aen ons op het
+[single] allernedrigste refereren; uijt
+[single] dewelke in't breede te beschouwen
+[single] zij al 't verrigte in dese com„
+[single] manderije, als ook 't gedrag
+[single] van de Koningen, en Land„
+[single] vorsten ter deser Malla„
+[single] baarse custe, nu verder aen
+[single] uw Hoog Edele groot
+[single] agtbare op de beknopste wijse
+[single] zullen voor oogen brengen,
+[single] wat sederd het afgaan van
+[single] bovengerepte advisen naar
+[single] Batavia
+== NL-HaNA_1.04.02_2047_0029 | #29 | sides: single | lines: 26
+[single] dog werd alvorens eerst aengehaalt den
+[single] p=r zuijderbeek over batavia.
+[single] als mede die van den 16=' 8ber: 1724:
+[single] 15:' maij anno passato, en 28=' zber:
+[single] desselven Jaars over Colombo.
+[single] Batavia door ons alhier
+[single] verrigt, en ten meesten nutte
+[single] en dienste der Ecomp: is in
+[single] 't werk gesteld; dog sullen eerst
+[single] en voor af aenteekenen den
+[single] ontvangst van haar Ed: gr: agtb: letteren ontvangst van uw Hoog
+[single] Edele groot agtbare gevene„
+[single] reerde advisen na 't afgaan
+[single] van gedagte laaste Letteren
+[single] alhier gerecipieerd, als op 11='
+[single] November over Batavia
+[single] per 't schip Zuijderbeek, en
+[single] den Laasten Ianuarij deses
+[single] Jaars p:r 't schip Midloo tot
+[single] Colombo, en van daar over
+[single] den Tutucorijnsen Landweg
+[single] twee veel g'eerde brieven ge-
+[single] dagtekent in Amsterdam op
+[single] 16=' october des jaars 1724:, op
+[single] 7=' Maart passato die door
+[single] uw
+== NL-HaNA_1.04.02_2047_0030 | #30 | sides: single | lines: 30
+[single] uw Hoog Edele groot agtbare
+[single] wesende de pacquetten met stabroek, en
+[single] haarlem voor souratta, en persia aengebragt
+[single] ter bestellinge naar batavia voortgesonden.
+[single] d' copia
+[single] ceijlons
+[single] alsoo
+[single] per het schip Stabroek over
+[single] Colombo herwaarts is g'addres„
+[single] seert, de dato 25=' Maij anno
+[single] verleden; als op 12=' Iulij, en
+[single] 29= Augustus verstreken de
+[single] veel g'agte letteren van den
+[single] 28= Zeptember 1725: na haar
+[single] Edele Agtbare de Hoge Regerin¬
+[single] ge van Nederlands India tot
+[single] Batavia geschreven, en p:r de
+[single] scheepen Haarlem, en Door„
+[single] nick op Colombo aengebragt,
+[single] zijnde de pacquetten van souratta,
+[single] en Persia met het schip
+[single] Stabroek aengebragt, den
+[single] 7=en Junij; en die niet Haarlem
+[single] 7
+[single] uijtgekomen den 13=e Iulij
+[single] laastleden over den Trevancoor„
+[single] sen, en Tutucorijnsen
+[single] landweg
+[single] gelegent
+[single] zoll:„, a
+== NL-HaNA_1.04.02_2047_0031 | #31 | sides: single | lines: 26
+[single] 8
+[single] alsoo men vaststelt, daartoe de beste
+[single] gelegentheijt aldaar sal voorkomen.
+[single] ceijlons gouverneur Ioannes hertenberg
+[single] zall:r, als afgaande commandeur
+[single] Landweg na Ceijlon voortge„
+[single] schikt, omme met het ons daar
+[single] mede voorgenoemde afgegane
+[single] schrijvens hunne bestellinge
+[single] na de Bataviase hoofd-plaatse
+[single] te obtineren, om dat vastgesteld
+[single] wierd, die pacquetten van
+[single] daar eerder occagie ter
+[single] bestellinge stonde voortekomen,
+[single] dan van hier, inhope van
+[single] een goede recive derselver,
+[single] zijnde dan ingevolge uwer
+[single] Hoog Edele groot Agtbare
+[single] d'copia der memorie door den Ed: heer requisit net versuijmt hier
+[single] thans nevens teleggen de Copie
+[single] memorie die door den gewesen
+[single] Commandeur, en overleden
+[single] Edele Heer Raad Extraordi„
+[single] naris van Nederlands Jndia,
+[single] mitsgaders Ceijlons gouverneur
+[single] Joannes
+== NL-HaNA_1.04.02_2047_0032 | #32 | sides: single | lines: 27
+[single] aen den presenten commandeur
+[single] dato 24:' xber: 1723: naargelaten,
+[single] hier nevens gelegt
+[single] haar ho: Ed: gr: agtb: contentement,
+[single] de cannanoorse bediendens be„
+[single] kent gemaakt
+[single] Ioannes Hertenberg aen
+[single] den presenten Commandeur
+[single] Jacob de Jong de dato 24e
+[single] december des Jaars 1723: is nage„
+[single] laten, als ook na Cannanoor
+[single] bij een extract brievje g'advi„
+[single] seert uw Hoog Edele groot
+[single] agtbare geschept behagen in de
+[single] gehoudene conduites van't ge„
+[single] wesen opperhoofd, den ondercoopman
+[single] Daniel Simons: aldaar in
+[single] den Jare laastgemelt opgevolgt,
+[single] met dien Engelsen swerver
+[single] John Ionkse niet alleen
+[single] van daar teweeren, maar
+[single] 'scomp:s fatsoen, en authoriteijt
+[single] te handhavenen, omme die bedien„
+[single] dens aldaar in't aenstaande
+[single] ter verdere observatie te dienen,
+[single] 't gene langs dese gantsche Custe
+[single] ook.
+== NL-HaNA_1.04.02_2047_0033 | #33 | sides: single | lines: 25
+[single] alsmede naar alle d' buijte comptoiren
+[single] Copia der twee authentique afschrif„
+[single] ten nopende.
+[single] d'oosterdenaars, en hunnen aenhang
+[single] ter opvolginge afgesonden.
+[single] ook sal agtervolgd werden
+[single] zijnde ook kort na den ont„
+[single] vang op den 17=e Iulij laast„
+[single] leden naar alle onse noorder-
+[single] en subalterne Zuijder comp„
+[single] toiren afgesonden de twee au-
+[single] thenticque afschriften, ons van
+[single] den E: Politiquen Raad van
+[single] Colombo te dien dage toegekomen,
+[single] verselt van gelijk getal brie„
+[single] ven, door uw Hoog Edele
+[single] groot agtbare gevolmagtigdens,
+[single] tot de zaaken der
+[single] Oostendenaars, in dato 5='
+[single] december anno passato uijt
+[single] Amsterdam aen haar Edele
+[single] Agtbare, de hoge Regeringe
+[single] van Nederlands- India tot
+[single] Batavia, en ook aen de
+[single] Bengaalse
+== NL-HaNA_1.04.02_2047_0034 | #34 | sides: single | lines: 32
+[single] met bijvoeginge van sodanige ordre
+[single] als nevensgaande Extract sal
+[single] uijtwijsen
+[single] Bengaalse ministers gerigt
+[single] zoo als die in dat Ceijlons
+[single] -
+[single] gouvernement p:r het schip
+[single] Haarlem waren aengebragt
+[single] met expresse ordre, en Last
+[single] soo als een derselver na Coilan
+[single] gerigt, en desen bijgevoegd uw
+[single] Hoog Edele groot agtbare sal
+[single] vertoonen, dat zij hun daar na
+[single] allesints moesten rigten, en de
+[single] veel gerespecteerde beveelen daar
+[single] in vervat na uijtterste vermogen
+[single] werkstellig maken, soo als dat
+[single] besluijt ten dien gevalle ook in
+[single] onse overkomende resolutien
+[single] onder dato 22=' Iulij deses
+[single] Jaars zal genoteerd gevonden
+[single] werden, zijnde wegens die snuf„
+[single] felaars sedert tot nog niets
+[single] vernomen; maar de
+[single] Engelsen
+[single] die met
+[single] afree
+[single] hebben
+[single] kond
+[single] Engels
+[single] wel
+== NL-HaNA_1.04.02_2047_0035 | #35 | sides: single | lines: 28
+[single] 10
+[single] wel te wenschen wesende, men de
+[single] Engelsche in hunne handel mede wat
+[single] konde besnoeijen.
+[single] die met den koning van trevancoor
+[single] afreekening wegens eenige schultpenn:
+[single] hebben gehouden.
+[single] Engelsen, was wel te wenschen,
+[single] men in staat waren haar in
+[single] hunnen handel wat beter te
+[single] traverseren, soo als in onsen
+[single] ampelen afgegane Bataviasen
+[single] brief de dato 25=' maij soo
+[single] ontrent hun verblijf, als ge„
+[single] doente tot onoor in Canara
+[single] is ter nedergesteld, dog werd
+[single] verhoopt, dat 't aldaar met al
+[single] haar woelen, en intrigues niet
+[single] veel om 't lijf sal hebben; sijnde
+[single] bij een Tengepatnams brievje
+[single] gedateerd 28=e Maij in extract
+[single] desen besijden, ons berigt, dat
+[single] den tolcq deser natie op den
+[single] 12:' tevoren bij den koning
+[single] van Trevancoor is geweest
+[single] om afreekening te houden van
+[single] 76000: fanums galjoens,
+[single] gerekent
+== NL-HaNA_1.04.02_2047_0036 | #36 | sides: single | lines: 25
+[single] mitsgaders op nieuw aen sijn hoogh:t
+[single] versogt, om een logie in zijn land te
+[single] mogen bouwen.
+[single] gerekent tot 9: stux op een
+[single] rd„r, zijnde rd=s 8444:—: ruijm,
+[single] die dien vorst aen den Engelsen
+[single] Commandant tot Ansjenga
+[single] zoude debet wesen, in welkers
+[single] voldoeninge zijn hoogheijt
+[single] voor 5000: d=os fan:s aen Caatjens
+[single] of Lijwaten tot afkortinge dier
+[single] schuld hadde betaalt, ook had
+[single] die natie al wederom aen
+[single] dien koning versogt, een
+[single] logie in sijn land temogen
+[single] bouwen, dog was haar afge„
+[single] slagen, met aensegginge, indien
+[single] zij een logie begeerde te hebben,
+[single] dat sij dan het hof van zijn
+[single] hoogheijt, 't gene hij op Caria„
+[single] patnam hadde laten bouwen,
+[single] ter residentie konde erlangen,
+[single] dog hebben naar dato hier van
+[single] geen
+[single] en
+== NL-HaNA_1.04.02_2047_0037 | #37 | sides: single | lines: 26
+[single] „
+[single] d' verschillen tussen dese natie
+[single] enden balnoor van bargare, werd
+[single] omstandig beschreven bij
+[single] d'Copias der afgegane bataviase
+[single] missives
+[single] geen 't minste vervolg gehoort;
+[single] hebbende bij onse na Batavia
+[single] afgegane nedrige letteren van
+[single] 25=' Maij, 7=t, en 27=' Iunij, als
+[single] 13:' Iulij deses Jaars bevorens
+[single] aengeroert van de
+[single] Francen wel eerstelijk aengehaalt,
+[single] dat door den Balnoor van
+[single] Bargare uijt Maine waren
+[single] verdreven, dat ook dien vorst
+[single] door de Engelsen met een partij
+[single] benodigde metselkalk was
+[single] g'assisteerd, dat de France natie
+[single] aen den Engelsen resident
+[single] Robbert Adams in zijn privé
+[single] hadde ten laste gelegt, daar„
+[single] omme een rijk geladen scheepje
+[single] voor hem uijt Mocha gekomen
+[single] hadden aengedaan, de contanten
+[single] van
+== NL-HaNA_1.04.02_2047_0038 | #38 | sides: single | lines: 30
+[single] missives, hiernevens leggende.
+[single] waar aen op 't nedrigste ons
+[single] gedragende.
+[single] van de coopmanschappen ge„
+[single] procedeert, neffens eenig Canon
+[single] daar uijtgeligt, en soo dat scheepje
+[single] weder hadde laten varen, 't gene
+[single] bij d' Engelsen tot Tallicherij
+[single] aengekomen, in secretesse met
+[single] ander geschut was versien, en
+[single] na Talicoet vertrocken, gelijk
+[single] zij Francen ook de stranden
+[single] van den Balnoor bewaakt,
+[single] drie scheepen harer Natie al„
+[single] daar waren komen anker„
+[single] zetten, en dien vorst van sijnen
+[single] heuvel hadden verjaagt, dog in
+[single] 't voltoijen van hun fortresse
+[single] wederom door den Bargareer
+[single] daar in niet cannonneren
+[single] waren verhinderd, ook dat
+[single] Coenje nairo, een landheer
+[single] alwaa
+[single] den
+[single] daar digt bijleggende, een plaats hebben
+[single] aen
+[single] sal
+[single] het
+[single] ter
+== NL-HaNA_1.04.02_2047_0039 | #39 | sides: single | lines: 30
+[single] 12
+[single] sal daar bij ook nog consteeren
+[single] het ankeren van twee france schepen
+[single] ter rheede van pannanij. —
+[single] alwaar het hooft derselve, nevens
+[single] den calicoetsen resident, den sammorijn
+[single] hebben ontmoet.
+[single] aen de France natie soude hebben
+[single] afgestaan, waar van zij daar
+[single] en tegen veel afbreuk aen hem
+[single] Balnoor komen te verschaffen,
+[single] alles in 't breede in den beginne
+[single] van dat afgegane Batavias -
+[single] schrijvens van den 25=' Maij
+[single] tevinden, waaraen ons op 't
+[single] nedrigste gedragende, ten eijnde
+[single] derselver ook nog gevonden werd,
+[single] 't ankeren van twee scheepen
+[single] deser natie op den 29=' April
+[single] van de france plaatse Maine
+[single] voor Pannanij, daar den koning
+[single] sammorijn meesten tijd sijn
+[single] domicilium houdende is, al„
+[single] waar den majoor dier natie
+[single] met den francen resident
+[single] André Molandin, tot
+[single] Calicoet zijn verblijf hebbende,
+[single] zijn
+[single] at
+== NL-HaNA_1.04.02_2047_0040 | #40 | sides: single | lines: 28
+[single] hun versoek, en't daar op bekome
+[single] antwoord.
+[single] pannanijs schrijvens wegens den staat
+[single] des oorlogs met den bargareer in
+[single] Extracten hier nevens.
+[single] zijn aen de wal geweest, wat
+[single] vereeringe door haar gedaan
+[single] „
+[single] en wat versoek daar bij is in't
+[single] werk gesteld, om haar Logie op
+[single] Calicoet met pannen, of dak-
+[single] tiggels in plaatse van olas te
+[single] mogen laten decken, dog zoude
+[single] door dien koning afgeslagen
+[single] sijn, maar wel g'accordeerd hun
+[single] negotie als bevorens op Calicoet
+[single] temogen voortsetten, waarvan
+[single] hier nader onder de periode
+[single] van den koning Sammorijn,
+[single] en wat hier ontrent bij dien
+[single] vorst is in't werk gesteld uw
+[single] Hoog Edele groot Agtbare om„
+[single] standig staat vertoond te werden,
+[single] dog is hier nog bij te voegen, dat
+[single] bij een Pannanijs brievje van
+[single] den 26=' Iulij jongstweken is
+[single] gebleeken
+[single] ver
+== NL-HaNA_1.04.02_2047_0041 | #41 | sides: single | lines: 23
+[single] 13
+[single] vervolg deser materie.
+[single] gebleeken, als of den Balnoor
+[single] van Bargare nog meester
+[single] van zijn bergje aldaar was,
+[single] en volgens schrijvens van den
+[single] 6=' Augustus nog helder
+[single] tegens dese France natie met
+[single] cannonneren was bezig
+[single] geweest, als de bijleggende
+[single] Extracten dier brievjes uijtwij„
+[single] sende, bij een nader Extract
+[single] van't van daar ontvangen
+[single] schrijvens gedagtekent 5=en
+[single] zeptember nog te sien zij
+[single] dat dese natie, den Balnoor
+[single] van een batterije, die zij op
+[single] een hoogte, niet wijt van des
+[single] Bargarees vastigheijt hebben
+[single] opgeregt, en merkelijke afbreuk
+[single] hadden gedaan, maar de nadere
+[single] ingekomene berigten van daar
+[single] de
+== NL-HaNA_1.04.02_2047_0042 | #42 | sides: single | lines: 26
+[single] den sammorijn werd vanden een
+[single] als ander tot mediateur versogt.
+[single] is de francen heel goedgunstig.
+[single] de datis 16=', en 20=' der laast„
+[single] genoemde maand mede uijt„
+[single] getrocken hier nevens, had den
+[single] Balnoor afgesanten aen den
+[single] koning Sammorijn gesonden
+[single] om de pais door dien vorst
+[single] gaarn bewerkt tesien, waar
+[single] toe de Francen mede hunne
+[single] olas aen dien koning afgeschikt
+[single] hadden, den tijd sal den open„
+[single] baarder van desen uijtslag
+[single] moeten wesen; hebbende volgens
+[single] 't berigt de dato 23=' augustus
+[single] mede van Pannanij erlangd
+[single] en ook in Extract hier bij gelegt
+[single] den hoofdragiadoor vandien wrst des Sammorijns hoofd ragia„
+[single] door Financherij Ellede
+[single] zedert de laaste bij eenkomst
+[single] deser natie, sig wel twee maan„
+[single] den aen dat hof bij sijnen
+[single] koning
+[single] en
+== NL-HaNA_1.04.02_2047_0043 | #43 | sides: single | lines: 29
+[single] 11
+[single] en tragt bij sijn meester een banga„
+[single] zaal voorhaar op pannanij
+[single] erlangen
+[single] :waar voor hij, en meer andere
+[single] :wacker d' handen werden gevuld.
+[single] koning opgehouden, tot bewer„
+[single] king, dat dese natie bij nader
+[single] versoek, en wederkomst ten
+[single] dien hove mogte werden ver„
+[single] gunt een bangazaal op te regten,
+[single] een half uur gaans bezuijden
+[single] de logie die d' Ecomp: daar
+[single] heeft, en waren verscheijde
+[single] wel van gedagten sulx voort„
+[single] gang zoude nemen, door dien
+[single] de meeste ragiadoors van sijn
+[single] hoogheijt, waaronder den mede
+[single] hoofd _:o Parambij, ende
+[single] creaturen van den verrader
+[single] van de vorige Chettuase
+[single] fortresse Dhermottoe Panni„
+[single] caal door die natie wacker
+[single] de handen zijn gevult, 't welke
+[single] van die uijtwerking is, dat
+[single] zij alles heijmelijk in't werk
+[single] stellen
+[single] „
+== NL-HaNA_1.04.02_2047_0044 | #44 | sides: single | lines: 28
+[single] aenkomst van drie france schepen
+[single] uijt Europa, tot maine. —
+[single] stellen, om hun voornemen
+[single] bij zijn Hoogheijt te doen geluc„
+[single] ken, dog. vereijscht nog nader
+[single] Confirmatie, blijkende bij
+[single] dat selve brievje, dat tot Maine
+[single] in't begin der maand augustus
+[single] jongstleden uijt Europa drie
+[single] scheepen deser natie waren
+[single] g'arriveerd, en van daar na
+[single] Loudecherij vertrocken, dewel„
+[single] ke alhier den 4=' dier maand
+[single] dese rheede ook sijn gepasseerd,
+[single] en stond den resident diernatie
+[single] Molandin voormelt mede
+[single] naar evengemelte plaats, als
+[single] lid van den politicquen raad
+[single] te vertrecken, in wiens steede
+[single] weeder als resident is aenge„
+[single] steld 't opperhoofd der fortresse
+[single] tot Maine vorengenoemd.
+[single] nu
+[single] hoe
+[single] alhier
+[single] copia
+[single] quanti
+[single] Vijnen
+== NL-HaNA_1.04.02_2047_0045 | #45 | sides: single | lines: 25
+[single] 15
+[single] hoedanig de leverantie deser Jare
+[single] alhier is geweest, sal dik gem:
+[single] copia bataviasen briev aenthonen.
+[single] quantiteijt der peper met de nevens„
+[single] staande bodems naar gale versonden
+[single] nu overgaande tot de
+[single] Mallabaarse Leverantie,
+[single] soo gelieven uw Hoog Edele
+[single] groot Agtbare te beschouwen
+[single] uijt ons meergenoemd afgegane
+[single] Batavias schrijvens van den
+[single] 25= Maij deses Jaars, dat 'er
+[single] van den
+[single] Peper-corl in't voorleden
+[single] goede saijsoen van dese Custe
+[single] met de scheepen Nederhoven
+[single] De Lallas, en Zuijderbeek
+[single] na Punto gale is afgescheept
+[single] een tanto van 1483112: ponden,
+[single] en dat 'er met 't vertrek van
+[single] de Chialoup Cornelia
+[single] na Batavia, alhier ter
+[single] deser Commanderije nog
+[single] in
+== NL-HaNA_1.04.02_2047_0046 | #46 | sides: single | lines: 26
+[single] en hoeveel van dien corl met 't vertrek
+[single] van de chialoup Cornelia na
+[single] batavia hier nog aen handen was.
+[single] gecommitteerdens tot den nieuwen
+[single] peper handel om d' zuijt aengestelt.
+[single] in wesen is geweest een quanti„
+[single] teijt van 718169: ponden; daar
+[single] op den tijd der voorleden jaarse
+[single] peper- contracten weder g'ex„
+[single] pireerd, en ook circum circa
+[single] voldaan wesende is in onsen
+[single] raade op den eersten Iulij
+[single] deses jaars noodsakelijk g'oor„
+[single] deeld, dat deselve wederom
+[single] diende te werden vernieuwt
+[single] en voor 't aenstaande boekjaar
+[single] gesloten wierden, daar toe
+[single] dan genomineerd sijn, den
+[single] ondercoopman, en cassier
+[single] Iacob de Iong Junior,
+[single] en den winkelier Adriaan
+[single] Brugh, voor dewelke op
+[single] den 5=en Julij mede in—
+[single] Rade sodanigen Instructie
+[single] ten dien aspecte is getekent,
+[single] als.
+== NL-HaNA_1.04.02_2047_0047 | #47 | sides: single | lines: 27
+[single] /16
+[single] contracten door haar, met wie,
+[single] en waar gesloten.
+[single] wert hierbesijden aengetoont.
+[single] als de overkomende resolutien
+[single] uw Hoog Edele groot
+[single] agtbare op den selven datum
+[single] sullen aenwijsen, waar aen
+[single] ons seer gedienstig zijn refe„
+[single] rerende, welke gecommit„
+[single] teerdens, soo tot Coilang niet
+[single] de Cooplieden van den koning
+[single] signattij, als die van den
+[single] Zoela de Bariatte, ook die
+[single] van Calicoilang, en Porca
+[single] hebben aengegaan devolgende
+[single] contracten: Namentlijk.
+[single] tot Coilan met de coop-
+[single] lieden van den koning
+[single] candijl:
+[single] signattij. . . . . . . . . 500: â 12: ducat foer
+[single] d:o met de marchian„
+[single] deurs van Poele de
+[single] bariatte, en goeriep
+[single] van Trevancoor - - „ 300. „ d:o
+[single] _=o
+[single] Transporteere cand: 800.
+== NL-HaNA_1.04.02_2047_0048 | #48 | sides: single | lines: 34
+[single] Candijl:
+[single] den ragia d' marta heeft geen
+[single] contract willen aengaan, en
+[single] om wat reeden
+[single] P„r Transport 800:
+[single] tot Calicoilang met de
+[single] cooplieden van den
+[single] koning. - - - - - - - „ 500. â 11¼„ ducatisfer
+[single] d„o Porca, met de peper
+[single] 350: „ 11- __o
+[single] handelaars.
+[single] din
+[single] uijtmakende te sam: Cand: 1650: ofte 825000. lb
+[single] welke gecommitteerdens ook
+[single] nog verder bekentmaakten
+[single] dat den Ragia De Marta,
+[single] gelijk als voorleden jaar, en
+[single] soo als ook in't formeren van
+[single] de voorgenoemde Jnstructie
+[single] voor deselve de gedagten al
+[single] hebben geweest, geen peper
+[single] contract heeft willen sluijten,
+[single] om dat hem Jaarlijx geen
+[single] schenkagie, nevens een vrije
+[single] peper pas is toegestaan, 't geen
+[single] ook buijten des Ecomp=s
+[single] gewoonte
+[single] is
+[single] Ernst
+[single] van
+[single] ver
+== NL-HaNA_1.04.02_2047_0049 | #49 | sides: single | lines: 26
+[single] 17
+[single] 't selve maar tot hun sluijkhandel
+[single] is dienende
+[single] van peper, naar alle buijten posten
+[single] gedaan
+[single] gewoonte is, welk een, en ander
+[single] ook door den koning van Porca
+[single] niet werd genoten, en ook ten
+[single] waar aen niet veel gelegen is, dewijl reguarde van des martaas-
+[single] cooplieden des tebeter is, want
+[single] deselve onder pretext van net
+[single] d' Ecomp: in contract te zijn,
+[single] hare aengeboorene sluijkhandel
+[single] veel vrijer, en geruster op Leza,
+[single] en daarom her konnen exerce„
+[single] ren, en hunne slag waarnemen
+[single] waaromme daarvan dan ook
+[single] des t'eerder is afgesien; men
+[single] heeft dan dit quade saijsoen —
+[single] jterative malen de opperhoofden,
+[single] Ernstige vermaninge toeden insaam en residenten der Zuijder Comp„
+[single] toiren ernstig aengemaand, en
+[single] gerecommandeerd, steeds den
+[single] peper insaam dog te behertigen
+[single] ook door alle minnelijke wegen
+[single] de
+== NL-HaNA_1.04.02_2047_0050 | #50 | sides: single | lines: 29
+[single] en de bediendens gelast, om d' leveran„
+[single] ciers tot aenbrengen dier corl te
+[single] animeeren
+[single] gelijk de veel gemelte afgegane
+[single] bataviase
+[single] de cooplieden tot den aenbreng
+[single] bata
+[single] te annimeren, om dog d' Eomp:
+[single] in geen verlegentheijt bij arri„
+[single] vement der scheepen telaten
+[single] en die naar Ceijlon te konnen
+[single] overvoeren, ook op de agterstal„
+[single] lige tholgelden in't afgeven niet
+[single] slof tewesen, wanneer de peper
+[single] behoorlijk geleverd, en geharpt
+[single] sal sijn, omme dus den koning
+[single] Signattij, en andere vorsten
+[single] daar door aentelocken, hunne
+[single] cooplieden tot des te meerder
+[single] leverantie aentesetten, waar
+[single] van de afgegane brieven na
+[single] de zuijder Comptoiren al
+[single] vele recommandatien dier
+[single] wegens in zig sluijten, sullende
+[single] ons meergeciteerd afgegane
+[single] schrijvens, naar haar Edele
+[single] agtbare
+[single] E
+[single] m
+== NL-HaNA_1.04.02_2047_0051 | #51 | sides: single | lines: 27
+[single] 18
+[single] bataviase missive van den 25=e
+[single] maij passato aenwijsen.
+[single] wat fver en moeijten, tot weiring
+[single] der sluijkerij is in't werk gestelt.
+[single] Agtbare de Hoge Regeeringe
+[single] van Nederlands India,
+[single] tot Batavia, de dato 25=en
+[single] E
+[single] Maij passato, en ons geresol„
+[single] veerde onder datis primo, en
+[single] 6=e februarij deses jaars uw
+[single] Hoog Edele groot Agtbare
+[single] omstandig aenwijsen, wat
+[single] door ons met 't bekruijssen
+[single] der stranden van hier zuijd-
+[single] waarts tot Coilangs-Paroe
+[single] is in't werk gesteld, en waar
+[single] op men met 't openvaar-water
+[single] weder alle de aen de hand
+[single] sijnde middelen sullen practi„
+[single] seeren, om 't selve te stremmen,
+[single] en verhinderen; zijnde den
+[single] aenbreng deser Corl op
+[single] Chettua desen Jare al vrij
+[single] wat sober geweest, niet
+[single] tegenstaande
+== NL-HaNA_1.04.02_2047_0052 | #52 | sides: single | lines: 30
+[single] Jare om de noord.
+[single] zonder te kunnen versinnen door
+[single] wat wegen dien corl vervoert werd.
+[single] doord'
+[single] tegenstaande diverse recom„
+[single] soberen aenbreng van peper desen mandatien dient wegen derwaarts
+[single] gegeven, maar hebben de bedien„
+[single] dens aldaar geen andere redenen
+[single] weten tegeven, dat zij niet in
+[single] gebreeke zijn gebleven, de coop„
+[single] lieden soo veel doenlijk te ami„
+[single] neren, ook soo stipt op 't sluijken
+[single] hebben laten passen, egter niet
+[single] weten te versinnen door wat weg
+[single] en bosschagie dien corl na de
+[single] Noord vervoerd werd, gelijk het
+[single] bijgevoegd Extract uijt 't schrijvens
+[single] van daar de dato 18:' Iunij deses
+[single] jaars uw Hoog Edele groot
+[single] agtbare sal vertoonen, waar
+[single] nevens nog gelegt is een Extract
+[single] van een brief mede van daar
+[single] ontfangen, gedateerd 18=' augus„
+[single] tus daar aen, waar bij blijkt
+[single] dat
+[single] wa
+[single] aeng
+[single] dog
+[single] magt
+== NL-HaNA_1.04.02_2047_0053 | #53 | sides: single | lines: 29
+[single] 19
+[single] waarvan veerthien batticques
+[single] door d' cherlettese lascorijns zijn
+[single] aengeslagen.
+[single] dog daar van eenlijk vier d=os
+[single] magtig gebleven.
+[single] dat de Lascorijns die tot Cherlatte
+[single] tot 't weeren der sluijkerije ge„
+[single] plaatst sijn, en op veele wegen
+[single] daarom her verdeeld leggen
+[single] met haar vieren op Keddan„
+[single] goer uijt veertien battiques
+[single] sluijkpeper, gehorende eenen
+[single] Mano Goerip, ragiadoor van
+[single] Poenatour Nambeddij niet
+[single] meer dan vier d=os inhoudende
+[single] 130: ponden, hebben konnen aen„
+[single] houden, door dien deselve met
+[single] 25: gewapende nairos g'ac„
+[single] compagneerd werdende, werk
+[single] genoeg hadden gevonden die te
+[single] bewaren, alsoo de andere
+[single] tien met de coelijs, die de„
+[single] selve draagden, zijn doorgegaan,
+[single] en zouden de Lascorijns 't bij
+[single] na met de dood hebben moeten
+[single] bekopen
+[single] 8
+[single] teevie
+== NL-HaNA_1.04.02_2047_0054 | #54 | sides: single | lines: 31
+[single] men sal des niet temin, dien
+[single] voortgang tragten te doen stuijten,
+[single] d' coffij culture op d' geconquesteerde
+[single] landen, omstandig bij de bataviase
+[single] brief beschreven.
+[single] bekopen: egter sal op dat sluij„
+[single] ken sodanig als maar moge„
+[single] lijk zij, werden gewaakt,
+[single] mitsgaders ten eijnde deses
+[single] net te specificeren, wat quan
+[single] titeijt peper dat 'er op 't afgaan
+[single] ter deser custe in dit quade
+[single] mousson nog is aengebragt
+[single] betreffende
+[single] T Nieuwe conquest van
+[single] Laponettij tot Eddatourtij,
+[single] sullen wij ons eerstelijk ontrent
+[single] de Coffij-Culture eerbiedig„
+[single] lijk gedragen aen ons al meer
+[single] genoemde Bataviase brief,
+[single] van den 25=e Maij laastleden
+[single] alwaar uw Hoog Edele groot
+[single] Agtbare gelieven tesien, dat 't
+[single] met diens aenqueek wel sal
+[single] slagen
+[single] 't geen
+[single] de bom
+[single] weg
+[single] also
+[single] geen
+[single] te vin
+== NL-HaNA_1.04.02_2047_0055 | #55 | sides: single | lines: 28
+[single] 20
+[single] 't geen heel wel sal slagen, indien
+[single] de bomen op madilagam werden
+[single] weg gekapt.
+[single] also tot den aenqueek dier bonen
+[single] geen beter plaats op die landen.—
+[single] te vinden is.
+[single] slagen, dog soude tot het besor„
+[single] gen der genoegsame plaats
+[single] ter aenplanting seer noodsakelijk
+[single] wesen, dat op Madilagam
+[single] alle de boomen wierden afgekapt,
+[single] diverse hoogtens, en heuvels
+[single] geslegt, en de grond eguaal ge„
+[single] maakt, daar dan ook naar de
+[single] quantiteijt der aenplantende
+[single] coffij boomties de nodige coelijs,
+[single] of arbeijders tot diens oppassing,
+[single] en bewateringe hier uijt de
+[single] stad sullen benodigen, zijnde
+[single] ook geen beter bij een leggende
+[single] streek, of vlakte na diens sleg„
+[single] ting, op alle dese geconquesteerde
+[single] landen te vinden, gemerkt,
+[single] 't meeste gedeelte wat te laag
+[single] en ook 't ander gedeelte wonder„
+[single] lijk door den anderen verdeeld
+[single] is.
+== NL-HaNA_1.04.02_2047_0056 | #56 | sides: single | lines: 29
+[single] gelijk d' opsigters d' reden daar van
+[single] in nevensgaande rapport komen
+[single] aente thonen.
+[single] g'acompagneert sijnde van een nader,
+[single] setting.
+[single] is, soo als het bijgevoegd rapport
+[single] de dato 3=' april, door de opsien„
+[single] ders dier Landerijen daar van
+[single] overgegeven, en hier nevens legt,
+[single] duijdelijk aentoom, waarbij nog
+[single] gelegt is een rapport door deselve
+[single] opsigters den 5=' Zeptember
+[single] verleden nader overgeleverd, daar
+[single] uw Hoog Edele groot Agtbare
+[single] zullen gelieven te sien, dat sij
+[single] zederd den Jare 1724: twee duij„
+[single] send, vier honderd coffij boomp„
+[single] jes hebben in de grond geset
+[single] wegens 't noodsakelijke tot dies voort„ waar van 450: p:s anno 1724:—
+[single] geplant, mitsgaders 950: d=os
+[single] anno passato, meest alle vrugt
+[single] dragen, en d' een, soo wel als
+[single] d' ander, alle onverbeterlijk
+[single] staan, dat omme dien cul„
+[single] ture verder voortte zetten tot
+[single] ijder
+[single] c
+[single] die
+== NL-HaNA_1.04.02_2047_0057 | #57 | sides: single | lines: 24
+[single] 21
+[single] die daar toe werden vereijscht.
+[single] met aenmerkinge of die vrugt
+[single] ijder 150: d:o boompjes een Coelij,
+[single] consideraties wegens de onkosten of inlandse arbeijder benodigd,
+[single] die deselve bewaterd, en gade slaat,
+[single] wes tot de voorschreve 2400: p=s
+[single] jonge boompjes 16: coelijs, of
+[single] oppassers tesamen vereijsschen
+[single] welke ijder daags 2: cochimse
+[single] fanums wint, waar van 32:—:
+[single] fanums voor een rijxdaalder
+[single] werden gerekent, dies 16: personen
+[single] des daags een rijxd:r verdienen, dat
+[single] elken maand Dertig d=os, en in
+[single] 't Jaar drie honderd en sestig
+[single] rd=s voortbrengd, welke onkos„
+[single] ten bij aenplantinge van meer„
+[single] der boompjes, ook staan te
+[single] accresseeren, om dat het getal
+[single] der oppassers, of coelijs als dan
+[single] sal dienen vergroot te werden,
+[single] sonder dat voor als nog kan
+[single] werden
+== NL-HaNA_1.04.02_2047_0058 | #58 | sides: single | lines: 29
+[single] d' onkosten wel sal b'antwoorden.
+[single] werden geraden, of de vrugten
+[single] wel soo overvloedig sullen
+[single] voortkomen, dat de onkosten daar
+[single] uijt konnen werden gevonden,
+[single] welk bij moegsting der coffij-
+[single] boonen, die van voorschreve
+[single] 2400: stux boompjes werden
+[single] verwagt, t' ontdecken sal wesen,
+[single] en als dan ook met eenen
+[single] konnen geweten werden, of dese
+[single] boompjes naar het afvallen, of
+[single] plucken der vrugten, meermaal
+[single] sullen bloeijen, en dragen, dan
+[single] wel dat deselve ten eersten sullen
+[single] weg sterven, gelijk sulx alhier
+[single] in de stadsthuijn is ondervonden
+[single] niet Jegenstaande daar aen
+[single] geen bewatering, en nodig oppas„
+[single] sing is gespaart geworden waar
+[single] dat den tijd eeren, en haar hoog Edele van dan niet sal versuijmd werden,
+[single] de
+[single] g
+[single] groot
+[single] bij de
+[single] midde
+[single] gema
+[single] groot
+== NL-HaNA_1.04.02_2047_0059 | #59 | sides: single | lines: 27
+[single] 22
+[single] gemaakt.
+[single] bij de opsienders gesogt.
+[single] groot agtb: sal werden bekent de vereijschte kennisse aen haar
+[single] Edele Agtbare de Hoge
+[single] Regeringe van Nederlands
+[single] India tot Batavia, als ook aen
+[single] uw Hoog Edele groot Agtbare
+[single] wa tegeven; en vermits nu de
+[single] plaats„ daar dien aenqueek sal
+[single] „dienen voortgeset tewerden
+[single] als boven gesegt, een groot wild
+[single] bosch zijnde, met Laagtens, en
+[single] heuvels beset, waar toe groote
+[single] onkosten sullen moeten werden
+[single] gemaakt, om 't selve in zijn
+[single] effect tot aenplanting tebrengen,
+[single] middelen tot het bereijden der grond, soo hebben de opsigters, de
+[single] inlanders bij een geroepen
+[single] en haar jder een stuk Land
+[single] ter slegting, en bequaam„
+[single] making aengepresenteerd, om„
+[single] me daar op na rato die
+[single] Coffij
+[single] 00
+[single] 27
+== NL-HaNA_1.04.02_2047_0060 | #60 | sides: single | lines: 32
+[single] dog is door onmagt der inlanders
+[single] van geen gevolg geweest.
+[single] gelijk sulx bij nevensgaande
+[single] Copia rapport beschreven staat.
+[single] Coffij-Culture voorttesetten, onder
+[single] belofte, indien vrugten komen
+[single] te geven, sij dan voor ijder pond
+[single] hare betalinge soude genieten,
+[single] daar die sobere arme inwoon„
+[single] ders op g'antwoord hadden, daar
+[single] toe niet in staat te sijn, ook geen
+[single] slaven magtig, omme daarmede
+[single] een begin tenemen, of 't selve
+[single] na behoren uijttevoeren, en effect
+[single] te doen sorteren, soo als de copie
+[single] van gedagte rapport uw hoog
+[single] Edele groot agtbare sal komen
+[single] aentewijsen, daar ons op 't aller
+[single] eerbiedigste aen gedragende
+[single] onse uijterste poginge sullen
+[single] aenwenden, en practiseren,
+[single] hoe dat men 't beste en mena„
+[single] gieuste na uw Hoog Edele
+[single] groot agtbare aengeschreven
+[single] ordre.
+[single] en
+[single] aent
+[single] geschre
+[single] daf
+[single] als ook
+[single] rapport
+[single] wijsen
+== NL-HaNA_1.04.02_2047_0061 | #61 | sides: single | lines: 27
+[single] 23
+[single] en d' afgegane bataviase missive sal
+[single] aenthonen, wat over dese wortels is
+[single] geschreven.
+[single] als ook nog nader besijden leggende
+[single] rapport, diens gesteltheijt sal uijt„
+[single] wijsen.
+[single] ordre en intentie den aenqueek
+[single] deser Coffij, als der Curcuma,
+[single] en Cardamom sal voortsetten.
+[single] Den Curcuma, heeft men mede
+[single] een proeve van genomen, en
+[single] daar van al bij onse afgegane
+[single] letteren de dato 25=' maij 't
+[single] verschuldigd verslag in diens
+[single] omstanden aen haar Edele groot
+[single] Agtbare tot Batavia gegeven,
+[single] gelijk uw hoog Edele groot
+[single] agtbare niet alleen daar uijt
+[single] maar ook uijt gedagte bijleggend
+[single] rapport, de dato 3=' april passato,
+[single] door de opsienders der geconques„
+[single] teerde Landen overgegeven, bevo,
+[single] rens onder de coffij periode aen„
+[single] geroerd, en onder N:o 8 hier
+[single] bij leggende, sullen sien, dat
+[single] zij
+== NL-HaNA_1.04.02_2047_0062 | #62 | sides: single | lines: 28
+[single] d' geconquesteerde landen sijn niet
+[single] in staat 60: candijlen dier verruw
+[single] stoffe uijt televeren.
+[single] buijten, en behalven d' sware onkosten,
+[single] die daar op komen te belopen
+[single] zij ter deser zake alle de
+[single] inwoonders van 't nieuwe
+[single] conquest hebben bij den anderen
+[single] doen komen, en duijdelijk onder
+[single] vraagd, of sij voorsagen, instaat
+[single] te zullen zijn, omme Jaarlijx
+[single] voor d' Ecomp: te besorgen
+[single] 60: candijlen, of 30'000: lb deser
+[single] wortelkens, alwaar zij op g'ant„
+[single] woord hadden, dat 't selve een
+[single] onmogelijkheijt was, gemerkt
+[single] zij zoo veel coelijs, of arbeijds
+[single] volkeren niet bij den anderen
+[single] konden krijgen, als tot 't
+[single] bewerken, en in staat brengen
+[single] van soo een groote streek lands,
+[single] en't daar in brengen van
+[single] mest soude komen te benodigen,
+[single] buijten dat'er ook soo veel mest
+[single] niet te bekomen is, ook wanneer
+[single] er
+[single] gelijk
+[single] van
+== NL-HaNA_1.04.02_2047_0063 | #63 | sides: single | lines: 23
+[single] 24
+[single] van 250:—: ponden.
+[single] er schaarsheijt van mest is,
+[single] blijvt de wortel seer kleen,
+[single] als gebleeken was, aen de be„
+[single] proefde partij van 250: ponden,
+[single] die benodigd hebben gehad, een
+[single] bedding van 130: voeten lang,
+[single] en 40: d:o breet, nevens nog een
+[single] d. o van 100: voeten lang, en 30:
+[single] d:o breet, moetende ijder plan„
+[single] gelijk gebleeken is aen een proefje ting ten minsten 1½: voet van
+[single] den anderen staan, buijten, en
+[single] behalven desware onkosten, die
+[single] er op soude komen teloopen
+[single] daar nog bij komt de kleen-
+[single] en dunheijt der wortel, waar
+[single] aen geen mest gespaard is,
+[single] welke aengequeekte quantiteijt
+[single] van 250: ponden, die met de
+[single] Chialoup Cornelia, tot een
+[single] proefje na Batavia is gesonden,
+[single] hebben
+== NL-HaNA_1.04.02_2047_0064 | #64 | sides: single | lines: 35
+[single] 't geen hier besijden werd
+[single] aengethoont.
+[single] en d' aengeplante ƒ 34:—:—: meer,
+[single] dan d' genegotieerde tot calicoet,
+[single] komt tekosten
+[single] hebben komen te kosten ƒ45: 2: 8: sijn„
+[single] de 't candijl van 500: lb ƒ 90: 5. —.
+[single] de curcuma op Calicoet
+[single] genegotieerd, en Jongst mede
+[single] met die chialoup na
+[single] Batavia versonden, kost
+[single] 't candijl 10: pagoden
+[single] Jkeris â 1 7/8: rd:r de pagood,
+[single] 56: 5:—:
+[single] vi
+[single] berekenende rd:s 18¾: of
+[single] dus komt die van de ge„
+[single] conquesteerde landen, jder
+[single] candijl een somma van ƒ 34: —:—.
+[single] meerder testaan, daar men nu
+[single] desen Jare, soo als ons besluijt
+[single] van den 5:' augustus in de
+[single] overkomende resolutien omstandig
+[single] tevinden, op de Jongst bekomen
+[single] eijsch, voor den aenstaanden
+[single] Jare 1727:, 't candijl dier worte„
+[single] een, ter quantiteijt van 50000: lb
+[single] weder
+[single] soo
+[single] van
+[single] is
+[single] die
+[single] het
+[single] ver
+== NL-HaNA_1.04.02_2047_0065 | #65 | sides: single | lines: 26
+[single] 25
+[single] soo als desen pare wederom een contract
+[single] is genegotieert.
+[single] die men gelooft veel in deugt tegens
+[single] het overgesondene proefje sal
+[single] verscheelen
+[single] weder voor 18: rijxd:s heeft ge„
+[single] contracteerd, zijnde ƒ 54:—:, ge„
+[single] van 50000: lb tot 18: -: -: rd:s t cand:s volglijk nog ƒ 2: 5:—: als voorleden
+[single] Jaar minder, dat dan op 't
+[single] candijl in minderheijt ƒ 36: 5:—:
+[single] komt te monteren, en ook al wat
+[single] te veel verschil geeft, buijten dat
+[single] als voren gesegt, de klaauw
+[single] veel kleender is, kunnende
+[single] wegens dese borrij-borrij, niets
+[single] anders voor âpresent meerder
+[single] noteren, sullen hier op uw Hoog
+[single] Edele groot agtbare veel g'eerde
+[single] ordre te gemoet sien, en hoeda„
+[single] nig 't proefje, dat sekerlijk
+[single] van Batavia naar Nederland
+[single] staat overgesonden, sal bevonden
+[single] werden; zijnde van den
+[single] Cardamom op dit district
+[single] maar
+== NL-HaNA_1.04.02_2047_0066 | #66 | sides: single | lines: 28
+[single] wegens den cardamom heeft men geen
+[single] verwagting dat op de geconquesteerde
+[single] landen groeijen sal.
+[single] en is de cannomoorse bediendens gelast
+[single] voor den Jare 1727: wederom 10000: lb
+[single] aldaar inte hopen
+[single] maar geen de minste verwag„
+[single] ting, soo als men den 22='
+[single] october des voorleden jaars uw
+[single] Hoog Edele groot agtbare
+[single] al heeft bedeelt, en is maar
+[single] vergeefsen arbeijd, alsoo in't
+[single] minste niet wil voortkomen,
+[single] soo als uijt 't bijleggend papo„
+[single] en
+[single] nettijs briefje gedateerd 25=en
+[single] November des afgeweken—
+[single] Jaars, seer evident komt te
+[single] blijken, en waar van den
+[single] inlander mede gelijk luijdende
+[single] getuijgenisse verschavt, dog is
+[single] op de bekomen eijsch p:r het
+[single] schip Haarlem voor den Jare
+[single] 1727: wederom 10000: lb van
+[single] de soort Cabessa naar Can„
+[single] nanoor aenbevolen, waarvan
+[single] bij een brievje van den 23=e
+[single] Zber:
+== NL-HaNA_1.04.02_2047_0067 | #67 | sides: single | lines: 27
+[single] 26
+[single] dog is volgens antwoord van daar
+[single] bekomen om de hoge prijs nog niet
+[single] volbragt.
+[single] wat die bediendens van hier dierwegens
+[single] nader is aengeschreven
+[single] Zeptember Jongstleden welker
+[single] copia desen g'annexeert gaan,
+[single] door de Cannanoorse bediendens
+[single] zijn berigt, dat den moorsen
+[single] coopman Simaij, elken candijl
+[single] van 500: lb, niet minder wilt
+[single] afstaan als 90: Europeaanse
+[single] ducaten, of ƒ 594:—:—: zijnde
+[single] voor 10000: lb, of 20: candijlen
+[single] 1800:—: ducaten, dan wel ƒ11880: —: —;
+[single] welken prijs al vrij hoog is
+[single] stijgerende, daarom 't opperhoofd
+[single] Wijlsma, en den raad tot
+[single] Cannanoor staat aengeschre„
+[single] ven tewerden, nog nader bij
+[single] dien marchiandeur te onder„
+[single] staan, om die drogues voor
+[single] minder prijs te bekomen, 't geene
+[single] mogelijk wel sal vallen, in„
+[single] dien gedagte coopman geen
+[single] staat
+== NL-HaNA_1.04.02_2047_0068 | #68 | sides: single | lines: 28
+[single] welkers uijtslag men hoopt voor 't
+[single] afgaan deser te ontwaren.
+[single] staat maakt, daar voor bij d'
+[single] Engelsen van Tallicherij, of de
+[single] Francen tot Calicoet, en
+[single] Maine (:des Ecomp:s compe„
+[single] titeuren:) meerder geld te bedin„
+[single] gen sal wesen, welker seker be„
+[single] scheijd, binnen korte dagen ver„
+[single] wagten te verstaan, en soo wij
+[single] hopen nog voor 't versenden
+[single] deser te bekomen, wanneer hier
+[single] agter volgens onse gehoudenisse
+[single] aen uw Hoog Edele groot
+[single] agtbare nader verslag sal
+[single] werden gedaan, inhope den
+[single] prijs naar d' intentie sal wer„
+[single] den verlaagt door den voor„
+[single] schreven Cottats coopman
+[single] simaij, en mede hulp van
+[single] den moorsen regent Adergia,
+[single] (:van wien hier naar breeder:)
+[single] 't contract
+[single] ontde
+[single] en zaij
+[single] aengesc
+[single] waar
+[single] aen
+== NL-HaNA_1.04.02_2047_0069 | #69 | sides: single | lines: 27
+[single] 27
+[single] ontdecking van nog eenige thuijnen„
+[single] en Zaijland, bij een paponettijs briefje
+[single] aengeschreven
+[single] waar toe d' opsigters dagelijx hun vlijt
+[single] aen te wenden werd gerecommandeert.
+[single] 't contract dier specereije ten
+[single] genoegen zal gesloten werde,
+[single] dog eerwij nog van dese gecon„
+[single] questeerde Landen afscheijden,
+[single] werd uw Hoog Edele groot
+[single] Agtbare uijt 't bijleggend
+[single] Extract Laponettijs brievje, de
+[single] dato 25=' maij herwaarts ge„
+[single] schreven, vertoond, dat 'er somtijds
+[single] nog al eenige thuijnen, en
+[single] parras Zaaijland ontdekt wer„
+[single] den, daar de opsigters tevoren
+[single] nog geen kennisse van hebben
+[single] gehad, dat wij hun ter exacter
+[single] ondersoek, steeds al verder stipt
+[single] aen recommanderende zijn;
+[single] versellende desen wijders de
+[single] staatreekening der inkomsten
+[single] van dese geconquesteerde Landen
+[single] als de b'antwoorden Eijsch van
+[single] retouren.
+== NL-HaNA_1.04.02_2047_0070 | #70 | sides: single | lines: 26
+[single] d' staatrekening der geconquesteerde
+[single] landen, en b'antwoorden eijsch, gaan
+[single] nevens desen over.
+[single] d' Jaarlijkse verpagting van
+[single] 'sComp:s domeijnen gehouden
+[single] retouren uijt Indien, voor desen
+[single] Jaare, waar van de weergade
+[single] met de vorengenoemde afgegane
+[single] Bataviase brieven dubbeld der„
+[single] waarts is geschikt, die wel
+[single] meest specteren op de voorver„
+[single] haalde curcuma, en Carda„
+[single] mom, wat sinsilij zaat, enz:
+[single] sComp„s Domainen, en
+[single] geregtigheden, volgens Jaarlijxe
+[single] usantie, op den 26=' augustus
+[single] Jongstleden, al wederom publicq
+[single] opgeveijld wesende, soo als in
+[single] onse overkomende resolutien
+[single] onder dien datum van poinct
+[single] tot poinct klaarlijk uijtge„
+[single] drukt staat, hebben egter maar
+[single] 273 5/5. rijxd:s meerder opgeworpen,
+[single] 25
+[single] als anno 17 29/26:, gelijk hier
+[single] onder
+== NL-HaNA_1.04.02_2047_0071 | #71 | sides: single | lines: 40
+[single] 28
+[single] hoedanig deselve hebben gerendeerd
+[single] is hier onder tesien.
+[single] meerder, dan annoverleden
+[single] onder in't korte verklaard
+[single] werd. als
+[single] anno anno
+[single] /o meerder, minder
+[single] 725
+[single] 17 27/26: 17 2/27:
+[single] De stadsherberg. . . . . . . . . . . 50. 60. 10.
+[single] „ binnen pagt hier ter steede. . 1646. 1755: 109.
+[single] zagt op de Vlakte. . . . 132. 60. —. 72:
+[single] „ d:o van Baijpin - - - . . 121: 97. —. 24:
+[single] „ d:o van Cranganoor. . . . . . 177. 162. —. 15:
+[single] „ d:o van Chettua. . . . . . . 265. 183. —. 82:
+[single] Tabax Lagt
+[single] 460. 510. 50. -.
+[single] N 26
+[single] 25
+[single] 17
+[single] „ 26.
+[single] Coilangs Bhaij 10100: 11030:: 3232. 3529/297 1/5. —.
+[single] 17/27.
+[single] rd=s 6083. 6356 5/5 46/5. 193.
+[single] gesubstraheert. . —. 6083. 193. —
+[single] beloopt als boven meerder
+[single] 273 /5. 273 3/5.
+[single] behalende een somma van rd:s 273 5/5 werdende uw Hoog Edele
+[single] groot Agtbare nog vertoont,
+[single] hoe dat op den laasten december
+[single] des gepasseerden Jaars stonde te
+[single] eijndigen, de thienjarige verpag„
+[single] tinge van des Ecomp:s Landerijen,
+[single] zoo
+[single] 9
+[single] lij
+[single] ct
+[single] aan
+[single] pen
+== NL-HaNA_1.04.02_2047_0072 | #72 | sides: single | lines: 28
+[single] voorstel door den commandeur
+[single] aenden raad, wegens de thien jarige
+[single] verpagtinge gedaan.
+[single] is geresolveert d'selve nu maar
+[single] voor 5: Jaren te versuijmen
+[single] 't geen dan volgens d' uijtschrijving
+[single] daarvan gedaan, is volbragt.
+[single] zoo stelde den commandeur de
+[single] Leden op den 3=' November voor
+[single] de melioratie, die 'er nu ettelijke
+[single] Jaren aen de Landerijen bij aen„
+[single] plantinge is gedaan, en daar„
+[single] omme van gedagten was, indien
+[single] deselve nu voor vijf Jaren maar
+[single] wierden verpagt, 't meerder voor„
+[single] deel voor d' E: comp: soude
+[single] komen op te brengen, 't gene
+[single] ook dusdanig op approbatie
+[single] van haar Edele Agtbare, de
+[single] Hooge Regeringe van Neder¬
+[single] lands India tot Batavia,
+[single] is goedgevonden te laten geschie„
+[single] den; 't welk dan tegen den 17=en
+[single] December daar aen uijtgeschre„
+[single] ven zijnde, ook sijn voortgang
+[single] genomen heeft, naar 't dictum
+[single] der notulen, ten dien dage op de
+[single] publicque
+== NL-HaNA_1.04.02_2047_0073 | #73 | sides: single | lines: 28
+[single] 29
+[single] en sulx met een voordeel van
+[single] 1064 13/32: rd=s
+[single] publicque gebed-zaal daar
+[single] van gehouden, en in ons
+[single] resolutie-boek, seer duijdelijk
+[single] van plaats, tot plaats vertoond,
+[single] oversulx dese gesamentlijke
+[single] pagten nu meerder des Iaars,
+[single] als over thien Jaren hebben
+[single] opgeworpen, een somma van
+[single] Cochimse fan=s 34065, bereeke„
+[single] nende â 32: p:r rd„r, een somma
+[single] van een duijsend vier ensestig
+[single] en seventhien twee endertigste
+[single] rd:rs, soo als tot speculatie van
+[single] gelijk hier onder werdangethoont. uw Hoog Edele groot Agtbare,
+[single] in't kort bij een genoteerd staat.
+[single] namentlijk.
+[single] anno meerder minder
+[single] anno
+[single] 1725.
+[single] 1715.
+[single] P=r Iago. . . . . . . . . . . . fan=s 9700. 8600. —. 1100.
+[single] Hendrik de Silva Piquena - - - „ 600. 1800. 1200.
+[single] senhore de saude. . . . . . . „ 1800. 3100. 1300.
+[single] Hendrik de Silva op Moetambelij „ 13500. 15200. 1700.
+[single] Transporteere fan: 25600: 28700: 4200: 1100.
+== NL-HaNA_1.04.02_2047_0074 | #74 | sides: single | lines: 37
+[single] anno meerder, minder
+[single] anna
+[single] 1725.
+[single] 1715.
+[single] P„r Transport fan:s 25600. 28700: 4200: 1100:
+[single] St. Louis
+[single] . . - - - - - - - - - „ 950. 1150. 200.
+[single] 't musquiten Eijland. . . . . . . . . „ 4800. 5500. 700. —
+[single] Lurpenkare gen=t Matthijs Mendes. . „ 600. 650. 50. —
+[single] D:o Anthonij fernando Piloot. . . . „ 900. 850. —. 50.
+[single] Crus de Milagre. . . . . . . . . . . „ 185. 185. —. —
+[single] 't Paulisten Eijland - - - - - - - „ 4700. 7000. 2300. —
+[single] Bollegatte. . . . . . . . . . . . . . . . „ 600. 650. 50. —
+[single] Angecaijmaal. . . . . . . . . . . . „ 800. 950. 150.
+[single] Catharina Cardoza op Irrewini „ 145. 155. 10. —
+[single] S=t Andries. . . . . . . . . . . „ 1200. 1300. 100. —
+[single] David de Castello, op Aroe. . . „ 8850. 15300. 6450. —
+[single] Ioan Corea de Silva. . . . . . . „ 580. 450. —. 130.
+[single] Castella. . . . . . . . . . . . . . . . „ 1000. 1350. 350. —
+[single] Ilhe de Leti. . . . . . . . . . . „ 400. 1100. 700. —
+[single] Ellewaddij agters=t Ian. . - „ 2600. 5900. 3300. —
+[single] gasfanij op Baijpin. . . . . . „ 975. 1600. 625. —
+[single] Bellesoor Rodrigues . . . . . . „ 500. 1200. 700. —
+[single] Domingo Fernando op S=t Iago . „ 1140. 1300. 160.
+[single] 6900. 18100. 11200.
+[single] 't Eijland Bendoertij. . . . . „
+[single] _=o Caleacatte, of Morenbril „ 1300. 4800. 3500.
+[single] t _=o Bettemene. . . . . . . „ 400. 1000. 600:—
+[single] beloopt fan:s 65125. 99190. 35345. 1280.
+[single] gesubstraheert - - . . . . . 65125. 1280.
+[single] beloopt als boven, meerder - . . . 34065. 34065.
+[single] ofte rd:s 1064 12/32. -
+[single] welk.
+[single] 't
+[single] bata
+[single] aen
+[single] het
+== NL-HaNA_1.04.02_2047_0075 | #75 | sides: single | lines: 36
+[single] 30
+[single] het verrigte 't sedert anno passato
+[single] aendese werken, omstandig bij de
+[single] bataviasen briev beschreven.
+[single] rapport door de besijde staande personen
+[single] wegens de gesteldheijt van 't negotie
+[single] pakhuijs alhier overgegeven.
+[single] welk een en ander wij hoopen,
+[single] dat uw Hoog Edele groot agtbare
+[single] met haare veel gehonoreerde goed„
+[single] keuringe, sullen gelieven te bekroo„
+[single] nen
+[single] De Fortificatie werken, soo
+[single] hier tersteede, als op de subalterne
+[single] buijten comptoiren, en residen„
+[single] tien, wat daar aen zederd onse
+[single] afgegane letteren, van den 22='
+[single] october, des voorleden jaars
+[single] is g'advanceerd, gerepareerd, en
+[single] vermaakt, staat duijdelijk bij
+[single] onsen Bataviasen briev van
+[single] den 25=' maij ampel genoteerd.
+[single] waaraen wij uw Hoog Edele
+[single] groot agtbare seer gedienstig
+[single] overwijsende, nu wederom hier
+[single] nevens leggen een rapport door
+[single] Hendrik
+[single] der
+[single] 1100
+[single] 0.
+[single] 0
+[single] 0.
+[single] 0
+[single] 1280.
+[single] id
+== NL-HaNA_1.04.02_2047_0076 | #76 | sides: single | lines: 26
+[single] die het dak, muurplaten, en
+[single] sluijtbalken hebben bevonden
+[single] vergaan tewesen.
+[single] schade g'oordeeld werd, een nieuw
+[single] dak te benodigen.
+[single] Hendrik Stades baas der forti„
+[single] ficatie houtthuijn, David Dirksz:
+[single] van de velde baas der scheeps-
+[single] timmerlieden, en Iacob van
+[single] zoeken baas der huijstimmer„
+[single] lieden gegeven, wegens hun visite
+[single] van des Ecomp:s negotie pakhuijs,
+[single] dat sij bevonden desselvs gantsche
+[single] dak, de muurplaten, en sluijt„
+[single] balken ten eenemaal vergaan
+[single] waren, waar door bij extraor„
+[single] dinaire toevallen te dugten was,
+[single] en voorsien wierd dat somtijds
+[single] 't een, of ander ongeluk bij instor„
+[single] ting uijt soude konnen komen
+[single] te ontstaan, en waar uijt ook
+[single] sware leckagien te verwagten sijn,
+[single] tot groote schade van de daar in
+[single] waaromme tot voorkoming van geborgen werdende 'sComp:s coop„
+[single] manschappen, mitsgaders dat
+[single] tot
+== NL-HaNA_1.04.02_2047_0077 | #77 | sides: single | lines: 27
+[single] 31
+[single] en waartoe van haar hoog Ed: agtb:
+[single] bereets al qualificatie is versogt.
+[single] rapport, wegens 't gene 't sedert
+[single] het afgegane batavias schrijvens
+[single] alhier is verrigt. —
+[single] tot preveniering van 't selve, een
+[single] gantsch nieuw dak, daar over
+[single] sal moeten gemaakt werden,
+[single] alsoo het daar nu op leggende,
+[single] al van de portugeese tijden,
+[single] en wie weet hoe lang nog te
+[single] vooren, daar op al gelegen heeft,
+[single] waaromme wij bij onse zittin„
+[single] ge, van den 29=' Maij passato
+[single] soo als onse overkomende reso„
+[single] lutien aenwijsen, aen haar
+[single] hoog Edelhedens tot Batavia
+[single] versogt hebben, dese nodige ver„
+[single] nieuwing te mogen verrigten
+[single] gelijk dese mede accompagneerd
+[single] een rapport, de dato 25=' zber:
+[single] Jongstweken, door den Lieute„
+[single] nam, en Jngenieur Albert
+[single] François Le grand overgegeven,
+[single] waarinne duijdelijk gespecificeerd
+[single] werd.
+== NL-HaNA_1.04.02_2047_0078 | #78 | sides: single | lines: 22
+[single] gelijk breder hier nevens werd
+[single] aengewesen
+[single] vervolg,
+[single] werd, dat sedert ons schrijvens
+[single] aen haar Edele agtbare de
+[single] Hooge Regeringe tot Batavia,
+[single] de dato 25=' maij dikgemelt.
+[single] Het wagthuijs daar de oppassers
+[single] van den commandeur Logie„
+[single] ren, ten eenemaal van de grond
+[single] nieuw opgemaakt is, waar aen
+[single] mede een nieuwe sergeants
+[single] camer, en combuijs
+[single] Ook de kaaij van de punt stroom„
+[single] burg af, tot overijssel, en voor
+[single] bij 't soo genaamde galjoen, is
+[single] ten vollen gerepareerd, zijnde
+[single] aen de hoeken van de batterije,
+[single] ook twee nieuwe beeren gemaakt
+[single] tot desselvs ondersteuning, en
+[single] versterking, alsoo ingevaar
+[single] was
+== NL-HaNA_1.04.02_2047_0079 | #79 | sides: single | lines: 24
+[single] 32
+[single] was van intestorten
+[single] weesende ook uijt hoge noodsake„
+[single] lijkheijt aen de wagt bij de revier
+[single] poort, en over des Ecomp:s nego„
+[single] tie pakhuijs een nieuwe
+[single] combuijs gemaakt.
+[single] gelijk ook mede in 's comp:s gevangen„
+[single] huijs, een nieuwe steene trap
+[single] na de agterplaats, in steede der
+[single] houte d:o, die voor den regen
+[single] altijd bloot zijnde, ten eene„
+[single] maal verrot, en bij na onbruijk„
+[single] baar was. —
+[single] In de smits winkel, zijn
+[single] vier nieuwe schoorstenen van
+[single] hollandse klinkers gemaakt,
+[single] alsoo 't dak gevaarliep, door
+[single] vervolg.
+[single] dien
+[single] a
+[single] oom¬
+[single] maakt
+== NL-HaNA_1.04.02_2047_0080 | #80 | sides: single | lines: 24
+[single] vervolg.
+[single] wat ingemelte rapport gesegt werd,
+[single] dat nog gemaakt moet werden
+[single] dien de selve in den Jare 1724: met
+[single] simpele rookgaten, anders op de
+[single] oude portugese wijse genaamt
+[single] tjemenes, gemaakt zijn geworden,
+[single] waardoor met 't stooken der
+[single] smeevuuren, de vonken tegen 't dak
+[single] bleven zitten, en aen 't smeulen
+[single] geraakte, faa somtijds de arbeijds
+[single] lieden, weder van boven op haare
+[single] Lighamen neder quamen, mitsga„
+[single] ders seer periculeus was, en
+[single] voorsien wierd, de gantsche
+[single] smits winkel, somtijds in koolen
+[single] stond te geraken.
+[single] moetende verders nog 't volgende
+[single] ter deser steede, naar 't ter neder„
+[single] gestelde, in't mede overgaande
+[single] rapport, door den meergenoemde
+[single] Ingenieur Le grand, de dato
+[single] 9=' maij
+== NL-HaNA_1.04.02_2047_0081 | #81 | sides: single | lines: 22
+[single] 33
+[single] vervolg.
+[single] vervolg.
+[single] 9=' maij passato overgegeven,
+[single] nog gerepareerd, en nieuw ge„
+[single] maakt worden, als volgt.
+[single] Boven de nieuwe kruijtkelder
+[single] of op de guardijn tegen aen de
+[single] punt Gelderland een vloer van
+[single] hollandse klinkers. —
+[single] Ook nog tusschen de zee zaal
+[single] van des commandeurs
+[single] woning, tot aen de punt stroom„
+[single] burg, van buijten een nieuwe
+[single] muur tegen de present staande
+[single] opgemetselt, door desselvs swak„
+[single] te, alsoo van geen de minste
+[single] resistentie is. —
+[single] Nog de twee krebben op Tranga„
+[single] noor, duijdelijk in dat rapport
+[single] mede
+== NL-HaNA_1.04.02_2047_0082 | #82 | sides: single | lines: 21
+[single] vervolg.
+[single] vervolg.
+[single] mede uijtgedrukt, soo mede de
+[single] nieuwe Logie tot Porca, als
+[single] een nieuw Lazarus-huijs op
+[single] Paliporte. —
+[single] Moet ook nog een nieuwe put
+[single] agter 't gevangen huijs gemaakt
+[single] werden, alsoo d' eene aldaar
+[single] zijnde geen water genoeg voor
+[single] de gevangenen komt te geven,
+[single] als ook
+[single] voor't wagtsvolk aen de bhaij-
+[single] poort staat mede een nieuwe d:o
+[single] gemaakt te werden, alsoo de
+[single] oude met 't vernieuwen van de
+[single] wagt, in den Jare 1722: is
+[single] gedempt
+[single] Gelijk ook nog in 'sComp:s Dispens,
+[single] uijt
+== NL-HaNA_1.04.02_2047_0083 | #83 | sides: single | lines: 31
+[single] 34
+[single] werdende daarinne ook gevonden
+[single] eenige consideraties nopende de
+[single] verkleening der fortresse coilang
+[single] waar uijt grote onkosten, en niet
+[single] uijt hoge noodsakelijkheijt op de
+[single] plaats, een nieuw steen zout-
+[single] hok sal moeten gemaakt werden,
+[single] sonder 't welke, 't zout niet kan
+[single] gepreserveerd werden
+[single] wijders zullen uw Hoog Edele
+[single] groot Agtbare, nog in zijn rap„
+[single] port van den 9=e Maij voornoemt
+[single] omstandig genoteerd vinden
+[single] desselvs advis, en gedagten, on„
+[single] trent de verkleeninge van de
+[single] fortresse Coilang, soo volgens
+[single] 't project N:o 2:, door haar
+[single] Edele agtbare de hooge Regee„
+[single] ringe van Nederlands India
+[single] tot Batavia g'approbeerd, als
+[single] dat van den E: heer Directeur
+[single] Pieter Gijsbert Noodt, nevens
+[single] de consideratien der onkosten
+[single] „
+[single] die
+[single] de
+[single] min
+== NL-HaNA_1.04.02_2047_0084 | #84 | sides: single | lines: 26
+[single] min disrespect, bij andere
+[single] naties soude ontstaan.
+[single] komt t' erlangen, hoedanig dan
+[single] Cannanoor te verkleenen sal wesen.
+[single] die op 't demolieren souden
+[single] komen te vallen, als 't disrespect
+[single] en de gedagten, die de daar digt
+[single] bij leggende Engelse natie, als
+[single] Inlandse grooten, over die verkle„
+[single] ning souden konnen komen te
+[single] maken, mitsgaders 't voorstel,
+[single] omme de Gunt Ceijlon inte
+[single] sluijten, te verhoogen, en dusdanig
+[single] alle de andere verblijvende
+[single] werken, sonder de minste ver„
+[single] kleening, te konnen blijven
+[single] commanderen, ook de vrij min„
+[single] dere onkosten, die daar op soude
+[single] komen te loopen; insgelijx als
+[single] indien men den berg carla niet men den heuvel carla tot
+[single] Cannanoor, niet en mogte
+[single] komen magtig te werden tot het
+[single] opbouwen eener nieuwe fortres„
+[single] se, waar van onder de periode
+[single] van
+[single] ve
+== NL-HaNA_1.04.02_2047_0085 | #85 | sides: single | lines: 25
+[single] 35
+[single] vervolg deser materie.
+[single] van den koning Colastrij
+[single] onder de Hoofse verhandelingen,
+[single] seer ampele aenhalinge staat
+[single] gedaan tewerden, hoe noodsake„
+[single] lyk het dan sal sijn, om 't
+[single] opperhoofds woning, en waterpas
+[single] te demolieren, binnenwaarts
+[single] een nieuwe cortine op te halen,
+[single] aen de binnenkant van de gragt,
+[single] in't voorfort, tot defensie van
+[single] 't selve, de Hoognodige herstellinge
+[single] der barm aen de zeekant te doen,
+[single] een nieuw opperhoofds-huijs, en
+[single] twee wagten temaken, ook
+[single] een woning voorde smit, en
+[single] alle de andere woningen be„
+[single] hoorlijk te versien, ook nog een
+[single] nieuwe kruijtkelder, in plaat„
+[single] se der gene, die onder het opper„
+[single] hoofds wooning is, als ook een
+[single] ammonitie.
+== NL-HaNA_1.04.02_2047_0086 | #86 | sides: single | lines: 27
+[single] alles omstandig blijkende bij de
+[single] nevensgaande rapporten.
+[single] batavias schrijvens met dese
+[single] potentaten heeft toegedragen
+[single] ammonitie-huijs: alles breed,
+[single] en distinct indat soo genoemde
+[single] rapport aengetoond, welke drie
+[single] ver
+[single] rapporten ter deser materie spree
+[single] kende onder N:o 14: hier bij
+[single] den anderen agter leggen, waar„
+[single] mede dan met de huijsselijke
+[single] zaken dus verre ten eijnde
+[single] zijnde, sullen overgaan tot de
+[single] verhandelinge der
+[single] Koningen, en Hofsgrooten,
+[single] op dese cust hun onthoudende,
+[single] wat met verscheijde derselver
+[single] hoedanig het sig 't seder 't afgegane sedert ons dikgerept ampel
+[single] schrijvens aen haar hoog
+[single] Edelhedens tot Batavia van
+[single] den 25=' maij passato is voor„
+[single] gevallen, en een begin nemen
+[single] met 't rijk van
+[single] Canara
+[single] ten
+== NL-HaNA_1.04.02_2047_0087 | #87 | sides: single | lines: 28
+[single] 36
+[single] versoek van den Comp:s coopman.
+[single] zundaradas wistnadas, om rijst
+[single] te mogen leveren
+[single] regering tot batavia is voorgedragen,
+[single] Canara, welkers konings
+[single] hofscoopman sunderadas
+[single] wistnadas (:soo als ons soo
+[single] aengeroerd Batavias schrij„
+[single] vens dicteerd:) heeft versogt, dat
+[single] alle Jaren met hem, end' E:
+[single] comp:s een rijs-contract
+[single] mogte werden aengegaan, of
+[single] dat andersints niet wel
+[single] coopman konde blijven,
+[single] 't welk ook de reden is, dat
+[single] den Barssaloorsen handel
+[single] aldaar soo veel schot niet, en
+[single] quam te nemen, welk versoek
+[single] wij bij gemelte schrijvens aen
+[single] haar Edele agtbare tot
+[single] Batavia ook hebben voorge„
+[single] 't geen haar Edele agtbare dehoge dragen, op dat des Ecomp=s
+[single] koopmanschappen des te beter
+[single] in quantiteijt mogte vertierd
+[single] werden
+[single] ot
+== NL-HaNA_1.04.02_2047_0088 | #88 | sides: single | lines: 26
+[single] brandschatting van den mogolsen
+[single] rebellant Chilichan in't rijk van
+[single] Cannara gedaan
+[single] werden, alsoo den handel in
+[single] Canara tot Barssaloor wel
+[single] de meeste winsten ter deser
+[single] custe komt op tebrengen, en
+[single] die residentie seer weijnig guas„
+[single] tos maakt; en nog te meer
+[single] dat die rijs, altijd uijt nieuw
+[single] graan bestaande, bij gevolge
+[single] voor smenschen gesontheijt al„
+[single] hier dienstiger, en doorgaans
+[single] veel beter als de Iavase rijs
+[single] hier ontvangen werd, alschoon
+[single] wat hooger in prijs steijgerd,
+[single] volgens de berigten uijt dit
+[single] rijk ontvangen, den 24=' Iulij
+[single] bij schrijvens van den 5=' d=o
+[single] tevoren, soude een rebellant
+[single] van den Mogol genaamt
+[single] Chilichan, zig ontrent twee
+[single] dagen reijsens boven Biddroer
+[single] de
+[single] erd
+== NL-HaNA_1.04.02_2047_0089 | #89 | sides: single | lines: 26
+[single] 37
+[single] waar door de wegen beset sijnde
+[single] 'sComp:s handelwharen niet kunnen
+[single] werden afgehaalt
+[single] /:de hoofdplaats in dit rijk:) wel
+[single] met een armee van 50000:—:
+[single] paarden, en 100'000: voetknegten
+[single] zig hebben neder gecampeerd, om
+[single] de Canaresen soo wat te brand-
+[single] schatten, en dat ten dien eijnde
+[single] door hun dewegen in besettinge
+[single] waren genomen, daardoor den
+[single] Jnlander de Libre passagie afge„
+[single] sneden, en ook de reden was
+[single] geweest, dat den comp:s coopman
+[single] Sundaradas Wistnadas ten
+[single] dien tijde geen meer coopman„
+[single] schappen hadde afgehaalt, dog
+[single] belooft hadde, soo draa dien
+[single] struijk rover vertrocken was,
+[single] hij wederom zijn pligt na
+[single] usantie soude volbrengen,
+[single] en de overige goederen na sig
+[single] nemen, 't gene wij hoopten, en
+[single] wenschten
+== NL-HaNA_1.04.02_2047_0090 | #90 | sides: single | lines: 32
+[single] sal weesen, staat te geschieden
+[single] bouvalligheijt vande fortresse
+[single] Cannanoor, staande in dit rijk.
+[single] wenschten, dat van een goed;
+[single] en hoe spoediger, hoe beter gevolg
+[single] soude sijn geweest, dog bij het
+[single] schrijvens van de residenten
+[single] dog soo dra dien rover vertrocken van daar, gedagtekent 8= augus„
+[single] tus Jongstleden, waren der
+[single] sedert dat vorig schrijvens tot
+[single] ons leetwesen, nog geen meerder
+[single] handel-wharen door dien coopman
+[single] afgehaald, 't gene wij binnen
+[single] korten hopen te verstaan, en
+[single] dat dien rebel al van daar
+[single] zal zijn verhuijst; tredende
+[single] tot 't rijk
+[single] Collastrij, waarinne des Ecomp:s
+[single] fortresse Tannanoor staat, dat
+[single] seer oud en bouwvallig werd, en
+[single] noodsakelijk requireerd een
+[single] extraordinaire kostelijke—
+[single] reparatie
+[single] d
+[single] C
+[single] 0000
+[single] be
+[single] mits
+[single] bat
+[single] ad
+== NL-HaNA_1.04.02_2047_0091 | #91 | sides: single | lines: 27
+[single] 38
+[single] 't geen haar hoog Edele groot agtb:
+[single] u„
+[single] bevorens mede is verthoont.
+[single] mitsaders haar Ed:s hoog agtb: tot
+[single] batavia, seeker bergje Canla, tot het
+[single] reparatie, dog nadien wij bij
+[single] onse nedrige letteren van den
+[single] 22=' october des voorleden Jaars
+[single] 1725: op de voorstellinge van
+[single] den Lieutenant Ingenieur
+[single] Albert Francois Le grand
+[single] hier over, soo aen uw Hoog
+[single] Edele groot Agtbare, als
+[single] haar Edele Agtbare de Hooge
+[single] Regeringe van Nederlands
+[single] India tot Batavia hebben
+[single] voorgedragen, indien men sekere
+[single] „maken van een nieuw fort voorgedragen. ) envel, of bergje Carla, gelegen
+[single] aen de Zuijdkamt van de oude
+[single] presente fortresse, van den
+[single] koning Collastrij wettig, en
+[single] liber konde obtineren, omme
+[single] daar op dan een nieuwe vesting
+[single] temaken, alwaar volgens 't
+[single] rapport van gedagte Ingenieur,
+[single] de
+== NL-HaNA_1.04.02_2047_0092 | #92 | sides: single | lines: 24
+[single] hebben gelieven te approbeeren
+[single] waar op 't opperhooft wijlsma is
+[single] gelast
+[single] de zee geen schade soude konnen
+[single] toebrengen, en dewelke vrij beter
+[single] als de tegenwoordige fortresse
+[single] niet alleen de gantsche bhaaij
+[single] maar ook het land daar om-her„
+[single] 't geen haar hoog Ed: agtb: wolgemelk mitsgaders ook de moorse basaar
+[single] soude konnen commandeeren
+[single] soo hebben haar hoog Edelhedens
+[single] van Batavia bij hare veel
+[single] gevenereerde letteren van den
+[single] 10=e october anno verleden 't selve
+[single] gelieven te consenteren, omme
+[single] de goede redenen, die in diens
+[single] voorstel sijn gevonden, met die
+[single] bijvoeginge, soo maar den koning
+[single] Collastrij sal genegen gevonden
+[single] werden, het gemelte bergje afte„
+[single] staan, en dus dan met dat werk
+[single] spoedig voort tegaan; daar op
+[single] is 't g'eligeerd opperhoofd, den
+[single] ondercoopman
+== NL-HaNA_1.04.02_2047_0093 | #93 | sides: single | lines: 29
+[single] 39
+[single] heuvel te versoeken
+[single] en bij toestemming schriftelijke
+[single] opdragt zien te verkrijgen
+[single] gelas bij den onig colastrijden onder coopman Sibrandus
+[single] wijlsma met zijn vertrek na
+[single] Cannanoor, soo als de overko„
+[single] mende resolutien, onder dato
+[single] 6=' februarij, en 't bijleggend
+[single] Extract Tannanoors schrijvens
+[single] van den 8=' d:o uijtwijst, ernstig
+[single] gerecommandeerd, bij den
+[single] Collastrijsen koning te onder„
+[single] staan, wie dat die heuvel, seer
+[single] bequaam tot 't opbouwen van
+[single] een nieuwe fortresse, in steede
+[single] van de oude vervallene effectief
+[single] toekomt, dan daaromme versoek
+[single] te doen, en bij toestemminge een
+[single] schriftelijke opdragt, en afstand
+[single] van dat Land aen d' Ecomp:,
+[single] te versoeken, waar op men den
+[single] 20=' februarij van dien vorst
+[single] een ola ontving, waarbij hij die
+[single] plaats
+[single] ed
+[single] 203
+[single] 1a
+== NL-HaNA_1.04.02_2047_0094 | #94 | sides: single | lines: 26
+[single] antwoord vandien vorst dierwegens
+[single] naar herwaarts gesonden, met toesegging
+[single] van dien berg, of eenige andere.
+[single] maar is goed gevonden den genoemde
+[single] heuvel van zijn hoogheijt te versoeken,
+[single] plaats, daar die heuvel, of
+[single] dat bergje, bequaam tot het
+[single] bouwen van een fortresse, gen=t
+[single] Caddelacoenij beloofde afte„
+[single] staan, en dat niet alleen die
+[single] plaats, dan wel een andere die
+[single] d' Ecomp: soude begeren, dat
+[single] ten selven dage in raade over„
+[single] wogen zijnde, goedgevonden is,
+[single] die berg over 't oude fort van
+[single] haar Edele gelegen, van die
+[single] koning te versoeken, met soo
+[single] veel Land daarom- her, als d'
+[single] Ecomp: niet alleen tot 't bou„
+[single] wen van een nieuwe fortresse
+[single] sal benodigd zijn, maar ook
+[single] soo veel ruijmte rondom deselve
+[single] als met een der grootste stucken
+[single] canon, sal konnen beschoten
+[single] werden, of wel de geheele breette
+[single] van
+== NL-HaNA_1.04.02_2047_0095 | #95 | sides: single | lines: 26
+[single] 40
+[single] welkers lengte, en breete hier
+[single] nevens beschreven staat.
+[single] nader antwoord van sijn hoogheijt hier
+[single] van den berg, gerekent van de
+[single] spruijt af, die benoorden deselve
+[single] gelegen is, tot aen de klapperthuijn,
+[single] die ten zuijden van gemelte berg
+[single] legt, mitsgaders de lengte van
+[single] de zee, afgenomen tot landwaarts
+[single] in, van 't begin des gemelte
+[single] berg 3000: mallabaarse Cobidos,
+[single] ende daar van aen d' Ecomp:
+[single] te passeren een kopere ola, waar
+[single] bij blijken mag, de wettigheijt van
+[single] die gifte, tot voorkominge in't
+[single] toekomende van alle disputen
+[single] :
+[single] dog een nader ontvangen ola van
+[single] op luijdende van een heel andere toon, desen vorst, op 11=e maart, in't
+[single] overkomend inlands dag register
+[single] op desen datum ingelijft, luijdde
+[single] van een geheel andere, en vrij
+[single] flauwer toon, soo als ook het
+[single] Cannanoors schrijvens van
+[single] den
+== NL-HaNA_1.04.02_2047_0096 | #96 | sides: single | lines: 26
+[single] zeggende sonder bewilliging sijner
+[single] princen, geen afstand konde doen
+[single] ten thuijn was, die hun voornaamste
+[single] tempel is toegeweijd.
+[single] den 7=' derselver maand dicteerde,
+[single] en soo goed als open, door den
+[single] tolk aen't opperhoofd overreijkt,
+[single] sonder dat niet tegenstaande
+[single] dien vorst, andermaal om
+[single] positie bescheijt hadde laten ver„
+[single] soeken, 't hier maar op uijt quam,
+[single] dat hij zig eerst met de princen,
+[single] en stenden des rijks, daar over
+[single] moeste beraden, temeer, dewijl
+[single] de klapperthuijn, onder of aen
+[single] de voet van dat bergje hunne
+[single] te meer vermits onder aen dien berg voornaamste pagood, daar
+[single] ontrent staande, toegewijd, en
+[single] eijgen was, met verdere bijvoe„
+[single] ginge, dat hij in allen gevalle
+[single] geen ander antwoord konde
+[single] geven, soo lang niet zag, dat
+[single] gemaintineerd wierd tegens sijne
+[single] vassalen, die hem de inkomsten
+[single] en
+== NL-HaNA_1.04.02_2047_0097 | #97 | sides: single | lines: 31
+[single] 411
+[single] tegens sijn vijanden wierd bewesen, sig
+[single] niet anders konde uijtten
+[single] afstant te doen, 't opperhooft wijlsma
+[single] versekert.
+[single] en geregtigheden onthielden,
+[single] en dat soo lang hem geen maintenue denoterende daarmede wel voor„
+[single] namentlijk den moorsen regent
+[single] der basaar Adergia, waar op
+[single] toen al van gedagten wierden,
+[single] dat'er van dat bergje niets vallen
+[single] soude, alsoo het cannanoors
+[single] opperhoofd ons mede bij zijn schrij„
+[single] vens als versekerde, hem voor de
+[single] waarheijt berigt was, dat die
+[single] thuijn aende pagood gehoorde
+[single] en zijn hoogheijt niet bevoegd, nog
+[single] vermogens was deselve aftestaan,
+[single] zijn ho=ts onmagt om van dat land mitsgaders dat de verdere voor„
+[single] gewende, of mondelinge over een
+[single] kominge alleenlijk 't oog maad
+[single] hadden gehad, om een brave trek
+[single] te doen, door middel van een
+[single] ruijmschotige schenkagie, alsoo
+[single] een kleentje daar weinig in
+[single] Comparatie
+[single] ahe
+[single] 63
+[single] 3
+== NL-HaNA_1.04.02_2047_0098 | #98 | sides: single | lines: 30
+[single] waaromme men daar over geen
+[single] verdere movementen heeft laten
+[single] doen
+[single] haar Edele agtb:, tot batavia is
+[single] ter kennisse gebragt.
+[single] Comparatie scheen te sullen
+[single] konnen komen, in opsigte der
+[single] afstand, en overgave van den
+[single] selven berg; daaromme ook geen
+[single] nadere movementen door ons
+[single] dierwegens gedaan zijn, als
+[single] alleen maar 't opperhoofd
+[single] Wijlsma te gelasten exactelijk
+[single] te inquireeren, of dese zaak
+[single] ook anders gelegen is, en of den
+[single] koning ook de magt heeft, ofte
+[single] wel mogt verkrijgen, die hoogte,
+[single] navolgens ons versoek te konnen
+[single] afstaan, dan daar van de
+[single] vereijschte kennisse tot ons
+[single] welk gepasseerde tot dus verre aen narigt te geven, zijnde dit het
+[single] gene, dat men ook hierwegens
+[single] tot dus verre aen haar Edele
+[single] Agtbare de Hoge Regeeringe
+[single] van Nederlands India tot
+[single] Batavia
+[single] men
+[single] can
+[single] be
+[single] te
+== NL-HaNA_1.04.02_2047_0099 | #99 | sides: single | lines: 30
+[single] 42
+[single] men ontving kort daar na een
+[single] cannanoorse brief, waarbij die
+[single] bediendens meenden Carla al verkregen
+[single] te hebben.
+[single] wat hun bewogen heeft sulx te
+[single] geloven.
+[single] Batavia in dato 25=' maij
+[single] passato eerbiedig heeft bedeeld,
+[single] Dog den 7=e Junij daaraen
+[single] ontving men van daar een
+[single] briev gedagtekent 31= maij te
+[single] voren, waarinne de Canna„
+[single] noorse dienaren vermeijnden
+[single] daar dien heuvel Carla al vast
+[single] hadden, om dat den regeerende
+[single] Collastrijsen Prins Coenje-
+[single] oma, uijt den huijse Palicolang
+[single] tot Cherrecka eijndelijk bewo„
+[single] gen was geworden, den bewuste
+[single] berg, of heuvel Carla tot het
+[single] adstrueren eener nieuwe for„
+[single] tresse aen d' Ecomp: in vollen
+[single] eijgendom aftestaan, tot fonda„
+[single] ment allegerende, de ola bij
+[single] 't opperhoofd wijlsma, van den
+[single] soo genoemden prins ontvangen,
+[single] daar
+[single] een
+[single] a
+== NL-HaNA_1.04.02_2047_0100 | #100 | sides: single | lines: 27
+[single] doende met eenen versoek om de nodige
+[single] ordres wegens 't nemen van possessie,
+[single] en 't aflangen van een regaaltje. —
+[single] alles omstandig bij de overgaande
+[single] resoluties ingeschreven, en te
+[single] beschouwen
+[single] daar nevens met eenen ook al
+[single] versoek doende, omme op 't spoe„
+[single] digste met de nodige ordres ge„
+[single] munieerd te mogen werden
+[single] niet alleen belangende het nemen
+[single] van possessie, maar ook wegens
+[single] het regaaltje ten dage der formele
+[single] overgave, teekeninge, en verwis„
+[single] selinge der olas van afstand
+[single] daar wegens tedoen, en daar
+[single] bij nog wel voornamentlijk
+[single] hoedanig dat sij het daar met
+[single] de provisionele besettinge best
+[single] souden stellen, soo als uw
+[single] Hoog Edele groot agtbare
+[single] gebeden werden, gelieven te beschou„
+[single] wen, uijt de overkomende
+[single] resolutien onder dato 8= Iunij
+[single] jongstweken, waarinne ook
+[single] ingelijft gevonden werd de ola,
+[single] die

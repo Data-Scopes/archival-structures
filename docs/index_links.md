@@ -180,6 +180,17 @@ other single-page scan), and a target's `back` may be the next `single` side. `r
 texts and without duplicates. On the VOC Generale Missiven gold (step 22b) neither option brings the map near bar F: N adds
 4 points, S none (`reports/phase-16-voc-generalisation.md`).
 
+**VOC folio-map options (phase 17).** Five more opt-in `FolioMapParams` fields, all off by default (outputs of `FolioMapParams()`
+and `FOLIO_MAP_V2` unchanged; checked against `HEAD` on SG inventory 3444). `pick_by_chain`: each side with two or more number
+candidates takes the one closest to a first-pass chain (the mode decision still uses the first candidate). `tie_keep`
+(`"first"`/`"last"`, with `tie_window`, default 3): of equal numbers at most `tie_window` positions apart only the first or last is
+kept before the longest increasing chain. `clean_tol`: interior chain points further than `max(clean_tol, step)` from the line
+through their neighbours are dropped (up to 3 rounds, chains of at least 5 points). `pieces` (with `piece_min`, `piece_slope`):
+secondary chains outside the main chain's span are kept in `FolioMap.pieces`, and `locate` falls back to them (method
+`piece_printed`/`piece_interpolated`) when the main result is None or `extrapolated`. On the GM gold (dev, 1,833 anchors) pick,
+first and clean 3 lift the leaf share from 0.679 to 0.715; pieces and a wider extrapolation add nothing
+(`reports/phase-17-voc-rules-v1.md`, step 23c).
+
 ## L8 (VOC, phase 16)
 
 `extract_locators(line, VOC_LOCATOR_PARAMS["L8"], folio_range=...)` is for the lines of a VOC table of contents (*Register der
@@ -189,3 +200,28 @@ brieven*), where the folio number leads an entry ("288 a 291. Copie ...") or sta
 rules on the line. Numbers outside the chain range +-6 are dropped. New `LocatorParams` fields `lead_pattern` and
 `standalone_pattern` default to `""`; L1-L7 are unchanged. Step 22d: with oracle TOC sides, test E 274/433 = 0.633 against
 0.90 (`fails on VOC`); known gaps: the connectors "à" and " / ", dots before the range end, and "verso" after it.
+
+## VOC TOC detector (phase 17)
+
+`index_pages.toc_sides(side_texts, side_scan_index, cfg)` flags the page sides of a VOC table of contents, which is a
+one-column handwritten list and not a two-column printed index. A side is flagged when its scan lies in the front
+`window` (default 60 scans) and either it has at least `min_lines` lines of which the share that are, lead with or end in a
+folio number or range (`fol`) plus the share that start with a date (`date`) is at least `toc_min`, or a register title
+(*regist*, *inhoud*, *indice*, *index*) occurs in its first five lines (`title`). An optional `amount_max` blocks ledger
+sides (guilders, `transport`, `debet`). `fill_runs` with `gap` then bridges short holes. `front_index_run(...,
+min_after_frac=0.5)` scales the tail requirement to the volume length (`min(min_after, ceil(0.5 n))`), which the 300-side
+default cannot meet for short volumes. Step 23d selects the cell on the 22 GLOBALISE volumes and tests it on fresh labels
+(`reports/phase-17-voc-rules-v1.md`).
+
+## L9 and the monotone filter (phase 17)
+
+`VOC_LOCATOR_PARAMS["L9"]` is L8 plus the range connectors `à`, ` / ` and 2-3 dots (`. . .`), `verso` after either end,
+a trailing range at the line end (`trail_pattern`, e.g. "... Dito - - - „ 656 a 668 verso") and a lone number after a run
+of dashes or dots (`trail_num_pattern`). `L9g` adds `guard_before` / `guard_after`: a number found by the L7 fallback is
+dropped when the text before it ends in `dato`, `den`, `tot`, `primo`, `ulto`, `anno` or a month, or the text after it
+starts with a month (years, day numbers). L8 output is byte-equal to phase 16 (`l8check`). `monotone_mask(numbers)` marks the
+members of a longest non-decreasing subsequence of a TOC's locators in reading order; apply it per volume over the TOC
+sides' lines and drop the masked locators. Dev (22 GLOBALISE volumes, 22b map): E 0.545 (L8), 0.606 (L9), 0.641 (L9g),
+0.816 (L9g + mono). Fresh gold (step 23e): bars L and E are not met (`reports/phase-17-voc-rules-v1.md`). Known gaps: a
+connector of four dots, a middle range with `„` as connector, a lead number followed by dashes and text, entry numbers
+("No 14.") read as folios on pages that carry no folios.

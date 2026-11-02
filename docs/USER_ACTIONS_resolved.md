@@ -1281,3 +1281,41 @@
   index reads 637 (HTR 697) and folio 637 has the matter. Gold left frozen; recorded as F15-21a.8 and F15-21a.9 in
   `reports/phase-15-index-links-v2.md` (*After the review: user check*), `reports/index.md`, the phase-15
   `STATUS.md`/`PROGRESS.md` and `plan/CONTEXT.md` §4.
+
+### UA-059 Check 9 GM gold anchors the folio map disagrees with (2026-11-01, from phase-16 step 22b)
+- **Action:** Open `reports/data/phase-16-voc-generalisation/step-22b/check_page.html` in a browser (9 items; each shows image crops of the top of the scan before the gold, the gold scan, the scan after it and the predicted scan, where the folio number is written, plus Nationaal Archief viewer links; crops added 2026-11-01 and need an internet connection). For each, say which scan carries folio N: the gold scan, the predicted scan, another scan, or cannot tell. Press Export and save `check_verdicts.json` in the same directory. Run: `open reports/data/phase-16-voc-generalisation/step-22b/check_page.html` (from the AS root).
+- **Options:** (a) do the check (about 10 minutes) (b) skip
+- **Default if unanswered:** the Bar F numbers stand as measured; the share of misses that are gold noise stays an estimate from my reading (9 of 70 read misses).
+- **Blocks:** nothing.
+- **Response:** done
+- **Resolved 2026-11-01:** `check_verdicts.json` exported 11:56 UTC. The user's verdicts on the 9 anchors: the folio map's scan 6, another scan 2 (1363 at 0131; 1630 unsure), cannot tell 1 (2018), the gold scan 0. The GM gold is wrong in 7 of 9 (F16-R.7); in 3 items a smaller sheet lies on a larger one whose number shows (F16-R.8). Joined into `reports/data/phase-16-voc-generalisation/step-22b/check_result.tsv` (`summarise_check.py`), written up in `reports/phase-16-voc-generalisation.md` § *After the review: user check (UA-059)*, findings in `reports/index.md`. Bar F still fails (at most +5/904); the gold is not edited. The checked anchors feed phase 17 as dev data.
+
+### UA-060 Which phase to plan after phase 16 (2026-11-01, from the phase-16 review)
+- **Action:** Decide which phase the next Opus planning session plans. Write the letter in **Response**.
+- **Options:**
+  - (a) **VOC rules v1:**
+    - a `¬` break set (a new layer version);
+    - a VOC folio map that uses the side layout and numbering mode and handles restarts, with a bar on a checked GM subset (UA-059 first);
+    - a one-column TOC detector with a ledger guard;
+    - L8 v2.
+    Each needs fresh gold, because the phase-16 test splits are spent.
+  - (b) **2.10.50:** a third archive (4 inventories local), the user's deferred choice from phase-16 planning.
+  - (c) **SG index links v3:** image-checked locator gold, the G1 fix, entries as units plus `marginalia` (CONTEXT §4, from phase 15).
+
+  Recommended: (a). Phase 16 measured exactly where each SG rule breaks on VOC (F16-22e.1/.2), and the VOC gold and layer are already in place.
+- **Default if unanswered:** the next planning session asks you at its start; nothing is planned until then.
+- **Blocks:** planning of phase 17 only.
+- **Response:** a
+- **Resolved 2026-11-01:** phase 17 is **VOC rules v1**. Seeded `plan/phase-17-voc-rules-v1/PLAN.md` and `STATUS.md`, added row 17 to `plan/PLAN.md`, and updated `plan/CONTEXT.md` §4 and the phase-16 `STATUS.md`/`PROGRESS.md`. Next: an Opus session plans phase 17 (`plan/PROMPTS.md` §1).
+
+### UA-061 Read 240 folio crops for the phase-17 folio-map test (2026-11-01, from step 23a)
+- **Action:** Run, from the AS root (`/Users/Shared/claude_projects/data_scopes/archival-structures`):
+  `open reports/data/phase-17-voc-rules-v1/step-23a/folio_page.html`. Read the 240 crops (about 30-40 min; type the
+  folio number at the top right of the front sheet, `Enter` saves, `n` = no number, `u` = unreadable), press Export and
+  save `folio_verdicts.json` in `reports/data/phase-17-voc-rules-v1/step-23a/`. Then Run, from the AS root:
+  `.venv/bin/python -I reports/data/phase-17-voc-rules-v1/step-23a/summarise_folio.py`
+- **Options:** (a) do it now - recommended; (b) skip.
+- **Default if unanswered:** bar F (folio map) is not tested on fresh volumes; 23c stops after its dev stage.
+- **Blocks:** the 23c test stage and the phase-17 review.
+- **Response:** done 2026-11-02.
+- **Resolved 2026-11-02:** the user read all 240 crops (in-page IIIF zoom added, Export bug fixed) and ran `summarise_folio.py`: `step-23a/gold/folio_gold.tsv` frozen (109 number, 131 none, 0 unreadable; sha256 7411576…a7af in `SHA256SUMS` and `folio_gold.done`). The 23c test stage is started next.

@@ -1,0 +1,26 @@
+{
+ "cell": {
+  "window": 60,
+  "toc_min": 0.2,
+  "amount_max": null,
+  "gap": 4,
+  "title": true
+ },
+ "dev_TP": 106,
+ "dev_FP": 48,
+ "dev_FN": 80,
+ "dev_P": 0.6883,
+ "dev_R": 0.5699,
+ "dev_F1": 0.6235,
+ "best_dev_F1": 0.6272,
+ "n_candidates_within_0.005": 4,
+ "n_diff_from_defaults": 0,
+ "dev_guard_blocked_sides": 1,
+ "written_at_utc": "2026-11-01T15:29:08+00:00",
+ "VOC_RUN": {
+  "min_flagged": 1,
+  "max_first": 60,
+  "gap": 20,
+  "min_after_frac": 0.5
+ }
+}

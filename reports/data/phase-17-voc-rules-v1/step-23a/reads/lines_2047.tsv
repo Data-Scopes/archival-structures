@@ -1,0 +1,9 @@
+line_id	gold_folios	status	note
+line_0e98eabc-6475-42c1-80ff-87b49c84a1f1		ok	title line of register, no folio
+bdd124ce-e5d4-4fef-b75b-6247eda6e837	5	ok	range 5 - 87
+e62c7751-bfe8-41d3-bbe5-fce42e9e3897	235	ok	folio 235 a 241 on same entry
+line_660d7b4c-1c03-488d-883d-993a25e88190	292	ok	folio column; 292 for Chettuwa letters
+cddba2ce-c3ff-4b06-8c98-fda0dcf60f82	297	ok	inline 300 is range end; letter starts 297
+line_3321477e-3410-4f6d-bc6f-caddeba23488		ok	item number 4 of dispatch list, no folios
+line_101f5677-de60-49c9-bc95-20c4ba75bf3c		ok	item numbers 15-18, no folios
+line_05653998-c40c-4929-81ab-1ca57ac5cc26		ok	item numbers only, no folios

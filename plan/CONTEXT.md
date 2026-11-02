@@ -4,9 +4,9 @@
 > Implementation sessions do not read it: a brief copies in the facts it needs from here. Each phase
 > review updates it, so briefs start from the code as it is, not as it was planned. Keep it under
 > ~150 lines. History belongs in the phase `PROGRESS.md` files.
-> **Last updated:** 2026-11-01, review of phase 16 (Opus); trimmed to budget.
+> **Last updated:** 2026-11-01, review of phase 17 (Opus).
 
-## 1. Text layer v2–v5 and index links: what exists now (after phase 16)
+## 1. Text layer v2–v5 and index links: what exists now (after phase 17)
 
 - **CLI:** `.venv/bin/as-build-text-layer --preset <key> --pagexml-dir D --out-dir O --stage all` (extract → layout →
   types → units → wbc → join; each stage alone too; `--*-params` JSON merged over the preset). 1.10.94 needs
@@ -21,7 +21,8 @@
   `index_entry` `SG_INDEX_ENTRY_V5B` (`hand:index_start`, `hand:index:<cues>`). Not in any preset (bars failed):
   `hand_column_split` (`pieces`, `reorder`), E5. New fields are left out of `to_dict` when `None`. **VOC** (phase 16):
   `VOC_1_04_02_V5SG` (`voc_1.04.02_v5sg`) = SG v5 with archive plumbing only (`VOC_SOURCE_PATTERN` `<inv>.zip`, no
-  inventory-keyed pins); no VOC-tuned rules exist.
+  inventory-keyed pins). **Phase 17:** `VOC_1_04_02_V6` (`voc_1.04.02_v6`) = v5sg + `wbc_pinned` `-=„¬` (join bar
+  missed, 56/60; layer kept, not published). No other VOC-tuned rule passed a bar.
 - **Build** (`text_layer/modes.py`): pre-pass → `decide_mode` → `mode/<inv>.json` → extract with the mode's rules;
   stages skip current inventories and broken chains. Run kit `scripts/run_text_layer_v4_full.py` (`--src`, `--rebuild
   ARCHIVE=F`, coreshare, `--version {v4,v5}`); `scripts/stage_text_layer_v4_full.py`.
@@ -34,7 +35,9 @@
   - published, never rebuilt (D17): `text_layer_v2` (= `15i-b`), `text_layer_v3` pilot (= `15n-a`), `text_layer_v4`
     pilot (= `15y-b`), `text_layer_v5` pilot (= `19e-a`, UA-046 (a));
   - VOC dev layer `data/text_layer_voc_22a/1.04.02/NL-HaNA_1.04.02_text_layer_v5/` (link to T7_Data, 567 volumes: 545
-    GM + 22 GLOBALISE, 6.0 GB, audit 0 judged; inputs `data/text_layer_voc_inputs/`); NLP's v1 at `data/voc_text_layer_v1`.
+    GM + 22 GLOBALISE, 6.0 GB, audit 0 judged; inputs `data/text_layer_voc_inputs/`); NLP's v1 at `data/voc_text_layer_v1`;
+    VOC v6 `data/text_layer_voc_23b/1.04.02/NL-HaNA_1.04.02_text_layer_v6/` (same 567, upstream identical to 22a);
+    fresh VOC `data/text_layer_voc_23a/` (40 volumes, v5sg; inputs `data/text_layer_voc_inputs_23a/`).
 - **Audit:** `reports/data/phase-13-register-index-volumes/step-19e/audit.py --layer <base> --out F` (read
   `n_fail_judged`); comparer `phase-12-…/step-15v/compare.py`; phase-09 `planning/` metrics (`compare`, `protect`).
 - **pagexml-tools 0.9.1** pinned (`>=0.9.1`, `MIN_PAGEXML_TOOLS` (0, 9, 1), 20a); both `assign_column_roles` workarounds
@@ -47,7 +50,9 @@
   L1–L7 in `SG_LOCATOR_PARAMS`, `volume_links` (v1); `read_side_lines`, `side_reading_order`, `assemble_entries` A1–A3,
   `entry_locators`; `volume_links_v2` + `V2_CONFIG` = A0 + L7 + `FOLIO_MAP_V2`; phase 16, off by default:
   `FolioMapParams.single_foliation` (no effect on scan-level leaves), `read_volume_inputs(…, number_tags=)`, L8 +
-  `VOC_LOCATOR_PARAMS` for one-line TOC entries); builder `scripts/build_index_links.py
+  `VOC_LOCATOR_PARAMS` for one-line TOC entries; phase 17, off by default: `FolioMapParams` `pick_by_chain`, `tie_keep`/
+  `tie_window`, `clean_tol`, `pieces`; `index_pages.toc_sides` + `TOC_SIDES_DEFAULTS` (one-column TOC rule, first 60
+  scans); `front_index_run(min_after_frac=)`; L9/L9g in `VOC_LOCATOR_PARAMS`, `monotone_mask`); builder `scripts/build_index_links.py
   --version {v1,v2}`; `docs/index_links.md`. v1: dev `data/index_links_dev/20r-a/`, full run `data/index_links_full/`
   (412 volumes, 902,031 links); v2: dev `21d-a/` (41 volumes), full run `data/index_links_full_v2/` (UA-056; 412 volumes,
   879,672 links; G1 drops the chain start in 11 volumes, F15-21d.8). Neither published (UA-053 a, UA-057 a).
@@ -116,16 +121,29 @@ index flags are SG's (1 of 186 TOC scans). Folio map, index-side detector and in
   range; ledger pages look like index pages to the SG detector (F16-22c.2/.4). `toc_gold.tsv` and the GLOBALISE CSVs
   have up to 4 rows per scan (F16-R.1). Gold: `reports/data/phase-16-voc-generalisation/planning/` (dev/test by
   inventory, seed 20261031; 2775 planner-seen); the GM and TOC test splits are now spent.
+- **VOC fresh volumes (phase 17).** 24 + 16 reserves drawn from the 4,394 OBP volumes outside the 567
+  (`phase-17…/planning/fresh_volumes.tsv`). 21 of 24 open with a register TOC (scans 3–11; 1–87 pages); 42% of TOC
+  pages are numbered enclosure lists without folios (`loc=no`); 15% of register lines name a folio; registers can name
+  folios beyond the volume (2538). `¬` is a hyphen in ~92% of joins, else a line-end filler; 9,525 `¬` sit at unit
+  ends. All `step-23a/gold/` is spent (TOC, links, and the user's folio gold: 109 numbered of 240 scans; 111 of 124 unnumbered
+  single-page scans are versos of foliated leaves).
 
 ## 4. Open follow-ups for the next phase
 
-**Status 2026-11-01:** phase 16 (VOC) done and reviewed (22r fixed a 22d scorer defect). The next phase is the user's
-choice (UA-060): VOC rules v1, 2.10.50 (4 inventories local; deferred by the user at phase-16 planning), or SG index
-links v3. Other candidate archive named by the user: 2.10.01.
+**Status 2026-11-02:** phase 17 (VOC rules v1) reviewed, 23c addendum done: no bar passed (`¬` 56/60, D, L, E, F 0.725).
+v0.22.0 recommended. Later candidates: 2.10.50 (4 inventories local), SG index
+links v3, 2.10.01.
 
-**From phase 16** (report *Follow-ups*): a VOC break set with `¬` (new layer version, D17; F16-22a.5); a VOC folio map
-that uses the side layout and numbering mode, handles restarts and volume-start extrapolation, with a bar on a checked
-GM subset (F16-22b.4/.5, F16-R.3/.4; UA-059 open); a one-column TOC detector with a ledger guard and `min_after` scaled to
+**From phase 17** (report *Follow-ups*): VOC locators with a page-level folio cue (does this TOC page carry folios?)
+before a leading number is read, plus four-dot / `„` connectors and lead-number-then-dashes (F17-23e.3/.5), tested on
+new link gold sampled on `loc=yes` pages with ≥ 60 gold folios (F17-R.2); TOC features for dated summary registers and
+enclosure lists, or a decision that `loc=no` lists are not index sides (F17-23d.3, F17-R.1); a `¬` filler rule
+(F17-R.3); VOC unit order, now also for `¬` at unit ends (F17-R.5); a folio map that answers from the numbering local to a scan's neighbours before a global chain (18 of 30 image-gold misses
+are ties, restarts or a second numbering; F17-23c.10), on new image gold.
+
+**From phase 16** (report *Follow-ups*; phase 17 took the first four, see above): a VOC break set with `¬` (new layer version, D17; F16-22a.5); a VOC folio map
+that uses the side layout and numbering mode, handles restarts and volume-start extrapolation, and layered sheets (one scan, two
+folio numbers), with a bar on a checked GM subset (F16-22b.4/.5, F16-R.3/.4/.7/.8; UA-059 done: gold wrong in 7 of 9); a one-column TOC detector with a ledger guard and `min_after` scaled to
 volume length (F16-22c.2/.4/.6); L8 v2 (`à`, dots, "verso" after the range, numbers increasing along the TOC; F16-22d.6)
 with a bar on fresh TOC reads (the GLOBALISE TOC test split is spent); VOC unit order (marginalia/catch-words, F16-22a.7).
 
@@ -180,5 +198,11 @@ REPUBLIC crosswalk from `republic_segmentation_v1` paragraph line ids (455/456).
   **Run every new option or criterion once on dev at planning** to show it can move the measure (F16-R.5). A brief's
   scan-layout assumption is checked on more than the smoke volumes (22b's all-single premise came from 2 volumes; 146 of 567 are openings).
 - **A blocking UA:** the brief says what a step does while it is open (wait, or a diagnostic that spends no held-out gold).
+- **Agent-read gold** (phase 17): step sessions cannot spawn reader agents, so the orchestrator runs them; the rubric names
+  the hard cases before the reads (lists without locators, bare numbers, a locator on a neighbouring line, HTR misreads),
+  so no label rule is set after reading (F17-R.4). Name the text column every rule reads. A "fewer changes" tie rule says
+  what happens when the defaults are in the band. Parallel steps add facts to `STATUS.md` in one line each, and edit the
+  report with Edit only (23c used a script). A stage that regenerates a sampled-read file must not overwrite filled-in
+  read columns (23c's `context` stage blanked the dev reading; rebuilt from the session transcript).
 - **The session publishes AS layers in `shared-data/` itself** (user, 2026-10-27; whether to publish is a Decide UA):
   look, check write access and sibling links, `rm -r` the exact path; after a copy `chmod -R g+w`, `diff -rq`, changelog.

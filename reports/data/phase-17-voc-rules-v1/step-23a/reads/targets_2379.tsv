@@ -1,0 +1,4 @@
+line_id	folio	target_scan	status	confidence	evidence
+line_4b1aab6a-0868-47c1-853c-e7ffe730ef52	789	NL-HaNA_1.04.02_2379_0823	found	likely	Scan prints 789.; Memorie van sodanige Provisien, mineralen door gecommitteerde boekhouders (opneem)
+line_7d9be1e4-edde-41a7-8b37-1034ac2b6af9	773	NL-HaNA_1.04.02_2379_0807	found	sure	Scan prints 173. (=773); Rapport gedaan aan David Joan Bake, extirpatie specerijboomen kleen Ceram
+ea936677-ccd4-4afc-99ac-42ba10ea3611	603		not_found	likely	Scan 637 prints 603. but is mid-text (placcaten, 10 xber 1735); no document starts there

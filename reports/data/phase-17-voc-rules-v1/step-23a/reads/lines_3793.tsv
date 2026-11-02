@@ -1,0 +1,9 @@
+line_id	gold_folios	status	note
+line_911fdeb1-498d-42e0-9834-3d86db05e253		ok	folio 3058 stands on a separate line
+line_341eab66-30a9-4384-9c2c-1d434d11c03f		ok	no folio number on line (dates/text only)
+line_29bfa8d7-991d-4236-bc00-b226c956c122	3081	ok	
+line_7ec4c4f3-c156-41e2-a290-c761fab9febc	3198	ok	
+line_24494525-5b5c-4aa7-817f-5a715a633347	3330	ok	OCR 3380; sequence/printed page is 3330 (to 3333)
+line_3e29d6f1-c668-4421-9ed6-5f188b1d6253		unreadable	lone garbled number "3864", no such page; true number unclear
+line_5aae550d-6112-41ad-aac1-d197ca54d296		ok	date only; number on other line
+line_22f91fcf-8dcf-49cc-9d68-55f808c6e35e	3382	ok	

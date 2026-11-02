@@ -1,11 +1,12 @@
 """Step 22a (phase 16): the VOC preset is the SG v5 preset with only the archive plumbing changed."""
+import dataclasses
 import re
 
 import pytest
 
 from archival_structures.text_layer import io
 from archival_structures.text_layer.presets import (
-    MODE_RULE_FIELDS, PRESETS, SG_1_01_02_V5, VOC_1_04_02_V5SG, VOC_SOURCE_PATTERN, inventory_preset)
+    MODE_RULE_FIELDS, PRESETS, SG_1_01_02_V5, VOC_1_04_02_V5SG, VOC_1_04_02_V6, VOC_SOURCE_PATTERN, inventory_preset)
 
 
 def test_source_pattern_matches():
@@ -43,3 +44,15 @@ def test_rules_unchanged(mode):
     b = inventory_preset(SG_1_01_02_V5, mode)
     for f in MODE_RULE_FIELDS:
         assert getattr(a, f) == getattr(b, f), f
+
+
+def test_v6_fields():
+    a, b = dataclasses.asdict(VOC_1_04_02_V5SG), dataclasses.asdict(VOC_1_04_02_V6)
+    diff = {k for k in a if a[k] != b[k]}
+    assert diff == {"name", "wbc_pinned", "description"}
+    assert b["wbc_pinned"] == {"default": "-=„¬"}
+    assert b["name"] == "NL-HaNA_1.04.02_text_layer_v6"
+
+
+def test_v6_registered():
+    assert PRESETS["voc_1.04.02_v6"] is VOC_1_04_02_V6

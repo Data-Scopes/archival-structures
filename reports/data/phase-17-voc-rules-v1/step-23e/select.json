@@ -1,0 +1,47 @@
+{
+ "variant": "L9g",
+ "mono": true,
+ "map": "SEL22B",
+ "map_params": {
+  "number_pattern": "^\\D{0,3}(\\d{1,4})\\D{0,3}$",
+  "foliation_recto_share": 0.9,
+  "min_chain": 3,
+  "extrapolate": 6,
+  "edge": 6,
+  "bands": [
+   3,
+   10
+  ],
+  "jump_k": null,
+  "jump_c": 10.0,
+  "dup_window": null,
+  "gap_slack": null,
+  "opening": false,
+  "single_foliation": false,
+  "single_slope": 1.5,
+  "pick_by_chain": false,
+  "tie_keep": null,
+  "tie_window": 3,
+  "clean_tol": null,
+  "pieces": false,
+  "piece_min": 10,
+  "piece_slope": [
+   0.5,
+   3.0
+  ]
+ },
+ "sel23c_equals_sel22b": false,
+ "dev_F1": 0.6699,
+ "best_dev_F1": 0.6722,
+ "dev_E": 0.8161,
+ "dev_hits": 901,
+ "dev_n": 1104,
+ "dev_coverage": 0.5682,
+ "candidates_within_0.005": [
+  "L9g|True|SEL22B",
+  "L9|True|SEL23C",
+  "L9g|True|SEL23C"
+ ],
+ "n_cells": 12,
+ "time_utc": "2026-11-01T16:12:09+00:00"
+}

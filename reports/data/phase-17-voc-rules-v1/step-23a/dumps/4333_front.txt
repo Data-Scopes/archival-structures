@@ -1,0 +1,5755 @@
+== NL-HaNA_1.04.02_4333_0001 | #1 | sides: single | lines: 1
+[single] 4311
+== NL-HaNA_1.04.02_4333_0002 | #2 | sides: recto | lines: 21
+[recto] ze
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Houtwerk
+[recto] 4 Caab 1789
+[recto] duij
+[recto] aar de Caap
+[recto] Schip
+[recto] nde beken
+[recto] Onderhebbend
+[recto] dik
+[recto] 1113
+[recto] de Vare
+[recto] Gestr Heer
+[recto] van
+[recto] ofte aan de
+[recto] eleen
+[recto] de
+[recto] dend
+[recto] van
+[recto] abo
+== NL-HaNA_1.04.02_4333_0003 | #3 | sides: recto | lines: 24
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Houtwerkenal
+[recto] 4 Caab 1789
+[recto] Pr t Schip t duijfge
+[recto] de Caap
+[recto] ende
+[recto] ze
+[recto] Onderhebbend
+[recto] de
+[recto] ne
+[recto] bi
+[recto] 109
+[recto] di
+[recto] 1071
+[recto] de Vare dat
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] , ofte aan de
+[recto] eleer
+[recto] d
+[recto] dend
+[recto] 1zo
+[recto] de Ridder
+[recto] rt
+== NL-HaNA_1.04.02_4333_0004 | #4 | sides: recto | lines: 61
+[recto] „gende Houtwerken
+[recto] Register der Brieven
+[recto] en Papieren van de Caab.
+[recto] overgekomen 1789. —
+[recto] Vierde Deel.
+[recto] 1021. . . . . 1022. Register der papieren
+[recto] 1023. . . . 1034 Origineele missive van den gouverneur benevens
+[recto] den Raad aan de verg: van H: in dato 3 July
+[recto] 1789.
+[recto] verklaring der Deks officieren vant schip
+[recto] Doggersbank wegens ontstaane brand en
+[recto] Eenstapels kamer, nevens
+[recto] -- . Een Notitie der in zee geworpene Burskruijt
+[recto] 1037. . . . 1088 reg:t van aen onderkoopman G. P. F. van Rossum
+[recto] aan den gouverneur benevens den Raad ver„
+[recto] zoekende om zijn reijs met t Schip gaternisse
+[recto] te mogen vervolgen
+[recto] Bylaag tot evengeme: regt: gehoorende
+[recto] 1040. . . . . . reg: van den soldaat I F. Wehrlen aan de veri
+[recto] van 17:n verzoekende om zyn huijsvrouw
+[recto] en kind te laaten overkomen
+[recto] Register der papieren per t slands Schip de Am¬¬
+[recto] phitrite
+[recto] 1042. . . . 1044 origineele Missive van aen gouverneur benevens
+[recto] den Raad aan de vergad: van 17:' in dato 27 Iuly
+[recto] 1045. . . . . . Register der papieren
+[recto] 1046 - - . 1048 origineele Miss:e van den gouverneur benevens
+[recto] den Raad aan de verg: van H:r: in dato 3 au„
+[recto] guitus 1789.
+[recto] 1049. . . . 1053 d„o Triplicaat secreete Missive van den gouverneur
+[recto] alleen aan als even in dato 26 Julij 1789.
+[recto] 1054. . . 1055 Copij Secreets Missive van Gen=l en Raaden aan
+[recto] den gouverneur benevens den Raad in
+[recto] Pr t Schip t duijfge
+[recto] naar de Caap
+[recto] 1
+[recto] 4
+[recto] 64
+[recto] Bodem Ontfangen te hebben de vol
+[recto] deeze myne Onderhebbende
+[recto] eteekende bekenne
+[recto] 1071
+[recto] 109
+[recto] heede vare dat
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] , ofte aan de
+[recto] eleene te Com
+[recto] derd zyn heer
+[recto] dende verband
+[recto] ero van geener
+[recto] de ridder
+[recto] 2
+[recto] dato 5 Maij 1789.
+[recto] Colloh
+[recto] 1789.
+[recto] 1041.
+[recto] 1039.
+[recto] 1036.
+[recto] 1035.
+== NL-HaNA_1.04.02_4333_0005 | #5 | sides: recto,verso | lines: 85
+[verso] 1056. . . 1057 Copij Missive van den gouverneur alleen, 1105. . . . . 1102. Origineele Missive van den Indepond t Fiscaal
+[recto] van Lynden in dato 29. aug:s 1729
+[verso] aan den Commandeerende officier van sland
+[verso] Esquader in dato 22 Iulij 1739.
+[verso] 1058. . . . 1859. origineele Missive van den gouverneur bene„ 1109. . . . 1112 dies bylagen
+[verso] „vens den Raad aan de kamer Amstm
+[verso] in dato 27 Iulij 1789.
+[verso] 1060. . . . 1062 origineele Missive van den gouverneur bene„
+[verso] vens den Raad aan de kamer Amsterdam
+[verso] in dato 30 augustus 1789.
+[verso] 1063. . . . . . Copij Missive van den Capt: Licut:t van de pacquet
+[verso] de Faam aan den gouverneur betrekkelijk
+[verso] deszelfs bodem
+[verso] 1064. . . . . . Register der papieren p:r de Ian en Cornelis
+[verso] 1065. . . . 1073 origineele Missive van den gouvern:r benevens
+[verso] den Raad aan de vergad: van 11: in dato 6 aug:
+[verso] 1674. . . 1075 Rapport der gecommitt: wegens de geborgene
+[verso] goederen uijt het schip 't Drietol Handelaar 1154. -
+[verso] 1076. . . . 1078 acte Interrogatoir omtrent het stranden
+[verso] van meermelde bodem
+[verso] 1079. . . . 3080 Register der papieren per de Saam
+[verso] Declaratoir van den Equipagiemeester C: Cor. 1167.—
+[verso] nelisz over het lang verblijf ter dier Rheede
+[verso] in dato 30 aug:s 1789.
+[verso] nevens
+[verso] 1088. . . . 1089. de Verklaaringen van de scheeps overheeden
+[verso] 1090. - - . . 1098 Origineele secreete Missive van den Gouverneur
+[verso] alleen aan de verg: van H1: in dato 31 aug:s 1739.
+[verso] 1099. . . 1100 cognoscementen vant geladene inde scheepen t
+[verso] Duifje en de Jonge Frank.
+[verso] 1101. . . . 1104 Lynt van de aankomst en het vertrek der scheepen
+[verso] zo van de Compen als vreemde Natien zeedert
+[recto] 1118. . . 1138. generaale Nationaale Rangeerlijst der nog bestemden
+[recto] Infanterie in Indiën in dato 16 aug:s 1789.
+[recto] 1119. . . . 1124 Lyst der officieren en gemeene wegens voor uijt ver„
+[recto] strektt penn: en op de reijs naar Batavia gehort
+[recto] te worden.
+[recto] 1125. . . . 1227 d. o d. . . d. o van't Wurtemburg, Regiment meede
+[recto] weegens voor uytverstrekt penn: om op de reip
+[recto] naar Batavia gekort te worden
+[recto] 1128. . . . 1129 Lyst vant benoodigde ammunitie voor 2 p:s veldstukken
+[recto] a 3 lb
+[recto] 1130. . . 1150 Requesten van eenige Burgerraaden van de Caab
+[recto] nevens de bylaagen aan de verg: van 17' als aan den
+[recto] gouv:r & Raad van de Caab.
+[recto] 1857. - - - - - 1153 origineele Missive van den Gouverneur benevens den Raad
+[recto] aan de kamer Amsterdam ind:o: 3 aug: 1729.
+[recto] Register der papieren per Berkshoven
+[recto] 1855 - - - - 159 originede missive van der gouverneur benevens
+[recto] den Raad aan de vorg: van 17:n in dato 8 Septemb: 1789.
+[recto] 1160. . . . 1162 d:o d:o van als even, aan de kamer amsterdam mnd:e als vor„
+[recto] 1081. . . 1086 origineele missive van den gouvern:r benevens ƒ168. - - . 1164 d.o d:o d:o aan de verg:s van 17:' in dato 9 september 1789
+[recto] den Raad aan de Verg: van 11' in dato 30 Aur 1765. . . . . 1166 d:o d:o van den Collonel de Raymond aan de verg: van 17
+[recto] in dato 5 september 1784. nevens
+[recto] drie Missires van den gouverneur van Ceylon de
+[recto] graaff aan den Cheralier de Raymond omtrend
+[recto] 1168 - - - - . Copie van een Certificaat van verscheide Ingezeetene
+[recto] vant Eyjland Ceyzon aan den Chev: de Raymond
+[recto] 1169. - - - - Copie van een acte gegeeven door den gouverneur
+[recto] van Ceylon van de graaf aan den Cherulier de
+[recto] Raijmond.
+[verso] 1789.
+[verso] gust. 1789.
+[verso] 1087.
+[verso] 22 Maij 1789.
+[recto] zin zoon..
+[recto] deerd zyn
+[recto] dende verband
+[recto] ero van geener
+[recto] de Ridder
+[recto] heer
+[recto] eliene te Com
+[recto] ,ofte aan de
+[recto] van Cabo
+[recto] Gestr Heer
+[recto] scheede Vare dat
+[recto] 107
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende Houtwerkenal
+[recto] deeze myne Onderhebbende
+[recto] teekende bekenne
+[recto] We
+[recto] Pr t Schip t du
+[recto] naar de Caap
+[recto] nevens
+== NL-HaNA_1.04.02_4333_0006 | #6 | sides: recto | lines: 77
+[recto] 1021
+[recto] N„o 2:-
+[recto] in de Geertrui en Patronelle
+[recto] p„r den Johanna Jacobas Origineele Missive van den hallen
+[recto] heer Gouverneur Cornelis Jacob
+[recto] van de Graaf en den raad
+[recto] deezer plaatse aan welongem
+[recto] heeren vonen u Hog Edele
+[recto] door ongem: heer
+[recto] Gouverneur en raad gerigt aan
+[recto] de Edele heeren bewindhebberen
+[recto] der in margine beteekende
+[recto] part Kameren
+[recto] A: Z: - - - - „ 3 Copia authenticq verklaring
+[recto] der dekrofficieren van het schip
+[recto] P=r de Johanna Jacobus
+[recto] Doggersbank wegens ontstane
+[recto] en de Geertruy en petronellen
+[recto] brand in de Constapelskamer
+[recto] door het breeken van een kas
+[recto] verrwolvly, zynde daarbij
+[recto] gevoerd een Copia notitie van
+[recto] de hoeveelheid van Buskruit.
+[recto] die men by die onstandigheid
+[recto] in zee leeft moeten wernen
+[recto] met alle drie de scheinen Pregineele en Kopia korte
+[recto] A: Z: C.
+[recto] facturas van het geladene
+[recto] in brengers deeser de in get
+[recto] scheeven Paternissa de Geertrug
+[recto] Petronella ende vr Johanna„
+[recto] Jacoba, mitsgds: het meede ingeh:
+[recto] schip de Jonge Jacob enf.
+[recto] A: Z: Z: E: — — „ 2
+[recto] met alle drie de scheepen
+[recto] Register van alle zodanige
+[recto] Brieven en Papieren als op
+[recto] huidigen datum van hier
+[recto] werden afgezonden zo aan
+[recto] het Illustre Collegie der Hoog
+[recto] Edele heeren Seeventhienen als
+[recto] aan de Edele heeren Bewindhebber
+[recto] der ondertenoemene particuliere
+[recto] kameren pr de ingeh: holl.
+[recto] partel: scheepen Vaternisse
+[recto] de Peetruyda Petronella
+[recto] en de Johanna Jacoba
+[recto] Pr 't Schip t
+[recto] naar de Caap
+[recto] W
+[recto] 24
+[recto] Bodem
+[recto] ende
+[recto] Hou
+[recto] Ontfangen te hebben de vol
+[recto] ze myne Onderhebbende
+[recto] teekeende bekenne
+[recto] en
+[recto] 1071
+[recto] dik
+[recto] 6
+[recto] 109
+[recto] 1113
+[recto] namentlijk
+[recto] -
+[recto] sheede Vare dat
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] , ofte aan de
+[recto] eliene te Com
+[recto] deid zyn heer
+[recto] dende verband
+[recto] ere van geener
+[recto] de Ridder
+[recto] ert
+[recto] VZ
+[recto] Albertus
+== NL-HaNA_1.04.02_4333_0007 | #7 | sides: recto,verso | lines: 113
+[recto] 1022
+[verso] A: Z:
+[verso] ƒ
+[verso] se op gem: twee scheene
+[verso] soldijC
+[verso] Pr Gaternisseen
+[verso] heertrui en petronella
+[verso] Equipagie
+[verso] Eq
+[recto] p:r Paternisse
+[recto] Pr Paternisse ende
+[recto] Johanna Jacoba
+[verso] A: Z. - - No 5 Copia authenticq Request en
+[verso] bylagen van den onder¬
+[verso] koopman van Rossum
+[verso] versoek doende om zyne ryzen
+[verso] na Nederland te vervolgens
+[verso] „ 6 Origineel
+[verso] _o van den soldaat
+[verso] Jan Jacob Wehrlen aan wee„
+[verso] ingem: heeren seevensheenen
+[verso] gerigt, waarby versoeks per„
+[verso] missie oa zyne huisvrouw en
+[verso] kind herwaards te doen voer
+[verso] koomen
+[verso] A: z. . . . „ 7 nadere Reekening van verstrekte
+[verso] vleeselk aan 'slands oorlog
+[verso] scheepen de Pyl en de
+[verso] Beschermer
+[verso] A: - - - - „ d Beantwoorde Loevy Memories
+[verso] sr de Johanna Jacoba
+[verso] laatst uit & patria ontfangen
+[verso] „ 9 Memorie van den soldyboekhouder
+[verso] do
+[verso] betreffende de promie van
+[verso] eenige manschappen dewelke
+[verso] in den dienst der E Comp: in die
+[verso] der Rheeders van ongemelde
+[verso] keelen zyn overgegaan
+[verso] novens de
+[verso] 0
+[verso] afbetaalde soldyen & aan
+[verso] Een gedeelte der Manschappen
+[verso] van het Luxenburg ze
+[verso] begeven
+[verso] A. Z.
+[verso] P:l de Johanna
+[verso] Jacoba en de
+[verso] Geertruy en
+[verso] petronella
+[verso] „ 11. Onkost Heek:n van de scheepen
+[verso] 1
+[verso] Gaternisse en de Peetruyde
+[verso] Petronella
+[verso] In't Casteel de goede roop den 3 July 1789
+[verso] J: D. Saure
+[verso] gean Clercq
+[verso] Nota nog gaan sub N.o 12 apart gesloten de
+[verso] navoegende briefpaquetten
+[verso] van den Edelen haer
+[recto] Gouverneur van de Graaff
+[recto] alhier
+[recto] Twee brieven met addressen aan de wel Edele
+[recto] Groot Achtb heeren Bewindhebberen
+[recto] ter prosidiate kamer Amsterdam
+[recto] —aan zyne doorlachtige Hoogheid
+[recto] den heer Prince van Orangen en
+[recto] Nas san Erfstad houder && &
+[recto] tot 'S Hage
+[recto] aan de Hoog Edele Gestr. Heer
+[recto] Mr. Sebastiaan Cornelis creder,
+[recto] buay Eerste advocaat van de
+[recto] d: J: Comp: & & te Amsterdam
+[recto] Een _o _o aan de hoog Edel Gest. Heer
+[recto] Mr. Cornelis Kier van Citters
+[recto] hoog Baillen C C d
+[recto] ten Middelburg
+[recto] aan den welEdele Gestr heer
+[recto] 9: C: van Citters in Comp
+[recto] Middelburg
+[recto] Een
+[recto] p. r de Johanna Jacoba
+[verso] Gouverneur
+[recto] Pr 't Schip t
+[recto] aar de Caap
+[recto] W
+[recto] Bodem
+[recto] ende
+[recto] Houtum
+[recto] er
+[recto] tang
+[recto] te hebben de vol
+[recto] hebben
+[recto] 1113
+[recto] _o
+[recto] -0
+[recto] Een
+[recto] Een
+[recto] den
+[recto] dende
+[recto] ere van
+[recto] de rid
+[recto] eert
+[recto] der
+[recto] ban
+[recto] ofte aan de
+[recto] leen
+[recto] van
+[recto] Gestr Heer
+[recto] 60
+[verso] No 2:
+== NL-HaNA_1.04.02_4333_0008 | #8 | sides: recto,verso | lines: 37
+[recto] 1023
+[recto] Patria
+[recto] vindhebberen gecommitteerd ter Illustre
+[recto] adering van Zeventhienen representeerende
+[recto] nerale Nederlandsche g'octroijeerde Oost
+[recto] sche Compagnie ter presidiale Camer
+[recto] e aenten eena
+[recto] Houtwerken
+[recto] Amsterdam
+[recto] WelEdele Erntfeste,
+[recto] Hoog agtb: Hoogwijze,
+[recto] voorzienige en zeer
+[recto] genereuze Heeren
+[recto] Hoog Gebiedende Heeren.
+[recto] Wij hebben de vryheijd genoomen
+[recto] onze jongste onderdanige Letteren
+[recto] van den 23 Mei jongstleeden aan
+[recto] de Ridder
+[verso] Register.
+[recto] uwelEdele
+[recto] naar de Caap
+[recto] Pr 't Schip t duijfje
+[recto] gende
+[recto] Bodem Ontfangen
+[recto] ende bes
+[recto] Onder
+[recto] te hebben de vol
+[recto] hebbende
+[recto] Tot
+[recto] scheede Vare
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] , ofte aan de
+[recto] eliene te Com
+[recto] deerd zyn heer
+[recto] dende verband
+[recto] ero van geener
+== NL-HaNA_1.04.02_4333_0009 | #9 | sides: recto,verso | lines: 43
+[recto] 1023
+[recto] Patria
+[recto] vind hebberen gecommitteerd ter Illustre
+[recto] dering van Zeventhienen representeerende,
+[recto] generale Nederlandsche g'octroijeerde Oost
+[recto] sche Compagnie ter presidiale Camer
+[recto] 1te Hhil: part: scheepen
+[recto] in de Vouwe Johanna Jacoboneula.
+[recto] Amsterdam
+[recto] WelEdele Erntfeste,
+[recto] Hoog agtb: Hoogwijze,
+[recto] voorzienige en zeer
+[recto] genereuze Heeren
+[recto] Hoog Gebiedende Heeren.
+[recto] van
+[recto] Wij hebben de vryheijd genoomen
+[recto] onze jongste onderdanige Letteren
+[recto] van den 23 Mei jongstleeden aan
+[recto] de Ridder
+[verso] Register.
+[recto] uwelEdele
+[verso] ƒ
+[recto] naar de Caap
+[recto] Pr 't Schip t
+[recto] 4
+[recto] Bodem
+[recto] „gende
+[recto] Hout
+[recto] gen te hebben de vol
+[recto] Onder
+[recto] hebbende
+[recto] 111 2
+[recto] Tot
+[recto] -
+[recto] eerde Vare
+[recto] Gestr Heer
+[recto] ofte aan
+[recto] elien
+[recto] de5
+[recto] dende verband
+[recto] ere van
+[recto] Com
+[recto] b0
+== NL-HaNA_1.04.02_4333_0010 | #10 | sides: recto,verso | lines: 48
+[recto] 1023
+[recto] Patria
+[recto] Aan de Wel Edele hoog Agtb: Heeren
+[recto] Bewindhebberen gecommitteerd ter Illustre
+[recto] vergadering van Zeventhienen representeerende,
+[recto] de generale Nederlandsche g'octroijeerde Oost
+[recto] Indische Compagnie ter presidiale Camer
+[recto] ste Hill part: scheepen
+[recto] en de Vrouwe Johanna Jacobonea
+[recto] Amsterdam
+[recto] WelEdele Erntfeste,
+[recto] Hoog agtb: Hoogwijze,
+[recto] voorzienige en zeer
+[recto] genereuze Heeren
+[recto] Hoog Gebiedende Heeren.
+[recto] Wij hebben de vryheijd genoomen
+[recto] onze jongste onderdanige Letteren
+[recto] van den 23 Mei jongstleeden aan
+[verso] Register
+[recto] uwelEdele
+[recto] naar de Caap
+[recto] Pr 't Schip
+[recto] tdi
+[recto] ije
+[recto] 1
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende Hout
+[recto] Onder
+[recto] bete
+[recto] hebbende
+[recto] bi
+[recto] ne
+[recto] 103
+[recto] ik
+[recto] Tot
+[recto] scheede Vare
+[recto] Gestr Heer
+[recto] van
+[recto] ,ofte aan de
+[recto] eleens
+[recto] derd
+[recto] dende verban
+[recto] ere van
+[recto] de
+[recto] der
+[recto] eener
+[recto] om
+[recto] bo
+== NL-HaNA_1.04.02_4333_0011 | #11 | sides: recto,verso | lines: 62
+[recto] 1024
+[verso] UWelEdele Hoog Achtb: te ad„
+[verso] dresseeren per s' Lands Schip van
+[verso] Oorlog de Beschermer en sLans
+[verso] Brik van Oorlog de Pijl, en zúl¬
+[verso] len in hoop dat dezelve voor den
+[verso] aanbreng deezer reeds bij Uwel Edele
+[verso] Hoog Agtb: zullen zijn ontfangen,
+[verso] ons daar aan eerbiedig refereeren,
+[verso] onder pligtschuldige communicatie
+[verso] dat beide die scheepen op den 7 Junij
+[verso] hunne reijze uit Baaij als naar
+[verso] Europa hebben ondernomen. —
+[verso] Bij onze submisse nabrieven
+[verso] per evengemelde Bodems aan
+[verso] UWel Edele Hoog Achtb: plugjt
+[verso] schuldig geadriseerd hebbende de
+[recto] behouden aankomst van de Scheepen
+[recto] Broederlust en Trinconomale, zo
+[recto] zullen wij thans de vrijheid neemen
+[recto] uwelEdele Hoog Achtb: te berich„
+[recto] ten dat op de daar bij vermelde
+[recto] datums al meede in Baaifuls behou„
+[recto] den zijn g'arriveerd de volgende scheepen.
+[recto] als
+[recto] Op den 27 Mei Doggersbank met 4 dooden 12 zieken
+[recto] „ „ „ „ Schaage
+[recto] „ 5 „ 15 „
+[recto] „ 5 Junij Zuijderburg „ 30 „ 30: „
+[recto] Sparen „ geen geen „
+[recto] Wij hebben ingevolge de geeerbiedigde be¬
+[recto] veelen van UWel Edele Hoog Achtb:
+[recto] bij hoogst derzelver gevenereerde Missive
+[recto] van den 2e: Januarij deezes Jaars verval¬
+[recto] Com
+[recto] heer
+[recto] dende verband
+[recto] ere van geener
+[recto] de Ridder
+[verso] behouden.
+[recto] alle
+[recto] Pr 't Schip
+[recto] waar de Caap
+[recto] t
+[recto] d
+[recto] Trijfje
+[recto] „
+[recto] Bodem
+[recto] „gende Houtwerke
+[recto] ntfangen te hebben de vol
+[recto] Onder
+[recto] hebbende
+[recto] dit
+[recto] geede Vare
+[recto] =Gestr Heer
+[recto] van
+[recto] ,ofte aan de
+[recto] eliero
+[recto] rderd
+[recto] bo
+[recto] „ 14 „
+== NL-HaNA_1.04.02_4333_0012 | #12 | sides: recto,verso | lines: 61
+[recto] 1025
+[verso] alle onze pogingen aangewend, om voor
+[verso] melde naar China bestemde Kielen
+[verso] ten spoedigste te depecheeren, en moo„
+[verso] gen het genoegen hebben Uwel Edele
+[verso] Hoog Achtb: te berichten dat de
+[verso] twee eerstgemelde op den 10 Junij en
+[verso] laastgemelde op den 25 dier maand
+[verso] de reijze derwaarts hebben aangenomen,
+[verso] als mede dat de scheepen de Maria
+[verso] Cornelia en Broederlust op den
+[verso] 7 Junij naar Batavia zijn vertrok¬
+[verso] ken, en het schip Trinconomale
+[verso] op den 15 dier maand naar Ceylon
+[verso] is gestevend.
+[verso] Bij deeze voor ons zoo aangenaa„
+[verso] me berichten zullen wij voegen het
+[recto] arrivement op den 27: Mei van
+[recto] s' Lands scheepen van Oorlog de
+[recto] Zephire, de Havik en de Bellona
+[recto] met dewelke alhier is gearriveerd
+[recto] de militaire Commissie tot onderzoek
+[recto] van de staat van defensie in Indien
+[recto] en ten deeze Gouvernemente, aan
+[recto] welke Commissie wij, ingevolge Uwel„
+[recto] Edelens Hoog Achtb: geeerde be„
+[recto] veelen, successivelijk ter hand stel„
+[recto] „len alle zodanige stukken als ter
+[recto] uitvoering van het geen haar is
+[recto] toebetrouwd, worden gerequireerd.
+[recto] In pligtschuldige nakoming van
+[recto] het geen Uwel Edele Hoog Achtb:
+[recto] bij hoogst derzelver welgem:e Missive
+[recto] van Cabo
+[recto] Com
+[recto] heer
+[recto] dende verband
+[recto] ero van geener
+[recto] de Ridder
+[verso] arrivement
+[recto] van
+[recto] waar de Caap
+[recto] Pr t Schip tu
+[recto] Lrijfje
+[recto] 14
+[recto] Bodem Ontfangen te hebben de vol
+[recto] „gende Houtwerken
+[recto] a
+[recto] 1076
+[recto] dik
+[recto] hebbend
+[recto] de
+[recto] Onder
+[recto] 1
+[recto] Egteerde Vare Coot
+[recto] Gestr Heer
+[recto] r, ofte aan de
+[recto] eliene
+[recto] zyn
+[recto] te
+[recto] rder
+== NL-HaNA_1.04.02_4333_0013 | #13 | sides: recto,verso | lines: 59
+[recto] 1026
+[verso] van den 2: Januarij ons verders heb¬
+[verso] „ben gelieven te beveelen, hebben wij
+[verso] uit het schip Doggersbank geene
+[verso] Goederen gelost die voor dit Gouver„
+[verso] nement daar waaren gelaaden, maar
+[verso] aan de Hooge Indiasche Regee„
+[verso] ring toegezonden een Cognossement
+[verso] van alle zodanige behoeftens als
+[verso] daar in waaren afgescheept; als
+[verso] 20000 p:s Graauwe Moppen.
+[verso] 20000 „ Klinkersteenen.
+[verso] 1500 Heele Leggerbanden
+[verso] 1500 „ Aamsbanden
+[verso] 3000 Halve _=o
+[verso] 18 Ankers in zoort.
+[verso] Ankerstokken
+[recto] 1 Vat Klinknagels
+[recto] 3 Oogijzers
+[recto] 138 Staaven Yzer
+[recto] 30 Hoeden Smeekoolen
+[recto] 9 Cassen Zeildoek
+[recto] 1 Cas slootplaaten
+[recto] 15 Vaten Cement
+[recto] 2 „ Pik
+[recto] 2: „ Krijt en
+[recto] 15 rollen Loot.
+[recto] En hebben wij bij dat Cognossement
+[recto] gevoegt Copia van het Factuur
+[recto] waar bij die goederen zijn beree„
+[recto] kend en teffens aan de Hooge
+[recto] Indiasche Regeering pligtschuldig
+[recto] verslag gedaan van de beveelen bij
+[recto] van Cabo
+[recto] r, ofte aan de
+[recto] om
+[recto] dende verband
+[recto] eener
+[recto] de Ridder
+[recto] ons
+[recto] naar de Caap
+[recto] Pr t Schip t duijfje
+[recto] Bodem
+[recto] gende Houtw
+[recto] Onder
+[recto] te hebben de vol
+[recto] hebbende
+[recto] de
+[recto] 1095
+[recto] dik
+[recto] lgteerde Vare dat
+[recto] Gestr Heer
+[recto] eliers
+[recto] zyn
+[recto] der
+[recto] ro van
+[verso] 10
+== NL-HaNA_1.04.02_4333_0014 | #14 | sides: recto,verso | lines: 58
+[recto] 1027
+[verso] ons van Uwel Edele Hoog Achtb:
+[verso] ontfangen.
+[verso] Wij vinden ons genoodzaakt
+[verso] omtrent evengemeld schip Doggers,
+[verso] bank aan Uwel Edele Hoog Achtb:
+[verso] te moeten communiceeren, dat aan
+[verso] boord van 't zelve op den 17 Maart
+[verso] laastleeden in de Constapelskamer
+[verso] brand is ontstaan, veroorzaakt door
+[verso] het breeken van een kelder Vitri„
+[verso] „ool olij, toebehoorende aan den Op„
+[verso] permeester Eldert van Santen,
+[verso] die overal een ontzagchelijke rook
+[verso] en hitte verwekte, zoo als Uwel„
+[verso] Edele Hoog Achtb: zulks des
+[verso] gelievende zullen kunnen zien,
+[recto] Bodem Ontfangen te hebben de vol
+[recto] uit de deeze in Copia Authenticq
+[recto] verzellende verklaaring door de of¬
+[recto] ficieren en deksofficieren ter requi„
+[recto] sitie van den Capitein Christiaan
+[recto] de Cerff gegeeven, waar uit Uwel
+[recto] Edele Hoog Achtb: teffens zullen
+[recto] kunnen ontwaaren, hoe de Opper„
+[recto] hoofden van die Bodem, om alle
+[recto] verdere ongelukken voor te koomen, had„
+[recto] den beslooten het Buskruit zo tot
+[recto] scheepsgebruijk als ter overvoer naar
+[recto] dit Gouvernement daar in afgelaa¬
+[recto] den, overboord te werpen, en zulks
+[recto] blijkens de aan geme: verklaaring
+[recto] geannexeerde Notitie aan 9656 lb
+[recto] verricht, waar onder zich heeft be¬
+[recto] van Cabo
+[recto] r, ofte aan de
+[recto] Com
+[recto] heer
+[recto] dende verband
+[recto] ero van geener
+[recto] de Ridder
+[verso] uit
+[recto] „vonden
+[recto] waar de Caap
+[recto] Pr 't Schip
+[recto] t
+[recto] Tuijfje
+[recto] 4
+[recto] „gende Houtwerken
+[recto] a
+[recto] Onderhebbende
+[recto] dik
+[recto] 1113
+[recto] siueerde Vare dat
+[recto] =Gestr Heer
+[recto] eliene
+[recto] ider
+== NL-HaNA_1.04.02_4333_0015 | #15 | sides: recto,verso | lines: 60
+[recto] 1028
+[verso] bevonden 5000 lb voor dit Gouver„
+[verso] nement bestemd.
+[verso] Voormelde Uwer Wel Edele Hoog
+[verso] Achtb: gevenireerde beveelen, zijn
+[verso] oorzaak geweest, dat den onderteekende
+[verso] independent Fiscaul aan ons heeft ver„
+[verso] klaard, omtrent dit voor de E: Comp:
+[verso] zo schadelijk geval niets te kunnen
+[verso] onderneemen, alzoo de enquesten die
+[verso] hij zou hebben moeten doen, zeeker„
+[verso] lijk een langer verblyf van die Bo¬
+[verso] dem na zich zouden hebben gesleept,
+[verso] en dezelve hier door misschien de
+[verso] reize had kunnen missen, met ver„
+[verso] zoek dat Copia authenticq van
+[verso] voorm: verklaaring mogt worden
+[recto] gesuppediteerd aan de Hooge Indiase
+[recto] Regeering, ten eijnde hun welEdele
+[recto] Groot Achtb: bij arrivement van die
+[recto] bodem te Batavia, aldaar omtrent
+[recto] die zaak door het officie Fiscaal een
+[recto] zodanig onderzoek zouden kunnen
+[recto] laaten doen als hun WelEdele Groot
+[recto] Agtb: zullen vinden te behooren.
+[recto] Nog laaten wij deeze eerbiedig
+[recto] dienen ter pligtschuldige communicatie,
+[recto] dat op eergisteren in Simonsbaaij
+[recto] behouden ten anker zijn gekoomen
+[recto] S'Lands Schip van Oorlog de Am¬
+[recto] phitrite van de Indiën retournee„
+[recto] rende, en het ingehuurd schip de
+[recto] Eens gezindheid voor de Kamer Hor¬
+[recto] „deerd zyn heer
+[recto] dende verband
+[recto] ere van geener
+[recto] der
+[verso] gesuppediteerd
+[recto] sterdam
+[recto] naar de Caap
+[recto] Pr t Schip
+[recto] t
+[recto] 1
+[recto] Bodem
+[recto] „gende Houtwerk
+[recto] tange
+[recto] gen te hebben de vol
+[recto] Onderhebbende
+[recto] e
+[recto] bin
+[recto] 108
+[recto] 1113
+[recto] dik
+[recto] gende Vvanra dot
+[recto] =Gestr Heer
+[recto] van Cabo
+[recto] , ofte aan de
+[recto] cliene
+[recto] de
+== NL-HaNA_1.04.02_4333_0016 | #16 | sides: recto,verso | lines: 60
+[recto] 1029
+[verso] sterdam naar deeze uithoek bestemd„
+[verso] mitsgaders dat op den 5, 8 en 15 der
+[verso] Jongstverloopen Maand Junij, succes„
+[verso] sivelijk in evengemelde Baai zijn bin¬
+[verso] nengeloopen de van batavia in retour
+[verso] aangeligde particuliere scheepen Ga„
+[verso] ternisse, de Geertrui en Petro„
+[verso] nella en de Vrouwe Johanna
+[verso] Jacoba, alle welke zich op morgen in
+[verso] staat zullen bevinden de reijze naar-
+[verso] 't Vaderland te onderneemen.
+[verso] Wij neemen de vrijheid deeze te laa¬
+[verso] ten vergezellen van de origineele en Co„
+[verso] pias korte factuuren van evengemelde
+[verso] Scheepen, tot welkers verzending zich
+[verso] geene andere gelegendheid heeft opge¬
+[recto] daan, en overzulks door ons op de drie
+[recto] scheepen zijn verdeelt geworden. -
+[recto] De twee eerstgemelde voor de Kamer
+[recto] Zeeland repatrieerende, hebben wij ver„
+[recto] meend van die geleegendheid gebruik
+[recto] te kunnen maaken ter verzending
+[recto] van zodanige der Luxemburgse
+[recto] Troupes, als zig hier aanweezend en in
+[recto] staat bevonden om te kunnen vertrek„
+[recto] ken en derhalven op die scheepen on„
+[recto] der hooggunstige welduijding van
+[recto] UwelEdele Hoog Achtb: doen em„
+[recto] barqueeren
+[recto] 2 Luitenants en
+[recto] 38 Zo Onderofficiers als gemeenen Han
+[recto] dus te samen 40 mannen, omtrent welkers betaaling
+[recto] ^van Cabo
+[recto] eze van geener
+[recto] de Zidder
+[verso] „daan
+[recto] waar de Caap
+[recto] Schip
+[recto] uijf
+[recto] „
+[recto] Bodem
+[recto] „gende Houtwerken
+[recto] tfangen te hebben de vol
+[recto] Onderhebbende
+[recto] nne
+[recto] de be
+[recto] 1076
+[recto] 109
+[recto] ingeland
+[recto] eede Vare
+[recto] =Gestr Heer
+[recto] r, ofte aan de
+[recto] cliene te Com
+[recto] zyn heer
+[recto] dende verband
+[recto] e
+[recto] deerd
+[recto] en
+== NL-HaNA_1.04.02_4333_0017 | #17 | sides: recto,verso | lines: 68
+[recto] 1030
+[verso] en verdere behandeling wij bij onze eer„
+[verso] biedige Letteren van heden, ingevolge
+[verso] uwer WelEdele Hoog Achtb: ge„
+[verso] respecteerde beveelen; aan de hoogge„
+[verso] biedende Heeren Bewindhebberen
+[verso] ter kamer Zeeland verslag hebben gedaan
+[verso] Ten aanzien van die troupes zullen
+[verso] wij nog de vrijheid neemen UWelEdele
+[verso] Hoog Achtb: te berichten dat zich
+[verso] niet meerder als 13 Man daar van
+[verso] ten deeze Gouvernemente koomen
+[verso] te bevinden, bestaande in
+[verso] 1 Luitenant Colonel
+[verso] 1 Capiteijn
+[verso] 2 Sergeants
+[verso] 1 Corporaal en
+[recto] welke wij meede bij eerste bekwaame
+[recto] geleegendheid zullen trachten te de„
+[recto] pecheeren, ten eijnde de Edele Maat„
+[recto] schappij te ontheffen van de betaaling
+[recto] van Manschappen, die niets in haaren
+[recto] dienst verrichten.
+[recto] Den Onderkoopman Gualterus
+[recto] Petrús Theodorus van Rossum, met
+[recto] het verongelukt particulier schip
+[recto] T Drietal Handelaars van Bata¬
+[recto] ria alhier aangeland, ter onzer ver„
+[recto] gadering ingedient hebbende een re„
+[recto] quest gemunieerd met een Copia Ex„
+[recto] tract resolutie genoomen in raade
+[recto] van India op den 7 November 1788„
+[recto] bij welk request hij van ons permissie
+[recto] Com
+[recto] heer
+[recto] dende verband
+[recto] geener
+[recto] de
+[recto] idder
+[verso] welke
+[recto] kwam
+[recto] waar de Caap
+[recto] t Schipr
+[recto] „
+[recto] duijf
+[recto] 1
+[recto] Bodem
+[recto] „gende Houtwerke
+[recto] Oontfangen
+[recto] te hebben de vol
+[recto] hebbende
+[recto] bi
+[recto] 109
+[recto] 5
+[recto] 111 a
+[recto] scheerde Vare dat
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] ,ofte aan de
+[recto] elien
+[recto] d
+[recto] zin
+[recto] zyn
+[recto] ere van
+[verso] 8 Gemeenen
+== NL-HaNA_1.04.02_4333_0018 | #18 | sides: recto,verso | lines: 63
+[verso] kwam te verzoeken om met het schip
+[verso] Gaternisse te mogen repatrieeren,
+[verso] zo als Uwel Edele uit het deeze verzellende
+[verso] Copia authenticcq des begeerende zullen
+[verso] kunnen zien; heeft den onderteekende
+[verso] Gouverneur bij de deliberatie over
+[verso] dat verzoekschrift aan ons te kennen ge„
+[verso] geeven, dat hij zich verpligt oordeelde bij
+[verso] die gelegendheid te communiceeren
+[verso] dat hij deezer dagen had ontfangen
+[verso] een Missive door de hooge indiase regee„
+[verso] ring particulier aan hem gericht, be¬
+[verso] trekkelijk tot voornoemde Onderkoop„
+[verso] man van Rossum, waar bij hunne
+[verso] hoog Edelens hem geliefden aan te
+[verso] schrijven, dat vermits gemelde van
+[recto] Rossum buijten hoogst derzelver speci„
+[recto] „aule permissie, en niet tegenstaande
+[recto] de schipper van 't verongelukte Schip
+[recto] Met Drietal Mandelaars gelast
+[recto] was denzelven niet mede te neemen, ech„
+[recto] ter met gemelde Rodem van Batavia
+[recto] was vertrokken en hij Gouverneur
+[recto] gequalificeerd wierd om niet alleen een
+[recto] exact onderzoek te doen op welke wijze
+[recto] gedachte van Rossum met dien Bo„
+[recto] dem van Batavia vertrokken was,
+[recto] en of dies schipper op ordre van iemand
+[recto] buijten hun hoog Edelens, denzelven
+[recto] aan zijn boord hadde overgenoomen,
+[recto] maar ook, om, wanneer er zulk eene
+[recto] ordre gegeeven was, daar van Copijen
+[recto] van Cabo
+[recto] r, ofte aan de
+[recto] eliene te Com
+[recto] eid zyn heer
+[recto] dende verband
+[recto] ere van geener
+[recto] de i
+[recto] idder
+[verso] Rossum
+[recto] waar de Caap
+[recto] Schip
+[recto] uijfge
+[recto] Bodem
+[recto] „gende Houtw
+[recto] deeze
+[recto] Ontfangen te hebben de vol
+[recto] de
+[recto] Onderhebbende
+[recto] ne
+[recto] beken
+[recto] 1095
+[recto] 1113
+[recto] 1733
+[recto] sgteerde Vare dat
+[recto] =Gestr Heer
+[recto] 8
+[recto] rde
+[recto] e
+[recto] te
+== NL-HaNA_1.04.02_4333_0019 | #19 | sides: recto,verso | lines: 61
+[recto] 1032
+[verso] te ligten en onder overzending derzelver,
+[verso] zo wel aan de Hooggebiedende Hee¬
+[verso] ren Bewindhebberen ter kamer Am¬
+[verso] sterdam, voor wien dat schip in retour
+[verso] was aangelegt, als aan hunne Hoog¬
+[verso] Edelens ten eerste van het resultaat
+[verso] van dat onderzoek kennis te geeven;
+[verso] en hebben wij ten dien aspecte in aan„
+[verso] merking genoomen dat deeze aan¬
+[verso] schrijving slechts in zich behelsde
+[verso] een onderzoek, op welke wijze gedachte
+[verso] van Rossum, buijten speciaal consent
+[verso] van haar Hoog Edelens, zich hadden
+[verso] durven emancipeeren de reize met
+[verso] meergem: schip T Drietal Han„
+[verso] delaars na Nederland te onderneemen,
+[recto] zonder dat hun Hoog Edelhedens aan
+[recto] ons eenige ordre of qualificatie gaven,
+[recto] om den voorsz: van Rossum alhier
+[recto] aan te houden, veel min naar Batavia
+[recto] wederom op te zenden, waar bij gevoegd
+[recto] zijnde dat indien het facheus opgeval
+[recto] die Bodem alhier overgekomen, niet
+[recto] hadde geexteerd, gedachte van Rossum
+[recto] zich als dan aan deeze Regeering niet
+[recto] hadde behoeve te addresseeren om
+[recto] permissie te erlangen tot het voort„
+[recto] zetten zijner reijze met een andere
+[recto] Bodem; en heeft, na dat het een en an¬
+[recto] deren in naauwe overweeging was ge¬
+[recto] noomen, de meerderheid van onzen
+[recto] raad geoordeeld, dat men in geene deele
+[recto] dende verband
+[recto] geener
+[recto] der
+[verso] zonder
+[recto] bevoegd
+[recto] waar de Caap
+[recto] Pr 't Schipr
+[recto] du
+[recto] uijfje
+[recto] Bodem
+[recto] gende Houtwerke
+[recto] En
+[recto] tange
+[recto] te hebben de vol
+[recto] Onderhebbende
+[recto] besen
+[recto] 164
+[recto] 11 3
+[recto] eseede Vare
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] , ofte aan de
+[recto] elien
+[recto] rdeerd
+[recto] ero van
+[recto] de
+[recto] heer
+[recto] Com
+== NL-HaNA_1.04.02_4333_0020 | #20 | sides: recto,verso | lines: 59
+[recto] 1033
+[verso] bevoegd was, de ondernoomene reize van
+[verso] meergemelde van Rossum uit hoofde
+[verso] van voorsz: aanschrijvens te staaken,
+[verso] en derhalven beslooten, hem passagie
+[verso] te verleenen op het ingehuurd schip
+[verso] Gaternisse, mits- zich omtrent
+[verso] het Transport en Kostgeld gedraa¬
+[verso] gende naar de Chertepartij van
+[verso] die Bodem.
+[verso] Wij neemen de vrijheyd UWel¬
+[verso] Edele Hoog Achtb: ingeslooten.
+[verso] aan te bieden den Requeste door den
+[verso] soldaat Jan Jacob Wehrlen aan
+[verso] UWelEdele Hoog Achtb: gericht,
+[verso] waar bij hij hoogst dezelve ootmoe¬
+[verso] dig smeekt aan zijne Huijsvrouwe
+[recto] en dochtertje permissie te verleenen
+[recto] met een van s' E: Comp:e Scheepen
+[recto] herwaards over te vaaren, en alzoo die
+[recto] Man door zijn onbesprooken gedrag
+[recto] en nijverheid zich die hooge gunst
+[recto] van UWel Edele Hoog Achtb: niet
+[recto] onwaardig heeft gemaakt, zoo meenen
+[recto] wij niet te mogen afzijn van Uwel
+[recto] Edele Hoog Achtb: nedrig te
+[recto] verzoeken, op zijn gedaan Suppliecq
+[recto] een favorabel reguard te willen
+[recto] slaan: —
+[recto] Deeze tot dus verre vervaardigt
+[recto] zijnde, ontfangen wij bericht uit Si„
+[recto] „monsbaai dat op gisteren aldaar behou„
+[recto] den is gearriveerd het particul: Schip
+[recto] Com
+[recto] om
+[recto] dende verband
+[recto] ere van
+[recto] der
+[recto] naar de Caap
+[recto] t Schi
+[recto] Po
+[recto] tu
+[recto] 1e
+[recto] Bodem
+[recto] „gende Houtwerke
+[recto] deeze my
+[recto] Ontfangen te hebben de vol
+[recto] toekende bekenne binn
+[recto] Onderhebbende
+[recto] 1095
+[recto] 178
+[recto] beteede vare
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] ,ofte aan de
+[recto] eliene
+[recto] rdeerd
+[recto] e
+[verso] en
+== NL-HaNA_1.04.02_4333_0021 | #21 | sides: recto,verso | lines: 58
+[recto] 1034
+[verso] de Jonge Jacob en Albertus op den
+[verso] 23 April van Batavia vertrokken den 3 Julij 1789. —
+[verso] en den 29:' uit Straat sunda
+[verso] gezeijlt, volgens nevensgaande kort
+[verso] factuur belaaden voor de Camer
+[verso] Amsterdam.
+[verso] Hier meede besluijtende, bevee„
+[verso] len wij Uwe WelEdele Hoog
+[verso] Agtb: benevens de dierbare belangens
+[verso] der E: Comp=e in de veilige Hoede
+[verso] Godes en noemen ons met de
+[verso] volmaakste Eerbied. -
+[verso] Wel Edele Erntfeste Hoog
+[verso] agtb: Hoogwijze voorzienige,
+[verso] zeer Genereuse en Hoog.
+[verso] Gebiedende Heeren!
+[recto] Int Castee de Goedestoop Uwe Wel Edele Hoog agtb: zeer
+[recto] ootm: getze: en gehoorzd: Dienaaren
+[recto] J: N: P: van Lijnden.
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] Reede Van Duetshoorn
+[recto] de Ridder
+[recto] C. S: Vanden Graaff
+[recto] Thenius
+[verso] uwe
+[recto] J. V. Se Sieur
+[recto] waar de Caap
+[recto] t Schipr
+[recto] t
+[recto] uijfje
+[recto] „
+[recto] Bodem
+[recto] „gende Houtwer
+[recto] En
+[recto] tfangen
+[recto] te hebben de vol
+[recto] Onderhebbende
+[recto] nde
+[recto] ebeke
+[recto] binn
+[recto] no
+[recto] 109
+[recto] aren
+[recto] beheerde Vare (dat
+[recto] ,ofte aan de
+[recto] dliere
+[recto] zy
+[recto] zyn
+[recto] dende verband
+[recto] re van
+[recto] ded
+[recto] heer
+[recto] Com
+[recto] ner
+== NL-HaNA_1.04.02_4333_0022 | #22 | sides: recto,verso | lines: 56
+[recto] Wij ondergeteekende officieren
+[recto] alle bescheiden op 't Edele Oost:In¬
+[recto] dische Compagnie schip Doggers„
+[recto] bank verklaaren ter requisitie
+[recto] van den Manhaften Heer Chris„
+[recto] tiaan de Cerff, Capitain van
+[recto] meergemelde Bodem.
+[recto] Dat wij op dingsdag den zeventienden Maart
+[recto] deezes Jaars 1789 zeylende op de Nooderbreed te
+[recto] van twintig graaden twintig minuten en gegiste
+[recto] lengte van drie hondert zes en vyftig graaden
+[recto] en vier en twintig minuten, in de voormiddag
+[recto] rapport uit de Constapelskamer bekomen heb¬
+[recto] bende, van Brand in dezelve te zijn, het welke
+[recto] wij bevonden veroorzaakt te weezen door het
+[recto] breeken van een kelder Vitricol=olij, toebe„
+[recto] hoorende aan den oppermeester Eldert van
+[recto] santen, waar door een ontzaggelijke rook en
+[recto] brandende hitte, zig over al waar het zelve
+[recto] heen liep vertoonde, waar op wij direct alle de
+[recto] goederen uit de Constapelskamer op dekhaalden
+[recto] en vermits er een groot gedeelte van meerge¬
+[recto] melde vitriool olij in 't scherpgat was geloopen.
+[recto] waar door een groote rook uit het zelve op¬
+[recto] kwam, het welk opstond wel is teeg gehaald
+[recto] dog de rook hoe langs hoe meer uit het scherp¬
+[recto] gat aanneemende, onder den anderen hebben
+[recto] goedgevonden en verstaan om alle verdere onge¬
+[recto] lukken voor te komen en deeze zoo dierbaare
+[recto] Bodem en aanvertrouwde zielen niet verder te
+[recto] risiqueeren
+[verso] No 1.
+[recto] S
+[recto] naar de Caap
+[recto] Sch
+[recto] :„
+[recto] gende Houtwerken
+[recto] tangen te hebben de vol
+[recto] Onderhebbende
+[recto] ende bekenne
+[recto] 6
+[recto] 1173
+[recto] 1035
+[recto] Bodem
+[recto] scheede Vare
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] ofte
+[recto] elier
+[recto] deerd
+[recto] „sende
+[recto] ere van
+[recto] 6
+[recto] de
+== NL-HaNA_1.04.02_4333_0023 | #23 | sides: recto,verso | lines: 48
+[verso] risiqueeren, al het kruijd over boord te werpen,
+[verso] het welk terstond is ten uitvoer gebragt, uitge„
+[verso] nomen drie vaatjes, welke wij raadsaam vonden
+[verso] te behouden, en in Capiteijns Kamer te bergen;
+[verso] blijvende de rook bij na Even sterk tot midder¬
+[verso] nagt aanhouden, waar na dezelve verminderde
+[verso] en geheel verdween, en hielden den geheelen
+[verso] nagt bij 't scherpgat de wagt
+[verso] Verklaaren wij het bovenstaande de zuijvere
+[verso] en waaragtige waarheid te zijn, geevende wij
+[verso] voor reedenen van wetenschap, het zelve onder¬
+[verso] vonden en bijgewoont te hebben gelijk als in
+[verso] den text breeder is vermeld, bereijd zijnde
+[verso] zulx ten allen tijde met solemneele Eede
+[verso] /:onderstond:/
+[verso] Actum in zee, dato als boven /:was getekent:/
+[verso] Als Capn. Lieutenant Lodewich Haak, als
+[verso] Luijtenant H: Scheene, als sous Luitenant
+[verso] Harmanus Voogd, dis is 't hand=teeken van
+[verso] Jacob Coense + als bootsman, als Schieman
+[verso] Andris Westerman, als Constapel (: A: Bon¬
+[verso] hart.
+[verso] Accordeert
+[verso] :: Fause
+[verso] Gezu Clercq
+[verso] te bevestigen
+[recto] naar de Caap
+[recto] sch
+[recto] 2
+[recto] 1
+[recto] Bodem
+[recto] gende Houtwerk
+[recto] gen te hebben de vol
+[recto] de
+[recto] hebbende
+[recto] onder
+[recto] 103
+[recto] scheede Vare dat
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] ,ofte aan de
+[recto] eliene
+[recto] dende
+[recto] ero van
+[recto] de Ridder
+[recto] e
+== NL-HaNA_1.04.02_4333_0024 | #24 | sides: recto | lines: 43
+[recto] 1036
+[recto] Copia
+[recto] Notitie van 't kruyt
+[recto] voor 't Schip'doggersbank
+[recto] ontfangen 50 vaten a 100 lb ijder voor de Caab
+[recto] gemk: H
+[recto] ..
+[recto] Idem voor de rijs
+[recto] 5000 lb
+[recto] 5200„
+[recto] generalen ontfang 10200 lb
+[recto] 319 lb
+[recto] waar van gebruijkt-
+[recto] in 't schip gehouden 2 vaatjes
+[recto] â 100 lb ijder 1 a 25 lb.
+[recto] 225 fo
+[recto] 544 p
+[recto] die over boord geworpen 9656 lb:e
+[recto] Gestr Heer
+[recto] Accordeert.
+[recto] J:D: Faure
+[recto] gizen Clrcq
+[recto] naar de Caap du
+[recto] ende
+[recto] Bodem
+[recto] Hout
+[recto] te hebben de vol
+[recto] hebbende
+[recto] 1182
+[recto] .
+[recto] .-
+[recto] -
+[recto] de Vare
+[recto] van
+[recto] ofte
+[recto] n
+[recto] zi
+[recto] dende
+[recto] ere van
+[recto] de Ridder
+[recto] Cabo
+[recto] dat
+== NL-HaNA_1.04.02_4333_0025 | #25 | sides: recto | lines: 20
+[recto] waar de Caap
+[recto] Pr 't schip t du
+[recto] Bodem
+[recto] ende Hout
+[recto] te hebben de vol
+[recto] Onderhebbende
+[recto] 1113
+[recto] scheede Vare dat
+[recto] Gestr Heer
+[recto] van Cabo
+[recto] , ofte aan de
+[recto] eliere
+[recto] dende ver
+[recto] ere van
+[recto] de rid
+[recto] er
+[recto] ban
+[recto] zyn heer
+[recto] om
+== NL-HaNA_1.04.02_4333_0026 | #26 | sides: recto,verso | lines: 47
+[recto] 1037
+[recto] Aan den wel Edelen Ge¬
+[recto] „strengen Heer Cornelis
+[recto] Jacob van de Graaff gou¬
+[recto] verneur en Directeur van
+[recto] Cabo de Goede Hoop en den
+[recto] Cressorte van dien &a: &a: &a:
+[recto] benevens den Edelen Achtb:re
+[recto] Politicquen raad;—
+[recto] Wel Edele Gestrenge Heer:
+[recto] 62
+[recto] Edele Achtb: Heeren;
+[recto] Geeft eerbiediglijk te kennen Gual¬
+[recto] terus (Petrus Theodorus van
+[recto] Rossum, onlangs met het in Simons b„
+[recto] braij gestrand Particulier Schip het
+[recto] drietal Handelaars alhier aan
+[recto] „geland, hoe de Hoge Jndiasche regee„
+[recto] „ring te Batavia bij welderselver
+[recto] besluit van 7 November des afgewee„
+[recto] kene Jaars 1788 goed gevonden heb„
+[recto] „ben, den Suppliant wegens zee,
+[recto] kere aldaar voorgevallene affairen
+[recto] ridder
+[recto] onder
+[verso] N3.
+[recto] Copia
+[recto] waar de Caap
+[recto] Pr t Schip t duijfge
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende Hout
+[recto] 10
+[recto] Onderhebbende
+[recto] bes
+[recto] 1113
+[recto] de Vare dat
+[recto] Gest Heer
+[recto] van
+[recto] , ofte aan de
+[recto] eleen
+[recto] dende verband
+[recto] r van
+[recto] ide
+[recto] heer
+[recto] Cabo
+== NL-HaNA_1.04.02_4333_0027 | #27 | sides: recto,verso | lines: 69
+[recto] 1038
+[verso] onder afschrijving van gage met een der te
+[verso] vertrekken staande Compagnies retour Schee„
+[verso] „pen naar Nederland op te zenden, van Welke
+[verso] dispositie de Suppliant de vrijheid neemd
+[verso] uwel Edele gestrenge en E: Achtb Copia
+[verso] hier nevens aan te bieden:—
+[verso] Dat den Suppliant vervolgents order
+[verso] bekomen en zig bereids waardig bevonden
+[verso] hebbende, met het toen zeijlree leggend schip
+[verso] de Standvastigheid te vertrekken
+[verso] daar op nader bij zijn Hoog Edelheid
+[verso] wierd gerequireerd, van wien den supp:t:
+[verso] bevel ontving, tot een nader onderzoek
+[verso] aldaar te moeten overblijven, waar aan
+[verso] door den Supp:t: plichtschuldig voldaan
+[verso] zijnde, is hij eijndelijk in de nood¬
+[verso] zakelijkheid gebracht geworden, als
+[verso] te Batavia geen Lource hebbende om
+[verso] langer te kunnen subsisteeren,
+[verso] op zijne private kosten, met op„
+[verso] gemelde particuliere Bodem het
+[verso] Drietal Handelaars naar
+[verso] Europa te Vertrekken; —
+[verso] Reedenen om welke den Sup¬
+[verso] „pliant uwel Edele Gestrengeen
+[verso] E Achtb: bij deezen zeer nedrig
+[recto] Suppliseerd dat Hoogst dezelve aan hem
+[recto] vrijheid gelieven te geeven, om met
+[recto] het in Baaijf als te vertrekken staande
+[recto] in gehuurd Schip Gaternisse zijne
+[recto] reijze te vervolgen. /onderstond/
+[recto] T welk doende: & a / was get G: P: F: van Rossum
+[recto] de Vare dat
+[recto] Accordeert
+[recto] D D. Faure
+[recto] gelenclarcen
+[recto] Pr 't Schip
+[recto] waar de Caap
+[recto] t
+[recto] 1
+[recto] 2
+[recto] 11
+[recto] Bodem
+[recto] gende Houtwerk
+[recto] tfangen te hebben de vol
+[recto] Onderhebbende
+[recto] ne
+[recto] beteent
+[recto] 118 a
+[recto] Gestr Heer
+[recto] van
+[recto] ,ofte aan de
+[recto] eliers
+[recto] dende
+[recto] eze van
+[recto] de rid
+[recto] der
+[recto] rband
+[recto] heer
+[recto] n
+[recto] zyn
+[recto] te
+[recto] om
+[recto] Cabo
+== NL-HaNA_1.04.02_4333_0028 | #28 | sides: recto | lines: 60
+[recto] ier
+[recto] 61
+[recto] 1039
+[recto] Extract uit de Notulen
+[recto] van het geresolveerde in raade
+[recto] van Jndia
+[recto] op
+[recto] den 7 November 1788
+[recto] Op een request van den onderkoopman Gual
+[recto] therus Petrus Theodorus van Rossum
+[recto] dat mede mogt worden ingetrokken het be„
+[recto] „sluit der regeering van den 31 October, waar
+[recto] by hy op peene van Correctie in geordonneert
+[recto] is om direct te antwoorden op alle zoda
+[recto] „nige Vraag poincten als het officie fis„
+[recto] „caal hem zouden voorhouden, omtrent
+[recto] zyne stellige Positien voorkomende by
+[recto] het door hem ter sessie van den 18 deer
+[recto] maand gediend bericht, weegens de Exami
+[recto] natie en bevinding der Nagelen inde
+[recto] Westzydsche Negotie pakhuizen, is Ver„
+[recto] staan den gem van Eossum uit hoofde van
+[recto] zyndes obedient gedrag, met een der Eers
+[recto] „daags te Vertrekkene Comp scheepen naar
+[recto] Neederland op te zenden onder afschryving
+[recto] zyner gagie van heden af, en hem ongeagt
+[recto] deeze dispositie te ordonneeren om als
+[recto] nog Immediaat zonder eenige Verdere
+[recto] delaij te voldoen aan het op gem besluit
+[recto] deeser regeering van den 31' October J L.
+[recto] en dienvolgende te antwoorden op alle zo¬
+[recto] danige Vraagpoincten als hem ter zaake
+[recto] voorschreeve
+[recto] naar de Caap
+[recto] t
+[recto] Pr 't Schip
+[recto] gende
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Hout
+[recto] nde bekenne
+[recto] Onderhebbende
+[recto] 6
+[recto] 103
+[recto] dik
+[recto] eVare dat
+[recto] Gestr Heer
+[recto] van
+[recto] , ofte aan de
+[recto] eleeno
+[recto] ndeed
+[recto] dende
+[recto] ere van
+[recto] Ridder
+[recto] ban
+[recto] er
+[recto] te Com
+[recto] 60
+[recto] heed
+[recto] 6„
+== NL-HaNA_1.04.02_4333_0029 | #29 | sides: recto,verso | lines: 28
+[verso] voorschreeve door den Fiscaal zullen
+[verso] voorgehouden worden /onderstond/.
+[verso] Accordeert /was geteekend / P G van over
+[verso] strate Seretaris /in margine stond/
+[verso] nagezien /geteekend J P Karseboom
+[verso] Accordeert
+[verso] J: S: Saure
+[verso] wezerleveq
+[recto] Pr 't schip t
+[recto] aar de CaapW
+[recto] 2
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende Houtwer
+[recto] i
+[recto] Onderhebbende
+[recto] ende besie
+[recto] 1118
+[recto] cheede Vare dat
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] r, ofte aan de
+[recto] cleere te Com
+[recto] zyn
+[recto] dende
+[recto] ere van
+[recto] de Ridder
+[recto] 6
+== NL-HaNA_1.04.02_4333_0030 | #30 | sides: recto,verso | lines: 53
+[verso] No. 5.
+[recto] repraesenteerende de General Nee„
+[recto] derlandsche Foctroyeerde Oast Indische
+[recto] Compte ter prosediale Camer
+[recto] Aan de Wel Edele Hoog Achtb: Heeren
+[recto] Bewindhebberen, Gecommitteerd ter
+[recto] Illustre vergadering van Seeventienen
+[recto] Pt Amsterdam
+[recto] Wel Edele, Erntfeste,
+[recto] Hoog Achtb: Hoog wijse,
+[recto] Voorzienige en zeer
+[recto] Genereuse Heeren,
+[recto] Hoog Gebiedende Heeren!
+[recto] Het is met de uiterste gevoelens van Eerbied
+[recto] dat uwe Wel Edele Hoog Achtb: allerneedrigste
+[recto] dienaar Jan Jacob Wehelen van Straatsburg
+[recto] de vixheid neemd te kennen te geeven;
+[recto] Dat hy Supplt in den Iaare 1787 alhier aan
+[recto] Cabo de Goede Hoop, en qualiteit als soldaat,
+[recto] met 't schip Berkhout g'arriveert en tot heeden
+[recto] nog beschoiden zynde, zig by deszelfs vertrek uit scheede vare dat
+[recto] Europa genoodzaakt heeft gezien, zyne huis
+[recto] d
+[recto] vrouw Eva Margaretha Petri en dogterssen 6„
+[recto] Margaretha Magdalena Wehrlen genaamd
+[recto] aldaar agter te laaten
+[recto] Daar hy supplt egter teegenswoordig, als
+[recto] geene geneegenheid, om von als nog  deesen uite
+[recto] hoek te verlaaten, gevoelende zeer gaarne,
+[recto] gem: zyne huisvrouw en dogtersse ter deeser
+[recto] plaatse by zig verlangt te hebben, als vermeenenden
+[recto] Pr 't Schip tu
+[recto] aar de Caap
+[recto] 1De
+[recto] Bodem Ontfangen te hebben de vol
+[recto] gende
+[recto] Ho
+[recto] 1040
+[recto] Thenius
+[recto] Onderhebbende
+[recto] 118
+[recto] al
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] r, ofte aan de
+[recto] cleene te Com
+[recto] dende
+[recto] ere van
+[recto] de
+[recto] ridder
+[recto] an
+[recto] nder
+[recto] d.n
+== NL-HaNA_1.04.02_4333_0031 | #31 | sides: recto,verso | lines: 53
+[verso] Cabo de Goede Hoop
+[verso] den May 1789 —
+[verso] door deszelfs kleedermakers ambagt genoeg„
+[verso] zaam in staat te zyn, deselve behoorlyk te
+[verso] kunnen, onderhouden; zoo keerd deselve
+[verso] zig zeve naar alvoorens de gunstige permissie de
+[verso] zer Regeering hier toe te hebben g'obtineerd:/ zeer
+[verso] ootmoedig tot uwe WelEdele Hoog Achtb: op
+[verso] 't eerbiedigst imploreerende dat hoogst deselve
+[verso] wel van die goedheid gelieven te zyn, aan ged=e
+[verso] zyne huisvrouw en dogtertje by bekwamen
+[verso] geleegenheid transport herwaards te verleenen,
+[verso] s terwijl hy suppl=t volkoomen is bereid zig te
+[verso] submitteeren aan zodanige bepalingen, als
+[verso] uw Ed: Hoog Achtb: hieromtrend zullen ge=
+[verso] lieven te bevaaren.
+[verso] De suppl=t neemd veregens de vigheid, na zig
+[verso] in uwe Wel Edele Hoog Acht 6: zeer veel vermo„
+[verso] gende protectie te hebben aanbevoolen, met
+[verso] de opregste geveelens van eerbied te zyn„
+[verso] Wel Edele Erntfeste
+[verso] Hoog Achtb: Hoog wijze,
+[verso] voorzienige zeer
+[verso] Genereuse en Hoog
+[verso] Gebiedende Heeren!
+[verso] Uwer WelEdele Hoog Achtb: zeer
+[verso] onderdanige en gehoorzaame dien aan
+[verso] J Schrlen
+[recto] waar de Caap
+[recto] Pr t Schip
+[recto] Bodem Ontfangen te hebben de vol
+[recto] gende Houtwerk
+[recto] in
+[recto] ende beken
+[recto] Onderhebbende
+[recto] dik
+[recto] 1118
+[recto] scheede Vare dat
+[recto] eGestr Heer
+[recto] van Cabo
+[recto] ir, ofte aan de
+[recto] cliere te Com
+[recto] deerd zyn heer
+[recto] dende verband
+[recto] ere van
+[recto] e
+[recto] 6„
+[recto] d
+[recto] de Ridder
+[recto] eert
+[recto] eener
+== NL-HaNA_1.04.02_4333_0032 | #32 | sides: recto | lines: 62
+[recto] 1041
+[recto] A: Z: H: E. „ 2
+[recto] Register van alle zodanige
+[recto] brieven en papieren als onder
+[recto] huidegen datum van hier
+[recto] werden afgezonden zo aan
+[recto] het Illustre Collegie der hoog
+[recto] Edele Heeren Seeventhienen
+[recto] als aan de Edele heeren be
+[recto] wind hebberen der ondertenden
+[recto] mene particuliere kameren
+[recto] p:r 'slands schip van Oorlog
+[recto] d' Amphitrite Namentlyk
+[recto] N 2. No Origineele Missive door den Edelen
+[recto] heer gouverneur Cornelis
+[recto] Iacob van de Raak en den
+[recto] raad deeser plaatse aan wel
+[recto] opgem: Hoog Edele Heeren
+[recto] Zeventhienen gerigt
+[recto] _o door wel opgem
+[recto] heere gouverneur en raad ge
+[recto] consigneerd aan de Edele
+[recto] heeren Bewindhebberen
+[recto] der in margine betekende
+[recto] particuliere kameren
+[recto] _ door welgem: Edelen
+[recto] heer gouverneur apartgerigt
+[recto] aan den welEdele Gestr: heer
+[recto] Mr Sebastiaan Cornelis
+[recto] Nederburg eerste advocaat
+[recto] dan de generale Comp waar
+[recto] in beslooten eene missive
+[recto] aan wel op gem: heeren zeventhienen
+[recto] „4 Duplicaat
+[recto] Aan als vooren
+[recto] de Ridder
+[recto] waar de Caap
+[recto] P t Schp
+[recto] 6
+[recto] F
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende
+[recto] Houtwer
+[recto] teekeende bekenne
+[recto] Onderhebbende
+[recto] eede Vare dat
+[recto] Gestr Heer
+[recto] van
+[recto] r, ofte aan de
+[recto] leene te Com
+[recto] hee
+[recto] ban
+[recto] nr
+[recto] ere van
+[recto] dende
+[recto] ndeerd zyn
+[recto] e
+[recto] 6
+[recto] Cabo
+[recto] A:
+== NL-HaNA_1.04.02_4333_0033 | #33 | sides: recto,verso | lines: 42
+[verso] op den 3 deeser van hier aan
+[verso] hoogst ged:e heeren Seventhienen
+[verso] afgezonden pr de particuliere
+[verso] scheepen Gaternisse de geer
+[verso] huis en Petronella en de
+[verso] Johanna Jacoba met dies
+[verso] bylaagen volgens register
+[verso] N3 Onkostreekening van het geene
+[verso] ten deesen gouvernementen
+[verso] aan opgem: Kiel is verstrekt
+[verso] In't Casteel de Goede Hoop den 27 Julij 1734.
+[verso] Goedr
+[verso] A
+[verso] Copian korte factuuren van het geladene
+[verso] te Batavia in de scheepen de dapper
+[verso] heid en de Jan en Cornelis.
+[recto] scheerde Vare dat
+[verso] HS
+[verso] D: Eg Clercq.
+[verso] A:
+[verso] apart gesloten
+[recto] naar de Caap
+[recto] Pr t Schip t
+[recto] „
+[recto] 1770
+[recto] 9
+[recto] Bodem
+[recto] Houtwerken
+[recto] Ontfangen te hebben de vol
+[recto] Onder
+[recto] hebbende
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] ir, ofte aan de
+[recto] elier
+[recto] ndeerd zyn heer
+[recto] dende verband
+[recto] ere van
+[recto] de zidder
+[recto] nr
+[recto] te Com
+[recto] 6
+== NL-HaNA_1.04.02_4333_0034 | #34 | sides: recto,verso | lines: 41
+[recto] 1012
+[verso] Register
+[recto] Aan de Wel Edele Hoog Achtb heeren bewind hebbenen
+[recto] nen depresenteerende de generale nederl: geoctroyjeerde
+[recto] Oost Indische Compes ter presidiale Camer
+[recto] Pr Sandschipen verlog
+[recto] de Amptihite
+[recto] Bodem Ontfangen te hebben de vol
+[recto] aende Houtwer
+[recto] Patria
+[recto] Amsterdam
+[recto] WelEdele Erntfeste
+[recto] Hoog Achtb Hoog, wijze
+[recto] Voorzienige en zeer
+[recto] Genereuse Heeren
+[recto] Hoog Gebiedende Heeren:
+[recto] erdeerd
+[recto] Wy neemen de vryheid deeze te laaten
+[recto] vergezellen van het duplicaat onzer
+[recto] Eerbiedige Letteren sub dato 3 deezen
+[recto] aan uwel Edele Hoog Achtb gericht
+[recto] heer
+[recto] ydende verband
+[recto] eener
+[recto] der
+[recto] per
+[recto] naar de Caap
+[recto] Pr t Schip
+[recto] duij
+[recto] boo
+[recto] ende
+[recto] Onderhebbende
+[recto] scheerde Vare dat
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] er, ofte aan de
+[recto] „eliene
+[recto] 6„
+[recto] ere van
+[recto] rid
+[recto] te Com
+== NL-HaNA_1.04.02_4333_0035 | #35 | sides: recto,verso | lines: 58
+[recto] 1043.
+[verso] per de particuliere ingehuurde Scheepen
+[verso] Saternisse, de Geertruij en Petronetla
+[verso] en de Johanna Iacoba die te
+[verso] zaamen op den 7 dier maand hunne
+[verso] reijze naar Nederland hebben aan
+[verso] genoomen-
+[verso] Intiasschen is op den 10e. deeser
+[verso] ter rheede van Baay Fals behoir„
+[verso] den gearriveerd 'sComp Schip de
+[verso] Juffrouw Johanna 't welk
+[verso] van den 25 Maart tot den 3 April
+[verso] te S:t Jago heeft moeten ver
+[verso] toeren, en gedurende de reize
+[verso] 3 man van desselvs Equipagie
+[verso] heeft verlooren.
+[verso] de komst van die bodem
+[recto] op den 11 deeser gevolgt geworden zijn
+[recto] de door die van de Pacquetboot de
+[recto] Vlijt zo neemen wij de vrijheid Uwel
+[recto] Edele Hoog Achtb: daar van plicht
+[recto] schuldig kennis te geeven, onder
+[recto] eerbiedige Communicatie dat, dat
+[recto] scheepjes ingevolge de gevenereerde
+[recto] ordres door uwel Edele Groot Achtbb
+[recto] geëmaneerd op den 18 deezer gemon
+[recto] „sterd geworden en den 20: naar
+[recto] Batavia is vertrokken. -
+[recto] Nog hebben wij het genoe„
+[recto] gen uwel Edele Hoog Achtb: te
+[recto] moogen melden de behouden
+[recto] aankomst op den 20 deezer
+[recto] van de ingehuurde Scheepen
+[recto] ndeerd zyn heer
+[recto] dende verband
+[recto] ero van geener
+[recto] der
+[verso] op
+[recto] waar de Caap
+[recto] Pr Satj
+[recto] W
+[recto] Bodem
+[recto] aende
+[recto] Houtwerken
+[recto] Ontfangen te hebben de vol
+[recto] de bes
+[recto] Onderhebbende
+[recto] tekende
+[recto] 1076
+[recto] dik
+[recto] scheerde Vare dat
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] er, ofte aan de
+[recto] cleere
+[recto] 63
+[recto] te Com
+[recto] de zid
+== NL-HaNA_1.04.02_4333_0036 | #36 | sides: recto,verso | lines: 62
+[recto] 1044
+[verso] de Dapperheid en de Ian en Cor
+[verso] nelis, Successivelijk op den 4 Mei
+[verso] en 2 April van onrust vertrok
+[verso] ken en op den 8 Mei en 20 april
+[verso] uit straat Sunda gezeild -
+[verso] 'S Lands schip van Oorlog de
+[verso] Amphitrite zich heeden gereed
+[verso] vindende desselvs reyze te aanvaar
+[verso] den, zo neemen wij de vryheid deeze te
+[verso] laaten vergezellen van de reekening
+[verso] over het geen aan dat schip blykend
+[verso] Memorie door dies Capitain onder
+[verso] teekend ten deeze Gouvernemente is
+[verso] verstrekt
+[verso] Ook neemen wij de vrijheid ewel
+[recto] Edele Hoog Achtb: aan te bieden de Copias
+[recto] korte Factuuren van het geen te Ba„
+[recto] tavia in voorm: twee particulieren
+[recto] Scheepen de Dapperheid en de Ian
+[recto] en Cornelis is afgelaaden geworden.
+[recto] Heer meede deeze fineerende beveelen
+[recto] wy uwe HoogeAchtb: en de gewigtige„
+[recto] belangen der Edele Maatschappyj en
+[recto] Godes bescherminge en noemen ons
+[recto] met de volmaakste Eerbied-
+[recto] „ er, ofte aan de
+[recto] te Com
+[recto] heer
+[recto] ydende verband
+[recto] eener
+[recto] Ridder
+[recto] van Cabo
+[recto] Wel Edele Erntfeste,
+[recto] Hoog Aehtb:, wel wijze,
+[recto] voorzienige, zeer
+[recto] Genereuse en Hoog
+[recto] Gebiedende Heeren
+[verso] Edelen
+[recto] Uwe
+[recto] waar de Caap
+[recto] Pr 't Schip t
+[recto] duy
+[recto] 1
+[recto] Bodem Ontfangen te hebben de vol
+[recto] „gende
+[recto] ken
+[recto] 1078
+[recto] dik
+[recto] Onderhebbende
+[recto] nde
+[recto] be
+[recto] 1095
+[recto] aan
+[recto] scheerde vare dat
+[recto] e Gestr Heer
+[recto] 67
+[recto] elien
+[recto] erdeeid
+[recto] ere van
+[recto] de
+[recto] -
+== NL-HaNA_1.04.02_4333_0037 | #37 | sides: recto,verso | lines: 42
+[verso] In't Casteel de Goede Hoop
+[verso] den 27 July 1789
+[verso] J:J:
+[verso] Uwer wel Edele Hoog Achtb zeer
+[verso] dotm: getr: en gehoorzame Dienaren
+[verso] C J Vande Graaff:
+[verso] P: S: onder het sluiten deezer ontfangen,
+[verso] wij tyding uit baaijf als dat heeden
+[verso] aldaar is g'arriveerd 's Lands brek
+[verso] van oorlog de Mercuur, zynde den
+[verso] 22 Mei van S=t Iago vertrokken bene„
+[verso] vens 's Lands fregat van oorlog de Phetis
+[verso] en de brikf de Zwaluwe, van welke hy
+[verso] voor vier daagen was afgeraakt, en hebben
+[verso] wy vermeent niet te kunnen zyn uwel
+[verso] Edele hoog Achtb: daarvan plichtschul„
+[verso] J: A: J: Van Lijnden .
+[verso] die kennis te geeven
+[verso] „Thenius
+[verso] J: V: Se Sueur
+[verso] CGGoerier
+[verso] M: J: V: Reede Van Duettshoorn
+[recto] naar de Caap
+[recto] Pr t Schip t
+[recto] 1
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende Houtwerken
+[recto] de be
+[recto] Onderhebbende
+[recto] scheede Vare dat
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] er, ofte aan de
+[recto] eleene te Com
+[recto] zyn heer
+[recto] dende verband
+[recto] ere van geener
+[recto] de zidder
+[recto] erdeerd
+[recto] 6„
+[verso] O
+== NL-HaNA_1.04.02_4333_0038 | #38 | sides: recto,verso | lines: 80
+[recto] ƒ
+[recto] p de scheepen de Jonge
+[recto] Jacob & Albertus, ende
+[recto] Jan en Cornelis
+[recto] A: N:o 1
+[recto] geschreeven aan den Heer
+[recto] Eerste Advocaat Willem Se¬
+[recto] bastiaan Cornelis Nederburg
+[recto] waar in gesloten eene aparte
+[recto] secrete Missive door opgem
+[recto] Gouverneur aan 't Jllustre Col=
+[recto] „legie der Heeren Zeventhienen
+[recto] gerigt.
+[recto] A: E, 3
+[recto] door als evengemeld gericht
+[recto] aan de Edele Heeren Bewind„
+[recto] per de Jan en Cornelis
+[recto] hebberen der ter zyde gemelde,
+[recto] en de dapperheid
+[recto] particuliere Cameren
+[recto] N: 4 Duplicaat -S. door als evengemeld aan
+[recto] voorsch Illustre Collegie onder den
+[recto] 27 July p: s 'slands schip van Oorlog
+[recto] per de Jan en Cornelis
+[recto] de Amphitrite afgegaan.
+[recto] N.
+[recto] in een loode doos¬
+[recto] 30 Noren Albert Jacob
+[recto] 1045
+[recto] Register van alle zodanige
+[recto] brieven en papieren als onder
+[recto] huidigen datum van hier wor¬
+[recto] den afgesonden, zo aan Haar
+[recto] WelEdele Hoog Achtb: de Hee
+[recto] ren gecomitteerde Bewind
+[recto] hebberen, en gevolmagtigdens
+[recto] ter Jllustre vergadering der
+[recto] Heeren Zeventhienen, als aan
+[recto] de Edele Heeren Bewindhel
+[recto] beven der in margine betee
+[recto] kende particuliere kameren
+[recto] per de particuliers ingehuurde
+[recto] Scheepen de Jonges Jacob en
+[recto] Albertus, de Jan en Cornelis
+[recto] en de dapperheid. namentlyk
+[recto] Origineele Missive geschreeven door den
+[recto] Edelen Heer Gouverneur en
+[recto] raad deser plaatse aan wel„
+[recto] Opgemeld Jllustre Collegie
+[recto] geconsigneert.
+[verso] N. 1.
+[recto] naar de Caap
+[recto] Pr t Schip t
+[recto] d
+[recto] 1
+[recto] Bodem Ontfangen te hebben de vol
+[recto] boo
+[recto] ekeende be
+[recto] Onder
+[recto] hebbende
+[recto] dik
+[recto] 71
+[recto] 107
+[recto] scheerde Vare dat
+[recto] d
+[recto] 6„ er, ofte aan de
+[recto] eliene te Com
+[recto] ydende verband
+[recto] eze van
+[recto] e
+[recto] odeerd
+[recto] de Ridder
+[recto] eener
+[recto] heer
+[recto] van Cabo
+[recto] e Gestr Heer
+[recto] -
+== NL-HaNA_1.04.02_4333_0039 | #39 | sides: recto,verso | lines: 69
+[verso] Drie Origineele korte factuuren
+[verso] A: E. N
+[verso] van 't geladene te Batavia
+[verso] met alle drie scheepen
+[verso] in brengers deeses,
+[verso] 6. Copias korte factuuren van 't geladene
+[verso] A: E.
+[verso] de
+[verso] in de Scheepen de Jan en Cornelij
+[verso] Cornelis
+[verso] Jan
+[verso] Jonge Jacob en Albertus
+[verso] En de
+[verso] en de dapperheid
+[verso] 7: Onkostreekening van 't geen ten deesen
+[verso] A.
+[verso] Gouvernemente is verstrekt
+[verso] per de Jonge Jacob en Abbertog.
+[verso] aan 's lands schip van Oorlog
+[verso] 7: d: Laan
+[verso] de Amphetrite.
+[verso] Jn 't Casteel de Goede Hoor den 3:e August: 1789
+[verso] Nots.
+[verso] G Goetz
+[verso] Hbg Clercq
+[verso] Nog is in voorsch: loode doos besloten
+[verso] drie Missives door den Heer Gouverneur
+[verso] als volgd geschreeven
+[verso] aan zyne
+[verso] Doorlugtige Hoogheid den
+[verso] Heere Prince van Orange
+[verso] en Nassau, Erfstadhou=
+[verso] „der &c: &c: &c.
+[verso] den hoog Edelen Gestr: Heer M:r Cornelis
+[verso] £
+[verso] kien van Citters, Hoog
+[verso] Bailliuw &c. &: te Middel
+[verso] burg:
+[verso] Mr. Sebastiaan Cor¬
+[verso] nelis Nederburg, eerste advo„
+[verso] Caat van de O.E: Comp: &c. de Ve
+[verso] te Amsterdam
+[verso] de zorgt
+[verso] per de
+[verso] Jonge Jacob
+[verso] en Albertus.
+[recto] naar de Caap
+[recto] Pr t Schip
+[recto] 6
+[recto] Bodem
+[recto] On
+[recto] Houtw
+[recto] angen
+[recto] te hebben de vol
+[recto] Onderhebbende
+[recto] ende bekenne
+[recto] scheerde vare
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] er, ofte aan de
+[recto] eliene
+[recto] dende
+[recto] ere van
+[recto] de
+[recto] 7
+[recto] nde
+[recto] 6
+[recto] om
+== NL-HaNA_1.04.02_4333_0040 | #40 | sides: recto,verso | lines: 46
+[recto] 1046
+[recto] Aande Wel Edele Hoog Achtb Heeren Bewindhebberen
+[recto] Gecommitt. s ter Illustre vergadering van zeventhienen
+[recto] representeerende de generale neverl: g'octroyeerde
+[recto] goot Indische Compagnie ter Presidiale Camer
+[recto] P=r de particuliere ingehuurde schepen
+[recto] de Dapperheid en
+[recto] de Ianen Cornelis
+[verso] Register
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Houtwer
+[recto] ken
+[recto] 1071
+[recto] Amsterdam
+[recto] WelEdele Erntfeste
+[recto] de Jonge Jagelb en Mberte Hoog Achtb Hoog wijze
+[recto] voorzienige en zeer
+[recto] Genereus le Heeren
+[recto] Hoog Gebiedende Heeren
+[recto] van Cabo
+[recto] er, ofte aan de
+[recto] eliere
+[recto] erdeerd
+[recto] te Com
+[recto] heer
+[recto] ydende verband
+[recto] ere van geener
+[recto] de Ridder
+[recto] Wij hebben de vrijheid genoomen onze Jongs„
+[recto] te eerbiedige Letteren aan uwel Edele Hoog
+[recto] Achtb: te addresseeren Sub dato 27 der
+[recto] even afgewekene maand Iulij p:r 'sLands
+[recto] Schip
+[recto] naar de Caap
+[recto] Pr t Schip t du
+[recto] 4
+[recto] gende
+[recto] nde beken
+[recto] Onderhebbende
+[recto] Tot
+[recto] G
+[recto] scheerde Vare dat
+[recto] e Gestr Heer
+[recto] 6„
+[recto] Patria
+== NL-HaNA_1.04.02_4333_0041 | #41 | sides: recto,verso | lines: 54
+[recto] 1087
+[verso] Schip van Oorlog de Amphitrite 't oree
+[verso] desselfs Legplaats in Baaij Tals nog
+[verso] niet heeft verlaaten
+[verso] Het duplicaat onzer gem: nedrige
+[verso] Letteren Uwel Edele Hoog Achtb aan„
+[verso] biedende laaten wij deeze dienen tot
+[verso] bijgeleide van de partic: ingehuurden
+[verso] Scheepen de Ionge Iacob en Alber
+[verso] tus de Dapperheid en de Ian en
+[verso] Cornelis, neemende de vryheid deese
+[verso] te laaten vergezellen van de korte
+[verso] factuuren van derzelver Bataviase
+[verso] Ladingen voor reekening der kameren
+[verso] Amsterdam en Enkhuijzen:-
+[verso] Wij maaken ook van deese
+[recto] gelegendheid gebruik om
+[recto] uwe wel Edele Hoog Achtba„
+[recto] rens plichtschuldig te Com„
+[recto] municeeren dat 'S' Lands
+[recto] Schip Van Oorlog de Bel„
+[recto] lona op den 31 Iulij desselfs
+[recto] destinatien naar Indien
+[recto] heeft vervordert. -
+[recto] Nog neemen wij de vryheid
+[recto] deeses te laaten vergezellen
+[recto] van de onkostreekening
+[recto] over het geen aan 'S
+[recto] Lands schip van Oor„
+[recto] log de Amphi
+[recto] trite is ver
+[recto] ere van geener
+[recto] ^de Ridder
+[verso] gelegendheed
+[recto] strekt
+[recto] P:r t Schip t
+[recto] waar de Caap
+[recto] dui
+[recto] W
+[recto] „
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende Houtwerken
+[recto] 1076
+[recto] Onderhebbende
+[recto] toekende
+[recto] scheerde Vare dat
+[recto] de Gestr Heer
+[recto] ^van Cabo
+[recto] er, ofte aan de
+[recto] „eleene te Com
+[recto] ndeerd zyn heer
+[recto] ydende verband
+[recto] 6„
+== NL-HaNA_1.04.02_4333_0042 | #42 | sides: recto,verso | lines: 45
+[recto] 1048
+[recto] Int Castel de Goede Hoop
+[recto] den 3 Augustus 1789
+[verso] strekt
+[verso] Hier meede deese besluiten
+[verso] de, beveelen wy uwel Edele
+[verso] Hoog Achtb: neevens de impor
+[verso] tante belangens der Edele
+[verso] Maatschappij en Godes be
+[verso] scherminge en teekenen ons
+[verso] met verschuldigde Eerbied -
+[verso] Wel Edele Erntfeste
+[verso] Hoog Achtb: Hoog wize
+[verso] voorzienige zeer
+[verso] Genereuse en Hoog
+[verso] Gebiedende Heeren
+[recto] Uwer Wel Edele Hoog Achtb: zeer
+[recto] onderd: getrouwe en gehoorsame dienaren
+[recto] Sab D Suuig
+[recto] sepeerde Vare dat
+[recto] e Gestr Heer
+[recto] ^van Cabo
+[recto] er, ofte aan de
+[recto] d 1j Jade Varldutijkeen
+[recto] ^ de Ridder
+[recto] C: J: Vanden Graaff
+[recto] „Thenius
+[recto] J: N: P: Van Lijndern.
+[verso] twen
+[recto] naar de Caap
+[recto] Pr t Schip
+[recto] Bodem Ontfangen te hebben de vol
+[recto] 1076
+[recto] dik
+[recto] Onderhebbende
+[recto] tekende beken
+[recto] Houtwerkken
+[recto] 6
+[recto] 6„
+[recto] reliene te Com
+[recto] odeerd zyn heer
+[recto] ydende verband
+[recto] ero van geener
+== NL-HaNA_1.04.02_4333_0043 | #43 | sides: recto | lines: 17
+[recto] naar de Caap
+[recto] Pr 't Schip
+[recto] 24
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Houtwerken
+[recto] nde bet
+[recto] Onderhebbende
+[recto] de Vare dat
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] er, ofte aan de
+[recto] eleere te Com
+[recto] ndeerd zyn heer
+[recto] ydende verband
+[recto] ere van geener
+[recto] ^de Ridder
+== NL-HaNA_1.04.02_4333_0044 | #44 | sides: recto,verso | lines: 45
+[recto] theenen, repraesenteerende de generale Nederlandsche
+[recto] geoctroyeerde Oost Ind: Comp„e ter priesidiale kamer
+[recto] Patria.
+[recto] Aan da wel Edele Hoog Agtb: heeren Bewindhebberen
+[recto] gecommitteerd ter Illustre vergadering van zeven:
+[recto] werken
+[recto] Triplicaat 1049
+[recto] Secreet
+[recto] Amsterdam.
+[recto] WelEdele, Erntfeste
+[recto] Hoog Agtb:, Hoog Wijze
+[recto] voorzienige en zeer
+[recto] Genereuse Heeren!
+[recto] Hoog Gebiedende Heeren!
+[recto] Mij op den 21:e deezer maand door de behouden
+[recto] aankomst van het part: schip de Dapperheid
+[recto] verEerd hebbende gevonden met eene secreete
+[recto] missive van de Hoge Indiasche Regering
+[recto] gedagteekend den 5 Maij Iongstl: neem
+[recto] ik de Vrijheid Uwe welEdele Hoog Agtb=s
+[recto] daarvan nevens deesen een authentieq
+[recto] afschrift aantebieden; uit welks zeer
+[recto] bedenkelijke inhoud uwe wel Edele Hoog Agtb
+[recto] zullen
+[verso] No 1.
+[recto] naar de Caap
+[recto] Pr t Schip t du
+[recto] 2
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende be
+[recto] Onderhebbende
+[recto] dik
+[recto] Tot
+[recto] de vare dat
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] er, ofte aan de
+[recto] reliere te Com
+[recto] ndeerd zyn heer
+[recto] ydende verband
+[recto] ere van geener
+[recto] ^de Ridder
+[recto] 6„
+== NL-HaNA_1.04.02_4333_0045 | #45 | sides: recto,verso | lines: 77
+[verso] zullen ontwaren, het eminent gevaar waarin
+[verso] mente Batavia zelve, door den oorlog op
+[verso] Celebes met de Macassaren, zoude kunnen
+[verso] geraken; ende spoedige onderstand, die,
+[verso] welopgen. Hoge Regering van mij uit
+[verso] het guarnisoen salhier, tot behoud en
+[verso] defensie van 's Comp:s Rechten en possessie
+[verso] gelieft te vorderen. —
+[verso] Ten dien reguarde heb ik de Eere aan Uwe
+[verso] welEdele Hoog Agtb:s eerbiediglijk te
+[verso] berichten, dat ik immediaat, en zonder
+[verso] een ogenblik tijdversuim, na het ontfangen
+[verso] van gem. zeer geachte Letteren, een plan„
+[verso] ter verzorging van 't gerequireerd Secoure
+[verso] tot die expeditie geformeerd hebbe, om
+[verso] niet alleen met den meest mogelijker
+[verso] spoed een Corps van 300 man Jnfeenteren
+[verso] uit dit guarnisoen bij een tebrengen,
+[verso] maar ook daar ik /onder eerbiedige
+[verso] Correctie :/ vermijnd dat daarbij twee
+[verso] ligte veldstukken tot zulk eene Expeditie
+[verso] van uitsteekende dienst zouden kunnen
+[verso] zijn, dezelve stukken met een detache
+[verso] „ment van 50 Man Anthilleristen,
+[verso] daarbij te voegen.
+[verso] Wijders ben ik in de eerste plaatsbedagt.
+[verso] geweest tot het verkiesen van een
+[verso] bekwaam en actief officier om het voorsz:
+[recto] 1050
+[recto] Corps te Commandeeren, benevens een
+[recto] tweeden, om, des noods, in steede van den
+[recto] Commandant, met het verEijschte Succes
+[recto] te kunnen subintreeren.
+[recto] Ten dien einde heb ik, met overleg van
+[recto] den Collonel Commandant van't Regiment
+[recto] van wurtemberg den Heere van Hugel
+[recto] thans /:bij aanhoudende indispositie
+[recto] van den Collonel Gordon / dit Guarnisien
+[recto] Commandeerende, wiens. kundigheid,
+[recto] berydwilligheid, en aan mij in deesen
+[recto] toegebragte hulpe, ik niet genoeg kan
+[recto] roemen, tot Commandant over 't gemn:
+[recto] Corps benoemd den Cap„n in het Burtemberg,
+[recto] ste Regiment Böhne en tot den
+[recto] tweeden Officier, den premier Lieutenant
+[recto] indat zelve Regiment van Hlorn.
+[recto] Ik hebbe, onder andere reedenen, die Officieren
+[recto] beide uit het Regiment van wantemberg
+[recto] gekosen, om dat 'er 100 Man, met eenige
+[recto] der verdere vereijschte Officieren en onder=
+[recto] Officieren van dat Regiment, tot formeer
+[recto] „ringe van dit Corps, hebben moeten genomen
+[recto] worden.
+[recto] Het Corps tot de voorn=de Expeditie zal dan
+[recto] bestaan, uit
+[recto] 1„o Een Capitain Commandant over't zelve
+[recto] H. Een Divisie der Anthillerie, bestaande
+[verso] Corpe
+[recto] uit
+[recto] naar de Caap
+[recto] Pr 't Schip t duijfge
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Onder
+[recto] de
+[recto] hebbende
+[recto] twe
+[recto] de vare dat
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] er, ofte aan de
+[recto] „eleere te Com
+[recto] adeerd zyn heer
+[recto] ydende verband
+[recto] ere van geener
+[recto] ^de Ridder
+[recto] ees
+[recto] 6„
+== NL-HaNA_1.04.02_4333_0046 | #46 | sides: recto,verso | lines: 78
+[recto] 1051
+[verso] Uit 4t officieren. Bombardiers. . . vice
+[verso] bombardiers en 50 Cannoniers
+[verso] IIo. Infanterie
+[verso] Eerste Divisie
+[verso] ossicieus 3 - Serg=t 2. Corp„ 4. Vreecorp:s A. temb:s 3. sold: 100.
+[verso] Tweede Divisie
+[verso] _o 3. _„o 2. —„ 4. —„ 4. — 3. —. 100.
+[verso] Derde Divisie
+[verso] _„o 3. — 2. — 4 _o 4. _ 3. _o 100.
+[verso] tot:s Jrosant opfic. 9. serg:t 6. Corp. 12. visecerp 12. — tamb 9 sold: 300.
+[verso] Het gein Corps troupes zal bestaan uit
+[verso] het geheel Nationaal de pot, of de Logene
+[verso] Pepiniere; geschikt voor de Indien, het welk
+[verso] echter meer of min maar 2oo Man
+[verso] sterk was, zonder dat daarbij eenige ander
+[verso] Officieren waaren, dan alleen dies Com„
+[verso] „mandant, den Capitain de Sandolroij, zo
+[verso] dat ik genoodsaakt ben geweest, om alle
+[verso] de daarbij verEijschte officieren, uit het
+[verso] guarnisoen te vinden.
+[verso] Die Soldaten zijn thans goed gewapen
+[verso] gekleed, zeer wel geExerceerd en gaan
+[verso] met een goede moed derwaards, waartoe
+[verso] het goed Exempel van 't daarbij gevoegd
+[recto] detachement van 100 Man uit het Regiment
+[recto] van wurtemberg, niet wijnig gecontribueert
+[recto] heeft.
+[recto] De Naamen van de Officieren, en de geheele
+[recto] voet van dit Corps zal ik de Eere hebben
+[recto] bij eerst nadere gelegensheid aan uwe wel Edele
+[recto] hoog Agtb. op te geven. —
+[recto] Gelukkig, dat ik geen tijd verzuimd hebbe,
+[recto] om, zo veel in mij was, alhier de munitie
+[recto] van oorlog in gereedheid te doen brengen;
+[recto] als ook, dat ik hebbe zorge gedragen,
+[recto] dat van het aan ons daartoe overgezonnen
+[recto] Linnen tot Tenten, dezelve insgelijke,
+[recto] zonder vertoeven, opgemaakt geworden
+[recto] zijn zo dat ik my dadelijk in staat
+[recto] bevond, om dat Corp s, des noods in
+[recto] in driemaal 24 uuren, om in Campaque
+[recto] te gaan, in gereedheid konde hebben
+[recto] Ieder veld stuk zal almede van al
+[recto] het verEijschte tot eene Campagne en
+[recto] van 3000 scherpe Patroonen, als ½3 met
+[recto] aangebondene kogels, Js met blikke
+[recto] roosen en 2/3 met druiven worden
+[recto] voorsien.
+[recto] Den Heer Capitain ter Zee Hartman
+[recto] thans met het schip van Oorlog de
+[verso] de ta Cheina
+[recto] p
+[verso] -
+[recto] waar de Caap
+[recto] Pr 't Schip t duijfge
+[recto] 4
+[recto] Bodem
+[recto] end
+[recto] Houtwerken
+[recto] Ontfangen te hebben de vol
+[recto] ende beken
+[recto] Onderhebbende
+[recto] 1076
+[recto] 103
+[recto] scheerde Vare
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] er, ofte aan de
+[recto] „eleene
+[recto] erdeerd
+[recto] te
+[recto] ere
+[recto] ydende
+[recto] de Ridder
+[recto] erband
+[recto] te Com
+[recto] 6„
+== NL-HaNA_1.04.02_4333_0047 | #47 | sides: recto,verso | lines: 74
+[recto] 1052
+[verso] Bellona zich ter onser Rheede bevindende
+[verso] en naar Batavia gedestineerd zijnde
+[verso] moest echter eerst alhier inwagten den
+[verso] Heer Commandeur Htaringh: dan, daar
+[verso] 't mij voorkwam, niet alleen van aanbelan
+[verso] te zijn, dat de Hooge Indiasche Regeering
+[verso] zo spoedig doenlijk van't: te verwachten
+[verso] secours wierde geinformeerd, maar ook
+[verso] dat men aldaar insgelijks met dat schip
+[verso] van Oorlog wierde gesoutineerd, heb ik
+[verso] mij door eene missive /: waarvan de de
+[verso] Eere hebbe eene authenticque Copia, hier
+[verso] nevens overteleggen:/ geaddresseerd aan
+[verso] den hier ook praesent zynden Capitain
+[verso] ter zee, den heere wierts, Commandeerende
+[verso] 's Lands Escader in de Indiën, met verzoek
+[verso] zoo mogelijk om den Heere Capitain
+[verso] ter zee Hartman te qualificeeren, en
+[verso] tegelasten, om aangezien de hier bovengt
+[verso] dringende reedenen, zonder eenig tyd=
+[verso] versuim onze reede te verlaten en
+[verso] naar Batavia voorttezeilen, met dat
+[verso] gelukkig Lucces, dat de heer Commandant
+[verso] wierts daartoe ook dadelyk de nodige
+[verso] ordres gegeven heeft, en dat de active
+[verso] Capitain Hartman zich reeds aan
+[recto] boord van desselfs Schip bevind, en alleen
+[recto] maar op de wind waeht, om de reise derwaarde
+[recto] te onderneemen
+[recto] Ik heb gemeend ook niet te mogen afzijn
+[recto] om den inhoud van de voorsz Secreetebrief
+[recto] aande thans alhier aanwezeg zijnde
+[recto] Heeren Vaillant, verheull en Gravestei,
+[recto] te Communiceeren, dewelke insgelijks van
+[recto] oordeel waren dat de Heer Hartman
+[recto] met spoed en zonder alhier langen te
+[recto] vertoeven, de reise naar Batavia onder„
+[recto] „neemen moest. -
+[recto] En ten opzichte van het transport van
+[recto] het van hier te zenden secours, heb ik het
+[recto] geluk dat zig thans alhier ter onser
+[recto] reede bevind 's Comp=s schip de Juffrouw Johanna
+[recto] naar Batavia gedestineerd, en het Particulier
+[recto] ingehuurd schip de Eensgezendheid:— op
+[recto] het eerste zullen, behalven zijn eigen voek
+[recto] omtrent nog 100 matroosen, provisioneel
+[recto] naar de Hoofdplaats kunnen worden
+[recto] getransporteerd, en op het part, schip
+[recto] kunnen zeer wel de 350. man militairen
+[recto] met alle de officieren en onder officieren
+[recto] naar Batavia overgevoerd worden.
+[recto] Dan, ofschoon laatstgem: bodem zijne
+[verso] boord
+[recto] P
+[recto] naar de Caap
+[recto] t schip t
+[recto] G
+[recto] Bodem Ontfangen te hebben de vol
+[recto] aende
+[recto] Houtu
+[recto] Onderhebbende
+[recto] scheerde Vare
+[recto] e Gestr Heer
+[recto] rvan Cabo
+[recto] er, ofte aan de
+[recto] „eleene
+[recto] ndeerd zyn heer
+[recto] ydende verband
+[recto] ero van geener
+[recto] ^de Ridder
+[recto] te Com
+[recto] 6„
+== NL-HaNA_1.04.02_4333_0048 | #48 | sides: recto,verso | lines: 76
+[recto] 1053
+[verso] lading meest geheel voor de Caab is, en het
+[verso] voorneemen was, dezelve uit Baaijtals
+[verso] naar deese reede / met het begin van de
+[verso] goedemousson / om te ontladen, te doen
+[verso] zeilen; 't geen echter nog meer dan
+[verso] zes weeken zoude hebben moeten aan„
+[verso] „lopen, is 'er terstond ordre gegeven, om
+[verso] dien Bodem in Baaijfals te ontladen,
+[verso] en met allen mogelyken spoed in gereedheid
+[verso] te doen brengen, omt meergem: Corpe trou„
+[verso] pes naar de Batavinsche reede te transper„
+[verso] teeren; zynde ondertusschen om geen
+[verso] tyd te verliesen, het geen onder in dat
+[verso] schip voorCeilen afgeladen is en voor
+[verso] Ballast dienen kan, en in gelaten
+[verso] en zal de Hoge Regering verzoekt
+[verso] worden hetzelve bij bequame gelegentheid
+[verso] derwaards te verzenden, terwijl ik
+[verso] over de ontlading van dat schip de Eere
+[verso] hope te hebben Uwewel Edele Hoog Agtb:
+[verso] by eene nadere gelegentheid te zullen
+[verso] schrijven; zoo dat ik mij flatteere, dat
+[verso] deeze kiel in tien of twaalff dagen
+[verso] de rijze insgelijks naar Indias Hoofd.
+[verso] „plaatse onderneemen zal.
+[verso] Ik hope, dat deeze mijne verrichtingen
+[verso] uwer welEdele Hoog Agtb: goedkeuring
+[recto] zullen mogen erlangen; terwyle ik hebbe
+[recto] gemeend geen ogenblik temogen hasiteeren,
+[recto] om aan 't gerequireerde der Hoge Regering,
+[recto] aangezien dezorgelijke en zeer gevaarlyke
+[recto] omstandigheeden, waarin men zich aldaar
+[recto] bevind; zo prompt mogelijk te voldoen;
+[recto] hoe zeer 't mi anders veel moeite
+[recto] gekost zoude hebben, om mij tot
+[recto] zulk een notabele verzukking van
+[recto] den militairen staat deezes gouverne:
+[recto] „ments te determineeren
+[recto] Als men nu maar zorge draagd, dat
+[recto] alles in gereedheid worde gevonden,
+[recto] zo dat op de aankomst van 'ssecours,
+[recto] die troupes dadelyk overgescheept, en
+[recto] nacelebes gevoerd kunnen worden:
+[recto] het welk de vroegere aankomst van
+[recto] den heer Capitain ter zee Hartman
+[recto] aldaar, zeker aanmerkelijk kan
+[recto] favoriseeren, dan hebbe ik alle
+[recto] hoop dat deeze Expeditie met het
+[recto] beste succes zal ten uietvoer gebragt
+[recto] worden. —
+[recto] Inmiddels heb ik de Eere, mij met
+[recto] het diepst ontzag onderdaniglyk
+[verso] zullen
+[verso] 15
+[recto] waar de Caap
+[recto] t schip t
+[recto] G
+[recto] 1
+[recto] Bodem
+[recto] tw
+[recto] Ontfangen te hebben de vol
+[recto] kende bekenne
+[recto] Onderhebbende
+[recto] ken
+[recto] 1076
+[recto] dik
+[recto] de Vare dat
+[recto] e Gestr Heer
+[recto] van Cabo
+[recto] er, ofte aan de
+[recto] releere te Com
+[recto] erdeeid zyn heer
+[recto] ydende verband
+[recto] deze van geener
+[recto] de Ridder
+== NL-HaNA_1.04.02_4333_0049 | #49 | sides: recto,verso | lines: 32
+[verso] tenoemen
+[verso] Caboele goede hoop
+[verso] 6e 26 July 1769
+[verso] WelEdele Erntfeste
+[verso] Hoog Agtb„s Hoog wijse
+[verso] voorzienige, zeer Gene„
+[verso] reuse en Hoog Gebiedende
+[verso] Uwer WelEdele Hoog Agtb: zeer
+[verso] onderdanige en gehoorzame Dienaa
+[verso] C J: Vande Graaff:
+[verso] Heeren.
+[recto] naar de Caap
+[recto] Pr t schip t
+[recto] Bodem
+[recto] ende Houtw
+[recto] Ontfangen te hebben de
+[recto] kende
+[recto] Onderhebbende
+[recto] d
+[recto] scheerde vare dat
+[recto] ze Gestr Heer
+[recto] rvan Cabo
+[recto] er, ofte aan de
+[recto] reliere te Com
+[recto] #d zyn heer
+[recto] ydende verband
+[recto] ere van geener
+[recto] ^de zidder
+[recto] e
+[recto] in
+[recto] 6„
+== NL-HaNA_1.04.02_4333_0050 | #50 | sides: recto | lines: 51
+[recto] Copia
+[recto] Cabo de goedehoop
+[recto] Secreet 1054
+[recto] Aan den heer Corneles Jacob van de Graatf
+[recto] Gouverneur en Directeur aldaar
+[recto] Erntfeste, Manhafte, Voorzienige Discreete,
+[recto] De criticque en zeer nadenkelyke omstandig=
+[recto] „heden en verschillen, waarin de Nederlandsche
+[recto] Comp„e sedert een geruimen tijd met het Hoff
+[recto] van Bonij op Celebes geraakt is, zo over de bij
+[recto] de Comp:e gepreetendeerde en door de Bonyers
+[recto] gerefuseerde overgave van een gedeelte der
+[recto] Goasche Rijksornamenten als geformeerde
+[recto] pretentie door gem. Koning om over het Ma.
+[recto] n cassaarsze of Goascherijk te disponeeren, on„
+[recto] „geagt de Comp. e met verspilling van bloed
+[recto] en goed in den Iongsten Macassaarschen
+[recto] oorlog, het gem: Rijk door de wapenen gecon„
+[recto] „questreerd, en de reeds lange uiet staan
+[recto] naam gedane aanstelling van een
+[recto] nieuwere koning over meerm. Rijk geex„
+[recto] „probeerd heeft, zijn zedert tot die actre.
+[recto] „miteiten uitgebarsten, volgens de advijsen
+[recto] van den Heer Macassaars& Gouverneur
+[recto] Reijke van den 7 April Iongstl: dat
+[recto] daaruit eerlang een openbare verwydering
+[recto] en rupture met het gem: Hoff te dugten is,
+[recto] der
+[recto] naar de Caap
+[recto] Pr 't Schip t
+[recto] d
+[recto] 1
+[recto] Bodem
+[recto] Ontfangen te hebben de vol
+[recto] nde beken
+[recto] Onderhebbende
+[recto] en
+[recto] 1076
+[recto] scheerde Vare
+[recto] d
+[recto] 6
+[recto] er, ofte aan de
+[recto] releere te Com
+[recto] ydende verband
+[recto] deze van geener
+[recto] de Ridder
+[recto] nheer
+[recto] deerd zyn
+[recto] rvan Cabo
+[recto] e Gestr Heer
+== NL-HaNA_1.04.02_4333_0051 | #51 | sides: recto,verso | lines: 89
+[verso] die zekerlijk in de presente situatie het verlies
+[verso] van Macasser zoude ten gevolge hebben
+[verso] en tot welks verijdeling de gem: heer gouverneur
+[verso] geen ander middel weet voor te stellen,
+[verso] als om door het zeiden van een toerijkende
+[verso] magt, Comp„s voorregten tegens de booze vog„
+[verso] merken der Bonijers te maintineeren daar
+[verso] „toe verzoekende een adsistentie van zes
+[verso] „honderd Europeesche militairen en Eenhondert
+[verso] zeevarende
+[verso] wij hebben na eene Ferieuse deliberatie
+[verso] over deese fatale gesteldheid van Saken en
+[verso] de twee uitterstens die indeesen voor ons te
+[verso] kiesen zouden zyn, off om in alles toetegeven
+[verso] en eer reputatie en Comp: regten aan het bezoud
+[verso] der rust en vreede voor een korten tyd op te offeren
+[verso] of door een genoegsame magt van wapenen
+[verso] de gedugte gevolgen, die daarin't eerlang
+[verso] zouden voortvloeijen te verijdelen, en Comp
+[verso] regten des noods doorgeweet te verdedigen,
+[verso] bij overweging van het een en ander en de
+[verso] Concurrerende Omstandig heden, geoordeeld
+[verso] dat men tot het eerste niet zoude konnen
+[verso] off mogen besluiten, om dat wij maar al
+[verso] te zeer penetreerden, dat, by aldien de
+[verso] Bonijers meester wierden van Celebes, men
+[verso] in deesen gantschen archipel en zelfs ter
+[verso] deezer hoofdplaats niet genoegzaam
+[verso] zeker en veilig zouden zyn, door den
+[verso] sterken nrang der Borgineesen aan alle
+[recto] 1055
+[recto] kusten en plaatsen, en dat hoe zeer men tot
+[recto] het Laatste door den geheel verzwakten staat
+[recto] waarin wij ons alhier bevinden, ten eenemaal
+[recto] onvermogende zijn, het Laatste echter vol„
+[recto] „strekt verkiesbaar en noodzakelijk zoude
+[recto] zijn, inzo verre eenig middel konde werden
+[recto] uitgedagt, waardoor men ten dien eynde
+[recto] zoude kunnen worden in staat gesteld.
+[recto] Wij hebben dus in aanmerking genomen,
+[recto] dat de Caab en Ceilon, door een temporeele
+[recto] adsistentie van de aansienelyke magt die
+[recto] thans in die beide gouvernementen aan
+[recto] handen is, aan dat oogmerk zoude konnen
+[recto] beantwoorden, en wij recommandeeren UE
+[recto] dus op het nadrukkelykst ons bij te springen
+[recto] met een aantal van drie honderd gedres=
+[recto] „seerde militairen onder hunnen officieren,
+[recto] met excuseering echter van een staf officier
+[recto] en zo veele zeevarende als bij UE eenigsints
+[recto] gemist zullen kunnen werden, te meer
+[recto] wij eenige aanspraak op het volk van
+[recto] Ret aan de Caale opgerigte depos hebben,
+[recto] en deselve zo spoedig doenlijk en met den
+[recto] Eerst vertrekkende scheepen herwaards te
+[recto] zenden, terwijl wij om UE daartoe te beter
+[recto] instaat te stellen, UE qualificeeren om
+[recto] Successive uit de aankomende recruten
+[recto] voor Indiën, eenige teligten, tot remplacement
+[recto] langsamerhand van het herwaards te
+[recto] zouden volk.
+[recto] Wij hebben nodig geacht, om de reedenen
+[recto] deeser onverwijlde en noodsakelyke adsistentie
+[verso] Meerte
+[recto] vos
+[recto] naar de Caap
+[recto] Pr 't Schip t
+[recto] „
+[recto] di
+[recto] pe
+[recto] Bodem Ontfangen te hebben de vol
+[recto] en
+[recto] 1071
+[recto] dik
+[recto] Onderhebbende
+[recto] nde bekenn
+[recto] scheerde Vare
+[recto] ze Gestr Heer
+[recto] r van Cabo
+[recto] er, ofte aan de
+[recto] eleen
+[recto] erdeeid zyn heer
+[recto] ydende verband
+[recto] ere van
+[recto] ^de zidder
+[recto] eener
+[recto] te Com
+[recto] 6„
+== NL-HaNA_1.04.02_4333_0052 | #52 | sides: recto,verso | lines: 72
+[verso] Batavia
+[verso] voor UE openteleggen, om UE te meer te animeeren
+[verso] om onse voegmerken in deesen te secondeeren
+[verso] terwijl wij ons verseekerd houden, dat de
+[verso] H. M:t deesen uitstap waarhoe de nood en
+[verso] het gevaar ons perst, zig zullen laten wel-
+[verso] „gevallen, bijzonder ook wegens de gunstige
+[verso] toezegging on Indien eerlang merkelyk te
+[verso] zullen versterken
+[verso] Waarmede na groete blyven
+[verso] UE Goede vrienden.
+[verso] Iusaskeel den 5 Mei 1789
+[verso] /geteekend:
+[verso] W AAlting, A Moens,„ D I Smith,
+[verso] J. Van Htorkum, J Siberg, W: Vinder Beke,
+[verso] AdBoek, J H Wiegerman
+[verso] Accordeert
+[verso] E Van Herssel
+[verso] TTezeeven
+[recto] Den HHoEdelen Gestengen Heere
+[recto] F. I. Wierts
+[recto] Colonel en Capitain ter zee
+[recto] Commandeerende 's Lands Escader
+[recto] in de Oost Indien &
+[recto] Cabo de goedehoop
+[recto] Hoog Edele Gestrenge Heer!
+[recto] Per het particulier e Comps schip de Dapperheid
+[recto] schipper E. wittenberg heb ik ontfangen
+[recto] eene secreete Missive van den Hoog Edelen
+[recto] Heere gouverneur Generaal en Raden van
+[recto] Nederlands Indie, wegens eene zeer affli„
+[recto] „geante tijdinge, dewelke door den gouverneur
+[recto] van Macasser, de Heer Reijke aan Hooggen
+[recto] heere gouverneur generaal en Raden was
+[recto] gecommuniceerd, houdende, dat eerlang
+[recto] eene Openbare verwijdering en Ruptiere
+[recto] met 't slik van Bone, op 't Eiland Celebes
+[recto] te dugten was, met bijvoeginge van ver„
+[recto] „scheidene zeer Urgente reedenen, dewelke
+[recto] „de Hoge Regering noopten, omme van dit
+[recto] gouvernement eenige troupes tot mainti=
+[recto] „neering van 'sComp: rechten in dit waereld
+[recto] „deel, te requireeren. —
+[recto] Waartoe ik pligtschuldig en zonder eenig
+[recto] bij dverzuim, dan ook reeds de nodige
+[recto] Ordres
+[verso] 0
+[recto] thands
+[recto] aan
+[recto] waar de Caap
+[recto] Schip
+[recto] 6
+[recto] 79
+[recto] 4
+[recto] boo
+[recto] Bodem Ontfangen te hebben de vol
+[recto] 107
+[recto] 71
+[recto] Onderhebbende
+[recto] nde beken
+[recto] 1056
+[recto] scheerde Vare dat
+[recto] ze Gestr Heer
+[recto] rvan Cabo
+[recto] er, ofte aan de
+[recto] „eliere
+[recto] edeerd zyn heer
+[recto] ydende verband
+[recto] deze van geener
+[recto] de Ridder
+[recto] te
+[recto] Com
+== NL-HaNA_1.04.02_4333_0053 | #53 | sides: recto,verso | lines: 88
+[verso] ordres hebbe uitgevaardigd, dat een Corps trere
+[verso] „pes met de nodige Arthillerij voorzien,
+[verso] met den meesten spoed van hier naar
+[verso] Batavia zullen worden getransporteerd,
+[verso] ten einde aldaar vande Hoge Regering
+[verso] zodanige nadere ordre te erlangen, als
+[verso] Hoogst deselve zullen vinden nodig te zyn
+[verso] en te behoren
+[verso] Dan dewijl zig thans ter vnser reede
+[verso] bevund, den welEdele gestrenge Heer Capitain
+[verso] ter zee Hartman, Commandeerende 's lands
+[verso] Schip van Oorlog de Bellina, zo veel mij
+[verso] bewust is gedestineerd tot soutien onzer
+[verso] Possessien in de oost Indiën, en geinformeerd
+[verso] Zijnde, dat Zyn welEdele Gestrenge alhier
+[verso] zal moeten vertoeven tot de aankomst ter
+[verso] onser reede van den heer Commandeur
+[verso] staringh, en dat dien tijd voor ons als nog
+[verso] onzeker is, en dat het mij /:onder Eerbiedige
+[verso] Correctie gezegd :/ voorkomt, van 't uitter„
+[verso] ste aanbelang te zyn, dat in de Eerste
+[verso] „plaatse, de Hoge Regering zo dra mogelyk
+[verso] werde geinformeerd, dat het gevraagde
+[verso] secours van hier, met den meest moge
+[verso] „lijken spoed, na derwaards afgezonden
+[verso] worden zal, en dat bovendien welgem. heer
+[verso] Capitain ter Zee Hartman, met desselfs
+[verso] onderhebbend schip van oorlog tot Poutien
+[verso] van zodanige Expeditien, als de omstan„
+[recto] 1057
+[recto] „digheden op Celebes zullen komen te verhijtschen
+[recto] in discritieque tijdstip van uitsteekende
+[recto] dienst zal konnen zyn
+[recto] Mag ik niet voorbij UHoog Ed: gestr. in
+[recto] Consideratie te geven en te versoeken off Uw
+[recto] HoogEd gestr. niet zoude kunnen goedvinden
+[recto] om in ditfacheus geval, den heer Capitain Hart.
+[recto] „man tegelasten, zonder tijd versuim deese
+[recto] reede teverlaten en na Batavia te steevenen,
+[recto] ten einde ook nog, omme al verder intusschen
+[recto] met de Hoge Indische Regering te Concer
+[recto] „teeren, wat met 't Secours dat van deeze
+[recto] zijde zal kunnen worden aangebragt, ten
+[recto] dien reguarde meest efficacieux ondernomen
+[recto] werden han.
+[recto] Dispoinit aldaar geconstateerd zijnde
+[recto] zal zulks ook nog dit voordeel involveeren,
+[recto] dat de nodige Scheepen aldaar konnen werden
+[recto] in gereedheid gebragt, omme de troupes
+[recto] van hier naar derwaards te zenden op de
+[recto] Bataviashe reede niet te retardeeren, en
+[recto] dus door de imtemperance van 't Climeert
+[recto] aldaar niet te verzwakken maar ter
+[recto] Contrarie dezelve met den meest mogelijke
+[recto] spoed, naar de plaatze alwaar 's Comp.s
+[recto] dienst zulks zonder verwijling verEijscht,
+[recto] te doen transsporteeren.
+[recto] En aangezien eenige verdere omstandigheden
+[recto] die ik de Eer hebbe gehad U HoogEd. gestr.
+[verso] desleden
+[recto] mons
+[recto] naar de Caap
+[recto] Pr t schip t
+[recto] W
+[recto] 4
+[recto] Bodem
+[recto] n
+[recto] tangen te hebben de vol
+[recto] en
+[recto] 107
+[recto] di
+[recto] k
+[recto] Onderhebbende
+[recto] nde be
+[recto] scheerde vare dat
+[recto] d
+[recto] er van Cabo
+[recto] er, ofte aan de
+[recto] „eleene te Com
+[recto] erdeeid zyn heer
+[recto] ydende verband
+[recto] ere van geener
+[recto] de zidder
+[recto] se
+[recto] 6„
+[recto] 6
+[recto] de Gestr Heer
+== NL-HaNA_1.04.02_4333_0054 | #54 | sides: recto,verso | lines: 60
+[recto] 1058
+[verso] Cabo de goedeloop
+[verso] den 22 July 1757
+[recto] slands schip
+[recto] van oorlog
+[recto] de Amphibrite
+[recto] Patria.
+[recto] Aan de wel Edele Heeren Bewindhebberen,
+[recto] van de generale nederlandsche g'octroyeerde
+[recto] Oostindische Compagnie, ter praesediale Camer
+[verso] mondeling indiep vertrouwen, te Communiceeren
+[verso] durf ik mij Vleijen dat U Hoog Edelgestr.
+[verso] niet zal hasiteeren om de hierte voren
+[verso] verzogte ordres aan den Heere Capitain ter
+[verso] zee Hartman uittevaardigen
+[verso] In verwagtinge van eene favorable dis„
+[verso] „positie hebbe ik eehen met Hoog achteren
+[verso] te verblyven
+[verso] Hoog Edele Gestrenge Heer
+[verso] Uw Hoog Edele gestrengen
+[verso] onderdanigen Dienaar
+[verso] /was geteekend:/
+[verso] C. I. van de Graaf
+[verso] Aeerbedel.
+[verso] P Geevet
+[recto] Amsterdam;
+[recto] Wel Edele, Erntfeste
+[recto] Groot Achtb: welwijze;
+[recto] Voorzienige, en zeer
+[recto] Genereuse Heeren,
+[recto] Gebiedende Heeren.
+[recto] Wy refereeren ons in allen
+[recto] Eerbied aan onze submisse
+[recto] Letteren van den 3' deezer
+[recto] lopende maand, aan uwelEdele
+[recto] deze van geener
+[recto] de Ridder
+[verso] Jan Herse
+[recto] Groot
+[recto] waar de Caap
+[recto] Schip
+[recto] 2
+[recto] Bodem
+[recto] b
+[recto] fangen te hebben de vol
+[recto] Onderhebbende
+[recto] de
+[recto] 74
+[recto] scheerde Varedat
+[recto] ze Gestr Heer
+[recto] er van Cabo
+[recto] er, ofte aan de
+[recto] „eliere
+[recto] erdeerd zyn heer
+[recto] ydende verband
+[recto] e
+[recto] 6„
+[recto] te Comn
+== NL-HaNA_1.04.02_4333_0055 | #55 | sides: recto,verso | lines: 58
+[recto] 1059
+[verso] Groot Achtb: geadreseerd, per het
+[verso] particulier Schip de Johanna
+[verso] Jacoba, 't welk op den 7e deezer
+[verso] deszelvs reize naar Europa uit
+[verso] Baarfals heeft ondernoomen.
+[verso] Intusschen is op den 20ste
+[verso] deezer in gemelde Baar wederom
+[verso] behouden ten Anker gekoomen,
+[verso] het particulier schip de Ian
+[verso] en Cornelis; zynde door de Hoog
+[verso] indiase regeering van Batavia
+[verso] in retour voor uwe wel Edele groot
+[verso] achtb: kamer aangelegd, den
+[verso] 2.:e April van Onrust vertrokken,
+[verso] en 20t daaraan volgende, uit
+[verso] straat sunda gezeild, bevindende
+[recto] zich die Bodem in zeer goede staat,
+[recto] en zal binnen acht dagen
+[recto] de reize naar Patria onderneemen.
+[recto] Hier meede deeze fineerende
+[recto] beveelen wij uwe welEdele Groot
+[recto] Achtb:, beneevens de ons dierbaren
+[recto] belangens der Edele Maatschappije;
+[recto] in de alleen veylige hoede Godes
+[recto] en teekene ons met schuldig respect=
+[recto] er van Cabo
+[recto] er, ofte aan de
+[recto] Com
+[recto] heer
+[recto] verband
+[recto] ero van geener
+[recto] Wel Edele, Erntfeste,
+[recto] Groot Achtb: welwize,
+[recto] voorzienige, zeer
+[recto] Genereuse, en Febie„
+[recto] dende Heeren;
+[verso] zich
+[recto] Uwer
+[recto] waar de Caap
+[recto] Pr t schip t duij
+[recto] 4
+[recto] 1
+[recto] Bodem Ontfangen te hebben de vol
+[recto] „gende Houtwerken
+[recto] kende bekennen
+[recto] Onderhebbende
+[recto] 1078
+[recto] bikeende Vare dat
+[recto] ze Gestr Heer
+[recto] „eleene
+[recto] 6„
+[recto] erdeeid
+[recto] e
+[recto] ydende
+[recto] de Zidder
+[recto] ses
+== NL-HaNA_1.04.02_4333_0056 | #56 | sides: recto,verso | lines: 33
+[verso] Uwer wel Edele Groot achtb: zeer
+[verso] In 't Casteel de goede Hoop
+[verso] den 27 July 1789.
+[verso] onderd: en Gehoorzame Dienaren
+[verso] J: N: J: Van Lijnden.
+[verso] GGoerver
+[verso] W: D: V: Reede van Oudtshoorn
+[verso] P: J: Van de Graaff:
+[verso] henius
+[verso] F
+[verso] J: V Le Sieur
+[recto] naar de Caap
+[recto] 't schip t duijf
+[recto] ende
+[recto] Bodem Ontfangen te hebben de vol
+[recto] keende
+[recto] Onderhebbende
+[recto] dit
+[recto] Houtw
+[recto] 118
+[recto] scheerde vare dat
+[recto] ze Gestr Heer
+[recto] er van Cabo
+[recto] er, ofte aan de
+[recto] eliere
+[recto] edeerd
+[recto] e
+[recto] eze van
+[recto] ydende
+[recto] de Ridder
+[recto] an
+[recto] 6
+[recto] 6
+== NL-HaNA_1.04.02_4333_0057 | #57 | sides: recto,verso | lines: 24
+[verso] s
+[recto] naar de Caap
+[recto] t schip t
+[recto] 1
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende Houtmaaken
+[recto] ze
+[recto] kende bekenneb
+[recto] Onderhebbende
+[recto] 1071
+[recto] dik
+[recto] 103
+[recto] scheerde Vare
+[recto] d
+[recto] 6„
+[recto] er, ofte aan de
+[recto] elienee
+[recto] adeerd zyn heer
+[recto] ydende verband
+[recto] ere van geener
+[recto] ^de zidder
+[recto] Com
+[recto] er van Cabo
+[recto] le Gestr Heer
+== NL-HaNA_1.04.02_4333_0058 | #58 | sides: recto | lines: 41
+[recto] 1060
+[recto] Patria
+[recto] Aan de wel Edele heeren Bewind hebberen
+[recto] van de generale nederlandsche g'octroyeerde.
+[recto] Oost Indische Compagnie ter proesidiale Camer
+[recto] Amsterdam
+[recto] Wel Edele, Erntfeste,
+[recto] S:' Comps parijuerdoor. J vodt Achtb: wel wijse
+[recto] de saam. / voorzienige en zeer
+[recto] Genereuse Heeren!
+[recto] Gebiedende Heeren.
+[recto] Wlle
+[recto] Wij hebben de vrijheid genoomen
+[recto] onze jongste onderdaanige Letteren
+[recto] sub dato 3 deezer aan uwel Edele
+[recto] Groot Achtb: te addresseeren
+[recto] per
+[recto] waar de Caap
+[recto] spat
+[recto] H
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende
+[recto] Hout
+[recto] ontr
+[recto] tekende b
+[recto] Onderhebbende
+[recto] dit
+[recto] 1172
+[recto] Hee
+[recto] scheede Vare dat
+[recto] le Gestr Heer
+[recto] er van Cabo
+[recto] er, ofte aan de
+[recto] „eliere
+[recto] erdeerd
+[recto] e
+[recto] ero van
+[recto] ydende
+[recto] ^de Ridder
+[recto] eener
+[recto] rband
+== NL-HaNA_1.04.02_4333_0059 | #59 | sides: recto,verso | lines: 59
+[recto] 1061
+[verso] per de particuliere scheepen
+[verso] de Ionge Jacob en Alo
+[verso] bertus en de Ian en
+[verso] Cornelis, die successivelyk
+[verso] op den 7 en 14 deezer hunne
+[verso] reize naar Patrici onder
+[verso] noomen hebben.
+[verso] wij laaten deezen wederom
+[verso] dienen tot bijgeleide van de
+[verso] Pacquetboot de Faam voor
+[verso] Reekening van uwer wel Eaele
+[verso] Groot: Achtb: kamer te Batavia
+[verso] belaaden, en op 18 deezer alhier
+[verso] gearriveerd, biedende uwelE delen
+[verso] Groot Achtb: aan het kort
+[verso] Factuur van dier Lading
+[recto] beneevens de onkostreekening
+[recto] van die Bodem terwijl wij
+[recto] ons omtrent het langer ver
+[recto] toef van dat scheepje als de
+[recto] ordres toelaaten, eerbiedig ge
+[recto] draagen aan het deeze verzellend
+[recto] schriftelik declaratoir van den
+[recto] Equipagiemeester aan ons ingediens.
+[recto] Nog neemen wij de vrijheid
+[recto] uwel Edele Groot Achtb: aantebieden
+[recto] het duplicaat onzer eerbiedige
+[recto] Letteren sub dato 6 Augusn leden
+[recto] aan het illustre Collegie van heeren
+[recto] Zeeventhienen opricht, waaruit uwelEdele
+[recto] Groot Achtb zullen kunnen ontwaaren de
+[recto] maatregulen die wij hebben moeten neemen
+[verso] beneevens
+[recto] om
+[recto] waar de Caap
+[recto] P't Schip t
+[recto] d
+[recto] dui
+[recto] 2
+[recto] Bodem
+[recto] Houtwarken
+[recto] Ontfangen te hebben de vol
+[recto] de betee
+[recto] Onderhebbende
+[recto] shende Vare dot
+[recto] le Gestr Heer
+[recto] ir van Cabo
+[recto] er, ofte aan de
+[recto] releene te Com
+[recto] zyn
+[recto] n heer
+[recto] erband
+[recto] Zidder
+[recto] de
+[recto] ere van
+[recto] ydende
+[recto] ndeerd
+[recto] 6„
+== NL-HaNA_1.04.02_4333_0060 | #60 | sides: recto,verso | lines: 55
+[recto] 1062
+[recto] In 't Casteel de goede hoop
+[recto] den 38 Augustus 1789
+[recto] J: N: S: Van Zijnden/.
+[verso] om het vertrek te verhaasten van het bij
+[verso] uwel Edele Groot Achtb kamer ingehuurd
+[verso] schip de Eensgezindheid, 't welk op den
+[verso] 1 25 deezer naar Batavia is vertrokken.
+[verso] Wij beveelen uwel Edele Groot Achtb
+[verso] en de dierbaare belangens der Edele
+[verso] Maatschappij in Godes bescherminge
+[verso] en teekenen ons met de volmaakste
+[verso] Eerbied.
+[verso] WelEdele Erntfeste,
+[verso] Groot Achtb: wel wijse
+[verso] voorzienige zeer
+[verso] genereuse en
+[verso] Gebiedende Heeren:
+[recto] UwewelEdele Groot Achtb: zeer
+[recto] onderdanige en gehoorsz: Dienaren
+[recto] A. D Ee Suiar
+[recto] P J: Van den Graaff
+[recto] D„ Chinius
+[verso] Uwe
+[recto] waar de Caap
+[recto] Pr t schip t duij
+[recto] VDe
+[recto] Bodem Ontfangen te hebben de vol
+[recto] „aende Houtwerken
+[recto] deeze myn
+[recto] toekende bekenne
+[recto] Onderhebbende
+[recto] bin
+[recto] dik
+[recto] dil
+[recto] 1078
+[recto] 1173
+[recto] scheerde Vare (dat
+[recto] le Gestr Heer
+[recto] er van Cabo
+[recto] er, ofte aan de
+[recto] gelien
+[recto] ydende
+[recto] deze van geener
+[recto] ^ de Ridder
+[recto] e
+[recto] odeerd
+[recto] 6„
+[recto] te Com
+[recto] heer
+[recto] verband
+[verso] D
+== NL-HaNA_1.04.02_4333_0061 | #61 | sides: recto | lines: 24
+[recto] naar de Caap
+[recto] Pr 't schip t
+[recto] 24
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende
+[recto] Houtwerken
+[recto] ende bekenn
+[recto] Onderhebbende
+[recto] scheerde varedat
+[recto] d
+[recto] 6„
+[recto] er, ofte aan de
+[recto] eleen
+[recto] erdeeid
+[recto] e
+[recto] ere van
+[recto] ydende verban
+[recto] heer
+[recto] om
+[recto] ir van Cabo
+[recto] le Gestr Heer
+[recto] n
+[recto] de Zidder
+== NL-HaNA_1.04.02_4333_0062 | #62 | sides: recto,verso | lines: 56
+[recto] Aan de WelEdele Gestrengen Heer
+[recto] den WelEdelen Groot-Achtb: Heer
+[recto] C: I: van de Graaff Gouverneur
+[recto] en Directeur van Cabo de Goede
+[recto] de ondergetekende Capitain Lieutenant en gezaghebber
+[recto] van de retournerende en alhier ter Rheede gearri
+[recto] „teerde Jaquet Boot de Faam heeft de Eer, uwelEdelen
+[recto] Goodt-Achtbare te berigten, dat het niet weldoene
+[recto] lyk is, om op den bepaalden tyd te kunnen vertrekken
+[recto] terwyl door zwaare forceeringen van Zeylen en zwaare
+[recto] stormen het tuigagie zeer ontramponeert is, en de
+[recto] lang zalinge gebroken, zo dat het geheele schip
+[recto] moet onttakeld worden: zo dat zulx wel 4 daagen
+[recto] langer zoude kunnen Franceren, als den tyd daar toe
+[recto] bepaald; Edog daar word alle moeiten aangewend
+[recto] om schielyk weder klaar te zyn, om de reise
+[recto] te kunnen vervorderen A Patria
+[recto] den ondergetekende meend hier meede voldaan
+[recto] te hebben, en maligd zig de vrijheid aan, om zig
+[recto] met alle hoog-Achtinge te ondertekenen
+[recto] Onderstond) WelEdele Groot Achtbare Heer
+[recto] UWelEdele Groot-Achtbare Gehoorsaamste
+[recto] en onderdanige dienaar (:was getekend:
+[recto] Luur Runken (in margine stondt/ Actum
+[recto] Cabo de Goede Hoop den 19 Aug: 1789
+[recto] Accordeert
+[recto] :D: Sure
+[recto] W Clever
+[recto] naar de Caap
+[recto] Pt schip t du
+[recto] W
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ken
+[recto] 1071
+[recto] d
+[recto] 1063
+[recto] out
+[recto] in
+[recto] ende bekenne
+[recto] Onderhebbende
+[recto] 113
+[recto] Hoop. &c. &c. &c
+[verso] Copia
+[recto] scheerde Vare dat
+[recto] ce Gestr Heer
+[recto] er van Cabo
+[recto] er, ofte aan de
+[recto] releere te Com
+[recto] ndeerd zyn heer
+[recto] ydende verband
+[recto] deze van geener
+[recto] de Ridder
+[recto] e
+[recto] 6„
+[recto] d
+== NL-HaNA_1.04.02_4333_0063 | #63 | sides: recto | lines: 23
+[recto] waar de Caap
+[recto] 't Schip t duijf
+[recto] de
+[recto] Bodem Ontfangen te hebben de vol
+[recto] 1076
+[recto] Houtumken
+[recto] de
+[recto] Onderhebbende
+[recto] b
+[recto] 109
+[recto] scheende vare dat
+[recto] le Gestr Heer
+[recto] er van Cabo
+[recto] er, ofte aan de
+[recto] geleene te Com
+[recto] edeeid zyn heer
+[recto] ydende verband
+[recto] ere van geener
+[recto] ^de Zidder
+[recto] e
+[recto] 6
+[recto] d
+== NL-HaNA_1.04.02_4333_0064 | #64 | sides: recto | lines: 52
+[recto] 1064
+[recto] N=o 1. Origineele Missive door den Ed heer Gouverneur
+[recto] en raad deezer plaatze aan het Illastre
+[recto] Collegie van heeren zeventhienen
+[recto] g'addresseerd —
+[recto] door als even gem: aan de Eet heeren
+[recto] Bewindhebberen ter kamer Delft gerigt
+[recto] „ 3 Copia kort factuur van de Lading van het gestrand
+[recto] schip 't Drie sal handelaars
+[recto] „ 4 _o Authenticq rapport van gecomm: over de uit
+[recto] evengem: bodem geborgene goederen
+[recto] „ 5 _ _: _o Acte Interrogatoir omtrend het Stranden
+[recto] van meerm: schip
+[recto] Compargemt s 6 Reekening van het geen ten deese gouvernemente aan
+[recto] gem: gestrande bodem & en dies
+[recto] Equipagie is verstrekt
+[recto] 25: 4: kaar 7 —o van naverstrekking aan 's Lands
+[recto] Register van alle zodanige brieven
+[recto] en papieren de welke onder huidigen datum
+[recto] van hier werden afgezonden, zo aan 't Illus
+[recto] dre Collegie der Heeren Zeventhienen als
+[recto] aan de partic: Camer Delftpr. het
+[recto] Schip de Janen Cornelis namentlijk
+[recto] er, ofte aan de
+[recto] geleere te Com
+[recto] ndeerd zyn heer
+[recto] ydende verband
+[recto] de Ridder
+[recto] Schip
+[recto] waar de Caap
+[recto] Pr 't schip t duij
+[recto] IDe
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende
+[recto] bod
+[recto] Houtoeken
+[recto] deeze
+[recto] teekende bekenne
+[recto] Onderhebbende
+[recto] 1074
+[recto] di
+[recto] 117 a
+[recto] scheerde Vare dat
+[recto] d
+[recto] 6„
+[recto] 6
+[recto] te
+[recto] eze van geener
+[recto] er van Cabo
+[recto] le Gestr Heer
+[recto] ses
+== NL-HaNA_1.04.02_4333_0065 | #65 | sides: recto,verso | lines: 27
+[verso] schip van Oorlog de Am„
+[verso] „phitrite -
+[verso] In 't Casteel de Goede Hoop den 6 August 1787
+[verso] GClerecq
+[verso] Saure
+[recto] naar de
+[recto] 't schip t du
+[recto] Caap
+[recto] nde
+[recto] Bodem
+[recto] Houta
+[recto] Ontfangen te hebben de vol
+[recto] be
+[recto] Onderhebbende
+[recto] scheede vare dat
+[recto] le Gestr Heer
+[recto] er van Cabo
+[recto] ar, ofte aan de
+[recto] „eleene
+[recto] erdeeid
+[recto] e
+[recto] ere van
+[recto] ydende
+[recto] de zidder
+[recto] ban
+[recto] heer
+[recto] te Com
+== NL-HaNA_1.04.02_4333_0066 | #66 | sides: recto | lines: 45
+[recto] Patria-
+[recto] Aan de Wel Edele Hoog Achtb: Heeren Bewindhebberen
+[recto] gecomm: ter Illustre vergadering van zeventhienen represtentee„
+[recto] rende de generale neder t geoftroijeerde ost inds che Comp„s ter praisodiele kamer
+[recto] d
+[recto] Amsterdam
+[recto] Wel Edele Erntfeste,
+[recto] Pr biet part Schip
+[recto] Hoog Achtb: hoogwijze,
+[recto] de Ian en Cornelis
+[recto] voorzienige, en zeer
+[recto] genereuse heeren
+[recto] Hoog Gebiedende Heeren.
+[recto] De particuliere ingehuurde schee„
+[recto] „pen de Ionge Iacob en Albertus, de dap„
+[recto] „perheid en de Jan en Cornelis, waar
+[recto] de Ridder
+[recto] meede
+[recto] naar de Caap
+[recto] t schip t du
+[recto] JW
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende
+[recto] HoutoeVen
+[recto] ze myne Onderhebbende
+[recto] ekeende bekenne
+[recto] binnen
+[recto] 1113
+[recto] 1065
+[recto] scheende Vare
+[recto] le Gestr Heer
+[recto] er van Cabo
+[recto] ar, ofte aan de
+[recto] „eleene
+[recto] ndeeid
+[recto] e
+[recto] dere van
+[recto] ydende verband
+[recto] geener
+[recto] heer
+[recto] om
+[recto] te
+[recto] 6„
+[recto] d
+== NL-HaNA_1.04.02_4333_0067 | #67 | sides: recto,verso | lines: 62
+[recto] 1066
+[verso] meede wij de vrijheid hebben genoomen,
+[verso] ons jongste onderdanige Letteren sub da„
+[verso] „to 3 deezer aan Uwe wel Edele hoog
+[verso] Achtb: te addresseeren tot nu toe Baar
+[verso] fals niet verlaaten hebbende, zoo profite„
+[verso] „ren wij van deeze geleegendheid om Uwe
+[verso] Wel Edele Hoog Achtb: pligtschuldige
+[verso] Communicatie te geeven van het behouden
+[verso] arrivement op gisteren van 's Lands Pre„
+[verso] „gat van Oorlog de Phetis, en 's Lands
+[verso] Snaauw van Oorlog de Zwaluwe, beide
+[verso] in zeer goede staat. —
+[verso] Bij onze eerbiedige Letteren van
+[verso] den 23 Mei jongstleeden aan Uwe
+[verso] wel Edele Hoog Achtb: pligtschuldig
+[verso] verslag gedaan hebbende van het onge¬
+[recto] sen
+[recto] lukkig staanden van het particulier
+[recto] schip het Drie tal handelaars en van
+[recto] de maatregulen die wij hadden genoo„
+[recto] „men om deszelfs lading te salvoeren,
+[recto] zo agten wij ons verpligt Uwe Wel
+[recto] Edele hoog Achtb: te bedeelen
+[recto] dat door den onderkoopman Oloff
+[recto] Martini Bergh de ordinaire ge„
+[recto] Committeerdens Hendrik Oostwald
+[recto] Eeksteen en Johan David
+[recto] Kuuhl beneevens den boekhouder
+[recto] Petrus Johannes Fruter door
+[recto] ons expres tot berging dier Lading
+[recto] gecommitteerd, aan ons op heeden is
+[recto] ingedient een rapport, waar van wij
+[recto] de vrijheid neemen Uwe wel Edele
+[recto] verband
+[recto] dere van geener
+[recto] de zidder
+[verso] lukkig
+[recto] hoog
+[recto] waar de Caap
+[recto] Pr t Schip t duij
+[recto] ende
+[recto] Bodem Ontfangen te hebben de vol
+[recto] tekende beken
+[recto] Onderhebbende
+[recto] 107
+[recto] Hout
+[recto] aa
+[recto] scheerde vare
+[recto] d
+[recto] 6„
+[recto] ar, ofte aan de
+[recto] geleene
+[recto] ndeeid
+[recto] uydende
+[recto] zyn
+[recto] heer
+[recto] te Com
+[recto] er van Cabo
+[recto] le Gestr Heer
+== NL-HaNA_1.04.02_4333_0068 | #68 | sides: recto,verso | lines: 63
+[recto] 1067
+[verso] Hoog Achtb: het Copia authenticq
+[verso] aan te bieden en waaruit Uwe wel
+[verso] Edele hoog Achtb: tot ons innigst
+[verso] leedweezen des gelievende zullen
+[verso] kunnen zien, hoe van de precieuse
+[verso] Lading van die Bodem niets is
+[verso] geborgen als
+[verso] 7 pakken guinees Lijwaat
+[verso] 105 p„s guinees lijwaat en Moerissen
+[verso] 2 pakken Bethilles
+[verso] 158 p„s Bethilles
+[verso] 3 pakken diverse roemaals en paliacaats. —
+[verso] 859 p„s diverse roemaals Paliacaats en Chelassen
+[verso] 600 p„s difecte stukken en brokken lijwaat in zoort
+[verso] 1 kisje met een overblijfsel natte Indigo.-
+[verso] 295 zakken met Sappanhout
+[recto] 27 kisten met handrottingen
+[recto] 116 zakken met Nagalen
+[recto] 113½ d: met Nagulen, Coffij boonen, Peper, en
+[recto] schelpen door elkander vermengt,
+[recto] beneevens nog een partijtje los opge„
+[recto] „spoelde lappen en gescheurde
+[recto] Vodden Lijnwaat in zoort-
+[recto] De meeste dier geborgene en
+[recto] opgespoelde Lijwaaten zich geheel
+[recto] nat en van het zeewater doorweekt
+[recto] bevindende, hebben wij bij het
+[recto] eerste naricht daarvan de Lee„
+[recto] „den van den raad van Justitie
+[recto] Saloman van Echten en Rijno
+[recto] Johannes van der Riet benee¬
+[recto] „vens den onderkoopman Ian
+[recto] ^ de Ridder
+[verso] 27
+[recto] Fredrik
+[recto] waar de Caap
+[recto] schip t duij
+[recto] 1
+[recto] Bodem Ontfangen te hebben de vol
+[recto] nd
+[recto] ende beten
+[recto] Onderhebbende
+[recto] ne
+[recto] binne
+[recto] 1182
+[recto] scheerde vare
+[recto] d
+[recto] 6„
+[recto] ar, ofte aan de
+[recto] gelieve
+[recto] ndereid
+[recto] e
+[recto] dere van
+[recto] ydende
+[recto] te
+[recto] Com
+[recto] heer
+[recto] verband
+[recto] geener
+[recto] er van Cabo
+[recto] le Gestr Heer
+== NL-HaNA_1.04.02_4333_0069 | #69 | sides: recto,verso | lines: 58
+[recto] 1068
+[verso] Fredrik Kirsten gecommitteerd
+[verso] omme naar maate dat die Lijwaaten
+[verso] zouden zijn geborgen onder opzicht
+[verso] van den onderteekende hoofd Ad„
+[verso] „ministrateur dezelve in ontfangst
+[verso] te neemen, en behoorlijk te laaten
+[verso] uitspoelen, of wasschen, en in zo da
+[verso] „nige staat te brengen, om te kun„
+[verso] „nen werden vervaerd, en welke
+[verso] gecommitteerdens dan ook daar
+[verso] toe alle hunne pligtschuldige
+[verso] pogingen hebben aangewend -
+[verso] Dan alzoo 's nachts tusschen
+[verso] den 13 en 14 der Iongstverlopene
+[verso] maand Iulij gemeld schip het Dri
+[verso] tal handelaars, door de hoog
+[recto] gaande zeeëen buiten gewoone
+[recto] zwaare brandingen, en zeestortin„
+[recto] „gen, met het over boord vallen
+[recto] van de Bezaansmast, en het bree„
+[recto] „ken der andere Masten, aanspaanders
+[recto] is geslaagen en successivelijk stuks„
+[recto] „gewijs het grootste gedeelte van het
+[recto] wrak aan strand gedreeven heb„
+[recto] „ben wij alle hoop moeten laaten
+[recto] vaaren om van de lading van die
+[recto] nootlottige Kiel iets meerder te
+[recto] kunnen bergen, en derhalven aan
+[recto] den schipper Jan Kleijn toege„
+[recto] staan om de wijd en zijd verspreide
+[recto] stukken van het wrak beneevens
+[recto] het geen van het toebehooren van
+[recto] geleene te Com
+[recto] heer
+[recto] dere van geener
+[recto] de zidder
+[verso] gaande
+[recto] naar de Caap
+[recto] Pr t Schip t dui
+[recto] Bodem
+[recto] Ontfangen te hebben de vol
+[recto] be
+[recto] Onderhebbende
+[recto] 107
+[recto] scheende vare dat
+[recto] le Gestr Heer
+[recto] er van Cabo
+[recto] ar, ofte aan de
+[recto] 6„
+[recto] nde eid
+[recto] ydende e
+[recto] zyn
+[recto] verband
+[recto] zes
+[recto] die
+== NL-HaNA_1.04.02_4333_0070 | #70 | sides: recto,verso | lines: 58
+[recto] 1069
+[verso] die Bodem was geborgen voor reecq:
+[verso] van zijnen Rheeders of de geene die
+[verso] het zoude mogen aangaan publicqte
+[verso] verkoopen uitgezondert het geborge
+[verso] „ne geschut, dat wij in goede bewaa„
+[verso] „ring hebben genoomen, om 't zelve
+[verso] te laaten transporteeren en van
+[verso] dies bevinding aan Uwe wel Edele hoog
+[verso] Achtb: nader verslag te doen -
+[verso] Deeze verkooping op den 31 Iulij
+[verso] Jongstleeden geschied zijnde, heeft
+[verso] den schipper Jan Kleijn, zig op he
+[verso] den aan ons bij requeste geaddres„
+[verso] „seert, met verzoek omme beneevens
+[verso] zijne nog overig zijnde Equipagie
+[verso] met voorwaards gemelde drie part
+[recto] „culiere scheepen te mogen vertrekken,
+[recto] in welk verzoek wij vermeent hebben te
+[recto] moeten Condescendeeren, onder voorwaarden
+[recto] dat hij zoo voor zich zelfs als zijne Equi¬
+[recto] „pagie omtrent het Transport- en Kost
+[recto] geld de nodige schikkingen zal maa„
+[recto] „ken met de schippers van die
+[recto] Scheepen
+[recto] Na dat wij tijding hadden
+[recto] bekoomen dat meermeld schip
+[recto] het drie tal Handelaars
+[recto] aan spaanders was geslaagen, en
+[recto] dus de tegenwoordigheid van
+[recto] die schippers en Equipagie niet
+[recto] meerder aan het strand wierd
+[recto] vereischt en zij zig kaapwaards
+[recto] ar, ofte aan de
+[recto] Com
+[recto] heer
+[recto] verban
+[recto] ^de Ridder
+[verso] culeive
+[recto] hadde
+[recto] naar de
+[recto] Pr 't schip t duij
+[recto] Caap
+[recto] if
+[recto] Bodem Ontfangen te hebben de vol
+[recto] nde
+[recto] Onderhebbende
+[recto] 1
+[recto] scheerde vare
+[recto] d
+[recto] 6„
+[recto] gelieve
+[recto] e de reid
+[recto] deze van
+[recto] dende ve
+[recto] ir van Cabo
+[recto] le Gestr Heer
+== NL-HaNA_1.04.02_4333_0071 | #71 | sides: recto,verso | lines: 62
+[recto] 1070
+[verso] hadde begeeven hebben wij den Equi¬
+[verso] „pagiemeester Cornelis Cornelisz benee„
+[verso] wens de Capitains ter Zee Christi„
+[verso] aan van veerden Laurentsmith
+[verso] en Tobias Cuperus expresselijk
+[verso] gecommitteerd en gequalificeerd,
+[verso] omme ter requisitie en ten over„
+[verso] „staan van den onderteekende
+[verso] Independent Fiscaal naauwkeu„
+[verso] „rig te onderzoeken en na te gaan
+[verso] de reedenen, waar aan het ongeluk„
+[verso] „kig stranden van meerm: Bo„
+[verso] „dem te attribueeren was! ten
+[verso] dien einde met de uitterste ac„
+[verso] „curatisse te Examineeren of en
+[verso] in hoe verre de Schipper Jan
+[recto] Hout
+[recto] Kleijn, en de overige stuurlieden,
+[recto] dewelke zich hier toe ter Exami„
+[recto] „natie voor gecommitteerdens
+[recto] uit den raad van Justitie heb„
+[recto] ben moeten stellen naar
+[recto] luid, van de Chertepartij, een
+[recto] ieder in't zijne zig heeft ge„
+[recto] „draagen naar de instructi„
+[recto] „en door Uwe wel Edele hoog
+[recto] Achtb: voor de Scheepsover„
+[recto] heeden vast gesteld en be„
+[recto] „raamd; gevolgelijk of door
+[recto] hen wel alles was geobser„
+[recto] „veerd geworden, wat tot be„
+[recto] „houd of redding maar eenig„
+[recto] „zents had kunnen strek„
+[recto] ar, ofte aan de
+[recto] geleeve te Com
+[recto] ndereid zyn heer
+[recto] eydende verban
+[recto] eener
+[recto] ^de Ridder
+[recto] dere van
+[verso] klein
+[recto] „ken:
+[recto] waar de Caap
+[recto] Pr t Schip tu
+[recto] 147
+[recto] Bodem
+[recto] Ontfangen te hebben de vol
+[recto] myne Onderhebbende
+[recto] kende bekenne
+[recto] 1071
+[recto] 103
+[recto] en
+[recto] aar
+[recto] scheende vare dat
+[recto] d
+[recto] 6„
+[recto] 6„
+[recto] ir van Cabo
+[recto] le Gestr Heer
+[recto] zes
+== NL-HaNA_1.04.02_4333_0072 | #72 | sides: recto,verso | lines: 61
+[recto] 1071
+[verso] „ken, dan wel of daar omtrend
+[verso] ook eenige Negligence of wan
+[verso] devoir had plaats ge„
+[verso] had.—
+[verso] Tot welk onderzoek de
+[verso] voormelde gecommitteer„
+[verso] „dens dan ook op den 28 Ju¬
+[verso] lij ten overstaan van
+[verso] twee leeden uit den
+[verso] Raad van Iustitie, ge„
+[verso] „vaceerd hebben en be„
+[verso] tuigd dat daar de scheeps
+[verso] overheeden door het dik¬
+[verso] „ke weer verhindert
+[verso] zijn geworden om attent
+[recto] Ontfangen te hebben de vol
+[recto] ven
+[recto] deH
+[recto] te kunnen peilen, de
+[recto] voorzigtigheid dus van
+[recto] hent had gevorderd,
+[recto] om, na dat zij had„
+[recto] den gegiste de
+[recto] klippen aan de
+[recto] Zaid West hoek,
+[recto] van de Baai gepas„
+[recto] seerd te zijn, meer
+[recto] westelijken aan te
+[recto] boegen, omme ver„
+[recto] mits zij geene
+[recto] vaste pyling kon„
+[recto] „den hebben on„
+[recto] der de Westwal
+[recto] op behoorlijke diep„
+[recto] ir van Cabo
+[recto] ar, ofte aan de
+[recto] geleeve te Com
+[recto] ndeheid zyn heer
+[recto] lydende verband
+[recto] deze van geener
+[recto] ^de Ridder
+[verso] te
+[recto] waar de Caap
+[recto] P 't schip t duij
+[recto] ij
+[recto] Bodem
+[recto] Hout
+[recto] deze myne Onderhebbende
+[recto] tekende bekenne
+[recto] 109
+[recto] 1113
+[recto] en
+[recto] „aar
+[recto] scheende vare dat
+[recto] le Gestr Heer
+[recto] d
+[recto] 6„
+[recto] e
+== NL-HaNA_1.04.02_4333_0073 | #73 | sides: recto,verso | lines: 61
+[recto] 1072
+[verso] te te Ankeren, en
+[verso] dat dus aan de
+[verso] hier tegen overge¬
+[verso] stelde handelwij¬
+[verso] ze der scheepsover¬
+[verso] „heeden het stran„
+[verso] „den van hunne Bo„
+[verso] „dem moet wor„
+[verso] „den toegeschree„
+[verso] ven zoo als Uwe
+[verso] Wel Edele Hoog
+[verso] Achtb: zulks bij
+[verso] geliefte zullen
+[verso] kunnen zien
+[verso] bij de deeze in Copia
+[verso] authenticq verzellende
+[recto] Ontfangen te hebben de vol
+[recto] dik
+[recto] Acte interrogatoir
+[recto] daarvan gepasseerd,
+[recto] en die wij hebben
+[recto] vermeend Awe
+[recto] Wel Edele hoog
+[recto] Achtb: te moeten
+[recto] aanbieden, om
+[recto] daar van zodanig
+[recto] gebruik te kun„
+[recto] nen maaken als
+[recto] Uwe wel Edele hoog
+[recto] Achtb: zullen vin„
+[recto] „den te behooren-
+[recto] geener
+[recto] de Ridder
+[recto] Hiermeede
+[recto] deeze besluitende
+[verso] Acte
+[recto] beveelen
+[recto] waar de Caap
+[recto] Pr 't Schip t
+[recto] d
+[recto] 14
+[recto] 4
+[recto] Bodem
+[recto] E
+[recto] out
+[recto] ekeende bekend
+[recto] Onderhebbende
+[recto] n
+[recto] scheerde vare dat
+[recto] le Gestr Heer
+[recto] ir van Cabo
+[recto] ar, ofte aan de
+[recto] geleeve te Com
+[recto] „dereid zyn heer
+[recto] eydende verband
+[recto] deze van geen
+[recto] ses
+[recto] aa
+== NL-HaNA_1.04.02_4333_0074 | #74 | sides: recto,verso | lines: 47
+[recto] 1073
+[recto] Int Casteel de goede Hoop
+[recto] den 6 August 1789.
+[verso] beveelen wij Uwe
+[verso] Wel Edele hoog
+[verso] Achtb: beneevens
+[verso] de gewigtige belan„
+[verso] „gens der Edele maat„
+[verso] schappije in Godes
+[verso] veilige hoede en teeke„
+[verso] „ne ons met de mees„
+[verso] „te Eerbied —
+[verso] Wel Edele Erntfeste
+[verso] Hoog Achtb: hoog wijse
+[verso] voorsienige zeer
+[verso] genereuse en 5oog
+[verso] gebiedende Heeren
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Hout en
+[recto] Uwe wel Edele Hoog Achtb: zeer
+[recto] onderdanige get: en gehoorse Dienaaren
+[recto] Fid . Suiur
+[recto] schende Vare (dat
+[recto] le Gestr Heer
+[recto] ur van Cabo
+[recto] ar, ofte aan de
+[recto] 1717 en Reede van dud e hooven
+[recto] de Ridder
+[recto] C: J: Vanden Graaff:
+[recto] phenius
+[recto] J N: S: Van Zijnden.
+[verso] Uwe
+[recto] naar de Caap
+[recto] Pr 't schip t duij
+[recto] 1
+[recto] deeze myne Onderhebbende
+[recto] tkende bekenne
+[recto] 107
+[recto] 1097
+[recto] 17a
+[recto] geleeve te Com
+[recto] „deheid zyn heer
+[recto] eydende verband
+[recto] deze van geener
+== NL-HaNA_1.04.02_4333_0075 | #75 | sides: recto,verso | lines: 19
+[recto] scheende vare dat
+[recto] deheid zyn heer
+[verso] 1
+[recto] naar de Caap
+[recto] t schip t
+[recto] Bodem Ontfangen te hebben de vol
+[recto] deeze in
+[recto] toekende beken
+[recto] Onderhebbende
+[recto] dik
+[recto] 13
+[recto] le Gestr Heer
+[recto] van Cabo
+[recto] ar, ofte aan de
+[recto] geleeve te Com
+[recto] eyd ende verband
+[recto] dere van geener
+[recto] de ridder
+[recto] 6
+== NL-HaNA_1.04.02_4333_0076 | #76 | sides: recto | lines: 61
+[recto] 1074 Zent
+[recto] Den WelEdele Gestrenge Heere Cornelis Jacob van de
+[recto] Graaff Gouverneur en Directeur van Cabo de Goede hoop de
+[recto] in den resorte van dien &:o a„a & d' ondergeteekendens expreszeer
+[recto] hebbende gelieven te committeeren, om hun te begeeven
+[recto] naar 't strand van Muijzenburg, alwaar 't particulier ten
+[recto] schip 'Idrietal Handelaars is verongelukt, en aldaar zoo Jn
+[recto] veel maarimmers van de lading van gem: Bodem te red„
+[recto] den zal weesen, te bergen, en onder derzelver bewaaringen
+[recto] men
+[recto] te houden daar van aantekening te houden, en die aan
+[recto] geborgene goederen, met daartoe van hier expres„tien
+[recto] „selijk af te zendene wagens herwaards overtezenden acht
+[recto] zo verklaaren wij, in opvolging deezer g'Eerde ordre
+[recto] ons derwaards begeeven en zulx verrigt te hebben,
+[recto] te
+[recto] en de successivelijk geloste, dog meest aldaar aan't uij
+[recto] 't strand opgespoelde, hier onder volgende goederen en
+[recto] dewelke alle nat zijn geweest, van tijd tot tijd Caab„
+[recto] waarts, aan d' alhier Expresselijk tot den ontfangst en
+[recto] Gecommitteerde Leeden uit den E Agtb: raad van aar
+[recto] scheende vare dat
+[recto] Justitie deezes Gouvernements salomon van Echten
+[recto] en Rijno Johannes vander Riet, mitsgaders den
+[recto] 1
+[recto] onderkoopman Ian Fredrik Kirsten opgezonden„
+[recto] te hebben bestaande dezelve in als volgt, Na„
+[recto] 2
+[recto] mentlijk.
+[recto] 7. Pakken diverse Guinees Lywaat, zoo opgespoelde
+[recto] als in't schip opgevist.
+[recto] 105: P=s diverse Guinees Lywaat en Moerissen
+[recto] los opgespoeld.
+[recto] 2: Pakken Bethilles, in het schip op„
+[recto] gevist.
+[recto] 158: P=s Bethilles, los opgespoeld. —
+[recto] vte
+[recto] naar de
+[recto] tS
+[recto] Caap
+[recto] Copia
+[recto] Bodem Ontfangen te hebben de vol
+[recto] e
+[recto] myne Onderhebbende
+[recto] ende bekenne
+[recto] deeze
+[recto] 71
+[recto] d
+[recto] dik
+[recto] 1113
+[recto] le Gestr Heer
+[recto] r van Cabo
+[recto] ar, ofte aan de
+[recto] geleeve
+[recto] nde reid
+[recto] deze van geener
+[recto] dende verband
+[recto] zyn heer
+[recto] te Com
+[recto] de zidder
+[recto] ses
+== NL-HaNA_1.04.02_4333_0077 | #77 | sides: recto,verso | lines: 82
+[recto] 1075 nent
+[verso] 3 Pakken diverse Roemaals en  zoo in het schip
+[verso] Palliacaats — opgevischt
+[verso] 859 P=s diverse roemaals Paliacaats en Cals Los op
+[verso] gespoeld
+[verso] Chelassen.
+[verso] 600: P=s defecten stukken en brokken, diverse lij„
+[verso] waat opgespoeld.
+[verso] 2: Lakken, waar in gevuld diverse los opge„
+[verso] spoelde lappen en gescheurde
+[verso] vodden Lywaat in zoort.
+[verso] I: kisje open en defect. opgespoeld, waar in een
+[verso] overblijfzel natte Indigo. —
+[verso] 295: Lakken, waaringevuld, het opgespoelde sap„
+[verso] panhout. —
+[verso] 27 kisten met handrottingen; uit het schip
+[verso] gelost in welke volgens d'op„
+[verso] schriften 50700 P=s waar van
+[verso] een kist open en defect is, op„
+[verso] gespoeld, beschreeven 959 p=s
+[verso] van dewelke 876 P=s handrot„
+[verso] tingen zijn opgevist, dies 74
+[verso] P=rs te min
+[verso] 116: zakken, waarin opgevuld, de in het schip
+[verso] opgeschepte Parioffel negulen,
+[verso] meede nat geweest
+[verso] waar in gevuld d'aan het strand ge„
+[verso] spoelde en bij elkanderen geza
+[verso] melde garieffel nagelen met
+[verso] Coffijboonen wat peper en schel„
+[verso] pen vermengd.
+[recto] Zynde van 't overige der lading, verders
+[recto] niets geborgen nog aanland gespoeld, als alleen,
+[recto] lijk eenige geborste en verscheurde Leedige Cof, heer
+[recto] fijbaalen, en leedige salpeter zakken, terwijl
+[recto] het grootste gedeelte der Nagulen, Peper, Coffij ten
+[recto] boonen en andere goederen meer, door dien
+[recto] de lading agter het schip, alwaar het zelve en
+[recto] tot de kielopen was, is uitgeslaagen, meest daar
+[recto] met d' Ebbe zeewaarts moet gedreeven zyn, en tieu
+[recto] duswijd en zijd in zee verspreijd, en ten eenen
+[recto] acht
+[recto] maal verlooren geraakt. —
+[recto] Heermeede gedenkende aan de zeer geheerde
+[recto] Intentie van UelEd: Gestr: en E gtb te hebben
+[recto] voldaan laatende ondergeteekendens deeze
+[recto] dienen voor nedrig rapport. —
+[recto] /:onderstond:/
+[recto] In't Casteel de Goede Hoop dn 5 Aug=s 1789
+[recto] /:was geteekend:/ O: M: Bergh, P: I: Pruter C„
+[recto] S: d: Eksteen, D: Kuuhl
+[recto] Accordeerd
+[recto] deze van geener
+[verso] 113:½
+[verso] _
+[verso] zynde
+[recto] e
+[recto] n
+[recto] heid zyn heer
+[recto] eydende verband
+[recto] geleene te Com
+[recto] ar, ofte aan de
+[recto] r van Cabo
+[recto] le Gestr Heer
+[recto] scheemde vare dat
+[recto] „aar
+[recto] en
+[recto] de Ridder
+[recto] dik
+[recto] 1076
+[recto] Bodem Ontfangen te hebben de vol
+[recto] deeze in
+[recto] Hout
+[recto] keende bekenne
+[recto] Onderhebbende
+[recto] 2
+[recto] Pr 't Schip t
+[recto] naar de Caap
+[recto] Copia
+== NL-HaNA_1.04.02_4333_0078 | #78 | sides: recto,verso | lines: 56
+[verso] nagezien.
+[recto] Compareerde voor de ondergeteek gecommitt ee
+[recto] den E achtb raad van Justitie deezes gouvernements
+[recto] de Capita ten Zee Christiaan van Veerde en Lon
+[recto] rens Smit, als niet en beneevens den Capitn
+[recto] ter zee en Equipagie meester Cornelis Cornelisz en
+[recto] der meede Capitn ten zee Tobias
+[recto] uperus en groe
+[recto] geschriftelyke Commissie door den wel Ed gestr heer
+[recto] Gouverneur sub dato 20 deezer lopende maand
+[recto] July gequalificeerd en gecommitteerd zyn, ten
+[recto] eende als zeekandige ten overstaan van den Jn
+[recto] depentent Fiscaal deezes gouvernements d'E
+[recto] Johan Nyl
+[recto] achtb Heer M=r Steeve van Lynden, nauw keu
+[recto] „rig te onderzoeken en nategaan de reedenen, waar
+[recto] aan het ongeluvnig stranden van het particu
+[recto] lier schip Pdrietae Handelaars en de nacht
+[recto] tusschen den 16 en 17 may Jongstl: omtrend
+[recto] de zogenaamde Swarte klip voorgevalle, te
+[recto] actribueeren zij ^ ten dien eynde met de ui
+[recto] terste accuratesse te Examineeren, of en
+[recto] en hoeverre deSchipper Jan Klyn ende
+[recto] overige stuurlieden van diensbodem een
+[recto] doer in het zyne, zich heeft gedragen naar
+[recto] Instructien door de E Comp: voor de scheende vare
+[recto] le Gestr Heer
+[recto] „ps Overheeden vastgesteed en beraamd,
+[recto] ur van
+[recto] gevolgelyk of door hen wel alles is geob„
+[recto] ar, ofte aan de
+[recto] serveert geworden, wat tot behoud en red„
+[recto] geleeve
+[recto] „ding van het schip maar eenigsints kondeheid zyn
+[recto] uydende verband
+[recto] strekken, dan welf daaromtrend ook ee
+[recto] dere van g
+[recto] eener
+[recto] „nige negligentie of wan deroir heeft
+[recto] de zidder
+[recto] plaats gehad, ten eenre, en de Schipjaer
+[recto] Jan Klyn, beneevens de Stuurlieden
+[recto] Corneles
+[verso] Kalvers
+[verso] Copia
+[recto] de
+[recto] Caap
+[recto] Bodem
+[recto] Ontfangen te hebben de vol
+[recto] bekenn
+[recto] Onderhebbende
+[recto] 107
+[recto] dik
+[recto] N
+== NL-HaNA_1.04.02_4333_0079 | #79 | sides: recto,verso | lines: 83
+[verso] antwoord als toen
+[verso] dik weer gehad heb„
+[recto] „wy hebben een wynig
+[recto] dieper willen enloopen, en
+[recto] als onze Coyling goed was
+[recto] geweest dan zoude wi op be
+[recto] maar van de westhoek
+[recto] het dik weer slagte moeten
+[verso] Corneles Adriaanse en Jan Jacobs
+[verso] als zig diesweegens ten Examinatie stel
+[verso] lende ter andere zyde, En hebben dezelve
+[verso] zeekundigen, inteegenwoordigheid van ons
+[verso] gecommitt uit welgemelde raade mits„
+[verso] gaders ter requisitie van den E agtb heer
+[verso] Independent Fiscaal de geexamineerde
+[verso] de volgende door hun neevens boven antw, wel vande Zuidhoek
+[verso] gemelde Equipagie meester Corneles
+[verso] Cornelesz en Capitain ten Zee Tobias
+[verso] Caperus, geconsipieerde vraag princ
+[recto] gissen
+[verso] ten voorgehouden, gelyk ook door
+[verso] E
+[verso] de geexamineerdens daar op ten hun
+[verso] „nen verantwoording zodanige res„
+[verso] „ponseren zyn gegeeven als bezyden hoorlyke waaterhebbe kunne
+[recto] ankeren.
+[verso] ieder vraag staat aangeteekend.
+[verso] brt1
+[verso] of de Geexamineerden
+[verso] by het inzylen der baag
+[recto] fals s avonds te vyff
+[recto] uuren wanneer de laat¬
+[recto] ste pyling genoomen is
+[recto] dik of helder weer hebben ge
+[recto] of zy verzeekerd zyn dat
+[recto] der baay hebben wy, om die Coyling goed genomen
+[recto] Art
+[recto] 3
+[recto] Waarom de geexamineerdens
+[recto] nadat zy gisten ruim de
+[recto] klip het ambeeld gepasseerd,
+[recto] te zyn; hun Cours niet weste
+[recto] lyker hebben gerigt, om de
+[recto] w't wal aan te looden, en al
+[recto] oude Vare dat
+[recto] daar met duester weer op
+[recto] een behoorlyke diepte te an
+[recto] le Gestr Heer
+[recto] keren ten eende den dag af ur van Cabo
+[recto] te wagten
+[recto] Art4
+[recto] Of zy tiet mallegaats Eyland
+[verso] fals
+[recto] niet
+[recto] waar de Caap
+[recto] 't schip t duij
+[recto] 1
+[recto] 1
+[recto] 2
+[recto] 60
+[recto] aende
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ver
+[recto] 1077
+[recto] dik
+[recto] deeze myne Onderhebbende
+[recto] dergeteekende bekenne
+[recto] Hout
+[recto] 2
+[recto] Art
+[recto] had.
+[recto] is
+[recto] ar, ofte aan de
+[recto] geleeve te Com
+[recto] heid zyn heer
+[recto] leydende verband
+[recto] deze van geener
+[recto] : de Ridder
+[recto] deert
+[recto] 103
+[recto] ia
+[verso] Een
+== NL-HaNA_1.04.02_4333_0080 | #80 | sides: recto,verso | lines: 104
+[verso] antw het mallegaat Eijland
+[verso] niet te hebbe ontdekt, zynde
+[verso] voorts en ook nadat zy ten
+[verso] anker lagen door de geexa
+[verso] wagt gehouden.
+[verso] antw bant Compas geen
+[verso] verandering te hebbe ontdets
+[verso] Cntrs wy hebbe hier toe wel onze
+[verso] uyterste best gedaan, maar ver
+[verso] deks gestaan heeft zyn der
+[verso] halve al onze paginge daar
+[verso] toe vrugteloos geweest
+[verso] niet ontdekt hebbe voor zi
+[verso] ten anker kwamen, en of er
+[verso] vervolgens nadat zy ten anker
+[verso] mineerders zelve behoorlyk kwamen goede wagt is ge
+[verso] waaran de geexan niet meer
+[verso] dan een half touw hebben uit
+[verso] gestooken, dewyl dog in 't Jour
+[verso] naal gemeld werd dat een sware
+[verso] rolleng van zee gelopen heeft
+[verso] antw brydagte wanneer de
+[verso] wend door kwan, de slag
+[verso] zyl bij te zetten, en dan
+[verso] was over te snyden. Om dus
+[verso] t daags anker te kunne
+[verso] presenteere, en van 't
+[verso] zelve daags anker t halve
+[verso] touw mitsg van 't suyde
+[verso] overige helft uyttesteeke gevolgelyk voor anderhalftouw
+[verso] men of meer, en een hancpoos te leggen ten einde dan nog 't
+[verso] derde anker te kunne presenteere
+[verso] of zy ook geduurende de ryo
+[verso] ontdekt hebbe dat han Com
+[verso] pas goed was.
+[verso] Art
+[verso] mits het water ten eerste tusschen of zy in dientyd wanneer zy het
+[verso] geschut en eenige Scheepsgoederen
+[verso] hebbe geborgen, geen Comptn:
+[verso] lading meer hebbe hunne kerge
+[recto] Op alle welke gedaane vragen en antwoorden
+[recto] de Examinateuren hebben gedeclareerd„
+[recto] dat, daar de g'examineerdens door het
+[recto] dikke weer verhindert wierden om attent
+[recto] te kunnen peijlen; de voorzigtigheid
+[recto] dus van hun had gevordert, om, na dat
+[recto] zij hadden gegist de klippen aan de
+[recto] zuidwesthoek der baai gepasseerd
+[recto] te zijn, meer westelijker aan teboegen
+[recto] ten einde, vermits zij geene vaste
+[recto] pijling konde hebben aldaar onder de
+[recto] westwal op behoorlijke diepte te ankeren
+[recto] en dat dus aan de hier tegen overgestelde
+[recto] handelwijs der g'examineerdens, het
+[recto] stranden van hun bodem zoude ioe
+[recto] ten worden g'attribueerd; schoon zy
+[recto] Examinateuren egter betuigen moeten
+[recto] dat de g'examineerdens een zeer exact
+[recto] Journaal hebben gehouden, en niet
+[recto] alleen geduurende de reize stiptelijk
+[recto] naar de Instructien der E Comp=e hebben
+[recto] te werk gegaan maar ook in het hun
+[recto] overgekoomene ongeval, even voor en
+[recto] by het stranden van het schip alles heb
+[recto] ben aangewend wat tot behoud van oude vare dat
+[recto] den bodem immes van Hun heeft
+[recto] le Gestr Heer
+[recto] ur van Cabo
+[recto] kunnen gevordert worden
+[recto] ar, ofte aan de
+[recto] Al 't voorenstaande betuigen
+[recto] de ondergeteekende Examinateuren geleeve te Com
+[recto] heid zyn heer
+[recto] na hunne beste kennis en weeten
+[recto] schap te hebben onderzogt gelyk de leydende verband
+[recto] g'Examineerdens verklaarde de hun deze van geener
+[recto] voorgestelde vragen na waarheid te heb„
+[recto] p: de Ridder
+[recto] ben beantwoord; bereid zynde het
+[recto] een en ander des gerequireerd wor
+[recto] dende nader gestand hebden
+[recto] /:onderstond:/
+[recto] Aldus ondervraagt en beantwoord
+[recto] aen
+[recto] H
+[verso] houden
+[verso] Art5
+[recto] waar de Caap
+[recto] Pr t Schip t duijfge
+[recto] pia
+[recto] ende
+[recto] Bodem Ontfangen te hebben de vol
+[recto] 1078
+[recto] dik
+[recto] deeze myne Onderhebbende
+[recto] Hout
+[recto] toekende besien
+[recto] N
+[recto] Zoort
+[recto] deert
+[recto] Vier
+[verso] Art 6
+== NL-HaNA_1.04.02_4333_0081 | #81 | sides: recto,verso | lines: 35
+[verso] aan Cabo de Goede hoop den 28 July 1789
+[verso] voor de Heeren Rino Johannes van
+[verso] der Riet en Johannes Smits leeten
+[verso] uit den E achtb: rade van Iustitie
+[verso] deezes gouvernement, die de minute
+[verso] deezes beneevens de Examinateuren
+[verso] de geëxamineerdens en mij adgunet
+[verso] secretaris meede behoorlyk hebben
+[verso] onderteekend /:lager / Twelk ik
+[verso] getuige /:was getekend:/ W
+[verso] v: Ryneveld Adyt secretaris. —
+[verso] Accordeert.
+[verso] D Faure
+[verso] GClorcq
+[verso] se
+[recto] naar de Caap
+[recto] 't Schip t duijfge
+[recto] 6
+[recto] Bodem Ontfangen te hebben de vol
+[recto] naende Houtwerken
+[recto] deeze myne Onderhebbende
+[recto] geteekende bekenne
+[recto] dik
+[recto] oude vare dat
+[recto] de Gestr Heer
+[recto] eur van Cabo
+[recto] aar, ofte aan de
+[recto] gelieve te Com
+[recto] heid zyn heer
+[recto] luydende verband
+[recto] ndere van geener
+[recto] op de Ridder
+[recto] deert
+[recto] Clercq.
+== NL-HaNA_1.04.02_4333_0082 | #82 | sides: recto | lines: 74
+[recto] Bodem Ontfangen te hebben de vol
+[recto] 100 zegge Hondert p=s Geelhoute Balker van 7 en 9 d=m dik
+[recto] Register van zodanige brie„
+[recto] „ren en papieren dewelke onder
+[recto] huidigen datum van hier wer„
+[recto] „den afgezonden aan haar Wel
+[recto] Edele hoog Agtb: de heeren gecomm:
+[recto] Bewindhebberen en gevolmag„
+[recto] „tigdens ter Illustre Vergade„
+[recto] „ring van Zeventhienen zo wel
+[recto] als aan de Edele Heeren Bewind„
+[recto] „hebberen der resp„e particulie„
+[recto] „re kameren p„r 's E Comp„s Pac„
+[recto] „quet boot dE: Faam, namentlijk
+[recto] Origineele Missive, door den
+[recto] No 1
+[recto] Edelen Heer Gouverneur
+[recto] Cornelis Jacob van de Graaff
+[recto] Een den raad, deezer plaatze
+[recto] aan het Illustre Collegie
+[recto] de Hoog Edele Heeren Zee
+[recto] venthienen gericht
+[recto] houde vare dat
+[recto] dele Gestr Heer
+[recto] A: D: E „ 2 _o Missives aande Edele
+[recto] teur van Cabo
+[recto] Heere Beumdhebberen
+[recto] aar, ofte aan de
+[recto] der nevens gem: Partf: Camere
+[recto] geleeve te Cou
+[recto] door als evengem: afgezonden
+[recto] rheid zyn heer
+[recto] A „ 3 Duplicaat _ door de regeering
+[recto] luydende verband
+[recto] alhier afgezonden aan het
+[recto] endeze van
+[recto] Illustré Collegie van heere
+[recto] dC: de Ridder
+[recto] Zeeventhienen Pr. de scheepen
+[recto] Jan en Cornelis en breuger
+[recto] deeze
+[recto] rdeert
+[recto] Origineele secreete Missive van
+[recto] den Edelen heer gouverneur
+[recto] WI
+[recto] op secunde perzoon aanden
+[recto] in deede doos.
+[recto] heer Eerste advocaat vande
+[recto] Nederl: Oost Indische Compe
+[recto] Nt
+[recto] waar de Caap
+[recto] Pr 't Schip t duijfge
+[recto] 28 „ Twintig „
+[recto] _o
+[recto] gende Houtwerken als
+[recto] 60
+[recto] 1
+[recto] deeze myne Onderhebbende
+[recto] geteekende bekenne
+[recto] bin
+[recto] 10
+[recto] do
+[recto] do
+[recto] „
+[recto] 6:
+[recto] 1079
+[recto] hout
+[recto] ets Naven
+[recto] agens
+[recto] Zoort
+[recto] eener
+[recto] gClercq.
+[recto] aan
+== NL-HaNA_1.04.02_4333_0083 | #83 | sides: recto,verso | lines: 120
+[verso] in de Loode doos.
+[verso] in de loode Doos.
+[verso] in de loode Doos.
+[verso] M:r Sebastiaan Cornelis
+[recto] N=o 11 Onkost reekening van het
+[verso] A.
+[recto] geen aan brenger deezes
+[verso] Neederburgh waarin besio
+[verso] ten een brief aan de heeren scheys
+[recto] alhier is verstrekt
+[verso] vande secreete Commissie
+[recto] „ 12 Een Paiquet soldij papieren
+[verso] A.
+[verso] N=o 5 Duplicaat secreete Missive
+[recto] 13 _o Missive door de Hooge
+[verso] d. o
+[verso] van en als gem. geconse
+[recto] regeering te Batavia
+[verso] neerd, sub 12=e meij deezes A.
+[recto] geaddresseerd aande Edele
+[verso] Jaars pr de Pacquetboot
+[recto] heeren Bewindhebberen
+[verso] ontfang
+[verso] de maria Louisa
+[verso] on
+[recto] ter Praesidiale Camer te
+[verso] 6 Origineele
+[recto] Amsterdam en pr.
+[verso] door wel opgem: Edelen heer
+[recto] het schip Berkshoven
+[verso] gouverneur aan het Hlluste
+[recto] alhier aangebragt.
+[verso] Collegie der heeren zeeventhiene
+[recto] 14 Reekening van een zwaar anker
+[verso] apart gerecht
+[verso] 7 Copia Authenticq declaratoir
+[recto] touw aan het Particulier
+[recto] schip de hensgezindheid
+[verso] vanden Equipagiemeeste
+[verso] Ex
+[recto] voor reecq van deszelvs
+[verso] deezes Gouvernement, en
+[recto] rreeders verstrekt.
+[verso] verklaringen vande scheeps
+[verso] overheeden over het lang
+[recto] 15 Een Pacquet met particuliere
+[verso] verblijf alhier van breng:l
+[verso] A
+[verso] Origineele korte factuuren
+[verso] ontf
+[verso] 8
+[verso] brenger deezes
+[verso] 9 Copia
+[verso] in de loode Doos.
+[verso] Een v
+[verso] het geladene te Batavia
+[verso] in brenger deezes en heb
+[verso] partC=r schip Berkshoven
+[verso] authenticq Cognoscement
+[verso] van het geladene in blette
+[verso] bergsbaar inde scheepen
+[verso] het Duijfje ende Jonge
+[verso] Frank
+[recto] dele Gestr Heer
+[recto] „ 16: List van zodanige scheepen zo
+[recto] van onze heeren en Meesteren
+[recto] als vreemde Naties dewelke
+[recto] rheid zyn heer
+[recto] zeer dat den 10 Jannuarij dee¬
+[recto] luydende verband
+[recto] zes successivelijk deeze
+[recto] endeze van
+[recto] uithoek hebben aangedaen
+[recto] de Ridder
+[recto] In't Casteel de Goede Hoop den 30 Aug: 17380
+[recto] Goetr
+[recto] geleeve te Com
+[recto] aar, ofte aan de
+[verso] No. 81
+[recto] Edgclercq
+[recto] eert
+[verso] A.
+[verso] A.
+[verso] 4
+[verso] A. „
+[verso] A.
+[verso] A.
+[verso] A
+[verso] „ 10
+[verso] 6:
+[verso] 6
+[verso] deezes
+[verso] A.
+[recto] brieven
+[recto] teur van Cabo
+[recto] houde vare dat
+[recto] er
+[recto] Et7
+[recto] Clercq
+[recto] agen
+[recto] ets Naven
+[recto] 1080:
+[recto] 6
+[recto] dm dik
+[recto] Bodem Ontfangen te hebben de vol
+[recto] de
+[recto] Houtwerken als
+[recto] deeze myne Onderhebbende
+[recto] geteekende bekenne
+[recto] 60
+[recto] 100 zegge Hondert p=s Geelhoute Balken van den
+[recto] 26 „ Twintig „
+[recto] naar de Caap
+[recto] 't schip t duij
+[recto] D
+[recto] 1118
+[verso] 2
+== NL-HaNA_1.04.02_4333_0084 | #84 | sides: recto,verso | lines: 48
+[recto] P=r de Pacquet boot
+[recto] de Faam.
+[recto] Patria
+[recto] Aan de welEdele Hoog Agtb: Heeren Bewindhebberen,
+[recto] presenterende de Generale Nederlandshe geoctroieerde
+[recto] 't Schip t duijfge
+[recto] Bodem
+[recto] Ontfangen te hebben de vol
+[recto] gende Houtwerken als
+[recto] 100 Zegge Hondert p=s Geelhoute: Balken van 7 en 9 d=m dilE
+[recto] Naven
+[recto] Amsterdam
+[recto] WelEdele, Erntfeste,
+[recto] Hoog agtb:, Hoogwijze,
+[recto] voorzienige en zeer
+[recto] genereuze Heeren.
+[recto] houde vare dat
+[recto] dele Gestr Heer
+[recto] teur van Cabo
+[recto] Jaar, ofte aan de
+[recto] Hoog Gebiedende Heeren.
+[recto] ^geleeve te Com
+[recto] rheid zyn heer
+[recto] luydende verband
+[recto] andere van
+[recto] Wij neemen de vrijheid ons eerbiedig
+[recto] d C: de Ridder
+[recto] te refereeren aan het deeze verzellend
+[recto] deert
+[recto] duplicaat
+[verso] No 5.
+[verso] Register
+[recto] de
+[recto] waar de Caap
+[recto] 26 „
+[recto] Twintig „
+[recto] _o
+[recto] van deeze myne Onderhebbende
+[recto] ndergeteekende bekenne bin
+[recto] 103
+[recto] 1081
+[recto] er
+[recto] g Clercq
+[recto] E
+== NL-HaNA_1.04.02_4333_0085 | #85 | sides: recto,verso | lines: 60
+[recto] 1082
+[verso] Duplicaat onzer Jongste onderdanige
+[verso] Letteren sub dato 6 deezer aan UWel
+[verso] Edele Hoog Agtb: geaddresseerd pa
+[verso] het particulier schip de Jan en Cor¬
+[verso] nelis, t welk op den 14e: deezer des,
+[verso] zelfs reize heeft ondernomen naar
+[verso] Patria, werwaards meede op den 7:
+[verso] dier maand zijn vertrokken de
+[verso] particuliere Scheepen de Jonge
+[verso] Jacob en Albertus en de Dap¬
+[verso] perheid. -
+[verso] Intusschen zijn wederom Succes¬
+[verso] sivelijk op den 18e: &n 19e: deezer
+[verso] aan deeze Uithoek van Batavia
+[verso] gearriveerd s' E Comp:s Paiquiet
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Houtwerken als
+[recto] 9dm. dik
+[recto] boot de Faam met 1 Doode
+[recto] en 4 Zieken, en het particulier.
+[recto] schip Berkshoven, eerstgem.
+[recto] aan de Kamer Amsterdam en
+[recto] laatstgemt aan de Kamer Delft
+[recto] geconsigneerd.
+[recto] e
+[recto] Ovengemelde Pacquetboot
+[recto] heeft zo door de nodige reparatien
+[recto] die daar aan hebben moeten worden
+[recto] gedaan, als door de continueele
+[recto] teur van Cabo
+[recto] Jaar, ofte aan de
+[recto] felle NW. Winden geduurende
+[recto] ^gelieve te Com
+[recto] rheid zyn heer
+[recto] den loop van de voorleedene week
+[recto] luydende verband
+[recto] endere van
+[recto] ner
+[recto] niet eerder reisvaardig kunnen
+[recto] ad C: de Ridder
+[recto] werden gesteld als heden, zo als
+[recto] deert
+[recto] Uwel Edele Hoog Achtb: zulks
+[recto] Haven
+[verso] „boot
+[recto] des
+[recto] naar de Caap
+[recto] 't schip t duij
+[recto] ij
+[recto] 100 Zegge Hondert p=s Geelhoute Balken
+[recto] 26 „ Twintig „
+[recto] deeze myne Onderhebbende
+[recto] teekende bekenne bi
+[recto] van den
+[recto] do
+[recto] houde vare dat
+[recto] dele Gestr Heer
+[recto] EClercq
+== NL-HaNA_1.04.02_4333_0086 | #86 | sides: recto,verso | lines: 67
+[recto] 1083
+[verso] des gelievende uit nevens gaand
+[verso] Copia Authenticq declaratoir
+[verso] van den Equipagiemeester zullen
+[verso] kunnen ontwaaren.
+[verso] Wij laaten deeze eerbiedig
+[verso] dienen tot bijgeleide van dat scheep
+[verso] en neemen de vrijheid Uwel Edele
+[verso] Hoog Achtb: aan te bieden het
+[verso] kort Factuur van dies Batavias
+[verso] Lading, neevens de Onkostrekening
+[verso] over de verstrekkingen daar aan ten
+[verso] deeze Gouvernemente gedaan.
+[verso] Wij achten ons verpligt Uwel
+[verso] Edele Hoog Achtb: te bedeelen
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Houtwerken als
+[recto] 9 d=m dik
+[recto] de behouden aankomst ter kaapse
+[recto] Rheede op den 13e. deezer van de
+[recto] Scheepen Het Duijffe en de
+[recto] Jonge Franck, die op den 16: Junij
+[recto] uit Baaijfals vertrokken, op den
+[recto] 20:' daar aan reeds in Plettenbergs,
+[recto] „baaij zijn gearriveerd, en aldaar zoo
+[recto] spoedig vollaaden dat op den 3=e
+[recto] Augustus de herwaards reize
+[recto] hebben aanvaard.
+[recto] Edele Gestr Heer
+[recto] Deeze Scheepen aanbrengende
+[recto] teur van Cabo
+[recto] Jaar, ofte aan de
+[recto] ^ geleeve te Com
+[recto] rheid zyn heer
+[recto] de Goederen uit het in Pletten„
+[recto] luydende verband
+[recto] andere van geener
+[recto] bergsbaaij verongelukte Schip
+[recto] ad C: de Ridder
+[recto] De Maria, zijn verder met
+[recto] rdeert
+[recto] differente soorten van inlandsch
+[verso] de
+[recto] Hout
+[verso] No 5.
+[recto] 100 Zegge Hondert p=s Geelhoute Balken van d en
+[recto] 26 „ Twintig „
+[recto] waar de Caap
+[recto] t schip t duij
+[recto] 18e
+[recto] ende
+[recto] van deeze myne Onderhebbende
+[recto] ondergeteekende bekenne binne
+[recto] 103
+[recto] 109
+[recto] d
+[recto] do
+[recto] 8„
+[recto] 6„
+[recto] kout
+[recto] ets Naven
+[recto] houde vare dat
+[recto] 17
+[recto] Clercq
+[verso] 53.
+== NL-HaNA_1.04.02_4333_0087 | #87 | sides: recto,verso | lines: 64
+[verso] Hout vollaaden, alles in 't breede
+[verso] gespecificeerde op het Copia Aut„
+[verso] hentug Cognoscement, dat wij de
+[verso] vrijheijd neemen bij deeze aan Uwe
+[verso] Edele Hoog Achtb: aan te bieden
+[verso] Wij hebben bij aankomst dien
+[verso] Scheepen direct de nodige ordres ge„
+[verso] steld tot 't lossen van de Jonge Fram
+[verso] ten eijnde dezelve zoo ras mogelijk
+[verso] deszelfs destinatie te doen volgen
+[verso] naar Batavia
+[verso] De noodzakelijkheid van
+[verso] ons gevordert hebbende om de schee
+[verso] pen de Juffrouwe Johanna en
+[recto] Bodem Ontfangen te hebben de vol
+[recto] de Eensgezindheid ten spoedigste naar
+[recto] Batavia te depecheeren, zo hebben wij
+[recto] onder gunstige welduiding van Uwel
+[recto] Edele Hoog Achtb: daar in laaten
+[recto] verblijven de volgende goederen daar
+[recto] meede voor dit Gouvernement aan
+[recto] gebragt, als
+[recto] 30000 p:s Grauwe moppen
+[recto] 30 hoeden Smeekolen
+[recto] 6 Heele Hamschooven
+[recto] 14. Tein bloks
+[recto] 1 Blad Wagenschot
+[recto] 1 Vat spek
+[recto] 1 Vat Booter
+[recto] d C: de Ridder
+[recto] Benevens de volgende benodigtheeden
+[recto] deert
+[recto] daar in voor Ceijlon afge¬
+[recto] houde vare dat
+[recto] dele Gestr Heer
+[recto] teur van Cabo
+[verso] de
+[recto] Scheeps
+[recto] waar de Caap
+[recto] Pr t Schip t duijf
+[recto] 100 Zegge Hondert p=s Geelhoute: Balken van 8 en 9 d=m dilE
+[recto] 26 „ Twintig „
+[recto] ijfge
+[recto] „gende Houtwerken als
+[recto] van deeze myne Onderhebbende
+[recto] geteekende bekenne binne
+[recto] 61
+[recto] 1084
+[recto] do
+[recto] t
+[recto] ets Naven
+[recto] ag
+[recto] Jaar, ofte aan de
+[recto] „gelieve te Com
+[recto] rheid
+[recto] luydende verband
+[recto] en deze van geener
+[recto] ynheer
+[recto] gt7
+[recto] E Clercq.
+== NL-HaNA_1.04.02_4333_0088 | #88 | sides: recto,verso | lines: 64
+[verso] scheept, als
+[verso] 100 Vaten bier
+[verso] 10 Leggers wijn
+[verso] 2 _:o Azijn
+[verso] 4 Half aamen brandewijn
+[verso] 1 _o _o Spaanse wijn
+[verso] 25. _:o Olyve Olij
+[verso] 5 Kelders brandewijn
+[verso] 7 Kassen wijn in Soorten
+[verso] 125 Gesort: Schooven
+[verso] 20 vaaten Vleesch
+[verso] 20 _o spek
+[verso] 15 _:o Vriese Boter
+[verso] 1 Cas met kurken
+[verso] 2 vaaten groene zeep en
+[verso] 1 vat Krijt
+[recto] Bodem Ontfangen te hebben de vol
+[recto] „gende Houtwerken als
+[recto] 100 Zegge Hondert p=s Geelhoute: Balken van d en
+[recto] 9 dm. ditb
+[recto] en daar bij nog gevoegd.
+[recto] 11 Vaaten met Lijken voor Batavia en
+[recto] 47 d=o met kopere duiten voor Ceij„
+[recto] lon in de Juffrouwe Johanna
+[recto] afgelaaden en thans overgescheept,
+[recto] ets Haven
+[recto] Wij hebben niet nagelaaten
+[recto] van deeze onze handelwijze kennis te
+[recto] geeven aan de Hoog Indiase Regee„
+[recto] houde vare dat
+[recto] ring te Batavia, onder toezending der
+[recto] Copias Patriase Factuuren, van die Goe„
+[recto] dele Gestr Heer
+[recto] teur van Cabo
+[recto] aar, ofte aan de
+[recto] deren, met ootmoedig verzoek aan hun
+[recto] gelieve te Com
+[recto] Wel Edele groot Achtb: om de voor Ceilon be„
+[recto] heer
+[recto] rheid
+[recto] luydende verband
+[recto] andere van geener
+[recto] stemde Goederen bij eerste bekwaame gelee„
+[recto] d C: de Ridder
+[recto] gendheid derwaards te verzenden, en de
+[recto] Metzelsteenen en smeekvo¬
+[recto] Een
+[recto] waar de Caap
+[recto] Per t schip t duij
+[recto] We
+[recto] 26 „ Twintig „
+[recto] 1685
+[recto] 6:
+[recto] do
+[recto] t
+[recto] deeze myne Onderhebbende
+[recto] geteekende bekenneb
+[recto] deert
+[recto] d
+[recto] gtz
+[recto] : Clercq.
+[recto] en
+== NL-HaNA_1.04.02_4333_0089 | #89 | sides: recto,verso | lines: 60
+[verso] koolen die wij genoodzaak
+[verso] zijn geweest in die Bodem
+[verso] te laaten verblijven, aan
+[verso] ons te rug te willen zenden
+[verso] of met een gelijke quan¬
+[verso] titeit te Supplieeren
+[verso] uit hoofde van de ver¬
+[verso] leegendheid waar in
+[verso] wij ons om beide
+[verso] die Artikels bevin¬
+[verso] den.
+[verso] Hier meede
+[verso] deeze eindigende be¬
+[verso] veelen wij Uwel„
+[verso] Edele Hoog
+[recto] deeze myne Onderhebbende
+[recto] Bodem Ontfangen te hebben de vol
+[recto] „gende Houtwerken als
+[recto] 100 Zegge Hondert p=s Geelhoute: Balken van 8 en 9 d=m dikb
+[recto] Achtbaare en de belan¬
+[recto] gen der Edele Maat¬
+[recto] schappij in de veijlige hoe„
+[recto] de Godes, en neemende
+[recto] vrijheid ons met alle ver„
+[recto] schuldigde Eerbied
+[recto] te noemen.
+[recto] houde vare dat
+[recto] WelEdele, Erntfesten
+[recto] dele Gestr Heer
+[recto] teur van Cabo
+[recto] Jaar, ofte aan de
+[recto] Hoog achtb: Hoog wijke;
+[recto] ^geleeve te Com
+[recto] rheid zyn heer
+[recto] luydende verband
+[recto] endere van
+[recto] voorzienige, zeer,
+[recto] d C: de Ridder
+[recto] genereulze en Hoog
+[recto] gebiedende Heeren
+[recto] 150
+[recto] eert
+[verso] Achtb:
+[recto] Uwer
+[recto] waar de Caap
+[recto] 't schip t duij
+[recto] ife
+[recto] teekende bekenne
+[recto] 6:
+[recto] 1686
+[recto] 8
+[recto] do
+[recto] t
+[recto] Haven
+[recto] ets
+[recto] 26 „ Twintig „
+[recto] geener
+[recto] 217
+[recto] ¼ Clercq.
+== NL-HaNA_1.04.02_4333_0090 | #90 | sides: recto,verso | lines: 83
+[verso] In't Casteel de Goede Hoop
+[verso] den 30:e August:s 1789
+[verso] Uwer Wel Edele Hoog Achtb:
+[verso] zeer onderd: getrouw: en geh:e dienaaren
+[verso] J: Vande Graaff:
+[verso] henius
+[verso] J: A: J: Van Lijnden
+[verso] J: R Ee Sueur
+[recto] 100 zegge Hondert p=s Geelhoute Balken van 7 en 9 d=m dik
+[recto] 1087
+[recto] Aan den Hoog Edelen Gestrengen
+[recto] Heer Corrnelis Jacob van de Graaff
+[recto] Gouverneur en Directeur van
+[recto] Cabo de Goede Hoop
+[recto] met den ressorte van dien & 22„e
+[recto] Hoog Edele Gestrenge Heer,
+[recto] Ingevolge de ordres van de Heeren Majores,
+[recto] dat wanneer de Paquet Boots zich langer
+[recto] dan acht daagen alhier ophouden de rede„
+[recto] „nen als dan van zodaanig vertoef op te
+[recto] geeven, neemt zich den teekenaar de
+[recto] vrijheid, terwijl zulx met de Paquetboot
+[recto] de Faam geExsisteerd is, uw Hoog Edele
+[recto] Gestr: de geannexeerde verklaaringen
+[recto] van de officieren dier bodem ter handen te
+[recto] houde vare dat
+[recto] stellen, en aan der zelver in houd zich te
+[recto] dele Gestr Heer
+[recto] refereeren, met bijvoeging dat wanneer de
+[recto] teur van Cabo
+[recto] Vier dagen, waar in zij lieden hebben aan„
+[recto] Jaar, ofte aan de
+[recto] „getoond door zwaare winden te hebben verhin„
+[recto] ^geleeve te Com
+[recto] „derd geweest, om de noodige reparatie te
+[recto] kunnen effectueeren, op gisteren geExpireerd
+[recto] heer
+[recto] rheid
+[recto] ydende verband
+[recto] le
+[recto] waren, 't ontstuimig weer met harde wind en
+[recto] zwaare regentuien nog verhinderde dat
+[recto] endeze
+[recto] de monstering niet eerder als op heeden
+[recto] d: de Ridder
+[recto] heeft kunnen voor zig gaan:
+[recto] Waar meede de Eer heb met allen her„
+[recto] „bied en hoog achting mij te ondertekenen
+[recto] (onderstond) Hoog Edele Gestrenge Heer!
+[recto] uw Hoog Ed:e Gestr:e zeer gehoorzame dienaar
+[recto] (was getk: C: Cornelisz in margine Cabo de Goede
+[recto] Accordeert
+[recto] Hoop den 30 Aug: 1789
+[recto] Goest
+[recto] edeert
+[verso] N:1
+[recto] Copia
+[recto] 26 „ Twintig „
+[recto] naar de Caap
+[recto] Pr 't schip t dui
+[recto] ge
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Houtwerken als
+[recto] deeze myne Onderhebbende
+[recto] teekende be
+[recto] ne
+[recto] b
+[recto] do
+[recto] „
+[recto] „
+[recto] „
+[recto] „
+[recto] 6:
+[recto] hout
+[recto] ets Naven
+[recto] Clercq
+[recto] H
+[recto] HEg Clercq
+== NL-HaNA_1.04.02_4333_0091 | #91 | sides: recto | lines: 33
+[recto] naar de Caap
+[recto] 't schip t duijfge
+[recto] s
+[recto] pia
+[recto] 100 zegge Hondert p=s Geelhoute  Balken van 7 en 9 d=m dik
+[recto] 26 „ Twintig „
+[recto] d o
+[recto] 1
+[recto] de
+[recto] Houtwerken als
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ze myne Onderhebbende
+[recto] teekeende bekenn
+[recto] 8„
+[recto] d
+[recto] do
+[recto] o
+[recto] hout
+[recto] Naven
+[recto] Zoort
+[recto] houde vare dat
+[recto] dele Gestr Heer
+[recto] teur van Cabo
+[recto] Jaar, ofte aan de
+[recto] ^geleeve te Com
+[recto] rheid zyn heer
+[recto] luydende verband
+[recto] endeze van geener
+[recto] de Ridder
+[recto] eert
+[recto] 917
+[recto] Clercq
+[recto] „6,
+== NL-HaNA_1.04.02_4333_0092 | #92 | sides: recto | lines: 68
+[recto] 100 Zegge Hondert p=s Geelhoute Balken van 8 en 9 d=m dik
+[recto] Aan De Wel Edel Gestrengen
+[recto] Heer Den Wel Edelen
+[recto] Groot achtbaaren Heer
+[recto] :J: van de Graaf,
+[recto] Gouverneur & Directeur
+[recto] van Cabo de Goede Hoop & & L„a
+[recto] de ondergeteekende Capitain Luijtenant en
+[recto] gezaghebber van de retourneerenden alhier
+[recto] ter Rheede Geareveerde Pacquetbood de
+[recto] Faam heeft de Eer u wel Edele Groot
+[recto] Achtbaare te berigtten; dat het niet wel
+[recto] doenelijk is:
+[recto] Om op den Bepaalden tijd te kunnen
+[recto] vertrekken terwijl door zwaare fors„
+[recto] „seeringe van Zijlen en zwaare Stormen
+[recto] het Thuijgaie zeer ontramponeerd is
+[recto] ende Langzaallings gebrooken, zoo dat
+[recto] het geheele schip moet ontTaakelt werden
+[recto] houde vare dat
+[recto] Zo dat zulks wel 4 daagen Langer
+[recto] zoud Francieren als den tijd daar toe
+[recto] dele Gestr Heer
+[recto] bepaalt Edog daar werd alle moeijten
+[recto] teur van Cabo
+[recto] aangewend om schielijk weeder klaar
+[recto] Jaar, ofte aan de
+[recto] ^geleeve te Com
+[recto] te zijn om de rijsse te kunnen
+[recto] vervorderen a Patria.
+[recto] sheid
+[recto] luydende verband
+[recto] Den onderget: meent hier meede voldaan
+[recto] endeze van
+[recto] te hebben; en maatigt zig de vrijhijd aan om
+[recto] dC: de Ridder
+[recto] zig met alle hoog achtinge te onderteeken
+[recto] /onderstond/ Wel Edele Groot achtbaare Heer
+[recto] Uwel Edele Groot achtbaare Gehoorzaamste
+[recto] en onderdaanige Dienaar /:was get/ Luur
+[recto] edeert
+[recto] Rienken (in margine/ Actum Cabo de goede
+[recto] Hoop den 19 augustus 1789
+[recto] GGardeert
+[recto] HZ
+[recto] waar de Caap
+[recto] t schip t dui
+[recto] VDe
+[recto] Bodem Ontfangen te hebben de vol
+[recto] ende Houtwerken als
+[recto] 1
+[recto] „ 61
+[recto] 1088
+[recto] „
+[recto] do
+[recto] do
+[recto] out
+[recto] ets Naven
+[recto] t
+[recto] yn heer
+[recto] eener
+[recto] E: Clercq.
+[recto] D Eg Clercq
+[recto] Copia
+[recto] 26 „ Twintig „
+[recto] deeze myne Onderhebbende
+[recto] geteekende bekenne
+== NL-HaNA_1.04.02_4333_0093 | #93 | sides: recto | lines: 31
+[recto] naar de Caap
+[recto] Pr 't Schip t duijfge
+[recto] 1
+[recto] 26 „ Twintig „
+[recto] 100 Zegge Hondert p=s Geelhoute Balken van 7 en 9 d=m dik
+[recto] Bodem Ontfangen te hebben de vol
+[recto] gende Houtwerken als
+[recto] P. „ 6, 80
+[recto] „
+[recto] do
+[recto] hout
+[recto] Waren
+[recto] oort
+[recto] houde vare dat
+[recto] dele Gestr Heer
+[recto] teur van Cabo
+[recto] Jaar, ofte aan de
+[recto] ^geleeve te Com
+[recto] rheid zyn heer
+[recto] luydende verband
+[recto] endere van geener
+[recto] dC: de Ridder
+[recto] rt
+[recto] Clercq
+[recto] deeze myne Onderhebbende
+[recto] toekende bekenn
+[recto] 107
+== NL-HaNA_1.04.02_4333_0094 | #94 | sides: recto | lines: 64
+[recto] 100 Zegge Hondert p=s Geelhoute Balken van 7 en 9 d=m dik
+[recto] Bodem Ontfangen te hebben de vol
+[recto] Wij ondergeteekende opper z onder offi„
+[recto] „cieren van de E: O: I: C: Jacquet bood
+[recto] de faam- verklaaren; dat wij zeedert
+[recto] dat wij alhier ter Rheede van Cabo
+[recto] de goede Hoop zijn gearriveerd daage¬
+[recto] „lijks zwaare winden en reegen
+[recto] hebben gehadt Exept van den 22 august:
+[recto] tot den 25 august Ja zoo zwaar dat
+[recto] den Commandant ter Reede op den 23
+[recto] dato zijn derde om't derde anker te
+[recto] laaten vallen; en in aftaakelen be„
+[recto] vonden dat grootte marsse Raa ge„
+[recto] „brooken was; zoo dat wij 4 daagen lang
+[recto] zijn verhindert geworden om Ietsz tot
+[recto] repperattie van 't schip te kunnen
+[recto] doen, En zijn berijd wanneer zulks
+[recto] gerequireert werd met Eede te bevestigen
+[recto] (onderstond
+[recto] Mij Prezent Gezaghebber
+[recto] houde vare dat
+[recto] (was get) Luur Rienken, Jan Koenraad
+[recto] Lubken, Claas Tonnermans, Crieviesie dele Gestr Heer
+[recto] „oneel Bootsman Anderis Anderis„
+[recto] teur van Cabo
+[recto] in margine Actum Cabo de Goede Hoop
+[recto] Jaar, ofte aan de
+[recto] den 26 august A:o 1789
+[recto] rheid zyn heer
+[recto] luydende verband
+[recto] en deze van
+[recto] Accordeert
+[recto] GGoetz
+[recto] dC: de Ridder
+[recto] edeert
+[recto] waar de Caap
+[recto] Pr 't Schip t duijfje
+[recto] 1
+[recto] 26 „ Twintig „
+[recto] 220
+[recto] Copia
+[recto] d o
+[recto] 1 „ 61
+[recto] 1089
+[recto] 8„
+[recto] d
+[recto] do
+[recto] do
+[recto] hout
+[recto] ets
+[recto] 29
+[recto] aren
+[recto] t
+[recto] ^geleeve te Com
+[recto] eener
+[recto] W7
+[recto] Clercq
+[recto] EgClercq.
+[recto] gende Houtwerken als
+[recto] 6
+[recto] deeze myne Onderhebbende
+[recto] geteekende bekennen
+== NL-HaNA_1.04.02_4333_0095 | #95 | sides: recto | lines: 34
+[recto] naar de Caap
+[recto] Pr t Schip t dui
+[recto] p
+[recto] e
+[recto] d:o. . 1
+[recto] 100 zegge Hondert p=s Geelhoute Balken van 7 en 9 d=m dik
+[recto] 26 „ Twintig „
+[recto] 220
+[recto] 2
+[recto] „
+[recto] 6o
+[recto] Bodem Ontfangen te hebben de vol
+[recto] gende Houtwerken als
+[recto] 6,
+[recto] 8„
+[recto] 8 90
+[recto] t
+[recto] ets Naven
+[recto] oort
+[recto] houde vare dat
+[recto] dele Gestr Heer
+[recto] teur van Cabo
+[recto] Jaar, ofte aan de
+[recto] ^geleeve te Com
+[recto] rheid zyn heer
+[recto] luydende verband
+[recto] endeze van geener
+[recto] dC: de Ridder
+[recto] rdeert
+[recto] I
+[recto] Eg Clercq.
+[recto] deeze myne Onderhebbende
+[recto] geteekende bekenne
+[recto] 109
+== NL-HaNA_1.04.02_4333_0096 | #96 | sides: recto,verso | lines: 71
+[recto] Bodem Ontfangen te hebben de vol
+[recto] 100 Zegge Hondert p=s Geelhoute Balken van 7 en 9 d=m dik
+[recto] 1090
+[recto] Patria!
+[recto] Aan de Wel Edele Hoog Achtb: Heeren Bewind hebberen
+[recto] Gecommitteerd ter Illustre vergadering van seeventienen
+[recto] repraesenteerende de Generale Neederlandsche g'octroxeerde
+[recto] Oost Indische Comp=e ter praesidial- kamer 1
+[recto] Amsterdam
+[recto] Wel Edele Erntfeste
+[recto] Hoog Achtb: Hoog wijze,
+[recto] voorzienige en zeer
+[recto] Genereuse Heeren.
+[recto] Hoog Gebiedende Heeren.
+[recto] By myne onderdanige letteren van den
+[recto] 26 der Iongst verloopen maand sulx het
+[recto] ik de vryheid genoomen aan Uwel
+[recto] Edele Hoog Achtb: plegtschuldig kennis
+[recto] houde vare dat
+[recto] te geeven van het eminent gevaar
+[recto] dat men te Batavia door den onlogh
+[recto] dele Gestr Heer
+[recto] op Celebes met de Macassaren was
+[recto] teur van Cabo
+[recto] Jaar, ofte aan de
+[recto] duchtende, waar door de hoge Indiasche
+[recto] ^geleeve te Com
+[recto] Regeering zich hadt genoodzaakt gezien
+[recto] rheid zyn heer
+[recto] my te gelasten een prompt en suffisant
+[recto] luydende verband
+[recto] secours te expedieeren, om hem in deese
+[recto] nood by te springen, en teffens verslag
+[recto] en deze van geener
+[recto] dC: de Ridder
+[recto] gedaan van de provisioneele maatre,
+[recto] gulen die ik had genoomen, om die
+[recto] ordres der hooge Indiasche Regeering
+[recto] edeert
+[recto] met de meeste vigilantie, en alle
+[recto] mogelyke spoed te effectueeren.
+[recto] My
+[verso] N. 7.
+[recto] 220
+[recto] 26 „ Twintig „
+[recto] waar de Caap
+[recto] Pr 't Schip t duijfge
+[recto] ƒ
+[recto] ƒ
+[recto] van
+[recto] deeze myne Onderhebbende
+[recto] geteekende bekenne
+[recto] de Houtwerken als
+[recto] „
+[recto] 6,
+[recto] „
+[recto] 8 „ d:o
+[recto] do
+[recto] hout
+[recto] ets
+[recto] Naven
+[recto] a
+[recto] Zoort
+[recto] H
+[recto] Secreet
+[recto] 1
+[recto] 109
+[recto] HI
+[recto] E: Clercq.
+== NL-HaNA_1.04.02_4333_0097 | #97 | sides: recto,verso | lines: 108
+[recto] Twintig „
+[verso] My daar aan eerbiedig gedragende laat
+[verso] ik deesen dienen, om aan Uwel Edele Hoog
+[verso] Achtb: breedvoerig verklag te doen van
+[verso] de wyze op welke ik de aan my ge¬
+[verso] geeven last fon vollen heb ten uit„
+[verso] voer gebragt. —
+[verso] In de vaste verzeekering dat een paar
+[verso] ligte stukken Canon by de expeditie
+[verso] waartoe dat secours door de hoofe
+[verso] Indiasche Regeering in gevorderd is, van
+[verso] uitsteekende dienst kunnen zyn,
+[verso] heb ik deselve onder gunstige welduiding
+[verso] van Uwel Edele Hoog Achtb. daar bi
+[verso] gevoegt, met alles wat tot dies be
+[verso] handeling behoort en daar by geplaatst
+[verso] 1 Capitain Lieutenant
+[verso] 1 Lieutenant
+[verso] 2 Extra ordinaire vuurwerkers
+[verso] 5 Bombardiers
+[verso] 5 Canoniers en
+[verso] 50 gemeenen, dus te saamen
+[verso] 64 Man
+[verso] Wyders heb ik volgens myne voormelde
+[verso] onderdanige letteren, het Bataillon
+[verso] waar uit het g'eischt secours bestaat,
+[verso] onder hoog gunstige welduiding van
+[verso] Uwel Edele Hoog Achtb: het Batail„
+[verso] lon Orange genoemd, en daar by met
+[verso] overleg van den Colonel Von Hughel
+[recto] 100 Zegge Hondert p=s Geelhoute Balken van 7 en 9 d=m dikk
+[recto] tot Commandant aangesteld den Capitain
+[recto] in het Waitembergse Regiment Bihnne„
+[recto] en tst tweeden officier den premier
+[recto] Lieutenant in dat zelfde Regement
+[recto] wolzoogen, en zulks wel voornamentlijk,
+[recto] omdat uit dat Regiment, zoo als de
+[recto] eer heb gehad by meerm. myne eerbiedige
+[recto] letteren te gewagen, een deel soldaten,
+[recto] tot formeering van dat Corps. hebben
+[recto] moeten worden genoomen.
+[recto] Het Corps tot de voornoemde expeditie
+[recto] bestaat thans uit.
+[recto] Ten 1=en Een Captain Commandant over het zelve
+[recto] „ 2=en Een devesie van de Arthellerie bestaande uit
+[recto] 4 officiers, 5 Bombardiers, 5 Canoneers en 50 gemeenen
+[recto] „ 3=e de Infanterie bestaande in 3 divesien, en daar van
+[recto] de 1=ste in 3 officieren, 2 sergeants 1 Veld scheeren A Corporl 4 rie Corprl:s 3 Sambours en 101 gemeenen
+[recto] — — 4 — 4 — „ 3 — „ 161 —
+[recto] „ 2= „ 3
+[recto] —„ 2 — — 4 — 4 —  3 - „101 —
+[recto] „ 3 „ 3
+[recto] dus te samen 9 offecieren sergeant 3 els cheren 1½ Copal: 2 ie Copil ot ambou„ 303 gemeenen
+[recto] e
+[recto] en dis de geheele infanterie uit
+[recto] 354 mannen, waarbij gevoegt
+[recto] 1 Capitair Commardant
+[recto] 1 Lieutenant Adjudant
+[recto] 1. Chirurgyn Mojor
+[recto] 1 Quartiermeester
+[recto] roormaker en
+[recto] edeert
+[recto] 64 man voor 't Coys arthillerie, te samen
+[recto] uitmakende een totaal
+[recto] WZ
+[recto] van 423 koppen, zoo als uwel Edele Hoog Achtb:
+[recto] dele Gestr Heer
+[recto] teur van Cabo
+[recto] Jaar, ofte aan de
+[verso] tot
+[recto] zulks
+[recto] waar de Caap
+[recto] Pr t Schip t du
+[recto] D
+[recto] 64
+[recto] Bodem Ontfangen te hebben de vol
+[recto] gende Houtwerken als
+[recto] :
+[recto] 1091
+[recto] 6,
+[recto] „
+[recto] „
+[recto] do
+[recto] do
+[recto] hout
+[recto] ets Naven
+[recto] agens
+[recto] Zoort
+[recto] houde vare dat
+[recto] geleevd
+[recto] heid
+[recto] luyd ende verband
+[recto] endeze van geener
+[recto] : de Ridder
+[recto] ƒ
+[recto] ƒ
+[recto] Clercq
+[recto] n heer
+[recto] te Com
+[recto] 1
+[recto] d o
+[recto] 26 „
+[recto] 320
+[recto] deeze myne Onderhebbende
+[recto] toekende bekend
+[verso] -
+== NL-HaNA_1.04.02_4333_0098 | #98 | sides: recto,verso | lines: 105
+[verso] No 5
+[verso] zulks des gelievende, uit de deesen ver„
+[verso] zellende lysten, breed voeriger zullen
+[verso] kunnen Zien. —
+[verso] Omtrend de soldaten, die van het Wurter¬
+[verso] bergse Regiment by dat Bataillor
+[verso] zyn gevoegt, heb ik my niet weinig en
+[verso] verleegenheid gevonden, dan de bereid„
+[verso] willigheid van den Colonel van Hughel
+[verso] heeft my in zoo verre daar uit dan
+[verso] ook gered, zoo dat aan de expeditie
+[verso] daar door geene vertraging is toege
+[verso] bragt geworden
+[verso] Ingevolge de Capitulatie mag men
+[verso] hen niet dan met geheele Compagniën
+[verso] detacheeren, 't welk om verscheidene
+[verso] reedenen indit geval aan het hoofd.
+[verso] oogmerk niet zou hebben kunnen
+[verso] voldoen, en wel
+[verso] Ten Eersten, om dat zich by die Com
+[verso] pagnien bejaarde en verscheidene
+[verso] getrouwde oficieren bevinden, die
+[verso] met vrouwen en kinderen tot eene
+[verso] zodanige expeditie niet geschikt
+[verso] zyn
+[verso] Ten tweeden om dat het ensemble
+[verso] of de geheele voet van dat Regiment
+[verso] daar door zou zyn verbrooken ge¬
+[verso] worden
+[verso] -.
+[verso] Ten Derde, om dat by een geheelen
+[verso] Compagnie de vereischte voet niet
+[recto] 100 zegge Hondert p=s Geelhoute Balken van 8 en 9 d=m dik
+[recto] word gevonden om deselve behoorlyk t A
+[recto] een Bataillen te hunner formeeren, en
+[recto] Ten vierde om dat als dan het nationaal de pst
+[recto] voor de Indiën gedestineerd, het grootste
+[recto] veel alhier achter had moeten blyven. —
+[recto] Dan den Colonel van Hughel vend zich niet
+[recto] weinig bekommerd, om zich daar over by zy„
+[recto] nen vorst der Hertogh van Wustemberg te
+[recto] verantworden, von dewelke het de„
+[recto] tacheeren op den meermelden voet zeeker„
+[recto] lyk veel schade moet veronzaaken, 't zy
+[recto] door den Oorlog 't zy don andere toevallen
+[recto] Ik hebhem daarover moeten goedspreeken;
+[recto] en kan dus niet af zyn Uwel Edele Hoog
+[recto] Achtb: ootmoedig te versoeken, my permis„
+[recto] sie te willen verleenen, om aan het E„
+[recto] gement van Wastemberg provisioneel de
+[recto] uit het zelve genoomen manschappen
+[recto] van tijd tot tijd van de uitkoomende
+[recto] soldaten te ug te mogen geeven
+[recto] waardoor men dan ook by vervolg, en tyden
+[recto] van nord, geen obstacles desweegens
+[recto] ontmoeten zal.
+[recto] Misschien zullen Uwel Edele Hoog
+[recto] Achtb: reflexien gelieven te maaken,
+[recto] waarom ik de manqueerende manschap„
+[recto] pen bij 't nationaal depot, niet uit het
+[recto] Bataillon van den Colonel Pordon
+[recto] heb genoomen en vind my verpligt
+[recto] uwel Edele Hoog Achtb: te berigten
+[recto] teur van Cabo
+[recto] aar, ofte aan de
+[recto] ^geleeve te Com
+[recto] zyn heer
+[recto] luydende verband
+[recto] endeze van geener
+[recto] d C: de Ridder
+[recto] deert
+[verso] word
+[recto] dat
+[recto] waar de Caap
+[recto] 't schip t dui
+[recto] pia
+[recto] WDe
+[recto] ƒ
+[recto] Bodem
+[recto] gende
+[recto] Houtwerken als
+[recto] Ontfangen te hebben de vol
+[recto] deeze myne Onderhebbende
+[recto] geteekende bekenne binne
+[recto] „
+[recto] 1092
+[recto] 6
+[recto] hout
+[recto] ets Naven
+[recto] agens
+[recto] in
+[recto] en
+[recto] Zoort
+[recto] houde vare dat
+[recto] dele Gestr Heer
+[recto] e
+[recto] rheid
+[recto] EgClercq.
+[recto] 1
+[recto] „
+[recto] d
+[recto] 26 „ Twintig „
+[recto] 220
+== NL-HaNA_1.04.02_4333_0099 | #99 | sides: recto,verso | lines: 100
+[verso] dat van dat Corps 100 man naar diverse
+[verso] posten zyn gedetacheerd, en zich daar
+[verso] van dus maar 400 man in 't Casteel
+[verso] bevinden, dat ook de meeste der secieren
+[verso] lieden van te veel Jaaren en meest
+[verso] alle getrouwd zyn, zoo wel als veele
+[verso] onderofficieren en zelfs gemeenen.
+[verso] Gelukkig bevond zich by den ontfangst
+[verso] der secreete missive, waar meede den
+[verso] Hoge Indiasche Regeering my heeft
+[verso] geleeven te vereeren, ter rheede van
+[verso] Baayfals het naar Batavia gedesti„
+[verso] neerd Schip de Juffrouw Johanna mits¬
+[verso] gaders het particulier schip de Eens.
+[verso] gezindheid, 't laatste meest al volladen
+[verso] met goederen vonr dit Gouvernement
+[verso] bestemd, 't welk reeder was, dat wy
+[verso] hadden moeten besluiten, dat
+[verso] schip de gewoone legtyd in Baay fals te
+[verso] laten vertoeven, om als dan te Zeilen
+[verso] naar deese Rheede en aldaar entlot„
+[verso] te worden; dog op den ontfangst dier
+[verso] fatale tijding heb ik uit een gevoel
+[verso] van de dringende noodzaakelykheid,
+[verso] om het begeerde secours zoo spoedig
+[verso] mogelyk aftevaardigen, direct ordres
+[verso] gegeeven, om met allen yverdien
+[verso] bodem te lossen en in staat te
+[verso] stellen om de troepes te kunnen
+[verso] inneemen, en is de uitvoering van
+[recto] 100 Zegge Hondert p=s Geelhoute Balken van d en
+[recto] dm dik
+[recto] deeze myne ordres aanmerkelyk ge„
+[recto] faciliteerd door de vriendelyke adsistentie
+[recto] die wy van 's lands Scheepen, in die
+[recto] Baay ten anker hebben genooten,
+[recto] en zoo spoedig g'Executeerd, als de
+[recto] situatie der plaats eenigzints toe„
+[recto] liet, met dat gelukkig succes, dat
+[recto] aan boord van die bodem alle de
+[recto] 423 mannen tot het Bataillon
+[recto] Orange gehorende zyn g'embar¬
+[recto] gueend geworden en dat schip in ge¬
+[recto] zelschap van de Juffr: Johanna
+[recto] op den deeser deszelfs reise naar
+[recto] Batavia heeft ondernoomen. —
+[recto] Tot byzonder genoegen strekt het my
+[recto] Uwel Edele Hoog Achtb: te mogen be„
+[recto] deelen, dat alle de Soldaten over hun
+[recto] houde vare dat
+[recto] Logement zoo wel te vreeden waaren,
+[recto] dat geene van hen de minste tee¬
+[recto] dele Gestr Heer
+[recto] kenen van misnoegen droeg maar
+[recto] teur van Cabo
+[recto] inteegendeel hun verlangen toonder
+[recto] aar, ofte aan de
+[recto] ^geleeve te Com
+[recto] om ten stryd te werden gevoerd, en
+[recto] dit was, Wel Edele Hoog Achtb: Heeren
+[recto] rheid zyn heer
+[recto] luydende verband
+[recto] het gelukkig gevolg dat ik my had
+[recto] andere van
+[recto] eener
+[recto] beloofd van de toevoeging der Wier„
+[recto] : de Ridder
+[recto] tembergsche soldaaten, die zich tot
+[recto] deese expeditie allen vrywillig
+[recto] deert
+[recto] hadden aangebooden, zoo wel als
+[recto] de volgende officieren door men zoo by
+[recto] de Arthellerie als by het Bataillon
+[verso] deeze
+[recto] geplaatst
+[recto] waar de Caap
+[recto] Schip
+[recto] t
+[recto] 179
+[recto] Twintig „
+[recto] d
+[recto] 320
+[recto] 26 „
+[recto] Bodem
+[recto] de
+[recto] Houtwerken als
+[recto] Ontfangen te hebben de vol
+[recto] deze myne Onderhebbende
+[recto] toekende bekenne binn
+[recto] „
+[recto] do
+[recto] hout
+[recto] ets Naven
+[recto] 1093
+[recto] 6
+[recto] „
+[recto] 12
+[recto] Clercq
+[recto] 76
+== NL-HaNA_1.04.02_4333_0100 | #100 | sides: recto,verso | lines: 101
+[recto] 26 „ Twintig „
+[verso] geplaatst, en waar van nog geen ge„
+[verso] wag heb gemaakt. — als
+[verso] By de Arthellerie
+[verso] als Capitain Lieutenant
+[verso] den ordinaire vuuwerker Johan Adriaan
+[verso] wasschen felder
+[verso] als ordinaire vuurwerker
+[verso] den Extra ord: vuurweiker Iohannes Bergis
+[verso] als Extraordinaire vuurwerker
+[verso] de bombardiers Johan Jacob Denner
+[verso] en Johannes Leij
+[verso] byj 't Bataellon
+[verso] tot Capitain Lieutenants
+[verso] de Lieutenants George Carel Josep
+[verso] Gaupp en Philip Jacob Gaup
+[verso] P Lieutenants
+[verso] de Lieutenants Nicolaas Martin Henry
+[verso] ende sous Lieutenants Johan Godlieb
+[verso] Essich, George Wilhelm Hallewachs
+[verso] en Wilhelm Frederich Ven Ober
+[verso] nitg
+[verso] Tot Sous Lieut: en adjudant
+[verso] den Cadet Sergeant Friderich Mauchard
+[verso] tot sous Lieutenants
+[verso] den Cadet serpeant Wilhelm Seubert
+[verso] en den Cadet Petrus Jacobus Lei
+[verso] tot Chirurgyn Major
+[verso] den Chirurgyn Christiaan Godlieb
+[verso] Fredrik Essich
+[recto] 100 Zegge Hondert p=s Geelhoute Balken van 8 en 9 d=m dikk
+[recto] alle onder de Gage die zy in hunne te
+[recto] spective vorrige qualiteiten hebben ge„
+[recto] nooten, zoo als de naam lysten van
+[recto] dat Corps door den soldy boekhouder
+[recto] gedresseerd, en die ik de vryheid neemen
+[recto] Uwe Wel Edele Hoog Achtb: aan te bieden
+[recto] breeder koomen te dicteeren. —
+[recto] Ik heb aan de Hoge Indiasche Re¬
+[recto] geering gesuppediteerd een Copia au„
+[recto] thentich van de Capitulatie van het
+[recto] Regiment van Wastemberg, mitsg=s
+[recto] van de opgave van den voet op wel„
+[recto] ke de leeden van dat Coopsten dee
+[recto] zen Gouvernemente zijn betaald omme
+[recto] door haar Wel Edele Redt Achtb: zo
+[recto] danig gebruik te werden gemaakt,
+[recto] als hoogst deselve zullen goedvin¬
+[recto] den te behooren
+[recto] Toen ik van de secreete aanschryvens
+[recto] dele Gestr Heer
+[recto] teur van Cabo
+[recto] door de Hoge Indiasche Regeering
+[recto] Jaar, ofte aan de
+[recto] aan my geregt op het spon van myne
+[recto] geleeve te Cou
+[recto] preedecesseuren von zoo veel ik ver„
+[recto] rheid zyn heer
+[recto] meinde te vermogen, en dus de
+[recto] luydende verband
+[recto] nodige Communciatie in Rade van
+[recto] Politie heb gedaan, en daar by
+[recto] en deze van
+[recto] geener
+[recto] dC: de Ridder
+[recto] kennis gegeeven van eenige Schik¬
+[recto] kingen din my werkstellig gemaakt,
+[recto] om de zeer gerespecteerde last aan
+[recto] edeert
+[recto] my opgedragen uittevoeren is tef„
+[recto] fens in gemelde Raade besloten,
+[recto] om de goederen in het schip de
+[verso] alle
+[recto] Eens gezindheid
+[recto] naar de Caap
+[recto] 't Schip t duijfge
+[recto] 320
+[recto] d
+[recto] 1
+[recto] -
+[recto] 1
+[recto] 1094
+[recto] 61
+[recto] 8„
+[recto] d
+[recto] hout
+[recto] ets Naven
+[recto] agens
+[recto] Zoort
+[recto] houde vare dat
+[recto] 107
+[recto] Eg Clercq
+[recto] Houtwerken als
+[recto] de
+[recto] Bodem
+[recto] Ontfangen te hebben de vol
+[recto] deeze myne Onderhebbende
+[recto] toekende beken

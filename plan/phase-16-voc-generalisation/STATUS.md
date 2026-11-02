@@ -2,7 +2,7 @@
 
 > Overwrite this file at the end of every session. **40 lines max**; history belongs in `PROGRESS.md`.
 
-- **Updated:** 2026-11-01, by the phase-16 review (Opus 5.5)
+- **Updated:** 2026-11-01, by the phase-16 review session after UA-059/UA-060 (Opus 5.5)
 - **State:** done and reviewed: accept with follow-ups ([REVIEW](REVIEW.md)); report final
 - **Released in:** v0.21.0
 
@@ -19,17 +19,16 @@
 
 ## Next action
 
-The user releases v0.21.0 and answers UA-060 (which phase to plan next). Then an Opus session plans phase 17 from
-`plan/PLAN.md`, `plan/CONTEXT.md` (§4 lists the phase-16 follow-ups) and the UA-060 answer.
+None for phase 16. Phase 17 (VOC rules v1, UA-060 (a)) is seeded: an Opus session plans it from
+`plan/phase-17-voc-rules-v1/PLAN.md`.
 
 ## Blockers and open questions for the user
 
-- UA-059: check page with 9 GM gold anchors (blocks nothing).
-- UA-060: the next phase (blocks phase-17 planning only).
+- None. UA-059 done (GM gold wrong in 7 of 9; F16-R.7, F16-R.8); UA-060 answered (a).
 
 ## Facts later phases need
 
 - VOC layer: `data/text_layer_voc_22a/1.04.02/NL-HaNA_1.04.02_text_layer_v5/` (link to T7_Data; 567 volumes).
 - Gold: `reports/data/phase-16-voc-generalisation/planning/` (`gm_anchors.tsv`, `toc_gold.tsv`). Both test splits are
-  now spent; 2775 is planner-seen. `toc_gold.tsv` has up to 4 rows per scan: collapse with max before scoring.
+  now spent; 2775 is planner-seen. User-checked GM anchors: `step-22b/check_result.tsv`. `toc_gold.tsv` has up to 4 rows per scan: collapse with max before scoring.
 - Tests after the phase: 1,413 passed, 11 skipped.

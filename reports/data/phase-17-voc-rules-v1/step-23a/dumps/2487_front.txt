@@ -1,0 +1,2295 @@
+== NL-HaNA_1.04.02_2487_0001 | #1 | sides: single | lines: 2
+[single] ge. Batavia
+[single] 237
+== NL-HaNA_1.04.02_2487_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0003 | #3 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0004 | #4 | sides: single | lines: 1
+[single] #
+== NL-HaNA_1.04.02_2487_0005 | #5 | sides: single | lines: 13
+[single] gecollationeerd.
+[single] 9 Batavia
+[single] Secrele Brief
+[single] met dies gehoorende Bijlagen
+[single] geschreeven Aan d' Edele Hoog
+[single] Achtbare Heeren
+[single] Bewindhebberen
+[single] Ter Vergadering van
+[single] Seventienen
+[single] Tot
+[single] Amsterdam
+[single] van den 25 Maart 1741.
+[single] 1
+== NL-HaNA_1.04.02_2487_0006 | #6 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0007 | #7 | sides: single | lines: 11
+[single] Neegende Deel.
+[single] Register der Brieven en
+[single] Papieren van Batavia
+[single] overgekomen
+[single] A: 1741. —
+[single] fo: 4628 tot 5050: Secreete brief door den Gouverneur
+[single] Generaal Adriaan valkenier aan de
+[single] vergadering van Seventiene geschreven
+[single] in dato 25 Maart 1741, neevens dies
+[single] bijlagen, volgens daar bij gevoegde
+[single] Inventaris. —
+== NL-HaNA_1.04.02_2487_0008 | #8 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0009 | #9 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0010 | #10 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0011 | #11 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0012 | #12 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0013 | #13 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0014 | #14 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0015 | #15 | sides: single | lines: 21
+[single] 4628
+[single] Boor
+[single] Nederland
+[single] d' Edele Hoog Achtb: wel wijze voorsienige
+[single] en zeer Genereuse heeren Gecommitteerde
+[single] Bewinthebberen
+[single] Ter Vergadering van seventhienen
+[single] de Generale Nederlandse geoctroij„
+[single] eerde oost Indische Com
+[single] pagnie Representerende
+[single] Tot
+[single] Amsterdam
+[single] Edele, hoog Achtb: wel
+[single] Wijze, voorsienige en Zeer
+[single] Genereuse Heeren
+[single] art:o 1121:
+[single] De kortheijt des tijds en de noodsake„
+[single] lijkheit des vertrecks der laaste smal
+[single] deelings van de tweede gewoone scheeps
+[single] besendinge mij hebbende verhindert
+[single] 1122.
+== NL-HaNA_1.04.02_2487_0016 | #16 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2487_0017 | #17 | sides: single | lines: 21
+[single] 4628
+[single] Nederland
+[single] Aan d' Edele Hoog Achtb: wel wijze voorsienige
+[single] en zeer Genereuse heeren Gecommitteerde
+[single] Bewinthebberen
+[single] Ter Vergadering van seventhienen
+[single] de Generale Nederlandse geoctroij„
+[single] eerde oost Indische Com
+[single] oor
+[single] pagnie Representerende
+[single] Tot
+[single] Amsterdam
+[single] Edele, hoog Achtb: wel
+[single] Wijze, voorsienige en Heer
+[single] Genereuse Heeren
+[single] art:o 1121:
+[single] De kortheijt des tijds en de noodsake„
+[single] lijkheit des vertrecks der laaste smal
+[single] deelings van de tweede gewoone scheeps
+[single] besendinge mij hebbende verhindert
+[single] 1122.
+== NL-HaNA_1.04.02_2487_0018 | #18 | sides: single | lines: 23
+[single] 1122.
+[single] Om uwel Ed: hoog agtb: alle de parti„
+[single] culiere faictelijkheeden der door mij
+[single] gearresteerde en na Nederland opgeson¬
+[single] dene drie heeren gewese ordinaris raden
+[single] Gustaaf willem van Imhoff
+[single] „
+[single] Elias De Haeze en M„r Isaac
+[single] van schinne speciaal te commu
+[single] niceeren ofte op te tellen
+[single] 1123.
+[single] Maar alleen mij hebbende toegelaten
+[single] de voornaamste en meest in het oog„
+[single] lopende dadelijkheeden, welke voors:
+[single] drie persoonagien tegens mij hadden
+[single] geattenteerd te noteeren
+[single] 1124.
+[single] hadde ik de vrijheit gebruikt uwel
+[single] Ed: hoog agtb: bij mijne eerbiedige
+[single] laaste secrete letteren van dato 8:'
+[single] janu: jongstl: / die ik verhope behouden
+[single] te zullen sijn aangekomen :/ op het ieverigste
+[single] en
+== NL-HaNA_1.04.02_2487_0019 | #19 | sides: single | lines: 23
+[single] 4624
+[single] En serieuse te versoeken.
+[single] 1125.
+[single] Om bij eene naauwkeurige resumptie
+[single] en Examinatie der doe ter tijd overgaan„
+[single] de en thans te volgene documenten /:waer
+[single] bij nu is gevoegd den behoofden Exacten
+[single] jnventaris:/ eene menigte hoewel on„
+[single] aangeroerde egter misselijke en straf
+[single] baare gedoentens tewillen op soeken
+[single] en die bij de reeds aangehaalde tevoegen
+[single] 1126:
+[single] waar door de delicten van voors:
+[single] rebellige heeren nog klaarder en duijde
+[single] souden kunnen werden geil„
+[single] lijker
+[single] lustreerd enten toon gestelt
+[single] 1127:
+[single] En nadien ik vermeen, die uijt de voor
+[single] melde documenten van selver ge„
+[single] noeg doende te voorschijn te komen
+[single] sal ik bij desen /:onder herhaalinge
+[single] van
+== NL-HaNA_1.04.02_2487_0020 | #20 | sides: single | lines: 22
+[single] van meer malen gedane versoek en bede
+[single] om uwel Ed: Hoog agtb: met geen tee diens
+[single] recit der selver opte houden, mij spoeden
+[single] 1128.
+[single] omme bij de afhandelinge der in den
+[single] beginne van mijne even aangehaalde
+[single] laaste secrete missive voor gestelde drie
+[single] over geblevene poincten, uwel Ed: Hoog
+[single] agtb: volkomen te overtuijgen vande
+[single] billijkheit bevoegdheit en noodsakelijk
+[single] heet mijner handerlingen indesen
+[single] 1129.
+[single] Dog eer daar toe werd overgegaan
+[single] sal voor af werden voorgesteld eene
+[single] succincte recapitulatie der door
+[single] wij tegens de gearresteerdens geopperde
+[single] wangedoentens ender selver doenweer„
+[single] digheit, die op het Eijnde dermissive
+[single] om de kortheit destijds niet heeft
+[single] kunnen werden gedaan
+[single] -
+[single] 1130
+== NL-HaNA_1.04.02_2487_0021 | #21 | sides: single | lines: 22
+[single] 1638
+[single] 1130.
+[single] En ten dien fine sal moeten in aan
+[single] merkinge komen
+[single] 1131.
+[single] Eerstelijk hoe de onverdraagchelijke
+[single] sugt omte heerschen den heer Ian
+[single] Imhoff in sijn privé heeft doen over
+[single] slaan.
+[single] 1132.
+[single] om al heel vroeg, van sijn aanstelli
+[single] ge tot Extra ordinaris raad van jindig
+[single] af aan, een iegelijk die hij dogt hem
+[single] inde weegte sullen of kunnen sijn te
+[single] bekladden
+[single] 1133.
+[single] En mij als de voor hem kinderlijkste
+[single] persoon schandelijk te dwaars boomen
+[single] soo in het bekomen van het directeur
+[single] generaals ampt als, het hooge Carac„
+[single] ter van gouverneur generaal
+[single] 1134.
+== NL-HaNA_1.04.02_2487_0022 | #22 | sides: single | lines: 22
+[single] 1141.
+[single] En ik dus in dientijd eene gewenste
+[single] tranquiliteit hebbe kunnen onder
+[single] houden
+[single] 1142.
+[single] hoe des niet temin al aanstonds
+[single] op de tijdinge sijner terug komst na
+[single] herwaards door verfoeijelijke en
+[single] onwaaragtig uijt strooijselen, tot na„
+[single] deel en disreputatie van mij sijnen
+[single] opper gebieder alleenig geadinventeerd
+[single] de geest des vreedes is verjaagd, en
+[single] niet anders als twee spalt haat en
+[single] uijd weder de overhand heeft ge„
+[single] kreegen.
+[single] 1143.
+[single] hoe hij verder niet heeft ontsien ge„
+[single] had, sig op sijne te rugkomst weder
+[single] aantematigen ongewoone en on„
+[single] gepermitteerde eer bewijsingen en eene
+[single] met sijn Caracter inconpatible pragt
+[single] Jaa
+== NL-HaNA_1.04.02_2487_0023 | #23 | sides: single | lines: 24
+[single] 4632
+[single] jaa, ten tweeden male eene condemnabels
+[single] opwagtinge en conferentie met den
+[single] koning van bantam te houden
+[single] 1144.
+[single] Almede met geen ander insigt dan
+[single] alleen om mij bij dien vorst in verag
+[single] terige tebrengen; en door sijne gevanteerde
+[single] spoedige verhoginge eene onbevoegde
+[single] agtinge voor sijn persoon te procureren
+[single] 1145.
+[single] het welke reeds soo veel ingang bij dien
+[single] monarch heeft gehad dat deselve soo
+[single] wel te dier tijd als bevorens den heer
+[single] van Imhoff heeft beschonken met
+[single] groote en overmatige presenten tegens
+[single] Eedt en pligt voor
+[single] sijnen duur geswooren
+[single] sig selver behouden
+[single] 1146.
+[single] hoe wel hier tegens, om mij de onder
+[single] kinge daarvan moeijlijk temaken
+[single] reeds
+[single] rd
+== NL-HaNA_1.04.02_2487_0024 | #24 | sides: single | lines: 21
+[single] reeds naa het arrest door den seditieu„
+[single] sen heer van Imhoff sijn geEmplooijeerd
+[single] strafbare Correspondentie en complot
+[single] teringen tegens mij op Bantam, waar
+[single] door den koning is gedebocheerd om sijne
+[single] belofte ter ontdeckinge daar van aan
+[single] mij gedaan tot nog toe niet te willen pres
+[single] teren
+[single] 1147.
+[single] hoe al wijders gemelde heer van Imhoff
+[single] privative sig heeft schuldig gemaakt aan
+[single] oneerbiedigheeden en despotique vertre„
+[single] dinge van fundamentele en dikwils
+[single] gerenoveerde wetten, tot declin en ver
+[single] agtinge der subordinatie soo wel met
+[single] adspect op de superoriteijt van uwel Ed:
+[single] hoog agtb: sijne vaderlandse gebieders
+[single] en weldoenders, als van mij en van
+[single] hoog jndiasche regeringe sijne alhier
+[single] sijnde opperregenten. —
+[single] 1148.
+== NL-HaNA_1.04.02_2487_0025 | #25 | sides: single | lines: 23
+[single] 4633
+[single] 1148.
+[single] hoe hij ook daar en boven soo in de Justitie
+[single] als politie alles heeft na sijn sin soeken te
+[single] schicken en sijne magt in de regeringe te
+[single] Extolleeren als of hij geen enkel lid daar
+[single] van was, maar of aan hem alleen het
+[single] gansche bestier van saaken was toevertrouw
+[single] 1149.
+[single] tot de uijterste veragtinge en versmadinge,
+[single] van mij den gouverneur Generaal van
+[single] nederlands India
+[single] 1150
+[single] schoon alle middelen tot vreede, en
+[single] vrindschap met dit onrustig humeur door
+[single] mij van tijd tot tijd sijn aan gewend
+[single] 1151.
+[single] voorts moet ten tweeden tot een kort
+[single] verhaal hier genoteert werden ontrend
+[single] den heer De Haeze uit particulier
+[single] 1152.
+[single] hoe den selven door dit gedrag van
+[single] den
+== NL-HaNA_1.04.02_2487_0026 | #26 | sides: single | lines: 21
+[single] den heer van Imhoff sig heeft laten ver„
+[single] voeren tot eene schandelijke ondankbaar„
+[single] heijd tegens mij die hem niet weldaden
+[single] hadde overladen.
+[single] 1153.
+[single] hoe hij de vrindschap van desens turbu
+[single] lente heer van Imhoff heeft gesogt selfs
+[single] door basesses en ten uijtersten lacheuse
+[single] handelinge soo voor al na desselfs te
+[single] rugkomst alhier
+[single] 1154.
+[single] Den heer van Imhoff in alles tegens
+[single] mij dehand biedende en met denselven
+[single] Complotteerende
+[single] 1155.
+[single] op desselfs pouvoir en Credit al mede
+[single] despoticq en bruitaal handelende met
+[single] de onder hem als Collonel staande bur„
+[single] gers hun tot hoog gaande diefstallen
+[single] gebruijkende en dwingende.
+[single] 1156.
+== NL-HaNA_1.04.02_2487_0027 | #27 | sides: single | lines: 23
+[single] 463
+[single] 1156:
+[single] En als president van scheepenen met
+[single] voeten treedende de ordres der regeringe„
+[single] die hij selver als een integreerend lid van
+[single] dien hadde helpen beraamen tot voorko„
+[single] minge van bedrog en falsificatien
+[single] 1157.
+[single] Mitsgaders sigt eene magt van su„
+[single] perioriteit boven mij aan matigende,
+[single] en sig gedragende eeven of hij boven en
+[single] buijten mijn Commando konde voeren
+[single] 1158.
+[single] Eijndelijk hoe hij tegens het bestaan
+[single] van alle goede ordre, het arrest heeft
+[single] tragten met gewelt en door seditieuse
+[single] vermaningen aande militaire tevio
+[single] leeren.
+[single] 1159.
+[single] Den derden is tot een korte herrin„
+[single] neringe nodig te letten op het priva
+[single] tive gedrag van den heer M„r Isaac
+[single] van
+== NL-HaNA_1.04.02_2487_0028 | #28 | sides: single | lines: 24
+[single] Van Schinne
+[single] o 1160.
+[single] hoe desen heer door agterhoudende
+[single] streeken en een schalkschen aard mij
+[single] heeft tragten te misleijden
+[single] 1161.
+[single] Dog hoe hij daar omtrend sig geabuseerd
+[single] vindende, egter departije van sijnen vrind,
+[single] den heer van Imhoff heeft soeken te stutten
+[single] staaven en vergrooten met den persoon
+[single] en vrinden van den heer de Haeze
+[single] 1162.
+[single] hoe hij verder door sijn verkeerd advijs
+[single] sig heeft suspect gemaakt omtrend de
+[single] Lamponsche zaaken en het verlies der
+[single] peperhandel daar uijt voor de E: Compagnie
+[single] geresulteert
+[single] 1163.
+[single] hoe denselven met alle kragt de begeertens
+[single] vanden heer van Imhoff: heeft soeken door
+[single] te
+[single] O
+[single] 2
+== NL-HaNA_1.04.02_2487_0029 | #29 | sides: single | lines: 26
+[single] 4635
+[single] te dringen
+[single] 1164.
+[single] mitsgaders seer lacheus met vertreedinge
+[single] van sijn eijgene agtinge, en het belang van
+[single] sijn Caracter als raad van jndien heeft
+[single] helpen Excuseeren en mairetineerende im„
+[single] pertinenten en erreverentien door den
+[single] heer van Imhoff aan uwel Ed: hoog agtb:
+[single] ende jndiasche regeringe betoond.
+[single] 1165.
+[single] Als mede helpen uijt stroijen en fabri
+[single] ceeren dieverse valsche en gefingeerde
+[single] gerugten ten uijtersten lasive voor het
+[single] caracter enden persoon van hunnen
+[single] regerenden gouverneur Generaal
+[single] 1166.
+[single] En eijndelijk in alles met raad en daad
+[single] ondersteund en ten effecte helpen brengen
+[single] de onverantwoordelijke actien
+[single] 1167.
+[single] welke ten vierden hier kortelijk te repeteren
+[single] staan ontrend de malversatien waarvan
+[single] dese drie heeren Oorjunctim nevens mijne
+[single] bij
+== NL-HaNA_1.04.02_2487_0030 | #30 | sides: single | lines: 25
+[single] bij na alle door haar verleijde raden sig
+[single] hebben schuldig gemaakt
+[single] 1168
+[single] En alleen sijn geëntameerd om mij, of
+[single] door moedeloosheit uijt deregeringe te
+[single] dringen, of miet, geweld daar uijt te
+[single] werpen.
+[single] 1169.
+[single] mitsgaders om den hoog gevreesden, en
+[single] door eene partije lacheuse flatteurs alte
+[single] seer op gevijselden en dus voor een iegelijk
+[single] ontsaggelijk gemaakten heer van Imhoff
+[single] occasie tegeven
+[single] 1170.
+[single] Eene despotique magt en geweldadig gesag
+[single] gesa9
+[single] te Exerceren.
+[single] 1171.
+[single] waar toe men heeft in't werk gesteld ver„
+[single] scheijde genorme dadelijkheeden, die uijt
+[single] de successive resolutien en bewijsen kun„
+[single] nen werden na gegaan
+[single] 1172.
+[single] En waar onder voornamentlijk als seer
+[single] in
+== NL-HaNA_1.04.02_2487_0031 | #31 | sides: single | lines: 25
+[single] 4636
+[single] in het oogloopende voorkomen.
+[single] 1173.
+[single] De met postpositie van eed en pligt door
+[single] hun drien geadinventeerde onregtveerdige
+[single] en voor mijn hoog Caracter seer lasive
+[single] belastinge omtrent de te kort gesondene
+[single] coffij
+[single] 1174.
+[single] En de fraaije door Cuijperijen daar
+[single] samen gesmede nieuwe voor
+[single] omtrent
+[single] geslagene regerings forme alhier
+[single] 1175.
+[single] streckende tot subversie van alle su„
+[single] bordinatie en tot beroeringe van den
+[single] staat deser Colonie, mitsgaders tot
+[single] schendinge en vertreedinge van de grond
+[single] wetten der E: maatschappije
+[single] 1176:
+[single] voorts het straffe, strenge en gans ongewo„
+[single] ne door dese heeren versonne middel
+[single] tegens de inswang gaande dieverijen
+[single] en huijsbraaken der Chineese natie
+[single] 1177.
+== NL-HaNA_1.04.02_2487_0032 | #32 | sides: single | lines: 25
+[single] het welke niet alleen de geheele colonie
+[single] in beweginge en confusie gesteld, maer
+[single] selver eene eijschelijke verwoestinge binnen
+[single] en buijten dese stad mitsgaders een ver
+[single] schikkelijk bloed bad veroorsaakt
+[single] 1178.
+[single] En de E: compagnie op ettelijke duijsenden
+[single] aan nodeloose kosten gebragt heeft
+[single] 1179.
+[single] hebbende daar en boven dese heeren
+[single] tot bedeckinge van hunne misslagen
+[single] mij op diverse tegenstrijdige gronden
+[single] soeken ten laste te leggen, saken waar
+[single] van sij selver de autheurs waaren
+[single] 1180:
+[single] met insigt om hier door de getrouwheijd
+[single] mijner ministers en onderhorige te doen
+[single] waggelen.
+[single] 1181.
+[single] daar toe al verder fingerende diverse
+[single] valsche beschuldigingen, Jmpertinente bespol
+[single] tingen, oneerbiedige taxatien en schaamte„
+[single] loose suggillatien mijner handelingen
+[single] 1182.
+[single] 1177.
+== NL-HaNA_1.04.02_2487_0033 | #33 | sides: single | lines: 26
+[single] 4637
+[single] 1182.
+[single] Gaande hunne ligtveerdigheit selver in
+[single] sommige opsigten soo verre, dat mijne
+[single] gefundeerde en voor d'E Compagnie allen„
+[single] sins heijlsame propositien door haar quaad
+[single] daardiglijk wierden geinterpreteerd, en
+[single] verworpen.
+[single] 1183.
+[single] wijders kan niet onaangeroerd gelaten
+[single] werden.
+[single] 1184.
+[single] hoe sij uijt hoofde van eene geringe
+[single] de legatie als commissarissen aan de
+[single] poorten, en uijt eene trotse inbeeldinge
+[single] van independentie, sig reeds hadden aan
+[single] gemaatigd eene dispotique magt in bij
+[single] na alle handelingen en over het volk
+[single] van oorlog
+[single] 1185.
+[single] Bij eene geringe indispositie van mij hun„
+[single] nen wettigen gebieder alles beschikkende
+[single] op eijgene authoriteit.
+[single] Styjne gegevene ordres, Contramanderende,
+[single] 1187 En het hoog caracter van den gouverneur
+[single] generaal
+== NL-HaNA_1.04.02_2487_0034 | #34 | sides: single | lines: 26
+[single] generaal veragtende en offenseerende door
+[single] trotsche en oneerbiedige woorden
+[single] 1188:
+[single] Nog ondernemende na denkelijke en on„
+[single] gequalificeerde togten, buijten eenige daar
+[single] toe ontfangene Commissie
+[single] 1189.
+[single] Jaa, niet tegenstaande de door mij soo
+[single] dikwils betoonde vreedelievendheijt en
+[single] sagtmoedigheit /: inhope dat sij deselve
+[single] erkennende op eene behoorelijke wijse
+[single] sig souden hebben geschikt :/ door straf„
+[single] baare Complotterijen en verstand houdingen
+[single] smeedende een ongehoord dessijn
+[single] 1190
+[single] om mij hunnen wettigen en van
+[single] niemand als van uwel Ed: hoog agtb:
+[single] mitsgaders vande hoog mogende heeren
+[single] staaten generaal der vrije vereenigde
+[single] nederlanden afhangenden hoofd gebie„
+[single] der te ligten, en na nederland op te
+[single] senden, enden heer van Imhoff in mijne
+[single] plaats te stellen.
+[single] 1191.
+[single] 6
+[single] 81
+== NL-HaNA_1.04.02_2487_0035 | #35 | sides: single | lines: 28
+[single] 4638
+[single] 1191.
+[single] Ten dien fine eene magt van despoti„
+[single] que dispositie over mijn persoon en die
+[single] van mijne hoogste ministers sustinerende
+[single] 1192.
+[single] over demilitie en derselver hoofden
+[single] eene privative en absoluute beschik„
+[single] kinge voerende
+[single] 1193
+[single] mijn selver hunnen gebieder gebiedende,
+[single] en eijndelijk mijne allensins gequalificeer„
+[single] de in formatien tegens haar soekende
+[single] te ontdecken verhinderen, en beletten
+[single] 1194.
+[single] ja deselve onbetamelijk, onbevoegd en
+[single] dusstrafwaardig agtende
+[single] 1195.
+[single] alle welke actien en ondermingen door
+[single] mij niet anders hebben kunnen werden
+[single] aangesien als perniteuse, turbulente
+[single] rust stoorende, oproerige en voor het
+[single] hoog caracter vanden gouverneur en ka„
+[single] pitain generaal van nederlands Jndia
+[single] seer nadelige forfaicten
+[single] 1196
+[single] door
+[single] gen
+== NL-HaNA_1.04.02_2487_0036 | #36 | sides: single | lines: 27
+[single] 1196.
+[single] Die niet alleen Capabel waren om,
+[single] door het formeeren van eene regeringe
+[single] in eene regeringe, eene generaale per„
+[single] turbatie indese Colonie te brengen
+[single] 1197.
+[single] maar ook den persoon van even
+[single] gemelde oppergebieder in het uijterste
+[single] gevaar tewerpen.
+[single] 1198:
+[single] En daar en boven dese door hunne
+[single] verkeerde en alte strenge beschikkingen
+[single] reeds half geruineerde stad door eene
+[single] tweede seer apparent te volgene masacr
+[single] van Christenen en onchristenen tegens
+[single] den anderen geheel en alte ruineeren
+[single] 1199.
+[single] of schoon nu wel Ed: hoog agtb: heeren
+[single] dese persoonen volgens de ordres en wetten
+[single] sighier over ten uijtersten strafweerdig
+[single] hebben gemaakt
+[single] 1200.
+[single] En daar over alhier Crimineel hadden
+[single] kunnen en mogen werden aangesprooken
+[single] 1201.
+[single] 1799.
+== NL-HaNA_1.04.02_2487_0037 | #37 | sides: single | lines: 26
+[single] 1639
+[single] 1201.
+[single] soo hebbe egter dit hoewel gewone mid
+[single] del niet kunnen emploijeeren
+[single] 1202.
+[single] om alle sodanige redenen als hier na bij
+[single] de deductie van het derde in desen te ver
+[single] handelene poinct ten genoegen sullen
+[single] werden te voorschijn gebragt
+[single] 1203.
+[single] maar hebbe liever ter vermijdinge
+[single] van quade gevolgen in het werk
+[single] willen stellen de navolgende hoewel
+[single] politicque egter veel sagtere procedueren
+[single] 1204.
+[single] waardoor dese nooijt gehoorde mis
+[single] daden van staat en gevaarelijke onder
+[single] nemingen sonder eenige suspitie van
+[single] partialiteit door uwel Ed: hoog agtb:
+[single] selver souden kunnen ontwaard, onder„
+[single] sogt en afgehandelt werden
+[single] 1205.
+[single] ten dien eijnde hebbe ik dan nadat
+[single] het Rad van s'E: Compagnies dienst
+[single] soo nopens de besoignes als beschrijvingen
+[single] alhier
+== NL-HaNA_1.04.02_2487_0038 | #38 | sides: single | lines: 33
+[single] 1196.
+[single] Die niet alleen Capabel waren om,
+[single] door het formeeren van eene regeringe
+[single] in eene regeringe, eene generaale per„
+[single] nie te brengen
+[single] turbatie indese
+[single] 3
+[single] 1197.
+[single] -
+[single] maar ook 6388
+[single] soon van even
+[single] in het uijterste
+[single] gemelde opper
+[single] gevaar tewerp
+[single] 1198
+[single] door hunne
+[single] En daar en bo
+[single] nge beschikkingen
+[single] verkeerde en a
+[single] stad door eene
+[single] reeds half gerui
+[single] tweede seer apparent te volgene masacr
+[single] van Christenen en onchristenen tegens
+[single] den anderen geheel en alte ruineeren
+[single] 1199.
+[single] of schoon nu wel Ed: hoog agtb: heeren
+[single] dese persoonen volgens de ordres en wetten
+[single] sighier over ten uijtersten strafweerdig
+[single] hebben gemaakt
+[single] 1200.
+[single] En daar over alhier Crimineel hadden
+[single] kunnen en mogen werden aangesprooken
+[single] 1201.
+== NL-HaNA_1.04.02_2487_0039 | #39 | sides: single | lines: 26
+[single] 1639
+[single] 1201.
+[single] soo hebbe egter dit hoewel gewone mid
+[single] del niet kunnen emploijeeren
+[single] 1202.
+[single] om alle sodanige redenen als hier na bij
+[single] de deductie van het derde in desen te ver
+[single] handelene poinct ten genoegen sullen
+[single] werden te voorschijn gebragt
+[single] 1203.
+[single] maar hebbe liever ter vermijdinge
+[single] van quade gevolgen in het werk
+[single] willen stellen de navolgende hoewel
+[single] politicque egter veel sagtere procedueren
+[single] 1204.
+[single] waardoor dese nooijt gehoorde mis
+[single] daden van staat en gevaarelijke onder
+[single] nemingen sonder eenige suspitie van
+[single] partialiteit door uwel Ed: hoog agtb:
+[single] selver souden kunnen ontwaard, onder„
+[single] sogt en afgehandelt werden
+[single] 1205.
+[single] ten dien eijnde hebbe ik dan nadat
+[single] het Rad van s'E: Compagnies dienst
+[single] soo nopens de besoignes als beschrijvingen
+[single] alhier
+== NL-HaNA_1.04.02_2487_0040 | #40 | sides: single | lines: 26
+[single] alhier behoorlijk was rond gelopen
+[single] 1206.
+[single] En narijpe overweginge van alles wat
+[single] indesen eenige speculatie konde baren
+[single] 1207.
+[single] Mitsgaders nadat ik mij sag gebragt inde
+[single] heid
+[single] uijterste noodsakelijk den of voor mijne
+[single] rebellige haaters en onderhoorige temoe„
+[single] ten buijgen
+[single] 1208.
+[single] En daar door buijten een irreparabel
+[single] de clin voor het Caracter van gouver„
+[single] neur generaal mijn persoon en fami„
+[single] lie een on uijtwisbaar schandaal sien
+[single] aandoen
+[single] 1249
+[single] of haarlieder hoogmoed en oproerigheit
+[single] gevoelig temoeten
+[single] straffen
+[single] 1210.
+[single] goed gevonden en geresolveerd om tot af
+[single] wendinge van het voors: oproerig dessijn
+[single] en tot stuijtinge derlang geexerceerde
+[single] Complotterijen, mitsgaders tot redres
+[single] van
+== NL-HaNA_1.04.02_2487_0041 | #41 | sides: single | lines: 25
+[single] 4640
+[single] van dese onordentelijke verwarde en veel
+[single] hoofdige regerings forme en huijshou„
+[single] dinge, de drie voornaamste belhamels
+[single] in arrest tenemen enter verantwoor„
+[single] dinge tesenden na nederland
+[single] 1211.
+[single] werwaars hun voornemen mij reeds
+[single] hadde geschickt
+[single] 1212.
+[single] Dog nadien ik voorsag hier in veele ob„
+[single] staculen en bij na eene onmogelijkheit
+[single] voor mij teresideren
+[single] 1213.
+[single] om redenen dat alle mijne toe gevoegde raa„
+[single] den ofte gedebocheerd, ofte reeds mede
+[single] schuldige waren, en dus nimmer souden
+[single] Consenteeren in het straffen van hunne
+[single] mede mackers
+[single] 1214.
+[single] maar als partijdige deselve sekerlijk
+[single] of vrij spreeken of pardonneeren souden
+[single] 1215.
+[single] soo oordeelde ik temogen toe treeden
+[single] om
+== NL-HaNA_1.04.02_2487_0042 | #42 | sides: single | lines: 24
+[single] om dit voornemen op Eijgen authoriteijt
+[single] als voor den dienst der E: maatschappij
+[single] ten uijtersten nit, noodsakelijk endoor
+[single] langer uijtstel gevaardrijgende alleen
+[single] te Excuteeren.
+[single] 1216:
+[single] En om daar in door geene overstemmin„
+[single] ge nog gepretendeerde despoticque au„
+[single] thoriteijt nog te verdere andere dadelijke
+[single] attentaten vanmijne meer als eens, alle
+[single] subordinatie verworpen en sig selven
+[single] boven mij geextolleert hebbende bij gevoegde
+[single] raadsleeden, tewerden verhindert ofte
+[single] geprevenieerd; hebbe ik het secuurste
+[single] „geoordeelt.
+[single] 1217.
+[single] Wij van militaire precautien tot
+[single] inbindinge van alle assurante op
+[single] roerige en turbulente entreprises te be
+[single] dienen
+[single] 1218.
+[single] En tendien eijnde mitsgaders tot wering
+[single] van alle Commotien en tumultueuse
+[single] onder
+== NL-HaNA_1.04.02_2487_0043 | #43 | sides: single | lines: 27
+[single] 4641
+[single] ondernemingen van het gemeen, den sergeant
+[single] majoor bij mij ontboden hebbende, den
+[single] schriftelijke last gegeven
+[single] selven
+[single] 1219.
+[single] omme na dat de heeren Raden van
+[single] jndia op den 6: december alle ter
+[single] vergaderinge binnen het Casteel
+[single] souden sijn gekomen, de
+[single] batavia
+[single] bruggen van het selve optehaalen
+[single] en de poorten te sluijten
+[single] 1220
+[single] Mitsgaders ses endertig grannadiers
+[single] door een Capitain Lieutenant en
+[single] hunne mindere officieren op gevoegd,
+[single] in de vergader-sal te doen binnen tree„
+[single] den.
+[single] 1221.
+[single] En Ronds om de tafel agter de heeren
+[single] Raden tot aan mij eene kring te
+[single] doen sluijten
+[single] 1222.
+[single] voorts vande deur van de vergader
+[single] saal of tot aan de puije van
+[single] gouverneurs
+== NL-HaNA_1.04.02_2487_0044 | #44 | sides: single | lines: 24
+[single] gouverneurs generaals huijs eene
+[single] dubbelde rije militaire te posteeren
+[single] 1123.
+[single] welke ordere door mij gegeven sijnde
+[single] hebbe ik mij des dingsdag morgens
+[single] den 6: december, schoon ik van mijn
+[single] indispositie die mij sedert den agsten
+[single] der voor afgegaane maand november
+[single] was overgekomen en bij gebleven, nog
+[single] niet geheel was herstelt, inde vergaderin„
+[single] ge begeven.
+[single] 1224.
+[single] En aldaar Eeeigen tijd door gebragt
+[single] hebbende met de verhandelinge der
+[single] ordinaire saaken, en het hooren van
+[single] versoeken hebbe ik, na dat alles was
+[single] afgelopen, bij een nader bevel om
+[single] sijn gang te gaan; den sergeant
+[single] majoor belast de voorenstaande ordre
+[single] ten uijtvoer tebrengen
+[single] 1225.
+[single] meselijk het selve dan ook sonder eenige
+[single] Confusie is volbragt, egter niet sonder
+[single] Groote
+== NL-HaNA_1.04.02_2487_0045 | #45 | sides: single | lines: 27
+[single] 4642
+[single] Groote en sigbaare alteratie en verwonde
+[single] ringe van de gedebscheerde verleijde
+[single] en sig selver mede schuldig keneerde heeren
+[single] Raden van jndia en wel principaal
+[single] vande drie voors: bij sig selven vroe„
+[single] gende en knagende heeren arrestanten
+[single] 1226.
+[single] Daar na hebbe ik aan een der secre
+[single] tarissen
+[single] der regeringe overgegeven
+[single] mijne schriftelijke klagten en dolean„
+[single] tien soo als de selve reeds aan uwel
+[single] Ed: hoog agtb: sijn overgesonden, met
+[single] ordre deselve de heeren voor te Leesen
+[single] 1227.
+[single] En ingevolge vandien hebbe ik de Commis„
+[single] sie, die de heeren Raaden tot dus lange
+[single] tegens mijn sin aande poorten hadden
+[single] blijven houden, ingetrocken
+[single] 1228.
+[single] En tendien fine de sleutels der poorten
+[single] op geEijscht, en door demilitaire capi„
+[single] taurs doen binnen het Casteel bren„
+[single] gen.
+[single] 1229
+== NL-HaNA_1.04.02_2487_0046 | #46 | sides: single | lines: 26
+[single] 1229.
+[single] voorts na eenige debatten der heeren
+[single] Raden overde bevoegdheit of onbevoegd„
+[single] la heijt deser handelinge, en na eenige hier
+[single] tegens
+[single] gedane versoeken, de drie meerm:
+[single] heeren Raden Gustaaf Willem
+[single] van Imhoff, Elias de Haeze en
+[single] M„r Isaac van Schinne geordon„
+[single] merd binnen dit Casteel, arrest te
+[single] houden
+[single] 1230.
+[single] mitsgaders nadat dese sake voor
+[single] mijne particuliere rekeninge en verant„
+[single] woordinge hadde genomen, ende mede
+[single] pligtige heeren Raden, die daar mede
+[single] schoon de merites der sake sulx ab„
+[single] soluut vereijschten, niet te doen wilden
+[single] hebben door mij ontrend de verant„
+[single] woordinge daar over ganschelijk
+[single] waren geindemneerd, dese drie arrestan
+[single] ten geordonneert buijten de vergader
+[single] saal in een naast gelegen vertrek te gaan
+[single] 1231.
+[single] Dog sulx door hun werdende gewijgerd
+[single] te
+== NL-HaNA_1.04.02_2487_0047 | #47 | sides: single | lines: 26
+[single] 4643
+[single] te obedieren, en door mijne verdere heeren
+[single] Raden met diverse versoeken en protestatien
+[single] getragt sijnde, mij sulx af te raaden
+[single] ben ik nadimissie en geordonneerde
+[single] scheijdinge der vergaderinge op gestaan
+[single] 1232.
+[single] En hebbe aanden wagt hebbende capi„
+[single] tain geordonneert alle de heeren Raden
+[single] te laten gaan, waar het hun behaagde
+[single] 1233.
+[single] uijt gesondert de drie gearresteerde
+[single] heeren die ik aan den sergeant majoor
+[single] bij eene schriftelijke ordre hebbe gelast
+[single] in arrest tenemen en te houden, tot
+[single] mijn nader bevel
+[single] 1234.
+[single] voorts uijt de vergader-saal namijne
+[single] wooninge gegaan en door de twee secreta„
+[single] rissen gevolgd sijnde, ben ik diverse
+[single] maalen door den heer directeur generaal
+[single] versogt mijne gegevene ordre inte trecken
+[single] 1235.
+[single] maar daartoe niet kunnende treeden
+[single] is
+[single] 6
+== NL-HaNA_1.04.02_2487_0048 | #48 | sides: single | lines: 25
+[single] is zijn Edele onverrigter saken weder
+[single] vertrocken
+[single] na binnen
+[single] 1236:
+[single] En hebben de heeren Raden niet tegen
+[single] staande de vergaderinge door mij was
+[single] gedimitteerd, egter weder op eijgene
+[single] authoriteit een der secretarissen laten
+[single] binnen roepen
+[single] 1237.
+[single] om het een ofte andere te besluijten,
+[single] het geene schoon onbevoegd al evenwel
+[single] sonder mijne voorkennisse soudewesen
+[single] geschied.
+[single] 1238.
+[single] jndien niet de presentie der aldaar
+[single] geposteerde militaire, sulx hadde ver
+[single] hindert
+[single] 1239.
+[single] En kunnen uwel Ed: hoog agtb: het uijt hoof
+[single] van mede wetenschap der opgetelde mis„
+[single] daden twijfelmoedig en niet tegenstaande
+[single] mijne militaire praecautien nog al
+[single] vrij trots en ongesubordineerd gedrag
+[single] van
+== NL-HaNA_1.04.02_2487_0049 | #49 | sides: single | lines: 25
+[single] 4644
+[single] van sommige heeren raaden nagaan
+[single] uijt sekere verklaringe onder de bijlagen
+[single] overgesonden
+[single] 1240.
+[single] mitsgaders daar uijt ontwaren hoedanig
+[single] de meeste mijner raden, en wel voornament„
+[single] lijk de heer Maurits van Aarden
+[single] sig hebben geinterresseert voor den heer
+[single] van Imhoff ende andere twe arrestanten
+[single] 1241.
+[single] Met genoegen honger en dorst leijdende en
+[single] tegens mijne surgeance der vergaderinge
+[single] aan sig seer lange ongequalificeerd inde
+[single] vergader saal bij den anderen houdende
+[single] 1242.
+[single] om waare het mogelijk iets tebeden„
+[single] ken tot conservatie en reddinge van
+[single] hunnen veel geliefden al te zeer geres„
+[single] pecteerden en hoog geagten voorgan„
+[single] ger
+[single] 1243.
+[single] Dien sij reeds meeningenaal meer als hun„
+[single] nen wettigen gebieder hadden geëerd en geobedieerd
+[single] 1244.
+== NL-HaNA_1.04.02_2487_0050 | #50 | sides: single | lines: 26
+[single] 1244.
+[single] En thans
+[single] als hun geprojecteerd hooft
+[single] vreesden en bleven aanhangen tegensmijne
+[single] ordres aan
+[single] 1245.
+[single] Dog hier mede door mijne stantvastigheijt
+[single] en ontsaggelijke voorsorgen niets kunnen
+[single] de effectueeren sijn de heeren raden des
+[single] na middags om vier uuren endelijk ver„
+[single] trocken
+[single] 1246.
+[single] na dat ik de gearresteerde heeren doorden
+[single] sergeant majoor na het afslaan van hun
+[single] gedaane versoek om mij in persoon te
+[single] mogen spreeken hadde doen afEijsschen
+[single] hunne degens en rottings
+[single] 1247.
+[single] Die sij mijn onder protestatie hebbende
+[single] laten toekomen ik bereijds de eer hebbe
+[single] gehad nevens hunne persoonen aanuwe
+[single] Ed: hoog agtb: overtesenden
+[single] 1248.
+[single] voorts door dese gearresteerdens mij zeer in
+[single] stantig zijnde versogt om in hunnen
+[single] huijsen
+== NL-HaNA_1.04.02_2487_0051 | #51 | sides: single | lines: 25
+[single] 4645
+[single] huijsen in plaats van binnen het Casteel
+[single] arrest te houden, hebbe ik sulx wel
+[single] willen accordeeren
+[single] 1249.
+[single] Dog tot voorkominge van onlusten en
+[single] verdere oproerige ondernemingen
+[single] van hunnen aanhang, hebbe ik dese
+[single] heeren ieder door een officier en vier
+[single] en twintig militaire na hunne huijsen
+[single] doen Convogeeren
+[single] 1250.
+[single] En verder gelast om sonder acces buijten
+[single] mijne voorkennisse haarlieden te houden
+[single] 1251.
+[single] mitsgaders hunne huijsen te besetten met
+[single] voors:) vier entwintig man namentlijk
+[single] twaalff aan de voordeuren en de andere
+[single] twaalff aan de agterdeuren
+[single] 1252.
+[single] Des anderen dags hebbe hum laten aan
+[single] zeggen door den tweeden secrets:) der regeringe
+[single] om sig te prepareeren tot het vertrek
+[single] na neederland in milatair arrest met
+[single] de
+== NL-HaNA_1.04.02_2487_0052 | #52 | sides: single | lines: 24
+[single] de Eerst te verseijlende scheepen
+[single] 1253.
+[single] en verders hun, op hunne gedane versoeken
+[single] een ruijm en selve al te complatsanten
+[single] acces van vrinden en goede bekende toe
+[single] gestaan
+[single] 1254.
+[single] het gunt door haar Lieden met alte menig
+[single] vuldige en dagelijksche speel geselschapjes
+[single] tot laet inden avond na op gesette wagt
+[single] zeer misbruijkt werdende door mij op
+[single] zekeren dog geheel is verbodem, dog Egter
+[single] na dato weder geaccordeert
+[single] 1255.
+[single] Eenige dagen naderhand hebbe ik aan
+[single] dese heeren arrestanten door den tweeden
+[single] secretaris der regeringe doen bekend ma„
+[single] ken, dat sij lieden geen meerdere bagagie
+[single] zouden mogen na het vaderland mede
+[single] voeren
+[single] 1256.
+[single] Als uwel Ed: hoog agtb: inden jaare 1731.
+[single] aande op ontbodene heeren raden
+[single] van
+== NL-HaNA_1.04.02_2487_0053 | #53 | sides: single | lines: 28
+[single] 4646
+[single] van Jndia hadde gelieven te accordeeren
+[single] 1257.
+[single] Waartegens almede door haar lieden seer
+[single] sterk sijnde geprotesteerd, hebbe ik sulx bij
+[single] speciale ordonnantie gelast aande gecom„
+[single] mitteerdens tot het branden
+[single] 1258.
+[single] Eijndelijk op den 10: Janu het vertrek der schee„
+[single] pen gereguleert sijnde hebbe ik hun willen
+[single] depecheeren maar doorde onstuijmigheit
+[single] van het weersulx verhindert sijnde, hebbe
+[single] ik daar mede moeten wagten tot op den
+[single] o150:13:' daar aanvolgende.
+[single] 1259. —
+[single] wanneer mij door den Commandeur en
+[single] Equipagie meester geraporteerd sijnde dat
+[single] het goeden vaarbaar weder was sijn
+[single] dese heeren op mijne ordere onder eene
+[single] behoorlijk excorte naboord gesonden
+[single] 1260.
+[single] schoon sij dien dag door hun eijgen samme„
+[single] len het vertrek te lange uijt gestelt sijnde
+[single] des 'smorgen om negen uuren door eene
+[single] Suelle
+[single] 6
+[single] 2
+== NL-HaNA_1.04.02_2487_0054 | #54 | sides: single | lines: 26
+[single] snelle travaat op dese rede sijnde beloopen
+[single] geworden
+[single] 1261.
+[single] het gemet hun door eijgen toedoen wel eenig
+[single] sins ingevaar heeft gesteld, maar egter
+[single] door mij niet heeft kunnen werden voorsien
+[single] 1262.
+[single] aan de voor haar respective gedestineerd
+[single] kielen gearriveerd wesende sijn sij aan den
+[single] schipper en opperhoofden der bodems in
+[single] een militeir
+[single] arrest overgegeven
+[single] 1263.
+[single] En hebbe ik bij eene schriftelijke Cordon„
+[single] nantie aanden geenen die het gesag op
+[single] den boodem soude komen te voeren, bevolen
+[single] 1264.
+[single] om ieder der voorm: arrestanten te plaat„
+[single] sen inde Cajuijt off schippers kamer in
+[single] militair arrest met een â twee schildwagten
+[single] voor de kamer van verblijf tot het arri„
+[single] vement in nederland
+[single] 1265
+[single] ten eijnde deselve aldaar aan uwel Ed: hoog
+[single] agtb:
+[single] 2
+== NL-HaNA_1.04.02_2487_0055 | #55 | sides: single | lines: 31
+[single] 4647
+[single] agtb: dan wel derselver hoog geëerde ordres
+[single] over te geven.
+[single] 1266.
+[single] nevens een lang werpig kasje waar in der
+[single] arrestanten af gevorderde degens en rottings
+[single] van arrest sijn overgesonden
+[single] 1267.
+[single] met verdere sodanige nodige beveelen
+[single] als uwel Ed: hoog agtb: uijt de thans
+[single] overgaande Copijen ordonnantien
+[single] kunnen sien.
+[single] 1268.
+[single] en nademaal doorde aanhangers van
+[single] den heer van Imhoff wierd voorgegeven
+[single] dat sijn Edele soude tragten op praetext
+[single] van siekte off te andere voor wendselen
+[single] aande caabo de goede hoop over te blijven
+[single] 1269.
+[single] En aldaar den uijtslag sijner saake afte
+[single] wagten
+[single] 1270.
+[single] onder een bij gevoegd en ten vierde maale
+[single] /:tot behoudens en stavinge van desselfs
+[single] alhier
+[single] 00
+[single] 0
+[single] 32
+[single] „
+[single] ten
+== NL-HaNA_1.04.02_2487_0056 | #56 | sides: single | lines: 24
+[single] alhier seer verflauwende credit en ver„
+[single] minderinge van mijne agtinge mitsg:s
+[single] in timideringe mijner onderhorige
+[single] herhaald en gefingeerd voor wendsel
+[single] 1271.
+[single] Dat op sijne koenst aanden uijt hoek
+[single] reeds de tijdinge van mijne dimotien en
+[single] sijn Edeles noodsakelijke promotie tot
+[single] gouverneur generaal soude wesen gearri„
+[single] veerd
+[single] 1272.
+[single] En sijn Edele bij desselvs glorieuse spoedige
+[single] terug komste wel strengelijk soude weten
+[single] wraak tenemen van die geene, die tot sijne
+[single] verneederinge iets hadden onderstaan te
+[single] Contribueeren
+[single] 1273.
+[single] hebbe ik ten uijtersten nodig geagt tot welwesen
+[single] van demaatschappije en rust der jndische ingese„
+[single] tenen den heer van Imhoff bij goede gelegentheijt
+[single] de caap te doen voor bij seijlen
+[single] 1274.
+[single] En in vergaderinge deraden van India
+[single] voor
+== NL-HaNA_1.04.02_2487_0057 | #57 | sides: single | lines: 25
+[single] 1648
+[single] voor gedragen om eenige dan wel alle vijf des
+[single] noods alle vijf dese doe te vertreckene scheepen
+[single] den meerm: uijt hoek te doen meijden en liever
+[single] het eijland S:t Helena aante doen, met bij
+[single] voeginge van dese reden
+[single] 1275.
+[single] Dat als de scheepen aan Cabo de goede Hoop
+[single] zouden komen, aldaar het gevaar moesten
+[single] uitstaan vande onstuijmige en gevaarelijke
+[single] quaade mousson
+[single] 1276.
+[single] Dog dese twijffelmoedige heeren mijne
+[single] raden sulx glad afdeclineerende
+[single] 1277.
+[single] zoo hebbe al weder mij van mijne par„
+[single] ticuliere magt en authoriteijt moeten
+[single] bedienen
+[single] 1278.
+[single] En als gouverneur generaal aanden schipper
+[single] of bij absentie ofte overlijden vandien
+[single] aan den gezaghebber vanden bodem
+[single] Adrichem toegesegelde secreete ordon„
+[single] nantie geintrageerd
+[single] 1279.
+== NL-HaNA_1.04.02_2487_0058 | #58 | sides: single | lines: 26
+[single] 1279
+[single] Om deselve, nadat verthien dagen uijt
+[single] destraat zunda soude zijn verseijld
+[single] eerst temogen openen
+[single] 1280.
+[single] En ingevolge de daar binnen tevindene ordre
+[single] met zijn schip, daar toe kans ziende decaab
+[single] de goede hoop voor bij te zeijlen, en over
+[single] S:t helena na nederland testevenen
+[single] 1281.
+[single] Dus verre het principaelste deser mijne
+[single] noodsakelijke actie verhaald en daar mede
+[single] afgehandelt zijnde het, tweede voorgestelde
+[single] poinct van mijne secrete doleantien
+[single] „
+[single] teweeten een recit der noodsakelijke voor
+[single] sorgen en middelen
+[single] 1282.
+[single] welke ik nodig hebbe geoordeelt om dese
+[single] mijne nog nimmer hier voorgevallene
+[single] proceduuren omtrend leeden der regeringe
+[single] secuur en zonder opschuddinge ter Execu„
+[single] tie tebrengen.
+[single] 1283.
+[single] zal ik egter hier nog moeten bij voegen
+[single] en
+== NL-HaNA_1.04.02_2487_0059 | #59 | sides: single | lines: 26
+[single] 4649
+[single] en uwel Ed: Hoog agtb: voor oogen stellen
+[single] 1284.
+[single] hoe ik op den 15:' december aan mijne ra„
+[single] den hebbende Communicatie gegeven
+[single] dat ik de drie gearresteerde heeren met afgeschre„
+[single] vegagie sedert den dag van het arrest soude
+[single] na het vaderland senden met de eerst ver„
+[single] treckende scheepen.
+[single] 1285.
+[single] En aan haarlieden hadde toegelegt zoo
+[single] veel bagagie op de thuijs reijse mede
+[single] tenemen als hier vooren is vermelt
+[single] 1286.
+[single] De heeren mijne raden hebben kunnen
+[single] goedvinden tegens dit en het voorge„
+[single] vallende op den 6: bevoorens weder te
+[single] protesteeren.
+[single] 1287.
+[single] En het selve voor mijne rekeninge nog
+[single] maals te laten
+[single] 1288:
+[single] mitsg:s mijnen voorslag of zij de vaceerende
+[single] plaatsen geliefden te bekleeden voor dien
+[single] dag
+[single] 1
+== NL-HaNA_1.04.02_2487_0060 | #60 | sides: single | lines: 27
+[single] . 5.
+[single] dag te surgeeren
+[single] 1289.
+[single] voorts hoe op den 16: der Even gemelde maand
+[single] de heeren raaden door mij weder versogt zijnde
+[single] om in de leedige plaatsen te gaan sitten het
+[single] selve hebben geaccepteerd al mede onder
+[single] eene nadere protestatie van geene verant
+[single] woordinge nog daar ontrend het vorige
+[single] tewillen hebben
+[single] 1290.
+[single] schoon dese zoo dikwils gereitereerde ver„
+[single] schooningen en ontschuldigingen gans noode
+[single] loos waren
+[single] 1291.
+[single] nademaal door mij op den 6: bevorens
+[single] doe ik het arrest hadde geordonneert
+[single] 1292.
+[single] op hun Ed:s meticuleuse eerste protestatie rond bor„
+[single] tig was gedeclareerd
+[single] 1293.
+[single] Dat Jk als gouverneur en kap:n gen:t dit werk voor mijne reete
+[single] 1294.
+[single] nam
+[single] daar mede niet tedoen
+[single] Dat de heeren
+[single] hadden
+== NL-HaNA_1.04.02_2487_0061 | #61 | sides: single | lines: 26
+[single] 4650
+[single] 1295
+[single] hadden
+[single] Dat ik het ook om die reden niet eens in
+[single] omvrage hadde gebragt
+[single] 1296.
+[single] En dat ik het selve ook alleen aan uwel
+[single] Ed: hoog agtb: soude verantwoorden
+[single] 1297.
+[single] waar uijt allensins komt te blijken hoe„
+[single] danig denog hier sijnde de heeren raden
+[single] ontrend dese zaeke zig in allen deelen
+[single] partiaal hebben gedeclareert en met
+[single] allen ijver zig hebben geattacheerd
+[single] gehouden aan de belangens van meerm:
+[single] mijne drie arrestanten
+[single] 1298.
+[single] het welke boven en behalven hun Edelens
+[single] gansche zedert Eenigen tijd gehouden gedrag
+[single] nog meer sal consteeren uijt hun par
+[single] ticuliere schrijvens na nederland
+[single] 1299.
+[single] waarmeder mij is aangebragt te zijn
+[single] afgegaan een secreete ampel schriftelijk
+[single] Protest
+[single] „
+== NL-HaNA_1.04.02_2487_0062 | #62 | sides: single | lines: 25
+[single] protest aan uwel Ed: hoog agtb: geadresseer
+[single] 1300.
+[single] En opgevuld met eene menigte remon„
+[single] strantten tegens dese mijne gedoentens
+[single] 1301.
+[single] Mitsgaders met eene trotsche en haatelijke
+[single] verklaringe dat haar Edelens op zodanige
+[single] eene wijse en onder zulke eene subordina„
+[single] tie niet Langer in rade van Jndia als
+[single] leeden zouden kunnen sitten nog begeeren
+[single] te blijven
+[single] 1302
+[single] En schoon hier omtrend mijne correspon„
+[single] dentie niet alte zeker is, wijl mij nadat
+[single] is tevooren gekomen dat zommige hee„
+[single] ren raaden alleen vandese intentie
+[single] waren geweest
+[single] 1303.
+[single] Dog dat andere daar mede niet wille
+[single] zig conformeeren het selve om de rede„
+[single] nen zoude zijn agter gebleeven
+[single] 1304.
+[single] Zoo hebbe egter tot eene overtollige
+[single] precautie
+[single] :
+== NL-HaNA_1.04.02_2487_0063 | #63 | sides: single | lines: 27
+[single] 4657
+[single] precautie, of dit protest zomtijds door
+[single] zommige heeren namentlijk M„r Nicolaas
+[single] Van Berendregt, Elias Guillot, m„r
+[single] Iacob Lakeman en apparentlijk ook
+[single] wel Maurits van Aarden, die
+[single] zig nog alvrij obstinaat komen aante
+[single] stellen en met dagelijkse conferentien
+[single] het een of andere tragten te bewerken,
+[single] mogte werden vervolgd en aan uwel
+[single] Ed: hoog agtb: toegesonden, niet ondienstig
+[single] geoordeelt
+[single] 1305.
+[single] Daar op te remarqueeren dat dit hun
+[single] declaratoir nergens anders is toe bedagt
+[single] ^daar
+[single] als om uwel Ed hoog agtb: door den
+[single] tegens mij (waar het mogelijk) te preoc
+[single] cupeeren
+[single] 1306.
+[single] Ee door haarlieden geensins niet eene
+[single] suijvere en opregte meninge kan wer„
+[single] den voor gewent
+[single] 1307.
+[single] wijl ik verzeekert ben, dat zoo hem
+[single] ontslag
+[single] 1
+== NL-HaNA_1.04.02_2487_0064 | #64 | sides: single | lines: 24
+[single] ontslag maar alleen om die reden door
+[single] uwel Ed: hoog agtb: aan hunne keuse wierd
+[single] gestelt.
+[single] 1308.
+[single] haar Edelens indien gevalle seer benauwd
+[single] en verlegen souden werden gemaakt
+[single] 1309
+[single] Boven en behalven dat zoo wanneer
+[single] dese heeren het selve door eenen blinden
+[single] endriftigen iever voor mijne arrestanten
+[single] al eens waarelijk mogten van gedagten
+[single] zijn
+[single] 1310.
+[single] De E: Compagnie door het misschen van
+[single] hunnen dienst geensins verlooren zoude
+[single] gaan ofte inverleegendheit raaken
+[single] 1311
+[single] Nadien onder de verdere Compagnies
+[single] dienaren ruijm zulk bequame trouw„
+[single] hertige en ongeinteresseerde subjecten tot
+[single] de Eminente qualiteijten van Raden
+[single] van jndien zouden tevinden wezen als
+[single] dese heeren sig tot nog toehebben betoond
+[single] 1312
+== NL-HaNA_1.04.02_2487_0065 | #65 | sides: single | lines: 26
+[single] 4652
+[single] 1312.
+[single] De bij mijne Eerbiedige aan uwel Ed: hoog
+[single] agtb: gedepecheerde letteren van dato 8:'
+[single] Januarij deses jaars voor gestelde ordre
+[single] komt thans te verEijschen
+[single] 1313.
+[single] Dat ik in de derde plaats aan de hoog
+[single] wijse judicatuure van uwel Ed: hoog
+[single] agtb: exactelijk nu kome voor te stellen
+[single] en soo kort doenelijk uijt te leggen
+[single] 1314.
+[single] De qualificatie en het regt mitsgaders
+[single] de omstandigheeden van tijden, en saaken
+[single] die ik men mijnen in desen gehouden
+[single] handel ten vollen temoeten billyken
+[single] 1315.
+[single] En alhoe wel van dusdanige proceduu„
+[single] ren alhier geene exempelen inde tijden
+[single] van het oppergesag der E: maatschappije
+[single] indese landen sijn tevinden omtrend
+[single] raden van Jndia
+[single] 1316.
+[single] om redenen dat nooijt sodanige oproerige
+[single] en Cumultueuse onder nemingen door
+[single] Raaden
+== NL-HaNA_1.04.02_2487_0066 | #66 | sides: single | lines: 26
+[single] „
+[single] Raaden van jndia tegens hunnen wittig
+[single] en infunctie sijnden hooft gebieder alh:
+[single] hebben geExteerd
+[single] 1317.
+[single] soo is Egter indien Exempelen dit regt
+[single] en dese qualificatie van „ gouverneur
+[single] en Capitain generaal souden moeten
+[single] fundeeren
+[single] 1318.
+[single] Aan een iegelijk die maar eenigsins
+[single] in de historien wat is geverseerd, genoeg saar
+[single] bekend
+[single] v
+[single] 1319.
+[single] Dat in ons vaderland en andere repu„
+[single] bliquen als mede inde vorstendommen
+[single] van Europa
+[single] 1320.
+[single] soo wel als alhier in Jndia onder de
+[single] Regeringe der portugeesen daar omtrent
+[single] verscheijde voorbeelden kunnen werden
+[single] aangehaald
+[single] 1321.
+[single] Welkers eclat en scherpheit hoewel
+[single] niet
+== NL-HaNA_1.04.02_2487_0067 | #67 | sides: single | lines: 26
+[single] 465
+[single] 53
+[single] niet in alleen deelen met dit gevalparalel
+[single] egter vrij verre komen te overtreffen demi„
+[single] litaire voorsorgen thans door mij als een
+[single] Enmet opperhooft alleen ontrent mijne
+[single] gesubordineerde raadsleeden werkstellig ge„
+[single] maakt
+[single] 1322.
+[single] En soo men deselve alhier ter betrag„
+[single] tinge van kortheit niet overslag—
+[single] 1323.
+[single] soude men moeten bekennen dat selver
+[single] hooft bestierdens aan welke de authori„
+[single] teijt en het gesag in verre na soo hoog
+[single] niet boven de raadsleeden is verleend,
+[single] als die aan een gouverneur generaal
+[single] alhier boven de raaden van Jndia is
+[single] gegeven sulx op vrij strengerende spoti„
+[single] quer wijse sig hebben aangematigd
+[single] 1324.
+[single] Edog nademaal ik vermeen dat ik son„
+[single] der steumsel op eenige voorbeelden tot dese
+[single] mijne geExecuteerde proceduuren ben
+[single] bevoegd geweest
+[single] 1325
+== NL-HaNA_1.04.02_2487_0068 | #68 | sides: single | lines: 27
+[single] 1325.
+[single] sal het dan ook niet nodig wesen hier
+[single] mede sig langer op te houden
+[single] 1326:
+[single] 5
+[single] waar inmediaat werden overgegaan
+[single] tot eene ontegenspreekelijke adstructie
+[single] van dese mijne magt
+[single] 1327.
+[single] En ten dien fine moeten werden gere
+[single] marqueerd
+[single] 1328.
+[single] Dat het regt van eene politique uijt
+[single] settinge en verboninghe sonder Emplooi
+[single] van eenige judicieele regtspleginge
+[single] 1329.
+[single] Dat wel meest is ingesteld om sig van
+[single] turbulente, gevaarlijke en biditieuse
+[single] ingesetenen en rust verstoorders spoedig
+[single] en sonder veel moeijte te ontlasten. —
+[single] 1330.
+[single] En het welke in het vaderland aan
+[single] alle groote steeden competeerd
+[single] 1331.
+[single] jn sijne volle kragt bij octroij van haar
+[single] hoog
+[single] 3
+== NL-HaNA_1.04.02_2487_0069 | #69 | sides: single | lines: 27
+[single] 4654
+[single] hoog mogende de heeren staaten generaal
+[single] der vrije vereenigde nederlanden is gegeven
+[single] en verleend aande E: oost indische maatschappij
+[single] 1332.
+[single] En weder door uwel Ed: hoog agtb: delegatie
+[single] is toe gestaan aan den gouverneur generael
+[single] ende Raden van jndia
+[single] 1333.
+[single] blijkens het 31:' lid vanden articul brief
+[single] en het laaste gedeel te van het agste articul
+[single] uijt de Jnstructie voor gouverneur generael
+[single] en raaden van dato 22: augustus ao 1617.
+[single] 1334.
+[single] waarvan de raaden vanjndia selver niet
+[single] en sijne geeximeerd, maar welde gelijk
+[single] mede daaraan sijn gehouden
+[single] 1335.
+[single] Gelijk dat consteerd uijt het vierde lid
+[single] van haaren Eed tep vinden agter het
+[single] 120. articul vanden generalen articul
+[single] brief
+[single] 1336.
+[single] En sulx dan vast staande moet ook
+[single] daar
+[single] 1
+== NL-HaNA_1.04.02_2487_0070 | #70 | sides: single | lines: 24
+[single] daar uijt veel meer voort vloeijen
+[single] 1337.
+[single] Dat eene enkel arresteringe waar toe
+[single] den gouverneur generaal insaaken daar
+[single] periculum in mora voor komt absoleut
+[single] allenig is bevoegd
+[single] 1338.
+[single] mitsgaders eene simpele op sendinge na
+[single] nederland, om sig voor uwel Ed: hoog agt
+[single] hoog gevenereerde vergaderinge van 17:' alle
+[single] te verantwoorden
+[single] 1339.
+[single] Dies te ligter kan en mag werden gepro
+[single] tiseerd door den gouverneur generaal end:
+[single] raaden van Jndia aan deleeden der re„
+[single] geringe
+[single] 1340.
+[single] jnvoegen het selve dan ook met duijdelijk
+[single] voor den door uwel Edele hoog agtb: verga
+[single] deringe bij missivens van datis 11:' maij
+[single] 1677. en 23:' januarij 1681. aan de regerin
+[single] ge alhier is toe gestaan en gedeman„
+[single] deerd. —
+[single] Jngevallen
+== NL-HaNA_1.04.02_2487_0071 | #71 | sides: single | lines: 28
+[single] 1341.
+[single] 4655
+[single] Ingevallen daar desaaken en faicten
+[single] souden wesen politicq
+[single] 1342.
+[single] En het begaane crinen alhier bij de
+[single] regeringe wierde aangesien van die na„
+[single] tuure en van sulken hoog wigtigheit
+[single] te wesen
+[single] 1343.
+[single] Dat er groot en Evident-perijkel in mora
+[single] off uijtstel van dien was gelegen
+[single] 1344.
+[single] werdende daar bij tot speciaale Exem„
+[single] pelen gevoegd
+[single] 1345.
+[single] Soo wanneer Raden van jndia door
+[single] veremente indicien aan land verraad
+[single] ofte Correspondentie met den vijand ver
+[single] dagt wierden gehouden
+[single] 1346:
+[single] Danr wel soo sijsig aan
+[single] stooken ofte
+[single] met
+[single] soveren van siditie (:gelijk alhier klaar
+[single] is aangetoond doorde op gesondene heeren
+[single] tegens mij hunnen wettigen gouverneur
+[single] Generaal
+== NL-HaNA_1.04.02_2487_0072 | #72 | sides: single | lines: 25
+[single] Generaal te sijn onder nomen:) mogten
+[single] hebben schuldig gemaakt
+[single] 1347.
+[single] Inwelke eeniglijk tot voorbeelden en
+[single] Elucidatie van het voorgaande opgetelde
+[single] gevallen
+[single] 1348.
+[single] En in alle verdere misdaden daar
+[single] den uijtstel van keele enhibitie voor
+[single] de EComp: seer nadeelig en gevaarelijk
+[single] souden werden geoordeelt tesijn
+[single] 1349.
+[single] uwel Ed: hoog agtb: hebben begeerd dat
+[single] de regeringe alhier soude sijnen blij„
+[single] ven gequalificeert
+[single] 1350.
+[single] om sodanig eenen Raad van Jndia
+[single] politicq temogen suspendeeren
+[single] 1351.
+[single] ja ook des noods de EComp: bij al
+[single] sulke ofte andere provisioneele middelen
+[single] (:na verEijsch van zaeken:) tegens haaren
+[single] ondergang ofte wel Eenig nadeel van
+[single] Grooten
+[single] -
+== NL-HaNA_1.04.02_2487_0073 | #73 | sides: single | lines: 25
+[single] 4656
+[single] Grooten gevollige indier voegen te afsecu„
+[single] reren
+[single] 1352
+[single] Als zoude werden geoordeelt te behooren
+[single] 1353.
+[single] met van dat bedrijf als uijt hooge nood
+[single] zakelijkheit geschied bij de eerste gelegenthijd
+[single] aan uwel Ed: hoog agtb: gevende omstandige
+[single] kennisse
+[single] 1354.
+[single] ook redenen en rekenschap, met toesendinge
+[single] van alle bescheijden daar toe hebbende
+[single] gedient
+[single] 1355.
+[single] uijt welke even aangeroerde ordres
+[single] en fundamenteele weeten dan vast
+[single] staande
+[single] 1356:
+[single] Dat het tegens dese heeren geExecuteerde
+[single] arrest ende verzendinge nanederland
+[single] heeft mogen geschieden
+[single] 1357.
+[single] op fundament van hunne seditieuse
+[single] oproerige
+== NL-HaNA_1.04.02_2487_0074 | #74 | sides: single | lines: 24
+[single] oproerige en tumultueuse jegens mij on„
+[single] der nomene attentaten en gesmeede dessijnen
+[single] 1358:
+[single] waardoor niet alleen mijn Iminenter
+[single] Caracter van gouverneur generaal geschon
+[single] den, vertreden en ten hoogsten benadeele
+[single] geworden is
+[single] 1359
+[single] Ende hooge magten die ik alhier kome
+[single] te reprasenteren ten uijtersten geledeert
+[single] en gejnjureert moeten werden geoordeelt,
+[single] tewesen
+[single] 1360.
+[single] Maar waar door ook de al oude
+[single] regerings forma alhier zeer heeft
+[single] gepericliteert
+[single] 1361.
+[single] Mitsgaders buijten een zeer apparent
+[single] gestaanhebbende tweede verschrikke
+[single] lijk bloed bad eene gansche ruine de„
+[single] ser colonie te dugten heeft gestaan
+[single] 1362.
+[single] zoo zal thans nog moeten werden onderzogt
+[single] 1363
+== NL-HaNA_1.04.02_2487_0075 | #75 | sides: single | lines: 27
+[single] 4657
+[single] 1363.
+[single] of ik als gouverneur en kapitain generael
+[single] indus danig een geval alleenig ben be„
+[single] voegd geweest, om dit gepermitteerde
+[single] middel tegens alle protestatien van
+[single] mijne toegevoegde raaden op eijgen autho„
+[single] riteijt temogen werkstellig maeken
+[single] 1364.
+[single] En schoon ik zeer gaarne wil bekennen
+[single] dat geene wel ofte ordre bij dE Comp:
+[single] is gestatueert
+[single] 1365.
+[single] waar inne aanden gouverneur gene„
+[single] raal alleen dese magt net uijt gedrukte
+[single] woorden direct is gegeven
+[single] 1366:
+[single] zoo vermeene egter dat indit geval
+[single] zoo wel mijn Caracter en authoriteijt
+[single] als de omstandigheeden van tijden en
+[single] zaaken mijne nutte ennodige onder
+[single] neminge ten vollen moeten regt veer
+[single] digen
+[single] 1367.
+[single] tot beweeringe daarvan komen dan
+[single] alleen
+[single] zogt
+== NL-HaNA_1.04.02_2487_0076 | #76 | sides: single | lines: 24
+[single] alhier in aanmerkinge het pouvoir de
+[single] faculteijt en oppermagt, welke bij de gron„
+[single] wetten der E: maatschappije ende successive
+[single] ordres vande wel Ed: hoog agtb: verga„
+[single] deringe der 17: aan mijn thans bekleed
+[single] werden de Eminente Caracter zijn gede
+[single] fereerdt
+[single] 1368:
+[single] En voor eerst hoe aan mijne hooge quali„
+[single] teijt alhier bij het eerste lid vande instruc
+[single] tie voor gouverneur en raden op den
+[single] 22: augustus 1617: bij uwel Edele hoog
+[single] agtb: gearresteerd en op den 3: novem„
+[single] ber desselven Jaars door de hoogste
+[single] souverainen, deser landen haar hoog
+[single] mog: de heeren staten generaal der
+[single] vrije verEenigde nederlanden geappro„
+[single] beerd en geratificeert, is geconfereerd
+[single] 1369.
+[single] Als eene zaeke ten hoogsten nodig tot
+[single] verhoedinge van alle die ordre en con„
+[single] fusie alhier
+[single] 1370.
+[single] Eene
+== NL-HaNA_1.04.02_2487_0077 | #77 | sides: single | lines: 27
+[single] 4658
+[single] 1370.
+[single] Eene ampelemagt om privativelijk het
+[single] hoogste gebieder opperste gezag tevoeren over
+[single] alle forten, comptoiren, plaatsen scheepen
+[single] officiers en dienaren indienst ofte ondere
+[single] het gebied van d' E: Comp: wesende
+[single] hoe wijders bij het 23 lid van gem: jn„
+[single] structie aanden gouverneur generaal
+[single] speciaal nog daar en boven is gedemandeert,
+[single] de privative dispositie over alle milatairen
+[single] Capitainen lieutenanten, vaendrigs en
+[single] andere officieren
+[single] 1372.
+[single] waarbij in het 61. articul van die jnstruc„
+[single] tie nog is gevoegd een afsonderlijke magt
+[single] van Commando over de vrijlieden en
+[single] haare nakomelingen intijden van
+[single] oorloge
+[single] 1373.
+[single] En ten laasten hoedanig dit Iminente
+[single] opperhooft in het vijfde gedeele van gem:
+[single] jnstructie boven zijne raden is ver„
+[single] heeven geworden
+[single] 1374
+[single] 1371.
+== NL-HaNA_1.04.02_2487_0078 | #78 | sides: single | lines: 25
+[single] 1774.
+[single] zoo met Eene qualificatie van de
+[single] continueele praesidie ende Eerste stemme
+[single] in rade van Jndia
+[single] 1375.
+[single] Als met Eene magt van dubbelde con
+[single] clusie bij gelijkheit van stemmen
+[single] 1376
+[single] Ten tweeden hoedanig dese oppermagt van
+[single] den gouverneur generaal in Even die selve
+[single] tijds periode is bekragtigt bijden als dee
+[single] mede gearresteerden en geaggreerden ar„
+[single] ticul brief die nog Jaarlijks werd ge„
+[single] renoveerdt
+[single] 1377.
+[single] wanneer in het Eerste articul is geregu
+[single] leerd dat een Eed van getrouwigheit en
+[single] gehoorsaamheit door alle Comp:s bedien
+[single] dens geene uijtgezondert alhier afsonder
+[single] lijk en alleen moet werden gedaan
+[single] aanhaar hoog Mog: uwel Ed: hoog agtb:
+[single] en aan den infunctie zijnden gouver„
+[single] neur generaal
+[single] 1378
+[single] Even
+== NL-HaNA_1.04.02_2487_0079 | #79 | sides: single | lines: 28
+[single] 4659
+[single] 1378:
+[single] Even als het zelve mede tevinden is in
+[single] het derde en sevende formulier van Ed=l
+[single] agter het 120: articul te vinden
+[single] 1379.
+[single] En dat zelver hier meede onder zijn be
+[single] greepen de raeden van jndia, consteerd
+[single] uijt het tweede formulier van Eede agter
+[single] Even gemelde articul, staande
+[single] 1380.
+[single] Alwaar blijkt dat de raden van Jndia
+[single] naden Eed aan haar hoog mog: en uwel
+[single] Ed: hoog agtb: gepresteerd wel speciaal
+[single] sweeren
+[single] moeten
+[single] 1381
+[single] aan den gouverneur Generaal gehouwen
+[single] getrouw te zullen wesen
+[single] 1382.
+[single] En denzelven alle behoorlijke gehoor„
+[single] saamheit, eere en de respect te sullen
+[single] bewijsen
+[single] 1383.
+[single] Waar bij nog tot Eeen klaar bewijs
+[single] van den superieuriteijt van den gouverneur
+[single] Generaal
+[single] cou
+== NL-HaNA_1.04.02_2487_0080 | #80 | sides: single | lines: 27
+[single] Generaal boven de raden van india
+[single] in het eerste formulier van Eede Even
+[single] gaande voor komt
+[single] voorwaarts
+[single] 1384.
+[single] Dat den gouverneur Generaal alleen aan
+[single] -
+[single] hooge gem: haar hoogmog: en uwel Ed: hoog
+[single] agtb: den Eed van getrouwigheit komt te
+[single] doen,
+[single] 1385.
+[single] Maar geensins aande raden van Jndia
+[single] schoon sij zulx als Even gesegt is, aanden
+[single] zelven verpligt zijn
+[single] 1386:
+[single] Mitsgaders nog daar en boven volgens
+[single] eene noodsakelijke consequentie uijt de 45.
+[single] en 47: gedeeltens vandien articul brief
+[single] voort vloeijende aan den gouverneur generaal
+[single] competeert
+[single] 1387.
+[single] omme de dienaren van hoge oflage qua
+[single] liteijt privativelyk soo wel temogen
+[single] afsetten, als reeds afgeset sijnde, weder te
+[single] mogen indienst aannemen
+[single] 1388.
+[single] 92
+== NL-HaNA_1.04.02_2487_0081 | #81 | sides: single | lines: 26
+[single] 46 pb:
+[single] 1388.
+[single] ten derden is nopens dese superioriteijt
+[single] vanden Gouverneur Generaal seer aanmer
+[single] relyk en gansch decisoir
+[single] 1389.
+[single] Dat dese Eerste ingestelde forme van Eene
+[single] bij na een hoofdige bestieringe en oppermagt
+[single] /:als seer veel de vieerende vande maxi„
+[single] men den regeringe inden staat der vrije
+[single] vereenigde nederlanden gerecipieerd:)
+[single] na veel vuldige deliberatien en overwe„
+[single] gingen in uwel Ed: hoog agtb: vergaderinge
+[single] gehouden na dato voor altijd, en onver„
+[single] anderlijk inhet toekomende is vast
+[single] gestelt
+[single] 1390.
+[single] En bij de meeste advijsen verstaan als
+[single] het sekerste en respectueuse voor dE: maar
+[single] schappij tewesen
+[single] 1391.
+[single] blijkens het 6:' 7:' lid van Een nader rege„
+[single] lement den 26: april 1650 in uwel Ed:
+[single] hoog agtb: vergaderinge geconcipieerd
+[single] 1392.
+[single] En
+== NL-HaNA_1.04.02_2487_0082 | #82 | sides: single | lines: 26
+[single] 1392.
+[single] En tot titil voerende poincten en arti„
+[single] culen in forma van generale instruc
+[single] tie ter vergaderinge vande heeren 17=e re„
+[single] presenteerende de generale nederlandsche
+[single] geoctroijeerde oost jndische Comp: gear„
+[single] resteerd voorden Edelen gouverneur ge„
+[single] neraal en bij gevoegde raden wegens
+[single] de gem: Comp: residerende tot batavia
+[single] omme haar E:E: tot meerder welvaaren
+[single] ende prosperiteit vandeselven te
+[single] dienen
+[single] 1393.
+[single] En moet aan hen jgelijk onbegrijpelijk
+[single] voorkomen hoe indese Lyden door de raden
+[single] van jndia is geimagineerd
+[single] 1394.
+[single] Niet alleen eene Equaliteijt van magt
+[single] nevens hunnen opper gebieder
+[single] 1395.
+[single] Maar zelver Eene superioriteijt boven
+[single] den gouverneur generaal
+[single] 1396:
+[single] Jnvoegen dat bij mijne deductie van
+[single] defaicten
+== NL-HaNA_1.04.02_2487_0083 | #83 | sides: single | lines: 26
+[single] 4661
+[single] defaicten zoo in mijne vorige als dese
+[single] mijne Eerbiedige secrete letteren reeds
+[single] ontegenspreekelijk uijt hunnen onder
+[single] nemingen sustenuen enselver gedicteer„
+[single] de en geamplieerde advijsen is aangetoond
+[single] 1397
+[single] ja moet daar en boven gans rebellig en
+[single] seditieus werden aangesien
+[single] 1398.
+[single] hoe zijlieden mij inplaats van hun
+[single] hooft hebben geconsideereert als hun
+[single] minister, over wien sij te gebieden had
+[single] den, endie hunnen ordres souden ge
+[single] houden zijn te Executeeren
+[single] 1399
+[single] mitsgaders durven onderstaan eene
+[single] vergaderinge te consipieeren en fingeeren
+[single] buijten mij als hunnen permanenten
+[single] president
+[single] 1400
+[single] Als mede mij te bedisputeerende facul„
+[single] teijt van Eene dubbelde stemmee in cas
+[single] van Equaliteit van advijsen
+[single] 1401
+[single] ren
+== NL-HaNA_1.04.02_2487_0084 | #84 | sides: single | lines: 27
+[single] 1401.
+[single] En ook durven sustineeren, dat iemand
+[single] anders als ik bevoegd was de magt van
+[single] het doen van propositien in vergaderinge
+[single] te Exerceeren.
+[single] 1402.
+[single] Ia nog al verder mij hebben durven ont„
+[single] nemen het regt van Eerst voor afstem„
+[single] „minge.—
+[single] 1403
+[single] En het geene dat nog alles overtreft
+[single] op den dag van het arrest door den heer
+[single] van Imhoff is kunnen werden gesusti„
+[single] „neert
+[single] 1404.
+[single] Dat ik rekenschap aan mijne raeden
+[single] -
+[single] zoude moeten geven van mijn doen en
+[single] laten.
+[single] 1405.
+[single] om dat quasie mijne acte van authori
+[single] satie door de raden van jndia zoude
+[single] wesen verleend en getekent
+[single] 1406.
+[single] Daar devooren aangehaalde ordres
+[single] dese
+[single] 126
+== NL-HaNA_1.04.02_2487_0085 | #85 | sides: single | lines: 25
+[single] 4662
+[single] dese turbulente sustenuen in contestabel
+[single] tegenspreeken en Condemneeren
+[single] 1407.
+[single] Dog om hier omtrent alle objectien
+[single] en uijt vlugten te verijdelen
+[single] 1408.
+[single] zal ik eens kortelijkxe aantoonen wat
+[single] magt en authoriteijt boven de raden
+[single] van jndia, nog verder bij laast geci„
+[single] teerde instructie van den 26: april 1650.
+[single] en bij de verdere daar op gevolge suc„
+[single] cessive vaderlandsche missivens met
+[single] uijt druckelijke woorden aan den
+[single] regerenden gouverneur generael,
+[single] is gegeven
+[single] 1409.
+[single] Endan daar agter laten volgen
+[single] hoedanig de heeren raden van Jndia
+[single] met relatie tot den zelven moeten
+[single] werden geconsidereerd
+[single] 1410.
+[single] Mitsg:s in hoevere dedispositie van
+[single] zodanigen opperhooft over haar lieden
+[single] sig
+== NL-HaNA_1.04.02_2487_0086 | #86 | sides: single | lines: 27
+[single] sig is uijt steeckende
+[single] 1411.
+[single] om het welke behoorlijke te onderscheijden
+[single] dient gelet tewerden op de articulen 6. 7. 8.
+[single] tot 22. inclusive en 148. van dit reglement
+[single] 1412.
+[single] Aantonende dat de gouverneur generael
+[single] is het opperhooft der gansch regeringe
+[single] 1413.
+[single] Dat van den zelven moetende „ riveren
+[single] alle onderhoudinge van goede ordre
+[single] en maximen in het stuk van Justitie
+[single] Negotie
+[single] politie en het geene daar meer aan de
+[single] pendeerd.
+[single] 1414.
+[single] Dat hij is den voorganger en leijdsman
+[single] der raadsleeden
+[single] 1415.
+[single] En dat hij als den sodanigen het groote
+[single] rafd inden omslag van Comp: handel
+[single] moet waarnemen
+[single] 1416:
+[single] voorts bewijsende 142. 143. 144. en 145. artic=l
+[single] van
+[single] 1
+[single] „
+== NL-HaNA_1.04.02_2487_0087 | #87 | sides: single | lines: 32
+[single] 4663.
+[single] van dese instructie
+[single] 1417.
+[single] Dat de kragt en last der regeringe voor
+[single] namentlijk cust op de schouderen vanden
+[single] gouverneur generaal
+[single] 1418.
+[single] En dat deselve als onveranderlijk presi
+[single] deerende en op wiens beleijd principalijk
+[single] gesien werd, demagt alleen heeft om buijten
+[single] de ordinaris vergader dagen soo veele
+[single] Extraordinaire vergaderingen te beleggen
+[single] als vermeenen sal nodig te wezen
+[single] 1419.
+[single] Nog consteerd bij missive vande hoog
+[single] agtb: vergaderingen vande heeren 17=en
+[single] de dato 27: aug:s 1630. dat den gouverneur
+[single] generaal alleen sijne Commisse plagt
+[single] te bekomen directelijk vanden hoogsten
+[single] en absoluten souverain, dog geensins de
+[single] raden van Jndia
+[single] 1420.
+[single] ook werd denzelven bij missive van
+[single] haar hoog Mog: de dato den 28:' 9ber 1733.
+[single] 5:' Januarij 1737. en 5:' novembr
+[single] 173. 8.
+[single] t
+[single] 6
+[single] n
+[single] te
+== NL-HaNA_1.04.02_2487_0088 | #88 | sides: single | lines: 34
+[single] 173. 8. — vereerd met den titul van hunnen
+[single] gouverneur en capitain generael
+[single] 1421.
+[single] En wat aanbelangd de comparatie der
+[single] heeren raeden met desen hunnen hoofd
+[single] gebieder
+[single] 1422.
+[single] zoo zal buijten het reeds het formulier
+[single] van Eede derzelver geallegeerde en buij„
+[single] ten het geene hier en daar in't voorbij
+[single] gaan is aangeroerd, werden bevonden
+[single] 1423.
+[single] Dat deraden volgens de articulen
+[single] 4. 5 en 14. van oik geciteerde instruc
+[single] tie sijn dependerende van den gouverneur
+[single] generaal, en haare oogen gestadig op hem
+[single] moeten hebben, om denselven te volgen
+[single] en te believen
+[single] 1424.
+[single] ook dat sij aan desselfs respect seer sijn
+[single] geattacheerd en hem moeten volgen
+[single] „ 1425.
+[single] Als mede blijkt uijt het hooft en uijd
+[single] de
+[single] 9
+[single] N
+[single] 0
+[single] uyt
+[single] 1
+[single] 0
+[single] p 3
+[single] 5
+[single] 65
+== NL-HaNA_1.04.02_2487_0089 | #89 | sides: single | lines: 26
+[single] 4664
+[single] de 14. 142. 143. 144. en 145. articulen van die
+[single] selven ordonnantie
+[single] 1426.
+[single] Dat dese heeren maar alleen zijn aan
+[single] den hoofd gebieder bij gevoegde, by hebbende
+[single] en geadjungeerde Raadslieden, die den zelven
+[single] in zijn bestieringe moeten adsisteeren,
+[single] en helpen in zaeken die hij aan hun
+[single] komt in Consideratie te geven
+[single] 1427.
+[single] Mitsg:s werden zij volgens missive van
+[single] uwel Ed: hoog agtb: de dato 4: october
+[single] 1672. ieder inhet bij sonder wel Ernstig
+[single] gerecommandeert, den gouverneur
+[single] generaal toetebrengen dat respect
+[single] en aan hem telaten die authoriteijt, die
+[single] aan sijne hooge bedieninge is Compe„
+[single] teerende
+[single] 1428
+[single] Als mede vermogen zijn blijkens eene
+[single] gelijke missive van den 18: aug:s 1729. niet
+[single] zonder het uijterste misnoegen van
+[single] uwel Ed: hoog agtb: door pluraliteijt
+[single] van
+== NL-HaNA_1.04.02_2487_0090 | #90 | sides: single | lines: 25
+[single] van stemmen iets door te dringen het
+[single] gunt tegens het sentiment vanden
+[single] gouverneur generaal strydig is
+[single] 1429.
+[single] En zoo wanneer in't toekomende sulx
+[single] op eene nadenkelijke wijse mogte door
+[single] zommige werden ondernomen dat als
+[single] dan die tegenstreevens daar omtrent
+[single] hun speciaal zouden moeten verant
+[single] woorden.
+[single] 1430.
+[single] het welke genoeg doende fundeert dat
+[single] de raden van jndia zijn gesubmitteerde
+[single] ministers
+[single] vanden gouverneur generael
+[single] 1431.
+[single] ten minsten dat zij gene de geringste
+[single] magt over denzelven vermogens zijn
+[single] te oeffenen
+[single] 1432.
+[single] Daar integendeel als men de authori
+[single] riteijt vanden gouverneur generaal
+[single] omtrend dese zijne raden komt te onder
+[single] soeken evident Consteert
+[single] 1433.
+== NL-HaNA_1.04.02_2487_0091 | #91 | sides: single | lines: 28
+[single] 4665
+[single] 1433.
+[single] Dat gij overhaarlieden vermag te dispo„
+[single] neeren en gebieden
+[single] 1434.
+[single] want werd in articul 147 en 148. van laast
+[single] bij gebragte instructie gevonden
+[single] 1435.
+[single] Dat den gouverneur Generaal als opperhooft
+[single] sijn oogmoet laten gaan, dat de raden
+[single] van jndia ieder het gunt hem op gelegt
+[single] is promptelijk Executeeren sonder nala„
+[single] tigheit
+[single] 1436.
+[single] En dat dese gebieder het werk der beschrij„
+[single] vingen na zijn goedvinden kan verdelen
+[single] onder de raaden van India, met
+[single] recommandatie van het gene zij daar
+[single] omtrent sullen hebben te observeren
+[single] 1437.
+[single] voorts is er immers geen vijffel meer
+[single] overrig als bevonden werden dat reeds
+[single] ses jaaren bevorens dese raden van
+[single] jndia geheel en al onder decensuure
+[single] vanden gouverneur generaal zijn
+[single] gesteld
+[single] e
+== NL-HaNA_1.04.02_2487_0092 | #92 | sides: single | lines: 27
+[single] gesteld geworden
+[single] 1438.
+[single] volgens apparte Missive vandewel Ed: hoog
+[single] agtb: heeren 17:en de dato 21. september 1644.
+[single] 1439.
+[single] als bij welk aanschrijvens seer applicabel
+[single] in Cas subject werd geapprobeerd en gans
+[single] aangenaam op genomen
+[single] 1440.
+[single] De particuliere onder rigtingen van
+[single] den gouverneur generaal aandewel
+[single] Ed: hoog agtb: heeren 17: over de persoonen
+[single] van de principaalste ministers on„
+[single] trent hun gedrag tegens gem: opper
+[single] gebieder alhier
+[single] 1441
+[single] met eene bijgevoegde recommandatie
+[single] omme daar inne ten dienste van het
+[single] generale werk te willem continueeren
+[single] 1442.
+[single] zonder
+[single] (:om eenige impressie van on„
+[single] gunst op sig te halen:) het selve na
+[single] telaten
+[single] 1443.
+[single] 69
+[single] o 1
+== NL-HaNA_1.04.02_2487_0093 | #93 | sides: single | lines: 28
+[single] 4666
+[single] 1443.
+[single] werdende sulx daar enboven in allen
+[single] goeder
+[single] Ernst ter „ meeninge van den gouvern=r
+[single] generaal in toekomende verzogt
+[single] 1444.
+[single] met aankundiginge dat zig niemand
+[single] met reden het selve behoefde aante trec„
+[single] ken
+[single] 1445.
+[single] En zoo Egter dit door jemand geschiede,
+[single] daar niet veel aangelegen soude wesen
+[single] 1446.
+[single] uijt alle dese vooraangehaalde parma„
+[single] nente ordres dan Evident blijkende
+[single] 1447.
+[single] Dat de magt van politicque uijt settinge
+[single] tot eene spoedige voorsorge en verhoedinge
+[single] tegens seditie, oproer en verstooringe van
+[single] de gemeene rust competeerd aanden
+[single] gouverneur Generaal en zijne raden
+[single] 1448.
+[single] Dat ook dese magt sig speciaal uijt
+[single] streckt over zodanige raden van
+[single] jndia selver die seditie en onlusten
+[single] stooken
+[single] el
+== NL-HaNA_1.04.02_2487_0094 | #94 | sides: single | lines: 24
+[single] stooken mitsgaders die iets gevaerelijks
+[single] voor den straat derE: maatschappij en het
+[single] wel wesen van haare Colonie onderstaan
+[single] 1449.
+[single] Dat in het tegenswoordige geval door de
+[single] op gezondene en gearresteerd heeren gustaaff
+[single] Willem van Imhoff, Elias De Haeze
+[single] en M„r Isaac van Schinne als hoofd„
+[single] en belhamels buijten en behalven veele
+[single] mindere forfaicten
+[single] 1450.
+[single] voor Eerst eene totale verstoringe van
+[single] de algemene rust alhier inde regeringe
+[single] is gecauseert
+[single] 1451.
+[single] ten tweeden eene gansche subversie in
+[single] de eens en voor altijdt vast gestelde re„
+[single] gerings forma alhier is ondernomen
+[single] 1452.
+[single] ten derden eene baar blijkelijke seditie en
+[single] oproer tegens mij hunnen wettigen gebie„
+[single] der is begonnen
+[single] 1453.
+[single] waar
+== NL-HaNA_1.04.02_2487_0095 | #95 | sides: single | lines: 33
+[single] 1
+[single] 4667
+[single] 1453.
+[single] waar door de zouverain die ik komen
+[single] te representeeren selver is gejnjurieerd en
+[single] geledeert
+[single] 1454.
+[single] tenvierden geentameerd saken welke
+[single] reeds wesentlijk eene groote ruine voor
+[single] dese Colonie en schade voor d E: Comp:
+[single] te weege hebben gebragt
+[single] 1454.
+[single] En ten vijfden gepraemediteerd en gesoveerd
+[single] med
+[single] een dessijn om myj geweld de regeringe te
+[single] werpen en na nederland op tezenden
+[single] 1456.
+[single] waardoor den geheelen ondergang van dit
+[single] groote en dierbare wingewest te dugten stonde
+[single] 1457.
+[single] Dat wijders dan uijt dien hoofde tegens
+[single] hun moesten werden gebruijkt de spoedige
+[single] en noodsakelijke middelen van inhibitie
+[single] en straffe
+[single] 1458.
+[single] En dat daar toe dese zeer sagte en minst
+[single] beswaarende praecautien van eene militaire
+[single] versekenringe
+[single] inge
+[single] en
+== NL-HaNA_1.04.02_2487_0096 | #96 | sides: single | lines: 22
+[single] versekering en eene reeds door haarlieden
+[single] selver bedagte op sendinge na nederland
+[single] tegens dese heeren heeft kunnen en mogen
+[single] werden werkstellig gemaakt.
+[single] 1459.
+[single] dat wijders ik als gouverneur en kapitain
+[single] generaal in dese landen warelijk en wesent
+[single] lijk ben en blijve de opper Regent
+[single] 1460.
+[single] Die niet alleen overalle subalterne die
+[single] naren maar ook wel speciaal over
+[single] mijne eeniglijk tot adsistentie geadjungeerde
+[single] en bijgevoegde raden het gebied voeren
+[single] mag en moet
+[single] 1461.
+[single] En die mij sonder oppositie in alle redelijk
+[single] heit moeten gehoorsaamen.
+[single] 1462.
+[single] Dat ik alverdere ben bevoegd om alles
+[single] tedoen wat 's E Compagnies ware en dier
+[single] baare belangens komen teverEijsschen
+[single] 1463.
+== NL-HaNA_1.04.02_2487_0097 | #97 | sides: single | lines: 28
+[single] 4664
+[single] 1463.
+[single] Jaa speciaal gequalificeerd omme in zaken
+[single] daar periculum in mora is, politicque
+[single] provisien te decerneeren
+[single] o. o 1464.
+[single] „ook
+[single] En daar en boven „ de magt hebbe om hooge
+[single] en laage dienaars zonder Concurrentie van
+[single] raden privative aftesetten en weder in
+[single] dienst aantenemen
+[single] 1465.
+[single] zoo kan Jmmers niemand meer ont„
+[single] kennen dat ik om alle voors: redenen ook
+[single] mede de authoriteijt hebbe gehad
+[single] 1466.
+[single] Dese mijne Jegenswoordige tegens de op ge„
+[single] sondene heeren geadhibeerde hoog nodige
+[single] proceduuren ten dienste van de Compagnie
+[single] en tot voorkominge van verdere onlusten
+[single] en gevaren allenig te Executeeren
+[single] 1467.
+[single] buijten concurrentie ofte toestemmen van
+[single] de raden van India in dit geval
+[single] 1468.
+[single] Daar zij alle of door wesentlijke adsistentie
+[single] En
+[single] d
+== NL-HaNA_1.04.02_2487_0098 | #98 | sides: single | lines: 26
+[single] en mede werkinge
+[single] 1469.
+[single] of door eenen blinden iever en toegevendheijt
+[single] 1470.
+[single] of door verstandhoudinge
+[single] 1471.
+[single] of door condemnabele voor mij hunnen wet
+[single] tigen hooft gebieder geExerceerde secretessen
+[single] en diffedentien
+[single] 1472.
+[single] of door reele oppositien weijgeringen en pro„
+[single] testatien
+[single] 1473.
+[single] sig aan dese wangedoentens en misdaden had
+[single] den mede schuldig gemaakt
+[single] 1474.
+[single] En wel zodanig dat zij verre van mij in
+[single] dit nodige werk te adsisteeren door een
+[single] hoewel geinterdiceerde egter meenigmalen
+[single] geusurpeerde overstemminge sulx sonder
+[single] hebben belet en verhindert
+[single] 1475.
+[single] waar door ik selver buijten
+[single] staat
+[single] wierde
+[single] 20
+== NL-HaNA_1.04.02_2487_0099 | #99 | sides: single | lines: 27
+[single] 4669
+[single] wierde gesteld, om aan haar lieden voor
+[single] af Eenige openinge te geven vandese mijne voor
+[single] genomen proceduuren
+[single] „1476.
+[single] sonder mijn persoon door haar lieden reële op
+[single] positien dikwils betoonde eens gesindheit en tot
+[single] nog toe halstarrige aankleevinge aan dese
+[single] rustoorders in pericul te stellen
+[single] 1477.
+[single] om door gereitereerde en nieuwe oproerige
+[single] resolutien en eene hoewel in compatibele
+[single] Exiouwart egter reeds eenige rijsen ondervondene des
+[single] potique magt voerige over mijn persoon
+[single] demilitie en derselver hooft officieren geheel
+[single] en al tewerden overteerd
+[single] 1476
+[single] En door haar lieden faictelijk uijt
+[single] de regeringe geworpen
+[single] 1479.
+[single] Het geene absoluut eene volslage
+[single] scheuringe onder de dienaren, burgers
+[single] militaire ende gemeente tot de
+[single] uijterste
+[single] had
+[single] onder
+== NL-HaNA_1.04.02_2487_0100 | #100 | sides: single | lines: 25
+[single] uijterste ruine van desen staad soude
+[single] hebben gecauseert
+[single] 1480.
+[single] tot voorkominge waar van ik dan
+[single] ook mij hoognodig hebbe moet affecureeren
+[single] met eene sufficante wagt en de verdere
+[single] reets g'Enareerde genomene voorsorgen
+[single] 1481.
+[single] Die mij des noods konden bevijligen tegens
+[single] de dadelijk en reeds op het poinct van uijt
+[single] voeringe staande entreprisses en oproerige
+[single] onderneminge van mijne Jntrouwige en
+[single] &
+[single] afvallige raads persoonen
+[single] 1482.
+[single] welke ik uijt consideratien dat sij hun
+[single] door de diegenoemde roervinken hadden
+[single] laaten seduceeren en verblinden tot nog
+[single] toe goedertierendlijk van Eene wel verdiende
+[single] straffe hebbewillen Excuseeren
+[single] 1483.
+[single] En alleen door dese offeninge van mijne
+[single] onverwagte magt tot hunne pligt
+[single] doen weder keeren
+[single] 1484.

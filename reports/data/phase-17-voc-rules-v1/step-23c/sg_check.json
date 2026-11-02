@@ -1,0 +1,21 @@
+{
+ "inv": "3444",
+ "n_sides": 1027,
+ "head_sha_source": "git show HEAD (uncommitted work excluded)",
+ "FolioMapParams()": {
+  "mode": "foliation",
+  "chain_len": 439,
+  "n_locate": 1500,
+  "n_diff": 0,
+  "diffs": []
+ },
+ "FOLIO_MAP_V2": {
+  "mode": "foliation",
+  "chain_len": 438,
+  "n_locate": 1500,
+  "n_diff": 0,
+  "diffs": []
+ },
+ "total_differences": 0,
+ "time_utc": "2026-11-01T16:21:18+00:00"
+}

@@ -1,0 +1,3005 @@
+== NL-HaNA_1.04.02_2538_0001 | #1 | sides: single | lines: 6
+[single] 3 Inkemond 33k
+[single] 24
+[single] 30
+== NL-HaNA_1.04.02_2538_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2538_0003 | #3 | sides: single | lines: 1
+[single] Corm
+== NL-HaNA_1.04.02_2538_0004 | #4 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2538_0005 | #5 | sides: single | lines: 8
+[single] 4
+[single] Eerste
+[single] Cormandel
+[single] eet
+[single] reng
+[single] GEinein
+[single] Corma
+[single] A:
+== NL-HaNA_1.04.02_2538_0006 | #6 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2538_0007 | #7 | sides: single | lines: 37
+[single] A„o 1741
+[single] den 28 April pr 't schip
+[single] punto Gale
+[single] Register Der brieven boeken en
+[single] verdere Papieren ontvangen van
+[single] Cormandel
+[single] 't huijstespijk over Register den Papieren. - - - - - Fol
+[single] missive van den Heer Gouverneur Jacob Mos„
+[single] sel en Raad tot Nagapatnam aan
+[single] haar Ed:s den Gouverneuren raade van
+[single] Jndia tot Batavia ged:t 2 Febr: 1741. - „ 8
+[single] Register der Papieren. . . . . . . . . . . „ 48
+[single] missive door en aan als even sub: dato 2
+[single] november 1740. . . . . . . . . . . . „ 61.
+[single] gemeene Resolutie genomen in raaden
+[single] van Politie tot Nagapatnm 't sed:t
+[single] den 7 xber: 1740 tot den 24 Jann: 1741. . „
+[single] 93
+[single] secrete Resolutie genoomen en raade
+[single] voorm: op verscheijde datums. . . . . . „ 269
+[single] Resolutie genomen in raade van Mazulip=r
+[single] 't sedert den 22 octb: 1740 tot den 28 Janu
+[single] 1741. . . . . . . . . . . . . . . . . . . „ 281
+[single] Gewisselde brieven tusschen Mazulipat
+[single] nam en Nagapatnam sec:s den 22
+[single] october 1740 tot den 22 Janu:. . - - - - - „ 293
+[single] d„o d„o tusschen Palliacatta en nagapatnam
+[single] van den 18 october 1740 tot den 22 Janu 1741 „ 430
+[single] d„o d„o tusschen sadras en nagapatnam 't sed:t
+[single] den 3 9ber: 1740 tot den 22 Jann: 1741. . . . . „ 350
+[single] d„o d=o tusschen Portonovo en als Even 't sed:t den
+[single] 4 November 1740 tot den 22 Jann: meerur. . „ 626
+[single] d„o d„o tusschen Tegene en nagapatnam vanden 18
+[single] october tot den 19 Junnuarij 1741. . . . „ 676
+[single] twee
+[single] 1
+[single] Co
+== NL-HaNA_1.04.02_2538_0008 | #8 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2538_0009 | #9 | sides: single | lines: 37
+[single] A„o 1741
+[single] den 28 April pr 't schip
+[single] punto Gale
+[single] Register Der brieven boeken en
+[single] verdere Papieren ontvangen van
+[single] Cormandel
+[single] 't huijste spijk oe Register den Papieren. . . . . . Fol:
+[single] missive van den Heer Gouverneur Jacob Mos„
+[single] sel en Raad tot Nagapatnam aan
+[single] haar Ed:s den Gouverneuren raade van
+[single] Jndia tot Batavia ged:t 2 Febr: 1741. . „
+[single] 8
+[single] Register der Papieren. . . . . . . . . . . „ 48
+[single] missive door en aan als even sub: dato 2
+[single] november 1740. . . . . . . . . . . . „ 61.
+[single] gemeene Resolutie genomen in raaden
+[single] van Politie tot Nagapatnam 't sed:t
+[single] den 7 xber: 1740 tot den 24 Jann: 1741. . „
+[single] 93
+[single] secrete Resolutie genoomen en raade
+[single] voorm: op verscheijde datums. . . . . . „ 269
+[single] Resolutie genomen in raage van Mazulip=r
+[single] 't sedert den 22 octb: 1740 tot den 28 Janu
+[single] 1741. . . . . . . . . . . . . . . . . . . „ 281
+[single] Gewisselde brieven tusschen Mazulipat
+[single] nam en Nagapatnam sec:s den 22
+[single] october 1740 tot den 22 Janu:. . . - - - - „ 293—
+[single] d„o d„o tusschen Palliacatta en nagapatnam
+[single] van den 18 october 1740 tot den 22 Janu: 1721„ 430
+[single] d„o d„o tusschen sadras en nagapatnam 't sed:t
+[single] den 3 9ber: 1740 tot den 22 Jann: 1741. . . . . . „ 350
+[single] d„o d=o tusschen Portonovo en als Even 't sed:t den
+[single] 4 November 1740 tot den 22 Jann: meerur. . „ 626
+[single] d„o d„o tusschen Tegene en nagapatnam vanden 18
+[single] october tot den 19 Junnuarij 1741. . . . „ 676
+[single] twee
+[single] 1
+== NL-HaNA_1.04.02_2538_0010 | #10 | sides: single | lines: 36
+[single] Fol:
+[single] Ao 1741
+[single] Cormandel
+[single] twee Circulaire briefjes van Nagapatn=m
+[single] na de onderhoorige zuijder Comptoiren
+[single] en Mazulipatnam gesz: op den 24 9ber
+[single] en 13 xber d' anno 1741. . . . . . . . „ 683
+[single] brieven van als even na Colombo Bengale
+[single] souratta Persia Mallabaar Jafanapat„
+[single] nam Trieonomale en Manaer afge„
+[single] zonder 't sed:t 2 gber: des voorleeden
+[single] tot den 28 Jann deses Jaars. . . . . „ 688
+[single] Rapport bevinding van den Generaalen op
+[single] neem van 's Comp:s Forlificatie werken
+[single] en gebouwen ter steeden Nagapat=m
+[single] ged:t 12 Jann: 1741. . . . . . . . . . . . „ 735
+[single] des gedane visitatie en Peylinge
+[single] van 't schip 't huijs te spijk op zijn
+[single] komst ald:r van Bengale ged:t 29 st
+[single] Jann: meerm:s. . . . . . . . . . . . . . „ 755
+[single] Request van de Coopm: Dafonseka aan
+[single] haar hoog Ed:s gesz. . . . . . . . . . . 757
+[single] Bevinding des aangebragte goederen
+[single] door 't schip 't huijs te spijk uijt Ben
+[single] gale tot Nagapatnam. . . . - - „ 759
+[single] Jnventaris van soodanige Contanten
+[single] Equipagie goederen ammunitie
+[single] goederen ensz: als 'er onder ult„o
+[single] aug:s J=o Leden ald. r in weese bevon„
+[single] den zijn. . . . . . . . . . . . . . . . „ 761
+[single] seventhien stux maandelijkse Rende„
+[single] menten van verteerde Coopmansz: als
+[single] 3 van Nagapatnam ende maande 7ber
+[single] october en 9ber: - - - - - - - - - - „ 775
+[single] 3 van Mazulipatnam alsevan. . . „ 779:
+[single] 1 van
+== NL-HaNA_1.04.02_2538_0011 | #11 | sides: single | lines: 42
+[single] A=o 1741
+[single] Cormandel
+[single] den 29 April door sijn
+[single] tarije gesonden
+[single] schip nieuwlandoh
+[single] Ceijlon
+[single] Fol:
+[single] 1 van Bimilipatnam. . . . . . . . . . „ 735
+[single] 1 „ Jagarnaijkpoeram. . . . . . . . . . „—
+[single] 3 „ Paliacatta. . . . . . . . . . . . „
+[single] 3 „ Sadraspatnam. . . . . . . . . „ 189
+[single] 3 „ Pertonovo - - - - - - - - - - - „ 790
+[single] twee stux aparte Rendementen als
+[single] 1 van sadraspatnam ged:t 12 9ber: 1740
+[single] van verkogte zandel hout. . . . . 794
+[single] 1 „ Portonovo ged:t 30 7ber: 1740 van ver„
+[single] kogte Rosenwater. . . . . . „
+[single] twee stux rendementen van Palliacatta
+[single] ropias van Bimilipatn=m en de maan„
+[single] den 7ber: en 8ber: 1740. . . . . . . . . 795
+[single] „in een a partpaquet secreti missive door den Cormandelse
+[single] gouverneur Jacob Mossel aan dese rege
+[single] ring gearteert ged:t 2 9ber: J=r Leelen. . . „ 198
+[single] Edelheijt ter secra request van den ondercoopm: enp:r pallia„
+[single] catta secunde Malachias De La
+[single] vigne aan haar hoog Ed:s tot Batavia
+[single] gerigt ged:te 19 xber: 1740 g'annexseerd
+[single] van twee Copia requeste door gem:
+[single] Lavigne aan den Gouverneur Enraal
+[single] tot Nagapatnam gededereet item
+[single] een staat Regck: van 's Comp:s Cassa
+[single] tot Palliacatta onder dato 17
+[single] october d'anno pass=o benevens het
+[single] Transport der Cassa meerm: doorgem:
+[single] Lavigne aan het g'eligeerd opper
+[single] hooft Jsaac Dafoseca op den 17
+[single] xber daar aan. . . . . . . . . . . . „ 812
+[single] terselven dag ser 't Resolutie genomen in Politiquen Raad tot
+[single] nagapat„m Sed:t den 9 lot den 2 9ber 1740 . . . „ 819
+[single] d„o genomen
+[single] . .
+[single] 0
+== NL-HaNA_1.04.02_2538_0012 | #12 | sides: single | lines: 34
+[single] A„o 1741
+[single] Cormandel Fol:
+[single] do Genoomen in Raden van Noorder
+[single] Cormandel tot Mazulipatnam sid:t
+[single] den 20 aug:s tot den 13 7ber: 1740. . „ 273
+[single] gewisselde brieven tusschen naga en
+[single] mazulip=m sed:t 12 Aug:s tot den 21 oc„
+[single] tober 1740. . . . . . . . . . . . „ 887
+[single] d„o d„o tusschen eersgem: plaats en palia„
+[single] catta sed:t den 30 Aug:s tot alseven . „ 976
+[single] d„o d„o tusschen als even en sadraspat:r sed:t
+[single] den 10 7ber: tot den 13 october evengem: 1026
+[single] d„o d„o tusschen als vooren. en Portonovssid:t
+[single] den 31 aug:s tot den 26 october 1740. „ 1070
+[single] Brieven van den Tegenepatnamse residente
+[single] aan de Nagapatnamse misnisters
+[single] gerigt ged:t 18 7ber: en 10 october 1740 „ 108
+[single] briefje vande bediendens tot Nagapatn
+[single] aan ged:t resident gesz ged:t 3 octob=r
+[single] 1740. . . . . . . . . . . . . . „ 1115
+[single] Circulaire briefje van Nagapat„m aande
+[single] onderhoorige zuijder Comptoirenen
+[single] Mazulipatnam afgezonden den
+[single] 9: 9ber des vergangen Jaars. . . . „
+[single] Brieve van Nagapatnem na Colom„
+[single] bo Bengale Mallabaar Jaffana
+[single] patnam Tutucorijn en trincono„
+[single] male afgezonden sed:t den
+[single] 10 7ber tot den 6 october 1740. . . . . „ 1116.
+[single] bevinding van de quant en qualiteijt
+[single] „ in 't buskruijt onder ult„o aucgts
+[single] 17. 40 tot Nagapatnam in weese
+[single] bevonden. . . . . . . . „ 1130
+[single] Cartel
+== NL-HaNA_1.04.02_2538_0013 | #13 | sides: single | lines: 36
+[single] Ao. 1741
+[single] Cormandel
+[single] Fol:
+[single] Cartel off Contracten met den heer France
+[single] Gouverneur en Raae tot Pondncherij wegens.
+[single] de wederseijdse overgave van deserteurs ensz:
+[single] soo in't nederduijts als Frans annea de
+[single] dier weegens met de gem: sleeven Francen
+[single] gewaisselde brieven en genomen besluij¬
+[single] ten tot Nagapatham. . . . . . . „ 1133
+[single] Notitie van soodanige Particulaire schee
+[single] pen en andere vaartuijgen als gedurende
+[single] het boekjaar 17 39/20 ten Compt=re Mazulipen
+[single] Portonovo aangeweest zijn niet aan weij„
+[single] singe der aangebragte en vervoerde
+[single] Coopmansz ensz:. . . . . . . . . . . „ 1185
+[single] drie stux aparte Rendementen, als
+[single] 2 van Nagapat=m van verhogte gouden
+[single] merciaanse realen en. . . . . . „. 1199
+[single] 1 van Palliacatta der als„ omgezettero
+[single] peijen in een rond Jaar. . . . - - - . 1200.
+[single] drieentwintig stux maandelykse Rende
+[single] menten van verteerde Coopmansz als
+[single] 3 van Nagapatnam ende maanden Junij
+[single] Julij aug:s 1740. . . . . . . . . . „ 1203
+[single] 3 van Palliacatta als boven. . . . . „ 1241
+[single] 3 „ sadraspatnam als Even. . . . . „ 1213
+[single] 2 „ Portonovo ende maande Julij en aug:s 1217
+[single] 4 „ Mazulipatnam ende maandemeij 1219
+[single] Julij en aug:s. . . . . . . . . . . . . „
+[single] 4 „ Bimikipatnam als even. . . „ 1223
+[single] 4 „ Jagernaykpoeren als even. . . . . . . 1227
+[single] seven stuv generaale Rendementen als
+[single] 1 van Nagapatnam. - - - - - -. „ 1231
+[single] 1 „ Palliacatta. . . . . . . . . „ 1237
+[single] 1 van sadras
+== NL-HaNA_1.04.02_2538_0014 | #14 | sides: single | lines: 40
+[single] Ao. 1741
+[single] Cormandel Fol:
+[single] 1 van Sadraspatnam. . . . . „ 1239
+[single] 1 „ Portonovo
+[single] 1241
+[single] 1 „ mazulipatnam. . . . . . . „ 1243
+[single] „ Bimilipatnam en. . . . . . . . „ 1245
+[single] 1
+[single] 1 „ Jagernaijkpoeram. . . . . „
+[single] vijff stux te same treckinge van ge„
+[single] dane schenkagie in't boekjaar
+[single] 17 3/40 en als
+[single] i van Nagapatnam. . . . . „ 1246
+[single] 1 „ Noorder Cormandel Exclepte Cag=n 1256
+[single] 1 „ Palliacatta. . . . . . . . „ 1265
+[single] 1 „ Sadraspatnam. . . . . . . . . „ 1267
+[single] 1 „ Portonovo. . . . - - . - „ 1269
+[single] vijff stux te samen treckinge van gedane
+[single] Timmerragie in't voorm: boekjaer
+[single] en de voorm: plaatsen. . . . . „ 1270
+[single] Notitie der Jngewisselde als voorloopmst
+[single] ontvangene ropeijen ducatons en
+[single] reeilen. . . . . . . . . . . . „ 1281
+[single] tesamentrecking der verkogte Coopmansz
+[single] ensz: over geheel Cormandel sed:t Primo
+[single] 7ber 1739 tot ulto aug:s des voorl: Jaars „ 1282
+[single] Een vendu rol van Nagapatnam van
+[single] verkogte rosewater drankenensz:
+[single] annex het aparte Rendement. . . „ „284
+[single] manto bevinding van Nagapatnam wegens
+[single] vermunt goud tot fanums ged:t 13 october
+[single] 1740
+[single] memorie van alle sodanige sComp: vaartuijgen tot Cornandel inwesen bevonden 1794:
+[single] „1291
+[single] Eijsch van benodigheeden voor Cormandel
+[single] ende Jaare 1741. . . . . . .
+[single] „1303
+[single] provisioneele b'antwoorden vaderlandse
+[single] Eijsch van Lijwaten en d' Jare 1741. . „ 1318
+[single] b'antwoorden
+== NL-HaNA_1.04.02_2538_0015 | #15 | sides: single | lines: 38
+[single] Cormandel Fol:
+[single] Ao 1741
+[single] den 4 october po
+[single] 't Schip t Slotte
+[single] b'antwoorden vaderlandse Eijsch van Lywaaten
+[single] voor a=o 1740 annex opgestellen tot aan„
+[single] weijsing der Jngesamelde versondene
+[single] overgebleevene retouren. . . - - - - - - „ 1347
+[single] b'antwoorden Jndiasen Eijsch van lijwaten
+[single] voor anno 1740. . . . . . . - - - - „ 1373
+[single] kroonenburg Register der Papieren - - - - - - - - - - - - „ 1391
+[single] missive gesz: door den Heer raad Extra ordinaires
+[single] en Cormandels Gouverneur Jacob Mossel
+[single] benevens den Raad tot Nagapatnam
+[single] aan haar hoog Ed:s tot Batavia ged:t
+[single] 18 Julij 1741. . . . . . . . . . . . . „ 1407
+[single] nader briefjes gesz: door en aan als vooren
+[single] ged:t 20 Julij 1741:. . . . . . . . „ 1460
+[single] Resolutie genomen in Raade van Politie
+[single] tot Nagapatnam sed:t den 2 Febr: tot
+[single] den 18 Julij Jongstl:. . . . . . . . . „ 1465:
+[single] „o genomen in Raden van Noorder
+[single] Cormandel tot Mazulipatnam, sed:t
+[single] den 16 febr: tot den 23 meij laastl. . . „ 1725
+[single] brieven van Mazuli en Nagapatnam gesz:
+[single] sed:t den 24 Jann: tot den 24 meij
+[single] annex een briefje van den de Bemi„
+[single] lipatnamse opperhoofden de dato 3
+[single] febr: 1741. . . . . . . . . . „ 1771.
+[single] brieven van laast na Even gem: plaats gesonden
+[single] sed:t den 11 Febr: 4 Julij Jongsll:. - . . . . . „ 1929.
+[single] d„o van Palliacatta na Nagapat„na gecarteert
+[single] sed:t den 23 Jann: tot den 3 Julij in Eerm„.„
+[single] van laast na Eerstgem: plaats gesz sed:t
+[single] den 11 febr: tot den 5 Julij 1741. . . - . . . „ 1990.
+[single] van Sadras na nagapatgesz: sed:t den 20 Jan: orden 1 Julij „ 189
+[single] d„o van
+== NL-HaNA_1.04.02_2538_0016 | #16 | sides: single | lines: 35
+[single] Cormandel Fol:
+[single] A=o 1741
+[single] d„o van laast na eerstgem: plaats af„
+[single] gezonden sed:t den 8 Febr: tot den 11. „
+[single] Julij. . . . . . . . . . . . . . . . „ 2283.
+[single] 288
+[single] van Portonovo en desselfs opperhooft
+[single] te Tegenepatnam wesende na nagapatn
+[single] gesz: sed:t den 30 fan: tot den 8 meij
+[single] 1741. . . . . . . . . . . . . . . „ 2314.
+[single] van laast na Eerst gem: Comptoir en
+[single] Tegenepatnam aan 't Portonovos opper
+[single] hoofd gesz: sed:t den 1 Febr: tot den
+[single] 24 April 1741. . . . . . . . . . . . „ 2354
+[single] „ van Tegenepatnem na nagaputt
+[single] geszu sed:t den 1 Febr: tot den 1 Julij. . . 2358
+[single] van laast na Eerstgem: plaatsgesz: sed:t
+[single] den 2 febr: tot den 5 Julij 1741. . . . „ 2369
+[single] Circulaire brieven van Nagapat„n nade
+[single] onderhoorige zuijder Compt=re en na
+[single] zulipatnam afgevaardigt sed den 15 2379
+[single] febr: tot den 29 Junij laastl. . . . . 5.
+[single] brieven van Nagapatnamna Colombo
+[single] Bengale Persia Mallabaar Jaffa„
+[single] napatnam Gale Tutucorijn Trico„
+[single] nomale en Manaer afgezond en sed:t
+[single] den 2 febr: tot den 18 Julij 1741. . . . „ 2393
+[single] Translaat malabaarse Cooplieren ola
+[single] door de verstone Portinovose looplieden
+[single] Eganbra chistiaas en Bengappa
+[single] Naijk aan het opperhoofd steven
+[single] vermont overgegeven den 18 febr: 1741
+[single] rakende hun agter stal aend' Comp, 2458.
+[single] Extract
+[single] „
+== NL-HaNA_1.04.02_2538_0017 | #17 | sides: single | lines: 39
+[single] Fol:
+[single] Ao. 1741
+[single] Cormandel
+[single] Extract Resol genoomen in Raade van
+[single] Cormandel tot Nagapatnam op den
+[single] 8 April behelsende het berigt der ge¬
+[single] daane visitatie en opneeming van
+[single] van 't Casteel ende Fortificatie wer„
+[single] ken aldaar met de aanmerkinge dier
+[single] Regeeringe op dat stuk mitsgaders
+[single] een Calculatie van 't kostende der te
+[single] makene houte britsen in de wagten en
+[single] het bevloeren van de walgang des
+[single] gem: Casteels. . . . . . . . . . . „ 2467.
+[single] Extract Mazulipatnamse brieffgeszna
+[single] nagapatnam den 27 feb: laastl: behelsen„
+[single] de 's minnisters Consideratie over het Eij„
+[single] „land Dieuw. . . . . . . . . . „ 2476.
+[single] d„o Nagapatnamse Resol: de dato 15 Febr:
+[single] 1741 en een Copia Calculatie van sComp:s
+[single] Logie tat Sadraspatnam - - - - - „ 2479.
+[single] Rapport van gecommitteerde Raadsluijden
+[single] ged:t 30 Meij J=o leeden dicteerende hunne
+[single] uytgevoerde Commissie ter begroe„
+[single] tinge vande Transjoursen vorstanner „ 2481.
+[single] 1 Copia Translaat Caul tot confermatie
+[single] der voorgaande d=os verleend. . . . . . . . . . „ 2485:
+[single] 1 takiet Parwanne op de lollenaars mitsgaders—
+[single] -„
+[single] 1 tezametreckinge daane schenkagie aan
+[single] gedagte vorst 6: s.. . . . . . . . . . . . . . „ 2488
+[single] 1 tezamentrekkinge van het verschonkene
+[single] aan zijn hoogheijt en de zijne en van gedane
+[single] ongelden ter occagie denzelven den 27 Meij
+[single] laastl tot Nagapatnam in 't Casteel ter
+[single] visite is geweest. . ..
+[single] Relaas
+[single] „2490.
+[single] . . .
+== NL-HaNA_1.04.02_2538_0018 | #18 | sides: single | lines: 38
+[single] Fol:
+[single] Ao. 1741
+[single] Cormandel
+[single] Relaas van den schipper op 't slotte kronen„
+[single] burgwegens het verbij drijven van Rinto
+[single] gale annex het Rapport vanden Fiscaal
+[single] en gecomm: sustiticeele leiden der ge„
+[single] daane examinatie van het indien
+[single] bodem gehouden Journaal - - - - - - - - „ 2495.
+[single] twee memorien vande geroofde contanten
+[single] Coopmansz: en verders goederen uijt
+[single] s Comp:s Logie tot Portonovo door
+[single] de marattij op den 25 xber: des
+[single] voorleeden en 29=sten Jann: deses Jaars. . „ 2496.
+[single] sertificatie vande overheeden van't slot„
+[single] kroonenburg wegens het wel gedaen
+[single] wateren en Calvaten vandien kiel
+[single] ged:t 13 Julij annex een d=os verklaaring
+[single] „de dato 18 daaraan. . . . . . . . . . „ 2499.
+[single] Rapport der gedane visitatie van gem bo„
+[single] dem bij sijn aankomst tot Nagapatman „ 2500.
+[single] Bevinding vande aangebragte Coopmansz
+[single] fruijtagie en sz: p=r Gem: bodem uijt
+[single] Persia. . . . . . . . . . . . . . . . „ 2501
+[single] munt bevinding van 2 munt goud tot far:s
+[single] tot Nagapatnam ged:t 25 febr: 1741. . . „ 2505.
+[single] drie en dertig stux maandelykse Rendementen
+[single] vanvertierde Coopmansz: als. ..
+[single] 5 stux van Nagapatnam, ende maande
+[single] xber: 1740 Jann Febr maarten April 1741 2507
+[single] 5 stux van Palliacatta als boven. . . . . 2535.
+[single] 4 „ sadraspatnam ende maanden
+[single] xerber Jann Febr en maart evan gem: 2541
+[single] 4
+[single] stux van Portonovo off anders Tegene„
+[single] patnam van de maande xerber: febrmaanrt
+[single] en April vandemaande. . . „2543.
+[single] 5 van
+== NL-HaNA_1.04.02_2538_0019 | #19 | sides: single | lines: 42
+[single] Cormandel
+[single] Fol:
+[single] Ao. 1741
+[single] als in den Text
+[single] 5 stux van Mazulipatnam ende maan„
+[single] den als Nagapatnam 2.
+[single] „ 2517
+[single] 5 stux van Bimilipatnam adidum. . . „ 2527.
+[single] „ „ Jagernaikpoerane _„o „ 2531
+[single] 5.
+[single] vijff stux aparte Rendementen daar van
+[single] 1 van Nagapatnam. . . . . . . . . . . . . „ 2547
+[single] 2 „ Palliacatta. . . . - . . . . . . „2549
+[single] 2 „ Mazulipatnam. . . . - . . . . . „2551
+[single] twee stux Rendementen van verkogte
+[single] merciaanse realen te Nagapatnam
+[single] ged:t ult„o Jan: en Febr: 1741. . . . . . . . „ 2553
+[single] twee stux. Rendementen van verkogte ro„
+[single] peijen te Bimilipatnam en demaan„
+[single] den voorm:. . . . . . . . . . . . . . „ 2555
+[single] twee Copia van gehersiene Lijwaten, als
+[single] 1 van Mazulepatnam, en. . . . . . . . . . . „ 2561
+[single] 1 „ Nagapatnam. . . . . . . . . . . . „2563.
+[single] vide Resoluti: Ec: Resolutie genomen in raade van Corman
+[single] del tot Nagapatnam den 20 Julij. . . „
+[single] certificatie van de opperen onderofficieeren
+[single] op't slotkroonenburg bescheijden
+[single] nopens het in gem: bodem verborgen
+[single] lekensz: . . . . . . . . . . „ 2564.
+[single] Rapport door gedane visitatie en peijlin„
+[single] „ge van Evengem: op zijn vertreck van
+[single] Nagapatnam - - - - - - - - - „ 2565
+[single] Bevinding van de tot gamron in deser
+[single] bodem voor batavia afgescheept dog
+[single] tot Nagapatnam aangehoudene wier hieltjes
+[single] goude en zilvere spetien. . . . . . „ 2566
+[single] Naam rolletje van drie gedeserteerde
+[single] persoonen.. . . . . . .
+[single] Eijsch
+[single] . . .
+[single] „2
+== NL-HaNA_1.04.02_2538_0020 | #20 | sides: single | lines: 43
+[single] A=o. 1741
+[single] ƒ
+[single] Cormandel Fol:
+[single] Buvegnies
+[single] den 278ber :t schij Eijsch van Canon en kogels. . . . . . „ 2567
+[single] Register der papieren - - - - - - - - „ 2569.
+[single] missive geschreeve door den heer raad
+[single] Extraordinairis Jacob Mossel Gou„
+[single] verneur en directeur benevens den
+[single] raad tot Nagapatnam aande
+[single] hooge indiase Regering tot Ba
+[single] tavia ged:t 4. october 1741. . . . . . . „ 2579.
+[single] Resolutie in Raade van Politie tot
+[single] Nagapatnam genomen 't sed:t
+[single] den 20 Julij tot den 27 7ber 1741 „ 2611
+[single] _=o genomen tot Mazulipatn sed:t den
+[single] 14 Junij tot den 22 Julij pass.o . . . „ 2677.
+[single] gewisselde brieven tusschen Mazu„
+[single] lipatn en Nagapatnam t sed:t
+[single] den 21 Junij tot den 16 7ber 1741. . 2737.
+[single] gewisselde brieven tusschen Palliacat„
+[single] ta en Nagapatnam sed:t den 6
+[single] Julij den 16. 7ber voorm:. . . . . . „ 2833: —
+[single] _„o _„o tusschen sadvas en Naga„
+[single] patnam 't sed:t den 7 Julij tot den
+[single] 16 7ber meerm. . . . . . . . . „ 2889.
+[single] _„o tusschen Portonovo en na„
+[single] _„o
+[single] gapatnant sed:t den 26 aug:s
+[single] tot den 14 7ber: evengem:. . . . „ 2957
+[single] brieven van Tegene na Nagapatnam
+[single] gesz: 't sed:t den 9 Julij tot den 2 7ber
+[single] laastl: -
+[single] drie Circulaire brieven van't hoofd
+[single] .
+[single] „ 2973
+[single] nade sulbalterne Comp=ie om
+[single] de Zuijder Mazulipatnam gezon„
+[single] den in datis 29 Julij 4 en 26 aug:s
+[single] Jongstleeden. . . . . . - - . „ 2984
+[single] brieven
+[single] 1
+[single] .. . . .
+== NL-HaNA_1.04.02_2538_0021 | #21 | sides: single | lines: 36
+[single] A=o 1741
+[single] Cormandel Fol
+[single] Brieven gesz door de Nagapatnamse mi„
+[single] nisters aan die van Colombo Ben„
+[single] gale Mallabaar Jaffanapatnam Tu„
+[single] tucorijn en Trineonomale 't sed:t
+[single] den 13 Julij tot den 25 7ber: pass=o. . . . „ 2991
+[single] briev van als even aan den Engelse Gou„
+[single] verneur tot Madraspatnam - - - - - - - „ 3019
+[single] Relaas gedaan door den op de Maria
+[single] adriana bescheijdene schipper Jan
+[single] Ele wouwd wegens de oorsaak van
+[single] zijn verval omtrend Pondecherij
+[single] annex een verklaaring van den
+[single] gezaghebber op't Jagt Ceylonds
+[single] voorspoet mitsgaders rapport van
+[single] den Fiscaal en twé Justitieeele leden
+[single] die aangaande. . . . . . . . . . . . . . . „ 3022
+[single] vonnes op bij de agtb: raad van Justitie geveld
+[single] op den 5 7ber Jongstleeden tegens
+[single] twee afgekomene en inde ketting geklem„
+[single] ken Jaland:r. . . . . . . . . . . . „ 3038
+[single] ordonnantie op en sertificatie van de scheep
+[single] overheeden van den bodem Bevegnies no„
+[single] pens het behoorlijk doen Calvaten van
+[single] hun kiel en het Jnnemen van droogland
+[single] tot Ballast. . . . . . . . . . . . . „ 3034
+[single] ses Rapporten wegens gedane visitatie en
+[single] peijlinge der scheepen Maria adriana
+[single] Lis en Buvegnies so op haar komste
+[single] als vertreck van daar. . . . . . . . . „ 3037
+[single] Tranlaat marattijse brieff door den Tans
+[single] Joursen ambassadeur Sanagada Pan
+[single] didaar aan den Gouverneur Jacob Mossel
+[single] gesz
+== NL-HaNA_1.04.02_2538_0022 | #22 | sides: single | lines: 35
+[single] A„o 1741
+[single] Cormandel Tol:
+[single] gesz: ter Communicatie dat
+[single] men de marattijs weer te wagten
+[single] heeft. . . . . . . . . . . . „ 3050
+[single] Request en berigt door den Fiscaal Ho„
+[single] reman gedaan wegens het spol:
+[single] geeren van 's Comp:s logie te Por„
+[single] tonovo door de menattijs met de
+[single] daartoe specteerende bylagen
+[single] volgens apart register annea
+[single] een Extract Resol tot Nagapat=n
+[single] genomen op den 27 7ber Jongstl: 3855
+[single] drie stux generaale bevinding van't
+[single] aldaar aan gebragte goudloop„
+[single] mansz: &=a p=r de scheepen maria
+[single] adriana Lis en Buvegnies. . . . „ 3229
+[single] Een bevinding van de uijt persia aldaar
+[single] aangebragte assafatida. - - - - - „ 3251
+[single] drie en twintig stux Rendementen
+[single] van verkogte Coopmansz: als
+[single] 4 van Nagapatnam ende maande meij
+[single] Junij Julij en aug:s. . . . . . 3255
+[single] 4 van Palliacatta ende narnde als voren
+[single] 4 „ Sadraspatnam adidum - - „ 3271
+[single] 2 „. Portonovo ende maande meijen
+[single] augustus. . . . . . . . 32. 7½
+[single] 3 „ Mazulipatnam ende maande
+[single] . meij Junij en Julij - - - - - „ 3263
+[single] 3 „ Jaggernaykpoeranv ende maande als
+[single] vooren : - - - - - - „ 3267
+[single] 3 „ Bimilipatnam adidum - . „ 3267
+[single] vier aparte Rendementen, als.
+[single] 1 van
+== NL-HaNA_1.04.02_2538_0023 | #23 | sides: single | lines: 45
+[single] Cormandel
+[single] A„o 1741
+[single] ten selven dagen pr
+[single] als vooren in een
+[single] den 30 7ber P't schip
+[single] de maria adri
+[single] Fol:
+[single] 1 van Nagapat=n van verkogte eerkleederen
+[single] lange peper Rosenwater en sz:
+[single] onder ult=o aug:o Jongstl:. . . „ 3277
+[single] palliacatta van d'e drooge dadels „ 3279
+[single] „
+[single] Sadraspatnam van _„o „
+[single] 1. „
+[single] „ Bimilipatnam van verkogte zilvere ropias. —
+[single] Naamrol der gegagieerde ald:r onder ult:o aug:s laaste„ 3281
+[single] naamrol der Gedeserteerde persoonen in het
+[single] boekjaar 17 /41. . . . . . . . . . . . „ 3281
+[single] ander pasquet missive gesz: door den Gouverneur en Raad tot
+[single] Nagapatnam aan haar hoog Edelens tot
+[single] Batavia ged:t 5 october 1741. . . . . „„ 3284
+[single] Translaat Mallabaarse ola door aroenassalam
+[single] aanden Gouverneur Mossel ged:t soude
+[single] cherij 30 7ber: 1741. . . . . . . . . . . . . „ 3286
+[single] Register der Papieren. - - - - - - - - - „ 3299
+[single] missive vanden oppercoopmaan nevens den
+[single] raad tot Mazulipatnam aan haar Ed:s ged:t
+[single] 8 october 1741. . . . . . . . . . . . . „ 3293
+[single] Extract Resolutie in op gem: Raden genomen op
+[single] den 4 sept=r bevorens annex een versoekschrift
+[single] door de overheeden van de Maria adriana
+[single] om Eenige behoeftens. . . . . . . . „ 3405
+[single] Resolutie in opgem: Rade genomen op den boetofr
+[single] 17415. . . . . . . . . . . . . . . . . . . „ 3404
+[single] ordonnantie en sertificatie aan en vande over„
+[single] heden van ged:e bodem de maria adriana
+[single] verleend nop:s het tot ballast ingenomen sand „ 3413
+[single] certificatie verklaaring nopens
+[single] de bevinding der geweire van
+[single] de overkoomene 3 militairen„ 3414
+[single] twee
+[single] 1
+[single] .
+[single] ana
+[single] 2
+== NL-HaNA_1.04.02_2538_0024 | #24 | sides: single | lines: 44
+[single] Ao. 1741
+[single] Cormandel
+[single] Frol:
+[single] nog ten selven dage in
+[single] een apart pacquet
+[single] A„o 1742.
+[single] overCeijlon
+[single] twee Rapporten der gedaane vi„
+[single] sitatie en peijlinge van
+[single] 't schip maria adriana
+[single] op zijn vertreck van
+[single] Nagapatnem en arri„
+[single] „ve tot Mazulipatnam „ 3419
+[single] bevinding der uijt gelever„
+[single] de Laading van boven
+[single] 1
+[single] gem: kiel. . . . . . . . . . „ 3421
+[single] ten dagen p: als voren missive van gecommitteer„
+[single] de Justitieele Leeden tot
+[single] Mazulipatnam aandese
+[single] regering ged:t 3: October
+[single] Jongstleeden annex Een
+[single] Rapport der gedaane peijlinge
+[single] en visitatie van dikgem:
+[single] bodem maria adviana. . . „ 3427
+[single] missive door het opperhoofd.
+[single] en Raad tot Mazulipat„
+[single] nam aan als vooren
+[single] gestr ged:t october 1741 - - - - - „ 3431.
+[single] den 1: maart per 't schip Padmos Register der Papieren - - - - - - - - - - „ 3433.
+[single] Missive gesz: door den heer Extra ordinair Jacob Mossel
+[single] Gouverneur en directeur benevens den Raad tot
+[single] Nagapatnam aan haar hoog Edelens tot
+[single] Batavia gedateert 27. oct: 1741. . . . . . „ 3441.
+[single] Resolutien genomen in Rade van politie tot Na„
+[single] „gapatnam, sedert den 28. 7ber tot 27. oct: a.o pass„o 43471.
+[single] „
+[single] -
+[single] —
+[single] -
+[single] .
+[single] 1
+[single] 1
+== NL-HaNA_1.04.02_2538_0025 | #25 | sides: single | lines: 33
+[single] foelio
+[single] A„o 1742.
+[single] Cormandel
+[single] Resolutie genomen in rade van Noorder
+[single] Cormandel tot masulipatnam op den 25:' aug:s
+[single] 4. en 11. 7ber: laastleden. - - . - - - - - „ 3567.
+[single] gewisselde brieven tusschen Masuli- en Nagapatnam
+[single] sedert den 2:' 7ber: tot den 17. oct: a:o p„o. . . - - „ 3576.
+[single] gewisselde brieven tusschen paliacatte en Nagapatnam
+[single] sedert den 12. Jber tot den 17. at: 1741. - - - - - - - „ 3637.
+[single] _„o _„o tusschen Sadras-en Nagapatnam sed:t den 14:'
+[single] Jber tot den 17. oct: evengem: - - - - - - - „ 3649.
+[single] _„o „ _„o tusschen Portonovo, en als even sedert den 28. 7ber
+[single] tot 17:' oct: meerm:t. . . . . . . . . . . „ 3723.
+[single] _„o _„o tusschen Tegene - en Nagapatnam sed:t
+[single] ult„o 7ber: tot den 17. october 1741. - - - - - - „ 3746.
+[single] brieven van Nagapatnam na Colombo, Bengale
+[single] Mallabaar, Jaffanapatnam, Tutucorijn, en
+[single] Trindonomale afgesonden sedert den 22:' 7ber:
+[single] tot den 19. oct A„o pass„o - - - - - - - - „ 3755.
+[single] Rapport van het onder ult„o aug„o 1741. tot Naga„
+[single] „patnam in wesen bevonden buskruijt. . - . . - „ 3789.
+[single] Notitie van sodanige particuliere schepen en
+[single] andere vaartuijgen, als gedurende het
+[single] boebjaar 174 /en tot Masulipatnam aan„
+[single] geweest zijn, met aanwijsinge der aangebragte
+[single] en vervoerde Coopmansz: - - - - - - - - - „ 3791.
+[single] Drie stx Maandelijxe rendementen der ver„
+[single] thierde koopmansz: in de maand Aug 1741: als„
+[single] 1. stux van Masulipatnam
+[single] „ 3805
+== NL-HaNA_1.04.02_2538_0026 | #26 | sides: single | lines: 50
+[single] Fobio
+[single] A„o 1742.
+[single] Cormandel
+[single] 1. van Jaggernaijkpoeram - - -. - „ 3807:
+[single] 1. „ Bimilipatnam
+[single] - - - - „ 3809
+[single] 'tzamentreeking der verkogte koopmansz: over geheel
+[single] Cormandel sodt: p„mo 7ber: 1740 tot ult=o aug17a. „ 3811.
+[single] seven stux generale rendementen; als: - - „
+[single] 1. van Nagapatnam
+[single] 1. „ Palliaratta
+[single] 1. „ Sadraspatnam.
+[single] 1. „ Porto Novo
+[single] 1. „ masulipatnam
+[single] 1. „ Bimilipatnam. . . . „ 3823.
+[single] 1. „ Jaggernaijkpoeram. . . - - „ 3825.
+[single] Memorie van de vaartuijgen aldaar aan handen
+[single] zijnde, met aanwijsinge wat reparatien in
+[single] een rondjaar daaraan zijn gedaan en
+[single] binnen kosten staan te geschieden - - „ 3827.
+[single] vier stx tesamen treckingen van gedane schenkagien
+[single] in het boekjaar 1749 en als. . . „
+[single] 1. van Nagapatnam - - - - - - - - - „ 3839.
+[single] 1. „ Palliaralta
+[single] .
+[single] 1: „ Sadraspatnam
+[single] .
+[single] 1. „ Noorder Cormandel - --
+[single] Vijff stux te samen treckingen van gedane Timmeragien
+[single] 6
+[single] in het voorn: boekjaar, op even gem: plaatsen
+[single] en op Portonovo - - - - - - - „ 3859.
+[single] Generale bevinding van de aldaar p. r het schip
+[single] „ 3813.
+[single] - „ 3815:
+[single] „ 3817.
+[single] - „ 3819.
+[single] - - - . „ 3821.
+[single] -. „ 3844.
+[single] „ 3845.
+[single] „3847.
+[single] de
+[single] . . .
+[single] -
+[single] -
+[single] .
+[single] .
+[single] .
+[single] .
+[single] .
+== NL-HaNA_1.04.02_2538_0027 | #27 | sides: single | lines: 23
+[single] fol
+[single] Ao 1742
+[single] Cormandel
+[single] de Paarl aangebragte Ladang - - „ 3869.
+[single] bevinding van de aldaar uijt Persia aangebragte
+[single] - „ 3872.
+[single] Ruijnas wortelen - - - - - - - -
+[single] Calculatie van het beenodigde tot verhelpinge der gebreken
+[single] van 's Comp. s Logie tot Bimilipatnam - - - - „ 3873.
+[single] rendement der tot Bimilipatnam verkogte
+[single] palliacatse ropijen in de maand augs 1741. — „ 3883.
+[single] formelen Eijsch van Coopmansz: provisien en wes meer
+[single] voor Cormandel en a. o 1742 . - - - - - - - „ 3884:
+[single] provisionele be antwoorde Vaderlandsche Eijsche Eijsch
+[single] van Lijwaten voor den jare 1742. . - - . - „ 3897.
+[single] b'antwoorde vaderlandse Eijssche, voor van Lijwaten
+[single] 3955
+[single] voor a„o 1741. annex vier op stellen tot aan„
+[single] „wijsinge der ingesamelde, versondene en
+[single] overgebleven retouren. - - - - - - - „ 3906.
+[single] _=o Jndiassche Eijsschen van Lijwaten voor
+[single] A=o 1741. _ _ _ - - - - - - - - - - - „ 3946.
+== NL-HaNA_1.04.02_2538_0028 | #28 | sides: single | lines: 1
+[single] 1
+== NL-HaNA_1.04.02_2538_0029 | #29 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2538_0030 | #30 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2538_0031 | #31 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2538_0032 | #32 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2538_0033 | #33 | sides: single | lines: 32
+[single] fol:
+[single] Van Cormandel Den 2. febr: 1741.
+[single] te Spijk over Plo.
+[single] Gale.
+[single] Register van Soda„
+[single] nige brieven en papic:
+[single] ken, als op heden Aan
+[single] sijn hoog Edelheijt den
+[single] Hoog Edelen Heer
+[single] Adriaan Valkenier
+[single] Gouverneur Generaal, en
+[single] de Wel Edele Heeren
+[single] Raaden van Neder„
+[single] lands India tot
+[single] P:r het schip 't Huijs Batavia, P=r het schip
+[single] 'T huijs te Spijk, werden
+[single] g'addresseert door den
+[single] Agtb: Heer Jacob
+[single] Mossel Gouverneur
+[single] en Directeur deser
+[single] ::
+[single] Custe Cormandel met
+[single] den Resorte van dien,
+[single] nevens den Raad te
+[single] Nagapatnam nament.
+[single] lijk.
+[single] No. 1. Origineele missive door welmelden
+[single] heer Gouverneur en raad
+[single] an Hoog gedagte haar hoog
+[single] Edel=
+== NL-HaNA_1.04.02_2538_0034 | #34 | sides: - | lines: 0
+== NL-HaNA_1.04.02_2538_0035 | #35 | sides: single | lines: 32
+[single] fol:
+[single] n
+[single] Van Cormandel Den 2. febr: 1741.
+[single] te Spijk over Plo.
+[single] Gale.
+[single] Register van Soda„
+[single] nige brieven en papie:
+[single] ben, als op heden Aan
+[single] sijn hoog Edelheijt den
+[single] Hoog Edelen Heer
+[single] Adriaan Valkenier
+[single] Gouverneur Generaal, en
+[single] de Wel Edele Heeren
+[single] Raaden van Neder=
+[single] lands India tot
+[single] h:r het schip 'T Huijs Batavia, P=r het schip
+[single] 'T huijs te Spijk, werden
+[single] g'addresseert door den
+[single] Agtb: Heer Jacob
+[single] Mossel Gouverneur
+[single] en Directeur deser
+[single] :
+[single] Custe Cormandel met
+[single] den Resorte van dien,
+[single] nevens den Raad te
+[single] Nagapatnam nament.
+[single] lijk.
+[single] No. 1. Origineele missive door welmelden
+[single] heer Gouverneur en raad
+[single] an Hoog gedagte haar hoog
+[single] Edel=
+== NL-HaNA_1.04.02_2538_0036 | #36 | sides: single | lines: 28
+[single] Van Cormandel onder Dato 2: febr: 1741:
+[single] Edelheedens gerigt van hedigen
+[single] datum.
+[single] N o 2. Copia secreete brief door welmelde heer
+[single] Gouverneur den 2. 9ber d' A. o
+[single] pass=o over Ceijlon aan haar
+[single] hoog Edeheedens afgesonden,
+[single] apart geslooten overgaande:
+[single] „ 3. Twee Copia gemeene brieven van hier, aand'
+[single] Edele hoog Agtbare heeren Majo:
+[single] res in Nederland, en haar hoog
+[single] Edelheedens op den 2. 9ber: voorm:
+[single] over gedagt Eijland afgevaardigt
+[single] met de registers der daar nevens
+[single] afgesondene bijlaagen.
+[single] „ 4. Copia briefje door de Opperhoofden ten
+[single] Comptoire Bimilipatnam
+[single] den 13. 8ber: 1740. per het
+[single] schip Nieuwstad aan haar
+[single] hoog Edelhedens afgesonden.
+[single] „ 5. Copia gemeene Resolutie, genoomen in
+[single] Rad van Cormandel tot Na=
+[single] gapatnam sedert den 7. xber:
+[single] P
+[single] d' A. o pass=o tot den 24. Januarij
+[single] deses Jaars.
+[single] „ 6. Copia secrete Resolutien genomen in
+[single] voormelden
+== NL-HaNA_1.04.02_2538_0037 | #37 | sides: single | lines: 28
+[single] 3
+[single] Van Cormandel onder Dato 2. febr: 1741
+[single] voorm: raade den 25. aug:
+[single] 21. 26. 7ber: 7. December
+[single] des voorleeden, en 19. Ianua:
+[single] deses Jaars.
+[single] N o 7. Copia Resolutien genoomen in raade
+[single] van Norder Cormandel tot
+[single] Masulipatnam sedert den
+[single] 22. 8br: a. o pass.o tot den 8.
+[single] Ianuarij lestleeden.
+[single] „ 8. Copia brieven door de Masulipatnam.
+[single] =se Opperhoofden, na herwaards
+[single] geschreeven sedert den 1. 8br:
+[single] tot den 9. Ianuarij lestleeden.
+[single] „ 9. Copia brieven van hier na Masz:
+[single] afgesonden, sedert den 4. '
+[single] Novembr: des voorleeden tot
+[single] den 22. Janúarij deses Jaars.
+[single] „ 10. _=o brieven van de Palliacatse opper„
+[single] hoofden na herwaards sedert
+[single] den 18. October tot den 20.
+[single] Janúarij lestleeden.
+[single] „ 11. _. o brieven van hier na Palliacatta
+[single] afgevaardigt sedert den 3.
+[single] 9ber tot den 22. Ianuarij
+[single] J=o leeden.
+[single] No. 12.
+== NL-HaNA_1.04.02_2538_0038 | #38 | sides: single | lines: 29
+[single] Van Cormandel Den 2. febr: 1741.
+[single] N . 12. Copia brieven van de Sadraspatnamse
+[single] Opperhoofden na herw. t van den
+[single] 26. November tot den 15. Januarij
+[single] J=o verweeken
+[single] „ 13. d=o brieven door de van hier na Sadrasp:
+[single] gesonden sedert den 3. 9ber tot
+[single] den 22. Januarij pass=o.
+[single] „ 14. _:o _=o. doorde Portonovose opper:
+[single] hoofden na herwaarts geschree=
+[single] ven, van den 4. 9ber: des voor=
+[single] leeden tot den 28. Januarij dee:
+[single] ses Jaars.
+[single] „ 15. d=o Briefen van hier na Portonovo
+[single] afgevaardigt sedert den 23.
+[single] 9ber: tot den 22. Ianuarij lestleeden.
+[single] „ 16. _:o briefjes door den Tegenepatnamsen
+[single] resident na herwaards gecarteert
+[single] van den 18. October tot den 10.
+[single] Ianuarij J=o leeden.
+[single] „ 17. Een Copia briefje van hier aan voorm:
+[single] resident geschreeven den 19.
+[single] Ianuarij deses Iaars.
+[single] Circulaire brieven van hier
+[single] „ 18. Twee _=o.
+[single] na de onderhoorige suijder Comp:
+[single] =torien en Masulipatnam
+[single] afge„
+[single] ee
+== NL-HaNA_1.04.02_2538_0039 | #39 | sides: single | lines: 29
+[single] Van Cormandel Den 2. febr: 1741.
+[single] afgesonden den 24. 9ber:
+[single] en 13. Decembr: d' A. o pass=o
+[single] N. o 19. Copia brieven van hier na Colombo.
+[single] Bengale, souratta, Per:
+[single] Sia, Mallabaar, Iassa:
+[single] =napatnam, Trinconoma:
+[single] le, en Manaar afgeson:
+[single] den sedert den 2. 9ber: der
+[single] voorleeden tot den 28. Ian:
+[single] deses Iaars.
+[single] „ 20. Coppia rapport bevindinge van den ge:
+[single] danen Generaalen op neem
+[single] van 's Comp. s fortificatie
+[single] werken en gebouwen te deser
+[single] steede Nagapatnam gedateert
+[single] 12. Januarij 1741.
+[single] „ 21. d=o rapport der gedaane Visitatie en
+[single] peijlinge van desen bodem
+[single] op sijn komst uijt Bengale
+[single] te deser Rheede op den 24.
+[single] Ian: J=o leeden.
+[single] „ 22. Een request van den Coopman en Pal:
+[single] liacats opperhoofd Isaac
+[single] Dias Dafonseca aan haar
+[single] hoog Edelheedens gedediceert.
+[single] in
+== NL-HaNA_1.04.02_2538_0040 | #40 | sides: single | lines: 29
+[single] Van Cormandel onder Dato 2. febr: 1741.
+[single] inhoudende versoek om bij vaca:
+[single] „ture der hoofd administratie
+[single] alhier; met die bedieninge ende
+[single] qualiteijt van Oppercoopman
+[single] gegratificeert te mogen werden.
+[single] N. o 23. Een gesloote pacquet van de Eerwaarde
+[single] weesmeesteren alhier aan de
+[single] Edele heeren Weesteren te
+[single] Batavia nevens een stel wees=
+[single] Kamer boekjes.
+[single] „ 24. Bevindinge der aangebragte goederen
+[single] door brenger deses uijt Benga:
+[single] =le dubbelt overgaande daarvan
+[single] 1. voor den E: visitateur Gene=
+[single] raal.
+[single] „ 25. Inventaris van sodanige Contanten,
+[single] Equipagie goederen, am monitie
+[single] van oorlog, ensr: als er ten
+[single] desen Gouvernemente onder Ult=o
+[single] Augh: 1740. in weesen sijn ge=
+[single] weest.
+[single] „ 26. seventhien stux maandelijxe rende:
+[single] menten van vertierde Coop=
+[single] manschappen al.
+[single] 3. Origineele van Nagapatnam
+[single] er
+[single] Hel
+[single] G
+== NL-HaNA_1.04.02_2538_0041 | #41 | sides: single | lines: 29
+[single] Van Cormandel Den 2. febr: 1741. /
+[single] en de Maanden 7br: 8ber:
+[single] en 9ber:
+[single] 3. Cop. t van Palliacatta en de
+[single] maanden als even.
+[single] 3. van Sadrasp=mn ad idem.
+[single] 3. „ Portonovo. _:o.
+[single] 3. „ Masulip=m „
+[single] 1. „ Iaggernaijkpoeram van
+[single] 9ber:
+[single] 1. „ Bimilipatnam d=o
+[single] No. 27. Twee stux aparte rendementen van
+[single] dese
+[single] 1. van Sadraspatnam dato
+[single] 12. 9ber: 1740. van verkogt
+[single] Sandelhout, en
+[single] 1. van Portonovo. dato Ult=o
+[single] 7ber: 1740. van roosenwaater.
+[single] „ 28. Twee stux rendementen van Pallia:
+[single] :catse ropijen van Bimili:
+[single] patnam. , en de Maanden
+[single] 7ber: en 8ber: 1740.
+[single] „ 24. Onkost reecq: van de verstrekte
+[single] verversinge ensz: aan desen
+[single] bodem„
+[single] „ 30. Copia Register der Zuijder Corman
+[single] delse.
+[single] ll
+[single] R
+== NL-HaNA_1.04.02_2538_0042 | #42 | sides: single | lines: 26
+[single] Van Cormandel Den 2. febr: 1741.
+[single] Batavia; en het Patria
+[single] delse soldij boeken d' A o 17 23/40.
+[single] in een kas apart overgaande.
+[single] N:o 31. Copia Monster rol van 't schip Adri:
+[single] =chem, gedateert 8. 8ber: 1740.
+[single] „ 32. seventhien soldij reecq: van 5. per:
+[single] sonen, welkers solda te goed
+[single] alhier uijtgekeert is.
+[single] Nagapatnam In't Casteel den 2 fbrl:
+[single] /:was getekent:/ D: C: Vick. Eg Clercq 1741.
+[single] Batavia.
+[single] Aan Den Hoog Edelen Heer.
+[single] Adriaan Valckenier.
+[single] Gouverneur Generaal en de Edele
+[single] Heeren Raden van Nederlands
+[single] India.
+[single] Pr het schip 'T
+[single] huijs te Spijk.
+[single] Hoog Edele agtb: ge„
+[single] biedende Heer, en Edele
+[single] Heeren
+[single] versellinge der p:ras en 2. November des voorleeden Iaars,
+[single] afgesondene missivens. hebben wij d'eere gehad, onse laaste lette:
+[single] ren
+[single] gellen
+== NL-HaNA_1.04.02_2538_0043 | #43 | sides: single | lines: 32
+[single] Van Cormandel onder Dato 2. febr: 1741.
+[single] gineele brief van
+[single] deser uijt Bengale, en
+[single] vertrek over punto Gale„
+[single] tot Masz: als faus door
+[single] ge van denselven.
+[single] „ren over Ceijlon aan U hoog Edelens toe
+[single] te senden, van inhoud als het nevens leggen:
+[single] de afschrift sal aanthoonen, verseld van de
+[single] Copia onser Vaderlandse brief van dien self=
+[single] den dag zedert hebben wi U hoog Edelens sedert ontvangene ori„
+[single] g'agte origineele missive van den 27. Iulij laar hoog Ed:s
+[single] bevorens met dies gehorende bijlagen ont=
+[single] vangen: waar van de ordres ons dienen
+[single] zullen tot gehoorsaamheijd. En nademaal arrivement van brenger
+[single] brenger deses het schip het Huijs te
+[single] spijk op den 29. ' der Jongst gepasseerde
+[single] maand Ianuarij, uijt Bengale te deser
+[single] Rheede gekomen is, laaten wij desen met
+[single] denselven tot U hoog Edelens afgaan, over
+[single] Phinto Gale, om daar de behoofte voor
+[single] Ceijlon te lossen, en de ledige plaats we=
+[single] :der te vullen.
+[single] Mhoorse en Heijdense Regeering. komst van Iman sahib„
+[single] Den bekenden Arcadoesen Iman Sahib en gedane beschenkin:
+[single] na de heer Nasar Jangoe opgereijst, is
+[single] in December afgekomen als steede Voogt,
+[single] van Masulipatnam, en aanhoorige;
+[single] en door de Ministers na het Exempel
+[single] der twee voorgaande beschonken heb:
+[single] bende
+[single] Hee
+== NL-HaNA_1.04.02_2538_0044 | #44 | sides: single | lines: 34
+[single] Van Cormandel Den 2. febr: 1741.
+[single] Narsapour aan de
+[single] geven.
+[single] gedaan versoek der
+[single] fransen aan densel„
+[single] hoog Edel. s goed keure.
+[single] desselv intentie om bende bij de visite in de Logie vide brief
+[single] ongelsen in pagtte van 19. ' xber: te kennen gegeven Narsa=
+[single] :pour aan de Engelsen te sullen n pagt
+[single] in pagt geven, dat d' EComp. t bij na indifferent
+[single] is; maar men wil ook dat de francen het
+[single] Eij
+[single] ver om het eijlandieuw j land Dieuw door hem van den voorsz: heer
+[single] hadde laten versoeken; dog dat de toestem=
+[single] :minge moeste afdalen van den heer Ni=
+[single] sanmanmolk, die na Golconda afkomt:
+[single] Uijt voorschreeve overgifte soude volgens
+[single] het sustenue der Masulipatnamse minis:
+[single] ters een groot quaad voort vloeijen; en
+[single] al schoon ook wel sien dat d' EComp. e eenig
+[single] sints een doorn in den Voet sal wesen
+[single] hebben wij daartegen egter niets konnen
+[single] doen, dan door schijn van meede daar zin
+[single] in te hebben, het de francen wat moeije:
+[single] lijk te maken, of duur te doen staan;
+[single] in hoope van haar dat wij geloven met u hoog Edelens in=
+[single] tentie te sullen quadreeren vide het ge=
+[single] schreevene na herwaarts 30. Meij 1732.
+[single] zijnde het een en ander breeder te zien
+[single] bij resolutie van den 12. en brief na
+[single] Masulipatnam van 18. Ianuarij.
+[single] Te Sadraspatnam nog al gedwongen.
+[single] in
+[single] Heel
+== NL-HaNA_1.04.02_2538_0045 | #45 | sides: single | lines: 37
+[single] Van Cormandel den 2. febr: 1741.
+[single] te sadraspatnam
+[single] gedane restitutie
+[single] opnevens gem: aan=
+[single] gebragte granen
+[single] aan den land regent.
+[single] over een komste met het
+[single] Tansjourse hof wegens
+[single] in 's Comp s dorp.
+[single] in gewoonte gebleeven zijnde, de grannen
+[single] uijt het Diftrict van singelepette tot vrij in van geheve tollen
+[single] te voeren; hadden de Opperhoofden egter van
+[single] de graanen uijt een aangrensend dorp Allal-
+[single] der tol doen nemen, schoon den regent hadde
+[single] laten te kennen geven, dat het selve thans
+[single] meede onder die provincie getrocken waaren
+[single] maar sedert op een bevel schrift van den Na=
+[single] bab saphteralijchan, sulx weder gerestitueert.
+[single] om den sterken aandrang en de ongereegelde
+[single] Regeringe, bedragende pa/o 33:–. –. vide brief
+[single] van 23. December; het geen bij ons ter zatsin=
+[single] „ge van 12. Ianuarij gepasseert is.
+[single] Ons bedeelt besluijt, om den Vorst van
+[single] Tansjour te beschenken, bij voldoeninge den gepleegder roof
+[single] over de gepleegde roof in Porwacherij is van
+[single] geen gevolg geweest; alsoo onse afgesonde:
+[single] :ne bramine, Na een beleeft onthaal, en eer:
+[single] kleeden van den Vorst ontfangen te hebben,
+[single] onverrigter zaake terug gekomen is;
+[single] sedert heeft men het werk weder aangevan„
+[single] „gen, met den ordinairen zendeling van
+[single] den Vorst uijt Tansjour, over de vereffening
+[single] der geschillen, en om de recognitie pen:
+[single] „ningen te eijsschen, afgekomen: die het
+[single] dan
+[single] 11
+== NL-HaNA_1.04.02_2538_0046 | #46 | sides: single | lines: 34
+[single] llen
+[single] Van Cormandel Den 2. febr: 1741.
+[single] selve hof van ses
+[single] en op wat Conditie.
+[single] p/a ter leen door Aijnaar
+[single] derselve.
+[single] te wijsen.
+[single] afstaninge van het dan so verre gebragt heeft, dat 'er 6. dorpen
+[single] dorpen aan d' EComp:s aan D' E Comp. e afgestaan zijn, na onsen eijsch
+[single] bij secrete besluijten van 7. ' December des
+[single] voorleeden, en 19. ' Ianuarij deses Iaars, mits
+[single] 800. pardauws 'sjaarlijx recognitie en 5000.
+[single] pardauws nu af te geven aan alle de hofs=
+[single] grooten, die daar toe het haare hebben moe„
+[single] ten Contribueeren, blijvende dus 12000.
+[single] pardauws voor de beroofde personen: maar
+[single] „chetke afgesonden
+[single] gedanen eijsch van 10000 dat papier in handen van Aijnaar ^ eijschte
+[single] rauw voor de overgifte denselven alvoorens, om de presente verle=
+[single] „gentheijt van den Vorst, ter voldoeninge der
+[single] Marattijs, 100000. pagoden ter leen, onder=
+[single] pand van landen: over alle het welke dan
+[single] den 19. Ianuarij vergaard, vond men goed tot
+[single] vermijding van verdere verwijderingen de
+[single] dorpen te accepteeren, recognitie penningen
+[single] en Eliphanten aftegeven, schoon 'er twee
+[single] andere dorpen onder waren, als men begeerd
+[single] hadde, hoewel, wel van soo veel voordeel; om
+[single] dog de lening plat af reden bij dat besluijt soo secret als gemeen
+[single] vermeld; maar de leening glad van de hand
+[single] te wijsen: het antwoord dusdanig dan gereet
+[single] gemaakt, quam 'er tijding dat desen Aij:
+[single] naar op ontboden was; zijnde derselven
+[single] Aijnaar
+== NL-HaNA_1.04.02_2538_0047 | #47 | sides: single | lines: 29
+[single] Van Cormandel den 2 febr: 1741.
+[single] heijt in het voorleede
+[single] Aijnaar vervolgens na Tansjour opgetrokken,
+[single] en soude op het lesen van dien brief wat moeij:
+[single] elijk geworden, zijn. Den Vorst bij de Ma¬
+[single] ratijs van Tritsjenepallij op ontboden, sal
+[single] desen Aijnaar en nog een hoofd of twee
+[single] zenden met 4000. ruijters 10000 voet volk,
+[single] item 13. stucken Canon.
+[single] De Marattijs in het voorleden najaar geweest zijnde gerust
+[single] haar onthoudende in het Rijk Marsoer, bijnde tad laa Cosse
+[single] bewesten Caddappa, omtrent het Malla=
+[single] baars gebergte; soo is 'er ter dier tijd te
+[single] deser Custe een volkomen gerustheijd ge:
+[single] weest, selfs sodanig, dat de Padraspat:
+[single] namse bediendens 3. bosschieters die wij
+[single] ter harer adsistentie derwaarts gesonden
+[single] hadden, weder herwaarts stuurden dog in
+[single] 1167
+[single] December deselve in de Marsch na het
+[single] Zuijden geadvanceert wesende tot bewesten
+[single] Zinsij; vernam men aanstonds weder al:
+[single] omme ontsteltenis, door den roep dat hier
+[single] en daar te lande waart dorpen geplondert
+[single] wierden; dat dan nog te grooter wierd, wan=
+[single] „neer deselve van voorschreeve plaats met het vervolg
+[single] omtrent Een duijsent ruijters onverwagt
+[single] door.
+[single] Veell
+== NL-HaNA_1.04.02_2538_0048 | #48 | sides: single | lines: 29
+[single] Van Cormandel onder Dato 2. febr: 1744.
+[single] na de Comptoiren tot
+[single] waak saamheijs ensz.
+[single] doorbraaken tot in Cansje warom, zijnde
+[single] omtrent 15 mijlen noordelijk van Zinsij en
+[single] ook soo ver bewesten sadraspatnam geleegen,
+[single] Deese voornaame koopplaats uijtgeplondert.
+[single] hebbende, retireerden 'se weder ik weder, eer
+[single] het krijgsvolk van den Nabab Saphteralij:
+[single] chan /: die Arcadoe soo best doenlijk ge=
+[single] fortificeerd heeft, en sig daar binnen houd:/
+[single] afgesondene ordres haar konde aantreffen. Men sond derhalven
+[single] tijdig ordre na de Comptoiren, om voor deselve
+[single] op hoede te wesen; maar het gebrek van vaar„
+[single] thuijgen in zee, en de onvaarbaare tijd, stelden
+[single] onmogelijk iets van Sadraspatnam of
+[single] Portonovo overte brengen; derhalven bleef
+[single] het eenigste middel overig sauveguarde
+[single] van deselve te versoeken, en het geld van Por„
+[single] tonovo soo die weegen te begaan waaren,
+[single] per pions te waagen: het welk beijde dan
+[single] den 19. ' volgens besluijt van dien dag, aan:
+[single] schreeven; en sonden ten dien eijnde twee
+[single] pions van hier; maar deselve te Portono„
+[single] vo komende, so was de weg ondertusschen
+[single] onveijl geraakt, door een vlugtende Moor=
+[single] :se hoofdruijter, met 2. â 300. man, en zijne
+[single] parthij de afgeschikte door den Vorst van
+[single] Tansjour
+== NL-HaNA_1.04.02_2538_0049 | #49 | sides: single | lines: 36
+[single] Van Cormandel onder Dato 2. febr: 1741.
+[single] ordre na derw. t in
+[single] &=a met een Chaleng
+[single] „me tijdinge der af„
+[single] lopinge dier Logie
+[single] en vervoeringe van
+[single] 's Comp s dienaren
+[single] door de Marattijs.
+[single] Tansjour met eenig volk aan de Rivier Col=
+[single] =derom leggende; het welk men alhier vernemen=
+[single] de, hebben wij den 22. December aanstonds we=
+[single] der geschreeven indien het geld niet te wagen nader afgesondene
+[single] was over den land weg, als dan, mits de gerug wat geval de Condarten
+[single] =ten van haar Groof alomme toenamen, en te senden.
+[single] het weer zig niet qualijk sette, een groote
+[single] sleng te huuren, en daarmede geld, spece=
+[single] „rijen, en Iapans Koper herwaarts te sen=
+[single] den: dog van de tijd dat desen brief ontfangen
+[single] is hebben wij geen advijs erlangt.
+[single] Ondertusschen zijn de Marattijs tot onse groo, kort daarop ingeko:
+[single] te droefheijd den 25. dier maand, met om„
+[single] trent 1000. man even na de middag, na een
+[single] Continueele mars van wel 12. mijlen, schielijk
+[single] in Portonovo. gevallen, sonder dat de uijtgesette
+[single] pions daarvan berigt hadden konnen brengen het vervolg.
+[single] breekende aanstonds door deuren en Versters
+[single] in de Logie, vervoerende daar uijt wat haar be:
+[single] haagde, schietende een vrije toepas doot
+[single] quetsende de boekhouders van outvelt, en
+[single] Dormieux, en voerende deselve nevens den
+[single] secunde, Cassier, en verdere suippoosten na de
+[single] versamelplaats 2. uuren buijten de stad, alwaar
+[single] de nagt in houde, en van kleederen berooft
+[single] moesten
+[single] 15
+== NL-HaNA_1.04.02_2538_0050 | #50 | sides: single | lines: 34
+[single] Van Cormandel Den 2. febr: 1741.
+[single] dienaren, en derselver
+[single] eenige dagen.
+[single] twee halengen van
+[single] hier naderwaarts.
+[single] na derw ts
+[single] largatie van 's Comp=s moesten doorbrengen; werdende 's morgens met
+[single] onthoud in een bosch de opbraake der Marattijs gelargeert, /:zijnde
+[single] het Opperhooft Dormieux in November be=
+[single] vorens hier over gekomen om de Negotie boeken
+[single] te sluijten:/ Na het vertrek deser Marattijs
+[single] zijn deselve dienaren, egter nog eenige dagen
+[single] uijt vreese, in een bij geleegen bosch sig ont„
+[single] houdende geweest tot den 6. Ianuarij; onder:
+[single] gedane afsendinge van tusschen hadden wij den 4. d=o met een door=
+[single] waaijende zuijdelijke wind, in die tijd hier
+[single] seldsaam twee groote Portonovose slengen
+[single] derwaarts gesonden; met last het waardigste
+[single] daarin te laden, en herwaarts senden; waar=
+[single] meede dan bekomen hebben.
+[single] 6781. lb Spiaulter, en
+[single] 9199. „ Persise Koperwerken.
+[single] 6
+[single] drie dagen daarna hebben wij nog een sleng
+[single] gesonden maar die is door tegenwind te
+[single] nadere gesondene thonijrug gekeerd; zijnde den 10. nog derwaarts
+[single] geschikt 'sComp:s thonij Maduapalem /:van
+[single] Mazulipatnam herwaarts aangekomen:/
+[single] met bevel om daarte verblijven, ofde ver:
+[single] dere waardige goederen herwaarts te brengen
+[single] na de tijden vereijsschen: sijnde den Tweede en
+[single] Cassier
+[single] G
+== NL-HaNA_1.04.02_2538_0051 | #51 | sides: single | lines: 41
+[single] Van Cormandel onder Dato 2. febri: 1741. —
+[single] den tweede en Cassier
+[single] rekenschap.
+[single] ten aan Contanten,
+[single] specerijen, en koper
+[single] ginter
+[single] buijten de gesordeerde
+[single] Lijwaten.
+[single] het nieuw opperhoofd
+[single] na derwaarts en ten
+[single] wat eijnde.
+[single] afgegeve last na Sadrasp=m.
+[single] om de aldaar wesende Con:
+[single] of franse plaatsen over
+[single] en Cassier ook ontboden, om rekenschap van gedaan op ontbod van
+[single] alles te doen en sig der nodig te verantwoor=ter doening van
+[single] „den: tot wanneer niet wel sullen konnen
+[single] op geven de geledene schaade, maar zal na 't
+[single] ons voorkomt altoos verloren zijn omtrent
+[single] 4000. pa/s. Contant. 3500. lb specerijen, en
+[single] 14000. lb. Iapans Koper, te samen be=
+[single] dragende Circum circa ƒ 32000: —. —.
+[single] „buijten de gezorteerde Lijwaaten, dat bij net: het verlorene na gedag„
+[single] le afreeckening met de Kooplieden, eerst
+[single] kan blijken, zijnde te hopen dat 's Comp. s
+[single] Cooplieden, welke ook al hunnen voorraad
+[single] verlooren hebben, in staat sullen zijn hun:
+[single] nen debet in het vervolg te vereffenen, die
+[single] omtrent een ton schats bedragt: Om het gedane sending van
+[single] welk beter te effectueeren, en den handel met eenige Coopmansz:
+[single] weeder aan te vangen, het nieuw Opper=
+[single] hooft Vermont den 23. Ianuarij der=
+[single] waarts vertrocken is, mits een Chaloup
+[single] ter Rheede aldaar verblijvende, met de
+[single] Contanten en pretieuse whaaren.
+[single] Omtrent Sadraspatnam zijn wij van
+[single] gelijke in seer groote bedugting geweest, erwaarts, of op Cadgelse,
+[single] sonder het selve almeede te konnen red te brengen.
+[single] „den, buijten een even groot perijkel
+[single] ter
+[single] n
+== NL-HaNA_1.04.02_2538_0052 | #52 | sides: single | lines: 35
+[single] Van Cormandel onder Dato 2. febr:
+[single] Chaloup van hier derw. t
+[single] gesonden, en ten wat
+[single] eijnde.
+[single] aldaar zijnde Contanten
+[single] herwaarts verwagten.
+[single] fort de pall:t tegens
+[single] ter Zee, egter schreeven den 28. ' December
+[single] na't beroven van Portonovo. liever per
+[single] Chialeng, of Cattemarauw. het geld herwaarts
+[single] f op Engelse, of france plaatsen over te
+[single] brengen, dan verder bloot te laten aan
+[single] de roofgierigheijt der Marattijs, en deselve
+[single] dog kort daaraan eene daardoor uijt te locken; dog den 2. Ianuarij
+[single] gelukte het buijten exempel, dat wij de
+[single] Chialoup het gekroond Zwaart met een
+[single] Zuijde wint, van hier konden depecheeren.
+[single] na Sadraspatnam, alwaar gelukkiglijk
+[single] den 5. aangekomen is, en na onse ordre
+[single] ingescheept al het geld, en soo veel Koper
+[single] en specerijen, als bergen kon;
+[single] met wat occagie te zullende de Contanten per van de Noord
+[single] passeerende Chaloupen herwaarts komen:
+[single] gelijk reets met de Cornelia 20000. pag:
+[single] ontfangen hebben, en sal eerstgemelde
+[single] vaartuijg daar blijven.
+[single] gevoelen nopens het Te Palliacatta hoopt men dat het fort
+[single] der aanval der marat= bestand genoeg sal wesen, tegen een over„
+[single] val van zodanige detachementen, als
+[single] die rovers derwaarts mogten willen, en
+[single] konnen senden: dog sullen egter ook de
+[single] Contanten van daar werden afgehaald.
+[single] Na
+[single] G
+[single] „tijs.
+== NL-HaNA_1.04.02_2538_0053 | #53 | sides: single | lines: 36
+[single] Van Cormandel onerder Den 2. febr: 1741.
+[single] ole gesch: op den naam
+[single] Marattijs.
+[single] ontfangene en nog te
+[single] verwagtene baliers van
+[single] eerbiedig versoek om
+[single] militairen en zeeva:
+[single] Na het voorschreeve berooven van Porto - ontfangen vernretele
+[single] „novo, quam hier den 3. Ianuarij in de stad, van het mede hoofd dor
+[single] een bramineut met een ole, geschreeven op
+[single] den naam van het meede hooft der Marattijs,
+[single] genaamt Fatte Singoe; inhoudende het ont:
+[single] bod van den Gouverneur bij den selven op
+[single] Chelembron, en dreijgement van dese Stad
+[single] te besoeken &=a. waar over dan het nodige
+[single] gedelibereert bij zittinge van dien Dag„
+[single] vond men goed van Mallabaar bij on:
+[single] benodigtheijt aldaar 200. militairen, en
+[single] van Colombo 100. d=os te versoeken, mits=
+[single] gaders van Iaffanapatnam het geene
+[single] missen konden, alsoo die om desselvs na=
+[single] bij heijs het spoedigst verwagteden, van
+[single] waar ook reets 53. balijers ontvangen, Iaffanapatnam.
+[single] nog eenige bij herstelling van ziekte
+[single] te wagten hebben Smaar dewijle op de
+[single] rest weijnig staat te maken is, en deese
+[single] ook weder na Iaffanapatnam sullen
+[single] dienen te gaan, soo versoeken wij U
+[single] hoog Edelens ons volgens Eijsch van gbr: rende, en hoeveel.
+[single] gelieven te voorsilen met 100. Europese
+[single] militairen en 20. Zeevarende, nevens
+[single] nog 200. Europesen, Balijers, en Boe=
+[single] =gineesen.
+[single] ƒ
+[single] Dellen
+[single] 19
+== NL-HaNA_1.04.02_2538_0054 | #54 | sides: single | lines: 31
+[single] Van Cormandel Den 2. febr: 1741.
+[single] brenger den voorm:
+[single] ol.
+[single] zorgelijke gedagten
+[single] voorde marattijs.
+[single] =gineesen, daaren tr boven; alle onder haare
+[single] genome vlugt van den Vendrigs of sergeanten: want schoon voorsz:
+[single] ale misschien niet van de hoofden afkomstig
+[single] is; om dat denselven braminees dags daaraan„
+[single] 's avonds op den toets gestelt, om te sien of
+[single] hij de hoofden selvs wel kende ersz:, ver=
+[single] waard antwoorde; en 'smorgens vroeg het
+[single] haase pad gekosen heeft en daarom volgens
+[single] besluijt van den 19. Ianuarij onbeantwoord
+[single] blijft; en de Marattijs thans alle alrovende
+[single] gemarcheert zijn tot voor Tritsjene pallij,
+[single] dat door een uijt gelokte, en verloore veld=
+[single] slag, wat verswakt is, en na het winnen van
+[single] dien, dat men denkt niet gemakkelijk te
+[single] sullen vlotten, misschien wel verder zuijd
+[single] waard sullen trecken, om het rijbo van
+[single] Tritsjene palij geheel den Mhoor te ontwin„
+[single] gen, soo is daar op egter niet vast te cijffe:
+[single] ren, veel min wat deselve sullen willen on=
+[single] derstaan in de terugtogt; als wanneer men
+[single] in de uijterste verleegentheijd soude konnen
+[single] geraaken: Speciaal bij geslote vaart in
+[single] en voor den Tonsjounderde stormtijd konnende ook nog niet weeten
+[single] of wij met Tansjour met eere in vreede
+[single] sullen konnen blijven na onse betragtinge
+[single] onder
+== NL-HaNA_1.04.02_2538_0055 | #55 | sides: single | lines: 41
+[single] Van Cormandel onder Dato 2. febr: 1741.
+[single] passen en pions.
+[single] bij het Canon.
+[single] gedane plaatsinge der
+[single] pennisten en burgerije
+[single] op twee punten deser
+[single] Costeels in tusschen.
+[single] roof te Portonovo aan
+[single] tijr.
+[single] van na mallabaar;
+[single] van die hoofden.
+[single] „tensie in steede van
+[single] ondertusschen steld men het soo bestmoge: in dienst genome toe„
+[single] =lijk met in dienst genomene 20. toepassen„
+[single] 92. pions, en de nodige Coelijs bij het Canon;
+[single] Zijnde wijders 46. Zeevaarende, door in dienst gestelde zeevaarende
+[single] genomene swarte vervangen, en mede bij het
+[single] geschut geplaatst en in steede der uijt het
+[single] Casteel in de stad gesondene manschap
+[single] de pennisten, en burgerij op 2. punten
+[single] des Casteels de wagt houdende: gelijk te
+[single] Sadraspatnam en Palliacatta. ook
+[single] eenig volk extra in dienst genomen is,
+[single] tot het uijt eijnde der bevoertens.
+[single] Na voorschreeve roof te Portonovo, gedane klagten over den
+[single] heeft men sodra mogelijk, onse klagte de hoofden der maras„
+[single] daarover gedaan, aan de hoofden der
+[single] Marattijs Fatte Singoe Bhonsale,
+[single] en Ragosie Bhonsale en ook na
+[single] Mallabaar daar van kennisse gegeven gegeve kennis daar
+[single] om van daar den Vorst dier volkeren ter en waarom.
+[single] voren te brengen; met Eijsch van satis=
+[single] feectie en restitutie; daar wij egter
+[single] gansch geen moed op hebben, alsoo derscl: ontfangen antwoord.
+[single] ver aantwoord. , geinsereert ter resolutie
+[single] van 24. Ianuarij daar toe gantsch geen daarbij gemaakte pre„
+[single] 6
+[single] hoope geeft, en zij eerder nog een goede satirfactie tegeven.
+[single] pluk.
+[single] Ceeen
+[single] 21
+== NL-HaNA_1.04.02_2538_0056 | #56 | sides: single | lines: 39
+[single] Van Cormandel onder Dato 2. febr:o 1744.
+[single] deselve van de hand
+[single] gewesen.
+[single] van een der voorn: hooft
+[single] der gedanen roof.
+[single] aangethoond.
+[single] gedane acceptatie der
+[single] de hen voor India op
+[single] gegeve kleeden.
+[single] Vaderlandse petitie.
+[single] pen desen Iaare met weij
+[single] krige retouren sullen
+[single] terug keeren.
+[single] pluk in het oog hebben, die haar maar glad.
+[single] uijt ontsegt is, en hiervan almede de weet
+[single] gedaan aan de regeringe te Couchim¬
+[single] nader ontfange brief zijnde seedert nog een brief van Fatte,
+[single] der ter verschooning singoe ontvangen, waarbij de schuldschuijft
+[single] op een parthij bijlopers, en segt daartoe
+[single] geen Ordere gegeven te hebben: Op hoe:
+[single] danigen wijse zij ook den Nabab, en
+[single] Vorst van Tansjour gepaaijt hebben, na
+[single] denselven het Contrarieeet berooven van eenige plaatsen: dog
+[single] men heeft bij antwoord aangethoond dat
+[single] het goed in hun lager gebragt, en aldaar
+[single] ter markt verkogt werd.
+[single] Lijwaat Handel.
+[single] Bimilipal:e koopl: van a Bimilipatnam is den Eijsch voor India
+[single] aangenoomen, en het Contract geinsereert
+[single] ter Resolutie van 15. December; en volgens
+[single] en belofte nopens de mondeling verhaal van het overgekome Opper„
+[single] hooft, op zijn vertrek (in Ianuarij, stond
+[single] de Vaderlandse petitie, ook eijndelijk
+[single] aangenomen te werden, teegens voorige
+[single] bedugtinge dat deschee prijsen. Maar dewijl, de zuijd, daar
+[single] onder Sadraspatnam, soo grooten ge:
+[single] tal ten deelen gevallen, volgens de ex:
+[single] presse
+[single] d
+== NL-HaNA_1.04.02_2538_0057 | #57 | sides: single | lines: 37
+[single] Van Cormandel Den 2. febr: 1741.
+[single] ontvilligheijd der Iagger.
+[single] naijkpoeramse Coopl:
+[single] ter aanneminge van het
+[single] nevens gem: Guinees
+[single] „den Indiasen eijssch.
+[single] oneijgene gedane Con=
+[single] tractie aldaar van.
+[single] breete van 1½ Druw.
+[single] presse ordre uijt het Vaderland, weijnig
+[single] zal konnen voldoen; mits de aanhoudende,
+[single] en alles verdestrueerende troublen, soo kan
+[single] ligt gereekend werden, dat de scheepen dit
+[single] Iaar met seer geringe retouren staan te
+[single] retourneeren, sonder dat daarom ons eenz:
+[single] ge nalatigheijd kan werden ten lasten ge¬
+[single] legt.
+[single] Te Saggernaijkpoeram, staat het 'er
+[single] even soo mede, omtrent de 150. stux Guinees
+[single] oude zoort voor het Vaderland g'eijscht. pro patria.
+[single] maar de Indiase petitie is aangenomen gedane acceptatie van
+[single] tegens voorige prijsen, vide Mazulipat:
+[single] namse aankomende brieven, van 12. 30.
+[single] November, en 19. December, en afgaande
+[single] na derwaarts van 15. xber:, en 18. Januarij
+[single] mitsgaders onse resolutien van eerst gem:
+[single] Datum, en 12. ' Ianuarij; dog den in zaam
+[single] gaat seer traag, schijnende de Cooplieden
+[single] van weijnig vermogen; alsoo den tweede
+[single] van de Casteele swaarigheijd gemaakt heeft
+[single] voor haar schuld; waar over elucitatie ge=
+[single] vordert is, onder ernstige reproche dat
+[single] zulx niet teffens (gemeld zij. 13. pakken het guineer gebl: ter
+[single] Guinees gebleekt, zijn er 1½, 2. â 3.
+[single] duijm
+[single] 23
+== NL-HaNA_1.04.02_2538_0058 | #58 | sides: single | lines: 33
+[single] Van Cormandel Den 2. febr: 1741.
+[single] ordres.
+[single] neminge en taxatie van
+[single] korte Lijwaten.
+[single] gens het seggen van
+[single] eijssch te konnen voldoen.
+[single] duijm smalder als 1½ @. bevonden; dat
+[single] niet minder wesen kan als de opperhoof=
+[single] „den ze ruw 1½ @ lieten meeten, gelijk seer
+[single] daartegens gestelde oneijgen gecontracteert hebben, des daarop
+[single] ook ordre gestelt is, en om 1½ @ gebleekt
+[single] te hebben, 1 3/8. ruw doen bedingen: dog de
+[single] kooplieden sullen aan het quaade gewend,
+[single] niet heel gemakkelijk dese bepalinge vol:
+[single] doen, waarvan egter niet mag afgestapt
+[single] als mede nopens de aan werden. zie hier over, en over de aan:
+[single] neeminge, en taxatie van Korter, Lij„
+[single] waten, daar de Cooplieden ook veel te„
+[single] gen hebben, onse resolutie van 12. Ian:
+[single] Mazulipatnamse aankomende brief
+[single] van den 19. December, en afgaande na
+[single] derwaarts van den 18. Ianuarij.
+[single] mitsg.:s na palicol t Die van Palicol seggen sulke kleeden
+[single] geane doeken na den niet te konnen voldoen, en wij daar en=
+[single] tegen dat D' E: Comp. t niet anders be=
+[single] geerd, als het geene voorleeden Jaar,
+[single] en bevorens volgens Contracten heeft
+[single] moeten voldaan werden: en dat wij dat
+[single] zullen blijven verwagten: Vide Masu„
+[single] lipatnamse brieven van 12. en 18.
+[single] yber, afgaande na derw. t van 15. xber:
+[single] en
+[single] Heee
+== NL-HaNA_1.04.02_2538_0059 | #59 | sides: single | lines: 31
+[single] Van Cormandel den 2. febri 1741. —
+[single] masul:s Coopl. van het
+[single] hen toegedeelde tegens
+[single] prijsen te pall=e. gecon„
+[single] en 18. Ianuarij mitsgaders besluijten van even=
+[single] gemelde 15. xber: en 12. Ianuarij.
+[single] Het Mazulipatnams aandeel, is aldaar gedane Contracatie der„
+[single] mede na de prijsen van A. o pass=o gecontract de p„r poijser
+[single] =teert; vide resolutie van 15. xber:
+[single] Het geschrijf van de verdere Noordse Comp
+[single] toiren, tegens de begeerde deugt, lengte,
+[single] en breete, is seer verveelende te lesen, en
+[single] souden ook dese te veel verlengen, in een
+[single] tijd, die door veele fataliteijten en besig:
+[single] heeden, bekrompen genoeg omkomt, des
+[single] wij hoopen U hoog Edelens het ons niet
+[single] quaalijk sullen gelieven te nemen, dat wij
+[single] soo in desen, als sommige andere wijd lopi:
+[single] ge zaaken, wat kort zijn, en ons aan de
+[single] Bijlaagen ten deele gedraagen.
+[single] De weijnige Lijwaten Palliacatta ter hoedanigen tegens wal
+[single] besorginge opgedragen, zijn aldaar aan tracteert.
+[single] genomen tegen voor Jaarige prijsen, uijt
+[single] gesondert een Staal Gingam, waarna
+[single] om het meerder rood, het paar ½ p a/o. hoger
+[single] zal komen te staan: vide Cormandelse
+[single] resolutie van 28. xbr: maar de gestreep„
+[single] te Gingam in steede van 16. Cob. t, nu be
+[single] geert
+[single] ellen
+[single] 25
+== NL-HaNA_1.04.02_2538_0060 | #60 | sides: single | lines: 34
+[single] Van Cormandel Den 2. febr: 1741.
+[single] ordres.
+[single] neminge en taxatie van
+[single] korte Lijwaten.
+[single] gens het seggen van
+[single] eijssch te konnen voldoen
+[single] duijm smalder als 1½ @. bevonden; dat
+[single] niet minder wesen kan als de opperhoof=
+[single] „den ze ruw 1½ @ lieten meeten, gelijk seer
+[single] daartegens gestelde oneijgen gecontracteert hebben, des daarop
+[single] ook ordre gestelt is, en om 1½ @ gebleekt
+[single] te hebben, 1 3/8. ruw doen bedingen: dog de
+[single] kooplieden sullen aan het quaade gewend,
+[single] niet heel gemakkelijk dese bepalinge vol:
+[single] doen, waarvan egter niet mag afgestapt
+[single] als mede nopens de aan werden. zie hier over, en over de aan:
+[single] neeminge, en taxatie van Korter, Lij„
+[single] waten, daar de Cooplieden ook veel te„
+[single] gen hebben, onse resolutie van 12. Jan:
+[single] Mazulipatnamse aankomende brief
+[single] van den 19. December, en afgaande na
+[single] derwaarts van den 18. Ianuarij.
+[single] mitsg.:s na palicos t ie van Palicol seggen sulke kleeden
+[single] geane doeken na den niet te konnen voldoen, en wij daar en=
+[single] tegen dat D' E: Comp. t niet anders be=
+[single] geerd, als het geene voorleeden Jaar,
+[single] en bevorens volgens Contracten heeft
+[single] moeten voldaan werden: en dat wij dat
+[single] zullen blijven verwagten: Vide Masu„
+[single] lipatnamse brieven van 12. en 18.
+[single] 9ber, afgaande na derw. t van 15. xber:
+[single] en
+[single] Heel
+[single] d
+== NL-HaNA_1.04.02_2538_0061 | #61 | sides: single | lines: 31
+[single] Van Cormandel den 2. febr. 1741. —
+[single] masuls Coopl. van het
+[single] hen toegedeelde tegens
+[single] prijsen te pall=e. gecon„
+[single] en 18. Ianuarij mitsgaders besluijten van even=
+[single] gemelde 15. xber: en 12. Ianuarij.
+[single] Het Mazulipatnams aandeel, is aldaar gedane Contractatie der„
+[single] mede na de prijsen van A. o pass=o gecontrace de p=r peijser.
+[single] =teert; vide resolutie van 15. xber:
+[single] Het geschrijf van de verdere Noordse Comp
+[single] toiren, tegens de begeerde deugt, lengte,
+[single] en breete, is seer verveelende te lesen, en
+[single] souden ook dese te veel verlengen, in een
+[single] tijd, die door veele fataliteijten en besig:
+[single] heeden, bekrompen genoeg omkomt, des
+[single] wij hoopen U hoog Edelens het ons niet
+[single] quaalijk sullen gelieven te nemen, dat wij
+[single] soo in desen, als sommige andere wijd Copi:
+[single] ge zaaken, wat kort zijn, en ons aan de
+[single] Bijlaagen ten deele gedraagen.
+[single] De welijnige Lijwaten Palliacatta ter hoedanigen tegens was
+[single] besorginge opgedragen, zijn aldaar aan tracteert.
+[single] genomen tegen voor Jaarige prijsen, uijt
+[single] gesondert een Staal Gingam, waarna
+[single] om het meerder rood, het paar ½ p a/o. hoger
+[single] zal komen te staan: vide Cormandelse
+[single] resolutie van 28. xbr: maar de gestreep„
+[single] te Gingam in steede van 16. Cob. t, nu be
+[single] geert
+[single] ellen
+[single] 25
+== NL-HaNA_1.04.02_2538_0062 | #62 | sides: single | lines: 43
+[single] Cormandel Den 2. febr: 1741.
+[single] Jan
+[single] sie der Coopl. van 10. p:r C:t
+[single] opgeld.
+[single] hoofden daarop toege:
+[single] staan.
+[single] betuijgde onmogelijksh: Van
+[single] van Sadraspat=ns ter
+[single] besorginge der der w t
+[single] opgegeve Lijwaten.
+[single] op
+[single] ordre daarop bij renova.
+[single] tie voorgehouden, en
+[single] gelast haar best te
+[single] doen.
+[single] aan de gang brengen van
+[single] den Lijwat handel te por„
+[single] =geert zijnde van 18. d=os zijn na rato
+[single] der lengte in prijs vermeerdert, dog
+[single] zedert gemaakte meten zedert komen ze bij brieve van Januarij
+[single] aan met een pretensie der Cooplieden,
+[single] hoeveel door de opper. om 10. p. r C=to opgeld te genieten; en hebben
+[single] al ongequalificeert 5. p.r C=to toegestaan
+[single] en dusdanig ook de Contracten. geslooten
+[single] Sadraspatnam schrijven
+[single] de bediendens, dat mits de Continueele
+[single] troubelen, nog niets ter Contractatie
+[single] konden aanvangen; dog dat het een be:
+[single] kende absolute onmogelijkheijt waare,
+[single] de gevorderde quantiteijd van 1481. pak:
+[single] Lijwaten, in lang na, aldaar te besorgen.
+[single] daaronder het gebleekt Guinees alleen
+[single] 1000. en d. o Salempoeris 125. packen
+[single] deselve de Vaderlandje dan de wijle de Vaderlandse ordre strict
+[single] Dicteerd van het gebrek op de eene plaats
+[single] van geen ander Comptoir te suppleeren
+[single] soo hebben wij haar dat nader voorge:
+[single] houden, en geordonneert, haar best te
+[single] doen.
+[single] gedagten dat het wael Dat den handel soo in als verkoop te
+[single] 1ors tidsel uijsen orton0vo sedert den roof stil staat.
+[single] en
+== NL-HaNA_1.04.02_2538_0063 | #63 | sides: single | lines: 32
+[single] 27
+[single] Van Cormandel Den 2. febr: 1741.
+[single] P Covelangse payoden met
+[single] en waarom.
+[single] Nagapat: Coopl: over
+[single] voor Ao. 1741 aangespro¬
+[single] en het eerste tijd zal vereijsschen om we=
+[single] der aan de gang te geraaken; behoeft niet
+[single] in het breede beschreeven; alsoo dat nood
+[single] zakelijke droevige gevolgen derselve
+[single] zijn; maar aan de gang raakende, sal
+[single] men de Covelangse pa/o. met 5. p:r C=to bij aan de gangrakinge.
+[single] opgeld laaten verstreken, om de Koop: 5. prC=t opgeld te verstreken,
+[single] lieden niet de veel verlies, op die verslegte
+[single] geld specien te laaten draagen.
+[single] De Nagapatnamse portien, tijdig ingebragte klagten der
+[single] in het na Jaar de Kooplieden opgegeven, de Contractie de Lijwaten
+[single] hebben ze onder allerhande pretexten ken
+[single] gedraald, sig positief te verklaaren
+[single] hoewel geduurig met klagten over haar
+[single] verlies voor den dag quaamen tot den
+[single] 7. December, wanneer men haarlieden
+[single] in raade doende Compareeren, positief
+[single] aan zeijde de Contracten te moeten sluijten
+[single] tegens voorige prijsen: of dat den handel
+[single] met anderse zoude moeten drijven. daarop
+[single] veele klagten van scherp zorteeren, en
+[single] dat geen beter Lijwaten te krijgen waaren,
+[single] &:a vide dito resolutie inbrengende, hebben
+[single] de Kooplieden Padasiwa en Wassanda.
+[single] zig
+[single] een
+== NL-HaNA_1.04.02_2538_0064 | #64 | sides: single | lines: 30
+[single] Cleeen
+[single] Van Cormandel den 2. febr: 1741..
+[single] de Cooplieden de betaan
+[single] de Comptoiren der uijt
+[single] het Vaderland ontvangen
+[single] zig eijndelijk verklaard te willen uijtscheij„
+[single] den, maar den derde soeba Chittij genegen
+[single] daarop de eerste ontslgen te wesen tot Continuatie; zijnde de
+[single] eerste dan ontslaagen, en in desselfs plaats
+[single] geneegen eenen Moetambalawana
+[single] Moddeliaar a. o 1734. om affaires van
+[single] nasleep te lande, die tijd als Comps.
+[single] Coopman afgegaan: maar de Contractie
+[single] blijft met beijde die Cooplieden uijt gesteld,
+[single] dewijle er tog niets van belang intesame:
+[single] =len is; gelijk dat faciel te begrijpen zij
+[single] bij lesinge van deese, speciaal het gesr:
+[single] onder den titul der Marattijs, die allen
+[single] handel en wandel doen stilstaan; en waarin
+[single] geen verandering te voorsien zij, soo lang
+[single] niet weder ver van hier afwijken; als wan„
+[single] neer aanstonds alle kragten sullen in=
+[single] spannen, om soo veel Lijwaten te be=
+[single] waaruijt der gedimitteers orgen, als mogelijk zal zijn: sullende
+[single] aan de E: Comp: te veffenen de afgetreede Cooplieden, hun Debet
+[single] vereffenen met de Lijwaaten die in voor:
+[single] raad hebben leggen
+[single] gedane zendinge n De staalen van het Guinees uijt het
+[single] Raeden van hee guiteer aderland bekomen, zijn na de Comp:
+[single] toiren.
+== NL-HaNA_1.04.02_2538_0065 | #65 | sides: single | lines: 37
+[single] Van Cormandel Den 2. febr: 1741.
+[single] Laggernaijk poerams.
+[single] nevens gem: belastinge
+[single] als mede van het Porto:
+[single] novos Opperhoofd ver„
+[single] gem: belastinge vrij
+[single] r
+[single] „toiren gesonden, onder de nodige bestraf„
+[single] =finge en vermaninge, en sal men hier
+[single] na het geordonneerde desweegen letten,
+[single] zoo het behoord.
+[single] Het Iaggernaijk poeramse opperhooft enbidig versok van het
+[single] Vrijmoet, door onse ordre belast zijnde opperhoofd om van de
+[single] voor ƒ 9298: 12:4. dat aan het deel der ontheff.
+[single] belastinge van derselvs overleede tweede
+[single] van alst, na het aanslaan zijner boe=
+[single] del groot ƒ 3179. 10. –. is komen te man:
+[single] =queeren, versoekt U hoog Edelens smee=
+[single] kende uijt insigt zijner Armoedigen
+[single] P
+[single] staat, waar in door een swaare belasting
+[single] van ƒ 14508: 10: 8. voor zijn aandeel ge:
+[single] bragt is, hem hoog gunstiglijk van voor:
+[single] melde bedraagen te willen doen ontheffen:
+[single] en heeft het Portonovos Opperhooft
+[single] Vermont ons mede een request aange mond om van de nevens
+[single] booden, geinsereert, ter resolutie van verproken te mogen
+[single] 19. Ianuarij ten eijnde door u hoog
+[single] Edelens goedheijd mogte werden vrijge:
+[single] sprooken van de lastinge groot ƒ4132:1. 3.
+[single] hem als Bimilipatnams tweede te
+[single] beurt gevallen; met de reden daarbij ver„
+[single] meld.
+[single] lle
+[single] O
+[single] 29
+[single] Te
+== NL-HaNA_1.04.02_2538_0066 | #66 | sides: single | lines: 39
+[single] ee
+[single] Van Cormandel Den 2. febr: 1741.
+[single] van den verthier van
+[single] ter Custe.
+[single] maanden daarop.
+[single] en om wat reden. meld: principaal bestaande in het toe=
+[single] brengen van ongemeene winsten bij sijn
+[single] aanwesen aldaar, en de verknogtheijd
+[single] van in - en ver-koop ten dien Comptoire
+[single] welke versoeken eerbiedig U hoog Edelens
+[single] gunstige gedagten aanbeveelen, nevens
+[single] de diesweegen bij ons gedaane ter brieve
+[single] van 2. November.
+[single] Verthier van Coopmanschappen
+[single] gesegenden voortgang Niet Jegenstaande alle de fataliteijten,
+[single] coopmans: nothans ten welke men thans te deser Custe, be=
+[single] leeft, gaat egter den
+[single] handel van uijt„
+[single] „lagje
+[single] Koop, bij het minste „ dat men ontmoet
+[single] het gewonnene in drie hier of daar nog al gesegend: sulx weder in
+[single] de gepasseerde maanden van dit boekJaar ge=
+[single] wonnen. Zij als
+[single] Te Nagapatnam van September tot Novembr incC: - ƒ 86834. —. —
+[single] „ Portonovo - „ _=o
+[single] „ _-o - - - „ 5815: 6: 8.
+[single] „ Sadraspatnam „ _„o „ _. o - - - „ 265844: 3: 8.
+[single] „ Palliacatta „ _:o
+[single] „ _„o - - „ 21802:15: —
+[single] _o
+[single] „ Masulipat=n „ _. o
+[single] „ _:o. „ 44815: 14:—
+[single] „ Iaggernaij Kpoeram in Novembr: - - - - „ 18354: 6: —.
+[single] „ Bimilipatnam van 7br: tot 9ber:
+[single] „
+[single] 1:11:8
+[single] Somma ƒ443467:16: 8.
+[single] maar
+[single] :
+== NL-HaNA_1.04.02_2538_0067 | #67 | sides: single | lines: 30
+[single] Van Cormandel Den 2. ' febr: 1741.
+[single] gelden voor de Coop:l
+[single] dende mits dier succes.
+[single] :maar mits de gelden voor de Coopmansz: ont: groote swarijheid of de
+[single] fangen, van tijd tot tijd slegter werden, alsoo de mansz: ontvangen wer„
+[single] fijne wisselaars de beste pa/o. steets uijt Kippen, sive verslegteringe.
+[single] en het sonne ligt onttrecken, of in iets anders
+[single] Converteeren; soo baard dat een groote swaa=
+[single] righeijt, sonder dat wij daarin egter geheel kon„
+[single] nen voorsien, want klimt men met de batto der
+[single] pagoden te excersief, soo moet nood zakelijk
+[single] den handel /:die de EComp. e te veel waard is,
+[single] dan dat men op een geringheid soude sien:/
+[single] stilstaan, en overgaan tot andere Europese
+[single] of Indische negotianten: en steld men se
+[single] te laag, soo sal 'er in het eijnde bij uijtga:
+[single] „ve dier spetie een lastpost voor d' EComp. e
+[single] Komen: om nu die Juijste middelmaat te
+[single] ramen in zaaken soo onseeker en verander„
+[single] lijk, is van een mensch, met geen reden te consideratien daardie
+[single] begeeren. Want deselve soort van pagoden
+[single] die men heden beproeft, en na die beproeving
+[single] aanneemt met soo veel p:r C=tos zijn over
+[single] een Maand â twee, sonder dat men het
+[single] merkt, of sulx celatteert, weeder van minder
+[single] alloij; behalven dat de wisselaars op de Comp:
+[single] „toiren in alle die verwarringen der geld
+[single] specien
+[single] G
+[single] 31
+== NL-HaNA_1.04.02_2538_0068 | #68 | sides: single | lines: 31
+[single] Heeer
+[single] Van Cormandel Den 2. febr: 1741.
+[single] a:o pass=o algesteld op 5.
+[single] p:r C:o opgeld.
+[single] Specien bevonden werden niet altoos seeker
+[single] te gaan; dus schoon wij V Hoog Edelens
+[single] ordre hebben gehad ten ontvang der Cove=
+[single] „langse pagoden en dat deselve specie
+[single] de gangbaare is door het geheele land in
+[single] deselve munt daarom het zuijden, egter sulx niet altoos hebben
+[single] durven doen standgrijpen, om d' E Comp. e
+[single] e
+[single] met die specie niet te seer tevverlaaden,
+[single] maar al a. o pass=o 5. p:r C=to opgeld gesteld
+[single] en sedert op 10. p:r C=o en nu bij resolutie van 7.:' December
+[single] dat gebragt tot 10. p:r C=to, om dat men sag
+[single] de voorschreeve versolimmeringe toenam,
+[single] alle het welke geschikt zijnde na een
+[single] mediocre bereekening, der bevinding, alles
+[single] is, wat wij doen konnen, schoon wij wel
+[single] weeten daarin niet wiskonstig te konnen
+[single] handelen; om dat men de bedroefde tijden
+[single] beleeft, dat de geld specien, al soo veel ver=
+[single] andering als het land, en de regeering
+[single] onderworpen; en een confusie veroor=
+[single] saakt, die groot is; en bij ons niet kan
+[single] gestut werden; hoewel als een middel daar
+[single] tegen ook nog bij brieve van 13. xber;
+[single] en 18. Ianuarij na de Comptoiren gelast.
+[single] hebben
+[single] C
+== NL-HaNA_1.04.02_2538_0069 | #69 | sides: single | lines: 35
+[single] 33
+[single] Van Cormandel onder Dato 2. febr: 1741.
+[single] „cepto te Masr. na al„
+[single] steld op 3¼. p. p=r p a/o,
+[single] stilstand van den vertier
+[single] van Coopmonsz: daarom
+[single] rendementen van rosen.
+[single] hout.
+[single] hebben, bij aanbreng van ropias, 340. voor
+[single] 100. p a/o. te ontfangen: maar hier van sien dog sonder gevolg, ef„
+[single] nog geen gevolg als alleen te Masulipat en schijn.
+[single] nam, daar sulx na het versoek dier mi=
+[single] =nisters schijnt te sullen plaats hebben,
+[single] bij gebrek van pagoden. En te Bimili=
+[single] „patnam bevoorens gelicentieerd zijnde na
+[single] het versoek der Cooplieden 3 1/8. ropij per
+[single] pagod te tellen, om soo weder voor de Lijwa=
+[single] ten te ontvangen, heeft men nu, om dat deselve na der hand ge:
+[single] den verkoop den inkoop overtrof, sulx moe: en waarom
+[single] ten doen cesseeren, en bij besluijt van 15.
+[single] December 3¼. gesteld, om ook soo weder van
+[single] voor Lijwaten te ontfangen; op dat de E:
+[single] Comp. t bij het slot, geen groote schaade
+[single] lijde; hebbende het niet hooger konnen
+[single] neemen, alsoo de Cooplieden selvs daar
+[single] veel tegen hadden, soo dat in 3. maanden
+[single] niets verhandelt is.
+[single] Nog gaan hiernevens twee apparte ren=versellinge van twee„
+[single] dementen van sadraspatnam en Porto: water, en seegt sandel:
+[single] „novo van rosenwater, en slegt Zandelhout
+[single] winnende ƒ 19: 2: —.
+[single] Ladinge. De lange peper lading
+[single] Ao.
+[single] 2
+[single] aldaar
+== NL-HaNA_1.04.02_2538_0070 | #70 | sides: single | lines: 40
+[single] lle
+[single] Van Cormandel Den 2. febr:
+[single] 1741.
+[single] uijt Bengale gesondene
+[single] lange peper p. r inlands
+[single] vaartuijg.
+[single] bedorgene vrugt nog
+[single] werd gepretendeert.
+[single] wijse aan de Matz: be„
+[single] diendens overgelaten.
+[single] volle en vermitste 14. pack:
+[single] Lij waten gelast op het
+[single] Comptoir Generaal af te
+[single] schrijven -
+[single] ontvangst den in a:o pars=o A. o pass=o uijt Bengale herwaarts ge=
+[single] zonden, is eijndelijk in October te
+[single] Masulipatnam overgebragt en vervolgens
+[single] hoeveel daarvoor boven de hier werdende voor vragt voor het afschee
+[single] pen tusschen. Bengale, en Majuli=
+[single] „patnam nog 272. ropias gepretendeert,
+[single] vide Masulipatnamse brief van
+[single] dier voldoening na sland 20. October; dat men sig na 's lands
+[single] wijse sal moeten getroosten, en aan de
+[single] Masulipatnamse bedientens gelaten is,
+[single] bij besluijt van 12. Ianuarij.
+[single] de te Bimilip:t in zeegs: dij het afscheepen van packen in het
+[single] schip Nieuwstad te Bimilipatnam,
+[single] is volgens Masulipatnamse schrij„
+[single] vens van 12. November een Chaling of
+[single] Massul omgeslagen, en zijn 14. van de
+[single] 22. packen Guinees gemeen gebleekt
+[single] door de zwaare afwatering weg geraakt,
+[single] het welk den 12. Januarij
+[single] op het tapijt
+[single] Komende, en geen schuld bij imand Kon¬
+[single] nende vinden maar als een ongeval der
+[single] zee aante merken zijnde, heeft men die
+[single] onder hoope van U hoog Edelens in
+[single] schickinge laten afschrijven op het
+[single] Generaal.
+== NL-HaNA_1.04.02_2538_0071 | #71 | sides: single | lines: 40
+[single] Van Cormandel onden 2. febr: 1741.
+[single] b'eedigde verklaaring.
+[single] masr: ter spoedigen de„
+[single] voortaan.
+[single] gevaar te bimilip=n.
+[single] sen der scheepen der bimi„
+[single] 1 ingekreege berigt van
+[single] gedaane verantwoording
+[single] der Bengaalse ladinge
+[single] der eenige excessive
+[single] minderheeden.
+[single] generaal, na het passeeren van een b' na het passeeren eener
+[single] eedigde verklaaring der roeijers, ter be=
+[single] vesting van dat verlies.
+[single] Het voormelde schip Nieuwstad al wat gedaane vermaringe na„
+[single] lang te Mazulipatnam aangehouden peche van het noordschip
+[single] hoewel het aan de reegen wierd toegeschree„
+[single] ven, heeft men die ministers ernstig ver=
+[single] mand, in den aanstaande alle voortvaarent:
+[single] heijd te verdubbelen tot voorkominge van
+[single] het gevaar te Bimilipatnam in het tot voorkominge van het
+[single] jaar te vreesen: maar dewijl verneemen dat
+[single] het zelve grootelijx vermeerdert door het vost te bepalene legplaat
+[single] qualijk leggen der scheepen ter rheede, lipramse rheede na
+[single] soo sal men de leg plaats voor den aan: de gronden aldaar.
+[single] staande, na ingekreegen nader berigt, vast
+[single] bepalen; alsoo vermeend werd dat 'er soo
+[single] wel goede, als vuijle grond is, en dat de
+[single] Noord zijde de beste is; te meer ondat de
+[single] stormen in dien tijd, uijt dien hoek ord=r
+[single] Komen. —
+[single] Brenger deses het schip 'T huijs te spijk
+[single] heeft zijne Bengaalse lading voor
+[single] dese plaats verantwoord, buijten eenige van brenger deses, son„
+[single] Excessive minderheeden.
+[single] In.
+[single] Heef
+[single] 3
+[single] 35
+[single] 35
+== NL-HaNA_1.04.02_2538_0072 | #72 | sides: single | lines: 31
+[single] Van Cormandel Den 2. febr: 1741.
+[single] over de memorien Ider
+[single] minderheeden van Noor=
+[single] der Cormandel en Nagap:n
+[single] gedisponeert.
+[single] van uijt gegeve ropeijn
+[single] te bimilip:
+[single] In en af-schrijvingen over
+[single] en Onder-wigten
+[single] wanneer en hoedagig De memorie van Onderwigten van
+[single] Noorder Cormandel d' ult=o augustus
+[single] 1740. is den 7. December gepasseert; excep„
+[single] =to 4 7/18. p:r C=to op hoep ijser, 22. op 100. lb
+[single] dadels, en 22. op 100 lb kruijt bij overvoer
+[single] na derwaarts; item 3 1/16. p:r C=to op alluijn
+[single] van Masulipatnam. na Bimili=
+[single] patnam gesonden, waar van 2. p:r C=to
+[single] ijser en alluijn; 10. p:r C=to dadels zijn ge=
+[single] valideert, en de rest vergoed: wijders heeft
+[single] men den 24. Ianuarij geresumeert de
+[single] Nagapatnamse Memorie van Onderwig=
+[single] =ten van den selven tijd, en daarbij niets
+[single] reprochabels gevonden.
+[single] Munts Rendementen
+[single] overgaande rendementen gaan 'er 2. stux over van Bimilipat:
+[single] nam; van 10b0 Palliacatse ropias, tot
+[single] het doen, van ongelden uijt gegeven, win=
+[single] nende 27 1/16. p. r C=to of ƒ 409:4:—
+[single] Inkomsten. Nademaal in het heffen
+[single] der
+== NL-HaNA_1.04.02_2538_0073 | #73 | sides: single | lines: 32
+[single] Van Cormandel Den 2. febr: 1741.
+[single] ingeslope mis bruijken
+[single] in het heffen der thollen
+[single] ensz: in de stad Nagapat=n
+[single] „ge eener nieuwe genet
+[single] rale tollijste.
+[single] tholl van handels whaaren
+[single] der tollen in de stad Nagapatnam
+[single] van Goederen uijt het land inkomende, en
+[single] derwaarts uijtgaande, item de geregtigheeden
+[single] voor Pagoden of tempels & a door verloop
+[single] van tijd in verval geraakt is, sulx bij na
+[single] niets met de oude thol lijste accordeerde,
+[single] mitsgaders dat de thol der Goederen ter
+[single] zee aankomende, soo hoog beswaard waa„
+[single] „ren, dat den handel op die wijse nooijt van
+[single] Naoer hierwaarts konde werden overge„
+[single] lokt; als daar voor de bevoorregte Cooplie„
+[single] den geen 1. p. r C=to bedragende; daar 'er hier
+[single] goederen waaren 28. p:r C=to gevende: soo is
+[single] om die en andere goede redenen, na de voor daarom beslotene makin„
+[single] beelden van A. o 1702. en 1703. ten opsigte
+[single] van sommige, nu besloten in het generaal
+[single] en nieuwe thol lijste te maken, en stand
+[single] te doen grijpen, gerigt na de presente ge=
+[single] woonte voorde nooddrusten des Lands,
+[single] maar nopens de handelwaaren sodanig ge=
+[single] mittigeert, als daarbij blijkt; mitsgaders
+[single] in het Dorp Wellepalium mede deselve en te doene heffinge der
+[single] thol op de handelwhaaren te heffen, en selve in wellipalium.
+[single] daarselvs te laten in vorderen, breeder
+[single] te
+== NL-HaNA_1.04.02_2538_0074 | #74 | sides: single | lines: 32
+[single] Van Cormandel Den 2. febri: 1741.
+[single] „gatie boeken, thans niet
+[single] e
+[single] Trinquenemaalse opper„
+[single] hoofden.
+[single] selve vaatjes van Colombo
+[single] versogt.
+[single] Ceijlonsen eijsch van granen
+[single] de nevens gem: prijs.
+[single] te sien bij resolutie van 7. December.
+[single] waarom de geleater ne e gesloote Negotie Boeken.
+[single] afgesonden konnen werden, onder Ult=o augustus laastleeden, staan
+[single] per naasten te volgen, om reden dat de
+[single] selve, mits de pennisten in het geweir
+[single] getrocken zijn, nog niet in gereedheijt
+[single] hebben konnen werden gebragt; en dat
+[single] behalven dien, de boeken van de onder:
+[single] hoorige Comptoiren ons nog niet zijn
+[single] geworden.
+[single] Buijten quartieren.
+[single] versogt bus kruijt door de De Trinquenemaalse bediendens ons
+[single] bij brieve van 25. gber: versogt hebbende
+[single] om 30000. lb. buskruijs, dog sedert den
+[single] Eijsch gemitigeert tot 10'000. lb. , staan
+[single] wij hen die toe te senden, soo dra daar
+[single] ter versendinge van het toe Kruijtvaatjes van Ceijlon ontfan„
+[single] gen, alsoo door het gering ontzet van
+[single] duijgen dit Jaar niet in staat zijn,
+[single] die hier te verschaffen.
+[single] genomen besluijt on den En op den Eijsch van 2. à 300. lasten
+[single] hlf in woonse rjst voor rijs met veel aandrang van Ceijlon
+[single] gedaan.
+== NL-HaNA_1.04.02_2538_0075 | #75 | sides: single | lines: 31
+[single] 39
+[single] Van Cormandel onder Dato 2. febr: 1741.
+[single] „we granen te voldoen,
+[single] na Masr: ter verhelpinge
+[single] eeniger gebreeken aldaar,
+[single] van een nieuwe kruijt-
+[single] gedaan bij brieven van 8. October, en
+[single] 25. 9ber, heeft men hun, vide resolutie
+[single] van 19. December, beslooten te voorsien,
+[single] met 150. lasten Noordse rijs â 18 1/8. paro.
+[single] het last; om dat men niet versekert is
+[single] die prijs te sullen konnen bedingen, bij
+[single] inbeisting dier graanen alhier, in de aan:
+[single] staande maanden, als wanneer egter bij en de andere helfte innius„
+[single] tamelijke prijs de andere helft in nieuwe en waarom
+[single] graanen mede sullen versorgen.
+[single] Timmeragien, Ter bij een komste
+[single] van 12. Ianuarij heeft men toegestaan verleente qualificatie„
+[single] te Masulipatnam, Palicol, en Nav: te palicol en Nasapour.
+[single] sapoer eenige gebreeken te verhelpen
+[single] ter somma van ƒ 1484: 13: —. als mede soo mede der ophaalinge.
+[single] een nieuwe kruijt kelder te Masuli: kelder te masz:
+[single] patnam te mogen op haalen voor ƒ693: 7. —
+[single] om dat de voorige gescheurd en onnut waa=
+[single] „re; en het buijten dat niet te stellen is:
+[single] mitsgaders volgens opneem der defecten
+[single] te Nagapatnam doen vernieuwen de
+[single] brug des Casteels, en tet het hoofd tot den
+[single] afscheep, als niet langer kommende dienen
+[single] Item
+== NL-HaNA_1.04.02_2538_0076 | #76 | sides: single | lines: 40
+[single] Van Cormandel Den 2. febr. 1741.
+[single] negotie Comp t en de wagten
+[single] met arduijne steenen.
+[single] alhier zij van geen groot
+[single] belang.
+[single] deuren ter afsluijtinge
+[single] der Casteels punten
+[single] mitsgs van amonitie
+[single] Kisten en lootsen op de
+[single] punten.
+[single] reecq: van Saggernaijkp=m
+[single] en bevloeringe van lad Jtem het negotie Comptoir, en de wagten
+[single] laaten bevloeren, met arduijne steenen
+[single] de gebreeken buijten dier tot uijt winninge van geduurige reparatien.
+[single] 7.
+[single] zijnde de gebreeken buijten dien alle daar
+[single] bij te sien, van geen groot belang.
+[single] gelaste makinge van Ook heeft men als seer noodzaakelijk,
+[single] gelast 10. deuren te maken tot het af:
+[single] sluijten der Casteels punten ten kosten
+[single] van ƒ496:55:—. en ook 40. Ammonitie
+[single] Kisten voor ƒ 324: 12: 8. welk een en
+[single] ander hier nooijt in voorraad geweest
+[single] zijn gelijk meede 5. lootsen voor de pie„
+[single] ken bij beleegering, die maar een gering=
+[single] =heijt beloopen van ƒ142:14:—. en ook bij
+[single] gemelde resolutie vermeld zijn. maar het
+[single] ^der
+[single] verhoogen en bekleeden ^ borstweering en
+[single] op de batterijen, met steenen wierd uijtge=
+[single] steld tot U Hoog Edelens goedvinden;
+[single] het welk daar omtrent nedrig versoeken:
+[single] Zullende volgens de daar bij geinsereerde
+[single] Calcúlatie Kosten ƒ 4255: 14:—.
+[single] gepasseertde scherkengie Chenkagien. De schenkagie
+[single] van de laste en a e rekening van Paggernaijkpoeram
+[single] van
+== NL-HaNA_1.04.02_2538_0077 | #77 | sides: single | lines: 38
+[single] Van Cormandel Den 2. febr: 1741:
+[single] kleeden door den heer na
+[single] Carjangor aan den Gouverneur
+[single] en Masz: opperhoofden.
+[single] na Masz: om aan densel=
+[single] ven een Contra present
+[single] te doen.
+[single] versellinge der Zoldij-
+[single] boeken van zuijder -
+[single] Cormandel.
+[single] =bende gagie aan de Een
+[single] personen.
+[single] van de laaste ses maanden der voorlede
+[single] boekjaars, te laat gekomen, heeft den 7.
+[single] December gedient; en is als niet excedeeren=
+[single] :de gepasseert, bedragen ƒ 2363:1:8. in—
+[single] en. . . ƒ 3117: 74: 11. uijtkoopr.
+[single] Den Zoon en steedehouder van den Opper gedaane sendinge van eer„
+[single] onderkoning over de Zuijdelijke landen,
+[single] genaamt Nasarjangoe, door bezorging
+[single] van Iman Sahib, aan den Gouverneur en
+[single] de Masulipatnamse Opperhoofden
+[single] eerkleeden gesonden hebbende; heeft men
+[single] den 7. xber: doen inneemen met ƒ 36: —.
+[single] voor d' E Comp. e, en teffens geoordeelt niet verleente qualificatie
+[single] voorbij konnen, een Contra geschenk te
+[single] laten doen van omtrent 200. p a/o. waarde,
+[single] waartoe de Mazulipatnamse bediendens.
+[single] gequalificeert hebben.
+[single] De: Soldij
+[single] Bocken
+[single] -
+[single] van Zuijder Cormandel gaan thans
+[single] over, en zijn sedert onse laaste, vide reso.
+[single] lutien van 7. xber: en 12. Januarij, weder afbetaalde te goed heb.
+[single] aan in nieuw verband getreede personen, op nieuw verbondene
+[single] en een Nagapatnamer afbetaald
+[single] 41
+== NL-HaNA_1.04.02_2538_0078 | #78 | sides: single | lines: 30
+[single] Van Cormandel Den 2. febr: 1741.
+[single] der Coevolangse pagoden
+[single] nog van weijnig succes.
+[single] versendinge na bengale
+[single] ƒ 499:14:14
+[single] Voorraad van Contanten.
+[single] beslotene verweiselinge) in d' EComp. te niet verleegen te doen ra.
+[single] op tijd en waarom, dog ken met de Covelangse pagoden, zedert
+[single] eenige Iaaren in Cas merkelijk aange=
+[single] gtoeijt; heeft men ter Resolutie van
+[single] 7. xber: g'arresteert een verwisselinge
+[single] op tijd die egter nog van weijnig ge=
+[single] wenschen na ordre ter volg is: Wij wenschen haast occagie en
+[single] van silver en dier specie ordre te krijgen om Bengale met
+[single] Silver en d=o specie te Konnen voor=
+[single] sien: maar nadien onsen voorraad van
+[single] goud geld nog al toeneemt, en den bijna
+[single] stil staande Lijwaat handel, weijnig vor=
+[single] „dert, soo konnen al nog een goed deel
+[single] verwisselen; en aan die Directie over„
+[single] „doen: dan dewijle wij de Covelangse
+[single] pagoden voor de Lijwaten uijtgevende
+[single] met op geld, met de bevorens sonder op:
+[single] geld ontfangen pagoden blijven sitten.
+[single] en het selve egter redelijk vinden
+[single] zoo men den Lijwaathandel niet verder
+[single] wil stuijten, en benadeelen; zoo nemen
+[single] de
+[single] Ge
+== NL-HaNA_1.04.02_2538_0079 | #79 | sides: single | lines: 33
+[single] 43
+[single] en
+[single] Van Cormandel onder Dato 2. febr
+[single] reekeninge der na ben:
+[single] weijnige winst daarop.
+[single] 's Comp=s groote Cassa te
+[single] palliacatta bij het over„
+[single] voldaan.
+[single] de vrijheijd permissie te versoeken die te
+[single] mogen verwisselen in Ropias tot 325. het
+[single] hondert, als wanneer, de batto op 6. p:r C=to
+[single] gereekent, Bengale niet duurder sullen
+[single] komen te staan, als Ducatons, die van
+[single] Batavia tot 13. schellingen gesonden
+[single] werden
+[single] De 1000. ropias die na Bengale geson: te hoog gedaane aan
+[single] den zijn, waaren Palliacatse uijt 'sComp:s gale besondene 1000. Cop:
+[single] munt en sullen na het kostende van ons
+[single] Restant alhier van 239000. p.:s Komen
+[single] te staan op omtrent ƒ 1: 10: 8. zulx met
+[single] 6. p:r C=to batto, advanceert 4½ p:r C:to , zijn: en daardoor voorsaakte
+[single] :de de aanreekening na Bengale
+[single] abusive ƒ 38. te hoog; en daardoor
+[single] maar 2¼. advanceerende.
+[single] Na het overlijden van het Palliacats. te kort bevondene paij: in
+[single] Opperhooft van Lawick is de Cas de leijden van het opperhoofd
+[single] fect bevonden ter somma van 11397. p=r.
+[single] die de Cooplieden voor vooruijt genoote
+[single] Coopmanschappen bekenden schuldig te
+[single] wesen, en sedert voldaan zijn: maar zedert door de Coopl:
+[single] den fiscaal Mr. Libregt Hooreman
+[single] ter sittinge van 7. December verklaa„
+[single] rende
+== NL-HaNA_1.04.02_2538_0080 | #80 | sides: single | lines: 30
+[single] Van Cormandel Den 2. febr: 1741.
+[single] den ondercoopman brand
+[single] tot palliacats tweede
+[single] tot Masr: pakhuijs m:r
+[single] „de voor sadrasp=n soo de
+[single] Marattijs somtijde door
+[single] een inval mogten doen.
+[single] „de dierwegen den secunde De Lavigne
+[single] exofficio te moeten actioneren, den
+[single] selven ten dien Eijnde uijt zijn post geligt,
+[single] en herwaarts ontboden in arrest; dog
+[single] den 28. daar aan onder borgtogt van het
+[single] arrest ontslagen
+[single] gedane aanstellinge van Dienaaren De Palliacatse
+[single] tweedes plaats door het ontbod van de
+[single] Lavighe vacant geraakt, is den 7. xbr:
+[single] vervuld met den Onderkoopman Godlicb
+[single] een in desselvs plaatse Ernst Brand, en in dies steede tot
+[single] den ondercoopman Dublen Mazulipatnams Pakhuijs meester
+[single] aangesteld den onderCoopman Hendrik
+[single] Dubon.
+[single] Differente Zaken
+[single] bedugting in den aanstaen Onder den titul van Marattijs, U
+[single] hoog Edelens vertoond zijnde, het groot
+[single] gevaar dat men te sadraspatnam.
+[single] in de voorleede storm tijd of gesloote
+[single] vaart, heeft voor Oogen gehad: zo zijn
+[single] wij bedugt voor den aanstaanden tijd,
+[single] wanneer de Marattijs het Land dan
+[single] nog.
+== NL-HaNA_1.04.02_2538_0081 | #81 | sides: single | lines: 37
+[single] Van Cormandel Den 2. febr: 1741:
+[single] Compt. schardelijk
+[single] missie ter ophaalinge
+[single] van 2. punten aan de
+[single] militairen op deselve
+[single] en waarom.
+[single] Portonovo, bij de vreese
+[single] het huijs van Chodenda
+[single] dragen.
+[single] nog niet mogte geruijmt hebben; hoewel
+[single] zij buijten dat uijt hun eijgen land facil
+[single] konnen overkomen, en op nieuw in val doen,
+[single] soo lang de Mhoor niet beter op tegen weer
+[single] bedagt, of daar toe onvermogens is: en die dier verlaating voor d' E:
+[single] plaats te verlaaten konnen wij niet advisee=
+[single] dorp
+[single] ren, alsoo dan het van volk ontleedigt, en
+[single] zuine soude raaken, dat daar speciaal
+[single] schaadelijk is, als in pagt van d' EComp=e eerbiedig versoek om per„
+[single] zulx wij liever de Logie, aan de agterkant, voorzijde der logie aldaar.
+[single] twee punten hebbende, aan de voor zijde
+[single] van gelijken souden voorsien /: Kamers ge=
+[single] wijse om niet in het oog te steeken:/ en en stellinge van hondert
+[single] stellen 'er een hondert Militairen, &:a
+[single] dat wij denken genoeg afschrik baaren sal;
+[single] maar Portonovo denkt men te doen ruij= te doeneruijminge van
+[single] men; soo dra in de onvaarbaare tijd eenig onheijl.
+[single] onheijl te dugten is; versoekende hier
+[single] over met U hoog Edelens welbehaagen
+[single] te mogen werden gesterkt.
+[single] Eijndelijk is het huijs van den grooten gedane verkopinge van
+[single] Debiteur Chodenda verkogt, en daar voor voor nevens gemelde be„
+[single] ten goede van het generaal ingenoomen
+[single] rop 886½ vide Masulipatnamse
+[single] brief
+[single] Hee
+[single] 42
+== NL-HaNA_1.04.02_2538_0082 | #82 | sides: single | lines: 32
+[single] Van Cormandel Den 2 febr: 1741.
+[single] mond der rivier voor
+[single] par.
+[single] :te, onbevaar baar ge:
+[single] raak.
+[single] brief van 12. November, en onse resolu=
+[single] =tie van 12. Ianuarij.
+[single] op eenig van een hierdge n het eerst van de maand gber: heeft
+[single] het hoofd aan het water de zee voor dese stad door een sterke
+[single] aanrollinge uijt den Noord Oosten en
+[single] Opening in het strand tot in de revier
+[single] gemaakt, regt over het hooft aan het
+[single] waterpas: welke opening vervolgens die
+[single] =per geworden zijnde, thans dient tot de
+[single] uijtlootsing der Chaloupen, en in - en uijt=
+[single] vaart van salengen, zijnde bij gemeen
+[single] hoogwater diep 4. â 4¼. voeten; waar en
+[single] de oude d:o mits ondiep: tegen de oude mond voorbij de punt
+[single] Hollandia hoe langer hoe ondieper wer„
+[single] dende, wel haast ten eenemaal onbe=
+[single] vaarbaar zal zijn.
+[single] over gaande bijlagen. Voor het overige versellen deese nog
+[single] onder anderen.
+[single] Copia
+[single] brief door de Bimilipat:
+[single] namse Opperhoofden aan
+[single] u Hoog Edelens per het schip
+[single] Nieuwstad afgevaardigt in
+[single] dato 13. 8br: 1740.
+[single] Copia
+[single] egen
+[single] C
+== NL-HaNA_1.04.02_2538_0083 | #83 | sides: single | lines: 26
+[single] Van Cormandel Den 2. febr: 1741.
+[single] Copia Secreete brief door den Gou„
+[single] =verneur aan U hoog Edelens
+[single] over Ceijlon gerigt gedateert
+[single] 2. November der gem: Jaars.
+[single] Copia Generalen opneem van alle
+[single] 's Comp.:s gebouwen alhier, de
+[single] dato 12. Januarij 1741. en
+[single] Een verzeegelde brief van de Eerwaarde
+[single] Weesmeesteren alhier, aan de
+[single] Edele heeren Weesmeesteren
+[single] te Batavia geschreeven, ne:
+[single] vens een stel weeskamer boek:
+[single] jes.
+[single] Waarmeede wij U Hoog Edelens
+[single] g'eerde persoonen toewenschen des
+[single] Heeren Zeegen, brenger deses een be„
+[single] houde Reijs en met diep respect verblij„
+[single] ven. /:onderstond:/ Hoog Edele Agtb:
+[single] gebiedende heer, en Edele heeren
+[single] U Hoog Edelens onderdanige, en gehoor„
+[single] =samet Dienaaren. /:was geteekent:/
+[single] =s
+[single] f
+[single] egen
+[single] bs
+== NL-HaNA_1.04.02_2538_0084 | #84 | sides: single | lines: 27
+[single] Van Cormandel Den 2. febr: 1741.
+[single] Over Ceijlon.
+[single] J=b Mossel, B: v: Duijn, L:d
+[single] Hooreman; (:L: v: Drentelen
+[single] J:s Dormieux, Ian Martensz:
+[single] Louis Gravia en Am. Velge.
+[single] /:in Margine:/ Nagapatnam
+[single] in't Casteel den 2. febr: A. o 1741.
+[single] /:lager:/ S. S. Heden ontvangen
+[single] wij tijdinge van Palliacatta
+[single] dat den Ondercoopman en
+[single] fiscaal Willem Verwij op
+[single] ^ was
+[single] den 23. ' Ianuarij overleeden
+[single] Register van So=
+[single] danige brieven en
+[single] Papieren als op heeden
+[single] Aan zijn Hoog Edelheid
+[single] Den Hoog Edelen Heer
+[single] Adriaan Valckenier.
+[single] Gouverneur Generaal en
+[single] de Wel Edele Heeren Ra.
+[single] den van Nederlands
+[single] India tot Batavia
+[single] over
+== NL-HaNA_1.04.02_2538_0085 | #85 | sides: single | lines: 27
+[single] 49
+[single] Van Cormandel Den 2. November 1740
+[single] over Ceijlon werden afge„
+[single] vaerdigd door den Edelen
+[single] Agtbaren Heer Jacob
+[single] Mossel Gouverneur en
+[single] Directeur deser Custe
+[single] Cormandel met den
+[single] Resorte van dien, Nevens
+[single] den Raad tot Nagapat:
+[single] nam Namentlijk.
+[single] N:o 1. Origineele missive door welmelden
+[single] heer Gouverneur en raad
+[single] aan hoogedagte haar hoog
+[single] Edelhedens gerigt van he„
+[single] digen datum.
+[single] „ 2. _:o. Secreete brief door wel=
+[single] melden heer Gouverneur
+[single] apart, aan haar hoog Edel
+[single] hedens gerigt, gesloten
+[single] overgaande
+[single] „ 3. Copia Missive door meer gedagten
+[single] heer Gouverneur en raad.
+[single] aan de Edele hoog Agtb:
+[single] heeren Majores in
+[single] het
+[single] e
+== NL-HaNA_1.04.02_2538_0086 | #86 | sides: single | lines: 28
+[single] Van Cormandel Den 2. November 1740.
+[single] in het Vaderland gedecideert
+[single] annex het Register der bijlagen
+[single] daar bij zijden heden over Ceijlon
+[single] afgaande.
+[single] N:. 4. Copia briefje den 8. 8ber: Jongstl: van hier
+[single] p=r het schip Steenhoven aan
+[single] welmelde haar hoog Edelhedens
+[single] afgevairdigd Sampt het Register
+[single] der bijlagen daar nevens afge„
+[single] sonden.
+[single] „ 5. _:o Missive aan ut supra door de opper.
+[single] hoofden ten Comptoire Masu¬
+[single] lipatnam p=r het schip Nieuw=
+[single] stad afgesonden den 14. ' 7ber: lest.
+[single] leden, met het register der bij„
+[single] „ 6. d=o . briefje door den Politicquen Raad
+[single] ten Comptoire Palliacatta
+[single] den 8. ' Octobr: per het schip
+[single] Adrichem aan haar hoog
+[single] Edelhedens gecarteerd.
+[single] „ 7. _:o Resolutien genomen in rade von
+[single] Cormandel tot Nagapatnam.
+[single] Sedert den 9. September tot den
+[single] 2. deser.
+[single] No. 8.
+[single] i
+[single] lagen.
+== NL-HaNA_1.04.02_2538_0087 | #87 | sides: single | lines: 30
+[single] Van Cormandel Den 2. 9ber: 1740.
+[single] 9. _. o
+[single] „
+[single] N:o 8. Copia Resolutien genomen in rade
+[single] van Noorder Cormandel tot
+[single] Mazulipatnam sedert den
+[single] 20. Augs=s tot den 13. 7br: lestl:
+[single] brieven door de Mazulipat:
+[single] namse Opperhoofden na her=
+[single] waarts geschreven sedert den
+[single] 12. Augg: tot den 30. september
+[single] lestleden.
+[single] „ 10. _:o brieven van hier na Masulipat.
+[single] nam afgesonden, sedert den
+[single] 14. 7ber: tot den 21. October
+[single] J=o verstreken
+[single] „ 11. _:o _=o voor de Palliacattse Opper.
+[single] hoofden na herwaarts afge=
+[single] „vairdigd sedert den 30. aug=s
+[single] tot den 15. October lestleden.
+[single] „ 12. _. o _=o van hier na Palliacatta
+[single] geschreven sedert den 10.
+[single] Septemb:r tot den 21. 8br pass=o
+[single] „ 13: _:o _=o van de Sadraspatnamse
+[single] Opperhoofden na herwaarts
+[single] van den 31. Aug=o tot den 13.
+[single] 8ber: J=o leden.
+[single] No. 14.
+[single] llen
+[single] 51
+== NL-HaNA_1.04.02_2538_0088 | #88 | sides: single | lines: 28
+[single] Van Cormandel Den 2. 9ber: 1740.
+[single] „ 19. „
+[single] N. o 14. Copia brieven van hier na Sadraspat„
+[single] „nam afgevairdigd sedert den
+[single] 10. 7ber: tot den 8. Octob: pass„o
+[single] „ 15. _=o _=o van de Portonovose opper„
+[single] hoofden na herwaarts sedert
+[single] den 31. Aug=o tot den 24. 8ber
+[single] J=o leden.
+[single] „ 16. _=o _:o van hier na Portonovo
+[single] afgesonden sedert den 15. 7ber:
+[single] tot den 26. October pass=o
+[single] „ 17. Drie Copia briefkens van den Tegene pat„
+[single] namsen resident na herwaarts
+[single] de datis 5. 18. 7ber: en 16. 8ber:
+[single] J=o leden.
+[single] „ 18 Een Copia briefje van hier aan gemelden
+[single] Resident afgesonden den 8.
+[single] 8ber: pass=o.
+[single] Circubair briefje van hier
+[single] na de onderhorige suijder Comp:
+[single] =toiren en Masulipatnam
+[single] afgesonden den 9. September
+[single] lesleden.
+[single] „ 20. Copia brieven van hier na Colombo
+[single] Bengale, Mallabaar.
+[single] Jaffanap.
+[single] eeegen
+== NL-HaNA_1.04.02_2538_0089 | #89 | sides: single | lines: 28
+[single] en
+[single] Van Cormandel Den 2. 9ber: 1740.
+[single] Iaffanapatnam, Tutuco=
+[single] Crijn en Trinconomale
+[single] afgesonden zedert den 10.
+[single] September, tot den 6. 8ber:
+[single] pass=o.
+[single] N:o 21. Copia briefje van hier aan den Edelen
+[single] heer Hendrick Swellen.
+[single] =grebel. Gouverneur en den
+[single] raad aan Caab de Goede
+[single] Hoop geschreven op dato
+[single] „ 22. Copia acte boek van de ten desen
+[single] Gouvernemente gedaane
+[single] verbeteringen sedert den 16.
+[single] gber: des voorleden tot den
+[single] 16. 8ber: deses Iaars.
+[single] „ 23. _. o rapport bevindinge van de quan=
+[single] =ti- en qualiteit van het
+[single] alhier onder Ult=o aug=so
+[single] J=o leden in wesen bevonden
+[single] bier Kruijt.
+[single] „ 24. Copia Cartel of Contract gesloten met
+[single] den heer france Gouver„
+[single] =neur en Raad t Pondecherij
+[single] wegens
+[single] deses.
+== NL-HaNA_1.04.02_2538_0090 | #90 | sides: single | lines: 29
+[single] n
+[single] Van Cormandel Den 2. 9ber: 1740. —
+[single] wegens de wederzijdse overga¬
+[single] =ve van Deferteurs ensr: so in't
+[single] nederduijts als frans annex
+[single] de dierwegen met gem: heeren
+[single] francen gewisselde brieven
+[single] en alhier genome besluijten,
+[single] N:o 25. Copia notitie van sodanige particulie:
+[single] =re schepen en andere Vaarthuij„
+[single] „gen als geduurende het boek
+[single] =jaar 17 3/40. ten Comptoire
+[single] Portonovo. aangeweest zijn, met
+[single] aanwijsinge der aangebragte
+[single] en vervoerde Cupryer Coopmansz:
+[single] ensr:
+[single] „ 26. Copia dito der te Masulipatnam in den
+[single] voorsz:e tijd aangekomene en
+[single] vertrekkene particuliere
+[single] vaarthuijgen
+[single] „ 27. Negen stux requesten alle aan haar
+[single] hoog Edelhedens gedediceert als
+[single] 1. van den Oppercoopman en hoofd:
+[single] administrateur alhier D' E:
+[single] Balthasar van Duijn ten
+[single] derende versoek om ontslag
+[single] uijt
+[single] 1
+[single] 5.
+== NL-HaNA_1.04.02_2538_0091 | #91 | sides: single | lines: 27
+[single] Van Cormandel Den 2. 9ber: 1740.
+[single] uijt 's Comp. s dienst niets be
+[single] houdens qualiteit Gagie &a.
+[single] 1. van den Coopman en fiscaal
+[single] alhier M:r Libregt Hoore:
+[single] =man in houdende versoek om
+[single] bij vacature der hoofd adminis:
+[single] =tratie alhier in voorm: quali=
+[single] teit van Oppercoopman en
+[single] emploij te mogen succederen.
+[single] 1. Van den g'eligeerden Naga:
+[single] „patnams negotie boekhou=
+[single] der en eerste packhuijs M=r.
+[single] den ondercoopman Ioannes
+[single] Dormieux, om de approba=
+[single] =tie der voorm: aanstellinge
+[single] mitsg.:s de qualiteit en gagie
+[single] van Coopman
+[single] 2. van de ondercooplieden
+[single] Adriaan Vosmaar Cassier
+[single] en Pieter van Son, fac:
+[single] =tuur houder alhier om een
+[single] Coopmans bedieninge quali:
+[single] „feit en gagie.
+[single] 4. van de onder Cooplieden Wil:
+[single] „lem
+[single] Heeef
+== NL-HaNA_1.04.02_2538_0092 | #92 | sides: single | lines: 29
+[single] Van Cormandel Den 2. 9ber: 1740.
+[single] =lem Tobias Teekman, munt:
+[single] =meester Godlieb Ernst Brand
+[single] g'eligeerd Masulipatnams
+[single] packhuijsmeester Hendrik
+[single] Dubon en Petrus Mattheus
+[single] buijten emploij, om bij verschans„
+[single] singen eeniger bediendens hier
+[single] ter Custe, ten goede bedagt
+[single] mogen werden.
+[single] N=o 28. Twee voudigen formeelen eijsch van
+[single] goud, Coopmansz:, provisien
+[single] voor Cormandel en het aan
+[single] staande Jaare 1741.
+[single] Copia provisioneele beantwoorden
+[single] Vaderlandsen Eijsch van Lij=
+[single] waten voor den Jare 1741.
+[single] Copia b'antwoorde Vaderlandsen
+[single] Eijsch van Lijwaten voor A. o 1740.
+[single] annex vier opstellen tot
+[single] aanwijsinge der ingesamelde
+[single] versondene en overgebleeve
+[single] retouren.
+[single] „ 29. twee
+[single] „ 30. twee
+[single] „ 31. twee Origineele b'antwoorden India„
+[single] sen Eijsch van Lijwaten voor
+[single] ao. 1740.
+[single] No. 32.
+== NL-HaNA_1.04.02_2538_0093 | #93 | sides: single | lines: 30
+[single] Van Cormandel Den 2. 9br: 1740. —
+[single] n
+[single] No. 32. Drie en twintig stux maandelijxe
+[single] rendementen van vertier
+[single] der Coopmanschappen als. —
+[single] 3. Origineele van Nagapat=n
+[single] en de Maanden Junij, Iulij
+[single] en Augs=s lestleden.
+[single] 3. Copia van Palliacatta, en
+[single] de Maanden als boven.
+[single] 3. d:os van Sadraspatnam
+[single] ad idem.
+[single] 2. d=os van Portonovo en de
+[single] maanden Julij, en Aug=o
+[single] 4. d=o van Masulip. en de maan:
+[single] den Meij „ Junij, Iulij en
+[single] Aug o.
+[single] van Bimilipatnam
+[single] 4. „
+[single] en de Maanden als even.
+[single] van Jaggernaijk poe=
+[single] 4. „
+[single] ram ad idem.
+[single] 33. 't Zamentreckinge der verkogte
+[single] „
+[single] Coopmansz=r ensr: over geheel
+[single] Cormandel, sedert p=mo 7ber:
+[single] des voorleden tot ult=o aug:o
+[single] deses Iaar.
+[single] No: 34.
+== NL-HaNA_1.04.02_2538_0094 | #94 | sides: single | lines: 28
+[single] Van Cormandel Den 2. 9ber: 1741.
+[single] No. 34. Seven stux generale Rendementen als
+[single] 1. van Nagapatnam
+[single] .
+[single] 1. „ Palliacatta
+[single] 1. „ Sadraspatnam
+[single] 1. „ Portonovo.
+[single] 1. „ Masulipatnam
+[single] 1. „ Bimilipatnam. en
+[single] 1. „ Iaggernaijk poeram.
+[single] „ 35. Drie stux apart rendementen als
+[single] 2. „ Originele van Nagapat=a
+[single] van verkogt goud en Moxi=
+[single] caanse realen.
+[single] Copia van Palliacatta der
+[single] 1.
+[single] aldaar omgesette ropijen in
+[single] een rond Jaar.
+[single] „ 36. Een vendu rol van Nagapatnam
+[single] gedateerd 19. Aug=o 1740. van
+[single] verkogt Rosenwater dranken
+[single] ensz: annex het apart ren:
+[single] dement.
+[single] „ 37. Een Copia munto bevindinge van Na=
+[single] gapatnam wegens vermunt
+[single] goud tot fanums gedateerd
+[single] 13. October 1740.
+[single] NNo. 31
+== NL-HaNA_1.04.02_2538_0095 | #95 | sides: single | lines: 29
+[single] 59
+[single] Van Cormandel Den 2. 9ber: 1740
+[single] No. 38. Memorie van de vaarthuijgen
+[single] die alhier aan handen zijn
+[single] met aanwijsinge wat repa„
+[single] ratien en vertimmeringen
+[single] daar aan in een Rond Jaar
+[single] zijn gedaan, en welk nog bin„
+[single] binnen Korten staan te
+[single] geschieden.
+[single] „ 39. Vijf stux samentreckingen van ge„
+[single] dane schenkagien in het
+[single] boek Jaar van 17 39/40. als
+[single] 1. van Nagapatnam.
+[single] 1. „ Noorder Cormandel
+[single] excepto van Jagger.
+[single] „naijkp:m
+[single] 1. „ Palliacatta.
+[single] 1. „ Sadraspatnam en
+[single] 1. „ Portonovo.
+[single] „ 40. Vijf stux 't zamentrecking van ge:
+[single] dane timeragien in het
+[single] voorm: boekJaar en de
+[single] voorm: plaatsen.
+[single] „ 41. Notitie der alhier ingewisselde als
+[single] voor Coopmansz: ontfange=
+[single] en
+[single] S
+[single] =ne
+== NL-HaNA_1.04.02_2538_0096 | #96 | sides: single | lines: 22
+[single] Van Cormandel Den 2. 9ber: 1740.
+[single] „ne Ropijn Ducatons en
+[single] realen.
+[single] No 42. Een b'antwoorde Zoldij memorie
+[single] van 't Opperhoofd des
+[single] Generalen Zoldij Compt:
+[single] te Batavia door de
+[single] Opperhoofden ten Comptoire
+[single] Masulipatnam.
+[single] „ 43. Monster rol van 't schip Nieuw:
+[single] stad ter rheede Masuli„
+[single] patnam den 15. September.
+[single] lestleden.
+[single] Nagapatnam Jn 't Casteel den
+[single] 2. 9ber: 1740. /:was getekent:/ David
+[single] Coenrad Vick. Eerste gesw: Clercq. /:onder„
+[single] stond:/ Accordeert. /:en getekent:/
+[single] D: C: Vick E. G Clercq.
+[single] Batavia.
+[single] elllen
+[single] 5
+== NL-HaNA_1.04.02_2538_0097 | #97 | sides: single | lines: 30
+[single] 6
+[single] Van Cormandel Den 2. November: 1741.
+[single] den afgelopen kleeden eijsch,
+[single] meragien ensz:
+[single] Spijen van de met adrichem
+[single] en Gaarperdam afgevair=
+[single] Batavia.
+[single] Aan den hoog Edelen Heer. —
+[single] Adriaan Valckenier.
+[single] Gouverneur Generaal, en de
+[single] Edele heeren Raaden van Ne„
+[single] derlands India.
+[single] Hoog Edele Agtb:
+[single] Gebiedende Heer, en
+[single] Edele Heeren.
+[single] Over Ceijlon
+[single] Volgens Iaarlijkse gewoonte senden wij Inleidinge der versag van„
+[single] dese over Ceijlon, om U hoog Edelens te gedane schenkagien, sin„
+[single] dienen van berigt; wegens de afgeloope
+[single] kleede Eijschen, gedane schenkagien en
+[single] reparatien in het gepasseerde boekjaar
+[single] 17 39/40. , en wat verders meldens waardig, in
+[single] den dienst van d' EComp:e te deser Custe
+[single] is voorgevallen, zedert dat wij verslag
+[single] van zaken gedaan hebben, bij briefe van
+[single] den 9 der Jongst gepasseerde maand 7ber:
+[single] over Palliacatta met het schip Advi: gedaane versendinge der Co„
+[single] „chem welkers afschrift u hoog Edelens is dijde misiend
+[single] toe
+[single] 6
+== NL-HaNA_1.04.02_2538_0098 | #98 | sides: single | lines: 37
+[single] Van Cormandel Den 2. 9ber: 1740.
+[single] met steenhoven afgesonden
+[single] briefje.
+[single] de heeren majores, afge„
+[single] daarbij ter nedergestelde
+[single] beswaarnissen en gedaan
+[single] triase eijsch g'ordonn: be=
+[single] lastinge
+[single] wegen, als mede wegens
+[single] de door de haar hoog Ed.:s
+[single] gedane belastinge.
+[single] toegesonden met den scheepe Gaasperdam.
+[single] beneevens een geleij-lettertje. dat van een
+[single] ander gevolgt is, met het schip steenhoven
+[single] gedagteekent 27: september en 8. October
+[single] „verselling der Copia van't van welk laaste de Copia desen verselt,
+[single] met die van onse eerbiedige Vaderlandse
+[single] met die van de thans aan advijsen van heeden. Waarbij U hoog Ed
+[single] gr
+[single] Sonden werdende missive. nopens den.
+[single] Lijwaat Handel, der gelievende sullen
+[single] versoek wegens de bij pa zien, eenige ter nedergestelde beswaarnis=
+[single] sen, over des bij den Nederlandsen Eijsch
+[single] voor den Iaare 1741. g'ordonneerde be=
+[single] lastinge van ƒ37686: 6:—. belangende
+[single] het minder gerendeerde bij verkoop in
+[single] Europa als 50. p:r C=to advans, van gemeen
+[single] Cust Guinees, en dito Salempoeris, in den
+[single] Iaare 1738. , zwaar geld tegen zwaar geld
+[single] versoek om voorsch: diond gereekend. Met versoek dat haar Edele
+[single] hoog agtb: ons daarvan gelieven te ont:
+[single] heffen; waartoe wij U hoog Edelens
+[single] voorschrijvens in alle eerbied zijn
+[single] implooreerende, zo wel ten Dien op=
+[single] sigte als de door U hoog Edelens gedaane
+[single] belastinge
+[single] lllen
+== NL-HaNA_1.04.02_2538_0099 | #99 | sides: single | lines: 31
+[single] 87
+[single] Van Cormandel Den 2. 9ber: 1740.
+[single] Batavia gedane belastin=
+[single] „ge vermilderd mag wet:
+[single] belastinge, indien deselve bereets tot de
+[single] g'eerde Dispositie van de Edele hoog
+[single] Agtb: heeren Majores mogte sijn over=
+[single] gebragt, anders verhoopen wij die weldaad
+[single] van V: Hoog Edelen selvs te sullen erlan=
+[single] gen, op onse gedaane sollicitatien bij brieve
+[single] van den 9. der voorleede maand September:
+[single] Dog indien wij tegens hoope en verwagtinge dan wel dat de van
+[single] soo geluckig niet mogten wesen, is ons de der, tot nevens gem:
+[single] moedig versoek dat de Bataviase be: bedragen.
+[single] lastinge van ƒ 4060:16:—. Swaar geld,
+[single] volgens de onder het schrijven deses ont„
+[single] jange Duplicaat missive van u hoog Ed:s
+[single] de dato 27. Julij 1740. tot ƒ 314:1:— mag
+[single] verminderen: en soo na rato de nadere
+[single] belastinge gespecificeert bij thans over„
+[single] gaande Nederlandse brief, in dien U hoog uijt wat aanmerkingen,
+[single] Ed. s de bij ons ter nedergestelde waardij van
+[single] de Nagapatnamse pagood, bij voorjaars
+[single] gesondene schriftelijk advijs, over de Consi„
+[single] deratien wegens 's Comp s handel in het
+[single] westerdeel van Indien ensr: van den Edelen
+[single] heer van Imhoff, gelieven te billicken: als
+[single] verscheelende dat in vergelijkinije van de
+[single] waardije
+[single] d
+== NL-HaNA_1.04.02_2538_0100 | #100 | sides: single | lines: 33
+[single] Van Cormandel Den 2. 9ber: 1740.
+[single] sioneele gedane belastin„
+[single] „ge der Dienaaren.
+[single] lopen kleeden eijsch aan de j
+[single] overgaande b'antwoorde
+[single] eijschen.
+[single] waardije, waar voor die pagood, hiergeboekt
+[single] werd 5. pr C=to en op zigtelijk de 50. p:r C=to
+[single] advans 7½. prC=to dat daarbij ook nader werd
+[single] aangewesen: dog indien men naar de gedagten
+[single] van voorm: zijn Edele, en der Bengaalse
+[single] ministers reekend dat ze 25. p:r C=to te hoog
+[single] geboekt zijn, zal de belastinge van selve
+[single] dienen te vervallen, gemerkt als dan op het
+[single] verkogte gemeen Guinees, en salempoerir
+[single] van de Cust in de Iaaren 1736, 1737, en 1738.
+[single] in Europa, meerder als 50. p:r C=to is g'advan=
+[single] =ceert, Zwaargeld tegens Zwaar geld ge=
+[single] rekend.
+[single] hoope wegens de provi nmiddens leven wij in hoope, dat onse
+[single] provisioneele gedaane belastinge, bij on„
+[single] „se Vaderlandse brief vermeld; de goetkeu:
+[single] „ringe van U hoog Ed=s sal erlangen.
+[single] zenvoij nopens der afge:En gedragen ons, nopens den afgelopen
+[single] kleeden in zaam voor den Iaare 1740. aan de
+[single] overgaande formeele beantwoorde Patriase
+[single] en Indiase eijsschen. Waarbij de reeden
+[single] vermeld staan gelijk ook bereets in onse
+[single] voorige advijsen van dit Iaar is aangehaald
+[single] de overstroming der landen door de Marattijs
+[single] ensr:
+[single] Zellen
+[single] J

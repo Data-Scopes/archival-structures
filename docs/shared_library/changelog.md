@@ -4,6 +4,43 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.22.0 (2026-11-02)
+
+### Step 23b: VOC preset v6 (¬ word break)
+
+- `text_layer.presets`: new `VOC_1_04_02_V6` (v5sg with `wbc_pinned = {"default": "-=„¬"}`, name `NL-HaNA_1.04.02_text_layer_v6`),
+  registered as `PRESETS["voc_1.04.02_v6"]`. Additive; no change to `join_v2`, `join`, `build` or `word_breaks`.
+- No sibling imports affected.
+
+### Step 23c: VOC folio-map options
+
+- `analysis.folio_map.FolioMapParams`: new fields `pick_by_chain=False`, `tie_keep=None`, `tie_window=3`, `clean_tol=None`,
+  `pieces=False`, `piece_min=10`, `piece_slope=(0.5, 3.0)`, appended after `single_slope`. `FolioMap`: new field
+  `pieces: tuple = ()`; `locate` falls back to the pieces (method `piece_*`) when it is set. Defaults leave every output
+  unchanged (checked against `HEAD` on SG inventory 3444: 0 differences in the chain and `locate(0..1499)` under
+  `FolioMapParams()` and `FOLIO_MAP_V2`). `FOLIO_MAP_V2` and `page_numbering.py` are untouched.
+- No sibling imports affected.
+
+### Step 23d: TOC detector, front_index_run min_after_frac
+
+- `analysis.index_pages`: new `TOC_SIDES_DEFAULTS`, `toc_side_features(texts, cfg)`, `toc_side_rule(feat, scan_index, cfg)`
+  and `toc_sides(side_texts, side_scan_index, cfg)`: a one-column VOC table-of-contents detector (front window, folio
+  numbers/ranges, dated entries, register title, amount guard). An unknown cfg key raises `ValueError`.
+  `INDEX_SIDES_DEFAULTS`, `side_features`, `side_rule` and `fill_runs` are unchanged.
+- `analysis.index_links.front_index_run`: new keyword `min_after_frac: Optional[float] = None`; the tail test uses
+  `min(min_after, ceil(min_after_frac * n))` when set. Default behaviour is unchanged (checked against `HEAD` on the 22
+  GLOBALISE flag lists and on 3,000 random flag lists).
+- No sibling imports affected.
+
+### Step 23e: locator L9, monotone_mask
+
+- `analysis.index_links.LocatorParams`: new fields `trail_pattern=""`, `trail_num_pattern=""`, `guard_before=""`,
+  `guard_after=""` (appended last). `extract_locators` dispatches `variant in ("L8", "L9", "L9g")` to `_extract_l8`; new
+  `VOC_LOCATOR_PARAMS["L9"]` and `["L9g"]`; new `monotone_mask(numbers) -> list[bool]`. L8's output is unchanged
+  (`l8check`: 7,715 TOC lines of 22 volumes, with and without a folio range, 0 differences against `HEAD`). The existing
+  test that `LocatorParams(variant="L9")` raises now uses `"L10"`.
+- No sibling imports affected.
+
 ## v0.21.0 (2026-11-01)
 
 ### Step 22d: locator variant L8 for VOC tables of contents

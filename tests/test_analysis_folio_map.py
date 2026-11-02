@@ -244,3 +244,86 @@ def test_single_foliation_mixed_volume_unchanged():
     assert a.mode == b.mode == "foliation"
     assert np.array_equal(a.chain, b.chain)
     assert a.locate(5) == b.locate(5)
+
+
+# --- phase 17, step 23c: candidate choice, ties, chain cleaning, pieces --------------------------------------------
+
+def _multi(n, nums):
+    """n single scans; nums: {scan position: [texts]}."""
+    scans = [f"S{i:03d}" for i in range(1, n + 1)]
+    sides = [(s, "single") for s in scans]
+    return scans, sides, {(scans[i - 1], "single"): list(v) for i, v in nums.items()}
+
+
+def _chain_of(m):
+    return m.chain.tolist()
+
+
+def test_new_fields_default_equal():
+    nums = {i: [str(i), str(i + 40)] for i in range(1, 31)}
+    nums[5] = ["4", "5"]
+    nums[6] = ["4", "6"]   # a tie with side 5
+    scans, sides, nv = _multi(30, nums)
+    a = build_folio_map(scans, sides, nv)
+    b = build_folio_map(scans, sides, nv, params=FolioMapParams(
+        pick_by_chain=False, tie_keep=None, tie_window=3, clean_tol=None, pieces=False, piece_min=10,
+        piece_slope=(0.5, 3.0)))
+    assert a.mode == b.mode and _chain_of(a) == _chain_of(b) and a.pieces == b.pieces == ()
+    for n in range(0, 60):
+        assert a.locate(n) == b.locate(n)
+
+
+def test_pick_by_chain():
+    nums = {i: [str(i)] for i in range(1, 21)}
+    nums[8] = ["1957", "8"]   # first candidate is a year
+    scans, sides, nv = _multi(20, nums)
+    off = build_folio_map(scans, sides, nv)
+    on = build_folio_map(scans, sides, nv, params=FolioMapParams(pick_by_chain=True))
+    assert [8.0, 8.0] not in _chain_of(off)
+    assert [8.0, 8.0] in _chain_of(on)
+    assert on.locate(8).method == "printed" and on.locate(8).position == 8
+
+
+def test_tie_keep_first_last():
+    nums = {i: [str(i)] for i in range(1, 21)}
+    nums[11] = ["10"]   # tied with side 10
+    scans, sides, nv = _multi(20, nums)
+    first = build_folio_map(scans, sides, nv, params=FolioMapParams(tie_keep="first"))
+    last = build_folio_map(scans, sides, nv, params=FolioMapParams(tie_keep="last"))
+    assert [10.0, 10.0] in _chain_of(first) and [11.0, 10.0] not in _chain_of(first)
+    assert [11.0, 10.0] in _chain_of(last) and [10.0, 10.0] not in _chain_of(last)
+    assert first.locate(10).position == 10 and last.locate(10).position == 11
+
+
+def test_clean_tol_drops_outlier():
+    # pagination, slope 1; scan 15 reads 21 (true 15): it still increases, so the LIS keeps it
+    nums = {i: [str(i)] for i in range(1, 31) if not 16 <= i <= 21}
+    nums[15] = ["21"]
+    scans, sides, nv = _multi(30, nums)
+    raw = build_folio_map(scans, sides, nv)
+    assert [15.0, 21.0] in _chain_of(raw)
+    clean = build_folio_map(scans, sides, nv, params=FolioMapParams(clean_tol=3.0))
+    assert [15.0, 21.0] not in _chain_of(clean)
+    assert len(clean.chain) == len(raw.chain) - 1
+
+
+def _pieces_vol():
+    nums = {i: [str(50 + (i - 1) // 2)] for i in range(1, 82, 2)}
+    nums.update({i: [str(1 + (i - 120) // 2)] for i in range(120, 159, 2)})
+    return _multi(170, nums)
+
+
+def test_pieces_fallback():
+    scans, sides, nv = _pieces_vol()
+    off = build_folio_map(scans, sides, nv)
+    on = build_folio_map(scans, sides, nv, params=FolioMapParams(pieces=True))
+    assert off.locate(5) is None and len(on.pieces) == 1
+    t = on.locate(5)
+    assert t.method == "piece_printed" and t.position == 128
+
+
+def test_pieces_main_first():
+    scans, sides, nv = _pieces_vol()
+    for pieces in (False, True):
+        t = build_folio_map(scans, sides, nv, params=FolioMapParams(pieces=pieces)).locate(60)
+        assert t.method == "printed" and t.position == 21

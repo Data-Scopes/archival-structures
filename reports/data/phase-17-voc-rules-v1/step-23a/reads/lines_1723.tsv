@@ -1,0 +1,9 @@
+line_id	gold_folios	status	note
+d1f13456-dadb-49ec-9729-b75ff7646449	1126	ok	folio 1126 a 1130 on entry start
+line_710aea15-1e0f-47eb-bf1a-289fcc433af0		ok	running page head 1472, not a locator
+a40837b2-f96f-4786-8a8f-e5b653330293		ok	stamp text (Sacren, Credit), no folio
+line_5a58aeba-8d50-4459-b715-64469bbad25b		ok	stamp text (Somma Barken), no folio
+line_3d539e2d-9974-4cdd-8793-68f62a28e5b3	1172	ok	folio column garbled: 1172 listed at foot of column
+c1ae7269-3a20-453d-96ee-38d54e04ef8e	1184	ok	folio 1184 a 1185
+line_1e7bde71-2c6f-4aa0-8ba6-c3cbf9507135	1330	ok	folio 1330 a 1331 on same line
+cb4cb041-32fc-4c5a-9dc1-8930c4266846		ok	stray number, no folio

@@ -132,3 +132,23 @@ Implementation sessions append here but don't read it unless their brief names a
   - `plan/PLAN.md` row 16;
   - `docs/USER_ACTIONS.md` UA-060 (next phase).
 - **Release:** v0.21.0 recommended (additive: VOC preset, `single_foliation`, `number_tags`, L8).
+
+### After the review (Opus 5.5, 2026-11-01)
+- The user released v0.21.0.
+- At the user's request, image crops were added to the UA-059 check page (`step-22b/build_check_page.py`):
+  - NA IIIF crops of the page top (32% of the height, extended to Laypa `page-number` lines, capped at 50%) for the scan
+    before the gold, the gold scan, the scan after it and the predicted scan;
+  - 36 of 36 resolve; cached in `step-22b/iiif_cache/`; the item ids and the localStorage key are unchanged;
+  - two crops checked by eye: 1917 0975 shows "1531"; 1903 0468 is a verso, and 0467 shows 1923.
+- No gold or result file changed.
+
+### UA-059 and UA-060 answered (Opus 5.5, 2026-11-01)
+- **UA-059 done:** the user checked the 9 anchors on the check page. Their verdicts: the map's scan 6, another scan 2
+  (1363 at 0131; 1630 unsure), cannot tell 1 (2018), the gold scan 0. The gold is wrong in 7 of 9 (F16-R.7). In 3 items
+  a smaller sheet lies on a larger one whose number shows (F16-R.8).
+  - `step-22b/summarise_check.py` writes `check_result.tsv`.
+  - The report has a new section, *After the review: user check (UA-059)*; R.7 and R.8 are in `reports/index.md`.
+  - Bar F still fails (at most +5/904 on test). No gold or result file changed.
+- **UA-060 (a):** phase 17 is VOC rules v1. Seeded `plan/phase-17-voc-rules-v1/` (`PLAN.md`, `STATUS.md`), row 17 in
+  `plan/PLAN.md`, CONTEXT §4 status line.
+- Both UAs moved to `docs/USER_ACTIONS_resolved.md`.

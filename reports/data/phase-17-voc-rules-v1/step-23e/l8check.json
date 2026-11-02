@@ -1,0 +1,7 @@
+{
+ "volumes": 22,
+ "lines": 7715,
+ "differences": 0,
+ "examples": [],
+ "head_module": "git show HEAD:archival_structures/analysis/index_links.py"
+}

@@ -265,3 +265,19 @@ def test_join_lower_marks_per_inventory(tmp_path, monkeypatch):
         stats = json.loads((out / "NL-HaNA_1.01.02_text_layer_v2" / "join" / "stats"
                             / "9999.json").read_text())
         assert stats["lead_marks_lower"] == expected and stats["upper_guard"] is True
+
+
+def test_join_unit_not_sign():
+    text, _, kinds = join_unit(["proce¬", "„deeren voort"], "-=„¬", lead_marks=",")
+    assert text == "procedeeren voort"
+    assert _ == [(0, 5, 0), (5, 17, 1)]
+    assert kinds == [("merge", "¬"), ("", "")]
+    text, _, kinds = join_unit(["proce¬", "„deeren voort"], "-=„", lead_marks=",")
+    assert text == "proce¬ „deeren voort"
+    assert kinds[0] == ("plain", "")
+
+
+def test_join_unit_not_sign_digit_guard():
+    text, _, kinds = join_unit(["anno¬", "1738 den"], "-=„¬", lead_marks=",")
+    assert text == "anno¬ 1738 den"
+    assert kinds[0] == ("g_digit_right", "¬")

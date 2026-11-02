@@ -1,0 +1,49 @@
+{
+ "cell": {
+  "pick_by_chain": true,
+  "tie_keep": "first",
+  "clean_tol": 3.0,
+  "pieces": false,
+  "extrapolate": 6
+ },
+ "name": "p1_tfirst_c3_g0_e6",
+ "dev_n": 1833,
+ "dev_leaf": 1311,
+ "dev_strict": 1057,
+ "dev_leaf_share": 0.7152209492635024,
+ "dev_strict_share": 0.5766503000545554,
+ "dev_loo": [
+  179594,
+  203113,
+  0.8842073131705012
+ ],
+ "base": {
+  "leaf": 1245,
+  "strict": 1018,
+  "loo": [
+   169641,
+   193305
+  ]
+ },
+ "best_dev_leaf_share": 0.7163120567375887,
+ "tie_candidates": [
+  "p1_tfirst_c3_g0_e6",
+  "p1_tfirst_c3_g1_e6",
+  "p1_tfirst_c3_g0_e30",
+  "p1_tfirst_c3_g1_e30"
+ ],
+ "base_uncorrected_phase16_splits": {
+  "dev": {
+   "hits": 647,
+   "n": 929
+  },
+  "test": {
+   "hits": 591,
+   "n": 904
+  }
+ },
+ "n_corrected": 7,
+ "n_dropped": 8,
+ "seconds": 419.3,
+ "time_utc": "2026-11-01T15:37:13+00:00"
+}

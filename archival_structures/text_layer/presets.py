@@ -253,6 +253,10 @@ VOC_1_04_02_V5SG = dataclasses.replace(
     wbc_pinned={"default": SG_1_01_02_V5.wbc_pinned["default"]},
     volume_mode={k: v for k, v in SG_1_01_02_V5.volume_mode.items() if k != "pins"},
     description="NL-HaNA 1.04.02 (VOC) text layer: the SG v5 rules unchanged (phase 16 step 22a)")
+# Step 23b (phase 17): v5sg plus the VOC word-break mark `¬` in the pinned set (F16-22a.5).
+VOC_1_04_02_V6 = dataclasses.replace(
+    VOC_1_04_02_V5SG, name="NL-HaNA_1.04.02_text_layer_v6", wbc_pinned={"default": "-=„¬"},
+    description="NL-HaNA 1.04.02 (VOC) text layer v6: v5sg plus ¬ as a word break (phase 17 step 23b)")
 SG_1_10_94_V4 = dataclasses.replace(
     SG_PRINT_V3, name="NL-HaNA_1.10.94_text_layer_v4",
     description="NL-HaNA 1.10.94 text layer v4 (print mode fixed; box height recorded)",
@@ -262,7 +266,8 @@ SG_1_10_94_V4 = dataclasses.replace(
 PRESETS = {"voc_v1": VOC_V1, "sg_1.01.02_v2": SG_HAND_V2, "sg_1.10.94_v2": SG_PRINT_V2,
            "sg_1.01.02_v3": SG_HAND_V3, "sg_1.10.94_v3": SG_PRINT_V3,
            "sg_1.01.02_v4": SG_1_01_02_V4, "sg_1.10.94_v4": SG_1_10_94_V4,
-           "sg_1.01.02_v5": SG_1_01_02_V5, "voc_1.04.02_v5sg": VOC_1_04_02_V5SG}
+           "sg_1.01.02_v5": SG_1_01_02_V5, "voc_1.04.02_v5sg": VOC_1_04_02_V5SG,
+           "voc_1.04.02_v6": VOC_1_04_02_V6}
 
 
 def inventory_preset(preset, mode):

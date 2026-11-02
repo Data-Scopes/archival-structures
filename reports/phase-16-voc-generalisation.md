@@ -2,9 +2,9 @@
 
 > **Status:** final (reviewed 2026-11-01).
 > **Phase plan:** [`plan/phase-16-voc-generalisation/PLAN.md`](../plan/phase-16-voc-generalisation/PLAN.md).
-> **Code state:** unreleased after v0.20.0 (release recommended as v0.21.0); no sibling code changes (22e appends one
+> **Code state:** released in v0.21.0; no sibling code changes (22e appends one
 > note to an NLP doc).
-> **Last updated:** 2026-11-01, by the phase-16 review (Opus 5.5).
+> **Last updated:** 2026-11-01, after the review: the user check UA-059 (Opus 5.5).
 
 ## Summary
 
@@ -29,6 +29,10 @@ What generalises is the geometry-and-plumbing layer. What does not is everything
 numbers are written and placed, what an index page looks like, and how long index runs are (F16-22e.2). The review
 found and fixed one scorer defect (22r), which moved 22d by about one point (F16-R.1). Every bar reproduces (F16-R.2).
 Code: one additive preset and three additive options, all off by default; SG outputs are unchanged.
+
+After the review, the user checked the 9 anchors read as gold errors on the scans (UA-059). The gold is wrong in 7,
+right in none; in 6 the folio map's scan is the right one (F16-R.7). In 3 of the 9, a smaller sheet lies on a larger
+one whose folio number shows on the same scan (F16-R.8).
 
 ## Findings
 
@@ -78,6 +82,8 @@ Code: one additive preset and three additive options, all off by default; SG out
 | F16-R.4 | GM folio gold carries about 4-5% errors (9 of 70 read misses, F16-22b.5, and 3 of the 6 decreasing parts), close to the 5% slack of a 0.95 bar: a future VOC folio bar needs a checked subset (UA-059 is a start) | method | voc, gold-quality, review | confirmed | [Review](#review) |
 | F16-R.5 | Planning defects (the planner's): the all-single-page premise came from 2 smoke volumes (146 of 567 are openings; the 22b brief was corrected before it ran); `single_foliation` cannot move a scan-level leaf by construction; the restart criterion flags 509 of 545 volumes; 5 of the 11 decreasing parts are not reproducible; the gold row grain was not stated (F16-R.1). `plan/templates/STEP.md` now asks for the row grain and a planning run of every new option or criterion | method | planning, review | confirmed | [Review](#review) |
 | F16-R.6 | Leakage checks pass: gold hashes equal planning (`a2b875d9…`, `095e7f31…`); `select.json` precedes `test_done.json` in 22b, 22c, 22d and 22r; no library code reads gold or silver; 2775 is outside every test bar; `VOC_TOC_CUE` and L8 were written from dev TOC text only. Row 10 of the table (`front_index_run`) is `runs, no bar` under P11 but finds a run in 0 of 22 volumes: in practice it does not carry over | result | voc, leakage, review | confirmed | [Review](#review) |
+| F16-R.7 | The user checked the 9 read misses classed as gold errors on the scans (UA-059, `step-22b/check_result.tsv`): the GM gold is wrong in 7 and right in none. The folio map's scan is right in 6 (dev 1, test 5: 1917, 1903, 7529, 2367, 1071, 2394); in 1363 folio 44 is on scan 0131, between gold (0132) and map (0130); 1630 and 2018 are unclear. So at least 7 of the 70 read misses are gold errors, and F16-R.4's estimate becomes about 3.5-4.5% of anchors. With the 5 test anchors corrected, bar F rises by at most 5/904 (0.6 points) and still fails. The gold is not edited | result | voc, gold-quality, folio-map | confirmed | [After the review: user check](#after-the-review-user-check-ua-059) |
+| F16-R.8 | VOC volumes have layered sheets: a smaller sheet lies on a larger one whose folio number sticks out, so one scan can show two folio numbers and the same number can show on several consecutive scans. The user saw it in 3 of the 9 checked anchors: 2367 (folio 3618 visible on scans 0694-0696, the focus sheet only on 0696), 2018 (scan 0207 shows 94 and, beneath, 95) and 1630 (scan 0187 shows 1123 and, on the larger sheet below, 1129 or 1124). This may account for part of 22b's tied numbers (16 of 70 read misses, F16-22b.4); not measured | data-property | voc, folio-map, gold | confirmed | [After the review: user check](#after-the-review-user-check-ua-059) |
 
 - **Kind:** `result`, `behaviour-change`, `bug-fixed`, `data-property`, `negative-result`, `open-issue`, `method`.
 - **Status:** `draft` (step), `confirmed` or `revised` (review), `withdrawn`.
@@ -313,7 +319,8 @@ gold errors are about 13% of the 35% misses, i.e. roughly 4-5% of all anchors (a
 side. N still helps on the whole: +4.6 points on test, because Laypa `page-number` regions recover numbers the segment
 typing missed (22a: 42% of segments are `pn_line_offchain`).
 
-**User check.** 9 misses read as gold errors (>= 5): `check_page.html` (UA-059, blocks nothing) asks which scan carries folio N.
+**User check.** 9 misses read as gold errors (>= 5): `check_page.html` (UA-059, blocks nothing) asks which scan carries folio N; image crops of the page tops (NA IIIF, cached in `iiif_cache/`) were added after the review (2026-11-01, at the user's request). Result: the gold is wrong in 7 of the 9 (F16-R.7,
+*After the review: user check*).
 
 **Brief defects.** (1) The brief's restart criterion flags 509 of 545 volumes; it cannot find restarts. (2) Five of the
 "11 decreasing" parts have no decrease in the frozen gold; the definition is in no file. (3) `S` changes only the mode and the
@@ -617,14 +624,42 @@ requires.
 F16-22b.5 with F16-R.4 (GM folio gold has about 4–5% errors), F16-R.1 (GLOBALISE segmentation CSVs have several rows
 per scan: collapse before scoring), and F16-22e.2 (what carries from SG to VOC).
 
+## After the review: user check (UA-059)
+
+*2026-11-01. The user checked the 9 anchors on `step-22b/check_page.html`, with image crops of the page tops.
+`summarise_check.py` joins the verdicts (`check_verdicts.json`) with the items into `check_result.tsv`.*
+
+| Item | Inventory | Folio | Gold scan | Map scan | User | Note (shortened) |
+|---|---|---|---|---|---|---|
+| dev20 | 1917 | 1530 | 0975 | 0973 | map | 0975 carries 1531 |
+| dev22 | 1630 | 1124 | 0187 | 0526 | another scan, unsure | 0187: 1123 on the top sheet, 1129 (or 1124) on a larger sheet below; 0526: 1439 |
+| dev26 | 1363 | 44 | 0132 | 0130 | 0131 | |
+| test9 | 2018 | 95 | 0207 | 0212 | cannot tell | 0207 has 94; the sheet beneath, sticking out, has 95 |
+| test20 | 1903 | 1916 | 0468 | 0453 | map | 0467 has 1923 |
+| test25 | 7529 | 865 | 0897 | 0905 | map | 0897 has 863; 0905 could also be 869 |
+| test27 | 2367 | 3631 | 0695 | 0709 | map | 3618 sticks out on 0694-0696, the focus sheet only on 0696 |
+| test29 | 1071 | 14 | 0031 | 0033 | map | the gold scan has 13 |
+| test30 | 2394 | 1101 | 0624 | 0137 | map | 0623 and 0625 have 1344 and 1345 |
+
+- **Gold.** Wrong in 7 (the 6 `map` rows and 1363), right in none, unclear in 2. 22b's gold-error class has at least
+  7/9 precision. Of the 70 read misses, 7 to 9 are gold errors, so gold errors are about 3.5–4.5% of anchors (F16-R.4
+  said 4–5%). Only these 9 of the 70 were checked, so gold errors hidden in other classes are not counted.
+- **Bar F.** The 5 test anchors the map gets right would add at most 5 of 904 (0.6 points) to the selected cell. It
+  still fails 0.95. The bars are not re-scored, because the gold is frozen (sha256 in *Planning*).
+- **Layered sheets (F16-R.8).** In 3 items (1630, 2018, 2367) a smaller sheet lies on a larger one whose number shows
+  on the same scan. The "focus" sheet is the one in front. A VOC folio map that reads "the" number on a scan has to
+  choose between two, and a number visible on three scans in a row looks like a tied number.
+- **For phase 17.** `check_result.tsv` is the first checked GM subset: 9 anchors, 7 with a confirmed scan. Its test
+  rows were scored in 22b, so a phase-17 bar uses them only as dev data.
+
 ## Follow-ups
 
 | From | What | Where it is tracked |
 |---|---|---|
-| F16-22a.5 | A VOC break set with `¬` (a new layer version, D17) | UA-060 (a); `plan/CONTEXT.md` §4 |
-| F16-22b.4, F16-22b.5, F16-R.3, F16-R.4 | A VOC folio map that uses the side layout and numbering mode, restarts and volume starts, with a bar on a checked GM subset | UA-059 (check page), UA-060 (a); CONTEXT §4 |
-| F16-22c.2, F16-22c.4, F16-22c.6 | A one-column TOC detector with a ledger guard; `front_index_run` thresholds scaled to volume length | UA-060 (a); CONTEXT §4 |
-| F16-22d.6 | L8 v2 (`à`, dots, "verso" after the range, numbers increasing along the TOC) with a bar on fresh TOC reads | UA-060 (a); CONTEXT §4 |
+| F16-22a.5 | A VOC break set with `¬` (a new layer version, D17) | phase 17 (UA-060 (a)); `plan/CONTEXT.md` §4 |
+| F16-22b.4, F16-22b.5, F16-R.3, F16-R.4, F16-R.7, F16-R.8 | A VOC folio map that uses the side layout and numbering mode, restarts, volume starts and layered sheets, with a bar on a checked GM subset | phase 17 (UA-060 (a)); UA-059 done (`step-22b/check_result.tsv`); CONTEXT §4 |
+| F16-22c.2, F16-22c.4, F16-22c.6 | A one-column TOC detector with a ledger guard; `front_index_run` thresholds scaled to volume length | phase 17 (UA-060 (a)); CONTEXT §4 |
+| F16-22d.6 | L8 v2 (`à`, dots, "verso" after the range, numbers increasing along the TOC) with a bar on fresh TOC reads | phase 17 (UA-060 (a)); CONTEXT §4 |
 | F16-22a.7 | VOC unit order (marginalia, catch-words) | CONTEXT §4 |
 | F16-R.1 | 22d gold grain | done in 22r |
 | F16-R.5 | Brief rules: gold row grain; a planning run of every new option | `plan/templates/STEP.md`, CONTEXT §5 |
@@ -654,4 +689,11 @@ python3 /Users/Shared/claude_projects/data_scopes/shared-tools/coreshare.py run 
 for s in dev test archive context; do .venv/bin/python $D/step-22b/eval_gm.py --stage $s; done
 for s in replica dev test cases; do .venv/bin/python $D/step-22c/eval_toc.py $s; done
 for s in dev test; do .venv/bin/python $D/step-22d/eval_links.py --stage $s; done   # `errors` re-samples; the read sample is pre-22r
+```
+
+User check UA-059 (from the AS root; the page fetches image crops from the NA IIIF server, cached in `iiif_cache/`):
+
+```
+.venv/bin/python -I reports/data/phase-16-voc-generalisation/step-22b/build_check_page.py
+.venv/bin/python -I reports/data/phase-16-voc-generalisation/step-22b/summarise_check.py
 ```

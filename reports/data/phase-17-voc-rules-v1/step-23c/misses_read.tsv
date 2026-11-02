@@ -1,0 +1,31 @@
+tag	inv	folio	gold_scan	base_pred	base_method	sel_pred	sel_method	options_alone_flip	category	real_fix_or_break_note
+fix	1122	288	NL-HaNA_1.04.02_1122_0307	NL-HaNA_1.04.02_1122_0303	printed	NL-HaNA_1.04.02_1122_0306	interpolated	tie_first+clean	gap/noise	real: tied+noisy neighbours dropped, 289 at 309 puts 288 at ~307
+fix	1188	172	NL-HaNA_1.04.02_1188_0367	NL-HaNA_1.04.02_1188_0373	printed	NL-HaNA_1.04.02_1188_0367	printed	tie_first	tied number	real: 172. at 367 fits neighbour 171 at 365; later 172 at 373 is a repeat
+fix	2974	1382	NL-HaNA_1.04.02_2974_0182	NL-HaNA_1.04.02_2974_0183	printed	NL-HaNA_1.04.02_2974_0182	interpolated	combination	tied number (4 copies)	luck: 1382 on 180-183, gold 182 is inside the run; leaf hit by interpolation
+fix	1085	31	NL-HaNA_1.04.02_1085_0090	NL-HaNA_1.04.02_1085_0091	interpolated	NL-HaNA_1.04.02_1085_0089	printed	pick	several numbers on a side	real: 89 carries 33./31.; pick takes 31; gold 90 is the next leaf
+fix	1075	102	NL-HaNA_1.04.02_1075_0254	NL-HaNA_1.04.02_1075_0255	printed	NL-HaNA_1.04.02_1075_0253	printed	tie_first	tied number	convention: gold 254 lies between the two 102 (253, 255); first gives 253 which is in the leaf of 254
+fix	1076	26	NL-HaNA_1.04.02_1076_0060	NL-HaNA_1.04.02_1076_0063	printed	NL-HaNA_1.04.02_1076_0059	printed	tie_first	tied number	convention: gold 60 between 59 and 61/63; first gives 59 -> leaf hit
+fix	1750	945	NL-HaNA_1.04.02_1750_0758	NL-HaNA_1.04.02_1750_0759	interpolated	NL-HaNA_1.04.02_1750_0757	printed	pick	several numbers on a side	real: 966 is a repeated header; pick takes 945 at 757
+fix	2425	3175	NL-HaNA_1.04.02_2425_0513	NL-HaNA_1.04.02_2425_0518	interpolated	NL-HaNA_1.04.02_2425_0512	interpolated	clean	noisy chain	doubtful: gold 513 prints 3173, so folio 3175 is ~515; hit at 512 is luck / gold doubtful
+fix	2683	88	NL-HaNA_1.04.02_2683_0197	NL-HaNA_1.04.02_2683_0199	printed	NL-HaNA_1.04.02_2683_0197	printed	tie_first	tied number	convention: 88 at 197 and 199, gold on the first
+fix	1245	1	NL-HaNA_1.04.02_1245_0017	NL-HaNA_1.04.02_1245_0019	extrapolated	NL-HaNA_1.04.02_1245_0017	extrapolated	tie_first	volume start / extrapolation	real: cleaning removes a bad start point, extrapolation gets 17
+fix	1291	192	NL-HaNA_1.04.02_1291_0438	NL-HaNA_1.04.02_1291_0439	interpolated	NL-HaNA_1.04.02_1291_0437	interpolated	tie_first	several numbers on a side	real-ish: 437 reads 93 (=193?), 439 and 441 repeat 193; gold 438 within leaf of 437
+fix	3780	6237	NL-HaNA_1.04.02_3780_0220	NL-HaNA_1.04.02_3780_0226	interpolated	NL-HaNA_1.04.02_3780_0220	interpolated	pick	several numbers on a side	real: second candidates 6236, 6238, 6239 restore a 154-point chain
+fix	7534	1	NL-HaNA_1.04.02_7534_0011	NL-HaNA_1.04.02_7534_0013	extrapolated	NL-HaNA_1.04.02_7534_0011	extrapolated	combination	volume start / extrapolation	real-ish: folio 1 on a blank scan 11; chain start changed by tie/pick
+fix	1251	387	NL-HaNA_1.04.02_1251_0441	NL-HaNA_1.04.02_1251_0442	interpolated	NL-HaNA_1.04.02_1251_0441	printed	pick	several numbers on a side	real: pick takes 387 among 389/8/387
+fix	1063	32	NL-HaNA_1.04.02_1063_0079	NL-HaNA_1.04.02_1063_0081	interpolated	NL-HaNA_1.04.02_1063_0079	interpolated	pick	several numbers on a side	real: 1 at 79 (HTR) and chain interpolation puts 32 at 79
+break	2770	613	NL-HaNA_1.04.02_2770_0008	NL-HaNA_1.04.02_2770_0008	printed	NL-HaNA_1.04.02_2770_0005	printed	tie_first	tied number	break: 613 at 5,6,7,8; gold on the last, first picked
+break	1093	2	NL-HaNA_1.04.02_1093_0011	NL-HaNA_1.04.02_1093_0011	printed	NL-HaNA_1.04.02_1093_0009	printed	tie_first	tied number	break: 2 at 9 (middelbuck) and 11; gold on the later
+break	3948	2432	NL-HaNA_1.04.02_3948_0127	NL-HaNA_1.04.02_3948_0127	printed	NL-HaNA_1.04.02_3948_0120	interpolated	clean	noisy chain	break: clean drops the correct 2432 at 127 because neighbours 2633/2629 are noisy
+break	2940	91	NL-HaNA_1.04.02_2940_0197	NL-HaNA_1.04.02_2940_0197	printed	NL-HaNA_1.04.02_2940_0195	printed	tie_first	tied number	break: 91 at 195 and 197; gold on the later
+break	1159	1	NL-HaNA_1.04.02_1159_0011	NL-HaNA_1.04.02_1159_0011	extrapolated	NL-HaNA_1.04.02_1159_0001	printed	pick	several numbers on a side / start	break: pick takes 1 over 1061 at scan 1; gold 11 (folio 1 label elsewhere)
+break	3970	243	NL-HaNA_1.04.02_3970_0015	NL-HaNA_1.04.02_3970_0015	printed	NL-HaNA_1.04.02_3970_0013	printed	tie_first	tied number	break: 243 at 13 and 15; gold on the later
+break	1057	1	NL-HaNA_1.04.02_1057_0013	NL-HaNA_1.04.02_1057_0013	printed	NL-HaNA_1.04.02_1057_0008	printed	tie_first	tied number / start	break: folio 1 read at 8 and gold 13 (fo1); noise
+break	3819	143	NL-HaNA_1.04.02_3819_0343	NL-HaNA_1.04.02_3819_0343	printed	NL-HaNA_1.04.02_3819_0337	printed	tie_first	tied number	break: 143 at 337 and 341/343, gold on the last
+break	1141	532	NL-HaNA_1.04.02_1141_1255	NL-HaNA_1.04.02_1141_1254	interpolated	NL-HaNA_1.04.02_1141_1253	interpolated	combination	gold doubtful	combination: gold 1255 shows 546 (Maart), pred side 1253/1254 blank; unclear
+break	2612	192	NL-HaNA_1.04.02_2612_0529	NL-HaNA_1.04.02_2612_0529	printed	NL-HaNA_1.04.02_2612_0527	printed	tie_first	tied number	break: 192 at 527 and 529, gold on the later
+break	3068	1041	NL-HaNA_1.04.02_3068_0863	NL-HaNA_1.04.02_3068_0863	printed	NL-HaNA_1.04.02_3068_0861	printed	tie_first	tied number	break: 1041 at 861 and 863, gold on the later
+break	3561	1576	NL-HaNA_1.04.02_3561_0017	NL-HaNA_1.04.02_3561_0017	printed	NL-HaNA_1.04.02_3561_0031	interpolated	clean	noisy chain	break: clean drops 1576 at 17 (sparse start), left 1579 at 31
+break	3558	313	NL-HaNA_1.04.02_3558_0037	NL-HaNA_1.04.02_3558_0037	interpolated	NL-HaNA_1.04.02_3558_0043	interpolated	clean	noisy chain	break: clean drops a true interior point (313 at 37)
+break	1117	692	NL-HaNA_1.04.02_1117_0629	NL-HaNA_1.04.02_1117_0629	interpolated	NL-HaNA_1.04.02_1117_0627	interpolated	clean	noisy chain	break: clean drops interior point; gold blank scan
+break	2330	2711	NL-HaNA_1.04.02_2330_0481	NL-HaNA_1.04.02_2330_0480	printed	NL-HaNA_1.04.02_2330_0479	printed	tie_first	tied number	break: 2711 at 479 and 480 (gold 481, leaf of 480): first (479) loses leaf

@@ -1,0 +1,239 @@
+{
+ "run_at_utc": "2026-11-01T16:12:22+00:00",
+ "select_time_utc": "2026-11-01T16:12:09+00:00",
+ "select": {
+  "variant": "L9g",
+  "mono": true,
+  "map": "SEL22B"
+ },
+ "n_volumes": 21,
+ "n_lines": 168,
+ "n_lines_ok": 166,
+ "n_lines_unreadable": 2,
+ "cells": {
+  "SEL": {
+   "cell": "L9g|mono|SEL22B",
+   "TP": 10,
+   "n_pred": 18,
+   "n_gold": 25,
+   "P": 0.5556,
+   "R": 0.4,
+   "P_wilson95": [
+    0.3372,
+    0.7544
+   ],
+   "R_wilson95": [
+    0.234,
+    0.5926
+   ],
+   "htr_substituted": {
+    "TP": 10,
+    "n_gold": 25,
+    "P": 0.5556,
+    "R": 0.4
+   },
+   "E_hits": 9,
+   "E_denominator": 17,
+   "E": 0.5294,
+   "E_wilson95": [
+    0.3096,
+    0.7384
+   ],
+   "n_excluded_not_found": 1,
+   "E_sure_only": {
+    "hits": 6,
+    "n": 14,
+    "E": 0.4286,
+    "wilson95": [
+     0.2138,
+     0.6741
+    ],
+    "dropped_likely": 3
+   },
+   "E_map": {
+    "hits": 18,
+    "n": 21,
+    "share": 0.8571,
+    "wilson95": [
+     0.6536,
+     0.9502
+    ],
+    "sure_hits": 10,
+    "sure_n": 13
+   },
+   "strata": {
+    "all": {
+     "TP": 10,
+     "n_pred": 18,
+     "n_gold": 25,
+     "P": 0.5556,
+     "R": 0.4
+    },
+    "gold": {
+     "TP": 10,
+     "n_pred": 11,
+     "n_gold": 25,
+     "P": 0.9091,
+     "R": 0.4
+    },
+    "loc=no": {
+     "TP": 0,
+     "n_pred": 6,
+     "n_gold": 0,
+     "P": 0.0,
+     "R": null
+    },
+    "loc=yes": {
+     "TP": 10,
+     "n_pred": 12,
+     "n_gold": 25,
+     "P": 0.8333,
+     "R": 0.4
+    },
+    "nogold": {
+     "TP": 0,
+     "n_pred": 7,
+     "n_gold": 0,
+     "P": 0.0,
+     "R": null
+    }
+   },
+   "lines_not_on_oracle_toc_side": 0
+  },
+  "C3": {
+   "cell": "L8|nomono|SEL22B",
+   "TP": 9,
+   "n_pred": 27,
+   "n_gold": 25,
+   "P": 0.3333,
+   "R": 0.36,
+   "P_wilson95": [
+    0.1864,
+    0.5218
+   ],
+   "R_wilson95": [
+    0.2025,
+    0.5548
+   ],
+   "htr_substituted": {
+    "TP": 9,
+    "n_gold": 25,
+    "P": 0.3333,
+    "R": 0.36
+   },
+   "E_hits": 7,
+   "E_denominator": 26,
+   "E": 0.2692,
+   "E_wilson95": [
+    0.137,
+    0.4608
+   ],
+   "n_excluded_not_found": 1,
+   "E_sure_only": {
+    "hits": 4,
+    "n": 23,
+    "E": 0.1739,
+    "wilson95": [
+     0.0698,
+     0.3714
+    ],
+    "dropped_likely": 3
+   },
+   "E_map": {
+    "hits": 18,
+    "n": 21,
+    "share": 0.8571,
+    "wilson95": [
+     0.6536,
+     0.9502
+    ],
+    "sure_hits": 10,
+    "sure_n": 13
+   },
+   "strata": {
+    "all": {
+     "TP": 9,
+     "n_pred": 27,
+     "n_gold": 25,
+     "P": 0.3333,
+     "R": 0.36
+    },
+    "gold": {
+     "TP": 9,
+     "n_pred": 13,
+     "n_gold": 25,
+     "P": 0.6923,
+     "R": 0.36
+    },
+    "loc=no": {
+     "TP": 0,
+     "n_pred": 11,
+     "n_gold": 0,
+     "P": 0.0,
+     "R": null
+    },
+    "loc=yes": {
+     "TP": 9,
+     "n_pred": 16,
+     "n_gold": 25,
+     "P": 0.5625,
+     "R": 0.36
+    },
+    "nogold": {
+     "TP": 0,
+     "n_pred": 14,
+     "n_gold": 0,
+     "P": 0.0,
+     "R": null
+    }
+   },
+   "lines_not_on_oracle_toc_side": 0
+  }
+ },
+ "bar_L_pass": false,
+ "bar_E_pass": false,
+ "sampled_ok_lines_by_loc": {
+  "loc=yes": 81,
+  "loc=no": 85
+ },
+ "sampled_ok_lines_with_gold_by_loc": {
+  "loc=yes": 25
+ },
+ "end_to_end": {
+  "lines": 66,
+  "lines_with_gold": 16,
+  "hit": 8,
+  "n": 8,
+  "excl": 1,
+  "tp": 9,
+  "np": 9,
+  "ng": 25,
+  "volumes_with_run": 21,
+  "n_volumes": 21,
+  "E": 1.0,
+  "E_wilson95": [
+   0.6756,
+   1.0
+  ],
+  "P": 1.0,
+  "R": 0.36
+ },
+ "silver": {
+  "SEL": {
+   "volumes_in_obp": 21,
+   "n_numbers": 642,
+   "n_obp": 1088,
+   "tp": 461,
+   "precision": 0.7181,
+   "recall": 0.4237
+  },
+  "C3": {
+   "volumes_in_obp": 21,
+   "n_numbers": 858,
+   "n_obp": 1088,
+   "tp": 449,
+   "precision": 0.5233,
+   "recall": 0.4127
+  }
+ }
+}

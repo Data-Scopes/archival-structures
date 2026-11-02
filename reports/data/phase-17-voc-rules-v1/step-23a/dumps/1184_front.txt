@@ -1,0 +1,2975 @@
+== NL-HaNA_1.04.02_1184_0001 | #1 | sides: single | lines: 1
+[single] 6
+== NL-HaNA_1.04.02_1184_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1184_0003 | #3 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1184_0004 | #4 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1184_0005 | #5 | sides: single | lines: 43
+[single] 2
+[single] Tweede boeck.
+[single] Register der brieven en papieren
+[single] overgecomen in den jare 1652.
+[single] Batavia. - Ingecomen missiven. - Toncquin.
+[single] Fo 1 a 11. Copie missive in dato 2 Nov. 1651.
+[single] „ 12 a 13. Register van bijlagen missive 8 aug 1651
+[single] 1/4 a 19 Copie missive in dato 24 Nov. 1651.
+[single] „ 20 a 22. Copie instructie voor den eersten adsistent
+[single] Hendrick Baron door den coopman Jacob
+[single] Keijser verleent in dato 27 Julij 1650.
+[single] 23. a 54. Copie missive in dato 8 Aug. 1651.
+[single] 155
+[single] — 10 % 116 - 119
+[single] 55 a 119. Copie bijlagen op vorenstaende missiven
+[single] missive 2 ver. 1651
+[single] Choromandel.
+[single] 120 a 151. Copie missiven in datis Aug. , 20 Sept. , 22
+[single] Oct. , 30 Nov. en 9 Dec. 1651.
+[single] 152 a 153. Register van bijlagen.
+[single] „ 154 a 163. Copie bijlagen op vorenstaende missiven.
+[single] 164 a 170. Copie missiven in datis 30 Sept. en 5 Oel. 1651.
+[single] „ 171 a 176. Copie bijlagen op vorenstaende missiven
+[single] 177 a 184. Copie missive in dato 18 Aug. 1651.
+[single] „ 185 a 220. Copie bijlagen op vorenstaende missive
+[single] 221 a 252. Copie missiven in datis 13 Oct. , 1 en 17 Nov.
+[single] 1650, 6 en 13 Julij 1651.
+[single] 253 a 254. Copie cognossement van 't gescheepte in 't
+[single] fluijtschip d' Os. in dato 21 Julij 1651.
+[single] „ 255 a 343. Copie missiven in datis 8 en 13 Oet. , 23 Noo.
+[single] en 6 Dec. 1650, 30 Jan. , 20 Febr. , 18 en 25
+[single] April, en 21 July 1651.
+[single] „ 344 a 360. Copie bijlagen op vorenstaende missiven
+[single] „
+[single] „
+[single] „
+[single] 108 à 115
+[single] „
+[single] „
+[single] „
+[single] „
+[single] „
+== NL-HaNA_1.04.02_1184_0006 | #6 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1184_0007 | #7 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1184_0008 | #8 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1184_0009 | #9 | sides: single | lines: 33
+[single] Aen den edelen heer gouv„r
+[single] generael Carel Remersen ende
+[single] d' E Heeren Raden van Jndia —
+[single] Edele, erntfeste, manhafte wel
+[single] rn
+[single] wijse, voorsienige &n sber discrete h=r
+[single] Omme volgens schuldigen plicht niet nonchalant, noch
+[single] ter
+[single] nalatich te wesen, maer „ contrarie uEd=ns p„r dese —
+[single] presenterende occasie, met dit vertreckende Jacht
+[single] selffs haren te adviseren, wat na d' E. hr Commissaris
+[single] en Ambassadeur Wilhem Verstegens vertreck alhier in —
+[single] 't Tonckinse rijck, ten dienste van d' E. Comp„e —
+[single] gepasseert ende ons voorgecomen sij, soo sal —
+[single] aenvanckelijck seggen, als dat bovengemelte d. Heere
+[single] na dat sijne saecken in dit rijck soodanich verrecht waren,
+[single] dat 's Comp=s bij na vervallen staet, in alles naer —
+[single] wensch ten voirdele van de E. Compe opden ouden—
+[single] vrijen voet gerestaureert en herstelt, mitsgaders —
+[single] een ijder der Tonckinse Grooten de novo t'onswaerts
+[single] genegen gemaect had, op 30: Julij met de oppercoopl
+[single] Srs. Johannes Sanckaert, & Joan de Groot den Coopman
+[single] S
+[single] Sr. Sacharias Wagenaer, ende sijn E. voirder gevolch, die —
+[single] met hem p„r 't fluijtschip de Valcq naer Taijouan stonden —
+[single] te navigeren, uijt s Comp„e logie gescheijden sij & hun—
+[single] begeren in 2: a 3: huur barcken, die voor de waterpoort
+[single] van gemelte logie lagen, waij ende de vereerde vlagh
+[single] vande Tonckinse Majt. daer achter af, vorderende
+[single] sin E. in Comp=e van een convoij Galeij vanden Manderijn
+[single] Oughia
+[single] fo. 1
+[single] „
+== NL-HaNA_1.04.02_1184_0010 | #10 | sides: single | lines: 29
+[single] Onghin Tule sijns wech de riviere af na 't fluijtschip —
+[single] den witten valck, daer sijn E. op middernacht, belieden —
+[single] 't dorp Totuan noch aengeraerte, en met Campt sijn —
+[single] gevolch overscheepte, do. Valck (die een half gotelingh
+[single] schoot voor de fluijt Campenlach, ondertusschen —
+[single] sijn devoir doende soodanich met afdrijven dede, dat
+[single] op 5: Augusti den mont vanden Arcaronbesterende —
+[single] alwaer sijn 8. twe dagen noch na Campen, die achter —
+[single] waer, tarderen bleef, ende bespeurende sijnen tijt
+[single] die hoochnodich tot Taijonans bestereninge requireerde —
+[single] vast daer mede spilde, ende insgelijcx Campen noch
+[single] niet afquam, soo heeft sijn E. opden 6: Augusti Cavonts —
+[single] met advijs van rade geresolveert op morgen met den dagh,
+[single] dan
+[single] soo Campen als noch niet vernam, de reijse aente vangen, -
+[single] gelijck dan oock geschiede, depescherende sijn meer gemelte
+[single] E. mij bevorens met sijne papieren, die aen uEd: p„r dit
+[single] Jacht over Malacca, nu geconsigneert gaen, ende nevens —
+[single] dien een missive aen 't Japanse opperhooft, ende
+[single] een dito tot s„r keijsers eijgen reglement, met ordre die —
+[single] aen hem t' intregeren, waer mede dan opden 7: Augusti
+[single] met 't lunneren van den dagh van sijn E. gescheijden
+[single] ben, wesende de Valck als doen dicht aende Arcaronse —
+[single] drumpel, die hij oock in corten passeerden soodat den
+[single] selven inder ijl uijt 't gesicht geraecte, ende vorderden
+[single] doen voorts met een cleen roeij barckjen, vergeselschapt
+[single] sijnde met onsen tolck Domingo onsen wech de riviere
+[single] op waerts op, om campen tijdich te rescontreren —
+[single] maer
+== NL-HaNA_1.04.02_1184_0011 | #11 | sides: single | lines: 50
+[single] maer naer dat omtrent 2: a 3: uuren geleden was,
+[single] dat van sijn bovengemelte 8. gescheyden waer, soo comt
+[single] S„r. Keijser (met eenige achter uijt geseijlde vrunden van —
+[single] sijn E=s schip) met een barck mij te gemoeten, van meninge
+[single] sinde d'E. Hr. Verstegen belopen soude hebben, om me sijn—
+[single] E. te communiceren 't geen in 4 a 5: dagen na sijn
+[single] d=o vertreck noch boven gepasseert was, rapporteerde
+[single] aen hem, als dat meer gemelte E. heere met 't opcomen
+[single] vanden dagh, na twe dagen wachtens, syne reijse met
+[single] God de voorste aengevangen, en mij met boven
+[single] genoemde papieren gedepescheert, ende daer nevens
+[single] gemandeert had hem srj keijser daer vande japanse
+[single] missive, ende een do. tot sijn selfs narichtinge
+[single] t'overhandigen, gelijck oock gedaen, & insgelijcx met
+[single] Sr. Keijser wech gespoet hebbe na de fluijt Campen,
+[single] die (na dat van s„r keijser verstont) op sijn afscheijden.
+[single] te midden op Boomkens Eijlants droochte sat, &
+[single] door 't geheele scheepsvolck, niemand uijtgesondert,
+[single] onnaturelijcke arbeijt met winden gedaen wiert, om —
+[single] daer over te geraecken Ben op 8: Augusti met —
+[single] S„r. keijser aen do. Campen gecomen, en bevonden de —
+[single] selve door 't ontlossen van een gedeelte sijner canon
+[single] Carga, water etc merckel verlicht sijnde, noch —
+[single] met Godes hulpe over geseijde droochte geraect
+[single] waer, sijnde 't gehele scheeps volck dien
+[single] gehelen
+[single] schip
+[single] en—
+[single] sijn
+[single] lingh
+[single] ol en
+[single] dat
+[single] nd
+[single] chter
+[single] eerde —
+[single] noch
+[single] avonts —
+[single] dagh,
+[single] vangen
+[single] emelte
+[single] dit
+[single] vens —
+[single] nde
+[single] die —
+[single] gust:—
+[single] aronse
+[single] erden
+[single] en
+[single] 2
+== NL-HaNA_1.04.02_1184_0012 | #12 | sides: single | lines: 29
+[single] gehelen dach tot den 9: d=o opden middach besich—
+[single] omme 't uijtgeloste behoorelijck wederom in te nemen, —
+[single] wanneer sijnen wech (naer 5: dagen op d=o droochte —
+[single] doorgebracht te hebben) met afdrijven wederom
+[single] den 10: d=o s„r keijser mij met behorel
+[single] spoedichden,
+[single] instructie daer van 't afschrift uEd=ns hier nevens —
+[single] sende) versien, ende schriftelijck transport van
+[single] 's Comp=s nagelate middelen ten comptoire in Tonclin —
+[single] verbleren, gedaen hebbende, vaerdichden mij af
+[single] naer boven genoemde logie, alwaer op den 12: d=o savonts -
+[single] wel aengecomen ben, vindende deselve in goede
+[single] -
+[single] posture, ende door de Nederlantse Matrosen
+[single] die daer toe expres verbleven waren wel bewaert
+[single] te wesen, quam aldaer te verstaen, als dat onsen—
+[single] tolck Domingo, die een dach voor mij van geseijde—
+[single] Campen naer boven vertrocken was, onderwegen by —
+[single] 't dorp Totuan van 3: a 4: Tonkiise Roosbarckes
+[single] aengetast, en niet een pieck, doch niet doodelijck,
+[single] in sijn bil gequest, daer nevens van sijn bij hebbende
+[single] -
+[single] plunje, die vertrouwe niet veel beschoten heeft,
+[single] berooft geworden is
+[single] Opden 18e. Augusti, comt den adsistent Hendrick Levreij—
+[single] met onsen tolck Rophee van omlaegh de Arcaronse —
+[single] reviere over land, rapporterende, als dat sij twe dagen
+[single] geleden, sijnde 16: Augusti vande fluijt Campen —
+[single] van
+== NL-HaNA_1.04.02_1184_0013 | #13 | sides: single | lines: 28
+[single] van s„r keijser gescheijden sijn, die als doen met
+[single] Godes hulpe, wel en sonder stooten over de arcaronse
+[single] drumpel in see geraect waer, den Alregeerder wil de
+[single] selve fluijt, ende alle andere Compe. schepen behouden —
+[single] laten varen, en geven desselfs ingelade carga„
+[single] in soulaes van des E. Comp=s sware dragende —
+[single] lasten, een goede en profitabile marct in Japan
+[single] comen aente treffen
+[single] Geduurende den tijt onses verblijf alhier, hebben gene—
+[single] vexatien noch molestie vande minste noch de meeste
+[single] Tonkinder subject geweest, maer bij een ijder een
+[single] minsamen ende minnelijcken ommeganck genoten. —
+[single] Op 6: septemb. sijnde des Conings geboorten, dach hebbe
+[single] met de adsistenten hier ten Comptoire bescheijden,
+[single] volgens usance, geluck wenschinge ende reverentie voor
+[single] sijn Majt gedaen, brachten een present van een Persiaens —
+[single] goude laecken, dat daer toe bij sr. keijser geprojecteert
+[single] is) een geschilderde Chits, ende 2: p=s witte Bethilles,
+[single] dat sijn Maj=t. aengenaem waer, ende liet ons opde
+[single] Tonkinise wijse een bandees met cost & dranck voorsetten,
+[single] naer dat daer van gegeten, ende gedroncken hadden, deden
+[single] andermael onse reverentie, ende namen afscheijt, twe
+[single] dagen daer na liet ons sijn Maj=t door den Capado Ongsia
+[single] Bun roepen, omme sijn Majts. vrouwen te sien spelen, -
+[single] wij transporteerden, ons derwaerts, &n besteden in 't hot den gehelen
+[single] dagh, met sijn Majts vrouwen, soo opde aerde, als opde coort tesien dansen
+[single] & vermaeckelycke commedien te sien spelen
+[single] 3
+== NL-HaNA_1.04.02_1184_0014 | #14 | sides: single | lines: 28
+[single] Den Javander Risemon, heeft hem in veele tsedert 't vertreck
+[single] van d' H„r Commissaris Wilhem Verstegen, een goet behulpich
+[single] vrient van de E. Compe. betoont te wesen, over eenige -
+[single] dagen geleden, soo liet sijn Maj=t door den Capado —
+[single] Ougsia dee, den Mandorijn Oughia Tule —
+[single] af vragen, hoedanich ende op wat voor een manier —
+[single] hem best geraden docht te wesen, dat hij de verheer„
+[single] lijckinge ende 't aennemen van d' Ed: H„r gouv„r generael
+[single] voor sijnen aengenamen soon, sijne Ed=t soude laten —
+[single] toecomen, den Mandorijn daerop speculerende
+[single] quam eijndelingh te rade te werden, datt dese adoptie wel
+[single] op papier geschieden sou connen, gemelte Risemon daer
+[single] juijst doen ter tijt present sijnde, verstoute hem aenden
+[single] Mandorijn, diens aengenome soon hij is, te seggen,
+[single] naerdemael sijn Maj=t aen d' Ed: h„r Gouverneur
+[single] Generael, de grootste eere die hij aen ijmant soude —
+[single] connen doen, met dese aenneminge van voor sijn soon, —
+[single] bewijsen sal, soo soude, onder correctie vandes Maj=ts
+[single] en u wijser oordeel, sustineren, vandie eere d'E: Hr.
+[single] Gouverneur Generael op papier toe te schicken, al te viel wesen
+[single] soude, naer de verheerlijckinge, die sijn Majt. aende —
+[single] Ed: h„r Gouv„r gener„l met geseijde adoptije doet, want
+[single] seijde hij papier was en bleef papier, en wiert maer voor
+[single] papier gestadich aengesien, hadde sijn Majt. aenden —
+[single] vertrocken Ambassadeur Wilhem Verstegen, die een gesant
+[single] vand' Ed: h„r gouvern:r Gener„l geweest sij, sijne gegeven —
+[single] eer titul in gout laten graveren, soo sondet
+[single] immers
+== NL-HaNA_1.04.02_1184_0015 | #15 | sides: single | lines: 30
+[single] immers te slecht wesen de verheerlijckinge vande
+[single] Ed: H„r Gouverneur Generael, daer geseijde heere maer
+[single] een legaet van geweest is, in Papier soude geprent
+[single] staen, soude hij dan, na sijn geringh verstant begrijpende
+[single] gro
+[single] was, van opinie wesen, ware des vertrocke Ambassadrs.
+[single] verheerlijckinge, op een plaet van tien taijl swaerte gout
+[single] gegraveert, soo diende dese van d' Ed: hr gouv„r generael
+[single] ten minsten op een d=o van 20: taijl swaerte gout gegriffijt
+[single] staen, den Mandorijn dan dese reden van hem Risemon
+[single] gehoorthebbende, seijde boerterder wijs, tegens hem dat
+[single] hij een geslepen gaft was, dat meer als al te waer is,
+[single] die alle hoofse sausen en constumen bekent waer
+[single] en nam insgelijcx sijne gedane propositie voor goet
+[single] aen, die hij door meer gerepeteerde Capado Ongsia
+[single] dee, den Coningh liet toe dragen, sijne Majt. dese
+[single] voorslagh uijt mondelingh rapport van do Capado
+[single] gehoort hebbende, sent hem andermael bijden Mandorijn
+[single] Oughja Sule met ernstige begeerte en bevel, als —
+[single] dat hij Risemon sijn voorgaende advijs in scriptis —
+[single] stellen, ende sijne Maj=t door gemelte Capado —
+[single] toecomen laten soude, 't welck gedaen heeft, soodra —
+[single] dan de Maj=t 'tselve bequam, ende overgesien hebbende,
+[single] behaechde 't hem stracx, ende openden inder ijl een
+[single] seecker casjen, dat bij hem stont, waer uijt hij twe
+[single] schuijten„ of 20: taijl swaerte goutnam, en tselve
+[single] aen meergenoemden Capado gaf met stricte
+[single] recommandatie
+[single] treck
+[single] 4
+== NL-HaNA_1.04.02_1184_0016 | #16 | sides: single | lines: 27
+[single] recommandatie ende bevel binnen twe dagen daer een
+[single] plaet van te laten maecken, ende opden selfden vooren—
+[single] verhaelde eertitul van adoptie, nevens een hoge Mandorijns
+[single] titul, daer niemant dan den Manderijn Oughia Tule &
+[single] noch 2: Conings sonen in 't gehele Tonckiise rijck mede verheerlijk
+[single] sijn, te laten graveren, sullende d' Ed: H„r Gouvernr generael
+[single] dan de vierde wesen, die met de verheerlijckinge vande
+[single] Groot Mandorijns titul (wordende op sijn toncknis —
+[single] Theeu Baeuw, quun, Congh genaemt, begifticht
+[single] is Voorengemelte Risemon, na 't schijnt met
+[single] ledich connen wesen, maer gestadich met winsuchtige —
+[single] oogen uijt siet, heeft sijne oude Joncke genaemt
+[single] S=r Anthonio, groot omtrent 30: lasten, die al twe-
+[single] Jaren hier voor de stad Caetsio inde riviere plat
+[single] gelegen heeft, nu seijlvaerdich gemaect, en sal de -
+[single] selve in Compe van dit vertreckende Jacht Delfs„
+[single] haren, na de Malache Contreyen laten verseijlen-
+[single] om de reijse op Johor te ondernemen, na versta—
+[single] soude hij over lange Jaren geleden, op de plaets eens
+[single] een profitabile negotie gedaen hebben, ende daer door —
+[single] nu andermael belust is geworden t'onderstaen wat avance
+[single] gemelte Johoor als noch is gevende, sijns Joncks carga-
+[single] bestaet ten principale in partije sijde stuck goederen, en
+[single] eenige Tonckinse grove geverfde lijwaten, de monture
+[single] daer van soude naer sijn eijgen voorgeven omtrent 3000 -
+[single] taijlen fijn, emporteren, maer ben van vaste sustenne —
+[single] 't wel
+== NL-HaNA_1.04.02_1184_0017 | #17 | sides: single | lines: 29
+[single] 't wel de helft meerder bedraecht, Gemelt Risemon
+[single] is mij nu op 't Jachts vertreck bij gecomen, met versoeck
+[single] met
+[single] dat hem en pas voor do Joncke geliefde te voorsien,
+[single] geconsidereert dan hebbende, 't schoon hem refuseerde
+[single] echter hij niet desisteren sal, van gemelte voijagie met sijn
+[single] Joncke voor hem te laten ondernemen, en mede of onse
+[single] schepen voorn Joncke al sonder passe in see mochte
+[single] comen te rencontreren, evenwel daer op niet en diende
+[single] te attenteren, want soude desen gast sijn geleden schade
+[single] d' E. Comp=e hier in Tonkin wel weer dubbelt doen—
+[single] betalen, hebbe dan op sijn versoeck hem deselve verleent
+[single] waer van de copia UEd=ens hier nevens sende, vertrouwe
+[single] uEd=ns tselve niet voor qualijck gedaen sullen achten, —
+[single] want sijnde hij een persoon, gelijck ued=ens bewust sijt,
+[single] daer d' E. Comp=e in 't genieten, van hare vredige —
+[single] negotie hier in 't Tonkuise rijck, al veel aen gelegen sij,
+[single] Nahij Risemon uijtslaet, soude hij wel genegen sijn,
+[single] om anno aenstaende geseijde Jonckjen een voijagie op
+[single] Batavia te laten doen, soude 't selve nu wel gedaen
+[single] hebben, maer secht voor als noch oncundich geweest is,
+[single] wat goederen op Batavia getrocken sijn, dierhalven —
+[single] 't als noch achter wegen gelaten heeft
+[single] Soo dra sijne voors. Joncke bovengenoemt in Johor comt aen te
+[single] landen, sal desselfs barck met een courtoirs briecken door hem
+[single] Risemon hier geschreven, naer den E. h„r gouv„r Joan Thijsz
+[single] op Malacca gaen, omme haer entrance in johor sijn &. aldaer
+[single] bekent te maecken
+[single] den
+== NL-HaNA_1.04.02_1184_0018 | #18 | sides: single | lines: 28
+[single] Den Manilhasenburger Bastiaen Brouwer alias —
+[single] faas, die op 15 Augusti sijne reijse met sijne joncke —
+[single] van 2½ last groot na Manilhas Cust, om van daer—
+[single] naer Combodia over te steecken aengerangen hat
+[single] is op 5: septemb. onvolbrachter voijagie met sijn
+[single] -
+[single] uijtgevoerde carga, dat in clene quantiteijt sijde
+[single] stuck goederen, en voorts in 3: a 4000 taijlen silver bestont,
+[single] hier voor de stad Caetsio geretourneert, uijt oorsaecke
+[single] bij 't Eijlant Aijnam soodanigen snijdelijcken
+[single] doorblasende wint gerencontreert hadde dat niet boven
+[single] d=o Eijland geraecken conde, de missive aende Combodiase
+[single] Coningh, die hem door ordre van d' E. H„r Ambassadeur
+[single] Wilhem Verstegen voor desen g'intregeert hebbe, heb hem —
+[single] laten behouden also nu met ons jacht vertrect, ende de —
+[single] reijse directie naer Cambodia aenneemt, hebbe na sijn
+[single] uijt te voeren coopmanschappen nu vernomen, maer —
+[single] can niet te degen te verstaen comen, in wat voor
+[single] hoedanicheden deselve bestaen, als eenel versta redel
+[single] quantiteijt gout mede neemt, om in Combodia daer mede
+[single] incoop van goederen te doen, die hij als dan naer gedane —
+[single] negotie van daer naer Batavia meent te vervoeren,
+[single] dat uEd: voor ons te vernemen staet
+[single] Also al 't silver mij tot gastos soo voor de logie, als —
+[single] 't present vertreckende Jacht hier gelaten, geconsumeert
+[single] was, soo hebbe door den Capado Ongsia Bun aen sijn Majt
+[single] op den derden deser voor ons doen solliciteren, of sijn
+[single] Majt.
+== NL-HaNA_1.04.02_1184_0019 | #19 | sides: single | lines: 28
+[single] Majt. op afcortinge van sijn schult ( die 2 Otaijl
+[single] importeert) aen ons 4: a 500: taijl sijn geliefde te
+[single] verstrecken, vermits al ons silver gegasteert waer,
+[single] ende dit hier leggende Jacht, nootsaeckel tot syne te doene
+[single] voijagie mosten provideren, hebben eijndelijck na veel spuls
+[single] daerom te hebben, soo veel geobtineert, dat ons aenden
+[single] Mandorijn ongsja Tule addresseerden, seggende ons die
+[single] uijt sijnen name daer mede accommoderen, sou bij wien ons
+[single] van daer doen vorder vervoechden, die 't selve uijtstelde
+[single] ter tijt den Coningh selver mondelingh daer over gesproken
+[single] hadde, gelijck alles largo in mijn gehouden dach registe
+[single] opgemelte dato g'extendeert hebbe, naer dien wij dan
+[single] vanden Mandoryn tot dato toe daer niet mede
+[single] geholpen en sijn, en oock duchten, vermits dese natie -
+[single] met licht van geltscheijt, nihil op 't requestwesen —
+[single] sal, soo hebbe met 't passeren eener obligatie by
+[single] provisie 98: taijlen fijn vanden Japander Risemon
+[single] geleent, hij soude ons wel met meerder geaccommodeert
+[single] hebben, so, na sijn seggen, niet destituijt van silver —
+[single] geweest waer, aengaende 't vorder daer om benodicht
+[single] sijn, sullen soo veel van d'een of d'ander inlants coopman
+[single] tot de comste onser schepen op intrestlichten. —
+[single] De logie is alles noch in deselfde gedaente, gelijck ten tijde van —
+[single] S=r. keijsers vertreck gelaten is, excepto de oostcant desselfs
+[single] daer de aerde, door dien 't paelwerck, die deselve stutte,
+[single] vergaen waren, een gedeelte afgevallen was, dat weder, volgens
+[single] ordre
+[single] 6
+== NL-HaNA_1.04.02_1184_0020 | #20 | sides: single | lines: 31
+[single] ordre en recommandatie van sr keijser vermaect hebbe,
+[single] insgelijcx de pagger om de logie, die met een bamboesed„ om de
+[single] minste costen, & oock soo durabel, als een houte is, vernieuwt hebbe,
+[single] 't vordere dat wel reparatie van noden heeft, sullen tot comste van —
+[single] 't opperhooft uijtstellen, want dan een logijs voor deselve
+[single] gemaect werden, en 't oock met een timmeren doorgaen sal
+[single] sive Chinesen hebben op haer versoeck gelicentieert met dit Jacht
+[single] Delfshaven, naer Malacca over te varen, also deselvige van —
+[single] sints sijn aldaer of op Batavia te gaen remoreren, 't welck
+[single] insgelijcx verhope uEdens voor wel gedaen sullen houden, also die
+[single] laboreuse natie op Batavia of op Malacca ten hoochsten requireren.
+[single] Aengaende mijne gecregen ordre, om dit Jacht sijne ladinge in rijs —
+[single] te geven, om die op Malacca te brengen, soude garen volvoert
+[single] hebben, so den marct derselver hem eenichsints redel daertoe
+[single] vertoont had, maer is doorgaens op 15: Maes sijn 't picol, gelijck
+[single] noch tegenwoordich is, geweest, dat 't last op 52 a 53 R„a
+[single] soude maecken testaen, en buijten twijffel noch meerder —
+[single] belopen sou, also destituijt van silver sijn, en daertoe dan
+[single] intrest penningen vereijschte, die geseijde rijs dan noch soo
+[single] veel te duurder soude gemaect hebben, om d'E. Compe dan voor
+[single] oogschijnelijcke schade te verhoeden, vermits 't last derselver
+[single] op Malacca meer als een derde minder in prijs doet, soo —
+[single] hebbe met advijs ende goetvindinge vanden schipper & —
+[single] Boechouder van't Jacht, en de adsistenten hier ten comptoire —
+[single] bescheijden geresolveert, den opcoop van rijs, soo niet merckel in —
+[single] prijs quam te dalen, achter wegen te laten, en in desselfs plaetse een matige-
+[single] quantiteijt Auijs te amasseren, tot welckers opcoop mede geen apparentie hem
+[single] sien
+[single] verfoontheert, also die van 't oude gewasch al meest schijnt vervoert
+[single] te sijn, & den nieuwen Gegstdagelijcx staet te
+[single] beginnen
+== NL-HaNA_1.04.02_1184_0021 | #21 | sides: single | lines: 27
+[single] Beginnen de duerte inden rijse is nat seggen vande Inwoonder.
+[single] Gecauseert door de hooge Zee vloet, welckers water de meeste
+[single] part vande landerien omlaech, die sulcke Granen gaven bedurven
+[single] heeft, soo dat 'tgeen dagel:jk te marct comt den Inhabijtuanten
+[single] selffs machtich is te Consumeren. —
+[single] Cargesoen dat in dit Jacht delfshaven gescheept hebben, is van
+[single] weijnich emporte, Gelijck wed=e uijt de nevens gaende factura —
+[single] gelieft te besichtigen. bestaendein 08: Cattij annijs van't
+[single] Oude gewas, die ingecoft hebben tegens 70: m:s spicol en, 46 —
+[single] laie 6: m=r swaerte muscus, die 't Catti tegen 16: taijl: comt te
+[single] taen. dat noch 5a 6. T=s goeder incoop is, als ten tijden doen —
+[single] Onse scheepen hier waren, wordende als doen, t Castij gevent ende—
+[single] verost 205 a 24 tail. vorders 13: stver soo toncquinse fluweelen
+[single] als satijnties die van een Chineese debiteur op affcortinge van
+[single] zijn debet naer ons genomen hebben, monterende tgeheel
+[single] Cargesoentie maer ƒ 580: 17: 1 —
+[single] Het hartel:je leetwesen om redenen vooraengeroert, moeten dit Jacht
+[single] dan ten ondienste vand' E Comp=e, dus ledich laten overseijlen —
+[single] Met dese 2: Toncquinse ambassadeurs gaet eenen domingo zijnde
+[single] een toncquijnder die de portugesenatie haer tolck in dit rijck
+[single] is) als ten dienste van haer mede in plaetse van onsen tolcq.
+[single] die anders gegaen zoude hebben) welck op 24=en september naer
+[single] eenigen tijt aende buijckloop gequijnt te hebben, van dese
+[single] Welrelt gescheijden is, dese voornoemde portugese tolck is listich
+[single] doorhulpe van zeeckere Capado hier toegecomen, doch dit is —
+[single] Conincx en princen dienst en gaet d' EComp:e niet aen
+[single] maer
+== NL-HaNA_1.04.02_1184_0022 | #22 | sides: single | lines: 26
+[single] maer, hij meent en is van vaste sustenue, gelijck oock
+[single] hier van hem gaet geven, dat in dees overledens plaets in 's Comp:s
+[single] dienst gebruijckt sal worden, daer wij tot nochtoe, de wech voor
+[single] hem gesloten gehouden hebben, vermits alhier van een Ider
+[single] te verstaen comen, dat hij niet altehens van mondten is, ende
+[single] onlangs den Negotiant, Bastiaen Brouwer, die
+[single] hij als Tolck diende een schelmse daet gespeelt heeft, met
+[single] aen den prince valschelick te rapporteren, dat hij bastiaen niet
+[single] onvolbrachter voijagie geretourneert souw sijn, maer al een voijagie
+[single] Op manilha gedaen had, ende sijne van hier uijtgevoerde Coopmansz
+[single] aldaer in goudt al om geset, ende 'tselke m:r in retour alhier
+[single] aengebracht zoude hebben, den prins hier nalatende inquireren
+[single] nns gel: bastiaen Brouwers vaertuijch visiteren doende, heeft
+[single] heel Contrarie tot schimp van desen Logenaer bevonden, hij sal
+[single] met schoon voordoen ongetwijffelt door V Ed:e in gem: overledens
+[single] plaetse soecken geintroduceert te werden, ende op dat vEd=es van
+[single] voor desen fijnen quant gewaerschout mach sijn, hebbe raetsaem
+[single] Geoordeelt, VEEd=s dit vooren verstaelde tot een proeft en bevesting
+[single] zijner deuchdelijk qualiteiten, die hij over hem heeft te
+[single] Remonstreren, daer sijn buijten twijftel eenige Capados
+[single] en andere die hem garen hier toe gevordert sagen, Gel: VEd: in ons
+[single] Dach register op p=mo deser sultgelieven te besichtigen, heeft
+[single] Hem noijt dier wegen bij ons derven verthoonen, vermits wel weet
+[single] ons zijne stuckiens bekent sijn, ten anderen zijn wij hier noch
+[single] met een goeden tolck versien, en de tweede alleen maer voort
+[single] Breecken is, voor desen heeft d' E Comp:e haer lange met
+== NL-HaNA_1.04.02_1184_0023 | #23 | sides: single | lines: 32
+[single] een tolck behoepen, en zoo een twede gerequireert wert, ende
+[single] mancqueert het al hier aen geen dubbelt beter, stoff.
+[single] als die voorengenoemde Domingo is, daer d' EComp=e niet als
+[single] een doorne mede in haer Eijgen voet souden treeden, twantsonde
+[single] hij stodes de persoonen, die hem hier toe garen gevordert
+[single] sagen, de gront van Comp:e staet voor soo veel hem
+[single] Bewustsouw zijn) aen haer gehouden zijn te openbaren —
+[single] daer desen quant (door zijn gegeve preuve) heel bequaem toe is
+[single] Naer dat uijt de Reden van den Capado Ongsia Cum (onsen
+[single] voordrager bij den prins) verstaen, soo toondt den prins —
+[single] hem extraord:r genegen tonswaerts, ende zoude hem gevraecht
+[single] Hebben, wie alhier in Tonequim door den H=r ambassadeur—
+[single] overgelaten waren, daer hij naer vereijs op gerespondeert hadde
+[single] 5
+[single] waer mede den prince wel gecontenteert was, ende liet
+[single] door ditto Capado. Op den 7=en october, ons zijn groete toecomen —
+[single] met recommandatie mij soo danich in't Toncquijns rijcq —
+[single] te comporteren, als s=r keijser gedaen heeft, ende dien—
+[single] tot een voordeel te nemen, welck hij seijde mede eerste
+[single] esleech schrijver geweest, ende nu door sijn wel
+[single] dragentheijt, tot Capiteijn gecoren is, daer over onse schuldige
+[single] Danckbaerheijt zijn Hooch:t lieten toecomen, gelijck VEEd=e
+[single] als Largo. Op voorn: dato in mijn dagel: aenteijckeninge, sal
+[single] w
+[single] gelieven te besichtigen —
+[single] Den prince heeft nu opt vertreck een dienaer bij mij gesonden
+[single] Off niet eenige ongemeene rara goederen wist op
+[single] Batavia te zijn, waer dier geli:k wijten Tonquin geweest zij
+[single] ende
+[single] E
+[single] 7
+[single] 8
+== NL-HaNA_1.04.02_1184_0024 | #24 | sides: single | lines: 30
+[single] ende dat hem sulcx soude bekient maecken, hij wilde deselve
+[single] door sijn Legaet aldaer voor hem doen Opcoopen hebbe hem
+[single] daer op door ditto dienaer in antwoort tvolgende laten dienen, dat
+[single] mijnes wetens eenige hare goederen st Batavia sijn —
+[single] daerder van deselve bijt in Toncquin geen waren van geweest
+[single] t' conde wel wesen, datter iets Baers met de scheepen uijthollant
+[single] aldaer aengebracht waer, ende zoude dier wegen als een bereijt
+[single] Dienaer van zijn Hooch: een Letterken aen d' Ed: heer
+[single] Ed=es zoodanich—
+[single] Gouvern=r generael schrijven, soo zijn
+[single] iets uijt hollant Becomen had, dat tselffde doch voor
+[single] den prins gelieffde te bewaren.
+[single] Op 26=e october zijn bij sijn maij=t die in sijn doelen waer
+[single] geroepen geweest, daer wij met de adsistenten hier ten —
+[single] Comptoire bescheijden derwarts transporteerden, met een
+[single] geschenck van een schoone Jappanse Rocq, en een P=l moeris—
+[single] (hebbende den mandorijn Ongsia Lulae, ons sulcx gerecommand=r
+[single] gel: vErd=es uijt mijnne dagelijcxse aenteijckeninge op dies datum
+[single] sult gelieven te besichtigen) wierden terstont voor sijne maij=t
+[single] (die in een hangmat sat) gebracht, alwaer onse Reverentie
+[single] met presentatie van ons geschenck deden, dat hem beijde
+[single] aengenaem waer Liet mij 'tgoude siap daer d' hier vooren —
+[single] gementionneerde eertijiel van d' H=r gouvern=r generael
+[single] ingegraveert stondt, door een Cavado verthoons gewijs in
+[single] handen gegeven, met ordre van 't selve boven thooft te heffen —
+[single] . t ^ daer mede
+[single] ende eene aen zijn Maij=tte bewijsen, gel„k oock behoorlick —
+[single] dede
+[single] C
+== NL-HaNA_1.04.02_1184_0025 | #25 | sides: single | lines: 27
+[single] Eede, wierde als doen geseijde eertutelen die daer in gegriffet
+[single] stonden, voorgelesen, de welck onsen tolck aengaende weechs
+[single] ons vertaelde, zijnde van soodanichen Inhouden als vEd=e uijt
+[single] Het nevens gaende Translaet daer van bedeelachticht wert —
+[single] na 'tselve gedaen zijnde ons gelast weder op esn mat (zijnde
+[single] pas 5 stappen van zijn Maijj daer hij ons ende wijhem
+[single] heel duijdelick bekennen conde, neder te gaen sitten, ende Liet
+[single] ons met Foncquins cost en dranck tracteren, terwijl wij —
+[single] dan met eeten besich, ende sijn soldaten na doel schieten:s waren
+[single] dee sijn Maij=t ons door een Capado afvragen, Offer wel
+[single] meerder plaetsen (buijten Hollandt) daer negotie dreven, waren,
+[single] Op welcker soodanige exercitie als hier in Tomkijn gedaen wierd
+[single] daer op aen zijn Maij=t in antwoort lieten te rugh dragen —
+[single] van neen, stuijrende Gem:e maij= doen andermael een —
+[single] Capado bij ons met een Chitsen rock, zijnde groote bloemen—
+[single] die met goudt verciert waren, diende ons aen, als dat sijn Maij=
+[single] ons recommanderende, dat aen t Ed=es soude advijseeren, als —
+[single] in aenstaende voor zijn Maij=t goude Chitsen herwarts
+[single] gesonden wierde, dat 'Idach geen cleene, maer vooral soo dangen e
+[single] grooten Bloem, als de voorgaende Rockwas, soude maken —n
+[single] te wesen, daer op repliceerde als dat sulcx door onsen —
+[single] vertrocken H:r ambassadeur aen V Ed=s al geadvijseert was, ende
+[single] tot verseeckering van dien. 'tselve ten dienste van sijn Maij=t
+[single] nu mede doen sonde, dit dan dus gepasseert sijnde, wiert ons
+[single] gelissenthiert te vertrecken, twelck na betoonde Reverentie
+[single] voor sijn Maij=t deden.
+[single] O
+== NL-HaNA_1.04.02_1184_0026 | #26 | sides: single | lines: 28
+[single] Op dato wierden mede tot den prins geappoincteert, daer ons —
+[single] derwarts vervoechden ende onse Reverentie met een geschenck
+[single] van een schoone Jappans rock, voor hem in zijn Hoff deden
+[single] den selven recommanderende mij nu andermael (gelijk vooren
+[single] mentie van gemaeckt hebbe) dat aen v Ed=es soude schrijven —
+[single] soo verd=r eenige Rare goederen op Batavia waer hebbende
+[single] dat die aen sijn gesant genaemt van Theeuw gelieffde
+[single] te laten besichtigen, ende soo de selve hem voor sijn Exellentie
+[single] aenstonde, dat u Ed=e maer gelieff den herwarts te
+[single] laten coomen, willende hij smancquement, dat zijn gesant
+[single] aende betalinge liet, hier in Toncquin aend' EComp=e
+[single] behoorlick voldoen, namen dan, naer Dewijs van bethoonde
+[single] reverentie ons affscheijd, wiert als doen ons door den Capado
+[single] Ongsia Tun. uijt sprincen recommandatie, sijne geschencken —
+[single] vertoont, 'twelck bestondt in een schoone silvere pinangh —
+[single] doos, daer van't decksel met goudt ingelecht was, een princel=j
+[single] hooft cieraet (na de wijse hij selffs draecht:) mitsgaders
+[single] een schoone Laeuse gom, 'twelck alles voor d' Eed H=r gouvern=r
+[single] Generael was, ende noch 5. Toncquinse met silvere beslagen
+[single] zeepmessen, die voor 5: van zijn Ed=s raaden op Batavia —
+[single] waren, n 't selve dan besichtight hadden, sijn van daer geschenden —
+[single] Den mandorijn Ongsia sulel recommandeerde ons op 27=e october
+[single] dat (gelijck als bi d' H=r ambassadeurs Jerstegens tijt geschietwas)
+[single] Op den 30 october de Offecieren zoo vande Logie als t Jacht
+[single] nevens 20 a 25 matroosen, alle op't sierlickste gecleet
+[single] hun met den dach claerhouden soude, om 'tgeschenck vanden
+[single] Coningh.
+== NL-HaNA_1.04.02_1184_0027 | #27 | sides: single | lines: 30
+[single] 10
+[single] oningh ende den Prince met soodanige statie uijt
+[single] beijde de Hoven in't aenschouwen vande Toncquinse geheele
+[single] weerelt, in onse Logie te htalen, om van daer dan vorders aent
+[single] Jachts poort getransporteert, gelj op d=o dato, aock alsoo —
+[single] geesectueert wierd, zijnde wij 'tsamen te weten de
+[single] Offecieren soo vande Logie als tJacht te paert, ende de
+[single] Natroosen die in 30 stx: bestonden te voet, alle welcke
+[single] Opgepronckt waren met roode Cherve en Levereijen, ende—
+[single] daer onder een drie dubbelde prince vlagh, in welck aensien met
+[single] goede ordonnantie uijt onse Logie doorde stadt naer s ware
+[single] Conincx
+[single] doelen marcheerden, alwaer door den mandorijn ongsia Tulee
+[single] voorsijn Maij= gebracht wierden, daer onse reverentie voor
+[single] den selven deden, de welck ons doen de goude plaet daer de
+[single] eertitulen ingegriffet stonden, toecomen liet, die
+[single] wij op eer dergult verthoont tafeltie stelden, en daer mede in—
+[single] voorgaende posture, dat in't aenschouwen van duijsenden
+[single] van Toncquinders naer de Logie retourneerden, twaer gecomen—
+[single] zijnde onse matroosen drie mael met musquets lieten —
+[single] chergeren, ende aen't Jacht met de vlagge vande Logie
+[single] op en neer te halen, en zeijn deden, welck met eens romtlom te
+[single] los
+[single] branden, daer op antwoorden.
+[single] no
+[single] aermiddachs hebben Insgel: op voorgaende wijse sprincen —
+[single] Schenckagie van hem uijt sijn Hoff in onse Logie gehaelte
+[single] daer mede driemael met musquets op Chergeren lieten; ende die
+[single] Dan't Jacht met hun canon van eens loste branden. Op —
+[single] Responderen
+== NL-HaNA_1.04.02_1184_0028 | #28 | sides: single | lines: 28
+[single] Responderen deden, van waer dan vorders es Conincx ens princen —
+[single] presenten met de ambassadeurs naer 't Jachts voortbrachten, welck
+[single] doende novo ter eeren van sijn Maij=t ende den Prins eens
+[single] affbranden moest (zijnde ons tselve alvooren gelast)
+[single] hadden nu eijndelinge naer veer moijtens en wachtens (gelijk
+[single] mijn gehouden dachregister genouchsaem declareert) volcomen
+[single] licentie om tjacht van sijn ancker plaets, naer om laech te
+[single] laten affdrijven, en sijne reijse te vervorderen, gelijck oock
+[single] Op stond geschiede
+[single] D'ambanadeurs. die V Ad=e hier tegenwoordich soo van den Coning
+[single] als Prince becomt. zijn deese d'eene van zijn maij. is genaemt
+[single] Pansiap: die 17: persoonen tot suijte onder hem heeft
+[single] die vande Prince wert genaemt. van Theeuw heeft 10—
+[single] persoonen totgevolch mede, daer nevens, hebben tot hunnen —
+[single] vertaelder d' Hier vooren gerepeteerde domingo, die al
+[single] mede eenige dienaers overvoert
+[single] Soo als dit Jacht Delffs haven in sijn affdrijven naer
+[single] de mont vande arcaronse reviere was, Comt den voorigen genoemde
+[single] Tolck vande 2: overgaende ambassadeurs met een vaertuijch
+[single] aen boort, daer in was hebbende 12: packen Rouwe sijde
+[single] bestaende in 5 p=r naer dien selver met gem: Jacht een —
+[single] stucq weechs afgedreven, ende nu noch aen boort waer.
+[single] vraechde hem wie sulcx toequam, dat hij zeijde den groot rechten
+[single] ongsia de ling. ende den Tapado ongsia dee toe te comen, voor
+[single] De welcke hij die mede overvoeren, ende op Batavia vercoopen
+[single] soude, en voort procedido daer van, eenige raere goederen —
+[single] voor.
+[single] 9
+== NL-HaNA_1.04.02_1184_0029 | #29 | sides: single | lines: 30
+[single] a
+[single] 10
+[single] voor hun aldaer Opcoopen wilde, soude die wel wederom
+[single] hebben laten gaen, om gem: 2 Capadesen, Daer mede
+[single] geen quade gewoontie in te willigen, maer Considereerende
+[single] zoo de selve te rugh sont, dat daer door hun als vijanden vande —
+[single] Comp=e (waer tot noch toe vrunden van geweest, ende oock hier
+[single] in Tonckin al redelick van vermogen sijn, maeck en souw: soo —
+[single] dat 'tselve soo laten passeeren, ende niet heb tegens doen durven
+[single] als alleenlick aen gem: Domingo: hoochl: te recommanderen
+[single] dat aen niemandt anders dan d' E Comp=e dieventen soude
+[single] twelck hij beloofte sullen prasteren, Oock op dat hij deselve
+[single] in malacca daer aen geen particulier vercoopen sal, hebbe
+[single] aenden E h=r Gouvern=r Joan Chijsen, 'tselve mede
+[single] g'advijseert, ongetwijffelt sal onder de vordere—
+[single] overgaende Concquinders in hun kissiens en kasiens dat
+[single] hier niet gevoecht zouw hebben, om die te visiteren) mede
+[single] al eenige partie toncquinse zijde stuck goederen, tot
+[single] vercoop schuijlen. voor welckers rendement hare goederen —
+[single] meenen op te coopen, zijnde mij expresselicken vanden manderijn
+[single] engsia Talee hier aengedient, dat aen V Ed=s soude advijseeren
+[single] dat voor niemand (dan voor den Conincq, Phins en hem mandozijn)
+[single] iets raers soude werden gelisentieert om op te coopen, twant
+[single] seggende hij soodanige goederen hier in Tonckin. door haer
+[single] dan gebracht werden. zoude niet als groote travacies voor d'E
+[single] Comp=e sijn, vermits den Coninck soude meenen wij —
+[single] die hier aengebracht ende Aen haer verost hadden
+[single] dee —
+[single] Onder genoemde Domingo is medaande apado ongsia
+[single] een
+== NL-HaNA_1.04.02_1184_0030 | #30 | sides: single | lines: 27
+[single] een Courtois briefien, en 2. st met gout beslagen peiecken
+[single] berustende, om aen d' Ed H=r Gouvern=r Generaal
+[single] t Jntregeren, den Inhout vermits niet getranslateert hebbe—
+[single] Is mij onbewust dese voorn: Capado ist die gemelte
+[single] Domingo Gaerne in s Comp=s dienst als tolck gevordert
+[single] sagh, dat alleenich maer om sijn Eijgen Particulier gewen—
+[single] doet, gelijck alreede de voornoemde zijde genouchsaem doceert
+[single] Den Jappander Risimondonne heeft aen verd=r mede
+[single] en missive geschreven, vertrouwe den gesant Pansias
+[single] die onder hem heeft.
+[single] Last schrift vande Conincx sprincen, en mandorijns
+[single] missive gaet hier nevens. —
+[single] Ed=e Becomen oock hier mede de Tomkinse Logie
+[single] mo
+[single] Boeckiens die van P=mo februar: tot 15=en october geloopen
+[single] hebben, en't specificatie boeck van mont, huijs, scheeps—
+[single] Extraordinarie ende Op Coopmanschappen gevallen. Gerosten
+[single] sedert 25=en Julij a=o passato: tot den 29=en Julij Jongst
+[single] leden, mitsgaders een Catolugus van medecamenten, die
+[single] Hoochnodich voor dit Comptoir requireren. versoecke dan gants
+[single] eerbiedel: VEd=e in aenstaende ons daer mede gelieven
+[single] te laten provideeren.
+[single] Vermits dan geen vordere stott en hebbe omdesen te
+[single] Extenderen soo sal besluijten ende
+[single] ier mede
+[single] Edele erntseste, manhafte wel wijse voorsienige
+[single] ende seer bescheijdene Heeren VEd:e naer mijne
+== NL-HaNA_1.04.02_1184_0031 | #31 | sides: single | lines: 21
+[single] „1
+[single] onderdanige Groete, beveelen inde ware en de seeckere —
+[single] bescherminge vanden Almachtigen, die d' E Comp=e
+[single] els
+[single] standt onder VEd=le hoochloffel:j—
+[single] Ienduschens
+[single] Regieringe langs hoe meer florisanter gelieve te —
+[single] maecken.
+[single] Int Jacht Delffshaven: Drijvende inde arcaronse
+[single] Repiere bijt dorp Totuan. In't Connckrijck
+[single] Goncquin desen 2=en november A=o 1651:—
+[single] Verd=e onderdanige dienst ende
+[single] 5
+[single] Trouwschuldige dienaers.
+[single] Pieter boons
+[single] te
+[single] Naer gedaene Collatie Jegens sijn principal.
+[single] 2o
+[single] berustende ter generaele secretarie
+[single] bevinde deses daer mede 't accorderen-
+[single] In't Casteel Batavia desen 2=en Januarij 1652
+== NL-HaNA_1.04.02_1184_0032 | #32 | sides: single | lines: 6
+[single] Copie missive door den ondercoop=mn
+[single] Pieter Boons aen haer Ed: dato 2=en
+[single] November 1651 geschreven uijt
+[single] Tongum
+[single] Tonquin
+[single] No. 42
+== NL-HaNA_1.04.02_1184_0033 | #33 | sides: single | lines: 34
+[single] N:
+[single] Register vande nevens gaende
+[single] papieren die bij dE: H=r Commissaris
+[single] Willem Verstegen Pr. tjacht delffs
+[single] haven van hier over Malacca naar
+[single] Batavia aende Ed: heer gouvern=r
+[single] generael ende d' E: H=ren Raden van
+[single] Jndia gesonden worden
+[single] Originele Missive door sijn Voornoemde Eaen
+[single] wel gemelte Ed: H=r gouv=r generael ende —
+[single] dE: heeren Raden van Jndia in dato 8=en augusti
+[single] ao. 1651. geschreven,
+[single] facture van tgeladen alhier in t voorsz:
+[single] Jacht voor
+[single] 3: Cognoissement desselfs
+[single] 4. Copie Resolutien bij voor aen getogen & Commissars
+[single] is
+[single] en desselfs laet soo op de Reijs als in 't Comptoir
+[single] Tonckin getrocken tsedert 11en Maij tot
+[single] en
+[single] 5=en Julij
+[single] Copie dagh-register van't gepasseerde beginnend
+[single] den 29=en appril 1651. Eijndigende 30=en Juli
+[single] daer aenvolgende
+[single] 6. acte van authorisatie werden persoon vande
+[single] Ed: H=r Carel Reniersz gouvern=r
+[single] Generael
+[single] van Nederlandts Jndia
+[single] Copie Jnstructie door sijn voorn: E: aende
+[single] overhooffden
+[single] 52
+[single] 2.
+[single] 5
+[single] 12
+== NL-HaNA_1.04.02_1184_0034 | #34 | sides: single | lines: 29
+[single] roverhooffden op t Jonckjen Catwijck dato
+[single] mo
+[single] Maij ter rant gestelt
+[single] 8. d=o den Coopman wagenaer ende den Schipper
+[single] Heere Jacobsz opt vertreck van sijn E Sr
+[single] t voorsz. Jonckien vooruijt naer lant opt Jacht
+[single] delffs harlen dato 7 Julij gelaten
+[single] 9. d=o den Coopman Jacob keijser als provisioneel
+[single] opperhooft vant Comptoir Tankin in dato
+[single] 11=en Julij ter hant gestelt
+[single] Copie Missive door wel gemelte E Commiss=rs
+[single] aenden Coningh van Cambodia in dato 20=en Julij
+[single] Pr. Bastiaen Brouwer gesz.
+[single] Copie pascedulle den Selven op sijn
+[single] Voijagie verleent
+[single] Copie Missive door sijn voorn. E en desselfs
+[single] 12
+[single] Raet aen t dirigerent opperhooft enden Voirderen
+[single] raet Pr de fluijt Campen naer Jappan in dato
+[single] 8=en augusti ges:
+[single] D=o aenden E heer Joan Thijssen Gouvern=r
+[single] 13
+[single] van Malacca Pr. tJacht delfs haven in
+[single] dato als boven gesz.
+[single] Specificatie vande Schenckagie door ordre
+[single] 14
+[single] van sijn E: aenden Coningh, prins groot Man„
+[single] dorijn als andere grooten alhier gedaen
+[single] 11.
+== NL-HaNA_1.04.02_1184_0035 | #35 | sides: single | lines: 19
+[single] 13
+[single] 18
+[single] 15. Translaet vande Eeren-Titulen waermede
+[single] sijn E. van den Coningh en prins beschoncken zij
+[single] Copien van twee verclaringhen ten laste van
+[single] Jan van dalen gewesen Schipper vande —
+[single] fluijt Campen
+[single] 16:
+[single] 17. Memorie oft Eijsch van Larieteijten voorden
+[single] prins R=a
+[single] Copie Briefken door sijn E: op ons vertreck
+[single] tot Reglement voor d'overhooffden vant Jacht
+[single] Delffs=haven gelaten
+[single] Translaet der Missive vanden prins aende Ed H=ren
+[single] ren
+[single] na
+[single] gouvern=r Generael
+[single] 20. Brieffken dato 8=en augusti uijt fluijt Schip
+[single] de witte Valck aen Sr keijser geschreven
+== NL-HaNA_1.04.02_1184_0036 | #36 | sides: single | lines: 4
+[single] Joniquin
+[single] Register vande Papieren.
+[single] No. 1„
+[single] 1651.
+== NL-HaNA_1.04.02_1184_0037 | #37 | sides: single | lines: 35
+[single] Copia
+[single] 14
+[single] Ed:e Heere Carel Reniersz
+[single] de
+[single] de Ac
+[single] Gouv. r Gual over den stant der
+[single] &
+[single] :
+[single] vereenichde Nederlanden in
+[single] Oriensen
+[single] Ed=e gestrenge Erntfeste
+[single] wel wijse voorsinige seer
+[single] discrete Heere
+[single] Den aensien den E. Heer Commissaris
+[single] willem verstegen met syne comste op 11=e
+[single] Iunij in Conck in 'tselve Compt„r volgens sijn E.
+[single] Commissie seer naeuw gevesiteert, en alle
+[single] papieren als negotie boucken, dagh register,
+[single] specificatie, en andere daer aen dependerende,
+[single] ende tot dit Comptn. behoorende schriften,
+[single] grondich en punctueeljk naer geooght en doen
+[single] naer oogen heeft, waer bij dan sijn gedachte
+[single] E. t'gepasseerde soo in Negotie, als andere
+[single] saken, tsedert tschrijven met tJonckjen Catwijck
+[single] S=r de groot aen u Ed. e gedaen tot boven
+[single] door
+[single] genoemden tijt toe voorgevallen, volcomen,
+[single] gebleecken, en u Ed. e dit alles soo in sijne brieven
+[single] dagelijckse aenteijckeninge ende resolutien uijt
+[single] o
+[single] Tonckin p. r tJacht delfs Haven over Malacca
+[single] als uijt Caijpuan toegesonden, u Ede claer en
+[single] tot genoegen sal aengewesen, en niet vergeeten
+[single] noch
+== NL-HaNA_1.04.02_1184_0038 | #38 | sides: single | lines: 26
+[single] noch overgeslagen sal hebben, mitsgaders met
+[single] wat eer respect, enstatie, sijn gedachte E
+[single] E.
+[single] telckens soo van den Coningh, Prins, den Mandorije
+[single] Onghsjatulee, en andere grooten te hooff inge„
+[single] „haelt, en weder thuijs gebracht, Item met wat
+[single] voor een genoegen, alles wedersijts verhandelt,
+[single] verricht, en toegegaen sij, bevinde mijn penne
+[single] niet Capas off te swack, om dit alles naer
+[single] behooren uijt te drucken, als oock mede om—
+[single] u E. do met dubbelt, en overvloedich schrijven,
+[single] te doerlesen, niet te verveelen, ongeraden, wes
+[single] hier meer van aen te haalen, verbijgaen, ende ons
+[single] onder reverentie, gedragen, aen vooren aengeroerde
+[single] papieren van sijn E. den H. r Commissaris, wes
+[single] dan oock egene schriften als de Negotie
+[single] boeckjens, en specificatie sij sendende, tot welc„
+[single] „ken geleijde dat ooc eenelijk sij schrijvende daar
+[single] aen willen verhoopen U Ed:e sullen gelieven te
+[single] nemen contentement
+[single] Als mede hoe niet tegenstaende 't groote gewoel
+[single] van beijde des Conings en des prinssen hoffs, als
+[single] doorgaens van andere grooten delogie vol ende
+[single] van derselver hoovelingen geduijrich vervult
+[single] was, nam echter den handel als eenichsints
+[single] 1 onser
+== NL-HaNA_1.04.02_1184_0039 | #39 | sides: single | lines: 29
+[single] 'tonser verwonderinge dapper zijn voorganck,
+[single] want op 't vertreck van d' E H. r Commissaris
+[single] boven 't'aengeslagene ende 17100 ende ic die niet
+[single] eerder als drij dagen daer aen om te volgen
+[single] conde claer raecken, lichten onder des noch
+[single] E 6200. makende tsamen ene 23300, welcke
+[single] op intrest genomen penningen meest inde
+[single] beste sorteringe van zijde, en dat te grager
+[single] handt, boven t' aldaer gebrachte Capitael, om„
+[single] „geseth zijn, alle welcke daer uijt voortgecomene
+[single] winsten als sijnde onverwacht d E: Comp=e in
+[single] haare, te desen Iare gedane excessive en swaere
+[single] Schenckagjen en oncosten, dapper te gemoet
+[single] treedt, en te stijven compt,
+[single] een
+[single] Wij willen niet twijffelen off Comp=es Capitael
+[single] dit Saijsoen derwaerts geprojecteert, en buijten
+[single] de twee gepasseerde Iaaren, vrij vergroot, en veel
+[single] over de vijff tonnen guldens te bedragen comt
+[single] off sal met meerder rust, verdragh en lust.
+[single] de
+[single] verseth werden, dat Godt geve, en soo uijtvallen
+[single] sal d' E. Comp. e daer merckelijk voordeel, en die
+[single] mij dien handel te doen toevertrouwt hebben,
+[single] perticuliere eere toegeeijgent werden, waer toe
+[single] wij seer goede, moet hebben, ende oock allen
+[single] onse
+[single] drijn
+[single] 15
+== NL-HaNA_1.04.02_1184_0040 | #40 | sides: single | lines: 28
+[single] onse getrouwen ijver toe inspannen sullen, want
+[single] egene de minste achterdocht van verhinderinge
+[single] te duchten sij, off ten ware den aenstaende, met
+[single] quinam te maken vreede, eenich misnoegen
+[single] aent Hoff couseerde, en soo door dit toeval in
+[single] verachtinge onder de grooten te geraken quamen
+[single] wanneer de gemeente uijt vreese, van veel
+[single] met ons te Corresponderen de logie schuwen, en
+[single] andere wegen om winst te doen, in slaan souden
+[single] dat den tijt leert en u Ed=e met die over„
+[single] Conckin toecomen Ionck geadviseert werdt,
+[single] altijt houde ickt daer voor met onse Comste
+[single] tselve hun noch onbewust sijnde wij t'wel
+[single] mogen stil en vande strandt houden, en hun
+[single] bekendt zijnde, t' voor eerst daer op leggen, dese
+[single] gesantschap eenelijk tot verlossinge van veeler
+[single] onser gevangens, diese op hunstranden bij blijven,
+[single] van eenige onser Schepen aengehouden, en aldaer
+[single] langh geseten, aengeleijt sij, en wes meer naer
+[single] bevindinge van saken, t'antwoorden, en ons ge„
+[single] „dragen sullen, in welcke off diergelijk voorvallen
+[single] x
+[single] t'wel ofte qualijk nemen t' achterhaalen, en te —
+[single] weten te comen, verscheijde Capados en andere
+[single] Hovelingen, die in beijde des Conincx ende des
+[single] Princen hoff, te vrundt hebbe, niet t' ontstade
+[single] comen, waer in mij selven oock vrij, tergeruster stelle:
+[single] E„
+== NL-HaNA_1.04.02_1184_0041 | #41 | sides: single | lines: 32
+[single] 16
+[single] end aldaer bij uEde. aen„
+[single] „gelanght waaren
+[single] En soo bij aldien voornemens waaren dit werck
+[single] wat hooger te heffen, oordeelen wij den vuer„
+[single] „wercker die vande E: H. r Commissaris met
+[single] ons derrewaerts te gaen g'ordonneert is, met
+[single] t' maken van eenige vuerwercken en werpen
+[single] de
+[single] van Grauaden, doch voornamentlijk met
+[single] mortiers machtich sijn, dat gerucht geheel
+[single] ofte ten deelen te verdooven, als connende daer
+[single] uijt genouch saam bespeuren, wij niet ongenegen
+[single] blijven, hun landt met soodanigen extraordinarien
+[single] Oorlogs gereetschappen tegen hare vijanden
+[single] t'assisteren, continueeren, en in sonderh. t bij de
+[single] rijcx raaden in consideratie genomen werden
+[single] Oock en sal ander Correctie gesproocken, niet
+[single] vreemt coomen de Gesanten die over Malacca
+[single] naer Batavia te senden vercooren waren de
+[single] #
+[single] selve wat aengehaelt met uijtrijden vermaackt
+[single] en doorgaens met Eeten en drincken wel, op gevult
+[single] werden, want: doorgaens bij naer niet dan vanden
+[single] buijckvol, te eeten en te drincken sweeren,
+[single] spreecken, en singen, Item oock mogelijk en seker
+[single] d'eerste vraagh wesen, die haer van hun
+[single] meester gedaen staet te werden, off voorsz:
+[single] der Buijcksorgh en wes meer al vol op gehadt
+[single] hebben
+[single] u Ed
+[single] 3
+== NL-HaNA_1.04.02_1184_0042 | #42 | sides: single | lines: 26
+[single] u Ed:e hiernevens eer Mortier connende
+[single] affsteecken, soude t'een en t' ander geweldich
+[single] glanseren en t'werck sijnnen vollen Eijsch geven,
+[single] waar toe mogelijk u Ed. e seer qualijk sullen
+[single] resolveeren, en ons aengaende connen eijgentlijk
+[single] de noodtwendich.t van dien in desen niet voorstellen
+[single] maer mij dies aengaende, in Conckin g'arriveert
+[single] sijnde, naer de bevindinge gedragen, en van daer
+[single] over die saack, aen U Ed. e naerder schrijven,
+[single] doch can bij u Ed. e in consideratie genomen —
+[single] werden, t' hun volcomentlijk bewust sij, wij
+[single] t Iapanse Rijck met diergelijk doorgaens gerieft
+[single] ende nu noch Jongst daermede gedient, waer op
+[single] sij desen Eijsch oock gedaen, end gesond. t hebben, niet
+[single] tseggen Jappan heeft silver, ende wij hebben zijde, als
+[single] willende daermede aenwijsen dat wij sonder coop„
+[single] „manschappen in Jappan te brengen, daer uijt geen silver
+[single] trecken conden, des haer Coningh en lant, soo wel
+[single] als Japan, met dese en geene raricheden te
+[single] dienen hadden, waer sich u Ed. e dienen en wij
+[single] daer van meer te spreecken overslaen, en dese
+[single] als andere saken u Ed. e wijs en verre siende
+[single] verstant en oordeel bevoolen laeten,
+[single] Dat wijders int aenstaende, tot vervolgh vanden
+[single] Conckinsen handel, soo tot geschenck als
+[single] vercoop
+== NL-HaNA_1.04.02_1184_0043 | #43 | sides: single | lines: 31
+[single] 13
+[single] vercoop sullen noodich hebben, en connen van hier
+[single] niet wel doen ten aensien t'een en t' ander, nu
+[single] derwaerts te nemen geprojecteert, niet en
+[single] weet, hoe, en wat vant selve meest begeert
+[single] sal zijn, doch een goedt getal vande Goude chits
+[single] (waer van desen Iaare maer 7. p. s derrewaerts
+[single] gaan, en oock niet wel weet, hoedt daermede
+[single] stellen sal:) als Barnstene Coraele
+[single] kettings, blijven voor en naer op t' Hoogste
+[single] gerecommandeert, nevens reverentelijck
+[single] versoeck mogelijk sijnde, van die soort met
+[single] ontrendt de 50. a. 60: Offte weijnich meer
+[single] d=os int aenstaende mochte versien werden,
+[single] ps. d
+[single] want zij er doorgaens van roepen en weijnich
+[single] van becomen, sulcx dat mense qualijk met eenige
+[single] om wegen meer te verleijen aff te setten bennen,
+[single] en te becomen sijnde, een cleenicheijdt is, daer
+[single] sijn Maeijesteijt mede neder te setten, en
+[single] -
+[single] dickwils een grootwerck door uijt te wercken
+[single] soude sijn, als met geen silver op leverantie
+[single] van side te nemen en soo voorts, want mij
+[single] d'ervarenth. t, off de lange continuatie in dat
+[single] rijck doen hooren en geleerdt heeft, want ter
+[single] eerster aencomste der Schepen, sijn maijt.
+[single] naer dese en gen doch voornamentlijk naert
+[single] voort.
+[single] den
+== NL-HaNA_1.04.02_1184_0044 | #44 | sides: single | lines: 25
+[single] voornoemde vragen. ., ende 'tselve dan niet beco„
+[single] „mende, off voldaen werdende, ten eersten als
+[single] met een quaadt gemoet de 25. kisten silver
+[single] eijscht, en begeert, dat bij dit toeval mede te
+[single] gemoedt zien, wandt gelijk geseght maer 7 p=rs
+[single] cits hebbende, daer hij maer drij van becomen
+[single] can, soer qualijk genoegen en meenen gelijk bij
+[single] mijne voorsaten, voor desen gedaen, en sijn maij. t.
+[single] bekendt, hem verborgen en die voor andere te
+[single] ruch houde dat seer moeijelijk te verantwoorde
+[single] valt, des dan oock t' voornaemste is, dat in
+[single] desen ten dienste van d E. Comp. e aen te
+[single] wijsen, Item om den ouden Coningh contenten
+[single] te geven t' eijschen ofte vorderen weet
+[single] Ons vertreck met 'tsluijtschip Campen uijt
+[single] Jonckin viel seer laat, want niet eerder
+[single] als den 16=e Augusti uijt de revier en over den
+[single] droogen, en daaghs daer aen eerst uijt gesicht
+[single] van 't Paarlen Eijlant geraeckten, des om die
+[single] reijse cort te maken, stelden onsen cours binnen
+[single] door 'tnauw van Aijnam, en quamen soo, seer
+[single] spoedich sonder storm off eenich hart weer te
+[single] gemoeten, den 6=en septemb: (den almogenden
+[single] moet daer voor eeuwich gedanckt blijven.)
+[single] behouden
+== NL-HaNA_1.04.02_1184_0045 | #45 | sides: single | lines: 28
+[single] 18
+[single] 18
+[single] behouden, en met een wel geconditioneert cargasoen
+[single] in Japan t' arriveren, werdende alles volgens de
+[single] boucken en facteur accorde bevonden, wat nu de
+[single] Conckinse goederen vercocht, Item wat winst
+[single] door den anderen gegeven hebben, achten onnodich
+[single] hier te verhalen, alsoo u E. d. e soo verhoope
+[single] tselve voorden Ontfanck deses uijt de Iapans
+[single] brieven vanden E:sterthemius als der —
+[single] selver e Negotie boucken largo sult, vernomen
+[single] hebben, waer aen mij dies aengaende om lanckh
+[single] voor te coomen onder reverentie gedrage. —
+[single] Wat geschenck voor sijn Maij. t, Prins ende den
+[single] Mandorijn Oughsjntuelee derwaarts te brengen
+[single] en door de E. Heer Commissaris geprojecteert
+[single] sijn, verneempt u Ed. e uijt de Copie brieven
+[single] door gedachten Commissaris aan haer Maij=t
+[single] 8„
+[single] geschreven, daar alles in gespecificeert staat
+[single] en u E. d. e onder andere pampieren toegesonden,
+[single] wes tselve hier in aen te roeren voor bij gaa, en
+[single] mij dies en t'een en t'ander de Conckinse
+[single] gelegentheijt raakende gedraage, aende
+[single] schriften ende raporten van sijn gemelte den E.
+[single] H. r Commissares waer aen wij reverentelijck
+[single] versoucken u Ed=le gelieve te nemen contentem.t
+[single] ende
+== NL-HaNA_1.04.02_1184_0046 | #46 | sides: single | lines: 18
+[single] ende t'verdere wilt godt met de naesten p. r de Jonck
+[single] uijt Conckin,
+[single] Hiermede
+[single] e
+[single] Wel Ed=le gestrenge Erentfeste wel wijse
+[single] voorsinige seer discrete, beveelen haer E d=e de
+[single] hoede des Almachtigen die s' Comp=es staat onder
+[single] u Ed=ts regeringe ende prospermaken. —
+[single] Int Casteel Bantavien Zeelandia
+[single] den 24=en Novemb=r A„o 1651 Onderstont
+[single] u Ed. e Nederiege getrouwe„ dienaer ende was
+[single] geteeckent Iacob Keijser, —
+[single] Naar gedaene Collatie is desen met
+[single] V
+[single] sijn principale accorderende bevonden
+[single] In't Casteel Batavia den 28:en xeber 1651
+[single] Andries Spricus
+[single] ts.
+== NL-HaNA_1.04.02_1184_0047 | #47 | sides: single | lines: 2
+== NL-HaNA_1.04.02_1184_0048 | #48 | sides: single | lines: 6
+[single] keijser uijt Taijoum aen haer E
+[single] op 2atta in dato 24 9ber ges=r a. o
+[single] Jonckin
+[single] Copie missive door den Coopman
+[single] 1651 wegens t Comptoir
+[single] 12:
+== NL-HaNA_1.04.02_1184_0049 | #49 | sides: single | lines: 43
+[single] 20
+[single] Copia
+[single] Instructie waer siot den
+[single] Eerst adsistent Hendricq Baron
+[single] naert vertrecq vanden Coopman Jacob
+[single] kaijser hier uijt foncquijn sal hebben
+[single] te reguleeren
+[single] ten aensien nu eenige taren herwaerts volgens d'ordre van
+[single] onse gebiedende overheden eenige dienaers om 's Comp„s huijsinge
+[single] 1
+[single] ende ommeslag alhier gade te slaen over telaten blijven g'observ„t
+[single] sij twelcq wij om geene redenen durven contraieeren oocq 3„e Julijk
+[single] besloten uwe persoon nevens noch 2 andre adsistenten een
+[single] onderbarbier en vijff matrosen ten eijnde voors over telaten ende
+[single] tot Gouverno d' ondergeschrevene regulen voor te schrijven
+[single] U is kennelijcq hoe eenigen tijt ja al voorde doot vanden
+[single] oppercoopman en opperhooft sr philips Schillemans bij den
+[single] Coninck prins de Rijcxtsaden, ende andre grooten deses lants besloten
+[single] onse eerst anno 1649 nieuwe gemaeckte logie andermael af
+[single] 21
+[single] te breecken voor vast besloten ende buijten alle twijffel gestecte„
+[single] hebben ten ware wij sijne maij„t den prins, ongsia Tule en
+[single] andre ons bij den Coning voordragende Capadosen, niet door
+[single] geschencken ende nedrigen aenspraecq, om 't zelve tot de comste
+[single] onser schepen tot aenstaende zaijsoen te schorten ende op te
+[single] houden beweegt waren geworden
+[single] Onder welcq voors placcaet van afbreecken van huijsen
+[single] ende doen verplaetsen wij niet alleen maer de Chinesen
+[single] portugesen, ende der zelver alhier resideerende Jehuite padres
+[single] mede begrepen, ende oocq eenige versekere toesegginge van in
+[single] hun huijsinge tot de wedercomst van haer vaertuijgen
+[single] te blijven woonen gehad hebben, dat nochtans tegen hun als
+[single] oocq ons gevoelen contrarie is uijtgevallen ende den 9„e Julij
+[single] de huijsinge vande portugesen capiteijn, als oocq de kercq ende
+[single] klooster vande Jehuitendoor macht van menschen in twee
+[single] dagen affgebroocken, ende tot dat weder een ander gelegenti
+[single] sullen getimmert hebben in een cleen Cot ofte huijsken
+[single] vanden Japander Risemon gejaegt zijn
+[single] Allen 't welcke naert vertrecq der schepen, ons wel mede te
+[single] gebeuren, niet vast doet besluijten: maer ten minsten
+[single] ten aensien t heijdense en int uijtvoeren van hun proceduri
+[single] 2
+[single] onredelj
+== NL-HaNA_1.04.02_1184_0050 | #50 | sides: single | lines: 42
+[single] onredelijcq sijn, al eenige achterdogt geeft, sulcx U„ts dan
+[single] 't afbreecken van onse woningen na ons vertrecq van hier te vooren
+[single] comende, weten geen andre ordre als desen daer over te geven, danr
+[single] dat sig Ul met alle beleeftheijt vaer tegen stellen, ende hun de
+[single] beloften, die de maij„t Ult:o Junij den prins pm Julij, ende ongsia
+[single] Tule den darden daer aen volgende van zulcx niet te doen belooft
+[single] ende daerom oocq geen ordre, dies aengaende gelaten sij, en ingevalle
+[single] hier echter met de Logie aff tebreecken, voortgaen sult alsdan
+[single] versoucken den steen, houtwercken, cosijns, ende andre materialen
+[single] op dese plaets tot de comste vande schepen mogen blijven leggen
+[single] ende beknoptelijk bij den andren op een hoop gedracht zijnde, ompaggere
+[single] ende met een adappen dack voort inwateren bedecken, ende de
+[single] goede toeversight dat niet gestolen verbleept noch verdragen werden
+[single] daer over houden ende doen houden
+[single] doch soo bij aldien t' quame te gebeuren onse meer geroerde huijsinge
+[single] afgebroocken zijnde, ende niet en begeerden den steen als andre
+[single] materialen op dese plaets te bewaren, blijven mochten, ende onder
+[single] dat protext van een ander erff, om de zelve materialen tebergen
+[single] als hier naer voor onse woonplaets te houden tekiesen, ende daer
+[single] op naer gelegentheijt bij provisie te timmeren, mochten te voren
+[single] leggen, 't selve om geenige redenen ten werelt aen te nemen
+[single] onderstaen sult, want wij sustineeren ende stellen voor vast
+[single] t geene hier tegens met hun dit ende dat niet te doen, en te
+[single] weijgeren, mochtet misdoen, beter doort hier naer tecoment opperhooft
+[single] t' excuseeren dan t geene dat reets nieuw lant gekoren, ende daer
+[single] op getimmert te verantwoorden ofte herdoen soude zijn, want niet
+[single] tegenstaende wel weten tot soodanigen keur te doen niet
+[single] g'authoriseert bent, hun echter als off sulcx doorden Capiteijn
+[single] ende den tsaet gedaen waer mede behelpen, ende alsdan om eenige
+[single] verandering hier in te versoucken te laet ende nieuwe schenckagien
+[single] dierwegen souden moeten doen
+[single] Ende ten aensien de plaets daer ons te doen verhuijsen voorgeven
+[single] niet alleen wat verre vande hand, maer oocq seer eenig ende
+[single] uwer persoonen weijnig sijn, oordelen daer om over alles t' wakende
+[single] oog te houden, niet als te seker woonen, soudt des de hoede over de
+[single] materialen te houden in tanden vanden mandorijn ongsia Tule
+[single] stellen ende sijn hulp daer toe als oocq tot Risemons tot den retour
+[single] van onse schepen te woonen versoucken
+[single] Allen twelcke voors ende wes meer mochte voorvallen te verrichten
+[single] sult eer tot besluijt comt, met den andren wijlle O overleggen, ende
+[single] met goede vrunden te Rade gaen, ende niet sonder kennisse vanden
+[single] Mandorijn
+== NL-HaNA_1.04.02_1184_0051 | #51 | sides: single | lines: 82
+[single] 21
+[single] Mandorijn Engsia tulve aenvangen, want ijts sonder sijn kennisse
+[single] ende tegens zijn gedaen sijnde U„ns ofte de EComp„e wel seur soude
+[single] doen opbreecken, zulcx niet als oocq alle de Capadosen, soo vant
+[single] Conings ende princen hoff goede correspondentie tehouden opt
+[single] hooghste gerecommandeert blijft, doch voornamentlijk met de
+[single] volgende te weten ongsia Tule, ongsia doduc Nieng ( aen wiende
+[single] maij„t soo de spraecq gaet, onse tegenwoordige woonplaets soude gegeven
+[single] hebben) ongsia Teuck, ongsia Dee, ongsia kun, ende soo vervolgens
+[single] die UE door ervarentheijt bekent sijn, mitsgaders met die van
+[single] 5' princen hoff mede
+[single] Ende om alle ontheijsen die dicmaers door uijtgaen en droncke drincke
+[single] der matrosen als andre voortcomen sult u selven als ooc de matrosen,
+[single] soo veel doenelijc binnen delogie houden, ende nieuwers als daer ten
+[single] dienste vande EComp„e te doen hebt, gaen
+[single] Bijde missiven vanden Gouverneur gererael en raden
+[single] van India aen s„r Schillemans geschreven hebben gezien, daer
+[single] 100 p„le goeden radix om met 't schip over 'taijouan, ende soo na batavia
+[single] gesonden te werden eijschende zijn, welcke petitie door de cortheijt des
+[single] tijt (als oocq omdat die droogen door de bataviase Ioncq geheel op
+[single] gecoft, niet is connen voldaen worden, sulcx om voors partij na
+[single] ons vertrecq van hier om met de over toncquijn comende Joncq naer
+[single] Batavia gesonden te worden, onder des bij een te samelen U wercq
+[single] van maecken moet, daer U1 den Chinees met de vlecq, die oocq
+[single] den incoop voor die van batavia gecomen Chinesen gedaen heeft,
+[single] den welcken daer over aengesproocken heb, sal connen dienen, ende
+[single] t p=s voor 2 taijl 5 maes televeren, aengenomen heeft, maer altijt
+[single] daer op rieide, gelijk onse Heeren schrijven op de grootheijt vande wortels
+[single] tot welcken incoop als oocq V gastos, ende wes meer mochte voor
+[single] vallen te doen, stellen Ul„ns ter hand in Japans schuijtsilver
+[single] sevenhondert en tachtentig Taijl negen maes seven condrijn
+[single] dat redelijk is. Jtem om tot geschencq te gebruijcken, soo hulcx mocht
+[single] van nooden wesen twee goede Chissen vande vrunden met tjoncq
+[single] scheveringen alhier van Batavia gecomen voor 25 r„a ider gecost
+[single] ses mourisen 4 stx geschilderde Chiourons twee str guinees
+[single] lijwaet
+[single] tot Tolcq cunt ten principaelsten gebruijcken tsopse connende
+[single] toncquins schrijven ende lesen, oocq wel de stieste en deugdelijkke
+[single] van andre als mede domingo, die dit saijsoen door S„r Schillemans
+[single] gebruijckt is geworden, niet verstooten, maer in vruntschap aen
+[single] houden
+[single] De Papieren tot dit Comptoir behorek bij een Register in een
+[single] cas bij
+[single] dan
+[single] vooren
+[single] ,dam
+[single] hunde
+[single] ghia
+[single] ooft
+[single] ingevalle
+[single] alsdan
+[single] rialen
+[single] leggen
+[single] ompaggere
+[single] de
+[single] werden
+[single] huijsinge
+[single] andre
+[single] onder
+[single] bergen
+[single] de daer
+[single] te voren
+[single] men
+[single] vast
+[single] te
+[single] opperhooft
+[single] daer
+[single] niet
+[single] ijn
+[single] eenige
+[single] agien
+[single] geven
+[single] ende
+[single] kelde
+[single] verde
+[single] Tule
+[single] retour
+[single] verrichten
+[single] ,ende
+[single] vanden
+[single] andorijn
+== NL-HaNA_1.04.02_1184_0052 | #52 | sides: single | lines: 49
+[single] cas bij den andren gesloten, kunt sorgedragen, dat de zelve on
+[single] vermindert daer in bewaert blijven
+[single] tegens p„mo decemb aenstaende oordelen nodich volgens gebruijck den
+[single] adsistent van Sorgen met eenig schrijvens, wegens s' Comp„s en
+[single] uwe gelegentheijt naer de Reviere d'arguarong afzent, ende tot de
+[single] comsteder schepen daer verblijft, als mede eenig advijs naert rovers
+[single] Eijlandt, als anders afzenden
+[single] hout goede ende corte aentekening wegens 't geene hier ten dienste
+[single] vande E Comp„e als anders soude mogen voorvallen
+[single] den grooten blijven desen jare schuldig aen sijn silver te weten
+[single] den Coning voor 20000 T swaerte ofte 12½
+[single] 1538„4„6
+[single] picol zijde a 13 facaer. . . . . . . . . . . . . . T
+[single] 184„9„1
+[single] duckong Co van voorleden Jaer. . . . . . . . . . . . „
+[single] ongsia Haij van voorleden Jaer E 356„ —„ 8.
+[single] van desen Jare. . . . . . . . . „ 30„-„-
+[single] 386„-„8
+[single] Cau dee voor 56½ cattij zijde a 13 sacaer. „
+[single] 69„5„3
+[single] 330„4„6-
+[single] Cau Bung voor 268½ cattij d„o a 13 gewicht. „
+[single] onder verzekerde coopln daer van 11 d'obligatien
+[single] 652„6„7-
+[single] ter hand gestelt. . . . . . . . . . . . „
+[single] 3162„1„1
+[single] welcke C 3162„ 1„ 1. sijn gesamentlijcq belooft hebben voorde
+[single] comsteder schepen te voldoen, daerse oocq met alle discretie toe
+[single] cont aenmanen
+[single] Bijt overlijden vanden ouden Coning dat Godt verhoede sult 11
+[single] tot de meeste versekering van u lichaem, onder de sauvo guardo
+[single] vanden mandorijn ongsiatule nevens den Japander risemon begeven
+[single] die wij voorde versekersten man, die met alle de toncquinsewerelt wel
+[single] staet oordeelen Etc:re
+[single] den Rechten aert vanden Godts dienst is dat niet wel gedwongen
+[single] wil wesen, maer uijt een ijverigen en goeden geeft aengeport, ende
+[single] daer toe gedreven werdende, eerst sijn behoorelijk wercq ende cracht
+[single] doet Echter omme andre geen quaet exempel tegeven, sult hun in
+[single] alles goet voorgaen, en 't dagelijk avont gebet, als mede alle sondagen
+[single] t'lesen van een predicatie observeeren, item broederlk in vreede dat
+[single] den weg tot alle deugden aengeleijt sij, onder den andren leven, want
+[single] daer vrede onderhouden wort is den regen des heeren, die wij ul=ns
+[single] hier mede gesamentlijk toewensen Amen. Int sluijtschip den swarte
+[single] beer desen 27 Julij a„o 1650. onderstont Ul„t vrunden en was
+[single] getekent, Jacob Keijser, david Claesz swaeg, Heere Jacobs, matthjeus
+[single] Gommersbag, Jeronimus Ebbing, Cornelis van lijnder. Baremt
+[single] vinck
+[single] C
+== NL-HaNA_1.04.02_1184_0053 | #53 | sides: single | lines: 4
+== NL-HaNA_1.04.02_1184_0054 | #54 | sides: single | lines: 16
+[single] 1651
+[single] adij 30: Januarij p„r
+[single] Maeslant becomen
+[single] :
+[single] 0
+[single] 3
+[single] 60
+[single] 6
+[single] 20n
+[single] Joncquin
+[single] 1
+[single] e
+[single] 5
+== NL-HaNA_1.04.02_1184_0055 | #55 | sides: single | lines: 39
+[single] 23
+[single] Raeden van India.
+[single] Aen d' Ed=e Heere Carel Reniersen,
+[single] Gouverneur generael, en d' E: Heeren
+[single] Erntfeste, Manhafte,
+[single] ddle
+[single] wel wijse, sder genereuse Heeren.
+[single] Nae
+[single] verlaeten op 29en April van Batavias
+[single] sijn met het Oorloghs Jacht
+[single] rheede,
+[single] Delffs-haven, nevens 't Jonckien Catwijck,
+[single] dat een memorie N:o 7. nevens deseijn¬
+[single] brieven ter hant gestelt hadt, niet
+[single] Maij, door stilte, aen
+[single] voor den 15en.
+[single] Poul-aur cunnen verschijnen, van waer
+[single] 't vereijsschende becomen hebbende, tot
+[single] vorderingh der reijse weder vertrocken;
+[single] Ontmoetende op 2en Junij, voor in de
+[single] bocht van Toncquin, (sonder harde wint,)
+[single] seer schiel. , sulck een ongestuijmige
+[single] zee, dat de selvige als toorens jegens
+[single] den anderen opsprongh, ende groote leccagie,
+[single] pericul, door de swack¬
+[single] niet sondert
+[single] heijt van ons Jacht, veroorsaeckte, Edogh
+[single] gelooft sij de Heere, die de windthieldt
+[single] gesamentlijk noch uijt dien
+[single] ingebonden, ende ons
+[single] noodt verlost heeft, want anders, nae
+[single] alle apparentie, als een backsteen gesoncken,
+[single] ende in zee souden begraeven geworden sijn,
+[single] wesende van niemanden onser allen, diergel.
+[single] noijt meer in de bocht ontmoet, noch
+[single] gesien; den achtsten volgens resolutie
+[single] geteeckent No 22: alsoo de revier
+[single] Arcarom
+[single] 1651
+== NL-HaNA_1.04.02_1184_0056 | #56 | sides: single | lines: 31
+[single] Arcarom, op 20: mijl behouden te naderen, —
+[single] begaeven ons personelij.k tegens den avont,
+[single] nevens den Opper=coopman S=r Danckerts,
+[single] den Onder coopman van Borstele,
+[single] den Secrets Canselaer, en vier
+[single] soldaeten in 't Jonckien, dat door 't gemelte
+[single] onstuijwigh weder, de mast uijt de
+[single] koocker geschooten, en 't seijl gantsch
+[single] mede ontramponeert was, gelastende
+[single] de vrunden met het Jacht, als bij nevens¬
+[single] gaende memorie Nu=o 8: weer en wint
+[single] sulcx toelaetende, voor twee etmael
+[single] buijten te verblijven, op dat geene
+[single] dundtschap onser comste, voor
+[single] selffs personellijk: verschijninge, mochten
+[single] ontmoeten, gelijck geschiede, en des anderen
+[single] daegs, nae een langhduijrige voijagie, tusschen
+[single] drij ene vier uijren nae den middagh, in
+[single] de mont der revier en ontrent midder¬
+[single] nacht aen Boomtgens eijlandt, ter halver
+[single] wegen noch quaemen, ene ons voort over
+[single] landt, weijnigh vertoeft hebbende, op
+[single] 't Compas langs en door rijs-velden, —
+[single] Dorpen en onbekende wegen, tot het
+[single] lamieren vande dagh opwaert begaeven, tot dat
+[single] eijndel. den elffsten, weijnigh nae 't opgaen
+[single] van de son, de soldaeten niet cunnende
+[single] volgen,) sonder eenich gerucht, of
+[single] ijemants voorweeten ter logie, en verdeelt
+[single] in ijders caemer, vrij onverwacht quaemen,
+[single] wesende
+== NL-HaNA_1.04.02_1184_0057 | #57 | sides: single | lines: 37
+[single] 24
+[single] wesende achten twintich mijl in ¼. etmael
+[single] de revier opwaerts, en merckelijk gevordert
+[single] dat bij niemants weeten, noch kennisse oijt
+[single] geschiet is. Op stondt
+[single] meer alhier
+[single] ten
+[single] deden de Maij=ts en Mandaijn, onse comste
+[single] met het Jacht, en Janxken, ende d'oorsaeck van
+[single] dien, bekent maecken, mitsgrs galeijen om—
+[single] de brieven en schenckagie
+[single] boven te haelen,
+[single] selver stont
+[single] versoecken, dat ons ter
+[single] met veel geluck-wenschinge van behouden
+[single] reijs, vergunt, toegestaen ene Sr. Keijser
+[single] nevens de Capados van de Maij=ten en —
+[single] Mandorijn Ongstfatulee, als vorderen Tonc¬
+[single] quinsen sleep, met 5: vergulde galeijen alles
+[single] gesonden wert, de schenckagie
+[single] op te haelen,
+[single] deden onderenwijl schriftelijk opnemen, en
+[single] hun voorts alles bekent maecken, waer in
+[single] nae 't scheen, genoegen naemen.
+[single] Desgelijcx deden alle dienaeren bij den ander
+[single] verschijnen, de Commissie voorlesen, ene ons van
+[single] haere sleutels verseeckeren, de boecken, papieren
+[single] packhuijs, gelt- cas, end 't vereijssch ende visiteren,
+[single] dat alles wel slordigh en vreemt aentroffen,
+[single] wesende de negotie bij Sr. de Groot gehouden,
+[single] en de boecken drie maenden verachtert,
+[single] sonder een letter tusschen- wijl daer
+[single] in geschreven te sijn, vier en veertigh
+[single] partijen overgedraegen, ende noch 60: gebreeckigh,
+[single] welckers overdracht, oock niet vervolgens,
+[single] maer onder en boven, en tusschen beijden,
+[single] (buijten
+== NL-HaNA_1.04.02_1184_0058 | #58 | sides: single | lines: 32
+[single] sijl) te sijn geschiet, bevonden,
+[single] buijten s
+[single] d'incoop ter aenvangh heeft meest selffs
+[single] gedaen, de cassa sonder cassa boeck, noch
+[single] pertinente aenteeckeninge, invoegen soo
+[single] vereijst, van 't een noch 't ander gehouden,
+[single] maer alles op cladden en charta-bellen, in
+[single] boeckies vol particulier, der som met
+[single] eenige vreemde charasters vermeugt,
+[single] aengeteijckent, waer in een reeckeninge
+[single] van 6000: Realen aen gout in contant
+[single] vercocht; seven a. acht duijsent ralen, die op —
+[single] interest, en eenige op bodemerij loopen
+[single] heeft, vorders met andere in comp=e etc:a —
+[single] Dat alles seer suspert, en niet min —
+[single] bedenckel. is. Een boecxken wert bevonden
+[single] met Sr. de Groots eijgen handt geschreven,
+[single] raeckende de bodemerij van 't verleden jaer,
+[single] door verscheijde personen, tot jong assistenten,
+[single] bootsgesellen ende jongens incluijs, gevordert,
+[single] bedraegende over de 14. O. tail fijn, en
+[single] meer dan 50. O, gul courant
+[single] waer
+[single] over niemant aengesproocken, noch eenige
+[single] correstie laeten gaen heeft, apparent om
+[single] t' eene mes het ander in de schede te—
+[single] seuden doen verblijven, doch sijne brieven en
+[single] principaelste papieren, sijn ons sonder
+[single] twijffel noch ontduijstert gebleven.
+[single] Sr. Keijser, sijn oock verscheijde particu¬
+[single] liere reeckeninge bevonden, onder anderen
+[single] eenen —
+== NL-HaNA_1.04.02_1184_0059 | #59 | sides: single | lines: 32
+[single] 25
+[single] eenen van acht duijsent tailen, bij s=r. van
+[single] Harten voor andere in Japan vercocht
+[single] Desgelijcx dan niet soo veel bij d'onder=
+[single] cooplieden Meulenaer, (wien naemaels
+[single] Lijn, die mede —
+[single] overleden is) en vander
+[single] nae Tajouan vertreckt.
+[single] Alle welcke boeckiens, chartabellen en —
+[single] papieren van perticulieren handel geregistrt.
+[single] bij een gebonden, den fiscael in Tajouan,
+[single] nevens genomene informatien, 't sijner tijt
+[single] overhandigen sullen, omme nae vereijsch, jegens den
+[single] recht schuldigen andere ten exempel
+[single] geprocedeert te mogen werden.
+[single] Gantsch weijnich particulier is becomen,
+[single] de contanten en ingecochte goederen, —
+[single] —
+[single] gesamentlijk ongevaer en niet wel meer
+[single] dan 10 Otailen, importerende, waer
+[single] 't Comptoir alhier aen 't Comptoir
+[single] Nangasacqui voor den ontfangh der iuijste
+[single] som belasten, en de contanten voorts doen
+[single] besteden sullen, d'oorsaeck is, den handel
+[single] als noch vroegh sijnde, maer een begin
+[single] genomen, ijder sijne pen. op leverantie
+[single] licht uijtgeseth, ende op 't jongst soo
+[single] gemeenl. plagh te geschieden, om niet mede
+[single] belemmert te blijven, ene de bodemerij dan
+[single] waer te nemen, heeft affgewacht.
+[single] Op 't een en 't ander sullen nae
+[single] vermogen
+== NL-HaNA_1.04.02_1184_0060 | #60 | sides: single | lines: 31
+[single] vermogen achtgeven, en het quaet soo veel
+[single] doenlijk , en des Comp=s gelegentheijt
+[single] lijden can, soecken met verschansinge
+[single] voor te comen. Wij willen vertrouwen,
+[single] dit redres vrij vranderinge ten goeden
+[single] baeren, daer ons den tijt de seeckerheijt
+[single] van geven sal
+[single] Vervolgens op 12en: Junij, niet sonder
+[single] perijckel, met stooten op den drempel
+[single] geteraeckten, Godt loff het Jacht noch
+[single] behouden binnen, ene vrij verde de revier op
+[single] des anderen daeghs wert alles in d'afgesonden
+[single] galeijen overgenomen, ende den 17:e in de—
+[single] logie weer opgescheept, gelastende
+[single] den Capado Ouistiavum uijt des—
+[single] Maijts naem, noch op den selvigen dagh ons
+[single] vaerdigh te houden, ende alles daer toe
+[single] te prepareren, omme de brieven ende
+[single] preseten van d' Ed: Heer Gouver=
+[single] Generael t'overhandigen, dat niet
+[single] voor des anderen daeghs met grooten
+[single] taet, soo van volck als paerden,
+[single] en goede luijster
+[single] sijn gevolgh nam,
+[single] werdende door meergemelten Capado
+[single] OnsJavum, nevens 200: soldaeten met
+[single] seepmessen, en 10 a 12. gesadelde paerden, —
+[single] voor ons volck seer ordentelijk in een —
+[single] geleijdt,
+[single] hamack sittende, ten hoof
+[single] passerende
+== NL-HaNA_1.04.02_1184_0061 | #61 | sides: single | lines: 32
+[single] 23
+[single] passerende een lijffwacht wel van
+[single] 2000: soldaeten, en meer dan 100: Capados,
+[single] als wanneer recht voor den Coninck
+[single] (die in een hamacq sat,) gebracht, ende
+[single] begroetinge op ons Nederlandtsche wijs
+[single] gedaen wiert, ende in 't vervolgh dwers
+[single] van de Maij=t ongevaer 20. ellen gese=
+[single] pareert, op een mat neder te gaen—
+[single] setten, wiert aengewesen, alwaer den —
+[single] Maij=t ons door den Capado Ous Jasvuu
+[single] deed' affvraegen, d'oorsaeck der comste
+[single] en wat qualiteijt onsen persoon hadt,
+[single] mitsgrs. den Nieuwen Generael
+[single] wien en wat voort een persoon was, —
+[single] en off langh hadde in 't landt geweest,
+[single] niet meer sulcx en diergelijk , dat alles
+[single] nae vereijsch en tot genoegen b'antwoort
+[single] wert. Wanneer nae weijnigh sittens,
+[single] met veelderhande spijs, (op bandesen,
+[single] getracteert, ende selffs door den Maijt.
+[single] van sijn eijgen taeffel, en met eijgen handen
+[single] aen sijn dienaers ons t' overhandigen, cost en
+[single] dranck wert toegevoecht, en danckelick
+[single] ontmoet, laetende geduijrigh sijne oogen aff
+[single] en aengaen, en ons, dat wel eeten en drincken
+[single] soude, recommanderen.
+[single] Onder en wijle deedt den brieff van
+[single] sijn Ed=t openen, die selffs, en soo 't scheen
+[single] met genoegen te met eens neer leggende,
+[single] over
+[single] 26
+== NL-HaNA_1.04.02_1184_0062 | #62 | sides: single | lines: 33
+[single] over ende weer over las, manderende
+[single] aen OughJavum, Sr Jan de Groot op te
+[single] staen, ende 't misnoegen dat in sijn persoon
+[single] was nemende, publijcq bekent te maecken,
+[single] gel. geschiede, ende mij daer op deed' affvragen,
+[single] off alles wel verstaen hadde, waer op
+[single] antwoorde, Jae, dat sich wel gevallen liet.
+[single] In 't voordraegen soo voor als naemaels, —
+[single] was ons aengeven, hoe dat van den —
+[single] nieuwen Generael gesonden quaemen,
+[single] om de Maij=t te begroeten, alle geluck
+[single] en heijl, nevens voorspoet in de
+[single] regeringe, vistorie over sijne vijanden, en
+[single] 1000: Jaer levens toe te wenschen, —
+[single] voorstellende, dat gelijck door den
+[single] Capitain Schillemans sijne wrevel¬
+[single] moedigheijt, alle gemoederen scheenen als
+[single] vervreemt, nu niet sijn doodt de
+[single] mochten begraeven, sijnde
+[single] selvige oock
+[single] gedacht, en der
+[single] Hollanders,
+[single] noijt meer
+[single] eerstmael, off op
+[single] als wanneer
+[single] nieuw weer in 't landt quaemen, —
+[single] mochten aengenomen ende begunstigt
+[single] werden, de logie ter plaetse alwaer
+[single] nu was staende, verblijven, de schepen
+[single] voor de selve ten ancker comen, en —
+[single] de zijde, gel. Coningen ende Princen
+[single] geen coopluijden sijn, om alle misnoegen
+[single] te weeren
+== NL-HaNA_1.04.02_1184_0063 | #63 | sides: single | lines: 36
+[single] 27
+[single] te weeren, eens op een vaste prijs, 't sij
+[single] dan off de zijde off duijr, off goe coop
+[single] wert, mocht verblijven, voor heen was
+[single] de selvige op 15. facaer, ende nu op —
+[single] 13. gestelt, waer in de middel wegh,
+[single] om niet te veel noch te weijnich, aen
+[single] d'een off d'ander
+[single] sij veranderingh te
+[single] gegaen werden, dit sus
+[single] maecken, conde
+[single] cisviel voorstellende, om dat aen het
+[single] gevolgh, off t'verdere genoechsaem —
+[single] dubiteren bleeff, te meer, de zij ree-
+[single] buijten vande Chinesen tot 12. facaer,
+[single] en van d'onse desgelijcx tot 12½ en 13. —
+[single] wert ingecocht, waer bij dat den —
+[single] Coningh grooten interest lijdt, als
+[single] hebbende voor heen niet meer dan 16. ende
+[single] 15. facaer gegeven, wanneer de selvige
+[single] buijten tot 18. 20. 22. 23. 24. 25. en meer
+[single] wert ingecocht, dat voor sus vrij
+[single] verschil, en den Maijt wel begrijpende is,
+[single] de zijde tot 13, hoewel buijten tot 12
+[single] vercoght wert, ende van sijn Maij=t maer
+[single] 8: a. 9. facaer te volgen stont, —
+[single] bleeff bij persisteren, maer de schepen
+[single] voor de logie te comen, en gafff
+[single] voor doen noch geen antwoort op,
+[single] de logie soude verblijven, gelijck oock
+[single] de wachten van benevens de poort en —
+[single] scheepen wert genomen, die bij S=r de
+[single] Groots tijt, daer voor en ontrent
+[single] gestelt waeren. Vorders thoonde
+[single] sich
+== NL-HaNA_1.04.02_1184_0064 | #64 | sides: single | lines: 31
+[single] sich seer vergenoecht, ende liet sich
+[single] alles nae uijtterlicken schijn wel gevallen,
+[single] groote suite ter
+[single] ende ons weder met
+[single] logie geleijden, wanneer als meest
+[single] ijder mael in 't vervolgh waer geweest
+[single] sijn, off met eenige schuijten-silver,
+[single] casiens, koebeesten, waeter-miloenen,
+[single] en aracq beschoncken wierden.
+[single] De Barnsteene-keten couralen, nam
+[single] veelmaels in handen, maer waeren te
+[single] bleeck, en te cleijn van courael, soo in
+[single] toecomende ketens van Bruijn ene
+[single] brandent coleur, en diversche sorteringe
+[single] van gadde off effen groote couralen, als
+[single] hennen en duijven eijeren, off wel groote
+[single] knickers, nochmaels segge niet anders
+[single] dan gladt, 't sij rondt
+[single] off ovaels gewijs
+[single] gedraeijt conde werden becomen, soude
+[single] geen costelicker noch aengenamer
+[single] schenckagie, noch niets dat meer
+[single] gunst bij den Maij=t sou baeren,
+[single] cunnen noch mogen werden uijtgevonden,
+[single] dat voor al, en voor soo veel men—
+[single] sigh aen Toncquin wil laeten gelegen
+[single] sijn, dient in acht genomen, en nae
+[single] vermogen met veel assurante toesegginge
+[single] belooffde te bewercken, 20: stucx —
+[single] van de vleenste ketens wierden —
+[single] te rugh
+== NL-HaNA_1.04.02_1184_0065 | #65 | sides: single | lines: 35
+[single] 28
+[single] gesonden, als wesende te
+[single] te rugh
+[single] steen van corael, en te bleeck
+[single] van coleur
+[single] Alle goude ende geschilderde Chitsen,
+[single] dienen voortaen niet meer, als voor
+[single] heen, nae cleijne curieuse, maer
+[single] -
+[single] nae groote bloemen, want den —
+[single] Maijt. oudt en vranck van gesicht
+[single] wert, en de cleijne bloemen niet wel
+[single] meer sien can,) en draecken-hooffs
+[single] geschildert uijtgesien
+[single] gewijse figuren
+[single] en gesonden te werden, want sulcx den
+[single] Coningh wil, elcx voor ander
+[single] insgelijcx genegen is. Seecker chits
+[single] verhemelt, costende incoops tot Batavia,
+[single] off
+[single] 10. realen, dat van schilderij wel voor het
+[single] sleght beoordeelt wiert, was sulcx
+[single] bevalligh en aengenaem, dat rede al
+[single] een rock, die ons deed besichtigen, ons
+[single] als wanneer met sijn Eliphanten
+[single] uijt rijden ging, te gebruijcken, laeten
+[single] maecken hadden, waer bij dat seijde,
+[single] den Ed: H=r Gouve=r Generael
+[single] gedencken wilde, en ons op de selvige
+[single] figuer in 't aenstaende te letten,
+[single] recommandeerde.
+[single] Bij den Prins en den Mandorijn, wierden
+[single] 88
+[single] insgel. op voorige wijse geleijdet,
+[single] ende meest
+== NL-HaNA_1.04.02_1184_0066 | #66 | sides: single | lines: 35
+[single] behandelt, ons seer groote
+[single] ende meest
+[single] bethoonende, en 't misnoegen
+[single] genegentheijt
+[single] over Sr: de Groot, maer wat —
+[single] bekent gemaeckt, —
+[single] fatsoenelicker
+[single] gel. alles naeckter en breeder, soo van
+[single] 't een als 't ander, in 't dagh-register
+[single] dato 19e: Junij g'insereert staet, waer
+[single] toe, om erhalinge te voorcomen, ons
+[single] gaerne gedraegen sullen.
+[single] Stucx barnsteen wierden mede
+[single] vand Prins weder te rugh gesonden,
+[single] om dat wit van Coleur, en niet
+[single] effen, noch groot genoech waeren,
+[single] selvige brandent van
+[single] want de
+[single] coleur begeeren, en sonder scheuren
+[single] ten, dat de buijten stucken,
+[single] en bars
+[single] (sonder spaentgiens met den cnop, ende
+[single] een ½ off duijm breedt verder dan in de
+[single] waeijers, off in 't papier gesteecken
+[single] uijt een stuck in de leugte begrepen
+[single] werden, sulcx dat heel dick, noch breet,
+[single] lengte vereijsschen,
+[single] maer bijsonder
+[single] daer, als benevens de courale ketens,
+[single] soo gemelt in 't aenstaende wel op te
+[single] letten, groot genoeghen mee gegeven, —
+[single] en gunst te behaelen staet.
+[single] Ende alsoo was aengemerckt, niet
+[single] alleen de clachten over 't misnoegen
+[single] van de
+== NL-HaNA_1.04.02_1184_0067 | #67 | sides: single | lines: 35
+[single] 29
+[single] van de Maijt wegens 't Opperhooft
+[single] Sr. de Groot gegaen, maer dat
+[single] selffs den Prins, Mandorijn, als ijgel.
+[single] sijns persoons niet seer genegen waeren,
+[single] als cunnende met haer
+[single] humeur niet
+[single] wel over een comen, niet jegenstaende,
+[single] buijten andere Opperhooffden, sijne
+[single] schenckagie seer swaer en hoogh
+[single] te gelt loopende gedaen hadde; soo —
+[single] dat gel. als te vergeeffs arbeijdende,
+[single] en maer waeter in manden was—
+[single] gietende, niet cunnende genoechsaem
+[single] haer met sijn doen vergenoegen. Want
+[single] met dese natie benevens 't geschenck
+[single] een liberael gemoet en losser tongh
+[single] gaen moet, en niet off het met tangen
+[single] van ijemant moest geknepen, ende alsoo—
+[single] van een weerborstigh gemoet gehaelt
+[single] werden. Oversulcx, en te meer van
+[single] niemanden bemint geset, noch geleden can
+[single] werden, als uijt vreese dat een tweede
+[single] quaet noch arger dan 't eerste werden
+[single] moght. mitsgrs. sijn slordigh en sloffige
+[single] directie, als groote particulariteijten, hem
+[single] aenlevende, bij den Raedt eenstemmigh
+[single] goet gevonden, geresolveert en beslooten
+[single] No. 23. sijn persoon
+[single] is, als bij resolutie
+[single] van dees directie t'ontlasten, met de
+[single] Valck benevens ons mede nae Tajouan te
+[single] laeten vertrecken, om sich voor den rechter
+[single] aldaer te mogen verantwoorden, ende een
+[single] aengenamer
+== NL-HaNA_1.04.02_1184_0068 | #68 | sides: single | lines: 29
+[single] aengenaemer, ende bij hun bevalliger
+[single] persoon, den Coopman Jacob Keijser,
+[single] hoe wel van particulieren handel mede
+[single] niet vrij is, voor eerst en provisioneel
+[single] in sijn plaetse te stellen, als moetende
+[single] nae tijts gelegentheijt, van twee quaden
+[single] noch een best gerosen werden, ende ons
+[single] ten dienste van d' E. Comp=e soo —
+[single] cunnen, ende niet soo willen gedraegen,
+[single] Wes gelastende S=r de Groot
+[single] sijne boecken te vereffenen, met balance
+[single] t'overhandigen, en transport van alles in
+[single] debita forma te doen, waer toe nae
+[single] vermogen de behulpende handt geboden
+[single] hebben.
+[single] Jacht Delffs-haven, hoe wel op
+[single] Batavia, en soo veel doenl.k de handt
+[single] aengeslaegen is, wert echter in
+[single] 't g'outmoete holle waeter, en als
+[single] 't eenigsints wat coelende was, sulcx
+[single] lecken swack bevonden, dat de pompen
+[single] geduirigh meest gaen mosten, ende
+[single] gemerckt Noort-waert op de wint
+[single] niet slapper, noch slechter zee te
+[single] verwachten hebben, en om een vder
+[single] quaet te voorcomen, desgelijcx bij
+[single] den Raedt verstaen wert, alsoo in
+[single] Tajouan egeene dienst doen can, —
+[single] 't selve
+== NL-HaNA_1.04.02_1184_0069 | #69 | sides: single | lines: 34
+[single] 30
+[single] 't selvige alhier, tot 't aenstaende
+[single] Noorder mousson te laeten verblijven, —
+[single] om met soo veel rijs als mogelick sal
+[single] sijn, en Siam aen te loopen, om tijt te
+[single] winnen, t'excuseren, nae Malacca te
+[single] vertrecken, aengesien d' E Compagnie
+[single] in dat vaerwaeter, met de presente
+[single] gelegentheijt van 't eijndigen der
+[single] Portugeeschen trefues, ende veranderingh
+[single] die in 't rijck van Atchin te gemoet
+[single] gesien wert, seer nodich en tijdich schepen,
+[single] om geen advantagie te vrwaerlosen, —
+[single] vereijsschen, sulcx dat willen vertrouwen,
+[single] gebesoigneerde in desen, voor
+[single] V. Ed:e ons
+[single] wel gedaen te wesen, verstaen sult.
+[single] En in plaetse van 't selvige Jacht
+[single] Delffs-haven, waer van voor Tajouan
+[single] de 4. metaele stucken, als wesende —
+[single] ondienstich op desselffs, tot gebruijck en
+[single] noch 16. ijsere
+[single] stucken verblijven, gelicht
+[single] en doen over schepen hebben, te meer
+[single] Tajouan, den Maij=t te believen, sigh
+[single] bevooren van eenige der selver outbloot
+[single] heeft. ) ons nevens 't geselschap op—
+[single] t' fleuijt schip de Vliegende Valck, tot
+[single] bevorderingh onser reijse, transporteren—
+[single] sullen, als hebbende het cleijnste ruijm,
+[single] en Campen de meeste bequaemheijt
+[single] tot overvoer van 't Japans cargasoen.
+[single] Met het verschijnen van den Jongen en
+[single] aengenaemsten
+== NL-HaNA_1.04.02_1184_0070 | #70 | sides: single | lines: 37
+[single] aengenaemsten Prins ter logie, daeghs
+[single] nae de gedaene presenten aen den jongen
+[single] Coningh, sijn Extie
+[single] ties
+[single] vaeder en den —
+[single] Mandorijn, met wiens aengenome dochter
+[single] getrouwt is. Wert sijn Extie. aengedient
+[single] dat seecker present van d' Ed=e H=r
+[single] Gouverneur
+[single] Generael, dan sonder
+[single] brieff, alsoo noijt voor heen aen sijn
+[single] Extie
+[single] geschreven, en eerst in de
+[single] regeringh getreden was, gesonden hadde,
+[single] ties
+[single] dat voornemens waeren met sijn Extie
+[single] believen, eerst daegs, off wanneer
+[single] de gelegentheijt sich daer toe best
+[single] souw presenteren, t'overhandigen. Waer
+[single] over sich wel genoecht thoonde, maer
+[single] en dorst, noch ter eender noch ter
+[single] ander, sich daer niet mee bemoeijen. —
+[single] Jae selffs sigh excuserende, te weeten
+[single] van hoe veel, off wat goederen gesonden
+[single] waeren, waer mede sijn Extie. sonder
+[single] nat noch droogh geproeft te hebben, —
+[single] sich haestich
+[single] thoonende, weder
+[single] vtrock.
+[single] Dan in 't gevolgh, wert ons van den
+[single] Mandorijn Ougs-Jatulee, en meer andere, —
+[single] aengeraden, dat de Coningin, off 's Princen
+[single] Moeder, met een present dienden te doen
+[single] begroeten, desgel. den oudtsten broeder,
+[single] sulcx bij ons wel begrepen, en voor
+[single] goet opgenomen wert, en van stonden
+[single] aen de—
+== NL-HaNA_1.04.02_1184_0071 | #71 | sides: single | lines: 34
+[single] aen de Coningin betreffende, sijn gevolgh
+[single] nemen lieten; maer dat van de jonge
+[single] Princen, wiert tot naeder gelegentheijt,
+[single] weerhouden.
+[single] Met het feest van den vijffdachdach
+[single] der vijffde maen, alsoo al en ijgelick den
+[single] Prins ende Mandorijn, oversulcx
+[single] Coningh,
+[single] begroet gingh, vervoegden ons desgelijcx
+[single] daer toe aengemaent sijnde, met een —
+[single] proper present, en op voorgaende wijse.
+[single] Eerst nae 't hoff van den Coningh,
+[single] en vervolgens nae den Prins, als 2:—
+[single] daegen daer aen tot den Mandorijn :)
+[single] alwaer ons eeten ende drincken
+[single] voorgestelt sijnde, wel 200: van des —
+[single] Conings vrouwen, ons tot vermaeck te
+[single] speelen, dansen en singen, te voorschijn—
+[single] quaemen, dat een geruijmen tijt duijrde,
+[single] ende een stuck carmosijn root laecken,
+[single] ten respecte van de Maij=t te costen
+[single] quam, en in deser voegen, (als wesende
+[single] een sonderlinge een en groote cour¬
+[single] tosie, noijt vooren, op sulck een wijse
+[single] den Hollanderen meer bewesen, ontrent
+[single] den Coningh meer aengenaemheijdt
+[single] baerdt, dan off wel vder in andere
+[single] gelegentheden gegaen, en ijets van —
+[single] gepresenteert
+[single] meerder importantie
+[single] wiert. Want dese Princessen daer
+[single] over plorierende, als werdende van ons
+[single] hun
+[single] 31
+== NL-HaNA_1.04.02_1184_0072 | #72 | sides: single | lines: 33
+[single] hun spelen sulcx weerdigh g'extimeert,
+[single] in veele deelen haer seggen aengenomen, —
+[single] ende oordeel ontrent dees ouden Coningh
+[single] doordringende vermach.
+[single] Met 't verschijnen van 't Jacht alhier,
+[single] boven quaemen terstont de Capados, soo
+[single] van den ouden als Jongen Coningh,
+[single] mitsgrs. den mandorijn hare aenhouden
+[single] vernemen nae meerder quantiteijt van
+[single] te
+[single] Barnsteene couralen, die meenen nae
+[single] hun gierenden aert behoorden voldaen te
+[single] werden, en niet te sullen noch cunnen
+[single] mancqueren, mij affvorderende wat
+[single] -
+[single] particuliere schenckagie, ick den Coningh
+[single] den Prins als Mandorijn
+[single] ende wijder
+[single] presenteren soude, daer hun seer fatsoenl.
+[single] in antwoort op diende, sulcx ten tijde
+[single] wanneer affscheijt quam nemen, voornemens
+[single] te doen, en daer op wachtende was.
+[single] Wanneer sich niet lieten gerusten,
+[single] voor en aleer haer 't selvige hadde
+[single] bekent gemaeckt, en de groote alratijven,
+[single] benevens 't bijgevoegde vertooght, willende
+[single] van stonden aen daer mede op een padt, en
+[single] geen uijtstel langer bij lijden, niet
+[single] jegenstaende op wat wijse hun
+[single] fatsoenlicxt sulcx sochten t' ontleggen, en
+[single] van de toe-eijgeninge te vrseeckeren, dat
+[single] alles siende niet veel helpen, noch wesen
+[single] mocht.
+== NL-HaNA_1.04.02_1184_0073 | #73 | sides: single | lines: 39
+[single] 32
+[single] mocht. hoewel d'aenvolgende morgen=
+[single] stont hun verseeckerden selffs personel.
+[single] sulcx te
+[single] Prins, Manldorijn,
+[single] den Maij=t
+[single] sullen, nevens ijets vorders, overhandigen, waer
+[single] op diende, 't was wel, morgen souden —
+[single] comen, maer met het jegenwoordige —
+[single] vertrecken, wilde 't gemelte alles insiende,
+[single] en haeren heet gebaeckerden aert opgemerckt
+[single] hebbende, stonden hun sulcx volcomentl.
+[single] toe. Waer mede dat alles wel was,
+[single] en des Conings als 's Primen Capados,
+[single] ijder met het sijne vertrocken, des
+[single] anderen daegs, quaemen wederom ter logie,
+[single] gestelt, en volck
+[single] dat ordre mochte
+[single] benevens gesonden werden, om de metale
+[single] stucken van den Coningh op te schepen,
+[single] gelijck geschiede, en daegs in 't gevolgh
+[single] ons weder te hooff presenterende, werdt
+[single] van Maijt. nochmaels nae barnsteene
+[single] couralen, wijder als op nieuws vereijsch
+[single] gedaen, en offer niet het Jacht geene
+[single] meerder waeren aengebracht, al alleens -
+[single] off het Jacht weer directel. maer eerst
+[single] verscheenen was, dat
+[single] zee
+[single] uijtter
+[single] 2
+[single] ƒ
+[single] behoorlijk en tot genoegen beantwoorde. —
+[single] Vorders ons doende vertogen seecker goude
+[single] plaet van 10: taijl swaer, waer voor
+[single] heen ten huijse van den Japander Riseijmon,
+[single] door den voor-draeger OugsJavum ons -
+[single] de weet, en 't model op 't papier van
+[single] vertoogt
+== NL-HaNA_1.04.02_1184_0074 | #74 | sides: single | lines: 36
+[single] vtooght, ende den inhout der eertitulen
+[single] van vtaelt was, daer met dat ons den
+[single] Maij=t vereeren wilde, en ons den tijt
+[single] van 'tselvige t'overhandigen te stellen,
+[single] aenboodt, nevens een schoon met gout
+[single] overslaegen seepmes, dat vraegden off
+[single] der selver seepmessen den Generael
+[single] aengenaem wesen, en wel bevallen soude
+[single] daer d'antwoort nae vereijsch op gedaen
+[single] sich onder-enwijl besigh houdende,
+[single] wert,
+[single] Juweelen te sorteren, die ons door
+[single] van de
+[single] een Capado, op een bandees deedt vtoger
+[single] en fatsoenlijk in sacxkens apart gelecht
+[single] waeren, welcx een voor, en ander nae,
+[single] ons te gesigtigen in handen gaven, sijnde
+[single] der som bruijne, als barnsteene tourale
+[single] keetens, van eenige specie in der
+[single] -
+[single] Lauwen landt vallende, 't verdere waeren —
+[single] agaet couraelen, en fijne als groove paerle-
+[single] keetens, dat meer den parlimoen, dan—
+[single] wel parel gelijckende was; Renocheros=
+[single] hoorns lang en cort, maer seer cierljk
+[single] gestreept off geteijckent, mitsgrs
+[single] een waijer, wiens sporten tot een halve
+[single] duijm in 't papier, nevens den cnop van
+[single] massieff barnsteen gemaeckt, en effen,
+[single] gladt gewrocht was; Dit
+[single] maer
+[single] off waer
+[single] schijnt waeren de cleenodien des Rijcx¬
+[single] daer den Coningh sijne Princessen
+[single] mede doedt cieren en op-proncken, —
+[single] ten tijden
+== NL-HaNA_1.04.02_1184_0075 | #75 | sides: single | lines: 30
+[single] ten tijden dat des Rijcx luijster verbreijden,
+[single] ende een glants voor de weerelt doen geven,
+[single] wil, van welcker in 't gevolgh eenige
+[single] becomel. sijnde, vereijsch dee, en ons de sorge
+[single] daer voor te draegen, seer ernstel.
+[single] recommandeerde.
+[single] Des Princen verlangen was als vooren,
+[single] nae noch eenige verhoopte brandige barn¬
+[single] steene couralen ketens, dat voor sus
+[single] noch g'excuseert bleeff
+[single] Op 28en: Junij, ende 8en Julij, wierden
+[single] aengemaent, ons met alle eerbewijsende
+[single] vreuchde teijckenen te hooff, soo bij den
+[single] Coningh als Prince te verschijnen, omme
+[single] de eertitulen, tot bewijs van eeuwige
+[single] vreede, en nieuwe onverbreeckelicke gunst,
+[single] die de Maijten ons publ. , voor al de
+[single] werelt, wilden met luijster doen ontmoeten,
+[single] en op een gouden plaet van 10: tail swaer,
+[single] en in den gouden blom-stam, als 't opperste
+[single] bladt, hadde doen ingriffijen, om der selver
+[single] waerdigheden alsoo ter logie, en in ons —
+[single] logement te brengen, waer meden onsen
+[single] persoon hadden verheerlickt en beschoncken.
+[single] Dat alles met groot aensien en geluijdt
+[single] van gepijp en getrommel, trompet en
+[single] gommeGlanck, het streeven van veele
+[single] Princen vaendelen, opgepronckte
+[single] Nederlandsche
+[single] 33
+== NL-HaNA_1.04.02_1184_0076 | #76 | sides: single | lines: 30
+[single] Nederlandsche ruijterije, en 's Coninghs
+[single] lijffguarde seer cierl. toegemaeckt,
+[single] nevens een heele
+[single] compagnie van matrosen
+[single] met sleuijers en geflicker van linten,
+[single] 't waeijen van des logies als scheeps-vlaggen,
+[single] en 't blaesen van geschut, en chergies van
+[single] musquetten, alles ordentel. , met aenschouw
+[single] van duijsenden van menschen, toegingh.
+[single] Werdende de Nederlanders door sulcx,
+[single] voor alle d' Inwoonders, oft geheele
+[single] Toncquinse werelt, op nieuw als weer
+[single] ingelijft, ende in goede achtbaerheijt,
+[single] (waer van in 't vval waeren,) weder
+[single] herstelt, de goude plaet ende Blom¬
+[single] struijck wert ijdermael van vier Neder¬
+[single] landers, op een vergulde taeffel met root
+[single] schaerlaecken overdeckt, seer magnisijck, in
+[single] 't aensien van ijegel. , gedraegen, gelijck
+[single] alles naeder en breeder op desselffs aenge=
+[single] voerden dato, in 't dagh register aenge¬
+[single] teeckent, en bij de translaeten te
+[single] beorgen staet.
+[single] Onder en wijlen werden de twee Jonge
+[single] Princen, met de geprojesteerde geschencken
+[single] door de Nederlandsche gecommitteerdens
+[single] begroet, gelijck in 't vervolgh personelick
+[single] daer 't begeerde, en wijder op alle vereijschende
+[single] plaetsen, als voor heen gedaen wert, dat
+[single] geheel ick
+== NL-HaNA_1.04.02_1184_0077 | #77 | sides: single | lines: 32
+[single] 34
+[single] geheelick en 't voor-aengeroerde, omme
+[single] lanckheijt te voorcomen, als vooren aen-
+[single] 't dagh- register, waer alles lango en
+[single] breedt g'extendeert staet, refereren
+[single] sullen.
+[single] bovengemelte sus gepasseert sijnde, quam
+[single] den Japander Riseijmon, wien 1000: tailen
+[single] waer voor danckbaer is, met 't goetvinden
+[single] van den Raedt sijn overhandigt, te meer sijn
+[single] E. de Jaerlickse duijsent tailen bij d' H=r
+[single] Generael vander Lijn, en d' H=r Caron,
+[single] tot sijn proffijt, nae Japan te mogen stueren,
+[single] was ingewillight, en nu weer affgesz:
+[single] echter aen de Compe te verbinden, alsoo,
+[single] nae bespeuren, machtigh veel quaet, schoon
+[single] niet veel goet doen can, als sijnde sijn
+[single] soon bij den Mandorijn Ongs Jatulee,
+[single] geadopteert, ende sij dagel. aldaer ten huijse,
+[single] Jae soo veer gelicentieert, dat sijn ingangh
+[single] binnens huijs, over des Mandorijns plaets
+[single] te gebruijcken, is vergundt, dat seer veer
+[single] siet; en bij dees Inwoonders een groot
+[single] aensien geeft. Sijn E. voorhoudende, dat
+[single] nu den tijt was gebooren, om sijn devoir
+[single] ten dienste van d' E. Comp=e eens in
+[single] 't werck te stellen, en sijn vermogen te
+[single] thoonen, alsoo de Maij=t ons buijten gewoonte
+[single] begunsticht, en sijn groote genegentheijt
+[single] doen blijcken hadde, met het vereeren van de
+[single] goude plaet, en groote eertitulen,
+[single] waer
+== NL-HaNA_1.04.02_1184_0078 | #78 | sides: single | lines: 34
+[single] te schijnen„
+[single] waer voor op 't hoofte danckbaer was,
+[single] ende voor mij noijt weder te vergelden.
+[single] „ en most
+[single] Nu was het tijt „ het ijser als opde
+[single] Nloeij gesmeedt werden, dat als buijten ons,
+[single] en van besijden aff, door den Mandorijn,
+[single] om niet ondanckbaer most bewercken, ten aensien, gelijck mij
+[single] „ eere
+[single] nu particulierlick over groote „ waere toegecomen,
+[single] mijn Mr. den Heere Generael, nu
+[single] desgelijcx eenige begunstinge ontmoeten
+[single] mocht, op dat niet en mocht schijnen mij
+[single] over 't gemelte sulcx te vernoegen, al alleens
+[single] off op t' verdere door mij geen acht meer gegeven
+[single] maer alles ter contrarie in 't vergeet
+[single] gestelt wiert, dat voor goet keurde
+[single] en wel scheen te begrijpen, seggende den
+[single] Mandorijn in ons fasveur, als uijt sijn
+[single] selven sulcx wilde voorhouden, om eens
+[single] naeder op te mercken, ende saeck ten besten
+[single] te bewercken, dat den Mandorijn echter
+[single] met een afflegger van den hals schooff,
+[single] seggende sulcx vrij beeter van ons, dan wel
+[single] van sijn persoon stondt te geschieden. —
+[single] Wes aenvaedende 't selvige pr requeste
+[single] ter handt te vatten, en door den Capado
+[single] en gecommitteerdens, den maij=t te —
+[single] presenteren, wilde nae vermogen in ons
+[single] faseur wesen, en de saeck ten besten
+[single] helpen bevorderen, dat echter twee mael,
+[single] benevens een schuijtgout, tot vereeringh,
+[single] ondernaemen, maer tot geen overleveringh
+[single] bewercken
+== NL-HaNA_1.04.02_1184_0079 | #79 | sides: single | lines: 37
+[single] 35
+[single] bewercken conde; Wes den Raedt voorstellende
+[single] 't request te weerhouden, en sulcx mondelingh
+[single] P=r, d'eerst presenterende gelegentheijt in —
+[single] der beste manieren, om geen ongunst te
+[single] bewercken, in 't werck te stellen, geljk
+[single] geschiede, daer echter soo voorgemelt, en in
+[single] 't reguarde van de schepen niet opgevolgt is,
+[single] als breeder op desselfffs dato, alles aengeroert
+[single] sijnde, te beoogen staet, gel. daer benevens
+[single] affscheijt tot vorderinge van onse reijse, door
+[single] instigatie van den Mandorijn Ongs zatulee
+[single] versochten, sijns Maijts op 't hoogste bedanckende
+[single] voor alles, etc:a onverdient aen ons bewesen,
+[single] verschuldigen conde, met
+[single] dat noijt weder
+[single] verder versoeck de verblijvende Nederlanders
+[single] in 't gevolgh wijders sijne gunst onveranderl.
+[single] gelieffde te bewijsen, souden ons vorders in
+[single] alles, altijt, en nu in 't gaen nae Batavia, ten
+[single] dienste van de Maijt gaerne gedraegen,
+[single] en soo veel mogelijk 't vereijschte helpen bewor¬
+[single] deren, ende hunne begeerte in alles bewercken,
+[single] daer toe sigh verlaeten moght, daer op in
+[single] antwoort ontmoeten, onder enwijl dat
+[single] op gedist wiert, off noch soo langh tot
+[single] den 4 a 5. van d'aenstaende maen gelieffde
+[single] met het vertreck te vertoeven, aengesien een
+[single] Ambassadeur uijt China, eenige seijden
+[single] van den Tartar, danmaels hier te
+[single] verwachten stont, dat fatsoenel.k met de
+[single] nootsaeckelickheijt van de bevorderingh onser
+[single] reijse, socht t' excuseren en voor te comen.
+[single] Maer al ons seggen en doen, niet jegenstaende
+[single] wat reden gebruijckt wierden, mocht niet
+[single] helpen, wilde sijne macht ter selver
+[single] stont
+== NL-HaNA_1.04.02_1184_0080 | #80 | sides: single | lines: 31
+[single] stont bethoonen en doen blijcken, wat
+[single] Ambassadeur, en wat heerlijcke geschencken,
+[single] hem uijt verre landen toequaemen, om sich
+[single] voor de selvige met ontsagh, in luijster
+[single] te stellen. De Tolcken haven in ant=
+[single] woort, en rieden ter selver stont,
+[single] dat sulcx inwilligen ende toestaen, want
+[single] doch niet eer vertrecken soude, daer echter
+[single] op dienden, ons reijse te waeter, en niet
+[single] over landt was, en voor ditmael noodt¬
+[single] saeckel. te vorderen, anders waere een—
+[single] vleen principael en geheel bereijdt, sijne
+[single] Maijt Haer in te believen, wanneer
+[single] seijde tot den 2:e: off 3: 't sij den Ambassadeur
+[single] quam, off niet, ons danmaels wilde largeren,
+[single] ene laeten vertrecken, waer door weerhouden,
+[single] ende in ons goet voornemen gestut
+[single] bleven
+[single] Tusschen wijle, off op ultimo Junij, nae den
+[single] middach, en seer ontwacht, werden mij twee
+[single] verclaringen, door de Sresn. Danckerts ende
+[single] Keijser, wegens schipper Jan van Dalens
+[single] onmenscheli.heijt ende vuijl bedrijff overhandicht,
+[single] ijder van een Jongen, ende present bij twee
+[single] scheeps-officieren geteijckent, die de oogen
+[single] deden verduijsteren, 't gehoor verdoven, ende
+[single] 't gemoet over desselffs grouwelickheijt
+[single] ontstellen. Waer op den Raedt bij den
+[single] ander roepen, en gemelte van Dalen
+[single] opstont, nevens schipper Corns., door
+[single] schipper
+== NL-HaNA_1.04.02_1184_0081 | #81 | sides: single | lines: 38
+[single] 36
+[single] schipper Heere, om te minder suspitie—
+[single] te geven, alhoewel al ree al genoech
+[single] door sijn Opperstierman was verwittight,
+[single] Pr. een letterken te ontbieden, gelastende
+[single] de jongens nae weijnich verblijvens, buijten
+[single] sijn kennisse onder
+[single] t opsicht van den —
+[single] Opper-stuerman te laeten volgen, dat
+[single] alles wert te weegh gebracht, en in de —
+[single] logie verscheenen. Wanneer de jongens een
+[single] voor, d'ander nae, buijten kennisse van —
+[single] aengeroerde van
+[single] Dalen, tot 2. a 3. distincte
+[single] malen, sonder
+[single] schreum noch eenige vertraechtheijt,
+[single] volgens hun ree
+[single] gedaene verclaringe, soo
+[single] d'accorde wierden bevonden, datter Godt
+[single] betert) tot het minste niet aen bleeff
+[single] gebreecken, en ijder, om hooren, een gruwel
+[single] was, alle vuijle actien, hoe, waer, en ter
+[single] wat plaetsen gepleecht, recht uijttende,
+[single] excepto, den jongsten quant, oudt ongevaer
+[single] 14. Jaeren, met wien den grouswel, volgens
+[single] sijn eijgen verclaringe, seggen en soo persisteren
+[single] bleeff, voor eenmael ten ef
+[single] sest
+[single] gebracht was, waer op dees quanten
+[single] gesepareert deden vertrecken, en Jan van
+[single] Dalen in raede verschijnen, wanneer met
+[single] sachtigheijt aengegaen, ende 't gemelte soo
+[single] alleniskens te vooren bracht, dat alles met
+[single] swaere en diere eeden soght aff te leggen.
+[single] Wanneer eijndel. de gemelte verclaringe
+[single] hem te vooren las, en een a twee=maelen —
+[single] buijten gestaen hebbende, daer acht op sijn
+[single] persoon
+== NL-HaNA_1.04.02_1184_0082 | #82 | sides: single | lines: 35
+[single] persoon wiert gegeven, weder binnen —
+[single] quam, en dees Jonge gasten, een voor ander
+[single] verscheenen, en sonder schreum van hem, off
+[single] ijmandt, noch eenige veranderingh, hoe wel hardt
+[single] aengegaen ende gedreijgt wierden te seggen,
+[single] wien hun sulcx ingegeven, off g'induceert
+[single] had, Wanneer van Dalen sich in 't spreecken
+[single] met sweeren niet bedwingen con, versoeckende
+[single] d'aerde hem te verswelgen, sijn tong verstijven,
+[single] handen van den ander niet
+[single] gaen mosten,
+[single] echter in sijn presentie alle
+[single] gruwelicke
+[single] vuijlicheden verhalende, niet
+[single] aff noch toe
+[single] doende, al alleens off bedaerde persoonen
+[single] geweest, en ree tot jaeren gecomen
+[single] waeren. Jan van Dalen, niet jegenstaende
+[single] wat hem voorhielden, tot geen bekentenisse
+[single] willende comen, en de jongens voorhouden,
+[single] schelmen, dieven, en deugh nieten uijtscheldende,
+[single] te meer alsoo wat laet in den avont
+[single] was, deden nevens de jongens dan gesepa=
+[single] reert vertrecken, en in een van de camertiens,
+[single] waer Onder cooplieden gelogieert waeren,
+[single] als in gijselingh stellen, en met wacht
+[single] bewaecken. Wanneer sich seer ontrust
+[single] vondt, claegende, dat het hem daer seer
+[single] bangh was, ende en deedt niet dan bij
+[single] ijder wijn vorderen, daer wat omsichtich
+[single] gaen; hij woelde
+[single] mee te werck liet
+[single] vrij seer, dan gingh eens op de banck
+[single] in de lucht, en dan weer beneden op de
+[single] vloer
+== NL-HaNA_1.04.02_1184_0083 | #83 | sides: single | lines: 37
+[single] vloer op een gespreijde mat leggen, veelmaels
+[single] opstaende sijn waeter te willen maecken,
+[single] om sigh ijdermael nae de pagger te voegen,
+[single] tot dat met 't veranderen van de wacht
+[single] veijnsende sijn gevoegh te willen maecken,
+[single] en buijten ijemants weeten over de
+[single] gesprongen, ende sich soo ter
+[single] selvige was heen
+[single] Dalen werden vermist,
+[single] vlucht stelde, van
+[single] wiert geroepen, gesocht en gevolght.
+[single] Wanneer mij de weet wert gedaen, en
+[single] ons mede in de stoep van de sal vervoeghde,
+[single] en de logie op en neert besoecken dee, edoch
+[single] naer weijnich vertoevens, keerden den
+[single] Ondercoopman Crocodil van buijten —
+[single] in de logie, met een blooten degen in de
+[single] handt, roepende, wij hebben hem, wij hebben
+[single] hem, maer hij is tot der doodt gequetst
+[single] gelijck corts daer op; aen een bamboes
+[single] werdende gedraegen, ter logie gebracht,
+[single] en van de Meesters verbonden wert,
+[single] wesende van achter doorregen, ende noch een
+[single] tweede steeck in 't lichaem gebracht, sulcx
+[single] dat niet anders dan de doodt daer mede
+[single] vermengt was; Gemelten Crocodil
+[single] met sijn drijen sterck, en van d'andere
+[single] vervolgers gesepareert,
+[single] soo als aen 't hroff,
+[single] off des Coninghs wacht, de weet van een
+[single] weghlopenden Hollander o gedaen hadt,
+[single] keerden weeder nae de logie, dan op den
+[single] wegh hoorende de honden blassen, en veel
+[single] geraes maecken, merckten en vernam
+[single] gemelte van Dalen, die sich tusschen drij
+[single] Toncquinders
+[single] 37
+== NL-HaNA_1.04.02_1184_0084 | #84 | sides: single | lines: 34
+[single] Toncquinders met piecken gestelt hadde,
+[single] Crocodil, als de
+[single] echter wert van
+[single] voorste sijnde, besprongen, die tusschen
+[single] ende den weghgelopenen
+[single] de piecken inschoot,
+[single] geeft u van 's Comp=es
+[single] aenranden, seggende
+[single] wegen gevangen. Wanneer van Dalen
+[single] riep, O Godt: sich met een van haer
+[single] piecken trachtende te verweeren, dan wert
+[single] met een door= regen, dat sijn geselschap—
+[single] d'eene wegh, en Jan van Dalen d'andere
+[single] wegh deedt vluchten, die noch soo hardt,
+[single] wel een musquet-schoot in 't voorlopen—
+[single] was, dat d'andere hem quali conde vervolgen,
+[single] echter wert met noch een steeck ghedwongen
+[single] sich in handen te stellen, gel. geschiede,
+[single] roepende, steeckne doodt, steeckme doodt, etca:
+[single] Ter logie sijnde, sochten bekentenis en de
+[single] naeckte waerheijt uijt hem selffs te
+[single] becomen, maer te vergeeffs, seggende dat men —
+[single] hem niet en soude vraegen, hij wilde sijne
+[single] souden niet aen menschen, maer jegens Godt
+[single] bekennen, menichmael lamenterend,  seggende,
+[single] Heere wat heb ick grouwelijk tegens u —
+[single] gesondight, en de werelt ergernis gegeven,
+[single] maer bleeff altijt negeren sulck feijt noijt
+[single] bedreven te hebben: De vleenste jongen
+[single] ter selver stont, met meenings van
+[single] aen de waerheijt te geraecken, lieten nochmaels
+[single] bij hem comen, die al weder als vooren:
+[single] hoewel hij van Dalen daer gequest sagh
+[single] waer
+== NL-HaNA_1.04.02_1184_0085 | #85 | sides: single | lines: 32
+[single] 38
+[single] waer van gesecht wert d'oorsaeck te
+[single] wesen, even ontsaeght voort voer, en alles —
+[single] weder onveranderl. bij bracht. Waer op
+[single] van Dalen seijde, dat lieghie immers jongen,
+[single] die daer op weder in antwoort diende,
+[single] schipper gij weet wel dat ick niet en
+[single] liegh, en soo het niet waer is, en moet ick
+[single] mijn leven bij Godt niet comen etc:a:
+[single] Dit alles sus, meest sijn de woorden soo in
+[single] substantie voorgevallen sijn. Waer op
+[single] voortvaerende, seijde, nu Jongen eij maeckt
+[single] eens een schoon glas, en geestine doch eens
+[single] waeter, te drincken, eijntl. wert de jongen
+[single] wegh geleijt, en bleeff van Dalen seer
+[single] ijverigh in gebeden volharden, en seer groot
+[single] berouw en leet wesen van sijn souden bethoonen,
+[single] dan wert hoe langs hoe swacker, wien
+[single] bij leven sijn eijgen vuijlicheijt ter neus
+[single] en ter mont uijt-quam, en als binnen
+[single] vieren twintigh uijren, buijten eenige
+[single] apparentie d'aerde sich geopent, sijn tongh
+[single] ende handen verstijft hadden, ons alle wel
+[single] ten exempel dienende, 't vordere en 't geene
+[single] hier te mancqueren comt, sullen gaerne,
+[single] om geen tedere ooren te vvelen, tot
+[single] desselfs verclaringe Nu. 16. refereren.
+[single] De Jongens sijn op 't fleuijt-schip de Valck
+[single] in hechtenis gestelt, waer voor ons
+[single] alhier seer weijnich, als wesende hun eijgen
+[single] aenslagers, in te verrichten is.
+[single] Een
+== NL-HaNA_1.04.02_1184_0086 | #86 | sides: single | lines: 32
+[single] t wegh gelopene Nederlander,
+[single] De jongst
+[single] genaemt Willem, wien van besijden ons ter
+[single] handt te stellen gecontracteert hadden, heeft
+[single] gepresenteert, ende bij ons
+[single] sich selffs weder
+[single] vervoeght, dat een goet werck is, echter
+[single] hebben sijn persoon doen verseeckeren, omme
+[single] mede te sijner tijt, nae 't petvinden van
+[single] den Raedt, te behandelen.
+[single] Tot den ander wegh gelopene, waer variabel
+[single] van gesproocken wert, ontrent de prensen van
+[single] Quinam, en sich aldaer
+[single] bij een groot
+[single] Mandorijn, op dees wijse getrout wesende,
+[single] verhout, sal tot wederbecominge, geen
+[single] gespaert werden.
+[single] debuoir
+[single] De negotie 't sedert ons aen wesen, —
+[single] is wel voort gegaen, en sijn des Compagnies
+[single] penningen, bij onsen tijt, in verhoopte winst
+[single] gevende waeren, noch besteet geworden,
+[single] waer over als met leetwesen siende, de
+[single] goederen weer te rugh, door mancquement
+[single] van gelt gevoert wierden, met den Raedt
+[single] en pluraliteijt van stemmen is goet
+[single] gevonden, noch twintich kisten gelt op
+[single] interest te nemen, soo tegens twee per
+[single] cento mocht te becomen sijn, voor 6: maenden
+[single] te lichten, ome d' E. Comp=e dees interest
+[single] jegens goede advance, om te doen setten,
+[single] ende haer
+== NL-HaNA_1.04.02_1184_0087 | #87 | sides: single | lines: 34
+[single] 39
+[single] Capitael soo veel doenl te
+[single] ende haer
+[single] vergroten, dat sijn gevolgh neemt. derhalven
+[single] sullen de coopmanschappen wat doen verdelen,
+[single] om niet te veel risico op eenen bodem te
+[single] laeten gaen, dat en 't voorige willen ver¬
+[single] trouwen u. Ed:e voor wel gedaen,
+[single] verstaen sullen.
+[single] Laeckenen en Perpetuanen, dienen hier
+[single] gesonden, om ijgel te beter
+[single] wat ruijmer
+[single] gelt, genoegen te geven, die
+[single] voor haer
+[single] altijts, de Grooten versadicht sijnde, met
+[single] goede advance, als bij de boecken blijckeljk
+[single] noch cunnen vertiert, off anders nae Tajouan
+[single] weder te rugh gesonden werden, Over
+[single] Japan staet een welgeformeerden eijsch, met
+[single] d'eerste retournerende schepen, te volgen
+[single] gedaene schenckagie,
+[single] T bedraegen onser
+[single] als bij nevens gaende specificatie Nuo: 14:
+[single] sal ditmael wat veer gaen, en bij
+[single] voor heen swaer overhaelen, doch vertrouwen
+[single] de verworven gunst en gelegentheijt
+[single] van 's Comp=es standt, nu alhier daer
+[single] tegens balancerende, alles weder verlichten,
+[single] ende V. Ed:e gesamentlijk , nevens der
+[single] Heeren maiores, echter genoegen aenbrengen
+[single] sal, te meer alles voor eerst
+[single] weder uijt de verder aen te leggene, als —
+[single] particuliere aen gehaelde penningen
+[single] advance
+== NL-HaNA_1.04.02_1184_0088 | #88 | sides: single | lines: 35
+[single] advance, en 't weeren desselffs, buijten het
+[single] weder geschenck, sal cunnen gevonden, —
+[single] en goet gemaeckt werden.
+[single] Met de veranderingh en 't overlijden van
+[single] schipper van Daelen, soo wierden verscheijde
+[single] requesten, tot becleedinge der selver
+[single] plaets, van d'Opper-stuerluijden den Raedt
+[single] gepresenteert, ende eijntel. Pieter
+[single] Doedess., wien ree 70: hul. per maent, en
+[single] verbonden
+[single] hadt, en sulck
+[single] twee jaer over sijn „ tijdt
+[single] een aste dat gehouden bleeff het schippers
+[single] ampt mede te berleden, den welcken
+[single] sigh met een nieuw verbant voor 3. jaeren
+[single] presenteerde, dat alles ingesien, ende
+[single] niet op sijn comportement te seggen—
+[single] bij den Raedt overwogen sijnde, hem
+[single] viel
+[single] desselffs ampt, onder een nieuw drijjarigh
+[single] verbant, tot approbatie van costi, met
+[single] een belooningh van 80: gul. pr maent
+[single] te defereren, goet gevonden wert 1:—
+[single] Gustavus Hanssen, onder
+[single] Als mede
+[single] barbier, met ƒ 19. in 't landt gecomen,
+[single] wiens tijt ree 4. jaeren g'expireert was,
+[single] wert volgens sijn versoeck, goet comporten¬
+[single] tements halven, en dat redel. in de tael
+[single] ervaeren is, voor 5. jaeren, de qualiteijt
+[single] van adsistent, nevens een belooninge
+[single] van n. 26. per maendt, (als vooren:)
+[single] vergunt. Mits gehouden blijvende, noch
+[single] 2: Jaeren, 't Chirurgijns ampt, daer
+[single] nevens
+== NL-HaNA_1.04.02_1184_0089 | #89 | sides: single | lines: 39
+[single] 40
+[single] nevens te bedienen. En Pieter van
+[single] Beusecom, die langh ter
+[single] secretarie op
+[single] Frisius, en in
+[single] Batavia, bij den Gesandt
+[single] Groot sich
+[single] 't schrijven ontrent
+[single] S=r de
+[single] geoeffent heeft, op sijn versoeck
+[single] geduurigh
+[single] voorige conditie voor 5: jaeren
+[single] onder
+[single] in 's Comp=es dienst aengenomen, te
+[single] weeten 3. Jaer voor jongh adsistent
+[single] tot 12 gul: ende de volg ende 2. jaeren voor
+[single] adsistent met 18. gul. 'smaendts.
+[single] Twee Tolcken, die alhier seer dienstigh
+[single] sijn, ende vereijsschen, hebben op 12: tail
+[single] -
+[single] Japans, (nevens vrij wooningh binnen
+[single] de logie, licht en brandt,) maentl. gestelt,
+[single] en acte daer van verleent
+[single] Sr. de Groot, de negotie boecken van
+[single] eerster instantie onses arrivements
+[single] alhier, gelast sijnde te vereffenen, als
+[single] in 't vervolgh tot den 28en: Junij, heeft niet
+[single] voor den 12en. Julij balance getrocken, en
+[single] transport gedaen noch cunnen doen, invoegen
+[single] dat sijne cassa noch bleeff debet staen
+[single] ƒ 149789: 1:1:, waer van verclaerden in
+[single] presentie van verscheijden personen, geen
+[single] rechte aenwijsinge te cunnen doen. Over
+[single] welcx, Sr Keijser, soodanigh een transport,
+[single] (tot sijnen laste,) niet cunnende overnemen,
+[single] sich daer jegens gestelt ene geprotesteert
+[single] heeft, naemaels aen de bevindingh ijets
+[single] mancquerende
+== NL-HaNA_1.04.02_1184_0090 | #90 | sides: single | lines: 33
+[single] mancquerende, hij Keijser daer van
+[single] bevrijt, en s=r de
+[single] Groot tot Lant
+[single] woordinge comen mocht, welcx redel. ende
+[single] billick versoeck, nevens 't gaende protest
+[single] aengemerckt sijnde, bij mij ende den Raedt
+[single] Sr de Groot noch andermael eerst
+[single] voorgehouden wesende, hem keijser, alsoo
+[single] alles voortgangh nemen most, en geen
+[single] uijtstet lijden con, g'accordeert is.
+[single] Met het gemelte van Comp=s wegen,
+[single] waer voor de sorgh te draegen, ons
+[single] bevoolen was, ons niet cunnende laeten —
+[single] vergenoegen, hebben gemelte de Groot
+[single] naeder gelast, ons openingh en aenwijsinge
+[single] van dees importante
+[single] somme, monterende
+[single] ongevaer 150. E gul: te doen, daer toe,
+[single] als vooren, sich weijgerich en halstarigh
+[single] thoonde, net 't seggen sulcx niet conde
+[single] doen, noch van niemant en soude cunnen
+[single] gedaen werden. Waer op vertrocken, en
+[single] weder
+[single] geretourneert sijnde, andermael
+[single] gelasten, tusschen dit
+[single] Een morgen middach
+[single] 't selvige t'effectueren, off souden hem de
+[single] Groot niet langer in hooffdicheijt
+[single] verdraegen, maer gesuspendeert nae boort
+[single] toe senden, dat seijde wel doen mochten, en
+[single] daer op vertrock
+[single] Desgelijcx weijgerde sijne boecken te
+[single] teijckenen
+== NL-HaNA_1.04.02_1184_0091 | #91 | sides: single | lines: 33
+[single] 4:
+[single] teijckenen, die tot 28:en Junij selffs, en
+[single] met eijgen handt hem hadde doen
+[single] inschrijven, om daer op vervolgens transport
+[single] te mogen doen, daer hem insgelijcx noch
+[single] mede toebrachten, dat vrij vermeten, en
+[single] niet min bedenckel. valt. Wij sullen
+[single] sijn persoon, soo geduijrich gedaen hebben,
+[single] ende noch voornemens sijn in te volharden, sijn wil
+[single] (voor soo veel bij ons respect blijven cunnen,)
+[single] noch soo wat laeten volgen, tot tijt en wijle
+[single] dat eens sien sullen, off alles dat hem
+[single] gaerne gunne,) noch rondt sal schieten
+[single] cunnen.
+[single] Waer over
+[single] opstont, als vermerckte,
+[single] en langh vermerckt hebbende, dat niet
+[single] anders dan alles, tot nadeel van d' E.
+[single] Comp=e slepende te houden, voornemens
+[single] was; De Ondercoopluijden Maij, van
+[single] Borstele ende Baron, gelaste niet
+[single] slaepen te gaen, (als wesende de saeck,
+[single] gel. voor gaff, soo swaer-wichtich niet,
+[single] voor en al eer 'tselvige recht en —
+[single] behoorl uijtgevonden hadden, die nae—
+[single] weijnich tijts, alles effen gestelt hebbende,
+[single] weder retourneerden, ene sulcx Hoogen
+[single] quaemen. Waer met s=r de Groots
+[single] onmogelijckheijt tot vleen respect van sijn
+[single] persoon, geheel
+[single] verworpen
+[single] werdt.
+[single] Ende
+== NL-HaNA_1.04.02_1184_0092 | #92 | sides: single | lines: 29
+[single] Ende op dat alles met te meerder
+[single] luijster en gerustheijt ten dienste
+[single] van d' E. Comp=e sijn gevolch mach nemen,
+[single] en werden bewerckt. Soo hebben S=r
+[single] Keijser een memorie, No 9. bij ons
+[single] ingestelt, overhandight, tot een
+[single] weghwijser ende reglement van den
+[single] wegh, die in 't gevolgh te gaen heeft,
+[single] voor soo veel door ons kennisse in
+[single] dees corten tijt, met opmerckingh
+[single] is cunnen werden begrepen, wij willen
+[single] vertrouwen met sulcx een goede meijninge,
+[single] als 't selve van ons is geschiet, met niet
+[single] minder genegentheijt d'achtervolginge
+[single] sal betrachten.
+[single] De twee Chinese Joncken van den
+[single] voorleden Jaere weder verscheenen, hebben
+[single] verseth, dat den
+[single] 't geheel capitael
+[single] marckt in Japan geen voordeel
+[single] geven can.
+[single] Den Japander Riseijmon van wien....
+[single] kisten op interest gelicht hebben, heeft
+[single] geheel in Marcauw gedaen, en is sulcx
+[single] gehaedt, dat schoon weer verschijnende
+[single] sonder last te breecken, moeten retour¬
+[single] neren souw, wes voornemens blijft in
+[single] 't voor-jaer sijn noch resterende Jonck,
+[single] (waer
+== NL-HaNA_1.04.02_1184_0093 | #93 | sides: single | lines: 33
+[single] 12
+[single] waer van d'ander uijt Marcauw
+[single] comende, alhier tegens de drooghte
+[single] off buijten bancken gebleven is,) een —
+[single] voijagie nae Manilha t'ondernemen,
+[single] over sulcx als gepassioneert, alle gele¬
+[single] gentheden van Marcauw, gel. Bastiaen
+[single] Brouwer desgelijcx doet, heeft bloot
+[single] gestelt, en naeder bij 't dagh register
+[single] op 29:en April, en vervolgens te beoogen
+[single] staet, dat remarcquabel is.
+[single] Daegs nae ons arrivement alhier, hebben
+[single] volgens U. Ed:e ordre, alle des Comp=s
+[single] residenten hier aen landt bescheijden, bij een doen
+[single] comen, 't vertreck van den Ede: Heer
+[single] Gouverneur Generael vander Lijn,
+[single] bekent gemaeckt, en gesamentl. vande
+[single] eedt voor heen aen sijn Ed=t bewesen,
+[single] ontslaegen, en vervolgens aen den Ed: H=r
+[single] Carel Reniersz. Gouverneur Generael
+[single] vernieuwt, doende hun gesamentl. d'afte
+[single] bij d'aenwesende Heeren Raeden ordinare
+[single] tot Batavia geteijckent, voorlesen, en
+[single] alles nae eijsch, als mede daeghs in
+[single] 't gevolgh der respectivve schepen hier
+[single] sijnde, door Gecommitteerdens, en soo
+[single] behoort, effectueren, blijckende bij d'acte desselffs
+[single] No. 6. hier nevens gaende.
+[single] Ende alsoo niet weten wat ghelegent¬
+[single] heijt van vaertuijgh uijt Tajouan nae
+[single] ambodia te vertrecken, sich sal mogen
+[single] E
+[single] presenteren,
+== NL-HaNA_1.04.02_1184_0094 | #94 | sides: single | lines: 34
+[single] presenteren, om volgens V. Ed. e ordre dien
+[single] vorst in antwoort der gess. missivven, tot
+[single] bevorderinghe der vrede, door sijn twee
+[single] Raetsheeren aen den Gouverneur in—
+[single] Tajouan, buijten 't geene V. Ed: van Batavia
+[single] voornemens te doen sijt, te laeten ontmoeten,
+[single] soo hebben ons niet willen laeten genoegen,
+[single] om geen oorsaeck van een goet wercx
+[single] versuijm te wesen, dien iuijsten tijt
+[single] van ons verschijnen aldaer aff te wachten,
+[single] maer in tegendeel overwegen even eens
+[single] Den Coningh, off van deest
+[single] te sijn.
+[single] candt, off wel uijt Tajouan tot
+[single] verseeckerheijt van 't gevolgh
+[single] meerder
+[single] met een brieffken No 10. te begroeten,
+[single] dat in handen van Bastiaen Brouwer,
+[single] een Nederlandts Manilhas-burger,
+[single] voornemens te bestellen sijn, wien met
+[single] sijn vaertuijgh van 2½ last groot, van
+[single] hier derwaerts, ultimo September
+[single] voornemens te vertrecken is, en daer toe
+[single] een weijnich assistentie van een
+[single] opgeslaegen touwtge, en al was 't een oudt
+[single] compas versocht heeft, dat hem in dese
+[single] gelegentheijt is toegestaen.
+[single] Wijders hebben desgelijcx een letterken
+[single] nae Japan gesonden, waer van —
+[single] geteeckent No: 12. hier
+[single] t' affschrift
+[single] nevens gaet, eenich wat verhael doende
+[single] van ons weder-vaeren, verrichtinge en
+[single] ontmoetinge
+== NL-HaNA_1.04.02_1184_0095 | #95 | sides: single | lines: 36
+[single] 43
+[single] mitsgrs
+[single] ontmoetinge in 't rijck alhier
+[single] 't weeren van den particulieren handel, daer
+[single] eenighsints den wegh toe aenwijse, als
+[single] mede in wat voegen wegens de venditie
+[single] en met de memorie der vercoop, het
+[single] thoonen en uijt leveren der goederen, als
+[single] ten tijde van 't weder vertreck sich
+[single] sullen hebben te gedraegen, niet vrder
+[single] gaende om mij in te binden, alsoo mijns oordeels
+[single] van mij in dees gelegentheijt, en voor
+[single] ditmael uijt desen hoeck, off dit gewest
+[single] den dienst van de Comp=e te bevorderen,
+[single] (om geen mislagh te begaen,) niet anders
+[single] vereijscht, 'k wil niet twijffelen sulcx
+[single] werdende achtervolght, off 't en sal
+[single] eenichsints al vrught, en de Comp=e
+[single] merckelicke deucht gevoelen doen.
+[single] Ter tijt ons aenwesen alhier
+[single] hebben
+[single] fun¬
+[single] expres getracht, om met te beeter
+[single] dament danmaels te mogen spreecken,
+[single] een der sijde-dorpen te besichtigen, mitsgrs
+[single] de velden en 't planten van de moerbesien
+[single] boomkens, de wornen, desselffs aenqueer¬
+[single] kinge, 't voeden, spinnen, 't haspelen off
+[single] op winden, de huijskens waer in gehouden,
+[single] hoe groot, hoogh, breedt, wat stellinge,
+[single] en vorder het geene, dat daer toe, off
+[single] aengehoort, nemende ten dien eijnde een ben
+[single] met wormen mede, die op dees maniere
+[single] spinnen, uijtbreecken tot uijlen, teelen,
+[single] liet
+[single] eijeren
+== NL-HaNA_1.04.02_1184_0096 | #96 | sides: single | lines: 34
+[single] eijeren leggen, uijt-broeijen, en weder
+[single] -
+[single] opqueecken. Waer in dat wonderlick
+[single] he d'Alvermogende sijne macht.
+[single] bespeurt werdt, en niet voor den mensch
+[single] om begrijpen is, dat soo machtige quantiteijt
+[single] zijde, daer Coningen ende Princenhoven,
+[single] soo veel de
+[single] jae meest al en ijgel. voor
+[single] selvige in 't gebruijck hebben, sich mede
+[single] cieren, en sulcke schatten in verhandelt
+[single] werden, soo onnosel en slecht in 't aensien
+[single] van deese beestkens, de transformatie aen
+[single] d'eene, en 't beheeren off regeren aen d'ander
+[single] cant, toegaet, dat mij doet seggen,
+[single] O: onbegrijpelicke mogentheijt, voor wien dit
+[single] werck aensiende, verstommen, en ons vermeten
+[single] wederhouden moeten.
+[single] In Taijouan met lieff verschijnende, hoe
+[single] wel d'aenqueeckinge voor den Chinees
+[single] Sako gestaeckt, wijder geheel
+[single] verbleven, en als in 't vervat geraeckt is,
+[single] sullen ons voornemen soo tijt hebben, soecken
+[single] te betrachten; In voegen door dat een vou¬
+[single] digen ene soo 't sich laet aensien, slecht en
+[single] ongeacht werck, d' E. Comp=e eens soude
+[single] mogen genieten uijt den formosaensen
+[single] acker, onder den lommer van haeren
+[single] vijgen-boom, die zijde- oegst, waerom
+[single] wijdt en sijdt de Zee bevaeren, machtige
+[single] gepericuliteert en versmolten
+[single] schatten
+[single] werden, 't werck heeft meer verbonderingh,
+[single] dan wel
+== NL-HaNA_1.04.02_1184_0097 | #97 | sides: single | lines: 37
+[single] 44
+[single] dan wel bewerckingh aen sich, maer moet
+[single] gebooden, levendigh gehouden, en
+[single] de handt
+[single] -
+[single] nae eijsch beooght werden.
+[single] Gelijck voor heen ons vertreck, lanck¬
+[single] wijlich hadden gesolliciteert, en nogh
+[single] vermits t' verwachten van den Tartarischen
+[single] Ambassadeur, onaengesien wat mochten
+[single] voorbrengen, niets was g'obtineert, soo
+[single] hadde den Coningh alle preparade daer
+[single] toe laeten aenwenden, en te meer, om
+[single] ons sijn macht, luijster en vermogen
+[single] eens te doen blijcken, de selvige bij den
+[single] ander laeten comen, wesende van wijt
+[single] en sijt, en alle oorden des rijcx, bij een
+[single] gebracht, daer toe sich in den Doelen
+[single] vervoecht, ene ons met 't geheel geselschap
+[single] bij hem doen ontbieden hadde. Wanneer
+[single] op den wegh alle straeten vervult
+[single] bevonden met opgepronckte soldaeten en
+[single] Eliphanten, met
+[single] machtige quantiteijt
+[single] verlackte ende vergulde huijsdens, dan
+[single] ontrent desselffs poort comende, wert
+[single] den Maij=t de weet onser comste
+[single] aengedient, die gelaste weijnich te
+[single] vertoeven, en sit-plaets onder enwijl te
+[single] bereijden. Wanneer vervolgens alles te
+[single] gheleijdt
+[single] besichtigen, gints en weer
+[single] wierden, ene vrij veel Eliphanten,
+[single] huijskens sagen,
+[single] alle met aensienlicke
+[single] mitsgrs. groote quantiteijt schoone paerden,
+[single] seer cierl.
+== NL-HaNA_1.04.02_1184_0098 | #98 | sides: single | lines: 34
+[single] seer cierl. toegrust, desgelijcx veele galeijen,
+[single] langh 90. a 100. voet, alle van buijten ende
+[single] van binnen roodt verlackt, en seer cierl. op
+[single] alle naeden ende vougen, mitsgrs. achter en
+[single] voor, met uijtgesneden snaeckerij en loffwerck
+[single] vergult, sulcx dat als goude bergen in 't oogh
+[single] sich voor-deden, die met 40. ende 50. riemen, min
+[single] en meer beroeijt werden, en met een naedt,
+[single] en niet anders dan off uijt een hout bearbeijt
+[single] waeren, con gesien werden, sulcx dat
+[single] machtige quantiteijt g'armeerde soldaeten,
+[single] die gesecht wert wel 150: a 200: E, in
+[single] tvelt can brengen; Eliphanten ongevaer
+[single] 1000: waer van meer dan de helft, ende
+[single] wel 2. a 300: en meer
+[single] galeijen saegen, dan
+[single] alle niet even costel. Eijntl. liet
+[single] mij nevens Sr. Danckers, ende den nieuwen
+[single] Capitain boven comen, alwaer den Maij=t
+[single] de reverentie bewesen, en ons gelast
+[single] wert neder te gaen sitten, en met eeten
+[single] en drincken wel te tracteren, sittende in
+[single] volgende manieren, alle met spijs en dranck
+[single] wel opgedischt. Te weten den Maijt
+[single] in d'opper off hooge plaets, buijten op een mat
+[single] den jongen Coningh, weijnich achterwaerts
+[single] den ouden Conings-broeder, noch wat
+[single] ruggelings des overleden jongen Coninghs
+[single] soonen, daer wij benevens ende achtervolgens
+[single] gestelt wierden, de Chinese Capiteijns
+[single] der Joncken, heel op d'ander sij, en gesepa=
+[single] reert. Wanneer den Maijt waer ongevaer
+[single] 25. a 30. voet van daen saeten, ons gaende
+[single] wegh deedt
+== NL-HaNA_1.04.02_1184_0099 | #99 | sides: single | lines: 33
+[single] 45
+[single] wegh deedt affvraegen, off alles wel hadden —
+[single] besichticht, ende ons wel bevallen was, daer
+[single] met verwonderingh, en niet anders dan waerheijt,
+[single] alles seer exalterende loffeljk van spraecken,
+[single] dat sich wel gevallen liet, en groot genoegen
+[single] in schepten. Wijders off geen mortiers ghe¬
+[single] bruijckten, en met een der selvige in 't aen¬
+[single] taende nevens 10: pistoolen, eenige
+[single] handt granaten, ende een vuijr-wercker
+[single] conde g'accommodeert werden, waer belooffde
+[single] nae vermogen debouir toe aen te wenden.
+[single] Den Prins opstaende, stonden alle despelijcx
+[single] op, die weijnich woorden door den Capado
+[single] met den Coningh gebruijckt hebbende, seer
+[single] fatsoenelj. , met groote nedricheijt, sich vier
+[single] mael achter den anderen op de knien, met
+[single] 't hooft ter aerden, ijdermael recht opgestaen
+[single] sijnde, weer nederboogh, gelijk des maij=ts
+[single] Broeder, nevens de verdere bloet verbanten,
+[single] gelijckel. volghden, ende gesamentl. vertrocken.
+[single] Den Maijt sich jegens ons excuserende,
+[single] en noch gelaste wat te vertoeven, vermits
+[single] weijnich vertrock, wanneer meest alle de
+[single] Princessen off 's Conings vrouwen, op eliphanten
+[single] in goude huijskens, ende costel. plancquijns
+[single] verscheenen, ende nae wat stoevens de deuren
+[single] weder ontslooten, en in de Doelen met
+[single] musquetten en haecx geschooten werdende, den
+[single] Maij=t sich weermaels presenteren quam, en alle
+[single] sijne vrouwen te voorschijn comen liet
+[single] mij aenseggende, dat sulcx eenich door lieffde,
+[single] die tot
+== NL-HaNA_1.04.02_1184_0100 | #100 | sides: single | lines: 33
+[single] die tot mij droegh, en per courtosie was
+[single] geschiedende, waer voor den Maij=t seer
+[single] „licentie
+[single] bedanckten, ene eijntl. ons„ versocht wesende,
+[single] weder affscheijt bequaemen; In dese vreuchde
+[single] socht gelegentheijt, om licentie tot het
+[single] vertreck en bevorderingh onser reijse, aen te
+[single] treffen, dat niet wel obtineren con, en
+[single] gel. daegs in 't gevolgh
+[single] mij ontraeden wiert
+[single] ons weder, en met drij booden cort achter
+[single] den anderen deedt ontbieden, dat souden te
+[single] hooff comen, ons willende sijne eliphanten,
+[single] ende in sulcker voegen als in den oorlogh
+[single] gebruijckt worden, vertoogen, geljk geschiede,
+[single] ene meenich afhault gedaen wert, eijtlick
+[single] alles ten eijnde sijnde, gelasten ons in een
+[single] vergulde galeijen te gaen,
+[single] sijner Maij=ts
+[single] alwaer met eeten en drincken vermaeckt
+[single] wierden, en ons weder nae huijs begaeven,
+[single] gelijck alles in 't dagh register op desselffs
+[single] dato, largo te beoogen staet, en mij
+[single] toegedraege
+[single] Alle des Conings voorgeven van den
+[single] Ambassadeur, ende dat uijt Tartarien te
+[single] verschijnen staet, is wel aennemelick,
+[single] maer vermits gesecht wiert sieck te
+[single] sijn, en wert tot opheden noch niet
+[single] vernomen. Den Maij=t voor heen, ter
+[single] tijt dat in 't hoff sijne gasten en besich
+[single] met eeten waeren, deedt ons aenseggen,
+[single] dat bij

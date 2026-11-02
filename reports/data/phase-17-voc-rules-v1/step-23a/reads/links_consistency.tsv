@@ -1,0 +1,26 @@
+inv	line_id	field	old	new	rule	reason
+1556	line_9b2fb7a6-8b78-4462-a071-c966e9cd4c36	gold_folios	408		b	folio 408 is written on a neighbouring line of the same entry, not on this line (show.py)
+1556	line_9b2fb7a6-8b78-4462-a071-c966e9cd4c36	note		folio 408 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule	b	
+1556	line_3afa3fdf-ac9b-4731-b1fe-5a10f8d06134	gold_folios	500		b	folio 500 is written on a neighbouring line of the same entry, not on this line (show.py)
+1556	line_3afa3fdf-ac9b-4731-b1fe-5a10f8d06134	note	folio 500 a 504 verso on same entry	folio 500 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule	b	
+1556	line_6cb8e2df-a98f-40f0-ad6d-59875c260c55	gold_folios	607		b	folio 607 is written on a neighbouring line of the same entry, not on this line (show.py)
+1556	line_6cb8e2df-a98f-40f0-ad6d-59875c260c55	note	folio 607 verso a 609 verso on next line	folio 607 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule	b	
+1723	d1f13456-dadb-49ec-9729-b75ff7646449	gold_folios	1126		b	folio 1126 is written on a neighbouring line of the same entry, not on this line (show.py)
+1723	d1f13456-dadb-49ec-9729-b75ff7646449	note	folio 1126 a 1130 on entry start	folio 1126 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule	b	
+1723	line_3d539e2d-9974-4cdd-8793-68f62a28e5b3	gold_folios	1172		b	folio 1172 is written on a neighbouring line of the same entry, not on this line (show.py)
+1723	line_3d539e2d-9974-4cdd-8793-68f62a28e5b3	note	folio column garbled: 1172 listed at foot of column	folio 1172 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule	b	
+1723	c1ae7269-3a20-453d-96ee-38d54e04ef8e	gold_folios	1184		b	folio 1184 is written on a neighbouring line of the same entry, not on this line (show.py)
+1723	c1ae7269-3a20-453d-96ee-38d54e04ef8e	note	folio 1184 a 1185	folio 1184 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule	b	
+2047	e62c7751-bfe8-41d3-bbe5-fce42e9e3897	gold_folios	235		b	folio 235 is written on a neighbouring line of the same entry, not on this line (show.py)
+2047	e62c7751-bfe8-41d3-bbe5-fce42e9e3897	note	folio 235 a 241 on same entry	folio 235 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule	b	
+2047	line_660d7b4c-1c03-488d-883d-993a25e88190	gold_folios	292		b	folio 292 is written on a neighbouring line of the same entry, not on this line (show.py)
+2047	line_660d7b4c-1c03-488d-883d-993a25e88190	note	folio column; 292 for Chettuwa letters	folio 292 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule	b	
+2047	cddba2ce-c3ff-4b06-8c98-fda0dcf60f82	gold_folios	297		b	folio 297 is written on a neighbouring line of the same entry, not on this line (show.py)
+2047	cddba2ce-c3ff-4b06-8c98-fda0dcf60f82	note	inline 300 is range end; letter starts 297	folio 297 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule	b	
+8466	line_7321f826-b00d-4b1e-b9e6-65cbf2160a46	gold_folios	106		b	folio 106 is written on a neighbouring line of the same entry, not on this line (show.py)
+8466	line_7321f826-b00d-4b1e-b9e6-65cbf2160a46	note		folio 106 on a neighbouring line of the entry; empty by the line-names-only-its-own-numbers rule	b	
+2379	ea936677-ccd4-4afc-99ac-42ba10ea3611	gold_folios	603		a	bare 603 inside the enclosure list of a loc=no title page (item 2 of the list), not a folio column
+2379	ea936677-ccd4-4afc-99ac-42ba10ea3611	note	bare number at foot of register title page	bare number 603 inside an enclosure list on a loc=no page; not a folio column	a	
+2282	line_8ef8a018-11ea-4eed-9d8d-94245b505e1b	note	line is only the page number 4	bare 4 in the folio column of the register summary (loc=yes page, volume folios 1..919); the page's own number is 1975/23 at the top	a	reader note called it the page number; checked in show.py
+2954	line_51cfc435-5d95-4b84-a6f8-76a1d6e99d05	note	109 709 - 841 garbled; read 409-841 range	htr=109; read 409 (range 409-841)	c	409 is not a digit string in the text
+3793	line_24494525-5b5c-4aa7-817f-5a715a633347	note	OCR 3380; sequence/printed page is 3330 (to 3333)	htr=3380; sequence/printed page is 3330 (to 3333)	c	3330 is not a digit string in the text

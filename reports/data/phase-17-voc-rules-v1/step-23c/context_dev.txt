@@ -1,0 +1,327 @@
+#1 [fix] inv 1122 single folio 288 gold 307 pred_BASE 303 pred_SEL 306 (n_scans 1154)
+   map BASE: mode pagination chain_len 493 first/last [2.0, 6.0] [1122.0, 681.0] pieces 0
+   map SEL: mode pagination chain_len 508 first/last [2.0, 6.0] [1122.0, 681.0] pieces 0
+   302  single: ['286']
+   303  single <BASE: ['288', '287']
+   304  single: []
+   305  single: ['162']
+   306  single <SEL: ['0']
+   307* single: ['16', '2078']
+   308  single: []
+   309  single: ['289']
+   310  single: []
+#2 [fix] inv 1188 single folio 172 gold 367 pred_BASE 373 pred_SEL 367 (n_scans 1520)
+   map BASE: mode pagination chain_len 461 first/last [17.0, 4.0] [1470.0, 2246.0] pieces 0
+   map SEL: mode pagination chain_len 472 first/last [17.0, 4.0] [1470.0, 2246.0] pieces 0
+   364  single: []
+   365  single: ['171']
+   366  single: []
+   367* single <SEL: ['172.']
+   372  single: ['2', '333', '73']
+   373  single <BASE: ['172']
+   374  single: []
+#3 [fix] inv 2974 openings folio 1382 gold 182 pred_BASE 183 pred_SEL 182 (n_scans 267)
+   map BASE: mode pagination chain_len 101 first/last [2.0, 4.0] [466.0, 1447.0] pieces 0
+   map SEL: mode pagination chain_len 116 first/last [2.0, 4.0] [469.0, 1448.0] pieces 0
+   179  verso: []
+   179  recto: ['382']
+   180  verso: []
+   180  recto: ['1382']
+   181  verso: []
+   181  recto: ['1382']
+   182* verso <SEL: []
+   182* recto <SEL: ['1382']
+   183  verso <BASE: []
+   183  recto <BASE: ['1382']
+   184  verso: []
+   184  recto: ['1383']
+   185  verso: []
+   185  recto: ['Swaar geld.']
+#4 [fix] inv 1085 single folio 31 gold 90 pred_BASE 91 pred_SEL 89 (n_scans 1090)
+   map BASE: mode pagination chain_len 204 first/last [7.0, 1.0] [1037.0, 2700.0] pieces 0
+   map SEL: mode pagination chain_len 216 first/last [6.0, 1.0] [1037.0, 2700.0] pieces 0
+   87  single: ['33.', '30.']
+   88  single: []
+   89  single <SEL: ['33.', '31.']
+   90* single: []
+   91  single <BASE: ['33.']
+   92  single: []
+   93  single: ['33.']
+#5 [fix] inv 1075 single folio 102 gold 254 pred_BASE 255 pred_SEL 253 (n_scans 716)
+   map BASE: mode pagination chain_len 204 first/last [7.0, 1.0] [660.0, 4705.0] pieces 0
+   map SEL: mode pagination chain_len 217 first/last [7.0, 1.0] [660.0, 4705.0] pieces 0
+   251  single: ['8.', 'tot']
+   252  single: []
+   253  single <SEL: ['102']
+   254* single: []
+   255  single <BASE: ['102']
+   256  single: ['5', '1']
+#6 [fix] inv 1076 single folio 26 gold 60 pred_BASE 63 pred_SEL 59 (n_scans 946)
+   map BASE: mode pagination chain_len 250 first/last [2.0, 1.0] [892.0, 435.0] pieces 0
+   map SEL: mode pagination chain_len 265 first/last [2.0, 1.0] [892.0, 435.0] pieces 0
+   57  single: ['23.', '25']
+   58  single: ['Ormuz']
+   59  single <SEL: ['26', '24.']
+   60* single: []
+   61  single: ['26']
+   63  single <BASE: ['26']
+   64  single: ['6']
+#7 [fix] inv 1750 single folio 945 gold 758 pred_BASE 759 pred_SEL 757 (n_scans 818)
+   map BASE: mode pagination chain_len 122 first/last [2.0, 2.0] [776.0, 967.0] pieces 0
+   map SEL: mode pagination chain_len 252 first/last [2.0, 2.0] [776.0, 967.0] pieces 0
+   755  single EXCL: ['966', '944']
+   756  single: []
+   757  single <SEL: ['966', '945']
+   758* single: []
+   759  single <BASE: ['966', '946']
+   760  single: []
+   761  single: ['966', '947']
+#8 [fix] inv 2425 single folio 3175 gold 513 pred_BASE 518 pred_SEL 512 (n_scans 990)
+   map BASE: mode pagination chain_len 346 first/last [2.0, 1.0] [832.0, 3325.0] pieces 0
+   map SEL: mode pagination chain_len 349 first/last [2.0, 1.0] [831.0, 3325.0] pieces 0
+   510  single: []
+   511  single: ['3174']
+   512  single <SEL: []
+   513* single: ['3173']
+   517  single: ['3', '170', 'N']
+   518  single <BASE: []
+   519  single: ['3177']
+#9 [fix] inv 2683 single folio 88 gold 197 pred_BASE 199 pred_SEL 197 (n_scans 482)
+   map BASE: mode pagination chain_len 154 first/last [5.0, 1.0] [414.0, 189.0] pieces 0
+   map SEL: mode pagination chain_len 153 first/last [5.0, 1.0] [414.0, 189.0] pieces 0
+   194  single: []
+   195  single: ['87', '87']
+   196  single: []
+   197* single <SEL: ['88']
+   198  single: []
+   199  single <BASE: ['88']
+#10 [fix] inv 1245 single folio 1 gold 17 pred_BASE 19 pred_SEL 17 (n_scans 1518)
+   map BASE: mode pagination chain_len 444 first/last [18.0, 3.0] [1457.0, 783.0] pieces 0
+   map SEL: mode pagination chain_len 477 first/last [16.0, 3.0] [1457.0, 783.0] pieces 0
+   14  single: []
+   15  single: ['Fo', 'F:o']
+   16  single: []
+   17* single <SEL: []
+   18  single: []
+   19  single <BASE: ['3']
+   20  single: []
+#11 [fix] inv 1291 single folio 192 gold 438 pred_BASE 439 pred_SEL 437 (n_scans 1356)
+   map BASE: mode pagination chain_len 367 first/last [16.0, 1.0] [1263.0, 603.0] pieces 0
+   map SEL: mode pagination chain_len 394 first/last [16.0, 1.0] [1263.0, 603.0] pieces 0
+   435  single: ['191', '193']
+   436  single: []
+   437  single <SEL: ['93']
+   438* single: []
+   439  single <BASE: ['193', '11']
+   441  single: ['193']
+#12 [fix] inv 3780 openings folio 6237 gold 220 pred_BASE 226 pred_SEL 220 (n_scans 341)
+   map BASE: mode foliation chain_len 54 first/last [5.0, 114.0] [333.0, 6633.0] pieces 0
+   map SEL: mode foliation chain_len 154 first/last [5.0, 114.0] [333.0, 6633.0] pieces 0
+   217  verso: []
+   217  recto: ['6337', '6234']
+   218  verso: []
+   218  recto: ['633', 'Patria']
+   219  verso: []
+   219  recto: ['6331', '6236']
+   220* verso <SEL: []
+   220* recto <SEL: ['6331']
+   221  verso: []
+   221  recto: ['6337', '6238']
+   222  verso: []
+   222  recto: ['6331', '6239']
+   223  verso: []
+   223  recto: ['633']
+   225  verso: []
+   225  recto: ['6337', '6241']
+   226  verso <BASE: []
+   226  recto <BASE: ['6331', '6242']
+   227  verso: []
+   227  recto: ['633']
+#13 [fix] inv 7534 single folio 1 gold 11 pred_BASE 13 pred_SEL 11 (n_scans 990)
+   map BASE: mode pagination chain_len 210 first/last [7.0, 3.0] [916.0, 4706.0] pieces 0
+   map SEL: mode pagination chain_len 196 first/last [5.0, 3.0] [916.0, 4706.0] pieces 0
+   11* single <SEL: []
+   12  single: []
+   13  single <BASE: ['3']
+   14  single: []
+#14 [fix] inv 1251 single folio 387 gold 441 pred_BASE 442 pred_SEL 441 (n_scans 2062)
+   map BASE: mode pagination chain_len 1010 first/last [24.0, 1.0] [2021.0, 1822.0] pieces 0
+   map SEL: mode pagination chain_len 1106 first/last [24.0, 1.0] [2021.0, 1822.0] pieces 0
+   438  single: ['384']
+   439  single: ['389', '3', '385']
+   440  single: ['386']
+   441* single <SEL: ['389', '8', '387']
+   442  single <BASE: []
+   443  single: []
+   444  single: ['0', '2', '7']
+#15 [fix] inv 1063 single folio 32 gold 79 pred_BASE 81 pred_SEL 79 (n_scans 1036)
+   map BASE: mode pagination chain_len 199 first/last [23.0, 6.0] [963.0, 499.0] pieces 0
+   map SEL: mode pagination chain_len 239 first/last [18.0, 4.0] [963.0, 499.0] pieces 0
+   76  single: ['254', '13', '680', '21', '5']
+   77  single: ['21']
+   78  single: ['167']
+   79* single <SEL: ['1']
+   80  single: []
+   81  single <BASE: ['33']
+   82  single: []
+#16 [break] inv 2770 openings folio 613 gold 8 pred_BASE 8 pred_SEL 5 (n_scans 473)
+   map BASE: mode pagination chain_len 206 first/last [1.0, 100.0] [878.0, 1117.0] pieces 0
+   map SEL: mode pagination chain_len 241 first/last [1.0, 100.0] [878.0, 1117.0] pieces 0
+   4  verso: []
+   4  recto: ['612']
+   5  verso <SEL: []
+   5  recto <SEL: ['613']
+   6  verso: []
+   6  recto: ['613']
+   7  verso: []
+   7  recto: ['613']
+   8* verso <BASE: ['94']
+   8* recto <BASE: ['613']
+   9  verso: []
+   9  recto: ['614']
+   10  verso: []
+   10  recto: []
+   11  verso: []
+   11  recto: []
+#17 [break] inv 1093 single folio 2 gold 11 pred_BASE 11 pred_SEL 9 (n_scans 802)
+   map BASE: mode pagination chain_len 206 first/last [4.0, 2.0] [720.0, 1627.0] pieces 0
+   map SEL: mode pagination chain_len 210 first/last [3.0, 2.0] [720.0, 1627.0] pieces 0
+   9  single <SEL: ['2', 'middelbuck']
+   11* single <BASE: ['2']
+   12  single: []
+   13  single: []
+   14  single: ['3']
+#18 [break] inv 3948 openings folio 2432 gold 127 pred_BASE 127 pred_SEL 120 (n_scans 390)
+   map BASE: mode pagination chain_len 312 first/last [1.0, 839.0] [726.0, 2704.0] pieces 0
+   map SEL: mode pagination chain_len 314 first/last [1.0, 839.0] [724.0, 2704.0] pieces 0
+   119  verso: ['2']
+   119  recto: ['2624']
+   120  verso <SEL: []
+   120  recto <SEL: ['2635.']
+   121  verso: []
+   121  recto: ['2136']
+   124  verso: []
+   124  recto: ['2629']
+   125  verso: ['24']
+   125  recto: ['2630']
+   126  verso: []
+   126  recto: ['2633']
+   127* verso <BASE: []
+   127* recto <BASE: ['2432']
+   129  verso: ['24']
+   130  recto: ['54.', '2433', '2453.']
+#19 [break] inv 2940 single folio 91 gold 197 pred_BASE 197 pred_SEL 195 (n_scans 1136)
+   map BASE: mode pagination chain_len 424 first/last [1.0, 1.0] [1030.0, 512.0] pieces 0
+   map SEL: mode pagination chain_len 455 first/last [1.0, 1.0] [1030.0, 512.0] pieces 0
+   194  single: []
+   195  single <SEL: ['91']
+   196  single: []
+   197* single <BASE: ['91']
+   200  single: []
+#20 [break] inv 1159 single folio 1 gold 11 pred_BASE 11 pred_SEL 1 (n_scans 1294)
+   map BASE: mode pagination chain_len 288 first/last [8.0, 2.0] [1253.0, 577.0] pieces 0
+   map SEL: mode pagination chain_len 326 first/last [1.0, 1.0] [1253.0, 577.0] pieces 0
+   1  single <SEL: ['1061', '1']
+   8  single: []
+   9  single: ['16.']
+   11* single <BASE: []
+   12  single: []
+   13  single: ['2']
+   14  single: []
+#21 [break] inv 3970 single folio 243 gold 15 pred_BASE 15 pred_SEL 13 (n_scans 2770)
+   map BASE: mode pagination chain_len 1315 first/last [1.0, 86.0] [2749.0, 1613.0] pieces 0
+   map SEL: mode pagination chain_len 1321 first/last [1.0, 86.0] [2749.0, 1613.0] pieces 0
+   13  single <SEL: ['243']
+   15* single <BASE: ['243', 'Patria']
+   16  single: []
+   17  single: ['244.']
+   18  single: []
+#22 [break] inv 1057 single folio 1 gold 13 pred_BASE 13 pred_SEL 8 (n_scans 506)
+   map BASE: mode pagination chain_len 146 first/last [8.0, 1.0] [479.0, 233.0] pieces 0
+   map SEL: mode pagination chain_len 156 first/last [5.0, 1.0] [479.0, 233.0] pieces 0
+   7  single: []
+   8  single <SEL: ['1']
+   9  single: []
+   10  single: []
+   13* single <BASE: ['11 nov', '16 ste', 'fo1']
+   14  single: []
+   15  single: []
+   16  single: []
+#23 [break] inv 3819 single folio 143 gold 343 pred_BASE 343 pred_SEL 337 (n_scans 906)
+   map BASE: mode pagination chain_len 285 first/last [18.0, 2.0] [763.0, 365.0] pieces 0
+   map SEL: mode pagination chain_len 322 first/last [4.0, 1.0] [761.0, 365.0] pieces 0
+   336  single: []
+   337  single <SEL: ['143', '1788', 'Sec:']
+   341  single: ['143']
+   343* single <BASE: ['143', 'secreet']
+   344  single: []
+   345  single: ['144']
+   346  single: []
+#24 [break] inv 1141 single folio 532 gold 1255 pred_BASE 1254 pred_SEL 1253 (n_scans 1324)
+   map BASE: mode pagination chain_len 413 first/last [12.0, 2.0] [1264.0, 562.0] pieces 0
+   map SEL: mode pagination chain_len 455 first/last [12.0, 2.0] [1264.0, 562.0] pieces 0
+   1252  single: []
+   1253  single <SEL: []
+   1254  single <BASE: []
+   1255* single: ['546', 'Maart']
+   1256  single: []
+   1257  single: ['533']
+   1258  single: []
+#25 [break] inv 2612 single folio 192 gold 529 pred_BASE 529 pred_SEL 527 (n_scans 1142)
+   map BASE: mode pagination chain_len 396 first/last [5.0, 1.0] [1064.0, 428.0] pieces 0
+   map SEL: mode pagination chain_len 400 first/last [5.0, 1.0] [1060.0, 428.0] pieces 0
+   526  single: []
+   527  single <SEL: ['192']
+   528  single: ['10']
+   529* single <BASE: ['192']
+   530  single: []
+   532  single: ['aldaar']
+#26 [break] inv 3068 single folio 1041 gold 863 pred_BASE 863 pred_SEL 861 (n_scans 1150)
+   map BASE: mode pagination chain_len 603 first/last [31.0, 1.0] [1032.0, 1144.0] pieces 0
+   map SEL: mode pagination chain_len 653 first/last [31.0, 1.0] [1032.0, 1144.0] pieces 0
+   861  single <SEL: ['1041']
+   863* single <BASE: ['1041']
+   864  single: []
+   865  single: ['1042']
+   866  single: []
+#27 [break] inv 3561 single folio 1576 gold 17 pred_BASE 17 pred_SEL 31 (n_scans 770)
+   map BASE: mode pagination chain_len 246 first/last [2.0, 2.0] [711.0, 1890.0] pieces 0
+   map SEL: mode pagination chain_len 294 first/last [2.0, 2.0] [711.0, 1890.0] pieces 0
+   17* single <BASE: ['1576']
+   18  single: []
+   19  single: ['1777']
+   30  single: []
+   31  single <SEL: ['1579']
+   32  single: []
+#28 [break] inv 3558 single folio 313 gold 37 pred_BASE 37 pred_SEL 43 (n_scans 946)
+   map BASE: mode pagination chain_len 335 first/last [1.0, 5.0] [722.0, 664.0] pieces 0
+   map SEL: mode pagination chain_len 343 first/last [1.0, 5.0] [722.0, 664.0] pieces 0
+   34  single: []
+   35  single: ['312']
+   36  single: []
+   37* single <BASE: ['313-8:']
+   42  single: []
+   43  single <SEL: ['314']
+   44  single: []
+#29 [break] inv 1117 single folio 692 gold 629 pred_BASE 629 pred_SEL 627 (n_scans 864)
+   map BASE: mode pagination chain_len 266 first/last [6.0, 1.0] [825.0, 803.0] pieces 0
+   map SEL: mode pagination chain_len 319 first/last [6.0, 1.0] [825.0, 803.0] pieces 0
+   626  single: []
+   627  single <SEL: []
+   628  single: []
+   629* single <BASE: []
+   630  single: ['66', '17']
+   631  single: ['693', '2 febr 26 fin.']
+   632  single: []
+#30 [break] inv 2330 openings folio 2711 gold 481 pred_BASE 480 pred_SEL 479 (n_scans 485)
+   map BASE: mode pagination chain_len 273 first/last [2.0, 2.0] [878.0, 2711.0] pieces 0
+   map SEL: mode pagination chain_len 273 first/last [2.0, 2.0] [876.0, 2711.0] pieces 0
+   478  verso: []
+   478  recto: ['2710']
+   479  verso <SEL: []
+   479  recto <SEL: ['2711']
+   480  verso <BASE: []
+   480  recto <BASE: ['2711']
+   481* verso: []
+   482  verso: []
+   483  verso: []

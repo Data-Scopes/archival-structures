@@ -1,0 +1,5 @@
+line_id	folio	target_scan	status	confidence	evidence
+line_29bfa8d7-991d-4236-bc00-b226c956c122	3081	NL-HaNA_1.04.02_3793_0365	found	sure	3081 printed; Trinkonomale, to van Senden "Op den ontfangst van uwen brief van den 19. Maart"
+line_7ec4c4f3-c156-41e2-a290-c761fab9febc	3198	NL-HaNA_1.04.02_3793_0713	found	likely	3198 printed; Colombo, to gouverneur W.J. van de Graaff; sender not visible
+line_24494525-5b5c-4aa7-817f-5a715a633347	3330	NL-HaNA_1.04.02_3793_0795	found	likely	3330 printed; Kolombo, to gouverneur van de Graaff and Raad; next numbers 3331-3333 follow
+line_22f91fcf-8dcf-49cc-9d68-55f808c6e35e	3382	NL-HaNA_1.04.02_3793_0913	found	likely	3382 printed; Kolombo, to gouverneur van de Graaff and Raad; 3383, 3384 follow

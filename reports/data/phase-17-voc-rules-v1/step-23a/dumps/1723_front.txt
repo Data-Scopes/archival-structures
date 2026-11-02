@@ -1,0 +1,3191 @@
+== NL-HaNA_1.04.02_1723_0001 | #1 | sides: single | lines: 2
+[single] 1605.
+== NL-HaNA_1.04.02_1723_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1723_0003 | #3 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1723_0004 | #4 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1723_0005 | #5 | sides: single | lines: 17
+[single] Derde Ceijlon
+[single] Fachen, Credit
+[single] 4:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —.- jd:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:---
+[single] 10. d:os„
+[single] „ - – „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12:10
+[single] 15
+[single] n voormt:
+[single] ustende
+[single] en a. o. 1706.
+[single] 1202
+[single] 15
+== NL-HaNA_1.04.02_1723_0006 | #6 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1723_0007 | #7 | sides: single | lines: 17
+[single] Fachen, Credit
+[single] 4:en 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. jd:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van 15. d:os „  - - „ 45. —
+[single] Somma parken 30:--
+[single] 90.
+[single] 2. 10.
+[single] 12:10
+[single] voorm:
+[single] stende
+[single] e ao. 1706.
+[single] de 2 e a 172
+[single] 31. 13
+[single] 45
+[single] C
+[single] 1202
+== NL-HaNA_1.04.02_1723_0008 | #8 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1723_0009 | #9 | sides: single | lines: 15
+[single] 3
+[single] Sacken, Credit
+[single] 8 ber: p:r diverse personen over 't genot van 15. park: aƒ 3. —. jdr ƒ 45. —. —
+[single] 172 Junij
+[single] 7
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] —10. d:os „ „ - „ 45. —
+[single] 90.
+[single] 2. 10.
+[single] 12:10
+[single] voormt:
+[single] ustende
+[single] ao. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0010 | #10 | sides: single | lines: 1
+[single] 17
+== NL-HaNA_1.04.02_1723_0011 | #11 | sides: single | lines: 43
+[single] 1472
+[single] tghtste brieffb:s
+[single] derde deel
+[single] 1082 a 1103
+[single] 1106 a 1111.
+[single] 1112 a 1113.
+[single] 3 12153
+[single] 2
+[single] Register der Brieven en
+[single] Papieren overgekomen van
+[single] Ceijlon
+[single] A:o 1707.
+[single] 1078 a 1081 Aparte aenteekeningen gehouden op de reijse
+[single] vanden Gouverneur Simons nae Negombo
+[single] van 28 Junij tot pmo Julij 1706.
+[single] korte notulen door den dessave Pieter Christiaense
+[single] Bolscho opgestelt, vervattende 't geene sedert
+[single] p=mo Septb: 1705 tot ult:o October 1706 bij hem
+[single] amptshalven is verrigt.
+[single] 1104 a 1105. Ordonnantie door den Gouverneur Simons
+[single] in dato 13 maert 1706 op de Capiteijns
+[single] Berghman, Toorzee, de Roij, da Costa, den
+[single] Cap:n Luijtenant Schot, en Luijtenant Heijman
+[single] verleent, tot het doen van een naeukeurighe
+[single] wapenschouwinge over de fortresse van
+[single] dat Gouvernement &:a
+[single] rapport van voorsz: gecommitteerdens gedat:t
+[single] ult:o maert 1706. —
+[single] Ordonnantie dato 21 april 1706 op den
+[single] administrateur Huijgelbos, ende drie Capiteijns
+[single] Sacren, Credit
+[single] 4:en 8ber: p:r diverse personen over 't genot van 15. pack: a ƒ 3. —. jd:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:-
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12
+[single] voormt:
+[single] stende
+[single] @ ao. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0012 | #12 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1723_0013 | #13 | sides: single | lines: 44
+[single] 1472
+[single] Aghtste brieffb:s
+[single] derde deel
+[single] „ 1082 a 1103
+[single] „ 1106 a 1111.
+[single] „ 1112 a 1113.
+[single] 817 53
+[single] 2. 1152.
+[single] Register der Brieven en
+[single] Papieren overgekomen van
+[single] Ceijlon
+[single] A:o 1707.
+[single] f:o 1078 a 1081 Aparte aenteekeningen gehouden op de reijse
+[single] vanden Gouverneur Simons nae Negombo
+[single] van 28 Junij tot Pmo. Julij 1706.
+[single] korte notulen door den dessave Pieter Christiaense
+[single] Bolscho opgestelt, vervattende 't geene sedert
+[single] p=mo Septb: 1705 tot ult:o October 1706 bij hem
+[single] amptshalven is verrigt.
+[single] „ 1104 a 1105. Ordonnantie door den Gouverneur Simons
+[single] in dato 13 maert 1706 op de Capiteijns
+[single] Berghman, Toorzee, de Roij, da Costa, den
+[single] Cap:n Luijtenant Schot, en Luijtenant Heijman
+[single] verleent, tot het doen van een naeukeurighe
+[single] wapenschouwinge over de fortresse van
+[single] dat Gouvernement &:a
+[single] rapport van voorsz: gecommitteerdens gedat:t
+[single] ult:o maert 1706. —
+[single] Ordonnantie dato 21 april 1706 op den
+[single] administrateur Huijgelbos, ende drie Capiteijns
+[single] Sacren, Credir
+[single] 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. jdr ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't resitant van
+[single] Somma parken 30:-
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12:10
+[single] 1
+[single] voorm.
+[single] ustende
+[single] @ ao. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0014 | #14 | sides: single | lines: 24
+[single] Berghman, Toorzee, ende Roij verleent, om te
+[single] calculeren de nodige voorraet van vlees en
+[single] spek voor de resp:e Guarnisoenen van dat
+[single] Gouvernement. —
+[single] fo: 1114 a 1115. Rapport van voorn: Gecommitteerdens
+[single] gedateert 26 april 1706.
+[single] „ 1116 a 1122. Rapport vanden Capiteijn en Constapel
+[single] Major Jan Christiaense Toorsee overgelevert
+[single] den 3 Septb: 1706 wegens den toestant der
+[single] colombose kruijtmolen. —
+[single] „1123 a 1125 aentekeningen van Gecommitt:s, 't kruijt in een
+[single] ront Jaer gemaekt, geprobeert hebbende,
+[single] gedateert 30 Septb: 1706.
+[single] „1126 a 1130 Rapport van Gecommitteerd:s wegens de
+[single] bevindingh van 7 kisten met enkelde stuijvers
+[single] a:o 1704 en 1705 p:r de scheepen sion en 't
+[single] huijs te Loo vande Camer Amsterdam, tot
+[single] Colombo aengebraght, gedateert 26 Junij 1706
+[single] neffens een optellingh vanden hooft adminis„
+[single] „trateur Huijghelbos dato 26 aug:o daer aen„
+[single] van 't geene op voorsz: kisten is te kort
+[single] bevonden. —
+[single] „ 1131 a 1132 Verklaringh in dato 26 novemb 1706 door
+[single] eenige schippers, den Equipagie m:r en
+== NL-HaNA_1.04.02_1723_0015 | #15 | sides: single | lines: 41
+[single] 1472
+[single] „1167.
+[single] „1168.
+[single] baas Timmerman vande gesteltheijt van 't gearres„
+[single] „teerde moors schip de Eerriadoulech remenij. —
+[single] f:o 1133 a 1155. diversse Extracten uijt de brieven tusschen
+[single] Colombo en Gale gewisselt, rakende de zijde uijt
+[single] de Moorse gearresteerde scheepen van Trinconemale
+[single] en Mallabar ontfangen, derselver bevindingh,
+[single] taxatie &:a —
+[single] „1156 a 1158 diverse Extracten uijt de brieven tusschen Colombo
+[single] en Gale gewisselt, spreekende vande kraght
+[single] van 't kruijt tot Batavia aende retourscheepen
+[single] k:o Carel, waarde en popkensburgh verstrekt
+[single] tot Gale geprobeert. —
+[single] „1159 a 1160 Verklaringh van Gecommitt:s vande kraght van
+[single] 't voorn: kruijt gedateert 24 Novb: 1706.
+[single] a 1164 resolutie in dato 4 Decemb: 1706 in rade tot
+[single] Gale genomen, rakende voorn: poeder.
+[single] „1165 a 1166 Verklaringh van Gecommitteerdens, vande kragt
+[single] van Colombos buskruijt aende retourscheepen
+[single] verstrekt gedateert 30 novb: 1706.
+[single] Verklaringh van Gecommitteerdens onder dato
+[single] 20 December 1706 verleent, wegens de deught„
+[single] „saemheijt van de afgescheepte Canneel. —
+[single] Ordonnantie door den Gouv:r op den Commissaris
+[single] politicq in dato 28 Septb: 1706 gedecerneert, ten
+[single] eijnde de kerkenraad een examinator om de
+[single] Sacren, Credit
+[single] 4:' 8ber: p:r diverse personen over 't genot van 15. park: af 3. — - j d:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma Barken 30:-
+[single] 15. d:os „ „ - - „ 45.
+[single] 1202
+[single] 2.
+[single] 10.
+[single] voorm
+[single] ustende
+[single] @ ao. 1706.
+[single] „ 1161
+== NL-HaNA_1.04.02_1723_0016 | #16 | sides: single | lines: 31
+[single] fo: 1169.
+[single] „ 1170 a 1171.
+[single] „ 1173.—
+[single] drie Jnlantse studenten te ondervragen, mogten
+[single] verkiesen &:a
+[single] Geschrift dato 18 October 1706 door den predicant
+[single] en rector petrus Sinjen, aen desselfs collegas
+[single] overgegeven, ten eijnde hij de drie Jnlandse
+[single] studenten alleen moght examineren &:a
+[single] Rapport en advijs vanden predicanten Gerardus
+[single] d' oude, Nicolaes Riemersma en Arnold Sivem
+[single] dato 22 October 1706 aen den Gouverneur Simon
+[single] overgegeven, wegens het examen der drie
+[single] Jaffenepatnamse studenten. —
+[single] schriftuur door den Rector petrus Suijen dato
+[single] 1 november 1705 aenden Gouv:r Simons opgedragen
+[single] versoekende dat voorn: predicanten haer gevoelen
+[single] omtrent de bequaemheijt der meergem: studenten
+[single] wat speciaelder moghten verklaren. —
+[single] antwoort van voorsz: predicanten op dat subject
+[single] „ 1174 a 1175. nader geschrift van deselve, nopende de bequaem„
+[single] „heijt van voorn: studenten. —
+[single] „ 1176 a 1183 korte natuurlijke beginselen des christelijken geloofd
+[single] bij vrage en antwoorden door den rector Sinjen
+[single] voor d' Jnlandse schoolen opgestelt.
+[single] rapport van Gecommitt:s geexamineert hebbende
+[single] „ 1184 a 1185
+[single] seker fransman Jan Garsia van Bourdeaux
+[single] genaemt, uijt Candia naer Trinconemale
+[single] gevlught
+[single] „ 1172.
+== NL-HaNA_1.04.02_1723_0017 | #17 | sides: single | lines: 42
+[single] 1472
+[single] fo 1186.
+[single] gevlught, vervattende desselfs wedervaeren
+[single] gedateert 27 meij 1706.
+[single] Copie van een brieff door den plenipotentiaris
+[single] aen 't Hoff van Portugal wegens desen Staat
+[single] T: Schonenbergh in dato 24 maert 1706 aenden
+[single] Gouverneur van 't Eijlant Rubem gesz:, en
+[single] door het portugees schip Nostra signora das
+[single] Brottas op Batticalo aengekomen, en van daer
+[single] nae Colombo geright. —
+[single] „ 1187 a 1194 diverse Extracten uijt de brieven tusschen die
+[single] van Colombo, Trinconemale, Batticalo en Gale
+[single] gewisselt, rakende voorn: portugese bodem. —
+[single] _e
+[single] a 1199 Bevindingh vande Ladingen vande scheepen
+[single] Brandenburgh en Belois. —
+[single] „1200 a 1203 verantwoordingh vande Opperhoofden van voorn:
+[single] scheepen der contanten en kleederen haerl:
+[single] in 't Vaderlant tot gebruijck &:a mede gegeven.
+[single] „1204 a 1205 register der overgekome Ceijlonse negotieboeken
+[single] vande Jaeren 170 5/5. —
+[single] „1206 a 1215 Rendiment der verkoghte Coopmansz: op de
+[single] resp:e Comptoiren deses Gouvernements sedert
+[single] p=mo Septb: 1705 tot ult:o Aug:o 1706.
+[single] „ 1216 a 1218. rapport van Expresse Gecommitteerdens
+[single] gedateert 30 aug:o 1706 de scheeps Journalen
+[single] Sacren, Credit
+[single] 4:en 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — - i d:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12:10
+[single] voormt:
+[single] stende
+[single] @ao. 1706.
+[single] -
+[single] „ 1195
+[single] 1202
+== NL-HaNA_1.04.02_1723_0018 | #18 | sides: single | lines: 25
+[single] „1239. —
+[single] op de uijtreijs van 't schip Belois gehouden
+[single] over derselver courssen geexamineert hebbende &
+[single] f:o 1219 â 1225 reek: van 't kostende der twee aengebonde
+[single] Chialoupen d' Elisabeth en Edam. —
+[single] „ 1226 a 1227 Lijste der hoeckers, chialoupen en kleijnder
+[single] vaartuijgen, in 't Gouvernement van Ceijlon
+[single] dienst doende. —
+[single] „ 1228 a 1233 Originele missive door den Gouverneur Simons
+[single] en Raad dato 15 December 1706 aen de H=ren
+[single] Bewinthebberen ter Camer Amsterdam gesz:—
+[single] „ 1234 a 1238 brieff vanden Rector p: sinjen aende
+[single] vergaderingh van 17:e gesz: gedateert 25 novb:
+[single] 1706.
+[single] Copie van 't aengetekende op de kant vande
+[single] resolutie van scholarchale vergaderingh in dato
+[single] den 6 april 1706. door den Gouverneur Simons
+[single] „1240 a 1248 bijlagen horende tot de brieff van gem:
+[single] rector, sijnde dubbelde hier voren onder de
+[single] secretariale papieren op dit register genoteert.
+[single] Van Gale
+[single] „ 1249 a 1258 Register
+[single] „ 1259 a 1264. missive door den Commandeur Nicolaes Welters
+[single] en raad dato 25 xber 1706 aende vergaderingh
+[single] vande 17:e gesz: —
+== NL-HaNA_1.04.02_1723_0019 | #19 | sides: single | lines: 41
+[single] 1472
+[single] fo. 1265 a 1296 facturen, Cognoscementen, stuagie Lijsten &a:
+[single] der Ceijlonse Retourscheepen. —
+[single] „1297 a 1302 Onkost reekeningen van 't schip koningh Carel
+[single] „ 1303 a 1308 Jdem - - - - - - - - van popkensburgh
+[single] „ 1309 a 1314 Jdem. . . . . . . . . van Ham
+[single] „ 1315 a 1317. Inventaris van koningh Carel
+[single] „ 1318 a 1320 Jdem - - - - - van Popkensburgh
+[single] „ 1321 a 1323. Idem. - - - - - - van Ham
+[single] „ 1324 a 1326 drie Cognoscementen der Equipagie goederen
+[single] te
+[single] provisien &:a door de schippers der voorn:
+[single] drie scheepen geteekent.
+[single] „ 1327 a 1329 Jdem vande Contanten en Lijwaten, door de
+[single] te
+[single] boekhouders op voorn: bodems getekent. -
+[single] „ 1330 a 1331. Cathalogus der Medicamenten voort schip
+[single] koningh Carel
+[single] „1332 a 1333 Jdem van popkensburgh
+[single] Jdem van Ham.
+[single] „ 1334. —
+[single] „ 1335 a 1337 drie Cognoscementen der kaarten door de
+[single] schippers getekent.
+[single] „ 1338 a 1348 Notitie vande Comportementen der officieren &a:
+[single] op de drie voorsz: scheepen bescheijden, Jtem
+[single] der Jmpotenten, door de resp:e schippers
+[single] geteekent. —
+[single] 9
+[single] Sacren, Credir
+[single] 1: 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. d:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:-
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12:
+[single] voormt:
+[single] tende
+[single] ao. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0020 | #20 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1723_0021 | #21 | sides: single | lines: 55
+[single] 1078
+[single] No. 1706
+[single] en
+[single] den 29:e
+[single] parte aanteijkeningen
+[single] gehouden op de reijse van d' Edele
+[single] heer gouverneur M:r Cornelis Ioan
+[single] Simons van Colombo na
+[single] Den 28:e Iunij Maandag, des morgens vertrok d' Edele
+[single] heer gouverneur in geselschap van den E.
+[single] hooft-administrateur gerrit huijgelbosch de
+[single] capitains bergman, en toorzee, midsgad:s den
+[single] secretaris anderson en capitain der
+[single] mahabaddes abraham Emans van hier
+[single] te water na nigombo: arriverende aldaar
+[single] denselven avond.
+[single] Zijn Edele voornemen was insonderheijd
+[single] omme te besigtigen de nieuwe spruijt
+[single] tusschen de reviere caijlmelle en nigombo
+[single] begonnen uijt te selven, en waar mede den
+[single] E. dessave pieter christiaansz: bolscho, 'tsederd
+[single] de maand maart sig hadde besig gehouden,
+[single] maar nu den tijd naakte, dat den inlanden
+[single] uijt de happittigam, hewagam, hina en
+[single] aloetcoer corles hun gesaij in de grond
+[single] werpen, en den ackerbouw behertigen moesten,
+[single] soo soude van 't verder graven, desen Jare
+[single] alsoo dienen afgesien den inwoonder van
+[single] dien arbeijd ontheft, en elck na zijn dorp
+[single] gelargeert moeten werden. dog eer na dit
+[single] werk wierd omgesien, begaven d' Edele
+[single] heer gouverneur en bovengemelte gequalificeerd:
+[single] neffens den dessave „ bolscho.
+[single] D=o dingsdag des morgens heel vroeg haar gesamentlijk
+[single] na de vijfhoek: welkers aarde wallen men
+[single] bevond door den tijd en neegen meest op alle
+[single] plaatsen zeer vervallen, en verscheijde paden
+[single] of opgangen tezijn gemaakt daar 't beestiaal
+[single] langs heen opclommen, zulx 'er een vrije
+[single] uijt en ingank over dese gedevaliseerde wallen
+[single] was
+[single] Sactn, Snait
+[single] 4:' 8ber: p:r diverse personen over 't genot van 15. pack: a ƒ 3. —. — jd:r ƒ 45. —. —
+[single] 17e Junij
+[single] „ dE Comp: over 't restant van 15. d:os „ „ - - „ 45. —
+[single] Somma parken 30:
+[single] nigombo.
+[single] ƒ
+[single] stende
+[single] ao. 1706.
+[single] voormt.
+[single] 12:
+[single] 2. 10.
+[single] 90.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0022 | #22 | sides: single | lines: 43
+[single] woollen was: egter de muiren binnenwaarts
+[single] nog heel goet en gaaf.
+[single] de canneel- en andere pakhuijsen stonden mede
+[single] heel wel in hare muiren, zijnde deselve hegt,
+[single] en sterk; uijtgenoomen de graanpakhuijsen,
+[single] welkens muiren en vloeren door de vatten
+[single] ondermeijnt en uijtgehaalt waren, midsgad:s
+[single] de spanwerken, pralen en Latten van
+[single] alle dese vertrecken, zeer bouwvalligh
+[single] en meest vergaan.
+[single] Het agtenste of water poortje niet meer in
+[single] staat om te connen openen, en 'tschilderhuijsje
+[single] daar buijten staande half met aarde
+[single] gevult, voorts waren de aarde wallen
+[single] rondsom met een schors van gras bedekt
+[single] en niet wel te vermoeden dat den regen
+[single] eenige verdere beslegtinge daar aan zal
+[single] connen veroirsaken, maar deselve altijd
+[single] blijven, zodanig die nu leggen, daarom,
+[single] en dewijle d' Edele heer gouverneur
+[single] gerrit se heere zal:r, bij dagnegister den
+[single] 11:e april 1698. dese wallen zeer nut
+[single] heeft geconsidereert als een kring van
+[single] bescherminge voor 't water, en de daar
+[single] binnen staande pakhuijsen, daar den canneel
+[single] ingeborgen werd. zoo gaff men nu
+[single] last de voorsz: gemaakte paden of
+[single] opgangen met zoden te stoppen, voorts
+[single] een doorne legge op de barm aan de voet
+[single] van voorsz: wal teplanten, om het op
+[single] en afloopen den beesten te verhinderen: het
+[single] onbequame water of agter poortje toete
+[single] metselen, en ten dien eijnde soo veel
+[single] van de zijde muuren tot den doorgangh
+[single] van voorsz: poorte gesterkt hebbende
+[single] innewaarts te sloopen, dat met de capack
+[single] steenen daar van comende, geseijde openingh
+[single] of water poortje toegemaakt zoude connen
+[single] werden: item het onnutte schilden- huijs
+[single] hier voorgem: aftebreken temeer men niet conde sche
+[single] voorsien dat geseijde poort nog schilderhius
+[single] alschoon
+[single] E
+== NL-HaNA_1.04.02_1723_0023 | #23 | sides: single | lines: 59
+[single] 1079
+[single] alschoon de vijfhoek nigombo t' eeniger tijd
+[single] weder in consideratie mogte comen, van de
+[single] minste noodsakelijkheijd zoude connen zijn.
+[single] daar nastelde den heer gouverneur ordres tot
+[single] het repareeren der vervallen spannewerken
+[single] den E. dessave recommandeerende de nodige
+[single] a
+[single] houtwerken tijdig telaten vellen, en uijt de
+[single] bosschen afbrengen.
+[single] ee
+[single] wijders met de capitains gediscouneert hebbende otten
+[single] over de batterijen van outs voor het canon
+[single] alhier gemaakt, van een ongemeene hoogte
+[single] met cabok steenen becleed, welke hoogie
+[single] doenmaals met de borstweeringh over een
+[single] gekomen hebbende, nu 't oude zoodewerk
+[single] gedemolieert is, veel meer als tevoren
+[single] (wanneer de batterijen met gabions waren
+[single] beset) afsteekt. daaromme ordonneerde den
+[single] heer gouverneur met advies van de cap=ns
+[single] dat voorsz: batterijen booven zoo veel —
+[single] zullen werden verlaagt, dat het canon
+[single] daar op in beter postuur comtt' staan, en
+[single] zoude voortaan op dese vervallen wallen
+[single] geen affuijten meer, maar oude ropaarden
+[single] van afgelegde schepen gebruijkt moeten
+[single] werden.
+[single] de wagt alhier gelaten tot betoninge van
+[single] comp:s possessie in 't bewaren der canneel
+[single] pakhuijsen bestond in 60. Europeaanse coppen
+[single] als. —
+[single] 1. vaandrig
+[single] 4. sergeants
+[single] 3. Corporaals
+[single] 2. tamboers
+[single] 46. soldaten
+[single] 1. chirurgijn
+[single] 1. voorlesen
+[single] in t. bosschieter
+[single] 60. Coppen
+[single] 1. boekhouder, pakhuijsmeester ofte schrijver,
+[single] den
+[single] Sacten Smait
+[single] 4:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. — jd:r ƒ 45. —. —
+[single] 17e Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] ƒ 90.
+[single] 2. 10.
+[single] 12.
+[single] voorm.
+[single] stende
+[single] ao. 1706.
+[single] 8
+[single] 1202
+== NL-HaNA_1.04.02_1723_0024 | #24 | sides: single | lines: 37
+[single] Den heer gouverneur, liet de soldatesque in de
+[single] wapenen comen, en hare exercitien doen
+[single] volgens het manuaal en evolutie der
+[single] nieuwe Exercitie waar omtrent redelijk
+[single] wel geoeffent waren.
+[single] na gehouden middagmaal voor den heer
+[single] gouverneur met de schep-praauw, verselt
+[single] van de voornoemde gequalificeerdens de
+[single] nieuwgegraven spruijt opwaarts, tot aan
+[single] zeeker plaats gen:t Cattoe dat is in
+[single] tamuls of hoog mallabaars gesegt een
+[single] binnenwater, meest met bosch
+[single] begroeijt
+[single] de mond van dese spruijt legt van het
+[single] hooft af, oosten ten zuijden ongevaar
+[single] eenhondert en veertig roeden, sigh
+[single] streckende in een regte Linie noord oost
+[single] wel soo noordelijk ongevaar 830. roeden
+[single] heenen: voorsz: distantie valt gantsch
+[single] ongelijk, d' eerste 500. roeden zijn niet
+[single] seer moeijlijk te graven geweest, tot aan
+[single] de grond meerendeels niet heel hoogh
+[single] en tamelijk met vettigheijd doormengt;
+[single] dog de overige 330. noeden, als sandig en
+[single] voor een groot gedeelte onder niet welsant
+[single] bevonden, heeft een swaren arbeijd
+[single] gekost, temeer de oppervlakte doorgaans
+[single] 13. 14. â 15. voeten hoog, boven het gemeene
+[single] water verheven legt, om welke reden
+[single] de boven wijtte soo veel te ruijmen
+[single] heeft moeten werden genomen; op
+[single] sommige plaatsen weijnigh min als
+[single] drie reeden bedragende. dese sloot
+[single] valt in sig selfs met water tusschen
+[single] de 12. en 15. voeten wijt en meest
+[single] over al drie zijnlandse voeten diep.
+[single] dit
+== NL-HaNA_1.04.02_1723_0025 | #25 | sides: single | lines: 53
+[single] 1080
+[single] Dit nutte en salutaire werk bij den gouver:n
+[single] en verdere gequalificeerd:s met genoegen
+[single] beschouwt zijnde, conde men niet voorbij
+[single] jaar te Laudeeren de besondere ijver
+[single] van den E. dessave p:r Christiaansz:
+[single] bolscho, daar omtrent betoond; waar bij
+[single] den negombosen modliaar alphonse
+[single] perena, midsgad:s den modliaar der hina
+[single] corle, en de verdere inlandse hoofden
+[single] ijder in't besonder met veel lust en
+[single] wackerheijd haar goede best in't voortsetten
+[single] van den arbeijd hadden gecontribueert
+[single] voornamentlijk moestmen de arbeijd=
+[single] „saamheijd der ingombose Lascorijns prijsen,
+[single] die door een onvermoeijde neerstigheijd
+[single] haar boven alle andere inwoonders hebben
+[single] gedistingueert, zoo dat nu aan 't persectioneren
+[single] en volcomen opruijmen van de vaart
+[single] tusschen caulmelle en nigombo maar
+[single] resteende om uijtgegraven te werden.
+[single] een spatie van ongevaar 40. roeden sandige
+[single] grond van cotte of tot aan 't binnen
+[single] watertje toe, 't welk noorden ten westen
+[single] streckende is.
+[single] demond van dit binnen watertje begint
+[single] bij oerijpoe zijnde tusschen dese plaatse
+[single] en kattoe 350. roeden, en van oerijpoe
+[single] tot de plaats die nog moet gegraven werden
+[single] 400. d:o welke passagie sleges van 'tkreuxel
+[single] bos een weijnigh gesuijvert en op sommige
+[single] plaatsen parthij modden weggeruijmt
+[single] sijnde, soo sal men dit hoog nodig werk. geheel
+[single] voltoijt hebben, tot een besondere dienst
+[single] van de generale Comp: omtrent 't afbrengen
+[single] van Canneel en houtwerken, midsgaders
+[single] denelij uijt de verre gelegen happittigam
+[single] corle langs de riviere van cailmelle
+[single] tot
+[single] Sactin Crait
+[single] 4:e 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — — jdr ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] 9
+[single] 0
+[single] 2. 10.
+[single] 12:
+[single] In voormt.
+[single] ustende
+[single] en a. o. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0026 | #26 | sides: single | lines: 38
+[single] tot in 'tlak van nigombo: den onderdaan ten
+[single] plattenlande zal ook niet minder genief en
+[single] accomoditeijt genieten; om hare smalle coop=
+[single] manschapjes uijt het land na nigombo, en
+[single] colombo, tewater te connen afbrengen
+[single] wij voeren dit binnenwatertje verder op van
+[single] oereijpoe af tot in de reviere van cailmelle:
+[single] alwaar men Comp:s canneel pakhuijs aan den
+[single] oeven van dees revier anno 1700. door den
+[single] gewesen dessave claas schot opgebouwt over de
+[single] helfte door de sterke afwateringe vond
+[single] ingestort en weggespoelt. dewijl nu
+[single] de spruijt tusschen cailmelle en nigombo
+[single] haast vaarbaar gemaakt werden zal,
+[single] de canneel schillens hun geschilde vast direct
+[single] tewater te connen brengen binnen de vijff
+[single] hoek, zoo gaf d' Ed:le heer gouvern:r last
+[single] aan den E. dessave botscho dit vervallen
+[single] pakhuijs geheel aftebreken, mits de pannen,
+[single] steenen, en verdere onbeschadigde materialen
+[single] gebruijkende tot andere Comp:s diensten
+[single] den heer gouverneur week daar op een
+[single] weijnig van ter zijden af na 't strand, en
+[single] besigtigde sekere sandplaatje, waar over den
+[single] modliaan don alfouse plnena anno 1705.
+[single] schriftelijk had opgegeven zijne gedagten en
+[single] vertoond, dat 'er een redout of bolwerkje
+[single] niet weijnig moeijte en costen zoude connen
+[single] werden gelegt tot beveijlinge van de Caijlmelse
+[single] nevier, en 't weijnen van sluijkerijen: alsoo
+[single] hier omtrent voor aancomende schepen en
+[single] vaartuijgen in't goede saijsoen, een besondere
+[single] bequame rheede was, net meer andere nodige
+[single] aanmerkingen in 't brede bij missive den 19:e
+[single] septemb: a:o pass=o, aan haar Edele agtbare de
+[single] hoge regeeringe voorgedragen
+[single] over
+[single] 1728
+== NL-HaNA_1.04.02_1723_0027 | #27 | sides: single | lines: 59
+[single] 1081
+[single] over de constitutie dan van dees sandplaat den E.
+[single] hooftadministrateur g:t huijgelbosch, dessave bolscho,
+[single] en capitains hans fredrik bengman, en Jan
+[single] Christiaansz: toorzee, geconsuleert zijnde, is die
+[single] plaats geheel en al onbequaam g'oordeelt, om daar
+[single] op oijt teconnen adstrueeren eenige deminste
+[single] werken van fortificatie, nadien niet alleen
+[single] de grond daar toe insuffisant en te swak was,
+[single] maar ook aan 't bannesand gelegen, ontbloot
+[single] van alle noodsakelijkheden tot een militaire
+[single] post gehorende; daar en boven door den
+[single] onsekeren cours en sware afwateringe van
+[single] de caijlmelse revier gevaar lopende van, aan
+[single] dese ofte geene kant weg te spoelen na dat de
+[single] nevier zijn schot nam, en waar van blijken
+[single] nog gesien wierden, hoe dat somwijlen den
+[single] stroom ten noorden, en dan weder ten zuijden
+[single] van gem: sandplaat, zig in zee had
+[single] uijtgestort en daar omtrent telkens een groote
+[single] veranderinge gemaakt met het sand aan de
+[single] eene kant overde warper wegh te spoelen en weder
+[single] aan de andere kant op tewerpen, zulx dit
+[single] bankje meest altijd afnemende, en aangroeijende
+[single] was, bijgevolge gansch onbequaam tot een
+[single] vesting bouw.
+[single] Den 30:en d„o Woensdagh des voormiddags parresseerden de
+[single] gesamentljk hoofden over 't graven der meergem:
+[single] nieuwe spruijt het opsigt hebbende gehad.
+[single] d' Edele heer gouvern:r ontfingh haar minlijk
+[single] en betoonde besonder voldaan te zijn in haar
+[single] ijver ten dienste der E. Comp. bewesen, haar
+[single] aanmoedigende het kleijn restantje dat nogh
+[single] aan d=o spruijt tegraven was mede eerlange
+[single] teconnen afdoen; 'twelkse beloofden geerne
+[single] en gewillig aanstaande maand october te
+[single] zullen doen, als wel kunnende beseffen dat
+[single] desen nutten arbeijd strekte tot gemeen welwesen
+[single] van haar alle onderwijlen namen het
+[single] nigembose volk met veel bereijdvaardigh:t
+[single] aan, het sware en dicke kneuxel bosch
+[single] aftecappen op dat de andere inwoond=rs omtrent
+[single] den beginne van october weder comende
+[single] als
+[single] Tactn Cruit
+[single] 4:' 8ber: p:r diverse personen over 't genot van 15. pack: a ƒ 3. — . — jd:r ƒ 45. —.—
+[single] 17en Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10
+[single] 12:10
+[single] 1.
+[single] voormt.
+[single] stende
+[single] ao. 1706.
+[single] 1o
+[single] 1202
+== NL-HaNA_1.04.02_1723_0028 | #28 | sides: single | lines: 31
+[single] als dan de voorsz: 40. roeden lands binnen
+[single] den tijd van 15. â 20. dagen zouden connen
+[single] uijtdelven en alsoo van dien arbeijd als geheel
+[single] voltoijt verder afsien. hier op wierdense
+[single] beschonken met een glaasje wijn, nemende
+[single] heel vergenoegt en welgemoet hun afscheijd.
+[single] Zeker oud en afgeleeft araatje gen:t Alexander
+[single] hebbende ten tijde van d' Ed: heer gerrit
+[single] hulst de Comp: gediend en de veroveringe
+[single] van colombo bijgewoond, midsgaders
+[single] veele jaren daar na sig getrouwelijk
+[single] gedragen, dog mits zijne hooge jaren eenigen
+[single] tijd geleden buijten dienst gestelt, en nu
+[single] zeer arm geworden, wierd op het voordragen
+[single] van den E. dessave bolscho en modliaan
+[single] alphonso perena toegevoegt twee parra
+[single] nelij uijt des Lands incomsten tot maandeljk
+[single] onderhoud gedurende zijn leven.
+[single] Den Eersten Julij donderdagh des morgens
+[single] vertrok d' Ed:le heer gouv:r weder na
+[single] Colombo, comende ongevoar 4. uuren
+[single] aan de grote pas, en de t ses uuren
+[single] binnen 't Casteel
+[single] Accorteerd.
+[single] Mer
+[single] E„ Clerq.
+[single] 4
+[single] F
+[single] De
+[single] e
+[single] gecoll:t
+== NL-HaNA_1.04.02_1723_0029 | #29 | sides: single | lines: 15
+[single] Facken, Credit
+[single] 14:'n 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —.- jd:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dEComp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] -
+[single] ƒ 90.
+[single] 2. 10.
+[single] 12:10
+[single] 15
+[single] in voormt:
+[single] rustende
+[single] ber a o. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0030 | #30 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1723_0031 | #31 | sides: single | lines: 13
+[single] Sacken, Credit
+[single] 4:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — i d:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] omma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12:10-
+[single] en voorm:
+[single] rustende
+[single] ber a o. 1706.
+[single] 1282
+== NL-HaNA_1.04.02_1723_0032 | #32 | sides: single | lines: 1
+[single] No: 45.
+== NL-HaNA_1.04.02_1723_0033 | #33 | sides: single | lines: 42
+[single] 1082
+[single] Korte notuten gehou„
+[single] den van't gene in de Colombose dissa„
+[single] vonije 't zeedert p=mo 7ber: anno pass=o
+[single] tot heden verrigt is geworden
+[single] betreffende de invorderingh van
+[single] agterstallige geregtigheijt, de
+[single] waarde van verkogte thuijnen a=o 1780
+[single] en desen Iare, mitsgaders den
+[single] Incoops van arreecks nooten
+[single] cairo, olematten, Cocusolij den
+[single] Insaam van 's Comp=s nelij geregtigh=t
+[single] het leveren van houtwerken, den
+[single] opbouw, en Reparatien van kerk
+[single] schoolen, en Rusthuijsen, het graven
+[single] van nieuwe, en 't opruijmen van oude
+[single] spruijten, ten platten Lande &=a, soo
+[single] beknopt als doenl: zij, door den ondergesz
+[single] _
+[single] dessave opgestelt, en aan den wel Ed=le
+[single] agtb: heer gouverneur Mr: Cornelis
+[single] Ioan Simons met verschuldigde
+[single] respeckt gepresenteert.
+[single] Wel Ed„le agtbare heere.
+[single] de bellales, vissers, en moren, aan de
+[single] caliturese
+[single] Sacren, Credit
+[single] 4:' 8ber: p:r diverse personen over 't genot van 15. pack: a ƒ 3. — - jd:r ƒ 45. —.—
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:-
+[single] 15. d:os „ „ - - „ 45.
+[single] ƒ
+[single] 90.
+[single] 2. 10.
+[single] 12:10
+[single] en voorm:
+[single] rustende
+[single] ber ao. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0034 | #34 | sides: single | lines: 26
+[single] caliturese stranden, zijn verpligt geweest,
+[single] onder de Regeringe van de heijdense
+[single] koningen, d' Lucitanen, en ook d' Eomp=e
+[single] tot inden Iare 1700. op te brengen, seker
+[single] geregtigheijd, die genaamd werd, polle
+[single] _
+[single] toepetijs, deccum, enz:, bedragende te
+[single] zamen nadat den presenten dessave
+[single] voorals nog heeft konnen ontwaren
+[single] 's jaars 131 7/20 rd=s en inden tijd van ses
+[single] Iaren herwaarts 788 1/10 d=os, welke impost
+[single] haar 't zeedert den voorsz: Iare 1700.
+[single] /:soo se voorgeven:/ tot den 4:' Iulij 1705.
+[single] niet afgevordert is geworden, bij gevolge
+[single] ook niet betaalt, en alhoewel men alle
+[single] mogelijke vlijt, desen Iare aangewend
+[single] heeft, van dese menschen hun agterstal
+[single] te doen opbrengen, en betalen soo ist
+[single] Evenwel niet doenlijk geweest daer
+[single] van meerder in te palmen, als rd=s 252½
+[single] over sulcx blijvend, als nog te quaat
+[single] rd=s 535 2/5. 'tgene door hun groote
+[single] armoede niet wel te bemagtigen zemn
+[single] zal zijn; want hun meerder te borgen
+[single] als
+[single] s
+== NL-HaNA_1.04.02_1723_0035 | #35 | sides: single | lines: 41
+[single] 1083
+[single] als men quijt wil wesen schijndt geen
+[single] plaats omtrent haer te hebben.
+[single] vermits het aanhouden van een
+[single] derdendeel der plantagien, door den Land
+[single] man wijd, en sijds, Landwaarts in
+[single] van cokus, zoorsack, en arreeks
+[single] bomen, op 's Comp=s woest gelegen
+[single] hebbende gronden, en bosschagien, van
+[single] tijd, tot tijd voor twee derde gedaan,
+[single] haer Ed=le geen d' minste voirdeel heeft
+[single] konnen of kan toebrengen, zoo is men
+[single] niet allene a=o 1700 te rade geworden
+[single] door Expresse gecommitteerdens een
+[single] parthije van de opgem: derdens, bij op„
+[single] vijlinge aan de meestbidende, te doen
+[single] verkopen, maar ook in gelijker voegen
+[single] desen Iare te handelen, met Eenige
+[single] verre vande hand leggende hile, en een
+[single] groote menigte derdens van thuijnen
+[single] waar door d' EComp=e bevoirdeeld, is
+[single] geworden een sommetje van rd=s 5845½
+[single] te weten.
+[single] wegens
+[single] Sacren, Creair
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. parck: a ƒ 3. — d:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:-
+[single] 3
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12. 10-
+[single] en voorm.
+[single] rustende
+[single] ber a o. 1706.
+[single] 2
+[single] 2
+[single] 6
+[single] 1202
+== NL-HaNA_1.04.02_1723_0036 | #36 | sides: single | lines: 36
+[single] caliturese stranden, zijn verpligt geweest,
+[single] onder de Regeringe van de heijdense —
+[single] koningen, d' Lucitanen, en ook d' Eomp=e
+[single] tot inden Iare 1700. op te brengen, seker-
+[single] geregtigheijd, die genaamd werd, polle
+[single] toepetijs, deccum, enz:, bedragende te
+[single] _e
+[single] „zamen nadat den presenten dessave —
+[single] voorals nog heeft konnen ontwaren
+[single] 's jaars 131 17/20 rd=s en inden tijd van ses
+[single] Iaren herwaarts 788 1/10 d=os, welke impost
+[single] haar 't zeedert den
+[single] Jare 1700.
+[single] /:soo se voorgeven:/
+[single] Iulij 1705. —
+[single] niet afgevordert is
+[single] „bijgevolge
+[single] ook niet betaalt, en
+[single] men alle
+[single] mogelijke vlijt, deser
+[single] gewend—
+[single] heeft, van dese met
+[single] ^agterstal
+[single] te doen opbrengen, en
+[single] soo ist
+[single] Evenwel niet doen
+[single] ost daer
+[single] van meerder in te
+[single] als rd=s 252½
+[single] over sulcx blijvend, als
+[single] naat
+[single] rd=s 535 2/5. 't gene do
+[single] oote
+[single] armoede niet wel te bemagtigen zeman
+[single] zal zijn; want hun meerder te borgen
+[single] als
+== NL-HaNA_1.04.02_1723_0037 | #37 | sides: single | lines: 39
+[single] 1083
+[single] als men quijt wil wesen schijndt geen
+[single] plaats omtrent haer te hebben.
+[single] vermits het aanhouden van een
+[single] derdendeel der plantagien, door den Land
+[single] man wijd, en sijds, Landwaarts in
+[single] van cokus, zoorsack, en arreeks
+[single] bomen, op 's Comp=s woest gelegen
+[single] hebbende gronden, en bosschagien, van
+[single] tijd, tot tijd voor twee derde gedaan,
+[single] haer Ed=le geen d' minste voirdeel heeft
+[single] konnen of kan toebrengen, zoo is men
+[single] niet allene a=o 1700 te rade geworden
+[single] door Expresse gecommitteerdens een
+[single] parthije van de opgem: derdens, bij op„
+[single] vijlinge aan de meestbidende, te doen
+[single] verkopen, maar ook in gelijker voegen
+[single] desen Iare te handelen, met Eenige
+[single] verre vande hand leggende hile, en een
+[single] groote menigte derdens van thuijnen
+[single] waar door d' EComp=e bevoirdeeld, is
+[single] geworden een sommetje van rd=s 5845/1½
+[single] te weten.
+[single] wegens
+[single] Sacren, Credir
+[single] 24:'n 8ber: p:r diverse personen over 't genot van 15. park: a 3. — - jd:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] omma parken 30:
+[single] 15. d:os „ „ - - „ 45.—
+[single] 90.
+[single] 2. 10.
+[single] 12. 10-
+[single] 15.
+[single] en voorm:
+[single] austende
+[single] ber a o. 1706.
+[single] M
+[single] 1282
+== NL-HaNA_1.04.02_1723_0038 | #38 | sides: single | lines: 24
+[single] wegens d' verkopinge a=o 1700. ten overstaan va
+[single] van d' E=s Corsee, da Costa —
+[single] en stafforts staande dit-
+[single] nu ten Eijnde gekomen
+[single] boekjaar Ingevorderd
+[single] rd=s. . . . . . . . . . . . . . . „ 788½
+[single] desen Iare door d'
+[single] E=s Coorse, dacosta
+[single] en schot. . . . . . . . . „4557. —
+[single] En tesamen - - . . . . rd:s 5345. /2
+[single] van d' thuijnen
+[single] emboelgam, en de
+[single] Elisants d-o de„
+[single] welke om datse
+[single] d' Eomp=e geen
+[single] naamwaardige
+[single] winsten hebben kor„
+[single] nen toebrengen
+[single] almede in de m=t
+[single] Iulij nu Iongst g'
+[single] Expireert vercogt, en
+[single] daar voor in cassa
+[single] ontfangen - - - - - -„ 500. —.
+== NL-HaNA_1.04.02_1723_0039 | #39 | sides: single | lines: 40
+[single] 1084.
+[single] na den grond regel van't Land zijnder
+[single] vele inwoonders verschuldigd, wegens hun
+[single] thuijnen, aan den seer soo tegens 2/5. rds
+[single] als baddoe te leveren 381. amm=s en 2884. stx:
+[single] arreeks noten, van 26000 stx: d' ammonam
+[single] namentlijk. —
+[single] d' ingesetenen van de naarbesz: corles zijn
+[single] Iaarlijcx verpligt te leveren 363. ammo:
+[single] en 23809. stx: arreeks nooten voor 291. rd=s
+[single] en 7½. stver=s te weten.
+[single] d' zommige landbouw=s d:o d' pass: corldammn 82. 14600. stx: 1: rd:s 66. 2. ½
+[single] –. . . . . . . . . . . . . . - - - -. . . . . hapittij __o. . . „ 29. 6500. —. . . . „ 23. 24. —
+[single] — - - - - - - - - - - - - - - - - - - . wallalaw: –. . „ 13. 19500. —. —„ 11. —. —
+[single] —. . -. . - . - - - - . . - -. . . . . - - . . alt:rs stranden. . „ 2389209. —. –. „ 190. 41. —
+[single] — - - - - - - - - - - - - - - - - - â baddoesond=r betal:d „ 17. 5075. —. - . „ —. —. —
+[single] En Te samen voor desen Iare
+[single] ammonams. - - „ 381. 2884. sx. 1 rd:s 291. 7.½
+[single] bovendien soo werden d' in„
+[single] woonders van d' pasdum„
+[single] en happittigam corles
+[single] mitsgaders de Caliture„
+[single] se stranden bevonden op
+[single] haer
+[single] Transportere anno r=o 301 284 prter: 941. 17. 2
+[single] Sacren, Credir
+[single] 24:'n 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — — j d:r ƒ 45. —. —
+[single] 17. Junij
+[single] „ dEComp: over 't restant van
+[single] omma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] ƒ
+[single] 90.
+[single] 2. 10.
+[single] 12:10-
+[single] 15.
+[single] en voorm:
+[single] rustende
+[single] ber a o. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0040 | #40 | sides: single | lines: 28
+[single] stvers
+[single] P„r Transport amm=s 381. 284 scx: tr d:o 291. 7
+[single] E
+[single] haer verschuldigden Leverantje
+[single] in de Iaren bevorens
+[single] te kort te schieten 58. amm:
+[single] en 11170. stx als.—
+[single] die van de pasdum Corle anen: 12. 718. sx verd:s 9. 49:¼
+[single] —. . . . - - . hapittij: __o. . . . . . . . . . „ 29. 6500. —. 23. 24. -.
+[single] - - - . - calt=s stranden. . . „ 14. 23482: —. 13:31:¾.
+[single] den agterstal beloopt. . . . . . . . . . . . „ 58. 11170. —. 46. 44.½.
+[single] E
+[single] En in Eener Somma amm=s „439. 140545= rd:s 337. 52:
+[single] hier van heeft men staande
+[single] dit nu ten Eijnde gekomen
+[single] boekjaar niet tegenstaand
+[single] die vrugten Extraordi„
+[single] nair Laat rijx zijn—
+[single] geworden, tot barbarij„
+[single] en Ingesamelt, en ond=r
+[single] verscheijde datums met
+[single] diverse bodempjes na Colouwbo
+[single] versonden, an: 301. 19500 stx:
+[single] wijders heeft men
+[single] na 't kenteren van't
+[single] zaij zoen d'ingesetenen
+[single] vann
+[single] Transportere anme - - 301. 950 scx. - 9. 4054 15 rd: 37. 2.
+== NL-HaNA_1.04.02_1723_0041 | #41 | sides: single | lines: 43
+[single] 1685
+[single] Pr Transport amm. 01 190 scx: - . 9 40 4 2 : 3732—
+[single] van d' pass:o corle, en't
+[single] calturese dist=t verpligt
+[single] in mindering van
+[single] hun agterstal, over den
+[single] Landwegh na Colombo
+[single] te brengen, en aan den
+[single] ontfanger van die —
+[single] noten te leveren. . . „ 29. 11175.
+[single] wijders hebben d'inge„
+[single] setenen uijt de happi„
+[single] tigam corle hun ver„
+[single] pligten arreek van
+[single] twee Iarenten —
+[single] fortresse iig=s geleverd
+[single] van waar deselve p=r
+[single] 's comp=s schouwen
+[single] door de revier na Coll
+[single] vervoerd, en aanden
+[single] ontfanger van die —
+[single] vrugten overgeleverd
+[single] zijn geworden. - - - - - „ 48. 13000.
+[single] Den geld=e ar=r teg=s de rd:s dannm beloopt 379. 17675: v: rd:s 303: 4:½.
+[single] wijders hebben d'
+[single] ingesetenen
+[single] Transporteere ammonams 379 1765:1: r:s 34:/ 49:1054: 12: d: 37: 2. —
+[single] Sacren, Credit
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. pack: a ƒ 3. — - j d:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] .
+[single] ƒ
+[single] 90„
+[single] 2. 10.
+[single] 12:10-
+[single] 15.
+[single] en voorm:
+[single] rustende
+[single] ber a o. 1706.
+[single] 1282
+== NL-HaNA_1.04.02_1723_0042 | #42 | sides: single | lines: 24
+[single] P„r Transport - - - a um 79:15 : :8 08 4/ 9
+[single] ingesetenen uijt de
+[single] callu=se districkt
+[single] over verschuldigde bad„
+[single] doe arreek, sonder
+[single] betaling, almede
+[single] over den Landweg
+[single] na Col= gebragt
+[single] en gelevert - - - - - - „ 17. 5075. . . . . —. -. -.
+[single] En te samen - - . . . . . . - - - - - - „396. 2750. —. 303. 48
+[single] Bij gevolge nog ten agteren an: 42. 1730. spx :rd: 4. 7:½
+[single] den Incoop van cairo voor contante penn
+[single] ten nodige gebruijke, in onderscheidener lande
+[single] occagien, heeft mede 'tzedert p=mo rb=r anno
+[single] verleden tot heden bestaan in
+[single] 2805. bossen caijer draad voor rd=s 1122; hier—
+[single] van jn d' maanden 9ber, xber, Ianuarij
+[single] februarij maart, en april, p=r de Chialoep—
+[single] dpijl, mitsgaders de boots amstelveen en
+[single] sloterdijk van barbarijen na Colombo
+[single] versonden
+[single] 2579. bossen en.
+[single] 226
+== NL-HaNA_1.04.02_1723_0043 | #43 | sides: single | lines: 40
+[single] 1086
+[single] 226. d=os tot het slaan van touwen
+[single] ten nodige gebruijke van 's comp.:s
+[single] Elisanten, staande, den tijd deselve
+[single] in de caliturese distrikt gestalt
+[single] zijn geweest, als voor d' thonijs
+[single] aanden overvaard van caliturne
+[single] na de reijgena corle verstreckt
+[single] 87 7/8. bossen door de Chialiassen inw=s van
+[single] de dorpen moregelle, Calluam oddene,
+[single] en tottebadde, over verschuldigde deccum,
+[single] sonder betaling geleverd, 't gene almed
+[single] onder meerdere den 18: ' april pass=o, in
+[single] de boot sloterdijk van col-—
+[single] affgescheept is geworden
+[single] zande ingesetenen, der reijgam, en
+[single] pasdum corles, mitsgaders de
+[single] caliturese stranden, desen Iare
+[single] voor den dienst vand' EComp=e almede
+[single] jngekogt 3147. stx: stroo matten
+[single] tegen 1. stver: t p=s of rd=s 52. 27. stvers —
+[single] daar van naar colombo versonden
+[single] 3097. p=s als —.
+[single] 2617
+[single] Sacren, Credit
+[single] 24:n 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. jd:r ƒ 45. —. —
+[single] 172. Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12:
+[single] 10
+[single] 15.
+[single] #an voorm.
+[single] austende
+[single] ber a o. 1706.
+[single] -.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0044 | #44 | sides: single | lines: 26
+[single] 2617. p=s van barbarijen met de
+[single] boots, sloterdijk, en
+[single] amstelveen.
+[single] 480. „ van paniturre p=r 't Laast
+[single] gedagte podempje.
+[single] 50. tot onderlaagh van rijs, en nelij
+[single] tot barbarijen in d' packhuijsen
+[single] veroinberd.
+[single] In den tijd van 12. maanden heeft
+[single] men door den nigombosen mod„
+[single] delliaar, en groot vidane van
+[single] caliture zoo tot consumtie—
+[single] van colombo, als de voormelte
+[single] buijten sterktens, vande jngese„
+[single] tenen aldaar, tegens 2 /¾ stver=s d'kan
+[single] doen jncopen 2348 kannen cokus
+[single] olij voor rd=s 111. 2/5 zoo volgt.
+[single] 336. kannen door den voornoemden vidauw
+[single] tot nagtligt inde wagten van
+[single] de besettelingen ter fortresse—
+[single] calturrie enz:
+[single] 2012. d=os door den voornoemden moddelliaer
+[single] mm
+[single] 2348. cannen kokus olij die
+[single] Transporteere.
+[single] teE
+== NL-HaNA_1.04.02_1723_0045 | #45 | sides: single | lines: 40
+[single] 1687
+[single] Lemmnmun
+[single] 2348. kannen kokusolij P=r Transport
+[single] te weten
+[single] 242. kannen tot nagtligt aande
+[single] guarnisoenhouders
+[single] van 't fortje, mitsgad=s
+[single] de komende, en vertreckend
+[single] gequalificeerde dienaren
+[single] vande Comp=s.
+[single] 1770. d=os voor col=o dewelke
+[single] ook na derwaarts in
+[single] 8. halve leggers, Lopend'
+[single] de maanden Iulij, en
+[single] aug=o, p=r de nigombose
+[single] schouwen bestelt—
+[single] zijn geworden.
+[single] 2348. cannen â 2 ½. stvers d'kan comt als
+[single] boven - - - - - - - - - - - - - - - rd=s 111 2/5.
+[single] De Incomsten van 't gesaaij aan
+[single] moetet off 't geheel ande d'helfte en
+[single] ottoe, den 10=e hebben 't zedert p=mo
+[single] 7ber anno passado, tot heden conform
+[single] d' Largo rollen der gecommitteerdens, —
+[single] van
+[single] Sacren, Credir
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — — jd:r ƒ 45. —.—
+[single] 172 Junij
+[single] „ dE Comp: over 't resitant van 15. d:os „  - - „ 45. —
+[single] Somma parken 30:-
+[single] 90.
+[single] 2. 10.
+[single] 12
+[single] 15
+[single] voorm.
+[single] rustende
+[single] ber a o. 1706.
+[single] M
+[single] 1202
+== NL-HaNA_1.04.02_1723_0046 | #46 | sides: single | lines: 25
+[single] van d' warderinge beloopen 10194 1/5.
+[single] parra nelij, zoo volgt.
+[single] corn: p=ro comnis parr
+[single] Jn d'allutcoer en hat
+[single] pittigamcorles ond=r
+[single] den zaijmr: alphonso
+[single] perera - - - - - p a/o 3417. 4. -.
+[single] —. salpittij corle. . - . . „ 197. –. –.
+[single] —. hevegam do — - - „ 203. 1. –.
+[single] —. hina. . . . -. . . . - - „ 2518. 1. ½.
+[single] —. pasdum - - - - - -„ 2097. 1. -.
+[single] -. reijgam - - - --„1231. 1. -.
+[single] —. wallalawittij - - - - „ 362. —. ½.
+[single] —d' malgattere - - - . „ 43. 3. –.
+[single] Aand' caliturese stranden „ 123. 4.½
+[single] En tesamen Emmunem 10194: 1/5.
+[single] d' verblevene Restanten
+[single] op ult=o aug=o 1700. alomme
+[single] in de Respective provin„
+[single] tien zommeren tesamen „ 1156. /. en
+[single] De gelijk temmme 21351. —
+[single] Hier van afges= en aan de om„
+[single] mestaande, buijte stercktens, tot
+[single] Transportere - - - - p a 2 1357. —.
+[single] de
+== NL-HaNA_1.04.02_1723_0047 | #47 | sides: single | lines: 41
+[single] 1088
+[single] P„r Transport - - - - - - - - - - pr/o 21351. —
+[single] de gewone maandelijcxe rantsoenen
+[single] voor de besettelingen, gelevert als—
+[single] tot caliturre
+[single] door de Landbouw s van d' pass:t Corle p=o 1630. -. .
+[single] — - - - - - - - - - - - - - - wallala: _o — „ 120. –. –.
+[single] - - - - - - - - - - - - call=s stranden. . . . „ 40. –. –
+[single] — - - - - - - - - - - - - - - . reijgam Corle - - 2 m 2190. –. –
+[single] tot nigombo heeft met
+[single] met 's Comp=s boijeros
+[single] uijt de alutcoer, en
+[single] happittigam corles —
+[single] afgeb=t en gelevert. - - - - - - - „ 1297. — /1
+[single] Tot hangwelle uijt de
+[single] hina, en hevegam corles
+[single] Even, en in manire —
+[single] als vooren - - - - - - - - „ 746. -. -.
+[single] d'aangeb: nelij uijt de respec„
+[single] tive corles, tot calturre
+[single] nigombo, en hangwelle monteren pr 4233. — 1/10.
+[single] Jn onderscheijdenerhande —
+[single] manure ten platten Lande, —
+[single] aanzaad coorn, d' gaande
+[single] en comend' Comp=s gequalific=d
+[single] ees
+[single] Transportere p=rm 23. . 3531. —
+[single] E
+[single] Sacren, Credir
+[single] 24:'n 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — — j d:r ƒ 45. —.—
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van 15. d:os „ „ - - „ 45. —
+[single] Somma parken 30:-
+[single] 90„
+[single] 2. 10.
+[single] 12:10
+[single] an voorm.
+[single] rustende
+[single] ber a o. 1706.
+[single] we
+[single] 1202
+== NL-HaNA_1.04.02_1723_0048 | #48 | sides: single | lines: 29
+[single] P„r Transport - - - - p a/o a 23. 1/1 1 151.
+[single] en mindere dienaren, ne„
+[single] vens haer gevolg in twaalf
+[single] maanden tijde verhandrijckt
+[single] en uijtgegeven. . . . . . . . . . „ 4027. 1. 3/0
+[single] D' afgeb=t en G' consum=t nelijbelopen
+[single] ade
+[single] 826 0
+[single] Leum
+[single] En wanneer de afgebragte, en vercon„
+[single] sumeerde van de restandten, en ingeko„
+[single] mene desen Iare afgetrocken werden
+[single] dan bevindinen nog inde onderstaand'
+[single] provintien, en plaatsen p=r resto
+[single] te blijven als. —
+[single] jnde happitti: en allutc: Corl=s ond=r den zaaijm: apperero p=/s 9029. 1½.
+[single] - . . . . salpittij Corle —. . . . - . . . . . . . . „ 79. 1½
+[single] . . . . . . heveg: _o - - - - - - - - - - - - - - - - „ 53. -. -.
+[single] . - - - - hina _o -. - - - - - - - - - - - - - - - „ 2843. 4.¼.
+[single] - - - - - - - - - - „ 1. 15. -. —
+[single] - - - - reijgam —. - - --
+[single] - - - - pasdum —. -
+[single] - - - - - - - - - „ 345. 2. -.
+[single] -wallalaw: — - - - - - - - - - - - - - - „ 128. –.½.
+[single] - - - - - d' malgattere. . . . . . . . . . . . . . . . „ 87. 3. „
+[single] aand' calturese stranden - - - - - - - - „ 409. –½
+[single] mmnen 13090: 2
+[single] d' geleverde houtwerken, door de hoofden der —
+[single] respective
+== NL-HaNA_1.04.02_1723_0049 | #49 | sides: single | lines: 38
+[single] 1089
+[single] respective Corles, en den vervoer van
+[single] dien na Colombo, 't sedert p=mo 7ber
+[single] anno passado tot heden bestaan in de
+[single] beneden te noemene, namentlijk.
+[single] 225. stx: diverse balken
+[single] 616. —. minilen
+[single] 265. —. kromhouten
+[single] 30. . —. knies d=os
+[single] 471. —. muir platen
+[single] 1914. —. paralen
+[single] 50. —. oude arreeks bomen
+[single] 61. —. spette
+[single] 26. –. nendoens
+[single] 54. wellengas
+[single] 5. —. paufoele houten
+[single] 4. –. drijphouten.
+[single] Tot de herstellinge vande bouwvallige
+[single] kerkschoolen, en huijsingen ten platten
+[single] Lande, is desen Iare alle mogelijke
+[single] vlijd werkstelligh gemaakt, en
+[single] alhoewel die werken veel door den
+[single] regen veraggtert zijn, zoo heeft men
+[single] Evenwel
+[single] Sacren, Credir
+[single] 24:' 8ber: p:r diverse personen over 't genot van 16. pack: a ƒ 3. — d:r ƒ 45. —. —
+[single] Forn Juurij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] 1202
+[single] 2. 10.
+[single] 12
+[single] en voorm:
+[single] rustende
+[single] ber ao. 1706.
+[single] N.
+== NL-HaNA_1.04.02_1723_0050 | #50 | sides: single | lines: 22
+[single] Evenwel 't groote vervallen school
+[single] van matuaal bij na van de grond
+[single] af opgehaeld, en jn't geheel met nieuwe
+[single] uuren, balken, spanwerk Latten
+[single] deuren &=a, versien, en bij provisie met
+[single] olas van cokus bomen doen decken
+[single] vermits alle de oude pannen, bij 't instorte„
+[single] van dat gebouw vermorseld sijn
+[single] geworden.
+[single] Het school kotte is mede met een
+[single] nieuwe kap, en muiren rond son
+[single] versien.
+[single] d' vervallene uuren van de
+[single] schoolen panture, paijagelle macoere
+[single] en barbarijen, zijn mede de novo
+[single] hermaakt, en tot den opbouw van de —
+[single] schoolen kotelawole, kalane, en nagan
+[single] matrialen vergaderd.
+[single] Comp=s groote bouwvallige huijs
+[single] tot caliturre, heeft men ook desen
+[single] jare
+[single] 2
+== NL-HaNA_1.04.02_1723_0051 | #51 | sides: single | lines: 36
+[single] 1090
+[single] jare, in 't geheel hermaakt, en vernieuwt.
+[single] Tot galkiese, morotto, en panture, —
+[single] zijn in plaatse vande vervallene—
+[single] drie huijsen, even getal nieuwe
+[single] vande grond aff, met kabok steenen,
+[single] en teijpaarde opgehaelt en volbouwt
+[single] In plaatse van't / door zijn groote
+[single] wijte / ingestorte Canneel packhuijs
+[single] tot barbarijen, heeft men de muuren
+[single] van een ander bequame d=o Lang 96. —
+[single] en breet 20. voeten, met tijpaarde
+[single] muuren, zoo wel besorgt opgehaelt
+[single] dat men jn veele jaren na
+[single] vereijsch voltooijt zijnde voor
+[single] desselvs jnstortingh niet zal
+[single] behoeven te vreesen.
+[single] Het graven van nieuwe, en 't opruijmen
+[single] van oude spruijten, off vaarten
+[single] heeft mede desen jare niet stil gestaan:
+[single] want men heeft van't nigombose
+[single] Sacren, Credit
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. i d:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45. —
+[single] ƒ
+[single] 90.
+[single] 2. 10.
+[single] 12:10-
+[single] an voorm:
+[single] rustende
+[single] ber ao. 1706.
+[single] Lalx
+[single] 1282
+== NL-HaNA_1.04.02_1723_0052 | #52 | sides: single | lines: 23
+[single] lak tot aan cannelle een distantie
+[single] zijnde van 2015. roeden, door de ingese„
+[single] tenen van d' hevegam, hina, alut coer,
+[single] en de happitaine corles, mitsgaders
+[single] 't nigombose distrikt een gehele
+[single] nieuwe vaart doen openen in
+[single] manire zoo als hier beneden
+[single] zal werden besz: namentlijk.
+[single] van 't nigombose lak aff, tot aan
+[single] kattoe, heeft men een gehele nieuwe
+[single] vaart breet 30. 36. en 42. voeten, doen
+[single] graven van d' volgende dieptens als
+[single] van 6. voeten diep 10. roeden
+[single] 8. d=os. . . . 200. d=os
+[single] 8½. d=os - - - 50. —
+[single] 10. d=os . . 250. —
+[single] 12. d=os . . . 50. —
+[single] 12½ dos . . . 50. —
+[single] 14. —. d=os. . 50. —
+[single] —16¼. d=os . 50.
+[single] 19½. d=os. . . 100. —
+[single] En in eener somma tennen 813. roeden
+[single] die transportere
+== NL-HaNA_1.04.02_1723_0053 | #53 | sides: single | lines: 43
+[single] 1091
+[single] P„r Transport - - - - - 813. roeden
+[single] kattoe, tot aan oedijpoe is d'
+[single] oude spruijt met wijnigh
+[single] moeijte vaarbaar gemaakt
+[single] ter zake daar aan geen
+[single] ander werk verEijscht
+[single] wierde, als de wedersijdse
+[single] bosschen uijt te roeijen; dese
+[single] is met geen handen
+[single] gegraven, maar door den
+[single] overvloet van't water—
+[single] uijt de hier om herleggend'
+[single] lage Landen en bosscha„
+[single] gien veroorsaakt lang
+[single] zijnde - - - - - - - - - - - - - - „ 420. dos
+[single] van oedijpoe tot poeneadij
+[single] heeft men een sware
+[single] dicke bosschagien
+[single] moeten uijtroeijen
+[single] en wederom
+[single] een gehele nieuwe
+[single] vaart van 18. —
+[single] voeten breet doen
+[single] graven
+[single] Transportere
+[single] 1233. roeden
+[single] Sacken, Credit
+[single] 24:' 8ber: p:r diverse personen over't genot van 15. pack: a ƒ 3. —. i dr ƒ 45. —. —
+[single] 706
+[single] 1 Junij
+[single] „ dEComp: over 't restant van
+[single] Somma parken 30:
+[single] -
+[single] 15. d:os „ „ - - „ 45. —
+[single] 90.
+[single] 2. 10.
+[single] 12. 10-
+[single] 15
+[single] Van voormt:
+[single] rustende
+[single] ber a o. 1706.
+[single] 1282
+== NL-HaNA_1.04.02_1723_0054 | #54 | sides: single | lines: 28
+[single] P„r Transport. . . . . - . 1233. roeden
+[single] graven te weven.
+[single] van 8. voeten diep 10. roeden
+[single] 6. _os - . . 10. —.
+[single] 5. d=os - - . . . 322. —.
+[single] En te samen tmmmmerd„ 352. d=os
+[single] van Poeneaddij tot in de
+[single] groote revier van camelle
+[single] zijn de overhangende en
+[single] aand' boorden staande—
+[single] bosschen, van de alhier uijt
+[single] de natuir voortgekomen
+[single] oude spruijt, op eenige
+[single] plaatsen maar afgekapt
+[single] en uijtgegraven Langh. . . . „ 430. —.
+[single] teue
+[single] bij gevolge monteert d'
+[single] nieuwe gravinge, aan d'
+[single] cain. s vaart 1165. roeden
+[single] Landts v: d' oude, en
+[single] geweest zijnde ope„
+[single] nings 850. d=os en tegelijk . . „ 2015. roeden
+[single] het costende van dit groote werk
+[single] „ en een halv
+[single] bestaan maar Eenelijk in een„
+[single] aam
+[single] E
+[single] d
+== NL-HaNA_1.04.02_1723_0055 | #55 | sides: single | lines: 41
+[single] 1092
+[single] aam anijs, en 12. leggers enkelde arak, —
+[single] zijnde zoo veel 'er onder het graven
+[single] en vaarbaar maken van de hier
+[single] voren ter nedergestelde vaart aan de
+[single] arbeijders van dien en hare hoofden
+[single] in den tijd van 4½. maanden datse
+[single] daarmede besigh zijn geweest, verschonken
+[single] is beworden, 't gene aan gelde beloopt
+[single] rd=s 218. ¼. hieren tegen is =er nu niet
+[single] nodigh, een nieuwe Canneel pack„
+[single] huijs op caijinelle, in plaatse
+[single] van't wegh gespoelde a=o 1704 te
+[single] maken, alsoo d' mahabaddos den
+[single] Canneel, diese voortaan comen
+[single] te schillen niet meer sullen
+[single] behoeven /:als voor henen is geschiet:/
+[single] Eerst tot cainelle te versamelen
+[single] en bij provisie op te leggen; vermits—
+[single] dien costelijken bast nu in den
+[single] aanstaanden tijd, direkt uijt de
+[single] corles met kattapanels door dese—
+[single] vaart, naa nigombo kan werden
+[single] afgebragt, waardoor veel tijd
+[single] spillinge
+[single] Facken, Credit
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — - jd:r ƒ 45. —. —
+[single] 1706
+[single] d172 Junij
+[single] „ dEComp: over 't restant van 15. d:os „  - - „ 45.—
+[single] Somma parken 30:
+[single] ƒ
+[single] ƒ90.
+[single] 2. 10.
+[single] 12:10-
+[single] Jan voorm.
+[single] rustende
+[single] ber a o. 1706.
+[single] 1202
+[single] roeden
+[single] no
+== NL-HaNA_1.04.02_1723_0056 | #56 | sides: single | lines: 26
+[single] spillinge, en costen, soo wegens —
+[single] 't bouwen en onderhouden van
+[single] een Expresse nieuwe packhuijs ter
+[single] dikmaels gesz: cannelle, en een
+[single] maand meerder onderhoud aan de
+[single] Canneel schilders weghgenomen is; —
+[single] want 't is zeker dat de mahabaddos—
+[single] voortaan een maand Eerder met
+[single] de Leverantie vanden canneel
+[single] gedaan werk zullen komen
+[single] te maken als bevorens: vervolgens
+[single] kan men nu ter bequamer tijd
+[single] alle de costelijke nelij welkeer in
+[single] de happittijgam Corle aan geregtigheijd,
+[single] jaarlijcx voor d' EComp:s jngesameld—
+[single] werden, en tendele door gebrek
+[single] van afgehaelt te Connen werden
+[single] jnde dorpen blijven Leggen,
+[single] en bederven, voortaan met pades
+[single] zonder naamwaardige costen na-
+[single] nigombo doen afvoeren, en d' Elifan„
+[single] ten jongst tot 't afbrengen van
+[single] die granen g'emplooijeert, nevens 't
+[single] salaris
+== NL-HaNA_1.04.02_1723_0057 | #57 | sides: single | lines: 42
+[single] 1093
+[single] salaris aan desselfs cornacx, en
+[single] pannias Excuseren: met groote moeijte
+[single] en pericul heeft men tot heden d'
+[single] houtwerken die de ingesetenen van
+[single] de happittigam corle jaarlijcx
+[single] verschuldigt zijn aan d' EComp=e te
+[single] leveren, van cannelle met vaartuij„
+[single] gen, moeten doen afhalen, waardoor
+[single] veelmaals gebeurt is, in't nabuiten
+[single] brengen van deselve, dat de thonijs in de
+[single] mond vande revier, door de sware
+[single] brandings omgeslagen en de menschen
+[single] verongeluckt zijn geworden 't gene
+[single] door desen arbeijd, almede te voren
+[single] gekomen is; want nu konnen de
+[single] afbrengers der voornoemde hout„
+[single] werken, daar mede zijn regt
+[single] na nigombo varen: boven dien so
+[single] zijn nu 's conings onderdanen
+[single] van de pittigal, en kattoegampelle, —
+[single] mitsgaders 's Comp=s vande
+[single] Sappittigam corles in staat gebragt
+[single] van allerhande Detwaren, uijt hare
+[single] provintien
+[single] Sacren, Creait
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. jdr ƒ 45. —. —
+[single] 172 Junrij
+[single] 1705
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] ƒ
+[single] 90.
+[single] -
+[single] 2. 10.
+[single] 12:10-
+[single] 15.-
+[single] Jan voormt:
+[single] rustende
+[single] ber ao. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0058 | #58 | sides: single | lines: 24
+[single] provintien met kattapanels na
+[single] colombo te mark te konnen
+[single] afbrengen, 't welke besonder wel
+[single] voor't algemeen comen sal
+[single] d' inwoonders van't nigombose distrikt„
+[single] zijn ook door 't openen van dese vaart
+[single] geen kleen maar een groot gerief
+[single] toegebragt, en voornamentlijk
+[single] d' gene, welke haer met zaijen, en
+[single] maaijen in 's conings Land
+[single] Erneeren &=a
+[single] d'oude vaart, of spruijt galwakoije
+[single] in de pasdum corle oorspronkelijk—
+[single] uijt 't water dat'er uijt de bergen
+[single] allewile, en deelgadolle komt ne„
+[single] derstorten, is bij de portugese natie
+[single] in groote waarde gehouden, en
+[single] van veel nuttigheijt geweest, —
+[single] vermits deselve maar 123. roeden
+[single] oostwaarts vande paggen agelewatte
+[single] zijn cours neemt, en dat de jnge„
+[single] setenen uijt vele dorpen, niet
+[single] alleen
+[single] _.
+== NL-HaNA_1.04.02_1723_0059 | #59 | sides: single | lines: 43
+[single] 1094
+[single] alleen hun verschuldigde nelij, en areek
+[single] maar ook de Chialassen den caneel, —
+[single] door dese spruijt na caliturre konden
+[single] st affbrengen, welke spruijt onder 's comp=s
+[single] de oo gns regeringh alhier toegegroeijt, en onvaarbaar
+[single] l is geworden, oversulcx waren d'arme jnge„
+[single] setenen vande daar tegen aanpalende
+[single] dorpen genoodsaakt den Canneel —
+[single] nelij, en arneek, diese jaarlijcx gehouden
+[single] zijn aan den heer te leveren, op hun —
+[single] schouderen, door quade wegen, en hooge—
+[single] bergen, aff tebrengen 't gene dese men„
+[single] schen bijsonder swaar vielen: derhal„
+[single] ven heeft men om haer wat te gemoet
+[single] te komen, geordonneert, d' dickmaals
+[single] gesz: vaart„ te openen, te zuijveren,
+[single] „weder als bevorens
+[single] en vaarbaar te maaken, dat ook door
+[single] haer met zoo veel Lust, en
+[single] vaardigheijt, in corte dagen is geschiet
+[single] dat men sigh daar over heeft moeten
+[single] verwonderen
+[single] veele Iaaren herwaarts heeft de
+[single] Eomp=s
+[single] Sacren, Credit
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —.- jd:r ƒ 45. —. —
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van
+[single] omma parken 30:-
+[single] -
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12:10
+[single] 15.
+[single] Jan voorm:
+[single] Gerustende
+[single] ber ao. 1706.
+[single] de
+[single] 5
+[single] 1202
+== NL-HaNA_1.04.02_1723_0060 | #60 | sides: single | lines: 24
+[single] Comp=e geen geregtigheijt van nelij—
+[single] uijt 't dorp koedelligamme, inde pasdum
+[single] corle gehad, veroorsaakt uijt 't doorbreken
+[single] van een dam, in oude tijden voor de
+[single] ol rijvervelden, van dit dorp, zoo hegt, en
+[single] sterk gemaakt, dat het water niet
+[single] allene daar voorquam te sluijten
+[single] maar ook gedwongen was, een gehele
+[single] andere coers zonder dese Zaaijlanden
+[single] te beschadigen:/ te nemen, en dewijle
+[single] ondervonden wierd, dat d' opgem: dam
+[single] door de dorpelingen zelfs weder —
+[single] konde werden hermaakt, heeft men
+[single] haer tot warakagodde doen vergaderen
+[single] en aangethoont wat verlies zij Iaarlijcx;
+[single] soo lang zij dese dam, niet herstelden
+[single] aan hun gesaij onderhavigh waren,
+[single] en hoe gemackelijk deselve jn zijn —:
+[single] vorigen staat tebrengen was, wanneer
+[single] de handen aan't werk wilden slaan
+[single] en dewijle sulcx streckten tot
+[single] haer Eijgen welwesen, vond men goed
+[single] haer te gelasten, dese dam als
+[single] bevorens
+== NL-HaNA_1.04.02_1723_0061 | #61 | sides: single | lines: 45
+[single] 1095
+[single] bevorens op te maken, welke ordre—
+[single] van soo goede succes is geweest, datse
+[single] met alle mandaar aan zijn
+[single] gevallen, en hebben deselve, in den tijd
+[single] van 20. dagen, ten vollen, als in oude
+[single] tijden weder vervaardigt.
+[single] Tvermits=s er geen brandhoud meer—
+[single] jnde bossen van mabolle te bekomen
+[single] was, scheen 't hoog tijd te wesen, na
+[single] een ander bequaam houtcapperije
+[single] uijt te zien, en dewijl men geen
+[single] beter of nader aan't Casteel heeft
+[single] konnen vinden als de groote —
+[single] moekelane van wellichere ter
+[single] sake deselve maar twee uurtjes van
+[single] matriaal is gelegen; zoo heeft men de
+[single] mahabaddos aan dese kamt van
+[single] opgem: wellichere g'ordonneert, een
+[single] gehele nieuwe vaart van. . . . . roeden
+[single] Langs dit groote bos heen te —
+[single] graven, 't welke ook door haer —
+[single] volbragt is geworden, waardoor
+[single] men
+[single] Sacren, Credir
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —- jd:r ƒ 45. —.—
+[single] 172 Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12. 10-
+[single] 15.
+[single] an voorm:
+[single] erustende
+[single] ber ao. 1706.
+[single] dL36
+[single] 626
+[single] 1202
+[single] ms
+== NL-HaNA_1.04.02_1723_0062 | #62 | sides: single | lines: 24
+[single] men instaat is geraakt, 't benodigd
+[single] brandhout, voor 't casteel met
+[single] Comp=s schouwen, vandaar een
+[single] ruijm getal van jaren te konnen
+[single] doen afhalen: wijders is de spruijt
+[single] van het pasmakelgam tot aan
+[single] sint bastiaan, als bij na onvaarbaa
+[single] geworden, wederom door dese canneel
+[single] schillers, opgeruijmd, en van zijn
+[single] modder gezuijverd.
+[single] Vier„ en vijfftigh Roeden van d' tweede
+[single] brugge aan het pas van nakelgam,
+[single] heeft men 1/3 d=o doen maken, ter sake
+[single] datter veele jaren herwaarts men„
+[single] schen uijt de boven Landen
+[single] komende, in hooge waters vloeden
+[single] door onkunde van die- passagie aldaar
+[single] verongeluckt zijn geworden: 't gene met
+[single] hett maken vandese brugge nu —
+[single] niet meerder zal komen te gebeuren. —
+[single] Tot 't afbrengen vand' nelij welkeer
+[single] Jaarlijcx
+[single] N
+== NL-HaNA_1.04.02_1723_0063 | #63 | sides: single | lines: 43
+[single] 1096
+[single] Iaarlijcx aan geregtigheijd voor d' E.
+[single] Comp=e ind' alutcoer, happittigam
+[single] end' hina corles ter verscheijde plaatsen
+[single] wl werd versameld, heeft men ingekogte—
+[single] cossen gebruijkt, en op ult=o aug=o anno
+[single] passado een getal p=r resto gehad van
+[single] 45. beesten, en dewijl daar van 't zedert
+[single] dien tijd tot heden, niet allene gestorven
+[single] zijn 17. stx: maar ook dat de overgeblevene
+[single] „wa„
+[single] qa 28. doorsiekte, en swackheijd, kalijk
+[single] n 46. p=ras nelijjder togt uijt de gedagte —
+[single] – corles, aande sterktens nigombo, en
+[single] hangwelle, hebben konnen afdragen
+[single] mitsgaders niet magtigh zijn geweest,
+[single] meerder als een voijagie 's maands
+[single] te doen, soo is men in geen kleen
+[single] verlegenth=t geraakt, vande gewone
+[single] maandelijcxe randsoenen aand'
+[single] b:' settelingen, ter voornoemde —
+[single] nigombo, en hangwelle te Connen
+[single] Laten verstrecken, en om andere jn—
+[single] plaatse van d' neergesackte in te Copen
+[single] scheen wegens 't Ligt sterven
+[single] dier
+[single] Sacren, Creait
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —.- jd:r ƒ 45. —. —
+[single] 172 Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:-
+[single] 15. d:os „ „ - - „ 45. —
+[single] 90.
+[single] 2. 10.
+[single] 12:10
+[single] 15.
+[single] an voorm.
+[single] erustende
+[single] ber a o. 1706.
+[single] rad
+[single] N
+[single] 1202
+== NL-HaNA_1.04.02_1723_0064 | #64 | sides: single | lines: 27
+[single] dier beesten, en de wijnige granen
+[single] diese comen af tedragen jtem
+[single] d' maandelijcxe besoldingh van desselfs —
+[single] drijvers eer verlies als voordeel te zijn. En om
+[single] d' besettelingen van't meerge„
+[single] dagte sortje nigombo Egter tot tijd, en wijl
+[single] d'cannelse vaart jn zijn geheel zou„
+[single] de wesen vaarbaar gemaakt, niet nelij
+[single] voor haar gewone maandelijcxe rand„
+[single] soenen uijt de happittigam Corle
+[single] te versien, wierd men jnde maand
+[single] junij Iongstleden te rade, tot 't af„
+[single] halen van die granen te Emploijeren
+[single] 8. stx: ongewilde Elifants wijfjes dewel
+[single] lt
+[single] ke nu ter saken d' dikmaals gesz: —
+[single] camelse spruijt g'absolveerd is ge„
+[single] worden, nevens de tot nigombo nog
+[single] jn't Leven zijnde 21. stx: boois —
+[single] gevoegelijk inde hina corle tot —
+[single] 't afbrengen van nelij voor de —
+[single] guarnisoenhouders ter fortresse —
+[single] hangwelle zullen connen gebruijkt
+[single] werden gelijk ook staat te geschieden
+[single] Een
+[single] In
+[single] 8
+== NL-HaNA_1.04.02_1723_0065 | #65 | sides: single | lines: 40
+[single] 10960
+[single] In plaats van 6. oude, en afgevaren
+[single] Cattapanels, heeft men desen Iare, soo
+[single] tot 't afbrengen van den canneel als—
+[single] andere hoognodige diensten, in de respective
+[single] provintien, onvermijdelijk moeten doen
+[single] aanmaken, even getal nieuwe.
+[single] Over 'ts niet ter schoole komen van de —
+[single] jnlandse jeugt, en andere begane mis„—
+[single] slagen der sommige ingesetenen heeft
+[single] den dessave, 't zedert p=mo 7ber anno pass=o
+[single] tot dato deses, aan boete gelden doen
+[single] invorderen, en aanden secretaris vans
+[single] de scholargale vergaderingh sautijn laten
+[single] tellen, een sommatje van rd=s 81: 34: stver:
+[single] namentljk
+[single] wegens 't niet ter kercke komen van
+[single] d' bejaarde persoonen, en non
+[single] ter schoole komen vande kinderen
+[single] mitsgaders Grafgelden
+[single] g' int. - - - - . . . . - - - - - rd„s 53: 34:
+[single] -boetegelden van
+[single] Eenige personen
+[single] dewelke
+[single] curir
+[single] Transportere - - „ 34. tvers
+[single] Sacren, Credit
+[single] 24:' 8ber: p:r diverse personen over 't genot van 16. park: a ƒ 3. —. i dr ƒ 45. —. —
+[single] 17. Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van 15. d:os „ „ - - „ 45. —
+[single] Somma parken 30:
+[single] 90.
+[single] 2. 10.
+[single] 12:10-
+[single] 15.
+[single] an voorm.
+[single] erustende
+[single] ber ao. 1706.
+[single] 1282
+== NL-HaNA_1.04.02_1723_0066 | #66 | sides: single | lines: 29
+[single] Transport rd„s 53: 34. stver
+[single] dewelke over begane moetwilli„
+[single] ge nus bedrijven, en onge„
+[single] hoorsaamh=t door den dissave
+[single] Laten invorderen - - - - - - - „ 28. —.
+[single] nemmerd:s 81:34
+[single] vergaat af 't gene inden tijd van
+[single] 12. maanden, aan diverse timmer„
+[single] lieder over verdiende daghloonen
+[single] aan den opbouw van't school —
+[single] mattuaal, en 't maken van
+[single] een nieuwe kap, aan 't kotte„
+[single] te d„o betaalt is geworden - - - - - - . . „ 21: 22.
+[single] Limmu
+[single] Vn st nog onder den ged: schriba rd:s 60. 12
+[single] Ande
+[single] Den sold=t en opziender van de thuijn
+[single] kallawili, in 't caliturese districkt,
+[single] heeft desen jare d' aldaar zijnde colu
+[single] bomen Laten tijfferen, en van desselfs.
+[single] Iurij voor haer Ed=e reecq: in voorraad
+[single] doen branden 3478½ kannen diverse—
+[single] arrack, omme vandaar bij open
+[single] vaart, afgehaelt, en na Colombo
+[single] vervoert
+[single] ns
+[single] l6
+[single] Givo
+[single] Daar
+== NL-HaNA_1.04.02_1723_0067 | #67 | sides: single | lines: 43
+[single] 1097
+[single] vervoert te werden, en tot Consumtie
+[single] Costij te dienen, namentljk
+[single] 3243. kannen dubbelden
+[single] Carrack. —
+[single] 235. d=os enkelden
+[single] Omme d' sware costen welke d' groote—
+[single] Elisants Iagten na haer slepen, des
+[single] doenelijk zijnde te vermijden, heeft men
+[single] desen Iare ondernomen die holbuijkige—
+[single] dieren in cleene Coralen te vangen:
+[single] en alhoewel den trouwloosentolcq
+[single] Ian leijto tusschen zijn paljotte, en
+[single] die van eenen pettikiriaraatje —
+[single] jnde besettinge een distantie van
+[single] 70. treden, 's nagts bevorens, soo als —
+[single] men 's anderendaags die annimalen
+[single] inde Coraal zoude jnjagen—
+[single] stillekens heeft laten doorgaan —
+[single] 16. Elisanten, daar onder 4. getande —
+[single] d=os, en wijders de meeste hoofden
+[single] van dese Iagt zoo verre onder de
+[single] hand verleijd, dat de sommige niet
+[single] anders hebben getragt als dese Eerste
+[single] kleene
+[single] Sacren, Credit
+[single] 24:'n 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. jdr ƒ 45. —. —
+[single] 172 Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:
+[single] 15. d:os „ „ - -„ 45. —
+[single] 90.
+[single] 2. 10.
+[single] 12.10-
+[single] 15.
+[single] an voorm:
+[single] Gerustende
+[single] xber a o. 1706.
+[single] 1
+[single] 1
+[single] a
+[single] 1202
+== NL-HaNA_1.04.02_1723_0068 | #68 | sides: single | lines: 24
+[single] kleene Iagt te verijdelen, en vrugteloos
+[single] te doen uijtvallen; soo heeft men Egter
+[single] 't geluk gehad binnen den tijd van 28. —
+[single] dagen niet wijnige getrouwe hoofden,
+[single] en ingesetenen uijt de salpittij—
+[single] reijgam, en pasdum corles, een
+[single] nieuwe Elifants coraal te maken
+[single] en daar inne te besluijten 31. stx: vant
+[single] die groote beesten: dog dewijl op de stalling
+[single] tot Iaffanap: en mature, zoo ruijmt
+[single] van Elisant wijffjes zijn versien, dat
+[single] de Cooplieden geen speculatie meerder
+[single] jndeselve schijnen te hebben zoo is men
+[single] te rade geworden om haer Ed=e —
+[single] voor onnodige oncosten te —
+[single] bevrijden, 13. stx. wijffjes met
+[single] gebreken beseth, van dese vangst
+[single] weder beswaart in te jagen
+[single] en maar een getande 8. aliasz:
+[single] „en 9. volmaakte wijffjes aan te
+[single] houden zoo volgen
+[single] cob=s duijmen
+[single] 1. gevande gen=t kindoelpittia hoog 3. 14.
+[single] 8: alias
+== NL-HaNA_1.04.02_1723_0069 | #69 | sides: single | lines: 47
+[single] 1098
+[single] cob: duijmen
+[single] 8. alias manuetjes als
+[single] „1. widagammea. . . . . . . . . . „ 6: 12.
+[single] 1. waggewatte. . . . . . . . . . . . „ 5: 6.
+[single] „1. heenegammea - - - - - - - - - - . „ 5: 6.
+[single] 1 catepittia - - - - - - - - - - „ 5: 3:
+[single] 1. paredoea - - - - - - - - - - „ 4: 9.
+[single] 1. menerij gammea - - - - - „ 4: 6.
+[single] 1. nambagoddea - - - - - - - - „ 3: 12:
+[single] 1. menicka. . - - - - - - - -. „ 3: —.
+[single] 10 wijffjes waar van.
+[single] 1. mandora goddij - - - - - - - - - „ 5: 9.
+[single] 1. haltottij - - - - - - - - - - - - - - - - „ 5: 7.
+[single] 1. Coddellij - - - - - - - - - - - - - - „ 5: 6.
+[single] 1. damanganm - - - - - . . . . . „ 5: 2.
+[single] 1. nacandij. - - - - - - - - - - - - - - - „ 5: —.
+[single] 1. werewattij - - - - - - - - - - . . „ 4: 12:
+[single] 1 mellegodij - - - - - - - - - - - - „ 4: 11.
+[single] 1. horrennij - - - - - - - - - - - - - - „ 4: —.
+[single] 1. galpattij - - - - - - - - - - - - „ 3: 12.
+[single] 1. menicki - - - - - - - - - - - - - - - - „ 2: 12.
+[single] Tot coilewatte, in 's Comp=s
+[single] pannebackerije heeft men 't zederdt
+[single] mo 6
+[single] Sacren, Creait
+[single] 29:' 8ber: p:r diverse personen over 't genot van 16. park: aƒ 3. —. i d:r ƒ 45. —. —
+[single] 172 Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:-
+[single] 15. d:os „ „ - - „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 12:10-
+[single] 15. -
+[single] Jan voorm:
+[single] berustende
+[single] xber a o. 1706.
+[single] v
+[single] :
+[single] 1202
+== NL-HaNA_1.04.02_1723_0070 | #70 | sides: single | lines: 21
+[single] p=mo 7ber anno passado tot heden
+[single] niet 151. groote, en klene Lijveijgenen
+[single] vande' veromp:s namentlijk, 62. mans—
+[single] 34. vrouwen, 24. Iongetjes, en 32. meijs„
+[single] jes, Effectievelijk doen maken, en
+[single] branden
+[single] 150700. stx„ metsel steenen
+[single] 27000. —. vloer d=os
+[single] 94088: —. pannen
+[single] uijt de bossen van ampatle heeft
+[single] met jndien opgem: tijd voor den
+[single] dienst vand' EComp=e door haer—
+[single] Ed=le slaven, doen kappen, en tot de —
+[single] pannebackerije doen aanbrengen
+[single] mitsgaders vandaar na Colombo
+[single] geschikt
+[single] 3581. bossen rottings. —
+[single] Inde voornoemde bossen heeft
+[single] de baas vande pannebackerije
+[single] van tijd tot tijd staande dit nu —
+[single] Lopend:
+== NL-HaNA_1.04.02_1723_0071 | #71 | sides: single | lines: 45
+[single] 1099
+[single] Lopend' boekjaar almede door 's comp=s
+[single] slaven, doen branden, en na Colombo
+[single] voor d' smits winkel versonden.
+[single] 1111. manden houtskolen.
+[single] vele Iaren herwards heeft men voor
+[single] gehad een hooft combo op te maken
+[single] van alle d' manschappen welke =er—
+[single] mogte bevonden werden, onder 't Colombose
+[single] dessavonije te wonen, 't gene Egter door—
+[single] dese, en gene toevallen niet is geschiet
+[single] derhalven heeft men jnde maand —
+[single] julij een begin gemaakt niet 't beschrijven
+[single] vand' voornoemde tombos, en 't zedert
+[single] dien tijd tot heden g'absolveert, d' salpittij
+[single] en de hevegam Corles alwaar Effecti„
+[single] velijk tegen vermoeden zijn bevonden
+[single] te wonen 4865. manspersoonen te
+[single] weten..
+[single] 1867. coppen inde salpittij corle, en
+[single] 2998. d=os - - - - - hevegam do—.
+[single] „als
+[single] d' inlandse krijgers welke voor ade
+[single] nog
+[single] Sacren, Credit
+[single] 24:n 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —.- jd:r ƒ 45. —. —
+[single] 172 Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van
+[single] omma parken 30:
+[single] 15. d:os „ „ - - „ 45.
+[single] ƒ
+[single] 90.
+[single] -
+[single] 1202
+[single] 2. 10.
+[single] 12:10-
+[single] 5-
+[single] van voorm.
+[single] berustende
+[single] xber a o. 1706.
+[single] N
+[single] N
+[single] E
+== NL-HaNA_1.04.02_1723_0072 | #72 | sides: single | lines: 30
+[single] nogh verschuldight sijn voor haer —
+[single] acomodasan, en d' sommige voor —
+[single] wijnige mondcosten de wagt te —
+[single] houden. ter verscheijde plaatsen, onder-
+[single] 't colombose dessavonije, als nigombo, —
+[single] „calture, hangwelle, mitsgaders vele
+[single] andere verlatene paggers, en passagien—
+[single] meer ten platten Lande &=a bestaan
+[single] in 325. mansz:.
+[single] — parras
+[single] —nelij zout nelij zal
+[single] p=ro —. p=rao med: p=r ned:s p:
+[single] 52. crijgers: dese zijn gehouden, jder—
+[single] voor 2. en 3. p=ras nelij, en
+[single] 1. midiet zout 's maands —
+[single] boven hun accomodo:
+[single] op hun tourbeurten als —
+[single] Lascorijns ter plaatse jnt
+[single] vervolg uijt gedrukt dienst-
+[single] te doen, oversulcx werdense —
+[single] ook, op den vastgestelden
+[single] tijd, door Even getal —
+[single] andere na datse 15. dagen
+[single] de wagt gehad hebben
+[single] afgelost namentlijk
+[single] verten
+[single] 52. Coppendie Transporteere:
+[single] „
+[single] x
+== NL-HaNA_1.04.02_1723_0073 | #73 | sides: single | lines: 58
+[single] 1100
+[single] 52. Coppen Pr Transport
+[single] Carras
+[single] nelij zout nelij zout
+[single] Zund —. mid: —. mid:— mid
+[single] cimmnemum
+[single] 34 d=os zoo tot nigombo, als onderd=o
+[single] f distrikt, te weten
+[single] . 14 d=os opnig ombodaarvan
+[single] 1. cangane) bij den vaand=r, tot rover
+[single] En wederbrengen van
+[single] 6. lascorijnse scomp=s brieven. . . . „ 14. —. —. 7.
+[single] „ 1. cangane bij den modli: alp: perere den
+[single] 7cangane 3. p=ma nelij, en—
+[single] 6. lascorijns geen zout d' lasc: als voren. - . . „ 15. —. —. 6.
+[single] 1. Cangare) op canielle tot 'theen, en wed=e
+[single] brengen van 's comp=s
+[single] „ 6. Lascorijns passerend' brieven - - - - - - „ 14. —. —. 7.
+[single] 1. canganeen op chilauw in 's Coningh
+[single] land aldaar ten Eijnde
+[single] 12. Lascorijns voorsz: geplaast - - - - „ 26. —. —. 13.
+[single] „. 13. persoonen ter fortresse hangwelle daar —
+[single] oud=r.
+[single] 6. Lascorijns tot 't heen, en weder —
+[single] brengen van 's Comp=s brieven „ 12„ —. —. 6.
+[single] 1. cangane. . . . . 2. . . . . . . „ 14. —. —. 7.
+[single] 6. sprinkhaen dragers 1
+[single] 5. persoonen aan 't rusthuijs ampatle als
+[single] 1. cangane 7 tot 't overen wederbrengen
+[single] 4. Lascorijns van 's comp=s brieven. . . . „ 10. —„ — 5.
+[single] 6. Lascorijns op wolvendael, aan 't Logim=t
+[single] van de gaande en comende Candise
+[single] gesanten aan wien maer rijs, en zout
+[single] staande 't aan wesen van d' afgeson„
+[single] detie verstrekt werd, en anders—
+[single] niet - - - - - - - - - - - - - - - - - - „ —. —
+[single] 58. coppen die transportere
+[single] verte
+[single] e
+[single] —125. —. 2. 3.
+[single] Sacren, Credir
+[single] 24:'n 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. jdr ƒ 45. —. —
+[single] 17 Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van
+[single] Somma parken 30:-
+[single] 15. d:os „ „ - - „ 45.—
+[single] 0.
+[single] 2. 10.
+[single] 12:10
+[single] d„o
+[single] --
+[single] van voorm.
+[single] berustende
+[single] xber ao. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0074 | #74 | sides: single | lines: 32
+[single] 58. Coppen P„r Transportee-.
+[single] 267. Canganes, en Lascorijns dewelke gehouden zijn
+[single] zonder eenig ander betalingh van d' Eomp=se
+[single] te genieten als het vrije genot der vrugten
+[single] van de Landen, en thuijnen haer ten dient
+[single] eijnde vergene te chilliveren, zoo Lange
+[single] zij de pligt van krijgers, op hun tourbeurten
+[single] waarnemen: derhalven werden se ook door
+[single] sulcke, en diergelijke accomodan sancareas
+[single] nadatse 15. dagen, op dese engene plaatsen
+[single] de wagt gehouden hebben afgelost, en
+[single] vervangen zoo volgt
+[single] 21: coppen aande nigombose distrikt, daar van
+[single] 1. cangane. } aan de overvaart van puttewancara
+[single] 6. Lascoeijnse na nigonobo
+[single] 1 cangane}
+[single] - - vervallene pagger choenampetij
+[single] 6. Lascorijns
+[single] 1. cangane 2 - - –. vervaart van topoturre jn—
+[single] 6. lascorijns
+[single] 's Conings Land. —
+[single] 27. gesellen inde alutcoer corle wagt houdende
+[single] 1 cangane
+[single] aan d' vervallene paggerdandogam
+[single] 6. lascorijnse
+[single] 1. cangane
+[single] - - - - - - d_o doenoega.
+[single] 12. Lascorijns
+[single] 1. Cangane
+[single] 325. 48. 20. coppen die transportere
+[single] 1
+== NL-HaNA_1.04.02_1723_0075 | #75 | sides: single | lines: 62
+[single] 1101
+[single] 1121
+[single] 325. 48. 20. Coppen p=r Transport. -  :=
+[single] 1. cangane. .
+[single] aan d' passagie van taracoelij
+[single] 6. lascorijns
+[single] 28. gesellen onder het caliturese distrikt verdeelt
+[single] 1. cangane. .
+[single] }bij den vaand=r en't subaltern hooft van 't
+[single] gan
+[single] 12. Lascorijns fortije aldaar.
+[single] 1. cangane
+[single] haanden uijt gang van 't gravet na barbarijen
+[single] 6. lascorijnse
+[single] 1. cangane
+[single] - - - . d' Canneel packhuijsen tot _=o
+[single] 7. lascorijns
+[single] 37. mansz: ind' pasdum corle, op de naarten: plaatsen als
+[single] 1. cangane. .
+[single] aan d' vervallene pagger agalewalle.
+[single] 4. lascorijns
+[single] 1. cangane.
+[single] 2 - — - -. passagie van paregodde, ind' koekoele —
+[single] 6. lascorijns) corle in 's conings Land.
+[single] 1. cangane
+[single] 1. cangane
+[single] . H. moerepittij _-o
+[single] 6. lascorijns
+[single] £
+[single] e
+[single] 5
+[single] 4. d=o - - - - - - - - - - dodangode __o
+[single] 1. Cangane. . . .
+[single] 6. Lascorijns - -. . . . . . . . . graveth mickegaha of passagie d=o
+[single] 39. d=os de volgende plaatsen in de reijgam
+[single] -
+[single] Corle bewakende als
+[single] Transportere
+[single] 325. 152. Coppen die
+[single] 6. lascorijns s=o - - . d=o ingiri E. d_o
+[single] ende
+[single] Facken, Credit
+[single] 29:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — - jd:r ƒ 45. —. —
+[single] 17 Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van 15. d:os „ - - „ 45.—
+[single] Somma parken 30:-
+[single] #
+[single] 320
+[single] d„ 12:10-
+[single] ƒ 15.
+[single] van voorm:
+[single] berustende
+[single] ember a. o. 1706.
+[single] duerts 1030
+[single] 2. 10.
+[single] 90.
+[single] 1202
+[single] 238
+== NL-HaNA_1.04.02_1723_0076 | #76 | sides: single | lines: 35
+[single] 325. 152. Coppen p=r transport
+[single] 1. cangane
+[single] 6. lascorijns} aan de verlate, en vervalle pagger kandangelle
+[single] 1. cangane
+[single] - - - - - _-o - - - - - - - - - - - auguratotte
+[single] 10. lascorijens
+[single] 1. cangane 2. . . paerancande, of linie schijdinge van dese
+[single] 6. lascorijns
+[single] ende coeroewittij corle.
+[single] 1. – maoejenne of graveth tusschen panture.
+[single] 1. cangand:
+[single] 6. lascors. .
+[single] en d' caliturese overvaart tot het
+[single] voortbrengen van 's comp=s brieven
+[single] 2
+[single] t cangane, aande overvaart van panture nade salpitl:
+[single] 6. Lascort corle
+[single] 21. Persoonen ind' salpittij corle dienst doende als —
+[single] 1. cangane
+[single] tot madanga, aand' groote wegh van
+[single] 6. lascorijns colombo na panture, tot denvoort„
+[single] breng van Comp=s brieven
+[single] 1. cangane. .
+[single] - . . galkisse ten Eijnde voorsz:
+[single] 2
+[single] 6. lascorijns
+[single] 1. cangane.
+[single] 1 - - - - bellantotte of mendimale als —
+[single] 6. Lascorijns
+[single] wagters van 's Comp=s, zoo —
+[single] van colombo als calture aanko„
+[single] mende goederen mitsgaders den
+[single] canneel in den oegst tijd.
+[single] 22. Besellen in de hevegam Corle: —.
+[single] 325. 195. coppendie Transportere.
+== NL-HaNA_1.04.02_1723_0077 | #77 | sides: single | lines: 42
+[single] 1102
+[single] 325. 195 Coppen p=r Transport.
+[single] 4. Cascorijns aan de pannebackerije wagthoudende
+[single] 3. d=os - - - - - - - - spruijt van waggedolle
+[single] aldaar gestelt, om 't verlopen
+[single] na 's conincxland der —
+[single] Lijpeijgenen, van 's comp=s
+[single] onderdanen; zoe veel doene„
+[single] lijk zij te beletten.
+[single] - - - - - ambelam van padoeke, of
+[single] aand' wegh van hangwelle, —
+[single] na kaudangelle. —
+[single] 16. —. - - - . . . . 't rusthuijs van poeackpittij of
+[single] de wegh na citawake
+[single] tot het voortbrengen der
+[single] tadvijsen, welke die plaatsen
+[single] van - en na 't candise hof
+[single] passeren.
+[single] 6. — - - - - - -: . d' spruijt van awissewele, Even
+[single] en ten Eijnde voorsz:
+[single] 16. personen inde hina corfe zoo volgens.
+[single] 6. Lascorijns aan de afgebrooke veldschans malwane
+[single] 3. dos - - - - - ordinarij passagien
+[single] uijt dese corle in de billigaal
+[single] en d'Eappilligam corles.
+[single] 325. 211. 9. coppen die Transporteere
+[single] Sacken, Creait
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — j d:r ƒ 45. —.—
+[single] 17. Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van 15. d:os „ - - „ 45. —
+[single] Somma parken 30:
+[single] 10: jds„ 12:10-
+[single] ƒ 15„
+[single] van voorm.
+[single] berustende
+[single] ember a o. 1706.
+[single] 2. 10.
+[single] 1282
+[single] 60
+[single] 1
+[single] O
+== NL-HaNA_1.04.02_1723_0078 | #78 | sides: single | lines: 27
+[single] 325. 211. 9. Coppen p=r Transport. - -
+[single] 1. cangane J aan mabolle, of de wegh van Colombo —
+[single] 6. lascorijns) na nigombo tot het voortbrengen vande —
+[single] heen en wedergaande comp=s brieven
+[single] 18. coppen in 't colombose distrikt of binnen d' passen als —
+[single] 12. lascorijns uijt diverse corles d' wagt aan't huijs van
+[single] den dessave tot hulssdorp tot 't afbrengen van
+[single] olas inde corles. —
+[single] 2 d=os aande pas sint bastiaan als wagters vande
+[single] aldaar zijnde waterput, g'ordonneerd.
+[single] 2. d=os - - -. overvaart van matuaal, bij den Corp=l
+[single] en resident te dier plaatse bescheijden
+[single] 2. —. . . . . overvaart van 't pas betael, bij den corp=l
+[single] Even en in manire voorsz: —
+[single] 38. Coppen inde happitagam corle te weten
+[single] 1. cangane-/ op goddekalaue watte, een comp=s
+[single] 12. lascorijns:) kokus thuijn en een passagie nade —
+[single] billigaal Corle 's conincx Land. —
+[single] 1 canganet
+[single] Top moegoeroegample, een verlate, en vervalle
+[single] 12. lascorijns pagger. —
+[single] 6. d=os - - - botule - - - - - - - d=o
+[single] 6. d=os - - - dangovice - - - - - _=o
+[single] 325. Coppen te samen, daar onder 31. Canganes, en
+[single] 294. Lascorijns.
+[single] d
+[single] Dus
+== NL-HaNA_1.04.02_1723_0079 | #79 | sides: single | lines: 35
+[single] 1103
+[single] Dus kortelijk uwel Ed=le agtb: 't
+[single] voornaamste dat=er onder 't co„
+[single] lombose dissavonije 't zedert p=mo 7ber
+[single] 1705. tot heden, verrigt is geworden, onder
+[single] ogen gebragt zijnde, zal jk hiermede,
+[single] om u wel Ed=le a:, met geen veel
+[single] geschrivt te vermoeijelijcken Eijndigen,
+[single] en onophoudelijk tragten, 't geluck te
+[single] hebben, van mij te mogen noemen.
+[single] /onderstond/ wel Ed=le agtb: Heer —
+[single] uwelEd=e agtb: onderdanige, en
+[single] gehoorsamen dienaar, was getekent
+[single] P:r C Bolscho /in margine, hulfsdorp —
+[single] adijult=o 8ber: anno 1706.
+[single] Accouieerd.
+[single] Cmaase
+[single] Eclerq.
+[single] gecoll:
+[single] Vacken, Credit
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — jd:r ƒ 45. —. —
+[single] Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van 15. d:os „ „ - - „ 45. —
+[single] Somma parken 30:ƒ
+[single] 90.
+[single] ƒ 2. 10.
+[single] 10: d„ 12:10-
+[single] ƒ 15.-
+[single] van voorm
+[single] berustende
+[single] ember a. o. 1706.
+[single] 1282
+== NL-HaNA_1.04.02_1723_0080 | #80 | sides: single | lines: 10
+[single] NoeElohan vatld
+[single] 6v0 d6e
+[single] 6eaos as r
+[single] welxd riste veble rat. 30
+[single] an
+[single] n
+[single] „
+[single] del onder
+== NL-HaNA_1.04.02_1723_0081 | #81 | sides: single | lines: 21
+[single] Sachen, Credit
+[single] 24:'n 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. j d:r ƒ 45. —. —
+[single] 1. Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van 15. d:os „ - - „ 45. —
+[single] Somma parken 30:
+[single] ƒ
+[single] -
+[single] ƒ
+[single] 90.
+[single] 3. . . ƒ 2. 10. —
+[single] 2. 10. jd„s 12: 10—4
+[single] ƒ 15. —
+[single] van voorm:
+[single] r berustende
+[single] cember a o. 1706.
+[single] 6. 8
+[single] 14.
+[single] 68
+[single] 3. 8
+[single] 1202
+== NL-HaNA_1.04.02_1723_0082 | #82 | sides: single | lines: 1
+[single] 1: 46.
+== NL-HaNA_1.04.02_1723_0083 | #83 | sides: single | lines: 43
+[single] 1104
+[single] De Capitains
+[single] Hans fredrik Bergman
+[single] Ian Christiaansz: Goorsee
+[single] pe
+[single] Iacob Iansz: de Roij. —
+[single] gregorius da Costa„
+[single] Capitain Luitenant, Claas Schot, en
+[single] Luitenant Gabriel Heijman
+[single] Het kan uEd=s niet onbekent zijn in
+[single] wat voegen wij sub dato ult„o xber 1704: haar
+[single] Edele achtbare hebben bekend gemaakt den
+[single] overvloedigen voorraed van allerhande mi„
+[single] „litaire wapenen, zoo hier op Colombo als d'
+[single] onderhorige commandementen en comptoi„
+[single] ren deses gouvernements berustende van
+[single] over veele Iaren bij een vergadert voor
+[single] 't grootste gedeelte onnut en geheel buiten
+[single] gebruijk: hebbende haar wel gem: Ed=le
+[single] achtbare bij missive den 22:' maij des af„
+[single] „geweken Iaars gelieven tebevelen dat
+[single] wij ons daar van ten deelen zullen ont„
+[single] „lasten, met deselve tesenden na corman„
+[single] „del en mallabaar voor zoo verre
+[single] aldaar eenige benodigt mogten wesen,
+[single] ende voorts het overschot dat volkomen
+[single] goed
+[single] Sacken, Credit
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. pack: a ƒ 3. — - j d:r ƒ 45. —. —
+[single] 17 Junij
+[single] 1706
+[single] „ dE Comp: over 't restant van 15. d:os
+[single] Somma parken 30:
+[single] „ - – „ 45.
+[single] 90.
+[single] 2. 10.
+[single] 10: jd„ 12:10-
+[single] 15.
+[single] ƒ
+[single] van voorm:
+[single] berustende
+[single] ember a. o. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0084 | #84 | sides: single | lines: 28
+[single] goed en bruijkbaar is, haar Edele achtb
+[single] temoeten laten toekomen, mits ons set
+[single] „ven niet comende te ontbloten ofte te
+[single] misgrijpen, in onse calculatie van 't gen
+[single] kort daar op benodigt zoude konnen
+[single] zijn.-. belastende haar Edele agtbare
+[single] wijders alle onnutte en onbruijkbare
+[single] geweiren instucken teslaan, en dan voo
+[single] oud ijser bij publique venditie teverko
+[single] „pen. En dewijl wij 'tsedert van buiten
+[single] plaatsen deses gouvernements hebben
+[single] ontfangen nette opgevingen van alle
+[single] wesen zijnde wapenen met de notatie
+[single] welke van dien volgens sustenue der
+[single] respective Commandeurs en opperhoofde
+[single] als overtollig en onnodig, dewapenka„
+[single] „mers comen te belemmeren, en ander
+[single] dewelke zij nogh van noden zouden
+[single] hebben ter desentie bij een vijandelijke
+[single] attacque. Zoo werden VE„s mits desen
+[single] Expres gecommitteerd en g'ordonneer
+[single] alle deselve op gevingen op 't nauwker
+[single] „rigste te resumeeren Examineren,
+[single] en daar uijt tetrecken alle zoodanige
+[single] krijgsgeweiren ofte militaire wapen
+[single] als 'er nade uijtbreijdinge en 't bemanne
+[single] der stede
+[single] cou.
+== NL-HaNA_1.04.02_1723_0085 | #85 | sides: single | lines: 49
+[single] 1105
+[single] dersteden en fortresse onder desen
+[single] gouvernemente resortabel ten tijde
+[single] van oorloge, zoude moeten werden
+[single] gerequireert in voorraad tot eijgen
+[single] beveijlinge en resistentie onser vijan„
+[single] „den: latende met aandagt daar over
+[single] gaan VE:s gedagten, wijders sal appart
+[single] en specifice moeten werden aangewesen
+[single] wat bruijkbare geweiren dan als nogh er berustende
+[single] overschieten, ende ten Laasten alle de
+[single] gene die VE:s mogten oordeelen onbe„
+[single] „quaam en gantsch ondienstig tot eeni„
+[single] „ge militaire actien ofte Exploicten
+[single] in dese gewesten; wijle wij in confor„
+[single] „mite van haar Edele achtb: voorge„
+[single] „citeerde ordres, ons desulke zullen
+[single] moeten quijt maken door ontdoeninge
+[single] van haar fatsoen, en vercoop aande
+[single] meestbiedende. welken'twegen wij
+[single] tegemoet blijven sien VE„s rapport
+[single] in geschrift, binne verder inrade
+[single] van politie daar over tewerden gedeli„
+[single] „bereert. /
+[single] Colombo den 12:' Maart A„o 1706. —
+[single] /as getekent:) C: I: Simons. —
+[single] Accoudeerd.
+[single] J Aarous
+[single] Vallen
+[single] M
+[single] Creaet
+[single] „ dEComp: over 't restand van 15. d:os „ „ - - „ 45. —
+[single] Somma parken 30:
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —.- jd:r ƒ 45. —.—
+[single] 12 Junij
+[single] 1706
+[single] k. ƒ 2. 10.—
+[single] 12. 10: jd„s 12: 10—
+[single] ƒ 15.-
+[single] B van voorm:
+[single] Dcember ao. 1706.
+[single] 6.
+[single] 14.
+[single] 68
+[single] 3.
+[single] ƒ 90.
+[single] 1282
+[single] E:Clerq
+[single] Cou.
+== NL-HaNA_1.04.02_1723_0086 | #86 | sides: single | lines: 1
+[single] No: 41.
+== NL-HaNA_1.04.02_1723_0087 | #87 | sides: single | lines: 45
+[single] 1106
+[single] Rapport overgegeven
+[single] Aan den wel Edele gestr:
+[single] Heer M„r Cornelis.
+[single] Joan Simons. —
+[single] Gouverneur en directeur
+[single] des Eijlants Ceijlon de kuste
+[single] Madure &=a door ons onder
+[single] geschrevene ter ordre van
+[single] sijn wel Edele Expres ge¬
+[single] committeert tot het Resumeren
+[single] en Examineren van het nodig
+[single] getal der Militaire wapenen
+[single] onder dit Gouvernement
+[single] Wel Edele Gebiedende Heer
+[single] Een Eijnde wij onderdanigst mogten volbren„
+[single] „gen u Edele agtb: zeer g'eerde bevel bij
+[single] schriftelijk ordonnantie de dato 12:' deser
+[single] op ons verleent, vervat, soo hebben voor
+[single] eerst nagesien wat manschap bij de laaste
+[single] monstering is bevonden, teweten corperaels
+[single] en gemeene soldaten, als zijnde de gene
+[single] waer toe volkomen rusting vereijscht en de
+[single] selve bevonden in maniere als volgt. —
+[single] op Colombo
+[single] 6
+[single] Sacren, Credir
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. jdr ƒ 45. —. —
+[single] 112 Junij
+[single] 1706
+[single] „ dEComp: over 't restant van 15. d:os„
+[single] Somma parken 30:-
+[single] ƒ
+[single] 90.
+[single] „ – – „ 45.
+[single] 1202
+[single] ƒ 2. 10.
+[single] ƒ2. 10. j d„ 12. 10—4
+[single] ƒ 15. —
+[single] van voorm:
+[single] er berustende
+[single] ecember a o 1706.
+[single] 4.
+[single] 6
+[single] 3. 8
+== NL-HaNA_1.04.02_1723_0088 | #88 | sides: single | lines: 44
+[single] op Colombo en onderhoorige posten „ 904.
+[single] „ 284.
+[single] Gale en _„o. . ..
+[single] „
+[single] „ Iaffanapatnam manaar &„a 285.
+[single] „tricoen male en batticaloa - - „ 140.
+[single] 58.
+[single] „ tutucorijn.. . . . . .
+[single] „
+[single] 'tsamen uijtmakende Cop 1671.
+[single] Maar overleggende beter te zullen doen ons
+[single] teschicken en mesures tenemen na het re„
+[single] „glement van a„o 1692. hebben wij de Corperaals
+[single] en schilder gasten daar bijvast gestelt, op de
+[single] selve wijse uijt getrocken en bevinden. —
+[single] voor Colombo en d'onderhoorige posten„ 1026.
+[single] uuw
+[single] Gale en desselfs district. „ 456.
+[single] trincoenmale en Batticaloa „ 158.
+[single] Iaffanapatnam en manaar. . „ 442.
+[single] tutucorijn. - .
+[single] 40.
+[single] „
+[single] mun
+[single] tesamen coppen. 2122:
+[single] bedragende 451. man meer als bij de laaste
+[single] monstering in wesen zijn bevonden, egter
+[single] daar op Calculatie gemaakt, zijn (onder u Ed=le
+[single] agtb: welduijden) van sentiment dat voor
+[single] Eerst daar voor moet werden gehouden. —
+[single] 2122: musquetten, met soo veel bandeliers tijd ge„
+[single] „weiren en verder toebehooren, mitsgaders
+[single] 2122: snaphanen teweten roers en donderbussen, ne„
+[single] „vens hare toebehooren, aan patroon tasschen,
+[single] en zijd geweiren waar onder Een gedeelte
+[single] bayonets met dien verstande nogtans dat de
+[single] helft deser wapenen (of nadat de guarnisoenen
+[single] sterk zijn) Indagelijx gebruijk moet blijven
+[single] ende rest Inde wapenen kamers bewaart. —
+[single] daar na volgens voorsz: monster rolle alle de
+[single] pennisten, te weten boekhouders, adsistenten, p=r
+[single] d„o en Soldaten bijdepen, tesamen getrocken, en
+[single] dos
+[single] calculatie
+== NL-HaNA_1.04.02_1723_0089 | #89 | sides: single | lines: 57
+[single] 1107
+[single] calculatie gemaakt hoeveel Lurgers
+[single] en andere men ongevaar bovendien In
+[single] dewapens zoud konnen trecken, die wij
+[single] alle net onderwerpinge van u Ed=le
+[single] agtb: wijse oirdeel.) meenen gewapent
+[single] temoeten zijn met ligte donder bossen
+[single] en roers, mitsgaders soo veel zijd geweiren
+[single] en't gene daar toe behoort als
+[single] op Colomso pennisten
+[single] 76:
+[single] koppen 376.
+[single] burgers. . 300:
+[single] „Gale pennisten. . 26:
+[single] burgers. . . 100: _„o 126.
+[single] „ Iaffanap:t vennisten. . 33:
+[single] burgers. . . 100:_„ 133.
+[single] „tricoen male pennisten. . . . . 11.
+[single] „tutucorijn pennisten. 26.
+[single] _„o 76.
+[single] andere. . 50. 1
+[single] tesamen koppen. . . „ 722.
+[single] welke 722: snaphaanroers gevoegt bij die
+[single] der militairen zullen bedragen:/
+[single] 2844. stux roers en donder bussen overt 't geheel
+[single] gouvernement namentlijk. —
+[single] 0
+[single] 1402. voor Colombo en dies onderhoorige posten
+[single] 582: „ Dale en _„o
+[single] 575: „ Jaffanap: en _„o
+[single] 169: „ tricoenmale en _„o
+[single] 116: „ tutucorijn
+[single] En nademael den 21„e 8ber a„o 1704 bij opneem
+[single] en resumptie, in gelijker voegen als nu geschiet
+[single] overslag is gemaakt om 3000: musquetten
+[single] en roers hier tot Colombo bijde wapen„
+[single] kamer tehouden, soo konnen niet sien of
+[single] zulx
+[single] 6
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — — j d:r ƒ 45. —.—
+[single] 172 Junij
+[single] 1706
+[single] 3
+[single] 146
+[single] Creaet
+[single] „ dE Comp: over 't restant van 15. d:os „ „ - - „ 45. —
+[single] Somma parken 30:-
+[single] w
+[single] ƒ2. 10. d„o 12. 10—
+[single] ƒ 15„
+[single] k van voorm:
+[single] in berustende
+[single] December a. o. 1706.
+[single] ƒ 2. 10.
+[single] 90.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0090 | #90 | sides: single | lines: 32
+[single] zulx sal als nog stand mogen grijpen, alhoe
+[single] wel 1400: meer Importeert als onse tegen„
+[single] „woordige stelling, aangesien dit als het hooft
+[single] Comptoir altoos wat meer in voorraad be„
+[single] „hoort te hebben, om des noods d'onderhoorige
+[single] guarnisoenen tekonnen seconderen, nogtans
+[single] sal wel mogen onder het getal der voorm=te
+[single] 3000: werden gerekent de wapenen tegenwoor„
+[single] „dig in gebruijk, die zullen stellen 700: teweten
+[single] 350: musquers en 350: snaphanen, welke stellin
+[single] genoodzaakt werden tevolgen ontrent alle
+[single] onderhoorige plaatsen behalven tutucorijn
+[single] van waar niet en pertinent wert aangewesen
+[single] de verdeeling der wapenen soo wel aan de mili„
+[single] „tairen als op hare Chialoupen en vaartuijgen
+[single] dog dese gissing sal soo merckelijk geen ver„
+[single] „schol bijbrengen, dat van Eenig Importantie
+[single] sal zijn, behalven dat sal ook tot gale meer
+[single] musquetten dienen gelaten, als de voorgaande
+[single] stelling dicteert, om te suppeleren het getal der
+[single] snaphanen die tekort komen, voorts werdt
+[single] tafels- wijse aangetoont 't gene van ijder
+[single] soort bij de wapenkamers dient te blijven,
+[single] en daar neven hoeveel sal konnen versonden
+[single] en vernietigt werden. —
+[single] Specificatie van soodanige Wapenen
+[single] waar van te veel bijde wapen
+[single] kamers in voorraad zijn, en
+[single] uijt dienhoovde dienen vermin¬
+[single] „dert.
+[single] Tot.
+[single] 2
+== NL-HaNA_1.04.02_1723_0091 | #91 | sides: single | lines: 56
+[single] 1108
+[single] Tot Colombo
+[single] Te verblijve
+[single] Versenden
+[single] 1304. roers en donderbussen. 300.
+[single] 676. bequame musquetten. . 2577. daar ond:r partij onbequame
+[single] 100: paar pistoelen. . . . 136½. paar.
+[single] . . . . . . . . . . . 88. koppen tot pistoolen
+[single] 2000: Zijd geweiren van de beste
+[single] houwers degens en bayo„
+[single] „nets - - - - - - - 1500. weijnig meer of min
+[single] . . 50: Isere degen gevesten.
+[single] . . . . . . . . . 5022. hand greven
+[single] 637. oorbanden. . . . . 2500„—
+[single] - - - - - 6: chinese buijk snijders
+[single] 122. piekeniers en ruijters wapensƒ 76. ruijters
+[single] 45. piekeniers
+[single] 50: ruijters en
+[single] 72: piekeniers
+[single] 200: morlioens. . . . . . . 971. —
+[single] 72: ring kragen. . . . . 495. —
+[single] 62: kopere haken en oogen toodwapens 1 50. —
+[single] . . . . . . . . . . 215. lopen tot musg=s en snapha:
+[single] . . . . 525. lange musg=ts slooten
+[single] . . . . . . . 370. slooten tot roers en
+[single] donderbussen
+[single] . . . . . . . . . 394. slooten tot vuur roers
+[single] . . . . . . . . . . 289. enkel: kogel formen
+[single] -„. . . . . 79: ijsere braad spitten.
+[single] . - . . . . . . . 500: ijsere kratsers en
+[single] verkenstaarten
+[single] 200: spitsen tot pieken. . . . 354. —
+[single] 200: kopere piek doppen. . . . . 250. —
+[single] 15: partisaans. . . . . . . 21. —
+[single] 50: hellebaarden. . . . . . 59. —
+[single] 50: karbijn haaken. . . . 480: karbijn haaken
+[single] Bij/
+[single] Sacron, Creair
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —.- jd:r ƒ 45. —. —
+[single] 1708
+[single] 172 Junij
+[single] „ dE Comp: over 't restand van 15. d:os„
+[single] Somma parken 30:
+[single] „ - – „ 45. —
+[single] 90.
+[single] ƒ 2. 10. —
+[single] 10. jd„s 12. 10—
+[single] ƒ 15„
+[single] van voorm
+[single] ir berustende
+[single] December a. o. 1706.
+[single] -
+[single] .
+[single] . . . . . . .
+[single] 1202
+== NL-HaNA_1.04.02_1723_0092 | #92 | sides: single | lines: 50
+[single] Bij de wapenkamer Tot Gale
+[single] Te versenden. —
+[single] . . . . . . . 23. die geborsten zijn.
+[single] Te Blijven
+[single] 424 p„s snaphanen als.
+[single] 195: roers
+[single] 129: donderbussen
+[single] 55. „ pistolen. . . . . . . . . .
+[single] 880. „ Zijd geweiren. . . . . . . . . 469. daarv: 388: onbequa
+[single] 81. „ bajouets.
+[single] .
+[single] 50. „ snaphaan slooten - - . . . —„
+[single] 3. „ pertisaans. . . . . . . . . 4 „—
+[single] 15. „ hellem baarden. . . . . . . 5 „ —
+[single] 464. „ musquets. . . . . . . . 913. en 54: gesprongen
+[single] . . . . . . . . - - . . . 8: vaandet spitten onbeq:
+[single] . . . . . . . . . - - - - „ 981„ onbequame loopen tot
+[single] musg=s en snaphaans
+[single] 36 Piek spitsen. . . . . . „ 31„ onbequaam
+[single] - - - „ 128: singalese poekspitso
+[single] onbequaem. —
+[single] . . . . . 46„ morlioens. —
+[single] - - - - 22: piekeniers wapens
+[single] Bij de wapenkamer tot Jaffanapatnam
+[single] Te blijven
+[single] versenden
+[single] 475 snaphanen waaraan tekort sal komen
+[single] 11„ onbequaam
+[single] 285: die derwaarts dienen gesonden
+[single] 400: musquetten zijnde, 100: meer als gestelt
+[single] was om plaats van soo veel - - - 450: daar onder 50: bequa„
+[single] „me en 400: ouwerwer„
+[single] donder bussen te blijven.
+[single] en te swaar komende
+[single] in bedencking ofde 51
+[single] niet behoorden te blijve
+[single] en daar tegen maak
+[single] 235: roers en donder
+[single] bussen derwaarts
+[single] senden. —
+[single] 50: pistoolan
+[single] .. . . .. -„
+[single] .
+[single] .
+[single] .
+[single] .
+[single] .. . . .
+[single] . .
+[single] .. . .
+[single] O
+== NL-HaNA_1.04.02_1723_0093 | #93 | sides: single | lines: 51
+[single] 1109
+[single] 50: pistoolen. .
+[single] - - - - - . . -. . . 100: —: loopen tot pistools
+[single] 52:-: morlioens
+[single] 100:-. ring kragen.
+[single] Zijd geweiren Excederen niet, maar het blijkt
+[single] met datse bajonets hebben, derhalven zoud vande
+[single] slegste tijd geweiren wel Eenige (of ook wel
+[single] nieuwe) gemaakt werden.
+[single] Bij de wapenkamers tot
+[single] Triconmale en Batticalo
+[single] Te blijven
+[single] versenden
+[single] 105. roers en donder tussen 48: ontramponeerde
+[single] 90: musquets. . . . . 170: daar van 101: ontstelt
+[single] en onbequame. —
+[single] . - . . . . . . 15: vuur roers daar van
+[single] 8: ontramponeert
+[single] 8: karbijns. . . . . 4: ontramponeerde.
+[single] 21: pistoolen. . . . . 5: —
+[single] _„o. —
+[single] 200: Zijd geweiren in soorte 160: van de slegtste. —
+[single] Tot Tutucorijn.
+[single] om te Blijven
+[single] Teversenden. —
+[single] volgens voorsz: stelling 28: onbequame donderbussen
+[single] behooren in voorraad 86:
+[single] sneiphanen soo roers als
+[single] donder bussen te hebben, en
+[single] nademaal niet meer dan
+[single] 3: werd bevonden, soud
+[single] dat comptoir nogh 83.
+[single] bequame moeten geson„
+[single] „den werden. —
+[single] 31: musq=
+[single] Sacron, Creuit
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. — - jd:r ƒ 45. —. —
+[single] 1708
+[single] 172 Junij
+[single] „ dE Comp: over 't restant van 15. d:os„
+[single] Somma parken 30:
+[single] 27:—: —
+[single] ƒ 15„
+[single] 2. 10. jd„s„ 12. 10—
+[single] ƒ 2. 10.
+[single] 90.
+[single] „ - – „ 45.
+[single] 1202
+[single] van voorm:
+[single] ir berustende
+[single] December a. o. 1706.
+== NL-HaNA_1.04.02_1723_0094 | #94 | sides: single | lines: 44
+[single] om te Blijven
+[single] Te versenden. —
+[single] 31: musquets, ten ware haar 47: onbequame: —
+[single] versoek mogt werden toe ge„
+[single] „staan, alle deselve te trouc„
+[single] „queren tegen 60: bequame
+[single] snaphanen. . . ..
+[single] . 15: onbequame.
+[single] 6: pistoolen. .
+[single] 60: zijd geweiren, niet raad„ 8.—
+[single] „saam volgens voorstel
+[single] van daar:) alleen maer
+[single] 17: te laaten temeer ner„
+[single] „gens komt teblijken datt„
+[single] er eenige op de vaartuijgen
+[single] 42: baijonets.
+[single] 8: hoble pieken werden 20 versogt. 45: heele ) pieken onbequaem
+[single] 32: halve pieken. . . . . 2: halve /en door worm door Eeten
+[single] Korter t'samen trecking van de vooren
+[single] geciteerde geweiren. —
+[single] roers en donderbusschen. —
+[single] Bij d' wapenkamers te blijven
+[single] tot Colombo 1304. . . . . . . 300: bequame
+[single] „ gale. . . 424:. . . . . . . . 23: geborsten
+[single] 75/190: inwesen)
+[single] .11: onbequame
+[single] „ Iaffanap:t 475 2285: tekort '5
+[single] „ tricoenm: 105:. .-
+[single] - - . 48: ontramponeerde
+[single] .
+[single] 3: inwesen,
+[single] „ tutucorijn: 86:
+[single] 83: tekort. . . 28: onbequame
+[single] 410: daar van 110: onbequa„
+[single] 2394:
+[single] over. —
+[single] Bedragende 2394: snaphaan roers ^ waar aan
+[single] no.
+[single] 368: tekort, komen, als 285: tot Iaffanapat:
+[single] en 83: tot tutucorijn, om dewelke te suppleren
+[single] sal konnen dienen 300: bequame hier tot
+[single] Colombo.
+[single] zijn. . . . .
+[single] .
+== NL-HaNA_1.04.02_1723_0095 | #95 | sides: single | lines: 59
+[single] 1110
+[single] over. —
+[single] Colombo over, en daar beneven uijt de ver„
+[single] „gaderde ontramporeerde nog 68: sien tever„
+[single] „vaardigen: maar de 60: musquetten wegens
+[single] dewelke van tutucorijn versoek werd gedaan
+[single] om tegens snaphanen te troucqueren, zullen
+[single] met believen van uEdele agtb:) aldaar
+[single] moeten continueren, aan gesien beijde gale
+[single] en Iaffanapatnam minder snaphaan
+[single] roers en meer musquetten behouden als ons
+[single] eerste generale stelling quam te dicteeren.
+[single] Musquetten
+[single] Blijvende
+[single] over.
+[single] 77 waarvan 2220: met lange
+[single] tot colombo 676:. . . . 237¼. slooten en 110: singaleess. —
+[single] Dale 464. . . . . 967: daar van 54: gesprongen
+[single] „ Iaffanap:t 400. . . . . 450: daar van 400: ouwerwets
+[single] „ trincoenem„t 90. . . . 170: daar van 110: ontrampon=t
+[single] „ tutucorijn„ 31. . . . . 47: onbequame. —
+[single] „ 1661. . . 4211: te versenden en vernietigen
+[single] bedragende 1661: musquetten die bij de wapenkamers
+[single] behooren te blijven, behalven die indagelijx ge„
+[single] „bruijk zijn, die op de helft van't manschap werd
+[single] gerekent, en ongevaar 1000: zullen bedragen
+[single] 'twelk soo net niet kan werden gegift, om dat
+[single] van alle subalterne guarnisoenen zulx
+[single] niet bekent werd gemaekt.
+[single] Pistoolen
+[single] Blijvende
+[single] tot Colombo 200: - . . 327. —
+[single] Gale. 55:. . .
+[single] Jaffan: - - 50:. . .
+[single] „ tutucorijn. : 6:. ..
+[single] trincoenm: 21:: . . 5: ontramponeert
+[single] 15: onbequaam
+[single] Zijdgeweiren.
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. d:r ƒ 45. —. —
+[single] 1708
+[single] 17e Junij
+[single] Vacten, Crait
+[single] „ dE Comp: over 't restant van 15. d:os„
+[single] Somma parken 30:-
+[single] â ƒ 2. 10: d„o„ 12:10—
+[single] ƒ 2. 10.
+[single] 15.
+[single] ƒ
+[single] van voorm.
+[single] berustende
+[single] December a. o. 1706.
+[single] 90.
+[single] „ – – „ 45. —
+[single] 1202
+[single] 27
+[single] 27.
+[single] 332:. . . 374: —
+== NL-HaNA_1.04.02_1723_0096 | #96 | sides: single | lines: 40
+[single] Zijd geweiren
+[single] Blijvende
+[single] over.
+[single] tot Colombo 2000:.
+[single] 1500: ongevaar of na
+[single] datter bequame baijonts
+[single] sal werden gevonden
+[single] gale
+[single] 880:. . . . 469: daar v: 388 onbequ:
+[single] Jaffana 965:-. .:
+[single] „
+[single] „ trincoenem: 200.. . . . . 160: ontramponeerde
+[single] „ tutucorijn 60. . . . . 8: onbequame. —
+[single] 2137:. —
+[single] 410 5
+[single] Zijnde dit alsoo het Essentieelste, waartoebesorgt
+[single] moet werden door de gene die zulx Incumbeert
+[single] alle benoodigtheden pro-rato, namentlijk.
+[single] bandeliers, patroon tassen, slinten, hout draag
+[single] banden, riemen &:a zijnde op ijder plaats aan
+[single] pieken karbijns, mosquetons, en andere benoo„
+[single] „digt heden, soo veel gelaten als de vrunden selfs
+[single] noteren, werdende nergens gerekent de hand
+[single] geweiren bijde vaartuijgen gehoorende. —
+[single] Belangende 't gunt aandees of geene guarni„
+[single] „soen mogte komen temanqueren teweten
+[single] van kleijnigheeden, gelijk die van Iaffanap:t
+[single] diergelijken notificeren, zulx behoort ge„
+[single] „desereert te blijven tot den Iaarlijxen Eijsch
+[single] voor soo verre van ijder plaats werd opgegeven
+[single] wat onbequame geweiren aldaar berusten soo
+[single] wel als andere kleijnigheden soo werd het selve
+[single] hier vooren aangetogen, zullende egter soo
+[single] Exact niet gestelt zijn, of daar zal nogh
+[single] veel gevonden werden om bequaam te
+[single] maaken, gelijk van tricoenmale duijdelijk
+[single] werd aan gewesen, derhalven sal de sorteering
+[single] en
+[single] ll
+== NL-HaNA_1.04.02_1723_0097 | #97 | sides: single | lines: 35
+[single] 1111
+[single] en afsondering van't gene t'eenemaal
+[single] onbequaam is, dan Eerst nabehooren konnen
+[single] geschieden wanneer het hier op de wapen.
+[single] kamer sal zijn gebragt.
+[single] Hiermede willen verhopen u Ed=le agtb:r
+[single] Jntentie te hebben bereijkt verblijven
+[single] met alle bedenckelijke Eerbied (onderstond)
+[single] wel Edele gestr: Heer, u Edele agtb: ge„
+[single] „hoorsamste dienaren (was getekent). /
+[single] H: f: bergman, I: C: Soorzee, I: J: de Roij
+[single] 9:e da Costa Claas Schot, en G„t Heijman
+[single] (in margine) Colombo den Jult=o Maart
+[single] anno 1706.
+[single] Accordeert
+[single] Wat
+[single] CClerq.
+[single] Sacren, Creaet
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. park: a ƒ 3. —. jd:r ƒ 45. —. —
+[single] 170 172 Juni
+[single] „ dE Comp: over 't restand van 15. d:os „ „ - - „ 45. —
+[single] Somma parken 30:
+[single] 90.
+[single] ƒ 2. 10.-
+[single] â ƒ 2. 10. j d„o 12. 10—
+[single] ƒ 15„
+[single] van voorm.
+[single] berustende
+[single] December a. o. 1706.
+[single] 1202
+[single] coll.
+== NL-HaNA_1.04.02_1723_0098 | #98 | sides: single | lines: 1
+[single] No: 40.
+== NL-HaNA_1.04.02_1723_0099 | #99 | sides: single | lines: 41
+[single] 1112
+[single] Den Oppercoopman en Hooft administrateur
+[single] d' E: Gerrit Huijgelbosch
+[single] Nevens. —
+[single] de capitains d' E: Hans fredrik
+[single] Bergman, Jan Christiaansz,
+[single] Toor Zee, en Iacob Jansz de Roij
+[single] op onse ordres hebben den Capitain d' E:
+[single] Ian Christiaansz Toorzoo, en Capitain
+[single] Luijtenant stafforts sub dato 9:e august:s
+[single] 1703: gediend van schriftelijk rapport
+[single] en daar bij aangewesen wat voorraad
+[single] van ammonitie en viveres bij een
+[single] onverwagt vijandelijke belegeringe
+[single] de respective guarnisoenen alomme
+[single] onder desen gouvernemente zouden
+[single] benodigen. haar E„s nemen de quanti„
+[single] „teijt van speck en vleesch als volgt
+[single] 102: vaten vleesch, en
+[single] 130: _„o speck zoo wij vermijnen voor
+[single] een Iaar. —
+[single] seggende haar E„s zulx alleen temoe„
+[single] „ten dienen voorde manschap op colombo
+[single] en dies onderhorige buijten posten
+[single] navolgens
+[single] N
+[single] 24:' 8ber: p:r diverse personen over 't genot van 15. pack: a ƒ 3. — - j d:r ƒ 45. —. —
+[single] 1706
+[single] 177 Junij
+[single] Fachen, Credit
+[single] „ dE Comp: over 't restant van 15. d:os „ „ - - „ 45. —
+[single] Somma Barken 30:-
+[single] .
+[single] ƒ 90.
+[single] ƒ 2. 10.—
+[single] â ƒ 2. 10./ d„o„ 12:10—
+[single] ƒ 15.-
+[single] B van voorm
+[single] ir berustende
+[single] DDecember a. o. 1706.
+[single] 1202
+== NL-HaNA_1.04.02_1723_0100 | #100 | sides: single | lines: 37
+[single] navolgens 't reglement sterk. —
+[single] 1679 Coppen Comp:s dienaaren teweten
+[single] op Colombo - - - - - - coppen 1199.
+[single] „ nigombo - - - - - - - - „ 212.
+[single] caliture. . . . . . . „ 118.
+[single] „
+[single] Hangwelle. .
+[single] „
+[single] Calpettij.
+[single] „ 78.
+[single] 72.
+[single] „
+[single] mu-
+[single] als vooren Coppen. „ 1679.
+[single] d Edele heer raad ordinair van India en
+[single] gouverneur deses Eijlands Laurens Pijll
+[single] en raad bij haar missive aan zijn Hoog
+[single] Edele den heere Commissaris Hendrick
+[single] adriaan van Rheede (L:M:) dato 10: Iulij
+[single] 1688. calculeeren ten tijde van oorloge
+[single] de benodigheijd voor 2000: coppen. op
+[single] 180: vaten vleesch
+[single] 120: _„o speck in ses maanden.
+[single] zoo wanneer het volk driemael terweek
+[single] vleesch en speck quamen tegenieten en ijder
+[single] reijs ¾: lb: teweeten twee vleesch en een speck
+[single] dogh
+[single] „dagh „ word gemeent dat bij zodanigen occag
+[single] speck beter, dan vleesch te zullen wesen,
+[single] en langer te konnen duiren, werdende alsoo
+[single] om reden doenmaels bij gebragt de voore:
+[single] „staande parthij geminderd en g'oordeele
+[single] dat de guarnisoenen, van Colombo, en
+[single] Negombo
+[single] .
+[single] :

@@ -1,0 +1,3008 @@
+== NL-HaNA_1.04.02_8149_0001 | #1 | sides: single | lines: 5
+[single] 1688
+[single] 64 1 1
+[single] k
+[single] 1
+[single] 1
+== NL-HaNA_1.04.02_8149_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8149_0003 | #3 | sides: single | lines: 6
+[single] 1 dal 9 stuk
+[single] Temeene Ternaatsche
+[single] Papiren
+[single] voor
+[single] Zeeland
+[single] 1deel 2
+== NL-HaNA_1.04.02_8149_0004 | #4 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8149_0005 | #5 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8149_0006 | #6 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8149_0007 | #7 | sides: single | lines: 9
+[single] Copia te
+[single] Gemeene Missive van
+[single] het
+[single] Ternaatse Ministerie
+[single] aan
+[single] Hunne Hoog Edelheeden
+[single] ged„t 20 Augs A„o 1789.
+[single] N=o 8
+[single] N„o„ 4
+== NL-HaNA_1.04.02_8149_0008 | #8 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8149_0009 | #9 | sides: single | lines: 28
+[single] rip
+[single] Copia gem:
+[single] Batavia
+[single] Aan zijn hoog Edelheid.
+[single] n Hoog Edele Gestrenge Groot Agtbare Wijdgebiedende Heer
+[single] M=r Willem Arnold Alting
+[single] Gouverneur Generaal
+[single] benevens
+[single] De WelEdele Gestrenge Heeren
+[single] Raaden van Nederlands India C„a C„o C„
+[single] ele Gestrenge, Groot Agtbare, Wijdgebiedende Heer
+[single] En
+[single] WelEdele Gestrenge Heeren
+[single] on
+[single] Wij hebben den 27: en 29: April h„o a' deese rheede
+[single] zien besteevenen in margine genoemde schip, en het
+[single] vaartuig van den hier remoreerende Maccassaars
+[single] Luit„ Ibrahim, zo meede den 2:e Meij van Java
+[single] zien op dagen de Barcq de verwagting.
+[single] §2: met de twee Eerst gem: kielen ontfingen wij uwer Hoog
+[single] Edelheedens genenereerde gemeene en secreete orgineele
+[single] en
+[single] „
+[single] E
+[single] E
+[single] No 8
+== NL-HaNA_1.04.02_8149_0010 | #10 | sides: single | lines: 1
+[single] 1
+== NL-HaNA_1.04.02_8149_0011 | #11 | sides: single | lines: 26
+[single] Batavia
+[single] Copia gem:
+[single] Per het scchip
+[single] De Triton
+[single] Aan zijn hoog Edelheid.
+[single] Den Hoog Edele Gestrenge Groot Agtbare Wijdgebiedende Heer
+[single] M=r Willem Arnold Alting
+[single] Gouverneur Generaal
+[single] benevens
+[single] De WelEdele Gestrenge Heeren
+[single] Raaden van Nederlands India C„a C„o C„o
+[single] Hoog Edele Gestrenge, Groot Agtbare, wijdgebiedende Heer
+[single] En
+[single] WelEdele Gestrenge Heeren
+[single] Wij hebben den 27: en 29: April h„o a' deese rheede
+[single] zien besteevenen in margine genoemde schip, en het
+[single] vaartuig van den hier remoreerende Maccassaars
+[single] Luit„ Ibrahim, zo meede den 2e: Meij van Java
+[single] zien op dagen de Barcq de verwagting.
+[single] §2: met de twee Eerst gem: kielen ontfingen wij uwer Hoog
+[single] Edelheedens genenereerde gemeene en secreete orgineele
+[single] en
+[single] e
+[single] 8
+[single] „
+== NL-HaNA_1.04.02_8149_0012 | #12 | sides: single | lines: 29
+[single] en duplicaat rescriptie d: d: 30: De c: 1788: en daartoe
+[single] specteerende Bijlagen Conform het register
+[single] §3: zijnde gem: schip de Triton bij aankomst bevonden
+[single] diep te gaan 20. ½: voor en 21: ½: voeten agter.
+[single] §4: Het zelve heeft op de herwaards reijse geen aanteekend
+[single] waardige ontmoetingen gehad.
+[single] §5: Aan de overheeden van het schip De Triton, hebben
+[single] wij op hunne ter Resolutie van den 30: Meij g'in„
+[single] sereerde schriftelijk gedane instantie in natura
+[single] doen restitueeren, de door hun meerder verstrekte
+[single] dan op Batavia en Java ontvangen randcoenen
+[single] voor de ter dienst: westeering alhier meede gekre„
+[single] „gen 10: zeevarende en 40: militairen, te maken.
+[single] 277½: lb: speek
+[single] 370: — „ vleesch
+[single] 3083:- „. Rijst Javase
+[single] 61:6:— „ Cadjang groene
+[single] 185:— „ zuiker
+[single] 185: — „ Tamarinda
+[single] 30: — k„n en 3 n„ is zijn Hollans
+[single] 27: — „ „ 7: „ olijven olij
+[single] 61:2 1/3: lb: Booter
+[single] 246: /3: „ visch
+[single] 80: 1/6: k„n Caabse wijn,
+[single] 185: — „ Arak.
+[single] §E: Hebbende de Europeese, Chineese, en javaansche
+[single] zeevarende van dien Bodem Twee maanden Gagie
+[single] genoten.
+[single] 87:
+== NL-HaNA_1.04.02_8149_0013 | #13 | sides: single | lines: 27
+[single] §7: Dewelke zijn bekend gesteld bij de intriplo overko„
+[single] mende onkost- Reekening die het generaal be„
+[single] „draagt een montant van ƒ3181: 12:—
+[single] §8: voorts brengen wij met leedweesen ter kennis
+[single] van uwe Hoog Edelheeden, dat, de overheeden van
+[single] genoemde schip bij resumtie der sub N„o
+[single] overgaande bevinding op de uit geleeverde La„
+[single] „ding, wel tot ƒ9724:—:8: belasten eenlijk met ver
+[single] inkoops, gecrediteerd zijn geworden, schoon sij aan
+[single] de defectuende uitleevering van diverse artikelen
+[single] juist zoo groote schuld niet schijnen te hebben,
+[single] waarom volgens ons op die bevinding in
+[single] margine aangeteekende besluiten aan deselve
+[single] favorable voorschrens word verleend tot onthef„
+[single] „fing voor al de notte waren en het spech en vleesch be„
+[single] treffende, waar van de Netto aangeschreeven
+[single] ponden door de Negotie bedienden alhier ingenomen,
+[single] dog nimmmer sodanig verantwoord worden, 't gunt
+[single] bij het sluiten der Negotie Boeken jaarlijks eene
+[single] te kortkomst in de dispens veroorsaakt en wes wegens
+[single] oodmoedigst versoeken dat g'elucideert mogen worden.
+[single] § 9: De uitgevoerde Lading van Brenger bestaat
+[single] in N„o 1: Een kisje met 310 1/8: R„m stooff goud w„t
+[single] 27 l: B„to Een kist met 200: Bladen Bord Papier
+[single] in een Cas N„ 3: w„t B„t 279: lb:
+[single] 20 p„s
+[single] 8
+== NL-HaNA_1.04.02_8149_0014 | #14 | sides: single | lines: 28
+[single] 20: ps Metale Canons ao v: lb:
+[single] 28: „ ijzere _o „ 1: ld:
+[single] _o „ 3: lb:
+[single] 8: „
+[single] o „ 4: lb:
+[single] 2: „
+[single] „ 2: 18:
+[single] §10: sullende weeg„s gemelde terug gesonden worden„
+[single] „de Canons reeden worden gesuppediteerd bij deese
+[single] eerlang te volgen generale advisen.
+[single] S11: De sub §9: gementioneerde 200 Blaaden bord
+[single] Papier worden terug gereekend.
+[single] sijn gevonden.
+[single] „beijde in 7: kast 1 7/40.
+[single] het aangeskcreeven W„t gent gehoudende heb sonder afpakbriefje, in
+[single] welke kas eigenlijk 25: Riemen klein formaat
+[single] papier beslooten hadden moeten leggen navolgens het
+[single] der bevinding aftergevoegde Berigt van Expresse
+[single] gecommitteerdens.
+[single] §12: Bedragende het een en ander met eenige aan„
+[single] „reekening Posten te somma van ƒ65831:6:1:—
+[single] §13: De koningen van Ternaten en Tidor: versogt heb„
+[single] bende hunne Brieven en geschenken aan uwe
+[single] Hoog Edelheedens met deese gelegenheid te
+[single] mogen versenden, hebben wij zulx niet kunnen
+[single] weigeren, en gaan deselve dus tans over als van
+[single] van
+[single] 2: „
+== NL-HaNA_1.04.02_8149_0015 | #15 | sides: single | lines: 32
+[single] 6
+[single] van zijn Hoogheid den koning van Ternaten
+[single] Aan zijn Hoog Edelheid
+[single] 1: Gladharige mansslaaf Souara
+[single] _o Slavin Senghadje
+[single] 1:-
+[single] van Eevengem: koning en Rijksgrooten,
+[single] Aan uwe Hoog Edelhedens
+[single] 1: Gladharige mansslaaf Laoedja
+[single] 1:
+[single] _o Hatibie
+[single] _o Waijlako
+[single] _ Tete
+[single] 14: Loeris
+[single] 6: Cacatoeas
+[single] van Prins Terlucco
+[single] 1: krul harige Slavin Rasamalla
+[single] van Prins Schoonderwoordt
+[single] 1: Gladhairige slavin Jabanoerde
+[single] van Prins Sarkan
+[single] 1: Gladharrige mansslaaf Hamissie
+[single] van Prins Jassim
+[single] 1: Gladhairige mansslaaf Jiko.
+[single] van Prins Danot
+[single] 1: Gladhairige mansslaap Gaij
+[single] 1:
+[single] van
+[single] e
+[single] N 8
+[single] -
+[single] 1:
+== NL-HaNA_1.04.02_8149_0016 | #16 | sides: single | lines: 26
+[single] van zijn Hoogheid den koning van Tidor.
+[single] Aan zijn Hoog Edelheid
+[single] 1: Gladhairige mansslaaf Leidigado.
+[single] met een Loeri en 35: Paradijs vogels
+[single] van even gem: koning en Rijksgrooten
+[single] Aan uwe Hoog Edelheedens
+[single] 1: krulharige mansslaaf Clim
+[single] 1: Gladhairige _o Jaroran
+[single] 1: Krul _o slavin Miasirigea
+[single] 1: _ _o
+[single] _o Samatiasa
+[single] 4: Loeris
+[single] 55: Paradijs Vogels en
+[single] 40: Groene, witte, en roode Cacatoeas
+[single] Aan zijn Hoog Edelheid
+[single] van Prins Alting
+[single] 1: Gladhairige mansslaap Soebajo
+[single] 1: Loerie en 25: Paradijs vogels
+[single] van Princen Mossel, Hassam en Abdul Haling
+[single] 1: kuilharige mansslaap Songinga
+[single] met een Loerie
+[single] van de Prinken Alladedien, Djalaloedien, en
+[single] Abdul Rojal
+[single] 1: kuil harige vrouw slaap Nonira Gogoro
+[single] met 1: Loerie
+[single] van
+== NL-HaNA_1.04.02_8149_0017 | #17 | sides: single | lines: 28
+[single] van de Pincen Saijnaal Abidiim, Hassamoeken
+[single] en Saijnoedien
+[single] 1: kuilhairige Slavin Sangari Ngonij
+[single] met v: Loerie
+[single] Sijnde alle voormelde Paradijs vogels tot
+[single] 115: stuks: beslooten in een kasje N„o 2: weg„s B„t 41½
+[single] Ponden
+[single] §14: Ook komen hier meede over ses slavin en Twee kinderen
+[single] in name
+[single] Hlamissie-:
+[single] Djoemoetie manslaven
+[single] Saptoa - -
+[single] Algoeroe - - -
+[single] Iudasian met haar kindt vrouw slavin
+[single] Boengan Memoeroe --
+[single] die door den koning van Tidor na herwaards zijn ge„
+[single] „tonden, om te dienen in steede van de geene welke door
+[single] gem: vorst van Batavia uit het quartier heeft
+[single] meede gekreegen in welke gerestitueerd wordende
+[single] Slavin voorlederbaar verklaard sijn blijkens Deesen
+[single] in Copia versellende Berigt van Expresse gecom„
+[single] mitteerdens.
+[single] §15: Alle deese slavin sijn door den Casteels opperchirur„
+[single] gijn en Hospitalier de Boser gevisiteerd en
+[single] volgens sijn bienweg„s in Copia overkomende schrif„
+[single] „telijk rapport sijn deselve uiterlijk gesend
+[single] en
+[single] 8
+== NL-HaNA_1.04.02_8149_0018 | #18 | sides: single | lines: 24
+[single] en met wel geproportineerde en tot werk bekwa„
+[single] „meleede Maten voor zien bevonden!
+[single] §16: Terwijl ter g'eerde dispositie van uwe Hoog Edel„
+[single] „heden in arrest overgaan 11: Dorps hoofden van
+[single] Maba weda en Pattanij waar van eenige den
+[single] rebelleerende Prins Noekoe bij zijne aufuge
+[single] gevolgd en andere tot hem naderhand overgelo„
+[single] „pen terwijl alle deselve in voorleeden na jaar
+[single] te salwattij opgevangen sijn door de na der„
+[single] waards met eijgen vaartuigen in Expeditie
+[single] uitgegaan Tidoreesen:
+[single] §17: En omtrent, dewelke de gouverneur aan geno„
+[single] men heeft uw Hoog Edelheeden te onderhouden in sij„
+[single] „nen deese versellende Aparte Brieff.
+[single] §18: gedagte hoofden sijn genaamd namelijk die
+[single] van Maba
+[single] Senghasje Bitjolie Joeroemoedi.
+[single] Kimalaha Gotoassie Swengie
+[single] _o Samaffoe Tergappa
+[single] Calim Lamboij
+[single] van weda
+[single] Senghadje Samolla radjong van Battavij
+[single] kimalaza kipane Abdart
+[single] kimolaha
+== NL-HaNA_1.04.02_8149_0019 | #19 | sides: single | lines: 38
+[single] Kumalaha Kipane - Abdul
+[single] d„o
+[single] Marotte - Mangine
+[single] do
+[single] Welo - — Baksawaij
+[single] d„o
+[single] d„o
+[single] kisuan - Tjapatie
+[single] d„o
+[single] Tipeleijo - Abdul Basier en Barkattij
+[single] §19: wij versoeken u Hoog Edelheedens met betaling te wil„
+[single] „len honnoreeren de door ons op hoogst deselve sub
+[single] dato 15: hujus mensie getrokken wissels als.
+[single] Een tweede wissels brieff van den Capitein ter Zee
+[single] en Equipagie op zigtir Daniel van Waningen
+[single] betaald aan den oud Luit„, der Burgerij Christiaan
+[single] Fredrik van Holst-groot
+[single] -- rd„s 1100:—
+[single] Een d„o van den Fiscaal en winkelier
+[single] George Fredrik Durr aan Pieter
+[single] van de weerth, Jun„r onderkoopman Cra „ 150: —
+[single] Een d„o van en aan als even – – – - – – – – „ 300: —
+[single] „ „ „ den oud Cap„n der Burgerij
+[single] Anthonij van der Plas
+[single] en Chinees Tankonko.
+[single] aan den Cap„n ter zee Js„
+[single] Bakker – – – - - - - - - „ 2762: 36:
+[single] den Cap„n, ter zee J„s Bakker
+[single] aan hem zelve of bij overlij„
+[single] „den op zee aan C„l H„k Becht
+[single] e C„n Louis Arnold, scheepen
+[single] te Batavia – – – – – – – „ 8000: —
+[single] den Cap„n ter zee J„s Bakker
+[single] Capn Luit„t H„k D' Jong,
+[single] E
+[single] N8
+[single] d„o
+[single] „ „ „
+== NL-HaNA_1.04.02_8149_0020 | #20 | sides: single | lines: 31
+[single] en opperchirurgijn Jan D' Boser
+[single] aan Indregs Cantebeen i: C:
+[single] Atuerbag en C„s Loss- - – – – rd„s 1468:41:8
+[single] Een d„o van den opperchirurgijn Jan D' Boser,
+[single] aan Andreas Cantebeen — – — „ 616:—
+[single] Een d„o „
+[single] den Chinees Tankonko aan den - - „ 1329:22:
+[single] §20 waar voor de in Cassa getelde Contanten in't hoofden
+[single] Capitei ter zee T: Bakker
+[single] van het door ons g'emaneerd Placaat teegens den
+[single] uitvoer van geld, zonder Agio in ontfangen sijn, zullen„
+[single] „de de reedenen van dien bij onse nadere worden gede„
+[single] „tailleerd
+[single] Aan de sedert A„o 1782: alhier ten genoegen dienst
+[single] gedaan hebbende en tot op 36: koppen versmolten
+[single] halve Comp„s Balijse militairen hebben wij om
+[single] reeden gaarne terug wilden keeren en zij met de in„
+[single] dienst neeming van Manadose recruten, des
+[single] noods ligt geremploreerd konnen worden:
+[single] deese geleegenheid transport na Costij verleend te
+[single] weeten aan
+[single] 2: Sergeanten
+[single] 2: Corporaals en
+[single] 29: gemeene
+[single] na dat de Luit„ benev„s Twee gemeene van
+[single] dat Corp op hun versoek uit dien st ontslagen
+[single] sijn geworden den hier verblijff te houden dus in 't
+[single] geheel maar 33: Balireesen overkomende die
+[single] §21:
+[single] alles
+[single] .
+== NL-HaNA_1.04.02_8149_0021 | #21 | sides: single | lines: 28
+[single] 11
+[single] alles genoten hebben wat hun door de Comp„e is
+[single] toegelegd tot onder ult„o julij L: L: vide deesen
+[single] agter gevonden quitantie
+[single] §: 22: Den Extra ordinair vuurwerken Pieter Neels
+[single] door dus op zijn versoek naar Batavia met
+[single] stilstand van gagie verloss zijnde gaat deselve
+[single] met deesen over:
+[single] §23: zoo meede ses Europeese militairen die hun ver„
+[single] „land uit gediend en geen Nieuw hebben willen ingaan
+[single] §24: Met en benevens de hier woonagtige Inlanders
+[single] Djalaloedien en twee sijner Lijffeigenen dog
+[single] buiten kosten van de Compagnie.
+[single] §25: van den eerstgeteekende in Cassa op Assignatie
+[single] ne Neederland ontvangen sijnde 2742:½: Du„
+[single] catons gecartelde; om, niet believen van uw Hoog
+[single] Edelheeden ten behoeve van den welEd: Gestrenge
+[single] Heer Johannes Siberg Raad ordinair
+[single] van Neederlands India J„r f„o aan de Heeren
+[single] Abraham Moskestier en zoonen en willem
+[single] Sebastiaan Boers Bailjun schout en
+[single] Secretaris te Hazers woude, ordre of Erve
+[single] weeder met ƒ 8255:12:— te werden uitgekeerd;
+[single] zijnde de Ducaton 80. stuivers, ingevolge erlangde
+[single] qualificatie bij gevenereerde Circulaire Let„
+[single] teren van den 22: Julij 1783: en welke montant
+[single] het
+[single] 8
+== NL-HaNA_1.04.02_8149_0022 | #22 | sides: single | lines: 16
+[single] het Comptoir generaal ten goede word gebragt
+[single] per Factuur
+[single] Hier meede afbreekende betuigen wij met
+[single] diepe Eerbied en veneratie te zijn:
+[single] /:onderstond:/ Hoog Edele, Gestrenge Groot
+[single] Agtbare wijdgebieden de Heer en wel Edele
+[single] gestrenge Heeren. /:Lager:/ uwer Hoog Edel„
+[single] heedens seer oodmoedige en gehoorsame
+[single] Dienaaren /:was geteekend:/ Alexander
+[single] Cornabe, B: S: wenthold, J: G: W: Heinrich,
+[single] G: F: Durr, W: F: Mersz en Daniel
+[single] gelwight /:in margine:/ Ternaten
+[single] in 't Casteel Orange den 20: Aug„s 1789:
+[single] Accordeert
+[single] J3OGeertant
+[single] Toot
+== NL-HaNA_1.04.02_8149_0023 | #23 | sides: single | lines: 2
+[single] No 21
+[single] Coi
+== NL-HaNA_1.04.02_8149_0024 | #24 | sides: single | lines: 16
+[single] het Comptoir generaal ten goede n
+[single] per Factuur
+[single] Hier meede afbreekende bete
+[single] diepe Eerbied en veneratie te zijn
+[single] /:onderstond:/ Hoog Edele, Gestren„
+[single] Agtbare wijdgebieden de Heer,
+[single] gestrenge Heeren /:Lager:/ uwe
+[single] heedens seer oodmoedige en gehd
+[single] Dienaare /:was geteekend:/ A
+[single] Cornabe, B: S: wenthold, J: G:
+[single] G: F: Durr, W: F: Mersz en
+[single] gelwight /:in margine:/ Te
+[single] in 't Casteel Orange den 20: i
+[single] Accordeer
+[single] J3O GeertVr
+[single] To
+== NL-HaNA_1.04.02_8149_0025 | #25 | sides: single | lines: 1
+[single] No 8
+== NL-HaNA_1.04.02_8149_0026 | #26 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8149_0027 | #27 | sides: single | lines: 9
+[single] Copia
+[single] Gemeene Rescriptie
+[single] Aan Hoog Edelheedens
+[single] d: d: 15: September 1789.
+[single] N=o 8
+[single] No 1
+[single] „
+[single] E
+== NL-HaNA_1.04.02_8149_0028 | #28 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8149_0029 | #29 | sides: single | lines: 19
+[single] 13
+[single] Batavia
+[single] Aan zijn Hoogheid
+[single] delen, Gestrenge, groot Agtbare wijdgebiedende Heer
+[single] M„r Willem Arnolt Alting
+[single] Gouverneur Generaal
+[single] Benevens
+[single] de WelEdele Gestrenge Heeren
+[single] Raaden van Neederlands India
+[single] C=r C=o C=o
+[single] Ca
+[single] og Edele, Gestrenge, groot Agtb: Weijd gbledende Jer
+[single] WelEdele Gestrenge Heeren!
+[single] 6. Over den inhoud der van Uwe Hoog Edelheeden, deesen
+[single] Jaare ontfangen seer gevenereerde missives, gedateerd 22
+[single] Januarij en 30. Decemb: 1788. ter onser sessie van den 23: Julij
+[single] E: L: gebesoigneerd hebben en sullen wij met verloff van
+[single] Hoogst
+[single] No 8
+== NL-HaNA_1.04.02_8149_0030 | #30 | sides: - | lines: 0
+== NL-HaNA_1.04.02_8149_0031 | #31 | sides: single | lines: 20
+[single] 13
+[single] Inleiding
+[single] Batavia
+[single] Aan zijn Hoogheid
+[single] Den HoogEdelen, Gestrenge, groot Agtbare wijdgebiedende Heer
+[single] M„r Willem Arnolt Alting
+[single] Gouverneur Generaal
+[single] Benevens
+[single] de WelEdele Gestrenge Heeren
+[single] Raaden van Neederlands India
+[single] C=o C=o C=o
+[single] Hoog Edele, Gestrenge, groot Agtb: Weijdgbledende er
+[single] WelEdele Gestrenge Heeren!
+[single] §26. . Over den inhoud der van Uwe Hoog Edelheeden, deesen
+[single] Jaare ontfangen seer gevenereerde missives, gedateerd 22
+[single] Januarij en 30. Decemb: 1788. ter onser sessie van den 23: Julij
+[single] E: E: gebesoigneerd hebben e sullen wij met verhoff van
+[single] Hoogst
+[single] N=o 8
+[single] nng
+== NL-HaNA_1.04.02_8149_0032 | #32 | sides: single | lines: 21
+[single] 't passeerde in voorleeden
+[single] Jaar
+[single] Hoogst deselve en met refert aan onsen p„r het schip De
+[single] Tritor versonden voorbrieff van den 20. Aug„s de eere
+[single] hebben daarop te rescribeeren en voorts verslag te doen
+[single] onser verrigtingen in 's meesters dienst nade afsending
+[single] onser laatste generale advijsen.
+[single] Felicitatien §27. Den Edele Heer Johan Gerard van Angelbeek met desselfs
+[single] optreeding de Raad ordinair zoo meede de wel Edele Heeren
+[single] Pieter Gerardus de Bruijn Barend, Reijke en Jan Henbrik
+[single] Wiegerman met derselver promotie tot raaden Extra ord=re
+[single] van Neederlands India voor af congratuleerd hebben, onder harte„
+[single] „lijken Wensch dat hun WelEd: Gestr: deese hoog aansien lijke amp„
+[single] „ten tot welzijn van de maetschapjen, en tot eijgen Contentement bekeven„
+[single] „den mogen!
+[single] Domkzegging voor § 28. terwijl voors onsen verschuldigde dankbetuijgingen afleggen voor
+[single] de onverdiende goedheid waar meede hebben gelieven te passeeren
+[single] onse voorjarige behandelingen in welke wij weeder imploreeren,
+[single] omtrent het geene nadien tijd door ons is verrigt, en thans
+[single] ter kennise van UW oog delheedens gebragt word.
+[single] § 29.
+== NL-HaNA_1.04.02_8149_0033 | #33 | sides: single | lines: 24
+[single] stellengaan over
+[single] De geordonneerd 8 26. Saagst dewelke ten aanzien van Brieven en Papieren gelieven te wee„
+[single] „ten, dat wij inschuldige observantie van het aangeschreevene nopens
+[single] de besorging van alle Boeken en verdere Papieren welke aan de
+[single] kamers Amsterdam ee Zeeland jaarlijks gesonden worden,
+[single] ook een stel aan de kamors van het noorder en zuijder Quartier
+[single] te zenden, ende zelve te addresseeren het eene aan de kamer
+[single] Delft, en het andere aan de Kamer Hoorn, alaanstonds het
+[single] mogelijke in 't werk hebben gesteld, om aan gem: ordre te voldoen,
+[single] gelijk wij dan ook op Verhoog der Negotie en Soldij Bediendens
+[single] dat met hunne aanhande zijnde pennisten zodanig werk
+[single] niet konde volvoeren ter onser sessie van den 5: Maart Jj: l: aan
+[single] eerst ged„e hebben toegestaan het opantbod der bij het davipatie werk
+[single] g'emploijeerde tweede Commissianten den Boekhouder Nariaan
+[single] Wiggers en adsistent Dirk van oostes met toevoeging van de Boek„
+[single] houder Fredrik Meurer Josicas Gerardus Duwman.
+[single] §30. Gelijk meede aan den soldij Boekhouder Jacobus Josephus Barten
+[single] stellen
+[single] eijnde deselven in gereedheid konde brengen na het voorschrifft van
+[single] het opper hoofd vans't Generaale Soldij Comptoir, toegevoegd zyn
+[single] geworden 2. Pennisten, boven het gewone getal
+[single] §S 31:
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0034 | #34 | sides: single | lines: 29
+[single] Verzoek om pennissen
+[single] Van Batavia
+[single] Beantwoording van 833.
+[single] 't patrien die Extract
+[single] §31: sijnde tot afdoening van het considerabel vermeerd schrijfen
+[single] werk ter Secretarij geprest, twee gequalificeerde Boekhou„
+[single] „der, met en benevens den guarnitoen schrijver
+[single] §32. En hebben de hoofden der respective schrijff Comptoiren den
+[single] 23. Julij J: l: gediend van Berigt, waar bij vertonen dat tot de
+[single] verrigting van dit Werk boven het bepaalde getal van 21.
+[single] nog 13. benodigd zijn, als ter secretarij 5:, ten Negotie 6. en ten soldijComp„
+[single] toore 2. Pumsten, zo meede eene dubbele vormeerdering van schrijfen
+[single] gereedschappen; dus verstouten wij ons hunne versoeken, ingevolge
+[single] hier toe erlangde qualificatie bij Extract Notul van den 16. Decem:
+[single] d„o p„o op 't kragtigst voor te dragen, met beede daar inne naar
+[single] uwer zongsdelheedens bekende wijsheid en billijke den kuijs tevillen
+[single] voorsien.
+[single] En hebben wij ingevolge ontfangen Extract Patriase misse d: d: 20 decl:
+[single] 1787. de secretarij bediendens gelast de gevenereerde Ordre om alphabele„
+[single] „sche registers op alle de brieven en boeken off staande Ordres zamen te stellen
+[single] inschuldige observantie te houden
+[single] Dienende wijders dat de in den voorleeden jaarste laat op Java aangebragte
+[single] neduilsche afschriften en Brieven aan de Moluksche Hoofdkoningen, over Maccassar
+[single] W„r Paduakan van den Chinees Tjolaike alhier aangebragt zijn, en voorss na uso daar
+[single] meede gehandeld is.
+[single] Hier meede gaan wij over ter eerbiedige beandwoording van het Extret
+[single] Patriasche Generale Missive hunner Weld: Hoog Agtb: de Heeren Majorees
+[single] gedateerd Amsterdam den 20. dec: 1787:—
+[single] Extract.
+== NL-HaNA_1.04.02_8149_0035 | #35 | sides: single | lines: 43
+[single] 17
+[single] 1—
+[single] Extract Patriasche
+[single] Generaal Missive Geschreven door
+[single] de Hoog Edele Heeren seventie„
+[single] „nen in Neederland aan
+[single] Hunne Hoog Edelheeden
+[single] den Gouverneur Generaal
+[single] en de Raaden van Indie
+[single] tot Batavia en Gedateerd
+[single] Amsterdam den. ..
+[single] alwaar onder anderen staat.
+[single] Ons de Eere sullende geven naar best §91. Daar wij hij onse missive van den
+[single] 27. Novem: 1783. § 50. gemeld haddeen
+[single] vermogen te suppediteeren de door
+[single] UwelEd: Hoog Agtb: in nevens gem:
+[single] te sullen afwagten niet alleen welke
+[single] Extract Gevenereerde missive gevor„
+[single] dispositie door de ministers op Tor„
+[single] „derd wordende elucidatien; versoeken„
+[single] „naten zouden genomen worden
+[single] Azeij eerbiedieft nopens de A„o 1781.
+[single] om de Comp„e buijten schade te
+[single] bele mat het schip Roodenreijs voor de
+[single] houden omtrent de vermiste goe„
+[single] koningen en grooten aangebragte ge„
+[single] „deren ui t de kassen met presenten
+[single] „schenken, in kasses met gebroken
+[single] voor de koningen en Rijksgrooten
+[single] koorden en geschouden Beguls, te mogen
+[single] met het schip Roodenrijs aan„
+[single] noteeren: dat de scheeps over,
+[single] „gebragt, maar ook op wat wijze
+[single] „heeden van dies Bodem, wegens
+[single] de scheeps overheeden sig daarover
+[single] het gouis van goederen in't gedagte
+[single] Kassen
+[single] zouden
+[single] N=o 8
+[single] lle
+[single] C:
+== NL-HaNA_1.04.02_8149_0036 | #36 | sides: single | lines: 49
+[single] kassen, van ontrouw hebben konnen worden
+[single] zouden hebben verantwoord, om„
+[single] vrij gekend op de enkele vertoning der in
+[single] „trent dat vermis en het schenden
+[single] die kassen gevonden steenen, die gelijk
+[single] der koorden en Seguls van de voor„
+[single] bevonden sijn te weesen aan de steenen,
+[single] „melde kassen, heeft het ons moe„
+[single] dewelke tot vengsters in de Combuisen
+[single] „ten verwonderen dat de ministers
+[single] op de ligters, waarmeede de Pakken
+[single] 5 en kassen te Batavia, naar en van
+[single] blijken der selver antwoord op
+[single] boord der scheepen getransporteerd wor„
+[single] dat gedeelte onser missive, zig
+[single] „des, als nog equirocque kenmerken sijnde
+[single] vergenoegd hebben met de ver„
+[single] dat gem: goederen op de Batavise
+[single] „goeding dier schade, door de
+[single] Rheede, ten wel in de Rivier, binnen
+[single] scheeps overheeden te doen geschieden
+[single] een der ligters, gestolen sijn; zij hadden
+[single] daar deselve vertuijmden zig te
+[single] zig dus slegts behoeven te verantwoor„
+[single] verantwoorden en geen efficaciau„
+[single] „den over zulx het defect aan de
+[single] koorden en zeguls, bij het binnen
+[single] „e middelen in't Werk hebben
+[single] heijssen en berges der beurste kassen,
+[single] gesteld om die verantwoording
+[single] niet bespeurd hebben, hunne belangens
+[single] dadelijk, conform onse klaar uit„
+[single] vorderden deese verantwoording en
+[single] „gedrukte intentie, te doen geschieden
+[single] wij waren met den Soo Swaar
+[single] zulks te meer, daar zij hadden
+[single] wegens te min uit geleeverde
+[single] behoren te begrijpen dat een bloote
+[single] Lading belast geworden eerlijke Capiteijn
+[single] schadeloos stelling ever min ge„
+[single] De klerk en sijnen Eerste officier Ca„
+[single] noegsaam was tot Correctie, van
+[single] „cob van Neederpeld meede gaande ge„
+[single] „noeg om te verlangen dat zij een uitvoe„
+[single] een ten minste aller slordigste
+[single] „rigen dan de bij hunne gedane beantwoording directie, als daar door konde werden
+[single] op
+[single] geremedieerd
+[single] ƒ.
+== NL-HaNA_1.04.02_8149_0037 | #37 | sides: single | lines: 49
+[single] 49
+[single] op den 25: Septem: 1781. in onse vergadering
+[single] gediend hebbende bevinding op de uitge„
+[single] „leeverde Lading van het schip Roodewrijs
+[single] voormeld genoteerde verantwoording, gedaan
+[single] hadden, dan om welke te extorqueeren
+[single] door de bewerkstelliging van Afi„
+[single] „caceeuse middelen, na dien datum, geen
+[single] tijd meer voor handen is Geweest, sijnde
+[single] het schip Rooden rijs, weinige dages
+[single] daar na, of maar even bij tijds, om
+[single] een Lading op Java in te neemen en In„
+[single] „dias hoofdplaats, nog voor de doorbra„
+[single] „ke der West Moesson, te konnen
+[single] besteevenen, van hier onderzijl gegaan.
+[single] Wij willen met dit alles voor het
+[single] voorziende oog van UwelEd: Hoog Agtb:
+[single] niet wijser schijnen te weesen, dens wij in
+[single] der daad sijn, maar veel eer schuld
+[single] belijden, en hoogst derselver indulgentie
+[single] imploreeren over en ter zake wij net
+[single] eerder gebruijk hebben gemaakt van gem:
+[single] efficacieuse middelen om te ondersoeken,
+[single] of de scheeps overheeden de quettieuse.
+[single] kassen, bij den ontvangst hunne scheep
+[single] boord, soo maar ongemerkt hebben laten
+[single] geremedieerd aan het nadeel, het
+[single] welk de Compagnie daar door
+[single] kwam te lijden; immers voor zoo
+[single] verre de voorschreeve Presente„
+[single] op Ternaten niet werder konden
+[single] worden ingekogt en zij dus het oog„
+[single] merkt der voorm: versending knam
+[single] te missen en dat dus het belang
+[single] van de Compagnie vorderde dat
+[single] met alle naukeurigheid word
+[single] na gespeurd aan nieu pligt
+[single] versuijm, of ook wel kwade
+[single] vrouw dit voorval moest
+[single] worden g'attribueerd.
+[single] Wij kunnen dus dat antwoord
+[single] van de ministers geensins al
+[single] voldoende aanmerken en begee„
+[single] „ten dat het bewuste onderzoek
+[single] als nog zal geschieden waar van
+[single] wij den uitslag nader zullen
+[single] afwagten:
+[single] voorbij
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0038 | #38 | sides: single | lines: 26
+[single] voorbij gaan ? en van welk nader door
+[single] UwelEd: hoog agtbare geordonneerd
+[single] onderzoek, als niet langer in ons vermo„
+[single] „gen sijnde, ootmoedig suppliceeren dat
+[single] mogen blijven gelibereerd.
+[single] na dat met de door ons meermelde
+[single] scheeps overheeden op gelegde vergoeding
+[single] tot ƒ 2173. —. genoegsaam betoond
+[single] hebben dat het belang van de Comp=e
+[single] hebben behartigd en dat onse intentie
+[single] geensins geweest is oms, ten haren
+[single] koste, die van andere voor te staan.
+[single] 392.
+[single] rampen in dit
+[single] De meenigvuldige
+[single] voird aan 's Comp„s Vaartuijgen overgeko„
+[single] „men en de schadens aan deselve, zoo
+[single] door het verongelukken van deese; als
+[single] de langdurige reijsen van andere ver„
+[single] oorsaakt, hebben wij zeer ongaarne ver„
+[single] „nomen, en daar UE: hebben gepasseerd
+[single] en berust in het gedane onderzoek naar
+[single] de verloorene Equipagie goederen van
+[single] het schip Het Hhuijs te Crooswijk, mits¬
+[single] „gaders omtrent het stranden van de
+[single] Partjallangs
+== NL-HaNA_1.04.02_8149_0039 | #39 | sides: single | lines: 39
+[single] 21
+[single] Pantjallangs de Eendragt en het Casteel
+[single] Orange en de lange reijsen van de Pan„
+[single] „tjallang der Windhond nevens de
+[single] Galowets den Arend, de Raaff en De
+[single] Exter, mitsgaders het aandoen door
+[single] deselve van verschillende plootsen en
+[single] het aanzienelijk bedragen van het aldaar be„
+[single] kostigde tot eene somma van ƒ3112:—
+[single] ongereekend de verliesen van, Schuiten,
+[single] Dreggen, touwen enz: UE: zeggen, wij
+[single] dit alles gepasseerd hebbende, zullen: wij
+[single] ons zulks moeten laten wel gevalle, schoon
+[single] En daar wij niet gevoelen ie„
+[single] wij met UE: niet sonder vreese zijn
+[single] „mand ooijt tes onrechte van
+[single] dat men omtrent het vrij spreeken
+[single] pligt versuijm, het zij in de
+[single] van pligt verruijm in zoort. gelijke
+[single] zaak van het Strandes
+[single] gevallen al zeer ruim schotig te
+[single] van de Pantjallang der Zeeman
+[single] werk Gaet, in welke argevaan wij
+[single] den wel in eenig ander geval,
+[single] verstrekt worden door de van huor
+[single] vrij gesprooken te hebben, zoo
+[single] gegeven berigten omtrent de stuurman
+[single] verzoeken wij dat de deeine„
+[single] van Dorssen, die op Ternates meerde
+[single] „gens opgevatten arg waar net
+[single] is vrij verklaard nopens het stranden
+[single] langer op ons rusten mag
+[single] van de pantjallang, den Zeeman
+[single] te meer, dewijl van den
+[single] hoe zeer wij hem door de Tinorse
+[single] Stuurman van Doassen dat bediendens vinden beschreven als een Dronkaand
+[single] Slegte
+[single] en
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0040 | #40 | sides: single | lines: 44
+[single] en onbakwaam subject en die dus, uit
+[single] dien Hoofde, de prasumtie zeer tegen
+[single] zig moet hebben.
+[single] slegte getuijgenis niet geven konnen,
+[single] wat de Tinoreesen Bedheudens op
+[single] sijn sujet, gegeven hebben
+[single] Ook bidden mij uwelEdele poog 93:
+[single] Het is ons niet te min vreemd
+[single] Achtb: gepersuadeerd te willen sijn
+[single] voorgekomen dat UlE: de afschrij
+[single] van den Ernst, waar mede den
+[single] „ving van de Pantjallang Het Ca„
+[single] geweesen Resident Mersz hebben
+[single] „steel van Orange hebben gepasseerd
+[single] gerecommandeerd dat de Ionda„
+[single] daar het volgens het gemelde van
+[single] „ners soude doen nakomen
+[single] der selver brieff van ult„o Decemb:
+[single] de met hun gemaakte over„
+[single] 1785: Is onseeker was of die Pantjal„
+[single] „eenkomst tot het binnen brengen
+[single] der gestrande Pantjalling t
+[single] „ling niet nog te redden en in de ri„
+[single] Casteel van Orange en dat ons
+[single] „vier te brengen soude zijn, en nadien
+[single] zulx ten hoogste wenschelijk ware„
+[single] seer leed geweest is te verneemen
+[single] de onmogelijkheid van dien, nadat
+[single] hoopen wij dat de ministert
+[single] het meeste ijzer door die diefag„
+[single] hunne devoiren zoo veel mo„
+[single] „tige soudaners gestoolen was en de
+[single] „gelijk zullen hebben aangewend
+[single] kuiehouten van ged„e kieltje voor het
+[single] om de Tondaners zelve te
+[single] grootste gedeelte waren weg gekapt,
+[single] beweegen tot nakoming
+[single] tot geen geringe surpride van voorn:
+[single] Resident, die op de gemaakte over
+[single] van de door hun ten dien
+[single] opzigte gemaakt over eer
+[single] eenkomst niet vooruit verstrekt
+[single] soude
+[single] komst
+== NL-HaNA_1.04.02_8149_0041 | #41 | sides: single | lines: 29
+[single] 23
+[single] komst met den
+[single] soude hebben, bij aldien de in deesen
+[single] Resident
+[single] door de Soudaners betoonde trou„
+[single] Merst
+[single] .
+[single] loosheid had konnen voorsien.
+[single] Bij het bedeelde door de Ministers
+[single] § 94.
+[single] bij derselver brieff van den 15: Sept:
+[single] 1785. §43. vinden wij wel dat is aange„
+[single] „haald als eene reeden om provisioneele
+[single] nog aan te houden. Inlandse
+[single] Timmerlieden uit gebrek aan Europes
+[single] Timmerlieden welke aldaar hunne
+[single] dienst op de werff presteerden; dan
+[single] wij hebben daar niet konnen ont„
+[single] „dekken de noodzakelijkheid om te
+[single] nnsteeren op een ontzet van de eerst
+[single] gemelde ten eijnde als dan de laatste
+[single] te konnen afdanken; en daar wij uit
+[single] dit bedeelde uit generaal moeten
+[single] opmaken dat men het met Inlandse
+[single] Timmerlieden hier ter plaatse seer wel
+[single] doen kan, tot welke veronderstelling
+[single] Onder andere de reeds door vier
+[single] dier
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0042 | #42 | sides: single | lines: 35
+[single] die Inlandge Timmerlieden seedert het jaar
+[single] 1766. gepresteerde dienst, mitsgaders
+[single] het meenigvuldige aanbouwen van
+[single] particuliere vaartuijgen, overal in
+[single] India, welke door de Inlanders
+[single] gerepareerd moeten worden, na=
+[single] „tuurlijk aanleeding moet geven, begen
+[single] ƒ
+[single] „ren wijders dat UE. de ministers sul„
+[single] „len gelasten op te geven de reedenen,
+[single] waarom zij, in plaats van zig van
+[single] die Inlandse, Timmerlieden, welke
+[single] bij hun voorhanden sijn, te blijven
+[single] bedienen, insteeren op een ontzet van
+[single] Europeesche.
+[single] Bij alle de door uwelEdele Hoog Eg5:
+[single] De schrale Leverancie van goud
+[single] en de Jaarlijkse verwandering van
+[single] Agtbare aangehaalde reedenen die
+[single] de insaam en Leverancie van
+[single] den Insaam van dat metaal is ons
+[single] goud in het Batchianse rijk
+[single] toegescheenen, voornamentlijk aan de
+[single] zoo al niet ondoenelijk, ten
+[single] ongeneijgdheid der koningen en rijks„
+[single] minste zeer difficil maken, nog
+[single] „groten om aan hunne verbintenis„
+[single] Een zeer voorname volks gebrek„
+[single] „sen hier omtrent te voldoen en daar bij
+[single] gevoegd
+[single] 3
+[single] 2
+[single] 2
+[single] komende
+== NL-HaNA_1.04.02_8149_0043 | #43 | sides: single | lines: 54
+[single] 25
+[single] komende onkunde der Batchiause Gra=
+[single] „vers te moeten worden toegeschreven alsoo
+[single] de rijkheid der mijnen in het laatst gemelde
+[single] rijk tans bekend sijnde, geen andere reeden
+[single] is uit te denken, waarom de koning van
+[single] Batchian met zijn volk in April 1785:
+[single] naa de goud Mijnen getrokken zijnde in 14.
+[single] dagen tijds, niets heeft konnen op speuren,
+[single] zijnde het te beklagen dat de ministers
+[single] tot nog toe geen middeles hebben kunnen
+[single] uitvinden om de Batchianders het
+[single] „mineeren te doen aanlevren, waarop
+[single] zij zig egter met des te meer ernst
+[single] zullen moeten toeleggen daar de betoonde
+[single] JC
+[single] ongeneegtheid der Celebise volkeren uit
+[single] hoofde van hunne afkeerigheid van de
+[single] Regeerings form en zeeden der Batchian„
+[single] „ners, om tot het mineeren aldaar
+[single] over te koomen niet veel hoop overlaat
+[single] om eenige onderstand van die volkeren
+[single] te verwagten.
+[single] gevoegd mogende worden, vinden wij
+[single] ons hier door te eenemaal buijten
+[single] staat gesteld om te voldoen aan
+[single] de gevenereerde intentie van
+[single] UwelEdele Hoog Agtbare om
+[single] de Batchiaimers het mineeren
+[single] van goud te doen aanleeren
+[single] met gevolg dat zij het goud
+[single] uit hunne rijke mijnen komen
+[single] te delven en aan de Comp„e te
+[single] leeveren; konnende dit in aan„
+[single] „tal so seer afgenomen volk
+[single] maar even de nodige Man„
+[single] „schappen bij den andere brengen
+[single] om 'er de aldaar aan den gang
+[single] gebragte destructie van specerij
+[single] koomen, meede gaande te
+[single] houden, waarna dan ook, buijten
+[single] eenige hoofden, die hun hof bij den
+[single] koning maken, geen manspersoon in de
+[single] Negorij gevonden word.
+[single] zijnde door dns overigens naa uiter 1/96.
+[single] Terwijl wij ook hopen dat door
+[single] de Ministers met geen mindere
+[single] „ste vermogen nagekomen de van hunne
+[single] vinst zullen worden nagekomen
+[single] Hoog Edelhedes ontvangen recommandatie
+[single] om
+[single] de
+[single] e
+[single] No 8
+== NL-HaNA_1.04.02_8149_0044 | #44 | sides: single | lines: 49
+[single] om op de stipte observantie der
+[single] verbintenissen, tusschen de Inlandse konin
+[single] „gen en Rijks groter en de Maatschap„
+[single] „hij omtrent den goud nezaam en
+[single] Leverancie van dien met allen ernst
+[single] aan te dringen onse aan de konin„
+[single] „gen en Rijksgroten geschreeven Briever
+[single] leeveren hier van meenigvuldige bewij„
+[single] „sen op, terwijl wij met onse kander„
+[single] „wijs ten opzigte der residenten, de begeerte
+[single] van uwel Edele hoog Agtbare, dat op der„
+[single] „selver gedrag een aller naukeurigst toe„
+[single] „zigt gehouden word, betoond hebben voor te
+[single] willen komen daar wij hoogst deselve bo„
+[single] „ven dien verseekering dat onse attentie
+[single] op dit gewigtig poinct gevestigt blijven
+[single] de recommandatie welke uE en te
+[single] regt aan hun hebben gedaan, ten ainde
+[single] met alles aandrang te insteeren
+[single] op de stipte nakoming der ver„
+[single] „bintenissen tusschen de Inlandse
+[single] koningen en rijksgroten en de Matet
+[single] „schappij omtrent den goud inzaam
+[single] Leverancie hier ter plaatse sub„
+[single] en
+[single] sitteerende, waar bij wij nog kunnen
+[single] voegen eene aanbeveeling om niet
+[single] alleen de huijze der residenten,
+[single] op de plaatzen daar het Goud ingeza„
+[single] „meld word, met alle behoedzaamheid
+[single] te werk te gaan, als zijnde zulks een
+[single] zaak van het uijterste belang, maar
+[single] ook om op derzelver gedrag een allernaa
+[single] keurighst boerigt te houden.
+[single] § 97: Met de Exteripatien is het vens nuit verschil„
+[single] En uwelEdele hoog Agtbare
+[single] „lende Periodes van de advisen der Ministers
+[single] gelieven zig mede gerust te
+[single] stetten omtrent de Extirpatie, wel„
+[single] almeede voorgekomen niet Heer voordeelig
+[single] „ke door ons als een allernodigst
+[single] te gaan; en daar dit zo nodig werk en de
+[single] werk beschouwd en behandeld word
+[single] goud inraam genoegsaam de eenige
+[single] reedenen zijn waarom de maatschappij
+[single] en Goede voortgang heeft, schoon
+[single] de
+[single] de
+[single] zal
+== NL-HaNA_1.04.02_8149_0045 | #45 | sides: single | lines: 50
+[single] 2
+[single] 27
+[single] de groote latten van dit Gouvernement
+[single] draagd, is het te bejammeren dat S Com„
+[single] „pagnies belangen in deesen
+[single] niet schijnen te worden behar„
+[single] „tigd zoo als behoorde, reperee„
+[single] „rende wij ons omtrent het beko=
+[single] „men van deugdsame Noten en
+[single] foelij mitsgaders Mannetjes
+[single] Nooten, tot het dien aangaan,
+[single] „de geschreevene in onse ge„
+[single] „nerale missive van het
+[single] vorige Jaar.
+[single] deselve in de Tidoreese Landen bij na
+[single] een geheel jaar heeft moeten stil staan, om
+[single] de daarvan bij onse advisen van voorleeden
+[single] en deesen Jaare beschreevene reeden, waar
+[single] van wij zo min oorsaak sijn als van de
+[single] schrale goud Insaam waarover uwel
+[single] Edele hoog Agtbare en teregt doleeren wij
+[single] zullen binnen korte wederom eenige deugd
+[single] same Noten as foelij, mitsgaders Mannetjes
+[single] Notan aan de Edele hoge Indiase Regeering
+[single] doen geworden voor uwelEdele Hoog Achtb:
+[single] als ons door den koning van Tido, om„
+[single] „trent de mannetjes Nooten van in
+[single] word gehouden word
+[single] In der ministers advisen hebben
+[single] de inhouding van 1: helft der aan de §98.
+[single] wij al verder ontmoet de beswaarlijke
+[single] hoofd koningen 's jaarlijks onder ultimo
+[single] voortgang van het inpalmes den uit„
+[single] de C: uitgekeerd wordende recognitie panni„
+[single] „gen waarmeede met ultimo De C: 1787.
+[single] „staande schulden en hoe de door
+[single] hun aangewende spaarsaamheid
+[single] een begin is gemaakt en sjaarlijks
+[single] in het doen van vooruitverstrekkingen
+[single] gecontinueerd word, al een vrij secuur„
+[single] en gedane poogingen tot voldoening dier
+[single] hoewel wat langsaam, middel sijnde
+[single] om hunne schulden aan de Compag„
+[single] schulden, het Ternaats Ministerie
+[single] bereids in gevaar had gebragt om
+[single] nie tot verwaring te brengen, mits
+[single] aan
+[single] met
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0046 | #46 | sides: single | lines: 48
+[single] aan hun geen voor uitverstrekkingen meer
+[single] geschieden van bij de aller dringenste noodza„
+[single] „kelijk heid, soo mogen uwelEdele Hoog Agtbare
+[single] op goede gronden, met wat vertrouwen dat
+[single] de uitstaande schulden eijndelijk tot eene
+[single] geheele afdoening geraaken zullen zonder
+[single] eenige beduijting dat dit ministerie bij das„
+[single] selvs verder aan te wenden pogingen
+[single] om die verevening te effectueeren weder gevaar
+[single] lopen sal van met de vorsten in bruillerie
+[single] te gereken alzo hunne Hoogheeden aan de
+[single] voorschreeven manier van inpalming
+[single] tans gewoon sijn en hunne lastige versoe„
+[single] „ker om geld en Lijwaten, sterk beginnen te
+[single] menageeren.
+[single] met de hoofd koningen in brauilerie
+[single] te geraken. wij willen wel geloven dat
+[single] die nipaeming niet seer gemakkelijk gaar„
+[single] dog begrijpen ergter tevens dat naar
+[single] mate de uitstaande schulden groot
+[single] sijn, zoo als onder andere die van
+[single] den koning van Ternates onder
+[single] ulto Aug„o 1785: hebben belopen eene
+[single] importante som van Rijkd„s 2672: 23: 12
+[single] mes ook te meerder grond heeft om
+[single] geene off Immers geene voor uitverstrekn
+[single] kingen meer te doen en met meer aandrang
+[single] op de mnpalening te werken.
+[single] Verwijl wij bij de inpalining der §99. Hoogst nodig is 't egter dat men
+[single] steeds in die inpalening te werk gaa
+[single] uitstaande schulden altoos sijn
+[single] te werk gegaan conform de gevene„
+[single] met gepaste bescheidenheid en met dien
+[single] meer of min sterken, aandrang, als
+[single] intentie van uwel Edele Hoog
+[single] „reerde
+[single] as
+[single] een goed overleg der omstandigheeden
+[single] Agtbare in voege ons dien wegens
+[single] vordert en wij verbeeden om dat eene
+[single] mereenige misnoegdheid voor„
+[single] nin
+[single] „gekomen is, zoo van der koningen, als
+[single] naukerrige in agt neeming hier
+[single] van de Ministers mogelijk voor 't
+[single] onser hoge Indiase gebieders zijde
+[single] en
+[single] vervolg
+== NL-HaNA_1.04.02_8149_0047 | #47 | sides: single | lines: 40
+[single] 26
+[single] vervolg zal konnen bevrijden van der of
+[single] en Wij zullen bij deeze On=
+[single] zoort gelijke onaangenaamheeden als
+[single] „se handel wijs te meer volharden
+[single] zij nu met een der hoofd koningen hebben
+[single] nu deselve door UWel Edele Hoog
+[single] Outmoet, Weshalve wij ook verwagtes
+[single] Agtbare aanbevalen word.
+[single] dat UE: niet zullen nalaten het oog
+[single] hierop gevestigd te hoeden en, des noods,
+[single] de vereischte ordres stellen dat dien
+[single] aangaande, volgens de opgegeven priv„
+[single] „cipes, werde gehandeld.
+[single] Maar wij moeten, hoe seer ons 3100. Het hoofd deel der fortificatien
+[single] is voorwaar ook ten deesen Gouver„
+[single] ook beijverd hebben om gedaan
+[single] „nemente van geen voordeelige
+[single] werk te krijgen, belangende het
+[single] aanschouw, als kunnende, volgens
+[single] hoofddeel van timmeragie en repa„
+[single] het getuijgenis der Ministers
+[single] „ratie, met had weesen betuijgen dat
+[single] zelve, van het werk van Chimme„
+[single] daaraan, als nog geen einde komen
+[single] „ragie en reparatie, nog geen
+[single] te gemoet zien door de veelvuldige
+[single] einde worden te gemoet gezien
+[single] tusschen bij de komende werken
+[single] van reparatie, waar aen bij na zo
+[single] en zommige werken, volgens
+[single] het oordeel, 't welk UE: selvs
+[single] veel te doen velt als aan de erectie
+[single] van Nieuwe en welke tusschen
+[single] daar aver hebben geveld, blijkens onder
+[single] bijde komende werken veroorsaakt
+[single] andere het door UE: bedeelde omtrent
+[single] hebben,
+[single] het
+[single] N8
+== NL-HaNA_1.04.02_8149_0048 | #48 | sides: single | lines: 40
+[single] hebben dat de aanbouw van een
+[single] het te maaken gevangenhuijs„
+[single] zeer hoog konnen te staan.
+[single] gevangenhuijs nog maar in sijn
+[single] geboorte staat; dog wij kormen
+[single] Het is dus te wenschen dat de
+[single] omtrent de aan den opbouw van
+[single] Luijten Ingenieur H: W: van
+[single] dit gestigt aan te wenden kostendgek
+[single] Rheel, welke U8: tot opneem van
+[single] „moedelijk betuijgen dat deselve ten
+[single] de fortificatie Werken, op dit Gou„
+[single] nauwste gecaluileerd geworden zijn en
+[single] vernement derwaards hebt doen
+[single] niet anders dan na de hier vast„
+[single] Overgaan, aan het oogmerkt
+[single] „gestelde prijsen der bouw Materialen;
+[single] zijner zending tot nut van
+[single] terwijl wij nopens de fortificaties
+[single] 's Comp„s belangens zal kun=
+[single] soo vrij sijn UwelEdele Hoog Agtbare
+[single] over te wijzen aan onse Secreete
+[single] „nen beantwoorden.
+[single] advisen van deesen en vervangen
+[single] Jaare.
+[single] Aan de geduurig tusschen in„ Tior: Immiddels hadelen wij gaarne gewenscht
+[single] „vallende werken, op een Gouver„
+[single] de toezoiding van een persoon van kunde
+[single] tot dat gewigtig einde naar dit Gouvernee„
+[single] „nement, welke als dit vrij dik„
+[single] „wils en zeer zwaar van aard bevrin„
+[single] „ment, niet als des te nodiger te moeten
+[single] beschauwen om een en andere blijken welke
+[single] „ges geschokt word, wijlen wij dat
+[single] ons zijn voorgekomen van de geringe ken„
+[single] niet eerder bewerkstelligd geworden
+[single] „nis, welke de Ministers zelve van
+[single] is, het middel om de reeds zeedert
+[single] lang
+[single] dit
+== NL-HaNA_1.04.02_8149_0049 | #49 | sides: single | lines: 48
+[single] 34
+[single] lang onbruijkbaar gelegen hebbende dit notabel onderwerp bezetten, en zo
+[single] kruijtkelders met Planken te beschie„
+[single] als wij hier niet dan ongaarne bij voegen
+[single] „ten en met gebraande koolen aan
+[single] van de mindere door hun te dien opsigte
+[single] te vullen om deselve weeder tot be„
+[single] aangewende oplettenheid, zelvs omtrent
+[single] „kwame bergplaatzen te maken
+[single] zaaken, tot welker beoordeeling, zodanig
+[single] van buspoeder daar zij het nu als
+[single] eene gegronde kennis niet behoord. want
+[single] geruijme tijd lang of van der
+[single] Waar aan anders zullen wij toe schrijven, dan aan
+[single] Jaare 1776. van Affuijten en
+[single] geen gebeek van een behoorlijk toezigt, het
+[single] rampaarden in waarlo geweest
+[single] niet eerder in 't werk stellen van het eenwau„
+[single] zijn en tot bereging van welke
+[single] „dig middelen om de reeds zeedert lang als
+[single] 10
+[single] st:
+[single] Arthillerij goederen weeder andere
+[single] onbruikbaar gelegen hebben kuit kelders
+[single] plaatsen bekwaam hebben moeten
+[single] met Planken te beschieten en met gebrande
+[single] worden gemaakt: dus men hier niet
+[single] koolen aan te vullen om deselve weder tot
+[single] altoos doen kan wat men wil en hier om
+[single] bekwame berg plaatsen te maken en
+[single] ook niet altoos van onkuude of
+[single] wij laaten aan der ministers oordeel zelve
+[single] van gebrek aan oplettenheid te beschul„
+[single] over, wat in drukken het bij ons moet maken,
+[single] „digen is, zelvs in zaaken als de boven„
+[single] omtrent derzelver kunde in deeze materie,
+[single] gem: gelijk Uwel Edele hoog Agtb: toe
+[single] daar zij zelve aan UE: wijser oordeel dank
+[single] gescheenen is tot welker „ beoerdeeling just
+[single] weeten dat hunne voormaals godane propositie
+[single] gan Grondige kennis vereijscht word
+[single] wij hebben overigens de erectie van een
+[single] tot Crectie van een portje te Palitha mit is g'amplei„
+[single] fortje te Palilla niet anders voorgesagen.
+[single] teerd; eene rondborstig bekentenis, die voor waar
+[single] den
+[single] aantoond,
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0050 | #50 | sides: single | lines: 46
+[single] aantoond, hoe omzigtig uE: behoren te zij
+[single] dat met inzigt om der Goud inraam
+[single] omtrent voorslagen van Ministers, tot oprig„
+[single] aldaar weeder op te beurs en voor de Maat„
+[single] „schappij te secureeren.
+[single] „ting van nieuwe werken.
+[single] Opmerkelijk is dus voorgekomen
+[single] dus zij ten opzeijt van het nieuw opgerigte §102
+[single] het door UE: bedeelde omtrent het
+[single] fortje in de qual van Gorontalo, gepermitteerd
+[single] tot divcidatie van Uw eEEd: hoog Agtb: te noteeren:
+[single] nieuw opgereigt Fortje in de qual
+[single] dat de daarbinnen gelegde besetting van 5: Mili„
+[single] „tavien en 2. Busschieter tot heeden ontzaggelijk van Gorontalo, voor zoo verre na„
+[single] „melijk door UE: gepasseerd is dat
+[single] genoeg geweest is voor's Comp,s Inlandse vijanden die
+[single] zeedert binnen gemelde Qual niet meer bespeurd
+[single] door den Resident aldaar Hadfelt,
+[single] geworden sijn: de situatie van dat fortje selve
+[single] op verroek der koningen, in het gem:
+[single] imposeerd te veel om voor overrompeling
+[single] loetje op het welk geplant waren 4. putsk:
+[single] bedagt te weesen: het zelve zal egter vol„
+[single] „gens het dienwegens over te zenden berigt van
+[single] Cauon van 8. lb: gelegd zijn tot
+[single] den Capitein Ingenieur Baron van Lutzor,
+[single] eene bezitting 5 Militairen, en
+[single] van geen lange met voor Gorontalo meer
+[single] 2. Busschieters, daar UE: zelvs eeni„
+[single] konnen zijn door dien de grond waar op deselve
+[single] „ge bedenking schijnen te dra„
+[single] gebond is een aangespoelde gronden aan de af„
+[single] „gen off de voormelde bezet„
+[single] watering van de rivier g'exponeerd is zod anig
+[single] dat hier door bereeds de fundamenten aan eenige
+[single] „ting welk sterk genoeg
+[single] kanten wegn geronken en zware scheuren
+[single] aan het Muurwerk zijn toegebragt, wegens
+[single] was, om geen overrompe„
+[single] welke geheel met vaste grond men ons bij de op„
+[single] „ling behoeven te vree„
+[single] „zigting van meer melde fortje onkundig gelaten heeft/
+[single] gelijk nader Consteerd bij de Gorontaalse advisen
+[single] sen.
+[single] § 103 bij.
+[single] O:d:
+== NL-HaNA_1.04.02_8149_0051 | #51 | sides: single | lines: 42
+[single] 33
+[single] uwelEdele Hoog Agtbare is
+[single] §103. Wij zullen het gevolg afwagten van het voor„
+[single] buijten twijfel bereeds bekend dat
+[single] „neemen der Ministers om na middelen om te
+[single] zien ten einde het zeehoofd tot aan het diepe
+[single] wij van de uitzetting van het zee hoofd,
+[single] water te late uitzetten ter lengte van 1260.
+[single] ter lengte van 1260. voeten Anno 1787.
+[single] voeten, om voor te komen de ongelegenheid
+[single] hebben afgezien om de kostbaarheid
+[single] der van dag tot dog toeneemende droogte
+[single] van dat werk, het welk aan on„
+[single] voor het gemelde zeehoofd, in het ontlanden
+[single] houd 'sjaarlijks. nog wel eenige
+[single] der Scheepes veroorzaakt, waartegen wij
+[single] bekostiging gevorderd soude hebben;
+[single] reeds bij onze missive van ½. Decem:
+[single] 1786. §140. aangemerkt hebben dat behoorde
+[single] Wij hebben het intusschen tot nog toe
+[single] te worden voorzien en daar de ondervinding
+[single] zonder ged„e uitzetting konnen stellen
+[single] niet zelven heeft doen zien dat onderne„
+[single] door de vroege op daging der Scheepen
+[single] „ningen van dien aard zeer klalijk ko„
+[single] van Batavia, welke wij dus tot nog
+[single] „men uitvallen en een geheel verkeerde
+[single] toe in tijds hebben konnen laten
+[single] uitwerking doen, wanneer deselve niet door
+[single] lieden des kundig worden besteerd; zoo
+[single] reverteeren.
+[single] vertrouwen wij dat UE: zig zulks niet
+[single] zal hebben laten wel gevallen, althoos
+[single] met het voorschreve werk geen dade„
+[single] „lijke aanvang, zullen hebben laten maken,
+[single] als hier op het berigjt van eene door de
+[single] ministers gedecerneerde Commissie,
+[single] dat 'er geen middelen uit te denken zijn
+[single] tot wegneming van de Presumtie
+[single] oorzaaken van het voormelde icon„
+[single] „veniert,
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0052 | #52 | sides: single | lines: 23
+[single] inonvenvent maar naar behoorlijk meje„
+[single] „nomes informaties van des kundigen,
+[single] zoo omtrent de te doene uitzetting van
+[single] het zeehoofd, en de Gevolgen, welke
+[single] deselve zoude kunnen hebben, als ook
+[single] voornamentlijk omtrent de beleng rijke
+[single] vrage; of met het effect van de voormeld
+[single] oorzaak, nementlijk de droogte zelve door
+[single] bekwame middelen zoude konnen worden
+[single] weg genomen, welkers beantwoording
+[single] bij uwe missive van Ult„o Dec: 1785:
+[single] nog als onzeeker werd gesteld, en na
+[single] daar door overtuijgd te zijn geworden
+[single] dat daartoe geen middelen voor handen
+[single] waren; Waarvan men met eenige waar„
+[single] „schijnelijkheid van goed gevolg zoude
+[single] kunnen te gemoet zien, zijnde wij met
+[single] UE: volkomen van begrip dat indien
+[single] dit laatste met bekwaamheid had kunnen
+[single] geschieden, zulx verre te prefereeren
+[single] zoude zijn.
+[single] §104. Iaar UE: egter in alles gevalle mog
+[single] niet
+== NL-HaNA_1.04.02_8149_0053 | #53 | sides: single | lines: 22
+[single] niet volkomen schijne overtuigd
+[single] te zijn geweest dat de voorschreve
+[single] uitzetting aan het bedoelde oogmerk
+[single] zal voldoen, en dezelve waarschijnelijk
+[single] van aanbelang zal zijn, als moetende
+[single] geschieden ter lengte van 1260. voeten,
+[single] duukt ons vreemd dat UE: zig het
+[single] bedragen der kosten, welke daartoe zul„
+[single] „len worden vereijscht, niet hebben doen
+[single] opgeeven en zulx te meer nu UE zelve
+[single] veronderstellen dat dit werk behalve
+[single] de kosten tot desselfs voltoijing, nog
+[single] Jaarlijks onkosten zal veroorzaken en althans
+[single] nog niet volkomen overtuigd schijnen te zijn
+[single] geweest dat het aan het bedoelde oogmerk
+[single] zoude voldoen en dus het beloop dier kosten,
+[single] vooral in die onzeekerheid meede eene
+[single] reeden had konnen uitmaken om het
+[single] voorstel der ministers, meer off
+[single] min aanneemelijk te maken.
+[single] In
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0054 | #54 | sides: single | lines: 36
+[single] Intusschen wenschen wij dat bij voor„
+[single] „gang van het meergemelde werk, de
+[single] gezondene Luijtenant Ingenieur van
+[single] Rheel in de directie over en de beoor„
+[single] „deeling van het zelve, de Maatschap„
+[single] „pij van nut zal zijn geweest.
+[single] de onguntige omstandigheeden in dewelke wr de slegte gestelheid van de Ma„
+[single] „nadose Rijst, waarvan wij in de
+[single] dit van vijande g'eivironneerd Gouvernement
+[single] van den jaare 1728. af, tot heeden geverseerd heeft
+[single] advisen der Ministers gewag vinden
+[single] hebben den Manadorees en andere onder
+[single] gemaekt, hebben wij niet ongenoegen
+[single] deese ressorte Gehoorende Inlanders schere
+[single] gezien en hoe zeer, volgens hunne gedagten,
+[single] gelegenheid aan de hand gegeven om
+[single] de vermindering van prijs, welke door
+[single] van de Contracten alleen na te komren,
+[single] UE: was voorgeslagen, als een middel
+[single] wat meest in hunne kraam te pas
+[single] om de Manadareesen te Constrim„
+[single] kwam er al het overige in den wins te
+[single] „geeren om deselve beeter te leeveren.
+[single] slaan, zonder ons doenelijk geweest zij,
+[single] en van zodanige hoedanigheid, als
+[single] hunne afwijking van gemelde Contrac„
+[single] bij de Contacten bepaald is, niet
+[single] „ten voorhamelijk in het stuk der rijst
+[single] practicabel is om dat zulx die
+[single] Leverantie met middelen van klein
+[single] tegen tegaan, waartoe egter, buijten de
+[single] Natie zoude desanmineeren van die
+[single] voor 'sComp„s bezittinge zo noodzake„
+[single] Vrijheid om onverhinderd te kunnen
+[single] ageeren
+[single] „lijke
+== NL-HaNA_1.04.02_8149_0055 | #55 | sides: single | lines: 39
+[single] „lijke culture, toond egter Uwe
+[single] ageeren, nog nodig waare geweest eene
+[single] aanmerking dat men nu wel
+[single] voorradige quantiteit van dat graan om
+[single] genoodzaakt is, zig te onderwer„
+[single] er de besetting niet alleen, maar ook de
+[single] „pen aan de ingewortelde kwade
+[single] gemeente van Christen en Chineese Inge„
+[single] gewoonte om te ontfangen Rijst
+[single] „zeetenen, meede te voeden, geduurende
+[single] met Padi vermengd, genoeg aan;
+[single] al de tijd dat men beezig was geweest met
+[single] den Manadorees tot eene boteere na„
+[single] dat, wanneer men, in tijdts, be„
+[single] „hoorlijk agt had gegeven op de stip„
+[single] koning der Contracten te Constringeeren.
+[single] „te nakoming der Contracten, het
+[single] De ontstentenis van eene, voor 'sComp„s
+[single] thans zo moeijlijk niet zoude
+[single] dienares, Christer en andere Ingezeetenen
+[single] hier ter plaatse, toereekende quantiteit van
+[single] zijn, om de nadeelen, welke de waat„
+[single] Rijst in voorraad, heeft de prijs vermin„
+[single] „schappij door derselver verwaarlosing
+[single] „dering welke Hunne Hoog Edelheden wilde
+[single] worden toegebragt, af te weeren, waar„
+[single] vast stellen meede in practicabel ge„
+[single] „om wij ons over die negligentie
+[single] „maakt. De Manadose, Rijst
+[single] ten hoogste moeten bekla„
+[single] moet dus door ons en door ons en door de„
+[single] „gen.
+[single] Ingezeetenen ontvangen worden, zodanig als
+[single] dezelve tans geleeverd word in loutere
+[single] Padij namelijk.
+[single] uwel Edele Hoog Agtbare zullen uit
+[single] het bovenstaande vertrouwen wij bereeds heb„
+[single] „ber
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0056 | #56 | sides: single | lines: 26
+[single] „ben opgemaakt dat aan ons niet g'umputeerd
+[single] kan worden de slegte nakoming der Con„
+[single] „tracten door den Manadorees, die
+[single] na geen vermaningen luisterd en selvs
+[single] Ouse brieven niet meer beantwoord
+[single] wanneer daar bij op de nakoming sijner
+[single] verbintenissen word geargeerd.
+[single] Wij zullen immidelens onse pligt blijven
+[single] bekrogten en sorgvuldig toesien dat wij niet
+[single] die koppige Natie in geen brouilleeren
+[single] geraken welke het verlies uwer wel„
+[single] „ Edele Hoog Agtb: possessien in deezes
+[single] voird noodwendig na zig zouden moeten
+[single] sleepen en wij mogen aan dit ons
+[single] voorsigtig gedrag toeschrijven dat de tus„
+[single] „scher de Toucears en Ioudaners,
+[single] voorlede najaar, tot dadelijkheeden uitge„
+[single] „barsten onlusten gelukkig sijn bij gelegd ge„
+[single] „worden, schoon men, om hier toe te komen,
+[single] zeeker tot eene bekwamer gelegenheid
+[single] heeft moeten verschuiven eene billijke
+[single] wraak oefening wegens 'sComp„s al te
+[single] zeer geschonden agtbaarheid, door die
+[single] Van Toudano.
+[single] welk
+[single] § 106
+== NL-HaNA_1.04.02_8149_0057 | #57 | sides: single | lines: 45
+[single] 1788
+[single] Welk volk boven alle andere op Manardo vol Wij verwagten egter dat die morijgelijk
+[single] „heid de Ministers niet zal af„
+[single] openlijk den spat met onse beveeles drijft
+[single] schrikken om hunne uiterste
+[single] gelijk de Secreete Advisen van deesen Jaare
+[single] devoires aan te wenden, ten einde
+[single] hiervan authenticque bewijsen komen op te
+[single] leeveren.
+[single] op Manado, de Rijst, volgens
+[single] Ales voorschreven moeijelijkheden zijn elij„
+[single] de Contracten, geleeverd worde,
+[single] „tor niet instaet om ons afte schikken en
+[single] en niets te verzuimen wat tot
+[single] wij beproeven na dit dan wederom dat
+[single] bewerking van dat oogmerkt
+[single] middel, om ware het mogelijk, te ver„
+[single] zal kunnen dienstig zijn, het welk
+[single] „krijgen dat de Manadose rijst, volgens
+[single] wij ook begeeren dat door UE: aan
+[single] „de Contracten geleeverd word, zonder in
+[single] deezen onze pogingen als nog te kunnen
+[single] hun steeds op het kragtig tst zal
+[single] slagen of het zoo verre slegts te kunnen bren„
+[single] worden onder 't oog gebragt en
+[single] „gen, dat de Padij van daar in genoegsame
+[single] waartoe zij zig reeds, zoo wij ons
+[single] quantiteijten worde aangebragt, dat men 'er
+[single] vlijen, niet weinig zullen vinden
+[single] geen inkoop van behoeve te doen, althons
+[single] onse Ingezeetenen, vooral de Chineese bij
+[single] aangespoord door UE: aanmerking
+[single] den inzaam deezer noodwendigheid zodanig de
+[single] dat Java niet genoegzaam is om
+[single] preferentie boven de Comp„e gekregen, dat wij
+[single] alle de Indische Comptoiren van
+[single] genoodzaakt geworden zijn om de prijs daar„
+[single] van van rd„s: : : te verhogen en tebrengen
+[single] dieze noodwendigheid te verzor„
+[single] tot op rd„s 20: —: - p„r last voor de op onsen
+[single] Eijsch voor 17 38/89 te besorgen quantiteit van „gen, zijnde ook Manado
+[single] 350.
+[single] ten
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0058 | #58 | sides: single | lines: 40
+[single] 350. lasten zonder consequentie voor den
+[single] aanstaande dog welke onse voorzorg onder
+[single] het schrijven deeses het bedoelde oogmerk
+[single] nog niet bewerkt heeft en wij souden
+[single] er dus thans slegt bij staan, zonder
+[single] 130 Lasten Javase Rijst, waarmede
+[single] op anze pressante instantien, door
+[single] VEdele hoge Indiase Regeering gerieft
+[single] zijn geworden op onze eerbiedige verto„
+[single] „ning dat voor dit maal daar niet
+[single] buijten houden.
+[single] ten allen tijde, beschouwd als de
+[single] Koornschuur der Moluksche Eijlan„
+[single] „des waarom de Eijsschen der Mini„
+[single] „sters van Javase Rijst, en zulx
+[single] wel tot 200. lasten Jaarlijks,
+[single] des te Vreemder moeten voorko„
+[single] men.
+[single] wij zouden van alle goede principes HioC.
+[single] De reedenen door die Ministers opgege„
+[single] „ven van de meerdere kostbaarheid der
+[single] volstrekt destituut moeten weesen,
+[single] Ternaatse Commissien teegenwoordig dan
+[single] bij aldien, gelijk daarvan verdagt
+[single] in vroegere tijden, zijn ons even min, als
+[single] gehouden worden, pratexten uit dagter
+[single] aan UE: voldoende voorgekomen en wij
+[single] om eene meerdere dan behoorlijke
+[single] kostbaarheid der hier voorvallen„
+[single] beschouwer dezelve veel eer als gezogte
+[single] pietexten, om de meerdere kastbaarhaid
+[single] „de Commissie te doen voortduuren:
+[single] met eenige gratie te doen voortdennen
+[single] dan inwelke argevaar tot vermeer„
+[single] als eene behoorlijke beantwoording
+[single] „dering van ons leed UwelEdele Hoog
+[single] van het geen hun daar omtrent door UE:
+[single] Agtbare mogelijk nog gesterkt zullen
+[single] Was
+[single] worden
+== NL-HaNA_1.04.02_8149_0059 | #59 | sides: single | lines: 42
+[single] 44
+[single] worden op de beschouwing der bij de
+[single] Was voorgehouden, waarom wij ons ook
+[single] Jongst legen den berugten Boeginees
+[single] van uwe blooten aanbeveeling om naar
+[single] het voorbeeld van Ambon op dit sluk
+[single] Poauilie en sijne helpers de Pla„
+[single] voortaan meer menagent in 't werk
+[single] „nongers volbragte Expeditie geval„
+[single] te stellen, weinig effect beloven en Vaststel„
+[single] len Commissie gelden schoon Wij de„
+[single] „lan dat het van meer vrugt zoude zijn
+[single] „zelve met dan na rijpe deliberatie
+[single] geweest, bij aldien UE: het meerdere
+[single] gepasseerd hebben en volkomen met
+[single] kostende van die Commissien, boven
+[single] de stricte waarheid quadreerd de
+[single] door ons Voormaals gedane opgave
+[single] vroeger Jaaren hadde doen rembouree„
+[single] res, door de geene, die dezelve
+[single] dat in deeses met Amban niet
+[single] hadde waargenomen, het welk
+[single] wel maat ken gehouden worden;
+[single] wij mitsdien vertrouwen dat door
+[single] wij zullen nogtans tragten UwWelEdele
+[single] UE: het geval zig weder vertoonende,
+[single] Hoog Agtbare in dit Paiact meer„
+[single] es de Ministers zig op geen meer
+[single] „der genoegen te geven en de dien„
+[single] voldoende wijze verantwoordende,
+[single] wegens ontvangen Recomman„
+[single] zal worden g'effatueerd, ten einde
+[single] „datie van onse Hoge Indi„
+[single] niet telkens genoodzaakt te zijn, tot het
+[single] „ase Gebieders nauwkeurig
+[single] maken van reflexien, waar aan men
+[single] in het ooghouden.
+[single] als gewoon sijlijnt te worden, zonder
+[single] zig daar veel aan te bekrennen.
+[single] het
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0060 | #60 | sides: single | lines: 48
+[single] Met veel reeden hebben UE.
+[single] Wij verzoeke op het supt van den gew: semunde 108:
+[single] Hemmekam met vereijschte eerbied te mogen
+[single] de Ministers voorgehouden
+[single] noteeren: dat de door ons begane mislag
+[single] zij den afgaande Secunde Stem„
+[single] met hem te permitteeren om naar Ba„
+[single] „mekam niet hadden behooren te
+[single] „tavia te vertrekken, voor en al eer hij
+[single] permitteeren om naar Batavia
+[single] zig van de abuise en te kort konnin„
+[single] te verhekken voor dat hij zig van
+[single] „gen zijner administratie aanbelangende,
+[single] de abuijzen en te kortbevindingen
+[single] op eene duijdelijke en satisfactoire wij„
+[single] „se, had verantwoord; altans van geen
+[single] zijner administratie Concerneerende
+[single] nadeelige gevolgen voor de maatschappij
+[single] op eene duijdelijk en satisfactorie
+[single] geweest is, door dien zijne te kort konn„
+[single] wijze, ingevolge UE: beveelen, had
+[single] „gen betaald zijn en de abuijsen tot zijn voor„
+[single] „deel komen zouden bij aldien reflectie
+[single] verantwoord; der wij wenschen wel
+[single] geslagen Wierd op sijn voorgade dat
+[single] ook te kunnen goedkeuren, uwe om„
+[single] deselve hare source outleenen uit
+[single] „trent de Voornoemde Hemmekam
+[single] te veel aan de Comp„e goedgedane ad„
+[single] bedeelde dispositie, onder het Ar„
+[single] „vancen op verkogte Lijwaten en koopman„
+[single] schapper. voorn: Hemmekam is in de
+[single] „ticul van Dienaren, waarbij hij is
+[single] maand Meij van deesen jaare overleeden,
+[single] geadmitteerd in zijn vorige qualiteit
+[single] na dat van het ongeluk tot alen zijne
+[single] van koopman, met Coursneming
+[single] terug komst alhier onophoudelijk ver„
+[single] „volgd geworden en han tot overmaat
+[single] van de Gagie enz: daartoe staande,
+[single] van druk, maar weinig dagen voor
+[single] van den dag, dat hij in eenig ein„
+[single] zijn dood, bekend geworden is Uwer
+[single] „ploij zouden gesteld en hem teevens
+[single] WelEdele Hoog Agtbare op zijne readmissie
+[single] i3
+[single] gepermitteerd
+== NL-HaNA_1.04.02_8149_0061 | #61 | sides: single | lines: 35
+[single] 43
+[single] E. in hooijst derzelver dienst gevolgde in=
+[single] gepermitteerd om naar Ter„
+[single] „naten te mogen vertrekken,
+[single] dn 4 probatie.
+[single] Wij hebben voorts ordre gesteld op de afdoening
+[single] ten eijnde aldaar, of op eene der
+[single] van zijn restant debet aan aande Compagnie,
+[single] andere Oostersche Gouvernemen„
+[single] wegens Oorlog's behoeftens waar meede
+[single] bij zij overtrek na Batavia g'assisteerd
+[single] „te, g'emploijeerd te worden.
+[single] geworden is en welke net alle door han,
+[single] na het standen van zijn Bark op Oubij
+[single] verantwoord geworden zijn tot een montant van
+[single] ƒ - . . bereekend met twee Capitalen advance.
+[single] Want hoe zeer deszelvs gehouden
+[single] §109
+[single] gedrag in de Tidoreese onlusten bil„
+[single] „lijk Uwe Goedkeuring heeft kunnen
+[single] Wegdrager, neemt zulx egter niet weg,
+[single] dat hij zig op een zeer nonchalante wijze
+[single] gekweete heeft in zijn Post als Hoofdad„
+[single] „ministrateur en had dus onsen beder„
+[single] „kens voor UE: tot geen beweegreeden
+[single] moeten strekken om hem te readmittee„
+[single] zes in eene qualificatie, waarin hij niet
+[single] Weeder in sComp„s dienst zoude kunnen
+[single] worden g'emploijeerd zonder dezelve op
+[single] nieuw aan eene slordige waarneeming
+[single] van
+[single] 1
+[single] N=o 8
+[single] Cr
+== NL-HaNA_1.04.02_8149_0062 | #62 | sides: single | lines: 39
+[single] van hare belangens bloot te stelen, terwuijd
+[single] wij gaarne aan Uwe bedenking overlaaten
+[single] of wel eende Pott, waartoe de qualiteit
+[single] staat, in een der Oostersche Gouvernemente
+[single] te vrnden is, welke aan aemand die
+[single] zig zodanig in zijne Post gedragen had,
+[single] als de voornoemde Hemmekam, met
+[single] ƒ6
+[single] gerustheid zoude kunnen werden tebetrouwd
+[single] de permissie die wij aan voornoemde ind. En daar zulks alles noy te naberkelijkes
+[single] word, wanneer wij in aanmerking neemen
+[single] Hemmekam niet wel hebben kunnen
+[single] dat de voornoemde Hemmekam zig
+[single] Wilijellen om naar zijne aanlanding
+[single] zo als voorsegd, nog in geene deele„
+[single] aan dit hoofd Comptoir, naar Oubij te„
+[single] varen, ter recouvreering, in dies mogelijk,
+[single] laat staan op een voldoende weege„
+[single] zijner in desselfs aldaar gestrande
+[single] heeft verantwoord, moeten wijders die
+[single] Bark nog te vinden goederen en
+[single] readmissie met alle deszelvs gevolgen desap„
+[single] effecten en zijn daarop ingevallen
+[single] mobeeren verwagtende dat ook de
+[single] overlijden hebben de door UWelEdele
+[single] voormelde door hem als nog verschul„
+[single] Hoog Agtbare gevorderde ver„
+[single] „digde verantwoording niet zal worden
+[single] „antwoording ondoenlijk
+[single] uit het oog verlooren.
+[single] gemaakt.
+[single] §555 Wij kunnen daarentegen ons zeer wel
+[single] Wij laten ons voorts ter aanzien
+[single] Conformeeren met de door UE: gemakte
+[single] der te kortkomingen van de re„
+[single] „sidenten.
+[single] aanmerking
+[single] :
+[single] d:
+== NL-HaNA_1.04.02_8149_0063 | #63 | sides: single | lines: 44
+[single] aanmerkingen op de door de Ministers
+[single] gegeven reeden omtrent de source van
+[single] de te kortkomingen van de Residen„
+[single] „tes, welke, wij begeeren dat de minister
+[single] zig in alle deelen tot rigtsnoer zullen
+[single] doen strekken, zinde wij in 't bijzonder
+[single] ook van oordeel, dat het veelbeeter
+[single] is geen goederen afte geven in trocque,
+[single] van zig bloot te stellen aan 't onder„
+[single] „gaan van meerdere te kort bekomin„
+[single] „ges off verliezen door afgave op Cre„
+[single] „diet, waarin meer het particulier, dan
+[single] sComp„s belang, althensp: was het voor„
+[single] „deel bekeft, schijnd gemelteerd te
+[single] zijn, waarteegen wij dan ook vertrouwen
+[single] dat UE: ii't vervolg de nodige zorg
+[single] zullen dragen.
+[single] „sidenten, conform de Expresse
+[single] begeerte van UwelEdele Hoog„
+[single] Agtbare, tot een rigt snder
+[single] Stekkes de door Hunne Hoog
+[single] Edelheeden daar omtrent gemaakte
+[single] aanmerkingen en handelen wijders
+[single] Conform 't hoog wijs oordeel
+[single] n
+[single] van UWelEdele Hoog Agtbare alzo
+[single] een tijd lang aan den Resident
+[single] van Limbotto, welk rijkje
+[single] in groote verwarringen gesteeken
+[single] heeft, bij na geen koopmanschap„
+[single] „pis hebben laten toekomen.
+[single] Ook merker wij als een bijzondere
+[single] zijnde de verevening van het 1112.
+[single] blijk van uwe aandagt voor 's Comp„s
+[single] agterstal van der geweesen op„
+[single] belangens aan de door UE: gedane
+[single] rigter van Gorontale
+[single] aanschrijving aan de Ministers
+[single] Bax ter somma van
+[single] omtrent de vereedening van het
+[single] rd„s 6820: 24. bereads g'effectueerd,
+[single] gelijk
+[single] agterweesen
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0064 | #64 | sides: single | lines: 44
+[single] gelijk UwelEdele Hoog Agt=
+[single] geworden zijn.
+[single] agterweesen van den geweesen opzigter
+[single] van Gorontalo, ter somma van
+[single] Rijksdaalders 6820. 24:- terwijl wij
+[single] UE: gelasten te zorgen, dat het voormelde
+[single] agterweezens, zoo de vereevering als dan
+[single] niet reeds geschied is, te minste dadelijk
+[single] worde goedgedaan, op de ontvangst
+[single] deeser onser beveelen.
+[single] „bare ook al moet bekend
+[single] Nog zeer onzeeker zijnde of wel oit Negotie
+[single] § 13. de onverantwoordelijke behandeling
+[single] van het Negotie Werk en de boeken
+[single] Papieren op Ternaten opzettelyk verduisterd
+[single] geworden zyn, kunnen wy dien aangaande
+[single] op dit Comptoir verdienden met regt
+[single] alleen noteeren, dat na het te zoek ge¬
+[single] „raak za Memorial d' A=o 178/ Schaape
+[single] de nadrukkelijke vermaning welke
+[single] Zecherchas zyn gedaan, dog dat daarom„
+[single] UE: des wegens aan de ministers
+[single] „trent niets ontdekt geworden is; Een
+[single] zynen meester kwaadgesinde Pennist op
+[single] hebben gedaan en daar die behande„
+[single] het negotie Comptois kan daar veel spels
+[single] „ling verscheide bewijzen met zig brenigt
+[single] brouwen: de secunde hemmekam was
+[single] zoo als wij uit het door UE: bedeelde
+[single] negotie Boekhouder doen uit gebourde
+[single] en was van syn onderhorige wynig ba„
+[single] omtrent dit onderwerp met ver„
+[single] „mind; De Gawees en Negotia Overdrager
+[single] ontwaardiging bespeurd hebben, zo van
+[single] van voogt heeft stukjes gedaan waar
+[single] verdenking wegens verduijstering van
+[single] voor hy door de Edel Hoge Jndiase re„
+[single] „geering gecondemneerd geworden is in
+[single] Papieren, als van ontrouw„ vertrouwen
+[single] de betaling van ses maanden Gagie aan
+[single] wij dat zulx behoorlijk zal worden
+[single] de Armen deeser steede; Hykan niet vel
+[single] Twee
+[single] nagespurd
+== NL-HaNA_1.04.02_8149_0065 | #65 | sides: single | lines: 37
+[single] 7
+[single] Twee maal straff ondergaan, over een
+[single] nagespeurd en tegen de schuldigen, waar„
+[single] en dezelfde zaak, wy doen met believen van
+[single] onder voornamelijk de Negotie vierdro„
+[single] Uw Wel Edele hoog agtbare dienwagens aer„
+[single] „biedige Vertoningen, voor onse hooge
+[single] „ger van voogt, wanneer van desen
+[single] Jndiase Gebiedens, en zullen blyven in„
+[single] „wagtende nadere beveelen welke hoogt
+[single] door de Ministers ten laste gelegde
+[single] dezselver ons zullen gelieven te laten
+[single] falditeiten, zal gebleeken zijn, met alle
+[single] toekomen nopens de vergrypingen
+[single] requeer zal worden geproduceerd, UE:
+[single] van Voogt meerm:
+[single] daar en boven ii't algemeen gelastende
+[single] alle de geene, die bevonden zullen
+[single] zijn aan de voormelde slordige be„
+[single] „handeling schuldig te zijn geweest, uit
+[single] hunne Patten te stellen en na Needer„
+[single] „laad op te zenden als onnutte subjecte
+[single] ten ende alzoo voor eene zoo onverpef„
+[single] „lijke handelwijs, ten exempel van andere,
+[single] te werden gecorrigeerd.
+[single] de Twee na herwaards gezon „ §114.
+[single] Terwijl wij passeerende het zenden
+[single] der Pennisten om de Boeken
+[single] van twee bekwame Pennisten naar dit
+[single] Comptoir, om de boeken aldaar te zuij„
+[single] te zuijveren en in order te brengen,
+[single] „vergn en in ordre te brengen, ook goed
+[single] hebben in de uitvoering hunner Com„
+[single] „missie bij na geen vorderingen ge„keuren de schikkingen door UE: voor
+[single] maakt.
+[single] beide
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0066 | #66 | sides: single | lines: 29
+[single] beide de Pennisten beraamd, in gevalle
+[single] „maakt, zoo door eene aen boek„
+[single] zij zig van hunne Commissie ten UE:
+[single] „houder Saman overkomen
+[single] genoegen zullen hebben gokween latende
+[single] lammigheid aan de beenen, als om
+[single] in dat geval de bepaling eener toerei„
+[single] reeden de tweede uit gebrek aan
+[single] „kende beloning aan UE: over daar
+[single] bekwame Pennisten in een post
+[single] wij ons verzeekerd houden, dat in die
+[single] gesteld geworden is welke hem
+[single] bepaling de bevordering tot effectiff onder„
+[single] veele beezigheden verschaft,
+[single] „koopman, in Computatie zal worden
+[single] gebragt.
+[single] §115. Wat aangaat UE: verzoek om te worden
+[single] gequalificeerd om de zulke der Negotie
+[single] overdragers en soldij overdragers, die
+[single] geduurende een, drie of vijfjarige
+[single] waarneeming hunner Posten blijken
+[single] van bekwaamheid en iever mogten
+[single] hebben gegeven op goed getuijgenis van
+[single] de Ministeren der respective buijten
+[single] Comptoiren, te mogen bevorderen
+[single] tot onderkooplieden, zullen wij ons
+[single] in 't vervolg nader Verklaren.
+[single] De
+[single] Wij
+== NL-HaNA_1.04.02_8149_0067 | #67 | sides: single | lines: 41
+[single] 79
+[single] Wij moeten ons beklagen dat de
+[single] De reeden waarom de goemoets Hier 16
+[single] Goemoets touwen op deese Plaats de
+[single] duurder te staan komen is herkomstig
+[single] maatschappij zoo duur te staan,
+[single] uit de inhaligheid van den Inlander,
+[single] komer, alzoo deselve een aanmerkelijk
+[single] die de Goenoets bossen van 3. dluijten
+[single] voordeel zoude werden toegebragt,
+[single] tot hien duites per bas in prijs verhoogd
+[single] Gelijk wij reeds te meermalen hebben
+[single] hebben, na dat de na herwaards ten
+[single] Op gemerkt, bij aldien men zig in
+[single] handel gelicentieerde wordende Baer„
+[single] Indies zelve van diergelijke benobijt„
+[single] „dale Burgers dezelve daar voor„
+[single] „heeden tot reedelijke prijsen konde
+[single] inkoppen en vervoeren niet teegen„
+[single] voorzien en daar wij geen reeden van die
+[single] „staande de draad van ieder Bos
+[single] meerdere prijs hebben opgegeven geron„
+[single] thans wel de helft korter vald
+[single] „den, zal het dienstig zijn dat werde nagespand„
+[single] dan in vroeger dages
+[single] Wij habben, vooral de gouverneur 1w7. De slordije inrigting der Eijsschen
+[single] door de ministers heeft ons tot veel
+[single] ende seuurde perpler gestaan soo
+[single] dikwils ons in de gevenereerde Missives ergernis verstrekt en verdiend
+[single] volkomen het daarvan door UE:
+[single] van Hunne Hoog Edelhedens de Edele hoge
+[single] Indiase regering zijn voorgekomen de
+[single] gegeven getuijgenis dat daarbij
+[single] geen de minste kunde off
+[single] beschamende reproche welke daarmine„
+[single] overleg heeft plaats gehad; dan
+[single] omtrent de slordige inrigting der
+[single] Eijsschen
+[single] dit
+[single] N=o 8
+[single] 2
+== NL-HaNA_1.04.02_8149_0068 | #68 | sides: single | lines: 41
+[single] Eijsschen gevonden worden, zonder te kun„
+[single] dit zelvde rust ordeel, dat UE: varr„
+[single] „nen begrijpen Waarinne die slordigheid
+[single] „over hebben geveld, doet ons ver„
+[single] eigenlijk bestond, alzo beijde gemelde
+[single] worderd zijn, dat UE: zulks een„
+[single] Ministers buwrst waren, niets van
+[single] „voudig hebben gepasseerd met eene
+[single] het aanbevolene bij nevens gemelde
+[single] recommendatie om daar omtrent voor„
+[single] ordre in berigt te hebben g'ommitteerd,
+[single] tot dienwegens bij resumtie van Hunnor
+[single] „taan attenter te zijn en zig te gedragen
+[single] Hoog Edelheden Jongst por het schip de
+[single] naar de Circulaire ordre voor de Ooster„
+[single] Triton aangebragte missive van den
+[single] „sche Gouvernementen n het geformeerde
+[single] 31. Dec: 1788. uit den droom zijn
+[single] berigt door de opperkooplieden des
+[single] geraakt door de daarbij gedane opnee„
+[single] kasteels en brengt ons in de onaan„
+[single] „ming der qualiteiten van diverse benodigd„
+[single] „gename noodzakelijkheid om UE:
+[single] „heeden welke invoorleeden Iaar gepoti„
+[single] „tioneerd zijn geworden en welke quanti„
+[single] te moeten te kennen geven, dat in
+[single] zaaken van dat aller uiterste ge„
+[single] „oteiten bij den afgegane principalen Eijsch
+[single] op eenige articulen zoo enorme graot en
+[single] „wigt, als is de inrigting van den
+[single] Eijsch van het benodigde voor een
+[single] op andere wederom zoo aller geringst
+[single] genomen en niet eens met de bij onsen
+[single] Comptoir, tot beverdering van de
+[single] brieff van den 6. Septem: 1738. g'insereerd
+[single] belangens van de Maatschappij
+[single] Eijsch overeenkomende bevonden waren
+[single] en voorkoming der nadeelen, welke
+[single] dat men lijt begrijpen kan dat daar omme
+[single] groote
+[single] Uit
+== NL-HaNA_1.04.02_8149_0069 | #69 | sides: single | lines: 41
+[single] gevallen is.
+[single] uit een gebrek van kunde of
+[single] grote schrijffauten door de Copisten de„
+[single] opleetendheid op dat stuk kunnen
+[single] „gaan mooesten zijn, gelijk eene hierop
+[single] resulteeren voorseet op eene wijze,
+[single] staande Vergadering gevolgde Confrontatie
+[single] aan dat gewigt zoo weinig overeen„
+[single] met het ter Negotie Comptoir berustente
+[single] „komstig, teroep wij ook niet onaan„
+[single] minut dan ook waar en den Eijsch
+[single] „gemerkt kunnen laaten voor bij gaan
+[single] in dekite forma bevonden is te weesen inrige„
+[single] „rigt met de Colommen van Vertier 3n 5:
+[single] dat, vermits het inwrigting aan den
+[single] Jaaren, van vertier in het Jongste hoek„
+[single] Eijsch, zovel der hoofd administrateur,
+[single] 1Jaar van zuijvere verlies van restanten
+[single] als des Gouverneur zelve incumbeerd,
+[single] van Eijsch en van Caldulaliar benodijdhaeis
+[single] UE. daarop met zo veel regt gemaakte
+[single] voor een volgend boekjaar.
+[single] reflegie althans tot geen bewijs verstrekt
+[single] toezeer wij nu de aan soo verre gaan„
+[single] dat UE. keuren in de aanstelling
+[single] „de nanchabance schuldig bevonden
+[single] van den Geweezen Resident van
+[single] Pennitten, die alle inboorlingen
+[single] zijn, met dimotie, ter exempel van andere,
+[single] Gorontalo tot Secunde van
+[single] geworrigeerd hadden, soo hebben wij deese
+[single] dit Gouvernement, gelukkig in't
+[single] op hun misdrijf best voegende straffe
+[single] egter, uit gebrek aan de penne konnan„
+[single] „de voeren subjecten, agterwege laaten
+[single] en ons vernoegen moeten met de hun
+[single] bij besluijt van den 23. Julij Js l: opgeleegde
+[single] amnende van 3. Manden Gagie ten behoeve van het gemelde
+[single] sonds ter inlossing van Arme gevangenen.
+[single] Daar
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0070 | #70 | sides: single | lines: 24
+[single] Daar na beveneden is dat de Eijschen na de or„
+[single] „dre ingerigt geworden, dog altoos onver ant=
+[single] „woordelijk slegt gecopieerd geworden, dog altoos
+[single] onverantwoordelijk slegt gecopieerd ge„
+[single] „worden zijn en mes om dit laatste voortekomen
+[single] gestatueerd heeft dat de Eijsschen en andere voor„
+[single] name Negorie Papieres door Twee Politie„
+[single] „que Leeden ter keure van den Gouverneur
+[single] voortaan gecollationeerd zullen worden;
+[single] zo hopen wij dat Hunne Hoog Edelheden
+[single] hierop eene- gunstige reflectie slaan
+[single] en voor dit maal van hoogst derselver
+[single] intentie, om de nadeelen welke zdit
+[single] gem: defectieeuse Eijsch voor de Comp„
+[single] mogen komen te profluceeren, te laten voor
+[single] Onze reekening zullen willen afzien niet
+[single] alleen, maar dat ook Uwel Edele Hoog
+[single] Agtbare nog een vonkje van genegenheid
+[single] over hebbende voor Ministers, die niet
+[single] wel anders roeijen kunnen dan met de rieien,
+[single] die zij te boord hebben, zulx zullen willen
+[single] laten, wel gevallen.
+[single] De
+[single] S 118
+== NL-HaNA_1.04.02_8149_0071 | #71 | sides: single | lines: 40
+[single] 35
+[single] De aanleering der maleidse taat door 8ii0. Wij koper dat de ijver der Predican„
+[single] „ten Adams en Rousselet om
+[single] de Previdanten Adams en Rousselet
+[single] zig in de Maleidschetaal bekwaam
+[single] Concerneerende, kunnen wij voor het
+[single] te maken, aan uwe verlangens zal
+[single] tegenwoordige tot geeerde narigt van
+[single] voldoen en voegen ons Gaarne bij
+[single] UwelEdele Hoog Agtbare, niet
+[single] UE: onder het Articul van de
+[single] anders noteeren, dan wat hoogst„
+[single] huijsselijke zaaken deeses Comptoirs,
+[single] „dezelve daar omtrent ten genoegen
+[single] voorkomende prijsselijken wensch
+[single] zal gebleeken weeren bij de generale
+[single] dat die Dienaars doordrongen van
+[single] verslagen van hunne Hoog Edelheden
+[single] het gewigt hunner bediening en de
+[single] hoe wel daar bij nog niet sal
+[single] verpligting, die op hun legt, hunne
+[single] weesen voorgekomen dat de Tou„
+[single] uijterste poogingen zullen aan„
+[single] „daners hunne geweigtheid om het
+[single] „wenden om de Toudaners in
+[single] Christen geloov te omhelsen, nader
+[single] hebben gedeploijeerd en zulks voor dus
+[single] hunne heijlzame geneigtheid tot
+[single] zelve een raadsel blijvt, tot tijd en wijlen
+[single] de omhelsing van het Christen geloos,
+[single] eerstgenoemde Predicant Adams
+[single] en hun tot het ondersoek der waar„
+[single] van zijne ondernomen kerk en school
+[single] „heeden aan te moedigen.
+[single] visite zal weezen gerelourneerd en
+[single] het raport wegens deszelvs verrigtin„
+[single] „gen op voorschreve togt, sal weesen
+[single] ingekomen
+[single] ook
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0072 | #72 | sides: single | lines: 42
+[single] Ook twijfelen wij geenzint of UweliJung. De reeden door de Ministert bij
+[single] gebragt om de soldijen der aldaar
+[single] „Edele Hoog Agtbare zullen te zijne
+[single] tijd vernomen hebben dat wij ons van de hier
+[single] bescheiden Sipaaijs en Baliers voor de
+[single] bescheeden Sipaijs en Balijers nog niet hebben
+[single] dus lange gewonnen hebbende gagie
+[single] konnen ontdoen, navolgens onsen Wensch,
+[single] ven rd„s 4: 36: - inCant, 40. lb: Eijs
+[single] om hiermeede een begin te maken
+[single] Arak nog voor
+[single] en 3: kannen
+[single] met de ten deesen Comptoir zo hoog
+[single] een Jaar aan te houden, door UE:
+[single] nodig in te voeres bezuijniging, dienan„
+[single] gepasseerd en teevens gepersisteerd zijnde
+[single] „de wij op onse hoede te zijn tegen
+[single] de ondernamingen der met 'sCompag„
+[single] bij de order om, wanneer zij zig
+[single] „niet wapener voorleeden Jaar soo
+[single] niet willen ingageeren voor min„
+[single] glorieuselijk bevagten Boegineesen en
+[single] „dere gagie, hun als dan naar
+[single] Hanongers, die wel eens verdagt kannen
+[single] Batavia terug te zenden, appro„
+[single] zijn om een tweede kans te wagen op de
+[single] „beeren wij volkomen UE: daarin
+[single] bezittingen van UWelEdele Hoovg Agtb:
+[single] op de Noord Westkust van Celebes
+[single] gehouden directie.
+[single] Nopens de aan de Engelschen af„
+[single] thans volkomen verstendigd wegens §120.
+[single] gestene ongegeneerde vaart en het geen
+[single] den zin, Waarmeede de aan de Engel„
+[single] daar omtrent met opzigt tot dit Gouver„
+[single] „sche afgestaane ongegevreerde vaart
+[single] „nement is voorgevallen, om refereerende
+[single] verstaan moet worden zullen wij
+[single] aan het geschreevene onder de materie
+[single] nopens het veranderd Caracter
+[single] Van
+[single] van
+== NL-HaNA_1.04.02_8149_0073 | #73 | sides: single | lines: 37
+[single] 55
+[single] van Amban §w1. hebben wij vorder be„
+[single] van den koning van Ternaten de Vrijheid
+[single] „trekkelijk tot de staat der Inlandsche
+[single] gebreeken te noteeren: dat
+[single] zaaken aldaar, uijt het verhandelde bij
+[single] die vorst veel van sijne aange„
+[single] der Ministers Sereete Brieff van
+[single] nomen bitscheid en geenelijkheid heeft
+[single] den 15. Septem: 1785: 39 - vernomen
+[single] laten vallen na dat ten uijtvoer
+[single] niet leedweten dat de koning van
+[single] zijn gebragt de dien aangaande
+[single] Ternates te eenemaal en gevoelens was
+[single] door hunne Hoog Edelheden
+[single] veranderd en zijne vorige lijdzame en
+[single] aan der Gouverneur er Secun„
+[single] toegevelijk aard afgelegd, mitsgaders
+[single] „de toegesonden Secreete be„
+[single] zig in verscheide gevallen onvergenoegd,
+[single] veelen so meede na de
+[single] bitsen geewelijk betoond had: de
+[single] hierop gevolgde vertoning
+[single] Wijze Waarop UE die teedere zaak
+[single] van de vlag van den Souverijn,
+[single] hebben behandeld, merken wij als een
+[single] in deezen voerd.
+[single] blijk van voorsigtigheid en goede
+[single] directie aan, hoopende dat de beveelen
+[single] en in formatien, welke UE bij derzel„
+[single] „ver Secreete Letteren van den 31=e
+[single] Decemb: 1785: aan den Gouverneur
+[single] en secmnde hebben doen toekomen
+[single] door hun behoorlijk in agt genomen
+[single] en op eene Cordate wijze, gepaard
+[single] met
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0074 | #74 | sides: single | lines: 29
+[single] met een gepast beleid, ten uijtvoer
+[single] zullen worden gebragt en dat wij eer„
+[single] „lang daarvan de heilzame gevolgen
+[single] zullen mogen bespeuren, ons verder
+[single] dien aangaande refereerende tot
+[single] tot
+[single] het geschreevene bij onze Generale
+[single] Missive van den 12 DeC: Anno
+[single] passato S 119. en 120.
+[single] De Wedereesen zijn, durven wij UwelEd: 1721: de gemaakte schikkingen omtrent de
+[single] hoog Achtbare verseekeren, thans geheel
+[single] Onderworpere Wedareesen door UE: geoor„
+[single] en al dependent van der koning van
+[single] „deel zijnde van dien aard, dat deselve
+[single] Tidor, hunne Meester en zijn voor
+[single] daar door Wat veel van de dependentie
+[single] het grootste gedeelte, met deszelfs voor„
+[single] en het bestier van den Koning van Tidos
+[single] „kenis, weder na Weda terug gekeerd.
+[single] zoude worden onttrokken, vertrouwen wij dat
+[single] UE: derzelver attentie daarop zullen blijven
+[single] vestigen om Wanneer de omstandigheeden
+[single] van tijden en zaaken zulks zullen toelaten
+[single] en eenige verandering daar omtrent
+[single] UE: als dan nog noodzakelijk mogt
+[single] voorkomen daar in de vereijschte wor„
+[single] „siening te doen.
+[single] 5122
+[single] zijnde
+== NL-HaNA_1.04.02_8149_0075 | #75 | sides: single | lines: 52
+[single] ƒ
+[single] zijnde wijders niet gemakkelijk den §122:
+[single] Het: antwoord welk UE: den gemelde
+[single] vorst hebben doen toe dienen tot terug be„
+[single] gemelde vorst affte houden van des„
+[single] koming van de Wedareesen, die door de
+[single] selfs geneigtheid om allerlij vorderingen
+[single] Teruatana, in de Jongste revolte, tot slven
+[single] te maken op de Ternattanes, die Jan
+[single] zijn gemaakt, verdiend volkomen onze
+[single] in deesen nogtans niet schuldig blijven„
+[single] goedkeuring, zijnde het te wenschen dat hij
+[single] tot groot Soulaas van den Gouverneur,
+[single] zig daar door zal hebben laten beweegen
+[single] die hierdoor gelegenheid erlangt om
+[single] om zoo van die „ als andere vorderingen,
+[single] de wederzijdse pretentien te doen ver„
+[single] afte zien.
+[single] vallen.
+[single] En, dewijl ons, zo uit UE: als der=
+[single] De Inlandsche raken, zodanig als dezelve 123:
+[single] Ministeren brieven in't algemeen ge„
+[single] door ons beschreeven staan bij onse
+[single] „bleeken is, dat de Inlandsche zaaken
+[single] sereete advisen aan de Edele hoge In„
+[single] ten deezes Gouvernemente, van eene
+[single] „diase Regeering van den 15: Septem.
+[single] aller gewijtigste aanschouw zijn
+[single] 1785 niet alleen maar ook in
+[single] geworden, hopen wij dat de Ministers
+[single] alle onze volgende sureete Brieven,
+[single] niet zullen verzuimen om steeds
+[single] zijn van dat aller gewigtigst aanschouw
+[single] eene wakend oog te houden op de
+[single] geworden, als waarvoor UWelEdele Hoog„
+[single] Agtbare dezelve gelieven aan te mer„
+[single] nadenkelijke gedragingen niet alleen
+[single] „ken, ook sijn deselve althans door
+[single] van de Koningen van Ternaten en
+[single] ons als dusdanig behandeld, geworden
+[single] Batchian, maar ook op die
+[single] met die voor een omzigtigheid, welke UWel=
+[single] van den Tidoreeschen vorst, alzoo
+[single] Edele Hoog Agtbare zoo ernstig als
+[single] als wijkelijk gelieven aan te prijsen, de ondervinding geleerd heeft dat men
+[single] zoo
+[single] nooit
+[single] N=o 8
+[single] 604
+[single] 7
+== NL-HaNA_1.04.02_8149_0076 | #76 | sides: single | lines: 38
+[single] nooit te veel op zijn hoode kan zijn tegen
+[single] de listige aanslagen en kwade voornemens,
+[single] Waarmeede zij dikwils bezwangerd gaan.
+[single] zoo omtrent de gedragingen van de
+[single] koningen van Ternaten en Batchian„
+[single] als omtrent die van den nooreese Vorst.
+[single] De drie Haafd koningen, hoo zeer 1121. van eene goede inwloed kan ook op die
+[single] staats zaken zijn, alles, wat strekken
+[single] dezelve ook van begrippen onder
+[single] kan tot conservatie van de goede reeft en
+[single] des andere Verschillen er mis==
+[single] verstandhouding tusschen de drie Moluk„
+[single] „noegd op elkanderen zijn, wagten
+[single] sche hoofdkoningen, het welk van een
+[single] zig nogtans tot dadelijk hden over
+[single] voorsigtig beleid zeer veel afhangt, waar„
+[single] te slaan en worden, bij aldien aliets
+[single] om wij dan ook ten hoogste goedkeuren
+[single] tenteeren dat daar na, sweend, ter=
+[single] de door UE: aan die Vorsten gedane ver„
+[single] „stond door den Gouverneur weeder„
+[single] „maning tot onderlinge vreede, eendragt
+[single] „houden, zonder hier om als nog
+[single] en toegevenheid, mitsgaders de gegeven or„
+[single] nodig zij geweest tervlugt tot
+[single] „dres aan den Gouverneur Cornabé om
+[single] andere dan minsame en per„
+[single] in deezen, met alle bedaardheid en voorsigtig„
+[single] „suasive middelen, toevolugt te
+[single] „heid te werk te gaan ten einde voor
+[single] te komen dat het smeulend ongenoegen
+[single] niet tot dadelijkheden uilleitten, willende
+[single] wij hoper dat de verrigtingen van den
+[single] Gouverneur daar omtrent aan deeze
+[single] Uw heilrame intentie zullen hebben beantwoord.
+[single] neemen.
+[single] Van
+[single] Po
+== NL-HaNA_1.04.02_8149_0077 | #77 | sides: single | lines: 49
+[single] 39
+[single] 9
+[single] Van alle Inlandee volkeres die de 1725: De Vriendelijke bejeegening door UE.
+[single] gedaan aan de Alfoeres, die geduuren„
+[single] Edele hoge Indiase Regeering door
+[single] Vriendelijke behandeling aan de Maat„
+[single] de der Oorlog, in't kasteel dienst
+[single] schappij verbonden heeft, mag moge„
+[single] hadden gedaan, dog tans waren
+[single] „lijk de meeste staat worden gemaakt
+[single] ontslagen„ merken wij aan als zeer
+[single] op het attachement der Alfooren,
+[single] geschikt om de genegenheid van
+[single] die buijten des van ouds bekend zyn
+[single] die Natie voor de Maalschappij,
+[single] wegens hunne agting en Leefde
+[single] hoelanger hoe meer te winnen,
+[single] Jegens de Neederlanders meer
+[single] waar aan dezelve des te meer
+[single] =nog dan om hunne Geschiktheid
+[single] gelegen legt om de geschiktheid
+[single] tot den krijgsdienst, waarvan tog op
+[single] dier volkeres tot den krijgs dienst;
+[single] ternaten zeer verschillende geproken
+[single] dan het zijn deeze zelvde reedenen;
+[single] word: Immers word van hun„
+[single] „ne bravoure, door niet een der
+[single] welke ons doen bejammeren dat alle
+[single] hoop om van dezelve ook op Java
+[single] met dit volk Cansecutive op ox„
+[single] „peditie uitgezonden gecommitteer„
+[single] emploij te maken, schijnd verdwee„
+[single] +
+[single] „nen te zijn, terwijl wij op geen ge„
+[single] „dens goede getuijgenis gegeven/
+[single] schoon vast gaat dat de Celebise lukkige verandering daaromtrent
+[single] Volker voor deeze Natie zeer be„
+[single] hoper, om dat wij moeten bedugt
+[single] zijn dat de reede, die zulks belet,
+[single] „vreesd zijn: dan daar deselve
+[single] op Batavia so groot genoegen
+[single] niet ligt zal werden weeggenomen
+[single] namentlijk derzelver vreese
+[single] gegeven heeft, zo willen wij liefst van
+[single] dat
+[single] voor
+[single] N=o 8
+[single] 4
+== NL-HaNA_1.04.02_8149_0078 | #78 | sides: single | lines: 42
+[single] Voor het Bataviase Climaat, wilke
+[single] dat volk geloven dat het zelve, buijten
+[single] mes, uit het door UE: bedeelde om„
+[single] deere provintie, en onder Commando
+[single] Arent de 25: Altoens, Waarvan 6.
+[single] van Europeese officieren, met teruijt
+[single] op Batavia en 8. op de reijze
+[single] in den krijge dienst kan worden g'an„
+[single] overleeden waren, zoude
+[single] „ploijeerd Schoon de overkomst van
+[single] moeten veronderstellen niet
+[single] dit volk na Batavia voor eerst
+[single] geen hope overblijft om de hier no„
+[single] ongegrond te zijn.
+[single] „vens beschreeven reeden
+[single] De bepaling bij de Memorie §126: Met opsegt tot de saat rekening van dit
+[single] Gouvernement over het Boekjaer 173¾.
+[single] van Menage te buijten gegane
+[single] beschouwen wij het bestier van het zelve„
+[single] lasten van het boekjaar 178¾: ter
+[single] niet dan aller zorgelijkst: eene vrag„
+[single] somma van ƒ18092: — sijn meester„
+[single] „tering op zig zelve, door meerdere la„
+[single] „deels toevallige Latten; als trains
+[single] en oorlogs ongelden door de Engelsche
+[single] „sten dan winsten, tot eene iipor„
+[single] veroccassioneerd
+[single] „tante somma van ƒ203858 den
+[single] Oorlogs verusauwaerd tot ƒ21457. 14:8.
+[single] wel in vergelijking met de memo„
+[single] voorjaarige Lasten en ongelden tot
+[single] „rie van Menagie van eene somma
+[single] ƒ23041. 17: 2: en z: enz: buijten
+[single] van ƒ158092:— boven de bepaling
+[single] nog verscheide postes, voor de
+[single] bij die memorie gemaakt voor
+[single] welke bij voorengemelde
+[single] een Comptoir als dat van Ternates,
+[single] memorie geen bepaling ge„
+[single] wettigd volkomen uw gevoelen dat
+[single] „vonden word.
+[single] de
+== NL-HaNA_1.04.02_8149_0079 | #79 | sides: single | lines: 41
+[single] 64
+[single] „de Maatschappij onder zulke on„
+[single] „dragelijke lasten, moet succumbeeren.
+[single] De reedenen die ont soo vrij hebben 227.
+[single] Beswaarlijk kunnen wij egter
+[single] doen zijn van voor den secunde en
+[single] met die gemaakte reflecien over
+[single] een brengen het door UE: verleende
+[single] hoofd Administrateur A„o 1785: te
+[single] versoeken favorable voor schrijving bij
+[single] appuij aan het andersins wel er te
+[single] reegt door UE: geprocheerde worstel
+[single] UwelEdele Hoog Agtbare ter obtinue
+[single] der Ministers om den Hoofd admi„
+[single] van de tot sijn post in vroeger dagen
+[single] gestaan hebbende qualiteit van
+[single] „nistrateur te doen gaudeeren van de
+[single] opperkoopman soo meede van
+[single] qualiteit van Opperkoopman en der
+[single] fiscaal van die van koopman en vij
+[single] de koopman soo meede van de koop„
+[single] „man 's qualiteit voor den fiscaal
+[single] zullen op dat appuij liever voor
+[single] Dierr hier niet behoevende herhaald: dit maal geen reflectien maken
+[single] te worden, versoeken wij in alle eer„
+[single] als zodanige welke daarop na
+[single] „bied daar bij te mogen voegen dat
+[single] ons Schrijvens van den 7: Octob:
+[single] de inkomsten van den secunde seer
+[single] 1769. onder de materie van
+[single] gering en in verre na niet even
+[single] Ternaten en bijzonder na dat
+[single] van den 7: Octob: 1779. die van
+[single] reedig zijn, zoo met het aanzien als
+[single] Batavia voor dit onderwerp
+[single] met de arbeijd, welke aan zijne be„
+[single] „diening verknogt zijn: dan hoe zeer
+[single] wel zouden toepasselijk zijn
+[single] dit
+[single] En
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0080 | #80 | sides: single | lines: 43
+[single] En daar wij geene de minste
+[single] dit g'advanceerde met aller strictste
+[single] nauwe off nadere leden in uwe
+[single] waarheid over eenkomtt, zoo dur„
+[single] Jegens woordige voordragt hebben
+[single] „ven wij daar van niet meerder
+[single] aan te halen, uit vreese van UWel„
+[single] ontmoet, welke niet reeds ter
+[single] gelegenheid van beide onse voor„
+[single] „Edele Hoog Agtbare verder te
+[single] mishagen daar hoogst de zelve
+[single] „melde onse aanschrijvingen in
+[single] overweeging is genomen, inhereuren
+[single] zoo al, tot onze overgrote smorte,
+[single] wij als nog die aanschrijvingen
+[single] misnoegd genoeg zijn, soo over
+[single] wel Expresselijk, begeerende dat
+[single] de slordige behandeling van
+[single] zig daar na, onveranderlijk, zul„
+[single] het Negotie Werk, als over
+[single] „len gedragen en niet verwagtende
+[single] de hoog in top gesteegen Lasten
+[single] dat wij zodanige herhaalde voor„
+[single] ten deezen Comptoire, eenige Jaaren
+[single] „tragter omtrent onderwerper,
+[single] ,beide zaken van zeer
+[single] herw„s
+[single] Waarover wij onze meening
+[single] nadeelige aanschouw, wij belaiden
+[single] zoo klaar, als nopens deeze
+[single] het met leedweezen, dog waaraan
+[single] zaak hebben uitgedruck, meer
+[single] de Gouverneur en secunde Just
+[single] niet geheel en al schuld hebben,
+[single] zullen aantreffen, sonder dat ge„
+[single] „wigtige reedenen en zodanige, wel„
+[single] Wanneer, met gunstig believen van
+[single] „ke niet leeds iterativelijk door
+[single] UwelEdele Hoog Agtbare in hun
+[single] ons zijn afgekeurd, de noodsake„
+[single] voordeel dienen mag het genoteerde
+[single] sub
+[single] „lijkheid
+== NL-HaNA_1.04.02_8149_0081 | #81 | sides: single | lines: 44
+[single] 63
+[single] „lijkheid daar van kunnen, billijken;
+[single] sub s 17: deeser Marginaale rescriptie en
+[single] laatende wij aan UE: eige oordeel
+[single] uwelEdele Hoog Agtbare aan de intentie,
+[single] Waarmeede het door den Gouverneur
+[single] over, uit wat ligt wij thans dit
+[single] geval moeten beschouwen, na
+[single] voorgestelde middelen om de En„
+[single] het geschreevene bij onze missive
+[single] „gelsche van de aan hun toegestaane
+[single] van den 9. Octob: 1779. omtrent
+[single] Ongegeneerde Vaart in de Oostersche
+[single] zien, te doen afzien, eene min on„
+[single] de inconsequentie, welke wij
+[single] „gunstige uitlegging gelieven te geven en
+[single] in UE: besluijten hadden be„
+[single] „speurd, beizonder omtrent
+[single] het zelve toe te schrijven aan den iever
+[single] die hem vervoerd heeft, sig stellende
+[single] het Geeven van des titul en
+[single] in de plaatse van den Engelschemam„
+[single] lang van Opperkoopman aan
+[single] die, om den prevative handel van de
+[single] der Secunde op dit Comp„
+[single] Maatschappij, met name der spece„
+[single] „toir en de indrukker, wel„
+[single] „rij handel, te onderkruijpen, geen
+[single] „ke wij vermoed hadden dat
+[single] middelen onbetagd soude laten, welke
+[single] hem voor een tijd nadeel toebragter,
+[single] de beschouwing daar van
+[single] oak op UE: zoude kunnen
+[single] als dieze middelen slegts dienelijk
+[single] gemaakt hebben.
+[single] waren om hem tot het bedoelde, einde
+[single] te brengen.
+[single] De Gouverneur en Secunde sijn trouw= 128. En, daar deeze zorgelijke staat
+[single] van dit Comptoir, gevoegd bij de
+[single] „wens beijde geboren Neederlanders
+[single] en
+[single] Meenigvuldig.
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0082 | #82 | sides: single | lines: 45
+[single] „meenig vuldige blijken, welke wij hebben
+[single] aangetroffen van de onkunde, slordige
+[single] administratie en zo slegte, als onvoorzig„
+[single] „tige directie, Welke in de behandeling
+[single] der zaaken aldaar heerscht, ons een
+[single] naast aan de overtuiging grensend
+[single] vermoeden moet inboeremen dat die
+[single] Perzoonen, aan welke de belangens
+[single] der Maatschappij, op het zelve, zijn
+[single] toebetrouw, met name de Gouverneur
+[single] en securde niet geschikt zijn tot de
+[single] Posten, welke zij bekleeden, Moeten
+[single] wij tot besluijt UE: meede deelen
+[single] Onze ernstige wil en begeerte dat
+[single] UE: de gangen van die bijde Bestien„
+[single] „den met alle naukeurigheid zullen
+[single] nagaan en, bij de eerst voorkomende
+[single] blijkt van onbekwaamheid, of ver„
+[single] waarlossing van 's Comp„s belangens,
+[single] hun uit die posten weeren en,
+[single] zoo spoedig mogelijk 'er in voorzien
+[single] Neederlanders en hebben, bij aldien
+[single] hunne met 'S Moedert Melk in„
+[single] „gezogen grond bequizelen ook al bij
+[single] UwelEdele Hoog Agtbare verdagt
+[single] weesen mogten, door hunne hier
+[single] verplaats aangegane hecolijken, moer
+[single] belang dan eenig ander soo binnen
+[single] als buijten der raad van Politie, om
+[single] dit Uwel Edele Hoog Agtbare Era„
+[single] „blissement, naar uiterste vermogens
+[single] staande te doen blijven en dus alle in„
+[single] „fractie op hoogst derzelver in deesen
+[single] voord wettig verkregen perogativen dadelijk
+[single] te weeren: en, daar geen der drie Hoofd
+[single] koningen in de Moluccos van den
+[single] Jaare 1780. dat de hoofd maneance
+[single] van zaken op des presente Gouverneur
+[single] gedevolveerd is, iets van belang tegen
+[single] des anderen heeft duowen onderneemen,
+[single] sonder straks daar in tegen te sijn
+[single] gegaan, soo koomst ons, onder gunstige
+[single] Welluijding
+[single] dat
+[single] „ƒ
+== NL-HaNA_1.04.02_8149_0083 | #83 | sides: single | lines: 48
+[single] 65
+[single] Welduijding van UWelEdele Hoog Agtbare
+[single] dat het bestier van dit gewigtigt
+[single] Etablissement, aan daartoe geschik„
+[single] voor, dat het evenwigt al vrij wel ge„
+[single] „ten handen en op welk men zig
+[single] „houden word en in deesen dus geen
+[single] reeden van bekommering voor Uwel„
+[single] met meer gerustheid kan verleeten, verde
+[single] toe betrouwd.
+[single] „Edele Hoog Agtb: resideerd.
+[single] UE: bereffen ligtelijk hoeaan genaam het
+[single] sullende UwelEdele Hoog Agtba„
+[single] „re uit de nader advisen van hier
+[single] ons moet zijn tot zodanige uijtersten te moeten
+[single] komen, dog wanneer wij bij de voormelde zee„
+[single] voorlang gebleeken weesen dat het
+[single] „dene, welke ons daar toe gedrongen hebben,
+[single] voormaals in de gemoederen der
+[single] Tholukse Vorsten ontstene
+[single] nog in aanschau neemen, welk een misnoe„
+[single] misnoegen en gisting gecasseerd
+[single] „gen en gisting 'er thans heerscht in de ge„
+[single] is en dat nog de Gouverneur
+[single] „moederen der Moluksche Vorsten en
+[single] daar bij consideratien, hoe nodig een
+[single] nog de secunde aan dat mis„
+[single] vereijschte het is in het bestier van dit
+[single] „noegen schuld hebben gehad:
+[single] uwel Edele Hoog Agtbare sijn daar„
+[single] Gouvernement dat met door een gepast
+[single] en voorzigtig beled, het huste evenwigt
+[single] over egter seer g'alarmeerd en
+[single] weete te houden tusschen de drie Hoofdko„
+[single] houden den Gouverneur en Secunde
+[single] even soo ongeschikt voor het
+[single] „ningen en Wanneer wij daarbij nag aan
+[single] bestier van Inlandse of staats
+[single] die armhartige middelen, welke
+[single] zaken, als van het Negotie Work
+[single] men aan de hand heeft durven geven
+[single] en stellen den eerstgemelde hirmeede
+[single] om de Engelsche te doen afzien van
+[single] met
+[single] hun
+[single] No 8
+[single] 24
+== NL-HaNA_1.04.02_8149_0084 | #84 | sides: single | lines: 41
+[single] hun gevoerd verlanger om deel in
+[single] niet weinig ten toon voor sijne onder„
+[single] den handel der sperijer te krijgen
+[single] „horige, daar hij sig nogtans in de
+[single] een poinct, dat voorseeker van
+[single] behandeling de Inlandsche saaken
+[single] kwijt, navolgens eene hem door
+[single] geen mindere aangeleegenheid
+[single] de tijd eigen geworden kundigheid van
+[single] is dan de bewaring van de Jn„
+[single] de Landaart, Wettens en Gewoontent
+[single] „landse rust, kunnen wij ons niet
+[single] van de verschillende volker, die zoo
+[single] dan met ontvoering voorstellen dat
+[single] hier omstrek, als elders, in dit
+[single] misschien 's Comp„s belangens om„
+[single] wijd uitgestrekt Gouvernement
+[single] „trent bijde die onderwerpen gedeelte„
+[single] gevonden worden en voor UWel Edele
+[single] „lijk afhangen van persoonen, wier
+[single] hoog Agtbare boven dien niet waar„
+[single] slegt bestier en onkundige deuk„
+[single] „heid betuijgen durft dat het bestier
+[single] „beelden de Maatschappij daar„
+[single] van den Inlander, juist dat geene is,
+[single] „omtrent bloot stellen aan nabee„
+[single] Wat den Gouverneur geduurig
+[single] „len en gevolgen, welke niet te over„
+[single] beezig houd en hem genoegsaam geen
+[single] denken zijn
+[single] tijd overlaat om alles naukeurig
+[single] Wij herhalen mitsdien ook met
+[single] te konnen nog aan vooral de Ne„
+[single] dien ernst, welke UE: uit het ge„
+[single] „gocie papieren Welker inrigting
+[single] „wigt der zaek en onze zo wven
+[single] eigenlijk van sijn departement
+[single] aan den dag gelegde gevoelens, zullen
+[single] niet is en waartoe eene bijzondere
+[single] kundigheid
+[single] kunnen
+== NL-HaNA_1.04.02_8149_0085 | #85 | sides: single | lines: 45
+[single] ƒ
+[single] kunnen afmeeten, anze zoo dikmaals
+[single] kundigheid gehoord deweel aan ieder
+[single] gedane aanbeveeling om geensins
+[single] een niet in hem almeede niet
+[single] op lasse gronden, maar op grondi„
+[single] grondig gegeven is, schoon hij daar„
+[single] „ge bewijken, zoo van bekwaam
+[single] „om tot de Waarneming van sijn
+[single] „heid, als iever en attentie te
+[single] post meend instaat te weesen.
+[single] werk te gaan in de keuze van
+[single] UWelEdele Hoog Agtbare kome
+[single] subjecten de vervulling van sodanige
+[single] niet onbehagelijk voor bideden de Gouver„
+[single] Posten, in welke het op eene goede
+[single] „neur en secunde de moeijte die sij
+[single] neemen om UWelEdele Hoog Agtbare
+[single] directie en administratie, namelijk,
+[single] aankomt terwijl wij hij gebrek eener
+[single] in dien mogelijk te brengen, in eers
+[single] behoorlijke nakoming, van deeze
+[single] gunstijer denkbeeld. ten hunnen opsigte
+[single] onze beveelen, als waarneemens
+[single] ook bedelen uij UwelEdele Hoog
+[single] Van de belangens eener Maat.
+[single] Agtbare ten besluijten deeser onse
+[single] „schappij, welke niet alleen op het
+[single] eerbiedige rescriptie, gepersuadeerd
+[single] ƒ1
+[single] bestaan van zo veels ingezeetenen,
+[single] te willen sijn van onse trouwe
+[single] maar ook op de welvaart van
+[single] ijver en lust, in de verdere veerdedi„
+[single] het geheele vaderland, van eenen
+[single] „ging van dit Hoogst der zelver sta„
+[single] onmiddelijken invloed is, ons ver„
+[single] „blissement tegen alle vijandelijke
+[single] „pligt zullen reekenen, de schade
+[single] aanvallen, someede van onse ern„
+[single] en nadeelig welke daar uit zouden
+[single] „stige E begeerte om de druk„
+[single] „kende
+[single] Mogen
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0086 | #86 | sides: single | lines: 27
+[single] Elucoidatie omtrent hed4:
+[single] op visschen van Zware Ankans
+[single] mogen voortvloeijen, te verhalen
+[single] „kende lasten, welke het selve
+[single] tot nog gedragen heeft te brengen
+[single] op die geene, welke dezelve door
+[single] eene niet behoorlijke obser„
+[single] op de bepaling, soo ras zulx Im„
+[single] „vantie van die beveelen
+[single] „mers practicubel sal weesen
+[single] zullen hebben ver„
+[single] bevonden, sonder het selve aan
+[single] oorzaakt.
+[single] Oogschijnelijk gewaar bloot te stol„
+[single] „len.
+[single] en besoliciteeren wij daarop UWer Hoog Edelheedens
+[single] veel gekerde approbatie.
+[single] Aangaande de onder het hoofddeel van
+[single] Scheepen en Vaartuijgen geordon
+[single] „neerd opvissching van het voorleeden Jaar te deeser
+[single] rheede verlosen sware anker en Touw van het
+[single] schip Holland al aanstonds door den Gouver„
+[single] „neur ordre gegeeven zijnde aan den Eq: opzigter
+[single] van Waningen
+[single] ten eijnde zulks te resteeren
+[single] voor een belooning bij goed succes van rd„s 25:—:—
+[single] §35 Heeft
+== NL-HaNA_1.04.02_8149_0087 | #87 | sides: single | lines: 23
+[single] 69
+[single] Vanvolg
+[single] Troop
+[single] §35: Heeft gem: zee officier daar omtrent ter onse zitting
+[single] van den 23. Julij J=: l: gediend van schrifftelijk berigt,
+[single] waarbij te kennen geeft dat conform de al oude en
+[single] door den presenten Gouverneur Jaaren herwaards in vigua„
+[single] „eur geste ordre, het opvisschen van Dreggen Iterative
+[single] malen getenteerd, dog selden met het gewenschte gevolg
+[single] g'effectiveerd is, door de zware stromen en holle zeëen
+[single] beholven in de kerster maanden van de Moussan, sijnde
+[single] halff septemb: tot ult„o octob: en halff Februarij tot
+[single] ult„o Maart vooral omtrent zware Ankers van schepen
+[single] welke voor haar daags Anker op bijna geen minder
+[single] den 30. â. 20. v=m water leggen, terwijl de Stroom op
+[single] de Raede en in de gaten van Hirie, Tidor en Noorweegen
+[single] zo strek om de z=o en N„d Loopt, dat geen boeij op't
+[single] Ankers waken kan dat hem niet te min voormaals ge„
+[single] „lukt is, eenige steggen op te Visschen, dewelke weder
+[single] ingenomen sijn, dog hem met vooruit zigt van goed
+[single] Suues, om de voorenstaande reeden niet mogelijk is
+[single] het
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0088 | #88 | sides: single | lines: 21
+[single] het in voorleeden Jaar
+[single] Verstrokte zeyldoek aan 't
+[single] schip Holland
+[single] het opvissche van Sware Ankers te beproeven, sonder
+[single] daar bij een off meer Nieuwe zware touwen te risi„
+[single] „queeren, zo hebben wij ons met opgemeld Berigt
+[single] wel moeten Conformeeren en van de opvissching der
+[single] Zware Ankers voor eerst moeten affzien.
+[single] zo meede omtrent §36: UW Hoog Edelh„s onderzoek hebbende gelieven
+[single] te laten doen naarde gegrond off ongegrondheid van
+[single] het voorgeeven waar meede der Cap„n Laars Janzes
+[single] in voorleeden Jaar alhier is te berde gekomen, dat
+[single] hem namelijk ten dienste van sijnen bodem het schip
+[single] Holland te Batavia geen zeijldoek verstrekt is
+[single] geworden dat de zeijlen nogtans eene merkelijke
+[single] reparatie nodig hadelen, enz: en op welke zijne te
+[single] kennen gave alhier last gegeeven is, tot de verstelling
+[single] der zeyjlen van dien kiel waartoe 19¾. Rollen zijl„
+[single] doek uit der toenmeligen voorraad verbruijkt ge„
+[single] worden zijn; door den opper Equipagie meester de Haart
+[single] Berigt
+== NL-HaNA_1.04.02_8149_0089 | #89 | sides: single | lines: 23
+[single] „
+[single] 7
+[single] Vervolg
+[single] Berigt zijn geworden, met overlegging eener specifice„
+[single] „que Notitie van den Baas Zeijlemaaker dat diverse
+[single] zeijlen van het schip Holland voor desselfs te
+[single] doene Rheijse naar herw„s met 22: Rollen zeijldoek
+[single] zijn gerepareerd en ook nieuwe aangemaakte, dog dat
+[single] de gewone verstrekking van 3. rollen zeijldoek 1: roll
+[single] Carldoek en 2. rollen grauw zoek uijt gebrek
+[single] niet heeft kunnen geschieden, in wilker steede de
+[single] overheiden nog toms ontfangen hebben 2 Rollen zaijl
+[single] doek Bengaals
+[single] §37. Werdende voorts bij dat Berigt opgemerkt dat tot de
+[single] hier gedane reparaten 19¾ Rollen zijldoek verwerkt zijn,
+[single] zonder dat daartoe Een draad zeijl garen g'empligeerd zij, en
+[single] dat het wel zoude zijn opgebragt, bij aldien weesenlijk ver„
+[single] „bruijkt nas, terwijl bij de terug ontfangst van voorn: zeijlen
+[single] op de winkel niet heeft kunnen worden ontwaard den
+[single] zoo aansienlijke reparatie daar aan te zijn gedaen en dewelke
+[single] ook
+[single] N=o 8
+[single] t
+== NL-HaNA_1.04.02_8149_0090 | #90 | sides: single | lines: 20
+[single] Vervolg
+[single] ook door den op Holland beseheden Copp huijt van Hlische vol„
+[single] „leedig ontkend, word, in eene door hem gepasseerde verkla„
+[single] „ring naar bij zegt van die Reparatie niets te weten en dat
+[single] de zijlen om versteld te worden, niet eens nadewalge„
+[single] souden sijn.
+[single] §38. Op al het geene voorschreeven staat door den Equipagie
+[single] meester Daniel van Waningen tot zijne decharge
+[single] bij Borigh geinsereerd ter onser Besogne van den 23. Julij J: l:
+[single] gedian zijnde, dat op te kennen gave van den Cap„n
+[single] Janzen dat de zeijlen aan boord, en met eijgen volk reparee„
+[single] „ren zoude waartoe kans zag, en waardoor 't heen en weeder
+[single] voeren, na en van dewal konde worden uitgewonnen,
+[single] niets het benodigde van
+[single] 2½ Rolles Bengaals en
+[single] 17¼ _„o Hollands Zijldoek
+[single] verstrekt kreeg, het zijlduek dan ook in natura heeft
+[single] afgeegeven, dog geen zeijl garen, na dat sijn gering restant
+[single] hem zulks niet hadden toegelaten en Capn Janzen hem
+[single] daer
+== NL-HaNA_1.04.02_8149_0091 | #91 | sides: single | lines: 24
+[single] Vervolg
+[single] Vervolg
+[single] de onkort hoe venin„ §41„
+[single] igen zullen in trijplo ver„
+[single] „sonden worden.
+[single] daar van gebeesiteerd had, kunnen de eerstgem: verstrek,
+[single] „king op requidiet nader en met Eeder werden bevestigd.
+[single] §39. Gelijk deselve nog bevestig geworden is door eene door
+[single] den opper en onderzijlemaker gegeeven en ter evengem: Lessie
+[single] geinsereerde verklaring waarbij consteerd, dat het zeijl„
+[single] „doek weesentlijk verstrekt geworden is, om er de
+[single] zeijlen van 't Schip Holland meede te verstellen aan de
+[single] wal en aan Boord.
+[single] §40. In welke verantwoording wij voor zo verre genoegen ge„
+[single] „noumen dog den Equipagie meesters voorn: gereprocheerd
+[single] hebbende, over zulks aan ons gediend heeft van
+[single] schrifftelijk Borigt, dat die zijlen, zo als de ordre
+[single] lag met overleg der scheeps overhaaden verhulpen sijn
+[single] daar bij als een gevolg van het bovenstaande die getuijge„
+[single] „nis met gegrondheid niet heeft kunnen geeven
+[single] Dan dewijl den Gerepatieerden Capn L=o Janzen over
+[single] de
+[single] N=o 8
+[single] pagie
+== NL-HaNA_1.04.02_8149_0092 | #92 | sides: single | lines: 19
+[single] van 't navemdaamde 342.
+[single] is werk gemaakt
+[single] de questioude reparatie der zeijlen niet intijds heeft kos
+[single] „nen worden aangesprooken mits onttensten is eener wee„
+[single] der gade der onkostreekening, en waarvan den opper biguin
+[single] pagie meester de Haart zegd, altoos versteeken te weesen,
+[single] wanneer deselve niet in triplo gesonden worden, zo hebben
+[single] wij de voesending van zijn berigt in Copie, voor een ordre
+[single] van UW Hoog Edelh„s houdende de Negotie Beviendens
+[single] gelast dat met alle na de Hoofdplaats te retournee„
+[single] „ren scheepen off vaarthuijgen, de onkost reekening
+[single] in triplo laten volgen.
+[single] Gelijk wij meede op het door uw Hoog Edelheedens
+[single] gedaan onderzoek waarom den opperchirurgijn van
+[single] het schip Holland C: F: Burger voorleeden Jaar alhier
+[single] g'insteerd heeft om verstrekking van medieijnen voor de
+[single] verbruijkte ten dienste der met dat schip overgekomen
+[single] Militairen,
+[single] En
+== NL-HaNA_1.04.02_8149_0093 | #93 | sides: single | lines: 22
+[single] 17
+[single] voris door 't overlijden
+[single] vannon Wondheeler niet
+[single] aan voldaan
+[single] §43. . En waar omtrent door 't haofd der Chirurijn Cantebaan
+[single] gediend is dat volgens opgave der administrateuus inde
+[single] medicinale winkel door gem: opperchirurgijn den 11: Dec: 1707.
+[single] ontfangen is een kust met medicijnen voor 150. koppen te
+[single] weeten voor 100. zewarende, voor de tijd van 8. maanden,
+[single] en voor 50. militair en alleen voor de heen rheijse
+[single] § 44: Bij weeder opdaging van gem: wondheeler p„r het schip
+[single] de risten Extract hebben doen afgeeven van gem:
+[single] Berigt, met last zig daarop in scriptes te verant„
+[single] „woorden zonder egter daar aan heeft voldaan konnen
+[single] worden door eene zware ziek te aandewelke dien
+[single] waondheeler van sijn arrivement aff heeft geleboreerd,
+[single] en onder dewelke hyj eijndelijk op den 6. Junij J: L:
+[single] gesuccumbeerd is, zonder dat wij nodig geoordeeld
+[single] hebben, zijne nalatenschap aantespreeken wegens
+[single] Eene onreet matige vordering van medicamenten,
+[single] welke
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0094 | #94 | sides: single | lines: 25
+[single] Zodanig ayge boekt
+[single] § 46.
+[single] de ondre omtrent de Ver„
+[single] 3 2 trekking aande scheepen
+[single] zal worden in rgtgenoomen
+[single] langer dan 3 Jaar aangehou„
+[single] na aen vororden.
+[single] welke tog uijt hoopoe van gebrek niet verstrekt sijn geworden
+[single] nevenshaande pert= §45: En hbben wij op voorjaarige onkosten van scheepen en vaar„
+[single] „tuijgen laten afschrijven het tot reparatie der zijlen van 't schip
+[single] Holland verbreijkte 2½ Rollen Zeijldoek Bengaals tot
+[single] ƒ 27: 't welk als toen niet geschieden was, om reeden de ontfan„
+[single] 20. stukken van dat doek abusivelijk met ƒ 20: aan„
+[single] „gereekend waren geworden.
+[single] zullende den gouverneur, in voldoening aan de Courai„
+[single] „re ordre van den 14: octob: 1788. niet in gebreeken blijven
+[single] de vereijschte sorge te dragen op de gestelde ordres
+[single] omtrent de verstrekkingen aan de scheepen en daar
+[single] in zo veel mogelijk redutie zien te maaken
+[single] En geen waar touws §47. Gelijk meede den Equipagie meester Daniel van Waningen
+[single] ter observantie hebben aan bevolen de ordre bij evengem:
+[single] circulaire vervat om namenlijk geen zwaar touw
+[single] langer dan 3. Jaren aantehouden maar dezelve na
+[single] Expiratie van dien tijd na de hudeplaats terug te zinden.
+[single] Haezeer
+== NL-HaNA_1.04.02_8149_0095 | #95 | sides: single | lines: 21
+[single] kunnen om de aan„
+[single] „dankt worden.
+[single] geen vaarthnigen 340. Hoezeer wij Uw Hoog Edelheedens gemaakte gemarque
+[single] „gehaalde zeeden ange, dat de aanhouding van soo veel vaarthuijgen als waarvan
+[single] voorleeden Jaar de opgave geschied is, de lasten merkelijk
+[single] verhoogt, hebben moeten billijken en hoe zeer wij met
+[single] hoogst deselve wienschten dat de zaken met betrekking
+[single] tot den Inlander zig in dit Gouvernement eer„
+[single] „lang ten goede mogten schikken zo zij ons egter
+[single] geoorteeld Uw Hoog Edelheeders in alle eerbied te
+[single] vertonen dat het getal dier vaartuijgen, schoon
+[single] met ééen verminderd het welk ter sloop verkogt is
+[single] voorals nog geen verdere reductie veelen kan, zoo lange
+[single] de Extripateurs van specerij boomen in de
+[single] distriten van Maba, Weda en Pattanij met Twee
+[single] Pantjallangs gedekt, en uit de Gorontaolse
+[single] Goudmijnen geweerd moeten werden de moors„
+[single] handelaars, tot welke laatstgem: verrigting thans
+[single] g'emploijeerd worden twee Galowets, terwijl de
+[single] Barg
+[single] No 8
+== NL-HaNA_1.04.02_8149_0096 | #96 | sides: single | lines: 29
+[single] §49
+[single] 49
+[single] Ingaande Considntijes
+[single] als nu over
+[single] 350.
+[single] De hrian berdrarden vaan thuizen
+[single] zyn des hier nas Ggem
+[single] Baccq de verwagting ons seer dienstig voorkomt om na
+[single] Java of Batavia gesonden teworden ter inneem van zodanige
+[single] hout en steenwerken als waarvan ten diensten van dit
+[single] Gouvernement Eijsch word gedaan, dog waarvan gebrek aan
+[single] ruijmte in het Jaarlijks alhier opdagende schip niet
+[single] genoeg word aangebragt en 't gunt gelegenheid geeft
+[single] tot duure Inkoop.
+[single] Wij hebben de Secretarij bediendens gereproceerd
+[single] wegens de door hun versuimde oversending
+[single] van het berigt van den Equipagie meester
+[single] nopens de constitutie der vaartuijgen, welk
+[single] bereijt Uw Hoog Edelh„s met dat van de teegens
+[single] woordige staat derzelver Eerbiedigt onder de Bijlagen
+[single] sub N„o - - werd aangeboeden
+[single] De hier beschijden
+[single] bestaan
+[single] Comp„s vaar tuijgen
+[single] in de volgende
+[single] De Barcq de Verwagting
+[single] A„o 1785: aangebouwd en in
+[single] „ 1787. hier aangekomen
+[single] De
+== NL-HaNA_1.04.02_8149_0097 | #97 | sides: single | lines: 27
+[single] 79
+[single] Bedaeling waa L de barcg
+[single] de Verwagting 170 Jna.
+[single] de Chialoup de Manado in 1778. gebouwd en 1780
+[single] hier aangekomen
+[single] 6
+[single] de Pantjallang de Windhond in 1777. gebouwd
+[single] 1778. hier aangekomen
+[single] de Pantjallang de Tidor in 1784. gebouwd 1785: hier
+[single] aangekomen.
+[single] Pantjallang de Casjum 1786. gebouwd in 1787.
+[single] De
+[single] hier aangekomen
+[single] De Pantjallang de Swaan 1787. gebauwd 1788.
+[single] hier aangekomen.
+[single] De Galowets De Arend en de Eiter in 1784: ge„
+[single] bouwd en 1785: hier aangekomen
+[single] benevens 5 schouwen en 5: Landschuijten
+[single] § 41. Het Javase Ministerie uw Hoog Edelheeden buijten
+[single] alle twijffel voor lange g'informeerd zullende
+[single] hebben dat aan de in voorleeden Jaar nader„
+[single] waards gesonden Barg de Verwagting ter or„
+[single] „langing van een dubbelkuid aldaar door den
+[single] Baas en meesterknegt der Timmerlieden
+[single] te
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0098 | #98 | sides: single | lines: 20
+[single] Vervolg
+[single] Joana een dubbelhuijd gevonden is dog zolaag dat
+[single] deselve niet hoven water te zien is geweest, na luijd
+[single] Copia Berijten, en
+[single] der daar van overgesonden
+[single] dat gem: door de Wirm aangesteeken dubbelhuijd
+[single] gerepareerd heeft moeten worden, en aan ged„e kiel en
+[single] schuijt diverse andere reparatien, en aanmaking
+[single] van een losse Tunt sijn geschied, tot een bedragen van
+[single] ƒ10989:14: 3.
+[single] §52. Wij hadden gemeend voorn: Barcq ruim schotig
+[single] met het nodige voor de heen en te rug rheijde te hebben
+[single] geriefd, en egter heeft der daar op commandeerende
+[single] Capn Luijt„ Dokkerek op Java, een Excessive
+[single] Eijsch van benodigdheeden zo in ruiling als in repara„
+[single] „tie gedaan, en welke aldaar uit den toenmalige
+[single] voorraad niet heeft kunnen werden voldaan, hem ge„
+[single] rievende met het geene te missen was, tewijl welm:
+[single] Ministerie door ons in dien zulx nodig hadden gebagt
+[single] zouden
+== NL-HaNA_1.04.02_8149_0099 | #99 | sides: single | lines: 21
+[single] 81
+[single] Vervolg
+[single] Vervolg
+[single] zouden verwittigd en verzogt zijn gewoorden het benobijde
+[single] aangem: Barcq te willen verstrekken,
+[single] §53. Egter is bij de van Java overgezonden Notitien ge„
+[single] „bleeken dat Dekkweks aldaar Eijsch heeft gedaan
+[single] van benordigdheeden werke hem hier soo het ons in
+[single] den eersten opslag voorkwam, ingenoegzame quantiteiten
+[single] toegevoegd geworden zijn.
+[single] §54. En waaromtrend wij van gem: zee officier verantwoor„
+[single] „ding dewelke geinsereerd is ter onser Resolutie van den
+[single] 23. Julij J„o A„o en welke verantwoording ter ordre
+[single] van den Gouverneur gesteld zynde in handen van den
+[single] Cap„n tertee en E9: meester Daniel van Waningen om met
+[single] en benevens den eersten officier van de Triton te berig„
+[single] „ten, in hoe verre de op Java verstrekt geworden
+[single] Equipagie en andere goederen, al, off niet, nodig
+[single] zijn geweest dat door den Gezaghebber g'Eijscht wierden
+[single] Beijde
+[single] N=o 8
+== NL-HaNA_1.04.02_8149_0100 | #100 | sides: single | lines: 20
+[single] Vervolg
+[single] Vervolg
+[single] §55: Beijde Capiteins hier aan voldaan hebbende in een Bougt
+[single] g'insereerd ter evengem: Resolutie waarin behoogen dat
+[single] de hier gedaane verstrekkingen niet sufficeerende
+[single] zijn geweest, voor de heen en terug Rheijse, dewijl
+[single] uit deselve het meeste touwwerk nog hier ter rheede heeft
+[single] moeten worden ingeschooren en verbruijkt tot de reparatie der
+[single] zeijlen de hier ontfangen Articulen van Zeijldoek, zijlgaa
+[single] „ren, zijnen en lijktrosse, niet te veel op Java geEijscht
+[single] en ook maar gekreegen heeft het benodigde tot toetuij„
+[single] „ging en in ruijling zo hebben wij in gem: Berigt in
+[single] opgave wel moeten berusten.
+[single] §56. Gemelde Capn Luijts Dekkerck zig weegens de
+[single] schotten welke vide Berigt van den Baas en meester
+[single] knegt voorm: tot de zeijlkooij en rijst kamer gehoord hebben
+[single] en tot dewelke in de maand Augustus 1783. alhier
+[single] 30 p„s Chineese planken verstrekt geworden zijn, schrif„
+[single] „telijk hebbende verantwoord, ter voorm: dage be„
+[single] „weerende

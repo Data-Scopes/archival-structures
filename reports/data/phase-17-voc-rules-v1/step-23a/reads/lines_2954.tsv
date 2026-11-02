@@ -1,0 +1,9 @@
+line_id	gold_folios	status	note
+line_4aed53e0-330f-461a-8524-f7f2444af7b0		ok	no folio on this line (continuation/title/date)
+line_09aafaf9-7feb-4123-92e3-598a91adcbad		ok	no folio on this line (continuation/title/date)
+line_3788e35a-b44e-453e-93cd-370e366a0a07		ok	no folio on this line (continuation/title/date)
+df99ba84-dad0-4084-a8c7-5e6b0bc3de24		ok	no folio on this line (continuation/title/date)
+e302ada5-b665-44f1-a29e-3f033e819654	388	ok	"388 288" garbled; 388 printed on scan 21
+line_51cfc435-5d95-4b84-a6f8-76a1d6e99d05	409	ok	"109 709 - 841" garbled; read 409-841 range
+line_4849eb55-92af-4b37-97e9-ba81a8abe014		ok	no folio on this line (continuation/title/date)
+line_83619c43-6c0a-4d9a-b248-12db986a642c		ok	no folio on this line (continuation/title/date)

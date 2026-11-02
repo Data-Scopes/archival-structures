@@ -1,0 +1,3549 @@
+== NL-HaNA_1.04.02_1606_0001 | #1 | sides: single | lines: 1
+[single] 1496
+== NL-HaNA_1.04.02_1606_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1606_0003 | #3 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1606_0004 | #4 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1606_0005 | #5 | sides: single | lines: 5
+[single] Brieven en papieren
+[single] van
+[single] Bengale
+[single] Cormandel
+[single] Couchim
+== NL-HaNA_1.04.02_1606_0006 | #6 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1606_0007 | #7 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1606_0008 | #8 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1606_0009 | #9 | sides: single | lines: 31
+[single] „11 a 13
+[single] „ 14. a 18
+[single] Register der brieven en
+[single] papieren over Ceijlon van
+[single] Bengale, Cormandel en
+[single] Mallabaer ontfangen met
+[single] de retoúrvloot 1699.
+[single] Bengale
+[single] Cormandel
+[single] Mallabaer.
+[single] Bengale
+[single] f1 a fo 8 Originele missive door den slaet extraor„
+[single] dinaris en Directeur Pieter van dijkshoeck
+[single] en den raat in Bengale aende verga¬
+[single] deringh vande seventiene geschreven
+[single] den 6 decembr. 1698.
+[single] Rolle der gequalificeerde persoonen
+[single] in bengale residerende den laesten
+[single] Junij 1698.
+[single] 10- Monsterrolle der persoonen in bengale
+[single] mo
+[single] bevonden ult=m Junij 1698.
+[single] Cormandel
+[single] Register
+[single] Originele missive, door den gouverneur
+[single] Dirck Coomans, en den out gouverneur en den
+[single] Raet extraordinaris van Jndien Laurens Pit,
+[single] mitsgaders den raat tot nagapatnam geschre
+[single] ven aende Vergaderingh der Heeren seventie¬
+[single] ne dato 24. decemb. 1698
+== NL-HaNA_1.04.02_1606_0010 | #10 | sides: single | lines: 25
+[single] „ 75 —
+[single] f 19 a„ 60- Copie missive door als vooren aende hooge
+[single] Regeringh van Indien, dato 24. decemb. 1698
+[single] „61 a 62 Register.
+[single] „63 a 64. Originele missive door den gouverneur,
+[single] out gouverneur enden Raat, als vooren
+[single] aende vergaderingh vande seventiene
+[single] dato 14. Januarij 1699
+[single] „. 65 a 74. - Copie d=o door als vooren aende hooge regering
+[single] van Jndien gedateert als boven.
+[single] Mallabaer
+[single] Register
+[single] „76 a 80 Originele missive door den Commandeur
+[single] Magnus Wichelman en den Raat tot
+[single] Mallabar, aende vergaderingh der Heeren
+[single] seventiene geschreven uijt Couckin den
+[single] 31 december 1698.
+[single] „81 a „ 88- Copie missive door den Commissaris
+[single] Zwaende kroon, den Commandeur Wighel¬
+[single] man en den Haat als vooren aen de hooge
+[single] regeringh van Jndia, dato 16 februarij 1698.
+[single] o
+[single] „ 89 a 96=- d=o d=o aen alsvooren dato 14. maij 1698.
+[single] „ 97 a 145 - d=o d=o
+[single] do dato 31 decemb. 1698.
+== NL-HaNA_1.04.02_1606_0011 | #11 | sides: single | lines: 8
+[single] hooge
+[single] 1698
+[single] egering
+[single] 1698.
+[single] 98.
+[single] 98.
+[single] 1
+== NL-HaNA_1.04.02_1606_0012 | #12 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1606_0013 | #13 | sides: single | lines: 25
+[single] TPatria. —
+[single] Aen d'Edele Hoogh Agtbare Heeren
+[single] de Heeren Bewinthebberen ter
+[single] vergaderinge van XVIJ=m Representeerende.
+[single] D
+[single] 5
+[single] de generale vereenigde Nederlantse
+[single] geoctroijeerde Oost Indische Compagnie
+[single] ter preesidiale kamer Amsterdam.
+[single] Pr:
+[single] G. de fluijt
+[single] Nieuwlant
+[single] Edele, Hoogh Agtbare
+[single] Gebiedende Heeren
+[single] F:
+[single] Den sevenden november van 't
+[single] vergangen jaar gaven wij ons in
+[single] alle onderdanigheijt d' Eere aan
+[single] VEd=e ho: agtb=re onse geringe letteren
+[single] eere
+[single] le
+[single] p=r de fluijt d' Berkiet over Ceijlon te
+[single] laten.
+[single] -
+== NL-HaNA_1.04.02_1606_0014 | #14 | sides: single | lines: 21
+[single] laten afgaan, waar bij voor eerst VEd=le
+[single] m
+[single] Ho: agtb: aangekondigt wierd, dat de
+[single] rebellen in dese gewesten wederom
+[single] gedwongen waren geweest, retraitte
+[single] in hun hooft plaatse barda genaamt
+[single] te moeten nemen, 'tsedert welken tijt
+[single] des grooten mogols soons soone den prince
+[single] Mahometh Aziem in dese beneden
+[single] lande afgezact wesende is dese swarig„
+[single] „heijt oogschijnelijk ten Eijnde geraact, —
+[single] dewijle men volcomen bespeurt
+[single] dat de rebellije zo goet als gedempt
+[single] leght: Edogh andere quade gevolgen
+[single] te gemoet ziende met des vorsten
+[single] lange vertoevinge in dese landen seker„
+[single] „lijk afwagtende de kroontwist met
+[single] de apparente haast geschiedene afflijvieg
+[single] „heijt sijns grootvader, doed ons veele
+[single] becommeringe aannemen, dewijle
+[single] de vreese.
+== NL-HaNA_1.04.02_1606_0015 | #15 | sides: single | lines: 26
+[single] 2
+[single] de vreese, en bedugtinge is, dat VEd=le ho:
+[single] mo
+[single] agtb: door dusdanige troublen niet behoorlijk
+[single] zullen konnen werden gedient, van
+[single] zodanige retouren als van jaar tot
+[single] no
+[single] jaar door VEd=e ho: agtb: uijt dit district
+[single] le
+[single] geEijst, en ook vervolgens gehoorsaamt
+[single] zijn geworden, ons op 't aller Eerbiedigste
+[single] om in dese deswegen geen overvloedighe
+[single] materije ter neder te stellen gedragende,
+[single] aan het gene wij in alle onderdanigheijt
+[single] n
+[single] aan haar Ed=le agtb: tot batavia, (en door
+[single] de welke VEd=le ho: agtb: ontwijffelijk —
+[single] zullen wesen gecontenteert:) dit subject
+[single] confernerende hebben geschreven. —
+[single] De contanten door opgemelte haar Ed=le
+[single] No
+[single] agtb: ons p=r diverse bodems zo direct
+[single] van daar, als van andere plaatsen
+[single] 't sedert julij jongstleden tot voorsettinge
+[single] van den handel in loco toegesonden
+[single] bestaan.
+== NL-HaNA_1.04.02_1606_0016 | #16 | sides: single | lines: 21
+[single] bestaan sirca in een somma van
+[single] —
+[single] 2203000. guldens daar onder gevoeght
+[single] wesende ƒ257800. —. –. aan gemunte
+[single] en ongemunte goude specie, ongerekent
+[single] de coopmanschappen, waar door wij dat
+[single] wederom in staat gecomen zijn, om„
+[single] „me aansienelijke Carguasoenen waer
+[single] van reets al een bedrage van ongeveer„
+[single] ƒ1415000. –. –. te requenen van september
+[single] voorleden tot dato deses met diverse bodem
+[single] versonden is, zo batavia waarts, als
+[single] naar Ceijlon voor 't vaderland, ende
+[single] quartieren van jndia te bestellen,
+[single] en daar en boven ook om bij na alle
+[single] de jntrest penningen aff te leggen,
+[single] die zo veel dese directie beswaarden
+[single] tot welkers affbetalinge bisonder
+[single] gediend heeft, een goed bedragen van
+[single] omtrent vier en een quart tonnen
+[single] gouts.
+== NL-HaNA_1.04.02_1606_0017 | #17 | sides: single | lines: 22
+[single] 3
+[single] gouts aan coopmanschappen vertiert,
+[single] 'tsedert maart jongstleden; dog hebben
+[single] de vrunden ten comptoire Cassimaba„
+[single] „zaar nu wederom de novo â deposito moe„
+[single] „ten lighten, een Capitaal van ruijm
+[single] 300. Ø. guldens, het welke hoog nodigh
+[single] is geoordeelt te moeten doen, waarmede
+[single] men de Cooplieden voor hunne bereijts —
+[single] geleverde goederen ten deele te vreeden
+[single] gestelt heeft;: wij zullen niet manc„
+[single] „queren zo haast wederom vermogens
+[single] zijn, de gelden voormeld op jntrest —
+[single] gelight, afteleggen en zo veel moge„
+[single] „lijk volgens schuldige gehoudenissen,
+[single] d' E. Comp=e van zodanigen kankereuse
+[single] last, soeken te bevrijden. —
+[single] In voornoemde onsen jongste hebben
+[single] wij om dat de negotie boeken nog onge„
+[single] „slooten waren, VEd=le ho: agtb=res niet
+[single] konnen
+== NL-HaNA_1.04.02_1606_0018 | #18 | sides: single | lines: 23
+[single] konnen melden wat winsten en ongelden
+[single] in de vorige twaalf maanden waren
+[single] gevallen, jnvoegen zulx over batavia
+[single] heeft moeten geschieden; tot hertelijk
+[single] leetwesen moeten wij ons onvermogen
+[single] al wederomme in 't stuk voor schreve,
+[single] ten belange van dese jongste VEd=le ho:
+[single] agtb: tecennen geven, hebbende
+[single] die tot nu toe nog niet connen ver„
+[single] „Effent krijgen, geconsidereerd veele
+[single] Effen
+[single] onder ons in dese directie ziek zijnde
+[single] geworden, en van de welke den Z:
+[single] H„r cornelis bogaart van beloijs,
+[single] die door de hoogh indische regeringh
+[single] in de funtie van fiscaal naar
+[single] herwaarts is geschict hier dees dagen
+[single] onder andere mede is overleden
+[single] m„ver
+[single] Ele
+[single] waar door VEd=le ho: agtb: t Eijste ant„
+[single] „woord op dese en gene zaken tot nog toe
+[single] niet.
+== NL-HaNA_1.04.02_1606_0019 | #19 | sides: single | lines: 21
+[single] 4
+[single] niet vermogens zijn te laten toecomen. —
+[single] Inde lught heeft men hier tot verwonde„
+[single] „ringhe drie dagen naar den anderen
+[single] ontelbare millioenen van vurighe
+[single] sprinkhanen der groote van een
+[single] cleene vinger (dat selden off in
+[single] meer als veertigh jaren zo men
+[single] zeght niet gebeurd is:) divers over
+[single] dese logie zien passeeren, door het —
+[single] welke, ende de legers in dese landen
+[single] geposteert grootelijx te dughten is voor
+[single] een aanstaande dieren tijd, en vele
+[single] verhinderingen in den handel die
+[single] daer uijt al meer staan voort te
+[single] „komen, waar van Egter het beste
+[single] zijn verhopenden. —
+[single] Den 3=en van de Iongst gepasseerde maendt
+[single] augustus, hebben haar Ed=le agtb:re
+[single] de hoge regeringe van jndia gelieven
+[single] te
+== NL-HaNA_1.04.02_1606_0020 | #20 | sides: single | lines: 19
+[single] te schrijven p=r 'tjaght meijdreght dat de
+[single] fluijt 't nieuwland korts daar aan
+[single] te volgen stonde, welk laaste schip ons
+[single] geordonneerd wert met een Capitaal
+[single] van Een â anderhalve tonnen gouts
+[single] aan vaderlantse retouren directelijk
+[single] van hier naar Ceijlon te moeten af„
+[single] „zenden, om verders van daar desselfs
+[single] te ondernemen reijse in 't laatste
+[single] van dit, off wel in den beginne van
+[single] 't aanstaande jaar naar 't patria voort
+[single] te setten, welken bodem dan meerder
+[single] ruijmte gekregen hebbende, ter
+[single] oorsake den selven hier wat laat
+[single] is aangecomen, ende derhalven
+[single] ook p=r de fluijten Langewijck,
+[single] en vossenbosch, de meeste provisie
+[single] voor de retoer vloot naar Ceijlon
+[single] voorschreve.
+== NL-HaNA_1.04.02_1606_0021 | #21 | sides: single | lines: 19
+[single] 5
+[single] voorschreve in den beginne
+[single] van de gepasseerde maant
+[single] wesende wegh gesleept, 't welke
+[single] anders desen bodem derwaarts —
+[single] zouden hebben moeten vervoeren,
+[single] zo hebben wij daaromme
+[single] ook desselfs ladinghe niet
+[single] meerder goederen vergroot
+[single] le
+[single] dan de jntentie van haar Ed=e
+[single] aghtbare voormeld ons hadde
+[single] voor gedicteerdt; jnvoegen
+[single] gedaghte kiel zodanighe retouren
+[single] is jngegeven als de volgende
+[single] corte specificatie uEdele
+[single] ho: agtb: zal demonstreeren
+[single] namentlijk. —
+[single] 25645¾. lb:
+== NL-HaNA_1.04.02_1606_0022 | #22 | sides: single | lines: 27
+[single] 2564.¼. lb zijde. . . . . . . . . . . . 169. packen ƒ 96199. 18. -.
+[single] 7152. 1. 8.
+[single] 480. stux doeriassen - - - - - - „ 6. E„s en kisten„
+[single] 400. „ terremdaans. . . . „ 8. d=os „ 8416. 13. 8.
+[single] 3040. „ mallemollen. . . . „ 42. packen. „ 48572. 14. 8.
+[single] 600
+[single] 3110. „ cassen - - - . . . . . . „ 45. D=os „ 56387. 12. —.
+[single] 1600. „ Effene gingams. . . „ 16. d=os. . „ 7109. -. 8.
+[single] 900. „ gestreepte d=os. . . . „ 9. . . „. . . . „ 6665. 19. -.
+[single] 1020. „ hammans. . . . . . „ 17. . . . „. . . . . „ 7803. 15. 8.
+[single] 800. „ zaanen. . . . . . . . . „ 8. . . „ . . . „ 6756. 4. 8.
+[single] 180. „ bithilles cangan „ 2. . . „ . . . . „ 1788. 12. 8.
+[single] 8146. 19. -.
+[single] 700. „ sologessjens. . . . . . . „ 7. . . - „ . . . . „
+[single] 700. „ Coetoebanies. . . - „ 7. –. „. . . . „ 2366. 12. 8.
+[single] 760. „ Zeijlkleden. . . . . „ 19. –. – „ . . . „ 1515. 7: 8.
+[single] „gaarne roemaals „ 11. . . „. . . . „ 4056. 18. 8.
+[single] 1100.
+[single] „alibanies - - - - - . - „ 2. . „. . . „ 1443. 14. -.
+[single] 200.
+[single] 3266. lb cattoene garen. . . . . „ 24. –. . „. . . „ 1257. -. -.
+[single] 693 3/5. „ moghta of florette _=o „ 47. . . . „. . . „ 19530. 2. -.
+[single] 8125. –. stux: armozijnen en stoffen „ 78. -. en kisten 82861. 2. 8.
+[single] 261000. –. lb: zalpeter gestort. . . . . . . . . . . . „ 14661. 13. 8.
+[single] 100000. – „ peper _=o. . . . „. . . . . . . . . „ 13464. –. -.
+[single] Transporteere. - - - - - ƒ 396156. 1. —.
+== NL-HaNA_1.04.02_1606_0023 | #23 | sides: single | lines: 27
+[single] 6
+[single] P„r Transpor d ƒ396156. 1. —.
+[single] 20000. lb: sappanhout - - - - - - - . - - - - - - - - - - - - „ 571. 4. -.
+[single] 4000. „ sandelhout. . . . . . . . . . . . . . . . . . . . „ 1468. 16. -.
+[single] 234. 2. 8.
+[single] 6. rollen fijn bengaals zeijldoek in 1. pak. -
+[single] Somma van - - - - - - ƒ398430. 3. 8.
+[single] voor 't vaderlt, en voor
+[single] 995. 2. -.
+[single] Ceijlon. —
+[single] 4000. p=s lange goenijs - - - - - - - - - - - - - - - - - - - - „
+[single] te zamen een somma van ƒ399425: 5: 8.
+[single] Hebbende de fluijt oosthuijsen den 18=en
+[single] p=m
+[single] der gepasseerde maand, mede derwaerts
+[single] vervoert een bedrage van ƒ316678. 19. —
+[single] zullende van s gelijken naar verloop
+[single] van weijnigh dagen (terwijle d'jongste
+[single] lh
+[single] ordre van VEd=le ho: agtb: ende hoog indi„
+[single] „sche regering legt, dat men de retouren
+[single] die met de Eerste besendinge niet
+[single] batavia waarts hebbende konnen
+[single] versenden, naar Ceijlon zoude depe„
+[single] „cheeren:) de fluijt Etershem reijs —
+[single] laten vorderen, met ongevaar —
+[single] zodanigen.
+== NL-HaNA_1.04.02_1606_0024 | #24 | sides: single | lines: 20
+[single] zodanigen montant aan goederen
+[single] als brenger deses; in hope dezelve
+[single] daarmede nog tijdigh zullen aancomen
+[single] om VEd„le ho: agtb: te konnen werden
+[single] toegeschikt. —
+[single] De caurits door VEd=le ho: agtb: voor desen
+[single] jare gevordert, ende de bezorgingh van
+[single] tweemaal hondert duijsent ponden
+[single] door haar Ed=le agtb: tot batavia de
+[single] vrunden tot Ceijlon aanbevoolen zijnde
+[single] geweest, ende het gebrekende van dien
+[single] bij ons in te samelen, zo is Egter tegens
+[single] alle aangewende debvoiren het ons
+[single] onmogelijk geweest de suppleringhe
+[single] dier hoorenties te bewerken, aenge„
+[single] „mert de slegte vaart op de maldives
+[single] ende bijzonderlijk den zeer soberen
+[single] aenbrengh van dat gewasch in loco,
+[single] even wel volgens het schrijvens van
+[single] den
+== NL-HaNA_1.04.02_1606_0025 | #25 | sides: single | lines: 24
+[single] den heer Ceijlons gouverneur denken
+[single] dat de grootste quantiteijt van daar, als
+[single] mede van de vrunden tot mallabaer
+[single] dewelke p=r hunne advijsen berigt heb„
+[single] „ben aldaar een quantiteijt van 23178.
+[single] lb: in gereetheijt hadden, VEd=le ho agtb:
+[single] Ele 2
+[single] n.
+[single] zullen werden toegebraght. —
+[single] van de france schepen desen jare hier
+[single] aangekomen, ende waarvan in 't brede
+[single] in onse onlangs afgezondene aan de
+[single] hooge jndische regeringe hebben gesproo„
+[single] „ken, hebben w' van den resident uijt
+[single] bellazoor beright dat 'er vier kloeke
+[single] ten oorlogh toegerust over vier maen„
+[single] „den na punto Negras zijn gezeijlt
+[single] alwaar een op d' klippen verzeijlt, een
+[single] vermist is geraact, ende twee andere
+[single] agter bellazoor in de boght van kenka
+[single] omtrent drie weken geleden met zo veel
+[single] dooden en zieken zijn aangecomen
+[single] datse naauwelijx haer ankers hebben
+[single] konnen
+== NL-HaNA_1.04.02_1606_0026 | #26 | sides: single | lines: 21
+[single] konnen laten vallen 't welke ons geloven
+[single] doed haar voorgehad hebbende deceijn om
+[single] Elders in dese gewesten 't sij met gemak of
+[single] gewelt een vaste rendevoe te zoeken hier
+[single] door voor tegenwoordigh zal wesen te niete
+[single] geraakt. —
+[single] Hiernevens hebben wij wederom naar usan„
+[single] „tie bij geleght een gequalificeerde en een
+[single] gemeene rolle van alle des E. comp=s
+[single] mo
+[single] dienaren in dese directie 'tsedert ult=mo
+[single] Iunij deses jaars bescheijden mitsgaders
+[single] een stel onser zoldij boeken met 't gene
+[single] daar bij hoort. —
+[single] Ende de wijle hier niets meer weten
+[single] bij tevoegen zo zullen dese
+[single] besluijten naar alvorens den
+[single] Almagtighe gebeden te hebben
+[single] voor de welstant van VEd=le ho: agtb:
+[single] Ielurskre persoonen, en wijd uijtgebreijde
+[single] negotie
+== NL-HaNA_1.04.02_1606_0027 | #27 | sides: single | lines: 30
+[single] 8.
+[single] negotie, en met zeer diepe Eerbiedenisse
+[single] verblijven. —
+[single] Edele hoogh Aghtbare
+[single] gebiedende heeren —
+[single] u Edele hoog agtb: onder„
+[single] „danige en gehoorsame
+[single] dienaren—
+[single] V: Dijpkboeck
+[single] 4
+[single] Wilser
+[single] Theode„ de harde
+[single] Houglij
+[single] in bengalen adij 6=en
+[single] december a=o 1698. —
+[single] f:
+[single] Hterwej
+[single] Spiegel
+[single] G26:
+[single] J„ Huijser
+[single] Ot
+[single] G
+[single] Colijn
+[single] Boot:
+[single] ders
+[single] J Land: traate
+== NL-HaNA_1.04.02_1606_0028 | #28 | sides: single | lines: 4
+[single] No. 64:
+[single] Origineele missive
+[single] voor 't patria
+[single] No. 1.
+== NL-HaNA_1.04.02_1606_0029 | #29 | sides: single | lines: 4
+[single] equalificeerde rolle
+[single] van den Iare a:o 1698.
+[single] E
+[single] No. 4.
+== NL-HaNA_1.04.02_1606_0030 | #30 | sides: single | lines: 59
+[single] in de directie van Bengale in 's comp=s dienst
+[single] g'qualificeerde
+[single] Rolle van sodanige
+[single] 't Jaar
+[single] w„t V=r m=t namen en geboorte plaatsen presente qual:t voor wat qualit:t
+[single] in 't land gekomen
+[single] Op thoovdcompt: longen als —
+[single] ƒ. 180. Pieter van drix hoek van vlissingen, directeur ondercoopman A:o 1674.
+[single] „ 100. M:s Cornelis bogaart van beloijs raad van Iustitie
+[single] „raad van Iustitie
+[single] en d=t fiscaal
+[single] verto
+[single] „ 66. Tancolijn van amsterdam coopm: en f:o roovd administ=s coopman
+[single] no.
+[single] „ 36. alexander urwim van mallacca ondercoopm:
+[single] 69
+[single] „
+[single] - - - - - - - - - - - . . . . . - - - - in India aan genom:
+[single] ben cassier
+[single] „. 94.
+[single] 93.
+[single] „ 40. Nicolaas Both van schravenhage ondercoopman en
+[single] en P=o packhuijsm=r. . . . . . . . . . . . . Iongen
+[single] „ 12.
+[single] No
+[single] „ 90.
+[single] „ 40. Ioannis van der straten van delft ondercoopm:n ondercoopman
+[single] en veraanmeester
+[single] „ 90.
+[single] „ 40. Elbert spiegel van amsterdam ondercoopman ondercoopman
+[single] dorpmeester, en dispencier
+[single] „ 40. abraham cranendonck van amsterdam mindia aangenom:t
+[single] ondercoopman en P=l dispencier
+[single] „40. Iacob Zadelim van amsterdam ondercoopm:n ondercoopm:
+[single] en E=e ordinare gecommitteerde
+[single] „ 40. Pieter hofmeester van pipeleij ondercoopm: in india aangenom:
+[single] en factuirhouder
+[single] „ 30. Cornelis van noort van alphen boekhouder mattroos
+[single] en p:l secretaris
+[single] „ 24. Jacob van hoorn van amsterdam adsistent adsistent
+[single] en 1=e soldijboekhouder
+[single] „45. Marten smith van oldenzeel oppermeester derdemeester
+[single] 9
+[single] „8
+[single] „ 30. Pieter van der hende van schipluij kranck„ ondertimmerm:
+[single] besoecken
+[single] „ 24. Ioannes Lepter van rotterdam
+[single] adsist:t en &=t
+[single] Es
+[single] clercq
+[single] adelborst
+[single] O
+[single] „
+[single] 80.
+[single] „
+[single] „ 94
+[single] „ 88
+== NL-HaNA_1.04.02_1606_0031 | #31 | sides: single | lines: 52
+[single] personen, als onder ult=o Iunij a:o 1698. —
+[single] sijn bevonden, Namentlk
+[single] met wat schip voor wat camer door wien successive verbetert
+[single] twap:s ter tholen Zeelandt
+[single] 3
+[single] A:o 1684. door d Ed: h:r gouverneur generaal cornelis speelman
+[single] tot coopman, a:o 89. door d' Ed:e E:r commissaris adriaan
+[single] van rheede tot oppercoopman, en a:o 96. door d' Ed:le heer
+[single] gouverneur generaal Willem van onthoorwend' Ed=le
+[single] heeren raden van India tot directeur aangestelt
+[single] Dieft
+[single] Lion
+[single] thuns te dieren amsterdam
+[single] __o a:o 79. door d' E. heer Iacobus verburgh tot boekhouder, en a:o 81.
+[single] door d' E.E:e heer commissaris van rheede tot ondercoopman
+[single] gevordeert
+[single] _
+[single] A:o 83. door d Ed: her gouverneur Iacob Jorisz: pits tot
+[single] adsistent, a:o 87. door d' Ed:e heer commissaris van rheede
+[single] tot boekhouder, en a:o 89. door haar Ed:e g=t achtb: tot batavia
+[single] tot ondercoopman geavanceert
+[single] d'beemster —
+[single] heeft
+[single] d'belous
+[single] d'ridderschap amsterdam
+[single] d_o door den gesaghebber den D: Ian pit a:o 83. tot adsistent, a:o 89. door
+[single] den directeur a=t muijkens tot boekhouder en a:o 94: door haar
+[single] Ed:e g=t achtb: tot batavia tot ondercoopman
+[single] d' spiegel
+[single] __o a:o 1692. door d' E. h:r oud directeur a:t muijkens tot boekhouder
+[single] en a:o 96. door haar Ed:le g:t achtb: tot batavia tot ondercoopman
+[single] a:o 88. door d' E: E:s a:t muijkens tot adsistent, en a:o 94. door
+[single] siin tot boekhouder
+[single] heeft
+[single] prinsland
+[single] moercapel amoterdam
+[single] d'burgh van leiden
+[single] _=o a:o 82. door d' E. E:s Commissaris boutes tot ondermeester a:o 87.
+[single] door d' Ed:e heer commissaris van rheede tot oppermeester, en
+[single] laast ingem:e qualiteit door d' E: E:e oud directeur A:t Muijkens
+[single] ingagie verhoogt
+[single] Delft a:o 88. door d' Eh:s a:t muijkens verbetert
+[single] voorschoten
+[single] houlhoeredijk hoorn
+[single] a:o 94. door d' E. E:s gewesen directeur a:t muijkens
+[single] tot adsistent aangestelt
+[single] Eere
+[single] -
+[single] .. . . .
+[single] _o
+[single] .
+== NL-HaNA_1.04.02_1606_0032 | #32 | sides: single | lines: 50
+[single] W: p:r m=t Namen, geboorte plaatsen presente qualiteijt voor wat qualiteijt in't 't Iaar
+[single] landgekomen
+[single] ƒ54. Ciert Gjoutres van harlingen opperstuurman, hooploper
+[single] Loots en V=le equipagiemeester
+[single] Ao 1673.
+[single] „ 30. hugo vander meer van schravenhage boek„ adsistent
+[single] houder en extra ordinare gecommitteerde
+[single] „24. Iacob van Esvan mallacca adsistent
+[single] en order Extra ordinare gecommitteerde
+[single] a:o 1688.
+[single] Opd secretarie bescheiden als
+[single] „ 24. dirk hunisingvelt van Zutphen adsistent ondermeester
+[single] t
+[single] „ 24. Ioannis carstensz: rosengaart van amester„ mattroos
+[single] dam adsistent
+[single] „ Iohannis van Leijningen van batavia inindia aangenomen
+[single] d=o adis Ct
+[single] „ 10. Nicolaas clinck van amsterdam, soldaat
+[single] aan depen dienst doende
+[single] „ 10. ketercolim van amsterdam soldaat
+[single] aan depen dienst doende
+[single] „ 80.
+[single] _o
+[single] p 't negotie Comptoir aln
+[single] „30. Bartholomeus d' Lacroix van amsterdam adsistent
+[single] boekhouder
+[single] „ 24. adriaan houtuijn van den haagh adist:t- adsistent
+[single] „16. Pieter volkertsz: van batavia &=o _:o in india aangenomen
+[single] _o
+[single] „ 9 Kieter d' Iager van amsterdam mattroos,
+[single] aan depen dienst doende
+[single] Zij d'
+[single] D: E:o directeur, te weten
+[single] Een
+[single] „ 12. Pieter pietersz: Willeboorts van tindostan in india aangenomen / 96
+[single] adelberst, aan depen bij hun E: dienst doende
+[single] n
+[single] In 's comp:s packhuijsen als
+[single] „30. Olivier carbauet van middelburgh
+[single] boekhouder
+[single] hooploper
+[single] „ 54. prie
+[single] „ 92.
+[single] „ 95.
+[single] „ 95.
+[single] __o
+[single] „
+[single] 94
+[single] -
+== NL-HaNA_1.04.02_1606_0033 | #33 | sides: single | lines: 46
+[single] met wat schip voorwatcamer door wien successive verbetert
+[single] _=o a:o 95. door d' E. h:r gewesen directeur a:t Muijtrens tot
+[single] boekhouder aangestelt
+[single] wapen van alckmaar amsterdam a:o 1680. door d' E: E:e irecteur verburgh tot Loots,
+[single] a:o 91. door haar Ed:e g:t achtb: tot batavia tot opper„
+[single] stuurman, en a:o 98. door d' EE: directeur Pieter van
+[single] duxhoek tot DE Equipagiem:r aangestelt
+[single] Langewijln amsterdam a:o 1694. door d' EEE. s out directeur a:t muijkens tot
+[single] boekhouder aangestelt
+[single] silversteint amsterdam a:o 1696. door d' E: E. e a:t muijkens tot adsistent
+[single] 92.
+[single] aangestelt
+[single] 0. hendrik mourict
+[single] _=o a:o 1640. door d' Ed:e C:re gouverneur generaal Ioan
+[single] -
+[single] camphuus tot adsistent gevordert
+[single] _o
+[single] _o
+[single] pampus
+[single] _o
+[single] -
+[single] _o
+[single] -.
+[single] d' berckel
+[single] . . . . . . _=o
+[single] te
+[single] a:o 1668. door d E. E:e H=t gesaghebber Ioan Velters
+[single] tot adsistent a:o 83. door d' E. E. V=r gesaghebber Ioan
+[single] pit tot boekhouder g'avanceert
+[single] 54. prins Willem Zeeland
+[single] veree
+[single] 1
+[single] 88.
+[single] - . . . . . . .-
+[single] . . . ..
+[single] 95.
+[single] 95.
+[single] ..
+[single] -
+[single] -
+[single] . . . . . .. .
+[single] 90
+[single] _o
+[single] 6
+[single] _o
+== NL-HaNA_1.04.02_1606_0034 | #34 | sides: single | lines: 52
+[single] w:t p=r m:t namen, geboerte plaatsen presente qualit=t voor wat qualiteit 't Iaar
+[single] in't landgekomen
+[single] Vervolgh van die in 's comp:s pack„
+[single] huisen bescheiden sin te weten
+[single] ƒ24. Cornelis Comans van batavia adsis t:t mnindia aangenomen A:o 1685.
+[single] „24. Ioannis Muijtrens van amsterdam
+[single] adsistent
+[single] adsistent
+[single] In 's Comp:s packsaal bij 't sorteren
+[single] en afpacken van diverse kleden ten
+[single] desen comptoire genegotieert werdende
+[single] „ 24. Marten huisman van Iaffnapatnam inindia aangenomen „ 91.
+[single] adsistent
+[single] „ 24. gillis van arendonck van rotterdam mattroos
+[single] adsistent
+[single] 3
+[single] Cassier, als
+[single] zij den
+[single] „ 24 cornelis huijbregtz: van vlissingen
+[single] adsistent
+[single] „ 92.
+[single] adsistent
+[single] en de dispens omme dagelijcx present
+[single] butuutreijken van rantsoenen
+[single] aan d' aanlandleggende militairen tesim
+[single] als
+[single] „10. Tan abramsz: roos van rotterdam
+[single] soldaat
+[single] soldaat
+[single] „ 94.
+[single] Equipagie meester
+[single] Enden
+[single] als.
+[single] „ 93.
+[single] „ 1. anthonij carelsz: van batavia mattroos in india aangenomen
+[single] aan depen dienst doende
+[single] Tot Cassimabozaar en
+[single] ragiamolal, namentl.
+[single] mo
+[single] . 80. Iacob pelgrom van rouaan oppercoopm:
+[single] Coopman
+[single] en opperhoovd
+[single] „ 87.
+[single] „ 36. anthonij huijsman van Iaffnapatnam in india aangenomen
+[single] ondercoopman en p=l secunde
+[single] „ 40. E wout van die hoek van vlissingen ondercoopman
+[single] ondercoopman en cassier
+[single] 1196.
+[single] 94
+[single] „ 89.
+[single] 2
+[single] „81.
+== NL-HaNA_1.04.02_1606_0035 | #35 | sides: single | lines: 26
+[single] adsistent gevordert
+[single] compt:e cassimabahaar aangestelt
+[single] met wat schip voor wat camer door wien succive verbetert
+[single] _o
+[single] —.a:o 91. door d' E:r commandeur Isack van dielen
+[single] tot adsistent aangestelt
+[single] tot adsistent aangestelt
+[single] Cronenburgh rotterdam a:o 1696. Door d' EE:s directeur Pieter van dixhoek
+[single] saamslager Zeelant
+[single] schoondijln amsterdam
+[single] _o
+[single] _:o a:o 1696. door haar Ed: g=t achtb: d' hoge regeringe
+[single] op batavia tot oppercoopman en hooft vant
+[single] _=o a:o 1687. door d' Ed:e heer Commissaris van rheede
+[single] boekhouder en a:o 89. door haar Ed=le g=t
+[single] achtb: tot batavia tot ondercoopman gevordert
+[single] Langewijl
+[single] vrijburgen Zeelant
+[single] Eerte
+[single] -
+[single] d' schulp
+[single] -
+[single] _o
+[single] a:o 1692. door d' E: h=e directeur a:t muijtrens tot
+[single] _o
+[single] 67
+== NL-HaNA_1.04.02_1606_0036 | #36 | sides: single | lines: 46
+[single] w:t P=m m:t namen, geboorte plaatsen presente qualit=t voor wat qualiteit 't Iaar
+[single] in't land gekomen
+[single] v: adgist:t in dienst
+[single] aangenomen
+[single] 't vervolgh van de op cassimabazaar
+[single] bescheidene dienaren als.—
+[single] ƒ
+[single] ƒ 40. Ioannissir van amsterdam ondercoopm: soldaat
+[single] a:o 1682.
+[single] in dienst aangenomen
+[single] en pckhuismeester
+[single] t
+[single] „30. Ian Pietersz: van bergen boekhouder en bosschieter
+[single] ordinare gecommitteerde
+[single] „ 84
+[single] „ 24. gerbrant nottelman van wijk teduurstede adelborst / 86.
+[single] adsistent en ordinare gecommitteerde
+[single] „30. Willem dees van Leijden boekhouder ondermeester
+[single] „30. Pieter metman van amsterdam verwer in india aangenomen 189:
+[single] „ 92.
+[single] „ 30. dirk schaap van delft boekhouder - - - - - - - adsistent
+[single] soldaat
+[single] „89.
+[single] „ 9. Iacob dijkhoff van rotterdam soldaat
+[single] aande pen dienst doende
+[single] In de munt epragiamohoe subaltern
+[single] 't compt:r Cassimabazaar te weten
+[single] „30. Casparus de Carpentier van amsterdam adelborst
+[single] boekhouder en resident
+[single] „20. adriaan van Dijck van amsterdam
+[single] cuijper
+[single] bottelier en resident
+[single] „ 86.
+[single] „ 90.
+[single] Comptoir pattena, te weten
+[single] ƒ 60. Theodorus de Caje van schravenhave
+[single] coopman en gewesen opperhoovt
+[single] 131.
+[single] „40. Carel goutappel uit den haagh ondercoop„ J:o mattroos
+[single] man en g'eligeert opperhoovd
+[single] „ 40. arent hofmeester van delft ondercoopman ondercoopman
+[single] en secunde
+[single] „ 87.
+[single] -
+[single] „7
+== NL-HaNA_1.04.02_1606_0037 | #37 | sides: single | lines: 33
+[single] sumatra
+[single] princeland
+[single] met wat schip voor watcamer voor wien successive verbetert
+[single] amsterdam A:o 1687. door d' Ed:e heer commissaris van rhede
+[single] tot adsistent, en a:o 92. door haar Ed:e g=t achtb: tot
+[single] batavia tot ondercoopman aangestelt
+[single] vrijleit Zeelant a:o 1688. door d' Ed:le heer commissaris van reede
+[single] tot adsistent, a:o 91. door d' E. E: a:t muijkens
+[single] tot boekhouder g'avanceert
+[single] __o. a:o 1691. door d' Eh:s a:t Muijkens tot adsistent
+[single] aangestelt
+[single] schiebroek amsterdam a:o 1697. door d' EE:s directeur Pieter van dirxhoek
+[single] tot boekhouder aangestelt
+[single] oosterland
+[single] hogergeest delft. a.o
+[single] cronenburghe rotterdam
+[single] Langewijln amsterdam a:o 1691. door d' Eh:r a:t Muijtens tot adsistent
+[single] en a:o 97. door d' E. h. re directeur Pieter van duxhoel
+[single] tot boekhouder g'avanceert
+[single] redderschap
+[single] _=o A:o 85. Door d' E. h:s gesaghebber Ian pit tot boekhouder
+[single] a:o 87. door d' Ed:le heer commissaris van rheede
+[single] tot ondercoopman, en a:o 92. door haar Ed:e g=t
+[single] achtb: tot batavia tot coopman gevordert
+[single] _=o a:o 1680. door d' E. E:e directeur Iacob Verburghe
+[single] tot adsist:t en a:o 89. door d' Ed:e heer commissaris
+[single] van rheede tot ondercoopman aangestelt
+[single] Deeft
+[single] verte
+[single] . . . . .
+[single] -
+[single] _o
+[single] _=o a:o
+== NL-HaNA_1.04.02_1606_0038 | #38 | sides: single | lines: 33
+[single] W:t P=l m:t
+[single] in't landgekomen
+[single] namen, geboerte plaats, en presente qualit=t voor wat qualiteit 't Iaar
+[single] t vervolge der dienaren tot pattena be„
+[single] scheiiden als
+[single] ƒ30. Iacob valck van amsterdam, boekhouder mattroos a:o 86
+[single] en Cassier
+[single] „ 24. Janb: nmeester van amsterdam adsistt adelbornt
+[single] „ 89.
+[single] -
+[single] en zalpeter packhuismeester
+[single] Iongen in
+[single] „ 24. rogier Togiersz: van amsterdam adsist=t
+[single] „ 92.
+[single] in india aangenom:
+[single] p Bellasoor
+[single] ƒ30. albertroos van schoonhoven boekhouder s:o mattroos
+[single] en resident
+[single] „ 85.
+[single] waar bij voege
+[single] ƒ24. Ioannis brun mit den Haagh - - . sergiamt
+[single] Ao. 84.
+[single] „ 95.
+[single] _:o
+[single] „ 20. dirk rouse van swol - - - - - - - - - -
+[single] „ 90.
+[single] „ 20. marten carel Willem van der lit van berloo corporaal
+[single] - - - - - - soldaat „ 11
+[single] „ 20. Ioaenns kist van carbagh
+[single] Comptoir Houglij in Benga
+[single] Nt N
+[single] a
+== NL-HaNA_1.04.02_1606_0039 | #39 | sides: single | lines: 34
+[single] bantam
+[single] voetboogh
+[single] met wat schip voor wat camer door wien successive gevorder
+[single] waalstroom amsterdam A:o 1692 door d' Edh:e a=t muijkens tot adsist=t
+[single] en a:o 97. door d' E„ E:e directeur Pieter van durx„
+[single] hoek tot boekhouder aangestl
+[single] =o a:o 1694. door d' E. E:e a:t muijkens tot adsistent
+[single] gevordert
+[single] _=o a:o 1697. door d' E. E. directeur Pieter van
+[single] dux toek tot adsistent g'avanceert
+[single] Delft a:o 1690. door d' E. E:s a:t muijkens tot
+[single] adsistent, en a:o 95. door d' E: E: directeur
+[single] Pieter van duxhoek tot baekhouder aangestelt
+[single] schieland
+[single] d' voegende militairen
+[single] Zeeland
+[single] vrijheit
+[single] amsterdam
+[single] _:o a:o 1696. door d' E: heer directeur Pieter van
+[single] Eenhoorn
+[single] dij oxhoek tot sergiant aangestelt
+[single] rotterdam a:o 1688. door d' EE:s gouverneur thomas van rhee
+[single] tot corporaal, en a:o 95. door d' Ed:le heer
+[single] gouverneur generaal willem van
+[single] outhoorne tot sergiant g'avanceert
+[single] afrika
+[single] gale adie ult=o Aug=o
+[single] A=o 1698.
+[single] les
+[single] volgens d boeken en reecq:
+[single] 'tsamen getrocken door
+[single] Hoorn
+[single] .. . . .
+[single] 1
+== NL-HaNA_1.04.02_1606_0040 | #40 | sides: - | lines: 0
+== NL-HaNA_1.04.02_1606_0041 | #41 | sides: single | lines: 5
+[single] 2
+[single] Generale monsterrolle van net:s Iunij
+[single] ƒ
+[single] ell
+[single] a:o 1698.
+== NL-HaNA_1.04.02_1606_0042 | #42 | sides: single | lines: 66
+[single] Monsterrolle van alle 's Comp=s
+[single] matt:s L:o adsist:t dienst doende - -
+[single] van Bengale bij d' generale in onstern
+[single] een getal van personen, soo commercie
+[single] te werden namentlijk—
+[single] namen toenamen en waarvan daan E: presente qualiteit en haar
+[single] Directeur
+[single] 18. Pieter van dixhoekv: vlissingen
+[single] M:r cornelis bogaart van belous
+[single] raad van Iustitie en E:l fiscaal
+[single] Ian colum van amsterdam
+[single] coopm: en E:to loovd administrateur
+[single] -
+[single] theodorus d' Hase uit den Haagh
+[single] _:o en gewesen opattenaar —
+[single] alecxander urwin v: mallacca ondercoopman en cassur - - -
+[single] nicolaas Ioth van schravenhage
+[single] _:o en p:o packhuijsm=r
+[single] Ioannes van der straten v: deeft - - . _:o in veraanmeester - - -
+[single] Elbert spiegel, v: amsterdam „ _:o ordinare gecomm: en
+[single] abrahani cranendonck v: d:o _:o en p=l dispencier - -
+[single] Iacob Zadelimn
+[single] — - - - - - _:o en p:lo ordinaijre gecommi
+[single] Pieter Hofmeester van pipeleij _:o, en factuirhouder - - -
+[single] boekhouder en E=o secretaris -
+[single] cornelis van noort van alphen
+[single] Iacob van Hoorn van amsterdam adist:t en p=l soldij boekhouder-
+[single] marten smith van oldenzeel
+[single] opperchirurghin - -
+[single] Ioan Peper van rotterdam
+[single] adsist:t en E=le E=le clercq -
+[single] Geert Goukes van Harlingen
+[single] opperstuurman, Loos en J=l
+[single] Pieter van der Heude v: schipluij cranckbesoeker - - - - -
+[single] marcus paal van flensburgh ondermeester - - - - - - -
+[single] Op d' secretarie bescheiden als.
+[single] Dirck Huijsinckvelt van sutplen adsist=t
+[single] Ioannesrosengaart van amsterdam _:o
+[single] Ioannes van Heijningen van bataeia &=a _:o - - - - - - - - -
+[single] nicolaas clinck van amsterdam sold:t t=o adsist:t dienst doende - --
+[single] Pietercolum van—
+[single] 4. Op't negotie Compt=e als
+[single] Bartholomeus de Lacroix v: amsterd boekhouder - - - - - - - - - -
+[single] adriaan Houtum ut den Haagh
+[single] Pieter volkertsz: van batavia
+[single] Pieter d' Iager van amsterdam
+[single] adsist:t - - - - - - - - - - -
+[single] d:o _:o - - - - - - - - - -
+[single] 3. In de packhuijsen te weten
+[single] „boekhouder - - - - - - - - -
+[single] olivier corbauet van middelburgh
+[single] Cornelis Comans van Batavia
+[single] -. „ adsistent - - - - - -
+[single] Ioan muijkens van amsterdam
+[single] _:o - - - - - - - -
+[single] 30. personen transportere
+[single] 5.
+[single] _:o.
+[single] _:o
+[single] -. . . . . - -
+[single] - --
+[single] _:o
+[single] --
+[single] d
+== NL-HaNA_1.04.02_1606_0043 | #43 | sides: single | lines: 89
+[single] winnende gagie
+[single] als andere, gelijck vervolgens staat aangewesen
+[single] Zoontreckende dienaren, d'welcke in de directie
+[single] nsigh in wesen bevonden sin, uitmakende tesamen
+[single] 'tJaar voor wat camer
+[single] met wat schip in
+[single] mindia aangeland
+[single] - - - - - - ƒ 180. –. –: '1 wapen tertholen a:o 1674. Zeeland
+[single] „ 94. Deest
+[single] - - - - - - - „ 100. –. –. dzion
+[single] H:
+[single] - - - - - - - „ 60. –. –. thuis ten dieren
+[single] „ 93. amsterdam
+[single] e perhoovd - - - - - „ 60. —. — opcolombo aangenom: „ 11. _:o
+[single] - - - - - - - - - „ 36. —. –. mindia aangenom:„
+[single] 69. _
+[single] _ o
+[single] „ 11.
+[single] _o
+[single] - - - - - - - - - - - „ 40. –. –. beemster
+[single] - - - - „ 40. –. –. d' belous
+[single] „ 90. Deeft
+[single] dorpmeeste - - - - - „ 40. –. –. d'ridderschap
+[single] „ 90. amsterdam
+[single] - - - - - - - - „ 40. –. –. in india aangenom:
+[single] „ 80.
+[single] mitteerde - - - - - „ 40. –. –. d' spiegel
+[single] 94 d:o
+[single] „
+[single] . - - - - - - - - - „ 40. –. —. mindig aangenom: „ 86.
+[single] _:o
+[single] - - - - - - - - - - „ 30. –. —. princeland
+[single] „ 83. Delft
+[single] - - - - - - - - - „ 24. —. —. moercaxel
+[single] „ 90. amsterdam
+[single] - - - - - - - - - - - „ 45. —. —. d'burgh van lenden
+[single] „ 19. -
+[single] _o
+[single] - - - - - - - - - - - - „ 24. —. —. honsholredijck
+[single] „ 88. hoorn
+[single] equipagiem=d - - - „ 54. –. –. 't wapenv: alckmaar
+[single] 12. amsterdam
+[single] - - - - - - - - - - „ 30. –. — voorschoten
+[single] „ 85. Delft
+[single] - - - - - - - - - - „ 24. -. —. pampus
+[single] „ 88. amsterdam
+[single] - - - - - - - „ 24. —. —. silverstein
+[single] „
+[single] 92. amsterdam
+[single] - - - - - - - - - - - 24. —. –. hendrikmourits
+[single] 80. Zeeland
+[single] „
+[single] - - - - - - - - - - - - „ 10. –. –. mindia aangenom: „ 93. amsterdam
+[single] . . . . - - - - - - „ 10. —. —.—
+[single] _:o
+[single] „ 95. _:o
+[single] -
+[single] - - - „ 10. –. —.
+[single] _o
+[single] „ 95. _:o
+[single] 88. amsterdam
+[single] „
+[single] - - - - - - - - - „ 30. –. –. pampus
+[single] - - - - - - - - - „ 24. –. – d' berckel
+[single] _o
+[single] 91. —
+[single] „
+[single] - - - - - - - - - „ 16. —. —. mindig aangenomen „
+[single] _o
+[single] 88.
+[single] -
+[single] -
+[single] _o
+[single] - . - - - - - - - „ 9. —. —.—
+[single] _o
+[single] „ 94. —
+[single] - - - - - - - - - „ 30. –. –. prins willem
+[single] - - - - - - - - „ 24. —. —. m india aangenomen „ 85. amsterdam
+[single] -. - - - - - - - „ 24. —. —. d' schulp
+[single] „ 58. Zeeland
+[single] „ 94. —
+[single] ---
+[single] -
+[single] -
+[single] -
+[single] ƒ
+[single] -
+[single] -
+[single] :
+== NL-HaNA_1.04.02_1606_0044 | #44 | sides: single | lines: 103
+[single] namen en toenamen en waar van daar d'presente qualiteiten haar
+[single] 30. Personen P=r transport
+[single] Bij d' heer directeur
+[single] Pieter willeboon van Eindostan
+[single] adelborst
+[single] str de pack Ztaat bij 't sorteren en afpacken
+[single] van diverse kleden, ten desen comptoire gene„
+[single] gatieert werdende &=a
+[single] marten huisman van Iaffnapatnam adsist:t
+[single] gillis arendonck
+[single] Eijdcassur
+[single] 3
+[single] adsistt
+[single] cornelis Huijbertsz: van vlissingen
+[single] In d'dispensomme dagelijcx present bij suitreijken
+[single] van rantsoenen aan d'aanland leggende militairen
+[single] te sin
+[single] m
+[single] Ian abramsz: roos van rotterdam soldaat - - - -
+[single] Enden equipagie m:r
+[single] anthonij carelsz: van batavia. . . . . matt:s - - - - - - - - --
+[single] Extraordinare gecommitteerdens als
+[single] boekhouder - - - - - -
+[single] Hugo vander meer uit den Haagh
+[single] Iacob van Es van mallacca
+[single] -. adsistent - - - - - -
+[single] Lootsen te weten
+[single] Jochum pietersz: van brouwershaven
+[single] tjallingh bottels van driest
+[single] Ian Iacobsz: van Vlieland
+[single] heere pietersz: van watergangh
+[single] claas Thomasz: mit den Haagh
+[single] dirck Harmensz: van papendreght
+[single] bastiaan willemz: van rleen
+[single] roeloff Iansz: steenbergh van meppelen
+[single] Ambagetsluiden &a. aen
+[single] matt:s en sieckevader - -
+[single] thomas Willemsz: van rotterdam
+[single] Ian van Houten van antwerpen
+[single] geweldiger - - - - - - --
+[single] gysbert fredricx van d' Loosdreght
+[single] _o
+[single] Lodewijck fransz: van amsterdam
+[single] trompetter - - - - - - -
+[single] adriaan dircx van geffen van thiel
+[single] roermaker - - - - - - - -
+[single] Iurriaan nannincxe van amsterdam oppertimmerman. .
+[single] Isack van meus van dort
+[single] opperzuilmaker - - - - - - -
+[single] Lovies melckenbeeck van middelburghe onder—
+[single] _:o - - - - - -
+[single] Iacob Iansz: Hoornburgh van luwecki constavee- - - - - - --
+[single] no
+[single] rutb linges van dort
+[single] - - - „ cuijper. -
+[single] Quartiermeesters als
+[single] Marcus Iansz: van gottenburghe quartierm=r - - - - - - - - -
+[single] Willem coerte drisselbergh v: amsterdam
+[single] Hendrick Albertsz: van colbergen.
+[single] Dirck Iansz: van rhein
+[single] een
+[single] . . . ..
+[single] Leendert anckel na van delft..
+[single] 30. personen
+[single] v
+[single] 61. koppen transportere
+[single] opperstuurman en zoot
+[single] -
+[single] -
+[single] _:o - - - - - - --
+[single] --
+[single] -
+[single] .
+[single] -- - – – –
+[single] 1-
+[single] -
+[single] _:o —
+[single] S:o Loots - - - - - - - - - -
+[single] -- - - - - -
+[single] - - – – – – –
+[single] 9:
+[single] -
+[single] _:o - - - - - -
+[single] _:o
+[single] -
+[single] - - - - – – –
+[single] _o
+[single] _:o
+[single] _o
+[single] _:o
+[single] -- - – – – –
+[single] . . .
+[single] _:o - - - - - - - -
+[single] -
+[single] _o - - - - - - - -
+[single] _:o - - - - - - - -
+[single] . . . . . . .
+[single] :
+[single] 9:
+[single] . . . .
+[single] .
+== NL-HaNA_1.04.02_1606_0045 | #45 | sides: single | lines: 83
+[single] in 's comp: limbaan bij 't Eheren
+[single] en sloven der swaretouwen
+[single] winnende maandgelden
+[single] 'thaar voor wat camer
+[single] met wat schip
+[single] mindia aangel:t
+[single] ƒ 12. —. —. in india aangenomen a:o 1695. amsterdam
+[single] „191
+[single] _:o
+[single] „ 24. —. —:
+[single] „ 24. –. –. cronenburgh „ 89. rotterdam
+[single] „ 92. Zeeland
+[single] „ 24. –. –. saamslag
+[single] „ 94. amsterdam
+[single] - - - - „ 10. –. –. schoordijck.
+[single] - - - - - - „ 1. –. —. in india aangenom:
+[single] „ 93.
+[single] _:o
+[single] „ 88. —
+[single] - - - - - - - „ 30. –. – Langewijck
+[single] _o
+[single] - - - - - - - - „ 24. —. — in india aan genom:
+[single] _o
+[single] „ 19. —
+[single] - - - - - - „ 48. –. –. d' Zeist
+[single] „ 81. Zeeland
+[single] „ 13. amsterdam
+[single] - - - - - - - - - „ 46. —. —. pimacker
+[single] - - - - - - - - „ 46. –. –. coeverden
+[single] „ 14 Zeeland
+[single] - - - - - - - - - „ 24. —. —. nieuland
+[single] „ 89. amsterdam
+[single] - - - - „ 24. –. —. bantham
+[single] „ 85. —
+[single] „ 84. Delft
+[single] „ 24. –. –. d' gideon
+[single] - - - - - - - „ 24. —. —. cortgene
+[single] „ 94. Zeland
+[single] - - - - - - - - „ 24. –. –. brandenburgh „ 91. amsterdam
+[single] - - - - - - - - „ 16. —. —. d' princen maria
+[single] „ 83. Zeeland
+[single] „
+[single] - - - - - - - - „ 20. —. —. —
+[single] 83.
+[single] _o.
+[single] - - - - - - - - „ 20. –. —: mindia aangen:
+[single] 88. amsterdam
+[single] „
+[single] - - - - - - - - - „ 24. —. —. oosurland
+[single] „ 86. Zeeland
+[single] - - - - - - - „ 20. —. —. ridderschap
+[single] „ 90. amsterdam
+[single] - - - - - - - „ 48. —: — reijgersdaac
+[single] „ 98
+[single] _o
+[single] - - - - - - - - - - „ 24 — –
+[single] o:
+[single] _o:
+[single] „ 92.
+[single] -
+[single] - - - - - - - „ 14. —. —. d' purnier
+[single] „ 95. Zeelant
+[single] „ 82. amsterdam
+[single] - - - - - - „ 20. —. —. china
+[single] . - - - - - - - - „ 20. –. —. borssenburgh „ 92. rotterdam
+[single] - - - - - - - - - - „ 16. –. —. bantam „ 88. amsterdam
+[single] - - - - - - - - - - „ 16. –. —. Iava
+[single] „ 88.
+[single] _:o
+[single] -
+[single] - - - - - - - „ 16. –. – waterland
+[single] _ o
+[single] „ 91.
+[single] - - - - - - - - - - „ 13. —. —. d' schulp
+[single] _:o
+[single] „ 94.
+[single] -
+[single] - - - - - - . 16. —. — voorschoten
+[single] „ 88. Delft
+[single] --
+[single] -- - -
+[single] -
+== NL-HaNA_1.04.02_1606_0046 | #46 | sides: single | lines: 121
+[single] maandgelden
+[single] d' presente qualitent en haar winnende
+[single] namen toenamen en waarvan daan
+[single] 61 personen p r transport
+[single] claas Lammertsz: van amsterdam
+[single] carel Iansz: van rosse
+[single] ...
+[single] roeloff andriesz: van maasterland
+[single] abraham Jochumsz: van amsterdam
+[single] Ian cornelisz: van nortkoppingh
+[single] Ian arentsz: van Haarlem
+[single] Iand' wit van amsterdam
+[single] .. . ..
+[single] Willem cornelisz: van uittreght
+[single] gerritannes van Harlingen
+[single] Isack pietersz: van amsterdam
+[single] Hendrick haur van amsterdam
+[single] barent gerritsz: van _o
+[single] Ian Hulst van Harlem-
+[single] christoffel d' wint - - - -
+[single] christiaan Iurgen van bergen
+[single] Ianuwens van amsterdam
+[single] willem Lesle van Leijden
+[single] Hendrik albertsz: van elling
+[single] Zacharias phoonsz: van batavia
+[single] dirck Iansz: coperwijck
+[single] Hendrick Iacobsz: casselaar
+[single] dominicus post uit den Haagh
+[single] barent verbiest van amsterdam
+[single] Pieter Lourensz: van tergoes
+[single] claas buis van Lubeck
+[single] marten gerritsz: van weusveen
+[single] Iacob arentsz: bosch van deventer
+[single] cent Huijbertsz: d'bruijn
+[single] Iacob Libbes van Houwerziel
+[single] Pieter rust van winderwouw
+[single] claas dirck pietersz: van paanderen
+[single] frans Jansz: van amsterdam
+[single] Ian barentsz: van bronckhorst
+[single] Iacob fransz: van woerden
+[single] Ian bogaart van niel
+[single] Dirck Harmensz: van amsterdam
+[single] claas stoffelsz: van oostende
+[single] willem seliers van tras
+[single] willee van Houte van Leeth
+[single] claas claasz: van Hamburgh
+[single] Ian Iansz: turck van amsterdam
+[single] Ian marinus van tergoen
+[single] christiaan beeuck van Hamburgh
+[single] 43. personen
+[single] m
+[single] 104. personen transportere
+[single] tract:s
+[single] _o
+[single] _o
+[single] _
+[single] _o
+[single] - - - -- „ 14. —. —
+[single] - - - - - - „ 14. —. —
+[single] - - - - - - - „ 13. —. —
+[single] - - - - - - „ 10. —. —
+[single] _:o - - - - - - „ 11. —. —
+[single] _:o . - -. . „ 10. —. –
+[single] _:o - . - - „ 14. —. —
+[single] .
+[single] _o - - - -. . „ 12. —. —
+[single] _:o. . . . . . . „ 10. –. –„
+[single] _o - - - - - „ 12. —. —
+[single] _:o - - -. . . „ 9. —. —.
+[single] _o - - - - - „ 10. —. —
+[single] _:o . . . . . . „ 10. —. —
+[single] _:o . . . - . „ 10. —. —
+[single] _o
+[single] :
+[single] - - - - - „ 12. —. —.
+[single] - - - - - „ 15. —. —.
+[single] - - - - - „ 13. —. —
+[single] „
+[single] _o
+[single] _o
+[single] _o
+[single] _o
+[single] _:o - - - - - „ 10. —. —
+[single] _:o - - - - - - „ 10. —. —
+[single] _:o - - - - - - „ 8. —. —
+[single] _:o . . . . . „ 12. — . —
+[single] _:o - - - - - - - „ 11. —. —
+[single] -
+[single] _o - - - - - - „ 12. —. —
+[single] - - - - - - - „ 12. —. —
+[single] _:o . . - - - - „ 12. —. —
+[single] - - - - - „ 11. —. –
+[single] - - - - - - „ 12. —. —
+[single] - - - - - - „ 1. –. –
+[single] _:o - - - - - - „ 12. —. —
+[single] _:o - - - - - - „ 12. —. —
+[single] _:o - . - - - - „ 12. —. —
+[single] _:o. . - - - - - „ 12. —. –
+[single] _:o. . - - - - - „ 12. –. –
+[single] _:o - - - - „ 9: —. —
+[single] _:o. . . - - - - „ 12. —. —
+[single] _:o - - - - - „ 12. —. —
+[single] _:o. . . . . - „ 10. –. –
+[single] -
+[single] _:o. . . . . „ 12.
+[single] _o
+[single] _o
+[single] _o
+[single] _o
+[single] 1
+[single] 3
+[single] 12. —. —
+[single] - - - - „ 14. —.—
+[single] . . „ 11. —„
+[single] - - - -„ 12. —.
+[single] _o
+[single] -
+[single] -
+[single] -- - -ƒ---
+[single] 6„
+== NL-HaNA_1.04.02_1606_0047 | #47 | sides: single | lines: 182
+[single] met schieland
+[single] ad Idem
+[single] ad hdem
+[single] oosterland
+[single] d'becons
+[single] met wat schip in 't Iaar voor watcamer
+[single] india aangeland
+[single] a:o 1685. amsterdam
+[single] _
+[single] silverstein
+[single] pampus,
+[single] brandenburga
+[single] nin dia aangenom
+[single] ussel
+[single] nederlant
+[single] voorschoten
+[single] d' hoop
+[single] waterland
+[single] nieuland
+[single] belrestenin
+[single] 1 galjoot d'axpel
+[single] d'schulp
+[single] d' voetboogh
+[single] uisce
+[single] 't galjoot d' peer
+[single] spare
+[single] nederlant
+[single] spare
+[single] nederland
+[single] 's lands welvaren
+[single] in india aangenom:
+[single] dreghterland
+[single] goudestein
+[single] d'berckee
+[single] 't Jaght d' soldaat
+[single] bekestenin
+[single] d'belous
+[single] 3lpendam
+[single] d' berckel
+[single] oosterland
+[single] d'purner
+[single] donckervliet
+[single] oosterland
+[single] cortgene
+[single] d'wint
+[single] _o
+[single] Doet cons tabels maars dienst
+[single] sieck in 't hospitaal
+[single] _:o
+[single] _:o
+[single] op bellasoor in't siekenhuir
+[single] sieck in't Cospitaal
+[single] _:o doorsieckte van 't Iagt d'wint verbleven
+[single] door siekte van't schip d'purmer verbleven
+[single] „ 95.
+[single] „ 91.
+[single] „ 95. Zeeland
+[single] „ 95. _
+[single] _o
+[single] S:
+[single] _o
+[single] sieck in't Hospitaal
+[single] door siekte van 't schip 'thuns ten duijme verbleven
+[single] o
+[single] elf
+[single] door siekte van 't Iagt d'wint verbleven
+[single] „ 91.
+[single] „ 47.
+[single] „ 91.
+[single] „ 93.
+[single] princeland
+[single] „ 92.
+[single] „ 88.
+[single] „ 91.
+[single] „ 43.
+[single] „ 92.
+[single] „ 92.
+[single] „
+[single] „ 95.
+[single] „ 90.
+[single] „
+[single] „ 89.
+[single] „ 95.
+[single] „ 95.
+[single] „ 93.
+[single] „ 94.
+[single] „ 95.
+[single] „ 92.
+[single] „ 43.
+[single] „ 95.
+[single] „ 92.
+[single] „ 95.
+[single] „
+[single] „
+[single] „
+[single] „
+[single] „ 90. _:o
+[single] „
+[single] „
+[single] „
+[single] „ 93.
+[single] 95.
+[single] 96.
+[single] 91
+[single] 95.
+[single] 93.
+[single] 94.
+[single] 94.
+[single] -
+[single] -
+[single] -
+[single] -
+[single] _:o
+[single] _o
+[single] _:o
+[single] _o
+[single] :
+[single] _o
+[single] _o
+[single] o
+[single] :
+[single] _o
+[single] d
+[single] -
+[single] -
+[single] -
+[single] -
+[single] -
+[single] -
+[single] _
+[single] -
+[single] -
+[single] -
+[single] 92.
+[single] 91.
+[single] e
+[single] o
+[single] _o
+[single] :
+[single] _:o
+[single] :
+[single] _o
+[single] _o
+[single] _o
+[single] _ o
+[single] _:o
+[single] „
+[single] -
+[single] -
+[single] _
+[single] E
+[single] -
+[single] -
+[single] -
+[single] _:o
+[single] _ o
+[single] J:
+[single] _:o
+[single] -
+[single] -
+[single] „ 95. —
+[single] „ 91.
+[single] „ 91. —
+[single] _:o
+[single] _o
+[single] _o
+[single] _o
+[single] -
+[single] „ 92.
+== NL-HaNA_1.04.02_1606_0048 | #48 | sides: single | lines: 107
+[single] matt:s
+[single] d' presente qualiteiten haar winnende
+[single] maandgelden
+[single] namen toenamen en waar van daar
+[single] 104. personen P=r transport
+[single] Loviis martensz: van delft
+[single] soris d'wit van schravenhage
+[single] arijclaasz: d'bruin van leijerdorp
+[single] &
+[single] Hendrick Iansz: van Hamel v: delft
+[single] Ian bastiaansz: koekoek, —
+[single] cornelis broesz: van Hamburgh
+[single] saceb usralevangent
+[single] dirck Hendricksz: van der Hoeck v: rotterd:m
+[single] claas pietersz: kok van stockhoem
+[single] Ioannes mulckens van bortheum
+[single] Iacob oirbrinck van badbergen
+[single] Jochum Heltrick van Hamburgh
+[single] fredrick Helleman van bremen
+[single] 13. personen
+[single] 117. personen op 't loovdcompt. r Houglij
+[single] 10. Een comptoire cassimabazaar als
+[single] v
+[single] 10
+[single] Iacob pelgrom van rouaan
+[single] ƒ 80.
+[single] oppercoopm: in opperhoovd
+[single] anthonij huijsman v: Iaffnapatnam ondercoopm: en E=de secunde „ 36. —
+[single] Ioannen sicx van amsterdam
+[single] _:o en packhuismeester „ 40. —
+[single] Ewout van duxhoek
+[single] _o
+[single] en p:lo cassier - - - „ 40. —
+[single] Ian pietersz: van bergen in noorwegen boeklond:s en E: ordinair gecommitt: „ 30.
+[single] gerbrant nottelman van wijk tedeur stede adsistent
+[single] _:o
+[single] Willem dees van Leijden
+[single] boekhouder en chirurghin „ 30. —
+[single] dirck schaap van delft
+[single] Pieter nietman van amsterdam vorwer
+[single] Iacob dijkhov van rotterdam
+[single] 6. Een compt:s Pattena als
+[single] ondercoopm: en E:e opperhoovd
+[single] carel goudappel uit den Haagh
+[single] ƒ 40. —
+[single] arent Hofmeester van deeft
+[single] _:o en d:o secunde „ 40. —
+[single] Iacob vlack van amsterdam
+[single] boekhouder en Cassur - - - - - „ 30. —
+[single] rogier rogiersz: van
+[single] adsist:t
+[single] _o
+[single] -
+[single] . . . . . . . . . - - „24. —
+[single] Ian bouwmeester van _o
+[single] _:o en zalpeter packhuijsmeester „ 24. —
+[single] Pieter Landsleer van Lenden
+[single] chirurghin
+[single] - - - „ 20. —
+[single] „24.—
+[single] . - - - - - - - - - „ 30. —
+[single] - - - - - - - - - - „ 30. —
+[single] sold:t aan depen dienst doende „ 9. —
+[single] 3. In 's conincx munt op ragiamohoe aen
+[single] casparus d' carpentier v: amsterdam boekhouder en resident ƒ30. —
+[single] adriaan van Dijck van _:o
+[single] bottelier en
+[single] barentsteenhagel van delff - - - - botteliersmaat met 't silver en gelt
+[single] open afvarende - - - - - - - „ 14. —
+[single] 2:
+[single] Op bellasoor als
+[single] albert roos van schoonhoven
+[single] albert voet van deventer . . . onderchirurghin
+[single] ƒ
+[single] 138: personen transportere
+[single] boekhouder en resident ƒ30.
+[single] mi
+[single] 10
+[single] _:o
+[single] _
+[single] _:o - - - - - - - „ 10. —
+[single] _:o - - - - - - - - „ 1. —
+[single] _o
+[single] _o
+[single] „13.—
+[single] - „11.
+[single] _:o. - - - - - - - - „ 13. —
+[single] „8-
+[single] - . - - - - - - „ 9. —
+[single] „13„ —
+[single] . . . „„ —
+[single] _o
+[single] _:o
+[single] _
+[single] _:o - - - - - - - - „ 9. —
+[single] --14. —.
+[single] „ 9„
+[single] 1
+[single] .--
+[single] _o
+[single] e
+[single] _ o
+[single] ƒ 9
+[single] _o
+[single] -.
+[single] _:o - - „ 20. —
+[single] -. - - - „ 26.
+== NL-HaNA_1.04.02_1606_0049 | #49 | sides: single | lines: 88
+[single] d'crab
+[single] d' handboogh
+[single] schiebroek
+[single] hoger t geen
+[single] sumatra
+[single] pampus
+[single] bantam
+[single] nieuland
+[single] met wat schip mindia 't Iaar voor wat
+[single] aangeland
+[single] camer
+[single] Ao: 1694.
+[single] Delft
+[single] zien
+[single] schoon derloo
+[single] „ 96.
+[single] op bellasoor siek in't Hospitaal
+[single] beijeren
+[single] „ 94.
+[single] siek in't hospitaal
+[single] Hogergeest
+[single] „ 92.
+[single] _:o door siekte van 't schip 'thuijs ten duijne verbleven
+[single] d'Eelous
+[single] 93.
+[single] 89. rotterdam werdende tot Loots aangequeeck
+[single] cronenburgh
+[single] waddincx veen
+[single] „ 93. _:o
+[single] _
+[single] „ 96.
+[single] _
+[single] „ 90. Hoorn
+[single] „ 95. _:o
+[single] siek in't hospitaal
+[single] _o
+[single] „ 94.
+[single] _:o
+[single] d'gent
+[single] „ 95. Enckhuijsen
+[single] „ 90. amsterdam werdende tot Loots aangequekt
+[single] midregt
+[single] Langewijck a:o 1688. amsterdam
+[single] in india aan gen:
+[single] „ 81.
+[single] _:o
+[single] „ 82.
+[single] Vrijburgh
+[single] „ 96. Zeeland
+[single] „ 84. —
+[single] _:o
+[single] oosterland
+[single] „ 86.
+[single] „ 87. amsterdam
+[single] 92. Dieft
+[single] „
+[single] in india aangenom:
+[single] „
+[single] 89. amsterdam
+[single] cronenburgh
+[single] 89. rotterdam
+[single] a:o 1675. amsterdam
+[single] „ 92. Delft
+[single] „ 86. amsterdam
+[single] „ 91. —
+[single] _o
+[single] „ 89.
+[single] „ 93. Enckhuijsen
+[single] princeland
+[single] waalstroom
+[single] A:o 1686. amsterdam
+[single] Langewijk
+[single] d'ridderschap
+[single] „
+[single] 90.
+[single] o
+[single] „ 92. Deeft
+[single] d'berckel
+[single] schieland
+[single] a:o 1685.
+[single] _:o
+[single] „96. amsterdam
+[single] 't boor
+[single] nde
+[single] „
+[single] „
+[single] „
+== NL-HaNA_1.04.02_1606_0050 | #50 | sides: single | lines: 95
+[single] d' presente qualiteiten haar
+[single] winnende gagie
+[single] namen, toenamen en waarvan daan
+[single] 138. personen V=t transport
+[single] Waar bij voege d'volgende Europiaante en oosterse militairen, die extra„
+[single] ordinair aan de hand gehouden werden om 's comp:s goederen voor een schielicke
+[single] invasie en overrompelingh van den rebelligen ragia limmetsingh, die d' her
+[single] om leggende landen ten merendele verwoest heeft, niet alleen te decken
+[single] maar in 't afbrengen van 's comp:s dierbare coopmanschappen voor haar
+[single] rovereijen te beschermen, namentl
+[single] sergiants als
+[single] Ioannes broen uit den Haagh
+[single] dirckrouse van swol
+[single] marten carel willem van der Lit van berloo.
+[single] Ioannes kist van carbagh
+[single] carel masson van der mont
+[single] Corporaals te weten
+[single] adriaan fransz:
+[single] marten bondenridder van Hendelbergh
+[single] Ian roeland van walmunster
+[single] Willem bollaart van bergen opsoom
+[single] Iurgen reijnhout van regensburgh
+[single] Engel roelands van amsterdam
+[single] adelborsten, aen
+[single] roulijn delwaart van amsterdam
+[single] Iurgen Hagenaar van neurenburgh
+[single] Pieter annibal van antwerpen
+[single] diedloffcuijper van Hoesteun
+[single] Barent Cramer van amsterdam
+[single] Ian Hendricx van Lenden
+[single] Ioostbert van cortrijck
+[single] Ioannis wijnantreentjes van cleer
+[single] sergiant en commanderent hoord ƒ 24.
+[single] - - - - - - - „ 20.
+[single] -. „ 20.
+[single] 1:o _:o enlandspassaat „ 12.
+[single] corporaal . . . . ƒ 14.
+[single] adelbors
+[single] soldaten
+[single] Pieter pietersz: van amsterdam
+[single] michiel wijland van ollum
+[single] Pieter smith van staden
+[single] barent Willemsz: van amsterdam
+[single] roeloff martensz: van wesp
+[single] Leonart slomp van s=e calle
+[single] Ian Cheesen van osnabrugge
+[single] Ian nimeijer
+[single] theunis van den borgh van dortmont
+[single] Hanscasper Lubner van Hamburgh
+[single] marcus chinis van bergen opsoom
+[single] matthiis vleger van Ciroe
+[single] 31. personen
+[single] 1
+[single] 169. personen transportere
+[single] soldaat
+[single] _:o
+[single] _o - - - - - - - „ 20.
+[single] -
+[single] _„o. . . - - - - - „ 14. — —
+[single] _o
+[single] - - - - - - - „ 14. — —
+[single] - - - - - - - „ 16. —
+[single] _:o - - - - - - - - - 14. „ —
+[single] _o
+[single] _:o - - - - - - - „ 14 — —
+[single] _o. . . - - - - - - „ 10. —
+[single] _:o - - - - - - - - „ 10. —
+[single] _:o - - - - - - - - - - „ 10. —
+[single] . . . . - - - - - „ 10. -
+[single] „12
+[single] _:o. - - - - - - - - „ 10. —
+[single] _o
+[single] _:o - . . - - - - - „ 10. —
+[single] _ o - - -
+[single] :
+[single] - - - - - - - - „ 4–
+[single] . . . . - „ 14. —
+[single] . . . . . . . „ 9.
+[single] -- - -- - „ 9
+[single] _:o - - - - - - - „ 9 —
+[single] _o - - - - - - - „ 9
+[single] _:o - - - - - - - - „ 9. —
+[single] _o
+[single] _:o--
+[single] - - - - - - - - „ 9. —
+[single] - - - - „ 9. —
+[single] -
+[single] -
+[single] -
+[single] ƒ1
+[single] „
+[single] -. „
+[single] - - -ƒ 10.
+== NL-HaNA_1.04.02_1606_0051 | #51 | sides: single | lines: 87
+[single] met wat schip mindia 'tIaar voor wat camer
+[single] aangeland
+[single] a:o 1694. Zeeland
+[single] 95. amsterdam
+[single] „ 90. rotterdam
+[single] „ 11.
+[single] J:
+[single] „ 95. amsterdam
+[single] ao: 1695.
+[single] -
+[single] „ 93.
+[single] „ 87. Zeelandt
+[single] „ 95. hoorn
+[single] „ 82.
+[single] „ 96. Enckhuijsen
+[single] a:o 1694. amsterdam
+[single] „ 91.
+[single] „ 94. rotterdam
+[single] „
+[single] 93.
+[single] „ 96. Enckhuijsen
+[single] „ 88. rotterdam
+[single] „ 91. amsterdam
+[single] 9. Zeeland
+[single] vrijleit
+[single] voetboogh
+[single] Eenhoort
+[single] afrika
+[single] princeland
+[single] voorschoten
+[single] d'agata
+[single] Eenhoorn
+[single] d' handboogh
+[single] d'blauwe Tulck
+[single] waterman
+[single] d' spiegel
+[single] rissel
+[single] waddincxveen
+[single] waterman
+[single] d'bergh china
+[single] uisehmonde
+[single] Losmar
+[single] reugersdaal
+[single] d'inoercapel
+[single] in india aangenomen
+[single] bantam
+[single] castricum
+[single] vortboog
+[single] drie cronen
+[single] brandenburgh
+[single] d' Lick
+[single] drie cronen
+[single] bantam
+[single] sergiantsland
+[single] ao: 1692 amsterdam
+[single] „ 94.
+[single] _o
+[single] „ 94.
+[single] _o
+[single] „ 96.
+[single] _o
+[single] „ 83.
+[single] „ 95.
+[single] „ 94.
+[single] 96.
+[single] aar
+[single] ƒ 24. „—
+[single] ——
+[single] ——
+[single] 16. —
+[single] 14. ——.
+[single] 0.—
+[single] „
+[single] _o
+[single] _ o
+[single] _o
+[single] _o
+[single] 96.
+[single] 96.
+[single] „
+[single] 95.
+[single] „
+[single] „ 96.
+== NL-HaNA_1.04.02_1606_0052 | #52 | sides: single | lines: 101
+[single] d' presente qualiteiten haar
+[single] winnende maandgelden
+[single] namen, toenamen en waar van daan
+[single] 169 personen V=ke Transport
+[single] Europiaanse soldaten
+[single] Isack Lievensz: van Haarlem
+[single] valentim monsvan gem
+[single] gabriel willevinck van ervers:
+[single] Ian Iansz: van neden van amesfoort
+[single] Iacob Wolff van bern
+[single] cnoet winter van nier op
+[single] Ian caspercoffer van solingen
+[single] Ian knope van Ham
+[single] Ioannes marinus van batavia,
+[single] Lourens d' Ionge van straatsburgh
+[single] Paulus warnar van sacxen
+[single] -
+[single] Arent Joosten den broeder van amsterdam
+[single] claascampet van amsterdam
+[single] v
+[single] Dirck Willemsz: roos van ter gouw
+[single] gerrit smith van plemp
+[single] matthus d'ben van cortrijck
+[single] Hendrik vinneman van geldre
+[single] robbert bekaar van Luijck
+[single] abraham ducloo van bordeucx
+[single] Iacobus bugoes van dansich
+[single] wessel gerbrands van amsterdam
+[single] Philip volkertsz: van wensburgh
+[single] Ian Iansz: van der sant
+[single] nicolaas fortelaar van gouda
+[single] dirck Iansz: van swol
+[single] Iasper Hendricx van embden
+[single] wessel Harmensz: van amsterdam
+[single] Harmen Iansz: swart
+[single] Hans Iurgen meijer van den neub:
+[single] Hendrik vander Lix uit den Haagh
+[single] adriaan Hendricxe van den Heuvee
+[single] san beerthouwer van hussenb:
+[single] Ian van der sliet uit den Haagh
+[single] Lourens Leudeman van Hamb:
+[single] Pieter pietersz: van gottenb:
+[single] Daniel beijerholst van utsehoe
+[single] Iacob klock van Lubeck
+[single] andries fons van franckfort
+[single] 38. koppen
+[single] 207. personen transportere
+[single] _:o - - - - - - - - „ 9. —
+[single] _:o - - - - - - - - „ 12. —
+[single] _:o - - - - - - - - „ 11. —
+[single] _:o - - - - - - - - „ 13. —
+[single] soldaat
+[single] _o
+[single] „12
+[single] .. . ..  . „
+[single] o- - - - - - - - - „ 9
+[single] - - - - - - - - „ 19.
+[single] - - - - - - - - „ 9.
+[single] -
+[single] _ o - - - - - - - - - „ 9. —
+[single] _
+[single] _:o - - - - - - - - - „ 13. —
+[single] _:o - - - - - - - - - „ 11. —
+[single] _o
+[single] _:o - - - - - - - - - - „ 9. —
+[single] _:o - - - - - - - - - „ 11. —
+[single] _:o - - - - - - - - „ 9. —
+[single] _:o - - - - - - - - - „ 9. —
+[single] _:o - - - - - - - - „ 9. —
+[single] _:o - - - - - - - „ 9. —
+[single] _:o - - - - - - - „ 9. —
+[single] _:o - - - - - - - - - „ 14. —
+[single] _:o - - - - - - - - - „ 13. —
+[single] _ o
+[single] .. . . . . „11. —
+[single] _o
+[single] _:o - - - - - - - „ 9. —
+[single] _:o - - - - - - - - „ 9. —
+[single] _:o - - - - - - - - „ 11. —
+[single] _o - - - - - - - - - 14. —
+[single] _o
+[single] _:o - - - - - - - - „ 11. —
+[single] _:o - - - - - - - - - „ 9. —
+[single] -
+[single] _:o - - - - - - - - „ 11. —
+[single] _:o - - - - - - - - „ 14. —
+[single] _:o - - - - - - - - „ 9. —
+[single] _o
+[single] - . - - - - - - „ 9. —
+[single] - - - - - - „ 9. —
+[single] _ o - - - - - - - „ 9. —
+[single] _:o - - - - - - - „ 14. —
+[single] -
+[single] -- „ 9. —
+[single] -
+[single] -
+[single] _:o - - - - - - - - - - „ 9. —
+[single] _
+[single] 9
+== NL-HaNA_1.04.02_1606_0053 | #53 | sides: single | lines: 137
+[single] met wat schip in 't Iaar voor wat Camer
+[single] india aangeland
+[single] do
+[single] a:o 1695. amsterdam
+[single] 91
+[single] _o
+[single] 94.
+[single] „
+[single] „ 94.
+[single] _:o
+[single] „ 93.
+[single] d' purmer
+[single] certgene
+[single] reijgersdaal
+[single] spierdijck
+[single] waterland
+[single] d' voetboogh
+[single] sergiantsland
+[single] 3 paren
+[single] in india aangenomen
+[single] reijgersdaal
+[single] „ 95.
+[single] in india aangenomen
+[single] d' boor
+[single] „ 96. _:o
+[single] d' landboogh
+[single] „ 91. _. o
+[single] logersgeest
+[single] „ 92. —
+[single] voorschoten
+[single] in india aangenomen
+[single] _
+[single] _o
+[single] o
+[single] ussel
+[single] Jambij
+[single] oostenburgh
+[single] 'trad van avondturen
+[single] Hendrik mourits
+[single] grimmestein
+[single] „
+[single] spierdijck
+[single] „
+[single] d' Leck
+[single] „
+[single] „ 85.
+[single] schouwen
+[single] „ 94. —
+[single] drie cronen
+[single] spierdijck
+[single] „ 88.
+[single] „ 96.
+[single] nighteveght
+[single] Langewijck
+[single] „ 93.
+[single] „ 84.
+[single] d' post
+[single] „ 98.
+[single] in india aangenomen
+[single] _o
+[single] „ 98.
+[single] _o
+[single] „ 98.
+[single] „ 98
+[single] en
+[single] „ 86. Zeeland
+[single] „ 95.
+[single] „ 92.
+[single] „ 86.
+[single] -
+[single] __o
+[single] S:r martensdijck
+[single] „
+[single] „ 95.
+[single] „ 95.
+[single] „ 92.
+[single] „
+[single] 92.
+[single] -
+[single] -
+[single] _:o
+[single] do
+[single] _ o
+[single] _o
+[single] :
+[single] _o
+[single] :
+[single] _:o
+[single] _o
+[single] J:
+[single] _:o
+[single] 5
+[single] _o
+[single] _:o
+[single] -
+[single] -
+[single] -
+[single] _:o
+[single] „ 92.
+[single] „ 98.
+[single] „ 96.
+[single] „ 96.
+[single] „ 13.
+[single] „ 88.
+[single] „ 87.
+[single] 98.
+[single] 91.
+[single] 92.
+[single] -
+[single] _:o
+[single] _o
+[single] :
+[single] 9o
+[single] _:o
+[single] _o
+[single] _o
+[single] -
+[single] -
+[single] _o
+[single] -
+[single] -
+[single] -
+[single] _:o
+[single] _o
+[single] :
+[single] _o
+[single] _o
+[single] -
+[single] -
+[single] _:o
+[single] _:o
+[single] _
+[single] _o
+[single] 95.
+== NL-HaNA_1.04.02_1606_0054 | #54 | sides: single | lines: 107
+[single] d' presente qualiteit en haar
+[single] winnende maandgelt
+[single] namen, toenamen en waer van daan
+[single] 207. Personen V=r transport
+[single] Europiaanse soldaten als —
+[single] soldaat
+[single] Pieter Legier van egtegen
+[single] Leendert pint van aken
+[single] carelstaandaart van de groe
+[single] marten inlipe van tongen
+[single] Ian schutter van s:t martensdijck
+[single] martenemsen van Hamburgh
+[single] nicolaas van krick van Zasie
+[single] Hendrick mees van santvliet
+[single] Ian Houthove van moere - -- - -.
+[single] matthis rombouw van Hamburge
+[single] adriaan mortier van rousen
+[single] Lourens Lourensz: van digom
+[single] marinus davidsz: van distelbergen-.
+[single] andries knoops van swol
+[single] Iacob Huijgevan gent
+[single] . . .
+[single] martencroos van statijn - - . „ _.:o - - - - - - - - „ 9. —
+[single] bondewim volkaart van brugge - - „ d.:o - - - - - - - „ 9. —
+[single] Ian Iansz: van Haarlem. . . . . „
+[single] Evert wessel van Zremen.-. „
+[single] e
+[single] andries Iansz: van Erffort
+[single] Hendrik van diest van antwerpen
+[single] Ian Willem bringer van aath- --.
+[single] Ian Huijbertsz: van wietseveen..
+[single] Lodowijck Iohel van doornijck-.
+[single] david volkertsz: van Lijpsigh - --
+[single] Simon samaar van aath - - - - - -
+[single] Ian coenraat Leepsloot van stavo
+[single] adamus Laan van dusseldorp--
+[single] Iacob govertsz: van rotterdam
+[single] Hendrick pietersz: van emb„den
+[single] v
+[single] thomas Iurriaansz: van Zubeck
+[single] dirck Iacobsz: van amsterdam
+[single] Lieve anthonisz: van den bosch - -
+[single] augustin pietersz: van brussel..
+[single] Ian steenhov van wolfbeeck - - - - -
+[single] Isack victor van amsterdam.
+[single] gerrit Laribos van Zenden - - _:o - - - - - - - - „ 9. —
+[single] Ian Hagens van gorcum
+[single] tamboers als
+[single] Hendrick matthisz: van warwijk tamboer
+[single] Harmen smith van Batavia - -.
+[single] 40. personen
+[single] 247.  Europiaanse personen transportere
+[single] ƒ 1
+[single] _ o - - - - - - „ 9. —
+[single] _:o - - - - - - „ 9. —
+[single] _:o - - - - - - - „ 9. —
+[single] _:o - - - - - - „ 11. —
+[single] _:o - - - - - - - - „ 11. —
+[single] ƒ 9.
+[single] _:o - - - - - - „ 11. —
+[single] _:o
+[single] . - - - - - - „ 8. —
+[single] _o - - - - - - - „ 9. —
+[single] :o - - - - - - - „ 4. —
+[single] _o - - - - - - - - „ 9. —
+[single] „11. —
+[single] :o - - - - - - „ 11. —
+[single] - - - - - - - „ 9. —.
+[single] _o
+[single] _:o - - - - - - „ 9. —
+[single] _:o - - - - -
+[single] _:o - - - - - - - „ 9. —
+[single] _:o - - - - - - „ 9. —
+[single] _:o - - - - - - „ 9. —
+[single] _:o - - - - - - - „ 9. —
+[single] _:o - - - - - - - „ 14. —
+[single] _ o - - - - - - - „ 9. —
+[single] _:o - - - - - - - - „ 11. —
+[single] _o - - - - - - „ 11. —
+[single] -
+[single] _o
+[single] _:o - - - - - - - „ 9. —
+[single] _o
+[single] --- - - - „ 9. —
+[single] _: o - - - - - - „ 11. —
+[single] _o - - - - - - - „ 13. —
+[single] _:o - - - - - - - - „ 9. —
+[single] _:o - - - - - - - „ 9. —
+[single] _:o - - - - - - - - „ 9. —
+[single] -
+[single] __:o
+[single] „14. —
+[single] -
+[single] - - - - - „ 7.
+[single] __o
+[single] -
+[single] -
+[single] -
+[single] „
+[single] .-
+[single] -
+[single] _o
+[single] .. . . - „ 11. —
+[single] --- - 9. —
+[single] 9. —
+[single] ƒ 11.
+[single] „ 9. —
+== NL-HaNA_1.04.02_1606_0055 | #55 | sides: single | lines: 127
+[single] met wat schip in 'tIaar voor wat Camer
+[single] „ 94.
+[single] _o
+[single] india aangeland
+[single] Honsloeredijck a:o 1691. Zelant
+[single] _o
+[single] 93„
+[single] „
+[single] schondijck
+[single] -
+[single] carlthago
+[single] „ 43.
+[single] o
+[single] domburgh
+[single] oosmen
+[single] 's lands welvaren
+[single] kattendijck
+[single] canthage
+[single] Zaland
+[single] danburgh
+[single] 's lands welvaren
+[single] oosterland
+[single] rengersdaal
+[single] oostersteinn
+[single] in india aangenomen
+[single] oostersteen
+[single] oosterland
+[single] in india aangenom:
+[single] Tidoor
+[single] zion
+[single] prinsland
+[single] _o
+[single] waddincx ven
+[single] _o.
+[single] Iselmonde
+[single] _o
+[single] china
+[single] zion
+[single] handboogh
+[single] Langewijck
+[single] lousholredijck
+[single] d' gent
+[single] _
+[single] waterman
+[single] nieuland
+[single] visserin
+[single] „ 95.
+[single] „ 95.
+[single] „ 91.
+[single] „ 81.
+[single] „ 94.
+[single] „ 92.
+[single] „ 92.
+[single] „ 96. rotterdam
+[single] „ 96.
+[single] _o.
+[single] -
+[single] „ 94.
+[single] o
+[single] „ 94.
+[single] _o
+[single] „ 88.
+[single] „ 92. Hoorn
+[single] „ 95. —
+[single] _o
+[single] „ 91.
+[single] _
+[single] „ 86.
+[single] _o
+[single] 95. Enckhuijsen
+[single] _o
+[single] 95.
+[single] _o
+[single] „
+[single] 93
+[single] „ 43.
+[single] „ 84.
+[single] Delft
+[single] 91. amsterdam
+[single] „
+[single] 94.
+[single] mindia aangenomen
+[single] „ 92.
+[single] 91.
+[single] 96.
+[single] „ 96.
+[single] „ 96.
+[single] „
+[single] „ 92.
+[single] „ 94.
+[single] „ 95.
+[single] „ 94.
+[single] „ 95.
+[single] „ 95.
+[single] „ 91:
+[single] -
+[single] -
+[single] -
+[single] -
+[single] -
+[single] -
+[single] _o
+[single] :
+[single] _o
+[single] _o
+[single] :
+[single] _o
+[single] :
+[single] _:o
+[single] _ o
+[single] :
+[single] :
+[single] o
+[single] _o.
+[single] do:
+[single] _o
+[single] _o
+[single] -
+[single] -
+[single] -
+[single] 87.
+[single] „
+[single] _o
+[single] _o
+[single] o
+[single] _o
+== NL-HaNA_1.04.02_1606_0056 | #56 | sides: single | lines: 111
+[single] sommanium
+[single] namen, toenamen, en waarvandaan waar in 's comp:s dienstaan genom:d
+[single] 247. Europianen
+[single] waar bijvoege d' volgende oosterse militairen te weten
+[single] op batavia indieelst aangenomen
+[single] 101. maccassaren en boegenesen
+[single] „op Houglij ahdem
+[single] 4 Coepassen off bengaalders
+[single] -
+[single] geheel
+[single] 352. Pesonen
+[single] 127. koppen V=k transport
+[single] 6. personen in pattena als
+[single] 2. ondercoopluiden
+[single] 1. boekhouder
+[single] 2. adsistenten
+[single] 2 1. chirurghin
+[single] 3. inde munt tot ragia mohol als
+[single] 1. boekhouder Presidenten
+[single] 1. bottelier..
+[single] 1. botteliersm:t die met 't silver en gelt
+[single] en pen afvaar
+[single] 2. opbellasoor als
+[single] 1. boekhouder
+[single] 1. chirurghiin
+[single] en
+[single] Houglij als
+[single] 18. gequalificeerde, waar onder den
+[single] soldijboekhouder, oppermeester,
+[single] Eerste cercq, equipagiemeester,
+[single] krancktesoeker en ondermeester
+[single] 20. boekhouders, adsistenten V=r ad„
+[single] sisten, en die adsistenten dienst
+[single] doen, als
+[single] 3. boekhouders
+[single] 9. adsistenten
+[single] pes
+[single] 2. d=o _o
+[single] 6. die adsistenten dienst doen
+[single] an
+[single] 8. Lootsen
+[single] 1. sielievader
+[single] 1. trompetter
+[single] 1. constabel
+[single] 2. geweldigers
+[single] 5. ambaghtsluijden
+[single] 1. smith en roermaker
+[single] 1. cuijper
+[single] 1. timmerman
+[single] 1. opperzeijlmaker
+[single] 1. onder
+[single] 138. personen, waar onder niet moeten
+[single] gerekent werden d'volgende als
+[single] 14. mattrosen door sieckte van diverse
+[single] schepen verbleven sien, als die door
+[single] ipotentheijt van de zeijlvaartuijge
+[single] in 't lospitaal leggen
+[single] 1. constabelsm:t tot hulp van den
+[single] constabel gebruijckt, dogh door 't
+[single] vertreck van eenige militairen
+[single] waardoor 't werck vermindert is,
+[single] wederom versonden
+[single] 2. biide Lootsen om tot dien dienst
+[single] bequaam te werden
+[single] 1. touwslager bij'tteren, en stoven
+[single] der touwen gebruijckt om di„
+[single] da van dat werck grondige kennis
+[single] te doen erlangen, dogh wederom
+[single] versonden
+[single] 62. zeevarende waarvan
+[single] 43. op 's comp:s vaartuijgen
+[single] 1. doorsiekte aanland van diverse
+[single] schepen verbleven
+[single] 7. soo op Houglij als beecasoor in't
+[single] hospitaal
+[single] 1. constabelsmaat
+[single] 2. Oude lootsen om 't vaarwater
+[single] te leren kennen
+[single] 1. bij't slaan, theren en stoven
+[single] dertouwen
+[single] 18. personen extraordinair, waar
+[single] van reets eenige versonden sin
+[single] en bij reconvalisatie tot op 't netto
+[single] getal van 120. koppen volgens d'ordre
+[single] van haar Ed:e g: achtb: over de gehele
+[single] sullen
+[single] directie gereduceert sal werden
+[single] 214. soo Europiaanse als oorsterse militaire
+[single] die om voor aan te getogene redenen
+[single] als extraordinair moeten gerekent
+[single] werden als
+[single] 109. Europianen te weten
+[single] 5. sergiants
+[single] 352. 109. 5. sergiants transportere
+[single] 2
+[single] 117. Personen op Houglij
+[single] 10. op Cassimabazaar als —
+[single] 1. oppercoopman
+[single] 3. ondercoopluiden
+[single] 3. boekhouders
+[single] 1. adsist:t
+[single] 1. vorwer
+[single] 1. soldaat, die adsisten ten dienst doet
+[single] &n
+[single] ƒ
+[single] 127. personen transportere
+[single] ƒn
+[single] en
+[single] 2„
+[single] 2„
+== NL-HaNA_1.04.02_1606_0057 | #57 | sides: single | lines: 36
+[single] sommarium
+[single] 352. 109. 5. sergiants P=r transport 352. 113. militairen J=r transport
+[single] . 101. maccassaarse en boegenese militai„
+[single] ren als
+[single] 1. sergiant
+[single] 2. corporaals
+[single] 98. gemene soldaten
+[single] e
+[single] 214. militairen
+[single] m
+[single] 352. personen in't generaal
+[single] 6. corporaals
+[single] 8. adel borsten
+[single] 88. soldaten
+[single] 2. tamboers
+[single] 2
+[single] 4. toepassen, waar van
+[single] 2. soldaten
+[single] 2. tamboers
+[single] in
+[single] 352. 113. militairen transportere
+[single] In't N=ts Comptoir Houglij in Bengale adie ult:o Junij a:o 1698.
+[single] accordeert met de soldij„
+[single] boeken deser directie
+[single] Hoorn
+[single] kennis
+[single] aar
+[single] sin
+[single] tto
+[single] dordre
+[single] de gehele
+[single] en
+[single] litairen
+[single] nen
+[single] kent
+== NL-HaNA_1.04.02_1606_0058 | #58 | sides: single | lines: 1
+[single] No. 4
+== NL-HaNA_1.04.02_1606_0059 | #59 | sides: single | lines: 29
+[single] 11
+[single] Register van Soodanige
+[single] P„r de Retour scheepen
+[single] over Cheijlon
+[single] brieven en papieren als op heden door den
+[single] Edelen heer Dirck Comans gouverneur
+[single] en directeur deser Custe Chormandel, —
+[single] missgaders den Edelen heer Laurens Pit¬
+[single] raad Extraordinaris van India en oud
+[single] gouverneur der gemelte Custe, benevens —
+[single] den raad uijt Nagapatnam over Ceijlon
+[single] pr de Reboúr Scheepen werden geaddresseert
+[single] aan de hoog Edele Heeren bewinthebberen
+[single] ter vergaderinge van X Vs, representerende
+[single] de generale nederlandse g'octroijeerde
+[single] oostjndische Compagnie, Namentlijk
+[single] 1. Origionele missive van huijdigen datum
+[single] 2. Copia d=o door de Ed=le heeren gouverneurs Dirck
+[single] Comans, en Laurens Pit, nevens den
+[single] raad alhier, aan haar hoog Edelhedens,
+[single] de hooge regeering van india, tot
+[single] batavia, dato deses. —
+[single] 3. beantwoorden patriasen Eijsch van retouren
+[single] voor anno 1698.
+[single] 4. Copia brieven door den E Bruijning Wildelant-
+[single] en raad uijt masulipatnam, aan
+[single] de.
+[single] No
+[single] H
+== NL-HaNA_1.04.02_1606_0060 | #60 | sides: single | lines: 41
+[single] No„
+[single] de Edele heeren gouverneurs en raad
+[single] voorm=t 't sedert 11. ' october tot 14. '
+[single] der verlede maand —
+[single] Copia brieven, door ged=e haar Edeles en raad
+[single] M.
+[single] aan het opperhooft en raad tot masz:n
+[single] van den 20. ' october, tot den 18. ' deser
+[single] maand.
+[single] Copia brieven door het opperhooft en raad tot
+[single] d
+[single] Palliacatta aan gem:e Edele heeren
+[single] gouverneurs en raad, 't zedert den 4. '
+[single] october tot 28: ' 9ber: Jongstleden,
+[single] hen
+[single] Copia brieven, door voorn: haar Ed=les en raad aan
+[single] het opperhooft en raad tot Palliacatta,
+[single] beginnende den 20. ' october tot den
+[single] 18. ' Courant.
+[single] 8. Copia brieven door de residenten van Sadras
+[single] na herwaarts van den 29. ' 7ber:
+[single] tot 11e. deser.
+[single] 9 Copia brieven door geciteerde haar Edelesen
+[single] raad aan voorsz: residenten, 't sedert
+[single] 3. november tot 18. ' deser.
+[single] Copia brieven door den Cap=n Luijtenant en
+[single] 10.
+[single] opperhooft g:
+[single] em
+[single] va
+[single] da
+[single] e
+[single] i
+[single] vij
+[single] ck
+[single] o
+[single] m
+[single] k
+[single] 7.
+[single] 6.
+[single] 5.
+== NL-HaNA_1.04.02_1606_0061 | #61 | sides: single | lines: 25
+[single] 12
+[single] opperhooft nevens den raad tot Boedeckerij,
+[single] aan dik gem: Edele heeren gouverneurs
+[single] en raad van den 6. 8ber: tot 12. ' deser
+[single] 11. Copia brieven door meerged=te haar Ed=le en raad
+[single] naar Poedecherij, aan gem: Cap:
+[single] luijtenant en opperhooft, nevens den
+[single] raad, 't sedert 27. ' octob: tot 18. ' deser
+[single] 12. Copia brieven door den portonovosen resident
+[single] naar herwaarts van 10. ' october
+[single] tot 19. ' Courant.
+[single] 13. Copia brieven door ged=te haar Edeles en raad
+[single] na derwaarts, 'tsedert 24. ' 8ber
+[single] tot 18:e. deser
+[single] 14. Copia brieven door meer ged:e Edele heeren gouvern=r
+[single] en raad naar Souratta, persia, Ceijlon,
+[single] mallabaar &:a, van den 20. ' october,
+[single] tot dato deses
+[single] 15. Copia staat soo wegens de agterstallen der
+[single] steenhouders, leveranciers der kleeden
+[single] als 's Comp=s makelaars ten Contoire
+[single] sadraspatnam, volgens slot der
+[single] negotie boeken van dat Contoir,
+[single] op
+[single] No„
+== NL-HaNA_1.04.02_1606_0062 | #62 | sides: single | lines: 31
+[single] op ult=o aug=o stantij, met specifice
+[single] aanwijsinge waar uijt deselve sijn ge„
+[single] resulteert, wat zij daar tegen in voor„
+[single] raat, en aan uijtstaande schulden
+[single] hebben, mitsgaders wat apparentien
+[single] er tot vereffeninge derselve gevonden
+[single] werden —
+[single] 16. Copia rapport door de gecommitt=s Pieter —
+[single] Calandrini en Willem Oosterharen
+[single] gedaan, wegens haar verrigting, en
+[single] wedervaren in het leger van 's keijsers
+[single] orangseephs veldheer Julfacaarchan
+[single] Copia memorie vand' schenckagie door voorsz:e
+[single] 2
+[single] gecommitt=s aan gem: veldheer, den duan„
+[single] en andere voorname 's majesteijts beamp„
+[single] tenaren gedaan, mitsgaders de gevalle
+[single] ongelden soo tot Poedecherij, als onder
+[single] den weg naar, en in gesegde leger, met
+[single] aanwijsinge van het geene voor haar
+[single] depart na derwaarts tot Poedecherij
+[single] verbleven, en met haar retournement
+[single] aldaar overgelevert is, als mede
+[single] van
+[single] a
+[single] 17.
+[single] mi
+[single] k
+== NL-HaNA_1.04.02_1606_0063 | #63 | sides: single | lines: 25
+[single] 13
+[single] N„o
+[single] van sodanige goederen, als sij met
+[single] haar vlugt, genootsaakt sijn geweest
+[single] in ged=e leger te laten, en wat contanten
+[single] de
+[single] door den eersten gecommitt:s alhier
+[single] aangebragt is —
+[single] 18. Een kasje met 3 stellen soo nagapatnamse,
+[single] Poedecherijse, als palliacatse soldij„—
+[single] boeken &=a, volgens appart register
+[single] daar in leggende getekent &: Chormandel
+[single] soldij boeken voor 't Patria —
+[single] 19. Copia van boven genoemde Regiser —
+[single] nog gaat in een pacquet
+[single] geslooten. —
+[single] dubbelt van dit register —
+[single] duplicaat origionele missive hier voor
+[single] onder N=o 1 vermelt —
+[single] Copia briev door d' Edele heeren Dirck
+[single] # nevens den Raad
+[single] Comans en Laurens Pit„
+[single] aan haar hoog Edelhedens de hoge
+[single] regeringh van India tot
+[single] Batavia
+== NL-HaNA_1.04.02_1606_0064 | #64 | sides: single | lines: 11
+[single] Batavia de dato deses n. o 2.
+[single] we
+[single] 1698.
+[single] Magapatnam den 24. ' xber:
+[single] A. een geslote pacquetje brieven,
+[single] van den fiscaal deses gouverne„
+[single] ments m=r Cornelis Joen Simons,
+[single] aan haar Edele hoog agtbaarhed:s
+[single] in het hooft deses gemelt, geconsigneert
+[single] A. Isembaart. /.
+[single] Raad, en secr=s
+== NL-HaNA_1.04.02_1606_0065 | #65 | sides: single | lines: 1
+[single] 9.
+== NL-HaNA_1.04.02_1606_0066 | #66 | sides: single | lines: 4
+[single] Duplicaat Register
+[single] ra
+[single] m
+[single] At:
+== NL-HaNA_1.04.02_1606_0067 | #67 | sides: single | lines: 3
+[single] Duplicaat Missive
+[single] L„ra
+[single] Lra B
+== NL-HaNA_1.04.02_1606_0068 | #68 | sides: single | lines: 27
+[single] ontfangvan vonEdl loogagtbe mises
+[single] endez:
+[single] dankbetuijging voor de Communicatie van
+[single] verscheijde varen
+[single] den 5. e Junij den vreede alhier gepubliceert
+[single] afgesonden sijnde, hoopen wij reets behouden
+[single] bij deselve sullen sijn overgebragt, 't sedert hadden
+[single] wij de Eere op 6. ' Ianuarij, en 5. n februarij
+[single] Iongstleden, drie voudig te ontfangen, haar
+[single] Ed=le hoog agtbaarhedens seer geagt schrijvens
+[single] van 26. ' 9ber: anno 1696, gelijk ons naderhant
+[single] onder datis 4. ' Iunij, en 16:en october, ook zijn
+[single] bestelt uw Ed. le Hoog agtbaarhedens nadere
+[single] brieven van 9. ' october des verledene, en
+[single] 3.:' april deses Iaars, alle met hare respective
+[single] bijlagen Conform de reguslers, daar nevens
+[single] gevoegt, de ordres daar in vervat, sullen wij
+[single] schultpligtig nakomen, onder en tusschen dat
+[single] uw Ed.:le hoog agtb: nedrig dankzeggen, voorde
+[single] communicatie van verscheijde saken, zoo
+[single] den staat van het land; als die vande Commertie
+[single] rakende, en voornamentlijk het sluijten
+[single] van Een generaele vreede, tusschen onsen
+[single] staat; de geallieerdens, en den konink van
+[single] vrankrijk, waar van alhier op den 5. ' Iunij
+[single] deses Iaars, de publicatie met de gewoone
+[single] plegtigheden
+== NL-HaNA_1.04.02_1606_0069 | #69 | sides: single | lines: 30
+[single] 15.
+[single] wat uijt de gedructe, tractaten is gebleken.
+[single] en was uijt de Extracten van verscheijde
+[single] resolutien
+[single] plegtigheden is geschiet, en op den 9. ' Iulij daar aan
+[single] god almagtig alomme op de comptoiren
+[single] van dit gouvernement, daar voor publijke
+[single] dankzegginge gedaan, den goeden god geve
+[single] dat den selven vreede langdurig' zij en
+[single] strecken moge tot welstant van het
+[single] gemene best, en in 't bijsonder vanden
+[single] staat vand' EComp=e; zijnde ons ondertusschen
+[single] ook uijt de gedrukte Tractaten gebleken
+[single] dat de fortresse Goedecherij, sodanig die
+[single] ten tijde vande verovering is geweest
+[single] aande francen wederom sal moeten
+[single] werden ingeruijmt, en uijt de Extracten
+[single] van verscheijde resolutien ter vergaderinge
+[single] van haar hoogmogende genomen, mitsgaders
+[single] de brieven, door uwed:le hoog agtbaarhedens,
+[single] met hoogst gemelte haar hoogmogende
+[single] gewissels, dat de france Comp=s niet onge„
+[single] negen was, met uw Ed=le hoog agtb=s
+[single] in onderhandeling te treden, wegens
+[single] de
+[single] hadden
+[single] ve
+[single] ertie
+[single] Jnij
+== NL-HaNA_1.04.02_1606_0070 | #70 | sides: single | lines: 23
+[single] tot poedescherij alles veerdig om de fortresse
+[single] aande fwoncen in teruijmen.
+[single] de stad, en landen van Poedecherij, door
+[single] den vorse Ramaragie aande Eomp:e
+[single] afgeslaen, mitsgaders dat uw Ed=le hoogh
+[single] agtbaarhedens dese sake aan ons hadden
+[single] gerenvojeert, met qualificatie, om op
+[single] Instructie van haar hog Edelh=s de hooge
+[single] regering van india tot Batavia, dese
+[single] saak met de gemagtigdens vande france
+[single] Comp=e alhier aftedoen, waar in wij in geenen„
+[single] deele sullen gebreken, den intrest van d' EComp=e
+[single] naar behoren tebehertigen, zoo laast ons
+[single] gem. te instructie sal toegekomen zijn;
+[single] zijnde onder en tusschen alles tot Poedecherij
+[single] veerdig, om op de aankomste der francen
+[single] die wij daegelijcx tegemoet zien, de fontresse
+[single] aanstonts tekonnen inruijmen, sullende
+[single] het Een goede zaek wesen, indien wij met
+[single] haar wegens de stadt, en landerijen konnen
+[single] over Een komen, daar toe wij groote hoop
+[single] hebben, door de presentatie, die zij reets aan
+[single] den
+== NL-HaNA_1.04.02_1606_0071 | #71 | sides: single | lines: 26
+[single] 16
+[single] smerte over den slegten sact vanden Cleden
+[single] handel
+[single] ope dat de granen desen Jare redelijks koops
+[single] zullen werden.
+[single] den staat, en uEd:le hoog agtbaarhedens
+[single] hebben gedaen
+[single] Het smiert ons seer, dat de oorlogen, en duuren
+[single] tijt, mitsgaders de duurse van het Cattoen,
+[single] ons beletten, de verwagtinge van uEd=le
+[single] hoog agtbaarhedens, aangaende de gevordende
+[single] kleden te voldoen, waar in wij vresen desen
+[single] Iare wederom voor Een groot gedeelte in
+[single] gebreke te zullen moeten blijven, voornament„
+[single] lijk ontrent het swaargewees van guinees,
+[single] en salempoeris, daar inhet wel meest
+[single] op het Cattoen, gelijk het inde fijne lijwaten
+[single] meest op den arbeijt aankomt, hebbende
+[single] redenen om te hoopen, dat de granen desen
+[single] Iare redelijcx koop sullen wesen, doorden
+[single] goeden negen, daarden barmhertigen god,
+[single] dese landen in opsigt van vorige Iaren, mede
+[single] gelieft te segenen, 'twelk voor al nu nood„
+[single] sakelijk was, alsoo'er sedert Ettelijcke
+[single] Iaren nooijt soo weijnig voorraad van
+[single] granen
+== NL-HaNA_1.04.02_1606_0072 | #72 | sides: single | lines: 23
+[single] wat daaruijt teverwagten zin
+[single] den staet van dit gouvernement
+[single] granen is geweest als nu en indien het
+[single] gebeurt, dat deselve door Een goed gewas komen
+[single] afteslaen, is het seker, dat den arbeijt
+[single] goed koper moet werden, en bij gevolge,
+[single] voornamentlijk ook de lijwaten, die het minste
+[single] cattoen nodig hebben, sulx dater Eerder
+[single] Een verandering ten goede ontrent het
+[single] fijn gewees is tewagten, als wel ontrent
+[single] het grovse, dewijl schoon het Cattoen gewasch
+[single] naden tijt alreedelijk mogte slagen, soo en
+[single] is inde prijs daarontrent soo ligt geen groote
+[single] beterschap te voorsien, vermits doorde oorlogen
+[single] die alles hebben vermelt, delanden tot
+[single] Een weeslijn zijn geworden, sulx datier
+[single] tijt sal nodig wesen, Een gemelte landen
+[single] haar adem zullen kunnen scheppen
+[single] Aangaende den staet van dit gouvernement
+[single] sedert dat onsen Iongsten met 'tsagtje al
+[single] schaapherder aan haar hoog Edelhedens
+[single] tot Batavia inde maand october Iongstlede
+[single] is
+== NL-HaNA_1.04.02_1606_0073 | #73 | sides: single | lines: 25
+[single] 17
+[single] uijt deCopia brief na batavia over Ceijlon
+[single] lieden afgaende tesien
+[single] drie stel soldij boeken enz: versellen deser
+[single] is afgegaen, zullen uEd=le hog agtbaarhedens
+[single] vervat vinden indengenen, die wij heden
+[single] over Ceijlon derwaarts senden; zijnde de
+[single] Copia daar van bij dit ons nedrig schrijvens
+[single] dubbelt gevoegt, om op de retour scheepen
+[single] verdeelt te werden, weshalven ons daar
+[single] aan in alle Eerbiedigheijt gedragende, uEd=le
+[single] hoog agtbaarhedens bidden indesen te
+[single] houden voorgeinsereert
+[single] Ook versellendesen drie stel soldij boeken,
+[single] van Nagapatnam, Goedecherij
+[single] en Palliacatta soo mede (ingevolge
+[single] vande ordre van uw Ed=le hoog agtb=) de
+[single] antwoord op den Eijsch voor desen Iare,
+[single] waar in bij Ider soort, die niet in'tgeheel
+[single] voldaan is, redenen werden gegeven,
+[single] waarom men daar in heeft moeten
+[single] manqueren, daar inbestaande, dat den
+[single] oorlog en duurte vande levens middelen,
+[single] en voornamentlijk de duurte van het
+[single] Cattoen
+== NL-HaNA_1.04.02_1606_0074 | #74 | sides: single | lines: 17
+[single] verdekening van den gouvern: Comanis
+[single] Cattoen, gelijk voren reets gesegt, daarvan
+[single] de oorsoek zijn, konnende uEd=le hoog agtb=s
+[single] in alle opregtigheijt versekeren, dat het
+[single] geensints en ontbreekt, aan onse neerstigheijt,
+[single] omden dienst van onse heeren, en meesters
+[single] nabehoren te betragten, waarontrent den
+[single] gouverneur Comans op den 30. n september
+[single] Iongst leden ingevolge vande ordre van haar
+[single] hoog Ed=ls, in dit gouvernement geinstalleert,
+[single] uEd=le hoog agtbaarhedens voor het toekomende
+[single] ook versekeringe doet.
+[single] Waar mede
+[single] uw Edele hoog agtb=s met den staat van
+[single] de generale Comp=e indeselvere
+[single] bescherminge godes bevelen, en met
+[single] diep
+== NL-HaNA_1.04.02_1606_0075 | #75 | sides: single | lines: 27
+[single] 18.
+[single] Jnuw Ed:l Hoog Agtb: stad
+[single] A: Isembaart.
+[single] Raad, en secr:s
+[single] diep respect verblijven
+[single] Edele Hoog Agtb: gebiedend' Heren
+[single] UEd:le Hoog Agtb:s onderdanige
+[single] en gehoorsame Dienaren.
+[single] Dirck Comans
+[single] S: Pit.
+[single] Nagapatnam Den
+[single] 28 decembr 1698.
+[single] H Seeland
+[single] Simons
+[single] Jvo rwir
+[single] Theod: Selghuijs
+[single] T
+[single] 12
+[single] SSpite
+[single] JL:
+[single] H„n V„n Boeken/.
+[single] Pr. Calandrini
+[single] Ham
+[single] JB Burg
+== NL-HaNA_1.04.02_1606_0076 | #76 | sides: single | lines: 1
+[single] waar
+== NL-HaNA_1.04.02_1606_0077 | #77 | sides: single | lines: 14
+[single] 19
+[single] waar toe desen diena
+[single] Batavia.
+[single] Aan den Hoog Edele Heere. —
+[single] M:r Willem van outhoorn
+[single] gouverneur generaal, en d'
+[single] Edele Heeren Raden van
+[single] Nederlands India.
+[single] Hoog Edele gebiedende agtb:
+[single] Heer en Heeren.
+[single] Agtervolgens de belofften bij
+[single] onsen Jongsten van dato 11. ' october
+[single] p=r den schaapherder, sal desen
+[single] dienen.
+== NL-HaNA_1.04.02_1606_0078 | #78 | sides: single | lines: 26
+[single] hoe veel lasten rijs vande gevorderde 500. van
+[single] ceijlon onvoldaan zijn gebleven
+[single] dienen ter schuldpligtige rescribtie
+[single] op de resterende poincten van uw„
+[single] hoog Edelh. s laaste missive, gedateert
+[single] 20. ' augustij met gemelten bodem
+[single] hier aangebragt, die doenmaal om
+[single] de kortheijt destijts hebben moeten
+[single] uijtgestelt blijven, en verder tot
+[single] Communicatie vande notabelste
+[single] voorvallen, te deser custe zedert
+[single] dien bijdt
+[single] van de 500. lasten rijs anno passado voor
+[single] Ceijlon gevordert sijn, gelijk als in
+[single] onsen Iongsten brieff na 'T Patria,
+[single] waar van uhoog Edelh. s de copia
+[single] hebben ontfangen, pertinent is.
+[single] gedemonstreert, onvoldaan geble„
+[single] ven. . . . . . . . . . . . . . . . . . lasten rijs 147. ½: r:
+[single] hier bij gevoegt de Iongst gevor„
+[single] derde. . . . . . . . . . . . . . . . . . . . . . . . . „ 200. —.
+[single] komt Te samen. . . . . . . . . . . . . . . . . . . . „ 347:
+[single] waar van wij desen Iare uijt ge„
+[single] brek van scheeps ruijmte—
+[single] niet
+[single] Transportere - - - - - - - - lasten 347.
+== NL-HaNA_1.04.02_1606_0079 | #79 | sides: single | lines: 27
+[single] 20
+[single] onse hope dienwegen
+[single] P„r Transport - - - - - . lasten rijs„ 347½.
+[single] niet vermogens sijn geweest
+[single] meerder granen na dat gouver„
+[single] nement te bestellen, dan
+[single] 12000. parren bruijne rijs uijtmaken„
+[single] de. . . . . . . . . lasten 160. , en
+[single] 8700. D=os D=os nelij sijnde in
+[single] rijs gerekent - - - „ 58. –. „ 218. —.
+[single] Sulx nog manqueren
+[single] lasten Rijs - - - - . . . . . . . . . . . „ 129. ½.
+[single] die wij met onse vaartuijgen inhet
+[single] voorjaar hopen te sullen kunnen
+[single] oversenden, en dan ook vermogens
+[single] tewerden, de 300. lasten Rijs, die
+[single] uhoog Edelh. s ons bij gemelte missive
+[single] gelieven te bevelen voor dat gouver„
+[single] nement te besorgen, tegens minder
+[single] als 30. rx=rs het last in tekopen, waar
+[single] toe sigh de apparentien voor als nogh
+[single] heel favorabel verthonen, wij sullen
+[single] niet manqueren ons best tedoen
+[single] die ten civielsten prijse te bedingen
+[single] en vervolgens derwaarts te beschicken:
+[single] zijnde door den heer Commandeur
+[single] mattheus
+== NL-HaNA_1.04.02_1606_0080 | #80 | sides: single | lines: 26
+[single] Eijsch van nelij van Iaffanap:, en was daarover nodig
+[single] gevonden is
+[single] dat de opsehaffender contoviren zjn aanbevolen
+[single] Mattheus Schenkenbergh, en raad
+[single] tot Iaffanapatnam bij missive van 4. ' der
+[single] gepasseerde maand, ten behoeve van
+[single] dat commandament eijsch gedaen
+[single] van 300. lasten Nelij, waar over
+[single] wij nodigh gevonden hebben, den
+[single] heere gouverneur gerrit de Heere
+[single] te versoeken, ons te adviseren off
+[single] deselve boven voormelte 300. lasten Rijs
+[single] dienen te werden voldaan, dan off die
+[single] daar onder sullen begrepen zijn
+[single] op dat wij tijdigh daar van g'informeert
+[single] zijnde, ons in het bedingen van de
+[single] quantiteijt daar na souden kunnen
+[single] schicken
+[single] Alle de opperhooffden der subalterne
+[single] comptoiren, zijn ingevolge van
+[single] uhoog Edelh. s ordre aanbevolen
+[single] den cabessa benzuin ten spoedigsten
+[single] den cadesalenduntenspoeighen teverkopen ensz: en besten doenelijk te verkopen, al—
+[single] was 'tselve soo 't niet anders wesen
+[single] kan, tot de Jncoops prijs, 'twelck
+[single] die van
+== NL-HaNA_1.04.02_1606_0081 | #81 | sides: single | lines: 28
+[single] 21
+[single] scheijden derwegen van de operhoofden ingekomen
+[single] 't spiaulter na bengale gesonden, en wat daar van
+[single] hier en op masulip: is aangehouden
+[single] die van Masulipatnam sustineren,
+[single] nog al eenigen tijd sal aanlopen, wijle
+[single] niemand daar na komt taelen om
+[single] dat soo hoog van prijs is, als kostende
+[single] d'Ecomp: ƒ 448. 15. —. de 480. lb. , gelijk
+[single] in haren brieff van 27:' october in copia
+[single] onder de papieren nu overgaande ampel
+[single] werd vertoont;, die van Palliacatta
+[single] beloven daar toe haar best te sullen
+[single] doen, en de residenten tot sadras
+[single] hebben goeden moet, voor het gene daar
+[single] berustende is, de vereijschte prijs te
+[single] sullen kunnen bedingen; schrijvende
+[single] het opperhoofft van Portonovo, den
+[single] boekhouder abraham Dormieuxt,
+[single] dat het daar zijnde reslant, als bestaan„
+[single] de maar in 600. lb. haast sal verkogt
+[single] raken
+[single] Het spiaulter is volgens uhoog Edelh:s
+[single] ordre na Bengale gesonden, sijnde
+[single] daar van hier maar tot gebruijk. 795. lb:
+[single] en op masulipatnam 10918 ¾. lb.
+[single] aangehouden, om dat in de maand
+[single] october
+== NL-HaNA_1.04.02_1606_0082 | #82 | sides: single | lines: 29
+[single] Eijsch van neijvan Jaffanap, en ws daar over nodig
+[single] gevondenis
+[single] dat de opsehappen der contoiren zijn anbewvelen
+[single] den cadesabendunten spoedigsen te verkopen ensz:
+[single] Mattheus Schenkenbergh, en zzaad
+[single] tot Iaffanapatnam bij missive van 4. ' der
+[single] gepasseerde maand, ten behoeve van
+[single] dat commandament eijsch gedaen
+[single] van 300. lasten Nelij, waar over
+[single] wij nodigh gevonden hebben, den
+[single] heere gouverneur gerrit de Heere
+[single] te versoeken, ons te adviseren off
+[single] deselve boven voormelte 300. lasten Rijs
+[single] dienen te werden voldaan, dan off die
+[single] daar onder sullen begrepen zijn
+[single] op dat wij tijdigh daar van g'informeert
+[single] zijnde, ons in het bedingen van de
+[single] quantiteijt daar na souden kunnen
+[single] schicken
+[single] alle de opperhooffden der subalterne
+[single] comptoiren, zijn ingevolge van
+[single] uhoog Edelh. s ordre aanbevolen
+[single] den cabessa benzuin ten spoedigsen
+[single] en besten doenelijk teverkopen, al
+[single] was 'tselve soo 't niet anders wesen
+[single] kan, tot de Jncoops prijs, 'twelck
+[single] die van
+[single] spa
+== NL-HaNA_1.04.02_1606_0083 | #83 | sides: single | lines: 28
+[single] 21
+[single] scheijden derwegen van de operhoofden ingekomen
+[single] 't spiaulter na bengale gesonden, en wat daar van
+[single] hier en op masulip: is aangehouden
+[single] die van Masulipatnam sustineren,
+[single] nog al eenigen tijd sal aanlopen, wijle
+[single] niemand daar na komt taelen om
+[single] dat soo hoog van prijs is, als kostende
+[single] d'Ecomp: ƒ 448. 15. —. de 480. lb. gelijk
+[single] in haren brieff van 27:' october in copia
+[single] onder de papieren nu overgaande ampel
+[single] werd vertoont;, die van Palliacatta
+[single] beloven daar toe haar best te sullen
+[single] doen, en de residenten tot sadras
+[single] hebben goeden moet, voor het gene daar
+[single] berustende is, de vereijschte prijs te
+[single] sullen kunnen bedingen; schrijvende
+[single] het opperhoofft van Portonovo, den
+[single] boekhouder abraham Dormieuxt,
+[single] dat het daar zijnde reslant, als beslaan„
+[single] de maar in 600. lb. haast sal verkogt
+[single] raken
+[single] Het spiaulter is volgens uhoog Edelh:s
+[single] ordre na Bengale gesonden, sijnde
+[single] daar van hier maar tot gebruijk 795. lb:
+[single] en op masulipatnam 10918¾. lb.
+[single] aangehouden, om dat in de maand
+[single] october
+== NL-HaNA_1.04.02_1606_0084 | #84 | sides: single | lines: 26
+[single] hopen vanden E: Wildelant en raad dien aangaande
+[single] en nahulij ngelede entus godeneern
+[single] october 1380. lb. tegens 91. ropias de
+[single] 480. lb:, belopende voor de 100. lb. hollands
+[single] ƒ 28. 8. 12. ligt gelt, gevende 12. p=r c=to
+[single] winst, waren verkogt, en tegens
+[single] welcken prijs den E: wildelant
+[single] en raad hopen voormelte parthij
+[single] ook haast te sullen kunnen omsetten
+[single] den Thin tot masulipatnam berustende,
+[single] hebben wij geordonneert bij goede gele„
+[single] gentheden herwaarts tesenden, en
+[single] alle practicable middelen aan te
+[single] wenden, om de quantiteijt van d=o
+[single] mineraal tot golconda resterende,
+[single] wijle de ongelden vanden affvoer
+[single] vrij hoog op stok souden lopen, al ware
+[single] het voor het costende niet opvoerloon
+[single] en andere ongelden daar bij gerekent
+[single] aan de man te helpen, 't geen egter
+[single] niet willendelucken, souden wij die
+[single] ook verwagten, om ingevolge van
+[single] uhoog Edelh. s bevel, al mede van
+[single] hier na ceijlon, en vervolgens
+[single] van daar.
+== NL-HaNA_1.04.02_1606_0085 | #85 | sides: single | lines: 29
+[single] 22
+[single] dat't reslant camphurbaros en't rood Coper —
+[single] u hoogEd:s sal toegesonden werden
+[single] redenen waarom den prijs vanden
+[single] peper wat is affgenomen
+[single] van daar na 'T vaderlant gestuurt
+[single] tewerden, gelijk het gene hier aan
+[single] de hand geweest is, ter quantiteijt
+[single] van 42016. lb. den 25. ' september met
+[single] de chialoep de lastdrager reets ten
+[single] dien eijnde naar gale is gesonden
+[single] En sal het reslant camphur baros, mitsg=s
+[single] 't rood coper, bestaande in ketels, potten,
+[single] en platen van masulipatnam inhet
+[single] voorjaar ingevolge van onse ordre hier
+[single] aangebragt sijnde, met de naast daar
+[single] op volgende gelegentheijt uhoog Edelh.:s
+[single] toegeschickt werden
+[single] met leetwesen hebben wij gesien
+[single] uhoog Edelh. s misnoegen over dat den
+[single] paijs op den peper niet eerder is ver„
+[single] mindert, om daar door den meerderen
+[single] sleet te betragten, 't gene ons necessi„
+[single] teert uhoog Edelh. s bij desen in alle
+[single] eerbiede te Erinneren, den vertier
+[single] eenige Iaren niet daar door, maar
+[single] om dat deselve niet aan de stranden
+[single] heefft mogen werden verkogt,
+[single] op dat
+== NL-HaNA_1.04.02_1606_0086 | #86 | sides: single | lines: 26
+[single] op dat de Europeen die niet zouden
+[single] in handen krijgen, wat is affgenomen,
+[single] zijnde de eerste redenen daar toe
+[single] geweest, om den groten treck van
+[single] diencorl na Bengale, 'tgeen uhoog.
+[single] Edelh=s hebben gelieven te approberen,
+[single] ende andere, om den hogen prijs van
+[single] deselve in Europa, en heefft men den
+[single] verkoop op de marctplaatsen, mitsg=s
+[single] tusschen tijds, wanneer men voor
+[single] den inkoop der Europeanen niet
+[single] behoeffde bedugt te zijn, sodanig belijvert,
+[single] dat op het affgaan onser nedrige advisen
+[single] aan uhoog Edelh. s van 23. ' september
+[single] 1693. den gaoten worraat successive
+[single] van mallabaar ontfangen, vermindert
+[single] geworden was, tot 476123. lb. 'twelcq
+[single] ook vervolgens soo voortgelopen is,
+[single] tot nu eenigen tijd geleden, dat den
+[single] sleet merckelijk is affgenomen
+[single] waarom wij hebben moeten breden
+[single] tot vermindering van de prijs, om weder
+[single] meerder sleet temaken, gelijk wij
+[single] uhoog Edelh. s bij onsen brieff van 181—
+[single] meij hebben bekent gemaakt, sijnde
+[single] dat
+== NL-HaNA_1.04.02_1606_0087 | #87 | sides: single | lines: 26
+[single] 23.
+[single] wat wij uhoog Edelh:s bij dese occagie mede
+[single] gaarne hadden verthoond
+[single] dat niet tedoen geweest, voor dat
+[single] wij voor seker zagen dat
+[single] sonder verminderingh den
+[single] sleet niet weder soude toenemen,
+[single] om redenen gelijk wij inden
+[single] voornoemden brief uhoog Edelh=s
+[single] ook hebben bedeelt, dat deselve
+[single] op Mallabaar was beter koop
+[single] geworden, en dienhandel voor
+[single] ider een opengeraakt, en
+[single] souden wij bij dese gelegentheijt
+[single] uhoog Edelh. s mede gaarne
+[single] specifice verthonen wat
+[single] quantiteijten Iaarlijks zijn
+[single] verhandelt ensz:, maar den
+[single] opstel die gelast is, daarvan
+[single] uijt de negotieboeken te
+[single] formeren, heeft tot nogh
+[single] -
+[single] door het menighvuldigh onder
+[single] handen zijnde negotie werck,
+[single] niet kunnen klaar raken
+[single] waarom
+== NL-HaNA_1.04.02_1606_0088 | #88 | sides: single | lines: 25
+[single] een p:r naasten slaat tevolgen
+[single] tot hoeverre de restanten vermindert
+[single] waarom dat p=r den naasten
+[single] staat tevolgen: En dewijle
+[single] voormelte negotianten nu
+[single] onlangs haren peper voor
+[single] minder begonden te verhande„
+[single] len, zijn wij om de marct
+[single] tevolgen, genootsaakt geweest
+[single] mede nogh bet in prijs tedalen
+[single] en die tot sadras tegens 19.
+[single] mitsgaders ten Comptoire
+[single] Portonovo voor 18. pagoden
+[single] telaten verkopen; zijnde de
+[single] restanten vervolgens tot soo
+[single] verre vermindert, dat wij om
+[single] daar van weder bijdigh te
+[single] kunnen gerieft werden, bij
+[single] missive van 21=en der voor„
+[single] leden maand de novo 80000.
+[single] ponden uijt het gouverne„
+[single] Ceijlon versogt
+[single] ment van
+[single] hebben
+[single] wegens
+== NL-HaNA_1.04.02_1606_0089 | #89 | sides: single | lines: 26
+[single] 29
+[single] ssal uhoog Edelh:s mede ten naasten aan„
+[single] gedient werden
+[single] wegens den mallab=sen arreecq
+[single] is men mede besigh een
+[single] opstel uijt de negotieboeken
+[single] temaken, waar bij sal aan„
+[single] gewesen werden, hoedanige
+[single] quantiteijten herwaarts zijn
+[single] gesonden, en tegens wat
+[single] prijsen aangerekent, mits„
+[single] gaders specifice departhijen
+[single] die van Iaar tot Iaar zijn
+[single] vertiert, en voor hoeveel
+[single] debhaar soo hier als op de
+[single] respective comptoiren,; 'twelk
+[single] om reden voormelt ook nog
+[single] niet gereet zijnde, sal men
+[single] uhoog Edelh. s daar van al—
+[single] mede niet eer dan Een
+[single] naasten kunnen dienen
+[single] -,
+[single] zijnde inde brieven van
+[single] hier soo aan de heeren majores,
+[single] d' materie vanden mallabaarsen arreecq
+[single] als.
+== NL-HaNA_1.04.02_1606_0090 | #90 | sides: single | lines: 25
+[single] meerder van die vrugten te vertieren
+[single] verdere redemendier wegeens
+[single] als uhoog Edelh. s successive
+[single] g'adviseert, de oorsaken die
+[single] belet hebben meerder van die
+[single] dat gadviseert zijnd, orsaken die belet hebb: vrugten tevertieren, en is—
+[single] wel waar, dat sijn hoog Ed=le
+[single] den heere commiss. s generaal
+[single] (L: ab:) bij missive van 17:' octob:
+[single] anno 1690. heefft toegestaan
+[single] met deselve de stand te
+[single] ligten, maar wijle Inmediatelijk
+[single] daar agter volgen, dese woorden:
+[single] Ia wij souden, als een werck
+[single] zijnde, waar in wij tot nogh toe
+[single] ons oogmerck niet en Hebben
+[single] bereijckt, ons wegens de generale
+[single] Compe konnen contenteren, dat
+[single] men over de geheele Parthije d'
+[single] @
+[single] Ecomp:e konde doen genieten 20. p.r C=to
+[single] vrijgelt, boven alle onkosten,
+[single] welck verschil onfeijlbaar tusschen
+[single] den aenvoer te water of te Lande
+[single] sal.
+== NL-HaNA_1.04.02_1606_0091 | #91 | sides: single | lines: 26
+[single] 25
+[single] vertoog na coutchin bij missive van
+[single] 30:' Januarij 1691.
+[single] sal gevonden werden, en bij —
+[single] gevolge de Mallabaarse
+[single] -
+[single] Handelaars niet zullen
+[single] konnen bestaan; was men
+[single] egter bepaalt om d' Ecomp:
+[single] daar op ten alderminsten
+[single] 20. ten hondert suijvere—
+[single] winst te doen gouderen, t
+[single] gene mogelijk wel soude hebben
+[single] kunnen geschieden, indien
+[single] men niet meer dan een matige
+[single] quantiteijt geproportioneert, na
+[single] den vertier die daar in gevonden
+[single] wierd hadde gekregen, maar
+[single] men was daar mede al inden
+[single] selve Iare sodanig overkropt, dat
+[single] men genoodsaakt is geweest
+[single] den heer Commandeur en raad
+[single] Tot Coutchin bij missive van dato
+[single] 30:' Ianuarij 1691. te verthonen
+[single] den
+== NL-HaNA_1.04.02_1606_0092 | #92 | sides: single | lines: 22
+[single] wat wij dien belangende gehoopt hadden
+[single] den groten voorraat te deser
+[single] custe van 2616390. lb:, endat
+[single] sjaars bevorens tot op het
+[single] slot der boeken maar 381781. lb:
+[single] hadden konnen verkogt werden,
+[single] niet tegenstaande deselve om
+[single] de marct der particuliere tebeder„
+[single] ven, soo goeden Coop waren
+[single] verlaten, dat daar op niet meer
+[single] dan ƒ1077. –. –. (. bedragende pas
+[single] 2. p„rc„to:) was gewonnen, soo dat
+[single] wij op voorsz: ordre van zijn
+[single] hoog Edelheijt van 17. ' octobr 1690:,
+[single] niet hebben mogen dehand ligten,
+[single] maar den prijs verhogen van
+[single] 2. p„r c„to winst tot 20. toe, en hadden
+[single] wij gehoopt dat op voormelte advis
+[single] van den groten voorraat tegens
+[single] soo kleenen vertier, het senden
+[single] van meerder soude g'Excuseert
+[single] zijn
+== NL-HaNA_1.04.02_1606_0093 | #93 | sides: single | lines: 26
+[single] 26
+[single] enden commandeur en raad tot houtchin
+[single] versogt hebben
+[single] zijn geworden, maar doen wij
+[single] zagen dat Evenwel vervolgens
+[single] nogh meerder arreecq wierde
+[single] aangebragt, en waar door
+[single] mitsgaders den klenen ver„
+[single] tier die staande de Boeken
+[single] van anno 16 6/91. door de troebelen
+[single] en oerlogen vanden groten
+[single] mogol, die de sterckte singie
+[single] als doen nog belegert hiel
+[single] 1
+[single] mitsgaders den oorlog door den
+[single] vorst sahagie ons aangedaen,
+[single] maar 32290. lb. is geweest
+[single] den voorraat was vermeerdert,
+[single] tot een quantiteijt van 3729743. lb. ,
+[single] hebben wij dat voormelte heer
+[single] commandeur en raad, den
+[single] 16. ' februarij 1692. gecommuniceert,
+[single] en vrijmoedelijk versogt, daar van
+[single] niets meer herwaarts tesenden
+[single] met Relatie tot voorm=te brieff
+[single] van
+== NL-HaNA_1.04.02_1606_0094 | #94 | sides: single | lines: 30
+[single] derselver antwoort
+[single] van 30. ' Ianuarij sjaars bevorens,
+[single] en advis dat de inlantse handelaars
+[single] op de marctplaatsen deselve voor
+[single] soo civiele prijsen verkogten
+[single] dat men haar daar in niet konde
+[single] navolgen, dan met verlies, waarop
+[single] het antwoord onder dato 31. ' maart
+[single] is geweest, dat sij haar voor, off na
+[single] dien tijd omtrent de procure der selve
+[single] niet verder hadden gemoeijt, als
+[single] haar door genoemde sijn hoog Edelh. t
+[single] was gelast, en dat sij den inkoop
+[single] dier vrugten hadden gestaakt, alles
+[single] breder blijkende, bij de Extracten der
+[single] geciteerde brieven, hier nevensgaande„
+[single] waar bij nog gevoegt zijn, de gene
+[single] die in't vervolg derwegen met die
+[single] commanderij zijn verwisselt, om te
+[single] verthonen wat parthijen egter nog
+[single] zedert van daar herwaarts zijn
+[single] gesonden, sulx den voorraat op —
+[single] ult„o april 1693. heeft bestaan in
+[single] „van
+[single] 4266384.¼. lb. gelijk bij de memorie daar
+[single] nevens onsen brieff van 24. ' meij—
+[single] daar aan volgende uhoog Edelh. s toe
+[single] geschickt, omstandig is aangewesen,
+[single] In de
+[single] 2
+== NL-HaNA_1.04.02_1606_0095 | #95 | sides: single | lines: 25
+[single] 27
+[single] In de rompen werd op zuijder Cormandel
+[single] weijngof geensleet inderompen op 2. Cormandet weijnig off geen naamwaardigen sleet
+[single] gevonden, sijnde de residenten tot Pallia„
+[single] catta van gevoelen dat aldaar thien â
+[single] twaalff kisten, als die goed zijn, tegens
+[single] de gestelde prijs van 68. ligtestuijvers te
+[single] vertieren sullen wesen, die van sadras
+[single] vertonen dat inden tijd van 9. Iaren
+[single] niet meer dan 4092. lb. zijn verkogt, dat
+[single] -
+[single] door malcanderen gerekent, omtrent
+[single] 455. lb. Jaarlijx bedraagt, 'twelcq tot
+[single] Portonovo nog veel minder is, alsoo in
+[single] een geheel Iaar maar 130. lb. zijn
+[single] omgeset, op beijde Comptoiren tegens
+[single] 16. p a/o de mao: van 24. lb. , belopende
+[single] â 105. stuijvers p=r p=ao, 70. engevolgelijk
+[single] maar 2. ligte stuijvers p=r pond, meerder,
+[single] als de ordre dicteert, en dewijle de
+[single] inlanderen aan dien prijs gewent
+[single] zijn, mitsgaders dat door dese klene
+[single] vermindering den vertier egter niet
+[single] kan werden vermeerdert, is best
+[single] geoordeelt
+== NL-HaNA_1.04.02_1606_0096 | #96 | sides: single | lines: 32
+[single] wat daar omterent dr ns bes: is gevordeeld.
+[single] NB. demasulipatnamse
+[single] Extracten niet overgeko„
+[single] men zijnde, kan dese
+[single] openstaande post niet
+[single] gevult werden
+[single] wat dene wildelant en raad dien aangaande
+[single] herwaarts is gesz:
+[single] geoordeelt deselve daar bij telaten
+[single] continueeren, gelijk men hier om de
+[single] selffde redenen daar van ook niet
+[single] sal behoeven aff te treden, hebbende
+[single] 'tgene staande het voorleden boekjaar
+[single] te rekenen van p=mo 7ber: a. o passado
+[single] tot ult„o aug„o stantij in dese landstreke
+[single] is verhandelt, maar belopen een quan„
+[single] titeijt van. 564.½. lb, sulx na voorgem=te
+[single] Calculatie pas 3000. lb. in een rondjaar
+[single] te vertieren sullen zijn. maar met
+[single] dat het met woorter conmandel anders gelegen is noorder Cormandel is het heel anders
+[single] gelegen, dewijle aldaar in gemelten
+[single] tijd verhandelt is, een quantiteijt
+[single] en tot Masulipatnam
+[single] van
+[single] nog in de maand september Jongstleden
+[single] voor den ontfang der ordre, om die voor
+[single] niet minder dan tegens 15 3/16. pa/o de mad:
+[single] temogen affstaan, 1200. lb. â 12 2/5. p=a
+[single] verkogt, schrijvende den E.: Wildelant,
+[single] en raad verder bij missive van 27. octob. r
+[single] dat sedert de Iongste verhoginge der
+[single] prijsen
+== NL-HaNA_1.04.02_1606_0097 | #97 | sides: single | lines: 30
+[single] 28
+[single] gelegen is.
+[single] dat die van palliacatta, sadras, en portonovo de
+[single] hare reets hebben verkogt
+[single] gelijk ten naasten bij, mede de 2. zackels alhier ens:
+[single] prijsen van de specerijen niemand
+[single] gekomen was, om van deselve jets te
+[single] kopen, het welcke haar deed vreesen
+[single] voor een slegten vertier, wes zij ook
+[single] geen de minste versekering konden
+[single] doen, dat deselve in die landen sodanig
+[single] sullen kunnen werden omgeset
+[single] gelijk uhoog Edelh.:s dat omstandigh—
+[single] in het affschrifft van dien brieff, als
+[single] mede hare consideratien derwegen
+[single] sullen vervat vinden
+[single] het met des sackels foelijhaar tegedeelt,. Van de vijff solckels foelij haar toegedeelt,
+[single] is ons mede niet gebleken, aldaar jets
+[single] verkogt sij, maar de residenten tot
+[single] Palliacatta, sadras, en Portonovo, —
+[single] naar welcke comptoiren drie zockels
+[single] sijn versonden, hebben ider de zijne
+[single] reets tegens de geordonneerde prijs
+[single] van 36. 3/16. p. a de mad:, op weijnige—
+[single] ponden na, (. tot consumptie, en
+[single] schenkagie aangehouden) verkogt,
+[single] gelijk de twee zockels hier verbleven
+[single] mede ten naasten bij al zijn aan de
+[single] man
+[single] den
+== NL-HaNA_1.04.02_1606_0098 | #98 | sides: single | lines: 31
+[single] 't restant zijde kleden op weijnig na
+[single] verhandelt
+[single] eijsch van bengale vande volgende d=os
+[single] man geholpen, 'twelcq ons doet hopen
+[single] dat de Coopluijden om de noort, siende
+[single] deselve nergens voor minder prijs te
+[single] kunnen krijgen, die vervolgens mede
+[single] wel sullen komen affhalen
+[single] Het restant zijdekleden, in onsen brieff
+[single] aan uhoog Edelh.:s van 18. ' meij deses Iaars
+[single] vermelt, volgens onse hope op weijnigh
+[single] na, uijtgenomen de mogtase Doepetijns
+[single] met een redelijk advansje verhandelt
+[single] zijnde, en kans siende nog meer te
+[single] kunnen omsetten, hebben wij in onsen
+[single] eijsch van diverse provisien, en benodigt,
+[single] heden, onder dato 21. ' Iulij uijt Bengale
+[single] „de volgende
+[single] voor het toekomende Iaar gevordert
+[single] teweten
+[single] 2400. p„s bandenoes,
+[single] 500. „ ragiewanijs,
+[single] 1200. „ grote mombanijs,
+[single] 1200. „ klene d=os
+[single] 600. „ dubbelde tafftas,
+[single] 600. „ enkelde D=os
+[single] , en
+[single] 1200. „ sjanderwanijs,
+[single] 7700. p„s Tesamen; zijnde het berigt van
+[single] mallabaar
+[single] dat
+== NL-HaNA_1.04.02_1606_0099 | #99 | sides: single | lines: 29
+[single] 29.
+[single] dat deselve pmaabaar net zijn gerviet
+[single] wat quantiteijt die van masz: staat maken te
+[single] kunnen vertieren
+[single] en haar derhalven toegestaan is
+[single] Mallabaar wegens voorm: Doepetijns
+[single] geheel tegen onse verwagtinge uijtge„
+[single] vallen, alsoo volgens schrijvens van
+[single] daar gedateert 26: Iulij niet tegenstaande
+[single] alle aangewende debvoiren, niemand
+[single] vande Coopluijden, de minste genegenth:t
+[single] heefft gethoont, om eenigh bod daar voor
+[single] tedoen, veel minder deselve, wanneer
+[single] al derwaarts gesonden wierden, aan te
+[single] slaan, omdat van diekleden gansch
+[single] geen afftrek daar ter custe, alwaar
+[single] sij geensints gewilt sijn, te verwagten
+[single] soude wesen, sulx men genootsaakt is,
+[single] die ten besten doenelijk in dit gouver„
+[single] nement te vertieren
+[single] den E: wildelant, en raad tot masulip:,
+[single] maken staat op noorder cormandel
+[single] boven haren voorraat tot ult„o decemb:r
+[single] van het toekomende Iaar te zullen
+[single] kunnen vertieren. 3000. kisten
+[single] Iapans staaffcoper, die wij haar hebben
+[single] toegestaan, wanneer het Iapans schip
+[single] daar komt aan te gieren, temogen ligten,
+[single] dewijle.
+== NL-HaNA_1.04.02_1606_0100 | #100 | sides: single | lines: 28
+[single] wat Extracten haar zijn tolegebonden
+[single] onse serieuse recommandatie naderw ts.
+[single] dewijle wij vertrouwen aan de andere
+[single] 2000. kisjes tot den handel op zuijder
+[single] cormandel, genoegh te zullen hebben
+[single] zijnde voormelten E: wildelant en raad
+[single] in Extracte toegesonden de geheele
+[single] periode, soo wegens den prijs van
+[single] het coper, om die aldaar soo hoogh
+[single] als mogelijk sal zijn voor d'Ecomp: te
+[single] bedingen, als belangende den opvoer
+[single] der goederen op de naam vand' Ecomp:da
+[single] naar golconda &=a, en welcke passagie,
+[single] gelijk ook alle de andere op noorder
+[single] Cormandel applicabel tot te meerder
+[single] nadruck kortelijk in onsen brieff
+[single] van 27. ' september, waar nevens die
+[single] Extracten zijn affgegaan, is herhaelt
+[single] met serieuse recommandatie omtrent
+[single] het een en ander de vereijste sorge te
+[single] dragen, refererende wij ons, om desen
+[single] niet te prolix te doen werden, aan het
+[single] antwoord van daar in voorm: missive
+[single] van 27:' october, waar uijt uhoog Edelh:s
+[single] ook sal komen teblijken, sij bij haar
+[single] vorigh.
+[single] val

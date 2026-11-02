@@ -1,0 +1,547 @@
+##### dev FN total=80 shown=15
+=== 2448 NL-HaNA_1.04.02_2448_0011 scan_index=10 FN single n=37 fol=0.05 date=0.03 amt=0.00 title=0
+    Persia
+    A„o 1738
+    ontfangen
+    deese vijf endertig
+    stver: raporten zijn
+=== 2448 NL-HaNA_1.04.02_2448_0012 scan_index=11 FN single n=41 fol=0.00 date=0.05 amt=0.00 title=0
+    Pag:
+    Persia
+    ontfangen
+    mede onder de resol„te
+    voorma: onder diverse
+=== 2448 NL-HaNA_1.04.02_2448_0013 scan_index=12 FN single n=39 fol=0.05 date=0.03 amt=0.00 title=0
+    Pag:
+    Persia
+    A„o 1738
+    ontfangen
+    vijf
+=== 2448 NL-HaNA_1.04.02_2448_0017 scan_index=16 FN single n=28 fol=0.04 date=0.00 amt=0.00 title=0
+    pag:
+    Persia
+    A„o 1738
+    ontfangen
+    Last en winst reek: van als even - - - „ 1606
+=== 2448 NL-HaNA_1.04.02_2448_0020 scan_index=19 FN single n=41 fol=0.00 date=0.02 amt=0.00 title=0
+    pag:
+    ensia
+    A„o 1738
+    p„r als vooren in
+    een paquet onser
+=== 2448 NL-HaNA_1.04.02_2448_0022 scan_index=21 FN single n=28 fol=0.00 date=0.00 amt=0.00 title=0
+    verlag
+    Persia
+    A„o 1738
+    ontfangen
+    Labaer onder veel vuldige datums . . „ 2217:
+=== 2448 NL-HaNA_1.04.02_2448_0023 scan_index=22 FN single n=41 fol=0.02 date=0.00 amt=0.00 title=0
+    Jag:
+    Persia
+    A„o 1738
+    ontfangen
+    bij de gamronse
+=== 2448 NL-HaNA_1.04.02_2448_0024 scan_index=23 FN single n=34 fol=0.00 date=0.00 amt=0.00 title=0
+    pag:
+    Persia
+    A„o 1738.
+    ontfangen
+    omme dese toereden
+=== 2548 NL-HaNA_1.04.02_2548_0018 scan_index=17 FN single n=67 fol=0.12 date=0.03 amt=0.00 title=0
+    Javas Oost Cust Tol„s
+    A„o 1747.
+    den 23: Julij
+    p:r Jnl vaartuig
+    Ten selven dage p:r
+=== 2548 NL-HaNA_1.04.02_2548_0025 scan_index=24 FN single n=43 fol=0.05 date=0.00 amt=0.00 title=0
+    Fol:
+    Javas oost Cust
+    A„o 1741.
+    den 13:' 8ber: per
+    d' pantjall de
+=== 2548 NL-HaNA_1.04.02_2548_0032 scan_index=31 FN single n=35 fol=0.03 date=0.00 amt=0.00 title=0
+    A„o 1741
+    Javas oost Cust. . . . . . Fol:
+    den 23:' 9ber: p:r
+    Ten dage en p:r
+    als vooren
+=== 2548 NL-HaNA_1.04.02_2548_0040 scan_index=39 FN single n=41 fol=0.02 date=0.02 amt=0.00 title=0
+    Fol
+    Javas oost Cust
+    A„o 1741.
+    A„o 1742
+    den 15:' Janu
+=== 2555 NL-HaNA_1.04.02_2555_0015 scan_index=14 FN single n=32 fol=0.06 date=0.00 amt=0.00 title=0
+    het gebesoigneerde en gerecol„
+    veerde in rade van jndia
+    de dato 19:' octob„r 1742. . . . . N:o 46. & 47.
+    Den _:o de dato 16:' 9ber: 1742.
+    twee notuls gehouden in rade van
+=== 2555 NL-HaNA_1.04.02_2555_0020 scan_index=19 FN single n=28 fol=0.07 date=0.00 amt=0.00 title=0
+    Vaai printen entv:n bij Jan van Hilo s N:o 59.
+    _o „ Abraham van dinten C:
+    „ Abraham Abeleven.
+    _:o „ Anthonij Isaac Cassa - - „ 62.
+    _:o „ gerard van Westrenen O: s: „ 63.
+=== 8284 NL-HaNA_1.04.02_8284_0137 scan_index=136 FN single n=22 fol=0.00 date=0.05 amt=0.00 title=0
+    Ao 1751:
+    den 29:' maij p„r den mattroos
+    Jacob Jpsen aangebragt
+    den 22: Junij
+    Spreeuw
+##### dev FP total=48 shown=15
+=== 1388 NL-HaNA_1.04.02_1388_0001 scan_index=0 FP single n=3 fol=0.67 date=0.00 amt=0.00 title=0
+    1277
+    V. O. C.
+    5
+    
+    127
+=== 1388 NL-HaNA_1.04.02_1388_0005 scan_index=4 FP single n=1 fol=0.00 date=0.00 amt=0.00 title=0
+    Mallabar
+    
+=== 1547 NL-HaNA_1.04.02_1547_0017 scan_index=16 FP single n=41 fol=0.05 date=0.00 amt=0.00 title=0
+    2
+    No. 10:
+    No 11.
+    12.
+    „ 13.
+=== 1557 NL-HaNA_1.04.02_1557_0019 scan_index=18 FP single n=13 fol=0.38 date=0.00 amt=0.00 title=0
+    728
+    729 verso
+    verso
+    3 verso
+    a 749
+=== 1557 NL-HaNA_1.04.02_1557_0025 scan_index=24 FP single n=22 fol=0.00 date=0.00 amt=0.00 title=1
+    Van Palembang Den 20=en Februarij Ao 1690
+    Register van alle soodanige Papieren, alser
+    op heeden van hier P=r De Chialoep Laplant
+    versonden, en geconsigneerd werden, aan den
+    wel Edelen Heere, meester Willem
+=== 2448 NL-HaNA_1.04.02_2448_0029 scan_index=28 FP single n=28 fol=0.00 date=0.00 amt=0.00 title=1
+    d„o 1:
+    Register der
+    Brieven en verdere ge„
+    schriften welke op heeden
+    ter ordre van den E: E:
+=== 2548 NL-HaNA_1.04.02_2548_0005 scan_index=4 FP single n=10 fol=0.10 date=0.10 amt=0.00 title=0
+    Iava's Oost Cust. —
+    8
+    eevens
+    u
+    70
+=== 2555 NL-HaNA_1.04.02_2555_0001 scan_index=0 FP single n=5 fol=0.00 date=0.40 amt=0.00 title=0
+    Brieven van den Raad van Iustitie
+    6 Batavia
+    1 Xber 1742.
+    7 Jan: 1743
+    27 Maart 1743
+=== 2555 NL-HaNA_1.04.02_2555_0005 scan_index=4 FP single n=9 fol=0.00 date=0.00 amt=0.00 title=0
+    en
+    b:e Batavia
+    & Bijlage
+    Brieff
+    L
+=== 7923 NL-HaNA_1.04.02_7923_0003 scan_index=2 FP single n=4 fol=0.25 date=0.00 amt=0.00 title=0
+    
+    N3
+    „r Vlissingen
+    van Nieuw vijvervreegt
+    Amboina
+=== 8237 NL-HaNA_1.04.02_8237_0003 scan_index=2 FP single n=3 fol=0.00 date=0.00 amt=0.00 title=1
+    Register
+    op de van Macassar ontfangene
+    papieren in A„o 1761.
+=== 8237 NL-HaNA_1.04.02_8237_0013 scan_index=12 FP single n=4 fol=0.00 date=0.00 amt=0.00 title=0
+    van
+    e
+    aa
+    Copia Brieven
+    ontfangen
+=== 8237 NL-HaNA_1.04.02_8237_0017 scan_index=16 FP single n=29 fol=0.00 date=0.00 amt=0.00 title=1
+    2
+    RRegister van zoodanige Papieren
+    als 'erthans gezonden werden aan
+    zijn Excellentie Den Hoog Ede=
+    „len groot Agtbaar en Heere
+=== 8276 NL-HaNA_1.04.02_8276_0022 scan_index=21 FP single n=26 fol=0.00 date=0.00 amt=0.00 title=1
+    Van Banjermassing Den 1:' Junij 1733.
+    Extrach uijt het banjermassings
+    dag Register, dato 7:' Junij 1733.
+    tegen den avond quam een der peperschrijvers ons aan
+    seggen pangerang prabaanum ons tegenseven uuren
+=== 8834 NL-HaNA_1.04.02_8834_0009 scan_index=8 FP single n=27 fol=0.00 date=0.00 amt=0.00 title=1
+    Van Cormandel den 31 october A„o 1720
+    Over Cheijlon
+    Register van sodanige
+    brieven, en papieren, als ophe„
+    „den door den Ed„len Heer—
+##### test FN total=249 shown=30
+=== 1631 NL-HaNA_1.04.02_1631_0014 scan_index=13 FN verso n=28 fol=0.04 date=0.00 amt=0.00 title=0 | recto n=37 fol=0.00 date=0.00 amt=0.00 title=0
+    N o 20. Copia acte verleent doorden nachoda oesij
+    sulla patanie, en verdere
+    gesalveerde matrosen van het
+    verongeluckte schip omtrent
+    Calpettij mamadij salamatij
+    N=a alle dese bijlagen der desen
+    jaarse Eliphants negotie betreffende
+    zijn bij anderen gebonden onder
+    twee Copia secrete missiven door gem: Edele heer
+    gouverneur gerrit de heere, en raad tot
+=== 1723 NL-HaNA_1.04.02_1723_0013 scan_index=12 FN single n=43 fol=0.16 date=0.00 amt=0.02 title=0
+    1472
+    Aghtste brieffb:s
+    derde deel
+    „ 1082 a 1103
+    „ 1106 a 1111.
+=== 2047 NL-HaNA_1.04.02_2047_0020 scan_index=19 FN single n=32 fol=0.00 date=0.00 amt=0.00 title=0
+    Extract
+    12
+    Pakhuijs
+    Commandeur Iacob de Iong,
+    en Raad tot Cochim gecarteerd,
+=== 2167 NL-HaNA_1.04.02_2167_0014 scan_index=13 FN single n=33 fol=0.00 date=0.00 amt=0.00 title=0
+    A:o 1730
+    ontfangen
+    Ceijlen
+    Elff brieven op den 9:e 13:e 20:e februarij en 16:e maij Iongst„
+    leeden, item 9:e en 31:e xber des verleden, vervolgens
+=== 2167 NL-HaNA_1.04.02_2167_0031 scan_index=30 FN single n=29 fol=0.00 date=0.00 amt=0.00 title=0
+    Van Ceijlon onder dato 23:e Januarij 1730.
+    den dessave Pieter Cornelis de
+    Patot en na Caliture aan het
+    hooft den vaandrig Carel Hen
+    =drik Swarts onder dato 14:e
+=== 2167 NL-HaNA_1.04.02_2167_0038 scan_index=37 FN single n=31 fol=0.03 date=0.00 amt=0.00 title=0
+    Van Ceijlon onder dato 23:' Januarij 1730:—
+    den 4 bevorens genomen beyde conti
+    =neerende de gemoxeerde swarigheeden
+    tegens t'aenqueeken der zijde wormen
+    en aanplanten der zaijewortelen mits
+=== 2167 NL-HaNA_1.04.02_2167_0053 scan_index=52 FN single n=30 fol=0.03 date=0.00 amt=0.00 title=0
+    33.
+    Van Ceijlon onder dato 23:' Januarij 1730—
+    uijttrekzel der missive in dato 8: daar
+    aan dit heen gecarteerd door den gewesen
+    p=ls gezaghebber tot Gale Ioannessen
+=== 2167 NL-HaNA_1.04.02_2167_0055 scan_index=54 FN single n=29 fol=0.00 date=0.00 amt=0.00 title=0
+    Van Ceijlon onder dato 23:e Januarij 1730.
+    negotie boeken sprekende dat in het
+    boekjaar 17 23/28 van Cormandel op Jassa
+    =napatnam door inlandse vaartuijgen.
+    aengebragt is een overgroote quantiteijt
+=== 2282 NL-HaNA_1.04.02_2282_0025 scan_index=24 FN single n=29 fol=0.10 date=0.00 amt=0.00 title=0
+    1979
+    in dezen oorlog te verpligten - - - - „ 139.
+    derhalven het tewenschen was dat men
+    het vermogen had, om dezen trotsen
+    140.
+=== 2282 NL-HaNA_1.04.02_2282_0032 scan_index=31 FN single n=29 fol=0.00 date=0.00 amt=0.00 title=0
+    f
+    2.
+    een
+    xber: den capitain van flingerland werd conferm
+    d'ordre in dezen raee g'introduceerd. - - . „210.
+=== 2282 NL-HaNA_1.04.02_2282_0034 scan_index=33 FN single n=29 fol=0.07 date=0.00 amt=0.00 title=0
+    Fo
+    wegens de verlope wevers uijt madure
+    ziet men ook geen effect van 'sconings
+    woord - - - - -
+    - - -. „ 223.
+=== 2282 NL-HaNA_1.04.02_2282_0036 scan_index=35 FN single n=31 fol=0.06 date=0.00 amt=0.00 title=0
+    fo
+    den 27:'
+    xber.
+    wegens de voorstelling van zijn
+    „241.
+=== 2282 NL-HaNA_1.04.02_2282_0045 scan_index=44 FN single n=27 fol=0.00 date=0.00 amt=0.00 title=0
+    onne met een toelast peper
+    van 40'000: lb:, en gecombineert met
+    de andere scheepen te kunnen ver„
+    trecken-
+    - - - - - - - - „ 298.
+=== 2282 NL-HaNA_1.04.02_2282_0053 scan_index=52 FN single n=30 fol=0.10 date=0.00 amt=0.03 title=0
+    1993
+    G
+    440:
+    verzoek ontslagen uijt voorsen: vergadering. /
+    ook is verstaan, Cramer tot Cassier en
+=== 2282 NL-HaNA_1.04.02_2282_0054 scan_index=53 FN single n=29 fol=0.03 date=0.03 amt=0.00 title=0
+    f=o
+    d:o
+    24.
+    aangebragte goederen met de maria
+    laurentia van colombo en tutucorijn. „
+=== 2282 NL-HaNA_1.04.02_2282_0062 scan_index=61 FN single n=33 fol=0.12 date=0.00 amt=0.00 title=0
+    dan de helfte der bedonge prijs- - - --„
+    d:o
+    525:
+    de bediendens verzoeken temogen weten-
+    hoedanig met de andere helfte zullen
+=== 2282 NL-HaNA_1.04.02_2282_0063 scan_index=62 FN single n=29 fol=0.14 date=0.00 amt=0.00 title=0
+    1998
+    Combuijs der militairen, ende brug
+    van het agter fort aldaar...
+    ƒ
+    dog haar verder verzoek (hier nevens
+=== 2282 NL-HaNA_1.04.02_2282_0066 scan_index=65 FN single n=31 fol=0.10 date=0.00 amt=0.00 title=0
+    f
+    121. militairen die hunne verlossing
+    verzoeken.
+    552:
+    . . . ..„
+=== 2282 NL-HaNA_1.04.02_2282_0073 scan_index=72 FN single n=33 fol=0.12 date=0.00 amt=0.00 title=0
+    2003
+    bij nevens gen: advijsen heefd men gesz: dat men
+    de belangens van dezen prins zal zoeken
+    staande tehouden - - - - - - - - - „
+    om daar door 't rijk van mangattij was 't
+=== 2282 NL-HaNA_1.04.02_2282_0076 scan_index=75 FN single n=28 fol=0.04 date=0.00 amt=0.00 title=0
+    Fo
+    _:o
+    Zijn hoogh:t zoude contrarie zijne promesse
+    de acoptie in mangattij tragten voortte setten. . . . /
+    644:
+=== 2282 NL-HaNA_1.04.02_2282_0081 scan_index=80 FN single n=28 fol=0.07 date=0.00 amt=0.00 title=0
+    2007
+    brief is de slegte gestelt - en wotigheijd der
+    kruijtkelders, oorzaek van het bederven
+    van het bezijden gemelte kruijt. . . . „
+    de bediendens hebben niet gelust eerder haar
+=== 2379 NL-HaNA_1.04.02_2379_0008 scan_index=7 FN single n=36 fol=0.06 date=0.00 amt=0.00 title=0
+    Pag:
+    Amboina
+    A:o 1736
+    ontfangen
+    b'eedigt rapport van den codperaal Jan rubregten sol„
+=== 2538 NL-HaNA_1.04.02_2538_0010 scan_index=9 FN single n=36 fol=0.00 date=0.00 amt=0.00 title=0
+    Fol:
+    Ao 1741
+    Cormandel
+    twee Circulaire briefjes van Nagapatn=m
+    na de onderhoorige zuijder Comptoiren
+=== 2538 NL-HaNA_1.04.02_2538_0041 scan_index=40 FN single n=27 fol=0.00 date=0.00 amt=0.00 title=0
+    Van Cormandel Den 2. febr: 1741. /
+    en de Maanden 7br: 8ber:
+    en 9ber:
+    3. Cop. t van Palliacatta en de
+    maanden als even.
+=== 3260 NL-HaNA_1.04.02_3260_0023 scan_index=22 FN single n=25 fol=0.04 date=0.00 amt=0.04 title=0
+    376
+    na, vereffond is. —
+    Sra
+    L:ra C: C: Extract resolutie als vooren de dato 20. ' 7ber: 1766.
+    volgens het welke het manquee„
+=== 3260 NL-HaNA_1.04.02_3260_0024 scan_index=23 FN single n=23 fol=0.00 date=0.00 amt=0.00 title=0
+    „
+    gegeven, en ter resolutie van den
+    2. ' Meij 1768. Geinsereerd ter
+    aantooning dat voor Hasel„
+    kamps Reecquening nog se„
+=== 4325 NL-HaNA_1.04.02_4325_0011 scan_index=10 FN verso n=38 fol=0.03 date=0.00 amt=0.00 title=0 | recto n=7 fol=0.14 date=0.00 amt=0.00 title=0
+    A - No 5 Copia Authentieq Brieff onder den
+    „
+    6
+    met oost„
+    Zaandam
+    hier ter plaatse aan 't schip
+    de Juffw Johanna Verstrekt
+    geworden is
+    Int Casteel de Goede Hoop den 12 Febr: 1788
+    Ph Dorak
+=== 8466 NL-HaNA_1.04.02_8466_0014 scan_index=13 FN single n=33 fol=0.00 date=0.00 amt=0.00 title=0
+    Van Jambij den 15=e october 1739.
+    N„o 4. _„o d=o sub dato 26=en Junij daar aan van hier
+    aan den quartierm: herman
+    ernst op gem: bodem in't op komen
+    deser rivier geschreven.
+=== 8875 NL-HaNA_1.04.02_8875_0006 scan_index=5 FN single n=34 fol=0.00 date=0.00 amt=0.00 title=0
+    Cormandel
+    A„o 1739
+    Brieven van Als Even na Colombo, Bengale, Gale, Mallabaar
+    Iaffanapatnam, Tutucorijn, in Trinconomale gesz: 't sedert
+    18:' 7ber tot den 21:' 8ber - - - - - - - - - - - - - - - - - - - - f=o 245: —
+=== 8875 NL-HaNA_1.04.02_8875_0022 scan_index=21 FN single n=30 fol=0.00 date=0.03 amt=0.00 title=0
+    Van Cormandel Den 27:' october 1738
+    van den 10 September tot den 10:' Courant
+    No 12: Copia brieven van hier na Sadraspatnam geschree„
+    „ven zedert den 23: September tot den
+    23:' dezer. —
+##### test FP total=68 shown=30
+=== 1081 NL-HaNA_1.04.02_1081_0007 scan_index=6 FP single n=1 fol=1.00 date=0.00 amt=0.00 title=0
+    1623.
+    
+    en
+=== 1184 NL-HaNA_1.04.02_1184_0054 scan_index=53 FP single n=5 fol=0.20 date=0.00 amt=0.00 title=0
+    1651
+    adij 30: Januarij p„r
+    Maeslant becomen
+    :
+    0
+=== 1556 NL-HaNA_1.04.02_1556_0039 scan_index=38 FP single n=28 fol=0.00 date=0.04 amt=0.00 title=1
+    Van Amboina den 7. n Maij 1694. —
+    Batavia p=r
+    Register
+    Inlands Jagtje
+    d'andromeda.
+=== 2222 NL-HaNA_1.04.02_2222_0016 scan_index=15 FP verso n=23 fol=0.00 date=0.00 amt=0.00 title=1 | recto n=24 fol=0.04 date=0.00 amt=0.00 title=0
+    generaale Missive van den 15:' xber:
+    d' a:o pass:o derwaarts hebben gelieven te
+    ordonneeren ten opsigte van eene te
+    doene opgave bij apart geschrift van
+    inhoude in welker voegen men na
+    434.
+    van den handel en den staat van dit gou„
+    „vernement, voor so verre Colombo
+    met desselvs district quam te Betreffen,
+    want van d'overige plaatsen daar onder
+=== 2282 NL-HaNA_1.04.02_2282_0011 scan_index=10 FP single n=0 fol=0.00 date=0.00 amt=0.00 title=0
+    4
+=== 2379 NL-HaNA_1.04.02_2379_0035 scan_index=34 FP single n=44 fol=0.20 date=0.00 amt=0.16 title=0
+    19.
+    Van Amboina Den 31:' meij 1736.
+    coelor 100. p:s die ten meesten
+    diensten sullen werden gebruijkt
+    op den 3:' fb: in raade geresum:t
+=== 2487 NL-HaNA_1.04.02_2487_0021 scan_index=20 FP single n=22 fol=0.27 date=0.00 amt=0.00 title=0
+    1638
+    1130.
+    En ten dien fine sal moeten in aan
+    merkinge komen
+    1131.
+=== 2487 NL-HaNA_1.04.02_2487_0023 scan_index=22 FP single n=23 fol=0.17 date=0.00 amt=0.00 title=0
+    4632
+    jaa, ten tweeden male eene condemnabels
+    opwagtinge en conferentie met den
+    koning van bantam te houden
+    1144.
+=== 2487 NL-HaNA_1.04.02_2487_0024 scan_index=23 FP single n=21 fol=0.10 date=0.00 amt=0.00 title=0
+    reeds naa het arrest door den seditieu„
+    sen heer van Imhoff sijn geEmplooijeerd
+    strafbare Correspondentie en complot
+    teringen tegens mij op Bantam, waar
+    door den koning is gedebocheerd om sijne
+=== 2487 NL-HaNA_1.04.02_2487_0028 scan_index=27 FP single n=20 fol=0.15 date=0.00 amt=0.00 title=0
+    Van Schinne
+    o 1160.
+    hoe desen heer door agterhoudende
+    streeken en een schalkschen aard mij
+    heeft tragten te misleijden
+=== 2487 NL-HaNA_1.04.02_2487_0031 scan_index=30 FP single n=25 fol=0.24 date=0.00 amt=0.00 title=0
+    4636
+    in het oogloopende voorkomen.
+    1173.
+    De met postpositie van eed en pligt door
+    hun drien geadinventeerde onregtveerdige
+=== 2487 NL-HaNA_1.04.02_2487_0035 scan_index=34 FP single n=28 fol=0.25 date=0.00 amt=0.00 title=0
+    4638
+    1191.
+    Ten dien fine eene magt van despoti„
+    que dispositie over mijn persoon en die
+    van mijne hoogste ministers sustinerende
+=== 2487 NL-HaNA_1.04.02_2487_0036 scan_index=35 FP single n=26 fol=0.27 date=0.00 amt=0.00 title=0
+    1196.
+    Die niet alleen Capabel waren om,
+    door het formeeren van eene regeringe
+    in eene regeringe, eene generaale per„
+    turbatie indese Colonie te brengen
+=== 2487 NL-HaNA_1.04.02_2487_0039 scan_index=38 FP single n=26 fol=0.23 date=0.00 amt=0.00 title=0
+    1639
+    1201.
+    soo hebbe egter dit hoewel gewone mid
+    del niet kunnen emploijeeren
+    1202.
+=== 2487 NL-HaNA_1.04.02_2487_0040 scan_index=39 FP single n=26 fol=0.19 date=0.00 amt=0.00 title=0
+    alhier behoorlijk was rond gelopen
+    1206.
+    En narijpe overweginge van alles wat
+    indesen eenige speculatie konde baren
+    1207.
+=== 2487 NL-HaNA_1.04.02_2487_0048 scan_index=47 FP single n=25 fol=0.16 date=0.00 amt=0.00 title=0
+    is zijn Edele onverrigter saken weder
+    vertrocken
+    na binnen
+    1236:
+    En hebben de heeren Raden niet tegen
+=== 2487 NL-HaNA_1.04.02_2487_0049 scan_index=48 FP single n=25 fol=0.24 date=0.00 amt=0.00 title=0
+    4644
+    van sommige heeren raaden nagaan
+    uijt sekere verklaringe onder de bijlagen
+    overgesonden
+    1240.
+=== 2487 NL-HaNA_1.04.02_2487_0052 scan_index=51 FP single n=24 fol=0.17 date=0.00 amt=0.00 title=0
+    de Eerst te verseijlende scheepen
+    1253.
+    en verders hun, op hunne gedane versoeken
+    een ruijm en selve al te complatsanten
+    acces van vrinden en goede bekende toe
+=== 2487 NL-HaNA_1.04.02_2487_0056 scan_index=55 FP single n=24 fol=0.17 date=0.00 amt=0.04 title=0
+    alhier seer verflauwende credit en ver„
+    minderinge van mijne agtinge mitsg:s
+    in timideringe mijner onderhorige
+    herhaald en gefingeerd voor wendsel
+    1271.
+=== 2487 NL-HaNA_1.04.02_2487_0058 scan_index=57 FP single n=24 fol=0.21 date=0.00 amt=0.00 title=0
+    1279
+    Om deselve, nadat verthien dagen uijt
+    destraat zunda soude zijn verseijld
+    eerst temogen openen
+    1280.
+=== 3793 NL-HaNA_1.04.02_3793_0046 scan_index=45 FP single n=28 fol=0.00 date=0.00 amt=0.00 title=1
+    Aan als Vooren
+    wij zullen, zoo veel het ons moogelijk is aan
+    den inhoud van Uwel Edele groot Achtbaaren
+    missive van den 11. Julij Jongstleeden beantwoorden.
+    wij hebben de eer met hoog agting te blijven /:onder„
+=== 4325 NL-HaNA_1.04.02_4325_0055 scan_index=54 FP verso n=68 fol=0.21 date=0.00 amt=0.03 title=0 | recto n=54 fol=0.17 date=0.00 amt=0.41 title=0
+    Montant de l'autre part ƒ19608: 14:—
+    Mars 7 168& Clous de 7 pouces
+    75 do „ 4 a 5 d o
+    86 5 „
+    200l Eloupe
+    441
+    Montant deci Contre L 25439: 4:
+    Marsio 2e pieces de bors Ens 26:3:8: Cubant 1: 7:6
+    24:3:3 „ 1: 6:
+    26: 6:5 „ 1:5 „
+=== 7694 NL-HaNA_1.04.02_7694_0003 scan_index=2 FP single n=5 fol=0.20 date=0.00 amt=0.00 title=0
+    No„ 23
+    Eerste deel
+    Sevende Stuk
+    Bantam
+    Ao 17 3/38
+=== 7978 NL-HaNA_1.04.02_7978_0022 scan_index=21 FP single n=40 fol=0.00 date=0.00 amt=0.00 title=1
+    Banda den 15„e Maij 1716. —
+    't antwoord van den gouver:
+    van haar komste, nevens 't
+    versoek in't dagregister
+    g'insereert, waar aan ons
+=== 7978 NL-HaNA_1.04.02_7978_0032 scan_index=31 FP single n=49 fol=0.06 date=0.00 amt=0.00 title=1
+    anda den 15„en Maij 1716. —
+    Van
+    derselve op reecq: van
+    wint en verlies
+    onder een apart registertje zijn overkomende, gedisponeert
+=== 8466 NL-HaNA_1.04.02_8466_0003 scan_index=2 FP single n=3 fol=0.33 date=0.00 amt=0.00 title=0
+    Jumoij
+    A„o 1839 en
+    /40:
+=== 8466 NL-HaNA_1.04.02_8466_0053 scan_index=52 FP single n=27 fol=0.00 date=0.00 amt=0.00 title=1
+    37
+    Van
+    Jambij onder dato 15:' october 1739
+    Vervolg van het Jambijs
+    Dag-Register gehouden door
+=== 8813 NL-HaNA_1.04.02_8813_0003 scan_index=2 FP single n=4 fol=0.25 date=0.00 amt=0.00 title=0
+    1686.
+    Cormandel
+    A„o
+    Van
+=== 8875 NL-HaNA_1.04.02_8875_0003 scan_index=2 FP single n=3 fol=0.33 date=0.00 amt=0.00 title=0
+    No. 4
+    9 a 1
+    
+    
+    Cornearidel
+=== 8875 NL-HaNA_1.04.02_8875_0004 scan_index=3 FP single n=0 fol=0.00 date=0.00 amt=0.00 title=0
+    er
+    

@@ -1,0 +1,2320 @@
+== NL-HaNA_1.04.02_9039_0001 | #1 | sides: - | lines: 0
+== NL-HaNA_1.04.02_9039_0002 | #2 | sides: - | lines: 0
+== NL-HaNA_1.04.02_9039_0003 | #3 | sides: single | lines: 5
+[single] Batavier
+[single] 1718 Per de
+[single] 155 stuk
+[single] allabaar
+[single] AD: g
+== NL-HaNA_1.04.02_9039_0004 | #4 | sides: - | lines: 0
+== NL-HaNA_1.04.02_9039_0005 | #5 | sides: single | lines: 44
+[single] Register
+[single] Jvan
+[single] A„o 1747
+[single] den 13 febr:
+[single] per 't schip
+[single] oosterhout
+[single] Ceijlon
+[single] den 18 April
+[single] per 't schip
+[single] Generaal
+[single] van alle zodanige Papieren als in desen
+[single] sijn ingeschreeven en successive ontfangen
+[single] E
+[single] ƒ
+[single] Folio
+[single] Mallabaar
+[single] A
+[single] Register der papieren. . . . . . . - - - - - - -„
+[single] origineele missive door den Command„r reijnicus siersma en
+[single] a
+[single] raad tot Cochim gesch: aan haar hoog Edelens de d„o
+[single] 22 8ber: Anno passato - - - - - - - - - - - - - - - „ 8.
+[single] Copia resolutie genomen in reide van politie tot Cochim
+[single] 'T zedert den 20 maart tot den 6 meij 1746 - - - - - - - „ 10.
+[single] Copia resolutie in rade van mallabaar genomen, sed„t den
+[single] 28 Julij 1746: tot den 17. ' 8ber: desselve Jaars - - - - - - - „ 274.
+[single] Register der papieren - - - - - - - - - - - - - - - - - - - „ 459.
+[single] orgineele missive gesz: door den Command„r en raad
+[single] meerm: aan haar hoog Ed„s ged„t 31 December A„o J„o
+[single] 475
+[single] met een appendia de dato 19: Jann: 1747 - - -
+[single] „
+[single] Resolutie genoomen in raden van politie te cochiim zed„t
+[single] den 18 8b:r A„o p„o tot den 17 Jann: A„o stantijg - - - - „ 635
+[single] 904
+[single] spaarenrijk Regisier dr papieren - - - - - - - - - - - - - - - - - „
+[single] „ tijlon gan orgineele missive door den Command„r en raad meerm:
+[single] 905
+[single] gesch: aan haar d„ de d„o 31 Jann: 1747. . . . . . . - - „
+[single] ses Copia resolutie genoomen in raden van mallabaar
+[single] 915
+[single] onder d„o 1920. 23: 28. en 30 Jann: annex het register. . -„
+[single] secreete resolutie genoomen in raden als vooren
+[single] op den 24 November - - - - - - - - - - - - „ 965.
+== NL-HaNA_1.04.02_9039_0006 | #6 | sides: - | lines: 0
+== NL-HaNA_1.04.02_9039_0007 | #7 | sides: - | lines: 0
+== NL-HaNA_1.04.02_9039_0008 | #8 | sides: single | lines: 1
+== NL-HaNA_1.04.02_9039_0009 | #9 | sides: single | lines: 22
+[single] Van Mallabaar den 2: october 1746
+[single] Register van alle
+[single] sodanige papieren als op
+[single] heden over Ceilon na bata„
+[single] via werden gesonden geconsig¬
+[single] „neerd aan sijn Edelheijd
+[single] den hoog Edelen groot agtb:
+[single] heere Gustaaf Willem
+[single] Baren van Jmhoff
+[single] gouverneur generaal en de
+[single] Edele heeren raden van nederlands
+[single] Jndia namentlijk.
+[single] orgineele brief door den E D agtb: heer„
+[single] commandeur Reinicus
+[single] Siersma, benevens den raad
+[single] alhier aan wel gem: haar hoog Edel„
+[single] „hedens gerigt onder hedigen
+[single] dato
+[single] Copea brief door als den aan de hoog Edele
+[single] „.
+[single] 2
+[single] heeren
+== NL-HaNA_1.04.02_9039_0010 | #10 | sides: single | lines: 2
+== NL-HaNA_1.04.02_9039_0011 | #11 | sides: single | lines: 23
+[single] Van Mallabaar den 2: october 1746
+[single] Register van alle
+[single] sodanige papieren als op
+[single] heden over Ceilon na bata„
+[single] via werden gesonden geconsig¬
+[single] „neerd aan sijn Edelheijd
+[single] den hoog Edelen groot agtb:
+[single] heere Gustaaf Willem
+[single] Baren van Jmhoff
+[single] gouverneur generaal en de
+[single] Edele heeren raden van nederlands
+[single] Jndia namentlijk.
+[single] orgineele brief door den E D agtb: heer„
+[single] commandeur Reinicus
+[single] Siersma, benevens den raad
+[single] alhier aan wel gem: haar hoog Edel„
+[single] „hedens gerigt onder hedigen
+[single] dato
+[single] Copia brieff door als dien aan de hoog Edele
+[single] heeren
+[single] 1
+[single] 2
+[single] „.
+== NL-HaNA_1.04.02_9039_0012 | #12 | sides: single | lines: 23
+[single] Van Mallabaar den 22 october 1746.
+[single] heepen bewindhebberen in 't
+[single] Patria gerigt onder dato 17:' Courant
+[single] N:o 3 Register van even gem: Patriase brieff en verdere
+[single] bijlagen daar toe gehoorende.
+[single] „ 4 Copia resolutien successivelijk genomen in rade van
+[single] mallabaar sedert den 28=' Julij pass=o
+[single] tot den 17:e desen met een appart regis„
+[single] ter voor aangebonden zijnde verdoelt
+[single] onder appsicable tituls
+[single] „ 5 drie d=o rapporten van Expresse bouwkundige gecom„
+[single] „mitteerdens betaeffende diversse ontdekte
+[single] gebreken aan de fortificatie werken
+[single] alhier te weeten.
+[single] Z: d: datos 16 en 28: Julij pass:o van 't
+[single] hoornwerk buijten de boom wagt
+[single] deser stede, en
+[single] 1:' d:o dato 27: derselven maand nopens
+[single] het hoofd en de geheele buijten kaaij.
+[single] „ 6 Copia Rapport van Cannanoor ontfangen
+[single] on gedaterd dato 17: Julij pass:o
+[single] Rakende
+[single] E
+== NL-HaNA_1.04.02_9039_0013 | #13 | sides: single | lines: 21
+[single] Van Mallabaar den 22:' october 1746.
+[single] Rakende de defeeten ter fortrefse
+[single] aldaar ontdekt
+[single] N„o 1 Copia Rapport meede van Excresse gecommitteer„
+[single] „de bouwkundige personen die de ge„
+[single] „breken van het soo genaamde
+[single] oude portugeese kloosten besijden
+[single] de nederlandse kerk alhier ofte
+[single] het presente materia al huijs heb„
+[single] „ben opgenomen onder dato 2: aug:s
+[single] Lestleden
+[single] „ 8 Drie 9 copia translaten der bulle en twee brie„
+[single] ven door den roomsen Paus cle„
+[single] „mens den twaalden aan den Car„
+[single] „melitsen Pater tot Warapolij
+[single] Tre Jnnocentio de pre„
+[single] „sentation in de latijnse
+[single] gesch: onder datis 3: en 4: maart
+[single] „1738: waar bij zijn Eerwaar„
+[single] de verkooren is tot sprepolitaanse
+[single] hoogen
+== NL-HaNA_1.04.02_9039_0014 | #14 | sides: single | lines: 25
+[single] Van Mallabaar den 2e' october 1746.
+[single] hoog Leeraar, en Coadpuiteur van den spre„
+[single] senten bisschop aldaar Joannes
+[single] Baptsta S„m Theresia -
+[single] Diverse papieren in houdende berigten zoo wels nopens
+[single] het zeegevegt tussen de fransen en
+[single] Engelsen voorgevallen als de verdere
+[single] progressen door laast gem: natie
+[single] ter Custe Cormandel gemaakt bestaan„
+[single] „de in.
+[single] 1. Extract brieff van de Ceilonse ministers
+[single] herwaards gesch: den 29„e pass„o
+[single] 1 d„o van „ Cormandel de dato 4„e aug„s daar aan
+[single] 1 van den Pannanisen resident de dato
+[single] 9e. Courant
+[single] 1 „ de bediendens tot Cannanoor de dato
+[single] 1 deser, nevens het Cartabel daar
+[single] bij vermelt, en agter aan gesch: —.
+[single] 1 Cannanoorse Secaate brieff de daito 12„' stantij,
+[single] 1co pia translaat ola door den Coopman motoe
+[single] Cheittiaar aan nagas porboerw:d gesch: ontf: den
+[single] 10' deser
+[single] 8
+[single] 9
+== NL-HaNA_1.04.02_9039_0015 | #15 | sides: single | lines: 23
+[single] Van Mallabaar den 2: october 1746.
+[single] „ 10 Copia Jnstactie onder dato 9:' Junij ass:o
+[single] verleent aan de gesag voerders van
+[single] de Chialoup Maria Lourentia
+[single] de bood verwijndregt, en schou
+[single] coilan die gelegen en post
+[single] gevat hebben Voor, en boven de
+[single] Joodse regerije tot Cochim de
+[single] Sima tegen den bedugtenen
+[single] aanval van ragia Trevancoor
+[single] en andere ontrouwe zuijden, oasten
+[single] der Custer
+[single] d„o 11 Extract brief door den portugeesen solk tot
+[single] barssaloog Fransiko de
+[single] Souza onder dato 7=e aug„s pass:o
+[single] herwaards gesch: inhoudende bekend„
+[single] „making wegens de progresse door
+[single] de portugeesen gemaakt tegen
+[single] den zeer over Bomsolo
+[single] d„o 12 twee stellen monster en qualificeerde rol„
+[single] „len van alle sComp: Loonwerkende
+[single] dienaren.
+== NL-HaNA_1.04.02_9039_0016 | #16 | sides: single | lines: 30
+[single] Van Mallabaar der oto : october 1716.
+[single] do 14
+[single] d o
+[single] d„o
+[single] d„o 17
+[single] dienaren die op dese mallabaarse
+[single] Cust inwesen syn bevonden onder
+[single] ult„o Junij pass„o
+[single] No 13
+[single] Origineele rolle den schaplkinderen dewelke binnen
+[single] deser steede onder dato rust„t 15=e deser
+[single] zijn te vinden geweest
+[single] Origineele rolle der huijsgesinnen te sodanig
+[single] deselve binnen deser steede Woonagtig
+[single] en aangetekend zijn ten getalle
+[single] van 2124 koppen onder dato ult„o
+[single] Junij pass„o
+[single] 15 Den Lijste van zodanige Zijl en roeij vaartuijgen
+[single] als op den laaste aug=s pass„o ten
+[single] dienste van dit Commandement
+[single] in Wesen„ bevonden.
+[single] 16 staad reek: getrokken uijt de boekjes van het Conquest
+[single] do
+[single] d„o
+[single] Paponettij van het boek Jaar 174 3/6
+[single] Origineel staad reek: van het se prosenhuijs tot palia„
+[single] „porta. Waar bij verthoond werd den staad
+[single] waar in het zelve is geweest onder
+[single] dato
+== NL-HaNA_1.04.02_9039_0017 | #17 | sides: single | lines: 24
+[single] Van Mallabaar den 22 october 1746.
+[single] dato ult„o ug„s destheeden annex
+[single] een naam rolletje der Leprosen.
+[single] N„o 18 naam rolle den personen die sucessivelijk van hier
+[single] gedeserteerd sijn sedert den 7.:' maij pass„o
+[single] d„o
+[single] d„o 19 _=o _=o van de oosterlingen dewelke hier
+[single] ter custe successievelijk ovrleden en
+[single] gedeserteerd zijn.
+[single] d„o 20: Memorie van sodanige koopmanschappen als
+[single] ter deser Custe in het boek Jaars
+[single] 174 /6 zijn in en verkogt en waar
+[single] op in gevolge haar hoog Edelhedens
+[single] q' qualificatie bij Letteren van den
+[single] 10 aug„s a„o pass„o aan de dienaren
+[single] is toegelegt 2: en 5 ten hondert
+[single] d„o 21: twee Copia raporten te weten.
+[single] 1: door den Capitain der toepassen
+[single] silvester mendes nevens
+[single] den sergeant en opsiender tot
+[single] paponettij Arnoldus Leenen
+[single] onder dato 8:' Julij passo en
+[single] 1: door den laast gem: alleen den
+[single] 22 aug:s
+== NL-HaNA_1.04.02_9039_0018 | #18 | sides: single | lines: 19
+[single] Van Mallabaar den 2. october 1746.
+[single] 22 aug=s daar aan overgelevert
+[single] nopens verscheijde thuijken en
+[single] landerijen door 'z overleijden
+[single] van seekere Comp: onderdaan
+[single] in haar Edelen Conquest paponet,
+[single] „tij Even gem: Nam parambathoe
+[single] Nacro aan de EComp: vervalzen.
+[single] cochim den 22 8ber: 1746 /:onderstond:/
+[single] Accordeert:/was getekend:/ H : W: hollen Secr:t
+[single] Batavia
+[single] aan sijn Edelheijd den hoog Edelen Wel gebooren heer
+[single] Gustaaff Willem Baron van Jmhoff
+[single] Gouverneur Generaal en de Edele Heeren Raden
+[single] van nedenland Jndia.
+[single] Hoog Edele Groot agtb:
+[single] Wyjdgebiedende Heeren.
+[single] De
+== NL-HaNA_1.04.02_9039_0019 | #19 | sides: single | lines: 24
+[single] Van Mallabaar den 12=' october 1746.
+[single] De presente gellethijde te desen Cust: ziedert het
+[single] afgaan onsen botmoedige Letteren van den 22=e' Julij
+[single] passio uw hoog Edelhedens te Lande over Cormandel, en
+[single] nedrp:
+[single] Ceijlon in Du plo toegesonden ter meerder gesteld
+[single] zijnde bij het hier nevens leggende afschriff
+[single] onser seer Eerbiedige patroase Jaar, advesen soo
+[single] sullen wij de Vrijheijd, hemen tot vertrijding van
+[single] een dubbeld relaas, ons aan derselver teneur
+[single] met de vereyschte hoogagting te gedragen
+[single] „latende dese nog versellen onse successieve
+[single] besluijten genomen in onse bij een komste
+[single] Van den 28 Julij 2, 62, 16, 24, en 26 augs„
+[single] mitsgaders s:, 8: 9:, 20:, en 27: 8ber:, 12, en 17:,
+[single] deser geaccompagheerd gaande van sodani„
+[single] „ge principase bylagen als de refleccie van
+[single] uw hoog Edelhedens meriteerende zijn—:
+[single] Terwijl Wij met de uijtterste submissie
+[single] de vrymoedigheijd hemen dese te onderschrij„
+[single] „ven in de hoedanigheijd van /:onderstond /: hoog
+[single] Edele groot agtb: Wijd gebiedende heeren /:lager:/ uw hoog
+[single] Edeheedens Trouw schuldige en onderdanige dien aren„
+[single] Was getekend
+== NL-HaNA_1.04.02_9039_0020 | #20 | sides: single | lines: 24
+[single] Van Mallabaar den 22e october 1746.
+[single] /:was getekend:/ R: Siensma C: Stevens
+[single] J
+[single] D: R: Bos, M: M Bowijn, G:t J: feyts, J: V:
+[single] Doreslaap, H: W: koller, M: Beijts—
+[single] /:in margine:/ Cochim den 22:e October 1746.
+[single] Resolutie genomen in
+[single] rade van mallabaar ter
+[single] steede Cochim
+[single] op
+[single] Sondag den 20 maart A:o 1746:—
+[single] Present
+[single] Den E E heern Commandain Reijnicus Siersma
+[single] „ „ oppercoopman en secunde corijn stevens
+[single] Daniel Bos
+[single] „ Cap=t militair alhier
+[single] Nicolaas Bowijn
+[single] „ Coopman en fibcaal
+[single] „ ondercoopman en Winkelien Gijsbert Jan feijth
+[single] „ _=o en Pakhuijsmeester Johannes van doreslaar
+[single] „ „ en secretaris van Politie Hendrik Wendelin kollen,
+[single] „ „ en soldij boekhouder Mattheus hendrik beijts. —
+[single] Aan vankelijk adverteerde den Commandeur de ver„
+[single] gadering
+== NL-HaNA_1.04.02_9039_0021 | #21 | sides: single | lines: 23
+[single] Van Mallabaar den 22:' natober 1746.
+[single] „gadering, hoe het schip 'T huys te marquette op
+[single] gisteren van ceilon over Tutucorijn alhier, verscheenen
+[single] wesende ook daar meede overgekomen waren seker, afge„
+[single] „sant door den generalissimus van den doorlugtigen
+[single] heeren Nababoe Nisamen Molk in
+[single] dienst sijnde van den groote Mogol nevens twee
+[single] kinderen soons van den mahumataanse opper„
+[single] „priester dier natie naa voorm: eijland gesonden
+[single] en dat zyn E: teffens een een Comp„s missive door
+[single] den schipper Lindenberg ter hand gesteld was door den
+[single] Edele hier gouverneur van Golonesse sub: dato
+[single] 3. e deser van Manaar aan zyn E: en desen raad
+[single] gesch: dewelke vervolgens opgesesen zijnde, soo quam
+[single] daar uijt te blijken dat voorm: met drie brieve
+[single] geconsigneert aan Wel gem. zijn Edele, d'onkoning
+[single] van Signattij en den Commandeur D' alhier ter
+[single] voorm: plaatse verscheenen was, synde de afschrifte
+[single] der missive aan syn Edelen gerigt met het and„
+[single] „woord daar op gepast al meede in rade opgesesen
+[single] Waar bij gesien wierd, gelijk sijn E: ook al, al verder„
+[single] bedeijde uijt de mond van den ambassadair met
+[single] verwondering
+== NL-HaNA_1.04.02_9039_0022 | #22 | sides: single | lines: 24
+[single] Van Mallabaar den 22:' october 1746:
+[single] verwondering te hebbe verstaan dat so er door zijn
+[single] E: aan gem: generalissimus Nisamen Molk
+[single] gisch: en hem ter kennisse gebragt soude zijn
+[single] dat er sevren koningen aan die zijde van de EComp:
+[single] waaren met versoek aan gem opperveld heer om ons
+[single] met 4 a: 8000 Ruijter te hulp te komen ten
+[single] eynde dus gesamentlijk den koning van Trevan„
+[single] „coor te verjagen onder belofte dat de aan ged=t
+[single] Nisamen Molk Een hondert seven millioenen
+[single] pagooden souden gegeven werden en dat den Com„
+[single] „mandeur met voorsch: : seven koningen en Mapele
+[single] chettij daar voor hem als borge souen verbonden gelijk
+[single] het een en, ander, bij het Copia translaat, dat in het
+[single] dag register g'insereert is nader komt te blyken waar„
+[single] op den Commandeur betuijgd dat in den eersten
+[single] opslag bij ontmoeting van den gesant en het ankoo„
+[single] „ren van alle de vreemde, en nooit gebeurde dingen
+[single] had verbaast gestaan, en aan hem te kennen gegeven
+[single] ssakfen
+[single] dat diergelijke „ waar van den gesant toen sprak
+[single] en bij het Colombose translaat stond aangehaalt
+[single] noit, of dit in zijn E gedagten gekomen ook ten Eene¬
+[single] maal
+== NL-HaNA_1.04.02_9039_0023 | #23 | sides: single | lines: 24
+[single] Van Mallabaar den 22: october 1746.
+[single] „maal strijdig waaren met syn E: successieve brieven
+[single] aan den nabab en zyne veld oversten geschreven
+[single] in andwoord op haar Edele voorgaande aanbiedinge
+[single] om de EComp: tegens den koning van Trevancoor
+[single] bij te staan welke presentatie immers daar bij ten
+[single] eenemaals beleefdelijk van de hand gewesen is ter„
+[single] sake den Commandeur daar toe niet gequalifi
+[single] „ceert was door haar hoog Edelhedens de hooge
+[single] regering Tot batavia dog dat den gesant in den
+[single] beginnen heeft staande gehouden, dat den Com„
+[single] mandeur en seven koningen die beloften gedaan
+[single] hadden, en dat het selve bij de brief aan den
+[single] Nabab geschreven bekent gesteld was egter
+[single] naderhand altererende bekent heeft dat sulx
+[single] by de brief, niet stond maar dat er uijt naam
+[single] van syn E: drie olas in het tamoels gesch: en
+[single] voorsz: geld belofte en het versoek om afstensie
+[single] daar bij gedaan was verthoonde te gelijk drie
+[single] open olas sonder handteijkening die hij
+[single] Voorgaff d' eijgenste die hij te wesen, die al„
+[single] daar
+[single] 1
+== NL-HaNA_1.04.02_9039_0024 | #24 | sides: single | lines: 22
+[single] Van Mallabaar den 22' october 1746.
+[single] „daan aangebragt waaren welkers translaten al meede
+[single] opgelesen zynde, de salsiteijd van de geheese sake
+[single] genoegsaam ten dage zeijde en den raad deed gissen,
+[single] dat misschien den koning segnatty of den moor
+[single] Coenje cheko dese geldgerig en soo wat op de mouw heb„
+[single] „ben terwijl sin E: de Leden al verder te kennen
+[single] gaf dat aan den gesant duydelijk te verstaan gege„
+[single] „ven is, dat die olas ommogelijk van den Comman„
+[single] deur dan wel te syner ordre geschreven kunnen
+[single] zijn, om reden deselve ongetekent bevonden wierden,
+[single] gelijk gedagte olas alle drie in vergadering zijn
+[single] verthoont, ook noit alhier de gewoonte is aan
+[single] die natie op olas te schrijven, maar wel op
+[single] papier en den brieff in een sakje van zijde,
+[single] off andere stoffe gedaan zynde met sComp:
+[single] cachet te verzeegelen, dat daar en boven den
+[single] ambassadeur niet weet wie deselve besteld heeft,
+[single] ook in geen gesonde herssen kan komen, dat
+[single] zyn E: zulk een excessive somma gelds Jmand
+[single] en dat nog op prievee authoriteijt soude
+[single] koomen
+== NL-HaNA_1.04.02_9039_0025 | #25 | sides: single | lines: 22
+[single] Van Mallabaar den 2=e' october 1746.
+[single] komen aan te bieden en daar uijt alleen genoeg¬
+[single] „saam af te weeten is dat die olos Valsch moeten
+[single] wesen, te meer, wanneer men derselven Jnhoud
+[single] komt te confronteeren tegens de successieve
+[single] brieven door sijn E: onder datis p=mo 7b=t 13: 9br: 1744
+[single] 29=e Julij en 18:e 8br: 1745. na de Legerhoofden van den
+[single] Habab, en deser natie gesch:, en de welke tot
+[single] verversing der geheugenisse in raden opgelesen en
+[single] ten eenemaal strijdig met gedagte olas bevonden
+[single] Wierden, Waar over met aan dagt gedelibereert
+[single] zijnde goedgevonden en verstaan is aan voorsz:
+[single] gesanten zoo lang zij zullen hier sijn hunne
+[single] guastus, en de drie ongeteijkende olas te rug te
+[single] geven, mitsgaders deselve met een smal geschenk„
+[single] „je, en een brieff aan de generalissimus hunnen
+[single] meester geschoit op dien leest als het andwoord
+[single] van dens hoog Edele Heer Gouverneur van
+[single] golonesse aan den selven gerigt aan Wijst,
+[single] hoe eer, hoe liever laten verzaekken, en van dit
+[single] geval na Batavia kennisse geven.
+[single] bij
+== NL-HaNA_1.04.02_9039_0026 | #26 | sides: single | lines: 24
+[single] Van Mallabaar den 22: october 1746.
+[single] Bij de resolutier van den 20 xber: des gepasseerden
+[single] en 20e Jann: deses Jaars, gesproken Wesende Van den
+[single] Lijwaat handel tot Tengapatnam met
+[single] kragt voort te sitten, soo Jdraa Wij onderrigt sullen
+[single] Wesen, dat Ragia Trevancoor het toe sal staan
+[single] en den onder tolk Jacob Dufuijth aldaar te or„
+[single] „donneeren eenige monsters van doeken over tesende
+[single] gelijk geschied is, soo betuijgde den commandeur
+[single] ƒ 1:-
+[single] dat te dier tijd abusievelijk is over het hoofd gesien
+[single] om een besluijt te neemen over en ter sake der
+[single] dolianen door haar hoog Edelhedens bij geve„
+[single] „nereerde missive van den 10„e augustus ter ne„
+[single] „der gesteld conceraeerende, dat haar hoog
+[single] Edelhedens den vervoerder Lijwgten aan den
+[single] sammorijn en cochimder om de Zuijd
+[single] toegestaan ongaarne passeeren soo wierd hier
+[single] over gedelibireert dog te gelijk onmogelijk
+[single] g'oordeelt in dese sake eenig redens te kun„
+[single] „hen maken ende sulx om tweederhande oor„
+[single] „saken namentlijk voor eerst om dat men
+[single] hier
+[single] „
+== NL-HaNA_1.04.02_9039_0027 | #27 | sides: single | lines: 22
+[single] Van Mallabaar den 12=' october 1746.
+[single] hier aan Willen ditorne geheel mallabaar
+[single] voornamentlijk in desen dangereuse tijd
+[single] in rep, en roer souw kunnen raken, en ten
+[single] sweede om dat wij niet in staat zyn aan duij„
+[single] „sende van pattarees die in dit gewees ten
+[single] principalen negotieeren den verloer door hon„
+[single] „derde van sluijkweegen te behetten, en dierhalve
+[single] tegens wil en dank tot ons Leedwesen hier
+[single] omtrent niet kunnen reusseuren.
+[single] Voorsz: ondertolk Diesuijth bij sijnen brieff
+[single] onder dato 10=' laastleden aan den coilanse
+[single] bediendens zens gesch: onder anderen bekend
+[single] makende het ongenoege van den koning van
+[single] Trevancoor door dien en tegens het oude ge„
+[single] bruijk conform de Jongste bataviase ordre
+[single] voortaan niet meer dan een sauvequarde al„
+[single] „daar in sComp„s residentie betaling geniete
+[single] en dienst soude doen, hebbende den ragiadoor
+[single] de betaling van de maand febr: voor een
+[single] persoon geweygert te accepseeren in hem Dusfuijth
+[single] Laaten
+== NL-HaNA_1.04.02_9039_0028 | #28 | sides: single | lines: 22
+[single] Van Mallabaar den 12:' october 1746.
+[single] laten aanseggen, dat 's konings wilse was dat
+[single] er twee nairos tot bavugeardes aldaar bescheyden
+[single] en een ijder van hum 's maands een ducaat soude
+[single] winnen, na volgens het oud gebruijk soo is verslaan
+[single] om alle brouijllerijen met dien capricieusen vorst
+[single] voor te koomen tot de nadere g' eerde ordre van
+[single] haar hoog Edelhedens den sin van syn
+[single] hoogheijd op te volgen en twee nairos tot saveugu„
+[single] „ardes met een ducaat ijder per maand soo
+[single] meede twee ducaten voor de gepasseerde maand
+[single] febr. door den tolk te laten betalen
+[single] Wegens de gebreken der nederlandse kerk twee
+[single] raporten onder datis 24: en 28: Janna: pass„o
+[single] ingedient, en de vervalle muur van 't choor
+[single] afgebroken zynde, soo seijde de zin D: in
+[single] omvraag, hoedanig voorsch: choor nu weder dient
+[single] opgebouwd te werden, off men namentlijk het
+[single] verwulf van de kerk intrekken, en afsnijden dan
+[single] wel de afgebrokene muuren sal ophalen, soo
+[single] als is, op de propositie van den Commandeur
+[single] goed
+== NL-HaNA_1.04.02_9039_0029 | #29 | sides: single | lines: 22
+[single] Van Mallabaar den 22=' ctober 1746.
+[single] goed gevonden, en verstaan het baasten te glaten
+[single] geschieden, en gem: muuren wederom doen ophalen
+[single] soo als de selve bevoorens, en van ouds gestaan hebben;
+[single] Wijders gaff syn D: aan de vergadering te kennen hoe
+[single] op het versoek van den schippen van 't huijs te
+[single] marquette zijn D: van 't sints is en nodig oor„
+[single] „deelt, om aan dien bodem 't geen denselve ont„
+[single] „breekt, en daar onder ook goede maande te laten
+[single] verstrekken, dog dat voorm: Zeeman zyn D: ver„
+[single] „klaart heeft, dat hij geweldig vertimmerd en zijne
+[single] geheelen buijten huijd afgenoomen moet werden
+[single] Ja wat nog meer is dat den baas der scheeps
+[single] timmerwerff selfs swarigheijd maakt off dit schip
+[single] te desen rheede wel sal kunnen na behooren
+[single] verholpen, dan wel ten dien siene na de modder„
+[single] baaij dienen gebragt te werden, en indien het
+[single] selve aldus kwam uijt te vallen, het te besien
+[single] sal staan off dien bodem met de nodige repa„
+[single] ratie wel soo spoedig gedaan werk sal krijgen dat
+[single] en nog tijds overschiet om den rijst van Cannanoor
+[single] ofte
+== NL-HaNA_1.04.02_9039_0030 | #30 | sides: single | lines: 22
+[single] Van Mallabaar den 122:' ctober 1746.
+[single] ofte haalen, die anders soude moeten blyven leggen,
+[single] en er voor die graanen in de regen mousson tot
+[single] cannanoor seer slegde plaatse wesen sal; om alle
+[single] welke reden vraagde zijn D: Wat nu best te doen sal
+[single] syn, te weeten voorm: bodem soo ontranponeerd als
+[single] hij is, en het rapport sal komen uijtwijsen, om
+[single] ryst te senden, en vervolgens syne rijse naa ceilon
+[single] te doen verworderen, sonder eenige reparatie daar„
+[single] aan te laten doen, om den tijd niet te versuijme,
+[single] alsoo dat gouvernement om die Potspijs verleegen is,
+[single] dan wel denselve it zij hier, of in de modderbraij,
+[single] soo als het rapport der gecommitteerdens uijt
+[single] sal vallen, die zijn E: reets de visite te doen ge
+[single] „ordonneert heeft, en waar bij den Compagne
+[single] meester door indisposisitie niet present kan
+[single] sijn, te laten repareeren, en indien het laat
+[single] Word, en dien bodem niet na cannanoor
+[single] kan gaan, hom als dan met Louwen, en kaajen,
+[single] te laden, en het geene men verder aan
+[single] handen sal hebben daar insteken dat in dien
+[single] Wij het
+== NL-HaNA_1.04.02_9039_0031 | #31 | sides: single | lines: 23
+[single] Van Mallabaar den 22:' october 1746.
+[single] wij het laaste doen, Ceilon naa alle gedagten van de
+[single] hoog noodsaakelijk voedsel sal versteken blijven, en
+[single] het eerste in het werk stellende, en dat god verhoe„
+[single] „de, dien bodem een ongemak lijdende door de swa„
+[single] rs lekkagie, off 't barsten van het schip, indien
+[single] en water bij de grane komt, wij sekerlijk een swa„
+[single] „re verandwoording ons op den hals sullen
+[single] haalen, al had men uijt een goede Jntentie
+[single] het schip van hier versonden, in voor onder
+[single] stelling dat het dien korte togt nog wel
+[single] zoude kunnen afleggen, waar over gebesoigneerd
+[single] zijnde, is eijndelijk unanumiter verstaan, dat wij
+[single] niet kunnen hasardeeren, 't schip, zielen, en goe„
+[single] deren aan het gevaar der zee te Dxpooneeren, en
+[single] dierhalven vast gesteld dat in dien meerm: bodem
+[single] alhier ter rheede niet kan verholpen werden
+[single] den zelven na de zuijder modderbaaij zijlen,
+[single] en daar ten anker gaan leggen, en gerepareert
+[single] soo meede al het geene daar aan verstrekt sal
+[single] werden, wat hij van nooden heeft, nevens goede
+[single] maanden
+[single] 21
+== NL-HaNA_1.04.02_9039_0032 | #32 | sides: single | lines: 22
+[single] Van Mallabaar den 22:' october 1746.
+[single] maanden.
+[single] Bij dese okagie heeft den secunde den oppercoop„
+[single] „man stevens versoek gedaan, dat de peper hoeken,
+[single] die onder de wapencamer staan met planken mo„
+[single] „gen werden beslagen, tot meerder preservatie van
+[single] dien kors, 't gunt g'accordeert is.
+[single] Ende nademaal den Luijtenant van steck en boek¬
+[single] houden van zuylen van chettua g'arriveert
+[single] zyn, om volgens genomen raads slot, hunne
+[single] verschillen te laten ondersoeken, soo wierd door zyn
+[single] E: aan den fiscaal gerecommandeert met zijne
+[single] commissie dien aangaande spoedig voort te
+[single] Vaaren.
+[single] Ook nog beslooten, dat op aanstaande Woensdag,
+[single] volgens Jaarlijx usantie de gesamentlijke gerefor„
+[single] „meerde school kinderen deser steede op den publijcquen
+[single] gebed zaal van het stadhuijs alhier in presentie
+[single] van den commandeur, en de politicque Leeden,
+[single] door den eerwaarden predikant scherius sullen
+[single] werden g'examineert, omme te ontwaaren wat
+[single] progressen
+== NL-HaNA_1.04.02_9039_0033 | #33 | sides: single | lines: 24
+[single] Van Mallabaar den 22:' october 1746.
+[single] progressen deselven in desen Jaaren hebben ge„
+[single] „maakt dierhalven hier van bij Extract deses praad
+[single] vertentie gegeven sal werden aan sijn Eeerw: gemlt,
+[single] De chettecdse presente bediendens de voorgaande klag„
+[single] „ten van den kalk brander aldaar gerenoveert,
+[single] en bij hun Jongste brieff alweeder om verhoging
+[single] van de prijs dier metsel stoffe versogt, en 't
+[single] oude deuntje gesongen hebbende, soo is verstaan,
+[single] haar
+[single] het selve alwederom positief af te slaan, en ge„
+[single] „lasten, den kalkbrander catachoris af te vragen
+[single] off hij de g'ordonneerde 1000: andijsen metses„
+[single] „kalk, voor de gewoons prijs van 9 samuns wel
+[single] branden, dan niet, en ons daar van kennisse
+[single] Ter deser occagie den commandeur de Leeden in
+[single] geheugenis brengende, hoe reeds in den voorleeden
+[single] Jaaren discursive gesprooken synde, van het doen
+[single] afbreeken van het soo genoemde conferentie huijs
+[single] tot chettua buijten de fortresse staande, zijn. D:
+[single] als nog van gevoesen was, dat sulx diende te geschiede,
+[single] om
+[single] 23
+[single] geven,.
+== NL-HaNA_1.04.02_9039_0034 | #34 | sides: single | lines: 22
+[single] Van Mallabaar den 22=' october 1746.
+[single] om reeden het selve aldaar van weijnig dienst is,
+[single] en alle Jaaren met repareeren, en verdecken de
+[single] EComp: al vrij wat veel te staan komt, dog den
+[single] cap=t militair Daniel bos, die voor commandant
+[single] aldaar gelegen heeft, en anderen der Leeden meer„
+[single] die aldaar meermaalen geweest zijn, waaren
+[single] van oordeel dat het voorm: conferentie huijs aldaar
+[single] noodsaakelijk, en daarom ook soo veele Jaaren
+[single] herwaards successievelijk onderhouden geworden is,
+[single] om dat dagelijks den een off den ander met den
+[single] commandant sComp„s wegen moeten spreeken,
+[single] geen andere plaatse als dit huijs ter ontmoeting
+[single] en een oud gebruijk tot chittua, Ja genoegsaam
+[single] een vaste dat geen Jnlander verder komen mag
+[single] dan voor de poort van het fortres, behalven dat dit
+[single] huijs al meede hoog nodig is, wanneer den ge„
+[single] „bieder eens derwaards moet gaan, en vrij wat veel
+[single] souden kosten, soo, t dan soo schielijk moest
+[single] werden opgemaakt, daar het een maar met eene
+[single] Jaarlijx reparatie onderhouden word, dierhalven is
+[single] verstaan
+== NL-HaNA_1.04.02_9039_0035 | #35 | sides: single | lines: 23
+[single] 25
+[single] Van Mallabaar den 22 october 1746.
+[single] verstaan dese saak op den ouden voet te laten.
+[single] Eijndelijk nog opgelesen sijnde een rapport gedag„
+[single] „tekend tweeden deeser door Expresse gecommit„
+[single] „teerdens overgegeven, en waar bij verklaard word,
+[single] dat het dak der Combuijs van de comman„
+[single] „deurs wagt alhier vrij wat saag segt, en tot
+[single] vermeijding van ongemakken, ofgenomen verhoogt,
+[single] en een schoorsteen boven de Vuurstee daar in
+[single] dient gemaakt te werden, soo quam in con„
+[single] sideratie dat den meester knegt Hendrik
+[single] paquet die dit nieuwe werk nog maar onlangs
+[single] g'absolveert heeft, meede een der onderteekenaars
+[single] van dit rapport, en daar en boven als sabrijk
+[single] de Wesentlijke oorsaak is, van de nieuwe guastus„
+[single] die aan voorsz: combuijs thans moeten gedaan
+[single] werden, om welke reeden, en hem in den aan„
+[single] „staande wat oplettenden te maaken in sijnen
+[single] dienst, goed gevonden, en verstaan wierd gedagte ge„
+[single] „breeken aan de nieuwe combuijs voor soo verre
+[single] het de noodsaakelijk vereijscht te laaten verhelpen,
+[single] Conformt
+== NL-HaNA_1.04.02_9039_0036 | #36 | sides: single | lines: 21
+[single] Van Mallabaar den 22:' october 1746.
+[single] conform het overgegeven rapport, en het kosten„
+[single] „de van dien door den meester knegt Hendrik
+[single] Paquet te laaten betaalen.
+[single] cochim dato voorsz: /:was getekend:/ R: Siersma„
+[single] O: Stevens, D:l Bos, N: bowijn, G: J: feijth,
+[single] Joh.s van Doreslaar, HE: W: Koller, en
+[single] M: H: Beijts.—
+[single] Dinsdag den 22: Maart ao 1746:
+[single] alle present.
+[single] met den beginne van dese sitting gaff den com„
+[single] „mandeur om op te deesen ove twee rapporten
+[single] beijde gedagtekend 21: desen, het eersten door den
+[single] baas den scheepstimmerwerf Warnaan Clorijn,
+[single] den opperstuurman Sijbrand Sijbrandsz:
+[single] en meester knegt van evengem: Werff Jan
+[single] hagedoorn, soo meede het tweeden door den
+[single] schipper paulus Sindenberg, en voorsz:
+[single] Zijbrandsz: ondertekend aldus Luijdende.
+[single] Aan den EE Agtb:
+[single] Heer
+== NL-HaNA_1.04.02_9039_0037 | #37 | sides: single | lines: 21
+[single] Van Mallabaar den 2:' october 1746.
+[single] Heer Reijnicus Siersma
+[single] commandeur en oppergebieder
+[single] der custe mallabaar Canara
+[single] en winguala.
+[single] EE Agtb: welgebiedende Heer
+[single] Jn naarkominge van UEE: agtb: gevenereer„
+[single] „de ordre hebben wij ondergetekendens ons vervoegt
+[single] aan boort van het alhier ter rheede leggen„
+[single] „de sComp„s schip 'T huijs te marquette van
+[single] colombo alhier gearriveert, en aldaar na
+[single] gedaane visitatie bevonden, dat de dubbelhuijd
+[single] aan weerskanten ten meesten deele vergaan,
+[single] en van de Wormen doorvreeten is, dierhalven
+[single] moet noodsaakelijk een nieuwe dubbelhuijd
+[single] aangemaakt werden, tot soo verre als men
+[single] na het Ligten, en krengen van dien bodem
+[single] bij kan koomen, maar vermits tegenswoordig
+[single] groote deijnings op de rheede staan, zal men
+[single] genoodsaakt
+[single] 27
+== NL-HaNA_1.04.02_9039_0038 | #38 | sides: single | lines: 23
+[single] Mallabaar den 22=e october 1746.
+[single] Van
+[single] genoodsaakt sijn dien bodem naar de mod„
+[single] „derbaaij te senden, dog indien de overheeden
+[single] van dien kiel denselven konden binnen
+[single] brengen soude sulx tot minder kosten van
+[single] de EComp:t strekken.
+[single] ook hebben wij ontwaard dat verscheijde planken
+[single] van het bovenste dek dient uijtgebroken en
+[single] met nieuwe versien als meede een nieuwe
+[single] poort tussen der gemaak te Werden, om
+[single] Welke Voorenstaande gebreken nabehooren
+[single] te verhelpen, men ruijm een maand tijd
+[single] moet hebben doorbrengen, en het zoude
+[single] kunnen gebeuren, dat men onder de tim„
+[single] „meragien nog meerder gebreken quam te
+[single] ontwaaren, vermits gem: overheeden een pa„
+[single] „rig hebben betuijgt, dat de vaste huijd van
+[single] dien bodem op verscheijde plaatsen seer slegt
+[single] gesteld is, alsoo in bengale eenige stukken
+[single] uijt de dubbelhuijd gebroken sijnde het
+[single] selven is ontdekt.
+[single] Waar
+== NL-HaNA_1.04.02_9039_0039 | #39 | sides: single | lines: 20
+[single] 29
+[single] Van Mallabaar den 22=' october 1746.
+[single] Waarmeede ver hoopende voldaan te hebben vEE
+[single] agtb: g'eert bevel blyven met diepootmoet
+[single] /:onderstond:/ EE agtb: Welgebiedende Heere,
+[single] VE E agtb: onderdanige en gehoorsaame
+[single] Dienaaren /:was getekend:/ W:m Florijn,
+[single] S:s Sybrandsz: en J: H Doorn,/in man
+[single] geene:/ Cohim den 21' Maart a„o 1746.—
+[single] Aan den E E agtb: Heer
+[single] Reijnicus Siersma
+[single] Commandeur en oppergebieder
+[single] der Custe mallabaar Canara
+[single] en Wingurla, &a
+[single] EE Agtb: Welgeliedende Heer
+[single] In gehoorsame op volging van vE agtb: hoog G:eenrt
+[single] bevel hebben de ondergetekende gecommitteer„
+[single] dens per de post looper zig doen Trans„
+[single] porteeren buijten de rievieren alhier, ver vol¬
+[single] „gens
+== NL-HaNA_1.04.02_9039_0040 | #40 | sides: single | lines: 26
+[single] Van Mallabaar den 22=e october 1748.
+[single] „gens exactelijk gepeijlt en gevisiteert de
+[single] de bank seggende voor de mond van evengem:
+[single] nevierd, sijnde als toen het water ten naast,
+[single] en bij op sin hoogst, dan wel stilstand
+[single] geweest van ebbe, en vloed als wanneer de
+[single] ondergetekende hebben bevonden, dat regt
+[single] boven op de bank 15½ amsterdamse
+[single] voeten water waaren, dierhalven alsoo
+[single] den eersten ondertekenaar deses hoogst
+[single] noodsakelijk oordeelt, dat sin onderheb„
+[single] bende sComp„s bodem 'T huijs te marquette
+[single] van syne swaare gebreeken spoedig moet
+[single] werden verholpen, om met gerustheijd van
+[single] den selve benevens de daar op vaarende
+[single] zielen, en goederen, in zee te kunnen
+[single] gaan, na soodanige plaatsen, als haar
+[single] Edelens dienst vereijscht, en hij schipper
+[single] zig genoegsaam in staat oordeelt sonder
+[single] de minste bedugting van gevaar, onder
+[single] godes zeegen, en beslier op veerthien
+[single] amsterdamse Voeten Water voorm: schip
+[single] in binnen dese rieviere te brengen, ten
+[single] Waare seer Extraordinaire, en gantsh niet
+[single] te verwagtene toevallen sig quamen op te doen,
+[single] soo
+== NL-HaNA_1.04.02_9039_0041 | #41 | sides: single | lines: 27
+[single] 31
+[single] Van Mallabaar den 22=e october 1746.
+[single] soo oordeelde de ondertekenaars deses onder„
+[single] correctie nogthans, dat indien VE E agtb:
+[single] mogten gelieven te consenteeren, dat ge„
+[single] Waagde kiel binnen dese reviere, en voor
+[single] de scheeps timmerwerf mag werden gebragt,
+[single] als dan niet alleen de noodsakelijke repa„
+[single] ratie met vrij wat minder moete en,
+[single] beter sucses, dan in de modderbaij,
+[single] maar ook vrij spoediger en secuurder.
+[single] sal kunnen geschieden, en veel noodelo„
+[single] „se kosten gespaart werden, om reeden,
+[single] dien bodem binnen de reviere met gemak,
+[single] en na vereijsch gekrengt, en alle de koe„
+[single] „lysoonen bespaart kunnen werden, die
+[single] de EComp: anders sal dienen te besleden,
+[single] in het oversenden van klijne vaartuijgen
+[single] met de nodige ambagtslieden en ma„
+[single] terialen na de modderbaaij voormelt.
+[single] hier meede verhoopen de ondergetekende te heb„
+[single] ben voldaan aan het veel g'agte re„
+[single] „quisit van VE E agtb: en hebben de
+[single] Eere van te zijn /:onderstond:/ EE agtb:
+[single] Welgebiedende Heer vEE agtb: onder„
+[single] „danige, en gehoorsaame Dienaaren
+[single] was
+== NL-HaNA_1.04.02_9039_0042 | #42 | sides: single | lines: 21
+[single] Van Mallabaar den 22=e' october 1746.
+[single] /:was getekend:/ P:s Lindenberg, en S. s
+[single] Sybrandsz, /:in margiene:/ Cochim den
+[single] 21=te Maart 1746.
+[single] Waar uijt dan ontwaard zijnde, niet alleen,
+[single] de swaare gebrekens die de gecommitteerdens
+[single] by visitatie van het schip 'Thuijs te mar„
+[single] quette aan dien bodem bevonden hebben,
+[single] en derselver bedugting dat misschien, onder
+[single] het reparen zig nog meer mogte koomen
+[single] op te doen, maar ook dat deselve van ge„
+[single] „voelen zijn, dat dien kiel door de groote
+[single] deijnings, die thans op de reede staan, al„
+[single] daar niet na behooren gekrangt, en
+[single] verholpen, maar na de modderbaaij dien„
+[single] „de gebragt te werden, en dat indien
+[single] de overheeden kans sagen het schip bin„
+[single] ne dese reviere te brengen zulx tot min„
+[single] „dere kosten van d' EComp: soude strekken,
+[single] met welke laaste proposietie den schipper
+[single] Lindenberg
+== NL-HaNA_1.04.02_9039_0043 | #43 | sides: single | lines: 24
+[single] Van Mallabaar onden 22 october 1746.
+[single] Lindenberg, en opperstieder man Sybrandsz: haar
+[single] conformeerende, gantsch geen swarigheijd maa„
+[single] „ken dien bodem sonder 't minste gevaar over
+[single] de bank na binnen te brengen, om sodanige
+[single] reeden als hier boven bij derselven rapport
+[single] te zien is,
+[single] Dierhalven adverteerde syn D: de vergadering, hoe„
+[single] hij voorm: schipper Lindenberg had voorge„
+[single] slagen, om na kannanoor te gaan, en een
+[single] lading rijst ingenoomen hebbende, daar me„
+[single] „de na Ceijlon te steeren, om aldaar maar
+[single] eerst van sijne gebreken verholpen te werden,
+[single] dog dat dien zeeman betuijgt heeft, zulx niet
+[single] geschieden kan, uijt vreese van somtijds te
+[single] kunnen sinken, en dat hij geensints resolveere
+[single] kan in sulken gevallen dien bodem, en de
+[single] zielen die daar op sijn ter sijner verandwoor„
+[single] dinge over te neemen, en door een ijder zee
+[single] verstandige soude moeten g'oordeelt werden een
+[single] ligtveerdige onderneeming te zijn, gelyker wijs
+[single] gedagten
+[single] 33
+== NL-HaNA_1.04.02_9039_0044 | #44 | sides: single | lines: 22
+[single] Van Mallabaar den 22=en october 1746:/
+[single] gedagte schepshoofden, en opperstuurman
+[single] Sybrandsz: binnen den vergader zaal geroepen
+[single] zijnde, op de nadere afvragen van het voor„
+[single] en staande door den commandeur aan
+[single] haar lieden gedaan, daar bij volkomentlijk
+[single] bloeff persesteeren, doende den schipper daar
+[single] nog bij, dat het onmogelijk is dat dien bo„
+[single] „dem tot Ceijlon verholpen kan werden na behooren,
+[single] door dien het al te swaare fouten heeft, voorna„
+[single] „mentlijk veroorsaakt, door dien het selve in sijn
+[single] laaste reijse na 't Vaderland op de vlaamse
+[single] banken gestooten, en een snills kraak gekregen
+[single] hebbende, naderhand in 't patria naa vereijscht
+[single] niet gerepareert is, voorts gekomen sijnde door
+[single] een quaad rapport dat ten dien opsigte aan de
+[single] „heeren majores gedaan soude wesen.
+[single] Waar naa deselven na buijten geschelt sijnde soo
+[single] was zijn E=s afvrage, off den raad Wilde op haar
+[single] „neemen het schip sonder reparatie na cannanoor„
+[single] en van daar met een lading rijst na Ceijlon
+[single] ten
+== NL-HaNA_1.04.02_9039_0045 | #45 | sides: single | lines: 23
+[single] 35
+[single] Van Mallabaar den 22:' october 1746.
+[single] te senden, dog niemand der leden conformeerde
+[single] zig daar meede, om dat den schipper selfs sodanige
+[single] swaarigheden maakt, die niet wel kunnen tegen
+[single] gesprooken, veel min verworpen werden, oordelende
+[single] verandwoordelijker te wesen dat het selve alvoorens
+[single] weder in zee te gaan van sijne gebreken wierd
+[single] verholpen.
+[single] Welk besluijt aan den schipper en opperstuurman
+[single] voorm: bekend gemaakt, en haar toen nog nader
+[single] wierd afgevraagt,
+[single] voor eerst of zij lieden het schip voor haare rekening
+[single] willen nemen, indien 't selve door haar binnen gebragt
+[single] werdende, een ongeluk mogte krijgen. —
+[single] ten tweeden, of zij wel in staat zijn dien bodem na de
+[single] gedaane reparatie, sonder gevaar wederom buijten
+[single] te brengen.
+[single] ten derden of zij wel op de swaare deijnings denken„
+[single] die nu reets gaan, en dat men thans dagelijx
+[single] swaar, en broesig weer en storm buijen te verwagten
+[single] heeft.
+[single] waar
+== NL-HaNA_1.04.02_9039_0046 | #46 | sides: single | lines: 22
+[single] Van Mallabaar den 22=en october 1746.
+[single] Waar op den schipper tot andwoord wat het eerste
+[single] aangaat, seg ik van Ja, dog onder Godes hulpe„
+[single] en indien ik geen merkelijke tegenspoeden
+[single] ontmoet, die een zeeman telkens ontwoogelijk
+[single] voorsien kan
+[single] Ook sal ik het onder die Conditie wederom na
+[single] buijten brengen, en al het geene doen wat
+[single] mijn zeer manstpligt vereyscht want in de
+[single] maand april zijn ook mooje dagen, die
+[single] moet men waarneemen, en men sou„
+[single] de het schip selfs met springen op zijde
+[single] uijt de revieren kunnen winnen, en in„
+[single] „dien en een goed land windje bij komt, dan
+[single] is het om soo te veel gemakkelijker en
+[single] hoeven dierhalven Voor de deijnings, en storm
+[single] „buijen op sulk een tijd niet bang te weesen.
+[single] Naa welke verklaring dese vrunden na buijten
+[single] getreeden zijnde, soo Leijde zijn D: in omvrage¬
+[single] Wat nu hier in den ten dienste der maat„
+[single] schappije, en onse securiteijd best diende gedaan
+[single] teg
+== NL-HaNA_1.04.02_9039_0047 | #47 | sides: single | lines: 24
+[single] Van Mallabaar den 22=e October 1746.
+[single] te werden, dat het een gewenste saak soudezijn,
+[single] indien het schip binnen dese konden werden
+[single] gerepareert, om soo wel tijd als meerder kos„
+[single] „ten en moeijte te spaaren, die men seker„
+[single] lijk sal moeten aanleggen, in dien al de
+[single] nodige materiasen van hier na de modder„
+[single] „baaij moeten werden overgebragt, dog dat wij
+[single] daar en boven moeten overwegen, hoe vrij
+[single] verandwoordelijker het voor ons bij haar hoog
+[single] Edelhedens sal wesen, wanneer wij het schip
+[single] op de secuurste wijse, en plaatse laten ver„
+[single] helpen, schoon het wat meer sal kosten,
+[single] Ja al moest men ook selfs, ten swaarste
+[single] genomen, naa de reparatie de lading,
+[single] die men alhier aan handen heeft met
+[single] vaartuijgen na de modderbaaij senden
+[single] dan dat men het selve op Risico laat bin¬
+[single] „nen brengen, en dat om geringe kosten
+[single] in tegenstellinge van een heel schip, dat
+[single] het wel waar is, dat haar hoog Edelhedens
+[single] hoog
+[single] 37
+[single] onder
+== NL-HaNA_1.04.02_9039_0048 | #48 | sides: single | lines: 22
+[single] Van Mallabaar den 22=en October 1746.
+[single] Hoog wijse ordre dicteert, dat men de zee
+[single] officieren in hunnen kunst, Wetenschappen
+[single] en vwaring moeten laten begaan, maar
+[single] dat ons egter het ongestadig zaijsoen dat
+[single] dat om dese streek van tijd schielijk in swaare
+[single] stormbuijen kan koomen te veranderen
+[single] ten overvloede bekend, en geen Exempel
+[single] is, dat ooit voor desen onder de regeringe
+[single] van soo veel wijse mannen sulk een swaare
+[single] sComp„s binnen dese revieren is gebragt,
+[single] en wat de diepte op de bank aangaat, dat
+[single] wij alle alsoo on mogelijk versekert konnen
+[single] sijn, off deselve ove een maand nog soo sal
+[single] blijven, als wij kunnen voor sien dat dien
+[single] bodem sonder eenig ongeluk binnen, en
+[single] buijten sal raaken, alle welke Consideraties
+[single] bij de leeden meeden voortgebragt, en
+[single] dese saak rijpelijk gepondereert, en over woogen
+[single] wesende, soo viel het slot, dat dat wij den
+[single] sekensten weg sulsen kiesen, en dat het seeke
+[single] schip
+== NL-HaNA_1.04.02_9039_0049 | #49 | sides: single | lines: 23
+[single] Van Mallabaar den 22=e october 1746.
+[single] schip na de modderbaay sal gaan, in ge„
+[single] „volge ons Jongst genomen besluijt om al„
+[single] daar als sijnde een bequaame en secieure
+[single] plaatse van zijne gebreken gerepareert te wer
+[single] den, soo als dat behoort, en best sal kunnen
+[single] geschieden, en dat men na gedaane repara„
+[single] „tie seen sal, wat besluijt ten opsigten van dien
+[single] bodem wij nader dienen te nemen smeesters
+[single] beste dienst..
+[single] gunt dan door zijn E: vervolgens aan schipper Lin=
+[single] „denberg te kennen gegeven sijnde, soo bleeff den
+[single] selve egter persesteeren bij zijne stelling, dat
+[single] het beeter souw geweest zijn, indien het schip
+[single] binnen dese Revieren gebragt was, oordeelen„
+[single] de, dat de reparatie onder water in de modderbaaij
+[single] niet na vereijsch daar aan geschieden kan, onder„
+[single] werpende zig egter aan het genomen decreet
+[single] met g'annexeert versoek, dat zijn sek Cust, en
+[single] vaatwerk alhier meede verholpen mogten
+[single] Werden, t gunt hem wierd g'accordeert.
+[single] Den
+== NL-HaNA_1.04.02_9039_0050 | #50 | sides: single | lines: 23
+[single] Van Mallabaar den 22„en october 1746.
+[single] Den provisioneel commandant den vendrig Hart„
+[single] „man tot chettua bij een particuliere brieff
+[single] aan den commandeur versogt hebbende, dat hem,
+[single] gelijk als tot coilan, ten dienste der wapekamer
+[single] aldaar de nodige koelis magten toegevoegt tot het
+[single] schoonhouden der geweeren mitsgaders klappus
+[single] olij, en linden om deselve aan te smeeren verstrekt
+[single] „mogten werden, om dat hij d' hij de Iuropesen
+[single] met dien diest niet wel kan belasten, en de toe„
+[single] „passe soldaten aldaar sijn afgedankt, die be„
+[single] „voorens het selven hebben waargenomen, soo kwam
+[single] in Consideratie dat ter dier fortresse een aansiene„
+[single] lijke Wapencamer van wel 300: geweeren, dewelke
+[single] sekerlijk dienen onderhouden te werden, om
+[single] welke reeden op de propositie van den Comman„
+[single] „deur verstaan wierd, dat den Commandant een
+[single] vrijwilliger kan kiesen, en aanstellen om op de
+[single] geweeren te passen, en dat aan hem maandelijx soo
+[single] aan kontanten voor de koelis, als olij en Linnen
+[single] 't sal werden afgelangt, dat tot Coilan in disantie is,
+[single] te
+[single] na
+== NL-HaNA_1.04.02_9039_0051 | #51 | sides: single | lines: 24
+[single] 41
+[single] Van Mallabaar, den 22:' october 1746.
+[single] te weeten 3¾ rd„s aan koelij geld, agt kannen ko„
+[single] „kies olij, soo meeden alle ses maanden twee stuk„
+[single] „ken Linden goed. —
+[single] Den koning van Calicoilan, die dagelijx de attacque van
+[single] sijnen bitteren vijand te gemoed siet, bij ola den
+[single] 20' deser ontfangen onder anderen versoek doen„
+[single] ^ allhier
+[single] „de om vijf Candijlen salpeeter, soo is verstaan
+[single] om dat den Coopman Edechiel rabbij voor de
+[single] betalinge instaat, hem de 1000 ponden op
+[single] morgen over zee met de bood swyndregt soe te
+[single] senden
+[single] ok wierd een translaat opgeleesen van een an=
+[single] „dere ola van den koning van trevan coor den
+[single] 21=en Courant alhier aangebragt, waar bij sijn
+[single] hoogheijd klaagt ove hostiliteijten die hij segt,
+[single] dat den Calicoilander op nieuws tegens hem
+[single] bij de hand neemt en zig declareert, dat hij
+[single] hem op het Lijff sal vallen, Insteerende als
+[single] nog, dat hem d' E Comp, mag by springen met
+[single] het geenen bij het gesloote Contract is ter
+[single] needer
+== NL-HaNA_1.04.02_9039_0052 | #52 | sides: single | lines: 21
+[single] Van Mallabaar den 22:' october 1746.
+[single] needen gesteld, seggende dat men nu drie Jaarens
+[single] na den anderen sig heeft g'excuseert, van niet
+[single] meer als de Jaarlijxe proviesie gekregen te hebben,
+[single] en dat den Commandeur hem kan helpen,
+[single] in dien het zijn Edele maar behaagt & waar op
+[single] verstaan is, dit versoek op een beleefde en vrundelyke
+[single] wijse al wederom off te kaatsen
+[single] door den oppercoopman en secunde Corijn stevens,
+[single] den coopm en fiscaal nicolaas bowijn, en den boek„
+[single] „houder, en tweede pakhuijsmeester Laurens
+[single] hogh een berigt zijnde ingedient, wegens haare
+[single] bevinding in het confronteeren der Jongst
+[single] van Sengapatnam alhier ter preuve ont„
+[single] „fangene Lijwaaten, tegens de oude monsters,
+[single] die alhier in 't pakhuijs te vinden sijn, soo
+[single] Wierd het selve opgeleesen beduijdende aldus.
+[single] Aan den EE Agtb: Heer
+[single] Reijnicus Siersma comman„
+[single] deur en oppergebieder der Custe
+[single] Mallabaar
+== NL-HaNA_1.04.02_9039_0053 | #53 | sides: single | lines: 35
+[single] 43
+[single] Van Mallabaar den 22:' october 1746.
+[single] E: E: Agtb: welgebiedende Heer
+[single] mallabaar, Canara, en Wingur„
+[single] Agtervolgens vE: E: agtb: hoog g'eerde bevel, hebben
+[single] wij ondergetekende in het bijwesen van den
+[single] hoofd administrateur en secunde corijn stevens
+[single] de Jongst van tengapatnam ontfangene Lijwa„
+[single] ten, tegen de monsters die alhier int het pak„
+[single] „huijs berustende zijn, geconfronteert en bevon„
+[single] „den dat de eerst gem: niet alleen met min„
+[single] dere draaden gemaakt, maar ook slegter
+[single] van deugt sijn, soo als hier onder en vervolgens werd
+[single] aangetoont, als
+[single] 12 zegge een p„s gebl: salemp„s van 11 voeten lang
+[single] 34½: b:tt 2 7/18 cobb: beronden 9 voeten, de sengte,
+[single] en breete accordeeren dog slegter van deugt.
+[single] 1: „ een p„s gebl: salemp:s van 8: voeten Lang 32 b„t
+[single] 2 5/8 cob: bevonden, 7¾ voeten, de Lengte en
+[single] breete accordeeren, dog slegter van deugt.
+[single] 1 „ een p„s ruw salemp„s van t= 11 voeten lang
+[single] 34½ b„t 2 3/16 cobb:t bevonden 10 voeten schaars de
+[single] Lengte en breete accordeeren dog slegter van deugt,
+[single] „ een ps ruw salemp„s van 8 voeten Lang, 82: b„t
+[single] 2 5/8 kobb: bevonden 7½ voeten de lengte en breete
+[single] accordeeren dog slegter van deugt
+[single] ¼ „ een quart stux caatje eerste zoort / lang 7 ¾ b=t 2 1/8 Cabb:
+[single] bevonden te accordeeren dog slegter van deugt„
+[single] „ een p„s salemp„s 1:: soort Lang 32: b=t 2¼. cob:
+[single] bevonden te accordeeren dog slegter van deugt
+[single] een p:s bl: salemp:s 2 sport l: Lang 31: b„t 2 ¼ cob:
+[single] bevonden te accordeeren, dog slegter van deugt
+[single] 1„ een
+[single] la
+[single] ƒ.
+== NL-HaNA_1.04.02_9039_0054 | #54 | sides: single | lines: 31
+[single] Van Mallabaar den 22=en october 1746.
+[single] 1 Jagpeen p„s bl: salem p„s 3 zoort lang 31: b„t 2 cob:
+[single] bevonden te accordeeren, dog slegter van deugt.
+[single] 1„ een p„s caatje van 7 voeten lang 29: b„t 8: 1/8 cob:
+[single] bevonden te accordeeren dog slegter van deugt
+[single] 1 „ een p„s Caatje 2: soort lang 36¾. b„t 2¼: cob:s bevonden
+[single] te accordeeren, dog slegter van deugt.
+[single] 1 „ een p„s caatje van 4 voeten Lang 30: b=t 2¼ cob: bevon„
+[single] „den te accordeeren dog slegtter van deugt.
+[single] 1„ een p„s ruw guinees 6 voeten Lang of 39½ cob: b=t 2 5/8:
+[single] cob:s bevonden, te accordeeren dog slegter van
+[single] deugt.
+[single] En alhoewel gedagte Lijwaten waar van eenige
+[single] mindere van draaden, en alle slegter van deugt
+[single] bevonden zijn, soo souden men deselve onder Corea„
+[single] „tie van wijser gevoelen alhier nog wel met een
+[single] avance van 20 prC=to konnen afsetten, en waar
+[single] van men een proef soude kunnen nemen
+[single] bij publicque vendutie indien het vE: E: agtb: mag
+[single] behagen van ider een Corgie te ontbieden. —
+[single] Waar meede verhoopende voldaan te hebben aan uE: E:
+[single] agtb: veel g'eerde intentie blijven met diep
+[single] /ontsag /:onderstond:/ E: E: agtb: wel gebiedende
+[single] heer VE: E: agtb: onderdanige en gehoorsaame
+[single] dienaaren /:was getekend:/ C: stevens,
+[single] N: bowijn, en L„: trogh /:in margine:/
+[single] Cochim den 21: Maart anno 1746. —
+[single] Soo wierd goed gevonden en verstaan, schoon geno„
+[single] „men eenige derselver minder van draaden en alle
+[single] slegter van deugt bevonden zijn, van ider soort
+[single] een
+== NL-HaNA_1.04.02_9039_0055 | #55 | sides: single | lines: 27
+[single] 45
+[single] Van Mallabaar den 22=e' october 1746.
+[single] een korgie te ontbieden, en een proeff neemen, of men
+[single] deselve met advans alhier van de hand kan setten,
+[single] 't zij aan de kooplieden, dan wel op publicque vendutie,
+[single] soo niet, alle deselve na d' ordre na batavia te sen„
+[single] „den, zynde ten dien fine een brief aan den tolk tot ten„
+[single] „gapatnam in gereethijd gebragt, opgelesen, en verstaan
+[single] den selven te laten afgaan.
+[single] Volgens een gerecolleerde, en b'eedigde verklaaring van
+[single] twee Ex presse gecommitteerdens die tot cannanoor sub
+[single] dato 8: februarij pass:o present sijn geweest, bij het ope„
+[single] „nen van een sockel foelij ofte macis, waar bij te kort
+[single] bevonden zijn een en dertig lb: mitsgaders 34 ½ aan
+[single] stoff en gruijs, soo is verstaan het te kort komende
+[single] af te laten schrijven, en met het andere naar
+[single] usantie te handelen, luijdende voorschreven ver kla„
+[single] „ring aldus. —
+[single] Heeden den 8 februarij ao. 1746.
+[single] Comparaerde voor mij Jan van ruijsenburg adsistent
+[single] en gesw: priba onder het gesag van het opperhoofd
+[single] den ondercoopman D: E: Godefridus Weyerman
+[single] present de naargenoemde gecommitteerdens den
+[single] Chirurgijn francois poolvlied, en constabelsmaat
+[single] gijsbert Jansz: beijde te deser fortresse bescheijden
+[single] ddewelke verklaarden waar en waragtig te weesen,
+[single] hoe zij
+== NL-HaNA_1.04.02_9039_0056 | #56 | sides: single | lines: 36
+[single] Van Mallabaar den 22=en october 1746.
+[single] hoe zij comparanten op den 4. Courant ter ordre
+[single] van bovengem: opperhoofd zijn gecommitteerd ge„
+[single] worden, omme ten haaren vver staan door den boek„
+[single] „houder en pakhuijsmeester Willem Lucasz: te
+[single] sien openen een sockel foelij ofte macis den 2:' 9ber:
+[single] Jongstleeden per de bood swijndregt van cochim
+[single] alhier aangebragt onder N=o 234: en dit Comptoire
+[single] met het netto gewigt van 154 lb aangerekend wel„
+[single] „ke sockel sij Comparanten wel geconditiooneerd,
+[single] en bij het openen en naar weegen bevonden
+[single] hebben in te houden als volgt
+[single] 88½: lb goede en leverbaare folijs
+[single] 34½ „ stoff en gruijs
+[single] 123 „ te samen ove subx
+[single] 31: „ te kort om uijt te maaken, het getal van
+[single] 154: „ als boven
+[single] N„o„ 234
+[single] hier inne ten overstaan van gecommitteerdens
+[single] gewoogen, ende met besprenging van twee kannen
+[single] zeewaater afgetrapt
+[single] 161: lb raap foelij tweede soort banda nass=m u dij 15: 9ber:
+[single] getekent 1746 /:geteekend:/ P: A: bernard /:in/ mar„
+[single] gine:/ ons present getekend F: visschers, en
+[single] G=m guijlliams
+[single] Eijndigende de Comparanten hier meede haare
+[single] verklaaring die zij betuijgen de zuyvere opregte
+[single] waarheijd te gehelben gevende voor reeden
+[single] van wettenschap als in den text, over zulx berijd
+[single] blyvende des nood het selve nader met
+[single] „Erde gestand te doen.
+[single] Aldus gedaan en gepasseert ter vesting Canna„
+[single] „noop ten dage, Jndland, en Jaare voorsz: in
+[single] presentie van Samsom Voogt, en manuel de„
+[single] Zouza als getuijgen in desen /:was getekend:/
+[single] francois
+== NL-HaNA_1.04.02_9039_0057 | #57 | sides: single | lines: 25
+[single] 47
+[single] Van Mallabaar den 3 2=n october 1746.
+[single] Francois Poolvlied, en een cruijsje daar omme
+[single] gesch: dit is bij gijsbert Jansz / self gesteld /: in
+[single] margine:/ als getuijgens /:was getekend:/
+[single] I= Voogt en M=r de Zousa /: lager mij pre„
+[single] „sent: /: /getekend:/ Jan van ruijsenburg gesw: sc=r
+[single] Compareerde voor mij de naargenoemde gecommit„
+[single] „teerden's leden in desen de comparanten in vooren„
+[single] „enstaande hunne gegevene verklaring gem:, welke
+[single] haar nu wederom in 't bijweesen van het opper„
+[single] „hoofd deser vesting D: E: godefridus Weijerman
+[single] van woorden tot woorden wel en duijdelijk voorge„
+[single] „lesen en te verstaan gegeven zijnde, bleven daar, bij ten
+[single] volle persisteeren sonder eenig verandering te begee„
+[single] „ren
+[single] Wyders hebben de comparanten alle het voorenstaande
+[single] naden met solemneele eeden bekragtigt, door het op„
+[single] „steken der twee voorste vingers van hunne regter„
+[single] „hand, en het uijtspreken deser, woorden Jder, in het
+[single] bysonden soo waarlijk help't mij God
+[single] almagtig
+[single] Aldus gedaan gerecolleert, gepersisteert mitsga„
+[single] „ders met solemneele Eede bevestigt binnen
+[single] de
+== NL-HaNA_1.04.02_9039_0058 | #58 | sides: single | lines: 23
+[single] Van Mallabaar den 22. october 1746.
+[single] de vesting Cannanoor op den 18 maart anno. 1746.
+[single] in presentie van den vaandrigh D: E: abraham
+[single] frans boudewijn en sergeant philippus van der kruijs„
+[single] „sen als gecomitteerdens in desen /:was getekend:/
+[single] francois poolvlied, en een cruijsje daar omme gesz:
+[single] dit is bij gijsbert Jansz: self gesteld /:in margine:/
+[single] als gecommitteerdens /:was getekend:/ H: F: boudouin
+[single] en P: v: D: ruijssen /:Lager:/ mij present /:getekend/
+[single] Jan van ruijsenburg gesn: sc:a.
+[single] Eijndelijk geresumeert zijnde een schriftelijk rapport
+[single] door de gecommitteerde politique Leeden den koop„
+[single] „man en fiscaal nicolaas bowijn, en onderkoopman
+[single] en winkelier geijsbert Jan seijth toucheerende den
+[single] staat der diaconij middelen alhier op gisteren aan
+[single] den commandeur overgegeven verselt van een kort
+[single] vertoog door broederen diaconen sub dato ulto december
+[single] pass=o ondertekend waar bij komt te blyken dat
+[single] de inkomsten der armen bij het sluijten der boe„
+[single] ^ en prevenues
+[single] „ken minder bedragen hebben rd=s 592 17/4 soo is
+[single] verstaan voorsz: rapport bij desen en het voorm: kort
+[single] verloog
+== NL-HaNA_1.04.02_9039_0059 | #59 | sides: single | lines: 35
+[single] Van Mallabaar den 22=' october: 1746.
+[single] verzoog bij het stads dagregister te doen insereeren
+[single] luijdende voormd: rapport aldus.
+[single] Aan den E E agtb: haer
+[single] reijnicus siersma comman„
+[single] „deur en oppergebieder der cuss„
+[single] „te mallabaar Canara en win„
+[single] „gurla.
+[single] E:E: Agtb: welgebiedende heer. —
+[single] De ondergetekende gecommitteerdens in naarko„
+[single] „minge van vE: E: agtb: g'eerde ordre haar op heeden
+[single] binnen de neederduijtse kerk alhier vervoegt, en al„
+[single] „daar door de diacoonen deser steede in het openbaar
+[single] hebbende sien doen behoorlyke reek: god van haare
+[single] administratie geduurende het gepasseerde Jaar
+[single] 1745 soo is naar Confrontatie desselver boekjes
+[single] tegens de maandelijxe reek: en ordonnantie be„
+[single] „vonden dat het capitaal der armen onder ult=o
+[single] december 1744: groot is geweest als volgt.
+[single] bij de E: Comp: staat tegens 4½ p:r C=t sjaars de depo„
+[single] „ sitpa. . . . . . . . . . . . . . . . . . . . . . . rd„s 14500:
+[single] onder den Cassier gerrit van Thiel. . „. . . . . . d=o 434 1/32:
+[single] te saamen rd„s 14934 1/32
+[single] d: inkomsten in 2/m: gerekend van p=lo Jann:
+[single] tot ulto: xber: 174/ wegens verscheijden Legaten
+[single] „t gecollecteerde in voorm: kerk intrest pen: - rds 106 1/32
+[single] waar en tegen in voorm tijd soo tot onderhoud
+[single] der buijten en binnen armen van 't waes„
+[single] ..d„o 1659 14/16
+[single] huijs weeder is uytgegeven..
+[single] - . rd„s 592 1/32
+[single] over sulx minder inkomsten..
+[single] naar aftrek van even, gem: somma maken t Capi„
+[single] tpial onder ulto xber: 1745: - - - - . . . . . . . . . . rds 4345 7/16
+[single] bestaande
+== NL-HaNA_1.04.02_9039_0060 | #60 | sides: single | lines: 30
+[single] Van Mallabaar den 22=' october 1746.
+[single] bestaande in de volgende parthijen,
+[single] 't Capitaal der armen bij de EComp=e tegens 4½ prC=t
+[single] 'sjaars ade posito staande. . . . . . . rd:s 13800:—
+[single] 't restant onder de diaconijs Cassier
+[single] gerrit van Thiel. . . . . . . . . . . . . d=o 54 3/16
+[single] Somma rd„s: 14341 17/18
+[single] Soo als vEE: agtb: het een en ander, des gelievende na„
+[single] „der sal konnen na gaan bij de staat reek: die voorm:
+[single] Diaconen bij dese occagie de eer hebben vE:E: agtb: te pre„
+[single] „senteeren waar aan wij ons in eerbied gedragende de
+[single] vryheijd neemen desen te besluijten, en met diepe
+[single] Eerbiedenisse te blijven /:onderstond :/ E: E: agtb: wel
+[single] gebiedende haer uE: E: agtb: onderdanige en gehoor„
+[single] „saame Dienaaren /:was getekend:/ N: bowijn, en
+[single] J„n foijth:;, /:in margine:/ Cochim den 21=en maart, 1746. —
+[single] G:
+[single] Cochim dato voorschreven /:was getekend:/
+[single] R:s Siersma, C: Stevens,
+[single] 6d
+[single] N Bowijn
+[single] Bos
+[single] F
+[single] J: Seijth
+[single] G:
+[single] Johs: van
+[single] Dobresslaar, H: W: koller;
+[single] en M: H: Beijts.
+[single] Woensdag
+== NL-HaNA_1.04.02_9039_0061 | #61 | sides: single | lines: 20
+[single] Van Mallabaar den 22:' october 1746.
+[single] Woensdag den
+[single] 23: Maart ao 1746:
+[single] des smorgens ten agt
+[single] uuren alle present
+[single] In gevolge het geresolveerde bij sessie van den 20=e
+[single] deser den Commandeur en raad op den ordina„
+[single] „ris gebed saal voor den raad kamen alhier vergadert,
+[single] en den eerwaarde predikant Johannes Soherius
+[single] aldaar meede verscheenen zijnde, wierden door de
+[single] neederduijtsche schoolmeesters de gereformeerde
+[single] schoolkinderen geconduiseert en zijn vervolgens door
+[single] evengem: zijn Eerwaardes een ider na zijne Capa„
+[single] „citeijt, en Jaaren ondervraagt en g'examineert
+[single] geworden, waar meede dese bij eenkomste een eijnde ham.
+[single] Cochim dato voorsz: /:was getekend:/ R:s Siers„
+[single] „ma, e stevens, D:r Bos, N: bowijn, G: J: Ceijth:
+[single] Joh„s van Dooreslaar, H: W: koller, en 1:' H: blijts,
+[single] Woensdag
+[single] 51
+== NL-HaNA_1.04.02_9039_0062 | #62 | sides: single | lines: 23
+[single] Van Mallabaar den 22=e october 1746.
+[single] Woensdag den 23: maart
+[single] 1746, des voormiddags ten 10 uuren
+[single] alle present Exepto den ondercoop„
+[single] man en Winkelier geijsbert
+[single] Jan Feijth
+[single] Naa den gebeeden gaff zyn z aan de Leeden te kennen
+[single] dat kort na het scheijden onser bij eenkomsten, en
+[single] het Examineeren der schoolkinderen den nachoda
+[single] van het alhier ter rheede leggend schip sater
+[single] „ moorse
+[single] Islam van Achin en te huijs hoorende op
+[single] bombaij bij sijn D: gekoomen sijnde versoek gedaan
+[single] heeft, om permissie ten fine eenige zijn er
+[single] goederen uijt dat schip te sigten en aan de
+[single] wal doen bergen, tot dat dien kiel van eeni„
+[single] „ge gebroeken sul verholpen weesen, dog dat
+[single] den baar der timmerlieden betuijgt heeft,
+[single] dat die reparatie hier ter rheede onmoge„
+[single] „lijk kan gedaan, maar dien bodens na
+[single] de modderbaij gebragt moet werden, soo Leijde
+[single] zijn
+[single] 3
+== NL-HaNA_1.04.02_9039_0063 | #63 | sides: single | lines: 23
+[single] 53
+[single] Van Mallabaar den 22 october 1746.
+[single] zijn 2: in omvrage, off men dien vreemdeling permissie
+[single] sal verleenen om na de modderbaij te gaan ten
+[single] eynde aldaar verholpen te werden, 't gunt door de Leeden
+[single] g'accordeert weesende, wierd op de verdere propositie van zijn
+[single] 2: verstaan, dat er een nugtere en, bekwaam Corperaals
+[single] en twee gemeene militairen op dient bodems naar ander
+[single] risuentie sullen werden geplaast, om alle sluijke„
+[single] „rijen, en mosserijen der scheepelingen te verkinderen, ons
+[single] voor te koomen.
+[single] Cochim dato voorsz: /:was getekend:/ R:s
+[single] Siersma, C: Stevens, D:s Bos,
+[single] N: bowijn,
+[single] Johs
+[single] van Dooreslaar, H: W: Koller, en
+[single] M: H: Beijts. —
+[single] Donderdag den 24:'
+[single] Maart anno 1746: alle
+[single] present
+[single] Den Engelsen commandant, en raat tot tallicherij
+[single] een
+== NL-HaNA_1.04.02_9039_0064 | #64 | sides: single | lines: 24
+[single] Van Mallabaar den 22:' october 1746.
+[single] een brieff aan den Commandeur en raad geschreven
+[single] hebbende, gedagtekend so deser O: S: waar by deselve
+[single] klagtig vallen oer den Cannanoorse bazaar voogt adij
+[single] ragia, en desselfs gepleegde vyandelykheeden, met versoek
+[single] om assistentie &:a gelijk het translaat in raden
+[single] opgelesen sijnde dicteert aldus luijdende
+[single] Aan den honorablen
+[single] Reijnicus Siersma comman„
+[single] „deur van de neederlandse
+[single] Comp en den raad tot Cochim
+[single] Honorable heer en heeren en vel geagte vrunden
+[single] VE is reeds te verstaan gegeven door onse laastopperhoofd en
+[single] raad 't gund wij te vorderen hebben op adi ragia aan„
+[single] „gaande onse honorable Comp: die hij een groote
+[single] somme geld schuldig is, en gelijk de hoofden van
+[single] het geslagt beloofden deselven af te maaken
+[single] hooften wij aan haar kant reeds lang geleden
+[single] een voldoening gevonden te hebben maar in steede
+[single] van hunne regtvaardige schulden betalen, han„
+[single] desen zij ons met de uijterste onwaardigheijd, onse
+[single] sorten Moddacarra Mattamij, en durmapattam
+[single] attacqueerende branden alles tot aga en daar
+[single] rovende,
+== NL-HaNA_1.04.02_9039_0065 | #65 | sides: single | lines: 39
+[single] 55
+[single] Van Mallabaar den 22=en october 1746.
+[single] rovende, op een onmenschelijke wijs dootslaande, en
+[single] quetsende een groot getal mannen, vrouwen, en kin„
+[single] „deren, die ten eenemaals ongewapend en weerloos waaren
+[single] sy hebben Jnsgelijk verscheijde van onse mansjouws
+[single] geroofd en gepliendert, en waaren nog al voort tegen
+[single] onse honorable Comp: den oorlog te voeren; en gelijk wij
+[single] verstaan hebben zij verscheyjde maalen uw bediendens tot
+[single] tot Cannanoor g'insulteerd en soo insolent geweest
+[single] als van VE: d: Comp:s fort aldaar attacqueerende
+[single] strijdende tegen reeden en regtvaardigheijd en in
+[single] verragting van alle Europianen,
+[single] Wij verlangen te weeten, off uE genegen zijf desselfs magt bij
+[single] de onse te voegen ten eijnde sattis factie te obtineeren
+[single] van onse afgemeenen vijand adi ragia en hem
+[single] verpligten reparatie te doen van alle Jn Juzien dien
+[single] hij bij de onse Ddele maatschappije aangedaan heeft,
+[single] Jn geval vEd: met ons inconjunctie niet wil ageeren,
+[single] is ons versoek vEd: gelieven directie te geeven, dat
+[single] onse magten van een rever Corten niet wierden ge„
+[single] „molesteerd, maar dat desselve door een VEd: be„
+[single] „diendens tot Cannanoor op een vrundelijke
+[single] manier mogen g'assisteert werden, die tassen onse
+[single] beijde natien in Europa stand grijpt, en met de goe„
+[single] „de Wille, die wij den een tegens den anderen hier
+[single] in Jndia hebben;
+[single] Jndien VEd: het sullen goedvinden omtrent, dit sub„
+[single] „ject tot teen besluijt te treeden versoeken wij vEd:
+[single] de nodige ordres sonder manquement aan vEd:
+[single] bediendens tot Cannanoor te willen senden, op
+[single] soo een beslooten en particuliere wijse „ dat geene
+[single] misverstanden of verschuyvingen mogen voor„
+[single] „vallen, en daar door de Exsecutie onser Coffelijke
+[single] voorneemingen in geenen deel mogen te Laur
+[single] gesteld werden, VEd gelieven ons daar van soo spoe„
+[single] „dig te berigten als het mogelyk zij wy hebbende
+[single] Eere van t zijn /:onderstond:/ honorable Heer
+[single] en
+== NL-HaNA_1.04.02_9039_0066 | #66 | sides: single | lines: 24
+[single] Van Mallabaar den 22:en october 1746:
+[single] en Heeren &=a VEd: onderdanigste en gehoor„
+[single] „saamste Dienaaren /:was getekend:/ George dudlij„
+[single] W=m Jeijnson, Nic: Moneschied, alex ander
+[single] „Dougbas„ John Robinson /:in margine:/ sal„
+[single] ligherij den 10:' maart 174 5/6: /:Lager:/ diesdanig
+[single] uijt 't Engels in 't hollands getranslateerd door
+[single] mij /:getekend:/ A: V: Vechten;
+[single] Soo betuijgde den Commandeur verwondert te staan
+[single] over de stoute onderneemingen der Cannanoorse mooren,
+[single] en van haaren hoofd man, en stelde voor onder„
+[single] dat den selven mogelijk door den een, ofte ander„
+[single] g'encourageert, en aangemoedigt word, aangezien
+[single] sijn E: ter zijden verstaan heeft, dat den sendeling
+[single] van den nabab, of generalissimus van den grooten
+[single] mogol sig soude g'uijt hebben, brieven na de noord
+[single] van hier gesonden, en haar aangeschreven te
+[single] hebben, dat voortaan alles moest een wesen, dog
+[single] dat des niettegenstaande wij geen reeden hebben,
+[single] de engelse tegens adij, ragia, veel min desen
+[single] quaadaardigen Jongeling tegens de engelse,
+[single] bij te staan den welken door sijne inperti„
+[single] „nentie Conduite veel eerder een swaare straffe
+[single] verdient
+== NL-HaNA_1.04.02_9039_0067 | #67 | sides: single | lines: 23
+[single] Van Mallabaar den 22=en october 1746.
+[single] verdient heeft, daar aan de andere kant nog in
+[single] vers geheugen is, wat plaatse d' engelse in den laas„
+[single] „sen trefancoorsen oorlog, en bevoorens toen wij met
+[single] den sammorijn zyn gebrooken geweest, d' EComp:
+[single] gespeelt hebben, tot een slegte vergelding der
+[single] goede diensten die men haar in den Jaaren
+[single] 1736 op haare lamentable brieven, en klagten
+[single] tegens de Cannareesen beweesen heeft, waar bij nog
+[single] komt, dat zij lieden inmers tot dies verre al de
+[single] producten om de noord hebben getrokken, en ons
+[single] het selve met goede oogen laaten aansien, Ja wat
+[single] nog meer is, nog dagelijx onse deserteurs in haa„
+[single] „ken dienst aanneemen, en uijt onse guarnisoe„
+[single] „nen na derwaards locken, en om alle welke
+[single] reeden zijn D: betuijgden van Concept te wesen„
+[single] dat men haar ook tegenwoordig op eygen wieken,
+[single] moet laten drijven, en geensints gedoogen, dat
+[single] zij onder ons geschut, dan wel binnen de baaij zat
+[single] Cannanoor met gewapende volkeren mogen koo„
+[single] „men, om adij ragia quaad te doen, ten waare
+[single] zij
+[single] 57
+== NL-HaNA_1.04.02_9039_0068 | #68 | sides: single | lines: 23
+[single] Van Mallabaar den 22=en october 1746.
+[single] zij over de landkant wilde koomen aan d' oerkant
+[single] der bazaan, en buiten 't berijk van onse kogels,
+[single] ot gunt ons onverschillend moet zijn.
+[single] Waar over met aandagt gebesoigneerd zijnde wierd
+[single] met unnanime goed gevonden en verstaan,
+[single] aan den cormandant, en raad tot Tallicherij
+[single] in andwoord te laaten schrijven, dat wij de moe„
+[single] „Jelijkheeden seer ongaarne hebben gesien, die
+[single] haar door adij ragia werden aangedaan, dog dat
+[single] wij te gelijk rondborstig verklaaren, dat wij derselver
+[single] versoek, om onse troupen met de haaren tegens
+[single] de moor te vereenigen voor als nog niet kunnen
+[single] toestaan, om reeden wij ordre van Batavia
+[single] verwagten op wat wijse wij van hem fatis factie
+[single] sullen neemen omtrent zijn wan gedrag
+[single] tegens de hollandse maatschappije, wijders,
+[single] dat wij geensints sullen toestaan dat er vijande„
+[single] lijkheeden onder ons geschut gepleegt werden,
+[single] om dat het gemeene volker regt sulx absoluijt
+[single] verbied, en wij ook niet kunnen begrapen, om
+[single] Wat
+[single] e
+== NL-HaNA_1.04.02_9039_0069 | #69 | sides: single | lines: 24
+[single] Van Mallabaar den 22 october 1746.
+[single] Wat reeden wij t selve bij des occagie soude toestaan,
+[single] aangesien de heeren Engelson diergelijke douceur, op
+[single] dese custe aan ons niet verdient hebben, waar van
+[single] de traversen de waarheijd kunnen getuijgen, die
+[single] haar Edele in den Laasten trevançoorsen oorlog,
+[single] en in veele andere geleegentheeden ons hebben
+[single] aangedaan, in steeden van tegens een hijdens
+[single] koping ons te assisteeren, Ja wat nog meer is,
+[single] en met de rinie gants niet ov een komt
+[single] van bondgenooten, en vrunden, nog dagelijx
+[single] onse deserteurs aanhouden, en derwaards soeken,
+[single] daar wij haar geen de minste reeden van mis„
+[single] „noegen geven, en dat wij uijt dien hoofden, be„
+[single] treffende 't laaste poinct, nopens het in
+[single] dienst aanneemen onser deserteurs uijt naame„
+[single] ende van wegen onse hooge gebieders d' g'ac„
+[single] „trojeerde neederlandse Comp: van dese Jndien
+[single] tegens haar wel Exppresselijk protesteeren, om
+[single] dat wij door dese haare behandelinge veel na„
+[single] „deel Lijden. —
+[single] ook
+[single] 59
+[single] 9
+== NL-HaNA_1.04.02_9039_0070 | #70 | sides: single | lines: 23
+[single] Van Mallabaar den 22 october 1746.
+[single] Ook is verstaan de Cannanoorse bediendens, van dit
+[single] alles kennisse te geeven, en gelasten, dat zij van
+[single] den een nog ander onder het berijk van hun
+[single] Canon de minste hostiliteijten tollereeren
+[single] en sulx geschiedende, daar tegen Voor eerst
+[single] protesteeren en soo dat niet helpen Wil„
+[single] daar op los branden sullen.
+[single] Dierhalven nog al verder verstaan is, het guarnisoen
+[single] aldaar met een sergeant, en twaalf Europeesen
+[single] militairen, mitsgaders een Constabel en twe
+[single] bosschieters te renforceeren tot tijd en wijse
+[single] dat dese trouble aldaar omme gaan, en de
+[single] oneenigheeden sullen duuren, alsoo men niet
+[single] weeten kan wat de mallabaarse vorsten on„
+[single] „der malkanderen brouwen, en of adij ragia
+[single] niet meede steunt op de gedugte magt, van
+[single] den koning van trevankoor, welke vorst bij
+[single] ola tegens den Commandeur zig reets gedeclareert
+[single] heeft, Calicoilan van het sints is te attac„
+[single] „queeren.
+[single] Den
+[single] ƒ
+== NL-HaNA_1.04.02_9039_0071 | #71 | sides: single | lines: 22
+[single] Van Mallabaar den 22:' october 1746.
+[single] Den Coopman en Coilons opperhoofd nicolaas
+[single] keysog by synen brieff van den 23: deser heeden
+[single] alhier aangebragt, andwoordende op het geen e no„
+[single] pens de Lang tardance ter rheede aldaar van
+[single] het schip de keetel bij onse hieren van den 20 en
+[single] 22: bevoorens hem gecommandeert, en aan ge„
+[single] „schreven is, soo klaagde sijn D: opr de impertie„
+[single] „nentoe maniere van schrijven van dat oppen„
+[single] „hoofd, waar meede den selve wel schijnt de
+[single] schult op zijn E: te willen werpen, als off hij
+[single] quasi niet gewesen had, dat voorm: aldaar
+[single] soude koomen peper laaden, en daarom de
+[single] nodige pinaquets niet bij tyjds besorgt had,
+[single] daar hij egter alhier nog present is geweest,
+[single] en de politicque besluijten ten dien siene
+[single] genoomen bij gewoont, Ja selfs bij verscheijde
+[single] particuliere discoursen sulx heeft gehoort, ook
+[single] behalven dit alles het schip de keetel door den
+[single] Commandeur hem tot zyn transport na Coilon
+[single] aangebooden geworden, en reets na zijn vertrek
+[single] bij onsen
+== NL-HaNA_1.04.02_9039_0072 | #72 | sides: single | lines: 22
+[single] Van Mallabaar den 22 october 1746.
+[single] bij onsen brieff van ultimo februarij van de kom„
+[single] ste van dien kiel geproadverteert geworden is,
+[single] verklaarende sijn D: niet langer geneegen, dier„
+[single] „gelijke insolentien van de geene te verdragen
+[single] die onder zijn D=s gouverno: gesteld zijn, en dat zyn
+[single] 2: dierhalven aan Haar Hoog Edelheedens
+[single] zijn regtmatig beklag sal doen over gem: opper„
+[single] „hoofd keyser, alle de leeden afvragende,
+[single] off zij getuijgen zijn dan niet, dat het opper„
+[single] „hoofd notoire kennisse gehad heeft, dat
+[single] het schip de keetel tot Coilan soo veel peper
+[single] nog moest inneemen tot dat hij volladen
+[single] was, dan wel 't geene daar in voorraad was,
+[single] en in dien bodem konde geborgen worde,
+[single] Waar op den Raad van Ja verklaarende soo
+[single] is verstaan hier van aanteijkening te houden,
+[single] gelijk thans geschied. —
+[single] Bij dese gelegentheijd nog gediscoureert zijnde over
+[single] den vooraad van provisien en daar onder
+[single] den rijst tot Coilan, soo is goed gevonden
+[single] en verstaan
+== NL-HaNA_1.04.02_9039_0073 | #73 | sides: single | lines: 23
+[single] 63
+[single] Van Mallabaar den 22:' october 1746.
+[single] en verstaan, om nog een bood met rijst na derwaardes
+[single] te sinden ter quantiteijt van vijf en twintig
+[single] lasten, omme te dienen in tijd van nood
+[single] soo wel voor de onderdaanen van den koning
+[single] van signattij, als de familjes van sComp„s Diena„
+[single] „ren aldaar, zijnde buijten dien ons guarni„
+[single] „soen voor een geheel Jaar van die potspijse
+[single] geproviandeert, of het saake was, dat den
+[single] koning van Trevancoor de Linsje kwam attae=
+[single] „queeren, waar aan men weynig behoeft
+[single] te twijffelen.
+[single] en welken opsigte zijn 2: den raad ouxtuure gaff„
+[single] dat niet tegenstaande voorsz: trevanc oorse vorst
+[single] scomp„s wegen vrundelijk en Ernstelijk onder
+[single] aanbieding van haar Edelens mediatie versogt ge„
+[single] worden is, om van den oorlog met Calicoi„
+[single] „lan of signattij af te sien, egter sulx
+[single] alles niet kan helpen, maar dien
+[single] hoogmoedigen vorst sulx sinaal geweygert
+[single] heeft, vragende, of den raad konde goed
+[single] vinden
+== NL-HaNA_1.04.02_9039_0074 | #74 | sides: single | lines: 22
+[single] Van Mallabaar Den 22=e October 1746.
+[single] goedvinden, dat men hem een protest toe„
+[single] sond, dan wel dat men sComp„s mediatie
+[single] dien vorst, alhoewel superssie, en van
+[single] weijnig verwagting zijnde, nogmaals aanbie„
+[single] en vermaande van den oorlog af te sien,
+[single] en Calicoilan als een oude bond genoot
+[single] onser maatschappije ongemolesteerd te
+[single] laaten, waar op geresolveerd wierd het laaste
+[single] te laaten geschieden, als nu niets anders
+[single] in het werk stellende om dat wij genoegsame
+[single] ondervindinge hebben, dat de protesten ijn
+[single] dien ragia van weynig vrugt sijn en bij ons
+[single] nog in versch geheugen is, dat het pro„
+[single] „test bevoorens ten belange van de vier
+[single] Cowils en Teckencoer gedaan door dien
+[single] Vorst ver worpen is
+[single] Egter is te gelijk verstaan het opperhoofd
+[single] keijser te gelasten, om soo als de ordres
+[single] leggen, dien hoogmoedigen waaghals niet
+[single] te laaten koomen, onder het berijk van
+[single] Coilans
+== NL-HaNA_1.04.02_9039_0075 | #75 | sides: single | lines: 37
+[single] 65
+[single] Van Mallabaar den 22 October 1746.
+[single] coilans Canon, maar bij aannadering sijner krijgs„
+[single] „magt, voor eerst met de pen, en siende dat hij eg„
+[single] „ter wil doordringen met het geschiet, en kogels tegens
+[single] denselve te protesteeren. —
+[single] Den gesant van den nabab generalissimus van den groo„
+[single] „ten mogol, binnen kort met syn gevolg afscheijd,
+[single] sullende krijgen, soo is verstaan hem een brieff aan
+[single] synen meester temtraqueeren, en de J=o geprojec„
+[single] „deerde smalle schenkage, gereguleert naa voorige
+[single] Exempelen, aan den selven bij die gelegentheijd af
+[single] te geeven.
+[single] Nog is beslooten twaalf Leedige leggers naa Cannanoor te
+[single] senden tot het bergen van het nodige drinkwater van
+[single] het quanisoen aldaar, in cas van nood, off verleegent„
+[single] „heijd, soo meede alsoo dito fortresse van alles wel
+[single] voorsien is van daar na herwaards te ontbieden
+[single] vyff vaten hollands spek, en soo veel dito vlees
+[single] waten, benevens alle de oude Carvaat vissen,
+[single] in welkels laast gem: plaatse 5000 stxx nieuwe
+[single] naa derwaards sullen gesonden werden.
+[single] Nog wierd op de propositie van sijn E: gedecreteerd de Chialoup
+[single] marie Laurentia naa Cannanoor aan te seggen,
+[single] ten afhaal van een parthij der gecontracteerde
+[single] rijst, en om het geld tot voldoeninge dier graane
+[single] en wat nog al meer derwaards gesonden
+[single] moet werden, over te brengent
+[single] Eijndelijk, ende soo als de vergaadering Wilde scheijde,
+[single] wierd een pacquet binnen gebragt met Ceijlonse
+[single] papieren, door den gesaghebber van even gemel„
+[single] „te Chialoup maria Laurentia tot Coilan be„
+[single] „stelt en over den ordinaire landweg alhier aan„
+[single] gebragt, dat geopent wesende bevonden wierd
+[single] te zijn
+== NL-HaNA_1.04.02_9039_0076 | #76 | sides: single | lines: 22
+[single] Van Mallabaar den 22=en october 1746.
+[single] te zijn een missieven door den politiquen raad
+[single] raad tot colombo, in absentie van den Edelen
+[single] heer raad Extraordinair en Ceijlons gouverneur
+[single] Julius valenthijn steijn van golonesse onder
+[single] dato 17:' deser naa herwaards geschreven; ten
+[single] geleijde van twee gesloote pacquetten aan de
+[single] ministers tot souratta, en persia gerigt, benevens
+[single] nog eenige bijsagen, welke brieff in raade opgese„
+[single] „sen sijnde wierd desselfs teneur voor communi„
+[single] „catie aangenoomen.
+[single] Cochim dato voorsz: /:was getekend:/
+[single] R:s Siersma, C: Stevens, D: Bos,
+[single] N: Bowijn, G: J: Feijth Joh=s van
+[single] Dooreslaar, H: W: Koller, en M:
+[single] H: Beijts. —
+[single] Vrijdag den Eersten April
+[single] anno 1746. alle present. —
+[single] Het Concept van een ola in andwoord aan den koning
+[single] van trevancoor gerigt, nopens zijn hoogheijts
+[single] Declaratoir om den Ragia van Calicoilan de novo
+[single] Den
+== NL-HaNA_1.04.02_9039_0077 | #77 | sides: single | lines: 22
+[single] Van Mallabaar den 22 october 1746.
+[single] Den oorlog te sullen aandoen, door zijn E:
+[single] in gereetheijd gebragt, en met het openen
+[single] deser vergaderinge opgelesen sijnde, soo wierd
+[single] dies inhoude conform bevonden met ons
+[single] genoomen raads slot van den 24 der even ge„
+[single] „passeerde maand en voorts voor Commu„
+[single] „nicatie gehouden.
+[single] Waar naa den Commandeur aan den raad ouver„
+[single] „tuure gaff van twee andere olas door den Tre„
+[single] „vancoorsen staat minister lotsjoe moessadoe
+[single] aan syn D:, en den komp=s Joods koopman
+[single] Ezechiel rabbij, gesz: in beijde den 28 pass=o
+[single] ahier gerespieert raakende seeker Trevan„
+[single] „coors onderdaan Cotjoe pallij, den welke
+[single] van calicoet met een vaartuijg hier aan
+[single] gegiert wesende, in het selve sluijk bevonden
+[single] is, voor welken man, dien ragia door uijt
+[single] last van zijn meester den koning Largatie
+[single] versoekt, verklaarende hem onschuldig, en als
+[single] een passagier onweetende te zijn geweest,
+[single] dat er
+== NL-HaNA_1.04.02_9039_0078 | #78 | sides: single | lines: 23
+[single] Van Mallabaar den 22 october 1746.
+[single] dat er peper in het vaartuijg was.
+[single] Waar naa zijn 3: de Leeden Elucideerende verhaal
+[single] deed, hoe dit vaartuijg met een valsche pas
+[single] en voornoemde morshandel alhier g'at„
+[single] „trapeert, en nevens drie persoonen in
+[single] arrest genoomen is, te weeten, twee trevan„
+[single] „coorse onderdanen, en een christen tot
+[single] porca thuijs hoorende het regte sluijk nest
+[single] van dese morshandelaars en dat het on„
+[single] „dersoek deser saake aan den fiscaal door
+[single] zijn E: gedemandeert geworden zijnde, thans
+[single] niet anders te doen valt, als voor eerst
+[single] dien hoveling aan te schrijven, dat men
+[single] voorm. moor pally thans nog niet kan,
+[single] alsoo hij op sluijkerije bevonden, ende zulx
+[single] bij de E: Comp: een Capitaale saak is dat
+[single] wij egter ons uijterste best sullen doen om
+[single] die naa hunne taan in der tijd te Lar„
+[single] „geeren waar meede de leeden haar hebben
+[single] geconformeert, gelijker wijs op den verdere
+[single] Voorstel
+[single] „
+== NL-HaNA_1.04.02_9039_0079 | #79 | sides: single | lines: 24
+[single] 6:9
+[single] Van Mallabaar den 2 october 1746. —
+[single] voorstel van den Commandeur verstaan is, een
+[single] besluijt hier over te sullen neemen, soo draa
+[single] de saak haar beslag sal hebben ersangt,
+[single] En wierd vervolgens opgelesen een ola door den
+[single] koning sammorijn aan den Commandeur
+[single] geschreeven, en den 27: der verleede maand
+[single] alhier aangebragt, waar bij sijn hoogheijd
+[single] adviseerde, dat het hoofd van pallicattacherij
+[single] tarrawasjoer Tecken naajen genaamt,
+[single] den maisoersen vorst om assistentie versogt,
+[single] en 2000: voet knegten, met 600 ruijters in
+[single] het land gebragt heeft dewelke tegens
+[single] de onderdaanen van sijn sammorijnse
+[single] maliabaarse
+[single] hoogheijd, en andere semhelijdese vorste
+[single] veele onhebbelijkheeden gepleegt hebben„
+[single] „de sijn hoogheijd eenige ragiadoors met
+[single] een parthij gewaapende nairos derwaards
+[single] gesonden heeft, en dat er sedert verscheijde
+[single] attacques, en schermutsels waaren voorge„
+[single] vallen, en de intentie van massoeram Leijd,
+[single] om
+== NL-HaNA_1.04.02_9039_0080 | #80 | sides: single | lines: 22
+[single] Van Mallabaar den 22=' october 1746.
+[single] om geheel palicattecherij 't onder te bren„
+[single] „gen, waar tegen alle mallabaarse vorsten
+[single] gehouden waaren, sig aan te kanten, en
+[single] haar best te doen, om hem te rug te
+[single] Jagen, en wel voornaamentlijk, martingel
+[single] Cowil /:dat is den Cochimsen koning :/ om
+[single] dat eenigen landen van hem meede
+[single] aldaar gelegen zijn, die zijn gevolglijk moest
+[single] soeken te behouden, versoekende sammorijnse
+[single] hoogheijd ten dien fine dat de 2: Compten
+[single] desen opsigten wilde gelieven alles in in
+[single] het werkstestellen, wat sot nut konde
+[single] strekken van 't sammorijnse rijk, mitsgaders
+[single] om een spoedig andwoord, versoekerende den Com„
+[single] „mandeur van zijne vrundschap tegens de
+[single] maatschappije, en derselver kontuinuatie &:a
+[single] gewaagde old gelesen, en verstaan sijnde, beklaag„
+[single] „den de Commandeur den reddeloosen, en
+[single] seer verwarden staat waar in geheel malla=
+[single] baar soo om de noord, als zuijd, zig thans
+[single] bevind
+== NL-HaNA_1.04.02_9039_0081 | #81 | sides: single | lines: 22
+[single] Van Mallabaar den 2 october 1746.
+[single] bevind, soo dat men selfs niet meer weet
+[single] hoedanig de saaken met geleegen seggen,
+[single] of wat de vorsten met malkanderen fonke„
+[single] „len, waar door wij ons thans in geen gerin„
+[single] „ge verleegentheijd gedompelt zijn, te meer
+[single] den obstinaten trevancoorder met zijne Wa„
+[single] „pen en sekerlijk binnen kort geheel calicoi„
+[single] „lan bebeeken, en dat geschiet sijnde, God weet„
+[single] werwaards zijn seegen vervolgen, en tragten
+[single] sal, zig monarch en alleen heerscher, was
+[single] „t mogelijk, van geheel mallabaar, te
+[single] maaken.—
+[single] dat sijn E: alle deese, en andere swaarigheeden
+[single] meer aandagtelijk op pijnst hebbende, goed
+[single] gevonden, en hoogst noodsaakelijk g'oordeelt
+[single] heeft, den koning van Cochim gelijk is
+[single] geschied, andermaal te gaan ontmoe„
+[single] „ten, en dat zijn E: dien vorst in het
+[single] breede heeft voorgesteld, den hackelyken,
+[single] en ten uijtersten sorgelijken tijd en bekla„
+[single] „gelijken
+== NL-HaNA_1.04.02_9039_0082 | #82 | sides: single | lines: 23
+[single] Mallabaar den 22 october 1746.
+[single] Van
+[single] beklagelijken toestand van saaken, onder verma„
+[single] „ninge, dat dog sijn hoogheijd geliefde uijt de oogen
+[single] te zijn, en als nog tijd zijnde, spoedige mid„
+[single] „delen beraamen, tegens het oogenschijnlijk
+[single] gevaar, dat het Cochimse rijk alsoo welder
+[single] drijgende, als de landen van den ongeluc„
+[single] „kigen Calicoilansen ragia sukx reets tot
+[single] haarer ruijmen moeten ondergaan, dat
+[single] zijn Cochemse hoogheijd dierhalven noodsaake¬
+[single] „lijk de handen diende aan het werk te
+[single] slaan, om de boose haagen, en sunustre des„
+[single] „seijnen van den heersugtigen Trevancoorse
+[single] kooning te Contramineeren, terwijl het nog
+[single] de geleegentheijd toelaat, niet alleen door
+[single] het versaamelen van goede soldaaten, en de
+[single] selve bij de werke, en telkens in een Com„
+[single] „ploete staat van tegenweer te houden,
+[single] maar dat zijn hoogheijd voor naam entlijk
+[single] een Compact of Defensief alianse diende
+[single] te maaken met andere nabuurige vralla„
+[single] baarse
+== NL-HaNA_1.04.02_9039_0083 | #83 | sides: single | lines: 24
+[single] 73
+[single] Van Mallabaar den 22=' october 1746.
+[single] mallabaarse vorsten, en dat wel voornaament„
+[single] „lijk rijk met het rijk Teckenkoer, en daar on„
+[single] „der gehoorende Cowilmaars, mitsgaders met
+[single] berken koen, en andere, Ja selfs, soo het moo„
+[single] „gelijk konde zijn, met porca, ton fine het
+[single] onverdragelijken Jok van dien dwingeland te
+[single] ontvlieden, en het Cochimse rijk te herstellen
+[single] in dien ouden luijster, daar in het wel eertijds
+[single] geweest is, dat den koning op dit voorstel een
+[single] gantschen tijd lang seer verseegen sig gesteld
+[single] hebbende, egter dien raad ten langen laasten
+[single] heeft goedgekeurt, en beloofd te sullen opvolgen,
+[single] als Wanneer te gelijk bedoorigen is, dat den
+[single] kooning tot porca van dit te maakende ver„
+[single] „bond niet eerder de weet sal krijgen, dah
+[single] na dat het selve reets geslooten sal weesen,
+[single] om te sien, of men dien trevancoors gesin„
+[single] „de prins, als dan door tot andere gedagten,
+[single] en als gehoorende onder het Cochimse rijk,
+[single] aan het waggelen kan krijgen, en vervolgens
+[single] tot
+[single] „
+== NL-HaNA_1.04.02_9039_0084 | #84 | sides: single | lines: 22
+[single] Van Mallabaar den 22:' october 1746.
+[single] tot ons over haalen, en dat nu voor het overige
+[single] den tijd sal moeten openbaare, hoedanig sijn
+[single] Cochimse hoogheijd dese soo seer gewenschte„
+[single] en hoogst noodige saaken ter uijtvoeringe
+[single] sal brengen.
+[single] Voorts wat aangaat de sammorijnse historie
+[single] en de Landen van den Cochimse koning
+[single] tot palicattacherij, dat den Commandeur
+[single] met zijn hoogheijd ov een gekoomen is, om
+[single] van den sammorijn met beleeftheijd en
+[single] vertrouwde ministers van rang naa herwaards
+[single] te ontbieden, en hem bij ola verseekeren,
+[single] dat wij tot sijnen dienst ten volle geneagen
+[single] zijn, dog alvoorens van dien sendeling gaar„
+[single] „ne wilde verstaan, en met hem alhier te
+[single] raade gaan, wat tot het meeste best van
+[single] sijn hoogheijds rijk, benevens dat van Cochim
+[single] diend bij de hand genoomen te werden, wel„
+[single] „ke laaste voorstel den raad advoueerde
+[single] en vast gesteld wierd, een ola van dien
+[single] inhoude
+== NL-HaNA_1.04.02_9039_0085 | #85 | sides: single | lines: 23
+[single] Van Mallabaar den 22='n october 1746.
+[single] inhoude te laaten afgaan, terwijl het ove„
+[single] „rige tot Communicatie strikte.
+[single] Door de Coilanse bediendens den 28: Laastleeden
+[single] ons toegesonden zijnde het afschrift van
+[single] een Tengapatnamse brieff door den on„
+[single] „dertolk Dufuijth aldaar den 26: bevoorens
+[single] aan haar geschreven, soo wierd den selven
+[single] opgeleesen, en quam daar bij te blijken,
+[single] hoe den koning van Trevancoor alle sijne
+[single] 24: adigaars gecommandeert heeft, met
+[single] alle sijn troupen en volkeren van alle
+[single] Castes en natien Exceptis de poiliassen, en
+[single] pariassen /:zijnde de alderlaagste soort van
+[single] en bij de andere veragtelijk :/ na de noord
+[single] op te marcheeren, in dat er reets vier
+[single] adigaars met hunne onderhebbende volkeren
+[single] Weesentlijk op marsch waaren, en zijn hoog„
+[single] „heijts intentie soude zijn de reviere die
+[single] tot Coilan voor de signattijse Linje Legt, door
+[single] kragt, van volk met aarde te vullen, en zig
+[single] zoodanig
+[single] 75
+== NL-HaNA_1.04.02_9039_0086 | #86 | sides: single | lines: 24
+[single] Van Mallabaar den 23:' october 1746.
+[single] zoodanig den weg te baanen, om van dat
+[single] fraaij Landschapje meester te werden, door
+[single] een schielijke overrompeling, dat daar en be„
+[single] „ven in het geheijm verhaalt word, dat drie
+[single] franse scheepen, die op de hoogte van re„
+[single] „tura in zee swerven, zijn hoogheijd van de
+[single] zee kant tot secours sullen dienen, wanneer
+[single] de hollandse Comp: niet quam te gedoogen,
+[single] dat de Linje van signattij vermeestert wierd,
+[single] en tegens de 2: Comp meede argeeren en
+[single] volgens het onder haar gesloote Contract
+[single] hun best sullen doen, om soo wel het land
+[single] van signattij, als de fortresse Coilan in
+[single] handen van Laevankoor te doen Val„
+[single] ƒ
+[single] len, en soo voorts.
+[single] Dierhalven Leijde den Commandeur in omvrage
+[single] Jmand der leeden Jets Wist op te noe„
+[single] of
+[single] „men, daar meede gedagte fortresse nog
+[single] bij Tijds, ende thans opene vaart voorsien
+[single] konde werden, dat zijn E: niet beeter
+[single] weet.
+== NL-HaNA_1.04.02_9039_0087 | #87 | sides: single | lines: 22
+[single] Van Mallabaar den 22 October 1746.
+[single] wert, off wij haar alhes hebben toegesonden, wat
+[single] tot Wivzes en de noodige defensie bij voorvallen„
+[single] „de belegering bedagt kan werden, en wat de
+[single] verstarkking betreft van militairen betreft,
+[single] dat men om de elendige gesteldheijd halven
+[single] van deese geheele kuste ons niet meer
+[single] ontblooten kunnen, en onmogelijk van dese
+[single] onse swakken hoop een nader renforcement
+[single] derwaards kan gesonden werden, als niet te
+[single] raaden zijnde, wat ons hier soo wel, als op
+[single] andere plaatsen nog staat over te koomen,
+[single] ten waare, dat wij nog 100: Lascoryns, en parthij
+[single] toepassen in den dienst wilde neemen, en
+[single] voor onderstellinge dat ragia trevancoor
+[single] mogelyk niet soo schielijk als hij reets
+[single] tweemaal gedaan heeft, de Linje thans
+[single] sal verlaaten, indien hij deselve komt aan
+[single] te doen, en aan de andere kant, ook niet
+[single] voor wel gedaan soude kunnen aan gemerkt
+[single] werden, indien wij soo schielijk, en sonder
+[single] de
+== NL-HaNA_1.04.02_9039_0088 | #88 | sides: single | lines: 26
+[single] Mallabaar den 22:' october 1746.
+[single] Van
+[single] de hoogste nood in sComp:s Cassa sasten,
+[single] om die krygers te betaalen, op welke poinct
+[single] van de uijterste aangeleegenthijd rijpelijk, en
+[single] met veel aandagt gedelibireerd, en alles over„
+[single] en weer bedagt zijnde, wat maar eenigsints
+[single] lat nut konde dienen, soo is verstaan van het
+[single] senden van meerdere manschappen voor„ tag
+[single] ^ eerstnog
+[single] te sien, en buijten de 25 Lassen rijst, volgens
+[single] het besluijt van den 24 den gepasseerde maand
+[single] naa derwaards te senden 12: Leggers met
+[single] arak soo meede Lamp olij, Lammerin de
+[single] zuijker en andere benoodigtheeden, meer
+[single] mitsgaders om geen noodeloose kosten
+[single] voor den tijd te maaken, het in dienst
+[single] aannoemen van toepassen, en een meer„
+[single] der getal Lascorijns voor eerst nog wat in
+[single] te sien, tot dat wij naast, en bij kunnen
+[single] beoogen hoedanig dit smeulen d„e vuur te
+[single] s
+[single] „porto
+[single] te deeser Custe sal koomen uijt te
+[single] breeken,
+[single] het
+== NL-HaNA_1.04.02_9039_0089 | #89 | sides: single | lines: 24
+[single] 79
+[single] Van Mallabaar den 22=' october 1746.
+[single] Heet andwoord aan den generaal veldmaarschalk
+[single] van den grooten magol navolgens het ten
+[single] dien siene genoome bescluijt door den Comman„
+[single] „deur vervaardigt weesende, wierd heeden opge=
+[single] „lesen, en na behooren bevonden.
+[single] het schip het huijs te marquette Jongst Leeden
+[single] in de modderbaaij een dagelijx anker
+[single] met het meeste gedeelte van sijn swaar
+[single] touw verlooren hebbende, door een stijve
+[single] Coelte en swaare Deijnings uijt zee, soo is ver„
+[single] 6„
+[single] „staan door de scheeps officieren, een b'gedig„
+[single] „de verklaaring te laaten geeven, van dit
+[single] voor val, en een ander anker en touw, ter
+[single] requisitie van den schipper, nevens alle
+[single] soodanige benoodigtheeden meer, als den
+[single] Equipagie meester sal oordeelen dat dien
+[single] bodem hoognoodig heeft, aan den selve
+[single] te doen verstrekken
+[single] den koopman en fiscaal Nicolaas bowijn
+[single] nevens den onderkoopman en secretaris
+[single] Hendrik
+== NL-HaNA_1.04.02_9039_0090 | #90 | sides: single | lines: 24
+[single] Van Mallabaar den 22:e october 1746.
+[single] Hendrik Wendelin kolter bij sessie van
+[single] den eersten deser gelast zijnde, Dxact te
+[single] ondersoeken, of er ook kinderen te deser
+[single] Custe te vinden zijn in den dienst der D:
+[single] Comp:, dewelke beneeden de agt Jaaren oud
+[single] en alsoo onder de Eerste Classe niet gerekend
+[single] kunnende werden ten dien siene ingevolge
+[single] de gevenereerde ordres van haar Hoog
+[single] Edelheedens vervat, staande bij Extract Bataviase
+[single] resolutie genoomen in raaden van Jndia
+[single] op den 23=' 7ber: 1745: uijt den dienst geset„
+[single] en het genootene door haar in Cassa
+[single] gerembourseert moet werden, soo hebben
+[single] voorm: Commissianten heeden in raade
+[single] aan zijn E: een berigt ten dien siene
+[single] overgegeven, ter voldoening van even gem.
+[single] E
+[single] besluijt.
+[single] Gelyker wijs voorn: fiscaal te gelijk nog over
+[single] Zi
+[single] gaff een ander rappart nopens
+[single] het gedaan ondersoek, en zijne bevindinge
+[single] inde
+== NL-HaNA_1.04.02_9039_0091 | #91 | sides: single | lines: 23
+[single] 81
+[single] Van Mallabaar den 22=' october 1746:
+[single] in de saak van den g'arresteerde oosterse Luijs=r
+[single] abdul rouw glorat ingevolge het aan hem
+[single] gedemandeerde bij sitting van den.
+[single] Soo is verstaan beijde dese berigten, alvoorens daar
+[single] ge te disponeeren aan de Leeden ter Leesinge
+[single] rond te senden,
+[single] zeeker Cannarijn scomp„s Wisselaar en een man
+[single] van hooge Jaare zijnde arimalen genaamt
+[single] onlangs over de inpertinentie, en en ongehoor„
+[single] „saamheijd van sijn zoon/ Nannoe bij den Com„
+[single] „mandeur geklaagt, en instantelijk versogt heb„
+[single] „bende, dat den selve geroepen, in gevoelig„
+[single] mogte werden gereprocheert, om sijnen ouden
+[single] vader te gehoorsaamen en sig soo niet te„
+[single] „gens hem laaten oproeken door sijn hoogheijd
+[single] den tweede Cochimse prins, zoo verhaalde sijn
+[single] D: aan de Leeden, conform dat billijk versoek
+[single] gedagte, hannoe te hebben laaten binnen
+[single] roepen en in de barak in arrest setten, mits„
+[single] „guders naa een klijne Loesing door Luccrijns„
+[single] en een
+== NL-HaNA_1.04.02_9039_0092 | #92 | sides: single | lines: 23
+[single] Van Mallabaar den 22 october 1746.
+[single] en een scherpe roproche aan hem gegeven te
+[single] hebben den selven wederom laaten heenen gaan
+[single] tot Consentement van voorm: sijn vader, dog dat
+[single] dese losse Jongeling zig inmediaat aan gewaag„
+[single] „de tweede prins met sijn klagten g'addres„
+[single] „seert, en zijn hoogheijd daar over een ola
+[single] aan den Commandeur had geschreven,
+[single] dewelke vervolgens alsoo wel wierd opgelesen als
+[single] het andwoord, dat sijn E: daar op heeft laten
+[single] afgaan, en waar bij zijn E: aan sijn hoogheijd
+[single] op een beleefde wijse heeft voor gesteld, dat zijn hoog„
+[single] „heijd geen reeden had om zig met dese saak,
+[single] te bemoejen, soo lang den Cochimse koning
+[single] nog regeerden van dit rijk, en hij daar
+[single] en tegen maar kroon was, dat zijn E:s ge„
+[single] „dagten geweest zijn den Cochimse prins
+[single] daar door tot reeden, en inkeer te doen koo„
+[single] men, maar dat den selven ter Contrarie
+[single] een soodanig, oneerbiedig, en schandelijk
+[single] andwoord retro ola aan zyn 2: heeft durven
+[single] geven
+[single] ƒ
+== NL-HaNA_1.04.02_9039_0093 | #93 | sides: single | lines: 23
+[single] 83
+[single] Van Mallabaar den 22 october 1746:
+[single] geven, dat het dierbaars satsoen onsen heeren
+[single] en meesters in de persoon van den Comman„
+[single] „deur daar door ten hoogsten geleedeert,
+[single] en geschorden zijnde, dit afpont noodsaake„
+[single] lijk dient gewrooken, en dien verwaande prins
+[single] naa verdienste gestraft te werden, tot een
+[single] billijke mainatenue van het onwaard eerbaar
+[single] respect der maatschappje, dat genoegsaam
+[single] een tijd lang herwaards door meest alle
+[single] dese mallabaarse vorsten, prinsjes en min„
+[single] dere regenten gedwarsboomt, en het voor
+[single] ons gants onverandwoordelijk is, het selve
+[single] langer te retolleereeren den raad vervolgens
+[single] om haar sentiment, vraagende, of sulke
+[single] brutaliteijten gewrooken, en gestraft mac„
+[single] „ten werden, dan niet. soo Jaar op wat
+[single] voor een wijse! Waar over de Leeden haar
+[single] gedagten hebben laaten gaan, Eijndelijk
+[single] het slot viel, dat sComp: honneur door
+[single] desen rijxwagter absoluijt gekrenkt is, dog
+[single] nademaalen
+== NL-HaNA_1.04.02_9039_0094 | #94 | sides: single | lines: 23
+[single] Van Mallabaar den 22 october 1746.
+[single] naademaasen wij in dit hachelijken tijds
+[single] gewrigt bij naa niet weeten wie ons vrind„
+[single] of vyand„s dat dier halven het beste in desen
+[single] zijn sal, om aan zijn hoogheijd den Coe„
+[single] „hinasen koning Copia te senden van de assie„
+[single] rante ola van desen sijnen erfwagter,
+[single] en hem de saake te verstaan geven, met
+[single] versoek om een billijke maintenue, ten res„
+[single] pecte van de E Comp: sijn hoogheijts pro„
+[single] „tecteur, of dat bij manquement van dien
+[single] sijn hoogheijt verseekert kan sijn dat dit af„
+[single] „front noot, of oit sal ongewrooken blijven,
+[single] alhoewel zijn D: te gelijk betuijgde, dat de
+[single] swaarigheijd omtrent de Executie der straff
+[single] eenelijk hapeeren sal om dat den koo„
+[single] „ning van Cochim voor sijn eijgen kroon
+[single] prins bedugt, en bang is, waar op gere
+[single] „solveerd, wierd, de straffe op de een,
+[single] „hueblen
+[single] off andere, wijse te doen geschieden,
+[single] zoo als zig zulx best sal willen geschieden
+[single] Volgen
+== NL-HaNA_1.04.02_9039_0095 | #95 | sides: single | lines: 25
+[single] 85
+[single] Van Mallabaar den 22. october 1746:
+[single] voegen, dog dat wij daar over eerst nader
+[single] sullen Consuleeren, maar wat aangaat
+[single] den Wisselaar arimaalen dat meer ge„
+[single] „waagde kroon prins seekerlijk soo als hij
+[single] schrijft den selve sal soeken te apprechen dee„
+[single] ren, en men dierhalven een middel dient„
+[single] diente beraamen tot dies mans securiteijt,
+[single] noodsas lijken
+[single] den Welke in sComp„s dienst niet kan
+[single] gemist werden, soo is goedgevonden, en
+[single] verstaan twee Comp„s Laccorijns met volle
+[single] wapens hem tot een sarugearde meede
+[single] naa sijnen wooninge te geeven, op
+[single] dat de nairos van den tweede prins
+[single] deselve siende haar handen 't huijs moe„
+[single] „ten houden, en dien dienaar met
+[single] vreede laaten, zijnde voorsz: assurante
+[single] ola bij het dagregister, naa de ordre
+[single] g'insereert, en gedagtekend p=mo deser,
+[single] het freguart D' adriana in den
+[single] gepasseerden nagt, van Calicoet te
+[single] deser
+[single] -
+== NL-HaNA_1.04.02_9039_0096 | #96 | sides: single | lines: 23
+[single] Van Mallabaar den 22 october 1746
+[single] deser rheede geretourneert en verschee„
+[single] „nen weesende met alle de gecontrac
+[single] „teerde houtwerken behalven 700 plan„
+[single] „ken, die ter gerepte markt en han„
+[single] „del plaatsen nog hebben moeten blij„
+[single] ven leggen door gebrek van scheeps
+[single] ruijmte soo is op de voordragt van
+[single] den Commandeur geaccordeert, de
+[single] geheele lading met planken daar
+[single] uijt, en aan de wal te sigten desel„
+[single] „ve vervolgens te laaten meesen, en
+[single] met een brandijser te schappen, soo
+[single] meede al die het freguat na Ceijlon
+[single] moet meede neemen, daar wederom
+[single] in te steeken, en daar boven op pe„
+[single] „per te storten, en nog eenige andere
+[single] goederen 't selve te laaten over neemen,
+[single] die wij aan handen hebben, en daar
+[single] in geborgen kunnen werden, om vervol„
+[single] gens dat kieltje met een volle Lading
+[single] hoe
+[single] Cem
+== NL-HaNA_1.04.02_9039_0097 | #97 | sides: single | lines: 24
+[single] 87
+[single] Van Mallabaar den 22=' october 1746.
+[single] hoe eer hoe liever naa Ceijlon te rug te
+[single] doen keeren.—
+[single] En belangende de 700 stux planken,
+[single] die tot Calicoet nog sijn blijven Leggen,
+[single] soo quam in aanmerking, dat indien
+[single] doen
+[single] men deselve met de boots wilde ^ af„
+[single] „haalen, het selve met veel perijkel„
+[single] soude moeten geschieden om dat de
+[single] selve aan vlotten gebonden, en agter
+[single] aan gesleept moeten werden, 't gunt
+[single] te gevaarlijk is, en om daar toe Jn„
+[single] „landse bequaame vaartuijgen te huu„
+[single] „ten, soo soude sulx al te hoog op stok
+[single] loopen, om welke mative geresolveert ge„
+[single] „worden is, dat commandeur sComp„s
+[single] kooplieden sal tragten te beweegen,
+[single] om voorsz: planken geduurende de
+[single] regen tijd door haare gemagtigdens
+[single] voor haare reekening in hunne ban„
+[single] „gasalen te laaten bewaaren, tot dat
+[single] wij
+== NL-HaNA_1.04.02_9039_0098 | #98 | sides: single | lines: 23
+[single] Van Mallabaar den 22 october 1746
+[single] deser rheede geretourneert en verschee„
+[single] „nen weesende met alle de gecontrac
+[single] „teerde houtwerken behalven 700 plan„
+[single] ken, die ter gerepte markt en han„
+[single] „del plaatsen nog hebben moeten blij„
+[single] ven leggen door gebrek van scheeps
+[single] ruijmte soo is op de voordragt van
+[single] den Commandeur geaccordeert, de
+[single] geheele lading met planken daar
+[single] uijt, en aan de wal te sigten desel„
+[single] „ve vervolgens te laaten meeten, en
+[single] met een brandijser te schappen, soo
+[single] meede al die het freguat na Ceijlon
+[single] moet meede neemen, daar wederom
+[single] in te steeken, en daar boven op pe„
+[single] „per te storten, en nog eenige andere
+[single] goederen 't selve te laaten over neemen,
+[single] die wij aan handen hebben, en daar
+[single] in geborgen kunnen werden, om vervol„
+[single] gens dat kieltje met een volle Lading
+[single] hoe
+[single] van
+== NL-HaNA_1.04.02_9039_0099 | #99 | sides: single | lines: 24
+[single] 87
+[single] Van Mallabaar den 22:' october 1746.
+[single] hoe eer hoe liever naa Ceijlon te rug te
+[single] doen keeren.—
+[single] En belangende de 700 stux planken,
+[single] die tot palicoet nog sijn blijven Leggen,
+[single] soo quam in aanmerking, dat indien
+[single] „ doen
+[single] men deselve met de boots wilde ^ af„
+[single] „haalen, het selve met veel perijkel„
+[single] soude moeten geschieden om dat de
+[single] selve aan vlotten gebonden, en agter
+[single] aan gesleept moeten werden, 't gunt
+[single] te gevaarlijk is, en om daar toe Jn„
+[single] „landse bequaame vaartuijgen te huu„
+[single] „ten, soo soude sulx al te hoog op stok
+[single] loopen, om welke mative geresolveert ge„
+[single] „worden is, dat commandeur sComp„s
+[single] kooplieden sal tragten te beweegen,
+[single] om voorsz: planken geduurende de
+[single] regen tijd door haare gemagtigdens
+[single] voor haare reekening in hunne ban„
+[single] „gasalen te laaten bewaaren, tot dat
+[single] wij
+== NL-HaNA_1.04.02_9039_0100 | #100 | sides: single | lines: 25
+[single] Van Mallabaar den 22:' october 1746.
+[single] wij aanstaande somer geleegentheijd
+[single] sullen hebben, om deselve aff te saa„
+[single] ten haalen, en dat men sulx niet
+[single] Wilde licken, een ander besluijt als dan
+[single] sal neemen.—
+[single] Eijndelijk weerd nog tot speculatie
+[single] van den raad opgelesen een nadere
+[single] ola van den koning van Calicoilan
+[single] den 29:' der gepasseerde maand ahier
+[single] aangebragt, waar bij sijn hooheijd
+[single] versoekt te mogen weeten off den Edele
+[single] heer van golonesse op mannaar geko„
+[single] „men is, met Jntentie om naa de mal„
+[single] „labaar te vertrekken dan wel van daar
+[single] weder naa Colombo, en adverteert
+[single] te gelijk, gehoort te hebben, dat tre„
+[single] „vancoor met den oorlog tegens sijn
+[single] hoogheijd nu haast beginnen
+[single] sal dat tot Comminucatie
+[single] diendens
+[single] Cochim
+[single] w
+[single] -

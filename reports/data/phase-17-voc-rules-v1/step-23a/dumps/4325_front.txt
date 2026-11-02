@@ -1,0 +1,5315 @@
+== NL-HaNA_1.04.02_4325_0001 | #1 | sides: single | lines: 1
+[single] 114300
+== NL-HaNA_1.04.02_4325_0002 | #2 | sides: recto | lines: 1
+[recto] L Caabsch 'Briefo: Overgek: 1788.
+== NL-HaNA_1.04.02_4325_0003 | #3 | sides: recto | lines: 1
+[recto] L Caabsch 'BBriefo: Overgek: 1788.
+== NL-HaNA_1.04.02_4325_0004 | #4 | sides: recto | lines: 31
+[recto] 398
+[recto] „ 3 Reekening
+[recto] en memorie van de gedane
+[recto] verstrekkingen alhier aan het
+[recto] op gem: lands schip Prinees
+[recto] Equipagiegat Ia
+[recto] Register de Brieven
+[recto] en Papieren, dewelke onder
+[recto] huidigen datum van hier
+[recto] werden afgesonden aan haar
+[recto] wel Edele Hoog Agtb: de Heeren
+[recto] gecommitteerde bewindhebberen
+[recto] en gevolmagtigdens ter
+[recto] vergadering van Zeeventhienen
+[recto] P:r 's lands schip van oorlogh
+[recto] Princes Louisa namentlijk
+[recto] N=o 1. Origineele Missive door den Edelen
+[recto] Heer gouverneur en Raad
+[recto] deeser plaatse aan welopgem
+[recto] Heeren 17 geconsigneerd.
+[recto] „ 2 Duplicaat _o door en aan
+[recto] als evengem met dies by
+[recto] lagen laatst onder den
+[recto] 26: Iann: Jongsts met het
+[recto] holl: part schip de Mentor
+[recto] afgegaan volgens daar
+[recto] bij legggend register-
+[recto] Jn 't Casteel de goede Hoop den 5:' Februarij 1748
+[recto] Morak
+[recto] Colleveg
+[recto] F:
+== NL-HaNA_1.04.02_4325_0005 | #5 | sides: - | lines: 0
+== NL-HaNA_1.04.02_4325_0006 | #6 | sides: recto | lines: 22
+[recto] 399
+[recto] 399
+[recto] Patria. -
+[recto] van de wel Edele Hoog Agtb: Heeren Bewindhebberen,
+[recto] P:r s land schip van Vola
+[recto] a Prinen Louisor
+[recto] „committeerd ter Illustre vergadering van zeeven„
+[recto] enen, representeerende de generaale Nederlandsche
+[recto] relaoigeerde Oost Jndesche Comp: ter presidiale Camer
+[recto] Amsterdam
+[recto] Wel Edele, Erntfeste
+[recto] Hoog Agtb: Hoog Wijze,
+[recto] voorzienige en zeer
+[recto] Genereuse Heeren!
+[recto] Hoog Gebiedende Heeren.
+[recto] 'S Lands schip van oorloge de
+[recto] Princes Louisa, onder commanda van den
+[recto] Heer Capitain Graave van Rechteren
+[recto] thans van hier naar Nederland staande te
+[recto] vertrekken, neemen wij de vrijheid Uwe wel
+[recto] Edele
+[recto] Tot
+== NL-HaNA_1.04.02_4325_0007 | #7 | sides: recto | lines: 21
+[recto] 399
+[recto] van de wel Edele Hoog Agtb: Heeren Bewindhebberen,
+[recto] N: s land ship van oel
+[recto] a Prina Luisa
+[recto] „committeerd ter Illustre vergadering van zeeven„
+[recto] dienen, representeerende de generaale Nederlandsche
+[recto] octavigeerde Oost Jndesche Comp: ter presidiale Camer
+[recto] Amsterdam
+[recto] Wel Edele, Erntfeste
+[recto] Hoog Agtb: Hoog Wijze,
+[recto] voorzienige en zeer
+[recto] Genereuse Heeren.
+[recto] Hoog Gebiedende Heeren.
+[recto] 'S Lands schip van oorloge de
+[recto] Princes Louisa, onder commando van den
+[recto] Heer Capitain Graave van Rechteren
+[recto] thans van hier naar Nederland staande te
+[recto] vertrekken, neemen wij de vrijheid Uwe wel
+[recto] Edele
+[recto] Patria. -
+[recto] Tot
+== NL-HaNA_1.04.02_4325_0008 | #8 | sides: recto | lines: 21
+[recto] 399
+[recto] Patria. -
+[recto] Aan de wel Edele Hoog Agtb: Heeren Bewindhebberen,
+[recto] P: land schip van vela
+[recto] de Princa Louisor.
+[recto] gecommitteerd ter Illustre vergadering van zeeven„
+[recto] „thienen, representeerende de generaale Nederlandsche
+[recto] g'octroigeerde Oost Jndesche Comp: ter presidiale Camer
+[recto] Amsterdam
+[recto] Wel Edele, Erntfeste
+[recto] Hoog Agtb: Hoog Wijze,
+[recto] voorzienige en zeer
+[recto] Genereuse Heeren.
+[recto] Hoog Gebiedende Heeren.
+[recto] 'S Lands schip van oorloge de
+[recto] Princes Louisa, onder commanda van den
+[recto] Heer Capitain Graave van Rechteren
+[recto] thans van hier naar Nederland staande te
+[recto] vertrekken, neemen wij de vrijheid Uwe wel
+[recto] Edele
+[recto] Tot
+== NL-HaNA_1.04.02_4325_0009 | #9 | sides: recto,verso | lines: 29
+[recto] 400
+[recto] wij Uwe wel Edele Hoog agtb:
+[recto] meede aan een reecq. en memo¬
+[recto] „rie van de gedane verstrekkingen
+[recto] alhier aan het voorm: landsschip
+[recto] In 't Casteel de Goede Haop Uwer wel Edele Hoog Agtb: Zeer
+[verso] Edele Hoog Agtb: daar meede te laten
+[verso] toekomen, het dupplicaat onzer laatst
+[recto] den 7: Februarij 1728: Ootm: getrouwe en 9etoorz: Dienaren
+[recto] C: J: Vanden Graaff
+[verso] ootmoedige letteren van den 26: der
+[recto] C:J
+[verso] even verweekene maand Januarij
+[verso] met het op gisteren van hier ver„
+[verso] „trokken Hollands particulier
+[verso] schip de Mentor afgegaan,
+[verso] aan welkers inhoud ons Eerbiedig„
+[verso] lijk refereerende, blijven wij met
+[verso] verschuldigd respect.
+[recto] P. S. in deesen gesloten bieden
+[recto] de Princes Louisa. -
+[recto] OGbertes
+[verso] Wel Edele Erntfeste Hoog
+[verso] Agtb: Hoog wijze, voorsie„
+[verso] „nige zeer genereuse en
+[verso] Hoog Gebiedende Heeren:
+[recto] Johenius
+[recto] S: F: L Suur
+[verso] Uurer
+== NL-HaNA_1.04.02_4325_0010 | #10 | sides: recto,verso | lines: 43
+[verso] No 1.
+[recto] Origineele Missive door den Edelen
+[recto] A L. . N1
+[recto] Heer Gouverneur en Raad dee„
+[recto] met beijde
+[recto] zer plaatse aan wel op gem: Hee„
+[recto] „ren zeeventhienen geconsig„
+[recto] de scheepen
+[recto] „neerd-
+[recto] Duplicaat —o en Bylaagen, laatst
+[recto] 3
+[recto] onder den 7=e deezer maand
+[recto] p=r d„ Jusf=r Johanna
+[recto] febr: p=r het Fluitschip de
+[recto] vreede, aan Hoogst ged=e Heere
+[recto] 17=e afgezonden
+[recto] Register der Brieven
+[recto] en Papieren; dewelke sub
+[recto] dato deeser van hier wer„
+[recto] den afgezonden soo aan 't Il„
+[recto] „lustre Collegie der Hoog Ede„
+[recto] „le Heeren Zeeventhienen
+[recto] als aan d' Edele Heeren Be¬
+[recto] „windhebberen der in marge„
+[recto] ne beteekende particuliere
+[recto] Cameren p r de holl=s part.
+[recto] scheepen oostzaandam en
+[recto] de Juff=wr Johanna nament„
+[recto] aan de Edelen Heeren
+[recto] Bewindhebberen der nevens gem:
+[recto] A: Z: —„ 4 Copia Authenticq Request en bylaa„
+[recto] „gen van den met het opgem:
+[recto] met beyde scheepen
+[recto] schip de Juff=w Johanna re„
+[recto] „patrieerende Coopman de
+[recto] de Rovere van Breugel no„
+[recto] „pens het branden zyner ge„
+[recto] „permitteerde kisten
+[recto] A2=l
+[recto] „ 2
+[recto] Camer
+[recto] lijk
+[recto] 401
+== NL-HaNA_1.04.02_4325_0011 | #11 | sides: recto,verso | lines: 55
+[verso] A - No 5 Copia Authentieq Brieff onder den
+[verso] „
+[verso] 6
+[verso] met oost„
+[verso] Zaandam
+[verso] p„r de Juff=r Johanna
+[verso] met beijde
+[verso] de
+[verso] 17=e deeser loopende maand aan
+[verso] d' Edele Heeren Bewendhebberen
+[verso] ter Praesidiale Camer afge„
+[verso] „gaan p=r het fluijtschip de
+[verso] vreede neevens eenige daar toe
+[verso] gehoorende bylaagen
+[verso] __o van den 9 dier
+[verso] maand met het schip d'
+[verso] Eens gezendheijd
+[verso] 7 Een afschrift der Brieff onder voorsz
+[verso] 7:e deeser maand met het op„
+[verso] gem=e fluitschip de vreede aan
+[verso] 't Ilustre Collegie der Hoog
+[verso] Edele Heeren Zeeventhienen
+[verso] afgegaan.
+[verso] 8 Een origineele - en Een Copia korte
+[verso] Factuur van het geladene
+[verso] tot Batavia in de part schee„
+[verso] „pen oostzaandam en Mentor
+[verso] „ 9 Origineele korte Factuur der La„
+[verso] „ding van het schip de Juff=r
+[verso] Johanna
+[verso] A. - - - „ 10 Lystje der vreemde Naties schee„
+[verso] „pen, dewelke sedert den 3=e
+[verso] 7ber d' a=o p=o tot den 1=e Februa„
+[verso] aan dit Gouvernement versche
+[verso] „nen sijn
+[verso] Onkost Reecq: van 't geen
+[verso] „11
+[recto] hier ter plaatse aan 't schip
+[recto] de Juffw Johanna Verstrekt
+[recto] geworden is
+[recto] Int Casteel de Goede Hoop den 12 Febr: 1788
+[recto] Ph Dorak
+[recto] byllen
+[verso] hier
+[verso] A
+[verso] A
+[verso] -
+[verso] A
+[verso] thuys
+[verso] Soh
+[verso] 2
+[verso] scheepen
+[verso] 2
+[recto] 402.
+== NL-HaNA_1.04.02_4325_0012 | #12 | sides: recto | lines: 21
+[recto] 402
+[recto] Patria. -
+[recto] Aan de wel Edele Hoog Agtb: Heeren Bewindhebberen
+[recto] gecommitteerd ter Illustre vergadering van Zeventhienen,
+[recto] representeerende de generale Nederlandsche geoctroijeerde
+[recto] oost Indische Compagnie, ter Prasidiale kamer
+[recto] P=r de megt hell Jan
+[recto] scheepen
+[recto] Oostzaandam en
+[recto] Amsterdam.
+[recto] Wel Edele, Erntfeste,
+[recto] Hoog Agtb:, Hoog wijze,
+[recto] voorzienige en zeer
+[recto] genereuse Heeren.
+[recto] de Jusffr Johanna
+[recto] Hoog Gebiedende Heeren.
+[recto] Sub dato 7 deezer lopende maand Febr=i,
+[recto] 't Laatst de Eere gehad hebbende, aan
+[recto] uwe wel Edele Hoog Agtb=rens te
+[recto] Schrijven
+[recto] Tot
+== NL-HaNA_1.04.02_4325_0013 | #13 | sides: recto,verso | lines: 36
+[recto] 404
+[verso] schrijven, met 't holl=ds part: fluit schip
+[verso] de vreede; nemen wij de vrijheid het
+[verso] Duplicaat daarvan met de bijlagen
+[verso] en't Register, Hoogst dezelve in deezen
+[verso] aantebieden, zijnde het ged: schip de
+[verso] vreede, den 9, en het meede ingehuurd
+[verso] part schip d' Eensgezindheid, den 10:e
+[verso] daaraan, naar 't vaderland t' zeil
+[verso] gegaan. —
+[verso] Thans meede tot vertrek naar
+[verso] derwaards gereed leggende, brengers
+[verso] deezer, de part: scheepens Oostzaandam
+[verso] en de vrouwe Johanna, lasen wij
+[verso] deezen dienen ten geleide van die twee
+[verso] kielen: op welken laastgem: bodem
+[verso] de vrouwe Iohanna, zig komt
+[recto] te bevinden den repatrieerenden
+[recto] Coopman en geweezen administra„
+[recto] „teur ten Commandemente Bantam,
+[recto] Jan de Roverre van Breugel,
+[recto] door wien aan ons bij Request
+[recto] is voorgedragen geworden:
+[recto] Dat hij, door hunne Hoog
+[recto] Edelheedens de heeren der Hooge
+[recto] Indiasche Regeering, tot Batavia,
+[recto] op zijn verzoek, mits tijds expiratie,
+[recto] behoudens qualiteit en gagie, naar
+[recto] Nederland verlost zijnde, aan
+[recto] hem, volgens het reglement op de
+[recto] bagagie der t' huis varende Dienaren,
+[recto] uit hoofde van de Rang, als Coop=
+[recto] „man, en met een eigenkind belast,
+[recto] toegestaan geworden was drie
+[verso] te
+[recto] Vijst
+== NL-HaNA_1.04.02_4325_0014 | #14 | sides: recto,verso | lines: 35
+[recto] 405.
+[verso] vijff=-voets en twee klijndere geper„
+[verso] „mitteerde kisten tot berging zijner
+[verso] Goederen, meede te nemen, dewelke
+[verso] dan ook op Batavia gevuld en
+[verso] zig in't voorm: schip de frouwe
+[verso] Iohanna waren bevindende:
+[verso] dog dat hij Supp„t, door onkunde
+[verso] verzuimd hebbende die kisten te
+[verso] Batavia te doen branden; en van
+[verso] de noodzakelijkheid daarvan alhier
+[verso] eerst nader g'informeerd geworden
+[verso] zijnde, derhalven verzogt, dat ter
+[verso] voorkominge van onaangename
+[verso] gevolgen, hier uit, voor hem Supp„t
+[verso] de voorsz: kisten ter deeser plaatse
+[verso] mogten werden gebrand:-
+[recto] des wij, onder uwer wel Edele hoog
+[recto] agtb=ren g'Eerde goedkeuring aan voorm
+[recto] Coopman van Breugel, het branden dier
+[recto] kisten toegestaan hebbende, de vrijheid
+[recto] neemen hoogst dezelve het voorsz:
+[recto] request, met het daarbij overgelegd
+[recto] Certificaat van den schipper van 't ged=e
+[recto] schip de Vr: Johanna SimonKoter,
+[recto] in een Extract uit de Notulen van't
+[recto] geresolveerde en Rade van Indiën, neven
+[recto] deezen in Copia authenticq aantebieden.
+[recto] Dienende nog tot pligtschul=
+[recto] „dig advis, dat de scheepen Iosephus
+[recto] de Tweede, de Vr: Johanna, de drie
+[recto] gebroeders en't Fortuin, op voorsz:
+[recto] 10. deezer, van hier naar Ceilon voort=
+[verso] des
+[recto] „gestevend
+== NL-HaNA_1.04.02_4325_0015 | #15 | sides: recto,verso | lines: 24
+[recto] 406.
+[verso] gesteevend zijn:
+[verso] en dat de uitkomende part: scheepen
+[verso] de Geertruijda en Eijk en Linde, op morgen
+[verso] derselver depeches voor Batavia staan
+[verso] te erlangen. —
+[verso] Waarmeede deesen besluijtende, blij-
+[verso] ven wij met diepschuldig respect
+[verso] Wel Edele, Erntfeste
+[verso] Hoog Agtb:, Hoog Wijze
+[verso] voorzienige, zeer
+[verso] genereuse en Hoog
+[verso] gebiedende Heeren
+[recto] Uwer wel Edele Hoog Agtb=r Zeer botm
+[recto] getrouwe en gehoorzame Dienaren
+[verso] In't Castel de Goede Hoop
+[verso] den 12 februarij 1788.—
+[recto] R: I: Gordon
+[recto] GVisser
+[recto] C S: Vanden Graaff
+[recto] MChenius
+[recto] J. V. Se Sueur
+[verso] Uwer
+== NL-HaNA_1.04.02_4325_0016 | #16 | sides: recto,verso | lines: 19
+[verso] No 1.
+[recto] 407.
+[recto] Patria-
+[recto] Aan de wel Edele Heeren Bewindhebberen
+[recto] van de generale Nederlandsche g'octroijeerde
+[recto] oost Indische Comp=e ter Praesidiale Cames. -
+[recto] Amsterdam.
+[recto] Wel Edele, Erntfeste,
+[recto] groot agtb, wel wijze,
+[recto] voorzienige, en zeer
+[recto] genereuse Heeren!
+[recto] P=r het holb:s pent schip
+[recto] Oostzaandam
+[recto] Gebiedende Heeren!
+[recto] Na dat wij met het holl=s part Con
+[recto] schip de Vreede hadden laten af„
+[recto] „gaan, onze onderdanige van
+[recto] den
+[recto] Tot
+== NL-HaNA_1.04.02_4325_0017 | #17 | sides: recto,verso | lines: 36
+[recto] No 8
+[verso] den 7=e deezer lopende maand
+[verso] febr:, hebben wij naderhand sub
+[verso] dato 9=e daar aan weederom d' Eere
+[verso] gehad aan uwe wel Edele groot
+[verso] agtb: te schrijven, met het parth
+[verso] schip d' Eens gezindheid, welke
+[verso] twee kielen op den 9=e en 10 van
+[verso] hier naar Neederland vertrokken
+[verso] zijn-
+[verso] thans meede ter reijsvorderin„
+[verso] „ge naar derwaards in gereedheid
+[verso] leggende brenger deeses het
+[verso] voor Uwe wel Edele groot
+[verso] agtb: Camer geprojecteerd part:
+[verso] retourschip Oostzaandam, laten
+[verso] wij deezen dienen tot geleijde
+[recto] van dien bodem; waarneevens
+[recto] d' Eere hebben Uwe wel Edele
+[recto] groot agtb: aan te bieden
+[recto] Copia authenticq missive onder
+[recto] den 7e deezer maand van hier
+[recto] aan uwe wel Edele groot agtb:
+[recto] afgegaan, met het schip de
+[recto] Vreede, neevens eenige bijlagen
+[recto] daar toe specteerende,
+[recto] als meede
+[recto] Copia authenticq van onze voor„
+[recto] „melde laatste letteren van
+[recto] 9e deezer maand met het
+[recto] schip de Eensgezindheijd,
+[recto] aan uwe wel Edele Groot agtb.
+[recto] neevens de duplicaat Cognos„
+[verso] van
+[recto] „cement
+[verso] ps
+== NL-HaNA_1.04.02_4325_0018 | #18 | sides: recto,verso | lines: 35
+[recto] 409.
+[verso] „cement factuur van de afge„
+[verso] „scheepte alde in dien bodem, en
+[verso] de reecq: van de gedane verstrek„
+[verso] „kingen, aan dezelve overgezonden
+[verso] en Een afschrift der missive laatste
+[verso] op den 7e deezer maand met
+[verso] het opgem: schip de Vreede,
+[verso] van hier aan 't Illustre Colle„
+[verso] „gie der Hoog Edele Heeren
+[verso] zeeventhienen, gesuppediteerd.
+[verso] Bij P: S: onzer onder„
+[verso] „danige van den 5. Iannuarij
+[verso] Iongstl: hebben wij uwe wel
+[verso] Edele Groot agtb: meede ter
+[verso] kennisse gebragt de verschij„
+[recto] ning van het schip de Geer„
+[recto] „truijda, onder het dassen Ei
+[recto] „land:, welken bodem op den
+[recto] 13=e dier maand van daar na
+[recto] deeze rheede opgekomen, en
+[recto] ten zelven dage insgelijks
+[recto] alhier verscheenen weezende
+[recto] het inlgehuurd parth: schip
+[recto] Eijk en Linde, met 8 overl: en
+[recto] 21 impotenten, staan die
+[recto] twee scheepen op moregen der
+[recto] „zelver depeches voor Bata„
+[recto] „via t'erlangen, om met de
+[recto] eerste bequame geleegendheid
+[recto] na derwaards t' zeijl gaan
+[recto] Door den schipper van
+[verso] „ning
+[recto] boenger
+[verso] P
+== NL-HaNA_1.04.02_4325_0019 | #19 | sides: recto,verso | lines: 35
+[recto] 410.
+[verso] brenger deeses, Iacob de Vries,
+[verso] aan ons verzoek gedaan zijn
+[verso] „de, vermits desselfs Twee
+[verso] timmerlieden op de herwaard
+[verso] reijze van Batavia waren
+[verso] komen te overlijden, hij over„
+[verso] sulks mogte werden g'adsis,
+[verso] „teerd met den oppertimmer,
+[verso] „man van het alhier afgelegd
+[verso] Ceilons retour schip: de Paare,
+[verso] Levenus Gerhardus de Donker,
+[verso] onder aanbiedinge, van de rhee„
+[verso] „ders van het ged=e schip oost,
+[verso] Zaandam niet alleen te zullen
+[verso] genieten, zodanige gagie als
+[verso] hij bij d' E Compe gewonnen
+[recto] heeft, maar ook bij arrive„
+[recto] „ment in het vaderland, de
+[recto] helfte van desselfs verdien„
+[recto] „de praemie hebben wij zulx
+[recto] in hope van Uwe wel Edele
+[recto] groot agtb: g' Eerde goed keu
+[recto] „ringe, aan voorm: schipper
+[recto] de Vries g'accordeert. —
+[recto] Wij hebben voorts nog
+[recto] d' Eere Uwe wel Edele
+[recto] groot agtb deesen Gin„
+[recto] claseerd aan te bieden, d' ori„
+[recto] gineele korte factuur der
+[recto] lading van brenger deeses
+[recto] het schip Oostzaandam,
+[recto] als meede de Copia dito van
+[verso] heeft
+[recto] het
+== NL-HaNA_1.04.02_4325_0020 | #20 | sides: recto,verso | lines: 23
+[recto] 411
+[recto] In 't Casteel de goede hoop=
+[verso] het hier vorengem: voor de
+[verso] Camer middelburg geretour
+[verso] „neerde part schip de men„
+[verso] „tor:- terwijl wij met
+[verso] verschuldige respect
+[verso] blijve. —
+[verso] Wel Edele Erntfeste„
+[verso] Groot agtb; welwijze
+[verso] Voorzienige, zeer
+[verso] Genereuse en
+[verso] gebiedende Heeren.
+[verso] Umer
+[recto] Uwer wel Edele Groot agtb
+[recto] zeer onderd en gehoore dienaren
+[recto] den 12. Februarij 1788. —
+[recto] C s vanden Graaff
+[recto] #ohenius
+[recto] R: I: Gordon.
+[recto] GGvWel
+[recto] N. V. Se Sueur
+== NL-HaNA_1.04.02_4325_0021 | #21 | sides: - | lines: 0
+== NL-HaNA_1.04.02_4325_0022 | #22 | sides: recto,verso | lines: 29
+[verso] No 2
+[recto] 412
+[recto] Aan den wel Edelen Gestr:
+[recto] Heer Cornelis Jacob
+[recto] van de Graaff Gouver.
+[recto] neur en Directeur van
+[recto] Cabo de Goede Hoop
+[recto] en den Ressorte van dien
+[recto] benevens den E: agtb: Raad
+[recto] van Politie alhier
+[recto] Wel Edele Gestr: Heer
+[recto] en
+[recto] E: agtb:r Heeren.
+[recto] Jan de Rovere van Breugelkoop:
+[recto] „man, en geweeze administrateur ten Comman¬
+[recto] demente Bantem; door haar Hoog Edelens
+[recto] de Hooge Indiasche Regeering te Batava
+[recto] op zijn verzoek mits tijds Expiratie behouden
+[recto] qualiteit en gagie naar Nederland verlost,
+[recto] en thans alhier ter plaatse gearriveert
+[recto] met het part: Schip de Juffw. Johanna
+[recto] neemt de Vrijheijd UwelEd Geswr:, E. Agtb.
+[recto] zeer nedrig te representeeren, dat hem suppn.
+[recto] bij het Reglement op de Bagagie des te
+[recto] huijsvarende Comp: dienaren uijt hoofde
+[recto] van
+[recto] 1i
+[recto] en
+== NL-HaNA_1.04.02_4325_0023 | #23 | sides: recto,verso | lines: 51
+[recto] 413
+[verso] vande rang van Koopman, waarmeede bij
+[verso] d' E: Comp:e bekleed is, en dewijl met een
+[verso] eijgen kind belast is, toegestaan zijn, drie
+[verso] vijf voets kisten en Twee kleijndere gepermit„
+[verso] „teerde kisten tot berging zijner goederen„
+[verso] mede te neemen, dewelke ook tot Batavia
+[verso] gevult en in voormelde Bodem geladen
+[verso] heeft. dog door onkeende verzuijmt heeft ens
+[verso] S Comp:s merk aldaar te laten branden:
+[verso] Gelijk uwelEd: gestr: en E agtb. des gelievend
+[verso] uijt nevens gaande verklaring der scheeps
+[verso] Overheeden blijken kan, dat zulx nog
+[verso] niet geschied is, En dewijl den supplt. alhier
+[verso] beter g'informeerd is, neemt hij de vrijheijt
+[verso] Uwel Ed: getw:: E: Agtb: op het nedrigst
+[verso] te solliciteeren, dat ter voorkoming van
+[verso] onaangenaamheden voor den Ondergeteek:d
+[verso] i Europa, dezelve alhier na den gewoonen
+[verso] stijl met sComp„s merk mogen gebrand worden
+[verso] /:onderstond:/
+[verso] welk doende te
+[verso] /was geteekend:/
+[verso] J: de Rovere van Breugel
+[verso] /:in margine
+[verso] Cabo de Goede hoop e febr. 1788
+[verso] Accordeert
+[recto] Wij ondergetekendens overheeden van 't door
+[recto] d' Ed: Oost Jndische Comp: in gehuurde
+[recto] schip de juffrouw Johanna verklaren
+[recto] by deesen uijt liefde der waarheid en
+[recto] ter requisitie van den met 't zelfde
+[recto] schip na nederland als passagier over
+[recto] vaarende Heer Ian de rovere ven Breu„
+[recto] gel dat van de bagagie door hem
+[recto] heef
+[recto] in ons schip ter hoofdplaatse batavia
+[recto] geladen geene kist met 's Comps merk
+[recto] gebrand is. —
+[recto] /:onderstond:/
+[recto] Aldus verklaard= ter Cabo de Goede hoop
+[recto] den 6: februarij 1766. —
+[recto] /:was getekend:/ Simon Kooter.
+[verso] ak
+[verso] en
+[recto] Accordeert. -
+[recto] AHlorak
+[recto] bellerge
+[verso] baller
+== NL-HaNA_1.04.02_4325_0024 | #24 | sides: recto,verso | lines: 20
+[verso] Copia
+[recto] Extract uit de Notulen
+[recto] van 't geresolveerde in Raa
+[recto] de van Jndië
+[recto] den 14„en Augustus 1787.
+[recto] De Koopman en Administrateur te
+[recto] Bantam Jan de Rovere van Breugel is op
+[recto] zyn daartoe by een overgezonden Request
+[recto] gedaan verzoek, verstaan van dien dienst
+[recto] „te demitteeren, en hem te permitteeren
+[recto] om behoudens qualiteit en gagie, met
+[recto] een der naar neederland vertrekken„
+[recto] de scheepen te mogen repatrieeren.
+[recto] /:onderstond:/ Accordeert /:was getk:/
+[recto] D: D: van Haak seC„s /:in margine:/
+[recto] Nagezien /:getk:/ J: Grielman. —
+[recto] Accordeert.
+[recto] WDtrak
+[recto] Eyllar
+[recto] 414
+== NL-HaNA_1.04.02_4325_0025 | #25 | sides: - | lines: 0
+== NL-HaNA_1.04.02_4325_0026 | #26 | sides: verso | lines: 2
+[verso] No. 6.
+== NL-HaNA_1.04.02_4325_0027 | #27 | sides: - | lines: 0
+== NL-HaNA_1.04.02_4325_0028 | #28 | sides: recto,verso | lines: 20
+[verso] N. o. 4.
+[recto] 415.
+[recto] van de generale nederlandsche g'octroijeerde
+[recto] P: de Hofofsli
+[recto] Aan de wel Edele Heeren Bewindhebberen,
+[recto] oost Indische Compagnie ter Presidiale Cames. -
+[recto] Tot
+[recto] Amsterdam
+[recto] Wel Edele, Erntfeste,
+[recto] groot agtb: wel wijze,
+[recto] voorzienige, en zeer
+[recto] genereuse Heeren!
+[recto] de Vreede
+[recto] Gebiedende Heeren!
+[recto] Bij onze onderdanige Missive van
+[recto] den 5 der afgeweekene maand
+[recto] Iann:, waar van Copia deesen
+[recto] bijgevoegd
+[recto] 29
+[recto] Patria. -
+== NL-HaNA_1.04.02_4325_0029 | #29 | sides: recto,verso | lines: 38
+[recto] 416
+[verso] bijgevoegd, hebben wij uwe wel Edel
+[verso] groot agtb: onder anderen mee„
+[verso] „de pligtschuldig ter kennisse
+[verso] gebragt, de verschyninge alhier
+[verso] van de Ceilonse Retour scheepen
+[verso] de Paarl en de Draak, en dat
+[verso] mits den slegten toestand van
+[verso] eertsgem: bodem de Paarl, wij
+[verso] hadden moeten besluijten, het
+[verso] door de Camer Middelburg in„
+[verso] „gehuurd en uijtgezonden partC=t
+[verso] schip de Vreede te Emploieeren,
+[verso] tot het overbrengen der res„
+[verso] „teerende lading van het ged=e
+[verso] schip de Paarl, aan Uwe wel
+[verso] Edele Groot agtb: geconsig„
+[recto] „neerd:
+[recto] het opgemelde schip de Ree„
+[recto] „de thans zeijlrhee leggende,
+[recto] l
+[recto] No
+[recto] tot de te rug rijze naar Ne„
+[recto] „derland, zijn in dien bodem
+[recto] afgescheept. —
+[recto] Uit de lading van 't opgem:
+[recto] schip de Paarl
+[recto] 147837. lb Caures de maldivos
+[recto] 16650 „ Sappanhout bimas
+[recto] 198399 „ peeper mallabaarse
+[recto] 1600 „ baalen fijne Caneel, en
+[recto] 76 _o Cardamon, van
+[recto] welke baalen Caneel en
+[recto] Cardlemon eenige door
+[recto] het bijgekomen zee wa
+[verso] „neerd
+[recto] ter
+[verso] d
+== NL-HaNA_1.04.02_4325_0030 | #30 | sides: recto,verso | lines: 41
+[recto] 417
+[verso] „ter min of meer nat ge„
+[verso] worden en aangeslagen,
+[verso] als meede het grootst ge„
+[verso] „deelte der baalen ten eene„
+[verso] „maal bedorven is.
+[verso] 1. Casje met 12 lb Caneel obij
+[verso] 61 Pakken met Lijwaaten
+[verso] sonder merken egter
+[verso] van buijten droogen
+[verso] onbeschadigd bevonden
+[verso] 67 baalen Cattoene gaarens aan
+[verso] dewelke meede op het uit„
+[verso] „terlijke geen vogtigheijd of
+[verso] bederf heeft kunnen wer
+[verso] den bespeurd -
+[recto] 1 Casje met medicinale Laden
+[recto] voor de hordus medicus
+[recto] t' amsterdam
+[recto] sijnde voorts in het voorm:
+[recto] schip de Vreede ook nog hier
+[recto] ter plaatse afgescheept-
+[recto] 654 baalen bourbonse Coffij boonen
+[recto] van het fransch schip
+[recto] l' auguste voor d' E Compe
+[recto] ingekogt.
+[recto] 60 Leggers Caabse wijn in
+[recto] Soort.
+[recto] 40 heele aamen — _o „
+[recto] alles breeder gespecifi„
+[recto] „ceerd op de daar van gemaak
+[verso] pje
+[verso] Cff
+[verso] 357 _
+[verso] „
+[verso] -
+[verso] _o
+== NL-HaNA_1.04.02_4325_0031 | #31 | sides: recto,verso | lines: 36
+[recto] 418
+[verso] te en neevens deesen overgaan
+[verso] „de Cognoscement factuur
+[verso] Den toestand van het voorn
+[verso] schip de Paarl, na d' ontlossing
+[verso] der lading door Expres daar
+[verso] toe gesteld geweest zijnde ge„
+[verso] committeerde zeekundigen en
+[verso] Scheeps timmerlieden nader
+[verso] nauwkeurig g' Examineerten
+[verso] opgenomen weezende, is uijt het
+[verso] berigt dier Commissie dien
+[verso] aangaande overgeleeverd en
+[verso] deesen in Copia verzellende
+[verso] gebleeken:
+[verso] dat de beijde hekbalken
+[recto] van 't agter schip in Stuk,
+[recto] „ken, de berkhouten en rand„
+[recto] „zoen houten, die het gant„
+[recto] „sche agter schip in zijn
+[recto] verband zouden moeten, al„
+[recto] „le van malkanderen gewee„
+[recto] „ken, de Frangen of Banden
+[recto] die meede tot het sterkste
+[recto] verband van een schip hooren
+[recto] vervuurd, de bouten los, als
+[recto] ook alle de wulfstutten bij„
+[recto] „na 3 duijm van de hekbalk
+[recto] afgeweeken zijn:-
+[recto] Dat onder de groote rust
+[recto] daar een schip zijn meeste
+[recto] kragt moet doen, en ook
+[verso] van
+[recto] de
+== NL-HaNA_1.04.02_4325_0032 | #32 | sides: recto,verso | lines: 40
+[recto] 419
+[verso] de grootste werking heeft, de
+[verso] berkhouten, zo wel aan stuur
+[verso] als bakboord zijde alle in stu
+[verso] en uijt elkanderen gesprongen,
+[verso] als ook de berghouten in het bre
+[verso] „ken der boeg, daar een schip
+[verso] met stampen veel te lijden
+[verso] heeft, dwars af zijn -
+[verso] Dat de voorsteeven met
+[verso] de banden der binnen en bui„
+[verso] „ten huid verknogt zijnde, ge„
+[verso] „heel uijt zijn sporning ge„
+[verso] weeken is, en voorts de banden
+[verso] voor in de boeg als ook alle
+[verso] de verband knien in het ruin
+[verso] vervuurd weezende, de bouten
+[recto] meest alle zig e los bevinden, dat
+[recto] men dezelve met een ordinaire
+[recto] spijkerhamer kan in en uit slaan
+[recto] Dat deese gemelde gebreeken
+[recto] door de voorsz: Commissie un a¬
+[recto] „nim verklaard werden te zijn,
+[recto] van die aangeleegendheid; dat
+[recto] het schip daar door alhier
+[recto] irreparabel bevonden is, en ten
+[recto] eenemaal onbequaam te weezen,
+[recto] tot eenig vervoer van deeze rhee„
+[recto] „de: dat ook zelfs naar het gu„
+[recto] „voelen der scheepstimmerlieden
+[recto] tot deese commissie g'adsis„
+[recto] 6
+[recto] „teerd hebbende, het schip in
+[recto] Holland zelve niet waardig
+[verso] meest
+[verso] de
+[recto] zoude
+[recto] e
+== NL-HaNA_1.04.02_4325_0033 | #33 | sides: recto,verso | lines: 37
+[recto] 420.
+[verso] zoude werden gekeurt, om er die
+[verso] onkosten en daar toe vereischte met
+[verso] „te aan te besteeden. -
+[verso] Dat al meede zo wanneer
+[verso] door hem gecommitteerdens geene
+[verso] gebreeken genoeg ontdekt waren
+[verso] geworden, dewelke hun met vol
+[verso] „komen gerustheid dien bodem voor
+[verso] irrepparabel konde doen verklaa
+[verso] „ren, dewijl zig het schip thans
+[verso] stil leggende, verscheide deelen
+[verso] toezetten, en men goedgevonden
+[verso] had, dat Schip na eenige repe
+[verso] „ratiën, dereis van hier te laten
+[verso] vervolgen, den daar op beschei„
+[verso] „denen Capitain tot de Minste
+[recto] Manschappen toe, zig nogthans
+[recto] teegens het vertrek van hier met
+[recto] dat schip zouden aankanten, alzo
+[recto] zij alle gods goedheid dankende, be„
+[recto] „tuigden miraculeus alhier ge„
+[recto] „komen te zijn, en zulke akelige
+[recto] omstandigheeden, als dat schip,
+[recto] wanneer het weeder in zee kwam„
+[recto] boven reparatie boven al, door
+[recto] het uijt elkander werken, zeeker
+[recto] aan hun oog vertoonen zouden ge„
+[recto] lijk zij op de reijze herwaards
+[recto] genoeg hadden moeten bijwonen
+[recto] gevo
+[recto] niet weederom wenschten uijt
+[recto] uijt te staan. -
+[recto] En hier uijt duijdelijk gecon„
+[verso] Manschaffn
+[recto] „steerd
+== NL-HaNA_1.04.02_4325_0034 | #34 | sides: recto,verso | lines: 40
+[recto] 421
+[verso] „steerd zijnde, dat behalven de
+[verso] gebreeken welken zie bij de Exa¬
+[verso] „minatie aan de voorsz: gecom„
+[verso] „mitteerdens hebben ontdekt, en
+[verso] dewelke zij reeds onEerstelbaar
+[verso] bevonden hebben, andere van
+[verso] geen minder gewigt, door het wee„
+[verso] „der toezetten der uijt elkanderen ge
+[verso] „werk te deelen, terwijl het schip
+[verso] thans is stilleggende, nog voor hun
+[verso] verborgen hebben kunnen blijven,
+[verso] welke egter hun effect bij het wer„
+[verso] „ken in zee openbaren moetende,
+[verso] aan de overheeden neevens alle
+[verso] de overige manschappen eene zodani„
+[verso] „ge schrupule hebben kunnen
+[recto] veroorzaaken, dat zij na de repa„
+[recto] „ratie die men daar aan ook mog
+[recto] „ten aanwenden, niet geneegen
+[recto] weezen zouden zig met die bodem
+[recto] weeder op zee te begeeven:
+[recto] hebben wij dierhalven om
+[recto] „ die reedenen moeten besluijten
+[recto] meergem: bodem de Paarl te
+[recto] doen sloppen, en het nog bequaa„
+[recto] „me houtwerk vervolgens tot eeni„
+[recto] „ge noodwendigheeden zo op
+[recto] de Batterijen, als anderzints ten
+[recto] dienste der E Comp=ie te emploiee„
+[recto] e
+[recto] „ren, mitsgaders het onbruikbare
+[recto] te laten dienen, daar zulks 's
+[recto] Compagnies weegen: meest te pas
+[verso] veroorzaaken
+[recto] komen,
+== NL-HaNA_1.04.02_4325_0035 | #35 | sides: recto,verso | lines: 42
+[recto] 422
+[verso] komen kan:-
+[verso] Dan aangezien uijt het bev
+[verso] „rens meede in geleeverde rapport, der
+[verso] gecommitteerdens dewelke geva„
+[verso] „ceerd hebben, om de lading van het
+[verso] voorm: Schip de Paarl in het hier
+[verso] voorwaards gemelde schip de vreede
+[verso] te doen overbrengen, en van welk
+[verso] rapport Copia authenticq hier
+[verso] neevens is gevoegd, gebleeken is, dat
+[verso] onder de pakken Lijwaten dier over
+[verso] gescheepte Lading, zig nog bevo
+[verso] „den een aantal van 35:7, dewelke
+[verso] zo als hier voren zijn gespecificeerd
+[verso] ongemerkt dog van buijten droog
+[verso] en onbeschaadigt zijnde bevon„
+[recto] „den, inhouden moeten de Lijwaa„
+[recto] „ten die de scheeps overheeden
+[recto] volgens hun gegeeven beëedigd
+[recto] C
+[recto] Cev
+[recto] relaas te Isle de Fransce hebben
+[recto] doen uijtwasschen, en droogen, zon„
+[recto] „der dat van dezelve overleeden
+[recto] dien aangaande anders dan bij
+[recto] het openen derzelve pakken
+[recto] eenige nadere rekenschap of
+[recto] verantwoordinge kan werden af„
+[recto] „gevordert, waar omme ook nood„
+[recto] „zakelijk geoordeelt is, dat iemand
+[recto] beep
+[recto] hunner zig bij de ontlossing der
+[recto] es
+[recto] meergem: lading uijt het schip
+[recto] de Vreede in het Patria, present
+[recto] bevinden, om desweegens behoor„
+[verso] den
+[recto] lijke
+[recto] y
+[recto] ep
+== NL-HaNA_1.04.02_4325_0036 | #36 | sides: recto,verso | lines: 40
+[recto] 423.
+[verso] „lijke verantwoording te kunnen ap„
+[verso] „leggen; hebben wij derhalven om
+[verso] die reedenen meede best gedagt op„
+[verso] gemelde Captain Cornelis in t Inke
+[verso] behoudens zijn qualiteit en gagie
+[verso] tot eene zodanige verantwoordinge
+[verso] met ged=e Bodem de Rheede te doen
+[verso] repatrieeren. —
+[verso] even
+[verso] En nadien gem: Captain in
+[verso] Anker aan ons meede is komen te
+[verso] produceeren een reekening van het
+[verso] geene door denselven tot den in„
+[verso] koop van vivres geduurende het
+[verso] vertoef van voorm: bodem de Paar
+[verso] op Riode la goa is verschooten
+[verso] geworden, en waartoe denselven
+[recto] in de noodzakelijkheid is ge„
+[recto] weest, zijn eigen goederen te em„
+[recto] „ploieeren, bedragende de gem„
+[recto] reekening eene somma van
+[recto] Een
+[recto] rijxd=s 1577:42:— neemen wij de
+[recto] vrijheid op het verzoek van ged=e
+[recto] Eed
+[recto] Captn. In 't Anker Uwe wel Edelehen
+[recto] groot agtb: daar van behoorlijk
+[recto] kennisse te geeven, ten eijnde
+[recto] denselven om de voldoeninge
+[recto] dier Somma zig nader aan hoogenwert
+[recto] lo
+[recto] dezelve zal kunnen addresseeren.
+[recto] Betreffende nu het schip
+[recto] de Draak tot welkers Examina„
+[recto] en visitatie
+[recto] „tie van dies inhebbende Lading
+[recto] insgelijk
+[recto] des
+== NL-HaNA_1.04.02_4325_0037 | #37 | sides: recto,verso | lines: 37
+[recto] 424.
+[verso] insgelijks eene Commissie van zee=
+[verso] =en scheeps timmerlieden gesteld
+[verso] geweest, en door dezelve geconfir„
+[verso] „meert geworden zijnde, dat de
+[verso] weijnige gebreeken die zig aan
+[verso] dien bodem bevinden, niet van
+[verso] dat belang waren, of het ged=e:
+[verso] schip de Draak kan met gezua„
+[verso] „heid de reijze naar het vaderland
+[verso] vervorderen, staat dien bodem dus
+[verso] binnen korten, insgelijx met het
+[verso] resteerende van desselfs lading
+[verso] van hier afgezonden te werden:
+[verso] terwijl wij de vrijheid neemen
+[verso] Uwe wel Edele groot agtb: in
+[verso] deezen gesloten te doen toekomen
+[recto] een authenticque Copie van het
+[recto] voorm: berigt van zeelieden
+[recto] de
+[recto] dewelke tot d' Examinatie van
+[recto] het ged=e schip de Draak ge„
+[recto] Committeerd geweest zijn. .
+[recto] Gaande thans onder bestel„
+[recto] „linge van den Capitain van het hier
+[recto] schip de Paarl Cornelis in 't
+[recto] Anker in een apart Casje be„
+[recto] „sloten, ook over alle de originee„
+[recto] „le papieren door hem ter zijner
+[recto] verantwoordinge alhier aan ons
+[recto] overgegeeven, waar onder meede
+[recto] het Journaal en gehouden Equi„
+[recto] „pagie boek op het meerm: schip
+[recto] de Paarl en twee pacquetjes
+[verso] een
+[recto] onder
+[recto] Een
+== NL-HaNA_1.04.02_4325_0038 | #38 | sides: recto,verso | lines: 38
+[recto] 425.
+[verso] onder Cactet volant, waar in de roe„
+[verso] „le der gebrande kisten en balja„
+[verso] „gien der met dien bodem van Cei„
+[verso] „lon vertrokkene persoonen sijn
+[verso] „de vier Cassen met papieren, die
+[verso] zig insgelijx op dezelve bevonden
+[verso] hebben en bestaan in
+[verso] Twee Casjes n=o 6 en 8 besz: aan de hoog Edele
+[verso] Heeren Zeeventhienen
+[verso] Een _ n=o 10 met addresse aan ruwe
+[verso] wel Edele groot agtb„ en
+[verso] Een _o n=o 11 besz: Chormandelze zol„
+[verso] „dij boeken
+[verso] insgelijx op het Schip de Vreede
+[verso] geplaatst geworden
+[verso] Boven het welke wij ook
+[recto] nog d' Eere hebben uwe wel„
+[recto] Edele Groot agtb: deesen geinclo„
+[recto] „seerd aan te bieden d' afschriften
+[recto] van onse onderdanige letteren, sul
+[recto] en
+[recto] datis 2 novb=r des voorleeden
+[recto] Jaars mitsg=s 5 en 26 Iannuarij
+[recto] Jongstl: met de scheepen den
+[recto] hier
+[recto] Onseekeren, de Jonge Iacob en
+[recto] de Mentor, van hier aan het
+[recto] Illustre Collegie der hoog Edele
+[recto] heeren zeeventhienen gesup„
+[recto] pediteerd, met de daar bij ge„
+[recto] „horende Registers, nevens de„
+[recto] „welke nog gevoegd zijn.
+[recto] Duplicaat van het Cognoscement der ap„
+[recto] gescheepte wijnen in het on„
+[verso] nog
+[verso] M
+[recto] „langs
+== NL-HaNA_1.04.02_4325_0039 | #39 | sides: recto,verso | lines: 36
+[recto] 426.
+[verso] „langs voor de Camer Middelber
+[verso] van hier vertrocken schip de
+[verso] Mentor
+[verso] nog een origineele afschrift van 't behe„
+[verso] „digd Relaas der overheeden van
+[verso] 't schip de Paarl
+[verso] een authenticque Copije van het
+[verso] Eerste berigt van gecommitta
+[verso] „de Zee-en scheeps timmerlie
+[verso] „den, nopens de Examinatie va
+[verso] dien bodem.
+[verso] Copia authenticq Berigt nopens 't
+[verso] gedaan onderzoek na de Impote
+[verso] ten op de uijtkomende scheepe
+[verso] de Pranicier, Stavenisse, Leijd
+[verso] en Hud Haarlem.
+[recto] d'origineele korte factuur der lading van
+[recto] het schip de Paarl in de Stad
+[recto] Gale.
+[recto] Neegen Copia korte factuuren van
+[recto] het geladene tot Batavia
+[recto] en Ceilon in de scheepen de
+[recto] Ionge Iacob, oostzaandam
+[recto] de Vlissinger, de Juffrouw
+[recto] Iohanna, Mentor, de Een,
+[recto] „gezindheid en Doggers„
+[recto] „bank
+[recto] Van het alhier in gua
+[recto] „nisoen geleegend hebbend
+[recto] Switsers Regiment van
+[recto] Meuron, bereijds met den
+[verso] d'origineele
+[recto] beginnen
+== NL-HaNA_1.04.02_4325_0040 | #40 | sides: recto,verso | lines: 32
+[recto] 427.
+[verso] beginne deezer maand suc„
+[verso] „cessive 346 Man soo af„
+[verso] „ficieren als gemeenen in
+[verso] de tot derzelver Trans„
+[verso] port naar Ceijlon gedes„
+[verso] tineerde scheepen Iose„
+[verso] „phus de Tweede, de Trouwe
+[verso] Johanna, de drie gebroeder
+[verso] en 'T Fortuijn afge„
+[verso] „scheeps geworden sijnde,
+[verso] leggen die bodems dus
+[verso] zeijl rhee om met d' eers¬
+[verso] „te bequame geleegen
+[verso] „heid, met die troupes
+[verso] naar Ceilon voort te Steevene
+[recto] En hier meede beslui„
+[recto] „tende, beveelen wij Uwer
+[recto] wel Edele groot agtb: zeer
+[recto] geachter persoonen,
+[recto] neevens den importanten
+[recto] handel der E: Compagnie,
+[recto] in de divenen protectie,
+[recto] blijvende met verschul„
+[recto] dig respect. -
+[recto] Wel Edele Erntfeste,
+[recto] groot agtb: wel wijze,
+[recto] voorzienige zeer genereuse
+[recto] en gebiedende Heeren:
+[verso] En
+[recto] Umer
+== NL-HaNA_1.04.02_4325_0041 | #41 | sides: verso | lines: 8
+[verso] In't Casteel de goede Hoop Uwer welEdele groot agtb
+[verso] den 7:' Februarij 1788. -
+[verso] zeer onderdanige en Gehoort diena
+[verso] R: I: Gordon.
+[verso] P: J: Vande Graaf
+[verso] Johenius
+[verso] J: D Le Suain
+[verso] GGbirlet
+== NL-HaNA_1.04.02_4325_0042 | #42 | sides: recto,verso | lines: 39
+[recto] 428.
+[verso] N=o 2.
+[recto] Aan den wel Edelen Gestreke
+[recto] Cornelis Iacob van de Gran„
+[recto] Gouverneur en directeur van
+[recto] Cabo de goede Hoop
+[recto] en den ressorte vandien N88.
+[recto] WelEdele Gestr: Heer!
+[recto] In ons berigt sub dato 24. Novemb: was het dat
+[recto] wij de vreiheid, namen Uw Ed: Gestr: kennis te
+[recto] geeven dat wij ter dier tijd niet in staat waren
+[recto] over de weesentlijke toestand van het schip de
+[recto] Paarl zonder dat dezelve ontlost was, met
+[recto] eenige grond te durven oordeelen.
+[recto] Dan thans naar derzelver geheele ont„
+[recto] „lossing hebben wij ondergeteek=t/ geadsisteert
+[recto] van de mede Cap=n ter zee Rieben, geevels
+[recto] Muller en Cornelissen, de baas der scheeps
+[recto] leevert
+[recto] timmerlieden Meijndert van Eijk met vier
+[recto] der thans op de scheepen hier ter rhede leggende erlo„
+[recto] bescheiden oppertimmerlieden:/ ons vervoegd aan per
+[recto] weg„
+[recto] boord van gem: schip de Paarl aldaar exact
+[recto] en met de uitterste nauwkeurigheid die kiel
+[recto] zo binnen als buiten gevisiteert, van welkers p 't
+[recto] on
+[recto] bevinding hier onder de Eere hebben uwel Ed
+[recto] gesz: te berigten als dat in
+[recto] het agterschip de beide Hekbalken
+[recto] stukkend zijn, de Berkhouten en Randzoen
+[recto] houten die het gantsche agterschip in verband
+[recto] houden zijn alle van malkanderen de
+[recto] ver
+[recto] Orange of Banden die mede tot het sterkst
+[recto] verband van een schip horen zijn vervuurt ende
+[recto] bouwten los zo ook zijn alle de wuelfstukken bij
+[recto] na 30 van de Hekbalk afgeweeken.
+[recto] 43
+== NL-HaNA_1.04.02_4325_0043 | #43 | sides: recto,verso | lines: 77
+[verso] Onder de Grote Rust daar een schip sijn
+[verso] meeste kragt moet doen, en ook de grootste wer„
+[verso] „king heeft, zijn de Berghouten, en het breeken
+[verso] der boegen, daar een schip met stampen veel
+[verso] te leiden heeft, dwars af.
+[verso] De voorsteeven, die met de banden
+[verso] Van binnen en buiten huijs verknogt is; is,
+[verso] geheel uit syn Sponning geweeken, voorts de
+[verso] banden voor in de berg als ook alle de ver
+[verso] „band kniën in't ruim vervuurt en de bouw„
+[verso] ten meest alle zo los, dat men de zelve met
+[verso] een ordinairen Spijker hamer kan in en uit
+[verso] Deeze voorenstaande gebreeken
+[verso] vinden wij alle van die aangeleegendheid
+[verso] dat wij unaniem met volkomen gerustheid
+[verso] Uw Ed:e gest: kunnen berigten, dat wij dat
+[verso] schip onreparabel alhier bevinden, en ten
+[verso] eenemaal onbequaam tot eenig vervoer van
+[verso] deze Rheede Ja zelve naar't gevoegen der
+[verso] scheeps Timmerlieden hierbij assisteerende
+[verso] Zoude het schip in Holland selve niet waar„
+[verso] dig gekeurt worden, om er die kosten en daar
+[verso] toe vereischte moeiten aante doen. -
+[verso] en zo wij bij voorbeeld, geene gebreeken
+[verso] genoeg hadde kunnen vinden om gem: bodem
+[verso] met volkomen gerustheid onreparabel te
+[verso] kunnen verklaren: dewijl zig thans stil
+[verso] leggende verscheide deelen zig toezetten
+[verso] bemen goedgevonden had, dat schip naar
+[verso] eenige reparatie sijn reis van hier te laten
+[verso] vervolgen, zo zoude van de Cap=ns af, tot de
+[verso] minste der manschappen, zig tegen het ver„
+[verso] „trek met dat schip van hier gekant hebben,
+[verso] alzo zij alle betuigen /:gods goedheid dankender
+[verso] miraculeus alhier gekomen zijn, en zulke
+[recto] akelige omstandigheeden als dat schip zeeker,
+[recto] wanneer het weederom in zee kwam, boven
+[recto] reparatie boven al door het uit elkanderen
+[recto] werken aan haar oog vertonen zoude op
+[recto] haar reis na herwaards genoeg hebben
+[recto] moeten bijwonen, en niet weederom wenschten
+[recto] uit te vrstaan. —
+[recto] Hiermede hopende de ondergeteek„
+[recto] E
+[recto] Een
+[recto] aan Uw Ed: gestr: intentie voldaan te hebben
+[recto] von„
+[recto] en noeme ons met alle hoogagting en Eerbied
+[recto] /onderstond:/
+[recto] Wel Edele Gestr: Heer. Uw Ed: Gestr aller„
+[recto] hee
+[recto] gehoorzaamste Dienaren /:was geteekend:/
+[recto] h
+[recto] I: a: voltelen, S: H: Geevels C: v: veerden
+[recto] R: f: Riebe, C: Mulder, L Cornelissen
+[recto] J: Duminij D: Haas, /: ter zijde stond:/
+[recto] In onze praesentie :/ C:in't Anker, A: Stijnen,
+[recto] Ludewich Haak, H: Scheene, Livinus
+[recto] G: de Donker, /:in marginen:/ ten onzen over„
+[recto] staan /:daar onder geteekend:/ M: van Eijk,
+[recto] g: koning oppertimm: van't Leijden, &3:
+[recto] Barendse van oudh: Ian Pijhuijsen
+[recto] /:lager: / abo de goede Hoop den 1 Jann: 1738.
+[recto] Accordeert.
+[recto] ALorak
+[recto] Een Clercd
+[verso] akelige
+[verso] Slaan.
+[recto] sod
+[recto] we
+[recto] pe
+[recto] ver
+[recto] e
+[recto] 1
+[recto] 429
+== NL-HaNA_1.04.02_4325_0044 | #44 | sides: recto,verso | lines: 40
+[verso] N. o 4.
+[recto] Aan den welEdelen Gestr: Heeren
+[recto] Cornelis Jacob van de Graaff,
+[recto] gouverneur en Directeur van
+[recto] Cabo de Boede Hoop en de ressorte
+[recto] van dien &= &:a &=a
+[recto] WelEdele Gestrenge Heer.
+[recto] Ingevolge UwelEd: Gestr: zeer g'Eerde schriftelijke heed
+[recto] hier
+[recto] Last hebben wij ondergeteekendens nauwkeurie
+[recto] nagegaan en g'Examineerd de Journalen gehouden
+[recto] bij de scheepsoverheeden van het alhier kortelings
+[recto] van Mauritius gearriveerd Ceilons retourschip
+[recto] de Draak, en daaruit ontwaard welke reedenen
+[recto] en oorsake gemelde overheeden genoodsaakt
+[recto] hebben op haar te rug reijs van Ceilon naar
+[recto] herwaards om het Eiland Mauritius aan
+[recto] te doen. en bevonden dat gem: overheeden,
+[recto] door het verliesen van haar tuijg, en de
+[recto] bittere omstandigheeden waarin zij tussen
+[recto] den 26 en 27 Maart A. o p:o door een Swaare
+[recto] orcaan gebragt waren /daar toe onvermij=
+[recto] „delijk gedrongen en genoodsaakt zyn ge=
+[recto] door
+[recto] „worden. hebbende voorts, alles wat immer
+[recto] n
+[recto] kundige zeelieden kunnen, en in zo een geval ver
+[recto] moeten doen, in't werk gesteld.
+[verso] Copia.
+[recto] Muarina
+[recto] 430.
+[recto] p
+[recto] te
+[recto] len
+[recto] von„
+[recto] 1„
+[recto] 1
+== NL-HaNA_1.04.02_4325_0045 | #45 | sides: recto,verso | lines: 72
+[recto] 432
+[recto] 431
+[verso] Waarna wij ons hebben vervoegd naar het opgem:
+[verso] schip en aldaar zo nauwkeurig mogelijk en
+[verso] voor zo veel als wij in staat waren zonder ont„
+[verso] looing derlading, dezelve geinspecteerd en bevonden
+[verso] dat aan deselve zedert het vertrek van Maur
+[verso] „ritius geen schade door leccagie is veroorzaakt.
+[verso] Dan dat zy op last van Gecommitteerdens
+[verso] ter admiraliteit aldaar hebben moeten in zee
+[verso] „werpen 302 balen ten eenemaal bedorven Caneel
+[verso] 110000 lb a:o peeper en 414 baalen meede tot al bedorven
+[verso] Coffijbonen, zo ook bij ontlossing bevonden hebben
+[verso] 2119 zakken salpeeter ledig ingesmolten.
+[verso] bevindende zig nog volgens opgaaff der
+[verso] scheeps overheeden aan boord 82 baale Cardemon
+[verso] en Circa 500 balencaneel, die alle nat geweest zyn
+[verso] vervolgens hebben wij met assistentie, van
+[verso] den baas der scheepstimmerlieden van 's Comp:s
+[verso] Equipagie werff alhier Meijndert van Eijk
+[verso] en andere dieskundige Exact opgenoomen
+[verso] de toestand, van het schip de reparatie
+[verso] op Mauritius daar aan gedaan, die
+[verso] wij d'eer hebben hier onder te laten volgen
+[verso] als dat de oplangers aanstuurboord
+[verso] zijde /:waar over het schip zijn tuijg verlooren
+[verso] heeft. / meest alle 2 d:m afgeweeken zijn, het
+[verso] welk wij hier niet kunnen repareeren Edog
+[verso] van dat belang niet is off dit schip kan
+[verso] met gerustheijd zijn reijs naar Europas
+[verso] vervorderen. —
+[recto] zijnde de reparatie op Mauritius gedaan
+[recto] door ons bezigtigdt, en bevonde te bestaan
+[recto] in de volgende poincte als,
+[recto] Eerstelijk in de reparatie den stuurboord
+[recto] rusten. -
+[recto] en vervolgens een nieuwe krul, en bak
+[recto] Aan de stuurboords galderij, de vernieuwing
+[recto] van, alle de raamen en blindens in de Cajuijt
+[recto] Elber
+[recto] een nieuw stel vin gerlingen aan de agterstee vor„
+[recto] ven het voorzien van het roer, agter en voor
+[recto] 1
+[recto] steeven, de schotten tussen deks, en het ruijm
+[recto] en in de reijstkamers twee planke in het dek
+[recto] hee
+[recto] van tussen deks en t stuk in het boovendek
+[recto] h
+[recto] gezet; een sleutel tegens de zeijlbalk van 't
+[recto] halfdek, een nieuw potdekzel, aan stuur
+[recto] boord, alle de poorte tussendeks voorzien
+[recto] en zommige vernieuwdt eenige stukken
+[recto] aanstuurboord in de berghouten de spijker.
+[recto] huijd van agtere naar voore aanstuurboord
+[recto] zijde ter hoogte van 5 V=t door het tuijg
+[recto] beschadigd vernieuwt: en aan bakboords
+[recto] W
+[recto] zijde, en eenige stukken ingezet, een nieuwe
+[recto] eep
+[recto] werpen, een nieuw fiool op de boegspriet,
+[recto] worden
+[recto] zo meede alle de 3 maste van 't ingekogte Ruis
+[recto] schip gerepareerd, en voorts het schip zo
+[recto] binne als buijten geclamaaijd: en gecal
+[recto] faat. -
+[recto] Waar meeden wij hoopen aan
+[verso] zijnde
+[recto] de
+[recto] 2
+== NL-HaNA_1.04.02_4325_0046 | #46 | sides: recto,verso | lines: 56
+[verso] No 5
+[recto] 432.
+[verso] de Jntentie van UwelEdele Gestr: voldaan
+[verso] te hebben, noemende ons met diepontzag en
+[verso] eerbied..
+[verso] /.onderstond:/
+[verso] Wel Edele Gestr: Heer uwel Ed:
+[verso] gestr: aller gehoorzaams te dienaaren
+[verso] /:was getek:/ A: Voltelen C: v: Veerden 16
+[verso] Barendse D: Haas /:in margine/ Cabo
+[verso] de goede hoop den 14 Jann: 1768:/ en daar
+[verso] onder ten onse overstaan /:geteekend:/ M E: lyk
+[verso] H Termeulen H: Barrevoets /: in onze
+[verso] presentie /getek:/ P: f: ribe H: Driesman
+[recto] Den Wel Edelen Gestrengen Heere Cornelis
+[recto] Jacob van de Graaff Gouverneur en directeur van
+[recto] Cabo de Poede Hloop en den ressert van dien & & &
+[recto] ons ondergeteekendens expres hebbende gelieven te
+[recto] Committeeren, tot het ontlossen van het thans
+[recto] hier ter rheede- leggend Ceilens retourschip de
+[recto] Paarl, en weeder te doen inlaaden in het meede
+[recto] ter deeser rheede leggend ingehuud part: schip
+[recto] ke vreede om daarmeede naar 't Patria te
+[recto] kunnen retourneeren voorts de pakken, balen
+[recto] en verdere goederen, die beschadigt en nat bevon¬
+[recto] den werden naland te doen brengen, soo ver„
+[recto] klaaren wy het een er- anders dusdanig ver„
+[recto] regt te hebben, soo verre men van buiten aan
+[recto] de pakken en balen eenig bederf of nattigheid
+[recto] heeft kunnen ontwaaren in maniere als hier
+[recto] onder gespecificeerd staat namentlyk.
+[recto] 6798 lb p=to ongesuiverde salpeeter, die door de scheeps
+[recto] overheeden op mauritius leggende bevonden zyn
+[recto] dat alle door het zeewater gesmolten waaren
+[recto] 150584 lb Cauros de moldevos ongesueverde waar van
+[recto] 147837 lb in 't schip de vreede overgescheept zyn
+[recto] en 2747 „ door de scheepsoverheeden te min ust geleevert
+[recto] en by 't lossen en laden op mauritius verlo„
+[recto] ren gegaan als onder de bedorven peeper
+[recto] en bi geraakt zynde, daarmeede weg„
+[recto] geworpen geworden
+[recto] 16650 lb sappanhout bemas en't schip de Vree de overgescheept
+[recto] „ Wij boonen Jacatrase alle door 't zeewater nat geworden
+[recto] en bedorven en door de scheeps overheeden op Mauritius
+[recto] wegelworper—
+[recto] 76 baler Cardimor Ceilonse
+[recto] ten deele min of meer door
+[recto] 1600 d. o Caneel feine Ceilonse bigekoomen zeewater na't
+[recto] gewerden en aangeslagen, als meede een port ge„
+[recto] deelte dier balen, ten eenemaale bedorven
+[recto] alle in 't schip de Vreede overgescheept.
+[verso] Accordeert
+[verso] AHlbrak
+[verso] Egllerg
+[recto] 1 kasje
+[recto] 100. 000
+== NL-HaNA_1.04.02_4325_0047 | #47 | sides: recto,verso | lines: 109
+[verso] N2
+[recto] 433.
+[verso] overgescheept
+[verso] 1 kasje waar in 12 lb Caneel oly pro patria in 't schip de Vreede
+[recto] 29 pakken per Transport
+[recto] 1 beschreeven Salempoeris grof geb: a 80 p. s mnyder kelkere
+[recto] pro patrin 1786
+[recto] No. 74
+[recto] salenpaocris geb: nieuw monster 80p=s in yder
+[recto] mannapaar pro patria 1786
+[recto] No. 58
+[recto] Salempoeres gebl: nieuw monster 80 p. s in ieder
+[recto] totucorijns pro patria 1786
+[recto] N 56
+[recto] salempoeris grof ruuw a 80 ps mannapaar
+[recto] propatree 1786
+[recto] salemparis fijn gebl: a 100 p:s en yder ponne
+[recto] eyls pro patria 1786
+[recto] N 25. 26
+[recto] salempoers fin geb: a 100 p.s in yder man
+[recto] napaar plo patria 1786
+[recto] N 42
+[recto] hane caatjes gem: geb: a 50 p. s in yder man
+[recto] na pai pra patreo 1786
+[recto] N: 16 en 134
+[recto] kallemapangs fijn geb: a 100 p:s Tuta„
+[recto] enens pro pathea 1786
+[recto] N 390
+[recto] kallemagarys fyn gebl: a 100 ps ton
+[recto] tu  po patria 1786
+[recto] No: 43
+[recto] kattekaatjes gem geb: a 100 p:s por„
+[recto] necxls pro patrio 1786
+[recto] N 31
+[recto] 61 pakken als voorsz:
+[recto] 357 — „ sonder merken, die van buiten droog en
+[recto] onbeschadigt waren en't schip de Vreede
+[recto] overgescheept
+[recto] die ten deele nog nat, ten deele door bijge
+[recto] koomene nattigheid bedorven en aangeslagen
+[recto] waaren; naland gesonden, en by t ontpakken
+[recto] daar in bevonden als volgt
+[recto] 20 pakken a 30 p. s in ieder grof guinees
+[recto] Salempoeris
+[recto] 6 — — „ 80 „ „ „
+[recto] 8
+[recto] - „ 100 „ kattekaatjes gem:t gebl:
+[recto] 445 pakken als gem.
+[verso] 258765 lb peeper mallabaars - waar van
+[verso] 198399 lb in 't schip de vreede overgescheept zyn
+[verso] en 60366 „ door de scheeps overheeden te min uitgeleevert
+[verso] die door 't zeewater nat geworden ten eene
+[verso] male bedorven en op Mauntius weggeworpen
+[verso] zyn
+[verso] 445 pakken diverse lywaten blstaande - blykens extract
+[verso] uit de factuur in
+[verso] 282 pakken guinees grof gebl:
+[verso] 100 —Salempaeres is
+[verso] mun
+[verso] 6 — guinees
+[verso] 28 — hanecaatjes gem. geblt
+[verso] 10 —o Callemaganys fyn d=o
+[verso] do
+[verso] 4 — salempoeris „
+[verso] 5 — Cattekaatjes gem
+[verso] 5 — — fyn -
+[verso] 1 — moenemolanis gebl=t
+[verso] 2 - - peris moenemolanis d=o
+[verso] waar van men van buiter geen opschrift, dan aan de hier
+[verso] na gespecificeerde t'e pokken heeft kunnen bekennen, dus
+[verso] van de overige der inhoud onbekent gebleeven te weeten
+[verso] 61 pakken gemk=t als volgd
+[verso] 16 pakken beschreeven - guinees grof geblt 30 p. s in yder Tutucoryns
+[verso] pro patria 1786
+[verso] N 12, 44, 5, 48, 75, 24, 9. 83
+[verso] 46, 30, 70, 63, 19131, 10, 26
+[verso] —„ guinees prof geb: a 30 p. s in yder ponneexs
+[verso] pro patria 1786
+[verso] No 21, 19, 34, 31, 26, 25, 27,
+[verso] guinees grof geb: a 30 p. s inyder kilkere
+[verso] pro pottria 1786
+[verso] N 10, 12„ 2 16, 28, 9, 24, 78
+[verso] „guinees grof gebl: a 30 p. s in yder mannepaar
+[verso] pro patria 1786.
+[verso] N=o 118, 106
+[verso] guinees 92of ruuw waar en 30 p. s mannapaar
+[verso] pro patrio 1786
+[verso] No. 20
+[verso] salempoeris grof geb: 80 p:s in redes ponneeyls
+[verso] pro patrie 1786
+[verso] N „ 36, 24, 5, 38, 14, 2, 16, 13, 18, 21
+[verso] Salempoeres grof geb: 80 ps mp den mannapaar
+[verso] pro patrio 1786
+[verso] N: 60, 61, 129, 131.-
+[verso] 49 pakken die Transporteere
+[recto] 91 balen
+[verso] 2 —
+[verso] de
+[verso] do
+[verso] -
+[verso] 11
+[verso] 4
+[recto] 27—
+[recto] 7
+[recto] 2
+[recto] 1
+[recto] 2
+[recto] 1
+[recto] -
+== NL-HaNA_1.04.02_4325_0048 | #48 | sides: recto,verso | lines: 40
+[recto] 434.
+[recto] Perle Cappitaine in 't Anker, Son Compte ame M: M: S: Mommeron et Conp: Avoor
+[verso] 91 balen Cattoene gaarens waar van
+[verso] 67 balen aan dewelke men van buiten geen nattigheid
+[verso] nog eene bederf heeft kunnen sien, in t schip
+[verso] de Vreede overgescheept zyn
+[verso] 24 — die nat geweest en daardoor bedorven waren
+[verso] na land gesonden
+[verso] nog zyn van land in 't schip de vreede afgescheept
+[verso] Coy boonen alle gem. &
+[verso] 654 balen bourbonsche
+[verso] die den 12 dctober 1787 in 't fransch past: schip
+[verso] 2' auguste zyn ongekopt en gewogen als volxt
+[verso] Blo 67301 lb
+[verso] Tana 2879 „
+[verso] Netto 64 422 lb
+[verso] /:onderstond:/
+[verso] In 't Casteel de Goede Hoop den 29 Dec 1787.
+[verso] /:was geteekend:/
+[verso] C: Matthiessen, F: G: Heltzapfel,
+[verso] J: A: Veltelen,
+[verso] P:r I: Pueter, A: D: Waal /:in margine/
+[verso] Ter onser presentie /:en geteekend:/ C: in 't
+[verso] Anker, H: Hine.
+[recto] 1783
+[recto] AAvil 14 Jachas par nous fait de m:r in 't anker de la Careas„
+[recto] „se di vaisseau Le david - - - . . 12000 „
+[recto] Jles objets ci apres rendus a liencon de Wr Pelle
+[recto] notaire le savril Caurent provenant de la perle savoir
+[recto] 1 mat de miraine de la Perle. . . . . 200
+[recto] 12 marceaux de bois et, Gallle 1600 ƒ 4300 — —
+[recto] 24 Legres A 14 demi legres vielles 7806
+[recto] porte de l'antre part 16380
+[verso] Accordeert
+[verso] Lorak
+[verso] Eylleren
+[verso] -
+[verso] wets
+[verso] 6
+[recto] „
+== NL-HaNA_1.04.02_4325_0049 | #49 | sides: recto,verso | lines: 63
+[recto] 435.
+[verso] 1787
+[recto] Sucte montent de lautre part 16380
+[verso] Souite et montent de L'autre part 168237 14 8
+[verso] avril 13 ps 24 lb vrande a 20 —. . . . . . 24 „ —
+[verso] p de Cargement ettecargement de 750 ton
+[verso] neaux de marchandisses formant la
+[verso] Cargjaison oit dit visseau a 16 Le tomeau 12000 „
+[verso] pCommission a 5 PCto sur 168261:14:8
+[verso] monhant de sommes paije pour du
+[verso] dit visseauw. . . - - - - 8413 1 —„
+[verso] 188674 15 8
+[verso] les quelles 188674: 15: 8 a 25 pC=to. dagio
+[verso] font argent fort - - . . . . . 150939 16 7
+[verso] paur lemontent des fournitures et repa„
+[verso] rations, faites au vaissiau la perle sui
+[verso] „ vant le Compte detaillés et remisa
+[verso] m„r in 't anker - - - - - - --
+[verso] 74915 6 - „
+[recto] les quelles 16380 = a 25 pCo dagie
+[recto] font argent fort. . . . . . . 13004
+[recto] p: le remises de mr in 't anker en sestiates
+[recto] ei apres sutc mms les directeurs de la Compe.
+[recto] des Indes orientales a Amsterdam, pagables
+[recto] atrois mois de vué ende Compte de nas
+[recto] fournitures et reparations du dit vaisseau le serle
+[recto] due.
+[recto] die n
+[recto] on par saldo
+[recto] du 15 febrier - - - - fR:o 1236 —: —„—
+[recto] due „. . . . . . . . . „ 12637: —„ 28.
+[recto] die „ . - - - „ 10000 „. . . . .
+[recto] die „. . . . . . . . „ 4000 „ —„—
+[recto] die „. . . . . . . . . „ 6000 „ —„ —.
+[recto] die „ - - - - - - - - - - 6090 „ — 12
+[recto] di de 10. mars. . . . 6000„ —„
+[recto] _o. . . . 6200 „ —
+[recto] „ - - - 6300 „ „
+[recto] dn „ - - - - - 6500 „ - „
+[recto] die die 13. avril - - - - - 5000 „ — „
+[recto] en. . . . . . . . . . . 7500 „ — „
+[recto] en „ - - - - - - - - 2000 - -. -
+[recto] en „ - - - - - - - - 0500 — „ . -
+[recto] 9859 „ -. „
+[recto] 103 859 flooin banco
+[recto] le quels 108859 florin banco a 41 sols argent
+[recto] fort, doment pour balance du present Compte 212911 2
+[verso] 225915: 2 7
+[recto] 67
+[verso] saitet arreté le present Compte double souserreur ou amissin montent àla somme de deux cent vengt cinq: mille neuf
+[recto] 225915 27
+[verso] cent quinze livres, deus solset Lept deniers argent fort, du quel Compte nous avons remit totiles les pieces ). Iustificatives, au
+[verso] Loutie a monstr in 't Anker
+[verso] Au port Louis ple de France Le treire Avril mil sext cent quatre venef Sept. —
+[verso] /Signe/
+[recto] J monneron et Comp=e
+[verso] Ct in 't Anker
+[recto] Accordeert
+[recto] ak
+[recto] Eg Clerq
+[verso] 1787
+[recto] Savoir
+[recto] 7
+== NL-HaNA_1.04.02_4325_0050 | #50 | sides: recto,verso | lines: 128
+[recto] 436.
+[verso] Doit La vaisseau de la Comp=e des Indes Orentalis de Hollande L
+[verso] 1787
+[verso] fevrier3 p autans Compte a Mons=r. in 't anker Capne. . . . . 1000 „
+[verso] 24 pachat due vais seau Le david aec ses agres appareaux
+[verso] 26 paije a un pilote du poit suiv=t Lemandat de w: in 't aukes 300 „
+[verso] 27 p: 30 lb de viande a 20. stuijvs - - - - - - - - 30 „
+[verso] „ pun mandat de m=r in 't anker - - - - - - - - „ 100 „ „
+[verso] 9000 „
+[verso] mars P p 148 vettes ven du Capa 8 - - - - - - - - 1184 „ „
+[verso] pin mandat de m=r in 't ankes. . . . . 500 „
+[verso] 10 ps 5 3 vettes ½ haudevie a 8:10
+[verso] 14 p feais de Beneficiement de 430 ballas de toele de
+[verso] voises suivant LeCompte de L'amiraute. 62355 „
+[verso] 19 p 24 lb de viande a 20 stuijv=s 24 „
+[verso] 20 ps 2080 lb de viande adost. . . . . . . . 2080 „
+[verso] 22 paije a um garde de policie. . . . . . . . . 40
+[verso] Avril '1 paije a in Pilote sir le mandat de m=r in 't anker 200
+[verso] 4 p diverse Cordagjes p=t 690 lb d 80:„ - - - - 532
+[verso] pune genne de geadron. . . . . . . . 140.
+[verso] 7 ps 2 mois r2 de loverde magasins pour le balle &
+[verso] paije a un gresse de L'amiraute pour les expedi„
+[verso] tions de la declaration de m=r in't anker et proces
+[verso] verbeaux de visites a bord de la perle 536 6 8
+[verso] p s 179 lb beurre a 3' 10 st - - -. - - 626 10 „
+[verso] p812 lb: de viande a 20 - - - - - - - - . . . . 812 „
+[verso] p nourriture d'in soldat gardie des balles. . 400 „
+[verso] 10 p 2 mois de loijer d'un magasin Contenant les agrés„
+[verso] du raisseause david a 130 par mois. . . . 260 „
+[verso] 11 p. deverse medicamants pajes aun apoticaire. 8 90 „
+[verso] 12 p 50 Culottes et 50 vestes pour le matelots. . . . 2500 „
+[verso] p: 240 lb viande a 20
+[verso] p: 400 lb de poudree Canon a 36=. . . . . . 720 „
+[verso] p: 1 2 Joumees a 44 l. . . . . . . . . . 158: 8: „
+[verso] p 4 d=o de Chaloupse. . .
+[verso] p16 d=o de gielins. . . . . . . . . 105 „ 12 „
+[verso] droits de ventes et vacations de m=r pelle Notaire
+[verso] des objets appartenant aux visseaux 127, 5
+[verso] 13 paije au pilote qui a mis la perle hors du port 200 „
+[verso] p diverse herbagies poin l' Equipage. . . . 580
+[verso] pour diverse virres envoijes a bord. . . 82: 6:—
+[verso] p: 50 lb bougies a 4: 10 - - - - - - - 225 „ —„
+[verso] 240 „ -„
+[verso] 105„12 „
+[recto] Doit La Perle van de la noble Compagnien
+[recto] Hollandoese des Indis orcentalis Capitaine monsr
+[recto] 6s In't Anher pour reparations Journiturese faires
+[recto] au dit vaisseau comme suit
+[recto] argent fort
+[recto] 1787 2Dr
+[recto] Ianvier 16 2000 saisde gonis
+[recto] 17 2 bordages bois pesant Ens 58 P 12: 3 Catons 14:6
+[recto] akle pud enbe
+[recto] 18 287 auedts
+[recto] 2 serrures de 8 ponces
+[recto] 6 Clous
+[recto] 4 planches Ens 64 pds Pd la magazen C„
+[recto] „
+[recto] 20 1 meule acquiser
+[recto] „ 100 etoupe
+[recto] „ 300 Clons de 5 p=res
+[recto] „ 37
+[recto] 3 madriees bois pesant en 171:10:2 cub 19: 16:4
+[recto] 23: 13: 3 „ 6: 2:9
+[recto] 1 do
+[recto] 22: 12: 4 „ 7: 4
+[recto] 29: 16:4 „ 12: 10: 8
+[recto] 98:10:2 „ 13: 7: 4
+[recto] 49: 3: 3„ 3: —: „
+[recto] 24 3 Chevrous
+[recto] Ensemble pieds ceibes 53 a 5 un 265 -
+[recto] 29 200 accedts
+[recto] 25 Clous de 8 pouces
+[recto] 2 madriers en semb 56. pd:s 12: 4 Cobants 18 p 8 pa 5
+[recto] 2 repoussons pesant en 15
+[recto] 25
+[recto] 29 2 madeurs de 30 pons: 60: 13:2¾ P 14: 10:8 a 5
+[recto] 27 66e Clous de 3 et c pouces
+[recto] „ 200 anndts
+[recto] „ 1 Courbe pourle met d'artimon 9: 18:10 60 —
+[recto] 1 Ioumée diane Chaloupe armee
+[recto] 31 1 matsee pointie rejacte p=r 1l 20ƒ „1
+[recto] 1 p=a de boes 5Ø 14: 6 Cast 3 p=l
+[recto] 20
+[recto] 93 16 8
+[verso] porte de l'autre part. - 168237: 14: 8
+[recto] Porté er lautre partl 3511 3 8
+[verso] „ paijé â in pelote - - - - - - - - - 50 „ „
+[verso] -  471„15
+[recto] 23 1 do
+[recto] 5
+[recto] do
+[recto] do
+[recto] -
+[recto] 7
+[recto] de
+[recto] 25
+[recto] 10 ƒ
+[recto] „ 30
+[recto] „ 46 5
+[recto] „ 50 ——
+[recto] „ 30 — —
+[recto] „ 19 4 —
+[recto] „ 6 — —
+[recto] „ 16 — —
+[recto] „ 66 —
+[recto] „
+[recto] 72 10
+[recto] 2400 —
+[recto] 23
+[recto] 8
+[recto] 29
+[recto] ƒ
+[recto] Savoir
+[recto] 23 46 -
+[recto] 25
+[recto] 20
+[recto] 23
+[recto] ƒ
+[recto] 15
+[recto] 48 —
+[recto] 46 —
+[recto] 66:
+[recto] 74 8 —
+[recto] 18 15
+[recto] 31 5
+[verso] -
+== NL-HaNA_1.04.02_4325_0051 | #51 | sides: recto,verso | lines: 173
+[verso] 1787
+[recto] 437
+[recto] Montant de l'autre part L: 7: 332 6 8
+[verso] Montant de lautre partl 3511 3 8
+[verso] sevrier 1 2 Chevilles ra Commodes pesant al 40 s „ 4 — -
+[verso] 2 verolles
+[verso] 4 blanc de aruse
+[verso] 100 C Etoupe
+[verso] 12 gaepons
+[verso] 2 2 p=ces jebors de tacamaca de 34 et 36 p„s 16 p=las
+[verso] sur Pa. Samelles
+[verso] 1 Chaine de Candelette refacte por 9n l 20 s„
+[verso] 10. Chevilles de refectes pt 162
+[verso] 10 Grandes verolleset 10 grades goupilles 20 s„
+[verso] 3 4. Chevilles refaites pt 14 l
+[verso] 1 doublage de 27 pieds
+[verso] 23
+[verso] 4 200e d' aucdts
+[verso] 7 16 graviers a Eest matie auten 3
+[verso] 6 200=e d'arieots
+[verso] 23
+[verso] 7 2 madtiers ens 50:12:5 Cub 20=de 10 d=o 5
+[verso] 1 piece de bois 39 p=s 17d 10
+[verso] 9 2 marteaar adents
+[verso] 10
+[verso] 200l: Cloris de get 12 ponces 25 „
+[verso] 14: 10b: d=o de 12 pees
+[verso] 2 bordages de 21. ps at: 12:2 lub 7:
+[verso] „ 26: 131½ „ 3: 6:3
+[verso] 1 do
+[verso] 1 d:o
+[verso] „ 24: 121½: „ 3: „: „
+[verso] do
+[verso] „ 28: 131½ „ 3: 9: 6
+[verso] 1
+[verso] 1 do
+[verso] „ 24: 12:2 „ 4: „: „
+[verso] 1 madeur
+[verso] „ 27: 11:6 „ 12: 4: 6
+[verso] „ 27: 11: 5 „ 10: 3: 9
+[verso] 1 d=o
+[verso] Esemble purs cubes 44dus a 5 sep
+[verso] 6 reponssores resoyts p 29 „ 20
+[verso] neu„ 4
+[verso] 25„
+[verso] 4
+[verso] 4
+[verso] „1 200 de poros
+[verso] 23 „
+[verso] 12 Courbes
+[verso] 12 6 grandes vrilles
+[verso] 1 Bque de brais gros p:r mett 450l 10„
+[verso] 24
+[verso] 690 „
+[verso] 38 „
+[verso] 162 „ „
+[verso] 20 „ „
+[verso] 14 „ „
+[verso] 13 10 „
+[verso] 46: „ „
+[verso] 48 — —
+[verso] 46 „
+[verso] 104 3 „
+[verso] 1000 „ „
+[verso] 20 „
+[verso] 254: „
+[verso] 132: 10
+[verso] 224 — —
+[verso] „ „
+[verso] 29
+[verso] F
+[verso] „ „
+[verso] 46 „ „
+[verso] 600 „ „
+[verso] 24 „
+[verso] 229 „
+[recto] Jevruri2 une meule de 26. pouces montee
+[recto] 6l ½ de blanc
+[recto] 17 1 P=re de boos de 18 7:7: Cubant 6:1:6
+[recto] 20:6:6 „ 5: „ „
+[recto] do.
+[recto] 1
+[recto] „ 3:1:6
+[recto] 18:5:5
+[recto] 1 do
+[recto] 16:5:5 „ 2:9: 4
+[recto] 1 do
+[recto] 1 madrier 14:12:7 „ 8:2: „
+[recto] 1 d=o 10: 10: 7 „ 4: 10:4
+[recto] 21: 13: 6  11:1:6
+[recto] „ 6:1:8
+[recto] 17:13:4
+[recto] 25: 11:1½ „ 2: 10: 4
+[recto] 30: 11:1½
+[recto] „ 3: 5: 3
+[recto] „ 3: 5:3
+[recto] 19 1 do
+[recto] do
+[recto] 1
+[recto] do
+[recto] 1
+[recto] 1 do
+[recto] Ensemble pieds Cubes 57:3:8. 5 286 8 „
+[recto] 2 Sarrieres refactes
+[recto] 5 d=o netises
+[recto] 3 limes
+[recto] 6 musses pt 42l
+[recto] 3 maittets a Charpentier 20
+[recto] 200 Etoupe
+[recto] 174 l aplomb
+[recto] 16 e Clous aplomb
+[recto] 20 200l de pords
+[recto] 100 Clons de 8 et 9 P=res 25
+[recto] 21 200 leloupe
+[recto] 1 barcque brais gras pest nitto 460s 10 „ 230 „ „
+[recto] 82½ de blanc
+[recto] 8 fiches p=t 156
+[recto] 2 Chevilles neuves p b
+[recto] 6 „ „
+[recto] „ 25 „.
+[recto] 9 „
+[recto] 25 „ 52 10 „
+[recto] 3 „ „
+[recto] „ 100 „
+[recto] 174 „„
+[recto] „ 16 „ „
+[recto] „ 46 „ „
+[recto] „ 125 „ „
+[recto] „ 100 „ „
+[recto] 10 12. 6:
+[recto] 25 „ 18 15 „
+[verso] Porte ci Contre L 7332 68
+[recto] Porté en l'autze part £ 8600 4 8
+[verso] 1
+[verso] fe
+[verso] A
+[verso] 40
+[verso] 10
+[verso] 25
+[verso] 10
+[verso] „
+[verso] 50 „
+[verso] 5
+[verso] „
+[recto] 1787
+[recto] ƒ
+[recto] 1 do
+[recto] 30: 11½
+[recto] -
+[recto] 10
+[recto] 20
+[recto] 20
+[recto] 10
+[recto] 25
+[recto] 25 „ 7 10 „
+[recto] -
+[recto] „
+[recto] „
+[recto] 8 2 6
+[recto] 50 „
+[recto] 25
+[verso] „
+[verso] „
+[verso] „
+[verso] „
+[verso] „
+[verso] „
+[verso] „
+[verso] „
+[verso] „
+[verso] 50 „
+[verso] 4 „
+== NL-HaNA_1.04.02_4325_0052 | #52 | sides: recto,verso | lines: 156
+[recto] 438.
+[verso] 1787
+[verso] Montant de Lautre part £ 8600 4 8
+[verso] fevrier 21, 1 piece de bors de 17: lb: 5 Cubans 4: 8:8
+[verso] 1 madrier 15:11:5: „ 5:8:9
+[verso] 17:13:4 „ 6:1:8
+[verso] 15: 10: 4 „ 4:2:
+[verso] 20:10:4 „ 5:6:8
+[verso] 14: 10:4 „ 3:10:8
+[verso] 14: 9: 7 „ 4: 1 „
+[verso] 13: 6:5 „ 2:8:6
+[verso] 16: 6:4 „ 2:8: „
+[verso] „ 3: 10 „
+[verso] 23:8: 3
+[verso] „ 3„ 1 „ 6
+[verso] 19: 10: 3
+[verso] „ 3„ 8„ 4
+[verso] 19: 7: 4
+[verso] „ 4„ 6„ „
+[verso] 18:9: 4
+[verso] „ 5„ 33
+[verso] acubant Ensemble 60: 1 a cles cubl 300 8 4
+[verso] 1 Courlee 9: 9:7
+[verso] do 7 7: 5
+[verso] „ do 8:9: 8
+[verso] 3 bors de Chaloupe
+[verso] 1 piece de bors 24:12: 12 cu624
+[verso] 1 madries 16:10:4 „ 4:5:4
+[verso] 22: 12:4 „ 7: 4 „
+[verso] 1 do
+[verso] 1 d:o
+[verso] 23: 9: 4 „ 5: 9 „
+[verso] 1 do
+[verso] 22:7: 4 „ 4: 3: 4
+[verso] 38:13:1½ „ 5:8:6
+[verso] Eubants Essemble 51:4: 2 a5 lept Cab: 256 19
+[verso] 22 18 b de blanc
+[verso] 6 meches
+[verso] 1 vre bragain
+[verso] 1 Compas deser
+[recto] Montant dece Contre L 9358:18:—
+[verso] 50 „ „
+[verso] 45 „ „
+[verso] 2.5 22 10 —
+[verso] 6 „„
+[verso] 15 „ „
+[recto] fevrier 22 2 siseaux a froed 5
+[recto] 2 ponnons
+[recto] 1 madrier 16:10:4 cabant 4: 5:4
+[recto] d:o 19: 12: 4 „ 6:8:—
+[recto] do
+[recto] 9: 11: 4 „ 5:9:8
+[recto] 1
+[recto] 17: 9: 4 „ 4: 3: —
+[recto] 1 d o
+[recto] do
+[recto] „ 2: 9: —
+[recto] 11: 9: 4
+[recto] 1
+[recto] 1 do
+[recto] „ 4:4:6
+[recto] 20: 9: 3½
+[recto] 4 do
+[recto] „ 2:9: „
+[recto] 44: 9:1
+[recto] „ 1:6:8
+[recto] 2 do
+[recto] 28: 8:1
+[recto] „ 3: 4: „
+[recto] 60:8:1
+[recto] 9. do
+[recto] do
+[recto] „ 1:1: 4
+[recto] 20:8:1
+[recto] 2
+[recto] „ 1:5: 4
+[recto] do
+[recto] 26:8:1
+[recto] „ „: 7: 4
+[recto] do
+[recto] 11:8:1
+[recto] „ „: 8:3
+[recto] 11:9:1
+[recto] Ensembles puds Cubes 39: 9: 5 Le pd „ 198 18: 8
+[recto] 23 200l datricots
+[recto] 200 d' Eboupee
+[recto] 62=s elous de 3 porces
+[recto] 1¼ diacer
+[recto] 2 grants azeaux pour Charpentier 6 12 „ „
+[recto] 3. surrieres refaites 3
+[recto] 1 golette de pompe serra a neuf une
+[recto] Chapine avec les secuses &a
+[recto] 24 21 chevilles neuves pt 147 ob
+[recto] 22 vivelles
+[recto] 24 houpilles
+[recto] 2 azeaux asaerd racomodes 3
+[recto] 33l clous de 8 pouces
+[recto] „ 5 do
+[recto] 33
+[recto] 23 46 „ „
+[recto] 100 „„
+[recto] 62 „
+[recto] „
+[recto] 1 „ „
+[recto] 9 „
+[recto] 50 „ „
+[recto] 25 183 15 „
+[recto] 20
+[verso] Porti ca Contre L 9358 18 „
+[recto] Porte en laatze part £ 10164 168
+[verso] 1
+[verso] 1
+[verso] 1
+[verso] 1
+[verso] 1
+[verso] 1
+[verso] 1
+[verso] 1
+[verso] „
+[verso] „
+[verso] „
+[verso] 19:8:5
+[verso] „
+[verso] „
+[verso] „
+[verso] 1
+[verso] „
+[verso] 4
+[verso] 12 „
+[verso] 48 „
+[recto] 1
+[recto] 1
+[recto] 2
+[recto] do
+[recto] 20
+[recto] 1
+[recto] „ „ „
+[recto] 6 „ „
+[recto] 6 „ „
+[recto] 33 „ „
+[recto] 33 „ „
+[recto] 34 „ „
+[recto] 5
+[recto] 10
+[recto] 20
+[recto] „ 4 „
+[recto] 34
+[verso] 3 „ „
+[verso] 20.
+[verso] 2 do
+[recto] „
+[recto] 1787
+[recto] 5
+[recto] 10 „
+[recto] 10 „
+== NL-HaNA_1.04.02_4325_0053 | #53 | sides: recto,verso | lines: 155
+[recto] 439.
+[recto] Montant de ce Contre L 11726: 11 10
+[verso] Montant d'lautre part £ 10164:16:8
+[recto] mars 27 12 quipons
+[recto] 87e Clous de 12 et 14 Pies
+[recto] 75 do
+[recto] ges
+[verso] 24
+[verso] Jevrur 24 6 grandes Vrilles
+[verso] 3 moyennes
+[verso] 1 piele de bois 25: 18: 15 en bant 46:10:6
+[verso] „ 5: 9:„
+[verso] 23: 9: 4
+[verso] 23: 9: 3
+[verso] ƒ 4:3:4
+[verso] 17: 11: 4½ „ 5:10:1
+[verso] 15: 18: 3½ „ 2: 11: „
+[verso] 24: 14: 3
+[verso] „ 7: 3:6
+[verso] 17: 11: 2 „ 2:7:2
+[verso] 16:11: 2
+[verso] „ 2:5:4
+[verso] 24:12:3 „ 6: „:„
+[verso] Ensemblespieds ceibes 84: 4:5
+[verso] 26: 10 virolles et 10 gouvilles
+[verso] 6 pinces plattes pour de doubler p 41=s 25 „
+[verso] ½ journes de deux noors soyerons
+[verso] 9 Chevilles pt 21 L
+[verso] 200 L E toupe
+[verso] 13 L Clous a plomb
+[verso] 27 1 picee de bors 17:11: 12 Cabant 19:10
+[verso] 1 do
+[verso] 12:9: 4 „ 3: „: „
+[verso] 12: 8: 4 „ 2:8: „
+[verso] „ 2: 11: „
+[verso] „ 2:6:„
+[verso] 1 d=o 20:12:1½
+[verso] 21:8:1½ „ 1:8:„
+[verso] 29: 12:1½ „ 3: 1:6
+[verso] __o
+[verso] 26:15: 4 „ 10:10:„
+[verso] Ensemble pieds cabes 46:6:6a clepr Ct=o
+[verso] 420 2 4
+[verso] 7 10
+[verso] 51 5 „
+[verso] 6 „
+[verso] 25 „ 26 5 „
+[verso] 10 „ 100 „ „
+[verso] go
+[verso] 1 madrier 20:7:3
+[recto] 133 „ „
+[recto] 135 „ „
+[recto] 32 Chevilles neuves ps 108l 20
+[recto] 1 circle a Chameere pt 17
+[recto] 1 Chevelle refaite pt 20
+[recto] 1 virolle et 1 goupiele
+[recto] 2 Circles de bont de verque racommode p a 9 20 ƒ 49 „ „
+[recto] 2 verolles et 2 goupilles
+[recto] 28 l Chevilles refaites pt 4l 20
+[recto] 11 do neuves pt 46 „ 25
+[recto] 8 Crampel neuves
+[recto] 4 virelles et 4 goupilles
+[recto] 200 Etoupe
+[recto] 41 L plomb
+[recto] 3 tarrieres
+[recto] 2 houges
+[recto] 1 barcque bray gras pt: ret 596l 10
+[recto] 1 do
+[recto] 38l Clous de plomb
+[recto] 6600 Epittes
+[recto] 12 guipons
+[recto] 4 Etain
+[recto] 1 boucand de Morne p t 93. 6
+[recto] 1 barcque de goudron
+[recto] 5 grandes vrilles
+[recto] 1 moyenne do
+[recto] 8 l de blanc
+[recto] 1l½ de suif
+[recto] 2 „ barcque debray gras pest 496 10 ƒ 248 „
+[recto] 4200 Epittes
+[recto] „ 15 „
+[recto] 1 10 „
+[recto] 4 „ „
+[recto] 57 10. „
+[recto] 10 „ „
+[recto] 3 „
+[recto] 100 „ „
+[recto] 41 „ „
+[recto] 15 „ „
+[recto] 10 „ „
+[recto] 298 „ „
+[recto] 235 10 „
+[recto] 38. „. „
+[recto] 132 „ „
+[recto] 24 „ „
+[recto] 300 „ „
+[verso] 232 14 4
+[verso] 300 „
+[verso] 48 15 „
+[verso] 54 3 6
+[verso] 1 barcque de goudron
+[verso] 212 de ports a 32 ze so
+[verso] 1 madrier de 26: 15: 4 aubent 10:10 a 5
+[verso] 269 l de plomb
+[recto] 10 „ „
+[recto] 3 „ „
+[recto] 20 39/00 84 „ „
+[recto] porté e lautre part L. 14632 11: 10:
+[verso] porté ci Contre L 11726 11 10
+[verso] 1787
+[verso] 1 do
+[verso] 1 do
+[verso] 1 do
+[verso] 1 do
+[verso] 1 do
+[verso] „
+[verso] 1
+[verso] do
+[verso] do
+[verso] 3
+[verso] 4t
+[recto] 1787
+[recto] 133 do 5
+[recto] 8
+[recto] E
+[recto] 40 ƒ
+[recto] 25
+[recto] 25
+[recto] 25
+[recto] 20
+[recto] 25
+[recto] 20
+[recto] „ 471 10
+[recto] 20
+[recto] 4
+[recto] 25
+[recto] 40
+[recto] 20 „ „
+[recto] „
+[recto] 675 „ „
+[recto] 8 „ „
+[recto] 20 „
+[recto] 21 5 „
+[recto] 93 15 „
+[recto] 108 15 „
+[recto] 24 „
+[verso] 3 „ „
+[verso] 20
+[verso] 6
+[verso] 269
+[verso] „ 20
+[recto] mars 1
+[verso] do
+[verso] 1 do
+[verso] 1
+== NL-HaNA_1.04.02_4325_0054 | #54 | sides: recto,verso | lines: 168
+[recto] 455
+[recto] 440
+[verso] 1787
+[verso] Montant d'laudre Part £14632:11:19
+[verso] -
+[verso] -
+[recto] Montant dibautre part ƒ 17312: 4:6
+[verso] mars 2 200= d' Etoupe
+[verso] 100e de Luiff
+[verso] 320„ de p lomb
+[verso] 12 Guipons
+[verso] 3 1 piece de bers 29:15: 14 cabant 42:3:6
+[verso] 1 bordage
+[verso] 22:8: 4 „ 4:10:8
+[verso] 24:11: 2 „ 3: 8: —
+[verso] 18: 7: 2 „ 1: 9: —
+[verso] „ 3: 8: —
+[verso] 22:12:2
+[verso] 24: 13:2 „ 4: 4 „
+[verso] 21:12:2 „ 3:6:„
+[verso] Ensemble peeds cubes 64: 1:2 a ct
+[verso] 200 d'etoupen
+[verso] 10 joutes pezant 18L
+[verso] 25
+[verso] 30 Chivilles neuves pezant 127 25
+[verso] Chrine de Sumbant refaite p=t 20l 20 20 „
+[verso] 1
+[verso] 1 soude pour percuir
+[verso] 1. pitou pesent 13 L
+[verso] 2 Chevelles racommodees pt 27l 20
+[verso] 2 etrieur refoits,
+[verso] 1 barcque de brag graspest netto 471: 10 235 10 1
+[verso] 1 vorle aanant 168 aunes
+[verso] 30 doublages jaast ens 660 ps 10 330 „ „
+[verso] 10l Clous a mangere
+[verso] 216 ancots
+[verso] 200l Etoupe
+[verso] 12 quepons
+[verso] 100 l Clous de 6 pces
+[verso] 244= do „ 3 do
+[verso] 6 vrieles moijennes
+[verso] 6 marteaux a dent
+[verso] 6 gournabees
+[verso] 40
+[verso] 20
+[verso] 3209
+[verso] 100 -„
+[verso] „ 22 10 „
+[verso] „ 158 15 „
+[verso] 2 10 „
+[verso] 25 16 5 „
+[verso] 27 „ „
+[verso] 16 „ 1
+[verso] 20 168 „ „
+[recto] marst 100 l Clous de 3 p=ies
+[recto] 700 E pittes
+[recto] 106 Clous de 6 ponees
+[recto] 170 gros rouge
+[recto] 1 Chevelle refaite p=t 12 l 20. „
+[recto] 1 Etium neuf
+[recto] 1 Chevelle
+[recto] 10 Chandeliers racommode p:lt 75l 20
+[recto] 4 d=o neuf „ 35 25
+[recto] 201
+[recto] 4 Chevilles plesse
+[recto] 14 broekes do
+[recto] 1 Cheville rejacte pes 23l 20
+[recto] 1 Cerele pour barres de perroquet p12 25.
+[recto] 1 platte bande d=o
+[recto] 1 piece debois de lus Espece 26 P=la 16:19 600 „ „
+[recto] 5 planches de 20 p=s ens 100:9:1. cabats 6:3
+[recto] „ 18 „ „ 126: 8: 1 „ 7: —
+[recto] „ 10„ „ 40: 10: 16
+[recto] „ 20: 6:5
+[recto] „ 25: 5:5
+[recto] „ 21: 6:5
+[recto] „ 18: 12: 12 „ 18: —:—
+[recto] „ 13 „ „ 52: 9: 1 „ 3: 3„
+[recto] „ 12„ „ 48:1: 8 „ 2: 8
+[recto] „ 2:9:4
+[recto] 1 piece de bois „ 20: 5: 5 „ 3: 5:8
+[recto] „ 4: 2:—
+[recto] „ 4: 4: 1
+[recto] „ 4: 4: 6
+[recto] „ 19: 6: 4: „ 3: 11: 6
+[recto] 1
+[recto] 1
+[recto] 1
+[recto] 1
+[recto] Ensemble prieds clibes 64:2:4 5 leC 320 19 6
+[recto] 1 barcque de bray gras p=l met 496 10s 248 —
+[recto] 15  de plomba
+[recto] 12 Ciscaux
+[recto] 2 Carils de goudvon
+[verso] „ 49 13. „
+[verso] 100 „ „
+[verso] 24 „ „
+[verso] 100 „ „
+[verso] 244 „
+[verso] 18 „
+[verso] Porte en l'audre part l 17312 4 6
+[recto] Porte en l'autre part l 19608: 14. „
+[verso] 1
+[verso] 1
+[verso] 1
+[verso] „
+[verso] 16  20
+[verso] 10.
+[verso] 40
+[verso] 20
+[verso] 31
+[verso] 10
+[verso] 10 3 „
+[verso] 60 „ „
+[verso] 20 „ „
+[recto] do
+[recto] do
+[recto] do
+[recto] do
+[recto] do
+[recto] do
+[recto] 1
+[recto] do
+[recto] 4 do
+[recto] 4
+[recto] 4 do
+[recto] „ 21: 9:3
+[recto] „ 3: 11:3
+[recto] 20
+[recto] 5 60 „ „
+[recto] 400 „ „
+[recto] 15 „ „
+[recto] 5 „
+[recto] „
+[recto] „
+[recto] 23 „ „
+[recto] 15
+[recto] „ „
+[recto] 1
+[recto] 5 „
+[recto] 43 15 „
+[recto] 75 „
+[recto] 13 15 „
+[recto] 8 15 „
+[recto] 12 „
+[recto] 102 —„ „
+[recto] 106 —
+[recto] 140
+[recto] 100-
+[recto] 20 Fo 700
+[recto] 20
+[recto] 12 „
+[recto] 7„ 25
+[recto] „ 25
+[recto] 9a
+[recto] 10
+[recto] 87
+[verso] „
+[verso] 24
+[verso] 320.
+[verso] 200
+[verso] 100
+[verso] ƒ
+[verso] 40
+[verso] 10
+== NL-HaNA_1.04.02_4325_0055 | #55 | sides: recto,verso | lines: 167
+[recto] 441
+[recto] Montant deci Contre L 25439: 4:
+[verso] Montant de l'autre part ƒ19608: 14:—
+[verso] Mars 7 168& Clous de 7 pouces
+[verso] 75 do „ 4 a 5 d o
+[verso] 86 5 „
+[verso] 200l Eloupe
+[verso] Conduit ine Citerne pour lieaur a berd
+[verso] 8 28 l Clous a plomb
+[verso] 26 2„r de plomb
+[verso] 200l de pords
+[verso] 100 „ „
+[verso] 28 „ „
+[verso] 262 „ „
+[verso] 23„t 46 „
+[verso] 24 „
+[verso] 286 „ „
+[verso] 24 „
+[verso] 184 „
+[verso] 106 5
+[verso] 120 „
+[verso] 2: pieces torl a vorle 4 fels 143 annes 40
+[verso] remorque une allege du voi ausenice dud 8
+[verso] 184 l Cloas de 3: 4 et 5 pouces
+[verso] 85 „ d=o „ 7 en 8 d=o
+[verso] 100 Saes de Panis
+[verso] 8 Chesieles pest 14 l
+[verso] 14 divolles et C houpilles
+[verso] 60 Chevilles pest en semble 429l 25
+[verso] 17 10
+[verso] 536 5 „
+[verso] 8
+[verso] 700 „
+[verso] 550
+[verso] 100
+[verso] 24 „
+[verso] 223 „ „
+[verso] 240 „ „
+[verso] 800 „ „
+[verso] 1 Dee de bois Ve Es pece de 29 ps 16- 16 -
+[verso] do
+[verso] 1
+[verso] „ 24 „ 15: 16
+[verso] 200 Etoupe
+[verso] 200 l de blanc.
+[verso] 1 barcque bray groes p=t met 446:10
+[verso] 2 Ciurs forts
+[verso] 1 Piele de Cors 1e. Espece 13 a 16
+[verso] 10 12 quipons
+[verso] 1 barcque braij gras p=t netto 476
+[verso] 22 doublages Em 484 pieds 10
+[verso] 300e Clorcs de 3, 4, 5 ps
+[verso] remarque une allege
+[verso] 187 Clous de 7: e 8 Ps
+[verso] 1 bouteille d'ancre
+[verso] 238 „ „
+[verso] 242 „ „
+[verso] 300 „ „
+[verso] 24 „
+[verso] 25 223 15 —
+[recto] Marsio 2e pieces de bors Ens 26:3:8: Cubant 1: 7:6
+[recto] 24:3:3 „ 1: 6:
+[recto] 26: 6:5 „ 1:5 „
+[recto] 63: 11:2
+[recto] 1:8:10:2 „ 2: 6: „
+[recto] 29: 9: :9:„
+[recto] 65: 9: 1 „ 4: —: 9
+[recto] 180: 9:1 „ 11: 3: „
+[recto] 18: 11:4 „ 5: 6: „
+[recto] d„o 16: 11:4„ 4: 10: 8
+[recto] „ 881:25
+[recto] Eubant Ensembles
+[recto] 12 20 planches Ens 252 Ps 9: 1: Cubant 15 p„ p„t 78 15 „
+[recto] 20% 300 -
+[recto] 300 ½ Clous de 3=t 4 ponces
+[recto] 6 Cordes de bees assen
+[recto] 1 voyage de Chaloupe
+[recto] 5 pirces de Cordega pest en samb 514 a 60t 4 % 308 8 —
+[recto] 1 piece ligne de soude
+[recto] 27 bauteilles ½ sauce de Lin 4 10 „
+[recto] 58l Janne
+[recto] 6 ardenats
+[recto] 28t de blanc
+[recto] 13: 1 madrier 16:10:4 Cerbant 4: 5:4
+[recto] 2 d:o dogens 38: 11:10 „ 11: 7: 4
+[recto] 00. 19: 10:5 „ 6: 7: 2
+[recto] 15: 9: 4 „ 3:„ 9: „
+[recto] 11 planckes 14 ƒ 154: 10: 1 „ 10:8: 4
+[recto] g
+[recto] „ 4: 6:—„
+[recto] 18 72:9:1
+[recto] „ Eabants en semble
+[recto] 41: 7: 2 a 5
+[recto] Porte en Cautie part £ 27353 14 „
+[recto] 20: 5:5 „ 3:5:8
+[recto] 16:9:8 „ 8: „:„
+[recto] „ 9: 7:6
+[recto] 72:10:2 „ 10: „:„
+[recto] 75: 10:2 „ 10: 5:„
+[recto] 2 planckes
+[recto] 5
+[recto] 15
+[recto] 1 bordage
+[recto] 400 „
+[recto] 24 t 144 — -
+[recto] 130 „
+[recto] 123 15
+[recto] 116 „
+[verso] Porteci Contre L 25439 4
+[verso] 1787
+[verso] 69
+[verso] „
+[verso] 9 do
+[verso] -
+[verso] -
+[verso] 25 210 „ „
+[verso] 20
+[verso] 25
+[verso] 10
+[verso] 20
+[verso] 20
+[verso] 40.
+[verso] 20
+[verso] 25
+[verso] 24
+[verso] 25
+[verso] 1
+[verso] :-
+[verso] 10
+[verso] 25
+[verso] 40 ƒ
+[verso] 20
+[verso] 6
+[verso] 3
+[verso] 5
+[verso] 24 „
+[verso] „
+[verso] „ „
+[verso] 8 10 „
+[recto] „
+[recto] 5
+[recto] 4
+[recto] 3
+[recto] 1
+[recto] 1
+[recto] „
+[recto] 2 d:o
+[recto] do
+[recto] de
+[recto] do
+[recto] 6
+[recto] 1787
+[verso] 75 „ „
+[verso] 15 „ „
+[verso] 12 guepons
+[verso] 16 virolles
+[recto] 4
+[recto] do
+[recto] 24
+[recto] 10
+[recto] 40 ƒ
+[recto] 60 „
+[recto] 33 12
+[recto] 12 —
+[recto] 208 „
+== NL-HaNA_1.04.02_4325_0056 | #56 | sides: recto,verso | lines: 157
+[recto] 442
+[verso] 1787
+[recto] Montant de Ci contre L 29178: 3: „
+[verso] Montant de l'autre part L 27353:14:—
+[recto] 100: „ „ mars 14 2 pieces de bois Ens 42:3:3 Cubants 2: 7: 6
+[recto] do „ „ „ 30: 4:4 „ 3: 4: —
+[recto] 2
+[recto] do „ „ „ 16: 4: 3 „ 1: 4: „
+[recto] 1
+[recto] 1 do „ „ „ 18: 4: 2½ „ 1: 3: „
+[recto] 1 madrier „ „ 15: 10: 3 „ 3: 7:9
+[recto] 2 planches
+[recto] „ 1: 8:
+[recto] 30:8:1
+[recto] „ 6: 3:„
+[recto] 15:12:4
+[recto] 1 madrier
+[recto] „ 18: 6:9
+[recto] 23 planches 297: 9:1
+[recto] Eubants en simble
+[recto] 15 8 Careaur de vitre 8: 10
+[recto] 16 3 _o „ „ 8: 10
+[recto] 2 banques de goudron
+[recto] 12 pinceaur assortes
+[recto] 100 Clous de 9 ponces
+[recto] 2 pieces de bors Ens 25:5:5 Cabant 4: 4: 1
+[recto] 18:13:12 „ 19: 6:„
+[recto] do
+[recto] do
+[recto] 13:13:13 „ 17: 7:3
+[recto] 13: 12:12 „ 13: „ „
+[recto] do
+[recto] do
+[recto] „ 15: 10:10
+[recto] 17:10:5
+[recto] 24 planches Ens 384:10: 1 „ 25: „ „
+[recto] Eubants Ensemble 85: 4: 2 5 426 14 4
+[recto] 60. virolles
+[recto] 72 gouvilles
+[recto] 1 piece ligne de soude pt 28
+[recto] _o guarante hunier goudvoimee 2 r=l 16 20 „ „
+[recto] 1 pilou et 1 soule pt 25 l
+[recto] 23 vivolles.
+[verso] mars 13: 200 Etoupe
+[verso] 17 Chevelles neuves pesant 56
+[verso] 25/
+[verso] 2 malles et ume fenelle d' Chaloupe„
+[verso] 2 Jontes p 8
+[verso] 40 verolles
+[verso] 40 houpilles
+[verso] 1 Collier de bont desiora resart pr 75le 20
+[verso] 1 tranchet
+[verso] 2 Cereaux afooid recommodes
+[verso] 1 Cheville neuve d 8e
+[verso] -
+[verso] 6 grosses goupilles de sierbant pr 6
+[verso] 200 de pords
+[verso] 1 paquet point de paris
+[verso] 4 pieces guarante hunier pl 124 16
+[verso] 5 de mastique
+[verso] 9 Cerreaux de vitre q: 1
+[verso] do 9: 7. 2
+[verso] 3 Cireaux afvird d le Charpentier du gouvernael 5t
+[verso] 100 bouteilles Ouides
+[verso] 14 1 barcque de bray gras 496 l
+[verso] 20e Clous a plamb
+[verso] 3 Carreaux de vitre 7:„
+[verso] 4 do
+[verso] 8:10
+[verso] 12 guipons
+[verso] 200l Etoupe
+[verso] 50. Chevelles neuves p=t 121 25 151 5 „
+[verso] 51 Virolles
+[verso] 24 gouvilles
+[verso] 2 Stauches et 4 Carreauw riecommodes 3„t 18 „ „
+[verso] 3 Carreaux de vitre 9:12
+[verso] 8 Moijennes vrilles
+[verso] 529 Clous de 3 a 6 ponces
+[verso] 84 „ „
+[verso] 15 „ „
+[verso] 10 „ „
+[verso] 20 „ „
+[verso] 10 „ „
+[verso] 75 „ „
+[recto] 38:8: a 5 „ 193 6 8
+[recto] 20 „ „
+[recto] 10 „
+[recto] 300
+[recto] 600 „
+[recto] 24 „ „
+[recto] 28 „ „
+[recto] 25ƒ 31 5 „
+[recto] 10 „ 10 „
+[recto] 10 30 „ „
+[recto] 5 „ 18: „
+[recto] 17 5 Crampes de lurinne pt 27l
+[recto] 52 107 a 25
+[recto] 15 Chevilles
+[recto] de Tuine 281
+[recto] 15 d:o
+[recto] 1 soude depompe de 3 pieds
+[verso] 25
+[verso] 23„t 46 „ „
+[verso] 99 4 „
+[verso] /10 „ „
+[verso] 27 „ „
+[verso] 26 „ „
+[verso] 15
+[verso] 60 „
+[verso] 10 248 „
+[verso] 20 „
+[verso] 6 „ „
+[verso] 10 „ „
+[verso] 40 24 „ „
+[verso] 100 „ „
+[verso] 25 10 „
+[verso] 30 „ „
+[verso] 20
+[verso] 40.
+[verso] 50.
+[verso] 10
+[verso] 12 „ „
+[verso] 24 „ „
+[verso] Porté ci Contre L 29178 3„
+[recto] Porté 3 'autze part L 30850 4 „
+[verso] 25
+[verso] 10
+[verso] 5
+[verso] 3
+[verso] 3
+[verso] .
+[verso] 6 „ „
+[verso] 10
+[verso] 7 10 „
+[verso] „
+[verso] „
+[verso] 5 „ „
+[verso] 1 „ „
+[verso] „ „
+[verso] 127
+[verso] 10
+[verso] 5
+[verso] 4
+[verso] 3 „
+[verso] 20 529 „ „
+[verso] 3
+[verso] 40
+[recto] 1787
+[recto] 50
+[recto] 2
+[recto] 25
+[recto] 125 „ „
+[recto] 133 15 „
+== NL-HaNA_1.04.02_4325_0057 | #57 | sides: recto,verso | lines: 156
+[recto] 443.
+[verso] Montant de l' autre part ƒ 38850: 4: —: — 170:7
+[verso] 1787
+[verso] 3 15 1
+[verso] 100 „ „
+[verso] 50 „ „
+[verso] 50 „ „
+[verso] 24 „
+[verso] 15 „ „
+[verso] 427 „ „
+[verso] mars 17 54 verolles
+[verso] 15 gouvilles
+[verso] 5Cereaux a front raccommodis. 3
+[verso] 200= Etorpe
+[verso] 50 Clons de 2 p=es
+[verso] 50 „ „ 3 „
+[verso] 12 Suepons
+[verso] 12 Clousa Crampes
+[verso] 427e de plomb
+[verso] 1 bordage boes Po 29: 10 1½ cub=t 3 3/3 a c„t 15 „ „
+[verso] 6 do dors de Canelle de 17' ens 102:10:1½ lust 10: 7:6
+[verso] 2 do
+[verso] „ 19 „. 38: 10: 3 „ 7: 11:—
+[verso] „ 20 „ 40: 10: 3 „ 8: 4 —
+[verso] Eubants Ensemble 26: 10:6 „
+[verso] 40
+[verso] 134 7 6
+[verso] 250 — —
+[verso] 8
+[verso] 229 — —
+[verso] 100 — —
+[verso] 27 — —
+[verso] 18 15 —
+[verso] 4
+[verso] 44 —
+[verso] 10 „ „
+[verso] 468 „ „
+[verso] 100 „ „
+[verso] 106. „ „
+[verso] 30 „ „
+[verso] 8 „ „
+[verso] 76 5 „
+[verso] 40
+[verso] 18 250  de plomb
+[verso] 19 p=s Cole forte
+[verso] „ 1 barcque bray Pras pt met 458 10
+[verso] 200e Etoupe
+[verso] 20 1 Paule de pompe, raccommode perant 27=e 20
+[verso] 2 feches pesant 15l
+[verso] 8 verolles
+[verso] 14e Clous divers
+[verso] 2 tarricies
+[verso] 468 plomb
+[verso] 21 200 dietoupe
+[verso] 106 Claus de Derriere
+[verso] 12=e Clous a tete de monche
+[verso] 4 petites vrilles
+[verso] Chevelles neuves p 61e
+[verso] 1
+[verso] 4. Diehe pour le Gouvernail ps 32l 25
+[verso] 30 Virolles
+[verso] 20
+[verso] 10
+[recto] Montant dice Contre L 33245: 16: 6
+[recto] 27 10 „ Mars 21 3 pucces debois Ens 66:6: 4 cubant 11:„:„
+[recto] 30: 7:5 „ 7:3:6
+[recto] 4 do
+[recto] 13:8: 7 „ 8: 2: 7
+[recto] 1
+[recto] 6:8:
+[recto] 24:10:4
+[recto] 1
+[recto] 6:6: 4 1: -: -
+[recto] 18: 18:4 „ 4: —: —
+[recto] Erbant Ensemble 38:2: 1ac„
+[recto] 190
+[recto] 72 10 „
+[recto] 25
+[recto] 22 9 Chevilles pesant 58l
+[recto] 49 13. „
+[recto] 23 /8
+[recto] 216 d'ancots
+[recto] 5 „ „
+[recto] 1 Cizeau a Cherpentier
+[recto] 1 peau de Cerff
+[recto] 4e d' etaing a
+[recto] 6 Journees de foudeur
+[recto] 1 bois de Chaloupe
+[recto] 23 3 bordapse ens 47:12:1½ Caibant. 5:10:6
+[recto] 3 do 48:10: 1½ „ 5: —:—
+[recto] „ 1:6:8
+[recto] 2 planches Ens28:8:1
+[recto] „ 5:2:6
+[recto] 5 d:o 15 75:9:1
+[recto] „ 2:6:—
+[recto] 1 madrier 15: 6:4
+[recto] „ 4: 5:4.
+[recto] 16: 10:4
+[recto] do
+[recto] 24 1 do
+[recto] „ 5:-: -
+[recto] 18: 10: 4
+[recto] „ 3: 4:—
+[recto] 1 d:o 15:8: 4
+[recto] „ 5: 3:—
+[recto] 21:12:3
+[recto] do
+[recto] 1
+[recto] „ 4:1:6
+[recto] d:o 17:11:2
+[recto] 1d
+[recto] 29 planckes Ens 394: 9:1 „ 38: 6: 6
+[recto] Ensimble pieds Eube 80: 10: act 404 3 4
+[recto] 1 barcque bray gras post netl 458 l 10ƒ 229: „
+[recto] 1. planche bois Canelle 17 Bds
+[recto] 25e peinture blanche
+[recto] 244 de plomb
+[recto] changé un Challang de valeet Conduit abord 35. „
+[recto] 32 l ½ Clous a serrure
+[recto] 8 „ „
+[recto] 6 16 „
+[recto] 30 37. 14 „
+[verso] Porte ci Contre L 33245 16 6
+[recto] Porte e C'autre part £ 34601 18 10
+[verso] -
+[verso] 25„
+[verso] 20
+[verso] 20
+[verso] 10
+[verso] 6
+[verso] 10
+[verso] 15 „ „
+[recto] do
+[recto] 6
+[recto] 40.
+[recto] 30 „ „
+[recto] 4 „
+[recto] 8 „ „
+[recto] 8
+[recto] 20 244 „ „
+[recto] 32 10 „
+[verso] „ „
+[verso] 10 15 „ „
+[verso] 25
+[verso] 40
+[verso] 50
+[verso] 20
+[verso] ƒ
+[verso] #
+[verso] 20
+[verso] 10.
+[verso] 25
+[verso] 20
+[verso] —
+[verso] 2 d o
+== NL-HaNA_1.04.02_4325_0058 | #58 | sides: recto,verso | lines: 135
+[recto] 444.
+[verso] Montant de krautre part L 34601 18: 10 1787
+[verso] 1787
+[recto] Montant deci Contre £36493: 13: 10
+[recto] 45 „ „ mars 27 1 bargue bray gras pesent 402
+[recto] 99 aunes torle a vorle pprelats. 40 „
+[recto] 13½ Journeels dinoms voiliers 4
+[recto] 1½ fel a vorle
+[recto] 14 Clous De 3 p=ees
+[recto] 21 b=l de pords
+[recto] 88 Clous:
+[recto] 131 deplomb
+[recto] 12e Clous do
+[recto] 86e Clous de 4 et 5 ponces
+[recto] 28 132 Clous de 2et 3 d:o
+[recto] 32 l de plomb
+[recto] 1 barcque bray gras pest netto 484
+[recto] 27e de plomb
+[recto] 5e Clous de Crampes grilles 25
+[recto] 4 planches de 12 ƒ 48: 9: 1 Cabemt 3: „ „
+[recto] 2 madeurs „ 16 32:11:3 „ 7:4: „
+[recto] „ 10 15: 112½
+[recto] „ 2:10:5
+[recto] 1
+[recto] 1 do
+[recto] 13:11:1½ „ 1: 5: 10
+[recto] 41: 14:2½ „ 7: 1: 5
+[recto] 3 „
+[recto] 16: 9:2½ „ 2: 6:—
+[recto] 1 do
+[recto] 3 do
+[recto] 41: 10:2
+[recto] „ 5: 8:4
+[recto] 1 d:o 17: 8: 2:½
+[recto] „ 2: 4: 4
+[recto] 1 Piece de bois 16: 8: 4
+[recto] „ 3: 6:8
+[recto] 15: 9:4
+[recto] 1 d:o
+[recto] „ 3: 9: „
+[recto] 2 d de 20 40: 4: 3 „ 3: 41 „
+[recto] 32: 14:12 „ 37: 4: „
+[recto] 1
+[recto] 1 do
+[recto] „ 27:1: „
+[recto] 25: 13 12
+[recto] 14: 76 „ 4: 1:„
+[verso] 15 „ „
+[verso] 36 „ „
+[verso] mars 24 45s de ploms
+[verso] 3 planches Cns: 24=d 121½ cubank 3 p=s a 5 lt
+[verso] 3 barcques de Chorx
+[verso] 40 8 „ „
+[verso] 4 do de Sable
+[verso] 3 barres decusine refaite p3 /51l 20 51 „ „
+[verso] 6 Cercles pt
+[verso] 8 pitons
+[verso] 1 platte bande neuve
+[verso] 26 116 a 25„
+[verso] 6 Crampes
+[verso] 31
+[verso] 12
+[verso] 1 Cheville
+[verso] 4 fiches
+[verso] 35
+[verso] 1 platte vande racommrde pt 17l 20. 17 „ „
+[verso] 25 200 E toupe-
+[verso] 12 guipons
+[verso] 300 Clons de serrure
+[verso] 26. 2 pitons et c Chevilles pensems e 52: 25 65 „ „
+[verso] 4 barres de Coasine pt 90=l 25 112 10 „
+[verso] 1 barel bray gras pt nitto 332l 10 166 „ „
+[verso] 2 Clous de 3 pies
+[verso] 418 de plomb
+[verso] 23e Clous a pcomb
+[verso] 12 guepons
+[verso] 3 vergues
+[verso] 1 do P Bateau
+[verso] 1 beut dehors
+[verso] 7 Chevelles neuves pt. 26
+[verso] a Joutes de 1 piton pt 11
+[verso] 4 Serrure de Gouvernail regabure p 2: 20
+[verso] 1 Cheville avec une petite Chame dan pred delong 3 „ „
+[verso] 1 petir peton
+[verso] 1 barcque debray gras p=t 4 83l 10 241 10 „
+[verso] 56e de gros vonge
+[verso] 145 „
+[verso] 10 100 „ „
+[verso] 40 24 „ „
+[verso] 20 30 „ „
+[verso] 20 40 „ „
+[verso] 20 418 „ „
+[verso] 20 23 „ „
+[verso] 24 „ „
+[verso] 72 „ „
+[verso] 15 „ „
+[verso] 24 „ „
+[verso] 25 32 10 „
+[verso] 21 „ „
+[verso] 120 „ „
+[verso] 1 5 „
+[verso] 42 „ „
+[recto] 201 „
+[recto] 198 „ „
+[recto] 54 „ „
+[recto] 3 „
+[recto] 20 14 „ „
+[recto] 49: 13 „
+[recto] 88 „ „
+[recto] 131 „ „
+[recto] 12 „ „
+[recto] 86 „ „
+[recto] 132 „ „
+[recto] 32: „ „
+[recto] 27 „ „
+[recto] 10
+[recto] 10 242 „
+[recto] Eerbant Ensemble 111: 6: a 5„t „ 557 10
+[recto] Porté en L'autre part £ 38327: 1 10:
+[verso] Porte ci Contre L 36493 13 10
+[verso] 20
+[verso] 12
+[verso] -
+[verso] -
+[verso] 40
+[verso] 24
+[verso] 15
+[recto] 1 d:o
+[recto] „
+[recto] 20:
+[recto] 65 „
+[recto] 20
+[recto] 20 „
+[recto] 23„
+== NL-HaNA_1.04.02_4325_0059 | #59 | sides: recto,verso | lines: 158
+[recto] 4444
+[verso] 1787
+[recto] 1787
+[recto] Montant de ci Contre L 39511: 14: 10
+[verso] Montant de l'autre park ƒ 38327: 1:10
+[recto] Mars 31 I Eercles neuf pesant 86l
+[recto] do aacommodé 46
+[recto] avril 3 16 Chopines ferrées
+[recto] 6 keuser ferrees p=t 114l
+[recto] 4 Joces de Pompe serries pl 80e
+[recto] 1 piton racommode „ 25
+[recto] 1 Chevelle pesant 2e
+[recto] 136l de pords
+[recto] 11½ clous de 4 pies
+[recto] 14 heuses et 14 Chapines en bois 28
+[recto] 5 Auixes de Poulie et leur Esseere
+[recto] 30 e de Gros Houge Ple Cornois de Gouvernaies 2/
+[recto] 3 grandes vrilles
+[recto] 4
+[recto] 20
+[recto] Cl Clous de 6 Bus.
+[recto] 21 doubbages de 18 Peeds Ens 378
+[recto] 10
+[recto] 2 bordages 40:12:3 Cast 10 P=s
+[recto] 4 2 sleches de p baton de pompe
+[recto] J=e de blanc
+[recto] 1 piton racommodee pt 18l
+[recto] 1 Chevelle neuve p=t 8l
+[recto] 2. plattes bandes la barre du Gouvernail pesant
+[recto] 258l 20 258 „ „
+[recto] 2 Chopines de pompe ferris
+[recto] 2 goles de pompe pt 64
+[recto] 2 ½ de blanc
+[recto] 1 petite vriele
+[recto] 4e d'acur
+[recto] Pies
+[recto] 3e Clous de 4
+[recto] 20 de siuf pourles pielots. 40
+[recto] 300„
+[recto] 2 barcques de goudron
+[recto] 1 barcque bray graspt net 540l 10
+[recto] 7 pieces Javier 12et 15 pies p, 594 z0 lt
+[verso] mars 29 1 piece Cordage blanco drosser p 386 a 70 d. o
+[verso] 2 d:o pesant ensemble 437 „ 60
+[verso] 8 averors
+[verso] 200l Etoupe
+[verso] 200 brigues a
+[verso] 2 barcques de sable
+[verso] 1 barcque de Chaux
+[verso] 6 grandes vrilles
+[verso] 6 d:o moijermes
+[verso] 2 fers 8 l 869
+[verso] 2 pitons et Cheville 6 „ 22 25
+[verso] 8
+[verso] 1 piton
+[verso] 270 4
+[verso] 262 4 —
+[verso] 80 „ „
+[verso] 100 „„
+[verso] 24 „ „
+[verso] 4 „
+[verso] 9 „ „
+[verso] 24 „ „
+[verso] 18 „ „
+[verso] 27. 10 „
+[verso] 2 „ „
+[verso] 12 16 „
+[verso] 28 15 „
+[verso] 5 „„
+[verso] 10 25 „ „
+[verso] 45 „ „
+[verso] 22 „
+[verso] 25 2 10 „
+[verso] 4 10 „
+[verso] 20 ƒ 18 „ „
+[verso] 6 „„
+[verso] 3 „ „
+[verso] 50 12 „
+[verso] 34
+[verso] 1 12 „
+[verso] 2barres d'ecoutille refaites pest 60o 20 60 „
+[verso] 2 Chevelles a tite platte
+[verso] 16
+[verso] 8 Crampes et 8 mantoicets
+[verso] 7 Chevelle 2 Equirres etam Crapeau ps 23 25
+[verso] 1 marteau a rivet raceré
+[verso] 30 50 Etoupe
+[verso] 90l braijsee
+[verso] 22e Clous de 3 pies
+[verso] 3 perites paires de pentures a Charnees pr ol 25 7 10 „
+[verso] 2 Couplets
+[verso] 4 ½ Clous a panture
+[verso] 18l de plomb
+[verso] 4 Chevelles atate platse son gouvern rurl 21:2l: 26 5 „
+[verso] 2 Cizeaux a frord racommodés 3„
+[verso] 1 tarriere racommode
+[verso] 220l depords
+[verso] 2 grands Cueksa Emerillons et leurs Cotses
+[verso] 2 Cosses
+[verso] 2 Cheulles neuves pt gl 25 11 5 „
+[recto] 25 107 10 „
+[recto] 46 „ „
+[recto] 160 „ „
+[recto] 25 142 19 „
+[recto] 100 „ „
+[recto] 25 „ „
+[recto] 2 10 „
+[recto] 31 3 „
+[recto] „ 10 „
+[recto] 84 „ „
+[recto] 15 „ „
+[recto] 18 „ „
+[recto] 12 „ „
+[recto] 6 „ „
+[recto] 189 „ „
+[recto] 50 „ „
+[recto] 24 „ „
+[recto] 8 15 „
+[recto] 18 „ „
+[recto] 10 „ „
+[recto] 20 „ „
+[recto] 25 80 „ „
+[recto] 3 3 4
+[recto] 2 „ „
+[recto] 4 „ „
+[recto] 3 „ „
+[recto] 40 „ „
+[recto] 600 „ „
+[recto] 270 „ „
+[recto] 415 16 „
+[recto] 104
+[recto] 25
+[recto] 20
+[recto] 25
+[recto] 23
+[recto] 20
+[recto] 101
+[recto] Porte eliantre part £ 42268 12 2
+[verso] Porte et Contre L 39511 14 10
+[verso] 10
+[verso] 12
+[verso] 2
+[verso] 4
+[verso] 60
+[verso] 10
+[verso] 20
+[verso] 1
+[verso] 23
+[recto] 6
+[recto] 25
+[recto] 25
+[recto] 20,
+[recto] 25
+[recto] 5
+[recto] 3
+[recto] 34
+== NL-HaNA_1.04.02_4325_0060 | #60 | sides: recto,verso | lines: 139
+[recto] 445.
+[verso] 1787
+[verso] Montant d' l'autre part
+[verso] L 42268:12: 2
+[recto] Montant de ci Contre L 43491: 8:
+[recto] 240 „ „ wril 7 8 petites Chavilles 2 Ceriles a Charnure 2 Cram„
+[recto] pes et 6 Chevilles de pompe Pens 4 rl 25 „ 56: 5 „
+[recto] 116 „ „
+[recto] 2 Chaudieres et leur Couverelé etamus
+[recto] 150 „ „
+[verso] „ 20. „ „
+[recto] 1 Caffetiere
+[recto] 6 faneaux racommodes fournil 15 lornis 15 „ „
+[verso] „ 28 „ „
+[recto] 1 lampe dihabitaile racommodee
+[recto] 1 pit dietaing zes soude
+[recto] 1 hourteere etamei
+[recto] 1 Chaudiere do
+[recto] 3 Casserdees do
+[recto] 1 braisiere do
+[recto] 1 Chaudron do
+[recto] 1 porssemiere do
+[recto] 1 porte vois racommodee
+[recto] 11 Jannex do 50 syrnes
+[recto] 12 virolles
+[recto] 10 2 Charnes de sauve garda. p t 37l
+[recto] 10 151l 25
+[recto] 1 masse
+[recto] 3 Crampes de fausse quelle 4
+[recto] 7 „ bouillon etamee
+[recto] „ 1 cercle pest ge
+[recto] Charneire double 8l
+[recto] paije aux officiers manniers diport pour
+[recto] diverses Corvees
+[recto] 214 l de pords
+[recto] 1 picel deboes 7: 15:4 Cabant 3 P=re
+[recto] 5
+[recto] 6
+[recto] t Cersle en cuivre p l prane lampe d'habitaile 4 „ „
+[recto] 200 de pords
+[recto] 1 barcque de umargre
+[recto] 1al fie a vorle
+[recto] 1 boucaud de morne p=t 936 s
+[recto] 2 pns toele a voile aumont 156l
+[verso] avril 6 2 Cawrsorts
+[verso] corl de Suif
+[verso] 150: Claas de 3: 4 e6 p=rs
+[verso] 10e Clous a braquette
+[verso] 7 grandes vrilles
+[verso] 1 herminette
+[verso] 2 Compas en ter
+[verso] 3 petits cereaux a Charpentier
+[verso] 2 marteaux a dents
+[verso] 24. Cosses
+[verso] 1 lime
+[verso] 4 Epessorras
+[verso] 4 planches de 16 p ens 64:10:1 Cabent 415:4
+[verso] „ 17„ 102: 10: 1 „ 7: 1: „
+[verso] 1 P=e de boes de
+[verso] 11: 6:6 „ 2:9:„
+[verso] 1 do
+[verso] 14: 8:8 „
+[verso] 6:2:8
+[verso] 2 d:o
+[verso] 22: 8: 7„ 8:6:8
+[verso] 24: 10: 4 „ 6:8:„
+[verso] 1 madier
+[verso] Cubant Ensemble 35: 8: 8 a 5 A
+[verso] transport a bord du gouvernaie et mourement a terre
+[verso] 1 sel a voele
+[verso] a 2 Equilles a voile
+[verso] 2 pommelles
+[verso] 2 haisars et 2 Chopines
+[verso] 227l depords
+[verso] t Cordes de bois
+[verso] t voyage de Chaloupe armee plesd
+[verso] 2 d'rosses pesant 131l
+[verso] Je Clous p serrure de Gouvernail 25
+[verso] Cassireles racommodees
+[verso] Couperet ia Commodeé
+[recto] 12 „ „
+[recto] 6 „ „
+[recto] 9 „ „
+[recto] 20 „ „
+[recto] 19 4 „
+[recto] 3 „ „
+[recto] 178 8. 16
+[recto] 100 „ „
+[recto] 12 12 „
+[recto] 2 „ „
+[recto] 16 „ „
+[recto] 52 18 „
+[recto] 100 „ „
+[recto] 12 „ „
+[recto] 91 14 „
+[recto] 8 15 „
+[verso] 25 „
+[recto] „ 24 „ „
+[recto] 3 „ „
+[recto] 4 „ „
+[recto] 6 „ „
+[recto] 3 „ „
+[recto] 3 „ „
+[recto] 3 „ „
+[recto] 50 „ „
+[recto] 6 „ „
+[recto] 188 15 —
+[recto] 160 „ „
+[recto] 23„t 49 „ „
+[recto] 15 „ „
+[recto] 23 P%o 464 „ „
+[recto] 120: „ „
+[recto] 675 „ „
+[verso] Porté ci Contre L a 3491 8„
+[recto] Porte en l'autre part L 45707 17 „
+[verso] 40 „
+[verso] 0
+[verso] „
+[verso] 10
+[verso] 16
+[recto] 16 „ „
+[recto] „
+[verso] a 6
+[verso] 50 „
+[verso] 5
+[recto] 3 „ „
+[recto] „
+[recto] 40 312 „ „
+[recto] 24
+[recto] ƒ
+[recto] 12 „ „
+[recto] 18 „ „
+[recto] „ 5 „
+[recto] 6 „ „
+[recto] „ „
+[recto] 4. „ „
+[recto] 4 „ „
+[recto] 3 „ „
+[recto] 1787
+== NL-HaNA_1.04.02_4325_0061 | #61 | sides: recto,verso | lines: 87
+[recto] 455.
+[verso] 1787
+[verso] Montant de l'autre part L45707:17:
+[verso] airel 12 1 picce de Calmouk p Jubar ses savands au mon
+[verso] 244 „ „
+[verso] 8
+[verso] „tant 30 au ½
+[verso] 10
+[verso] 200 L. de succke
+[verso] 100 „ „
+[verso] 10 Chevilles a tete plette pt 16
+[verso] 20 „
+[verso] 2 Carcles pourune verque 6
+[verso] 7 10 „
+[verso] 13 4 planches 18 / Ens: 72:11:1 Cas5:0:1 a ct 27 10 „
+[verso] 56 6„
+[verso] d=o 17 „ 136: 12: 1 „ 11: 4:  „„
+[verso] 8
+[verso] 11 2 „
+[verso] 12 15 verolles et 15 gouvilles
+[verso] 220 „ „
+[verso] 13 „ barcque de raisens pl netto 440 10
+[verso] 6 petirs fanaur
+[verso] 72 „ „
+[verso] 12
+[verso] 1 Chaine de Chaudiere pt 12
+[verso] 15 „ „
+[verso] 25. /
+[verso] d o racommode „ 10l 20
+[verso] 10 „ „
+[verso] „
+[verso] avare 13 320 Journees de Charpenteers blanc a 12
+[verso] 3840 „ „
+[verso] Jan vier 19
+[verso] 9256 „ „
+[verso] d. o nocres 4
+[verso] 2314 do „
+[verso] 660 „ „
+[verso] 55 do „ Calfat blanc 12
+[verso] 101 do „ d=o noir Commandeur 6
+[verso] 606 „ „
+[verso] 1973 d:o „ do nois
+[verso] 4 7842 „ „
+[verso] 47. do „ d' Commandeurde noers matelots 4 188 „ „
+[verso] 927 d„o de norsmatelots emploijes a bord 50 ƒ 2317 10 „
+[verso] 10 860 „ „
+[verso] 86 d o de rat de Carenne
+[verso] 255 do de Chaffand
+[verso] 8 102 „ „
+[verso] 113 do de marmite abrag
+[verso] 90 8„
+[verso] 61 do de Chattanny ple service sentement
+[verso] 213:5„ „ „
+[verso] da van
+[verso] 82 d=o de piroque
+[verso] 164 „ „
+[verso] 6. d. o de secers de long
+[verso] 24 „ „
+[verso] 4„ 72 „ „
+[verso] 18 d=o de noirs macons
+[verso] 3 d:o de vetreer
+[verso] 12 „ „
+[verso] 3 do de catennes 't le eau
+[verso] 35 105 „ „
+[verso] 8 d o de Choloupe
+[verso] 160 „ „
+[verso] Total
+[verso] L 74975 6 „
+[verso] au Portlouis Isle de France le Bairie 1787
+[verso] /:Signe:/ I=ne Monneron et Compie
+[verso] 4„
+[verso] 4
+[verso] Accordeert.
+[verso] lorak
+[verso] 1 do
+[verso] -
+[verso] 35„
+[verso] 16
+[verso] bylleon
+[verso] „
+[verso] 25
+[verso] „
+== NL-HaNA_1.04.02_4325_0062 | #62 | sides: recto,verso | lines: 47
+[recto] Copia
+[recto] ne du Navire
+[recto] de la Compagnie
+[recto] hollandoise des
+[recto] 17 C=s 1787.
+[recto] declaration du
+[recto] S„r Cornelius Jn
+[recto] 't Anker Capitai„
+[recto] 446.
+[recto] Extract des Regitres du
+[recto] Grefe de la Jurisdiction roijale
+[recto] & d'amiranté de l'Isle de
+[recto] france.
+[recto] Aujourd hui Samedi dix Text fevrier,
+[recto] mil sept cent quatre vingt sept aprés mi„
+[recto] en presence de M:r perré malo les
+[recto] bras de villeviderne, procureur du roi
+[recto] en la Jurisdiction royale & d'admirau„
+[recto] té de l'Jslede france.
+[recto] au greffe du siege et par derant
+[recto] nous ignan brunel Juge royeel & d'admi„
+[recto] rauté en cette Isle, affisté de M„r Jean pier„
+[recto] re aufray notaire du roy, commis grif„
+[recto] fier en Chef Chargé de la regie du Gref,
+[recto] fe de la Jurisdiction royale & d'admi
+[recto] ranté de cette. Isle.
+[recto] est Comparae Sr Cornelius in 't Anker
+[recto] Capitaine du navire de la Comp„e hollan
+[recto] doise des indes orientales la perle logé
+[recto] à bord de son navire en rade de ce
+[recto] port Louis
+[recto] le quel a dit qu'il est parti de Cei
+[recto] van le vingt cing novembre Dernier,
+[recto] qu'il a fait route pour se rendre
+[recto] au Cap de bonne esperance & de la en
+[recto] Europe, que se trouvant par la latiteide
+[recto] sur des dixhuit degres & peir quatre
+[recto] vingt treize degres de longtitude me„
+[recto] ridien de tenériffe, il a recuien furieux
+[recto] Coup de rent du nordest au sud est,
+[recto] gen
+[verso] C. L
+[recto] Jndes, Laperle. -
+[recto] dy
+[recto] No: 3
+[recto] 55
+[recto] e
+== NL-HaNA_1.04.02_4325_0063 | #63 | sides: recto,verso | lines: 73
+[verso] aug„s et Expied. s 12
+[verso] trente quatre livres
+[verso] aen
+[verso] qui la mis en danger de Coulera
+[verso] fond; que cet evenement a en lieu dans
+[verso] la nuit du vingt Sixau vingt,
+[verso] sept Decemb redernier, qu'il a fait
+[verso] alors Jusquiaonze bieds & denii
+[verso] d'eau dans sa Calle qu'il estresté
+[verso] dans cette cuelle position Jusquau
+[verso] vingt neuf du meme mois, que
+[verso] n'ayant alois d'autre espoirque honviaires
+[verso] dans le port le plus voisin, il a fait a M„r le Juge 12
+[verso] route, pour ce port ou il est arri am:r ly3 auroi 8
+[verso] ré le treize Janvier, qe'ignorant
+[verso] les usages dece port, il n'a fait au ze quieespite nn
+[verso] cune declaration, mais quil s est
+[verso] d'abord occupé du dechargement
+[verso] & du beneficiement de ses marchan
+[verso] dises, qu'il reste en son magazin
+[verso] une quantité considerable de
+[verso] Caffé, de poirre & autre epiceries
+[verso] qui luci paroissent tot alement
+[verso] gatée & Corrompues, qu'il s'es aus„
+[verso] ji accepé depuis son, de Chargement
+[verso] a mettre son vaisseau en dat, que
+[verso] dans le Coup de vent qu'il a essuié
+[verso] du vingt sixau vingt sept decem
+[verso] bre il a perdu son grand maten
+[verso] entier sou mat d'artimon en
+[verso] entier, sonpetit mat de pune, en
+[verso] forte qu'ils'à pu conserver que son
+[verso] mat de miscre son beaupré nud,
+[verso] de la quelle declaration il a requis
+[verso] acte en lui octroyé du Contentement
+[verso] de M„r le procureur du roi, sous
+[verso] reserve par lui faite de faire Constates
+[recto] 447.
+[recto] les avaries des marchandises qui sont
+[recto] dans son magasin, meme toutes au„
+[recto] tres avaries que besoin sera par la fuite
+[recto] & a signé avec nous, mons„rs le procu
+[recto] reur du roi & le Griffier & au regis„
+[recto] tre signé le brus; Crunel, C: in't Anker
+[recto] &. Auffray
+[recto] Collutionééé par moi notaire
+[recto] du Roi, Commis Griffier en
+[recto] Chef Chargé de Ca Jurisdiction
+[recto] royale & d'admiranté, de
+[recto] l'isle de france Coussigné sur
+[recto] le registre servant aux decla„
+[recto] rations d'amiranté demeuré
+[recto] au dit Greffe ce Jour sext
+[recto] arril mit sept rent quatre
+[recto] vingt Tept.
+[recto] /:Signé:/ auffray.
+[recto] Nous ignace brunel conseiller du roi, Juge
+[recto] royal, ciril Criminel, de police & d'admi„
+[recto] rauté a l'isle de france, cij devant, premier
+[recto] Conseiller au Conseil superieur de pondi„
+[recto] chery, Certifions a tous qu'il appartiendrae
+[recto] que maitre auffray qui a signé cy
+[recto] dessus est tel quil se qualificie & que
+[recto] foi doit etre ajoutéé a sa signature
+[recto] tant en Jugement que hors, Certifions
+[recto] en outre que le papier timbre west
+[recto] pas en usage danscette colo
+[recto] nie in le controlle
+[recto] de parcilles actes en foi de
+[recto] quoi nous avons signé ces
+[verso] les
+[recto] pre
+[recto] 34
+== NL-HaNA_1.04.02_4325_0064 | #64 | sides: recto,verso | lines: 63
+[recto] 448
+[verso] E:
+[verso] seelu Liv Jacop
+[verso] /:signe:/ Auffray
+[recto] 21 fer: 1787
+[recto] proces verbal de
+[recto] vesite de 100000 lb
+[recto] de privz  A
+[recto] 100000 l de Coff
+[recto] de la Carxaison
+[recto] die noble Compe
+[recto] hollandaede des
+[recto] ƒ
+[recto] la Perle Cap=ne L'an mil sext sept cent quatre vengt
+[recto] Indes mentale
+[recto] Cornelis in 't an sept. le mecredy vingt un ferrestras
+[recto] ker avcc ordor heures de relevers.
+[recto] nance qoe
+[recto] privre et Catt a la repuete et presence, du Corns
+[recto] en
+[recto] 't anker Capne du navere de la Compe
+[recto] serent sette en
+[recto] hollandaes des Indes la Perle ancre
+[recto] au port Louis de cette Isle
+[recto] En presence des sieurs Are styne Capn
+[recto] en secend Ludwech Haak Arasiem effi„
+[recto] cls, de Jean de-Sing Bosseman A Thomas
+[recto] Rotmar Cannoncer de dit navere
+[recto] Etencore en presence de M: heere Malo
+[recto] les Bras de ville vidence procureur du
+[recto] Rox en la Sarisdiction rexale et d'ami
+[recto] raute de l'isle de france
+[recto] En vertee de notre ardonnance die der neuf
+[recto] present mas, sois Caure de du renvoy de
+[recto] M: l Jaxx royal et d'amiranté et
+[recto] pour l'empechement a raison de maladie
+[recto] de m. r le Lieutenant la dt requete
+[recto] deneur ce Jointe
+[recto] Nous franceis le fuestier avocat en
+[recto] partenant et au Conseil superieur de
+[recto] atte Jsle, assisté de M: Jean pierre
+[recto] auffray notaire die rox commis ptiffees
+[recto] en Chef axant avec nous les sieurs
+[recto] Charles morenier marchand de cette
+[recto] ville, expect suré du siege et Pierre
+[verso] presentes & a J. celes fait opposer
+[verso] le scelle de la Jurisdictoire royale
+[verso] par un des griffiers d'jcelles.
+[verso] donné en notre hotelau
+[verso] port Louis is le de fran„
+[verso] ce le sept aril millé
+[verso] cent quatre vingt sept
+[verso] /:signe:/ Brunel. —
+[verso] Accordeert. —
+[recto] Extract de Minutes die
+[recto] Greffe de la Jurisdiction
+[recto] Rogale d'amiranté de
+[recto] Ciesle de France
+[verso] ALorch
+[verso] EeClerq
+[recto] Fredrik
+[recto] mer
+== NL-HaNA_1.04.02_4325_0065 | #65 | sides: recto,verso | lines: 73
+[recto] 449
+[verso] Fredrek Languee de Bariels ausse mar
+[verso] chand de cette ville expeits par noues
+[verso] pris et nomme d'office lequels dit Sis
+[verso] Lanxw et des baniets à entre not maires
+[verso] preté le seiment au cas reques, nous
+[verso] sommes transporte au magarin de
+[verso] so majeste sex au lieu de Codan dans
+[verso] les lpuels sont reposés les marchan
+[verso] deses du dit navire la Perle a l'estet
+[verso] de vereficie et Coustatee l'etat au sons
+[verso] Poivre et caffé faisant partie de la
+[verso] dit Carpaaison
+[verso] Arreve sur les lieux le dit Sr. Cornelius
+[verso] in't anker nous axant fait aviir les
+[verso] dets maxazius et presence goe de thu
+[verso] les Dits sr experts ont procede a la
+[verso] visite de marchandises et nuis ont
+[verso] de suite dit et rapporté apres veri,
+[verso] fication qu il exste cent milliers de
+[verso] poivie et cent millieis de Coffe de
+[verso] Jacatra noi bralant et assolument
+[verso] Poury et dont embaiquement repouriat
+[verso] etre que tres musible aux Equipapes
+[verso] et ont segne requerent act acusi a
+[verso] la minute lanquiers des banets
+[verso] et moriniere Cadit
+[verso] Et payé le dit s: Cornelius in't anker
+[verso] acte demand acte des dites visites,
+[verso] et rapport et Concelee a ce qu' attendu
+[verso] le peril au quel serot exposé l'equi„
+[verso] paxe si l'on embarquait les dits mai„
+[verso] char dises el sut autouse a les jetter
+[verso] a la mer a repuets acte et a signe
+[verso] aiusi, segné (:in't anker, surxior, oui
+[verso] le Consentant me le procureur au
+[recto] Roij, donnant acte aux lieurs Expects
+[recto] et au dit sieur Capitain des dits vesi„
+[recto] tes et rapports ordonnins qu'a la requete
+[recto] porusuits et dilixence du dit Pieur
+[recto] Cornelis in 't anker les ceut milliers
+[recto] de porvre et le cent milliers de Caffé
+[recto] que se treure - parmi, serent incessamment
+[recto] Fetté a la mer en notre presence et celle
+[recto] de mons: le procureur du roy et avons
+[recto] sepré avec M: le procureur du rox et
+[recto] le Greffier, sipné le foestier le bras
+[recto] et ausfray. -
+[recto] Dont let de toutce que dessas nousa
+[recto] vorsdresse l present proces verbal
+[recto] au port Louis Isle de france les Jours
+[recto] mois et au que devant et avons signé
+[recto] avec le sieur Cornelius in 't anker avee
+[recto] styne Luedwech Hlaak, Jean de Jong Tho„
+[recto] mas Lotmar, les sieurs languers de
+[recto] Bancets et moruene Cadit m:r le procu
+[recto] reur dy Rei et le Preffier axant vacqué
+[recto] susca à sex heures sairce sepré Cin
+[recto] 't Anker A styne Ludwich Isaak Jean
+[recto] de Iong, Thomas Lotman Mounier Cadet
+[recto] L'arquie des baniets dit is 't merk
+[recto] Wynand Many le frestier, les bras et
+[recto] onstrap.
+[recto] 5 may 1787 Pan mel sest cent quatre venxt sept
+[recto] le landi cinx mais deux heures de
+[recto] zeleves
+[recto] En requete et presence que devant
+[recto] et en vertu de notre ordonnance etant
+[recto] en notre proces verbal die verxt in se
+[recto] vuer demier des autres parts
+[verso] 20
+[recto] nots
+== NL-HaNA_1.04.02_4325_0066 | #66 | sides: recto,verso | lines: 75
+[recto] 450.
+[verso] 6 mais 1787
+[recto] 7 mars 1787
+[verso] Naès Juxes susdits assistt. Comme dessus
+[verso] noes sommes transportte au lieu dt Cedon
+[verso] a l'efet de faire proceder au jet a la
+[verso] mer de pavres et Coffes pour y provenant
+[verso] de la Carpuaison du navir - de la Comp=ee
+[verso] kollandais des Indes la perle a quci
+[verso] acte procedé Comme suit, duvecture
+[verso] factes des magarins de sa mojesté
+[verso] dans les puels sent deposes les dites
+[verso] marchandises au moyen des Cless pro„
+[verso] duites par le sr in 't Anker, nous avons
+[verso] en moyer de cinquante nois du sieur
+[verso] le Zongard fait extraits des dits ma„
+[verso] gazins ure quantité de pavre qui
+[verso] aproduct le pords du vinxt einx milliers
+[verso] que nous avons a l'aide des dits nous
+[verso] faits porter et Jetter a la merscas le
+[verso] vente et apres avoir vacque Jusqua
+[verso] sex heures sure, les magarins ont
+[verso] ete renfermee de leurs Clefs, lesquelles
+[verso] ont ete reméses au sr en 't anker et
+[verso] la vacatien pour la Continuatien du
+[verso] present proces verbal ren vrye a demair
+[verso] mardy six heures du matin sex du
+[verso] Courant au det magaren a les partees,
+[verso] se tiennent pour assignés et ont signé
+[verso] avec nous Ms les procureurs du Rov
+[verso] et le Greffier aersi segné (in 't anker
+[verso] Astyne Ludwich Hlack, Jean de Jongh
+[verso] Thomas Lotman, le Bras, le foresteer
+[verso] et auffray
+[verso] 6t le mardi six mais melle septeent
+[verso] quatre verxt sept, sex heurs die maten
+[verso] En dit repuete et presence nas Jage
+[verso] susdit assesté Comme dessus nuis
+[recto] sommes transportes a Codan de stant A
+[recto] nevecture faite des magazins au moyen
+[recto] des Clefs produits par le sr in 't Anker nous
+[recto] avons avec l'aide de cirquante nous louce
+[recto] du sieur le Longard par l dit S: fait Gc
+[recto] trair des majarins ur quantsté de
+[recto] paivre qui a preduit le pard de quarante
+[recto] milliers et a l'aide des memes noirs
+[recto] le tout porté au de hors, l'avons fait
+[recto] Ietter a la mer sous le vent, et apres
+[recto] avoir vacque susqu'a cnq heures de relevee
+[recto] nous avors fait refermer les magarius de
+[recto] leurs Cless, qui ont ete remises au Sr
+[recto] in 't Anker, et la vacatien pour la Conte
+[recto] nuatien due present proces verbal â
+[recto] demair mecrede sept du Courant sx
+[recto] heures du maten au susdit maxaren
+[recto] aux pues sour lier et heure les par„
+[recto] ties se tiennent pour assignér et ont
+[recto] signé avee nous M: le procureur du Roy
+[recto] et le Treffier ainsi segné Cant anker
+[recto] A Styne Liedwich Isaak Jan de Jone Tho¬
+[recto] mas Lotman le Bres le frestear
+[recto] et autray
+[recto] Et le meeredy sept mars mil sept cent
+[recto] quatre vinct sept sex heures du maten
+[recto] Etrequete et presence cemme de Vant
+[recto] nous Juxe susd=t Assiste comme dessus
+[recto] nous sommes transportes aux susdts
+[recto] maxazins les quels onverts au mopen
+[recto] des Cless produit par le F in 't anker
+[recto] nous en avons a l'acde des cenquante noirs
+[recto] du dit sr le Longard fait extraire le
+[recto] reste du poivre avarée qui aproduct
+[recto] en pold la quantité de treute cinx
+[verso] Sommes
+[recto] milliers
+== NL-HaNA_1.04.02_4325_0067 | #67 | sides: recto,verso | lines: 72
+[recto] 455.
+[verso] 4 mais 1787
+[recto] 9 Mars 1787
+[verso] milliers et quinze milliers de Caffe
+[verso] poursu tast quor nous avons fait porter
+[verso] et Cetter a la mer sous le vent en notre
+[verso] presence, et apres vacque Iusqua sex
+[verso] heures du sin, nous avous laissé les dits
+[verso] mojaters en la saide du sr in 't anker
+[verso] A cenvoyé la vacation pour la Continuation
+[verso] de la presente operatien a demain seude
+[verso] huit du Courant sex heures du maten
+[verso] aux sosd it maxazin, au quel son, lieu
+[verso] et heures les parties se teennent poru
+[verso] assegnes et ont signes avec nous m le
+[verso] procureur du rox et le Preffier /segne/
+[verso] Cint anker A styne Luedwich Hsaak
+[verso] Ian de Sonx Thomas Lotman, le bras
+[verso] le foresteer A auffray. —
+[verso] le Jendi huit mais mil sext Cent quatre
+[verso] vengt sept sex heures die maten
+[verso] En requete et presence que devant nous
+[verso] suxe susdit assisté Comme dessus, neus
+[verso] sommes transportes aux dit maxarius
+[verso] ce etaut et ceux onveits au moyen de
+[verso] Cless produits parle sr in 't Anker nos
+[verso] en avous fait extraire ure quantite
+[verso] de Caffe pourvié qui a preduit en proces
+[verso] guarante milliers, lesquels ayant fait
+[verso] pater A setter a la mer scis l vent
+[verso] le tont a l'aide des dits arquante
+[verso] nous du S: le Zongard
+[verso] Etapres avoir vaque susqua quatre
+[verso] heurés fermé des Cless, nois avons lais„
+[verso] sé le dit maxazir, en la garde du
+[verso] dit I: en 't Anker et la Vacation pour
+[verso] la Continuation de la presente operation
+[recto] renvoyé a demain vendredi neuf du Cou„
+[recto] rant sex heures du matin aux sus d: majazin
+[recto] au prel Tour Lieu et heure les partees
+[recto] se tiennent pour assegner, At ont segné avee
+[recto] noos ms le precureur du rox et le Pres„
+[recto] fier sexre Cent anker, Asteyne Lud„
+[recto] wech Haak, Ian de Iong, Thomas Lotman
+[recto] le Bras, le forestier et aufray
+[recto] Et le vendiedy neuf mais mil sept Cont
+[recto] quatre virft sept sex heures du maten
+[recto] En requete et presence que devant nous
+[recto] Juxe susdt assisté comme dessus, nous
+[recto] sommes transporte en susdst: maxarin
+[recto] ni etant ceux ouverts au moyen de Cless
+[recto] productes par le dit s en 't Anker, nous
+[recto] avens a l'aede des dits cinquante noirs
+[recto] du sr Le Zongard, fait extraire de ceux
+[recto] ure quantité de Coffé formant le
+[recto] resté de celué precedemment reconnu
+[recto] pourey pui a produit quarante cinx
+[recto] milliers que nous avons fait porter
+[recto] et Jetter a la mer sous le vent
+[recto] cefait et toutes les parres et cassés
+[recto] pour wes reconnie et parnotre proces
+[recto] verbal du virgt ur fevrier dernier
+[recto] etant extraits des dits magarins
+[recto] et Jettés a l'eau, nous avons de
+[recto] toit a pre dessus deessés le pre„
+[recto] sent proces verbal au dit sieur de
+[recto] Codan au port Louis Isle de france
+[recto] les Jours, mois et au que dessus, ac„
+[recto] ant vacqué Juspua sexheures sonéé
+[verso] renvoye
+[recto] A
+[recto] 451
+== NL-HaNA_1.04.02_4325_0068 | #68 | sides: recto,verso | lines: 79
+[recto] 455.
+[recto] honnaires
+[verso] et ont toutes les parties sixné avec nous Mr
+[verso] le Procureur du roy et be greffier /: sien
+[verso] (:in 't Anker A Styne Ludweer Hsaak, Jan
+[verso] de Jong Thomas Lotman le Bras, te
+[verso] forestier et auffray suit la teneur de
+[verso] lannex
+[verso] A monsieur Monsieur le suxe d'amirante
+[verso] allesle de france
+[verso] Supphe hamblement Cornelis in 't Anker
+[verso] Capitain du vaisseau de la Compie des Indes
+[verso] orientales hollandorses, disant, que la
+[verso] nuit du vingt sex au vingt sept de decem
+[verso] bre etant par la latitude dixhuit de
+[verso] giés de lxatude lat Aude sud et qua„
+[verso] tre vingt tuize depres de long stude
+[verso] meredier de Tenerif il aurnt recu un
+[verso] tenble Coux davant de la part du NE
+[verso] au S: E et auroit ete dans le plus
+[verso] grand danger de coules a fond, axant
+[verso] eu Jusque a onze pieds et demi d'eau
+[verso] dans sa Calle et que cette ouelle
+[verso] position auroit duré Jusqu a medi, du
+[verso] vingt neuf du dit mois, qu'aniré dons
+[verso] ke port le treize sanvier, il se serat
+[verso] occupé de sor dechargement et du
+[verso] beneficiement de ses marchandises quae
+[verso] tuellement axant en magazin une
+[verso] quantité Clonsiderable de Casté, de
+[verso] poivre et autres Epicezies entierement
+[verso] gaté et qu'il seroit imprudente d'em„
+[verso] barquer, stant Chose nuisible a la
+[verso] santé d' Equipace et vous supplie
+[verso] Monsieur de Vouloir bien nommer des
+[verso] experts qui Constatent le maaraisetat
+[verso] des dites marchandises et le danger
+[recto] 452.
+[recto] de les emborquer et en ordonner suivant
+[recto] vatr saxesse au port Loues le dissept
+[recto] fevrier mil sext cent quatre verxt sept
+[recto] signé Cin 't anker
+[recto] Plus bas ecuit renvoy pair l'empechement
+[recto] notoire de nous et de M: le Lieutenant
+[recto] a MM les gadue du siege suivant t'ordre
+[recto] du tableau Port Louis le dix neuf fe
+[recto] vrier mel sext Cent quatre vingt sept
+[recto] Sexré Brunel
+[recto] serent les marchandises du vaisseau
+[recto] la Perle visitée en presence du Capitaine
+[recto] „des officiers de saibord et de menneu
+[recto] b procureur du Roi de l'amiranté
+[recto] moeredy prochair tras heires de
+[recto] relevee dans les magazens de sa majesté„
+[recto] sieu a Cedar et nous nommins d'fe„
+[recto] ce les Pieurs fabies et languiers des
+[recto] baniels, marchand en c port pour Cou„
+[recto] statuer les avarces des dittes marchan,
+[recto] dises au port Louis M. de france le
+[recto] dix neuf fevrier mel sept cent quatre
+[recto] vengt sept /'signé / le firestier. —
+[recto] Collationnee par moij notaire
+[recto] a m: le Juge. . . . . - 208 „
+[recto] die roi Commis Preffier en Chef
+[recto] a m le p du zoi - - - 138 „ 13: 4
+[recto] chage de laregie du presse
+[recto] & la Jurisdiction roy ale et
+[recto] au gressier 138:13:4
+[recto] Expedition 15 - — 15. 3„ 13: 4 Vameraute de lesle de
+[recto] france soussigné sui la
+[recto] nepotiation 502 6:8
+[recto] minute demeuré au preste
+[recto] en ma posession le Tour sept
+[recto] Cingcent deux lives sex
+[recto] avril mil sept cent quatre
+[recto] sels huit deniers.
+[recto] vingt sept deur mits rapes nien
+[verso] de
+[recto] 1: Sepné Caufray
+== NL-HaNA_1.04.02_4325_0069 | #69 | sides: recto,verso | lines: 24
+[recto] 455.
+[verso] sielle le dit sour
+[verso] /signe/
+[verso] Nous ignace Brunel Conseiller du rer Juge
+[verso] royal, Civil, cuminel de police et d'amiranté
+[verso] alesse de france, ancier premier Conseiller
+[verso] au Conseil superieur de pondicherry certifions
+[verso] a tout qu'il appartiendra que me auffray
+[verso] qui a signé ci dessus et ce quilse qualffie
+[verso] que fa doit etre a juité a sa signature
+[verso] tanten Jugement que hors, certifions aussi
+[verso] que le papier timbié ni le Contresle
+[verso] de cet acte ne sont point d'usage dans
+[verso] cette Colonie. En for de quoi nous avons
+[verso] delovrée le praesent et a scelle fait op
+[verso] pder l sceau de la Junis diction roy„
+[verso] ale par un des greffiers de Jsle
+[verso] Donneer en notre, Lotel au Port
+[verso] Louis Isle de france le sept arrie
+[verso] mel sept cent quatre verxt sept
+[verso] J. Segné JBrunell
+[verso] Accordeert.
+[verso] Aklorak
+[verso] 69bog
+== NL-HaNA_1.04.02_4325_0070 | #70 | sides: recto,verso | lines: 29
+[verso] N 4
+[recto] 453.
+[recto] rente dus
+[recto] Par devant Les notaires du Roya
+[recto] L'Ile de France sousignes fut present
+[recto] le Sieur Francois Calineau, Capitaine
+[recto] du vaisseau le David, armateurs Les
+[recto] Sieurs David Grudis et Fils de Bordeaux
+[recto] le dit vaisseau de houe au port Locuis de
+[recto] Cette Ile lors du Coup: de vent que à en
+[recto] lieu dans la mut du quatorze au quin
+[recto] ze Decembre dernier. —
+[recto] Le dit sieur Salineau resident
+[recto] en Cette Isle en la ville du port Louis
+[recto] rue du rempart de la grande mon„
+[recto] „tagne paroisse S t Louis agissant aux noms
+[recto] et pour Compte des armateurs de tous
+[recto] assureurs et autres aijant droit sur le dit
+[recto] vaisseau.
+[recto] Lequel en Executien de la sentence et di
+[recto] autorisation rendue au siege de la Juri„
+[recto] diction roijale de Cette Ile tenant lieu
+[recto] de siege d'auiraute le mardij vingt
+[recto] trois Janvier dernier sur la requete du
+[recto] dit Sr. Comparant contre M:le procureur
+[recto] du roy au dit sige et les sieirs brondon
+[recto] et gescroij Commissaire des Classes
+[recto] Fevrier 1737
+[recto] ƒ
+== NL-HaNA_1.04.02_4325_0071 | #71 | sides: recto,verso | lines: 53
+[recto] 454.
+[verso] et tresorier des Jnvalides de la marine
+[verso] dont Expedition Collatio née signéé auffra
+[verso] Commis greffier presentes vend par les
+[verso] presentes et promet garantir de toute
+[verso] dittes privileges, revendications de tous
+[verso] troubles et Empechemens generalement
+[verso] quelconques aux sieurs Janvier Monne„
+[verso] ron et Compagnie, negotians de cette
+[verso] Jsle stipulant par le dit S=r Jan vier
+[verso] monneron resident en la ditte ville
+[verso] du port Louis parvisse St. Louis
+[verso] a Crepesent et acceptant au nom
+[verso] et pour Compte de la noble Com„
+[verso] pagnie des Indes Hollandoise ainsy
+[verso] quil sera cijapres de Claré. —
+[verso] Le Corp quille aggres et apparaux
+[verso] du dit vaisseau le David du port de sext
+[verso] „cent tonneaux Environ actuellemintec„
+[verso] houé au port Louis de cette Isle voiles
+[verso] cordages et matures ancres et gene
+[verso] raliment de touts objets dependant
+[verso] du dit vaissean Compois en l' Jnven„
+[verso] taire general qui en actefait en
+[verso] Execution de la sentence cij devant
+[verso] en once par M: M: les officiers de la
+[verso] juridication royal tenantt lieu de
+[verso] Siege Damirauté en Cette zle dont
+[recto] expedition a eti remise aux dits sieurs
+[recto] Janier Monneron A Compagnie qui
+[recto] reconnoissent au surplus le tout bien
+[recto] Connoitré pour l'avoir vuvisitte et
+[recto] Examine et pour avoir pris possession
+[recto] et etre entres en Jouissance du tout
+[recto] dont Jes sont Ceuters et satisfaits
+[recto] Cette verte est faite moijennant lee
+[recto] somme de quatre vingt dy mille livres
+[recto] de prix Convenu que le dit sieur Jali
+[recto] neau reconnoit avoir recue Comptant
+[recto] et ce Jour det dits sieurs Jan vier mon
+[recto] neron et Compagnie dont is quilte
+[recto] et de Charge cesderniers. —
+[recto] au moijen de quoiet de lExecution
+[recto] des presentes ce dit s=r jalineau aux dits
+[recto] noms sedemet et desuisit par les precen„
+[recto] tes en faveur des dits Sieurs Janvier,
+[recto] monneron et Compagnie detous
+[recto] droits de propriete que lui ses dits
+[recto] armateurs assureurs et autres pour
+[recto] lesquels Jl agit ont et peuvent avour
+[recto] sur le Corps quille aggres apparan
+[recto] et dependances du dit vaisseau le
+[recto] David dont sl consent que les dits
+== NL-HaNA_1.04.02_4325_0072 | #72 | sides: recto,verso | lines: 53
+[recto] 455.
+[recto] stelle her
+[recto] Jouselon
+[verso] a que reurs Jouissent fassent et dispo„
+[verso] sent comme de Chose leur appartenan
+[verso] te en vertu des presentes a Compter de
+[verso] Ce Jour. -
+[verso] a Ce faire etoit present M: Corneille
+[verso] Jn 't Anker Capitaine Commandant
+[verso] le vaisseau de la noble Compagnie
+[verso] des Jndes Hollandoise nomine la Per„
+[verso] le, monillé nu Port Louis de Cetteesole
+[verso] au Il acté force de relache pour
+[verso] ce remater et reparer les dommages
+[verso] d'un Coup de vent quil a Elsuije dans
+[verso] La traversée des Jndes en Europa,
+[verso] Lequel Declare que la presente
+[verso] aqui sition faite par les dits Sieurs
+[verso] Janvier Monneron et Compagnie
+[verso] est au nom et pour Compte de la
+[verso] ditte Compagnie des Jndes Holland vi
+[verso] „seset pour servier au remetage et repa„
+[verso] rations de sondit vaisseaula Perle,
+[verso] en Consequence sl: s'obligé au nom
+[verso] de la ditte Compe a rembourser garan
+[verso] tir et Jndemni, serles dits Sieurs Jan
+[verso] vier, Monneron et Compe de tous frais
+[verso] et depences quel conques relatives à la
+[recto] Presente aqui Sition Sous l'obligation
+[recto] speciale du dit vaisseau la Perle qui
+[recto] de meure obligé par privilege a cet
+[recto] effet aussij que de droit:-
+[recto] Et ont les parties Elu leur donni„
+[recto] cile pour le execution des presentes
+[recto] en leur de meure en cette Isle aux quels
+[recto] leux Ils consentent et nonolistant & pro
+[recto] mettant Obligeant & renoncant &
+[recto] fait et passe Double au deser de l'zout
+[recto] au Fort Louisple de france et etu„
+[recto] des l'amnel Segt Cent guatre vingt
+[recto] sept le premier fevrier avaart midij
+[recto] et ont signe lecture faite. -
+[recto] La premire minute des presente
+[recto] Contrallé par souraille quiaman„
+[recto] que recu vingt sols e Demeuréé de la
+[recto] ve Garde dé passion de Mpelle huur
+[recto] 5 des noitaris Lonsigne.
+[recto] /:getekend/ Pelte
+[recto] Buink
+[recto] Accordeert
+[recto] ALorak
+[verso] presente
+[recto] Eyllerge
+== NL-HaNA_1.04.02_4325_0073 | #73 | sides: - | lines: 0
+== NL-HaNA_1.04.02_4325_0074 | #74 | sides: recto,verso | lines: 45
+[verso] No: 5
+[recto] 457.
+[recto] une grande ancre pr 2500 lb
+[recto] La Coque du navire
+[recto] quatte mats majors
+[recto] wnese conde A=o 2000„
+[recto] quatre mats de hune
+[recto] Une trousieme „ 1200 „
+[recto] deux mats de perroquet une ancre de torie „ 500 „
+[recto] uen per roquil de fouque
+[recto] garnituze
+[recto] haubant Abae hanbants
+[recto] Une grande vecque
+[recto] Complets garnis de leurs
+[recto] Uni Idem de Misaine
+[recto] deux verques de grand hunier pantoires, etais, garnitur
+[recto] deux &4oa de Petits hunier de beanpre et de garde
+[recto] Corps le tout en place
+[recto] Une verque de Sivatie re
+[recto] deux Carques de Misainne
+[recto] Une verque Siche
+[recto] deure veeques de perroqnes six Carques fonds on Carques
+[recto] Une verquede perroquet de fonque boulines de misainne
+[recto] une idem fause Sivadieze deux boulines de misainnes
+[recto] le mat de pavillon deuxx balanciers de la verque
+[recto] un Cabestantavec Seibarres
+[recto] de misainne
+[recto] trois pailles de biter les babans de ferlage de mi„
+[recto] deus pompes Eoyalee
+[recto] Sainne
+[recto] un grand Cable de 1z: p=le deux ecoutes, de la ditte viel„
+[recto] les
+[recto] Een dito de 25 p=tes
+[recto] un idem de ba brasses etde deux amures item
+[recto] deuse faux bras idem
+[recto] 13 p=as
+[recto] un idem de 14 p=ce eviconr La garniture de la verque
+[recto] 100 brasser
+[recto] de misainne
+[recto] Inventaire du Wre. Le david de Bordeaux
+[recto] pit=n Palineau, armateurs les Sueurs D: Gradis er
+[recto] 6
+[recto] Fils
+[recto] Savoir
+[recto] N o 6
+== NL-HaNA_1.04.02_4325_0075 | #75 | sides: recto,verso | lines: 86
+[recto] 158
+[recto] 457.
+[recto] de Chepie det pouliage hys haubants du perroque la quarriture de la verque la guarniture du baton de foe
+[recto] les pouliers de coutis Ad'a, deus: palanquins de drosse
+[verso] de la ditte verque
+[verso] de fongue
+[recto] deux gals hanbans de grand
+[verso] deuit atrops dat on du mat deux ecouttis idem
+[recto] muze de misuinne
+[recto] une drisse Abetaij du per deux balanciers du grand
+[recto] Perroquet
+[verso] de Misainne
+[recto] deux idem de bechange
+[verso] deux bras de Misainne
+[recto] hunier
+[verso] roquet de fouque
+[recto] deuxbras du grand hunier deux etaques de petit Ennier
+[verso] la quarniture de la verque
+[verso] deus Carques de grand
+[recto] les haubans de grand
+[recto] de ux carques idem
+[verso] vrille
+[verso] un bacage de perroquit
+[recto] perroqueƒ
+[recto] deux carques boutines
+[verso] Sut Carques fonds ou Carqua de fe
+[recto] deux boutines de perroques deux idem
+[verso] biretines de la ditte fville denx carques id id
+[recto] Euit palanquins du dit
+[recto] de fircque
+[verso] les Eabans de la grande deux balanciere et denx:
+[recto] 1
+[recto] deus palanquins de grand vn Aaij de grand perroquet
+[verso] bras de la verque seche
+[recto] de uw: dito de bechange
+[recto] hunier
+[verso] deux boutlets de lavirque un morieau de grand bras
+[recto] 1
+[recto] une quinderesse der grand sut haubans dus petik
+[verso] deuis balanciers idem
+[verso] uy etanj e t unE draille dus
+[recto] perroquet
+[recto] mat de hune
+[verso] la garniture de la grande grand mat de hune
+[recto] unetaij etune daille du d=o sut palanquins du dito
+[verso] huit hanbants de dit
+[verso] vexque
+[recto] huit haubans du petil de deux boulines du ditto
+[verso] les poulurs de contixet deuxid de bechange
+[recto] deux Carques boutines
+[recto] hune
+[verso] d'amures de la grande six gal haubans du grand
+[recto] deux haubans de be change deux & Carques de fond
+[verso] voille
+[verso] nat de hune
+[recto] unetaij de boyeau deuxbras de pekt hunier
+[verso] deuxt amures de grande Voille
+[verso] 1
+[verso] un baccage de grand hunier
+[recto] uin baccage de pekl hunier de ux palanquins de la
+[verso] deuit palanquins de balan
+[verso] deus arisses due dit
+[recto] Corne
+[recto] Une drusse Aun draille de
+[verso] cine de gland verque
+[verso] deulecontes de grand voille de uet palanquins de dit
+[recto] deux drisses de pert hunie re
+[recto] grand foc
+[verso] de ux palanquins et deux deuxecontis idem
+[recto] Le Cappelage du petit mak de uxt Carques ditto
+[verso] „drosses de grande verque deux carques fonds idem
+[recto] Sep„r Arisses de bonnestes
+[recto] de Enne
+[recto] 1
+[verso] quatre ecoutes de basses le Cappillage du grand mat
+[recto] deuxecoutes du petit hunier deux Carques boutines
+[verso] woilles de bechange
+[verso] de hune
+[recto] un halle basdu grand soe du grand hunier
+[verso] de ut gal haubants du per de ut boutines de grand
+[recto] uen Etaij deu Grand perroque t la garniture de la Corne
+[verso] roqnet de fonque
+[verso] hunier
+[verso] wille
+== NL-HaNA_1.04.02_4325_0076 | #76 | sides: recto,verso | lines: 87
+[recto] G. 458
+[recto] ba druse at halle Cas de la une ecoute et une amura de Une pate dvie den bonneste barve dis neuf id a violon a Deiar
+[recto] Eedr
+[verso] la druse et alle bas de la deux boulines de grand per un paquet vieuse Cordagis de ux idem doubles den huit
+[recto] an vieus morceau de ralinque
+[recto] pouces pour palang
+[recto] la drisse de la Corne dupsie
+[recto] deus galoches de Carques
+[recto] deux paqne viens Cordages
+[recto] fond
+[recto] cinq palans a Canon cinquante quatre pouliers
+[recto] deus balanciers de petit Simples de Cing „ 6 pouces
+[recto] dens placarts simples
+[recto] runiers
+[recto] unetaij de Coyjeau de grand Freize pouliers de netour
+[recto] deui bazanes et demie
+[recto] perroquest
+[recto] vongt cages a poulus Une pelotte bittorre
+[recto] Article de Mr. d' Equipage 8½ A:m baques
+[recto] cing calles moutons de bos 6. mailles a fouzer
+[recto] hanbans de bechange 10 Expissoirs
+[recto] Seize idem de Eune wi petit buren
+[recto] quatre id: pour hanbans sux Caisetete pour deisser
+[recto] de Eune
+[recto] de Chaloupe
+[recto] cing moques pour etaij deux palans a Canons
+[recto] Une galoe he pour Capelage huit poulie rs simples à
+[recto] fonct
+[recto] neuf pouliers de Caliorze
+[recto] dees placcarts doublee
+[recto] et trois beas
+[recto] sis idem a deus Eeas Une Poulie a violon a 3 reas
+[recto] cingidem de sous verques deus idem de Capons
+[recto] quatte den decoutes de dix marqouitle ttes
+[recto] treize beas et Bessiens
+[recto] Une idem de Candelette
+[recto] une baroquette
+[recto] vingt un id de Six a neuf deux galocher
+[recto] ponces en deus Eear denk donz=e Crois
+[verso] bonneste
+[verso] prouillonse
+[verso] roquet
+[verso] marquise
+[verso] Une drisse du grand perroquit Une drisse de hallebas de
+[verso] tourmentin
+[verso] Une dito du Detit
+[verso] Stois Gouliers de quinderesse Une amure de bonnette
+[verso] de ut pabans de haut bans deux boullines de petit
+[verso] perzognet
+[verso] Ada parroquet
+[verso] Une amure et une ecoute
+[verso] quinze pailtak de brassa
+[verso] de bt
+[verso] ge on de baccas sage
+[verso] ditto de bonnette basse
+[verso] deux ecoutes de gland
+[verso] uen quelin de ruit: pouces
+[verso] perroque
+[verso] à l' usage du bord
+[verso] Une poulie de drisse, une les barres du grandet du
+[verso] amure de bonnette
+[verso] petit perroquet
+[verso] deux Carques de grand per les Chiquets des mats de
+[verso] rune
+[verso] boquet
+[verso] la drisse, halle bas, et halle
+[verso] un duse et un halle bas
+[verso] breus de la Voille d'etaij
+[verso] de grand for
+[verso] de parroquet
+[verso] deus Carques de Petil
+[verso] la garnituze de las Chiva die ze
+[verso] perroquer
+[verso] bhuit pouliers doubles à
+[verso] Und drisse de diablose
+[verso] Canon
+[verso] deux bras du grand perro„
+[verso] quatzes gambes de hunes
+[verso] quet
+[verso] de be change
+[verso] les Carques d'attimon
+[verso] un Eeste de piece detaque Une Piece Eide
+[verso] deuxbras du petit per nn paquet estr op de pou„
+[verso] roquet
+[verso] lie
+[recto] hune
+== NL-HaNA_1.04.02_4325_0077 | #77 | sides: recto,verso | lines: 98
+[recto] 459
+[recto] trente deux brasses vieux deuse idem de misaine
+[verso] Veede 18 Cosses
+[recto] dens: pouliers de Conduit
+[recto] Cordage de l pouces
+[verso] quatre bonts, d'aussiere d'err: dinga sis ponces
+[recto] de bras de grandhunier
+[recto] un bont drisses de bonnete
+[verso] 4 poncels faisant en vibon Trois idem de ten 8 pouces
+[recto] et e coute de perrognet
+[verso] 1
+[verso] 400: brasses a demittsees un id: aetaque de Ja
+[recto] Une douz=e baques
+[recto] Une poulie d'etaij de pr de
+[recto] deus graffins et an Cha
+[verso] Une baroqueste à 3 Eeas
+[verso] 1 Six garcettel
+[recto] firque
+[verso] Unex poulie Simple de lp
+[recto] Una derz=e pouliers de conduil
+[recto] um idem de draille de grand.
+[verso] 2 Une manoque tresse
+[verso] 1„ veng=s sux Cacellots pour une gaboche de Cargue fond
+[recto] mat de hane
+[recto] de t ponces
+[recto] Une mogne detaij de idem
+[verso] a amareklee mancavores trois vint Eerel
+[recto] Une idem 6 a 8 deurt pouliers de boulines
+[verso] quatre douze baques detente quatre Caliorne garnies
+[recto] de misaine
+[recto] trois pouliers de Conduit de
+[verso] guarante sst paquets een gros burin
+[recto] deux do. doubles de Conduit
+[recto] Une douzaine pouliers de
+[verso] Une paire pattes a 6 p=rs
+[recto] de bras
+[verso] vieut Cordages
+[recto] Une poulie de Caliorne
+[recto] Conduit pour Carques
+[verso] „ttente trois Cattes de hune deux pouliers doubles pour
+[recto] fonts et Carques pouliers
+[recto] een Frois Eens
+[verso] deuer Paillets
+[verso] Conduits de blas
+[recto] deixl pouliers doubles de Con trois gambes de hune
+[verso] een paquet derse
+[verso] Vingt deux id Simples de
+[recto] duit de Civadieze et quatre escops
+[verso] Une poulier a 3 beas pour
+[verso] Conduits
+[recto] fause Civadiere. -
+[verso] paland de Charge de u Ed de grandbras
+[recto] dus pinceaust.
+[recto] quatre pouliers doubles de Con„ article du Charpentier
+[verso] An idem de Caliorne à 3 beas vn Edemka Cracq
+[recto] 6 Casat
+[recto] duits des blas de misaine
+[recto] -
+[recto] -
+[verso] den idem à 2 beas
+[verso] dne &o gatieste deris
+[recto] U ne grande mandieren abraij
+[recto] A petit hunier
+[verso] deuxxid. de coutes de hunes Une barbe Jeanne de be Change
+[recto] deux pouliers de bras de p=r en pot idem
+[verso] trois idem de coute de Pr neuf gambes de Misainne
+[recto] Vrois verlopes
+[recto] de fouqueet peruche
+[recto] en Guillaume
+[verso] ruit p:s de grand mar
+[recto] Vingt Sept pommes de bac„
+[recto] an baband
+[verso] cing moques de 11, 9, de15 huis d:o d'attimont
+[recto] idge
+[recto] Une Cuilliere et un tra
+[verso] deux bosses de bont
+[recto] quatte pouliers de han„
+[recto] boutze
+[verso] deus Cailles montons de trois sangles lardies pour
+[recto] bans de perroquets et palan„
+[recto] deuxx feullets
+[verso] les hunes
+[verso] 11. Ponces
+[recto] quins
+[recto] deni pouliers de balan une Clex pour les pompes
+[verso] trois palans garnis
+[verso] ding idem de 5 3es
+[recto] cine de grand verque vingt neuf vrilles
+[verso] deut garans de Capons en Sexvice
+[verso] quatre idem de 4 _
+[verso] Euispouliere Limplas a
+[recto] Une idem — 6
+[verso] 5d
+[verso] 4
+[verso] de fouque
+[verso] pouces
+== NL-HaNA_1.04.02_4325_0078 | #78 | sides: recto,verso | lines: 102
+[recto] 460
+[verso] deux bappes abvis
+[verso] Un arpond pour peche
+[verso] deus ecroues pour pompes deux emerillions
+[verso] van Ziender fete
+[verso] trois haches
+[recto] cing sacs oloust divers
+[verso] un Chandelier de Ch:r
+[verso] an hachet
+[recto] trois Cent cing=e olous de
+[verso] Une meule et hasigoque
+[verso] vrois arminites
+[recto] Article de Cuisinier
+[recto] 6 a t ponces
+[verso] trons tranches
+[verso] egfer
+[recto] 80 idem pour serrure de Frois Chaudiere de Cuivre
+[verso] trois masses de feu Unebarre de Iustice et ad
+[recto] „ cing. Casse rotter assortier
+[verso] Sus feulles de Seie
+[verso] anneux
+[recto] gouvernail
+[verso] huik grandes Crampes
+[recto] 31 id d. 12 e 14 ponces Une Crassiere
+[verso] Eene Siie montée
+[verso] deux Crona tabord
+[verso] een valet actablie
+[recto] en quintal Clout de 5 p=ces Une Goissonniere
+[verso] trois pitons
+[recto] 1n d=o en vizondid 6 _ Unebroehe
+[verso] Une pince a de doubler
+[verso] an arpand
+[recto] quatre id Clons a doublage quatre Converts de Caise rolle
+[verso] Une Sire a Eefendre
+[verso] sux Ciseans a fe ro
+[verso] neus Serures de gouver
+[recto] trois Calles moutonebleurs Une paire pince
+[verso] deuk, gonges
+[verso] nail de bateaies
+[recto] Une pelle a fen
+[verso] trois bees danes
+[recto] Chaivre
+[verso] cing Eeppoussoins
+[verso] quatre fers a verlope
+[recto] trois qr Clous à tabateau Trois Couteaux de Cuisine
+[verso] trois patarasser
+[verso] Frons petites gouges
+[recto] un id vienix Clous a don, un Couperet
+[verso] triis Ciseautt idem
+[recto] den Fgriles
+[verso] cing Cvins de fer
+[recto] blage
+[recto] Sept: Chandeliers de paire deust poilles a frize
+[verso] de ui Clefs den mat de hune
+[verso] quatre Compas
+[verso] Vefer
+[recto] avant
+[recto] un ide m a Caffé
+[verso] deuit limes
+[verso] quatretaquets de fer
+[recto] Neuf idem de Eune
+[verso] cinquante cinq gou villes
+[recto] an bouilhoir en Cuivre
+[recto] dens pouliers en trois
+[verso] deut pinceauit a main
+[verso] dus Sept Condelles
+[recto] deux Ceuilleres apor
+[recto] Jerees
+[verso] deux pitons pour les
+[verso] cing plaques a goupillage
+[recto] sut galanche de Carpond deux Caffetieres en pe r blanc
+[verso] huner
+[verso] Euit petites plaques
+[recto] sis appareil de pompe un peissoir en tolle
+[verso] trois be poussoins
+[verso] deu serrures de sabord de nit marteans
+[recto] Cing Chopines neuves dens bappes
+[verso] deux Chaines pourlis baus trois serrures porrban
+[recto] cing id pour la petite Une Fourtierre
+[verso] de Chaloupe
+[recto] in Chandron de Cuivre
+[recto] pompe
+[verso] Frois ed de Cuissine
+[verso] sux feulles per blanc
+[recto] deui maillets a Callat
+[recto] vn Montin a Caslé
+[verso] nn Compasa mature
+[verso] uy et demi cuir pour las
+[recto] deux bees a Corpin deusidem a Poivre
+[verso] deux fornes
+[recto] cing morceau plomb en dit galpets
+[recto] Une Cuilliere abzaij
+[recto] cing paquets penes
+[recto] une pince balle
+[verso] pomper
+[verso] „6
+[verso] 2
+[verso] 8
+[verso] 1.
+[verso] 4
+[recto] table
+[recto] ƒ
+== NL-HaNA_1.04.02_4325_0079 | #79 | sides: recto,verso | lines: 105
+[recto] 461
+[verso] Une Leche frite en Polle
+[verso] sept horloges de ½ heure
+[verso] trois idem de 30 minute
+[verso] trois idem „ 15
+[verso] _o
+[recto] de la Chambre 32 Couvertures de pot
+[recto] Woilles
+[recto] article du Wvillier
+[recto] 50 fil arville
+[recto] 36 aiquilles
+[recto] Cartiche du Tonnelier
+[recto] ¶ matotte
+[recto] articles poup le service 2 Etousoir
+[verso] Une Porvriere
+[verso] Une ecumoiré
+[recto] 2 douz=e et demi a siettes
+[verso] Um boudinoize
+[verso] trois pavillions
+[recto] 4 plats long
+[recto] 3 misainnes
+[verso] un mortiere de marbres quatre gindons
+[recto] 3 grandes voiles
+[recto] g id bond
+[verso] Jan Pilon
+[verso] deus paizes Chandelier sen tapis de Cannot
+[recto] 3. Caffetieres en faijance
+[recto] 6 hunniers
+[recto] 2 perroquets de fonque
+[verso] un benard
+[recto] L Soupieres
+[verso] de Cuivre
+[recto] 3 perroquett
+[verso] un boutheau an pattisserie denso: Chandeliers d'habitache
+[recto] 3 bolles
+[recto] 3 Ecuilles ave sict Con 2 grands foe
+[verso] Une Coupe patte
+[verso] in Chanderom idem
+[recto] 2 tourmentins
+[verso] douze maserille
+[verso] uan E tampe du navire
+[recto] vertures
+[verso] un Auck Conte Lardoires
+[recto] 13 tasses et huit soucoupes 1grande woille d'e taij
+[verso] deus pacqueti, vitze de
+[verso] een fleur de lie
+[recto] 2 Saciars
+[recto] idem de Eune
+[verso] re Change
+[verso] Une pince a patte Un Compasou boussolle
+[recto] ¶ Peyeren
+[recto] 1 marquise
+[verso] Une Chaudiere fer blanc„
+[recto] 1 montal die ra
+[verso] Een versee
+[recto] ¶idem de perroque
+[verso] article de Boulanger
+[recto] plas
+[recto] ¶ idem dartimon
+[verso] Article du pilote
+[recto] ¶idem de perroquet de Joug
+[verso] Een partzin
+[verso] quatre Compas de Coutte
+[verso] Une Coupe patte
+[recto] 2 artimons
+[verso] een idem de variation
+[verso] Une Couverte
+[recto] 2 bonnets de bus
+[verso] en vollet
+[verso] quatze plomb de sonde articla de barmurier
+[recto] 3 de hant
+[verso] Frois Signes idem
+[recto] 3 voilles de Chaloupe
+[verso] Cing fuzils
+[verso] cing fanneaux Claire quatre sabzer
+[recto] 3 idem de Canot
+[verso] quatre idem à signeant quatte Canon de huit ael
+[recto] 2 tentes neuves
+[verso] deurt idem soura
+[recto] 1. Chivadiere
+[verso] leur g. d.
+[verso] Article du Chitpa gien
+[verso] een porte vout
+[verso] Un loe garnij de Jan Ligne
+[verso] Een Coffre den medi camt
+[verso] trois pommes de gironette et dles bemederi Continu
+[verso] trois galanches de sonder Unecaisse instrument
+[verso] de Chirurgen
+[recto] denE dirizs assiettes
+[recto] 1 Saladier
+[recto] 1 Soupiere
+[recto] 1 Saliere
+[recto] 3 plats longs
+[recto] 3 _o Ovales
+[recto] Feraille
+[recto] 11 Casse rolles de terre
+[recto] 5 granden & pichee
+[recto] Gid Terrine
+[recto] 2 p„s assiettes de Perre fausse idem
+[recto] 12 plats id
+[recto] 26 gardalot
+[recto] 2 grande& Cruches
+[recto] 4 pots a Soup=e
+== NL-HaNA_1.04.02_4325_0080 | #80 | sides: recto,verso | lines: 56
+[recto] 462
+[verso] 2 Compas en bois
+[verso] ¶ Marteau
+[verso] 2. Chasses
+[verso] 2 Franches
+[verso] ¶ fen de Scie et donze feuil„
+[verso] les
+[verso] 2 Chopires
+[verso] L demis Chopires
+[verso] 2 quarto
+[verso] 2 bougarons
+[verso] 3 pompes
+[verso] 7. Zuilliete Alamuseze
+[verso] 4 Sonder
+[verso] 2 antonoires de ser blanc
+[verso] 2. godets
+[verso] 24 Seaut
+[verso] 2 antonorts en bors
+[verso] 5. gamets
+[verso] 6 bidons
+[verso] 6 Corbillions
+[verso] 2 Paires balance settes
+[verso] Drids
+[recto] Resue de monsieur de Jongare Six piastres
+[recto] pour l'antre du V=lan hollandve dela Comp:,
+[recto] dans leport Trommelin a l' Isle de france
+[recto] le 15 Jan: 1787.
+[recto] Siqué faures pilotte de port
+[recto] Accordeert
+[recto] Munsieur Chonneren.
+[recto] ayez la bonte de payer aupilote qui m'a
+[recto] entréici son piloulage vous obligerez cent
+[recto] franc
+[recto] ce 6 evr. 1787.
+[recto] 100 franc ƒ
+[recto] vorre humble Serviteur
+[recto] /siquet C. In't Anker
+[recto] accordeert
+[recto] Minsieur les hongars
+[recto] ayex la bonté de paijer aupilote qui m'a entré
+[recto] en rade venant ducker la somme detrente
+[recto] piastres vous obligerez toujours
+[recto] votre Serviteur & Aun
+[recto] ce l 6 feer 1787
+[recto] /segeu/ In't Anker
+[recto] poun acquit
+[recto] signe Jaques
+[verso] Accordeert
+[verso] AhLorak
+[recto] Accordeert
+[verso] 1 Colombe
+[verso] 1 Chien
+[verso] 1
+[verso] Eg Clercq
+[verso] Copia
+[recto] No 7.
+== NL-HaNA_1.04.02_4325_0081 | #81 | sides: recto,verso | lines: 55
+[recto] 463.
+[verso] Jeprie Monsieur Le Zengard de Poulois bien
+[verso] paiger angarde de Palin araisen de 10 par
+[verso] jour letems qu'il a passé au jet du Vlan. holland
+[verso] 22 Mart 1787.
+[verso] 4 C=m a 10. e 40:
+[verso] Fontries humble Serviteur
+[verso] /sique / Leforestier
+[verso] Boupour payer a Mons. Le zon
+[verso] et aparter au Compte de la penle
+[verso] /sique C LeZengard.
+[verso] Accordeert
+[verso] Monsieur Le Zongard
+[verso] Daijz s'il vour plait aujulote qui m'asorte
+[verso] dutrou de panpharon la somme de Vingt Juastres
+[verso] vonsobbiljezex parla
+[verso] ce8 Avril 1787.
+[verso] voneties humble Serviteur
+[verso] pour acquit (hqne / C. In't Anker
+[verso] sique Jaques
+[verso] Accordeert.
+[recto] Dorte honnieur Suktniker Commandant le v=an
+[recto] de la Comp:e hollandoire laderle a la Cargairen
+[recto] au Hr. le David de bond ce qui suis savoir
+[recto] 1 piece 15 filo p 63
+[recto] 2 8. 12 d. o „ 106
+[recto] 2 d. 9 d. „ 42.
+[recto] 2 d . 6 d . „ 26.
+[recto] 1 d. 9 d. „ 20.
+[recto] 1 d. . 68. 1 14.
+[recto] 1 d. 30 d „. 177.
+[recto] 1 d. o 27 d. „ 133.
+[recto] 1 d 24. d. 110.
+[recto] p . 140
+[recto] inne gonne Goedrou an 1/3 pleene
+[recto] 692
+[recto] pouracquit. du bert Louis Isle de france
+[recto] le t arril 1787.
+[recto] pourmouperen
+[recto] sique / Ed. Juliean
+[recto] Accordeert.
+[recto] Marsz
+[recto] 690 Cordage
+[recto] a 80 Lto
+[recto] 0
+[recto] 552.
+[recto] Jesous signe reconnois avoir recu de M: M J=r mon„
+[recto] neron & Compe la somma desept cent anquam„
+[recto] ter livres, pour logies dedeux moiset de mi
+[recto] d'un magazinau a citu les balies proven„
+[recto] nant de laperle Cap=n Mons Int Auker-
+[recto] sent Louis ple de france le 7 april 1787.
+[recto] 1757.
+[recto] 1
+[recto] &
+== NL-HaNA_1.04.02_4325_0082 | #82 | sides: recto,verso | lines: 32
+[recto] A
+[recto] 464
+[recto] ous le van jean Hollanders la Verle
+[verso] à prove acriture fi dem
+[verso] /:signe/ maurele Conter
+[verso] Accordeert. -
+[verso] Heuce de monsieur Le zingurd pour cent
+[verso] soux ante dix neuf livres de beure a trous
+[verso] dix sol, fait sixcent vingt sulivaes du
+[verso] sol auport de 10 april 1787.
+[recto] Ben pour quatre vrugt livres de viande
+[recto] le 18 Janu. 1787.
+[recto] J monneron & Comp.
+[recto] signe/
+[recto] Accordeert
+[recto] Vour let=tean Hollandors la Verle
+[recto] Bon pour quatre vingtlivres de vraude
+[recto] les1 Janv: 1757.
+[recto] /Legne / J mimneron & Comp.
+[recto] Pourle V=len Hollandois laverle
+[recto] bon pour quatre viugt livres de Vaude
+[recto] le 25. Jann. 1787.
+[recto] /:seque J Momeren & Comp:e
+[recto] Aeurdeert
+[verso] AhtLorak
+[verso] Egllercq
+[verso] Sigul Lecuer
+[verso] Accordeert-
+[recto] pas
+[recto] Copie.
+[recto] -
+[recto] Accordeert
+== NL-HaNA_1.04.02_4325_0083 | #83 | sides: recto,verso | lines: 42
+[recto] 465.
+[verso] Vourle v=an Hollandvis laderle
+[verso] bon pour quatre vmugt livres de boeuf
+[verso] de 28 Janv: 1787.
+[verso] (Segue/ J Monneren & Comp
+[verso] Accordeert
+[verso] Lev=an. hollandon laverle
+[verso] bon pour quatre vingt livres de viaude
+[verso] lep. Janv. 1787.
+[verso] Sigue / J monnerond Compe
+[verso] Accordeert
+[recto] Vourlevamn hollandois la Verle
+[recto] bon pour quatre vingt livres de viaude
+[recto] le 8 febr: 1787.
+[recto] Signe/ J Monneron & Comp
+[recto] accordeert.
+[recto] le V=lan hollandirs laderle
+[recto] bon pour quatre vingt livres de vraude
+[recto] le 18 fevr: 1787.
+[recto] tigne, J monner onscerp
+[recto] Accordeert.
+[recto] levaa hollandois laperle
+[recto] bouporir quatre vingt livres de Viaude
+[recto] le 1 fevr 1787.
+[recto] /:Sigue /:J Marmerou & Compe.
+[recto] Accordeert
+[recto] levern hollander laperle
+[recto] bon pour quatre viugt livres de vraude
+[recto] le 15 febr. 1787.
+[recto] /:seque/ J Mormerou & omp.
+[recto] Accordeert.
+[verso] Lev=lan hollandois laderle
+[verso] bon pour quatre vingt livres de Viande
+[verso] Auport Louis Isle le 1 ferr 1787.
+[verso] P: M M. J:n Mumneron & Comp
+[verso] /oet/. V. Matgontier
+[verso] Accordeert
+[verso] pourle Van laperle
+[verso] Conpourquatre vingt livres de vrande
+[verso] l 6 febr. 1787.
+[verso] sique J manner on & Comp
+[verso] Accordeert
+== NL-HaNA_1.04.02_4325_0084 | #84 | sides: recto,verso | lines: 41
+[recto] 466.
+[verso] Vernelv=an hollandoen laderle
+[verso] bonpour quatre vingt liores de viande
+[verso] lex ferr: 1787.
+[verso] „sique /J Mormerou & Comp
+[verso] Accordeert
+[verso] levem hollandurs la Verle
+[verso] bon pour quatre vingt livres de vraude
+[verso] le 20 Jears 1787.
+[verso] / seque/ J Monnerout
+[verso] Accordeert
+[verso] Oour le vlen la Perle
+[verso] bon pour quatre vingt livres de veaude
+[verso] le 22 Ieart 1787.
+[verso] Sigue / J Monnerou & C
+[verso] Accordeert
+[verso] le V=ene hollandoe laderle
+[verso] bin pour quatre vongt livres de kaude
+[verso] de 26 Fenr= 1737.
+[verso] (:hique J Monneron& C
+[recto] pourle Vla la Verle
+[recto] bon pour quatre vingt livres devraude
+[recto] le t7 febr. 1785.
+[recto] /seque / J Meneron & Comp
+[recto] 1. Accordeert
+[recto] lev=aa hollandai laderle
+[recto] bon pour quatre vingt luxes de vande
+[recto] p. r mars 1787.
+[recto] /:sique J J Munneron& C
+[recto] accordeert.
+[recto] le v=emn hollandais laderle
+[recto] bon pour quate viugt lures de vrande
+[recto] lest Mans 1707.
+[recto] /Sique/ J MonneronxCeel
+[recto] accordeert
+[recto] lev=a laberle
+[recto] son panquate vrugt turex de Vieuede
+[recto] leb Mart 1787.
+[recto] /Jeque/ J MounerousC
+[recto] accordeert
+[verso] Accordeert.
+== NL-HaNA_1.04.02_4325_0085 | #85 | sides: recto,verso | lines: 45
+[recto] „58
+[recto] 467.
+[verso] Pourle V=n hollanders Caderle
+[verso] bon paer quate vrugt livres de viande
+[verso] le17 MMans 1787.
+[verso] Sique J Minneron &
+[verso] Accordeert
+[verso] bourlev=ren laderle
+[verso] bin jourquatre vingt livres de vande
+[verso] let 3 Mars 1787.
+[verso] /hque/ J Manneron&C
+[verso] Accordeert
+[verso] Vonle v=lan hollanders laderle
+[verso] Conpoar gratre trugt livres de veande
+[verso] le 1 Mars 1787.
+[verso] Chque)J Mommaenk
+[verso] Accordeert
+[verso] doer leV=en laserle
+[verso] bonhourquatre trugt tures de vande
+[verso] le 15 Mars 1787.
+[verso] Jeque J S Monnerons
+[verso] accordeert
+[recto] le v=an hollandois la verle
+[recto] Conpourquatre vingt livres de Viaude
+[recto] 18 Mart 1787
+[recto] seyne/ J Mormeront C
+[recto] Accordeert
+[recto] erle Vlan hollandon laderle
+[recto] binjuor quatre Vrugt livres de viande
+[recto] le to chart 1788.
+[recto] Signe)J Mennerou & Con
+[recto] accordeert
+[recto] Ns: M M J Mouneren & Cn
+[recto] p. 2080 lb devraude fourne au V=len la
+[recto] Verlepour les bodem 20. Catt p. 2080.
+[recto] Sour acquit audertLerus Aile de france
+[recto] leso mart 1787. let:r Godins nesachant
+[recto] siques afait ten Croux
+[recto] sigue
+[recto] Accordeert
+[recto] Soerle Van hollanders lakerle
+[recto] bon pourquatres Vrugttivres de vrande
+[recto] cet2 Mart 1787.
+[recto] liqu / J Monnerouk
+[recto] accordeert
+== NL-HaNA_1.04.02_4325_0086 | #86 | sides: recto,verso | lines: 40
+[recto] 468.
+[verso] direcle V=an Caverle
+[verso] bonpour quatre vugt livres de viaude
+[verso] 29 Mart 1787.
+[verso] Cherie J Minnaron & C
+[verso] Accordeert
+[verso] lev=lan laverle
+[verso] bonpourquatze vengt lures de vcaude
+[verso] lezg Maas 87.
+[verso] /sique/ Lezongue
+[verso] accordeert.
+[verso] bon pour quatre vingt livres de Viaude
+[verso] lep. avril 1787.
+[verso] /Sigue / Le Zongue
+[verso] accordeert
+[recto] lev=an laderle
+[recto] Conpour quatre vingt livres de vraude
+[recto] le 5 arril 1787.
+[recto] Seque J Monnenou & C.
+[recto] Accordeert
+[recto] VanleV=an laterle
+[recto] boupourquatre vingt tivzes de kande
+[recto] 8 arril 1787.
+[recto] /:sique/ le zorgne
+[recto] accordeert
+[recto] Pourla Perle
+[recto] bonpour quatre vingt livres de vande
+[recto] 10 Avril 1787.
+[recto] Chque/ J Morneron & C
+[recto] Accordeert
+[recto] b V=em laverle
+[recto] Conpoinqaatne Vrugt lures de viaude
+[recto] le 12 april 1787.
+[recto] /sique) Muneron & C
+[recto] accordeert.
+[verso] lev=em aderle
+[verso] bonpourguake vengt luces de vaande
+[verso] le 3 avrib 1787.
+[verso] /Sigue / Sminneroud
+[verso] Accordeert.
+== NL-HaNA_1.04.02_4325_0087 | #87 | sides: recto,verso | lines: 48
+[recto] 470.
+[verso] Monsr: Berecher
+[verso] ayez labonte cedonner amon maitred' hotel
+[verso] que q‛enverrai quand je veux dela viande
+[verso] toujours avec un bon, pour auprerd Eui
+[verso] Clures de vrande
+[verso] ce7 febr. 1787.
+[verso] parrlaperle
+[verso] /aet J. C. I t Anker
+[verso] Accordeert
+[recto] 469.
+[recto] boupour Clivres de vrande paer leve la Verle
+[recto] 16 fevr. 1787.
+[recto] Cat/ C. InteAnker
+[recto] accordeert
+[recto] benpour 10 lures de vraude pourle V:an la Perle
+[recto] ce 17 fer. 1787.
+[recto] J In't Anker
+[recto] get
+[recto] accordeert
+[recto] binpour 16 18 de viande porrle Van liederle
+[recto] a 19 ferr. 1787.
+[recto] /get/ C: Ink Anker
+[recto] accordeert.
+[recto] bon pour 10 lures de Viaude Pourle V=n laverle
+[recto] e 21 ferr. 1787
+[recto] C. In't Anker
+[recto] get.
+[recto] accordeert
+[recto] bin jans Volivres de Viaude pour la Verle
+[recto] ce 23 febr. 1787.
+[recto] Caet O. Jus Anker
+[verso] Menniw Boucher
+[verso] sevours prie deme faire donnes 6 livres de Viaude
+[verso] a9 ferr: 1787.
+[verso] /ert/ C. Int nker
+[verso] puurlaverle
+[verso] Accordeert
+[verso] Bonsourdo Leires de Viaude
+[verso] a 12 fevr. 1787.
+[verso] Get / C. Inttuker
+[verso] accordeert
+[verso] Bonpour 1o lures de veande pourla Verle
+[verso] cets fevr: 1787.
+[verso] Cont: CFriteAnker
+[verso] accordeert
+[recto] accordeert.
+[recto] 6
+== NL-HaNA_1.04.02_4325_0088 | #88 | sides: recto,verso | lines: 43
+[recto] 470.
+[verso] ben prour 10 lures de Viande pour laderce
+[verso] cel4 ferr. 1787.
+[verso] /get/ C. Irit Anker
+[verso] accordeert
+[verso] bouporen CC lires de veande Pourle V=aa laberle
+[verso] 26 fevr. 1787.
+[verso] C: Lut Anker
+[verso] /get/
+[verso] accordeert
+[verso] bouponks lb deviande pourle Van Caderle
+[verso] 3 Mars 1787.
+[verso] C. In't Anker
+[verso] /get/
+[verso] Accordeert
+[verso] bimperentz leines de Viaude pour le v=na laderle
+[verso] ce5 Mari 1788.
+[verso] get C. Irit Anker
+[verso] accordeert
+[verso] ben pou V2 livres de Viaude porr lev=a Caberle
+[verso] ce 7 Mart 187.
+[verso] get C. In't Anker
+[verso] accordeert.
+[recto] bon porn 12 livres de Viande Pourle v=an Caverle
+[recto] ce9 mart 1787.
+[recto] Caet/ C. Inkanker
+[recto] Accordeert
+[recto] bonpourt 2 livres de Viaude pourle va laderle
+[recto] ceto mart 1787.
+[recto] Met / C: Irit Anker
+[recto] accordeert.
+[recto] Conpourt2 lures de Viaude Pourle Van laderee
+[recto] ce 12 Mart 1785.
+[recto] /get:/. C. In't Anker
+[recto] accordeert
+[recto] boupourklures de Viaude Pars le V=an Caderle
+[recto] ce 14 MMart 1787.
+[recto] /get/ C. InteAnker
+[recto] accordeert
+[recto] bonpour 12 livres de Vande pour la berle
+[recto] ce 16 Mart 1787.
+[recto] /get C. In't Anker
+[recto] accordeert.
+== NL-HaNA_1.04.02_4325_0089 | #89 | sides: recto,verso | lines: 36
+[recto] 472.
+[recto] 471.
+[verso] bon pour 12 livres de Viaudé pour le Vn. laderle
+[verso] a 17 Mart 1787
+[verso] /aet/ C. Iut Anker
+[verso] Accordeert
+[verso] bonpourt 2 lb de vrande pour le V:n laderle
+[verso] p
+[verso] cetg Mart 1787.
+[verso] /get/ C. Int Anker
+[verso] accordeert.
+[verso] bonpourtz livres de Viaude Poula Verle
+[verso] ce 20 Mart 1787.
+[verso] Cert/ C. Int Anker
+[verso] accordeert
+[verso] boupour 12 lb be trande pour le V=an Cadesle
+[verso] cen 24 Mars 1787.
+[verso] Caet C. In't Anker
+[verso] Ocurdeerd
+[recto] bm pourtz livres de viande pourle v=a laderle
+[recto] a 40 Mars 1787.
+[recto] Cert/ C. Insemker
+[recto] Accordeert
+[recto] ben pour 12 livres de Viande pour le V=n laberle
+[recto] ce 31 Mars 1787
+[recto] Cent C. InteAker
+[recto] accordeert
+[recto] bonpourt 2 livres de Viande pou- lev=r laderle
+[recto] ce2 avril 1787.
+[recto] /get / C. Iu's Anker
+[recto] accordeert
+[recto] ber pour douze livres de Viaude pour
+[recto] lev=aa laverle
+[recto] ce 1 kars 1787.
+[recto] /get C. IukAnker
+[recto] Accordeert
+== NL-HaNA_1.04.02_4325_0090 | #90 | sides: recto,verso | lines: 57
+[recto] 472.
+[verso] 24 Mars
+[verso] bon pour douze livres de Viande porirle Vaisfeau
+[verso] laderle
+[verso] le9 Arril 1757
+[verso] /get C. Ius Anker
+[verso] accordeert
+[verso] AD Florak
+[verso] Eg Clever
+[verso] 16 Janvier
+[recto] Journis au Ven de la Compagnie
+[recto] hollandoise la Perle.
+[recto] Hn. Camphre raffine
+[recto] 1„tt sel de nitre purifie
+[recto] 8
+[recto] 1a Creme de tartre en poudre 10
+[recto] 6on esprit de sel dulafie. 12
+[recto] 4=mn precipite couge . 8
+[recto] 4=te onguert bariticum 40
+[recto] 45
+[recto] 3„t onquent digestif
+[recto] 8=en rhubarbe
+[recto] 12
+[recto] un flacon & une phiole. 6
+[recto] 4=mn Rhubarbe
+[recto] 4=mn Salap en poudre
+[recto] 4=mn Specacuanha en poudre. 15
+[recto] Con Squamer de Ceille 12
+[recto] 1t fleurs de Jurean 16
+[recto] 1a fleurs de Camomille 24
+[recto] 1:t rob de surean
+[recto] 7. t miel vert.
+[recto] 6n esprit de nitre dulcifie 12
+[recto] 6=on esprit de vitriole dulafie 10
+[recto] Cn huile d'amande douces
+[recto] Con baume de capahr 12
+[recto] 3=en pecapité rouge-
+[recto] Cn Camphre
+[recto] 4on tytharge d'or
+[recto] 4=s chaux vere
+[recto] 2t. emplatre diapalme 24
+[recto] 63 ster pots et phioles. 10
+[recto] un mortier de marbre & son piton 25
+[recto] 20
+[recto] 10
+[recto] 8
+[recto] 16
+[recto] 90
+[verso] 1787.
+[recto] .
+[recto] 10
+[recto] 5
+[recto] 6
+[recto] -
+[recto] 6
+[recto] 6
+[recto] 2
+== NL-HaNA_1.04.02_4325_0091 | #91 | sides: verso | lines: 8
+[verso] Con pour êtse paié /:signé:/
+[verso] C. in't Anker
+[verso] pour acquit ce 10 Arrll 1787.
+[verso] /:signe:/ C: A: Chauvet.
+[verso] Sorak
+[verso] Eglboe
+[verso] Accordeert
+[verso] ƒ
+== NL-HaNA_1.04.02_4325_0092 | #92 | sides: recto,verso | lines: 38
+[verso] Copia
+[recto] La Perle V„n appartenant
+[recto] à la Noble Compagnie Hollandaise des
+[recto] Jndes Orientales pour beneficiement de
+[recto] ses roiles avariées
+[recto] 17 balles de Chacune 100 pieces 1700 p„a
+[recto] 1 ditto
+[recto] 81
+[recto] 257 „
+[recto] Doet
+[recto] 99 d„o 99
+[recto] 80 „ 6480
+[recto] 60 „ 15824
+[recto] 23699r„s 47398: —: —
+[recto] 50: „ 1500- p„ 6000: —: —
+[recto] 80— r„t 320: —: —
+[recto] 40„
+[recto] 62 „ de Cotton geeimont product
+[recto] 48-120 „ 5040: —:—
+[recto] 430 Balles Traix
+[recto] a 30 s 1387: —: —
+[recto] 925 Jacs de Gonié
+[recto] ƒ2210: —:—
+[recto] 438 Balles, refaites, Batues & c„a
+[recto] 62355: —: —
+[recto] pour acquit au port Louis Islede france
+[recto] ce 9 mars 1787.
+[recto] /: signe:/ A: Barbier.
+[recto] Bon a payer par mons„r Janvier Monneron
+[recto] & Comp„e
+[recto] /:signé:/ C„s Jnt Anker. —
+[recto] 30 „
+[recto] Accordeert. -
+[recto] Aht borak
+[recto] 6gllag
+[recto] 2 „
+[recto] van
+[recto] 473
+== NL-HaNA_1.04.02_4325_0093 | #93 | sides: - | lines: 0
+== NL-HaNA_1.04.02_4325_0094 | #94 | sides: recto | lines: 28
+[recto] Isle de france le 27 Maart 1787.
+[recto] Se Veau hollandois la Perle doit 260t.
+[recto] à L. Lechelle pour deux mois de ma„
+[recto] „gazinage d'agreé die 3 fevrier à 27
+[recto] mars dernier, passant pour deux à
+[recto] roisen de
+[recto] ƒ 260:-„
+[recto] Pour acquit de deux cent, cent soix
+[recto] ante Levres; au port Louis Isle
+[recto] de france le 10 April 1787.
+[recto] /:Signe:/ L. Lechelle
+[recto] 130t. par mois
+[recto] Accordeert
+[recto] Pour le Veau hollandois la Perle com¬
+[recto] mandé por Monsr. in't Anker
+[recto] 200=n 6toffe â 10„t. . . 2000„—„
+[recto] facon de 30 Culottes & 50
+[recto] gillets a 10t la piece. 500:
+[recto] 2500: —„ —
+[recto] poir acquit ae 12 April 1787.
+[recto] /:signe:/ Berard
+[recto] Accordeert
+[recto] rak
+[recto] ba
+[recto] 8
+[recto] .
+[recto] 474.
+[recto] Ho
+== NL-HaNA_1.04.02_4325_0095 | #95 | sides: recto,verso | lines: 46
+[recto] 475.
+[recto] 1787 Mars 1
+[recto] bon à payer par mr. le pun
+[recto] poer compte de laperle
+[recto] /sgne:/ I monnerout C.
+[verso] Je soussigné reconnois avoir recu de
+[verso] monsr. Janvier Monneron & Compe.
+[verso] vingt, piastres faisant deux cent.
+[verso] Livres monnoye de cette Isle pour
+[verso] frais de l'aile de vents fait par les.
+[verso] Galucee aux dits hin ss. Monneron
+[verso] & Comp. du vaisseau le David, reii
+[verso] per moi le juinier farier dernier
+[verso] pour les deux mufieties et pour expe¬
+[verso] ditions du dit acte, pour compte de
+[verso] la noble Compognie des Indes Pri„
+[verso] „cutales de hollonde. Donn t. quittance
+[verso] au Port Louis Isle de france ce 12
+[verso] Avril 1787. /:signe:/ Belle
+[verso] Accordeert
+[verso] Je reconnois d'avoir recu de mons.
+[verso] Pr. monneron & C. la somme de deux
+[verso] cent Levre pour avoir mis le
+[verso] voisseou la Perle hors au port.
+[verso] au port Louis Lele de france le 13e
+[verso] Avril 1787. /:signe:/ Taguls
+[verso] Accordeert
+[recto] Mr: S. Monneron & Comp. doit
+[recto] a fabre 2 Legues de Vin du Cap,
+[recto] 7/6 148 veeten = 8=t 1184:—
+[recto] contenants
+[recto] pacquit
+[recto] /:signe:/ Demarest
+[recto] Accordeert
+[recto] Jai l'honneur de presenter mestres
+[recto] humbles respects à mons. I. mon„
+[recto] neron & celui de lui foire parvenir
+[recto] selon la priese une piere & con
+[recto] de vie wellant I S. W. ½ â roison
+[recto] de 8„t 10.
+[recto] Je suis bien sincerement
+[recto] son trés humble & trés olieis,
+[recto] sant Serviteur
+[recto] quest
+[recto] Demaran
+[recto] Accordeert
+== NL-HaNA_1.04.02_4325_0096 | #96 | sides: recto | lines: 26
+[recto] 476
+[recto] Scheeps-raad gehouden aan boord's E:
+[recto] Comp schip de Paarl den 4 febr: 1787.-
+[recto] Den scheeps raad door den eersten teekenaar
+[recto] als president geconvoqueert, zijnde, is door
+[recto] dezelve aan de leeden van dien vertoond een
+[recto] paquet beschreven zijnde aan den wel Edele
+[recto] hoog: Agtb: heeren bewind hebbeeren ter ver
+[recto] gadering van seeventienen representeerende
+[recto] de generale nederlandsche g'odroieende
+[recto] Oost Indische Comp=e ter presediale kamer
+[recto] Amsterdam, het welk niet tegenstaande
+[recto] alle mogelijk precoussies genomen waren
+[recto] om het zelve voor 't ongedierte waar van
+[recto] dezen bodem vol is te preserveeren op di„
+[recto] versse plaatsen van Cackerbacken was
+[recto] door vreeten, en men door die gaten
+[recto] dezelve van binne nog zag loopen
+[recto] dog geen mogelijkheid ziende om ze
+[recto] daar uyt te krijgen zonder het Convert
+[recto] aan een zeide te openen, en bevreest zijnde
+[recto] dat ze selfs de daar ingeslotene papieren
+[recto] mogten door kraagen en dien men ze daar
+[recto] in liet blijven, zo is door den eersten
+[recto] teekenaar aan de verdere leeden in overwee
+[recto] gine
+== NL-HaNA_1.04.02_4325_0097 | #97 | sides: verso | lines: 21
+[verso] ging gegeeven, wat best hier in diende
+[verso] gedaan te worden, 't zelve zo te laten dan
+[verso] wel te openen de Cackerlacken daar uit
+[verso] te schudden en in onzer aller presentie
+[verso] 't zelve dan weeder oogenbliklijk in zeil
+[verso] doek te naaijen, en 't indien staat bij behou„
+[verso] den arrivent afte geeven. —
+[verso] Waar op gedelibereert zijnde is goed
+[verso] gevonden en verstaan met unramme stem„
+[verso] men 't zelve packet te openen. -
+[verso] De cackerlacken daar uit te schudden
+[verso] en in onzer aller presentie 't zelve zoogen
+[verso] bliklijk en zeildoek weeder in te maazen,
+[verso] 't welk ook terstond is g'Executeerd geworden
+[verso] /:was getek:/ C:t In 't Anker, A stijne L: kaap
+[verso] I: de Jong H scheenen G Deveer Ez: /:in mar„
+[verso] „gine:/ Actum aan boord van 'sComp schip
+[verso] voorn: datum ut supra.
+[verso] Accordeert
+[verso] Blorak
+[verso] Eij Cleeg
+== NL-HaNA_1.04.02_4325_0098 | #98 | sides: recto,verso | lines: 29
+[verso] A. J
+[recto] 477
+[recto] Scheeps-raad gehouden aan boord van
+[recto] 'sE: Comp=s schip de Paerl zeilende op deze bree„
+[recto] te van 34 9l: 34 mins en lengte van 40 ot
+[recto] 26 min: den 6 Juny 1787.
+[recto] De scheepsraad door den eersten teeke
+[recto] naar als president geconvoqueert zijnde
+[recto] is door denzelven aan de leeden van dien
+[recto] in overweeging gegeeven dat wy reeds
+[recto] op den 5 deezer genoodzaakt waren
+[recto] geweest /:alzo het schip niet meer kon„
+[recto] de byliggen, door de zware zee en zwak
+[recto] heyd van het schip voorn: / voor de wind
+[recto] of te houden, dat wy nu reeds beneeden
+[recto] de mosselbaaij zijnde, weying ap pa„
+[recto] rentie hadden om 't nabaai falzo op
+[recto] te halen daar en boven den bodem dagelijx
+[recto] zwakker wierd, en de schorbut, volgens
+[recto] rapport van den docter, onder d' Equipa„
+[recto] gie sterk begon te grasseeren, dat we
+[recto] niet meer dan voor 3 weeken of een
+[recto] maand water in 't schip hadden en van
+[recto] provisie niets meer dan voor 1½ a 2
+[recto] „maanden rijst wat zout vlees & spek
+[recto] zijnde al de randsoenen op een legger
+[recto] aracq na, op door de teegenvallende
+[recto] ryze
+[recto] 1
+== NL-HaNA_1.04.02_4325_0099 | #99 | sides: recto,verso | lines: 39
+[recto] 478
+[verso] rijze dat de lugt weeder niets aantoonden
+[verso] aan storm uit de W: n: W:t & wij met
+[verso] dit weer geduurig met 2 en somwijle
+[verso] met 3 pompen moesten pompen, dat
+[verso] wy nu nog met deeze provisie en water
+[verso] onder godes zeegen rid de lagoakonden
+[verso] krijgen, maar geensints bepalen kon„
+[verso] den hog lang de reise na voorn baar
+[verso] falso konden vallen, dat dus het zee
+[verso] kere voor 't onzekere moeste volgen
+[verso] zyne gedagten genomen worden, en 's
+[verso] EComp dierbaren bodem en zielen niet
+[verso] langer aan oogschijnelyke gevaren
+[verso] t'exponeeren. -
+[verso] Waarop gedelibereert hebbende
+[verso] is met unanime stemmen goed ge„
+[verso] vonden en verstaan, de resolutie te
+[verso] neemen om terstond af te houden
+[verso] en de steeven na rio de lagoa te wen„
+[verso] den om onder godszeegen deze kostely„
+[verso] ke lading schip en zielen te kunnen
+[verso] behouden en aldaar zo veel mogelijk
+[verso] voorzien, om in de maand van October
+[verso] weeder te kunnen vertrekken om onze
+[verso] reise onder godes zeegen na de Caab
+[verso] voor te kunnen zetten en dus het zee
+[recto] kerste voor onzeekerste te kunnen prefe„
+[recto] „reeren en 's E Comps bodem en zullen niet
+[recto] langer aan oogscheipelijke gevaren te
+[recto] exponeeren —
+[recto] /was getek:t/ C. In 't Anker Astyne Ludic„
+[recto] wich haak S: de Jong
+[recto] /:in margine:/ aan boord 's Comps schip
+[recto] voorn: den datum utsupra -
+[recto] Accordeert. -
+[recto] Th Torek
+[verso] kerste
+[recto] Eglleng
+== NL-HaNA_1.04.02_4325_0100 | #100 | sides: recto | lines: 33
+[recto] 479.
+[recto] Copia
+[recto] Resolutie genomen Jn de scheeps„
+[recto] raad den 1 Jann: 1787-
+[recto] De scheeps raad door den Eersten teeke„
+[recto] naar, als praesident geconvoceert zijnde
+[recto] Js door denzelven aan de leeden van dien
+[recto] voorgedragen dat d' omstandigheeden waar
+[recto] in ons thans bevonden ons noodzaakte„
+[recto] Een haven op te zoeken, &a teffens gepropo„
+[recto] „neerd, oft niet best waar om 't eijland
+[recto] Mauritius aan te doen, als zijnde de naas„
+[recto] te en bist te bezeijlene haven, om ons al„
+[recto] daar te herstellen en dan de reijze van
+[recto] daar weeder na Cabo voort te zetten on„
+[recto] Waarop gedelibereerd zijnde is goed
+[recto] gevonden en verstaan, om 't eijland mauc„
+[recto] ritius aan te doen, als zijnde zulx volgens
+[recto] ons aller sintiment de beste haven om ons te
+[recto] repareeren en ook buijten dien geen andere
+[recto] met Een vrak tuijg te bezeijlen zoude zijn-
+[recto] /:Onderstond:/
+[recto] Actum aan boord van 's Comps schip de
+[recto] Paarl zeijlende op de 23: van 19: 44: en lang„
+[recto] te van 89: 6: datum Utsupra -
+[recto] /:was geteekt:/
+[recto] :Jn 't anker, A: sijne Z: Haak:/ de Jong
+[recto] T: Latmeng, H: Scheene G: D Veertz:
+[recto] Accordeert
+[recto] lorak
+[recto] bylleoge
+[recto] der Godeszeegen -
+[recto] 1

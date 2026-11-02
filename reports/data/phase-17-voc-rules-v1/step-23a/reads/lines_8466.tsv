@@ -1,0 +1,9 @@
+line_id	gold_folios	status	note
+b5d2fd8c-27b9-4f3e-a4eb-d1e00dc5e540		ok	year heading
+line_960936f0-3f67-42b6-acf7-9252e814fe14	83	ok	
+d1708def-7fee-4793-81c3-b6404ce8bf68		ok	folio 89 is on the next line
+line_7321f826-b00d-4b1e-b9e6-65cbf2160a46	106	ok	
+line_096fe10d-c024-4e1b-8f29-525ab9a3ec3f		ok	enclosure list, no folios
+line_136eb712-0dd0-4c1d-b614-6e950a96f752		ok	enclosure list, no folios
+line_0bfde878-5b99-4f8a-a8ad-926c33a2ec50		ok	item number 13, not a folio
+line_4d2eb313-8cbc-4ae8-b91b-66c59408a9fc		ok	enclosure list, no folios

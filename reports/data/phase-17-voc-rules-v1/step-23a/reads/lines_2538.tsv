@@ -1,0 +1,9 @@
+line_id	gold_folios	status	note
+line_5f2aa87c-12d0-4f47-acfc-d17803762e9d		ok	folio 761 is on the next line
+line_56502b43-3539-4d7a-96d7-68a22cc4a2bd		ok	folio 1116 is on a later line
+line_1203caf3-e97c-45e6-82f0-b66ee9dd17c2	2358	ok	
+line_1f534130-e2f5-4ab3-bac0-931a034fbda3	2496	ok	
+line_8b5fa8be-14d7-4865-95be-7ac3168469fb	2833	ok	
+b25170ff-bc43-49b9-8a00-7ff5b6168dce		ok	folio not on this line
+f68bb402-c257-4710-b3b4-79f155627ebf		ok	folio on a loose line, not this one
+a36986d5-266b-40ba-802c-5a891cd7f488		ok	register title page, no folio

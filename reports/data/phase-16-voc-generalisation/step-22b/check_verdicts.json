@@ -1,0 +1,72 @@
+{
+ "page": "as_phase16_22b_gold_errors_v1",
+ "exported": "2026-11-01T11:56:27.445Z",
+ "items": [
+  {
+   "id": "dev20",
+   "inv": "1917",
+   "folio": "1530",
+   "scan": "",
+   "note": "NL-HaNA_1.04.02_1917_0975 carries 1531",
+   "v": "predicted scan"
+  },
+  {
+   "id": "dev22",
+   "inv": "1630",
+   "folio": "1124",
+   "note": "NL-HaNA_1.04.02_1630_0187 has 1123 on the top page and I think 1129 on a larger folio below it. But maybe I've misread it and what looks like 1129 is actually 1124.\nNL-HaNA_1.04.02_1630_0188 has I think an empty folio and the folio behind it has 1129. So this might be 112\nNL-HaNA_1.04.02_1630_0526 has 1439 (and a number crossed out).",
+   "v": "another scan"
+  },
+  {
+   "id": "dev26",
+   "inv": "1363",
+   "folio": "44",
+   "scan": "NL-HaNA_1.04.02_1363_0131",
+   "v": "another scan"
+  },
+  {
+   "id": "test9",
+   "inv": "2018",
+   "folio": "95",
+   "v": "cannot tell",
+   "note": "NL-HaNA_1.04.02_2018_0207 has 94 and the folio underneath it that sticks out is 95."
+  },
+  {
+   "id": "test20",
+   "inv": "1903",
+   "folio": "1916",
+   "note": "NL-HaNA_1.04.02_1903_0467 has 1923",
+   "scan": "",
+   "v": "predicted scan"
+  },
+  {
+   "id": "test25",
+   "inv": "7529",
+   "folio": "865",
+   "scan": "",
+   "note": "NL-HaNA_1.04.02_7529_0897 has I think 863\nNL-HaNA_1.04.02_7529_0905 could also be 869",
+   "v": "predicted scan"
+  },
+  {
+   "id": "test27",
+   "inv": "2367",
+   "folio": "3631",
+   "v": "predicted scan",
+   "note": "The gold scan and the one before and after it all show the same folio sticking out carrying folio number 3618, but only for the scan after gold is that the focus folio. The other two have smaller folios on top of it."
+  },
+  {
+   "id": "test29",
+   "inv": "1071",
+   "folio": "14",
+   "v": "predicted scan",
+   "note": "Gold has 13"
+  },
+  {
+   "id": "test30",
+   "inv": "2394",
+   "folio": "1101",
+   "v": "predicted scan",
+   "note": "before and after gold have 1344 and 1345 respectively."
+  }
+ ]
+}

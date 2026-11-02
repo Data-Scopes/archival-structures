@@ -468,4 +468,51 @@ def test_l8_voc_lines():
 def test_l8_unknown_variant_still_raises():
     from archival_structures.analysis.index_links import LocatorParams, extract_locators
     with pytest.raises(ValueError):
-        extract_locators("12", LocatorParams(variant="L9"))
+        extract_locators("12", LocatorParams(variant="L10"))
+
+
+def test_front_index_run_min_after_frac():
+    flags = [True] * 6 + [False] * 194
+    assert front_index_run(flags) is None
+    assert front_index_run(flags, min_flagged=1, min_after_frac=0.5) == (0, 5, 6)
+    assert front_index_run(flags, min_flagged=1, min_after_frac=0.99) is None
+
+
+# --- step 23e (phase 17): L9, L9g and the monotone filter -------------------------------------------------------
+
+def _voc_nums(text, variant):
+    from archival_structures.analysis.index_links import VOC_LOCATOR_PARAMS, extract_locators
+    return [l.number for l in extract_locators(text, VOC_LOCATOR_PARAMS[variant])]
+
+
+def test_l9_connectors():
+    assert _voc_nums("763 \u00e0 773.", "L9") == [763] and _voc_nums("763 \u00e0 773.", "L8") == [773]
+    assert _voc_nums("5038. . . 5107.", "L9") == [5038]
+    assert _voc_nums("122 a 125. / Copie", "L9") == [122] and _voc_nums("122 a 125. / Copie", "L8") == [122]
+
+
+def test_l9_trailing_range_verso():
+    t = "Dito missive als vooren in dato 27 Dito - - - - \u201e 656 a 668 verso"
+    assert _voc_nums(t, "L9") == [656] and _voc_nums(t, "L8") == []
+
+
+def test_l9g_guards():
+    for t, want_g, want_9 in [("dato 14 Nov. 1670.", [], [1670]), ("A\u201eo 1738", [], [1738]), ("tot 14", [], [14]),
+                              ("den 25 Maart 1741 fo 288", [288], [288])]:
+        assert _voc_nums(t, "L9g") == want_g, t
+        assert _voc_nums(t, "L9") == want_9, t
+
+
+def test_l8_unchanged():
+    pinned = {"763 \u00e0 773.": [773], "5038. . . 5107.": [5038, 5107], "122 a 125. / Copie": [122],
+              "Dito missive als vooren in dato 27 Dito - - - - \u201e 656 a 668 verso": [],
+              "dato 14 Nov. 1670.": [1670], "A\u201eo 1738": [1738], "tot 14": [14],
+              "den 25 Maart 1741 fo 288": [288], "fo. 17 verso a 78": [17]}
+    for t, want in pinned.items():
+        assert _voc_nums(t, "L8") == want, t
+
+
+def test_monotone_mask():
+    from archival_structures.analysis.index_links import monotone_mask
+    assert monotone_mask([5, 3, 7, 7, 1992, 9]) == [False, True, True, True, False, True]
+    assert monotone_mask([]) == []

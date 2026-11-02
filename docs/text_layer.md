@@ -645,6 +645,15 @@ is tuned; it measures what the SG rules do on VOC. Input is a directory of `<inv
 v2.1). Step 22a built it over 568 inventories: layer root `data/text_layer_voc_22a/1.04.02/NL-HaNA_1.04.02_text_layer_v5/`
 (a link to the external drive). Results: `reports/phase-16-voc-generalisation.md`.
 
+## VOC preset `voc_1.04.02_v6` (phase 17)
+
+`PRESETS["voc_1.04.02_v6"]` (`VOC_1_04_02_V6`) is `voc_1.04.02_v5sg` with `¬` added to the pinned word-break set
+(`wbc_pinned = {"default": "-=„¬"}`; name `NL-HaNA_1.04.02_text_layer_v6`). Only the join stage changes: a line-final `¬` merges
+with the next line (a leading `„` or `¬` there is dropped) unless a guard applies (digit, standalone mark). Step 23b rebuilt the 567
+inventories into `data/text_layer_voc_23b/1.04.02/NL-HaNA_1.04.02_text_layer_v6/` (a link to the drive): upstream stages are
+byte-identical to the v5 layer, 68,534 units change, and 56 of 60 hand-read `¬` joins are right (Wilson 0.841-0.974); the errors glue two
+words after a `¬` that follows a complete word. Results: `reports/phase-17-voc-rules-v1.md`.
+
 ## Published SG pilot (text_layer_v2)
 
 Published 2026-10-21 (phase 07, step 15i, from the dev layer `15i-b`) for the sibling projects, `coverage: partial`:

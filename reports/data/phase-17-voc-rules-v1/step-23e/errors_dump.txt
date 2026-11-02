@@ -1,0 +1,48 @@
+## SEL E misses: 8 of 8
+1631	0015	N=25	gold=0	target=	leaf=0036,0037	printed	not_in_gold	| N: o 25. Extract missive door veelgen: heer Commandeur
+2954	0005	N=288	gold=0	target=	leaf=0009,0010	interpolated	not_in_gold	| 388 288
+4325	0010	N=401	gold=0	target=	leaf=0011,0012	extrapolated	not_in_gold	| 401
+7978	0068	N=8	gold=0	target=	leaf=0360,0361	interpolated	not_in_gold	| N„o 8. Copia actens van verbeeteringe sedert den 3„e Junij
+7978	0068	N=14	gold=0	target=	leaf=0370,0371	printed	not_in_gold	| No 14.
+7978	0069	N=16	gold=0	target=	leaf=0372,0373	printed	not_in_gold	| 16. Originelen Eijsch van benodigtheden voor het aanstaande jaar
+8840	0009	N=12	gold=0	target=	leaf=0124,0125	interpolated	not_in_gold	| 12: Copia brieven vande Palliacatse opper„
+8840	0010	N=22	gold=0	target=	leaf=0136,0137	interpolated	not_in_gold	| 22: Copia Actens van verbeeteringen, hier ten
+## L false negatives (gold folio not predicted): 15 of 15
+1631	0010	gold=447	pred=	dropped_by_mono=	| „ 447 „ „ 450 d=o d=o. . . . - - - - - - - 17 Novemb: 1700.
+1631	0011	gold=502	pred=	dropped_by_mono=	| „ 502 verso a„ 504 d=o d=o - - - - - - - - - - 23 d=o —
+2282	0017	gold=4	pred=	dropped_by_mono=	| 4.
+2282	0085	gold=710	pred=	dropped_by_mono=	| eenige onheijlen mogte overkomen - - - - - - - - - „ 710.
+2379	0008	gold=773	pred=	dropped_by_mono=773	| „ 773.
+2538	0016	gold=2358	pred=	dropped_by_mono=	| geszu sed:t den 1 Febr: tot den 1 Julij. . . 2358
+2538	0018	gold=2496	pred=	dropped_by_mono=	| voorleeden en 29=sten Jann: deses Jaars. . „ 2496.
+2538	0020	gold=2833	pred=	dropped_by_mono=	| Julij den 16. 7ber voorm:. . . . . . „ 2833: —
+2954	0005	gold=388	pred=288	dropped_by_mono=388	| 388 288
+2954	0005	gold=409	pred=	dropped_by_mono=	| 109 709 — 841 Beantwoorde Extract patriasche brieven van 6 novb: 1742
+3793	0016	gold=3081	pred=	dropped_by_mono=	| 3081. - - - - - d:o d:o van als even aan het opperhoofd,v
+3793	0021	gold=3198	pred=	dropped_by_mono=	| 3198 - - - . . d:o do van het Thinionomaalser opperhoofd
+3793	0022	gold=3330	pred=	dropped_by_mono=	| 3380. . . . 3373 Copie Missive van van Senden, van Drieberg & Haspenee
+3793	0023	gold=3382	pred=	dropped_by_mono=	| 3382. . . . 3384 Copie Mupres van aen Trinconomaalsche Bed
+7694	0006	gold=45	pred=	dropped_by_mono=45	| Missive door en aan als voorm:t gedat:t 24: deser - - „ 45
+## L false positives (lines with a predicted number not in gold): 8
+1631	0015	gold=	pred=25	| N: o 25. Extract missive door veelgen: heer Commandeur
+2954	0005	gold=388	pred=288	| 388 288
+4325	0010	gold=	pred=401	| 401
+7978	0068	gold=	pred=8	| N„o 8. Copia actens van verbeeteringe sedert den 3„e Junij
+7978	0068	gold=	pred=14	| No 14.
+7978	0069	gold=	pred=16	| 16. Originelen Eijsch van benodigtheden voor het aanstaande jaar
+8840	0009	gold=	pred=12	| 12: Copia brieven vande Palliacatse opper„
+8840	0010	gold=	pred=22	| 22: Copia Actens van verbeeteringen, hier ten
+## SEL E hits: 9 of 9
+1184	0005	N=20	target=0049	printed	sure	| „ 20 a 22. Copie instructie voor den eersten adsistent
+1556	0014	N=268	target=0575	printed	sure	| in dato 15 Junij 1694. . . . . . . . . . . . . . . . . . . . . . . . . . „ 268 a 278.
+1556	0016	N=408	target=0884	printed	sure	| ne reijse nae mangindenao @nde mede gegeven. . . . f 408 verso a 415.
+1556	0021	N=773	target=1631	printed	sure	| 16 Septemb: tot 25 Octob:r 1694 - - - - - - - - - - - - „ 773 a 796 verso
+1556	0021	N=821	target=1727	printed	sure	| Register der papieren - - - - - - - - - - - - - - - - - - „ 821 a 822.
+2047	0009	N=5	target=0025	extrapolated	likely	| 5 — 87. Origineele Missive door den Commandeur
+2167	0015	N=842	target=0864	interpolated	likely	| gewas te spysigen. . . . . . . . . . . . . . . . . „ 842
+2379	0008	N=789	target=0823	printed	likely	| opneem onder ult:o aug:s des gepasseerden Jaars - - - - - „ 789.
+8466	0005	N=83	target=0099	printed	sure	| palembang gesz: op laast geciteerde datum - „ 83:
+## lines where mono dropped a gold folio: 3
+2379	0008	gold=773	dropped=773	pred=	| „ 773.
+2954	0005	gold=388	dropped=388	pred=288	| 388 288
+7694	0006	gold=45	dropped=45	pred=	| Missive door en aan als voorm:t gedat:t 24: deser - - „ 45

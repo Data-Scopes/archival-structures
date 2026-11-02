@@ -1,0 +1,39 @@
+{
+ "inventories_old": 567,
+ "inventories_new": 567,
+ "inventory_sets_equal": true,
+ "a_upstream": {
+  "files_compared": 5670,
+  "differences": 0,
+  "by_dir": {},
+  "examples": []
+ },
+ "b_join": {
+  "units": 4593380,
+  "units_with_set_difference_inventories": 0,
+  "changed_units": 68534,
+  "changed_units_without_not_in_old_text": 0,
+  "examples": []
+ },
+ "c_remaining_not": {
+  "v5_22a_not_count": 116920,
+  "v6_not_count": 10329,
+  "classes": {
+   "guarded": 779,
+   "unit_end": 9525,
+   "not_line_final": 25,
+   "other": 0
+  },
+  "by_class_and_boundary_kind": {
+   "guarded/g_digit_left": 40,
+   "guarded/g_digit_right": 703,
+   "guarded/g_punct_left": 21,
+   "guarded/g_standalone": 15,
+   "not_line_final/": 1,
+   "not_line_final/g_punct_left": 1,
+   "not_line_final/plain": 23,
+   "unit_end/": 9525
+  },
+  "other_examples": []
+ }
+}
