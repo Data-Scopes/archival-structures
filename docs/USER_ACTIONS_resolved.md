@@ -1319,3 +1319,185 @@
 - **Blocks:** the 23c test stage and the phase-17 review.
 - **Response:** done 2026-11-02.
 - **Resolved 2026-11-02:** the user read all 240 crops (in-page IIIF zoom added, Export bug fixed) and ran `summarise_folio.py`: `step-23a/gold/folio_gold.tsv` frozen (109 number, 131 none, 0 unreadable; sha256 7411576…a7af in `SHA256SUMS` and `folio_gold.done`). The 23c test stage is started next.
+
+### UA-062 Where are the scan images for the Amsterdam and Drenthe inventories? (2026-11-02, from phase-18 planning inputs)
+- **Action:** Edit: under **Response**, give the folder(s) holding the scan images for NL-AsdSAA 89 (you mentioned you have them), and for NL-AsdSAA 5023, 5075 and NL-AsnDA 0114.11 if you have those. Say if they are on T7_Data, and whether a IIIF service serves any of them instead. NA archives (1.01.02, 1.04.02, 1.05.06, 2.10.50, 2.10.01) need nothing: the check page uses NA IIIF.
+- **Options:** (a) a local or T7_Data path per inventory; (b) "none" for an inventory: its gold pages then show text and line boxes only, or that archive is dropped from the gold. Recommended: (a) for every inventory you can.
+- **Default if unanswered:** phase 18 labels only archives with images (NA IIIF), and the Amsterdam and Drenthe archives drop out of the gold.
+- **Blocks:** the phase-18 gold step for Amsterdam and Drenthe pages; nothing else.
+- **Response:**
+- **Resolved 2026-11-02:** answered in the chat (the Response field was left empty): images for the sample inventories of NA 1.05.06, 2.10.50, 2.10.01 and the other archives are in `/Volumes/T7_Data/Data/claude-projects-external/archival-structures/data/thumbs/`, one folder per institution; SG images are being rsynced in stages. Inspected at phase-18 planning: AsdSAA 89 has Memorix IIIF `info.json` per scan (full resolution); 5023/5075 600 px PNG thumbs; AsnDA 300 px PNG thumbs; 1.05.06 600 px TIFF thumbs (and no NA IIIF file list). Recorded in phase 18 `PLAN.md` (P6, P7, *Hazards*) and step 24b.
+
+### UA-064 Stage the Golden Agents deed ground truth for NL-AsdSAA 5075 (2026-11-11, from the 5075 survey chat)
+- **Action:** Decide how the deed begin/end marks go into `ground_truth/` (survey: `docs/staging/NL-AsdSAA_5075_golden_agents.md`).
+  An AS session then stages them and adds the catalogue row in `ground_truth/README.md`.
+- **Options:** (a) copy `data/records.csv`, `README.md`, `CITATION.cff` and `LICENSE.md` unchanged (about 75 MB) into
+  `ground_truth/NL-AsdSAA_5075/golden_agents_notarial_coordinates/source/`, noting in the catalogue that the persons/locations/RDF
+  files were left out; (b) a symlink to the whole folder on T7_Data (2.2 GB; breaks when the drive is not mounted);
+  (c) copy the whole folder (2.2 GB). Recommended: (a).
+- **Default if unanswered:** nothing is staged; the ground truth stays only on T7_Data.
+- **Blocks:** any 5075 deed-boundary evaluation (UA-065).
+- **Response:** For now b. When we start using this more intensively, we can consider moving it the local drive.
+- **Resolved 2026-11-11 (chat session):** option (b). `ground_truth/NL-AsdSAA_5075/golden_agents_notarial_coordinates/source` is a symlink to the T7_Data folder; catalogue row added in `ground_truth/README.md` (the "Not yet here" line removed). Copy to the local drive once it is used heavily.
+
+### UA-065 Use NL-AsdSAA 5075 for deed-boundary work (2026-11-11, from the 5075 survey chat)
+- **Action:** Decide where the 5075 deed ground truth (217 usable inventories, 43,034 deeds, 83,289 pages, complete enough for
+  precision) goes in the plan.
+- **Options:** (a) a phase-19 candidate, planned with the layout candidates in `plan/CONTEXT.md` §4 after the phase-18 review;
+  (b) its own phase after phase 19; (c) staging only for now, no plan. Recommended: (a). Notarial deeds have begin and end marks
+  on the scan and mostly two-page openings, so they test the start detector on a new genre and the page layout handling together.
+- **Default if unanswered:** (c).
+- **Blocks:** nothing now; phase-19 planning.
+- **Response:** a.
+- **Resolved 2026-11-11 (chat session):** option (a). Recorded as a phase-19 candidate in `plan/CONTEXT.md` §4 ("NL-AsdSAA 5075 notarial deeds").
+
+### UA-066 Answer republic-segmentation on importing AS code (2026-11-11, from coordination #10)
+- **Action:** Decide the three answers; this session then drafts the reply to #10 for you to approve. Facts: `analysis.page_structure`
+  is committed and tagged (latest tag v0.22.0); it changed after fa5cc63 in phases 13–14 (new `LayoutParams` fields, off by
+  default), and `_coverage`/`_zero_gaps` are private names that the changelog does not cover. `analysis.listlike` is phase-18
+  work, uncommitted, so in no release yet. `docs/shared_library/upstream_inventory.md` §2 already sets the sibling rule.
+- **Options:** (1) import from: (a) the latest tag at the time RS switches, after RS checks the v6 rebuild is identical,
+  with the two private helpers made public (or kept as copies) — recommended; (b) pin v0.14.0, the first tag that contains fa5cc63. (2) RS's changes
+  (`sort_rows` with the "beside" test, `guard_blocks` on line boxes): (a) RS keeps thin wrappers now; AS takes `sort_rows` as an
+  opt-in option when the phase-19 reading-order candidate (`plan/CONTEXT.md` §4) is planned — recommended; (b) AS upstreams both
+  now in a separate step. (3) install: (a) as for LotA/NLP: editable install of the local clone while co-developing, a pinned
+  tag (`pip install "archival-structures @ git+file://…@vX.Y.Z"`) for a frozen rebuild — recommended; (b) pinned tag only.
+  `listlike`: importable from the first release after phase 18 is committed.
+- **Default if unanswered:** no reply; RS keeps its copies (it says nothing is blocked).
+- **Blocks:** nothing.
+- **Response:** 1 a, 2 a, 3 a.
+- **Resolved 2026-11-11 (chat session):** all recommended options. Reply posted on #10 (https://github.com/Data-Scopes/coordination/issues/10#issuecomment-6793077546); AS's commitments are in `plan/CONTEXT.md` §4.
+
+### UA-067 Answer republic-segmentation on depositing gold A4–A9 (2026-11-11, from coordination #11)
+- **Action:** Decide the answers; this session then drafts the reply to #11 for you to approve.
+- **Options:** (1) `source/`: (a) RS's files exactly as they are (annotator exports, TSVs) plus a README naming the page-JSON
+  version the `line_id`s refer to — recommended, as the store's rule is "the dataset exactly as received"; (b) one agreed
+  format. (2) `converted/`: (a) AS writes the InventoryGroundTruth YAMLs when an AS step first uses a set (as for the Generale
+  Missiven) — recommended; (b) RS writes them. (3) held out: (a) the catalogue row says "held out" or "sealed" per set, and a
+  `scoring_log.tsv` next to `source/` (date, project, step, set, what was scored) gets a line for every scored run, so the
+  row points to it — recommended; (b) the count only, in the catalogue row. (4) the REPUBLIC catalogue row: (a) accept RS's
+  updated text for v6 — recommended; (b) AS rewrites it from `report/09-layer-v6.md`.
+- **Default if unanswered:** no reply; the gold stays in RS.
+- **Blocks:** nothing now; scoring AS's hand layer against A7–A9 later.
+- **Response:** 1 a, 2 a, 3 a, 4 a.
+- **Resolved 2026-11-11 (chat session):** all recommended options, one dataset folder per set. Reply posted on #11 (https://github.com/Data-Scopes/coordination/issues/11#issuecomment-6793078036); recorded in `plan/CONTEXT.md` §4.
+
+### UA-068 Copy RS gold A4–A9 into ground_truth/ and update the catalogue (2026-11-11, from coordination #11)
+- **Action:** Decide; this session then does it and drafts a confirmation on #11 for you to approve. RS staged the six sets in
+  `/Users/Shared/claude_projects/data_scopes/republic-segmentation/output/gold_deposit/` (584 KB; `SHA256SUMS` checked: 52 files
+  OK; contents not opened here, as A6–A9 are held out or sealed). RS asks AS to copy them, add one catalogue row per set and
+  replace the paragraph "REPUBLIC 2026-03 export and its successor" in `ground_truth/README.md` with its v6 text (posted on #11).
+  Status per RS: A4, A5 development; A6 held out; A7 `build/` development, `sealed/` held out (partly seen); A8, A9 sealed.
+- **Options:** (a) copy the six folders with `cp -pR` to `ground_truth/NL-HaNA_1.01.02/`, re-check `SHA256SUMS` there, add the six
+  rows and RS's paragraph unchanged — recommended; (b) the same, but symlink the folders instead of copying (breaks if RS moves
+  `output/`); (c) wait.
+- **Default if unanswered:** (c); the sets stay in RS's `output/gold_deposit/`.
+- **Blocks:** scoring AS's hand layer against A7–A9.
+- **Response:** a
+
+### UA-069 Pick the cross-machine data route (2026-11-11, from the data-sharing comparison chat; coordination #7)
+- **Action:** Decide, then reply on coordination #7 (this session drafts the reply for you to approve). Two Run checks first,
+  both need your SURF login: (1) in Research Drive, can a project folder hold external (non-institution) collaborators, and is the
+  quota per project or per user? (2) can you create a Research Drive WebDAV/app password, and does it work with `rclone` against
+  your project folder (`rclone lsd <remote>:`)? The SURF wiki page needed a login, so this session could not read it.
+- **Options:** (a) Research Drive project folder as the store, `rclone` copy/sync on each machine, `manifest.json` + `SHA256SUMS`
+  per layer as integrity check, small text (ground-truth YAML) stays in git; (b) as (a) plus DVC with a WebDAV remote;
+  (c) GitHub release assets per layer (<= 2 GB per file); (d) Syncthing/Tailscale directly between the machines — recommended: (a).
+- **Default if unanswered:** no route; layers keep moving by ad-hoc copy, and #7 stays open.
+- **Blocks:** the cross-machine pairings in coordination #2–#5.
+- **Response:**
+- **Resolved 2026-11-11 (chat session):** answered (a) in the chat. Six folders copied with `cp -pR` to `ground_truth/NL-HaNA_1.01.02/republic_segmentation_A4…A9/` (52 checksums OK, a `SHA256SUMS` per set beside `source/`); six catalogue rows, RS's v6 paragraph unchanged and a paragraph on the sets' use and scoring log added to `ground_truth/README.md`. Only the deposit READMEs were read, no gold files.
+
+### UA-070 Label convention for items with prose and an amount column (2026-11-17, from UA-063 discussion)
+- **Action:** Decide how lines of an inventory or account with multi-line item descriptions and an aligned amount column
+  are labelled in the UA-063 test pages (AsdSAA 5075 P043–P048, also P001-like accounts).
+- **Options:** (a) the whole block is `table` (description lines and amount lines), one element, `start = 1` on its
+  first line; add `prose` to the line note of description lines that are full sentences, so 24d can read them apart;
+  (b) description lines `running_text`, amount lines `table` (two interleaved elements, as on P045 now);
+  (c) description lines `list`, amount lines `table` (the reader's choice on P045 and P047).
+  Recommended: (a). It matches the brief's definition (`table`: aligned columns, amounts, ledger rows), the frozen dev
+  gold for this stratum (P089–P092: only `table`/`list`) and your own P046; (b) makes these lines negatives on test
+  but positives on dev for bar L.
+- **Default if unanswered:** the pages stay as you leave them; P045 (`running_text`) and P046 (`table`) then disagree,
+  and the 24d error analysis reports the stratum with that caveat.
+- **Blocks:** your review of P047–P048 and a re-check of P045 (and P001); nothing else.
+- **Response:** a
+
+- **Resolved 2026-11-17 (chat session):** answered (a) in the chat. Ruling recorded in `plan/phase-18-page-element-types/PROGRESS.md` (rubric clarification 2026-11-17); note token `prose` added to the 24d brief's error analysis together with the earlier `colhead`/`cont`. The user relabels P045 (and P001 if applicable) and labels P047–P048 on the check page.
+
+### UA-071 Label for inserted omitted text (2026-11-17, from UA-063 Response)
+- **Action:** Decide the label of a line that inserts omitted text into another line (caret insertions such as P047
+  lines 9 and 13 "aen").
+- **Options:** (a) `addition` with placement `interlinear` or `margin`, whatever the host line's type; (b) the host
+  line's type (e.g. `running_text`) with its own placement; (c) (a) plus the host type in the note.
+  Recommended: (a). The brief already defines `addition` as text that continues or corrects the main text, and the
+  host type is the type of the line it attaches to, so it can be recovered from geometry without labelling it twice.
+- **Default if unanswered:** the readers' labels stand (they used (a)).
+- **Blocks:** nothing.
+- **Response:** a
+- **Resolved 2026-11-17 (chat session):** answered (a) in the chat. Ruling recorded in `plan/phase-18-page-element-types/PROGRESS.md`; no relabelling needed (readers used (a)).
+
+### UA-072 How to collect the `prose` flag on test tables (2026-11-17, from UA-070 follow-up)
+- **Action:** Decide whether the `prose` note (UA-070) is collected for P001–P044, and how.
+- **Options:** (a) do not collect it in phase 18: keep `prose` on P045–P048 as examples only; 24d reads prose-cell
+  tables through its fixed false-negative category "name or item lists written as prose lines" (counts and verbatim
+  lines, no recall split); if those dominate the misses, the flag becomes a phase-19 annotation property, set per
+  element; (b) a separate pass after the test-gold freeze: a small check page listing each `table`/`list` element of
+  the test pages (P001–P044: 49 elements on 15 pages, 935 lines, export of 2026-11-16), one key per element "cells
+  are prose", saved to its own file beside the frozen gold; 24d then reports recall on prose-cell tables;
+  (c) add `prose` line by line on P001–P044 now. Recommended: (a). The bars do not use the flag, a flag on only 4 of
+  60 pages cannot be read as a share, and the per-element flag in (b) is the grain phase 19 would need anyway.
+- **Default if unanswered:** (a); 24d ignores the `prose` token for counts and reads the P045–P048 lines as examples.
+- **Blocks:** nothing (the UA-063 freeze does not wait for it).
+- **Response:** a
+- **Resolved 2026-11-17 (chat session):** answered (a) in the chat. No prose pass in phase 18; the 24d brief already says `prose` marks only examples on P045–P048 unless (b) was chosen. Candidate for phase 19: a per-element "cells are prose" property.
+
+### UA-063 Correct the agent labels of 60 test pages (2026-11-02, from step 24c)
+- **Action:** Run (any directory): `open "/Users/Shared/claude_projects/data_scopes/archival-structures/reports/data/phase-18-page-element-types/step-24c/element_page.html"`
+  (opens in your default browser; open it from that folder, the page images are referenced relative to it, and the sharper zoom on
+  Nationaal Archief / Memorix scans needs the internet). Correct the 60 pages (instructions and keys are at the top of the page;
+  change only what is wrong, press Enter when a page is right; new type ideas go in the page note), then press Export and put the
+  downloaded `element_verdicts.json` in `/Users/Shared/claude_projects/data_scopes/archival-structures/reports/data/phase-18-page-element-types/step-24c/`.
+  Then Run from `/Users/Shared/claude_projects/data_scopes/archival-structures`:
+  `.venv/bin/python -I reports/data/phase-18-page-element-types/step-24c/summarise_elements.py`
+  (it freezes the test gold; it refuses to run twice). Tell the session it ran.
+- **Options:** (a) all 60 pages; (b) as many as you can (unreviewed pages are left out of the test). Recommended: (a).
+- **Default if unanswered:** no test gold; 24d reports dev results only and no bar is tested.
+- **Blocks:** the 24d test stage (bars L and M).
+- **Response:** To disduss: how should I label text lines that represent the insertion of omitted text? Should that be labelled differently based on the type of the line that has the omitted text?
+- **Resolved 2026-11-17 (chat session):** answered (a) in the chat: all 60 test pages reviewed (export 2026-11-17T10:56:38Z), `summarise_elements.py` run by the user. `gold/test_labels.tsv` 4,334 rows, 60 pages, changed share 0.150, sha256 286b3ad0…fb41 (`gold/SHA256SUMS` checks OK); `gold/test_gold.done` 2026-11-17T10:57:25Z. The Response question (inserted omitted text) was answered by UA-071 (a); label rulings of this session (UA-070, UA-071, UA-072) are in `plan/phase-18-page-element-types/PROGRESS.md`.
+
+### UA-073 Which phase to plan after phase 18 (2026-11-17, from the phase-18 review)
+- **Action:** Decide which phase the next Opus planning session plans as phase 19. Write the letter in **Response**.
+- **Options:**
+  - (a) **Page elements v2:** separate second table columns and register cells from margin blocks before calling
+    margin (bar M failed at P 0.259, F18-R.2); an element-level list/table reader that groups wrapped lines into rows
+    (bar L failed at R 0.575, F18-24d.12, F18-R.5); annotation format v2 (element ids or a continues flag, a
+    per-element "cells are prose" property, a form-vs-table ruling); fresh gold, since the phase-18 test gold is spent.
+  - (b) **NL-AsdSAA 5075 deed boundaries** (UA-065 a): document starts and ends on the Golden Agents marks (217
+    inventories, precision measurable).
+  - (c) **Reading order / layout** (cross-project: RC and RS, coordination #10): two-column hand pages, gutter merges,
+    RS's `sort_rows` as an opt-in option.
+  Recommended: (a). Your phase-18 inputs put detectors for the new types in phase 19, and the phase-18 error analysis
+  names concrete first steps (the margin/table-column split is a geometry rule with a clear failure set on 2.10.50 and
+  2.10.01). (b) stays the next candidate.
+- **Default if unanswered:** the next planning session asks you at its start; nothing is planned until then.
+- **Blocks:** planning of phase 19 only. Review fix 24r and the v0.23.0 release do not wait for it.
+- **Response:**
+- **Resolved 2026-11-17 (chat session):** answered (a) Page elements v2 in the chat (question dialog). Phase 19 planned in the same session (`plan/phase-19-*/`).
+
+### UA-074 Move 26 old SG dev builds to the drive to free ~35 GB (2026-11-17, from the disk scan of republic-classification)
+- **Action:** Decide whether a session moves `data/text_layer_v2_dev/<run>/` for every run except `15i-src`, `15ir-a`,
+  `15m-a`, `15m-v1check` and `19e-a` to `/Volumes/T7_Data/Data/claude-projects-external/archival-structures/data/text_layer_v2_dev/`
+  (where 06R–15g already are), leaving a symlink at each old path. The session runs `protect.py` before the move and again on the
+  drive copies (it does not follow symlinks, so the local after-list loses exactly the moved runs), copies with `cp -pR`, verifies each copy by checksum before removing
+  the local folder, and writes the inventory list of all dev runs to a local manifest first (the phase-19 sample draw
+  excludes those inventories and must not depend on the drive being mounted).
+- **Options:** (a) all 26 runs (~35 GB); (b) only the 13 full builds of ~2.6 GB each (15w-a, 15wr-a, 15x-a, 15y-b,
+  15yr-a, 19b-a, 19b-v4check, 19c-a, 19d-a, 19f-a, 19f-piecescheck, 19g-a, 20a-pin; ~34 GB); (c) nothing.
+  Recommended: (b): almost all the gain, and the small runs stay local for quick reads. Nothing in AS is worth deleting
+  outright: every large folder is an input or a protected reference of a finished phase.
+- **Default if unanswered:** nothing moves; the disk stays at ~49 GB free.
+- **Blocks:** nothing in AS. With the drive unmounted, old phase scripts that read a moved run fail with a missing path.
+- **Response:** b
+- **Resolved 2026-11-17 (phase-19 planning session):** (b) done. The 13 full builds were moved with `reports/data/phase-19-page-elements-v2/planning/ua074_move.py`: per run a sha256 manifest of every file, `cp -pR` to the drive, the same manifest of the copy; all 13 identical (51,520 files), local folders removed, symlinks left at the old paths. Manifests: `<drive>/…/text_layer_v2_dev/ua074-manifests/`; protect lists `ua074-protected-{before,after}.txt` there (the after-list lacks exactly the moved runs' 51,520 lines; nothing else changed). Local `data/text_layer_v2_dev` 39 GB → 5.5 GB. Log: `planning/ua074_move.log`.

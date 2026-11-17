@@ -30,7 +30,7 @@ level, since it describes the physical photographic unit, not a sub-region of it
 property of the tag, the same way SegmOnto has zone-only and line-only types sharing one
 grammar.
 
-## The four namespaces
+## The five namespaces
 
 - **`carrier:`** -- what the *scan* physically is. Scan-level only. Suggested types:
   `page`, `opening`, `foldout`, `cut`. Informed by standard codicological terminology
@@ -44,26 +44,41 @@ grammar.
   `form`'s `label`/`value` subtypes borrow the question/answer (fixed-prompt vs.
   variable-response) distinction from form-understanding research (e.g. the FUNSD task).
   Suggested types: `running_text`, `table`, `list`, `form` (`label`/`value`), `marginalia`
-  (`note`/`commentary`/`correction`/`variants`), `closing`, `heading`, `title_page`, `cover`,
-  `running_title`, `seal`, `stamp` (`postal`/`curatorial`), `damage`
+  (`note`/`commentary`/`correction`/`variants`), `closing` (`formula`/`dating`/`signature`), `heading` (`title`/`date`/`summary`), `title_page`, `cover`,
+  `running_title` (`date`), `seal`, `stamp` (`postal`/`curatorial`), `damage`
   (`corrosion`/`hole`/`mold`/`peeled`/`soaked`), `graphic`
-  (`illustration`/`ornamentation`/`figure`), `numbering` (`page`/`other`), `quire_marks`
+  (`illustration`/`ornamentation`/`figure`), `numbering` (`page`/`folio`/`item`/`other`), `quire_marks`
   (`signature`/`catchwords`), `digitization_artefact` (`ruler`/`test_card`), `drop_capital`
-  (`historiated`/`floriate`/`flourish`/`voided`/`parted`), `music`, and `custom` (any subtype --
+  (`historiated`/`floriate`/`flourish`/`voided`/`parted`), `music`, `salutation`, `endorsement`, `reference`, `note`, `addition`, `noise`, and `custom` (any subtype --
   SegmOnto's `CustomZone` escape hatch, for anything that doesn't fit yet).
+  Definitions of the types added in vocabulary v2 (phase 18):
+  - `heading`: opens a unit once (title, a date line opening a sitting or entry, a summary of what follows);
+  - `running_title`: repeats on page after page (a volume title, `:date` the current unit's date at the page top);
+  - `salutation`: address and salutation of a letter or petition;
+  - `closing` `:formula` / `:dating` / `:signature`: the end of a document (closing formula, place and date, signatures);
+  - `endorsement`: dockets and receipt notes, usually on the back of a letter;
+  - `numbering` `:page` / `:folio` / `:item` / `:other`: page numbers, folio numbers (one per leaf), item or paragraph numbers;
+  - `reference`: a locator or cross-reference ("fol. 12", "vide", "zie pag. 4");
+  - `note`: a remark on the main text (including archivists' notes); `addition`: text inserted into the main text;
+  - `noise`: bleed-through, text from the facing page, HTR garbage.
+
+  `marginalia` is kept for old annotations and means "placement margin, type not given"
+  ({func}`~archival_structures.datasets.vocabulary.legacy_placement`).
 - **`position:`** -- where a tagged scan/page/region falls in a document. Suggested types:
   `start`, `continuation`, `end`. Informed by diplomatics' classical tripartite document
   structure (protocol/text/eschatocol, i.e. opening formula / body / closing formula) at the
   structural level only -- not its full medieval-charter terminology (*intitulatio*,
   *corroboratio*, ...), which doesn't fit early-modern administrative material.
+- **`placement:`** -- where an element sits, independent of what it is. Suggested types: `main`,
+  `margin`, `top`, `bottom`, `interlinear`. A marginal note is `placement:margin` plus its type.
 - **`doctype:`** -- archive- or inventory-specific document/block type (e.g. `doctype:deed`,
   `doctype:deed:loan_table`, `doctype:minutes`). Deliberately uncontrolled: unlike the other
-  three namespaces, there is no suggested type list, because this is exactly the layer meant to
+  four namespaces, there is no suggested type list, because this is exactly the layer meant to
   be discovered iteratively per archive rather than standardised up front. A scan's directory
   path already identifies its archive/inventory number, so a `doctype:` tag doesn't repeat
   that -- `doctype:deed` means "a deed, in whichever archive this annotation lives under".
 
-`is_known_tag` checks a tag against `CARRIER_TYPES`/`GENERIC_TYPES`/`POSITION_TYPES` for
+`is_known_tag` checks a tag against `CARRIER_TYPES`/`GENERIC_TYPES`/`POSITION_TYPES`/`PLACEMENT_TYPES` for
 documentation/autocomplete purposes; it does not gate what can be stored. Nothing in this
 package rejects an unrecognised tag -- the whole point of the design is that the vocabulary
 grows as new content types are encountered, the same way SegmOnto's own guidelines describe
@@ -80,6 +95,7 @@ verso: generic:running_text, doctype:minutes, position:continuation
 recto: generic:running_text, doctype:deed, position:start
   region (closing block): generic:closing, doctype:deed:closing
   region (loan table):    generic:table,   doctype:deed:loan_table
+  region (marginal summary): generic:heading:summary, placement:margin
 ```
 
 The `generic:` tags are what let analysis compare across `NL-AsnDA` and `NL-HaNA` even though

@@ -45,6 +45,7 @@ colour_and_ink
 coordinate_bridging
 datasets_and_annotation
 vocabulary
+page_elements
 ead_mets_parsing
 stream_analysis
 text_layer

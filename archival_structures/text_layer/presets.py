@@ -257,6 +257,23 @@ VOC_1_04_02_V5SG = dataclasses.replace(
 VOC_1_04_02_V6 = dataclasses.replace(
     VOC_1_04_02_V5SG, name="NL-HaNA_1.04.02_text_layer_v6", wbc_pinned={"default": "-=„¬"},
     description="NL-HaNA 1.04.02 (VOC) text layer v6: v5sg plus ¬ as a word break (phase 17 step 23b)")
+# Phase 18 step 24a: archive plumbing only, the SG v5 rules as in VOC_1_04_02_V5SG.
+def _archive_v5sg(archive_id, source_pattern, scan_id_prefix):
+    return dataclasses.replace(
+        VOC_1_04_02_V5SG, name=f"{archive_id}_text_layer_v5sg", archive_id=archive_id,
+        scan_id_prefix=scan_id_prefix, source_pattern=source_pattern,
+        description=f"{archive_id}: the SG v5 rules unchanged (phase 18 step 24a)")
+
+
+_ARCHIVES_V5SG = {
+    "na_1.05.06_v5sg": _archive_v5sg("NL-HaNA_1.05.06", r"NL-HaNA_1\.05\.06_(?P<inv>[0-9]+)", "NL-HaNA_1.05.06"),
+    "na_2.10.50_v5sg": _archive_v5sg("NL-HaNA_2.10.50", r"NL-HaNA_2\.10\.50_(?P<inv>[0-9]+)", "NL-HaNA_2.10.50"),
+    "na_2.10.01_v5sg": _archive_v5sg("NL-HaNA_2.10.01", VOC_SOURCE_PATTERN, "NL-HaNA_2.10.01"),
+    "asdsaa_5023_v5sg": _archive_v5sg("NL-AsdSAA_5023", r"NL-AsdSAA_5023_(?P<inv>[0-9][0-9.]*)", None),
+    "asdsaa_5075_v5sg": _archive_v5sg("NL-AsdSAA_5075", r"NL-AsdSAA_5075_(?P<inv>[0-9][0-9.]*)", None),
+    "asdsaa_89_v5sg": _archive_v5sg("NL-AsdSAA_89", r"NL-AsdSAA_89_(?P<inv>[0-9][0-9.]*)", None),
+    "asnda_0114.11_v5sg": _archive_v5sg("NL-AsnDA_0114.11", r"NL-AsnDA_0114\.11_(?P<inv>[0-9][0-9.]*)", None),
+}
 SG_1_10_94_V4 = dataclasses.replace(
     SG_PRINT_V3, name="NL-HaNA_1.10.94_text_layer_v4",
     description="NL-HaNA 1.10.94 text layer v4 (print mode fixed; box height recorded)",
@@ -267,7 +284,7 @@ PRESETS = {"voc_v1": VOC_V1, "sg_1.01.02_v2": SG_HAND_V2, "sg_1.10.94_v2": SG_PR
            "sg_1.01.02_v3": SG_HAND_V3, "sg_1.10.94_v3": SG_PRINT_V3,
            "sg_1.01.02_v4": SG_1_01_02_V4, "sg_1.10.94_v4": SG_1_10_94_V4,
            "sg_1.01.02_v5": SG_1_01_02_V5, "voc_1.04.02_v5sg": VOC_1_04_02_V5SG,
-           "voc_1.04.02_v6": VOC_1_04_02_V6}
+           "voc_1.04.02_v6": VOC_1_04_02_V6, **_ARCHIVES_V5SG}
 
 
 def inventory_preset(preset, mode):

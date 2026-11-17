@@ -61,6 +61,15 @@ class TestTypeOptionsForNamespace(TestCase):
     def test_doctype_with_no_suggestions_returns_empty(self):
         self.assertEqual([], type_options_for_namespace('doctype'))
 
+    def test_placement_returns_placement_types(self):
+        self.assertEqual(['bottom', 'interlinear', 'main', 'margin', 'top'], type_options_for_namespace('placement'))
+
+    def test_every_closed_namespace_has_options(self):
+        from archival_structures.datasets.vocabulary import NAMESPACES, DOCTYPE
+        for namespace in NAMESPACES:
+            if namespace != DOCTYPE:
+                self.assertTrue(type_options_for_namespace(namespace), namespace)
+
 
 class TestSubtypeOptionsForType(TestCase):
 
@@ -72,6 +81,9 @@ class TestSubtypeOptionsForType(TestCase):
 
     def test_doctype_namespace_returns_empty(self):
         self.assertEqual([], subtype_options_for_type('doctype', 'deed'))
+
+    def test_placement_type_has_no_subtypes(self):
+        self.assertEqual([], subtype_options_for_type('placement', 'margin'))
 
     def test_empty_type_returns_empty(self):
         self.assertEqual([], subtype_options_for_type('generic', ''))

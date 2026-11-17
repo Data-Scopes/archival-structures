@@ -90,3 +90,65 @@ class TestVocabularyTables(TestCase):
 
     def test_doctype_constant_matches_namespace_string(self):
         self.assertEqual('doctype', DOCTYPE)
+
+
+_OLD_GENERIC = {
+    'running_text': set(), 'table': set(), 'list': set(), 'form': {'label', 'value'},
+    'marginalia': {'note', 'commentary', 'correction', 'variants'}, 'closing': set(), 'heading': set(),
+    'title_page': set(), 'cover': set(), 'running_title': set(), 'seal': set(), 'stamp': {'postal', 'curatorial'},
+    'damage': {'corrosion', 'hole', 'mold', 'peeled', 'soaked'},
+    'graphic': {'illustration', 'ornamentation', 'figure'}, 'numbering': {'page', 'other'},
+    'quire_marks': {'signature', 'catchwords'}, 'digitization_artefact': {'ruler', 'test_card'},
+    'drop_capital': {'historiated', 'floriate', 'flourish', 'voided', 'parted'}, 'music': set(), 'custom': None,
+}
+
+
+class TestVocabularyV2(TestCase):
+
+    def test_placement_types_known(self):
+        from archival_structures.datasets.vocabulary import PLACEMENT, PLACEMENT_TYPES, NAMESPACES
+        self.assertIn(PLACEMENT, NAMESPACES)
+        self.assertEqual({'main', 'margin', 'top', 'bottom', 'interlinear'}, set(PLACEMENT_TYPES))
+        for t in PLACEMENT_TYPES:
+            self.assertTrue(is_known_tag(f'placement:{t}'))
+        self.assertTrue(is_known_tag('placement:interlinear'))
+
+    def test_placement_round_trips(self):
+        tag = Tag.parse('placement:margin')
+        self.assertEqual(('placement', 'margin'), (tag.namespace, tag.type))
+        self.assertEqual('placement:margin', str(tag))
+
+    def test_new_types_and_subtypes_known(self):
+        for tag in ('generic:heading:summary', 'generic:heading:title', 'generic:heading:date',
+                    'generic:numbering:folio', 'generic:numbering:item', 'generic:closing:signature',
+                    'generic:closing:formula', 'generic:closing:dating', 'generic:running_title:date',
+                    'generic:noise', 'generic:salutation', 'generic:endorsement', 'generic:reference',
+                    'generic:note', 'generic:addition'):
+            with self.subTest(tag):
+                self.assertTrue(is_known_tag(tag))
+                parsed = Tag.parse(tag)
+                if parsed.subtype:
+                    self.assertIn(parsed.subtype, GENERIC_TYPES[parsed.type])
+
+    def test_every_old_tag_still_known(self):
+        for type_, subtypes in _OLD_GENERIC.items():
+            self.assertIn(type_, GENERIC_TYPES)
+            self.assertTrue(is_known_tag(f'generic:{type_}'))
+            for sub in (subtypes or ()):
+                self.assertIn(sub, GENERIC_TYPES[type_])
+                self.assertTrue(is_known_tag(f'generic:{type_}:{sub}'))
+        for t in ('page', 'opening', 'foldout', 'cut'):
+            self.assertTrue(is_known_tag(f'carrier:{t}'))
+        for t in ('start', 'continuation', 'end'):
+            self.assertTrue(is_known_tag(f'position:{t}'))
+
+    def test_legacy_placement(self):
+        from archival_structures.datasets.vocabulary import legacy_placement
+        self.assertEqual('margin', legacy_placement('generic:marginalia:note'))
+        self.assertEqual('margin', legacy_placement('generic:marginalia'))
+        self.assertIsNone(legacy_placement('generic:heading'))
+        self.assertIsNone(legacy_placement('bad'))
+        self.assertIsNone(legacy_placement('doctype:marginalia'))
+
+    def test_unknown_placement_type_not_known(self):
+        self.assertFalse(is_known_tag('placement:nowhere'))

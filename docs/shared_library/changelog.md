@@ -4,6 +4,25 @@ Changes to archival-structures' public API or packaging that affect the sibling 
 (language-of-the-archive = LotA, nlp-start-page-detection = NLP). Steps refer to
 `upstream_inventory.md` §4. Newest first.
 
+## v0.23.0 (2026-11-17)
+
+### Step 24a: Vocabulary v2, listlike port, page_elements reader, archive presets
+
+- `datasets.vocabulary`: new namespace `PLACEMENT` (in `NAMESPACES`, now five) with `PLACEMENT_TYPES`; new generic types
+  `salutation`, `endorsement`, `reference`, `note`, `addition`, `noise`; new subtypes for `heading`, `closing`,
+  `running_title`, `numbering`; `LEGACY_PLACEMENT_TYPES`, `legacy_placement`. Additive: every tag known before is still
+  known. A caller that pins `len(NAMESPACES) == 4` would break; no sibling import does so.
+- New modules `analysis.listlike` (port of shared-tools `listlike.py`, defaults unchanged) and `analysis.page_elements`.
+- `text_layer.presets`: seven archive presets (`*_v5sg`) added to `PRESETS`. No existing preset changes.
+- No sibling imports affected.
+
+### Step 24r: Phase-18 review fixes
+
+- `datasets.bulk_tagging`: `type_options_for_namespace('placement')` returns the placement types (was `[]`); the
+  namespace map includes `placement:`. Additive.
+- `analysis.listlike`: module docstring only (the original docstring is a literal block); no behaviour change.
+- No sibling imports affected.
+
 ## v0.22.0 (2026-11-02)
 
 ### Step 23b: VOC preset v6 (¬ word break)

@@ -6,7 +6,7 @@ reused here unchanged). The same grammar applies at every level of granularity -
 one page (verso/recto) within a two-page opening, or one region/line within a page -- the only
 difference between levels is what a tag list is attached to, not the tags themselves.
 
-There are four namespaces:
+There are five namespaces:
 
 - `carrier:` -- what the *scan* physically is (page/opening/foldout/cut). Scan-level only;
   informed by standard codicological terminology (cf. Muzerelle's *Vocabulaire codicologique*,
@@ -24,9 +24,13 @@ There are four namespaces:
   i.e. opening formula / body / closing formula) -- used here at the structural level only, not
   its full medieval-charter terminology (*intitulatio*, *corroboratio*, ...), which doesn't fit
   early-modern administrative material.
+- `placement:` -- where an element sits on the page, independent of what it is (`main`, `margin`,
+  `top`, `bottom`, `interlinear`). A marginal note is `placement:margin` plus its type, e.g.
+  `generic:heading:summary, placement:margin`. `generic:marginalia` is kept for old annotations and
+  means "placement margin, type not given" (see `legacy_placement`).
 - `doctype:` -- archive- or inventory-specific document/block type (e.g. `doctype:deed`,
   `doctype:deed:loan_table`, `doctype:minutes`). Deliberately uncontrolled: unlike the other
-  three namespaces, there is no suggested type list, because this is exactly the layer meant to
+  four namespaces, there is no suggested type list, because this is exactly the layer meant to
   be discovered iteratively per archive rather than standardised up front. A scan's directory
   path already identifies its archive/inventory number, so a `doctype:` tag doesn't need to
   repeat that -- `doctype:deed` means "a deed, in whichever archive this annotation lives under".
@@ -46,8 +50,9 @@ from typing import Dict, FrozenSet, Optional
 CARRIER = 'carrier'
 GENERIC = 'generic'
 POSITION = 'position'
+PLACEMENT = 'placement'
 DOCTYPE = 'doctype'
-NAMESPACES = (CARRIER, GENERIC, POSITION, DOCTYPE)
+NAMESPACES = (CARRIER, GENERIC, POSITION, PLACEMENT, DOCTYPE)
 
 CARRIER_TYPES: Dict[str, FrozenSet[str]] = {
     'page': frozenset(),
@@ -62,20 +67,26 @@ GENERIC_TYPES: Dict[str, Optional[FrozenSet[str]]] = {
     'list': frozenset(),
     'form': frozenset({'label', 'value'}),
     'marginalia': frozenset({'note', 'commentary', 'correction', 'variants'}),
-    'closing': frozenset(),
-    'heading': frozenset(),
+    'closing': frozenset({'formula', 'dating', 'signature'}),
+    'heading': frozenset({'title', 'date', 'summary'}),
     'title_page': frozenset(),
     'cover': frozenset(),
-    'running_title': frozenset(),
+    'running_title': frozenset({'date'}),
     'seal': frozenset(),
     'stamp': frozenset({'postal', 'curatorial'}),
     'damage': frozenset({'corrosion', 'hole', 'mold', 'peeled', 'soaked'}),
     'graphic': frozenset({'illustration', 'ornamentation', 'figure'}),
-    'numbering': frozenset({'page', 'other'}),
+    'numbering': frozenset({'page', 'folio', 'item', 'other'}),
     'quire_marks': frozenset({'signature', 'catchwords'}),
     'digitization_artefact': frozenset({'ruler', 'test_card'}),
     'drop_capital': frozenset({'historiated', 'floriate', 'flourish', 'voided', 'parted'}),
     'music': frozenset(),
+    'salutation': frozenset(),
+    'endorsement': frozenset(),
+    'reference': frozenset(),
+    'note': frozenset(),
+    'addition': frozenset(),
+    'noise': frozenset(),
     'custom': None,  # any subtype, per SegmOnto's CustomZone
 }
 
@@ -85,10 +96,22 @@ POSITION_TYPES: Dict[str, FrozenSet[str]] = {
     'end': frozenset(),
 }
 
+PLACEMENT_TYPES: Dict[str, FrozenSet[str]] = {
+    'main': frozenset(),
+    'margin': frozenset(),
+    'top': frozenset(),
+    'bottom': frozenset(),
+    'interlinear': frozenset(),
+}
+
+# generic types kept for old annotations that imply a placement (type not given)
+LEGACY_PLACEMENT_TYPES: Dict[str, str] = {'marginalia': 'margin'}
+
 _NAMESPACE_TYPES: Dict[str, Dict[str, Optional[FrozenSet[str]]]] = {
     CARRIER: CARRIER_TYPES,
     GENERIC: GENERIC_TYPES,
     POSITION: POSITION_TYPES,
+    PLACEMENT: PLACEMENT_TYPES,
 }
 
 _TAG_PATTERN = re.compile(
@@ -133,8 +156,8 @@ def make_tag(namespace: str, type: str, subtype: Optional[str] = None,
 
 
 def is_known_tag(tag: str) -> bool:
-    """Whether `tag` is well-formed and, for the three controlled namespaces (`carrier:`/
-    `generic:`/`position:`), uses one of their suggested types. `doctype:` tags are always
+    """Whether `tag` is well-formed and, for the four controlled namespaces (`carrier:`/
+    `generic:`/`position:`/`placement:`), uses one of their suggested types. `doctype:` tags are always
     considered known if well-formed -- that namespace is deliberately uncontrolled (see the
     module docstring). This is for documentation/autocomplete purposes; nothing in this
     package rejects a tag for failing this check."""
@@ -146,3 +169,15 @@ def is_known_tag(tag: str) -> bool:
         return True
     types = _NAMESPACE_TYPES.get(parsed.namespace)
     return types is not None and parsed.type in types
+
+
+def legacy_placement(tag: str) -> Optional[str]:
+    """The placement a legacy `generic:` tag implies (`generic:marginalia[:x]` -> `'margin'`), else
+    `None` (also for malformed tags and other namespaces)."""
+    try:
+        parsed = Tag.parse(tag)
+    except ValueError:
+        return None
+    if parsed.namespace != GENERIC:
+        return None
+    return LEGACY_PLACEMENT_TYPES.get(parsed.type)

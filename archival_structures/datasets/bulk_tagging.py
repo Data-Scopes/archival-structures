@@ -39,19 +39,20 @@ from archival_structures.datasets.annotations import (
     save_scan_annotation, scan_annotation_path,
 )
 from archival_structures.datasets.vocabulary import (
-    CARRIER, CARRIER_TYPES, DOCTYPE, GENERIC, GENERIC_TYPES, NAMESPACES, POSITION,
-    POSITION_TYPES, Tag, is_known_tag, make_tag,
+    CARRIER, CARRIER_TYPES, DOCTYPE, GENERIC, GENERIC_TYPES, NAMESPACES, PLACEMENT, PLACEMENT_TYPES,
+    POSITION, POSITION_TYPES, Tag, is_known_tag, make_tag,
 )
 
 logger = logging.getLogger(__name__)
 
-_NAMESPACE_TYPES = {CARRIER: CARRIER_TYPES, GENERIC: GENERIC_TYPES, POSITION: POSITION_TYPES}
+_NAMESPACE_TYPES = {CARRIER: CARRIER_TYPES, GENERIC: GENERIC_TYPES, POSITION: POSITION_TYPES,
+                    PLACEMENT: PLACEMENT_TYPES}
 
 
 def type_options_for_namespace(namespace: str, doctype_suggestions: Optional[List[str]] = None
                                ) -> List[str]:
     """Suggested `type` values for `namespace` -- the controlled vocabulary's own suggestions
-    for `carrier:`/`generic:`/`position:`, or `doctype_suggestions` (types already used
+    for `carrier:`/`generic:`/`position:`/`placement:`, or `doctype_suggestions` (types already used
     elsewhere on disk, see `used_doctype_types`) for the deliberately open `doctype:`."""
     if namespace == DOCTYPE:
         return sorted(doctype_suggestions or [])
